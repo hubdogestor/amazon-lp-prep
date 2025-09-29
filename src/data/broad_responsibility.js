@@ -1,4 +1,11 @@
 const broad_responsibility = {
+  principle: {
+    title: "Sucesso e crescimento trazem maior responsabilidade",
+    title_en: "Success and Scale Bring Broad Responsibility",
+    description: "Começamos numa garagem, mas não estamos mais lá. Somos grandes, impactamos o mundo, e estamos longe de ser perfeitos. Devemos ser humildes e pensativos sobre os efeitos secundários de nossas ações. Os líderes criam mais do que consomem e sempre deixam as coisas melhores do que as encontraram.",
+    description_en: "We started in a garage, but we're not there anymore. We are big, we impact the world, and we are far from perfect. We must be humble and thoughtful about even the secondary effects of our actions. Leaders create more than they consume and always leave things better than how they found them.",
+    icon: ""
+  },
   "id": "broad_responsibility",
   "name": "Sucesso e crescimento trazem maior responsabilidade",
   "cases": [

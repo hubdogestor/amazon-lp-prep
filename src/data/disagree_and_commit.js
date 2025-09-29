@@ -1,6 +1,13 @@
 ﻿const disagree_and_commit = {
+  principle: {
+    title: "Ter Personalidade; Discordar e Se Comprometer",
+    title_en: "Have Backbone; Disagree and Commit",
+    description: "Os líderes são obrigados a desafiar respeitosamente as decisões quando discordam, mesmo quando isso é desconfortável. Os líderes têm convicção e são tenazes. Uma vez que uma decisão é determinada, eles se comprometem totalmente.",
+    description_en: "Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. Once a decision is determined, they commit wholly.",
+    icon: ""
+  },
   "id": "disagree_and_commit",
-  "name": "Ser firme, discordar e se comprometer",
+  "name": "Ter Personalidade; Discordar e Se Comprometer",
   "cases": [
     {
       "title": "ADR e Decisão de Arquitetura Híbrida (Next)",

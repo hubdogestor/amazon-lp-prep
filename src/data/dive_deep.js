@@ -1,9 +1,16 @@
 ﻿const dive_deep = {
+  principle: {
+    title: "Mergulhar Fundo",
+    title_en: "Dive Deep",
+    description: "Os líderes operam em todos os níveis, mantêm-se conectados aos detalhes, auditam frequentemente e são céticos quando métricas e evidencias diferem. Nenhuma tarefa está abaixo deles.",
+    description_en: "Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No task is beneath them.",
+    icon: ""
+  },
   "id": "dive_deep",
   "name": "Mergulhar Fundo",
   "cases": [
     {
-      "title": "Timeouts Ocultos em Verificação Externa (Arrecadação Digital)",
+      "title": "Timeouts Ocultos em Verificação Externa (SEFAZ-RS)",
       "pt": {
         "s": "Um projeto de arrecadação digital apresentava queda de conversão em uma etapa específica, sem causa aparente nos relatórios executivos.",
         "t": "Minha missão era: Descobrir a causa raiz e recuperar a conversão sem aumentar custo de aquisição.",

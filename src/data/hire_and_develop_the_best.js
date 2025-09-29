@@ -1,9 +1,16 @@
 ﻿const hire_and_develop_the_best = {
+  principle: {
+    title: "Contratar e Desenvolver os Melhores",
+    title_en: "Hire and Develop the Best",
+    description: "Os líderes elevam o padrão de performance a cada contratação e promoção. Eles reconhecem talentos excepcionais e os movem pela organização. Os líderes desenvolvem líderes e levam a sério seu papel de orientar outros.",
+    description_en: "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others.",
+    icon: ""
+  },
   "id": "hire_and_develop_the_best",
   "name": "Contratar e Desenvolver os Melhores",
   "cases": [
     {
-      "title": "Funil de Contratação e Onboarding 90Dias",
+      "title": "Funil de Contratação e Onboarding 90Dias (Woop/Sicredi)",
       "pt": {
         "s": "Escassez de PMs seniores e alta variabilidade de entrega entre equipes impactavam previsibilidade.",
         "t": "Minha missão era: Atrair, selecionar e formar talentos de produto com alto padrão, elevando a barra continuamente.",
@@ -79,7 +86,7 @@
         }
       ]
     },    {
-      "title": "Aceleração de Lideranças Internas",
+      "title": "Aceleração de Lideranças Internas (Unimed)",
       "pt": {
         "s": "Crescimento do portfólio exigiu líderes de engenharia e design prontos para assumir programas complexos.",
         "t": "Minha missão era: Desenvolver líderes internos e reduzir dependência de mercado.",

@@ -1,9 +1,16 @@
 ﻿const insist_on_highest_standards = {
+  principle: {
+    title: "Insistir nos Mais Altos Padrões",
+    title_en: "Insist on the Highest Standards",
+    description: "Os líderes têm padrões implacavelmente altos - muitos podem pensar que esses padrões são excessivamente altos. Os líderes estão continuamente elevando o padrão e motivam suas equipes a entregar produtos, serviços e processos de alta qualidade.",
+    description_en: "Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes.",
+    icon: ""
+  },
   "id": "insist_on_highest_standards",
   "name": "Insistir nos Mais Altos Padrões",
   "cases": [
     {
-      "title": "Quality Gates e DoD/DoR em Squads",
+      "title": "Quality Gates e DoD/DoR em Squads (Woop/Sicredi)",
       "pt": {
         "s": "Defeitos recorrentes em entregas digitais geravam retrabalho e desgaste com áreas de negócio.",
         "t": "Minha missão era: Elevar padrões de qualidade de ponta a ponta sem desacelerar a entrega.",
@@ -79,7 +86,7 @@
         }
       ]
     },    {
-      "title": "Relatórios com Métricas Verdade e Selo de Qualidade",
+      "title": "Relatórios com Métricas Verdade e Selo de Qualidade (Unimed)",
       "pt": {
         "s": "Relatórios executivos variavam em formato e precisão; decisões eram tomadas com dados inconsistentes.",
         "t": "Minha missão era: Padronizar e elevar padrão de relatórios para decisões confiáveis.",

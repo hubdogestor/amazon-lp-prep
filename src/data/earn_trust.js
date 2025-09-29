@@ -1,6 +1,13 @@
 ﻿const earn_trust = {
+  principle: {
+    title: "Conquistar Confiança",
+    title_en: "Earn Trust",
+    description: "Os líderes ouvem atentamente, falam com franqueza e tratam os outros respeitosamente. Eles são autocríticos, mesmo quando isso é constrangedor. Os líderes se comparam e às suas equipes com os melhores.",
+    description_en: "Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. They benchmark themselves and their teams against the best.",
+    icon: ""
+  },
   "id": "earn_trust",
-  "name": "Ganhar a Confiança",
+  "name": "Conquistar Confiança",
   "cases": [
     {
       "title": "Status com Critérios Objetivos e Histórico (SEFAZ-RS)",

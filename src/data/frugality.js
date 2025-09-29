@@ -1,6 +1,13 @@
 ﻿const frugality = {
+  principle: {
+    title: "Parcimônia",
+    title_en: "Frugality",
+    description: "Realizar mais com menos. As restrições geram inventividade, autossuficiência e criatividade. Não há pontos extras por crescer o número de funcionários, o tamanho do orçamento ou despesas fixas.",
+    description_en: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense.",
+    icon: ""
+  },
   "id": "frugality",
-  "name": "Frugalidade",
+  "name": "Parcimônia",
   "cases": [
     {
       "title": "Racionalização de Stack de Relatórios e Licenças (SEFAZ-RS)",

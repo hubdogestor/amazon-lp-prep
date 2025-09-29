@@ -1,4 +1,11 @@
 const bias_for_action = {
+  principle: {
+    title: "Ter Iniciativa",
+    title_en: "Bias for Action",
+    description: "Velocidade importa nos negócios. Muitas decisões e ações são reversíveis e não precisam de estudos extensos. Valorizamos a tomada de riscos calculados.",
+    description_en: "Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking.",
+    icon: ""
+  },
   "id": "bias_for_action",
   "name": "Ter Iniciativa",
   "cases": [
