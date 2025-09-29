@@ -1,7 +1,7 @@
 // src/data_principles.js
 // Consolidates leadership principles data from individual modules
 
-import are_right_a_lot from "./data/are_right_a_lot";
+import are_right_a_lot_data from "./data/are_right_a_lot";
 import best_employer_data from "./data/best_employer";
 import bias_for_action from "./data/bias_for_action";
 import broad_responsibility from "./data/broad_responsibility";
@@ -22,7 +22,7 @@ const principlesData = [
   customer_obsession,              // 1. Obsessão pelo cliente
   ownership_data,                  // 2. Mentalidade de dono  
   invent_and_simplify_data,       // 3. Inventar e simplificar
-  are_right_a_lot,                // 4. Estar certo, e muito
+  are_right_a_lot_data,           // 4. Estar certo, e muito
   learn_and_be_curious_data,      // 5. Aprender e ser curioso
   hire_and_develop_the_best,      // 6. Contratar e desenvolver os melhores
   insist_on_highest_standards,    // 7. Insistir nos mais altos padrões

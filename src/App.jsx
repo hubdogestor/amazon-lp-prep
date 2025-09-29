@@ -485,13 +485,13 @@ export default function App() {
                     <article
                       key={caseKey}
                       id={caseDomId}
-                      className="bg-white border border-slate-200 rounded-xl p-0 mb-4 overflow-hidden transition hover:shadow-sm"
+                      className="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-0 mb-6 overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-blue-100/50 hover:border-blue-300"
                     >
                       {/* Header clicável (área ampla) */}
                       <header
-                        className={`flex items-center justify-between px-4 py-3 cursor-pointer ${
-                          open ? "bg-slate-50" : "bg-white"
-                        } hover:bg-slate-50`}
+                        className={`flex items-center justify-between px-5 py-4 cursor-pointer ${
+                          open ? "bg-white/80" : "bg-white/60"
+                        } hover:bg-white/90 backdrop-blur-sm`}
                         onClick={(e) => {
                           e.stopPropagation();
                           toggleCase(c.title, principle.id);
@@ -519,7 +519,7 @@ export default function App() {
                       </header>
 
                       {open && (
-                        <div className="px-4 pb-4 pt-2 grid grid-cols-1 lg:grid-cols-2 gap-6 text-sm text-slate-700">
+                        <div className="px-6 pb-6 pt-2 grid grid-cols-1 lg:grid-cols-2 gap-8 text-sm text-slate-700 bg-white/40 backdrop-blur-sm">
                           <div className="space-y-3">
                             <h4 className="text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 mb-3">📋 STAR Case</h4>
                             <div className="space-y-2 leading-relaxed">
