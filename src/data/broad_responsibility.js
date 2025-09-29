@@ -171,3 +171,4 @@ const broad_responsibility = {
 };
 
 export default broad_responsibility;
+

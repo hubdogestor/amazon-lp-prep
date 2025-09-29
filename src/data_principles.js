@@ -19,22 +19,22 @@ import ownership_data from "./data/ownership";
 import think_big_data from "./data/think_big";
 
 const principlesData = [
-  customer_obsession,              // 1. Obsessão pelo cliente
-  ownership_data,                  // 2. Mentalidade de dono  
-  invent_and_simplify_data,       // 3. Inventar e simplificar
-  are_right_a_lot_data,           // 4. Estar certo, e muito
-  learn_and_be_curious_data,      // 5. Aprender e ser curioso
-  hire_and_develop_the_best,      // 6. Contratar e desenvolver os melhores
-  insist_on_highest_standards,    // 7. Insistir nos mais altos padrões
-  think_big_data,                 // 8. Pensar grande
-  bias_for_action,                // 9. Ter iniciativa
-  frugality,                      // 10. Frugalidade
-  earn_trust,                     // 11. Ganhar a confiança
-  dive_deep,                      // 12. Mergulhar fundo
-  disagree_and_commit,            // 13. Ser firme, discordar e se comprometer
-  deliver_results,                // 14. Entregar resultados
-  best_employer_data,             // 15. Empenhar-se para ser a melhor empregadora do mundo
-  broad_responsibility,           // 16. Sucesso e crescimento trazem maior responsabilidade
+  invent_and_simplify_data,       // 1. Inventar e simplificar
+  ownership_data,                 // 2. Mentalidade de dono
+  dive_deep,                      // 3. Mergulhar fundo  
+  deliver_results,                // 4. Entregar resultados
+  earn_trust,                     // 5. Ganhar a confiança
+  customer_obsession,             // 6. Obsessão pelo cliente
+  learn_and_be_curious_data,      // 7. Aprender e ser curioso
+  insist_on_highest_standards,    // 8. Insistir nos mais altos padrões
+  are_right_a_lot_data,           // 9. Estar certo, e muito
+  bias_for_action,                // 10. Ter iniciativa
+  think_big_data,                 // 11. Pensar grande
+  disagree_and_commit,            // 12. Ser firme, discordar e se comprometer
+  hire_and_develop_the_best,      // 13. Contratar e desenvolver os melhores
+  frugality,                      // 14. Frugalidade
+  broad_responsibility,           // 15. Sucesso e crescimento trazem maior responsabilidade
+  best_employer_data,             // 16. Empenhar-se para ser a melhor empregadora do mundo
 ];
 
 export default principlesData;

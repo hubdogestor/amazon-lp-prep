@@ -1,8 +1,8 @@
-Ôªøconst hire_and_develop_the_best = {
+const hire_and_develop_the_best = {
   principle: {
     title: "Contratar e Desenvolver os Melhores",
     title_en: "Hire and Develop the Best",
-    description: "Os l√≠deres elevam o padr√£o de performance a cada contrata√ß√£o e promo√ß√£o. Eles reconhecem talentos excepcionais e os movem pela organiza√ß√£o. Os l√≠deres desenvolvem l√≠deres e levam a s√©rio seu papel de orientar outros.",
+    description: "Os lÌderes elevam o padr„o de performance a cada contrataÁ„o e promoÁ„o. Eles reconhecem talentos excepcionais e os movem pela organizaÁ„o. Os lÌderes desenvolvem lÌderes e levam a sÈrio seu papel de orientar outros.",
     description_en: "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others.",
     icon: ""
   },
@@ -10,13 +10,13 @@
   "name": "Contratar e desenvolver os melhores",
   "cases": [
     {
-      "title": "Funil de Contrata√ß√£o e Onboarding 90Dias (Woop/Sicredi)",
+      "title": "Funil de ContrataÁ„o e Onboarding 90Dias (Woop/Sicredi)",
       "pt": {
         "s": "Escassez de PMs seniores e alta variabilidade de entrega entre equipes impactavam previsibilidade.",
-        "t": "Minha miss√£o era: Atrair, selecionar e formar talentos de produto com alto padr√£o, elevando a barra continuamente.",
-        "a": "Implementei um funil de contrata√ß√£o com desafios pr√°ticos, entrevistas estruturadas e bar raisers. Modelei onboarding de 90 dias com shadowing, pair e objetivos claros. Criei guilda de produto e trilhas de mentoria.",
-        "r": "Tempo de rampup caiu 30%; qualidade de PRDs e decis√µes melhorou (NPS interno +0,8); acur√°cia de roadmap subiu 15 p.p. (com baseline, meta e per√≠odo documentados em relat√≥rio executivo).",
-        "l": "Aprendi que contratar √© f√°cil; elevar a barra e desenvolver sistematicamente √© o que muda o jogo. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje come√ßo engajando-os desde o in√≠cio."
+        "t": "Minha miss„o era: Atrair, selecionar e formar talentos de produto com alto padr„o, elevando a barra continuamente.",
+        "a": "Implementei um funil de contrataÁ„o com desafios pr·ticos, entrevistas estruturadas e bar raisers. Modelei onboarding de 90 dias com shadowing, pair e objetivos claros. Criei guilda de produto e trilhas de mentoria.",
+        "r": "Tempo de rampup caiu 30%; qualidade de PRDs e decisıes melhorou (NPS interno +0,8); acur·cia de roadmap subiu 15 p.p. (com baseline, meta e perÌodo documentados em relatÛrio executivo).",
+        "l": "Aprendi que contratar È f·cil; elevar a barra e desenvolver sistematicamente È o que muda o jogo. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje comeÁo engajando-os desde o inÌcio."
       },
       "en": {
         "s": "Shortage of senior PMs and high delivery variability across teams harmed predictability.",
@@ -26,14 +26,14 @@
         "l": "Hiring is easy; systematically raising and developing the bar is what changes the game."
       },      "fup": [
         {
-          "q": "Como evitou vi√©s nas entrevistas?",
+          "q": "Como evitou viÈs nas entrevistas?",
           "a": "Entrevistas estruturadas com rubricas e painel diverso.",
           "q_en": "How did you avoid bias in interviews?",
           "a_en": "Structured interviews with rubrics and diverse panel."
         },
         {
-          "q": "Qual desafio pr√°tico usou?",
-          "a": "Problema real de discovery e prioriza√ß√£o com dados limitados.",
+          "q": "Qual desafio pr·tico usou?",
+          "a": "Problema real de discovery e priorizaÁ„o com dados limitados.",
           "q_en": "What practical challenge did you use?",
           "a_en": "Real discovery and prioritization problem with limited data."
         },
@@ -50,13 +50,13 @@
           "a_en": "Clear PIP with monthly goals and mentoring support."
         },
         {
-          "q": "Que m√©trica acompanhou?",
-          "a": "Tempo de rampup e qualidade das decis√µes (proxy via NPS interno).",
+          "q": "Que mÈtrica acompanhou?",
+          "a": "Tempo de rampup e qualidade das decisıes (proxy via NPS interno).",
           "q_en": "What metric did you track?",
           "a_en": "Ramp-up time and decision quality (proxy via internal NPS)."
         },        {
           "q": "Como manteve a barra alta?",
-          "a": "Bar raisers com poder de veto e revis√£o semestral das rubricas.",
+          "a": "Bar raisers com poder de veto e revis„o semestral das rubricas.",
           "q_en": "How did you maintain high standards?",
           "a_en": "Bar raisers with veto power and semi-annual rubric reviews."
         },
@@ -68,13 +68,13 @@
         },
         {
           "q": "Como escalou a mentoria?",
-          "a": "Trilhas por senioridade e agenda quinzenal padr√£o.",
+          "a": "Trilhas por senioridade e agenda quinzenal padr„o.",
           "q_en": "How did you scale mentoring?",
           "a_en": "Tracks by seniority and standard bi-weekly schedule."
         },
         {
           "q": "Teve erro no processo?",
-          "a": "Subestimei tempo de shadowing; ajustei aloca√ß√£o de mentores.",
+          "a": "Subestimei tempo de shadowing; ajustei alocaÁ„o de mentores.",
           "q_en": "Did you make mistakes in the process?",
           "a_en": "I underestimated shadowing time; adjusted mentor allocation."
         },
@@ -86,13 +86,13 @@
         }
       ]
     },    {
-      "title": "Acelera√ß√£o de Lideran√ßas Internas (Unimed)",
+      "title": "AceleraÁ„o de LideranÁas Internas (Unimed)",
       "pt": {
-        "s": "Crescimento do portf√≥lio exigiu l√≠deres de engenharia e design prontos para assumir programas complexos.",
-        "t": "Minha miss√£o era: Desenvolver l√≠deres internos e reduzir depend√™ncia de mercado.",
-        "a": "Criei programa de acelera√ß√£o de lideran√ßa (6 meses) com rota√ß√£o, coaching, 360¬∫ e projetos desafiadores. Conectei com trilhas de carreira e crit√©rios transparentes.",
-        "r": "Succession pipeline estabelecido; 4 l√≠deres promovidos; redu√ß√£o de 35% no tempo para preencher posi√ß√µes cr√≠ticas. (com baseline, meta e per√≠odo documentados em relat√≥rio executivo).",
-        "l": "Aprendi que desenvolver os melhores √© planejar sucess√£o e dar desafios reais com suporte. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje come√ßo engajando-os desde o in√≠cio."
+        "s": "Crescimento do portfÛlio exigiu lÌderes de engenharia e design prontos para assumir programas complexos.",
+        "t": "Minha miss„o era: Desenvolver lÌderes internos e reduzir dependÍncia de mercado.",
+        "a": "Criei programa de aceleraÁ„o de lideranÁa (6 meses) com rotaÁ„o, coaching, 360∫ e projetos desafiadores. Conectei com trilhas de carreira e critÈrios transparentes.",
+        "r": "Succession pipeline estabelecido; 4 lÌderes promovidos; reduÁ„o de 35% no tempo para preencher posiÁıes crÌticas. (com baseline, meta e perÌodo documentados em relatÛrio executivo).",
+        "l": "Aprendi que desenvolver os melhores È planejar sucess„o e dar desafios reais com suporte. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje comeÁo engajando-os desde o inÌcio."
       },
       "en": {
         "s": "Portfolio growth required engineering/design leaders ready for complex programs.",
@@ -109,54 +109,54 @@
         },
         {
           "q": "Como evitou favoritismo?",
-          "a": "Processo aberto com crit√©rios e comit√™ multifuncional.",
+          "a": "Processo aberto com critÈrios e comitÍ multifuncional.",
           "q_en": "How did you avoid favoritism?",
           "a_en": "Open process with criteria and cross-functional committee."
         },
         {
           "q": "Qual foi o maior desafio?",
-          "a": "Conciliar carga operacional com projetosdesafio; resolvi com aloca√ß√£o dedicada.",
+          "a": "Conciliar carga operacional com projetosdesafio; resolvi com alocaÁ„o dedicada.",
           "q_en": "What was the biggest challenge?",
           "a_en": "Balancing operational load with stretch projects; solved with dedicated allocation."
         },
         {
-          "q": "Como mediu evolu√ß√£o?",
-          "a": "Evid√™ncias por compet√™ncia, feedback 360 e entregas dos projetos.",
+          "q": "Como mediu evoluÁ„o?",
+          "a": "EvidÍncias por competÍncia, feedback 360 e entregas dos projetos.",
           "q_en": "How did you measure evolution?",
           "a_en": "Evidence by competency, 360 feedback, and project deliverables."
         },
         {
-          "q": "Qual conte√∫do foi mais valioso?",
-          "a": "Coaching 1:1 e gest√£o de stakeholders.",
+          "q": "Qual conte˙do foi mais valioso?",
+          "a": "Coaching 1:1 e gest„o de stakeholders.",
           "q_en": "What content was most valuable?",
           "a_en": "1:1 coaching and stakeholder management."
         },        {
-          "q": "Houve desist√™ncias?",
+          "q": "Houve desistÍncias?",
           "a": "1 caso; ajustei workload e suporte de chefias.",
           "q_en": "Were there dropouts?",
           "a_en": "1 case; I adjusted workload and management support."
         },
         {
           "q": "Como garantir perenidade?",
-          "a": "Ciclo anual com reposi√ß√£o e mentores formados no programa.",
+          "a": "Ciclo anual com reposiÁ„o e mentores formados no programa.",
           "q_en": "How do you ensure continuity?",
           "a_en": "Annual cycle with replacement and mentors trained in the program."
         },
         {
           "q": "Qual impacto no clima?",
-          "a": "Melhoria de eNPS em squads que tiveram l√≠deres promovidos.",
+          "a": "Melhoria de eNPS em squads que tiveram lÌderes promovidos.",
           "q_en": "What impact on culture?",
           "a_en": "eNPS improvement in squads that had leaders promoted."
         },
         {
-          "q": "Como conectou com neg√≥cio?",
-          "a": "Projetosdesafio alinhados a OKRs cr√≠ticos.",
+          "q": "Como conectou com negÛcio?",
+          "a": "Projetosdesafio alinhados a OKRs crÌticos.",
           "q_en": "How did you connect with business?",
           "a_en": "Stretch projects aligned to critical OKRs."
         },
         {
           "q": "O que faria diferente?",
-          "a": "Mais pr√°tica de finan√ßas para l√≠deres de produto.",
+          "a": "Mais pr·tica de finanÁas para lÌderes de produto.",
           "q_en": "What would you do differently?",
           "a_en": "More finance practice for product leaders."
         }
