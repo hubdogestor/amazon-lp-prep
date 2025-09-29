@@ -1,7 +1,8 @@
-import React, { useMemo, useRef, useState, useEffect } from "react";
+import React, { useMemo, useState, useEffect } from "react";
 import { Search } from "lucide-react";
-import principlesDataRaw from "./data_principles";
+import principlesDataRaw from "./data_principles.js";
 import metaOverrides from "./data/meta_overrides";
+import "./App.css";
 
 // ---------- Utils ----------
 const slugify = (s) =>
@@ -138,20 +139,6 @@ const TEXTS = {
   },
 };
 
-// ---------- Timer ----------
-function useTimer(initial = 300) {
-  const [seconds, setSeconds] = useState(initial);
-  const [running, setRunning] = useState(false);
-  useEffect(() => {
-    let id;
-    if (running) id = setInterval(() => setSeconds((s) => Math.max(0, s - 1)), 1000);
-    return () => id && clearInterval(id);
-  }, [running]);
-  const reset = () => setSeconds(initial);
-  return { seconds, running, start: () => setRunning(true), pause: () => setRunning(false), reset };
-}
-const fmt = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
-
 // ---------- App ----------
 export default function App() {
   const [selectedPrinciple, setSelectedPrinciple] = useState("all");
@@ -167,7 +154,6 @@ export default function App() {
   const t = TEXTS[language];
   const dataRaw = Array.isArray(principlesDataRaw) ? principlesDataRaw : [];
   const principlesData = sortPrinciples(dataRaw, language);
-  const timer = useTimer(300);
 
   const clearExpanded = () => setExpandedCases({});
   const clearHighlights = () => {
@@ -197,10 +183,14 @@ export default function App() {
       return base
         .map((p) => {
           const hits = (p.cases || []).filter((c) => {
-            const titleHit = norm(getCaseBaseTitle(c, language)).includes(term);
-            const starl = (c && c[language]) || {};
-            const starlHit = norm(Object.values(starl).join(" ")).includes(term);
-            return titleHit || starlHit;
+            // Buscar em ambos idiomas para manter cases visíveis ao trocar idioma
+            const titleHitPT = norm(getCaseBaseTitle(c, "pt")).includes(term);
+            const titleHitEN = norm(getCaseBaseTitle(c, "en")).includes(term);
+            const starlPT = (c && c.pt) || {};
+            const starlEN = (c && c.en) || {};
+            const starlHitPT = norm(Object.values(starlPT).join(" ")).includes(term);
+            const starlHitEN = norm(Object.values(starlEN).join(" ")).includes(term);
+            return titleHitPT || titleHitEN || starlHitPT || starlHitEN;
           });
           if (hits.length > 0 || norm(p.name).includes(term)) {
             return { ...p, cases: hits.length ? hits : p.cases || [] };
@@ -223,27 +213,14 @@ export default function App() {
     return base;
   }, [principlesData, selectedPrinciple, showTopCases, searchTerm, language]);
 
-  // Clique fora: solta filtros e recolhe
-  const rootRef = useRef(null);
-  const handleRootClick = (e) => {
-    const inside =
-      e.target.closest &&
-      (e.target.closest("#kSearch") ||
-        e.target.closest("#kFup") ||
-        e.target.closest("#sidebar") ||
-        e.target.closest("#topCasesBtn") ||
-        e.target.closest("article") ||
-        e.target.closest("#timerBox") ||
-        e.target.closest("#langBox") ||
-        e.target.closest("#stickyHeader"));
-    if (!inside) {
-      setSearchTerm("");
-      setQuestionSearch("");
-      setShowTopCases(false);
-      setSelectedPrinciple("all");
-      clearHighlights();
-      clearExpanded();
-    }
+  // Função para limpar filtros
+  const clearFilters = () => {
+    setSearchTerm("");
+    setQuestionSearch("");
+    setShowTopCases(false);
+    setSelectedPrinciple("all");
+    clearHighlights();
+    clearExpanded();
   };
 
   const toggleCase = (caseTitle, principleId) => {
@@ -287,11 +264,7 @@ export default function App() {
   };
 
   return (
-    <div
-      ref={rootRef}
-      className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100"
-      onClick={handleRootClick}
-    >
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Cabeçalho Fixo */}
       <div
         id="stickyHeader"
@@ -421,6 +394,7 @@ export default function App() {
                   onClick={(e) => {
                     e.stopPropagation();
                     setLanguage("pt");
+                    // Mantém os cases expandidos quando muda idioma
                   }}
                 >
                   PT
@@ -432,6 +406,7 @@ export default function App() {
                   onClick={(e) => {
                     e.stopPropagation();
                     setLanguage("en");
+                    // Mantém os cases expandidos quando muda idioma
                   }}
                 >
                   EN
