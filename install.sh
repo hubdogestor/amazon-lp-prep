@@ -3,10 +3,9 @@
 echo "========================================"
 echo " Amazon Leadership Principles - Setup"
 echo "========================================"
-echo
 
-# Verificar Node.js
-echo "Verificando Node.js..."
+# Check Node.js installation
+echo "Checking Node.js..."
 if ! command -v node &> /dev/null; then
     echo "ERRO: Node.js não encontrado!"
     echo "Por favor, instale Node.js:"

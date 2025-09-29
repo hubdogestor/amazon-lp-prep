@@ -18,5 +18,19 @@ fi
 if command -v pnpm &> /dev/null; then
     pnpm dev
 else
-    npm run dev
+    #!/bin/bash
+
+# Check if Node.js is installed
+if ! command -v node &> /dev/null; then
+    echo "Node.js is not installed. Please install Node.js first."
+    exit 1
+fi
+
+# Install dependencies
+echo "Installing dependencies..."
+npm install
+
+# Start development server
+echo "Starting development server..."
+npm run dev
 fi
