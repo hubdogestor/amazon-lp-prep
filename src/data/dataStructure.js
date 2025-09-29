@@ -1,72 +1,19 @@
 // Data structure definitions for Amazon Leadership Principles app
 // This file defines the expected structure for external JSON imports
 
-/**
- * Expected structure for data_icebreaker.json
- */
-export const icebreakerStructure = {
-  pt: "String - Icebreaker content in Portuguese",
-  en: "String - Icebreaker content in English"
+const dataStructure = {
+  id: "structure",
+  title: {
+    pt: "Estrutura de Dados",
+    en: "Data Structure"
+  },
+  description: {
+    pt: "Define a estrutura de dados padrão para o aplicativo",
+    en: "Defines the standard data structure for the application"
+  },
+  cases: []
 };
 
-/**
- * Expected structure for data_principles.json
- */
-export const principlesStructure = [
-  {
-    id: "String - Unique identifier (e.g., 'customer-obsession')",
-    title: {
-      pt: "String - Title in Portuguese",
-      en: "String - Title in English"
-    },
-    description: {
-      pt: "String - Description in Portuguese", 
-      en: "String - Description in English"
-    },
-    cases: [
-      {
-        id: "String - Unique case identifier",
-        title: {
-          pt: "String - Case title in Portuguese",
-          en: "String - Case title in English"
-        },
-        storytelling: {
-          pt: {
-            situation: "String - Situation description",
-            task: "String - Task description", 
-            action: "String - Action taken",
-            result: "String - Result achieved",
-            learning: "String - Learning/reflection"
-          },
-          en: {
-            situation: "String - Situation description",
-            task: "String - Task description",
-            action: "String - Action taken", 
-            result: "String - Result achieved",
-            learning: "String - Learning/reflection"
-          }
-        },
-        fupQuestions: [
-          {
-            id: "String - Unique question identifier",
-            question: {
-              pt: "String - Follow-up question in Portuguese",
-              en: "String - Follow-up question in English"
-            },
-            answer: {
-              pt: "String - Answer in Portuguese",
-              en: "String - Answer in English"
-            }
-          }
-        ]
-      }
-    ]
-  }
-];
-
-/**
- * Default/fallback data when external files are not loaded
- */
 export const defaultIcebreaker = {
   pt: "Dados do icebreaker serão carregados aqui...",
   en: "Icebreaker data will be loaded here..."
@@ -87,9 +34,6 @@ export const defaultPrinciples = [
   }
 ];
 
-/**
- * Validation functions for imported data
- */
 export const validateIcebreakerData = (data) => {
   return data && 
          typeof data === 'object' && 
@@ -110,3 +54,5 @@ export const validatePrinciplesData = (data) => {
            Array.isArray(principle.cases)
          );
 };
+
+export default dataStructure;

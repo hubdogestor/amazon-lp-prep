@@ -1,16 +1,12 @@
 // src/data_principles.js
-// Índice consolidado dos princípios, com tolerância para módulos sem "export default".
+// Consolidates leadership principles data from individual modules
 
 import are_right_a_lot from "./data/are_right_a_lot";
 import best_employer from "./data/best_employer";
 import bias_for_action from "./data/bias_for_action";
 import broad_responsibility from "./data/broad_responsibility";
 import customer_obsession from "./data/customer_obsession";
-
-// ⚠️ dataStructure NÃO tem export default.
-// Usamos namespace import e normalizamos abaixo.
-import * as dataStructureModule from "./data/dataStructure";
-
+import dataStructure from "./data/dataStructure";
 import deliver_results from "./data/deliver_results";
 import disagree_and_commit from "./data/disagree_and_commit";
 import dive_deep from "./data/dive_deep";
@@ -22,15 +18,6 @@ import invent_and_simplify from "./data/invent_and_simplify";
 import learn_and_be_curious from "./data/learn_and_be_curious";
 import ownership from "./data/ownership";
 import think_big from "./data/think_big";
-
-// Normalização do módulo dataStructure:
-// - se tiver export default, usa
-// - senão, tenta named export "dataStructure"
-// - senão, usa o módulo inteiro (último recurso)
-const dataStructure =
-  dataStructureModule.default ??
-  dataStructureModule.dataStructure ??
-  dataStructureModule;
 
 const principlesData = [
   are_right_a_lot,
