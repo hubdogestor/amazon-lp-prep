@@ -1,13 +1,13 @@
 const deliver_results = {
   principle: {
-    title: "Gerar Resultados",
+    title: "Entregar resultados",
     title_en: "Deliver Results",
     description: "Os líderes focam nos principais insumos para seus negócios e os entregam com a qualidade certa e de forma oportuna. Apesar dos contratempos, eles se levantam à ocasião e nunca se contentam.",
     description_en: "Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.",
     icon: ""
   },
   "id": "deliver_results",
-  "name": "Gerar Resultados",
+  "name": "Entregar resultados",
   "cases": [
     {
       "title": "Virada de Obra: Rollout 4G e Copa 2014 (Huawei)",

@@ -3,7 +3,7 @@
 
 const think_big_data = {
   principle: {
-    title: "Pensar Grande",
+    title: "Pensar grande",
     title_en: "Think Big", 
     description: "Pensar pequeno é uma profecia que se realiza. Os líderes criam e comunicam uma visão ousada e inspiradora que obtém resultados. Eles pensam de forma diferente e procuram maneiras inovadoras de servir aos clientes.",
     description_en: "Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold, inspiring vision that delivers results. They think differently and look for innovative ways to serve customers.",
