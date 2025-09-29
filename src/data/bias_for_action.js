@@ -21,43 +21,63 @@ const bias_for_action = {
       "fup": [
         {
           "q": "Como você definiu o escopo mínimo viável sem frustrar stakeholders?",
-          "a": "Mostrei um mapa 'Now / Next / Later' e garanti que as métricas essenciais (cronograma, % concluído, riscos críticos) estariam no Now."
+          "a": "Mostrei um mapa 'Now / Next / Later' e garanti que as métricas essenciais (cronograma, % concluído, riscos críticos) estariam no Now.",
+          "q_en": "How did you define the minimum viable scope without frustrating stakeholders?",
+          "a_en": "I showed a 'Now / Next / Later' roadmap and ensured that essential metrics (timeline, % completed, critical risks) would be in the Now."
         },
         {
           "q": "Qual foi o maior atalho técnico que você assumiu e como mitigou a dívida?",
-          "a": "Importação manual de uma planilha legado. Cataloguei como 'tech debt P2' com owner e prazo de automação na sprint seguinte."
+          "a": "Importação manual de uma planilha legado. Cataloguei como 'tech debt P2' com owner e prazo de automação na sprint seguinte.",
+          "q_en": "What was the biggest technical shortcut you took and how did you mitigate the debt?",
+          "a_en": "Manual import from a legacy spreadsheet. I catalogued it as 'tech debt P2' with owner and automation deadline for the following sprint."
         },
         {
           "q": "Que métrica provou que o MVP gerou valor imediato?",
-          "a": "Tempo de preparação dos GPs para a reunião caiu 60% e o número de versões de planilhas trocadas por e-mail caiu a zero."
+          "a": "Tempo de preparação dos GPs para a reunião caiu 60% e o número de versões de planilhas trocadas por e-mail caiu a zero.",
+          "q_en": "What metric proved that the MVP generated immediate value?",
+          "a_en": "PMs' meeting preparation time dropped 60% and the number of spreadsheet versions exchanged by email dropped to zero."
         },
         {
           "q": "Houve algum erro por agir rápido? Como lidou?",
-          "a": "Uma métrica de riscos veio atrasada no primeiro corte. Assumi na reunião, expliquei a limitação e publiquei hotfix no dia seguinte."
+          "a": "Uma métrica de riscos veio atrasada no primeiro corte. Assumi na reunião, expliquei a limitação e publiquei hotfix no dia seguinte.",
+          "q_en": "Was there any error from acting fast? How did you handle it?",
+          "a_en": "A risk metric was delayed in the first cut. I owned it in the meeting, explained the limitation, and published a hotfix the next day."
         },
         {
           "q": "Como evitou que o MVP virasse definitivo sem refinamentos?",
-          "a": "Criei um roadmap público com datas e check-ins quinzenais; o MVP tinha 'banner' de versão para deixar claro o status."
+          "a": "Criei um roadmap público com datas e check-ins quinzenais; o MVP tinha 'banner' de versão para deixar claro o status.",
+          "q_en": "How did you prevent the MVP from becoming permanent without refinements?",
+          "a_en": "I created a public roadmap with dates and bi-weekly check-ins; the MVP had a version 'banner' to make the status clear."
         },
         {
           "q": "Como priorizou as 12 iniciativas críticas?",
-          "a": "Critérios: impacto fiscal, dependências regulatórias e risco de prazo. Fiz scoring rápido com os sponsors."
+          "a": "Critérios: impacto fiscal, dependências regulatórias e risco de prazo. Fiz scoring rápido com os sponsors.",
+          "q_en": "How did you prioritize the 12 critical initiatives?",
+          "a_en": "Criteria: fiscal impact, regulatory dependencies, and timeline risk. I did quick scoring with sponsors."
         },
         {
           "q": "Qual foi o aprendizado para próximos lançamentos rápidos?",
-          "a": "Definir upfront 'cut-off' diário e contrato de dados com os times evita discussões de última hora."
+          "a": "Definir upfront 'cut-off' diário e contrato de dados com os times evita discussões de última hora.",
+          "q_en": "What was the learning for future fast launches?",
+          "a_en": "Defining upfront daily 'cut-off' and data contracts with teams avoids last-minute discussions."
         },
         {
           "q": "Como alinhou expectativas com a Diretiva sob pressão de tempo?",
-          "a": "Usei uma prévia clicável em 48h para alinhar expectativas e evitar surpresas no dia 10."
+          "a": "Usei uma prévia clicável em 48h para alinhar expectativas e evitar surpresas no dia 10.",
+          "q_en": "How did you align expectations with leadership under time pressure?",
+          "a_en": "I used a clickable preview in 48h to align expectations and avoid surprises on day 10."
         },
         {
           "q": "Que riscos você aceitou conscientemente?",
-          "a": "Não implementei drill-down de tarefas; aceitei usar apenas nível de macroentregas para manter o prazo."
+          "a": "Não implementei drill-down de tarefas; aceitei usar apenas nível de macroentregas para manter o prazo.",
+          "q_en": "What risks did you consciously accept?",
+          "a_en": "I didn't implement task drill-down; I accepted using only milestone level to meet the deadline."
         },
         {
           "q": "Se tivesse 2 dias a mais, o que incluiria?",
-          "a": "O módulo de riscos com thresholds e semáforos de tendência."
+          "a": "O módulo de riscos com thresholds e semáforos de tendência.",
+          "q_en": "If you had 2 more days, what would you include?",
+          "a_en": "The risk module with thresholds and trend indicators."
         }
       ]
     },
@@ -80,43 +100,63 @@ const bias_for_action = {
       "fup": [
         {
           "q": "Qual foi o critério para o 'fast track'?",
-          "a": "Score de risco abaixo de um limiar combinado de sinalizadores (documento limpo, biometria alta, geolocalização consistente)."
+          "a": "Score de risco abaixo de um limiar combinado de sinalizadores (documento limpo, biometria alta, geolocalização consistente).",
+          "q_en": "What was the criterion for the 'fast track'?",
+          "a_en": "Risk score below a threshold combined with indicators (clean document, high biometrics, consistent geolocation)."
         },
         {
           "q": "Como garantiu reversibilidade?",
-          "a": "Feature flag com kill switch e versão paralela do fluxo manual pronta para fallback."
+          "a": "Feature flag com kill switch e versão paralela do fluxo manual pronta para fallback.",
+          "q_en": "How did you ensure reversibility?",
+          "a_en": "Feature flag with kill switch and parallel version of manual flow ready for fallback."
         },
         {
           "q": "Que métrica você olhou primeiro nas 24h iniciais?",
-          "a": "Taxa de falsos negativos/positivos e tempo médio de aprovação por faixa horária."
+          "a": "Taxa de falsos negativos/positivos e tempo médio de aprovação por faixa horária.",
+          "q_en": "What metric did you look at first in the initial 24 hours?",
+          "a_en": "False negative/positive rate and average approval time by time slot."
         },
         {
           "q": "Quais riscos você decidiu NÃO aceitar?",
-          "a": "Aprovação automática para documentos com OCR < 0,85 de confiança."
+          "a": "Aprovação automática para documentos com OCR < 0,85 de confiança.",
+          "q_en": "What risks did you decide NOT to accept?",
+          "a_en": "Automatic approval for documents with OCR < 0.85 confidence."
         },
         {
           "q": "Como comunicou a mudança ao time de suporte?",
-          "a": "Playbook de uma página com novos códigos de motivo e roteiro para exceções."
+          "a": "Playbook de uma página com novos códigos de motivo e roteiro para exceções.",
+          "q_en": "How did you communicate the change to the support team?",
+          "a_en": "One-page playbook with new reason codes and exception roadmap."
         },
         {
           "q": "Que experimento A/B você rodou?",
-          "a": "Tela de captura de biometria com instruções reduzidas vs. detalhadas; a versão reduzida performou melhor em ambientes bem iluminados."
+          "a": "Tela de captura de biometria com instruções reduzidas vs. detalhadas; a versão reduzida performou melhor em ambientes bem iluminados.",
+          "q_en": "What A/B experiment did you run?",
+          "a_en": "Biometric capture screen with reduced vs. detailed instructions; the reduced version performed better in well-lit environments."
         },
         {
           "q": "Como evitou viés de seleção no dark release?",
-          "a": "Randomização estratificada por região e versão do app."
+          "a": "Randomização estratificada por região e versão do app.",
+          "q_en": "How did you avoid selection bias in the dark release?",
+          "a_en": "Stratified randomization by region and app version."
         },
         {
           "q": "Qual foi o maior aprendiado inesperado?",
-          "a": "A iluminação ambiental impactou mais a biometria do que a câmera; ajustamos mensagens contextuais."
+          "a": "A iluminação ambiental impactou mais a biometria do que a câmera; ajustamos mensagens contextuais.",
+          "q_en": "What was the biggest unexpected learning?",
+          "a_en": "Ambient lighting impacted biometrics more than the camera; we adjusted contextual messages."
         },
         {
           "q": "O que faria diferente?",
-          "a": "Incluir fraude mais cedo na definição das regras de exceção para reduzir retrabalho no dia 2."
+          "a": "Incluir fraude mais cedo na definição das regras de exceção para reduzir retrabalho no dia 2.",
+          "q_en": "What would you do differently?",
+          "a_en": "Include fraud earlier in defining exception rules to reduce rework on day 2."
         },
         {
           "q": "Como escalou para 100%?",
-          "a": "Incrementos de 5→15→50→100% condicionados a limites de erro e auditoria diária."
+          "a": "Incrementos de 5→15→50→100% condicionados a limites de erro e auditoria diária.",
+          "q_en": "How did you scale to 100%?",
+          "a_en": "Increments of 5→15→50→100% conditional on error limits and daily auditing."
         }
       ]
     }

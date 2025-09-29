@@ -467,7 +467,14 @@ export default function App() {
           <main className="col-span-12 xl:col-span-10 space-y-6">
             {(filteredPrinciples || []).map((principle) => (
               <section key={principle.id} className="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
-                <h2 className="text-xl font-bold mb-3">{getDisplayName(principle, language)}</h2>
+                <div className="mb-6">
+                  <h2 className="text-2xl font-bold mb-3 text-slate-900">{getDisplayName(principle, language)}</h2>
+                  {principle.principle && (
+                    <p className="text-slate-600 italic leading-relaxed">
+                      {language === "en" ? (principle.principle.description_en || principle.principle.description) : principle.principle.description}
+                    </p>
+                  )}
+                </div>
 
                 {((principle && principle.cases) || []).map((c, idx) => {
                   const caseKey = `${principle.id}-${idx}`;
@@ -501,7 +508,7 @@ export default function App() {
                         }}
                       >
                         <div className="flex items-center gap-2">
-                          <h3 className="text-[1.05rem] font-semibold text-slate-900">
+                          <h3 className="text-lg font-bold text-slate-900">
                             {displayCaseTitle(c)}
                           </h3>
                           {isTopCase(c) && <span title="Top case">⭐</span>}
@@ -512,8 +519,10 @@ export default function App() {
                       </header>
 
                       {open && (
-                        <div className="px-4 pb-4 pt-2 grid grid-cols-1 lg:grid-cols-2 gap-4 text-sm text-slate-700">
-                          <div className="space-y-2 leading-relaxed">
+                        <div className="px-4 pb-4 pt-2 grid grid-cols-1 lg:grid-cols-2 gap-6 text-sm text-slate-700">
+                          <div className="space-y-3">
+                            <h4 className="text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 mb-3">📋 STAR Case</h4>
+                            <div className="space-y-2 leading-relaxed">
                             <p>
                               <strong>{t.situation}:</strong>{" "}
                               {(c && c[language] && c[language].s) || ""}
@@ -534,9 +543,11 @@ export default function App() {
                               <strong>{t.learning}:</strong>{" "}
                               {(c && c[language] && c[language].l) || ""}
                             </p>
+                            </div>
                           </div>
 
-                          <div className="space-y-2">
+                          <div className="space-y-3">
+                            <h4 className="text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 mb-3">❓ Follow-up Questions</h4>
                             {c.fup && c.fup.length > 0 && (
                               <ul className="list-disc pl-5 space-y-2">
                                 {c.fup.map((f, fIdx) => {

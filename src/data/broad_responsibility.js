@@ -21,43 +21,63 @@ const broad_responsibility = {
       "fup": [
         {
           "q": "Como evitou burocracia excessiva?",
-          "a": "Checklists simples, SLAs rápidos e automação de verificações."
+          "a": "Checklists simples, SLAs rápidos e automação de verificações.",
+          "q_en": "How did you avoid excessive bureaucracy?",
+          "a_en": "Simple checklists, fast SLAs, and automated verifications."
         },
         {
           "q": "Como educou os times?",
-          "a": "Playbooks e clínicas mensais de privacidade e segurança."
+          "a": "Playbooks e clínicas mensais de privacidade e segurança.",
+          "q_en": "How did you educate the teams?",
+          "a_en": "Playbooks and monthly privacy and security clinics."
         },
         {
           "q": "Qual métrica acompanhou?",
-          "a": "Tempo de aprovação e número de achados críticos por trimestre."
+          "a": "Tempo de aprovação e número de achados críticos por trimestre.",
+          "q_en": "What metric did you track?",
+          "a_en": "Approval time and number of critical findings per quarter."
         },
         {
           "q": "Houve bloqueio de projeto?",
-          "a": "Sim, 2 casos até ajustes; documentamos lições e aceleramos revisões futuras."
+          "a": "Sim, 2 casos até ajustes; documentamos lições e aceleramos revisões futuras.",
+          "q_en": "Were there any project blockages?",
+          "a_en": "Yes, 2 cases until adjustments; we documented lessons and accelerated future reviews."
         },
         {
           "q": "Como tratou IA generativa?",
-          "a": "Política de uso seguro, dados sintéticos e revisão de prompts sensíveis."
+          "a": "Política de uso seguro, dados sintéticos e revisão de prompts sensíveis.",
+          "q_en": "How did you handle generative AI?",
+          "a_en": "Safe usage policies, synthetic data, and sensitive prompt reviews."
         },
         {
           "q": "Que risco maior mitigou?",
-          "a": "Exposição de dados pessoais em integrações externas."
+          "a": "Exposição de dados pessoais em integrações externas.",
+          "q_en": "What was the biggest risk you mitigated?",
+          "a_en": "Exposure of personal data in external integrations."
         },
         {
           "q": "Como alinhou com jurídico?",
-          "a": "Revisões trimestrais e canal direto para casos especiais."
+          "a": "Revisões trimestrais e canal direto para casos especiais.",
+          "q_en": "How did you align with legal?",
+          "a_en": "Quarterly reviews and direct channel for special cases."
         },
         {
           "q": "Que ferramenta ajudou?",
-          "a": "DLP e mascaramento em ambientes de teste."
+          "a": "DLP e mascaramento em ambientes de teste.",
+          "q_en": "What tool helped?",
+          "a_en": "DLP and masking in test environments."
         },
         {
           "q": "Qual aprendizado?",
-          "a": "Educação contínua reduz incidentes mais que controles punitivos."
+          "a": "Educação contínua reduz incidentes mais que controles punitivos.",
+          "q_en": "What was the learning?",
+          "a_en": "Continuous education reduces incidents more than punitive controls."
         },
         {
           "q": "O que faria diferente?",
-          "a": "Implementaria data discovery automatizado desde o início."
+          "a": "Implementaria data discovery automatizado desde o início.",
+          "q_en": "What would you do differently?",
+          "a_en": "I would implement automated data discovery from the beginning."
         }
       ]
     },
@@ -80,43 +100,63 @@ const broad_responsibility = {
       "fup": [
         {
           "q": "Como garantiu acessibilidade sem atrasar prazos?",
-          "a": "Checklist WCAG na definição de pronto e QA com testes de leitores de tela."
+          "a": "Checklist WCAG na definição de pronto e QA com testes de leitores de tela.",
+          "q_en": "How did you ensure accessibility without delaying deadlines?",
+          "a_en": "WCAG checklist in definition of done and QA with screen reader tests."
         },
         {
           "q": "Como mediu impacto social?",
-          "a": "Métricas combinando alcance, adesão e escala de mudança desejada."
+          "a": "Métricas combinando alcance, adesão e escala de mudança desejada.",
+          "q_en": "How did you measure social impact?",
+          "a_en": "Metrics combining reach, adoption, and scale of desired change."
         },
         {
           "q": "Qual foi o maior desafio com fornecedores?",
-          "a": "Medir pegada de carbono comparável; padronizei questionário e auditoria amostral."
+          "a": "Medir pegada de carbono comparável; padronizei questionário e auditoria amostral.",
+          "q_en": "What was the biggest challenge with suppliers?",
+          "a_en": "Measuring comparable carbon footprint; I standardized questionnaires and sample auditing."
         },
         {
           "q": "Houve custo adicional?",
-          "a": "Algum; priorizei alto impacto com baixo custo e busquei créditos/PPPs."
+          "a": "Algum; priorizei alto impacto com baixo custo e busquei créditos/PPPs.",
+          "q_en": "Was there additional cost?",
+          "a_en": "Some; I prioritized high impact with low cost and sought credits/PPPs."
         },
         {
           "q": "Como engajou stakeholders?",
-          "a": "Relatórios transparentes e vitórias rápidas visíveis."
+          "a": "Relatórios transparentes e vitórias rápidas visíveis.",
+          "q_en": "How did you engage stakeholders?",
+          "a_en": "Transparent reports and visible quick wins."
         },
         {
           "q": "Que ferramenta ajudou em acessibilidade?",
-          "a": "Linters e testes automatizados de contraste/semântica."
+          "a": "Linters e testes automatizados de contraste/semântica.",
+          "q_en": "What tool helped with accessibility?",
+          "a_en": "Linters and automated contrast/semantic tests."
         },
         {
           "q": "Como tratou trade-offs?",
-          "a": "Priorizamos inclusões com maior impacto de usuário por esforço."
+          "a": "Priorizamos inclusões com maior impacto de usuário por esforço.",
+          "q_en": "How did you handle trade-offs?",
+          "a_en": "We prioritized inclusions with the highest user impact per effort."
         },
         {
           "q": "Como sustentou o programa?",
-          "a": "Governança leve e metas anuais públicas."
+          "a": "Governança leve e metas anuais públicas.",
+          "q_en": "How did you sustain the program?",
+          "a_en": "Lightweight governance and public annual goals."
         },
         {
           "q": "Qual lição principal?",
-          "a": "Responsabilidade escalável é construída em processos, não apenas em campanhas."
+          "a": "Responsabilidade escalável é construída em processos, não apenas em campanhas.",
+          "q_en": "What was the main lesson?",
+          "a_en": "Scalable responsibility is built into processes, not just campaigns."
         },
         {
           "q": "O que faria diferente?",
-          "a": "Criaria desde o início um board de usuários com deficiência para co-criação."
+          "a": "Criaria desde o início um board de usuários com deficiência para co-criação.",
+          "q_en": "What would you do differently?",
+          "a_en": "I would create from the beginning a board of users with disabilities for co-creation."
         }
       ]
     }
