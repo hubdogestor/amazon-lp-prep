@@ -36,20 +36,20 @@ const PT_KEYS = [
 ];
 
 const PT_LABELS = {
-  "obsessao pelo cliente": "Obsessão pelo Cliente",
-  "mentalidade de dono": "Mentalidade de Dono",
-  "inventar e simplificar": "Inventar e Simplificar",
+  "obsessao pelo cliente": "Obsessão pelo cliente",
+  "mentalidade de dono": "Mentalidade de dono",
+  "inventar e simplificar": "Inventar e simplificar",
   "estar certo, e muito": "Estar certo, e muito",
-  "aprender e ser curioso": "Aprender e Ser Curioso",
-  "contratar e desenvolver os melhores": "Contratar e Desenvolver os Melhores",
-  "insistir nos mais altos padroes": "Insistir nos Mais Altos Padrões",
-  "pensar grande": "Pensar Grande",
-  "ter iniciativa": "Ter Iniciativa",
+  "aprender e ser curioso": "Aprender e ser curioso",
+  "contratar e desenvolver os melhores": "Contratar e desenvolver os melhores",
+  "insistir nos mais altos padroes": "Insistir nos mais altos padrões",
+  "pensar grande": "Pensar grande",
+  "ter iniciativa": "Ter iniciativa",
   frugalidade: "Frugalidade",
-  "ganhar a confianca": "Ganhar a Confiança",
-  "mergulhar fundo": "Mergulhar Fundo",
+  "ganhar a confianca": "Ganhar a confiança",
+  "mergulhar fundo": "Mergulhar fundo",
   "ser firme, discordar e se comprometer": "Ser firme, discordar e se comprometer",
-  "entregar resultados": "Entregar Resultados",
+  "entregar resultados": "Entregar resultados",
   "empenhar-se para ser a melhor empregadora do mundo":
     "Empenhar-se para ser a melhor empregadora do mundo",
   "sucesso e crescimento trazem maior responsabilidade":

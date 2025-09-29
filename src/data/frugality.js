@@ -7,7 +7,7 @@
     icon: ""
   },
   "id": "frugality",
-  "name": "Parcimônia",
+  "name": "Frugalidade",
   "cases": [
     {
       "title": "Racionalização de Stack de Relatórios e Licenças (SEFAZ-RS)",

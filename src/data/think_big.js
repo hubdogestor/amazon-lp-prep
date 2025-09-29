@@ -9,6 +9,8 @@ const think_big_data = {
     description_en: "Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold, inspiring vision that delivers results. They think differently and look for innovative ways to serve customers.",
     icon: ""
   },
+  "id": "think_big",
+  "name": "Pensar grande",
   cases: [
     {
       "title": "Tese de Crescimento e Portfólio Multi-produto (Unimed)",

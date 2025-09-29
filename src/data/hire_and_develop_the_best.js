@@ -7,7 +7,7 @@
     icon: ""
   },
   "id": "hire_and_develop_the_best",
-  "name": "Contratar e Desenvolver os Melhores",
+  "name": "Contratar e desenvolver os melhores",
   "cases": [
     {
       "title": "Funil de Contratação e Onboarding 90Dias (Woop/Sicredi)",

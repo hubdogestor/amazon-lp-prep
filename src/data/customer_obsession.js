@@ -7,7 +7,7 @@ const customer_obsession = {
     icon: ""
   },
   "id": "customer_obsession",
-  "name": "Obsessão pelo Cliente",
+  "name": "Obsessão pelo cliente",
   "cases": [
     {
       "title": "Criação do \"Checklist Executivo\" para Clientes B2B (Unimed)",

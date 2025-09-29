@@ -7,7 +7,7 @@
     icon: ""
   },
   "id": "insist_on_highest_standards",
-  "name": "Insistir nos Mais Altos Padrões",
+  "name": "Insistir nos mais altos padrões",
   "cases": [
     {
       "title": "Quality Gates e DoD/DoR em Squads (Woop/Sicredi)",

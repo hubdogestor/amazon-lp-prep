@@ -7,7 +7,7 @@ const bias_for_action = {
     icon: ""
   },
   "id": "bias_for_action",
-  "name": "Ter Iniciativa",
+  "name": "Ter iniciativa",
   "cases": [
     {
       "title": "Dashboard Executivo em 10 dias (PMO CAGE)",

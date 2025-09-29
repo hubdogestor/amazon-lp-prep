@@ -7,7 +7,7 @@
     icon: ""
   },
   "id": "dive_deep",
-  "name": "Mergulhar Fundo",
+  "name": "Mergulhar fundo",
   "cases": [
     {
       "title": "Timeouts Ocultos em Verificação Externa (SEFAZ-RS)",
