@@ -309,7 +309,10 @@ export default function App() {
                       .flatMap((p) =>
                         (p.cases || []).flatMap((c) =>
                           (c.fup || [])
-                            .filter((f) => norm(f?.q).includes(norm(questionSearch)))
+                            .filter((f) => {
+                              const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
+                              return norm(qTxt).includes(norm(questionSearch));
+                            })
                             .map((f, idx) => ({ p, c, f, idx }))
                         )
                       )
@@ -340,7 +343,7 @@ export default function App() {
                             }, 0);
                           }}
                         >
-                          <div className="font-medium text-slate-800">{f.q}</div>
+                          <div className="font-medium text-slate-800">{language === "en" ? (f.q_en || f.q) : f.q}</div>
                           <div className="text-slate-500">
                             {getDisplayName(p, language)} • {displayCaseTitle(c)}
                           </div>
@@ -348,7 +351,10 @@ export default function App() {
                       ))}
                     {(principlesData || [])
                       .flatMap((p) => (p.cases || []).flatMap((c) => c.fup || []))
-                      .filter((f) => norm(f?.q).includes(norm(questionSearch))).length === 0 && (
+                      .filter((f) => {
+                        const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
+                        return norm(qTxt).includes(norm(questionSearch));
+                      }).length === 0 && (
                       <div className="px-3 py-2 text-slate-500 text-sm">{t.noResult}</div>
                     )}
                   </div>
@@ -375,7 +381,7 @@ export default function App() {
                 }}
                 title="Mostrar apenas Top Cases"
               >
-                ☀️ {t.topCases}
+                ⭐ {t.topCases}
               </button>
             </div>
 
@@ -498,7 +504,7 @@ export default function App() {
                           <h3 className="text-[1.05rem] font-semibold text-slate-900">
                             {displayCaseTitle(c)}
                           </h3>
-                          {isTopCase(c) && <span title="Top case">☀️</span>}
+                          {isTopCase(c) && <span title="Top case">⭐</span>}
                         </div>
                         <span className="text-sm text-amber-600 select-none">
                           {open ? t.close : t.viewDetails} ▾
@@ -535,10 +541,12 @@ export default function App() {
                               <ul className="list-disc pl-5 space-y-2">
                                 {c.fup.map((f, fIdx) => {
                                   const fupId = `fup-${slugify(c.title)}-${fIdx}`;
+                                  const question = language === "en" ? (f.q_en || f.q) : f.q;
+                                  const answer = language === "en" ? (f.a_en || f.a) : f.a;
                                   return (
                                     <li key={`${slugify(c.title)}-${fIdx}`} id={fupId} className="flex flex-col gap-1">
-                                      <div className="font-medium">{f.q}</div>
-                                      {f.a && <div className="text-slate-600 whitespace-pre-line">{f.a}</div>}
+                                      <div className="font-medium">{question}</div>
+                                      {answer && <div className="text-slate-600 whitespace-pre-line">{answer}</div>}
                                     </li>
                                   );
                                 })}
