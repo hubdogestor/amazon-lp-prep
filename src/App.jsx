@@ -226,6 +226,10 @@ export default function App() {
   };
 
   const toggleCase = (caseTitle, principleId) => {
+    // Limpar busca quando clicar em qualquer case
+    setSearchTerm("");
+    setQuestionSearch("");
+    
     setExpandedCases((prev) => {
       const next = {};
       next[caseTitle] = !prev[caseTitle];
@@ -334,7 +338,7 @@ export default function App() {
                               setExpandedCases({ [c.title]: true });
                               setQuestionSearch("");
 
-                              const anchorId = `fup-${slugify(c.title)}-${idx}`;
+                              const anchorId = `fup-${p.id}-${slugify(c.title)}-${idx}`;
                               setHighlightedFupId(anchorId);
                               setTimeout(() => {
                                 const el = document.getElementById(anchorId);
@@ -557,7 +561,7 @@ export default function App() {
                               return fups.length > 0 ? (
                                 <ul className="list-disc pl-5 space-y-2">
                                   {fups.map((f, fIdx) => {
-                                    const fupId = `fup-${slugify(c.title)}-${fIdx}`;
+                                    const fupId = `fup-${principle.id}-${slugify(c.title)}-${fIdx}`;
                                     const question = language === "en" ? (f.q_en || f.q) : f.q;
                                     const answer = language === "en" ? (f.a_en || f.a) : f.a;
                                     return (
