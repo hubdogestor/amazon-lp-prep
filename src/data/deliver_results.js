@@ -94,9 +94,9 @@ const deliver_results = {
       ]
     },
     {
-      "title": "Entrega de Platform Migration em 6 semanas - Woop Sicredi (2024)",
-      "title_pt": "Entrega de Platform Migration em 6 semanas - Woop Sicredi (2024)",
-      "title_en": "Entrega de Platform Migration em 6 semanas - Woop Sicredi (2024) (EN)",
+      "title": "Entrega de Platform Migration em 6 semanas – Woop Sicredi (06/2019–12/2021)",
+      "title_pt": "Entrega de Platform Migration em 6 semanas",
+      "title_en": "Platform Migration Delivery in 6 weeks",
       "company": "Woop Sicredi",
       "period": "06/2019–12/2021",
       "pt": {

@@ -94,9 +94,9 @@ const dive_deep = {
       ]
     },
     {
-      "title": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop Sicredi (2024)",
-      "title_pt": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop Sicredi (2024)",
-      "title_en": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop Sicredi (2024) (EN)",
+      "title": "Root Cause Analysis: Falha de Pagamento Silenciosa – Woop Sicredi (06/2019–12/2021)",
+      "title_pt": "Root Cause Analysis: Falha de Pagamento Silenciosa",
+      "title_en": "Root Cause Analysis: Silent Payment Failure",
       "company": "Woop Sicredi",
       "period": "06/2019–12/2021",
       "pt": {

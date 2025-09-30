@@ -11,11 +11,11 @@ const disagree_and_commit = {
   cases: [
     {
       "id": "decisao-de-arquitetura-bancaria-next-vs-bra",
-      "title": "Decisão de Arquitetura Bancária Next vs. Bra - Bradesco (08/2016–12/2017)",
-      "title_pt": "Decisão de Arquitetura Bancária Next vs. Bra",
-      "title_en": "Banking Architecture Decision Next vs. Bra",
-      "company": "Woop Sicredi",
-      "period": "01/2019-12/2020",
+      "title": "Decisão de Arquitetura Bancária Next vs. BRA – Bradesco (08/2016–12/2017)",
+      "title_pt": "Decisão de Arquitetura Bancária Next vs. BRA",
+      "title_en": "Banking Architecture Decision Next vs. BRA",
+      "company": "Bradesco",
+      "period": "08/2016–12/2017",
       "isTopCase": true,
       "pt": {
         "s": "No desenho da arquitetura do Banco Digital Next, times de segurança defendiam on-premise total; times de produto, nuvem total. A polarização travou decisões críticas por 3 semanas com deadline regulatório se aproximando.",

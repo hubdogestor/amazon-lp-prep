@@ -94,9 +94,9 @@ const bias_for_action = {
       ]
     },
     {
-      "title": "Implementação Emergencial de Home Office - Unimed (2024)",
-      "title_pt": "Implementação Emergencial de Home Office - Unimed (2024)",
-      "title_en": "Implementação Emergencial de Home Office - Unimed (2024) (EN)",
+      "title": "Implementação Emergencial de Home Office – Unimed (2020-2021)",
+      "title_pt": "Implementação Emergencial de Home Office",
+      "title_en": "Emergency Home Office Implementation",
       "company": "Unimed",
       "period": "2020-2021",
       "pt": {

@@ -159,19 +159,35 @@ export default function App() {
   const clearHighlights = () => {
     if (highlightedFupId) {
       const el = document.getElementById(highlightedFupId);
-      if (el) el.classList.remove("ring-2", "ring-amber-300", "rounded-md");
+      if (el) {
+        el.classList.remove("ring-2", "ring-amber-300", "rounded-md", "bg-amber-50", "p-2");
+        // Limpar highlight da pergunta específica
+        const questionDiv = el.querySelector('.font-medium');
+        if (questionDiv) {
+          questionDiv.classList.remove("bg-amber-100", "px-2", "py-1", "rounded");
+        }
+      }
       setHighlightedFupId(null);
     }
     if (highlightedCaseId) {
       const el = document.getElementById(highlightedCaseId);
-      if (el) el.classList.remove("ring-2", "ring-amber-300", "rounded-md");
+      if (el) el.classList.remove("ring-2", "ring-amber-300", "rounded-md", "bg-amber-50", "p-2");
       setHighlightedCaseId(null);
     }
   };
   const applyPermanentHighlight = (id) => {
     clearHighlights();
     const el = document.getElementById(id);
-    if (el) el.classList.add("ring-2", "ring-amber-300", "rounded-md");
+    if (el) {
+      el.classList.add("ring-2", "ring-amber-300", "rounded-md", "bg-amber-50", "p-2");
+      // Para FUPs, destacar especificamente a pergunta
+      if (id.startsWith('fup-')) {
+        const questionDiv = el.querySelector('.font-medium');
+        if (questionDiv) {
+          questionDiv.classList.add("bg-amber-100", "px-2", "py-1", "rounded");
+        }
+      }
+    }
   };
 
   // Filtro principal

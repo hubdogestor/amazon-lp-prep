@@ -97,7 +97,7 @@ const ownership_data = {
     {
       "id": "estruturacao-pmo-zero-sefaz-rs",
       "title": "Estruturação do PMO do Zero (SEFAZ-RS) (07/2024-09/2025)",
-      "title_pt": "Estruturação do PMO do Zero (SEFAZ-RS)",
+      "title_pt": "Estruturação do PMO do Zero",
       "title_en": "PMO Structuring from Scratch (SEFAZ-RS)",
       "company": "SEFAZ-RS",
       "period": "07/2024-09/2025",

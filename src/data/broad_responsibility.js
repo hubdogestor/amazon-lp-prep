@@ -94,9 +94,9 @@ const broad_responsibility = {
       ]
     },
     {
-      "title": "Sustentabilidade e Responsabilidade Social - PMO CAGE/SEFAZ-RS (2024)",
-      "title_pt": "Sustentabilidade e Responsabilidade Social - PMO CAGE/SEFAZ-RS (2024)",
-      "title_en": "Sustentabilidade e Responsabilidade Social - PMO CAGE/SEFAZ-RS (2024) (EN)",
+      "title": "Sustentabilidade e Responsabilidade Social – PMO CAGE/SEFAZ-RS (08/2024-05/2025)",
+      "title_pt": "Sustentabilidade e Responsabilidade Social",
+      "title_en": "Sustainability and Social Responsibility",
       "company": "PMO CAGE/SEFAZ-RS",
       "period": "08/2024-05/2025",
       "pt": {

@@ -94,9 +94,9 @@ const think_big = {
       ]
     },
     {
-      "title": "Visão de Transformação Digital Governamental - SEFAZ-RS (07/2024-09/2025)",
-      "title_pt": "Visão de Transformação Digital Governamental - SEFAZ-RS (07/2024-09/2025)",
-      "title_en": "Visão de Transformação Digital Governamental - SEFAZ-RS (07/2024-09/2025) (EN)",
+      "title": "Visão de Transformação Digital Governamental – Unimed (2022-2024)",
+      "title_pt": "Visão de Transformação Digital Governamental",
+      "title_en": "Government Digital Transformation Vision",
       "company": "Unimed",
       "period": "2022-2024",
       "pt": {
