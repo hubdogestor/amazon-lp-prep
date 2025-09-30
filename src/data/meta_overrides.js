@@ -22,7 +22,7 @@ const metaOverrides = {
   },
 
   // Huawei (2009–2015)
-  "reducao-drastica-de-sla-com-novo-modelo-de-processo-huawei": {
+  "reducao-drastica-de-sla-com-novo-modelo-de-processo-huawei-mm-aaaa-mm-aaaa": {
     title_pt: "Redução Drástica de SLA com Novo Modelo de Processo",
     title_en: "Radical SLA Reduction with a New Process Model",
     company: "Huawei",
@@ -30,7 +30,7 @@ const metaOverrides = {
   },
 
   // Unimed (2021–2024)
-  "criacao-do-checklist-executivo-para-clientes-b2b-unimed": {
+  "criacao-do-checklist-executivo-para-clientes-b2b-unimed-mm-aaaa-mm-aaaa": {
     title_pt: "Criação do 'Checklist Executivo' para Clientes B2B",
     title_en: "Executive Checklist for B2B Clients",
     company: "Unimed",
@@ -38,7 +38,7 @@ const metaOverrides = {
   },
 
   // SEFAZ-RS / CAGE (2024–2025)
-  "estruturacao-do-pmo-do-zero-na-secretaria-da-fazenda-sefaz-rs": {
+  "estruturacao-do-pmo-do-zero-secretaria-da-fazenda-sefaz-rs-mm-aaaa-mm-aaaa": {
     title_pt: "Estruturação do PMO do Zero",
     title_en: "Standing up a Greenfield PMO",
     company: "Secretaria da Fazenda do RS (SEFAZ-RS)",
@@ -82,7 +82,7 @@ const metaOverrides = {
   },
 
   // PMO CAGE / SEFAZ-RS (2024–2025)
-  "dashboard-executivo-em-10-dias-pmo-cage": {
+  "dashboard-executivo-em-10-dias-pmo-cage-sefaz-rs-mm-aaaa-mm-aaaa": {
     title_pt: "Dashboard Executivo em 10 dias",
     title_en: "Executive Dashboard in 10 Days",
     company: "PMO CAGE / SEFAZ-RS",
@@ -106,7 +106,7 @@ const metaOverrides = {
   },
 
   // Unimed (2021–2024)
-  "lancamento-de-novos-produtos-digitais-para-diversificar-receita-unimed": {
+  "lancamento-de-novos-produtos-digitais-para-diversificar-receita-unimed-mm-aaaa-mm-aaaa": {
     title_pt: "Lançamento de Novos Produtos Digitais para Diversificar Receita",
     title_en: "Launching New Digital Products to Diversify Revenue",
     company: "Unimed",
@@ -141,21 +141,21 @@ const metaOverrides = {
   // CASOS ADICIONAIS COM MM/AAAA CORRIGIDOS
   // ======================================================================
 
-  "quality-gates-e-dod-dor-em-squads-woop-sicredi": {
+  "quality-gates-e-dod-dor-em-squads-woop-sicredi-mm-aaaa-mm-aaaa": {
     title_pt: "Quality Gates e DoD/DoR em Squads",
     title_en: "Quality Gates and DoD/DoR in Squads",
     company: "Woop (Sicredi)",
     period: "03/2019–12/2020",
   },
 
-  "tese-de-crescimento-e-portfolio-multi-produto-unimed": {
+  "tese-de-crescimento-e-portfolio-multi-produto-unimed-mm-aaaa-mm-aaaa": {
     title_pt: "Tese de Crescimento e Portfólio Multi-produto", 
     title_en: "Growth Thesis & Multi-Product Portfolio",
     company: "Unimed",
     period: "01/2022–12/2023",
   },
 
-  "estruturacao-da-cultura-de-produto-baseada-em-dados-sicredi": {
+  "estruturacao-da-cultura-de-produto-baseada-em-dados-sicredi-mm-aaaa-mm-aaaa": {
     title_pt: "Estruturação da Cultura de Produto Baseada em Dados",
     title_en: "Data-Driven Product Culture Implementation",
     company: "Sicredi",
@@ -169,7 +169,7 @@ const metaOverrides = {
     period: "08/2016–12/2017",
   },
 
-  "timeouts-ocultos-em-verificacao-externa-sefaz-rs": {
+  "timeouts-ocultos-em-verificacao-externa-sefaz-rs-mm-aaaa-mm-aaaa": {
     title_pt: "Timeouts Ocultos em Verificação Externa",
     title_en: "Hidden Timeouts in External Verification",
     company: "SEFAZ-RS",
@@ -183,7 +183,7 @@ const metaOverrides = {
     period: "11/2019–02/2020",
   },
 
-  "virada-de-obra-rollout-4g-e-copa-2014-huawei": {
+  "virada-de-obra-rollout-4g-e-copa-2014-huawei-mm-aaaa-mm-aaaa": {
     title_pt: "Virada de Obra: Rollout 4G e Copa 2014",
     title_en: "Turnaround: 4G Rollout & World Cup 2014",
     company: "Huawei", 

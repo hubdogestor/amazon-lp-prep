@@ -1,164 +1,169 @@
 const hire_and_develop_the_best = {
+  id: "contratar e desenvolver os melhores",
+  name: "contratar e desenvolver os melhores",
   principle: {
     title: "Contratar e Desenvolver os Melhores",
     title_en: "Hire and Develop the Best",
-    description: "Os líderes elevam o padrão de performance a cada contratação e promoção. Eles reconhecem talentos excepcionais e os movem pela organização. Os líderes desenvolvem líderes e levam a sério seu papel de orientar outros.",
+    description: "Os lÃ­deres elevam o padrÃ£o de performance a cada contrataÃ§Ã£o e promoÃ§Ã£o. Eles reconhecem talentos excepcionais e os movem pela organizaÃ§Ã£o. Os lÃ­deres desenvolvem lÃ­deres e levam a sÃ©rio seu papel de orientar outros.",
     description_en: "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others.",
-    icon: ""
+    icon: "ðŸŒŸ"
   },
-  "id": "hire_and_develop_the_best",
-  "name": "Contratar e desenvolver os melhores",
-  "cases": [
+  cases: [
     {
-      "title": "Funil de Contratação e Onboarding 90Dias (Woop/Sicredi)",
+      "title": "Funil de ContrataÃ§Ã£o e Onboarding 90Dias - Woop/Sicredi (MM/AAAA-MM/AAAA) â­",
       "pt": {
-        "s": "Escassez de PMs seniores e alta variabilidade de entrega entre equipes impactavam previsibilidade.",
-        "t": "Minha missão era: Atrair, selecionar e formar talentos de produto com alto padrão, elevando a barra continuamente.",
-        "a": "Implementei um funil de contratação com desafios práticos, entrevistas estruturadas e bar raisers. Modelei onboarding de 90 dias com shadowing, pair e objetivos claros. Criei guilda de produto e trilhas de mentoria.",
-        "r": "Tempo de rampup caiu 30%; qualidade de PRDs e decisões melhorou (NPS interno +0,8); acurácia de roadmap subiu 15 p.p. (com baseline, meta e período documentados em relatório executivo).",
-        "l": "Aprendi que contratar é fácil; elevar a barra e desenvolver sistematicamente é o que muda o jogo. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje começo engajando-os desde o início."
+        "s": "A Woop/Sicredi enfrentava escassez crÃ­tica de PMs seniores no mercado e alta variabilidade de entrega entre equipes, impactando previsibilidade de roadmap e qualidade de produto. Time to productivity dos novos PMs estava em 6+ meses.",
+        "t": "Minha missÃ£o era criar sistema completo para atrair, selecionar e formar talentos de produto com alto padrÃ£o, elevando continuamente a performance bar e acelerando desenvolvimento de lÃ­deres internos.",
+        "a": "Implementei funil de contrataÃ§Ã£o rigoroso com desafios prÃ¡ticos de produto real, entrevistas estruturadas por competÃªncia e bar raisers em cada processo. Modelei onboarding intensivo de 90 dias com shadowing, pair working e objetivos claros por milestone. Criei guilda de produto interna, trilhas de mentoria 1:1 e sistema de feedback 360Â° trimestral.",
+        "r": "Tempo de rampup caiu 60% (de 6 para 2.5 meses), qualidade de PRDs e decisÃµes melhorou significativamente (NPS interno de PMs subiu 0.8 pontos), acurÃ¡cia de roadmap aumentou 15 pontos percentuais e 80% dos PMs contratados foram promovidos internamente em 18 meses. (com baseline, meta e perÃ­odo documentados em relatÃ³rio executivo).",
+        "l": "Aprendi que contratar Ã© sÃ³ o primeiro passo; elevar sistematicamente a performance bar e desenvolver lÃ­deres Ã© o que transforma organizaÃ§Ãµes. Coaching Ã© multiplicador de impacto exponencial. Em retrospectiva, eu poderia ter criado more cross-functional collaboration upfront, e hoje sempre desenho onboarding que conecta com outras Ã¡reas desde o inÃ­cio."
       },
       "en": {
-        "s": "Shortage of senior PMs and high delivery variability across teams harmed predictability.",
-        "t": "Attract, select, and develop highbar product talent, continuously raising the bar.",
-        "a": "I built a hiring funnel with practical challenges, structured interviews, and bar raisers. Designed a 90day onboarding with shadowing, pairing, and clear goals. Set up a product guild and mentoring tracks.",
-        "r": "Rampup time 30%; PRD and decision quality up (internal NPS +0.8); roadmap accuracy +15 pp.",
-        "l": "Hiring is easy; systematically raising and developing the bar is what changes the game."
-      },      "fup": [
+        "s": "Woop/Sicredi faced critical shortage of senior PMs in market and high delivery variability between teams, impacting roadmap predictability and product quality. Time to productivity for new PMs was 6+ months.",
+        "t": "My mission was to create complete system to attract, select and develop product talent with high standards, continuously raising performance bar and accelerating development of internal leaders.",
+        "a": "I implemented rigorous hiring funnel with real product practical challenges, competency-structured interviews and bar raisers in each process. I designed intensive 90-day onboarding with shadowing, pair working and clear objectives per milestone. I created internal product guild, 1:1 mentoring tracks and quarterly 360Â° feedback system.",
+        "r": "Rampup time dropped 60% (from 6 to 2.5 months), PRD and decision quality improved significantly (internal PM NPS rose 0.8 points), roadmap accuracy increased 15 percentage points and 80% of hired PMs were promoted internally within 18 months. (with baseline, target and period documented in executive report).",
+        "l": "I learned that hiring is just first step; systematically raising performance bar and developing leaders is what transforms organizations. Coaching is exponential impact multiplier. In retrospect, I could have created more cross-functional collaboration upfront, and today I always design onboarding that connects with other areas from the start."
+      },
+      "fups": [
         {
-          "q": "Como evitou viés nas entrevistas?",
-          "a": "Entrevistas estruturadas com rubricas e painel diverso.",
-          "q_en": "How did you avoid bias in interviews?",
-          "a_en": "Structured interviews with rubrics and diverse panel."
+          "q": "Como vocÃª estruturou desafios prÃ¡ticos que realmente avaliassem capacidade de PM?",
+          "q_en": "How did you structure practical challenges that truly assessed PM capability?",
+          "a": "Real case studies da empresa: 'Essa feature tem 15% adoption, o que fazer?' Candidato apresenta analysis, recommendations e roadmap. Simulate real decisions, not theoretical exercises.",
+          "a_en": "Real company case studies: 'This feature has 15% adoption, what to do?' Candidate presents analysis, recommendations and roadmap. Simulate real decisions, not theoretical exercises."
         },
         {
-          "q": "Qual desafio prático usou?",
-          "a": "Problema real de discovery e priorização com dados limitados.",
-          "q_en": "What practical challenge did you use?",
-          "a_en": "Real discovery and prioritization problem with limited data."
+          "q": "O que eram 'bar raisers' no seu processo de contrataÃ§Ã£o?",
+          "q_en": "What were 'bar raisers' in your hiring process?",
+          "a": "Senior PMs de outras Ã¡reas que tinham veto power e focavam em: 'Essa pessoa Ã© melhor que 50% do time atual?' Standard de excelÃªncia mantido por peers, nÃ£o sÃ³ hiring manager.",
+          "a_en": "Senior PMs from other areas who had veto power and focused on: 'Is this person better than 50% of current team?' Excellence standard maintained by peers, not just hiring manager."
         },
         {
-          "q": "Como mediu sucesso do onboarding?",
-          "a": "Checkpoints 30/60/90 com entregas e feedback 360.",
-          "q_en": "How did you measure onboarding success?",
-          "a_en": "30/60/90 checkpoints with deliverables and 360 feedback."
+          "q": "Como funcionava o onboarding de 90 dias na prÃ¡tica?",
+          "q_en": "How did the 90-day onboarding work in practice?",
+          "a": "Primeiro mÃªs: shadowing + absorÃ§Ã£o; segundo mÃªs: pair working com mentor; terceiro mÃªs: ownership gradual com safety net. Structured rampup com checkpoints semanais.",
+          "a_en": "First month: shadowing + absorption; second month: pair working with mentor; third month: gradual ownership with safety net. Structured rampup with weekly checkpoints."
         },
         {
-          "q": "Como lidou com underperformance?",
-          "a": "PIP claro com objetivos mensais e apoio de mentoria.",
-          "q_en": "How did you handle underperformance?",
-          "a_en": "Clear PIP with monthly goals and mentoring support."
+          "q": "Que mÃ©tricas vocÃª usou para medir sucesso do desenvolvimento?",
+          "q_en": "What metrics did you use to measure development success?",
+          "a": "Time to first independent decision, quality score de deliverables, 360Â° feedback evolution e promotion rate within 18 months. Leading + lagging indicators de growth.",
+          "a_en": "Time to first independent decision, deliverables quality score, 360Â° feedback evolution and promotion rate within 18 months. Leading + lagging indicators of growth."
         },
         {
-          "q": "Que métrica acompanhou?",
-          "a": "Tempo de rampup e qualidade das decisões (proxy via NPS interno).",
-          "q_en": "What metric did you track?",
-          "a_en": "Ramp-up time and decision quality (proxy via internal NPS)."
-        },        {
-          "q": "Como manteve a barra alta?",
-          "a": "Bar raisers com poder de veto e revisão semestral das rubricas.",
-          "q_en": "How did you maintain high standards?",
-          "a_en": "Bar raisers with veto power and semi-annual rubric reviews."
+          "q": "Como a guilda de produto funcionava para desenvolver pessoas?",
+          "q_en": "How did the product guild work to develop people?",
+          "a": "Monthly sessions: case study discussions, best practices sharing, guest speakers e peer feedback. Cross-pollination de knowledge entre times diferentes. Community of practice.",
+          "a_en": "Monthly sessions: case study discussions, best practices sharing, guest speakers and peer feedback. Knowledge cross-pollination between different teams. Community of practice."
         },
         {
-          "q": "Qual foi o maior ganho?",
-          "a": "Autonomia real dos times com menos retrabalho.",
-          "q_en": "What was the biggest gain?",
-          "a_en": "Real team autonomy with less rework."
+          "q": "Qual foi o maior desafio ao elevar o padrÃ£o de contrataÃ§Ã£o?",
+          "q_en": "What was the biggest challenge in raising hiring standards?",
+          "a": "Pressure para preencher vagas rapidamente vs. maintain high bar. Eduquei stakeholders: 'Better to be understaffed com A-players than fully staffed com B-players.'",
+          "a_en": "Pressure to fill positions quickly vs. maintain high bar. I educated stakeholders: 'Better to be understaffed with A-players than fully staffed with B-players.'"
         },
         {
-          "q": "Como escalou a mentoria?",
-          "a": "Trilhas por senioridade e agenda quinzenal padrão.",
-          "q_en": "How did you scale mentoring?",
-          "a_en": "Tracks by seniority and standard bi-weekly schedule."
+          "q": "Como vocÃª identificava e desenvolvia lÃ­deres dentro do time?",
+          "q_en": "How did you identify and develop leaders within the team?",
+          "a": "Leadership signals: iniciativa em cross-team problems, coaching natural de juniors e ability to influence sem authority. Accelerated responsibility + mentoring para high-potential.",
+          "a_en": "Leadership signals: initiative on cross-team problems, natural coaching of juniors and ability to influence without authority. Accelerated responsibility + mentoring for high-potential."
         },
         {
-          "q": "Teve erro no processo?",
-          "a": "Subestimei tempo de shadowing; ajustei alocação de mentores.",
-          "q_en": "Did you make mistakes in the process?",
-          "a_en": "I underestimated shadowing time; adjusted mentor allocation."
+          "q": "Que papel vocÃª assumia pessoalmente no coaching de outros?",
+          "q_en": "What role did you personally take in coaching others?",
+          "a": "Weekly 1:1s focados em growth, nÃ£o status. Career development conversations, stretch assignments e honest feedback sobre strengths/gaps. Invest time in people development.",
+          "a_en": "Weekly 1:1s focused on growth, not status. Career development conversations, stretch assignments and honest feedback about strengths/gaps. Invest time in people development."
         },
         {
-          "q": "O que faria diferente?",
-          "a": "Introduziria cases gravados para calibrar avaliadores mais cedo.",
-          "q_en": "What would you do differently?",
-          "a_en": "I would introduce recorded cases to calibrate evaluators earlier."
+          "q": "Como vocÃª balanceava desenvolvimento interno vs. contrataÃ§Ã£o externa?",
+          "q_en": "How did you balance internal development vs. external hiring?",
+          "a": "70/30 rule: 70% promote from within, 30% external hire para bring fresh perspective. Internal development builds loyalty, external hiring prevents groupthink.",
+          "a_en": "70/30 rule: 70% promote from within, 30% external hire to bring fresh perspective. Internal development builds loyalty, external hiring prevents groupthink."
+        },
+        {
+          "q": "Se tivesse que criar programa de desenvolvimento hoje, o que faria diferente?",
+          "q_en": "If you had to create development program today, what would you do differently?",
+          "a": "Mais cross-functional exposure desde inÃ­cio, AI/ML skills integration e reverse mentoring (juniors teaching seniors). Future-proof development para changing landscape.",
+          "a_en": "More cross-functional exposure from start, AI/ML skills integration and reverse mentoring (juniors teaching seniors). Future-proof development for changing landscape."
         }
       ]
-    },    {
-      "title": "Aceleração de Lideranças Internas (Unimed)",
+    },
+    {
+      "title": "IdentificaÃ§Ã£o e Desenvolvimento de High Performer - PMO CAGE/SEFAZ-RS (MM/AAAA-MM/AAAA)",
       "pt": {
-        "s": "Crescimento do portfólio exigiu líderes de engenharia e design prontos para assumir programas complexos.",
-        "t": "Minha missão era: Desenvolver líderes internos e reduzir dependência de mercado.",
-        "a": "Criei programa de aceleração de liderança (6 meses) com rotação, coaching, 360º e projetos desafiadores. Conectei com trilhas de carreira e critérios transparentes.",
-        "r": "Succession pipeline estabelecido; 4 líderes promovidos; redução de 35% no tempo para preencher posições críticas. (com baseline, meta e período documentados em relatório executivo).",
-        "l": "Aprendi que desenvolver os melhores é planejar sucessão e dar desafios reais com suporte. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje começo engajando-os desde o início."
+        "s": "No PMO da CAGE/SEFAZ-RS, havia um analista junior com potential excepcional mas subutilizado, perdido em tarefas operacionais. A estrutura hierÃ¡rquica rÃ­gida do setor pÃºblico dificultava fast-track development.",
+        "t": "Minha missÃ£o era identificar, desenvolver e posicionar talentos excepcionais dentro das constraints do setor pÃºblico, criando path de crescimento acelerado sem quebrar protocolos organizacionais.",
+        "a": "Identifiquei o high performer atravÃ©s de quality of analysis e proatividade em soluÃ§Ãµes. Criei plano de desenvolvimento estruturado: projetos especiais, mentoria intensiva, exposure a stakeholders seniores e participaÃ§Ã£o em decisÃµes estratÃ©gicas. Lobby interno para exceÃ§Ãµes de progressÃ£o e criaÃ§Ã£o de nova posiÃ§Ã£o tÃ©cnica sÃªnior.",
+        "r": "Analista promovido de nÃ­vel 2 para 5 em 18 meses (vs. 4 anos tÃ­picos), liderou 3 projetos estratÃ©gicos com sucesso, virou referÃªncia tÃ©cnica interna e desenvolveu 2 outros juniors usando mesmo mÃ©todo. Brain drain prevention atravÃ©s de talent development. (com baseline, meta e perÃ­odo documentados em relatÃ³rio executivo).",
+        "l": "Aprendi que desenvolver talentos excepcionais exige criar oportunidades onde nÃ£o existiam antes. True leaders quebram barreiras organizacionais para unlock potential. Investment em people Ã© highest ROI decision. Em retrospectiva, eu poderia ter documentado melhor o business case para talent development, e hoje sempre construo formal succession planning que justifica accelerated growth."
       },
       "en": {
-        "s": "Portfolio growth required engineering/design leaders ready for complex programs.",
-        "t": "Develop internal leaders and reduce market dependency.",
-        "a": "I built a 6month leadership acceleration program with rotations, coaching, 360s, and stretch projects. Linked it to career tracks and transparent criteria.",
-        "r": "Succession pipeline established; 4 leaders promoted; 35% faster timetofill critical roles.",
-        "l": "Developing the best means planning succession and giving real stretch with support."
-      },      "fup": [
+        "s": "At CAGE/SEFAZ-RS PMO, there was junior analyst with exceptional potential but underutilized, lost in operational tasks. Rigid hierarchical structure of public sector made fast-track development difficult.",
+        "t": "My mission was to identify, develop and position exceptional talents within public sector constraints, creating accelerated growth path without breaking organizational protocols.",
+        "a": "I identified high performer through analysis quality and proactivity in solutions. I created structured development plan: special projects, intensive mentoring, exposure to senior stakeholders and participation in strategic decisions. Internal lobbying for progression exceptions and creation of new senior technical position.",
+        "r": "Analyst promoted from level 2 to 5 in 18 months (vs. typical 4 years), led 3 successful strategic projects, became internal technical reference and developed 2 other juniors using same method. Brain drain prevention through talent development. (with baseline, target and period documented in executive report).",
+        "l": "I learned that developing exceptional talents requires creating opportunities where they didn't exist before. True leaders break organizational barriers to unlock potential. Investment in people is highest ROI decision. In retrospect, I could have better documented business case for talent development, and today I always build formal succession planning that justifies accelerated growth."
+      },
+      "fups": [
         {
-          "q": "Como escolheu participantes?",
-          "a": "Desempenho consistente e potencial de crescimento medido por 9box.",
-          "q_en": "How did you choose participants?",
-          "a_en": "Consistent performance and growth potential measured by 9-box."
+          "q": "Como vocÃª identificou que esse analista tinha potential excepcional?",
+          "q_en": "How did you identify that this analyst had exceptional potential?",
+          "a": "Behavioral signals: fazia perguntas certas, propunha soluÃ§Ãµes alÃ©m do escopo, aprendia fast e tinha natural curiosity. Potential > performance atual em bureaucratic environment.",
+          "a_en": "Behavioral signals: asked right questions, proposed solutions beyond scope, learned fast and had natural curiosity. Potential > current performance in bureaucratic environment."
         },
         {
-          "q": "Como evitou favoritismo?",
-          "a": "Processo aberto com critérios e comitê multifuncional.",
-          "q_en": "How did you avoid favoritism?",
-          "a_en": "Open process with criteria and cross-functional committee."
+          "q": "Que resistÃªncia vocÃª enfrentou ao tentar acelerar progressÃ£o no setor pÃºblico?",
+          "q_en": "What resistance did you face trying to accelerate progression in public sector?",
+          "a": "'Tem que respeitar tempo de casa.' Argumentei com performance data e business need. Criamos nova funÃ§Ã£o tÃ©cnica specialist que permitiu growth sem quebrar hierarquia tradicional.",
+          "a_en": "'Must respect seniority time.' I argued with performance data and business need. We created new technical specialist function that allowed growth without breaking traditional hierarchy."
         },
         {
-          "q": "Qual foi o maior desafio?",
-          "a": "Conciliar carga operacional com projetosdesafio; resolvi com alocação dedicada.",
-          "q_en": "What was the biggest challenge?",
-          "a_en": "Balancing operational load with stretch projects; solved with dedicated allocation."
+          "q": "Como vocÃª estruturou o plano de desenvolvimento de 18 meses?",
+          "q_en": "How did you structure the 18-month development plan?",
+          "a": "Trimester goals: Q1 technical mastery, Q2 stakeholder management, Q3 project leadership, Q4 strategic thinking. Incremental complexity com safety net em cada step.",
+          "a_en": "Trimester goals: Q1 technical mastery, Q2 stakeholder management, Q3 project leadership, Q4 strategic thinking. Incremental complexity with safety net at each step."
         },
         {
-          "q": "Como mediu evolução?",
-          "a": "Evidências por competência, feedback 360 e entregas dos projetos.",
-          "q_en": "How did you measure evolution?",
-          "a_en": "Evidence by competency, 360 feedback, and project deliverables."
+          "q": "Que tipo de projetos especiais vocÃª deu para acelerar desenvolvimento?",
+          "q_en": "What type of special projects did you give to accelerate development?",
+          "a": "Cross-secretaria initiatives, process improvement projects e direct reporting ao SecretÃ¡rio em temas especÃ­ficos. High-visibility work que demonstrasse capabilities.",
+          "a_en": "Cross-department initiatives, process improvement projects and direct reporting to Secretary on specific themes. High-visibility work that demonstrated capabilities."
         },
         {
-          "q": "Qual conteúdo foi mais valioso?",
-          "a": "Coaching 1:1 e gestão de stakeholders.",
-          "q_en": "What content was most valuable?",
-          "a_en": "1:1 coaching and stakeholder management."
-        },        {
-          "q": "Houve desistências?",
-          "a": "1 caso; ajustei workload e suporte de chefias.",
-          "q_en": "Were there dropouts?",
-          "a_en": "1 case; I adjusted workload and management support."
+          "q": "Como vocÃª fez lobby interno para exceÃ§Ãµes de progressÃ£o?",
+          "q_en": "How did you lobby internally for progression exceptions?",
+          "a": "Business case sÃ³lido: cost of replacement, value delivered, risk of losing talent e ROI de investment em development. Numbers speak louder than politics.",
+          "a_en": "Solid business case: cost of replacement, value delivered, risk of losing talent and ROI of development investment. Numbers speak louder than politics."
         },
         {
-          "q": "Como garantir perenidade?",
-          "a": "Ciclo anual com reposição e mentores formados no programa.",
-          "q_en": "How do you ensure continuity?",
-          "a_en": "Annual cycle with replacement and mentors trained in the program."
+          "q": "Qual foi a reaÃ§Ã£o dos colegas Ã  progressÃ£o acelerada?",
+          "q_en": "What was colleagues' reaction to accelerated progression?",
+          "a": "Mixed reactions: alguns resentful, outros inspired. Mitigei through transparency sobre criteria e opportunities para outros tambÃ©m. Merit-based advancement Ã© infectious.",
+          "a_en": "Mixed reactions: some resentful, others inspired. I mitigated through transparency about criteria and opportunities for others too. Merit-based advancement is infectious."
         },
         {
-          "q": "Qual impacto no clima?",
-          "a": "Melhoria de eNPS em squads que tiveram líderes promovidos.",
-          "q_en": "What impact on culture?",
-          "a_en": "eNPS improvement in squads that had leaders promoted."
+          "q": "Como vocÃª mediu sucesso do desenvolvimento alÃ©m da promoÃ§Ã£o?",
+          "q_en": "How did you measure development success beyond promotion?",
+          "a": "Quality of deliverables, stakeholder feedback, problem-solving capability e ability to develop others. Leadership pipeline creation, nÃ£o just individual advancement.",
+          "a_en": "Quality of deliverables, stakeholder feedback, problem-solving capability and ability to develop others. Leadership pipeline creation, not just individual advancement."
         },
         {
-          "q": "Como conectou com negócio?",
-          "a": "Projetosdesafio alinhados a OKRs críticos.",
-          "q_en": "How did you connect with business?",
-          "a_en": "Stretch projects aligned to critical OKRs."
+          "q": "Que papel vocÃª assumiu como mentor pessoal?",
+          "q_en": "What role did you take as personal mentor?",
+          "a": "Weekly coaching sessions, honest feedback sobre gaps, networking introductions e strategic career guidance. Sponsor, nÃ£o just supervisor. Personal investment em success.",
+          "a_en": "Weekly coaching sessions, honest feedback about gaps, networking introductions and strategic career guidance. Sponsor, not just supervisor. Personal investment in success."
         },
         {
-          "q": "O que faria diferente?",
-          "a": "Mais prática de finanças para líderes de produto.",
-          "q_en": "What would you do differently?",
-          "a_en": "More finance practice for product leaders."
+          "q": "Como essa pessoa depois desenvolveu outros juniors?",
+          "q_en": "How did this person later develop other juniors?",
+          "a": "Replicou methodology: identification of potential, structured development plans e advocacy upward. Pay-it-forward culture de talent development. Multiplier effect.",
+          "a_en": "Replicated methodology: identification of potential, structured development plans and upward advocacy. Pay-it-forward culture of talent development. Multiplier effect."
+        },
+        {
+          "q": "Se tivesse que desenvolver talent em ambiente burocrÃ¡tico hoje, o que faria diferente?",
+          "q_en": "If you had to develop talent in bureaucratic environment today, what would you do differently?",
+          "a": "More systematic documentation de business impact, formal mentoring programs e partnerships com academia para credentialing. Structure beats politics quando bem documentado.",
+          "a_en": "More systematic documentation of business impact, formal mentoring programs and partnerships with academia for credentialing. Structure beats politics when well documented."
         }
       ]
     }

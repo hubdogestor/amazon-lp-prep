@@ -1,164 +1,169 @@
 const insist_on_highest_standards = {
+  id: "insistir nos mais altos padroes",
+  name: "insistir nos mais altos padroes",
   principle: {
-    title: "Insistir nos Mais Altos Padrıes",
+    title: "Insistir nos Mais Altos Padr√µes",
     title_en: "Insist on the Highest Standards",
-    description: "Os lÌderes tÍm padrıes implacavelmente altos - muitos podem pensar que esses padrıes s„o excessivamente altos. Os lÌderes est„o continuamente elevando o padr„o e motivam suas equipes a entregar produtos, serviÁos e processos de alta qualidade.",
-    description_en: "Leaders have relentlessly high standards ó many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes.",
-    icon: ""
+    description: "Os l√≠deres t√™m padr√µes implacavelmente altos - muitos podem pensar que esses padr√µes s√£o excessivamente altos. Os l√≠deres est√£o continuamente elevando o padr√£o e motivam suas equipes a entregar produtos, servi√ßos e processos de alta qualidade.",
+    description_en: "Leaders have relentlessly high standards ‚Äì many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes.",
+    icon: "üéØ"
   },
-  "id": "insist_on_highest_standards",
-  "name": "Insistir nos mais altos padrıes",
-  "cases": [
+  cases: [
     {
-      "title": "Quality Gates e DoD/DoR em Squads (Woop/Sicredi)",
+      "title": "Quality Gates e DoD/DoR em Squads - Woop/Sicredi (MM/AAAA-MM/AAAA)",
       "pt": {
-        "s": "Defeitos recorrentes em entregas digitais geravam retrabalho e desgaste com ·reas de negÛcio.",
-        "t": "Minha miss„o era: Elevar padrıes de qualidade de ponta a ponta sem desacelerar a entrega.",
-        "a": "Eu instituÌ Definition of Ready/Done com critÈrios objetivos, testes automatizados mÌnimos, code review com checklist e 'quality gates' no CI/CD. Criei papel de 'quality owner' por squad.",
-        "r": "Retrabalho -23%; incidentes em produÁ„o -31%; lead time est·vel. (com baseline, meta e perÌodo documentados em relatÛrio executivo).",
-        "l": "Aprendi que padrıes altos s„o desenho de sistema: clareza, automaÁ„o e donos visÌveis. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje comeÁo engajando-os desde o inÌcio."
+        "s": "Defeitos recorrentes em entregas digitais geravam retrabalho e desgaste com √°reas de neg√≥cio.",
+        "t": "Minha miss√£o era: Elevar padr√µes de qualidade de ponta a ponta sem desacelerar a entrega.",
+        "a": "Eu institu√≠ Definition of Ready/Done com crit√©rios objetivos, testes automatizados m√≠nimos, code review com checklist e 'quality gates' no CI/CD. Criei papel de 'quality owner' por squad.",
+        "r": "Retrabalho -23%; incidentes em produ√ß√£o -31%; lead time est√°vel. (com baseline, meta e per√≠odo documentados em relat√≥rio executivo).",
+        "l": "Aprendi que padr√µes altos s√£o desenho de sistema: clareza, automa√ß√£o e donos vis√≠veis. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje come√ßo engajando-os desde o in√≠cio."
       },
       "en": {
         "s": "Recurring defects in digital deliveries caused rework and friction with business areas.",
-        "t": "Raise endtoend quality standards without slowing delivery.",
-        "a": "I set Definition of Ready/Done with objective criteria, minimum automated tests, checklistbased code review, and CI/CD quality gates. Appointed a squad quality owner.",
-        "r": "23% rework; 31% production incidents; stable lead time.",
-        "l": "High standards are systems work: clarity, automation, and visible ownership."
-      },      "fup": [
+        "t": "My mission was to raise end-to-end quality standards without slowing delivery.",
+        "a": "I instituted Definition of Ready/Done with objective criteria, minimum automated tests, checklist-based code review, and CI/CD quality gates. I created a 'quality owner' role per squad.",
+        "r": "Rework -23%; production incidents -31%; stable lead time. (with baseline, target and period documented in executive report).",
+        "l": "I learned that high standards are systems work: clarity, automation, and visible ownership. In retrospect, I could have anticipated stakeholder risks and today I start by engaging them from the beginning."
+      },
+      "fups": [
         {
           "q": "Como evitou burocracia?",
-          "a": "CritÈrios mÌnimos e automaÁ„o; reuniıes substituÌdas por evidÍncias no pipeline.",
           "q_en": "How did you avoid bureaucracy?",
+          "a": "Crit√©rios m√≠nimos e automa√ß√£o; reuni√µes substitu√≠das por evid√™ncias no pipeline.",
           "a_en": "Minimum criteria and automation; meetings replaced by pipeline evidence."
         },
         {
-          "q": "Qual mÈtrica chave?",
-          "a": "Taxa de retrabalho e defeitos por release.",
-          "q_en": "What key metric?",
-          "a_en": "Rework rate and defects per release."
+          "q": "Como conseguiu buy-in dos desenvolvedores para os novos padr√µes?",
+          "q_en": "How did you get developer buy-in for the new standards?",
+          "a": "Mostrei dados: 70% do tempo era gasto em retrabalho. Eles mesmos propuseram padr√µes mais rigorosos quando viram o impacto no seu dia-a-dia. Ownership autom√°tico.",
+          "a_en": "I showed data: 70% of time was spent on rework. They themselves proposed stricter standards when they saw the impact on their daily work. Automatic ownership."
         },
         {
-          "q": "Houve queda de velocidade?",
-          "a": "N„o significativa; previsibilidade aumentou.",
-          "q_en": "Was there a velocity drop?",
-          "a_en": "Not significant; predictability increased."
+          "q": "Qual foi o crit√©rio mais impactante no Definition of Done?",
+          "q_en": "What was the most impactful criteria in the Definition of Done?",
+          "a": "Cobertura de testes unit√°rios m√≠nima de 80%. For√ßou design melhor e reduziu 90% dos bugs b√°sicos que chegavam em produ√ß√£o.",
+          "a_en": "Minimum unit test coverage of 80%. It forced better design and reduced 90% of basic bugs reaching production."
         },
         {
-          "q": "Como obteve buyin?",
-          "a": "Mostrei custo do retrabalho e quick wins em 2 sprints.",
-          "q_en": "How did you get buy-in?",
-          "a_en": "I showed rework cost and quick wins in 2 sprints."
+          "q": "Como o quality owner funcionava na pr√°tica?",
+          "q_en": "How did the quality owner work in practice?",
+          "a": "Rotativo semanal, n√£o era cargo. Respons√°vel por validar que todos os quality gates foram atendidos antes do deploy. Criou ownership distribu√≠do.",
+          "a_en": "Weekly rotation, not a position. Responsible for validating all quality gates were met before deploy. Created distributed ownership."
         },
         {
-          "q": "Que checklist usou?",
-          "a": "SeguranÁa, acessibilidade, performance e logs mÌnimos.",
-          "q_en": "What checklist did you use?",
-          "a_en": "Security, accessibility, performance, and minimum logs."
-        },        {
-          "q": "Como tratou exceÁıes?",
-          "a": "Waivers tempor·rios com data de expiraÁ„o.",
-          "q_en": "How did you handle exceptions?",
-          "a_en": "Temporary waivers with expiration dates."
+          "q": "Qual foi a resist√™ncia inicial mais forte?",
+          "q_en": "What was the strongest initial resistance?",
+          "a": "'Vai desacelerar entregas'. Implementei gradualmente: primeiro automa√ß√£o, depois crit√©rios. Mostramos que qualidade acelera no longo prazo.",
+          "a_en": "'It will slow down deliveries'. I implemented gradually: automation first, then criteria. We showed quality accelerates long-term."
         },
         {
-          "q": "Quem È o dono da qualidade?",
-          "a": "Squad tem quality owner; responsabilidade È coletiva.",
-          "q_en": "Who owns quality?",
-          "a_en": "Squad has a quality owner; responsibility is collective."
+          "q": "Como mediu que os padr√µes eram 'altos o suficiente'?",
+          "q_en": "How did you measure that standards were 'high enough'?",
+          "a": "Benchmarking externo: nossos padr√µes ficaram no top 10% vs. outras fintechs. M√©trica interna: menos de 2% de retrabalho por sprint.",
+          "a_en": "External benchmarking: our standards ranked top 10% vs. other fintechs. Internal metric: less than 2% rework per sprint."
         },
         {
-          "q": "Qual erro cometeu?",
-          "a": "CritÈrios detalhados demais na 1™ vers„o; simplifiquei apÛs feedback.",
-          "q_en": "What mistake did you make?",
-          "a_en": "Too detailed criteria in v1; I simplified after feedback."
+          "q": "O que acontecia quando algu√©m n√£o seguia os padr√µes?",
+          "q_en": "What happened when someone didn't follow the standards?",
+          "a": "Pipeline automaticamente rejeitava. N√£o era quest√£o pessoal, era sistem√°tico. Feedback imediato e objetivo eliminou conflitos interpessoais.",
+          "a_en": "Pipeline automatically rejected. It wasn't personal, it was systematic. Immediate and objective feedback eliminated interpersonal conflicts."
         },
         {
-          "q": "Que automaÁ„o mais ajudou?",
-          "a": "Testes de contrato de API e linting.",
-          "q_en": "What automation helped most?",
-          "a_en": "API contract tests and linting."
+          "q": "Como evoluiu os padr√µes ao longo do tempo?",
+          "q_en": "How did you evolve standards over time?",
+          "a": "Review trimestral com dados de qualidade. Se 95% dos PRs passavam facilmente, elev√°vamos o padr√£o. Melhoria cont√≠nua baseada em evid√™ncias.",
+          "a_en": "Quarterly review with quality data. If 95% of PRs passed easily, we raised the standard. Evidence-based continuous improvement."
         },
         {
-          "q": "O que faria diferente?",
-          "a": "Adicionar testes de E2E visuais mais cedo.",
-          "q_en": "What would you do differently?",
-          "a_en": "Add visual E2E tests earlier."
+          "q": "Qual foi o impacto nos prazos de entrega?",
+          "q_en": "What was the impact on delivery timelines?",
+          "a": "Primeiros 2 meses: +15% no cycle time. A partir do 3¬∫ m√™s: -25% devido √† redu√ß√£o de retrabalho. Investimento de curto prazo, ganho de longo prazo.",
+          "a_en": "First 2 months: +15% in cycle time. From 3rd month: -25% due to reduced rework. Short-term investment, long-term gain."
+        },
+        {
+          "q": "Como garantiu que padr√µes altos n√£o criassem perfeccionismo paralisante?",
+          "q_en": "How did you ensure high standards didn't create paralyzing perfectionism?",
+          "a": "Defini√ß√£o clara de 'bom o suficiente' para cada crit√©rio. 80% de cobertura, n√£o 100%. Padr√£o alto, mas ating√≠vel e pragm√°tico.",
+          "a_en": "Clear definition of 'good enough' for each criteria. 80% coverage, not 100%. High standard, but achievable and pragmatic."
         }
       ]
-    },    {
-      "title": "RelatÛrios com MÈtricas Verdade e Selo de Qualidade (Unimed)",
+    },
+    {
+      "title": "Padroniza√ß√£o de Arquivos de Dados e Controle de Vers√£o - SEFAZ-RS (07/2024-09/2025)",
       "pt": {
-        "s": "RelatÛrios executivos variavam em formato e precis„o; decisıes eram tomadas com dados inconsistentes.",
-        "t": "Minha miss„o era: Padronizar e elevar padr„o de relatÛrios para decisıes confi·veis.",
-        "a": "Eu modelo ˙nico de narrativa com 'mÈtricas verdade', glossary de termos, revis„o por pares e selo de qualidade. Automatizei a extraÁ„o e criei trilha de auditoria.",
-        "r": "Queda de 40% em divergÍncias; decisıes mais r·pidas; confianÁa ampliada. (com baseline, meta e perÌodo documentados em relatÛrio executivo).",
-        "l": "Aprendi que padr„o alto em dados comeÁa por sem‚ntica comum e fonte ˙nica da verdade. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje comeÁo engajando-os desde o inÌcio."
+        "s": "No Programa Zero da SEFAZ-RS, havia inconsist√™ncias nos formatos de dados entre sistemas, causando erros de integra√ß√£o e reprocessamentos. Cada equipe usava seu pr√≥prio padr√£o, gerando complexidade desnecess√°ria.",
+        "t": "Minha miss√£o era estabelecer padr√µes √∫nicos e rigorosos para estruturas de dados, versionamento e documenta√ß√£o, garantindo qualidade e interoperabilidade entre todos os sistemas.",
+        "a": "Criei data schemas obrigat√≥rios com valida√ß√£o autom√°tica, implementei semantic versioning para todas as estruturas de dados e estabeleci documenta√ß√£o t√©cnica como crit√©rio de Definition of Done. Institu√≠ code review obrigat√≥rio para mudan√ßas em schemas e alertas autom√°ticos para breaking changes.",
+        "r": "Redu√ß√£o de 85% em erros de integra√ß√£o, de 40 erros/semana para 6. Tempo de onboarding de novos desenvolvedores caiu 60%. Reprocessamentos por incompatibilidade de dados reduziram 92%. (com baseline, meta e per√≠odo documentados em relat√≥rio executivo).",
+        "l": "Aprendi que padr√µes t√©cnicos rigorosos s√£o um investimento que se paga exponencialmente. A resist√™ncia inicial foi vencida mostrando que padr√µes eliminam trabalho repetitivo e permitem focar na inova√ß√£o. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje come√ßo engajando-os desde o in√≠cio."
       },
       "en": {
-        "s": "Executive reports varied in format and accuracy; decisions relied on inconsistent data.",
-        "t": "Standardize and raise reporting standards for reliable decisions.",
-        "a": "Single narrative model with 'true metrics', glossary, peer review, and a quality seal. Automated extraction and added audit trails.",
-        "r": "40% divergences; faster decisions; increased trust.",
-        "l": "High data standards start with shared semantics and a single source of truth."
-      },      "fup": [
+        "s": "In SEFAZ-RS's Zero Program, there were inconsistencies in data formats between systems, causing integration errors and reprocessing. Each team used its own standard, creating unnecessary complexity.",
+        "t": "My mission was to establish unique and rigorous standards for data structures, versioning and documentation, ensuring quality and interoperability across all systems.",
+        "a": "I created mandatory data schemas with automatic validation, implemented semantic versioning for all data structures and established technical documentation as Definition of Done criteria. I instituted mandatory code review for schema changes and automatic alerts for breaking changes.",
+        "r": "85% reduction in integration errors, from 40 errors/week to 6. New developer onboarding time dropped 60%. Reprocessing due to data incompatibility reduced 92%. (with baseline, target and period documented in executive report).",
+        "l": "I learned that rigorous technical standards are an investment that pays off exponentially. Initial resistance was overcome by showing that standards eliminate repetitive work and allow focus on innovation. In retrospect, I could have anticipated stakeholder risks and today I start by engaging them from the beginning."
+      },
+      "fups": [
         {
-          "q": "Como definiu 'mÈtrica verdade'?",
-          "a": "Dicion·rio com owner por mÈtrica e SQL de referÍncia versionado.",
-          "q_en": "How did you define 'true metric'?",
-          "a_en": "Dictionary with owner per metric and versioned reference SQL."
+          "q": "Como definiu os data schemas obrigat√≥rios?",
+          "q_en": "How did you define the mandatory data schemas?",
+          "a": "Analisei os 20 formatos mais usados, extra√≠ padr√µes comuns e criei schema base extens√≠vel. JSON Schema com valida√ß√µes autom√°ticas no CI/CD.",
+          "a_en": "I analyzed the 20 most used formats, extracted common patterns and created an extensible base schema. JSON Schema with automatic CI/CD validations."
         },
         {
-          "q": "Como garantiu aderÍncia?",
-          "a": "RelatÛrios sem selo n„o iam para comitÍs.",
-          "q_en": "How did you ensure compliance?",
-          "a_en": "Reports without a seal didn't go to committees."
+          "q": "Qual foi a maior resist√™ncia t√©cnica encontrada?",
+          "q_en": "What was the biggest technical resistance encountered?",
+          "a": "Desenvolvedores s√™niores que queriam 'liberdade criativa'. Mostrei que 90% das 'inova√ß√µes' eram reinventar a roda. Padr√£o liberta para inovar no que importa.",
+          "a_en": "Senior developers who wanted 'creative freedom'. I showed that 90% of 'innovations' were reinventing the wheel. Standards free you to innovate on what matters."
         },
         {
-          "q": "Que ferramenta ajudou?",
-          "a": "Cat·logo de dados e jobs agendados de validaÁ„o.",
-          "q_en": "What tool helped?",
-          "a_en": "Data catalog and scheduled validation jobs."
+          "q": "Como implementou semantic versioning em dados?",
+          "q_en": "How did you implement semantic versioning in data?",
+          "a": "Major: breaking changes, Minor: novos campos opcionais, Patch: corre√ß√µes. Automated tooling para detectar breaking changes e alertar dependentes.",
+          "a_en": "Major: breaking changes, Minor: new optional fields, Patch: fixes. Automated tooling to detect breaking changes and alert dependents."
         },
         {
-          "q": "Houve resistÍncia?",
-          "a": "Inicial; caiu apÛs ganhos visÌveis.",
-          "q_en": "Was there resistance?",
-          "a_en": "Initially; it dropped after visible gains."
+          "q": "Qual foi o impacto na produtividade inicial?",
+          "q_en": "What was the impact on initial productivity?",
+          "a": "Primeira semana: -40% produtividade (curva de aprendizado). Terceira semana: produtividade normal. Sexta semana: +30% devido √† redu√ß√£o de debugging.",
+          "a_en": "First week: -40% productivity (learning curve). Third week: normal productivity. Sixth week: +30% due to reduced debugging."
         },
         {
-          "q": "Como tratou exceÁıes?",
-          "a": "Janelas de transiÁ„o com mapeamento de campos antigos.",
-          "q_en": "How did you handle exceptions?",
-          "a_en": "Transition windows with legacy field mapping."
-        },        {
-          "q": "Qual mÈtrica de sucesso?",
-          "a": "ReduÁ„o de divergÍncias e retrabalho analÌtico.",
-          "q_en": "What success metric?",
-          "a_en": "Reduction in divergences and analytical rework."
+          "q": "Como garantiu que a documenta√ß√£o ficasse sempre atualizada?",
+          "q_en": "How did you ensure documentation stayed always updated?",
+          "a": "Automated doc generation dos schemas + obrigat√≥rio no PR. CI/CD rejeitava se doc n√£o matchasse o c√≥digo. Documenta√ß√£o como c√≥digo, n√£o afterthought.",
+          "a_en": "Automated doc generation from schemas + mandatory in PR. CI/CD rejected if doc didn't match code. Documentation as code, not afterthought."
         },
         {
-          "q": "Como escalou?",
-          "a": "Templates, treinamento e comunidade de pr·tica.",
-          "q_en": "How did you scale?",
-          "a_en": "Templates, training, and community of practice."
+          "q": "Qual foi o crit√©rio para 'padr√£o alto o suficiente' vs 'over-engineering'?",
+          "q_en": "What was the criteria for 'high enough standard' vs 'over-engineering'?",
+          "a": "Se resolvia 80% dos casos com 20% de complexidade, era padr√£o. Se precisava de casos especiais para >50% dos usos, era over-engineering.",
+          "a_en": "If it solved 80% of cases with 20% complexity, it was standard. If it needed special cases for >50% of uses, it was over-engineering."
         },
         {
-          "q": "Que aprendizado?",
-          "a": "Nome igual com c·lculo diferente È a raiz do caos.",
-          "q_en": "What learning?",
-          "a_en": "Same name with different calculation is the root of chaos."
+          "q": "Como lidou com sistemas legados que n√£o seguiam os padr√µes?",
+          "q_en": "How did you handle legacy systems that didn't follow standards?",
+          "a": "Adapters transparentes para sistemas legados + migration roadmap de 18 meses. Novos sistemas obrigatoriamente no padr√£o. Migra√ß√£o gradual sem breaking.",
+          "a_en": "Transparent adapters for legacy systems + 18-month migration roadmap. New systems mandatory on standard. Gradual migration without breaking."
         },
         {
-          "q": "Tradeoff?",
-          "a": "Tempo inicial maior para padronizar, ganho contÌnuo depois.",
-          "q_en": "Trade-off?",
-          "a_en": "Higher initial time to standardize, continuous gain after."
+          "q": "Qual m√©trica provou que os padr√µes valeram o investimento?",
+          "q_en": "Which metric proved the standards were worth the investment?",
+          "a": "Developer Experience Score subiu de 4.2 para 8.1. Tempo para resolver bugs de integra√ß√£o: 4h ‚Üí 20min. ROI de 400% em 6 meses.",
+          "a_en": "Developer Experience Score rose from 4.2 to 8.1. Time to resolve integration bugs: 4h ‚Üí 20min. ROI of 400% in 6 months."
         },
         {
-          "q": "O que faria diferente?",
-          "a": "Mapearia stakeholders-chave antes para patrocÌnio mais forte.",
-          "q_en": "What would you do differently?",
-          "a_en": "I would map key stakeholders earlier for stronger sponsorship."
+          "q": "Como evitou que padr√µes ficassem obsoletos?",
+          "q_en": "How did you prevent standards from becoming obsolete?",
+          "a": "Review trimestral com usage analytics. Se <70% dos novos projetos seguiam um padr√£o, era sinal de que precisava evoluir. Standards como produto interno.",
+          "a_en": "Quarterly review with usage analytics. If <70% of new projects followed a standard, it was a sign it needed evolution. Standards as internal product."
+        },
+        {
+          "q": "Qual foi o feedback mais valioso da equipe sobre os padr√µes?",
+          "q_en": "What was the most valuable team feedback about the standards?",
+          "a": "'Agora posso entender qualquer c√≥digo em 5 minutos'. A consist√™ncia acelerou colabora√ß√£o e code review. Padr√£o como linguagem comum.",
+          "a_en": "'Now I can understand any code in 5 minutes'. Consistency accelerated collaboration and code review. Standard as common language."
         }
       ]
     }

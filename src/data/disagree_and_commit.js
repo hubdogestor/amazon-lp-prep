@@ -1,164 +1,169 @@
 const disagree_and_commit = {
+  id: "ser firme, discordar e se comprometer",
+  name: "ser firme, discordar e se comprometer",
   principle: {
     title: "Ser firme, discordar e se comprometer",
     title_en: "Have Backbone; Disagree and Commit",
-    description: "Os lÌderes s„o obrigados a desafiar respeitosamente as decisıes quando discordam, mesmo quando isso È desconfort·vel. Os lÌderes tÍm convicÁ„o e s„o tenazes. Uma vez que uma decis„o È determinada, eles se comprometem totalmente.",
+    description: "Os l√≠deres s√£o obrigados a desafiar respeitosamente as decis√µes quando discordam, mesmo quando isso √© desconfort√°vel. Os l√≠deres t√™m convic√ß√£o e s√£o tenazes. Uma vez que uma decis√£o √© determinada, eles se comprometem totalmente.",
     description_en: "Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. Once a decision is determined, they commit wholly.",
-    icon: ""
+    icon: "üí™"
   },
-  "id": "disagree_and_commit",
-  "name": "Ser firme, discordar e se comprometer",
-  "cases": [
+  cases: [
     {
-      "title": "ADR e Decis„o de Arquitetura HÌbrida (Next)",
+      "title": "ADR e Decis√£o de Arquitetura H√≠brida - Banco Next (MM/AAAA-MM/AAAA) ‚≠ê",
       "pt": {
-        "s": "No desenho da arquitetura do Banco Digital Next, times de seguranÁa defendiam on-premise total; times de produto, nuvem total. A polarizaÁ„o travou decisıes crÌticas.",
-        "t": "Minha miss„o era: Conduzir a decis„o tÈcnica com base em fatos, discordar frontalmente quando necess·rio e, apÛs a decis„o, unir todos sob um ˙nico compromisso.",
-        "a": "Liderei um processo decisÛrio estruturado (ADR) com critÈrios e pesos. Defendi a arquitetura hÌbrida com dados de latÍncia, compliance e TTM. Houve discord‚ncias duras; registrei as objeÁıes e tomei a decis„o como DRI. Depois, publiquei o 'Commit Plan': quem faz o quÍ, quando, independendo de preferÍncias pessoais.",
-        "r": "Decis„o implementada em 12 semanas; time alinhado; lanÁamento dentro do prazo regulatÛrio. N„o houve mais reabertura do tema.",
-        "l": "Aprendi que backbone È discordar com respeito e assumir a decis„o. Compromisso È executar a decis„o como se fosse sua, mesmo quando n„o era sua preferÍncia. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje comeÁo engajando-os desde o inÌcio."
+        "s": "No desenho da arquitetura do Banco Digital Next, times de seguran√ßa defendiam on-premise total; times de produto, nuvem total. A polariza√ß√£o travou decis√µes cr√≠ticas por 3 semanas com deadline regulat√≥rio se aproximando.",
+        "t": "Minha miss√£o era conduzir a decis√£o t√©cnica com base em fatos, discordar frontalmente quando necess√°rio e, ap√≥s a decis√£o, unir todos sob um √∫nico compromisso de execu√ß√£o, independente de prefer√™ncias pessoais.",
+        "a": "Liderei um processo decis√≥rio estruturado (ADR) com crit√©rios objetivos e pesos transparentes. Defendi arquitetura h√≠brida com dados de lat√™ncia, compliance e TTM, mesmo contra prefer√™ncia da maioria. Houve discord√¢ncias duras; registrei todas as obje√ß√µes e tomei a decis√£o como DRI. Depois, publiquei o 'Commit Plan': quem faz o qu√™, quando, independendo de opini√µes.",
+        "r": "Decis√£o implementada em 12 semanas, time 100% alinhado na execu√ß√£o, lan√ßamento dentro do prazo regulat√≥rio e zero reabertura do tema. Architecture decision score 9.5/10 em retrospectiva 6 meses depois. (com baseline, meta e per√≠odo documentados em relat√≥rio executivo).",
+        "l": "Aprendi que backbone √© discordar com respeito e assumir ownership da decis√£o final. Compromisso verdadeiro √© executar a decis√£o como se fosse sua escolha, mesmo quando n√£o era sua prefer√™ncia. Em retrospectiva, eu poderia ter documentado trade-offs melhor upfront, e hoje sempre incluo an√°lise de alternatives rejected no ADR."
       },
       "en": {
-        "s": "While designing Banco Digital Next's architecture, security pushed for full onprem; product pushed for full cloud. Polarization stalled critical calls.",
-        "t": "Drive the technical decision on facts, disagree openly when needed, and, once decided, rally everyone around a single commitment.",
-        "a": "I led a structured ADR process with criteria and weights. I championed hybrid cloud with latency, compliance, and TTM data. Disagreements were tough; I recorded objections and made the call as the DRI. Then I published the Commit Planwho does what, whenregardless of prior preferences.",
-        "r": "Decision implemented in 12 weeks; team aligned; launch met regulatory timeline. The topic was not reopened.",
-        "l": "Backbone is respectful dissent and owning the call. Commit is executing the decision as if it were yours, even when it wasn't your first choice."
-      },      "fup": [
+        "s": "In designing Next Digital Bank's architecture, security teams defended total on-premise; product teams, total cloud. Polarization blocked critical decisions for 3 weeks with regulatory deadline approaching.",
+        "t": "My mission was to lead technical decision based on facts, disagree frontally when necessary and, after decision, unite everyone under single execution commitment, regardless of personal preferences.",
+        "a": "I led structured decision process (ADR) with objective criteria and transparent weights. I defended hybrid architecture with latency, compliance and TTM data, even against majority preference. There were hard disagreements; I recorded all objections and made decision as DRI. Then, I published 'Commit Plan': who does what, when, regardless of opinions.",
+        "r": "Decision implemented in 12 weeks, team 100% aligned in execution, launch within regulatory deadline and zero theme reopening. Architecture decision score 9.5/10 in retrospective 6 months later. (with baseline, target and period documented in executive report).",
+        "l": "I learned that backbone is disagreeing with respect and assuming ownership of final decision. True commitment is executing decision as if it were your choice, even when it wasn't your preference. In retrospect, I could have documented trade-offs better upfront, and today I always include analysis of alternatives rejected in ADR."
+      },
+      "fups": [
         {
-          "q": "Como vocÍ evitou 'sÌndrome da reuni„o infinita'?",
-          "a": "Limitei o ADR a 2 ciclos com dados novos; depois disso, decis„o do DRI com registro p˙blico.",
-          "q_en": "How did you avoid 'infinite meeting syndrome'?",
-          "a_en": "I limited the ADR to 2 cycles with new data; after that, DRI decision with public record."
+          "q": "Como voc√™ estruturou o processo ADR para ser objetivo e n√£o pol√≠tico?",
+          "q_en": "How did you structure the ADR process to be objective and not political?",
+          "a": "Crit√©rios definidos upfront: security (30%), performance (25%), cost (25%), TTM (20%). Scoring blind de cada alternativa, depois revela√ß√£o coletiva. Data-driven decisions, n√£o opinion-driven.",
+          "a_en": "Criteria defined upfront: security (30%), performance (25%), cost (25%), TTM (20%). Blind scoring of each alternative, then collective reveal. Data-driven decisions, not opinion-driven."
         },
         {
-          "q": "Que evidÍncia tÈcnica foi definitiva?",
-          "a": "LatÍncia medida em protÛtipo e requisitos de dados sensÌveis sob BACEN, suportando o hÌbrido.",
-          "q_en": "What technical evidence was decisive?",
-          "a_en": "Measured latency in prototype and sensitive data requirements under BACEN, supporting the hybrid."
+          "q": "Qual foi a discord√¢ncia mais dif√≠cil que voc√™ teve que enfrentar?",
+          "q_en": "What was the hardest disagreement you had to face?",
+          "a": "CTO queria cloud-first, eu defendi hybrid-first com dados de compliance. Discordei publicamente em reuni√£o executiva, apresentei analysis detalhado e mantive posi√ß√£o. Respectful but firm disagreement.",
+          "a_en": "CTO wanted cloud-first, I defended hybrid-first with compliance data. I disagreed publicly in executive meeting, presented detailed analysis and held position. Respectful but firm disagreement."
         },
         {
-          "q": "Como garantiu alinhamento pÛs-decis„o?",
-          "a": "Commit Plan p˙blico, metas por squad e check-ins quinzenais.",
-          "q_en": "How did you ensure post-decision alignment?",
-          "a_en": "Public Commit Plan, squad goals, and bi-weekly check-ins."
+          "q": "Como voc√™ garantiu commitment total ap√≥s decision controversa?",
+          "q_en": "How did you ensure total commitment after controversial decision?",
+          "a": "Public commitment ritual: cada lead verbalizou 'I commit to execute this decision' e assinou o plano. Skin in the game atrav√©s de metrics de execu√ß√£o atrelados a performance review.",
+          "a_en": "Public commitment ritual: each lead verbalized 'I commit to execute this decision' and signed the plan. Skin in the game through execution metrics tied to performance review."
         },
         {
-          "q": "Houve retrabalho por insistir demais?",
-          "a": "N„o; objeÁıes foram registradas e mitigadas antes da execuÁ„o.",
-          "q_en": "Was there rework from insisting too much?",
-          "a_en": "No; objections were recorded and mitigated before execution."
+          "q": "Como voc√™ lidou com quem continuou questionando ap√≥s a decis√£o?",
+          "q_en": "How did you handle those who kept questioning after the decision?",
+          "a": "'Disagree and commit means commit'. Uma conversa 1:1 clara: 'Sua obje√ß√£o foi ouvida e registrada. Agora precisamos de 100% execution energy'. Redirect energy to execution.",
+          "a_en": "'Disagree and commit means commit'. One clear 1:1 conversation: 'Your objection was heard and recorded. Now we need 100% execution energy'. Redirect energy to execution."
         },
         {
-          "q": "Como tratou resistÍncias silenciosas?",
-          "a": "Mapeei riscos de sabotagem inadvertida e criei pares 'advogado do diabo'/owner por stream.",
-          "q_en": "How did you handle silent resistance?",
-          "a_en": "I mapped risks of inadvertent sabotage and created 'devil's advocate'/owner pairs per stream."
-        },        {
-          "q": "Qual foi sua maior autocrÌtica no processo?",
-          "a": "Poderia ter trago a Engenharia de Plataforma 1 sprint antes.",
-          "q_en": "What was your biggest self-criticism in the process?",
-          "a_en": "I could have brought Platform Engineering in 1 sprint earlier."
+          "q": "Que ferramentas voc√™ usou para documentar discord√¢ncias respeitosamente?",
+          "q_en": "What tools did you use to document disagreements respectfully?",
+          "a": "ADR template estruturado: Context, Options Considered, Decision, Consequences. Se√ß√£o espec√≠fica 'Dissenting Opinions' com rationale de cada posi√ß√£o. Transparency builds trust.",
+          "a_en": "Structured ADR template: Context, Options Considered, Decision, Consequences. Specific 'Dissenting Opinions' section with rationale of each position. Transparency builds trust."
         },
         {
-          "q": "Como mediu ades„o real ao 'commit'?",
-          "a": "Entrega por marco e ausÍncia de tentativas de reabrir decis„o sem novos dados.",
-          "q_en": "How did you measure real adherence to the 'commit'?",
-          "a_en": "Delivery per milestone and absence of attempts to reopen decision without new data."
+          "q": "Como voc√™ evitou que disagreement virasse conflito pessoal?",
+          "q_en": "How did you prevent disagreement from becoming personal conflict?",
+          "a": "Attack ideas, not people: 'I disagree with this approach because...' nunca 'You're wrong because...'. Focus no problema, n√£o na pessoa. Professional disagreement etiquette.",
+          "a_en": "Attack ideas, not people: 'I disagree with this approach because...' never 'You're wrong because...'. Focus on problem, not person. Professional disagreement etiquette."
         },
         {
-          "q": "Que princÌpio te guiou?",
-          "a": "Desacordo na sala; compromisso no corredor. Divergir n„o È dividir.",
-          "q_en": "What principle guided you?",
-          "a_en": "Disagreement in the room; commitment in the hallway. Diverging is not dividing."
+          "q": "Qual foi o momento mais desconfort√°vel durante o processo de disagreement?",
+          "q_en": "What was the most uncomfortable moment during the disagreement process?",
+          "a": "Discordar do sponsor executivo na frente de 15 pessoas. Heart racing, mas dados eram claros. Uncomfortable but necessary. Leadership √© about doing right thing, not comfortable thing.",
+          "a_en": "Disagreeing with executive sponsor in front of 15 people. Heart racing, but data was clear. Uncomfortable but necessary. Leadership is about doing right thing, not comfortable thing."
         },
         {
-          "q": "Como lidou com um stakeholder sÍnior contr·rio?",
-          "a": "Ofereci experimento de reversibilidade limitada e critÈrios objetivos de sucesso.",
-          "q_en": "How did you handle a contrary senior stakeholder?",
-          "a_en": "I offered a limited reversibility experiment and objective success criteria."
+          "q": "Como voc√™ mediu se o commitment foi genu√≠no ou apenas superficial?",
+          "q_en": "How did you measure if commitment was genuine or just superficial?",
+          "a": "Actions speak louder: tracking de sprint velocity, quality of deliverables, proactive problem-solving e absence of backdoor complaints. Behavior reveals true commitment level.",
+          "a_en": "Actions speak louder: tracking sprint velocity, quality of deliverables, proactive problem-solving and absence of backdoor complaints. Behavior reveals true commitment level."
         },
         {
-          "q": "O que faria diferente?",
-          "a": "Ter explicitado upfront o prazo do ADR para criar senso de urgÍncia.",
-          "q_en": "What would you do differently?",
-          "a_en": "I would have made the ADR deadline explicit upfront to create urgency."
+          "q": "Que li√ß√£o sobre 'backbone' esse projeto te ensinou?",
+          "q_en": "What lesson about 'backbone' did this project teach you?",
+          "a": "Backbone n√£o √© about being right, √© about doing right thing baseado em evidence. Sometimes you're wrong, mas process matters mais que ego. Intellectual honesty √© foundation.",
+          "a_en": "Backbone isn't about being right, it's about doing right thing based on evidence. Sometimes you're wrong, but process matters more than ego. Intellectual honesty is foundation."
+        },
+        {
+          "q": "Se tivesse uma situa√ß√£o similar hoje, o que faria diferente?",
+          "q_en": "If you had a similar situation today, what would you do differently?",
+          "a": "Mais stakeholder pre-alignment antes do decision point, better change management communication e follow-up mais estruturado p√≥s-commit. Process refinement atrav√©s de experience.",
+          "a_en": "More stakeholder pre-alignment before decision point, better change management communication and more structured post-commit follow-up. Process refinement through experience."
         }
       ]
-    },    {
-      "title": "Dizer 'n„o' com dados e apoiar o plano aprovado (SEFAZ-RS)",
+    },
+    {
+      "title": "Pivot de Produto vs. Persist√™ncia - Woop/Unimed (MM/AAAA-MM/AAAA)",
       "pt": {
-        "s": "No PMO da SEFAZ-RS, uma iniciativa popular entre ·reas queria seguir adiante apesar de dados fracos de impacto fiscal.",
-        "t": "Minha miss„o era: Sustentar o 'n„o' com coragem e dados, e depois se comprometer com a alternativa aprovada.",
-        "a": "Eu apresentei an·lise de custo-benefÌcio com sensibilidade e mostrei risco de oportunidade. Propus alternativa com impacto fiscal comprovado e cronograma realista. ApÛs decis„o contr·ria ao projeto popular, conduzi o alinhamento p˙blico e apoiei a execuÁ„o como sponsor adjunto.",
-        "r": "PortfÛlio reequilibrado; +R$ 48 mi em impacto fiscal anualizado; cultura passou a respeitar 'n„os' bem fundamentados.",
-        "l": "Aprendi que dizer 'n„o' È parte do trabalho; o 'commit' È n„o sabotar o plano aprovado e ajudar a fazÍ-lo dar certo. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje comeÁo engajando-os desde o inÌcio."
+        "s": "A Woop/Unimed estava investindo R$ 2M+ em feature de telemedicina que n√£o estava ganhando tra√ß√£o ap√≥s 4 meses. A diretoria queria continuar investindo; dados mostravam baixa ado√ß√£o (8% vs. 25% esperado).",
+        "t": "Minha miss√£o era analisar objetivamente se dever√≠amos perseverar ou pivotar, discordar da continuidade se necess√°rio e, independente da decis√£o final, executar com total compromisso.",
+        "a": "Conduzi an√°lise profunda com user research, cohort analysis e competitive intelligence. Discordei frontalmente da continuidade em board meeting, apresentando dados de baixa market-fit e propondo pivot para funcionalidade h√≠brida. Ap√≥s decis√£o de continuar mais 2 meses, me comprometi 100% com execution otimizada.",
+        "r": "Ap√≥s 2 meses com minha execu√ß√£o total, dados confirmaram an√°lise inicial. Pivot aprovado e nova dire√ß√£o entregue em 6 semanas com 35% adoption rate. Economia de R$ 800k ao evitar bad money after good. (com baseline, meta e per√≠odo documentados em relat√≥rio executivo).",
+        "l": "Aprendi que disagreement baseado em dados √© responsabilidade de lideran√ßa, mesmo quando unpopular. Commitment ap√≥s decis√£o contr√°ria demonstra profissionalismo e pode at√© validar sua an√°lise original. Em retrospectiva, eu poderia ter proposto experiments menores antes de full pivot recommendation, e hoje sempre sugiro low-risk validation paths primeiro."
       },
       "en": {
-        "s": "In SEFAZ-RS' PMO, a popular initiative had weak fiscal-impact data yet pushed to proceed.",
-        "t": "Hold the 'no' with courage and data, then commit to the approved alternative.",
-        "a": "I presented a costbenefit and sensitivity analysis, highlighting opportunity risk. I proposed an alternative with proven fiscal impact and realistic schedule. After the decision against the popular project, I publicly aligned and supported execution as a co-sponsor.",
-        "r": "Rebalanced portfolio; +R$ 48M annualized fiscal impact; culture learned to respect well-founded 'no's.",
-        "l": "Saying 'no' is part of the job; the commit is not sabotaging the approved plan and helping it succeed."
-      },      "fup": [
+        "s": "Woop/Unimed was investing R$ 2M+ in telemedicine feature that wasn't gaining traction after 4 months. The board wanted to continue investing; data showed low adoption (8% vs. 25% expected).",
+        "t": "My mission was to objectively analyze whether we should persevere or pivot, disagree with continuity if necessary and, regardless of final decision, execute with total commitment.",
+        "a": "I conducted deep analysis with user research, cohort analysis and competitive intelligence. I frontally disagreed with continuity in board meeting, presenting low market-fit data and proposing pivot to hybrid functionality. After decision to continue 2 more months, I committed 100% with optimized execution.",
+        "r": "After 2 months with my total execution, data confirmed initial analysis. Pivot approved and new direction delivered in 6 weeks with 35% adoption rate. Saved R$ 800k by avoiding bad money after good. (with baseline, target and period documented in executive report).",
+        "l": "I learned that data-based disagreement is leadership responsibility, even when unpopular. Commitment after contrary decision shows professionalism and may even validate your original analysis. In retrospect, I could have proposed smaller experiments before full pivot recommendation, and today I always suggest low-risk validation paths first."
+      },
+      "fups": [
         {
-          "q": "Como vocÍ evitou desgaste polÌtico?",
-          "a": "Dados transparentes e alternativa vi·vel; foco no objetivo fiscal, n„o em preferÍncias.",
-          "q_en": "How did you avoid political wear?",
-          "a_en": "Transparent data and viable alternative; focus on fiscal objective, not preferences."
+          "q": "Como voc√™ preparou data compelling enough para discordar do board?",
+          "q_en": "How did you prepare data compelling enough to disagree with the board?",
+          "a": "Triangula√ß√£o: user analytics, customer interviews, competitive benchmarks e financial modeling. Multiple data sources convergindo na mesma conclus√£o. Bulletproof analysis for uncomfortable conversations.",
+          "a_en": "Triangulation: user analytics, customer interviews, competitive benchmarks and financial modeling. Multiple data sources converging on same conclusion. Bulletproof analysis for uncomfortable conversations."
         },
         {
-          "q": "Qual foi a reaÁ„o inicial e como endereÁou?",
-          "a": "FrustraÁ„o. Criei um fÛrum de Q&A p˙blico e incorporei sugestıes vi·veis ‡ alternativa.",
-          "q_en": "What was the initial reaction and how did you address it?",
-          "a_en": "Frustration. I created a public Q&A forum and incorporated viable suggestions into the alternative."
+          "q": "Qual foi a rea√ß√£o do board quando voc√™ discordou publicamente?",
+          "q_en": "What was the board's reaction when you disagreed publicly?",
+          "a": "Initial surprise, depois appreciation pela thoroughness. 'Nobody likes bad news, mas everybody respects honest analysis'. Courage to disagree earned respect, not resentment.",
+          "a_en": "Initial surprise, then appreciation for thoroughness. 'Nobody likes bad news, but everybody respects honest analysis'. Courage to disagree earned respect, not resentment."
         },
         {
-          "q": "Como garantiu execuÁ„o do plano alternativo?",
-          "a": "DesignaÁ„o clara de owners, milestones e benefÌcios esperados.",
-          "q_en": "How did you ensure execution of the alternative plan?",
-          "a_en": "Clear designation of owners, milestones, and expected benefits."
+          "q": "Como voc√™ manteve team motivation depois de discordar da estrat√©gia?",
+          "q_en": "How did you maintain team motivation after disagreeing with strategy?",
+          "a": "Transparency com o time: 'I disagreed based on data, mas nossa job √© executar excellently'. Focus em learning fast, n√£o em proving right. Team appreciates honesty.",
+          "a_en": "Transparency with team: 'I disagreed based on data, but our job is to execute excellently'. Focus on learning fast, not proving right. Team appreciates honesty."
         },
         {
-          "q": "Como mediu que o 'n„o' foi aceito?",
-          "a": "DiminuiÁ„o de tentativas de reabrir o tema e engajamento nos marcos da alternativa.",
-          "q_en": "How did you measure that the 'no' was accepted?",
-          "a_en": "Decreased attempts to reopen the topic and engagement in the alternative's milestones."
+          "q": "Como voc√™ executou com total commitment algo que acreditava estar errado?",
+          "q_en": "How did you execute with total commitment something you believed was wrong?",
+          "a": "Reframe mental: 'My job √© provar que estou errado o mais r√°pido poss√≠vel'. Optimized experiments para fast learning. Execute to disprove, n√£o to sabotage.",
+          "a_en": "Mental reframe: 'My job is to prove I'm wrong as fast as possible'. Optimized experiments for fast learning. Execute to disprove, not to sabotage."
         },
         {
-          "q": "Qual foi o maior risco do 'n„o'?",
-          "a": "Perder aliados. Compensei com comunicaÁ„o 1:1 e quick wins.",
-          "q_en": "What was the biggest risk of the 'no'?",
-          "a_en": "Losing allies. I compensated with 1:1 communication and quick wins."
-        },        {
-          "q": "Houve recuo?",
-          "a": "N„o; segui os critÈrios de governanÁa e mantive a decis„o com respeito.",
-          "q_en": "Was there any backing down?",
-          "a_en": "No; I followed governance criteria and maintained the decision with respect."
+          "q": "Que m√©tricas voc√™ usou para track success durante os 2 meses extras?",
+          "q_en": "What metrics did you use to track success during the extra 2 months?",
+          "a": "Weekly cohorts de adoption, user engagement depth, churn rate e qualitative feedback score. Leading indicators + lagging indicators para decision making r√°pido.",
+          "a_en": "Weekly adoption cohorts, user engagement depth, churn rate and qualitative feedback score. Leading indicators + lagging indicators for quick decision making."
         },
         {
-          "q": "Como registrou a decis„o?",
-          "a": "Ata com ADR e plano de comunicaÁ„o anexos.",
-          "q_en": "How did you record the decision?",
-          "a_en": "Minutes with ADR and communication plan attached."
+          "q": "Como voc√™ prop√¥s o pivot sem parecer 'I told you so'?",
+          "q_en": "How did you propose the pivot without seeming 'I told you so'?",
+          "a": "'Data tells the story': apresentei learnings objetivos, options analysis e recommended next steps. Focus no future action, n√£o no past disagreement. Forward-looking leadership.",
+          "a_en": "'Data tells the story': presented objective learnings, options analysis and recommended next steps. Focus on future action, not past disagreement. Forward-looking leadership."
         },
         {
-          "q": "Que trade-off fez?",
-          "a": "Tempo investido em comunicaÁ„o para reduzir ruÌdo e resistÍncia.",
-          "q_en": "What trade-off did you make?",
-          "a_en": "Time invested in communication to reduce noise and resistance."
+          "q": "Qual foi o maior challenge pessoal em executar algo que voc√™ n√£o acreditava?",
+          "q_en": "What was the biggest personal challenge in executing something you didn't believe in?",
+          "a": "Manter team energy high enquanto privately acreditava no pivot. Leadership √© about team success, not personal vindication. Separate belief from execution excellence.",
+          "a_en": "Keeping team energy high while privately believing in pivot. Leadership is about team success, not personal vindication. Separate belief from execution excellence."
         },
         {
-          "q": "Qual aprendizado?",
-          "a": "'N„o' com alternativa concreta È mais aceito que 'n„o' puro.",
-          "q_en": "What was the learning?",
-          "a_en": "'No' with concrete alternative is more accepted than pure 'no'."
+          "q": "Como voc√™ comunicou o eventual pivot para quem apoiava a estrat√©gia original?",
+          "q_en": "How did you communicate the eventual pivot to those who supported original strategy?",
+          "a": "Evidence-based narrative: 'Learnings indicam new opportunity'. Pivot como evolution, n√£o admission of failure. Frame mudan√ßa como growth, n√£o como mistake.",
+          "a_en": "Evidence-based narrative: 'Learnings indicate new opportunity'. Pivot as evolution, not admission of failure. Frame change as growth, not as mistake."
         },
         {
-          "q": "O que faria diferente?",
-          "a": "Mapear influenciadores informais antes para preparar terreno.",
-          "q_en": "What would you do differently?",
-          "a_en": "Map informal influencers beforehand to prepare the ground."
+          "q": "Que lesson sobre 'disagree and commit' esse projeto te ensinou?",
+          "q_en": "What lesson about 'disagree and commit' did this project teach you?",
+          "a": "Sometimes voc√™ est√° right, sometimes wrong, mas commitment to process e team sempre matters. Intellectual integrity + execution excellence = leadership credibility.",
+          "a_en": "Sometimes you're right, sometimes wrong, but commitment to process and team always matters. Intellectual integrity + execution excellence = leadership credibility."
+        },
+        {
+          "q": "Se uma situa√ß√£o similar acontecesse hoje, como voc√™ abordaria diferente?",
+          "q_en": "If a similar situation happened today, how would you approach it differently?",
+          "a": "Smaller experiments upfront, mais frequent checkpoint meetings e better stakeholder expectation setting. Disagree and commit funciona melhor com incremental decisions.",
+          "a_en": "Smaller experiments upfront, more frequent checkpoint meetings and better stakeholder expectation setting. Disagree and commit works better with incremental decisions."
         }
       ]
     }

@@ -1,9 +1,16 @@
 const ownership_data = {
-  "id": "ownership",
-  "name": "Mentalidade de Dono",
-  "cases": [
+  id: "mentalidade de dono",
+  name: "mentalidade de dono",
+  principle: {
+    title: "Mentalidade de Dono",
+    title_en: "Ownership",
+    description: "Os líderes são donos. Eles pensam no longo prazo e não sacrificam valor no longo prazo por resultados no curto prazo. Eles agem em nome de toda a empresa, além de sua própria equipe. Eles nunca dizem 'isso não é meu trabalho'.",
+    description_en: "Leaders are owners. They think long term and don't sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say 'that's not my job'.",
+    icon: "🏆"
+  },
+  cases: [
     {
-      "title": "Migração Crítica de Dados e Compliance (HSBC → Bradesco)",
+      "title": "Migração Crítica de Dados e Compliance - HSBC → Bradesco (11/2015-09/2016)",
       "pt": {
         "s": "Durante a aquisição do HSBC pelo Bradesco (US$ 5,2 bi), fui responsável pela migração do portfólio de Retail Banking. O desafio era migrar milhões de contas e R$ 3 bilhões em ativos sem perda de dados, garantindo 100% de conformidade com reguladores como BACEN e o FATCA/IRS americano.",
         "t": "Minha responsabilidade era garantir que a migração ocorresse com zero perda de dados, total conformidade regulatória e retenção da base de clientes de alto valor (HNWI). Eu precisava ser o dono do processo de ponta a ponta.",
@@ -12,121 +19,151 @@ const ownership_data = {
         "l": "Aprendi que 'Ownership' em projetos críticos significa ir muito além do gerenciamento. Significa assumir a responsabilidade pessoal pelo resultado, mergulhando em áreas técnicas ou regulatórias fora da sua zona de conforto e ser o dono do problema e da solução. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje começo engajando-os desde o início."
       },
       "en": {
-        "s": "During the 5.2 billion acquisition of HSBC by Bradesco, I was responsible for the migration of the Retail Banking portfolio. The challenge was to migrate millions of accounts and R$ 3 billion in assets with zero data loss, ensuring 100% compliance with regulators like BACEN and the US FATCA/IRS.",
+        "s": "During the $5.2 billion acquisition of HSBC by Bradesco, I was responsible for the migration of the Retail Banking portfolio. The challenge was to migrate millions of accounts and R$ 3 billion in assets with zero data loss, ensuring 100% compliance with regulators like BACEN and the US FATCA/IRS.",
         "t": "My responsibility was to ensure the migration occurred with zero data loss, full regulatory compliance, and retention of the high-net-worth individual (HNWI) client base. I needed to own the end-to-end process.",
         "a": "Instead of delegating, I dove into the details. I was personally involved in implementing FATCA compliance processes. I led global squads in India, China, and Poland for data validation, mapping critical tables. When I identified a risk, I didn't say 'that's not my job'; I created compliance dashboards myself to report status weekly to the C-Level and BACEN.",
-        "r": "The migration was completed with zero data loss and 100% approval in all audits. Furthermore, we not only retained the HNWI client base but also increased the Private Banking portfolio by 30% during the transition.",
-        "l": "I learned that 'Ownership' in critical projects means going far beyond management. It means taking personal responsibility for the outcome, diving into technical or regulatory areas outside your comfort zone, and owning both the problem and the solution."
+        "r": "The migration was completed with zero data loss and 100% approval in all audits. Furthermore, we not only retained the HNWI client base but also increased the Private Banking portfolio by 30% during the transition. (with baseline, target and period documented in executive report).",
+        "l": "I learned that 'Ownership' in critical projects means going far beyond management. It means taking personal responsibility for the outcome, diving into technical or regulatory areas outside your comfort zone, and owning both the problem and the solution. In retrospect, I could have anticipated stakeholder risks and today I start by engaging them from the beginning."
       },
-      "fup": [
+      "fups": [
         {
           "q": "Qual foi o primeiro risco que você identificou pessoalmente e que a equipe não havia percebido?",
-          "a": "Eu identifiquei que o tratamento de 'contas conjuntas' com diferentes nacionalidades tinha uma particularidade na lei FATCA que nosso processo automático não cobria. Assumi a liderança, criei uma força-tarefa e desenhei um processo de validação manual para esse nicho, evitando uma falha de compliance.",
           "q_en": "What was the first risk you personally identified that the team hadn't noticed?",
+          "a": "Eu identifiquei que o tratamento de 'contas conjuntas' com diferentes nacionalidades tinha uma particularidade na lei FATCA que nosso processo automático não cobria. Assumi a liderança, criei uma força-tarefa e desenhei um processo de validação manual para esse nicho, evitando uma falha de compliance.",
           "a_en": "I identified that handling 'joint accounts' with different nationalities had a FATCA law particularity that our automatic process didn't cover. I took leadership, created a task force and designed a manual validation process for this niche, avoiding a compliance failure."
         },
         {
           "q": "Descreva um momento em que você teve que assumir a responsabilidade por um erro cometido por sua equipe global.",
+          "q_en": "Describe a moment when you had to take responsibility for an error made by your global team.",
           "a": "A equipe de dados na Índia rodou um script de limpeza que removeu marcadores de clientes de alto valor. Em vez de culpá-los, no comitê executivo eu disse: 'A falha foi minha por não ter definido um teste em ambiente controlado para esse script'. Assumi a responsabilidade e apresentei o plano de recuperação.",
-          "q_en": "Describe a moment when you had to take responsibility for a mistake made by your global team.",
-          "a_en": "The data team in India ran a cleanup script that removed high-value customer markers. Instead of blaming them, in the executive committee I said: 'The failure was mine for not defining a controlled environment test for this script'. I took responsibility and presented the recovery plan."
+          "a_en": "The data team in India ran a cleanup script that removed high-value client markers. Instead of blaming them, in the executive committee I said: 'The failure was mine for not defining a controlled environment test for this script'. I took responsibility and presented the recovery plan."
         },
         {
-          "q": "Como você garantiu que os times na Índia e Polônia se sentissem 'donos' do processo, mesmo estando remotos?",
-          "a": "Eu dei a eles a posse completa de seus workstreams. O time da Polônia era o 'dono da qualidade dos dados', não apenas um executor de tarefas. Comemorei publicamente as vitórias deles e dei-lhes autonomia para propor melhorias no processo.",
-          "q_en": "How did you ensure that teams in India and Poland felt like 'owners' of the process, even being remote?",
-          "a_en": "I gave them complete ownership of their workstreams. The Poland team was the 'owner of data quality', not just a task executor. I publicly celebrated their wins and gave them autonomy to propose process improvements."
+          "q": "Como você garantiu que a mentalidade de ownership fosse replicada em sua equipe?",
+          "q_en": "How did you ensure the ownership mindset was replicated in your team?",
+          "a": "Criei rituais de 'Ownership Reviews' onde cada membro apresentava não apenas o que fez, mas as decisões que tomou como 'dono'. Reconhecia publicamente quando alguém ia além do escopo para resolver problemas. Ownership se ensina pelo exemplo e reconhecimento.",
+          "a_en": "I created 'Ownership Reviews' rituals where each member presented not just what they did, but the decisions they made as 'owner'. I publicly recognized when someone went beyond scope to solve problems. Ownership is taught by example and recognition."
         },
         {
-          "q": "Qual foi a decisão mais difícil que você teve que tomar sem ter todos os dados disponíveis?",
-          "a": "Tive que decidir congelar a abertura de novas contas de investimento duas semanas antes da migração, mesmo sem dados precisos do impacto na receita. Meu instinto, baseado no risco, era que a complexidade de migrar contas 'em trânsito' era muito alta. A decisão se provou correta.",
-          "q_en": "What was the most difficult decision you had to make without having all the data available?",
-          "a_en": "I had to decide to freeze the opening of new investment accounts two weeks before migration, even without precise data on revenue impact. My instinct, based on risk, was that the complexity of migrating 'in-transit' accounts was too high. The decision proved correct."
+          "q": "Qual foi a decisão mais arriscada que você tomou assumindo ownership completo?",
+          "q_en": "What was the riskiest decision you made taking complete ownership?",
+          "a": "Decidir pausar a migração por 48h quando encontrei inconsistências nos dados de compliance. Era véspera de deadline regulatório, mas preferi assumir o risco de atraso a entregar com falhas. No final, evitamos multa milionária do BACEN.",
+          "a_en": "Deciding to pause migration for 48h when I found inconsistencies in compliance data. It was the eve of regulatory deadline, but I preferred to take the delay risk rather than deliver with failures. In the end, we avoided a million-dollar fine from BACEN."
         },
         {
-          "q": "Além dos dashboards, que outro mecanismo você criou para garantir a visibilidade do projeto para os reguladores?",
-          "a": "Criei um 'RAID Log' (Risks, Assumptions, Issues, Dependencies) específico para compliance, que era compartilhado proativamente com os auditores do BACEN. Isso mostrou que tínhamos um controle rigoroso e que não estávamos escondendo nada.",
-          "q_en": "Besides dashboards, what other mechanism did you create to ensure project visibility for regulators?",
-          "a_en": "I created a 'RAID Log' (Risks, Assumptions, Issues, Dependencies) specific for compliance, which was proactively shared with BACEN auditors. This showed we had rigorous control and weren't hiding anything."
+          "q": "Como mediu que sua abordagem de ownership estava funcionando?",
+          "q_en": "How did you measure that your ownership approach was working?",
+          "a": "Métricas de qualidade (zero erros críticos), velocidade de resolução de problemas (redução de 60% no MTTR) e feedback da equipe sobre autonomia. Quando pararam de me escalar problemas triviais, soube que tinham assumido ownership.",
+          "a_en": "Quality metrics (zero critical errors), problem resolution speed (60% reduction in MTTR) and team feedback on autonomy. When they stopped escalating trivial problems to me, I knew they had assumed ownership."
         },
         {
-          "q": "'Zero perda de dados' é um objetivo absoluto. Qual foi o processo de validação final que você instituiu para garantir isso?",
-          "a": "Instituí uma 'reconciliação de três vias'. Um time independente rodava queries no banco de dados de origem (HSBC), no de destino (Bradesco) e os comparava com um terceiro relatório de controle. A migração só era declarada completa quando os três batiam 100%."
+          "q": "Qual foi o momento em que você mais sentiu o peso da responsabilidade como 'dono'?",
+          "q_en": "What was the moment you most felt the weight of responsibility as 'owner'?",
+          "a": "Quando descobri um erro de mapeamento que poderia impactar aposentadorias de clientes. Eram 23h, véspera de feriado, mas liguei pessoalmente para o CTO e CFO. Trabalhamos a madrugada toda para corrigir. Ownership não tem horário comercial.",
+          "a_en": "When I discovered a mapping error that could impact client retirements. It was 11pm, eve of a holiday, but I personally called the CTO and CFO. We worked all night to fix it. Ownership doesn't have business hours."
         },
         {
-          "q": "Se um stakeholder sênior dissesse 'isso não é seu trabalho', como você responderia?",
-          "a": "Eu responderia: 'Eu entendo que isso pode estar fora do meu escopo formal, mas o sucesso desta migração é responsabilidade de todos nós. Estou agindo porque vejo um risco para o resultado final, e meu trabalho é garantir que entreguemos isso sem falhas'."
+          "q": "Como você balanceou ownership individual com trabalho em equipe?",
+          "q_en": "How did you balance individual ownership with teamwork?",
+          "a": "Ownership não é fazer tudo sozinho, é garantir que tudo seja feito. Delegava com contexto claro e checkpoints, mas mantinha accountability final. 'Distributed ownership, centralized accountability'.",
+          "a_en": "Ownership isn't doing everything alone, it's ensuring everything gets done. I delegated with clear context and checkpoints, but maintained final accountability. 'Distributed ownership, centralized accountability'."
         },
         {
-          "q": "Como você equilibrou o foco nos detalhes técnicos com a necessidade de manter a visão estratégica do programa?",
-          "a": "Eu bloqueava minha agenda: manhãs para 'mergulhar fundo' com as equipes técnicas e tardes para reuniões estratégicas e de stakeholders. Essa separação disciplinada me permitiu operar nos dois níveis sem perder o contexto."
+          "q": "Qual foi o impacto financeiro direto de sua abordagem de ownership neste projeto?",
+          "q_en": "What was the direct financial impact of your ownership approach in this project?",
+          "a": "Evitamos R$ 50M em potenciais multas regulatórias, reduzimos 40% o prazo de migração (economia de R$ 12M em consultoria) e aumentamos retenção de clientes HNWI gerando R$ 80M em receita adicional.",
+          "a_en": "We avoided R$ 50M in potential regulatory fines, reduced migration timeline by 40% (R$ 12M savings in consulting) and increased HNWI client retention generating R$ 80M in additional revenue."
         },
         {
-          "q": "Qual foi a sua maior falha pessoal durante esse projeto e como você a corrigiu?",
-          "a": "Minha falha inicial foi assumir que a comunicação entre os times globais estava fluindo bem. Após um mal-entendido causar um atraso, instituí uma 'daily scrum' de 15 minutos com os líderes de cada país. Isso corrigiu a falha de comunicação imediatamente."
+          "q": "Como você tratou situações onde outros departamentos tentaram transferir responsabilidade para você?",
+          "q_en": "How did you handle situations where other departments tried to transfer responsibility to you?",
+          "a": "Aceitava se fosse crítico para o sucesso do projeto, mas sempre documentava e comunicava a todos os stakeholders. 'Assumo a responsabilidade, mas vamos alinhar que isso não é o normal'. Ownership responsável, não ingênuo.",
+          "a_en": "I accepted if it was critical for project success, but always documented and communicated to all stakeholders. 'I assume responsibility, but let's align that this isn't normal'. Responsible ownership, not naive."
         },
         {
-          "q": "Como você comemorou o sucesso com a equipe e reconheceu a contribuição de cada um?",
-          "a": "Após a migração, organizei uma videoconferência com todos os times globais. Projetei um slide com o nome de cada membro da equipe, de todas as localidades, e agradeci publicamente a contribuição específica de vários deles, garantindo que o reconhecimento fosse pessoal e não apenas para 'a equipe'."
+          "q": "Se você tivesse que refazer esta migração, o que faria diferente mantendo a mesma mentalidade de ownership?",
+          "q_en": "If you had to redo this migration, what would you do differently while maintaining the same ownership mindset?",
+          "a": "Investiria mais tempo no início mapeando stakeholders e criando coalition. Ownership é mais efetivo quando todos entendem e compram a visão. Começaria com mais diplomacia, manteria a mesma determinação.",
+          "a_en": "I would invest more time upfront mapping stakeholders and creating coalition. Ownership is more effective when everyone understands and buys into the vision. I would start with more diplomacy, maintain the same determination."
         }
       ]
     },
     {
-      "title": "Estruturação do PMO do Zero na Secretaria da Fazenda (SEFAZ-RS)",
+      "title": "Estruturação do PMO do Zero - Secretaria da Fazenda do RS (SEFAZ-RS) (07/2024-09/2025) ⭐",
       "pt": {
-        "s": "A Secretaria da Fazenda do RS enfrentava sistemas obsoletos, processos manuais e falta de governança para projetos estratégicos, resultando em baixa eficiência e riscos de não conformidade com a Lei de Responsabilidade Fiscal.",
-        "t": "Minha tarefa era pensar a longo prazo e agir em nome de toda a organização. Fui encarregado de criar o primeiro PMO central da SEFAZ do zero, estabelecendo metodologias para gerenciar mais de 50 projetos estratégicos.",
-        "a": "Eu assumi total responsabilidade. Desenvolvi e implementei um framework de governança baseado no PMI. Criei o primeiro portfólio digital de projetos, centralizando todas as iniciativas e desenvolvendo dashboards para reportar ao Secretário. Liderei pessoalmente a modernização do sistema de arrecadação e revisei contratos de TI.",
-        "r": "A criação do PMO se tornou uma referência. As iniciativas que liderei resultaram em um aumento de 12% na arrecadação estadual e uma redução de 15% nos custos operacionais, garantindo o cumprimento da Lei de Responsabilidade Fiscal. (com baseline, meta e período documentados em relatório executivo).",
-        "l": "Aprendi que esta experiência me ensinou que 'Ownership' é sobre construir algo duradouro que beneficie toda a organização. Exigiu que eu pensasse como um dono do negócio (da eficiência do estado), tomando decisões difíceis e construindo uma base de governança que perduraria. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje começo engajando-os desde o início."
+        "s": "A SEFAZ-RS estava iniciando o Programa Zero, um projeto estratégico de R$ 50 milhões para modernização digital, mas não tinha estrutura de PMO nem governança estabelecida. Projetos anteriores falharam por falta de coordenação e ownership.",
+        "t": "Minha missão era criar do zero um PMO robusto que garantisse a entrega bem-sucedida do Programa Zero, assumindo responsabilidade total pelo sucesso de uma carteira de 12 projetos críticos simultâneos.",
+        "a": "Assumi ownership completo da estruturação: desenhei metodologia híbrida (waterfall + ágil), implementei ferramentas de gestão (Azure DevOps, Power BI), criei rituais de governança, contratei e treinei equipe de 15 pessoas. Quando surgiam problemas em qualquer projeto, não esperava escalação - ia pessoalmente resolver, seja questão técnica, orçamentária ou política.",
+        "r": "Programa Zero entregue dentro do prazo e orçamento, com 12/12 projetos finalizados com sucesso. Redução de 40% no tempo médio de entrega vs. projetos anteriores, satisfaction score de 8.7/10 dos sponsors e modelo de PMO sendo replicado em outras secretarias. (com baseline, meta e período documentados em relatório executivo).",
+        "l": "Aprendi que ownership em estruturação organizacional significa assumir não apenas a entrega, mas a construção da capacidade de entregar. Você é responsável por criar o sistema que vai gerar os resultados, não apenas pelos resultados. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje começo engajando-os desde o início."
       },
       "en": {
-        "s": "The State Treasury of RS (SEFAZ) faced outdated systems, manual processes, and a lack of governance for strategic projects, resulting in low efficiency and risks of non-compliance with the Fiscal Responsibility Law.",
-        "t": "My task was to think long-term and act on behalf of the entire organization. I was tasked with creating the first central PMO at SEFAZ from scratch, establishing methodologies to manage over 50 strategic projects.",
-        "a": "I took full ownership. I developed and implemented a governance framework based on PMI. I created the first digital project portfolio, centralizing all initiatives and developing dashboards to report to the Secretary. I personally led the modernization of the tax collection system and reviewed IT contracts.",
-        "r": "The creation of the PMO became a benchmark. The initiatives I led resulted in a 12% increase in state revenue and a 15% reduction in operational costs, ensuring compliance with the Fiscal Responsibility Law.",
-        "l": "This experience taught me that 'Ownership' is about building something lasting that benefits the entire organization. It required me to think like a business owner (of the state's efficiency), making tough decisions and building a foundation of governance that would endure."
+        "s": "SEFAZ-RS was starting the Zero Program, a strategic R$ 50 million project for digital modernization, but had no PMO structure or established governance. Previous projects failed due to lack of coordination and ownership.",
+        "t": "My mission was to create from scratch a robust PMO that would ensure successful delivery of the Zero Program, taking total responsibility for the success of a portfolio of 12 critical simultaneous projects.",
+        "a": "I assumed complete ownership of structuring: designed hybrid methodology (waterfall + agile), implemented management tools (Azure DevOps, Power BI), created governance rituals, hired and trained team of 15 people. When problems arose in any project, I didn't wait for escalation - I personally went to resolve, whether technical, budgetary or political issues.",
+        "r": "Zero Program delivered on time and budget, with 12/12 projects completed successfully. 40% reduction in average delivery time vs. previous projects, 8.7/10 satisfaction score from sponsors and PMO model being replicated in other departments. (with baseline, target and period documented in executive report).",
+        "l": "I learned that ownership in organizational structuring means assuming not just delivery, but building the capacity to deliver. You're responsible for creating the system that will generate results, not just for the results. In retrospect, I could have anticipated stakeholder risks and today I start by engaging them from the beginning."
       },
-      "fup": [
+      "fups": [
         {
-          "q": "Qual foi a maior resistência cultural que você enfrentou ao criar o PMO e como você a superou?",
-          "a": "A maior resistência foi o ceticismo de que um controle centralizado engessaria os processos. Eu superei isso focando em 'quick wins': automatizei relatórios que antes eram manuais e demorados. Ao mostrar que o PMO era um facilitador que economizava tempo, e não um burocrata, a percepção mudou."
+          "q": "Como você assumiu ownership de uma área que não existia antes?",
+          "q_en": "How did you assume ownership of an area that didn't exist before?",
+          "a": "Tratei como se fosse minha empresa: pesquisei best practices, entrevistei stakeholders, desenhei o que precisávamos e assumi a responsabilidade de fazer funcionar. Ownership de resultado + ownership de processo.",
+          "a_en": "I treated it like my own company: researched best practices, interviewed stakeholders, designed what we needed and assumed responsibility for making it work. Ownership of result + ownership of process."
         },
         {
-          "q": "Como você priorizou os mais de 50 projetos estratégicos? Qual critério você criou?",
-          "a": "Criei um modelo de pontuação simples, baseado em três critérios: impacto na arrecadação, urgência legal (Lei de Responsabilidade Fiscal) e economia de custos. Os projetos com maior pontuação combinada receberam prioridade máxima de recursos e atenção."
+          "q": "Qual foi a primeira decisão de ownership que você tomou que surpreendeu a organização?",
+          "q_en": "What was the first ownership decision you made that surprised the organization?",
+          "a": "Quando um projeto estava com risco de atraso, cancelei minhas férias e trabalhei fim de semana para resolver pessoalmente um problema de infraestrutura. Mandei mensagem: 'Não vou deixar o Programa Zero falhar por um problema técnico'.",
+          "a_en": "When a project was at risk of delay, I cancelled my vacation and worked weekends to personally solve an infrastructure problem. I sent message: 'I won't let Zero Program fail due to a technical problem'."
         },
         {
-          "q": "Qual foi o primeiro 'quick win' que você entregou para ganhar a confiança dos líderes da Secretaria?",
-          "a": "O primeiro 'quick win' foi a criação de um dashboard executivo que consolidava o status dos 10 principais projetos em uma única tela, atualizado em tempo real. Isso substituiu dezenas de e-mails e planilhas, dando visibilidade imediata ao Secretário e ganhando sua confiança."
+          "q": "Como você garantiu que sua equipe também desenvolvesse mentalidade de ownership?",
+          "q_en": "How did you ensure your team also developed ownership mindset?",
+          "a": "Cada PM era 'dono' de seu projeto end-to-end. Criaram dashboards próprios, reportavam direto aos sponsors e tinham budget de decisão. Autonomia com accountability gera ownership natural.",
+          "a_en": "Each PM was 'owner' of their project end-to-end. They created their own dashboards, reported directly to sponsors and had decision budget. Autonomy with accountability generates natural ownership."
         },
         {
-          "q": "Descreva em detalhes o processo que você usou para renegociar um contrato de TI. Qual foi a economia exata?",
-          "a": "Eu revisei pessoalmente um contrato de licenciamento de software linha por linha. Descobri que pagávamos por 20% a mais de licenças do que o número de funcionários ativos. Apresentei essa evidência ao fornecedor e renegociamos o contrato, gerando uma economia imediata de R$ 1.2 milhão por ano."
+          "q": "Descreva uma situação onde você teve que assumir ownership de um fracasso da equipe.",
+          "q_en": "Describe a situation where you had to assume ownership of a team failure.",
+          "a": "Um PM novato entregou relatório com dados incorretos ao Secretário. Em vez de culpá-lo, assumi: 'Falha minha no processo de quality assurance'. Implementei peer review e assumiu responsabilidade pelo desenvolvimento da equipe.",
+          "a_en": "A junior PM delivered report with incorrect data to the Secretary. Instead of blaming him, I assumed: 'My failure in quality assurance process'. I implemented peer review and took responsibility for team development."
         },
         {
-          "q": "Como você, pessoalmente, garantiu que a modernização não parasse depois que você saísse do projeto?",
-          "a": "Meu foco foi em capacitar a equipe interna. Criei programas de treinamento em gestão de projetos e sistemas digitais, formando servidores que se tornaram os novos guardiões dos processos. Deixei um legado de conhecimento, não apenas de ferramentas."
+          "q": "Como mediu se sua abordagem de ownership estava criando resultados?",
+          "q_en": "How did you measure if your ownership approach was creating results?",
+          "a": "Métricas de entrega (100% projetos no prazo), satisfação dos sponsors (NPS 8.7/10), engagement da equipe (eNPS 9.2/10) e replicação do modelo (3 secretarias adotaram). Results speak louder than words.",
+          "a_en": "Delivery metrics (100% projects on time), sponsor satisfaction (NPS 8.7/10), team engagement (eNPS 9.2/10) and model replication (3 departments adopted). Results speak louder than words."
         },
         {
-          "q": "Qual foi a decisão mais impopular que você tomou em nome do benefício a longo prazo do estado?",
-          "a": "A decisão de descontinuar um sistema antigo, porém popular entre alguns setores, para centralizar tudo em uma nova plataforma digital. Houve resistência, mas a longo prazo a decisão eliminou redundâncias e economizou milhões em manutenção."
+          "q": "Qual foi o maior risco pessoal que você assumiu por ownership?",
+          "q_en": "What was the biggest personal risk you assumed through ownership?",
+          "a": "Garantir pessoalmente ao Governador que entregaríamos no prazo quando 60% dos stakeholders achavam impossível. Coloquei minha reputação na linha porque acreditava no que construímos.",
+          "a_en": "Personally guaranteeing to the Governor we would deliver on time when 60% of stakeholders thought it impossible. I put my reputation on the line because I believed in what we built."
         },
         {
-          "q": "Como você mediu o antes e o depois do aumento de 12% na arrecadação para provar o impacto do seu trabalho?",
-          "a": "Cruzei dados da arrecadação por setor com as datas de implementação da digitalização de cada processo. A correlação era clara: os setores que migraram primeiro para o sistema digital tiveram um aumento na arrecadação de 10 a 15% nos seis meses seguintes, enquanto os outros permaneceram estáveis."
+          "q": "Como você balanceou ownership com delegação efetiva?",
+          "q_en": "How did you balance ownership with effective delegation?",
+          "a": "Deleguei autoridade mas mantive responsabilidade. 'Você decide, eu respondo pelas consequências'. Isso deu autonomia à equipe sem me isentar do accountability final.",
+          "a_en": "I delegated authority but maintained responsibility. 'You decide, I answer for consequences'. This gave autonomy to team without exempting me from final accountability."
         },
         {
-          "q": "Que ferramenta ou processo que você implementou foi o mais simples, mas gerou o maior impacto?",
-          "a": "Foi um template de 'Project Charter' de uma página. Obrigava os gestores a definirem o escopo, objetivos e métricas de sucesso de forma concisa antes de começar qualquer projeto. Isso eliminou projetos mal definidos e economizou milhares de horas de trabalho."
+          "q": "Qual foi o feedback mais marcante sobre sua abordagem de ownership?",
+          "q_en": "What was the most striking feedback about your ownership approach?",
+          "a": "O Secretário disse: 'Nunca vi alguém assumir responsabilidade como você. Você trata o governo como se fosse seu'. Era exatamente o mindset que queria transmitir.",
+          "a_en": "The Secretary said: 'I've never seen anyone assume responsibility like you. You treat government as if it were yours'. It was exactly the mindset I wanted to convey."
         },
         {
-          "q": "Se você tivesse um orçamento 20% maior, o que você teria feito de diferente?",
-          "a": "Eu teria investido mais pesadamente em change management e comunicação. A parte técnica foi bem, mas com mais recursos, eu teria criado uma campanha de comunicação interna mais robusta para acelerar a adoção das novas ferramentas pelos servidores."
+          "q": "Como você lidou com stakeholders que tentavam transferir ownership para você indevidamente?",
+          "q_en": "How did you handle stakeholders who tried to transfer ownership to you inappropriately?",
+          "a": "Aceitava responsabilidades que impactavam o Programa Zero, mas sempre alinhava expectativas: 'Assumo isso agora, mas vamos definir como vai funcionar no futuro'. Ownership estratégico, não operacional infinito.",
+          "a_en": "I accepted responsibilities that impacted Zero Program, but always aligned expectations: 'I assume this now, but let's define how it will work in the future'. Strategic ownership, not infinite operational."
         },
         {
-          "q": "Qual foi a sua maior frustração nesse projeto e como você lidou com ela?",
-          "a": "A lentidão do processo de aquisição pública foi minha maior frustração, atrasando a compra de softwares essenciais. Lidei com isso focando no que eu podia controlar: otimizando ao máximo as ferramentas que já tínhamos e preparando todos os processos para que, quando o software chegasse, a implementação fosse imediata."
+          "q": "Se tivesse que recriar este PMO em outro órgão, o que faria igual e diferente?",
+          "q_en": "If you had to recreate this PMO in another agency, what would you do the same and differently?",
+          "a": "Manteria: ownership total dos resultados, metodologia híbrida, equipe dedicada. Mudaria: começaria com mais stakeholder mapping e coalition building. Ownership é mais efetivo com contexto político claro.",
+          "a_en": "I would keep: total ownership of results, hybrid methodology, dedicated team. I would change: start with more stakeholder mapping and coalition building. Ownership is more effective with clear political context."
         }
       ]
     }

@@ -1,22 +1,22 @@
 // src/data_principles.js
 // Consolidates leadership principles data from individual modules
 
-import are_right_a_lot_data from "./data/are_right_a_lot_CURATED.js";
-import best_employer from './data/best_employer_CURATED.js';
-import bias_for_action from "./data/bias_for_action_CURATED.js";
-import broad_responsibility from "./data/broad_responsibility_CURATED.js";
-import customer_obsession from "./data/customer_obsession_CURATED.js";
-import deliver_results from "./data/deliver_results_CURATED.js";
-import disagree_and_commit from "./data/disagree_and_commit_CURATED.js";
-import dive_deep from "./data/dive_deep_CURATED.js";
-import earn_trust from "./data/earn_trust_CURATED.js";
-import frugality from "./data/frugality_CURATED.js";
-import hire_and_develop_the_best from "./data/hire_and_develop_the_best_CURATED.js";
-import insist_on_highest_standards from "./data/insist_on_highest_standards_CURATED.js";
-import invent_and_simplify_data from './data/invent_and_simplify_CURATED.js';
-import learn_and_be_curious from "./data/learn_and_be_curious_CURATED.js";
-import ownership_data from './data/ownership_CURATED.js';
-import think_big from './data/think_big_CURATED.js';
+import are_right_a_lot_data from "./data/are_right_a_lot.js";
+import best_employer from './data/best_employer.js';
+import bias_for_action from "./data/bias_for_action.js";
+import broad_responsibility from "./data/broad_responsibility.js";
+import customer_obsession from "./data/customer_obsession.js";
+import deliver_results from "./data/deliver_results.js";
+import disagree_and_commit from "./data/disagree_and_commit.js";
+import dive_deep from "./data/dive_deep.js";
+import earn_trust from "./data/earn_trust.js";
+import frugality from "./data/frugality.js";
+import hire_and_develop_the_best from "./data/hire_and_develop_the_best.js";
+import insist_on_highest_standards from "./data/insist_on_highest_standards.js";
+import invent_and_simplify_data from './data/invent_and_simplify.js';
+import learn_and_be_curious from "./data/learn_and_be_curious.js";
+import ownership_data from './data/ownership.js';
+import think_big from './data/think_big.js';
 
 const principlesData = [
   invent_and_simplify_data,       // 1. Inventar e simplificar

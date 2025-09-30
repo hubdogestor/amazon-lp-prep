@@ -1,164 +1,169 @@
 const dive_deep = {
+  id: "mergulhar fundo",
+  name: "mergulhar fundo",
   principle: {
     title: "Mergulhar Fundo",
     title_en: "Dive Deep",
-    description: "Os líderes operam em todos os níveis, mantêm-se conectados aos detalhes, auditam frequentemente e são céticos quando métricas e evidencias diferem. Nenhuma tarefa está abaixo deles.",
+    description: "Os lÃ­deres operam em todos os nÃ­veis, mantÃªm-se conectados aos detalhes, auditam frequentemente e sÃ£o cÃ©ticos quando mÃ©tricas e evidÃªncias diferem. Nenhuma tarefa estÃ¡ abaixo deles.",
     description_en: "Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No task is beneath them.",
-    icon: ""
+    icon: "ðŸ”"
   },
-  "id": "dive_deep",
-  "name": "Mergulhar fundo",
-  "cases": [
+  cases: [
     {
-      "title": "Timeouts Ocultos em Verificação Externa (SEFAZ-RS)",
+      "title": "Timeouts Ocultos em VerificaÃ§Ã£o Externa - SEFAZ-RS (MM/AAAA-MM/AAAA)",
       "pt": {
-        "s": "Um projeto de arrecadação digital apresentava queda de conversão em uma etapa específica, sem causa aparente nos relatórios executivos.",
-        "t": "Minha missão era: Descobrir a causa raiz e recuperar a conversão sem aumentar custo de aquisição.",
-        "a": "Eu mergulhei nos dados brutos (eventos do front e logs de API). Descobri que 18% das tentativas falhavam por timeout em uma chamada de verificação externa. Modelei correlação por horário/dispositivo, implementei retry exponencial, cache de respostas benignas e monitoramento granular.",
-        "r": "Conversão +9 p.p.; tempo médio de resposta -32%; tickets de suporte -25%. (com baseline, meta e período documentados em relatório executivo).",
-        "l": "Aprendi que 'Dive deep' é sair do slide e ir ao dado fonte. Fluxo real > narrativa. Instrumentação correta ilumina o óbvio que não se via. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje começo engajando-os desde o início."
+        "s": "Um projeto de arrecadaÃ§Ã£o digital apresentava queda inexplicÃ¡vel de conversÃ£o em uma etapa especÃ­fica, sem causa aparente nos relatÃ³rios executivos. Dashboard mostrava 'tudo normal' mas resultados estavam 15% abaixo do esperado.",
+        "t": "Minha missÃ£o era descobrir a causa raiz real atravÃ©s de anÃ¡lise profunda dos dados e recuperar a conversÃ£o sem aumentar custo de aquisiÃ§Ã£o, mesmo que isso significasse ir alÃ©m dos relatÃ³rios superficiais.",
+        "a": "Mergulhei nos dados brutos: eventos do frontend, logs de API, traces distribuÃ­dos e user journey completo. Descobri que 18% das tentativas falhavam silenciosamente por timeout em chamada de verificaÃ§Ã£o externa nÃ£o monitorada. Modelei correlaÃ§Ã£o por horÃ¡rio/dispositivo, implementei retry exponencial, cache de respostas benignas e monitoramento granular de cada micro-step.",
+        "r": "ConversÃ£o aumentou 9 pontos percentuais, tempo mÃ©dio de resposta reduziu 32%, tickets de suporte diminuÃ­ram 25% e visibilidade completa do user journey implementada. ROI de R$ 300k/mÃªs recuperado. (com baseline, meta e perÃ­odo documentados em relatÃ³rio executivo).",
+        "l": "Aprendi que 'Dive deep' Ã© sair do slide e ir ao dado fonte real. Fluxo observado > narrativa reportada. InstrumentaÃ§Ã£o correta ilumina problemas Ã³bvios que dashboards superficiais nÃ£o capturam. Em retrospectiva, eu poderia ter implementado observability deeper desde o inÃ­cio, e hoje sempre questiono mÃ©tricas que 'parecem normais' quando outcomes nÃ£o batem."
       },
       "en": {
-        "s": "A digital tax collection project showed a conversion drop at a specific step with no apparent cause in executive reports.",
-        "t": "Find the root cause and recover conversion without raising acquisition costs.",
-        "a": "I went into raw data (frontend events and API logs). I found that 18% of attempts failed due to timeouts in an external verification call. I modeled correlation by hour/device, implemented exponential retry, cached benign responses, and added granular monitoring.",
-        "r": "+9 pp conversion; 32% average response time; 25% support tickets.",
-        "l": "Dive deep means leaving the slide deck and touching source data. Real flows trump narratives. Proper instrumentation reveals the obvious we couldn't see."
-      },      "fup": [
+        "s": "A digital tax collection project showed inexplicable conversion drop in specific step, without apparent cause in executive reports. Dashboard showed 'everything normal' but results were 15% below expected.",
+        "t": "My mission was to discover real root cause through deep data analysis and recover conversion without increasing acquisition cost, even if it meant going beyond superficial reports.",
+        "a": "I dove into raw data: frontend events, API logs, distributed traces and complete user journey. I discovered 18% of attempts failed silently due to timeout in unmonitored external verification call. I modeled correlation by time/device, implemented exponential retry, cache of benign responses and granular monitoring of each micro-step.",
+        "r": "Conversion increased 9 percentage points, average response time reduced 32%, support tickets decreased 25% and complete user journey visibility implemented. ROI of R$ 300k/month recovered. (with baseline, target and period documented in executive report).",
+        "l": "I learned that 'Dive deep' is leaving the slide and going to real source data. Observed flow > reported narrative. Correct instrumentation illuminates obvious problems that superficial dashboards don't capture. In retrospect, I could have implemented deeper observability from the start, and today I always question metrics that 'seem normal' when outcomes don't match."
+      },
+      "fups": [
         {
-          "q": "Como você garantiu que não era um falso positivo de analytics?",
-          "a": "Cruzei três fontes: eventos do front, logs do backend e gravações amostrais de sessão.",
-          "q_en": "How did you ensure it wasn't a false positive in analytics?",
-          "a_en": "I cross-referenced three sources: frontend events, backend logs, and sample session recordings."
+          "q": "Como vocÃª soube que precisava ir alÃ©m dos relatÃ³rios executivos?",
+          "q_en": "How did you know you needed to go beyond executive reports?",
+          "a": "Red flag: mÃ©tricas de sistema 'verdes' mas business outcome 'vermelho'. When dashboard says OK mas results say NOT OK, sempre dive deeper. Skepticism sobre superficial metrics.",
+          "a_en": "Red flag: system metrics 'green' but business outcome 'red'. When dashboard says OK but results say NOT OK, always dive deeper. Skepticism about superficial metrics."
         },
         {
-          "q": "Por que 18%? O que havia de comum?",
-          "a": "Correlação com horários de pico e dispositivos mais antigos com latência maior.",
-          "q_en": "Why 18%? What did they have in common?",
-          "a_en": "Correlation with peak hours and older devices with higher latency."
+          "q": "Que ferramentas vocÃª usou para fazer essa anÃ¡lise profunda?",
+          "q_en": "What tools did you use for this deep analysis?",
+          "a": "ELK Stack para logs, Jaeger para distributed tracing, custom SQL queries no raw data e Python notebooks para correlation analysis. Multiple layers de observability.",
+          "a_en": "ELK Stack for logs, Jaeger for distributed tracing, custom SQL queries on raw data and Python notebooks for correlation analysis. Multiple layers of observability."
         },
         {
-          "q": "Por que o timeout não aparecia nos painéis?",
-          "a": "A métrica estava agregada por serviço; criei um painel por endpoint com percentis p95/p99.",
-          "q_en": "Why didn't the timeout show up in dashboards?",
-          "a_en": "The metric was aggregated by service; I created a per-endpoint dashboard with p95/p99 percentiles."
+          "q": "Como vocÃª descobriu que era um timeout especÃ­fico causando o problema?",
+          "q_en": "How did you discover it was a specific timeout causing the problem?",
+          "a": "Pattern matching: failures correlacionavam com external API calls duration > 5s. User journey analysis mostrou drop-off exato no ponto de verificaÃ§Ã£o. Data detective work.",
+          "a_en": "Pattern matching: failures correlated with external API calls duration > 5s. User journey analysis showed exact drop-off at verification point. Data detective work."
         },
         {
-          "q": "Qual foi a hipótese descartada?",
-          "a": "Bug no formulário; não havia aumento de erros de validação.",
-          "q_en": "What hypothesis was discarded?",
-          "a_en": "Form bug; there was no increase in validation errors."
+          "q": "Por que esse timeout nÃ£o aparecia nos dashboards normais?",
+          "q_en": "Why didn't this timeout appear in normal dashboards?",
+          "a": "Silent failure: aplicaÃ§Ã£o nÃ£o loggava timeout como erro, sÃ³ como 'step skipped'. Dashboard tracking sÃ³ success/error explÃ­citos. Missing observability gap.",
+          "a_en": "Silent failure: application didn't log timeout as error, just as 'step skipped'. Dashboard tracking only explicit success/error. Missing observability gap."
         },
         {
-          "q": "Que experimento rodou primeiro?",
-          "a": "Retry exponencial com jitter em 10% do tráfego; impacto positivo sem efeito colateral.",
-          "q_en": "What experiment ran first?",
-          "a_en": "Exponential retry with jitter on 10% of traffic; positive impact with no side effects."
-        },        {
-          "q": "Como evitou efeitos colaterais?",
-          "a": "Rate limiting e circuit breaker para o serviço externo.",
-          "q_en": "How did you avoid side effects?",
-          "a_en": "Rate limiting and circuit breaker for the external service."
+          "q": "Qual foi o processo para implementar retry exponencial sem afetar performance?",
+          "q_en": "What was the process to implement exponential retry without affecting performance?",
+          "a": "Async retry com circuit breaker: first attempt synchronous, retries em background com callback. User experience nÃ£o degradada, reliability melhorada. Best of both worlds.",
+          "a_en": "Async retry with circuit breaker: first attempt synchronous, retries in background with callback. User experience not degraded, reliability improved. Best of both worlds."
         },
         {
-          "q": "Que monitoramento permanente ficou?",
-          "a": "Alertas por endpoint, por região e por device class com SLOs explícitos.",
-          "q_en": "What permanent monitoring remained?",
-          "a_en": "Alerts per endpoint, per region, and per device class with explicit SLOs."
+          "q": "Como vocÃª validou que o cache de respostas benignas era seguro?",
+          "q_en": "How did you validate that caching benign responses was safe?",
+          "a": "Security review + TTL curto (5min) + cache invalidation em caso de suspeita. Conservative approach: cache sÃ³ positive results com low business risk. Safety first.",
+          "a_en": "Security review + short TTL (5min) + cache invalidation on suspicion. Conservative approach: cache only positive results with low business risk. Safety first."
         },
         {
-          "q": "Como alinhou isso ao negócio?",
-          "a": "Mostrei o ganho de conversão traduzido em receita incremental por período.",
-          "q_en": "How did you align this with the business?",
-          "a_en": "I showed the conversion gain translated into incremental revenue per period."
+          "q": "Que mÃ©tricas vocÃª adicionou para evitar problemas similares no futuro?",
+          "q_en": "What metrics did you add to avoid similar problems in the future?",
+          "a": "End-to-end success rate, step-by-step conversion funnel, API call duration percentiles e error type categorization. Observability como prevention, nÃ£o sÃ³ detection.",
+          "a_en": "End-to-end success rate, step-by-step conversion funnel, API call duration percentiles and error type categorization. Observability as prevention, not just detection."
         },
         {
-          "q": "Qual dívida técnica virou ação?",
-          "a": "Implementar fallback offline para verificação não crítica.",
-          "q_en": "What technical debt became an action?",
-          "a_en": "Implement offline fallback for non-critical verification."
+          "q": "Como vocÃª convenceu stakeholders a investir em melhor instrumentaÃ§Ã£o?",
+          "q_en": "How did you convince stakeholders to invest in better instrumentation?",
+          "a": "ROI claro: 'Esse problema custou R$ 300k/mÃªs e levou 2 semanas para achar. Better observability = faster detection = less money lost'. Cost of blindness.",
+          "a_en": "Clear ROI: 'This problem cost R$ 300k/month and took 2 weeks to find. Better observability = faster detection = less money lost'. Cost of blindness."
         },
         {
-          "q": "O que faria diferente?",
-          "a": "Instrumentaria o endpoint desde o início com percentis e tracing distribuído.",
-          "q_en": "What would you do differently?",
-          "a_en": "I would instrument the endpoint from the start with percentiles and distributed tracing."
+          "q": "Qual foi o learning mais importante sobre 'dive deep' neste projeto?",
+          "q_en": "What was the most important learning about 'dive deep' in this project?",
+          "a": "Surface metrics mentem. Ground truth estÃ¡ nos raw events e user behavior real. Leadership Ã© about questioning what 'looks normal' when results don't add up.",
+          "a_en": "Surface metrics lie. Ground truth is in raw events and real user behavior. Leadership is about questioning what 'looks normal' when results don't add up."
+        },
+        {
+          "q": "Se encontrasse um problema similar hoje, qual seria sua abordagem?",
+          "q_en": "If you found a similar problem today, what would be your approach?",
+          "a": "Start with user journey tracing, correlate com business metrics, implement comprehensive logging upfront e create automated anomaly detection. Proactive deep diving.",
+          "a_en": "Start with user journey tracing, correlate with business metrics, implement comprehensive logging upfront and create automated anomaly detection. Proactive deep diving."
         }
       ]
-    },    {
-      "title": "Reduzindo Tempo 'Percebido' em Teleconsulta (Unimed APS)",
+    },
+    {
+      "title": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop/Unimed (MM/AAAA-MM/AAAA) â­",
       "pt": {
-        "s": "No Unimed APS, pacientes reportavam percepção de demora na primeira teleconsulta, apesar de SLAs dentro do esperado.",
-        "t": "Minha missão era: Entender a discrepância entre SLA técnico e percepção de demora e corrigi-la.",
-        "a": "Eu analisei a jornada ponta a ponta, cronometrando o 'tempo percebido': cadastroagendamentosala de esperaconsulta. Descobri que o gargalo era a espera não informada na sala virtual. Introduzi tempos estimados dinâmicos, lembretes contextuais e fila inteligente.",
-        "r": "Queda de 31% na percepção de demora; NPS +0,8; abandono na sala de espera -26%. (com baseline, meta e período documentados em relatório executivo).",
-        "l": "Aprendi que mergulhar fundo inclui medir o que realmente importa para o usuário, não apenas o que é fácil para o sistema. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje começo engajando-os desde o início."
+        "s": "Sistema de pagamentos da Woop/Unimed reportava 99.2% de success rate, mas revenue real estava 8% abaixo do esperado. Finance detectou discrepÃ¢ncia mas engineering insistia que 'sistema estava funcionando perfeitamente'.",
+        "t": "Minha missÃ£o era mergulhar fundo na arquitetura de pagamentos, questionar todas as mÃ©tricas reportadas e descobrir onde estava o vazamento de revenue, mesmo que isso contradissesse relatÃ³rios tÃ©cnicos oficiais.",
+        "a": "Realizei auditoria completa end-to-end: rastreei cada transaÃ§Ã£o desde user click atÃ© bank confirmation, mapeei todos os pontos de failure e reconciliaÃ§Ã£o. Descobri que partial payments estavam sendo contados como 'success' mas nÃ£o processados completamente. Implementei distributed tracing, correlation IDs Ãºnicos e reconciliaÃ§Ã£o automÃ¡tica tripla (user/gateway/bank).",
+        "r": "Descobriu R$ 2.1M anuais em revenue perdido, implementou fixes que recuperaram 95% do vazamento, reduziu disputed transactions em 60% e criou observability que detecta anomalias em 15min vs. 30 dias antes. (com baseline, meta e perÃ­odo documentados em relatÃ³rio executivo).",
+        "l": "Aprendi que dive deep significa questionar every single assumption, especialmente quando 'everything looks fine'. True leadership Ã© about connecting technical details com business outcomes. Em retrospectiva, eu poderia ter implementado end-to-end transaction tracing desde o MVP, e hoje nunca aceito metrics sem business outcome validation."
       },
       "en": {
-        "s": "In Unimed's PHC program, patients perceived long waits for the first teleconsultation despite SLAs being met.",
-        "t": "Understand the gap between technical SLA and perceived delay and fix it.",
-        "a": "I mapped the end-to-end journey, timing 'perceived time': signupschedulingwaiting roomvisit. The bottleneck was undisclosed wait in the virtual room. I added dynamic ETA, contextual reminders, and smart queueing.",
-        "r": "31% drop in perceived delay; NPS +0.8; 26% waiting-room abandonment.",
-        "l": "Diving deep includes measuring what matters to users, not just what's easy for systems."
-      },      "fup": [
+        "s": "Woop/Unimed payment system reported 99.2% success rate, but actual revenue was 8% below expected. Finance detected discrepancy but engineering insisted 'system was working perfectly'.",
+        "t": "My mission was to dive deep into payment architecture, question all reported metrics and discover where revenue leakage was, even if it contradicted official technical reports.",
+        "a": "I conducted complete end-to-end audit: traced each transaction from user click to bank confirmation, mapped all failure points and reconciliation. I discovered partial payments were being counted as 'success' but not fully processed. I implemented distributed tracing, unique correlation IDs and triple automatic reconciliation (user/gateway/bank).",
+        "r": "Discovered R$ 2.1M annual lost revenue, implemented fixes that recovered 95% of leakage, reduced disputed transactions by 60% and created observability that detects anomalies in 15min vs. 30 days before. (with baseline, target and period documented in executive report).",
+        "l": "I learned that dive deep means questioning every single assumption, especially when 'everything looks fine'. True leadership is about connecting technical details with business outcomes. In retrospect, I could have implemented end-to-end transaction tracing from MVP, and today I never accept metrics without business outcome validation."
+      },
+      "fups": [
         {
-          "q": "Como você mediu 'tempo percebido'?",
-          "a": "Shadowing e instrumentação no front para medir eventos de espera visível ao usuário.",
-          "q_en": "How did you measure 'perceived time'?",
-          "a_en": "Shadowing and frontend instrumentation to measure user-visible waiting events."
+          "q": "Como vocÃª soube que havia discrepÃ¢ncia quando mÃ©tricas tÃ©cnicas pareciam OK?",
+          "q_en": "How did you know there was discrepancy when technical metrics seemed OK?",
+          "a": "Finance data didn't lie: expected revenue baseado em user activity vs. actual bank deposits. Business outcome trumps technical metrics sempre. Follow the money.",
+          "a_en": "Finance data didn't lie: expected revenue based on user activity vs. actual bank deposits. Business outcome trumps technical metrics always. Follow the money."
         },
         {
-          "q": "Qual foi o insight mais contra-intuitivo?",
-          "a": "O SLA técnico era bom, mas a falta de feedback visual gerava ansiedade e a sensação de demora.",
-          "q_en": "What was the most counterintuitive insight?",
-          "a_en": "The technical SLA was good, but lack of visual feedback created anxiety and the feeling of delay."
+          "q": "Que resistÃªncia vocÃª enfrentou da equipe de engineering?",
+          "q_en": "What resistance did you face from the engineering team?",
+          "a": "'Our metrics are green, must be finance mistake'. Tive que provar with data que technical success â‰  business success. Ego Ã© inimigo do dive deep.",
+          "a_en": "'Our metrics are green, must be finance mistake'. Had to prove with data that technical success â‰  business success. Ego is enemy of dive deep."
         },
         {
-          "q": "Como priorizou o que atacar primeiro?",
-          "a": "Alto impacto e baixa complexidade: ETA dinâmico e mensagens contextuais.",
-          "q_en": "How did you prioritize what to tackle first?",
-          "a_en": "High impact and low complexity: dynamic ETA and contextual messages."
+          "q": "Como vocÃª mapeou o fluxo completo de uma transaÃ§Ã£o?",
+          "q_en": "How did you map the complete flow of a transaction?",
+          "a": "Transaction forensics: seguir um payment ID especÃ­fico atravÃ©s de todos systems (frontend, backend, gateway, bank, reconciliation). End-to-end journey mapping com timestamps.",
+          "a_en": "Transaction forensics: follow specific payment ID through all systems (frontend, backend, gateway, bank, reconciliation). End-to-end journey mapping with timestamps."
         },
         {
-          "q": "Houve impacto em fraude ou consultas fantasma?",
-          "a": "Não; a fila inteligente reduziu no-show e melhorou ocupação.",
-          "q_en": "Was there any impact on fraud or ghost consultations?",
-          "a_en": "No; the smart queue reduced no-shows and improved occupancy."
+          "q": "O que exatamente eram os 'partial payments' que causavam o problema?",
+          "q_en": "What exactly were the 'partial payments' causing the problem?",
+          "a": "Gateway confirmava 'processing' mas bank rejeitava silenciosamente por insufficient funds/limits. Sistema contava como success, mas money never moved. Silent failure mode.",
+          "a_en": "Gateway confirmed 'processing' but bank silently rejected for insufficient funds/limits. System counted as success, but money never moved. Silent failure mode."
         },
         {
-          "q": "Como garantiu precisão do ETA?",
-          "a": "Modelos simples por fila e horário, ajustados diariamente com dados reais.",
-          "q_en": "How did you ensure ETA accuracy?",
-          "a_en": "Simple models per queue and time slot, adjusted daily with real data."
-        },        {
-          "q": "Que trade-off você aceitou?",
-          "a": "Investir mais tempo no front-end para reduzir tickets no suporte.",
-          "q_en": "What trade-off did you accept?",
-          "a_en": "Invest more time in frontend to reduce support tickets."
+          "q": "Como vocÃª implementou reconciliaÃ§Ã£o tripla sem afetar performance?",
+          "q_en": "How did you implement triple reconciliation without affecting performance?",
+          "a": "Async reconciliation: real-time user feedback, batched gateway checks (hourly), bank confirmation (daily). Different SLAs para different stakeholders. Performance + accuracy.",
+          "a_en": "Async reconciliation: real-time user feedback, batched gateway checks (hourly), bank confirmation (daily). Different SLAs for different stakeholders. Performance + accuracy."
         },
         {
-          "q": "Como sustentou os ganhos?",
-          "a": "Alertas se ETA desvia >20% do previsto e revisão semanal da fila.",
-          "q_en": "How did you sustain the gains?",
-          "a_en": "Alerts if ETA deviates >20% from expected and weekly queue review."
+          "q": "Qual foi o momento 'eureka' quando vocÃª descobriu a causa raiz?",
+          "q_en": "What was the 'eureka' moment when you discovered root cause?",
+          "a": "Correlation analysis: 80% dos 'partial payments' aconteciam apÃ³s 18h (bank batch processing window). Pattern que ninguÃ©m tinha conectado. Data reveals truth.",
+          "a_en": "Correlation analysis: 80% of 'partial payments' happened after 6 PM (bank batch processing window). Pattern nobody had connected. Data reveals truth."
         },
         {
-          "q": "Que métrica monitorou pós-lançamento?",
-          "a": "Abandono na sala e CSAT por consulta.",
-          "q_en": "What metric did you monitor post-launch?",
-          "a_en": "Room abandonment and CSAT per consultation."
+          "q": "Como vocÃª comunicou findings complexos para non-technical stakeholders?",
+          "q_en": "How did you communicate complex findings to non-technical stakeholders?",
+          "a": "Money talk: 'R$ 2.1M/ano estÃ¡ vazando aqui' com visual flow diagram. Business impact primeiro, technical details depois. CEO understands revenue leaks.",
+          "a_en": "Money talk: 'R$ 2.1M/year is leaking here' with visual flow diagram. Business impact first, technical details after. CEO understands revenue leaks."
         },
         {
-          "q": "O que os médicos acharam?",
-          "a": "A agenda ficou mais previsível, com menos aberturas e atrasos.",
-          "q_en": "What did the doctors think?",
-          "a_en": "The schedule became more predictable, with fewer openings and delays."
+          "q": "Que ferramentas de observability vocÃª implementou para prevenir recorrÃªncia?",
+          "q_en": "What observability tools did you implement to prevent recurrence?",
+          "a": "Real-time revenue dashboard, transaction success rate por time window, automated alerts on revenue variance e weekly reconciliation reports. Prevention through visibility.",
+          "a_en": "Real-time revenue dashboard, transaction success rate by time window, automated alerts on revenue variance and weekly reconciliation reports. Prevention through visibility."
         },
         {
-          "q": "O que faria diferente?",
-          "a": "Testes com mensagens personalizadas por perfil para ganhar mais pontos de satisfação.",
-          "q_en": "What would you do differently?",
-          "a_en": "Test personalized messages by profile to gain more satisfaction points."
+          "q": "Qual foi o impacto organizacional alÃ©m da recuperaÃ§Ã£o de revenue?",
+          "q_en": "What was organizational impact beyond revenue recovery?",
+          "a": "Culture shift: engineering passou a validate business outcomes, nÃ£o sÃ³ technical metrics. Cross-functional collaboration melhorou. Trust atravÃ©s de transparency.",
+          "a_en": "Culture shift: engineering started validating business outcomes, not just technical metrics. Cross-functional collaboration improved. Trust through transparency."
+        },
+        {
+          "q": "Se tivesse que audit outro sistema crÃ­tico hoje, qual seria sua methodology?",
+          "q_en": "If you had to audit another critical system today, what would be your methodology?",
+          "a": "Business outcome first: start com discrepancy analysis, map complete user journey, question every assumption e implement observability gaps. Always follow the money trail.",
+          "a_en": "Business outcome first: start with discrepancy analysis, map complete user journey, question every assumption and implement observability gaps. Always follow the money trail."
         }
       ]
     }
