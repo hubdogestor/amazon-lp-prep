@@ -183,14 +183,18 @@ export default function App() {
       return base
         .map((p) => {
           const hits = (p.cases || []).filter((c) => {
-            // Buscar em ambos idiomas para manter cases visíveis ao trocar idioma
-            const titleHitPT = norm(getCaseBaseTitle(c, "pt")).includes(term);
-            const titleHitEN = norm(getCaseBaseTitle(c, "en")).includes(term);
-            const starlPT = (c && c.pt) || {};
-            const starlEN = (c && c.en) || {};
-            const starlHitPT = norm(Object.values(starlPT).join(" ")).includes(term);
-            const starlHitEN = norm(Object.values(starlEN).join(" ")).includes(term);
-            return titleHitPT || titleHitEN || starlHitPT || starlHitEN;
+            // Buscar apenas no idioma selecionado
+            if (language === "pt") {
+              const titleHitPT = norm(getCaseBaseTitle(c, "pt")).includes(term);
+              const starlPT = (c && c.pt) || {};
+              const starlHitPT = norm(Object.values(starlPT).join(" ")).includes(term);
+              return titleHitPT || starlHitPT;
+            } else {
+              const titleHitEN = norm(getCaseBaseTitle(c, "en")).includes(term);
+              const starlEN = (c && c.en) || {};
+              const starlHitEN = norm(Object.values(starlEN).join(" ")).includes(term);
+              return titleHitEN || starlHitEN;
+            }
           });
           if (hits.length > 0 || norm(p.name).includes(term)) {
             return { ...p, cases: hits.length ? hits : p.cases || [] };
@@ -354,7 +358,7 @@ export default function App() {
                               setExpandedCases({ [c.title]: true });
                               setQuestionSearch("");
 
-                              const anchorId = `fup-${p.id}-${slugify(c.title)}-${idx}`;
+                              const anchorId = `fup-${p.id}-${slugify(c.id || c.title)}-${idx}`;
                               setHighlightedFupId(anchorId);
                               setTimeout(() => {
                                 const el = document.getElementById(anchorId);
@@ -577,7 +581,7 @@ export default function App() {
                               return fups.length > 0 ? (
                                 <ul className="list-disc pl-5 space-y-2">
                                   {fups.map((f, fIdx) => {
-                                    const fupId = `fup-${principle.id}-${slugify(c.title)}-${fIdx}`;
+                                    const fupId = `fup-${principle.id}-${slugify(c.id || c.title)}-${fIdx}`;
                                     const question = language === "en" ? (f.q_en || f.q) : f.q;
                                     const answer = language === "en" ? (f.a_en || f.a) : f.a;
                                     return (

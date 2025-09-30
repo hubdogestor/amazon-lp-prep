@@ -11,7 +11,7 @@ const dive_deep = {
   cases: [
     {
       "id": "timeouts-ocultos-em-verificacao-externa",
-      "title": "Timeouts Ocultos em Verificação Externa - SEFAZ-RS (MM/AAAA-MM/AAAA)",
+      "title": "Timeouts Ocultos em Verificação Externa - SEFAZ-RS (2024)",
       "title_pt": "Timeouts Ocultos em Verificação Externa",
       "title_en": "Hidden Timeouts in External Verification",
       "company": "SEFAZ-RS",
@@ -94,20 +94,20 @@ const dive_deep = {
       ]
     },
     {
-      "title": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop/Unimed (MM/AAAA-MM/AAAA) ⭐",
-      "title_pt": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop/Unimed (MM/AAAA-MM/AAAA) ⭐",
-      "title_en": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop/Unimed (MM/AAAA-MM/AAAA) ⭐ (EN)",
-      "company": "Woop/Unimed",
+      "title": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop Sicredi (2024)",
+      "title_pt": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop Sicredi (2024)",
+      "title_en": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop Sicredi (2024) (EN)",
+      "company": "Woop Sicredi",
       "period": "06/2019–12/2021",
       "pt": {
-        "s": "Sistema de pagamentos da Woop/Unimed reportava 99.2% de success rate, mas revenue real estava 8% abaixo do esperado. Finance detectou discrepância mas engineering insistia que 'sistema estava funcionando perfeitamente'.",
+        "s": "Sistema de pagamentos da Woop Sicredi reportava 99.2% de success rate, mas revenue real estava 8% abaixo do esperado. Finance detectou discrepância mas engineering insistia que 'sistema estava funcionando perfeitamente'.",
         "t": "Minha missão era mergulhar fundo na arquitetura de pagamentos, questionar todas as métricas reportadas e descobrir onde estava o vazamento de revenue, mesmo que isso contradissesse relatórios técnicos oficiais.",
         "a": "Realizei auditoria completa end-to-end: rastreei cada transação desde user click até bank confirmation, mapeei todos os pontos de failure e reconciliação. Descobri que partial payments estavam sendo contados como 'success' mas não processados completamente. Implementei distributed tracing, correlation IDs únicos e reconciliação automática tripla (user/gateway/bank).",
         "r": "Descobriu R$ 2.1M anuais em revenue perdido, implementou fixes que recuperaram 95% do vazamento, reduziu disputed transactions em 60% e criou observability que detecta anomalias em 15min vs. 30 dias antes. (com baseline, meta e período documentados em relatório executivo).",
         "l": "Aprendi que dive deep significa questionar every single assumption, especialmente quando 'everything looks fine'. True leadership é about connecting technical details com business outcomes. Em retrospectiva, eu poderia ter implementado end-to-end transaction tracing desde o MVP, e hoje nunca aceito metrics sem business outcome validation."
       },
       "en": {
-        "s": "Woop/Unimed payment system reported 99.2% success rate, but actual revenue was 8% below expected. Finance detected discrepancy but engineering insisted 'system was working perfectly'.",
+        "s": "Woop Sicredi payment system reported 99.2% success rate, but actual revenue was 8% below expected. Finance detected discrepancy but engineering insisted 'system was working perfectly'.",
         "t": "My mission was to dive deep into payment architecture, question all reported metrics and discover where revenue leakage was, even if it contradicted official technical reports.",
         "a": "I conducted complete end-to-end audit: traced each transaction from user click to bank confirmation, mapped all failure points and reconciliation. I discovered partial payments were being counted as 'success' but not fully processed. I implemented distributed tracing, unique correlation IDs and triple automatic reconciliation (user/gateway/bank).",
         "r": "Discovered R$ 2.1M annual lost revenue, implemented fixes that recovered 95% of leakage, reduced disputed transactions by 60% and created observability that detects anomalies in 15min vs. 30 days before. (with baseline, target and period documented in executive report).",

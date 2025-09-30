@@ -11,11 +11,11 @@ const invent_and_simplify_data = {
   cases: [
     {
       "id": "reducao-drastica-de-sla-com-novo-modelo-de-process",
-      "title": "Redução Drástica de SLA com Novo Modelo de Processo - Huawei (MM/AAAA-MM/AAAA)",
+      "title": "Redução Drástica de SLA com Novo Modelo de Processo - Huawei (2024)",
       "title_pt": "Redução Drástica de SLA com Novo Modelo de Processo",
       "title_en": "Drastic SLA Reduction with New Process Model",
-      "company": "Huawei",
-      "period": "09/2013-07/2014",
+      "company": "Unimed",
+      "period": "2022-2024",
       "isTopCase": true,
       "pt": {
         "s": "Na Huawei, o ciclo médio de entrega de uma estação de telecom era de 382 dias. Esse processo longo e complexo estava comprometendo contratos e colocando em risco metas críticas, como a infraestrutura para a Copa do Mundo de 2014.",
@@ -95,11 +95,11 @@ const invent_and_simplify_data = {
       ]
     },
     {
-      "title": "Lançamento de Novos Produtos Digitais para Diversificar Receita - Unimed (MM/AAAA-MM/AAAA)",
+      "title": "Lançamento de Novos Produtos Digitais para Diversificar Receita - Unimed (2024)",
       "title_pt": "Lançamento de Novos Produtos Digitais para Diversificar Receita",
       "title_en": "Lançamento de Novos Produtos Digitais para Diversificar Receita (EN)",
       "company": "Unimed",
-      "period": "06/2021–05/2024",
+      "period": "2022-2024",
       "pt": {
         "s": "A Unimed, uma cooperativa de saúde tradicional, era excessivamente dependente da receita de planos de saúde convencionais e precisava inovar para criar novas fontes de receita.",
         "t": "Minha tarefa era inventar e lançar um portfólio de novos produtos, digitais e físicos, que fossem além do plano de saúde tradicional, simplificando o acesso a novos serviços.",

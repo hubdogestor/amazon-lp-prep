@@ -11,7 +11,7 @@ const are_right_a_lot_data = {
   cases: [
     {
       "id": "estruturacao-da-cultura-de-produto-baseada-em-dado",
-      "title": "Estruturação da Cultura de Produto Baseada em Dados - Sicredi (MM/AAAA-MM/AAAA)",
+      "title": "Estruturação da Cultura de Produto Baseada em Dados - Sicredi (2024)",
       "title_pt": "Estruturação da Cultura de Produto Baseada em Dados",
       "title_en": "Data-Driven Product Culture Implementation",
       "company": "Sicredi",
@@ -94,9 +94,9 @@ const are_right_a_lot_data = {
       ]
     },
     {
-      "title": "Decisão de Arquitetura Bancária Next vs. Bradesco - Bradesco (MM/AAAA-MM/AAAA) ⭐",
-      "title_pt": "Decisão de Arquitetura Bancária Next vs. Bradesco - Bradesco (MM/AAAA-MM/AAAA) ⭐",
-      "title_en": "Decisão de Arquitetura Bancária Next vs. Bradesco - Bradesco (MM/AAAA-MM/AAAA) ⭐ (EN)",
+      "title": "Decisão de Arquitetura Bancária Next vs. Bradesco - Bradesco (2024)",
+      "title_pt": "Decisão de Arquitetura Bancária Next vs. Bradesco - Bradesco (2024)",
+      "title_en": "Decisão de Arquitetura Bancária Next vs. Bradesco - Bradesco (2024) (EN)",
       "company": "Bradesco",
       "period": "08/2016–12/2017",
       "pt": {

@@ -14,8 +14,8 @@ const frugality = {
       "title": "Racionalização de Stack de Relatórios e Licenças - SEFAZ-RS (08/2024–12/2024)",
       "title_pt": "Racionalização de Stack de Relatórios e Licenças",
       "title_en": "Reports and Licenses Stack Rationalization",
-      "company": "SEFAZ-RS",
-      "period": "08/2024–12/2024",
+      "company": "Unimed",
+      "period": "06/2021-12/2023",
       "pt": {
         "s": "No SEFAZ-RS, os custos de licenças e infraestrutura de relatórios cresciam descontroladamente: R$ 800k/ano em ferramentas sobrepostas, 12 soluções diferentes fazendo funções similares e baixa utilização (30% das licenças ociosas).",
         "t": "Minha missão era reduzir o gasto anual recorrente em pelo menos 20% sem perder capacidade analítica e governança, otimizando stack tecnológico através de inventividade e consolidação inteligente.",
@@ -94,20 +94,20 @@ const frugality = {
       ]
     },
     {
-      "title": "MVP com Zero Budget: Portal do Empreendedor - Woop/Unimed (MM/AAAA-MM/AAAA)",
+      "title": "MVP com Zero Budget: Portal do Empreendedor - Woop Sicredi (2024)",
       "title_pt": "MVP com Zero Budget: Portal do Empreendedor",
       "title_en": "Zero Budget MVP: Entrepreneur Portal",
-      "company": "Woop/Unimed",
-      "period": "06/2019–12/2021",
+      "company": "Unimed",
+      "period": "06/2021-12/2023",
       "pt": {
-        "s": "A Woop/Unimed queria lançar portal para empreendedores da saúde, mas budget estava congelado. Marketing pressionava por launch em 2 meses para aproveitar timing de evento da categoria.",
+        "s": "A Woop Sicredi queria lançar portal para empreendedores da saúde, mas budget estava congelado. Marketing pressionava por launch em 2 meses para aproveitar timing de evento da categoria.",
         "t": "Minha missão era entregar MVP funcional do portal sem orçamento adicional, usando recursos internos existentes e criatividade para substituir soluções caras por alternativas resourceful.",
         "a": "Criei solução híbrida: WordPress customizado ao invés de desenvolvimento do zero, integração com APIs existentes da Unimed, design system reaproveitado de outros produtos e hosting em infrastructure já contratada. Team interno working part-time, freelancers pagos com equity em projeto piloto e parcerias com fornecedores em troca de case studies.",
         "r": "Portal lançado em 7 semanas com custo total de R$ 12k (vs. R$ 180k orçado originalmente), 500+ empreendedores cadastrados no primeiro mês, NPS de 8.2/10 e lead generation de 40% above target. Solução frugal superou expectativas premium. (com baseline, meta e período documentados em relatório executivo).",
         "l": "Aprendi que constraints extremas forçam inovação radical. Frugality não é about ser barato, é about ser resourceful e encontrar ways to deliver value que não dependem de dinheiro. Em retrospectiva, eu poderia ter documentado better o business case para future funding, e hoje sempre capturo learnings de MVPs frugais para scale decisions posteriores."
       },
       "en": {
-        "s": "Woop/Unimed wanted to launch portal for health entrepreneurs, but budget was frozen. Marketing pressured for launch in 2 months to leverage category event timing.",
+        "s": "Woop Sicredi wanted to launch portal for health entrepreneurs, but budget was frozen. Marketing pressured for launch in 2 months to leverage category event timing.",
         "t": "My mission was to deliver functional portal MVP without additional budget, using existing internal resources and creativity to replace expensive solutions with resourceful alternatives.",
         "a": "I created hybrid solution: customized WordPress instead of development from scratch, integration with existing Unimed APIs, design system reused from other products and hosting on already contracted infrastructure. Internal team working part-time, freelancers paid with equity in pilot project and partnerships with suppliers in exchange for case studies.",
         "r": "Portal launched in 7 weeks with total cost of R$ 12k (vs. originally budgeted R$ 180k), 500+ entrepreneurs registered in first month, NPS of 8.2/10 and lead generation 40% above target. Frugal solution exceeded premium expectations. (with baseline, target and period documented in executive report).",

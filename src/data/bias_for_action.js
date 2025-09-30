@@ -11,11 +11,11 @@ const bias_for_action = {
   cases: [
     {
       "id": "dashboard-executivo-em-10-dias",
-      "title": "Dashboard Executivo em 10 dias - PMO CAGE/SEFAZ-RS (MM/AAAA-MM/AAAA)",
+      "title": "Dashboard Executivo em 10 dias - PMO CAGE/SEFAZ-RS (2024)",
       "title_pt": "Dashboard Executivo em 10 dias",
       "title_en": "Executive Dashboard in 10 Days",
-      "company": "PMO CAGE/SEFAZ-RS",
-      "period": "08/2024–05/2025",
+      "company": "Unimed",
+      "period": "2020-2021",
       "pt": {
         "s": "No lançamento do portal do PMO da CAGE, a Diretiva precisava visualizar em poucos dias o status do portfólio para uma reunião com o Secretário. As fontes de dados estavam dispersas (planilhas, e-mails, Project, PSA) e não havia um dashboard executivo consolidado.",
         "t": "Minha missão era: Entregar um MVP funcional do painel executivo em 10 dias, ainda que com escopo reduzido, para suportar a decisão estratégica e padronizar o rito mensal de acompanhamento.",
@@ -94,20 +94,20 @@ const bias_for_action = {
       ]
     },
     {
-      "title": "Implementação Emergencial de Home Office - Unimed/Woop (MM/AAAA-MM/AAAA) ⭐",
-      "title_pt": "Implementação Emergencial de Home Office - Unimed/Woop (MM/AAAA-MM/AAAA) ⭐",
-      "title_en": "Implementação Emergencial de Home Office - Unimed/Woop (MM/AAAA-MM/AAAA) ⭐ (EN)",
-      "company": "Unimed/Woop",
-      "period": "2019–2024",
+      "title": "Implementação Emergencial de Home Office - Unimed (2024)",
+      "title_pt": "Implementação Emergencial de Home Office - Unimed (2024)",
+      "title_en": "Implementação Emergencial de Home Office - Unimed (2024) (EN)",
+      "company": "Unimed",
+      "period": "2020-2021",
       "pt": {
-        "s": "Em março de 2020, com o início da pandemia, a Unimed/Woop precisava implementar home office para 300+ colaboradores em 48h. A infraestrutura tradicional não suportava trabalho remoto em larga escala e havia riscos de continuidade de negócio.",
+        "s": "Em março de 2020, com o início da pandemia, a Unimed precisava implementar home office para 300+ colaboradores em 48h. A infraestrutura tradicional não suportava trabalho remoto em larga escala e havia riscos de continuidade de negócio.",
         "t": "Minha missão era garantir que toda a operação continuasse funcionando remotamente sem perda de produtividade ou segurança, implementando soluções tecnológicas e processos de trabalho distribuído em tempo recorde.",
         "a": "Tomei decisões rápidas sem comitês: compra emergencial de laptops e licenças VPN, implementação de Microsoft Teams em 24h, criação de guias de trabalho remoto e treinamentos express via videoconferência. Estabeleci rituais diários de check-in e métricas de produtividade simples mas eficazes.",
         "r": "100% da equipe trabalhando remotamente em 48h, produtividade mantida em 95% vs. presencial, zero incidentes de segurança e NPS de satisfação com home office de 8.5/10. A empresa se adaptou rapidamente e manteve operações críticas funcionando. (com baseline, meta e período documentados em relatório executivo).",
         "l": "Aprendi que em crises, velocidade de execução supera perfeição de planejamento. Decisions reversíveis devem ser tomadas rapidamente, ajustes feitos em movimento. A iniciativa em momentos críticos define resiliência organizacional. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje começo engajando-os desde o início."
       },
       "en": {
-        "s": "In March 2020, with the pandemic onset, Unimed/Woop needed to implement home office for 300+ employees in 48h. Traditional infrastructure didn't support large-scale remote work and there were business continuity risks.",
+        "s": "In March 2020, with the pandemic onset, Unimed needed to implement home office for 300+ employees in 48h. Traditional infrastructure didn't support large-scale remote work and there were business continuity risks.",
         "t": "My mission was to ensure entire operation continued functioning remotely without productivity or security loss, implementing technological solutions and distributed work processes in record time.",
         "a": "I made quick decisions without committees: emergency purchase of laptops and VPN licenses, Microsoft Teams implementation in 24h, creation of remote work guides and express training via videoconference. I established daily check-in rituals and simple but effective productivity metrics.",
         "r": "100% of team working remotely in 48h, productivity maintained at 95% vs. in-person, zero security incidents and home office satisfaction NPS of 8.5/10. The company adapted quickly and kept critical operations running. (with baseline, target and period documented in executive report).",

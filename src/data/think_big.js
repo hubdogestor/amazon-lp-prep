@@ -11,11 +11,11 @@ const think_big = {
   cases: [
     {
       "id": "tese-de-crescimento-e-portfolio-multiproduto",
-      "title": "Tese de Crescimento e Portfólio Multi‑produto - Unimed (MM/AAAA-MM/AAAA)",
+      "title": "Tese de Crescimento e Portfólio Multi‑produto - Unimed (2024)",
       "title_pt": "Tese de Crescimento e Portfólio Multi‑produto",
       "title_en": "Growth Thesis & Multi-Product Portfolio",
       "company": "Unimed",
-      "period": "06/2021–05/2024",
+      "period": "2022-2024",
       "pt": {
         "s": "A Unimed precisava diversificar receita e reposicionar a marca além do plano tradicional de saúde, enfrentando crescente competição de healthtechs e pressão por inovação.",
         "t": "Minha missão era: Criar visão de portfólio multi‑produto com novas linhas B2B/B2C e estratégia digital first para transformar a cooperativa em plataforma de saúde integral.",
@@ -94,11 +94,11 @@ const think_big = {
       ]
     },
     {
-      "title": "Visão de Transformação Digital Governamental - SEFAZ-RS (07/2024-09/2025) ⭐",
-      "title_pt": "Visão de Transformação Digital Governamental - SEFAZ-RS (07/2024-09/2025) ⭐",
-      "title_en": "Visão de Transformação Digital Governamental - SEFAZ-RS (07/2024-09/2025) ⭐ (EN)",
-      "company": "SEFAZ-RS",
-      "period": "08/2024–12/2024",
+      "title": "Visão de Transformação Digital Governamental - SEFAZ-RS (07/2024-09/2025)",
+      "title_pt": "Visão de Transformação Digital Governamental - SEFAZ-RS (07/2024-09/2025)",
+      "title_en": "Visão de Transformação Digital Governamental - SEFAZ-RS (07/2024-09/2025) (EN)",
+      "company": "Unimed",
+      "period": "2022-2024",
       "pt": {
         "s": "A SEFAZ-RS tinha oportunidade única de liderar transformação digital no setor público brasileiro, mas estava limitada por visão incremental e projetos pontuais sem integração estratégica.",
         "t": "Minha missão era desenhar e articular uma visão de transformação digital que posicionasse o RS como referência nacional em governo digital, integrando dados, processos e experiência do cidadão.",

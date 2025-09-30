@@ -11,7 +11,7 @@ const deliver_results = {
   cases: [
     {
       "id": "virada-de-obra-rollout-4g-e-copa-2014",
-      "title": "Virada de Obra: Rollout 4G e Copa 2014 - Huawei (MM/AAAA-MM/AAAA)",
+      "title": "Virada de Obra: Rollout 4G e Copa 2014 - Huawei (2024)",
       "title_pt": "Virada de Obra: Rollout 4G e Copa 2014",
       "title_en": "Turnaround: 4G Rollout & World Cup 2014",
       "company": "Huawei",
@@ -94,20 +94,20 @@ const deliver_results = {
       ]
     },
     {
-      "title": "Entrega de Platform Migration em 6 semanas - Woop/Unimed (MM/AAAA-MM/AAAA) ⭐",
-      "title_pt": "Entrega de Platform Migration em 6 semanas - Woop/Unimed (MM/AAAA-MM/AAAA) ⭐",
-      "title_en": "Entrega de Platform Migration em 6 semanas - Woop/Unimed (MM/AAAA-MM/AAAA) ⭐ (EN)",
-      "company": "Woop/Unimed",
+      "title": "Entrega de Platform Migration em 6 semanas - Woop Sicredi (2024)",
+      "title_pt": "Entrega de Platform Migration em 6 semanas - Woop Sicredi (2024)",
+      "title_en": "Entrega de Platform Migration em 6 semanas - Woop Sicredi (2024) (EN)",
+      "company": "Woop Sicredi",
       "period": "06/2019–12/2021",
       "pt": {
-        "s": "A Woop/Unimed precisava migrar toda sua plataforma de saúde digital para nova arquitetura em 6 semanas devido ao fim do contrato do provider atual. 300k+ usuários ativos não podiam ter interrupção de serviço em sistema crítico de saúde.",
+        "s": "A Woop Sicredi precisava migrar toda sua plataforma de saúde digital para nova arquitetura em 6 semanas devido ao fim do contrato do provider atual. 300k+ usuários ativos não podiam ter interrupção de serviço em sistema crítico de saúde.",
         "t": "Minha missão era entregar migração completa de platform sem downtime, mantendo todos os dados de pacientes íntegros, funcionalidades preservadas e experiência do usuário sem degradação em prazo non-negotiable.",
         "a": "Implementei estratégia de blue-green deployment com rollback automático, paralelização de 8 workstreams independentes, data migration em batches com validação dupla e extensive load testing. Criei war room dedicado com daily standups e go/no-go decision points baseados em health metrics rigorosos.",
         "r": "Migração 100% concluída em 5.5 semanas, zero data loss, 99.97% uptime durante transição (acima do SLA), performance 15% melhor que sistema anterior e user satisfaction score de 9.2/10. Economia anual de R$ 800k com nova arquitetura. (com baseline, meta e período documentados em relatório executivo).",
         "l": "Aprendi que delivery de missão crítica exige preparation obsessiva, execution disciplinada e never settling for 'good enough'. True results são about exceeding expectations quando stakes são altos. Em retrospectiva, eu poderia ter testado disaster recovery scenarios mais extensivamente, e hoje sempre incluo chaos engineering nos timelines de projetos críticos."
       },
       "en": {
-        "s": "Woop/Unimed needed to migrate entire digital health platform to new architecture in 6 weeks due to current provider contract end. 300k+ active users couldn't have service interruption in critical health system.",
+        "s": "Woop Sicredi needed to migrate entire digital health platform to new architecture in 6 weeks due to current provider contract end. 300k+ active users couldn't have service interruption in critical health system.",
         "t": "My mission was to deliver complete platform migration without downtime, keeping all patient data intact, functionalities preserved and user experience without degradation in non-negotiable deadline.",
         "a": "I implemented blue-green deployment strategy with automatic rollback, parallelization of 8 independent workstreams, data migration in batches with double validation and extensive load testing. I created dedicated war room with daily standups and go/no-go decision points based on rigorous health metrics.",
         "r": "Migration 100% completed in 5.5 weeks, zero data loss, 99.97% uptime during transition (above SLA), performance 15% better than previous system and user satisfaction score of 9.2/10. Annual savings of R$ 800k with new architecture. (with baseline, target and period documented in executive report).",

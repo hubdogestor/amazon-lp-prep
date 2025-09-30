@@ -14,8 +14,8 @@ const disagree_and_commit = {
       "title": "Decisão de Arquitetura Bancária Next vs. Bra - Bradesco (08/2016–12/2017)",
       "title_pt": "Decisão de Arquitetura Bancária Next vs. Bra",
       "title_en": "Banking Architecture Decision Next vs. Bra",
-      "company": "Bradesco",
-      "period": "08/2016–12/2017",
+      "company": "Woop Sicredi",
+      "period": "01/2019-12/2020",
       "isTopCase": true,
       "pt": {
         "s": "No desenho da arquitetura do Banco Digital Next, times de segurança defendiam on-premise total; times de produto, nuvem total. A polarização travou decisões críticas por 3 semanas com deadline regulatório se aproximando.",
@@ -95,20 +95,20 @@ const disagree_and_commit = {
       ]
     },
     {
-      "title": "Pivot de Produto vs. Persistência - Woop/Unimed (MM/AAAA-MM/AAAA)",
+      "title": "Pivot de Produto vs. Persistência - Woop Sicredi (2024)",
       "title_pt": "Pivot de Produto vs. Persistência",
       "title_en": "Product Pivot vs. Persistence Decision",
-      "company": "Woop/Unimed",
-      "period": "06/2019–12/2021",
+      "company": "Woop Sicredi",
+      "period": "01/2019-12/2020",
       "pt": {
-        "s": "A Woop/Unimed estava investindo R$ 2M+ em feature de telemedicina que não estava ganhando tração após 4 meses. A diretoria queria continuar investindo; dados mostravam baixa adoção (8% vs. 25% esperado).",
+        "s": "A Woop Sicredi estava investindo R$ 2M+ em feature de telemedicina que não estava ganhando tração após 4 meses. A diretoria queria continuar investindo; dados mostravam baixa adoção (8% vs. 25% esperado).",
         "t": "Minha missão era analisar objetivamente se deveríamos perseverar ou pivotar, discordar da continuidade se necessário e, independente da decisão final, executar com total compromisso.",
         "a": "Conduzi análise profunda com user research, cohort analysis e competitive intelligence. Discordei frontalmente da continuidade em board meeting, apresentando dados de baixa market-fit e propondo pivot para funcionalidade híbrida. Após decisão de continuar mais 2 meses, me comprometi 100% com execution otimizada.",
         "r": "Após 2 meses com minha execução total, dados confirmaram análise inicial. Pivot aprovado e nova direção entregue em 6 semanas com 35% adoption rate. Economia de R$ 800k ao evitar bad money after good. (com baseline, meta e período documentados em relatório executivo).",
         "l": "Aprendi que disagreement baseado em dados é responsabilidade de liderança, mesmo quando unpopular. Commitment após decisão contrária demonstra profissionalismo e pode até validar sua análise original. Em retrospectiva, eu poderia ter proposto experiments menores antes de full pivot recommendation, e hoje sempre sugiro low-risk validation paths primeiro."
       },
       "en": {
-        "s": "Woop/Unimed was investing R$ 2M+ in telemedicine feature that wasn't gaining traction after 4 months. The board wanted to continue investing; data showed low adoption (8% vs. 25% expected).",
+        "s": "Woop Sicredi was investing R$ 2M+ in telemedicine feature that wasn't gaining traction after 4 months. The board wanted to continue investing; data showed low adoption (8% vs. 25% expected).",
         "t": "My mission was to objectively analyze whether we should persevere or pivot, disagree with continuity if necessary and, regardless of final decision, execute with total commitment.",
         "a": "I conducted deep analysis with user research, cohort analysis and competitive intelligence. I frontally disagreed with continuity in board meeting, presenting low market-fit data and proposing pivot to hybrid functionality. After decision to continue 2 more months, I committed 100% with optimized execution.",
         "r": "After 2 months with my total execution, data confirmed initial analysis. Pivot approved and new direction delivered in 6 weeks with 35% adoption rate. Saved R$ 800k by avoiding bad money after good. (with baseline, target and period documented in executive report).",

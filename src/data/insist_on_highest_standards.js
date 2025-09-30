@@ -11,11 +11,11 @@ const insist_on_highest_standards = {
   cases: [
     {
       "id": "quality-gates-e-doddor-em-squads",
-      "title": "Quality Gates e DoD/DoR em Squads - Woop/Sicredi (MM/AAAA-MM/AAAA)",
+      "title": "Quality Gates e DoD/DoR em Squads - Woop/Sicredi (2024)",
       "title_pt": "Quality Gates e DoD/DoR em Squads",
       "title_en": "Quality Gates and DoD/DoR in Squads",
-      "company": "Woop/Sicredi",
-      "period": "01/2019–12/2020",
+      "company": "Woop Sicredi",
+      "period": "06/2018-05/2021",
       "pt": {
         "s": "Defeitos recorrentes em entregas digitais geravam retrabalho e desgaste com áreas de negócio.",
         "t": "Minha missão era: Elevar padrões de qualidade de ponta a ponta sem desacelerar a entrega.",
@@ -97,8 +97,8 @@ const insist_on_highest_standards = {
       "title": "Padronização de Arquivos de Dados e Controle de Versão - SEFAZ-RS (07/2024-09/2025)",
       "title_pt": "Padronização de Arquivos de Dados e Controle de Versão",
       "title_en": "Padronização de Arquivos de Dados e Controle de Versão (EN)",
-      "company": "SEFAZ-RS",
-      "period": "08/2024–12/2024",
+      "company": "Woop Sicredi",
+      "period": "06/2018-05/2021",
       "pt": {
         "s": "No Programa Zero da SEFAZ-RS, havia inconsistências nos formatos de dados entre sistemas, causando erros de integração e reprocessamentos. Cada equipe usava seu próprio padrão, gerando complexidade desnecessária.",
         "t": "Minha missão era estabelecer padrões únicos e rigorosos para estruturas de dados, versionamento e documentação, garantindo qualidade e interoperabilidade entre todos os sistemas.",

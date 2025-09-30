@@ -14,17 +14,17 @@ const broad_responsibility = {
       "title": "Governança de Dados Responsável em Escala - Unimed (06/2019–12/2021)",
       "title_pt": "Governança de Dados Responsável em Escala",
       "title_en": "Responsible Data Governance at Scale",
-      "company": "Unimed",
-      "period": "06/2019–12/2021",
+      "company": "PMO CAGE/SEFAZ-RS",
+      "period": "08/2024-05/2025",
       "pt": {
-        "s": "Com a expansão digital da Woop/Unimed, o volume de dados de pacientes cresceu exponencialmente e aumentou nossa responsabilidade sobre privacidade e uso ético de dados. Tínhamos 300k+ registros médicos sensíveis sem governança adequada para LGPD.",
+        "s": "Com a expansão digital da Woop Sicredi, o volume de dados de pacientes cresceu exponencialmente e aumentou nossa responsabilidade sobre privacidade e uso ético de dados. Tínhamos 300k+ registros médicos sensíveis sem governança adequada para LGPD.",
         "t": "Minha missão era estabelecer governança de dados responsável sem bloquear inovação da equipe de produto, garantindo compliance com LGPD e criando cultura de responsabilidade sobre dados sensíveis na organização.",
         "a": "Implementei políticas de minimização de dados, anonimização automática, data retention com purga programada e revisão ética de prompts de IA médica. Criei comitê ágil de ética de dados com SLAs de 48h e checklists de risco por criticidade. Estabeleci processos de privacy-by-design e treinamentos obrigatórios.",
         "r": "Zero incidentes relevantes de privacidade em 18 meses, auditorias LGPD com 95% compliance, time de produto mantendo velocity de inovação e cultura de responsabilidade embedada. Redução de 60% em dados desnecessários armazenados. (com baseline, meta e período documentados em relatório executivo).",
         "l": "Aprendi que escala amplia tanto impacto positivo quanto riscos. Responsabilidade verdadeira é desenhar guardrails que habilitam inovação responsável, não que paralisam. Em retrospectiva, eu poderia ter envolvido stakeholders mais cedo no design dos processos, e hoje sempre começo co-criando soluções com os times afetados."
       },
       "en": {
-        "s": "With Woop/Unimed's digital expansion, patient data volume grew exponentially and increased our responsibility over privacy and ethical data use. We had 300k+ sensitive medical records without adequate LGPD governance.",
+        "s": "With Woop Sicredi's digital expansion, patient data volume grew exponentially and increased our responsibility over privacy and ethical data use. We had 300k+ sensitive medical records without adequate LGPD governance.",
         "t": "My mission was to establish responsible data governance without blocking product team innovation, ensuring LGPD compliance and creating culture of responsibility over sensitive data in the organization.",
         "a": "I implemented data minimization policies, automatic anonymization, data retention with scheduled purging and ethical review of medical AI prompts. I created agile data ethics committee with 48h SLAs and risk checklists by criticality. I established privacy-by-design processes and mandatory training.",
         "r": "Zero relevant privacy incidents in 18 months, LGPD audits with 95% compliance, product team maintaining innovation velocity and embedded responsibility culture. 60% reduction in unnecessary stored data. (with baseline, target and period documented in executive report).",
@@ -94,11 +94,11 @@ const broad_responsibility = {
       ]
     },
     {
-      "title": "Sustentabilidade e Responsabilidade Social - PMO CAGE/SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐",
-      "title_pt": "Sustentabilidade e Responsabilidade Social - PMO CAGE/SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐",
-      "title_en": "Sustentabilidade e Responsabilidade Social - PMO CAGE/SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐ (EN)",
+      "title": "Sustentabilidade e Responsabilidade Social - PMO CAGE/SEFAZ-RS (2024)",
+      "title_pt": "Sustentabilidade e Responsabilidade Social - PMO CAGE/SEFAZ-RS (2024)",
+      "title_en": "Sustentabilidade e Responsabilidade Social - PMO CAGE/SEFAZ-RS (2024) (EN)",
       "company": "PMO CAGE/SEFAZ-RS",
-      "period": "08/2024–05/2025",
+      "period": "08/2024-05/2025",
       "pt": {
         "s": "O PMO da CAGE/SEFAZ-RS precisava modernizar processos públicos, mas com responsabilidade sobre uso de recursos públicos e impacto social. Havia pressão por efficiency vs. accountability em projetos que afetavam 11 milhões de gaúchos.",
         "t": "Minha missão era liderar transformação digital responsável, otimizando recursos públicos, garantindo transparência e criando valor para cidadãos, não apenas para indicadores internos de produtividade.",

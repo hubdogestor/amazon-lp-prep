@@ -14,8 +14,8 @@ const best_employer = {
       "title": "Ritmo Sustentável e Segurança Psicológica - PMO SEFAZ-RS (07/2024-09/2025)",
       "title_pt": "Ritmo Sustentável e Segurança Psicológica",
       "title_en": "Sustainable Pace and Psychological Safety",
-      "company": "PMO SEFAZ-RS",
-      "period": "07/2024-09/2025",
+      "company": "Unimed",
+      "period": "2022-2024",
       "pt": {
         "s": "Crescimento acelerado do PMO elevou carga e estresse. Sinais de burnout e turnover surgiram na equipe de 15 pessoas, comprometendo a qualidade das entregas e a moral do time.",
         "t": "Minha missão era: Criar um ambiente saudável e produtivo, com segurança psicológica e ritmo sustentável, mantendo alta performance.",
@@ -94,11 +94,11 @@ const best_employer = {
       ]
     },
     {
-      "title": "Programa de Mentoria e Desenvolvimento - Unimed/Woop (MM/AAAA-MM/AAAA)",
+      "title": "Programa de Mentoria e Desenvolvimento - Unimed (2024)",
       "title_pt": "Programa de Mentoria e Desenvolvimento",
       "title_en": "Mentoring & Development Program",
-      "company": "Unimed/Woop",
-      "period": "2019–2024",
+      "company": "Unimed",
+      "period": "2022-2024",
       "pt": {
         "s": "Equipes técnicas com baixa senioridade e pouca perspectiva de crescimento geravam alta rotatividade e dificuldade de retenção de talentos em um mercado competitivo de tecnologia.",
         "t": "Minha missão era criar um programa estruturado de desenvolvimento que acelerasse o crescimento profissional e aumentasse o engagement dos colaboradores.",
