@@ -85,6 +85,85 @@ const customer_obsession = {
           "a_en": "We created adapted versions: 'Entrepreneur Checklist' for SMEs and 'Family Checklist' for premium individuals. The framework of understanding 'who is the real decision-maker and what is their personal pain point' was replicated, generating a complete premium product line."
         }
       ]
+    },
+    {
+      "title": "Redesign de UX Baseado em Feedback Real - SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐",
+      "pt": {
+        "s": "O portal de arrecadação digital do SEFAZ-RS tinha baixa adoção (30%) e alta taxa de abandono (70%) apesar de funcionar tecnicamente. Cidadãos preferiam métodos tradicionais, gerando filas e custos operacionais altos.",
+        "t": "Minha missão era redesenhar a experiência do usuário obsessivamente focada no cidadão real, não no processo interno do governo, aumentando adoção digital e satisfação.",
+        "a": "Realizei pesquisa etnográfica: acompanhei 50+ cidadãos usando o portal, identifiquei 15 pontos de friction principais e redesenhei fluxo priorizando simplicidade sobre completude. Implementei linguagem cidadã, progress indicators visuais e validação em tempo real. Criei help contextual e fallbacks para cenários de erro.",
+        "r": "Adoção aumentou de 30% para 78%, taxa de abandono caiu para 15%, tempo médio de conclusão reduziu 60% e NPS subiu de 3.2 para 8.1. Economia operacional de R$ 400k/ano com redução de atendimento presencial. (com baseline, meta e período documentados em relatório executivo).",
+        "l": "Aprendi que obsessão pelo cliente significa entender comportamento real, não assumido. Governo precisa ser user-centric, não process-centric. Em retrospectiva, eu poderia ter envolvido mais stakeholders internos no processo de validação, e hoje sempre crio change management plan junto com UX improvements."
+      },
+      "en": {
+        "s": "SEFAZ-RS digital tax collection portal had low adoption (30%) and high abandonment rate (70%) despite working technically. Citizens preferred traditional methods, generating queues and high operational costs.",
+        "t": "My mission was to redesign user experience obsessively focused on real citizen, not internal government process, increasing digital adoption and satisfaction.",
+        "a": "I conducted ethnographic research: accompanied 50+ citizens using portal, identified 15 main friction points and redesigned flow prioritizing simplicity over completeness. I implemented citizen language, visual progress indicators and real-time validation. I created contextual help and fallbacks for error scenarios.",
+        "r": "Adoption increased from 30% to 78%, abandonment rate dropped to 15%, average completion time reduced 60% and NPS rose from 3.2 to 8.1. Operational savings of R$ 400k/year with reduced in-person service. (with baseline, target and period documented in executive report).",
+        "l": "I learned that customer obsession means understanding real behavior, not assumed. Government needs to be user-centric, not process-centric. In retrospect, I could have involved more internal stakeholders in validation process, and today I always create change management plan along with UX improvements."
+      },
+      "fups": [
+        {
+          "q": "Como você convenceu stakeholders governo a priorizar experiência do cidadão?",
+          "q_en": "How did you convince government stakeholders to prioritize citizen experience?",
+          "a": "ROI claro: cada transação digital custa R$ 0.80 vs. R$ 12.50 presencial. Mostrei que UX improvement = cost reduction + citizen satisfaction. Business case irrefutável.",
+          "a_en": "Clear ROI: each digital transaction costs R$ 0.80 vs. R$ 12.50 in-person. I showed that UX improvement = cost reduction + citizen satisfaction. Irrefutable business case."
+        },
+        {
+          "q": "Qual foi o insight mais surpreendente da pesquisa etnográfica?",
+          "q_en": "What was the most surprising insight from ethnographic research?",
+          "a": "65% dos cidadãos não entendiam jargão fiscal básico como 'DARF' ou 'código de receita'. Portal estava escrito para funcionários públicos, não para pessoas normais. Language barrier era maior que technology barrier.",
+          "a_en": "65% of citizens didn't understand basic tax jargon like 'DARF' or 'revenue code'. Portal was written for civil servants, not normal people. Language barrier was bigger than technology barrier."
+        },
+        {
+          "q": "Como você balanceou simplicidade com compliance regulatório?",
+          "q_en": "How did you balance simplicity with regulatory compliance?",
+          "a": "Progressive disclosure: mostramos só o essencial primeiro, detalhes regulatórios em expandable sections. Compliance garantido, cognitive load reduzido. Best of both worlds.",
+          "a_en": "Progressive disclosure: showed only essentials first, regulatory details in expandable sections. Compliance guaranteed, cognitive load reduced. Best of both worlds."
+        },
+        {
+          "q": "Que métricas você usou além de NPS para medir obsessão pelo cliente?",
+          "q_en": "What metrics did you use besides NPS to measure customer obsession?",
+          "a": "Task completion rate, time-on-task, error recovery rate, help-seeking behavior e repeat usage patterns. Behavior metrics mais importantes que satisfaction scores.",
+          "a_en": "Task completion rate, time-on-task, error recovery rate, help-seeking behavior and repeat usage patterns. Behavior metrics more important than satisfaction scores."
+        },
+        {
+          "q": "Como você identificou os 15 pontos de friction principais?",
+          "q_en": "How did you identify the 15 main friction points?",
+          "a": "Heatmaps, session recordings, user testing com think-aloud protocol e análise de support tickets. Combinação de quantitative data com qualitative insights.",
+          "a_en": "Heatmaps, session recordings, user testing with think-aloud protocol and support ticket analysis. Combination of quantitative data with qualitative insights."
+        },
+        {
+          "q": "Qual foi a maior resistência interna ao redesign centrado no cidadão?",
+          "q_en": "What was the biggest internal resistance to citizen-centered redesign?",
+          "a": "'Vai confundir o processo interno.' Mostrei que internal efficiency não deve vir às custas de citizen experience. Redesenhamos back-office também para suportar new front-end.",
+          "a_en": "'It will confuse internal process.' I showed that internal efficiency shouldn't come at expense of citizen experience. We redesigned back-office too to support new front-end."
+        },
+        {
+          "q": "Como você implementou 'linguagem cidadã' em contexto técnico fiscal?",
+          "q_en": "How did you implement 'citizen language' in technical tax context?",
+          "a": "Glossário contextual: termos técnicos com explicações em plain Portuguese, exemplos práticos e quando possível, substituição por linguagem natural. 'Código de receita' virou 'Tipo de imposto'.",
+          "a_en": "Contextual glossary: technical terms with plain Portuguese explanations, practical examples and when possible, replacement with natural language. 'Revenue code' became 'Tax type'."
+        },
+        {
+          "q": "Que feedback mais impactante você recebeu dos cidadãos após redesign?",
+          "q_en": "What most impactful feedback did you receive from citizens after redesign?",
+          "a": "'Primeira vez que consegui fazer isso sozinho sem ajuda.' Independência digital é empowerment. Citizen-centric design cria autonomia, não dependência.",
+          "a_en": "'First time I could do this alone without help.' Digital independence is empowerment. Citizen-centric design creates autonomy, not dependency."
+        },
+        {
+          "q": "Como você garantiu sustentabilidade das melhorias de UX?",
+          "q_en": "How did you ensure sustainability of UX improvements?",
+          "a": "Design system documentado, user testing regular schedule e UX guidelines para future developments. Embedded UX thinking em culture, não just in project.",
+          "a_en": "Documented design system, regular user testing schedule and UX guidelines for future developments. Embedded UX thinking in culture, not just in project."
+        },
+        {
+          "q": "Se tivesse que melhorar experiência cidadão hoje, o que faria diferente?",
+          "q_en": "If you had to improve citizen experience today, what would you do differently?",
+          "a": "Mais co-creation com cidadãos desde o início, accessibility-first design e mobile-first approach. Voice of customer desde conception, não só validation.",
+          "a_en": "More co-creation with citizens from start, accessibility-first design and mobile-first approach. Voice of customer from conception, not just validation."
+        }
+      ]
     }
   ]
 };
