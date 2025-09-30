@@ -310,7 +310,8 @@ export default function App() {
                     {(principlesData || [])
                       .flatMap((p) =>
                         (p.cases || []).flatMap((c) =>
-                          (c.fup || [])
+                          // Normalizar FUPs (suporta tanto 'fup' quanto 'fups')
+                          (c.fup || c.fups || [])
                             .filter((f) => {
                               const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
                               return norm(qTxt).includes(norm(questionSearch));
@@ -352,7 +353,7 @@ export default function App() {
                         </div>
                       ))}
                     {(principlesData || [])
-                      .flatMap((p) => (p.cases || []).flatMap((c) => c.fup || []))
+                      .flatMap((p) => (p.cases || []).flatMap((c) => c.fup || c.fups || []))
                       .filter((f) => {
                         const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
                         return norm(qTxt).includes(norm(questionSearch));
@@ -550,21 +551,27 @@ export default function App() {
 
                           <div className="space-y-3">
                             <h4 className="text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 mb-3">❓ Follow-up Questions</h4>
-                            {c.fup && c.fup.length > 0 && (
-                              <ul className="list-disc pl-5 space-y-2">
-                                {c.fup.map((f, fIdx) => {
-                                  const fupId = `fup-${slugify(c.title)}-${fIdx}`;
-                                  const question = language === "en" ? (f.q_en || f.q) : f.q;
-                                  const answer = language === "en" ? (f.a_en || f.a) : f.a;
-                                  return (
-                                    <li key={`${slugify(c.title)}-${fIdx}`} id={fupId} className="flex flex-col gap-1">
-                                      <div className="font-medium">{question}</div>
-                                      {answer && <div className="text-slate-600 whitespace-pre-line">{answer}</div>}
-                                    </li>
-                                  );
-                                })}
-                              </ul>
-                            )}
+                            {(() => {
+                              // Normalizar FUPs (suporta tanto 'fup' quanto 'fups')
+                              const fups = c.fup || c.fups || [];
+                              return fups.length > 0 ? (
+                                <ul className="list-disc pl-5 space-y-2">
+                                  {fups.map((f, fIdx) => {
+                                    const fupId = `fup-${slugify(c.title)}-${fIdx}`;
+                                    const question = language === "en" ? (f.q_en || f.q) : f.q;
+                                    const answer = language === "en" ? (f.a_en || f.a) : f.a;
+                                    return (
+                                      <li key={`${slugify(c.title)}-${fIdx}`} id={fupId} className="flex flex-col gap-1">
+                                        <div className="font-medium">{question}</div>
+                                        {answer && <div className="text-slate-600 whitespace-pre-line">{answer}</div>}
+                                      </li>
+                                    );
+                                  })}
+                                </ul>
+                              ) : (
+                                <div className="text-slate-500 italic">Nenhuma pergunta disponível.</div>
+                              );
+                            })()}
                           </div>
                         </div>
                       )}
