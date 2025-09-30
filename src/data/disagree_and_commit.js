@@ -11,6 +11,10 @@ const disagree_and_commit = {
   cases: [
     {
       "title": "ADR e Decisão de Arquitetura Híbrida - Banco Next (MM/AAAA-MM/AAAA) ⭐",
+      "title_pt": "ADR e Decisão de Arquitetura Híbrida - Banco Next (MM/AAAA-MM/AAAA) ⭐",
+      "title_en": "ADR e Decisão de Arquitetura Híbrida - Banco Next (MM/AAAA-MM/AAAA) ⭐ (EN)",
+      "company": "Banco Next",
+      "period": "08/2016–12/2017",
       "pt": {
         "s": "No desenho da arquitetura do Banco Digital Next, times de segurança defendiam on-premise total; times de produto, nuvem total. A polarização travou decisões críticas por 3 semanas com deadline regulatório se aproximando.",
         "t": "Minha missão era conduzir a decisão técnica com base em fatos, discordar frontalmente quando necessário e, após a decisão, unir todos sob um único compromisso de execução, independente de preferências pessoais.",
@@ -90,6 +94,10 @@ const disagree_and_commit = {
     },
     {
       "title": "Pivot de Produto vs. Persistência - Woop/Unimed (MM/AAAA-MM/AAAA)",
+      "title_pt": "Pivot de Produto vs. Persistência",
+      "title_en": "Product Pivot vs. Persistence Decision",
+      "company": "Woop/Unimed",
+      "period": "06/2019–12/2021",
       "pt": {
         "s": "A Woop/Unimed estava investindo R$ 2M+ em feature de telemedicina que não estava ganhando tração após 4 meses. A diretoria queria continuar investindo; dados mostravam baixa adoção (8% vs. 25% esperado).",
         "t": "Minha missão era analisar objetivamente se deveríamos perseverar ou pivotar, discordar da continuidade se necessário e, independente da decisão final, executar com total compromisso.",

@@ -238,36 +238,50 @@ export default function App() {
     setSelectedPrinciple(principleId);
   };
 
-  // ---------- Case Title (com tradução + company + period via meta_overrides) ----------
+  // ---------- Case Title (nova lógica simplificada) ----------
   function getCaseBaseTitle(c, lang) {
-    const slug = slugify(c.title);
-    const ov = metaOverrides[slug] || {};
-
+    // Primeiro tenta usar títulos específicos do caso
     if (lang === "en") {
-      return (
-        ov.title_en ||
-        c.title_en ||
-        (c.en && c.en.title) ||
-        ov.title_pt ||
-        c.title_pt ||
-        c.title
-      );
+      return c.title_en || c.title_pt || extractBaseTitle(c.title);
     }
     // PT
-    return ov.title_pt || c.title_pt || (c.pt && c.pt.title) || c.title;
+    return c.title_pt || extractBaseTitle(c.title);
   }
-  const displayCaseTitle = (c) => {
-    const slug = slugify(c.title);
-    const ov = metaOverrides[slug] || {};
-    const base = getCaseBaseTitle(c, language) || "";
+  
+  function extractBaseTitle(originalTitle) {
+    // Remove company e period do título original, mantendo só a parte principal
+    return originalTitle
+      .replace(/\s*-\s*[^(]+\s*\([^)]*\)\s*$/, '') // Remove " - Company (MM/AAAA-MM/AAAA)"
+      .replace(/\s*\([^)]*\)\s*$/, '') // Remove qualquer "(...)" no final
+      .trim();
+  }
 
-    const company = ov.company ?? c.company;
-    const period = ov.period ?? c.period;
+  const displayCaseTitle = (c) => {
+    const base = getCaseBaseTitle(c, language);
+    
+    // Usar company e period do próprio caso ou fallback
+    const company = c.company || extractCompany(c.title);
+    const period = c.period || extractPeriod(c.title);
 
     const comp = company ? ` – ${company}` : "";
     const per = period ? ` (${period})` : "";
     return `${base}${comp}${per}`;
   };
+  
+  function extractCompany(originalTitle) {
+    // Extrai empresa do formato "... - Empresa (MM/AAAA...)"
+    const match = originalTitle.match(/-\s*([^(]+)\s*\(/);
+    return match ? match[1].trim() : "";
+  }
+  
+  function extractPeriod(originalTitle) {
+    // Se contém MM/AAAA, substitui por período genérico, senão extrai o período real
+    if (originalTitle.includes("MM/AAAA")) {
+      return "2019–2024"; // Período genérico para casos sem data específica
+    }
+    const match = originalTitle.match(/\(([^)]+)\)/);
+    return match ? match[1].trim() : "";
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">

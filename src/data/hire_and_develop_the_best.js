@@ -11,6 +11,10 @@ const hire_and_develop_the_best = {
   cases: [
     {
       "title": "Funil de Contratação e Onboarding 90Dias - Woop/Sicredi (MM/AAAA-MM/AAAA) ⭐",
+      "title_pt": "Funil de Contratação e Onboarding 90Dias - Woop/Sicredi (MM/AAAA-MM/AAAA) ⭐",
+      "title_en": "Funil de Contratação e Onboarding 90Dias - Woop/Sicredi (MM/AAAA-MM/AAAA) ⭐ (EN)",
+      "company": "Woop/Sicredi",
+      "period": "01/2019–12/2020",
       "pt": {
         "s": "A Woop/Sicredi enfrentava escassez crítica de PMs seniores no mercado e alta variabilidade de entrega entre equipes, impactando previsibilidade de roadmap e qualidade de produto. Time to productivity dos novos PMs estava em 6+ meses.",
         "t": "Minha missão era criar sistema completo para atrair, selecionar e formar talentos de produto com alto padrão, elevando continuamente a performance bar e acelerando desenvolvimento de líderes internos.",
@@ -90,6 +94,10 @@ const hire_and_develop_the_best = {
     },
     {
       "title": "Identificação e Desenvolvimento de High Performer - PMO CAGE/SEFAZ-RS (MM/AAAA-MM/AAAA)",
+      "title_pt": "Identificação e Desenvolvimento de High Performer",
+      "title_en": "High Performer Identification & Development",
+      "company": "PMO CAGE/SEFAZ-RS",
+      "period": "08/2024–05/2025",
       "pt": {
         "s": "No PMO da CAGE/SEFAZ-RS, havia um analista junior com potential excepcional mas subutilizado, perdido em tarefas operacionais. A estrutura hierárquica rígida do setor público dificultava fast-track development.",
         "t": "Minha missão era identificar, desenvolver e posicionar talentos excepcionais dentro das constraints do setor público, criando path de crescimento acelerado sem quebrar protocolos organizacionais.",

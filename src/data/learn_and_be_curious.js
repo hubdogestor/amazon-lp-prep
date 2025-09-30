@@ -11,6 +11,10 @@ const learn_and_be_curious = {
   cases: [
     {
       "title": "Cultura de Aprendizagem Contínua no PMO - CAGE/SEFAZ-RS (07/2024-09/2025)",
+      "title_pt": "Cultura de Aprendizagem Contínua no PMO",
+      "title_en": "Cultura de Aprendizagem Contínua no PMO (EN)",
+      "company": "CAGE/SEFAZ-RS",
+      "period": "2019–2024",
       "pt": {
         "s": "No PMO da CAGE/SEFAZ-RS, equipes multidisciplinares executavam projetos estratégicos sem um mecanismo formal e contínuo de aprendizagem. As retrospectivas aconteciam de forma ad hoc e o conhecimento produzido se perdia entre planilhas e e-mails, impactando prazos, qualidade e reuso de soluções.",
         "t": "Minha missão era: Criar um sistema de aprendizagem contínua que conectasse discovery, delivery e operação (BAU), institucionalizando práticas de melhoria contínua, acervo de lições aprendidas e reuso de padrões.",
@@ -90,6 +94,10 @@ const learn_and_be_curious = {
     },
     {
       "title": "Implementação de IA e Automação para Otimizar Processos - SEFAZ-RS (07/2024-09/2025)",
+      "title_pt": "Implementação de IA e Automação para Otimizar Processos",
+      "title_en": "Implementação de IA e Automação para Otimizar Processos (EN)",
+      "company": "SEFAZ-RS",
+      "period": "08/2024–12/2024",
       "pt": {
         "s": "No Programa Zero da SEFAZ-RS, processos manuais de verificação e validação consumiam 60% do tempo da equipe técnica, gerando gargalos e reduzindo o foco em atividades de maior valor agregado.",
         "t": "Minha missão era explorar e implementar soluções de IA e automação para otimizar processos repetitivos, liberando a equipe para focar em inovação e resolução de problemas complexos.",

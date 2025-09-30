@@ -11,6 +11,10 @@ const deliver_results = {
   cases: [
     {
       "title": "Virada de Obra: Rollout 4G e Copa 2014 - Huawei (MM/AAAA-MM/AAAA)",
+      "title_pt": "Virada de Obra: Rollout 4G e Copa 2014",
+      "title_en": "Turnaround: 4G Rollout & World Cup 2014",
+      "company": "Huawei",
+      "period": "09/2013–07/2014",
       "pt": {
         "s": "O programa de rollout 4G da Huawei tinha metas críticas para Copa do Mundo 2014 com multas contratuais pesadas por atraso. O projeto estava 4 semanas atrasado com risco de não entregar cobertura nas cidades-sede.",
         "t": "Minha missão era virar um projeto atrasado em trajetória de recuperação e garantir entrega dos marcos da Copa 2014, mantendo qualidade da rede e evitando penalidades contratuais de R$ 2M+ por semana de atraso.",
@@ -90,6 +94,10 @@ const deliver_results = {
     },
     {
       "title": "Entrega de Platform Migration em 6 semanas - Woop/Unimed (MM/AAAA-MM/AAAA) ⭐",
+      "title_pt": "Entrega de Platform Migration em 6 semanas - Woop/Unimed (MM/AAAA-MM/AAAA) ⭐",
+      "title_en": "Entrega de Platform Migration em 6 semanas - Woop/Unimed (MM/AAAA-MM/AAAA) ⭐ (EN)",
+      "company": "Woop/Unimed",
+      "period": "06/2019–12/2021",
       "pt": {
         "s": "A Woop/Unimed precisava migrar toda sua plataforma de saúde digital para nova arquitetura em 6 semanas devido ao fim do contrato do provider atual. 300k+ usuários ativos não podiam ter interrupção de serviço em sistema crítico de saúde.",
         "t": "Minha missão era entregar migração completa de platform sem downtime, mantendo todos os dados de pacientes íntegros, funcionalidades preservadas e experiência do usuário sem degradação em prazo non-negotiable.",

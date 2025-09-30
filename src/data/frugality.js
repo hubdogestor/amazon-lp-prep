@@ -11,6 +11,10 @@ const frugality = {
   cases: [
     {
       "title": "Racionalização de Stack de Relatórios e Licenças - SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐",
+      "title_pt": "Racionalização de Stack de Relatórios e Licenças - SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐",
+      "title_en": "Racionalização de Stack de Relatórios e Licenças - SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐ (EN)",
+      "company": "SEFAZ-RS",
+      "period": "08/2024–12/2024",
       "pt": {
         "s": "No SEFAZ-RS, os custos de licenças e infraestrutura de relatórios cresciam descontroladamente: R$ 800k/ano em ferramentas sobrepostas, 12 soluções diferentes fazendo funções similares e baixa utilização (30% das licenças ociosas).",
         "t": "Minha missão era reduzir o gasto anual recorrente em pelo menos 20% sem perder capacidade analítica e governança, otimizando stack tecnológico através de inventividade e consolidação inteligente.",
@@ -90,6 +94,10 @@ const frugality = {
     },
     {
       "title": "MVP com Zero Budget: Portal do Empreendedor - Woop/Unimed (MM/AAAA-MM/AAAA)",
+      "title_pt": "MVP com Zero Budget: Portal do Empreendedor",
+      "title_en": "Zero Budget MVP: Entrepreneur Portal",
+      "company": "Woop/Unimed",
+      "period": "06/2019–12/2021",
       "pt": {
         "s": "A Woop/Unimed queria lançar portal para empreendedores da saúde, mas budget estava congelado. Marketing pressionava por launch em 2 meses para aproveitar timing de evento da categoria.",
         "t": "Minha missão era entregar MVP funcional do portal sem orçamento adicional, usando recursos internos existentes e criatividade para substituir soluções caras por alternativas resourceful.",

@@ -11,6 +11,10 @@ const dive_deep = {
   cases: [
     {
       "title": "Timeouts Ocultos em Verificação Externa - SEFAZ-RS (MM/AAAA-MM/AAAA)",
+      "title_pt": "Timeouts Ocultos em Verificação Externa",
+      "title_en": "Hidden Timeouts in External Verification",
+      "company": "SEFAZ-RS",
+      "period": "08/2024–12/2024",
       "pt": {
         "s": "Um projeto de arrecadação digital apresentava queda inexplicável de conversão em uma etapa específica, sem causa aparente nos relatórios executivos. Dashboard mostrava 'tudo normal' mas resultados estavam 15% abaixo do esperado.",
         "t": "Minha missão era descobrir a causa raiz real através de análise profunda dos dados e recuperar a conversão sem aumentar custo de aquisição, mesmo que isso significasse ir além dos relatórios superficiais.",
@@ -90,6 +94,10 @@ const dive_deep = {
     },
     {
       "title": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop/Unimed (MM/AAAA-MM/AAAA) ⭐",
+      "title_pt": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop/Unimed (MM/AAAA-MM/AAAA) ⭐",
+      "title_en": "Root Cause Analysis: Falha de Pagamento Silenciosa - Woop/Unimed (MM/AAAA-MM/AAAA) ⭐ (EN)",
+      "company": "Woop/Unimed",
+      "period": "06/2019–12/2021",
       "pt": {
         "s": "Sistema de pagamentos da Woop/Unimed reportava 99.2% de success rate, mas revenue real estava 8% abaixo do esperado. Finance detectou discrepância mas engineering insistia que 'sistema estava funcionando perfeitamente'.",
         "t": "Minha missão era mergulhar fundo na arquitetura de pagamentos, questionar todas as métricas reportadas e descobrir onde estava o vazamento de revenue, mesmo que isso contradissesse relatórios técnicos oficiais.",

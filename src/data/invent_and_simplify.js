@@ -11,6 +11,10 @@ const invent_and_simplify_data = {
   cases: [
     {
       "title": "Redução Drástica de SLA com Novo Modelo de Processo - Huawei (MM/AAAA-MM/AAAA)",
+      "title_pt": "Redução Drástica de SLA com Novo Modelo de Processo",
+      "title_en": "Redução Drástica de SLA com Novo Modelo de Processo (EN)",
+      "company": "Huawei",
+      "period": "09/2013–07/2014",
       "pt": {
         "s": "Na Huawei, o ciclo médio de entrega de uma estação de telecom era de 382 dias. Esse processo longo e complexo estava comprometendo contratos e colocando em risco metas críticas, como a infraestrutura para a Copa do Mundo de 2014.",
         "t": "Minha tarefa era reinventar radicalmente o processo de rollout. Eu precisava criar uma solução inovadora que simplificasse a complexidade e entregasse uma redução de SLA de mais de 80%.",
@@ -90,6 +94,10 @@ const invent_and_simplify_data = {
     },
     {
       "title": "Lançamento de Novos Produtos Digitais para Diversificar Receita - Unimed (MM/AAAA-MM/AAAA)",
+      "title_pt": "Lançamento de Novos Produtos Digitais para Diversificar Receita",
+      "title_en": "Lançamento de Novos Produtos Digitais para Diversificar Receita (EN)",
+      "company": "Unimed",
+      "period": "06/2021–05/2024",
       "pt": {
         "s": "A Unimed, uma cooperativa de saúde tradicional, era excessivamente dependente da receita de planos de saúde convencionais e precisava inovar para criar novas fontes de receita.",
         "t": "Minha tarefa era inventar e lançar um portfólio de novos produtos, digitais e físicos, que fossem além do plano de saúde tradicional, simplificando o acesso a novos serviços.",

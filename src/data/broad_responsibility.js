@@ -11,6 +11,10 @@ const broad_responsibility = {
   cases: [
     {
       "title": "Governança de Dados Responsável em Escala - Woop/Unimed (MM/AAAA-MM/AAAA)",
+      "title_pt": "Governança de Dados Responsável em Escala",
+      "title_en": "Responsible Data Governance at Scale",
+      "company": "Woop/Unimed",
+      "period": "06/2019–12/2021",
       "pt": {
         "s": "Com a expansão digital da Woop/Unimed, o volume de dados de pacientes cresceu exponencialmente e aumentou nossa responsabilidade sobre privacidade e uso ético de dados. Tínhamos 300k+ registros médicos sensíveis sem governança adequada para LGPD.",
         "t": "Minha missão era estabelecer governança de dados responsável sem bloquear inovação da equipe de produto, garantindo compliance com LGPD e criando cultura de responsabilidade sobre dados sensíveis na organização.",
@@ -90,6 +94,10 @@ const broad_responsibility = {
     },
     {
       "title": "Sustentabilidade e Responsabilidade Social - PMO CAGE/SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐",
+      "title_pt": "Sustentabilidade e Responsabilidade Social - PMO CAGE/SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐",
+      "title_en": "Sustentabilidade e Responsabilidade Social - PMO CAGE/SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐ (EN)",
+      "company": "PMO CAGE/SEFAZ-RS",
+      "period": "08/2024–05/2025",
       "pt": {
         "s": "O PMO da CAGE/SEFAZ-RS precisava modernizar processos públicos, mas com responsabilidade sobre uso de recursos públicos e impacto social. Havia pressão por efficiency vs. accountability em projetos que afetavam 11 milhões de gaúchos.",
         "t": "Minha missão era liderar transformação digital responsável, otimizando recursos públicos, garantindo transparência e criando valor para cidadãos, não apenas para indicadores internos de produtividade.",

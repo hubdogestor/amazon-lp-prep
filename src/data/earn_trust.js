@@ -11,6 +11,10 @@ const earn_trust = {
   cases: [
     {
       "title": "Status com Critérios Objetivos e Histórico - SEFAZ-RS (07/2024-09/2025)",
+      "title_pt": "Status com Critérios Objetivos e Histórico",
+      "title_en": "Status com Critérios Objetivos e Histórico (EN)",
+      "company": "SEFAZ-RS",
+      "period": "08/2024–12/2024",
       "pt": {
         "s": "Ao assumir o PMO na SEFAZ-RS, havia baixa confiança dos sponsors nos prazos; status verdes viravam amarelo/vermelho de uma semana para outra.",
         "t": "Minha missão era: Restabelecer confiança com transparência, previsibilidade e linguagem única de status.",
@@ -90,6 +94,10 @@ const earn_trust = {
     },
     {
       "title": "Timeouts Ocultos em Verificação Externa - SEFAZ-RS (07/2024-09/2025)",
+      "title_pt": "Timeouts Ocultos em Verificação Externa",
+      "title_en": "Hidden Timeouts in External Verification",
+      "company": "SEFAZ-RS",
+      "period": "08/2024–12/2024",
       "pt": {
         "s": "No projeto do Programa Zero na SEFAZ-RS, descobri que havia timeouts silenciosos nas verificações com Receita Federal que causavam inconsistências de dados, mas ninguém sabia porque os logs não mostravam os erros reais.",
         "t": "Minha missão era identificar e resolver a causa raiz das falhas de sincronização, restaurando a confiança da equipe técnica no processo de verificação externa.",

@@ -11,6 +11,10 @@ const bias_for_action = {
   cases: [
     {
       "title": "Dashboard Executivo em 10 dias - PMO CAGE/SEFAZ-RS (MM/AAAA-MM/AAAA)",
+      "title_pt": "Dashboard Executivo em 10 dias",
+      "title_en": "Executive Dashboard in 10 Days",
+      "company": "PMO CAGE/SEFAZ-RS",
+      "period": "08/2024–05/2025",
       "pt": {
         "s": "No lançamento do portal do PMO da CAGE, a Diretiva precisava visualizar em poucos dias o status do portfólio para uma reunião com o Secretário. As fontes de dados estavam dispersas (planilhas, e-mails, Project, PSA) e não havia um dashboard executivo consolidado.",
         "t": "Minha missão era: Entregar um MVP funcional do painel executivo em 10 dias, ainda que com escopo reduzido, para suportar a decisão estratégica e padronizar o rito mensal de acompanhamento.",
@@ -90,6 +94,10 @@ const bias_for_action = {
     },
     {
       "title": "Implementação Emergencial de Home Office - Unimed/Woop (MM/AAAA-MM/AAAA) ⭐",
+      "title_pt": "Implementação Emergencial de Home Office - Unimed/Woop (MM/AAAA-MM/AAAA) ⭐",
+      "title_en": "Implementação Emergencial de Home Office - Unimed/Woop (MM/AAAA-MM/AAAA) ⭐ (EN)",
+      "company": "Unimed/Woop",
+      "period": "2019–2024",
       "pt": {
         "s": "Em março de 2020, com o início da pandemia, a Unimed/Woop precisava implementar home office para 300+ colaboradores em 48h. A infraestrutura tradicional não suportava trabalho remoto em larga escala e havia riscos de continuidade de negócio.",
         "t": "Minha missão era garantir que toda a operação continuasse funcionando remotamente sem perda de produtividade ou segurança, implementando soluções tecnológicas e processos de trabalho distribuído em tempo recorde.",

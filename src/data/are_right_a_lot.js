@@ -11,6 +11,10 @@ const are_right_a_lot_data = {
   cases: [
     {
       "title": "Estruturação da Cultura de Produto Baseada em Dados - Sicredi (MM/AAAA-MM/AAAA)",
+      "title_pt": "Estruturação da Cultura de Produto Baseada em Dados",
+      "title_en": "Data-Driven Product Culture Implementation",
+      "company": "Sicredi",
+      "period": "06/2019–03/2021",
       "pt": {
         "s": "No Sicredi, a cultura de desenvolvimento de produtos digitais era imatura, com decisões baseadas em intuição. Não havia uma análise profunda das necessidades dos cooperados ou do impacto no negócio.",
         "t": "Minha tarefa era implementar uma cultura de gestão de produto orientada por dados, garantindo que estivéssemos construindo os produtos certos. Minha credibilidade dependia de minhas decisões se provarem corretas.",
@@ -90,6 +94,10 @@ const are_right_a_lot_data = {
     },
     {
       "title": "Decisão de Arquitetura Bancária Next vs. Bradesco - Bradesco (MM/AAAA-MM/AAAA) ⭐",
+      "title_pt": "Decisão de Arquitetura Bancária Next vs. Bradesco - Bradesco (MM/AAAA-MM/AAAA) ⭐",
+      "title_en": "Decisão de Arquitetura Bancária Next vs. Bradesco - Bradesco (MM/AAAA-MM/AAAA) ⭐ (EN)",
+      "company": "Bradesco",
+      "period": "08/2016–12/2017",
       "pt": {
         "s": "O Bradesco precisava lançar o Banco Digital Next para competir com fintechs, mas havia um dilema arquitetural: usar a infraestrutura robusta (mas lenta) do Bradesco ou criar uma arquitetura completamente nova (rápida, mas arriscada).",
         "t": "Minha responsabilidade era tomar a decisão arquitetural correta que equilibrasse agilidade, segurança e compliance. Uma decisão errada poderia comprometer todo o projeto de R$ 2 bilhões.",
