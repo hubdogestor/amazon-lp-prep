@@ -10,6 +10,7 @@ const deliver_results = {
   },
   cases: [
     {
+      "id": "virada-de-obra-rollout-4g-e-copa-2014",
       "title": "Virada de Obra: Rollout 4G e Copa 2014 - Huawei (MM/AAAA-MM/AAAA)",
       "title_pt": "Virada de Obra: Rollout 4G e Copa 2014",
       "title_en": "Turnaround: 4G Rollout & World Cup 2014",

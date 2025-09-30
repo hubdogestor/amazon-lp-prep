@@ -10,6 +10,7 @@ const think_big = {
   },
   cases: [
     {
+      "id": "tese-de-crescimento-e-portfolio-multiproduto",
       "title": "Tese de Crescimento e Portfólio Multi‑produto - Unimed (MM/AAAA-MM/AAAA)",
       "title_pt": "Tese de Crescimento e Portfólio Multi‑produto",
       "title_en": "Growth Thesis & Multi-Product Portfolio",

@@ -10,6 +10,7 @@ const earn_trust = {
   },
   cases: [
     {
+      "id": "status-com-criterios-objetivos-e-historico",
       "title": "Status com Critérios Objetivos e Histórico - SEFAZ-RS (07/2024-09/2025)",
       "title_pt": "Status com Critérios Objetivos e Histórico",
       "title_en": "Status com Critérios Objetivos e Histórico (EN)",

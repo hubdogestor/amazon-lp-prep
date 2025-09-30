@@ -10,6 +10,7 @@ const frugality = {
   },
   cases: [
     {
+      "id": "racionalizacao-de-stack-de-relatorios-e-licencas",
       "title": "Racionalização de Stack de Relatórios e Licenças - SEFAZ-RS (08/2024–12/2024)",
       "title_pt": "Racionalização de Stack de Relatórios e Licenças",
       "title_en": "Reports and Licenses Stack Rationalization",

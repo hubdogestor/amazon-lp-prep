@@ -1,15 +1,15 @@
 // TOP CASES CONFIGURATION
-// Define quais casos devem receber o ícone de estrela ⭐
+// Define quais casos devem receber o ícone de alvo 🎯
 
 export const topCasesConfig = {
   // IDs dos casos que são considerados "top cases"
   topCaseIds: [
-    'ownership-migracao-critica-dados-compliance-hsbc-bradesco',
-    'invent-and-simplify-reducao-drastica-sla-huawei', 
-    'customer-obsession-checklist-executivo-b2b-unimed',
-    'hire-and-develop-estruturacao-pmo-zero-sefaz-rs',
-    'best-employer-reducao-churn-onboarding-woop-sicredi',
-    'disagree-and-commit-decisao-arquitetura-bancaria-bradesco'
+    'migracao-critica-de-dados-e-compliance',
+    'reducao-drastica-de-sla-com-novo-modelo-de-process', 
+    'criacao-checklist-executivo-clientes-b2b',
+    'estruturacao-pmo-zero-sefaz-rs',
+    'reducao-churn-onboarding-banco-digital',
+    'decisao-de-arquitetura-bancaria-next-vs-bra'
   ],
 
   // Função para verificar se um caso é top case

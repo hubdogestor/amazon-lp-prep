@@ -10,6 +10,7 @@ const bias_for_action = {
   },
   cases: [
     {
+      "id": "dashboard-executivo-em-10-dias",
       "title": "Dashboard Executivo em 10 dias - PMO CAGE/SEFAZ-RS (MM/AAAA-MM/AAAA)",
       "title_pt": "Dashboard Executivo em 10 dias",
       "title_en": "Executive Dashboard in 10 Days",

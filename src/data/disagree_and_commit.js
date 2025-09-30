@@ -10,7 +10,7 @@ const disagree_and_commit = {
   },
   cases: [
     {
-      "id": "decisao-arquitetura-bancaria-next-vs-bradesco",
+      "id": "decisao-de-arquitetura-bancaria-next-vs-bra",
       "title": "Decisão de Arquitetura Bancária Next vs. Bra - Bradesco (08/2016–12/2017)",
       "title_pt": "Decisão de Arquitetura Bancária Next vs. Bra",
       "title_en": "Banking Architecture Decision Next vs. Bra",

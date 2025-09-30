@@ -10,6 +10,7 @@ const ownership_data = {
   },
   cases: [
     {
+      "id": "migracao-critica-de-dados-e-compliance",
       "title": "Migração Crítica de Dados e Compliance - HSBC → Bradesco (11/2015-09/2016)",
       "title_pt": "Migração Crítica de Dados e Compliance",
       "title_en": "Critical Data Migration and Compliance",

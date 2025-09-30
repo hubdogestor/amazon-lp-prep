@@ -10,6 +10,7 @@ const invent_and_simplify_data = {
   },
   cases: [
     {
+      "id": "reducao-drastica-de-sla-com-novo-modelo-de-process",
       "title": "Redução Drástica de SLA com Novo Modelo de Processo - Huawei (MM/AAAA-MM/AAAA)",
       "title_pt": "Redução Drástica de SLA com Novo Modelo de Processo",
       "title_en": "Drastic SLA Reduction with New Process Model",

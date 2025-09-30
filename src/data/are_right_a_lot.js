@@ -10,6 +10,7 @@ const are_right_a_lot_data = {
   },
   cases: [
     {
+      "id": "estruturacao-da-cultura-de-produto-baseada-em-dado",
       "title": "Estruturação da Cultura de Produto Baseada em Dados - Sicredi (MM/AAAA-MM/AAAA)",
       "title_pt": "Estruturação da Cultura de Produto Baseada em Dados",
       "title_en": "Data-Driven Product Culture Implementation",

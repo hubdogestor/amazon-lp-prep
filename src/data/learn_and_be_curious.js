@@ -10,6 +10,7 @@ const learn_and_be_curious = {
   },
   cases: [
     {
+      "id": "cultura-de-aprendizagem-continua-no-pmo",
       "title": "Cultura de Aprendizagem Contínua no PMO - CAGE/SEFAZ-RS (07/2024-09/2025)",
       "title_pt": "Cultura de Aprendizagem Contínua no PMO",
       "title_en": "Cultura de Aprendizagem Contínua no PMO (EN)",

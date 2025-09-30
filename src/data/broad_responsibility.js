@@ -10,7 +10,7 @@ const broad_responsibility = {
   },
   cases: [
     {
-      "id": "governanca-dados-responsavel-escala",
+      "id": "governanca-de-dados-responsavel-em-escala",
       "title": "Governança de Dados Responsável em Escala - Unimed (06/2019–12/2021)",
       "title_pt": "Governança de Dados Responsável em Escala",
       "title_en": "Responsible Data Governance at Scale",

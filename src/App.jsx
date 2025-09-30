@@ -95,17 +95,15 @@ const sortPrinciples = (arr, lang) => {
 };
 
 // ---------- Top cases ----------
-const TOP_CASES = new Set([
-  "Migração Crítica de Dados e Compliance (HSBC  Bradesco)",
-  "Virada de Obra: Rollout 4G e Copa 2014 (Huawei)",
-  "Criação do \"Checklist Executivo\" para Clientes B2B (Unimed)",
-  "Estruturação do PMO do Zero na Secretaria da Fazenda (SEFAZ-RS)",
-  "Fast Track de Aprovação no Onboarding (Woop Sicredi)",
-  "ADR e Decisão de Arquitetura Híbrida (Next)",
-  "Tese de Crescimento e Portfólio Multi-produto (Unimed)",
-  "Criação da Plataforma Digital Zero-to-One de Empréstimos (Nubank)",
+const TOP_CASE_IDS = new Set([
+  'migracao-critica-de-dados-e-compliance',
+  'reducao-drastica-de-sla-com-novo-modelo-de-process', 
+  'criacao-checklist-executivo-clientes-b2b',
+  'estruturacao-pmo-zero-sefaz-rs',
+  'reducao-churn-onboarding-banco-digital',
+  'decisao-de-arquitetura-bancaria-next-vs-bra'
 ]);
-const isTopCase = (c) => !!(c && (c.isTop || TOP_CASES.has(c.title || "")));
+const isTopCase = (c) => !!(c && (c.isTopCase || TOP_CASE_IDS.has(c.id || "")));
 
 // ---------- i18n ----------
 const TEXTS = {
@@ -266,10 +264,10 @@ export default function App() {
     const comp = company ? ` – ${company}` : "";
     const per = period ? ` (${period})` : "";
     
-    // Adiciona estrela se for top case
-    const star = c.isTopCase ? " ⭐" : "";
+    // Adiciona ícone de alvo se for top case
+    const target = c.isTopCase ? " 🎯" : "";
     
-    return `${base}${comp}${per}${star}`;
+    return `${base}${comp}${per}${target}`;
   };
   
   function extractCompany(originalTitle) {
@@ -406,7 +404,7 @@ export default function App() {
                 }}
                 title="Mostrar apenas Top Cases"
               >
-                ⭐ {t.topCases}
+                🎯 {t.topCases}
               </button>
             </div>
 

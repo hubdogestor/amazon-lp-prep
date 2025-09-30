@@ -10,6 +10,7 @@ const hire_and_develop_the_best = {
   },
   cases: [
     {
+      "id": "funil-de-contratacao-e-onboarding-90dias",
       "title": "Funil de Contratação e Onboarding 90Dias - Woop Sicredi (01/2019–12/2020)",
       "title_pt": "Funil de Contratação e Onboarding 90Dias",
       "title_en": "Hiring Funnel and 90-Day Onboarding",

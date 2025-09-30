@@ -10,6 +10,7 @@ const dive_deep = {
   },
   cases: [
     {
+      "id": "timeouts-ocultos-em-verificacao-externa",
       "title": "Timeouts Ocultos em Verificação Externa - SEFAZ-RS (MM/AAAA-MM/AAAA)",
       "title_pt": "Timeouts Ocultos em Verificação Externa",
       "title_en": "Hidden Timeouts in External Verification",

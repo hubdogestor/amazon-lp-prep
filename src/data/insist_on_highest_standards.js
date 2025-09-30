@@ -10,6 +10,7 @@ const insist_on_highest_standards = {
   },
   cases: [
     {
+      "id": "quality-gates-e-doddor-em-squads",
       "title": "Quality Gates e DoD/DoR em Squads - Woop/Sicredi (MM/AAAA-MM/AAAA)",
       "title_pt": "Quality Gates e DoD/DoR em Squads",
       "title_en": "Quality Gates and DoD/DoR in Squads",
