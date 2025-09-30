@@ -1,4 +1,6 @@
 const customer_obsession = {
+  id: "obsessao pelo cliente",
+  name: "obsessao pelo cliente",
   principle: {
     title: "Obsessão pelo Cliente",
     title_en: "Customer Obsession",
