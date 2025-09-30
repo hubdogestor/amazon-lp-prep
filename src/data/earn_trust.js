@@ -1,22 +1,22 @@
 const earn_trust = {
   principle: {
-    title: "Ganhar a confiança",
+    title: "Ganhar a confianÃ§a",
     title_en: "Earn Trust",
-    description: "Os líderes ouvem atentamente, falam com franqueza e tratam os outros respeitosamente. Eles são autocríticos, mesmo quando isso é constrangedor. Os líderes se comparam e às suas equipes com os melhores.",
+    description: "Os lÃ­deres ouvem atentamente, falam com franqueza e tratam os outros respeitosamente. Eles sÃ£o autocrÃ­ticos, mesmo quando isso Ã© constrangedor. Os lÃ­deres se comparam e Ã s suas equipes com os melhores.",
     description_en: "Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. They benchmark themselves and their teams against the best.",
     icon: ""
   },
   "id": "earn_trust",
-  "name": "Ganhar a confiança",
+  "name": "Ganhar a confianÃ§a",
   "cases": [
     {
-      "title": "Status com Critérios Objetivos e Histórico (SEFAZ-RS)",
+      "title": "Status com CritÃ©rios Objetivos e HistÃ³rico - SEFAZ-RS (07/2024-09/2025)",
       "pt": {
-        "s": "Ao assumir o PMO na SEFAZ-RS, havia baixa confiança dos sponsors nos prazos; status verdes viravam amarelo/vermelho de uma semana para outra.",
-        "t": "Minha missão era: Restabelecer confiança com transparência, previsibilidade e linguagem única de status.",
-        "a": "Implementei 'semáforos com critérios' (definição objetiva para G/A/R), 'trend arrows' e histórico. Criei revisão de premissas quinzenal e um 'risks wall' público. Instituí 'one-pagers' por projeto com compromissos datados e donos.",
-        "r": "Sponsors passaram a aceitar planos realistas; queda de 40% em surpresas de última hora; alinhamento decisório nas reuniões da Diretiva melhorou significativamente. (com baseline, meta e período documentados em relatório executivo).",
-        "l": "Aprendi que confiança nasce de previsibilidade e clareza compartilhada. Sem critérios objetivos, cor de status vira opinião. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje começo engajando-os desde o início."
+        "s": "Ao assumir o PMO na SEFAZ-RS, havia baixa confianï¿½a dos sponsors nos prazos; status verdes viravam amarelo/vermelho de uma semana para outra.",
+        "t": "Minha missï¿½o era: Restabelecer confianï¿½a com transparï¿½ncia, previsibilidade e linguagem ï¿½nica de status.",
+        "a": "Implementei 'semï¿½foros com critï¿½rios' (definiï¿½ï¿½o objetiva para G/A/R), 'trend arrows' e histï¿½rico. Criei revisï¿½o de premissas quinzenal e um 'risks wall' pï¿½blico. Instituï¿½ 'one-pagers' por projeto com compromissos datados e donos.",
+        "r": "Sponsors passaram a aceitar planos realistas; queda de 40% em surpresas de ï¿½ltima hora; alinhamento decisï¿½rio nas reuniï¿½es da Diretiva melhorou significativamente. (com baseline, meta e perï¿½odo documentados em relatï¿½rio executivo).",
+        "l": "Aprendi que confianï¿½a nasce de previsibilidade e clareza compartilhada. Sem critï¿½rios objetivos, cor de status vira opiniï¿½o. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje comeï¿½o engajando-os desde o inï¿½cio."
       },
       "en": {
         "s": "When I took over the PMO at SEFAZ-RS, sponsor trust in timelines was low; green statuses frequently turned yellow/red within a week.",
@@ -26,73 +26,73 @@ const earn_trust = {
         "l": "Trust is built on predictability and shared clarity. Without objective criteria, status colors are opinions."
       },      "fup": [
         {
-          "q": "Como definiu os critérios objetivos de G/A/R?",
-          "a": "Lead time, % concluído vs. baseline, risco acima de thresholds; documentado em uma tabela única.",
+          "q": "Como definiu os critï¿½rios objetivos de G/A/R?",
+          "a": "Lead time, % concluï¿½do vs. baseline, risco acima de thresholds; documentado em uma tabela ï¿½nica.",
           "q_en": "How did you define objective G/Y/R criteria?",
           "a_en": "Lead time, % completed vs. baseline, risk above thresholds; documented in a single table."
         },
         {
-          "q": "Como evitou o 'otimismo crônico'?",
-          "a": "Exigi premissas explícitas e data de revisão; se a premissa não se confirmou, o semáforo mudava automaticamente.",
+          "q": "Como evitou o 'otimismo crï¿½nico'?",
+          "a": "Exigi premissas explï¿½citas e data de revisï¿½o; se a premissa nï¿½o se confirmou, o semï¿½foro mudava automaticamente.",
           "q_en": "How did you avoid 'chronic optimism'?",
           "a_en": "I required explicit assumptions and review dates; if the assumption wasn't confirmed, the traffic light changed automatically."
         },
         {
-          "q": "Não ficou burocrático?",
-          "a": "Não. One-pager com 5 campos, 10 minutos de atualização e reunião curta de 30 minutos.",
+          "q": "Nï¿½o ficou burocrï¿½tico?",
+          "a": "Nï¿½o. One-pager com 5 campos, 10 minutos de atualizaï¿½ï¿½o e reuniï¿½o curta de 30 minutos.",
           "q_en": "Didn't it become bureaucratic?",
           "a_en": "No. One-pager with 5 fields, 10 minutes of updates, and short 30-minute meetings."
         },
         {
-          "q": "Como tratou divergências entre GP e sponsor?",
-          "a": "Critérios na mesa: se não bate, abrimos exceção temporária com data de expiração.",
+          "q": "Como tratou divergï¿½ncias entre GP e sponsor?",
+          "a": "Critï¿½rios na mesa: se nï¿½o bate, abrimos exceï¿½ï¿½o temporï¿½ria com data de expiraï¿½ï¿½o.",
           "q_en": "How did you handle disagreements between PM and sponsor?",
           "a_en": "Criteria on the table: if it doesn't match, we open a temporary exception with an expiration date."
         },
         {
-          "q": "Qual foi o maior ganho prático?",
-          "a": "Menos surpresas e decisões mais cedo; problemas apareceram antes e custaram menos.",
+          "q": "Qual foi o maior ganho prï¿½tico?",
+          "a": "Menos surpresas e decisï¿½es mais cedo; problemas apareceram antes e custaram menos.",
           "q_en": "What was the biggest practical gain?",
           "a_en": "Fewer surprises and earlier decisions; problems appeared sooner and cost less."
         },        {
-          "q": "Houve resistência?",
-          "a": "Sim, de quem preferia 'verde político'. Com dados, a cultura migrou para verdade e consequências.",
+          "q": "Houve resistï¿½ncia?",
+          "a": "Sim, de quem preferia 'verde polï¿½tico'. Com dados, a cultura migrou para verdade e consequï¿½ncias.",
           "q_en": "Was there resistance?",
           "a_en": "Yes, from those who preferred 'political green'. With data, the culture shifted to truth and consequences."
         },
         {
-          "q": "Que métrica você usou para medir confiança?",
-          "a": "Volatilidade de semáforo e taxa de replanejamento emergencial por mês.",
+          "q": "Que mï¿½trica vocï¿½ usou para medir confianï¿½a?",
+          "a": "Volatilidade de semï¿½foro e taxa de replanejamento emergencial por mï¿½s.",
           "q_en": "What metric did you use to measure trust?",
           "a_en": "Traffic light volatility and emergency replanning rate per month."
         },
         {
           "q": "Como lidou com uma falha sua nesse processo?",
-          "a": "Assumi publicamente quando uma premissa minha furou e mantive o semáforo em amarelo por 2 ciclos, com plano de correção.",
+          "a": "Assumi publicamente quando uma premissa minha furou e mantive o semï¿½foro em amarelo por 2 ciclos, com plano de correï¿½ï¿½o.",
           "q_en": "How did you handle a failure of yours in this process?",
           "a_en": "I publicly owned up when my assumption failed and kept the traffic light yellow for 2 cycles, with a correction plan."
         },
         {
           "q": "Como ensinou o modelo aos times?",
-          "a": "Clínicas rápidas com exemplos, playbook visual e checagem mensal.",
+          "a": "Clï¿½nicas rï¿½pidas com exemplos, playbook visual e checagem mensal.",
           "q_en": "How did you teach the model to the teams?",
           "a_en": "Quick clinics with examples, visual playbook, and monthly check-ins."
         },
         {
           "q": "O que faria diferente?",
-          "a": "Adotaria trend arrows desde o dia 1; sinalizam direção melhor que cores estáticas.",
+          "a": "Adotaria trend arrows desde o dia 1; sinalizam direï¿½ï¿½o melhor que cores estï¿½ticas.",
           "q_en": "What would you do differently?",
           "a_en": "I would adopt trend arrows from day 1; they signal direction better than static colors."
         }
       ]
     },    {
-      "title": "Governança Auditável em Programa Regulado (HSBCBradesco)",
+      "title": "Governanï¿½a Auditï¿½vel em Programa Regulado (HSBCBradesco)",
       "pt": {
-        "s": "Durante a migração HSBCBradesco, equipes globais e o BACEN precisavam confiar na governança do programa.",
-        "t": "Minha missão era: Criar mecanismos de prestação de contas verificáveis e visíveis para reguladores e stakeholders internacionais.",
-        "a": "Eu instituí um comitê de compliance com RAID log público, dashboards de reconciliação 3-way e auditorias cruzadas independentes. Registrei decisões e exceções com carimbo de data e owner. Comunicação semanal padronizada.",
-        "r": "A migração foi aprovada sem ressalvas pelo BACEN e auditorias externas; confiança dos stakeholders aumentou e riscos foram tratados antes de virar incidentes.",
-        "l": "Aprendi que transparência mais método gera confiança composta: cada acerto aumenta o crédito para decisões difíceis. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje começo engajando-os desde o início."
+        "s": "Durante a migraï¿½ï¿½o HSBCBradesco, equipes globais e o BACEN precisavam confiar na governanï¿½a do programa.",
+        "t": "Minha missï¿½o era: Criar mecanismos de prestaï¿½ï¿½o de contas verificï¿½veis e visï¿½veis para reguladores e stakeholders internacionais.",
+        "a": "Eu instituï¿½ um comitï¿½ de compliance com RAID log pï¿½blico, dashboards de reconciliaï¿½ï¿½o 3-way e auditorias cruzadas independentes. Registrei decisï¿½es e exceï¿½ï¿½es com carimbo de data e owner. Comunicaï¿½ï¿½o semanal padronizada.",
+        "r": "A migraï¿½ï¿½o foi aprovada sem ressalvas pelo BACEN e auditorias externas; confianï¿½a dos stakeholders aumentou e riscos foram tratados antes de virar incidentes.",
+        "l": "Aprendi que transparï¿½ncia mais mï¿½todo gera confianï¿½a composta: cada acerto aumenta o crï¿½dito para decisï¿½es difï¿½ceis. Em retrospectiva, eu poderia ter antecipado riscos envolvendo stakeholders, e hoje comeï¿½o engajando-os desde o inï¿½cio."
       },
       "en": {
         "s": "During the HSBCBradesco migration, global teams and the Central Bank needed to trust the program's governance.",
@@ -103,36 +103,36 @@ const earn_trust = {
       },      "fup": [
         {
           "q": "Qual foi o artefato mais decisivo para o regulador?",
-          "a": "Reconciliação 3-way com trilha de auditoria; evidência objetiva da integridade dos dados.",
+          "a": "Reconciliaï¿½ï¿½o 3-way com trilha de auditoria; evidï¿½ncia objetiva da integridade dos dados.",
           "q_en": "What was the most decisive artifact for the regulator?",
           "a_en": "3-way reconciliation with audit trail; objective evidence of data integrity."
         },
         {
-          "q": "Como garantiu integridade das evidências?",
-          "a": "Controles de acesso, dupla checagem e hashes de arquivos críticos.",
+          "q": "Como garantiu integridade das evidï¿½ncias?",
+          "a": "Controles de acesso, dupla checagem e hashes de arquivos crï¿½ticos.",
           "q_en": "How did you ensure evidence integrity?",
           "a_en": "Access controls, double-checking, and hashes of critical files."
         },
         {
-          "q": "Qual foi a decisão mais sensível registrada no RAID?",
-          "a": "Congelar aberturas de contas de investimento pré-migração para reduzir risco de inconsistências.",
+          "q": "Qual foi a decisï¿½o mais sensï¿½vel registrada no RAID?",
+          "a": "Congelar aberturas de contas de investimento prï¿½-migraï¿½ï¿½o para reduzir risco de inconsistï¿½ncias.",
           "q_en": "What was the most sensitive decision recorded in the RAID?",
           "a_en": "Freeze investment account openings pre-migration to reduce inconsistency risk."
         },
         {
-          "q": "Como padronizou a comunicação semanal?",
-          "a": "Template único com KPIs, desvios, riscos/mitigações e decisões pedentes.",
+          "q": "Como padronizou a comunicaï¿½ï¿½o semanal?",
+          "a": "Template ï¿½nico com KPIs, desvios, riscos/mitigaï¿½ï¿½es e decisï¿½es pedentes.",
           "q_en": "How did you standardize weekly communication?",
           "a_en": "Single template with KPIs, deviations, risks/mitigations, and pending decisions."
         },
         {
           "q": "Houve conflito entre times globais?",
-          "a": "Sim; resolvi com fatos e critérios, não com hierarquia. Registros públicos reduziram atrito.",
+          "a": "Sim; resolvi com fatos e critï¿½rios, nï¿½o com hierarquia. Registros pï¿½blicos reduziram atrito.",
           "q_en": "Was there conflict between global teams?",
           "a_en": "Yes; I resolved with facts and criteria, not hierarchy. Public records reduced friction."
         },        {
-          "q": "Como mediu evolução de confiança?",
-          "a": "Menos questionamentos repetidos e maior velocidade na aprovação de mudanças.",
+          "q": "Como mediu evoluï¿½ï¿½o de confianï¿½a?",
+          "a": "Menos questionamentos repetidos e maior velocidade na aprovaï¿½ï¿½o de mudanï¿½as.",
           "q_en": "How did you measure trust evolution?",
           "a_en": "Fewer repeated questions and faster approval of changes."
         },
@@ -143,20 +143,20 @@ const earn_trust = {
           "a_en": "A batch with wrong timestamp; we traced the cause, corrected it, and published the postmortem."
         },
         {
-          "q": "Como evitou sobrecarga de governança?",
+          "q": "Como evitou sobrecarga de governanï¿½a?",
           "a": "Automatizei coletas e usei amostragens para auditoria.",
           "q_en": "How did you avoid governance overload?",
           "a_en": "I automated collections and used sampling for auditing."
         },
         {
           "q": "Qual aprendizado para projetos regulados?",
-          "a": "Evidência objetiva, reprodutível e rastreável reduz ansiedade do regulador.",
+          "a": "Evidï¿½ncia objetiva, reprodutï¿½vel e rastreï¿½vel reduz ansiedade do regulador.",
           "q_en": "What learning for regulated projects?",
           "a_en": "Objective, reproducible, and traceable evidence reduces regulator anxiety."
         },
         {
           "q": "O que faria diferente?",
-          "a": "Criaria um 'data room' desde o início para acelerar due diligence.",
+          "a": "Criaria um 'data room' desde o inï¿½cio para acelerar due diligence.",
           "q_en": "What would you do differently?",
           "a_en": "I would create a 'data room' from the start to accelerate due diligence."
         }
