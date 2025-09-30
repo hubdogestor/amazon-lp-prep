@@ -150,6 +150,7 @@ export default function App() {
 
   const [highlightedFupId, setHighlightedFupId] = useState(null);
   const [highlightedCaseId, setHighlightedCaseId] = useState(null);
+  const [highlightSearchTerm, setHighlightSearchTerm] = useState("");
 
   const t = TEXTS[language];
   const dataRaw = Array.isArray(principlesDataRaw) ? principlesDataRaw : [];
@@ -237,15 +238,41 @@ export default function App() {
   const clearFilters = () => {
     setSearchTerm("");
     setQuestionSearch("");
+    setHighlightSearchTerm("");
     setShowTopCases(false);
     setSelectedPrinciple("all");
     clearHighlights();
     clearExpanded();
   };
 
-  const toggleCase = (caseTitle, principleId) => {
-    // Limpar busca quando clicar em qualquer case
-    setSearchTerm("");
+  // Função para destacar termos de busca no conteúdo
+  const highlightText = (text, searchTerm) => {
+    if (!searchTerm || !text) return text;
+    
+    const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    const parts = text.split(regex);
+    
+    return parts.map((part, index) => {
+      if (part.toLowerCase() === searchTerm.toLowerCase()) {
+        return <mark key={index} className="bg-yellow-200 px-1 rounded">{part}</mark>;
+      }
+      return part;
+    });
+  };
+
+  const toggleCase = (caseTitle, principleId, preserveSearchTerm = false) => {
+    // Salva o termo de busca atual se solicitado
+    if (preserveSearchTerm && searchTerm) {
+      setHighlightSearchTerm(searchTerm);
+    }
+    
+    // Limpar busca quando clicar em qualquer case (exceto se preservando)
+    if (!preserveSearchTerm) {
+      setSearchTerm("");
+      setHighlightSearchTerm("");
+    } else {
+      setSearchTerm(""); // Limpa a caixa mas mantém o highlight
+    }
     setQuestionSearch("");
     
     setExpandedCases((prev) => {
@@ -349,19 +376,19 @@ export default function App() {
                   <div className="absolute z-20 mt-2 w-full bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto">
                     {(principlesData || [])
                       .flatMap((p) =>
-                        (p.cases || []).flatMap((c) =>
-                          // Normalizar FUPs (suporta tanto 'fup' quanto 'fups')
-                          (c.fup || c.fups || [])
-                            .filter((f) => {
+                        (p.cases || []).flatMap((c) => {
+                          const fups = c.fup || c.fups || [];
+                          return fups
+                            .map((f, originalIdx) => ({ p, c, f, originalIdx }))
+                            .filter(({ f }) => {
                               const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
                               return norm(qTxt).includes(norm(questionSearch));
-                            })
-                            .map((f, idx) => ({ p, c, f, idx }))
-                        )
+                            });
+                        })
                       )
-                      .map(({ p, c, f, idx }, k) => (
+                      .map(({ p, c, f, originalIdx }, k) => (
                         <div
-                          key={`${p.id}-${slugify(c.title)}-${idx}-${k}`}
+                          key={`${p.id}-${slugify(c.title)}-${originalIdx}-${k}`}
                           className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm"
                           onClick={() => {
                             setSelectedPrinciple(p.id);
@@ -374,7 +401,7 @@ export default function App() {
                               setExpandedCases({ [c.title]: true });
                               setQuestionSearch("");
 
-                              const anchorId = `fup-${p.id}-${slugify(c.id || c.title)}-${idx}`;
+                              const anchorId = `fup-${p.id}-${slugify(c.id || c.title)}-${originalIdx}`;
                               setHighlightedFupId(anchorId);
                               setTimeout(() => {
                                 const el = document.getElementById(anchorId);
@@ -537,8 +564,9 @@ export default function App() {
                         } hover:bg-white/90 backdrop-blur-sm`}
                         onClick={(e) => {
                           e.stopPropagation();
-                          toggleCase(c.title, principle.id);
-                          if (searchTerm) {
+                          const hasSearchTerm = !!searchTerm;
+                          toggleCase(c.title, principle.id, hasSearchTerm);
+                          if (hasSearchTerm) {
                             setHighlightedCaseId(caseDomId);
                             setTimeout(() => {
                               const el = document.getElementById(caseDomId);
@@ -552,9 +580,11 @@ export default function App() {
                       >
                         <div className="flex items-center gap-2">
                           <h3 className="text-lg font-bold text-slate-900">
-                            {displayCaseTitle(c)}
+                            {highlightSearchTerm ? 
+                              highlightText(displayCaseTitle(c), highlightSearchTerm) :
+                              displayCaseTitle(c)
+                            }
                           </h3>
-                          {isTopCase(c) && <span title="Top case">⭐</span>}
                         </div>
                         <span className="text-sm text-amber-600 select-none">
                           {open ? t.close : t.viewDetails} ▾
@@ -568,23 +598,38 @@ export default function App() {
                             <div className="space-y-2 leading-relaxed">
                             <p>
                               <strong>{t.situation}:</strong>{" "}
-                              {(c && c[language] && c[language].s) || ""}
+                              {highlightSearchTerm ? 
+                                highlightText((c && c[language] && c[language].s) || "", highlightSearchTerm) :
+                                (c && c[language] && c[language].s) || ""
+                              }
                             </p>
                             <p>
                               <strong>{t.task}:</strong>{" "}
-                              {(c && c[language] && c[language].t) || ""}
+                              {highlightSearchTerm ? 
+                                highlightText((c && c[language] && c[language].t) || "", highlightSearchTerm) :
+                                (c && c[language] && c[language].t) || ""
+                              }
                             </p>
                             <p>
                               <strong>{t.action}:</strong>{" "}
-                              {(c && c[language] && c[language].a) || ""}
+                              {highlightSearchTerm ? 
+                                highlightText((c && c[language] && c[language].a) || "", highlightSearchTerm) :
+                                (c && c[language] && c[language].a) || ""
+                              }
                             </p>
                             <p>
                               <strong>{t.result}:</strong>{" "}
-                              {(c && c[language] && c[language].r) || ""}
+                              {highlightSearchTerm ? 
+                                highlightText((c && c[language] && c[language].r) || "", highlightSearchTerm) :
+                                (c && c[language] && c[language].r) || ""
+                              }
                             </p>
                             <p>
                               <strong>{t.learning}:</strong>{" "}
-                              {(c && c[language] && c[language].l) || ""}
+                              {highlightSearchTerm ? 
+                                highlightText((c && c[language] && c[language].l) || "", highlightSearchTerm) :
+                                (c && c[language] && c[language].l) || ""
+                              }
                             </p>
                             </div>
                           </div>
