@@ -265,7 +265,11 @@ export default function App() {
 
     const comp = company ? ` – ${company}` : "";
     const per = period ? ` (${period})` : "";
-    return `${base}${comp}${per}`;
+    
+    // Adiciona estrela se for top case
+    const star = c.isTopCase ? " ⭐" : "";
+    
+    return `${base}${comp}${per}${star}`;
   };
   
   function extractCompany(originalTitle) {

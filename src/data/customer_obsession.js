@@ -10,11 +10,13 @@ const customer_obsession = {
   "name": "Obsessão pelo cliente",
   "cases": [
     {
+      "id": "criacao-checklist-executivo-clientes-b2b",
       "title": "Criação do \"Checklist Executivo\" para Clientes B2B (Unimed)",
       "title_pt": "Criação do Checklist Executivo para Clientes B2B",
-      "title_en": "Executive Checklist for B2B Clients",
+      "title_en": "Executive Checklist Creation for B2B Clients",
       "company": "Unimed",
       "period": "05/2021–06/2024",
+      "isTopCase": true,
       "pt": {
         "s": "Na Unimed, a maior parte da receita vinha de contratos corporativos (B2B). Havia um risco constante de churn em grandes contas, pois os decisores (C-levels das empresas clientes) não percebiam um valor diferenciado para si mesmos, além do plano de saúde padrão oferecido aos seus colaboradores.",
         "t": "Minha missão era criar um novo produto que gerasse um forte vínculo com os executivos C-level das empresas clientes, aumentando a retenção das contas estratégicas e criando uma nova linha de receita premium.",
@@ -93,7 +95,13 @@ const customer_obsession = {
       ]
     },
     {
+      "id": "reducao-churn-onboarding-banco-digital",
       "title": "Redução do Churn no Onboarding do Banco Digital (Woop Sicredi)",
+      "title_pt": "Redução do Churn no Onboarding do Banco Digital",
+      "title_en": "Digital Bank Onboarding Churn Reduction",
+      "company": "Woop Sicredi",
+      "period": "06/2018-05/2021",
+      "isTopCase": true,
       "pt": {
         "s": "O Woop Sicredi, nosso banco digital, enfrentava uma alta taxa de abandono durante o processo de abertura de conta (onboarding). A análise de funil mostrava que a maior fricção ocorria na etapa de upload de documentos, que era manual e gerava erros e frustração.",
         "t": "Meu objetivo era redesenhar completamente a jornada de onboarding para torná-la mais simples, rápida e segura, a fim de reduzir a taxa de churn em pelo menos 15% e, consequentemente, acelerar a aquisição de novos cooperados.",

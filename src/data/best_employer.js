@@ -10,11 +10,11 @@ const best_employer = {
   },
   cases: [
     {
-      "title": "Ritmo Sustentável e Segurança Psicológica - PMO SEFAZ-RS (07/2024-09/2025) ⭐",
-      "title_pt": "Ritmo Sustentável e Segurança Psicológica - PMO SEFAZ-RS (07/2024-09/2025) ⭐",
-      "title_en": "Ritmo Sustentável e Segurança Psicológica - PMO SEFAZ-RS (07/2024-09/2025) ⭐ (EN)",
+      "title": "Ritmo Sustentável e Segurança Psicológica - PMO SEFAZ-RS (07/2024-09/2025)",
+      "title_pt": "Ritmo Sustentável e Segurança Psicológica",
+      "title_en": "Sustainable Pace and Psychological Safety",
       "company": "PMO SEFAZ-RS",
-      "period": "2019–2024",
+      "period": "07/2024-09/2025",
       "pt": {
         "s": "Crescimento acelerado do PMO elevou carga e estresse. Sinais de burnout e turnover surgiram na equipe de 15 pessoas, comprometendo a qualidade das entregas e a moral do time.",
         "t": "Minha missão era: Criar um ambiente saudável e produtivo, com segurança psicológica e ritmo sustentável, mantendo alta performance.",

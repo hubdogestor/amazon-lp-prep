@@ -10,10 +10,10 @@ const hire_and_develop_the_best = {
   },
   cases: [
     {
-      "title": "Funil de Contratação e Onboarding 90Dias - Woop/Sicredi (MM/AAAA-MM/AAAA) ⭐",
-      "title_pt": "Funil de Contratação e Onboarding 90Dias - Woop/Sicredi (MM/AAAA-MM/AAAA) ⭐",
-      "title_en": "Funil de Contratação e Onboarding 90Dias - Woop/Sicredi (MM/AAAA-MM/AAAA) ⭐ (EN)",
-      "company": "Woop/Sicredi",
+      "title": "Funil de Contratação e Onboarding 90Dias - Woop Sicredi (01/2019–12/2020)",
+      "title_pt": "Funil de Contratação e Onboarding 90Dias",
+      "title_en": "Hiring Funnel and 90-Day Onboarding",
+      "company": "Woop Sicredi",
       "period": "01/2019–12/2020",
       "pt": {
         "s": "A Woop/Sicredi enfrentava escassez crítica de PMs seniores no mercado e alta variabilidade de entrega entre equipes, impactando previsibilidade de roadmap e qualidade de produto. Time to productivity dos novos PMs estava em 6+ meses.",

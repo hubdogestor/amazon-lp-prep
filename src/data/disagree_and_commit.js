@@ -10,11 +10,13 @@ const disagree_and_commit = {
   },
   cases: [
     {
-      "title": "ADR e Decisão de Arquitetura Híbrida - Banco Next (MM/AAAA-MM/AAAA) ⭐",
-      "title_pt": "ADR e Decisão de Arquitetura Híbrida - Banco Next (MM/AAAA-MM/AAAA) ⭐",
-      "title_en": "ADR e Decisão de Arquitetura Híbrida - Banco Next (MM/AAAA-MM/AAAA) ⭐ (EN)",
-      "company": "Banco Next",
+      "id": "decisao-arquitetura-bancaria-next-vs-bradesco",
+      "title": "Decisão de Arquitetura Bancária Next vs. Bra - Bradesco (08/2016–12/2017)",
+      "title_pt": "Decisão de Arquitetura Bancária Next vs. Bra",
+      "title_en": "Banking Architecture Decision Next vs. Bra",
+      "company": "Bradesco",
       "period": "08/2016–12/2017",
+      "isTopCase": true,
       "pt": {
         "s": "No desenho da arquitetura do Banco Digital Next, times de segurança defendiam on-premise total; times de produto, nuvem total. A polarização travou decisões críticas por 3 semanas com deadline regulatório se aproximando.",
         "t": "Minha missão era conduzir a decisão técnica com base em fatos, discordar frontalmente quando necessário e, após a decisão, unir todos sob um único compromisso de execução, independente de preferências pessoais.",

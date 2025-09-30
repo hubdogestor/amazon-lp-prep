@@ -12,9 +12,10 @@ const ownership_data = {
     {
       "title": "Migração Crítica de Dados e Compliance - HSBC → Bradesco (11/2015-09/2016)",
       "title_pt": "Migração Crítica de Dados e Compliance",
-      "title_en": "Migração Crítica de Dados e Compliance (EN)",
+      "title_en": "Critical Data Migration and Compliance",
       "company": "HSBC → Bradesco",
-      "period": "2019–2024",
+      "period": "2019-2024",
+      "isTopCase": true,
       "pt": {
         "s": "Durante a aquisição do HSBC pelo Bradesco (US$ 5,2 bi), fui responsável pela migração do portfólio de Retail Banking. O desafio era migrar milhões de contas e R$ 3 bilhões em ativos sem perda de dados, garantindo 100% de conformidade com reguladores como BACEN e o FATCA/IRS americano.",
         "t": "Minha responsabilidade era garantir que a migração ocorresse com zero perda de dados, total conformidade regulatória e retenção da base de clientes de alto valor (HNWI). Eu precisava ser o dono do processo de ponta a ponta.",
@@ -93,11 +94,13 @@ const ownership_data = {
       ]
     },
     {
-      "title": "Estruturação do PMO do Zero - Secretaria da Fazenda do RS (SEFAZ-RS) (07/2024-09/2025) ⭐",
-      "title_pt": "Estruturação do PMO do Zero - Secretaria da Fazenda do RS (SEFAZ-RS) (07/2024-09/2025) ⭐",
-      "title_en": "Estruturação do PMO do Zero - Secretaria da Fazenda do RS (SEFAZ-RS) (07/2024-09/2025) ⭐ (EN)",
-      "company": "Secretaria da Fazenda do RS",
-      "period": "2019–2024",
+      "id": "estruturacao-pmo-zero-sefaz-rs",
+      "title": "Estruturação do PMO do Zero (SEFAZ-RS) (07/2024-09/2025)",
+      "title_pt": "Estruturação do PMO do Zero (SEFAZ-RS)",
+      "title_en": "PMO Structuring from Scratch (SEFAZ-RS)",
+      "company": "SEFAZ-RS",
+      "period": "07/2024-09/2025",
+      "isTopCase": true,
       "pt": {
         "s": "A SEFAZ-RS estava iniciando o Programa Zero, um projeto estratégico de R$ 50 milhões para modernização digital, mas não tinha estrutura de PMO nem governança estabelecida. Projetos anteriores falharam por falta de coordenação e ownership.",
         "t": "Minha missão era criar do zero um PMO robusto que garantisse a entrega bem-sucedida do Programa Zero, assumindo responsabilidade total pelo sucesso de uma carteira de 12 projetos críticos simultâneos.",

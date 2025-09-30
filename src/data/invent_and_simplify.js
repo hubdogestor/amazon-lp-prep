@@ -12,9 +12,10 @@ const invent_and_simplify_data = {
     {
       "title": "Redução Drástica de SLA com Novo Modelo de Processo - Huawei (MM/AAAA-MM/AAAA)",
       "title_pt": "Redução Drástica de SLA com Novo Modelo de Processo",
-      "title_en": "Redução Drástica de SLA com Novo Modelo de Processo (EN)",
+      "title_en": "Drastic SLA Reduction with New Process Model",
       "company": "Huawei",
-      "period": "09/2013–07/2014",
+      "period": "09/2013-07/2014",
+      "isTopCase": true,
       "pt": {
         "s": "Na Huawei, o ciclo médio de entrega de uma estação de telecom era de 382 dias. Esse processo longo e complexo estava comprometendo contratos e colocando em risco metas críticas, como a infraestrutura para a Copa do Mundo de 2014.",
         "t": "Minha tarefa era reinventar radicalmente o processo de rollout. Eu precisava criar uma solução inovadora que simplificasse a complexidade e entregasse uma redução de SLA de mais de 80%.",

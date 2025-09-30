@@ -10,10 +10,11 @@ const broad_responsibility = {
   },
   cases: [
     {
-      "title": "Governança de Dados Responsável em Escala - Woop/Unimed (MM/AAAA-MM/AAAA)",
+      "id": "governanca-dados-responsavel-escala",
+      "title": "Governança de Dados Responsável em Escala - Unimed (06/2019–12/2021)",
       "title_pt": "Governança de Dados Responsável em Escala",
       "title_en": "Responsible Data Governance at Scale",
-      "company": "Woop/Unimed",
+      "company": "Unimed",
       "period": "06/2019–12/2021",
       "pt": {
         "s": "Com a expansão digital da Woop/Unimed, o volume de dados de pacientes cresceu exponencialmente e aumentou nossa responsabilidade sobre privacidade e uso ético de dados. Tínhamos 300k+ registros médicos sensíveis sem governança adequada para LGPD.",

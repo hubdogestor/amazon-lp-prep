@@ -10,9 +10,9 @@ const frugality = {
   },
   cases: [
     {
-      "title": "Racionalização de Stack de Relatórios e Licenças - SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐",
-      "title_pt": "Racionalização de Stack de Relatórios e Licenças - SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐",
-      "title_en": "Racionalização de Stack de Relatórios e Licenças - SEFAZ-RS (MM/AAAA-MM/AAAA) ⭐ (EN)",
+      "title": "Racionalização de Stack de Relatórios e Licenças - SEFAZ-RS (08/2024–12/2024)",
+      "title_pt": "Racionalização de Stack de Relatórios e Licenças",
+      "title_en": "Reports and Licenses Stack Rationalization",
       "company": "SEFAZ-RS",
       "period": "08/2024–12/2024",
       "pt": {
