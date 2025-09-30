@@ -1,4 +1,6 @@
 const disagree_and_commit = {
+  id: "ser firme, discordar e se comprometer",
+  name: "ser firme, discordar e se comprometer",
   principle: {
     title: "Ser firme, discordar e se comprometer",
     title_en: "Have Backbone; Disagree and Commit",

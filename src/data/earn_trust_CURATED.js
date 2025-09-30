@@ -1,4 +1,6 @@
 const earn_trust = {
+  id: "ganhar a confianca",
+  name: "ganhar a confianca",
   principle: {
     title: "Ganhar a confiança",
     title_en: "Earn Trust",

@@ -1,4 +1,6 @@
 const invent_and_simplify_data = {
+  id: "inventar e simplificar",
+  name: "inventar e simplificar",
   principle: {
     title: "Inventar e simplificar",
     title_en: "Invent and Simplify",

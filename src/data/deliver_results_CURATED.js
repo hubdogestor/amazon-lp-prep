@@ -1,4 +1,6 @@
 const deliver_results = {
+  id: "entregar resultados",
+  name: "entregar resultados",
   principle: {
     title: "Entregar resultados",
     title_en: "Deliver Results",

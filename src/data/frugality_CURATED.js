@@ -1,4 +1,6 @@
 const frugality = {
+  id: "frugalidade",
+  name: "frugalidade",
   principle: {
     title: "Parcimônia",
     title_en: "Frugality",

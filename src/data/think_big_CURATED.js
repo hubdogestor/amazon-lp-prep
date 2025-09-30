@@ -1,4 +1,6 @@
 const think_big = {
+  id: "pensar grande",
+  name: "pensar grande",
   principle: {
     title: "Pensar Grande",
     title_en: "Think Big",

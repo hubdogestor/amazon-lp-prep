@@ -1,4 +1,6 @@
 const best_employer = {
+  id: "empenhar-se para ser a melhor empregadora do mundo",
+  name: "empenhar-se para ser a melhor empregadora do mundo",
   principle: {
     title: "Empenhar-se para ser a melhor empregadora do mundo",
     title_en: "Strive to be Earth's Best Employer",

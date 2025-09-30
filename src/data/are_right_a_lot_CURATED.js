@@ -1,4 +1,6 @@
 const are_right_a_lot_data = {
+  id: "estar certo, e muito",
+  name: "estar certo, e muito",
   principle: {
     title: "Estar certo, e muito",
     title_en: "Are Right, A Lot",

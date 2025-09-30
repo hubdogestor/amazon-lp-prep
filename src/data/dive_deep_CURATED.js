@@ -1,4 +1,6 @@
 const dive_deep = {
+  id: "mergulhar fundo",
+  name: "mergulhar fundo",
   principle: {
     title: "Mergulhar Fundo",
     title_en: "Dive Deep",

@@ -1,4 +1,6 @@
 const hire_and_develop_the_best = {
+  id: "contratar e desenvolver os melhores",
+  name: "contratar e desenvolver os melhores",
   principle: {
     title: "Contratar e Desenvolver os Melhores",
     title_en: "Hire and Develop the Best",

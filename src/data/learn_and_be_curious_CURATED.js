@@ -1,4 +1,6 @@
 const learn_and_be_curious = {
+  id: "aprender e ser curioso",
+  name: "aprender e ser curioso",
   principle: {
     title: "Aprender e Ser Curioso",
     title_en: "Learn and Be Curious",

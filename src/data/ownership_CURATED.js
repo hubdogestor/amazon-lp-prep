@@ -1,4 +1,6 @@
 const ownership_data = {
+  id: "mentalidade de dono",
+  name: "mentalidade de dono",
   principle: {
     title: "Mentalidade de Dono",
     title_en: "Ownership",

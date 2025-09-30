@@ -1,4 +1,6 @@
 const insist_on_highest_standards = {
+  id: "insistir nos mais altos padroes",
+  name: "insistir nos mais altos padroes",
   principle: {
     title: "Insistir nos Mais Altos Padrões",
     title_en: "Insist on the Highest Standards",

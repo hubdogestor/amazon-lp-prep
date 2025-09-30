@@ -1,4 +1,6 @@
 const bias_for_action = {
+  id: "ter iniciativa",
+  name: "ter iniciativa",
   principle: {
     title: "Ter Iniciativa",
     title_en: "Bias for Action",

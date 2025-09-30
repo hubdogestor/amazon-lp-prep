@@ -1,4 +1,6 @@
 const broad_responsibility = {
+  id: "sucesso e crescimento trazem maior responsabilidade",
+  name: "sucesso e crescimento trazem maior responsabilidade",
   principle: {
     title: "Sucesso e crescimento trazem maior responsabilidade",
     title_en: "Success and Scale Bring Broad Responsibility",
