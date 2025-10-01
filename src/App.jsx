@@ -2,6 +2,7 @@ import { useMemo, useState, useEffect, useCallback } from "react";
 import { Search } from "lucide-react";
 import principlesDataRaw from "./data_principles.js";
 import icebreakerData from "./data/icebreaker.js";
+import myQuestionsData from "./data/myQuestions.js";
 import { HighlightableText } from "./components/HighlightableText.jsx";
 import { useDebounce } from "./hooks/useDebounce.js";
 import { useHighlight } from "./hooks/useHighlight.js";
@@ -102,6 +103,7 @@ const TEXTS = {
     filterAll: "Todos os princípios",
     topCases: "Top Cases",
     icebreaker: "Icebreaker",
+    myQuestions: "Minhas Perguntas",
     noResult: "Sem resultados",
     situation: "Situação",
     task: "Tarefa",
@@ -118,6 +120,7 @@ const TEXTS = {
     filterAll: "All principles",
     topCases: "Top Cases",
     icebreaker: "Icebreaker",
+    myQuestions: "My Questions",
     noResult: "No results",
     situation: "Situation",
     task: "Task",
@@ -136,6 +139,7 @@ export default function App() {
   const [questionSearch, setQuestionSearch] = useState("");
   const [showTopCases, setShowTopCases] = useState(false);
   const [showIcebreaker, setShowIcebreaker] = useState(false);
+  const [showMyQuestions, setShowMyQuestions] = useState(false);
   const [language, setLanguage] = useState("pt");
   const [isSearching, setIsSearching] = useState(false);
 
@@ -397,13 +401,29 @@ export default function App() {
               </button>
             </div>
 
+            {/* Minhas Perguntas (col-span-1) */}
+            <div className="col-span-1">
+              <button
+                id="myQuestionsBtn"
+                className="w-full px-3 py-2 rounded-lg text-sm border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setShowMyQuestions(true);
+                }}
+                aria-label="Open my questions for interviewer"
+                title="Perguntas para fazer ao entrevistador"
+              >
+                🤔 {t.myQuestions}
+              </button>
+            </div>
+
             {/* Timer (col-span-2) */}
             <div className="col-span-2">
               <HeaderTimer t={t} />
             </div>
 
-            {/* Idioma (col-span-2) */}
-            <div className="col-span-2">
+            {/* Idioma (col-span-1) */}
+            <div className="col-span-1">
               <div id="langBox" className="w-full flex gap-2" role="group" aria-label="Language selection">
                 <button
                   className={`flex-1 px-3 py-2 rounded-lg text-sm border ${
@@ -442,6 +462,14 @@ export default function App() {
         <IcebreakerModal
           language={language}
           onClose={() => setShowIcebreaker(false)}
+        />
+      )}
+
+      {/* Modal Minhas Perguntas */}
+      {showMyQuestions && (
+        <MyQuestionsModal
+          language={language}
+          onClose={() => setShowMyQuestions(false)}
         />
       )}
 
@@ -670,6 +698,14 @@ export default function App() {
 // ---------- Subcomponent: Icebreaker Modal ----------
 function IcebreakerModal({ language, onClose }) {
   const data = icebreakerData[language];
+  const [expandedQuestions, setExpandedQuestions] = useState({});
+
+  const toggleQuestion = (idx) => {
+    setExpandedQuestions(prev => ({
+      ...prev,
+      [idx]: !prev[idx]
+    }));
+  };
 
   return (
     <div
@@ -697,21 +733,36 @@ function IcebreakerModal({ language, onClose }) {
         </div>
 
         <div className="p-6 overflow-y-auto max-h-[calc(85vh-80px)]">
-          <div className="space-y-6">
-            {data.questions.map((item, idx) => (
-              <div
-                key={idx}
-                className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-lg p-5 border border-slate-200 hover:shadow-md transition"
-              >
-                <h3 className="text-lg font-bold text-slate-900 mb-3 flex items-start gap-2">
-                  <span className="text-blue-600 font-mono text-sm mt-1">Q{idx + 1}</span>
-                  <span>{item.q}</span>
-                </h3>
-                <div className="pl-7 text-slate-700 leading-relaxed whitespace-pre-line">
-                  {item.a}
+          <div className="space-y-4">
+            {data.questions.map((item, idx) => {
+              const isExpanded = expandedQuestions[idx];
+              return (
+                <div
+                  key={idx}
+                  className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-lg border border-slate-200 overflow-hidden"
+                >
+                  <div
+                    className="flex items-center justify-between px-5 py-4 cursor-pointer hover:bg-white/60 transition"
+                    onClick={() => toggleQuestion(idx)}
+                  >
+                    <h3 className="text-lg font-bold text-slate-900 flex items-center gap-2">
+                      <span className="text-blue-600 font-mono text-sm">Q{idx + 1}</span>
+                      <span>{item.q}</span>
+                    </h3>
+                    <span className="text-sm text-blue-600 select-none">
+                      {isExpanded ? (language === "pt" ? "Fechar ▾" : "Close ▾") : (language === "pt" ? "Ver resposta" : "View answer")}
+                    </span>
+                  </div>
+                  {isExpanded && (
+                    <div className="px-5 pb-5 pt-2 bg-white/40">
+                      <div className="pl-7 text-slate-700 leading-relaxed whitespace-pre-line">
+                        {item.a}
+                      </div>
+                    </div>
+                  )}
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
 
@@ -719,6 +770,96 @@ function IcebreakerModal({ language, onClose }) {
           <button
             onClick={onClose}
             className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-medium"
+          >
+            {language === "pt" ? "Fechar" : "Close"}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ---------- Subcomponent: My Questions Modal ----------
+function MyQuestionsModal({ language, onClose }) {
+  const data = myQuestionsData[language];
+  const [expandedCategories, setExpandedCategories] = useState({});
+
+  const toggleCategory = (idx) => {
+    setExpandedCategories(prev => ({
+      ...prev,
+      [idx]: !prev[idx]
+    }));
+  };
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm"
+      onClick={onClose}
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="myquestions-title"
+    >
+      <div
+        className="bg-white rounded-xl shadow-2xl max-w-5xl w-full max-h-[85vh] overflow-hidden mx-4"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-4 flex items-center justify-between">
+          <h2 id="myquestions-title" className="text-2xl font-bold text-white flex items-center gap-2">
+            🤔 {data.title}
+          </h2>
+          <button
+            onClick={onClose}
+            className="text-white hover:bg-white/20 rounded-lg px-3 py-1 transition"
+            aria-label="Close my questions modal"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div className="p-6 overflow-y-auto max-h-[calc(85vh-80px)]">
+          <div className="space-y-4">
+            {data.categories.map((category, catIdx) => {
+              const isExpanded = expandedCategories[catIdx];
+              return (
+                <div
+                  key={catIdx}
+                  className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-lg border border-slate-200 overflow-hidden"
+                >
+                  <div
+                    className="flex items-center justify-between px-5 py-4 cursor-pointer hover:bg-white/60 transition"
+                    onClick={() => toggleCategory(catIdx)}
+                  >
+                    <h3 className="text-lg font-bold text-slate-900 flex items-center gap-2">
+                      <span className="text-2xl">{category.icon}</span>
+                      <span>{category.category}</span>
+                      <span className="text-sm font-normal text-slate-500">({category.questions.length} perguntas)</span>
+                    </h3>
+                    <span className="text-sm text-purple-600 select-none">
+                      {isExpanded ? (language === "pt" ? "Fechar ▾" : "Close ▾") : (language === "pt" ? "Ver perguntas" : "View questions")}
+                    </span>
+                  </div>
+                  {isExpanded && (
+                    <div className="px-5 pb-5 pt-2 bg-white/40">
+                      <div className="space-y-4">
+                        {category.questions.map((item, qIdx) => (
+                          <div key={qIdx} className="border-l-4 border-purple-400 pl-4 py-2">
+                            <div className="font-semibold text-slate-800 mb-1">{item.q}</div>
+                            <div className="text-sm text-slate-600 italic">💡 {item.note}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="bg-slate-50 px-6 py-4 border-t border-slate-200 flex justify-end">
+          <button
+            onClick={onClose}
+            className="px-6 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition font-medium"
           >
             {language === "pt" ? "Fechar" : "Close"}
           </button>
@@ -746,47 +887,49 @@ function HeaderTimer({ t }) {
   return (
     <div
       id="timerBox"
-      className="w-full h-[40px] px-3 border border-slate-200 rounded-lg bg-white flex items-center justify-between"
+      className="w-full h-full px-4 border border-slate-200 rounded-lg bg-white flex items-center justify-between gap-3"
       role="timer"
       aria-live="polite"
       aria-atomic="true"
     >
-      <span className="text-sm text-slate-500">{t.timer}:</span>
-      <span className="font-mono text-lg" aria-label={`${minutes} minutes ${secs} seconds`}>
+      <span className="font-mono text-2xl font-bold text-slate-800" aria-label={`${minutes} minutes ${secs} seconds`}>
         {timeDisplay}
       </span>
-      <div className="flex items-center gap-1">
+      <div className="flex items-center gap-2">
         {!running ? (
           <button
-            className="px-3 py-1 text-sm rounded-md border border-slate-300 hover:bg-slate-50"
+            className="px-4 py-2 text-xl rounded-lg border-2 border-green-500 bg-green-50 hover:bg-green-100 text-green-700 transition"
             onClick={(e) => {
               e.stopPropagation();
               setRunning(true);
             }}
             aria-label="Start timer"
+            title="Iniciar timer"
           >
             ▶
           </button>
         ) : (
           <button
-            className="px-3 py-1 text-sm rounded-md border border-slate-300 hover:bg-slate-50"
+            className="px-4 py-2 text-xl rounded-lg border-2 border-amber-500 bg-amber-50 hover:bg-amber-100 text-amber-700 transition"
             onClick={(e) => {
               e.stopPropagation();
               setRunning(false);
             }}
             aria-label="Pause timer"
+            title="Pausar timer"
           >
             ⏸
           </button>
         )}
         <button
-          className="px-2 py-1 text-sm rounded-md border border-slate-300 hover:bg-slate-50"
+          className="px-3 py-2 text-lg rounded-lg border-2 border-slate-300 bg-slate-50 hover:bg-slate-100 transition"
           onClick={(e) => {
             e.stopPropagation();
             setRunning(false);
             setSeconds(TIMER_DEFAULT_SECONDS);
           }}
           aria-label="Reset timer"
+          title="Resetar timer"
         >
           ⟲
         </button>
