@@ -31,7 +31,7 @@ const customer_obsession = {
         "r": "The product significantly increased retention in large B2B accounts, contributing to a 15% reduction in overall churn for corporate contracts. It also generated a new premium revenue stream with higher margins, strengthening the relationship with key decision-makers.",
         "l": "I learned that customer obsession means understanding the different levels of 'customer' within a B2B account. By focusing on the decision-maker and solving one of their personal pain points, I was able to protect and expand a much larger business, proving that the key user's experience can be the biggest retention driver for the entire account."
       },
-      "fup": [
+      "fups": [
         {
           "q": "Qual foi a principal métrica que você usou para validar a 'dor' dos executivos C-level antes de construir o produto?",
           "a": "A métrica foi a consistência do feedback qualitativo. Em mais de 80% das entrevistas que conduzi com C-levels, a 'falta de tempo para check-ups' foi citada como uma das três maiores dores pessoais. Usei essa alta frequência para validar a demanda e justificar o investimento.",
@@ -116,7 +116,7 @@ const customer_obsession = {
         "r": "After launching the new journey, the churn in the onboarding process dropped by 18%, exceeding the initial goal. This led to a direct increase in the new customer conversion rate and contributed to a 25% growth in app adoption over 12 months.",
         "l": "The most valuable lesson was the importance of using data to find the customer's 'pebble in the shoe.' Instead of making generic improvements, we focused obsessively on the exact point of greatest friction, which generated a disproportionately positive impact. I learned that working backwards from a real customer problem is the shortest path to delivering results."
       },
-      "fup": [
+      "fups": [
         {
           "q": "Qual era a taxa exata de abandono no onboarding antes do projeto e qual era a meta numérica que você estabeleceu?",
           "a": "A taxa de abandono era de aproximadamente 40% na etapa de upload de documentos. Minha meta inicial era reduzir essa taxa específica em 15%, para cerca de 34%, mas acabamos superando e alcançando uma redução de 18%.",

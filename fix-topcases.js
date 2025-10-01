@@ -6,18 +6,6 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Configurações dos Top Cases
-const topCasesConfig = {
-  topCaseIds: [
-    'migracao-critica-dados-compliance',
-    'reducao-drastica-sla-novo-modelo-processo', 
-    'criacao-checklist-executivo-clientes-b2b',
-    'estruturacao-pmo-zero',
-    'reducao-churn-onboarding-banco-digital',
-    'decisao-arquitetura-bancaria-next-vs-bradesco'
-  ]
-};
-
 // Correções de títulos e dados
 const titleCorrections = {
   'Migração Crítica de Dados e Compliance': {
@@ -108,7 +96,7 @@ function processFile(filePath) {
   let caseMatch;
   
   while ((caseMatch = caseObjectRegex.exec(casesContent)) !== null) {
-    const [fullMatch, title, restOfCase] = caseMatch;
+    const [fullMatch, title] = caseMatch;
     caseCount++;
     
     console.log(`  📝 Caso: "${title}"`);

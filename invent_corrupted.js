@@ -123,7 +123,8 @@
           "q_en": "How did you measure the collective impact of the products on the 22% EBITDA?",
           "a": "Medimos através de P&L dedicado para cada produto e análise incremental. O baseline EBITDA era . Os novos produtos geraram  em receita adicional com margem média de 83% (produtos digitais têm custos variáveis baixos). Isso adicionou .4M ao EBITDA. Também reduziram custos de aquisição do produto principal via cross-selling, criando sinergia de + adicional.",
           "a_en": "We measured through dedicated P&L for each product and incremental analysis. Baseline EBITDA was . New products generated  in additional revenue with average margin of 83% (digital products have low variable costs). This added .4M to EBITDA. They also reduced acquisition costs of the main product via cross-selling, creating + additional synergy."
-        }        {
+        },
+        {
           "q": "Como você conseguiu melhorar o NPS em 6 pontos com os novos produtos?",
           "q_en": "How did you manage to improve NPS by 6 points with the new products?",
           "a": "A melhoria no NPS veio da expansão do ecossistema de valor. Clientes que tinham apenas plano tradicional (NPS 31) passaram a ter experiência integrada com múltiplos serviços digitais simplificados. App unificado, atendimento 24h via chatbot, e serviços complementares criaram jornada sem fricção. Clientes com 2+ produtos tinham NPS de 44, elevando a média geral para 37.",

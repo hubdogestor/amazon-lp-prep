@@ -1,33 +1,23 @@
 import { useMemo, useState, useEffect, useCallback } from "react";
 import { Search } from "lucide-react";
 import principlesDataRaw from "./data_principles.js";
-import { HighlightableText } from "./components/HighlightableText.jsx";
-import { useDebounce } from "./hooks/useDebounce.js";
-import { useHighlight } from "./hooks/useHighlight.js";
-import {
-  slugify,
-  norm
-} from "./utils/textUtils.js";
-import {
-  isTopCase,
-  getCaseBaseTitle as getCaseBaseTitleUtil,
-  getDisplayCaseTitle as getDisplayCaseTitleUtil,
-  getCaseFups,
-  getDisplayName as getDisplayNameUtil,
-  sortPrinciples as sortPrinciplesUtil,
-} from "./utils/caseUtils.js";
-import {
-  TIMER_DEFAULT_SECONDS,
-  FUP_SCROLL_DELAY,
-  CASE_EXPAND_DELAY,
-  DEBOUNCE_SEARCH_DELAY,
-} from "./constants.js";
 import "./App.css";
+
+// ---------- Utils ----------
+const slugify = (s) =>
+  (s || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+const norm = (s) =>
+  (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 
 // ---------- Labels & Ordem ----------
 const PT_KEYS = [
   "inventar e simplificar",
-  "mentalidade de dono",
+  "mentalidade de dono", 
   "mergulhar fundo",
   "entregar resultados",
   "ganhar a confianca",
@@ -47,7 +37,7 @@ const PT_KEYS = [
 const PT_LABELS = {
   "inventar e simplificar": "Inventar e simplificar",
   "mentalidade de dono": "Mentalidade de dono",
-  "mergulhar fundo": "Mergulhar fundo",
+  "mergulhar fundo": "Mergulhar fundo", 
   "entregar resultados": "Entregar resultados",
   "ganhar a confianca": "Ganhar a confiança",
   "obsessao pelo cliente": "Obsessão pelo cliente",
@@ -68,7 +58,7 @@ const PT_LABELS = {
 const EN_LABELS_FROM_PT = {
   [PT_KEYS[0]]: "Invent and Simplify",
   [PT_KEYS[1]]: "Ownership",
-  [PT_KEYS[2]]: "Dive Deep",
+  [PT_KEYS[2]]: "Dive Deep", 
   [PT_KEYS[3]]: "Deliver Results",
   [PT_KEYS[4]]: "Earn Trust",
   [PT_KEYS[5]]: "Customer Obsession",
@@ -87,9 +77,32 @@ const EN_LABELS_FROM_PT = {
 const ORDER_PT = PT_KEYS;
 const ORDER_EN = PT_KEYS.map((k) => k);
 
-// Wrapper functions that use imported utilities
-const getDisplayName = (p, lang) => getDisplayNameUtil(p, lang, PT_LABELS, EN_LABELS_FROM_PT);
-const sortPrinciples = (arr, lang) => sortPrinciplesUtil(arr, lang, ORDER_PT, ORDER_EN);
+const getDisplayName = (p, lang) => {
+  const k = norm(p?.name);
+  if (lang === "pt") return PT_LABELS[k] || p.name;
+  return EN_LABELS_FROM_PT[k] || p.name;
+};
+const sortPrinciples = (arr, lang) => {
+  const order = lang === "pt" ? ORDER_PT : ORDER_EN;
+  return [...arr].sort((a, b) => {
+    const ia = order.indexOf(norm(a.name));
+    const ib = order.indexOf(norm(b.name));
+    const va = ia === -1 ? 999 : ia;
+    const vb = ib === -1 ? 999 : ib;
+    return va - vb || (a.name || "").localeCompare(b.name || "");
+  });
+};
+
+// ---------- Top cases ----------
+const TOP_CASE_IDS = new Set([
+  'migracao-critica-de-dados-e-compliance',
+  'reducao-drastica-de-sla-com-novo-modelo-de-process', 
+  'criacao-checklist-executivo-clientes-b2b',
+  'estruturacao-pmo-zero-sefaz-rs',
+  'reducao-churn-onboarding-banco-digital',
+  'decisao-de-arquitetura-bancaria-next-vs-bra'
+]);
+const isTopCase = (c) => !!(c && (c.isTopCase || TOP_CASE_IDS.has(c.id || "")));
 
 // ---------- i18n ----------
 const TEXTS = {
@@ -133,60 +146,60 @@ export default function App() {
   const [questionSearch, setQuestionSearch] = useState("");
   const [showTopCases, setShowTopCases] = useState(false);
   const [language, setLanguage] = useState("pt");
-  const [isSearching, setIsSearching] = useState(false);
 
-  // Use debounced search for better performance
-  const debouncedSearchTerm = useDebounce(searchTerm, DEBOUNCE_SEARCH_DELAY);
-  const debouncedQuestionSearch = useDebounce(questionSearch, DEBOUNCE_SEARCH_DELAY);
-
-  // Use highlight hook instead of DOM manipulation
-  const {
-    highlightedFupId,
-    highlightedCaseId,
-    highlightSearchTerm,
-    setHighlightSearchTerm,
-    clearHighlights,
-    setHighlightedFup,
-    setHighlightedCase,
-  } = useHighlight();
+  const [highlightedFupId, setHighlightedFupId] = useState(null);
+  const [highlightedCaseId, setHighlightedCaseId] = useState(null);
+  const [highlightSearchTerm, setHighlightSearchTerm] = useState("");
 
   const t = TEXTS[language];
-  const principlesData = useMemo(() => {
-    const dataRaw = Array.isArray(principlesDataRaw) ? principlesDataRaw : [];
-    return sortPrinciples(dataRaw, language);
-  }, [language]);
+  const dataRaw = Array.isArray(principlesDataRaw) ? principlesDataRaw : [];
+  const principlesData = sortPrinciples(dataRaw, language);
 
-  const clearExpanded = useCallback(() => setExpandedCases({}), []);
-
-  // Memoize case title functions
-  const getCaseBaseTitle = useCallback((c, lang) => {
-    return getCaseBaseTitleUtil(c, lang);
-  }, []);
-
-  const getDisplayCaseTitle = useCallback((c, lang) => {
-    return getDisplayCaseTitleUtil(c, lang);
-  }, []);
-
-  // Show loading state when searching
-  useEffect(() => {
-    if (searchTerm || questionSearch) {
-      setIsSearching(true);
-      const timer = setTimeout(() => setIsSearching(false), DEBOUNCE_SEARCH_DELAY);
-      return () => clearTimeout(timer);
-    } else {
-      setIsSearching(false);
+  const clearExpanded = () => setExpandedCases({});
+  const clearHighlights = () => {
+    if (highlightedFupId) {
+      const el = document.getElementById(highlightedFupId);
+      if (el) {
+        el.classList.remove("ring-2", "ring-amber-300", "rounded-md", "bg-amber-50", "p-2");
+        // Limpar highlight da pergunta específica
+        const questionDiv = el.querySelector('.font-medium');
+        if (questionDiv) {
+          questionDiv.classList.remove("bg-amber-100", "px-2", "py-1", "rounded");
+        }
+      }
+      setHighlightedFupId(null);
     }
-  }, [searchTerm, questionSearch]);
+    if (highlightedCaseId) {
+      const el = document.getElementById(highlightedCaseId);
+      if (el) el.classList.remove("ring-2", "ring-amber-300", "rounded-md", "bg-amber-50", "p-2");
+      setHighlightedCaseId(null);
+    }
+  };
+  const applyPermanentHighlight = (id) => {
+    clearHighlights();
+    const el = document.getElementById(id);
+    if (el) {
+      el.classList.add("ring-2", "ring-amber-300", "rounded-md", "bg-amber-50", "p-2");
+      // Para FUPs, destacar especificamente a pergunta
+      if (id.startsWith('fup-')) {
+        const questionDiv = el.querySelector('.font-medium');
+        if (questionDiv) {
+          questionDiv.classList.add("bg-amber-100", "px-2", "py-1", "rounded");
+        }
+      }
+    }
+  };
 
-  // Filtro principal - now properly memoized
+  // Filtro principal
   const filteredPrinciples = useMemo(() => {
     let base = principlesData;
 
-    if (debouncedSearchTerm) {
-      const term = norm(debouncedSearchTerm);
+    if (searchTerm) {
+      const term = norm(searchTerm);
       return base
         .map((p) => {
           const hits = (p.cases || []).filter((c) => {
+            // Buscar apenas no idioma selecionado
             if (language === "pt") {
               const titleHitPT = norm(getCaseBaseTitle(c, "pt")).includes(term);
               const starlPT = (c && c.pt) || {};
@@ -218,64 +231,111 @@ export default function App() {
     }
 
     return base;
-  }, [principlesData, selectedPrinciple, showTopCases, debouncedSearchTerm, language, getCaseBaseTitle]);
+  }, [principlesData, selectedPrinciple, showTopCases, searchTerm, language, getCaseBaseTitle]);
 
-  const toggleCase = useCallback((caseTitle, principleId, preserveSearchTerm = false) => {
+  // Função para destacar termos de busca no conteúdo
+  const highlightText = (text, searchTerm) => {
+    if (!searchTerm || !text) return text;
+    
+    const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    const parts = text.split(regex);
+    
+    return parts.map((part, index) => {
+      if (part.toLowerCase() === searchTerm.toLowerCase()) {
+        return <mark key={index} className="bg-yellow-200 px-1 rounded">{part}</mark>;
+      }
+      return part;
+    });
+  };
+
+  const toggleCase = (caseTitle, principleId, preserveSearchTerm = false) => {
+    // Salva o termo de busca atual se solicitado
     if (preserveSearchTerm && searchTerm) {
       setHighlightSearchTerm(searchTerm);
     }
-
+    
+    // Limpar busca quando clicar em qualquer case (exceto se preservando)
     if (!preserveSearchTerm) {
       setSearchTerm("");
       setHighlightSearchTerm("");
     } else {
-      setSearchTerm("");
+      setSearchTerm(""); // Limpa a caixa mas mantém o highlight
     }
     setQuestionSearch("");
-
+    
     setExpandedCases((prev) => {
       const next = {};
       next[caseTitle] = !prev[caseTitle];
       return next;
     });
     setSelectedPrinciple(principleId);
-  }, [searchTerm, setHighlightSearchTerm]);
+  };
 
-  // FUP search results - memoized
-  const fupSearchResults = useMemo(() => {
-    if (!debouncedQuestionSearch) return [];
+  // ---------- Case Title (nova lógica simplificada) ----------
+  const extractBaseTitle = useCallback((originalTitle) => {
+    // Remove company e period do título original, mantendo só a parte principal
+    return originalTitle
+      .replace(/\s*-\s*[^(]+\s*\([^)]*\)\s*$/, '') // Remove " - Company (MM/AAAA-MM/AAAA)"
+      .replace(/\s*\([^)]*\)\s*$/, '') // Remove qualquer "(...)" no final
+      .trim();
+  }, []);
 
-    return (principlesData || [])
-      .flatMap((p) =>
-        (p.cases || []).flatMap((c) => {
-          const fups = getCaseFups(c);
-          return fups
-            .map((f, originalIdx) => ({ p, c, f, originalIdx }))
-            .filter(({ f }) => {
-              const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
-              return norm(qTxt).includes(norm(debouncedQuestionSearch));
-            });
-        })
-      );
-  }, [principlesData, debouncedQuestionSearch, language]);
+  const getCaseBaseTitle = useCallback((c, lang) => {
+    // Primeiro tenta usar títulos específicos do caso
+    if (lang === "en") {
+      return c.title_en || c.title_pt || extractBaseTitle(c.title);
+    }
+    // PT
+    return c.title_pt || extractBaseTitle(c.title);
+  }, [extractBaseTitle]);
+
+  const displayCaseTitle = (c) => {
+    const base = getCaseBaseTitle(c, language);
+    
+    // Usar company e period do próprio caso ou fallback
+    const company = c.company || extractCompany(c.title);
+    const period = c.period || extractPeriod(c.title);
+
+    const comp = company ? ` – ${company}` : "";
+    const per = period ? ` (${period})` : "";
+    
+    // Adiciona ícone de alvo se for top case
+    const target = c.isTopCase ? " 🎯" : "";
+    
+    return `${base}${comp}${per}${target}`;
+  };
+  
+  function extractCompany(originalTitle) {
+    // Extrai empresa do formato "... - Empresa (MM/AAAA...)"
+    const match = originalTitle.match(/-\s*([^(]+)\s*\(/);
+    return match ? match[1].trim() : "";
+  }
+  
+  function extractPeriod(originalTitle) {
+    // Se contém MM/AAAA, substitui por período genérico, senão extrai o período real
+    if (originalTitle.includes("MM/AAAA")) {
+      return "2019–2024"; // Período genérico para casos sem data específica
+    }
+    const match = originalTitle.match(/\(([^)]+)\)/);
+    return match ? match[1].trim() : "";
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Cabeçalho Fixo */}
-      <header
+      <div
         id="stickyHeader"
         className="sticky top-0 z-30 border-b border-slate-200 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60"
-        role="banner"
       >
         <div className="max-w-[1600px] mx-auto px-6 py-3">
           <div className="grid grid-cols-12 gap-3 items-center">
             {/* Busca por palavras (col-span-3) */}
             <div className="col-span-3">
               <div className="relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5" aria-hidden="true" />
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5" />
                 <input
                   id="kSearch"
-                  type="search"
+                  type="text"
                   placeholder={t.kSearch}
                   value={searchTerm}
                   onChange={(e) => {
@@ -286,7 +346,6 @@ export default function App() {
                     }
                   }}
                   className="w-full pl-10 pr-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white"
-                  aria-label={t.kSearch}
                 />
               </div>
             </div>
@@ -295,56 +354,65 @@ export default function App() {
             <div className="col-span-3">
               <div id="kFup" className="relative">
                 <input
-                  type="search"
+                  type="text"
                   placeholder={t.kFup}
                   value={questionSearch}
                   onChange={(e) => setQuestionSearch(e.target.value)}
                   className="w-full pl-3 pr-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white"
-                  aria-label={t.kFup}
-                  aria-expanded={!!questionSearch}
-                  aria-controls="fup-dropdown"
                 />
                 {questionSearch && (
-                  <div
-                    id="fup-dropdown"
-                    role="listbox"
-                    className="absolute z-20 mt-2 w-full bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
-                  >
-                    {fupSearchResults.map(({ p, c, f, originalIdx }, k) => (
-                      <div
-                        key={`${p.id}-${slugify(c.id || c.title)}-${originalIdx}-${k}`}
-                        role="option"
-                        tabIndex={0}
-                        className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
-                        onClick={() => {
-                          setSelectedPrinciple(p.id);
-                          setShowTopCases(false);
-                          setSearchTerm("");
-                          clearExpanded();
-                          clearHighlights();
+                  <div className="absolute z-20 mt-2 w-full bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto">
+                    {(principlesData || [])
+                      .flatMap((p) =>
+                        (p.cases || []).flatMap((c) => {
+                          const fups = c.fup || c.fups || [];
+                          return fups
+                            .map((f, originalIdx) => ({ p, c, f, originalIdx }))
+                            .filter(({ f }) => {
+                              const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
+                              return norm(qTxt).includes(norm(questionSearch));
+                            });
+                        })
+                      )
+                      .map(({ p, c, f, originalIdx }, k) => (
+                        <div
+                          key={`${p.id}-${slugify(c.title)}-${originalIdx}-${k}`}
+                          className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm"
+                          onClick={() => {
+                            setSelectedPrinciple(p.id);
+                            setShowTopCases(false);
+                            setSearchTerm("");
+                            clearExpanded();
+                            clearHighlights();
 
-                          setTimeout(() => {
-                            setExpandedCases({ [c.title]: true });
-                            setQuestionSearch("");
+                            setTimeout(() => {
+                              setExpandedCases({ [c.title]: true });
+                              setQuestionSearch("");
 
-                            const anchorId = `fup-${p.id}-${slugify(c.id || c.title)}-${originalIdx}`;
-                            setHighlightedFup(anchorId, FUP_SCROLL_DELAY);
-                          }, 0);
-                        }}
-                        onKeyDown={(e) => {
-                          if (e.key === 'Enter' || e.key === ' ') {
-                            e.preventDefault();
-                            e.currentTarget.click();
-                          }
-                        }}
-                      >
-                        <div className="font-medium text-slate-800">{language === "en" ? (f.q_en || f.q) : f.q}</div>
-                        <div className="text-slate-500">
-                          {getDisplayName(p, language)} • {getDisplayCaseTitle(c, language)}
+                              const anchorId = `fup-${p.id}-${slugify(c.id || c.title)}-${originalIdx}`;
+                              setHighlightedFupId(anchorId);
+                              setTimeout(() => {
+                                const el = document.getElementById(anchorId);
+                                if (el) {
+                                  el.scrollIntoView({ behavior: "smooth", block: "center" });
+                                  applyPermanentHighlight(anchorId);
+                                }
+                              }, 120);
+                            }, 0);
+                          }}
+                        >
+                          <div className="font-medium text-slate-800">{language === "en" ? (f.q_en || f.q) : f.q}</div>
+                          <div className="text-slate-500">
+                            {getDisplayName(p, language)} • {displayCaseTitle(c)}
+                          </div>
                         </div>
-                      </div>
-                    ))}
-                    {fupSearchResults.length === 0 && (
+                      ))}
+                    {(principlesData || [])
+                      .flatMap((p) => (p.cases || []).flatMap((c) => c.fup || c.fups || []))
+                      .filter((f) => {
+                        const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
+                        return norm(qTxt).includes(norm(questionSearch));
+                      }).length === 0 && (
                       <div className="px-3 py-2 text-slate-500 text-sm">{t.noResult}</div>
                     )}
                   </div>
@@ -369,8 +437,6 @@ export default function App() {
                   setSelectedPrinciple("all");
                   setShowTopCases((v) => !v);
                 }}
-                aria-label={`${showTopCases ? 'Hide' : 'Show'} top cases`}
-                aria-pressed={showTopCases}
                 title="Mostrar apenas Top Cases"
               >
                 🎯 {t.topCases}
@@ -384,7 +450,7 @@ export default function App() {
 
             {/* Idioma (col-span-2) */}
             <div className="col-span-2">
-              <div id="langBox" className="w-full flex gap-2" role="group" aria-label="Language selection">
+              <div id="langBox" className="w-full flex gap-2">
                 <button
                   className={`flex-1 px-3 py-2 rounded-lg text-sm border ${
                     language === "pt" ? "bg-slate-900 text-white" : "bg-white text-slate-700"
@@ -392,9 +458,8 @@ export default function App() {
                   onClick={(e) => {
                     e.stopPropagation();
                     setLanguage("pt");
+                    // Mantém os cases expandidos quando muda idioma
                   }}
-                  aria-label="Portuguese"
-                  aria-pressed={language === "pt"}
                 >
                   PT
                 </button>
@@ -405,9 +470,8 @@ export default function App() {
                   onClick={(e) => {
                     e.stopPropagation();
                     setLanguage("en");
+                    // Mantém os cases expandidos quando muda idioma
                   }}
-                  aria-label="English"
-                  aria-pressed={language === "en"}
                 >
                   EN
                 </button>
@@ -415,13 +479,13 @@ export default function App() {
             </div>
           </div>
         </div>
-      </header>
+      </div>
 
       {/* Conteúdo */}
       <div className="max-w-[1600px] mx-auto px-6 pt-6">
         <div className="grid grid-cols-12 gap-8">
           {/* Sidebar */}
-          <aside id="sidebar" className="col-span-12 xl:col-span-2" role="navigation" aria-label="Principles filter">
+          <aside id="sidebar" className="col-span-12 xl:col-span-2">
             <div
               className={`cursor-pointer p-2 rounded-lg transition ${
                 selectedPrinciple === "all" ? "bg-amber-100 font-semibold text-amber-900" : "hover:bg-slate-50"
@@ -434,15 +498,6 @@ export default function App() {
                 clearHighlights();
                 clearExpanded();
               }}
-              role="button"
-              tabIndex={0}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                  e.preventDefault();
-                  e.currentTarget.click();
-                }
-              }}
-              aria-pressed={selectedPrinciple === "all"}
             >
               {t.filterAll}
             </div>
@@ -460,15 +515,6 @@ export default function App() {
                   clearHighlights();
                   clearExpanded();
                 }}
-                role="button"
-                tabIndex={0}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault();
-                    e.currentTarget.click();
-                  }
-                }}
-                aria-pressed={selectedPrinciple === p.id}
               >
                 {getDisplayName(p, language)}
               </div>
@@ -476,12 +522,7 @@ export default function App() {
           </aside>
 
           {/* Main */}
-          <main className="col-span-12 xl:col-span-10 space-y-6" role="main">
-            {isSearching && (
-              <div className="text-center py-4 text-slate-500" role="status" aria-live="polite">
-                Buscando...
-              </div>
-            )}
+          <main className="col-span-12 xl:col-span-10 space-y-6">
             {(filteredPrinciples || []).map((principle) => (
               <section key={principle.id} className="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
                 <div className="mb-6">
@@ -495,17 +536,14 @@ export default function App() {
 
                 {((principle && principle.cases) || []).map((c, idx) => {
                   const caseKey = `${principle.id}-${idx}`;
-                  const caseDomId = `case-${slugify(c.id || c.title)}`;
+                  const caseDomId = `case-${slugify(c.title)}`;
                   const open = !!expandedCases[c.title];
-                  const isHighlighted = highlightedCaseId === caseDomId;
 
                   return (
                     <article
                       key={caseKey}
                       id={caseDomId}
-                      className={`bg-gradient-to-br from-blue-50 to-indigo-50 border rounded-xl p-0 mb-6 overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-blue-100/50 hover:border-blue-300 ${
-                        isHighlighted ? 'ring-2 ring-amber-300 bg-amber-50' : 'border-blue-200'
-                      }`}
+                      className="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-0 mb-6 overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-blue-100/50 hover:border-blue-300"
                     >
                       {/* Header clicável (área ampla) */}
                       <header
@@ -517,26 +555,23 @@ export default function App() {
                           const hasSearchTerm = !!searchTerm;
                           toggleCase(c.title, principle.id, hasSearchTerm);
                           if (hasSearchTerm) {
-                            setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
-                          }
-                        }}
-                        role="button"
-                        tabIndex={0}
-                        aria-expanded={open}
-                        aria-controls={`case-content-${caseKey}`}
-                        onKeyDown={(e) => {
-                          if (e.key === 'Enter' || e.key === ' ') {
-                            e.preventDefault();
-                            e.currentTarget.click();
+                            setHighlightedCaseId(caseDomId);
+                            setTimeout(() => {
+                              const el = document.getElementById(caseDomId);
+                              if (el) {
+                                el.scrollIntoView({ behavior: "smooth", block: "start" });
+                                applyPermanentHighlight(caseDomId);
+                              }
+                            }, 80);
                           }
                         }}
                       >
                         <div className="flex items-center gap-2">
                           <h3 className="text-lg font-bold text-slate-900">
-                            <HighlightableText
-                              text={getDisplayCaseTitle(c, language)}
-                              searchTerm={highlightSearchTerm}
-                            />
+                            {highlightSearchTerm ? 
+                              highlightText(displayCaseTitle(c), highlightSearchTerm) :
+                              displayCaseTitle(c)
+                            }
                           </h3>
                         </div>
                         <span className="text-sm text-amber-600 select-none">
@@ -545,76 +580,62 @@ export default function App() {
                       </header>
 
                       {open && (
-                        <div
-                          id={`case-content-${caseKey}`}
-                          className="px-6 pb-6 pt-2 grid grid-cols-1 lg:grid-cols-2 gap-8 text-sm text-slate-700 bg-white/40 backdrop-blur-sm"
-                        >
+                        <div className="px-6 pb-6 pt-2 grid grid-cols-1 lg:grid-cols-2 gap-8 text-sm text-slate-700 bg-white/40 backdrop-blur-sm">
                           <div className="space-y-3">
                             <h4 className="text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 mb-3">📋 STAR Case</h4>
                             <div className="space-y-2 leading-relaxed">
-                              <p>
-                                <strong>{t.situation}:</strong>{" "}
-                                <HighlightableText
-                                  text={(c && c[language] && c[language].s) || ""}
-                                  searchTerm={highlightSearchTerm}
-                                />
-                              </p>
-                              <p>
-                                <strong>{t.task}:</strong>{" "}
-                                <HighlightableText
-                                  text={(c && c[language] && c[language].t) || ""}
-                                  searchTerm={highlightSearchTerm}
-                                />
-                              </p>
-                              <p>
-                                <strong>{t.action}:</strong>{" "}
-                                <HighlightableText
-                                  text={(c && c[language] && c[language].a) || ""}
-                                  searchTerm={highlightSearchTerm}
-                                />
-                              </p>
-                              <p>
-                                <strong>{t.result}:</strong>{" "}
-                                <HighlightableText
-                                  text={(c && c[language] && c[language].r) || ""}
-                                  searchTerm={highlightSearchTerm}
-                                />
-                              </p>
-                              <p>
-                                <strong>{t.learning}:</strong>{" "}
-                                <HighlightableText
-                                  text={(c && c[language] && c[language].l) || ""}
-                                  searchTerm={highlightSearchTerm}
-                                />
-                              </p>
+                            <p>
+                              <strong>{t.situation}:</strong>{" "}
+                              {highlightSearchTerm ? 
+                                highlightText((c && c[language] && c[language].s) || "", highlightSearchTerm) :
+                                (c && c[language] && c[language].s) || ""
+                              }
+                            </p>
+                            <p>
+                              <strong>{t.task}:</strong>{" "}
+                              {highlightSearchTerm ? 
+                                highlightText((c && c[language] && c[language].t) || "", highlightSearchTerm) :
+                                (c && c[language] && c[language].t) || ""
+                              }
+                            </p>
+                            <p>
+                              <strong>{t.action}:</strong>{" "}
+                              {highlightSearchTerm ? 
+                                highlightText((c && c[language] && c[language].a) || "", highlightSearchTerm) :
+                                (c && c[language] && c[language].a) || ""
+                              }
+                            </p>
+                            <p>
+                              <strong>{t.result}:</strong>{" "}
+                              {highlightSearchTerm ? 
+                                highlightText((c && c[language] && c[language].r) || "", highlightSearchTerm) :
+                                (c && c[language] && c[language].r) || ""
+                              }
+                            </p>
+                            <p>
+                              <strong>{t.learning}:</strong>{" "}
+                              {highlightSearchTerm ? 
+                                highlightText((c && c[language] && c[language].l) || "", highlightSearchTerm) :
+                                (c && c[language] && c[language].l) || ""
+                              }
+                            </p>
                             </div>
                           </div>
 
                           <div className="space-y-3">
                             <h4 className="text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 mb-3">❓ Follow-up Questions</h4>
                             {(() => {
-                              const fups = getCaseFups(c);
+                              // Normalizar FUPs (suporta tanto 'fup' quanto 'fups')
+                              const fups = c.fup || c.fups || [];
                               return fups.length > 0 ? (
                                 <ul className="list-disc pl-5 space-y-2">
                                   {fups.map((f, fIdx) => {
                                     const fupId = `fup-${principle.id}-${slugify(c.id || c.title)}-${fIdx}`;
                                     const question = language === "en" ? (f.q_en || f.q) : f.q;
                                     const answer = language === "en" ? (f.a_en || f.a) : f.a;
-                                    const isFupHighlighted = highlightedFupId === fupId;
-
                                     return (
-                                      <li
-                                        key={`${slugify(c.id || c.title)}-${fIdx}`}
-                                        id={fupId}
-                                        className={`flex flex-col gap-1 transition-all ${
-                                          isFupHighlighted ? 'ring-2 ring-amber-300 rounded-md bg-amber-50 p-2' : ''
-                                        }`}
-                                      >
-                                        <div className={`font-medium ${
-                                          isFupHighlighted ? 'bg-amber-100 px-2 py-1 rounded' : ''
-                                        }`}>
-                                          {question}
-                                        </div>
+                                      <li key={`${slugify(c.title)}-${fIdx}`} id={fupId} className="flex flex-col gap-1">
+                                        <div className="font-medium">{question}</div>
                                         {answer && <div className="text-slate-600 whitespace-pre-line">{answer}</div>}
                                       </li>
                                     );
@@ -641,7 +662,7 @@ export default function App() {
 
 // ---------- Subcomponent: Header Timer ----------
 function HeaderTimer({ t }) {
-  const [seconds, setSeconds] = useState(TIMER_DEFAULT_SECONDS);
+  const [seconds, setSeconds] = useState(300);
   const [running, setRunning] = useState(false);
 
   useEffect(() => {
@@ -650,21 +671,15 @@ function HeaderTimer({ t }) {
     return () => id && clearInterval(id);
   }, [running]);
 
-  const minutes = Math.floor(seconds / 60);
-  const secs = seconds % 60;
-  const timeDisplay = `${String(minutes).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
-
   return (
     <div
       id="timerBox"
       className="w-full h-[40px] px-3 border border-slate-200 rounded-lg bg-white flex items-center justify-between"
-      role="timer"
-      aria-live="polite"
-      aria-atomic="true"
     >
       <span className="text-sm text-slate-500">{t.timer}:</span>
-      <span className="font-mono text-lg" aria-label={`${minutes} minutes ${secs} seconds`}>
-        {timeDisplay}
+      <span className="font-mono text-lg">
+        {String(Math.floor(seconds / 60)).padStart(2, "0")}:
+        {String(seconds % 60).padStart(2, "0")}
       </span>
       <div className="flex items-center gap-1">
         {!running ? (
@@ -674,7 +689,6 @@ function HeaderTimer({ t }) {
               e.stopPropagation();
               setRunning(true);
             }}
-            aria-label="Start timer"
           >
             ▶
           </button>
@@ -685,7 +699,6 @@ function HeaderTimer({ t }) {
               e.stopPropagation();
               setRunning(false);
             }}
-            aria-label="Pause timer"
           >
             ⏸
           </button>
@@ -695,9 +708,8 @@ function HeaderTimer({ t }) {
           onClick={(e) => {
             e.stopPropagation();
             setRunning(false);
-            setSeconds(TIMER_DEFAULT_SECONDS);
+            setSeconds(300);
           }}
-          aria-label="Reset timer"
         >
           ⟲
         </button>

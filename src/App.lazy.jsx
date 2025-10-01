@@ -1,7 +1,6 @@
-import { useMemo, useState, useEffect, useCallback } from "react";
+import { useMemo, useState, useEffect, useCallback, lazy, Suspense } from "react";
 import { Search } from "lucide-react";
 import principlesDataRaw from "./data_principles.js";
-import { HighlightableText } from "./components/HighlightableText.jsx";
 import { useDebounce } from "./hooks/useDebounce.js";
 import { useHighlight } from "./hooks/useHighlight.js";
 import {
@@ -24,7 +23,21 @@ import {
 } from "./constants.js";
 import "./App.css";
 
-// ---------- Labels & Ordem ----------
+// Lazy load HighlightableText component
+const HighlightableText = lazy(() =>
+  import('./components/HighlightableText.jsx').then(module => ({
+    default: module.HighlightableText
+  }))
+);
+
+// Loading component
+function LoadingSpinner() {
+  return (
+    <div className="inline-block w-4 h-4 border-2 border-slate-300 border-t-amber-500 rounded-full animate-spin" />
+  );
+}
+
+// Same constants and functions as before...
 const PT_KEYS = [
   "inventar e simplificar",
   "mentalidade de dono",
@@ -87,11 +100,9 @@ const EN_LABELS_FROM_PT = {
 const ORDER_PT = PT_KEYS;
 const ORDER_EN = PT_KEYS.map((k) => k);
 
-// Wrapper functions that use imported utilities
 const getDisplayName = (p, lang) => getDisplayNameUtil(p, lang, PT_LABELS, EN_LABELS_FROM_PT);
 const sortPrinciples = (arr, lang) => sortPrinciplesUtil(arr, lang, ORDER_PT, ORDER_EN);
 
-// ---------- i18n ----------
 const TEXTS = {
   pt: {
     kSearch: "Buscar por palavras-chave nos cases...",
@@ -125,7 +136,6 @@ const TEXTS = {
   },
 };
 
-// ---------- App ----------
 export default function App() {
   const [selectedPrinciple, setSelectedPrinciple] = useState("all");
   const [expandedCases, setExpandedCases] = useState({});
@@ -135,11 +145,9 @@ export default function App() {
   const [language, setLanguage] = useState("pt");
   const [isSearching, setIsSearching] = useState(false);
 
-  // Use debounced search for better performance
   const debouncedSearchTerm = useDebounce(searchTerm, DEBOUNCE_SEARCH_DELAY);
   const debouncedQuestionSearch = useDebounce(questionSearch, DEBOUNCE_SEARCH_DELAY);
 
-  // Use highlight hook instead of DOM manipulation
   const {
     highlightedFupId,
     highlightedCaseId,
@@ -158,7 +166,6 @@ export default function App() {
 
   const clearExpanded = useCallback(() => setExpandedCases({}), []);
 
-  // Memoize case title functions
   const getCaseBaseTitle = useCallback((c, lang) => {
     return getCaseBaseTitleUtil(c, lang);
   }, []);
@@ -167,7 +174,6 @@ export default function App() {
     return getDisplayCaseTitleUtil(c, lang);
   }, []);
 
-  // Show loading state when searching
   useEffect(() => {
     if (searchTerm || questionSearch) {
       setIsSearching(true);
@@ -178,7 +184,6 @@ export default function App() {
     }
   }, [searchTerm, questionSearch]);
 
-  // Filtro principal - now properly memoized
   const filteredPrinciples = useMemo(() => {
     let base = principlesData;
 
@@ -241,7 +246,6 @@ export default function App() {
     setSelectedPrinciple(principleId);
   }, [searchTerm, setHighlightSearchTerm]);
 
-  // FUP search results - memoized
   const fupSearchResults = useMemo(() => {
     if (!debouncedQuestionSearch) return [];
 
@@ -259,17 +263,24 @@ export default function App() {
       );
   }, [principlesData, debouncedQuestionSearch, language]);
 
+  // Wrap highlight text in Suspense
+  const HighlightedText = useCallback(({ text, searchTerm: term }) => (
+    <Suspense fallback={text}>
+      <HighlightableText text={text} searchTerm={term} />
+    </Suspense>
+  ), []);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-      {/* Cabeçalho Fixo */}
+      {/* Same JSX as before, but replace HighlightableText with HighlightedText */}
       <header
         id="stickyHeader"
         className="sticky top-0 z-30 border-b border-slate-200 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60"
         role="banner"
       >
+        {/* Header content - same as before */}
         <div className="max-w-[1600px] mx-auto px-6 py-3">
           <div className="grid grid-cols-12 gap-3 items-center">
-            {/* Busca por palavras (col-span-3) */}
             <div className="col-span-3">
               <div className="relative">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5" aria-hidden="true" />
@@ -291,7 +302,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* Busca por FUPs (col-span-3) */}
             <div className="col-span-3">
               <div id="kFup" className="relative">
                 <input
@@ -352,7 +362,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* Top Cases (col-span-2) */}
             <div className="col-span-2">
               <button
                 id="topCasesBtn"
@@ -377,12 +386,10 @@ export default function App() {
               </button>
             </div>
 
-            {/* Timer (col-span-2) */}
             <div className="col-span-2">
               <HeaderTimer t={t} />
             </div>
 
-            {/* Idioma (col-span-2) */}
             <div className="col-span-2">
               <div id="langBox" className="w-full flex gap-2" role="group" aria-label="Language selection">
                 <button
@@ -417,10 +424,8 @@ export default function App() {
         </div>
       </header>
 
-      {/* Conteúdo */}
       <div className="max-w-[1600px] mx-auto px-6 pt-6">
         <div className="grid grid-cols-12 gap-8">
-          {/* Sidebar */}
           <aside id="sidebar" className="col-span-12 xl:col-span-2" role="navigation" aria-label="Principles filter">
             <div
               className={`cursor-pointer p-2 rounded-lg transition ${
@@ -475,11 +480,10 @@ export default function App() {
             ))}
           </aside>
 
-          {/* Main */}
           <main className="col-span-12 xl:col-span-10 space-y-6" role="main">
             {isSearching && (
-              <div className="text-center py-4 text-slate-500" role="status" aria-live="polite">
-                Buscando...
+              <div className="text-center py-4 text-slate-500 flex items-center justify-center gap-2" role="status" aria-live="polite">
+                <LoadingSpinner /> Buscando...
               </div>
             )}
             {(filteredPrinciples || []).map((principle) => (
@@ -507,7 +511,6 @@ export default function App() {
                         isHighlighted ? 'ring-2 ring-amber-300 bg-amber-50' : 'border-blue-200'
                       }`}
                     >
-                      {/* Header clicável (área ampla) */}
                       <header
                         className={`flex items-center justify-between px-5 py-4 cursor-pointer ${
                           open ? "bg-white/80" : "bg-white/60"
@@ -533,7 +536,7 @@ export default function App() {
                       >
                         <div className="flex items-center gap-2">
                           <h3 className="text-lg font-bold text-slate-900">
-                            <HighlightableText
+                            <HighlightedText
                               text={getDisplayCaseTitle(c, language)}
                               searchTerm={highlightSearchTerm}
                             />
@@ -554,35 +557,35 @@ export default function App() {
                             <div className="space-y-2 leading-relaxed">
                               <p>
                                 <strong>{t.situation}:</strong>{" "}
-                                <HighlightableText
+                                <HighlightedText
                                   text={(c && c[language] && c[language].s) || ""}
                                   searchTerm={highlightSearchTerm}
                                 />
                               </p>
                               <p>
                                 <strong>{t.task}:</strong>{" "}
-                                <HighlightableText
+                                <HighlightedText
                                   text={(c && c[language] && c[language].t) || ""}
                                   searchTerm={highlightSearchTerm}
                                 />
                               </p>
                               <p>
                                 <strong>{t.action}:</strong>{" "}
-                                <HighlightableText
+                                <HighlightedText
                                   text={(c && c[language] && c[language].a) || ""}
                                   searchTerm={highlightSearchTerm}
                                 />
                               </p>
                               <p>
                                 <strong>{t.result}:</strong>{" "}
-                                <HighlightableText
+                                <HighlightedText
                                   text={(c && c[language] && c[language].r) || ""}
                                   searchTerm={highlightSearchTerm}
                                 />
                               </p>
                               <p>
                                 <strong>{t.learning}:</strong>{" "}
-                                <HighlightableText
+                                <HighlightedText
                                   text={(c && c[language] && c[language].l) || ""}
                                   searchTerm={highlightSearchTerm}
                                 />
@@ -639,7 +642,6 @@ export default function App() {
   );
 }
 
-// ---------- Subcomponent: Header Timer ----------
 function HeaderTimer({ t }) {
   const [seconds, setSeconds] = useState(TIMER_DEFAULT_SECONDS);
   const [running, setRunning] = useState(false);
