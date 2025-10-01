@@ -290,6 +290,51 @@ export default function App() {
       });
   }, [principlesData, debouncedTypicalQuestionSearch, language]);
 
+  // Case search results with context - memoized
+  const caseSearchResults = useMemo(() => {
+    if (!debouncedSearchTerm || debouncedSearchTerm.length < 2) return [];
+
+    const results = [];
+    const searchNorm = norm(debouncedSearchTerm);
+
+    (principlesData || []).forEach((p) => {
+      (p.cases || []).forEach((c) => {
+        const caseContent = language === "en" ? c.en : c.pt;
+        if (!caseContent) return;
+
+        // Search in all STAR fields
+        const fields = ['s', 't', 'a', 'r', 'l'];
+        fields.forEach(field => {
+          const text = caseContent[field] || '';
+          const textNorm = norm(text);
+          const index = textNorm.indexOf(searchNorm);
+
+          if (index !== -1) {
+            // Extract snippet with context (50 chars before/after)
+            const start = Math.max(0, index - 50);
+            const end = Math.min(text.length, index + searchNorm.length + 50);
+            let snippet = text.substring(start, end);
+
+            // Add ellipsis
+            if (start > 0) snippet = '...' + snippet;
+            if (end < text.length) snippet = snippet + '...';
+
+            results.push({
+              p,
+              c,
+              snippet,
+              field,
+              matchStart: index - start + (start > 0 ? 3 : 0), // Adjust for ellipsis
+              matchLength: debouncedSearchTerm.length
+            });
+          }
+        });
+      });
+    });
+
+    return results.slice(0, 10); // Limit to 10 results
+  }, [principlesData, debouncedSearchTerm, language]);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Cabeçalho Fixo */}
@@ -302,10 +347,9 @@ export default function App() {
           <div className="grid grid-cols-12 gap-3 items-center">
             {/* Busca por palavras (col-span-2) */}
             <div className="col-span-2">
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5" aria-hidden="true" />
+              <div id="kSearch" className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
                 <input
-                  id="kSearch"
                   type="search"
                   placeholder={t.kSearch}
                   value={searchTerm}
@@ -316,9 +360,68 @@ export default function App() {
                       clearExpanded();
                     }
                   }}
+                  onFocus={() => {
+                    setQuestionSearch("");
+                    setTypicalQuestionSearch("");
+                  }}
                   className="w-full pl-10 pr-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white"
                   aria-label={t.kSearch}
+                  aria-expanded={!!searchTerm && caseSearchResults.length > 0}
+                  aria-controls="case-dropdown"
                 />
+                {searchTerm && caseSearchResults.length > 0 && (
+                  <div
+                    id="case-dropdown"
+                    role="listbox"
+                    className="absolute z-20 mt-2 w-[500px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-96 overflow-auto"
+                  >
+                    {caseSearchResults.map((result, idx) => {
+                      const { p, c, snippet, matchStart, matchLength } = result;
+                      const before = snippet.substring(0, matchStart);
+                      const match = snippet.substring(matchStart, matchStart + matchLength);
+                      const after = snippet.substring(matchStart + matchLength);
+
+                      return (
+                        <div
+                          key={`case-result-${idx}`}
+                          role="option"
+                          tabIndex={0}
+                          className="px-4 py-3 hover:bg-slate-50 cursor-pointer border-b border-slate-100 last:border-0 focus:bg-slate-100 focus:outline-none"
+                          onClick={() => {
+                            setSelectedPrinciple(p.id);
+                            setShowTopCases(false);
+                            clearExpanded();
+                            clearHighlights();
+
+                            setTimeout(() => {
+                              setExpandedCases({ [c.title]: true });
+                              setSearchTerm("");
+                              setHighlightSearchTerm(match);
+
+                              const caseDomId = `case-${slugify(c.id || c.title)}`;
+                              setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
+                            }, 0);
+                          }}
+                          onKeyDown={(e) => {
+                            if (e.key === 'Enter' || e.key === ' ') {
+                              e.preventDefault();
+                              e.currentTarget.click();
+                            }
+                          }}
+                        >
+                          <div className="text-sm mb-1">
+                            <span className="text-slate-600">{before}</span>
+                            <span className="bg-amber-200 font-semibold">{match}</span>
+                            <span className="text-slate-600">{after}</span>
+                          </div>
+                          <div className="text-xs text-slate-500 mt-1">
+                            {getDisplayCaseTitle(c, language)} • {getDisplayName(p, language)}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
             </div>
 
@@ -330,6 +433,10 @@ export default function App() {
                   placeholder={t.kFup}
                   value={questionSearch}
                   onChange={(e) => setQuestionSearch(e.target.value)}
+                  onFocus={() => {
+                    setSearchTerm("");
+                    setTypicalQuestionSearch("");
+                  }}
                   className="w-full pl-3 pr-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white"
                   aria-label={t.kFup}
                   aria-expanded={!!questionSearch}
@@ -391,6 +498,10 @@ export default function App() {
                   placeholder={t.kTypical}
                   value={typicalQuestionSearch}
                   onChange={(e) => setTypicalQuestionSearch(e.target.value)}
+                  onFocus={() => {
+                    setSearchTerm("");
+                    setQuestionSearch("");
+                  }}
                   className="w-full pl-3 pr-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white"
                   aria-label={t.kTypical}
                   aria-expanded={!!typicalQuestionSearch}

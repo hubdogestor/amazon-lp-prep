@@ -82,7 +82,7 @@ const typicalQuestions = {
       "Describe a situation where you were transparent even when uncomfortable"
     ]
   },
-  "obsessao pelo cliente": {
+  "customer_obsession": {
     pt: [
       "Me fale sobre uma vez que você colocou o cliente em primeiro lugar",
       "Conte sobre quando você teve que escolher entre cliente e métricas internas",
