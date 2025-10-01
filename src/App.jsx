@@ -1,6 +1,7 @@
 import { useMemo, useState, useEffect, useCallback } from "react";
 import { Search } from "lucide-react";
 import principlesDataRaw from "./data_principles.js";
+import icebreakerData from "./data/icebreaker.js";
 import { HighlightableText } from "./components/HighlightableText.jsx";
 import { useDebounce } from "./hooks/useDebounce.js";
 import { useHighlight } from "./hooks/useHighlight.js";
@@ -100,6 +101,7 @@ const TEXTS = {
     close: "Fechar",
     filterAll: "Todos os princípios",
     topCases: "Top Cases",
+    icebreaker: "Icebreaker",
     noResult: "Sem resultados",
     situation: "Situação",
     task: "Tarefa",
@@ -115,6 +117,7 @@ const TEXTS = {
     close: "Close",
     filterAll: "All principles",
     topCases: "Top Cases",
+    icebreaker: "Icebreaker",
     noResult: "No results",
     situation: "Situation",
     task: "Task",
@@ -132,6 +135,7 @@ export default function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [questionSearch, setQuestionSearch] = useState("");
   const [showTopCases, setShowTopCases] = useState(false);
+  const [showIcebreaker, setShowIcebreaker] = useState(false);
   const [language, setLanguage] = useState("pt");
   const [isSearching, setIsSearching] = useState(false);
 
@@ -352,8 +356,8 @@ export default function App() {
               </div>
             </div>
 
-            {/* Top Cases (col-span-2) */}
-            <div className="col-span-2">
+            {/* Top Cases (col-span-1) */}
+            <div className="col-span-1">
               <button
                 id="topCasesBtn"
                 className={`w-full px-3 py-2 rounded-lg text-sm border transition ${
@@ -374,6 +378,22 @@ export default function App() {
                 title="Mostrar apenas Top Cases"
               >
                 🎯 {t.topCases}
+              </button>
+            </div>
+
+            {/* Icebreaker (col-span-1) */}
+            <div className="col-span-1">
+              <button
+                id="icebreakerBtn"
+                className="w-full px-3 py-2 rounded-lg text-sm border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setShowIcebreaker(true);
+                }}
+                aria-label="Open Icebreaker questions"
+                title="Perguntas iniciais de rapport"
+              >
+                💬 {t.icebreaker}
               </button>
             </div>
 
@@ -416,6 +436,14 @@ export default function App() {
           </div>
         </div>
       </header>
+
+      {/* Modal Icebreaker */}
+      {showIcebreaker && (
+        <IcebreakerModal
+          language={language}
+          onClose={() => setShowIcebreaker(false)}
+        />
+      )}
 
       {/* Conteúdo */}
       <div className="max-w-[1600px] mx-auto px-6 pt-6">
@@ -633,6 +661,67 @@ export default function App() {
               </section>
             ))}
           </main>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ---------- Subcomponent: Icebreaker Modal ----------
+function IcebreakerModal({ language, onClose }) {
+  const data = icebreakerData[language];
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm"
+      onClick={onClose}
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="icebreaker-title"
+    >
+      <div
+        className="bg-white rounded-xl shadow-2xl max-w-4xl w-full max-h-[85vh] overflow-hidden mx-4"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-4 flex items-center justify-between">
+          <h2 id="icebreaker-title" className="text-2xl font-bold text-white flex items-center gap-2">
+            💬 {data.title}
+          </h2>
+          <button
+            onClick={onClose}
+            className="text-white hover:bg-white/20 rounded-lg px-3 py-1 transition"
+            aria-label="Close icebreaker modal"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div className="p-6 overflow-y-auto max-h-[calc(85vh-80px)]">
+          <div className="space-y-6">
+            {data.questions.map((item, idx) => (
+              <div
+                key={idx}
+                className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-lg p-5 border border-slate-200 hover:shadow-md transition"
+              >
+                <h3 className="text-lg font-bold text-slate-900 mb-3 flex items-start gap-2">
+                  <span className="text-blue-600 font-mono text-sm mt-1">Q{idx + 1}</span>
+                  <span>{item.q}</span>
+                </h3>
+                <div className="pl-7 text-slate-700 leading-relaxed whitespace-pre-line">
+                  {item.a}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="bg-slate-50 px-6 py-4 border-t border-slate-200 flex justify-end">
+          <button
+            onClick={onClose}
+            className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-medium"
+          >
+            {language === "pt" ? "Fechar" : "Close"}
+          </button>
         </div>
       </div>
     </div>
