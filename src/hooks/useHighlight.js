@@ -7,6 +7,7 @@ import { useState, useCallback, useRef, useEffect } from 'react';
 export function useHighlight() {
   const [highlightedFupId, setHighlightedFupId] = useState(null);
   const [highlightedCaseId, setHighlightedCaseId] = useState(null);
+  const [highlightedTypicalQuestionId, setHighlightedTypicalQuestionId] = useState(null);
   const [highlightSearchTerm, setHighlightSearchTerm] = useState("");
 
   // Track pending scroll to prevent race conditions
@@ -33,6 +34,7 @@ export function useHighlight() {
 
     setHighlightedFupId(null);
     setHighlightedCaseId(null);
+    setHighlightedTypicalQuestionId(null);
   }, []);
 
   /**
@@ -81,13 +83,38 @@ export function useHighlight() {
     }, delay);
   }, [clearHighlights]);
 
+  /**
+   * Set highlighted typical question with safe scroll
+   * @param {string} questionId - Typical question element ID
+   * @param {number} delay - Delay before scroll
+   */
+  const setHighlightedTypicalQuestion = useCallback((questionId, delay = 120) => {
+    // Cancel any pending scroll
+    if (pendingScrollRef.current) {
+      clearTimeout(pendingScrollRef.current);
+    }
+
+    clearHighlights();
+    setHighlightedTypicalQuestionId(questionId);
+
+    pendingScrollRef.current = setTimeout(() => {
+      const el = document.getElementById(questionId);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+      pendingScrollRef.current = null;
+    }, delay);
+  }, [clearHighlights]);
+
   return {
     highlightedFupId,
     highlightedCaseId,
+    highlightedTypicalQuestionId,
     highlightSearchTerm,
     setHighlightSearchTerm,
     clearHighlights,
     setHighlightedFup,
     setHighlightedCase,
+    setHighlightedTypicalQuestion,
   };
 }

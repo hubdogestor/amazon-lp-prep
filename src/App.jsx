@@ -3,6 +3,7 @@ import { Search } from "lucide-react";
 import principlesDataRaw from "./data_principles.js";
 import icebreakerData from "./data/icebreaker.js";
 import myQuestionsData from "./data/myQuestions.js";
+import typicalQuestions from "./data/typicalQuestions.js";
 import { HighlightableText } from "./components/HighlightableText.jsx";
 import { useDebounce } from "./hooks/useDebounce.js";
 import { useHighlight } from "./hooks/useHighlight.js";
@@ -98,6 +99,7 @@ const TEXTS = {
   pt: {
     kSearch: "Buscar por palavras-chave nos cases...",
     kFup: "Buscar SOMENTE perguntas (FUPs)...",
+    kTypical: "Buscar perguntas típicas do entrevistador...",
     viewDetails: "Ver detalhes",
     close: "Fechar",
     filterAll: "Todos os princípios",
@@ -115,6 +117,7 @@ const TEXTS = {
   en: {
     kSearch: "Search for keywords in cases...",
     kFup: "Search QUESTIONS only (FUPs)...",
+    kTypical: "Search typical interviewer questions...",
     viewDetails: "View details",
     close: "Close",
     filterAll: "All principles",
@@ -137,6 +140,7 @@ export default function App() {
   const [expandedCases, setExpandedCases] = useState({});
   const [searchTerm, setSearchTerm] = useState("");
   const [questionSearch, setQuestionSearch] = useState("");
+  const [typicalQuestionSearch, setTypicalQuestionSearch] = useState("");
   const [showTopCases, setShowTopCases] = useState(false);
   const [showIcebreaker, setShowIcebreaker] = useState(false);
   const [showMyQuestions, setShowMyQuestions] = useState(false);
@@ -146,16 +150,19 @@ export default function App() {
   // Use debounced search for better performance
   const debouncedSearchTerm = useDebounce(searchTerm, DEBOUNCE_SEARCH_DELAY);
   const debouncedQuestionSearch = useDebounce(questionSearch, DEBOUNCE_SEARCH_DELAY);
+  const debouncedTypicalQuestionSearch = useDebounce(typicalQuestionSearch, DEBOUNCE_SEARCH_DELAY);
 
   // Use highlight hook instead of DOM manipulation
   const {
     highlightedFupId,
     highlightedCaseId,
+    highlightedTypicalQuestionId,
     highlightSearchTerm,
     setHighlightSearchTerm,
     clearHighlights,
     setHighlightedFup,
     setHighlightedCase,
+    setHighlightedTypicalQuestion,
   } = useHighlight();
 
   const t = TEXTS[language];
@@ -267,6 +274,22 @@ export default function App() {
       );
   }, [principlesData, debouncedQuestionSearch, language]);
 
+  // Typical question search results - memoized
+  const typicalQuestionSearchResults = useMemo(() => {
+    if (!debouncedTypicalQuestionSearch) return [];
+
+    return (principlesData || [])
+      .flatMap((p) => {
+        const questions = typicalQuestions[p.id];
+        if (!questions) return [];
+
+        const questionsList = language === "en" ? questions.en : questions.pt;
+        return questionsList
+          .map((q, idx) => ({ p, q, idx }))
+          .filter(({ q }) => norm(q).includes(norm(debouncedTypicalQuestionSearch)));
+      });
+  }, [principlesData, debouncedTypicalQuestionSearch, language]);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Cabeçalho Fixo */}
@@ -277,8 +300,8 @@ export default function App() {
       >
         <div className="max-w-[1600px] mx-auto px-6 py-3">
           <div className="grid grid-cols-12 gap-3 items-center">
-            {/* Busca por palavras (col-span-3) */}
-            <div className="col-span-3">
+            {/* Busca por palavras (col-span-2) */}
+            <div className="col-span-2">
               <div className="relative">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5" aria-hidden="true" />
                 <input
@@ -299,8 +322,8 @@ export default function App() {
               </div>
             </div>
 
-            {/* Busca por FUPs (col-span-3) */}
-            <div className="col-span-3">
+            {/* Busca por FUPs (col-span-2) */}
+            <div className="col-span-2">
               <div id="kFup" className="relative">
                 <input
                   type="search"
@@ -353,6 +376,63 @@ export default function App() {
                       </div>
                     ))}
                     {fupSearchResults.length === 0 && (
+                      <div className="px-3 py-2 text-slate-500 text-sm">{t.noResult}</div>
+                    )}
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Busca por Perguntas Típicas (col-span-2) */}
+            <div className="col-span-2">
+              <div id="kTypical" className="relative">
+                <input
+                  type="search"
+                  placeholder={t.kTypical}
+                  value={typicalQuestionSearch}
+                  onChange={(e) => setTypicalQuestionSearch(e.target.value)}
+                  className="w-full pl-3 pr-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white"
+                  aria-label={t.kTypical}
+                  aria-expanded={!!typicalQuestionSearch}
+                  aria-controls="typical-dropdown"
+                />
+                {typicalQuestionSearch && (
+                  <div
+                    id="typical-dropdown"
+                    role="listbox"
+                    className="absolute z-20 mt-2 w-full bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
+                  >
+                    {typicalQuestionSearchResults.map(({ p, q, idx }, k) => (
+                      <div
+                        key={`${p.id}-typical-${idx}-${k}`}
+                        role="option"
+                        tabIndex={0}
+                        className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
+                        onClick={() => {
+                          setSelectedPrinciple(p.id);
+                          setShowTopCases(false);
+                          setSearchTerm("");
+                          clearExpanded();
+                          clearHighlights();
+
+                          setTimeout(() => {
+                            setTypicalQuestionSearch("");
+                            const anchorId = `typical-q-${p.id}-${idx}`;
+                            setHighlightedTypicalQuestion(anchorId, 120);
+                          }, 0);
+                        }}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            e.currentTarget.click();
+                          }
+                        }}
+                      >
+                        <div className="font-medium text-slate-800">{q}</div>
+                        <div className="text-slate-500">{getDisplayName(p, language)}</div>
+                      </div>
+                    ))}
+                    {typicalQuestionSearchResults.length === 0 && (
                       <div className="px-3 py-2 text-slate-500 text-sm">{t.noResult}</div>
                     )}
                   </div>
@@ -546,6 +626,32 @@ export default function App() {
                     <p className="text-slate-600 italic leading-relaxed">
                       {language === "en" ? (principle.principle.description_en || principle.principle.description) : principle.principle.description}
                     </p>
+                  )}
+
+                  {/* Perguntas Típicas */}
+                  {typicalQuestions[principle.id] && (
+                    <div className="mt-4 bg-purple-50 border border-purple-200 rounded-lg p-4">
+                      <h3 className="text-sm font-bold text-purple-900 mb-2 uppercase tracking-wide">
+                        💭 {language === "pt" ? "Perguntas Típicas do Entrevistador" : "Typical Interviewer Questions"}
+                      </h3>
+                      <ul className="space-y-1.5">
+                        {(language === "en" ? typicalQuestions[principle.id].en : typicalQuestions[principle.id].pt).map((q, qIdx) => {
+                          const questionId = `typical-q-${principle.id}-${qIdx}`;
+                          const isHighlighted = highlightedTypicalQuestionId === questionId;
+                          return (
+                            <li
+                              key={qIdx}
+                              id={questionId}
+                              className={`text-sm text-purple-800 transition-all duration-300 ${
+                                isHighlighted ? 'bg-yellow-200 font-bold px-2 py-1 rounded' : ''
+                              }`}
+                            >
+                              • {q}
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
                   )}
                 </div>
 
