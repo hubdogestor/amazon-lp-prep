@@ -290,12 +290,14 @@ export default function App() {
       });
   }, [principlesData, debouncedTypicalQuestionSearch, language]);
 
-  // Case search results with context - memoized
+  // Case search results with context - memoized (multi-word support)
   const caseSearchResults = useMemo(() => {
     if (!debouncedSearchTerm || debouncedSearchTerm.length < 2) return [];
 
     const results = [];
-    const searchNorm = norm(debouncedSearchTerm);
+    // Split search into multiple words
+    const searchWords = debouncedSearchTerm.trim().split(/\s+/).filter(w => w.length > 0);
+    const searchWordsNorm = searchWords.map(w => norm(w));
 
     (principlesData || []).forEach((p) => {
       (p.cases || []).forEach((c) => {
@@ -307,27 +309,47 @@ export default function App() {
         fields.forEach(field => {
           const text = caseContent[field] || '';
           const textNorm = norm(text);
-          const index = textNorm.indexOf(searchNorm);
 
-          if (index !== -1) {
-            // Extract snippet with context (50 chars before/after)
-            const start = Math.max(0, index - 50);
-            const end = Math.min(text.length, index + searchNorm.length + 50);
-            let snippet = text.substring(start, end);
+          // Check if ALL words are present
+          const allWordsPresent = searchWordsNorm.every(word => textNorm.includes(word));
+          if (!allWordsPresent) return;
 
-            // Add ellipsis
-            if (start > 0) snippet = '...' + snippet;
-            if (end < text.length) snippet = snippet + '...';
+          // Find positions of all words
+          const wordPositions = searchWordsNorm.map(word => ({
+            word,
+            index: textNorm.indexOf(word)
+          })).filter(wp => wp.index !== -1);
 
-            results.push({
-              p,
-              c,
-              snippet,
-              field,
-              matchStart: index - start + (start > 0 ? 3 : 0), // Adjust for ellipsis
-              matchLength: debouncedSearchTerm.length
-            });
-          }
+          if (wordPositions.length === 0) return;
+
+          // Find first match position for snippet context
+          const firstMatch = Math.min(...wordPositions.map(wp => wp.index));
+
+          // Extract snippet with context (80 chars before/after first match)
+          const start = Math.max(0, firstMatch - 80);
+          const end = Math.min(text.length, firstMatch + 150);
+          let snippet = text.substring(start, end);
+
+          // Add ellipsis
+          if (start > 0) snippet = '...' + snippet;
+          if (end < text.length) snippet = snippet + '...';
+
+          // Calculate match positions in snippet
+          const snippetOffset = start > 0 ? 3 : 0; // Ellipsis offset
+          const matches = wordPositions.map(wp => ({
+            start: wp.index - start + snippetOffset,
+            length: wp.word.length,
+            word: wp.word
+          }));
+
+          results.push({
+            p,
+            c,
+            snippet,
+            field,
+            matches,
+            searchWords
+          });
         });
       });
     });
@@ -373,13 +395,47 @@ export default function App() {
                   <div
                     id="case-dropdown"
                     role="listbox"
-                    className="absolute z-20 mt-2 w-[500px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-96 overflow-auto"
+                    className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-96 overflow-auto"
                   >
                     {caseSearchResults.map((result, idx) => {
-                      const { p, c, snippet, matchStart, matchLength } = result;
-                      const before = snippet.substring(0, matchStart);
-                      const match = snippet.substring(matchStart, matchStart + matchLength);
-                      const after = snippet.substring(matchStart + matchLength);
+                      const { p, c, snippet, matches, searchWords } = result;
+
+                      // Build snippet with multiple highlights
+                      const renderSnippet = () => {
+                        // Sort matches by position
+                        const sortedMatches = [...matches].sort((a, b) => a.start - b.start);
+                        const parts = [];
+                        let lastEnd = 0;
+
+                        sortedMatches.forEach((match, i) => {
+                          // Add text before this match
+                          if (match.start > lastEnd) {
+                            parts.push(
+                              <span key={`text-${i}`} className="text-slate-600">
+                                {snippet.substring(lastEnd, match.start)}
+                              </span>
+                            );
+                          }
+                          // Add highlighted match
+                          parts.push(
+                            <span key={`match-${i}`} className="bg-amber-200 font-semibold">
+                              {snippet.substring(match.start, match.start + match.length)}
+                            </span>
+                          );
+                          lastEnd = match.start + match.length;
+                        });
+
+                        // Add remaining text
+                        if (lastEnd < snippet.length) {
+                          parts.push(
+                            <span key="text-end" className="text-slate-600">
+                              {snippet.substring(lastEnd)}
+                            </span>
+                          );
+                        }
+
+                        return parts;
+                      };
 
                       return (
                         <div
@@ -396,7 +452,7 @@ export default function App() {
                             setTimeout(() => {
                               setExpandedCases({ [c.title]: true });
                               setSearchTerm("");
-                              setHighlightSearchTerm(match);
+                              setHighlightSearchTerm(searchWords.join(' '));
 
                               const caseDomId = `case-${slugify(c.id || c.title)}`;
                               setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
@@ -410,9 +466,7 @@ export default function App() {
                           }}
                         >
                           <div className="text-sm mb-1">
-                            <span className="text-slate-600">{before}</span>
-                            <span className="bg-amber-200 font-semibold">{match}</span>
-                            <span className="text-slate-600">{after}</span>
+                            {renderSnippet()}
                           </div>
                           <div className="text-xs text-slate-500 mt-1">
                             {getDisplayCaseTitle(c, language)} • {getDisplayName(p, language)}
@@ -446,7 +500,7 @@ export default function App() {
                   <div
                     id="fup-dropdown"
                     role="listbox"
-                    className="absolute z-20 mt-2 w-full bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
+                    className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
                   >
                     {fupSearchResults.map(({ p, c, f, originalIdx }, k) => (
                       <div
@@ -511,7 +565,7 @@ export default function App() {
                   <div
                     id="typical-dropdown"
                     role="listbox"
-                    className="absolute z-20 mt-2 w-full bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
+                    className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
                   >
                     {typicalQuestionSearchResults.map(({ p, q, idx }, k) => (
                       <div
