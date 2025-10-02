@@ -873,7 +873,7 @@ export default function App() {
                             <div
                               key={qIdx}
                               id={questionId}
-                              className={`px-3 py-2 bg-white/60 border border-blue-200 rounded text-xs text-[#232F3E] transition-all duration-300 hover:bg-white hover:shadow-sm flex items-center justify-center min-h-[60px] ${
+                              className={`px-3 py-2 bg-white/60 border border-blue-200 rounded text-xs text-[#232F3E] transition-all duration-300 hover:bg-white hover:shadow-sm flex items-center justify-center text-center min-h-[60px] ${
                                 isHighlighted ? 'bg-yellow-200 font-bold shadow-md' : ''
                               }`}
                             >

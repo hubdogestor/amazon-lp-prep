@@ -58,7 +58,7 @@ const typicalQuestions = {
       "Describe when you created a mechanism to prevent recurring problems in payments"
     ]
   },
-  "invent_and_simplify": {
+  "invent_simplify": {
     pt: [
       "Conte sobre uma inovação que você implementou que simplificou um processo (que era complexo)?",
       "Me fale sobre uma solução criativa que você desenvolveu",
