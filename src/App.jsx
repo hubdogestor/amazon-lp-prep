@@ -97,9 +97,9 @@ const sortPrinciples = (arr, lang) => sortPrinciplesUtil(arr, lang, ORDER_PT, OR
 // ---------- i18n ----------
 const TEXTS = {
   pt: {
-    kSearch: "Buscar por palavras-chave nos cases...",
-    kFup: "Buscar SOMENTE perguntas (FUPs)...",
-    kTypical: "Buscar perguntas típicas do entrevistador...",
+    kSearch: "CASES 🗂️",
+    kFup: "FUP 🔎",
+    kTypical: "PERGUNTAS ❓",
     viewDetails: "Ver detalhes",
     close: "Fechar",
     filterAll: "Todos os princípios",
@@ -115,9 +115,9 @@ const TEXTS = {
     timer: "Timer",
   },
   en: {
-    kSearch: "Search for keywords in cases...",
-    kFup: "Search QUESTIONS only (FUPs)...",
-    kTypical: "Search typical interviewer questions...",
+    kSearch: "CASES 🗂️",
+    kFup: "FUP 🔎",
+    kTypical: "PERGUNTAS ❓",
     viewDetails: "View details",
     close: "Close",
     filterAll: "All principles",
@@ -256,9 +256,13 @@ export default function App() {
     setSelectedPrinciple(principleId);
   }, [searchTerm, setHighlightSearchTerm]);
 
-  // FUP search results - memoized
+  // FUP search results - memoized (multi-word support)
   const fupSearchResults = useMemo(() => {
     if (!debouncedQuestionSearch) return [];
+
+    // Split search into multiple words
+    const searchWords = debouncedQuestionSearch.trim().split(/\s+/).filter(w => w.length > 0);
+    const searchWordsNorm = searchWords.map(w => norm(w));
 
     return (principlesData || [])
       .flatMap((p) =>
@@ -268,7 +272,9 @@ export default function App() {
             .map((f, originalIdx) => ({ p, c, f, originalIdx }))
             .filter(({ f }) => {
               const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
-              return norm(qTxt).includes(norm(debouncedQuestionSearch));
+              const qTxtNorm = norm(qTxt);
+              // Check if ALL words are present
+              return searchWordsNorm.every(word => qTxtNorm.includes(word));
             });
         })
       );
@@ -278,6 +284,10 @@ export default function App() {
   const typicalQuestionSearchResults = useMemo(() => {
     if (!debouncedTypicalQuestionSearch) return [];
 
+    // Split search into multiple words
+    const searchWords = debouncedTypicalQuestionSearch.trim().split(/\s+/).filter(w => w.length > 0);
+    const searchWordsNorm = searchWords.map(w => norm(w));
+
     return (principlesData || [])
       .flatMap((p) => {
         const questions = typicalQuestions[p.id];
@@ -286,7 +296,10 @@ export default function App() {
         const questionsList = language === "en" ? questions.en : questions.pt;
         return questionsList
           .map((q, idx) => ({ p, q, idx }))
-          .filter(({ q }) => norm(q).includes(norm(debouncedTypicalQuestionSearch)));
+          .filter(({ q }) => {
+            const qNorm = norm(q);
+            return searchWordsNorm.every(word => qNorm.includes(word));
+          });
       });
   }, [principlesData, debouncedTypicalQuestionSearch, language]);
 
@@ -386,7 +399,7 @@ export default function App() {
                     setQuestionSearch("");
                     setTypicalQuestionSearch("");
                   }}
-                  className="w-full pl-10 pr-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white"
+                  className="w-full pl-10 pr-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
                   aria-label={t.kSearch}
                   aria-expanded={!!searchTerm && caseSearchResults.length > 0}
                   aria-controls="case-dropdown"
@@ -444,15 +457,18 @@ export default function App() {
                           tabIndex={0}
                           className="px-4 py-3 hover:bg-slate-50 cursor-pointer border-b border-slate-100 last:border-0 focus:bg-slate-100 focus:outline-none"
                           onClick={() => {
+                            // Save search words BEFORE clearing
+                            const savedSearchWords = [...searchWords];
+
                             setSelectedPrinciple(p.id);
                             setShowTopCases(false);
+                            setSearchTerm("");
                             clearExpanded();
                             clearHighlights();
 
                             setTimeout(() => {
                               setExpandedCases({ [c.title]: true });
-                              setSearchTerm("");
-                              setHighlightSearchTerm(searchWords.join(' '));
+                              setHighlightSearchTerm(savedSearchWords.join(' '));
 
                               const caseDomId = `case-${slugify(c.id || c.title)}`;
                               setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
@@ -482,6 +498,7 @@ export default function App() {
             {/* Busca por FUPs (col-span-2) */}
             <div className="col-span-2">
               <div id="kFup" className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
                 <input
                   type="search"
                   placeholder={t.kFup}
@@ -491,7 +508,7 @@ export default function App() {
                     setSearchTerm("");
                     setTypicalQuestionSearch("");
                   }}
-                  className="w-full pl-3 pr-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white"
+                  className="w-full pl-10 pr-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
                   aria-label={t.kFup}
                   aria-expanded={!!questionSearch}
                   aria-controls="fup-dropdown"
@@ -509,6 +526,9 @@ export default function App() {
                         tabIndex={0}
                         className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
                         onClick={() => {
+                          // Save search words BEFORE clearing (same as CASES)
+                          const searchWords = debouncedQuestionSearch.trim().split(/\s+/).filter(w => w.length > 0);
+
                           setSelectedPrinciple(p.id);
                           setShowTopCases(false);
                           setSearchTerm("");
@@ -518,6 +538,7 @@ export default function App() {
                           setTimeout(() => {
                             setExpandedCases({ [c.title]: true });
                             setQuestionSearch("");
+                            setHighlightSearchTerm(searchWords.join(' ')); // Set highlight terms like CASES
 
                             const anchorId = `fup-${p.id}-${slugify(c.id || c.title)}-${originalIdx}`;
                             setHighlightedFup(anchorId, FUP_SCROLL_DELAY);
@@ -530,7 +551,12 @@ export default function App() {
                           }
                         }}
                       >
-                        <div className="font-medium text-slate-800">{language === "en" ? (f.q_en || f.q) : f.q}</div>
+                        <div className="font-medium text-slate-800">
+                          <HighlightableText
+                            text={language === "en" ? (f.q_en || f.q) : f.q}
+                            searchTerm={debouncedQuestionSearch}
+                          />
+                        </div>
                         <div className="text-slate-500">
                           {getDisplayName(p, language)} • {getDisplayCaseTitle(c, language)}
                         </div>
@@ -547,6 +573,7 @@ export default function App() {
             {/* Busca por Perguntas Típicas (col-span-2) */}
             <div className="col-span-2">
               <div id="kTypical" className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
                 <input
                   type="search"
                   placeholder={t.kTypical}
@@ -556,7 +583,7 @@ export default function App() {
                     setSearchTerm("");
                     setQuestionSearch("");
                   }}
-                  className="w-full pl-3 pr-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white"
+                  className="w-full pl-10 pr-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white text-center"
                   aria-label={t.kTypical}
                   aria-expanded={!!typicalQuestionSearch}
                   aria-controls="typical-dropdown"
@@ -574,6 +601,9 @@ export default function App() {
                         tabIndex={0}
                         className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
                         onClick={() => {
+                          // Save search words BEFORE clearing (same as CASES)
+                          const searchWords = debouncedTypicalQuestionSearch.trim().split(/\s+/).filter(w => w.length > 0);
+
                           setSelectedPrinciple(p.id);
                           setShowTopCases(false);
                           setSearchTerm("");
@@ -582,6 +612,7 @@ export default function App() {
 
                           setTimeout(() => {
                             setTypicalQuestionSearch("");
+                            setHighlightSearchTerm(searchWords.join(' ')); // Set highlight terms like CASES
                             const anchorId = `typical-q-${p.id}-${idx}`;
                             setHighlightedTypicalQuestion(anchorId, 120);
                           }, 0);
@@ -593,7 +624,12 @@ export default function App() {
                           }
                         }}
                       >
-                        <div className="font-medium text-slate-800">{q}</div>
+                        <div className="font-medium text-slate-800">
+                          <HighlightableText
+                            text={q}
+                            searchTerm={debouncedTypicalQuestionSearch}
+                          />
+                        </div>
                         <div className="text-slate-500">{getDisplayName(p, language)}</div>
                       </div>
                     ))}
@@ -758,6 +794,8 @@ export default function App() {
                   setSelectedPrinciple(p.id);
                   setShowTopCases(false);
                   setSearchTerm("");
+                  setQuestionSearch(""); // Clear FUP search
+                  setTypicalQuestionSearch(""); // Clear Typical Questions search
                   clearHighlights();
                   clearExpanded();
                 }}
@@ -811,7 +849,10 @@ export default function App() {
                                 isHighlighted ? 'bg-yellow-200 font-bold px-2 py-1 rounded' : ''
                               }`}
                             >
-                              • {q}
+                              • <HighlightableText
+                                text={q}
+                                searchTerm={highlightSearchTerm}
+                              />
                             </li>
                           );
                         })}
@@ -1141,7 +1182,7 @@ function MyQuestionsModal({ language, onClose }) {
 }
 
 // ---------- Subcomponent: Header Timer ----------
-function HeaderTimer({ t }) {
+function HeaderTimer() {
   const [seconds, setSeconds] = useState(TIMER_DEFAULT_SECONDS);
   const [running, setRunning] = useState(false);
 

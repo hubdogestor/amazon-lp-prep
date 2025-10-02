@@ -35,6 +35,7 @@ export function useHighlight() {
     setHighlightedFupId(null);
     setHighlightedCaseId(null);
     setHighlightedTypicalQuestionId(null);
+    setHighlightSearchTerm(""); // Clear search term highlights too!
   }, []);
 
   /**
