@@ -796,6 +796,7 @@ export default function App() {
                   setSearchTerm("");
                   setQuestionSearch(""); // Clear FUP search
                   setTypicalQuestionSearch(""); // Clear Typical Questions search
+                  setHighlightSearchTerm(""); // Clear highlight search term
                   clearHighlights();
                   clearExpanded();
                 }}
@@ -831,13 +832,13 @@ export default function App() {
                     </p>
                   )}
 
-                  {/* Perguntas Típicas - Amazon Style (azul) */}
+                  {/* Perguntas Típicas - Amazon Style (azul) em 2-3 colunas */}
                   {typicalQuestions[principle.id] && (
                     <div className="mt-4 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 rounded-lg p-4 shadow-sm">
-                      <h3 className="text-sm font-bold text-[#232F3E] mb-2 uppercase tracking-wide flex items-center gap-2">
+                      <h3 className="text-sm font-bold text-[#232F3E] mb-3 uppercase tracking-wide flex items-center gap-2">
                         💭 {language === "pt" ? "Perguntas Típicas do Entrevistador" : "Typical Interviewer Questions"}
                       </h3>
-                      <ul className="space-y-1.5">
+                      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
                         {(language === "en" ? typicalQuestions[principle.id].en : typicalQuestions[principle.id].pt).map((q, qIdx) => {
                           const questionId = `typical-q-${principle.id}-${qIdx}`;
                           const isHighlighted = highlightedTypicalQuestionId === questionId;
@@ -927,7 +928,7 @@ export default function App() {
                         >
                           <div className="space-y-3">
                             <h4 className="text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 mb-3">📋 STAR Case</h4>
-                            <div className="space-y-3 leading-relaxed text-base">
+                            <div className="space-y-3 leading-relaxed text-lg">
                               <p>
                                 <strong>{t.situation}:</strong>{" "}
                                 <HighlightableText
@@ -971,7 +972,7 @@ export default function App() {
                             {(() => {
                               const fups = getCaseFups(c);
                               return fups.length > 0 ? (
-                                <ul className="list-disc pl-5 space-y-2">
+                                <ul className="list-disc pl-5 space-y-2 text-sm">
                                   {fups.map((f, fIdx) => {
                                     const fupId = `fup-${principle.id}-${slugify(c.id || c.title)}-${fIdx}`;
                                     const question = language === "en" ? (f.q_en || f.q) : f.q;

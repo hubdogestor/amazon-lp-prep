@@ -23,7 +23,7 @@ export function useHighlight() {
   }, []);
 
   /**
-   * Clear all highlights
+   * Clear all highlights (but preserve search term)
    */
   const clearHighlights = useCallback(() => {
     // Cancel any pending scroll operations
@@ -35,7 +35,8 @@ export function useHighlight() {
     setHighlightedFupId(null);
     setHighlightedCaseId(null);
     setHighlightedTypicalQuestionId(null);
-    setHighlightSearchTerm(""); // Clear search term highlights too!
+    // NOTE: We DON'T clear highlightSearchTerm here anymore!
+    // It should persist until user clears the search or selects a different principle
   }, []);
 
   /**

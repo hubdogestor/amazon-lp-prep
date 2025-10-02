@@ -2,212 +2,252 @@
 // Perguntas típicas que entrevistadores fazem para cada Leadership Principle
 
 const typicalQuestions = {
-  "invent_and_simplify": {
-    pt: [
-      "Conte sobre uma vez que você inventou algo",
-      "Me fale sobre uma solução criativa que você desenvolveu",
-      "Como você simplifica processos complexos?",
-      "Descreva uma situação onde você desafiou o status quo",
-      "Conte sobre uma inovação que você implementou"
-    ],
-    en: [
-      "Tell me about a time you invented something",
-      "Tell me about a creative solution you developed",
-      "How do you simplify complex processes?",
-      "Describe a situation where you challenged the status quo",
-      "Tell me about an innovation you implemented"
-    ]
-  },
-  "ownership": {
-    pt: [
-      "Me dê um exemplo de quando você foi além da sua função",
-      "Conte sobre uma decisão de longo prazo que você tomou",
-      "Como você age quando algo não é sua responsabilidade?",
-      "Descreva uma vez que você assumiu ownership de um problema",
-      "Me fale sobre um trade-off difícil que você fez pensando no longo prazo"
-    ],
-    en: [
-      "Give me an example of when you went beyond your role",
-      "Tell me about a long-term decision you made",
-      "How do you act when something isn't your responsibility?",
-      "Describe a time you took ownership of a problem",
-      "Tell me about a difficult trade-off you made thinking long-term"
-    ]
-  },
-  "dive_deep": {
-    pt: [
-      "Conte sobre uma vez que você descobriu um problema profundo",
-      "Me fale sobre quando você teve que investigar um problema complexo",
-      "Como você garante qualidade nos detalhes?",
-      "Descreva uma situação onde dados superficiais não eram suficientes",
-      "Me dê um exemplo de quando você encontrou a causa raiz de um problema"
-    ],
-    en: [
-      "Tell me about a time you discovered a deep problem",
-      "Tell me about when you had to investigate a complex problem",
-      "How do you ensure quality in details?",
-      "Describe a situation where superficial data wasn't enough",
-      "Give me an example of when you found the root cause of a problem"
-    ]
-  },
-  "deliver_results": {
-    pt: [
-      "Conte sobre uma meta desafiadora que você alcançou",
-      "Me fale sobre uma vez que você entregou sob pressão",
-      "Como você lida com prazos apertados?",
-      "Descreva uma situação onde você superou obstáculos para entregar",
-      "Me dê um exemplo de quando você teve que priorizar para entregar no prazo"
-    ],
-    en: [
-      "Tell me about a challenging goal you achieved",
-      "Tell me about a time you delivered under pressure",
-      "How do you handle tight deadlines?",
-      "Describe a situation where you overcame obstacles to deliver",
-      "Give me an example of when you had to prioritize to deliver on time"
-    ]
-  },
-  "earn_trust": {
-    pt: [
-      "Qual foi o feedback mais difícil que você já recebeu?",
-      "Conte sobre uma vez que você admitiu um erro",
-      "Me fale sobre quando você teve que reconstruir confiança",
-      "Como você lida com conflitos em equipe?",
-      "Descreva uma situação onde você foi transparente mesmo sendo desconfortável"
-    ],
-    en: [
-      "What was the most difficult feedback you've ever received?",
-      "Tell me about a time you admitted a mistake",
-      "Tell me about when you had to rebuild trust",
-      "How do you handle team conflicts?",
-      "Describe a situation where you were transparent even when uncomfortable"
-    ]
-  },
   "customer_obsession": {
     pt: [
+      "Conte uma situação onde você foi além da expectativa do cliente ou antecipou uma necessidade não expressa",
       "Me fale sobre uma vez que você colocou o cliente em primeiro lugar",
       "Conte sobre quando você teve que escolher entre cliente e métricas internas",
       "Como você entende as necessidades dos clientes?",
       "Descreva uma situação onde você melhorou a experiência do cliente",
-      "Me dê um exemplo de quando você foi além para ajudar um cliente"
+      "Conte sobre uma vez que você usou feedback de clientes para mudar completamente uma estratégia de produto",
+      "Descreva uma situação onde você teve que equilibrar demandas competitivas de múltiplos clientes",
+      "Me fale sobre quando você não conseguiu atender a expectativa de um cliente - o que você aprendeu?",
+      "Como você prioriza necessidades de clientes quando recursos são limitados?",
+      "Conte sobre uma vez que você defendeu um cliente mesmo quando isso não era popular internamente",
+      "Como você equilibra prevenção de fraude com experiência do cliente?",
+      "Como você reduziu chargebacks/disputas mantendo satisfação do cliente?"
     ],
     en: [
+      "Tell me about a time you went above and beyond customer expectations or anticipated an unexpressed need",
       "Tell me about a time you put the customer first",
       "Tell me about when you had to choose between customer and internal metrics",
       "How do you understand customer needs?",
       "Describe a situation where you improved customer experience",
-      "Give me an example of when you went above and beyond for a customer"
+      "Tell me about a time you used customer feedback to completely change a product strategy",
+      "Describe a situation where you had to balance competing demands from multiple customers",
+      "Tell me about when you couldn't meet a customer's expectation - what did you learn?",
+      "How do you prioritize customer needs when resources are limited?",
+      "Tell me about a time you defended a customer even when it wasn't internally popular",
+      "How do you balance fraud prevention with customer experience?",
+      "How did you reduce chargebacks/disputes while maintaining customer satisfaction?"
     ]
   },
-  "learn_and_be_curious": {
+  "ownership": {
     pt: [
-      "Me fale sobre a última coisa nova que você aprendeu",
-      "Conte sobre uma vez que você saiu da sua zona de conforto",
-      "Como você se mantém atualizado na sua área?",
-      "Descreva uma situação onde você teve que aprender algo rapidamente",
-      "Me dê um exemplo de quando sua curiosidade levou a uma melhoria"
+      "Nos conte uma situação onde você assumiu responsabilidade além do seu escopo de trabalho e área de conhecimento - como lidou com isso, equilibrando as tarefas atuais/normais com essas outras (novas)?",
+      "Me dê um exemplo de quando você foi além da sua função",
+      "Conte sobre uma decisão de longo prazo que você tomou",
+      "Como você age quando algo não é sua responsabilidade?",
+      "Me fale sobre um trade-off difícil que você fez pensando no longo prazo",
+      "Descreva uma situação onde você tomou uma decisão importante de negócio sem consultar seu gestor",
+      "Me fale sobre quando você identificou uma ineficiência e tomou ownership para melhorar",
+      "Como você lida com situações onde precisa assumir responsabilidade por erros?",
+      "Descreva um projeto que você liderou do início ao fim - como garantiu o sucesso?",
+      "Descreva quando você criou um mecanismo para prevenir problemas recorrentes em pagamentos"
     ],
     en: [
-      "Tell me about the last new thing you learned",
-      "Tell me about a time you stepped out of your comfort zone",
-      "How do you stay updated in your field?",
-      "Describe a situation where you had to learn something quickly",
-      "Give me an example of when your curiosity led to an improvement"
+      "Tell me about a situation where you took responsibility beyond your work scope and area of knowledge - how did you handle it, balancing current/normal tasks with these new ones?",
+      "Give me an example of when you went beyond your role",
+      "Tell me about a long-term decision you made",
+      "How do you act when something isn't your responsibility?",
+      "Tell me about a difficult trade-off you made thinking long-term",
+      "Describe a situation where you made an important business decision without consulting your manager",
+      "Tell me about when you identified an inefficiency and took ownership to improve it",
+      "How do you handle situations where you need to take responsibility for mistakes?",
+      "Describe a project you led from start to finish - how did you ensure success?",
+      "Describe when you created a mechanism to prevent recurring problems in payments"
     ]
   },
-  "insist_on_highest_standards": {
+  "invent_and_simplify": {
     pt: [
-      "Conte sobre uma vez que você elevou a barra de qualidade",
-      "Me fale sobre quando você não aceitou um trabalho medíocre",
-      "Como você define padrões para sua equipe?",
-      "Descreva uma situação onde você teve que refazer algo para atingir excelência",
-      "Me dê um exemplo de quando você implementou um processo de qualidade"
+      "Conte sobre uma inovação que você implementou que simplificou um processo (que era complexo)?",
+      "Me fale sobre uma solução criativa que você desenvolveu",
+      "Como você simplifica processos complexos?",
+      "Descreva uma situação onde você desafiou o status quo",
+      "Me fale sobre uma vez que você criou um processo mais simples que teve grande impacto",
+      "Conte sobre quando você teve um plano mas encontrou obstáculos - como você pivotou?",
+      "Descreva uma situação onde você equilibrou inovação com risco",
+      "Como você decidiu entre construir uma solução própria vs. adaptar algo existente?",
+      "Me dê um exemplo de quando você usou tecnologia/ferramenta de forma não-convencional para resolver um problema",
+      "Conte sobre um processo de payment operations que você automatizou ou otimizou"
     ],
     en: [
-      "Tell me about a time you raised the quality bar",
-      "Tell me about when you didn't accept mediocre work",
-      "How do you set standards for your team?",
-      "Describe a situation where you had to redo something to achieve excellence",
-      "Give me an example of when you implemented a quality process"
+      "Tell me about an innovation you implemented that simplified a (complex) process?",
+      "Tell me about a creative solution you developed",
+      "How do you simplify complex processes?",
+      "Describe a situation where you challenged the status quo",
+      "Tell me about a time you created a simpler process that had great impact",
+      "Tell me about when you had a plan but encountered obstacles - how did you pivot?",
+      "Describe a situation where you balanced innovation with risk",
+      "How did you decide between building your own solution vs. adapting something existing?",
+      "Give me an example of when you used technology/tool in an unconventional way to solve a problem",
+      "Tell me about a payment operations process you automated or optimized"
     ]
   },
   "are_right_a_lot": {
     pt: [
-      "Conte sobre uma vez que você teve uma opinião impopular mas correta",
+      "Conte sobre uma situação onde você tomou uma decisão difícil com input de diferentes stakeholders",
       "Me fale sobre quando você mudou de opinião baseado em novos dados",
       "Como você toma decisões com informação incompleta?",
       "Descreva uma situação onde seu julgamento foi crucial",
-      "Me dê um exemplo de quando você desafiou uma decisão que achava errada"
+      "Me dê um exemplo de quando você desafiou uma decisão que achava errada",
+      "Conte sobre uma vez que você teve uma opinião impopular mas correta",
+      "Me fale sobre quando você estava errado - como você lidou com isso?",
+      "Descreva uma vez que você buscou perspectivas diversas para desafiar suas próprias crenças",
+      "Como você garante que está fazendo as perguntas certas antes de tomar decisões?",
+      "Conte sobre quando você teve que tomar uma decisão rápida sob pressão - você estava certo?",
+      "Me dê exemplo de quando você usou dados de pagamento para impactar decisões comerciais"
     ],
     en: [
-      "Tell me about a time you had an unpopular but correct opinion",
+      "Tell me about a situation where you made a difficult decision with input from different stakeholders",
       "Tell me about when you changed your mind based on new data",
       "How do you make decisions with incomplete information?",
       "Describe a situation where your judgment was crucial",
-      "Give me an example of when you challenged a decision you thought was wrong"
+      "Give me an example of when you challenged a decision you thought was wrong",
+      "Tell me about a time you had an unpopular but correct opinion",
+      "Tell me about when you were wrong - how did you handle it?",
+      "Describe a time you sought diverse perspectives to challenge your own beliefs",
+      "How do you ensure you're asking the right questions before making decisions?",
+      "Tell me about when you had to make a quick decision under pressure - were you right?",
+      "Give me an example of when you used payment data to impact business decisions"
     ]
   },
-  "bias_for_action": {
+  "learn_and_be_curious": {
     pt: [
-      "Me fale sobre uma decisão que você tomou com informação limitada",
-      "Conte sobre uma vez que você agiu rapidamente",
-      "Como você decide quando é hora de agir vs. analisar mais?",
-      "Descreva uma situação onde velocidade era crítica",
-      "Me dê um exemplo de quando você tomou um risco calculado"
+      "Como você se mantém atualizado na sua área de expertise e como explora novas áreas de conhecimento?",
+      "Me fale sobre a última coisa nova que você aprendeu",
+      "Conte sobre uma vez que você saiu da sua zona de conforto",
+      "Descreva uma situação onde você teve que aprender algo rapidamente",
+      "Me dê um exemplo de quando sua curiosidade levou a uma melhoria",
+      "Conte sobre uma missão ou objetivo que você não achava que era alcançável - como você abordou?",
+      "Me fale sobre algo que você aprendeu que te tornou melhor no seu trabalho",
+      "Descreva uma área onde você identificou uma lacuna de conhecimento e como você a preencheu",
+      "Como você explora novas possibilidades mesmo quando está ocupado com o dia a dia?",
+      "Conte sobre quando você aplicou aprendizados de uma área completamente diferente ao seu trabalho"
     ],
     en: [
-      "Tell me about a decision you made with limited information",
-      "Tell me about a time you acted quickly",
-      "How do you decide when it's time to act vs. analyze more?",
-      "Describe a situation where speed was critical",
-      "Give me an example of when you took a calculated risk"
-    ]
-  },
-  "think_big": {
-    pt: [
-      "Conte sobre uma visão ambiciosa que você teve",
-      "Me fale sobre um projeto que mudou o jogo",
-      "Como você inspira outros com ideias grandes?",
-      "Descreva uma situação onde você pensou além do óbvio",
-      "Me dê um exemplo de quando você propôs algo que parecia impossível"
-    ],
-    en: [
-      "Tell me about an ambitious vision you had",
-      "Tell me about a game-changing project",
-      "How do you inspire others with big ideas?",
-      "Describe a situation where you thought beyond the obvious",
-      "Give me an example of when you proposed something that seemed impossible"
-    ]
-  },
-  "disagree_and_commit": {
-    pt: [
-      "Conte sobre uma vez que você discordou fortemente de uma decisão",
-      "Me fale sobre quando você teve que se comprometer com algo que não concordava",
-      "Como você lida com disagreements na equipe?",
-      "Descreva uma situação onde você desafiou seu gestor",
-      "Me dê um exemplo de quando você defendeu uma posição impopular"
-    ],
-    en: [
-      "Tell me about a time you strongly disagreed with a decision",
-      "Tell me about when you had to commit to something you didn't agree with",
-      "How do you handle disagreements in the team?",
-      "Describe a situation where you challenged your manager",
-      "Give me an example of when you defended an unpopular position"
+      "How do you stay updated in your area of expertise and how do you explore new areas of knowledge?",
+      "Tell me about the last new thing you learned",
+      "Tell me about a time you stepped out of your comfort zone",
+      "Describe a situation where you had to learn something quickly",
+      "Give me an example of when your curiosity led to an improvement",
+      "Tell me about a mission or goal you didn't think was achievable - how did you approach it?",
+      "Tell me about something you learned that made you better at your job",
+      "Describe an area where you identified a knowledge gap and how you filled it",
+      "How do you explore new possibilities even when busy with day-to-day?",
+      "Tell me about when you applied learnings from a completely different area to your work"
     ]
   },
   "hire_and_develop_the_best": {
     pt: [
+      "Como você abordou o desenvolvimento de um membro da equipe que estava com baixo desempenho?",
       "Me fale sobre como você desenvolve pessoas",
       "Conte sobre uma contratação excepcional que você fez",
       "Como você identifica talentos?",
       "Descreva uma situação onde você ajudou alguém a crescer",
-      "Me dê um exemplo de quando você teve que dar feedback difícil"
+      "Me dê um exemplo de quando você teve que dar feedback difícil",
+      "Conte sobre quando você recebeu feedback negativo - como você respondeu?",
+      "Descreva uma vez que você melhorou moral e produtividade da sua equipe",
+      "Me fale sobre alguém que você mentorou - qual foi o impacto?",
+      "Como você reconhece talento excepcional e os move pela organização?",
+      "Conte sobre quando você teve que tomar uma decisão difícil sobre performance de alguém"
     ],
     en: [
+      "How did you approach developing a team member who was underperforming?",
       "Tell me about how you develop people",
       "Tell me about an exceptional hire you made",
       "How do you identify talent?",
       "Describe a situation where you helped someone grow",
-      "Give me an example of when you had to give difficult feedback"
+      "Give me an example of when you had to give difficult feedback",
+      "Tell me about when you received negative feedback - how did you respond?",
+      "Describe a time you improved your team's morale and productivity",
+      "Tell me about someone you mentored - what was the impact?",
+      "How do you recognize exceptional talent and move them through the organization?",
+      "Tell me about when you had to make a difficult decision about someone's performance"
+    ]
+  },
+  "insist_on_highest_standards": {
+    pt: [
+      "Como você garante que a equipe mantenha padrões elevados mesmo com prazo apertado?",
+      "Conte sobre uma vez que você elevou a barra de qualidade",
+      "Me fale sobre quando você não aceitou um trabalho medíocre",
+      "Como você define padrões para sua equipe?",
+      "Descreva uma situação onde você teve que refazer algo para atingir excelência",
+      "Me dê um exemplo de quando você implementou um processo de qualidade",
+      "Conte sobre quando você não apenas atingiu uma meta, mas excedeu consideravelmente - como?",
+      "Descreva um projeto que você gostaria de ter feito melhor - o que faria diferente hoje?",
+      "Me fale sobre uma vez que você teve que escolher entre velocidade e qualidade",
+      "Como você garante que defeitos não passam para frente e problemas ficam resolvidos?",
+      "Conte sobre quando você estabeleceu um novo padrão que outros achavam impossível de atingir"
+    ],
+    en: [
+      "How do you ensure the team maintains high standards even with tight deadlines?",
+      "Tell me about a time you raised the quality bar",
+      "Tell me about when you didn't accept mediocre work",
+      "How do you set standards for your team?",
+      "Describe a situation where you had to redo something to achieve excellence",
+      "Give me an example of when you implemented a quality process",
+      "Tell me about when you didn't just meet a goal, but exceeded it considerably - how?",
+      "Describe a project you wish you had done better - what would you do differently today?",
+      "Tell me about a time you had to choose between speed and quality",
+      "How do you ensure defects don't pass forward and problems stay solved?",
+      "Tell me about when you established a new standard others thought was impossible to achieve"
+    ]
+  },
+  "think_big": {
+    pt: [
+      "Conte sobre um momento onde você propôs uma ideia ousada mas que trouxe grandes resultados",
+      "Conte sobre uma visão ambiciosa que você teve",
+      "Me fale sobre um projeto que mudou o jogo",
+      "Como você inspira outros com ideias grandes?",
+      "Descreva uma situação onde você pensou além do óbvio",
+      "Me dê um exemplo de quando você propôs algo que parecia impossível",
+      "Conte sobre sua maior conquista profissional - por que ela foi significativa?",
+      "Descreva uma vez que você propôs uma solução não-intuitiva para um problema",
+      "Me fale sobre quando você teve que vender uma ideia ousada para liderança sênior",
+      "Como você cria e comunica uma direção ousada que inspira resultados?",
+      "Conte sobre quando você pensou grande mas teve que adaptar a escala - como você fez?",
+      "Descreva uma vez que você identificou oportunidade de receita em operações de pagamento"
+    ],
+    en: [
+      "Tell me about a time you proposed a bold idea that brought great results",
+      "Tell me about an ambitious vision you had",
+      "Tell me about a game-changing project",
+      "How do you inspire others with big ideas?",
+      "Describe a situation where you thought beyond the obvious",
+      "Give me an example of when you proposed something that seemed impossible",
+      "Tell me about your biggest professional achievement - why was it significant?",
+      "Describe a time you proposed a non-intuitive solution to a problem",
+      "Tell me about when you had to sell a bold idea to senior leadership",
+      "How do you create and communicate a bold direction that inspires results?",
+      "Tell me about when you thought big but had to adapt the scale - how did you do it?",
+      "Describe a time you identified revenue opportunity in payment operations"
+    ]
+  },
+  "bias_for_action": {
+    pt: [
+      "Nos dê um exemplo de risco calculado que você tomou quando o tempo era crítico, e como você mitigou esse risco?",
+      "Me fale sobre uma decisão que você tomou com informação limitada",
+      "Conte sobre uma vez que você agiu rapidamente",
+      "Como você decide quando é hora de agir vs. analisar mais?",
+      "Descreva uma situação onde velocidade era crítica",
+      "Me fale sobre quando você foi o primeiro a agir em algo",
+      "Descreva uma vez que você teve que tomar decisão reversível rapidamente vs. irreversível com mais análise",
+      "Como você equilibra necessidade de dados com necessidade de agir?",
+      "Conte sobre quando você teve que mudar curso/direção de um projeto quando estava 70% completo",
+      "Descreva uma situação onde você teve que tomar decisão rápida sobre transação suspeita"
+    ],
+    en: [
+      "Give us an example of a calculated risk you took when time was critical, and how you mitigated that risk?",
+      "Tell me about a decision you made with limited information",
+      "Tell me about a time you acted quickly",
+      "How do you decide when it's time to act vs. analyze more?",
+      "Describe a situation where speed was critical",
+      "Tell me about when you were the first to act on something",
+      "Describe a time you had to make a reversible decision quickly vs. irreversible with more analysis",
+      "How do you balance need for data with need to act?",
+      "Tell me about when you had to change course/direction of a project when it was 70% complete",
+      "Describe a situation where you had to make quick decision about suspicious transaction"
     ]
   },
   "frugality": {
@@ -216,30 +256,136 @@ const typicalQuestions = {
       "Me fale sobre quando você otimizou custos",
       "Como você prioriza recursos limitados?",
       "Descreva uma situação onde você foi criativo com restrições",
-      "Me dê um exemplo de quando você eliminou desperdícios"
+      "Me dê um exemplo de quando você eliminou desperdícios",
+      "Conte sobre uma ideia nova que você teve para economizar dinheiro da empresa",
+      "Me fale sobre quando você entregou um projeto com orçamento ou recursos limitados",
+      "Descreva uma situação onde você recusou mais recursos para completar um projeto - por quê?",
+      "Como você gerenciaria projetos sem orçamento e sem recursos?",
+      "Conte sobre quando você teve que gerenciar orçamento - como você extraiu mais valor com menos?",
+      "Como você equilibra custo operacional com expansão de métodos de pagamento?"
     ],
     en: [
       "Tell me about a time you did more with less",
       "Tell me about when you optimized costs",
       "How do you prioritize limited resources?",
       "Describe a situation where you were creative with constraints",
-      "Give me an example of when you eliminated waste"
+      "Give me an example of when you eliminated waste",
+      "Tell me about a new idea you had to save company money",
+      "Tell me about when you delivered a project with limited budget or resources",
+      "Describe a situation where you refused more resources to complete a project - why?",
+      "How would you manage projects with no budget and no resources?",
+      "Tell me about when you had to manage budget - how did you extract more value with less?",
+      "How do you balance operational cost with payment method expansion?"
     ]
   },
-  "broad_responsibility": {
+  "earn_trust": {
     pt: [
-      "Me fale sobre como você considera impacto mais amplo das suas decisões",
-      "Conte sobre uma vez que você agiu pensando na comunidade",
-      "Como você equilibra resultados com responsabilidade social?",
-      "Descreva uma situação onde você tomou a decisão certa, não a fácil",
-      "Me dê um exemplo de quando você considerou stakeholders além dos óbvios"
+      "Qual foi o feedback mais difícil que você já recebeu? E como lidou com isso? / Me conte sobre um feedback negativo que você recebeu",
+      "Conte sobre uma vez que você admitiu um erro",
+      "Me fale sobre quando você teve que reconstruir confiança",
+      "Como você lida com conflitos em equipe?",
+      "Descreva uma situação onde você foi transparente mesmo sendo desconfortável",
+      "Conte sobre um desacordo com um colega/gestor - como você resolveu?",
+      "Me fale sobre quando você teve que falar uma verdade dura para alguém",
+      "Descreva uma vez que você teve que influenciar um peer que tinha opinião diferente sobre um objetivo compartilhado",
+      "Como você constrói confiança com stakeholders que você não conhece?",
+      "Conte sobre quando você foi vocalmente auto-crítico mesmo sendo constrangedor",
+      "Me fale sobre uma parceria complexa que você negociou com processadores de pagamento",
+      "Como você gerencia relacionamentos com múltiplos stakeholders (bancos, gateways, reguladores)?",
+      "Conte sobre quando você teve que influenciar parceiros externos sem autoridade direta"
     ],
     en: [
-      "Tell me about how you consider broader impact of your decisions",
-      "Tell me about a time you acted thinking about the community",
-      "How do you balance results with social responsibility?",
-      "Describe a situation where you made the right decision, not the easy one",
-      "Give me an example of when you considered stakeholders beyond the obvious"
+      "What was the most difficult feedback you ever received? And how did you deal with it? / Tell me about negative feedback you received",
+      "Tell me about a time you admitted a mistake",
+      "Tell me about when you had to rebuild trust",
+      "How do you handle team conflicts?",
+      "Describe a situation where you were transparent even when uncomfortable",
+      "Tell me about a disagreement with a colleague/manager - how did you resolve it?",
+      "Tell me about when you had to tell someone a hard truth",
+      "Describe a time you had to influence a peer who had different opinion about shared goal",
+      "How do you build trust with stakeholders you don't know?",
+      "Tell me about when you were vocally self-critical even when embarrassing",
+      "Tell me about a complex partnership you negotiated with payment processors",
+      "How do you manage relationships with multiple stakeholders (banks, gateways, regulators)?",
+      "Tell me about when you had to influence external partners without direct authority"
+    ]
+  },
+  "dive_deep": {
+    pt: [
+      "Conte uma situação onde você precisou entender a causa raiz para resolver um problema complexo",
+      "Me fale sobre quando você teve que investigar um problema complexo",
+      "Como você garante qualidade nos detalhes?",
+      "Descreva uma situação onde dados superficiais não eram suficientes",
+      "Conte sobre o problema mais complicado que você teve que lidar - como você investigou?",
+      "Me dê um exemplo de quando você usou dados em profundidade para desenvolver uma solução",
+      "Descreva uma vez que alguém te deu uma explicação mas você não acreditou e investigou - qual foi a verdade?",
+      "Como você usa '5 Whys' ou análise de causa raiz para chegar ao fundo de problemas?",
+      "Conte sobre quando métricas e anedotas diferiam - como você descobriu a verdade?",
+      "Conte sobre uma vez que você identificou um padrão de fraude ou risco que outros não viram"
+    ],
+    en: [
+      "Tell me about a situation where you needed to understand root cause to solve complex problem",
+      "Tell me about when you had to investigate a complex problem",
+      "How do you ensure quality in details?",
+      "Describe a situation where superficial data wasn't enough",
+      "Tell me about the most complicated problem you had to deal with - how did you investigate?",
+      "Give me an example of when you used in-depth data to develop a solution",
+      "Describe a time someone gave you an explanation but you didn't believe it and investigated - what was the truth?",
+      "How do you use '5 Whys' or root cause analysis to get to bottom of problems?",
+      "Tell me about when metrics and anecdotes differed - how did you discover the truth?",
+      "Tell me about a time you identified a fraud or risk pattern others didn't see"
+    ]
+  },
+  "disagree_and_commit": {
+    pt: [
+      "Conte sobre uma situação onde você discordou do supervisor/manager, mas ainda assim se comprometeu com a decisão final (e com a entrega)",
+      "Conte sobre uma vez que você discordou fortemente de uma decisão",
+      "Me fale sobre quando você teve que se comprometer com algo que não concordava",
+      "Como você lida com disagreements na equipe?",
+      "Me dê um exemplo de quando você defendeu uma posição impopular",
+      "Me dê um exemplo de quando você se comprometeu com uma decisão de grupo mesmo discordando",
+      "Conte sobre quando você discordou de um colega/PM/gestor porque achava que estava errado para o cliente",
+      "Descreva uma vez que você teve uma ideia que não foi aceita - como você reagiu?",
+      "Me fale sobre um conflito que você resolveu - qual foi o processo?",
+      "Como você desafia respeitosamente decisões mas depois se compromete totalmente?"
+    ],
+    en: [
+      "Tell me about a situation where you disagreed with supervisor/manager, but still committed to final decision (and delivery)",
+      "Tell me about a time you strongly disagreed with a decision",
+      "Tell me about when you had to commit to something you didn't agree with",
+      "How do you handle disagreements in the team?",
+      "Give me an example of when you defended an unpopular position",
+      "Give me an example of when you committed to a group decision even disagreeing",
+      "Tell me about when you disagreed with colleague/PM/manager because you thought it was wrong for customer",
+      "Describe a time you had an idea that wasn't accepted - how did you react?",
+      "Tell me about a conflict you resolved - what was the process?",
+      "How do you respectfully challenge decisions but then fully commit?"
+    ]
+  },
+  "deliver_results": {
+    pt: [
+      "Conte sobre um projeto desafiador entregue com sucesso superando obstáculos significativos",
+      "Me fale sobre uma vez que você entregou sob pressão",
+      "Como você lida com prazos apertados?",
+      "Me dê um exemplo de quando você teve que priorizar para entregar no prazo",
+      "Conte sobre quando você não gerenciou prioridades efetivamente e algo não foi entregue no prazo",
+      "Me fale sobre quando você teve dois deadlines ao mesmo tempo - como gerenciou?",
+      "Descreva uma vez que você teve que entregar resultados diante de desafios significativos",
+      "Como você foca nos inputs-chave do negócio e os entrega com qualidade no prazo?",
+      "Conte sobre quando você se recusou a baixar padrões apesar de pressão por deadlines",
+      "Conte sobre uma meta desafiadora que você alcançou"
+    ],
+    en: [
+      "Tell me about a challenging project delivered successfully overcoming significant obstacles",
+      "Tell me about a time you delivered under pressure",
+      "How do you handle tight deadlines?",
+      "Give me an example of when you had to prioritize to deliver on time",
+      "Tell me about when you didn't manage priorities effectively and something wasn't delivered on time",
+      "Tell me about when you had two deadlines at same time - how did you manage?",
+      "Describe a time you had to deliver results facing significant challenges",
+      "How do you focus on key business inputs and deliver them with quality on time?",
+      "Tell me about when you refused to lower standards despite deadline pressure",
+      "Tell me about a challenging goal you achieved"
     ]
   },
   "best_employer": {
@@ -248,14 +394,50 @@ const typicalQuestions = {
       "Me fale sobre quando você priorizou o bem-estar da equipe",
       "Como você promove diversidade e inclusão?",
       "Descreva uma situação onde você defendeu sua equipe",
-      "Me dê um exemplo de quando você investiu no crescimento de alguém"
+      "Me dê um exemplo de quando você investiu no crescimento de alguém",
+      "Conte sobre uma vez que você fez seu ambiente de trabalho mais seguro, inclusivo ou divertido",
+      "Me fale sobre quando você teve que equilibrar produtividade com bem-estar da equipe",
+      "Descreva uma situação onde você criou oportunidade de crescimento para alguém",
+      "Como você garante que diferentes perspectivas e backgrounds são valorizados?",
+      "Conte sobre quando você teve que tomar uma decisão pensando no que é melhor para as pessoas, não só nos resultados"
     ],
     en: [
       "Tell me about how you create a better work environment",
       "Tell me about when you prioritized team well-being",
       "How do you promote diversity and inclusion?",
       "Describe a situation where you advocated for your team",
-      "Give me an example of when you invested in someone's growth"
+      "Give me an example of when you invested in someone's growth",
+      "Tell me about a time you made your work environment safer, more inclusive or more fun",
+      "Tell me about when you had to balance productivity with team well-being",
+      "Describe a situation where you created growth opportunity for someone",
+      "How do you ensure different perspectives and backgrounds are valued?",
+      "Tell me about when you had to make decision thinking about what's best for people, not just results"
+    ]
+  },
+  "broad_responsibility": {
+    pt: [
+      "Me fale sobre como você considera impacto mais amplo das suas decisões",
+      "Conte sobre uma vez que você agiu pensando na comunidade",
+      "Como você equilibra resultados com responsabilidade social?",
+      "Descreva uma situação onde você tomou a decisão certa, não a fácil",
+      "Me dê um exemplo de quando você considerou stakeholders além dos óbvios",
+      "Conte sobre quando você deixou algo melhor do que encontrou",
+      "Me fale sobre uma decisão moral ou ética que você enfrentou no trabalho - como lidou?",
+      "Descreva uma vez que você considerou impactos de segunda ordem das suas ações",
+      "Como você pensa sobre comunidades locais, planeta e futuras gerações nas suas decisões?",
+      "Conte sobre quando você escolheu fazer o certo mesmo custando resultados de curto prazo"
+    ],
+    en: [
+      "Tell me about how you consider broader impact of your decisions",
+      "Tell me about a time you acted thinking about community",
+      "How do you balance results with social responsibility?",
+      "Describe a situation where you made the right decision, not the easy one",
+      "Give me an example of when you considered stakeholders beyond the obvious",
+      "Tell me about when you left something better than you found it",
+      "Tell me about a moral or ethical decision you faced at work - how did you handle it?",
+      "Describe a time you considered second-order impacts of your actions",
+      "How do you think about local communities, planet and future generations in your decisions?",
+      "Tell me about when you chose to do the right thing even costing short-term results"
     ]
   }
 };
