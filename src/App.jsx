@@ -923,11 +923,11 @@ export default function App() {
                       {open && (
                         <div
                           id={`case-content-${caseKey}`}
-                          className="px-6 pb-6 pt-2 grid grid-cols-1 lg:grid-cols-2 gap-8 text-sm text-slate-700 bg-white/40 backdrop-blur-sm"
+                          className="px-6 pb-6 pt-2 grid grid-cols-1 lg:grid-cols-2 gap-8 text-slate-700 bg-white/40 backdrop-blur-sm"
                         >
                           <div className="space-y-3">
                             <h4 className="text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 mb-3">📋 STAR Case</h4>
-                            <div className="space-y-2 leading-relaxed">
+                            <div className="space-y-3 leading-relaxed text-base">
                               <p>
                                 <strong>{t.situation}:</strong>{" "}
                                 <HighlightableText
@@ -1076,7 +1076,12 @@ function IcebreakerModal({ language, onClose }) {
                   {isExpanded && (
                     <div className="px-5 pb-5 pt-2 bg-white/40">
                       <div className="pl-7 text-slate-700 leading-relaxed whitespace-pre-line">
-                        {item.a}
+                        {item.a.split(/(\*\*[^*]+\*\*)/).map((part, i) => {
+                          if (part.startsWith('**') && part.endsWith('**')) {
+                            return <strong key={i}>{part.slice(2, -2)}</strong>;
+                          }
+                          return part;
+                        })}
                       </div>
                     </div>
                   )}

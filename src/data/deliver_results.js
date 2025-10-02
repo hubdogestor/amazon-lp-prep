@@ -16,7 +16,7 @@ const deliver_results = {
       title_en: "4G Rollout Delivery on Time for 2014 World Cup, Overcoming Critical Obstacles",
       company: "Huawei",
       period: "01/2012-06/2014",
-      isTopCase: true,
+      isTopCase: false,
       pt: {
         s: "O Brasil iria sediar a Copa do Mundo de 2014 e a Huawei era a principal fornecedora de infraestrutura de telecom. O cronograma era inegociável. Este rollout incluía infraestrutura crítica para processamento de pagamentos móveis 4G, que habilitaria transações mobile banking pela primeira vez no Brasil. Quando assumi, o processo que EU herdei tinha SLA de 382 dias, enquanto o prazo para a Copa era inferior a 24 meses. Identifiquei obstáculos de todos os tipos que EU precisaria eliminar: burocracia, logística e subcontratados com performance inconsistente. O fracasso não era uma opção.",
         t: "Como líder do PMO, minha tarefa era uma só: entregar a infraestrutura de rede 4G nos 12 estádios e nas cidades-sede antes do início do evento, com 100% de qualidade e dentro do orçamento. Eu era o responsável final por garantir o resultado, independentemente dos contratempos.",
@@ -186,7 +186,7 @@ const deliver_results = {
       title_en: "Exceeding 30% Fraud Reduction Target in 6 Months",
       company: "Sicredi Woop",
       period: "01/2020-06/2020",
-      isTopCase: false,
+      isTopCase: true,
       pt: {
         s: "O banco digital Woop estava sofrendo um aumento súbito e agressivo nas tentativas de fraude de identidade no onboarding. As perdas financeiras estavam crescendo de R$ 180k/mês em Nov/19 para R$ 420k/mês em Dez/19, abalando a confiança de stakeholders. Quando cheguei, a equipe de 5 analistas estava reagindo caso a caso, sem padrão de resposta ou priorização baseada em risco.",
         t: "A diretoria me deu uma missão clara: reduzir as perdas por fraude de onboarding em 30% em 6 meses. O resultado não era negociável. Eu precisava montar uma equipe, definir uma estratégia e entregar esse número.",
