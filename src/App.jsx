@@ -399,7 +399,7 @@ export default function App() {
                     setQuestionSearch("");
                     setTypicalQuestionSearch("");
                   }}
-                  className="w-full pl-10 pr-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
+                  className="w-full pl-10 pr-4 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
                   aria-label={t.kSearch}
                   aria-expanded={!!searchTerm && caseSearchResults.length > 0}
                   aria-controls="case-dropdown"
@@ -508,7 +508,7 @@ export default function App() {
                     setSearchTerm("");
                     setTypicalQuestionSearch("");
                   }}
-                  className="w-full pl-10 pr-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
+                  className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
                   aria-label={t.kFup}
                   aria-expanded={!!questionSearch}
                   aria-controls="fup-dropdown"
@@ -583,7 +583,7 @@ export default function App() {
                     setSearchTerm("");
                     setQuestionSearch("");
                   }}
-                  className="w-full pl-10 pr-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white text-center"
+                  className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white text-center"
                   aria-label={t.kTypical}
                   aria-expanded={!!typicalQuestionSearch}
                   aria-controls="typical-dropdown"
@@ -645,7 +645,7 @@ export default function App() {
             <div className="col-span-1">
               <button
                 id="topCasesBtn"
-                className={`w-full px-3 py-2 rounded-lg text-sm border transition ${
+                className={`w-full px-3 py-3 text-base rounded-lg border transition ${
                   showTopCases
                     ? "bg-yellow-100 border-yellow-300 text-yellow-800"
                     : "bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
@@ -670,7 +670,7 @@ export default function App() {
             <div className="col-span-1">
               <button
                 id="icebreakerBtn"
-                className="w-full px-3 py-2 rounded-lg text-sm border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
+                className="w-full px-3 py-3 text-base rounded-lg border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
                 onClick={(e) => {
                   e.stopPropagation();
                   setShowIcebreaker(true);
@@ -686,7 +686,7 @@ export default function App() {
             <div className="col-span-1">
               <button
                 id="myQuestionsBtn"
-                className="w-full px-3 py-2 rounded-lg text-sm border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
+                className="w-full px-3 py-3 text-base rounded-lg border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
                 onClick={(e) => {
                   e.stopPropagation();
                   setShowMyQuestions(true);
@@ -707,7 +707,7 @@ export default function App() {
             <div className="col-span-1">
               <div id="langBox" className="w-full flex gap-2" role="group" aria-label="Language selection">
                 <button
-                  className={`flex-1 px-3 py-2 rounded-lg text-sm border ${
+                  className={`flex-1 px-3 py-3 text-base rounded-lg border ${
                     language === "pt" ? "bg-slate-900 text-white" : "bg-white text-slate-700"
                   }`}
                   onClick={(e) => {
@@ -720,7 +720,7 @@ export default function App() {
                   PT
                 </button>
                 <button
-                  className={`flex-1 px-3 py-2 rounded-lg text-sm border ${
+                  className={`flex-1 px-3 py-3 text-base rounded-lg border ${
                     language === "en" ? "bg-slate-900 text-white" : "bg-white text-slate-700"
                   }`}
                   onClick={(e) => {
@@ -759,9 +759,19 @@ export default function App() {
         <div className="grid grid-cols-12 gap-10">
           {/* Sidebar */}
           <aside id="sidebar" className="col-span-12 xl:col-span-2" role="navigation" aria-label="Principles filter">
-            <div
-              className={`cursor-pointer p-2 rounded-lg transition ${
-                selectedPrinciple === "all" ? "bg-amber-100 font-semibold text-amber-900" : "hover:bg-slate-50"
+            {/* Header "Leadership Principles" */}
+            <div className="mb-3 pb-2 border-b-2 border-[#FF9900]">
+              <h2 className="text-sm font-bold text-[#232F3E] uppercase tracking-wider">
+                {language === "pt" ? "Leadership Principles" : "Leadership Principles"}
+              </h2>
+            </div>
+
+            {/* Botão "Todos os Princípios" */}
+            <button
+              className={`w-full mb-2 px-3 py-2 rounded text-sm text-left font-medium transition-all ${
+                selectedPrinciple === "all"
+                  ? "bg-[#FF9900] text-white shadow-md"
+                  : "bg-white border border-slate-300 text-[#232F3E] hover:border-[#FF9900] hover:bg-orange-50"
               }`}
               onClick={(e) => {
                 e.stopPropagation();
@@ -771,23 +781,19 @@ export default function App() {
                 clearHighlights();
                 clearExpanded();
               }}
-              role="button"
-              tabIndex={0}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                  e.preventDefault();
-                  e.currentTarget.click();
-                }
-              }}
               aria-pressed={selectedPrinciple === "all"}
             >
               {t.filterAll}
-            </div>
+            </button>
+
+            {/* Botões dos 16 LPs */}
             {(principlesData || []).map((p) => (
-              <div
+              <button
                 key={`side-${p.id}`}
-                className={`cursor-pointer p-2 rounded-lg transition ${
-                  selectedPrinciple === p.id ? "bg-amber-100 font-semibold text-amber-900" : "hover:bg-slate-50"
+                className={`w-full mb-2 px-3 py-2 rounded text-sm text-left font-medium transition-all ${
+                  selectedPrinciple === p.id
+                    ? "bg-[#FF9900] text-white shadow-md"
+                    : "bg-white border border-slate-300 text-[#232F3E] hover:border-[#FF9900] hover:bg-orange-50"
                 }`}
                 onClick={(e) => {
                   e.stopPropagation();
@@ -800,18 +806,10 @@ export default function App() {
                   clearHighlights();
                   clearExpanded();
                 }}
-                role="button"
-                tabIndex={0}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault();
-                    e.currentTarget.click();
-                  }
-                }}
                 aria-pressed={selectedPrinciple === p.id}
               >
                 {getDisplayName(p, language)}
-              </div>
+              </button>
             ))}
           </aside>
 
@@ -846,11 +844,10 @@ export default function App() {
                             <div
                               key={qIdx}
                               id={questionId}
-                              className={`px-3 py-2 bg-white/60 border border-blue-200 rounded flex items-center text-xs text-[#232F3E] transition-all duration-300 hover:bg-white hover:shadow-sm ${
+                              className={`px-3 py-2 bg-white/60 border border-blue-200 rounded text-xs text-[#232F3E] transition-all duration-300 hover:bg-white hover:shadow-sm ${
                                 isHighlighted ? 'bg-yellow-200 font-bold shadow-md' : ''
                               }`}
                             >
-                              <span className="text-blue-600 font-bold mr-2">{qIdx + 1}.</span>
                               <HighlightableText
                                 text={q}
                                 searchTerm={highlightSearchTerm}
