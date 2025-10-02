@@ -157,13 +157,16 @@ export default function App() {
     highlightedFupId,
     highlightedCaseId,
     highlightedTypicalQuestionId,
-    highlightSearchTerm,
-    setHighlightSearchTerm,
     clearHighlights,
     setHighlightedFup,
     setHighlightedCase,
     setHighlightedTypicalQuestion,
   } = useHighlight();
+
+  // Separate highlight terms for each search context
+  const [highlightCaseTerm, setHighlightCaseTerm] = useState("");
+  const [highlightFupTerm, setHighlightFupTerm] = useState("");
+  const [highlightTypicalTerm, setHighlightTypicalTerm] = useState("");
 
   const t = TEXTS[language];
   const principlesData = useMemo(() => {
@@ -237,12 +240,12 @@ export default function App() {
 
   const toggleCase = useCallback((caseTitle, principleId, preserveSearchTerm = false) => {
     if (preserveSearchTerm && searchTerm) {
-      setHighlightSearchTerm(searchTerm);
+      setHighlightCaseTerm(searchTerm);
     }
 
     if (!preserveSearchTerm) {
       setSearchTerm("");
-      setHighlightSearchTerm("");
+      setHighlightCaseTerm("");
     } else {
       setSearchTerm("");
     }
@@ -254,7 +257,7 @@ export default function App() {
       return next;
     });
     setSelectedPrinciple(principleId);
-  }, [searchTerm, setHighlightSearchTerm]);
+  }, [searchTerm]);
 
   // FUP search results - memoized (multi-word support)
   const fupSearchResults = useMemo(() => {
@@ -457,8 +460,8 @@ export default function App() {
                           tabIndex={0}
                           className="px-4 py-3 hover:bg-slate-50 cursor-pointer border-b border-slate-100 last:border-0 focus:bg-slate-100 focus:outline-none"
                           onClick={() => {
-                            // Save search words BEFORE clearing
-                            const savedSearchWords = [...searchWords];
+                            // Save search words BEFORE clearing (filter words with 3+ chars)
+                            const savedSearchWords = searchWords.filter(w => w.length >= 3);
 
                             setSelectedPrinciple(p.id);
                             setShowTopCases(false);
@@ -468,7 +471,9 @@ export default function App() {
 
                             setTimeout(() => {
                               setExpandedCases({ [c.title]: true });
-                              setHighlightSearchTerm(savedSearchWords.join(' '));
+                              setHighlightCaseTerm(savedSearchWords.join(' '));
+                              setHighlightFupTerm("");
+                              setHighlightTypicalTerm("");
 
                               const caseDomId = `case-${slugify(c.id || c.title)}`;
                               setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
@@ -526,8 +531,8 @@ export default function App() {
                         tabIndex={0}
                         className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
                         onClick={() => {
-                          // Save search words BEFORE clearing (same as CASES)
-                          const searchWords = debouncedQuestionSearch.trim().split(/\s+/).filter(w => w.length > 0);
+                          // Save search words BEFORE clearing (filter words with 3+ chars)
+                          const searchWords = debouncedQuestionSearch.trim().split(/\s+/).filter(w => w.length >= 3);
 
                           setSelectedPrinciple(p.id);
                           setShowTopCases(false);
@@ -538,7 +543,9 @@ export default function App() {
                           setTimeout(() => {
                             setExpandedCases({ [c.title]: true });
                             setQuestionSearch("");
-                            setHighlightSearchTerm(searchWords.join(' ')); // Set highlight terms like CASES
+                            setHighlightCaseTerm("");
+                            setHighlightFupTerm(searchWords.join(' '));
+                            setHighlightTypicalTerm("");
 
                             const anchorId = `fup-${p.id}-${slugify(c.id || c.title)}-${originalIdx}`;
                             setHighlightedFup(anchorId, FUP_SCROLL_DELAY);
@@ -601,8 +608,8 @@ export default function App() {
                         tabIndex={0}
                         className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
                         onClick={() => {
-                          // Save search words BEFORE clearing (same as CASES)
-                          const searchWords = debouncedTypicalQuestionSearch.trim().split(/\s+/).filter(w => w.length > 0);
+                          // Save search words BEFORE clearing (filter words with 3+ chars)
+                          const searchWords = debouncedTypicalQuestionSearch.trim().split(/\s+/).filter(w => w.length >= 3);
 
                           setSelectedPrinciple(p.id);
                           setShowTopCases(false);
@@ -612,7 +619,9 @@ export default function App() {
 
                           setTimeout(() => {
                             setTypicalQuestionSearch("");
-                            setHighlightSearchTerm(searchWords.join(' ')); // Set highlight terms like CASES
+                            setHighlightCaseTerm("");
+                            setHighlightFupTerm("");
+                            setHighlightTypicalTerm(searchWords.join(' '));
                             const anchorId = `typical-q-${p.id}-${idx}`;
                             setHighlightedTypicalQuestion(anchorId, 120);
                           }, 0);
@@ -766,12 +775,12 @@ export default function App() {
               </h2>
             </div>
 
-            {/* Botão "Todos os Princípios" */}
+            {/* Botão "Todos os Princípios" - estilo título clicável */}
             <button
-              className={`w-full mb-2 px-3 py-2 rounded text-sm text-left font-medium transition-all ${
+              className={`w-full mb-4 px-3 py-2.5 rounded text-sm text-left font-bold uppercase tracking-wide transition-all ${
                 selectedPrinciple === "all"
-                  ? "bg-[#FF9900] text-white shadow-md"
-                  : "bg-white border border-slate-300 text-[#232F3E] hover:border-[#FF9900] hover:bg-orange-50"
+                  ? "bg-[#232F3E] text-white shadow-lg"
+                  : "bg-slate-100 text-[#232F3E] hover:bg-slate-200"
               }`}
               onClick={(e) => {
                 e.stopPropagation();
@@ -786,14 +795,14 @@ export default function App() {
               {t.filterAll}
             </button>
 
-            {/* Botões dos 16 LPs */}
+            {/* Botões dos 16 LPs - estilo Amazon com fundo */}
             {(principlesData || []).map((p) => (
               <button
                 key={`side-${p.id}`}
-                className={`w-full mb-2 px-3 py-2 rounded text-sm text-left font-medium transition-all ${
+                className={`w-full mb-2 px-4 py-2.5 rounded-md text-sm text-left font-medium transition-all shadow-sm ${
                   selectedPrinciple === p.id
-                    ? "bg-[#FF9900] text-white shadow-md"
-                    : "bg-white border border-slate-300 text-[#232F3E] hover:border-[#FF9900] hover:bg-orange-50"
+                    ? "bg-[#FF9900] text-white shadow-md scale-[1.02]"
+                    : "bg-gradient-to-r from-white to-slate-50 border border-slate-200 text-[#232F3E] hover:border-[#FF9900] hover:shadow-md hover:scale-[1.01]"
                 }`}
                 onClick={(e) => {
                   e.stopPropagation();
@@ -802,7 +811,9 @@ export default function App() {
                   setSearchTerm("");
                   setQuestionSearch(""); // Clear FUP search
                   setTypicalQuestionSearch(""); // Clear Typical Questions search
-                  setHighlightSearchTerm(""); // Clear highlight search term
+                  setHighlightCaseTerm("");
+                  setHighlightFupTerm("");
+                  setHighlightTypicalTerm("");
                   clearHighlights();
                   clearExpanded();
                 }}
@@ -850,7 +861,7 @@ export default function App() {
                             >
                               <HighlightableText
                                 text={q}
-                                searchTerm={highlightSearchTerm}
+                                searchTerm={highlightTypicalTerm}
                               />
                             </div>
                           );
@@ -910,7 +921,7 @@ export default function App() {
                           <h3 className={`text-lg font-bold ${isTop ? 'text-[#232F3E]' : 'text-slate-900'}`}>
                             <HighlightableText
                               text={getDisplayCaseTitle(c, language)}
-                              searchTerm={highlightSearchTerm}
+                              searchTerm={highlightCaseTerm}
                             />
                           </h3>
                         </div>
@@ -931,35 +942,35 @@ export default function App() {
                                 <strong>{t.situation}:</strong>{" "}
                                 <HighlightableText
                                   text={(c && c[language] && c[language].s) || ""}
-                                  searchTerm={highlightSearchTerm}
+                                  searchTerm={highlightCaseTerm}
                                 />
                               </p>
                               <p>
                                 <strong>{t.task}:</strong>{" "}
                                 <HighlightableText
                                   text={(c && c[language] && c[language].t) || ""}
-                                  searchTerm={highlightSearchTerm}
+                                  searchTerm={highlightCaseTerm}
                                 />
                               </p>
                               <p>
                                 <strong>{t.action}:</strong>{" "}
                                 <HighlightableText
                                   text={(c && c[language] && c[language].a) || ""}
-                                  searchTerm={highlightSearchTerm}
+                                  searchTerm={highlightCaseTerm}
                                 />
                               </p>
                               <p>
                                 <strong>{t.result}:</strong>{" "}
                                 <HighlightableText
                                   text={(c && c[language] && c[language].r) || ""}
-                                  searchTerm={highlightSearchTerm}
+                                  searchTerm={highlightCaseTerm}
                                 />
                               </p>
                               <p>
                                 <strong>{t.learning}:</strong>{" "}
                                 <HighlightableText
                                   text={(c && c[language] && c[language].l) || ""}
-                                  searchTerm={highlightSearchTerm}
+                                  searchTerm={highlightCaseTerm}
                                 />
                               </p>
                             </div>
@@ -988,9 +999,19 @@ export default function App() {
                                         <div className={`font-medium ${
                                           isFupHighlighted ? 'bg-amber-100 px-2 py-1 rounded' : ''
                                         }`}>
-                                          {question}
+                                          <HighlightableText
+                                            text={question}
+                                            searchTerm={highlightFupTerm}
+                                          />
                                         </div>
-                                        {answer && <div className="text-slate-600 whitespace-pre-line">{answer}</div>}
+                                        {answer && (
+                                          <div className="text-slate-600 whitespace-pre-line">
+                                            <HighlightableText
+                                              text={answer}
+                                              searchTerm={highlightFupTerm}
+                                            />
+                                          </div>
+                                        )}
                                       </li>
                                     );
                                   })}
