@@ -401,6 +401,10 @@ export default function App() {
                   onFocus={() => {
                     setQuestionSearch("");
                     setTypicalQuestionSearch("");
+                    setHighlightCaseTerm("");
+                    setHighlightFupTerm("");
+                    setHighlightTypicalTerm("");
+                    clearHighlights();
                   }}
                   className="w-full pl-10 pr-4 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
                   aria-label={t.kSearch}
@@ -460,8 +464,8 @@ export default function App() {
                           tabIndex={0}
                           className="px-4 py-3 hover:bg-slate-50 cursor-pointer border-b border-slate-100 last:border-0 focus:bg-slate-100 focus:outline-none"
                           onClick={() => {
-                            // Save search words BEFORE clearing (filter words with 4+ chars)
-                            const savedSearchWords = searchWords.filter(w => w.length >= 4);
+                            // Save search words BEFORE clearing (filter words with 3+ chars)
+                            const savedSearchWords = searchWords.filter(w => w.length >= 3);
 
                             setSelectedPrinciple(p.id);
                             setShowTopCases(false);
@@ -512,6 +516,10 @@ export default function App() {
                   onFocus={() => {
                     setSearchTerm("");
                     setTypicalQuestionSearch("");
+                    setHighlightCaseTerm("");
+                    setHighlightFupTerm("");
+                    setHighlightTypicalTerm("");
+                    clearHighlights();
                   }}
                   className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
                   aria-label={t.kFup}
@@ -531,8 +539,8 @@ export default function App() {
                         tabIndex={0}
                         className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
                         onClick={() => {
-                          // Save search words BEFORE clearing (filter words with 4+ chars)
-                          const searchWords = debouncedQuestionSearch.trim().split(/\s+/).filter(w => w.length >= 4);
+                          // Save search words BEFORE clearing (filter words with 3+ chars)
+                          const searchWords = debouncedQuestionSearch.trim().split(/\s+/).filter(w => w.length >= 3);
 
                           setSelectedPrinciple(p.id);
                           setShowTopCases(false);
@@ -589,6 +597,10 @@ export default function App() {
                   onFocus={() => {
                     setSearchTerm("");
                     setQuestionSearch("");
+                    setHighlightCaseTerm("");
+                    setHighlightFupTerm("");
+                    setHighlightTypicalTerm("");
+                    clearHighlights();
                   }}
                   className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white text-center"
                   aria-label={t.kTypical}
@@ -608,8 +620,8 @@ export default function App() {
                         tabIndex={0}
                         className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
                         onClick={() => {
-                          // Save search words BEFORE clearing (filter words with 4+ chars)
-                          const searchWords = debouncedTypicalQuestionSearch.trim().split(/\s+/).filter(w => w.length >= 4);
+                          // Save search words BEFORE clearing (filter words with 3+ chars)
+                          const searchWords = debouncedTypicalQuestionSearch.trim().split(/\s+/).filter(w => w.length >= 3);
 
                           setSelectedPrinciple(p.id);
                           setShowTopCases(false);
