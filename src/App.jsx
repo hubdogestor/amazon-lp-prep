@@ -460,8 +460,8 @@ export default function App() {
                           tabIndex={0}
                           className="px-4 py-3 hover:bg-slate-50 cursor-pointer border-b border-slate-100 last:border-0 focus:bg-slate-100 focus:outline-none"
                           onClick={() => {
-                            // Save search words BEFORE clearing (filter words with 3+ chars)
-                            const savedSearchWords = searchWords.filter(w => w.length >= 3);
+                            // Save search words BEFORE clearing (filter words with 4+ chars)
+                            const savedSearchWords = searchWords.filter(w => w.length >= 4);
 
                             setSelectedPrinciple(p.id);
                             setShowTopCases(false);
@@ -531,8 +531,8 @@ export default function App() {
                         tabIndex={0}
                         className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
                         onClick={() => {
-                          // Save search words BEFORE clearing (filter words with 3+ chars)
-                          const searchWords = debouncedQuestionSearch.trim().split(/\s+/).filter(w => w.length >= 3);
+                          // Save search words BEFORE clearing (filter words with 4+ chars)
+                          const searchWords = debouncedQuestionSearch.trim().split(/\s+/).filter(w => w.length >= 4);
 
                           setSelectedPrinciple(p.id);
                           setShowTopCases(false);
@@ -608,8 +608,8 @@ export default function App() {
                         tabIndex={0}
                         className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
                         onClick={() => {
-                          // Save search words BEFORE clearing (filter words with 3+ chars)
-                          const searchWords = debouncedTypicalQuestionSearch.trim().split(/\s+/).filter(w => w.length >= 3);
+                          // Save search words BEFORE clearing (filter words with 4+ chars)
+                          const searchWords = debouncedTypicalQuestionSearch.trim().split(/\s+/).filter(w => w.length >= 4);
 
                           setSelectedPrinciple(p.id);
                           setShowTopCases(false);
@@ -777,7 +777,7 @@ export default function App() {
 
             {/* Botão "Todos os Princípios" - estilo título clicável */}
             <button
-              className={`w-full mb-4 px-3 py-2.5 rounded text-sm text-left font-bold uppercase tracking-wide transition-all ${
+              className={`w-full mb-4 px-3 py-2.5 rounded text-base text-left font-bold uppercase tracking-wide transition-all flex items-center gap-2 ${
                 selectedPrinciple === "all"
                   ? "bg-[#232F3E] text-white shadow-lg"
                   : "bg-slate-100 text-[#232F3E] hover:bg-slate-200"
@@ -787,11 +787,17 @@ export default function App() {
                 setSelectedPrinciple("all");
                 setShowTopCases(false);
                 setSearchTerm("");
+                setQuestionSearch("");
+                setTypicalQuestionSearch("");
+                setHighlightCaseTerm("");
+                setHighlightFupTerm("");
+                setHighlightTypicalTerm("");
                 clearHighlights();
                 clearExpanded();
               }}
               aria-pressed={selectedPrinciple === "all"}
             >
+              <span className="text-lg">🏠</span>
               {t.filterAll}
             </button>
 
@@ -855,7 +861,7 @@ export default function App() {
                             <div
                               key={qIdx}
                               id={questionId}
-                              className={`px-3 py-2 bg-white/60 border border-blue-200 rounded text-xs text-[#232F3E] transition-all duration-300 hover:bg-white hover:shadow-sm ${
+                              className={`px-3 py-2 bg-white/60 border border-blue-200 rounded text-xs text-[#232F3E] transition-all duration-300 hover:bg-white hover:shadow-sm flex items-center justify-center min-h-[60px] ${
                                 isHighlighted ? 'bg-yellow-200 font-bold shadow-md' : ''
                               }`}
                             >

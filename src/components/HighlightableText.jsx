@@ -15,8 +15,8 @@ export function HighlightableText({ text, searchTerm, className = "" }) {
   try {
     const textString = String(text);
 
-    // Split search term into individual words (filter words with 3+ chars to avoid highlighting "de", "ou", "eu", etc.)
-    const searchWords = searchTerm.trim().split(/\s+/).filter(w => w.length >= 3);
+    // Split search term into individual words (filter words with 4+ chars to avoid highlighting "de", "ou", "eu", "do", "da", "que", etc.)
+    const searchWords = searchTerm.trim().split(/\s+/).filter(w => w.length >= 4);
 
     if (searchWords.length === 0) {
       return <span className={className}>{text}</span>;
