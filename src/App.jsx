@@ -754,9 +754,9 @@ export default function App() {
         />
       )}
 
-      {/* Conteúdo */}
-      <div className="max-w-[1600px] mx-auto px-6 pt-6">
-        <div className="grid grid-cols-12 gap-8">
+      {/* Conteúdo - Otimizado para widescreen */}
+      <div className="max-w-[2400px] mx-auto px-8 pt-6">
+        <div className="grid grid-cols-12 gap-10">
           {/* Sidebar */}
           <aside id="sidebar" className="col-span-12 xl:col-span-2" role="navigation" aria-label="Principles filter">
             <div
@@ -832,32 +832,33 @@ export default function App() {
                     </p>
                   )}
 
-                  {/* Perguntas Típicas - Amazon Style (azul) em 2-3 colunas */}
+                  {/* Perguntas Típicas - Amazon Style (azul) - Layout tipo tabela */}
                   {typicalQuestions[principle.id] && (
                     <div className="mt-4 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 rounded-lg p-4 shadow-sm">
                       <h3 className="text-sm font-bold text-[#232F3E] mb-3 uppercase tracking-wide flex items-center gap-2">
                         💭 {language === "pt" ? "Perguntas Típicas do Entrevistador" : "Typical Interviewer Questions"}
                       </h3>
-                      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
+                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                         {(language === "en" ? typicalQuestions[principle.id].en : typicalQuestions[principle.id].pt).map((q, qIdx) => {
                           const questionId = `typical-q-${principle.id}-${qIdx}`;
                           const isHighlighted = highlightedTypicalQuestionId === questionId;
                           return (
-                            <li
+                            <div
                               key={qIdx}
                               id={questionId}
-                              className={`text-sm text-[#232F3E] transition-all duration-300 ${
-                                isHighlighted ? 'bg-yellow-200 font-bold px-2 py-1 rounded' : ''
+                              className={`px-3 py-2 bg-white/60 border border-blue-200 rounded flex items-center text-xs text-[#232F3E] transition-all duration-300 hover:bg-white hover:shadow-sm ${
+                                isHighlighted ? 'bg-yellow-200 font-bold shadow-md' : ''
                               }`}
                             >
-                              • <HighlightableText
+                              <span className="text-blue-600 font-bold mr-2">{qIdx + 1}.</span>
+                              <HighlightableText
                                 text={q}
                                 searchTerm={highlightSearchTerm}
                               />
-                            </li>
+                            </div>
                           );
                         })}
-                      </ul>
+                      </div>
                     </div>
                   )}
                 </div>
@@ -928,7 +929,7 @@ export default function App() {
                         >
                           <div className="space-y-3">
                             <h4 className="text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 mb-3">📋 STAR Case</h4>
-                            <div className="space-y-3 leading-relaxed text-lg">
+                            <div className="space-y-3 leading-relaxed text-base">
                               <p>
                                 <strong>{t.situation}:</strong>{" "}
                                 <HighlightableText
