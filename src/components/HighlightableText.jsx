@@ -33,11 +33,9 @@ export function HighlightableText({ text, searchTerm, className = "" }) {
       let startIndex = 0;
       let index = textNorm.indexOf(wordNorm, startIndex);
       while (index !== -1) {
-
-        // The match was found at position 'index' in the normalized text
-        // We need to find the corresponding position and length in the original text
-        // Since normalization only affects case and accents (not length in most cases),
-        // we can use the same indices
+        // Found match at position 'index' in normalized text
+        // Since norm() preserves length (only changes case/accents),
+        // indices are 1:1 between normalized and original text
         const actualLength = wordNorm.length;
 
         matches.push({
@@ -46,7 +44,7 @@ export function HighlightableText({ text, searchTerm, className = "" }) {
           originalText: textString.substring(index, index + actualLength)
         });
 
-        startIndex = index + 1;
+        startIndex = index + actualLength; // Move past this match to find next occurrence
         index = textNorm.indexOf(wordNorm, startIndex);
       }
     });
