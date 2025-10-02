@@ -17,7 +17,10 @@
       "Bash(npm run preview:*)",
       "Bash(dir:*)",
       "Bash(test:*)",
-      "Bash(timeout:*)"
+      "Bash(timeout:*)",
+      "Bash(for file in *.js)",
+      "Bash(do sed -i 's/period: \"\"\\([0-9]\\{2\\}\\/[0-9]\\{4\\}\\)--\\([0-9]\\{2\\}\\/[0-9]\\{4\\}\\)\"\"/period: \"\"\\1-\\2\"\"/g' \"$file\")",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []

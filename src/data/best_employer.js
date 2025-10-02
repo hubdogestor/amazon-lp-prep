@@ -15,7 +15,7 @@ const best_employer = {
       title_pt: "Criação da Comunidade Ágil no InovaBra, Fomentando um Ambiente de Aprendizado para 2k+ Pessoas",
       title_en: "Creating Agile Community at InovaBra, Fostering Learning Environment for 2k+ People",
       company: "Bradesco",
-      period: "01/2017--12/2017",
+      period: "01/2017-12/2017",
       isTopCase: true,
       pt: {
         s: "Durante a criação do Banco Digital Next, o Bradesco enfrentava um desafio cultural massivo. Precisávamos de centenas de profissionais pensando e trabalhando de forma ágil, mas a cultura do banco era tradicional e o conhecimento sobre agilidade, escasso. As equipes se sentiam desengajadas e viam poucas oportunidades de crescimento em novas formas de trabalho, gerando resistência à mudança e impactando negativamente a experiência dos clientes digitais.",
@@ -100,7 +100,7 @@ const best_employer = {
       title_pt: "Implementação de um Sistema de Feedback 360 e Planos de Desenvolvimento Individuais para o Time de PMs",
       title_en: "360 Feedback System and Individual Development Plans Implementation for PM Team",
       company: "Sicredi",
-      period: "01/2019--12/2019",
+      period: "01/2019-12/2019",
       isTopCase: true,
       pt: {
         s: "No Sicredi, à medida que a maturidade da gestão de produtos digitais crescia, identifiquei uma lacuna crítica: não tínhamos um processo estruturado para o desenvolvimento de carreira dos Gerentes de Produto (PMs). Os feedbacks eram informais e não havia um caminho claro sobre quais competências desenvolver. Isso impactava tanto a satisfação da equipe quanto a qualidade dos produtos entregues aos nossos cooperados, criando um ambiente onde talento se sentia subutilizado.",
@@ -185,7 +185,7 @@ const best_employer = {
       title_pt: "Lançamento de um Programa de Mentoria Reversa para Acelerar a Transformação Digital e a Inclusão",
       title_en: "Reverse Mentoring Program Launch to Accelerate Digital Transformation and Inclusion",
       company: "SEFAZ/RS",
-      period: "01/2025--12/2025",
+      period: "01/2025-12/2025",
       isTopCase: false,
       pt: {
         s: "Na Secretaria da Fazenda, havia um gap geracional claro que impactava a produtividade e o moral. Tínhamos líderes sêniores com décadas de experiência em gestão fiscal, mas com baixa fluência digital, o que atrasava projetos de modernização críticos para melhorar os serviços aos contribuintes. Por outro lado, os servidores mais jovens, nativos digitais, tinham uma taxa de engajamento 20% menor que a média, citando 'subutilização de suas habilidades' e falta de oportunidades de crescimento.",

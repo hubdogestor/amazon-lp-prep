@@ -15,7 +15,7 @@ const learn_and_be_curious = {
       title_pt: "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde",
       title_en: "Applying Harvard Concepts to Launch New Digital Health Products",
       company: "Unimed",
-      period: "01/2021--12/2024",
+      period: "01/2021-12/2024",
       isTopCase: true,
       pt: {
         s: "Na Unimed, identifiquei que a empresa líder de mercado estava operando com modelo tradicional enquanto healthtechs como Alice e Sami cresciam 300% ao ano capturando participação de mercado com experiências superiores. Havia necessidade urgente de inovar, mas a organização carecia completamente de frameworks modernos para pensar além do plano de saúde convencional. Nossas tentativas anteriores de inovação falharam por falta de metodologia estruturada - 3 projetos digitais anteriores foram descontinuados após 6 meses por não gerarem value claro.",
@@ -98,7 +98,7 @@ const learn_and_be_curious = {
       title_pt: "Implementação de Framework Ágil em Escala para Banco Digital",
       title_en: "Large-Scale Agile Framework Implementation for Digital Bank",
       company: "Bradesco",
-      period: "01/2016--12/2018",
+      period: "01/2016-12/2018",
       isTopCase: false,
       pt: {
         s: "Para construir o Banco Digital Next, coordenávamos 17 squads e 230 profissionais espalhados por 3 prédios em São Paulo. O maior problema: 6 semanas de atraso acumulado no trimestre por dependências não mapeadas entre squads. Reuniões de alinhamento consumiam 40% do tempo produtivo - desenvolvedores gastavam 16 horas/semana em meetings sem delivery tangível. O modelo tradicional de gestão em cascata do Bradesco era fundamentally inadequado para a velocidade e interdependência exigida por produto digital. Tentativas anteriores de 'agilidade' foram superficiais - sprints isolados sem coordination global.",
@@ -183,7 +183,7 @@ const learn_and_be_curious = {
       title_pt: "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização",
       title_en: "Blockchain Payment Solution Prototyping After Specialization",
       company: "OLÍBANO",
-      period: "03/2024--08/2024",
+      period: "03/2024-08/2024",
       isTopCase: false,
       pt: {
         s: "Como sócio-investidor na OLÍBANO, empresa focada em payment innovation, observava intense debate sobre blockchain durante nossas monthly board meetings. Na reunião trimestral de outubro/2023, dois sócios strongly defendiam investir R$ 800k em solução blockchain para remessas internacionais, arguing que competitors estavam gaining advantage. Havia muito barulho e strong opinions mas pouca real clarity sobre applications práticas de negócio. Estava clear que needed deep understanding da tecnologia para make informed strategic decisions ao invés de follow market hype.",

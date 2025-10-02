@@ -15,7 +15,7 @@ const frugality = {
       title_pt: "Geração de U$1.4M em Ganhos de Eficiência no Setor Público sem Aumento de Orçamento",
       title_en: "Generating $1.4M in Public Sector Efficiency Gains Without Budget Increase",
       company: "SEFAZ/RS",
-      period: "01/2024--12/2025",
+      period: "01/2024-12/2025",
       isTopCase: true,
       pt: {
         s: "Ao iniciar meu trabalho como Consultor na SEFAZ/RS, a CAGE precisava urgentemente modernizar sua gestão de projetos para atender às exigências críticas do programa PROFISCO II - um programa de financiamento internacional que exigia governança de projetos de classe mundial. O ambiente do setor público opera com orçamentos fixos e processos burocráticos lentos. A solução padrão seria solicitar um orçamento para contratar consultorias e adquirir softwares de PMO caros, um processo que levaria 6-12 meses e provavelmente seria negado devido às restrições fiscais.",
@@ -100,7 +100,7 @@ const frugality = {
       title_pt: "Otimização de Recursos em um Portfólio de 50+ Projetos para Acelerar o Rollout do 4G",
       title_en: "Resource Optimization in 50+ Project Portfolio to Accelerate 4G Rollout",
       company: "Huawei",
-      period: "01/2009--12/2015",
+      period: "01/2009-12/2015",
       isTopCase: true,
       pt: {
         s: "Na Huawei, a pressão para entregar a infraestrutura do 4G antes da Copa do Mundo era gigantesca, com contratos de R$ 2.5 bilhões em risco. O orçamento era fixo e já estava totalmente alocado. A abordagem tradicional seria solicitar um orçamento de emergência para contratar mais equipes, uma solução cara e nem sempre eficaz. O prazo não era negociável e tínhamos mais de 50 projetos críticos correndo em paralelo, com potencial impacto na imagem do Brasil durante o evento mundial.",
@@ -185,7 +185,7 @@ const frugality = {
       title_pt: "Automação de Relatórios de Reconciliação Financeira Usando Ferramentas Open-Source (n8n)",
       title_en: "Financial Reconciliation Report Automation Using Open-Source Tools (n8n)",
       company: "Unimed",
-      period: "01/2023--12/2023",
+      period: "01/2023-12/2023",
       isTopCase: false,
       pt: {
         s: "A equipe de payment reconciliation da Unimed gastava 200 horas de trabalho manual por mês na criação de relatórios de reconciliação entre sistemas de pagamento, cobrança e administradoras de cartão, um processo tedioso e propenso a erros. A equipe havia solicitado um orçamento de R$ 300.000 para uma ferramenta de automação empresarial especializada em reconciliação financeira, mas o processo de aprovação seria longo e incerto. O cliente interno (equipe de finanças) estava frustrado com a carga de trabalho repetitiva que os impedia de focar em análises estratégicas.",

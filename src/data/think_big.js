@@ -15,7 +15,7 @@ const think_big = {
       title_pt: "Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Huawei",
       title_en: "Global Rollout Model Transformation at Huawei - From Brazil to Worldwide Standard",
       company: "Huawei",
-      period: "01/2012--12/2014",
+      period: "01/2012-12/2014",
       isTopCase: true,
       pt: {
         s: "Na Huawei, enfrentávamos um SLA crítico de 382 dias para entrega de sites de telecom no Brasil. A visão da maioria dos gestores era local e incremental: reduzir esse número em 10% ou 20%. O pensamento estava confinado a resolver apenas um problema brasileiro, mas eu identifiquei uma oportunidade de impacto global.",
@@ -100,7 +100,7 @@ const think_big = {
       title_pt: "Liderança da Iniciativa para Transformar a Unimed de uma Seguradora para um Ecossistema de Saúde Digital",
       title_en: "Leading Unimed's Transformation from Insurance to Digital Health Ecosystem",
       company: "Unimed",
-      period: "01/2021--12/2024",
+      period: "01/2021-12/2024",
       isTopCase: true,
       pt: {
         s: "A Unimed era líder de mercado em planos de saúde, mas pensava como uma seguradora tradicional com estratégia incremental. Com o avanço das healthtechs fragmentando nosso mercado e oferecendo soluções específicas (telemedicina, check-ups executivos, wellness), identifiquei que esse modelo estava com os dias contados. Pensar pequeno, focando apenas no plano de saúde, era uma profecia autorrealizável de irrelevância futura.",
@@ -185,7 +185,7 @@ const think_big = {
       title_pt: "Proposta e Desenho de uma Plataforma de Pagamentos como Serviço (PaaS) para a América Latina",
       title_en: "Payments as a Service (PaaS) Platform Proposal for Latin America",
       company: "Bradesco Next",
-      period: "03/2018--12/2018",
+      period: "03/2018-12/2018",
       isTopCase: false,
       pt: {
         s: "No Bradesco, o Next havia se consolidado como um banco digital B2C de sucesso no Brasil. Todo o pensamento estratégico estava focado em adicionar funcionalidades para o consumidor final brasileiro, com uma visão limitada ao mercado local. Enquanto isso, players globais como Stripe estavam expandindo agressivamente na América Latina.",

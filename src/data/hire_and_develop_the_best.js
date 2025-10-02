@@ -15,7 +15,7 @@ const hire_and_develop_the_best = {
       title_pt: "Mentoria de 30+ Gerentes de Projeto e Criação de uma Comunidade de Prática",
       title_en: "Mentoring 30+ Project Managers and Creating a Community of Practice",
       company: "Huawei",
-      period: "01/2009--12/2015",
+      period: "01/2009-12/2015",
       isTopCase: true,
       pt: {
         s: "Na Huawei, durante a expansão na América Latina, a demanda por gerentes de projeto (GPs) qualificados era muito maior que a oferta. Estávamos em um ambiente de alta pressão para entregar programas como o rollout do 4G, mas a inconsistência na performance dos GPs era um dos nossos maiores riscos. A qualidade dos talentos disponíveis no mercado não atendia aos padrões que precisávamos para executar projetos críticos. Atrasos nos projetos por falta de liderança qualificada poderiam resultar em milhões em perdas e impactar nossa reputação no mercado latino-americano.",
@@ -100,7 +100,7 @@ const hire_and_develop_the_best = {
       title_pt: "Criação de Pipeline de Talentos Ágeis e Elevação dos Padrões de Contratação no InovaBra",
       title_en: "Creating Agile Talent Pipeline and Raising Hiring Standards at InovaBra",
       company: "Bradesco",
-      period: "01/2017--12/2018",
+      period: "01/2017-12/2018",
       isTopCase: true,
       pt: {
         s: "Para construir o Banco Next, precisávamos contratar centenas de profissionais com mentalidade ágil que eram escassos no mercado financeiro brasileiro. A maioria dos candidatos tinha conhecimento teórico, mas não sabiam aplicar agilidade sob pressão. Nossos processos de contratação tradicionais não conseguiam identificar e avaliar essas competências práticas, resultando em contratações que não elevavam a barra de performance da organização.",
@@ -185,7 +185,7 @@ const hire_and_develop_the_best = {
       title_pt: "Desenvolvimento de um Analista de Baixo Desempenho Através de Realocação e Ownership",
       title_en: "Underperforming Analyst Development Through Reallocation and Ownership",
       company: "Unimed",
-      period: "01/2023--12/2023",
+      period: "01/2023-12/2023",
       isTopCase: false,
       pt: {
         s: "Na Unimed, a equipe de operações de pagamentos sofria com alto turnover (40%), gerando custos elevados de recrutamento e perda de conhecimento institucional crítico. Para reverter isso, criei um programa de desenvolvimento de carreira. No entanto, um analista recém-contratado, apesar de ter demonstrado grande potencial analítico na entrevista, estava com uma produtividade 30% abaixo da média na área de análise de fraude. Ele estava desmotivado e corria o risco de ser desligado.",

@@ -15,7 +15,7 @@ const are_right_a_lot = {
       title_pt: "Decisão de Priorizar Experiência Mobile-First Baseada em Dados de Engajamento",
       title_en: "Decision to Prioritize Mobile-First Experience Based on Engagement Data",
       company: "Sicredi Woop",
-      period: "01/2018--12/2021",
+      period: "01/2018-12/2021",
       isTopCase: true,
       pt: {
         s: "Assumi como Estrategista de Produtos no Sicredi em contexto crítico: liderando evolução do banco digital Woop com 15 squads, 120 desenvolvedores, e pressão intensa para entregar funcionalidades simultaneously em desktop e mobile. A cultura bancária tradicional da cooperativa pressionava por investimentos divididos 50/50 entre plataformas, mas EU estava observando sinais contraditórios nos dados de uso. Com budget limitado de R$ 8.5M para o ano e timeline aggressive para competir com Nubank e Inter, EU precisava tomar decisive call sobre onde focar nossos recursos escassos.",
@@ -98,7 +98,7 @@ const are_right_a_lot = {
       title_pt: "Análise de Causa Raiz para Redefinir Estratégia de Rollout de 4G",
       title_en: "Root Cause Analysis to Redefine 4G Rollout Strategy",
       company: "Huawei",
-      period: "01/2012--12/2014",
+      period: "01/2012-12/2014",
       isTopCase: false,
       pt: {
         s: "Na Huawei Brasil, enfrentávamos crisis operacional severe: SLA de 382 dias para implantação de sites de telecom 4G estava destroying our competitive advantage. Clientes like Vivo e TIM estavam questioning contratos, threatening to switch para Ericsson que prometia 180-day SLA. A belief predominante na senior management era que problem was resource shortage - solution obvia que todos proposed era hire more people. CFO had approved budget para 40+ additional engineers, mas EU estava seeing conflicting signals nos dados operacionais.",
@@ -181,7 +181,7 @@ const are_right_a_lot = {
       title_pt: "Validação de Novo Modelo de Precificação para APIs de Pagamento Usando Análise Competitiva",
       title_en: "Validating New Pricing Model for Payment APIs Using Competitive Analysis",
       company: "Sicredi",
-      period: "01/2020--12/2020",
+      period: "01/2020-12/2020",
       isTopCase: false,
       pt: {
         s: "No Sicredi, estávamos planning launch de nova comprehensive API suite para payment processing que would represent R$ 15M+ em potential annual revenue. Internal strategic discussion estava paralyzed between two pricing approaches: fixed fee model (traditional banking approach) vs. percentage-based model (fintech standard). Dominant belief among senior management foi follow fintech model para appear 'modern' e competitive. However, EU estava observing market signals que suggested this conventional wisdom might be wrong para our specific context.",

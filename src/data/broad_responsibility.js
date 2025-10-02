@@ -15,7 +15,7 @@ const broad_responsibility = {
       title_pt: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes",
       title_en: "LGPD Compliance Assurance in Digital Product Launch for Millions of Customers",
       company: "Unimed",
-      period: "01/2021--12/2021",
+      period: "01/2021-12/2021",
       isTopCase: true,
       pt: {
         s: "Em 2021, a Lei Geral de Proteção de Dados (LGPD) entrou em pleno vigor. Na Unimed, nosso sucesso e escala significavam que éramos guardiões dos dados de saúde -- a categoria mais sensível de dados pessoais -- de centenas de milhares de pessoas. Ao liderar o lançamento de 4 novos produtos digitais, a responsabilidade de garantir a conformidade não era apenas uma obrigação legal, mas um imperativo ético que impactaria milhões de vidas.",
@@ -100,7 +100,7 @@ const broad_responsibility = {
       title_pt: "Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária",
       title_en: "FATCA and AML Controls Implementation in Billion-Dollar Operation",
       company: "HSBC",
-      period: "01/2016--12/2016",
+      period: "01/2016-12/2016",
       isTopCase: true,
       pt: {
         s: "No contexto de payment operations em wealth management, a venda da operação do HSBC para o Bradesco envolvia a migração de um portfólio bilionário com milhares de contas internacionais. Nosso sucesso e escala significavam que estávamos no centro de regulamentações globais complexas como FATCA e AML (Anti-Lavagem de Dinheiro). Uma única falha poderia resultar em multas multimilionárias e impactar a integridade do sistema financeiro global.",
@@ -185,7 +185,7 @@ const broad_responsibility = {
       title_pt: "Desenvolvimento de uma Política de IA Responsável para Análise de Crédito, Garantindo Equidade e Transparência",
       title_en: "Responsible AI Policy Development for Credit Analysis, Ensuring Equity and Transparency",
       company: "Sicredi",
-      period: "01/2020--12/2020",
+      period: "01/2020-12/2020",
       isTopCase: false,
       pt: {
         s: "No Sicredi, ao introduzirmos o primeiro modelo de ML para pré-aprovação de crédito, o sucesso trouxe uma nova e complexa responsabilidade. A escala do nosso negócio significava que as decisões do nosso algoritmo impactariam a vida financeira de milhares de pessoas. O risco de o modelo perpetuar vieses, levando a decisões injustas, era uma responsabilidade que precisávamos endereçar com urgência.",

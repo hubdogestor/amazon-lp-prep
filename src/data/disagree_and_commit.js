@@ -15,7 +15,7 @@ const disagree_and_commit = {
       title_pt: "Defesa de uma Estratégia de Produto Focada em Retenção Contra uma Proposta de Foco em Aquisição",
       title_en: "Defending Customer Retention Strategy Against Acquisition-Focused Proposal",
       company: "Unimed",
-      period: "01/2022--12/2022",
+      period: "01/2022-12/2022",
       isTopCase: true,
       pt: {
         s: "Na Unimed, durante o planejamento estratégico anual, a área comercial, com forte apoio de parte da diretoria, defendia uma estratégia agressiva focada 100% na aquisição de novos clientes. Esta era a direção preferida por stakeholders poderosos e influentes, incluindo o Diretor Comercial com 15 anos de casa.",
@@ -100,7 +100,7 @@ const disagree_and_commit = {
       title_pt: "Desafio a um Cronograma de Projeto Irrealista e Apresentação de um Plano Alternativo Viável",
       title_en: "Challenging Unrealistic World Cup Project Timeline with Alternative Plan",
       company: "Huawei",
-      period: "01/2013--12/2013",
+      period: "01/2013-12/2013",
       isTopCase: true,
       pt: {
         s: "Durante o projeto de rollout do 4G para a Copa do Mundo, a diretoria global estabeleceu um cronograma que era extremamente agressivo. A equipe de engenharia sinalizava que o prazo era impossível, mas ninguém tinha a coragem de desafiar formalmente a meta estabelecida pela liderança sênior.",
@@ -185,7 +185,7 @@ const disagree_and_commit = {
       title_pt: "Discordância Fundamentada em Dados Sobre a Priorização de um Feature Solicitado por um Stakeholder Sênior",
       title_en: "Data-Driven Disagreement on MVP Feature Prioritization with Senior Stakeholder",
       company: "Bradesco Next",
-      period: "03/2017--12/2017",
+      period: "03/2017-12/2017",
       isTopCase: false,
       pt: {
         s: "Um VP sênior do Bradesco estava defendendo com paixão a priorização de uma funcionalidade complexa de 'gerenciador de investimentos' para nosso MVP de lançamento. A equipe, para evitar conflito, estava inclinada a aceitar, mesmo sabendo que isso colocaria em risco nosso prazo de 12 meses para o lançamento.",

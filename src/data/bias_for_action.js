@@ -15,7 +15,7 @@ const bias_for_action = {
       title_pt: "Decisão Rápida para Lançar Banco Digital Next em 12 Meses, Assumindo Riscos Calculados",
       title_en: "Quick Decision to Launch Next Digital Bank in 12 Months, Taking Calculated Risks",
       company: "Bradesco Next",
-      period: "01/2016--12/2018",
+      period: "01/2016-12/2018",
       isTopCase: true,
       pt: {
         s: "O desafio de lançar Banco Next em 12 meses nos colocou em conflito direto com cultura avessa a risco do Bradesco. Abordagem padrão de análise exaustiva levaria anos. Para competir com fintechs, precisávamos nos mover em velocidade radicalmente diferente.",
@@ -100,7 +100,7 @@ const bias_for_action = {
       title_pt: "Introdução de Análise Preditiva com Machine Learning para Aprovação de Crédito",
       title_en: "Introduction of Predictive Analysis with Machine Learning for Credit Approval",
       company: "Sicredi Woop",
-      period: "01/2019--12/2020",
+      period: "01/2019-12/2020",
       isTopCase: false,
       pt: {
         s: "O processo de análise de crédito no banco digital Woop levava 5 dias, tempo inaceitável. Discussão sobre usar IA estava presa em ciclo de planejamento que levaria mais de um ano. A inação estava nos custando clientes e competitividade no mercado.",
@@ -185,7 +185,7 @@ const bias_for_action = {
       title_pt: "Lançamento de Piloto de Otimização de Processos em 60 Dias para Validar Hipótese de Eficiência",
       title_en: "Launch of Process Optimization Pilot in 60 Days to Validate Efficiency Hypothesis",
       company: "Huawei",
-      period: "01/2014--12/2014",
+      period: "01/2014-12/2014",
       isTopCase: false,
       pt: {
         s: "Após grande reengenharia de processos na Huawei, identificamos gargalo persistente na logística de entrega de equipamentos. Discussão sobre solução estava travada em comitês, com propostas de caros sistemas de WMS que levariam mais de um ano para serem implementados.",
