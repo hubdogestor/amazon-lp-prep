@@ -2,7 +2,7 @@
 // Perguntas típicas que entrevistadores fazem para cada Leadership Principle
 
 const typicalQuestions = {
-  "inventar e simplificar": {
+  "invent_and_simplify": {
     pt: [
       "Conte sobre uma vez que você inventou algo",
       "Me fale sobre uma solução criativa que você desenvolveu",
@@ -18,7 +18,7 @@ const typicalQuestions = {
       "Tell me about an innovation you implemented"
     ]
   },
-  "mentalidade de dono": {
+  "ownership": {
     pt: [
       "Me dê um exemplo de quando você foi além da sua função",
       "Conte sobre uma decisão de longo prazo que você tomou",
@@ -34,7 +34,7 @@ const typicalQuestions = {
       "Tell me about a difficult trade-off you made thinking long-term"
     ]
   },
-  "mergulhar fundo": {
+  "dive_deep": {
     pt: [
       "Conte sobre uma vez que você descobriu um problema profundo",
       "Me fale sobre quando você teve que investigar um problema complexo",
@@ -50,7 +50,7 @@ const typicalQuestions = {
       "Give me an example of when you found the root cause of a problem"
     ]
   },
-  "entregar resultados": {
+  "deliver_results": {
     pt: [
       "Conte sobre uma meta desafiadora que você alcançou",
       "Me fale sobre uma vez que você entregou sob pressão",
@@ -66,7 +66,7 @@ const typicalQuestions = {
       "Give me an example of when you had to prioritize to deliver on time"
     ]
   },
-  "ganhar a confianca": {
+  "earn_trust": {
     pt: [
       "Qual foi o feedback mais difícil que você já recebeu?",
       "Conte sobre uma vez que você admitiu um erro",
@@ -82,7 +82,7 @@ const typicalQuestions = {
       "Describe a situation where you were transparent even when uncomfortable"
     ]
   },
-  "obsessao pelo cliente": {
+  "customer_obsession": {
     pt: [
       "Me fale sobre uma vez que você colocou o cliente em primeiro lugar",
       "Conte sobre quando você teve que escolher entre cliente e métricas internas",
@@ -98,7 +98,7 @@ const typicalQuestions = {
       "Give me an example of when you went above and beyond for a customer"
     ]
   },
-  "aprender e ser curioso": {
+  "learn_and_be_curious": {
     pt: [
       "Me fale sobre a última coisa nova que você aprendeu",
       "Conte sobre uma vez que você saiu da sua zona de conforto",
@@ -114,7 +114,7 @@ const typicalQuestions = {
       "Give me an example of when your curiosity led to an improvement"
     ]
   },
-  "insistir nos mais altos padroes": {
+  "insist_on_highest_standards": {
     pt: [
       "Conte sobre uma vez que você elevou a barra de qualidade",
       "Me fale sobre quando você não aceitou um trabalho medíocre",
@@ -130,7 +130,7 @@ const typicalQuestions = {
       "Give me an example of when you implemented a quality process"
     ]
   },
-  "estar certo, e muito": {
+  "are_right_a_lot": {
     pt: [
       "Conte sobre uma vez que você teve uma opinião impopular mas correta",
       "Me fale sobre quando você mudou de opinião baseado em novos dados",
@@ -146,7 +146,7 @@ const typicalQuestions = {
       "Give me an example of when you challenged a decision you thought was wrong"
     ]
   },
-  "ter iniciativa": {
+  "bias_for_action": {
     pt: [
       "Me fale sobre uma decisão que você tomou com informação limitada",
       "Conte sobre uma vez que você agiu rapidamente",
@@ -162,7 +162,7 @@ const typicalQuestions = {
       "Give me an example of when you took a calculated risk"
     ]
   },
-  "pensar grande": {
+  "think_big": {
     pt: [
       "Conte sobre uma visão ambiciosa que você teve",
       "Me fale sobre um projeto que mudou o jogo",
@@ -178,7 +178,7 @@ const typicalQuestions = {
       "Give me an example of when you proposed something that seemed impossible"
     ]
   },
-  "ser firme, discordar e se comprometer": {
+  "disagree_and_commit": {
     pt: [
       "Conte sobre uma vez que você discordou fortemente de uma decisão",
       "Me fale sobre quando você teve que se comprometer com algo que não concordava",
@@ -194,7 +194,7 @@ const typicalQuestions = {
       "Give me an example of when you defended an unpopular position"
     ]
   },
-  "contratar e desenvolver os melhores": {
+  "hire_and_develop_the_best": {
     pt: [
       "Me fale sobre como você desenvolve pessoas",
       "Conte sobre uma contratação excepcional que você fez",
@@ -210,7 +210,7 @@ const typicalQuestions = {
       "Give me an example of when you had to give difficult feedback"
     ]
   },
-  "frugalidade": {
+  "frugality": {
     pt: [
       "Conte sobre uma vez que você fez mais com menos",
       "Me fale sobre quando você otimizou custos",
@@ -226,7 +226,7 @@ const typicalQuestions = {
       "Give me an example of when you eliminated waste"
     ]
   },
-  "sucesso e crescimento trazem maior responsabilidade": {
+  "broad_responsibility": {
     pt: [
       "Me fale sobre como você considera impacto mais amplo das suas decisões",
       "Conte sobre uma vez que você agiu pensando na comunidade",
@@ -242,7 +242,7 @@ const typicalQuestions = {
       "Give me an example of when you considered stakeholders beyond the obvious"
     ]
   },
-  "empenhar-se para ser a melhor empregadora do mundo": {
+  "best_employer": {
     pt: [
       "Conte sobre como você cria um ambiente de trabalho melhor",
       "Me fale sobre quando você priorizou o bem-estar da equipe",

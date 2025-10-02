@@ -831,10 +831,10 @@ export default function App() {
                     </p>
                   )}
 
-                  {/* Perguntas Típicas */}
+                  {/* Perguntas Típicas - Amazon Style (azul) */}
                   {typicalQuestions[principle.id] && (
-                    <div className="mt-4 bg-purple-50 border border-purple-200 rounded-lg p-4">
-                      <h3 className="text-sm font-bold text-purple-900 mb-2 uppercase tracking-wide">
+                    <div className="mt-4 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 rounded-lg p-4 shadow-sm">
+                      <h3 className="text-sm font-bold text-[#232F3E] mb-2 uppercase tracking-wide flex items-center gap-2">
                         💭 {language === "pt" ? "Perguntas Típicas do Entrevistador" : "Typical Interviewer Questions"}
                       </h3>
                       <ul className="space-y-1.5">
@@ -845,7 +845,7 @@ export default function App() {
                             <li
                               key={qIdx}
                               id={questionId}
-                              className={`text-sm text-purple-800 transition-all duration-300 ${
+                              className={`text-sm text-[#232F3E] transition-all duration-300 ${
                                 isHighlighted ? 'bg-yellow-200 font-bold px-2 py-1 rounded' : ''
                               }`}
                             >
@@ -866,14 +866,17 @@ export default function App() {
                   const caseDomId = `case-${slugify(c.id || c.title)}`;
                   const open = !!expandedCases[c.title];
                   const isHighlighted = highlightedCaseId === caseDomId;
+                  const isTop = isTopCase(c);
 
                   return (
                     <article
                       key={caseKey}
                       id={caseDomId}
-                      className={`bg-gradient-to-br from-blue-50 to-indigo-50 border rounded-xl p-0 mb-6 overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-blue-100/50 hover:border-blue-300 ${
-                        isHighlighted ? 'ring-2 ring-amber-300 bg-amber-50' : 'border-blue-200'
-                      }`}
+                      className={`bg-gradient-to-br rounded-xl p-0 mb-6 overflow-hidden transition-all duration-300 ${
+                        isTop
+                          ? 'from-orange-50 to-amber-50 border-4 border-[#FF9900] shadow-lg shadow-orange-200/50 hover:shadow-xl hover:shadow-orange-300/50'
+                          : 'from-blue-50 to-sky-50 border-2 border-blue-300 hover:shadow-lg hover:shadow-blue-200/50 hover:border-blue-400'
+                      } ${isHighlighted ? 'ring-2 ring-amber-400' : ''}`}
                     >
                       {/* Header clicável (área ampla) */}
                       <header
@@ -899,8 +902,13 @@ export default function App() {
                           }
                         }}
                       >
-                        <div className="flex items-center gap-2">
-                          <h3 className="text-lg font-bold text-slate-900">
+                        <div className="flex items-center gap-3">
+                          {isTop && (
+                            <span className="px-3 py-1 bg-[#FF9900] text-white text-xs font-bold rounded-full shadow-md animate-pulse">
+                              ⭐ TOP CASE
+                            </span>
+                          )}
+                          <h3 className={`text-lg font-bold ${isTop ? 'text-[#232F3E]' : 'text-slate-900'}`}>
                             <HighlightableText
                               text={getDisplayCaseTitle(c, language)}
                               searchTerm={highlightSearchTerm}
