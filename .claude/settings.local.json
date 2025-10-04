@@ -6,7 +6,9 @@
       "Bash(git push:*)",
       "Bash(dir)",
       "Bash(mkdir:*)",
-      "Bash(xcopy:*)"
+      "Bash(xcopy:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm test:*)"
     ],
     "deny": [],
     "ask": []

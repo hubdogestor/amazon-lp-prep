@@ -1,0 +1,211 @@
+A Amazon realiza diariamente uma agenda chamada “Prep Call”, onde os candidatos entram, e conversam com o time de HR, é um momento onde eles dão algumas dicas, e sanam algumas dúvidas que o candidato possa vir a ter.
+
+Pois bem, eu vou transcrever abaixo tanto o material apresentado quando as minhas anotações, para que isso tudo possa ser considerado no contexto geral.
+
+PREP CALL
+
+
+# Minhas anotações – Phone Screen
+* Normalmente fazem 5 min para icebreak, de 40 a 50 minutos de entrevistas e 5 minutos para perguntas que eu possa fazer para eles;
+* O quebra-gelo é aquele rapport inicial para criar uma conexão entre o entrevistador e o candidato, normalmente ele fará perguntas do tipo: “me fale sobre você”, “quais seus hobbies e interesses?” e também “por que a Amazon ?”, “Por que essa vaga / área?”
+
+# Minhas anotações – Onsite / Loop:
+* Para vagas L5 e L6 são 5 entrevistas (que é o meu caso);
+* Para essa etapa eu receberei os LP principles que serão abordados;
+* Todas serão 100% online;
+* Recomenda-se responder cada case em 5 a 7 min, e o fup question em 30s.
+
+
+# Minhas anotações – STAR(L):
+* As perguntas serão sempre situacionais, exemplo: “me conte sobre quando você implementou um projeto mas o resultado não saiu conforme o planejado”.
+* (S) Situação:
+o Em qual empresa eu estava? Em que cargo eu estava ? 
+o Quando aconteceu ? 
+o Qual era o cenário / momento ? (principalmente se houver cenários que chamem a atenção, coisas do tipo: “...enquanto estava enfrentando um layoff...”;
+o Aqui é um espaço onde eu vou “ambientar” o entrevistador, vou fornecer detalhes relevantes para ele poder entender todo o case.
+* (T) Tarefa:
+o Que desafio era esperado que fosse resolvido;
+o Qual era o MEU escopo em específico ?
+o Quais eram os caminhos que precisavam ser tomados ? O que precisava ser feito para resolver?
+* (A) Ação:
+o Importante focar aqui em tudo o que apoiou a minha tomada de decisão
+o Quem estava envolvido ? Quem estava no projeto?
+o Quais eram as ambiguidades? 
+o Como eu organizei minhas prioridades para chegar no resultado ?
+o O que eles querem saber aqui é o meu processo de tomada de decisão...
+o Importante mencionar tudo que apoiou uma tomada de decisão... As hipóteses que eu considerei, e o motivo pelo qual escolhi uma delas.
+* (R) Resultados:
+o Aqui não é só “jogar” os dados na mesa, tem que demonstrar que tenho propriedade sobre os mesmos!
+o Usar dados, prazos, números...
+o Interessante mostrar como avaliei diferentes possibilidades (antes de tomar alguma ação), se trouxer exemplos, melhor ainda, coisas do tipo: “era pra fazer X, fiz Y porque...
+* (L) Aprendizado:
+o São as lições aprendidas;
+o É legal saber porque algo não deu certo, e como isso influenciou no meu crescimento...
+o Para o que não deu certo, demonstrar como eu aplicaria isso em situações futuras.
+Obs: De modo geral, não preciso montar só cases com histórias de sucesso, não há problema algum em falar sobre algo que não deu certo.
+
+
+
+
+
+Segue abaixo minhas anotações sobre os Leadership principles:
+
+
+# ARE RIGHT A LOT
+- habilidade de tomar ações assertivas (mesmo em momentos de pressão e incerteza);
+- nem sempre estamos certos, mas apoiaremos a melhor ideia;
+- aqui eles querem saber como eu busco dados adicionais... (para saber a melhor decisão);
+- aqui temos que ter a ciência de que nem sempre a nossa ideia é a melhor... mas iremos apoiá-la.
+
+** possível pergunta: "conte sobre uma situação onde você tomou uma decisão difícil com input de diferentes stakeholders? "
+
+
+
+
+# BIAS FOR ACTION
+- querem saber sobre minha skill de avaliação de riscos (pois nem sempre terei tempo de consultar a liderança), então batem muito na tecla das one-way-door e two-way-door decicions...
+- querem ver como eu identifico problemas potenciais... e minha habilidade de tomar decisões.
+** possível pergunta: "nos dê um exemplo de risco calculado que você tomou quando o tempo era crítico, e como você mitigou esse risco?"
+
+
+# CUSTOMER OBSESSION
+- querem saber como eu vejo e valorizo a experiencia do cliente
+** possível pergunta: "conte uma situação onde você foi além da expectativa do cliente ou antecipou uma necessidade não expressa."
+
+
+# DELIVER RESULTS
+- focar nos inputs chave para o negócio
+- esperam que de demonstre situações onde eu fui ambicioso.
+** possível pergunta: "conte sobre um projeto desafiador entregue com sucesso superando obstáculos significativos."
+
+
+# DIVE DEEP
+- A amazon é data driven!!! levar cases analíticos / quantitativos;
+- Levar KPIs, números, análises de causa raíz;
+- o intuito aqui é realizar análises profundas para buscar a causa raíz e resolver;
+- irão avaliar a atenção aos detalhes, a compreensão dos KPIs;
+- espera-se que eu seja uma pessoa investigativa, que busca outros recursos (além dos dashboards óbvios)... é bom demonstrar que eu tenho todas as informações antes de tomar decisões.
+
+** possível pergunta: "conte uma situação onde você precisou entender a causa raíz para resolver um problema complexo."
+
+
+# EARN TRUST
+- aqui é sobre ser transparente, ter empatia e ouvir os outros;
+- ser vocalmente autocrítico, mas identificar o que aprendi;
+- vão querer sabre como eu recebo feedbacks negativos, e como eu lido com esses feedbacks;
+- e o foco não é o feedback em si, mas como eu lidei com isso... como aprendi algo, etc.
+** possível pergunta: "qual foi o feedback mais difícil que você já recebeu ? e como lidou com isso ? " ou " me conte sobre um feedback negativo que você recebeu." 
+
+
+# HAVE BACKBONE; DISAGREE AND COMMIT
+- ter a firmeza de discordar, mesmo que isso gere desconforto...
+** possível pergunta: "conte sobre uma situação onde você discordou do supervisor / manager, mas ainda assim se comprometeu com a decisão final (e com a entrega)."
+
+
+# HIRE AND DEVELOP THE BEST
+possível pergunta: "como você abordou o desenvolvimento de um membro da equipe, que estava com baixo desempenho?"
+
+# INSIST ON THE HIGHEST STANDARDS
+- aqui é sobre "raise the bar" :)
+- também sobre garantir que os defeitos não sejam passados adiante.
+- não podemos nos acomodar com o resultado atual..
+** possível pergunta: "como você garante que a equipe mantenha padrões elevados mesmo com prazo apertado?"
+
+
+# INVENT AND SIMPLIFY
+- inovação para otimizar as coisas
+- inovar é preciso, mas o foco tem que ser em simplificar algo... 
+** possível pergunta: "conte sobre uma inovação que você implementou que simplificou um processo (que era complexo)?"
+
+
+# LEARN AND BE CURIOUS
+- constantemente melhorar a nós mesmos;
+- explorar novas áreas, aprendizagem constante;
+- pode levar exemplos de cursos, livros, podcasts...
+** possível pergunta: "como você se mantém atualizado na sua área de expertise e como explora novas áreas de conhecimento?"
+
+
+# OWNERSHIP
+- literalmente o olhar de dono, com pensamento em longo prazo;
+- eles esperam uma pessoa que contribui e participa das coisas, para além da cadeira dela...
+- a amazon nunca vai sacrificar o longo prazo em razão de uma entrega de curto prazo... nunca vai sacrificar o valor de longo prazo por resultados mais curtos e mais rápidos...
+
+** possível pergunta: "nos conte uma situação onde você assumiu responsabilidade além do seu escopo de trabalho e área de conhecimento." e "como lidou com isso, equilibrando as tarefas atuais / normais com essas outras (novas) ?"
+
+
+# THINK BIG
+- criar planos audaciosos
+- pensar fora da caixa
+** possível pergunta: "conte sobre um momento onde você propôs uma ideia ousada mas que trouxe grandes resultados."
+
+
+
+# Minhas anotações sobre as dicas importantes:
+- quando falar de dados, tenho que demonstrar que sei interpretar os dados em questao (tenho que saber a racional, como cheguei no resultado em questao);
+
+- nao é proibido repetir um case entre as entrevistas, mas ao repeti-lo, usar uma nuances diferentes, propositos diferentes... 
+
+- eles bateram muito, mas muito na tecla de evitar expressoes como "nós fizemos", "nós entregamos", pois querem que os cases reflitam o que EU (LEONARDO) fiz, e mesmo quando eu nao tenha colocado diretamente a mao na massa, que eu possa salientar como eu direcionei a equipe executora para tal. (ou quando for uma entrega super ampla, mencionar o que especificamente eu fiz e/ou qual foi a minha contribuição para tal resultado)
+
+- o pensamento de longo prazo na amazon é uma premissa inegociável, eu tenho que sempre demonstrar como priorizo valor sustentável para além dos ganhos imediatos
+
+- quando fala-se em cliente no centro, tenho que demonstrar como pensei primeiramente no cliente e então comecei a desenvolver algo
+
+- sobre escalabilidade, a amazon gosta que, quando usar exemplos, que eu pense em algo que possa ser replicado, e não só uma solução pontual.
+
+- sobre ser vocalmente autocritico, é sobre não ter medo de falar sobre algo que deu errado, mas sim falar o que aprendi com aquilo e como eu lido hoje em dia com tais situações, isso mostra humildade. (Ah, se der exemplos, melhor ainda, coisas do tipo: "analisando a situação em uma retro, concluí que poderia ter atingido um resultado diferente se tivesse feito tal e tal coisa..."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Obs: Os leadership principles aparecerão sempre nessa ordem de importância em tudo o que eu estou construindo:
+
+(PT)
+Inventar e simplificar
+Mentalidade de dono
+Mergulhar fundo
+Entregar resultados
+Ganhar a confiança
+Obsessão pelo cliente
+Aprender e ser curioso
+Insistir nos mais altos padrões
+Estar certo, e muito
+Ter iniciativa
+Pensar grande
+Ser firme, discordar e se comprometer
+Contratar e desenvolver os melhores
+Frugalidade
+Sucesso e crescimento trazem maior responsabilidade
+Empenhar-se para ser a melhor empregadora do mundo
+
+(EN)
+Invent and Simplify
+Ownership
+Dive Deep
+Deliver Results 
+Earn Trust
+Customer Obsession
+Learn and Be Curious
+Insist on the Highest Standards
+Are Right, A Lot
+Bias for Action
+Think Big
+Have Backbone; Disagree and Commit
+Hire and Develop the Best
+Frugality
+Success and Scale Bring Broad Responsibility
+Strive to be Earth's Best Employer
+

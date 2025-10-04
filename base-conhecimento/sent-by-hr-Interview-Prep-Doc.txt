@@ -1,0 +1,299 @@
+     Thank you in advance for interviewing with us; we definitely appreciate your time and are looking forward to meeting you.
+  The information included in this guide is intended to help you prepare for your interview and enhance your candidate experience.
+
+                                                 Work hard. Have fun. Make history.
+Amazon is a place where builders can build. We hire the world's brightest minds and give them room to invent and innovate to
+improve the experience for our customers. We want employees who will help share and shape our mission to be Earth's most
+customer-centric company. Amazon's evolution from website, to e-commerce partner, to development platform, is driven by the
+spirit of invention that is part of our DNA. We do this every day by solving complex technical and business problems with ingenuity
+and simplicity. We're making history, and the good news is we've only just begun.
+
+
+“Invention is in our DNA and technology is the fundamental tool we wield to evolve and improve every aspect of the experience we
+provide our customers.”
+         - Jeff Bezos
+
+
+                                                    Amazon’s Leadership Principles
+Our Leadership Principles are the foundation of our culture and guide each Amazonian. Whether you are an individual contributor or a
+manager of a large team, you are an Amazon leader. We refer to our Leadership Principles every single day at Amazon and we rely on
+them to help us make hiring decisions. During your interview, the team is going to be thinking about your responses in the context of
+the Leadership Principles, so we’ve included a helpful guide at the end of this doc that’s a great tool to help you align your experience
+with the Leadership Principles. While there’s no need to memorize the Leadership Principles, it’s a good idea be very familiar with
+them and specifically how your experience relates to each of them. When coming up with the examples, it’s important to have
+different examples for each of your interviewers so we get a well-rounded view of your experience and background. Amazon is a very
+data-driven company, so try to come up with some examples that include metrics or data as there’s nothing better than using a great
+data point to bolster a success story.
+
+Customer Obsession
+Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay
+attention to competitors, they obsess over customers.
+
+Ownership
+Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire
+company, beyond just their own team. They never say “that’s not my job.”
+
+Invent and Simplify
+Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware,
+look for new ideas from everywhere, and are not limited by “not invented here.” As we do new things, we accept that we may be
+misunderstood for long periods of time.
+
+Are Right, A Lot
+Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their
+beliefs.
+
+Hire and Develop the Best
+Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them
+throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our
+people to invent mechanisms for development like career choice.
+
+Insist on the Highest Standards
+Leaders have relentlessly high standards—many people may think these standards are unreasonably high. Leaders are continually
+raising the bar and drive their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get
+sent down the line and that problems are fixed so they stay fixed.
+
+Think Big
+Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently
+and look around corners for ways to serve customers.
+Bias for Action
+Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk
+taking.
+
+Frugality
+Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing
+headcount, budget size or fixed expense.
+
+Learn and Be Curious
+Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore
+them.
+
+Earn Trust
+Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward
+or embarrassing. Leaders do not believe their or their team’s body odor smells of perfume. They benchmark themselves and their
+teams against the best.
+
+Dive Deep
+Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No
+task is beneath them.
+
+Have Backbone; Disagree and Commit
+Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting.
+Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined,
+they commit wholly.
+
+Deliver Results
+Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks,
+they rise to the occasion and never settle.
+
+
+“Random forests, naïve Bayesian estimators, RESTful services, gossip protocols, eventual consistency, data sharding, anti-entropy,
+Byzantine quorum, erasure coding, vector clocks…walk into certain Amazon meetings, and you may momentarily think you've
+stumbled into a computer science lecture.”
+        - Jeff Bezos
+
+
+
+
+                                                        General Interview Tips
+   Please remember to ask clarifying questions in every interview throughout the day. We may ask some vague or ambiguous
+    questions, so a sound approach is to ask a few clarifying questions before diving into solutions. This is critical for success as we
+    wouldn’t want you to spend time going down one path only to realize the interviewer was asking something else entirely. If the
+    information you’re looking for isn’t available after asking your clarifying questions, try to focus on how you would attempt to
+    solve the problem given the limited information you have.
+
+   Customer Obsession is at the heart of everything we do, so it’s always a good idea to start with the customer and work
+    backwards. Our customers are why we come to work every day and are the reason we do what we do. To understand your
+    commitment to customers we need to hear you talk about customers, advocate for them, and champion them. We are truly
+    obsessed with our customers at Amazon and want to know you are too, so please remember to talk about customers in every
+    interview.
+
+   We really want to get an understanding of how your mind works, how you solve problems, what you’re passionate about, what
+    you want to do, etc., so as much as possible, try to think out loud and talk things out with your interviewers. Talk us through the
+    different ways you know to solve problems, vocalize assumptions you’re making, and try to give us a glimpse of how your mind
+    works through problems. And whenever possible, please try to give as much detail as possible about your specific contributions
+    and what you owned. We love team players, but we also have to get a solid understanding of what it is you delivered.
+   We are fortunate to have some of the best minds in the world working here, and there are usually a number of ways to approach
+    solving any given problem, so if you are attempting to solve a problem one way, and the interviewer asks you to solve it a
+    different way or hints you in an alternate direction, please try not to be rigid and instead try to tackle it from a different angle—
+    flexibility is key at Amazon.
+
+   When answering questions, try to be as concise and detailed in your responses as possible. We realize it’s hard to gauge how
+    much information is too much versus not sufficient enough, so an effective litmus test is pausing after your succinct response and
+    asking if you’ve provided enough detail or if the interviewer would like you to go into more detail.
+
+   Be prepared to discuss everything listed on your resume. For example, if you list Java or Python as technical competencies, we
+    may ask technical questions about your experience with these technologies.
+
+   Try to review the job description before your interview in case there are areas of your experience that are particularly relevant to
+    the role.
+
+   Rather than asking you hundreds of questions throughout the day, we will instead likely ask a handful of questions in each
+    interview and dig into the details. We may start with high-level situation-based questions and then Dive Deep to understand the
+    who, what, when, where, why, how, etc.
+
+   We’re very interested in what you’re saying and want to make sure we can accurately process it, so some of your interviewers
+    may be typing on laptops or taking notes during your interview.
+
+   If you are provided with a list of people on your interview loop, please look them up on LinkedIn to familiarize yourself with their
+    backgrounds and interests.
+
+   We’ll try to give you a few minutes to ask questions during your interviews, so please have different questions ready for each
+    interviewer. This is an opportunity for you to interview us as well and we want you to get all of your questions answered directly
+    from a variety of perspectives.
+
+   Amazon’s environment is very casual so there’s no need to dress up; business casual is more than adequate. You’ll be with us
+    most of the day, so please wear something comfortable.
+
+At the end of the day we really want to hire smart, passionate people. Please spend some time thinking about why a career with
+Amazon would be mutually beneficial and be prepared to speak to it. Although “Why Amazon?” is a standard type of question, it’s not
+a check-the-box type of formality for us. We genuinely want to understand how working together with you would be great, so we get
+a better sense of who you are.
+
+
+“Nothing gives us more pleasure at Amazon than “reinventing normal” – creating inventions that customers love and resetting their
+expectations for what normal should be.”
+         - Jeff Bezos
+
+
+                                                                Amazon Press
+       I’ve made billions of dollars of failures’: https://fortune.com/2014/12/02/amazon-ceo-jeff-bezos-failure/
+       Meet the robots making Amazon faster: http://www.cnet.com/videos/meet-the-robots-making-amazon-even-faster/
+       Working at Amazon: http://youtu.be/SpXMWRiR3iE
+
+Thanks again for your interest in Amazon and please let us know if there’s anything we can do to help you have an enjoyable and
+successful interview.
+                                                Leadership Principle Worksheet
+This worksheet was designed to help you align your experience with Amazon’s Leadership Principles. To best prepare for your
+interview, please write down a couple of detailed examples from your experience that relate to each of Amazon’s Leadership
+Principles.
+
+Customer Obsession: Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders
+pay attention to competitors, they obsess over customers.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+Ownership: Leaders are owners. They think long-term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire
+company, beyond just their own team. They never say “that’s not my job.”
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+Invent and Simplify: Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally
+aware, look for new ideas from everywhere, and are not limited by “not invented here.” As we do new things, we accept that we may be
+misunderstood for long periods of time.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+Are Right, A Lot: Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their
+beliefs.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+Hire and Develop the Best: Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move
+them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to
+invent mechanisms for development like career choice.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+Insist on the Highest Standards: Leaders have relentlessly high standards—many people may think these standards are unreasonably high. Leaders
+are continually raising the bar and drive their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get
+sent down the line and that problems are fixed so they stay fixed.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+Think Big: Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and
+look around corners for ways to serve customers.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Bias for Action: Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk
+taking.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+Frugality: Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing
+headcount, budget size or fixed expense.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+Learn and Be Curious: Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to
+explore them.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+Earn Trust: Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or
+embarrassing. Leaders do not believe their or their team’s body odor smells of perfume. They benchmark themselves and their teams against the
+best.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+Dive Deep: Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No task
+is beneath them.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+Have Backbone; Disagree and Commit: Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is
+uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is
+determined, they commit wholly.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+
+Deliver Results: Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks,
+they rise to the occasion and never settle.
+Example 1: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+Example 2: ______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+

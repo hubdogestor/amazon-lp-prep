@@ -1,0 +1,445 @@
+Ace the Amazon Leadership Principles Interview (2025 Guide)
+Below, we break down how to ace the Amazon Leadership Principles interview, including sample questions and answers.
+This guide is for candidates at and above the senior level in technical roles.
+?? Ethan Evans, former Amazon VP, says:
+The best way to pass an LP interview is to be really skilled.
+
+Knowing how to answer the questions and being familiar with the principles is the icing on the cake.
+
+In my own interview, not only did I succeed, but I also got an ‘all-inclined loop,’ which means every interviewer said, ‘Hire.’
+
+And I didn’t know a thing about Amazon's Leadership Principles. I had never heard of them.
+
+All I did was answer the questions and be engaged and forward.”
+
+Amazon Leadership Principles
+These are Amazon's 16 Leadership Principles.
+These are the characteristics Amazon looks for in every candidate it hires.
+1. Customer Obsession: Leaders start with the customer and work backward. They obsess over customer needs and work vigorously to earn and keep trust.
+2. Ownership: Leaders act on behalf of the entire company, take long-term responsibility, and never say, “That’s not my job.”
+3. Invent and Simplify: Leaders drive innovation and simplicity. They are open to ideas from everywhere and are willing to be misunderstood at times.
+4. Are Right, A Lot: Leaders have strong judgment, make good decisions, and seek diverse perspectives to challenge their own thinking.
+5. Learn and Be Curious: Leaders are lifelong learners, constantly seeking to improve and explore new possibilities.
+6. Hire and Develop the Best: Leaders recognize exceptional talent, coach others, and work to build a stronger organization by hiring and developing top talent.
+7. Insist on the Highest Standards: Leaders set high standards, constantly raise the bar, and ensure quality and long-term solutions.
+8. Think Big: Leaders communicate bold visions and pursue ideas that inspire and deliver outsized results.
+9. Bias for Action: Leaders value speed and calculated risk-taking. They understand that many decisions are reversible.
+10. Frugality: Leaders achieve more with less. Resourcefulness and self-sufficiency are core behaviors, not constraints.
+11. Earn Trust: Leaders build trust by listening well, being candid, treating others with respect, and holding themselves accountable.
+12. Dive Deep: Leaders stay connected to details, validate data, and are hands-on in understanding the work at all levels.
+13. Have Backbone; Disagree and Commit: Leaders respectfully challenge decisions when needed and fully commit once a path is chosen.
+14. Deliver Results: Leaders focus on key inputs and deliver them with quality and timeliness, despite obstacles.
+15. Strive to be Earth’s Best Employer: Leaders prioritize safety, inclusivity, employee growth, and fun, seeking to build a better workplace every day.
+16. Success and Scale Bring Broad Responsibility: Leaders act with awareness of the global impact of their actions and aim to leave things better than they found them.
+??
+What is an Amazon Bar Raiser? Bar Raisers are Amazon's experts on their Leadership Principles. Their job is to prevent bad hires. They have the most power in an Amazon interview.
+
+What is the Leadership Principles interview?
+The Leadership Principles interview is Amazon’s behavioral and cultural fit assessment. 
+These interviews are among the most challenging behavioral screenings in tech. 
+Other companies like Netflix and Apple have tough one-off behavioral rounds.
+However, Amazon is the champion for standardizing its behavioral questions across all interviewers.
+Bonus: When you prepare for Amazon's LP interviews, you're also preparing for the less complicated behavioral rounds of every other tech company.
+Is there a "Leadership Principles" interview round?
+Technically, there is no such thing as an "LP round."
+Amazon assesses you on their LPs throughout the entire interview loop.
+Expect to be asked about these principles in every Amazon interview round, regardless of the topic. This includes during technical assessments.
+In some instances, though, specifically during onsite interviews, the focus will be solely on the LPs.
+Do different roles have different questions?
+There is little difference in Leadership Principles interview questions between technical roles.
+The interview questions are the same. The assessments are very similar.
+Why are Leadership Principles interviews so hard?
+Behavioral interviews are largely subjective.
+Amazon tries to standardize the process of behavioral interviews by removing subjectivity.
+Amazon has the second-most thorough interview training out of all FAANG companies (beat only by Meta).
+The level of standardization across Amazon interviewers is exceptionally high.
+At other FAANG companies, like Google, behavioral rounds can feel casual, often just checking for red flags.
+By contrast, Amazon interviewers systematically probe the Leadership Principles, creating a more rigorous experience.
+
+?? One Amazon Bar Raiser says:
+Amazonians take the LPs seriously in meetings and real-life situations.
+
+For example, in real meetings, Amazonians will discuss our ‘Customer Obsession.’
+
+It isn’t like values at other companies, which are typically just BS things on a poster.
+
+Cheat Sheet
+Here's a printable cheat sheet to keep with you during Amazon interviews.
+
+
+LP Interview Framework
+Here's a framework to prepare for any behavioral question at Amazon.
+1. Focus on your top 3 projects.
+2. Bucket your projects.
+3. Use a cheat sheet.
+4. Watch out for dealbreakers, red flags, and risks.
+Below, we'll break down how to get ready for your Amazon interviews.
+
+Step 1: Identify your top projects.
+Ask yourself: "What are the three most important things I've done in my career?"
+* What projects had the highest stakes?
+* Which projects had the most impact?
+* What are the most complicated decisions I've had to make?
+For every full LP round, you should highlight the three best projects you've been involved in.
+You should act like a politician who, regardless of the interview, finds a way to weave in their campaign talking points.
+The key to success is to do this without sounding scripted or forcing a story where it doesn't belong.
+
+?? One Amazon Bar Raiser says:
+It’s okay to only talk about 2–3 projects the whole time (especially if the projects span over a year) as long as your stories are disambiguated.
+
+It can even be the same overarching project if you frame it differently each time to highlight different skills. Such as, ‘Here’s the time when I did the backend,’ ‘Here’s when I solved a bug on the front end,’ and ‘Here’s what I accomplished when I worked on the database aspect of the project.’”
+
+Just don’t talk about one project in the same way the whole time. I can remember a lot of debriefs where we look up and go, ‘This candidate talked to all of us about the same story, didn’t they?'
+
+Step 2. Bucket your projects.
+Now, assign each of your top three projects to a bucket (listed below).
+You should have at least one project for each bucket—two is better.
+A single project can be assigned to multiple buckets.
+You'll be asked probing questions about each project during your interviews.
+* Bucket #1: Productivity: These projects are exceptional because of the things you got done for the business and the customers you helped. Your most significant achievements probably fit into this category.
+* Bucket #2: Failure: These are times you made mistakes, and, more importantly, learned lessons. Times you received negative feedback go here.
+* Bucket #3: Conflict: These projects involve disagreements or conflicts, regardless of which side “won.” 
+??
+Best practice: Bucket each project from the last 2–3 years that can speak to productivity, failure, or conflict. If you have ~5 projects you know very well, you’ll be in great shape. You can’t overdo it here—more is always better. 
+Become intimate with your past projects and experiences.
+Below, we've outlined some sample follow-up questions you'll likely get asked as you talk about your work.
+To flesh out your stories, we recommend brainstorming in a Google Doc, talking out loud, recording yourself, and practicing mock interviews.
+Continue until you can confidently discuss each project from all angles.
+During your interviews, you shouldn't be worried about which principle you're being tested on.
+Instead, focus on answering the interviewer's question clearly and honestly.
+As you practice these questions, you'll be practicing the most effective way of sending high LP signals.
+Bucket #1: Productivity 
+* What was the technology problem you were trying to solve?
+o What type of problem was it (scale, resiliency, etc.)?
+* What was the customer (or business) problem you were trying to solve?
+* Did this problem have real stakes?
+o How was it complex?
+* What did you do about the problem?
+o What data did you dig up to test your hypotheses?
+* What was the most significant challenge you faced in finding your solution?
+o Why was it hard?
+o Were there limited resources or time?
+o Did you have conflicting or limited information?
+* What was your solution?
+o What were the overengineered solutions you could have chosen but didn’t?
+* What was the outcome?
+o What was the impact of that outcome?
+
+?? One Amazon Bar Raiser says:
+Usually, candidates don’t explain the customer problem or the technology problem well. They usually only explain one of them well.
+
+Bucket #2: Failure
+* What was the mistake?
+o Were you upfront about admitting you made a mistake? 
+* Did this mistake have real consequences?
+o Did you suffer reputational damage?
+o Did you lose a key customer?
+o Did you face other repercussions?
+* Was this mistake recent? (In the past couple of years, ideally.)
+* What was your initial reaction to the mistake? (It’s okay if your initial reaction isn’t something to be proud of; this way, you can demonstrate growth.)
+o What was your response after you got your bearings?
+* Did you hold yourself accountable for your part?
+* Did you communicate what you were responsible for?
+o Did you make leadership aware?
+* What would you do differently next time (if necessary)? 
+* What did you do to ensure this wouldn’t happen again?
+Bucket #3: Conflict
+* What was the conflict? 
+* Did you demonstrate an understanding of the other side? 
+* What did you do to mitigate the potential concerns you foresaw the other side would have? 
+* Did you collect objective evidence to back up your case?
+* How did you try to solve the conflict?
+* Were you convinced? Why or why not? 
+* Did you escalate?
+o If so, did you do enough on your own before escalating? 
+* What was the outcome?
+o How did you communicate the outcome with the other side (and, if necessary, with leadership)?
+* What did you learn from this experience?
+Discussing Conflict
+Discovering and resolving conflict is a common theme throughout Leadership Principles interviews.
+Amazonians don’t care if you win or lose a disagreement.
+They care that you tried to resolve a conflict.
+You should make it clear that you gathered data, presented a strong case, and reached a resolution, so you can continue being productive.
+During interviews, you should demonstrate that you worked to understand the other side's point of view to mitigate friction so you could continue working together.
+This can be achieved without scheduling a meeting and arguing with that person.
+"I've never had a conflict."
+A “disagreement” doesn’t have to be a fistfight or a shouting match.
+It only has to be a time when you thought there was a better way to do something, and you searched for evidence to prove that.
+This resembles a situation where you prepared a substantial amount of data to support a potential argument, but ultimately didn't use your solution.
+Is escalating a problem to leadership a bad idea?
+“Escalation” is not a bad word at Amazon. Amazonians don’t shy away from it.
+Escalations can happen back and forth, and it’s seen as acceptable, even welcomed.
+As long as you’ve done what’s in your power (and still didn’t reach a solution), Amazon believes the best next step is an escalation.
+Escalate early and often, as long as you’ve done your due diligence. 
+"I rarely escalate problems or conflicts."
+Not all candidates escalate problems.
+Suppose your interviewer asks about conflicts and disagreements, but you don't have direct experience with them.
+In that case, you can say: "At this company, it’s not a place that encourages escalating, so I don’t have a lot of examples of escalations.”
+Escalation as an L6+ candidate.
+A common mistake senior candidates make is not taking the time to truly understand people’s points of view.
+
+At L6 and above (and for managers more than ICs), that is a more nuanced way to fail on the “Earn Trust” principle. This can be a dealbreaker in your hiring decision.
+
+If you’re L6 and above, you need two examples:
+* When you convince the other side,
+* When they convince you.
+At L5 and below, examples on either side work.
+Similarly, for L6 and above, you must have disagreements with different types of stakeholders.
+At L5 and below, it's more likely that you disagree down or across the organizational chart.
+
+?? One Amazon Bar Raiser says:
+For L6, if all your disagreements are about ‘What technologies should we choose for this greenfield project,’ those are not very high-impact decisions.
+
+The stakes aren’t that high. It takes a long time to determine if that decision was good or bad.
+
+A lot of times, that decision is not going to make or break a project.
+
+The bar I expect for an L6’s disagreements is the stakes have to be high enough that this affects the business folks (PMs, designers, etc.) as opposed to simply the engineers on this one team.
+
+For example, deciding between building a single-page web app and a traditional web page.”
+
+Step 3: Flesh out your projects.
+Next, let's look at some strategies, tactics, and tips you can use to flesh out your stories, answers, and profile.
+
+First, here are some strategies to refine your stories.
+Don't "match" your stories to specific LPs.
+Forget about matching your stories to specific LPs or interview questions.
+Instead, focus on showcasing your most significant projects and gaining a thorough understanding of them.
+Start with the end.
+Boil your projects down to one-liners.
+Practice stating the bottom line upfront.
+It won’t be a complete answer to an interview question, but it’s the best possible start. 
+"My projects lack scale."
+If your projects lack scale, get creative to convey their complexities.
+This could include the number of dependencies, tackling a novel problem, or taking a risk to your reputation.
+Focus on resiliency.
+Amazon has a bias towards system resiliency.
+These are the failure points a customer is most likely to see.
+Describe to the hiring team instances where you enhanced the resiliency of a system, such as by reducing the number of 5xx errors.
+They also appreciate hearing about scalability, performance, and security. But nothing does it for them like resiliency.
+Focus on repeatable processes.
+Amazon prefers mechanisms over best intentions.
+A mechanism is a repeatable process that you put in place to help ensure better outcomes.
+For example, if you add a new safety check to your regular deployment checklist after a bad customer-impacting outage.
+That’s better than the best intention of "After that outage, we all tried harder to make sure we didn't do X again.”
+Reuse; Don't rebuild.
+Re-architecting an entire system at Amazon’s scale is a big risk. It could also take several years of work.
+Instead of telling stories about rebuilding a large system, think of times you were resourceful and used preexisting building blocks. 
+Go beyond your role.
+Proactively mention taking on job responsibilities that weren’t officially under your role.
+Keep your stories recent and impactful.
+When discussing conflicts, they should be recent. They need to have real stakes.
+Counterintuitively, even if you only anticipated an argument but didn’t have one in a previous role, that can still count.
+For more senior candidates, have examples of conflicts where:
+* They convinced you,
+* You convinced them,
+* You argued up the org chart,
+* You argued down or across the org chart.
+Focus on complicated projects.
+Spend extra time thinking about the trickiest challenges you faced in previous projects.
+How hard was it to figure out what to do next?
+You want to play this up.
+If it was hard to develop a hypothesis or involved a lot of experimentation to arrive at a conclusion, focus on those challenges and how difficult they were.
+
+Next, here are some tactics you can use during interviews.
+Always clarify the question.
+Unless you are absolutely sure of what you were asked, clarify what they’d like you to discuss before diving in.
+For example, “Do you want me to talk about conflicting priorities?” 
+Keep it short. Wait for follow-ups.
+Don’t unleash entire rehearsed answers on an initial question.
+Most questions can be answered in about 15–30 seconds. 
+Wait for the interviewer to delve deeper into specific aspects of your story.
+Keep it about you, not your team.
+80% of your answer should be on your specific, individual contribution, not what your team did.
+Mention impact.
+Always mention the impact you had.
+There are three ways to demonstrate impact:
+* A dollar amount of revenue generated (or supported) or cost savings.
+* A metric such as “increased retention by Y%.”
+* An anecdote, such as “This was key to win (or maintain) an important customer.”
+Repeat the question.
+Mention keywords from the question in the first few words of your answer.
+For example, if you're asked about conflict, begin with “The conflict was with a Principal Engineer about an internal dependency.”
+"Did I answer your question?"
+Don't be afraid to ask if you have answered their question.
+Be sure to change up the way that you ask each time.
+Different levels have different answers.
+Your answers should reflect the expectations of the level you’re applying to. 
+* L4s execute with guidance and support,
+* L5s execute mostly independently,
+* L6 candidates influence their team (and a bit outside of it),
+* L7 candidates are cross-functional specialists who have a significant influence on the organization.
+
+Next, here are some tips for unique candidates.
+"I don't have previous Big Tech experience."
+If you come from a startup background, one risk your interviewer might assume about you is that you have too much of a Bias for Action and are prone to breaking things.
+To overcome this, proactively give examples of building from existing building blocks where you could have made a mess of things but didn’t.
+Score points by mentioning when you repurposed something for another use besides what was initially intended.
+For example, "We built an image processing pipeline, but then later realized it could also handle videos and other large assets.”
+
+?? One Amazon Bar Raiser said:
+Maybe 25% of the candidates we hired came from a background exclusively of companies I’d never heard of.
+
+"I've only worked on smaller-scale projects."
+You need to think creatively about other ways to showcase complexity.
+For example: 
+1. High growth rate. If something grew by 2 or 3 times, you want to highlight that.
+2. A lot of dependencies (points for having both internal and external dependencies).
+3. A significant amount of effort (engineering effort by you or those you were leading).
+4. Reputation impact if you’re wrong.
+5. Scheduling impacts that will have a downstream effect.
+6. A consequence like losing a customer if you get it wrong.
+
+?? One Amazon Bar Raiser said:
+I can think of candidates who didn’t look good on paper but got hired anyway, and they usually would give a very thoughtful answer for ‘Why Amazon?’ or ‘Why are you interested in this role?’
+
+Also, they would recognize that I was unfamiliar with their company or product, and they did a very clear job of explaining those to a layperson.
+
+"I can't find metrics or impact in my past projects."
+If you don’t know how to find any metrics or impact in past projects:
+Step 1: Lower the bar.
+You can't be exact about the numbers if you’re no longer working at a particular company.
+Your best honest guess is good enough. 
+Step 2: Ask yourself the obvious questions.
+* How much revenue did it generate or support?
+* How much did it cut costs?
+* How many users did it launch to?
+o If it didn’t launch, how many users would it have reached?
+* How much better was the final outcome than a given benchmark?
+Step 3: Check the before and after.
+If the obvious questions didn’t net any numbers that would impress Amazon, do a “before and after.”
+This example is for automating a manual process:
+
+Before you automated it:
+* How long did the process take? (1 hour)
+* How many employees did that process? (50)
+* What is the value of that employee's time? ($75/hour)
+* How many times did they do that process per week? (2-3)
+After you automated it:
+* How long did the new process take? (10 seconds)
+Do the math:
+* 1 (hour saved) x 50 (employees) x 2.5 (times/week) x 52 (weeks per
+year) x 75 ($/hour)
+* Final result (the bottom line business impact of your automation):
+$487,500
+Since this specific case is below the minimum Amazon scale of $1 million, you might say:
+1. “I know this isn't at Amazon’s scale, but this saved almost 500k in yearly costs, which was impactful for our company.”
+2. “This automation was about 60X faster than the manual process.”
+
+Step 4. Avoid dealbreakers, red flags, and risks.
+These are ways to fail your Amazon interviews.
+Dealbreakers
+These candidates fail instantly. 
+1. You’re a candidate who clearly didn’t prepare for the LPs. 
+2. You got a negative score on “Earn Trust or Have Backbone; Disagree and Commit.” This can even blow your chances if you performed well on all other LPs. Candidates who can’t tell any stories about disagreements are just as much of a dealbreaker as being a jerk. 
+Red flags
+Not as bad as a dealbreaker, but results in a significant loss of points. 
+1. Giving too much detail in your initial answer.
+2. You don’t actually answer the question they asked. Usually, this means you gave an obviously canned response. Or you misunderstood the question.
+3. Focusing too much on what everyone else did as opposed to what you did.
+4. No metrics or impact are mentioned in your answer. 
+5. Saying, “I don’t have an example for that,” for more than 1–2 questions in one round.
+6. Focusing on the unimportant details of a conflict. Trying to prove who was right, most commonly. Or burying the lede and not clearly stating what the conflict was. 
+7. Only disagreeing across or down the org chart (for L7s and up).
+8. Too low stakes for your disagreements. 
+
+?? One Amazon Bar Raiser said:
+On average, I have 15–20 minutes to assess a single LP. The candidate’s answer to my initial question doesn’t need to give the entire story they prepared (or remember).
+
+They only need to respond to the question that I asked. Most questions can be answered in 15–30 seconds. I wish more candidates knew this.
+
+Risks
+When committed in bunches, these are as deflating as a red flag. 
+1. Overreliance on the STAR framework. As this former Amazon Principal Engineer notes, STAR is a suboptimal format for designing answers. The more effective use case for STAR is to use it as a filter after your stories are made. 
+2. Attempting to guess which LP a question is asking about.
+3. Mentioning revenue or cost savings under $1,000,000.
+4. Speaking about a highly manual process and not proactively sharing why you didn’t automate it. The most likely follow-up question is, “Why wouldn’t you automate that?”
+5. Discussing a project you completed in 1 sprint, because that implies the project wasn’t complex enough or didn’t have enough scope. 
+6. Talking about a project from over 3–4 years ago. Amazonians have a recency bias. 
+7. Only having conflicts down or across the org chart (for L6 candidates).
+8. A project where you deliver on a tight timeline and deliver with super high quality can sound suspicious. You usually can’t do both at the same time.
+9. Re-architecting an entire system. 
+
+?? One Amazon Bar Raiser said:
+To build an entirely new system [at our scale], productionize it, and make it stable usually takes a couple of years of work.
+
+That’s sometimes the right thing, but usually not right for us.
+
+Amazon Leveling Advice
+There’s little difference in LP interviews between technical roles.
+The interview questions are the same, and the assessments are very similar.
+The real differences are between the levels.
+
+Amazon’s leveling system is offset by one compared to the rest of the FAANG companies.
+For example, an L4 role at Amazon typically aligns with an L3 role elsewhere.
+Keep this in mind if you’re comparing positions or preparing for interviews across different companies.
+If your projects don’t convey the right amount of scope and complexity, you will get down-leveled or rejected.
+* L4 and L5: responsible for their own work
+* L6: influencing their team and a little bit outside of it
+* L7: influencing across teams (their org)
+Advice for L4 and L5
+If you’re L4 or L5, you're the boots on the ground, doing most of the work in an organization.
+You’re responsible for demonstrating that you know how to execute.
+Within that, the key difference between L4 and L5 lies in independence and autonomy.
+* L4 delivers with guidance and support.
+* L5 delivers mostly independently.
+Advice for L6
+An L6 applies technical solutions to business problems.
+They can be given an input, such as “We need a page that renders really quickly,” and provide an output, such as “We need to do this architecture or this technology.”
+An L6 is like a Team Lead at other companies.
+You need influence over at least 3–4 engineers to deliver strategic initiatives. And an L6 needs examples of mentorship or hiring.
+
+L6s are also expected to exert some influence over other teams, but not a lot.
+At the very least, they should align their team with upstream or downstream teams interacting with their services. 
+Advice for L7
+L7s need to be:
+* exceptional at influence across an org,
+* be able to say no,
+* and get buy-in from executives.
+For example, if they’re a product manager, they know how to work with GTM, sales, finance, and legal.
+They’ve probably also worked on a project with legal complexity or privacy challenges. They can think about a P&L and forecasting.
+They’re well-rounded, cross-functional experts who can convince executives and speak truth to power. 
+What’s important for L7:
+* How many cross-functional teams did you influence? And how big was that influence?
+* What’s the level of leadership you’ve presented to?
+* What type of product or service have you worked on? How complex was it, and how big was the scale? 
+
+?? One Amazon Bar Raiser said:
+At L7, I look for:
+
+- Is this person helping a manager solve the manager’s problems?
+- Are they helping the manager to be out of the manager’s job?
+- Are they helping with pain points?
+- Are they driving the team?
+- Can they go and conduct meetings proactively?
+- Can they solve problems in ambiguous areas?
+
+How Not to Practice
+Do not write your story down for a “Deliver Results question,” practice that same story, and then recite it word-for-word in an interview. This is one of the chief causes of spectacular failures in this interview. 
+??
+Bar Raiser Anecdote: “I don’t think there’s value to practicing ‘this is my answer to a Deliver Results question.’”
+Do not get overly attached to your answers; don’t treat them like a “script.” Being “too scripted” is a peeve of most interviewers and puts you at the mercy of tricky questions. There might not be a faster way to lose credibility than to unleash an unwieldy answer to the wrong question. 
+??
+Bar Raiser Anecdote: “You can come off as inauthentic if when I ask you a question, it feels like I accidentally pressed play on a recording.”
+Leadership Principles Interview Questions
+Hopefully, by now, you see that the real success lies not in matching your projects to LPs or questions, but in showcasing your top projects and thoroughly understanding them.
+With that solid foundation, you’re ready to practice with specific questions. Here are some common Amazon Leadership Principles interview questions.
+??
+Check out our database of Amazon behavioral interview questions.
+1. Tell me about a time you disagreed with someone and how you resolved it.
+2. Tell me about the most challenging technical problem you’ve worked on.
+3. Tell me about a time you used data to make a decision.
+4. Tell me about a time when you had to make a quick call on something important. What’d you do? 
+5. Tell me about a time you got a piece of critical or negative feedback.
+6. Tell me about a time you came up with a simple solution for a complex problem. 
+7. Tell me about a time when you identified and resolved customer pain points.
+8. Tell me about a time you made a mistake. 
+9. Tell me about a time when you made short-term sacrifices for long-term gains.
+10. Describe a challenging project you worked on and what made it difficult.
+Outro
+Forget about what they’re assessing you on.
+Focus on answering their questions.
+Highlight your most impactful work. Bucket your projects. Practice holistically checking the boxes they look for. Avoid the dealbreakers, red flags, and risks; implement the cheat sheet. 
+Paradoxically, for an interview guide, we are telling you that at the LP interview, you actually need to set aside all your preparation and just have a conversation.
+Hear the question, clarify the question, and answer the question. And if you practiced the way we outlined in this guide, your brain will do the rest automatically.
+

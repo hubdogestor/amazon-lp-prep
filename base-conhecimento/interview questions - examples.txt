@@ -1,0 +1,119 @@
+Ace Your Amazon Interview: The 16 Leadership Principles and 100+ Questions You Should Know
+
+When preparing for an Amazon interview, you’ll typically encounter a structured format: a brief 5-minute introduction from the interviewer, followed by 20 minutes of behavioral questions focused on Amazon’s 16 Leadership Principles to assess cultural fit. Only after, you’ll move into the hands-on technical portion of the interview (coding, troubleshooting, system design etc…) and sometimes, you’ll have 5 minutes to ask your questions.
+
+Amazon hires first for the company and then for a specific role, meaning your ability to align with their 16 Leadership Principles through your behavioral answers plays a crucial role in their decision to bring you on board. To help you excel in the behavioral segment, I’ve compiled over 100 common interview questions aligned with Amazon’s leadership principles — let’s dive in!
+1. Customer Obsession
+Amazon leaders prioritize customer satisfaction, focusing on customers first and working backward to meet their needs.
+• Tell me about a time when you went above and beyond for a customer.
+• How do you prioritize customer needs in your daily tasks?
+• Describe a situation where you had to balance competing customer demands.
+• Can you share an example of when you advocated for a customer’s request even though it wasn’t easy or popular?
+• How have you used customer feedback to drive improvement?
+• Tell me about a time when you didn’t meet a customer’s expectations and how you handled it.
+2. Ownership
+Leaders at Amazon act on behalf of the entire company, taking responsibility for the outcomes of their work and never saying, “That’s not my job.”
+• Describe when you took on a task outside your usual responsibilities.
+• Give an example of when you noticed inefficiencies and took ownership to improve them.
+• How do you handle situations where you need to take responsibility for mistakes?
+• Tell me about a project you led from start to finish, and how you ensured its success.
+• Can you share a time when you went above and beyond to complete a task that others had overlooked?
+3. Invent and Simplify
+Leaders innovate and find ways to simplify solutions, always seeking better ways of doing things.
+• Tell me about a time when you created a simpler process that had a big impact.
+• How do you approach finding innovative solutions to problems?
+• Give an example of when you challenged the status quo to improve efficiency.
+• How have you balanced innovation with risk in a project?
+• Tell me about an idea you had to simplify a complex task or process.
+4. Are Right, A Lot
+Leaders exhibit good judgment, make high-quality decisions, and are open to being challenged and learning from their mistakes.
+• Tell me about a time when you made a tough decision with limited data.
+• How do you handle being wrong in your decision-making process?
+• Give an example of when your instincts proved correct despite doubts from others.
+• Can you describe a time when you used data to make a decision, but still had to rely on intuition?
+• Tell me about a time when you had to prove yourself right on a critical issue.
+5. Learn and Be Curious
+Amazon leaders are always seeking new knowledge, looking for ways to improve, and open to new ideas.
+• Tell me about a time when you proactively sought feedback to improve your performance.
+• How do you stay current with industry trends or new technologies?
+• Can you give an example of when you went out of your way to learn something new?
+• Describe a time when your curiosity led you to explore an unexpected opportunity.
+• What was the last skill or tool you taught yourself?
+6. Hire and Develop the Best
+Leaders hire people better than themselves, coach others to achieve more, and help people grow their careers.
+• Tell me about a time when you mentored someone to help them grow professionally.
+• How do you evaluate talent in others?
+• Describe a situation where you had to make a tough hiring decision.
+• How do you ensure that the people around you are constantly improving?
+• Tell me about a time when you helped an underperformer turn things around.
+7. Insist on the Highest Standards
+Leaders continually raise the bar, pushing themselves and their teams to deliver high-quality work.
+• Describe a time when you raised the bar on a project.
+• How do you ensure quality in your work?
+• Tell me about a situation where you had to deliver high-quality results under tight deadlines.
+• Give an example of when you weren’t satisfied with the status quo and pushed for better standards.
+• Have you ever had to reject work that didn’t meet your standards?
+8. Think Big
+Leaders think with a broad vision, encouraging innovation and thinking beyond immediate goals.
+• Tell me about a time when you proposed a big idea but faced resistance. How did you overcome it?
+• How do you balance thinking big with practical execution?
+• Give an example of when you set an ambitious goal and how you achieved it.
+• How do you inspire others to think big alongside you?
+• What’s the biggest change you’ve made to a process or project?
+9. Bias for Action
+Amazon values calculated risk-taking and action-oriented decisions to move quickly, even without full information.
+• Describe a time when you had to make a quick decision without all the information. How did it turn out?
+• Give an example of when you had to take action before fully assessing the risks.
+• Tell me about a time when you missed an opportunity because you waited too long to act.
+• How do you ensure that your team stays agile and responsive?
+• When have you taken a calculated risk to move a project forward?
+10. Frugality
+Leaders accomplish more with less, finding ways to do more with limited resources and never wasting resources.
+• Tell me about a time when you delivered a project with limited resources.
+• How do you approach problem-solving with resource constraints?
+• Describe a time when you found a cost-effective solution to a problem.
+• How do you prioritize resource allocation when working on a tight budget?
+• Can you share a time when you optimized an existing process to reduce waste?
+11. Earn Trust
+Leaders build trust through transparency, integrity, and being dependable.
+• Tell me about a time when you had to build trust with a difficult colleague or customer.
+• How do you handle situations where you need to rebuild trust after a mistake?
+• Describe a time when you earned the trust of your team through your actions.
+• Give an example of when you had to rely on others to trust your judgment.
+• How do you maintain transparency with stakeholders when working through challenges?
+12. Dive Deep
+Leaders are detail-oriented and operate at all levels, often getting involved in the nitty-gritty when necessary.
+• Tell me about a situation where you had to dive into the details to solve a complex problem.
+• How do you balance diving deep into problems with your other responsibilities?
+• Describe a time when your attention to detail led to a key discovery.
+• Give an example of when you spotted something others missed by digging deeper.
+• Tell me about a time when you uncovered the root cause of a problem through deep analysis.
+13. Have Backbone; Disagree and Commit
+Leaders respectfully challenge decisions when they disagree but commit once a decision is made.
+• Tell me about a time when you disagreed with a decision but committed to it in the end.
+• How do you approach giving feedback when you know it may not be well-received?
+• Describe a time when you had to stand your ground on an important issue.
+• How do you handle situations where there’s strong disagreement but a quick decision is necessary?
+• Tell me about a time when you had to push back on senior leadership to achieve a better result.
+14. Deliver Results
+Amazon expects leaders to focus on the key outputs that matter most and deliver results, regardless of obstacles.
+• Tell me about a time when you had to achieve a significant goal under tight deadlines.
+• Describe a situation where you had to overcome obstacles to deliver on a key project.
+• Give an example of when you had to prioritize delivering results over following a process.
+• How do you ensure that you consistently meet your commitments?
+• Tell me about a time when you had to adapt to changing requirements to ensure successful project delivery.
+15. Strive to be Earth’s Best Employer
+Leaders focus on creating a workplace that empowers employees to succeed, grow, and thrive in a safe, respectful environment.
+• Tell me about a time you contributed to improving workplace culture or employee well-being.
+• How do you ensure a positive work environment for your team?
+• Describe a time when you mentored or developed someone’s career.
+• How do you balance meeting business objectives while ensuring your team remains motivated and satisfied?
+• Give an example of when you advocated for better working conditions or resources for your team.
+16. Success and Scale Bring Broad Responsibility
+Leaders recognize the broad impact of their decisions on the world and act accordingly to be responsible corporate citizens.
+• Tell me about a time when you made a decision with long-term, broad implications.
+• How have you incorporated sustainability or ethical considerations into your work?
+• Describe a time when your work impacted people or communities outside your immediate team or company.
+• How do you approach scaling solutions while ensuring they remain responsible and ethical?
+• Tell me about a time when you felt responsible for the impact of your work on a larger scale, outside of your direct team or business unit.
+

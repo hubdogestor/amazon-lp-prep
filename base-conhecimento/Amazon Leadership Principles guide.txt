@@ -1,0 +1,374 @@
+Creating the Amazon Leadership Principles guide
+We created this guide after speaking with our community of interviewers, which includes over 100 current and former Amazon engineers, as well as our corpus of mock interviews, which includes close to 500 Amazon Leadership Principles interviews. Our community and our data puts us in a unique position to share Amazon Leadership Principles advice, tips and tricks. If you’re studying for an upcoming Amazon Leadership Principles interview, use our expertise. It’ll give you a serious edge.
+
+Though most of the interviews we've hosted have focused on algorithms/data structures or systems design, we've recently started offering other types of practice as well, including Amazon-specific behavioral interviews. We've hosted close to 500 Amazon behavioral interviews to date.
+How to use the Amazon Leadership Principles guide
+We intentionally structured this guide as two separate parts. Part 1 introduces Amazon's Leadership Principles, discusses high-level strategies, and gives you a high-level view of our approach to the Amazon Leadership Principles. Part 2 will teach you exactly how to answer Amazon Leadership Principles questions, and we'll provide you with a detailed plan so you'll know exactly what to do to excel in your interview. Where you start reading depends on what you want. If you're interviewing at Amazon tomorrow, don't panic—just jump to Part 2: What to expect, what to avoid, and what to do during an Amazon Leadership Principles interview. Otherwise, begin with Part 1 to gain the foundational knowledge that will help you practice most effectively.
+With that being said, our insight does have some limitations. It's worth noting, for example, that the majority of job interviews we looked at for this project were with L6/SDE III candidates, so our data set is skewed toward senior engineers. (For reference, an L6/SDE III at Amazon is roughly equivalent to an L5/Sr. SWE at Google.)
+
+PART 1:
+Amazon Leadership Principles Explained
+Before we dive into specific interview questions, it’s important to understand what the Amazon Leadership Principles are and what they mean for Amazon employees and team members.
+What Amazon Likes
+* Direct challenges
+* Showing customer obsession (all the time)
+* Big losses
+* No answer (more so than a bad answer)
+* Stories that go in a perfect full circle
+VS
+What Amazon Dislikes
+* Conflict rabbit holes
+* Not enough impact and metrics
+* Not enough focus on individual contribution
+* Saying LPs out loud
+* Misunderstanding "Have Backbone; Disagree and Commit"
+
+What are Amazon’s Leadership Principles (LPs)?
+In a nutshell, Leadership Principles (LPs) are the 16 values Amazon cares the most about.
+
+Below we list the 16 Leadership Principles developed by Jeff Bezos and give a brief overview of each. We’ll also tell you how that value impacts the work environment and share some Leadership Principles questions which could probe for each LP. You’ll notice some of the questions seem irrelevant to the LP they’re listed under; that’s because some Amazonians intentionally design tricky questions. Don’t use these as a way to guess which LP a question is aimed at. For now, use them to start building a model in your head of what these interviews actually look like.
+1. Customer Obsession
+Customer obsession is about giving the customer what they want before they know they want it. It’s a business-driver; engineers who are obsessed with delighting customers will churn out new features faster. Since Amazonians are encouraged to find ways to delight the customer before they know they’d like to be delighted, this promotes repeat business, effectiveness, and innovation.
+Example “Customer Obsession” questions:
+* Tell me about a time when you strongly disagreed with your manager or peer on something you considered very important to the business.
+* To try to meet the high expectations of our customers, we sometimes promise more than we can deliver. Tell me about a time when you overcommitted yourself or your company.
+2. Invent and Simplify
+Amazon rewards risk-taking. They push the bounds of what’s possible from cloud to e-commerce. They want big ideaters with business savvy; engineers at Amazon are encouraged to innovate as well as cut costs. As big as they grow, they still keep it simple: AWS is the biggest cloud provider in the world, yet Amazon.com strives to be their number one client. That’s an example of a simple solution to a complex problem, which is what this Leadership principle is all about.
+Example “Invent and Simplify” questions:
+* Tell me about a time when you didn’t meet customer’s needs.
+* Give me an example of a complex problem you solved with a simple solution.
+3. Learn and Be Curious
+Virtually every tech company’s marketing about their culture will include something like this. Curiosity drives learning. Amazon wants smart people who are never satisfied; they want you to always be learning. They promote taking big swings even if you end up missing. You can’t learn from your mistakes without curiosity.
+Example “Learn and Be Curious” questions:
+* Give me an example of a mission or goal you didn’t think was achievable. We all have things about ourselves we'd like to improve on at work. Give me an example of something that you've worked on to improve your overall work effectiveness.
+4. Insist on the Highest Standards
+Over the years, Jeff Bezos has repeated the mantra “Every day is day one.” He wants employees who approach every day as if they haven’t accomplished anything yet. That is a very high standard. Another reflection of Amazon’s high standards is how challenging and rewarding it is to become one of their most trusted interviewers, which is called a “Bar Raiser”. A good portion of those who apply don’t make the cut and if you make it your promotion packet gets a big boost. A Bar Raiser can veto the votes of all other interviewers in an onsite round. Those are high standards.
+Example “Insist on the Highest Standards” questions:
+* Tell me about a time when you had to work with a difficult customer or user.
+* Tell me about a time when you used external trends to improve your own company's products or services.
+5. Deliver Results
+Amazon aims for market domination. This is a company which values the “what” over the “why” and the “how”; they don’t care about how you get there or why you get there as much as they care about you getting there. You get there. In their interviews, they expect candidates to move quickly and without any hints, and they have coding questions on the easier side because they want to get to the optimal outcome as soon as possible.
+Example “Deliver Results” questions:
+* Could you tell me about a time where you were working on a project where you were working with another person. Over time, that person lessened their involvement in the project and you had to take on more responsibility.
+* Tell me about a strategic decision you had to make without clear data or benchmarks.
+6. Strive to be the Earth’s Best Employer
+If you’re a software engineer, you won’t get asked about this.
+7. Dive Deep
+Like most tech companies, Amazon wants decisions to be made based on data; to implement an idea, you’ll need to show data. Where Amazon is different is this gritty mentality of “get the fricking job done”. Diving deep is essentially pulling yourself up by the bootstraps and making it happen. It’s also about developing a cultural attitude of people who are willing to get their hands dirty in order to win.
+Example “Dive Deep” questions:
+* Tell me about a time when you had to communicate a change in direction that you anticipated people would have concerns with.
+* Tell me about a time where you were thrown into a project where you had no experience in.
+8. Have Backbone; Disagree and Commit
+This is the most misunderstood Leadership Principle. What it doesn’t mean is “I’ll stand up for myself. Then do it my way regardless of what you say.” What it actually means is “I verbalize the things I disagree on. Then I commit to taking action. Whether it was the action you or I proposed doesn’t matter: I’ll commit to following through on something.” This is also probably the most infamous LP, and it seems to be part of the reason for Amazonian interviewers' higher than normal level of intensity.
+Example “Have Backbone; Disagree and Commit” questions:
+* Often, we must make decisions as a group. Give me an example of a time you committed to a group decision even though you disagreed.
+* Tell me about a time where you disagreed with a coworker or PM or manager because you believed the decision they wanted to make was wrong for the customer.
+9. Success and Scale Bring Broad Responsibility
+Usually only eng managers get asked about this one, so we’ll skip it.
+10. Ownership
+Take accountability. Do all of, if not more than, what the job requires. The intention is to stimulate taking risks, having pride, and sacrificing for the business. Amazon wants folks who take big bets, hold themself to high expectations, and put in the hard work. This is one of the reasons they place a higher value on focusing on their individual contribution when answering Leadership Principles questions.
+Example “Ownership” questions:
+* Describe a time when you took on work outside of your comfort area.
+* Describe a situation where you made an important business decision without consulting your manager.
+11. Are Right, A Lot
+This is another value that adds to the energy of a Leadership Principles interview: this is about competition. You have to know your stuff if you’re right, a lot. You also have to be willing to assert your point and back it up with all that data you dove deep for. This LP doesn’t mean Amazonians can’t mess up. They openly encourage candidates to describe times they were wrong, especially when they were wrong on a big gamble. Their ethical decision tree would look something like: Step 1: Dominate. Step 2: Did you dominate? If yes, proceed to success. If not, you better have risked enough to learn if and how domination is possible.
+Example “Are Right, A Lot” questions:
+* Tell me about a time when you did not effectively manage your projects and something did not get completed on time.
+* Tell me about a time you wouldn’t compromise on achieving a great outcome when others felt something was good enough.
+12. Hire and Develop the Best
+Domination requires finding great players and weeding out the subpar players. They’re the only FAANG company that has a formal title for their “best” interviewers: Bar Raisers. Not only does Amazon compete against other tech companies to find the “best” talent but they also compete with themselves. You can interview with multiple teams simultaneously; it’s a dog-eat-dog world at Amazon and that includes dogs in the same pack.
+Example “Hire and Develop the Best” questions:
+* Tell me about a time when you received negative feedback.
+* Describe a time when you improved morale and productivity on your team.
+13. Think Big
+Amazon has a proven track record with huge ambition, large bets, and rapid expansion to new markets. Going to the moon, for one. Knowing your destination is one thing. It’s another level for your destination to be in the clouds (not an AWS joke, we swear). It’s about having a grand vision of the future so they can achieve those high standards.
+Example “Think Big” questions:
+* Give an example of a creative idea you had that proved really difficult to implement.
+* Tell me about a time when you encouraged a team member or organization to take a big risk.
+14. Bias for Action
+You can’t take over the world if you don’t act. You might have the best idea to refactor the codebase in your head, but if it never moves towards implementation, it’s worthless. A straightforward way to make employees more productive is to openly encourage them to produce. Amazon’s bias against inaction affects their interview style: they’re looking for candidates who move fast without hints, who seek market domination, and who deliver results.
+Example “Bias for Action” questions:
+* Give me an example of a calculated risk that you have taken where speed was critical.
+* Tell me about a time where you were the first one to take action on something.
+15. Frugality
+Amazon is one of the rare companies who openly flaunts being frugal. Since when is “cutting costs” sexy? When it’s said by a group of the terminators who want to dominate the world, that’s when. Amazon wants you to not only figure out how to go to the moon, they want you to cut costs while you do it. One way to impress Amazon in the interview is to talk about the decisions you made in the past which saved the company money. You can learn how to do that in a later section of this guide called “How to practice for Leadership Principles.”
+Example “Frugality” questions:
+* Tell me about a time you pushed back on a deadline.
+* Give me an example of how you have helped save costs or eliminate waste within your role or organization.
+16. Earn Trust
+This is one of the rare Leadership Principles which is not about competition. It’s about cooperation. If you want to demonstrate cooperation, focus on how you understood the other person’s perspective. A difference of opinion is natural and healthy. This LP is about showing you know how to repair: either reactively after or proactively before a difference of opinion.
+Example “Earn Trust” questions:
+* Tell me about a time when you had a disagreement with a colleague or manager.
+* Describe a time when you needed to influence a peer who had a differing opinion about a shared goal.
+You can read more about how Amazon defines these LPs here.
+Amazon's interview process involves a) behavioral interview rounds and b) technical interview rounds with a few behavioral questions thrown in. The behavioral questions will all focus on your work history. Importantly, Amazon will decide whether or not to hire you and how much responsibility to give you based partly on how well you demonstrate their Leadership Principles when you discuss your work history.
+
+What Amazon assesses is consistent between interviewers. Each interviewer will be assigned 1-3 LPs to look for when interviewing you. They're searching for signals on whether you: meet the bar, raise the bar, or are below the bar (for their assigned LPs).
+
+But how Amazon conducts the behavioral round varies widely. Our research has shown that if you were to observe sessions of 10 different LP interviewers, you would discover that each interviewer has their own way of determining a candidate's fit. One interviewer might ask more questions on fewer topics, while another interviewer may do the opposite. Complicating matters, upon observing the same behavior, different interviewers will likely perceive different signals. Notably, there is no consensus on what makes a good answer good.
+"There is no clear rubric for what type of answer ‘meets or raises the bar.' The evaluation is subjective, and it relies on the interviewer's interpretation of the problem and solution."interviewing.io interviewer from Amazon
+Although you might find this degree of uncertainty intimidating, we'll show you how you can actually use this uncertainty to your advantage and score additional points during your interview.
+How to approach the Amazon Leadership Principles interview
+Many candidates treat their interview like a standardized test. But doing so is a serious and costly mistake.
+
+A standardized test is unimpressionable, fixed, and objective. Information only flows one way, any modification of structure or content is rejected, and correct answers aren't debatable. But, as we showed above, the individualized approach of Amazon's interviewers makes it clear: Amazon's behavioral round is not a standardized test—it's a game.
+
+A game is malleable, dynamic, and subjective. In other words, the behavioral interview is a lot like Calvinball. In Calvinball, “While the objective of the game is to win, there is no real way to determine what winning is” (source). That means that you can change the rules. You can mold the field of play to fit your strengths. You're limited solely by your imagination.
+
+These types of games are influenced by cognitive biases, configurable to your advantage, and filled with judgment calls. But, more than anything else, the biggest difference between a standardized test and a game is that the latter involves your counterpart (the interviewer) making up the rules as they go along—just like you.
+"25% of SDEs who pass the technical bar are disqualified due to behavioral concerns."interviewing.io interviewer from Amazon
+Why interview preparation matters
+Many engineers wrongly assume that they don't need to prepare for a behavioral interview. They believe they can wing it by simply talking about their past experience because they assume it's something they're already intimately familiar with. However, winging it won't cut it in Amazon's behavioral interview—it's a particularly common failure pattern we see on our platform.
+
+Amazon is known for its competitive workplace culture, and most Amazonians seem to get satisfaction from making a behavioral round intense, much more so than most interviewers at other companies. Unprepared candidates are prone to get rattled by the somewhat confrontational, challenging style of these interviewers, causing their performance to suffer as a result.
+
+To avoid that same fate and actually excel in the interview, you'll need to learn about what Amazon cares about (the LPs) and discover how to respond to their tricky questions without getting flustered. Do that, and you'll increase your odds of both getting hired and receiving a higher level of responsibility.
+"I wish more candidates would prepare well in advance for our behavioral questions. I wish they knew the questions' patterns and were prepared to speak about their experience in an effective way."interviewing.io interviewer from Amazon
+High-level strategy to frame your Leadership Principles interview
+In this section, we'll teach you a strategy that will increase your odds of success while lowering your stress. We think it's important to explain why you should use this strategy and how we analyzed and bucketed these LPs to maximize your hit rate.
+The most common pitfall to avoid
+When it comes to preparing for Amazon's interview, one popular strategy is to guess which LP a question is asking about before answering the question. Unfortunately, there are 16 different LPs to keep track of, so your odds of guessing correctly are low; your interviewer may ask tricky, confusing, or challenging questions that are designed to push back, probe, or catch you off guard; and you can't predict if the interviewer will even detect signal of the LP you're trying to convey.
+
+There has to be a simpler way to crack this, and we think we've found it.
+Put Customer Obsession above all else
+If we can determine what concepts these LPs have in common, then you can simply show signal for a bucket of LPs instead of attempting to laser focus your answer on one LP. This will make it easier for you to prepare for the interview and also increase your odds of success.
+
+We spent a lot of time analyzing the 16 LPs, identifying their shared themes, and placing them into buckets. Searching for the most efficient and effective way to group the LPs, we discovered that every LP has one common denominator: customer obsession. This is Amazon's favorite value. It's their north star. Without customer obsession, Amazon wouldn't be Amazon.
+
+But if all 16 LPs can be reduced down to one concept, then what's the point of following the status quo and guessing which LP a question is asking about? Because, technically, wouldn't the answer be customer obsession every time?
+
+Yes, and that's our point. Though it may be tempting to do otherwise, you should ignore the urge to guess which specific LP lies beneath a question. It's more likely to hurt than it is to help.
+
+Instead, broadcast the idea that you are obsessed with delighting customers. Signal this idea early and often; make this your new default system. In such a generalized interview format with so much subjectivity, you want to cover as wide of a surface area as possible. Demonstrating customer obsession is the closest thing we've found to a cheat code.
+PART 2:
+What to expect, what to avoid, and what to do during an Amazon Leadership Principles interview
+Now that we've explained why you should condense the LPs into a single bucket (customer obsession), it's time to learn everything you need to know in order to craft your own ideal answers.
+What to expect when answering questions about Amazon Leadership Principles
+Expect your interviewer or hiring manager to directly challenge your answers. Here's an excerpt from a tech lead interview at Amazon. Let's take a look at how it flows.
+EXAMPLE QUESTION:
+"How do you make sure you're focused on the right deliverables when you have several competing priorities?"
+1ST FOLLOW-UP QUESTION:
+"Can you tell me about a time when you did not manage priorities and something fell through the cracks?"
+2ND FOLLOW-UP QUESTION:
+"What could you have done better?"
+3RD FOLLOW-UP QUESTION:
+"I don't think you answered the question. I think you're answering a more generic question. I'm asking you to tell me about a time when your process for competing priorities didn't work."
+The topic of the initial Question is ambiguous: there's no known optimal solution for managing priorities. The 1st Follow-up Question is about failure. Essentially, so far, the interviewer has said, “Hey, give me your philosophy on a subject for which there's no consensus,” followed by, “Okay, now tell me how that philosophy of yours is imperfect.” That's a direct challenge.
+
+The 2nd Follow-up Question is also about failure. And the 3rd Follow-up Question is another direct challenge. In fact, you might never see a stronger direct challenge than the 3rd Follow-up Question.
+
+This is classic Amazon. Ambiguity and failure can be intimidating enough on their own, but Amazon doesn't stop there. They turn up the heat to test your ability to handle pressure.
+
+Four common mistakes to avoid when answering Amazon interview questions
+In addition to learning what to expect in an interview, it's important to identify common mistakes that candidates make so you can avoid them in your own interview. Here, we will focus on the mistakes themselves.
+Most Common Mistakes in Terms of Content
+- not enough impact or metrics (40%)
+- saying LPs out of Loud (5%)
+- falling down rabbit holes When asked about conflict (30%)
+- not focusing on individual contribution (25%)
+In addition to learning what to expect in an interview, it's important to identify common mistakes that candidates make so you can avoid them in your own interview. Here, we will focus on the mistakes themselves.
+
+MISTAKE #1
+Not enough impact or metrics
+The most common critical feedback given by interviewers is either: “It would have been better if you described more impact” or “It would have been better if you mentioned more metrics.”
+
+Amazon likes business and scale. An answer without impact means Amazon can't get a read on your business acumen. An answer without metrics gives Amazon no way to determine scale.
+
+One reason candidates don't mention impact or metrics is because they think they can only use impact or metrics that are accurate with 100% certainty. Lastly, one additional reason people fail to include impact or metrics is that they simply aren't sure how to find them. (If you want to learn how to find impact and metrics right now, then jump to Step 1 of How to Practice for LP.)
+
+
+MISTAKE #2
+Falling down rabbit holes when asked about conflict
+Candidates frequently get tripped up when asked questions about conflict. We can't tell you how to avoid every possible pitfall, but we can tell you how to avoid the most common one: Trying to prove that you were right.
+
+Two things that interviewers absolutely do not want to hear when you're speaking about conflict:
+- Why your X approach was better than your colleague's Y approach.
+- The minute details of your X approach and of your colleague's Y approach.
+This is where many people get stuck. It doesn't matter who had the better technical approach. Don't try to justify to the interviewer that you were right and your colleague was wrong. Avoid this trap.
+You may have spent a lot of time thinking about this, but that doesn't mean you need to share a lot about it. Once again, your goal is not to prove that you were correct. Therefore, you shouldn't speak at length about why a proxy server was the best solution or explain the usability drawbacks of changing the hosting environment. Less is more in this case. If they want more detail, they'll ask about it in their follow-up questions.Some of the other common ways people fail during questions about conflict: rambling for five minutes before describing the actual conflict, talking about a conflict from 10 years ago, focusing on the intensity of the conflict instead of what happened during the conflict, and speaking about a conflict where the topic seems trivial for someone at their level.
+MISTAKE #3
+Not focusing on individual contribution
+"When talking about your projects, most of your words should be about ‘I' not ‘We.' Your answer should mainly be about your individual contribution."interviewing.io interviewer from Amazon
+According to our research, the third most common reason engineers fail interviews is a lack of focus on their individual contributions when discussing their work history. Typical feedback from interviewers looked like this: “I got an understanding of what the project was about and what work was involved in general, but I couldn't really get a sense of what you did.”
+
+Again, Amazonian and non-Amazonian interviewers both deduct points when a candidate fails to focus on their individual contribution. But some speculate that Amazonians dock more points than other companies when someone misses the mark here. Don't get caught up in an in-depth walk-through of how the technology works, the specific structure of the business units, or the intricacies of what everybody else was doing. Say “I”!
+MISTAKE #4
+Saying Leadership Principles out loud
+If you're the candidate, don't recite LPs out loud. It sounds clunky and unnatural.
+Not Ok
+* Saying “customer obsession”
+* Saying “deliver results”
+VS
+Ok
+* Saying “delighting users is important”
+* Saying “get stuff done”
+Takeaway: you can riff, but don't “copy and paste.”
+We've focused so far on the most common reasons candidates lose points in an Amazon behavioral interview, but now let's take a look at strategies you can use to make a positive impact.
+Tips for a successful Amazon behavioral interview
+Now that you know what to avoid during your interview, let&s dive into some best practices and tips for passing your behavioral interview with flying colors.
+Beat the drum with customer obsession—the most important Leadership Principle
+As we mentioned earlier, all of the LPs have one common denominator: customer obsession. It's never a bad time to demonstrate a keen focus on meeting customers' needs; to borrow a quote from Wedding Crashers: “It's like pizza, baby—it's good no matter what!
+
+To make your answers stronger, you can show signal for customer obsession in places where it doesn't seem to apply. Take this question, for example: “Tell me about a time you had a disagreement with a colleague or a manager. What was the situation? How did you resolve it?”
+ANSWER AWithout customer obsession framing ?
+* I had to organize and refactor the codebase. And I thought object-oriented programming was the best approach. But one of my teammates did not buy in. I tried to explain the benefits but did not sway him. I wanted to get the work done, so I ended up going ahead with the approach he proposed. At the end of the day, delivering the feature was more important than proving my point to stick with the object-oriented approach. I made peace with my teammate and went ahead with his approach.
+VS
+ANSWER AWith customer obsession framing ??
+* I had to reorganize the codebase and refactor the codebase. And I thought object-oriented programming was the best approach. But my teammate didn't buy in. For the sake of pushing something to prod quicker, we ended up going with his approach. But looking back on it, I wish I would have fought more for the object-oriented approach, and the reason is because user experience is really important to me. If we had the codebase nicely structured with object-oriented design and patterns and hierarchy, it'd make it way easier to maintain and more robust and less buggy. So later on we could develop cool new features for customers and push them out quicker.
+Data collected from a representative sample of Amazon behavioral interviews showed us what to do and what to avoid during an interview.
+No answer is often better than a bad answer
+It's all right to say: “I don't have an answer for that,” or “I can't think of an example for this question.” In fact, interviewers don't expect you to have an answer for every single question they ask. Unless it's a question your interviewer thinks is insanely common, you're not going to lose points for passing on one question. Obviously, you don't want to dodge four behavioral interview questions in a row. But, overall, no answer is better than a bad answer.
+"It's better to share no example than a bar-lowering example. For instance, if the interviewer asks you to share a time you ‘Insisted on the Highest Standards,' and you talk about code formatting one source file, that is almost definitely a negative mark against you. It would be better to share nothing at all."interviewing.io interviewer from Amazon
+The most misunderstood Amazon leadership principle
+Have backbone; disagree and commit is not about making people do it your way. This is the most misunderstood LP. It's easy to over-focus on the competitive traits Amazon likes; determined to show they're a good fit for Amazon, candidates seem to spin their past work history to make it seem like they're ultra-competitive.
+
+If it's impossible to do it your way, are you able to go ahead with someone else's plan? Or do you block? If it's impossible to do it your way, accommodating a conflicting idea after you've clearly asserted your point is perfectly reasonable. To showcase this in an interview, you might describe how you told your colleague:
+"Hey, I don't agree. And I don't agree for these reasons. I think it's not going to work. However, for the sake of getting the work done, I'm on board. And down the road, if things aren't going as planned, then we can circle back and revisit this discussion."
+Follow four rules when speaking about conflict
+When answering questions about conflict, do your best to clearly describe the conflict you're referencing, ensure the conflict is pertinent to the level of the job you're applying for, choose a conflict that resulted in significant discussion or back and forth, and stick to the facts.RULE #1
+Clearly articulate the conflict in the first few seconds of your answer.
+Don't make your interviewer wait. After you share the conflict, pause briefly to let it sink in.
+EXAMPLE:"In my current role, a conflict occurred over choosing how to integrate a third-party software. The conflict was: my manager and I couldn't agree on an approach."
+RULE #2
+Make sure the topic of a conflict is relevant to your level.
+A topic relevant to a junior engineer is something like choosing variable names. For senior engineers, it'd be about something more significant such as deciding how to design the architecture or choosing one database over another.
+RULE #3
+Choose actual conflicts, not potential conflicts.
+A conflict is a disagreement drawn out over time. If there wasn't much discussion about it or time didn't pass while it persisted, then it probably wasn't a conflict. If this is the case, it was more of a “potential conflict that got resolved quickly.” If it wasn't a conflict, then don't position it as one.
+Example of a potential conflict that got resolved quickly
+* “They said X. I said Y. And then they said, ‘Oh, you're right. Actually, Y is better.' And then we did Y.”
+VS
+Example of an actual conflict
+* “They said X. I said Y. And then time passed. They still said X and I still said Y. So, I did research on X and Y. More time passes. I showed this research to get buy-in from some Important People. Then I showed my research to the People Who Said X. More time passes. The People Who Said X weren't convinced until Z happened. Then the People Who Said X got on board and said Y.”
+RULE #4
+Focus on what happened and stick to the facts.
+Define the conflict, describe how the conflict was resolved, share the steps you took to resolve it, and state the outcome.
+EXAMPLE:"One conflict I had with my manager was about integrating a third-party API. They thought this service would improve performance. My research showed it improved performance marginally but complicated maintenance significantly. After gaining support from the team lead, I walked my manager through the data flows. They weren't convinced; however, they were more open to the idea. At the urging of myself and the team lead, the manager took it to one of their stakeholders who agreed that the long-term maintenance costs were too high to justify using this service. This led to us not integrating the third-party service that had been proposed."
+Share experiences where you took a big loss
+Part of the definition of earn trust says that Amazon wants leaders who are “vocally self-critical, even when doing so is awkward or embarrassing,” so don't be afraid of telling Amazon how you've struck out swinging for the fences. You're encouraged to highlight the benefit that getting this “win” would have brought to your team. And, to give you an idea of the big-scale losses they want to hear about, you can talk about failures that resulted in losing a contract, losing future business, or losing a lot of money.
+Questions the candidate asks the interviewer are an opportunity to show signal
+Great candidates demonstrate signal in places most candidates might overlook, such as the questions they ask the interviewer when wrapping up.
+Question from the candidate:"Let's say you have a user who used to use the Alexa services when they were a new user, but now they don't use the Alexa services anymore. How do you collect the data to understand what went wrong, so you can improve user experience? Most users are going to ignore surveys, so how do you learn about stuff like what features they didn't like?"
+By framing it around user experience, this question broadcasts customer obsession. It's crucial to take advantage of every opportunity to broadcast signal, so don't ignore the importance of asking questions in a strategic way.
+How to practice for a Leadership Principles interview in six steps
+An average candidate will go online, get a list of behavioral interview questions, immediately start typing answers to the questions, and maybe get some feedback from friends.
+
+The primary error here is implementing a solution before understanding the problem. Another error here is the lack of a robust QA process between the initial answer you type out and the answers you say in an interview. What are the chances you got it right the first time? What are the odds that your original answer left a bunch of data unsaid? And what if the data you're leaving behind is better than what you wrote down in your first draft?
+
+Another mistake is that friends often go easy on you and frequently lack the knowledge or skill to give you actionable feedback. When learning from friends, the best case scenario is you learn less than you should, and the worst case is you learn the wrong stuff entirely.
+There are six steps you should follow to prepare for Amazon Leadership Principles interview so you can beat the game.
+1 – Extract raw data
+2 – Frame the data
+3 – Iterate
+4 – Refine the stuff that works
+5 – Go from good to great
+6 – Adopt the amazon mindset
+
+1
+Extract the raw data
+Approach the raw data extraction like a brain dumpA brain dump is “the act or an instance of comprehensively and uncritically expressing and recording one's thoughts and ideas (as on a particular topic)” (Source). Don't worry yet about the quality of what you extract, and don't focus too much on how it all sounds. Your goal is just to get everything written/typed out.
+Prepare for follow-up questions.For more than 40 years the STAR framework has remained the de facto standard method for structuring answers to behavioral questions. STAR doesn't protect you from an ornery engineer drilling down for 15 minutes on some obscure detail about a project you did two years ago. So, how do you prepare for follow-up questions? Grill yourself until you've extracted enough data. You can either spend a reasonable amount of time grilling yourself before the interview, or you can spend an unreasonable amount of time getting grilled during the interview.
+"Interviewers may spend 10-15 minutes on a single point, asking multiple follow-up questions and going deep into the point."interviewing.io interviewer from Amazon
+Self Reflection
+For each project you've worked on in the past few years, ask yourself these questions:
+# What business problem was this project supposed to solve?
+# What were the greatest technical challenges? (Usually, the more interesting ones are the ones you didn't expect)
+What approach did you take?
+What are the drawbacks to the approach you chose?
+What alternative approaches did you consider?
+How did you compare the approaches?
+What tradeoffs did you consider?
+How did you profile them?
+How did you compare scalability for each?
+What was your vision for how each technology would evolve over time?
+# What were the functional challenges?
+Did you have to do something faster than usual?
+Or with less resources than usual? How new was the subject matter to you?
+How many other teams or stakeholders did you work with on this?
+How much pre-established process was there in place for your role?
+# What were the interpersonal challenges?
+# What did you learn?
+
+Discover some gems.Grilling yourself will give you a ton of data. But most of that data won't be impressive to an outsider. Much of it might be muck. But that's OK! Within the muck, there will be some gems, pieces of well-crafted language. After you've uncovered these gems, search them for any signal of customer obsession. Gems don't need to have that signal. However, a gem with any of these signals is inherently a more valuable gem because it's tailor-made for Amazon.
+
+
+Example Gems
+For each project you've worked on in the past few years, ask yourself these questions:
+I found a security vulnerability in our cloud infrastructure which saved the company 3 million dollars in annual customer support costs.
+The main project I worked on for the last two years was a bot detection project to stop fraud. As a part of my research, I spoke with the 10+ teams (including some Staff-level engineers) who had attempted to solve this problem but failed. I noticed they all did the same thing - they made an assumption that hackers aren't always evolving. These other teams were implementing 1 idea every 6 months or 1 idea per year. My team (myself and a data scientist) was able to implement 5 ideas per week. So, in some sense, we were moving more than 125X faster than the other engineers who had previously worked on this problem. We ended up solving the problem, getting some patents, and saving the company a bunch of money.
+This is something that I learned the first time I built my own user authentication from scratch. Any way you authenticate users, there are always going to be security risks.
+I made a software application that controls a very fancy refrigerator. I wrote 5-10k lines of code for this project. The most challenging part was linking up three different aspects (which were all over the stack) to talk to each other. Low-level hardware interfacing, which was all wrapped up. And then there's the back end logic that controls the data ingest and data logging and data processing. Lastly, there's the front end which is a graphical application with live plots and switches and dials and stuff.
+
+Find a bunch of metrics and impact.You don't need to be 100% certain about the numbers; that's unreasonable. When it comes to your work history, especially for companies you no longer work for, your best guess is good enough.
+Metrics and Impact
+If you want to find metrics and impact for anything you've built, you can ask yourself questions such as:
+How large was its dataset or how many rows of data were analyzed to make it?
+How many devices/users did it launch to or will it launch to?
+How many engineering hours did it save? How many non-engineering hours did it save? How often (how many times per year) will these hours be saved? What is the cost of those yearly hours?
+How much money is processed by it?
+How much more accurate or effective was it than a given benchmark?
+How much was efficiency or productivity increased by it?
+What did users or colleagues say about it?
+
+2
+Frame the data
+What is the process to turn your raw data into something polished for an interview?You have your raw data. Next, you have to figure out how you want to frame the data, then you apply the data to the frame you chose, then you see what story the data is telling, and then see if someone else can understand the story. To begin, let's observe a perfect answer that you can emulate. This will become your frame.
+Example of a perfect answer to an LP question (i.e., your frame)We listened to hundreds of interview responses to find this perfect LP answer. First, we are going to demonstrate why it is such an effective answer. Then we encourage you to listen to the answer in its entirety.
+A great answer goes in a perfect, full circle.The candidate's answer starts with a key statement of the problem and ends with a summary of how he solved the problem. When you craft stories that go in a perfect, full circle (from problem to solution), your impact is baked into the answer.
+Speak in a way that both an expert and an idiot can understand.Albert Einstein said: “You don't really understand you examine the answer, notice how simple his word choice is. Every word in the sentence is necessary, yet there are no words you have to google to understand.
+Focus on individual contribution.Most of his answer focuses on the actions he took (i.e., his “individual contribution”). Because of this, he avoids getting bogged down by minutiae, such as technical jargon, details on how these teams and business units work, the specifics of the approach they took in this architecture, or explaining how this particular technology functions.
+Hear the perfect LP answer for yourself (don't mind the sharks ?? )
+3
+Iterate
+Now that you have your frame, you can build answers atop the frame to see how they fit. Doing this will help you find out what works and what doesn't.
+Talk through your answers.The best way to practice is with an experienced interviewer who has domain expertise. If that's not available to you, then you'll want to use our example questions, record some answers, and analyze your own responses. Overall, this isn't a bad choice, but it isn't as helpful as practicing with an expert because feedback from yourself is limited by blind spots.
+Use gems, metrics, and impact as much as possible.It's impossible to overdo it with these three skills. There's nowhere in an answer that they can't be used effectively. Get comfortable using them. Experiment. Find what works for you.
+Clearly answer the question and demonstrate your passion for delighting customers.As we proved earlier, there's little to no value in guessing the underlying LP or attempting to aim your answer at one specific LP. Instead, practice answering each question clearly and broadcasting your obsession with making customers happy.
+Make 80% of your answer about individual contribution.Focus on making “I” statements (as in, “actions that I took”). This leaves 20% of your answer to cover “everything else.” Some examples of “everything else” are: a) “We” (or “actions we took”), b) “How stuff works in this company (or team or organization),” and c) “little things worth mentioning.”
+4
+Refine the stuff that works
+Now that you have practiced giving answers with some framing, you should have a better idea of what works. At this point, you can refine the story your data is telling. This means (partially or fully) scripting out your answers. How much to script depends on your preferences; some people prefer room for improvisation, while others would rather know exactly what they're going to say.
+
+Once you have a basic outline of the key points to hit, or the answer scripted out in full, you can measure what story your data is telling. To achieve this, consider how much signal for customer obsession is found in your answers.
+
+Finally, it's time to benchmark how effective you are at conveying your story to someone else.
+5
+Go from good to great
+Get actionable feedback from actual Amazon interviewers.Admittedly, we're biased, and we think you should use the interviewers on interviewing.io ?? Mock interviewing with experts will take you from good to great because it accurately simulates the environment of an interview. It's just like the real interview but without negative consequences; think of it as a proxy server for your job search. You get what you need (actionable feedback) from a reliable source (an Amazon interviewer) and there's no risk involved (you can't get rejected).
+
+6
+Adopt the Amazon mindset
+Embrace the fire.In the spirit of competition, Amazon turns up the heat to see how you react to the flame. Expect direct challenges. When it happens, stay cool. Don't forget: it's not a standardized test; it's a game. And in order to beat the game, there's one thing that we want to make sure we're on the same page about…
+Amazon Leadership Principles interview question examples
+Most Amazon behavioral questions fall into one of 5 buckets. In this question bank we will define the 5 buckets and give you a few example questions in each bucket.
+
+Bucket #1: Technical problem solving
+If you ignore the “spin” some of these questions have on them (complexity, simplicity, novelty, etc.), these questions are straightforward; this bucket is about how you solve technical problems.
+Tell me about your project which was the toughest in terms of technical challenges.
+Give me an example of a complex problem you solved with a simple solution. What made the problem complex? How do you know your solution addressed the problem?
+Give me an example of a time you proposed a novel approach to a problem. What was the problem and why did it require a novel approach? Was your approach successful?
+
+Bucket #2: Learning (and failure)
+These questions ask you about times you learned lessons. Sometimes lessons are learned through research you did or curiosities you followed. Sometimes lessons are learned from mistakes you made (you can define failure as “knowledge gained through first-hand experience.”)
+How do you approach learning new technologies?
+Give me an example of a significant professional failure. What led you to making the wrong decision? What did you learn from this situation?
+We all have things about ourselves we'd like to improve on at work. Give me an example of something that you've worked on to improve your overall work effectiveness. What resources did you identify to help you develop? What was the impact?
+Tell me about a time when you were wrong.
+
+Bucket #3: Getting stuff (for the business) done
+These questions are about your ability to achieve desired outcomes for the business.
+Tell me about a time when you went above and beyond for a customer. Why did you do it? How did the customer respond? What was the outcome?
+Tell me about a time when you took on something significant outside your area of responsibility. Why was it important? What was the outcome?
+??Tell me about a time when you had to deliver something at a very tight timeline.
+
+Bucket #4: Interpersonal conflict
+This is the most discussed bucket of Amazon questions. It's about conflicts with other people.
+Tell me about a time when you had a disagreement with a colleague or manager.What was the situation and how did you resolve that?
+Tell me about a time where you disagreed with a coworker or PM or manager because you believed the decision they wanted to make was wrong for the customer.
+Tell me about a time when you strongly disagreed with your manager or peer on something you considered very important to the business.
+Bucket #5: Ambiguity
+“Ambiguity” questions are easy to identify because the question will present two opposing or conflicting ideas.
+Give me an example of when you had to make an important decision and had to decide between moving forward or gathering more information.What did you do? What was the outcome? What information is necessary for you to have before acting?
+Give me an example of a calculated risk that you have taken where speed was critical.What was the situation and how did you handle it ? What steps did you take to mitigate the risk?
+Tell me a time you made a hard decision to sacrifice the short term gain for a longer term goal.
+
