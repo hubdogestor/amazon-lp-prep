@@ -1,0 +1,1 @@
+export const STARL_KEYS = ["s","t","a","r","l"];

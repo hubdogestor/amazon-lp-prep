@@ -1,0 +1,116 @@
+Como o meu objetivo é estar preparado para responder toda e qualquer pergunta que os entrevistadores possam fazer, eu quero que você crie uma aplicação / página que vai fazer uma curadoria no conteúdo de cases escritos no formato star... 
+
+então quero que essa aplicação seja capaz de analisar todos os cases, verificar se a redação está adequada, e o mais importante, se estão seguindo as premissas e dicas contidas nesses varios arquivos na pasta que estou anexando aqui (base de conhecimento),
+
+e que a aplicação funcione como um robô que trabalhe de forma pragmática, que processe internamente e me traga somente o resultado (para download), quero que use todas as tools possíveis e me entregue os arquivos prontos. pode usar pensamento profundo, raciocínio profundo, modo "agente", modelo de raciocínio completo, tudo o que precisar... e pode demorar o tempo que precisar.
+
+cada case deve ter um storytelling no estimo transcrição de palco no formato STAR(L), com hook de abertura, transições explícitas entre blocos e mic-drop embutido dentro do (L) aprendizados. 
+
+também quero que esse robô verifique se as 10 FUP questions de cada case são as mais adequadas, e atualize-as sempre que necessário for.
+
+detalhe: sempre deverá ter a versão em portugues e a versao em ingles para tudo (voce vai perceber isso no proprio template).
+
+assim teremos um arquivo com a sua versao final e devidamente validado ;)
+
+
+------------------------------------------------------------------------------
+
+### MEU PEDIDO:
+
+para fazermos esse um grande trabalho, vamos executar em 3 fases:
+
+#FASE 1 - Ler e absorver TODO o conteúdo da base de conhecimento
+
+Compreenda o material que está na pasta "base de conhecimento"...
+eu não quero que você leia os arquivos mais importantes da base de conhecimento, eu quero que você leia TODOS os arquivos que estão lá. todo o conteúdo de todos os arquivos... 
+
+segue resumo do material:
+
+- Descrição da Vaga - Program Manager Payments (foco em AI/ML, Lean, Six Sigma)
+- 16 Amazon Leadership Principles for Innovation - Visão ampla dos LPs
+- Ace the Amazon LP Interview - Guia COMPLETO com dealbreakers, red flags, strategies
+- Amazon Leadership Principles guide - Filosofia profunda, what Amazon likes/dislikes
+- Amazon Prep - Tips from HR - Dicas oficiais (STAR, Bar Raisers, timing)
+- Dicas gerais - 15 dicas práticas em PT
+- IMPORTANTE - anotações Leonardo - Suas notas da prep call + ordem de importância dos LPs
+- Interview questions - examples - 100+ perguntas categorizadas por LP
+- Playbook Leonardo v2 - SEU CV completo formatado para STAR (CRÍTICO!)
+- CV Leonardo Menezes - Resume oficial em inglês
+- STAR Worksheet - Template Amazon oficial
+- Interview Prep Doc (sent by HR) - Material oficial Amazon
+
+obviamente depois voce pode sumarizar, mesclar, evitar redundancias, enfim... fazer o que quiser...
+
+mas nao deixe de absorver todo esse conhecimento... vai fazer uma grande diferença tanto agora para criar a lógica de revisão em nossa ferramenta, quanto depois para refinar os cases (pois aí voce saberá mais sobre a amazon, sobre os LPs, sobre o meu cv, sobre o que eu já fiz, etc.)
+
+-----------------------------------------------------------------------------------------------------------
+
+#FASE 2 - Revisar lógica de análise dos cases baseada no conhecimento absorvido / CRIAR ROBÔ SUPER ANALISADOR DE CASES 3.0
+
+Principais takeaways:
+Customer Obsession é não-negociável
+80% "EU" vs 20% "NÓS" é regra de ouro
+Dealbreakers são automáticos (sem conflito = fail)
+Amazon valoriza mechanisms > intentions
+Recency bias é real (cases velhos perdem pontos)
+Timing 7-10min total é crítico
+Bar Raisers podem vetar todos os outros
+"No answer > bad answer"
+
+
+
+# ATENÇÃO
+
+Criei uma pasta chamada "case-validation", Esta pasta reúne os principais arquivos copiados de outra aplicação previamente desenvolvida. Eles compõem o núcleo do motor inteligente de análise de conteúdo de cases. O código e os scripts presentes aqui são responsáveis por processar, interpretar e validar cases utilizando algoritmos de IA avançada. Esta seção serve como o ponto de partida para customização e evolução do motor de análise.
+
+quero que voce crie o seu próprio motor de analise... mas aí além de todo o regramento existente (prompt acima e aprendizado obtido na pasta "base-conhecimento"), leia e aprenda tudo o que tiver na pasta "case-validation", e também use sua inteligencia como IA avançada claude sonnet 4.5... e para cada um que voce concluir a análise, obtenha minha aprovação, e após o meu OK, pode atualizar a base de dados da nossa aplicação. 
+
+voce pode demorar o tempo que precisar, eu nao tenho pressa... faça uma analise profunda... trabalhe de forma pragmatica, processe internamente, use todas as tools disponiveis e me entregue os resultados prontos (eu nao preciso acompanhar o andamento aqui), obrigado.
+
+------------------------------------------------------------------------------------------------------------------
+
+#PEDIDO 3 - Processar cases originais com análise PROFUNDA usando motor 3.0 + IA avançada
+- Revisar e expandir cases com pouco contexto usando storytelling
+- Validar estrutura STAR(L) impecável em todos os cases
+- Otimizar Follow-Up Questions (10 por case)
+- Garantir versões PT/EN completas e equivalentes
+
+ou seja,
+- Análise profunda dos cases nas 16 pastas
+- Revisão e expansão significativa de cada case
+- Melhorias em storytelling, métricas, STAR structure
+- Refinamento de 10 FUPs por case
+- Garantia de equivalência PT/EN
+
+Cada case precisa de:
+- Análise crítica manual (não automatizável)
+- Compreensão profunda do contexto business do Leonardo
+- Expansão criativa de storytelling
+- Adição de métricas coerentes com a realidade dele
+- Refinamento de linguagem
+
+aqui no pedido 3 você vai só organizar o trabalho, e criar um controle de revisões.
+para cada pasta, quero poder acompanhar quais são os cases presentes, e quais já revisamos...
+aí vamos acompanhando a evolução até ter todo o trabalho finalizado
+
+----------------------------------------------------------------------
+
+#PEDIDO 4 - Operação - Aqui começa sua mão na massa.
+
+
+Será feito em 16 lotes, um lote por lp, onde você irá:
+
+- Ler o case original completo
+- Analisar profundamente o case usando todos os critérios da base de conhecimento
+- Identificar gaps, superficialidades e oportunidades de expansão
+- Expandir storytelling com hooks, transições e mic-drops
+- Adicionar métricas quantificadas (meta: 8+ métricas)
+- Fortalecer ownership individual (ratio 3:1 EU/nós)
+- Garantir customer obsession pervasiva
+- Refinar/expandir Follow-Up Questions (10 FUPs)
+- Garantir equivalência PT/EN de alta qualidade
+- Criar versão final revisada para validação
+
+Quero começar por "Deep Dive", bora fazer o case 1?
+
+

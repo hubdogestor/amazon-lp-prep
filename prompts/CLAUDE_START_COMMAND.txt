@@ -1,0 +1,5 @@
+Concluir Ingestão e gerar `case-validation/analyzer3/SYNTHESIS.md` (GATE A). Depois, ajustar Motor 3.0 (GATE B) usando o skeleton. Em seguida:
+1) `node case-validation/analyzer3/index.mjs --validate --data=src/data`
+2) `node case-validation/analyzer3/index.mjs --refine --lp=dive_deep --data=src/data` (apenas preview)
+3) Atualize `docs/CHECKLIST_VISUAL_v2.md` e `docs/REVIEW_TRACKER.md`.
+4) Garanta `npm test && npm run build` verdes.
