@@ -2,25 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(npm run lint)",
-      "Bash(npm install:*)",
-      "Bash(npm run build:*)",
-      "Bash(git add:*)",
-      "Bash(git reset:*)",
-      "Bash(git commit -m \"$(cat <<''EOF''\n🚀 REFATORAÇÃO COMPLETA v2.0 - 18 Melhorias Implementadas\n\n✨ Arquitetura & Performance\n- ✅ Hooks customizados (useDebounce, useHighlight)\n- ✅ Memoização corrigida (70% menos re-renders)\n- ✅ Debounce em buscas (300ms)\n- ✅ Code splitting preparado (App.lazy.jsx)\n\n🔒 Segurança\n- ✅ Sanitização XSS (HighlightableText)\n- ✅ Escape de regex seguro\n- ✅ DOM manipulation eliminada\n\n♿ Acessibilidade\n- ✅ 15+ ARIA labels\n- ✅ Navegação por teclado completa\n- ✅ Screen reader support\n\n🧹 Code Quality\n- ✅ Zero duplicação de código\n- ✅ Zero magic numbers\n- ✅ Constantes centralizadas\n- ✅ Utilitários modularizados\n- ✅ fup/fups padronizado\n\n🐛 Bug Fixes\n- ✅ Race conditions eliminadas\n- ✅ TOP_CASE_IDS duplicado removido\n- ✅ Loading states adicionados\n\n📦 Dependências\n- ✅ React 18.2.0 → 18.3.1\n- ✅ Vite 4.4.5 → 5.4.20\n\n📚 Documentação\n- ✅ TECHNICAL_DOCUMENTATION.md\n- ✅ CHANGELOG.md\n- ✅ REFACTORING_SUMMARY.md\n- ✅ GETTING_STARTED_v2.md\n\n📁 Novos Arquivos (11)\n- src/components/HighlightableText.jsx\n- src/hooks/useDebounce.js\n- src/hooks/useHighlight.js\n- src/utils/textUtils.js\n- src/utils/caseUtils.js\n- src/constants.js\n- src/App.lazy.jsx\n- fix-topcases-refactored.js\n\n🎯 Métricas\n- 70% menos re-renders\n- 100% código duplicado eliminado\n- 100% XSS vulnerabilities eliminadas\n- 0 lint errors, 0 warnings\n- Build OK em 1.88s\n\n🤖 Generated with Claude Code (https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(git push:*)",
-      "Bash(npm run deploy:*)",
       "Bash(git tag:*)",
-      "Bash(git commit:*)",
-      "Bash(git checkout:*)",
-      "Bash(curl -o favicon.ico \"https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg\")",
-      "Bash(curl:*)",
-      "Bash(npm run preview:*)",
-      "Bash(dir:*)",
-      "Bash(test:*)",
-      "Bash(timeout:*)",
-      "Bash(for file in *.js)",
-      "Bash(do sed -i 's/period: \"\"\\([0-9]\\{2\\}\\/[0-9]\\{4\\}\\)--\\([0-9]\\{2\\}\\/[0-9]\\{4\\}\\)\"\"/period: \"\"\\1-\\2\"\"/g' \"$file\")",
-      "Bash(done)"
+      "Bash(git push:*)",
+      "Bash(dir)",
+      "Bash(mkdir:*)",
+      "Bash(xcopy:*)"
     ],
     "deny": [],
     "ask": []
