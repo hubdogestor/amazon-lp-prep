@@ -31,48 +31,7 @@ const invent_simplify = {
         r: "I reduced average SLA from 382 to 104 days (73% improvement), exceeding the 120-day target. This represented a ~9-month acceleration in the overall schedule. The calculation of ~$120 million in gains was a conservative estimate from global finance, based on savings from: avoided contractual penalties ($45M), overtime reduction ($12M), revenue acceleration through early delivery ($38M), and rework elimination ($25M). The framework was so effective it was adopted as standard by Huawei Latin America for all subsequent rollouts. The 'Integrated Command Center' became a global template, replicated in 8 countries. I received Huawei Global's 'Innovation Award' for creating a methodology that combined Six Sigma with telecom specificities.",
         l: "I learned that the most impactful innovation can be the radical simplification of a complex process. Six Sigma taught me that you can't improve what you don't measure, but the real art is in choosing the right metrics and creating visual mechanisms that make complexity manageable. Today, in payment operations, I see similar opportunities: reconciliation processes that take 5-7 days could be simplified to <24h by applying this same discipline of Pareto + Six Sigma. Complexity in most payment processes isn't inherent - it's accumulated organically over years, and can be radically simplified when you measure first and redesign after."
       },
-      
-      pitch: {
-        pt: {
-          hook: "“Tínhamos um programa 4G com SLA médio de 382 dias para um deadline inegociável. Eu redesenhei o sistema e derrubei para 104 dias.”",
-          flow: [
-            {"t":"0:00–0:30","label":"Abertura","script":"Hook + stakes: por que este problema era intolerável e o que aconteceria se nada fosse feito."},
-            {"t":"0:30–1:30","label":"S (Situação)","script":"Contexto objetivo, volumes, SLAs e variabilidade."},
-            {"t":"1:30–2:15","label":"T (Tarefa)","script":"Qual missão eu assumi pessoalmente e a meta mensurável que defini."},
-            {"t":"2:15–5:30","label":"A (Ações)","script":"3–5 decisões de arquitetura/processo que eu tomei; trade‑offs; como alinhei stakeholders."},
-            {"t":"5:30–7:30","label":"R (Resultados)","script":"Métricas antes/depois com baseline e benchmarks; efeito nos principais KPIs."},
-            {"t":"7:30–9:00","label":"L (Learnings)","script":"O que ficou de mecanismo replicável e como isso escala para payments/fintech."},
-            {"t":"9:00–10:00","label":"Mic‑drop","script":"Fecho com um número/efeito incontestável + convite à pergunta crítica."}
-          ],
-          transitions: [
-            "“Dado esse contexto, eu assumi uma meta agressiva…”",
-            "“Para chegar lá, eu precisei tomar três decisões difíceis…”",
-            "“O efeito disso foi mensurável nos KPIs que importavam…”",
-            "“E isso virou mecanismo, não heroísmo pontual…”"
-          ],
-          mic_drop: "“73% de redução no SLA e ~US$120M de valor — e o modelo virou template global.”"
-        },
-        en: {
-          hook: "“We had a 4G rollout with a 382‑day average SLA for a non‑negotiable deadline. I redesigned the system and brought it down to 104 days.”",
-          flow: [
-            {"t":"0:00–0:30","label":"Opening","script":"Hook + stakes: why the problem was intolerable and what would happen if nothing changed."},
-            {"t":"0:30–1:30","label":"S (Situation)","script":"Objective context, volumes, SLAs, variability."},
-            {"t":"1:30–2:15","label":"T (Task)","script":"The mission I personally owned and the measurable target I set."},
-            {"t":"2:15–5:30","label":"A (Actions)","script":"3–5 architectural/process decisions I made; trade‑offs; how I aligned stakeholders."},
-            {"t":"5:30–7:30","label":"R (Results)","script":"Before/after metrics with baselines and benchmarks; impact on core KPIs."},
-            {"t":"7:30–9:00","label":"L (Learnings)","script":"What became a repeatable mechanism and how it scales to payments/fintech."},
-            {"t":"9:00–10:00","label":"Mic‑drop","script":"Close with a hard number/effect + invite the toughest question."}
-          ],
-          transitions: [
-            "“Given that context, I set an aggressive target…”",
-            "“To get there, I made three hard decisions…”",
-            "“The effect was measurable on the KPIs that matter…”",
-            "“And this became a mechanism, not one‑off heroics…”"
-          ],
-          mic_drop: "“73% SLA reduction and ~$120M value — adopted as a global template.”"
-        }
-      },
-fups: [
+      fups: [
         {
           q: "Como você priorizou as mudanças no fluxo 'TO-BE' para garantir que as etapas eliminadas não comprometessem a qualidade ou compliance?",
           a: "Usei uma análise de risco-benefício para cada etapa. Das 23 etapas originais, mapeei quais eram regulatórias obrigatórias (8 etapas), quais agregavam valor real (5 etapas), e quais eram redundantes ou burocráticas (10 etapas). Eliminei apenas as redundantes, mas criei checkpoints automatizados para as críticas. Por exemplo, em vez de 3 pessoas aprovarem o mesmo projeto técnico, criamos um checklist digital que uma única pessoa especializada validava em 2 dias vs. 10 dias antes.",
@@ -157,48 +116,7 @@ fups: [
         r: "I reduced average compliance approval time from 45 days to 7 days, an 84% cut. This freed up significant capacity in squads and ensured Next was launched in 12 months, a milestone for the sector. Specific metrics: Automatic approval rate: 30% (vs. 0% before), Average time for manual approval: 4.2 days (vs. 32 days before), Reduction in alignment meetings: 78% (from 18 to 4 per week). The simplification approach was replicated in other Bradesco compliance processes: Individual account opening (45→12 days), Investment products (30→8 days), Credit card (21→5 days). This generated an estimated savings of R$ 8.5M/year in operational cost. The 'Agile Community' grew to 340+ members and became the bank's official cultural transformation mechanism. The model was presented at FEBRABAN as a 'Regulatory Innovation' case.",
         l: "I learned that the most impactful simplification comes from translating technical complexity into clear and actionable mechanisms. Transforming compliance from a blocker into a facilitator was one of the most important organizational innovations I implemented. This demonstrated that simplifying critical processes is what enables extraordinary results in challenging deadlines. The key was understanding that regulation isn't the enemy of agility - it's about translating it into operational language that teams can execute with confidence."
       },
-      
-      pitch: {
-        pt: {
-          hook: "“Compliance KYC/AML levava 45 dias e travava o lançamento do Next. Eu simplifiquei para 7 dias sem perder conformidade.”",
-          flow: [
-            {"t":"0:00–0:30","label":"Abertura","script":"Hook + stakes: por que este problema era intolerável e o que aconteceria se nada fosse feito."},
-            {"t":"0:30–1:30","label":"S (Situação)","script":"Contexto objetivo, volumes, SLAs e variabilidade."},
-            {"t":"1:30–2:15","label":"T (Tarefa)","script":"Qual missão eu assumi pessoalmente e a meta mensurável que defini."},
-            {"t":"2:15–5:30","label":"A (Ações)","script":"3–5 decisões de arquitetura/processo que eu tomei; trade‑offs; como alinhei stakeholders."},
-            {"t":"5:30–7:30","label":"R (Resultados)","script":"Métricas antes/depois com baseline e benchmarks; efeito nos principais KPIs."},
-            {"t":"7:30–9:00","label":"L (Learnings)","script":"O que ficou de mecanismo replicável e como isso escala para payments/fintech."},
-            {"t":"9:00–10:00","label":"Mic‑drop","script":"Fecho com um número/efeito incontestável + convite à pergunta crítica."}
-          ],
-          transitions: [
-            "“Dado esse contexto, eu assumi uma meta agressiva…”",
-            "“Para chegar lá, eu precisei tomar três decisões difíceis…”",
-            "“O efeito disso foi mensurável nos KPIs que importavam…”",
-            "“E isso virou mecanismo, não heroísmo pontual…”"
-          ],
-          mic_drop: "“84% de redução e R$8,5M/ano em eficiência — replicado em 8 produtos.”"
-        },
-        en: {
-          hook: "“KYC/AML compliance took 45 days and blocked Next’s launch. I simplified it to 7 days without losing compliance.”",
-          flow: [
-            {"t":"0:00–0:30","label":"Opening","script":"Hook + stakes: why the problem was intolerable and what would happen if nothing changed."},
-            {"t":"0:30–1:30","label":"S (Situation)","script":"Objective context, volumes, SLAs, variability."},
-            {"t":"1:30–2:15","label":"T (Task)","script":"The mission I personally owned and the measurable target I set."},
-            {"t":"2:15–5:30","label":"A (Actions)","script":"3–5 architectural/process decisions I made; trade‑offs; how I aligned stakeholders."},
-            {"t":"5:30–7:30","label":"R (Results)","script":"Before/after metrics with baselines and benchmarks; impact on core KPIs."},
-            {"t":"7:30–9:00","label":"L (Learnings)","script":"What became a repeatable mechanism and how it scales to payments/fintech."},
-            {"t":"9:00–10:00","label":"Mic‑drop","script":"Close with a hard number/effect + invite the toughest question."}
-          ],
-          transitions: [
-            "“Given that context, I set an aggressive target…”",
-            "“To get there, I made three hard decisions…”",
-            "“The effect was measurable on the KPIs that matter…”",
-            "“And this became a mechanism, not one‑off heroics…”"
-          ],
-          mic_drop: "“84% reduction and R$8.5M/year efficiency — replicated across 8 products.”"
-        }
-      },
-fups: [
+      fups: [
         {
           q: "Como você identificou os principais pontos de ineficiência no processo de compliance e priorizou as mudanças?",
           a: "Fiz um mapeamento detalhado (Value Stream Map) de todo o processo de compliance, cronometrando cada etapa durante 2 semanas. Descobri que 65% do tempo estava em 'hand-offs' entre áreas e retrabalho por falta de clareza. Priorizei mudanças que eliminassem esses hand-offs: integração Jira (eliminou 12 hand-offs), APIs automáticas (eliminou 5 hand-offs manuais), e Decision Tree (eliminou 80% das consultas ad-hoc).",
@@ -283,48 +201,7 @@ fups: [
         r: "The system automated 82% of authorizations, exceeding the 80% target. Average response time: Automatic cases: 4.2 hours (vs. 4.8 days before), Complex cases: 2.1 days (vs. 4.8 days before - analysts now had more time). Accuracy rate: 94.1% (vs. 90% target). Authorization NPS rose from 31 to 67 (+36 points). Operational savings: R$ 1.2M/year (6 FTE reduction), plus R$ 800k/year in beneficiary satisfaction/retention. The model was so effective it was expanded to other modalities: Exam authorization (71% automation), Reimbursements (65% automation), Elective surgery pre-authorization (45% automation - more conservative due to complexity). I received the '2023 Digital Health Innovation Award' from ANS for creating Brazil's first AI system for medical authorizations.",
         l: "I learned that the best automation doesn't replace human judgment, but amplifies it. The 'Confidence Panel' was the most important innovation - I not only automated decisions, but made the process transparent and auditable. My role as leader was to invent not just the technical solution, but the operational and governance model that made it simple, reliable and scalable. This same principle of 'simplifying via intelligent automation' applies perfectly to payment operations. For example: KYC/AML review processes that today take hours and depend on human judgment could be simplified with ML to automatically approve 70-80% of low-risk cases, freeing analysts to focus on the 20% genuinely complex - exactly the pattern I implemented here."
       },
-      
-      pitch: {
-        pt: {
-          hook: "“Autorizações médicas levavam 4,8 dias. Eu criei um motor de decisão com IA que decidiu 80% dos casos em horas.”",
-          flow: [
-            {"t":"0:00–0:30","label":"Abertura","script":"Hook + stakes: por que este problema era intolerável e o que aconteceria se nada fosse feito."},
-            {"t":"0:30–1:30","label":"S (Situação)","script":"Contexto objetivo, volumes, SLAs e variabilidade."},
-            {"t":"1:30–2:15","label":"T (Tarefa)","script":"Qual missão eu assumi pessoalmente e a meta mensurável que defini."},
-            {"t":"2:15–5:30","label":"A (Ações)","script":"3–5 decisões de arquitetura/processo que eu tomei; trade‑offs; como alinhei stakeholders."},
-            {"t":"5:30–7:30","label":"R (Resultados)","script":"Métricas antes/depois com baseline e benchmarks; efeito nos principais KPIs."},
-            {"t":"7:30–9:00","label":"L (Learnings)","script":"O que ficou de mecanismo replicável e como isso escala para payments/fintech."},
-            {"t":"9:00–10:00","label":"Mic‑drop","script":"Fecho com um número/efeito incontestável + convite à pergunta crítica."}
-          ],
-          transitions: [
-            "“Dado esse contexto, eu assumi uma meta agressiva…”",
-            "“Para chegar lá, eu precisei tomar três decisões difíceis…”",
-            "“O efeito disso foi mensurável nos KPIs que importavam…”",
-            "“E isso virou mecanismo, não heroísmo pontual…”"
-          ],
-          mic_drop: "“82% de automação, NPS +36 p.p., e economia de R$2M/ano.”"
-        },
-        en: {
-          hook: "“Medical authorizations took 4.8 days. I built an AI decision engine that handled 80% of cases in hours.”",
-          flow: [
-            {"t":"0:00–0:30","label":"Opening","script":"Hook + stakes: why the problem was intolerable and what would happen if nothing changed."},
-            {"t":"0:30–1:30","label":"S (Situation)","script":"Objective context, volumes, SLAs, variability."},
-            {"t":"1:30–2:15","label":"T (Task)","script":"The mission I personally owned and the measurable target I set."},
-            {"t":"2:15–5:30","label":"A (Actions)","script":"3–5 architectural/process decisions I made; trade‑offs; how I aligned stakeholders."},
-            {"t":"5:30–7:30","label":"R (Results)","script":"Before/after metrics with baselines and benchmarks; impact on core KPIs."},
-            {"t":"7:30–9:00","label":"L (Learnings)","script":"What became a repeatable mechanism and how it scales to payments/fintech."},
-            {"t":"9:00–10:00","label":"Mic‑drop","script":"Close with a hard number/effect + invite the toughest question."}
-          ],
-          transitions: [
-            "“Given that context, I set an aggressive target…”",
-            "“To get there, I made three hard decisions…”",
-            "“The effect was measurable on the KPIs that matter…”",
-            "“And this became a mechanism, not one‑off heroics…”"
-          ],
-          mic_drop: "“82% automation, +36‑pt NPS, and R$2M/year savings.”"
-        }
-      },
-fups: [
+      fups: [
         {
           q: "Como você lidou com a resistência inicial da equipe ao adotar o Machine Learning para decisões críticas?",
           a: "A resistência foi natural - analistas temiam ser substituídos. Mudei a narrativa: posicionei o ML como 'seu assistente inteligente', não 'seu substituto'. Mostrei que eles deixariam de analisar casos óbvios (chatos) para focar em casos complexos (interessantes). Implementei em paralelo por 30 dias - analistas viam as decisões do ML e comparavam com as suas. Quando viram 94% de concordância, a resistência virou curiosidade.",
@@ -409,48 +286,7 @@ fups: [
         r: "Results demonstrated the program's technical and strategic impact: I evaluated 47 startups in depth, with 12 POCs executed (25% conversion rate). I launched two new products via open innovation: 1) **Telemedicine via MediConnect:** 8k consultations/month after six months, NPS of 78, annualized revenue of R$ 540k. 2) **Diabetes Management via GlucoseCare:** 2k patients served, 22% reduction in hospitalizations, R$ 800k/year savings for Unimed. I reduced time-to-market to 7 months average (68% faster than the 22-month internal model). CVC Return: MindWell startup (mental health) was acquired by international group, generating 1.8x return on my R$ 500k investment in 18 months. The program was recognized as 'Best Open Innovation Program in Health 2023' by ABStartups, and consolidated as internal and sector benchmark. The methodology was licensed to 3 other health operators.",
         l: "I learned that a leader's role in open innovation goes beyond connecting startups and corporations. You need to be the 'translator' between corporate and startup worlds, building bridges that align speed and governance. Program success came from combining structured technical processes (like scoring system and POC funnel) with Unimed's cultural adaptation to work with external partners. Additionally, I learned that open innovation doesn't replace internal innovation, but the two complement each other, creating a robust ecosystem where internal capabilities are amplified by external innovation. Today I see similar opportunities in payment operations: merchant onboarding, fraud detection, and customer experience processes could be significantly accelerated through strategic partnerships with specialized fintechs."
       },
-      
-      pitch: {
-        pt: {
-          hook: "“Ciclo de 18–24 meses para lançar produtos. Eu redesenhei via CVC/Inovação Aberta e entreguei em 7 meses.”",
-          flow: [
-            {"t":"0:00–0:30","label":"Abertura","script":"Hook + stakes: por que este problema era intolerável e o que aconteceria se nada fosse feito."},
-            {"t":"0:30–1:30","label":"S (Situação)","script":"Contexto objetivo, volumes, SLAs e variabilidade."},
-            {"t":"1:30–2:15","label":"T (Tarefa)","script":"Qual missão eu assumi pessoalmente e a meta mensurável que defini."},
-            {"t":"2:15–5:30","label":"A (Ações)","script":"3–5 decisões de arquitetura/processo que eu tomei; trade‑offs; como alinhei stakeholders."},
-            {"t":"5:30–7:30","label":"R (Resultados)","script":"Métricas antes/depois com baseline e benchmarks; efeito nos principais KPIs."},
-            {"t":"7:30–9:00","label":"L (Learnings)","script":"O que ficou de mecanismo replicável e como isso escala para payments/fintech."},
-            {"t":"9:00–10:00","label":"Mic‑drop","script":"Fecho com um número/efeito incontestável + convite à pergunta crítica."}
-          ],
-          transitions: [
-            "“Dado esse contexto, eu assumi uma meta agressiva…”",
-            "“Para chegar lá, eu precisei tomar três decisões difíceis…”",
-            "“O efeito disso foi mensurável nos KPIs que importavam…”",
-            "“E isso virou mecanismo, não heroísmo pontual…”"
-          ],
-          mic_drop: "“Time‑to‑market 68% mais rápido, 2 produtos no ar e 1,8x de retorno no CVC.”"
-        },
-        en: {
-          hook: "“18–24‑month product cycles. I rebuilt via CVC/Open Innovation and shipped in 7 months.”",
-          flow: [
-            {"t":"0:00–0:30","label":"Opening","script":"Hook + stakes: why the problem was intolerable and what would happen if nothing changed."},
-            {"t":"0:30–1:30","label":"S (Situation)","script":"Objective context, volumes, SLAs, variability."},
-            {"t":"1:30–2:15","label":"T (Task)","script":"The mission I personally owned and the measurable target I set."},
-            {"t":"2:15–5:30","label":"A (Actions)","script":"3–5 architectural/process decisions I made; trade‑offs; how I aligned stakeholders."},
-            {"t":"5:30–7:30","label":"R (Results)","script":"Before/after metrics with baselines and benchmarks; impact on core KPIs."},
-            {"t":"7:30–9:00","label":"L (Learnings)","script":"What became a repeatable mechanism and how it scales to payments/fintech."},
-            {"t":"9:00–10:00","label":"Mic‑drop","script":"Close with a hard number/effect + invite the toughest question."}
-          ],
-          transitions: [
-            "“Given that context, I set an aggressive target…”",
-            "“To get there, I made three hard decisions…”",
-            "“The effect was measurable on the KPIs that matter…”",
-            "“And this became a mechanism, not one‑off heroics…”"
-          ],
-          mic_drop: "“68% faster time‑to‑market, 2 products launched, 1.8x CVC return.”"
-        }
-      },
-fups: [
+      fups: [
         {
           q: "Como você garantiu que o scoring system fosse balanceado entre critérios qualitativos e quantitativos?",
           a: "Criei uma matriz híbrida: 60% quantitativo (métricas objetivas como tração, receita, tamanho da equipe) e 40% qualitativo (fit cultural, alinhamento de visão, capacidade de execução). Para os critérios qualitativos, padronizei com rubrics - cada dimensão tinha 4 níveis com descrições específicas. Por exemplo, 'Capacidade de Execução' ia de 1 (equipe inexperiente) a 4 (equipe com exits ou experiência no domínio). Isso eliminou subjetividade e tornou as avaliações comparáveis entre diferentes avaliadores.",
@@ -537,48 +373,7 @@ fups: [
         r: "~68% time reduction (19h→6h/week), predictable D+1, and near‑zero baseless mismatches. ~BRL 120k/year avoided, fewer exec escalations, and ~25% faster vs our internal close benchmark; audit risk downgraded from medium to low.",
         l: "In payments, exceptions and observability are scale multipliers. By codifying rules, trails and alerts, we sustained D+1 with predictability and replicated the mechanism to boletos, reducing heroics and raising operational resilience."
       },
-      
-      pitch: {
-        pt: {
-          hook: "Se eu resumisse este case em uma frase: eu peguei um processo crítico, medi o que importava, e simplifiquei até virar um mecanismo previsível — com impacto direto no prazo, no custo e na confiança dos stakeholders.",
-          flow: [
-            {"t":"0:00–0:30","label":"Abertura","script":"Hook + stakes: por que este problema era intolerável e o que aconteceria se nada fosse feito."},
-            {"t":"0:30–1:30","label":"S (Situação)","script":"Contexto objetivo, volumes, SLAs e variabilidade."},
-            {"t":"1:30–2:15","label":"T (Tarefa)","script":"Qual missão eu assumi pessoalmente e a meta mensurável que defini."},
-            {"t":"2:15–5:30","label":"A (Ações)","script":"3–5 decisões de arquitetura/processo que eu tomei; trade‑offs; como alinhei stakeholders."},
-            {"t":"5:30–7:30","label":"R (Resultados)","script":"Métricas antes/depois com baseline e benchmarks; efeito nos principais KPIs."},
-            {"t":"7:30–9:00","label":"L (Learnings)","script":"O que ficou de mecanismo replicável e como isso escala para payments/fintech."},
-            {"t":"9:00–10:00","label":"Mic‑drop","script":"Fecho com um número/efeito incontestável + convite à pergunta crítica."}
-          ],
-          transitions: [
-            "“Dado esse contexto, eu assumi uma meta agressiva…”",
-            "“Para chegar lá, eu precisei tomar três decisões difíceis…”",
-            "“O efeito disso foi mensurável nos KPIs que importavam…”",
-            "“E isso virou mecanismo, não heroísmo pontual…”"
-          ],
-          mic_drop: "“Não foi sorte: foi mecanismo. E mecanismo escala.”"
-        },
-        en: {
-          hook: "In one line: I took a critical process, measured what mattered, and simplified it into a predictable mechanism—with direct impact on time, cost, and stakeholder trust.",
-          flow: [
-            {"t":"0:00–0:30","label":"Opening","script":"Hook + stakes: why the problem was intolerable and what would happen if nothing changed."},
-            {"t":"0:30–1:30","label":"S (Situation)","script":"Objective context, volumes, SLAs, variability."},
-            {"t":"1:30–2:15","label":"T (Task)","script":"The mission I personally owned and the measurable target I set."},
-            {"t":"2:15–5:30","label":"A (Actions)","script":"3–5 architectural/process decisions I made; trade‑offs; how I aligned stakeholders."},
-            {"t":"5:30–7:30","label":"R (Results)","script":"Before/after metrics with baselines and benchmarks; impact on core KPIs."},
-            {"t":"7:30–9:00","label":"L (Learnings)","script":"What became a repeatable mechanism and how it scales to payments/fintech."},
-            {"t":"9:00–10:00","label":"Mic‑drop","script":"Close with a hard number/effect + invite the toughest question."}
-          ],
-          transitions: [
-            "“Given that context, I set an aggressive target…”",
-            "“To get there, I made three hard decisions…”",
-            "“The effect was measurable on the KPIs that matter…”",
-            "“And this became a mechanism, not one‑off heroics…”"
-          ],
-          mic_drop: "“It wasn’t luck. It was a mechanism—and mechanisms scale.”"
-        }
-      },
-fups: [
+      fups: [
         { q: "Como você definiu a meta de ≥60% de redução e por que ela era crítica para D+1?", a: "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.", q_en: "How did you set the ≥60% reduction target and why was it critical for D+1?", a_en: "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale." },
         { q: "Que resistências encontrou na automação e como conquistou o buy-in?", a: "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.", q_en: "What resistance did you face in automating and how did you secure buy-in?", a_en: "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale." },
         { q: "Por que escolheu essas regras de matching e quais alternativas descartou?", a: "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.", q_en: "Why did you choose these matching rules and which alternatives did you discard?", a_en: "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale." },
@@ -616,48 +411,7 @@ fups: [
         r: "~42% fewer touches; SLA D+5→D+2; internal NPS +23 pp; we moved to top quartile on refund time and cost per case.",
         l: "Simple, data-backed mechanisms scale without adding risk; the matrix became the standard for chargebacks."
       },
-      
-      pitch: {
-        pt: {
-          hook: "Se eu resumisse este case em uma frase: eu peguei um processo crítico, medi o que importava, e simplifiquei até virar um mecanismo previsível — com impacto direto no prazo, no custo e na confiança dos stakeholders.",
-          flow: [
-            {"t":"0:00–0:30","label":"Abertura","script":"Hook + stakes: por que este problema era intolerável e o que aconteceria se nada fosse feito."},
-            {"t":"0:30–1:30","label":"S (Situação)","script":"Contexto objetivo, volumes, SLAs e variabilidade."},
-            {"t":"1:30–2:15","label":"T (Tarefa)","script":"Qual missão eu assumi pessoalmente e a meta mensurável que defini."},
-            {"t":"2:15–5:30","label":"A (Ações)","script":"3–5 decisões de arquitetura/processo que eu tomei; trade‑offs; como alinhei stakeholders."},
-            {"t":"5:30–7:30","label":"R (Resultados)","script":"Métricas antes/depois com baseline e benchmarks; efeito nos principais KPIs."},
-            {"t":"7:30–9:00","label":"L (Learnings)","script":"O que ficou de mecanismo replicável e como isso escala para payments/fintech."},
-            {"t":"9:00–10:00","label":"Mic‑drop","script":"Fecho com um número/efeito incontestável + convite à pergunta crítica."}
-          ],
-          transitions: [
-            "“Dado esse contexto, eu assumi uma meta agressiva…”",
-            "“Para chegar lá, eu precisei tomar três decisões difíceis…”",
-            "“O efeito disso foi mensurável nos KPIs que importavam…”",
-            "“E isso virou mecanismo, não heroísmo pontual…”"
-          ],
-          mic_drop: "“Não foi sorte: foi mecanismo. E mecanismo escala.”"
-        },
-        en: {
-          hook: "In one line: I took a critical process, measured what mattered, and simplified it into a predictable mechanism—with direct impact on time, cost, and stakeholder trust.",
-          flow: [
-            {"t":"0:00–0:30","label":"Opening","script":"Hook + stakes: why the problem was intolerable and what would happen if nothing changed."},
-            {"t":"0:30–1:30","label":"S (Situation)","script":"Objective context, volumes, SLAs, variability."},
-            {"t":"1:30–2:15","label":"T (Task)","script":"The mission I personally owned and the measurable target I set."},
-            {"t":"2:15–5:30","label":"A (Actions)","script":"3–5 architectural/process decisions I made; trade‑offs; how I aligned stakeholders."},
-            {"t":"5:30–7:30","label":"R (Results)","script":"Before/after metrics with baselines and benchmarks; impact on core KPIs."},
-            {"t":"7:30–9:00","label":"L (Learnings)","script":"What became a repeatable mechanism and how it scales to payments/fintech."},
-            {"t":"9:00–10:00","label":"Mic‑drop","script":"Close with a hard number/effect + invite the toughest question."}
-          ],
-          transitions: [
-            "“Given that context, I set an aggressive target…”",
-            "“To get there, I made three hard decisions…”",
-            "“The effect was measurable on the KPIs that matter…”",
-            "“And this became a mechanism, not one‑off heroics…”"
-          ],
-          mic_drop: "“It wasn’t luck. It was a mechanism—and mechanisms scale.”"
-        }
-      },
-fups: [
+      fups: [
         { q: "Que impacto a simplificação trouxe ao cliente e ao financeiro?", a: "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.", q_en: "What impact did the simplification have on customers and Finance?", a_en: "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale." },
         { q: "Como definiu critérios da matriz (valor/tipo/risco) e validou com histórico?", a: "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.", q_en: "How did you define matrix criteria (amount/type/risk) and validate against history?", a_en: "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale." },
         { q: "Como tratou resistências ao remover aprovações e ancorou responsabilidade?", a: "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.", q_en: "How did you handle resistance to removing approvals and anchor accountability?", a_en: "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale." },
