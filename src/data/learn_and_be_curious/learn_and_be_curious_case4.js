@@ -1,0 +1,88 @@
+// Case 4 - learn_and_be_curious
+const case_4 = {
+  id: "stay-updated-payments-fintech",
+  title: "Criei um Sistema de Atualização Contínua em Payments/Fintech com PoCs Reutilizáveis",
+  title_pt: "Criei um Sistema de Atualização Contínua em Payments/Fintech com PoCs Reutilizáveis",
+  title_en: "Built a Continuous Learning System in Payments/Fintech with Reusable PoCs",
+  company: "Pessoal/Profissional",
+  period: "Contínuo",
+  isTopCase: false,
+  pt: {
+    s: `O ecossistema de pagamentos muda em ciclos curtos (BACEN, padrões, tecnologias). Sem método, decisões ficam defasadas, riscos regulatórios aumentam e a inovação vira tentativa‑e‑erro.`,
+    t: `Construir um pipeline de aprendizado de fonte primária e prática aplicada que reduzisse o ramp‑up pela metade e transformasse estudos em PoCs com reuso em projetos reais.`,
+    a: `Mapeei competências‑alvo, selecionei fontes (BACEN/FEBRABAN, papers, roadmaps) e estabeleci ROT semanal. Montei um laboratório de PoCs (APIs, antifraude, reconciliação) com critérios claros de entrada/saída e documentação padrão; publiquei sínteses opinativas e reusos; e rodei guildas quinzenais para difusão.`,
+    r: `~8 PoCs/ano; ramp‑up 6→3 semanas; decisões mais rápidas em due diligence técnica e menos risco em integrações de pagamento. Dois PoCs viraram aceleradores padrão de projeto.`,
+    l: `Curiosidade com método gera vantagem composta quando ligada a problemas reais e mecanismos de reuso.`
+  },
+  en: {
+    s: `Payments evolves on short cycles (Central Bank, standards, tech). Without a method, decisions go stale, regulatory risk rises, and innovation becomes trial‑and‑error.`,
+    t: `Build a primary‑source, applied‑practice pipeline that halves ramp‑up and turns study into reusable PoCs for real projects.`,
+    a: `I mapped target competencies, selected sources (Central Bank/industry, papers, roadmaps) and set a weekly ROT. I built a PoC lab (APIs, fraud, reconciliation) with crisp entry/exit criteria and standard docs; published opinionated syntheses and reuse recipes; and ran bi‑weekly guilds to spread knowledge.`,
+    r: `~8 PoCs/year; ramp‑up 6→3 weeks; faster tech due diligence and lower payment‑integration risk. Two PoCs became project accelerators.`,
+    l: `Curiosity plus method compounds when tied to real problems and reuse mechanisms.`
+  },
+  fups: [
+    {
+        "q": "Como escolheu fontes primárias?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you choose primary sources?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Qual PoC teve maior impacto?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which PoC had the biggest impact?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Como manteve constância do ROT?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you keep ROT consistent?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Como antecipou mudanças regulatórias?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you anticipate regulatory changes?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Que métricas provam eficácia?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What metrics prove effectiveness?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Como compartilhou conhecimento?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you share knowledge?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Como prioriza temas emergentes?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How do you prioritize emerging topics?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Que mecanismos evitam dispersão?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What mechanisms avoid dispersion?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Se refizesse, que melhoria faria?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "If redoing, what improvement would you add?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Como o sistema escala com o workload?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How does the system scale with workload?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    }
+]
+};
+
+export default case_4;

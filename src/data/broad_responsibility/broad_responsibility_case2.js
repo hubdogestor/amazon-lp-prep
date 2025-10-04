@@ -1,0 +1,88 @@
+// Case 2 - broad_responsibility
+const case_2 = {
+  id: "hsbc-fatca-aml-migration",
+  title: "Implementação de Controles FATCA e AML em Operação Bilionária",
+  title_pt: "Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária",
+  title_en: "FATCA and AML Controls Implementation in Billion-Dollar Operation",
+  company: "HSBC",
+  period: "01/2016--12/2016",
+  isTopCase: true,
+  pt: {
+    s: `No contexto de payment operations em wealth management, a venda da operação do HSBC para o Bradesco envolvia a migração de um portfólio bilionário com milhares de contas internacionais. Nosso sucesso e escala significavam que estávamos no centro de regulamentações globais complexas como FATCA e AML (Anti-Lavagem de Dinheiro). Uma única falha poderia resultar em multas multimilionárias e impactar a integridade do sistema financeiro global.`,
+    t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como líder do portfólio, minha responsabilidade era absoluta. Eu precisava garantir 100% de conformidade em uma operação que processava bilhões em transações. A tarefa era entender as implicações mais amplas de nossas ações: nosso trabalho era uma linha de defesa na integridade do sistema financeiro global, protegendo não apenas o banco, mas contribuindo para a estabilidade econômica internacional.`,
+    a: `Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Reconhecendo a complexidade, organizei uma força-tarefa que não apenas incluía especialistas de compliance e jurídico, mas também analistas de operações, que eram quem realmente entendia as nuances dos dados dos clientes. Essa inclusão da linha de frente foi crucial para identificar riscos práticos. O processo padrão era um script automatizado para identificar clientes com 'indícios de cidadania americana'. Eu considerei isso insuficiente para um portfólio de alta complexidade. Criei um processo de 'due diligence aprimorada', onde contas de alto risco (ex: com múltiplos passaportes, movimentações em paraísos fiscais) eram revisadas manualmente por uma dupla de analistas. Escolhi o padrão de 'quatro olhos' porque dados do setor mostravam que 90% dos erros de compliance em wealth management derivavam de falsos positivos/negativos em triagem automatizada, e o custo de revisão manual (R$50k) era menor que 0,1% de uma multa regulatória típica. Sabíamos que teríamos que contatar clientes para verificação documental. Em vez de uma carta legalista padrão, trabalhei pessoalmente com a equipe de comunicação para criar um roteiro empático que explicava o contexto da migração. O resultado foi que a taxa de resposta dos clientes aumentou em 40% em comparação com comunicações similares anteriores, acelerando significativamente o processo. Fui o responsável por identificar a necessidade e liderar a criação de um 'Playbook de Conformidade em Migrações' de 45 páginas. Esse playbook foi subsequentemente solicitado e utilizado pela equipe que conduziu a migração do HSBC na Argentina, economizando meses de trabalho de planejamento para eles.`,
+    r: `Concluímos a migração com 100% de conformidade FATCA e AML, validado por auditorias sem ressalvas - um resultado que se destaca considerando que migrações similares no setor financeiro frequentemente apresentam taxa de não-conformidade de 5-15% segundo benchmarks da indústria. Evitamos multas potenciais (que poderiam chegar a USD $50M+ baseado em precedentes regulatórios) e protegemos a reputação do banco em uma transação de altíssimo perfil. O playbook que criei foi adotado como uma melhor prática pelo PMO global do HSBC, beneficiando futuras migrações em 12 países e fortalecendo os controles globais da instituição.`,
+    l: `Aprendi que, quanto maior a escala, maior a responsabilidade com o ecossistema. A conformidade não é uma caixa a ser marcada; é uma manifestação da nossa responsabilidade com a sociedade. Essa experiência com controles AML/FATCA em operações financeiras bilionárias me preparou diretamente para payment operations na Amazon, onde a responsabilidade sobre compliance, fraud prevention e integridade transacional em escala global exige o mesmo nível de rigor, pensamento sistêmico e antecipação de riscos regulatórios. Essa mentalidade me guiou na SEFAZ, onde a responsabilidade com o dinheiro do contribuinte exige um nível similar de rigor e pensamento sobre o impacto de cada ação.`
+  },
+  en: {
+    s: `In the context of payment operations in wealth management, the sale of HSBC's operation to Bradesco involved migrating a billion-dollar portfolio with thousands of international accounts. Our success and scale meant I were at the center of complex global regulations like FATCA and AML (Anti-Money Laundering). A single failure could result in multimillion-dollar fines and impact global financial system integrity.`,
+    t: `My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. As portfolio leader, my responsibility was absolute. I needed to ensure 100% compliance in an operation processing billions in transactions. The task was to understand the broader implications of my actions: my work was a line of defense in global financial system integrity, protecting not just the bank, but contributing to international economic stability.`,
+    a: `Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Recognizing the complexity, I organized a task force that not only included compliance and legal experts, but also operations analysts, who truly understood customer data nuances. This frontline inclusion was crucial for identifying practical risks. The standard process was an automated script to identify customers with 'American citizenship indicators'. I considered this insufficient for a high-complexity portfolio. I created an 'enhanced due diligence' process, where high-risk accounts (e.g., with multiple passports, movements in tax havens) were manually reviewed by an analyst pair. I chose the 'four eyes' standard because industry data showed 90% of compliance errors in wealth management derived from false positives/negatives in automated screening, and manual review cost (R$50k) was less than 0.1% of a typical regulatory fine. I knew I'd have to contact customers for document verification. Instead of a standard legalistic letter, I personally worked with the communication team to create an empathetic script that explained the migration context. The result was that customer response rate increased 40% compared to similar previous communications, significantly accelerating the process. I was responsible for identifying the need and leading creation of a 45-page 'Migration Compliance Playbook'. This playbook was subsequently requested and used by the team that conducted HSBC migration in Argentina, saving them months of planning work.`,
+    r: `I completed migration with 100% FATCA and AML compliance, validated by audits without exceptions - a result that stands out considering similar migrations in the financial sector frequently show 5-15% non-compliance rates according to industry benchmarks. I avoided potential fines (which could reach USD $50M+ based on regulatory precedents) and protected the bank's reputation in a very high-profile transaction. The playbook I created was adopted as a best practice by HSBC's global PMO, benefiting future migrations in 12 countries and strengthening the institution's global controls.`,
+    l: `I learned that, the greater the scale, the greater the responsibility to the ecosystem. Compliance isn't a box to be checked; it's a manifestation of my responsibility to society. This experience with AML/FATCA controls in billion-dollar financial operations prepared me directly for payment operations at Amazon, where responsibility over compliance, fraud prevention and transactional integrity at global scale requires the same level of rigor, systemic thinking and regulatory risk anticipation. This mentality guided me at SEFAZ, where responsibility with taxpayer money requires a similar level of rigor and thinking about each action's impact.`
+  },
+  fups: [
+    {
+        "q": "Como você garantiu que a força-tarefa de especialistas trabalhasse de forma colaborativa e eficiente, considerando o nível de especialização envolvido?",
+        "a": "Eu estabeleci um objetivo comum claro e papéis bem definidos. Usei a metodologia RACI (Responsible, Accountable, Consulted, Informed) para mapear as responsabilidades. Além disso, facilitei as reuniões focando em decisões e ações, evitando debates puramente teóricos. Minha função era ser o 'tradutor' entre o jurídico, o compliance e a operação.",
+        "q_en": "How did you ensure the specialist task force worked collaboratively and efficiently, considering the level of expertise involved?",
+        "a_en": "I established a clear common objective and well-defined roles. I used RACI methodology (Responsible, Accountable, Consulted, Informed) to map responsibilities. Additionally, I facilitated meetings focusing on decisions and actions, avoiding purely theoretical debates. My role was to be the 'translator' between legal, compliance and operations."
+    },
+    {
+        "q": "Quais foram os maiores desafios ao implementar o processo de 'due diligence aprimorada' e como você os superou?",
+        "a": "O maior desafio foi o custo e o tempo adicionais do processo manual. Superei isso apresentando um business case baseado em risco. Mostrei que o custo da revisão manual de 1.000 contas era inferior a 1% do valor de uma única multa potencial do IRS por uma falha de reporte, tornando o ROI da precaução evidente.",
+        "q_en": "What were the biggest challenges implementing the 'enhanced due diligence' process and how did you overcome them?",
+        "a_en": "The biggest challenge was the additional cost and time of the manual process. I overcame this by presenting a risk-based business case. I showed that the cost of manually reviewing 1,000 accounts was less than 1% of the value of a single potential IRS fine for a reporting failure, making the ROI of precaution evident."
+    },
+    {
+        "q": "Como você mediu o impacto da abordagem centrada no cliente na experiência durante a migração? Houve feedback direto dos clientes?",
+        "a": "Medimos principalmente pela 'taxa de resposta positiva' e pelo 'tempo para obter a documentação'. A abordagem empática reduziu o atrito e acelerou o processo. Sim, recebemos feedbacks diretos através dos gerentes de relacionamento, com clientes elogiando a clareza da comunicação em um momento de incerteza.",
+        "q_en": "How did you measure the customer-centric approach's impact on migration experience? Was there direct customer feedback?",
+        "a_en": "I measured mainly through 'positive response rate' and 'time to obtain documentation'. The empathetic approach reduced friction and accelerated the process. Yes, I received direct feedback through relationship managers, with customers praising communication clarity during an uncertain time."
+    },
+    {
+        "q": "Quais foram os principais critérios e decisões documentados no playbook de conformidade, e como eles diferem de processos anteriores?",
+        "a": "A principal diferença foi o foco na 'gestão proativa de risco'. O playbook incluía checklists detalhados para identificar contas complexas, roteiros de comunicação com clientes e um fluxograma de escalonamento para casos atípicos. Processos anteriores eram reativos; o meu era preventivo.",
+        "q_en": "What were the main criteria and decisions documented in the compliance playbook, and how do they differ from previous processes?",
+        "a_en": "The main difference was focus on 'proactive risk management'. The playbook included detailed checklists for identifying complex accounts, customer communication scripts and an escalation flowchart for atypical cases. Previous processes were reactive; mine was preventive."
+    },
+    {
+        "q": "Após concluir a migração, houve algum processo de revisão ou auditoria que validou os resultados e identificou oportunidades de melhoria?",
+        "a": "Sim, a migração passou por uma auditoria interna rigorosa e, posteriormente, pela auditoria externa anual. Os resultados 'sem ressalvas' validaram meu sucesso. Uma oportunidade de melhoria identificada foi a necessidade de automatizar parte da 'due diligence aprimorada', o que levou a um novo projeto para desenvolver ferramentas de IA para triagem de risco.",
+        "q_en": "After completing migration, was there any review or audit process that validated results and identified improvement opportunities?",
+        "a_en": "Yes, the migration underwent rigorous internal audit and, subsequently, annual external audit. The 'without exceptions' results validated my success. An identified improvement opportunity was the need to automate part of 'enhanced due diligence', which led to a new project to develop AI tools for risk screening."
+    },
+    {
+        "q": "Qual foi o 'efeito secundário' mais complexo que você teve que gerenciar neste projeto?",
+        "a": "Foi o impacto nos clientes 'falsos positivos' -- clientes que o sistema sinalizava como americanos, mas não eram. O processo de 'due diligence aprimorada' que criei tinha uma etapa para resolver esses casos internamente sempre que possível, minimizando o impacto em clientes inocentes.",
+        "q_en": "What was the most complex 'secondary effect' you had to manage in this project?",
+        "a_en": "It was the impact on 'false positive' customers -- customers the system flagged as American, but weren't. The 'enhanced due diligence' process I created had a step to resolve these cases internally whenever possible, minimizing impact on innocent customers."
+    },
+    {
+        "q": "O que significa ser 'humilde e ponderado' na prática em uma situação de alta pressão?",
+        "a": "Significa admitir o que você não sabe e buscar ativamente a ajuda dos especialistas. Significa ouvir todas as perspectivas antes de tomar uma decisão. E significa considerar cuidadosamente o impacto das suas decisões em todos os stakeholders, incluindo aqueles que você nunca conhecerá pessoalmente.",
+        "q_en": "What does being 'humble and thoughtful' mean in practice in a high-pressure situation?",
+        "a_en": "It means admitting what you don't know and actively seeking help from specialists. It means listening to all perspectives before making a decision. And it means carefully considering the impact of your decisions on all stakeholders, including those you'll never meet personally."
+    },
+    {
+        "q": "Como você garante que sua equipe esteja sempre pensando nessas responsabilidades mais amplas?",
+        "a": "Eu começo conectando o trabalho diário a um propósito maior. A equipe não estava 'verificando formulários'; ela estava 'protegendo a integridade do sistema financeiro'. Regularmente, eu lembrava a eles de que meu trabalho impactava não apenas o banco, mas a confiança de milhares de clientes e a estabilidade do sistema.",
+        "q_en": "How do you ensure your team is always thinking about these broader responsibilities?",
+        "a_en": "I start by connecting daily work to a bigger purpose. The team wasn't 'checking forms'; they were 'protecting financial system integrity'. Regularly, I reminded them that my work impacted not just the bank, but thousands of customers' trust and system stability."
+    },
+    {
+        "q": "Qual foi a sua reação quando um membro da sua equipe cometeu um erro no processo de compliance?",
+        "a": "Minha primeira reação foi de apoio: 'Ok, vamos entender o que aconteceu e como podemos consertar. O que o processo permitiu que esse erro acontecesse?'. Depois que resolvemos, a conversa se tornou sobre aprendizado. A responsabilidade é sobre corrigir o sistema, não sobre culpar o indivíduo.",
+        "q_en": "What was your reaction when a team member made a compliance process error?",
+        "a_en": "My first reaction was supportive: 'OK, let's understand what happened and how I can fix it. What did the process allow for this error to happen?' After I resolved it, the conversation became about learning. Responsibility is about fixing the system, not blaming the individual."
+    },
+    {
+        "q": "Como essa experiência se conecta à sua responsabilidade com as 'futuras gerações'?",
+        "a": "A conexão é a integridade do sistema. Ao garantir a conformidade com leis anti-lavagem de dinheiro, estamos fazendo uma pequena parte para tornar o sistema financeiro global mais seguro e transparente. Deixar um sistema mais íntegro do que o encontramos é uma responsabilidade com as futuras gerações que dependerão desse sistema.",
+        "q_en": "How does this experience connect to your responsibility to 'future generations'?",
+        "a_en": "The connection is system integrity. By ensuring compliance with anti-money laundering laws, I're doing a small part to make the global financial system safer and more transparent. Leaving a more integral system than I found is a responsibility to future generations who will depend on this system."
+    }
+]
+};
+
+export default case_2;

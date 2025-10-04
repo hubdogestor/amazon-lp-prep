@@ -1,0 +1,88 @@
+// Case 1 - hire_and_develop_the_best
+const case_1 = {
+  id: "huawei-project-managers-mentoring",
+  title: "Mentoria de 30+ Gerentes de Projeto e Comunidade de Prática",
+  title_pt: "Mentoria de 30+ Gerentes de Projeto e Criação de uma Comunidade de Prática",
+  title_en: "Mentoring 30+ Project Managers and Creating a Community of Practice",
+  company: "Huawei",
+  period: "01/2009--12/2015",
+  isTopCase: true,
+  pt: {
+    s: `Na Huawei, durante a expansão na América Latina, a demanda por gerentes de projeto (GPs) qualificados era muito maior que a oferta. Estávamos em um ambiente de alta pressão para entregar programas como o rollout do 4G, mas a inconsistência na performance dos GPs era um dos nossos maiores riscos. A qualidade dos talentos disponíveis no mercado não atendia aos padrões que precisávamos para executar projetos críticos. Atrasos nos projetos por falta de liderança qualificada poderiam resultar em milhões em perdas e impactar nossa reputação no mercado latino-americano.`,
+    t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade como líder do PMO era garantir que tivéssemos os melhores talentos para executar o portfólio de projetos. Assumi a tarefa de criar um mecanismo interno para desenvolver nossa própria safra de GPs de alto nível, elevando a barra de performance e criando um pipeline sustentável de liderança técnica.`,
+    a: `Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Optei pela mentoria porque, em um ambiente de alta pressão, o aprendizado precisava ser prático e contextualizado. Treinamentos formais seriam lentos e genéricos. A mentoria permitia acelerar a curva de aprendizado aplicando a teoria diretamente nos desafios reais dos projetos, como negociar com um fornecedor difícil ou apresentar um status vermelho para um diretor. Eu identificava os profissionais mais promissores e lhes confiava frentes críticas. Por exemplo, designei um coordenador júnior para liderar a logística de equipamentos para o estádio do Maracanã na Copa do Mundo. Ele nunca tinha feito isso. Atuei como seu mentor, dando-lhe autonomia, mas com checkpoints semanais. Criei um fórum mensal para os 30+ GPs. Em uma sessão, discutimos um erro recorrente de planejamento de capacidade que causou um atraso de 15% em três projetos. A melhor prática que emergiu dessa discussão, um checklist de validação, foi implementada em mais de 80 projetos subsequentes, economizando em média 5 dias de trabalho por projeto. Desenvolvi playbooks e templates padronizados. Um template de 'Análise de Risco', por exemplo, foi recebido com gratidão pelos GPs mais jovens, que antes se sentiam inseguros nessa etapa.`,
+    r: `Mentorei diretamente mais de 30 gerentes de projeto e engenheiros. Pelo menos cinco dos meus mentees diretos foram promovidos a posições de liderança sênior na América Latina e em outras regiões. A Comunidade de Prática reduziu a incidência de erros recorrentes em projetos em cerca de 15%. A elevação do nível da equipe de GPs foi um fator chave para o sucesso da redução do SLA de 382 para 62 dias.`,
+    l: `Aprendi que desenvolver pessoas é a atividade com o maior poder de alavancagem de um líder. Essa crença influenciou diretamente a criação da Comunidade Ágil no Bradesco e do programa de desenvolvimento na Unimed, onde repliquei o modelo de criar mecanismos de aprendizado em escala para garantir que o crescimento da empresa fosse sustentado pelo crescimento das pessoas.`
+  },
+  en: {
+    s: `At Huawei, during Latin America expansion, demand for qualified project managers (PMs) far exceeded supply. I were in a high-pressure environment to deliver programs like 4G rollout, but inconsistency in PM performance was one of my biggest risks. The quality of available talent in the market didn't meet the standards I needed for critical project execution. Project delays due to lack of qualified leadership could result in millions in losses and impact my reputation in the Latin American market.`,
+    t: `My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility as PMO leader was to ensure I had the best talents to execute the project portfolio. I took on the task of creating an internal mechanism to develop my own crop of high-level PMs, raising the performance bar and creating a sustainable technical leadership pipeline.`,
+    a: `Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I chose mentoring because, in a high-pressure environment, learning needed to be practical and contextualized. Formal training would be slow and generic. Mentoring allowed accelerating the learning curve by applying theory directly to real project challenges, like negotiating with a difficult supplier or presenting red status to a director. I identified the most promising professionals and entrusted them with critical fronts. For example, I assigned a junior coordinator to lead equipment logistics for Maracanã stadium in the World Cup. He had never done this. I acted as his mentor, giving him autonomy but with weekly checkpoints. I created a monthly forum for 30+ PMs. In one session, I discussed a recurring capacity planning error that caused 15% delays in three projects. The best practice that emerged from this discussion, a validation checklist, was implemented in over 80 subsequent projects, saving an average of 5 days of work per project. I developed standardized playbooks and templates. A 'Risk Analysis' template, for example, was gratefully received by younger PMs, who previously felt insecure in this stage.`,
+    r: `I directly mentored over 30 project managers and engineers. At least five of my direct mentees were promoted to senior leadership positions in Latin America and other regions. The Community of Practice reduced recurring project error incidence by about 15%. Elevating the PM team level was a key factor in successfully reducing SLA from 382 to 62 days.`,
+    l: `I learned that developing people is a leader's activity with the greatest leverage power. This belief directly influenced creating the Agile Community at Bradesco and the development program at Unimed, where I replicated the model of creating learning mechanisms at scale to ensure company growth was sustained by people's growth.`
+  },
+  fups: [
+    {
+        "q": "Como você identificou quais analistas e coordenadores tinham maior potencial para participar do programa de mentoria?",
+        "a": "Eu procurava por três sinais principais: 1) Curiosidade: eles faziam perguntas que iam além da sua tarefa imediata. 2) Ownership: eles naturalmente assumiam responsabilidade por problemas, mesmo fora de seu escopo. 3) Resiliência: eles viam falhas como oportunidades de aprendizado, não como becos sem saída.",
+        "q_en": "How did you identify which analysts and coordinators had the greatest potential to participate in the mentoring program?",
+        "a_en": "I looked for three main signals: 1) Curiosity: they asked questions that went beyond their immediate task. 2) Ownership: they naturally took responsibility for problems, even outside their scope. 3) Resilience: they saw failures as learning opportunities, not dead ends."
+    },
+    {
+        "q": "Durante as sessões 1-a-1, quais foram os maiores desafios enfrentados pelos mentees e como você os ajudou a superá-los?",
+        "a": "O maior desafio era a gestão de stakeholders seniores e a negociação de conflitos. Eu os ajudava através de 'role playing' (simulação). Praticávamos as conversas difíceis antes que elas acontecessem. Eu os equipava com frameworks e dados para que entrassem nessas reuniões com confiança e preparação.",
+        "q_en": "During 1-on-1 sessions, what were the biggest challenges faced by mentees and how did you help them overcome them?",
+        "a_en": "The biggest challenge was managing senior stakeholders and negotiating conflicts. I helped them through 'role playing' (simulation). I practiced difficult conversations before they happened. I equipped them with frameworks and data so they entered these meetings with confidence and preparation."
+    },
+    {
+        "q": "Quais foram as principais lições aprendidas ou melhores práticas compartilhadas na Comunidade de Prática que tiveram impacto direto nos projetos?",
+        "a": "Uma das principais foi a criação de um 'checklist de passagem de bastão' entre as fases do projeto. Discutimos como muitas informações se perdiam na transição entre as equipes de engenharia, logística e implementação. O checklist, co-criado na comunidade, se tornou padrão e reduziu drasticamente os erros causados por falhas de comunicação.",
+        "q_en": "What were the main lessons learned or best practices shared in the Community of Practice that had direct impact on projects?",
+        "a_en": "One of the main ones was creating a 'handoff checklist' between project phases. I discussed how much information was lost in transitions between engineering, logistics and implementation teams. The checklist, co-created in the community, became standard and drastically reduced errors caused by communication failures."
+    },
+    {
+        "q": "Como você mediu a eficácia das ferramentas (playbooks e templates) criadas para a equipe de GPs?",
+        "a": "A eficácia foi medida por duas métricas: 1) A 'taxa de adoção', que monitorávamos para garantir que as ferramentas estavam sendo usadas. 2) A 'redução no tempo de ciclo' de fases específicas. Por exemplo, após a introdução do template de Análise de Risco, o tempo gasto na fase de planejamento de riscos diminuiu em 20%, pois o caminho estava mais claro.",
+        "q_en": "How did you measure the effectiveness of tools (playbooks and templates) created for the PM team?",
+        "a_en": "Effectiveness was measured by two metrics: 1) 'Adoption rate', which I monitored to ensure tools were being used. 2) 'Cycle time reduction' for specific phases. For example, after introducing the Risk Analysis template, time spent in risk planning phase decreased by 20%, as the path was clearer."
+    },
+    {
+        "q": "Após a implementação do programa de mentoria e da Comunidade de Prática, houve alguma resistência inicial da equipe? Se sim, como você lidou com isso?",
+        "a": "Sim, a resistência dos GPs mais seniores, que viam as reuniões da comunidade como 'perda de tempo'. Lidei com isso dando a eles um papel de destaque. Eu os convidei para serem os primeiros a apresentar um case de sucesso. Ao transformá-los de 'alunos' em 'mestres', validei sua experiência e os converti nos maiores defensores da iniciativa.",
+        "q_en": "After implementing the mentoring program and Community of Practice, was there any initial team resistance? If so, how did you handle it?",
+        "a_en": "Yes, resistance from more senior PMs, who saw community meetings as 'time waste'. I handled this by giving them a prominent role. I invited them to be the first to present a success case. By transforming them from 'students' to 'masters', I validated their experience and converted them into the biggest advocates of the initiative."
+    },
+    {
+        "q": "Descreva um momento em que um mentee seu falhou e como você lidou com a situação.",
+        "a": "Um mentee falhou em uma negociação com um fornecedor. Minha primeira ação foi assumir a responsabilidade pública pela falha, pois fui eu quem o colocou na posição. Depois, na minha sessão 1-a-1, usei a estrutura 'O que aconteceu? O que você aprendeu? O que você fará diferente?'. Transformamos a falha em um aprendizado sobre preparação e escalonamento.",
+        "q_en": "Describe a moment when one of your mentees failed and how you handled the situation.",
+        "a_en": "A mentee failed in a supplier negotiation. My first action was to take public responsibility for the failure, as I was the one who put him in that position. Then, in my 1-on-1 session, I used the structure 'What happened? What did you learn? What will you do differently?'. I transformed the failure into learning about preparation and escalation."
+    },
+    {
+        "q": "Como você equilibrava suas próprias responsabilidades com o tempo dedicado a desenvolver os outros?",
+        "a": "Eu não via como atividades separadas. Eu dedicava cerca de 20% do meu tempo para desenvolver a equipe, pois sabia que cada hora investida em mentoria me economizaria cinco horas de resolução de problemas no futuro. Era um investimento estratégico de tempo que multiplicava minha capacidade de entrega.",
+        "q_en": "How did you balance your own responsibilities with time dedicated to developing others?",
+        "a_en": "I didn't see them as separate activities. I dedicated about 20% of my time to developing the team, as I knew each hour invested in mentoring would save me five hours of problem-solving in the future. It was a strategic time investment that multiplied my delivery capacity."
+    },
+    {
+        "q": "Qual a diferença, na sua opinião, entre gerenciar pessoas e desenvolver pessoas?",
+        "a": "Gerenciar é garantir que as tarefas sejam executadas de forma eficiente hoje. Desenvolver é garantir que a pessoa tenha as habilidades para resolver os problemas de amanhã. Gerenciar é focado na entrega; desenvolver é focado no crescimento. Um bom líder faz ambos, mas o desenvolvimento é o que cria valor duradouro.",
+        "q_en": "What's the difference, in your opinion, between managing people and developing people?",
+        "a_en": "Managing is ensuring tasks are executed efficiently today. Developing is ensuring the person has skills to solve tomorrow's problems. Managing is focused on delivery; developing is focused on growth. A good leader does both, but development is what creates lasting value."
+    },
+    {
+        "q": "Como você identifica talentos excepcionais em uma entrevista?",
+        "a": "Eu procuro por evidências de aprendizado e curiosidade. Faço perguntas como 'Me conte sobre a última vez que você estava profundamente errado sobre algo' ou 'Qual a habilidade mais difícil que você aprendeu por conta própria?'. A forma como o candidato estrutura seu processo de aprendizado a partir de falhas me diz muito sobre seu potencial.",
+        "q_en": "How do you identify exceptional talents in an interview?",
+        "a_en": "I look for evidence of learning and curiosity. I ask questions like 'Tell me about the last time you were deeply wrong about something' or 'What's the most difficult skill you learned on your own?'. How the candidate structures their learning process from failures tells me a lot about their potential."
+    },
+    {
+        "q": "Como você aplicaria o que aprendeu sobre desenvolver talentos em um papel sem subordinados diretos?",
+        "a": "Desenvolver talentos não depende de hierarquia. Em uma equipe multifuncional, eu faria isso através de mentoria informal, compartilhando conhecimento, dando feedback construtivo e criando oportunidades para que outros possam brilhar e liderar partes da iniciativa. É sobre elevar o nível de todos ao seu redor.",
+        "q_en": "How would you apply what you learned about developing talents in a role without direct reports?",
+        "a_en": "Developing talents doesn't depend on hierarchy. In a cross-functional team, I would do this through informal mentoring, sharing knowledge, giving constructive feedback and creating opportunities for others to shine and lead parts of the initiative. It's about elevating everyone around you."
+    }
+]
+};
+
+export default case_1;

@@ -1,0 +1,88 @@
+// Case 3 - broad_responsibility
+const case_3 = {
+  id: "sicredi-responsible-ai-policy",
+  title: "Política de IA Responsável para Análise de Crédito",
+  title_pt: "Desenvolvimento de uma Política de IA Responsável para Análise de Crédito, Garantindo Equidade e Transparência",
+  title_en: "Responsible AI Policy Development for Credit Analysis, Ensuring Equity and Transparency",
+  company: "Sicredi",
+  period: "01/2020--12/2020",
+  isTopCase: false,
+  pt: {
+    s: `No Sicredi, ao introduzirmos o primeiro modelo de ML para pré-aprovação de crédito, o sucesso trouxe uma nova e complexa responsabilidade. A escala do nosso negócio significava que as decisões do nosso algoritmo impactariam a vida financeira de milhares de pessoas. O risco de o modelo perpetuar vieses, levando a decisões injustas, era uma responsabilidade que precisávamos endereçar com urgência.`,
+    t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade ia além da acurácia do modelo. Eu precisava garantir que nosso uso de IA fosse ético e justo para toda a comunidade. Minha tarefa foi liderar a criação da primeira 'Política de IA Responsável' do Sicredi, deixando as coisas melhores, não apenas em tecnologia, mas em governança e responsabilidade social.`,
+    a: `Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Iniciei o projeto apresentando à liderança os riscos reputacionais e regulatórios emergentes de IA enviesada, usando exemplos de outras empresas. Argumentei que, para uma cooperativa baseada em princípios de equidade, a responsabilidade de garantir uma IA justa não era opcional, era central para nossa marca. Estudei especificamente os frameworks de IA Responsável do Google e Microsoft porque eram os mais maduros do mercado, com casos de uso documentados em instituições financeiras, e incluíam ferramentas práticas de detecção de viés que podíamos adaptar. Organizei um workshop com especialistas em ética de IA da UFRGS. O insight chave foi o conceito de 'justiça contrafactual', que nos ajudou a moldar nossos testes de viés de uma forma muito mais robusta que simples comparações demográficas. A política que redigi instituía mecanismos concretos. Um deles foi o 'teste de viés' obrigatório aplicado a qualquer modelo que impactasse decisões de clientes. Nos testes iniciais, identificamos que nosso modelo estava penalizando injustamente trabalhadores autônomos (taxa de aprovação 23% menor vs. trabalhadores formais com mesmo perfil de risco). A correção foi feita através de 'feature engineering', criando novas variáveis que representavam melhor a saúde financeira de um autônomo (ex: regularidade de depósitos, diversidade de fontes de renda). Antes, a negação de crédito era uma 'caixa-preta'. A política exigiu um processo de 'explicabilidade'. Eu liderei a criação de um sistema que traduzia a decisão do modelo em uma explicação simples, como 'A negação foi baseada em um alto nível de endividamento atual', que passou a ser comunicada ao cliente, aumentando transparência e confiança.`,
+    r: `A 'Política de IA Responsável' foi implementada e se tornou o padrão para todos os projetos de dados no Sicredi. A correção do viés aumentou a taxa de aprovação para trabalhadores autônomos qualificados em 15%, equiparando-a à de trabalhadores formais com perfil similar (de 23% abaixo para 2% abaixo da média), tornando nosso crédito mais justo e inclusivo. A abordagem responsável nos deu grande credibilidade com os reguladores do Banco Central e fortaleceu nossa marca como uma instituição que se preocupa genuinamente com o impacto social de suas decisões. O framework foi posteriormente solicitado por 3 outras cooperativas de crédito como benchmark de melhores práticas.`,
+    l: `Aprendi que, com a escala, a responsabilidade de um líder é sobre as consequências não intencionais de suas ações. Essa experiência me ensinou a incorporar uma 'revisão de impacto ético' no início de todos os projetos de tecnologia que lidero, garantindo que consideremos os efeitos secundários desde o primeiro dia.`
+  },
+  en: {
+    s: `At Sicredi, when introducing the first ML model for credit pre-approval, success brought a new and complex responsibility. Our business scale meant my algorithm's decisions would impact thousands of people's financial lives. The risk of the model perpetuating biases, leading to unfair decisions, was a responsibility I urgently needed to address.`,
+    t: `My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility went beyond model accuracy. I needed to ensure my AI use was ethical and fair to the entire community. My task was to lead creation of Sicredi's first 'Responsible AI Policy', leaving things better, not just in technology, but in governance and social responsibility.`,
+    a: `Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I started the project by presenting leadership with emerging reputational and regulatory risks of biased AI, using examples from other companies. I argued that, for a cooperative based on equity principles, the responsibility to ensure fair AI wasn't optional, it was central to my brand. I specifically studied Google and Microsoft's Responsible AI frameworks because they were the most mature in the market, with documented use cases in financial institutions, and included practical bias detection tools I could adapt. I organized a workshop with AI ethics experts from UFRGS. The key insight was the concept of 'counterfactual fairness', which helped us shape my bias tests much more robustly than simple demographic comparisons. The policy I drafted instituted concrete mechanisms. One was mandatory 'bias testing' applied to any model impacting customer decisions. In initial tests, I identified my model was unfairly penalizing freelance workers (23% lower approval rate vs. formal workers with same risk profile). Correction was made through 'feature engineering', creating new variables that better represented a freelancer's financial health (e.g., deposit regularity, income source diversity). Before, credit denial was a 'black box'. The policy required an 'explainability' process. I led creation of a system that translated the model's decision into simple explanation, like 'Denial was based on high current debt level', which was communicated to customers, increasing transparency and trust.`,
+    r: `The 'Responsible AI Policy' was implemented and became the standard for all data projects at Sicredi. Bias correction increased approval rate for qualified freelance workers by 15%, equalizing it with formal workers with similar profile (from 23% below to 2% below average), making my credit fairer and more inclusive. The responsible approach gave us great credibility with Central Bank regulators and strengthened my brand as an institution that genuinely cares about the social impact of its decisions. The framework was subsequently requested by 3 other credit cooperatives as a best practices benchmark.`,
+    l: `I learned that, with scale, a leader's responsibility is about unintended consequences of their actions. This experience taught me to incorporate an 'ethical impact review' at the beginning of all technology projects I lead, ensuring I consider secondary effects from day one.`
+  },
+  fups: [
+    {
+        "q": "Quais foram os principais desafios ao implementar a Política de IA Responsável e como você os superou?",
+        "a": "O maior desafio foi a percepção de que isso 'atrasaria a inovação'. Superei isso mostrando que a IA Responsável não era um 'freio', mas um 'guard-rail'. Argumentei que construir um modelo justo e transparente desde o início era muito mais rápido e barato do que gerenciar uma crise de reputação ou ter que reconstruir um modelo enviesado do zero no futuro.",
+        "q_en": "What were the main challenges implementing the Responsible AI Policy and how did you overcome them?",
+        "a_en": "The biggest challenge was the perception that this would 'slow innovation'. I overcame this by showing that Responsible AI wasn't a 'brake', but a 'guard-rail'. I argued that building a fair and transparent model from the start was much faster and cheaper than managing a reputation crisis or having to rebuild a biased model from scratch in the future."
+    },
+    {
+        "q": "Como você monitorou os resultados após corrigir o viés no modelo? Houve melhorias específicas para os trabalhadores autônomos ou outros grupos?",
+        "a": "Eu criamos um 'dashboard de equidade' que monitorava continuamente a taxa de aprovação do modelo entre diferentes segmentos demográficos. Após a correção, vimos a taxa de aprovação para autônomos qualificados aumentar em 15%, alinhando-se com a dos trabalhadores formais com perfil de risco similar, provando que havíamos corrigido a distorção.",
+        "q_en": "How did you monitor results after correcting model bias? Were there specific improvements for freelance workers or other groups?",
+        "a_en": "I created an 'equity dashboard' that continuously monitored the model's approval rate among different demographic segments. After correction, I saw approval rate for qualified freelancers increase by 15%, aligning with formal workers with similar risk profile, proving I had corrected the distortion."
+    },
+    {
+        "q": "Como o Comitê de Ética em IA operava na prática? Quais eram os critérios para revisar e aprovar novos modelos?",
+        "a": "O comitê se reunia mensalmente. Os critérios de aprovação eram baseados em um checklist que criei, cobrindo: 1) Validação do caso de uso e seu impacto social. 2) Resultados dos testes de viés. 3) Nível de interpretabilidade do modelo. 4) Plano de monitoramento contínuo. Nenhum modelo entrava em produção sem a aprovação formal do comitê.",
+        "q_en": "How did the AI Ethics Committee operate in practice? What were the criteria for reviewing and approving new models?",
+        "a_en": "The committee met monthly. Approval criteria were based on a checklist I created, covering: 1) Use case validation and its social impact. 2) Bias test results. 3) Model interpretability level. 4) Continuous monitoring plan. No model went into production without formal committee approval."
+    },
+    {
+        "q": "Houve resistência interna ou externa à ideia de tornar as decisões da IA explicáveis? Como você lidou com isso?",
+        "a": "A resistência interna veio da equipe de dados, preocupada com a complexidade técnica. Lidei com isso posicionando a 'explicabilidade' como um desafio de engenharia interessante e investindo em ferramentas (como SHAP) que facilitavam o processo. Externamente, a resposta foi extremamente positiva, especialmente dos clientes que valorizaram a transparência.",
+        "q_en": "Was there internal or external resistance to making AI decisions explainable? How did you handle it?",
+        "a_en": "Internal resistance came from the data team, worried about technical complexity. I handled this by positioning 'explainability' as an interesting engineering challenge and investing in tools (like SHAP) that facilitated the process. Externally, response was extremely positive, especially from customers who valued transparency."
+    },
+    {
+        "q": "Após o sucesso dessa iniciativa, como você garantiu que a política fosse continuamente aprimorada e mantida em novos projetos?",
+        "a": "A política foi integrada ao meu processo de desenvolvimento de produtos. A revisão pelo Comitê de Ética se tornou um 'quality gate' obrigatório. Além disso, criamos um treinamento anual obrigatório sobre IA Responsável para todos os funcionários das áreas de dados e produto, garantindo que o conhecimento fosse constantemente renovado.",
+        "q_en": "After this initiative's success, how did you ensure the policy was continuously improved and maintained in new projects?",
+        "a_en": "The policy was integrated into my product development process. Ethics Committee review became a mandatory 'quality gate'. Additionally, I created mandatory annual training on Responsible AI for all data and product area employees, ensuring knowledge was constantly renewed."
+    },
+    {
+        "q": "Como você se mantém atualizado sobre um campo que evolui tão rápido como a ética em IA?",
+        "a": "Eu sigo ativamente o trabalho de pesquisadores e instituições líderes na área, como o 'AI Now Institute' e o 'Partnership on AI'. Leio os artigos, acompanho os debates e participo de webinars. É uma responsabilidade contínua de aprendizado. Também mantenho uma rede de contatos com outros profissionais que enfrentam desafios similares.",
+        "q_en": "How do you stay updated on a field that evolves as fast as AI ethics?",
+        "a_en": "I actively follow the work of leading researchers and institutions in the area, like the 'AI Now Institute' and 'Partnership on AI'. I read articles, follow debates and participate in webinars. It's a continuous learning responsibility. I also maintain a network of contacts with other professionals facing similar challenges."
+    },
+    {
+        "q": "O que significa ser 'humilde e ponderado' ao lidar com IA?",
+        "a": "Significa reconhecer que os dados não são a verdade absoluta; eles são um reflexo do mundo, com todos os seus vieses. Significa ter a humildade de saber que meu modelo pode estar errado ou ser injusto, e a ponderação de criar sistemas robustos para auditar, monitorar e corrigir esses erros continuamente.",
+        "q_en": "What does being 'humble and thoughtful' mean when dealing with AI?",
+        "a_en": "It means recognizing that data isn't absolute truth; it's a reflection of the world, with all its biases. It means having the humility to know my model can be wrong or unfair, and the thoughtfulness to create robust systems to audit, monitor and continuously correct these errors."
+    },
+    {
+        "q": "Como essa iniciativa de responsabilidade deixou as coisas 'melhores do que você as encontrou'?",
+        "a": "Antes, o processo de crédito era uma caixa-preta. Deixamos um processo mais justo e transparente. Criamos uma consciência sobre a responsabilidade ética do uso de dados que não existia e que passou a influenciar todos os outros projetos de tecnologia. Estabelecemos um precedente de que inovação e responsabilidade social andam juntas.",
+        "q_en": "How did this responsibility initiative leave things 'better than you found them'?",
+        "a_en": "Before, the credit process was a black box. I left a fairer and more transparent process. I created awareness about ethical responsibility in data use that didn't exist and began influencing all other technology projects. I established a precedent that innovation and social responsibility go together."
+    },
+    {
+        "q": "Qual é a sua maior preocupação sobre o futuro da IA e qual é a sua responsabilidade como líder para mitigá-la?",
+        "a": "Minha maior preocupação é a automação da tomada de decisões em escala sem a devida governança ética, levando a consequências não intencionais de discriminação. Minha responsabilidade como líder é ser um defensor incansável da IA Responsável, garantindo que, para cada avanço técnico, tenhamos um avanço correspondente em meu mecanismos de controle e transparência.",
+        "q_en": "What's your biggest concern about AI's future and what's your responsibility as a leader to mitigate it?",
+        "a_en": "My biggest concern is automation of decision-making at scale without proper ethical governance, leading to unintended discrimination consequences. My responsibility as a leader is to be a tireless advocate for Responsible AI, ensuring that for each technical advance, I have a corresponding advance in my control and transparency mechanisms."
+    },
+    {
+        "q": "Quem fazia parte do 'Comitê de Ética em IA' e por que você escolheu essa composição?",
+        "a": "Era um grupo multidisciplinar. Incluía cientistas de dados, líderes de negócio, representantes da área jurídica, compliance, auditoria e, crucialmente, um membro do comitê de relacionamento com o cooperado, que trazia a voz do cliente para a discussão. Essa diversidade garantia que considerássemos o impacto de múltiplas perspectivas.",
+        "q_en": "Who was part of the 'AI Ethics Committee' and why did you choose this composition?",
+        "a_en": "It was a multidisciplinary group. It included data scientists, business leaders, legal area representatives, compliance, audit and, crucially, a member of the member relationship committee, who brought the customer voice to the discussion. This diversity ensured I considered impact from multiple perspectives."
+    }
+]
+};
+
+export default case_3;

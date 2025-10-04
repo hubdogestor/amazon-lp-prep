@@ -1,0 +1,88 @@
+// Case 2 - best_employer
+const case_2 = {
+  id: "sicredi-360-feedback-system",
+  title: "Sistema de Feedback 360° e Desenvolvimento Individual",
+  title_pt: "Implementação de um Sistema de Feedback 360 e Planos de Desenvolvimento Individuais para o Time de PMs",
+  title_en: "360 Feedback System and Individual Development Plans Implementation for PM Team",
+  company: "Sicredi",
+  period: "01/2019--12/2019",
+  isTopCase: true,
+  pt: {
+    s: `No Sicredi, à medida que a maturidade da gestão de produtos digitais crescia, identifiquei uma lacuna crítica: não tínhamos um processo estruturado para o desenvolvimento de carreira dos Gerentes de Produto (PMs). Os feedbacks eram informais e não havia um caminho claro sobre quais competências desenvolver. Isso impactava tanto a satisfação da equipe quanto a qualidade dos produtos entregues aos nossos cooperados, criando um ambiente onde talento se sentia subutilizado.`,
+    t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como Estrategista de Produtos, eu via que o sucesso da nossa estratégia dependia da excelência dos nossos PMs. Mais importante, reconheci que meu papel ia além de entregar resultados - era criar um ambiente onde pessoas pudessem prosperar profissionalmente. Assumi a responsabilidade de criar o primeiro programa de desenvolvimento de carreira para a equipe de produto, alinhado ao princípio de ser um empregador excepcional, garantindo que nossos cooperados recebessem produtos cada vez melhores através de equipes mais capacitadas.`,
+    a: `Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. A base do programa foi uma Matriz de Competências co-criada. Eu facilitei workshops onde os próprios PMs, através de um 'card sorting' de habilidades, definiram o que significava ser um bom PM no Sicredi. Essa co-criação garantiu que a matriz fosse relevante e gerasse um alinhamento imediato. Desenhei pessoalmente um processo de feedback 360° anônimo, adaptando frameworks de empresas de tecnologia. Um insight chave que emergiu foi que um PM, tecnicamente brilhante, recebeu feedback de que sua comunicação era 'muito técnica e infrequente', o que o levou a focar nessa habilidade em seu PDI. Após o feedback, eu sentava individualmente com cada PM para co-criar seu PDI personalizado. Os PDIs eram altamente customizados: para o PM com desafio de comunicação, o plano incluiu um curso de storytelling e a mentoria com o líder de marketing. Para outra PM que queria crescer em estratégia, o plano incluiu liderar a análise de mercado para um novo produto. Meu papel era ativamente remover os bloqueios para que eles pudessem executar seus planos. Isso significava proteger o tempo deles para cursos, negociar com outros gestores para garantir que tivessem a oportunidade de liderar projetos que desenvolvessem suas competências alvo, e providenciar mentores internos e externos.`,
+    r: `O programa foi extremamente bem recebido e aumentou a pontuação de engajamento da equipe de produto em 20% na pesquisa de clima seguinte (vs. 5% de melhoria média das outras áreas), pois deu às pessoas o que elas mais pediam: clareza e um caminho tangível para o crescimento. A taxa de retenção na equipe de produto foi de 90% durante um período de alta demanda no mercado para PMs (vs. 75% média do setor). Dois PMs foram promovidos a posições de liderança no ano seguinte, seguindo exatamente a trilha de desenvolvimento que criamos. Esse framework de desenvolvimento individual se tornou essencial quando, na Unimed, precisei estruturar a equipe de payment operations -- onde competências específicas (compliance, análise de risco, automação) precisavam ser desenvolvidas de forma personalizada para cada analista de transações.`,
+    l: `Aprendi que um ambiente de trabalho de excelência não surge por acaso; ele é projetado intencionalmente. Ao criar mecanismos claros para feedback e crescimento, um líder demonstra que se importa genuinamente com o sucesso pessoal de cada um, não apenas com resultados de curto prazo. Esse aprendizado foi tão impactante que, na SEFAZ, mesmo como consultor, implementei uma versão simplificada de PDIs e mentoria para a equipe do PMO, ajudando a desenvolver os servidores públicos com quem trabalho.`
+  },
+  en: {
+    s: `At Sicredi, as digital product management maturity grew, I identified a critical gap: I didn't have a structured process for Product Managers' (PMs) career development. Feedback was informal and there was no clear path on which competencies to develop. This impacted both team satisfaction and the quality of products delivered to my members, creating an environment where talent felt underutilized.`,
+    t: `My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. As Product Strategist, I saw that my strategy's success depended on my PMs' excellence. More importantly, I recognized that my role went beyond delivering results - it was to create an environment where people could thrive professionally. I took responsibility for creating the first career development program for the product team, aligned with the principle of being an exceptional employer, ensuring my members received increasingly better products through more capable teams.`,
+    a: `Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. The program's foundation was a co-created Competency Matrix. I facilitated workshops where the PMs themselves, through 'card sorting' of skills, defined what it meant to be a good PM at Sicredi. This co-creation ensured the matrix was relevant and generated immediate alignment. I personally designed an anonymous 360° feedback process, adapting frameworks from technology companies. A key insight that emerged was that a technically brilliant PM received feedback that his communication was 'too technical and infrequent', which led him to focus on this skill in his IDP. After feedback, I sat individually with each PM to co-create their personalized IDP. IDPs were highly customized: for the PM with communication challenges, the plan included a storytelling course and mentorship with the marketing leader. For another PM who wanted to grow in strategy, the plan included leading market analysis for a new product. My role was to actively remove blockers so they could execute their plans. This meant protecting their time for courses, negotiating with other managers to ensure they had opportunities to lead projects that developed their target competencies, and providing internal and external mentors.`,
+    r: `The program was extremely well received and increased the product team's engagement score by 20% in the following climate survey (vs. 5% average improvement in other areas), as it gave people what they asked for most: clarity and a tangible path to growth. The product team retention rate was 90% during a period of high market demand for PMs (vs. 75% industry average). Two PMs were promoted to leadership positions the following year, following exactly the development track I created. This individual development framework became essential when, at Unimed, I needed to structure the payment operations team -- where specific competencies (compliance, risk analysis, automation) needed to be developed in a personalized way for each transaction analyst.`,
+    l: `I learned that an excellent work environment doesn't happen by chance; it's intentionally designed. By creating clear mechanisms for feedback and growth, a leader demonstrates genuine care for each person's individual success, not just short-term results. This learning was so impactful that at SEFAZ, even as a consultant, I implemented a simplified version of IDPs and mentoring for the PMO team, helping develop the public servants I work with.`
+  },
+  fups: [
+    {
+        "q": "Como você garantiu que a Matriz de Competências do PM fosse relevante e aplicável para as diferentes funções dentro da equipe de produto?",
+        "a": "A matriz foi desenhada com duas trilhas de carreira paralelas desde o início: uma de 'Gestão', para aqueles que queriam liderar pessoas, e uma de 'Especialista', para aqueles que queriam se aprofundar tecnicamente em áreas como estratégia ou dados. Isso garantiu que houvesse um caminho de crescimento relevante para as diferentes aspirações e perfis.",
+        "q_en": "How did you ensure the PM Competency Matrix was relevant and applicable for different functions within the product team?",
+        "a_en": "The matrix was designed with two parallel career tracks from the beginning: one for 'Management', for those who wanted to lead people, and one for 'Specialist', for those who wanted to deepen technically in areas like strategy or data. This ensured there was a relevant growth path for different aspirations and profiles."
+    },
+    {
+        "q": "Quais foram os maiores desafios ao implementar o processo de feedback 360° e como você os superou?",
+        "a": "O maior desafio foi o medo de que o feedback fosse usado para avaliação de performance e punição. Superei isso garantindo a confidencialidade absoluta (apenas a pessoa e eu víamos o relatório) e sendo o primeiro a participar do processo e a compartilhar de forma transparente e vulnerável um dos meus próprios pontos de desenvolvimento com a equipe.",
+        "q_en": "What were the biggest challenges implementing the 360° feedback process and how did you overcome them?",
+        "a_en": "The biggest challenge was fear that feedback would be used for performance evaluation and punishment. I overcame this by ensuring absolute confidentiality (only the person and I saw the report) and being the first to participate in the process and transparently and vulnerably share one of my own development points with the team."
+    },
+    {
+        "q": "Como você monitorou o progresso dos PMs em seus PDIs e garantiu que eles estivessem atingindo suas metas de desenvolvimento?",
+        "a": "O PDI era um documento vivo e o ponto central de minha conversas de 1-a-1 a cada duas semanas. Em vez de perguntar 'O que você entregou?', eu começava perguntando 'Como está seu progresso na sua meta de desenvolvimento? Que bloqueios você está enfrentando e como posso ajudar?'. Isso tornava o desenvolvimento uma prioridade contínua.",
+        "q_en": "How did you monitor PMs' progress on their IDPs and ensure they were meeting their development goals?",
+        "a_en": "The IDP was a living document and the central point of my 1-on-1 conversations every two weeks. Instead of asking 'What did you deliver?', I started by asking 'How is your progress on your development goal? What blockers are you facing and how can I help?' This made development a continuous priority."
+    },
+    {
+        "q": "Houve alguma resistência inicial da equipe ao adotar o programa? Como você lidou com isso?",
+        "a": "Sim, houve um ceticismo inicial, a percepção de que seria 'mais um processo de RH'. Lidei com isso focando nos 'early adopters' -- os PMs que já demonstravam um forte desejo de crescer. O sucesso e o desenvolvimento visível deles no primeiro ciclo geraram uma prova social poderosa que convenceu os mais céticos a aderirem nos ciclos seguintes.",
+        "q_en": "Was there any initial team resistance to adopting the program? How did you handle it?",
+        "a_en": "Yes, there was initial skepticism, the perception that it would be 'another HR process'. I handled this by focusing on 'early adopters' -- PMs who already showed a strong desire to grow. Their success and visible development in the first cycle generated powerful social proof that convinced the most skeptical to join in subsequent cycles."
+    },
+    {
+        "q": "Após o sucesso desse programa, como você garantiu que ele fosse sustentado e expandido para novos membros da equipe?",
+        "a": "Eu transformei o programa em parte do meu processo de onboarding. Todo novo PM que entrava na equipe passava pelo processo de definição da Matriz de Competências e criação do seu primeiro PDI no primeiro mês. Isso garantiu que a cultura de desenvolvimento fosse apresentada desde o primeiro dia e que o programa se mantivesse vivo e escalável.",
+        "q_en": "After this program's success, how did you ensure it was sustained and expanded for new team members?",
+        "a_en": "I made the program part of my onboarding process. Every new PM joining the team went through the Competency Matrix definition process and created their first IDP in the first month. This ensured the development culture was presented from day one and the program remained alive and scalable."
+    },
+    {
+        "q": "Como você treinou as pessoas para dar um feedback construtivo no 360°?",
+        "a": "Eu treinei todos no modelo 'Situação-Comportamento-Impacto'. O feedback não podia ser 'Você é desorganizado'. Tinha que ser: 'Na reunião de planejamento (situação), quando você apresentou o roadmap sem uma priorização clara (comportamento), o impacto foi que a equipe de engenharia ficou confusa (impacto)'. Isso tornou o feedback específico e acionável.",
+        "q_en": "How did you train people to give constructive feedback in the 360°?",
+        "a_en": "I trained everyone in the 'Situation-Behavior-Impact' model. Feedback couldn't be 'You're disorganized'. It had to be: 'In the planning meeting (situation), when you presented the roadmap without clear prioritization (behavior), the impact was that the engineering team got confused (impact)'. This made feedback specific and actionable."
+    },
+    {
+        "q": "Como você, como líder, reagiu ao seu próprio feedback 360°?",
+        "a": "Eu compartilhei de forma transparente com a equipe um dos meus principais pontos de desenvolvimento, que foi 'delegar mais'. E no meu próprio PDI, que também compartilhei, minhas ações eram 'para cada novo projeto, definir o 'o quê' e deixar a equipe definir o 'como''. Ser vulnerável sobre meu próprio desenvolvimento construiu confiança.",
+        "q_en": "How did you, as a leader, react to your own 360° feedback?",
+        "a_en": "I transparently shared with the team one of my main development points, which was 'delegate more'. And in my own IDP, which I also shared, my actions were 'for each new project, define the 'what' and let the team define the 'how''. Being vulnerable about my own development built trust."
+    },
+    {
+        "q": "Qual o seu papel quando um funcionário tem uma meta de PDI, mas as demandas do dia a dia o impedem de executá-la?",
+        "a": "Meu papel é proteger o tempo de desenvolvimento dele. Em minha 1-a-1s, revisamos suas prioridades e eu o ajudo a dizer 'não' ou a repriorizar tarefas para garantir que ele tenha o espaço para trabalhar em seu crescimento. O PDI não é algo 'para fazer se sobrar tempo'; é parte do trabalho.",
+        "q_en": "What's your role when an employee has an IDP goal, but daily demands prevent them from executing it?",
+        "a_en": "My role is to protect their development time. In my 1-on-1s, I review their priorities and I help them say 'no' or reprioritize tasks to ensure they have space to work on their growth. The IDP isn't something 'to do if there's time left'; it's part of the job."
+    },
+    {
+        "q": "Como essa iniciativa ajudou a criar um ambiente de trabalho mais justo?",
+        "a": "Ao criar critérios de competência e promoção claros e objetivos, eu reduzimos o viés inconsciente no processo de avaliação. A promoção passou a ser baseada em um conjunto de habilidades e resultados demonstrados, tornando o processo mais justo e equitativo. Todos sabiam exatamente o que precisavam desenvolver para crescer.",
+        "q_en": "How did this initiative help create a fairer work environment?",
+        "a_en": "By creating clear and objective competency and promotion criteria, I reduced unconscious bias in the evaluation process. Promotion became based on a set of demonstrated skills and results, making the process fairer and more equitable. Everyone knew exactly what they needed to develop to grow."
+    },
+    {
+        "q": "Como você mede o ROI de um programa de desenvolvimento como esse?",
+        "a": "O ROI é medido através de métricas de negócio indiretas, mas correlacionadas: redução do turnover (economia de custos de contratação), aumento do engajamento (que tem ligação com a produtividade) e a velocidade com que conseguimos preencher vagas de liderança internamente. Além disso, a qualidade dos produtos entregues aos cooperados melhorou, refletindo no NPS dos meu produtos digitais.",
+        "q_en": "How do you measure the ROI of a development program like this?",
+        "a_en": "ROI is measured through indirect but correlated business metrics: turnover reduction (hiring cost savings), increased engagement (linked to productivity) and speed at which I can fill leadership positions internally. Additionally, the quality of products delivered to members improved, reflected in my digital products' NPS."
+    }
+]
+};
+
+export default case_2;

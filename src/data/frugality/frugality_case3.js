@@ -1,0 +1,88 @@
+// Case 3 - frugality
+const case_3 = {
+  id: "unimed-automation-n8n",
+  title: "Automação de Reconciliação Financeira (Payment Ops) com Ferramentas Open-Source",
+  title_pt: "Automação de Relatórios de Reconciliação Financeira Usando Ferramentas Open-Source (n8n)",
+  title_en: "Financial Reconciliation Report Automation Using Open-Source Tools (n8n)",
+  company: "Unimed",
+  period: "01/2023--12/2023",
+  isTopCase: false,
+  pt: {
+    s: `A equipe de payment reconciliation da Unimed gastava 200 horas de trabalho manual por mês na criação de relatórios de reconciliação entre sistemas de pagamento, cobrança e administradoras de cartão, um processo tedioso e propenso a erros. A equipe havia solicitado um orçamento de R$ 300.000 para uma ferramenta de automação empresarial especializada em reconciliação financeira, mas o processo de aprovação seria longo e incerto. O cliente interno (equipe de finanças) estava frustrado com a carga de trabalho repetitiva que os impedia de focar em análises estratégicas.`,
+    t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como líder de Inovação, vi a oportunidade de resolver o problema de uma forma muito mais frugal e ágil. Minha tarefa era entregar o mesmo resultado (relatórios automatizados de reconciliação financeira), mas com uma fração do custo e do tempo, demonstrando que constraints financeiros podem gerar soluções mais criativas e sustentáveis.`,
+    a: `Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Pesquisei alternativas e escolhi o n8n por três critérios: 1) Custo (open-source), 2) Controle (auto-hospedável, garantindo a segurança dos dados financeiros sensíveis) e 3) Facilidade de uso (interface visual que um analista de negócio poderia aprender sem conhecimento de programação). Em vez de contratar um desenvolvedor externo, identifiquei um analista financeiro curioso e negociei com seu gestor para alocar 20% do seu tempo por um mês, transformando-o em nosso 'campeão' interno de automação. Eu pessoalmente o mentorei através de pair-programming sessions. Escolhemos o relatório de reconciliação cartão-cobrança mais demorado como nosso piloto. Em uma semana, o primeiro fluxo estava automatizado, conectando APIs de 3 sistemas diferentes e gerando o relatório consolidado, gerando um feedback extremamente positivo da equipe, que viu o resultado imediato em sua carga de trabalho. O 'campeão' que treinei, agora empoderado, liderou a automação de outros cinco relatórios críticos de reconciliação e começou a treinar outros dois colegas, criando um núcleo de automação que escalou o impacto para toda a diretoria financeira.`,
+    r: `Em três meses, automatizamos mais de 80% do trabalho manual de relatórios de reconciliação, liberando as 200 horas mensais dos analistas para atividades de maior valor como análise de discrepâncias e melhoria de processos. A solução teve um custo total inferior a R$ 5.000, comparado ao orçamento inicial de R$ 300.000 - uma economia de 98%. Criamos uma capacidade interna de automação, com o analista treinado se tornando uma referência na empresa e replicando o conhecimento para outras áreas. Essa abordagem de automação frugal em financial reconciliation é diretamente aplicável a payment operations na Amazon, onde reconciliar milhões de transactions diárias exige soluções escaláveis e de baixo custo, sem comprometer accuracy.`,
+    l: `Aprendi que a frugalidade não é apenas sobre economizar, é sobre encontrar a solução mais inteligente e empoderadora. Essa abordagem de capacitar 'campeões internos' com ferramentas low-code se tornou meu método preferido para escalar a inovação de forma frugal, algo que aplico hoje ao ensinar pequenos empresários a automatizarem seus próprios processos.`
+  },
+  en: {
+    s: `Unimed's payment reconciliation team spent 200 hours of manual work per month creating reconciliation reports between payment systems, billing and card administrators, a tedious and error-prone process. The team had requested a R$ 300,000 budget for enterprise automation tools specialized in financial reconciliation, but the approval process would be long and uncertain. The internal customer (finance team) was frustrated with repetitive workload that prevented them from focusing on strategic analysis.`,
+    t: `My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. As Innovation leader, I saw the opportunity to solve the problem in a much more frugal and agile way. My task was to deliver the same result (automated financial reconciliation reports), but with a fraction of the cost and time, demonstrating that financial constraints can generate more creative and sustainable solutions.`,
+    a: `Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I researched alternatives and chose n8n for three criteria: 1) Cost (open-source), 2) Control (self-hostable, ensuring sensitive financial data security) and 3) Ease of use (visual interface that a business analyst could learn without programming knowledge). Instead of hiring an external developer, I identified a curious financial analyst and negotiated with his manager to allocate 20% of his time for a month, transforming him into my internal automation 'champion'. I personally mentored him through pair-programming sessions. I chose the most time-consuming card-billing reconciliation report as my pilot. In one week, the first flow was automated, connecting APIs from 3 different systems and generating the consolidated report, generating extremely positive feedback from the team, who saw immediate results in their workload. The 'champion' I trained, now empowered, led automation of five other critical reconciliation reports and began training two other colleagues, creating an automation nucleus that scaled impact to the entire financial directorate.`,
+    r: `In three months, I automated over 80% of manual reconciliation report work, freeing the analysts' 200 monthly hours for higher-value activities like discrepancy analysis and process improvement. The solution had a total cost under R$ 5,000, compared to the initial R$ 300,000 budget - a 98% savings. I created internal automation capability, with the trained analyst becoming a company reference and replicating knowledge to other areas. This frugal automation approach in financial reconciliation is directly applicable to payment operations at Amazon, where reconciling millions of daily transactions requires scalable and low-cost solutions, without compromising accuracy.`,
+    l: `I learned that frugality isn't just about saving money, it's about finding the most intelligent and empowering solution. This approach of empowering internal 'champions' with low-code tools became my preferred method for scaling innovation frugally, something I apply today when teaching small business owners to automate their own processes.`
+  },
+  fups: [
+    {
+        "q": "Como você avaliou e comparou o n8n com outras ferramentas disponíveis antes de tomar a decisão de implementá-lo?",
+        "a": "Eu criei uma pequena matriz de decisão com os critérios que defini: Custo, Controle/Segurança e Curva de Aprendizagem. Comparei o n8n com o Zapier (pago e na nuvem) e com uma solução de RPA tradicional (cara e complexa). O n8n foi o claro vencedor por atender aos três critérios de forma equilibrada para o meu contexto específico.",
+        "q_en": "How did you evaluate and compare n8n with other available tools before deciding to implement it?",
+        "a_en": "I created a small decision matrix with the criteria I defined: Cost, Control/Security and Learning Curve. I compared n8n with Zapier (paid and cloud-based) and with a traditional RPA solution (expensive and complex). n8n was the clear winner for meeting all three criteria in a balanced way for my specific context."
+    },
+    {
+        "q": "Quais foram os maiores desafios ao treinar o 'campeão interno' e como você garantiu que ele tivesse sucesso em liderar a automação?",
+        "a": "O maior desafio foi a barreira conceitual inicial com APIs e a estrutura de dados JSON. Garanti seu sucesso usando a técnica de 'pair programming': construímos o primeiro fluxo juntos. Depois, dei a ele um projeto pequeno, mas de ponta a ponta, para que ele ganhasse confiança. O sucesso veio ao combinar ensino, prática supervisionada e, finalmente, autonomia total.",
+        "q_en": "What were the biggest challenges in training the 'internal champion' and how did you ensure he succeeded in leading automation?",
+        "a_en": "The biggest challenge was the initial conceptual barrier with APIs and JSON data structure. I ensured his success using 'pair programming' technique: I built the first flow together. Then, I gave him a small but end-to-end project so he could gain confidence. Success came from combining teaching, supervised practice and, finally, total autonomy."
+    },
+    {
+        "q": "Como você monitorou e mediu o impacto da automação nos processos financeiros, além da liberação de horas de trabalho?",
+        "a": "Além das horas, medimos o 'Índice de Erros de Reconciliação'. Antes, tínhamos uma média de 5-7 erros manuais por mês que exigiam investigação. Após a automação, esse índice caiu para zero, o que representou uma economia de custos indiretos e uma melhoria na qualidade e confiabilidade dos meu dados financeiros.",
+        "q_en": "How did you monitor and measure automation impact on financial processes, beyond freeing work hours?",
+        "a_en": "Besides hours, I measured the 'Reconciliation Error Index'. Before, I had an average of 5-7 manual errors per month requiring investigation. After automation, this index dropped to zero, representing indirect cost savings and improvement in quality and reliability of my financial data."
+    },
+    {
+        "q": "Houve alguma resistência inicial da equipe ou da liderança em adotar a solução open-source? Como você lidou com isso?",
+        "a": "Sim, a equipe de TI inicialmente tinha preocupações com a segurança e a sustentabilidade de uma ferramenta open-source. Eu lidei com isso envolvendo-os desde o início. Apresentei a documentação de segurança, propus uma arquitetura isolada e, o mais importante, posicionei o piloto como um experimento. O sucesso do piloto e a ausência de problemas de segurança os convenceram da viabilidade da solução.",
+        "q_en": "Was there any initial resistance from team or leadership in adopting the open-source solution? How did you handle it?",
+        "a_en": "Yes, the IT team initially had concerns about security and sustainability of an open-source tool. I handled this by involving them from the beginning. I presented security documentation, proposed an isolated architecture and, most importantly, positioned the pilot as an experiment. The pilot's success and absence of security issues convinced them of the solution's viability."
+    },
+    {
+        "q": "Após o sucesso dessa iniciativa, como você garantiu que a capacidade interna de automação fosse mantida e ampliada para outras áreas?",
+        "a": "Formalizamos o 'núcleo de automação' que surgiu organicamente. O 'campeão' original passou a dedicar 50% do seu tempo a mentorar outros e a realizar workshops para outras áreas. Criamos um canal no Teams onde as pessoas podiam compartilhar seus fluxos de automação, criando uma biblioteca de conhecimento e incentivando a replicação da prática em toda a empresa.",
+        "q_en": "After this initiative's success, how did you ensure internal automation capability was maintained and expanded to other areas?",
+        "a_en": "I formalized the 'automation nucleus' that emerged organically. The original 'champion' began dedicating 50% of his time to mentoring others and conducting workshops for other areas. I created a Teams channel where people could share their automation flows, creating a knowledge library and encouraging practice replication throughout the company."
+    },
+    {
+        "q": "E se o piloto tivesse falhado? Qual era o risco?",
+        "a": "O risco era mínimo. O custo total do piloto foi o meu tempo e 20% do tempo de um analista por um mês. O 'pior cenário' seria aprendermos que a ferramenta não era adequada, um aprendizado que teria custado muito pouco e ainda nos pouparia de um investimento muito maior. Essa abordagem de 'fail fast, fail cheap' é essencial na frugalidade.",
+        "q_en": "What if the pilot had failed? What was the risk?",
+        "a_en": "The risk was minimal. The pilot's total cost was my time and 20% of an analyst's time for a month. The 'worst case' would be learning that the tool wasn't suitable, a learning that would have cost very little and still saved us from a much larger investment. This 'fail fast, fail cheap' approach is essential in frugality."
+    },
+    {
+        "q": "Por que a equipe de finanças não encontrou essa solução sozinha?",
+        "a": "Porque eles estavam focados no problema deles e buscaram a solução que o mercado 'vende' (softwares empresariais). Meu papel, vindo de fora, foi conectar a dor deles com uma solução de outro domínio (automação low-code), que eles não conheciam. Frugalidade muitas vezes vem da polinização cruzada de ideias entre diferentes áreas e domínios.",
+        "q_en": "Why didn't the finance team find this solution on their own?",
+        "a_en": "Because they were focused on their problem and sought the solution the market 'sells' (enterprise software). My role, coming from outside, was to connect their pain with a solution from another domain (low-code automation), which they didn't know. Frugality often comes from cross-pollination of ideas between different areas and domains."
+    },
+    {
+        "q": "A solução com n8n era tão robusta quanto a ferramenta empresarial? Quais foram os trade-offs?",
+        "a": "Ela não tinha todas as funcionalidades, como dashboards de governança complexos. Esse foi o trade-off. No entanto, ela era 100% eficaz na tarefa principal (automatizar os relatórios) e nos dava uma flexibilidade de customização que a ferramenta empresarial não oferecia. Aceitamos o trade-off de menos 'sinos e assobios' por mais economia e flexibilidade.",
+        "q_en": "Was the n8n solution as robust as the enterprise tool? What were the trade-offs?",
+        "a_en": "It didn't have all functionalities, like complex governance dashboards. That was the trade-off. However, it was 100% effective at the main task (automating reports) and gave us customization flexibility that the enterprise tool didn't offer. I accepted the trade-off of fewer 'bells and whistles' for more savings and flexibility."
+    },
+    {
+        "q": "Qual foi a parte mais difícil de aprender no n8n para alguém sem fundo técnico?",
+        "a": "A parte mais difícil foi entender o conceito de APIs e a estrutura de dados JSON. Eu passei algumas horas com o analista desenhando em um quadro branco como as APIs funcionam, usando analogias simples. Uma vez que ele superou essa barreira conceitual, a construção dos fluxos se tornou muito intuitiva graças à interface visual da ferramenta.",
+        "q_en": "What was the hardest part to learn in n8n for someone without technical background?",
+        "a_en": "The hardest part was understanding the concept of APIs and JSON data structure. I spent a few hours with the analyst drawing on a whiteboard how APIs work, using simple analogies. Once he overcame this conceptual barrier, building flows became very intuitive thanks to the tool's visual interface."
+    },
+    {
+        "q": "Que conselho você daria para outra equipe que quer ser mais frugal?",
+        "a": "Comece mapeando o tempo. Peça para cada pessoa estimar quantas horas são gastas em tarefas manuais e repetitivas. Essa lista de 'desperdiçadores de tempo' é o seu mapa do tesouro para encontrar as primeiras e mais impactantes oportunidades de automação frugal. Foque primeiro no que consome mais tempo e é mais simples de automatizar.",
+        "q_en": "What advice would you give to another team that wants to be more frugal?",
+        "a_en": "Start by mapping time. Ask each person to estimate how many hours are spent on manual and repetitive tasks. This list of 'time wasters' is your treasure map to find the first and most impactful frugal automation opportunities. Focus first on what consumes most time and is simplest to automate."
+    }
+]
+};
+
+export default case_3;

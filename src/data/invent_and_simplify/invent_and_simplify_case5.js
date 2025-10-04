@@ -1,0 +1,88 @@
+// Case 5 - invent_and_simplify
+const case_5 = {
+  id: "sefarz-pix-reconciliation-automation",
+  title: "Automatizei a Reconciliação PIX com Regras, Controles e Observabilidade (SEFAZ/RS)",
+  title_pt: "Automatizei a Reconciliação PIX com Regras, Controles e Observabilidade (SEFAZ/RS)",
+  title_en: "Automated PIX Reconciliation with Rules, Controls and Observability (SEFAZ/RS)",
+  company: "SEFAZ/RS",
+  period: "01/2024–06/2024",
+  isTopCase: false,
+  pt: {
+    s: `A conciliação semanal de PIX consumia ~19 horas da equipe, com etapas manuais, planilhas paralelas e divergências não justificadas, pressionando o fechamento D+1. O CFO havia sinalizado risco de achados em auditoria e desgaste com órgãos de controle se seguíssemos nesse ritmo. Além disso, a operação de arrecadação precisava de previsibilidade para liberar repasses. Em termos de benchmark, nosso tempo de fechamento estava ~25% abaixo de áreas pares internas e pior do que vimos em autarquias com automação madura.`,
+    t: `Liderei a mudança para garantir D+1 consistente e reduzir ≥60% o esforço de conciliação, eliminando divergências sem lastro e elevando governança. A meta foi desenhada para criar folga operacional (de 19h para ≤7h/semana), reduzir exposição a achados de auditoria e liberar capacidade do time para análise de exceções de alto valor.`,
+    a: `Mapeei ponta a ponta o fluxo (gateway→banco→ERP→livro razão), quantificando perdas de tempo por etapa. Conduzi workshops com Financeiro/TI para co-desenhar regras de matching priorizando baixo falso-positivo: valor exato, CPF/CNPJ, hash de referência, janela temporal T+0/T+1 e tolerâncias por tipo de receita. Implementei validações automáticas (duplicidade, inconsistência de status, moeda), normalização de eventos e trilhas de auditoria; integrei extratos via API com salvaguardas LGPD e segregação de funções. Configurei observabilidade: dashboards de match-rate, aging e recon open items; alertas para outliers e quedas de integração; e runbook de exceções para o time de Operações. Para buy-in, pilotei 2 ciclos em paralelo ao processo antigo, comparei KPIs e enderecei preocupações de controle com o time de auditoria interna antes do corte definitivo.`,
+    r: `Reduzi o tempo de conciliação em ~68% (19h→6h/semana), com D+1 consistente e divergências sem lastro praticamente zeradas. Evitei ~R$120k/ano em horas improdutivas e horas extras, e caíram os escalonamentos executivos. Em benchmark interno, ficamos ~25% melhores em tempo de fechamento e saímos de 'risco moderado' para 'baixo' em auditoria de processos.`,
+    l: `Em pagamentos, exceções e observabilidade são o multiplicador de escala. Ao explicitar regras, trilhas e alarmes, conseguimos sustentar D+1 com previsibilidade e replicar o mecanismo para boletos e taxas — reduzindo dependência de heróis e aumentando resiliência operacional.`
+  },
+  en: {
+    s: `Weekly PIX reconciliation consumed ~19 hours, relied on manual steps and shadow spreadsheets, and created unjustified mismatches that put D+1 at risk. The CFO flagged potential audit findings and reputational exposure with oversight bodies. Our treasury needed predictability for downstream settlements, and we were ~25% slower than internal peers with mature automation.`,
+    t: `I set a goal to consistently hit D+1 and cut reconciliation effort by ≥60%, eliminating baseless mismatches and raising governance. That meant moving from 19h to ≤7h/week, reducing audit exposure and freeing capacity for high‑value exceptions.`,
+    a: `I mapped the end‑to‑end flow (gateway→bank→ERP→ledger), quantified time losses, and ran Finance/IT workshops to co‑design matching rules with low false positives: exact amount, tax ID, reference hash, T+0/T+1 windows, and tolerances by revenue type. I added automated validations (duplication, status inconsistencies, currency), event normalization, and audit trails; integrated statements via API with LGPD safeguards and SoD. I built observability: match‑rate/aging/open‑items dashboards, outlier/integration alerts, and an exception runbook for Ops. To secure buy‑in, I piloted two cycles in parallel to the legacy process, compared KPIs, and addressed control concerns with internal audit before the cut‑over.`,
+    r: `~68% time reduction (19h→6h/week), predictable D+1, and near‑zero baseless mismatches. ~BRL 120k/year avoided, fewer exec escalations, and ~25% faster vs our internal close benchmark; audit risk downgraded from medium to low.`,
+    l: `In payments, exceptions and observability are scale multipliers. By codifying rules, trails and alerts, we sustained D+1 with predictability and replicated the mechanism to boletos, reducing heroics and raising operational resilience.`
+  },
+  fups: [
+    {
+        "q": "Como você definiu a meta de ≥60% de redução e por que ela era crítica para D+1?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you set the ≥60% reduction target and why was it critical for D+1?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Que resistências encontrou na automação e como conquistou o buy-in?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What resistance did you face in automating and how did you secure buy-in?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Por que escolheu essas regras de matching e quais alternativas descartou?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Why did you choose these matching rules and which alternatives did you discard?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Como garantiu conformidade (BACEN/LGPD) na integração de extratos via API?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you ensure compliance (Central Bank/LGPD) when integrating statements via API?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Como monitorou sucesso (métricas de processo e de resultado) após o go-live?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you monitor success (process and outcome metrics) post go-live?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Quais incidentes evitados/mitigados demonstram o valor da observabilidade criada?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which avoided/mitigated incidents prove the value of the observability you built?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Como você escalou a solução para outros fluxos (cartões/boletos) ou unidades?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you scale the solution to other flows (cards/boletos) or units?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Qual benchmark interno/externo usou para comparar o novo SLA?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which internal/external benchmark did you use to compare the new SLA?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Se refizesse hoje, que melhoria técnica faria e por quê?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "If you redid it today, what technical improvement would you make and why?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    },
+    {
+        "q": "Como esse mecanismo melhora a resiliência de payment operations no longo prazo?",
+        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How does this mechanism strengthen payment operations’ resilience long-term?",
+        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+    }
+]
+};
+
+export default case_5;

@@ -1,0 +1,88 @@
+// Case 3 - bias_for_action
+const case_3 = {
+  id: "huawei-logistics-optimization-pilot",
+  title: "Lançamento de Piloto de Otimização de Processos em 60 Dias para Validar Hipótese de Eficiência",
+  title_pt: "Lançamento de Piloto de Otimização de Processos em 60 Dias para Validar Hipótese de Eficiência",
+  title_en: "Launch of Process Optimization Pilot in 60 Days to Validate Efficiency Hypothesis",
+  company: "Huawei",
+  period: "01/2014--12/2014",
+  isTopCase: false,
+  pt: {
+    s: `Após grande reengenharia de processos na Huawei, identificamos gargalo persistente na logística de entrega de equipamentos. Discussão sobre solução estava travada em comitês, com propostas de caros sistemas de WMS que levariam mais de um ano para serem implementados.`,
+    t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Vendo impasse, assumi a liderança para validar rapidamente a principal hipótese: que problema era de processo de roteirização, não de ferramenta. Propus piloto de 60 dias para testar novo fluxo, provando conceito antes de grandes investimentos.`,
+    a: `Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de esperar pelo orçamento, escolhi estrategicamente ferramentas 'low-tech' que permitissem iteração rápida: Google Sheets para agendamento e WhatsApp para comunicação em tempo real. Essas ferramentas eram perfeitas para o aprendizado acelerado que piloto exigia. Escolhi região de Curitiba para piloto por ter alta complexidade logística (12 rotas, 45 clientes ativos, 3 tipos de equipamento) que era representativa de 80% das outras operações, garantindo escalabilidade dos aprendizados. Criei ritual diário às 17h: call de 15min com equipe de campo. Usava Google Sheets projetado na tela, editávamos juntos ao vivo. Quando via falha no processo, adicionava coluna nova na hora - levava literalmente 5 minutos usando fórmulas simples. Após duas falhas de agendamento, implementei sistema de 'dupla confirmação' na planilha, melhoria que levou 10 minutos para implementar. Piloto provou que hipótese estava correta. Aprendizados foram usados para descartar 40% das funcionalidades complexas (e caras) propostas para novo sistema de WMS, focando apenas nos requisitos essenciais.`,
+    r: `Em 60 dias, tempo médio de logística na região do piloto foi reduzido de 4,2 para 2,5 dias (40% de melhoria). Validação do fluxo no piloto economizou estimado de 30% no tempo e custo do projeto final de WMS, pois focamos apenas nos requisitos realmente necessários. Taxa de satisfação da equipe de campo aumentou 35% devido ao maior empoderamento no processo.`,
+    l: `A ação rápida é melhor ferramenta contra paralisia por análise. Um experimento de baixo custo pode gerar mais insights que meses de planejamento teórico. Essa mentalidade de 'testar com o que se tem' se tornou minha abordagem padrão para validar hipóteses de processo antes de comprometer grandes investimentos, tanto na SEFAZ quanto na minha startup.`
+  },
+  en: {
+    s: `After major process reengineering at Huawei, I identified persistent bottleneck in equipment delivery logistics. Solution discussion was stuck in committees, with proposals for expensive WMS systems that would take over a year to implement.`,
+    t: `My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. Seeing impasse, I took leadership to quickly validate main hypothesis: that problem was routing process, not tool. I proposed 60-day pilot to test new flow, proving concept before major investments.`,
+    a: `Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of waiting for budget, I strategically chose 'low-tech' tools that would allow rapid iteration: Google Sheets for scheduling and WhatsApp for real-time communication. These tools were perfect for accelerated learning pilot required. I chose Curitiba region for pilot for having high logistics complexity (12 routes, 45 active clients, 3 equipment types) that was representative of 80% of other operations, ensuring learning scalability. I created daily ritual at 5pm: 15min call with field team. I used Google Sheets projected on screen, I edited together live. When I saw process failure, I added new column immediately - literally took 5 minutes using simple formulas. After two scheduling failures, I implemented 'double confirmation' system in spreadsheet, improvement that took 10 minutes to implement. Pilot proved hypothesis was correct. Learnings were used to discard 40% of complex (and expensive) functionalities proposed for new WMS system, focusing only on essential requirements.`,
+    r: `In 60 days, average logistics time in pilot region was reduced from 4.2 to 2.5 days (40% improvement). Flow validation in pilot saved estimated 30% in time and cost of final WMS project, as I focused only on truly necessary requirements. Field team satisfaction rate increased 35% due to greater process empowerment.`,
+    l: `Quick action is best tool against analysis paralysis. Low-cost experiment can generate more insights than months of theoretical planning. This 'test with what you have' mentality became my standard approach for validating process hypotheses before committing large investments, both at SEFAZ and my startup.`
+  },
+  fups: [
+    {
+        "q": "Como você garantiu que uso de ferramentas não-oficiais, como WhatsApp e Google Sheets, não comprometesse qualidade ou segurança dos dados?",
+        "a": "Mitigação do risco foi ponto central do design do piloto. Garanti que essas ferramentas fossem usadas apenas para coordenação da logística (agendamento, comunicação). Controle oficial de inventário e dados sensíveis permaneceram 100% dentro do sistema SAP legado. Havia fronteira clara entre sistema de registro e sistema de ação rápida.",
+        "q_en": "How did you ensure use of unofficial tools like WhatsApp and Google Sheets didn't compromise data quality or security?",
+        "a_en": "Risk mitigation was central point of pilot design. I ensured these tools were used only for logistics coordination (scheduling, communication). Official inventory control and sensitive data remained 100% within legacy SAP system. There was clear boundary between system of record and quick action system."
+    },
+    {
+        "q": "Quais foram maiores desafios enfrentados durante piloto e como você os superou?",
+        "a": "Maior desafio foi 'memória muscular' da equipe, acostumada a seguir processo antigo. Nos primeiros dias, continuavam a usar e-mail em vez do WhatsApp. Implementei processo de feedback em tempo real: respondia instantaneamente no WhatsApp e celebrava publicamente cada vez que comunicação rápida resolvia problema, criando novo hábito.",
+        "q_en": "What were biggest challenges faced during pilot and how did you overcome them?",
+        "a_en": "Biggest challenge was team's 'muscle memory', accustomed to following old process. In first days, they continued using email instead of WhatsApp. I implemented real-time feedback process: responded instantly on WhatsApp and publicly celebrated every time quick communication solved problem, creating new habit."
+    },
+    {
+        "q": "Houve alguma resistência das equipes locais em adotar novo fluxo? Como você lidou com isso?",
+        "a": "Sim, no início. Equipe de campo via como 'mais um controle'. Lidei focando na dor deles. Perguntei: 'O que mais te frustra no seu dia?'. Resposta era 'esperar por equipamento que não chega'. Posicionei piloto como forma de resolver essa frustração. Quando viram que novo fluxo lhes dava mais previsibilidade, se tornaram maiores defensores.",
+        "q_en": "Was there resistance from local teams in adopting new flow? How did you handle it?",
+        "a_en": "Yes, initially. Field team saw it as 'another control'. I handled by focusing on their pain. I asked: 'What frustrates you most in your day?' Answer was 'waiting for equipment that doesn't arrive'. I positioned pilot as way to solve that frustration. When they saw new flow gave them more predictability, they became biggest advocates."
+    },
+    {
+        "q": "Como insights do piloto foram comunicados e aceitos pelos stakeholders para influenciar projeto final de WMS?",
+        "a": "Não apresentei apenas 40% de melhoria. Apresentei 'playbook' detalhado do processo que funcionou, com lições aprendidas e, mais importante, lista de 'Requisitos Validados' e 'Requisitos Descartados' para novo sistema. Aceitação veio porque minha recomendação não era baseada em opinião, mas em 60 dias de dados operacionais do mundo real.",
+        "q_en": "How were pilot insights communicated and accepted by stakeholders to influence final WMS project?",
+        "a_en": "I didn't just present 40% improvement. I presented detailed 'playbook' of process that worked, with lessons learned and, most importantly, list of 'Validated Requirements' and 'Discarded Requirements' for new system. Acceptance came because my recommendation wasn't based on opinion, but on 60 days of real-world operational data."
+    },
+    {
+        "q": "Se tivesse mais tempo ou recursos, o que você teria feito de forma diferente durante piloto?",
+        "a": "Honestamente, muito pouco. Restrição de tempo e recursos foi o que nos forçou a ser criativos e focados. Simplicidade foi chave do sucesso. Recursos ilimitados poderiam ter nos levado a solução mais complexa e aprendizado mais lento, exatamente o oposto do que precisávamos.",
+        "q_en": "If you had more time or resources, what would you have done differently during pilot?",
+        "a_en": "Honestly, very little. Time and resource constraint was what forced us to be creative and focused. Simplicity was key to success. Unlimited resources could have led us to more complex solution and slower learning, exactly opposite of what I needed."
+    },
+    {
+        "q": "Qual foi principal aprendizado do piloto que influenciou projeto do novo sistema?",
+        "a": "Descobrimos que comunicação em tempo real entre armazém e equipe de campo era fator mais crítico para otimizar rotas, não algoritmos complexos de roteamento. Com base nisso, funcionalidade de 'chat em tempo real' se tornou requisito de alta prioridade no novo sistema, algo que não havia sido considerado antes.",
+        "q_en": "What was main pilot learning that influenced new system project?",
+        "a_en": "I discovered that real-time communication between warehouse and field team was most critical factor for optimizing routes, not complex routing algorithms. Based on this, 'real-time chat' functionality became high-priority requirement in new system, something that hadn't been considered before."
+    },
+    {
+        "q": "Como você conseguiu aprovação da gestão local para rodar piloto 'fora do sistema' oficial?",
+        "a": "Apresentei como 'estudo de eficiência' de baixo risco e com prazo definido. Não pedi permissão para 'mudar sistema', mas para 'testar ideia em ambiente controlado'. Garanti ao gestor local que assumiria responsabilidade total por qualquer problema e que resultados poderiam torná-lo herói.",
+        "q_en": "How did you get local management approval to run pilot 'outside official system'?",
+        "a_en": "I presented as low-risk 'efficiency study' with defined deadline. I didn't ask permission to 'change system', but to 'test idea in controlled environment'. I assured local manager I'd take total responsibility for any problem and that results could make him hero."
+    },
+    {
+        "q": "O que você fez quando algo deu errado no piloto?",
+        "a": "Em uma ocasião, planilha foi editada incorretamente, enviando equipamento para local errado. Em vez de culpar, tratei como aprendizado acelerado. Em menos de uma hora, ajustamos permissões da planilha e criamos sistema de dupla verificação. Velocidade da correção era mais importante que evitar erro.",
+        "q_en": "What did you do when something went wrong in pilot?",
+        "a_en": "On one occasion, spreadsheet was edited incorrectly, sending equipment to wrong location. Instead of blaming, I treated as accelerated learning. In less than hour, I adjusted spreadsheet permissions and created double-check system. Speed of correction was more important than avoiding error."
+    },
+    {
+        "q": "Qual foi maior benefício inesperado do piloto?",
+        "a": "Aumento brutal no moral e engajamento da equipe de campo. Pela primeira vez, se sentiram ouvidos e empoderados para ajudar a desenhar próprio processo. Iniciativa de agir rápido e envolvê-los teve impacto cultural tão importante quanto impacto no KPI.",
+        "q_en": "What was biggest unexpected benefit of pilot?",
+        "a_en": "Massive increase in field team morale and engagement. For first time, they felt heard and empowered to help design their own process. Initiative to act quickly and involve them had cultural impact as important as KPI impact."
+    },
+    {
+        "q": "Como essa experiência define sua abordagem para melhoria de processos hoje?",
+        "a": "Define-a como 'viés para experimentação'. Antes de iniciar grande projeto de otimização, minha primeira pergunta é sempre: 'Qual é experimento mais barato e rápido que podemos fazer em duas semanas para validar minha principal hipótese?'. Ajo para aprender, não apenas para executar.",
+        "q_en": "How does this experience define your approach to process improvement today?",
+        "a_en": "Defines it as 'bias for experimentation'. Before starting major optimization project, my first question is always: 'What's cheapest and fastest experiment I can do in two weeks to validate my main hypothesis?' I act to learn, not just to execute."
+    }
+]
+};
+
+export default case_3;

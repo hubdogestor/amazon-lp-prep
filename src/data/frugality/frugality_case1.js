@@ -1,0 +1,88 @@
+// Case 1 - frugality
+const case_1 = {
+  id: "sefaz-zero-budget-pmo",
+  title: "PMO de Classe Mundial com Orçamento Zero no Setor Público",
+  title_pt: "Geração de U$1.4M em Ganhos de Eficiência no Setor Público sem Aumento de Orçamento",
+  title_en: "Generating $1.4M in Public Sector Efficiency Gains Without Budget Increase",
+  company: "SEFAZ/RS",
+  period: "01/2024--12/2025",
+  isTopCase: true,
+  pt: {
+    s: `Ao iniciar meu trabalho como Consultor na SEFAZ/RS, a CAGE precisava urgentemente modernizar sua gestão de projetos para atender às exigências críticas do programa PROFISCO II - um programa de financiamento internacional que exigia governança de projetos de classe mundial. O ambiente do setor público opera com orçamentos fixos e processos burocráticos lentos. A solução padrão seria solicitar um orçamento para contratar consultorias e adquirir softwares de PMO caros, um processo que levaria 6-12 meses e provavelmente seria negado devido às restrições fiscais.`,
+    t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era implementar um PMO de classe mundial, mas com uma restrição autoimposta: fazê-lo com orçamento zero, utilizando apenas os recursos existentes. A frugalidade foi uma escolha estratégica para ganhar agilidade, evitar a burocracia de aquisições e provar que era possível gerar valor sem aumentar as despesas fixas, um princípio fundamental na gestão pública eficiente.`,
+    a: `Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de gastar R$ 500k em consultorias, eu pessoalmente escrevi os manuais de PMO, investindo meu tempo para criar um ativo de conhecimento que foi validado e co-criado com os gestores mais experientes da CAGE, garantindo sua aplicabilidade prática. Em vez de comprar um software de PMO (custo estimado R$ 200k/ano), usei SharePoint para o Portal e Power BI para os dashboards. Adaptei as ferramentas, criando listas conectadas e fluxos de automação que simulavam as funcionalidades de um software dedicado, como a atualização automática de status e a geração de relatórios executivos. A análise de fluxo de valor mostrou que o processo de aprovação de projetos era um grande gargalo, levando em média 30 dias. Redesenhei o fluxo, substituindo um formulário de 10 páginas por um 'Project Canvas' de uma página e um checklist objetivo. Isso reduziu o tempo médio de aprovação de 30 para 10 dias, acelerando as entregas sem custo adicional. Criei os 'Drops de Risco', workshops curtos e de alto impacto de 2 horas cada, para treinar as equipes de forma rápida e eficiente, substituindo treinamentos de consultorias externas de múltiplos dias.`,
+    r: `Implementei o primeiro PMO institucional da CAGE sem nenhum aumento de orçamento. As melhorias de processo e a automação geraram ganhos de eficiência estimados em ~$1.4 milhão no primeiro ano através da redução de desvios de prazo/orçamento (de 18% para 6%) e otimização de 200h anuais de trabalho dos gestores. A abordagem frugal foi elogiada pelos auditores do BID como um exemplo de desenvoltura e gestão eficiente de recursos públicos, servindo como modelo para outras organizações governamentais.`,
+    l: `Aprendi que a restrição orçamentária é a mãe da invenção. Esse aprendizado influenciou diretamente a fundação da minha startup, o Hub do Gestor, que foi iniciada de forma totalmente 'bootstrapped', utilizando ferramentas open-source e focando em um MVP enxuto, provando que é possível criar um negócio valioso sem grandes investimentos iniciais. Essa mentalidade frugal é especialmente crítica em payment operations, onde a pressão é otimizar transaction costs, reduzir failed payment rates sem aumentar headcount, e escalar reconciliation processes usando automação inteligente em vez de sistemas caros -- exatamente o skillset que demonstrei ao criar um PMO de classe mundial com $0 de budget adicional.`
+  },
+  en: {
+    s: `When starting my work as Consultant at SEFAZ/RS, CAGE urgently needed to modernize its project management to meet critical requirements of the PROFISCO II program - an international financing program requiring world-class project governance. The public sector environment operates with fixed budgets and slow bureaucratic processes. The standard solution would be to request budget for hiring consultancies and acquiring expensive PMO software, a process that would take 6-12 months and likely be denied due to fiscal restrictions.`,
+    t: `My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to implement a world-class PMO, but with a self-imposed constraint: do it with zero budget, using only existing resources. Frugality was a strategic choice to gain agility, avoid acquisition bureaucracy and prove it was possible to generate value without increasing fixed expenses, a fundamental principle in efficient public management.`,
+    a: `Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of spending R$ 500k on consultancies, I personally wrote the PMO manuals, investing my time to create a knowledge asset that was validated and co-created with CAGE's most experienced managers, ensuring its practical applicability. Instead of buying PMO software (estimated cost R$ 200k/year), I used SharePoint for the Portal and Power BI for dashboards. I adapted the tools, creating connected lists and automation flows that simulated dedicated software functionalities, like automatic status updates and executive report generation. Value stream analysis showed that the project approval process was a major bottleneck, taking an average of 30 days. I redesigned the flow, replacing a 10-page form with a one-page 'Project Canvas' and objective checklist. This reduced average approval time from 30 to 10 days, accelerating deliveries at no additional cost. I created 'Risk Drops', short, high-impact 2-hour workshops to train teams quickly and efficiently, replacing multi-day external consultancy training.`,
+    r: `I implemented CAGE's first institutional PMO without any budget increase. Process improvements and automation generated estimated efficiency gains of ~$1.4 million in the first year through reduced timeline/budget deviations (from 18% to 6%) and optimization of 200 annual hours of manager work. The frugal approach was praised by IDB auditors as an example of resourcefulness and efficient public resource management, serving as a model for other government organizations.`,
+    l: `I learned that budget constraint is the mother of invention. This learning directly influenced founding my startup, Hub do Gestor, which was started completely 'bootstrapped', using open-source tools and focusing on a lean MVP, proving it's possible to create valuable business without large initial investments. This frugal mindset is especially critical in payment operations, where the pressure is to optimize transaction costs, reduce failed payment rates without increasing headcount, and scale reconciliation processes using intelligent automation instead of expensive systems -- exactly the skillset I demonstrated by creating a world-class PMO with $0 additional budget.`
+  },
+  fups: [
+    {
+        "q": "Como você mediu os ganhos de eficiência estimados em $1.4 milhão? Quais foram os principais indicadores utilizados?",
+        "a": "O cálculo foi baseado em dois indicadores principais. Primeiro, a redução do desvio médio de orçamento e prazo dos projetos, que historicamente era de 18% e caiu para 6% com a nova governança. Segundo, a otimização de horas de trabalho dos gestores, principalmente pela automação de relatórios, que liberou aproximadamente 200 horas anuais para atividades estratégicas. Esses dois fatores, aplicados ao portfólio de projetos, resultaram na estimativa de ~$1.4M.",
+        "q_en": "How did you measure the estimated $1.4 million efficiency gains? What were the main indicators used?",
+        "a_en": "The calculation was based on two main indicators. First, reduction in average project budget and timeline deviation, which historically was 18% and dropped to 6% with new governance. Second, optimization of manager work hours, mainly through report automation, which freed approximately 200 annual hours for strategic activities. These two factors, applied to the project portfolio, resulted in the ~$1.4M estimate."
+    },
+    {
+        "q": "Houve resistência interna ao usar ferramentas existentes, como SharePoint e Power BI, em vez de adquirir novas soluções? Como você lidou com isso?",
+        "a": "Sim, houve ceticismo inicial, pois a percepção era de que as ferramentas existentes eram 'limitadas'. Eu lidei com isso criando um protótipo funcional do dashboard em Power BI em apenas uma semana. Ao demonstrar na prática que a ferramenta era capaz de entregar 90% do valor de uma solução cara, com custo zero e implementação imediata, a resistência se transformou em entusiasmo.",
+        "q_en": "Was there internal resistance to using existing tools like SharePoint and Power BI instead of acquiring new solutions? How did you handle it?",
+        "a_en": "Yes, there was initial skepticism, as the perception was that existing tools were 'limited'. I handled this by creating a functional Power BI dashboard prototype in just one week. By demonstrating in practice that the tool could deliver 90% of an expensive solution's value, with zero cost and immediate implementation, resistance turned into enthusiasm."
+    },
+    {
+        "q": "Quais foram os maiores desafios ao criar os manuais internamente e como você garantiu que fossem bem recebidos e utilizados pela equipe?",
+        "a": "O maior desafio foi garantir que os manuais não fossem vistos como 'mais burocracia'. Para garantir a adesão, eu criei um 'conselho editorial' com gestores de projeto experientes. Eles revisaram e co-criaram o conteúdo, o que gerou um senso de propriedade. Além disso, criei versões resumidas (checklists e infográficos) para o uso no dia a dia.",
+        "q_en": "What were the biggest challenges in creating manuals internally and how did you ensure they were well received and used by the team?",
+        "a_en": "The biggest challenge was ensuring manuals weren't seen as 'more bureaucracy'. To ensure adoption, I created an 'editorial board' with experienced project managers. They reviewed and co-created content, which generated ownership sense. Additionally, I created summarized versions (checklists and infographics) for daily use."
+    },
+    {
+        "q": "Como os workshops e treinamentos curtos, como os 'Drops de Risco', impactaram a capacitação e o engajamento da equipe?",
+        "a": "O impacto foi enorme. O formato curto e prático teve uma taxa de adesão 80% maior do que os treinamentos tradicionais de longa duração. O engajamento aumentou porque as equipes sentiam que estavam aprendendo algo que poderiam aplicar imediatamente em seus projetos. Isso criou uma cultura de aprendizado contínuo e prático.",
+        "q_en": "How did short workshops and training like 'Risk Drops' impact team training and engagement?",
+        "a_en": "The impact was huge. The short, practical format had 80% higher adoption rate than traditional long-duration training. Engagement increased because teams felt they were learning something they could immediately apply to their projects. This created a culture of continuous and practical learning."
+    },
+    {
+        "q": "Após o sucesso do PMO frugal, houve alguma tentativa de replicar ou escalar essa abordagem em outras áreas da SEFAZ?",
+        "a": "Sim. O sucesso do meu modelo gerou interesse de outras duas subsecretarias. Eu apresentei o case para seus líderes e compartilhei todos os meu templates e manuais. A Subsecretaria da Receita Estadual iniciou um projeto piloto para adaptar meu modelo de dashboards em Power BI para o monitoramento de suas próprias metas de arrecadação.",
+        "q_en": "After the frugal PMO's success, were there any attempts to replicate or scale this approach in other SEFAZ areas?",
+        "a_en": "Yes. Our model's success generated interest from two other sub-secretariats. I presented the case to their leaders and shared all my templates and manuals. The State Revenue Sub-secretariat started a pilot project to adapt my Power BI dashboard model for monitoring their own collection targets."
+    },
+    {
+        "q": "Qual foi a funcionalidade mais importante que um software de PMO caro teria e que você conseguiu replicar de forma frugal?",
+        "a": "A funcionalidade de 'visão de portfólio' com status agregado. Softwares caros fazem isso de forma nativa. Eu repliquei isso criando uma lista mestra no SharePoint onde os gestores atualizavam o status de seus projetos, e conectei essa lista a um dashboard em Power BI. Entregamos 90% do valor com 0% do custo de software.",
+        "q_en": "What was the most important functionality that expensive PMO software would have that you managed to replicate frugally?",
+        "a_en": "The 'portfolio view' functionality with aggregated status. Expensive software does this natively. I replicated this by creating a master list in SharePoint where managers updated their project status, and connected this list to a Power BI dashboard. I delivered 90% of the value with 0% of the software cost."
+    },
+    {
+        "q": "'Frugalidade' pode ser confundida com 'baixa qualidade'. Como você garantiu que seus manuais e processos tivessem um alto padrão?",
+        "a": "Eu usei benchmarks de classe mundial, como os padrões do PMI, como base para os manuais. A frugalidade estava na produção (feita por mim), não no padrão do conteúdo. Além disso, submeti os manuais a um ciclo de revisão com gestores experientes para garantir a qualidade e aplicabilidade prática.",
+        "q_en": "Frugality can be confused with 'low quality'. How did you ensure your manuals and processes had high standards?",
+        "a_en": "I used world-class benchmarks, like PMI standards, as the foundation for manuals. Frugality was in production (done by me), not in content standards. Additionally, I submitted manuals to a review cycle with experienced managers to ensure quality and practical applicability."
+    },
+    {
+        "q": "Se, no meio do projeto, você recebesse um grande orçamento, o que teria feito de diferente?",
+        "a": "Eu não teria comprado um software de PMO. Eu teria investido 100% do orçamento em capacitação avançada para a equipe, como certificações em análise de dados e gestão de valor, e talvez contratado um especialista em UI/UX para melhorar ainda mais a usabilidade dos dashboards. Teria investido em pessoas, não em ferramentas.",
+        "q_en": "If, in the middle of the project, you received a large budget, what would you have done differently?",
+        "a_en": "I wouldn't have bought PMO software. I would have invested 100% of the budget in advanced team training, like certifications in data analysis and value management, and maybe hired a UI/UX specialist to further improve dashboard usability. I would have invested in people, not tools."
+    },
+    {
+        "q": "O que significa 'realizar mais com menos' para você no dia a dia?",
+        "a": "Significa focar implacavelmente na eliminação de desperdício. Desperdício de tempo em reuniões improdutivas, desperdício de recursos em projetos que não agregam valor, desperdício de talento em tarefas que podem ser automatizadas. Frugalidade é uma mentalidade de otimização contínua focada no que realmente gera valor para o cliente final.",
+        "q_en": "What does 'accomplish more with less' mean to you in daily work?",
+        "a_en": "It means relentlessly focusing on waste elimination. Waste of time in unproductive meetings, waste of resources on projects that don't add value, waste of talent on tasks that can be automated. Frugality is a continuous optimization mindset focused on what truly generates value for the end customer."
+    },
+    {
+        "q": "Como você aplicaria o princípio da frugalidade em uma empresa como a Amazon, que tem recursos quase ilimitados?",
+        "a": "A frugalidade na Amazon, pelo que entendo, não é sobre falta de dinheiro, mas sobre disciplina. Eu a aplicaria desafiando o crescimento do headcount como solução padrão, questionando a necessidade de orçamentos inflados e focando em como podemos usar a tecnologia para automatizar e escalar de forma mais inteligente, garantindo que cada dólar e cada pessoa contratada gerem o máximo de impacto para o cliente.",
+        "q_en": "How would you apply the frugality principle in a company like Amazon, which has almost unlimited resources?",
+        "a_en": "Frugality at Amazon, from what I understand, isn't about lack of money, but about discipline. I would apply it by challenging headcount growth as the default solution, questioning the need for inflated budgets and focusing on how I can use technology to automate and scale more intelligently, ensuring every dollar and every person hired generates maximum impact for the customer."
+    }
+]
+};
+
+export default case_1;

@@ -1,0 +1,88 @@
+// Case 1 - bias_for_action
+const case_1 = {
+  id: "bradesco-next-rapid-launch",
+  title: "Decisão Rápida para Lançar Banco Digital Next em 12 Meses, Assumindo Riscos Calculados",
+  title_pt: "Decisão Rápida para Lançar Banco Digital Next em 12 Meses, Assumindo Riscos Calculados",
+  title_en: "Quick Decision to Launch Next Digital Bank in 12 Months, Taking Calculated Risks",
+  company: "Bradesco Next",
+  period: "01/2016--12/2018",
+  isTopCase: true,
+  pt: {
+    s: `O desafio de lançar Banco Next em 12 meses nos colocou em conflito direto com cultura avessa a risco do Bradesco. Abordagem padrão de análise exaustiva levaria anos. Para competir com fintechs, precisávamos nos mover em velocidade radicalmente diferente.`,
+    t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como líder da trilha de Produto & Tecnologia, coordenando 15 squads e 100+ pessoas, minha responsabilidade era injetar velocidade decisória e quebrar a paralisia por análise. Tinha autonomia para definir frameworks de governança que afetariam decisões estratégicas críticas para o lançamento.`,
+    a: `Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Criei e implementei o framework 'Decision Framework Next' - documento de 1 página com decision tree visual: 'Esta decisão é reversível em <48h? Custo de reversão <R$50k? Impacto <10% da base?' Se sim = Two-Way Door. Treinei os 15 POs em workshop de 4 horas, estabelecendo que eu dedicaria 3 dias por semana para coaching direto das squads. Quando squad estava paralisada por semanas discutindo design de extrato bancário (uma 'two-way door'), intervim, dei ao Product Owner autoridade para tomar decisão em 24h e seguir em frente. Para decisões irreversíveis como escolha do parceiro de processamento de cartões, criei e facilitei workshop de 48 horas reunindo especialistas-chave e forçando decisão fundamentada. A decisão mais crítica foi priorizar agressivamente MVP, adiando funcionalidades complexas. Embora stakeholders inicialmente preferissem produto 'completo', alinhei com sucesso o grupo à urgência de mercado mostrando dados específicos: fintechs capturavam 60% dos early adopters nos primeiros 6 meses. Tempo médio de decisão por feature caiu de 12 dias para 3,5 dias, liberando equivalente a 3 sprints de capacidade de desenvolvimento por trimestre.`,
+    r: `Essa cultura de iniciativa e risco calculado foi fator determinante para conseguirmos lançar Next no prazo recorde de 12 meses. Framework de decisões reduziu tempo médio de tomada de decisão de 12 para 3,5 dias (70% de redução). Nenhum dos riscos calculados que assumimos resultou em incidente crítico. Decisão de focar no MVP se provou correta, com Next atingindo 1 milhão de clientes em 18 meses.`,
+    l: `Aprendi que velocidade não vem de trabalhar mais rápido, mas de decidir mais rápido. A chave é diferenciar rigorosamente os tipos de decisão e criar sistemas que empoderem equipes. Apliquei esse aprendizado diretamente na minha startup Hub do Gestor, onde todas decisões são explicitamente classificadas como 'one-way' ou 'two-way', permitindo mover com extrema agilidade.`
+  },
+  en: {
+    s: `The challenge of launching Next Bank in 12 months put us in direct conflict with Bradesco's risk-averse culture. Standard exhaustive analysis approach would take years. To compete with fintechs, I needed to move at radically different speed.`,
+    t: `My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. As leader of Product & Technology track, coordinating 15 squads and 100+ people, my responsibility was to inject decision speed and break analysis paralysis. I had autonomy to define governance frameworks that would affect critical strategic decisions for the launch.`,
+    a: `Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I created and implemented 'Decision Framework Next' - 1-page document with visual decision tree: 'Is this decision reversible in <48h? Reversal cost <R$50k? Impact <10% of base?' If yes = Two-Way Door. I trained the 15 POs in 4-hour workshop, establishing that I would dedicate 3 days per week for direct squad coaching. When squad was paralyzed for weeks discussing bank statement design (a 'two-way door'), I intervened, gave Product Owner authority to make decision in 24h and move forward. For irreversible decisions like choosing card processing partner, I created and facilitated 48-hour workshop gathering key experts and forcing informed decision. Most critical decision was aggressively prioritizing MVP, postponing complex features. Although stakeholders initially preferred 'complete' product, I successfully aligned group to market urgency by showing specific data: fintechs captured 60% of early adopters in first 6 months. Average decision time per feature dropped from 12 to 3.5 days, freeing equivalent of 3 development sprints capacity per quarter.`,
+    r: `This culture of initiative and calculated risk was determining factor for launching Next in record 12-month timeline. Decision framework reduced average decision-making time from 12 to 3.5 days (70% reduction). None of calculated risks I took resulted in critical incident. Decision to focus on MVP proved correct, with Next reaching 1 million customers in 18 months.`,
+    l: `I learned speed doesn't come from working faster, but deciding faster. Key is rigorously differentiating decision types and creating systems that empower teams. I applied this learning directly in my startup Hub do Gestor, where all decisions are explicitly classified as 'one-way' or 'two-way', allowing us to move with extreme agility.`
+  },
+  fups: [
+    {
+        "q": "Como você lidou com resistência interna ao introduzir conceito de 'One-Way vs. Two-Way Door' em cultura avessa a riscos?",
+        "a": "A chave foi começar pequeno e criar 'porto seguro'. Pilotei conceito com duas squads que já tinham mentalidade mais aberta. O sucesso e velocidade que demonstraram criaram 'inveja positiva' nas outras equipes. Em vez de impor conceito, criei caso de sucesso interno que outros quiseram copiar.",
+        "q_en": "How did you handle internal resistance when introducing 'One-Way vs. Two-Way Door' concept in risk-averse culture?",
+        "a_en": "Key was starting small and creating 'safe harbor'. I piloted concept with two squads that already had more open mindset. Success and speed they demonstrated created 'positive envy' in other teams. Instead of imposing concept, I created internal success case that others wanted to copy."
+    },
+    {
+        "q": "Durante workshop de análise acelerada, houve momento em que especialistas discordaram? Como gerenciou divergências para chegar a decisão dentro do prazo?",
+        "a": "Sim, houve grande discordância sobre escolha do provedor de KYC. Para resolver, usei técnica do 'Disagree and Commit'. Deixei cada lado apresentar argumentos baseados em critérios pré-definidos (custo, precisão, escalabilidade). Após debate, como facilitador, ajudei dono da decisão a fazer escolha. Uma vez decidida, meu papel foi garantir que todos, inclusive os que discordaram, se comprometessem 100% com execução.",
+        "q_en": "During accelerated analysis workshop, was there moment when experts disagreed? How did you manage disagreements to reach decision within deadline?",
+        "a_en": "Yes, there was major disagreement about KYC provider choice. To resolve, I used 'Disagree and Commit' technique. I let each side present arguments based on pre-defined criteria (cost, accuracy, scalability). After debate, as facilitator, I helped decision owner make choice. Once decided, my role was ensuring everyone, including those who disagreed, committed 100% to execution."
+    },
+    {
+        "q": "Como você mediu impacto direto da priorização do MVP nas métricas de adoção e satisfação dos primeiros clientes?",
+        "a": "Definimos 'métricas de sucesso' para MVP antes do lançamento, focadas no 'core loop' do produto: taxa de conclusão do onboarding (meta: >85%), número de transações no primeiro mês (meta: >5 transações) e NPS da primeira experiência (meta: >50). MVP atingiu 87% de conclusão, 6,2 transações médias e NPS de 58, provando que produto entregava valor essencial.",
+        "q_en": "How did you measure direct impact of MVP prioritization on adoption metrics and early customer satisfaction?",
+        "a_en": "I defined 'success metrics' for MVP before launch, focused on product's 'core loop': onboarding completion rate (target: >85%), number of transactions in first month (target: >5 transactions) and first experience NPS (target: >50). MVP achieved 87% completion, 6.2 average transactions and NPS of 58, proving product delivered essential value."
+    },
+    {
+        "q": "Houve algum momento em que decisão reversível ('two-way door') acabou tendo consequências inesperadas? Como gerenciou isso?",
+        "a": "Sim. Lançamos fluxo de transferências que, nos testes, parecia ótimo. Mas com volume de produção, percebemos que gerava muitas chamadas no suporte. Como decisão era reversível, em 48 horas, squad usou feedback para lançar versão ajustada com melhores instruções. Consequência foi gerenciada rapidamente porque cultura já previa que decisões 'two-way door' poderiam precisar de iteração.",
+        "q_en": "Was there moment when reversible decision ('two-way door') ended up having unexpected consequences? How did you manage it?",
+        "a_en": "Yes. I launched transfer flow that seemed great in tests. But with production volume, I realized it generated many support calls. Since decision was reversible, in 48 hours, squad used feedback to launch adjusted version with better instructions. Consequence was managed quickly because culture already anticipated 'two-way door' decisions might need iteration."
+    },
+    {
+        "q": "Após lançamento do Next, como você incorporou feedback dos primeiros usuários para iterar rapidamente o produto?",
+        "a": "Criamos 'ciclo de feedback de 48 horas'. Todos os dias, time de growth analisava feedbacks dos canais (app store, suporte) e os transformava em hipóteses priorizadas. Hipóteses mais críticas eram apresentadas na reunião diária da squad relevante, que tinha autonomia para colocar melhoria no sprint seguinte. Isso nos permitiu iterar em velocidade muito alta.",
+        "q_en": "After Next launch, how did you incorporate early user feedback to quickly iterate the product?",
+        "a_en": "I created '48-hour feedback cycle'. Every day, growth team analyzed feedback from channels (app store, support) and transformed them into prioritized hypotheses. Most critical hypotheses were presented in relevant squad's daily meeting, which had autonomy to put improvement in next sprint. This allowed us to iterate at very high speed."
+    },
+    {
+        "q": "Como você treinou equipes para diferenciar decisão 'one-way' de 'two-way door'?",
+        "a": "Criei matriz de decisão simples com duas perguntas: 1) 'Qual impacto (custo, tempo, reputação) se tivermos que reverter essa decisão?' e 2) 'Qual dificuldade técnica para reverter?'. Decisões com alto impacto e alta dificuldade eram 'one-way'. As demais eram 'two-way'. Discutimos exemplos reais em workshops para calibrar entendimento.",
+        "q_en": "How did you train teams to differentiate 'one-way' from 'two-way door' decision?",
+        "a_en": "I created simple decision matrix with two questions: 1) 'What's the impact (cost, time, reputation) if I have to reverse this decision?' and 2) 'What's the technical difficulty to reverse?'. Decisions with high impact and high difficulty were 'one-way'. Others were 'two-way'. I discussed real examples in workshops to calibrate understanding."
+    },
+    {
+        "q": "Qual diferença, na sua visão, entre 'risco calculado' e 'imprudência'?",
+        "a": "Risco calculado é quando você entende claramente pior cenário possível e tem plano de mitigação ou reversão. Você age apesar do risco porque custo da inação é maior. Imprudência é agir sem entender pior cenário ou sem ter plano B, é torcer para que dê certo.",
+        "q_en": "What's the difference, in your view, between 'calculated risk' and 'recklessness'?",
+        "a_en": "Calculated risk is when you clearly understand worst possible scenario and have mitigation or reversal plan. You act despite risk because cost of inaction is greater. Recklessness is acting without understanding worst scenario or having plan B, it's hoping things work out."
+    },
+    {
+        "q": "Como essa abordagem de velocidade não entra em conflito com princípio de 'Mergulhar Fundo'?",
+        "a": "Pelo contrário, eles se complementam. Mergulhávamos fundo nas decisões 'one-way door', onde rigor era essencial. E tínhamos viés para ação nas 'two-way doors', onde velocidade do aprendizado era mais importante. Sabedoria está em saber quando aplicar cada princípio.",
+        "q_en": "How does this speed approach not conflict with 'Dive Deep' principle?",
+        "a_en": "On contrary, they complement each other. I dove deep into 'one-way door' decisions, where rigor was essential. And I had bias for action on 'two-way doors', where learning speed was more important. Wisdom is knowing when to apply each principle."
+    },
+    {
+        "q": "O que frase 'velocidade importa nos negócios' significa para você?",
+        "a": "Significa que time-to-market e velocidade de aprendizado são, em si, vantagens competitivas. Uma decisão 'boa' hoje é quase sempre melhor que decisão 'perfeita' em seis meses, pois nesse tempo mercado, cliente e concorrência já mudaram.",
+        "q_en": "What does phrase 'speed matters in business' mean to you?",
+        "a_en": "It means time-to-market and learning speed are, themselves, competitive advantages. A 'good' decision today is almost always better than 'perfect' decision in six months, because by then market, customer and competition have already changed."
+    },
+    {
+        "q": "Como essa experiência mudou sua abordagem de liderança?",
+        "a": "Ensinou-me que meu papel como líder não é ter todas as respostas, mas criar ambiente onde equipe possa encontrar respostas rapidamente. Minha função passou a ser mais de 'arquiteto de sistemas de decisão' e 'removedor de bloqueios' que tomador de decisões centralizado.",
+        "q_en": "How did this experience change your leadership approach?",
+        "a_en": "It taught me that my role as leader isn't having all answers, but creating environment where team can find answers quickly. My function became more of 'decision systems architect' and 'blocker remover' than centralized decision maker."
+    }
+]
+};
+
+export default case_1;
