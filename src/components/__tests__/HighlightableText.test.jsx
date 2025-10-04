@@ -26,7 +26,7 @@ describe('HighlightableText', () => {
     
     const highlightedElements = screen.getAllByText('Test');
     expect(highlightedElements).toHaveLength(1);
-    expect(highlightedElements[0]).toHaveClass('bg-yellow-200');
+    expect(highlightedElements[0]).toHaveClass('bg-yellow-300');
   });
 
   it('should highlight multiple occurrences', () => {
@@ -38,8 +38,8 @@ describe('HighlightableText', () => {
     );
     
     // Should highlight all variations of "test"
-    const container = screen.getByTestId('highlightable-text') || screen.getByText(/Test/).closest('*');
-    const highlights = container.querySelectorAll('.bg-yellow-200');
+    const container = screen.getByText(/Test/).closest('span');
+    const highlights = container.querySelectorAll('.bg-yellow-300');
     expect(highlights).toHaveLength(4);
   });
 
@@ -52,7 +52,7 @@ describe('HighlightableText', () => {
     );
     
     const highlighted = screen.getByText('$100');
-    expect(highlighted).toHaveClass('bg-yellow-200');
+    expect(highlighted).toHaveClass('bg-yellow-300');
   });
 
   it('should handle empty text gracefully', () => {
@@ -108,7 +108,7 @@ describe('HighlightableText', () => {
     );
     
     const highlighted = screen.getByText('Ação');
-    expect(highlighted).toHaveClass('bg-yellow-200');
+    expect(highlighted).toHaveClass('bg-yellow-300');
   });
 
   it('should not highlight when search term is only whitespace', () => {
@@ -134,6 +134,6 @@ describe('HighlightableText', () => {
     );
     
     const highlighted = screen.getByText('target');
-    expect(highlighted).toHaveClass('bg-yellow-200');
+    expect(highlighted).toHaveClass('bg-yellow-300');
   });
 });
