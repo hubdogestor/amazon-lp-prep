@@ -1,9 +1,9 @@
 import { useMemo, useState, useEffect, useCallback } from "react";
 import { Search } from "lucide-react";
-import principlesDataRaw from "./data_principles.js";
 import icebreakerData from "./data/icebreaker.js";
 import myQuestionsData from "./data/myQuestions.js";
 import typicalQuestions from "./data/typicalQuestions.js";
+import { usePrinciplesData } from "./hooks/usePrinciplesData.js";
 import { HighlightableText } from "./components/HighlightableText.jsx";
 import { useDebounce } from "./hooks/useDebounce.js";
 import { useHighlight } from "./hooks/useHighlight.js";
@@ -169,10 +169,10 @@ export default function App() {
   const [highlightTypicalTerm, setHighlightTypicalTerm] = useState("");
 
   const t = TEXTS[language];
+  const rawPrinciplesData = usePrinciplesData();
   const principlesData = useMemo(() => {
-    const dataRaw = Array.isArray(principlesDataRaw) ? principlesDataRaw : [];
-    return sortPrinciples(dataRaw, language);
-  }, [language]);
+    return sortPrinciples(rawPrinciplesData, language);
+  }, [rawPrinciplesData, language]);
 
   const clearExpanded = useCallback(() => setExpandedCases({}), []);
 

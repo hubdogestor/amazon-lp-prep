@@ -2,24 +2,36 @@
 
 /**
  * Slugify a string - converts to URL-friendly format
+ * Uses modern string methods and enhanced error handling
  * @param {string} s - String to slugify
  * @returns {string} Slugified string
  */
-export const slugify = (s) =>
-  (s || "")
+export const slugify = (s) => {
+  if (typeof s !== 'string') return '';
+  
+  return s
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
+};
 
 /**
  * Normalize string for search comparison
+ * Enhanced with type checking and performance optimization
  * @param {string} s - String to normalize
  * @returns {string} Normalized string
  */
-export const norm = (s) =>
-  (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+export const norm = (s) => {
+  if (typeof s !== 'string') return '';
+  
+  return s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .trim();
+};
 
 /**
  * Escape regex special characters to prevent injection

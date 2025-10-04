@@ -1,0 +1,123 @@
+# CI/CD Pipeline para Amazon LP Prep
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  # Job de testes e qualidade de código
+  test:
+    name: Testes e Qualidade
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        
+    - name: Instalar dependências
+      run: npm ci
+      
+    - name: Executar lint
+      run: npm run lint
+      
+    - name: Executar testes
+      run: npm run test:coverage
+      
+    - name: Upload coverage para Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage/coverage-final.json
+        fail_ci_if_error: false
+        
+    - name: Auditoria de segurança
+      run: npm audit --audit-level=high
+      continue-on-error: true
+
+  # Job de build e deploy
+  build-and-deploy:
+    name: Build e Deploy
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20.x'
+        cache: 'npm'
+        
+    - name: Instalar dependências
+      run: npm ci
+      
+    - name: Build da aplicação
+      run: npm run build
+      env:
+        NODE_ENV: production
+        
+    - name: Verificar tamanho do bundle
+      run: |
+        echo "Analisando tamanho do bundle..."
+        ls -lah dist/assets/
+        
+    - name: Deploy para GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+        cname: amazon-lp-prep.pages.dev
+
+  # Job de análise de performance
+  performance:
+    name: Análise de Performance
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v4
+      
+    - name: Audit de Performance com Lighthouse
+      uses: treosh/lighthouse-ci-action@v10
+      with:
+        configPath: './lighthouse.config.js'
+        uploadArtifacts: true
+        temporaryPublicStorage: true
+
+  # Job de notificação
+  notify:
+    name: Notificações
+    needs: [test, build-and-deploy, performance]
+    runs-on: ubuntu-latest
+    if: always()
+    
+    steps:
+    - name: Notificar sucesso
+      if: needs.build-and-deploy.result == 'success'
+      run: |
+        echo "✅ Deploy realizado com sucesso!"
+        echo "🌐 Aplicação disponível em: https://${{ github.repository_owner }}.github.io/amazon-lp-prep/"
+        
+    - name: Notificar falha
+      if: needs.test.result == 'failure' || needs.build-and-deploy.result == 'failure'
+      run: |
+        echo "❌ Pipeline falhou. Verificar logs dos jobs."
+        exit 1

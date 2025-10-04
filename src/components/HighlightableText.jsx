@@ -1,11 +1,26 @@
 /**
  * Component to highlight search terms within text (supports multi-word)
  * Uses a simple and reliable approach with regex
+ * 
+ * Features:
+ * - Case-insensitive highlighting
+ * - Accent-insensitive search (ação matches acao)
+ * - Multi-word search support
+ * - Filters short words (< 3 chars) to avoid highlighting articles
+ * - Safe regex escaping to prevent injection
+ * 
  * @param {Object} props - Component props
- * @param {string} props.text - Text to display
+ * @param {string} props.text - Text to display and search within
  * @param {string} props.searchTerm - Term(s) to highlight (space-separated for multiple)
- * @param {string} props.className - Additional CSS classes
- * @returns {JSX.Element} Highlighted text
+ * @param {string} [props.className=""] - Additional CSS classes to apply
+ * @returns {JSX.Element} Text with highlighted search terms
+ * 
+ * @example
+ * <HighlightableText 
+ *   text="Ação e reação são forças opostas" 
+ *   searchTerm="acao forcas"
+ *   className="text-lg"
+ * />
  */
 export function HighlightableText({ text, searchTerm, className = "" }) {
   if (!searchTerm || !text) {
