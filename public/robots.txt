@@ -1,0 +1,8 @@
+# GitHub Pages Configuration
+# Headers for security (if using Cloudflare or similar)
+
+## robots.txt - Allow all crawlers
+User-agent: *
+Allow: /
+
+## Security recommendations documented in SECURITY.md
