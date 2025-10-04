@@ -41,14 +41,11 @@ const mockPrinciplesData = [
   }
 ];
 
-// Mock do módulo de dados
-vi.mock('../../data_principles.js', () => ({
-  default: mockPrinciplesData
-}));
+// Não mockamos mais o módulo; injetamos os dados diretamente no hook
 
 describe('usePrinciplesData', () => {
   it('should return processed principles data', () => {
-    const { result } = renderHook(() => usePrinciplesData());
+    const { result } = renderHook(() => usePrinciplesData(mockPrinciplesData));
     
     expect(result.current).toHaveLength(2);
     expect(result.current[0].id).toBe('test-principle-1');
@@ -56,7 +53,7 @@ describe('usePrinciplesData', () => {
   });
 
   it('should add fallback values for missing fields', () => {
-    const { result } = renderHook(() => usePrinciplesData());
+    const { result } = renderHook(() => usePrinciplesData(mockPrinciplesData));
     
     const case2 = result.current[1].cases[0];
     
@@ -81,12 +78,7 @@ describe('usePrinciplesData', () => {
       { id: 'invalid2', principle: {} }, // missing cases
     ];
 
-    // Temporarily mock with invalid data
-    vi.doMock('../../data_principles.js', () => ({
-      default: invalidData
-    }));
-
-    const { result } = renderHook(() => usePrinciplesData());
+    const { result } = renderHook(() => usePrinciplesData(invalidData));
     
     // Should only return the valid principle
     expect(result.current).toHaveLength(1);
@@ -94,12 +86,7 @@ describe('usePrinciplesData', () => {
   });
 
   it('should handle non-array input gracefully', () => {
-    // Mock with non-array data
-    vi.doMock('../../data_principles.js', () => ({
-      default: null
-    }));
-
-    const { result } = renderHook(() => usePrinciplesData());
+    const { result } = renderHook(() => usePrinciplesData(null));
     
     expect(result.current).toEqual([]);
   });
@@ -118,23 +105,21 @@ describe('usePrinciplesData', () => {
       }
     ];
 
-    vi.doMock('../../data_principles.js', () => ({
-      default: dataWithInvalidCases
-    }));
-
-    const { result } = renderHook(() => usePrinciplesData());
+    const { result } = renderHook(() => usePrinciplesData(dataWithInvalidCases));
     
     expect(result.current[0].cases).toHaveLength(1);
     expect(result.current[0].cases[0].id).toBe('valid-case');
   });
 
   it('should memoize results to prevent unnecessary re-renders', () => {
-    const { result, rerender } = renderHook(() => usePrinciplesData());
+    const { result, rerender } = renderHook(({data}) => usePrinciplesData(data), {
+      initialProps: { data: mockPrinciplesData }
+    });
     
     const firstResult = result.current;
     
     // Re-render should return the same reference
-    rerender();
+    rerender({ data: mockPrinciplesData });
     
     expect(result.current).toBe(firstResult);
   });
