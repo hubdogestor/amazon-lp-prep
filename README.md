@@ -59,57 +59,79 @@ pnpm dev      # ou npm run dev
 
 ## 📁 Estrutura dos Dados
 
-### Princípios de Liderança
-Cada princípio está em um arquivo separado (`/src/data/`):
-- `customer_obsession.js`
-- `ownership.js`
-- `invent_and_simplify.js`
-- ... (16 arquivos total)
+### Nova Organização por Pastas
+Cada princípio agora possui sua própria pasta (`/src/data/`):
+```
+src/data/
+├── customer_obsession/
+│   ├── customer_obsession_config.js    # Configurações do LP
+│   ├── customer_obsession_case1.js     # Case 1 completo
+│   ├── customer_obsession_case2.js     # Case 2 completo
+│   └── customer_obsession_case3.js     # Case 3 completo
+├── ownership/
+│   ├── ownership_config.js
+│   ├── ownership_case1.js
+│   └── ... (6 cases)
+└── ... (16 LPs total)
+```
 
-### Formato dos Cases
+### Vantagens da Nova Estrutura
+- ✅ **Edição granular**: Edite apenas um case específico
+- ✅ **Melhor versionamento**: Git trackea mudanças por arquivo
+- ✅ **Facilita colaboração**: Múltiplas pessoas podem trabalhar simultaneamente
+- ✅ **Organização clara**: Cada LP tem sua pasta dedicada
+
+### Formato dos Arquivos
 ```javascript
-{
-  "title": "Nome do Case",
-  "pt": {
-    "s": "Situação em português...",
-    "t": "Tarefa em português...",
-    "a": "Ação em português...",
-    "r": "Resultado em português...",
-    "l": "Aprendizado em português..."
+// Arquivo de configuração (ex: ownership_config.js)
+const ownership_config = {
+  principle: {
+    title: "Mentalidade de Dono",
+    title_en: "Ownership",
+    description: "Descrição completa...",
+    icon: "👑"
   },
-  "en": {
-    "s": "Situation in English...",
-    "t": "Task in English...",
-    "a": "Action in English...",
-    "r": "Result in English...",
-    "l": "Learning in English..."
-  },
-  "fup": [
-    {
-      "q": "Follow-up question?",
-      "a": "Answer to the question..."
-    }
-  ]
-}
+  id: "ownership",
+  name: "Mentalidade de Dono"
+};
+
+// Arquivo de case (ex: ownership_case1.js)
+const case_1 = {
+  id: "case-unique-id",
+  title: "Título do Case",
+  company: "Nome da Empresa",
+  period: "MM/YYYY-MM/YYYY",
+  isTopCase: false,
+  pt: { s: "...", t: "...", a: "...", r: "...", l: "..." },
+  en: { s: "...", t: "...", a: "...", r: "...", l: "..." },
+  fups: [ /* 10 follow-up questions */ ]
+};
 ```
 
 ## 🔧 Personalização
 
-### Editando Cases
-1. Abra o arquivo do princípio em `/src/data/`
-2. Modifique o conteúdo dos cases
-3. Salve o arquivo
-4. A aplicação será atualizada automaticamente
+### Editando Cases Específicos
+1. Navegue até `/src/data/{princípio}/`
+2. Abra o arquivo do case desejado (ex: `ownership_case2.js`)
+3. Modifique o conteúdo STARL ou FUPs
+4. Salve o arquivo - aplicação atualizará automaticamente
 
-### Editando Icebreaker
-1. Abra `/src/data/principlesData.js`
-2. Modifique a seção `icebreakerData`
-3. Salve o arquivo
+### Editando Configuração de LP
+1. Navegue até `/src/data/{princípio}/`
+2. Abra o arquivo `{princípio}_config.js`
+3. Modifique título, descrição ou ícone
+4. Salve o arquivo
 
 ### Adicionando Novos Cases
-1. Abra o arquivo do princípio desejado
-2. Adicione um novo objeto no array `cases`
-3. Siga a estrutura existente
+1. Crie um novo arquivo `{princípio}_case{N}.js` na pasta do LP
+2. Copie a estrutura de um case existente
+3. Adicione o import em `/src/data/consolidatedPrinciples.js`
+4. Adicione na array do LP correspondente
+
+### Editando Icebreaker
+1. Abra `/src/data/icebreaker.js`
+2. Modifique as perguntas e respostas
+3. Salve o arquivo
 
 ## 🌐 Deploy
 

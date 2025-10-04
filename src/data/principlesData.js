@@ -1,20 +1,5 @@
-// Importar todos os princípios de liderança
-import customerObsession from './customer_obsession.js';
-import ownership from './ownership.js';
-import inventAndSimplify from './invent_and_simplify.js';
-import areRightALot from './are_right_a_lot.js';
-import learnAndBeCurious from './learn_and_be_curious.js';
-import hireAndDevelopTheBest from './hire_and_develop_the_best.js';
-import insistOnHighestStandards from './insist_on_highest_standards.js';
-import thinkBig from './think_big.js';
-import biasForAction from './bias_for_action.js';
-import frugality from './frugality.js';
-import earnTrust from './earn_trust.js';
-import diveDeep from './dive_deep.js';
-import disagreeAndCommit from './disagree_and_commit.js';
-import deliverResults from './deliver_results.js';
-import bestEmployer from './best_employer.js';
-import broadResponsibility from './broad_responsibility.js';
+// DEPRECATED: Este arquivo agora é apenas para compatibilidade com icebreaker e myQuestions
+// Os dados dos princípios agora vêm de consolidatedPrinciples.js
 
 // Icebreaker data
 export const icebreakerData = {
@@ -65,25 +50,8 @@ In recent years, I worked at Sicredi and Woop, focusing on fintech solutions, an
   }
 };
 
-// Consolidar todos os princípios
-export const principlesData = [
-  customerObsession,
-  ownership,
-  inventAndSimplify,
-  areRightALot,
-  learnAndBeCurious,
-  hireAndDevelopTheBest,
-  insistOnHighestStandards,
-  thinkBig,
-  biasForAction,
-  frugality,
-  earnTrust,
-  diveDeep,
-  disagreeAndCommit,
-  deliverResults,
-  bestEmployer,
-  broadResponsibility
-];
+// Os dados dos princípios agora são importados de consolidatedPrinciples.js
+// Este arquivo mantém apenas icebreaker para compatibilidade
 
-export default principlesData;
+export default icebreakerData;
 
