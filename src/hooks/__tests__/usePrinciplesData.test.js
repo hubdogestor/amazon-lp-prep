@@ -42,7 +42,7 @@ const mockPrinciplesData = [
 ];
 
 // Mock do módulo de dados
-vi.mock('../data_principles.js', () => ({
+vi.mock('../../data_principles.js', () => ({
   default: mockPrinciplesData
 }));
 
@@ -82,7 +82,7 @@ describe('usePrinciplesData', () => {
     ];
 
     // Temporarily mock with invalid data
-    vi.doMock('../data_principles.js', () => ({
+    vi.doMock('../../data_principles.js', () => ({
       default: invalidData
     }));
 
@@ -95,7 +95,7 @@ describe('usePrinciplesData', () => {
 
   it('should handle non-array input gracefully', () => {
     // Mock with non-array data
-    vi.doMock('../data_principles.js', () => ({
+    vi.doMock('../../data_principles.js', () => ({
       default: null
     }));
 
@@ -118,7 +118,7 @@ describe('usePrinciplesData', () => {
       }
     ];
 
-    vi.doMock('../data_principles.js', () => ({
+    vi.doMock('../../data_principles.js', () => ({
       default: dataWithInvalidCases
     }));
 
