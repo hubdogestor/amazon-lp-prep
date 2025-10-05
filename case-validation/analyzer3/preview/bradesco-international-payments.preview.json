@@ -11,7 +11,7 @@
       "s": "Eu auditava o relatorio mensal de pagamentos internacionais quando vi o alerta vermelho: o custo medio por transacao subiu de R$ 47 para R$ 54 (+15%) em seis meses, adicionando R$ 364k por mes ao P&L (R$ 4,3M anualizados). O SLA explodiu de 2h50 para 4h10 e o NPS premium caiu de 66 para 48; tres dos meus 20 maiores clientes ameaçaram migrar. Quando confrontei Operacoes, Compliance, TI e Comercial, ouvi \"isso nao e nosso problema\". O CFO cravou 90 dias para recuperar custo e SLA ou cortaria headcount.",
       "t": "Mesmo com mandato formal restrito a transformacao digital, eu declarei que assumiria ownership ponta a ponta. Na frente do comite eu prometi cortar ao menos 12% do custo medio, trazer o SLA para menos de 3h e recolocar o NPS acima de 65 dentro de 90 dias. Pedi sete dias para apresentar o plano e garanti entregas tangiveis em 30, sem budget extra.",
       "a": "No dia seguinte eu formei uma forca-tarefa com sete pessoas (Operacoes, Compliance, TI, Comercial, Procurement) com charter simples: daily de 30 minutos, decisoes por metrica e eu como single-threaded owner. (1) Eu construí um business case de tres cenarios cruzando custo incremental, churn de clientes priority (R$ 1,2M/ano) e multas potenciais do Bacen (ate 0,5% dos ativos) para ganhar o CFO. (2) Eu extraí 160k transacoes dos ultimos 90 dias, normalizei em Python e mostrei que 68% do custo vinha de reconciliacao manual e tabela antiquada de correspondentes. (3) Eu redesenhei o fluxo com filas medidas, implantei RPA conciliando SWIFT MT103 vs ledger e criei um score de risco que escalona tickets acima de R$ 200k para revisao manual. (4) Eu negociei com dois bancos correspondentes contratos baseados em volume com reducao media de 18 bps, condicionados a piloto de 30 dias com auditoria semanal. (5) Quando o diretor de Compliance travou o rollout, eu voei a Brasilia, apresentei os controles ao Bacen, ajustei segregacao de funcoes e sai com carta de nao oposicao em 48h. (6) Para recuperar clientes, eu liguei pessoalmente para os 30 maiores premium, abri canal 24/7 e publiquei dashboard no Grafana com 12 indicadores (SLA por pais, custo por corredor, backlog, MTTD, risco de churn).",
-      "r": "Em 74 dias eu atingi as metas: custo medio caiu de R$ 54 para R$ 46,4 (-14%), SLA voltou para 2h32, backlog diario despencou de 1.120 para 160 transacoes (-86%) e o NPS premium subiu de 48 para 74. Evitei perda anual de R$ 4,8M e zerei pedidos de cancelamento dos clientes priority. O CFO institucionalizou o ritual como template corporativo e meu dashboard virou fonte oficial nos comites.",
+      "r": "Em 74 dias eu atingi as metas: custo medio caiu de R$ 54 para R$ 46,4 (-14%), SLA voltou para 2h32, backlog diario despencou de 1.120 para 160 transacoes (-86%) e o NPS premium subiu de 48 para 74. Evitei perda anual de R$ 4,8M e zerei pedidos de cancelamento dos clientes priority. O CFO institucionalizou o ritual como template corporativo e meu dashboard virou fonte oficial em comites.",
       "l": "Eu aprendi que ownership real e ocupar o vazio entre silos antes que ele destrua valor. Transformar conflito em dado irrefutavel, negociar trade-offs com impacto financeiro e deixar mecanismos permanentes (RPA, score de risco, dashboard) garante que o problema nao volte. Esse virou meu playbook para crises de pagamentos."
     },
     "en": {
@@ -99,7 +99,7 @@
       "s": "Eu auditava o relatorio mensal de pagamentos internacionais quando vi o alerta vermelho: o custo medio por transacao subiu de R$ 47 para R$ 54 (+15%) em seis meses, adicionando R$ 364k por mes ao P&L (R$ 4,3M anualizados). O SLA explodiu de 2h50 para 4h10 e o NPS premium caiu de 66 para 48; tres dos meus 20 maiores clientes ameaçaram migrar. Quando confrontei Operacoes, Compliance, TI e Comercial, ouvi \"isso nao e nosso problema\". O CFO cravou 90 dias para recuperar custo e SLA ou cortaria headcount.",
       "t": "Mesmo com mandato formal restrito a transformacao digital, eu declarei que assumiria ownership ponta a ponta. Na frente do comite eu prometi cortar ao menos 12% do custo medio, trazer o SLA para menos de 3h e recolocar o NPS acima de 65 dentro de 90 dias. Pedi sete dias para apresentar o plano e garanti entregas tangiveis em 30, sem budget extra.",
       "a": "No dia seguinte eu formei uma forca-tarefa com sete pessoas (Operacoes, Compliance, TI, Comercial, Procurement) com charter simples: daily de 30 minutos, decisoes por metrica e eu como single-threaded owner. (1) Eu construí um business case de tres cenarios cruzando custo incremental, churn de clientes priority (R$ 1,2M/ano) e multas potenciais do Bacen (ate 0,5% dos ativos) para ganhar o CFO. (2) Eu extraí 160k transacoes dos ultimos 90 dias, normalizei em Python e mostrei que 68% do custo vinha de reconciliacao manual e tabela antiquada de correspondentes. (3) Eu redesenhei o fluxo com filas medidas, implantei RPA conciliando SWIFT MT103 vs ledger e criei um score de risco que escalona tickets acima de R$ 200k para revisao manual. (4) Eu negociei com dois bancos correspondentes contratos baseados em volume com reducao media de 18 bps, condicionados a piloto de 30 dias com auditoria semanal. (5) Quando o diretor de Compliance travou o rollout, eu voei a Brasilia, apresentei os controles ao Bacen, ajustei segregacao de funcoes e sai com carta de nao oposicao em 48h. (6) Para recuperar clientes, eu liguei pessoalmente para os 30 maiores premium, abri canal 24/7 e publiquei dashboard no Grafana com 12 indicadores (SLA por pais, custo por corredor, backlog, MTTD, risco de churn).",
-      "r": "Em 74 dias eu atingi as metas: custo medio caiu de R$ 54 para R$ 46,4 (-14%), SLA voltou para 2h32, backlog diario despencou de 1.120 para 160 transacoes (-86%) e o NPS premium subiu de 48 para 74. Evitei perda anual de R$ 4,8M e zerei pedidos de cancelamento dos clientes priority. O CFO institucionalizou o ritual como template corporativo e meu dashboard virou fonte oficial nos comites.",
+      "r": "Em 74 dias eu atingi as metas: custo medio caiu de R$ 54 para R$ 46,4 (-14%), SLA voltou para 2h32, backlog diario despencou de 1.120 para 160 transacoes (-86%) e o NPS premium subiu de 48 para 74. Evitei perda anual de R$ 4,8M e zerei pedidos de cancelamento dos clientes priority. O CFO institucionalizou o ritual como template corporativo e meu dashboard virou fonte oficial em comites.",
       "l": "Eu aprendi que ownership real e ocupar o vazio entre silos antes que ele destrua valor. Transformar conflito em dado irrefutavel, negociar trade-offs com impacto financeiro e deixar mecanismos permanentes (RPA, score de risco, dashboard) garante que o problema nao volte. Esse virou meu playbook para crises de pagamentos."
     },
     "en": {
@@ -180,7 +180,7 @@
       "positives": [
         "Customer Obsession forte (8 men��es relevantes)",
         "M�tricas robustas (37)",
-        "Ratio EU:N�S saud�vel (13:1)",
+        "Ratio EU:N�S saud�vel (13:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
@@ -205,7 +205,7 @@
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 13:1 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 13:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
@@ -231,7 +231,7 @@
         "positives": [
           "Customer Obsession forte (8 men��es relevantes)",
           "M�tricas robustas (37)",
-          "Ratio EU:N�S saud�vel (13:1)",
+          "Ratio EU:N�S saud�vel (13:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -245,10 +245,10 @@
         "conflictSignals": true,
         "mechanismSignals": 11,
         "ratio": {
-          "ratio": 0.9285714285714286,
+          "ratio": 1,
           "counts": {
             "eu": 13,
-            "nos": 1
+            "nos": 0
           }
         },
         "recency": {
@@ -272,9 +272,9 @@
             "deltaPct": 0.009923664122137405
           },
           "r": {
-            "ptLen": 390,
+            "ptLen": 389,
             "enLen": 406,
-            "deltaPct": 0.03940886699507389
+            "deltaPct": 0.04187192118226601
           },
           "l": {
             "ptLen": 322,

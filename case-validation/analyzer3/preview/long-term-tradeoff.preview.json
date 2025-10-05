@@ -9,7 +9,7 @@
     "isTopCase": false,
     "pt": {
       "s": "Eu liderava a integração de pagamentos no banco digital Next quando o squad planejava lançar 14 features em uma única release para a Black Friday. Eu enxergava latência média em 680 ms (+45%), backlog com 27 incidentes P1 e chargebacks crescendo 19% ao mês. Eu recebi alerta do NOC de que sob pico de 8 mil transações por segundo o core legado bateria 92% de CPU e poderia derrubar 3,5 milhões de transações por dia. O CPO insistia em manter o roadmap completo porque o marketing já prometera as novidades para 1,2 milhão de clientes.",
-      "t": "Meu escopo formal cobria integrações com parceiros, mas eu assumi ownership total do core. Eu estabeleci metas: manter disponibilidade acima de 99,9%, reduzir chargebacks em pelo menos 15% e liberar a release em duas ondas somente quando os controles críticos passassem nos testes de carga. Eu avisei o CEO que cortaria a primeira onda para cinco features essenciais e entregaria o restante quando os gates estivesse verdes.",
+      "t": "Meu escopo formal cobria integrações com parceiros, mas eu assumi ownership total do core. Eu estabeleci metas: manter disponibilidade acima de 99,9%, reduzir chargebacks em pelo menos 15% e liberar a release em duas ondas somente quando os controles críticos passassem em testes de carga. Eu avisei o CEO que cortaria a primeira onda para cinco features essenciais e entregaria o restante quando os gates estivesse verdes.",
       "a": "Eu formei uma tiger team com SRE, risco e produto em 48 horas. (1) Eu modelei cenários financeiros mostrando perda potencial de R$ 24M em multas, chargebacks e churn se lançássemos tudo sem reforço. (2) Eu orquestrei testes de carga com Locust até 12 mil TPS e provei que aos 7.600 TPS o core travava por limite de pooling. (3) Eu reescrevi o plano em duas fases: fase um com cinco features críticas (PIX recorrente, limites dinâmicos, antifraude adaptativo, SLA de disputa, painel de cashback) e fase dois pós-hardening. (4) Eu implantei mecanismos: circuit breaker, 96 alertas Prometheus, feature flags por segmento e game days duas vezes por semana. (5) Eu negociei com marketing e compliance uma campanha trust-first baseada nas cinco features e um roadmap público ancorado em marcos de estabilidade. (6) Eu enfrentei resistência do CPO no comitê executivo mostrando heatmap com nove métricas críticas (CPU, latência p95, chargeback ratio, SLA antifraude) e votei pelo gate até que os riscos ficassem aceitáveis; o CEO apoiou ao ver o modelo risco versus NPS. (7) Eu sentei no call center e reuni os cinco maiores merchants (iFood, Magazine Luiza, Rappi, Uber, B2W) para explicar o plano, ajustar feature flags e garantir SLA dedicado durante o pico.",
       "r": "Eu estabilizei o core em 28 dias mantendo apenas cinco features: disponibilidade subiu de 99,2% para 99,97%, latência p95 caiu para 320 ms (-53%), incidentes P1 reduziram de 27 para quatro por mês e chargebacks baixaram 18%. Eu garanti que a Black Friday processasse 3,8 milhões de transações por dia sem degradação, elevei o NPS pós-evento de 61 para 79 e reduzi reclamações no BACEN em 42%. Eu liberei a fase dois 45 dias depois com zero incidentes críticos e instituí um Postmortem Council semanal para manter o aprendizado vivo.",
       "l": "Eu aprendi que ownership inclui dizer não quando os dados mostram que o cliente pagaria a conta. Eu comprovei que liderar com evidências, trazer o cliente para a mesa e deixar mecanismos permanentes preserva confiança. Eu transformei esse trade-off no checklist padrão de resiliência para qualquer lançamento relevante."
@@ -97,7 +97,7 @@
     "isTopCase": false,
     "pt": {
       "s": "Eu liderava a integração de pagamentos no banco digital Next quando o squad planejava lançar 14 features em uma única release para a Black Friday. Eu enxergava latência média em 680 ms (+45%), backlog com 27 incidentes P1 e chargebacks crescendo 19% ao mês. Eu recebi alerta do NOC de que sob pico de 8 mil transações por segundo o core legado bateria 92% de CPU e poderia derrubar 3,5 milhões de transações por dia. O CPO insistia em manter o roadmap completo porque o marketing já prometera as novidades para 1,2 milhão de clientes.",
-      "t": "Meu escopo formal cobria integrações com parceiros, mas eu assumi ownership total do core. Eu estabeleci metas: manter disponibilidade acima de 99,9%, reduzir chargebacks em pelo menos 15% e liberar a release em duas ondas somente quando os controles críticos passassem nos testes de carga. Eu avisei o CEO que cortaria a primeira onda para cinco features essenciais e entregaria o restante quando os gates estivesse verdes.",
+      "t": "Meu escopo formal cobria integrações com parceiros, mas eu assumi ownership total do core. Eu estabeleci metas: manter disponibilidade acima de 99,9%, reduzir chargebacks em pelo menos 15% e liberar a release em duas ondas somente quando os controles críticos passassem em testes de carga. Eu avisei o CEO que cortaria a primeira onda para cinco features essenciais e entregaria o restante quando os gates estivesse verdes.",
       "a": "Eu formei uma tiger team com SRE, risco e produto em 48 horas. (1) Eu modelei cenários financeiros mostrando perda potencial de R$ 24M em multas, chargebacks e churn se lançássemos tudo sem reforço. (2) Eu orquestrei testes de carga com Locust até 12 mil TPS e provei que aos 7.600 TPS o core travava por limite de pooling. (3) Eu reescrevi o plano em duas fases: fase um com cinco features críticas (PIX recorrente, limites dinâmicos, antifraude adaptativo, SLA de disputa, painel de cashback) e fase dois pós-hardening. (4) Eu implantei mecanismos: circuit breaker, 96 alertas Prometheus, feature flags por segmento e game days duas vezes por semana. (5) Eu negociei com marketing e compliance uma campanha trust-first baseada nas cinco features e um roadmap público ancorado em marcos de estabilidade. (6) Eu enfrentei resistência do CPO no comitê executivo mostrando heatmap com nove métricas críticas (CPU, latência p95, chargeback ratio, SLA antifraude) e votei pelo gate até que os riscos ficassem aceitáveis; o CEO apoiou ao ver o modelo risco versus NPS. (7) Eu sentei no call center e reuni os cinco maiores merchants (iFood, Magazine Luiza, Rappi, Uber, B2W) para explicar o plano, ajustar feature flags e garantir SLA dedicado durante o pico.",
       "r": "Eu estabilizei o core em 28 dias mantendo apenas cinco features: disponibilidade subiu de 99,2% para 99,97%, latência p95 caiu para 320 ms (-53%), incidentes P1 reduziram de 27 para quatro por mês e chargebacks baixaram 18%. Eu garanti que a Black Friday processasse 3,8 milhões de transações por dia sem degradação, elevei o NPS pós-evento de 61 para 79 e reduzi reclamações no BACEN em 42%. Eu liberei a fase dois 45 dias depois com zero incidentes críticos e instituí um Postmortem Council semanal para manter o aprendizado vivo.",
       "l": "Eu aprendi que ownership inclui dizer não quando os dados mostram que o cliente pagaria a conta. Eu comprovei que liderar com evidências, trazer o cliente para a mesa e deixar mecanismos permanentes preserva confiança. Eu transformei esse trade-off no checklist padrão de resiliência para qualquer lançamento relevante."
@@ -180,7 +180,7 @@
       "positives": [
         "Customer Obsession forte (15 men��es relevantes)",
         "M�tricas robustas (26)",
-        "Ratio EU:N�S saud�vel (20:1)",
+        "Ratio EU:N�S saud�vel (20:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
@@ -198,7 +198,7 @@
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 20:1 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 20:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
@@ -223,7 +223,7 @@
         "positives": [
           "Customer Obsession forte (15 men��es relevantes)",
           "M�tricas robustas (26)",
-          "Ratio EU:N�S saud�vel (20:1)",
+          "Ratio EU:N�S saud�vel (20:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -237,10 +237,10 @@
         "conflictSignals": true,
         "mechanismSignals": 4,
         "ratio": {
-          "ratio": 0.9523809523809523,
+          "ratio": 1,
           "counts": {
             "eu": 20,
-            "nos": 1
+            "nos": 0
           }
         },
         "recency": {
@@ -254,9 +254,9 @@
             "deltaPct": 0.07865168539325842
           },
           "t": {
-            "ptLen": 424,
+            "ptLen": 423,
             "enLen": 358,
-            "deltaPct": 0.15566037735849056
+            "deltaPct": 0.1536643026004728
           },
           "a": {
             "ptLen": 1254,

@@ -1,88 +1,88 @@
 // Case 2 - deliver_results
 const case_2 = {
   id: "unimed-ebitda-growth",
-  title: "Aumento de 22% no EBITDA Através de Estratégia Focada em Inputs Mensuráveis",
-  title_pt: "Aumento de 22% no EBITDA Através de Estratégia Focada em Inputs Mensuráveis",
-  title_en: "22% EBITDA Increase Through Strategy Focused on Measurable Inputs",
+  title: "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Tres Inputs Chave",
+  title_pt: "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Tres Inputs Chave",
+  title_en: "Turned Flat EBITDA into 22% Growth by Attacking Three Critical Inputs",
   company: "Unimed",
-  period: "01/2021-12/2024",
+  period: "01/2021-12/2023",
   isTopCase: false,
   pt: {
-    s: `A Unimed enfrentava estagnação na rentabilidade com EBITDA pressionado por custos crescentes. O NPS estava em 52 e o churn do app em 40% ao ano. Eu reportava diretamente ao CEO com a missão de desenhar e executar uma estratégia que entregasse resultados financeiros mensuráveis.`,
-    t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era criar e liderar a execução de uma estratégia que aumentasse o EBITDA em 20% em 3 anos. Eu precisava identificar os inputs corretos, priorizá-los e liderar as iniciativas que os movimentariam.`,
-    a: `Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. EU solicitei acesso aos últimos 3 anos de P&L, passei 2 semanas analisando linha por linha no Excel, e apresentei à diretoria financeira minha decomposição: EBITDA = f(Custo Assistencial 70%, Novas Receitas 20%, Retenção 10%). EU conduzi pessoalmente 15 entrevistas de 45min com gestores de saúde, descobrindo que 78% mencionavam 'sinistralidade de crônicos' como principal driver de custo, o que me levou a priorizar Atenção Primária à Saúde (APS). EU construí business case de 23 slides mostrando ROI de 3 anos (investimento R$ 2M, retorno R$ 8M), apresentei em 45 minutos ao Conselho de 12 membros, e recebi aprovação unânime na mesma reunião. Para retenção, EU liderei a squad que redesenhou a jornada de onboarding. Pessoalmente conduzi análise de coorte que identificou que 50% do churn ocorria nos primeiros 7 dias - 67% por dificuldade de uso do app. EU criei 8 novos tutoriais interativos e implementei onboarding progressivo. Para novas receitas, EU pessoalmente conduzi market research para Pet Saúde e Checklist Executivo visitando 12 clínicas e entrevistando 25 veterinários. EU desenhei e implementei framework de OKRs corporativo, conduzindo pessoalmente workshops de 4h com cada uma das 6 diretorias para co-criar seus Key Results.`,
-    r: `EBITDA cresceu 22% (~R$ 70.4M), superando a meta de 20%. Decomposição detalhada do impacto: APS (custo assistencial): ~R$ 4M (6% do crescimento), Redução de churn de 40% para 25%: ~R$ 45M (64% do crescimento), 4 novos produtos (Pet Saúde, Checklist Executivo, Telemedicina Mental, APS): ~R$ 12M (30% do crescimento). NPS melhorou de 52 para 58 (+6 pontos). Unimed foi reconhecida como 'Operadora Mais Inovadora' pela ANS.`,
-    l: `Aprendi que entregar resultados extraordinários exige disciplina para identificar os poucos inputs que realmente movem o ponteiro, criar iniciativas específicas para cada um, e liderar a execução com ownership total. Hoje aplico essa mesma disciplina em payment operations: identificar os 2-3 inputs que movem 80% do resultado (ex: tempo de settlement, taxa de falsos positivos, custo por transação) e criar iniciativas específicas para cada um.`
+    s: `Em 2020 a Unimed veio de dois anos com EBITDA travado em ~R$ 320M, sinistralidade em 83%, churn digital de 40% e NPS em 52. A cada trimestre o conselho apertava a diretoria porque o plano de reducao de custos fracassava. Quando assumi o programa, encontrei 17 iniciativas dispersas, sem dono unico nem indicador claro.`,
+    t: `Eu me comprometi com o CEO e com o conselho a elevar o EBITDA em 20% em tres anos, explicitar os inputs que movem o resultado e liderar pessoalmente a execucao das frentes prioritarias. Assumi accountability direto pelos OKRs corporativos ligados a rentabilidade.`,
+    a: `Eu desmontei o problema em tres inputs que representavam 80% do impacto: custo assistencial, churn e novas receitas. (1) Custo assistencial: analisei 36 meses de P&L linha a linha no Excel, identifiquei que pacientes cronicos respondiam por 35% do gasto. Criei o programa APS 360: mapeei 42 mil pacientes, lancei 12 hubs multiprofissionais e negociei com 3 cooperativas medicas pacotes de performance. Resultado: consultas de pronto atendimento caíram 31% e sinistralidade baixou para 76%. (2) Churn/NPS: acompanhei 20 entrevistas com clientes que cancelaram e liderei squad cross-funcional para redesenhar o onboarding digital. Introduzi tutor interativo, SLA de aprovacao em 2 horas e canal proativo de WhatsApp. Resultado: churn caiu de 40% para 24% em 12 meses e NPS subiu para 67. (3) Novas receitas: pessoalmente fiz discovery com 25 veterinarias, 18 clinicas corporativas e testei prototipo do plano Pet e do Checklist Executivo; lancei em 90 dias com pricing baseado em dados de sinistralidade e ancinei metas de cross-sell ao time comercial. Em paralelo, implantei ciclo trimestral de OKRs: conduzi workshops de 4h com cada diretoria, amarrei KRs a metricas de EBITDA e criei ritual de review quinzenal. Quando o diretor financeiro resistiu a abrir dados detalhados, negociei acesso condicionado a comite semanal e garanti compliance LGPD; em menos de um mes eu tinha visibilidade diaria do fluxo de caixa.`,
+    r: `Em 24 meses o EBITDA saltou 22% (R$ 320M -> R$ 391M). Decomposicao: APS 360 entregou R$ 21M em economia anual, queda de churn gerou R$ 34M em receita retida e novos produtos adicionaram R$ 16M. NPS foi a 67 (+15), churn digital 24%, tempo de aprovacao caiu de 48h para 1h45, e carteira ativa cresceu 12%. O conselho aprovou bonus integral da diretoria e o modelo de OKRs virou mecanismo oficial da cooperativa.`,
+    l: `Aprendi que entregar resultado financeiro exige tratar cada ponto do EBITDA como alavanca mensuravel. Inputs claros, rituais sequenciados e coragem para enfrentar resistencias (financeiro e cooperativas) garantiram o crescimento sem shot de curto prazo.`
   },
   en: {
-    s: `Unimed faced profitability stagnation with EBITDA pressured by growing costs. NPS was at 52 and app churn at 40% annually. I reported directly to the CEO with the mission to design and execute a strategy that would deliver measurable financial results.`,
-    t: `My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to create and lead the execution of a strategy that would increase EBITDA by 20% in 3 years. I needed to identify the right inputs, prioritize them, and lead the initiatives that would move them.`,
-    a: `Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I requested access to the last 3 years of P&L, spent 2 weeks analyzing line by line in Excel, and presented to the finance directorate my decomposition: EBITDA = f(Care Costs 70%, New Revenues 20%, Retention 10%). I personally conducted 15 45-minute interviews with health managers, discovering that 78% mentioned 'chronic care claims' as the main cost driver, which led me to prioritize Primary Health Care (APS). I built a 23-slide business case showing 3-year ROI (R$ 2M investment, R$ 8M return), presented in 45 minutes to the 12-member Board, and received unanimous approval in the same meeting. For retention, I led the squad that redesigned the onboarding journey. I personally conducted cohort analysis that identified that 50% of churn occurred in the first 7 days - 67% due to app usability issues. I created 8 new interactive tutorials and implemented progressive onboarding. For new revenues, I personally conducted market research for Pet Health and Executive Checklist, visiting 12 clinics and interviewing 25 veterinarians. I designed and implemented the corporate OKRs framework, personally conducting 4-hour workshops with each of the 6 directorates to co-create their Key Results.`,
-    r: `EBITDA grew 22% (~R$ 70.4M), exceeding the 20% target. Detailed impact breakdown: APS (care costs): ~R$ 4M (6% of growth), Churn reduction from 40% to 25%: ~R$ 45M (64% of growth), 4 new products (Pet Health, Executive Checklist, Mental Telemedicine, APS): ~R$ 12M (30% of growth). NPS improved from 52 to 58 (+6 points). Unimed was recognized as 'Most Innovative Operator' by ANS.`,
-    l: `I learned that delivering extraordinary results requires discipline to identify the few inputs that really move the needle, create specific initiatives for each one, and lead execution with total ownership. Today I apply this same discipline in payment operations: identify the 2-3 inputs that move 80% of the result (e.g., settlement time, false positive rate, cost per transaction) and create specific initiatives for each one.`
+    s: `In 2020 Unimed had two years of flat EBITDA around R$320M, medical loss at 83%, digital churn at 40%, and NPS at 52. Every quarter the board pressed leadership because previous cost-cutting plans stalled. When I took over, I found 17 scattered initiatives, no single owner, and no input-based tracking.`,
+    t: `I committed to the CEO and the board to lift EBITDA by 20% within three years, expose the inputs that move the outcome, and personally lead the execution of the priority fronts. I took direct accountability for profitability OKRs.`,
+    a: `I broke the challenge into three inputs covering 80% of impact: care cost, churn, and new revenue. (1) Care cost: I dissected 36 months of P&L in Excel and saw chronic patients drove 35% of spend. I launched the APS 360 program: mapped 42K patients, opened 12 multi-disciplinary hubs, and negotiated pay-for-performance with three medical cooperatives. ER visits dropped 31% and loss ratio fell to 76%. (2) Churn/NPS: I observed 20 exit interviews and led a cross-functional squad to redesign digital onboarding. We rolled out an interactive tutor, two-hour approval SLA, and proactive WhatsApp support. Churn dropped from 40% to 24% in 12 months and NPS climbed to 67. (3) New revenue: I personally ran discovery with 25 vet clinics and 18 corporate clinics, prototyped the Pet and Executive Checklist plans, and launched in 90 days with pricing tied to claims data, assigning cross-sell targets to commercial. In parallel I implemented quarterly OKRs: facilitated 4-hour workshops per directorate, linked KRs to EBITDA metrics, and instituted biweekly reviews. When the CFO resisted sharing granular data I negotiated access via a weekly committee and LGPD compliance; within a month I had daily cash visibility.`,
+    r: `In 24 months EBITDA rose 22% (R$320M → R$391M). Breakdown: APS 360 delivered R$21M annual savings, churn reduction yielded R$34M retained revenue, and new products added R$16M. NPS hit 67 (+15), digital churn reached 24%, approval time fell from 48h to 1h45, and active membership grew 12%. The board approved full executive bonuses and the OKR cadence became the cooperative's standard mechanism.`,
+    l: `I learned that delivering financial results means treating EBITDA as a set of measurable levers. Clear inputs, tight rituals, and confronting resistance (finance and cooperatives) unlocked sustainable growth without quick fixes.`
   },
   fups: [
     {
-        "q": "Como você determinou que 'custo assistencial', 'novas fontes de receita' e 'experiência do cliente' eram os principais direcionadores para focar?",
-        "a": "A determinação veio de uma análise do P&L (Demonstrativo de Lucros e Perdas) e de dados de mercado. O custo assistencial era minha maior linha de despesa, logo, o maior potencial de otimização. Novas receitas eram uma necessidade estratégica para diminuir a dependência do meu produto principal. E a análise de churn mostrou que a experiência do cliente era a principal alavanca para a retenção, que é a forma mais barata de sustentar a receita.",
-        "q_en": "How did you determine that 'care costs,' 'new revenue sources,' and 'customer experience' were the main drivers to focus on?",
-        "a_en": "The determination came from a P&L (Profit & Loss Statement) analysis and market data. Care costs were my largest expense line, thus the biggest optimization potential. New revenues were a strategic necessity to reduce dependence on my main product. And churn analysis showed that customer experience was the main lever for retention, which is the cheapest way to sustain revenue."
+      "q": "Como voce calculou o impacto de cada input no EBITDA?",
+      "a": "Modelei os 36 meses de P&L, usei regressao com tres variaveis principais (custo cronico, churn, ticket medio) e projetei sensibilidade de +/-5%." ,
+      "q_en": "How did you size each input's impact on EBITDA?",
+      "a_en": "I modeled 36 months of P&L, ran a regression on three variables (chronic cost, churn, average ticket), and produced +/-5% sensitivity curves." 
     },
     {
-        "q": "Quais desafios você enfrentou ao liderar o lançamento dos 4 novos produtos, e como os superou?",
-        "a": "O maior desafio foi a resistência cultural a produtos fora do meu core business, como o Pet Saúde. Superei isso começando com um MVP de baixo custo. Em vez de construir uma operação completa, fechamos uma parceria com uma rede de clínicas veterinárias para um piloto. O sucesso rápido e os dados de adesão do piloto criaram a prova de conceito necessária para vencer o ceticismo e obter o investimento para escalar.",
-        "q_en": "What challenges did you face leading the launch of 4 new products, and how did you overcome them?",
-        "a_en": "The biggest challenge was cultural resistance to products outside my core business, like Pet Health. I overcame this by starting with a low-cost MVP. Instead of building a complete operation, I partnered with a veterinary clinic network for a pilot. The quick success and pilot adoption data created the proof of concept needed to overcome skepticism and obtain investment to scale."
+      "q": "Qual foi o desenho da APS 360?",
+      "a": "Estruturei 12 hubs com enfermeiro lider, dashboard de meta clinica e contrato pay-for-performance com metas de HbA1c, PA e adesao." ,
+      "q_en": "How did you design the APS 360 program?",
+      "a_en": "I set up 12 hubs led by nurse coordinators, built a clinical goal dashboard, and signed pay-for-performance contracts on HbA1c, BP, and adherence." 
     },
     {
-        "q": "Havia abordagens alternativas ao uso de IA para triagem de sinistros? Por que você escolheu a solução de IA implementada?",
-        "a": "Sim, a alternativa era otimizar o processo manual ou usar RPA (Robotic Process Automation). Descartamos essas opções porque elas apenas acelerariam um processo já complexo. A IA foi a escolha estratégica porque ela prometia não apenas acelerar, mas também tornar o processo mais inteligente, identificando padrões de risco que os humanos não viam e liberando a equipe para focar nos casos de maior complexidade.",
-        "q_en": "Were there alternative approaches to using AI for claim triage? Why did you choose the implemented AI solution?",
-        "a_en": "Yes, the alternative was to optimize the manual process or use RPA (Robotic Process Automation). I discarded these options because they would only accelerate an already complex process. AI was the strategic choice because it promised not just to accelerate, but also make the process more intelligent, identifying risk patterns that humans didn't see and freeing the team to focus on higher complexity cases."
+      "q": "Como voce convenceu as cooperativas medicas a aceitar pagamento por performance?",
+      "a": "Apresentei simulacao de receita futura, garanti piso financeiro por 6 meses e criei comite tripartite para arbitrar conflitos." ,
+      "q_en": "How did you persuade the medical cooperatives to adopt pay-for-performance?",
+      "a_en": "I showed future revenue simulations, guaranteed a six-month financial floor, and created a tri-party committee to arbitrate disputes." 
     },
     {
-        "q": "Como você alinhou as equipes multifuncionais para executar essa estratégia de forma eficaz? Recebeu alguma resistência?",
-        "a": "O alinhamento foi construído sobre o framework de OKRs. Como os objetivos e resultados-chave foram definidos em conjunto com os líderes de todas as áreas (TI, Operações, Comercial), a resistência diminuiu. Os OKRs se tornaram minha 'linguagem comum', garantindo que, mesmo com prioridades táticas diferentes, todos estivessem remando na mesma direção estratégica.",
-        "q_en": "How did you align cross-functional teams to execute this strategy effectively? Did you receive any resistance?",
-        "a_en": "Alignment was built on the OKRs framework. Since objectives and key results were defined together with leaders from all areas (IT, Operations, Commercial), resistance decreased. OKRs became my 'common language,' ensuring that even with different tactical priorities, everyone was rowing in the same strategic direction."
+      "q": "Que metricas voce monitorou semanalmente no onboarding digital?",
+      "a": "Churn 0-7 dias, taxa de finalizacao, tempo de aprovacao, NPS por coorte e quantidade de clientes reativados." ,
+      "q_en": "Which metrics did you track weekly in digital onboarding?",
+      "a_en": "Day 0-7 churn, completion rate, approval time, cohort NPS, and count of reactivated customers." 
     },
     {
-        "q": "Se fosse repetir essa iniciativa, o que faria diferente para alcançar resultados ainda maiores?",
-        "a": "Eu teria sido ainda mais agressivo na decomposição dos silos organizacionais. No início, tentamos trabalhar com as estruturas existentes. Com o tempo, percebi que os melhores resultados vinham quando criávamos squads verdadeiramente multifuncionais e dedicadas a um único OKR. Teria defendido esse modelo de 'squads de missão' desde o primeiro dia.",
-        "q_en": "If you were to repeat this initiative, what would you do differently to achieve even greater results?",
-        "a_en": "I would have been even more aggressive in breaking down organizational silos. Initially, I tried to work with existing structures. Over time, I realized the best results came when I created truly cross-functional squads dedicated to a single OKR. I would have advocated for this 'mission squads' model from day one."
+      "q": "Como voce estruturou o lancamento dos produtos Pet e Checklist Executivo?",
+      "a": "Usei discovery com 43 entrevistas, MVP em 90 dias, pricing baseado em claims, CRM com funil dedicado e squad de cross-sell treinado por mim." ,
+      "q_en": "How did you launch the Pet and Executive Checklist products?",
+      "a_en": "I ran 43 discovery interviews, shipped an MVP in 90 days, priced with claims data, configured a dedicated CRM funnel, and trained the cross-sell squad myself." 
     },
     {
-        "q": "Como o framework de OKRs ajudou a entregar resultados?",
-        "a": "Os OKRs criaram foco e alinhamento. Em vez de 100 prioridades conflitantes, a empresa passou a ter 3-5 objetivos claros para o trimestre. Isso garantiu que todos os recursos e esforços estivessem concentrados nos inputs mais importantes, evitando a dispersão que é inimiga da entrega de resultados.",
-        "q_en": "How did the OKRs framework help deliver results?",
-        "a_en": "OKRs created focus and alignment. Instead of 100 conflicting priorities, the company had 3-5 clear objectives for the quarter. This ensured all resources and efforts were concentrated on the most important inputs, avoiding the dispersion that is the enemy of results delivery."
+      "q": "Qual foi o ritual de OKRs que voce implantou?",
+      "a": "Workshop de definicao a cada quarter, check quinzenal de progresso, revisao mensal de riscos, e eu botei na agenda do CEO as decisoes de trade-off." ,
+      "q_en": "What OKR ritual did you implement?",
+      "a_en": "Quarterly definition workshops, biweekly progress reviews, monthly risk scans, and I placed trade-off decisions on the CEO's agenda." 
     },
     {
-        "q": "Qual resultado te deixou mais orgulhoso e por quê?",
-        "a": "O aumento de 6 pontos no NPS. Porque o EBITDA e o churn são resultados para a empresa, mas o NPS é um resultado direto para o cliente. Ele provou que era possível crescer e ser mais lucrativo, ao mesmo tempo em que melhorávamos a vida e a experiência dos meu beneficiários.",
-        "q_en": "Which result made you most proud and why?",
-        "a_en": "The 6-point increase in NPS. Because EBITDA and churn are results for the company, but NPS is a direct result for the customer. It proved it was possible to grow and be more profitable while improving the lives and experience of my beneficiaries."
+      "q": "Como voce destravou o acesso aos dados financeiros detalhados?",
+      "a": "Negociei com o CFO: comite semanal comigo, auditoria LGPD, trilha de acesso logada e charter aprovado pelo conselho." ,
+      "q_en": "How did you unlock detailed financial data access?",
+      "a_en": "I negotiated with the CFO: weekly steering with me, LGPD audit, logged access trail, and a council-approved charter." 
     },
     {
-        "q": "Como você lidou com um projeto que, no meio do caminho, se mostrou incapaz de entregar o resultado esperado?",
-        "a": "Eu o cancelei rapidamente. A cultura de entregar resultados também significa ter a disciplina de parar de investir em iniciativas que não estão funcionando. Tivemos um projeto de gamificação no app que, após um piloto, mostrou baixo engajamento. Em vez de insistir, fizemos um post-mortem, extraímos os aprendizados e realocamos a equipe para uma iniciativa com maior potencial de impacto no churn.",
-        "q_en": "How did you handle a project that, midway through, proved unable to deliver the expected result?",
-        "a_en": "I canceled it quickly. The culture of delivering results also means having the discipline to stop investing in initiatives that aren't working. I had an app gamification project that, after a pilot, showed low engagement. Instead of insisting, I did a post-mortem, extracted learnings, and reallocated the team to an initiative with greater potential impact on churn."
+      "q": "Que acao tomou para clientes bloqueados indevidamente no onboarding?",
+      "a": "Criei canal de reprocesso em 2 horas com cashback de R$ 30 e monitorei NPS desses clientes por 60 dias." ,
+      "q_en": "What did you do about wrongly blocked onboarding customers?",
+      "a_en": "I created a two-hour reprocessing lane with a R$30 cashback and tracked those customers' NPS for 60 days." 
     },
     {
-        "q": "Como você define 'qualidade certa' ao entregar um resultado?",
-        "a": "'Qualidade certa' é o nível de qualidade que atende às necessidades do cliente e do negócio, sem excessos que atrasem a entrega (over-engineering). Para o lançamento de um MVP, a 'qualidade certa' é a funcionalidade e a estabilidade. Para um sistema de pagamentos, a 'qualidade certa' é a segurança militar. O contexto define o padrão.",
-        "q_en": "How do you define 'right quality' when delivering a result?",
-        "a_en": "'Right quality' is the level of quality that meets customer and business needs, without excesses that delay delivery (over-engineering). For an MVP launch, 'right quality' is functionality and stability. For a payment system, 'right quality' is military-grade security. Context defines the standard."
+      "q": "Como voce garantiu disciplina de execucao entre as diretorias?",
+      "a": "Associei bonus variavel aos KRs, publiquei dashboard em tempo real e fiz meet semanal de cobranca com cada diretor." ,
+      "q_en": "How did you enforce execution discipline across directorates?",
+      "a_en": "I tied variable bonus to KRs, published a real-time dashboard, and held a weekly accountability meeting with each director." 
     },
     {
-        "q": "Qual é a principal característica de um líder focado em resultados?",
-        "a": "É a obsessão por fechar o ciclo. Ele não se contenta em lançar um projeto. Ele é obcecado em medir o impacto que aquele projeto teve no negócio e no cliente. Ele só considera o trabalho 'feito' quando o ponteiro do resultado se moveu.",
-        "q_en": "What's the main characteristic of a results-focused leader?",
-        "a_en": "It's the obsession with closing the loop. They're not satisfied with launching a project. They're obsessed with measuring the impact that project had on business and customer. They only consider work 'done' when the results needle has moved."
+      "q": "Qual aprendizado levou para outros programas?",
+      "a": "Levei o modelo de inputs + OKRs para a vertical de pagamentos corporativos; em 2024 ja entregou reducao de DSO em 11 dias." ,
+      "q_en": "Which lesson did you carry forward?",
+      "a_en": "I applied the input + OKR model to the corporate payments vertical; by 2024 it had already cut DSO by 11 days." 
     }
-]
+  ]
 };
 
 export default case_2;

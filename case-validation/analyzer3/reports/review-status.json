@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-05T10:54:02.274Z",
+  "run_at": "2025-10-05T11:23:37.430Z",
   "data_dir": "src/data",
   "total_cases": 72,
   "filtered_cases": 72,
@@ -1391,251 +1391,8 @@
     {
       "lp_id": "deliver_results",
       "case_id": "huawei-world-cup-4g",
-      "title_pt": "Entrega do Rollout de 4G a Tempo para a Copa do Mundo de 2014, Superando Obstáculos Críticos",
-      "title_en": "4G Rollout Delivery on Time for 2014 World Cup, Overcoming Critical Obstacles",
-      "status": "KO",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 41,
-        "status": "KO",
-        "dealbreakers": [
-          "Case muito antigo (>9 anos)"
-        ],
-        "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
-          "Hook inicial pode ser mais contundente",
-          "Transi��es STAR(L) pouco claras"
-        ],
-        "positives": [
-          "Customer Obsession forte (3 men��es relevantes)",
-          "M�tricas robustas (26)",
-          "Ratio EU:N�S saud�vel (9:1)",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 26,
-        "metricCategories": {
-          "financial": true,
-          "customer": false,
-          "operational": true
-        },
-        "customerSignals": 3,
-        "conflictSignals": false,
-        "mechanismSignals": 14,
-        "ratio": {
-          "ratio": 0.9,
-          "counts": {
-            "eu": 9,
-            "nos": 1
-          }
-        },
-        "recency": {
-          "monthsAgo": 136,
-          "status": "stale"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 589,
-            "enLen": 587,
-            "deltaPct": 0.003395585738539898
-          },
-          "t": {
-            "ptLen": 382,
-            "enLen": 354,
-            "deltaPct": 0.07329842931937172
-          },
-          "a": {
-            "ptLen": 1370,
-            "enLen": 1300,
-            "deltaPct": 0.051094890510948905
-          },
-          "r": {
-            "ptLen": 525,
-            "enLen": 506,
-            "deltaPct": 0.03619047619047619
-          },
-          "l": {
-            "ptLen": 446,
-            "enLen": 436,
-            "deltaPct": 0.02242152466367713
-          }
-        },
-        "hookSignals": false,
-        "transitionSignals": 0,
-        "micDropSignals": true
-      },
-      "changes": []
-    },
-    {
-      "lp_id": "deliver_results",
-      "case_id": "unimed-ebitda-growth",
-      "title_pt": "Aumento de 22% no EBITDA Através de Estratégia Focada em Inputs Mensuráveis",
-      "title_en": "22% EBITDA Increase Through Strategy Focused on Measurable Inputs",
-      "status": "Needs-Polish",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 82,
-        "status": "Needs-Polish",
-        "dealbreakers": [],
-        "warnings": [
-          "Customer Obsession fraca (poucos sinais)",
-          "Sem m�tricas operacionais expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
-          "Transi��es STAR(L) pouco claras"
-        ],
-        "positives": [
-          "M�tricas robustas (50)",
-          "Ratio EU:N�S saud�vel (10:1)",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 50,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": false
-        },
-        "customerSignals": 1,
-        "conflictSignals": false,
-        "mechanismSignals": 4,
-        "ratio": {
-          "ratio": 0.9090909090909091,
-          "counts": {
-            "eu": 10,
-            "nos": 1
-          }
-        },
-        "recency": {
-          "monthsAgo": 10,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 278,
-            "enLen": 252,
-            "deltaPct": 0.09352517985611511
-          },
-          "t": {
-            "ptLen": 324,
-            "enLen": 329,
-            "deltaPct": 0.015197568389057751
-          },
-          "a": {
-            "ptLen": 1353,
-            "enLen": 1316,
-            "deltaPct": 0.027346637102734665
-          },
-          "r": {
-            "ptLen": 421,
-            "enLen": 381,
-            "deltaPct": 0.09501187648456057
-          },
-          "l": {
-            "ptLen": 445,
-            "enLen": 429,
-            "deltaPct": 0.035955056179775284
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true
-      },
-      "changes": []
-    },
-    {
-      "lp_id": "deliver_results",
-      "case_id": "sicredi-fraud-reduction",
-      "title_pt": "Superação da Meta de Redução de Fraudes em 30% em 6 Meses",
-      "title_en": "Exceeding 30% Fraud Reduction Target in 6 Months",
-      "status": "KO",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 33,
-        "status": "KO",
-        "dealbreakers": [
-          "Aus�ncia de Customer Obsession"
-        ],
-        "warnings": [
-          "Sem m�tricas financeiras claras",
-          "Sem m�tricas de cliente expl�citas",
-          "Sem m�tricas operacionais expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
-          "Transi��es STAR(L) pouco claras"
-        ],
-        "positives": [
-          "M�tricas robustas (34)",
-          "Ratio EU:N�S saud�vel (5:1)",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 34,
-        "metricCategories": {
-          "financial": false,
-          "customer": false,
-          "operational": false
-        },
-        "customerSignals": 0,
-        "conflictSignals": false,
-        "mechanismSignals": 7,
-        "ratio": {
-          "ratio": 0.8333333333333334,
-          "counts": {
-            "eu": 5,
-            "nos": 1
-          }
-        },
-        "recency": {
-          "monthsAgo": 64,
-          "status": "needs-refresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 376,
-            "enLen": 355,
-            "deltaPct": 0.05585106382978723
-          },
-          "t": {
-            "ptLen": 315,
-            "enLen": 301,
-            "deltaPct": 0.044444444444444446
-          },
-          "a": {
-            "ptLen": 1423,
-            "enLen": 1374,
-            "deltaPct": 0.03443429374560787
-          },
-          "r": {
-            "ptLen": 555,
-            "enLen": 500,
-            "deltaPct": 0.0990990990990991
-          },
-          "l": {
-            "ptLen": 460,
-            "enLen": 434,
-            "deltaPct": 0.05652173913043478
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 0,
-        "micDropSignals": true
-      },
-      "changes": []
-    },
-    {
-      "lp_id": "deliver_results",
-      "case_id": "sefaz-ecage-portal",
-      "title_pt": "Liderança do Desenvolvimento do Portal e-CAGE com 100% de Adoção",
-      "title_en": "Leadership of e-CAGE Portal Development with 100% Adoption",
+      "title_pt": "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade",
+      "title_en": "Led the 4G/5G Upgrade for Copa America 2021 with 99.8% Availability",
       "status": "Ready",
       "lint": {
         "ok": true,
@@ -1650,25 +1407,259 @@
           "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (3 men��es relevantes)",
-          "M�tricas robustas (44)",
-          "Ratio EU:N�S saud�vel (11:0)",
+          "Customer Obsession forte (8 men��es relevantes)",
+          "M�tricas robustas (42)",
+          "Ratio EU:N�S saud�vel (4:1)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 44,
+        "metricsCount": 42,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 3,
+        "customerSignals": 8,
         "conflictSignals": true,
-        "mechanismSignals": 4,
+        "mechanismSignals": 7,
+        "ratio": {
+          "ratio": 0.8,
+          "counts": {
+            "eu": 4,
+            "nos": 1
+          }
+        },
+        "recency": {
+          "monthsAgo": 51,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 557,
+            "enLen": 499,
+            "deltaPct": 0.10412926391382406
+          },
+          "t": {
+            "ptLen": 288,
+            "enLen": 288,
+            "deltaPct": 0
+          },
+          "a": {
+            "ptLen": 1284,
+            "enLen": 1161,
+            "deltaPct": 0.09579439252336448
+          },
+          "r": {
+            "ptLen": 573,
+            "enLen": 470,
+            "deltaPct": 0.17975567190226877
+          },
+          "l": {
+            "ptLen": 257,
+            "enLen": 244,
+            "deltaPct": 0.05058365758754864
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "deliver_results",
+      "case_id": "unimed-ebitda-growth",
+      "title_pt": "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Tres Inputs Chave",
+      "title_en": "Turned Flat EBITDA into 22% Growth by Attacking Three Critical Inputs",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transi��es STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (8 men��es relevantes)",
+          "M�tricas robustas (41)",
+          "Ratio EU:N�S saud�vel (3:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 41,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 8,
+        "conflictSignals": true,
+        "mechanismSignals": 9,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 11,
+            "eu": 3,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 22,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 318,
+            "enLen": 302,
+            "deltaPct": 0.050314465408805034
+          },
+          "t": {
+            "ptLen": 263,
+            "enLen": 230,
+            "deltaPct": 0.12547528517110265
+          },
+          "a": {
+            "ptLen": 1415,
+            "enLen": 1214,
+            "deltaPct": 0.1420494699646643
+          },
+          "r": {
+            "ptLen": 410,
+            "enLen": 397,
+            "deltaPct": 0.03170731707317073
+          },
+          "l": {
+            "ptLen": 253,
+            "enLen": 228,
+            "deltaPct": 0.09881422924901186
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "deliver_results",
+      "case_id": "sicredi-fraud-reduction",
+      "title_pt": "Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses",
+      "title_en": "Built the Anti-Fraud Mechanism that Cut Losses 46% in 5 Months",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem conflito/resist�ncia vis�vel",
+          "Transi��es STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (11 men��es relevantes)",
+          "M�tricas robustas (30)",
+          "Ratio EU:N�S saud�vel (3:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 30,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 11,
+        "conflictSignals": false,
+        "mechanismSignals": 14,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 3,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 65,
+          "status": "needs-refresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 381,
+            "enLen": 289,
+            "deltaPct": 0.24146981627296588
+          },
+          "t": {
+            "ptLen": 212,
+            "enLen": 205,
+            "deltaPct": 0.0330188679245283
+          },
+          "a": {
+            "ptLen": 1135,
+            "enLen": 1034,
+            "deltaPct": 0.08898678414096917
+          },
+          "r": {
+            "ptLen": 458,
+            "enLen": 448,
+            "deltaPct": 0.021834061135371178
+          },
+          "l": {
+            "ptLen": 305,
+            "enLen": 302,
+            "deltaPct": 0.009836065573770493
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "deliver_results",
+      "case_id": "sefaz-ecage-portal",
+      "title_pt": "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção",
+      "title_en": "Turned e-CAGE into a Portal with 94% SLA Compliance and 100% Adoption",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 98,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
+          "Transi��es STAR(L) pouco claras"
+        ],
+        "positives": [
+          "M�tricas robustas (26)",
+          "Ratio EU:N�S saud�vel (4:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 26,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 1,
+        "conflictSignals": true,
+        "mechanismSignals": 5,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 4,
             "nos": 0
           }
         },
@@ -1678,33 +1669,33 @@
         },
         "parity": {
           "s": {
-            "ptLen": 521,
-            "enLen": 506,
-            "deltaPct": 0.028790786948176585
+            "ptLen": 457,
+            "enLen": 413,
+            "deltaPct": 0.0962800875273523
           },
           "t": {
-            "ptLen": 348,
-            "enLen": 338,
-            "deltaPct": 0.028735632183908046
+            "ptLen": 281,
+            "enLen": 285,
+            "deltaPct": 0.014035087719298246
           },
           "a": {
-            "ptLen": 1962,
-            "enLen": 1921,
-            "deltaPct": 0.02089704383282365
+            "ptLen": 1417,
+            "enLen": 1232,
+            "deltaPct": 0.1305575158786168
           },
           "r": {
-            "ptLen": 692,
-            "enLen": 655,
-            "deltaPct": 0.05346820809248555
+            "ptLen": 573,
+            "enLen": 563,
+            "deltaPct": 0.017452006980802792
           },
           "l": {
-            "ptLen": 618,
-            "enLen": 622,
-            "deltaPct": 0.006430868167202572
+            "ptLen": 253,
+            "enLen": 238,
+            "deltaPct": 0.05928853754940711
           }
         },
         "hookSignals": true,
-        "transitionSignals": 0,
+        "transitionSignals": 1,
         "micDropSignals": true
       },
       "changes": []

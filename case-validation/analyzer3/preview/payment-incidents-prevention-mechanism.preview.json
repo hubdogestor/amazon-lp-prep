@@ -11,7 +11,7 @@
       "s": "Eu atuava como advisor da SEFAZ/RS quando detectei um padrao perigoso: os mesmos incidentes de pagamentos (timeouts de gateway, divergencia de status, falhas de liquidacao) reapareciam a cada seis semanas. Cada crise congelava ate R$ 18M de arrecadacao diaria, gerava 4.500 chamados de contribuintes em 24h e derrubava o NPS de 63 para 41. Comunicacao, TI, arrecadacao e bancos parceiros trabalhavam em silos e ninguem assumia ownership do ciclo completo.",
       "t": "Eu defendi que, sem um mecanismo de prevencao, continuariamos apagando incendio. Assumi a responsabilidade de reduzir recorrencia em 50% e MTTR em 30% em quatro meses, criar um owner unico por incidente classe A e devolver o NPS para acima de 60.",
       "a": "Em duas semanas eu mapeei 62 incidentes dos ultimos 12 meses, calculei custo total de R$ 7,2M (horas extras, multas, atrasos de repasse) e usei o numero em reuniao com o secretario da Fazenda para garantir sponsorship. Eu criei o papel de Incident Captain: toda falha classe A passou a ter um dono unico ate a prevencao ficar ativa. Eu normalizei postmortems sem culpa com template de cinco blocos (linha do tempo, causa raiz, impacto na arrecadacao, acoes corretivas/preventivas, mecanismo instalado) e defini criterios tecnicos obrigatorios: retry idempotente em tres camadas (aplicacao, gateway, banco), rollback seguro, canario e verificacao de mensagens duplicadas. Eu publiquei catálogo de SLO por servico (PIX 5 minutos, debito automatico 15 minutos, transferencias 30 minutos) e dashboard no Datadog com MTTR, backlog de CAPA, reincidencia e volume de chamados. Quando o diretor de TI reclamou do tempo adicional para postmortem, eu provei que cada incidente repetido consumia 140 horas versus quatro horas para CAPA; ele autorizou tornar a pratica mandatória. Eu envolvi bancos Banrisul e Banco do Brasil com runbook conjunto, teste trimestral de contingencia e canal direto de escalonamento nivel 1, e alinhei comunicacao com SAC para atualizar contribuintes em ate 30 minutos apos o gatilho.",
-      "r": "Em quatro meses eu reduzi incidentes recorrentes de 12 para 5 (-58%) e baixei o MTTR medio de 3h40 para 2h25 (-34%). Nenhum incidente classe A se repetiu, reclamacoes na ouvidoria caíram 45%, o NPS voltou para 64 e a arrecadacao deixou de atrasar. As horas extras despencaram 25% e o secretario passou a usar meu dashboard nos comites semanais com o governador. O mecanismo virou politica oficial da SEFAZ e a Procergs replicou o modelo em sistemas criticos.",
+      "r": "Em quatro meses eu reduzi incidentes recorrentes de 12 para 5 (-58%) e baixei o MTTR medio de 3h40 para 2h25 (-34%). Nenhum incidente classe A se repetiu, reclamacoes na ouvidoria caíram 45%, o NPS voltou para 64 e a arrecadacao deixou de atrasar. As horas extras despencaram 25% e o secretario passou a usar meu dashboard em comites semanais com o governador. O mecanismo virou politica oficial da SEFAZ e a Procergs replicou o modelo em sistemas criticos.",
       "l": "Eu aprendi que ownership em incidentes significa transformar dor em mecanismo replicavel. Eu nunca encerro uma crise sem: 1) um owner nomeado ate a prevencao estar ativa, 2) criterios tecnicos que eliminam remendos e 3) metricas visiveis para toda a lideranca. Isso evita heroismo e protege a confianca no sistema de arrecadacao."
     },
     "en": {
@@ -99,7 +99,7 @@
       "s": "Eu atuava como advisor da SEFAZ/RS quando detectei um padrao perigoso: os mesmos incidentes de pagamentos (timeouts de gateway, divergencia de status, falhas de liquidacao) reapareciam a cada seis semanas. Cada crise congelava ate R$ 18M de arrecadacao diaria, gerava 4.500 chamados de contribuintes em 24h e derrubava o NPS de 63 para 41. Comunicacao, TI, arrecadacao e bancos parceiros trabalhavam em silos e ninguem assumia ownership do ciclo completo.",
       "t": "Eu defendi que, sem um mecanismo de prevencao, continuariamos apagando incendio. Assumi a responsabilidade de reduzir recorrencia em 50% e MTTR em 30% em quatro meses, criar um owner unico por incidente classe A e devolver o NPS para acima de 60.",
       "a": "Em duas semanas eu mapeei 62 incidentes dos ultimos 12 meses, calculei custo total de R$ 7,2M (horas extras, multas, atrasos de repasse) e usei o numero em reuniao com o secretario da Fazenda para garantir sponsorship. Eu criei o papel de Incident Captain: toda falha classe A passou a ter um dono unico ate a prevencao ficar ativa. Eu normalizei postmortems sem culpa com template de cinco blocos (linha do tempo, causa raiz, impacto na arrecadacao, acoes corretivas/preventivas, mecanismo instalado) e defini criterios tecnicos obrigatorios: retry idempotente em tres camadas (aplicacao, gateway, banco), rollback seguro, canario e verificacao de mensagens duplicadas. Eu publiquei catálogo de SLO por servico (PIX 5 minutos, debito automatico 15 minutos, transferencias 30 minutos) e dashboard no Datadog com MTTR, backlog de CAPA, reincidencia e volume de chamados. Quando o diretor de TI reclamou do tempo adicional para postmortem, eu provei que cada incidente repetido consumia 140 horas versus quatro horas para CAPA; ele autorizou tornar a pratica mandatória. Eu envolvi bancos Banrisul e Banco do Brasil com runbook conjunto, teste trimestral de contingencia e canal direto de escalonamento nivel 1, e alinhei comunicacao com SAC para atualizar contribuintes em ate 30 minutos apos o gatilho.",
-      "r": "Em quatro meses eu reduzi incidentes recorrentes de 12 para 5 (-58%) e baixei o MTTR medio de 3h40 para 2h25 (-34%). Nenhum incidente classe A se repetiu, reclamacoes na ouvidoria caíram 45%, o NPS voltou para 64 e a arrecadacao deixou de atrasar. As horas extras despencaram 25% e o secretario passou a usar meu dashboard nos comites semanais com o governador. O mecanismo virou politica oficial da SEFAZ e a Procergs replicou o modelo em sistemas criticos.",
+      "r": "Em quatro meses eu reduzi incidentes recorrentes de 12 para 5 (-58%) e baixei o MTTR medio de 3h40 para 2h25 (-34%). Nenhum incidente classe A se repetiu, reclamacoes na ouvidoria caíram 45%, o NPS voltou para 64 e a arrecadacao deixou de atrasar. As horas extras despencaram 25% e o secretario passou a usar meu dashboard em comites semanais com o governador. O mecanismo virou politica oficial da SEFAZ e a Procergs replicou o modelo em sistemas criticos.",
       "l": "Eu aprendi que ownership em incidentes significa transformar dor em mecanismo replicavel. Eu nunca encerro uma crise sem: 1) um owner nomeado ate a prevencao estar ativa, 2) criterios tecnicos que eliminam remendos e 3) metricas visiveis para toda a lideranca. Isso evita heroismo e protege a confianca no sistema de arrecadacao."
     },
     "en": {
@@ -180,7 +180,7 @@
       "positives": [
         "Customer Obsession forte (3 men��es relevantes)",
         "M�tricas robustas (17)",
-        "Ratio EU:N�S saud�vel (11:1)",
+        "Ratio EU:N�S saud�vel (11:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
@@ -198,7 +198,7 @@
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 11:1 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 11:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
@@ -223,7 +223,7 @@
         "positives": [
           "Customer Obsession forte (3 men��es relevantes)",
           "M�tricas robustas (17)",
-          "Ratio EU:N�S saud�vel (11:1)",
+          "Ratio EU:N�S saud�vel (11:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -237,10 +237,10 @@
         "conflictSignals": true,
         "mechanismSignals": 12,
         "ratio": {
-          "ratio": 0.9166666666666666,
+          "ratio": 1,
           "counts": {
             "eu": 11,
-            "nos": 1
+            "nos": 0
           }
         },
         "recency": {
@@ -264,9 +264,9 @@
             "deltaPct": 0.14823348694316435
           },
           "r": {
-            "ptLen": 458,
+            "ptLen": 457,
             "enLen": 417,
-            "deltaPct": 0.08951965065502183
+            "deltaPct": 0.087527352297593
           },
           "l": {
             "ptLen": 329,
