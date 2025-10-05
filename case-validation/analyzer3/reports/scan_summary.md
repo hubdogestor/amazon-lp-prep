@@ -1,10 +1,10 @@
 # scan_summary.md
-Gerado em: 2025-10-05T00:37:25.389Z
+Gerado em: 2025-10-05T01:18:42.524Z
 
-- Casos avaliados: 72
-- Ready: 12 | Needs-Polish: 6 | Needs-Rewrite: 1 | KO: 43 | Lint blockers: 10
-- Score m�dio: 43.9
-- M�tricas por case (m�dia): 19.2
-- Ratio EU:N�S m�dio: 0.77
-- Dealbreakers totais: 82
-- Warnings totais: 291
+- Casos avaliados: 4
+- Ready: 4 | Needs-Polish: 0 | Needs-Rewrite: 0 | KO: 0 | Lint blockers: 0
+- Score m�dio: 98.8
+- M�tricas por case (m�dia): 40.0
+- Ratio EU:N�S m�dio: 0.83
+- Dealbreakers totais: 0
+- Warnings totais: 7
