@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-05T23:22:20.981Z",
+  "run_at": "2025-10-05T23:28:25.738Z",
   "data_dir": "src/data",
   "total_cases": 72,
   "filtered_cases": 72,
@@ -2692,41 +2692,40 @@
       "case_id": "sefaz-zero-budget-pmo",
       "title_pt": "Geração de U$1.4M em Ganhos de Eficiência no Setor Público sem Aumento de Orçamento",
       "title_en": "Generating $1.4M in Public Sector Efficiency Gains Without Budget Increase",
-      "status": "KO",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 50,
-        "status": "KO",
-        "dealbreakers": [
-          "Ausência de Customer Obsession"
-        ],
+        "score": 96,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
           "Sem conflito/resistência visível",
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Métricas robustas (30)",
-          "Ratio EU:NÓS saudável (4:1)",
+          "Customer Obsession forte (3 menções relevantes)",
+          "Métricas robustas (27)",
+          "Ratio EU:NÓS saudável (5:0)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 30,
+        "metricsCount": 27,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 0,
+        "customerSignals": 3,
         "conflictSignals": false,
         "mechanismSignals": 7,
         "ratio": {
-          "ratio": 0.8,
+          "ratio": 1,
           "counts": {
-            "eu": 4,
-            "nos": 1
+            "eu": 5,
+            "nos": 0
           }
         },
         "recency": {
@@ -2735,9 +2734,9 @@
         },
         "parity": {
           "s": {
-            "ptLen": 684,
-            "enLen": 625,
-            "deltaPct": 0.08625730994152046
+            "ptLen": 705,
+            "enLen": 642,
+            "deltaPct": 0.08936170212765958
           },
           "t": {
             "ptLen": 649,
@@ -2750,9 +2749,9 @@
             "deltaPct": 0.07742461287693561
           },
           "r": {
-            "ptLen": 789,
-            "enLen": 663,
-            "deltaPct": 0.1596958174904943
+            "ptLen": 833,
+            "enLen": 731,
+            "deltaPct": 0.12244897959183673
           },
           "l": {
             "ptLen": 705,
@@ -2772,54 +2771,52 @@
       "case_id": "huawei-resource-optimization",
       "title_pt": "Otimização de Recursos em um Portfólio de 50+ Projetos para Acelerar o Rollout do 4G",
       "title_en": "Resource Optimization in 50+ Project Portfolio to Accelerate 4G Rollout",
-      "status": "KO",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 0,
-        "status": "KO",
-        "dealbreakers": [
-          "Ausência de Customer Obsession",
-          "Ratio EU:NÓS abaixo de 2:1 (2:2)",
-          "Case muito antigo (>9 anos)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
           "Sem métricas de cliente explícitas",
-          "Sem conflito/resistência visível",
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Métricas robustas (14)",
+          "Customer Obsession forte (7 menções relevantes)",
+          "Métricas robustas (22)",
+          "Ratio EU:NÓS saudável (4:1)",
+          "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 14,
+        "metricsCount": 22,
         "metricCategories": {
           "financial": true,
           "customer": false,
           "operational": true
         },
-        "customerSignals": 0,
-        "conflictSignals": false,
+        "customerSignals": 7,
+        "conflictSignals": true,
         "mechanismSignals": 6,
         "ratio": {
-          "ratio": 0.5,
+          "ratio": 0.8,
           "counts": {
-            "eu": 2,
-            "nos": 2
+            "eu": 4,
+            "nos": 1
           }
         },
         "recency": {
-          "monthsAgo": 118,
-          "status": "stale"
+          "monthsAgo": 70,
+          "status": "needs-refresh"
         },
         "parity": {
           "s": {
-            "ptLen": 482,
-            "enLen": 451,
-            "deltaPct": 0.06431535269709543
+            "ptLen": 608,
+            "enLen": 535,
+            "deltaPct": 0.12006578947368421
           },
           "t": {
             "ptLen": 487,
@@ -2827,14 +2824,14 @@
             "deltaPct": 0.08829568788501027
           },
           "a": {
-            "ptLen": 1513,
-            "enLen": 1393,
-            "deltaPct": 0.07931262392597488
+            "ptLen": 1295,
+            "enLen": 1211,
+            "deltaPct": 0.06486486486486487
           },
           "r": {
-            "ptLen": 495,
-            "enLen": 461,
-            "deltaPct": 0.06868686868686869
+            "ptLen": 782,
+            "enLen": 701,
+            "deltaPct": 0.10358056265984655
           },
           "l": {
             "ptLen": 409,
