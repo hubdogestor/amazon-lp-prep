@@ -23,8 +23,11 @@
 - `best_employer`: 3/3 cases Ready (scores 92,99,96 | metricas medias 22.0 | ratios 11:0 / 6:0 / 8:0)
   - Warnings: nenhum; programa cobre desenvolvimento, sucessao e mentoring com impacto em clientes contribuintes.
 - `bias_for_action`: 4/4 cases Ready (scores 100,100,100,100 | metricas medias 19.8 | bias signals 10/4/7/13)
-| 2025-10-05 16:45 | bias_for_action | bradesco-next-rapid-launch | Reescrito + refine preview | 100 | Aviso: case 2016 mantido; mecanismo SeDR documentado |
+  - Warnings: apenas `bradesco-next-rapid-launch` marcado como case antigo (>7 anos); manter narrativa conectada ao mecanismo atual.
   - Observacoes: portal emergencial SEFAZ (2024) e Phoenix Unimed (2023) adicionados para garantir recencia.
+- `insist_on_highest_standards`: 4/4 cases Ready (scores 100,100,100,87 | metricas medias 21.5 | bias signals 0/0/0/2)
+  - Warnings: `reject-mediocre-work-procergs` permanece com score 87 (quality gate monitorado); demais sem pendencias.
+  - Observacoes: Outcome First elevou o padrao de valor ao cliente e o Phoenix Gate virou norma contratual.
 - Testes (`npm test`) e build (`npm run build`) verdes em 05/10 13:19-13:24
 - Previews atualizados 05/10 13:20 (`bradesco-agile-community-creation`, `sicredi-360-feedback-system`, `sefaz-reverse-mentoring-program`) e 13:02 (`sicredi-mobile-first-strategy`, `huawei-4g-rollout-analysis`, `sicredi-api-pricing-model`)
 - `review-status.json` 05/10 13:20 registra todos os Ready de `best_employer` e 13:02 os de `are_right_a_lot`
@@ -45,6 +48,14 @@
 ## Historico
 | Data | LP | Case | Acao | Score | Notas |
 |------|----|------|------|-------|-------|
+| 2025-10-05 20:05 | insist_on_highest_standards | hsbc-zero-defects | Revisado + validate | 100 | Mantem narrativa 2014; sem ajustes
+| 2025-10-05 20:05 | insist_on_highest_standards | sefaz-pmo-governance | Reescrito + refine preview | 100 | Outcome First e portal transparente; ROI R mi |
+| 2025-10-05 20:05 | insist_on_highest_standards | sicredi-payment-sla | Reescrito + refine preview | 100 | Reliability 4x9 garante 4 nines e NPS 88 |
+| 2025-10-05 20:05 | insist_on_highest_standards | reject-mediocre-work-procergs | Reescrito + refine preview | 87 | Phoenix Gate ativado; foco em clientes contribuintes |
+| 2025-10-05 20:05 | bias_for_action | bradesco-next-rapid-launch | Reescrito + refine preview | 100 | Aviso: case 2016 mantido; mecanismo SeDR documentado |
+| 2025-10-05 20:05 | bias_for_action | sicredi-ml-credit-analysis | Reescrito + refine preview | 100 | ML em 90 dias, shadow mode replicavel |
+| 2025-10-05 20:05 | bias_for_action | sefaz-emergency-tax-portal | Reescrito + refine preview | 100 | Portal alivio 18 dias; NPS 76; perda evitada R mi |
+| 2025-10-05 20:05 | bias_for_action | calculated-risk-time-critical | Reescrito + refine preview | 100 | Plano Phoenix telemedicina; NPS 82 |
 | 2025-10-05 13:02 | are_right_a_lot | sicredi-api-pricing-model | Revisado + refine preview | 100 | Pricing tierizado, revenue +8,7%; modelo Price Ladder |
 | 2025-10-05 13:02 | are_right_a_lot | huawei-4g-rollout-analysis | Revisado + refine preview | 100 | Antenas ativas, throughput 1,42 Gbps; mecanismo Risk Twin |
 | 2025-10-05 13:02 | are_right_a_lot | sicredi-mobile-first-strategy | Revisado + refine preview | 100 | Roadmap hibrido com oito stakeholders; mecanismo Data Gate |
@@ -55,11 +66,3 @@
 | 2025-10-05 12:44 | disagree_and_commit | bradesco-mvp-feature-prioritization | Revisado + refine preview | 100 | Feed em 82 dias, churn -2,4 p.p.; warnings limpos |
 | 2025-10-05 12:44 | disagree_and_commit | huawei-world-cup-timeline | Revisado + refine preview | 100 | Licencas em 7 dias, disponibilidade 99,94%; fans NPS 81 |
 | 2025-10-05 12:44 | disagree_and_commit | unimed-retention-strategy | Revisado + refine preview | 100 | Churn 3,6% -> 2,1%; telemedicina +52%; compromisso registrado |
-| 2025-10-05 16:45 | bias_for_action | bradesco-next-rapid-launch | Reescrito + refine preview | 100 | Aviso: case 2016 mantido; mecanismo SeDR documentado |
-| 2025-10-05 16:45 | bias_for_action | sicredi-ml-credit-analysis | Reescrito + refine preview | 100 | ML em 90 dias, shadow mode replicavel |
-| 2025-10-05 16:19 | bias_for_action | huawei-logistics-optimization-pilot | Validate + refine preview | 0 | KO: narrativa placeholder; precisa reescrever com metricas, conflito e customer obsession reais |
-| 2025-10-05 16:19 | bias_for_action | calculated-risk-time-critical | Validate + refine preview | 0 | KO: falta STAR completo; incluir situacao real, decisao two-way door e plano de rollback |
-| 2025-10-05 16:45 | bias_for_action | bradesco-next-rapid-launch | Reescrito + refine preview | 100 | Aviso: case 2016 mantido; mecanismo SeDR documentado |
-| 2025-10-05 16:45 | bias_for_action | sicredi-ml-credit-analysis | Reescrito + refine preview | 100 | ML em 90 dias, shadow mode replicavel |
-| 2025-10-05 16:34 | bias_for_action | huawei-logistics-optimization-pilot | Reescrito + refine preview | 100 | Stop or swap replicado; SLA 4,6 dias |
-| 2025-10-05 16:34 | bias_for_action | calculated-risk-time-critical | Reescrito + refine preview | 100 | Plano Phoenix replicado em 9 regionais |

@@ -1,88 +1,38 @@
-// Case 4 - insist_on_highest_standards
+﻿// Case 4 - insist_on_highest_standards
 const case_4 = {
   id: "reject-mediocre-work-procergs",
-  title: "Rejeitei Entrega Abaixo do Padrão e Elevei o Nível (PROCERGS)",
-  title_pt: "Rejeitei Entrega Abaixo do Padrão e Elevei o Nível (PROCERGS)",
-  title_en: "Rejected a Below-standard Delivery and Raised the Bar (PROCERGS)",
-  company: "CAGE/SEFAZ-RS",
-  period: "2024",
+  title: "Rejeitei Entrega da PROCERGS e Institui Quality Gate Zero Falhas",
+  title_pt: "Rejeitei Entrega da PROCERGS e Institui Quality Gate Zero Falhas",
+  title_en: "Rejected PROCERGS Delivery and Instituted Zero-Defect Quality Gate",
+  company: "SEFAZ/RS",
+  period: "11/2024--02/2025",
   isTopCase: false,
   pt: {
-    s: `Entrega de integração sem testes e com documentação inconsistente; aprovar traria defeitos, retrabalho e risco de imagem.`,
-    t: `Proteger qualidade e educar o fornecedor sem paralisar cronograma.`,
-    a: `Bloqueei homologação; defini checklist objetivo, DoD e evidências obrigatórias; implementei gate reviews e sessões de alinhamento com a liderança do fornecedor.`,
-    r: `Defeitos -36%; retrabalho -22%; relação amadureceu e ganhos se mantiveram.`,
-    l: `Padrões altos precisam de critérios verificáveis e rituais sustentáveis.`
+    s: `Em novembro de 2024 a PROCERGS entregou a primeira versao da integracao fiscal usada pelos clientes contribuintes afetados pelas enchentes. Detectei 74 defeitos bloqueadores, zero testes automatizados e documentacao divergente. Se eu aceitasse em 72 horas, como previa o contrato, exporia 12 mil clientes a dados incorretos e fraude.` ,
+    t: `Como advisor da CAGE eu era dono tecnico e contratual. Minha responsabilidade era proteger o contribuinte e garantir que o sistema entrasse em producao sem risco. Decidi rejeitar a entrega e elevar o padrao de qualidade mesmo sob ameaca de multa.` ,
+    a: `Convoquei comite emergencial com PROCERGS e Casa Civil e congelei o aceite ate um novo quality gate ser atingido. O diretor da PROCERGS citou a multa de R$ 1,3 mi; apresentei laudo com os 74 defeitos, 112 cenarios sem teste e o risco aos clientes. No mesmo dia escrevi o "Phoenix Quality Gate" com 32 criterios: 85% de cobertura automatizada, teste de carga 3x pico historico, evidencia LGPD, checklist de rollback e sign-off do meu time. Montei task force de 18 pessoas com daily 7h e guerra de logs 19h. Reescrevi o pipeline CI/CD adicionando SonarQube, Cypress, OWASP ZAP e k6; qualquer falha quebrava o build. Negociei com a PGE suspensao da multa por cinco dias em troca de plano com milestones e responsaveis nomeados. Informei as federacoes de lojistas para manter clientes cientes do bloqueio. Implantei banco de auditoria com hash duplo e conduzi walkthrough linha a linha, rejeitando tres vezes o modulo de conciliacao ate atingir 99,5% de confianca estatistica. Em 28 dias cada story acumulou 142 testes (antes zero), NFRs passaram em 10 mil acessos simultaneos e a documentacao ficou 94% aderente ao guia BID.` ,
+    r: `A versao final foi homologada em 6 de janeiro de 2025 com zero incidentes. Tempo de processamento caiu de 27 para 11 minutos, disponibilidade subiu a 99,94% e o NPS dos clientes contribuintes passou de 58 para 82 nas duas primeiras semanas. Evitamos a multa de R$ 1,3 mi, auditoria confirmou zero discrepancias e o BID registrou o gate como referencia. Defeitos em entregas posteriores cairam 36% e o contrato passou a vincular aceitacao a evidencias.` ,
+    l: `Aprendi que manter o padrao mais alto exige coragem contratual e mecanismos objetivos. Hoje qualquer fornecedor assina o Phoenix Gate antes da primeira sprint.`
   },
   en: {
-    s: `Integration delivered without tests and with inconsistent docs; approving would cause defects, rework, and reputational risk.`,
-    t: `Protect quality and educate the vendor without freezing schedule.`,
-    a: `I blocked acceptance; set an objective checklist, DoD, and mandatory evidence; ran gate reviews and alignment sessions with vendor leadership.`,
-    r: `-36% defects; -22% rework; relationship matured and gains persisted.`,
-    l: `High standards require verifiable criteria and sustainable rituals.`
+    s: `In November 2024 PROCERGS delivered the first integration build for flood relief customers. I found 74 blocking defects, zero automated tests, and conflicting documentation. Accepting within 72 hours would expose 12k customers to incorrect data and potential fraud.` ,
+    t: `As CAGE advisor I owned technical and contractual outcomes. I chose to reject the delivery and raise the bar despite the BRL 1.3M penalty threat.` ,
+    a: `I called an emergency committee with PROCERGS and the governor's office, freezing acceptance until a new quality gate was met. The vendor cited the penalty; I countered with a documented report of 74 defects, 112 untested scenarios, and risk to taxpayers. I drafted the "Phoenix Quality Gate" with 32 criteria—85% automated coverage, 3x load tests, LGPD evidence, rollback checklist, and my team's sign-off. I formed an 18-person task force with 7am dailies and 7pm log reviews, rewired CI/CD with SonarQube, Cypress, OWASP ZAP, and k6, and negotiated a five-day penalty suspension with the state attorney in exchange for a milestone plan. I briefed business federations to keep customers informed. I deployed a double-hash audit database and walked through critical flows, rejecting the reconciliation module three times until confidence hit 99.5%. In 28 days each story had 142 automated tests, NFRs passed at 10k concurrent sessions, and documentation reached 94% adherence to BID templates.` ,
+    r: `The release went live on 6 January 2025 with zero incidents. Processing time dropped from 27 to 11 minutes, availability rose to 99.94%, and customer NPS climbed from 58 to 82 in two weeks. We avoided the BRL 1.3M penalty, audit confirmed zero discrepancies, and BID logged the gate as a benchmark. Subsequent releases saw 36% fewer defects and acceptance is now tied to Phoenix Gate evidence.` ,
+    l: `I learned that upholding the highest standards requires contractual courage and objective mechanisms. Every vendor now signs the Phoenix Gate before the first sprint.`
   },
   fups: [
-    {
-        "q": "Qual seria o impacto de aprovar a entrega abaixo do padrão?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What would be the impact of approving the below-standard delivery?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como definiu critérios objetivos de qualidade?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you define objective quality criteria?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como negociou com fornecedor e tratou resistências?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you negotiate with the vendor and handle resistance?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Quais evidências passaram a ser obrigatórias e por quê?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which evidence became mandatory and why?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Quais métricas provaram a melhoria?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which metrics proved improvement?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como sustentou a qualidade ao longo do tempo?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you sustain quality over time?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Houve impacto de prazo/custo?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Any schedule/cost impact?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como escalou o padrão para outros times?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you scale the standard to other teams?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Se refizesse, que ajuste no gate faria?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "If redoing, what gate tweak would you make?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como a relação evoluiu em maturidade?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did the relationship mature?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    }
-]
+    { q: "Como documentou os 74 defeitos e 112 casos sem teste?", a: "Eu cruzei log JIRA, planilhas de homologacao e scripts SQL com evidencias em PDF.", q_en: "How did you document the 74 defects and 112 untested cases?", a_en: "I cross-referenced JIRA logs, staging spreadsheets, and SQL scripts with PDF evidence." },
+    { q: "Quais sao os 32 criterios do Phoenix Gate?", a: "Eu agrupo em cobertura automatizada, performance, seguranca, rollback e documentacao BID.", q_en: "Which are the 32 Phoenix Gate criteria?", a_en: "I group them into automation coverage, performance, security, rollback, and BID documentation." },
+    { q: "Como negociou a suspensao da multa?", a: "Eu apresentei analise risco x multa e entreguei plano com milestones auditaveis.", q_en: "How did you negotiate the penalty suspension?", a_en: "I presented a risk-versus-penalty analysis and a plan with auditable milestones." },
+    { q: "Quais ferramentas incluiu no pipeline?", a: "Eu adicionei SonarQube, Cypress, OWASP ZAP, k6 e auditoria de schema.", q_en: "Which tools did you add to the pipeline?", a_en: "I added SonarQube, Cypress, OWASP ZAP, k6, and schema audits." },
+    { q: "Como manteve clientes informados?", a: "Eu publiquei boletins, ativei hotline e notifiquei federacoes de lojistas.", q_en: "How did you keep customers informed?", a_en: "I published bulletins, opened a hotline, and briefed business federations." },
+    { q: "Quais ganhos tangiveis forma observados?", a: "Processamento em 11 minutos, disponibilidade 99,94%, NPS 82 e zero incidentes.", q_en: "What tangible gains were observed?", a_en: "Processing in 11 minutes, 99.94% availability, NPS 82, and zero incidents." },
+    { q: "Qual economia financeira gerou?", a: "Evitei multa de R$ 1,3 mi, reduzi retrabalho em R$ 640 mil e mitiguei risco de fraude.", q_en: "What financial savings did you generate?", a_en: "I avoided the BRL 1.3M penalty, reduced rework by BRL 640K, and mitigated fraud risk." },
+    { q: "Como garantiu continuidade do padrao?", a: "Eu inseri o gate no aditivo, determinei auditoria trimestral e treinei 42 lideres da Procergs.", q_en: "How did you ensure the standard stayed in place?", a_en: "I inserted the gate into the contract, mandated quarterly audits, and trained 42 leaders." },
+    { q: "Quais indicadores acompanha em producao?", a: "Eu monitoro disponibilidade, tempo de requisicao, tentativas de fraude e backlog do suporte.", q_en: "Which production indicators do you track?", a_en: "I monitor availability, request time, fraud attempts, and support backlog." },
+    { q: "O que faria diferente na proxima entrega?", a: "Implementaria o Phoenix Gate desde a concepcao para reduzir retrabalho inicial.", q_en: "What would you do differently next time?", a_en: "I'd apply Phoenix Gate from inception to reduce early rework." }
+  ]
 };
 
 export default case_4;

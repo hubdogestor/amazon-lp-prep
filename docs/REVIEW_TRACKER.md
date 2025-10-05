@@ -37,3 +37,7 @@
 | bias_for_action | sicredi-ml-credit-analysis | Destravei Analise de Credito com ML em 90 Dias e Zerei o Backlog | Ready | 100 | 32 | 10:0 | Motor 3.0 | Sem warnings; shadow mode replicavel |
 | bias_for_action | sefaz-emergency-tax-portal | Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS | Ready | 100 | 14 | 6:0 | Motor 3.0 | Portal replicado; stop the backlog institucionalizado |
 | bias_for_action | calculated-risk-time-critical | Restaurei Telemedicina Unimed em 72h com Cutover por Zona | Ready | 100 | 8 | 5:0 | Motor 3.0 | Plano Phoenix padronizado na cooperativa |
+| insist_on_highest_standards | hsbc-zero-defects | Estabelecimento de Padrao 'Zero Data Loss' em Migracao de US$ 5.2B | Ready | 100 | 27 | 3:0 | Motor 3.0 | Warning: recencia (>7 anos) monitorado |
+| insist_on_highest_standards | sefaz-pmo-governance | Elevei o Padrao do PMO da SEFAZ com Foco em Valor ao Cidadao | Ready | 100 | 23 | 6:0 | Motor 3.0 | Portal Outcome First + transparencia API |
+| insist_on_highest_standards | sicredi-payment-sla | Redesenhei o Gateway SICREDI para 99.99% de Disponibilidade | Ready | 100 | 21 | 6:0 | Motor 3.0 | Reliability 4x9 replicado; 0 cancelamentos |
+| insist_on_highest_standards | reject-mediocre-work-procergs | Rejeitei Entrega da PROCERGS e Institui Quality Gate Zero Falhas | Ready | 87 | 16 | 2:0 | Motor 3.0 | Phoenix Gate vigente; monitorar melhoria continua |
