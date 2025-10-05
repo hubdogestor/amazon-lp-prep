@@ -1,16 +1,2783 @@
 {
-  "run_at": "2025-10-05T22:42:16.928Z",
+  "run_at": "2025-10-05T23:09:20.975Z",
   "data_dir": "src/data",
   "total_cases": 72,
-  "filtered_cases": 1,
-  "lp": "hire_and_develop_the_best",
-  "case": "bradesco-talent-pipeline-creation",
+  "filtered_cases": 72,
+  "lp": null,
+  "case": null,
   "results": [
     {
-      "lp_id": "hire_and_develop_the_best",
-      "case_id": "bradesco-talent-pipeline-creation",
-      "title_pt": "Criação de Pipeline de Talentos Ágeis e Elevação dos Padrões de Contratação no InovaBra",
-      "title_en": "Creating Agile Talent Pipeline and Raising Hiring Standards at InovaBra",
+      "lp_id": "are_right_a_lot",
+      "case_id": "sicredi-mobile-first-strategy",
+      "title_pt": "Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders",
+      "title_en": "I countered the hype with data and redesigned the mobile roadmap with full stakeholder buy-in",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (3 menções relevantes)",
+          "Métricas robustas (22)",
+          "Ratio EU:NÓS saudável (11:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 22,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 3,
+        "conflictSignals": true,
+        "mechanismSignals": 1,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 11,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 13,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 521,
+            "enLen": 515,
+            "deltaPct": 0.011516314779270634
+          },
+          "t": {
+            "ptLen": 507,
+            "enLen": 447,
+            "deltaPct": 0.11834319526627218
+          },
+          "a": {
+            "ptLen": 1395,
+            "enLen": 1265,
+            "deltaPct": 0.0931899641577061
+          },
+          "r": {
+            "ptLen": 555,
+            "enLen": 499,
+            "deltaPct": 0.1009009009009009
+          },
+          "l": {
+            "ptLen": 301,
+            "enLen": 296,
+            "deltaPct": 0.016611295681063124
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 3,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "are_right_a_lot",
+      "case_id": "huawei-4g-rollout-analysis",
+      "title_pt": "Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest",
+      "title_en": "I modeled 5G risks in real time and pivoted the architecture mid-rollout without delaying the FIFA Fan Fest",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (9 menções relevantes)",
+          "Métricas robustas (13)",
+          "Ratio EU:NÓS saudável (5:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 13,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 9,
+        "conflictSignals": true,
+        "mechanismSignals": 2,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 5,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 21,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 505,
+            "enLen": 443,
+            "deltaPct": 0.12277227722772277
+          },
+          "t": {
+            "ptLen": 656,
+            "enLen": 632,
+            "deltaPct": 0.036585365853658534
+          },
+          "a": {
+            "ptLen": 1112,
+            "enLen": 1062,
+            "deltaPct": 0.044964028776978415
+          },
+          "r": {
+            "ptLen": 404,
+            "enLen": 375,
+            "deltaPct": 0.07178217821782178
+          },
+          "l": {
+            "ptLen": 254,
+            "enLen": 261,
+            "deltaPct": 0.02681992337164751
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 4,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "are_right_a_lot",
+      "case_id": "sicredi-api-pricing-model",
+      "title_pt": "Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias",
+      "title_en": "I used data science to prove the API pricing would not pay off and redesigned the model in 30 days",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (30 menções relevantes)",
+          "Métricas robustas (24)",
+          "Ratio EU:NÓS saudável (4:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 24,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 30,
+        "conflictSignals": true,
+        "mechanismSignals": 3,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 4,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 22,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 466,
+            "enLen": 400,
+            "deltaPct": 0.14163090128755365
+          },
+          "t": {
+            "ptLen": 628,
+            "enLen": 573,
+            "deltaPct": 0.0875796178343949
+          },
+          "a": {
+            "ptLen": 1007,
+            "enLen": 952,
+            "deltaPct": 0.05461767626613704
+          },
+          "r": {
+            "ptLen": 392,
+            "enLen": 359,
+            "deltaPct": 0.08418367346938775
+          },
+          "l": {
+            "ptLen": 290,
+            "enLen": 271,
+            "deltaPct": 0.06551724137931035
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 3,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "best_employer",
+      "case_id": "bradesco-agile-community-creation",
+      "title_pt": "Escalei a guilda de produto e promovi 18 lideres em seis meses",
+      "title_en": "I scaled the product guild and promoted 18 leaders in six months",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 92,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível"
+        ],
+        "positives": [
+          "Métricas robustas (17)",
+          "Ratio EU:NÓS saudável (1:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 17,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": false
+        },
+        "customerSignals": 2,
+        "conflictSignals": false,
+        "mechanismSignals": 5,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 1,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 26,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 489,
+            "enLen": 394,
+            "deltaPct": 0.19427402862985685
+          },
+          "t": {
+            "ptLen": 340,
+            "enLen": 277,
+            "deltaPct": 0.18529411764705883
+          },
+          "a": {
+            "ptLen": 1041,
+            "enLen": 955,
+            "deltaPct": 0.08261287223823247
+          },
+          "r": {
+            "ptLen": 449,
+            "enLen": 415,
+            "deltaPct": 0.0757238307349666
+          },
+          "l": {
+            "ptLen": 314,
+            "enLen": 302,
+            "deltaPct": 0.03821656050955414
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 3,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "best_employer",
+      "case_id": "sicredi-360-feedback-system",
+      "title_pt": "Transformei o feedback 360 em pipeline de sucessao para todos os PMs",
+      "title_en": "I turned 360 feedback into a full succession pipeline for every PM",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": [
+          "desequil�brio PT/EN em 't' (diferen�a >25%)"
+        ]
+      },
+      "heur": {
+        "score": 99,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível"
+        ],
+        "positives": [
+          "Customer Obsession forte (3 menções relevantes)",
+          "Métricas robustas (16)",
+          "Ratio EU:NÓS saudável (3:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 16,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": false
+        },
+        "customerSignals": 3,
+        "conflictSignals": false,
+        "mechanismSignals": 8,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 3,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 10,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 358,
+            "enLen": 323,
+            "deltaPct": 0.09776536312849161
+          },
+          "t": {
+            "ptLen": 376,
+            "enLen": 267,
+            "deltaPct": 0.2898936170212766
+          },
+          "a": {
+            "ptLen": 1118,
+            "enLen": 977,
+            "deltaPct": 0.1261180679785331
+          },
+          "r": {
+            "ptLen": 390,
+            "enLen": 376,
+            "deltaPct": 0.035897435897435895
+          },
+          "l": {
+            "ptLen": 248,
+            "enLen": 238,
+            "deltaPct": 0.04032258064516129
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 3,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "best_employer",
+      "case_id": "sefaz-reverse-mentoring-program",
+      "title_pt": "Implementei reverse mentoring hibrido e subi o eNPS da secretaria para 82",
+      "title_en": "I launched hybrid reverse mentoring and lifted the department eNPS to 82",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 96,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem conflito/resistência visível"
+        ],
+        "positives": [
+          "Customer Obsession forte (13 menções relevantes)",
+          "Métricas robustas (8)",
+          "Ratio EU:NÓS saudável (2:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 8,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 13,
+        "conflictSignals": false,
+        "mechanismSignals": 11,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 2,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 11,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 518,
+            "enLen": 446,
+            "deltaPct": 0.138996138996139
+          },
+          "t": {
+            "ptLen": 351,
+            "enLen": 336,
+            "deltaPct": 0.042735042735042736
+          },
+          "a": {
+            "ptLen": 934,
+            "enLen": 887,
+            "deltaPct": 0.05032119914346895
+          },
+          "r": {
+            "ptLen": 538,
+            "enLen": 477,
+            "deltaPct": 0.11338289962825279
+          },
+          "l": {
+            "ptLen": 280,
+            "enLen": 283,
+            "deltaPct": 0.01060070671378092
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "bias_for_action",
+      "case_id": "bradesco-next-rapid-launch",
+      "title_pt": "Decisao Rapida para Lancar o Banco Digital Next em 11 Meses",
+      "title_en": "Rapid Decision to Launch Next Digital Bank in 11 Months",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Case antigo (>7 anos)"
+        ],
+        "positives": [
+          "Customer Obsession forte (9 menções relevantes)",
+          "Métricas robustas (25)",
+          "Ratio EU:NÓS saudável (11:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados",
+          "Bias for Action robusto (10 sinais de velocidade/risco)"
+        ],
+        "metricsCount": 25,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 9,
+        "conflictSignals": true,
+        "mechanismSignals": 7,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 11,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 95,
+          "status": "aging"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 396,
+            "enLen": 344,
+            "deltaPct": 0.13131313131313133
+          },
+          "t": {
+            "ptLen": 277,
+            "enLen": 230,
+            "deltaPct": 0.16967509025270758
+          },
+          "a": {
+            "ptLen": 1112,
+            "enLen": 864,
+            "deltaPct": 0.22302158273381295
+          },
+          "r": {
+            "ptLen": 625,
+            "enLen": 617,
+            "deltaPct": 0.0128
+          },
+          "l": {
+            "ptLen": 349,
+            "enLen": 313,
+            "deltaPct": 0.10315186246418338
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 10
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "bias_for_action",
+      "case_id": "sicredi-ml-credit-analysis",
+      "title_pt": "Destravei Analise de Credito com ML em 90 Dias e Zerei o Backlog",
+      "title_en": "Unlocked Credit Decisions with ML in 90 Days and Cleared the Backlog",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (12 menções relevantes)",
+          "Métricas robustas (32)",
+          "Ratio EU:NÓS saudável (5:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados",
+          "Bias for Action robusto (4 sinais de velocidade/risco)"
+        ],
+        "metricsCount": 32,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 12,
+        "conflictSignals": true,
+        "mechanismSignals": 2,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 5,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 58,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 351,
+            "enLen": 312,
+            "deltaPct": 0.1111111111111111
+          },
+          "t": {
+            "ptLen": 269,
+            "enLen": 226,
+            "deltaPct": 0.15985130111524162
+          },
+          "a": {
+            "ptLen": 1140,
+            "enLen": 934,
+            "deltaPct": 0.18070175438596492
+          },
+          "r": {
+            "ptLen": 584,
+            "enLen": 525,
+            "deltaPct": 0.10102739726027397
+          },
+          "l": {
+            "ptLen": 260,
+            "enLen": 276,
+            "deltaPct": 0.057971014492753624
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 4,
+        "micDropSignals": true,
+        "biasSignals": 4
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "bias_for_action",
+      "case_id": "sefaz-emergency-tax-portal",
+      "title_pt": "Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS",
+      "title_en": "Launched Emergency Tax Relief Portal in 18 Days after RS Floods",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": [
+          "desequil�brio PT/EN em 's' (diferen�a >25%)"
+        ]
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (16 menções relevantes)",
+          "Métricas robustas (14)",
+          "Ratio EU:NÓS saudável (8:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados",
+          "Bias for Action robusto (7 sinais de velocidade/risco)"
+        ],
+        "metricsCount": 14,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 16,
+        "conflictSignals": true,
+        "mechanismSignals": 10,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 8,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 12,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 407,
+            "enLen": 281,
+            "deltaPct": 0.3095823095823096
+          },
+          "t": {
+            "ptLen": 257,
+            "enLen": 245,
+            "deltaPct": 0.04669260700389105
+          },
+          "a": {
+            "ptLen": 1478,
+            "enLen": 1168,
+            "deltaPct": 0.20974289580514208
+          },
+          "r": {
+            "ptLen": 568,
+            "enLen": 515,
+            "deltaPct": 0.09330985915492958
+          },
+          "l": {
+            "ptLen": 272,
+            "enLen": 246,
+            "deltaPct": 0.09558823529411764
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 7
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "bias_for_action",
+      "case_id": "calculated-risk-time-critical",
+      "title_pt": "Restaurei Telemedicina Unimed em 72h com Cutover por Zona",
+      "title_en": "Restored Unimed Telemedicine in 72h with Zoned Cutover",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (3 menções relevantes)",
+          "Métricas robustas (8)",
+          "Ratio EU:NÓS saudável (5:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados",
+          "Bias for Action robusto (13 sinais de velocidade/risco)"
+        ],
+        "metricsCount": 8,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 3,
+        "conflictSignals": true,
+        "mechanismSignals": 3,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 5,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 29,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 328,
+            "enLen": 277,
+            "deltaPct": 0.15548780487804878
+          },
+          "t": {
+            "ptLen": 209,
+            "enLen": 213,
+            "deltaPct": 0.018779342723004695
+          },
+          "a": {
+            "ptLen": 1000,
+            "enLen": 986,
+            "deltaPct": 0.014
+          },
+          "r": {
+            "ptLen": 370,
+            "enLen": 356,
+            "deltaPct": 0.03783783783783784
+          },
+          "l": {
+            "ptLen": 211,
+            "enLen": 211,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 4,
+        "micDropSignals": true,
+        "biasSignals": 13
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "broad_responsibility",
+      "case_id": "unimed-lgpd-compliance",
+      "title_pt": "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes",
+      "title_en": "LGPD Compliance Assurance in Digital Product Launch for Millions of Customers",
+      "status": "KO",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 28,
+        "status": "KO",
+        "dealbreakers": [
+          "Menos de 8 métricas (3)"
+        ],
+        "warnings": [
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (18 menções relevantes)",
+          "Ratio EU:NÓS saudável (3:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 3,
+        "metricCategories": {
+          "financial": true,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 18,
+        "conflictSignals": true,
+        "mechanismSignals": 4,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 3,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 46,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 437,
+            "enLen": 414,
+            "deltaPct": 0.05263157894736842
+          },
+          "t": {
+            "ptLen": 478,
+            "enLen": 454,
+            "deltaPct": 0.0502092050209205
+          },
+          "a": {
+            "ptLen": 1457,
+            "enLen": 1340,
+            "deltaPct": 0.08030199039121483
+          },
+          "r": {
+            "ptLen": 734,
+            "enLen": 609,
+            "deltaPct": 0.17029972752043596
+          },
+          "l": {
+            "ptLen": 367,
+            "enLen": 307,
+            "deltaPct": 0.16348773841961853
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "broad_responsibility",
+      "case_id": "hsbc-fatca-aml-migration",
+      "title_pt": "Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária",
+      "title_en": "FATCA and AML Controls Implementation in Billion-Dollar Operation",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 90,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem métricas de cliente explícitas",
+          "Sem conflito/resistência visível",
+          "Transições STAR(L) pouco claras",
+          "Case antigo (>7 anos)"
+        ],
+        "positives": [
+          "Customer Obsession forte (14 menções relevantes)",
+          "Métricas robustas (16)",
+          "Ratio EU:NÓS saudável (3:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 16,
+        "metricCategories": {
+          "financial": true,
+          "customer": false,
+          "operational": true
+        },
+        "customerSignals": 14,
+        "conflictSignals": false,
+        "mechanismSignals": 16,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 3,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 106,
+          "status": "aging"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 442,
+            "enLen": 415,
+            "deltaPct": 0.06108597285067873
+          },
+          "t": {
+            "ptLen": 507,
+            "enLen": 471,
+            "deltaPct": 0.07100591715976332
+          },
+          "a": {
+            "ptLen": 1755,
+            "enLen": 1577,
+            "deltaPct": 0.10142450142450142
+          },
+          "r": {
+            "ptLen": 624,
+            "enLen": 588,
+            "deltaPct": 0.057692307692307696
+          },
+          "l": {
+            "ptLen": 682,
+            "enLen": 649,
+            "deltaPct": 0.04838709677419355
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "broad_responsibility",
+      "case_id": "sicredi-responsible-ai-policy",
+      "title_pt": "Desenvolvimento de uma Política de IA Responsável para Análise de Crédito, Garantindo Equidade e Transparência",
+      "title_en": "Responsible AI Policy Development for Credit Analysis, Ensuring Equity and Transparency",
+      "status": "KO",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 45,
+        "status": "KO",
+        "dealbreakers": [
+          "Ratio EU:NÓS abaixo de 2:1 (3:3)"
+        ],
+        "warnings": [
+          "Sem métricas de cliente explícitas",
+          "Sem conflito/resistência visível",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (6 menções relevantes)",
+          "Métricas robustas (8)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 8,
+        "metricCategories": {
+          "financial": true,
+          "customer": false,
+          "operational": true
+        },
+        "customerSignals": 6,
+        "conflictSignals": false,
+        "mechanismSignals": 7,
+        "ratio": {
+          "ratio": 0.5,
+          "counts": {
+            "eu": 3,
+            "nos": 3
+          }
+        },
+        "recency": {
+          "monthsAgo": 58,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 398,
+            "enLen": 347,
+            "deltaPct": 0.12814070351758794
+          },
+          "t": {
+            "ptLen": 433,
+            "enLen": 397,
+            "deltaPct": 0.08314087759815242
+          },
+          "a": {
+            "ptLen": 1944,
+            "enLen": 1760,
+            "deltaPct": 0.09465020576131687
+          },
+          "r": {
+            "ptLen": 677,
+            "enLen": 608,
+            "deltaPct": 0.1019202363367799
+          },
+          "l": {
+            "ptLen": 316,
+            "enLen": 276,
+            "deltaPct": 0.12658227848101267
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "customer_obsession",
+      "case_id": "unimed-customer-experience",
+      "title_pt": "Transformei a Jornada do Beneficiário e Levei o NPS de 28 para 58 em 12 Meses",
+      "title_en": "Rebuilt the Member Journey and Lifted NPS from 28 to 58 in 12 Months",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (18 menções relevantes)",
+          "Métricas robustas (55)",
+          "Ratio EU:NÓS saudável (6:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 55,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 18,
+        "conflictSignals": true,
+        "mechanismSignals": 2,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 6,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 22,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 434,
+            "enLen": 371,
+            "deltaPct": 0.14516129032258066
+          },
+          "t": {
+            "ptLen": 267,
+            "enLen": 293,
+            "deltaPct": 0.08873720136518772
+          },
+          "a": {
+            "ptLen": 1492,
+            "enLen": 1298,
+            "deltaPct": 0.13002680965147453
+          },
+          "r": {
+            "ptLen": 401,
+            "enLen": 378,
+            "deltaPct": 0.057356608478802994
+          },
+          "l": {
+            "ptLen": 254,
+            "enLen": 247,
+            "deltaPct": 0.027559055118110236
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "customer_obsession",
+      "case_id": "bradesco-next-customer-ritual",
+      "title_pt": "Liderei o Ritual de Voz do Cliente que Levou o NPS do Next de 35 para 62",
+      "title_en": "Led the Voice-of-Customer Ritual that Lifted Next's NPS from 35 to 62",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras",
+          "Case antigo (>7 anos)"
+        ],
+        "positives": [
+          "Customer Obsession forte (40 menções relevantes)",
+          "Métricas robustas (37)",
+          "Ratio EU:NÓS saudável (14:1)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 37,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 40,
+        "conflictSignals": true,
+        "mechanismSignals": 8,
+        "ratio": {
+          "ratio": 0.9333333333333333,
+          "counts": {
+            "eu": 14,
+            "nos": 1
+          }
+        },
+        "recency": {
+          "monthsAgo": 94,
+          "status": "aging"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 478,
+            "enLen": 388,
+            "deltaPct": 0.18828451882845187
+          },
+          "t": {
+            "ptLen": 278,
+            "enLen": 281,
+            "deltaPct": 0.010676156583629894
+          },
+          "a": {
+            "ptLen": 1584,
+            "enLen": 1491,
+            "deltaPct": 0.058712121212121215
+          },
+          "r": {
+            "ptLen": 486,
+            "enLen": 474,
+            "deltaPct": 0.024691358024691357
+          },
+          "l": {
+            "ptLen": 274,
+            "enLen": 278,
+            "deltaPct": 0.014388489208633094
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "customer_obsession",
+      "case_id": "sicredi-frictionless-checkout",
+      "title_pt": "Redesenhei o Checkout do Gateway e Cortei Abandono de Carrinho em 25 Pontos",
+      "title_en": "Redesigned Our Gateway Checkout and Cut Cart Abandonment by 25 Points",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 89,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem conflito/resistência visível",
+          "Mecanismos/processos não evidenciados",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (28 menções relevantes)",
+          "Métricas robustas (29)",
+          "Ratio EU:NÓS saudável (0:0)"
+        ],
+        "metricsCount": 29,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 28,
+        "conflictSignals": false,
+        "mechanismSignals": 0,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 59,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 395,
+            "enLen": 358,
+            "deltaPct": 0.09367088607594937
+          },
+          "t": {
+            "ptLen": 279,
+            "enLen": 294,
+            "deltaPct": 0.05102040816326531
+          },
+          "a": {
+            "ptLen": 1134,
+            "enLen": 1035,
+            "deltaPct": 0.0873015873015873
+          },
+          "r": {
+            "ptLen": 435,
+            "enLen": 410,
+            "deltaPct": 0.05747126436781609
+          },
+          "l": {
+            "ptLen": 292,
+            "enLen": 279,
+            "deltaPct": 0.04452054794520548
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "dataStructure.js",
+      "case_id": "dataStructure",
+      "title_pt": "",
+      "title_en": "",
+      "status": "Lint-Blocker",
+      "lint": {
+        "ok": false,
+        "issues": [
+          "falha ao carregar arquivo: parse error: Unexpected token 'export'"
+        ],
+        "warnings": []
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Ausência de Customer Obsession",
+          "Menos de 8 métricas (0)"
+        ],
+        "warnings": [
+          "Sem métricas financeiras claras",
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
+          "Mecanismos/processos não evidenciados",
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
+        ],
+        "positives": [
+          "Ratio EU:NÓS saudável (0:0)"
+        ],
+        "metricsCount": 0,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 0,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": null,
+          "status": "unknown"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "t": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "a": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "r": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "l": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": false,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "deliver_results",
+      "case_id": "huawei-world-cup-4g",
+      "title_pt": "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade",
+      "title_en": "Led the 4G/5G Upgrade for Copa America 2021 with 99.8% Availability",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (8 menções relevantes)",
+          "Métricas robustas (42)",
+          "Ratio EU:NÓS saudável (4:1)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 42,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 8,
+        "conflictSignals": true,
+        "mechanismSignals": 7,
+        "ratio": {
+          "ratio": 0.8,
+          "counts": {
+            "eu": 4,
+            "nos": 1
+          }
+        },
+        "recency": {
+          "monthsAgo": 51,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 557,
+            "enLen": 499,
+            "deltaPct": 0.10412926391382406
+          },
+          "t": {
+            "ptLen": 288,
+            "enLen": 288,
+            "deltaPct": 0
+          },
+          "a": {
+            "ptLen": 1284,
+            "enLen": 1161,
+            "deltaPct": 0.09579439252336448
+          },
+          "r": {
+            "ptLen": 573,
+            "enLen": 470,
+            "deltaPct": 0.17975567190226877
+          },
+          "l": {
+            "ptLen": 257,
+            "enLen": 244,
+            "deltaPct": 0.05058365758754864
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "deliver_results",
+      "case_id": "unimed-ebitda-growth",
+      "title_pt": "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Tres Inputs Chave",
+      "title_en": "Turned Flat EBITDA into 22% Growth by Attacking Three Critical Inputs",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (8 menções relevantes)",
+          "Métricas robustas (41)",
+          "Ratio EU:NÓS saudável (3:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 41,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 8,
+        "conflictSignals": true,
+        "mechanismSignals": 9,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 3,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 22,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 318,
+            "enLen": 302,
+            "deltaPct": 0.050314465408805034
+          },
+          "t": {
+            "ptLen": 263,
+            "enLen": 230,
+            "deltaPct": 0.12547528517110265
+          },
+          "a": {
+            "ptLen": 1415,
+            "enLen": 1214,
+            "deltaPct": 0.1420494699646643
+          },
+          "r": {
+            "ptLen": 410,
+            "enLen": 397,
+            "deltaPct": 0.03170731707317073
+          },
+          "l": {
+            "ptLen": 253,
+            "enLen": 228,
+            "deltaPct": 0.09881422924901186
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "deliver_results",
+      "case_id": "sicredi-fraud-reduction",
+      "title_pt": "Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses",
+      "title_en": "Built the Anti-Fraud Mechanism that Cut Losses 46% in 5 Months",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem conflito/resistência visível",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (11 menções relevantes)",
+          "Métricas robustas (30)",
+          "Ratio EU:NÓS saudável (3:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 30,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 11,
+        "conflictSignals": false,
+        "mechanismSignals": 14,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 3,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 65,
+          "status": "needs-refresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 381,
+            "enLen": 289,
+            "deltaPct": 0.24146981627296588
+          },
+          "t": {
+            "ptLen": 212,
+            "enLen": 205,
+            "deltaPct": 0.0330188679245283
+          },
+          "a": {
+            "ptLen": 1135,
+            "enLen": 1034,
+            "deltaPct": 0.08898678414096917
+          },
+          "r": {
+            "ptLen": 458,
+            "enLen": 448,
+            "deltaPct": 0.021834061135371178
+          },
+          "l": {
+            "ptLen": 305,
+            "enLen": 302,
+            "deltaPct": 0.009836065573770493
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "deliver_results",
+      "case_id": "sefaz-ecage-portal",
+      "title_pt": "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção",
+      "title_en": "Turned e-CAGE into a Portal with 94% SLA Compliance and 100% Adoption",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 98,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Métricas robustas (26)",
+          "Ratio EU:NÓS saudável (4:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 26,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 1,
+        "conflictSignals": true,
+        "mechanismSignals": 5,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 4,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 16,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 457,
+            "enLen": 413,
+            "deltaPct": 0.0962800875273523
+          },
+          "t": {
+            "ptLen": 281,
+            "enLen": 285,
+            "deltaPct": 0.014035087719298246
+          },
+          "a": {
+            "ptLen": 1417,
+            "enLen": 1232,
+            "deltaPct": 0.1305575158786168
+          },
+          "r": {
+            "ptLen": 573,
+            "enLen": 563,
+            "deltaPct": 0.017452006980802792
+          },
+          "l": {
+            "ptLen": 253,
+            "enLen": 238,
+            "deltaPct": 0.05928853754940711
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "disagree_and_commit",
+      "case_id": "unimed-retention-strategy",
+      "title_pt": "Defendi foco em retencao e depois liderei o plano hibrido aprovado pelo CEO",
+      "title_en": "I defended retention focus and then led the hybrid plan approved by the CEO",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (10 menções relevantes)",
+          "Métricas robustas (35)",
+          "Ratio EU:NÓS saudável (11:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 35,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 10,
+        "conflictSignals": true,
+        "mechanismSignals": 3,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 11,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 24,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 563,
+            "enLen": 504,
+            "deltaPct": 0.10479573712255773
+          },
+          "t": {
+            "ptLen": 331,
+            "enLen": 330,
+            "deltaPct": 0.0030211480362537764
+          },
+          "a": {
+            "ptLen": 1545,
+            "enLen": 1435,
+            "deltaPct": 0.07119741100323625
+          },
+          "r": {
+            "ptLen": 600,
+            "enLen": 555,
+            "deltaPct": 0.075
+          },
+          "l": {
+            "ptLen": 270,
+            "enLen": 281,
+            "deltaPct": 0.03914590747330961
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "disagree_and_commit",
+      "case_id": "huawei-world-cup-timeline",
+      "title_pt": "Bati de frente com o VP sobre acelerar 5G e entreguei o plano aprovado para a Copa Feminina",
+      "title_en": "I challenged the VP on 5G acceleration and delivered the approved plan for the Women's World Cup",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (9 menções relevantes)",
+          "Métricas robustas (23)",
+          "Ratio EU:NÓS saudável (9:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 23,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 9,
+        "conflictSignals": true,
+        "mechanismSignals": 6,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 9,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 27,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 707,
+            "enLen": 810,
+            "deltaPct": 0.1271604938271605
+          },
+          "t": {
+            "ptLen": 322,
+            "enLen": 305,
+            "deltaPct": 0.052795031055900624
+          },
+          "a": {
+            "ptLen": 1205,
+            "enLen": 1227,
+            "deltaPct": 0.017929910350448247
+          },
+          "r": {
+            "ptLen": 568,
+            "enLen": 537,
+            "deltaPct": 0.05457746478873239
+          },
+          "l": {
+            "ptLen": 240,
+            "enLen": 244,
+            "deltaPct": 0.01639344262295082
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "disagree_and_commit",
+      "case_id": "bradesco-mvp-feature-prioritization",
+      "title_pt": "Discordei da priorizacao de MVP, aceitei o voto do comite e ainda entreguei o top recurso pedido",
+      "title_en": "I disagreed with the MVP priorities, accepted the committee vote, and delivered the top feature they demanded",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (10 menções relevantes)",
+          "Métricas robustas (14)",
+          "Ratio EU:NÓS saudável (9:1)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 14,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 10,
+        "conflictSignals": true,
+        "mechanismSignals": 1,
+        "ratio": {
+          "ratio": 0.9,
+          "counts": {
+            "eu": 9,
+            "nos": 1
+          }
+        },
+        "recency": {
+          "monthsAgo": 29,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 441,
+            "enLen": 429,
+            "deltaPct": 0.027210884353741496
+          },
+          "t": {
+            "ptLen": 308,
+            "enLen": 311,
+            "deltaPct": 0.00964630225080386
+          },
+          "a": {
+            "ptLen": 884,
+            "enLen": 859,
+            "deltaPct": 0.02828054298642534
+          },
+          "r": {
+            "ptLen": 471,
+            "enLen": 422,
+            "deltaPct": 0.1040339702760085
+          },
+          "l": {
+            "ptLen": 208,
+            "enLen": 207,
+            "deltaPct": 0.004807692307692308
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 5,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "disagree_and_commit",
+      "case_id": "commit-on-disagreement-product-strategy",
+      "title_pt": "Escalei discordancia sobre estrategia de pricing e liderei o piloto aprovado sem ruido",
+      "title_en": "I escalated the pricing strategy disagreement and led the approved pilot without friction",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (12 menções relevantes)",
+          "Métricas robustas (30)",
+          "Ratio EU:NÓS saudável (8:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 30,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 12,
+        "conflictSignals": true,
+        "mechanismSignals": 4,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 8,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 14,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 390,
+            "enLen": 355,
+            "deltaPct": 0.08974358974358974
+          },
+          "t": {
+            "ptLen": 294,
+            "enLen": 265,
+            "deltaPct": 0.09863945578231292
+          },
+          "a": {
+            "ptLen": 1139,
+            "enLen": 1024,
+            "deltaPct": 0.1009657594381036
+          },
+          "r": {
+            "ptLen": 474,
+            "enLen": 443,
+            "deltaPct": 0.06540084388185655
+          },
+          "l": {
+            "ptLen": 250,
+            "enLen": 250,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "dive_deep",
+      "case_id": "sicredi-churn-analysis",
+      "title_pt": "Analise de Dados para Identificar os Principais Drivers de Churn no App",
+      "title_en": "Data Analysis to Identify Main App Churn Drivers",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (15 menções relevantes)",
+          "Métricas robustas (39)",
+          "Ratio EU:NÓS saudável (13:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 39,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 15,
+        "conflictSignals": true,
+        "mechanismSignals": 12,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 13,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 72,
+          "status": "needs-refresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 348,
+            "enLen": 267,
+            "deltaPct": 0.23275862068965517
+          },
+          "t": {
+            "ptLen": 285,
+            "enLen": 259,
+            "deltaPct": 0.0912280701754386
+          },
+          "a": {
+            "ptLen": 976,
+            "enLen": 830,
+            "deltaPct": 0.14959016393442623
+          },
+          "r": {
+            "ptLen": 345,
+            "enLen": 341,
+            "deltaPct": 0.011594202898550725
+          },
+          "l": {
+            "ptLen": 442,
+            "enLen": 440,
+            "deltaPct": 0.004524886877828055
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "dive_deep",
+      "case_id": "hsbc-data-validation-audit",
+      "title_pt": "Auditoria Pessoal em Processos de Validacao de Dados em Multiplos Paises",
+      "title_en": "Personal Audit of Data Validation Processes Across Multiple Countries",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras",
+          "Case antigo (>7 anos)"
+        ],
+        "positives": [
+          "Customer Obsession forte (17 menções relevantes)",
+          "Métricas robustas (26)",
+          "Ratio EU:NÓS saudável (3:1)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 26,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 17,
+        "conflictSignals": true,
+        "mechanismSignals": 9,
+        "ratio": {
+          "ratio": 0.75,
+          "counts": {
+            "eu": 3,
+            "nos": 1
+          }
+        },
+        "recency": {
+          "monthsAgo": 106,
+          "status": "aging"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 540,
+            "enLen": 431,
+            "deltaPct": 0.20185185185185187
+          },
+          "t": {
+            "ptLen": 373,
+            "enLen": 371,
+            "deltaPct": 0.005361930294906166
+          },
+          "a": {
+            "ptLen": 1116,
+            "enLen": 1056,
+            "deltaPct": 0.053763440860215055
+          },
+          "r": {
+            "ptLen": 547,
+            "enLen": 539,
+            "deltaPct": 0.014625228519195612
+          },
+          "l": {
+            "ptLen": 498,
+            "enLen": 431,
+            "deltaPct": 0.13453815261044177
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "dive_deep",
+      "case_id": "unimed-fraud-investigation",
+      "title_pt": "Investigacao Manual de Anomalias em Reembolsos para Identificar Fraude em Rede",
+      "title_en": "Manual Investigation of Reimbursement Anomalies to Uncover Network Fraud",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 95,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (24 menções relevantes)",
+          "Métricas robustas (20)",
+          "Ratio EU:NÓS saudável (5:1)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 20,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": false
+        },
+        "customerSignals": 24,
+        "conflictSignals": false,
+        "mechanismSignals": 12,
+        "ratio": {
+          "ratio": 0.8333333333333334,
+          "counts": {
+            "eu": 5,
+            "nos": 1
+          }
+        },
+        "recency": {
+          "monthsAgo": 34,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 521,
+            "enLen": 404,
+            "deltaPct": 0.22456813819577734
+          },
+          "t": {
+            "ptLen": 335,
+            "enLen": 287,
+            "deltaPct": 0.14328358208955225
+          },
+          "a": {
+            "ptLen": 1266,
+            "enLen": 1042,
+            "deltaPct": 0.1769352290679305
+          },
+          "r": {
+            "ptLen": 510,
+            "enLen": 457,
+            "deltaPct": 0.10392156862745099
+          },
+          "l": {
+            "ptLen": 517,
+            "enLen": 465,
+            "deltaPct": 0.10058027079303675
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "dive_deep",
+      "case_id": "sicredi-pix-settlement",
+      "title_pt": "Reducao de 47% no Tempo de Liquidacao de Pagamentos PIX",
+      "title_en": "47% Reduction in PIX Payment Settlement Time",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (10 menções relevantes)",
+          "Métricas robustas (41)",
+          "Ratio EU:NÓS saudável (4:1)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 41,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 10,
+        "conflictSignals": true,
+        "mechanismSignals": 12,
+        "ratio": {
+          "ratio": 0.8,
+          "counts": {
+            "eu": 4,
+            "nos": 1
+          }
+        },
+        "recency": {
+          "monthsAgo": 62,
+          "status": "needs-refresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 395,
+            "enLen": 337,
+            "deltaPct": 0.1468354430379747
+          },
+          "t": {
+            "ptLen": 320,
+            "enLen": 339,
+            "deltaPct": 0.05604719764011799
+          },
+          "a": {
+            "ptLen": 1116,
+            "enLen": 1046,
+            "deltaPct": 0.06272401433691756
+          },
+          "r": {
+            "ptLen": 386,
+            "enLen": 391,
+            "deltaPct": 0.01278772378516624
+          },
+          "l": {
+            "ptLen": 303,
+            "enLen": 325,
+            "deltaPct": 0.06769230769230769
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "earn_trust",
+      "case_id": "sicredi-post-mortem-transparency",
+      "title_pt": "Reconstruir confianca apos bug Pix com ritual de transparencias diarias",
+      "title_en": "Rebuilt trust after Pix outage through daily transparency rituals",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (8 menções relevantes)",
+          "Métricas robustas (12)",
+          "Ratio EU:NÓS saudável (15:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 12,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 8,
+        "conflictSignals": true,
+        "mechanismSignals": 9,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 15,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 28,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 523,
+            "enLen": 495,
+            "deltaPct": 0.05353728489483748
+          },
+          "t": {
+            "ptLen": 241,
+            "enLen": 254,
+            "deltaPct": 0.051181102362204724
+          },
+          "a": {
+            "ptLen": 1428,
+            "enLen": 1340,
+            "deltaPct": 0.06162464985994398
+          },
+          "r": {
+            "ptLen": 560,
+            "enLen": 553,
+            "deltaPct": 0.0125
+          },
+          "l": {
+            "ptLen": 400,
+            "enLen": 377,
+            "deltaPct": 0.0575
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 3
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "earn_trust",
+      "case_id": "hsbc-bacen-communication",
+      "title_pt": "Transformei relacionamento com Bacen com briefings executivos em 48h",
+      "title_en": "Transformed Central Bank relationship with 48-hour executive briefings",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (8 menções relevantes)",
+          "Métricas robustas (9)",
+          "Ratio EU:NÓS saudável (11:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 9,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 8,
+        "conflictSignals": true,
+        "mechanismSignals": 7,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 11,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 31,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 389,
+            "enLen": 400,
+            "deltaPct": 0.0275
+          },
+          "t": {
+            "ptLen": 219,
+            "enLen": 199,
+            "deltaPct": 0.091324200913242
+          },
+          "a": {
+            "ptLen": 932,
+            "enLen": 972,
+            "deltaPct": 0.0411522633744856
+          },
+          "r": {
+            "ptLen": 445,
+            "enLen": 437,
+            "deltaPct": 0.017977528089887642
+          },
+          "l": {
+            "ptLen": 224,
+            "enLen": 220,
+            "deltaPct": 0.017857142857142856
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "earn_trust",
+      "case_id": "bradesco-partner-recovery",
+      "title_pt": "Reconquistei parceiro chave com plano de saldo garantido em 30 dias",
+      "title_en": "Won back key partner with 30-day guaranteed settlement plan",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (22 menções relevantes)",
+          "Métricas robustas (15)",
+          "Ratio EU:NÓS saudável (9:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 15,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 22,
+        "conflictSignals": true,
+        "mechanismSignals": 3,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 9,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 33,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 354,
+            "enLen": 321,
+            "deltaPct": 0.09322033898305085
+          },
+          "t": {
+            "ptLen": 206,
+            "enLen": 197,
+            "deltaPct": 0.043689320388349516
+          },
+          "a": {
+            "ptLen": 940,
+            "enLen": 898,
+            "deltaPct": 0.04468085106382979
+          },
+          "r": {
+            "ptLen": 361,
+            "enLen": 339,
+            "deltaPct": 0.060941828254847646
+          },
+          "l": {
+            "ptLen": 254,
+            "enLen": 283,
+            "deltaPct": 0.10247349823321555
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "earn_trust",
+      "case_id": "hard-feedback-leadership-style",
+      "title_pt": "Transformei feedback duro em pacto de transparencia com time de risco",
+      "title_en": "Turned hard feedback into a transparency pact with the risk team",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (15 menções relevantes)",
+          "Métricas robustas (13)",
+          "Ratio EU:NÓS saudável (14:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 13,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 15,
+        "conflictSignals": true,
+        "mechanismSignals": 8,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 14,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 18,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 412,
+            "enLen": 395,
+            "deltaPct": 0.0412621359223301
+          },
+          "t": {
+            "ptLen": 222,
+            "enLen": 223,
+            "deltaPct": 0.004484304932735426
+          },
+          "a": {
+            "ptLen": 1010,
+            "enLen": 953,
+            "deltaPct": 0.05643564356435644
+          },
+          "r": {
+            "ptLen": 385,
+            "enLen": 342,
+            "deltaPct": 0.11168831168831168
+          },
+          "l": {
+            "ptLen": 257,
+            "enLen": 227,
+            "deltaPct": 0.11673151750972763
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "earn_trust",
+      "case_id": "disagreement-with-manager-sla",
+      "title_pt": "Remodelei SLA com meu diretor expondo dados e assumindo compromissos semanais",
+      "title_en": "Redesigned SLA with my director by exposing data and taking weekly commitments",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": [
+          "desequil�brio PT/EN em 'r' (diferen�a >25%)"
+        ]
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (19 menções relevantes)",
+          "Métricas robustas (17)",
+          "Ratio EU:NÓS saudável (10:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 17,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 19,
+        "conflictSignals": true,
+        "mechanismSignals": 3,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 10,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 26,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 392,
+            "enLen": 448,
+            "deltaPct": 0.125
+          },
+          "t": {
+            "ptLen": 267,
+            "enLen": 258,
+            "deltaPct": 0.033707865168539325
+          },
+          "a": {
+            "ptLen": 680,
+            "enLen": 735,
+            "deltaPct": 0.07482993197278912
+          },
+          "r": {
+            "ptLen": 250,
+            "enLen": 342,
+            "deltaPct": 0.26900584795321636
+          },
+          "l": {
+            "ptLen": 267,
+            "enLen": 275,
+            "deltaPct": 0.02909090909090909
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "frugality",
+      "case_id": "sefaz-zero-budget-pmo",
+      "title_pt": "Geração de U$1.4M em Ganhos de Eficiência no Setor Público sem Aumento de Orçamento",
+      "title_en": "Generating $1.4M in Public Sector Efficiency Gains Without Budget Increase",
+      "status": "KO",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 45,
+        "status": "KO",
+        "dealbreakers": [
+          "Ausência de Customer Obsession"
+        ],
+        "warnings": [
+          "Sem métricas de cliente explícitas",
+          "Sem conflito/resistência visível",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Métricas robustas (15)",
+          "Ratio EU:NÓS saudável (2:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 15,
+        "metricCategories": {
+          "financial": true,
+          "customer": false,
+          "operational": true
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 11,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 2,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": -2,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 564,
+            "enLen": 531,
+            "deltaPct": 0.05851063829787234
+          },
+          "t": {
+            "ptLen": 498,
+            "enLen": 471,
+            "deltaPct": 0.05421686746987952
+          },
+          "a": {
+            "ptLen": 1248,
+            "enLen": 1136,
+            "deltaPct": 0.08974358974358974
+          },
+          "r": {
+            "ptLen": 501,
+            "enLen": 473,
+            "deltaPct": 0.05588822355289421
+          },
+          "l": {
+            "ptLen": 705,
+            "enLen": 678,
+            "deltaPct": 0.03829787234042553
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "frugality",
+      "case_id": "huawei-resource-optimization",
+      "title_pt": "Otimização de Recursos em um Portfólio de 50+ Projetos para Acelerar o Rollout do 4G",
+      "title_en": "Resource Optimization in 50+ Project Portfolio to Accelerate 4G Rollout",
       "status": "KO",
       "lint": {
         "ok": true,
@@ -22,31 +2789,269 @@
         "status": "KO",
         "dealbreakers": [
           "Ausência de Customer Obsession",
-          "Menos de 8 métricas (5)",
-          "Ratio EU:NÓS abaixo de 2:1 (1:2)"
+          "Ratio EU:NÓS abaixo de 2:1 (2:2)",
+          "Case muito antigo (>9 anos)"
         ],
         "warnings": [
-          "Sem métricas financeiras claras",
+          "Sem métricas de cliente explícitas",
           "Sem conflito/resistência visível",
-          "Hook inicial pode ser mais contundente",
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
+          "Métricas robustas (14)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 5,
+        "metricsCount": 14,
         "metricCategories": {
-          "financial": false,
-          "customer": true,
+          "financial": true,
+          "customer": false,
           "operational": true
         },
         "customerSignals": 0,
         "conflictSignals": false,
-        "mechanismSignals": 16,
+        "mechanismSignals": 6,
         "ratio": {
-          "ratio": 0.3333333333333333,
+          "ratio": 0.5,
           "counts": {
-            "eu": 1,
+            "eu": 2,
+            "nos": 2
+          }
+        },
+        "recency": {
+          "monthsAgo": 118,
+          "status": "stale"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 482,
+            "enLen": 451,
+            "deltaPct": 0.06431535269709543
+          },
+          "t": {
+            "ptLen": 487,
+            "enLen": 444,
+            "deltaPct": 0.08829568788501027
+          },
+          "a": {
+            "ptLen": 1513,
+            "enLen": 1393,
+            "deltaPct": 0.07931262392597488
+          },
+          "r": {
+            "ptLen": 495,
+            "enLen": 461,
+            "deltaPct": 0.06868686868686869
+          },
+          "l": {
+            "ptLen": 409,
+            "enLen": 390,
+            "deltaPct": 0.04645476772616137
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 2
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "frugality",
+      "case_id": "unimed-automation-n8n",
+      "title_pt": "Automação de Relatórios de Reconciliação Financeira Usando Ferramentas Open-Source (n8n)",
+      "title_en": "Financial Reconciliation Report Automation Using Open-Source Tools (n8n)",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 89,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
+          "Sem conflito/resistência visível",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Métricas robustas (12)",
+          "Ratio EU:NÓS saudável (2:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 12,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 2,
+        "conflictSignals": false,
+        "mechanismSignals": 20,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 2,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 22,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 571,
+            "enLen": 506,
+            "deltaPct": 0.1138353765323993
+          },
+          "t": {
+            "ptLen": 442,
+            "enLen": 435,
+            "deltaPct": 0.01583710407239819
+          },
+          "a": {
+            "ptLen": 1242,
+            "enLen": 1181,
+            "deltaPct": 0.04911433172302738
+          },
+          "r": {
+            "ptLen": 733,
+            "enLen": 675,
+            "deltaPct": 0.0791268758526603
+          },
+          "l": {
+            "ptLen": 356,
+            "enLen": 342,
+            "deltaPct": 0.03932584269662921
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "hire_and_develop_the_best",
+      "case_id": "huawei-project-managers-mentoring",
+      "title_pt": "Mentoria de 30+ Gerentes de Projeto e Criação de uma Comunidade de Prática",
+      "title_en": "Mentoring 30+ Project Managers and Creating a Community of Practice",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (63 menções relevantes)",
+          "Métricas robustas (45)",
+          "Ratio EU:NÓS saudável (6:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 45,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 63,
+        "conflictSignals": true,
+        "mechanismSignals": 8,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 6,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 58,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 893,
+            "enLen": 798,
+            "deltaPct": 0.10638297872340426
+          },
+          "t": {
+            "ptLen": 687,
+            "enLen": 624,
+            "deltaPct": 0.09170305676855896
+          },
+          "a": {
+            "ptLen": 1768,
+            "enLen": 1659,
+            "deltaPct": 0.06165158371040724
+          },
+          "r": {
+            "ptLen": 1093,
+            "enLen": 965,
+            "deltaPct": 0.1171088746569076
+          },
+          "l": {
+            "ptLen": 577,
+            "enLen": 538,
+            "deltaPct": 0.06759098786828423
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "hire_and_develop_the_best",
+      "case_id": "bradesco-talent-pipeline-creation",
+      "title_pt": "Criação de Pipeline de Talentos Ágeis e Elevação dos Padrões de Contratação no InovaBra",
+      "title_en": "Creating Agile Talent Pipeline and Raising Hiring Standards at InovaBra",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem métricas operacionais explícitas",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (46 menções relevantes)",
+          "Métricas robustas (48)",
+          "Ratio EU:NÓS saudável (9:2)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 48,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": false
+        },
+        "customerSignals": 46,
+        "conflictSignals": true,
+        "mechanismSignals": 19,
+        "ratio": {
+          "ratio": 0.8181818181818182,
+          "counts": {
+            "eu": 9,
             "nos": 2
           }
         },
@@ -56,24 +3061,24 @@
         },
         "parity": {
           "s": {
-            "ptLen": 443,
-            "enLen": 395,
-            "deltaPct": 0.10835214446952596
+            "ptLen": 846,
+            "enLen": 709,
+            "deltaPct": 0.16193853427895982
           },
           "t": {
-            "ptLen": 446,
-            "enLen": 411,
-            "deltaPct": 0.07847533632286996
+            "ptLen": 716,
+            "enLen": 625,
+            "deltaPct": 0.1270949720670391
           },
           "a": {
-            "ptLen": 1727,
-            "enLen": 1676,
-            "deltaPct": 0.029530978575564564
+            "ptLen": 1872,
+            "enLen": 1738,
+            "deltaPct": 0.07158119658119658
           },
           "r": {
-            "ptLen": 572,
-            "enLen": 523,
-            "deltaPct": 0.08566433566433566
+            "ptLen": 1119,
+            "enLen": 1047,
+            "deltaPct": 0.064343163538874
           },
           "l": {
             "ptLen": 398,
@@ -81,67 +3086,2776 @@
             "deltaPct": 0.06281407035175879
           }
         },
-        "hookSignals": false,
+        "hookSignals": true,
         "transitionSignals": 1,
         "micDropSignals": true,
         "biasSignals": 0
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ausência de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
+      "changes": []
+    },
+    {
+      "lp_id": "hire_and_develop_the_best",
+      "case_id": "unimed-underperformer-development",
+      "title_pt": "Desenvolvimento de um Analista de Baixo Desempenho Através de Realocação e Ownership",
+      "title_en": "Underperforming Analyst Development Through Reallocation and Ownership",
+      "status": "KO",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 73,
+        "status": "KO",
+        "dealbreakers": [
+          "Ratio EU:NÓS abaixo de 2:1 (8:5)"
+        ],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (27 menções relevantes)",
+          "Métricas robustas (40)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 40,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
         },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 métricas (5)",
-          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        "customerSignals": 27,
+        "conflictSignals": true,
+        "mechanismSignals": 7,
+        "ratio": {
+          "ratio": 0.6153846153846154,
+          "counts": {
+            "eu": 8,
+            "nos": 5
+          }
         },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:NÓS abaixo de 2:1 (1:2)",
-          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        "recency": {
+          "monthsAgo": 22,
+          "status": "fresh"
         },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem métricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
+        "parity": {
+          "s": {
+            "ptLen": 892,
+            "enLen": 807,
+            "deltaPct": 0.0952914798206278
+          },
+          "t": {
+            "ptLen": 688,
+            "enLen": 629,
+            "deltaPct": 0.08575581395348837
+          },
+          "a": {
+            "ptLen": 1180,
+            "enLen": 1092,
+            "deltaPct": 0.07457627118644068
+          },
+          "r": {
+            "ptLen": 979,
+            "enLen": 903,
+            "deltaPct": 0.07763023493360573
+          },
+          "l": {
+            "ptLen": 404,
+            "enLen": 347,
+            "deltaPct": 0.14108910891089108
+          }
         },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resistência visível",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "icebreaker.js",
+      "title_pt": "Icebreaker - Rapport Inicial",
+      "title_en": "Icebreaker - Initial Rapport",
+      "status": "Lint-Blocker",
+      "lint": {
+        "ok": false,
+        "issues": [
+          "campo 'id' ausente ou vazio",
+          "campo 'title_pt' ausente ou vazio",
+          "campo 'title_en' ausente ou vazio",
+          "campo 'company' ausente ou vazio",
+          "campo 'period' ausente ou vazio",
+          "pt.s ausente ou vazio",
+          "en.s ausente ou vazio",
+          "pt.t ausente ou vazio",
+          "en.t ausente ou vazio",
+          "pt.a ausente ou vazio",
+          "en.a ausente ou vazio",
+          "pt.r ausente ou vazio",
+          "en.r ausente ou vazio",
+          "pt.l ausente ou vazio",
+          "en.l ausente ou vazio",
+          "FUPs insuficientes: 0 (necess�rio 10)"
+        ],
+        "warnings": [
+          "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)"
+        ]
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Ausência de Customer Obsession",
+          "Menos de 8 métricas (0)"
+        ],
+        "warnings": [
+          "Sem métricas financeiras claras",
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
+          "Mecanismos/processos não evidenciados",
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
+        ],
+        "positives": [
+          "Ratio EU:NÓS saudável (0:0)"
+        ],
+        "metricsCount": 0,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": false
         },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 0,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
         },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
+        "recency": {
+          "monthsAgo": null,
+          "status": "unknown"
         },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+        "parity": {
+          "s": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "t": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "a": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "r": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "l": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          }
         },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 5",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": false,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "insist_on_highest_standards",
+      "case_id": "hsbc-zero-defects",
+      "title_pt": "Estabelecimento de Padrão 'Zero Data Loss' em Migração de US$ 5.2B",
+      "title_en": "Establishing 'Zero Data Loss' Standard in US$ 5.2B Migration",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras",
+          "Case antigo (>7 anos)"
+        ],
+        "positives": [
+          "Customer Obsession forte (25 menções relevantes)",
+          "Métricas robustas (27)",
+          "Ratio EU:NÓS saudável (3:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 27,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 25,
+        "conflictSignals": true,
+        "mechanismSignals": 10,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 3,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 106,
+          "status": "aging"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 577,
+            "enLen": 548,
+            "deltaPct": 0.05025996533795494
+          },
+          "t": {
+            "ptLen": 646,
+            "enLen": 607,
+            "deltaPct": 0.06037151702786378
+          },
+          "a": {
+            "ptLen": 1774,
+            "enLen": 1665,
+            "deltaPct": 0.06144306651634724
+          },
+          "r": {
+            "ptLen": 900,
+            "enLen": 834,
+            "deltaPct": 0.07333333333333333
+          },
+          "l": {
+            "ptLen": 675,
+            "enLen": 677,
+            "deltaPct": 0.0029542097488921715
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "insist_on_highest_standards",
+      "case_id": "sefaz-pmo-governance",
+      "title_pt": "Elevei o Padrao do PMO da SEFAZ com Foco em Valor ao Cidadao",
+      "title_en": "Raised SEFAZ PMO Standards with Citizen Value Focus",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": [
+          "desequil�brio PT/EN em 't' (diferen�a >25%)"
+        ]
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem métricas operacionais explícitas"
+        ],
+        "positives": [
+          "Customer Obsession forte (8 menções relevantes)",
+          "Métricas robustas (23)",
+          "Ratio EU:NÓS saudável (9:1)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 23,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": false
+        },
+        "customerSignals": 8,
+        "conflictSignals": true,
+        "mechanismSignals": 6,
+        "ratio": {
+          "ratio": 0.9,
+          "counts": {
+            "eu": 9,
+            "nos": 1
+          }
+        },
+        "recency": {
+          "monthsAgo": 5,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 437,
+            "enLen": 399,
+            "deltaPct": 0.08695652173913043
+          },
+          "t": {
+            "ptLen": 263,
+            "enLen": 190,
+            "deltaPct": 0.27756653992395436
+          },
+          "a": {
+            "ptLen": 1164,
+            "enLen": 1179,
+            "deltaPct": 0.01272264631043257
+          },
+          "r": {
+            "ptLen": 501,
+            "enLen": 584,
+            "deltaPct": 0.1421232876712329
+          },
+          "l": {
+            "ptLen": 360,
+            "enLen": 287,
+            "deltaPct": 0.20277777777777778
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 3,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "insist_on_highest_standards",
+      "case_id": "sicredi-payment-sla",
+      "title_pt": "Redesenhei o Gateway SICREDI para 99.99% de Disponibilidade",
+      "title_en": "Redesigned SICREDI Gateway for 99.99% Availability",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (3 menções relevantes)",
+          "Métricas robustas (21)",
+          "Ratio EU:NÓS saudável (11:1)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 21,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 3,
+        "conflictSignals": true,
+        "mechanismSignals": 10,
+        "ratio": {
+          "ratio": 0.9166666666666666,
+          "counts": {
+            "eu": 11,
+            "nos": 1
+          }
+        },
+        "recency": {
+          "monthsAgo": 71,
+          "status": "needs-refresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 311,
+            "enLen": 267,
+            "deltaPct": 0.1414790996784566
+          },
+          "t": {
+            "ptLen": 267,
+            "enLen": 212,
+            "deltaPct": 0.20599250936329588
+          },
+          "a": {
+            "ptLen": 1173,
+            "enLen": 1260,
+            "deltaPct": 0.06904761904761905
+          },
+          "r": {
+            "ptLen": 616,
+            "enLen": 548,
+            "deltaPct": 0.11038961038961038
+          },
+          "l": {
+            "ptLen": 266,
+            "enLen": 262,
+            "deltaPct": 0.015037593984962405
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "insist_on_highest_standards",
+      "case_id": "reject-mediocre-work-procergs",
+      "title_pt": "Rejeitei Entrega da PROCERGS e Institui Quality Gate Zero Falhas",
+      "title_en": "Rejected PROCERGS Delivery and Instituted Zero-Defect Quality Gate",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": [
+          "desequil�brio PT/EN em 't' (diferen�a >25%)"
+        ]
+      },
+      "heur": {
+        "score": 87,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem conflito/resistência visível",
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras",
+          "Paridade PT/EN desequilibrada em t"
+        ],
+        "positives": [
+          "Customer Obsession forte (17 menções relevantes)",
+          "Métricas robustas (15)",
+          "Ratio EU:NÓS saudável (2:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 15,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 17,
+        "conflictSignals": false,
+        "mechanismSignals": 7,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 2,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 8,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 333,
+            "enLen": 265,
+            "deltaPct": 0.2042042042042042
+          },
+          "t": {
+            "ptLen": 246,
+            "enLen": 145,
+            "deltaPct": 0.4105691056910569
+          },
+          "a": {
+            "ptLen": 1121,
+            "enLen": 994,
+            "deltaPct": 0.11329170383586083
+          },
+          "r": {
+            "ptLen": 451,
+            "enLen": 393,
+            "deltaPct": 0.1286031042128603
+          },
+          "l": {
+            "ptLen": 159,
+            "enLen": 166,
+            "deltaPct": 0.04216867469879518
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 2
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "invent_and_simplify",
+      "case_id": "huawei-six-sigma-optimization",
+      "title_pt": "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing",
+      "title_en": "Invented 5G mechanism with Six Sigma playbook that reversed client-facing penalties",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (13 menções relevantes)",
+          "Métricas robustas (22)",
+          "Ratio EU:NÓS saudável (7:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 22,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 13,
+        "conflictSignals": true,
+        "mechanismSignals": 15,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 7,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 37,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 542,
+            "enLen": 548,
+            "deltaPct": 0.010948905109489052
+          },
+          "t": {
+            "ptLen": 281,
+            "enLen": 284,
+            "deltaPct": 0.01056338028169014
+          },
+          "a": {
+            "ptLen": 1149,
+            "enLen": 1075,
+            "deltaPct": 0.06440382941688425
+          },
+          "r": {
+            "ptLen": 478,
+            "enLen": 490,
+            "deltaPct": 0.024489795918367346
+          },
+          "l": {
+            "ptLen": 430,
+            "enLen": 408,
+            "deltaPct": 0.05116279069767442
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "invent_and_simplify",
+      "case_id": "bradesco-next-compliance-simplification",
+      "title_pt": "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
+      "title_en": "Invented one-click KYC stream that cut Next onboarding from 32 to 6 hours",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem métricas operacionais explícitas",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (20 menções relevantes)",
+          "Métricas robustas (22)",
+          "Ratio EU:NÓS saudável (12:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 22,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": false
+        },
+        "customerSignals": 20,
+        "conflictSignals": true,
+        "mechanismSignals": 3,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 12,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 41,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 451,
+            "enLen": 438,
+            "deltaPct": 0.028824833702882482
+          },
+          "t": {
+            "ptLen": 313,
+            "enLen": 321,
+            "deltaPct": 0.024922118380062305
+          },
+          "a": {
+            "ptLen": 964,
+            "enLen": 928,
+            "deltaPct": 0.03734439834024896
+          },
+          "r": {
+            "ptLen": 324,
+            "enLen": 323,
+            "deltaPct": 0.0030864197530864196
+          },
+          "l": {
+            "ptLen": 343,
+            "enLen": 327,
+            "deltaPct": 0.04664723032069971
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "invent_and_simplify",
+      "case_id": "unimed-ai-authorization",
+      "title_pt": "IA de autorizacao medica inventada com foco em beneficiario destravou 82% de automacao",
+      "title_en": "Invented beneficiary-centric medical authorization AI that unlocked 82% automation",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (12 menções relevantes)",
+          "Métricas robustas (23)",
+          "Ratio EU:NÓS saudável (15:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 23,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 12,
+        "conflictSignals": true,
+        "mechanismSignals": 5,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 15,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 24,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 520,
+            "enLen": 523,
+            "deltaPct": 0.0057361376673040155
+          },
+          "t": {
+            "ptLen": 288,
+            "enLen": 267,
+            "deltaPct": 0.07291666666666667
+          },
+          "a": {
+            "ptLen": 1111,
+            "enLen": 1074,
+            "deltaPct": 0.0333033303330333
+          },
+          "r": {
+            "ptLen": 551,
+            "enLen": 524,
+            "deltaPct": 0.04900181488203267
+          },
+          "l": {
+            "ptLen": 455,
+            "enLen": 416,
+            "deltaPct": 0.08571428571428572
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 3
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "invent_and_simplify",
+      "case_id": "unimed-open-innovation",
+      "title_pt": "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%",
+      "title_en": "Invented open platform with SaaS LP that cut innovation cycle by 68%",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem métricas operacionais explícitas"
+        ],
+        "positives": [
+          "Customer Obsession forte (15 menções relevantes)",
+          "Métricas robustas (24)",
+          "Ratio EU:NÓS saudável (13:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 24,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": false
+        },
+        "customerSignals": 15,
+        "conflictSignals": true,
+        "mechanismSignals": 4,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 13,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 22,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 570,
+            "enLen": 569,
+            "deltaPct": 0.0017543859649122807
+          },
+          "t": {
+            "ptLen": 279,
+            "enLen": 252,
+            "deltaPct": 0.0967741935483871
+          },
+          "a": {
+            "ptLen": 1059,
+            "enLen": 992,
+            "deltaPct": 0.06326723323890462
+          },
+          "r": {
+            "ptLen": 586,
+            "enLen": 570,
+            "deltaPct": 0.027303754266211604
+          },
+          "l": {
+            "ptLen": 338,
+            "enLen": 338,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 3
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "invent_and_simplify",
+      "case_id": "sefarz-pix-reconciliation-automation",
+      "title_pt": "Automacao de conciliacao PIX municipal inventada em 45 dias eliminou risco fiscal",
+      "title_en": "Invented PIX municipal reconciliation automation in 45 days eliminating fiscal risk",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (25 menções relevantes)",
+          "Métricas robustas (25)",
+          "Ratio EU:NÓS saudável (12:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 25,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 25,
+        "conflictSignals": true,
+        "mechanismSignals": 10,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 12,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 21,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 536,
+            "enLen": 515,
+            "deltaPct": 0.03917910447761194
+          },
+          "t": {
+            "ptLen": 326,
+            "enLen": 290,
+            "deltaPct": 0.11042944785276074
+          },
+          "a": {
+            "ptLen": 1123,
+            "enLen": 1039,
+            "deltaPct": 0.07479964381121995
+          },
+          "r": {
+            "ptLen": 536,
+            "enLen": 546,
+            "deltaPct": 0.018315018315018316
+          },
+          "l": {
+            "ptLen": 444,
+            "enLen": 413,
+            "deltaPct": 0.06981981981981981
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "invent_and_simplify",
+      "case_id": "payment-simplification-high-impact",
+      "title_pt": "Inventei motor de simplificacao de liquidez que reduziu D+3 para D+0 em marketplaces",
+      "title_en": "Invented liquidity simplification engine that moved settlements from D+3 to D+0",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem métricas operacionais explícitas",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (9 menções relevantes)",
+          "Métricas robustas (27)",
+          "Ratio EU:NÓS saudável (12:1)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 27,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": false
+        },
+        "customerSignals": 9,
+        "conflictSignals": true,
+        "mechanismSignals": 3,
+        "ratio": {
+          "ratio": 0.9230769230769231,
+          "counts": {
+            "eu": 12,
+            "nos": 1
+          }
+        },
+        "recency": {
+          "monthsAgo": 22,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 491,
+            "enLen": 466,
+            "deltaPct": 0.05091649694501019
+          },
+          "t": {
+            "ptLen": 285,
+            "enLen": 270,
+            "deltaPct": 0.05263157894736842
+          },
+          "a": {
+            "ptLen": 908,
+            "enLen": 832,
+            "deltaPct": 0.08370044052863436
+          },
+          "r": {
+            "ptLen": 416,
+            "enLen": 396,
+            "deltaPct": 0.04807692307692308
+          },
+          "l": {
+            "ptLen": 289,
+            "enLen": 268,
+            "deltaPct": 0.0726643598615917
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "learn_and_be_curious",
+      "case_id": "unimed-harvard-healthcare-innovation",
+      "title_pt": "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde",
+      "title_en": "Applying Harvard Concepts to Launch New Digital Health Products",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (13 menções relevantes)",
+          "Métricas robustas (39)",
+          "Ratio EU:NÓS saudável (1:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 39,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 13,
+        "conflictSignals": true,
+        "mechanismSignals": 12,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 1,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 10,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 656,
+            "enLen": 603,
+            "deltaPct": 0.08079268292682927
+          },
+          "t": {
+            "ptLen": 822,
+            "enLen": 792,
+            "deltaPct": 0.0364963503649635
+          },
+          "a": {
+            "ptLen": 2113,
+            "enLen": 1976,
+            "deltaPct": 0.06483672503549456
+          },
+          "r": {
+            "ptLen": 1046,
+            "enLen": 972,
+            "deltaPct": 0.07074569789674952
+          },
+          "l": {
+            "ptLen": 680,
+            "enLen": 677,
+            "deltaPct": 0.004411764705882353
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "learn_and_be_curious",
+      "case_id": "bradesco-safe-agile-framework",
+      "title_pt": "Implementação de Framework Ágil em Escala para Banco Digital",
+      "title_en": "Large-Scale Agile Framework Implementation for Digital Bank",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
+          "Sem métricas financeiras claras"
+        ],
+        "positives": [
+          "Métricas robustas (23)",
+          "Ratio EU:NÓS saudável (1:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 23,
+        "metricCategories": {
+          "financial": false,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 2,
+        "conflictSignals": true,
+        "mechanismSignals": 12,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 1,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 82,
+          "status": "needs-refresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 610,
+            "enLen": 591,
+            "deltaPct": 0.03114754098360656
+          },
+          "t": {
+            "ptLen": 547,
+            "enLen": 493,
+            "deltaPct": 0.09872029250457039
+          },
+          "a": {
+            "ptLen": 1864,
+            "enLen": 1805,
+            "deltaPct": 0.03165236051502146
+          },
+          "r": {
+            "ptLen": 931,
+            "enLen": 850,
+            "deltaPct": 0.08700322234156821
+          },
+          "l": {
+            "ptLen": 765,
+            "enLen": 704,
+            "deltaPct": 0.07973856209150326
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 2
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "learn_and_be_curious",
+      "case_id": "olibano-blockchain-exploration",
+      "title_pt": "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização",
+      "title_en": "Blockchain Payment Solution Prototyping After Specialization",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 93,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
+        ],
+        "positives": [
+          "Customer Obsession forte (10 menções relevantes)",
+          "Métricas robustas (21)",
+          "Ratio EU:NÓS saudável (1:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 21,
+        "metricCategories": {
+          "financial": true,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 10,
+        "conflictSignals": true,
+        "mechanismSignals": 3,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 1,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 14,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 601,
+            "enLen": 577,
+            "deltaPct": 0.03993344425956739
+          },
+          "t": {
+            "ptLen": 579,
+            "enLen": 562,
+            "deltaPct": 0.02936096718480138
+          },
+          "a": {
+            "ptLen": 1754,
+            "enLen": 1684,
+            "deltaPct": 0.039908779931584946
+          },
+          "r": {
+            "ptLen": 1027,
+            "enLen": 924,
+            "deltaPct": 0.1002921129503408
+          },
+          "l": {
+            "ptLen": 684,
+            "enLen": 624,
+            "deltaPct": 0.08771929824561403
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": false,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "learn_and_be_curious",
+      "case_id": "stay-updated-payments-fintech",
+      "title_pt": "Criei um Sistema de Atualização Contínua em Payments/Fintech com PoCs Reutilizáveis",
+      "title_en": "Built a Continuous Learning System in Payments/Fintech with Reusable PoCs",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (21 menções relevantes)",
+          "Métricas robustas (49)",
+          "Ratio EU:NÓS saudável (3:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 49,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 21,
+        "conflictSignals": true,
+        "mechanismSignals": 11,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 3,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 10,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 817,
+            "enLen": 704,
+            "deltaPct": 0.1383108935128519
+          },
+          "t": {
+            "ptLen": 595,
+            "enLen": 568,
+            "deltaPct": 0.0453781512605042
+          },
+          "a": {
+            "ptLen": 1691,
+            "enLen": 1589,
+            "deltaPct": 0.06031933767001774
+          },
+          "r": {
+            "ptLen": 1007,
+            "enLen": 947,
+            "deltaPct": 0.05958291956305859
+          },
+          "l": {
+            "ptLen": 646,
+            "enLen": 619,
+            "deltaPct": 0.04179566563467492
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 2
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "learn_and_be_curious",
+      "case_id": "out-of-comfort-zone-transparency-portal",
+      "title_pt": "Liderei o Portal da Transparência: Fora da Zona de Conforto",
+      "title_en": "Led the Transparency Portal: Out of the Comfort Zone",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 95,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
+          "Ratio EU:NÓS abaixo da meta 3:1 (8:3)",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Métricas robustas (32)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 32,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 2,
+        "conflictSignals": true,
+        "mechanismSignals": 5,
+        "ratio": {
+          "ratio": 0.7272727272727273,
+          "counts": {
+            "eu": 8,
+            "nos": 3
+          }
+        },
+        "recency": {
+          "monthsAgo": 30,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 1134,
+            "enLen": 1071,
+            "deltaPct": 0.05555555555555555
+          },
+          "t": {
+            "ptLen": 767,
+            "enLen": 733,
+            "deltaPct": 0.04432855280312908
+          },
+          "a": {
+            "ptLen": 1957,
+            "enLen": 1907,
+            "deltaPct": 0.025549310168625446
+          },
+          "r": {
+            "ptLen": 1272,
+            "enLen": 1216,
+            "deltaPct": 0.0440251572327044
+          },
+          "l": {
+            "ptLen": 814,
+            "enLen": 784,
+            "deltaPct": 0.036855036855036855
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "meta_overrides.js",
+      "title_pt": "",
+      "title_en": "",
+      "status": "Lint-Blocker",
+      "lint": {
+        "ok": false,
+        "issues": [
+          "campo 'id' ausente ou vazio",
+          "campo 'title_pt' ausente ou vazio",
+          "campo 'title_en' ausente ou vazio",
+          "campo 'company' ausente ou vazio",
+          "campo 'period' ausente ou vazio",
+          "objeto pt ausente",
+          "objeto en ausente",
+          "pt.s ausente ou vazio",
+          "en.s ausente ou vazio",
+          "pt.t ausente ou vazio",
+          "en.t ausente ou vazio",
+          "pt.a ausente ou vazio",
+          "en.a ausente ou vazio",
+          "pt.r ausente ou vazio",
+          "en.r ausente ou vazio",
+          "pt.l ausente ou vazio",
+          "en.l ausente ou vazio",
+          "FUPs insuficientes: 0 (necess�rio 10)"
+        ],
+        "warnings": [
+          "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)"
+        ]
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Ausência de Customer Obsession",
+          "Menos de 8 métricas (0)"
+        ],
+        "warnings": [
+          "Sem métricas financeiras claras",
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
+          "Mecanismos/processos não evidenciados",
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
+        ],
+        "positives": [
+          "Ratio EU:NÓS saudável (0:0)"
+        ],
+        "metricsCount": 0,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 0,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": null,
+          "status": "unknown"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "t": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "a": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "r": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "l": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": false,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "myQuestions.js",
+      "title_pt": "Minhas Perguntas para o Entrevistador",
+      "title_en": "My Questions for the Interviewer",
+      "status": "Lint-Blocker",
+      "lint": {
+        "ok": false,
+        "issues": [
+          "campo 'id' ausente ou vazio",
+          "campo 'title_pt' ausente ou vazio",
+          "campo 'title_en' ausente ou vazio",
+          "campo 'company' ausente ou vazio",
+          "campo 'period' ausente ou vazio",
+          "pt.s ausente ou vazio",
+          "en.s ausente ou vazio",
+          "pt.t ausente ou vazio",
+          "en.t ausente ou vazio",
+          "pt.a ausente ou vazio",
+          "en.a ausente ou vazio",
+          "pt.r ausente ou vazio",
+          "en.r ausente ou vazio",
+          "pt.l ausente ou vazio",
+          "en.l ausente ou vazio",
+          "FUPs insuficientes: 0 (necess�rio 10)"
+        ],
+        "warnings": [
+          "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)"
+        ]
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Ausência de Customer Obsession",
+          "Menos de 8 métricas (0)"
+        ],
+        "warnings": [
+          "Sem métricas financeiras claras",
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
+          "Mecanismos/processos não evidenciados",
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
+        ],
+        "positives": [
+          "Ratio EU:NÓS saudável (0:0)"
+        ],
+        "metricsCount": 0,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 0,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": null,
+          "status": "unknown"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "t": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "a": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "r": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "l": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": false,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "ownership",
+      "case_id": "hsbc-migration-leadership",
+      "title_pt": "Liderança da Migração de US$ 5.2B de Ativos e Contas",
+      "title_en": "Leadership of US$ 5.2B Assets and Accounts Migration",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem métricas operacionais explícitas",
+          "Transições STAR(L) pouco claras",
+          "Case antigo (>7 anos)"
+        ],
+        "positives": [
+          "Customer Obsession forte (8 menções relevantes)",
+          "Métricas robustas (41)",
+          "Ratio EU:NÓS saudável (21:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 41,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": false
+        },
+        "customerSignals": 8,
+        "conflictSignals": true,
+        "mechanismSignals": 12,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 21,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 106,
+          "status": "aging"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 531,
+            "enLen": 490,
+            "deltaPct": 0.07721280602636535
+          },
+          "t": {
+            "ptLen": 528,
+            "enLen": 531,
+            "deltaPct": 0.005649717514124294
+          },
+          "a": {
+            "ptLen": 1244,
+            "enLen": 1198,
+            "deltaPct": 0.03697749196141479
+          },
+          "r": {
+            "ptLen": 682,
+            "enLen": 634,
+            "deltaPct": 0.07038123167155426
+          },
+          "l": {
+            "ptLen": 336,
+            "enLen": 314,
+            "deltaPct": 0.06547619047619048
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "ownership",
+      "case_id": "sefaz-pmo-creation",
+      "title_pt": "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero",
+      "title_en": "Institutional PMO Structuring and PROFISCO II Governance from Scratch",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (5 menções relevantes)",
+          "Métricas robustas (34)",
+          "Ratio EU:NÓS saudável (19:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 34,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 5,
+        "conflictSignals": true,
+        "mechanismSignals": 19,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 19,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": -2,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 462,
+            "enLen": 359,
+            "deltaPct": 0.22294372294372294
+          },
+          "t": {
+            "ptLen": 385,
+            "enLen": 376,
+            "deltaPct": 0.023376623376623377
+          },
+          "a": {
+            "ptLen": 1255,
+            "enLen": 1127,
+            "deltaPct": 0.10199203187250996
+          },
+          "r": {
+            "ptLen": 533,
+            "enLen": 485,
+            "deltaPct": 0.0900562851782364
+          },
+          "l": {
+            "ptLen": 348,
+            "enLen": 341,
+            "deltaPct": 0.020114942528735632
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "ownership",
+      "case_id": "bradesco-international-payments",
+      "title_pt": "Forca-Tarefa de Pagamentos Internacionais para Cortar Custos e Recuperar SLAs",
+      "title_en": "International Payments Task Force to Cut Costs and Recover SLAs",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras",
+          "Case antigo (>7 anos)"
+        ],
+        "positives": [
+          "Customer Obsession forte (8 menções relevantes)",
+          "Métricas robustas (37)",
+          "Ratio EU:NÓS saudável (13:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 37,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 8,
+        "conflictSignals": true,
+        "mechanismSignals": 11,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 13,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 100,
+          "status": "aging"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 505,
+            "enLen": 485,
+            "deltaPct": 0.039603960396039604
+          },
+          "t": {
+            "ptLen": 348,
+            "enLen": 354,
+            "deltaPct": 0.01694915254237288
+          },
+          "a": {
+            "ptLen": 1297,
+            "enLen": 1310,
+            "deltaPct": 0.009923664122137405
+          },
+          "r": {
+            "ptLen": 389,
+            "enLen": 406,
+            "deltaPct": 0.04187192118226601
+          },
+          "l": {
+            "ptLen": 322,
+            "enLen": 274,
+            "deltaPct": 0.14906832298136646
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "ownership",
+      "case_id": "hsbc-payment-reconciliation",
+      "title_pt": "Reconciliei US$47M de Pagamentos na Reta Final do Cutover",
+      "title_en": "Reconciled US$47M in Payments Ahead of Cutover",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 97,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem conflito/resistência visível",
+          "Transições STAR(L) pouco claras",
+          "Case antigo (>7 anos)"
+        ],
+        "positives": [
+          "Customer Obsession forte (9 menções relevantes)",
+          "Métricas robustas (23)",
+          "Ratio EU:NÓS saudável (12:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 23,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 9,
+        "conflictSignals": false,
+        "mechanismSignals": 16,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 12,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 101,
+          "status": "aging"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 425,
+            "enLen": 406,
+            "deltaPct": 0.04470588235294118
+          },
+          "t": {
+            "ptLen": 260,
+            "enLen": 257,
+            "deltaPct": 0.011538461538461539
+          },
+          "a": {
+            "ptLen": 1196,
+            "enLen": 1137,
+            "deltaPct": 0.04933110367892977
+          },
+          "r": {
+            "ptLen": 437,
+            "enLen": 379,
+            "deltaPct": 0.13272311212814644
+          },
+          "l": {
+            "ptLen": 292,
+            "enLen": 278,
+            "deltaPct": 0.04794520547945205
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 8
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "ownership",
+      "case_id": "payment-incidents-prevention-mechanism",
+      "title_pt": "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
+      "title_en": "Turned Recurring Payment Incidents into a Reliability Mechanism",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (3 menções relevantes)",
+          "Métricas robustas (17)",
+          "Ratio EU:NÓS saudável (11:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 17,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 3,
+        "conflictSignals": true,
+        "mechanismSignals": 12,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 11,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 14,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 455,
+            "enLen": 409,
+            "deltaPct": 0.1010989010989011
+          },
+          "t": {
+            "ptLen": 246,
+            "enLen": 230,
+            "deltaPct": 0.06504065040650407
+          },
+          "a": {
+            "ptLen": 1302,
+            "enLen": 1109,
+            "deltaPct": 0.14823348694316435
+          },
+          "r": {
+            "ptLen": 457,
+            "enLen": 417,
+            "deltaPct": 0.087527352297593
+          },
+          "l": {
+            "ptLen": 329,
+            "enLen": 315,
+            "deltaPct": 0.0425531914893617
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 3
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "ownership",
+      "case_id": "long-term-tradeoff",
+      "title_pt": "Assumi Trade-off: Menos Escopo Agora por Maior Robustez",
+      "title_en": "Took the Trade-off: Less Scope Now for Greater Robustness",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (15 menções relevantes)",
+          "Métricas robustas (28)",
+          "Ratio EU:NÓS saudável (20:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 28,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 15,
+        "conflictSignals": true,
+        "mechanismSignals": 4,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 20,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 46,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 534,
+            "enLen": 492,
+            "deltaPct": 0.07865168539325842
+          },
+          "t": {
+            "ptLen": 423,
+            "enLen": 358,
+            "deltaPct": 0.1536643026004728
+          },
+          "a": {
+            "ptLen": 1254,
+            "enLen": 1272,
+            "deltaPct": 0.014150943396226415
+          },
+          "r": {
+            "ptLen": 532,
+            "enLen": 513,
+            "deltaPct": 0.03571428571428571
+          },
+          "l": {
+            "ptLen": 319,
+            "enLen": 302,
+            "deltaPct": 0.05329153605015674
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "principlesData.js",
+      "case_id": "principlesData",
+      "title_pt": "",
+      "title_en": "",
+      "status": "Lint-Blocker",
+      "lint": {
+        "ok": false,
+        "issues": [
+          "falha ao carregar arquivo: parse error: Unexpected token 'export'"
+        ],
+        "warnings": []
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Ausência de Customer Obsession",
+          "Menos de 8 métricas (0)"
+        ],
+        "warnings": [
+          "Sem métricas financeiras claras",
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
+          "Mecanismos/processos não evidenciados",
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
+        ],
+        "positives": [
+          "Ratio EU:NÓS saudável (0:0)"
+        ],
+        "metricsCount": 0,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 0,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": null,
+          "status": "unknown"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "t": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "a": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "r": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "l": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": false,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "template-claude.js",
+      "case_id": "template_principle",
+      "title_pt": "",
+      "title_en": "",
+      "status": "Lint-Blocker",
+      "lint": {
+        "ok": false,
+        "issues": [
+          "campo 'title_pt' ausente ou vazio",
+          "campo 'title_en' ausente ou vazio",
+          "campo 'company' ausente ou vazio",
+          "campo 'period' ausente ou vazio",
+          "objeto pt ausente",
+          "objeto en ausente",
+          "pt.s ausente ou vazio",
+          "en.s ausente ou vazio",
+          "pt.t ausente ou vazio",
+          "en.t ausente ou vazio",
+          "pt.a ausente ou vazio",
+          "en.a ausente ou vazio",
+          "pt.r ausente ou vazio",
+          "en.r ausente ou vazio",
+          "pt.l ausente ou vazio",
+          "en.l ausente ou vazio",
+          "FUPs insuficientes: 0 (necess�rio 10)"
+        ],
+        "warnings": [
+          "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)"
+        ]
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Ausência de Customer Obsession",
+          "Menos de 8 métricas (0)"
+        ],
+        "warnings": [
+          "Sem métricas financeiras claras",
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
+          "Mecanismos/processos não evidenciados",
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
+        ],
+        "positives": [
+          "Ratio EU:NÓS saudável (0:0)"
+        ],
+        "metricsCount": 0,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 0,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": null,
+          "status": "unknown"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "t": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "a": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "r": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "l": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": false,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "think_big",
+      "case_id": "huawei-global-rollout",
+      "title_pt": "Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Huawei",
+      "title_en": "Global Rollout Model Transformation at Huawei - From Brazil to Worldwide Standard",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)"
+        ],
+        "positives": [
+          "Métricas robustas (34)",
+          "Ratio EU:NÓS saudável (11:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 34,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 1,
+        "conflictSignals": true,
+        "mechanismSignals": 10,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 11,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 28,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 421,
+            "enLen": 335,
+            "deltaPct": 0.2042755344418052
+          },
+          "t": {
+            "ptLen": 432,
+            "enLen": 368,
+            "deltaPct": 0.14814814814814814
+          },
+          "a": {
+            "ptLen": 1067,
+            "enLen": 903,
+            "deltaPct": 0.15370196813495782
+          },
+          "r": {
+            "ptLen": 672,
+            "enLen": 616,
+            "deltaPct": 0.08333333333333333
+          },
+          "l": {
+            "ptLen": 426,
+            "enLen": 408,
+            "deltaPct": 0.04225352112676056
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "think_big",
+      "case_id": "unimed-ecosystem-transformation",
+      "title_pt": "Liderança da Iniciativa para Transformar a Unimed de uma Seguradora para um Ecossistema de Saúde Digital",
+      "title_en": "Leading Unimed's Transformation from Insurance to Digital Health Ecosystem",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 98,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem métricas operacionais explícitas",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
+        ],
+        "positives": [
+          "Customer Obsession forte (7 menções relevantes)",
+          "Métricas robustas (32)",
+          "Ratio EU:NÓS saudável (8:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 32,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": false
+        },
+        "customerSignals": 7,
+        "conflictSignals": true,
+        "mechanismSignals": 9,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 8,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 7,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 386,
+            "enLen": 359,
+            "deltaPct": 0.06994818652849741
+          },
+          "t": {
+            "ptLen": 390,
+            "enLen": 328,
+            "deltaPct": 0.15897435897435896
+          },
+          "a": {
+            "ptLen": 986,
+            "enLen": 936,
+            "deltaPct": 0.05070993914807302
+          },
+          "r": {
+            "ptLen": 683,
+            "enLen": 673,
+            "deltaPct": 0.014641288433382138
+          },
+          "l": {
+            "ptLen": 451,
+            "enLen": 434,
+            "deltaPct": 0.037694013303769404
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": false,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "think_big",
+      "case_id": "bradesco-paas-latam",
+      "title_pt": "Proposta e Desenho de uma Plataforma de Pagamentos como Serviço (PaaS) para a América Latina",
+      "title_en": "Payments as a Service (PaaS) Platform Proposal for Latin America",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 97,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem conflito/resistência visível",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (35 menções relevantes)",
+          "Métricas robustas (49)",
+          "Ratio EU:NÓS saudável (7:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 49,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 35,
+        "conflictSignals": false,
+        "mechanismSignals": 2,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 7,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 40,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 765,
+            "enLen": 673,
+            "deltaPct": 0.12026143790849673
+          },
+          "t": {
+            "ptLen": 614,
+            "enLen": 519,
+            "deltaPct": 0.15472312703583063
+          },
+          "a": {
+            "ptLen": 1590,
+            "enLen": 1421,
+            "deltaPct": 0.10628930817610063
+          },
+          "r": {
+            "ptLen": 1036,
+            "enLen": 933,
+            "deltaPct": 0.09942084942084942
+          },
+          "l": {
+            "ptLen": 392,
+            "enLen": 390,
+            "deltaPct": 0.00510204081632653
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "think_big",
+      "case_id": "game-changing-program",
+      "title_pt": "Programa Horizonte: Digital Twin Fiscal que Redirecionou R$2,1B em Investimentos",
+      "title_en": "Horizonte Program: Fiscal Digital Twin that Redirected BRL 2.1B in Investments",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 90,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
+        ],
+        "positives": [
+          "Métricas robustas (37)",
+          "Ratio EU:NÓS saudável (6:1)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 37,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 2,
+        "conflictSignals": true,
+        "mechanismSignals": 9,
+        "ratio": {
+          "ratio": 0.8571428571428571,
+          "counts": {
+            "eu": 6,
+            "nos": 1
+          }
+        },
+        "recency": {
+          "monthsAgo": 2,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 635,
+            "enLen": 575,
+            "deltaPct": 0.09448818897637795
+          },
+          "t": {
+            "ptLen": 686,
+            "enLen": 581,
+            "deltaPct": 0.15306122448979592
+          },
+          "a": {
+            "ptLen": 1379,
+            "enLen": 1246,
+            "deltaPct": 0.09644670050761421
+          },
+          "r": {
+            "ptLen": 1149,
+            "enLen": 1003,
+            "deltaPct": 0.12706701479547433
+          },
+          "l": {
+            "ptLen": 413,
+            "enLen": 411,
+            "deltaPct": 0.004842615012106538
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": false,
+        "biasSignals": 1
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "topCases.js",
+      "case_id": "topCases",
+      "title_pt": "",
+      "title_en": "",
+      "status": "Lint-Blocker",
+      "lint": {
+        "ok": false,
+        "issues": [
+          "falha ao carregar arquivo: parse error: Unexpected token 'export'"
+        ],
+        "warnings": []
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Ausência de Customer Obsession",
+          "Menos de 8 métricas (0)"
+        ],
+        "warnings": [
+          "Sem métricas financeiras claras",
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
+          "Mecanismos/processos não evidenciados",
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
+        ],
+        "positives": [
+          "Ratio EU:NÓS saudável (0:0)"
+        ],
+        "metricsCount": 0,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 0,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": null,
+          "status": "unknown"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "t": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "a": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "r": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "l": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": false,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "typicalQuestions.js",
+      "title_pt": "",
+      "title_en": "",
+      "status": "Lint-Blocker",
+      "lint": {
+        "ok": false,
+        "issues": [
+          "campo 'id' ausente ou vazio",
+          "campo 'title_pt' ausente ou vazio",
+          "campo 'title_en' ausente ou vazio",
+          "campo 'company' ausente ou vazio",
+          "campo 'period' ausente ou vazio",
+          "objeto pt ausente",
+          "objeto en ausente",
+          "pt.s ausente ou vazio",
+          "en.s ausente ou vazio",
+          "pt.t ausente ou vazio",
+          "en.t ausente ou vazio",
+          "pt.a ausente ou vazio",
+          "en.a ausente ou vazio",
+          "pt.r ausente ou vazio",
+          "en.r ausente ou vazio",
+          "pt.l ausente ou vazio",
+          "en.l ausente ou vazio",
+          "FUPs insuficientes: 0 (necess�rio 10)"
+        ],
+        "warnings": [
+          "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)"
+        ]
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Ausência de Customer Obsession",
+          "Menos de 8 métricas (0)"
+        ],
+        "warnings": [
+          "Sem métricas financeiras claras",
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
+          "Mecanismos/processos não evidenciados",
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
+        ],
+        "positives": [
+          "Ratio EU:NÓS saudável (0:0)"
+        ],
+        "metricsCount": 0,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 0,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": null,
+          "status": "unknown"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "t": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "a": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "r": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "l": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": false,
+        "biasSignals": 0
+      },
+      "changes": []
     }
   ]
 }

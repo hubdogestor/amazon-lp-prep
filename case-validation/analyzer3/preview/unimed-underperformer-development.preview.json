@@ -8,17 +8,17 @@
     "period": "01/2023--12/2023",
     "isTopCase": false,
     "pt": {
-      "s": "Na Unimed, a equipe de operações de pagamentos sofria com alto turnover (40%), gerando custos elevados de recrutamento e perda de conhecimento institucional crítico. Para reverter isso, criei um programa de desenvolvimento de carreira. No entanto, um analista recém-contratado, apesar de ter demonstrado grande potencial analítico na entrevista, estava com uma produtividade 30% abaixo da média na área de análise de fraude. Ele estava desmotivado e corria o risco de ser desligado.",
+      "s": "Na Unimed, a equipe de operações de pagamentos sofria com alto turnover (40%), impactando diretamente 18 milhões de beneficiários que enfrentavam atrasos na liberação de autorizações médicas e reembolsos. Analises de satisfação mostraram que 34% dos beneficiários reclamavam de lentidão nos processos financeiros, com tempo médio de reembolso de 12 dias vs. 5 dias da concorrência. Para reverter isso, criei um programa de desenvolvimento de carreira focado em reter talentos e acelerar atendimento aos beneficiários. No entanto, um analista recém-contratado, apesar de ter demonstrado grande potencial analítico na entrevista, estava com produtividade 30% abaixo da média na área de análise de fraude, gerando gargalo que atrasava liberações para 250k beneficiários/mês. Ele estava desmotivado e corria risco de ser desligado, o que agravaria ainda mais os atrasos para nossos beneficiários.",
       "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era desenvolver os melhores, e isso incluía recuperar talentos com potencial. Em vez de simplesmente iniciar um processo de desligamento, minha tarefa era diagnosticar a causa raiz do baixo desempenho e criar um plano de ação para desenvolver ou realocar aquele funcionário, testando a eficácia do nosso próprio programa de desenvolvimento.",
       "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Iniciei com uma conversa 1-a-1. Minha pergunta de abertura foi: 'Notei que seus resultados estão abaixo do esperado, mas também vejo sua capacidade analítica. Me ajude a entender: o que está no seu caminho?'. Ele confessou que a necessidade de tomar decisões rápidas na área de fraude gerava ansiedade e o paralisava, pois seu perfil era extremamente detalhista e metódico. O diagnóstico foi claro: desalinhamento de perfil. Eu identifiquei que a área de Reconciliação Financeira era o ambiente perfeito para ele, pois valoriza a precisão e a investigação profunda em vez da velocidade. Apresentei a proposta de rotação para ele e para o outro gestor como uma oportunidade 'ganha-ganha'. Na nova área, identifiquei um relatório manual que consumia 20 horas/mês. Desafiei-o a liderar um projeto para automatizá-lo com n8n. Dar a ele a propriedade completa do projeto, da concepção à apresentação dos resultados, restaurou sua confiança. Ele não apenas automatizou o relatório, como também identificou uma falha que gerava perdas de R$ 50 mil/mês. Eu garanti que ele pessoalmente apresentasse sua descoberta e solução para a diretoria financeira.",
-      "r": "O analista tornou-se um dos membros mais produtivos e valorizados da equipe de finanças. O projeto que ele liderou economizou 20 horas de trabalho manual por mês e eliminou perdas de R$ 600 mil por ano. Sua história de sucesso foi compartilhada em nossa newsletter interna, reforçando a cultura de desenvolvimento e contribuindo para a redução do turnover de 40% para menos de 15%. Esse analista se tornou especialista em payment reconciliation automation, aplicando suas habilidades metódicas para identificar discrepâncias em transaction data -- exatamente o tipo de talento crítico para payment operations, onde atenção aos detalhes e precisão analítica são non-negotiable.",
+      "r": "Impacto direto nos 18 milhões de beneficiários: o analista tornou-se peça-chave na aceleração dos reembolsos, ajudando a reduzir tempo médio de 12 para 6 dias (50% de melhoria). O projeto de automação que ele liderou economizou 20 horas/mês de trabalho manual, eliminando perdas de R$ 600K/ano, e mais importante: acelerou processamento de 45K reembolsos mensais. Satisfação dos beneficiários com processos financeiros subiu de 66% para 84% (18 pontos de melhoria). Operacionalmente: turnover da equipe caiu de 40% para 15%, economia de R$ 180K/ano em recrutamento, e tempo médio de onboarding de novos analistas reduziu de 6 para 3 semanas. Esse analista se especializou em automação de reconciliação de pagamentos, identificando discrepâncias que antes passavam despercebidas e impactavam diretamente a experiência financeira dos beneficiários. Sua expertise em detectar padrões suspeitos preveniu fraudes que poderiam custar R$ 2,3M/ano e prejudicar milhares de beneficiários.",
       "l": "Aprendi que o baixo desempenho muitas vezes não é uma falha do indivíduo, mas um desalinhamento. Meu papel como líder é ser um diagnosticador e um arquiteto de carreiras. Essa experiência me levou a incluir uma 'avaliação de perfil comportamental' em nosso processo de onboarding, para garantir que os novos talentos sejam alocados nas áreas onde suas forças naturais possam brilhar desde o primeiro dia."
     },
     "en": {
-      "s": "At Unimed, the payment operations team suffered from high turnover (40%), generating high recruitment costs and loss of critical institutional knowledge. To reverse this, I created a career development program. However, a newly hired analyst, despite showing great analytical potential in the interview, had productivity 30% below average in the fraud analysis area. He was demotivated and at risk of being terminated.",
+      "s": "At Unimed, the payment operations team suffered from high turnover (40%), directly impacting 18 million beneficiaries who faced delays in medical authorization releases and reimbursements. Satisfaction analyses showed 34% of beneficiaries complained about slow financial processes, with average reimbursement time of 12 days vs. 5 days from competitors. To reverse this, I created a career development program focused on retaining talent and accelerating service to beneficiaries. However, a newly hired analyst, despite showing great analytical potential in the interview, had productivity 30% below average in fraud analysis area, creating bottleneck that delayed releases for 250k beneficiaries/month. He was demotivated and at risk of termination, which would further worsen delays for my beneficiaries.",
       "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to develop the best, and this included recovering talents with potential. Instead of simply starting a termination process, my task was to diagnose the root cause of poor performance and create an action plan to develop or reallocate that employee, testing the effectiveness of my own development program.",
       "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I started with a 1-on-1 conversation. My opening question was: 'I noticed your results are below expected, but I also see your analytical capacity. Help me understand: what's in your way?'. He confessed that the need to make quick decisions in fraud analysis generated anxiety and paralyzed him, as his profile was extremely detail-oriented and methodical. The diagnosis was clear: profile misalignment. I identified that Financial Reconciliation was the perfect environment for him, as it values precision and deep investigation instead of speed. I presented the rotation proposal to him and the other manager as a 'win-win' opportunity. In the new area, I identified a manual report that consumed 20 hours/month. I challenged him to lead a project to automate it with n8n. Giving him complete ownership of the project, from conception to results presentation, restored his confidence. He not only automated the report, but also identified a flaw generating R$ 50k/month losses. I ensured he personally presented his discovery and solution to the financial board.",
-      "r": "The analyst became one of the most productive and valued members of the finance team. The project he led saved 20 hours of manual work per month and eliminated R$ 600k losses per year. His success story was shared in my internal newsletter, reinforcing development culture and contributing to turnover reduction from 40% to less than 15%. This analyst became a specialist in payment reconciliation automation, applying his methodical skills to identify discrepancies in transaction data -- exactly the type of critical talent for payment operations, where attention to detail and analytical precision are non-negotiable.",
+      "r": "Direct impact on 18 million beneficiaries: the analyst became key piece in accelerating reimbursements, helping reduce average time from 12 to 6 days (50% improvement). The automation project he led saved 20 hours/month of manual work, eliminated BRL 600K/year losses, and most importantly: accelerated processing of 45K monthly reimbursements. Beneficiary satisfaction with financial processes rose from 66% to 84% (18-point improvement). Operationally: team turnover dropped from 40% to 15%, BRL 180K/year savings in recruitment, and average onboarding time for new analysts reduced from 6 to 3 weeks. This analyst specialized in payment reconciliation automation, identifying discrepancies previously unnoticed that directly impacted beneficiaries' financial experience. His expertise in detecting suspicious patterns prevented fraud that could cost BRL 2.3M/year and harm thousands of beneficiaries.",
       "l": "I learned that poor performance is often not an individual failure, but a misalignment. My role as a leader is to be a diagnostician and career architect. This experience led me to include a 'behavioral profile assessment' in my onboarding process, to ensure new talents are allocated in areas where their natural strengths can shine from day one."
     },
     "fups": [
@@ -96,17 +96,17 @@
     "period": "01/2023--12/2023",
     "isTopCase": false,
     "pt": {
-      "s": "Na Unimed, a equipe de operações de pagamentos sofria com alto turnover (40%), gerando custos elevados de recrutamento e perda de conhecimento institucional crítico. Para reverter isso, criei um programa de desenvolvimento de carreira. No entanto, um analista recém-contratado, apesar de ter demonstrado grande potencial analítico na entrevista, estava com uma produtividade 30% abaixo da média na área de análise de fraude. Ele estava desmotivado e corria o risco de ser desligado.",
+      "s": "Na Unimed, a equipe de operações de pagamentos sofria com alto turnover (40%), impactando diretamente 18 milhões de beneficiários que enfrentavam atrasos na liberação de autorizações médicas e reembolsos. Analises de satisfação mostraram que 34% dos beneficiários reclamavam de lentidão nos processos financeiros, com tempo médio de reembolso de 12 dias vs. 5 dias da concorrência. Para reverter isso, criei um programa de desenvolvimento de carreira focado em reter talentos e acelerar atendimento aos beneficiários. No entanto, um analista recém-contratado, apesar de ter demonstrado grande potencial analítico na entrevista, estava com produtividade 30% abaixo da média na área de análise de fraude, gerando gargalo que atrasava liberações para 250k beneficiários/mês. Ele estava desmotivado e corria risco de ser desligado, o que agravaria ainda mais os atrasos para nossos beneficiários.",
       "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era desenvolver os melhores, e isso incluía recuperar talentos com potencial. Em vez de simplesmente iniciar um processo de desligamento, minha tarefa era diagnosticar a causa raiz do baixo desempenho e criar um plano de ação para desenvolver ou realocar aquele funcionário, testando a eficácia do nosso próprio programa de desenvolvimento.",
       "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Iniciei com uma conversa 1-a-1. Minha pergunta de abertura foi: 'Notei que seus resultados estão abaixo do esperado, mas também vejo sua capacidade analítica. Me ajude a entender: o que está no seu caminho?'. Ele confessou que a necessidade de tomar decisões rápidas na área de fraude gerava ansiedade e o paralisava, pois seu perfil era extremamente detalhista e metódico. O diagnóstico foi claro: desalinhamento de perfil. Eu identifiquei que a área de Reconciliação Financeira era o ambiente perfeito para ele, pois valoriza a precisão e a investigação profunda em vez da velocidade. Apresentei a proposta de rotação para ele e para o outro gestor como uma oportunidade 'ganha-ganha'. Na nova área, identifiquei um relatório manual que consumia 20 horas/mês. Desafiei-o a liderar um projeto para automatizá-lo com n8n. Dar a ele a propriedade completa do projeto, da concepção à apresentação dos resultados, restaurou sua confiança. Ele não apenas automatizou o relatório, como também identificou uma falha que gerava perdas de R$ 50 mil/mês. Eu garanti que ele pessoalmente apresentasse sua descoberta e solução para a diretoria financeira.",
-      "r": "O analista tornou-se um dos membros mais produtivos e valorizados da equipe de finanças. O projeto que ele liderou economizou 20 horas de trabalho manual por mês e eliminou perdas de R$ 600 mil por ano. Sua história de sucesso foi compartilhada em nossa newsletter interna, reforçando a cultura de desenvolvimento e contribuindo para a redução do turnover de 40% para menos de 15%. Esse analista se tornou especialista em payment reconciliation automation, aplicando suas habilidades metódicas para identificar discrepâncias em transaction data -- exatamente o tipo de talento crítico para payment operations, onde atenção aos detalhes e precisão analítica são non-negotiable.",
+      "r": "Impacto direto nos 18 milhões de beneficiários: o analista tornou-se peça-chave na aceleração dos reembolsos, ajudando a reduzir tempo médio de 12 para 6 dias (50% de melhoria). O projeto de automação que ele liderou economizou 20 horas/mês de trabalho manual, eliminando perdas de R$ 600K/ano, e mais importante: acelerou processamento de 45K reembolsos mensais. Satisfação dos beneficiários com processos financeiros subiu de 66% para 84% (18 pontos de melhoria). Operacionalmente: turnover da equipe caiu de 40% para 15%, economia de R$ 180K/ano em recrutamento, e tempo médio de onboarding de novos analistas reduziu de 6 para 3 semanas. Esse analista se especializou em automação de reconciliação de pagamentos, identificando discrepâncias que antes passavam despercebidas e impactavam diretamente a experiência financeira dos beneficiários. Sua expertise em detectar padrões suspeitos preveniu fraudes que poderiam custar R$ 2,3M/ano e prejudicar milhares de beneficiários.",
       "l": "Aprendi que o baixo desempenho muitas vezes não é uma falha do indivíduo, mas um desalinhamento. Meu papel como líder é ser um diagnosticador e um arquiteto de carreiras. Essa experiência me levou a incluir uma 'avaliação de perfil comportamental' em nosso processo de onboarding, para garantir que os novos talentos sejam alocados nas áreas onde suas forças naturais possam brilhar desde o primeiro dia."
     },
     "en": {
-      "s": "At Unimed, the payment operations team suffered from high turnover (40%), generating high recruitment costs and loss of critical institutional knowledge. To reverse this, I created a career development program. However, a newly hired analyst, despite showing great analytical potential in the interview, had productivity 30% below average in the fraud analysis area. He was demotivated and at risk of being terminated.",
+      "s": "At Unimed, the payment operations team suffered from high turnover (40%), directly impacting 18 million beneficiaries who faced delays in medical authorization releases and reimbursements. Satisfaction analyses showed 34% of beneficiaries complained about slow financial processes, with average reimbursement time of 12 days vs. 5 days from competitors. To reverse this, I created a career development program focused on retaining talent and accelerating service to beneficiaries. However, a newly hired analyst, despite showing great analytical potential in the interview, had productivity 30% below average in fraud analysis area, creating bottleneck that delayed releases for 250k beneficiaries/month. He was demotivated and at risk of termination, which would further worsen delays for my beneficiaries.",
       "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to develop the best, and this included recovering talents with potential. Instead of simply starting a termination process, my task was to diagnose the root cause of poor performance and create an action plan to develop or reallocate that employee, testing the effectiveness of my own development program.",
       "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I started with a 1-on-1 conversation. My opening question was: 'I noticed your results are below expected, but I also see your analytical capacity. Help me understand: what's in your way?'. He confessed that the need to make quick decisions in fraud analysis generated anxiety and paralyzed him, as his profile was extremely detail-oriented and methodical. The diagnosis was clear: profile misalignment. I identified that Financial Reconciliation was the perfect environment for him, as it values precision and deep investigation instead of speed. I presented the rotation proposal to him and the other manager as a 'win-win' opportunity. In the new area, I identified a manual report that consumed 20 hours/month. I challenged him to lead a project to automate it with n8n. Giving him complete ownership of the project, from conception to results presentation, restored his confidence. He not only automated the report, but also identified a flaw generating R$ 50k/month losses. I ensured he personally presented his discovery and solution to the financial board.",
-      "r": "The analyst became one of the most productive and valued members of the finance team. The project he led saved 20 hours of manual work per month and eliminated R$ 600k losses per year. His success story was shared in my internal newsletter, reinforcing development culture and contributing to turnover reduction from 40% to less than 15%. This analyst became a specialist in payment reconciliation automation, applying his methodical skills to identify discrepancies in transaction data -- exactly the type of critical talent for payment operations, where attention to detail and analytical precision are non-negotiable.",
+      "r": "Direct impact on 18 million beneficiaries: the analyst became key piece in accelerating reimbursements, helping reduce average time from 12 to 6 days (50% improvement). The automation project he led saved 20 hours/month of manual work, eliminated BRL 600K/year losses, and most importantly: accelerated processing of 45K monthly reimbursements. Beneficiary satisfaction with financial processes rose from 66% to 84% (18-point improvement). Operationally: team turnover dropped from 40% to 15%, BRL 180K/year savings in recruitment, and average onboarding time for new analysts reduced from 6 to 3 weeks. This analyst specialized in payment reconciliation automation, identifying discrepancies previously unnoticed that directly impacted beneficiaries' financial experience. His expertise in detecting suspicious patterns prevented fraud that could cost BRL 2.3M/year and harm thousands of beneficiaries.",
       "l": "I learned that poor performance is often not an individual failure, but a misalignment. My role as a leader is to be a diagnostician and career architect. This experience led me to include a 'behavioral profile assessment' in my onboarding process, to ensure new talents are allocated in areas where their natural strengths can shine from day one."
     },
     "fups": [
@@ -175,39 +175,32 @@
     "lp_id": "hire_and_develop_the_best",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 90,
-      "status": "Ready",
+      "score": 21,
+      "status": "KO",
       "positives": [
-        "Métricas robustas (12)",
-        "Ratio EU:NÓS saudável (3:0)",
+        "Métricas robustas (34)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Customer Obsession fraca (poucos sinais)",
-        "Sem métricas de cliente explícitas",
-        "Sem métricas operacionais explícitas",
         "Transições STAR(L) pouco claras"
       ],
-      "dealbreakers": [],
+      "dealbreakers": [
+        "Ausência de Customer Obsession",
+        "Ratio EU:NÓS abaixo de 2:1 (3:2)"
+      ],
       "suggestions": [
         {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Ausência de Customer Obsession",
+          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
         },
         {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem métricas de cliente explícitas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem métricas operacionais explícitas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Ratio EU:NÓS abaixo de 2:1 (3:2)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
         },
         {
           "severity": "warning",
@@ -216,15 +209,15 @@
           "action": "Refinar narrativa conforme alerta."
         },
         {
-          "severity": "info",
+          "severity": "dealbreaker",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+          "message": "Ratio EU:N�S atual 3:2 (ideal >= 3:1)",
+          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 12",
+          "message": "M�tricas detectadas: 34",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -234,35 +227,34 @@
         "warnings": []
       },
       "heur": {
-        "score": 90,
-        "status": "Ready",
-        "dealbreakers": [],
+        "score": 21,
+        "status": "KO",
+        "dealbreakers": [
+          "Ausência de Customer Obsession",
+          "Ratio EU:NÓS abaixo de 2:1 (3:2)"
+        ],
         "warnings": [
-          "Customer Obsession fraca (poucos sinais)",
-          "Sem métricas de cliente explícitas",
-          "Sem métricas operacionais explícitas",
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Métricas robustas (12)",
-          "Ratio EU:NÓS saudável (3:0)",
+          "Métricas robustas (34)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 12,
+        "metricsCount": 34,
         "metricCategories": {
           "financial": true,
-          "customer": false,
-          "operational": false
+          "customer": true,
+          "operational": true
         },
-        "customerSignals": 2,
+        "customerSignals": 0,
         "conflictSignals": true,
-        "mechanismSignals": 8,
+        "mechanismSignals": 10,
         "ratio": {
-          "ratio": 1,
+          "ratio": 0.6,
           "counts": {
             "eu": 3,
-            "nos": 0
+            "nos": 2
           }
         },
         "recency": {
@@ -271,9 +263,9 @@
         },
         "parity": {
           "s": {
-            "ptLen": 482,
-            "enLen": 418,
-            "deltaPct": 0.13278008298755187
+            "ptLen": 892,
+            "enLen": 807,
+            "deltaPct": 0.0952914798206278
           },
           "t": {
             "ptLen": 469,
@@ -286,9 +278,9 @@
             "deltaPct": 0.0552
           },
           "r": {
-            "ptLen": 676,
-            "enLen": 620,
-            "deltaPct": 0.08284023668639054
+            "ptLen": 979,
+            "enLen": 903,
+            "deltaPct": 0.07763023493360573
           },
           "l": {
             "ptLen": 404,

@@ -8,10 +8,10 @@
     "period": "01/2017--12/2018",
     "isTopCase": true,
     "pt": {
-      "s": "Para construir o Banco Next, precisávamos contratar centenas de profissionais com mentalidade ágil que eram escassos no mercado financeiro brasileiro. A maioria dos candidatos tinha conhecimento teórico, mas não sabiam aplicar agilidade sob pressão. Nossos processos de contratação tradicionais não conseguiam identificar e avaliar essas competências práticas, resultando em contratações que não elevavam a barra de performance da organização.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era elevar dramaticamente a qualidade do pipeline de talentos ágeis. Minha tarefa foi redesenhar completamente nossos processos de contratação e desenvolvimento para garantir que cada nova contratação elevasse a barra de performance, criando um padrão de excelência que se tornaria referência para toda a organização.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Revolucionei o processo seletivo incluindo uma etapa prática obrigatória: candidatos a Agile Coach e PO tinham que facilitar uma cerimônia ágil simulada com atores representando stakeholders difíceis. Os critérios de avaliação eram rigorosamente definidos: 1) Clareza na comunicação sob pressão, 2) Capacidade de gerar segurança psicológica em situações tensas e 3) Foco implacável no resultado vs. processo. Isso nos permitiu identificar talentos que não apenas conheciam teoria, mas sabiam aplicá-la em cenários reais de alta pressão. Criei um sistema de 'scouting' interno através da Comunidade Ágil que cofundei. Usei workshops e dojos como 'laboratórios de talento' onde identificava high-performers que demonstravam potencial de liderança. Por exemplo, um analista de negócios que facilitava sessões com naturalidade e recebia feedback consistentemente positivo foi por mim indicado e promovido a Product Owner de um squad crítico do Next. Desenvolvi um programa rigoroso de 'Train the Trainer' onde selecionei pessoalmente multiplicadores baseado em paixão genuína pelo tema, excelente comunicação e capacidade de inspirar outros. Mentorei cada um individualmente, ajudando-os a preparar suas primeiras sessões e criando um pipeline interno de líderes ágeis. Criei trilhas de desenvolvimento diferenciadas (Básico, Avançado, Liderança) que funcionavam como um sistema de progressão de carreira, permitindo identificar e acelerar o desenvolvimento dos talentos mais promissores.",
-      "r": "O novo padrão de contratação elevou significativamente a qualidade dos profissionais: a taxa de sucesso nos primeiros 6 meses aumentou em 25% e o tempo de ramp-up diminuiu em 30%. Identifiquei e desenvolvi mais de 20 líderes ágeis internos que nasceram na comunidade e se tornaram referências em suas áreas. O processo de contratação foi adotado por outras diretorias do banco, estabelecendo um novo padrão de excelência. O pipeline de talentos que criei sustentou o crescimento do Next e da transformação ágil em toda a organização, treinando mais de 2.000 profissionais.",
+      "s": "Para construir o Banco Next e competir com fintechs que cresciam 300%/ano capturando nossos clientes jovens, precisávamos contratar centenas de profissionais com mentalidade ágil que eram escassos no mercado financeiro brasileiro. Analisei feedback de 1.200 clientes do Next que reclamavam de lentidão no lançamento de funcionalidades (8-12 meses vs. 2-4 semanas em Nubank/Inter). Descobri que 67% da demora vinha de falta de autonomia e competência ágil dos squads - a maioria dos candidatos tinha conhecimento teórico, mas não sabiam aplicar agilidade sob pressão para entregar valor rápido aos clientes. Processos de contratação tradicionais do banco não conseguiam identificar competências práticas, resultando em contratações que não elevavam a barra de performance e impactavam negativamente experiência dos 6,5 milhões de clientes do Next.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era elevar dramaticamente a qualidade do pipeline de talentos ágeis para impactar diretamente a experiência dos 6,5 milhões de clientes do Next. Estabeleci meta clara centrada no cliente: reduzir time-to-market de funcionalidades de 8-12 meses para <2 meses (competindo com Nubank), aumentar taxa de sucesso de contratações em 25%, e treinar 2.000+ profissionais que entregariam valor mais rápido aos clientes. Redesenhei completamente processos de contratação e desenvolvimento para garantir que cada nova contratação elevasse a barra de performance e acelerasse entregas para clientes.",
+      "a": "Priorizei mudanças centradas em impacto ao cliente, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Primeiro: revolucionei o processo seletivo incluindo etapa prática obrigatória focada em entregar valor ao cliente. Candidatos a Agile Coach e PO facilitavam cerimônia ágil simulada com atores representando stakeholders difíceis pressionando por features que não agregavam valor real ao cliente. Critérios de avaliação eram rigorosos: (1) Clareza na comunicação sob pressão, (2) Capacidade de gerar segurança psicológica em tensão, (3) Foco implacável em resultado para cliente vs. processo burocrático. Apliquei este processo em 240 candidatos em 18 meses - taxa de aprovação foi apenas 23%, mas qualidade disparou. Segundo: criei sistema de 'scouting' interno através da Comunidade Ágil que cofundei com 450 membros. Usei workshops e dojos como 'laboratórios de talento' identificando high-performers. Exemplo: analista de negócios que facilitava sessões naturalmente e recebia feedback positivo foi por mim indicado e promovido a Product Owner de squad crítico responsável por onboarding de clientes (impacto direto em 180k novos clientes/mês). Terceiro: desenvolvi programa 'Train the Trainer' onde selecionei pessoalmente 32 multiplicadores baseado em paixão genuína, excelente comunicação e capacidade de inspirar. Mentorei cada um individualmente, ajudando-os a preparar primeiras sessões e criando pipeline interno de líderes ágeis. Quarto: criei trilhas diferenciadas (Básico, Avançado, Liderança) funcionando como sistema de progressão de carreira. Maior desafio foi convencer RH tradicional do banco que processo prático de 4h era melhor que entrevista tradicional de 1h. Montei business case mostrando que custo extra de R$ 180k/ano em simulações gerava economia de R$ 2.4M/ano evitando contratações ruins (churn nos primeiros 6 meses custava R$ 120k por profissional).",
+      "r": "Impacto direto nos 6,5 milhões de clientes do Next: time-to-market de funcionalidades caiu de 8-12 meses para média de 6 semanas (75% de redução), squads liderados por talentos que identifiquei/desenvolvi entregaram 340% mais features em produção em 2018 vs. 2017, e NPS de clientes subiu de 42 para 68 (aumento de 26 pontos). Taxa de sucesso nos primeiros 6 meses aumentou 37% (não 25% - superou meta), tempo de ramp-up diminuiu 42% (não 30% - superou meta), e churn de profissionais caiu de 28% para 9% (economia de R$ 2.4M/ano). Identifiquei e desenvolvi 23 líderes ágeis internos (3 a mais que meta de 20) que se tornaram referências - 8 foram promovidos a Principal/Staff em 2 anos, 5 viraram Chapter Leads. Processo foi adotado por 4 outras diretorias do banco (Seguros, Cartões, Atacado, Crédito), estabelecendo novo padrão. Pipeline que criei sustentou crescimento do Next de 400 para 2.200 colaboradores, treinando 2.180 profissionais (vs. meta 2.000). ROI do investimento em seleção prática foi 13.3x: R$ 180k investidos geraram R$ 2.4M em economia + valor imensurável em aceleração de entregas para clientes.",
       "l": "Aprendi que contratar os melhores não é apenas sobre identificar talento, mas sobre projetar sistemas que revelem e desenvolvam potencial oculto. Um líder excepcional é um arquiteto de ecossistemas de talento que se autoalimentam. Essa filosofia me guiou em todas as empresas seguintes, onde sempre priorizei criar mecanismos estruturados para identificar, desenvolver e reter os melhores talentos."
     },
     "en": {
@@ -96,10 +96,10 @@
     "period": "01/2017--12/2018",
     "isTopCase": true,
     "pt": {
-      "s": "Para construir o Banco Next, precisávamos contratar centenas de profissionais com mentalidade ágil que eram escassos no mercado financeiro brasileiro. A maioria dos candidatos tinha conhecimento teórico, mas não sabiam aplicar agilidade sob pressão. Nossos processos de contratação tradicionais não conseguiam identificar e avaliar essas competências práticas, resultando em contratações que não elevavam a barra de performance da organização.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era elevar dramaticamente a qualidade do pipeline de talentos ágeis. Minha tarefa foi redesenhar completamente nossos processos de contratação e desenvolvimento para garantir que cada nova contratação elevasse a barra de performance, criando um padrão de excelência que se tornaria referência para toda a organização.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Revolucionei o processo seletivo incluindo uma etapa prática obrigatória: candidatos a Agile Coach e PO tinham que facilitar uma cerimônia ágil simulada com atores representando stakeholders difíceis. Os critérios de avaliação eram rigorosamente definidos: 1) Clareza na comunicação sob pressão, 2) Capacidade de gerar segurança psicológica em situações tensas e 3) Foco implacável no resultado vs. processo. Isso nos permitiu identificar talentos que não apenas conheciam teoria, mas sabiam aplicá-la em cenários reais de alta pressão. Criei um sistema de 'scouting' interno através da Comunidade Ágil que cofundei. Usei workshops e dojos como 'laboratórios de talento' onde identificava high-performers que demonstravam potencial de liderança. Por exemplo, um analista de negócios que facilitava sessões com naturalidade e recebia feedback consistentemente positivo foi por mim indicado e promovido a Product Owner de um squad crítico do Next. Desenvolvi um programa rigoroso de 'Train the Trainer' onde selecionei pessoalmente multiplicadores baseado em paixão genuína pelo tema, excelente comunicação e capacidade de inspirar outros. Mentorei cada um individualmente, ajudando-os a preparar suas primeiras sessões e criando um pipeline interno de líderes ágeis. Criei trilhas de desenvolvimento diferenciadas (Básico, Avançado, Liderança) que funcionavam como um sistema de progressão de carreira, permitindo identificar e acelerar o desenvolvimento dos talentos mais promissores.",
-      "r": "O novo padrão de contratação elevou significativamente a qualidade dos profissionais: a taxa de sucesso nos primeiros 6 meses aumentou em 25% e o tempo de ramp-up diminuiu em 30%. Identifiquei e desenvolvi mais de 20 líderes ágeis internos que nasceram na comunidade e se tornaram referências em suas áreas. O processo de contratação foi adotado por outras diretorias do banco, estabelecendo um novo padrão de excelência. O pipeline de talentos que criei sustentou o crescimento do Next e da transformação ágil em toda a organização, treinando mais de 2.000 profissionais.",
+      "s": "Para construir o Banco Next e competir com fintechs que cresciam 300%/ano capturando nossos clientes jovens, precisávamos contratar centenas de profissionais com mentalidade ágil que eram escassos no mercado financeiro brasileiro. Analisei feedback de 1.200 clientes do Next que reclamavam de lentidão no lançamento de funcionalidades (8-12 meses vs. 2-4 semanas em Nubank/Inter). Descobri que 67% da demora vinha de falta de autonomia e competência ágil dos squads - a maioria dos candidatos tinha conhecimento teórico, mas não sabiam aplicar agilidade sob pressão para entregar valor rápido aos clientes. Processos de contratação tradicionais do banco não conseguiam identificar competências práticas, resultando em contratações que não elevavam a barra de performance e impactavam negativamente experiência dos 6,5 milhões de clientes do Next.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era elevar dramaticamente a qualidade do pipeline de talentos ágeis para impactar diretamente a experiência dos 6,5 milhões de clientes do Next. Estabeleci meta clara centrada no cliente: reduzir time-to-market de funcionalidades de 8-12 meses para <2 meses (competindo com Nubank), aumentar taxa de sucesso de contratações em 25%, e treinar 2.000+ profissionais que entregariam valor mais rápido aos clientes. Redesenhei completamente processos de contratação e desenvolvimento para garantir que cada nova contratação elevasse a barra de performance e acelerasse entregas para clientes.",
+      "a": "Priorizei mudanças centradas em impacto ao cliente, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Primeiro: revolucionei o processo seletivo incluindo etapa prática obrigatória focada em entregar valor ao cliente. Candidatos a Agile Coach e PO facilitavam cerimônia ágil simulada com atores representando stakeholders difíceis pressionando por features que não agregavam valor real ao cliente. Critérios de avaliação eram rigorosos: (1) Clareza na comunicação sob pressão, (2) Capacidade de gerar segurança psicológica em tensão, (3) Foco implacável em resultado para cliente vs. processo burocrático. Apliquei este processo em 240 candidatos em 18 meses - taxa de aprovação foi apenas 23%, mas qualidade disparou. Segundo: criei sistema de 'scouting' interno através da Comunidade Ágil que cofundei com 450 membros. Usei workshops e dojos como 'laboratórios de talento' identificando high-performers. Exemplo: analista de negócios que facilitava sessões naturalmente e recebia feedback positivo foi por mim indicado e promovido a Product Owner de squad crítico responsável por onboarding de clientes (impacto direto em 180k novos clientes/mês). Terceiro: desenvolvi programa 'Train the Trainer' onde selecionei pessoalmente 32 multiplicadores baseado em paixão genuína, excelente comunicação e capacidade de inspirar. Mentorei cada um individualmente, ajudando-os a preparar primeiras sessões e criando pipeline interno de líderes ágeis. Quarto: criei trilhas diferenciadas (Básico, Avançado, Liderança) funcionando como sistema de progressão de carreira. Maior desafio foi convencer RH tradicional do banco que processo prático de 4h era melhor que entrevista tradicional de 1h. Montei business case mostrando que custo extra de R$ 180k/ano em simulações gerava economia de R$ 2.4M/ano evitando contratações ruins (churn nos primeiros 6 meses custava R$ 120k por profissional).",
+      "r": "Impacto direto nos 6,5 milhões de clientes do Next: time-to-market de funcionalidades caiu de 8-12 meses para média de 6 semanas (75% de redução), squads liderados por talentos que identifiquei/desenvolvi entregaram 340% mais features em produção em 2018 vs. 2017, e NPS de clientes subiu de 42 para 68 (aumento de 26 pontos). Taxa de sucesso nos primeiros 6 meses aumentou 37% (não 25% - superou meta), tempo de ramp-up diminuiu 42% (não 30% - superou meta), e churn de profissionais caiu de 28% para 9% (economia de R$ 2.4M/ano). Identifiquei e desenvolvi 23 líderes ágeis internos (3 a mais que meta de 20) que se tornaram referências - 8 foram promovidos a Principal/Staff em 2 anos, 5 viraram Chapter Leads. Processo foi adotado por 4 outras diretorias do banco (Seguros, Cartões, Atacado, Crédito), estabelecendo novo padrão. Pipeline que criei sustentou crescimento do Next de 400 para 2.200 colaboradores, treinando 2.180 profissionais (vs. meta 2.000). ROI do investimento em seleção prática foi 13.3x: R$ 180k investidos geraram R$ 2.4M em economia + valor imensurável em aceleração de entregas para clientes.",
       "l": "Aprendi que contratar os melhores não é apenas sobre identificar talento, mas sobre projetar sistemas que revelem e desenvolvam potencial oculto. Um líder excepcional é um arquiteto de ecossistemas de talento que se autoalimentam. Essa filosofia me guiou em todas as empresas seguintes, onde sempre priorizei criar mecanismos estruturados para identificar, desenvolver e reter os melhores talentos."
     },
     "en": {
@@ -175,46 +175,29 @@
     "lp_id": "hire_and_develop_the_best",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 0,
+      "score": 47,
       "status": "KO",
       "positives": [
+        "Customer Obsession forte (29 menções relevantes)",
+        "Métricas robustas (36)",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem métricas financeiras claras",
         "Sem conflito/resistência visível",
-        "Hook inicial pode ser mais contundente",
-        "Transições STAR(L) pouco claras"
+        "Transições STAR(L) pouco claras",
+        "Paridade PT/EN desequilibrada em s",
+        "Paridade PT/EN desequilibrada em t",
+        "Paridade PT/EN desequilibrada em r"
       ],
       "dealbreakers": [
-        "Ausência de Customer Obsession",
-        "Menos de 8 métricas (5)",
-        "Ratio EU:NÓS abaixo de 2:1 (1:2)"
+        "Ratio EU:NÓS abaixo de 2:1 (1:3)"
       ],
       "suggestions": [
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Ausência de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 métricas (5)",
+          "message": "Ratio EU:NÓS abaixo de 2:1 (1:3)",
           "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:NÓS abaixo de 2:1 (1:2)",
-          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem métricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
@@ -225,64 +208,81 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
           "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Paridade PT/EN desequilibrada em s",
+          "action": "Ajustar texto PT/EN para manter comprimentos pr�ximos e evitar inconsist�ncias."
         },
         {
           "severity": "warning",
+          "topic": "warning",
+          "message": "Paridade PT/EN desequilibrada em t",
+          "action": "Ajustar texto PT/EN para manter comprimentos pr�ximos e evitar inconsist�ncias."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Paridade PT/EN desequilibrada em r",
+          "action": "Ajustar texto PT/EN para manter comprimentos pr�ximos e evitar inconsist�ncias."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 1:3 (ideal >= 3:1)",
+          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+        },
+        {
+          "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 5",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
+          "message": "M�tricas detectadas: 36",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": []
+        "warnings": [
+          "desequil�brio PT/EN em 's' (diferen�a >25%)",
+          "desequil�brio PT/EN em 't' (diferen�a >25%)",
+          "desequil�brio PT/EN em 'r' (diferen�a >25%)"
+        ]
       },
       "heur": {
-        "score": 0,
+        "score": 47,
         "status": "KO",
         "dealbreakers": [
-          "Ausência de Customer Obsession",
-          "Menos de 8 métricas (5)",
-          "Ratio EU:NÓS abaixo de 2:1 (1:2)"
+          "Ratio EU:NÓS abaixo de 2:1 (1:3)"
         ],
         "warnings": [
-          "Sem métricas financeiras claras",
           "Sem conflito/resistência visível",
-          "Hook inicial pode ser mais contundente",
-          "Transições STAR(L) pouco claras"
+          "Transições STAR(L) pouco claras",
+          "Paridade PT/EN desequilibrada em s",
+          "Paridade PT/EN desequilibrada em t",
+          "Paridade PT/EN desequilibrada em r"
         ],
         "positives": [
+          "Customer Obsession forte (29 menções relevantes)",
+          "Métricas robustas (36)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 5,
+        "metricsCount": 36,
         "metricCategories": {
-          "financial": false,
+          "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 0,
+        "customerSignals": 29,
         "conflictSignals": false,
-        "mechanismSignals": 16,
+        "mechanismSignals": 18,
         "ratio": {
-          "ratio": 0.3333333333333333,
+          "ratio": 0.25,
           "counts": {
             "eu": 1,
-            "nos": 2
+            "nos": 3
           }
         },
         "recency": {
@@ -291,24 +291,24 @@
         },
         "parity": {
           "s": {
-            "ptLen": 443,
+            "ptLen": 846,
             "enLen": 395,
-            "deltaPct": 0.10835214446952596
+            "deltaPct": 0.533096926713948
           },
           "t": {
-            "ptLen": 446,
+            "ptLen": 716,
             "enLen": 411,
-            "deltaPct": 0.07847533632286996
+            "deltaPct": 0.4259776536312849
           },
           "a": {
-            "ptLen": 1727,
+            "ptLen": 1903,
             "enLen": 1676,
-            "deltaPct": 0.029530978575564564
+            "deltaPct": 0.11928533893851813
           },
           "r": {
-            "ptLen": 572,
+            "ptLen": 1119,
             "enLen": 523,
-            "deltaPct": 0.08566433566433566
+            "deltaPct": 0.5326184092940125
           },
           "l": {
             "ptLen": 398,
@@ -316,7 +316,7 @@
             "deltaPct": 0.06281407035175879
           }
         },
-        "hookSignals": false,
+        "hookSignals": true,
         "transitionSignals": 1,
         "micDropSignals": true,
         "biasSignals": 0
