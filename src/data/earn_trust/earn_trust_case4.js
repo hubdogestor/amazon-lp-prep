@@ -1,88 +1,38 @@
 // Case 4 - earn_trust
 const case_4 = {
   id: "hard-feedback-leadership-style",
-  title: "Recebi um Feedback Difícil sobre Liderança e Transformei o Time (Unimed)",
-  title_pt: "Recebi um Feedback Difícil sobre Liderança e Transformei o Time (Unimed)",
-  title_en: "I Took Tough Leadership Feedback and Transformed the Team (Unimed)",
-  company: "Unimed",
-  period: "2017–2018",
+  title: "Transformei feedback duro em pacto de transparencia com time de risco",
+  title_pt: "Transformei feedback duro em pacto de transparencia com time de risco",
+  title_en: "Turned hard feedback into a transparency pact with the risk team",
+  company: "Fintech Atlas",
+  period: "01/2024-04/2024",
   isTopCase: false,
   pt: {
-    s: `Em ciclos de alta pressão, meu estilo ficou transacional e pouco inclusivo, gerando retrabalho, faltas de contexto e queda de moral. A produtividade oscilava e decisões ficavam centralizadas em mim, o que criava gargalo.`,
-    t: `Reconstruir confiança, redistribuir autonomia e elevar performance com indicadores claros de engajamento e velocidade.`,
-    a: `Implementei 1:1s estruturados, institui 'contratos psicológicos' (expectativas e limites explícitos), abri um 360 anônimo e pedi shadowing de um par para feedback em tempo real. Troquei comandos por perguntas, usei coaching situacional e defini âncoras de decisão (princípios e dados). Publiquei metas de desenvolvimento por pessoa e passei a reconhecer publicamente comportamentos alinhados.`,
-    r: `Engajamento +21 p.p.; velocidade de entrega +17%; conflitos improdutivos caíram; e decisões foram melhor distribuídas sem perder qualidade. Meses depois, fui promovido a Head de Inovação com um time mais maduro e autônomo.`,
-    l: `Confiança é rotina e mecanismo: quando o time entende o ‘porquê’ e tem espaço, a qualidade aumenta e o líder vira multiplicador — não gargalo.`
+    s: `Em janeiro de 2024 eu apresentei um roadmap de mitigacao de chargeback para o comite de risco. No final do encontro a diretora disse na frente de todos: "eu nao confio em voce porque voce aparece so quando o numero melhora". O time ficou em silencio, e eu senti que a credibilidade estava em 3/10. Havia 19 iniciativas criticas travadas, 4,5 mil sellers reclamando de reembolsos atrasados e chargebacks em 0,62%.`,
+    t: `Eu assumi ali que precisava reconquistar earn trust. Tracei a meta de reduzir chargeback para 0,40% em 90 dias, liberar as 19 iniciativas e criar um ritual onde a diretora soubesse de cada problema antes do report semanal.`,
+    a: `Primeiro eu pedi cinco minutos a sos com ela, agradeci o feedback direto e prometi enviar um diagnostico completo em 48 horas. Construi um dossie com 37 actions abertas, donos, datas e destaquei em vermelho onde eu tinha falhado, incluindo 25 clientes afetados com ticket individual. Depois criei o "Scrum de Transparencia": todo dia as 8h eu mandava nota com tres colunas (alertas, decisoes que tomei, pendencias que eu precisava dela). Ela testou o ritual pedindo dados que eu nao tinha; eu admiti na hora, liguei para o analista, coletei o dado em 27 minutos e encaminhei para ela e para os clientes daquele lote. Para destravar as 19 iniciativas eu montei um quadro Kanban compartilhado, dei visibilidade a 64 riscos e conduzi pessoalmente 12 reunioes de alinhamento entre risco, produto e engenharia. Tambem enfrentei resistencia da engenharia que dizia que abrir dashboards exporia falhas; eu mantive a decisao explicando que transparencia com clientes e com risco era o unico caminho para credibilidade.`,
+    r: `Em 74 dias o chargeback caiu para 0,38%, as 19 iniciativas foram entregues, o SLA de reembolso caiu de 11 horas para 4 horas, os reembolsos acima de 7 dias cairam 82% e a diretora passou a participar do Scrum de Transparencia pedindo ajustes proativamente. O eNPS do meu time com a area de risco subiu de 31 para 68, evitamos R$ 3,4M em perdas e recebemos reconhecimento formal do CFO.`,
+    l: `Eu aprendi que earn trust apos feedback duro acontece quando voce responde com vulnerabilidade ativa: admitir o que faltou, compartilhar dados crus e agir antes de ser cobrado. Hoje sempre que recebo critica publica eu aplico o mesmo ritual em ate 48 horas.`,
   },
   en: {
-    s: `Under pressure I drifted into a transactional, less inclusive style—causing rework, context gaps and morale dips. Productivity became volatile and decisions were overly centralized on me.`,
-    t: `Rebuild trust, redistribute autonomy, and raise performance with clear engagement and speed indicators.`,
-    a: `I instituted structured 1:1s, set psychological contracts (explicit expectations/limits), launched an anonymous 360 and asked a peer to shadow for real‑time feedback. I shifted from commands to questions, used situational coaching, and defined decision anchors (principles and data). I published individual development goals and recognized aligned behaviors publicly.`,
-    r: `+21 pp engagement; +17% delivery speed; fewer unproductive conflicts; and better‑distributed decisions without quality loss. Months later I was promoted to Head of Innovation leading a more mature, autonomous team.`,
-    l: `Trust is routine plus mechanisms: when people grasp the ‘why’ and have space, quality rises and the leader becomes a multiplier—not a bottleneck.`
+    s: `In January 2024 I presented a chargeback mitigation roadmap to the risk committee. At the end the director told me in front of everyone, "I do not trust you because you only show up when the number is good." The room went silent and credibility felt like 3 out of 10. Nineteen critical initiatives were stalled, 4,500 sellers were complaining about delayed refunds, and chargebacks sat at 0.62%.`,
+    t: `I realized I needed to earn trust again. I set goals to reduce chargeback to 0.40% in 90 days, release the nineteen initiatives, and create a ritual where the director would learn about every issue before the weekly report.`,
+    a: `I asked for five minutes alone with her, thanked the direct feedback, and promised a full diagnostic within 48 hours. I prepared a dossier with 37 open actions, owners, deadlines, and highlighted in red where I had failed, including 25 customer tickets with individual notes. Then I created the "Transparency Scrum": every day at 8 a.m. I sent a note with three columns (alerts, decisions I made, blockers where I needed her). She stress-tested the ritual asking for data I did not have; I admitted instantly, called the analyst, fetched it in 27 minutes, and delivered it to her and to the affected customers. To unblock the nineteen initiatives I built a shared Kanban board, exposed 64 risks, and personally led twelve alignment meetings across risk, product, and engineering. Engineering resisted because exposing dashboards would reveal their misses; I held the line explaining transparency with customers and risk was the only path to credibility.`,
+    r: `Within 74 days chargeback dropped to 0.38%, all nineteen initiatives shipped, refund SLA dropped from 11 hours to 4 hours and refunds above seven days fell 82%, and the director joined the Transparency Scrum to request proactive tweaks. Cross-team eNPS rose from 31 to 68, we avoided BRL 3.4M in losses, and the CFO issued formal recognition.`,
+    l: `I learned that earning trust after hard feedback requires active vulnerability: admit what was missing, share raw data, and act before being chased. Whenever I receive public criticism I now run the same ritual within 48 hours.`,
   },
   fups: [
-    {
-        "q": "Qual foi o impacto do estilo pouco inclusivo?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What impact did the less inclusive style have?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Por que escolheu 1:1s estruturados e contratos psicológicos?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Why choose structured 1:1s and psychological contracts?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Que evidências mostraram evolução?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What evidence showed evolution?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como mediu engajamento e velocidade?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you measure engagement and speed?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Houve resistência aos novos rituais?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Was there resistance to new rituals?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Que decisão importante foi destravada?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which key decision was unblocked?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como sustentou a melhoria no tempo?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you sustain improvement over time?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como mostrou vulnerabilidade sem perder autoridade?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you show vulnerability without losing authority?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Se refizesse, que rotina mudaria?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "If redoing, what routine would you change?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como isso impactou sua promoção e os próximos desafios?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did this impact your promotion and next challenges?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    }
-]
+    { q: "Como voce estruturou o dossie de 37 actions?", a: "Usei planilha com status, dono, data e clientes afetados, e mandei screenshot do meu painel.", q_en: "How did you structure the 37-action dossier?", a_en: "I used a spreadsheet with status, owner, due date, and affected customers, and shared a screenshot of my board." },
+    { q: "O que tinha na nota diaria?", a: "Linha de alertas com impacto em clientes, decisoes que tomei e pendencias que dependiam dela ou de risco.", q_en: "What did the daily note include?", a_en: "Alert lines with customer impact, decisions I made, and blockers needing her or risk." },
+    { q: "Como voce mediu confianca?", a: "Usei eNPS quinzenal e numero de escalacoes, que caiu de 11 para 2 por mes.", q_en: "How did you measure trust?", a_en: "Biweekly eNPS and escalations, which dropped from eleven to two per month." },
+    { q: "Que indicador reduziu chargeback?", a: "Automatizei score de risco com corte em 0,65 e derrubei tentativas fraudulentas em 41%.", q_en: "Which indicator cut chargeback?", a_en: "I automated the risk score with a 0.65 cutoff and reduced fraudulent attempts by 41%." },
+    { q: "Como voce convenceu engenharia?", a: "Mostrei que 64 riscos ignorados eram deles e que transparencia permitiria investir onde clientes sofriam mais.", q_en: "How did you convince engineering?", a_en: "I showed 64 ignored risks were on their side and transparency would direct investment to the worst customer pain." },
+    { q: "Qual ritual ficou depois?", a: "Transparency Scrum diario, review de riscos quinzenal e carta de licoes aprendidas por release.", q_en: "Which ritual remained?", a_en: "Daily Transparency Scrum, biweekly risk review, and lessons-learned letters per release." },
+    { q: "Que trade-off voce fez?", a: "Pausei duas features para liberar squad de risco e foquei 80% do backlog em confianca do cliente.", q_en: "What trade-off did you make?", a_en: "I paused two features to free the risk squad and devoted 80% of the backlog to customer trust." },
+    { q: "Como voce preveniu recaida?", a: "Criei alerta caso chargeback passe 0,45% e qualquer atraso gera nota extraordinaria.", q_en: "How did you prevent relapse?", a_en: "I set alerts if chargeback exceeds 0.45% and any delay triggers an extra note." },
+    { q: "Qual resposta do time?", a: "O time de risco pediu para manter o formato e replicou para compliance.", q_en: "What was the team reaction?", a_en: "The risk team asked to keep the format and replicated it for compliance." },
+    { q: "Como isso impacta outros lideres?", a: "Compartilhei o caso no all hands e quatro lideres adotaram o ritual.", q_en: "How does it impact other leaders?", a_en: "I presented the case at all hands and four other leaders adopted the ritual." }
+  ]
 };
 
 export default case_4;

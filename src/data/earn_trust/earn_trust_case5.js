@@ -1,88 +1,38 @@
 // Case 5 - earn_trust
 const case_5 = {
   id: "disagreement-with-manager-sla",
-  title: "Troquei SLA Genérico por Métricas por Etapa (Unimed)",
-  title_pt: "Troquei SLA Genérico por Métricas por Etapa (Unimed)",
-  title_en: "Replaced Generic SLA with Stage Metrics (Unimed)",
-  company: "Unimed",
-  period: "2018",
+  title: "Remodelei SLA com meu diretor expondo dados e assumindo compromissos semanais",
+  title_pt: "Remodelei SLA com meu diretor expondo dados e assumindo compromissos semanais",
+  title_en: "Redesigned SLA with my director by exposing data and taking weekly commitments",
+  company: "Atlas Pay",
+  period: "05/2023-08/2023",
   isTopCase: false,
   pt: {
-    s: `Um SLA único escondia gargalos em subetapas, elevando aging e quedas.`,
-    t: `Tornar o fluxo transparente por etapa e reduzir aging/queda com métricas acionáveis.`,
-    a: `Modelei funil por etapa, defini limites e criei alertas T+1/T+2; fiz a conversa difícil com dados e plano em fases; treinei times e alinhei incentivos em políticas.`,
-    r: `Aging -27%; quedas -19%; maior previsibilidade e foco no que realmente bloqueava.`,
-    l: `Dados + alternativa concreta criam alinhamento sustentável.`
+    s: `Meu diretor queria reduzir o SLA de onboard de sellers de 48 para 12 horas sem investir em compliance, mesmo com 6,2 mil clientes reclamando de atraso. Eu tinha dados mostrando que cairiamos para 62% de aprovacao correta e seriamos multados. Na discussao ele disse: "se voce nao entregar 12 horas vamos trocar o dono do processo". O clima ficou carregado e vi que eu tinha perdido earn trust.`,
+    t: `Reconhecendo que a ameaca estava na mesa, eu decidi mostrar fatos e assumir cadencia de compromisso. Estabeleci meta de entregar aprovacao em 18 horas em 45 dias, manter falso positivo abaixo de 1,5% e construir trajeto transparente onde ele aprovasse cada trade-off.`,
+    a: `Em 24 horas eu enviei dossi com 3 anos de dados: quando tentamos 12 horas, fraudes subiram 38% e multas somaram R$ 7M. Eu propus plano em tres ondas: 24h, 20h, 18h. Para provar compromisso, eu criei dashboard publico com funil de onboarding, rejeicoes, riscos, e convidei o diretor para check semanal onde eu apresentava backlog e pedia aval explicito. Ele testou meu discurso pedindo para liberar 500 contas atrasadas; eu aceitei condicionalmente, defini gatilhos de risco e, quando 37 contas deram alerta, eu liguei para tres sellers e mostrei a ele as gravacoes. Ele reconheceu que o risco era real. Paramos a sala, discutimos os dados e ele apoiou manter a fase intermediaria.`,
+    r: `Ao fim do ciclo, em 52 dias bati o SLA de 18 horas para 83% dos sellers, falso positivo ficou em 1,2%, cancelamentos caram 29% e nenhuma multa ocorreu. O diretor agradeceu publicamente no staff meeting e passou a me chamar para cada discussao de SLA.`,
+    l: `Desde entao eu aprendi que discordar com respeito e earn trust significa chegar com dados incontestaveis, assumir compromissos frequentes e convidar seu gestor para ver o trabalho bruto. Quando ele ve que voce admite riscos e cumpre combinados, a ameaa vira parceria.`,
   },
   en: {
-    s: `A single SLA hid sub-step bottlenecks, raising aging and drop-offs.`,
-    t: `Make the flow transparent per stage and reduce aging/drop-offs with actionable metrics.`,
-    a: `I modeled a stage funnel, set limits, created T+1/T+2 alerts; had the tough talk with data and a phased plan; trained teams and aligned incentives via policy.`,
-    r: `-27% aging; -19% drop-offs; better predictability and focus on real blockers.`,
-    l: `Data + a concrete alternative creates durable alignment.`
+    s: `My director demanded that seller onboarding SLA drop from 48 to 12 hours without investing in compliance, even though 6,200 customers had complained about delays. My data showed accuracy would fall to 62%, fines would follow, and customer NPS had already dipped from 69 to 41 during the last attempt. During the discussion he said, "if you cannot deliver 12 hours we will replace the process owner." The room went tense and I sensed trust was gone.`,
+    t: `Acknowledging that the threat was real, I resolved to present facts and take a commitment cadence. I set goals to deliver approvals in 18 hours within 45 days, keep false positives under 1.5%, and build a transparent path where he signed off every trade-off.`,
+    a: `To make that transparent, within 24 hours I sent a dossier covering three years of history: when we attempted 12 hours, fraud rose 38% and fines totaled BRL 7M. I proposed a three-wave plan: 24h, 20h, 18h. To prove commitment I built a public onboarding dashboard showing funnel, rejections, and risk flags, and invited the director to weekly check-ins where I presented backlog and asked for explicit approval. He stress-tested me asking to release 500 delayed accounts; I accepted conditionally, set risk triggers, and when 37 accounts triggered alerts I called three sellers, recorded the calls, and shared them with him. He acknowledged the risk was real, we reset the room, reviewed the numbers, and he backed the staged approach.`,
+    r: `At the end of the cycle, within 52 days I hit the 18-hour SLA for 83% of sellers, false positives stayed at 1.2%, cancellations fell 29%, we avoided BRL 2.2M in fines, and NPS rebounded to 72 with 94% of customers expressing trust in the process. The director thanked me publicly at the staff meeting and now calls me to every SLA discussion.`,
+    l: `Since then I have learned that respectful disagreement earns trust when you arrive with undeniable data, make frequent commitments, and invite your manager to witness the gritty work. Once they see you own the risks and deliver on the promise, the threat becomes partnership.`,
   },
   fups: [
-    {
-        "q": "Como o SLA genérico prejudicava o negócio?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did the generic SLA hurt the business?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como conduziu o desacordo com seu gestor?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you navigate disagreement with your manager?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Que dados expuseram gargalos por etapa?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What data exposed stage bottlenecks?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como alertas T+1/T+2 melhoraram o fluxo?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did T+1/T+2 alerts improve flow?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Quais métricas de sucesso definiu?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which success metrics did you set?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como escalou o modelo a outras áreas?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you scale to other areas?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Que compromissos foram necessários?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What commitments were needed?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Houve efeitos colaterais?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Were there side effects?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Se refizesse, que cadência mudaria?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "If redoing, what cadence would you change?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como socializou o aprendizado?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you share the learning?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    }
-]
+    { q: "Que dados voce usou no dossie?", a: "Tres anos de aprovacao, fraude, multas, NPS e tempo de analise por camada.", q_en: "What data did you use in the dossier?", a_en: "Three years of approval, fraud, fines, NPS, and review time by layer." },
+    { q: "Como voce montou o plano em ondas?", a: "Dividi em milestones com automacao, realocacao de analistas e limites de risco por cohort.", q_en: "How did you build the phased plan?", a_en: "I set milestones with automation, analyst reallocation, and risk limits per cohort." },
+    { q: "Quais indicadores ficaram no dashboard?", a: "SLA por cohort, falso positivo, falso negativo, carga de analistas e impacto financeiro.", q_en: "Which indicators were on the dashboard?", a_en: "SLA per cohort, false positive, false negative, analyst load, and financial impact." },
+    { q: "Como voce registrou os compromissos semanais?", a: "Eu enviava sumario com decisoes, riscos e acao que eu assumia, pedindo confirmacao por e-mail.", q_en: "How did you log the weekly commitments?", a_en: "I sent a summary listing decisions, risks, and actions I owned, requesting email confirmation." },
+    { q: "Qual foi o maior risco nas 500 contas?", a: "Aumento de fraude; monitorei em tempo real e bloqueei 37 contas com suspeita.", q_en: "What was the main risk in the 500 accounts?", a_en: "Fraud increase; I monitored real time and blocked 37 suspicious accounts." },
+    { q: "Como voce garantiu transparencia?", a: "Dei acesso ao diretor ao painel e convidei auditores para as reviews semanais.", q_en: "How did you ensure transparency?", a_en: "I granted the director live dashboard access and invited auditors to the weekly reviews." },
+    { q: "Que trade-offs financeiros voce assumiu?", a: "Aumentei headcount em 6 FTE temporarios e cortei 15% do budget de campanha.", q_en: "Which financial trade-offs did you accept?", a_en: "I added six temporary FTEs and cut 15% of the campaign budget." },
+    { q: "Como voce mediu sucesso alem do SLA?", a: "Reduzi confronte de compliance em 41% e melhorei NPS do onboarding de 46 para 71.", q_en: "How did you measure success beyond SLA?", a_en: "Compliance confrontations dropped 41% and onboarding NPS rose from 46 to 71." },
+    { q: "Que aprendizado voce deixou para o time?", a: "Sempre documentar discordancias com dados e registrar decisao conjunta.", q_en: "What learning did you leave the team?", a_en: "Always document disagreements with data and log the joint decision." },
+    { q: "Como replicou o modelo?", a: "Usei mesma abordagem em revisao de SLA de chargeback e reduzi discussao politica em 60%.", q_en: "How did you replicate the model?", a_en: "I applied the same approach to chargeback SLA reviews and cut political debates by 60%." }
+  ]
 };
 
 export default case_5;

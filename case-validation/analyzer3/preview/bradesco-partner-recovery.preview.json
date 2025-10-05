@@ -1,86 +1,86 @@
 {
   "original": {
     "id": "bradesco-partner-recovery",
-    "title": "Apresentação de um Plano de Correção a um Parceiro Estratégico Após uma Quebra de SLA",
-    "title_pt": "Apresentação de um Plano de Correção a um Parceiro Estratégico Após uma Quebra de SLA",
-    "title_en": "Presenting a Correction Plan to a Strategic Partner After SLA Breach",
-    "company": "Bradesco",
-    "period": "05/2017-08/2017",
+    "title": "Reconquistei parceiro chave com plano de saldo garantido em 30 dias",
+    "title_pt": "Reconquistei parceiro chave com plano de saldo garantido em 30 dias",
+    "title_en": "Won back key partner with 30-day guaranteed settlement plan",
+    "company": "Bradesco Payments",
+    "period": "09/2022-01/2023",
     "isTopCase": false,
     "pt": {
-      "s": "Um dos nossos maiores parceiros de e-commerce (um contrato de ~$5M/ano representando 12% da nossa receita de gateway), sofreu uma interrupção de 30 minutos em nosso serviço de pagamentos devido a um erro de implantação que eu havia supervisionado pessoalmente. A falha ocorreu durante um evento promocional de Black Friday antecipada, causando perdas estimadas de R$ 180k em vendas e quebrando profundamente a confiança construída ao longo de 2 anos. O CTO do parceiro estava furioso e ameaçava rescindir o contrato imediatamente, enviando emails escalatórios para nossa diretoria. A situação era crítica pois outros parceiros estavam observando nossa resposta.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha tarefa pessoal era gerenciar a crise total e salvar a parceria estratégica. O objetivo não era apenas pedir desculpas ou oferecer compensação, mas usar a crise como uma oportunidade para demonstrar nosso commitment e, paradoxalmente, fortalecer a relação de longo prazo através de transparência radical e overdelivery na resposta.",
-      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Minha primeira ação foi ligar pessoalmente para o CTO dentro de 2 horas da falha. Minha primeira frase foi: 'Por favor, me ajude a entender o impacto completo que isso teve do seu lado - quero ouvir tudo'. Ouvi sem interrupções por 20 minutos enquanto ele detalhava as perdas financeiras, o caos operacional, e a frustração da equipe dele. Depois de ouvir completamente, fui direto e assumindo total ownership: 'A falha foi 100% nossa responsabilidade. Nosso processo de deploy, que supervisionei diretamente, falhou. A responsabilidade é pessoalmente minha e vamos corrigir isso'. Pessoalmente liderei a squad de engenharia durante a noite inteira na análise de root cause e recovery plan. Apresentei pessoalmente ao CTO um plano de 5 pontos que estruturei durante a madrugada: 1) Análise completa de causa raiz com timeline detalhada, 2) Correção imediata do bug + hotfix validation, 3) Crédito financeiro de R$ 25k para compensar perdas (sem admitir liability legal mas como gesture de partnership), 4) Implementação de 'canary releases' seguindo best practices do Google/Netflix, e 5) Canal de emergência direto comigo 24/7 para future issues. Expliquei que 'canary releases' (liberar código para 5% de usuários antes de 100%) era uma prática dos tech giants - que não estávamos apenas aplicando um band-aid, mas que a falha nos forçou a adotar padrões de confiabilidade de classe mundial. Esta foi nossa transformação de gerenciamento de confiabilidade reativo para proativo.",
-      "r": "O CTO concordou em nos dar uma segunda chance baseado na profundidade e honestidade da resposta. Seis meses depois, o parceiro não apenas renovou seu contrato, mas upgrade para um acordo de 2 anos com 15% de aumento. A implementação de canary releases se tornou o padrão para toda a plataforma de pagamentos, reduzindo o número de incidentes críticos pós-deploy de 8 por mês para 3 por mês (60% reduction) no semestre seguinte, beneficiando todos os 200+ clientes. Além da renovação direta, o CTO se tornou advocate inesperado para nós: três meses depois, quando abordamos outro cliente major no setor hospitalar, ele aceitou fazer uma chamada de referência onde contou a história da falha e da nossa resposta exemplar, resultando em um novo contrato de R$ 3M. O case study de recovery foi apresentado internamente e se tornou template para customer crisis management.",
-      "l": "Aprendi a fórmula sistemática de recuperação de confiança: (1) Resposta em <24h com listening total, (2) Reconhecimento completo da responsabilidade sem 'mas' ou justificativas, (3) Plano detalhado com owner específico e datas firmes, (4) Overdelivery na execução que demonstra que você aprendeu com o erro. Desde então, aplico essa fórmula em toda crise de stakeholder. A confiança perdida pode ser reconquistada, mas exige resposta imediata, empática e autocrítica. A maneira como um líder lida com uma falha revela muito mais sobre seu caráter do que meses de operação sem problemas. Ouvir primeiro, assumir responsabilidade segundo, apresentar solução terceiro é a sequência que transforma crise em vantagem competitiva."
+      "s": "Um marketplace que respondia por 18% do nosso TPV suspendeu operacoes em setembro de 2022 depois que atrasamos tres ciclos de liquidacao D+1. R$ 420M ficaram parados, 8.700 sellers reclamaram e o parceiro publicou notinha dizendo que migraria para concorrente. O CEO exigiu que eu abrisse renegociacao com garantia pessoal de que o problema nao voltaria.",
+      "t": "Eu assumi como single-threaded owner. Prometi normalizar o backlog em 10 dias, reduzir variacao de saldo a menos de 0,2% e assinar um acordo de nivel de confianca com clausulas que eu mesmo supervisionaria.",
+      "a": "Primeiro eu tracei a raiz: um descompasso entre agenda de liquidez e janelas de recompra. Eu sentei com tesouraria e impus um buffer de R$ 80M sob meu controle, com previsao de caixa atualizada a cada 4 horas. Enfrentei a resistencia do diretor financeiro que nao queria imobilizar capital; eu provei que perder o parceiro destruiria R$ 52M em receita anual e aceitei reduzir meu budget de marketing em 18% para compensar. Segundo, criei o mecanismo \"Saldo Garantido 7h\": todo seller receberia extrato assinado por mim as 7h mostrando saldo futuro, repasse e eventual ajuste. Terceiro, fui ao parceiro, apresentei dados, reconheci publicamente a falha e pedi 30 dias para estabilizar. Eu aceitei auditoria externa deles, abri acesso ao meu dashboard e fiz stand-up diario com o CFO do marketplace. Quarto, implantei um monitor de confianca com 12 indicadores (SLA, tickets, saldo, NPS) e enviei carta semanal com resumo, incidentes e plano.",
+      "r": "Em 9 dias eu zerei o backlog de R$ 420M, zerei tickets acima de 24h, e o NPS do parceiro voltou de 18 para 63 em seis semanas. A variacao de saldo ficou em 0,08%, o churn de sellers caiu 3,9 p.p., e o marketplace assinou renovacao de contrato por mais dois anos. O executivo que me cobrou inicialmente passou a me convidar para revisar novos produtos conjuntos.",
+      "l": "Eu aprendi que earn trust com parceiro so acontece quando voce compromete capital proprio e comunica a verdade antes do boato. Mostrar saldo futuro assinado por mim mudou o relacionamento: hoje qualquer parceiro recebe a carta diaria mesmo sem incidente."
     },
     "en": {
-      "s": "One of my largest e-commerce partners (a contract of ~$5M/year representing 12% of my gateway revenue) suffered a 30-minute interruption in my payment service due to a deployment error that I had personally supervised. The failure occurred during an early Black Friday promotional event, causing estimated losses of R$ 180k in sales and deeply breaking trust built over 2 years. The partner's CTO was furious and threatening to terminate the contract immediately, sending escalatory emails to my board. The situation was critical as other partners were watching my response.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My personal task was to manage the total crisis and save the strategic partnership. The goal was not just to apologize or offer compensation, but to use the crisis as an opportunity to demonstrate my commitment and, paradoxically, strengthen the long-term relationship through radical transparency and overdelivery in response.",
-      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. My first action was to personally call the CTO within 2 hours of the failure. My first sentence was: 'Please help me understand the complete impact this had on your side - I want to hear everything.' I listened without interruptions for 20 minutes while he detailed financial losses, operational chaos, and his team's frustration. After listening completely, I was direct and assuming total ownership: 'The failure was 100% my responsibility. Our deployment process, which I directly supervise, failed. The responsibility is personally mine and I will fix this.' I personally led the engineering squad through the entire night in root cause analysis and recovery plan. I personally presented to the CTO a 5-point plan I structured during dawn: 1) Complete root cause analysis with detailed timeline, 2) Immediate bug fix + hotfix validation, 3) Financial credit of R$ 25k to compensate losses (without admitting legal liability but as partnership gesture), 4) Implementation of 'canary releases' following Google/Netflix best practices, and 5) Direct emergency channel with me 24/7 for future issues. I explained that 'canary releases' (releasing code to 5% of users before 100%) was a practice from tech giants - that I weren't just applying a band-aid, but that the failure forced us to adopt world-class reliability standards. This was my transformation from reactive to proactive reliability management.",
-      "r": "The CTO agreed to give us a second chance based on the depth and honesty of response. Six months later, the partner not only renewed their contract, but upgraded to a 2-year agreement with 15% increase. The implementation of canary releases became the standard for the entire payments platform, reducing the number of critical post-deployment incidents from 8 per month to 3 per month (60% reduction) in the following semester, benefiting all 200+ customers. Beyond direct renewal, the CTO became unexpected advocate for us: three months later, when I approached another major client in the hospital sector, he agreed to make a reference call where he told the story of the failure and my exemplary response, resulting in a new R$ 3M contract. The recovery case study was presented internally and became template for customer crisis management.",
-      "l": "I learned the systematic formula for trust recovery: (1) Response in <24h with total listening, (2) Complete acknowledgment of responsibility without 'but' or justifications, (3) Detailed plan with specific owner and firm dates, (4) Overdelivery in execution that demonstrates you learned from mistake. Since then, I apply this formula in every stakeholder crisis. Lost trust can be regained, but requires immediate, empathetic and self-critical response. How a leader handles failure reveals much more about their character than months of problem-free operation. Listen first, assume responsibility second, present solution third is the sequence that transforms crisis into competitive advantage."
+      "s": "A marketplace responsible for 18% of our TPV halted operations in September 2022 after we missed three D+1 settlement cycles. BRL 420M remained frozen, 8,700 sellers complained, and the partner announced they would migrate to a competitor. The CEO demanded I renegotiate with personal assurance the issue would not recur.",
+      "t": "I acted as the single-threaded owner. I committed to clear the backlog within ten days, keep balance variance under 0.2%, and sign a trust-level agreement with clauses I would personally supervise.",
+      "a": "I diagnosed the root cause: a mismatch between liquidity schedule and buyback windows. I sat with treasury and imposed an BRL 80M buffer under my control with cash forecasts refreshed every four hours. The finance director resisted the capital lock; I proved losing the partner would destroy BRL 52M in annual revenue and agreed to cut my marketing budget by 18% to offset. Next I created the \"7 a.m. Guaranteed Balance\" mechanism: every seller received a statement signed by me at 7 a.m. showing future balance, payout, and any adjustment. I visited the partner, presented the data, owned the error publicly, and asked for 30 days to stabilize. I accepted their external audit, opened dashboard access, and ran a daily stand-up with the partner CFO. Finally I implemented a trust monitor with twelve indicators (SLA, tickets, balance, NPS) and sent a weekly letter summarizing incidents and plans.",
+      "r": "Within nine days I cleared the BRL 420M backlog, eliminated tickets older than 24 hours, and the partner NPS rose from 18 to 63 within six weeks. Balance variance stayed at 0.08%, seller churn fell 3.9 p.p., and the marketplace renewed the contract for two years. The executive who challenged me now invites me to co-design joint products.",
+      "l": "I learned that earning a partner's trust requires putting your own capital on the line and telling the truth before rumors spread. Sending future balance statements signed by me transformed the relationship; today every partner receives the daily letter even when no incident occurs."
     },
     "fups": [
       {
-        "q": "Como você definiu as prioridades no plano de 5 pontos apresentado ao parceiro? Havia algo que você considerou, mas decidiu não incluir?",
-        "a": "Priorizei baseado em: alívio imediato da dor primeiro (crédito financeiro), depois restauração de confiança (root cause + fix), finalmente prevenção futura (canary releases + canal de emergência). Considerei mas não incluí: 1) SLA rebates (seria admissão de problemas sistemáticos), 2) Co-localização técnica (muito caro), 3) Equipe conjunta de resposta a incidentes (muito complexo para implementação rápida). Mantive plano focado em compromissos de alto impacto e alcançáveis que podiam ser entregues rapidamente. Sucesso dependia de prometer menos e entregar mais.",
-        "q_en": "How did you define priorities in the 5-point plan presented to the partner? Was there anything you considered but decided not to include?",
-        "a_en": "I prioritized based on: immediate pain relief first (financial credit), then confidence restoration (root cause + fix), finally future prevention (canary releases + emergency channel). Considered but didn't include: 1) SLA rebates (would be admission of systematic problems), 2) Technical co-location (too expensive), 3) Joint incident response team (too complex for quick implementation). Kept plan focused on high-impact, achievable commitments that could be delivered rapidly. Success depended on under-promising and over-delivering."
+        "q": "Como voce definiu o buffer de R$ 80M?",
+        "a": "Eu calculei desvio padrao das liquidacoes em 18 meses e multipliquei por 2,1 para cobrir picos.",
+        "q_en": "How did you define the BRL 80M buffer?",
+        "a_en": "I used 18 months of settlement variance and multiplied the standard deviation by 2.1 to cover peaks."
       },
       {
-        "q": "Você mencionou que liderou a análise de causa raiz. Quais foram os maiores desafios técnicos ou operacionais que surgiram durante a investigação?",
-        "a": "O maior desafio técnico foi que os logs estavam incompletos - a ferramenta de deployment não capturou todos os estados do sistema durante o rollout. Tive que reconstruir a timeline usando múltiplas fontes: logs de banco de dados, logs de aplicação, métricas do load balancer. Desafio operacional foi gerenciar o moral da equipe - engenheiros estavam desmoralizados e defensivos. Lidei com isso focando a conversa em melhoria de processo, não culpa individual. Mantive a equipe focada em 'como prevenir' ao invés de 'quem causou'. Pressão de timeline foi intensa mas não pude sacrificar thoroughness - credibilidade dependia de root cause precisa.",
-        "q_en": "You mentioned leading the root cause analysis. What were the biggest technical or operational challenges that emerged during the investigation?",
-        "a_en": "Biggest technical challenge was that logs were incomplete - deployment tool didn't capture all system states during rollout. I had to reconstruct timeline using multiple sources: database logs, application logs, load balancer metrics. Operational challenge was managing team morale - engineers were demoralized and defensive. I addressed this by focusing conversation on process improvement, not individual blame. Kept team focused on 'how to prevent' rather than 'who caused'. Timeline pressure was intense but couldn't sacrifice thoroughness - credibility depended on accurate root cause."
+        "q": "Que informacoes iam no extrato das 7h?",
+        "a": "Saldo futuro, reservas, creditos agendados, ajustes e telefone direto meu.",
+        "q_en": "What did the 7 a.m. statement include?",
+        "a_en": "Future balance, reserves, scheduled credits, adjustments, and my direct phone number."
       },
       {
-        "q": "Como você garantiu o alinhamento das equipes internas (engenharia, finanças, etc.) para implementar as mudanças rapidamente e evitar novos incidentes?",
-        "a": "Criei 'Crisis Response Squad' com owner claro para cada compromisso: líder de Engenharia possuía canary releases, Finanças possuía processamento de crédito, DevOps possuía processo de escalação de emergência. Tive standups diários durante período de implementação. Maior desafio foi resistência da equipe de Finanças ao crédito de R$ 25k sem requirement legal. Negociei internamente mostrando LTV do cliente (R$ 5M ao longo de 2 anos) vs. custo do crédito (0.5% do valor do contrato). Enquadrei como investimento em retenção de cliente, não centro de custo. Obtive aprovação do CEO posicionando como 'investimento em relacionamento estratégico'.",
-        "q_en": "How did you ensure alignment of internal teams (engineering, finance, etc.) to implement changes quickly and avoid new incidents?",
-        "a_en": "I created 'Crisis Response Squad' with clear owner for each commitment: Engineering lead owned canary releases, Finance owned credit processing, DevOps owned emergency escalation process. Had daily standups during implementation period. Biggest challenge was Finance team resistance to R$ 25k credit without legal requirement. I negotiated internally showing customer LTV (R$ 5M over 2 years) vs. credit cost (0.5% of contract value). Framed as investment in customer retention, not cost center. Got CEO approval by positioning as 'strategic relationship investment'."
+        "q": "Como voce acompanhou tickets?",
+        "a": "Eu criei heatmap diario com idade dos tickets e forcei squads a baixar para menos de 12 horas.",
+        "q_en": "How did you track tickets?",
+        "a_en": "I built a daily heatmap showing ticket age and forced squads to keep them under 12 hours."
       },
       {
-        "q": "A implementação de 'canary releases' se tornou um padrão. Como você escalou essa prática para toda a plataforma e garantiu a adesão das outras equipes?",
-        "a": "Não forcei adoção - deixei resultados falarem. Depois que canary releases preveniram 2 potenciais outages em minha plataforma, outras equipes solicitaram treinamento. Criei 'Comunidade de Prática de Confiabilidade' onde compartilhei learnings e best practices. Equipes de engenharia são naturalmente competitivas - quando viram que canary releases nos deu scores de confiabilidade mais altos que competidores, adoção se tornou orgânica. Forneci tooling e templates para tornar implementação fácil. Sucesso medido por taxa de adoção (cresceu de 1 equipe para 8 equipes em 6 meses) e redução de incidentes em toda plataforma.",
-        "q_en": "Canary releases implementation became a standard. How did you scale this practice to the entire platform and ensure adoption by other teams?",
-        "a_en": "I didn't force adoption - let results speak. After canary releases prevented 2 potential outages on my platform, other teams requested training. Created 'Reliability Community of Practice' where shared learnings and best practices. Engineering teams are naturally competitive - when they saw that canary releases gave us higher reliability scores than competitors, adoption became organic. Provided tooling and templates to make implementation easy. Success measured by adoption rate (grew from 1 team to 8 teams in 6 months) and incident reduction across entire platform."
+        "q": "Qual foi o maior risco da auditoria externa?",
+        "a": "Expor logs sensiveis; eu criei sala segura e revisao conjunta para manter compliance.",
+        "q_en": "What was the biggest risk in the external audit?",
+        "a_en": "Sensitive logs exposure; I set up a secure room and joint review to preserve compliance."
       },
       {
-        "q": "Se o CTO não tivesse aceitado o plano ou renovado o contrato, qual seria sua estratégia alternativa para recuperar a confiança e minimizar o impacto no negócio?",
-        "a": "Minha estratégia de backup tinha 3 camadas: Camada 1 - Período de teste estendido com zero compromisso, provando confiabilidade através de ação ao invés de palavras, Camada 2 - Estratégia de clientes de referência onde outros clientes satisfeitos atestariam minha melhorias, Camada 3 - Validação de analista da indústria onde obteríamos avaliação third-party de minha práticas de confiabilidade. Se contrato fosse permanentemente perdido, teria tratado isso como lição cara e case study para prevenir perdas futuras. Às vezes confiança não pode ser reconstruída, mas learnings sempre podem ser preservados.",
-        "q_en": "If the CTO hadn't accepted the plan or renewed the contract, what would be your alternative strategy to recover trust and minimize business impact?",
-        "a_en": "My backup strategy had 3 layers: Layer 1 - Extended trial period with zero commitment, proving reliability through action rather than words, Layer 2 - Reference customers strategy where other satisfied clients would vouch for my improvements, Layer 3 - Industry analyst validation where I'd get third-party assessment of my reliability practices. If contract was permanently lost, would have treated this as expensive lesson and case study for preventing future losses. Sometimes trust cannot be rebuilt, but learnings always can be preserved."
+        "q": "Que custodias financeiras voce negociou?",
+        "a": "Clausula de piso de R$ 50M, opcao de saque emergencial e multa regressiva por atraso.",
+        "q_en": "Which financial safeguards did you negotiate?",
+        "a_en": "A BRL 50M floor, emergency withdrawal option, and declining penalty per delay."
       },
       {
-        "q": "Quais foram os maiores desafios ao trabalhar com sua equipe para criar o plano de ação em tão pouco tempo?",
-        "a": "O maior desafio foi o moral da equipe, que estava baixo por causa do erro. Meu primeiro passo foi blindá-los de qualquer culpa, reforçando que a falha era do processo. Depois, enquadrei o trabalho noturno não como uma punição, mas como uma 'missão de resgate' para salvar um parceiro valioso. Isso mudou a energia e focou a equipe na solução. Também garanti que todos soubessem que eu estava assumindo responsabilidade pessoal publicamente.",
-        "q_en": "What were the biggest challenges when working with your team to create the action plan in such a short time?",
-        "a_en": "The biggest challenge was team morale, which was low because of the error. My first step was to shield them from any blame, reinforcing that the failure was in the process. Then, I framed the overnight work not as punishment, but as a 'rescue mission' to save a valuable partner. This changed the energy and focused the team on the solution. I also ensured everyone knew I was taking personal responsibility publicly."
+        "q": "Como voce mediu confianca do parceiro?",
+        "a": "Score semanal de transparencia, numero de escalacoes (caiu de 7 para 0) e NPS.",
+        "q_en": "How did you measure partner trust?",
+        "a_en": "Weekly transparency score, escalation count (down from seven to zero), and NPS."
       },
       {
-        "q": "Como você garantiu que o plano de 5 pontos foi implementado de forma eficiente e dentro do prazo?",
-        "a": "Me comprometi pessoalmente como o 'dono' do plano. Criei um tracker de projeto compartilhado com o parceiro e agendei follow-ups quinzenais com ele para mostrar o progresso de cada um dos 5 pontos. A confiança foi reconstruída através da consistência entre a promessa e a entrega. Também mantive comunicação diária com cada owner interno para garantir que não houvesse bloqueios ou atrasos.",
-        "q_en": "How did you ensure the 5-point plan was implemented efficiently and on time?",
-        "a_en": "I personally committed as the 'owner' of the plan. I created a project tracker shared with the partner and scheduled biweekly follow-ups with them to show progress on each of the 5 points. Trust was rebuilt through consistency between promise and delivery. I also maintained daily communication with each internal owner to ensure there were no blockers or delays."
+        "q": "Qual trade-off voce assumiu internamente?",
+        "a": "Cortei 18% do budget de marketing e pausei dois experimentos por tres meses.",
+        "q_en": "What internal trade-off did you accept?",
+        "a_en": "I cut 18% of the marketing budget and paused two experiments for three months."
       },
       {
-        "q": "Você recebeu algum feedback adicional do parceiro após a renovação do contrato? Se sim, como utilizou esse feedback?",
-        "a": "Sim, o CTO mencionou que, embora a falha tenha sido grave, a resposta rápida e transparente foi o que lhes deu segurança para renovar. Ele disse: 'Vocês mostraram como lidam com problemas, e isso nos deu mais confiança do que anos sem problemas teriam dado'. Utilizei esse feedback internamente, compartilhando-o com a liderança e com a equipe, para reforçar a importância da minha nova cultura de gestão de incidentes e o valor de sermos vocalmente autocríticos.",
-        "q_en": "Did you receive any additional feedback from the partner after contract renewal? If so, how did you use that feedback?",
-        "a_en": "Yes, the CTO mentioned that although the failure was serious, the quick and transparent response was what gave them confidence to renew. He said: 'You showed how you handle problems, and that gave us more confidence than years without problems would have.' I used this feedback internally, sharing it with leadership and the team, to reinforce the importance of my new incident management culture and the value of being vocally self-critical."
+        "q": "Como voce garantiu que o problema nao volta?",
+        "a": "Instalei alerta automatico quando variacao passa de 0,15% e autorizo liberacao extra pessoalmente.",
+        "q_en": "How did you prevent recurrence?",
+        "a_en": "I set automatic alerts when variance exceeds 0.15% and personally approve extra releases."
       },
       {
-        "q": "Qual foi a maior dificuldade em decidir compensar financeiramente o parceiro e como isso foi negociado internamente?",
-        "a": "A maior dificuldade foi a resistência da área financeira, que via a ação como 'abrir um precedente'. Negociei internamente argumentando com base no LTV (Lifetime Value) do parceiro. Mostrei que o custo do crédito era inferior a 1% do valor total do contrato que estávamos arriscando perder. Foi uma decisão de negócio, um investimento na retenção de um cliente de alto valor. Também argumentei que gesto de boa fé fortaleceria relacionamento para futuros upsells.",
-        "q_en": "What was the biggest difficulty in deciding to financially compensate the partner and how was this negotiated internally?",
-        "a_en": "The biggest difficulty was resistance from the finance area, which saw the action as 'setting a precedent.' I negotiated internally by arguing based on the partner's LTV (Lifetime Value). I showed that the credit cost was less than 1% of the total contract value I were risking losing. It was a business decision, an investment in retaining a high-value customer. I also argued that good faith gesture would strengthen relationship for future upsells."
+        "q": "Qual impacto nos vendedores finais?",
+        "a": "Saldo medio recebia em 23 horas antes, agora em 6 horas; chargebacks caram 21%.",
+        "q_en": "What was the impact on end sellers?",
+        "a_en": "Average balance arrived in 23 hours before, now in six hours; chargebacks fell 21%."
       },
       {
-        "q": "As práticas adotadas, como os 'canary releases', foram aplicadas a outros clientes ou processos? Se sim, qual foi o impacto geral?",
-        "a": "Sim. O sucesso foi tão claro que os 'canary releases' se tornaram a política padrão para todas as implantações de software em minha plataforma de pagamentos. O impacto geral foi uma redução de 60% nos incidentes críticos (Severity 1) nos seis meses seguintes, o que melhorou drasticamente a estabilidade para todos os meu 200+ clientes e reduziu o estresse das equipes de plantão. Também se tornou um diferencial competitivo - começamos a usar minha confiabilidade superior como selling point em pitches para novos clientes.",
-        "q_en": "Were the adopted practices, like 'canary releases,' applied to other customers or processes? If so, what was the overall impact?",
-        "a_en": "Yes. The success was so clear that 'canary releases' became the standard policy for all software deployments on my payments platform. The overall impact was a 60% reduction in critical incidents (Severity 1) in the following six months, which dramatically improved stability for all my 200+ customers and reduced stress for on-call teams. It also became a competitive differentiator - I started using my superior reliability as a selling point in pitches to new customers."
+        "q": "Como voce replicou o aprendizado?",
+        "a": "Implementei carta de saldo em outros quatro parceiros que somam R$ 1,2B de TPV.",
+        "q_en": "How did you replicate the learning?",
+        "a_en": "I deployed the balance letter across four other partners totaling BRL 1.2B TPV."
       }
     ],
     "__file": "src\\data\\earn_trust\\earn_trust_case3.js",
@@ -89,142 +89,114 @@
   },
   "mutated": {
     "id": "bradesco-partner-recovery",
-    "title": "Apresentação de um Plano de Correção a um Parceiro Estratégico Após uma Quebra de SLA",
-    "title_pt": "Apresentação de um Plano de Correção a um Parceiro Estratégico Após uma Quebra de SLA",
-    "title_en": "Presenting a Correction Plan to a Strategic Partner After SLA Breach",
-    "company": "Bradesco",
-    "period": "05/2017-08/2017",
+    "title": "Reconquistei parceiro chave com plano de saldo garantido em 30 dias",
+    "title_pt": "Reconquistei parceiro chave com plano de saldo garantido em 30 dias",
+    "title_en": "Won back key partner with 30-day guaranteed settlement plan",
+    "company": "Bradesco Payments",
+    "period": "09/2022-01/2023",
     "isTopCase": false,
     "pt": {
-      "s": "Um dos nossos maiores parceiros de e-commerce (um contrato de ~$5M/ano representando 12% da nossa receita de gateway), sofreu uma interrupção de 30 minutos em nosso serviço de pagamentos devido a um erro de implantação que eu havia supervisionado pessoalmente. A falha ocorreu durante um evento promocional de Black Friday antecipada, causando perdas estimadas de R$ 180k em vendas e quebrando profundamente a confiança construída ao longo de 2 anos. O CTO do parceiro estava furioso e ameaçava rescindir o contrato imediatamente, enviando emails escalatórios para nossa diretoria. A situação era crítica pois outros parceiros estavam observando nossa resposta.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha tarefa pessoal era gerenciar a crise total e salvar a parceria estratégica. O objetivo não era apenas pedir desculpas ou oferecer compensação, mas usar a crise como uma oportunidade para demonstrar nosso commitment e, paradoxalmente, fortalecer a relação de longo prazo através de transparência radical e overdelivery na resposta.",
-      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Minha primeira ação foi ligar pessoalmente para o CTO dentro de 2 horas da falha. Minha primeira frase foi: 'Por favor, me ajude a entender o impacto completo que isso teve do seu lado - quero ouvir tudo'. Ouvi sem interrupções por 20 minutos enquanto ele detalhava as perdas financeiras, o caos operacional, e a frustração da equipe dele. Depois de ouvir completamente, fui direto e assumindo total ownership: 'A falha foi 100% nossa responsabilidade. Nosso processo de deploy, que supervisionei diretamente, falhou. A responsabilidade é pessoalmente minha e vamos corrigir isso'. Pessoalmente liderei a squad de engenharia durante a noite inteira na análise de root cause e recovery plan. Apresentei pessoalmente ao CTO um plano de 5 pontos que estruturei durante a madrugada: 1) Análise completa de causa raiz com timeline detalhada, 2) Correção imediata do bug + hotfix validation, 3) Crédito financeiro de R$ 25k para compensar perdas (sem admitir liability legal mas como gesture de partnership), 4) Implementação de 'canary releases' seguindo best practices do Google/Netflix, e 5) Canal de emergência direto comigo 24/7 para future issues. Expliquei que 'canary releases' (liberar código para 5% de usuários antes de 100%) era uma prática dos tech giants - que não estávamos apenas aplicando um band-aid, mas que a falha nos forçou a adotar padrões de confiabilidade de classe mundial. Esta foi nossa transformação de gerenciamento de confiabilidade reativo para proativo.",
-      "r": "O CTO concordou em nos dar uma segunda chance baseado na profundidade e honestidade da resposta. Seis meses depois, o parceiro não apenas renovou seu contrato, mas upgrade para um acordo de 2 anos com 15% de aumento. A implementação de canary releases se tornou o padrão para toda a plataforma de pagamentos, reduzindo o número de incidentes críticos pós-deploy de 8 por mês para 3 por mês (60% reduction) no semestre seguinte, beneficiando todos os 200+ clientes. Além da renovação direta, o CTO se tornou advocate inesperado para nós: três meses depois, quando abordamos outro cliente major no setor hospitalar, ele aceitou fazer uma chamada de referência onde contou a história da falha e da nossa resposta exemplar, resultando em um novo contrato de R$ 3M. O case study de recovery foi apresentado internamente e se tornou template para customer crisis management.",
-      "l": "Aprendi a fórmula sistemática de recuperação de confiança: (1) Resposta em <24h com listening total, (2) Reconhecimento completo da responsabilidade sem 'mas' ou justificativas, (3) Plano detalhado com owner específico e datas firmes, (4) Overdelivery na execução que demonstra que você aprendeu com o erro. Desde então, aplico essa fórmula em toda crise de stakeholder. A confiança perdida pode ser reconquistada, mas exige resposta imediata, empática e autocrítica. A maneira como um líder lida com uma falha revela muito mais sobre seu caráter do que meses de operação sem problemas. Ouvir primeiro, assumir responsabilidade segundo, apresentar solução terceiro é a sequência que transforma crise em vantagem competitiva."
+      "s": "Um marketplace que respondia por 18% do nosso TPV suspendeu operacoes em setembro de 2022 depois que atrasamos tres ciclos de liquidacao D+1. R$ 420M ficaram parados, 8.700 sellers reclamaram e o parceiro publicou notinha dizendo que migraria para concorrente. O CEO exigiu que eu abrisse renegociacao com garantia pessoal de que o problema nao voltaria.",
+      "t": "Eu assumi como single-threaded owner. Prometi normalizar o backlog em 10 dias, reduzir variacao de saldo a menos de 0,2% e assinar um acordo de nivel de confianca com clausulas que eu mesmo supervisionaria.",
+      "a": "Primeiro eu tracei a raiz: um descompasso entre agenda de liquidez e janelas de recompra. Eu sentei com tesouraria e impus um buffer de R$ 80M sob meu controle, com previsao de caixa atualizada a cada 4 horas. Enfrentei a resistencia do diretor financeiro que nao queria imobilizar capital; eu provei que perder o parceiro destruiria R$ 52M em receita anual e aceitei reduzir meu budget de marketing em 18% para compensar. Segundo, criei o mecanismo \"Saldo Garantido 7h\": todo seller receberia extrato assinado por mim as 7h mostrando saldo futuro, repasse e eventual ajuste. Terceiro, fui ao parceiro, apresentei dados, reconheci publicamente a falha e pedi 30 dias para estabilizar. Eu aceitei auditoria externa deles, abri acesso ao meu dashboard e fiz stand-up diario com o CFO do marketplace. Quarto, implantei um monitor de confianca com 12 indicadores (SLA, tickets, saldo, NPS) e enviei carta semanal com resumo, incidentes e plano.",
+      "r": "Em 9 dias eu zerei o backlog de R$ 420M, zerei tickets acima de 24h, e o NPS do parceiro voltou de 18 para 63 em seis semanas. A variacao de saldo ficou em 0,08%, o churn de sellers caiu 3,9 p.p., e o marketplace assinou renovacao de contrato por mais dois anos. O executivo que me cobrou inicialmente passou a me convidar para revisar novos produtos conjuntos.",
+      "l": "Eu aprendi que earn trust com parceiro so acontece quando voce compromete capital proprio e comunica a verdade antes do boato. Mostrar saldo futuro assinado por mim mudou o relacionamento: hoje qualquer parceiro recebe a carta diaria mesmo sem incidente."
     },
     "en": {
-      "s": "One of my largest e-commerce partners (a contract of ~$5M/year representing 12% of my gateway revenue) suffered a 30-minute interruption in my payment service due to a deployment error that I had personally supervised. The failure occurred during an early Black Friday promotional event, causing estimated losses of R$ 180k in sales and deeply breaking trust built over 2 years. The partner's CTO was furious and threatening to terminate the contract immediately, sending escalatory emails to my board. The situation was critical as other partners were watching my response.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My personal task was to manage the total crisis and save the strategic partnership. The goal was not just to apologize or offer compensation, but to use the crisis as an opportunity to demonstrate my commitment and, paradoxically, strengthen the long-term relationship through radical transparency and overdelivery in response.",
-      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. My first action was to personally call the CTO within 2 hours of the failure. My first sentence was: 'Please help me understand the complete impact this had on your side - I want to hear everything.' I listened without interruptions for 20 minutes while he detailed financial losses, operational chaos, and his team's frustration. After listening completely, I was direct and assuming total ownership: 'The failure was 100% my responsibility. Our deployment process, which I directly supervise, failed. The responsibility is personally mine and I will fix this.' I personally led the engineering squad through the entire night in root cause analysis and recovery plan. I personally presented to the CTO a 5-point plan I structured during dawn: 1) Complete root cause analysis with detailed timeline, 2) Immediate bug fix + hotfix validation, 3) Financial credit of R$ 25k to compensate losses (without admitting legal liability but as partnership gesture), 4) Implementation of 'canary releases' following Google/Netflix best practices, and 5) Direct emergency channel with me 24/7 for future issues. I explained that 'canary releases' (releasing code to 5% of users before 100%) was a practice from tech giants - that I weren't just applying a band-aid, but that the failure forced us to adopt world-class reliability standards. This was my transformation from reactive to proactive reliability management.",
-      "r": "The CTO agreed to give us a second chance based on the depth and honesty of response. Six months later, the partner not only renewed their contract, but upgraded to a 2-year agreement with 15% increase. The implementation of canary releases became the standard for the entire payments platform, reducing the number of critical post-deployment incidents from 8 per month to 3 per month (60% reduction) in the following semester, benefiting all 200+ customers. Beyond direct renewal, the CTO became unexpected advocate for us: three months later, when I approached another major client in the hospital sector, he agreed to make a reference call where he told the story of the failure and my exemplary response, resulting in a new R$ 3M contract. The recovery case study was presented internally and became template for customer crisis management.",
-      "l": "I learned the systematic formula for trust recovery: (1) Response in <24h with total listening, (2) Complete acknowledgment of responsibility without 'but' or justifications, (3) Detailed plan with specific owner and firm dates, (4) Overdelivery in execution that demonstrates you learned from mistake. Since then, I apply this formula in every stakeholder crisis. Lost trust can be regained, but requires immediate, empathetic and self-critical response. How a leader handles failure reveals much more about their character than months of problem-free operation. Listen first, assume responsibility second, present solution third is the sequence that transforms crisis into competitive advantage."
+      "s": "A marketplace responsible for 18% of our TPV halted operations in September 2022 after we missed three D+1 settlement cycles. BRL 420M remained frozen, 8,700 sellers complained, and the partner announced they would migrate to a competitor. The CEO demanded I renegotiate with personal assurance the issue would not recur.",
+      "t": "I acted as the single-threaded owner. I committed to clear the backlog within ten days, keep balance variance under 0.2%, and sign a trust-level agreement with clauses I would personally supervise.",
+      "a": "I diagnosed the root cause: a mismatch between liquidity schedule and buyback windows. I sat with treasury and imposed an BRL 80M buffer under my control with cash forecasts refreshed every four hours. The finance director resisted the capital lock; I proved losing the partner would destroy BRL 52M in annual revenue and agreed to cut my marketing budget by 18% to offset. Next I created the \"7 a.m. Guaranteed Balance\" mechanism: every seller received a statement signed by me at 7 a.m. showing future balance, payout, and any adjustment. I visited the partner, presented the data, owned the error publicly, and asked for 30 days to stabilize. I accepted their external audit, opened dashboard access, and ran a daily stand-up with the partner CFO. Finally I implemented a trust monitor with twelve indicators (SLA, tickets, balance, NPS) and sent a weekly letter summarizing incidents and plans.",
+      "r": "Within nine days I cleared the BRL 420M backlog, eliminated tickets older than 24 hours, and the partner NPS rose from 18 to 63 within six weeks. Balance variance stayed at 0.08%, seller churn fell 3.9 p.p., and the marketplace renewed the contract for two years. The executive who challenged me now invites me to co-design joint products.",
+      "l": "I learned that earning a partner's trust requires putting your own capital on the line and telling the truth before rumors spread. Sending future balance statements signed by me transformed the relationship; today every partner receives the daily letter even when no incident occurs."
     },
     "fups": [
       {
-        "q": "Como você definiu as prioridades no plano de 5 pontos apresentado ao parceiro? Havia algo que você considerou, mas decidiu não incluir?",
-        "a": "Priorizei baseado em: alívio imediato da dor primeiro (crédito financeiro), depois restauração de confiança (root cause + fix), finalmente prevenção futura (canary releases + canal de emergência). Considerei mas não incluí: 1) SLA rebates (seria admissão de problemas sistemáticos), 2) Co-localização técnica (muito caro), 3) Equipe conjunta de resposta a incidentes (muito complexo para implementação rápida). Mantive plano focado em compromissos de alto impacto e alcançáveis que podiam ser entregues rapidamente. Sucesso dependia de prometer menos e entregar mais.",
-        "q_en": "How did you define priorities in the 5-point plan presented to the partner? Was there anything you considered but decided not to include?",
-        "a_en": "I prioritized based on: immediate pain relief first (financial credit), then confidence restoration (root cause + fix), finally future prevention (canary releases + emergency channel). Considered but didn't include: 1) SLA rebates (would be admission of systematic problems), 2) Technical co-location (too expensive), 3) Joint incident response team (too complex for quick implementation). Kept plan focused on high-impact, achievable commitments that could be delivered rapidly. Success depended on under-promising and over-delivering."
+        "q": "Como voce definiu o buffer de R$ 80M?",
+        "a": "Eu calculei desvio padrao das liquidacoes em 18 meses e multipliquei por 2,1 para cobrir picos.",
+        "q_en": "How did you define the BRL 80M buffer?",
+        "a_en": "I used 18 months of settlement variance and multiplied the standard deviation by 2.1 to cover peaks."
       },
       {
-        "q": "Você mencionou que liderou a análise de causa raiz. Quais foram os maiores desafios técnicos ou operacionais que surgiram durante a investigação?",
-        "a": "O maior desafio técnico foi que os logs estavam incompletos - a ferramenta de deployment não capturou todos os estados do sistema durante o rollout. Tive que reconstruir a timeline usando múltiplas fontes: logs de banco de dados, logs de aplicação, métricas do load balancer. Desafio operacional foi gerenciar o moral da equipe - engenheiros estavam desmoralizados e defensivos. Lidei com isso focando a conversa em melhoria de processo, não culpa individual. Mantive a equipe focada em 'como prevenir' ao invés de 'quem causou'. Pressão de timeline foi intensa mas não pude sacrificar thoroughness - credibilidade dependia de root cause precisa.",
-        "q_en": "You mentioned leading the root cause analysis. What were the biggest technical or operational challenges that emerged during the investigation?",
-        "a_en": "Biggest technical challenge was that logs were incomplete - deployment tool didn't capture all system states during rollout. I had to reconstruct timeline using multiple sources: database logs, application logs, load balancer metrics. Operational challenge was managing team morale - engineers were demoralized and defensive. I addressed this by focusing conversation on process improvement, not individual blame. Kept team focused on 'how to prevent' rather than 'who caused'. Timeline pressure was intense but couldn't sacrifice thoroughness - credibility depended on accurate root cause."
+        "q": "Que informacoes iam no extrato das 7h?",
+        "a": "Saldo futuro, reservas, creditos agendados, ajustes e telefone direto meu.",
+        "q_en": "What did the 7 a.m. statement include?",
+        "a_en": "Future balance, reserves, scheduled credits, adjustments, and my direct phone number."
       },
       {
-        "q": "Como você garantiu o alinhamento das equipes internas (engenharia, finanças, etc.) para implementar as mudanças rapidamente e evitar novos incidentes?",
-        "a": "Criei 'Crisis Response Squad' com owner claro para cada compromisso: líder de Engenharia possuía canary releases, Finanças possuía processamento de crédito, DevOps possuía processo de escalação de emergência. Tive standups diários durante período de implementação. Maior desafio foi resistência da equipe de Finanças ao crédito de R$ 25k sem requirement legal. Negociei internamente mostrando LTV do cliente (R$ 5M ao longo de 2 anos) vs. custo do crédito (0.5% do valor do contrato). Enquadrei como investimento em retenção de cliente, não centro de custo. Obtive aprovação do CEO posicionando como 'investimento em relacionamento estratégico'.",
-        "q_en": "How did you ensure alignment of internal teams (engineering, finance, etc.) to implement changes quickly and avoid new incidents?",
-        "a_en": "I created 'Crisis Response Squad' with clear owner for each commitment: Engineering lead owned canary releases, Finance owned credit processing, DevOps owned emergency escalation process. Had daily standups during implementation period. Biggest challenge was Finance team resistance to R$ 25k credit without legal requirement. I negotiated internally showing customer LTV (R$ 5M over 2 years) vs. credit cost (0.5% of contract value). Framed as investment in customer retention, not cost center. Got CEO approval by positioning as 'strategic relationship investment'."
+        "q": "Como voce acompanhou tickets?",
+        "a": "Eu criei heatmap diario com idade dos tickets e forcei squads a baixar para menos de 12 horas.",
+        "q_en": "How did you track tickets?",
+        "a_en": "I built a daily heatmap showing ticket age and forced squads to keep them under 12 hours."
       },
       {
-        "q": "A implementação de 'canary releases' se tornou um padrão. Como você escalou essa prática para toda a plataforma e garantiu a adesão das outras equipes?",
-        "a": "Não forcei adoção - deixei resultados falarem. Depois que canary releases preveniram 2 potenciais outages em minha plataforma, outras equipes solicitaram treinamento. Criei 'Comunidade de Prática de Confiabilidade' onde compartilhei learnings e best practices. Equipes de engenharia são naturalmente competitivas - quando viram que canary releases nos deu scores de confiabilidade mais altos que competidores, adoção se tornou orgânica. Forneci tooling e templates para tornar implementação fácil. Sucesso medido por taxa de adoção (cresceu de 1 equipe para 8 equipes em 6 meses) e redução de incidentes em toda plataforma.",
-        "q_en": "Canary releases implementation became a standard. How did you scale this practice to the entire platform and ensure adoption by other teams?",
-        "a_en": "I didn't force adoption - let results speak. After canary releases prevented 2 potential outages on my platform, other teams requested training. Created 'Reliability Community of Practice' where shared learnings and best practices. Engineering teams are naturally competitive - when they saw that canary releases gave us higher reliability scores than competitors, adoption became organic. Provided tooling and templates to make implementation easy. Success measured by adoption rate (grew from 1 team to 8 teams in 6 months) and incident reduction across entire platform."
+        "q": "Qual foi o maior risco da auditoria externa?",
+        "a": "Expor logs sensiveis; eu criei sala segura e revisao conjunta para manter compliance.",
+        "q_en": "What was the biggest risk in the external audit?",
+        "a_en": "Sensitive logs exposure; I set up a secure room and joint review to preserve compliance."
       },
       {
-        "q": "Se o CTO não tivesse aceitado o plano ou renovado o contrato, qual seria sua estratégia alternativa para recuperar a confiança e minimizar o impacto no negócio?",
-        "a": "Minha estratégia de backup tinha 3 camadas: Camada 1 - Período de teste estendido com zero compromisso, provando confiabilidade através de ação ao invés de palavras, Camada 2 - Estratégia de clientes de referência onde outros clientes satisfeitos atestariam minha melhorias, Camada 3 - Validação de analista da indústria onde obteríamos avaliação third-party de minha práticas de confiabilidade. Se contrato fosse permanentemente perdido, teria tratado isso como lição cara e case study para prevenir perdas futuras. Às vezes confiança não pode ser reconstruída, mas learnings sempre podem ser preservados.",
-        "q_en": "If the CTO hadn't accepted the plan or renewed the contract, what would be your alternative strategy to recover trust and minimize business impact?",
-        "a_en": "My backup strategy had 3 layers: Layer 1 - Extended trial period with zero commitment, proving reliability through action rather than words, Layer 2 - Reference customers strategy where other satisfied clients would vouch for my improvements, Layer 3 - Industry analyst validation where I'd get third-party assessment of my reliability practices. If contract was permanently lost, would have treated this as expensive lesson and case study for preventing future losses. Sometimes trust cannot be rebuilt, but learnings always can be preserved."
+        "q": "Que custodias financeiras voce negociou?",
+        "a": "Clausula de piso de R$ 50M, opcao de saque emergencial e multa regressiva por atraso.",
+        "q_en": "Which financial safeguards did you negotiate?",
+        "a_en": "A BRL 50M floor, emergency withdrawal option, and declining penalty per delay."
       },
       {
-        "q": "Quais foram os maiores desafios ao trabalhar com sua equipe para criar o plano de ação em tão pouco tempo?",
-        "a": "O maior desafio foi o moral da equipe, que estava baixo por causa do erro. Meu primeiro passo foi blindá-los de qualquer culpa, reforçando que a falha era do processo. Depois, enquadrei o trabalho noturno não como uma punição, mas como uma 'missão de resgate' para salvar um parceiro valioso. Isso mudou a energia e focou a equipe na solução. Também garanti que todos soubessem que eu estava assumindo responsabilidade pessoal publicamente.",
-        "q_en": "What were the biggest challenges when working with your team to create the action plan in such a short time?",
-        "a_en": "The biggest challenge was team morale, which was low because of the error. My first step was to shield them from any blame, reinforcing that the failure was in the process. Then, I framed the overnight work not as punishment, but as a 'rescue mission' to save a valuable partner. This changed the energy and focused the team on the solution. I also ensured everyone knew I was taking personal responsibility publicly."
+        "q": "Como voce mediu confianca do parceiro?",
+        "a": "Score semanal de transparencia, numero de escalacoes (caiu de 7 para 0) e NPS.",
+        "q_en": "How did you measure partner trust?",
+        "a_en": "Weekly transparency score, escalation count (down from seven to zero), and NPS."
       },
       {
-        "q": "Como você garantiu que o plano de 5 pontos foi implementado de forma eficiente e dentro do prazo?",
-        "a": "Me comprometi pessoalmente como o 'dono' do plano. Criei um tracker de projeto compartilhado com o parceiro e agendei follow-ups quinzenais com ele para mostrar o progresso de cada um dos 5 pontos. A confiança foi reconstruída através da consistência entre a promessa e a entrega. Também mantive comunicação diária com cada owner interno para garantir que não houvesse bloqueios ou atrasos.",
-        "q_en": "How did you ensure the 5-point plan was implemented efficiently and on time?",
-        "a_en": "I personally committed as the 'owner' of the plan. I created a project tracker shared with the partner and scheduled biweekly follow-ups with them to show progress on each of the 5 points. Trust was rebuilt through consistency between promise and delivery. I also maintained daily communication with each internal owner to ensure there were no blockers or delays."
+        "q": "Qual trade-off voce assumiu internamente?",
+        "a": "Cortei 18% do budget de marketing e pausei dois experimentos por tres meses.",
+        "q_en": "What internal trade-off did you accept?",
+        "a_en": "I cut 18% of the marketing budget and paused two experiments for three months."
       },
       {
-        "q": "Você recebeu algum feedback adicional do parceiro após a renovação do contrato? Se sim, como utilizou esse feedback?",
-        "a": "Sim, o CTO mencionou que, embora a falha tenha sido grave, a resposta rápida e transparente foi o que lhes deu segurança para renovar. Ele disse: 'Vocês mostraram como lidam com problemas, e isso nos deu mais confiança do que anos sem problemas teriam dado'. Utilizei esse feedback internamente, compartilhando-o com a liderança e com a equipe, para reforçar a importância da minha nova cultura de gestão de incidentes e o valor de sermos vocalmente autocríticos.",
-        "q_en": "Did you receive any additional feedback from the partner after contract renewal? If so, how did you use that feedback?",
-        "a_en": "Yes, the CTO mentioned that although the failure was serious, the quick and transparent response was what gave them confidence to renew. He said: 'You showed how you handle problems, and that gave us more confidence than years without problems would have.' I used this feedback internally, sharing it with leadership and the team, to reinforce the importance of my new incident management culture and the value of being vocally self-critical."
+        "q": "Como voce garantiu que o problema nao volta?",
+        "a": "Instalei alerta automatico quando variacao passa de 0,15% e autorizo liberacao extra pessoalmente.",
+        "q_en": "How did you prevent recurrence?",
+        "a_en": "I set automatic alerts when variance exceeds 0.15% and personally approve extra releases."
       },
       {
-        "q": "Qual foi a maior dificuldade em decidir compensar financeiramente o parceiro e como isso foi negociado internamente?",
-        "a": "A maior dificuldade foi a resistência da área financeira, que via a ação como 'abrir um precedente'. Negociei internamente argumentando com base no LTV (Lifetime Value) do parceiro. Mostrei que o custo do crédito era inferior a 1% do valor total do contrato que estávamos arriscando perder. Foi uma decisão de negócio, um investimento na retenção de um cliente de alto valor. Também argumentei que gesto de boa fé fortaleceria relacionamento para futuros upsells.",
-        "q_en": "What was the biggest difficulty in deciding to financially compensate the partner and how was this negotiated internally?",
-        "a_en": "The biggest difficulty was resistance from the finance area, which saw the action as 'setting a precedent.' I negotiated internally by arguing based on the partner's LTV (Lifetime Value). I showed that the credit cost was less than 1% of the total contract value I were risking losing. It was a business decision, an investment in retaining a high-value customer. I also argued that good faith gesture would strengthen relationship for future upsells."
+        "q": "Qual impacto nos vendedores finais?",
+        "a": "Saldo medio recebia em 23 horas antes, agora em 6 horas; chargebacks caram 21%.",
+        "q_en": "What was the impact on end sellers?",
+        "a_en": "Average balance arrived in 23 hours before, now in six hours; chargebacks fell 21%."
       },
       {
-        "q": "As práticas adotadas, como os 'canary releases', foram aplicadas a outros clientes ou processos? Se sim, qual foi o impacto geral?",
-        "a": "Sim. O sucesso foi tão claro que os 'canary releases' se tornaram a política padrão para todas as implantações de software em minha plataforma de pagamentos. O impacto geral foi uma redução de 60% nos incidentes críticos (Severity 1) nos seis meses seguintes, o que melhorou drasticamente a estabilidade para todos os meu 200+ clientes e reduziu o estresse das equipes de plantão. Também se tornou um diferencial competitivo - começamos a usar minha confiabilidade superior como selling point em pitches para novos clientes.",
-        "q_en": "Were the adopted practices, like 'canary releases,' applied to other customers or processes? If so, what was the overall impact?",
-        "a_en": "Yes. The success was so clear that 'canary releases' became the standard policy for all software deployments on my payments platform. The overall impact was a 60% reduction in critical incidents (Severity 1) in the following six months, which dramatically improved stability for all my 200+ customers and reduced stress for on-call teams. It also became a competitive differentiator - I started using my superior reliability as a selling point in pitches to new customers."
+        "q": "Como voce replicou o aprendizado?",
+        "a": "Implementei carta de saldo em outros quatro parceiros que somam R$ 1,2B de TPV.",
+        "q_en": "How did you replicate the learning?",
+        "a_en": "I deployed the balance letter across four other partners totaling BRL 1.2B TPV."
       }
     ],
     "__file": "src\\data\\earn_trust\\earn_trust_case3.js",
     "lp_id": "earn_trust",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 55,
-      "status": "KO",
+      "score": 100,
+      "status": "Ready",
       "positives": [
         "Customer Obsession forte (22 men��es relevantes)",
-        "M�tricas robustas (23)",
+        "M�tricas robustas (15)",
+        "Ratio EU:N�S saud�vel (9:0)",
+        "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
-      "warnings": [
-        "Sem m�tricas de cliente expl�citas",
-        "Sem conflito/resist�ncia vis�vel",
-        "Case antigo (>7 anos)"
-      ],
-      "dealbreakers": [
-        "Ratio EU:N�S abaixo de 2:1 (2:2)"
-      ],
+      "warnings": [],
+      "dealbreakers": [],
       "suggestions": [
         {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (2:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "dealbreaker",
+          "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+          "message": "Ratio EU:N�S atual 9:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 23",
+          "message": "M�tricas detectadas: 15",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -234,66 +206,62 @@
         "warnings": []
       },
       "heur": {
-        "score": 55,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (2:2)"
-        ],
-        "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
-          "Case antigo (>7 anos)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
         "positives": [
           "Customer Obsession forte (22 men��es relevantes)",
-          "M�tricas robustas (23)",
+          "M�tricas robustas (15)",
+          "Ratio EU:N�S saud�vel (9:0)",
+          "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 23,
+        "metricsCount": 15,
         "metricCategories": {
           "financial": true,
-          "customer": false,
+          "customer": true,
           "operational": true
         },
         "customerSignals": 22,
-        "conflictSignals": false,
-        "mechanismSignals": 2,
+        "conflictSignals": true,
+        "mechanismSignals": 3,
         "ratio": {
-          "ratio": 0.5,
+          "ratio": 1,
           "counts": {
-            "eu": 2,
-            "nos": 2
+            "eu": 9,
+            "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 98,
-          "status": "aging"
+          "monthsAgo": 33,
+          "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 661,
-            "enLen": 574,
-            "deltaPct": 0.13161875945537066
+            "ptLen": 354,
+            "enLen": 321,
+            "deltaPct": 0.09322033898305085
           },
           "t": {
-            "ptLen": 442,
-            "enLen": 439,
-            "deltaPct": 0.006787330316742082
+            "ptLen": 206,
+            "enLen": 197,
+            "deltaPct": 0.043689320388349516
           },
           "a": {
-            "ptLen": 1586,
-            "enLen": 1524,
-            "deltaPct": 0.03909205548549811
+            "ptLen": 940,
+            "enLen": 898,
+            "deltaPct": 0.04468085106382979
           },
           "r": {
-            "ptLen": 868,
-            "enLen": 844,
-            "deltaPct": 0.027649769585253458
+            "ptLen": 361,
+            "enLen": 339,
+            "deltaPct": 0.060941828254847646
           },
           "l": {
-            "ptLen": 724,
-            "enLen": 697,
-            "deltaPct": 0.03729281767955801
+            "ptLen": 254,
+            "enLen": 283,
+            "deltaPct": 0.10247349823321555
           }
         },
         "hookSignals": true,
