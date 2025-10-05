@@ -1,86 +1,86 @@
 {
   "original": {
     "id": "unimed-customer-experience",
-    "title": "Transformei a Jornada do BeneficiÃ¡rio e Levei o NPS de 28 para 58 em 12 Meses",
-    "title_pt": "Transformei a Jornada do BeneficiÃ¡rio e Levei o NPS de 28 para 58 em 12 Meses",
+    "title": "Transformei a Jornada do Beneficiário e Levei o NPS de 28 para 58 em 12 Meses",
+    "title_pt": "Transformei a Jornada do Beneficiário e Levei o NPS de 28 para 58 em 12 Meses",
     "title_en": "Rebuilt the Member Journey and Lifted NPS from 28 to 58 in 12 Months",
     "company": "Unimed",
     "period": "01/2023-12/2023",
     "isTopCase": true,
     "pt": {
-      "s": "Em janeiro de 2023 eu assumi a diretoria de ExperiÃªncia do Cliente da Unimed com um cenÃ¡rio crÃ­tico: NPS geral em 28 (benchmark do setor 45), churn anual de 18%, 63% dos tickets de call center classificados como \"falta de transparÃªncia\" e 1,6 milhÃ£o de interaÃ§Ãµes/ano em canais que se contradiziam. O conselho exigia reduÃ§Ã£o de custo, nÃ£o investimento, e a diretoria mÃ©dica pressionava para manter processos rÃ­gidos por medo de multas da ANS. Se nada mudasse, perderÃ­amos mais 120 mil vidas para healthtechs como Alice e Sami.",
-      "t": "Eu me declarei owner end-to-end. Prometi ao CEO e ao conselho trÃªs metas em 12 meses: NPS â‰¥58, churn â‰¤11% e autorizaÃ§Ã£o de procedimentos crÃ­ticos â‰¤2 dias sem aumentar CAPEX. TambÃ©m garanti que eu mesmo apresentaria, mensalmente, a voz do cliente em comitÃª executivo para quebrar a cultura product-centric.",
-      "a": "Ataquei quatro inputs principais: insight real de cliente, autorizaÃ§Ã£o, atendimento e jornada digital.\n    (1) Voz do cliente sem filtros: em seis semanas eu conduzi pessoalmente 52 entrevistas em profundidade (incluindo 18 detratores), analisei 7.200 reclamaÃ§Ãµes e criei um painel \"Day in the Life\" que levei ao conselho â€\" inclusive reproduzi Ã¡udio de cliente chorando apÃ³s esperar 9 dias por autorizaÃ§Ã£o. O choque alinhou o C-level a priorizar experiÃªncia. \n    (2) AutorizaÃ§Ã£o 2.0: descobri que 71% do atraso vinha de exames classe B. Eu codifiquei regras mÃ©dicas com a diretoria (mesmo sob forte resistÃªncia) e implementei motor de decisÃ£o automÃ¡tica com limites de risco. Em trÃªs meses reduzi tempo mÃ©dio de 4,8 para 1,9 dia e poupei 42 mil chamadas/mÃªs.\n    (3) Atendimento que resolve: redesenhei o call center criando squads por jornada (gestante, crÃ´nicos, empresarial). Treinei 480 agentes com roteiros co-criados por beneficiÃ¡rios e criei indicador FCR (first contact resolution). Em oito meses o FCR saltou de 54% para 81% e o tempo mÃ©dio de espera caiu de 11 para 3 minutos.\n    (4) Jornada digital com precisÃ£o: conduzi estudo de usabilidade com 300 clientes e descobri abandono de 67% no onboarding digital. Lidereis quad que entregou login biomÃ©trico + onboarding progressivo em 12 semanas. A adoÃ§Ã£o digital subiu de 38% para 72% e o NPS do app passou de 22 para 55. Para clientes corporativos, criei produto concierge (DNA Empresas) com gerente dedicado e WhatsApp 24/7, elevando retenÃ§Ã£o de contas C-level de 84% para 97%.\n    Paralelamente estabeleci ritual mensal \"Voz do Cliente\" no board: nenhum investimento era aprovado sem Customer Impact Score preenchido por mim.",
-      "r": "Em dezembro de 2023 atingimos NPS 58 (+30 pontos), churn caiu para 10,9% (-7,1 p.p.), FCR 81% (+27 p.p.), tempo de autorizaÃ§Ã£o 1,9 dia (-60%), NPS digital 55 (+33), reclamaÃ§Ãµes na ANS -43%, e app MAUs +94%. Financeiramente, retenÃ§Ã£o incremental gerou R$ 28M/ano, o concierge corporativo adicionou R$ 11M e a reduÃ§Ã£o de contatos repetidos economizou R$ 7,5M em OPEX. A Unimed passou a liderar o ranking de satisfaÃ§Ã£o entre cooperativas (pesquisa ANS 2023) e evitou multa projetada de R$ 4M por atrasos. O case foi apresentado no encontro nacional Unimed e replicado em 14 federaÃ§Ãµes.",
-      "l": "Aprendi que obsessÃ£o pelo cliente exige expor o board Ã  dor genuÃ­na, redesenhar mecanismos internos e amarrar cada decisÃ£o a impacto real na vida do beneficiÃ¡rio. Hoje sÃ³ aprovo iniciativas quando tenho evidÃªncia direta de cliente + mÃ©trica de resultado; dados sem voz emocionam menos e nÃ£o movem cultura."
+      "s": "Em janeiro de 2023 eu assumi a diretoria de Experiência do Cliente da Unimed com um cenário crítico: NPS em 28 (benchmark 45), churn anual de 18%, 63% dos tickets marcados como \"falta de transparência\" e 1,6 milhão de interações/ano em canais que se contradiziam. O conselho só falava em cortar custo, a diretoria médica ameaçou bloquear qualquer mudança por medo de multa da ANS e três cooperativas sugeriram terceirizar atendimento.",
+      "t": "Eu me declarei owner end-to-end. Prometi ao CEO e ao conselho que, em 12 meses, entregaria NPS >=60, churn <=11%, autorização crítica <=2 dias e aumentaria a transparência sem estourar CAPEX. Também garanti que eu mesmo traria a voz do cliente ao board em todo ciclo.",
+      "a": "Atuei em quatro frentes, sempre com métrica operacional e cliente visível:\n    (1) Voz sem filtro: em seis semanas conduzi 52 entrevistas (18 detratores), analisei 7.200 reclamações e construí o painel \"day-one journey\". Reproduzi no board o áudio de uma beneficiária esperando 9 dias por autorização; daí em diante eu tinha mandato.\n    (2) Autorização 2.0: descobri que 71% do atraso vinha de exames classe B. Codifiquei regras médicas com o diretor (mesmo sob ameaça de veto), implantei motor de decisão automático com limites de risco e abri task force com auditoria. Métrica: autorização média de 4,8 -> 1,9 dia, backlog crítico 12k -> 2,1k, 42 mil chamadas/mês removidas.\n    (3) Atendimento que resolve: reestruturei call center em squads por jornada (gestante, crônicos, empresarial), treinei 480 agentes com scripts co-criados pelos próprios beneficiários e instalei FCR como métrica de bônus. Resultado: FCR 54% -> 81%, tempo de espera 11 -> 3 min, reincidência -38%.\n    (4) Jornada digital precisa: conduzi teste com 300 clientes, vi abandono de 67% no onboarding. Lidereis quad para lançar login biométrico + onboarding progressivo em 12 semanas. Adoção digital 38% -> 72%, NPS do app 22 -> 55. Para C-level corporativo criei concierge (DNA Empresas) com SLA 30 min e WhatsApp 24/7, elevando retenção 84% -> 97%.\n    Em paralelo instituí o ritual \"Voz do Cliente no board\": nenhum investimento era aprovado se eu não mostrasse Customer Impact Score e métrica operacional anexada.",
+      "r": "Dezembro/2023: NPS 28 -> 58 (+30), churn 18% -> 10,9% (-7,1 p.p.), autorizações 4,8 -> 1,9 dia (-60%), FCR 81% (+27 p.p.), NPS digital 55 (+33), ANS reclamações -43%, MAUs do app +94%. Economizamos R$ 7,5M em OPEX (contatos repetidos), retemos R$ 28M em receita e o concierge agregou R$ 11M. A Unimed liderou satisfação na ANS/2023, evitou multa projetada de R$ 4M e 14 federações replicaram o modelo.",
+      "l": "Eu aprendi que obsessão pelo cliente só muda cultura quando coloco dados e voz real na mesma mesa e amarro cada decisão a uma métrica operacional + experiência. Hoje nenhum backlog entra sem evidência de cliente e sem indicador que mostra o impacto real."
     },
     "en": {
-      "s": "In January 2023 I took over Unimedâ€™s Customer Experience office with a burning platform: overall NPS at 28 (industry benchmark 45), annual churn at 18%, 63% of call-center tickets tagged â€œlack of transparencyâ€, and 1.6M yearly interactions across conflicting channels. The board wanted cost cutting, not investment, and the medical directorate refused to touch authorization flows fearing ANS penalties. Without change we would lose another 120K members to healthtechs like Alice and Sami.",
-      "t": "I declared myself the single-threaded owner. I committed to the CEO and the board to hit three targets in 12 months: NPS â‰¥58, churn â‰¤11%, and critical authorizations â‰¤2 days with no CAPEX increase. I also committed to personally bring the customerâ€™s voice to the executive committee every month to break the product-centric mindset.",
-      "a": "I attacked four inputs: customer insight, authorization, service, and digital journey.\n    (1) Unfiltered customer insight: within six weeks I personally ran 52 deep interviews (18 detractors included), mined 7,200 complaints, and built a â€œDay in the Lifeâ€ panel that I presented to the boardâ€\"playing an audio of a customer crying after waiting nine days for authorization. The shock aligned the C-level around experience.\n    (2) Authorization 2.0: 71% of delay came from class-B exams. I codified medical rules with the directorate despite heavy pushback and deployed an automated decision engine with risk thresholds. In three months the average authorization time fell from 4.8 to 1.9 days and we removed 42K calls per month.\n    (3) Service that solves: I redesigned the call center around journey squads (pregnancy, chronic, corporate). I trained 480 agents using scripts co-created by members and installed FCR as the core metric. Eight months later FCR rose from 54% to 81% and average wait time dropped from 11 to 3 minutes.\n    (4) Precision digital journey: usability research with 300 clients showed 67% abandonment in digital onboarding. I led the squad that shipped biometric login plus progressive onboarding in 12 weeks. Digital adoption jumped from 38% to 72% and app NPS from 22 to 55. For corporate accounts I created a concierge offer (DNA Empresas) with dedicated managers and 24/7 WhatsApp, lifting C-level retention from 84% to 97%.\n    In parallel I instituted the monthly â€œVoice of the Customerâ€ board ritualâ€\"no investment was approved without a Customer Impact Score filled by me.",
-      "r": "By December 2023 we reached NPS 58 (+30), churn 10.9% (-7.1 p.p.), FCR 81% (+27 p.p.), authorization time 1.9 days (-60%), digital NPS 55 (+33), ANS complaints -43%, and MAUs +94%. Financially we unlocked R$28M/year via retention, the corporate concierge added R$11M, and fewer repeat contacts saved R$7.5M OPEX. Unimed led the satisfaction ranking among cooperatives (ANS 2023) and we avoided a projected R$4M penalty. The case was showcased at the national Unimed summit and replicated in 14 federations.",
-      "l": "I learned that true customer obsession means forcing leaders to feel the customerâ€™s pain, rebuilding mechanisms, and tying every decision to real-life impact. Today I only greenlight initiatives backed by direct customer evidence plus outcome metrics; data without emotion doesnâ€™t shift culture."
+      "s": "In January 2023 I took over Unimed''s CX office with a burning platform: NPS 28 (benchmark 45), annual churn 18%, 63% of tickets tagged \"lack of transparency\", and 1.6M yearly interactions across conflicting channels. The board wanted cost cuts, the medical directorate threatened to block changes over ANS penalties, and three cooperatives suggested outsourcing service.",
+      "t": "I declared myself the single-threaded owner. I committed to the CEO and board that within 12 months I would deliver NPS >=60, churn <=11%, and critical authorizations <=2 days without raising CAPEX. I also promised to bring the customer''s voice and operational metrics into every board cycle.",
+      "a": "Four execution fronts, each tied to explicit metrics:\n    (1) Unfiltered voice: in six weeks I ran 52 deep interviews (18 detractors), mined 7,200 complaints, and built the day-one journey panel. I played the nine-day authorization audio at the board—resistance stopped.\n    (2) Authorization 2.0: 71% of delay was class-B exams. I codified medical rules with the director despite veto threats, deployed an automated decision engine with risk thresholds, and paired it with a task force. Metrics: average authorization 4.8 -> 1.9 days, critical backlog 12K -> 2.1K, minus 42K calls per month.\n    (3) Service that solves: I reworked the call center into journey squads, trained 480 agents with member-created scripts, and tied bonuses to FCR. Results: FCR 54% -> 81%, wait time 11 -> 3 minutes, repeat contacts -38%.\n    (4) Precision digital: usability with 300 members showed 67% abandonment. I led the squad to ship biometric login + progressive onboarding in 12 weeks. Adoption 38% -> 72%, app NPS 22 -> 55. For corporate C-level I launched the DNA Empresas concierge (30-minute SLA, 24/7 WhatsApp), lifting retention 84% -> 97%.\n    Meanwhile I instituted the monthly \"Voice of the Customer\" board ritual—no investment approved without my Customer Impact Score and matching operational metric.",
+      "r": "By December 2023 NPS rose to 58 (+30), churn fell to 10.9% (-7.1 p.p.), authorization time 4.8 -> 1.9 days (-60%), FCR hit 81% (+27 p.p.), digital NPS 55 (+33), ANS complaints -43%, app MAUs +94%. We saved R$7.5M in OPEX, retained R$28M, and concierge brought R$11M. Unimed topped ANS satisfaction 2023, avoided a projected R$4M penalty, and 14 federations replicated the model.",
+      "l": "I learned that customer obsession only shifts culture when I combine raw customer voice with operational metrics and tie every decision to real-life impact. I now reject backlog items without customer evidence plus a metric that proves the result."
     },
     "fups": [
       {
-        "q": "Como vocÃª selecionou os 52 clientes entrevistados para garantir representatividade?",
-        "a": "Cruzei churn, NPS e produtos consumidos; montei amostra com detratores, neutros e promoters de segmentos corporativo, individual e PME.",
-        "q_en": "How did you pick the 52 customers you interviewed to keep it representative?",
-        "a_en": "I combined churn status, NPS, and products used; built a sample of detractors, passives, and promoters across corporate, individual, and SME segments."
+        "q": "Como você selecionou os 52 clientes entrevistados para garantir representatividade?",
+        "a": "Cruzei churn, NPS e produtos; montei amostra com detratores, neutros e promoters em segmentos corporativo, individual e PME.",
+        "q_en": "How did you pick the 52 customers to keep it representative?",
+        "a_en": "I balanced churn, NPS tier, and products; sampled detractors, passives, and promoters across corporate, individual, and SME."
       },
       {
-        "q": "Que dados levou ao conselho para justificar automatizaÃ§Ã£o das autorizaÃ§Ãµes?",
-        "a": "Levei sÃ©rie histÃ³rica de 18 meses mostrando 71% dos atrasos em classe B, simulaÃ§Ã£o de risco residual e comparaÃ§Ã£o com ANS.",
-        "q_en": "Which data did you bring to the board to justify authorization automation?",
-        "a_en": "I showed 18 months of history proving 71% of delays were class-B exams, modeled residual risk, and compared with ANS limits."
+        "q": "Que dados levou ao conselho para justificar automatização das autorizações?",
+        "a": "Apresentei 18 meses de série mostrando 71% dos atrasos em classe B, simulação de risco residual e comparação com os limites da ANS.",
+        "q_en": "Which data did you bring to justify authorization automation?",
+        "a_en": "I brought 18 months of history showing 71% of delays were class-B, modeled residual risk, and benchmarked ANS thresholds."
       },
       {
-        "q": "Como convenceu a diretoria mÃ©dica a aceitar regras automatizadas?",
-        "a": "Criei comitÃª semanal, planejei piloto com amostragem dupla cega e garanti reversÃ£o manual em <2h para qualquer exceÃ§Ã£o.",
-        "q_en": "How did you convince the medical directorate to accept automated rules?",
-        "a_en": "I set a weekly committee, designed a double-blind pilot, and guaranteed manual override within two hours for any exception."
+        "q": "Como convenceu a diretoria médica a aceitar regras automatizadas?",
+        "a": "Instalei comitê semanal, pilotei amostragem dupla cega e garanti reversão manual <2h para qualquer exceção.",
+        "q_en": "How did you convince the medical board to accept automated rules?",
+        "a_en": "I set a weekly committee, ran a double-blind pilot, and guaranteed manual override within two hours for any exception."
       },
       {
-        "q": "Quais indicadores acompanhou diariamente na war room do call center?",
-        "a": "Acompanhava FCR, tempo de espera, reincidÃªncia, NPS transacional e motivos recorrentes; qualquer pico abria plano em 24h.",
-        "q_en": "Which indicators did you track daily in the call-center war room?",
-        "a_en": "I tracked FCR, wait time, repeat contacts, transactional NPS, and top call reasons; any spike spawned a 24-hour action plan."
+        "q": "Quais indicadores você monitorava diariamente?",
+        "a": "FCR, tempo de espera, reincidência, NPS transacional e backlog de autorização; qualquer pico gerava plano em 24h.",
+        "q_en": "Which indicators did you track daily?",
+        "a_en": "FCR, wait time, repeat contacts, transactional NPS, and authorization backlog; any spike triggered a 24-hour plan."
       },
       {
-        "q": "Como calculou o impacto financeiro da reduÃ§Ã£o de churn?",
-        "a": "Projetei vidas preservadas x ticket mÃ©dio x margem, descontando custo de servir; resultado R$ 28M/ano.",
+        "q": "Como calculou o impacto financeiro da redução de churn?",
+        "a": "Projetei vidas preservadas x ticket médio x margem líquida menos custo de servir; impacto líquido R$28M/ano.",
         "q_en": "How did you quantify the financial impact of lower churn?",
-        "a_en": "I projected retained lives times average ticket times margin, minus cost-to-serve; net impact R$28M/year."
+        "a_en": "I projected retained lives times average ticket times net margin minus cost-to-serve; net impact R$28M per year."
       },
       {
-        "q": "Qual foi a reaÃ§Ã£o do conselho ao Ã¡udio do cliente que vocÃª levou?",
-        "a": "SilÃªncio total e pedido imediato do presidente para priorizar autorizaÃ§Ã£o; virou item fixo de pauta mensal.",
-        "q_en": "What was the boardâ€™s reaction to the customer audio you played?",
-        "a_en": "Complete silence followed by the chairman ordering authorization to become top priority; it became a standing agenda item."
+        "q": "Qual foi a reação do conselho ao áudio do cliente?",
+        "a": "Silêncio total e decisão imediata do presidente de priorizar autorizações; o áudio virou pauta fixa mensal.",
+        "q_en": "What was the board''s reaction to the customer audio?",
+        "a_en": "Complete silence and an immediate order from the chairman to prioritize authorizations; it became a standing monthly item."
       },
       {
-        "q": "Como garantiu aderÃªncia ao novo onboarding digital?",
-        "a": "Implantei testes A/B semanais, monitorei funil em tempo real e rodei cohort review quinzenal com squad e clientes beta.",
-        "q_en": "How did you ensure the new digital onboarding stuck?",
-        "a_en": "I ran weekly A/B tests, monitored the funnel in real time, and held biweekly cohort reviews with the squad and beta customers."
+        "q": "Como garantiu adesão ao onboarding digital?",
+        "a": "Rodei A/B semanal, monitorei funil em tempo real e fiz review quinzenal com squad e clientes beta; adoção sustentou 72%.",
+        "q_en": "How did you ensure digital onboarding adoption?",
+        "a_en": "I ran weekly A/B tests, monitored the funnel in real time, and held biweekly reviews with the squad and beta members; adoption held at 72%."
       },
       {
-        "q": "O que diferencia o concierge DNA Empresas do atendimento padrÃ£o?",
-        "a": "Gerente dedicado com SLA 30 min, WhatsApp 24/7 e linha direta com diretoria mÃ©dica; NPS C-level chegou a 84.",
-        "q_en": "What makes the DNA Empresas concierge different from standard service?",
-        "a_en": "Dedicated manager with 30-minute SLA, 24/7 WhatsApp, and direct line to the medical board; C-level NPS hit 84."
+        "q": "O que torna o DNA Empresas diferente do atendimento padrão?",
+        "a": "Gerente dedicado com SLA 30 min, WhatsApp 24/7 e acesso direto à diretoria médica; NPS C-level atingiu 84.",
+        "q_en": "What makes DNA Empresas different from standard service?",
+        "a_en": "A dedicated manager with a 30-minute SLA, 24/7 WhatsApp, and direct access to the medical directorate; C-level NPS hit 84."
       },
       {
-        "q": "Como evitou que o foco em experiÃªncia aumentasse custos fixos?",
-        "a": "Realocamos 120 agentes de backoffice para squads de resoluÃ§Ã£o, automatizamos 18 fluxos e negociamos GL de tecnologia com ROI claro.",
-        "q_en": "How did you keep the experience push from inflating fixed costs?",
-        "a_en": "I reassigned 120 back-office agents into resolution squads, automated 18 flows, and negotiated tech GLs tied to clear ROI."
+        "q": "Como evitou aumento de custos fixos?",
+        "a": "Realocamos 120 agentes de backoffice para squads de resolução, automatizamos 18 fluxos e só aprovei investimentos com ROI em <12 meses.",
+        "q_en": "How did you avoid increasing fixed costs?",
+        "a_en": "We reassigned 120 back-office agents to resolution squads, automated 18 flows, and only approved investments with ROI under 12 months."
       },
       {
-        "q": "Que liÃ§Ã£o vocÃª levou para outros programas?",
-        "a": "Levei o ritual Voz do Cliente + Customer Impact Score para o programa de telemedicina; NPS 0-7d jÃ¡ subiu 18 pontos.",
-        "q_en": "Which lesson did you carry into other programs?",
-        "a_en": "I exported the Voice of the Customer ritual plus Customer Impact Score to the telemedicine program; dayâ€'7 NPS is already up 18 points."
+        "q": "Que lição levou para outros programas?",
+        "a": "Levei o ritual de Voz do Cliente + Customer Impact Score para telemedicina; em três ciclos o NPS 0-7 dias subiu 18 pontos.",
+        "q_en": "Which lesson did you carry forward?",
+        "a_en": "I exported the Voice of the Customer ritual plus Customer Impact Score to telemedicine; within three cycles day-7 NPS was up 18 points."
       }
     ],
     "__file": "src\\data\\customer_obsession\\customer_obsession_case1.js",
@@ -89,86 +89,86 @@
   },
   "mutated": {
     "id": "unimed-customer-experience",
-    "title": "Transformei a Jornada do BeneficiÃ¡rio e Levei o NPS de 28 para 58 em 12 Meses",
-    "title_pt": "Transformei a Jornada do BeneficiÃ¡rio e Levei o NPS de 28 para 58 em 12 Meses",
+    "title": "Transformei a Jornada do Beneficiário e Levei o NPS de 28 para 58 em 12 Meses",
+    "title_pt": "Transformei a Jornada do Beneficiário e Levei o NPS de 28 para 58 em 12 Meses",
     "title_en": "Rebuilt the Member Journey and Lifted NPS from 28 to 58 in 12 Months",
     "company": "Unimed",
     "period": "01/2023-12/2023",
     "isTopCase": true,
     "pt": {
-      "s": "Em janeiro de 2023 eu assumi a diretoria de ExperiÃªncia do Cliente da Unimed com um cenÃ¡rio crÃ­tico: NPS geral em 28 (benchmark do setor 45), churn anual de 18%, 63% dos tickets de call center classificados como \"falta de transparÃªncia\" e 1,6 milhÃ£o de interaÃ§Ãµes/ano em canais que se contradiziam. O conselho exigia reduÃ§Ã£o de custo, nÃ£o investimento, e a diretoria mÃ©dica pressionava para manter processos rÃ­gidos por medo de multas da ANS. Se nada mudasse, perderÃ­amos mais 120 mil vidas para healthtechs como Alice e Sami.",
-      "t": "Eu me declarei owner end-to-end. Prometi ao CEO e ao conselho trÃªs metas em 12 meses: NPS â‰¥58, churn â‰¤11% e autorizaÃ§Ã£o de procedimentos crÃ­ticos â‰¤2 dias sem aumentar CAPEX. TambÃ©m garanti que eu mesmo apresentaria, mensalmente, a voz do cliente em comitÃª executivo para quebrar a cultura product-centric.",
-      "a": "Ataquei quatro inputs principais: insight real de cliente, autorizaÃ§Ã£o, atendimento e jornada digital.\n    (1) Voz do cliente sem filtros: em seis semanas eu conduzi pessoalmente 52 entrevistas em profundidade (incluindo 18 detratores), analisei 7.200 reclamaÃ§Ãµes e criei um painel \"Day in the Life\" que levei ao conselho â€\" inclusive reproduzi Ã¡udio de cliente chorando apÃ³s esperar 9 dias por autorizaÃ§Ã£o. O choque alinhou o C-level a priorizar experiÃªncia. \n    (2) AutorizaÃ§Ã£o 2.0: descobri que 71% do atraso vinha de exames classe B. Eu codifiquei regras mÃ©dicas com a diretoria (mesmo sob forte resistÃªncia) e implementei motor de decisÃ£o automÃ¡tica com limites de risco. Em trÃªs meses reduzi tempo mÃ©dio de 4,8 para 1,9 dia e poupei 42 mil chamadas/mÃªs.\n    (3) Atendimento que resolve: redesenhei o call center criando squads por jornada (gestante, crÃ´nicos, empresarial). Treinei 480 agentes com roteiros co-criados por beneficiÃ¡rios e criei indicador FCR (first contact resolution). Em oito meses o FCR saltou de 54% para 81% e o tempo mÃ©dio de espera caiu de 11 para 3 minutos.\n    (4) Jornada digital com precisÃ£o: conduzi estudo de usabilidade com 300 clientes e descobri abandono de 67% no onboarding digital. Lidereis quad que entregou login biomÃ©trico + onboarding progressivo em 12 semanas. A adoÃ§Ã£o digital subiu de 38% para 72% e o NPS do app passou de 22 para 55. Para clientes corporativos, criei produto concierge (DNA Empresas) com gerente dedicado e WhatsApp 24/7, elevando retenÃ§Ã£o de contas C-level de 84% para 97%.\n    Paralelamente estabeleci ritual mensal \"Voz do Cliente\" no board: nenhum investimento era aprovado sem Customer Impact Score preenchido por mim.",
-      "r": "Em dezembro de 2023 atingimos NPS 58 (+30 pontos), churn caiu para 10,9% (-7,1 p.p.), FCR 81% (+27 p.p.), tempo de autorizaÃ§Ã£o 1,9 dia (-60%), NPS digital 55 (+33), reclamaÃ§Ãµes na ANS -43%, e app MAUs +94%. Financeiramente, retenÃ§Ã£o incremental gerou R$ 28M/ano, o concierge corporativo adicionou R$ 11M e a reduÃ§Ã£o de contatos repetidos economizou R$ 7,5M em OPEX. A Unimed passou a liderar o ranking de satisfaÃ§Ã£o entre cooperativas (pesquisa ANS 2023) e evitou multa projetada de R$ 4M por atrasos. O case foi apresentado no encontro nacional Unimed e replicado em 14 federaÃ§Ãµes.",
-      "l": "Aprendi que obsessÃ£o pelo cliente exige expor o board Ã  dor genuÃ­na, redesenhar mecanismos internos e amarrar cada decisÃ£o a impacto real na vida do beneficiÃ¡rio. Hoje sÃ³ aprovo iniciativas quando tenho evidÃªncia direta de cliente + mÃ©trica de resultado; dados sem voz emocionam menos e nÃ£o movem cultura."
+      "s": "Em janeiro de 2023 eu assumi a diretoria de Experiência do Cliente da Unimed com um cenário crítico: NPS em 28 (benchmark 45), churn anual de 18%, 63% dos tickets marcados como \"falta de transparência\" e 1,6 milhão de interações/ano em canais que se contradiziam. O conselho só falava em cortar custo, a diretoria médica ameaçou bloquear qualquer mudança por medo de multa da ANS e três cooperativas sugeriram terceirizar atendimento.",
+      "t": "Eu me declarei owner end-to-end. Prometi ao CEO e ao conselho que, em 12 meses, entregaria NPS >=60, churn <=11%, autorização crítica <=2 dias e aumentaria a transparência sem estourar CAPEX. Também garanti que eu mesmo traria a voz do cliente ao board em todo ciclo.",
+      "a": "Atuei em quatro frentes, sempre com métrica operacional e cliente visível:\n    (1) Voz sem filtro: em seis semanas conduzi 52 entrevistas (18 detratores), analisei 7.200 reclamações e construí o painel \"day-one journey\". Reproduzi no board o áudio de uma beneficiária esperando 9 dias por autorização; daí em diante eu tinha mandato.\n    (2) Autorização 2.0: descobri que 71% do atraso vinha de exames classe B. Codifiquei regras médicas com o diretor (mesmo sob ameaça de veto), implantei motor de decisão automático com limites de risco e abri task force com auditoria. Métrica: autorização média de 4,8 -> 1,9 dia, backlog crítico 12k -> 2,1k, 42 mil chamadas/mês removidas.\n    (3) Atendimento que resolve: reestruturei call center em squads por jornada (gestante, crônicos, empresarial), treinei 480 agentes com scripts co-criados pelos próprios beneficiários e instalei FCR como métrica de bônus. Resultado: FCR 54% -> 81%, tempo de espera 11 -> 3 min, reincidência -38%.\n    (4) Jornada digital precisa: conduzi teste com 300 clientes, vi abandono de 67% no onboarding. Lidereis quad para lançar login biométrico + onboarding progressivo em 12 semanas. Adoção digital 38% -> 72%, NPS do app 22 -> 55. Para C-level corporativo criei concierge (DNA Empresas) com SLA 30 min e WhatsApp 24/7, elevando retenção 84% -> 97%.\n    Em paralelo instituí o ritual \"Voz do Cliente no board\": nenhum investimento era aprovado se eu não mostrasse Customer Impact Score e métrica operacional anexada.",
+      "r": "Dezembro/2023: NPS 28 -> 58 (+30), churn 18% -> 10,9% (-7,1 p.p.), autorizações 4,8 -> 1,9 dia (-60%), FCR 81% (+27 p.p.), NPS digital 55 (+33), ANS reclamações -43%, MAUs do app +94%. Economizamos R$ 7,5M em OPEX (contatos repetidos), retemos R$ 28M em receita e o concierge agregou R$ 11M. A Unimed liderou satisfação na ANS/2023, evitou multa projetada de R$ 4M e 14 federações replicaram o modelo.",
+      "l": "Eu aprendi que obsessão pelo cliente só muda cultura quando coloco dados e voz real na mesma mesa e amarro cada decisão a uma métrica operacional + experiência. Hoje nenhum backlog entra sem evidência de cliente e sem indicador que mostra o impacto real."
     },
     "en": {
-      "s": "In January 2023 I took over Unimedâ€™s Customer Experience office with a burning platform: overall NPS at 28 (industry benchmark 45), annual churn at 18%, 63% of call-center tickets tagged â€œlack of transparencyâ€, and 1.6M yearly interactions across conflicting channels. The board wanted cost cutting, not investment, and the medical directorate refused to touch authorization flows fearing ANS penalties. Without change we would lose another 120K members to healthtechs like Alice and Sami.",
-      "t": "I declared myself the single-threaded owner. I committed to the CEO and the board to hit three targets in 12 months: NPS â‰¥58, churn â‰¤11%, and critical authorizations â‰¤2 days with no CAPEX increase. I also committed to personally bring the customerâ€™s voice to the executive committee every month to break the product-centric mindset.",
-      "a": "I attacked four inputs: customer insight, authorization, service, and digital journey.\n    (1) Unfiltered customer insight: within six weeks I personally ran 52 deep interviews (18 detractors included), mined 7,200 complaints, and built a â€œDay in the Lifeâ€ panel that I presented to the boardâ€\"playing an audio of a customer crying after waiting nine days for authorization. The shock aligned the C-level around experience.\n    (2) Authorization 2.0: 71% of delay came from class-B exams. I codified medical rules with the directorate despite heavy pushback and deployed an automated decision engine with risk thresholds. In three months the average authorization time fell from 4.8 to 1.9 days and we removed 42K calls per month.\n    (3) Service that solves: I redesigned the call center around journey squads (pregnancy, chronic, corporate). I trained 480 agents using scripts co-created by members and installed FCR as the core metric. Eight months later FCR rose from 54% to 81% and average wait time dropped from 11 to 3 minutes.\n    (4) Precision digital journey: usability research with 300 clients showed 67% abandonment in digital onboarding. I led the squad that shipped biometric login plus progressive onboarding in 12 weeks. Digital adoption jumped from 38% to 72% and app NPS from 22 to 55. For corporate accounts I created a concierge offer (DNA Empresas) with dedicated managers and 24/7 WhatsApp, lifting C-level retention from 84% to 97%.\n    In parallel I instituted the monthly â€œVoice of the Customerâ€ board ritualâ€\"no investment was approved without a Customer Impact Score filled by me.",
-      "r": "By December 2023 we reached NPS 58 (+30), churn 10.9% (-7.1 p.p.), FCR 81% (+27 p.p.), authorization time 1.9 days (-60%), digital NPS 55 (+33), ANS complaints -43%, and MAUs +94%. Financially we unlocked R$28M/year via retention, the corporate concierge added R$11M, and fewer repeat contacts saved R$7.5M OPEX. Unimed led the satisfaction ranking among cooperatives (ANS 2023) and we avoided a projected R$4M penalty. The case was showcased at the national Unimed summit and replicated in 14 federations.",
-      "l": "I learned that true customer obsession means forcing leaders to feel the customerâ€™s pain, rebuilding mechanisms, and tying every decision to real-life impact. Today I only greenlight initiatives backed by direct customer evidence plus outcome metrics; data without emotion doesnâ€™t shift culture."
+      "s": "In January 2023 I took over Unimed''s CX office with a burning platform: NPS 28 (benchmark 45), annual churn 18%, 63% of tickets tagged \"lack of transparency\", and 1.6M yearly interactions across conflicting channels. The board wanted cost cuts, the medical directorate threatened to block changes over ANS penalties, and three cooperatives suggested outsourcing service.",
+      "t": "I declared myself the single-threaded owner. I committed to the CEO and board that within 12 months I would deliver NPS >=60, churn <=11%, and critical authorizations <=2 days without raising CAPEX. I also promised to bring the customer''s voice and operational metrics into every board cycle.",
+      "a": "Four execution fronts, each tied to explicit metrics:\n    (1) Unfiltered voice: in six weeks I ran 52 deep interviews (18 detractors), mined 7,200 complaints, and built the day-one journey panel. I played the nine-day authorization audio at the board—resistance stopped.\n    (2) Authorization 2.0: 71% of delay was class-B exams. I codified medical rules with the director despite veto threats, deployed an automated decision engine with risk thresholds, and paired it with a task force. Metrics: average authorization 4.8 -> 1.9 days, critical backlog 12K -> 2.1K, minus 42K calls per month.\n    (3) Service that solves: I reworked the call center into journey squads, trained 480 agents with member-created scripts, and tied bonuses to FCR. Results: FCR 54% -> 81%, wait time 11 -> 3 minutes, repeat contacts -38%.\n    (4) Precision digital: usability with 300 members showed 67% abandonment. I led the squad to ship biometric login + progressive onboarding in 12 weeks. Adoption 38% -> 72%, app NPS 22 -> 55. For corporate C-level I launched the DNA Empresas concierge (30-minute SLA, 24/7 WhatsApp), lifting retention 84% -> 97%.\n    Meanwhile I instituted the monthly \"Voice of the Customer\" board ritual—no investment approved without my Customer Impact Score and matching operational metric.",
+      "r": "By December 2023 NPS rose to 58 (+30), churn fell to 10.9% (-7.1 p.p.), authorization time 4.8 -> 1.9 days (-60%), FCR hit 81% (+27 p.p.), digital NPS 55 (+33), ANS complaints -43%, app MAUs +94%. We saved R$7.5M in OPEX, retained R$28M, and concierge brought R$11M. Unimed topped ANS satisfaction 2023, avoided a projected R$4M penalty, and 14 federations replicated the model.",
+      "l": "I learned that customer obsession only shifts culture when I combine raw customer voice with operational metrics and tie every decision to real-life impact. I now reject backlog items without customer evidence plus a metric that proves the result."
     },
     "fups": [
       {
-        "q": "Como vocÃª selecionou os 52 clientes entrevistados para garantir representatividade?",
-        "a": "Cruzei churn, NPS e produtos consumidos; montei amostra com detratores, neutros e promoters de segmentos corporativo, individual e PME.",
-        "q_en": "How did you pick the 52 customers you interviewed to keep it representative?",
-        "a_en": "I combined churn status, NPS, and products used; built a sample of detractors, passives, and promoters across corporate, individual, and SME segments."
+        "q": "Como você selecionou os 52 clientes entrevistados para garantir representatividade?",
+        "a": "Cruzei churn, NPS e produtos; montei amostra com detratores, neutros e promoters em segmentos corporativo, individual e PME.",
+        "q_en": "How did you pick the 52 customers to keep it representative?",
+        "a_en": "I balanced churn, NPS tier, and products; sampled detractors, passives, and promoters across corporate, individual, and SME."
       },
       {
-        "q": "Que dados levou ao conselho para justificar automatizaÃ§Ã£o das autorizaÃ§Ãµes?",
-        "a": "Levei sÃ©rie histÃ³rica de 18 meses mostrando 71% dos atrasos em classe B, simulaÃ§Ã£o de risco residual e comparaÃ§Ã£o com ANS.",
-        "q_en": "Which data did you bring to the board to justify authorization automation?",
-        "a_en": "I showed 18 months of history proving 71% of delays were class-B exams, modeled residual risk, and compared with ANS limits."
+        "q": "Que dados levou ao conselho para justificar automatização das autorizações?",
+        "a": "Apresentei 18 meses de série mostrando 71% dos atrasos em classe B, simulação de risco residual e comparação com os limites da ANS.",
+        "q_en": "Which data did you bring to justify authorization automation?",
+        "a_en": "I brought 18 months of history showing 71% of delays were class-B, modeled residual risk, and benchmarked ANS thresholds."
       },
       {
-        "q": "Como convenceu a diretoria mÃ©dica a aceitar regras automatizadas?",
-        "a": "Criei comitÃª semanal, planejei piloto com amostragem dupla cega e garanti reversÃ£o manual em <2h para qualquer exceÃ§Ã£o.",
-        "q_en": "How did you convince the medical directorate to accept automated rules?",
-        "a_en": "I set a weekly committee, designed a double-blind pilot, and guaranteed manual override within two hours for any exception."
+        "q": "Como convenceu a diretoria médica a aceitar regras automatizadas?",
+        "a": "Instalei comitê semanal, pilotei amostragem dupla cega e garanti reversão manual <2h para qualquer exceção.",
+        "q_en": "How did you convince the medical board to accept automated rules?",
+        "a_en": "I set a weekly committee, ran a double-blind pilot, and guaranteed manual override within two hours for any exception."
       },
       {
-        "q": "Quais indicadores acompanhou diariamente na war room do call center?",
-        "a": "Acompanhava FCR, tempo de espera, reincidÃªncia, NPS transacional e motivos recorrentes; qualquer pico abria plano em 24h.",
-        "q_en": "Which indicators did you track daily in the call-center war room?",
-        "a_en": "I tracked FCR, wait time, repeat contacts, transactional NPS, and top call reasons; any spike spawned a 24-hour action plan."
+        "q": "Quais indicadores você monitorava diariamente?",
+        "a": "FCR, tempo de espera, reincidência, NPS transacional e backlog de autorização; qualquer pico gerava plano em 24h.",
+        "q_en": "Which indicators did you track daily?",
+        "a_en": "FCR, wait time, repeat contacts, transactional NPS, and authorization backlog; any spike triggered a 24-hour plan."
       },
       {
-        "q": "Como calculou o impacto financeiro da reduÃ§Ã£o de churn?",
-        "a": "Projetei vidas preservadas x ticket mÃ©dio x margem, descontando custo de servir; resultado R$ 28M/ano.",
+        "q": "Como calculou o impacto financeiro da redução de churn?",
+        "a": "Projetei vidas preservadas x ticket médio x margem líquida menos custo de servir; impacto líquido R$28M/ano.",
         "q_en": "How did you quantify the financial impact of lower churn?",
-        "a_en": "I projected retained lives times average ticket times margin, minus cost-to-serve; net impact R$28M/year."
+        "a_en": "I projected retained lives times average ticket times net margin minus cost-to-serve; net impact R$28M per year."
       },
       {
-        "q": "Qual foi a reaÃ§Ã£o do conselho ao Ã¡udio do cliente que vocÃª levou?",
-        "a": "SilÃªncio total e pedido imediato do presidente para priorizar autorizaÃ§Ã£o; virou item fixo de pauta mensal.",
-        "q_en": "What was the boardâ€™s reaction to the customer audio you played?",
-        "a_en": "Complete silence followed by the chairman ordering authorization to become top priority; it became a standing agenda item."
+        "q": "Qual foi a reação do conselho ao áudio do cliente?",
+        "a": "Silêncio total e decisão imediata do presidente de priorizar autorizações; o áudio virou pauta fixa mensal.",
+        "q_en": "What was the board''s reaction to the customer audio?",
+        "a_en": "Complete silence and an immediate order from the chairman to prioritize authorizations; it became a standing monthly item."
       },
       {
-        "q": "Como garantiu aderÃªncia ao novo onboarding digital?",
-        "a": "Implantei testes A/B semanais, monitorei funil em tempo real e rodei cohort review quinzenal com squad e clientes beta.",
-        "q_en": "How did you ensure the new digital onboarding stuck?",
-        "a_en": "I ran weekly A/B tests, monitored the funnel in real time, and held biweekly cohort reviews with the squad and beta customers."
+        "q": "Como garantiu adesão ao onboarding digital?",
+        "a": "Rodei A/B semanal, monitorei funil em tempo real e fiz review quinzenal com squad e clientes beta; adoção sustentou 72%.",
+        "q_en": "How did you ensure digital onboarding adoption?",
+        "a_en": "I ran weekly A/B tests, monitored the funnel in real time, and held biweekly reviews with the squad and beta members; adoption held at 72%."
       },
       {
-        "q": "O que diferencia o concierge DNA Empresas do atendimento padrÃ£o?",
-        "a": "Gerente dedicado com SLA 30 min, WhatsApp 24/7 e linha direta com diretoria mÃ©dica; NPS C-level chegou a 84.",
-        "q_en": "What makes the DNA Empresas concierge different from standard service?",
-        "a_en": "Dedicated manager with 30-minute SLA, 24/7 WhatsApp, and direct line to the medical board; C-level NPS hit 84."
+        "q": "O que torna o DNA Empresas diferente do atendimento padrão?",
+        "a": "Gerente dedicado com SLA 30 min, WhatsApp 24/7 e acesso direto à diretoria médica; NPS C-level atingiu 84.",
+        "q_en": "What makes DNA Empresas different from standard service?",
+        "a_en": "A dedicated manager with a 30-minute SLA, 24/7 WhatsApp, and direct access to the medical directorate; C-level NPS hit 84."
       },
       {
-        "q": "Como evitou que o foco em experiÃªncia aumentasse custos fixos?",
-        "a": "Realocamos 120 agentes de backoffice para squads de resoluÃ§Ã£o, automatizamos 18 fluxos e negociamos GL de tecnologia com ROI claro.",
-        "q_en": "How did you keep the experience push from inflating fixed costs?",
-        "a_en": "I reassigned 120 back-office agents into resolution squads, automated 18 flows, and negotiated tech GLs tied to clear ROI."
+        "q": "Como evitou aumento de custos fixos?",
+        "a": "Realocamos 120 agentes de backoffice para squads de resolução, automatizamos 18 fluxos e só aprovei investimentos com ROI em <12 meses.",
+        "q_en": "How did you avoid increasing fixed costs?",
+        "a_en": "We reassigned 120 back-office agents to resolution squads, automated 18 flows, and only approved investments with ROI under 12 months."
       },
       {
-        "q": "Que liÃ§Ã£o vocÃª levou para outros programas?",
-        "a": "Levei o ritual Voz do Cliente + Customer Impact Score para o programa de telemedicina; NPS 0-7d jÃ¡ subiu 18 pontos.",
-        "q_en": "Which lesson did you carry into other programs?",
-        "a_en": "I exported the Voice of the Customer ritual plus Customer Impact Score to the telemedicine program; dayâ€'7 NPS is already up 18 points."
+        "q": "Que lição levou para outros programas?",
+        "a": "Levei o ritual de Voz do Cliente + Customer Impact Score para telemedicina; em três ciclos o NPS 0-7 dias subiu 18 pontos.",
+        "q_en": "Which lesson did you carry forward?",
+        "a_en": "I exported the Voice of the Customer ritual plus Customer Impact Score to telemedicine; within three cycles day-7 NPS was up 18 points."
       }
     ],
     "__file": "src\\data\\customer_obsession\\customer_obsession_case1.js",
@@ -178,24 +178,17 @@
       "score": 100,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (27 men��es relevantes)",
-        "M�tricas robustas (50)",
-        "Ratio EU:N�S saud�vel (5:0)",
+        "Customer Obsession forte (18 men��es relevantes)",
+        "M�tricas robustas (55)",
+        "Ratio EU:N�S saud�vel (6:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem m�tricas operacionais expl�citas",
         "Transi��es STAR(L) pouco claras"
       ],
       "dealbreakers": [],
       "suggestions": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
         {
           "severity": "warning",
           "topic": "warning",
@@ -205,13 +198,13 @@
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 5:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 6:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 50",
+          "message": "M�tricas detectadas: 55",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -225,29 +218,28 @@
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Sem m�tricas operacionais expl�citas",
           "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (27 men��es relevantes)",
-          "M�tricas robustas (50)",
-          "Ratio EU:N�S saud�vel (5:0)",
+          "Customer Obsession forte (18 men��es relevantes)",
+          "M�tricas robustas (55)",
+          "Ratio EU:N�S saud�vel (6:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 50,
+        "metricsCount": 55,
         "metricCategories": {
           "financial": true,
           "customer": true,
-          "operational": false
+          "operational": true
         },
-        "customerSignals": 27,
+        "customerSignals": 18,
         "conflictSignals": true,
-        "mechanismSignals": 4,
+        "mechanismSignals": 2,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 5,
+            "eu": 6,
             "nos": 0
           }
         },
@@ -257,29 +249,29 @@
         },
         "parity": {
           "s": {
-            "ptLen": 539,
-            "enLen": 495,
-            "deltaPct": 0.08163265306122448
+            "ptLen": 434,
+            "enLen": 371,
+            "deltaPct": 0.14516129032258066
           },
           "t": {
-            "ptLen": 317,
-            "enLen": 340,
-            "deltaPct": 0.06764705882352941
+            "ptLen": 267,
+            "enLen": 293,
+            "deltaPct": 0.08873720136518772
           },
           "a": {
-            "ptLen": 1718,
-            "enLen": 1618,
-            "deltaPct": 0.05820721769499418
+            "ptLen": 1492,
+            "enLen": 1298,
+            "deltaPct": 0.13002680965147453
           },
           "r": {
-            "ptLen": 594,
-            "enLen": 506,
-            "deltaPct": 0.14814814814814814
+            "ptLen": 401,
+            "enLen": 378,
+            "deltaPct": 0.057356608478802994
           },
           "l": {
-            "ptLen": 314,
-            "enLen": 299,
-            "deltaPct": 0.04777070063694268
+            "ptLen": 254,
+            "enLen": 247,
+            "deltaPct": 0.027559055118110236
           }
         },
         "hookSignals": true,
