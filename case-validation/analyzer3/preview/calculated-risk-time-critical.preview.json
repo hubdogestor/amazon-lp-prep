@@ -1,0 +1,345 @@
+{
+  "original": {
+    "id": "calculated-risk-time-critical",
+    "title": "Ativei 4G em Janela Crítica com Risco Calculado (Arenas)",
+    "title_pt": "Ativei 4G em Janela Crítica com Risco Calculado (Arenas)",
+    "title_en": "Activated 4G in a Critical Window with Calculated Risk (Arenas)",
+    "company": "Huawei/Operadora (ex.)",
+    "period": "2014",
+    "isTopCase": false,
+    "pt": {
+      "s": "Janela curta para ativar 4G antes de eventos; perder o prazo prejudicaria a experiência e parcerias.",
+      "t": "Ativar no prazo com risco controlado, evitando indisponibilidade ampla.",
+      "a": "Escolhi ativação por zonas com rollback planejado; defini GO/NO-GO claros e telemetria priorizada; orquestrei dependências externas e comunicação em tempo real (NOC, campo, parceiros).",
+      "r": "Ativação no prazo, sem indisponibilidade ampla; contingência não foi necessária; playbook virou referência.",
+      "l": "Velocidade com disciplina: critérios objetivos mantêm risco sob controle."
+    },
+    "en": {
+      "s": "Short window to activate 4G before events; missing it would harm UX and partnerships.",
+      "t": "Activate on time with controlled risk, avoiding widespread outages.",
+      "a": "I chose zoned activation with planned rollback; set clear GO/NO-GO and prioritized telemetry; orchestrated external dependencies and real-time comms (NOC, field, partners).",
+      "r": "On-time activation, no wide outages; contingency unused; playbook became a reference.",
+      "l": "Speed with discipline: objective criteria keep risk under control."
+    },
+    "fups": [
+      {
+        "q": "Qual era o custo de perder a janela?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What was the cost of missing the window?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Por que ativação por zonas foi superior?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Why was zoned activation superior?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como critérios de rollback evitaram incidentes?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did rollback criteria prevent incidents?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que telemetria foi crítica no cutover?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which telemetry was critical during cutover?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como coordenou dependências externas?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you coordinate external dependencies?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Quais métricas usou no go-live?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which metrics did you use on go-live?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que playbook/documentação deixou como legado?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What playbook/documentation did you leave?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Se refizesse, que otimização faria?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "If redoing, what optimization would you make?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como escalou o padrão para outros eventos?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you scale the pattern to other events?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como protegeu a experiência do usuário final?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you protect end-user experience?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      }
+    ],
+    "__file": "src\\data\\bias_for_action\\bias_for_action_case4.js",
+    "lp_id": "bias_for_action",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "calculated-risk-time-critical",
+    "title": "Ativei 4G em Janela Crítica com Risco Calculado (Arenas)",
+    "title_pt": "Ativei 4G em Janela Crítica com Risco Calculado (Arenas)",
+    "title_en": "Activated 4G in a Critical Window with Calculated Risk (Arenas)",
+    "company": "Huawei/Operadora (ex.)",
+    "period": "2014",
+    "isTopCase": false,
+    "pt": {
+      "s": "Janela curta para ativar 4G antes de eventos; perder o prazo prejudicaria a experiência e parcerias.",
+      "t": "Ativar no prazo com risco controlado, evitando indisponibilidade ampla.",
+      "a": "Escolhi ativação por zonas com rollback planejado; defini GO/NO-GO claros e telemetria priorizada; orquestrei dependências externas e comunicação em tempo real (NOC, campo, parceiros).",
+      "r": "Ativação no prazo, sem indisponibilidade ampla; contingência não foi necessária; playbook virou referência.",
+      "l": "Velocidade com disciplina: critérios objetivos mantêm risco sob controle."
+    },
+    "en": {
+      "s": "Short window to activate 4G before events; missing it would harm UX and partnerships.",
+      "t": "Activate on time with controlled risk, avoiding widespread outages.",
+      "a": "I chose zoned activation with planned rollback; set clear GO/NO-GO and prioritized telemetry; orchestrated external dependencies and real-time comms (NOC, field, partners).",
+      "r": "On-time activation, no wide outages; contingency unused; playbook became a reference.",
+      "l": "Speed with discipline: objective criteria keep risk under control."
+    },
+    "fups": [
+      {
+        "q": "Qual era o custo de perder a janela?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What was the cost of missing the window?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Por que ativação por zonas foi superior?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Why was zoned activation superior?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como critérios de rollback evitaram incidentes?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did rollback criteria prevent incidents?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que telemetria foi crítica no cutover?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which telemetry was critical during cutover?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como coordenou dependências externas?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you coordinate external dependencies?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Quais métricas usou no go-live?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which metrics did you use on go-live?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que playbook/documentação deixou como legado?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What playbook/documentation did you leave?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Se refizesse, que otimização faria?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "If redoing, what optimization would you make?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como escalou o padrão para outros eventos?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you scale the pattern to other events?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como protegeu a experiência do usuário final?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you protect end-user experience?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      }
+    ],
+    "__file": "src\\data\\bias_for_action\\bias_for_action_case4.js",
+    "lp_id": "bias_for_action",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 0,
+      "status": "KO",
+      "positives": [
+        "Customer Obsession forte (4 men��es relevantes)",
+        "Ratio EU:N�S saud�vel (0:0)",
+        "Mecanismos/repeatability destacados"
+      ],
+      "warnings": [
+        "Sem m�tricas financeiras claras",
+        "Sem m�tricas de cliente expl�citas",
+        "Sem m�tricas operacionais expl�citas",
+        "Sem conflito/resist�ncia vis�vel",
+        "Hook inicial pode ser mais contundente",
+        "Transi��es STAR(L) pouco claras",
+        "Mic-drop/aprendizado forte n�o identificado"
+      ],
+      "dealbreakers": [
+        "Menos de 8 m�tricas (0)",
+        "Case muito antigo (>9 anos)"
+      ],
+      "suggestions": [
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Menos de 8 m�tricas (0)",
+          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Case muito antigo (>9 anos)",
+          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas financeiras claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas de cliente expl�citas",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas operacionais expl�citas",
+          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem conflito/resist�ncia vis�vel",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Hook inicial pode ser mais contundente",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Mic-drop/aprendizado forte n�o identificado",
+          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "warning",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 0",
+          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
+        }
+      ],
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Menos de 8 m�tricas (0)",
+          "Case muito antigo (>9 anos)"
+        ],
+        "warnings": [
+          "Sem m�tricas financeiras claras",
+          "Sem m�tricas de cliente expl�citas",
+          "Sem m�tricas operacionais expl�citas",
+          "Sem conflito/resist�ncia vis�vel",
+          "Hook inicial pode ser mais contundente",
+          "Transi��es STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte n�o identificado"
+        ],
+        "positives": [
+          "Customer Obsession forte (4 men��es relevantes)",
+          "Ratio EU:N�S saud�vel (0:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 0,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 4,
+        "conflictSignals": false,
+        "mechanismSignals": 2,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 130,
+          "status": "stale"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 100,
+            "enLen": 85,
+            "deltaPct": 0.15
+          },
+          "t": {
+            "ptLen": 71,
+            "enLen": 67,
+            "deltaPct": 0.056338028169014086
+          },
+          "a": {
+            "ptLen": 184,
+            "enLen": 172,
+            "deltaPct": 0.06521739130434782
+          },
+          "r": {
+            "ptLen": 107,
+            "enLen": 85,
+            "deltaPct": 0.205607476635514
+          },
+          "l": {
+            "ptLen": 73,
+            "enLen": 66,
+            "deltaPct": 0.0958904109589041
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": false
+      }
+    }
+  }
+}

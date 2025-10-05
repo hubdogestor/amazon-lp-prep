@@ -1,0 +1,327 @@
+{
+  "original": {
+    "id": "reject-mediocre-work-procergs",
+    "title": "Rejeitei Entrega Abaixo do Padrão e Elevei o Nível (PROCERGS)",
+    "title_pt": "Rejeitei Entrega Abaixo do Padrão e Elevei o Nível (PROCERGS)",
+    "title_en": "Rejected a Below-standard Delivery and Raised the Bar (PROCERGS)",
+    "company": "CAGE/SEFAZ-RS",
+    "period": "2024",
+    "isTopCase": false,
+    "pt": {
+      "s": "Entrega de integração sem testes e com documentação inconsistente; aprovar traria defeitos, retrabalho e risco de imagem.",
+      "t": "Proteger qualidade e educar o fornecedor sem paralisar cronograma.",
+      "a": "Bloqueei homologação; defini checklist objetivo, DoD e evidências obrigatórias; implementei gate reviews e sessões de alinhamento com a liderança do fornecedor.",
+      "r": "Defeitos -36%; retrabalho -22%; relação amadureceu e ganhos se mantiveram.",
+      "l": "Padrões altos precisam de critérios verificáveis e rituais sustentáveis."
+    },
+    "en": {
+      "s": "Integration delivered without tests and with inconsistent docs; approving would cause defects, rework, and reputational risk.",
+      "t": "Protect quality and educate the vendor without freezing schedule.",
+      "a": "I blocked acceptance; set an objective checklist, DoD, and mandatory evidence; ran gate reviews and alignment sessions with vendor leadership.",
+      "r": "-36% defects; -22% rework; relationship matured and gains persisted.",
+      "l": "High standards require verifiable criteria and sustainable rituals."
+    },
+    "fups": [
+      {
+        "q": "Qual seria o impacto de aprovar a entrega abaixo do padrão?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What would be the impact of approving the below-standard delivery?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como definiu critérios objetivos de qualidade?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you define objective quality criteria?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como negociou com fornecedor e tratou resistências?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you negotiate with the vendor and handle resistance?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Quais evidências passaram a ser obrigatórias e por quê?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which evidence became mandatory and why?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Quais métricas provaram a melhoria?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which metrics proved improvement?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como sustentou a qualidade ao longo do tempo?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you sustain quality over time?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Houve impacto de prazo/custo?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Any schedule/cost impact?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como escalou o padrão para outros times?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you scale the standard to other teams?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Se refizesse, que ajuste no gate faria?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "If redoing, what gate tweak would you make?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como a relação evoluiu em maturidade?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did the relationship mature?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      }
+    ],
+    "__file": "src\\data\\insist_on_highest_standards\\insist_on_highest_standards_case4.js",
+    "lp_id": "insist_on_highest_standards",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "reject-mediocre-work-procergs",
+    "title": "Rejeitei Entrega Abaixo do Padrão e Elevei o Nível (PROCERGS)",
+    "title_pt": "Rejeitei Entrega Abaixo do Padrão e Elevei o Nível (PROCERGS)",
+    "title_en": "Rejected a Below-standard Delivery and Raised the Bar (PROCERGS)",
+    "company": "CAGE/SEFAZ-RS",
+    "period": "2024",
+    "isTopCase": false,
+    "pt": {
+      "s": "Entrega de integração sem testes e com documentação inconsistente; aprovar traria defeitos, retrabalho e risco de imagem.",
+      "t": "Proteger qualidade e educar o fornecedor sem paralisar cronograma.",
+      "a": "Bloqueei homologação; defini checklist objetivo, DoD e evidências obrigatórias; implementei gate reviews e sessões de alinhamento com a liderança do fornecedor.",
+      "r": "Defeitos -36%; retrabalho -22%; relação amadureceu e ganhos se mantiveram.",
+      "l": "Padrões altos precisam de critérios verificáveis e rituais sustentáveis."
+    },
+    "en": {
+      "s": "Integration delivered without tests and with inconsistent docs; approving would cause defects, rework, and reputational risk.",
+      "t": "Protect quality and educate the vendor without freezing schedule.",
+      "a": "I blocked acceptance; set an objective checklist, DoD, and mandatory evidence; ran gate reviews and alignment sessions with vendor leadership.",
+      "r": "-36% defects; -22% rework; relationship matured and gains persisted.",
+      "l": "High standards require verifiable criteria and sustainable rituals."
+    },
+    "fups": [
+      {
+        "q": "Qual seria o impacto de aprovar a entrega abaixo do padrão?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What would be the impact of approving the below-standard delivery?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como definiu critérios objetivos de qualidade?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you define objective quality criteria?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como negociou com fornecedor e tratou resistências?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you negotiate with the vendor and handle resistance?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Quais evidências passaram a ser obrigatórias e por quê?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which evidence became mandatory and why?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Quais métricas provaram a melhoria?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which metrics proved improvement?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como sustentou a qualidade ao longo do tempo?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you sustain quality over time?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Houve impacto de prazo/custo?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Any schedule/cost impact?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como escalou o padrão para outros times?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you scale the standard to other teams?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Se refizesse, que ajuste no gate faria?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "If redoing, what gate tweak would you make?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como a relação evoluiu em maturidade?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did the relationship mature?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      }
+    ],
+    "__file": "src\\data\\insist_on_highest_standards\\insist_on_highest_standards_case4.js",
+    "lp_id": "insist_on_highest_standards",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 0,
+      "status": "KO",
+      "positives": [
+        "Ratio EU:N�S saud�vel (0:0)",
+        "Mecanismos/repeatability destacados"
+      ],
+      "warnings": [
+        "Sem m�tricas financeiras claras",
+        "Sem m�tricas de cliente expl�citas",
+        "Sem conflito/resist�ncia vis�vel",
+        "Transi��es STAR(L) pouco claras",
+        "Mic-drop/aprendizado forte n�o identificado"
+      ],
+      "dealbreakers": [
+        "Aus�ncia de Customer Obsession",
+        "Menos de 8 m�tricas (4)"
+      ],
+      "suggestions": [
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Aus�ncia de Customer Obsession",
+          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Menos de 8 m�tricas (4)",
+          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas financeiras claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas de cliente expl�citas",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem conflito/resist�ncia vis�vel",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Mic-drop/aprendizado forte n�o identificado",
+          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "warning",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 4",
+          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
+        }
+      ],
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Aus�ncia de Customer Obsession",
+          "Menos de 8 m�tricas (4)"
+        ],
+        "warnings": [
+          "Sem m�tricas financeiras claras",
+          "Sem m�tricas de cliente expl�citas",
+          "Sem conflito/resist�ncia vis�vel",
+          "Transi��es STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte n�o identificado"
+        ],
+        "positives": [
+          "Ratio EU:N�S saud�vel (0:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 4,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": true
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 1,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 10,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 121,
+            "enLen": 125,
+            "deltaPct": 0.032
+          },
+          "t": {
+            "ptLen": 66,
+            "enLen": 65,
+            "deltaPct": 0.015151515151515152
+          },
+          "a": {
+            "ptLen": 160,
+            "enLen": 142,
+            "deltaPct": 0.1125
+          },
+          "r": {
+            "ptLen": 74,
+            "enLen": 68,
+            "deltaPct": 0.08108108108108109
+          },
+          "l": {
+            "ptLen": 72,
+            "enLen": 67,
+            "deltaPct": 0.06944444444444445
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": false
+      }
+    }
+  }
+}

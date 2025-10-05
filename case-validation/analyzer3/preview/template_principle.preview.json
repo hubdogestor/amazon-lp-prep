@@ -1,0 +1,827 @@
+{
+  "original": {
+    "principle": {
+      "title": "[Nome do Princípio em Português]",
+      "title_en": "[Principle Name in English]",
+      "description": "[Descrição completa do princípio em português]",
+      "description_en": "[Full principle description in English]",
+      "icon": ""
+    },
+    "id": "template_principle",
+    "name": "[Nome do Princípio]",
+    "cases": [
+      {
+        "id": "case-id-1",
+        "title": "[Título do Case 1]",
+        "title_pt": "[Título em Português]",
+        "title_en": "[Title in English]",
+        "company": "[Nome da Empresa]",
+        "period": "MM/YYYY–MM/YYYY",
+        "isTopCase": false,
+        "pt": {
+          "s": "[SITUAÇÃO: Descreva o contexto e o problema que você enfrentou. Seja específico sobre a empresa, o time, e o desafio.]",
+          "t": "[TAREFA: Qual era sua responsabilidade? O que você precisava alcançar?]",
+          "a": "[AÇÃO: O que você FEZ especificamente? Quais decisões tomou? Como executou? Detalhe suas ações concretas.]",
+          "r": "[RESULTADO: Quais foram os resultados mensuráveis? Use números, percentuais, métricas. Qual foi o impacto?]",
+          "l": "[APRENDIZADO: O que você aprendeu? Como isso moldou sua forma de trabalhar? O que faria diferente hoje?]"
+        },
+        "en": {
+          "s": "[SITUATION: Describe the context and problem you faced. Be specific about the company, team, and challenge.]",
+          "t": "[TASK: What was your responsibility? What did you need to achieve?]",
+          "a": "[ACTION: What did you DO specifically? What decisions did you make? How did you execute? Detail your concrete actions.]",
+          "r": "[RESULT: What were the measurable results? Use numbers, percentages, metrics. What was the impact?]",
+          "l": "[LEARNING: What did you learn? How did it shape your way of working? What would you do differently today?]"
+        },
+        "fups": [
+          {
+            "q": "[FUP 1: Pergunta de follow-up em português sobre métricas, validação, ou detalhes específicos]",
+            "a": "[Resposta detalhada com dados concretos, números, e contexto específico]",
+            "q_en": "[FUP 1: Follow-up question in English about metrics, validation, or specific details]",
+            "a_en": "[Detailed answer with concrete data, numbers, and specific context]"
+          },
+          {
+            "q": "[FUP 2: Pergunta sobre feedback negativo ou desafios inesperados]",
+            "a": "[Resposta sobre como você lidou com o feedback e iterou]",
+            "q_en": "[FUP 2: Question about negative feedback or unexpected challenges]",
+            "a_en": "[Answer about how you handled feedback and iterated]"
+          },
+          {
+            "q": "[FUP 3: Pergunta sobre trade-offs ou decisões difíceis]",
+            "a": "[Resposta sobre as opções consideradas e por que escolheu aquela]",
+            "q_en": "[FUP 3: Question about trade-offs or difficult decisions]",
+            "a_en": "[Answer about options considered and why you chose that one]"
+          },
+          {
+            "q": "[FUP 4: Pergunta sobre colaboração com stakeholders]",
+            "a": "[Resposta sobre como engajou e influenciou diferentes times]",
+            "q_en": "[FUP 4: Question about collaboration with stakeholders]",
+            "a_en": "[Answer about how you engaged and influenced different teams]"
+          },
+          {
+            "q": "[FUP 5: Pergunta sobre escalabilidade ou impacto de longo prazo]",
+            "a": "[Resposta sobre como a solução escalonou ou teve impacto duradouro]",
+            "q_en": "[FUP 5: Question about scalability or long-term impact]",
+            "a_en": "[Answer about how the solution scaled or had lasting impact]"
+          },
+          {
+            "q": "[FUP 6: Pergunta sobre priorização ou gestão de recursos]",
+            "a": "[Resposta sobre como priorizou e alocou recursos limitados]",
+            "q_en": "[FUP 6: Question about prioritization or resource management]",
+            "a_en": "[Answer about how you prioritized and allocated limited resources]"
+          },
+          {
+            "q": "[FUP 7: Pergunta sobre riscos identificados e mitigação]",
+            "a": "[Resposta sobre riscos que antecipou e como mitigou]",
+            "q_en": "[FUP 7: Question about identified risks and mitigation]",
+            "a_en": "[Answer about risks you anticipated and how you mitigated them]"
+          },
+          {
+            "q": "[FUP 8: Pergunta sobre dados ou análise que guiou decisões]",
+            "a": "[Resposta sobre dados específicos que coletou e como usou]",
+            "q_en": "[FUP 8: Question about data or analysis that guided decisions]",
+            "a_en": "[Answer about specific data you collected and how you used it]"
+          },
+          {
+            "q": "[FUP 9: Pergunta sobre o que mudaria se fizesse novamente]",
+            "a": "[Resposta honesta sobre melhorias e aprendizados aplicados depois]",
+            "q_en": "[FUP 9: Question about what you would change if you did it again]",
+            "a_en": "[Honest answer about improvements and learnings applied afterwards]"
+          },
+          {
+            "q": "[FUP 10: Pergunta sobre influência em outros projetos ou pessoas]",
+            "a": "[Resposta sobre como esse case influenciou trabalhos futuros ou inspirou outros]",
+            "q_en": "[FUP 10: Question about influence on other projects or people]",
+            "a_en": "[Answer about how this case influenced future work or inspired others]"
+          }
+        ]
+      },
+      {
+        "id": "case-id-2",
+        "title": "[Título do Case 2]",
+        "title_pt": "[Título em Português]",
+        "title_en": "[Title in English]",
+        "company": "[Nome da Empresa]",
+        "period": "MM/YYYY–MM/YYYY",
+        "isTopCase": false,
+        "pt": {
+          "s": "[SITUAÇÃO]",
+          "t": "[TAREFA]",
+          "a": "[AÇÃO]",
+          "r": "[RESULTADO]",
+          "l": "[APRENDIZADO]"
+        },
+        "en": {
+          "s": "[SITUATION]",
+          "t": "[TASK]",
+          "a": "[ACTION]",
+          "r": "[RESULT]",
+          "l": "[LEARNING]"
+        },
+        "fups": [
+          {
+            "q": "[FUP 1]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 1 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 2]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 2 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 3]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 3 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 4]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 4 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 5]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 5 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 6]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 6 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 7]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 7 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 8]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 8 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 9]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 9 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 10]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 10 EN]",
+            "a_en": "[Answer]"
+          }
+        ]
+      },
+      {
+        "id": "case-id-3",
+        "title": "[Título do Case 3]",
+        "title_pt": "[Título em Português]",
+        "title_en": "[Title in English]",
+        "company": "[Nome da Empresa]",
+        "period": "MM/YYYY–MM/YYYY",
+        "isTopCase": false,
+        "pt": {
+          "s": "[SITUAÇÃO]",
+          "t": "[TAREFA]",
+          "a": "[AÇÃO]",
+          "r": "[RESULTADO]",
+          "l": "[APRENDIZADO]"
+        },
+        "en": {
+          "s": "[SITUATION]",
+          "t": "[TASK]",
+          "a": "[ACTION]",
+          "r": "[RESULT]",
+          "l": "[LEARNING]"
+        },
+        "fups": [
+          {
+            "q": "[FUP 1]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 1 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 2]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 2 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 3]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 3 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 4]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 4 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 5]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 5 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 6]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 6 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 7]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 7 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 8]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 8 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 9]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 9 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 10]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 10 EN]",
+            "a_en": "[Answer]"
+          }
+        ]
+      }
+    ],
+    "__file": "src\\data\\template-claude.js",
+    "lp_id": "template-claude.js",
+    "__load_warnings": [
+      "title_pt ausente",
+      "title_en ausente",
+      "company ausente",
+      "period ausente",
+      "estrutura pt ausente",
+      "estrutura en ausente",
+      "fups ausentes ou n�o array"
+    ]
+  },
+  "mutated": {
+    "principle": {
+      "title": "[Nome do Princípio em Português]",
+      "title_en": "[Principle Name in English]",
+      "description": "[Descrição completa do princípio em português]",
+      "description_en": "[Full principle description in English]",
+      "icon": ""
+    },
+    "id": "template_principle",
+    "name": "[Nome do Princípio]",
+    "cases": [
+      {
+        "id": "case-id-1",
+        "title": "[Título do Case 1]",
+        "title_pt": "[Título em Português]",
+        "title_en": "[Title in English]",
+        "company": "[Nome da Empresa]",
+        "period": "MM/YYYY–MM/YYYY",
+        "isTopCase": false,
+        "pt": {
+          "s": "[SITUAÇÃO: Descreva o contexto e o problema que você enfrentou. Seja específico sobre a empresa, o time, e o desafio.]",
+          "t": "[TAREFA: Qual era sua responsabilidade? O que você precisava alcançar?]",
+          "a": "[AÇÃO: O que você FEZ especificamente? Quais decisões tomou? Como executou? Detalhe suas ações concretas.]",
+          "r": "[RESULTADO: Quais foram os resultados mensuráveis? Use números, percentuais, métricas. Qual foi o impacto?]",
+          "l": "[APRENDIZADO: O que você aprendeu? Como isso moldou sua forma de trabalhar? O que faria diferente hoje?]"
+        },
+        "en": {
+          "s": "[SITUATION: Describe the context and problem you faced. Be specific about the company, team, and challenge.]",
+          "t": "[TASK: What was your responsibility? What did you need to achieve?]",
+          "a": "[ACTION: What did you DO specifically? What decisions did you make? How did you execute? Detail your concrete actions.]",
+          "r": "[RESULT: What were the measurable results? Use numbers, percentages, metrics. What was the impact?]",
+          "l": "[LEARNING: What did you learn? How did it shape your way of working? What would you do differently today?]"
+        },
+        "fups": [
+          {
+            "q": "[FUP 1: Pergunta de follow-up em português sobre métricas, validação, ou detalhes específicos]",
+            "a": "[Resposta detalhada com dados concretos, números, e contexto específico]",
+            "q_en": "[FUP 1: Follow-up question in English about metrics, validation, or specific details]",
+            "a_en": "[Detailed answer with concrete data, numbers, and specific context]"
+          },
+          {
+            "q": "[FUP 2: Pergunta sobre feedback negativo ou desafios inesperados]",
+            "a": "[Resposta sobre como você lidou com o feedback e iterou]",
+            "q_en": "[FUP 2: Question about negative feedback or unexpected challenges]",
+            "a_en": "[Answer about how you handled feedback and iterated]"
+          },
+          {
+            "q": "[FUP 3: Pergunta sobre trade-offs ou decisões difíceis]",
+            "a": "[Resposta sobre as opções consideradas e por que escolheu aquela]",
+            "q_en": "[FUP 3: Question about trade-offs or difficult decisions]",
+            "a_en": "[Answer about options considered and why you chose that one]"
+          },
+          {
+            "q": "[FUP 4: Pergunta sobre colaboração com stakeholders]",
+            "a": "[Resposta sobre como engajou e influenciou diferentes times]",
+            "q_en": "[FUP 4: Question about collaboration with stakeholders]",
+            "a_en": "[Answer about how you engaged and influenced different teams]"
+          },
+          {
+            "q": "[FUP 5: Pergunta sobre escalabilidade ou impacto de longo prazo]",
+            "a": "[Resposta sobre como a solução escalonou ou teve impacto duradouro]",
+            "q_en": "[FUP 5: Question about scalability or long-term impact]",
+            "a_en": "[Answer about how the solution scaled or had lasting impact]"
+          },
+          {
+            "q": "[FUP 6: Pergunta sobre priorização ou gestão de recursos]",
+            "a": "[Resposta sobre como priorizou e alocou recursos limitados]",
+            "q_en": "[FUP 6: Question about prioritization or resource management]",
+            "a_en": "[Answer about how you prioritized and allocated limited resources]"
+          },
+          {
+            "q": "[FUP 7: Pergunta sobre riscos identificados e mitigação]",
+            "a": "[Resposta sobre riscos que antecipou e como mitigou]",
+            "q_en": "[FUP 7: Question about identified risks and mitigation]",
+            "a_en": "[Answer about risks you anticipated and how you mitigated them]"
+          },
+          {
+            "q": "[FUP 8: Pergunta sobre dados ou análise que guiou decisões]",
+            "a": "[Resposta sobre dados específicos que coletou e como usou]",
+            "q_en": "[FUP 8: Question about data or analysis that guided decisions]",
+            "a_en": "[Answer about specific data you collected and how you used it]"
+          },
+          {
+            "q": "[FUP 9: Pergunta sobre o que mudaria se fizesse novamente]",
+            "a": "[Resposta honesta sobre melhorias e aprendizados aplicados depois]",
+            "q_en": "[FUP 9: Question about what you would change if you did it again]",
+            "a_en": "[Honest answer about improvements and learnings applied afterwards]"
+          },
+          {
+            "q": "[FUP 10: Pergunta sobre influência em outros projetos ou pessoas]",
+            "a": "[Resposta sobre como esse case influenciou trabalhos futuros ou inspirou outros]",
+            "q_en": "[FUP 10: Question about influence on other projects or people]",
+            "a_en": "[Answer about how this case influenced future work or inspired others]"
+          }
+        ]
+      },
+      {
+        "id": "case-id-2",
+        "title": "[Título do Case 2]",
+        "title_pt": "[Título em Português]",
+        "title_en": "[Title in English]",
+        "company": "[Nome da Empresa]",
+        "period": "MM/YYYY–MM/YYYY",
+        "isTopCase": false,
+        "pt": {
+          "s": "[SITUAÇÃO]",
+          "t": "[TAREFA]",
+          "a": "[AÇÃO]",
+          "r": "[RESULTADO]",
+          "l": "[APRENDIZADO]"
+        },
+        "en": {
+          "s": "[SITUATION]",
+          "t": "[TASK]",
+          "a": "[ACTION]",
+          "r": "[RESULT]",
+          "l": "[LEARNING]"
+        },
+        "fups": [
+          {
+            "q": "[FUP 1]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 1 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 2]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 2 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 3]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 3 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 4]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 4 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 5]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 5 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 6]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 6 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 7]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 7 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 8]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 8 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 9]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 9 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 10]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 10 EN]",
+            "a_en": "[Answer]"
+          }
+        ]
+      },
+      {
+        "id": "case-id-3",
+        "title": "[Título do Case 3]",
+        "title_pt": "[Título em Português]",
+        "title_en": "[Title in English]",
+        "company": "[Nome da Empresa]",
+        "period": "MM/YYYY–MM/YYYY",
+        "isTopCase": false,
+        "pt": {
+          "s": "[SITUAÇÃO]",
+          "t": "[TAREFA]",
+          "a": "[AÇÃO]",
+          "r": "[RESULTADO]",
+          "l": "[APRENDIZADO]"
+        },
+        "en": {
+          "s": "[SITUATION]",
+          "t": "[TASK]",
+          "a": "[ACTION]",
+          "r": "[RESULT]",
+          "l": "[LEARNING]"
+        },
+        "fups": [
+          {
+            "q": "[FUP 1]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 1 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 2]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 2 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 3]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 3 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 4]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 4 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 5]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 5 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 6]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 6 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 7]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 7 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 8]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 8 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 9]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 9 EN]",
+            "a_en": "[Answer]"
+          },
+          {
+            "q": "[FUP 10]",
+            "a": "[Resposta]",
+            "q_en": "[FUP 10 EN]",
+            "a_en": "[Answer]"
+          }
+        ]
+      }
+    ],
+    "__file": "src\\data\\template-claude.js",
+    "lp_id": "template-claude.js",
+    "__load_warnings": [
+      "title_pt ausente",
+      "title_en ausente",
+      "company ausente",
+      "period ausente",
+      "estrutura pt ausente",
+      "estrutura en ausente",
+      "fups ausentes ou n�o array"
+    ],
+    "pt": {
+      "s": "",
+      "t": "",
+      "a": "",
+      "r": "",
+      "l": ""
+    },
+    "en": {
+      "s": "",
+      "t": "",
+      "a": "",
+      "r": "",
+      "l": ""
+    },
+    "__scorecard": {
+      "score": 0,
+      "status": "KO",
+      "positives": [
+        "Ratio EU:N�S saud�vel (0:0)"
+      ],
+      "warnings": [
+        "Sem m�tricas financeiras claras",
+        "Sem m�tricas de cliente expl�citas",
+        "Sem m�tricas operacionais expl�citas",
+        "Sem conflito/resist�ncia vis�vel",
+        "Mecanismos/processos n�o evidenciados",
+        "Hook inicial pode ser mais contundente",
+        "Transi��es STAR(L) pouco claras",
+        "Mic-drop/aprendizado forte n�o identificado"
+      ],
+      "dealbreakers": [
+        "Aus�ncia de Customer Obsession",
+        "Menos de 8 m�tricas (0)"
+      ],
+      "suggestions": [
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Aus�ncia de Customer Obsession",
+          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Menos de 8 m�tricas (0)",
+          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas financeiras claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas de cliente expl�citas",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas operacionais expl�citas",
+          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem conflito/resist�ncia vis�vel",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Mecanismos/processos n�o evidenciados",
+          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Hook inicial pode ser mais contundente",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Mic-drop/aprendizado forte n�o identificado",
+          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "warning",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 0",
+          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
+        }
+      ],
+      "lint": {
+        "ok": false,
+        "issues": [
+          "campo 'title_pt' ausente ou vazio",
+          "campo 'title_en' ausente ou vazio",
+          "campo 'company' ausente ou vazio",
+          "campo 'period' ausente ou vazio",
+          "objeto pt ausente",
+          "objeto en ausente",
+          "pt.s ausente ou vazio",
+          "en.s ausente ou vazio",
+          "pt.t ausente ou vazio",
+          "en.t ausente ou vazio",
+          "pt.a ausente ou vazio",
+          "en.a ausente ou vazio",
+          "pt.r ausente ou vazio",
+          "en.r ausente ou vazio",
+          "pt.l ausente ou vazio",
+          "en.l ausente ou vazio",
+          "FUPs insuficientes: 0 (necess�rio 10)"
+        ],
+        "warnings": [
+          "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)"
+        ]
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Aus�ncia de Customer Obsession",
+          "Menos de 8 m�tricas (0)"
+        ],
+        "warnings": [
+          "Sem m�tricas financeiras claras",
+          "Sem m�tricas de cliente expl�citas",
+          "Sem m�tricas operacionais expl�citas",
+          "Sem conflito/resist�ncia vis�vel",
+          "Mecanismos/processos n�o evidenciados",
+          "Hook inicial pode ser mais contundente",
+          "Transi��es STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte n�o identificado"
+        ],
+        "positives": [
+          "Ratio EU:N�S saud�vel (0:0)"
+        ],
+        "metricsCount": 0,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 0,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": null,
+          "status": "unknown"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "t": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "a": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "r": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "l": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": false
+      }
+    },
+    "fups": [
+      {
+        "q": "Qual foi o maior risco que voc� assumiu pessoalmente e como mitigou?",
+        "a": "Descrever o risco calculado, o plano de mitiga��o e como monitorou sinais de alerta.",
+        "q_en": "What was the biggest personal risk you took and how did you mitigate it?",
+        "a_en": "Explain the calculated risk, mitigation plan, and how you monitored leading indicators."
+      },
+      {
+        "q": "Como voc� garantiu que os mecanismos criados n�o dependessem apenas de voc�?",
+        "a": "Explicar como documentou, treinou o time e definiu cad�ncia para torn�-los escal�veis.",
+        "q_en": "How did you make sure the mechanisms created did not rely solely on you?",
+        "a_en": "Share how you documented, trained the team, and set cadence to make them scalable."
+      },
+      {
+        "q": "Quais dados voc� usou para auditar se a solu��o continuava saud�vel ap�s o lan�amento?",
+        "a": "Detalhar indicadores leading/lagging, frequ�ncia de auditoria e a��es corretivas.",
+        "q_en": "Which data did you use to audit the solution after launch?",
+        "a_en": "Detail leading/lagging indicators, audit cadence, and corrective actions."
+      },
+      {
+        "q": "Relate um momento em que recebeu pushback de um stakeholder cr�tico e como resolveu.",
+        "a": "Descrever contexto, argumentos utilizados, trade-offs assumidos e compromisso final.",
+        "q_en": "Describe a moment when a critical stakeholder pushed back and how you resolved it.",
+        "a_en": "Cover context, arguments, trade-offs, and how you achieved commitment."
+      },
+      {
+        "q": "Se tivesse 20% menos tempo, o que cortaria e o que preservaria?",
+        "a": "Indicar prioridades inegoci�veis, insumos que protegem qualidade e o que pode ser simplificado.",
+        "q_en": "If you had 20% less time, what would you cut and what would you preserve?",
+        "a_en": "Highlight non-negotiable priorities, quality safeguards, and what could be simplified."
+      },
+      {
+        "q": "Como voc� capturou a voz do cliente al�m dos dados quantitativos?",
+        "a": "Explicar entrevistas, shadowing, tickets, reviews e como esses sinais mudaram a solu��o.",
+        "q_en": "How did you capture the voice of the customer beyond quantitative data?",
+        "a_en": "Explain interviews, shadowing, tickets, reviews, and how those signals changed the solution."
+      },
+      {
+        "q": "Quais m�tricas de cliente voc� definiu como leading indicators?",
+        "a": "Listar m�tricas de experi�ncia, thresholds de alerta e forma de resposta r�pida.",
+        "q_en": "Which customer metrics did you define as leading indicators?",
+        "a_en": "List the experience metrics, alert thresholds, and how you triggered a fast response."
+      },
+      {
+        "q": "Como voc� calculou o impacto financeiro e validou com finan�as?",
+        "a": "Descrever modelo financeiro, premissas, valida��o com FP&A ou controller.",
+        "q_en": "How did you calculate the financial impact and validate it with finance?",
+        "a_en": "Describe the financial model, assumptions, and FP&A/controller validation."
+      },
+      {
+        "q": "Qual foi a m�trica mais desafiadora de coletar e como garantiu qualidade dos dados?",
+        "a": "Comentar sobre origem, limpeza, governan�a e mecanismo de auditoria.",
+        "q_en": "Which metric was hardest to capture and how did you ensure data quality?",
+        "a_en": "Talk about source, cleansing, governance, and the audit mechanism."
+      },
+      {
+        "q": "Que mecanismos voc� instituiu para impedir regress�o ap�s sua sa�da?",
+        "a": "Falar sobre cad�ncias, donos claros, dashboards autom�ticos e revis�es executivas.",
+        "q_en": "What mechanisms did you install to avoid regression once you stepped away?",
+        "a_en": "Cover cadences, clear owners, automated dashboards, and exec reviews."
+      }
+    ]
+  }
+}

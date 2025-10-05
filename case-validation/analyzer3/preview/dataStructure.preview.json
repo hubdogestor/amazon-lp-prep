@@ -1,0 +1,263 @@
+{
+  "original": {
+    "id": "dataStructure",
+    "__file": "src\\data\\dataStructure.js",
+    "lp_id": "dataStructure.js",
+    "__load_error": "parse error: Unexpected token 'export'"
+  },
+  "mutated": {
+    "id": "dataStructure",
+    "__file": "src\\data\\dataStructure.js",
+    "lp_id": "dataStructure.js",
+    "__load_error": "parse error: Unexpected token 'export'",
+    "pt": {
+      "s": "",
+      "t": "",
+      "a": "",
+      "r": "",
+      "l": ""
+    },
+    "en": {
+      "s": "",
+      "t": "",
+      "a": "",
+      "r": "",
+      "l": ""
+    },
+    "__scorecard": {
+      "score": 0,
+      "status": "KO",
+      "positives": [
+        "Ratio EU:N�S saud�vel (0:0)"
+      ],
+      "warnings": [
+        "Sem m�tricas financeiras claras",
+        "Sem m�tricas de cliente expl�citas",
+        "Sem m�tricas operacionais expl�citas",
+        "Sem conflito/resist�ncia vis�vel",
+        "Mecanismos/processos n�o evidenciados",
+        "Hook inicial pode ser mais contundente",
+        "Transi��es STAR(L) pouco claras",
+        "Mic-drop/aprendizado forte n�o identificado"
+      ],
+      "dealbreakers": [
+        "Aus�ncia de Customer Obsession",
+        "Menos de 8 m�tricas (0)"
+      ],
+      "suggestions": [
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Aus�ncia de Customer Obsession",
+          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Menos de 8 m�tricas (0)",
+          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas financeiras claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas de cliente expl�citas",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas operacionais expl�citas",
+          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem conflito/resist�ncia vis�vel",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Mecanismos/processos n�o evidenciados",
+          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Hook inicial pode ser mais contundente",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Mic-drop/aprendizado forte n�o identificado",
+          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "warning",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 0",
+          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
+        }
+      ],
+      "lint": {
+        "ok": false,
+        "issues": [
+          "falha ao carregar arquivo: parse error: Unexpected token 'export'"
+        ],
+        "warnings": []
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Aus�ncia de Customer Obsession",
+          "Menos de 8 m�tricas (0)"
+        ],
+        "warnings": [
+          "Sem m�tricas financeiras claras",
+          "Sem m�tricas de cliente expl�citas",
+          "Sem m�tricas operacionais expl�citas",
+          "Sem conflito/resist�ncia vis�vel",
+          "Mecanismos/processos n�o evidenciados",
+          "Hook inicial pode ser mais contundente",
+          "Transi��es STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte n�o identificado"
+        ],
+        "positives": [
+          "Ratio EU:N�S saud�vel (0:0)"
+        ],
+        "metricsCount": 0,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 0,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": null,
+          "status": "unknown"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "t": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "a": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "r": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          },
+          "l": {
+            "ptLen": 0,
+            "enLen": 0,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": false
+      }
+    },
+    "fups": [
+      {
+        "q": "Qual foi o maior risco que voc� assumiu pessoalmente e como mitigou?",
+        "a": "Descrever o risco calculado, o plano de mitiga��o e como monitorou sinais de alerta.",
+        "q_en": "What was the biggest personal risk you took and how did you mitigate it?",
+        "a_en": "Explain the calculated risk, mitigation plan, and how you monitored leading indicators."
+      },
+      {
+        "q": "Como voc� garantiu que os mecanismos criados n�o dependessem apenas de voc�?",
+        "a": "Explicar como documentou, treinou o time e definiu cad�ncia para torn�-los escal�veis.",
+        "q_en": "How did you make sure the mechanisms created did not rely solely on you?",
+        "a_en": "Share how you documented, trained the team, and set cadence to make them scalable."
+      },
+      {
+        "q": "Quais dados voc� usou para auditar se a solu��o continuava saud�vel ap�s o lan�amento?",
+        "a": "Detalhar indicadores leading/lagging, frequ�ncia de auditoria e a��es corretivas.",
+        "q_en": "Which data did you use to audit the solution after launch?",
+        "a_en": "Detail leading/lagging indicators, audit cadence, and corrective actions."
+      },
+      {
+        "q": "Relate um momento em que recebeu pushback de um stakeholder cr�tico e como resolveu.",
+        "a": "Descrever contexto, argumentos utilizados, trade-offs assumidos e compromisso final.",
+        "q_en": "Describe a moment when a critical stakeholder pushed back and how you resolved it.",
+        "a_en": "Cover context, arguments, trade-offs, and how you achieved commitment."
+      },
+      {
+        "q": "Se tivesse 20% menos tempo, o que cortaria e o que preservaria?",
+        "a": "Indicar prioridades inegoci�veis, insumos que protegem qualidade e o que pode ser simplificado.",
+        "q_en": "If you had 20% less time, what would you cut and what would you preserve?",
+        "a_en": "Highlight non-negotiable priorities, quality safeguards, and what could be simplified."
+      },
+      {
+        "q": "Como voc� capturou a voz do cliente al�m dos dados quantitativos?",
+        "a": "Explicar entrevistas, shadowing, tickets, reviews e como esses sinais mudaram a solu��o.",
+        "q_en": "How did you capture the voice of the customer beyond quantitative data?",
+        "a_en": "Explain interviews, shadowing, tickets, reviews, and how those signals changed the solution."
+      },
+      {
+        "q": "Quais m�tricas de cliente voc� definiu como leading indicators?",
+        "a": "Listar m�tricas de experi�ncia, thresholds de alerta e forma de resposta r�pida.",
+        "q_en": "Which customer metrics did you define as leading indicators?",
+        "a_en": "List the experience metrics, alert thresholds, and how you triggered a fast response."
+      },
+      {
+        "q": "Como voc� calculou o impacto financeiro e validou com finan�as?",
+        "a": "Descrever modelo financeiro, premissas, valida��o com FP&A ou controller.",
+        "q_en": "How did you calculate the financial impact and validate it with finance?",
+        "a_en": "Describe the financial model, assumptions, and FP&A/controller validation."
+      },
+      {
+        "q": "Qual foi a m�trica mais desafiadora de coletar e como garantiu qualidade dos dados?",
+        "a": "Comentar sobre origem, limpeza, governan�a e mecanismo de auditoria.",
+        "q_en": "Which metric was hardest to capture and how did you ensure data quality?",
+        "a_en": "Talk about source, cleansing, governance, and the audit mechanism."
+      },
+      {
+        "q": "Que mecanismos voc� instituiu para impedir regress�o ap�s sua sa�da?",
+        "a": "Falar sobre cad�ncias, donos claros, dashboards autom�ticos e revis�es executivas.",
+        "q_en": "What mechanisms did you install to avoid regression once you stepped away?",
+        "a_en": "Cover cadences, clear owners, automated dashboards, and exec reviews."
+      }
+    ]
+  }
+}

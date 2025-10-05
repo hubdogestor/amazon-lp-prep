@@ -1,0 +1,305 @@
+{
+  "original": {
+    "id": "unimed-underperformer-development",
+    "title": "Desenvolvimento de Analista através de Realocação e Ownership",
+    "title_pt": "Desenvolvimento de um Analista de Baixo Desempenho Através de Realocação e Ownership",
+    "title_en": "Underperforming Analyst Development Through Reallocation and Ownership",
+    "company": "Unimed",
+    "period": "01/2023--12/2023",
+    "isTopCase": false,
+    "pt": {
+      "s": "Na Unimed, a equipe de operações de pagamentos sofria com alto turnover (40%), gerando custos elevados de recrutamento e perda de conhecimento institucional crítico. Para reverter isso, criei um programa de desenvolvimento de carreira. No entanto, um analista recém-contratado, apesar de ter demonstrado grande potencial analítico na entrevista, estava com uma produtividade 30% abaixo da média na área de análise de fraude. Ele estava desmotivado e corria o risco de ser desligado.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era desenvolver os melhores, e isso incluía recuperar talentos com potencial. Em vez de simplesmente iniciar um processo de desligamento, minha tarefa era diagnosticar a causa raiz do baixo desempenho e criar um plano de ação para desenvolver ou realocar aquele funcionário, testando a eficácia do nosso próprio programa de desenvolvimento.",
+      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Iniciei com uma conversa 1-a-1. Minha pergunta de abertura foi: 'Notei que seus resultados estão abaixo do esperado, mas também vejo sua capacidade analítica. Me ajude a entender: o que está no seu caminho?'. Ele confessou que a necessidade de tomar decisões rápidas na área de fraude gerava ansiedade e o paralisava, pois seu perfil era extremamente detalhista e metódico. O diagnóstico foi claro: desalinhamento de perfil. Eu identifiquei que a área de Reconciliação Financeira era o ambiente perfeito para ele, pois valoriza a precisão e a investigação profunda em vez da velocidade. Apresentei a proposta de rotação para ele e para o outro gestor como uma oportunidade 'ganha-ganha'. Na nova área, identifiquei um relatório manual que consumia 20 horas/mês. Desafiei-o a liderar um projeto para automatizá-lo com n8n. Dar a ele a propriedade completa do projeto, da concepção à apresentação dos resultados, restaurou sua confiança. Ele não apenas automatizou o relatório, como também identificou uma falha que gerava perdas de R$ 50 mil/mês. Eu garanti que ele pessoalmente apresentasse sua descoberta e solução para a diretoria financeira.",
+      "r": "O analista tornou-se um dos membros mais produtivos e valorizados da equipe de finanças. O projeto que ele liderou economizou 20 horas de trabalho manual por mês e eliminou perdas de R$ 600 mil por ano. Sua história de sucesso foi compartilhada em nossa newsletter interna, reforçando a cultura de desenvolvimento e contribuindo para a redução do turnover de 40% para menos de 15%. Esse analista se tornou especialista em payment reconciliation automation, aplicando suas habilidades metódicas para identificar discrepâncias em transaction data -- exatamente o tipo de talento crítico para payment operations, onde atenção aos detalhes e precisão analítica são non-negotiable.",
+      "l": "Aprendi que o baixo desempenho muitas vezes não é uma falha do indivíduo, mas um desalinhamento. Meu papel como líder é ser um diagnosticador e um arquiteto de carreiras. Essa experiência me levou a incluir uma 'avaliação de perfil comportamental' em nosso processo de onboarding, para garantir que os novos talentos sejam alocados nas áreas onde suas forças naturais possam brilhar desde o primeiro dia."
+    },
+    "en": {
+      "s": "At Unimed, the payment operations team suffered from high turnover (40%), generating high recruitment costs and loss of critical institutional knowledge. To reverse this, I created a career development program. However, a newly hired analyst, despite showing great analytical potential in the interview, had productivity 30% below average in the fraud analysis area. He was demotivated and at risk of being terminated.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to develop the best, and this included recovering talents with potential. Instead of simply starting a termination process, my task was to diagnose the root cause of poor performance and create an action plan to develop or reallocate that employee, testing the effectiveness of my own development program.",
+      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I started with a 1-on-1 conversation. My opening question was: 'I noticed your results are below expected, but I also see your analytical capacity. Help me understand: what's in your way?'. He confessed that the need to make quick decisions in fraud analysis generated anxiety and paralyzed him, as his profile was extremely detail-oriented and methodical. The diagnosis was clear: profile misalignment. I identified that Financial Reconciliation was the perfect environment for him, as it values precision and deep investigation instead of speed. I presented the rotation proposal to him and the other manager as a 'win-win' opportunity. In the new area, I identified a manual report that consumed 20 hours/month. I challenged him to lead a project to automate it with n8n. Giving him complete ownership of the project, from conception to results presentation, restored his confidence. He not only automated the report, but also identified a flaw generating R$ 50k/month losses. I ensured he personally presented his discovery and solution to the financial board.",
+      "r": "The analyst became one of the most productive and valued members of the finance team. The project he led saved 20 hours of manual work per month and eliminated R$ 600k losses per year. His success story was shared in my internal newsletter, reinforcing development culture and contributing to turnover reduction from 40% to less than 15%. This analyst became a specialist in payment reconciliation automation, applying his methodical skills to identify discrepancies in transaction data -- exactly the type of critical talent for payment operations, where attention to detail and analytical precision are non-negotiable.",
+      "l": "I learned that poor performance is often not an individual failure, but a misalignment. My role as a leader is to be a diagnostician and career architect. This experience led me to include a 'behavioral profile assessment' in my onboarding process, to ensure new talents are allocated in areas where their natural strengths can shine from day one."
+    },
+    "fups": [
+      {
+        "q": "Como você determinou que o desalinhamento de perfil era a causa principal do baixo desempenho e não outros fatores?",
+        "a": "Através do diagnóstico na conversa 1-a-1 e da observação. Eu descartei outros fatores: a habilidade técnica dele era alta (ele era ótimo com dados) e a clareza da tarefa não era o problema. O ponto chave foi quando ele descreveu o 'sentimento de pânico' ao ter que tomar uma decisão de fraude em segundos. Ficou claro que era um desalinhamento entre seu estilo metódico e a necessidade da função.",
+        "q_en": "How did you determine that profile misalignment was the main cause of poor performance and not other factors?",
+        "a_en": "Through diagnosis in the 1-on-1 conversation and observation. I ruled out other factors: his technical skill was high (he was great with data) and task clarity wasn't the problem. The key point was when he described the 'panic feeling' when having to make a fraud decision in seconds. It became clear it was a misalignment between his methodical style and the function's needs."
+      },
+      {
+        "q": "Quais métricas ou indicadores você monitorou para avaliar o impacto da realocação e do projeto de automação no desempenho do analista?",
+        "a": "Monitoramos três coisas: 1) Métricas de Produtividade: na nova função, a precisão das reconciliações dele atingiu 99.8%, a mais alta da equipe. 2) Feedback 360°: o feedback dos seus novos pares e do gestor foi excepcionalmente positivo. 3) Engajamento: ele passou de um funcionário reativo para alguém que proativamente sugeria melhorias, um claro indicador de motivação.",
+        "q_en": "What metrics or indicators did you monitor to evaluate the impact of reallocation and automation project on the analyst's performance?",
+        "a_en": "I monitored three things: 1) Productivity Metrics: in the new function, his reconciliation accuracy reached 99.8%, the highest on the team. 2) 360° Feedback: feedback from his new peers and manager was exceptionally positive. 3) Engagement: he went from a reactive employee to someone who proactively suggested improvements, a clear motivation indicator."
+      },
+      {
+        "q": "Durante a mentoria para o uso da ferramenta n8n, houve resistência ou dificuldades? Como você ajudou o analista a superá-las?",
+        "a": "A principal dificuldade foi o medo inicial de 'quebrar' algo, pois ele nunca havia trabalhado com automação. Eu o ajudei a superar isso criando um 'ambiente seguro' (sandbox) para ele experimentar sem riscos. Também usei a técnica de 'pair programming', onde construímos o primeiro fluxo juntos. Isso diminuiu a barreira inicial e deu a ele a confiança para continuar sozinho.",
+        "q_en": "During mentoring for n8n tool usage, was there resistance or difficulties? How did you help the analyst overcome them?",
+        "a_en": "The main difficulty was initial fear of 'breaking' something, as he had never worked with automation. I helped him overcome this by creating a 'safe environment' (sandbox) for him to experiment without risks. I also used 'pair programming' technique, where I built the first flow together. This lowered the initial barrier and gave him confidence to continue alone."
+      },
+      {
+        "q": "Como você garantiu que o sucesso desse analista fosse comunicado e reconhecido dentro da empresa para reforçar a cultura de desenvolvimento?",
+        "a": "A comunicação foi uma parte chave da estratégia. Primeiro, garanti que ele apresentasse seu projeto para a diretoria, dando-lhe a visibilidade direta. Segundo, trabalhei com a equipe de comunicação interna para escrever um artigo sobre o caso dele para a newsletter da empresa, enquadrando-o como um exemplo da minha cultura de 'encontrar o lugar certo para o talento certo'.",
+        "q_en": "How did you ensure this analyst's success was communicated and recognized within the company to reinforce development culture?",
+        "a_en": "Communication was a key part of the strategy. First, I ensured he presented his project to the board, giving him direct visibility. Second, I worked with the internal communication team to write an article about his case for the company newsletter, framing it as an example of my culture of 'finding the right place for the right talent'."
+      },
+      {
+        "q": "Após esse caso, você implementou mudanças ou melhorias no programa de desenvolvimento para evitar futuros casos de desalinhamento de perfil?",
+        "a": "Sim. A maior mudança foi a implementação de uma 'sessão de alinhamento de perfil' no primeiro mês de um novo contratado. Nela, sentamos com o novo funcionário e seu gestor para discutir abertamente seu estilo de trabalho, suas forças e preferências, e como elas se alinham com as demandas da função. Isso nos permite fazer pequenos ajustes de rota muito mais cedo.",
+        "q_en": "After this case, did you implement changes or improvements in the development program to avoid future profile misalignment cases?",
+        "a_en": "Yes. The biggest change was implementing a 'profile alignment session' in a new hire's first month. In it, I sit with the new employee and their manager to openly discuss their work style, strengths and preferences, and how they align with the function's demands. This allows us to make small course corrections much earlier."
+      },
+      {
+        "q": "Como a liderança reagiu à sua decisão de 'investir' em um funcionário com baixo desempenho em vez de substituí-lo?",
+        "a": "Inicialmente, com ceticismo. No entanto, apresentei meu diagnóstico e o plano de realocação como um 'experimento de baixo custo' com um potencial de retorno alto. O sucesso espetacular do analista na nova função provou o valor da abordagem e fortaleceu a cultura de desenvolvimento que eu estava tentando construir.",
+        "q_en": "How did leadership react to your decision to 'invest' in an underperforming employee instead of replacing him?",
+        "a_en": "Initially, with skepticism. However, I presented my diagnosis and reallocation plan as a 'low-cost experiment' with high return potential. The analyst's spectacular success in the new function proved the approach's value and strengthened the development culture I was trying to build."
+      },
+      {
+        "q": "E se, mesmo após a realocação, o desempenho do analista não tivesse melhorado?",
+        "a": "Nesse caso, o processo teria sido de transparência total. Eu teria um plano de melhoria de performance (PIP) formal, com metas claras e suporte adicional. O objetivo seria dar a ele todas as chances de sucesso. Se, mesmo assim, o desempenho não atingisse o padrão, eu conduziria o processo de desligamento de forma respeitosa, sabendo que fizemos tudo o que era possível.",
+        "q_en": "What if, even after reallocation, the analyst's performance hadn't improved?",
+        "a_en": "In that case, the process would have been one of total transparency. I would have a formal performance improvement plan (PIP), with clear goals and additional support. The objective would be to give him every chance for success. If, even so, performance didn't meet standards, I would conduct the termination process respectfully, knowing I did everything possible."
+      },
+      {
+        "q": "Como essa experiência influenciou sua forma de contratar?",
+        "a": "Reforçou minha convicção de contratar por 'potencial e habilidades transferíveis' em vez de 'experiência específica'. E me ensinou a ser ainda mais deliberado durante a entrevista para avaliar não apenas as competências, mas também o perfil comportamental, para garantir um melhor alinhamento com a função desde o início.",
+        "q_en": "How did this experience influence your hiring approach?",
+        "a_en": "It reinforced my conviction to hire for 'potential and transferable skills' instead of 'specific experience'. And it taught me to be even more deliberate during interviews to evaluate not just competencies, but also behavioral profile, to ensure better alignment with the function from the start."
+      },
+      {
+        "q": "O que essa história diz sobre a sua filosofia de liderança?",
+        "a": "Diz que eu acredito que as pessoas são o maior ativo e que meu papel é atuar como um 'multiplicador de talentos'. Isso significa não apenas contratar os melhores, mas também ter a capacidade de enxergar o potencial onde outros veem um problema, e criar o ambiente certo para que esse potencial se transforme em alta performance.",
+        "q_en": "What does this story say about your leadership philosophy?",
+        "a_en": "It says I believe people are the greatest asset and that my role is to act as a 'talent multiplier'. This means not just hiring the best, but also having the ability to see potential where others see a problem, and creating the right environment for that potential to transform into high performance."
+      },
+      {
+        "q": "Qual o seu papel quando um funcionário talentoso expressa o desejo de sair da empresa para buscar crescimento em outro lugar?",
+        "a": "Meu papel é ser um mentor de carreira, não um gerente possessivo. Eu teria uma conversa honesta para entender suas aspirações. Se a oportunidade externa for genuinamente a melhor para o crescimento dele, eu o apoiaria 100% e o ajudaria a se preparar, mantendo a porta aberta para o futuro. O sucesso pessoal dele é a meta, não a retenção a qualquer custo.",
+        "q_en": "What's your role when a talented employee expresses desire to leave the company to seek growth elsewhere?",
+        "a_en": "My role is to be a career mentor, not a possessive manager. I would have an honest conversation to understand their aspirations. If the external opportunity is genuinely best for their growth, I would support them 100% and help them prepare, keeping the door open for the future. Their personal success is the goal, not retention at any cost."
+      }
+    ],
+    "__file": "src\\data\\hire_and_develop_the_best\\hire_and_develop_the_best_case3.js",
+    "lp_id": "hire_and_develop_the_best",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "unimed-underperformer-development",
+    "title": "Desenvolvimento de Analista através de Realocação e Ownership",
+    "title_pt": "Desenvolvimento de um Analista de Baixo Desempenho Através de Realocação e Ownership",
+    "title_en": "Underperforming Analyst Development Through Reallocation and Ownership",
+    "company": "Unimed",
+    "period": "01/2023--12/2023",
+    "isTopCase": false,
+    "pt": {
+      "s": "Na Unimed, a equipe de operações de pagamentos sofria com alto turnover (40%), gerando custos elevados de recrutamento e perda de conhecimento institucional crítico. Para reverter isso, criei um programa de desenvolvimento de carreira. No entanto, um analista recém-contratado, apesar de ter demonstrado grande potencial analítico na entrevista, estava com uma produtividade 30% abaixo da média na área de análise de fraude. Ele estava desmotivado e corria o risco de ser desligado.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era desenvolver os melhores, e isso incluía recuperar talentos com potencial. Em vez de simplesmente iniciar um processo de desligamento, minha tarefa era diagnosticar a causa raiz do baixo desempenho e criar um plano de ação para desenvolver ou realocar aquele funcionário, testando a eficácia do nosso próprio programa de desenvolvimento.",
+      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Iniciei com uma conversa 1-a-1. Minha pergunta de abertura foi: 'Notei que seus resultados estão abaixo do esperado, mas também vejo sua capacidade analítica. Me ajude a entender: o que está no seu caminho?'. Ele confessou que a necessidade de tomar decisões rápidas na área de fraude gerava ansiedade e o paralisava, pois seu perfil era extremamente detalhista e metódico. O diagnóstico foi claro: desalinhamento de perfil. Eu identifiquei que a área de Reconciliação Financeira era o ambiente perfeito para ele, pois valoriza a precisão e a investigação profunda em vez da velocidade. Apresentei a proposta de rotação para ele e para o outro gestor como uma oportunidade 'ganha-ganha'. Na nova área, identifiquei um relatório manual que consumia 20 horas/mês. Desafiei-o a liderar um projeto para automatizá-lo com n8n. Dar a ele a propriedade completa do projeto, da concepção à apresentação dos resultados, restaurou sua confiança. Ele não apenas automatizou o relatório, como também identificou uma falha que gerava perdas de R$ 50 mil/mês. Eu garanti que ele pessoalmente apresentasse sua descoberta e solução para a diretoria financeira.",
+      "r": "O analista tornou-se um dos membros mais produtivos e valorizados da equipe de finanças. O projeto que ele liderou economizou 20 horas de trabalho manual por mês e eliminou perdas de R$ 600 mil por ano. Sua história de sucesso foi compartilhada em nossa newsletter interna, reforçando a cultura de desenvolvimento e contribuindo para a redução do turnover de 40% para menos de 15%. Esse analista se tornou especialista em payment reconciliation automation, aplicando suas habilidades metódicas para identificar discrepâncias em transaction data -- exatamente o tipo de talento crítico para payment operations, onde atenção aos detalhes e precisão analítica são non-negotiable.",
+      "l": "Aprendi que o baixo desempenho muitas vezes não é uma falha do indivíduo, mas um desalinhamento. Meu papel como líder é ser um diagnosticador e um arquiteto de carreiras. Essa experiência me levou a incluir uma 'avaliação de perfil comportamental' em nosso processo de onboarding, para garantir que os novos talentos sejam alocados nas áreas onde suas forças naturais possam brilhar desde o primeiro dia."
+    },
+    "en": {
+      "s": "At Unimed, the payment operations team suffered from high turnover (40%), generating high recruitment costs and loss of critical institutional knowledge. To reverse this, I created a career development program. However, a newly hired analyst, despite showing great analytical potential in the interview, had productivity 30% below average in the fraud analysis area. He was demotivated and at risk of being terminated.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to develop the best, and this included recovering talents with potential. Instead of simply starting a termination process, my task was to diagnose the root cause of poor performance and create an action plan to develop or reallocate that employee, testing the effectiveness of my own development program.",
+      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I started with a 1-on-1 conversation. My opening question was: 'I noticed your results are below expected, but I also see your analytical capacity. Help me understand: what's in your way?'. He confessed that the need to make quick decisions in fraud analysis generated anxiety and paralyzed him, as his profile was extremely detail-oriented and methodical. The diagnosis was clear: profile misalignment. I identified that Financial Reconciliation was the perfect environment for him, as it values precision and deep investigation instead of speed. I presented the rotation proposal to him and the other manager as a 'win-win' opportunity. In the new area, I identified a manual report that consumed 20 hours/month. I challenged him to lead a project to automate it with n8n. Giving him complete ownership of the project, from conception to results presentation, restored his confidence. He not only automated the report, but also identified a flaw generating R$ 50k/month losses. I ensured he personally presented his discovery and solution to the financial board.",
+      "r": "The analyst became one of the most productive and valued members of the finance team. The project he led saved 20 hours of manual work per month and eliminated R$ 600k losses per year. His success story was shared in my internal newsletter, reinforcing development culture and contributing to turnover reduction from 40% to less than 15%. This analyst became a specialist in payment reconciliation automation, applying his methodical skills to identify discrepancies in transaction data -- exactly the type of critical talent for payment operations, where attention to detail and analytical precision are non-negotiable.",
+      "l": "I learned that poor performance is often not an individual failure, but a misalignment. My role as a leader is to be a diagnostician and career architect. This experience led me to include a 'behavioral profile assessment' in my onboarding process, to ensure new talents are allocated in areas where their natural strengths can shine from day one."
+    },
+    "fups": [
+      {
+        "q": "Como você determinou que o desalinhamento de perfil era a causa principal do baixo desempenho e não outros fatores?",
+        "a": "Através do diagnóstico na conversa 1-a-1 e da observação. Eu descartei outros fatores: a habilidade técnica dele era alta (ele era ótimo com dados) e a clareza da tarefa não era o problema. O ponto chave foi quando ele descreveu o 'sentimento de pânico' ao ter que tomar uma decisão de fraude em segundos. Ficou claro que era um desalinhamento entre seu estilo metódico e a necessidade da função.",
+        "q_en": "How did you determine that profile misalignment was the main cause of poor performance and not other factors?",
+        "a_en": "Through diagnosis in the 1-on-1 conversation and observation. I ruled out other factors: his technical skill was high (he was great with data) and task clarity wasn't the problem. The key point was when he described the 'panic feeling' when having to make a fraud decision in seconds. It became clear it was a misalignment between his methodical style and the function's needs."
+      },
+      {
+        "q": "Quais métricas ou indicadores você monitorou para avaliar o impacto da realocação e do projeto de automação no desempenho do analista?",
+        "a": "Monitoramos três coisas: 1) Métricas de Produtividade: na nova função, a precisão das reconciliações dele atingiu 99.8%, a mais alta da equipe. 2) Feedback 360°: o feedback dos seus novos pares e do gestor foi excepcionalmente positivo. 3) Engajamento: ele passou de um funcionário reativo para alguém que proativamente sugeria melhorias, um claro indicador de motivação.",
+        "q_en": "What metrics or indicators did you monitor to evaluate the impact of reallocation and automation project on the analyst's performance?",
+        "a_en": "I monitored three things: 1) Productivity Metrics: in the new function, his reconciliation accuracy reached 99.8%, the highest on the team. 2) 360° Feedback: feedback from his new peers and manager was exceptionally positive. 3) Engagement: he went from a reactive employee to someone who proactively suggested improvements, a clear motivation indicator."
+      },
+      {
+        "q": "Durante a mentoria para o uso da ferramenta n8n, houve resistência ou dificuldades? Como você ajudou o analista a superá-las?",
+        "a": "A principal dificuldade foi o medo inicial de 'quebrar' algo, pois ele nunca havia trabalhado com automação. Eu o ajudei a superar isso criando um 'ambiente seguro' (sandbox) para ele experimentar sem riscos. Também usei a técnica de 'pair programming', onde construímos o primeiro fluxo juntos. Isso diminuiu a barreira inicial e deu a ele a confiança para continuar sozinho.",
+        "q_en": "During mentoring for n8n tool usage, was there resistance or difficulties? How did you help the analyst overcome them?",
+        "a_en": "The main difficulty was initial fear of 'breaking' something, as he had never worked with automation. I helped him overcome this by creating a 'safe environment' (sandbox) for him to experiment without risks. I also used 'pair programming' technique, where I built the first flow together. This lowered the initial barrier and gave him confidence to continue alone."
+      },
+      {
+        "q": "Como você garantiu que o sucesso desse analista fosse comunicado e reconhecido dentro da empresa para reforçar a cultura de desenvolvimento?",
+        "a": "A comunicação foi uma parte chave da estratégia. Primeiro, garanti que ele apresentasse seu projeto para a diretoria, dando-lhe a visibilidade direta. Segundo, trabalhei com a equipe de comunicação interna para escrever um artigo sobre o caso dele para a newsletter da empresa, enquadrando-o como um exemplo da minha cultura de 'encontrar o lugar certo para o talento certo'.",
+        "q_en": "How did you ensure this analyst's success was communicated and recognized within the company to reinforce development culture?",
+        "a_en": "Communication was a key part of the strategy. First, I ensured he presented his project to the board, giving him direct visibility. Second, I worked with the internal communication team to write an article about his case for the company newsletter, framing it as an example of my culture of 'finding the right place for the right talent'."
+      },
+      {
+        "q": "Após esse caso, você implementou mudanças ou melhorias no programa de desenvolvimento para evitar futuros casos de desalinhamento de perfil?",
+        "a": "Sim. A maior mudança foi a implementação de uma 'sessão de alinhamento de perfil' no primeiro mês de um novo contratado. Nela, sentamos com o novo funcionário e seu gestor para discutir abertamente seu estilo de trabalho, suas forças e preferências, e como elas se alinham com as demandas da função. Isso nos permite fazer pequenos ajustes de rota muito mais cedo.",
+        "q_en": "After this case, did you implement changes or improvements in the development program to avoid future profile misalignment cases?",
+        "a_en": "Yes. The biggest change was implementing a 'profile alignment session' in a new hire's first month. In it, I sit with the new employee and their manager to openly discuss their work style, strengths and preferences, and how they align with the function's demands. This allows us to make small course corrections much earlier."
+      },
+      {
+        "q": "Como a liderança reagiu à sua decisão de 'investir' em um funcionário com baixo desempenho em vez de substituí-lo?",
+        "a": "Inicialmente, com ceticismo. No entanto, apresentei meu diagnóstico e o plano de realocação como um 'experimento de baixo custo' com um potencial de retorno alto. O sucesso espetacular do analista na nova função provou o valor da abordagem e fortaleceu a cultura de desenvolvimento que eu estava tentando construir.",
+        "q_en": "How did leadership react to your decision to 'invest' in an underperforming employee instead of replacing him?",
+        "a_en": "Initially, with skepticism. However, I presented my diagnosis and reallocation plan as a 'low-cost experiment' with high return potential. The analyst's spectacular success in the new function proved the approach's value and strengthened the development culture I was trying to build."
+      },
+      {
+        "q": "E se, mesmo após a realocação, o desempenho do analista não tivesse melhorado?",
+        "a": "Nesse caso, o processo teria sido de transparência total. Eu teria um plano de melhoria de performance (PIP) formal, com metas claras e suporte adicional. O objetivo seria dar a ele todas as chances de sucesso. Se, mesmo assim, o desempenho não atingisse o padrão, eu conduziria o processo de desligamento de forma respeitosa, sabendo que fizemos tudo o que era possível.",
+        "q_en": "What if, even after reallocation, the analyst's performance hadn't improved?",
+        "a_en": "In that case, the process would have been one of total transparency. I would have a formal performance improvement plan (PIP), with clear goals and additional support. The objective would be to give him every chance for success. If, even so, performance didn't meet standards, I would conduct the termination process respectfully, knowing I did everything possible."
+      },
+      {
+        "q": "Como essa experiência influenciou sua forma de contratar?",
+        "a": "Reforçou minha convicção de contratar por 'potencial e habilidades transferíveis' em vez de 'experiência específica'. E me ensinou a ser ainda mais deliberado durante a entrevista para avaliar não apenas as competências, mas também o perfil comportamental, para garantir um melhor alinhamento com a função desde o início.",
+        "q_en": "How did this experience influence your hiring approach?",
+        "a_en": "It reinforced my conviction to hire for 'potential and transferable skills' instead of 'specific experience'. And it taught me to be even more deliberate during interviews to evaluate not just competencies, but also behavioral profile, to ensure better alignment with the function from the start."
+      },
+      {
+        "q": "O que essa história diz sobre a sua filosofia de liderança?",
+        "a": "Diz que eu acredito que as pessoas são o maior ativo e que meu papel é atuar como um 'multiplicador de talentos'. Isso significa não apenas contratar os melhores, mas também ter a capacidade de enxergar o potencial onde outros veem um problema, e criar o ambiente certo para que esse potencial se transforme em alta performance.",
+        "q_en": "What does this story say about your leadership philosophy?",
+        "a_en": "It says I believe people are the greatest asset and that my role is to act as a 'talent multiplier'. This means not just hiring the best, but also having the ability to see potential where others see a problem, and creating the right environment for that potential to transform into high performance."
+      },
+      {
+        "q": "Qual o seu papel quando um funcionário talentoso expressa o desejo de sair da empresa para buscar crescimento em outro lugar?",
+        "a": "Meu papel é ser um mentor de carreira, não um gerente possessivo. Eu teria uma conversa honesta para entender suas aspirações. Se a oportunidade externa for genuinamente a melhor para o crescimento dele, eu o apoiaria 100% e o ajudaria a se preparar, mantendo a porta aberta para o futuro. O sucesso pessoal dele é a meta, não a retenção a qualquer custo.",
+        "q_en": "What's your role when a talented employee expresses desire to leave the company to seek growth elsewhere?",
+        "a_en": "My role is to be a career mentor, not a possessive manager. I would have an honest conversation to understand their aspirations. If the external opportunity is genuinely best for their growth, I would support them 100% and help them prepare, keeping the door open for the future. Their personal success is the goal, not retention at any cost."
+      }
+    ],
+    "__file": "src\\data\\hire_and_develop_the_best\\hire_and_develop_the_best_case3.js",
+    "lp_id": "hire_and_develop_the_best",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 90,
+      "status": "Ready",
+      "positives": [
+        "M�tricas robustas (12)",
+        "Ratio EU:N�S saud�vel (3:0)",
+        "Conflito/endurecimento presente",
+        "Mecanismos/repeatability destacados"
+      ],
+      "warnings": [
+        "Customer Obsession fraca (poucos sinais)",
+        "Sem m�tricas de cliente expl�citas",
+        "Sem m�tricas operacionais expl�citas",
+        "Transi��es STAR(L) pouco claras"
+      ],
+      "dealbreakers": [],
+      "suggestions": [
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Customer Obsession fraca (poucos sinais)",
+          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas de cliente expl�citas",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas operacionais expl�citas",
+          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 12",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ],
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 90,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
+          "Sem m�tricas de cliente expl�citas",
+          "Sem m�tricas operacionais expl�citas",
+          "Transi��es STAR(L) pouco claras"
+        ],
+        "positives": [
+          "M�tricas robustas (12)",
+          "Ratio EU:N�S saud�vel (3:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 12,
+        "metricCategories": {
+          "financial": true,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 2,
+        "conflictSignals": true,
+        "mechanismSignals": 8,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 3,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 22,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 482,
+            "enLen": 418,
+            "deltaPct": 0.13278008298755187
+          },
+          "t": {
+            "ptLen": 469,
+            "enLen": 439,
+            "deltaPct": 0.06396588486140725
+          },
+          "a": {
+            "ptLen": 1250,
+            "enLen": 1181,
+            "deltaPct": 0.0552
+          },
+          "r": {
+            "ptLen": 676,
+            "enLen": 620,
+            "deltaPct": 0.08284023668639054
+          },
+          "l": {
+            "ptLen": 404,
+            "enLen": 347,
+            "deltaPct": 0.14108910891089108
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true
+      }
+    }
+  }
+}

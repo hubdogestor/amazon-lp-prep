@@ -1,0 +1,289 @@
+{
+  "original": {
+    "id": "bradesco-safe-agile-framework",
+    "title": "Implementação de Framework Ágil em Escala para Banco Digital",
+    "title_pt": "Implementação de Framework Ágil em Escala para Banco Digital",
+    "title_en": "Large-Scale Agile Framework Implementation for Digital Bank",
+    "company": "Bradesco",
+    "period": "01/2016-12/2018",
+    "isTopCase": false,
+    "pt": {
+      "s": "Para construir o Banco Digital Next, coordenávamos 17 squads e 230 profissionais espalhados por 3 prédios em São Paulo. O maior problema: 6 semanas de atraso acumulado no trimestre por dependências não mapeadas entre squads. Reuniões de alinhamento consumiam 40% do tempo produtivo - desenvolvedores gastavam 16 horas/semana em meetings sem delivery tangível. O modelo tradicional de gestão em cascata do Bradesco era fundamentalmente inadequado para a velocidade e interdependência exigida por produto digital. Tentativas anteriores de 'agilidade' foram superficiais - sprints isolados sem coordenação global.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era pesquisar, aprender, e implementar modelo de entrega ágil verdadeiramente funcional para nosso contexto específico. Não poderia simplesmente copiar framework existente - precisava aprender princípios profundos do ágil em escala e adaptar às restrições culturais de um grande banco tradicional brasileiro. Era claro que precisava de conhecimento além da nossa expertise interna para resolver esse desafio de escala.",
+      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Mergulhei sistematicamente em frameworks de escala ágil. Completei a certificação SAFe 4.0 Scrum Master (SSM) em curso intensivo de 2 dias + prova rigorosa, investindo 16 horas de estudo prévio em whitepapers e documentação. Fui o primeiro profissional do Bradesco certificado em SAFe, o que me deu credibilidade instantânea para liderar a transformação entre stakeholders céticos. Facilitei pessoalmente o primeiro PI Planning em março/2017 com 3 squads piloto (35 pessoas) em sala do 18º andar do edifício matriz. Preparei meticulosamente: 4 paredes com papel kraft, comprei 200 post-its coloridos, montei timeline física de 10 semanas com milestones visíveis. Comecei às 9h, planejei terminar às 18h seguindo formato oficial de 2 dias condensado. Às 15h30, observei energia caindo dramaticamente. Pausei cerimônia, entrevistei participantes sobre fadiga, ajustei dinâmica para incluir energizers, terminamos às 17h com todos genuinamente alinhados. Na retrospectiva imediata, decidi boldly adaptar: próxima PI seria redesenhada para 1 dia completo. Fui co-fundador da 'Comunidade Ágil @ InovaBra' que se tornou núcleo de aprendizado para transformação. Desenhei workshops mensais onde facilitava pessoalmente sessões de Design Thinking - equipes que participaram dos treinamentos melhoraram métricas de aceitação de features em 30% através de melhor user-centricity. Criei fórum inovador de 'retrospectiva da retrospectiva' com Agile Coaches cross-teams, donde práticas compartilhadas como relatórios de status 'one-pager' foram organicamente adotados por outras 3 diretorias, provando natureza viral de boas práticas.",
+      "r": "A implementação do modelo ágil adaptado foi absolutamente determinante para lançamento bem-sucedido do Next em exatamente 12 meses (vs. timeline original de 18 meses). Reduziu atrasos acumulados de 6 semanas para zero através de mapeamento de dependências. Comunidade Ágil treinou mais de 2.000 profissionais no Bradesco, acelerando dramaticamente toda transformação digital além do Next. Modelo de PI Planning adaptado e rituais de governança foram formalmente adotados e replicados em outros 4 programas estratégicos do banco. Mais significativo: reduziu tempo em reuniões de alinhamento em 50% (de 40% para 20% do tempo produtivo) e completamente eliminou retrabalho causado por dependências não gerenciadas - equipes conseguiam prever e coordenar trabalho 3 meses à frente. Adaptações do framework foram documentadas em playbook 'Bradesco Way of Working' que depois se tornou padrão corporativo para todas iniciativas digitais.",
+      "l": "Aprendi que em transformação major, framework é apenas ponto de partida para jornada de aprendizado. Habilidade real está na curiosidade para entender cultura existente profundamente e disposição para adaptar continuamente baseado em feedback real, não perfeição teórica. PI Planning de 1 dia me ensinou que às vezes você deve quebrar 'regras' estabelecidas para salvar princípios subjacentes - cerimônia mais curta preservou energia e engajamento enquanto atingiu mesmos objetivos de alinhamento. Sucesso veio da busca implacável de conhecimento (certificação formal), curiosidade genuína para experimentar (pilotando adaptações), e humildade para aprender com erros (melhorias baseadas em retrospectiva). Aprendizado contínuo tornou-se nossa vantagem competitiva."
+    },
+    "en": {
+      "s": "To build the Next Digital Bank, I were coordinating 17 squads and 230 professionals spread across 3 buildings in São Paulo. The biggest problem: 6 weeks accumulated delay in the quarter due to unmapped dependencies between squads. Alignment meetings consumed 40% of productive time - developers spent 16 hours/week in meetings without tangible delivery. Bradesco's traditional waterfall management model was fundamentally inadequate for the speed and interdependence required by digital product. Previous attempts at 'agility' were superficial - isolated sprints without global coordination.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to research, learn, and implement a truly functional agile delivery model for my specific context. I couldn't simply copy existing framework - I needed to learn deep principles of agile at scale and adapt to cultural constraints of a large traditional Brazilian bank. It was clear I needed knowledge beyond my internal expertise to solve this scale challenge.",
+      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I systematically dove into agile scaling frameworks. I completed SAFe 4.0 Scrum Master (SSM) certification in intensive 2-day course + rigorous exam, investing 16 hours prior study in whitepapers and documentation. I was the first Bradesco professional certified in SAFe, which gave me instant credibility to lead transformation among skeptical stakeholders. I personally facilitated the first PI Planning in March/2017 with 3 pilot squads (35 people) in 18th floor room of headquarters building. I prepared meticulously: 4 walls with kraft paper, bought 200 colored post-its, mounted physical 10-week timeline with visible milestones. Started at 9 AM, planned to finish at 6 PM following official 2-day format condensed. At 3:30 PM, I observed energy dropping dramatically. I paused ceremony, interviewed participants about fatigue, adjusted dynamics to include energizers, finished at 5 PM with everyone genuinely aligned. In immediate retrospective, I decided to boldly adapt: next PI would be redesigned for 1 complete day. I co-founded 'Agile Community @ InovaBra' which became learning nucleus for transformation. I designed monthly workshops where personally facilitated Design Thinking sessions - teams that participated in training improved feature acceptance metrics by 30% through better user-centricity. I created innovative 'retrospective of retrospectives' forum with cross-team Agile Coaches, where shared practices like 'one-pager' status reports were organically adopted by 3 other directorates, proving viral nature of good practices.",
+      "r": "Implementation of adapted agile model was absolutely decisive for successful launch of Next in exactly 12 months (vs. original 18-month timeline). Reduced accumulated delays from 6 weeks to zero through dependency mapping. Agile Community trained over 2,000 professionals across Bradesco, dramatically accelerating entire digital transformation beyond just Next. Adapted PI Planning model and governance rituals were formally adopted and replicated in 4 other strategic bank programs. Most significantly: reduced time in alignment meetings by 50% (from 40% to 20% of productive time) and completely eliminated rework caused by unmanaged dependencies - teams could predict and coordinate work 3 months ahead. Framework adaptations were documented in 'Bradesco Way of Working' playbook which later became corporate standard for all digital initiatives.",
+      "l": "I learned that in major transformation, framework is just starting point for learning journey. Real skill lies in curiosity to understand existing culture deeply and willingness to adapt continuously based on real feedback, not theoretical perfection. 1-day PI Planning taught me that sometimes you must break established 'rules' to save underlying principles - shorter ceremony preserved energy and engagement while achieving same alignment goals. Success came from relentless pursuit of knowledge (formal certification), genuine curiosity to experiment (piloting adaptations), and humility to learn from mistakes (retrospective-driven improvements). Continuous learning became my competitive advantage."
+    },
+    "fups": [
+      {
+        "q": "Por que escolheu o framework SAFe como base e não outros frameworks de escala, como LeSS ou Nexus?",
+        "a": "Decisão foi pragmática baseada em avaliação de prontidão organizacional que conduzi. LeSS requer alta maturidade organizacional e mudança cultural que Bradesco não estava pronto. Nexus funciona para escala menor. SAFe, com sua estrutura prescritiva, ofereceu 'ponte' mais segura entre mundo hierárquico do banco e mentalidade ágil. Também, SAFe tinha documentação mais extensa e estudos de caso de empresas tradicionais, dando confiança à liderança avessa ao risco de que transformação era possível.",
+        "q_en": "Why did you choose SAFe framework as base and not other scaling frameworks like LeSS or Nexus?",
+        "a_en": "Decision was pragmatic based on organizational readiness assessment I conducted. LeSS requires high organizational maturity and cultural shift that Bradesco wasn't ready for. Nexus works for smaller scale. SAFe, with its prescriptive structure, offered safer 'bridge' between hierarchical bank world and agile mindset. Also, SAFe had most extensive documentation and case studies from traditional enterprises, giving confidence to risk-averse leadership that transformation was possible."
+      },
+      {
+        "q": "Quais foram os maiores desafios culturais ou organizacionais ao introduzir práticas ágeis em um banco tradicional? Como os superou?",
+        "a": "Maior desafio foi cultura de comando-e-controle onde gerentes mediam valor por 'horas trabalhadas' e 'pessoas gerenciadas', não outcomes entregues. Equipes temiam autonomia porque estavam acostumadas a instruções detalhadas. Superei isso começando com piloto para criar 'porto seguro' onde equipes podiam experimentar sem medo. Traduzi benefícios ágeis para linguagem da diretoria - em vez de 'velocidade', falava de 'redução de risco' através de loops de feedback mais rápidos. Chave foi mostrar vitórias iniciais ao invés de benefícios teóricos.",
+        "q_en": "What were the biggest cultural or organizational challenges introducing agile practices in a traditional bank? How did you overcome them?",
+        "a_en": "Biggest challenge was command-and-control culture where managers measured value by 'hours worked' and 'people managed,' not outcomes delivered. Teams feared autonomy because were used to detailed instructions. I overcame this by starting with pilot to create 'safe harbor' where teams could experiment without fear. Translated agile benefits to board language - instead of 'velocity,' spoke of 'risk reduction' through faster feedback loops. Key was showing early wins rather than theoretical benefits."
+      },
+      {
+        "q": "O modelo que você adaptou foi escalado para outros projetos ou organizações dentro do Bradesco? Se sim, como garantiu a escalabilidade?",
+        "a": "Sim, tornou-se padrão corporativo. Sucesso no Next provou viabilidade do modelo, levando à adoção formal pelo PMO corporativo. Criei documentação 'Bradesco Way of Working' com templates, guidelines, e materiais de treinamento. Chave para escalabilidade foi criar rede de treinadores internos - certifiquei 15 treinadores SAFe internos que conseguiam replicar metodologia sem meu envolvimento direto. Também estabeleci 'Revisões de Governança Ágil' trimestrais para garantir consistência entre implementações enquanto permitia adaptações locais.",
+        "q_en": "Was the model you adapted scaled to other projects or organizations within Bradesco? If so, how did you ensure scalability?",
+        "a_en": "Yes, it became corporate standard. Success in Next proved model viability, leading to formal adoption by corporate PMO. Created 'Bradesco Way of Working' documentation with templates, guidelines, and training materials. Key to scalability was creating internal trainer network - certified 15 internal SAFe trainers who could replicate methodology without my direct involvement. Also established quarterly 'Agile Governance Reviews' to ensure consistency across implementations while allowing local adaptations."
+      },
+      {
+        "q": "Você mencionou que reduziu retrabalho por dependências não gerenciadas. Pode dar um exemplo prático de como isso aconteceu?",
+        "a": "Exemplo perfeito: Squad de Frontend estava construindo tela de login enquanto squad de Backend desenvolvia serviço de autenticação. Sem PI Planning, Frontend assumiu integração OAuth enquanto Backend construiu sistema de token customizado. Descobriram incompatibilidade apenas na fase de integração, requerendo 3 semanas de retrabalho. Após PI Planning, todas dependências foram mapeadas visualmente no board de dependências. Equipes alinharam contratos técnicos antes do desenvolvimento começar, eliminando retrabalho. Visualização de dependências economizou estimadas 15+ semanas de retrabalho só no primeiro ano.",
+        "q_en": "You mentioned reducing rework from unmanaged dependencies. Can you give practical example of how this happened?",
+        "a_en": "Perfect example: Frontend squad was building login screen while Backend squad developed authentication service. Without PI Planning, Frontend assumed OAuth integration while Backend built custom token system. Discovered incompatibility only at integration phase, requiring 3 weeks rework. After PI Planning, all dependencies were mapped visually on dependency board. Teams aligned on technical contracts before development started, eliminating rework. Dependency visualization saved estimated 15+ weeks of rework in first year alone."
+      },
+      {
+        "q": "Olhando para trás, há algo que você teria feito de forma diferente durante a implementação do modelo ágil no Next?",
+        "a": "Investiria mais tempo em educação executiva antes de começar transformação de squads. Foquei em agilidade a nível de equipe mas subestimei impacto da resistência da média gerência. Executivos disseram 'sim' ao ágil mas gerentes médios sabotaram iniciativas porque se sentiram ameaçados por equipes empoderadas. Na próxima vez faria bootcamp intensivo de liderança ágil para todos gerentes L3+ antes de qualquer treinamento de squad. Mudança cultural deve começar no topo e meio, não apenas bottom-up.",
+        "q_en": "Looking back, is there anything you would have done differently during agile model implementation at Next?",
+        "a_en": "Would invest more time in executive education before starting squad transformation. I focused on team-level agility but underestimated impact of middle management resistance. Executives said 'yes' to agile but middle managers sabotaged initiatives because felt threatened by empowered teams. Next time would run intensive agile leadership bootcamp for all L3+ managers before any squad training. Culture change must start at top and middle, not just bottom-up."
+      },
+      {
+        "q": "Quais foram os principais desafios culturais ao implementar o SAFe no Bradesco e como você os superou?",
+        "a": "O maior desafio foi cultura de comando-e-controle e medo de dar autonomia às equipes. Superei começando com piloto para criar 'porto seguro' e provar conceito. Traduzi benefícios do ágil para linguagem da diretoria - em vez de 'velocidade', falava de 'redução de risco' e 'previsibilidade de entrega', suas principais preocupações. Mostrei que equipes autônomas na verdade reduziam risco através de feedback mais rápido e tomada de decisão descentralizada.",
+        "q_en": "What were the main cultural challenges implementing SAFe at Bradesco and how did you overcome them?",
+        "a_en": "The biggest challenge was command-and-control culture and fear of giving autonomy to teams. I overcame it by starting with a pilot to create a 'safe harbor' and prove the concept. I translated agile benefits to board language - instead of 'speed,' I spoke of 'risk reduction' and 'delivery predictability,' their main concerns. Showed that autonomous teams actually reduced risk through faster feedback and decentralized decision-making."
+      },
+      {
+        "q": "Qual foi o impacto direto das adaptações que você fez no PI Planning no alinhamento das equipes?",
+        "a": "A adaptação para 1 dia tornou a cerimônia viável e sustentável. Impacto direto foi aumento massivo no alinhamento cross-squad. Antes, dependências entre equipes eram descobertas tardiamente causando atrasos em cascata. Após PIs adaptados, taxa de 'impedimentos por dependência externa' caiu 80%, pois acordos eram feitos trimestralmente de forma visual e com compromisso de todos. Equipes começaram a planejar colaborativamente ao invés de competitivamente.",
+        "q_en": "What was the direct impact of your PI Planning adaptations on team alignment?",
+        "a_en": "The 1-day adaptation made the ceremony viable and sustainable. Direct impact was massive increase in cross-squad alignment. Before, dependencies between teams were discovered late causing cascading delays. After adapted PIs, 'external dependency impediments' rate fell 80%, as agreements were made quarterly, visually and with everyone's commitment. Teams began planning collaboratively instead of competitively."
+      },
+      {
+        "q": "Como você mediu o sucesso da Comunidade Ágil no longo prazo?",
+        "a": "Medimos através de três Key Results: 1) Aumento da 'fluência ágil' das equipes (autoavaliação trimestral baseada em modelo de maturidade que criei), 2) Redução do 'time-to-market' de features nos times participantes vs. não-participantes, 3) Taxa de promoção interna para papéis de liderança ágil. Feedback qualitativo direcionou melhorias contínuas via pesquisa simples: 'O que você aprendeu hoje? O que podemos melhorar no próximo workshop?' Combinação de métricas hard e soft deu visão completa do impacto.",
+        "q_en": "How did you measure the long-term success of the Agile Community?",
+        "a_en": "I measured through three Key Results: 1) Increase in teams' 'agile fluency' (quarterly self-assessment based on maturity model I created), 2) Reduction in 'time-to-market' for features in participating vs. non-participating teams, 3) Internal promotion rate to agile leadership roles. Qualitative feedback drove continuous improvements via simple survey: 'What did you learn today? What can I improve in next workshop?' Combination of hard and soft metrics gave complete view of impact."
+      },
+      {
+        "q": "Se tivesse que implementar o SAFe novamente, o que faria diferente?",
+        "a": "Investiria ainda mais tempo no treinamento de executivos e média gerência sobre novos papéis em agilidade. Subestimei quanto a falta de compreensão sobre como liderança funciona em contexto ágil criaria atrito e sabotagem sutil. Faria 'bootcamp' intensivo de liderança ágil de 3 dias para todos L3+ antes de começar com equipes, garantindo apoio não apenas verbal mas comportamental. Também criaria programa de mentoring entre líderes early adopters e céticos.",
+        "q_en": "If you had to implement SAFe again, what would you do differently?",
+        "a_en": "I'd invest even more time in training executives and middle management about new roles in agility. I underestimated how much lack of understanding about how leadership works in agile context would create friction and subtle sabotage. I'd do an intensive 3-day agile leadership 'bootcamp' for all L3+ before starting with teams, ensuring support that's not just verbal but behavioral. Also would create mentoring program between early adopter leaders and skeptics."
+      },
+      {
+        "q": "Por que escolheu SAFe em vez de outros frameworks como LeSS ou Spotify Model?",
+        "a": "Foi decisão pragmática baseada no estado cultural do Bradesco. LeSS exige maturidade organizacional muito alta que não possuíamos. Spotify Model é descritivo, não prescritivo - precisávamos de estrutura mais detalhada. SAFe ofereceu 'ponte' mais segura entre mundo hierárquico do banco e mentalidade ágil, com roadmap claro de transformação. Minha curiosidade foi entender qual framework se adaptaria melhor à realidade existente, não qual era 'melhor' teoricamente. Contexto sempre supera pureza teórica.",
+        "q_en": "Why did you choose SAFe instead of other frameworks like LeSS or Spotify Model?",
+        "a_en": "It was a pragmatic decision based on Bradesco's cultural state. LeSS requires very high organizational maturity I didn't possess. Spotify Model is descriptive, not prescriptive - I needed more detailed structure. SAFe offered a safer 'bridge' between the bank's hierarchical world and agile mindset, with clear transformation roadmap. My curiosity was understanding which framework would best adapt to existing reality, not which was 'best' theoretically. Context always trumps theoretical purity."
+      }
+    ],
+    "__file": "src\\data\\learn_and_be_curious\\learn_and_be_curious_case2.js",
+    "lp_id": "learn_and_be_curious",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "bradesco-safe-agile-framework",
+    "title": "Implementação de Framework Ágil em Escala para Banco Digital",
+    "title_pt": "Implementação de Framework Ágil em Escala para Banco Digital",
+    "title_en": "Large-Scale Agile Framework Implementation for Digital Bank",
+    "company": "Bradesco",
+    "period": "01/2016-12/2018",
+    "isTopCase": false,
+    "pt": {
+      "s": "Para construir o Banco Digital Next, coordenávamos 17 squads e 230 profissionais espalhados por 3 prédios em São Paulo. O maior problema: 6 semanas de atraso acumulado no trimestre por dependências não mapeadas entre squads. Reuniões de alinhamento consumiam 40% do tempo produtivo - desenvolvedores gastavam 16 horas/semana em meetings sem delivery tangível. O modelo tradicional de gestão em cascata do Bradesco era fundamentalmente inadequado para a velocidade e interdependência exigida por produto digital. Tentativas anteriores de 'agilidade' foram superficiais - sprints isolados sem coordenação global.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era pesquisar, aprender, e implementar modelo de entrega ágil verdadeiramente funcional para nosso contexto específico. Não poderia simplesmente copiar framework existente - precisava aprender princípios profundos do ágil em escala e adaptar às restrições culturais de um grande banco tradicional brasileiro. Era claro que precisava de conhecimento além da nossa expertise interna para resolver esse desafio de escala.",
+      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Mergulhei sistematicamente em frameworks de escala ágil. Completei a certificação SAFe 4.0 Scrum Master (SSM) em curso intensivo de 2 dias + prova rigorosa, investindo 16 horas de estudo prévio em whitepapers e documentação. Fui o primeiro profissional do Bradesco certificado em SAFe, o que me deu credibilidade instantânea para liderar a transformação entre stakeholders céticos. Facilitei pessoalmente o primeiro PI Planning em março/2017 com 3 squads piloto (35 pessoas) em sala do 18º andar do edifício matriz. Preparei meticulosamente: 4 paredes com papel kraft, comprei 200 post-its coloridos, montei timeline física de 10 semanas com milestones visíveis. Comecei às 9h, planejei terminar às 18h seguindo formato oficial de 2 dias condensado. Às 15h30, observei energia caindo dramaticamente. Pausei cerimônia, entrevistei participantes sobre fadiga, ajustei dinâmica para incluir energizers, terminamos às 17h com todos genuinamente alinhados. Na retrospectiva imediata, decidi boldly adaptar: próxima PI seria redesenhada para 1 dia completo. Fui co-fundador da 'Comunidade Ágil @ InovaBra' que se tornou núcleo de aprendizado para transformação. Desenhei workshops mensais onde facilitava pessoalmente sessões de Design Thinking - equipes que participaram dos treinamentos melhoraram métricas de aceitação de features em 30% através de melhor user-centricity. Criei fórum inovador de 'retrospectiva da retrospectiva' com Agile Coaches cross-teams, donde práticas compartilhadas como relatórios de status 'one-pager' foram organicamente adotados por outras 3 diretorias, provando natureza viral de boas práticas.",
+      "r": "A implementação do modelo ágil adaptado foi absolutamente determinante para lançamento bem-sucedido do Next em exatamente 12 meses (vs. timeline original de 18 meses). Reduziu atrasos acumulados de 6 semanas para zero através de mapeamento de dependências. Comunidade Ágil treinou mais de 2.000 profissionais no Bradesco, acelerando dramaticamente toda transformação digital além do Next. Modelo de PI Planning adaptado e rituais de governança foram formalmente adotados e replicados em outros 4 programas estratégicos do banco. Mais significativo: reduziu tempo em reuniões de alinhamento em 50% (de 40% para 20% do tempo produtivo) e completamente eliminou retrabalho causado por dependências não gerenciadas - equipes conseguiam prever e coordenar trabalho 3 meses à frente. Adaptações do framework foram documentadas em playbook 'Bradesco Way of Working' que depois se tornou padrão corporativo para todas iniciativas digitais.",
+      "l": "Aprendi que em transformação major, framework é apenas ponto de partida para jornada de aprendizado. Habilidade real está na curiosidade para entender cultura existente profundamente e disposição para adaptar continuamente baseado em feedback real, não perfeição teórica. PI Planning de 1 dia me ensinou que às vezes você deve quebrar 'regras' estabelecidas para salvar princípios subjacentes - cerimônia mais curta preservou energia e engajamento enquanto atingiu mesmos objetivos de alinhamento. Sucesso veio da busca implacável de conhecimento (certificação formal), curiosidade genuína para experimentar (pilotando adaptações), e humildade para aprender com erros (melhorias baseadas em retrospectiva). Aprendizado contínuo tornou-se nossa vantagem competitiva."
+    },
+    "en": {
+      "s": "To build the Next Digital Bank, I were coordinating 17 squads and 230 professionals spread across 3 buildings in São Paulo. The biggest problem: 6 weeks accumulated delay in the quarter due to unmapped dependencies between squads. Alignment meetings consumed 40% of productive time - developers spent 16 hours/week in meetings without tangible delivery. Bradesco's traditional waterfall management model was fundamentally inadequate for the speed and interdependence required by digital product. Previous attempts at 'agility' were superficial - isolated sprints without global coordination.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to research, learn, and implement a truly functional agile delivery model for my specific context. I couldn't simply copy existing framework - I needed to learn deep principles of agile at scale and adapt to cultural constraints of a large traditional Brazilian bank. It was clear I needed knowledge beyond my internal expertise to solve this scale challenge.",
+      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I systematically dove into agile scaling frameworks. I completed SAFe 4.0 Scrum Master (SSM) certification in intensive 2-day course + rigorous exam, investing 16 hours prior study in whitepapers and documentation. I was the first Bradesco professional certified in SAFe, which gave me instant credibility to lead transformation among skeptical stakeholders. I personally facilitated the first PI Planning in March/2017 with 3 pilot squads (35 people) in 18th floor room of headquarters building. I prepared meticulously: 4 walls with kraft paper, bought 200 colored post-its, mounted physical 10-week timeline with visible milestones. Started at 9 AM, planned to finish at 6 PM following official 2-day format condensed. At 3:30 PM, I observed energy dropping dramatically. I paused ceremony, interviewed participants about fatigue, adjusted dynamics to include energizers, finished at 5 PM with everyone genuinely aligned. In immediate retrospective, I decided to boldly adapt: next PI would be redesigned for 1 complete day. I co-founded 'Agile Community @ InovaBra' which became learning nucleus for transformation. I designed monthly workshops where personally facilitated Design Thinking sessions - teams that participated in training improved feature acceptance metrics by 30% through better user-centricity. I created innovative 'retrospective of retrospectives' forum with cross-team Agile Coaches, where shared practices like 'one-pager' status reports were organically adopted by 3 other directorates, proving viral nature of good practices.",
+      "r": "Implementation of adapted agile model was absolutely decisive for successful launch of Next in exactly 12 months (vs. original 18-month timeline). Reduced accumulated delays from 6 weeks to zero through dependency mapping. Agile Community trained over 2,000 professionals across Bradesco, dramatically accelerating entire digital transformation beyond just Next. Adapted PI Planning model and governance rituals were formally adopted and replicated in 4 other strategic bank programs. Most significantly: reduced time in alignment meetings by 50% (from 40% to 20% of productive time) and completely eliminated rework caused by unmanaged dependencies - teams could predict and coordinate work 3 months ahead. Framework adaptations were documented in 'Bradesco Way of Working' playbook which later became corporate standard for all digital initiatives.",
+      "l": "I learned that in major transformation, framework is just starting point for learning journey. Real skill lies in curiosity to understand existing culture deeply and willingness to adapt continuously based on real feedback, not theoretical perfection. 1-day PI Planning taught me that sometimes you must break established 'rules' to save underlying principles - shorter ceremony preserved energy and engagement while achieving same alignment goals. Success came from relentless pursuit of knowledge (formal certification), genuine curiosity to experiment (piloting adaptations), and humility to learn from mistakes (retrospective-driven improvements). Continuous learning became my competitive advantage."
+    },
+    "fups": [
+      {
+        "q": "Por que escolheu o framework SAFe como base e não outros frameworks de escala, como LeSS ou Nexus?",
+        "a": "Decisão foi pragmática baseada em avaliação de prontidão organizacional que conduzi. LeSS requer alta maturidade organizacional e mudança cultural que Bradesco não estava pronto. Nexus funciona para escala menor. SAFe, com sua estrutura prescritiva, ofereceu 'ponte' mais segura entre mundo hierárquico do banco e mentalidade ágil. Também, SAFe tinha documentação mais extensa e estudos de caso de empresas tradicionais, dando confiança à liderança avessa ao risco de que transformação era possível.",
+        "q_en": "Why did you choose SAFe framework as base and not other scaling frameworks like LeSS or Nexus?",
+        "a_en": "Decision was pragmatic based on organizational readiness assessment I conducted. LeSS requires high organizational maturity and cultural shift that Bradesco wasn't ready for. Nexus works for smaller scale. SAFe, with its prescriptive structure, offered safer 'bridge' between hierarchical bank world and agile mindset. Also, SAFe had most extensive documentation and case studies from traditional enterprises, giving confidence to risk-averse leadership that transformation was possible."
+      },
+      {
+        "q": "Quais foram os maiores desafios culturais ou organizacionais ao introduzir práticas ágeis em um banco tradicional? Como os superou?",
+        "a": "Maior desafio foi cultura de comando-e-controle onde gerentes mediam valor por 'horas trabalhadas' e 'pessoas gerenciadas', não outcomes entregues. Equipes temiam autonomia porque estavam acostumadas a instruções detalhadas. Superei isso começando com piloto para criar 'porto seguro' onde equipes podiam experimentar sem medo. Traduzi benefícios ágeis para linguagem da diretoria - em vez de 'velocidade', falava de 'redução de risco' através de loops de feedback mais rápidos. Chave foi mostrar vitórias iniciais ao invés de benefícios teóricos.",
+        "q_en": "What were the biggest cultural or organizational challenges introducing agile practices in a traditional bank? How did you overcome them?",
+        "a_en": "Biggest challenge was command-and-control culture where managers measured value by 'hours worked' and 'people managed,' not outcomes delivered. Teams feared autonomy because were used to detailed instructions. I overcame this by starting with pilot to create 'safe harbor' where teams could experiment without fear. Translated agile benefits to board language - instead of 'velocity,' spoke of 'risk reduction' through faster feedback loops. Key was showing early wins rather than theoretical benefits."
+      },
+      {
+        "q": "O modelo que você adaptou foi escalado para outros projetos ou organizações dentro do Bradesco? Se sim, como garantiu a escalabilidade?",
+        "a": "Sim, tornou-se padrão corporativo. Sucesso no Next provou viabilidade do modelo, levando à adoção formal pelo PMO corporativo. Criei documentação 'Bradesco Way of Working' com templates, guidelines, e materiais de treinamento. Chave para escalabilidade foi criar rede de treinadores internos - certifiquei 15 treinadores SAFe internos que conseguiam replicar metodologia sem meu envolvimento direto. Também estabeleci 'Revisões de Governança Ágil' trimestrais para garantir consistência entre implementações enquanto permitia adaptações locais.",
+        "q_en": "Was the model you adapted scaled to other projects or organizations within Bradesco? If so, how did you ensure scalability?",
+        "a_en": "Yes, it became corporate standard. Success in Next proved model viability, leading to formal adoption by corporate PMO. Created 'Bradesco Way of Working' documentation with templates, guidelines, and training materials. Key to scalability was creating internal trainer network - certified 15 internal SAFe trainers who could replicate methodology without my direct involvement. Also established quarterly 'Agile Governance Reviews' to ensure consistency across implementations while allowing local adaptations."
+      },
+      {
+        "q": "Você mencionou que reduziu retrabalho por dependências não gerenciadas. Pode dar um exemplo prático de como isso aconteceu?",
+        "a": "Exemplo perfeito: Squad de Frontend estava construindo tela de login enquanto squad de Backend desenvolvia serviço de autenticação. Sem PI Planning, Frontend assumiu integração OAuth enquanto Backend construiu sistema de token customizado. Descobriram incompatibilidade apenas na fase de integração, requerendo 3 semanas de retrabalho. Após PI Planning, todas dependências foram mapeadas visualmente no board de dependências. Equipes alinharam contratos técnicos antes do desenvolvimento começar, eliminando retrabalho. Visualização de dependências economizou estimadas 15+ semanas de retrabalho só no primeiro ano.",
+        "q_en": "You mentioned reducing rework from unmanaged dependencies. Can you give practical example of how this happened?",
+        "a_en": "Perfect example: Frontend squad was building login screen while Backend squad developed authentication service. Without PI Planning, Frontend assumed OAuth integration while Backend built custom token system. Discovered incompatibility only at integration phase, requiring 3 weeks rework. After PI Planning, all dependencies were mapped visually on dependency board. Teams aligned on technical contracts before development started, eliminating rework. Dependency visualization saved estimated 15+ weeks of rework in first year alone."
+      },
+      {
+        "q": "Olhando para trás, há algo que você teria feito de forma diferente durante a implementação do modelo ágil no Next?",
+        "a": "Investiria mais tempo em educação executiva antes de começar transformação de squads. Foquei em agilidade a nível de equipe mas subestimei impacto da resistência da média gerência. Executivos disseram 'sim' ao ágil mas gerentes médios sabotaram iniciativas porque se sentiram ameaçados por equipes empoderadas. Na próxima vez faria bootcamp intensivo de liderança ágil para todos gerentes L3+ antes de qualquer treinamento de squad. Mudança cultural deve começar no topo e meio, não apenas bottom-up.",
+        "q_en": "Looking back, is there anything you would have done differently during agile model implementation at Next?",
+        "a_en": "Would invest more time in executive education before starting squad transformation. I focused on team-level agility but underestimated impact of middle management resistance. Executives said 'yes' to agile but middle managers sabotaged initiatives because felt threatened by empowered teams. Next time would run intensive agile leadership bootcamp for all L3+ managers before any squad training. Culture change must start at top and middle, not just bottom-up."
+      },
+      {
+        "q": "Quais foram os principais desafios culturais ao implementar o SAFe no Bradesco e como você os superou?",
+        "a": "O maior desafio foi cultura de comando-e-controle e medo de dar autonomia às equipes. Superei começando com piloto para criar 'porto seguro' e provar conceito. Traduzi benefícios do ágil para linguagem da diretoria - em vez de 'velocidade', falava de 'redução de risco' e 'previsibilidade de entrega', suas principais preocupações. Mostrei que equipes autônomas na verdade reduziam risco através de feedback mais rápido e tomada de decisão descentralizada.",
+        "q_en": "What were the main cultural challenges implementing SAFe at Bradesco and how did you overcome them?",
+        "a_en": "The biggest challenge was command-and-control culture and fear of giving autonomy to teams. I overcame it by starting with a pilot to create a 'safe harbor' and prove the concept. I translated agile benefits to board language - instead of 'speed,' I spoke of 'risk reduction' and 'delivery predictability,' their main concerns. Showed that autonomous teams actually reduced risk through faster feedback and decentralized decision-making."
+      },
+      {
+        "q": "Qual foi o impacto direto das adaptações que você fez no PI Planning no alinhamento das equipes?",
+        "a": "A adaptação para 1 dia tornou a cerimônia viável e sustentável. Impacto direto foi aumento massivo no alinhamento cross-squad. Antes, dependências entre equipes eram descobertas tardiamente causando atrasos em cascata. Após PIs adaptados, taxa de 'impedimentos por dependência externa' caiu 80%, pois acordos eram feitos trimestralmente de forma visual e com compromisso de todos. Equipes começaram a planejar colaborativamente ao invés de competitivamente.",
+        "q_en": "What was the direct impact of your PI Planning adaptations on team alignment?",
+        "a_en": "The 1-day adaptation made the ceremony viable and sustainable. Direct impact was massive increase in cross-squad alignment. Before, dependencies between teams were discovered late causing cascading delays. After adapted PIs, 'external dependency impediments' rate fell 80%, as agreements were made quarterly, visually and with everyone's commitment. Teams began planning collaboratively instead of competitively."
+      },
+      {
+        "q": "Como você mediu o sucesso da Comunidade Ágil no longo prazo?",
+        "a": "Medimos através de três Key Results: 1) Aumento da 'fluência ágil' das equipes (autoavaliação trimestral baseada em modelo de maturidade que criei), 2) Redução do 'time-to-market' de features nos times participantes vs. não-participantes, 3) Taxa de promoção interna para papéis de liderança ágil. Feedback qualitativo direcionou melhorias contínuas via pesquisa simples: 'O que você aprendeu hoje? O que podemos melhorar no próximo workshop?' Combinação de métricas hard e soft deu visão completa do impacto.",
+        "q_en": "How did you measure the long-term success of the Agile Community?",
+        "a_en": "I measured through three Key Results: 1) Increase in teams' 'agile fluency' (quarterly self-assessment based on maturity model I created), 2) Reduction in 'time-to-market' for features in participating vs. non-participating teams, 3) Internal promotion rate to agile leadership roles. Qualitative feedback drove continuous improvements via simple survey: 'What did you learn today? What can I improve in next workshop?' Combination of hard and soft metrics gave complete view of impact."
+      },
+      {
+        "q": "Se tivesse que implementar o SAFe novamente, o que faria diferente?",
+        "a": "Investiria ainda mais tempo no treinamento de executivos e média gerência sobre novos papéis em agilidade. Subestimei quanto a falta de compreensão sobre como liderança funciona em contexto ágil criaria atrito e sabotagem sutil. Faria 'bootcamp' intensivo de liderança ágil de 3 dias para todos L3+ antes de começar com equipes, garantindo apoio não apenas verbal mas comportamental. Também criaria programa de mentoring entre líderes early adopters e céticos.",
+        "q_en": "If you had to implement SAFe again, what would you do differently?",
+        "a_en": "I'd invest even more time in training executives and middle management about new roles in agility. I underestimated how much lack of understanding about how leadership works in agile context would create friction and subtle sabotage. I'd do an intensive 3-day agile leadership 'bootcamp' for all L3+ before starting with teams, ensuring support that's not just verbal but behavioral. Also would create mentoring program between early adopter leaders and skeptics."
+      },
+      {
+        "q": "Por que escolheu SAFe em vez de outros frameworks como LeSS ou Spotify Model?",
+        "a": "Foi decisão pragmática baseada no estado cultural do Bradesco. LeSS exige maturidade organizacional muito alta que não possuíamos. Spotify Model é descritivo, não prescritivo - precisávamos de estrutura mais detalhada. SAFe ofereceu 'ponte' mais segura entre mundo hierárquico do banco e mentalidade ágil, com roadmap claro de transformação. Minha curiosidade foi entender qual framework se adaptaria melhor à realidade existente, não qual era 'melhor' teoricamente. Contexto sempre supera pureza teórica.",
+        "q_en": "Why did you choose SAFe instead of other frameworks like LeSS or Spotify Model?",
+        "a_en": "It was a pragmatic decision based on Bradesco's cultural state. LeSS requires very high organizational maturity I didn't possess. Spotify Model is descriptive, not prescriptive - I needed more detailed structure. SAFe offered a safer 'bridge' between the bank's hierarchical world and agile mindset, with clear transformation roadmap. My curiosity was understanding which framework would best adapt to existing reality, not which was 'best' theoretically. Context always trumps theoretical purity."
+      }
+    ],
+    "__file": "src\\data\\learn_and_be_curious\\learn_and_be_curious_case2.js",
+    "lp_id": "learn_and_be_curious",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 100,
+      "status": "Ready",
+      "positives": [
+        "M�tricas robustas (23)",
+        "Ratio EU:N�S saud�vel (1:0)",
+        "Conflito/endurecimento presente",
+        "Mecanismos/repeatability destacados"
+      ],
+      "warnings": [
+        "Customer Obsession fraca (poucos sinais)",
+        "Sem m�tricas financeiras claras"
+      ],
+      "dealbreakers": [],
+      "suggestions": [
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Customer Obsession fraca (poucos sinais)",
+          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas financeiras claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 1:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 23",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ],
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
+          "Sem m�tricas financeiras claras"
+        ],
+        "positives": [
+          "M�tricas robustas (23)",
+          "Ratio EU:N�S saud�vel (1:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 23,
+        "metricCategories": {
+          "financial": false,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 2,
+        "conflictSignals": true,
+        "mechanismSignals": 12,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 1,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 82,
+          "status": "needs-refresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 610,
+            "enLen": 591,
+            "deltaPct": 0.03114754098360656
+          },
+          "t": {
+            "ptLen": 547,
+            "enLen": 493,
+            "deltaPct": 0.09872029250457039
+          },
+          "a": {
+            "ptLen": 1864,
+            "enLen": 1805,
+            "deltaPct": 0.03165236051502146
+          },
+          "r": {
+            "ptLen": 931,
+            "enLen": 850,
+            "deltaPct": 0.08700322234156821
+          },
+          "l": {
+            "ptLen": 765,
+            "enLen": 704,
+            "deltaPct": 0.07973856209150326
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true
+      }
+    }
+  }
+}

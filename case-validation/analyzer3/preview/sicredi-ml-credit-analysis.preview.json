@@ -1,0 +1,299 @@
+{
+  "original": {
+    "id": "sicredi-ml-credit-analysis",
+    "title": "Introdução de Análise Preditiva com Machine Learning para Aprovação de Crédito",
+    "title_pt": "Introdução de Análise Preditiva com Machine Learning para Aprovação de Crédito",
+    "title_en": "Introduction of Predictive Analysis with Machine Learning for Credit Approval",
+    "company": "Sicredi Woop",
+    "period": "01/2019--12/2020",
+    "isTopCase": false,
+    "pt": {
+      "s": "O processo de análise de crédito no banco digital Woop levava 5 dias, tempo inaceitável. Discussão sobre usar IA estava presa em ciclo de planejamento que levaria mais de um ano. A inação estava nos custando clientes e competitividade no mercado.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Identificando esta inércia organizacional, assumi a liderança para provar valor do Machine Learning de forma rápida e com baixo risco, quebrando ciclo de paralisia por análise. Minha tarefa era validar a hipótese de forma executiva e criar precedente para inovação.",
+      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de esperar pelo projeto 'oficial', liderei iniciativa independente apresentando à diretoria plano para 'experimento de 90 dias', enquadrando-o não como projeto de tecnologia, mas como iniciativa de 'aprendizado de negócio' de baixo custo. Montei trio estratégico: eu + 1 data scientist + 1 engenheiro de ML. Negociei com seus gestores: 20% do tempo deles por 90 dias, estabelecendo 3 milestones quinzenais com gates de decisão go/no-go. Baseando-me em análise rigorosa de dados históricos de 24 meses, demonstrei que 30% dos casos apresentavam padrão de baixíssimo risco (taxa de inadimplência <0,5%), justificando foco do MVP neste segmento. Argumentei que maior risco não era experimento falhar, mas inação nos fazer perder ainda mais mercado. Diretoria de Risco estava inicialmente cética. Para conquistar confiança, propus rodar modelo em 'modo sombra' por 30 dias, apenas comparando decisões com analistas. Dados mostrando consistência e segurança do modelo foram o que os convenceu a aprovar piloto.",
+      "r": "Piloto foi sucesso excepcional. Para 30% dos pedidos, tempo de resposta caiu de 5 dias para menos de 2 minutos, refletindo-se em aumento de 10 pontos no NPS da jornada de crédito (de 45 para 55). Taxa de inadimplência no grupo pré-aprovado foi 10% menor que média histórica. Pré-aprovação automática processou 2.500 operações/mês sem intervenção humana, gerando savings de R$125k/mês em custos operacionais. Sucesso desbloqueou investimento de R$2M para projeto completo de IA.",
+      "l": "Aprendi que melhor maneira de superar resistência à inovação é através da ação rápida e focada com dados. Um piloto bem-sucedido é argumento mais poderoso que business case teórico. Repliquei essa abordagem na Unimed para testar produto de APS, começando com piloto em uma única clínica, provando valor antes de escalar para toda rede."
+    },
+    "en": {
+      "s": "Credit analysis process at Woop digital bank took 5 days, unacceptable time. Discussion about using AI was stuck in planning cycle that would take over a year. Inaction was costing us customers and market competitiveness.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. Identifying this organizational inertia, I took leadership to prove Machine Learning value quickly and with low risk, breaking analysis paralysis cycle. My task was to validate hypothesis executively and create precedent for innovation.",
+      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of waiting for 'official' project, I led independent initiative presenting board with plan for '90-day experiment', framing it not as technology project, but as low-cost 'business learning' initiative. I assembled strategic trio: me + 1 data scientist + 1 ML engineer. I negotiated with their managers: 20% of their time for 90 days, establishing 3 biweekly milestones with go/no-go decision gates. Based on rigorous analysis of 24-month historical data, I demonstrated that 30% of cases showed very low-risk pattern (default rate <0.5%), justifying MVP focus on this segment. I argued biggest risk wasn't experiment failing, but inaction making us lose even more market. Risk board was initially skeptical. To gain confidence, I proposed running model in 'shadow mode' for 30 days, just comparing decisions with analysts. Data showing model consistency and safety convinced them to approve pilot.",
+      "r": "Pilot was exceptional success. For 30% of requests, response time dropped from 5 days to less than 2 minutes, reflecting in 10-point increase in credit journey NPS (from 45 to 55). Default rate in pre-approved group was 10% lower than historical average. Automatic pre-approval processed 2,500 operations/month without human intervention, generating R$125k/month savings in operational costs. Success unlocked R$2M investment for complete AI project.",
+      "l": "I learned best way to overcome innovation resistance is through quick and focused action with data. Successful pilot is more powerful argument than theoretical business case. I replicated this approach at Unimed to test APS product, starting with pilot at single clinic, proving value before scaling to entire network."
+    },
+    "fups": [
+      {
+        "q": "Como você garantiu que modelo MVP fosse suficientemente robusto para gerar confiança, mesmo sendo experimento inicial?",
+        "a": "Focamos na robustez dentro do escopo limitado. Usamos técnicas de 'cross-validation' nos dados históricos para garantir que modelo não estivesse 'viciado'. Mais importante, design do piloto, rodando em 'modo sombra' primeiro e depois apenas em segmento de baixíssimo risco, foi o que construiu confiança, pois impacto de erro seria mínimo.",
+        "q_en": "How did you ensure MVP model was robust enough to generate confidence, even being initial experiment?",
+        "a_en": "I focused on robustness within limited scope. I used 'cross-validation' techniques on historical data to ensure model wasn't 'biased'. More importantly, pilot design, running in 'shadow mode' first and then only in lowest-risk segment, built confidence, as impact of error would be minimal."
+      },
+      {
+        "q": "Quais foram maiores desafios ao lidar com resistência cultural à IA, e como você os superou?",
+        "a": "Maior desafio foi medo do 'desconhecido' e da 'caixa-preta' por parte da área de Risco. Superei com transparência e educação. Apresentei conceitos de 'feature importance' para mostrar quais variáveis modelo estava usando, traduzindo decisão da IA para lógica de negócio que eles podiam entender e validar.",
+        "q_en": "What were biggest challenges dealing with cultural resistance to AI, and how did you overcome them?",
+        "a_en": "Biggest challenge was fear of 'unknown' and 'black box' from Risk area. I overcame with transparency and education. I presented 'feature importance' concepts to show which variables model was using, translating AI decision to business logic they could understand and validate."
+      },
+      {
+        "q": "Após sucesso do piloto, como você adaptou modelo para escalar solução e incluir outros 70% dos casos?",
+        "a": "Escalada foi feita em fases. Fase 2 envolveu treinar modelo para identificar também casos de 'altíssimo risco' para negação automática. Fase 3, mais complexa, foi usar modelo para gerar 'score de risco' para casos intermediários, que era usado como ferramenta de apoio para acelerar decisão do analista humano.",
+        "q_en": "After pilot success, how did you adapt model to scale solution and include other 70% of cases?",
+        "a_en": "Scaling was done in phases. Phase 2 involved training model to also identify 'highest risk' cases for automatic denial. Phase 3, more complex, was using model to generate 'risk score' for intermediate cases, which was used as support tool to accelerate human analyst decision."
+      },
+      {
+        "q": "Como você mediu impacto desse experimento no engajamento ou satisfação do cliente?",
+        "a": "Medimos de forma muito direta. Implementamos pesquisa de NPS de uma única pergunta, enviada imediatamente após comunicação da decisão de crédito. Comparamos NPS do grupo que recebeu resposta em 2 minutos (NPS 55) com grupo que esperou 5 dias (NPS 45). Diferença de 10 pontos provou impacto massivo na experiência do cliente.",
+        "q_en": "How did you measure impact of this experiment on customer engagement or satisfaction?",
+        "a_en": "I measured very directly. I implemented single-question NPS survey, sent immediately after credit decision communication. I compared NPS of group that received response in 2 minutes (NPS 55) with group that waited 5 days (NPS 45). 10-point difference proved massive impact on customer experience."
+      },
+      {
+        "q": "Se tivesse mais tempo para planejar, há algo que você faria diferente em relação ao escopo ou abordagem do experimento?",
+        "a": "Honestamente, não. Acredito que restrição de tempo foi o que nos forçou a ter escopo tão focado e abordagem tão enxuta, o que foi chave do sucesso. Mais tempo de planejamento provavelmente teria nos levado a escopo mais complexo e paralisia por análise, exatamente o que queria evitar.",
+        "q_en": "If you had more time to plan, is there something you'd do differently regarding experiment scope or approach?",
+        "a_en": "Honestly, no. I believe time constraint was what forced us to have such focused scope and lean approach, which was key to success. More planning time probably would have led us to more complex scope and analysis paralysis, exactly what I wanted to avoid."
+      },
+      {
+        "q": "Como você conseguiu recursos (analista e engenheiro) para projeto não oficial?",
+        "a": "Negociei alocação de 20% do tempo deles. Apresentei aos gestores deles oportunidade como projeto de 'P&D' de alto impacto e visibilidade, que também serviria como grande oportunidade de desenvolvimento para próprios funcionários.",
+        "q_en": "How did you get resources (analyst and engineer) for unofficial project?",
+        "a_en": "I negotiated 20% time allocation from them. I presented to their managers the opportunity as high-impact and high-visibility 'R&D' project, which would also serve as great development opportunity for employees themselves."
+      },
+      {
+        "q": "Por que 90 dias? Como você chegou a esse prazo?",
+        "a": "Escolhi 90 dias por ser prazo psicologicamente eficaz. É curto o suficiente para criar senso de urgência e foco, mas longo o suficiente para permitir entrega de resultado tangível.",
+        "q_en": "Why 90 days? How did you arrive at this deadline?",
+        "a_en": "I chose 90 days for being psychologically effective deadline. It's short enough to create sense of urgency and focus, but long enough to allow delivery of tangible result."
+      },
+      {
+        "q": "A equipe de análise manual se sentiu ameaçada pela automação?",
+        "a": "Sim, no início. Lidei posicionando ferramenta como 'assistente'. Mostrei que automação das tarefas repetitivas liberaria tempo deles para se aprofundarem nos casos complexos, onde julgamento humano é insubstituível. Transformei narrativa de 'substituição' para 'valorização'.",
+        "q_en": "Did manual analysis team feel threatened by automation?",
+        "a_en": "Yes, initially. I handled this by positioning tool as 'assistant'. I showed that automating repetitive tasks would free their time to dive deep into complex cases, where human judgment is irreplaceable. I transformed narrative from 'replacement' to 'enhancement'."
+      },
+      {
+        "q": "E se piloto tivesse falhado? Qual era seu plano?",
+        "a": "Design do piloto limitava 'raio da explosão'. Plano era desligar automação imediatamente e conduzir post-mortem para extrair aprendizados, tratando falha como custo de aprendizado baixo e controlado.",
+        "q_en": "What if pilot had failed? What was your plan?",
+        "a_en": "Pilot design limited 'blast radius'. Plan was to immediately turn off automation and conduct post-mortem to extract learnings, treating failure as low and controlled learning cost."
+      },
+      {
+        "q": "Sucesso do piloto não criou risco de outras áreas começarem a lançar projetos de IA sem governança?",
+        "a": "Sim, e agimos sobre isso. Usei sucesso do piloto para defender criação de 'Centro de Excelência em IA', que definiria melhores práticas e framework de governança. Iniciativa de 'guerrilha' serviu como catalisador para criação da estrutura formal.",
+        "q_en": "Didn't pilot success create risk of other areas starting AI projects without governance?",
+        "a_en": "Yes, and I acted on it. I used pilot success to advocate for creating 'AI Center of Excellence', which would define best practices and governance framework. 'Guerrilla' initiative served as catalyst for creating formal structure."
+      }
+    ],
+    "__file": "src\\data\\bias_for_action\\bias_for_action_case2.js",
+    "lp_id": "bias_for_action",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "sicredi-ml-credit-analysis",
+    "title": "Introdução de Análise Preditiva com Machine Learning para Aprovação de Crédito",
+    "title_pt": "Introdução de Análise Preditiva com Machine Learning para Aprovação de Crédito",
+    "title_en": "Introduction of Predictive Analysis with Machine Learning for Credit Approval",
+    "company": "Sicredi Woop",
+    "period": "01/2019--12/2020",
+    "isTopCase": false,
+    "pt": {
+      "s": "O processo de análise de crédito no banco digital Woop levava 5 dias, tempo inaceitável. Discussão sobre usar IA estava presa em ciclo de planejamento que levaria mais de um ano. A inação estava nos custando clientes e competitividade no mercado.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Identificando esta inércia organizacional, assumi a liderança para provar valor do Machine Learning de forma rápida e com baixo risco, quebrando ciclo de paralisia por análise. Minha tarefa era validar a hipótese de forma executiva e criar precedente para inovação.",
+      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de esperar pelo projeto 'oficial', liderei iniciativa independente apresentando à diretoria plano para 'experimento de 90 dias', enquadrando-o não como projeto de tecnologia, mas como iniciativa de 'aprendizado de negócio' de baixo custo. Montei trio estratégico: eu + 1 data scientist + 1 engenheiro de ML. Negociei com seus gestores: 20% do tempo deles por 90 dias, estabelecendo 3 milestones quinzenais com gates de decisão go/no-go. Baseando-me em análise rigorosa de dados históricos de 24 meses, demonstrei que 30% dos casos apresentavam padrão de baixíssimo risco (taxa de inadimplência <0,5%), justificando foco do MVP neste segmento. Argumentei que maior risco não era experimento falhar, mas inação nos fazer perder ainda mais mercado. Diretoria de Risco estava inicialmente cética. Para conquistar confiança, propus rodar modelo em 'modo sombra' por 30 dias, apenas comparando decisões com analistas. Dados mostrando consistência e segurança do modelo foram o que os convenceu a aprovar piloto.",
+      "r": "Piloto foi sucesso excepcional. Para 30% dos pedidos, tempo de resposta caiu de 5 dias para menos de 2 minutos, refletindo-se em aumento de 10 pontos no NPS da jornada de crédito (de 45 para 55). Taxa de inadimplência no grupo pré-aprovado foi 10% menor que média histórica. Pré-aprovação automática processou 2.500 operações/mês sem intervenção humana, gerando savings de R$125k/mês em custos operacionais. Sucesso desbloqueou investimento de R$2M para projeto completo de IA.",
+      "l": "Aprendi que melhor maneira de superar resistência à inovação é através da ação rápida e focada com dados. Um piloto bem-sucedido é argumento mais poderoso que business case teórico. Repliquei essa abordagem na Unimed para testar produto de APS, começando com piloto em uma única clínica, provando valor antes de escalar para toda rede."
+    },
+    "en": {
+      "s": "Credit analysis process at Woop digital bank took 5 days, unacceptable time. Discussion about using AI was stuck in planning cycle that would take over a year. Inaction was costing us customers and market competitiveness.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. Identifying this organizational inertia, I took leadership to prove Machine Learning value quickly and with low risk, breaking analysis paralysis cycle. My task was to validate hypothesis executively and create precedent for innovation.",
+      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of waiting for 'official' project, I led independent initiative presenting board with plan for '90-day experiment', framing it not as technology project, but as low-cost 'business learning' initiative. I assembled strategic trio: me + 1 data scientist + 1 ML engineer. I negotiated with their managers: 20% of their time for 90 days, establishing 3 biweekly milestones with go/no-go decision gates. Based on rigorous analysis of 24-month historical data, I demonstrated that 30% of cases showed very low-risk pattern (default rate <0.5%), justifying MVP focus on this segment. I argued biggest risk wasn't experiment failing, but inaction making us lose even more market. Risk board was initially skeptical. To gain confidence, I proposed running model in 'shadow mode' for 30 days, just comparing decisions with analysts. Data showing model consistency and safety convinced them to approve pilot.",
+      "r": "Pilot was exceptional success. For 30% of requests, response time dropped from 5 days to less than 2 minutes, reflecting in 10-point increase in credit journey NPS (from 45 to 55). Default rate in pre-approved group was 10% lower than historical average. Automatic pre-approval processed 2,500 operations/month without human intervention, generating R$125k/month savings in operational costs. Success unlocked R$2M investment for complete AI project.",
+      "l": "I learned best way to overcome innovation resistance is through quick and focused action with data. Successful pilot is more powerful argument than theoretical business case. I replicated this approach at Unimed to test APS product, starting with pilot at single clinic, proving value before scaling to entire network."
+    },
+    "fups": [
+      {
+        "q": "Como você garantiu que modelo MVP fosse suficientemente robusto para gerar confiança, mesmo sendo experimento inicial?",
+        "a": "Focamos na robustez dentro do escopo limitado. Usamos técnicas de 'cross-validation' nos dados históricos para garantir que modelo não estivesse 'viciado'. Mais importante, design do piloto, rodando em 'modo sombra' primeiro e depois apenas em segmento de baixíssimo risco, foi o que construiu confiança, pois impacto de erro seria mínimo.",
+        "q_en": "How did you ensure MVP model was robust enough to generate confidence, even being initial experiment?",
+        "a_en": "I focused on robustness within limited scope. I used 'cross-validation' techniques on historical data to ensure model wasn't 'biased'. More importantly, pilot design, running in 'shadow mode' first and then only in lowest-risk segment, built confidence, as impact of error would be minimal."
+      },
+      {
+        "q": "Quais foram maiores desafios ao lidar com resistência cultural à IA, e como você os superou?",
+        "a": "Maior desafio foi medo do 'desconhecido' e da 'caixa-preta' por parte da área de Risco. Superei com transparência e educação. Apresentei conceitos de 'feature importance' para mostrar quais variáveis modelo estava usando, traduzindo decisão da IA para lógica de negócio que eles podiam entender e validar.",
+        "q_en": "What were biggest challenges dealing with cultural resistance to AI, and how did you overcome them?",
+        "a_en": "Biggest challenge was fear of 'unknown' and 'black box' from Risk area. I overcame with transparency and education. I presented 'feature importance' concepts to show which variables model was using, translating AI decision to business logic they could understand and validate."
+      },
+      {
+        "q": "Após sucesso do piloto, como você adaptou modelo para escalar solução e incluir outros 70% dos casos?",
+        "a": "Escalada foi feita em fases. Fase 2 envolveu treinar modelo para identificar também casos de 'altíssimo risco' para negação automática. Fase 3, mais complexa, foi usar modelo para gerar 'score de risco' para casos intermediários, que era usado como ferramenta de apoio para acelerar decisão do analista humano.",
+        "q_en": "After pilot success, how did you adapt model to scale solution and include other 70% of cases?",
+        "a_en": "Scaling was done in phases. Phase 2 involved training model to also identify 'highest risk' cases for automatic denial. Phase 3, more complex, was using model to generate 'risk score' for intermediate cases, which was used as support tool to accelerate human analyst decision."
+      },
+      {
+        "q": "Como você mediu impacto desse experimento no engajamento ou satisfação do cliente?",
+        "a": "Medimos de forma muito direta. Implementamos pesquisa de NPS de uma única pergunta, enviada imediatamente após comunicação da decisão de crédito. Comparamos NPS do grupo que recebeu resposta em 2 minutos (NPS 55) com grupo que esperou 5 dias (NPS 45). Diferença de 10 pontos provou impacto massivo na experiência do cliente.",
+        "q_en": "How did you measure impact of this experiment on customer engagement or satisfaction?",
+        "a_en": "I measured very directly. I implemented single-question NPS survey, sent immediately after credit decision communication. I compared NPS of group that received response in 2 minutes (NPS 55) with group that waited 5 days (NPS 45). 10-point difference proved massive impact on customer experience."
+      },
+      {
+        "q": "Se tivesse mais tempo para planejar, há algo que você faria diferente em relação ao escopo ou abordagem do experimento?",
+        "a": "Honestamente, não. Acredito que restrição de tempo foi o que nos forçou a ter escopo tão focado e abordagem tão enxuta, o que foi chave do sucesso. Mais tempo de planejamento provavelmente teria nos levado a escopo mais complexo e paralisia por análise, exatamente o que queria evitar.",
+        "q_en": "If you had more time to plan, is there something you'd do differently regarding experiment scope or approach?",
+        "a_en": "Honestly, no. I believe time constraint was what forced us to have such focused scope and lean approach, which was key to success. More planning time probably would have led us to more complex scope and analysis paralysis, exactly what I wanted to avoid."
+      },
+      {
+        "q": "Como você conseguiu recursos (analista e engenheiro) para projeto não oficial?",
+        "a": "Negociei alocação de 20% do tempo deles. Apresentei aos gestores deles oportunidade como projeto de 'P&D' de alto impacto e visibilidade, que também serviria como grande oportunidade de desenvolvimento para próprios funcionários.",
+        "q_en": "How did you get resources (analyst and engineer) for unofficial project?",
+        "a_en": "I negotiated 20% time allocation from them. I presented to their managers the opportunity as high-impact and high-visibility 'R&D' project, which would also serve as great development opportunity for employees themselves."
+      },
+      {
+        "q": "Por que 90 dias? Como você chegou a esse prazo?",
+        "a": "Escolhi 90 dias por ser prazo psicologicamente eficaz. É curto o suficiente para criar senso de urgência e foco, mas longo o suficiente para permitir entrega de resultado tangível.",
+        "q_en": "Why 90 days? How did you arrive at this deadline?",
+        "a_en": "I chose 90 days for being psychologically effective deadline. It's short enough to create sense of urgency and focus, but long enough to allow delivery of tangible result."
+      },
+      {
+        "q": "A equipe de análise manual se sentiu ameaçada pela automação?",
+        "a": "Sim, no início. Lidei posicionando ferramenta como 'assistente'. Mostrei que automação das tarefas repetitivas liberaria tempo deles para se aprofundarem nos casos complexos, onde julgamento humano é insubstituível. Transformei narrativa de 'substituição' para 'valorização'.",
+        "q_en": "Did manual analysis team feel threatened by automation?",
+        "a_en": "Yes, initially. I handled this by positioning tool as 'assistant'. I showed that automating repetitive tasks would free their time to dive deep into complex cases, where human judgment is irreplaceable. I transformed narrative from 'replacement' to 'enhancement'."
+      },
+      {
+        "q": "E se piloto tivesse falhado? Qual era seu plano?",
+        "a": "Design do piloto limitava 'raio da explosão'. Plano era desligar automação imediatamente e conduzir post-mortem para extrair aprendizados, tratando falha como custo de aprendizado baixo e controlado.",
+        "q_en": "What if pilot had failed? What was your plan?",
+        "a_en": "Pilot design limited 'blast radius'. Plan was to immediately turn off automation and conduct post-mortem to extract learnings, treating failure as low and controlled learning cost."
+      },
+      {
+        "q": "Sucesso do piloto não criou risco de outras áreas começarem a lançar projetos de IA sem governança?",
+        "a": "Sim, e agimos sobre isso. Usei sucesso do piloto para defender criação de 'Centro de Excelência em IA', que definiria melhores práticas e framework de governança. Iniciativa de 'guerrilha' serviu como catalisador para criação da estrutura formal.",
+        "q_en": "Didn't pilot success create risk of other areas starting AI projects without governance?",
+        "a_en": "Yes, and I acted on it. I used pilot success to advocate for creating 'AI Center of Excellence', which would define best practices and governance framework. 'Guerrilla' initiative served as catalyst for creating formal structure."
+      }
+    ],
+    "__file": "src\\data\\bias_for_action\\bias_for_action_case2.js",
+    "lp_id": "bias_for_action",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 59,
+      "status": "KO",
+      "positives": [
+        "Customer Obsession forte (4 men��es relevantes)",
+        "M�tricas robustas (21)",
+        "Conflito/endurecimento presente",
+        "Mecanismos/repeatability destacados"
+      ],
+      "warnings": [
+        "Hook inicial pode ser mais contundente",
+        "Transi��es STAR(L) pouco claras"
+      ],
+      "dealbreakers": [
+        "Ratio EU:N�S abaixo de 2:1 (2:2)"
+      ],
+      "suggestions": [
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Ratio EU:N�S abaixo de 2:1 (2:2)",
+          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Hook inicial pode ser mais contundente",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 2:2 (ideal >= 3:1)",
+          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 21",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ],
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 59,
+        "status": "KO",
+        "dealbreakers": [
+          "Ratio EU:N�S abaixo de 2:1 (2:2)"
+        ],
+        "warnings": [
+          "Hook inicial pode ser mais contundente",
+          "Transi��es STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (4 men��es relevantes)",
+          "M�tricas robustas (21)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 21,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 4,
+        "conflictSignals": true,
+        "mechanismSignals": 3,
+        "ratio": {
+          "ratio": 0.5,
+          "counts": {
+            "eu": 2,
+            "nos": 2
+          }
+        },
+        "recency": {
+          "monthsAgo": 58,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 246,
+            "enLen": 221,
+            "deltaPct": 0.1016260162601626
+          },
+          "t": {
+            "ptLen": 371,
+            "enLen": 348,
+            "deltaPct": 0.06199460916442048
+          },
+          "a": {
+            "ptLen": 1255,
+            "enLen": 1158,
+            "deltaPct": 0.07729083665338646
+          },
+          "r": {
+            "ptLen": 477,
+            "enLen": 450,
+            "deltaPct": 0.05660377358490566
+          },
+          "l": {
+            "ptLen": 335,
+            "enLen": 318,
+            "deltaPct": 0.050746268656716415
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": true
+      }
+    }
+  }
+}

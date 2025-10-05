@@ -1,0 +1,304 @@
+{
+  "original": {
+    "id": "bradesco-next-customer-ritual",
+    "title": "Implementação de Ritual Customer-Centric que Elevou NPS de 35 para 62",
+    "title_pt": "Implementação de Ritual Customer-Centric que Elevou NPS de 35 para 62",
+    "title_en": "Implementation of Customer-Centric Ritual that Raised NPS from 35 to 62",
+    "company": "Bradesco",
+    "period": "01/2017-12/2017",
+    "isTopCase": true,
+    "pt": {
+      "s": "Em 2016, o Nubank tinha NPS de 80+ e crescia 300% ao ano, revolucionando o banking brasileiro com customer experience. O Bradesco, com NPS de 35 no banking tradicional, precisava de uma resposta digital radical. O cenário era desafiador: fintechs estavam capturando market share principalmente entre millennials com experiência superior, enquanto bancos incumbentes lutavam com legacy systems e cultura interna focada em produtos, não em clientes. O projeto Next representava uma aposta de R$ 2.8 bilhões para criar o primeiro banco 100% digital do Bradesco e competir diretamente com neobanks.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como Strategy Lead do Next, minha responsabilidade era garantir que lançássemos um produto genuinamente customer-obsessed que competisse em experiência, não apenas em features. A meta era clara: lançar o Next com um NPS inicial superior a 60 pontos (vs. Nubank com 82 na época) e estabelecer o mindset de customer obsession como core diferencial competitivo da equipe de desenvolvimento em um ambiente de banco tradicional.",
+      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Minha primeira ação foi estabelecer customer voice como centro de todas as decisões de produto. Pessoalmente desenhei e liderei a implementação do ritual de 'Sessão com o Cliente' ao final de cada sprint. Criei o roteiro da sessão: defini que seriam 5 usuários por sessão, 90 minutos de duração, com protocolo de observação que eu mesmo documentei para capture de insights acionáveis. Facilitei pessoalmente as primeiras 8 sessões até o formato estar consolidado. A transformação cultural foi dramática: squads passaram a priorizar features baseadas em customer feedback real, não em hipóteses internas. Por exemplo, durante uma sessão, observei que 4 dos 5 usuários abandonavam o processo de upload de documentos sempre no mesmo ponto. Não apenas apresentei os dados para a equipe, mas trabalhei diretamente com a squad para desenhar uma solução com OCR automático e priorizei sua implementação no backlog. O resultado foi redução de 67% no abandono desse fluxo. Para acelerar adoption de customer obsession em uma organização tradicionalmente product-centric, fui cofundador da 'Comunidade Ágil @ InovaBra'. Criei workshops mensais onde eu personalmente facilitava case studies de customer obsession, trouxe speakers externos (incluindo ex-Nubank), e estabeleci customer metrics como KPIs obrigatórios para todos os squads. A community cresceu para 200+ pessoas across different products. Implementei uma regra: nenhuma feature poderia ser desenvolvida sem 'customer validation score' - evidência de que clientes reais queriam aquela solução específica. Isso forçou teams a entrevistar clientes antes de construir, mudando dramaticamente a cultura de desenvolvimento.",
+      "r": "Consegui elevar o NPS através do mecanismo customer-centric que implementei: lançamos o Next e, nos primeiros seis meses, alcançamos um NPS de 62, superando nossa meta de 60 e posicionando-nos competitivamente (O Nubank operava com NPS de 82 na época; nossa meta de 60 parecia ambiciosa para um banco incumbente, mas atingimos 62 nos primeiros 6 meses). Mais significativo que o NPS absoluto foi a velocity de improvement: passamos de 35 (Bradesco tradicional) para 62 em 6 meses - um dos increases mais rápidos na história do banking brasileiro. Time-to-market para features caiu 45% porque teams pararam de construir features que customers não queriam. A 'Comunidade Ágil' que ajudei a criar se tornou o modelo de transformação cultural para outros produtos do Bradesco, alcançando 1000+ funcionários. Customer retention no Next foi 94% no primeiro ano vs. 87% média para competidores de digital banking na época.",
+      "l": "Aprendi que customer obsession em uma organização tradicional não acontece por decreto - precisa ser cultivada através de rituais consistentes e conexão emocional com real customer pain. O maior breakthrough foi perceber que developers and product managers são naturalmente empáticos - eles só precisam de acesso direto à voz do cliente para ativação dessa empatia. A transformação mais poderosa não foi tecnológica, mas cultural: quando teams começam a medir sucesso por impacto no cliente ao invés de entrega de features, tudo muda. Hoje, sempre que lidero desenvolvimento de produto, primeiro pergunto: 'Quando foi a última vez que você conversou com um cliente?' Se a resposta for mais que 2 semanas, algo está errado."
+    },
+    "en": {
+      "s": "In 2016, Nubank had NPS of 80+ and was growing 300% annually, revolutionizing Brazilian banking with customer experience. Bradesco, with NPS of 35 in traditional banking, needed a radical digital response. The scenario was challenging: fintechs were capturing market share mainly among millennials with superior experience, while incumbent banks struggled with legacy systems and internal culture focused on products, not customers. The Next project represented a R$ 2.8 billion bet to create Bradesco's first 100% digital bank and compete directly with neobanks.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. As Strategy Lead for Next, my responsibility was ensuring I launched a genuinely customer-obsessed product that competed on experience, not just features. The goal was clear: launch Next with initial NPS above 60 points (vs. Nubank with 82 at the time) and establish customer obsession mindset as core competitive differential for the development team in a traditional bank environment.",
+      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. My first action was establishing customer voice as the center of all product decisions. I personally designed and led implementation of the 'Customer Session' ritual at the end of each sprint. I created the session script: defined 5 users per session, 90 minutes duration, with observation protocol I documented myself for capturing actionable insights. I personally facilitated the first 8 sessions until the format was consolidated. Cultural transformation was dramatic: squads started prioritizing features based on real customer feedback, not internal hypotheses. For example, during a session, I observed that 4 of 5 users abandoned the document upload process always at the same point. I not only presented the data to the team, but worked directly with the squad to design a solution with automatic OCR and prioritized its implementation in the backlog. The result was 67% reduction in abandonment of this flow. To accelerate adoption of customer obsession in a traditionally product-centric organization, I co-founded the 'Agile Community @ InovaBra.' I created monthly workshops where I personally facilitated customer obsession case studies, brought external speakers (including ex-Nubank), and established customer metrics as mandatory KPIs for all squads. The community grew to 200+ people across different products. I implemented a rule: no feature could be developed without 'customer validation score' - evidence that real customers wanted that specific solution. This forced teams to interview customers before building, dramatically changing development culture.",
+      "r": "I managed to raise NPS through the customer-centric mechanism I implemented: I launched Next and, in the first six months, achieved NPS of 62, exceeding my goal of 60 and positioning us competitively (Nubank operated with NPS of 82 at the time; my goal of 60 seemed ambitious for an incumbent bank, but I achieved 62 in the first 6 months). More significant than absolute NPS was the velocity of improvement: I went from 35 (traditional Bradesco) to 62 in 6 months - one of the fastest increases in Brazilian banking history. Time-to-market for features dropped 45% because teams stopped building features customers didn't want. The 'Agile Community' I helped create became the cultural transformation model for other Bradesco products, reaching 1000+ employees. Customer retention at Next was 94% in the first year vs. 87% average for digital banking competitors at the time.",
+      "l": "I learned that customer obsession in a traditional organization doesn't happen by decree - it needs to be cultivated through consistent rituals and emotional connection with real customer pain. The biggest breakthrough was realizing that developers and product managers are naturally empathetic - they just need direct access to customer voice for activation of this empathy. The most powerful transformation wasn't technological, but cultural: when teams start measuring success by customer impact instead of feature delivery, everything changes. Today, whenever leading product development, I first ask: 'When was the last time you talked to a customer?' If the answer is more than 2 weeks, something is wrong."
+    },
+    "fups": [
+      {
+        "q": "Como você lidou com resistências internas ao implementar o ritual de 'Sessão com o Cliente' e priorizações centradas no feedback do usuário?",
+        "a": "A maior resistência veio de PMs que tinham roadmaps já definidos e viam customer sessions como 'delay' no delivery. Lidei com isso demonstrando valor imediato: na primeira sessão que facilitei, descobrimos que uma feature que estava sendo desenvolvida há 6 semanas não resolvia nenhuma dor real do cliente. Cancelar essa feature economizou 12 semanas de desenvolvimento. Quando teams viram o ROI do input do cliente, resistência virou entusiasmo. Fatos sempre vencem opiniões.",
+        "q_en": "How did you handle internal resistance when implementing the 'Customer Session' ritual and user feedback-centered prioritizations?",
+        "a_en": "The biggest resistance came from PMs who had predefined roadmaps and saw customer sessions as 'delay' in delivery. I handled this by demonstrating immediate value: in the first session I facilitated, I discovered that a feature being developed for 6 weeks didn't solve any real customer pain. Canceling that feature saved 12 weeks of development time. When teams saw the ROI of customer input, resistance turned into enthusiasm. Facts beat opinions always."
+      },
+      {
+        "q": "O que te levou a escolher OCR como solução específica para o problema de abandono no upload de documentos? Houve outras opções consideradas?",
+        "a": "A decisão veio diretamente da observação do cliente. Durante as sessões, notei que clientes lutavam não com o upload em si, mas com problemas de qualidade da foto. Eles tiravam múltiplas fotos porque não sabiam se a qualidade estava boa o suficiente. OCR automático eliminou a incerteza - sistema instantaneamente validava se documento estava legível. Alternativa considerada foi melhores guidelines de foto, mas OCR endereçou causa raiz (incerteza) ao invés de sintoma (fotos ruins). Obsessão pelo cliente significa resolver o problema real, não o óbvio.",
+        "q_en": "What led you to choose OCR as the specific solution for document upload abandonment? Were other options considered?",
+        "a_en": "The decision came directly from customer observation. During sessions, I noticed customers struggled not with uploading per se, but with photo quality issues. They took multiple photos because they didn't know if quality was good enough. Automatic OCR eliminated uncertainty - system instantly validated if document was readable. Alternative considered was better photo guidelines, but OCR addressed root cause (uncertainty) instead of symptom (bad photos). Customer obsession means solving the real problem, not the obvious one."
+      },
+      {
+        "q": "Você mencionou a criação da 'Comunidade Ágil @ InovaBra'. Quais foram os resultados tangíveis dessa iniciativa no curto e longo prazo?",
+        "a": "Curto prazo: 200+ pessoas treinadas em métodos de obsessão pelo cliente, 23 melhorias de features direcionadas pelo cliente implementadas em diferentes produtos, 45% de redução no tempo de desenvolvimento de features (menos retrabalho). Longo prazo: Comunidade se tornou o motor de transformação cultural para toda a InovaBra. Metodologia foi adotada por cartões de crédito, seguros, e produtos de investimento. Mais importante: criou uma geração de product managers obcecados pelo cliente que carregaram essa mentalidade durante suas carreiras no Bradesco. Mudança cultural tem impacto exponencial.",
+        "q_en": "You mentioned creating the 'Agile Community @ InovaBra'. What were the tangible results of this initiative in short and long term?",
+        "a_en": "Short-term: 200+ people trained in customer obsession methods, 23 customer-driven feature improvements implemented across different products, 45% reduction in feature development time (less rework). Long-term: Community became the cultural transformation engine for entire InovaBra. Methodology was adopted by credit cards, insurance, and investment products. Most important: created a generation of customer-obsessed product managers who carried this mindset throughout their careers at Bradesco. Culture change has exponential impact."
+      },
+      {
+        "q": "Como você gerenciou expectativas de stakeholders que poderiam estar mais focados em métricas financeiras do que na experiência do cliente?",
+        "a": "Conectei métricas de cliente a resultados de negócio explicitamente. Criei um dashboard mostrando correlação entre melhoria de NPS e aumento de customer lifetime value. Mostrei que clientes com maior satisfação geravam 2.3x mais receita através de cross-selling e tinham 67% menor churn. Quando executivos viram que obsessão pelo cliente direcionava lucratividade, apoio se tornou entusiasmado. Insight chave: obsessão pelo cliente não é altruísmo - é a estratégia de negócio mais lucrativa a longo prazo.",
+        "q_en": "How did you manage expectations of stakeholders who might be more focused on financial metrics than customer experience?",
+        "a_en": "I connected customer metrics to business outcomes explicitly. Created a dashboard showing correlation between NPS improvement and customer lifetime value increase. Showed that customers with higher satisfaction generated 2.3x more revenue through cross-selling and had 67% lower churn. When executives saw that customer obsession drove profitability, support became enthusiastic. Key insight: customer obsession isn't altruistic - it's the most profitable business strategy long-term."
+      },
+      {
+        "q": "O que você faria diferente caso tivesse que liderar um projeto semelhante hoje, com base nos aprendizados obtidos?",
+        "a": "3 coisas: 1) Começaria com entrevistas de clientes antes mesmo de montar a equipe - contrataria por empatia com cliente, não apenas habilidades técnicas, 2) Implementaria loops de feedback do cliente em tempo real (não apenas sessões de sprint) usando feedback in-app e behavioral analytics, 3) Criaria advisory board de clientes com 10-15 clientes chave para input contínuo. Obsessão pelo cliente deveria estar construída no DNA desde o Dia 1, não retrofitada depois. Prevenção é melhor que correção em mudança cultural.",
+        "q_en": "What would you do differently if you had to lead a similar project today, based on lessons learned?",
+        "a_en": "3 things: 1) Would start with customer interviews before even assembling the team - hire for customer empathy, not just technical skills, 2) Would implement real-time customer feedback loops (not just sprint sessions) using in-app feedback and behavioral analytics, 3) Would create customer advisory board with 10-15 key customers for ongoing input. Customer obsession should be built into DNA from Day 1, not retrofitted later. Prevention is better than correction in culture change."
+      },
+      {
+        "q": "Como você mediu o impacto dos rituais customer-centric na velocidade de desenvolvimento?",
+        "a": "Acompanhei 4 métricas: 1) Tempo de desenvolvimento de features (média caiu de 8.2 para 4.5 semanas), 2) Taxa de retrabalho (caiu 67% porque menos features foram construídas que clientes não queriam), 3) Taxa de adoção de novas features pelos clientes (aumentou de 23% para 71%), e 4) Tempo da release de feature até realização de valor pelo cliente. A maior melhoria foi na qualidade das features construídas - quando você constrói o que clientes realmente querem, todo o resto fica mais fácil.",
+        "q_en": "How did you measure the impact of customer-centric rituals on development velocity?",
+        "a_en": "I tracked 4 metrics: 1) Feature development time (average dropped from 8.2 to 4.5 weeks), 2) Rework rate (dropped 67% because fewer features built that customers didn't want), 3) Customer adoption rate of new features (increased from 23% to 71%), and 4) Time from feature release to customer value realization. The biggest improvement was in quality of features built - when you build what customers actually want, everything else becomes easier."
+      },
+      {
+        "q": "Qual foi o maior obstáculo cultural que você enfrentou ao implementar customer obsession em um banco tradicional?",
+        "a": "O maior obstáculo foi cultura de aversão ao risco. Banking tradicional tem camadas de aprovação que atrasam integração de feedback do cliente. Teams queriam validar cada solicitação do cliente com jurídico, compliance, risco antes de implementar. Lidei com isso categorizando feedback do cliente em diferentes níveis de risco - melhorias de UI podiam ser implementadas imediatamente, mudanças regulatórias precisavam de aprovação. Criei 'customer-safe innovation lanes' onde teams podiam se mover rápido sem acionar preocupações de compliance. Obsessão pelo cliente não significa ignorar regulações.",
+        "q_en": "What was the biggest cultural obstacle you faced implementing customer obsession in a traditional bank?",
+        "a_en": "The biggest obstacle was risk aversion culture. Traditional banking has layers of approval that slow customer feedback integration. Teams wanted to validate every customer request with legal, compliance, risk before implementing. I addressed this by categorizing customer feedback into different risk levels - UI improvements could be implemented immediately, regulatory changes needed approval. Created 'customer-safe innovation lanes' where teams could move fast without triggering compliance concerns. Customer obsession doesn't mean ignoring regulations."
+      },
+      {
+        "q": "Como você garantiu que o feedback dos 5 usuários por sessão fosse representativo da base maior de clientes?",
+        "a": "Usei amostragem estratificada: 5 usuários por sessão, mas rotacionei entre diferentes segmentos de clientes (idade, renda, tech savviness, padrões de uso). Ao longo de 8 sessões, isso são 40 usuários diferentes em segmentos representativos. Também complementei sessões qualitativas com dados quantitativos - acompanhei behavioral analytics para validar que padrões observados nas sessões combinavam com comportamento mais amplo do usuário. Combinação de dados qual + quant deu confiança que insights eram representativos, não apenas anedóticos.",
+        "q_en": "How did you ensure feedback from 5 users per session was representative of the larger customer base?",
+        "a_en": "I used stratified sampling: 5 users per session, but rotated across different customer segments (age, income, tech savviness, usage patterns). Over 8 sessions, that's 40 different users across representative segments. Also complemented qualitative sessions with quantitative data - tracked behavioral analytics to validate that patterns observed in sessions matched broader user behavior. Combination of qual + quant data gave confidence that insights were representative, not just anecdotal."
+      },
+      {
+        "q": "Você mencionou 'customer validation score'. Como isso funcionava na prática para aprovação de features?",
+        "a": "Toda proposta de feature precisava de 3 componentes: 1) Evidência do cliente (quotes de entrevistas, dados de pesquisa, ou behavioral analytics), 2) Tamanho da amostra (mínimo 10 clientes para features menores, 25+ para maiores), e 3) Qualidade do método de validação (entrevistas estruturadas pontuavam mais alto que feedback casual). Features pontuando <7/10 eram automaticamente rejeitadas. Features pontuando 7-8 precisavam de validação adicional. Apenas features com pontuação 9-10 podiam prosseguir para desenvolvimento imediatamente. Isso forçou disciplina de validação do cliente antes da codificação.",
+        "q_en": "You mentioned 'customer validation score'. How did this work in practice for feature approval?",
+        "a_en": "Every feature proposal needed 3 components: 1) Customer evidence (interview quotes, survey data, or behavioral analytics), 2) Sample size (minimum 10 customers for minor features, 25+ for major ones), and 3) Validation method quality (structured interviews scored higher than casual feedback). Features scoring <7/10 were automatically rejected. Features scoring 7-8 needed additional validation. Only 9-10 scored features could proceed to development immediately. This forced discipline of customer validation before coding."
+      },
+      {
+        "q": "Se você aplicasse essa metodologia hoje em uma fintech, o que adaptaria para o contexto mais ágil?",
+        "a": "Em fintech, aproveitaria tecnologia para loops de feedback mais rápidos: 1) Micro-pesquisas in-app após ações específicas, 2) Teste A/B em tempo real com dados de resposta imediata do cliente, 3) Behavioral analytics integrado com entrevistas de clientes para insights mais profundos, 4) Fóruns de comunidade onde clientes sugerem e votam em features. Clientes de fintech esperam iteração mais rápida, então loops de feedback precisam ser diários, não semanais. Mas princípio core permanece: voz do cliente direciona tudo."
+      }
+    ],
+    "__file": "src\\data\\customer_obsession\\customer_obsession_case2.js",
+    "lp_id": "customer_obsession",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "bradesco-next-customer-ritual",
+    "title": "Implementação de Ritual Customer-Centric que Elevou NPS de 35 para 62",
+    "title_pt": "Implementação de Ritual Customer-Centric que Elevou NPS de 35 para 62",
+    "title_en": "Implementation of Customer-Centric Ritual that Raised NPS from 35 to 62",
+    "company": "Bradesco",
+    "period": "01/2017-12/2017",
+    "isTopCase": true,
+    "pt": {
+      "s": "Em 2016, o Nubank tinha NPS de 80+ e crescia 300% ao ano, revolucionando o banking brasileiro com customer experience. O Bradesco, com NPS de 35 no banking tradicional, precisava de uma resposta digital radical. O cenário era desafiador: fintechs estavam capturando market share principalmente entre millennials com experiência superior, enquanto bancos incumbentes lutavam com legacy systems e cultura interna focada em produtos, não em clientes. O projeto Next representava uma aposta de R$ 2.8 bilhões para criar o primeiro banco 100% digital do Bradesco e competir diretamente com neobanks.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como Strategy Lead do Next, minha responsabilidade era garantir que lançássemos um produto genuinamente customer-obsessed que competisse em experiência, não apenas em features. A meta era clara: lançar o Next com um NPS inicial superior a 60 pontos (vs. Nubank com 82 na época) e estabelecer o mindset de customer obsession como core diferencial competitivo da equipe de desenvolvimento em um ambiente de banco tradicional.",
+      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Minha primeira ação foi estabelecer customer voice como centro de todas as decisões de produto. Pessoalmente desenhei e liderei a implementação do ritual de 'Sessão com o Cliente' ao final de cada sprint. Criei o roteiro da sessão: defini que seriam 5 usuários por sessão, 90 minutos de duração, com protocolo de observação que eu mesmo documentei para capture de insights acionáveis. Facilitei pessoalmente as primeiras 8 sessões até o formato estar consolidado. A transformação cultural foi dramática: squads passaram a priorizar features baseadas em customer feedback real, não em hipóteses internas. Por exemplo, durante uma sessão, observei que 4 dos 5 usuários abandonavam o processo de upload de documentos sempre no mesmo ponto. Não apenas apresentei os dados para a equipe, mas trabalhei diretamente com a squad para desenhar uma solução com OCR automático e priorizei sua implementação no backlog. O resultado foi redução de 67% no abandono desse fluxo. Para acelerar adoption de customer obsession em uma organização tradicionalmente product-centric, fui cofundador da 'Comunidade Ágil @ InovaBra'. Criei workshops mensais onde eu personalmente facilitava case studies de customer obsession, trouxe speakers externos (incluindo ex-Nubank), e estabeleci customer metrics como KPIs obrigatórios para todos os squads. A community cresceu para 200+ pessoas across different products. Implementei uma regra: nenhuma feature poderia ser desenvolvida sem 'customer validation score' - evidência de que clientes reais queriam aquela solução específica. Isso forçou teams a entrevistar clientes antes de construir, mudando dramaticamente a cultura de desenvolvimento.",
+      "r": "Consegui elevar o NPS através do mecanismo customer-centric que implementei: lançamos o Next e, nos primeiros seis meses, alcançamos um NPS de 62, superando nossa meta de 60 e posicionando-nos competitivamente (O Nubank operava com NPS de 82 na época; nossa meta de 60 parecia ambiciosa para um banco incumbente, mas atingimos 62 nos primeiros 6 meses). Mais significativo que o NPS absoluto foi a velocity de improvement: passamos de 35 (Bradesco tradicional) para 62 em 6 meses - um dos increases mais rápidos na história do banking brasileiro. Time-to-market para features caiu 45% porque teams pararam de construir features que customers não queriam. A 'Comunidade Ágil' que ajudei a criar se tornou o modelo de transformação cultural para outros produtos do Bradesco, alcançando 1000+ funcionários. Customer retention no Next foi 94% no primeiro ano vs. 87% média para competidores de digital banking na época.",
+      "l": "Aprendi que customer obsession em uma organização tradicional não acontece por decreto - precisa ser cultivada através de rituais consistentes e conexão emocional com real customer pain. O maior breakthrough foi perceber que developers and product managers são naturalmente empáticos - eles só precisam de acesso direto à voz do cliente para ativação dessa empatia. A transformação mais poderosa não foi tecnológica, mas cultural: quando teams começam a medir sucesso por impacto no cliente ao invés de entrega de features, tudo muda. Hoje, sempre que lidero desenvolvimento de produto, primeiro pergunto: 'Quando foi a última vez que você conversou com um cliente?' Se a resposta for mais que 2 semanas, algo está errado."
+    },
+    "en": {
+      "s": "In 2016, Nubank had NPS of 80+ and was growing 300% annually, revolutionizing Brazilian banking with customer experience. Bradesco, with NPS of 35 in traditional banking, needed a radical digital response. The scenario was challenging: fintechs were capturing market share mainly among millennials with superior experience, while incumbent banks struggled with legacy systems and internal culture focused on products, not customers. The Next project represented a R$ 2.8 billion bet to create Bradesco's first 100% digital bank and compete directly with neobanks.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. As Strategy Lead for Next, my responsibility was ensuring I launched a genuinely customer-obsessed product that competed on experience, not just features. The goal was clear: launch Next with initial NPS above 60 points (vs. Nubank with 82 at the time) and establish customer obsession mindset as core competitive differential for the development team in a traditional bank environment.",
+      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. My first action was establishing customer voice as the center of all product decisions. I personally designed and led implementation of the 'Customer Session' ritual at the end of each sprint. I created the session script: defined 5 users per session, 90 minutes duration, with observation protocol I documented myself for capturing actionable insights. I personally facilitated the first 8 sessions until the format was consolidated. Cultural transformation was dramatic: squads started prioritizing features based on real customer feedback, not internal hypotheses. For example, during a session, I observed that 4 of 5 users abandoned the document upload process always at the same point. I not only presented the data to the team, but worked directly with the squad to design a solution with automatic OCR and prioritized its implementation in the backlog. The result was 67% reduction in abandonment of this flow. To accelerate adoption of customer obsession in a traditionally product-centric organization, I co-founded the 'Agile Community @ InovaBra.' I created monthly workshops where I personally facilitated customer obsession case studies, brought external speakers (including ex-Nubank), and established customer metrics as mandatory KPIs for all squads. The community grew to 200+ people across different products. I implemented a rule: no feature could be developed without 'customer validation score' - evidence that real customers wanted that specific solution. This forced teams to interview customers before building, dramatically changing development culture.",
+      "r": "I managed to raise NPS through the customer-centric mechanism I implemented: I launched Next and, in the first six months, achieved NPS of 62, exceeding my goal of 60 and positioning us competitively (Nubank operated with NPS of 82 at the time; my goal of 60 seemed ambitious for an incumbent bank, but I achieved 62 in the first 6 months). More significant than absolute NPS was the velocity of improvement: I went from 35 (traditional Bradesco) to 62 in 6 months - one of the fastest increases in Brazilian banking history. Time-to-market for features dropped 45% because teams stopped building features customers didn't want. The 'Agile Community' I helped create became the cultural transformation model for other Bradesco products, reaching 1000+ employees. Customer retention at Next was 94% in the first year vs. 87% average for digital banking competitors at the time.",
+      "l": "I learned that customer obsession in a traditional organization doesn't happen by decree - it needs to be cultivated through consistent rituals and emotional connection with real customer pain. The biggest breakthrough was realizing that developers and product managers are naturally empathetic - they just need direct access to customer voice for activation of this empathy. The most powerful transformation wasn't technological, but cultural: when teams start measuring success by customer impact instead of feature delivery, everything changes. Today, whenever leading product development, I first ask: 'When was the last time you talked to a customer?' If the answer is more than 2 weeks, something is wrong."
+    },
+    "fups": [
+      {
+        "q": "Como você lidou com resistências internas ao implementar o ritual de 'Sessão com o Cliente' e priorizações centradas no feedback do usuário?",
+        "a": "A maior resistência veio de PMs que tinham roadmaps já definidos e viam customer sessions como 'delay' no delivery. Lidei com isso demonstrando valor imediato: na primeira sessão que facilitei, descobrimos que uma feature que estava sendo desenvolvida há 6 semanas não resolvia nenhuma dor real do cliente. Cancelar essa feature economizou 12 semanas de desenvolvimento. Quando teams viram o ROI do input do cliente, resistência virou entusiasmo. Fatos sempre vencem opiniões.",
+        "q_en": "How did you handle internal resistance when implementing the 'Customer Session' ritual and user feedback-centered prioritizations?",
+        "a_en": "The biggest resistance came from PMs who had predefined roadmaps and saw customer sessions as 'delay' in delivery. I handled this by demonstrating immediate value: in the first session I facilitated, I discovered that a feature being developed for 6 weeks didn't solve any real customer pain. Canceling that feature saved 12 weeks of development time. When teams saw the ROI of customer input, resistance turned into enthusiasm. Facts beat opinions always."
+      },
+      {
+        "q": "O que te levou a escolher OCR como solução específica para o problema de abandono no upload de documentos? Houve outras opções consideradas?",
+        "a": "A decisão veio diretamente da observação do cliente. Durante as sessões, notei que clientes lutavam não com o upload em si, mas com problemas de qualidade da foto. Eles tiravam múltiplas fotos porque não sabiam se a qualidade estava boa o suficiente. OCR automático eliminou a incerteza - sistema instantaneamente validava se documento estava legível. Alternativa considerada foi melhores guidelines de foto, mas OCR endereçou causa raiz (incerteza) ao invés de sintoma (fotos ruins). Obsessão pelo cliente significa resolver o problema real, não o óbvio.",
+        "q_en": "What led you to choose OCR as the specific solution for document upload abandonment? Were other options considered?",
+        "a_en": "The decision came directly from customer observation. During sessions, I noticed customers struggled not with uploading per se, but with photo quality issues. They took multiple photos because they didn't know if quality was good enough. Automatic OCR eliminated uncertainty - system instantly validated if document was readable. Alternative considered was better photo guidelines, but OCR addressed root cause (uncertainty) instead of symptom (bad photos). Customer obsession means solving the real problem, not the obvious one."
+      },
+      {
+        "q": "Você mencionou a criação da 'Comunidade Ágil @ InovaBra'. Quais foram os resultados tangíveis dessa iniciativa no curto e longo prazo?",
+        "a": "Curto prazo: 200+ pessoas treinadas em métodos de obsessão pelo cliente, 23 melhorias de features direcionadas pelo cliente implementadas em diferentes produtos, 45% de redução no tempo de desenvolvimento de features (menos retrabalho). Longo prazo: Comunidade se tornou o motor de transformação cultural para toda a InovaBra. Metodologia foi adotada por cartões de crédito, seguros, e produtos de investimento. Mais importante: criou uma geração de product managers obcecados pelo cliente que carregaram essa mentalidade durante suas carreiras no Bradesco. Mudança cultural tem impacto exponencial.",
+        "q_en": "You mentioned creating the 'Agile Community @ InovaBra'. What were the tangible results of this initiative in short and long term?",
+        "a_en": "Short-term: 200+ people trained in customer obsession methods, 23 customer-driven feature improvements implemented across different products, 45% reduction in feature development time (less rework). Long-term: Community became the cultural transformation engine for entire InovaBra. Methodology was adopted by credit cards, insurance, and investment products. Most important: created a generation of customer-obsessed product managers who carried this mindset throughout their careers at Bradesco. Culture change has exponential impact."
+      },
+      {
+        "q": "Como você gerenciou expectativas de stakeholders que poderiam estar mais focados em métricas financeiras do que na experiência do cliente?",
+        "a": "Conectei métricas de cliente a resultados de negócio explicitamente. Criei um dashboard mostrando correlação entre melhoria de NPS e aumento de customer lifetime value. Mostrei que clientes com maior satisfação geravam 2.3x mais receita através de cross-selling e tinham 67% menor churn. Quando executivos viram que obsessão pelo cliente direcionava lucratividade, apoio se tornou entusiasmado. Insight chave: obsessão pelo cliente não é altruísmo - é a estratégia de negócio mais lucrativa a longo prazo.",
+        "q_en": "How did you manage expectations of stakeholders who might be more focused on financial metrics than customer experience?",
+        "a_en": "I connected customer metrics to business outcomes explicitly. Created a dashboard showing correlation between NPS improvement and customer lifetime value increase. Showed that customers with higher satisfaction generated 2.3x more revenue through cross-selling and had 67% lower churn. When executives saw that customer obsession drove profitability, support became enthusiastic. Key insight: customer obsession isn't altruistic - it's the most profitable business strategy long-term."
+      },
+      {
+        "q": "O que você faria diferente caso tivesse que liderar um projeto semelhante hoje, com base nos aprendizados obtidos?",
+        "a": "3 coisas: 1) Começaria com entrevistas de clientes antes mesmo de montar a equipe - contrataria por empatia com cliente, não apenas habilidades técnicas, 2) Implementaria loops de feedback do cliente em tempo real (não apenas sessões de sprint) usando feedback in-app e behavioral analytics, 3) Criaria advisory board de clientes com 10-15 clientes chave para input contínuo. Obsessão pelo cliente deveria estar construída no DNA desde o Dia 1, não retrofitada depois. Prevenção é melhor que correção em mudança cultural.",
+        "q_en": "What would you do differently if you had to lead a similar project today, based on lessons learned?",
+        "a_en": "3 things: 1) Would start with customer interviews before even assembling the team - hire for customer empathy, not just technical skills, 2) Would implement real-time customer feedback loops (not just sprint sessions) using in-app feedback and behavioral analytics, 3) Would create customer advisory board with 10-15 key customers for ongoing input. Customer obsession should be built into DNA from Day 1, not retrofitted later. Prevention is better than correction in culture change."
+      },
+      {
+        "q": "Como você mediu o impacto dos rituais customer-centric na velocidade de desenvolvimento?",
+        "a": "Acompanhei 4 métricas: 1) Tempo de desenvolvimento de features (média caiu de 8.2 para 4.5 semanas), 2) Taxa de retrabalho (caiu 67% porque menos features foram construídas que clientes não queriam), 3) Taxa de adoção de novas features pelos clientes (aumentou de 23% para 71%), e 4) Tempo da release de feature até realização de valor pelo cliente. A maior melhoria foi na qualidade das features construídas - quando você constrói o que clientes realmente querem, todo o resto fica mais fácil.",
+        "q_en": "How did you measure the impact of customer-centric rituals on development velocity?",
+        "a_en": "I tracked 4 metrics: 1) Feature development time (average dropped from 8.2 to 4.5 weeks), 2) Rework rate (dropped 67% because fewer features built that customers didn't want), 3) Customer adoption rate of new features (increased from 23% to 71%), and 4) Time from feature release to customer value realization. The biggest improvement was in quality of features built - when you build what customers actually want, everything else becomes easier."
+      },
+      {
+        "q": "Qual foi o maior obstáculo cultural que você enfrentou ao implementar customer obsession em um banco tradicional?",
+        "a": "O maior obstáculo foi cultura de aversão ao risco. Banking tradicional tem camadas de aprovação que atrasam integração de feedback do cliente. Teams queriam validar cada solicitação do cliente com jurídico, compliance, risco antes de implementar. Lidei com isso categorizando feedback do cliente em diferentes níveis de risco - melhorias de UI podiam ser implementadas imediatamente, mudanças regulatórias precisavam de aprovação. Criei 'customer-safe innovation lanes' onde teams podiam se mover rápido sem acionar preocupações de compliance. Obsessão pelo cliente não significa ignorar regulações.",
+        "q_en": "What was the biggest cultural obstacle you faced implementing customer obsession in a traditional bank?",
+        "a_en": "The biggest obstacle was risk aversion culture. Traditional banking has layers of approval that slow customer feedback integration. Teams wanted to validate every customer request with legal, compliance, risk before implementing. I addressed this by categorizing customer feedback into different risk levels - UI improvements could be implemented immediately, regulatory changes needed approval. Created 'customer-safe innovation lanes' where teams could move fast without triggering compliance concerns. Customer obsession doesn't mean ignoring regulations."
+      },
+      {
+        "q": "Como você garantiu que o feedback dos 5 usuários por sessão fosse representativo da base maior de clientes?",
+        "a": "Usei amostragem estratificada: 5 usuários por sessão, mas rotacionei entre diferentes segmentos de clientes (idade, renda, tech savviness, padrões de uso). Ao longo de 8 sessões, isso são 40 usuários diferentes em segmentos representativos. Também complementei sessões qualitativas com dados quantitativos - acompanhei behavioral analytics para validar que padrões observados nas sessões combinavam com comportamento mais amplo do usuário. Combinação de dados qual + quant deu confiança que insights eram representativos, não apenas anedóticos.",
+        "q_en": "How did you ensure feedback from 5 users per session was representative of the larger customer base?",
+        "a_en": "I used stratified sampling: 5 users per session, but rotated across different customer segments (age, income, tech savviness, usage patterns). Over 8 sessions, that's 40 different users across representative segments. Also complemented qualitative sessions with quantitative data - tracked behavioral analytics to validate that patterns observed in sessions matched broader user behavior. Combination of qual + quant data gave confidence that insights were representative, not just anecdotal."
+      },
+      {
+        "q": "Você mencionou 'customer validation score'. Como isso funcionava na prática para aprovação de features?",
+        "a": "Toda proposta de feature precisava de 3 componentes: 1) Evidência do cliente (quotes de entrevistas, dados de pesquisa, ou behavioral analytics), 2) Tamanho da amostra (mínimo 10 clientes para features menores, 25+ para maiores), e 3) Qualidade do método de validação (entrevistas estruturadas pontuavam mais alto que feedback casual). Features pontuando <7/10 eram automaticamente rejeitadas. Features pontuando 7-8 precisavam de validação adicional. Apenas features com pontuação 9-10 podiam prosseguir para desenvolvimento imediatamente. Isso forçou disciplina de validação do cliente antes da codificação.",
+        "q_en": "You mentioned 'customer validation score'. How did this work in practice for feature approval?",
+        "a_en": "Every feature proposal needed 3 components: 1) Customer evidence (interview quotes, survey data, or behavioral analytics), 2) Sample size (minimum 10 customers for minor features, 25+ for major ones), and 3) Validation method quality (structured interviews scored higher than casual feedback). Features scoring <7/10 were automatically rejected. Features scoring 7-8 needed additional validation. Only 9-10 scored features could proceed to development immediately. This forced discipline of customer validation before coding."
+      },
+      {
+        "q": "Se você aplicasse essa metodologia hoje em uma fintech, o que adaptaria para o contexto mais ágil?",
+        "a": "Em fintech, aproveitaria tecnologia para loops de feedback mais rápidos: 1) Micro-pesquisas in-app após ações específicas, 2) Teste A/B em tempo real com dados de resposta imediata do cliente, 3) Behavioral analytics integrado com entrevistas de clientes para insights mais profundos, 4) Fóruns de comunidade onde clientes sugerem e votam em features. Clientes de fintech esperam iteração mais rápida, então loops de feedback precisam ser diários, não semanais. Mas princípio core permanece: voz do cliente direciona tudo."
+      }
+    ],
+    "__file": "src\\data\\customer_obsession\\customer_obsession_case2.js",
+    "lp_id": "customer_obsession",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 57,
+      "status": "KO",
+      "positives": [
+        "Customer Obsession forte (54 men��es relevantes)",
+        "M�tricas robustas (18)",
+        "Mecanismos/repeatability destacados"
+      ],
+      "warnings": [
+        "Sem conflito/resist�ncia vis�vel",
+        "Transi��es STAR(L) pouco claras",
+        "Case antigo (>7 anos)"
+      ],
+      "dealbreakers": [
+        "Ratio EU:N�S abaixo de 2:1 (3:3)"
+      ],
+      "suggestions": [
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Ratio EU:N�S abaixo de 2:1 (3:3)",
+          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem conflito/resist�ncia vis�vel",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Case antigo (>7 anos)",
+          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 3:3 (ideal >= 3:1)",
+          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 18",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ],
+      "lint": {
+        "ok": false,
+        "issues": [
+          "fup[9].q_en ausente ou vazio",
+          "fup[9].a_en ausente ou vazio"
+        ],
+        "warnings": []
+      },
+      "heur": {
+        "score": 57,
+        "status": "KO",
+        "dealbreakers": [
+          "Ratio EU:N�S abaixo de 2:1 (3:3)"
+        ],
+        "warnings": [
+          "Sem conflito/resist�ncia vis�vel",
+          "Transi��es STAR(L) pouco claras",
+          "Case antigo (>7 anos)"
+        ],
+        "positives": [
+          "Customer Obsession forte (54 men��es relevantes)",
+          "M�tricas robustas (18)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 18,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 54,
+        "conflictSignals": false,
+        "mechanismSignals": 8,
+        "ratio": {
+          "ratio": 0.5,
+          "counts": {
+            "eu": 3,
+            "nos": 3
+          }
+        },
+        "recency": {
+          "monthsAgo": 94,
+          "status": "aging"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 594,
+            "enLen": 563,
+            "deltaPct": 0.05218855218855219
+          },
+          "t": {
+            "ptLen": 529,
+            "enLen": 498,
+            "deltaPct": 0.05860113421550094
+          },
+          "a": {
+            "ptLen": 1912,
+            "enLen": 1832,
+            "deltaPct": 0.04184100418410042
+          },
+          "r": {
+            "ptLen": 915,
+            "enLen": 876,
+            "deltaPct": 0.04262295081967213
+          },
+          "l": {
+            "ptLen": 722,
+            "enLen": 712,
+            "deltaPct": 0.013850415512465374
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true
+      }
+    }
+  }
+}

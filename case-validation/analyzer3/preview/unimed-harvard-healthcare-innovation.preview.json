@@ -1,0 +1,297 @@
+{
+  "original": {
+    "id": "unimed-harvard-healthcare-innovation",
+    "title": "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde",
+    "title_pt": "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde",
+    "title_en": "Applying Harvard Concepts to Launch New Digital Health Products",
+    "company": "Unimed",
+    "period": "01/2021-12/2024",
+    "isTopCase": true,
+    "pt": {
+      "s": "Na Unimed, identifiquei que a empresa líder de mercado estava operando com modelo tradicional enquanto healthtechs como Alice e Sami cresciam 300% ao ano capturando participação de mercado com experiências superiores. Havia necessidade urgente de inovar, mas a organização carecia completamente de frameworks modernos para pensar além do plano de saúde convencional. Nossas tentativas anteriores de inovação falharam por falta de metodologia estruturada - 3 projetos digitais anteriores foram descontinuados após 6 meses por não gerarem valor claro.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era estruturar a área de inovação e liderar o lançamento de novos produtos digitais que competissem diretamente com healthtechs. Identifiquei que precisava de conhecimento acadêmico de ponta para competir com startups que usavam frameworks de Stanford e Harvard. Investi US$ 3.200 do meu próprio orçamento e 120 horas ao longo de 8 semanas para completar o curso 'Innovating in Healthcare' na Harvard School of Public Health, com meta clara de traduzir pelo menos 3 conceitos específicos em produtos concretos mensuráveis. Escolhi Harvard especificamente porque era a única instituição que combinava rigor acadêmico com cases reais de transformação em healthcare incumbents similares à Unimed.",
+      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Apliquei diretamente 3 conceitos transformadores do curso. Primeiro: 'Value-Based Healthcare' como foundation para o produto de APS (Atenção Primária à Saúde), usando modelos econômicos de Harvard para demonstrar à diretoria como foco em prevenção reduziria custos de internação em 15-25% baseado em benchmarks acadêmicos. Segundo: estruturei 6 workshops mensais de 90 minutos chamados 'Pílulas de Inovação'. Cada um seguia estrutura rigorosa: (1) 20min de teoria (framework específico de Harvard), (2) 40min de aplicação prática em grupos de 6 pessoas, (3) 30min de apresentação e feedback. Facilitei pessoalmente todos os 6 workshops, treinando 45 pessoas diretas que se tornaram multiplicadores internos. Resultado direto foi que duas squads de produto redesenharam completamente seus roadmaps para focar em métricas de 'outcome' versus 'output' - trabalhei pessoalmente com cada squad leader para aplicar Value Proposition Canvas que aprendi no curso. Terceiro: usei conceito de 'Digital Health Ecosystems' para reposicionar Pet Saúde e Checklist Executivo como ecossistema integrado de cuidado familiar, não produtos isolados. O maior desafio foi adaptar conceito americano de 'gatekeeper' para realidade brasileira. O modelo dos EUA não funcionaria por questões culturais (brasileiros resistem à autoridade) e regulatórias (CRM proíbe). Passei 2 semanas desenhando modelo alternativo: em vez de obrigar paciente a passar pelo clínico geral, criamos sistema de incentivos progressivos (descontos de 10-30%, pontos de fidelidade, benefícios exclusivos) para quem aderisse voluntariamente. Apresentei pessoalmente ao conselho médico e negociei aprovação após 3 reuniões de refinamento.",
+      "r": "A aplicação desses conceitos foi fundamental para o lançamento bem-sucedido dos 4 novos produtos digitais. O produto APS impactou 20.000 beneficiários nos primeiros 18 meses, contribuindo diretamente para redução de 15% nos custos hospitalares (economia de R$ 4 milhões no primeiro ano vs. baseline anterior de R$ 26.7M em custos hospitalares). Isso superou projeções do curso de Harvard que indicavam 10-12% de redução típica. Os workshops 'Pílulas de Inovação' criaram primeira geração de innovation champions internos - 87% dos participantes reportaram aplicar pelo menos 1 framework em seus projetos diários. O novo posicionamento estratégico como digital health ecosystem ajudou a impulsionar crescimento de 22% no EBITDA (vs. 8% de crescimento médio do setor) e aumento de 6 pontos no NPS (de 28 para 34). ROI do investimento em learning foi extraordinário: US$ 3.200 investidos geraram R$ 4M+ de impacto direto no primeiro ano - ROI de 37.400%. Mais importante: metodologia foi institucionalizada - Unimed agora envia 2 líderes por ano para cursos de Harvard com exigência de apresentar plano de implementação.",
+      "l": "Aprendi que curiosidade estruturada com propósito de aplicação tem ROI exponencialmente maior que aprendizado passivo. O curso deu ferramentas, mas minha curiosidade em aplicá-las especificamente à realidade brasileira de healthcare gerou resultados breakthrough. Descobri que adaptação é mais valiosa que adoção - pegar frameworks globais e localizá-los para contexto brasileiro cria vantagem competitiva porque competidores simplesmente copiam sem entender nuances culturais. Hoje, sempre que enfrentado com desafio estratégico, primeiro pergunto: 'Onde no mundo esse problema já foi resolvido?' Então invisto em aprender com os melhores antes de tentar reinventar internamente."
+    },
+    "en": {
+      "s": "At Unimed, I identified that the market-leading company was operating with traditional model while healthtechs like Alice and Sami were growing 300% annually capturing market share with superior experiences. There was urgent need to innovate, but the organization completely lacked modern frameworks to think beyond conventional health plans. Our previous innovation attempts failed due to lack of structured methodology - 3 previous digital projects were discontinued after 6 months for not generating clear value.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to structure the innovation area and lead the launch of new digital products that would compete directly with healthtechs. I identified that I needed cutting-edge academic knowledge to compete with startups that used Stanford and Harvard frameworks. I invested US$ 3,200 from my own budget and 120 hours over 8 weeks to complete 'Innovating in Healthcare' at Harvard School of Public Health, with clear goal of translating at least 3 specific concepts into concrete measurable products. I chose Harvard specifically because it was the only institution that combined academic rigor with real cases of transformation in healthcare incumbents similar to Unimed.",
+      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I directly applied 3 transformative concepts from the course. First: 'Value-Based Healthcare' as foundation for the APS (Primary Health Care) product, using Harvard economic models to demonstrate to the board how prevention focus would reduce hospitalization costs by 15-25% based on academic benchmarks. Second: I structured 6 monthly 90-minute workshops called 'Innovation Pills.' Each followed rigorous structure: (1) 20min theory (specific Harvard framework), (2) 40min practical application in groups of 6 people, (3) 30min presentation and feedback. I personally facilitated all 6 workshops, training 45 direct people who became internal multipliers. Direct result was two product squads completely redesigned their roadmaps to focus on 'outcome' versus 'output' metrics - I personally worked with each squad leader to apply Value Proposition Canvas I learned in the course. Third: I used 'Digital Health Ecosystems' concept to reposition Pet Health and Executive Checklist as integrated family care ecosystem, not isolated products. The biggest challenge was adapting American 'gatekeeper' concept to Brazilian reality. The US model wouldn't work due to cultural issues (Brazilians resist authority) and regulatory ones (CRM prohibits). I spent 2 weeks designing alternative model: instead of forcing patients through general practitioner, I created progressive incentive system (10-30% discounts, loyalty points, exclusive benefits) for voluntary adherence. I personally presented to medical board and negotiated approval after 3 refinement meetings.",
+      "r": "Applying these concepts was fundamental for successful launch of 4 new digital products. The APS product impacted 20,000 beneficiaries in first 18 months, contributing directly to 15% reduction in hospital costs (R$ 4 million savings in first year vs. previous baseline of R$ 26.7M in hospital costs). This exceeded Harvard course projections indicating typical 10-12% reduction. The 'Innovation Pills' workshops created first generation of internal innovation champions - 87% of participants reported applying at least 1 framework in their daily projects. The new strategic positioning as digital health ecosystem helped drive 22% EBITDA growth (vs. 8% sector average growth) and 6-point NPS increase (from 28 to 34). ROI of learning investment was extraordinary: US$ 3,200 invested generated R$ 4M+ direct impact in first year - ROI of 37,400%. More importantly: methodology was institutionalized - Unimed now sends 2 leaders per year to Harvard courses with requirement to present implementation plan.",
+      "l": "I learned that structured curiosity with application purpose has exponentially higher ROI than passive learning. The course provided tools, but my curiosity in applying them specifically to Brazilian healthcare reality generated breakthrough results. I discovered that adaptation is more valuable than adoption - taking global frameworks and localizing them for Brazilian context creates competitive advantage because competitors simply copy without understanding cultural nuances. Today, whenever faced with strategic challenge, I first ask: 'Where in the world has this problem already been solved?' Then invest in learning from the best before trying to reinvent internally."
+    },
+    "fups": [
+      {
+        "q": "O que te levou a priorizar o conceito de 'Value-Based Healthcare' para APS em vez de outras abordagens disponíveis no mercado?",
+        "a": "A decisão foi baseada em dados e análise que fiz dos pain points da Unimed. Descobri que 68% dos meu custos vinham de internações de emergência que poderiam ser prevenidas com atenção primária. Value-Based Healthcare endereçava diretamente minha maior dor financeira, enquanto outras abordagens como 'patient engagement' eram mais suaves e difíceis de medir ROI. Estudos de caso de Harvard mostravam redução de custos de 15-25% - exatamente a faixa que precisávamos para justificar investimento à diretoria.",
+        "q_en": "What led you to prioritize the 'Value-Based Healthcare' concept for APS instead of other approaches available in the market?",
+        "a_en": "The decision was data-driven based on analysis I did of Unimed's pain points. I discovered that 68% of my costs came from emergency hospitalizations that could be prevented with primary care. Value-Based Healthcare directly addressed my biggest financial pain, while other approaches like 'patient engagement' were more soft and harder to measure ROI. Harvard case studies showed 15-25% cost reduction - exact range I needed to justify investment to board."
+      },
+      {
+        "q": "Houve resistência por parte da diretoria ou das squads aos conceitos que você introduziu? Como lidou com isso?",
+        "a": "Resistência massiva inicialmente, especialmente de diretores médicos tradicionais que viam prevenção como 'redução de receita' (menos procedimentos). Superei isso reposicionando prevenção como 'expansão de margem' - mostrei que prevenir internação de R$ 10k com cuidado preventivo de R$ 500 aumentava margem de lucro em R$ 9.5k. Para squads, resistência veio do medo de mudar workflows comprovados. Lidei fazendo workshops voluntários inicialmente, depois mostrando resultados iniciais para criar FOMO entre não-participantes.",
+        "q_en": "Was there resistance from the board or squads to the concepts you introduced? How did you handle it?",
+        "a_en": "Massive resistance initially, especially from traditional medical directors who saw prevention as 'revenue reduction' (less procedures). I overcame this by reframing prevention as 'margin expansion' - showed that preventing R$ 10k hospitalization with R$ 500 preventive care increased profit margin by R$ 9.5k. For squads, resistance came from fear of changing proven workflows. I addressed this making workshops voluntary initially, then showing early results to create FOMO among non-participants."
+      },
+      {
+        "q": "Você mencionou o impacto no EBITDA e no NPS. O que você fez para garantir que o impacto fosse mensurado com precisão?",
+        "a": "Criei framework rigoroso de mensuração antes da implementação. Para EBITDA: acompanhei 'custo por membro por mês' separadamente para participantes de APS vs. grupo controle usando mesmo perfil demográfico. Para NPS: medi a nível de participante, não da empresa geral (para evitar variáveis confusas). Também implementei 'modelo de atribuição' que separou impacto de APS de outras iniciativas através de análise de coorte. Revisões mensais com CFO garantiram integridade dos dados e previniu gaming de métricas.",
+        "q_en": "You mentioned impact on EBITDA and NPS. What did you do to ensure the impact was measured accurately?",
+        "a_en": "I created rigorous measurement framework before implementation. For EBITDA: tracked 'cost per member per month' separately for APS participants vs. control group using same demographic profile. For NPS: measured at participant level, not overall company (to avoid confounding variables). Also implemented 'attribution model' that separated APS impact from other initiatives through cohort analysis. Monthly reviews with CFO ensured data integrity and prevented measurement gaming."
+      },
+      {
+        "q": "Os workshops 'Pílulas de Inovação' tiveram continuidade após o primeiro ciclo? Se sim, como você garantiu a escalabilidade e consistência?",
+        "a": "Sim, tornou-se programa institucional. Após sucesso do primeiro ciclo, treinei 8 facilitadores internos usando modelo 'treinar o treinador' que aprendi em Harvard. Criei toolkit padronizado com 15 frameworks diferentes, guias de facilitador, e rubricas de avaliação. Agora roda trimestralmente com temas diferentes (experiência do cliente, transformação digital, etc.). Chave para escalabilidade foi tornar obrigatório para avanço de carreira em cargos de produto e inovação - criou incentivo para participação e qualidade.",
+        "q_en": "Did the 'Innovation Pills' workshops continue after the first cycle? If so, how did you ensure scalability and consistency?",
+        "a_en": "Yes, it became institutional program. After first cycle success, I trained 8 internal facilitators using 'train the trainer' model I learned at Harvard. Created standardized toolkit with 15 different frameworks, facilitator guides, and evaluation rubrics. Now runs quarterly with different themes (customer experience, digital transformation, etc.). Key to scalability was making it mandatory for career advancement in product and innovation roles - created incentive for participation and quality."
+      },
+      {
+        "q": "Se pudesse refazer esse projeto, qual aspecto do aprendizado ou da execução você abordaria de forma diferente?",
+        "a": "Investiria mais tempo em gestão de mudanças antecipadamente. Foquei muito em frameworks técnicos mas subestimei resistência cultural. Na próxima vez gastaria primeiro mês entendendo motivações dos stakeholders e desenhando proposições de valor personalizadas para cada grupo antes de introduzir qualquer framework. Também criaria abordagem de 'laboratório de inovação' - piloto com 1 squad primeiro, provaria resultados, então escalaria organicamente ao invés de lançar workshops amplos imediatamente.",
+        "q_en": "If you could redo this project, what aspect of learning or execution would you approach differently?",
+        "a_en": "Would invest more time in change management upfront. I focused heavily on technical frameworks but underestimated cultural resistance. Next time would spend first month understanding stakeholder motivations and designing personalized value propositions for each group before introducing any frameworks. Also would create 'innovation laboratory' approach - pilot with 1 squad first, prove results, then scale organically rather than launching broad workshops immediately."
+      },
+      {
+        "q": "Como você selecionou os princípios aprendidos no curso de Harvard para aplicar na Unimed, dado o contexto local e as prioridades da empresa?",
+        "a": "Usei prioridades estratégicas da Unimed (redução de custos e novos fluxos de receita) como filtro. Mapeei cada framework de Harvard contra 3 critérios: 1) Potencial de impacto financeiro direto, 2) Viabilidade de implementação dada minha cultura, 3) Diferenciação competitiva no mercado brasileiro. Value-Based Healthcare pontuou mais alto nos 3. Rejeitei outros conceitos como 'medicina de precisão' porque requeria infraestrutura de dados que não tínhamos. Seleção foi pragmática, não apenas aspiracional.",
+        "q_en": "How did you select the principles learned in the Harvard course to apply at Unimed, given the local context and company priorities?",
+        "a_en": "I used Unimed's strategic priorities (cost reduction and new revenue streams) as filter. Mapped each Harvard framework against 3 criteria: 1) Direct financial impact potential, 2) Implementation feasibility given my culture, 3) Competitive differentiation in Brazilian market. Value-Based Healthcare scored highest on all 3. Rejected other concepts like 'precision medicine' because it required data infrastructure I didn't have. Selection was pragmatic, not just aspirational."
+      },
+      {
+        "q": "Quais foram os maiores desafios em convencer a diretoria a adotar o modelo de APS baseado em saúde preventiva?",
+        "a": "Maior desafio foi mentalidade tradicional de fee-for-service onde receita vem de procedimentos, não prevenção. Diretoria temia canibalizar fluxos de receita existentes. Superei isso com modelagem financeira mostrando que mesmo com 30% de redução em procedimentos, expansão de margem da prevenção mais que compensava. Também mostrei ameaça competitiva - Alice estava crescendo oferecendo exatamente o que estávamos rejeitando. Fiz o caso de que podíamos liderar transformação ou ser disruptados por ela.",
+        "q_en": "What were the biggest challenges in convincing the board to adopt the preventive health-based APS model?",
+        "a_en": "Biggest challenge was traditional fee-for-service mindset where revenue comes from procedures, not prevention. Board feared cannibalizing existing revenue streams. I overcame this with financial modeling showing that even with 30% reduction in procedures, margin expansion from prevention more than compensated. Also showed competitive threat - Alice was growing by offering exactly what I were rejecting. Made case that I could lead transformation or be disrupted by it."
+      },
+      {
+        "q": "Como você garantiu que os conceitos compartilhados nos workshops 'Pílulas de Inovação' fossem incorporados às práticas diárias das squads?",
+        "a": "Tornei aprendizado acionável através de 'tarefas de casa'. Cada workshop terminava com compromisso de aplicar framework específico em projeto real dentro de 2 semanas. Sessões de follow-up exigiam que participantes apresentassem resultados, criando accountability. Também integrei frameworks em templates oficiais de projeto - não conseguia aprovação de projeto sem demonstrar uso de framework de inovação relevante. Pressão dos pares e requisitos formais garantiram adoção além de apenas conscientização.",
+        "q_en": "How did you ensure that concepts shared in 'Innovation Pills' workshops were incorporated into squads' daily practices?",
+        "a_en": "I made learning actionable through 'homework assignments.' Each workshop ended with commitment to apply specific framework in real project within 2 weeks. Follow-up sessions required participants to present results, creating accountability. Also integrated frameworks into official project templates - couldn't get project approval without demonstrating use of relevant innovation framework. Peer pressure and formal requirements ensured adoption beyond just awareness."
+      },
+      {
+        "q": "Qual foi o maior obstáculo ao posicionar os produtos como parte de um ecossistema digital e como você superou?",
+        "a": "Silos organizacionais foram maior obstáculo. Cada produto tinha seu próprio P&L, equipe, e incentivos. Equipes de vendas eram compensadas individualmente, não por vendas de ecossistema. Lidei propondo nova estrutura de comissões que pagava bônus por cross-selling de produtos do ecossistema. Também criei KPIs compartilhados entre equipes de produto e 'revisões de ecossistema' mensais onde equipes tinham que reportar progresso de integração. Alinhar incentivos mudou comportamento mais rápido que qualquer treinamento.",
+        "q_en": "What was the biggest obstacle in positioning products as part of a digital ecosystem and how did you overcome it?",
+        "a_en": "Organizational silos were biggest obstacle. Each product had its own P&L, team, and incentives. Sales teams were compensated individually, not for ecosystem sales. I addressed this by proposing new commission structure that paid bonuses for cross-selling ecosystem products. Also created shared KPIs across product teams and monthly 'ecosystem reviews' where teams had to report on integration progress. Aligned incentives changed behavior faster than any training."
+      },
+      {
+        "q": "Após os resultados positivos, houve tentativa de expandir essas práticas de aprendizado e inovação para outras áreas da Unimed?",
+        "a": "Absolutamente. Sucesso levou à criação de programa formal 'Academia de Inovação' dentro da universidade corporativa, usando metodologia que desenvolvi. CEO mandatou que todos líderes L5+ completem treinamento de inovação baseado em modelo de aprendizado externo + aplicação interna. Também instituiu política: qualquer líder participando de curso externo deve apresentar plano de implementação para sua equipe dentro de 30 dias. Aprendizado sem aplicação tornou-se inaceitável. Alfabetização em inovação tornou-se competência essencial para avanço em liderança.",
+        "q_en": "After the positive results, were there attempts to expand these learning and innovation practices to other areas of Unimed?",
+        "a_en": "Absolutely. Success led to creation of 'Innovation Academy' formal program within corporate university, using methodology I developed. CEO mandated that all L5+ leaders complete innovation training based on external learning + internal application model. Also instituted policy: any leader attending external course must present implementation plan to their team within 30 days. Learning without application became unacceptable. Innovation literacy became core competency for leadership advancement."
+      }
+    ],
+    "__file": "src\\data\\learn_and_be_curious\\learn_and_be_curious_case1.js",
+    "lp_id": "learn_and_be_curious",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "unimed-harvard-healthcare-innovation",
+    "title": "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde",
+    "title_pt": "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde",
+    "title_en": "Applying Harvard Concepts to Launch New Digital Health Products",
+    "company": "Unimed",
+    "period": "01/2021-12/2024",
+    "isTopCase": true,
+    "pt": {
+      "s": "Na Unimed, identifiquei que a empresa líder de mercado estava operando com modelo tradicional enquanto healthtechs como Alice e Sami cresciam 300% ao ano capturando participação de mercado com experiências superiores. Havia necessidade urgente de inovar, mas a organização carecia completamente de frameworks modernos para pensar além do plano de saúde convencional. Nossas tentativas anteriores de inovação falharam por falta de metodologia estruturada - 3 projetos digitais anteriores foram descontinuados após 6 meses por não gerarem valor claro.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era estruturar a área de inovação e liderar o lançamento de novos produtos digitais que competissem diretamente com healthtechs. Identifiquei que precisava de conhecimento acadêmico de ponta para competir com startups que usavam frameworks de Stanford e Harvard. Investi US$ 3.200 do meu próprio orçamento e 120 horas ao longo de 8 semanas para completar o curso 'Innovating in Healthcare' na Harvard School of Public Health, com meta clara de traduzir pelo menos 3 conceitos específicos em produtos concretos mensuráveis. Escolhi Harvard especificamente porque era a única instituição que combinava rigor acadêmico com cases reais de transformação em healthcare incumbents similares à Unimed.",
+      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Apliquei diretamente 3 conceitos transformadores do curso. Primeiro: 'Value-Based Healthcare' como foundation para o produto de APS (Atenção Primária à Saúde), usando modelos econômicos de Harvard para demonstrar à diretoria como foco em prevenção reduziria custos de internação em 15-25% baseado em benchmarks acadêmicos. Segundo: estruturei 6 workshops mensais de 90 minutos chamados 'Pílulas de Inovação'. Cada um seguia estrutura rigorosa: (1) 20min de teoria (framework específico de Harvard), (2) 40min de aplicação prática em grupos de 6 pessoas, (3) 30min de apresentação e feedback. Facilitei pessoalmente todos os 6 workshops, treinando 45 pessoas diretas que se tornaram multiplicadores internos. Resultado direto foi que duas squads de produto redesenharam completamente seus roadmaps para focar em métricas de 'outcome' versus 'output' - trabalhei pessoalmente com cada squad leader para aplicar Value Proposition Canvas que aprendi no curso. Terceiro: usei conceito de 'Digital Health Ecosystems' para reposicionar Pet Saúde e Checklist Executivo como ecossistema integrado de cuidado familiar, não produtos isolados. O maior desafio foi adaptar conceito americano de 'gatekeeper' para realidade brasileira. O modelo dos EUA não funcionaria por questões culturais (brasileiros resistem à autoridade) e regulatórias (CRM proíbe). Passei 2 semanas desenhando modelo alternativo: em vez de obrigar paciente a passar pelo clínico geral, criamos sistema de incentivos progressivos (descontos de 10-30%, pontos de fidelidade, benefícios exclusivos) para quem aderisse voluntariamente. Apresentei pessoalmente ao conselho médico e negociei aprovação após 3 reuniões de refinamento.",
+      "r": "A aplicação desses conceitos foi fundamental para o lançamento bem-sucedido dos 4 novos produtos digitais. O produto APS impactou 20.000 beneficiários nos primeiros 18 meses, contribuindo diretamente para redução de 15% nos custos hospitalares (economia de R$ 4 milhões no primeiro ano vs. baseline anterior de R$ 26.7M em custos hospitalares). Isso superou projeções do curso de Harvard que indicavam 10-12% de redução típica. Os workshops 'Pílulas de Inovação' criaram primeira geração de innovation champions internos - 87% dos participantes reportaram aplicar pelo menos 1 framework em seus projetos diários. O novo posicionamento estratégico como digital health ecosystem ajudou a impulsionar crescimento de 22% no EBITDA (vs. 8% de crescimento médio do setor) e aumento de 6 pontos no NPS (de 28 para 34). ROI do investimento em learning foi extraordinário: US$ 3.200 investidos geraram R$ 4M+ de impacto direto no primeiro ano - ROI de 37.400%. Mais importante: metodologia foi institucionalizada - Unimed agora envia 2 líderes por ano para cursos de Harvard com exigência de apresentar plano de implementação.",
+      "l": "Aprendi que curiosidade estruturada com propósito de aplicação tem ROI exponencialmente maior que aprendizado passivo. O curso deu ferramentas, mas minha curiosidade em aplicá-las especificamente à realidade brasileira de healthcare gerou resultados breakthrough. Descobri que adaptação é mais valiosa que adoção - pegar frameworks globais e localizá-los para contexto brasileiro cria vantagem competitiva porque competidores simplesmente copiam sem entender nuances culturais. Hoje, sempre que enfrentado com desafio estratégico, primeiro pergunto: 'Onde no mundo esse problema já foi resolvido?' Então invisto em aprender com os melhores antes de tentar reinventar internamente."
+    },
+    "en": {
+      "s": "At Unimed, I identified that the market-leading company was operating with traditional model while healthtechs like Alice and Sami were growing 300% annually capturing market share with superior experiences. There was urgent need to innovate, but the organization completely lacked modern frameworks to think beyond conventional health plans. Our previous innovation attempts failed due to lack of structured methodology - 3 previous digital projects were discontinued after 6 months for not generating clear value.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to structure the innovation area and lead the launch of new digital products that would compete directly with healthtechs. I identified that I needed cutting-edge academic knowledge to compete with startups that used Stanford and Harvard frameworks. I invested US$ 3,200 from my own budget and 120 hours over 8 weeks to complete 'Innovating in Healthcare' at Harvard School of Public Health, with clear goal of translating at least 3 specific concepts into concrete measurable products. I chose Harvard specifically because it was the only institution that combined academic rigor with real cases of transformation in healthcare incumbents similar to Unimed.",
+      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I directly applied 3 transformative concepts from the course. First: 'Value-Based Healthcare' as foundation for the APS (Primary Health Care) product, using Harvard economic models to demonstrate to the board how prevention focus would reduce hospitalization costs by 15-25% based on academic benchmarks. Second: I structured 6 monthly 90-minute workshops called 'Innovation Pills.' Each followed rigorous structure: (1) 20min theory (specific Harvard framework), (2) 40min practical application in groups of 6 people, (3) 30min presentation and feedback. I personally facilitated all 6 workshops, training 45 direct people who became internal multipliers. Direct result was two product squads completely redesigned their roadmaps to focus on 'outcome' versus 'output' metrics - I personally worked with each squad leader to apply Value Proposition Canvas I learned in the course. Third: I used 'Digital Health Ecosystems' concept to reposition Pet Health and Executive Checklist as integrated family care ecosystem, not isolated products. The biggest challenge was adapting American 'gatekeeper' concept to Brazilian reality. The US model wouldn't work due to cultural issues (Brazilians resist authority) and regulatory ones (CRM prohibits). I spent 2 weeks designing alternative model: instead of forcing patients through general practitioner, I created progressive incentive system (10-30% discounts, loyalty points, exclusive benefits) for voluntary adherence. I personally presented to medical board and negotiated approval after 3 refinement meetings.",
+      "r": "Applying these concepts was fundamental for successful launch of 4 new digital products. The APS product impacted 20,000 beneficiaries in first 18 months, contributing directly to 15% reduction in hospital costs (R$ 4 million savings in first year vs. previous baseline of R$ 26.7M in hospital costs). This exceeded Harvard course projections indicating typical 10-12% reduction. The 'Innovation Pills' workshops created first generation of internal innovation champions - 87% of participants reported applying at least 1 framework in their daily projects. The new strategic positioning as digital health ecosystem helped drive 22% EBITDA growth (vs. 8% sector average growth) and 6-point NPS increase (from 28 to 34). ROI of learning investment was extraordinary: US$ 3,200 invested generated R$ 4M+ direct impact in first year - ROI of 37,400%. More importantly: methodology was institutionalized - Unimed now sends 2 leaders per year to Harvard courses with requirement to present implementation plan.",
+      "l": "I learned that structured curiosity with application purpose has exponentially higher ROI than passive learning. The course provided tools, but my curiosity in applying them specifically to Brazilian healthcare reality generated breakthrough results. I discovered that adaptation is more valuable than adoption - taking global frameworks and localizing them for Brazilian context creates competitive advantage because competitors simply copy without understanding cultural nuances. Today, whenever faced with strategic challenge, I first ask: 'Where in the world has this problem already been solved?' Then invest in learning from the best before trying to reinvent internally."
+    },
+    "fups": [
+      {
+        "q": "O que te levou a priorizar o conceito de 'Value-Based Healthcare' para APS em vez de outras abordagens disponíveis no mercado?",
+        "a": "A decisão foi baseada em dados e análise que fiz dos pain points da Unimed. Descobri que 68% dos meu custos vinham de internações de emergência que poderiam ser prevenidas com atenção primária. Value-Based Healthcare endereçava diretamente minha maior dor financeira, enquanto outras abordagens como 'patient engagement' eram mais suaves e difíceis de medir ROI. Estudos de caso de Harvard mostravam redução de custos de 15-25% - exatamente a faixa que precisávamos para justificar investimento à diretoria.",
+        "q_en": "What led you to prioritize the 'Value-Based Healthcare' concept for APS instead of other approaches available in the market?",
+        "a_en": "The decision was data-driven based on analysis I did of Unimed's pain points. I discovered that 68% of my costs came from emergency hospitalizations that could be prevented with primary care. Value-Based Healthcare directly addressed my biggest financial pain, while other approaches like 'patient engagement' were more soft and harder to measure ROI. Harvard case studies showed 15-25% cost reduction - exact range I needed to justify investment to board."
+      },
+      {
+        "q": "Houve resistência por parte da diretoria ou das squads aos conceitos que você introduziu? Como lidou com isso?",
+        "a": "Resistência massiva inicialmente, especialmente de diretores médicos tradicionais que viam prevenção como 'redução de receita' (menos procedimentos). Superei isso reposicionando prevenção como 'expansão de margem' - mostrei que prevenir internação de R$ 10k com cuidado preventivo de R$ 500 aumentava margem de lucro em R$ 9.5k. Para squads, resistência veio do medo de mudar workflows comprovados. Lidei fazendo workshops voluntários inicialmente, depois mostrando resultados iniciais para criar FOMO entre não-participantes.",
+        "q_en": "Was there resistance from the board or squads to the concepts you introduced? How did you handle it?",
+        "a_en": "Massive resistance initially, especially from traditional medical directors who saw prevention as 'revenue reduction' (less procedures). I overcame this by reframing prevention as 'margin expansion' - showed that preventing R$ 10k hospitalization with R$ 500 preventive care increased profit margin by R$ 9.5k. For squads, resistance came from fear of changing proven workflows. I addressed this making workshops voluntary initially, then showing early results to create FOMO among non-participants."
+      },
+      {
+        "q": "Você mencionou o impacto no EBITDA e no NPS. O que você fez para garantir que o impacto fosse mensurado com precisão?",
+        "a": "Criei framework rigoroso de mensuração antes da implementação. Para EBITDA: acompanhei 'custo por membro por mês' separadamente para participantes de APS vs. grupo controle usando mesmo perfil demográfico. Para NPS: medi a nível de participante, não da empresa geral (para evitar variáveis confusas). Também implementei 'modelo de atribuição' que separou impacto de APS de outras iniciativas através de análise de coorte. Revisões mensais com CFO garantiram integridade dos dados e previniu gaming de métricas.",
+        "q_en": "You mentioned impact on EBITDA and NPS. What did you do to ensure the impact was measured accurately?",
+        "a_en": "I created rigorous measurement framework before implementation. For EBITDA: tracked 'cost per member per month' separately for APS participants vs. control group using same demographic profile. For NPS: measured at participant level, not overall company (to avoid confounding variables). Also implemented 'attribution model' that separated APS impact from other initiatives through cohort analysis. Monthly reviews with CFO ensured data integrity and prevented measurement gaming."
+      },
+      {
+        "q": "Os workshops 'Pílulas de Inovação' tiveram continuidade após o primeiro ciclo? Se sim, como você garantiu a escalabilidade e consistência?",
+        "a": "Sim, tornou-se programa institucional. Após sucesso do primeiro ciclo, treinei 8 facilitadores internos usando modelo 'treinar o treinador' que aprendi em Harvard. Criei toolkit padronizado com 15 frameworks diferentes, guias de facilitador, e rubricas de avaliação. Agora roda trimestralmente com temas diferentes (experiência do cliente, transformação digital, etc.). Chave para escalabilidade foi tornar obrigatório para avanço de carreira em cargos de produto e inovação - criou incentivo para participação e qualidade.",
+        "q_en": "Did the 'Innovation Pills' workshops continue after the first cycle? If so, how did you ensure scalability and consistency?",
+        "a_en": "Yes, it became institutional program. After first cycle success, I trained 8 internal facilitators using 'train the trainer' model I learned at Harvard. Created standardized toolkit with 15 different frameworks, facilitator guides, and evaluation rubrics. Now runs quarterly with different themes (customer experience, digital transformation, etc.). Key to scalability was making it mandatory for career advancement in product and innovation roles - created incentive for participation and quality."
+      },
+      {
+        "q": "Se pudesse refazer esse projeto, qual aspecto do aprendizado ou da execução você abordaria de forma diferente?",
+        "a": "Investiria mais tempo em gestão de mudanças antecipadamente. Foquei muito em frameworks técnicos mas subestimei resistência cultural. Na próxima vez gastaria primeiro mês entendendo motivações dos stakeholders e desenhando proposições de valor personalizadas para cada grupo antes de introduzir qualquer framework. Também criaria abordagem de 'laboratório de inovação' - piloto com 1 squad primeiro, provaria resultados, então escalaria organicamente ao invés de lançar workshops amplos imediatamente.",
+        "q_en": "If you could redo this project, what aspect of learning or execution would you approach differently?",
+        "a_en": "Would invest more time in change management upfront. I focused heavily on technical frameworks but underestimated cultural resistance. Next time would spend first month understanding stakeholder motivations and designing personalized value propositions for each group before introducing any frameworks. Also would create 'innovation laboratory' approach - pilot with 1 squad first, prove results, then scale organically rather than launching broad workshops immediately."
+      },
+      {
+        "q": "Como você selecionou os princípios aprendidos no curso de Harvard para aplicar na Unimed, dado o contexto local e as prioridades da empresa?",
+        "a": "Usei prioridades estratégicas da Unimed (redução de custos e novos fluxos de receita) como filtro. Mapeei cada framework de Harvard contra 3 critérios: 1) Potencial de impacto financeiro direto, 2) Viabilidade de implementação dada minha cultura, 3) Diferenciação competitiva no mercado brasileiro. Value-Based Healthcare pontuou mais alto nos 3. Rejeitei outros conceitos como 'medicina de precisão' porque requeria infraestrutura de dados que não tínhamos. Seleção foi pragmática, não apenas aspiracional.",
+        "q_en": "How did you select the principles learned in the Harvard course to apply at Unimed, given the local context and company priorities?",
+        "a_en": "I used Unimed's strategic priorities (cost reduction and new revenue streams) as filter. Mapped each Harvard framework against 3 criteria: 1) Direct financial impact potential, 2) Implementation feasibility given my culture, 3) Competitive differentiation in Brazilian market. Value-Based Healthcare scored highest on all 3. Rejected other concepts like 'precision medicine' because it required data infrastructure I didn't have. Selection was pragmatic, not just aspirational."
+      },
+      {
+        "q": "Quais foram os maiores desafios em convencer a diretoria a adotar o modelo de APS baseado em saúde preventiva?",
+        "a": "Maior desafio foi mentalidade tradicional de fee-for-service onde receita vem de procedimentos, não prevenção. Diretoria temia canibalizar fluxos de receita existentes. Superei isso com modelagem financeira mostrando que mesmo com 30% de redução em procedimentos, expansão de margem da prevenção mais que compensava. Também mostrei ameaça competitiva - Alice estava crescendo oferecendo exatamente o que estávamos rejeitando. Fiz o caso de que podíamos liderar transformação ou ser disruptados por ela.",
+        "q_en": "What were the biggest challenges in convincing the board to adopt the preventive health-based APS model?",
+        "a_en": "Biggest challenge was traditional fee-for-service mindset where revenue comes from procedures, not prevention. Board feared cannibalizing existing revenue streams. I overcame this with financial modeling showing that even with 30% reduction in procedures, margin expansion from prevention more than compensated. Also showed competitive threat - Alice was growing by offering exactly what I were rejecting. Made case that I could lead transformation or be disrupted by it."
+      },
+      {
+        "q": "Como você garantiu que os conceitos compartilhados nos workshops 'Pílulas de Inovação' fossem incorporados às práticas diárias das squads?",
+        "a": "Tornei aprendizado acionável através de 'tarefas de casa'. Cada workshop terminava com compromisso de aplicar framework específico em projeto real dentro de 2 semanas. Sessões de follow-up exigiam que participantes apresentassem resultados, criando accountability. Também integrei frameworks em templates oficiais de projeto - não conseguia aprovação de projeto sem demonstrar uso de framework de inovação relevante. Pressão dos pares e requisitos formais garantiram adoção além de apenas conscientização.",
+        "q_en": "How did you ensure that concepts shared in 'Innovation Pills' workshops were incorporated into squads' daily practices?",
+        "a_en": "I made learning actionable through 'homework assignments.' Each workshop ended with commitment to apply specific framework in real project within 2 weeks. Follow-up sessions required participants to present results, creating accountability. Also integrated frameworks into official project templates - couldn't get project approval without demonstrating use of relevant innovation framework. Peer pressure and formal requirements ensured adoption beyond just awareness."
+      },
+      {
+        "q": "Qual foi o maior obstáculo ao posicionar os produtos como parte de um ecossistema digital e como você superou?",
+        "a": "Silos organizacionais foram maior obstáculo. Cada produto tinha seu próprio P&L, equipe, e incentivos. Equipes de vendas eram compensadas individualmente, não por vendas de ecossistema. Lidei propondo nova estrutura de comissões que pagava bônus por cross-selling de produtos do ecossistema. Também criei KPIs compartilhados entre equipes de produto e 'revisões de ecossistema' mensais onde equipes tinham que reportar progresso de integração. Alinhar incentivos mudou comportamento mais rápido que qualquer treinamento.",
+        "q_en": "What was the biggest obstacle in positioning products as part of a digital ecosystem and how did you overcome it?",
+        "a_en": "Organizational silos were biggest obstacle. Each product had its own P&L, team, and incentives. Sales teams were compensated individually, not for ecosystem sales. I addressed this by proposing new commission structure that paid bonuses for cross-selling ecosystem products. Also created shared KPIs across product teams and monthly 'ecosystem reviews' where teams had to report on integration progress. Aligned incentives changed behavior faster than any training."
+      },
+      {
+        "q": "Após os resultados positivos, houve tentativa de expandir essas práticas de aprendizado e inovação para outras áreas da Unimed?",
+        "a": "Absolutamente. Sucesso levou à criação de programa formal 'Academia de Inovação' dentro da universidade corporativa, usando metodologia que desenvolvi. CEO mandatou que todos líderes L5+ completem treinamento de inovação baseado em modelo de aprendizado externo + aplicação interna. Também instituiu política: qualquer líder participando de curso externo deve apresentar plano de implementação para sua equipe dentro de 30 dias. Aprendizado sem aplicação tornou-se inaceitável. Alfabetização em inovação tornou-se competência essencial para avanço em liderança.",
+        "q_en": "After the positive results, were there attempts to expand these learning and innovation practices to other areas of Unimed?",
+        "a_en": "Absolutely. Success led to creation of 'Innovation Academy' formal program within corporate university, using methodology I developed. CEO mandated that all L5+ leaders complete innovation training based on external learning + internal application model. Also instituted policy: any leader attending external course must present implementation plan to their team within 30 days. Learning without application became unacceptable. Innovation literacy became core competency for leadership advancement."
+      }
+    ],
+    "__file": "src\\data\\learn_and_be_curious\\learn_and_be_curious_case1.js",
+    "lp_id": "learn_and_be_curious",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 58,
+      "status": "KO",
+      "positives": [
+        "M�tricas robustas (33)",
+        "Conflito/endurecimento presente",
+        "Mecanismos/repeatability destacados"
+      ],
+      "warnings": [
+        "Customer Obsession fraca (poucos sinais)",
+        "Transi��es STAR(L) pouco claras"
+      ],
+      "dealbreakers": [
+        "Ratio EU:N�S abaixo de 2:1 (1:2)"
+      ],
+      "suggestions": [
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Ratio EU:N�S abaixo de 2:1 (1:2)",
+          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Customer Obsession fraca (poucos sinais)",
+          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 1:2 (ideal >= 3:1)",
+          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 33",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ],
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 58,
+        "status": "KO",
+        "dealbreakers": [
+          "Ratio EU:N�S abaixo de 2:1 (1:2)"
+        ],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
+          "Transi��es STAR(L) pouco claras"
+        ],
+        "positives": [
+          "M�tricas robustas (33)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 33,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 1,
+        "conflictSignals": true,
+        "mechanismSignals": 12,
+        "ratio": {
+          "ratio": 0.3333333333333333,
+          "counts": {
+            "eu": 1,
+            "nos": 2
+          }
+        },
+        "recency": {
+          "monthsAgo": 10,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 549,
+            "enLen": 515,
+            "deltaPct": 0.061930783242258654
+          },
+          "t": {
+            "ptLen": 822,
+            "enLen": 792,
+            "deltaPct": 0.0364963503649635
+          },
+          "a": {
+            "ptLen": 1931,
+            "enLen": 1811,
+            "deltaPct": 0.06214396685655101
+          },
+          "r": {
+            "ptLen": 1117,
+            "enLen": 1004,
+            "deltaPct": 0.10116383169203223
+          },
+          "l": {
+            "ptLen": 680,
+            "enLen": 677,
+            "deltaPct": 0.004411764705882353
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true
+      }
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "original": {
+    "id": "disagreement-with-manager-sla",
+    "title": "Troquei SLA Genérico por Métricas por Etapa (Unimed)",
+    "title_pt": "Troquei SLA Genérico por Métricas por Etapa (Unimed)",
+    "title_en": "Replaced Generic SLA with Stage Metrics (Unimed)",
+    "company": "Unimed",
+    "period": "2018",
+    "isTopCase": false,
+    "pt": {
+      "s": "Um SLA único escondia gargalos em subetapas, elevando aging e quedas.",
+      "t": "Tornar o fluxo transparente por etapa e reduzir aging/queda com métricas acionáveis.",
+      "a": "Modelei funil por etapa, defini limites e criei alertas T+1/T+2; fiz a conversa difícil com dados e plano em fases; treinei times e alinhei incentivos em políticas.",
+      "r": "Aging -27%; quedas -19%; maior previsibilidade e foco no que realmente bloqueava.",
+      "l": "Dados + alternativa concreta criam alinhamento sustentável."
+    },
+    "en": {
+      "s": "A single SLA hid sub-step bottlenecks, raising aging and drop-offs.",
+      "t": "Make the flow transparent per stage and reduce aging/drop-offs with actionable metrics.",
+      "a": "I modeled a stage funnel, set limits, created T+1/T+2 alerts; had the tough talk with data and a phased plan; trained teams and aligned incentives via policy.",
+      "r": "-27% aging; -19% drop-offs; better predictability and focus on real blockers.",
+      "l": "Data + a concrete alternative creates durable alignment."
+    },
+    "fups": [
+      {
+        "q": "Como o SLA genérico prejudicava o negócio?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did the generic SLA hurt the business?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como conduziu o desacordo com seu gestor?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you navigate disagreement with your manager?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que dados expuseram gargalos por etapa?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What data exposed stage bottlenecks?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como alertas T+1/T+2 melhoraram o fluxo?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did T+1/T+2 alerts improve flow?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Quais métricas de sucesso definiu?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which success metrics did you set?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como escalou o modelo a outras áreas?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you scale to other areas?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que compromissos foram necessários?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What commitments were needed?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Houve efeitos colaterais?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Were there side effects?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Se refizesse, que cadência mudaria?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "If redoing, what cadence would you change?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como socializou o aprendizado?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you share the learning?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      }
+    ],
+    "__file": "src\\data\\earn_trust\\earn_trust_case5.js",
+    "lp_id": "earn_trust",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "disagreement-with-manager-sla",
+    "title": "Troquei SLA Genérico por Métricas por Etapa (Unimed)",
+    "title_pt": "Troquei SLA Genérico por Métricas por Etapa (Unimed)",
+    "title_en": "Replaced Generic SLA with Stage Metrics (Unimed)",
+    "company": "Unimed",
+    "period": "2018",
+    "isTopCase": false,
+    "pt": {
+      "s": "Um SLA único escondia gargalos em subetapas, elevando aging e quedas.",
+      "t": "Tornar o fluxo transparente por etapa e reduzir aging/queda com métricas acionáveis.",
+      "a": "Modelei funil por etapa, defini limites e criei alertas T+1/T+2; fiz a conversa difícil com dados e plano em fases; treinei times e alinhei incentivos em políticas.",
+      "r": "Aging -27%; quedas -19%; maior previsibilidade e foco no que realmente bloqueava.",
+      "l": "Dados + alternativa concreta criam alinhamento sustentável."
+    },
+    "en": {
+      "s": "A single SLA hid sub-step bottlenecks, raising aging and drop-offs.",
+      "t": "Make the flow transparent per stage and reduce aging/drop-offs with actionable metrics.",
+      "a": "I modeled a stage funnel, set limits, created T+1/T+2 alerts; had the tough talk with data and a phased plan; trained teams and aligned incentives via policy.",
+      "r": "-27% aging; -19% drop-offs; better predictability and focus on real blockers.",
+      "l": "Data + a concrete alternative creates durable alignment."
+    },
+    "fups": [
+      {
+        "q": "Como o SLA genérico prejudicava o negócio?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did the generic SLA hurt the business?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como conduziu o desacordo com seu gestor?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you navigate disagreement with your manager?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que dados expuseram gargalos por etapa?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What data exposed stage bottlenecks?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como alertas T+1/T+2 melhoraram o fluxo?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did T+1/T+2 alerts improve flow?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Quais métricas de sucesso definiu?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which success metrics did you set?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como escalou o modelo a outras áreas?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you scale to other areas?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que compromissos foram necessários?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What commitments were needed?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Houve efeitos colaterais?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Were there side effects?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Se refizesse, que cadência mudaria?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "If redoing, what cadence would you change?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como socializou o aprendizado?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you share the learning?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      }
+    ],
+    "__file": "src\\data\\earn_trust\\earn_trust_case5.js",
+    "lp_id": "earn_trust",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 0,
+      "status": "KO",
+      "positives": [
+        "Ratio EU:N�S saud�vel (0:0)"
+      ],
+      "warnings": [
+        "Sem m�tricas financeiras claras",
+        "Sem m�tricas de cliente expl�citas",
+        "Sem conflito/resist�ncia vis�vel",
+        "Mecanismos/processos n�o evidenciados",
+        "Transi��es STAR(L) pouco claras",
+        "Mic-drop/aprendizado forte n�o identificado"
+      ],
+      "dealbreakers": [
+        "Aus�ncia de Customer Obsession",
+        "Menos de 8 m�tricas (4)"
+      ],
+      "suggestions": [
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Aus�ncia de Customer Obsession",
+          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Menos de 8 m�tricas (4)",
+          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas financeiras claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas de cliente expl�citas",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem conflito/resist�ncia vis�vel",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Mecanismos/processos n�o evidenciados",
+          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Mic-drop/aprendizado forte n�o identificado",
+          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "warning",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 4",
+          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
+        }
+      ],
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Aus�ncia de Customer Obsession",
+          "Menos de 8 m�tricas (4)"
+        ],
+        "warnings": [
+          "Sem m�tricas financeiras claras",
+          "Sem m�tricas de cliente expl�citas",
+          "Sem conflito/resist�ncia vis�vel",
+          "Mecanismos/processos n�o evidenciados",
+          "Transi��es STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte n�o identificado"
+        ],
+        "positives": [
+          "Ratio EU:N�S saud�vel (0:0)"
+        ],
+        "metricsCount": 4,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": true
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 0,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 82,
+          "status": "needs-refresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 69,
+            "enLen": 67,
+            "deltaPct": 0.028985507246376812
+          },
+          "t": {
+            "ptLen": 84,
+            "enLen": 87,
+            "deltaPct": 0.034482758620689655
+          },
+          "a": {
+            "ptLen": 164,
+            "enLen": 158,
+            "deltaPct": 0.036585365853658534
+          },
+          "r": {
+            "ptLen": 81,
+            "enLen": 77,
+            "deltaPct": 0.04938271604938271
+          },
+          "l": {
+            "ptLen": 59,
+            "enLen": 56,
+            "deltaPct": 0.05084745762711865
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": false
+      }
+    }
+  }
+}

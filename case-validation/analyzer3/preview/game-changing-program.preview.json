@@ -1,0 +1,335 @@
+{
+  "original": {
+    "id": "game-changing-program",
+    "title": "Concebi um Programa que Mudou o Jogo (Modelo Integrado CAGE)",
+    "title_pt": "Concebi um Programa que Mudou o Jogo (Modelo Integrado CAGE)",
+    "title_en": "Conceived a Game-changing Program (CAGE Integrated Model)",
+    "company": "CAGE/SEFAZ-RS",
+    "period": "2025",
+    "isTopCase": false,
+    "pt": {
+      "s": "Sem modelo unificado, estratégia não virava execução: decisões lentas, priorização difusa e baixa visibilidade.",
+      "t": "Criar um framework integrado (PMO/VMO) conectando objetivos, portfólio e operação com indicadores úteis.",
+      "a": "Desenhei arquitetura (mapa visual, níveis, rituais), defini governança e cadência quinzenal, alinhei papéis/fluxos; conectei leading/lagging, integrei BAU e tratei mudança cultural com patrocínio executivo.",
+      "r": "Ciclo decisório mensal→quinzenal; lead time de aprovação -31%; maior visibilidade executiva e foco no que move a agulha.",
+      "l": "Pensar grande é tornar visão em mecanismos mensuráveis e hábitos coletivos."
+    },
+    "en": {
+      "s": "Without a unified model, strategy didn’t translate into execution: slow decisions, fuzzy prioritization, low visibility.",
+      "t": "Build an integrated framework (PMO/VMO) linking objectives, portfolio and operations with useful indicators.",
+      "a": "I designed the architecture (visual map, levels, rituals), set governance and a biweekly cadence, aligned roles/flows; connected leading/lagging, integrated BAU, and addressed culture with executive sponsorship.",
+      "r": "Decision cycle monthly→biweekly; approval lead time -31%; higher executive visibility and focus on needle-movers.",
+      "l": "Thinking big is turning vision into measurable mechanisms and collective habits."
+    },
+    "fups": [
+      {
+        "q": "Qual problema real da falta de modelo unificado?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What problem did the lack of a unified model cause?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como escolheu indicadores e conectou estratégia à operação?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you choose indicators and connect strategy to operations?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como obteve buy-in executivo?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you secure executive buy-in?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que mecanismos geraram redução de ciclo/aprovação?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which mechanisms reduced cycle/approval time?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como mediu visibilidade e qualidade da decisão?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you measure visibility and decision quality?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como tratou trade-offs velocidade×rigor?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you handle speed×rigor trade-offs?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como escalou a outras áreas?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you scale to other areas?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que riscos culturais endereçou?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What cultural risks did you address?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Se refizesse, como aceleraria adoção?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "If redoing, how would you accelerate adoption?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que resultados estratégicos se viabilizaram depois?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which strategic outcomes became possible later?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      }
+    ],
+    "__file": "src\\data\\think_big\\think_big_case4.js",
+    "lp_id": "think_big",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "game-changing-program",
+    "title": "Concebi um Programa que Mudou o Jogo (Modelo Integrado CAGE)",
+    "title_pt": "Concebi um Programa que Mudou o Jogo (Modelo Integrado CAGE)",
+    "title_en": "Conceived a Game-changing Program (CAGE Integrated Model)",
+    "company": "CAGE/SEFAZ-RS",
+    "period": "2025",
+    "isTopCase": false,
+    "pt": {
+      "s": "Sem modelo unificado, estratégia não virava execução: decisões lentas, priorização difusa e baixa visibilidade.",
+      "t": "Criar um framework integrado (PMO/VMO) conectando objetivos, portfólio e operação com indicadores úteis.",
+      "a": "Desenhei arquitetura (mapa visual, níveis, rituais), defini governança e cadência quinzenal, alinhei papéis/fluxos; conectei leading/lagging, integrei BAU e tratei mudança cultural com patrocínio executivo.",
+      "r": "Ciclo decisório mensal→quinzenal; lead time de aprovação -31%; maior visibilidade executiva e foco no que move a agulha.",
+      "l": "Pensar grande é tornar visão em mecanismos mensuráveis e hábitos coletivos."
+    },
+    "en": {
+      "s": "Without a unified model, strategy didn’t translate into execution: slow decisions, fuzzy prioritization, low visibility.",
+      "t": "Build an integrated framework (PMO/VMO) linking objectives, portfolio and operations with useful indicators.",
+      "a": "I designed the architecture (visual map, levels, rituals), set governance and a biweekly cadence, aligned roles/flows; connected leading/lagging, integrated BAU, and addressed culture with executive sponsorship.",
+      "r": "Decision cycle monthly→biweekly; approval lead time -31%; higher executive visibility and focus on needle-movers.",
+      "l": "Thinking big is turning vision into measurable mechanisms and collective habits."
+    },
+    "fups": [
+      {
+        "q": "Qual problema real da falta de modelo unificado?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What problem did the lack of a unified model cause?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como escolheu indicadores e conectou estratégia à operação?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you choose indicators and connect strategy to operations?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como obteve buy-in executivo?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you secure executive buy-in?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que mecanismos geraram redução de ciclo/aprovação?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which mechanisms reduced cycle/approval time?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como mediu visibilidade e qualidade da decisão?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you measure visibility and decision quality?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como tratou trade-offs velocidade×rigor?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you handle speed×rigor trade-offs?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como escalou a outras áreas?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you scale to other areas?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que riscos culturais endereçou?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What cultural risks did you address?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Se refizesse, como aceleraria adoção?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "If redoing, how would you accelerate adoption?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que resultados estratégicos se viabilizaram depois?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which strategic outcomes became possible later?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      }
+    ],
+    "__file": "src\\data\\think_big\\think_big_case4.js",
+    "lp_id": "think_big",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 0,
+      "status": "KO",
+      "positives": [
+        "Ratio EU:N�S saud�vel (0:0)",
+        "Mecanismos/repeatability destacados"
+      ],
+      "warnings": [
+        "Sem m�tricas financeiras claras",
+        "Sem m�tricas de cliente expl�citas",
+        "Sem conflito/resist�ncia vis�vel",
+        "Hook inicial pode ser mais contundente",
+        "Transi��es STAR(L) pouco claras",
+        "Mic-drop/aprendizado forte n�o identificado"
+      ],
+      "dealbreakers": [
+        "Aus�ncia de Customer Obsession",
+        "Menos de 8 m�tricas (2)"
+      ],
+      "suggestions": [
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Aus�ncia de Customer Obsession",
+          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Menos de 8 m�tricas (2)",
+          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas financeiras claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas de cliente expl�citas",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem conflito/resist�ncia vis�vel",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Hook inicial pode ser mais contundente",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Mic-drop/aprendizado forte n�o identificado",
+          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "warning",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 2",
+          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
+        }
+      ],
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Aus�ncia de Customer Obsession",
+          "Menos de 8 m�tricas (2)"
+        ],
+        "warnings": [
+          "Sem m�tricas financeiras claras",
+          "Sem m�tricas de cliente expl�citas",
+          "Sem conflito/resist�ncia vis�vel",
+          "Hook inicial pode ser mais contundente",
+          "Transi��es STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte n�o identificado"
+        ],
+        "positives": [
+          "Ratio EU:N�S saud�vel (0:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 2,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": true
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 4,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": -2,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 111,
+            "enLen": 120,
+            "deltaPct": 0.075
+          },
+          "t": {
+            "ptLen": 104,
+            "enLen": 108,
+            "deltaPct": 0.037037037037037035
+          },
+          "a": {
+            "ptLen": 206,
+            "enLen": 211,
+            "deltaPct": 0.023696682464454975
+          },
+          "r": {
+            "ptLen": 120,
+            "enLen": 113,
+            "deltaPct": 0.058333333333333334
+          },
+          "l": {
+            "ptLen": 75,
+            "enLen": 80,
+            "deltaPct": 0.0625
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 0,
+        "micDropSignals": false
+      }
+    }
+  }
+}

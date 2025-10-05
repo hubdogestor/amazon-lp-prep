@@ -1,0 +1,329 @@
+{
+  "original": {
+    "id": "commit-on-disagreement-product-strategy",
+    "title": "Discordei, Me Comprometi e Protegi o Lançamento (Banco Next)",
+    "title_pt": "Discordei, Me Comprometi e Protegi o Lançamento (Banco Next)",
+    "title_en": "Disagreed, Committed, and Protected the Launch (Banco Next)",
+    "company": "Banco Next",
+    "period": "2020",
+    "isTopCase": false,
+    "pt": {
+      "s": "A estratégia favorecia aquisição sobre robustez do core de pagamentos, elevando risco de incidentes e dano reputacional.",
+      "t": "Registrar o dissenso, mitigar riscos e assegurar um lançamento seguro.",
+      "a": "Documentei riscos com histórico e projeções; propus salvaguardas mínimas; defini GO com gates de qualidade; monitorei KPIs e garanti rollback seguro; alinhei comunicação com marketing/comercial.",
+      "r": "Lançamento no prazo sem incidentes severos; após 2 sprints, 15% do esforço foi para hardening, validando meu ponto; padrão 'dissent, commit, hedge' adotado.",
+      "l": "Discordar e comprometer-se amplia segurança psicológica quando há dados e mecanismos claros."
+    },
+    "en": {
+      "s": "Strategy favored acquisition over payment-core robustness, increasing risk of incidents and reputational damage.",
+      "t": "Record dissent, mitigate risks, and secure a safe launch.",
+      "a": "I documented risks with history and projections; proposed minimum safeguards; set GO with quality gates; tracked KPIs and ensured safe rollback; aligned comms with marketing/sales.",
+      "r": "On-time launch with no severe incidents; after 2 sprints, 15% effort moved to hardening, validating my point; 'dissent, commit, hedge' became a pattern.",
+      "l": "Disagree-and-commit boosts psychological safety when backed by data and mechanisms."
+    },
+    "fups": [
+      {
+        "q": "Que riscos específicos via na priorização de aquisição?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What risks did you see in prioritizing acquisition?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como registrou o dissenso com dados?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you record dissent with data?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como gates de qualidade mitigaram riscos do lançamento?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did quality gates mitigate launch risks?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que KPIs operacionais acompanhou?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which operational KPIs did you track?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que decisões pós-lançamento validaram sua posição?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What post-launch decisions validated you?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como garantiu impacto na realocação de 15%?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you ensure the 15% reallocation had impact?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "O que mudaria numa situação similar?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What would you change next time?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como manteve o time motivado?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you keep the team motivated?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como lidou com pressão externa?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you handle external pressure?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como institucionalizou o aprendizado no roadmap?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you institutionalize the learning?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      }
+    ],
+    "__file": "src\\data\\disagree_and_commit\\disagree_and_commit_case4.js",
+    "lp_id": "disagree_and_commit",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "commit-on-disagreement-product-strategy",
+    "title": "Discordei, Me Comprometi e Protegi o Lançamento (Banco Next)",
+    "title_pt": "Discordei, Me Comprometi e Protegi o Lançamento (Banco Next)",
+    "title_en": "Disagreed, Committed, and Protected the Launch (Banco Next)",
+    "company": "Banco Next",
+    "period": "2020",
+    "isTopCase": false,
+    "pt": {
+      "s": "A estratégia favorecia aquisição sobre robustez do core de pagamentos, elevando risco de incidentes e dano reputacional.",
+      "t": "Registrar o dissenso, mitigar riscos e assegurar um lançamento seguro.",
+      "a": "Documentei riscos com histórico e projeções; propus salvaguardas mínimas; defini GO com gates de qualidade; monitorei KPIs e garanti rollback seguro; alinhei comunicação com marketing/comercial.",
+      "r": "Lançamento no prazo sem incidentes severos; após 2 sprints, 15% do esforço foi para hardening, validando meu ponto; padrão 'dissent, commit, hedge' adotado.",
+      "l": "Discordar e comprometer-se amplia segurança psicológica quando há dados e mecanismos claros."
+    },
+    "en": {
+      "s": "Strategy favored acquisition over payment-core robustness, increasing risk of incidents and reputational damage.",
+      "t": "Record dissent, mitigate risks, and secure a safe launch.",
+      "a": "I documented risks with history and projections; proposed minimum safeguards; set GO with quality gates; tracked KPIs and ensured safe rollback; aligned comms with marketing/sales.",
+      "r": "On-time launch with no severe incidents; after 2 sprints, 15% effort moved to hardening, validating my point; 'dissent, commit, hedge' became a pattern.",
+      "l": "Disagree-and-commit boosts psychological safety when backed by data and mechanisms."
+    },
+    "fups": [
+      {
+        "q": "Que riscos específicos via na priorização de aquisição?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What risks did you see in prioritizing acquisition?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como registrou o dissenso com dados?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you record dissent with data?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como gates de qualidade mitigaram riscos do lançamento?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did quality gates mitigate launch risks?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que KPIs operacionais acompanhou?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "Which operational KPIs did you track?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Que decisões pós-lançamento validaram sua posição?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What post-launch decisions validated you?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como garantiu impacto na realocação de 15%?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you ensure the 15% reallocation had impact?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "O que mudaria numa situação similar?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "What would you change next time?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como manteve o time motivado?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you keep the team motivated?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como lidou com pressão externa?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you handle external pressure?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      },
+      {
+        "q": "Como institucionalizou o aprendizado no roadmap?",
+        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
+        "q_en": "How did you institutionalize the learning?",
+        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      }
+    ],
+    "__file": "src\\data\\disagree_and_commit\\disagree_and_commit_case4.js",
+    "lp_id": "disagree_and_commit",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 0,
+      "status": "KO",
+      "positives": [
+        "Ratio EU:N�S saud�vel (0:0)",
+        "Conflito/endurecimento presente",
+        "Mecanismos/repeatability destacados"
+      ],
+      "warnings": [
+        "Sem m�tricas financeiras claras",
+        "Sem m�tricas de cliente expl�citas",
+        "Sem m�tricas operacionais expl�citas",
+        "Transi��es STAR(L) pouco claras",
+        "Mic-drop/aprendizado forte n�o identificado"
+      ],
+      "dealbreakers": [
+        "Aus�ncia de Customer Obsession",
+        "Menos de 8 m�tricas (2)"
+      ],
+      "suggestions": [
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Aus�ncia de Customer Obsession",
+          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Menos de 8 m�tricas (2)",
+          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas financeiras claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas de cliente expl�citas",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas operacionais expl�citas",
+          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Mic-drop/aprendizado forte n�o identificado",
+          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "warning",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 2",
+          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
+        }
+      ],
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Aus�ncia de Customer Obsession",
+          "Menos de 8 m�tricas (2)"
+        ],
+        "warnings": [
+          "Sem m�tricas financeiras claras",
+          "Sem m�tricas de cliente expl�citas",
+          "Sem m�tricas operacionais expl�citas",
+          "Transi��es STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte n�o identificado"
+        ],
+        "positives": [
+          "Ratio EU:N�S saud�vel (0:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 2,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 0,
+        "conflictSignals": true,
+        "mechanismSignals": 3,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 58,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 120,
+            "enLen": 112,
+            "deltaPct": 0.06666666666666667
+          },
+          "t": {
+            "ptLen": 70,
+            "enLen": 57,
+            "deltaPct": 0.18571428571428572
+          },
+          "a": {
+            "ptLen": 194,
+            "enLen": 180,
+            "deltaPct": 0.07216494845360824
+          },
+          "r": {
+            "ptLen": 156,
+            "enLen": 152,
+            "deltaPct": 0.02564102564102564
+          },
+          "l": {
+            "ptLen": 92,
+            "enLen": 83,
+            "deltaPct": 0.09782608695652174
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": false
+      }
+    }
+  }
+}
