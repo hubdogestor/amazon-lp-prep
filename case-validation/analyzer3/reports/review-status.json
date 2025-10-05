@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-05T12:38:08.456Z",
+  "run_at": "2025-10-05T12:51:00.832Z",
   "data_dir": "src/data",
   "total_cases": 72,
   "filtered_cases": 6,
@@ -9,132 +9,8 @@
     {
       "lp_id": "invent_and_simplify",
       "case_id": "huawei-six-sigma-optimization",
-      "title_pt": "Invenção de Framework Six Sigma Customizado que Reduziu Atrasos em 73% no Rollout 4G",
-      "title_en": "Invention of Customized Six Sigma Framework that Reduced 4G Rollout Delays by 73%",
-      "status": "KO",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 3,
-        "status": "KO",
-        "dealbreakers": [
-          "Aus�ncia de Customer Obsession",
-          "Case muito antigo (>9 anos)"
-        ],
-        "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
-          "Hook inicial pode ser mais contundente"
-        ],
-        "positives": [
-          "M�tricas robustas (31)",
-          "Ratio EU:N�S saud�vel (2:0)",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 31,
-        "metricCategories": {
-          "financial": true,
-          "customer": false,
-          "operational": true
-        },
-        "customerSignals": 0,
-        "conflictSignals": false,
-        "mechanismSignals": 15,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 2,
-            "nos": 0
-          }
-        },
-        "recency": {
-          "monthsAgo": 130,
-          "status": "stale"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 465,
-            "enLen": 418,
-            "deltaPct": 0.1010752688172043
-          },
-          "t": {
-            "ptLen": 382,
-            "enLen": 373,
-            "deltaPct": 0.02356020942408377
-          },
-          "a": {
-            "ptLen": 1508,
-            "enLen": 1488,
-            "deltaPct": 0.013262599469496022
-          },
-          "r": {
-            "ptLen": 756,
-            "enLen": 740,
-            "deltaPct": 0.021164021164021163
-          },
-          "l": {
-            "ptLen": 681,
-            "enLen": 638,
-            "deltaPct": 0.0631424375917768
-          }
-        },
-        "hookSignals": false,
-        "transitionSignals": 2,
-        "micDropSignals": true
-      },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Case muito antigo (>9 anos)",
-          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 31",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
-    },
-    {
-      "lp_id": "invent_and_simplify",
-      "case_id": "bradesco-next-compliance-simplification",
-      "title_pt": "Simplificação do Processo de Compliance KYC/AML de 45 para 7 Dias no Lançamento do Next",
-      "title_en": "Simplification of KYC/AML Compliance Process from 45 to 7 Days in Next Launch",
+      "title_pt": "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing",
+      "title_en": "Invented 5G mechanism with Six Sigma playbook that reversed client-facing penalties",
       "status": "Ready",
       "lint": {
         "ok": true,
@@ -142,86 +18,71 @@
         "warnings": []
       },
       "heur": {
-        "score": 93,
+        "score": 100,
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Hook inicial pode ser mais contundente",
-          "Transi��es STAR(L) pouco claras",
-          "Case antigo (>7 anos)"
+          "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
           "Customer Obsession forte (13 men��es relevantes)",
-          "M�tricas robustas (26)",
-          "Ratio EU:N�S saud�vel (3:0)",
+          "M�tricas robustas (22)",
+          "Ratio EU:N�S saud�vel (7:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 26,
+        "metricsCount": 22,
         "metricCategories": {
           "financial": true,
-          "customer": false,
+          "customer": true,
           "operational": true
         },
         "customerSignals": 13,
         "conflictSignals": true,
-        "mechanismSignals": 17,
+        "mechanismSignals": 15,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 3,
+            "eu": 7,
             "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 94,
-          "status": "aging"
+          "monthsAgo": 37,
+          "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 537,
-            "enLen": 523,
-            "deltaPct": 0.0260707635009311
+            "ptLen": 542,
+            "enLen": 548,
+            "deltaPct": 0.010948905109489052
           },
           "t": {
-            "ptLen": 493,
-            "enLen": 470,
-            "deltaPct": 0.04665314401622718
+            "ptLen": 281,
+            "enLen": 284,
+            "deltaPct": 0.01056338028169014
           },
           "a": {
-            "ptLen": 1710,
-            "enLen": 1612,
-            "deltaPct": 0.05730994152046784
+            "ptLen": 1149,
+            "enLen": 1075,
+            "deltaPct": 0.06440382941688425
           },
           "r": {
-            "ptLen": 869,
-            "enLen": 821,
-            "deltaPct": 0.05523590333716916
+            "ptLen": 478,
+            "enLen": 490,
+            "deltaPct": 0.024489795918367346
           },
           "l": {
-            "ptLen": 520,
-            "enLen": 541,
-            "deltaPct": 0.038817005545286505
+            "ptLen": 430,
+            "enLen": 408,
+            "deltaPct": 0.05116279069767442
           }
         },
-        "hookSignals": false,
-        "transitionSignals": 0,
+        "hookSignals": true,
+        "transitionSignals": 1,
         "micDropSignals": true
       },
       "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
         {
           "severity": "warning",
           "topic": "warning",
@@ -229,349 +90,97 @@
           "action": "Refinar narrativa conforme alerta."
         },
         {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 7:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 26",
+          "message": "M�tricas detectadas: 22",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ]
     },
     {
       "lp_id": "invent_and_simplify",
-      "case_id": "unimed-ai-authorization",
-      "title_pt": "Invenção de Sistema de Autorização Médica com IA que Automatizou 80% das Decisões",
-      "title_en": "Invention of AI Medical Authorization System that Automated 80% of Decisions",
-      "status": "KO",
+      "case_id": "bradesco-next-compliance-simplification",
+      "title_pt": "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
+      "title_en": "Invented one-click KYC stream that cut Next onboarding from 32 to 6 hours",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 10,
-        "status": "KO",
-        "dealbreakers": [
-          "Aus�ncia de Customer Obsession",
-          "Ratio EU:N�S abaixo de 2:1 (1:3)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Sem conflito/resist�ncia vis�vel",
-          "Transi��es STAR(L) pouco claras"
-        ],
-        "positives": [
-          "M�tricas robustas (50)",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 50,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
-        },
-        "customerSignals": 0,
-        "conflictSignals": false,
-        "mechanismSignals": 30,
-        "ratio": {
-          "ratio": 0.25,
-          "counts": {
-            "eu": 1,
-            "nos": 3
-          }
-        },
-        "recency": {
-          "monthsAgo": 35,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 590,
-            "enLen": 583,
-            "deltaPct": 0.011864406779661017
-          },
-          "t": {
-            "ptLen": 426,
-            "enLen": 411,
-            "deltaPct": 0.035211267605633804
-          },
-          "a": {
-            "ptLen": 1493,
-            "enLen": 1422,
-            "deltaPct": 0.047555257870060284
-          },
-          "r": {
-            "ptLen": 791,
-            "enLen": 772,
-            "deltaPct": 0.02402022756005057
-          },
-          "l": {
-            "ptLen": 785,
-            "enLen": 743,
-            "deltaPct": 0.0535031847133758
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true
-      },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:3)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:3 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 50",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
-    },
-    {
-      "lp_id": "invent_and_simplify",
-      "case_id": "unimed-open-innovation",
-      "title_pt": "Criação do Primeiro Programa de Corporate Venture Capital em Saúde que Reduziu Time-to-Market em 68%",
-      "title_en": "Creation of First Healthcare Corporate Venture Capital Program that Reduced Time-to-Market by 68%",
-      "status": "KO",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 62,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (1:1)"
-        ],
-        "warnings": [
-          "Sem conflito/resist�ncia vis�vel",
-          "Transi��es STAR(L) pouco claras"
-        ],
-        "positives": [
-          "Customer Obsession forte (12 men��es relevantes)",
-          "M�tricas robustas (53)",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 53,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
-        },
-        "customerSignals": 12,
-        "conflictSignals": false,
-        "mechanismSignals": 8,
-        "ratio": {
-          "ratio": 0.5,
-          "counts": {
-            "eu": 1,
-            "nos": 1
-          }
-        },
-        "recency": {
-          "monthsAgo": 20,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 548,
-            "enLen": 499,
-            "deltaPct": 0.08941605839416059
-          },
-          "t": {
-            "ptLen": 551,
-            "enLen": 552,
-            "deltaPct": 0.0018115942028985507
-          },
-          "a": {
-            "ptLen": 1731,
-            "enLen": 1677,
-            "deltaPct": 0.03119584055459272
-          },
-          "r": {
-            "ptLen": 943,
-            "enLen": 882,
-            "deltaPct": 0.06468716861081654
-          },
-          "l": {
-            "ptLen": 848,
-            "enLen": 822,
-            "deltaPct": 0.030660377358490566
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true
-      },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:1)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:1 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 53",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
-    },
-    {
-      "lp_id": "invent_and_simplify",
-      "case_id": "sefarz-pix-reconciliation-automation",
-      "title_pt": "Automatizei a Reconciliação PIX com Regras, Controles e Observabilidade (SEFAZ/RS)",
-      "title_en": "Automated PIX Reconciliation with Rules, Controls and Observability (SEFAZ/RS)",
-      "status": "KO",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": [
-          "desequil�brio PT/EN em 's' (diferen�a >25%)",
-          "desequil�brio PT/EN em 't' (diferen�a >25%)",
-          "desequil�brio PT/EN em 'r' (diferen�a >25%)"
-        ]
-      },
-      "heur": {
-        "score": 30,
-        "status": "KO",
-        "dealbreakers": [
-          "Aus�ncia de Customer Obsession"
-        ],
-        "warnings": [
-          "Sem m�tricas de cliente expl�citas",
           "Sem m�tricas operacionais expl�citas",
-          "Transi��es STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte n�o identificado",
-          "Paridade PT/EN desequilibrada em r"
+          "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
-          "M�tricas robustas (10)",
-          "Ratio EU:N�S saud�vel (0:0)",
+          "Customer Obsession forte (20 men��es relevantes)",
+          "M�tricas robustas (22)",
+          "Ratio EU:N�S saud�vel (12:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 10,
+        "metricsCount": 22,
         "metricCategories": {
           "financial": true,
-          "customer": false,
+          "customer": true,
           "operational": false
         },
-        "customerSignals": 0,
+        "customerSignals": 20,
         "conflictSignals": true,
-        "mechanismSignals": 10,
+        "mechanismSignals": 3,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 0,
+            "eu": 12,
             "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 16,
+          "monthsAgo": 41,
           "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 516,
-            "enLen": 371,
-            "deltaPct": 0.2810077519379845
+            "ptLen": 451,
+            "enLen": 438,
+            "deltaPct": 0.028824833702882482
           },
           "t": {
-            "ptLen": 332,
-            "enLen": 243,
-            "deltaPct": 0.2680722891566265
+            "ptLen": 313,
+            "enLen": 321,
+            "deltaPct": 0.024922118380062305
           },
           "a": {
-            "ptLen": 860,
-            "enLen": 713,
-            "deltaPct": 0.17093023255813952
+            "ptLen": 964,
+            "enLen": 928,
+            "deltaPct": 0.03734439834024896
           },
           "r": {
-            "ptLen": 354,
-            "enLen": 225,
-            "deltaPct": 0.3644067796610169
+            "ptLen": 324,
+            "enLen": 323,
+            "deltaPct": 0.0030864197530864196
           },
           "l": {
-            "ptLen": 275,
-            "enLen": 234,
-            "deltaPct": 0.14909090909090908
+            "ptLen": 343,
+            "enLen": 327,
+            "deltaPct": 0.04664723032069971
           }
         },
         "hookSignals": true,
-        "transitionSignals": 0,
-        "micDropSignals": false
+        "transitionSignals": 1,
+        "micDropSignals": true
       },
       "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
         {
           "severity": "warning",
           "topic": "warning",
@@ -585,27 +194,298 @@
           "action": "Refinar narrativa conforme alerta."
         },
         {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Paridade PT/EN desequilibrada em r",
-          "action": "Ajustar texto PT/EN para manter comprimentos pr�ximos e evitar inconsist�ncias."
-        },
-        {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 12:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 10",
+          "message": "M�tricas detectadas: 22",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ]
+    },
+    {
+      "lp_id": "invent_and_simplify",
+      "case_id": "unimed-ai-authorization",
+      "title_pt": "IA de autorizacao medica inventada com foco em beneficiario destravou 82% de automacao",
+      "title_en": "Invented beneficiary-centric medical authorization AI that unlocked 82% automation",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (12 men��es relevantes)",
+          "M�tricas robustas (23)",
+          "Ratio EU:N�S saud�vel (15:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 23,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 12,
+        "conflictSignals": true,
+        "mechanismSignals": 5,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 15,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 24,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 520,
+            "enLen": 523,
+            "deltaPct": 0.0057361376673040155
+          },
+          "t": {
+            "ptLen": 288,
+            "enLen": 267,
+            "deltaPct": 0.07291666666666667
+          },
+          "a": {
+            "ptLen": 1111,
+            "enLen": 1074,
+            "deltaPct": 0.0333033303330333
+          },
+          "r": {
+            "ptLen": 551,
+            "enLen": 524,
+            "deltaPct": 0.04900181488203267
+          },
+          "l": {
+            "ptLen": 455,
+            "enLen": 416,
+            "deltaPct": 0.08571428571428572
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true
+      },
+      "changes": [
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 15:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 23",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ]
+    },
+    {
+      "lp_id": "invent_and_simplify",
+      "case_id": "unimed-open-innovation",
+      "title_pt": "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%",
+      "title_en": "Invented open platform with SaaS LP that cut innovation cycle by 68%",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem m�tricas operacionais expl�citas"
+        ],
+        "positives": [
+          "Customer Obsession forte (15 men��es relevantes)",
+          "M�tricas robustas (24)",
+          "Ratio EU:N�S saud�vel (13:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 24,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": false
+        },
+        "customerSignals": 15,
+        "conflictSignals": true,
+        "mechanismSignals": 4,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 13,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 22,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 570,
+            "enLen": 569,
+            "deltaPct": 0.0017543859649122807
+          },
+          "t": {
+            "ptLen": 279,
+            "enLen": 252,
+            "deltaPct": 0.0967741935483871
+          },
+          "a": {
+            "ptLen": 1059,
+            "enLen": 992,
+            "deltaPct": 0.06326723323890462
+          },
+          "r": {
+            "ptLen": 586,
+            "enLen": 570,
+            "deltaPct": 0.027303754266211604
+          },
+          "l": {
+            "ptLen": 338,
+            "enLen": 338,
+            "deltaPct": 0
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true
+      },
+      "changes": [
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas operacionais expl�citas",
+          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 13:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 24",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ]
+    },
+    {
+      "lp_id": "invent_and_simplify",
+      "case_id": "sefarz-pix-reconciliation-automation",
+      "title_pt": "Automacao de conciliacao PIX municipal inventada em 45 dias eliminou risco fiscal",
+      "title_en": "Invented PIX municipal reconciliation automation in 45 days eliminating fiscal risk",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Transi��es STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (25 men��es relevantes)",
+          "M�tricas robustas (25)",
+          "Ratio EU:N�S saud�vel (12:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 25,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 25,
+        "conflictSignals": true,
+        "mechanismSignals": 10,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 12,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 21,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 536,
+            "enLen": 515,
+            "deltaPct": 0.03917910447761194
+          },
+          "t": {
+            "ptLen": 326,
+            "enLen": 290,
+            "deltaPct": 0.11042944785276074
+          },
+          "a": {
+            "ptLen": 1123,
+            "enLen": 1039,
+            "deltaPct": 0.07479964381121995
+          },
+          "r": {
+            "ptLen": 536,
+            "enLen": 546,
+            "deltaPct": 0.018315018315018316
+          },
+          "l": {
+            "ptLen": 444,
+            "enLen": 413,
+            "deltaPct": 0.06981981981981981
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true
+      },
+      "changes": [
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 12:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 25",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ]
@@ -613,94 +493,86 @@
     {
       "lp_id": "invent_and_simplify",
       "case_id": "payment-simplification-high-impact",
-      "title_pt": "Simplifiquei Baixa/Estorno com Matriz de Decisão e Menos Toques",
-      "title_en": "Simplified Write-off/Refund with a Decision Matrix and Fewer Touches",
-      "status": "KO",
+      "title_pt": "Inventei motor de simplificacao de liquidez que reduziu D+3 para D+0 em marketplaces",
+      "title_en": "Invented liquidity simplification engine that moved settlements from D+3 to D+0",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 25,
-        "status": "KO",
-        "dealbreakers": [
-          "Menos de 8 m�tricas (5)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Hook inicial pode ser mais contundente",
-          "Transi��es STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte n�o identificado"
+          "Sem m�tricas operacionais expl�citas",
+          "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (3 men��es relevantes)",
-          "Ratio EU:N�S saud�vel (0:0)",
+          "Customer Obsession forte (9 men��es relevantes)",
+          "M�tricas robustas (27)",
+          "Ratio EU:N�S saud�vel (12:1)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 5,
+        "metricsCount": 27,
         "metricCategories": {
           "financial": true,
           "customer": true,
-          "operational": true
+          "operational": false
         },
-        "customerSignals": 3,
+        "customerSignals": 9,
         "conflictSignals": true,
-        "mechanismSignals": 2,
+        "mechanismSignals": 3,
         "ratio": {
-          "ratio": 1,
+          "ratio": 0.9230769230769231,
           "counts": {
-            "eu": 0,
-            "nos": 0
+            "eu": 12,
+            "nos": 1
           }
         },
         "recency": {
-          "monthsAgo": 12,
+          "monthsAgo": 22,
           "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 129,
-            "enLen": 119,
-            "deltaPct": 0.07751937984496124
+            "ptLen": 491,
+            "enLen": 466,
+            "deltaPct": 0.05091649694501019
           },
           "t": {
-            "ptLen": 126,
-            "enLen": 116,
-            "deltaPct": 0.07936507936507936
+            "ptLen": 285,
+            "enLen": 270,
+            "deltaPct": 0.05263157894736842
           },
           "a": {
-            "ptLen": 346,
-            "enLen": 306,
-            "deltaPct": 0.11560693641618497
+            "ptLen": 908,
+            "enLen": 832,
+            "deltaPct": 0.08370044052863436
           },
           "r": {
-            "ptLen": 120,
-            "enLen": 112,
-            "deltaPct": 0.06666666666666667
+            "ptLen": 416,
+            "enLen": 396,
+            "deltaPct": 0.04807692307692308
           },
           "l": {
-            "ptLen": 106,
-            "enLen": 105,
-            "deltaPct": 0.009433962264150943
+            "ptLen": 289,
+            "enLen": 268,
+            "deltaPct": 0.0726643598615917
           }
         },
-        "hookSignals": false,
-        "transitionSignals": 0,
-        "micDropSignals": false
+        "hookSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": true
       },
       "changes": [
         {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (5)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
           "severity": "warning",
           "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+          "message": "Sem m�tricas operacionais expl�citas",
+          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
         },
         {
           "severity": "warning",
@@ -709,22 +581,16 @@
           "action": "Refinar narrativa conforme alerta."
         },
         {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 12:1 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
-          "severity": "warning",
+          "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 5",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
+          "message": "M�tricas detectadas: 27",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ]
     }

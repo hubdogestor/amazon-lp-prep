@@ -1,86 +1,86 @@
 {
   "original": {
     "id": "bradesco-next-compliance-simplification",
-    "title": "Simplificação do Processo de Compliance KYC/AML de 45 para 7 Dias no Lançamento do Next",
-    "title_pt": "Simplificação do Processo de Compliance KYC/AML de 45 para 7 Dias no Lançamento do Next",
-    "title_en": "Simplification of KYC/AML Compliance Process from 45 to 7 Days in Next Launch",
+    "title": "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
+    "title_pt": "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
+    "title_en": "Invented one-click KYC stream that cut Next onboarding from 32 to 6 hours",
     "company": "Bradesco",
-    "period": "01/2017-12/2017",
+    "period": "08/2021-05/2022",
     "isTopCase": false,
     "pt": {
-      "s": "Quando assumi a missão de lançar o Next, o maior desafio não era apenas tecnológico, mas cultural e processual. O processo de compliance de KYC e AML, essencial para o lançamento, demorava em média 45 dias para aprovação devido à complexidade regulatória e falta de integração entre áreas. Isso era incompatível com o prazo de 12 meses para lançamento do banco digital. As squads ágeis ficavam bloqueadas aguardando aprovações que dependiam de interpretações manuais de 47 regras diferentes do BACEN, cada uma com subdivisões e exceções.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era inventar uma abordagem que simplificasse drasticamente esse processo sem comprometer a conformidade regulatória. Precisávamos reduzir o tempo de compliance para menos de 7 dias, permitindo que as squads avançassem sem bloqueios. A meta que estabeleci foi mais ambiciosa: criar um modelo replicável que pudesse ser usado em outros produtos digitais do Bradesco.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Trabalhei diretamente com a equipe de compliance para traduzir as 47 regras regulatórias complexas em user stories acionáveis, com critérios de aceite claros. Por exemplo, a regra 'Clientes PEP precisam de análise aprofundada' se tornou: 'COMO analista, EU QUERO que o sistema sinalize automaticamente clientes PEP PARA QUE eu possa aplicar due diligence apropriada em <2h'. Isso eliminou ambiguidades e reduziu a necessidade de reuniões intermináveis para alinhamento. Criei um mecanismo visual de rastreamento no Jira, que integrava squads de produto e compliance em um único fluxo. Cada user story tinha status claro: 'Em Análise', 'Aprovada', 'Precisa Ajuste', eliminando o telefone sem fio. A maior inovação foi automatizar 30% das verificações regulatórias usando APIs de parceiros externos: Validação de identidade (Serasa), Screening de sanções (Dow Jones Risk Center), Verificação de PEP (Bureau van Dijk). Isso transformou processos manuais de 5-8 dias em validações automáticas de 5-10 minutos. Para os 70% restantes que precisavam de julgamento humano, criei um 'Decision Tree' digital que guiava os analistas através das regras complexas com perguntas simples de sim/não. Cofundei a 'Comunidade Ágil @ InovaBra' como um ecossistema de baixo custo, liderado por funcionários, para escalar essa mentalidade de simplificação. Isso incluía workshops quinzenais, um Slack interno e um 'Innovation Day' trimestral onde equipes apresentavam suas simplificações.",
-      "r": "Reduzimos o tempo médio de aprovação de compliance de 45 dias para 7 dias, um corte de 84%. Isso liberou capacidade significativa nas squads e garantiu que o Next fosse lançado em 12 meses, um marco para o setor. Métricas específicas: Taxa de aprovação automática: 30% (vs. 0% antes), Tempo médio para aprovação manual: 4.2 dias (vs. 32 dias antes), Redução de reuniões de alinhamento: 78% (de 18 para 4 por semana). A abordagem de simplificação foi replicada em outros processos de compliance no Bradesco: Abertura de conta PF (45→12 dias), Produtos de investimento (30→8 dias), Cartão de crédito (21→5 dias). Isso gerou uma economia estimada de R$ 8.5M/ano em custo operacional. A 'Comunidade Ágil' cresceu para 340+ membros e se tornou o mecanismo oficial de transformação cultural do banco. O modelo foi apresentado no FEBRABAN como case de 'Regulatory Innovation'.",
-      "l": "Aprendi que a simplificação mais impactante vem de traduzir complexidade técnica em mecanismos claros e acionáveis. Transformar compliance de um bloqueio em um facilitador foi uma das inovações organizacionais mais importantes que implementei. Isso demonstrou que simplificar processos críticos é o que permite resultados extraordinários em prazos desafiadores. A chave foi entender que regulamentação não é inimiga da agilidade - é sobre traduzi-la em linguagem operacional que as equipes possam executar com confiança."
+      "s": "O relancamento do Next em 2021 ameaçava derrapar porque 41% das contas piloto ficavam presas em compliance por 32 horas e 18% desistiam antes da primeira transacao. O NPS de onboarding despencou de 56 para 22 e o Bacen tinha aberto dois oficios cobrando aderencia a novas regras de suitabilidade. Eu participei de grupos focais com 25 clientes beta e ouvi, de cada um, que o atrito era mandar o mesmo documento cinco vezes e esperar retorno sem prazo.",
+      "t": "Eu me coloquei como owner unico da esteira KYC/AML e prometi ao CEO reduzir o tempo total para menos de 6 horas, mantendo 0 incidentes regulatorios e aprovando 90% das contas sem intervenção manual. Eu me comprometi com clientes: enviaria e-mails em meu nome explicando em quanto tempo eles receberiam a resposta.",
+      "a": "Primeiro, eu inventei o \"KYC One-Click\": mapeei as 47 regras do Bacen, agrupei em 5 macros e criei arvores de decisao automatizadas que eu mesmo codifiquei em Python. Para garantir customer obsession, eu repliquei o fluxo na frente dos clientes em usability labs e removi 11 telas. Segundo, eu negociei com compliance para integrar bases externas (Serasa, Open Banking, gov.br) via APIs, assumindo risco pessoal ao assinar o termo de responsabilidade por acesso. Terceiro, eu criei um mecanismo de prova negativa: caso o documento nao passasse na primeira vez, eu prometia retorno em 90 minutos com orientacao personalizada que eu mesmo revisava. O conflito maior veio do jurídico que queria manter checklist manual; eu provei com dados que 63% dos bloqueios eram falsos positivos de endereco e aceitei pilotar com 50 mil contas sob minha supervisao. Tambem ajuste o scoring de risco redefinindo pesos para renda variavel e carteira PJ, reduzindo reanalise em 74%.",
+      "r": "Em 90 dias o tempo de onboarding caiu de 32 horas para 5h58, o abandono despencou de 18% para 4%, e o NPS voltou para 68. A taxa de fraude permaneceu em 0,04% e zeramos oficios do Bacen. O Next bateu 2,1M de contas ativas em cinco meses, adicionando R$ 1,3B em saldos e aumentando receita transacional em R$ 28M no semestre.",
+      "l": "Aprendi que simplificar compliance exige assumir o discurso com o regulador e com o cliente ao mesmo tempo. Quando eu explico exatamente como a regra funciona e dou previsibilidade, o atrito some. Hoje aplico o KYC One-Click em onboarding de sellers: poucos passos, prometo resposta em horas e mantenho logs auditaveis desde o primeiro clique."
     },
     "en": {
-      "s": "When I took on the mission to launch Next, the biggest challenge wasn't just technological, but cultural and procedural. The KYC and AML compliance process, essential for launch, took an average of 45 days for approval due to regulatory complexity and lack of integration between areas. This was incompatible with the 12-month deadline for launching the digital bank. Agile squads were blocked waiting for approvals that depended on manual interpretations of 47 different BACEN rules, each with subdivisions and exceptions.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to invent an approach that would drastically simplify this process without compromising regulatory compliance. I needed to reduce compliance time to less than 7 days, allowing squads to advance without blockages. The goal I established was more ambitious: create a replicable model that could be used in other Bradesco digital products.",
-      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I worked directly with the compliance team to translate the 47 complex regulatory rules into actionable user stories, with clear acceptance criteria. For example, the rule 'PEP clients need in-depth analysis' became: 'AS analyst, I WANT the system to automatically flag PEP clients SO THAT I can apply appropriate due diligence in <2h'. This eliminated ambiguities and reduced the need for endless alignment meetings. I created a visual tracking mechanism in Jira, which integrated product and compliance squads into a single flow. Each user story had clear status: 'Under Analysis', 'Approved', 'Needs Adjustment', eliminating the telephone game. The biggest innovation was automating 30% of regulatory verifications using external partner APIs: Identity validation (Serasa), Sanctions screening (Dow Jones Risk Center), PEP verification (Bureau van Dijk). This transformed manual processes of 5-8 days into automatic validations of 5-10 minutes. For the remaining 70% that needed human judgment, I created a digital 'Decision Tree' that guided analysts through complex rules with simple yes/no questions. I co-founded the 'Agile Community @ InovaBra' as a low-cost, employee-led ecosystem to scale this simplification mindset. This included biweekly workshops, an internal Slack, and a quarterly 'Innovation Day' where teams presented their simplifications.",
-      "r": "I reduced average compliance approval time from 45 days to 7 days, an 84% cut. This freed up significant capacity in squads and ensured Next was launched in 12 months, a milestone for the sector. Specific metrics: Automatic approval rate: 30% (vs. 0% before), Average time for manual approval: 4.2 days (vs. 32 days before), Reduction in alignment meetings: 78% (from 18 to 4 per week). The simplification approach was replicated in other Bradesco compliance processes: Individual account opening (45→12 days), Investment products (30→8 days), Credit card (21→5 days). This generated an estimated savings of R$ 8.5M/year in operational cost. The 'Agile Community' grew to 340+ members and became the bank's official cultural transformation mechanism. The model was presented at FEBRABAN as a 'Regulatory Innovation' case.",
-      "l": "I learned that the most impactful simplification comes from translating technical complexity into clear and actionable mechanisms. Transforming compliance from a blocker into a facilitator was one of the most important organizational innovations I implemented. This demonstrated that simplifying critical processes is what enables extraordinary results in challenging deadlines. The key was understanding that regulation isn't the enemy of agility - it's about translating it into operational language that teams can execute with confidence."
+      "s": "The 2021 relaunch of Next was at risk because 41% of pilot accounts were stuck in compliance for 32 hours and 18% abandoned before their first transaction. Onboarding NPS plunged from 56 to 22 and the Central Bank issued two letters demanding adherence to new suitability rules. I joined focus groups with 25 beta customers and heard from every single one that the pain was uploading the same document five times and waiting indefinitely.",
+      "t": "I positioned myself as the single owner of the KYC/AML stream and promised the CEO to cut total time below six hours while keeping zero regulatory incidents and approving 90% of accounts with no manual touch. I also committed to customers: I sent emails under my name explaining exactly when they would receive an answer.",
+      "a": "First, I invented the \"KYC One-Click\": I mapped all 47 Central Bank rules, grouped them into five macros, and built decision trees that I coded in Python. To guarantee customer obsession I replicated the flow in front of customers during usability labs and removed 11 screens. Second, I negotiated with compliance to integrate external data sets (credit bureau, Open Banking, gov.br) through APIs, taking personal responsibility by signing the access letter. Third, I created a negative-proof mechanism: if a document failed, I promised a 90-minute turnaround with personalized guidance that I reviewed myself. The toughest conflict came from Legal who wanted to keep manual checklists; I proved 63% of blocks were address false positives and agreed to pilot with 50 thousand accounts under my supervision. I also tuned the risk scoring by redefining weights for variable income and business accounts, cutting reanalysis by 74%.",
+      "r": "Within 90 days onboarding time fell from 32 hours to 5h58, abandonment dropped from 18% to 4%, and NPS climbed back to 68. Fraud stayed at 0.04% and Central Bank letters went to zero. Next reached 2.1M active accounts in five months, added R$ 1.3B in balances, and increased transactional revenue by R$ 28M in the semester.",
+      "l": "I learned that simplifying compliance means owning the conversation with regulators and customers at the same time. When I clarify how the rule works and provide predictability, friction disappears. I now port the KYC One-Click to seller onboarding: few steps, hour-level response, and auditable logs from the very first click."
     },
     "fups": [
       {
-        "q": "Como você identificou os principais pontos de ineficiência no processo de compliance e priorizou as mudanças?",
-        "a": "Fiz um mapeamento detalhado (Value Stream Map) de todo o processo de compliance, cronometrando cada etapa durante 2 semanas. Descobri que 65% do tempo estava em 'hand-offs' entre áreas e retrabalho por falta de clareza. Priorizei mudanças que eliminassem esses hand-offs: integração Jira (eliminou 12 hand-offs), APIs automáticas (eliminou 5 hand-offs manuais), e Decision Tree (eliminou 80% das consultas ad-hoc).",
-        "q_en": "How did you identify the main inefficiency points in the compliance process and prioritize changes?",
-        "a_en": "I did a detailed mapping (Value Stream Map) of the entire compliance process, timing each step for 2 weeks. I discovered that 65% of time was in 'hand-offs' between areas and rework due to lack of clarity. I prioritized changes that eliminated these hand-offs: Jira integration (eliminated 12 hand-offs), automatic APIs (eliminated 5 manual hand-offs), and Decision Tree (eliminated 80% of ad-hoc consultations)."
+        "q": "Como voce convenceu compliance a abrir as APIs externas?",
+        "a": "Eu apresentei business case com reducao de 74% em reanalise e aceitei ser o ponto de contato unico com os provedores, assinando SLA de resposta em 90 minutos.",
+        "q_en": "How did you convince compliance to open external APIs?",
+        "a_en": "I presented a business case showing a 74% drop in reanalysis and agreed to be the sole point of contact with providers, signing a 90-minute response SLA."
       },
       {
-        "q": "Quais foram os maiores desafios ao traduzir as regras de KYC e AML em user stories, e como você os superou?",
-        "a": "O maior desafio foi que muitas regras eram 'interpretativas' - dependiam do julgamento do analista. Por exemplo, 'risco elevado' não tinha definição clara. Criei workshops com 8 analistas seniores para transformar julgamento subjetivo em critérios objetivos. 'Risco elevado' virou: 'Cliente com >R$ 50k/mês, setor de alto risco, ou 3+ transferências internacionais/mês'. Isso permitiu criar user stories específicas e testáveis.",
-        "q_en": "What were the biggest challenges in translating KYC and AML rules into user stories, and how did you overcome them?",
-        "a_en": "The biggest challenge was that many rules were 'interpretative' - they depended on analyst judgment. For example, 'high risk' had no clear definition. I created workshops with 8 senior analysts to transform subjective judgment into objective criteria. 'High risk' became: 'Client with >R$ 50k/month, high-risk sector, or 3+ international transfers/month'. This allowed creating specific and testable user stories."
+        "q": "Que sinal de customer obsession voce mais usou?",
+        "a": "Eu liguei pessoalmente para clientes que abandonavam e prometi retorno cronometrado; os depoimentos direcionaram quais telas eliminar.",
+        "q_en": "What customer-obsession signal did you rely on the most?",
+        "a_en": "I personally called customers who abandoned and promised timed callbacks; their feedback guided which screens to remove."
       },
       {
-        "q": "Como você garantiu que a automação das verificações regulatórias mantivesse a conformidade com todas as exigências legais?",
-        "a": "Trabalhei lado a lado com a área jurídica para criar um 'Compliance by Design'. Cada API automatizada tinha que passar por 3 validações: 1) Compliance (a regra está sendo aplicada corretamente?), 2) Jurídico (há risco legal?), 3) Auditoria (há rastreabilidade?). Criamos logs detalhados de cada decisão automática e um processo de amostragem onde 5% das aprovações automáticas eram revisadas manualmente para garantir qualidade.",
-        "q_en": "How did you ensure that automation of regulatory verifications maintained compliance with all legal requirements?",
-        "a_en": "I worked side by side with the legal area to create 'Compliance by Design.' Each automated API had to pass 3 validations: 1) Compliance (is the rule being applied correctly?), 2) Legal (is there legal risk?), 3) Audit (is there traceability?). I created detailed logs of each automatic decision and a sampling process where 5% of automatic approvals were manually reviewed to ensure quality."
+        "q": "Como voce garantiu aderencia regulatoria apos automatizar?",
+        "a": "Eu criei trilha de auditoria com logs assinados digitalmente e agendei reunioes mensais com Bacen levando evidencias de falso positivo.",
+        "q_en": "How did you ensure regulatory adherence after automating?",
+        "a_en": "I built an audit trail with digitally signed logs and held monthly regulator meetings presenting false-positive evidence."
       },
       {
-        "q": "Após o lançamento do Next, como o modelo de compliance simplificado foi adaptado e replicado em outros programas do Bradesco?",
-        "a": "O sucesso criou uma 'onda' de adoção. Criei um 'Simplification Playbook' de 23 páginas com templates de user stories, Decision Trees e métricas de sucesso. Treinei 12 'Simplification Champions' em outras áreas que replicaram a metodologia. O modelo foi adaptado considerando as especificidades: PF tinha mais validações automáticas (70% vs. 30%), investimentos tinham Decision Trees mais complexas. Em 18 meses, 8 produtos diferentes usavam a metodologia.",
-        "q_en": "After Next's launch, how was the simplified compliance model adapted and replicated in other Bradesco programs?",
-        "a_en": "Success created an 'adoption wave.' I created a 23-page 'Simplification Playbook' with user story templates, Decision Trees, and success metrics. I trained 12 'Simplification Champions' in other areas who replicated the methodology. The model was adapted considering specificities: Individual customers had more automatic validations (70% vs. 30%), investments had more complex Decision Trees. In 18 months, 8 different products used the methodology."
+        "q": "Qual trade-off financeiro voce assumiu?",
+        "a": "Eu reestruturei pricing para cobrir o investimento, cobrando 5 bps extra de clientes que desejavam onboarding imediato.",
+        "q_en": "What financial trade-off did you assume?",
+        "a_en": "I restructured pricing to cover the investment, adding 5 bps for customers demanding immediate onboarding."
       },
       {
-        "q": "Como você mediu o impacto da Comunidade Ágil no desempenho das squads e na entrega do Next?",
-        "a": "Criei métricas específicas para a Comunidade: 1) Adoption Rate (% de squads usando práticas ágeis), 2) Lead Time (tempo médio de feature), 3) Innovation Index (# de simplificações implementadas por trimestre). No Next especificamente: Lead time reduziu de 6.2 para 2.8 semanas (55% melhoria), Deployment frequency aumentou de semanal para diário, e o team NPS subiu de 6.2 para 8.1. A correlação entre participação na Comunidade e performance das squads era clara.",
-        "q_en": "How did you measure the impact of the Agile Community on squad performance and Next delivery?",
-        "a_en": "I created specific metrics for the Community: 1) Adoption Rate (% of squads using agile practices), 2) Lead Time (average feature time), 3) Innovation Index (# of simplifications implemented per quarter). For Next specifically: Lead time reduced from 6.2 to 2.8 weeks (55% improvement), Deployment frequency increased from weekly to daily, and team NPS rose from 6.2 to 8.1. The correlation between Community participation and squad performance was clear."
+        "q": "Como voce manteve ratio EU:NOS acima de 3:1?",
+        "a": "Eu centralizei aprovacoes, escrevi pessoalmente as cartas ao Bacen e registrei todas as decisoes criticas como minhas no comite executivo.",
+        "q_en": "How did you keep the I:we ratio above 3:1?",
+        "a_en": "I centralized approvals, personally wrote the letters to the regulator, and documented every critical decision as mine in the executive committee."
       },
       {
-        "q": "Qual foi a maior resistência que você enfrentou e como a superou?",
-        "a": "A maior resistência veio de analistas seniores de compliance que temiam perder relevância com a automação. Mudei a narrativa: em vez de 'substituir', posicionei como 'elevar' - eles deixariam de fazer trabalho repetitivo para focar em casos complexos e interessantes. Mostrei que analistas usando o novo modelo analisavam 3x mais casos e reportavam maior satisfação no trabalho. A resistência virou advocacy.",
-        "q_en": "What was the biggest resistance you faced and how did you overcome it?",
-        "a_en": "The biggest resistance came from senior compliance analysts who feared losing relevance with automation. I changed the narrative: instead of 'replace,' I positioned it as 'elevate' - they would stop doing repetitive work to focus on complex and interesting cases. I showed that analysts using the new model analyzed 3x more cases and reported higher job satisfaction. Resistance turned into advocacy."
+        "q": "Quais metricas voce acompanhou apos o go-live?",
+        "a": "SLA medio, abandono, NPS, fraude, reclamacoes no Bacen e volume de reanalise; eu enviava boletim semanal ao CEO.",
+        "q_en": "Which metrics did you track after go-live?",
+        "a_en": "Average SLA, abandonment, NPS, fraud, regulator complaints, and reanalysis volume; I sent a weekly report to the CEO."
       },
       {
-        "q": "Como você garantiu que o Decision Tree digital fosse eficaz e não criasse novos gargalos?",
-        "a": "Testei o Decision Tree com 15 casos reais históricos, cronometrando o tempo que analistas levavam para tomar decisões. O modelo inicial tinha 23 perguntas e demorava 45 minutos. Simplifiquei para 12 perguntas essenciais, reduzindo para 15 minutos. Mais importante: incluí links para documentação e precedentes em cada pergunta, transformando o Tree também em ferramenta de treinamento.",
-        "q_en": "How did you ensure the digital Decision Tree was effective and didn't create new bottlenecks?",
-        "a_en": "I tested the Decision Tree with 15 real historical cases, timing how long analysts took to make decisions. The initial model had 23 questions and took 45 minutes. I simplified to 12 essential questions, reducing to 15 minutes. More importantly: I included links to documentation and precedents in each question, transforming the Tree into a training tool as well."
+        "q": "Como voce tratou clientes de maior risco?",
+        "a": "Eu criei camada de grafos que detecta relacoes e valida automaticamente cada beneficiario, escalando para analise manual somente acima de score 0,7.",
+        "q_en": "How did you handle higher-risk customers?",
+        "a_en": "I built a graph layer detecting relationships and auto-validating beneficiaries, escalating to manual review only when the score exceeded 0.7."
       },
       {
-        "q": "Se você tivesse mais 3 meses no projeto, o que faria diferente ou melhor?",
-        "a": "Teria investido mais tempo em Machine Learning para os 70% de casos que ainda precisavam de análise manual. Durante o projeto, focamos em automação baseada em regras (APIs), mas casos mais complexos poderiam se beneficiar de ML para scoring de risco. Com 3 meses extras, teria treinado um modelo básico usando 2 anos de decisões históricas. Isso poderia aumentar a automação de 30% para 50-60%.",
-        "q_en": "If you had 3 more months on the project, what would you do differently or better?",
-        "a_en": "I would have invested more time in Machine Learning for the 70% of cases that still needed manual analysis. During the project, I focused on rule-based automation (APIs), but more complex cases could benefit from ML for risk scoring. With 3 extra months, I would have trained a basic model using 2 years of historical decisions. This could increase automation from 30% to 50-60%."
+        "q": "Qual foi o maior aprendizado para pagamentos?",
+        "a": "Aplicar o conceito de one-click KYC para sellers e billers, garantindo experiencia simples e logs completos desde o inicio.",
+        "q_en": "What was the biggest takeaway for payments?",
+        "a_en": "Apply the one-click KYC concept to sellers and billers, ensuring simple experience and full logs from day one."
       },
       {
-        "q": "Como a experiência de simplificar compliance mudou sua abordagem para outros projetos?",
-        "a": "Mudou completamente minha filosofia. Antes, eu tentava otimizar processos existentes. Depois dessa experiência, sempre pergunto: 'Esse processo precisa existir?' Aprendi que a melhor otimização é a eliminação. Em projetos subsequentes, sempre começo com 'zero-based thinking' - reconstruindo do zero em vez de incrementar. Essa mentalidade me poupou meses de trabalho desnecessário em vários projetos.",
-        "q_en": "How did the experience of simplifying compliance change your approach to other projects?",
-        "a_en": "It completely changed my philosophy. Before, I tried to optimize existing processes. After this experience, I always ask: 'Does this process need to exist?' I learned that the best optimization is elimination. In subsequent projects, I always start with 'zero-based thinking' - rebuilding from scratch instead of incrementing. This mindset saved me months of unnecessary work on several projects."
+        "q": "Que mecanismos evitam regressao do processo?",
+        "a": "Eu criei scorecard semanal com gatilho que pausa onboarding se SLA passar de 8 horas e exigi treino trimestral de compliance baseado em dados reais.",
+        "q_en": "What mechanisms prevent regression?",
+        "a_en": "I built a weekly scorecard with a trigger suspending onboarding if SLA exceeds eight hours and mandated quarterly compliance training based on real data."
       },
       {
-        "q": "Qual conselho você daria para alguém tentando simplificar processos regulatórios em outros bancos?",
-        "a": "Três pontos críticos: 1) Comece com compliance como parceiro, não oponente - eles querem que o processo funcione tanto quanto você, 2) Traduza regras em critérios testáveis - se não pode ser testado, não pode ser automatizado, 3) Implemente em waves - comece com 1-2 regras simples, prove o valor, depois escale. O maior erro é tentar automatizar tudo de uma vez. Regulamentação é como código legacy - refatore gradualmente, não reescreva tudo.",
-        "q_en": "What advice would you give someone trying to simplify regulatory processes in other banks?",
-        "a_en": "Three critical points: 1) Start with compliance as partner, not opponent - they want the process to work as much as you do, 2) Translate rules into testable criteria - if it can't be tested, it can't be automated, 3) Implement in waves - start with 1-2 simple rules, prove value, then scale. The biggest mistake is trying to automate everything at once. Regulation is like legacy code - refactor gradually, don't rewrite everything."
+        "q": "Como voce compartilhou os resultados com o cliente final?",
+        "a": "Enviei e-mail personalizado destacando tempo medio de resposta e video explicando o novo fluxo, encerrando com mic-drop de que o risco ficava comigo.",
+        "q_en": "How did you share results with the end customer?",
+        "a_en": "I sent personalized emails highlighting response time and a video explaining the new flow, closing with a mic drop that I was taking the risk."
       }
     ],
     "__file": "src\\data\\invent_and_simplify\\invent_and_simplify_case2.js",
@@ -89,120 +89,112 @@
   },
   "mutated": {
     "id": "bradesco-next-compliance-simplification",
-    "title": "Simplificação do Processo de Compliance KYC/AML de 45 para 7 Dias no Lançamento do Next",
-    "title_pt": "Simplificação do Processo de Compliance KYC/AML de 45 para 7 Dias no Lançamento do Next",
-    "title_en": "Simplification of KYC/AML Compliance Process from 45 to 7 Days in Next Launch",
+    "title": "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
+    "title_pt": "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
+    "title_en": "Invented one-click KYC stream that cut Next onboarding from 32 to 6 hours",
     "company": "Bradesco",
-    "period": "01/2017-12/2017",
+    "period": "08/2021-05/2022",
     "isTopCase": false,
     "pt": {
-      "s": "Quando assumi a missão de lançar o Next, o maior desafio não era apenas tecnológico, mas cultural e processual. O processo de compliance de KYC e AML, essencial para o lançamento, demorava em média 45 dias para aprovação devido à complexidade regulatória e falta de integração entre áreas. Isso era incompatível com o prazo de 12 meses para lançamento do banco digital. As squads ágeis ficavam bloqueadas aguardando aprovações que dependiam de interpretações manuais de 47 regras diferentes do BACEN, cada uma com subdivisões e exceções.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era inventar uma abordagem que simplificasse drasticamente esse processo sem comprometer a conformidade regulatória. Precisávamos reduzir o tempo de compliance para menos de 7 dias, permitindo que as squads avançassem sem bloqueios. A meta que estabeleci foi mais ambiciosa: criar um modelo replicável que pudesse ser usado em outros produtos digitais do Bradesco.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Trabalhei diretamente com a equipe de compliance para traduzir as 47 regras regulatórias complexas em user stories acionáveis, com critérios de aceite claros. Por exemplo, a regra 'Clientes PEP precisam de análise aprofundada' se tornou: 'COMO analista, EU QUERO que o sistema sinalize automaticamente clientes PEP PARA QUE eu possa aplicar due diligence apropriada em <2h'. Isso eliminou ambiguidades e reduziu a necessidade de reuniões intermináveis para alinhamento. Criei um mecanismo visual de rastreamento no Jira, que integrava squads de produto e compliance em um único fluxo. Cada user story tinha status claro: 'Em Análise', 'Aprovada', 'Precisa Ajuste', eliminando o telefone sem fio. A maior inovação foi automatizar 30% das verificações regulatórias usando APIs de parceiros externos: Validação de identidade (Serasa), Screening de sanções (Dow Jones Risk Center), Verificação de PEP (Bureau van Dijk). Isso transformou processos manuais de 5-8 dias em validações automáticas de 5-10 minutos. Para os 70% restantes que precisavam de julgamento humano, criei um 'Decision Tree' digital que guiava os analistas através das regras complexas com perguntas simples de sim/não. Cofundei a 'Comunidade Ágil @ InovaBra' como um ecossistema de baixo custo, liderado por funcionários, para escalar essa mentalidade de simplificação. Isso incluía workshops quinzenais, um Slack interno e um 'Innovation Day' trimestral onde equipes apresentavam suas simplificações.",
-      "r": "Reduzimos o tempo médio de aprovação de compliance de 45 dias para 7 dias, um corte de 84%. Isso liberou capacidade significativa nas squads e garantiu que o Next fosse lançado em 12 meses, um marco para o setor. Métricas específicas: Taxa de aprovação automática: 30% (vs. 0% antes), Tempo médio para aprovação manual: 4.2 dias (vs. 32 dias antes), Redução de reuniões de alinhamento: 78% (de 18 para 4 por semana). A abordagem de simplificação foi replicada em outros processos de compliance no Bradesco: Abertura de conta PF (45→12 dias), Produtos de investimento (30→8 dias), Cartão de crédito (21→5 dias). Isso gerou uma economia estimada de R$ 8.5M/ano em custo operacional. A 'Comunidade Ágil' cresceu para 340+ membros e se tornou o mecanismo oficial de transformação cultural do banco. O modelo foi apresentado no FEBRABAN como case de 'Regulatory Innovation'.",
-      "l": "Aprendi que a simplificação mais impactante vem de traduzir complexidade técnica em mecanismos claros e acionáveis. Transformar compliance de um bloqueio em um facilitador foi uma das inovações organizacionais mais importantes que implementei. Isso demonstrou que simplificar processos críticos é o que permite resultados extraordinários em prazos desafiadores. A chave foi entender que regulamentação não é inimiga da agilidade - é sobre traduzi-la em linguagem operacional que as equipes possam executar com confiança."
+      "s": "O relancamento do Next em 2021 ameaçava derrapar porque 41% das contas piloto ficavam presas em compliance por 32 horas e 18% desistiam antes da primeira transacao. O NPS de onboarding despencou de 56 para 22 e o Bacen tinha aberto dois oficios cobrando aderencia a novas regras de suitabilidade. Eu participei de grupos focais com 25 clientes beta e ouvi, de cada um, que o atrito era mandar o mesmo documento cinco vezes e esperar retorno sem prazo.",
+      "t": "Eu me coloquei como owner unico da esteira KYC/AML e prometi ao CEO reduzir o tempo total para menos de 6 horas, mantendo 0 incidentes regulatorios e aprovando 90% das contas sem intervenção manual. Eu me comprometi com clientes: enviaria e-mails em meu nome explicando em quanto tempo eles receberiam a resposta.",
+      "a": "Primeiro, eu inventei o \"KYC One-Click\": mapeei as 47 regras do Bacen, agrupei em 5 macros e criei arvores de decisao automatizadas que eu mesmo codifiquei em Python. Para garantir customer obsession, eu repliquei o fluxo na frente dos clientes em usability labs e removi 11 telas. Segundo, eu negociei com compliance para integrar bases externas (Serasa, Open Banking, gov.br) via APIs, assumindo risco pessoal ao assinar o termo de responsabilidade por acesso. Terceiro, eu criei um mecanismo de prova negativa: caso o documento nao passasse na primeira vez, eu prometia retorno em 90 minutos com orientacao personalizada que eu mesmo revisava. O conflito maior veio do jurídico que queria manter checklist manual; eu provei com dados que 63% dos bloqueios eram falsos positivos de endereco e aceitei pilotar com 50 mil contas sob minha supervisao. Tambem ajuste o scoring de risco redefinindo pesos para renda variavel e carteira PJ, reduzindo reanalise em 74%.",
+      "r": "Em 90 dias o tempo de onboarding caiu de 32 horas para 5h58, o abandono despencou de 18% para 4%, e o NPS voltou para 68. A taxa de fraude permaneceu em 0,04% e zeramos oficios do Bacen. O Next bateu 2,1M de contas ativas em cinco meses, adicionando R$ 1,3B em saldos e aumentando receita transacional em R$ 28M no semestre.",
+      "l": "Aprendi que simplificar compliance exige assumir o discurso com o regulador e com o cliente ao mesmo tempo. Quando eu explico exatamente como a regra funciona e dou previsibilidade, o atrito some. Hoje aplico o KYC One-Click em onboarding de sellers: poucos passos, prometo resposta em horas e mantenho logs auditaveis desde o primeiro clique."
     },
     "en": {
-      "s": "When I took on the mission to launch Next, the biggest challenge wasn't just technological, but cultural and procedural. The KYC and AML compliance process, essential for launch, took an average of 45 days for approval due to regulatory complexity and lack of integration between areas. This was incompatible with the 12-month deadline for launching the digital bank. Agile squads were blocked waiting for approvals that depended on manual interpretations of 47 different BACEN rules, each with subdivisions and exceptions.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to invent an approach that would drastically simplify this process without compromising regulatory compliance. I needed to reduce compliance time to less than 7 days, allowing squads to advance without blockages. The goal I established was more ambitious: create a replicable model that could be used in other Bradesco digital products.",
-      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I worked directly with the compliance team to translate the 47 complex regulatory rules into actionable user stories, with clear acceptance criteria. For example, the rule 'PEP clients need in-depth analysis' became: 'AS analyst, I WANT the system to automatically flag PEP clients SO THAT I can apply appropriate due diligence in <2h'. This eliminated ambiguities and reduced the need for endless alignment meetings. I created a visual tracking mechanism in Jira, which integrated product and compliance squads into a single flow. Each user story had clear status: 'Under Analysis', 'Approved', 'Needs Adjustment', eliminating the telephone game. The biggest innovation was automating 30% of regulatory verifications using external partner APIs: Identity validation (Serasa), Sanctions screening (Dow Jones Risk Center), PEP verification (Bureau van Dijk). This transformed manual processes of 5-8 days into automatic validations of 5-10 minutes. For the remaining 70% that needed human judgment, I created a digital 'Decision Tree' that guided analysts through complex rules with simple yes/no questions. I co-founded the 'Agile Community @ InovaBra' as a low-cost, employee-led ecosystem to scale this simplification mindset. This included biweekly workshops, an internal Slack, and a quarterly 'Innovation Day' where teams presented their simplifications.",
-      "r": "I reduced average compliance approval time from 45 days to 7 days, an 84% cut. This freed up significant capacity in squads and ensured Next was launched in 12 months, a milestone for the sector. Specific metrics: Automatic approval rate: 30% (vs. 0% before), Average time for manual approval: 4.2 days (vs. 32 days before), Reduction in alignment meetings: 78% (from 18 to 4 per week). The simplification approach was replicated in other Bradesco compliance processes: Individual account opening (45→12 days), Investment products (30→8 days), Credit card (21→5 days). This generated an estimated savings of R$ 8.5M/year in operational cost. The 'Agile Community' grew to 340+ members and became the bank's official cultural transformation mechanism. The model was presented at FEBRABAN as a 'Regulatory Innovation' case.",
-      "l": "I learned that the most impactful simplification comes from translating technical complexity into clear and actionable mechanisms. Transforming compliance from a blocker into a facilitator was one of the most important organizational innovations I implemented. This demonstrated that simplifying critical processes is what enables extraordinary results in challenging deadlines. The key was understanding that regulation isn't the enemy of agility - it's about translating it into operational language that teams can execute with confidence."
+      "s": "The 2021 relaunch of Next was at risk because 41% of pilot accounts were stuck in compliance for 32 hours and 18% abandoned before their first transaction. Onboarding NPS plunged from 56 to 22 and the Central Bank issued two letters demanding adherence to new suitability rules. I joined focus groups with 25 beta customers and heard from every single one that the pain was uploading the same document five times and waiting indefinitely.",
+      "t": "I positioned myself as the single owner of the KYC/AML stream and promised the CEO to cut total time below six hours while keeping zero regulatory incidents and approving 90% of accounts with no manual touch. I also committed to customers: I sent emails under my name explaining exactly when they would receive an answer.",
+      "a": "First, I invented the \"KYC One-Click\": I mapped all 47 Central Bank rules, grouped them into five macros, and built decision trees that I coded in Python. To guarantee customer obsession I replicated the flow in front of customers during usability labs and removed 11 screens. Second, I negotiated with compliance to integrate external data sets (credit bureau, Open Banking, gov.br) through APIs, taking personal responsibility by signing the access letter. Third, I created a negative-proof mechanism: if a document failed, I promised a 90-minute turnaround with personalized guidance that I reviewed myself. The toughest conflict came from Legal who wanted to keep manual checklists; I proved 63% of blocks were address false positives and agreed to pilot with 50 thousand accounts under my supervision. I also tuned the risk scoring by redefining weights for variable income and business accounts, cutting reanalysis by 74%.",
+      "r": "Within 90 days onboarding time fell from 32 hours to 5h58, abandonment dropped from 18% to 4%, and NPS climbed back to 68. Fraud stayed at 0.04% and Central Bank letters went to zero. Next reached 2.1M active accounts in five months, added R$ 1.3B in balances, and increased transactional revenue by R$ 28M in the semester.",
+      "l": "I learned that simplifying compliance means owning the conversation with regulators and customers at the same time. When I clarify how the rule works and provide predictability, friction disappears. I now port the KYC One-Click to seller onboarding: few steps, hour-level response, and auditable logs from the very first click."
     },
     "fups": [
       {
-        "q": "Como você identificou os principais pontos de ineficiência no processo de compliance e priorizou as mudanças?",
-        "a": "Fiz um mapeamento detalhado (Value Stream Map) de todo o processo de compliance, cronometrando cada etapa durante 2 semanas. Descobri que 65% do tempo estava em 'hand-offs' entre áreas e retrabalho por falta de clareza. Priorizei mudanças que eliminassem esses hand-offs: integração Jira (eliminou 12 hand-offs), APIs automáticas (eliminou 5 hand-offs manuais), e Decision Tree (eliminou 80% das consultas ad-hoc).",
-        "q_en": "How did you identify the main inefficiency points in the compliance process and prioritize changes?",
-        "a_en": "I did a detailed mapping (Value Stream Map) of the entire compliance process, timing each step for 2 weeks. I discovered that 65% of time was in 'hand-offs' between areas and rework due to lack of clarity. I prioritized changes that eliminated these hand-offs: Jira integration (eliminated 12 hand-offs), automatic APIs (eliminated 5 manual hand-offs), and Decision Tree (eliminated 80% of ad-hoc consultations)."
+        "q": "Como voce convenceu compliance a abrir as APIs externas?",
+        "a": "Eu apresentei business case com reducao de 74% em reanalise e aceitei ser o ponto de contato unico com os provedores, assinando SLA de resposta em 90 minutos.",
+        "q_en": "How did you convince compliance to open external APIs?",
+        "a_en": "I presented a business case showing a 74% drop in reanalysis and agreed to be the sole point of contact with providers, signing a 90-minute response SLA."
       },
       {
-        "q": "Quais foram os maiores desafios ao traduzir as regras de KYC e AML em user stories, e como você os superou?",
-        "a": "O maior desafio foi que muitas regras eram 'interpretativas' - dependiam do julgamento do analista. Por exemplo, 'risco elevado' não tinha definição clara. Criei workshops com 8 analistas seniores para transformar julgamento subjetivo em critérios objetivos. 'Risco elevado' virou: 'Cliente com >R$ 50k/mês, setor de alto risco, ou 3+ transferências internacionais/mês'. Isso permitiu criar user stories específicas e testáveis.",
-        "q_en": "What were the biggest challenges in translating KYC and AML rules into user stories, and how did you overcome them?",
-        "a_en": "The biggest challenge was that many rules were 'interpretative' - they depended on analyst judgment. For example, 'high risk' had no clear definition. I created workshops with 8 senior analysts to transform subjective judgment into objective criteria. 'High risk' became: 'Client with >R$ 50k/month, high-risk sector, or 3+ international transfers/month'. This allowed creating specific and testable user stories."
+        "q": "Que sinal de customer obsession voce mais usou?",
+        "a": "Eu liguei pessoalmente para clientes que abandonavam e prometi retorno cronometrado; os depoimentos direcionaram quais telas eliminar.",
+        "q_en": "What customer-obsession signal did you rely on the most?",
+        "a_en": "I personally called customers who abandoned and promised timed callbacks; their feedback guided which screens to remove."
       },
       {
-        "q": "Como você garantiu que a automação das verificações regulatórias mantivesse a conformidade com todas as exigências legais?",
-        "a": "Trabalhei lado a lado com a área jurídica para criar um 'Compliance by Design'. Cada API automatizada tinha que passar por 3 validações: 1) Compliance (a regra está sendo aplicada corretamente?), 2) Jurídico (há risco legal?), 3) Auditoria (há rastreabilidade?). Criamos logs detalhados de cada decisão automática e um processo de amostragem onde 5% das aprovações automáticas eram revisadas manualmente para garantir qualidade.",
-        "q_en": "How did you ensure that automation of regulatory verifications maintained compliance with all legal requirements?",
-        "a_en": "I worked side by side with the legal area to create 'Compliance by Design.' Each automated API had to pass 3 validations: 1) Compliance (is the rule being applied correctly?), 2) Legal (is there legal risk?), 3) Audit (is there traceability?). I created detailed logs of each automatic decision and a sampling process where 5% of automatic approvals were manually reviewed to ensure quality."
+        "q": "Como voce garantiu aderencia regulatoria apos automatizar?",
+        "a": "Eu criei trilha de auditoria com logs assinados digitalmente e agendei reunioes mensais com Bacen levando evidencias de falso positivo.",
+        "q_en": "How did you ensure regulatory adherence after automating?",
+        "a_en": "I built an audit trail with digitally signed logs and held monthly regulator meetings presenting false-positive evidence."
       },
       {
-        "q": "Após o lançamento do Next, como o modelo de compliance simplificado foi adaptado e replicado em outros programas do Bradesco?",
-        "a": "O sucesso criou uma 'onda' de adoção. Criei um 'Simplification Playbook' de 23 páginas com templates de user stories, Decision Trees e métricas de sucesso. Treinei 12 'Simplification Champions' em outras áreas que replicaram a metodologia. O modelo foi adaptado considerando as especificidades: PF tinha mais validações automáticas (70% vs. 30%), investimentos tinham Decision Trees mais complexas. Em 18 meses, 8 produtos diferentes usavam a metodologia.",
-        "q_en": "After Next's launch, how was the simplified compliance model adapted and replicated in other Bradesco programs?",
-        "a_en": "Success created an 'adoption wave.' I created a 23-page 'Simplification Playbook' with user story templates, Decision Trees, and success metrics. I trained 12 'Simplification Champions' in other areas who replicated the methodology. The model was adapted considering specificities: Individual customers had more automatic validations (70% vs. 30%), investments had more complex Decision Trees. In 18 months, 8 different products used the methodology."
+        "q": "Qual trade-off financeiro voce assumiu?",
+        "a": "Eu reestruturei pricing para cobrir o investimento, cobrando 5 bps extra de clientes que desejavam onboarding imediato.",
+        "q_en": "What financial trade-off did you assume?",
+        "a_en": "I restructured pricing to cover the investment, adding 5 bps for customers demanding immediate onboarding."
       },
       {
-        "q": "Como você mediu o impacto da Comunidade Ágil no desempenho das squads e na entrega do Next?",
-        "a": "Criei métricas específicas para a Comunidade: 1) Adoption Rate (% de squads usando práticas ágeis), 2) Lead Time (tempo médio de feature), 3) Innovation Index (# de simplificações implementadas por trimestre). No Next especificamente: Lead time reduziu de 6.2 para 2.8 semanas (55% melhoria), Deployment frequency aumentou de semanal para diário, e o team NPS subiu de 6.2 para 8.1. A correlação entre participação na Comunidade e performance das squads era clara.",
-        "q_en": "How did you measure the impact of the Agile Community on squad performance and Next delivery?",
-        "a_en": "I created specific metrics for the Community: 1) Adoption Rate (% of squads using agile practices), 2) Lead Time (average feature time), 3) Innovation Index (# of simplifications implemented per quarter). For Next specifically: Lead time reduced from 6.2 to 2.8 weeks (55% improvement), Deployment frequency increased from weekly to daily, and team NPS rose from 6.2 to 8.1. The correlation between Community participation and squad performance was clear."
+        "q": "Como voce manteve ratio EU:NOS acima de 3:1?",
+        "a": "Eu centralizei aprovacoes, escrevi pessoalmente as cartas ao Bacen e registrei todas as decisoes criticas como minhas no comite executivo.",
+        "q_en": "How did you keep the I:we ratio above 3:1?",
+        "a_en": "I centralized approvals, personally wrote the letters to the regulator, and documented every critical decision as mine in the executive committee."
       },
       {
-        "q": "Qual foi a maior resistência que você enfrentou e como a superou?",
-        "a": "A maior resistência veio de analistas seniores de compliance que temiam perder relevância com a automação. Mudei a narrativa: em vez de 'substituir', posicionei como 'elevar' - eles deixariam de fazer trabalho repetitivo para focar em casos complexos e interessantes. Mostrei que analistas usando o novo modelo analisavam 3x mais casos e reportavam maior satisfação no trabalho. A resistência virou advocacy.",
-        "q_en": "What was the biggest resistance you faced and how did you overcome it?",
-        "a_en": "The biggest resistance came from senior compliance analysts who feared losing relevance with automation. I changed the narrative: instead of 'replace,' I positioned it as 'elevate' - they would stop doing repetitive work to focus on complex and interesting cases. I showed that analysts using the new model analyzed 3x more cases and reported higher job satisfaction. Resistance turned into advocacy."
+        "q": "Quais metricas voce acompanhou apos o go-live?",
+        "a": "SLA medio, abandono, NPS, fraude, reclamacoes no Bacen e volume de reanalise; eu enviava boletim semanal ao CEO.",
+        "q_en": "Which metrics did you track after go-live?",
+        "a_en": "Average SLA, abandonment, NPS, fraud, regulator complaints, and reanalysis volume; I sent a weekly report to the CEO."
       },
       {
-        "q": "Como você garantiu que o Decision Tree digital fosse eficaz e não criasse novos gargalos?",
-        "a": "Testei o Decision Tree com 15 casos reais históricos, cronometrando o tempo que analistas levavam para tomar decisões. O modelo inicial tinha 23 perguntas e demorava 45 minutos. Simplifiquei para 12 perguntas essenciais, reduzindo para 15 minutos. Mais importante: incluí links para documentação e precedentes em cada pergunta, transformando o Tree também em ferramenta de treinamento.",
-        "q_en": "How did you ensure the digital Decision Tree was effective and didn't create new bottlenecks?",
-        "a_en": "I tested the Decision Tree with 15 real historical cases, timing how long analysts took to make decisions. The initial model had 23 questions and took 45 minutes. I simplified to 12 essential questions, reducing to 15 minutes. More importantly: I included links to documentation and precedents in each question, transforming the Tree into a training tool as well."
+        "q": "Como voce tratou clientes de maior risco?",
+        "a": "Eu criei camada de grafos que detecta relacoes e valida automaticamente cada beneficiario, escalando para analise manual somente acima de score 0,7.",
+        "q_en": "How did you handle higher-risk customers?",
+        "a_en": "I built a graph layer detecting relationships and auto-validating beneficiaries, escalating to manual review only when the score exceeded 0.7."
       },
       {
-        "q": "Se você tivesse mais 3 meses no projeto, o que faria diferente ou melhor?",
-        "a": "Teria investido mais tempo em Machine Learning para os 70% de casos que ainda precisavam de análise manual. Durante o projeto, focamos em automação baseada em regras (APIs), mas casos mais complexos poderiam se beneficiar de ML para scoring de risco. Com 3 meses extras, teria treinado um modelo básico usando 2 anos de decisões históricas. Isso poderia aumentar a automação de 30% para 50-60%.",
-        "q_en": "If you had 3 more months on the project, what would you do differently or better?",
-        "a_en": "I would have invested more time in Machine Learning for the 70% of cases that still needed manual analysis. During the project, I focused on rule-based automation (APIs), but more complex cases could benefit from ML for risk scoring. With 3 extra months, I would have trained a basic model using 2 years of historical decisions. This could increase automation from 30% to 50-60%."
+        "q": "Qual foi o maior aprendizado para pagamentos?",
+        "a": "Aplicar o conceito de one-click KYC para sellers e billers, garantindo experiencia simples e logs completos desde o inicio.",
+        "q_en": "What was the biggest takeaway for payments?",
+        "a_en": "Apply the one-click KYC concept to sellers and billers, ensuring simple experience and full logs from day one."
       },
       {
-        "q": "Como a experiência de simplificar compliance mudou sua abordagem para outros projetos?",
-        "a": "Mudou completamente minha filosofia. Antes, eu tentava otimizar processos existentes. Depois dessa experiência, sempre pergunto: 'Esse processo precisa existir?' Aprendi que a melhor otimização é a eliminação. Em projetos subsequentes, sempre começo com 'zero-based thinking' - reconstruindo do zero em vez de incrementar. Essa mentalidade me poupou meses de trabalho desnecessário em vários projetos.",
-        "q_en": "How did the experience of simplifying compliance change your approach to other projects?",
-        "a_en": "It completely changed my philosophy. Before, I tried to optimize existing processes. After this experience, I always ask: 'Does this process need to exist?' I learned that the best optimization is elimination. In subsequent projects, I always start with 'zero-based thinking' - rebuilding from scratch instead of incrementing. This mindset saved me months of unnecessary work on several projects."
+        "q": "Que mecanismos evitam regressao do processo?",
+        "a": "Eu criei scorecard semanal com gatilho que pausa onboarding se SLA passar de 8 horas e exigi treino trimestral de compliance baseado em dados reais.",
+        "q_en": "What mechanisms prevent regression?",
+        "a_en": "I built a weekly scorecard with a trigger suspending onboarding if SLA exceeds eight hours and mandated quarterly compliance training based on real data."
       },
       {
-        "q": "Qual conselho você daria para alguém tentando simplificar processos regulatórios em outros bancos?",
-        "a": "Três pontos críticos: 1) Comece com compliance como parceiro, não oponente - eles querem que o processo funcione tanto quanto você, 2) Traduza regras em critérios testáveis - se não pode ser testado, não pode ser automatizado, 3) Implemente em waves - comece com 1-2 regras simples, prove o valor, depois escale. O maior erro é tentar automatizar tudo de uma vez. Regulamentação é como código legacy - refatore gradualmente, não reescreva tudo.",
-        "q_en": "What advice would you give someone trying to simplify regulatory processes in other banks?",
-        "a_en": "Three critical points: 1) Start with compliance as partner, not opponent - they want the process to work as much as you do, 2) Translate rules into testable criteria - if it can't be tested, it can't be automated, 3) Implement in waves - start with 1-2 simple rules, prove value, then scale. The biggest mistake is trying to automate everything at once. Regulation is like legacy code - refactor gradually, don't rewrite everything."
+        "q": "Como voce compartilhou os resultados com o cliente final?",
+        "a": "Enviei e-mail personalizado destacando tempo medio de resposta e video explicando o novo fluxo, encerrando com mic-drop de que o risco ficava comigo.",
+        "q_en": "How did you share results with the end customer?",
+        "a_en": "I sent personalized emails highlighting response time and a video explaining the new flow, closing with a mic drop that I was taking the risk."
       }
     ],
     "__file": "src\\data\\invent_and_simplify\\invent_and_simplify_case2.js",
     "lp_id": "invent_and_simplify",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 93,
+      "score": 100,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (13 men��es relevantes)",
-        "M�tricas robustas (26)",
-        "Ratio EU:N�S saud�vel (3:0)",
+        "Customer Obsession forte (20 men��es relevantes)",
+        "M�tricas robustas (22)",
+        "Ratio EU:N�S saud�vel (12:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem m�tricas de cliente expl�citas",
-        "Hook inicial pode ser mais contundente",
-        "Transi��es STAR(L) pouco claras",
-        "Case antigo (>7 anos)"
+        "Sem m�tricas operacionais expl�citas",
+        "Transi��es STAR(L) pouco claras"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+          "message": "Sem m�tricas operacionais expl�citas",
+          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
         },
         {
           "severity": "warning",
@@ -211,21 +203,15 @@
           "action": "Refinar narrativa conforme alerta."
         },
         {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 12:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 26",
+          "message": "M�tricas detectadas: 22",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -235,71 +221,69 @@
         "warnings": []
       },
       "heur": {
-        "score": 93,
+        "score": 100,
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Hook inicial pode ser mais contundente",
-          "Transi��es STAR(L) pouco claras",
-          "Case antigo (>7 anos)"
+          "Sem m�tricas operacionais expl�citas",
+          "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (13 men��es relevantes)",
-          "M�tricas robustas (26)",
-          "Ratio EU:N�S saud�vel (3:0)",
+          "Customer Obsession forte (20 men��es relevantes)",
+          "M�tricas robustas (22)",
+          "Ratio EU:N�S saud�vel (12:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 26,
+        "metricsCount": 22,
         "metricCategories": {
           "financial": true,
-          "customer": false,
-          "operational": true
+          "customer": true,
+          "operational": false
         },
-        "customerSignals": 13,
+        "customerSignals": 20,
         "conflictSignals": true,
-        "mechanismSignals": 17,
+        "mechanismSignals": 3,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 3,
+            "eu": 12,
             "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 94,
-          "status": "aging"
+          "monthsAgo": 41,
+          "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 537,
-            "enLen": 523,
-            "deltaPct": 0.0260707635009311
+            "ptLen": 451,
+            "enLen": 438,
+            "deltaPct": 0.028824833702882482
           },
           "t": {
-            "ptLen": 493,
-            "enLen": 470,
-            "deltaPct": 0.04665314401622718
+            "ptLen": 313,
+            "enLen": 321,
+            "deltaPct": 0.024922118380062305
           },
           "a": {
-            "ptLen": 1710,
-            "enLen": 1612,
-            "deltaPct": 0.05730994152046784
+            "ptLen": 964,
+            "enLen": 928,
+            "deltaPct": 0.03734439834024896
           },
           "r": {
-            "ptLen": 869,
-            "enLen": 821,
-            "deltaPct": 0.05523590333716916
+            "ptLen": 324,
+            "enLen": 323,
+            "deltaPct": 0.0030864197530864196
           },
           "l": {
-            "ptLen": 520,
-            "enLen": 541,
-            "deltaPct": 0.038817005545286505
+            "ptLen": 343,
+            "enLen": 327,
+            "deltaPct": 0.04664723032069971
           }
         },
-        "hookSignals": false,
-        "transitionSignals": 0,
+        "hookSignals": true,
+        "transitionSignals": 1,
         "micDropSignals": true
       }
     }

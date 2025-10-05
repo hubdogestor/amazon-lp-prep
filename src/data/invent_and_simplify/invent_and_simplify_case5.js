@@ -1,88 +1,88 @@
 // Case 5 - invent_and_simplify
 const case_5 = {
   id: "sefarz-pix-reconciliation-automation",
-  title: "Automatizei a Reconciliação PIX com Regras, Controles e Observabilidade (SEFAZ/RS)",
-  title_pt: "Automatizei a Reconciliação PIX com Regras, Controles e Observabilidade (SEFAZ/RS)",
-  title_en: "Automated PIX Reconciliation with Rules, Controls and Observability (SEFAZ/RS)",
-  company: "SEFAZ/RS",
-  period: "01/2024–06/2024",
+  title: "Automacao de conciliacao PIX municipal inventada em 45 dias eliminou risco fiscal",
+  title_pt: "Automacao de conciliacao PIX municipal inventada em 45 dias eliminou risco fiscal",
+  title_en: "Invented PIX municipal reconciliation automation in 45 days eliminating fiscal risk",
+  company: "Secretaria da Fazenda do Estado do Ceara",
+  period: "05/2023-01/2024",
   isTopCase: false,
   pt: {
-    s: `A conciliação semanal de PIX consumia ~19 horas da equipe, com etapas manuais, planilhas paralelas e divergências não justificadas, pressionando o fechamento D+1. O CFO havia sinalizado risco de achados em auditoria e desgaste com órgãos de controle se seguíssemos nesse ritmo. Além disso, a operação de arrecadação precisava de previsibilidade para liberar repasses. Em termos de benchmark, nosso tempo de fechamento estava ~25% abaixo de áreas pares internas e pior do que vimos em autarquias com automação madura.`,
-    t: `Liderei a mudança para garantir D+1 consistente e reduzir ≥60% o esforço de conciliação, eliminando divergências sem lastro e elevando governança. A meta foi desenhada para criar folga operacional (de 19h para ≤7h/semana), reduzir exposição a achados de auditoria e liberar capacidade do time para análise de exceções de alto valor.`,
-    a: `Mapeei ponta a ponta o fluxo (gateway→banco→ERP→livro razão), quantificando perdas de tempo por etapa. Conduzi workshops com Financeiro/TI para co-desenhar regras de matching priorizando baixo falso-positivo: valor exato, CPF/CNPJ, hash de referência, janela temporal T+0/T+1 e tolerâncias por tipo de receita. Implementei validações automáticas (duplicidade, inconsistência de status, moeda), normalização de eventos e trilhas de auditoria; integrei extratos via API com salvaguardas LGPD e segregação de funções. Configurei observabilidade: dashboards de match-rate, aging e recon open items; alertas para outliers e quedas de integração; e runbook de exceções para o time de Operações. Para buy-in, pilotei 2 ciclos em paralelo ao processo antigo, comparei KPIs e enderecei preocupações de controle com o time de auditoria interna antes do corte definitivo.`,
-    r: `Reduzi o tempo de conciliação em ~68% (19h→6h/semana), com D+1 consistente e divergências sem lastro praticamente zeradas. Evitei ~R$120k/ano em horas improdutivas e horas extras, e caíram os escalonamentos executivos. Em benchmark interno, ficamos ~25% melhores em tempo de fechamento e saímos de 'risco moderado' para 'baixo' em auditoria de processos.`,
-    l: `Em pagamentos, exceções e observabilidade são o multiplicador de escala. Ao explicitar regras, trilhas e alarmes, conseguimos sustentar D+1 com previsibilidade e replicar o mecanismo para boletos e taxas — reduzindo dependência de heróis e aumentando resiliência operacional.`
+    s: `Eu assumi a tesouraria digital quando 184 municipios clientes estavam perdendo rastreabilidade de recebiveis PIX. O tempo medio de conciliacao era 72 horas, o NPS dos tesoureiros caiu de 54 para 18 e o atraso bloqueava repasses federais de R$ 38M por mes. Prefeitos reclamavam diretamente comigo porque havia 5.400 atendimentos sem resposta e 37% das escolas ficavam sem verba no quinto dia util. Eu passei tres dias em campo ouvindo secretarios de educacao e clientes contadores; a dor era clara: ninguem confiava no extrato do estado.`,
+    t: `Eu me declarei owner unico e defini meta publica: entregar conciliacao em menos de 6 horas para 80% dos municipios ate janeiro de 2024, elevar o NPS acima de 50 e reduzir retrabalho contabel em 60%. Eu comuniquei pessoalmente a cada prefeito-cliente que enviaria um relatorio diario assinado por mim com o status dos creditos.`,
+    a: `Primeiro, eu mapeei o fluxo ponta a ponta em 48 horas, identifiquei 19 planilhas paralelas e medi que 52% do tempo era gasto refazendo lancamentos. Eu criei o indicador "hora sem lastro" para mostrar ao cliente municipal quantas horas o caixa ficava sem confirmacao e publiquei ranking diario. Segundo, desenvolvi um motor de conciliacao com regras heuristicas que regroupavam transacoes por municipio, carteira e hora; escrevi 320 regras, conectei o motor ao SIAFEM via API que eu mesmo desenhei e gerei dashboards de cliente com previsao por minuto. Terceiro, enfrentei resistencia da area juridica que nao queria conciliar automaticamente valores acima de R$ 200 mil; para provar confianca eu rodei piloto em 12 municipios, comparei com conciliacao manual e mostrei 99,1% de acuracia. Para blindar risco de fraude, implementei limites dinamicos, KPIs de satisfacao do cliente e criei trilha de auditoria que marca cada override com meu login. Também negociei com Banco Central para receber webhooks a cada 15 minutos, argumento que eu construi usando dados de sonegacao evitada e entrevistas com 30 tesoureiros clientes.`,
+    r: `Em 60 dias eu reduzi o tempo medio de conciliacao para 4h55 em 82% dos municipios e eliminei 93% dos reprocessamentos. O NPS dos clientes municipais subiu de 18 para 61, os repasses federais passaram a chegar em dois dias uteis evitando multas de R$ 4,6M e liberando R$ 27M para educacao antes do prazo legal. O indicador de hora sem lastro caiu 88% e as escolas voltaram a receber verba no quinto dia util. O sistema gerou log completo que sustentou auditoria do TCE sem apontamentos e recebeu carta de reconhecimento de 146 prefeitos.`,
+    l: `Aprendi que inventar processos simples no setor publico exige assumir a linha de frente com prefeitos e controladores como clientes. Quando eu coloco a dor municipal em metricas claras de experiencia e de caixa, consigo derrubar resistencia juridica e TI. Hoje eu aplico o mesmo mecanismo no mundo de pagamentos: medir hora sem lastro para adquirentes, acompanhar NPS de lojistas e automatizar conciliacao com trilha de auditoria em tempo real.`,
   },
   en: {
-    s: `Weekly PIX reconciliation consumed ~19 hours, relied on manual steps and shadow spreadsheets, and created unjustified mismatches that put D+1 at risk. The CFO flagged potential audit findings and reputational exposure with oversight bodies. Our treasury needed predictability for downstream settlements, and we were ~25% slower than internal peers with mature automation.`,
-    t: `I set a goal to consistently hit D+1 and cut reconciliation effort by ≥60%, eliminating baseless mismatches and raising governance. That meant moving from 19h to ≤7h/week, reducing audit exposure and freeing capacity for high‑value exceptions.`,
-    a: `I mapped the end‑to‑end flow (gateway→bank→ERP→ledger), quantified time losses, and ran Finance/IT workshops to co‑design matching rules with low false positives: exact amount, tax ID, reference hash, T+0/T+1 windows, and tolerances by revenue type. I added automated validations (duplication, status inconsistencies, currency), event normalization, and audit trails; integrated statements via API with LGPD safeguards and SoD. I built observability: match‑rate/aging/open‑items dashboards, outlier/integration alerts, and an exception runbook for Ops. To secure buy‑in, I piloted two cycles in parallel to the legacy process, compared KPIs, and addressed control concerns with internal audit before the cut‑over.`,
-    r: `~68% time reduction (19h→6h/week), predictable D+1, and near‑zero baseless mismatches. ~BRL 120k/year avoided, fewer exec escalations, and ~25% faster vs our internal close benchmark; audit risk downgraded from medium to low.`,
-    l: `In payments, exceptions and observability are scale multipliers. By codifying rules, trails and alerts, we sustained D+1 with predictability and replicated the mechanism to boletos, reducing heroics and raising operational resilience.`
+    s: `I took over the digital treasury when 184 municipal customers were losing PIX receivable traceability. Average reconciliation time hit 72 hours, treasurer NPS plunged from 54 to 18, and the delay froze R$ 38M per month in federal transfers. Mayors complained to me directly because 5,400 support tickets had no answer and 37% of schools missed funding by the fifth business day. I spent three days onsite with education secretaries and accounting customers; the pain was clear: nobody trusted the state's statement.`,
+    t: `I declared myself single owner and set a public target: deliver reconciliation under six hours for 80% of municipalities by Jan 2024, lift NPS above 50, and cut accounting rework by 60%. I personally told every mayor-customer I would send a daily report signed by me with the credit status.`,
+    a: `First, I mapped the end-to-end flow in 48 hours, spotted 19 parallel spreadsheets, and measured that 52% of time was spent re-entering postings. I created the "hours without backing" indicator to show each municipal client how long cash stayed unconfirmed and published a daily ranking. Second, I built a reconciliation engine with heuristic rules regrouping transactions by municipality, wallet, and hour; I coded 320 rules, linked the engine to SIAFEM through an API I designed, and produced customer dashboards with minute-by-minute forecasts. Third, I faced legal resistance against auto-reconciling amounts above R$ 200k; to prove reliability I ran a pilot in 12 municipalities, compared it to manual reconciliation, and showed 99.1% accuracy. To shield against fraud I implemented dynamic limits, customer satisfaction KPIs, and an audit trail tagging every override with my login. I also negotiated with the Central Bank to receive webhooks every 15 minutes, using tax-evasion data and 30 treasurer interviews I personally compiled.`,
+    r: `Within 60 days I cut average reconciliation time to 4h55 across 82% of municipalities and eliminated 93% of reprocessing. Municipal-customer NPS rose from 18 to 61, federal transfers started landing within two business days preventing R$ 4.6M in fines, and R$ 27M reached education ahead of the legal deadline. The hours-without-backing indicator dropped 88% and schools resumed receiving funds by the fifth business day. The system produced full logs that passed the state audit with zero findings and earned recognition letters from 146 mayors.`,
+    l: `I learned that inventing simple processes in the public sector demands standing on the frontline with mayors and controllers as customers. When I translate municipal pain into clear experience and cash metrics, I can break legal and IT resistance. I now apply the same mechanism in payments: measure hours without backing for acquirers, track merchant NPS, and automate reconciliation with real-time audit trails.`,
   },
   fups: [
     {
-        "q": "Como você definiu a meta de ≥60% de redução e por que ela era crítica para D+1?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you set the ≥60% reduction target and why was it critical for D+1?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      q: "Como voce ouviu a voz do cliente municipal?",
+      a: "Eu visitei dez cidades em uma semana, fiz entrevistas com secretarios, prefeitos e contadores e converti as dores em historias de usuario priorizadas por risco fiscal.",
+      q_en: "How did you capture the municipal customer's voice?",
+      a_en: "I visited ten cities in a week, interviewed secretaries, mayors, and accountants, and turned their pains into user stories prioritized by fiscal risk."
     },
     {
-        "q": "Que resistências encontrou na automação e como conquistou o buy-in?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What resistance did you face in automating and how did you secure buy-in?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      q: "Que conflito juridico voce enfrentou?",
+      a: "A procuradoria queria manter aprovacao manual acima de R$ 200 mil; eu provei com piloto de 12 cidades que o erro seria menor que 1% e assumi responsabilidade pessoal pelas excecoes.",
+      q_en: "What legal conflict did you face?",
+      a_en: "The attorney's office wanted manual approval above R$ 200k; I proved with a 12-city pilot that error would stay below 1% and took personal responsibility for exceptions."
     },
     {
-        "q": "Por que escolheu essas regras de matching e quais alternativas descartou?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Why did you choose these matching rules and which alternatives did you discard?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      q: "Quais metricas de cliente voce usou?",
+      a: "Eu acompanhei NPS, horas sem lastro, tempo de resposta da central e share de municipios com conciliacao em 6 horas, enviando boletim diario.",
+      q_en: "Which customer metrics did you use?",
+      a_en: "I tracked NPS, hours without backing, contact-center response time, and share of municipalities reconciled within six hours, sending a daily bulletin."
     },
     {
-        "q": "Como garantiu conformidade (BACEN/LGPD) na integração de extratos via API?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you ensure compliance (Central Bank/LGPD) when integrating statements via API?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      q: "Como voce garantiu confianca dos prefeitos?",
+      a: "Eu mandatei relatorios diarios assinados por mim, participei de lives semanais com 60 prefeitos e abri canal direto de WhatsApp para escalacao.",
+      q_en: "How did you build trust with mayors?",
+      a_en: "I delivered daily reports signed by me, joined weekly livestreams with 60 mayors, and opened a direct WhatsApp escalation channel."
     },
     {
-        "q": "Como monitorou sucesso (métricas de processo e de resultado) após o go-live?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you monitor success (process and outcome metrics) post go-live?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      q: "Que recurso tecnico foi essencial?",
+      a: "O motor de regras em Python com 320 heuristicas e conciliacao incremental em memoria; eu mesmo escrevi 70% das regras criticas.",
+      q_en: "Which technical asset was essential?",
+      a_en: "The Python rule engine with 320 heuristics and in-memory incremental reconciliation; I personally wrote 70% of the critical rules."
     },
     {
-        "q": "Quais incidentes evitados/mitigados demonstram o valor da observabilidade criada?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which avoided/mitigated incidents prove the value of the observability you built?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      q: "Como voce evitou fraude?",
+      a: "Eu criei trilha de auditoria com hash, limites dinamicos por municipio e alertas que me notificavam toda vez que algum override passava de R$ 50 mil.",
+      q_en: "How did you avoid fraud?",
+      a_en: "I built a hashed audit trail, set dynamic limits per municipality, and configured alerts that pinged me whenever an override exceeded R$ 50k."
     },
     {
-        "q": "Como você escalou a solução para outros fluxos (cartões/boletos) ou unidades?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you scale the solution to other flows (cards/boletos) or units?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      q: "Qual impacto financeiro comprovado?",
+      a: "Economia de R$ 4,6M em multas evitadas, liberacao de R$ 27M para educacao e reducao de 22% nas taxas bancarias negociadas com base na previsibilidade.",
+      q_en: "What financial impact did you prove?",
+      a_en: "We avoided R$ 4.6M in fines, freed R$ 27M for education, and negotiated a 22% cut in banking fees based on the new predictability."
     },
     {
-        "q": "Qual benchmark interno/externo usou para comparar o novo SLA?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which internal/external benchmark did you use to compare the new SLA?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      q: "Como voce manteve ratio EU:NOS elevado?",
+      a: "Eu assinei cada release, conduzi as reunioes com Banco Central e deixei claro que as decisoes criticas eram minhas na ata publica.",
+      q_en: "How did you sustain a high I:we ratio?",
+      a_en: "I signed each release, led the Central Bank meetings, and made it explicit in the public minutes that I owned the critical decisions."
     },
     {
-        "q": "Se refizesse hoje, que melhoria técnica faria e por quê?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "If you redid it today, what technical improvement would you make and why?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      q: "Qual proximo passo para escalar o mecanismo?",
+      a: "Eu ja estou conectando o motor a arrecadacao de ISS digital para reduzir conciliacao de 48h para 2h nos grandes municipios.",
+      q_en: "What is the next step to scale the mechanism?",
+      a_en: "I'm connecting the engine to digital service-tax collection to cut reconciliation from 48h to 2h in large cities."
     },
     {
-        "q": "Como esse mecanismo melhora a resiliência de payment operations no longo prazo?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How does this mechanism strengthen payment operations’ resilience long-term?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      q: "Como isso volta para pagamentos privados?",
+      a: "Eu aplico a mesma arquitetura para adquirentes, combinando webhooks e heuristicas para reconciliar carteiras em minutos e liberar working capital antes.",
+      q_en: "How does this translate to private payments?",
+      a_en: "I apply the same architecture to acquirers, blending webhooks and heuristics to reconcile wallets within minutes and release working capital earlier."
     }
-]
+  ]
 };
 
 export default case_5;
