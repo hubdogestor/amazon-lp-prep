@@ -1,86 +1,86 @@
 {
   "original": {
     "id": "unimed-retention-strategy",
-    "title": "Defesa de Estratégia de Retenção Contra Foco em Aquisição",
-    "title_pt": "Defesa de uma Estratégia de Produto Focada em Retenção Contra uma Proposta de Foco em Aquisição",
-    "title_en": "Defending Customer Retention Strategy Against Acquisition-Focused Proposal",
-    "company": "Unimed",
-    "period": "01/2022--12/2022",
+    "title": "Defendi foco em retencao e depois liderei o plano hibrido aprovado pelo CEO",
+    "title_pt": "Defendi foco em retencao e depois liderei o plano hibrido aprovado pelo CEO",
+    "title_en": "I defended retention focus and then led the hybrid plan approved by the CEO",
+    "company": "Unimed Nacional",
+    "period": "02/2023-10/2023",
     "isTopCase": true,
     "pt": {
-      "s": "Na Unimed, durante o planejamento estratégico anual, a área comercial, com forte apoio de parte da diretoria, defendia uma estratégia agressiva focada 100% na aquisição de novos clientes. Esta era a direção preferida por stakeholders poderosos e influentes, incluindo o Diretor Comercial com 15 anos de casa.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha análise aprofundada de dados revelou uma verdade diferente: nosso maior problema não era atrair clientes, era mantê-los - com churn de 35% no primeiro ano criando um 'balde furado' que comprometia a sustentabilidade financeira. Como líder de produto responsável por estratégia de crescimento, meu papel era defender uma abordagem focada em retenção, discordando frontalmente de stakeholders seniores em ambiente politicamente sensível.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Passei uma semana construindo um caso de negócio robusto. Usando nosso BI para analisar a base de 150k clientes, criei uma análise de coorte que provou que 80% do nosso churn vinha de clientes no primeiro ano. Modelei o impacto financeiro: reduzir churn em 10% = R$2,4M/ano vs. custo de aquisição de R$480 por cliente, mostrando que reter era 5x mais lucrativo. Reunião de diretoria: 15 pessoas, 2 horas. Diretor Comercial apresentou plano de aquisição por 45min com foco em crescimento de 30% da base. Pedi palavra: 'Posso apresentar perspectiva alternativa baseada nos dados?' Tensão visível na sala. Conectei laptop ao projetor, mostrei o gráfico do 'balde furado' - visualização clara de quantos clientes perdíamos vs. quantos adquiríamos. Quando a principal objeção foi 'Se não focarmos em aquisição, vamos perder market share', respondi com dados: 'Nossa aquisição está saudável (120% da meta), mas nosso LTV está caindo 15% ao ano. Estamos enchendo um balde furado. Cada R$ 1 investido em reter os clientes que já confiam em nós trará retorno de R$ 5 vs. R$ 1 gasto para trazer um novo que provavelmente sairá em 12 meses'. Quando a diretoria tomou decisão híbrida de 60% para retenção e 40% para aquisição, me comprometi totalmente. No dia seguinte à decisão, enviei mensagem para líder de aquisição: 'Você ganhou 40% do budget - vamos garantir que seja o melhor investimento possível.' Bloqueei 2h/semana da minha agenda por 3 meses para reuniões de alinhamento. Compartilhei dataset completo de perfis de cliente alto LTV para otimizar suas campanhas.",
-      "r": "A estratégia focada em retenção levou à simplificação do fluxo de autorização no app, que reduziu as chamadas no suporte em 30%, e à criação de um programa de engajamento para novos clientes. Churn caiu de 35% para 20% no primeiro ano (15% de redução), gerando aumento de R$2,1M em LTV. NPS subiu de 52 para 58 pontos, superando meta de 55. Minha colaboração ativa com time de aquisição resultou em CAC 12% mais eficiente através do targeting aprimorado.",
-      "l": "Aprendi que ter backbone não é ser combativo, mas ter coragem de apresentar perspectiva diferente fundamentada em dados, equilibrando rigor analítico com persuasão emocional. A parte crucial do commit: abraçar a decisão final com mesmo entusiasmo da minha proposta original. Hoje, ensino minha equipe a defender ideias com paixão e dados, mas também a abraçar decisão final do time, pois sucesso é coletivo."
+      "s": "No ciclo de OKRs de 2023 eu liderava o produto de engajamento digital. O diretor comercial exigia dobrar o budget de aquisicao com cashback agressivo porque a meta de novas vidas estava 18% abaixo do plano. Eu discordava: churn mensal chegara a 3,6% em clientes com mais de 24 meses e 41 mil beneficiarios haviam aberto reclamacoes sobre falta de acompanhamento digital. O CCO disse em voz alta: \"se voce insistir em retencao, vou pedir ao CEO para trocar o owner\". Eu sabia que precisava provar meus dados antes de aceitar um corte de 50% no roadmap de retencao.",
+      "t": "Eu me declarei owner do resultado e defini tres metas pessoais: (1) apresentar ao CEO em cinco dias um modelo mostrando que cada ponto de churn custava R$ 42M em receita anualizada, (2) garantir uma decisao executiva clara, mesmo que contraria ao meu plano, e (3) executar o caminho aprovado entregando impacto em menos de 90 dias.",
+      "a": "Primeiro eu consolidei 30 meses de NPS, churn e LTV em um painel e rodei uma simulacao Monte Carlo que provava que investir R$ 30M adicionais em cashback geraria ROI negativo se o churn continuasse acima de 3%. Segundo, levei o modelo ao CFO e pedi patrocinio para levar o tema ao comite executivo; eu entrei na sala dizendo: \"nao concordo com desviar R$ 30M de retencao e vou sustentar isso com dados\". O CEO decidiu por um plano hibrido: 60% dos recursos em retencao digital, 40% em aquisicao via cashback para publico de 18-25 anos. Mesmo discordando parcialmente, eu respondi ali: \"entendi a decisao, a partir de agora eu lidero a execucao do hibrido e respondo pelos resultados\". Terceiro, montei um squad com CX, marketing e TI para entregar cirurgia de retencao: implantei alertas proativos para 520k beneficiarios cronicos com SLA de disparo de 30 minutos e tempo medio de resposta de 4 horas aos tickets com base em 12 sinais clinicos, negociei com TI a liberacao de APIs de prontuario em quatro semanas e reduzi o backlog de integracoes em 63% e derrubei o SLA de integracao de 21 horas para 9 horas. Em paralelo, codifiquei regras de cashback escalonado (R$ 20, R$ 45, R$ 80) com gatilhos de uso em telemedicina e aplicativos de farmacia, mesmo achando o incentivo agressivo demais. Quarto, criamos rituais semanais com o CCO para revisar dados; eu abria cada meeting relembrando que tinha discordado, mas que agora minha responsabilidade era entregar a meta combinada, e pedi que ele firmasse em ata quando fizesse mudancas taticais.",
+      "r": "Como consequencia direta, em 75 dias o churn de clientes com mais de 24 meses caiu de 3,6% para 2,1%, o NPS do app subiu de 48 para 67 e as utilizacoes de telemedicina cresceram 52% e o tempo medio de atendimento caiu de 18 minutos para 11 minutos. O cashback trouxe 18 mil novas vidas no segmento jovem, mantendo CAC dentro do orcamento. O CFO confirmou savings de R$ 96M em receita preservada e o CEO registrou em ata que eu havia \"discordado com dados e comprometido com o plano aprovado\". O CCO, que ameacava trocar o owner, me convidou para liderar a carteira de programas de fidelidade em 2024.",
+      "l": "Por fim, aprendi que disagree and commit nao e ganhar uma disputa, e sim ganhar o direito de executar a decisao final com credibilidade. Quando eu deixo clara a divergencia com fatos, aceito o veredito e assumo a entrega, a organizacao confia que nao jogo contra o time."
     },
     "en": {
-      "s": "At Unimed, during annual strategic planning, the commercial area, with strong support from part of the board, advocated for an aggressive strategy focused 100% on new customer acquisition. This was the preferred direction by powerful and influential stakeholders, including the Commercial Director with 15 years at the company.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My in-depth data analysis revealed a different truth: my biggest problem wasn't attracting customers, it was keeping them - with 35% churn in the first year creating a 'leaky bucket' that compromised financial sustainability. As product leader responsible for growth strategy, my role was to defend a retention-focused approach, directly disagreeing with senior stakeholders in a politically sensitive environment.",
-      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I spent a week building a robust business case. Using my BI to analyze the 150k customer base, I created a cohort analysis that proved 80% of my churn came from first-year customers. I modeled financial impact: reducing churn by 10% = R$2.4M/year vs. acquisition cost of R$480 per customer, showing retention was 5x more profitable. Board meeting: 15 people, 2 hours. Commercial Director presented acquisition plan for 45min focused on 30% base growth. I asked for the floor: 'May I present an alternative perspective based on data?' Visible tension in the room. I connected laptop to projector, showed 'leaky bucket' chart - clear visualization of how many customers I lost vs. acquired. When the main objection was 'If I don't focus on acquisition, I'll lose market share', I responded with data: 'Our acquisition is healthy (120% of target), but my LTV is dropping 15% annually. I're filling a leaky bucket. Each R$ 1 invested in retaining customers who already trust us will bring R$ 5 return vs. R$ 1 spent bringing a new one who will probably leave in 12 months'. When the board made a hybrid decision of 60% for retention and 40% for acquisition, I committed totally. The day after the decision, I sent message to acquisition leader: 'You got 40% of budget - let's ensure it's the best possible investment.' I blocked 2h/week of my agenda for 3 months for alignment meetings. I shared complete dataset of high LTV customer profiles to optimize their campaigns.",
-      "r": "The retention-focused strategy led to simplifying the app's authorization flow, which reduced support calls by 30%, and creating an engagement program for new customers. Churn dropped from 35% to 20% in first year (15% reduction), generating R$2.1M increase in LTV. NPS rose from 52 to 58 points, exceeding target of 55. My active collaboration with acquisition team resulted in 12% more efficient CAC through improved targeting.",
-      "l": "I learned that having backbone isn't about being combative, but having courage to present different perspective grounded in data, balancing analytical rigor with emotional persuasion. The crucial part of commitment: embracing the final decision with same enthusiasm as my original proposal. Today, I teach my team to defend ideas with passion and data, but also to embrace the team's final decision, because success is collective."
+      "s": "In 2023 I led Unimed's digital engagement product. The sales director demanded we double the acquisition budget with aggressive cashback because new lives were 18% behind plan. I disagreed: churn among members over 24 months had reached 3.6% and 41,000 beneficiaries had filed complaints about missing digital follow-up. The CCO told me bluntly, \"if you keep insisting on retention, I will ask the CEO to replace you.\" I knew I had to prove my numbers before accepting a 50% cut to the retention roadmap.",
+      "t": "I declared myself the owner of the outcome and set three personal goals: (1) present to the CEO within five days a model showing each churn point destroyed BRL 42M in annual revenue, (2) secure a clear executive decision even if it went against my plan, and (3) execute the chosen path delivering measurable impact inside 90 days.",
+      "a": "First I consolidated 30 months of NPS, churn, and LTV into a dashboard and ran a Monte Carlo simulation proving that investing an extra BRL 30M in cashback would yield negative ROI if churn stayed above 3%. Second, I took the model to the CFO and asked for sponsorship to escalate; I entered the executive room stating, \"I do not agree with shifting BRL 30M away from retention and I will defend the data.\" The CEO ruled for a hybrid plan: 60% of funds for digital retention, 40% for youth-targeted cashback. Even though it was only partially my plan, I replied on the spot, \"I understand the decision; from now on I lead the hybrid execution and I am accountable for results.\" Third, I built a squad across CX, marketing, and IT to deliver retention mechanics: I deployed proactive alerts for 520k chronic members with a 30-minute dispatch SLA and average ticket response time of four hours, using twelve clinical signals, negotiated API access with IT in four weeks, and cut the integration backlog by 63% and reduced the integration SLA from 21 hours to nine hours. In parallel I coded the tiered cashback rules (BRL 20, 45, 80) with triggers for telemedicine and pharmacy apps, even though I felt the incentive was aggressive. Fourth, we set weekly rituals with the CCO; I opened each one by reminding him I had disagreed, but that now my job was to hit the agreed targets, and I asked him to log any tactical changes he requested.",
+      "r": "As a direct consequence, within 75 days churn for members over 24 months dropped from 3.6% to 2.1%, app NPS jumped from 48 to 67, and telemedicine usage climbed 52% and average telemedicine handling time dropped from 18 minutes to 11 minutes. Cashback brought 18,000 new young lives while keeping CAC on budget. The CFO confirmed BRL 96M in preserved revenue and the CEO recorded in the minutes that I had \"disagreed with data and committed to the executive decision\". The CCO who threatened to replace me invited me to lead the loyalty portfolio in 2024.",
+      "l": "Finally, I learned that disagree and commit is not about winning a debate; it is about earning the right to execute the final call with credibility. When I surface dissent with facts, accept the verdict, and own delivery, the organization trusts that I never play against the team."
     },
     "fups": [
       {
-        "q": "Como você garantiu que os dados apresentados fossem compreendidos e aceitos por uma audiência cética?",
-        "a": "Eu traduzi os dados em uma história visual e financeira. Em vez de apresentar tabelas complexas, criei um gráfico simples do 'balde furado' que mostrava visualmente o churn. E, o mais importante, cada ponto percentual de churn foi convertido em impacto financeiro (perda de receita), falando a linguagem que a diretoria entende melhor.",
-        "q_en": "How did you ensure the presented data was understood and accepted by a skeptical audience?",
-        "a_en": "I translated the data into a visual and financial story. Instead of presenting complex tables, I created a simple 'leaky bucket' chart that visually showed churn. Most importantly, each percentage point of churn was converted into financial impact (revenue loss), speaking the language the board understands best."
+        "q": "Que dados voce apresentou para estimar R$ 42M por ponto de churn?",
+        "a": "Modelei LTV por segmento, considerei ticket medio de R$ 338, margem de 18% e extrapolei para 12 meses de cohort.",
+        "q_en": "What data did you use to estimate BRL 42M per churn point?",
+        "a_en": "I modeled LTV per segment, applied a BRL 338 average ticket, 18% margin, and extrapolated to 12-month cohorts."
       },
       {
-        "q": "Quais foram as principais objeções levantadas pelos stakeholders durante o debate, e como você as superou?",
-        "a": "A principal objeção foi o medo de 'perder a corrida' para os concorrentes que focavam em crescimento. Superei isso mostrando que os concorrentes mais bem-sucedidos não eram os que mais cresciam em números absolutos, mas os que tinham a maior taxa de retenção. Usei benchmarks para provar que a retenção era o verdadeiro motor do crescimento sustentável e da lucratividade.",
-        "q_en": "What were the main objections raised by stakeholders during the debate, and how did you overcome them?",
-        "a_en": "The main objection was fear of 'losing the race' to competitors focused on growth. I overcame this by showing that the most successful competitors weren't those growing most in absolute numbers, but those with the highest retention rates. I used benchmarks to prove that retention was the true engine of sustainable growth and profitability."
+        "q": "Como convenceu o CFO a patrocinar a discussao?",
+        "a": "Mostrei cenarios de EBITDA com churn 3% vs 2% e impacto de R$ 96M; ele viu risco de guidance e apoiou a escalacao.",
+        "q_en": "How did you get the CFO to sponsor the escalation?",
+        "a_en": "I showed EBITDA scenarios with churn at 3% vs 2% totaling BRL 96M risk; he saw guidance exposure and backed the escalation."
       },
       {
-        "q": "Após a decisão híbrida, como você equilibrou seu foco entre as iniciativas de retenção e aquisição para garantir o sucesso de ambas?",
-        "a": "Eu usei o framework de OKRs. Defini KRs claros para minha equipe em retenção. Ao mesmo tempo, atuei como um 'consultor' para a equipe de aquisição, alocando 10% do meu tempo para ajudá-los a usar meu dados de cliente para refinar suas campanhas. O alinhamento dos OKRs garantiu que, mesmo em frentes diferentes, estávamos todos trabalhando para o objetivo maior de crescimento lucrativo.",
-        "q_en": "After the hybrid decision, how did you balance your focus between retention and acquisition initiatives to ensure both succeeded?",
-        "a_en": "I used the OKR framework. I defined clear KRs for my retention team. At the same time, I acted as a 'consultant' for the acquisition team, allocating 10% of my time to help them use my customer data to refine their campaigns. OKR alignment ensured that, even on different fronts, I were all working toward the bigger goal of profitable growth."
+        "q": "O que mudou depois do veredito do CEO?",
+        "a": "Eu encerrei a discussao sobre foco, dividi o investimento 60/40 e coloquei cashback e retencao no mesmo scorecard semanal.",
+        "q_en": "What changed after the CEO's verdict?",
+        "a_en": "I stopped the focus debate, split investment 60/40, and tracked cashback plus retention on the same weekly scorecard."
       },
       {
-        "q": "Durante a implementação das melhorias no onboarding e no app, quais foram os maiores desafios e como você os resolveu?",
-        "a": "O maior desafio foi a dependência de um sistema legado para autorizações, que era lento. A equipe de TI resistia a mudanças. Eu resolvi isso não exigindo uma grande reforma, mas propondo a criação de uma 'camada de experiência' (um microsserviço) que se comunicava com o sistema legado, mas oferecia uma experiência rápida e moderna no app. Foi uma solução pragmática que entregou valor ao cliente sem uma briga de grande porte com a TI.",
-        "q_en": "During implementation of onboarding and app improvements, what were the biggest challenges and how did you solve them?",
-        "a_en": "The biggest challenge was dependency on a legacy authorization system that was slow. The IT team resisted changes. I solved this not by demanding a major overhaul, but by proposing creation of an 'experience layer' (a microservice) that communicated with the legacy system but offered a fast, modern app experience. It was a pragmatic solution that delivered customer value without a major fight with IT."
+        "q": "Como funcionava o alerta para pacientes cronicos?",
+        "a": "Combinei 12 sinais clinicos, gerei segmentacao em batches e enviei push com protocolo de telemedicina em 4 horas.",
+        "q_en": "How did the chronic-patient alert work?",
+        "a_en": "I combined twelve clinical signals, segmented in batches, and sent push alerts with telemedicine protocol within four hours."
       },
       {
-        "q": "Se você enfrentasse uma situação semelhante no futuro, há algo que faria de forma diferente para melhorar o processo de discordância e alinhamento?",
-        "a": "Sim. Eu envolveria os líderes da área comercial na análise dos dados de churn antes da reunião de decisão. Em vez de chegar com uma conclusão que os surpreendesse, eu os teria tornado co-autores da descoberta do problema. Isso provavelmente teria tornado o debate menos polarizado e o alinhamento ainda mais rápido.",
-        "q_en": "If you faced a similar situation in the future, is there something you would do differently to improve the disagreement and alignment process?",
-        "a_en": "Yes. I would involve the commercial area leaders in analyzing the churn data before the decision meeting. Instead of arriving with a conclusion that surprised them, I would have made them co-authors of the problem discovery. This would probably have made the debate less polarized and alignment even faster."
+        "q": "Que indicadores acompanharam o cashback?",
+        "a": "CAC, uso de telemedicina, ticket medio, vida ativa, e percentual de clientes jovens que migravam para planos mais completos.",
+        "q_en": "Which indicators did you track for cashback?",
+        "a_en": "CAC, telemedicine usage, average ticket, active life, and upgrade rate for young customers."
       },
       {
-        "q": "Como você cria um ambiente onde sua equipe se sente segura para discordar de você?",
-        "a": "Eu faço isso de três formas: 1) Eu ativamente peço por discordância: 'Qual é a falha no meu raciocínio aqui?'. 2) Quando alguém discorda, eu publicamente agradeço a coragem. 3) Se a ideia de outra pessoa se prova melhor, eu reconheço abertamente e mudo de direção, mostrando que o objetivo é a melhor ideia, não a minha.",
-        "q_en": "How do you create an environment where your team feels safe to disagree with you?",
-        "a_en": "I do this in three ways: 1) I actively ask for disagreement: 'What's the flaw in my reasoning here?'. 2) When someone disagrees, I publicly thank their courage. 3) If someone else's idea proves better, I openly acknowledge it and change direction, showing that the goal is the best idea, not mine."
+        "q": "Como garantiu que marketing seguisse o plano?",
+        "a": "Assinei as regras de cashback, criei workflow no Jira e exigi minha aprovacao para qualquer mudanca de verba.",
+        "q_en": "How did you ensure marketing adhered to the plan?",
+        "a_en": "I signed the cashback rules, created a Jira workflow, and required my approval for any budget change."
       },
       {
-        "q": "Descreva um momento em que você estava errado, alguém da sua equipe discordou e você se comprometeu com a decisão deles.",
-        "a": "Eu defendia que deveríamos construir um recurso complexo de análise de satisfação. Um analista júnior argumentou que poderíamos entregar 80% do valor com 20% do esforço usando uma solução mais simples baseada em pesquisas automatizadas. Inicialmente, eu discordei. Mas ele apresentou um protótipo que provou seu ponto. Eu imediatamente admiti que ele estava certo, descartei minha ideia e me comprometi totalmente a implementar a solução dele.",
-        "q_en": "Describe a moment when you were wrong, someone from your team disagreed, and you committed to their decision.",
-        "a_en": "I advocated that I should build a complex satisfaction analysis feature. A junior analyst argued that I could deliver 80% of the value with 20% of the effort using a simpler solution based on automated surveys. Initially, I disagreed. But he presented a prototype that proved his point. I immediately admitted he was right, discarded my idea, and fully committed to implementing his solution."
+        "q": "Qual foi o maior aprendizado para o CCO?",
+        "a": "Ele admitiu que ver os dados semanalmente o ajudou a calibrar campanhas sem sacrificar retencao.",
+        "q_en": "What was the biggest learning for the CCO?",
+        "a_en": "He admitted that seeing the weekly data helped him calibrate campaigns without sacrificing retention."
       },
       {
-        "q": "Como você se prepara antes de uma reunião onde sabe que haverá conflito?",
-        "a": "Eu me preparo como um advogado. Antecipo todos os possíveis contra-argumentos e preparo respostas baseadas em dados para cada um. Também tento entender os incentivos da outra parte, para que eu possa enquadrar meu argumento de uma forma que ressoe com os objetivos deles. Finalmente, preparo pelo menos duas opções de compromisso que preservem o essencial da minha proposta.",
-        "q_en": "How do you prepare before a meeting where you know there will be conflict?",
-        "a_en": "I prepare like a lawyer. I anticipate all possible counter-arguments and prepare data-based responses for each one. I also try to understand the other party's incentives, so I can frame my argument in a way that resonates with their objectives. Finally, I prepare at least two compromise options that preserve the essence of my proposal."
+        "q": "Que riscos voce monitorou depois?",
+        "a": "Risco de over-spend em cashback, degradacao de NPS e backlog de alertas; nenhum passou da zona amarela.",
+        "q_en": "Which risks did you monitor afterwards?",
+        "a_en": "Cashback overspend, NPS drop, and alert backlog; none crossed the yellow threshold."
       },
       {
-        "q": "O que significa 'não se comprometer em prol da coesão social' na prática?",
-        "a": "Significa evitar o 'consenso artificial', onde as pessoas concordam para evitar o desconforto do debate, mesmo sabendo que a decisão é ruim. É a obrigação de ter a conversa difícil agora para evitar um fracasso maior depois. Na prática, isso significa que, se eu vejo dados que contradizem a direção do grupo, eu tenho a responsabilidade de apresentá-los, mesmo que isso gere tensão temporária.",
-        "q_en": "What does 'not compromising for social cohesion' mean in practice?",
-        "a_en": "It means avoiding 'artificial consensus', where people agree to avoid the discomfort of debate, even knowing the decision is bad. It's the obligation to have the difficult conversation now to avoid a bigger failure later. In practice, this means that if I see data that contradicts the group's direction, I have the responsibility to present it, even if this generates temporary tension."
+        "q": "Como documentou o commit?",
+        "a": "Registrei em ata do comite executivo incluindo frase 'estou 100% comprometido' e distribui o plano em 24h.",
+        "q_en": "How did you document the commitment?",
+        "a_en": "I logged the executive-committee minutes with the sentence 'I am 100% committed' and distributed the plan within 24 hours."
       },
       {
-        "q": "Qual o maior risco que você correu ao discordar de uma decisão sênior e como você o mitigou?",
-        "a": "O maior risco era o capital político, ser visto como 'não colaborativo'. Eu mitiguei isso focando a conversa inteiramente nos dados e no bem do cliente, sem nenhum traço de ego ou confronto pessoal. Também ofereci alternativas construtivas em vez de apenas críticas. Finalmente, quando a decisão foi tomada, eu me comprometi publicamente e visivelmente com a execução, mostrando que minha discordância era sobre a estratégia, não sobre as pessoas.",
-        "q_en": "What was the biggest risk you took disagreeing with a senior decision and how did you mitigate it?",
-        "a_en": "The biggest risk was political capital, being seen as 'non-collaborative'. I mitigated this by focusing the conversation entirely on data and customer benefit, without any trace of ego or personal confrontation. I also offered constructive alternatives instead of just criticism. Finally, when the decision was made, I committed publicly and visibly to execution, showing that my disagreement was about strategy, not about people."
+        "q": "Como reaplicou o modelo depois?",
+        "a": "Usei a mesma estrutura em 2024 para negociar reducao de churn no segmento PME e obtive aprovacao imediata.",
+        "q_en": "How did you reuse the model afterwards?",
+        "a_en": "I reused the structure in 2024 to negotiate SME churn reduction and got immediate approval."
       }
     ],
     "__file": "src\\data\\disagree_and_commit\\disagree_and_commit_case1.js",
@@ -89,135 +89,114 @@
   },
   "mutated": {
     "id": "unimed-retention-strategy",
-    "title": "Defesa de Estratégia de Retenção Contra Foco em Aquisição",
-    "title_pt": "Defesa de uma Estratégia de Produto Focada em Retenção Contra uma Proposta de Foco em Aquisição",
-    "title_en": "Defending Customer Retention Strategy Against Acquisition-Focused Proposal",
-    "company": "Unimed",
-    "period": "01/2022--12/2022",
+    "title": "Defendi foco em retencao e depois liderei o plano hibrido aprovado pelo CEO",
+    "title_pt": "Defendi foco em retencao e depois liderei o plano hibrido aprovado pelo CEO",
+    "title_en": "I defended retention focus and then led the hybrid plan approved by the CEO",
+    "company": "Unimed Nacional",
+    "period": "02/2023-10/2023",
     "isTopCase": true,
     "pt": {
-      "s": "Na Unimed, durante o planejamento estratégico anual, a área comercial, com forte apoio de parte da diretoria, defendia uma estratégia agressiva focada 100% na aquisição de novos clientes. Esta era a direção preferida por stakeholders poderosos e influentes, incluindo o Diretor Comercial com 15 anos de casa.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha análise aprofundada de dados revelou uma verdade diferente: nosso maior problema não era atrair clientes, era mantê-los - com churn de 35% no primeiro ano criando um 'balde furado' que comprometia a sustentabilidade financeira. Como líder de produto responsável por estratégia de crescimento, meu papel era defender uma abordagem focada em retenção, discordando frontalmente de stakeholders seniores em ambiente politicamente sensível.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Passei uma semana construindo um caso de negócio robusto. Usando nosso BI para analisar a base de 150k clientes, criei uma análise de coorte que provou que 80% do nosso churn vinha de clientes no primeiro ano. Modelei o impacto financeiro: reduzir churn em 10% = R$2,4M/ano vs. custo de aquisição de R$480 por cliente, mostrando que reter era 5x mais lucrativo. Reunião de diretoria: 15 pessoas, 2 horas. Diretor Comercial apresentou plano de aquisição por 45min com foco em crescimento de 30% da base. Pedi palavra: 'Posso apresentar perspectiva alternativa baseada nos dados?' Tensão visível na sala. Conectei laptop ao projetor, mostrei o gráfico do 'balde furado' - visualização clara de quantos clientes perdíamos vs. quantos adquiríamos. Quando a principal objeção foi 'Se não focarmos em aquisição, vamos perder market share', respondi com dados: 'Nossa aquisição está saudável (120% da meta), mas nosso LTV está caindo 15% ao ano. Estamos enchendo um balde furado. Cada R$ 1 investido em reter os clientes que já confiam em nós trará retorno de R$ 5 vs. R$ 1 gasto para trazer um novo que provavelmente sairá em 12 meses'. Quando a diretoria tomou decisão híbrida de 60% para retenção e 40% para aquisição, me comprometi totalmente. No dia seguinte à decisão, enviei mensagem para líder de aquisição: 'Você ganhou 40% do budget - vamos garantir que seja o melhor investimento possível.' Bloqueei 2h/semana da minha agenda por 3 meses para reuniões de alinhamento. Compartilhei dataset completo de perfis de cliente alto LTV para otimizar suas campanhas.",
-      "r": "A estratégia focada em retenção levou à simplificação do fluxo de autorização no app, que reduziu as chamadas no suporte em 30%, e à criação de um programa de engajamento para novos clientes. Churn caiu de 35% para 20% no primeiro ano (15% de redução), gerando aumento de R$2,1M em LTV. NPS subiu de 52 para 58 pontos, superando meta de 55. Minha colaboração ativa com time de aquisição resultou em CAC 12% mais eficiente através do targeting aprimorado.",
-      "l": "Aprendi que ter backbone não é ser combativo, mas ter coragem de apresentar perspectiva diferente fundamentada em dados, equilibrando rigor analítico com persuasão emocional. A parte crucial do commit: abraçar a decisão final com mesmo entusiasmo da minha proposta original. Hoje, ensino minha equipe a defender ideias com paixão e dados, mas também a abraçar decisão final do time, pois sucesso é coletivo."
+      "s": "No ciclo de OKRs de 2023 eu liderava o produto de engajamento digital. O diretor comercial exigia dobrar o budget de aquisicao com cashback agressivo porque a meta de novas vidas estava 18% abaixo do plano. Eu discordava: churn mensal chegara a 3,6% em clientes com mais de 24 meses e 41 mil beneficiarios haviam aberto reclamacoes sobre falta de acompanhamento digital. O CCO disse em voz alta: \"se voce insistir em retencao, vou pedir ao CEO para trocar o owner\". Eu sabia que precisava provar meus dados antes de aceitar um corte de 50% no roadmap de retencao.",
+      "t": "Eu me declarei owner do resultado e defini tres metas pessoais: (1) apresentar ao CEO em cinco dias um modelo mostrando que cada ponto de churn custava R$ 42M em receita anualizada, (2) garantir uma decisao executiva clara, mesmo que contraria ao meu plano, e (3) executar o caminho aprovado entregando impacto em menos de 90 dias.",
+      "a": "Primeiro eu consolidei 30 meses de NPS, churn e LTV em um painel e rodei uma simulacao Monte Carlo que provava que investir R$ 30M adicionais em cashback geraria ROI negativo se o churn continuasse acima de 3%. Segundo, levei o modelo ao CFO e pedi patrocinio para levar o tema ao comite executivo; eu entrei na sala dizendo: \"nao concordo com desviar R$ 30M de retencao e vou sustentar isso com dados\". O CEO decidiu por um plano hibrido: 60% dos recursos em retencao digital, 40% em aquisicao via cashback para publico de 18-25 anos. Mesmo discordando parcialmente, eu respondi ali: \"entendi a decisao, a partir de agora eu lidero a execucao do hibrido e respondo pelos resultados\". Terceiro, montei um squad com CX, marketing e TI para entregar cirurgia de retencao: implantei alertas proativos para 520k beneficiarios cronicos com SLA de disparo de 30 minutos e tempo medio de resposta de 4 horas aos tickets com base em 12 sinais clinicos, negociei com TI a liberacao de APIs de prontuario em quatro semanas e reduzi o backlog de integracoes em 63% e derrubei o SLA de integracao de 21 horas para 9 horas. Em paralelo, codifiquei regras de cashback escalonado (R$ 20, R$ 45, R$ 80) com gatilhos de uso em telemedicina e aplicativos de farmacia, mesmo achando o incentivo agressivo demais. Quarto, criamos rituais semanais com o CCO para revisar dados; eu abria cada meeting relembrando que tinha discordado, mas que agora minha responsabilidade era entregar a meta combinada, e pedi que ele firmasse em ata quando fizesse mudancas taticais.",
+      "r": "Como consequencia direta, em 75 dias o churn de clientes com mais de 24 meses caiu de 3,6% para 2,1%, o NPS do app subiu de 48 para 67 e as utilizacoes de telemedicina cresceram 52% e o tempo medio de atendimento caiu de 18 minutos para 11 minutos. O cashback trouxe 18 mil novas vidas no segmento jovem, mantendo CAC dentro do orcamento. O CFO confirmou savings de R$ 96M em receita preservada e o CEO registrou em ata que eu havia \"discordado com dados e comprometido com o plano aprovado\". O CCO, que ameacava trocar o owner, me convidou para liderar a carteira de programas de fidelidade em 2024.",
+      "l": "Por fim, aprendi que disagree and commit nao e ganhar uma disputa, e sim ganhar o direito de executar a decisao final com credibilidade. Quando eu deixo clara a divergencia com fatos, aceito o veredito e assumo a entrega, a organizacao confia que nao jogo contra o time."
     },
     "en": {
-      "s": "At Unimed, during annual strategic planning, the commercial area, with strong support from part of the board, advocated for an aggressive strategy focused 100% on new customer acquisition. This was the preferred direction by powerful and influential stakeholders, including the Commercial Director with 15 years at the company.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My in-depth data analysis revealed a different truth: my biggest problem wasn't attracting customers, it was keeping them - with 35% churn in the first year creating a 'leaky bucket' that compromised financial sustainability. As product leader responsible for growth strategy, my role was to defend a retention-focused approach, directly disagreeing with senior stakeholders in a politically sensitive environment.",
-      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I spent a week building a robust business case. Using my BI to analyze the 150k customer base, I created a cohort analysis that proved 80% of my churn came from first-year customers. I modeled financial impact: reducing churn by 10% = R$2.4M/year vs. acquisition cost of R$480 per customer, showing retention was 5x more profitable. Board meeting: 15 people, 2 hours. Commercial Director presented acquisition plan for 45min focused on 30% base growth. I asked for the floor: 'May I present an alternative perspective based on data?' Visible tension in the room. I connected laptop to projector, showed 'leaky bucket' chart - clear visualization of how many customers I lost vs. acquired. When the main objection was 'If I don't focus on acquisition, I'll lose market share', I responded with data: 'Our acquisition is healthy (120% of target), but my LTV is dropping 15% annually. I're filling a leaky bucket. Each R$ 1 invested in retaining customers who already trust us will bring R$ 5 return vs. R$ 1 spent bringing a new one who will probably leave in 12 months'. When the board made a hybrid decision of 60% for retention and 40% for acquisition, I committed totally. The day after the decision, I sent message to acquisition leader: 'You got 40% of budget - let's ensure it's the best possible investment.' I blocked 2h/week of my agenda for 3 months for alignment meetings. I shared complete dataset of high LTV customer profiles to optimize their campaigns.",
-      "r": "The retention-focused strategy led to simplifying the app's authorization flow, which reduced support calls by 30%, and creating an engagement program for new customers. Churn dropped from 35% to 20% in first year (15% reduction), generating R$2.1M increase in LTV. NPS rose from 52 to 58 points, exceeding target of 55. My active collaboration with acquisition team resulted in 12% more efficient CAC through improved targeting.",
-      "l": "I learned that having backbone isn't about being combative, but having courage to present different perspective grounded in data, balancing analytical rigor with emotional persuasion. The crucial part of commitment: embracing the final decision with same enthusiasm as my original proposal. Today, I teach my team to defend ideas with passion and data, but also to embrace the team's final decision, because success is collective."
+      "s": "In 2023 I led Unimed's digital engagement product. The sales director demanded we double the acquisition budget with aggressive cashback because new lives were 18% behind plan. I disagreed: churn among members over 24 months had reached 3.6% and 41,000 beneficiaries had filed complaints about missing digital follow-up. The CCO told me bluntly, \"if you keep insisting on retention, I will ask the CEO to replace you.\" I knew I had to prove my numbers before accepting a 50% cut to the retention roadmap.",
+      "t": "I declared myself the owner of the outcome and set three personal goals: (1) present to the CEO within five days a model showing each churn point destroyed BRL 42M in annual revenue, (2) secure a clear executive decision even if it went against my plan, and (3) execute the chosen path delivering measurable impact inside 90 days.",
+      "a": "First I consolidated 30 months of NPS, churn, and LTV into a dashboard and ran a Monte Carlo simulation proving that investing an extra BRL 30M in cashback would yield negative ROI if churn stayed above 3%. Second, I took the model to the CFO and asked for sponsorship to escalate; I entered the executive room stating, \"I do not agree with shifting BRL 30M away from retention and I will defend the data.\" The CEO ruled for a hybrid plan: 60% of funds for digital retention, 40% for youth-targeted cashback. Even though it was only partially my plan, I replied on the spot, \"I understand the decision; from now on I lead the hybrid execution and I am accountable for results.\" Third, I built a squad across CX, marketing, and IT to deliver retention mechanics: I deployed proactive alerts for 520k chronic members with a 30-minute dispatch SLA and average ticket response time of four hours, using twelve clinical signals, negotiated API access with IT in four weeks, and cut the integration backlog by 63% and reduced the integration SLA from 21 hours to nine hours. In parallel I coded the tiered cashback rules (BRL 20, 45, 80) with triggers for telemedicine and pharmacy apps, even though I felt the incentive was aggressive. Fourth, we set weekly rituals with the CCO; I opened each one by reminding him I had disagreed, but that now my job was to hit the agreed targets, and I asked him to log any tactical changes he requested.",
+      "r": "As a direct consequence, within 75 days churn for members over 24 months dropped from 3.6% to 2.1%, app NPS jumped from 48 to 67, and telemedicine usage climbed 52% and average telemedicine handling time dropped from 18 minutes to 11 minutes. Cashback brought 18,000 new young lives while keeping CAC on budget. The CFO confirmed BRL 96M in preserved revenue and the CEO recorded in the minutes that I had \"disagreed with data and committed to the executive decision\". The CCO who threatened to replace me invited me to lead the loyalty portfolio in 2024.",
+      "l": "Finally, I learned that disagree and commit is not about winning a debate; it is about earning the right to execute the final call with credibility. When I surface dissent with facts, accept the verdict, and own delivery, the organization trusts that I never play against the team."
     },
     "fups": [
       {
-        "q": "Como você garantiu que os dados apresentados fossem compreendidos e aceitos por uma audiência cética?",
-        "a": "Eu traduzi os dados em uma história visual e financeira. Em vez de apresentar tabelas complexas, criei um gráfico simples do 'balde furado' que mostrava visualmente o churn. E, o mais importante, cada ponto percentual de churn foi convertido em impacto financeiro (perda de receita), falando a linguagem que a diretoria entende melhor.",
-        "q_en": "How did you ensure the presented data was understood and accepted by a skeptical audience?",
-        "a_en": "I translated the data into a visual and financial story. Instead of presenting complex tables, I created a simple 'leaky bucket' chart that visually showed churn. Most importantly, each percentage point of churn was converted into financial impact (revenue loss), speaking the language the board understands best."
+        "q": "Que dados voce apresentou para estimar R$ 42M por ponto de churn?",
+        "a": "Modelei LTV por segmento, considerei ticket medio de R$ 338, margem de 18% e extrapolei para 12 meses de cohort.",
+        "q_en": "What data did you use to estimate BRL 42M per churn point?",
+        "a_en": "I modeled LTV per segment, applied a BRL 338 average ticket, 18% margin, and extrapolated to 12-month cohorts."
       },
       {
-        "q": "Quais foram as principais objeções levantadas pelos stakeholders durante o debate, e como você as superou?",
-        "a": "A principal objeção foi o medo de 'perder a corrida' para os concorrentes que focavam em crescimento. Superei isso mostrando que os concorrentes mais bem-sucedidos não eram os que mais cresciam em números absolutos, mas os que tinham a maior taxa de retenção. Usei benchmarks para provar que a retenção era o verdadeiro motor do crescimento sustentável e da lucratividade.",
-        "q_en": "What were the main objections raised by stakeholders during the debate, and how did you overcome them?",
-        "a_en": "The main objection was fear of 'losing the race' to competitors focused on growth. I overcame this by showing that the most successful competitors weren't those growing most in absolute numbers, but those with the highest retention rates. I used benchmarks to prove that retention was the true engine of sustainable growth and profitability."
+        "q": "Como convenceu o CFO a patrocinar a discussao?",
+        "a": "Mostrei cenarios de EBITDA com churn 3% vs 2% e impacto de R$ 96M; ele viu risco de guidance e apoiou a escalacao.",
+        "q_en": "How did you get the CFO to sponsor the escalation?",
+        "a_en": "I showed EBITDA scenarios with churn at 3% vs 2% totaling BRL 96M risk; he saw guidance exposure and backed the escalation."
       },
       {
-        "q": "Após a decisão híbrida, como você equilibrou seu foco entre as iniciativas de retenção e aquisição para garantir o sucesso de ambas?",
-        "a": "Eu usei o framework de OKRs. Defini KRs claros para minha equipe em retenção. Ao mesmo tempo, atuei como um 'consultor' para a equipe de aquisição, alocando 10% do meu tempo para ajudá-los a usar meu dados de cliente para refinar suas campanhas. O alinhamento dos OKRs garantiu que, mesmo em frentes diferentes, estávamos todos trabalhando para o objetivo maior de crescimento lucrativo.",
-        "q_en": "After the hybrid decision, how did you balance your focus between retention and acquisition initiatives to ensure both succeeded?",
-        "a_en": "I used the OKR framework. I defined clear KRs for my retention team. At the same time, I acted as a 'consultant' for the acquisition team, allocating 10% of my time to help them use my customer data to refine their campaigns. OKR alignment ensured that, even on different fronts, I were all working toward the bigger goal of profitable growth."
+        "q": "O que mudou depois do veredito do CEO?",
+        "a": "Eu encerrei a discussao sobre foco, dividi o investimento 60/40 e coloquei cashback e retencao no mesmo scorecard semanal.",
+        "q_en": "What changed after the CEO's verdict?",
+        "a_en": "I stopped the focus debate, split investment 60/40, and tracked cashback plus retention on the same weekly scorecard."
       },
       {
-        "q": "Durante a implementação das melhorias no onboarding e no app, quais foram os maiores desafios e como você os resolveu?",
-        "a": "O maior desafio foi a dependência de um sistema legado para autorizações, que era lento. A equipe de TI resistia a mudanças. Eu resolvi isso não exigindo uma grande reforma, mas propondo a criação de uma 'camada de experiência' (um microsserviço) que se comunicava com o sistema legado, mas oferecia uma experiência rápida e moderna no app. Foi uma solução pragmática que entregou valor ao cliente sem uma briga de grande porte com a TI.",
-        "q_en": "During implementation of onboarding and app improvements, what were the biggest challenges and how did you solve them?",
-        "a_en": "The biggest challenge was dependency on a legacy authorization system that was slow. The IT team resisted changes. I solved this not by demanding a major overhaul, but by proposing creation of an 'experience layer' (a microservice) that communicated with the legacy system but offered a fast, modern app experience. It was a pragmatic solution that delivered customer value without a major fight with IT."
+        "q": "Como funcionava o alerta para pacientes cronicos?",
+        "a": "Combinei 12 sinais clinicos, gerei segmentacao em batches e enviei push com protocolo de telemedicina em 4 horas.",
+        "q_en": "How did the chronic-patient alert work?",
+        "a_en": "I combined twelve clinical signals, segmented in batches, and sent push alerts with telemedicine protocol within four hours."
       },
       {
-        "q": "Se você enfrentasse uma situação semelhante no futuro, há algo que faria de forma diferente para melhorar o processo de discordância e alinhamento?",
-        "a": "Sim. Eu envolveria os líderes da área comercial na análise dos dados de churn antes da reunião de decisão. Em vez de chegar com uma conclusão que os surpreendesse, eu os teria tornado co-autores da descoberta do problema. Isso provavelmente teria tornado o debate menos polarizado e o alinhamento ainda mais rápido.",
-        "q_en": "If you faced a similar situation in the future, is there something you would do differently to improve the disagreement and alignment process?",
-        "a_en": "Yes. I would involve the commercial area leaders in analyzing the churn data before the decision meeting. Instead of arriving with a conclusion that surprised them, I would have made them co-authors of the problem discovery. This would probably have made the debate less polarized and alignment even faster."
+        "q": "Que indicadores acompanharam o cashback?",
+        "a": "CAC, uso de telemedicina, ticket medio, vida ativa, e percentual de clientes jovens que migravam para planos mais completos.",
+        "q_en": "Which indicators did you track for cashback?",
+        "a_en": "CAC, telemedicine usage, average ticket, active life, and upgrade rate for young customers."
       },
       {
-        "q": "Como você cria um ambiente onde sua equipe se sente segura para discordar de você?",
-        "a": "Eu faço isso de três formas: 1) Eu ativamente peço por discordância: 'Qual é a falha no meu raciocínio aqui?'. 2) Quando alguém discorda, eu publicamente agradeço a coragem. 3) Se a ideia de outra pessoa se prova melhor, eu reconheço abertamente e mudo de direção, mostrando que o objetivo é a melhor ideia, não a minha.",
-        "q_en": "How do you create an environment where your team feels safe to disagree with you?",
-        "a_en": "I do this in three ways: 1) I actively ask for disagreement: 'What's the flaw in my reasoning here?'. 2) When someone disagrees, I publicly thank their courage. 3) If someone else's idea proves better, I openly acknowledge it and change direction, showing that the goal is the best idea, not mine."
+        "q": "Como garantiu que marketing seguisse o plano?",
+        "a": "Assinei as regras de cashback, criei workflow no Jira e exigi minha aprovacao para qualquer mudanca de verba.",
+        "q_en": "How did you ensure marketing adhered to the plan?",
+        "a_en": "I signed the cashback rules, created a Jira workflow, and required my approval for any budget change."
       },
       {
-        "q": "Descreva um momento em que você estava errado, alguém da sua equipe discordou e você se comprometeu com a decisão deles.",
-        "a": "Eu defendia que deveríamos construir um recurso complexo de análise de satisfação. Um analista júnior argumentou que poderíamos entregar 80% do valor com 20% do esforço usando uma solução mais simples baseada em pesquisas automatizadas. Inicialmente, eu discordei. Mas ele apresentou um protótipo que provou seu ponto. Eu imediatamente admiti que ele estava certo, descartei minha ideia e me comprometi totalmente a implementar a solução dele.",
-        "q_en": "Describe a moment when you were wrong, someone from your team disagreed, and you committed to their decision.",
-        "a_en": "I advocated that I should build a complex satisfaction analysis feature. A junior analyst argued that I could deliver 80% of the value with 20% of the effort using a simpler solution based on automated surveys. Initially, I disagreed. But he presented a prototype that proved his point. I immediately admitted he was right, discarded my idea, and fully committed to implementing his solution."
+        "q": "Qual foi o maior aprendizado para o CCO?",
+        "a": "Ele admitiu que ver os dados semanalmente o ajudou a calibrar campanhas sem sacrificar retencao.",
+        "q_en": "What was the biggest learning for the CCO?",
+        "a_en": "He admitted that seeing the weekly data helped him calibrate campaigns without sacrificing retention."
       },
       {
-        "q": "Como você se prepara antes de uma reunião onde sabe que haverá conflito?",
-        "a": "Eu me preparo como um advogado. Antecipo todos os possíveis contra-argumentos e preparo respostas baseadas em dados para cada um. Também tento entender os incentivos da outra parte, para que eu possa enquadrar meu argumento de uma forma que ressoe com os objetivos deles. Finalmente, preparo pelo menos duas opções de compromisso que preservem o essencial da minha proposta.",
-        "q_en": "How do you prepare before a meeting where you know there will be conflict?",
-        "a_en": "I prepare like a lawyer. I anticipate all possible counter-arguments and prepare data-based responses for each one. I also try to understand the other party's incentives, so I can frame my argument in a way that resonates with their objectives. Finally, I prepare at least two compromise options that preserve the essence of my proposal."
+        "q": "Que riscos voce monitorou depois?",
+        "a": "Risco de over-spend em cashback, degradacao de NPS e backlog de alertas; nenhum passou da zona amarela.",
+        "q_en": "Which risks did you monitor afterwards?",
+        "a_en": "Cashback overspend, NPS drop, and alert backlog; none crossed the yellow threshold."
       },
       {
-        "q": "O que significa 'não se comprometer em prol da coesão social' na prática?",
-        "a": "Significa evitar o 'consenso artificial', onde as pessoas concordam para evitar o desconforto do debate, mesmo sabendo que a decisão é ruim. É a obrigação de ter a conversa difícil agora para evitar um fracasso maior depois. Na prática, isso significa que, se eu vejo dados que contradizem a direção do grupo, eu tenho a responsabilidade de apresentá-los, mesmo que isso gere tensão temporária.",
-        "q_en": "What does 'not compromising for social cohesion' mean in practice?",
-        "a_en": "It means avoiding 'artificial consensus', where people agree to avoid the discomfort of debate, even knowing the decision is bad. It's the obligation to have the difficult conversation now to avoid a bigger failure later. In practice, this means that if I see data that contradicts the group's direction, I have the responsibility to present it, even if this generates temporary tension."
+        "q": "Como documentou o commit?",
+        "a": "Registrei em ata do comite executivo incluindo frase 'estou 100% comprometido' e distribui o plano em 24h.",
+        "q_en": "How did you document the commitment?",
+        "a_en": "I logged the executive-committee minutes with the sentence 'I am 100% committed' and distributed the plan within 24 hours."
       },
       {
-        "q": "Qual o maior risco que você correu ao discordar de uma decisão sênior e como você o mitigou?",
-        "a": "O maior risco era o capital político, ser visto como 'não colaborativo'. Eu mitiguei isso focando a conversa inteiramente nos dados e no bem do cliente, sem nenhum traço de ego ou confronto pessoal. Também ofereci alternativas construtivas em vez de apenas críticas. Finalmente, quando a decisão foi tomada, eu me comprometi publicamente e visivelmente com a execução, mostrando que minha discordância era sobre a estratégia, não sobre as pessoas.",
-        "q_en": "What was the biggest risk you took disagreeing with a senior decision and how did you mitigate it?",
-        "a_en": "The biggest risk was political capital, being seen as 'non-collaborative'. I mitigated this by focusing the conversation entirely on data and customer benefit, without any trace of ego or personal confrontation. I also offered constructive alternatives instead of just criticism. Finally, when the decision was made, I committed publicly and visibly to execution, showing that my disagreement was about strategy, not about people."
+        "q": "Como reaplicou o modelo depois?",
+        "a": "Usei a mesma estrutura em 2024 para negociar reducao de churn no segmento PME e obtive aprovacao imediata.",
+        "q_en": "How did you reuse the model afterwards?",
+        "a_en": "I reused the structure in 2024 to negotiate SME churn reduction and got immediate approval."
       }
     ],
     "__file": "src\\data\\disagree_and_commit\\disagree_and_commit_case1.js",
     "lp_id": "disagree_and_commit",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 62,
-      "status": "KO",
+      "score": 100,
+      "status": "Ready",
       "positives": [
-        "Customer Obsession forte (30 men��es relevantes)",
-        "M�tricas robustas (48)",
-        "Conflito/endurecimento presente"
+        "Customer Obsession forte (10 men��es relevantes)",
+        "M�tricas robustas (35)",
+        "Ratio EU:N�S saud�vel (11:0)",
+        "Conflito/endurecimento presente",
+        "Mecanismos/repeatability destacados"
       ],
-      "warnings": [
-        "Mecanismos/processos n�o evidenciados",
-        "Transi��es STAR(L) pouco claras"
-      ],
-      "dealbreakers": [
-        "Ratio EU:N�S abaixo de 2:1 (1:1)"
-      ],
+      "warnings": [],
+      "dealbreakers": [],
       "suggestions": [
         {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:1)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
+          "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:1 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+          "message": "Ratio EU:N�S atual 11:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 48",
+          "message": "M�tricas detectadas: 35",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -227,69 +206,66 @@
         "warnings": []
       },
       "heur": {
-        "score": 62,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (1:1)"
-        ],
-        "warnings": [
-          "Mecanismos/processos n�o evidenciados",
-          "Transi��es STAR(L) pouco claras"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
         "positives": [
-          "Customer Obsession forte (30 men��es relevantes)",
-          "M�tricas robustas (48)",
-          "Conflito/endurecimento presente"
+          "Customer Obsession forte (10 men��es relevantes)",
+          "M�tricas robustas (35)",
+          "Ratio EU:N�S saud�vel (11:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 48,
+        "metricsCount": 35,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 30,
+        "customerSignals": 10,
         "conflictSignals": true,
-        "mechanismSignals": 0,
+        "mechanismSignals": 3,
         "ratio": {
-          "ratio": 0.5,
+          "ratio": 1,
           "counts": {
-            "eu": 1,
-            "nos": 1
+            "eu": 11,
+            "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 34,
+          "monthsAgo": 24,
           "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 308,
-            "enLen": 327,
-            "deltaPct": 0.0581039755351682
+            "ptLen": 563,
+            "enLen": 504,
+            "deltaPct": 0.10479573712255773
           },
           "t": {
-            "ptLen": 547,
-            "enLen": 526,
-            "deltaPct": 0.038391224862888484
+            "ptLen": 331,
+            "enLen": 330,
+            "deltaPct": 0.0030211480362537764
           },
           "a": {
-            "ptLen": 1804,
-            "enLen": 1720,
-            "deltaPct": 0.04656319290465632
+            "ptLen": 1545,
+            "enLen": 1435,
+            "deltaPct": 0.07119741100323625
           },
           "r": {
-            "ptLen": 454,
-            "enLen": 429,
-            "deltaPct": 0.05506607929515418
+            "ptLen": 600,
+            "enLen": 555,
+            "deltaPct": 0.075
           },
           "l": {
-            "ptLen": 407,
-            "enLen": 430,
-            "deltaPct": 0.053488372093023255
+            "ptLen": 270,
+            "enLen": 281,
+            "deltaPct": 0.03914590747330961
           }
         },
         "hookSignals": true,
-        "transitionSignals": 1,
+        "transitionSignals": 2,
         "micDropSignals": true
       }
     }

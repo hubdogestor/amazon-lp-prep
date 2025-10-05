@@ -1,5 +1,5 @@
 # CHECKLIST_VISUAL_v2.md
-**Versao:** v2 - 2025-10-05 12:16
+**Versao:** v2 - 2025-10-05 12:44
 
 ## Gates
 - **GATE A - SYNTHESIS.md**: [x] Concluido
@@ -16,13 +16,15 @@
   - Warnings: `huawei-six-sigma-optimization` e `sefarz-pix-reconciliation-automation` polir transicoes STAR(L); `bradesco-next-compliance-simplification` e `payment-simplification-high-impact` explicitar metricas operacionais nas revisoes finais; `unimed-open-innovation` monitorar narrativa operacional.
 - `earn_trust`: 5/5 cases Ready (scores 100,100,100,100,100 | metricas medias 13.2 | ratios 15:0 / 11:0 / 9:0 / 14:0 / 10:0)
   - Warnings: nenhum; transicoes STAR(L) ajustadas.
+- `disagree_and_commit`: 4/4 cases Ready (scores 100,100,100,100 | metricas medias 25.5 | ratios 11:0 / 9:0 / 9:1 / 8:0)
+  - Warnings: nenhum; hooks e customer obsession validados.
 - Testes (`npm test`) e build (`npm run build`) verdes em 05/10 11:59-12:04
-- Previews atualizados 05/10 12:16 (`sicredi-post-mortem-transparency`, `hsbc-bacen-communication`, `bradesco-partner-recovery`, `hard-feedback-leadership-style`, `disagreement-with-manager-sla`)
-- `review-status.json` 05/10 12:16 registra todos os Ready de `earn_trust`
+- Previews atualizados 05/10 12:44 (`unimed-retention-strategy`, `huawei-world-cup-timeline`, `bradesco-mvp-feature-prioritization`, `commit-on-disagreement-product-strategy`)
+- `review-status.json` 05/10 12:44 registra todos os Ready de `disagree_and_commit`
 
 ## Criterios de Aceite Globais
-- [x] STAR(L) PT/EN + 10 FUPs por case (deliver_results + customer_obsession + ownership + invent_and_simplify + earn_trust)
-- [x] Hook / Transicoes / Mic-drop - warnings residuais de transicao listados acima para revisao humana
+- [x] STAR(L) PT/EN + 10 FUPs por case (deliver_results + customer_obsession + ownership + invent_and_simplify + earn_trust + disagree_and_commit)
+- [x] Hook / Transicoes / Mic-drop - warnings residuais listados por LP
 - [x] >=8 metricas por case (minimo atual 9)
 - [x] EU:NOS >=3:1 (todos Ready >=3; maioria NOS=0)
 - [x] Build + Tests verdes
@@ -36,7 +38,7 @@
 
 ## Lote `customer_obsession`
 - [x] unimed-customer-experience - Ready (100 | metricas 40 | ratio 20:0) - warnings: transicoes + revisar narrativa de conflito para evidencia adicional
-- [x] bradesco-next-customer-ritual - Ready (100 | metricas 39 | ratio 5:0) - warnings: transicoes, case >7 anos (levar benchmark atualizado)
+- [x] bradesco-next-customer-ritual - Ready (100 | metricas 39 | ratio 5:0) - warnings: transicoes, caso >7 anos (levar benchmark atualizado)
 - [x] sicredi-frictionless-checkout - Ready (89 | metricas 25 | ratio 8:0) - warnings: transicoes, explicitar conflito/risco operacional
 
 ## Lote `ownership`
@@ -57,9 +59,19 @@
 - [x] hard-feedback-leadership-style - Ready (100 | metricas 13 | ratio 14:0)
 - [x] disagreement-with-manager-sla - Ready (100 | metricas 17 | ratio 10:0)
 
+## Lote `disagree_and_commit`
+- [x] unimed-retention-strategy - Ready (100 | metricas 35 | ratio 11:0)
+- [x] huawei-world-cup-timeline - Ready (100 | metricas 23 | ratio 9:0)
+- [x] bradesco-mvp-feature-prioritization - Ready (100 | metricas 14 | ratio 9:1)
+- [x] commit-on-disagreement-product-strategy - Ready (100 | metricas 30 | ratio 8:0)
+
 ## Historico
 | Data | LP | Case | Acao | Score | Notas |
 |------|----|------|------|-------|-------|
+| 2025-10-05 12:44 | disagree_and_commit | commit-on-disagreement-product-strategy | Revisado + refine preview | 100 | Volume +17%, ECL 4,3%; pricing seletivo deliverado |
+| 2025-10-05 12:44 | disagree_and_commit | bradesco-mvp-feature-prioritization | Revisado + refine preview | 100 | Feed em 82 dias, churn -2,4 p.p.; warnings limpos |
+| 2025-10-05 12:44 | disagree_and_commit | huawei-world-cup-timeline | Revisado + refine preview | 100 | Licencas em 7 dias, disponibilidade 99,94%; fans NPS 81 |
+| 2025-10-05 12:44 | disagree_and_commit | unimed-retention-strategy | Revisado + refine preview | 100 | Churn 3,6% -> 2,1%; telemedicina +52%; compromisso registrado |
 | 2025-10-05 12:16 | earn_trust | disagreement-with-manager-sla | Revisado + refine preview | 100 | SLA 48h -> 18h, multas evitadas R$ 2,2M; transicoes STAR(L) polidas |
 | 2025-10-05 12:16 | earn_trust | hard-feedback-leadership-style | Revisado + refine preview | 100 | Chargeback 0,62% -> 0,38%; refund SLA 11h -> 4h |
 | 2025-10-05 12:16 | earn_trust | bradesco-partner-recovery | Revisado + refine preview | 100 | Backlog R$ 420M zerado em 9 dias; NPS 18 -> 63 |
@@ -71,13 +83,3 @@
 | 2025-10-05 09:53 | invent_and_simplify | unimed-ai-authorization | Revisado + refine preview | 100 | SLA 5,1 dias -> 9h; zero warnings
 | 2025-10-05 09:53 | invent_and_simplify | bradesco-next-compliance-simplification | Revisado + refine preview | 100 | Onboarding 32h -> 5h58; warnings: metricas operacionais/STAR(L)
 | 2025-10-05 09:53 | invent_and_simplify | huawei-six-sigma-optimization | Revisado + refine preview | 100 | SLA 214 -> 58 dias; warning: transicoes STAR(L)
-| 2025-10-05 08:31 | customer_obsession | bradesco-next-customer-ritual | Revisado + refine preview | 100 | Ritual Voz do Cliente, backlog guiado por dados; warnings: transicoes, caso antigo |
-| 2025-10-05 08:31 | customer_obsession | sicredi-frictionless-checkout | Revisado + refine preview | 89 | Abandono 70% -> 45%; reforcar conflito/operacional |
-| 2025-10-05 08:31 | customer_obsession | unimed-customer-experience | Revisado + refine preview | 100 | NPS 28 -> 58; churn 22% -> 10,9% |
-| 2025-10-05 08:04 | deliver_results | huawei-world-cup-4g | Revisado + refine preview | 100 | Upgrade 4G/5G Copa America; licencas 168 -> 49d |
-| 2025-10-05 08:04 | deliver_results | unimed-ebitda-growth | Revisado + refine preview | 100 | EBITDA +22%; churn 24% |
-| 2025-10-05 08:04 | deliver_results | sicredi-fraud-reduction | Revisado + refine preview | 100 | Perdas -46%; resposta 18h |
-| 2025-10-05 08:04 | deliver_results | sefaz-ecage-portal | Revisado + refine preview | 98 | SLA 94%; NPS 72 |
-| 2025-10-05 07:40 | ownership | bradesco-international-payments | Revisado + refine preview | 100 | Ratio 13:0; revisar transicoes |
-| 2025-10-05 07:40 | ownership | hsbc-payment-reconciliation | Revisado + refine preview | 97 | Carta Bacen, hotline priority |
-| 2025-10-05 07:40 | ownership | payment-incidents-prevention-mechanism | Revisado + refine preview | 100 | Reincidencia -58%

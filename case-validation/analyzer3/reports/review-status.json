@@ -1,113 +1,16 @@
 {
-  "run_at": "2025-10-05T15:02:40.643Z",
+  "run_at": "2025-10-05T15:25:53.064Z",
   "data_dir": "src/data",
   "total_cases": 72,
-  "filtered_cases": 5,
-  "lp": "earn_trust",
+  "filtered_cases": 4,
+  "lp": "disagree_and_commit",
   "case": null,
   "results": [
     {
-      "lp_id": "earn_trust",
-      "case_id": "sicredi-post-mortem-transparency",
-      "title_pt": "Reconstruir confianca apos bug Pix com ritual de transparencias diarias",
-      "title_en": "Rebuilt trust after Pix outage through daily transparency rituals",
-      "status": "Ready",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 100,
-        "status": "Ready",
-        "dealbreakers": [],
-        "warnings": [
-          "Transi��es STAR(L) pouco claras"
-        ],
-        "positives": [
-          "Customer Obsession forte (8 men��es relevantes)",
-          "M�tricas robustas (12)",
-          "Ratio EU:N�S saud�vel (15:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 12,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
-        },
-        "customerSignals": 8,
-        "conflictSignals": true,
-        "mechanismSignals": 9,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 15,
-            "nos": 0
-          }
-        },
-        "recency": {
-          "monthsAgo": 28,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 523,
-            "enLen": 495,
-            "deltaPct": 0.05353728489483748
-          },
-          "t": {
-            "ptLen": 241,
-            "enLen": 254,
-            "deltaPct": 0.051181102362204724
-          },
-          "a": {
-            "ptLen": 1428,
-            "enLen": 1340,
-            "deltaPct": 0.06162464985994398
-          },
-          "r": {
-            "ptLen": 560,
-            "enLen": 553,
-            "deltaPct": 0.0125
-          },
-          "l": {
-            "ptLen": 400,
-            "enLen": 377,
-            "deltaPct": 0.0575
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true
-      },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 15:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 12",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
-    },
-    {
-      "lp_id": "earn_trust",
-      "case_id": "hsbc-bacen-communication",
-      "title_pt": "Transformei relacionamento com Bacen com briefings executivos em 48h",
-      "title_en": "Transformed Central Bank relationship with 48-hour executive briefings",
+      "lp_id": "disagree_and_commit",
+      "case_id": "unimed-retention-strategy",
+      "title_pt": "Defendi foco em retencao e depois liderei o plano hibrido aprovado pelo CEO",
+      "title_en": "I defended retention focus and then led the hybrid plan approved by the CEO",
       "status": "Ready",
       "lint": {
         "ok": true,
@@ -120,21 +23,21 @@
         "dealbreakers": [],
         "warnings": [],
         "positives": [
-          "Customer Obsession forte (8 men��es relevantes)",
-          "M�tricas robustas (9)",
+          "Customer Obsession forte (10 men��es relevantes)",
+          "M�tricas robustas (35)",
           "Ratio EU:N�S saud�vel (11:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 9,
+        "metricsCount": 35,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 8,
+        "customerSignals": 10,
         "conflictSignals": true,
-        "mechanismSignals": 7,
+        "mechanismSignals": 3,
         "ratio": {
           "ratio": 1,
           "counts": {
@@ -143,34 +46,34 @@
           }
         },
         "recency": {
-          "monthsAgo": 31,
+          "monthsAgo": 24,
           "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 389,
-            "enLen": 400,
-            "deltaPct": 0.0275
+            "ptLen": 563,
+            "enLen": 504,
+            "deltaPct": 0.10479573712255773
           },
           "t": {
-            "ptLen": 219,
-            "enLen": 199,
-            "deltaPct": 0.091324200913242
+            "ptLen": 331,
+            "enLen": 330,
+            "deltaPct": 0.0030211480362537764
           },
           "a": {
-            "ptLen": 932,
-            "enLen": 972,
-            "deltaPct": 0.0411522633744856
+            "ptLen": 1545,
+            "enLen": 1435,
+            "deltaPct": 0.07119741100323625
           },
           "r": {
-            "ptLen": 445,
-            "enLen": 437,
-            "deltaPct": 0.017977528089887642
+            "ptLen": 600,
+            "enLen": 555,
+            "deltaPct": 0.075
           },
           "l": {
-            "ptLen": 224,
-            "enLen": 220,
-            "deltaPct": 0.017857142857142856
+            "ptLen": 270,
+            "enLen": 281,
+            "deltaPct": 0.03914590747330961
           }
         },
         "hookSignals": true,
@@ -187,16 +90,16 @@
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 9",
+          "message": "M�tricas detectadas: 35",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ]
     },
     {
-      "lp_id": "earn_trust",
-      "case_id": "bradesco-partner-recovery",
-      "title_pt": "Reconquistei parceiro chave com plano de saldo garantido em 30 dias",
-      "title_en": "Won back key partner with 30-day guaranteed settlement plan",
+      "lp_id": "disagree_and_commit",
+      "case_id": "huawei-world-cup-timeline",
+      "title_pt": "Bati de frente com o VP sobre acelerar 5G e entreguei o plano aprovado para a Copa Feminina",
+      "title_en": "I challenged the VP on 5G acceleration and delivered the approved plan for the Women's World Cup",
       "status": "Ready",
       "lint": {
         "ok": true,
@@ -209,21 +112,21 @@
         "dealbreakers": [],
         "warnings": [],
         "positives": [
-          "Customer Obsession forte (22 men��es relevantes)",
-          "M�tricas robustas (15)",
+          "Customer Obsession forte (9 men��es relevantes)",
+          "M�tricas robustas (23)",
           "Ratio EU:N�S saud�vel (9:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 15,
+        "metricsCount": 23,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 22,
+        "customerSignals": 9,
         "conflictSignals": true,
-        "mechanismSignals": 3,
+        "mechanismSignals": 6,
         "ratio": {
           "ratio": 1,
           "counts": {
@@ -232,34 +135,34 @@
           }
         },
         "recency": {
-          "monthsAgo": 33,
+          "monthsAgo": 27,
           "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 354,
-            "enLen": 321,
-            "deltaPct": 0.09322033898305085
+            "ptLen": 707,
+            "enLen": 810,
+            "deltaPct": 0.1271604938271605
           },
           "t": {
-            "ptLen": 206,
-            "enLen": 197,
-            "deltaPct": 0.043689320388349516
+            "ptLen": 322,
+            "enLen": 305,
+            "deltaPct": 0.052795031055900624
           },
           "a": {
-            "ptLen": 940,
-            "enLen": 898,
-            "deltaPct": 0.04468085106382979
+            "ptLen": 1205,
+            "enLen": 1227,
+            "deltaPct": 0.017929910350448247
           },
           "r": {
-            "ptLen": 361,
-            "enLen": 339,
-            "deltaPct": 0.060941828254847646
+            "ptLen": 568,
+            "enLen": 537,
+            "deltaPct": 0.05457746478873239
           },
           "l": {
-            "ptLen": 254,
-            "enLen": 283,
-            "deltaPct": 0.10247349823321555
+            "ptLen": 240,
+            "enLen": 244,
+            "deltaPct": 0.01639344262295082
           }
         },
         "hookSignals": true,
@@ -276,16 +179,16 @@
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 15",
+          "message": "M�tricas detectadas: 23",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ]
     },
     {
-      "lp_id": "earn_trust",
-      "case_id": "hard-feedback-leadership-style",
-      "title_pt": "Transformei feedback duro em pacto de transparencia com time de risco",
-      "title_en": "Turned hard feedback into a transparency pact with the risk team",
+      "lp_id": "disagree_and_commit",
+      "case_id": "bradesco-mvp-feature-prioritization",
+      "title_pt": "Discordei da priorizacao de MVP, aceitei o voto do comite e ainda entreguei o top recurso pedido",
+      "title_en": "I disagreed with the MVP priorities, accepted the committee vote, and delivered the top feature they demanded",
       "status": "Ready",
       "lint": {
         "ok": true,
@@ -298,57 +201,146 @@
         "dealbreakers": [],
         "warnings": [],
         "positives": [
-          "Customer Obsession forte (15 men��es relevantes)",
-          "M�tricas robustas (13)",
-          "Ratio EU:N�S saud�vel (14:0)",
+          "Customer Obsession forte (10 men��es relevantes)",
+          "M�tricas robustas (14)",
+          "Ratio EU:N�S saud�vel (9:1)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 13,
+        "metricsCount": 14,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 15,
+        "customerSignals": 10,
         "conflictSignals": true,
-        "mechanismSignals": 8,
+        "mechanismSignals": 1,
         "ratio": {
-          "ratio": 1,
+          "ratio": 0.9,
           "counts": {
-            "eu": 14,
-            "nos": 0
+            "eu": 9,
+            "nos": 1
           }
         },
         "recency": {
-          "monthsAgo": 18,
+          "monthsAgo": 29,
           "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 412,
-            "enLen": 395,
-            "deltaPct": 0.0412621359223301
+            "ptLen": 441,
+            "enLen": 429,
+            "deltaPct": 0.027210884353741496
           },
           "t": {
-            "ptLen": 222,
-            "enLen": 223,
-            "deltaPct": 0.004484304932735426
+            "ptLen": 308,
+            "enLen": 311,
+            "deltaPct": 0.00964630225080386
           },
           "a": {
-            "ptLen": 1010,
-            "enLen": 953,
-            "deltaPct": 0.05643564356435644
+            "ptLen": 884,
+            "enLen": 859,
+            "deltaPct": 0.02828054298642534
           },
           "r": {
-            "ptLen": 385,
-            "enLen": 342,
-            "deltaPct": 0.11168831168831168
+            "ptLen": 471,
+            "enLen": 422,
+            "deltaPct": 0.1040339702760085
           },
           "l": {
-            "ptLen": 257,
-            "enLen": 227,
-            "deltaPct": 0.11673151750972763
+            "ptLen": 208,
+            "enLen": 207,
+            "deltaPct": 0.004807692307692308
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 5,
+        "micDropSignals": true
+      },
+      "changes": [
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 9:1 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 14",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ]
+    },
+    {
+      "lp_id": "disagree_and_commit",
+      "case_id": "commit-on-disagreement-product-strategy",
+      "title_pt": "Escalei discordancia sobre estrategia de pricing e liderei o piloto aprovado sem ruido",
+      "title_en": "I escalated the pricing strategy disagreement and led the approved pilot without friction",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (12 men��es relevantes)",
+          "M�tricas robustas (30)",
+          "Ratio EU:N�S saud�vel (8:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 30,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 12,
+        "conflictSignals": true,
+        "mechanismSignals": 4,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 8,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 14,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 390,
+            "enLen": 355,
+            "deltaPct": 0.08974358974358974
+          },
+          "t": {
+            "ptLen": 294,
+            "enLen": 265,
+            "deltaPct": 0.09863945578231292
+          },
+          "a": {
+            "ptLen": 1139,
+            "enLen": 1024,
+            "deltaPct": 0.1009657594381036
+          },
+          "r": {
+            "ptLen": 474,
+            "enLen": 443,
+            "deltaPct": 0.06540084388185655
+          },
+          "l": {
+            "ptLen": 250,
+            "enLen": 250,
+            "deltaPct": 0
           }
         },
         "hookSignals": true,
@@ -359,112 +351,13 @@
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 14:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 8:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 13",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
-    },
-    {
-      "lp_id": "earn_trust",
-      "case_id": "disagreement-with-manager-sla",
-      "title_pt": "Remodelei SLA com meu diretor expondo dados e assumindo compromissos semanais",
-      "title_en": "Redesigned SLA with my director by exposing data and taking weekly commitments",
-      "status": "Ready",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": [
-          "desequil�brio PT/EN em 'r' (diferen�a >25%)"
-        ]
-      },
-      "heur": {
-        "score": 100,
-        "status": "Ready",
-        "dealbreakers": [],
-        "warnings": [
-          "Transi��es STAR(L) pouco claras"
-        ],
-        "positives": [
-          "Customer Obsession forte (19 men��es relevantes)",
-          "M�tricas robustas (17)",
-          "Ratio EU:N�S saud�vel (10:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 17,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
-        },
-        "customerSignals": 19,
-        "conflictSignals": true,
-        "mechanismSignals": 3,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 10,
-            "nos": 0
-          }
-        },
-        "recency": {
-          "monthsAgo": 26,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 392,
-            "enLen": 448,
-            "deltaPct": 0.125
-          },
-          "t": {
-            "ptLen": 267,
-            "enLen": 258,
-            "deltaPct": 0.033707865168539325
-          },
-          "a": {
-            "ptLen": 680,
-            "enLen": 735,
-            "deltaPct": 0.07482993197278912
-          },
-          "r": {
-            "ptLen": 250,
-            "enLen": 342,
-            "deltaPct": 0.26900584795321636
-          },
-          "l": {
-            "ptLen": 267,
-            "enLen": 275,
-            "deltaPct": 0.02909090909090909
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 0,
-        "micDropSignals": true
-      },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 10:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 17",
+          "message": "M�tricas detectadas: 30",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ]

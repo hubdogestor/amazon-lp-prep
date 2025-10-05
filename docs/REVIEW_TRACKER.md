@@ -1,8 +1,12 @@
 # REVIEW_TRACKER.md
-**Atualizado em:** 2025-10-05 12:16
+**Atualizado em:** 2025-10-05 12:44
 
 | LP | Case ID | Titulo (PT) | Status | Score | Metricas | EU:NOS | Reviewer | Observacoes |
 |----|---------|-------------|--------|-------|----------|--------|----------|-------------|
+| disagree_and_commit | unimed-retention-strategy | Defendi foco em retencao e depois liderei o plano hibrido aprovado pelo CEO | Ready | 100 | 35 | 11:0 | Motor 3.0 | Sem warnings pendentes |
+| disagree_and_commit | huawei-world-cup-timeline | Bati de frente com o VP sobre acelerar 5G e entreguei o plano aprovado para a Copa Feminina | Ready | 100 | 23 | 9:0 | Motor 3.0 | Sem warnings pendentes |
+| disagree_and_commit | bradesco-mvp-feature-prioritization | Discordei da priorizacao de MVP, aceitei o voto do comite e ainda entreguei o top recurso pedido | Ready | 100 | 14 | 9:1 | Motor 3.0 | Sem warnings pendentes |
+| disagree_and_commit | commit-on-disagreement-product-strategy | Escalei discordancia sobre estrategia de pricing e liderei o piloto aprovado sem ruido | Ready | 100 | 30 | 8:0 | Motor 3.0 | Sem warnings pendentes |
 | earn_trust | sicredi-post-mortem-transparency | Reconstruir confianca apos bug Pix com ritual de transparencias diarias | Ready | 100 | 12 | 15:0 | Motor 3.0 | Sem warnings pendentes |
 | earn_trust | hsbc-bacen-communication | Transformei relacionamento com Bacen com briefings executivos em 48h | Ready | 100 | 9 | 11:0 | Motor 3.0 | Sem warnings pendentes |
 | earn_trust | bradesco-partner-recovery | Reconquistei parceiro chave com plano de saldo garantido em 30 dias | Ready | 100 | 15 | 9:0 | Motor 3.0 | Sem warnings pendentes |
@@ -21,13 +25,3 @@
 | deliver_results | unimed-ebitda-growth | Transformei EBITDA Estagnado em Crescimento de 22% Atacando Tres Inputs Chave | Ready | 100 | 41 | 3:0 | Motor 3.0 | Warning leve: transicoes S->T |
 | deliver_results | sicredi-fraud-reduction | Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses | Ready | 100 | 30 | 3:0 | Motor 3.0 | Warnings: conflito explicito, revisar transicoes |
 | deliver_results | sefaz-ecage-portal | Lideranca do Desenvolvimento do Portal e-CAGE com 100% de Adocao | Ready | 98 | 44 | 11:0 | Motor 3.0 | Warning: transicoes STAR(L) |
-| ownership | hsbc-migration-leadership | Lideranca da Migracao de US$ 5.2B de Ativos e Contas | Ready | 100 | 41 | 21:0 | Motor 3.0 | Warnings: metricas operacionais explicitas, transicoes, case >7 anos |
-| ownership | sefaz-pmo-creation | Estruturacao do PMO Institucional e Governanca do PROFISCO II do Zero | Ready | 100 | 33 | 19:0 | Motor 3.0 | OK |
-| ownership | bradesco-international-payments | Forca-Tarefa de Pagamentos Internacionais para Cortar Custos e Recuperar SLAs | Ready | 100 | 37 | 13:0 | Motor 3.0 | Warning: transicoes STAR(L) |
-| ownership | hsbc-payment-reconciliation | Reconciliei US$47M de Pagamentos na Reta Final do Cutover | Ready | 97 | 23 | 12:0 | Motor 3.0 | Warnings: explicitar conflito/metricas operacionais |
-| ownership | payment-incidents-prevention-mechanism | Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade | Ready | 100 | 17 | 11:0 | Motor 3.0 | Warning: transicoes STAR(L) |
-| ownership | long-term-tradeoff | Assumi Trade-off: Menos Escopo Agora por Maior Robustez | Ready | 100 | 26 | 20:0 | Motor 3.0 | Warning: transicoes STAR(L) |
-| dive_deep | sicredi-churn-analysis | Analise de Dados para Identificar os Principais Drivers de Churn no App | Ready | 100 | 39 | 13:0 | Motor 3.0 | War room + dashboard implementados; sem warnings ativos |
-| dive_deep | hsbc-data-validation-audit | Auditoria Pessoal em Processos de Validacao de Dados em Multiplos Paises | Ready | 100 | 26 | 3:1 | Motor 3.0 | Ajustar narrativa de transicoes (warning leve) |
-| dive_deep | unimed-fraud-investigation | Investigacao Manual de Anomalias em Reembolsos para Identificar Fraude em Rede | Ready | 95 | 20 | 5:1 | Motor 3.0 | Confirmar metricas operacionais/conflito |
-| dive_deep | sicredi-pix-settlement | Reducao de 47% no Tempo de Liquidacao de Pagamentos PIX | Ready | 100 | 75 | 11:4 | Motor 3.0 | Ratio proximo da meta; monitorar transicoes |

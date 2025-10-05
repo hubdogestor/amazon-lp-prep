@@ -1,88 +1,38 @@
 // Case 4 - disagree_and_commit
 const case_4 = {
   id: "commit-on-disagreement-product-strategy",
-  title: "Discordei, Me Comprometi e Protegi o Lançamento (Banco Next)",
-  title_pt: "Discordei, Me Comprometi e Protegi o Lançamento (Banco Next)",
-  title_en: "Disagreed, Committed, and Protected the Launch (Banco Next)",
-  company: "Banco Next",
-  period: "2020",
+  title: "Escalei discordancia sobre estrategia de pricing e liderei o piloto aprovado sem ruido",
+  title_pt: "Escalei discordancia sobre estrategia de pricing e liderei o piloto aprovado sem ruido",
+  title_en: "I escalated the pricing strategy disagreement and led the approved pilot without friction",
+  company: "Bradesco Next",
+  period: "03/2024-08/2024",
   isTopCase: false,
   pt: {
-    s: `A estratégia favorecia aquisição sobre robustez do core de pagamentos, elevando risco de incidentes e dano reputacional.`,
-    t: `Registrar o dissenso, mitigar riscos e assegurar um lançamento seguro.`,
-    a: `Documentei riscos com histórico e projeções; propus salvaguardas mínimas; defini GO com gates de qualidade; monitorei KPIs e garanti rollback seguro; alinhei comunicação com marketing/comercial.`,
-    r: `Lançamento no prazo sem incidentes severos; após 2 sprints, 15% do esforço foi para hardening, validando meu ponto; padrão 'dissent, commit, hedge' adotado.`,
-    l: `Discordar e comprometer-se amplia segurança psicológica quando há dados e mecanismos claros.`
+    s: `No Bradesco Next eu liderava o produto de creditos parcelados para PMEs. O CRO queria cortar o markup de 2,2% para 1,0% em toda a carteira para ganhar share contra um concorrente. Eu discordava: nossas analises mostravam que 38% da carteira tinha risco alto e queimar margem colocaria R$ 15M de ECL adicional. O CRO falou: "se voce nao baixar o preco, coloco outro PM para tocar o produto".`,
+    t: `Tracei um plano em tres passos: (1) em 48 horas mostrar ao CEO e ao CRO um modelo de elasticidade que suportasse minha posicao, (2) aceitar o veredito final e anunciar ao time que eu estava 100% comprometido com ele, (3) entregar os resultados do piloto aprovado em 60 dias, com KPIs acordados.`,
+    a: `Em dois dias rodei um modelo logistic regressions sobre 120 mil contratos e provei que reduzir o markup para 1,0% em toda a carteira faria o ECL subir de 4,1% para 6,3%. Propus uma alternativa: corte seletivo para clientes com score acima de 760 e volume anual maior que R$ 400k. Levei o modelo ao CEO e ao CRO e disse textualmente: "discordo do corte linear; se decidirem por ele, vou executar, mas recomendo o seletivo". O CEO decidiu pelo piloto seletivo por seis semanas em 8 mil clientes. Eu respondi: "registro que discordei do linear, agora assino o piloto seletivo e respondo pelos resultados". A partir dali, negociei com risco para calibrar scorecards, com comercial para treinar 120 vendedores e com TI para ajustar o motor de pricing em 10 dias com SLA de processamento de 200 ms. Criei dashboard hora a hora com SLA de atualizacao de 15 minutos com adesao, margem, ECL e NPS, e enviei update diario ao CRO dizendo o que funcionava e onde eu precisava de ajuda. Quando o CRO quis expandir antes de terminar o piloto, pedi que respeitasse o gatilho acordado de 45 dias e recordei que eu estava defendendo o compromisso conjunto.`,
+    r: `O piloto gerou aumento de 17% no volume financiado, manteve margem em 1,7%, segurou o tempo medio de aprovacao em 2,6 horas e reduziu churn em 9% dentro do segmento elegivel. O ECL ficou em 4,3%, praticamente neutro, e o payback do desconto foi de 52 dias. O CRO reconheceu que eu tinha discordado com fatos, executado o plano aprovado e garantido disciplina na expansao. O CEO aprovou rollout para 22 mil clientes e me confiou a lideranca da carteira internacional do Next.`,
+    l: `Aprendi que disagree and commit em pricing exige colocar o risco na mesa, aceitar a decisao e ser o primeiro a dar satisfaao quando os numeros chegam. Quando o time ve que eu defendo os dados, mas honro o veredito sem ironia, o dialogo sobe de nivel.`,
   },
   en: {
-    s: `Strategy favored acquisition over payment-core robustness, increasing risk of incidents and reputational damage.`,
-    t: `Record dissent, mitigate risks, and secure a safe launch.`,
-    a: `I documented risks with history and projections; proposed minimum safeguards; set GO with quality gates; tracked KPIs and ensured safe rollback; aligned comms with marketing/sales.`,
-    r: `On-time launch with no severe incidents; after 2 sprints, 15% effort moved to hardening, validating my point; 'dissent, commit, hedge' became a pattern.`,
-    l: `Disagree-and-commit boosts psychological safety when backed by data and mechanisms.`
+    s: `At Bradesco Next I led the installment credit product for SMBs. The CRO wanted to drop the markup from 2.2% to 1.0% across the board to gain share against a competitor. I disagreed: our analysis showed 38% of the portfolio was high risk and burning margin would add BRL 15M in ECL. The CRO said, "if you do not cut price, I will put another PM in charge."`,
+    t: `I laid out a three-step plan: (1) within 48 hours present the CEO and CRO a price-elasticity model backing my position, (2) accept the final verdict and tell the team I was 100% committed to it, (3) deliver the pilot results within 60 days, meeting the agreed KPIs.`,
+    a: `In two days I ran logistic regressions on 120k contracts and proved that dropping markup to 1.0% across the board would push ECL from 4.1% to 6.3%. I proposed an alternative: selective cuts for customers with scores above 760 and annual volume over BRL 400k. I took the model to the CEO and CRO and explicitly said, "I disagree with the linear cut; if you choose it I will execute, but I recommend the selective path." The CEO chose the selective six-week pilot covering 8,000 customers. I replied, "noted that I opposed the linear cut; now I sign the selective pilot and own the results." From there I negotiated with risk to tune scorecards, with sales to train 120 reps, and with engineering to tweak the pricing engine in ten days. I built an hourly dashboard with a 15-minute refresh SLA with adoption, margin, ECL, and NPS, sending daily updates to the CRO detailing wins and asks. When the CRO pushed to expand before the pilot ended, I reminded him we had a 45-day gate and that I was defending our joint commitment.`,
+    r: `The pilot increased financed volume 17%, kept margin at 1.7%, held approval time at 2.6 hours, and reduced churn 9% within the eligible segment. ECL landed at 4.3%, essentially flat, and the discount paid back in 52 days. The CRO acknowledged I had disagreed with facts, executed the approved plan, and enforced discipline before expansion. The CEO approved rollout to 22,000 customers and handed me the programa de parcelamento internacional.`,
+    l: `I learned that disagree and commit in pricing means putting risk on the table, embracing the decision, and being the first to report back when numbers land. When the team sees I defend data yet honor the verdict without sarcasm, the dialogue matures.`,
   },
   fups: [
-    {
-        "q": "Que riscos específicos via na priorização de aquisição?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What risks did you see in prioritizing acquisition?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como registrou o dissenso com dados?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you record dissent with data?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como gates de qualidade mitigaram riscos do lançamento?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did quality gates mitigate launch risks?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Que KPIs operacionais acompanhou?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which operational KPIs did you track?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Que decisões pós-lançamento validaram sua posição?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What post-launch decisions validated you?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como garantiu impacto na realocação de 15%?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you ensure the 15% reallocation had impact?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "O que mudaria numa situação similar?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What would you change next time?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como manteve o time motivado?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you keep the team motivated?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como lidou com pressão externa?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you handle external pressure?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como institucionalizou o aprendizado no roadmap?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you institutionalize the learning?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    }
-]
+    { q: "Quais variaveis voce usou no modelo de elasticidade?", a: "Score, setor, ticket medio, idade de relacionamento e historico de inadimplencia.", q_en: "Which variables fed the elasticity model?", a_en: "Score, industry, average ticket, relationship age, and delinquency history." },
+    { q: "Como registrou a decisao com o CEO?", a: "Escrevi MoM assinada pelos tres com condicoes do piloto e metrica de sucesso (margin >=1,7%).", q_en: "How did you document the decision with the CEO?", a_en: "I drafted minutes signed by the three of us with pilot conditions and the success metric (margin >=1.7%)." },
+    { q: "Que preparacao fez com o time de vendas?", a: "Treinei 120 reps, criei playbook de conversa e dei simulador de pricing em tablet.", q_en: "What preparation did you do with sales?", a_en: "I trained 120 reps, built a conversation playbook, and provided a tablet pricing simulator." },
+    { q: "Como monitorou NPS durante o piloto?", a: "Rodamos pesquisa transacional 48h depois do contrato e monitoramos NPS semanal.", q_en: "How did you monitor NPS during the pilot?", a_en: "We ran transactional surveys 48 hours post-contract and tracked weekly NPS." },
+    { q: "Que gatilhos evitaram a expandir cedo demais?", a: "Defini threshold de 45 dias e necessidade de ECL <=4,5%; sem isso, expansion nao aconteceria.", q_en: "What triggers prevented premature expansion?", a_en: "I set a 45-day threshold and required ECL <=4.5%; without that, expansion would not occur." },
+    { q: "Como engajou o time de risco?", a: "Fiz daily com analistas, compartilhei matriz de clientes elegiveis e pedi validacao em ate 24h.", q_en: "How did you engage the risk team?", a_en: "I ran daily huddles with analysts, shared the eligible-customer matrix, and requested 24-hour validation." },
+    { q: "Qual foi o maior desafio tecnico?", a: "Atualizar motor de pricing sem derrubar producao; usamos feature flag com rollback em 30 segundos.", q_en: "What was the toughest technical challenge?", a_en: "Updating the pricing engine without downtime; we used a feature flag with 30-second rollback." },
+    { q: "Como comunicou o commit ao time?", a: "Abri o all-hands dizendo 'discordei do corte linear, mas agora este piloto e nossa prioridade numero um'.", q_en: "How did you communicate the commitment to the team?", a_en: "I opened the all-hands stating 'I disagreed with the linear cut, but this pilot is now our number one priority.'" },
+    { q: "Que aprendizado compartilhou com outros squads?", a: "Documentei matriz de decisao, lioes de risco e enviei para squads de FX e Recebiveis.", q_en: "What learning did you share with other squads?", a_en: "I documented the decision matrix and risk lessons and sent them to the FX and Receivables squads." },
+    { q: "Qual proximo passo aprovou depois do piloto?", a: "Expansao para 22 mil clientes com revisao trimestral de score e markup minimo de 1,6%.", q_en: "What was the next step approved after the pilot?", a_en: "Expansion to 22,000 customers with quarterly score reviews and a 1.6% minimum markup." }
+  ]
 };
 
 export default case_4;
