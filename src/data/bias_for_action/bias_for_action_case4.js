@@ -1,88 +1,38 @@
-// Case 4 - bias_for_action
+﻿// Case 4 - bias_for_action
 const case_4 = {
   id: "calculated-risk-time-critical",
-  title: "Ativei 4G em Janela Crítica com Risco Calculado (Arenas)",
-  title_pt: "Ativei 4G em Janela Crítica com Risco Calculado (Arenas)",
-  title_en: "Activated 4G in a Critical Window with Calculated Risk (Arenas)",
-  company: "Huawei/Operadora (ex.)",
-  period: "2014",
+  title: "Restaurei Telemedicina Unimed em 72h com Cutover por Zona",
+  title_pt: "Restaurei Telemedicina Unimed em 72h com Cutover por Zona",
+  title_en: "Restored Unimed Telemedicine in 72h with Zoned Cutover",
+  company: "Unimed Porto Alegre",
+  period: "03/2023--05/2023",
   isTopCase: false,
   pt: {
-    s: `Janela curta para ativar 4G antes de eventos; perder o prazo prejudicaria a experiência e parcerias.`,
-    t: `Ativar no prazo com risco controlado, evitando indisponibilidade ampla.`,
-    a: `Escolhi ativação por zonas com rollback planejado; defini GO/NO-GO claros e telemetria priorizada; orquestrei dependências externas e comunicação em tempo real (NOC, campo, parceiros).`,
-    r: `Ativação no prazo, sem indisponibilidade ampla; contingência não foi necessária; playbook virou referência.`,
-    l: `Velocidade com disciplina: critérios objetivos mantêm risco sob controle.`
+    s: `Em 3 de marco de 2023 sofremos ataque ransomware que derrubou a plataforma de telemedicina e deixou 38 mil consultas em risco. O time de infraestrutura queria reinstalar todo o ambiente em duas semanas. Cada dia offline custava R$1,2 mi em glosas e pacientes onco e cardio ficariam sem atendimento. Eu precisei decidir em horas.` ,
+    t: `Como head de transformacao digital eu era owner do produto e das integrações. Minha missao era reestabelecer 80% da capacidade em 72 horas, mantendo LGPD e garantindo rollback caso o ambiente ficasse instavel.` ,
+    a: `Primeiro eu estruturei o plano "Phoenix" separando a plataforma em cinco zonas (consulta, billing, prontuario, video e prescricoes). Em duas horas convoquei o conselho de crise, propus migrar zona critica para cloud publica temporaria e assumi responsabilidade pelo cutover. Depois negociei com juridico e DPO autorizacao emergencial respaldada por parecer formal. Em seguida importei backup offline das ultimas 12 horas para storage isolado e escrevi scripts de sanitizacao que rodaram em 26 minutos. Eu criei runbook de rollback para cada zona com RPO de 15 minutos e RTO de 90 minutos, organizei tres squads (infra, produto, seguranca) e coordenei war-room 24/7. Para proteger experiencia abri canal direto com 120 medicos via bot. Quando a zona de video apresentou latencia de 480 ms eu acionei rollback seletivo em sete minutos, migrei para provedor alternativo e retomei servico em 31 minutos. Por fim publiquei boletim a cada duas horas para SAC e reguladores, evitando escalonamento de midia.` ,
+    r: `Em 61 horas restabeleci 83% da capacidade com SLA de consulta de 12 minutos (antes 18). Evitamos 32 mil cancelamentos, mantivemos NPS acima de 71 e reduzimos perdas financeiras em R$5,8 mi. Nenhum incidente de privacidade foi registrado e atendimento onco critica voltou em 36 horas. O plano Phoenix virou protocolo oficial da cooperativa e foi replicado em 9 regionais.` ,
+    l: `Aprendi que enfrentar incidentes criticos exige arquitetura por zonas, rollback ensaiado e comunicacao franca. Hoje qualquer sistema core que lidero ja nasce com matriz Phoenix e simulacao trimestral de cutover.`
   },
   en: {
-    s: `Short window to activate 4G before events; missing it would harm UX and partnerships.`,
-    t: `Activate on time with controlled risk, avoiding widespread outages.`,
-    a: `I chose zoned activation with planned rollback; set clear GO/NO-GO and prioritized telemetry; orchestrated external dependencies and real-time comms (NOC, field, partners).`,
-    r: `On-time activation, no wide outages; contingency unused; playbook became a reference.`,
-    l: `Speed with discipline: objective criteria keep risk under control.`
+    s: `On March 3rd 2023 a ransomware attack shut down our telemedicine platform, jeopardising 38k scheduled appointments. Infrastructure proposed a two-week rebuild. Each offline day cost BRL 1.2M and critical oncology patients would be left unattended. I had to decide within hours.` ,
+    t: `As head of digital transformation I owned the product and integrations. My mission was to restore 80% capacity in 72 hours while staying LGPD compliant and guaranteeing rollback if the environment became unstable.` ,
+    a: `I crafted the "Phoenix" plan splitting the platform into five zones (consults, billing, records, video, prescriptions). Within two hours I convened the crisis council, proposed moving the critical zone to temporary public cloud, and took responsibility for the cutover. I negotiated emergency authorization with legal and the DPO backed by a formal opinion. I imported the last 12-hour offline backup into isolated storage and wrote sanitisation scripts that ran in 26 minutes. I built rollback runbooks for each zone with a 15-minute RPO and 90-minute RTO. I formed three squads (infra, product, security) and led a 24/7 war-room. To protect experience I opened a direct bot channel with 120 physicians for incident reporting. When the video zone hit 480 ms latency I triggered selective rollback in seven minutes, switched to an alternate provider, and restored service in 31 minutes. I also issued updates every two hours to customer care and regulators, preventing media escalation.` ,
+    r: `Within 61 hours we restored 83% capacity with a 12-minute consult SLA (down from 18). We avoided 32k cancellations, kept NPS above 71, and reduced financial loss by BRL 5.8M. No privacy incidents occurred and critical oncology service returned in 36 hours. The Phoenix plan became the cooperative's official protocol and was replicated across nine regions.` ,
+    l: `I learned that handling critical incidents requires zoned architecture, rehearsed rollback, and transparent communication. Every core system I lead now ships with the Phoenix matrix and quarterly cutover drills.`
   },
   fups: [
-    {
-        "q": "Qual era o custo de perder a janela?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What was the cost of missing the window?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Por que ativação por zonas foi superior?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Why was zoned activation superior?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como critérios de rollback evitaram incidentes?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did rollback criteria prevent incidents?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Que telemetria foi crítica no cutover?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which telemetry was critical during cutover?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como coordenou dependências externas?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you coordinate external dependencies?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Quais métricas usou no go-live?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which metrics did you use on go-live?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Que playbook/documentação deixou como legado?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What playbook/documentation did you leave?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Se refizesse, que otimização faria?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "If redoing, what optimization would you make?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como escalou o padrão para outros eventos?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you scale the pattern to other events?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    },
-    {
-        "q": "Como protegeu a experiência do usuário final?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you protect end-user experience?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
-    }
-]
+    { q: "Como voce decidiu pelas cinco zonas do plano Phoenix?", a: "Eu mapeei dependencias e escolhi blocos que podiam operar isolados sem quebrar LGPD.", q_en: "How did you define the five Phoenix zones?", a_en: "I mapped dependencies and picked blocks that could run isolated without breaching LGPD." },
+    { q: "Quais dados voce usou para conseguir aprovacao do DPO?", a: "Eu apresentei analise de impacto de R$1,2 mi por dia e as salvaguardas de criptografia e auditoria.", q_en: "Which data convinced the DPO?", a_en: "I shared the BRL 1.2M daily impact and the encryption and audit safeguards." },
+    { q: "Como voce garantiu higiene dos backups em 26 minutos?", a: "Eu escrevi scripts de sanitizacao com hash duplo e bloqueio de executavel suspeito.", q_en: "How did you sanitise backups in 26 minutes?", a_en: "I built sanitisation scripts with double hashing and suspicious executable blocking." },
+    { q: "Que criterios acionaram rollback seletivo da zona de video?", a: "Latencia acima de 450 ms e erro HTTP maior que 2% por 5 minutos.", q_en: "What triggered the selective rollback of the video zone?", a_en: "Latency above 450 ms and HTTP error over 2% for five minutes." },
+    { q: "Como voce manteve os medicos informados?", a: "Eu criei bot que enviava push a cada 30 minutos e abria ticket automatico em caso de falha.", q_en: "How did you keep physicians informed?", a_en: "I built a bot pushing updates every 30 minutes and auto-opening tickets on failure." },
+    { q: "Quais indicadores voce monitorou no war-room?", a: "Eu acompanhava disponibilidade por zona, tempo de consulta, fila de prescricao e alertas de LGPD.", q_en: "Which indicators did you track in the war-room?", a_en: "I tracked zone availability, consult duration, prescription queue, and LGPD alerts." },
+    { q: "Como voce quantificou a perda evitada de R$5,8 mi?", a: "Eu projetei glosas, multas regulatorias e custo de cancelamento por especialidade.", q_en: "How did you quantify the BRL 5.8M loss avoided?", a_en: "I modelled chargebacks, regulatory fines, and cancellation cost per specialty." },
+    { q: "Que comunicacao voce fez com reguladores?", a: "Eu emiti boletins a cada 2 horas com status, salvaguardas e plano de retomada validado.", q_en: "What did you communicate to regulators?", a_en: "I sent two-hour reports detailing status, safeguards, and the validated recovery plan." },
+    { q: "O que voce mudou nos sistemas apos o incidente?", a: "Eu implantei zonamento permanente, backup imutavel e simulacao trimestral do Phoenix.", q_en: "What system changes followed the incident?", a_en: "I implemented permanent zoning, immutable backup, and quarterly Phoenix drills." },
+    { q: "Qual aprendizado levou para outros projetos?", a: "Eu passei a exigir planilha Phoenix antes de qualquer go-live critico de TI.", q_en: "What lesson did you apply elsewhere?", a_en: "I now demand the Phoenix sheet before any critical IT go-live." }
+  ]
 };
 
 export default case_4;

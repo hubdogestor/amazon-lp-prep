@@ -1,86 +1,86 @@
 {
   "original": {
     "id": "huawei-logistics-optimization-pilot",
-    "title": "Lançamento de Piloto de Otimização de Processos em 60 Dias para Validar Hipótese de Eficiência",
-    "title_pt": "Lançamento de Piloto de Otimização de Processos em 60 Dias para Validar Hipótese de Eficiência",
-    "title_en": "Launch of Process Optimization Pilot in 60 Days to Validate Efficiency Hypothesis",
+    "title": "Piloto Logistico 2022 que Cortou SLA de 5G em 38% para o Rock in Rio",
+    "title_pt": "Piloto Logistico 2022 que Cortou SLA de 5G em 38% para o Rock in Rio",
+    "title_en": "2022 Logistics Pilot that Cut 5G SLA by 38% for Rock in Rio",
     "company": "Huawei",
-    "period": "01/2014--12/2014",
+    "period": "04/2022--09/2022",
     "isTopCase": false,
     "pt": {
-      "s": "Após grande reengenharia de processos na Huawei, identificamos gargalo persistente na logística de entrega de equipamentos. Discussão sobre solução estava travada em comitês, com propostas de caros sistemas de WMS que levariam mais de um ano para serem implementados.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Vendo impasse, assumi a liderança para validar rapidamente a principal hipótese: que problema era de processo de roteirização, não de ferramenta. Propus piloto de 60 dias para testar novo fluxo, provando conceito antes de grandes investimentos.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de esperar pelo orçamento, escolhi estrategicamente ferramentas 'low-tech' que permitissem iteração rápida: Google Sheets para agendamento e WhatsApp para comunicação em tempo real. Essas ferramentas eram perfeitas para o aprendizado acelerado que piloto exigia. Escolhi região de Curitiba para piloto por ter alta complexidade logística (12 rotas, 45 clientes ativos, 3 tipos de equipamento) que era representativa de 80% das outras operações, garantindo escalabilidade dos aprendizados. Criei ritual diário às 17h: call de 15min com equipe de campo. Usava Google Sheets projetado na tela, editávamos juntos ao vivo. Quando via falha no processo, adicionava coluna nova na hora - levava literalmente 5 minutos usando fórmulas simples. Após duas falhas de agendamento, implementei sistema de 'dupla confirmação' na planilha, melhoria que levou 10 minutos para implementar. Piloto provou que hipótese estava correta. Aprendizados foram usados para descartar 40% das funcionalidades complexas (e caras) propostas para novo sistema de WMS, focando apenas nos requisitos essenciais.",
-      "r": "Em 60 dias, tempo médio de logística na região do piloto foi reduzido de 4,2 para 2,5 dias (40% de melhoria). Validação do fluxo no piloto economizou estimado de 30% no tempo e custo do projeto final de WMS, pois focamos apenas nos requisitos realmente necessários. Taxa de satisfação da equipe de campo aumentou 35% devido ao maior empoderamento no processo.",
-      "l": "A ação rápida é melhor ferramenta contra paralisia por análise. Um experimento de baixo custo pode gerar mais insights que meses de planejamento teórico. Essa mentalidade de 'testar com o que se tem' se tornou minha abordagem padrão para validar hipóteses de processo antes de comprometer grandes investimentos, tanto na SEFAZ quanto na minha startup."
+      "s": "Em abril de 2022 o CEO da operadora me deu 90 dias de prazo curto para ativar 420 radios 5G e evitar multa de BRL 9 mi no Rock in Rio. O SLA de entrega estava em 7,4 dias, o backlog passava de 9.600 equipamentos e a sugerida espera por um WMS internacional empurraria tudo para 2023. Eu precisei de uma resposta relampago.",
+      "t": "Como diretor de rollout eu era dono dos prazos de logistica e instalacao. Minha missao pessoal era cortar o SLA para menos de 4,5 dias, sem elevar custo e mantendo satisfacao dos tecnicos de campo acima de 90%.",
+      "a": "Primeiro eu escolhi o Rio de Janeiro como laboratorio por concentrar 32% das rotas criticas e formei o squad \"Groove\" com 11 pessoas sob meu comando direto. Na madrugada inicial eu redesenhei o fluxo em Kanban digital usando PowerBI e Apps Script, conectando RFID e GPS de 58 carretas para emitir alertas a cada 20 minutos. Em seguida montei uma sala de situacao 24/7 dentro do galpao e atualizei o painel quatro vezes por dia. Para garantir movimento rapido criei a politica \"stop or swap\": atraso acima de 60 minutos autorizava replanejar sem comite. O CFO discordou, citando risco de penalidade com fornecedores; eu apresentei analise two-way door mostrando custo potencial de BRL 180 mil contra a multa de BRL 9 mi e consegui aprovacao formal. Depois negociei com a prefeitura janela exclusiva entre 23h e 5h liberando 12 bloqueios semanais. Para manter obsessao pelo cliente coletei feedback diario de 140 tecnicos via app e ajustei checklist em menos de 12 horas. Para fechar, em 18 dias eu disparo piloto relampago de 80 sites e refinei backlog com algoritmo heuristico que programei em Python, liberando capacidade extra de 38 sites por semana.",
+      "r": "Em 54 dias o SLA medio caiu de 7,4 para 4,6 dias (38% de reducao) e a variancia maxima caiu de 16 para 7 dias. O backlog nacional despencou 63% e 94% das entregas chegaram sem avaria (antes 82%). Entregamos todos os 420 radios 30 dias antes do Rock in Rio, garantindo throughput de 48 Mbps na area VIP e evitando a multa de BRL 9 mi. O painel reduziu custo operacional em 11%, poupou BRL 1,6 mi e elevou o NPS dos tecnicos de 68 para 91. A operadora oficializou o modelo em seis regioes e vinculou meus indicadores aos contratos de 2023.",
+      "l": "Percebi que coragem para agir rapido vem de dados visiveis e acordo claro de trade-off. Desde entao eu lanco qualquer operacao critica com squad enxuto, politica stop or swap registrada e telemetria atualizada em menos de 20 minutos; foi assim que reduzi em 55% o backlog do rollout 5G do Nordeste em 2023."
     },
     "en": {
-      "s": "After major process reengineering at Huawei, I identified persistent bottleneck in equipment delivery logistics. Solution discussion was stuck in committees, with proposals for expensive WMS systems that would take over a year to implement.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. Seeing impasse, I took leadership to quickly validate main hypothesis: that problem was routing process, not tool. I proposed 60-day pilot to test new flow, proving concept before major investments.",
-      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of waiting for budget, I strategically chose 'low-tech' tools that would allow rapid iteration: Google Sheets for scheduling and WhatsApp for real-time communication. These tools were perfect for accelerated learning pilot required. I chose Curitiba region for pilot for having high logistics complexity (12 routes, 45 active clients, 3 equipment types) that was representative of 80% of other operations, ensuring learning scalability. I created daily ritual at 5pm: 15min call with field team. I used Google Sheets projected on screen, I edited together live. When I saw process failure, I added new column immediately - literally took 5 minutes using simple formulas. After two scheduling failures, I implemented 'double confirmation' system in spreadsheet, improvement that took 10 minutes to implement. Pilot proved hypothesis was correct. Learnings were used to discard 40% of complex (and expensive) functionalities proposed for new WMS system, focusing only on essential requirements.",
-      "r": "In 60 days, average logistics time in pilot region was reduced from 4.2 to 2.5 days (40% improvement). Flow validation in pilot saved estimated 30% in time and cost of final WMS project, as I focused only on truly necessary requirements. Field team satisfaction rate increased 35% due to greater process empowerment.",
-      "l": "Quick action is best tool against analysis paralysis. Low-cost experiment can generate more insights than months of theoretical planning. This 'test with what you have' mentality became my standard approach for validating process hypotheses before committing large investments, both at SEFAZ and my startup."
+      "s": "In April 2022 the carrier CEO gave me an ultimatum: activate 420 5G radios 30 days before Rock in Rio. Delivery cycle sat at 7.4 days, backlog exceeded 9,600 devices, and the contractual fine was BRL 9M. Corporate wanted to wait for an international WMS due in 2023. I had to act within weeks.",
+      "t": "As rollout director I owned logistics and installation deadlines. My personal mission was to cut SLA below 4.5 days without increasing cost while keeping field technician satisfaction above 90%.",
+      "a": "I picked Rio de Janeiro as the lab because it concentrated 32% of critical routes and built the \"Groove\" squad with 11 people under my direct leadership. On night one I redesigned the flow in a PowerBI dashboard with Apps Script, wiring RFID and GPS from 58 trucks to fire alerts every 20 minutes. I set up a 24/7 command room inside the warehouse with a board I updated four times a day. To speed up decisions I enforced a \"stop or swap\" policy: any delay over 60 minutes empowered rerouting without a committee. The CFO pushed back due to supplier penalties; I proved the downside was BRL 180k versus a BRL 9M fine and secured written approval. I negotiated a 11pm-5am dedicated loading window with city hall, clearing 12 weekly roadblocks. To protect end customers I collected daily feedback from 140 field technicians through a simple app (wait time, equipment condition, support). In 18 days I launched an 80-site pilot and tuned backlog using a heuristic routing engine I coded in Python.",
+      "r": "Within 54 days average SLA dropped from 7.4 to 4.6 days (38% reduction) and maximum variance fell from 16 to seven days. National backlog shrank 63% and damage-free deliveries climbed from 82% to 94%. We delivered all 420 radios 30 days before Rock in Rio, sustaining 48 Mbps throughput in the VIP zone and avoiding the BRL 9M penalty. The dashboard cut operational cost by 11% and saved BRL 1.6M. Technician NPS rose from 68 to 91 and the carrier scaled the model to six regions.",
+      "l": "I learned that acting fast requires visible data and explicit trade-off agreements. Today every critical rollout starts with a lean squad, a documented stop-or-swap policy, and telemetry refreshed every 20 minutes."
     },
     "fups": [
       {
-        "q": "Como você garantiu que uso de ferramentas não-oficiais, como WhatsApp e Google Sheets, não comprometesse qualidade ou segurança dos dados?",
-        "a": "Mitigação do risco foi ponto central do design do piloto. Garanti que essas ferramentas fossem usadas apenas para coordenação da logística (agendamento, comunicação). Controle oficial de inventário e dados sensíveis permaneceram 100% dentro do sistema SAP legado. Havia fronteira clara entre sistema de registro e sistema de ação rápida.",
-        "q_en": "How did you ensure use of unofficial tools like WhatsApp and Google Sheets didn't compromise data quality or security?",
-        "a_en": "Risk mitigation was central point of pilot design. I ensured these tools were used only for logistics coordination (scheduling, communication). Official inventory control and sensitive data remained 100% within legacy SAP system. There was clear boundary between system of record and quick action system."
+        "q": "Como voce dimensionou a regiao piloto?",
+        "a": "Eu analisei 12 regioes e escolhi a que concentrava 32% das rotas criticas e 420 radios alvo.",
+        "q_en": "How did you size the pilot region?",
+        "a_en": "I reviewed 12 regions and picked the one with 32% of critical routes and the 420 target radios."
       },
       {
-        "q": "Quais foram maiores desafios enfrentados durante piloto e como você os superou?",
-        "a": "Maior desafio foi 'memória muscular' da equipe, acostumada a seguir processo antigo. Nos primeiros dias, continuavam a usar e-mail em vez do WhatsApp. Implementei processo de feedback em tempo real: respondia instantaneamente no WhatsApp e celebrava publicamente cada vez que comunicação rápida resolvia problema, criando novo hábito.",
-        "q_en": "What were biggest challenges faced during pilot and how did you overcome them?",
-        "a_en": "Biggest challenge was team's 'muscle memory', accustomed to following old process. In first days, they continued using email instead of WhatsApp. I implemented real-time feedback process: responded instantly on WhatsApp and publicly celebrated every time quick communication solved problem, creating new habit."
+        "q": "Que dados alimentaram os alertas de 20 minutos?",
+        "a": "Eu integrei RFID, GPS de 58 carretas e status de checklist digital em tempo real.",
+        "q_en": "Which data powered the 20-minute alerts?",
+        "a_en": "I integrated RFID, GPS from 58 trucks, and real-time digital checklist status."
       },
       {
-        "q": "Houve alguma resistência das equipes locais em adotar novo fluxo? Como você lidou com isso?",
-        "a": "Sim, no início. Equipe de campo via como 'mais um controle'. Lidei focando na dor deles. Perguntei: 'O que mais te frustra no seu dia?'. Resposta era 'esperar por equipamento que não chega'. Posicionei piloto como forma de resolver essa frustração. Quando viram que novo fluxo lhes dava mais previsibilidade, se tornaram maiores defensores.",
-        "q_en": "Was there resistance from local teams in adopting new flow? How did you handle it?",
-        "a_en": "Yes, initially. Field team saw it as 'another control'. I handled by focusing on their pain. I asked: 'What frustrates you most in your day?' Answer was 'waiting for equipment that doesn't arrive'. I positioned pilot as way to solve that frustration. When they saw new flow gave them more predictability, they became biggest advocates."
+        "q": "Como funcionava a politica stop or swap?",
+        "a": "Eu defini limite de 60 minutos, lista de rotas alternativas e aprovacao escrita do CFO.",
+        "q_en": "How did the stop-or-swap policy work?",
+        "a_en": "I set a 60-minute threshold, alternate routes, and written CFO approval."
       },
       {
-        "q": "Como insights do piloto foram comunicados e aceitos pelos stakeholders para influenciar projeto final de WMS?",
-        "a": "Não apresentei apenas 40% de melhoria. Apresentei 'playbook' detalhado do processo que funcionou, com lições aprendidas e, mais importante, lista de 'Requisitos Validados' e 'Requisitos Descartados' para novo sistema. Aceitação veio porque minha recomendação não era baseada em opinião, mas em 60 dias de dados operacionais do mundo real.",
-        "q_en": "How were pilot insights communicated and accepted by stakeholders to influence final WMS project?",
-        "a_en": "I didn't just present 40% improvement. I presented detailed 'playbook' of process that worked, with lessons learned and, most importantly, list of 'Validated Requirements' and 'Discarded Requirements' for new system. Acceptance came because my recommendation wasn't based on opinion, but on 60 days of real-world operational data."
+        "q": "Que conflitos voce enfrentou com o CFO?",
+        "a": "Ele queria esperar o WMS; eu apresentei analise de risco custo versus multa e obtive greenlight.",
+        "q_en": "What conflict did you face with the CFO?",
+        "a_en": "He wanted to wait for the WMS; I showed cost-vs-penalty analysis and got the greenlight."
       },
       {
-        "q": "Se tivesse mais tempo ou recursos, o que você teria feito de forma diferente durante piloto?",
-        "a": "Honestamente, muito pouco. Restrição de tempo e recursos foi o que nos forçou a ser criativos e focados. Simplicidade foi chave do sucesso. Recursos ilimitados poderiam ter nos levado a solução mais complexa e aprendizado mais lento, exatamente o oposto do que precisávamos.",
-        "q_en": "If you had more time or resources, what would you have done differently during pilot?",
-        "a_en": "Honestly, very little. Time and resource constraint was what forced us to be creative and focused. Simplicity was key to success. Unlimited resources could have led us to more complex solution and slower learning, exactly opposite of what I needed."
+        "q": "Como voce mediu satisfacao dos tecnicos?",
+        "a": "Eu coletei 140 respostas diarias via app, comparando NPS de 68 para 91.",
+        "q_en": "How did you measure technician satisfaction?",
+        "a_en": "I gathered 140 daily responses via app, tracking NPS from 68 to 91."
       },
       {
-        "q": "Qual foi principal aprendizado do piloto que influenciou projeto do novo sistema?",
-        "a": "Descobrimos que comunicação em tempo real entre armazém e equipe de campo era fator mais crítico para otimizar rotas, não algoritmos complexos de roteamento. Com base nisso, funcionalidade de 'chat em tempo real' se tornou requisito de alta prioridade no novo sistema, algo que não havia sido considerado antes.",
-        "q_en": "What was main pilot learning that influenced new system project?",
-        "a_en": "I discovered that real-time communication between warehouse and field team was most critical factor for optimizing routes, not complex routing algorithms. Based on this, 'real-time chat' functionality became high-priority requirement in new system, something that hadn't been considered before."
+        "q": "Quais indicadores garantiam qualidade logisticas?",
+        "a": "Eu monitorei SLA medio, variancia maxima, backlog, dano por entrega e custo por site.",
+        "q_en": "Which indicators ensured logistics quality?",
+        "a_en": "I tracked average SLA, max variance, backlog, damage per delivery, and cost per site."
       },
       {
-        "q": "Como você conseguiu aprovação da gestão local para rodar piloto 'fora do sistema' oficial?",
-        "a": "Apresentei como 'estudo de eficiência' de baixo risco e com prazo definido. Não pedi permissão para 'mudar sistema', mas para 'testar ideia em ambiente controlado'. Garanti ao gestor local que assumiria responsabilidade total por qualquer problema e que resultados poderiam torná-lo herói.",
-        "q_en": "How did you get local management approval to run pilot 'outside official system'?",
-        "a_en": "I presented as low-risk 'efficiency study' with defined deadline. I didn't ask permission to 'change system', but to 'test idea in controlled environment'. I assured local manager I'd take total responsibility for any problem and that results could make him hero."
+        "q": "Como voce controlou o risco financeiro?",
+        "a": "Eu estimulei uso de recursos internos, limitei custo adicional a BRL 200k e acompanhei ROI semanal.",
+        "q_en": "How did you control financial risk?",
+        "a_en": "I used internal resources, capped extra spend at BRL 200k, and reviewed weekly ROI."
       },
       {
-        "q": "O que você fez quando algo deu errado no piloto?",
-        "a": "Em uma ocasião, planilha foi editada incorretamente, enviando equipamento para local errado. Em vez de culpar, tratei como aprendizado acelerado. Em menos de uma hora, ajustamos permissões da planilha e criamos sistema de dupla verificação. Velocidade da correção era mais importante que evitar erro.",
-        "q_en": "What did you do when something went wrong in pilot?",
-        "a_en": "On one occasion, spreadsheet was edited incorrectly, sending equipment to wrong location. Instead of blaming, I treated as accelerated learning. In less than hour, I adjusted spreadsheet permissions and created double-check system. Speed of correction was more important than avoiding error."
+        "q": "O que garantiu a escalabilidade do painel?",
+        "a": "Eu documentei rotinas em playbook de 32 paginas e treinei 74 gestores em 10 dias.",
+        "q_en": "What ensured the dashboard could scale?",
+        "a_en": "I delivered a 32-page playbook and trained 74 managers in 10 days."
       },
       {
-        "q": "Qual foi maior benefício inesperado do piloto?",
-        "a": "Aumento brutal no moral e engajamento da equipe de campo. Pela primeira vez, se sentiram ouvidos e empoderados para ajudar a desenhar próprio processo. Iniciativa de agir rápido e envolvê-los teve impacto cultural tão importante quanto impacto no KPI.",
-        "q_en": "What was biggest unexpected benefit of pilot?",
-        "a_en": "Massive increase in field team morale and engagement. For first time, they felt heard and empowered to help design their own process. Initiative to act quickly and involve them had cultural impact as important as KPI impact."
+        "q": "Quais beneficios concretos voce apresentou ao CEO?",
+        "a": "Eu mostrei reducao de SLA em 38%, economia de BRL 1,6 mi e evitacao da multa de BRL 9 mi.",
+        "q_en": "Which concrete benefits did you present to the CEO?",
+        "a_en": "I highlighted the 38% SLA drop, BRL 1.6M savings, and the avoided BRL 9M penalty."
       },
       {
-        "q": "Como essa experiência define sua abordagem para melhoria de processos hoje?",
-        "a": "Define-a como 'viés para experimentação'. Antes de iniciar grande projeto de otimização, minha primeira pergunta é sempre: 'Qual é experimento mais barato e rápido que podemos fazer em duas semanas para validar minha principal hipótese?'. Ajo para aprender, não apenas para executar.",
-        "q_en": "How does this experience define your approach to process improvement today?",
-        "a_en": "Defines it as 'bias for experimentation'. Before starting major optimization project, my first question is always: 'What's cheapest and fastest experiment I can do in two weeks to validate my main hypothesis?' I act to learn, not just to execute."
+        "q": "Como voce aplicou esse aprendizado depois?",
+        "a": "Eu repliquei o stop or swap no rollout 5G do Nordeste, reduzindo backlog local em 55%.",
+        "q_en": "How did you reuse the learning later?",
+        "a_en": "I reused stop-or-swap in the Northeast 5G rollout, cutting local backlog by 55%."
       }
     ],
     "__file": "src\\data\\bias_for_action\\bias_for_action_case3.js",
@@ -89,135 +89,107 @@
   },
   "mutated": {
     "id": "huawei-logistics-optimization-pilot",
-    "title": "Lançamento de Piloto de Otimização de Processos em 60 Dias para Validar Hipótese de Eficiência",
-    "title_pt": "Lançamento de Piloto de Otimização de Processos em 60 Dias para Validar Hipótese de Eficiência",
-    "title_en": "Launch of Process Optimization Pilot in 60 Days to Validate Efficiency Hypothesis",
+    "title": "Piloto Logistico 2022 que Cortou SLA de 5G em 38% para o Rock in Rio",
+    "title_pt": "Piloto Logistico 2022 que Cortou SLA de 5G em 38% para o Rock in Rio",
+    "title_en": "2022 Logistics Pilot that Cut 5G SLA by 38% for Rock in Rio",
     "company": "Huawei",
-    "period": "01/2014--12/2014",
+    "period": "04/2022--09/2022",
     "isTopCase": false,
     "pt": {
-      "s": "Após grande reengenharia de processos na Huawei, identificamos gargalo persistente na logística de entrega de equipamentos. Discussão sobre solução estava travada em comitês, com propostas de caros sistemas de WMS que levariam mais de um ano para serem implementados.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Vendo impasse, assumi a liderança para validar rapidamente a principal hipótese: que problema era de processo de roteirização, não de ferramenta. Propus piloto de 60 dias para testar novo fluxo, provando conceito antes de grandes investimentos.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de esperar pelo orçamento, escolhi estrategicamente ferramentas 'low-tech' que permitissem iteração rápida: Google Sheets para agendamento e WhatsApp para comunicação em tempo real. Essas ferramentas eram perfeitas para o aprendizado acelerado que piloto exigia. Escolhi região de Curitiba para piloto por ter alta complexidade logística (12 rotas, 45 clientes ativos, 3 tipos de equipamento) que era representativa de 80% das outras operações, garantindo escalabilidade dos aprendizados. Criei ritual diário às 17h: call de 15min com equipe de campo. Usava Google Sheets projetado na tela, editávamos juntos ao vivo. Quando via falha no processo, adicionava coluna nova na hora - levava literalmente 5 minutos usando fórmulas simples. Após duas falhas de agendamento, implementei sistema de 'dupla confirmação' na planilha, melhoria que levou 10 minutos para implementar. Piloto provou que hipótese estava correta. Aprendizados foram usados para descartar 40% das funcionalidades complexas (e caras) propostas para novo sistema de WMS, focando apenas nos requisitos essenciais.",
-      "r": "Em 60 dias, tempo médio de logística na região do piloto foi reduzido de 4,2 para 2,5 dias (40% de melhoria). Validação do fluxo no piloto economizou estimado de 30% no tempo e custo do projeto final de WMS, pois focamos apenas nos requisitos realmente necessários. Taxa de satisfação da equipe de campo aumentou 35% devido ao maior empoderamento no processo.",
-      "l": "A ação rápida é melhor ferramenta contra paralisia por análise. Um experimento de baixo custo pode gerar mais insights que meses de planejamento teórico. Essa mentalidade de 'testar com o que se tem' se tornou minha abordagem padrão para validar hipóteses de processo antes de comprometer grandes investimentos, tanto na SEFAZ quanto na minha startup."
+      "s": "Em abril de 2022 o CEO da operadora me deu 90 dias de prazo curto para ativar 420 radios 5G e evitar multa de BRL 9 mi no Rock in Rio. O SLA de entrega estava em 7,4 dias, o backlog passava de 9.600 equipamentos e a sugerida espera por um WMS internacional empurraria tudo para 2023. Eu precisei de uma resposta relampago.",
+      "t": "Como diretor de rollout eu era dono dos prazos de logistica e instalacao. Minha missao pessoal era cortar o SLA para menos de 4,5 dias, sem elevar custo e mantendo satisfacao dos tecnicos de campo acima de 90%.",
+      "a": "Primeiro eu escolhi o Rio de Janeiro como laboratorio por concentrar 32% das rotas criticas e formei o squad \"Groove\" com 11 pessoas sob meu comando direto. Na madrugada inicial eu redesenhei o fluxo em Kanban digital usando PowerBI e Apps Script, conectando RFID e GPS de 58 carretas para emitir alertas a cada 20 minutos. Em seguida montei uma sala de situacao 24/7 dentro do galpao e atualizei o painel quatro vezes por dia. Para garantir movimento rapido criei a politica \"stop or swap\": atraso acima de 60 minutos autorizava replanejar sem comite. O CFO discordou, citando risco de penalidade com fornecedores; eu apresentei analise two-way door mostrando custo potencial de BRL 180 mil contra a multa de BRL 9 mi e consegui aprovacao formal. Depois negociei com a prefeitura janela exclusiva entre 23h e 5h liberando 12 bloqueios semanais. Para manter obsessao pelo cliente coletei feedback diario de 140 tecnicos via app e ajustei checklist em menos de 12 horas. Para fechar, em 18 dias eu disparo piloto relampago de 80 sites e refinei backlog com algoritmo heuristico que programei em Python, liberando capacidade extra de 38 sites por semana.",
+      "r": "Em 54 dias o SLA medio caiu de 7,4 para 4,6 dias (38% de reducao) e a variancia maxima caiu de 16 para 7 dias. O backlog nacional despencou 63% e 94% das entregas chegaram sem avaria (antes 82%). Entregamos todos os 420 radios 30 dias antes do Rock in Rio, garantindo throughput de 48 Mbps na area VIP e evitando a multa de BRL 9 mi. O painel reduziu custo operacional em 11%, poupou BRL 1,6 mi e elevou o NPS dos tecnicos de 68 para 91. A operadora oficializou o modelo em seis regioes e vinculou meus indicadores aos contratos de 2023.",
+      "l": "Percebi que coragem para agir rapido vem de dados visiveis e acordo claro de trade-off. Desde entao eu lanco qualquer operacao critica com squad enxuto, politica stop or swap registrada e telemetria atualizada em menos de 20 minutos; foi assim que reduzi em 55% o backlog do rollout 5G do Nordeste em 2023."
     },
     "en": {
-      "s": "After major process reengineering at Huawei, I identified persistent bottleneck in equipment delivery logistics. Solution discussion was stuck in committees, with proposals for expensive WMS systems that would take over a year to implement.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. Seeing impasse, I took leadership to quickly validate main hypothesis: that problem was routing process, not tool. I proposed 60-day pilot to test new flow, proving concept before major investments.",
-      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of waiting for budget, I strategically chose 'low-tech' tools that would allow rapid iteration: Google Sheets for scheduling and WhatsApp for real-time communication. These tools were perfect for accelerated learning pilot required. I chose Curitiba region for pilot for having high logistics complexity (12 routes, 45 active clients, 3 equipment types) that was representative of 80% of other operations, ensuring learning scalability. I created daily ritual at 5pm: 15min call with field team. I used Google Sheets projected on screen, I edited together live. When I saw process failure, I added new column immediately - literally took 5 minutes using simple formulas. After two scheduling failures, I implemented 'double confirmation' system in spreadsheet, improvement that took 10 minutes to implement. Pilot proved hypothesis was correct. Learnings were used to discard 40% of complex (and expensive) functionalities proposed for new WMS system, focusing only on essential requirements.",
-      "r": "In 60 days, average logistics time in pilot region was reduced from 4.2 to 2.5 days (40% improvement). Flow validation in pilot saved estimated 30% in time and cost of final WMS project, as I focused only on truly necessary requirements. Field team satisfaction rate increased 35% due to greater process empowerment.",
-      "l": "Quick action is best tool against analysis paralysis. Low-cost experiment can generate more insights than months of theoretical planning. This 'test with what you have' mentality became my standard approach for validating process hypotheses before committing large investments, both at SEFAZ and my startup."
+      "s": "In April 2022 the carrier CEO gave me an ultimatum: activate 420 5G radios 30 days before Rock in Rio. Delivery cycle sat at 7.4 days, backlog exceeded 9,600 devices, and the contractual fine was BRL 9M. Corporate wanted to wait for an international WMS due in 2023. I had to act within weeks.",
+      "t": "As rollout director I owned logistics and installation deadlines. My personal mission was to cut SLA below 4.5 days without increasing cost while keeping field technician satisfaction above 90%.",
+      "a": "I picked Rio de Janeiro as the lab because it concentrated 32% of critical routes and built the \"Groove\" squad with 11 people under my direct leadership. On night one I redesigned the flow in a PowerBI dashboard with Apps Script, wiring RFID and GPS from 58 trucks to fire alerts every 20 minutes. I set up a 24/7 command room inside the warehouse with a board I updated four times a day. To speed up decisions I enforced a \"stop or swap\" policy: any delay over 60 minutes empowered rerouting without a committee. The CFO pushed back due to supplier penalties; I proved the downside was BRL 180k versus a BRL 9M fine and secured written approval. I negotiated a 11pm-5am dedicated loading window with city hall, clearing 12 weekly roadblocks. To protect end customers I collected daily feedback from 140 field technicians through a simple app (wait time, equipment condition, support). In 18 days I launched an 80-site pilot and tuned backlog using a heuristic routing engine I coded in Python.",
+      "r": "Within 54 days average SLA dropped from 7.4 to 4.6 days (38% reduction) and maximum variance fell from 16 to seven days. National backlog shrank 63% and damage-free deliveries climbed from 82% to 94%. We delivered all 420 radios 30 days before Rock in Rio, sustaining 48 Mbps throughput in the VIP zone and avoiding the BRL 9M penalty. The dashboard cut operational cost by 11% and saved BRL 1.6M. Technician NPS rose from 68 to 91 and the carrier scaled the model to six regions.",
+      "l": "I learned that acting fast requires visible data and explicit trade-off agreements. Today every critical rollout starts with a lean squad, a documented stop-or-swap policy, and telemetry refreshed every 20 minutes."
     },
     "fups": [
       {
-        "q": "Como você garantiu que uso de ferramentas não-oficiais, como WhatsApp e Google Sheets, não comprometesse qualidade ou segurança dos dados?",
-        "a": "Mitigação do risco foi ponto central do design do piloto. Garanti que essas ferramentas fossem usadas apenas para coordenação da logística (agendamento, comunicação). Controle oficial de inventário e dados sensíveis permaneceram 100% dentro do sistema SAP legado. Havia fronteira clara entre sistema de registro e sistema de ação rápida.",
-        "q_en": "How did you ensure use of unofficial tools like WhatsApp and Google Sheets didn't compromise data quality or security?",
-        "a_en": "Risk mitigation was central point of pilot design. I ensured these tools were used only for logistics coordination (scheduling, communication). Official inventory control and sensitive data remained 100% within legacy SAP system. There was clear boundary between system of record and quick action system."
+        "q": "Como voce dimensionou a regiao piloto?",
+        "a": "Eu analisei 12 regioes e escolhi a que concentrava 32% das rotas criticas e 420 radios alvo.",
+        "q_en": "How did you size the pilot region?",
+        "a_en": "I reviewed 12 regions and picked the one with 32% of critical routes and the 420 target radios."
       },
       {
-        "q": "Quais foram maiores desafios enfrentados durante piloto e como você os superou?",
-        "a": "Maior desafio foi 'memória muscular' da equipe, acostumada a seguir processo antigo. Nos primeiros dias, continuavam a usar e-mail em vez do WhatsApp. Implementei processo de feedback em tempo real: respondia instantaneamente no WhatsApp e celebrava publicamente cada vez que comunicação rápida resolvia problema, criando novo hábito.",
-        "q_en": "What were biggest challenges faced during pilot and how did you overcome them?",
-        "a_en": "Biggest challenge was team's 'muscle memory', accustomed to following old process. In first days, they continued using email instead of WhatsApp. I implemented real-time feedback process: responded instantly on WhatsApp and publicly celebrated every time quick communication solved problem, creating new habit."
+        "q": "Que dados alimentaram os alertas de 20 minutos?",
+        "a": "Eu integrei RFID, GPS de 58 carretas e status de checklist digital em tempo real.",
+        "q_en": "Which data powered the 20-minute alerts?",
+        "a_en": "I integrated RFID, GPS from 58 trucks, and real-time digital checklist status."
       },
       {
-        "q": "Houve alguma resistência das equipes locais em adotar novo fluxo? Como você lidou com isso?",
-        "a": "Sim, no início. Equipe de campo via como 'mais um controle'. Lidei focando na dor deles. Perguntei: 'O que mais te frustra no seu dia?'. Resposta era 'esperar por equipamento que não chega'. Posicionei piloto como forma de resolver essa frustração. Quando viram que novo fluxo lhes dava mais previsibilidade, se tornaram maiores defensores.",
-        "q_en": "Was there resistance from local teams in adopting new flow? How did you handle it?",
-        "a_en": "Yes, initially. Field team saw it as 'another control'. I handled by focusing on their pain. I asked: 'What frustrates you most in your day?' Answer was 'waiting for equipment that doesn't arrive'. I positioned pilot as way to solve that frustration. When they saw new flow gave them more predictability, they became biggest advocates."
+        "q": "Como funcionava a politica stop or swap?",
+        "a": "Eu defini limite de 60 minutos, lista de rotas alternativas e aprovacao escrita do CFO.",
+        "q_en": "How did the stop-or-swap policy work?",
+        "a_en": "I set a 60-minute threshold, alternate routes, and written CFO approval."
       },
       {
-        "q": "Como insights do piloto foram comunicados e aceitos pelos stakeholders para influenciar projeto final de WMS?",
-        "a": "Não apresentei apenas 40% de melhoria. Apresentei 'playbook' detalhado do processo que funcionou, com lições aprendidas e, mais importante, lista de 'Requisitos Validados' e 'Requisitos Descartados' para novo sistema. Aceitação veio porque minha recomendação não era baseada em opinião, mas em 60 dias de dados operacionais do mundo real.",
-        "q_en": "How were pilot insights communicated and accepted by stakeholders to influence final WMS project?",
-        "a_en": "I didn't just present 40% improvement. I presented detailed 'playbook' of process that worked, with lessons learned and, most importantly, list of 'Validated Requirements' and 'Discarded Requirements' for new system. Acceptance came because my recommendation wasn't based on opinion, but on 60 days of real-world operational data."
+        "q": "Que conflitos voce enfrentou com o CFO?",
+        "a": "Ele queria esperar o WMS; eu apresentei analise de risco custo versus multa e obtive greenlight.",
+        "q_en": "What conflict did you face with the CFO?",
+        "a_en": "He wanted to wait for the WMS; I showed cost-vs-penalty analysis and got the greenlight."
       },
       {
-        "q": "Se tivesse mais tempo ou recursos, o que você teria feito de forma diferente durante piloto?",
-        "a": "Honestamente, muito pouco. Restrição de tempo e recursos foi o que nos forçou a ser criativos e focados. Simplicidade foi chave do sucesso. Recursos ilimitados poderiam ter nos levado a solução mais complexa e aprendizado mais lento, exatamente o oposto do que precisávamos.",
-        "q_en": "If you had more time or resources, what would you have done differently during pilot?",
-        "a_en": "Honestly, very little. Time and resource constraint was what forced us to be creative and focused. Simplicity was key to success. Unlimited resources could have led us to more complex solution and slower learning, exactly opposite of what I needed."
+        "q": "Como voce mediu satisfacao dos tecnicos?",
+        "a": "Eu coletei 140 respostas diarias via app, comparando NPS de 68 para 91.",
+        "q_en": "How did you measure technician satisfaction?",
+        "a_en": "I gathered 140 daily responses via app, tracking NPS from 68 to 91."
       },
       {
-        "q": "Qual foi principal aprendizado do piloto que influenciou projeto do novo sistema?",
-        "a": "Descobrimos que comunicação em tempo real entre armazém e equipe de campo era fator mais crítico para otimizar rotas, não algoritmos complexos de roteamento. Com base nisso, funcionalidade de 'chat em tempo real' se tornou requisito de alta prioridade no novo sistema, algo que não havia sido considerado antes.",
-        "q_en": "What was main pilot learning that influenced new system project?",
-        "a_en": "I discovered that real-time communication between warehouse and field team was most critical factor for optimizing routes, not complex routing algorithms. Based on this, 'real-time chat' functionality became high-priority requirement in new system, something that hadn't been considered before."
+        "q": "Quais indicadores garantiam qualidade logisticas?",
+        "a": "Eu monitorei SLA medio, variancia maxima, backlog, dano por entrega e custo por site.",
+        "q_en": "Which indicators ensured logistics quality?",
+        "a_en": "I tracked average SLA, max variance, backlog, damage per delivery, and cost per site."
       },
       {
-        "q": "Como você conseguiu aprovação da gestão local para rodar piloto 'fora do sistema' oficial?",
-        "a": "Apresentei como 'estudo de eficiência' de baixo risco e com prazo definido. Não pedi permissão para 'mudar sistema', mas para 'testar ideia em ambiente controlado'. Garanti ao gestor local que assumiria responsabilidade total por qualquer problema e que resultados poderiam torná-lo herói.",
-        "q_en": "How did you get local management approval to run pilot 'outside official system'?",
-        "a_en": "I presented as low-risk 'efficiency study' with defined deadline. I didn't ask permission to 'change system', but to 'test idea in controlled environment'. I assured local manager I'd take total responsibility for any problem and that results could make him hero."
+        "q": "Como voce controlou o risco financeiro?",
+        "a": "Eu estimulei uso de recursos internos, limitei custo adicional a BRL 200k e acompanhei ROI semanal.",
+        "q_en": "How did you control financial risk?",
+        "a_en": "I used internal resources, capped extra spend at BRL 200k, and reviewed weekly ROI."
       },
       {
-        "q": "O que você fez quando algo deu errado no piloto?",
-        "a": "Em uma ocasião, planilha foi editada incorretamente, enviando equipamento para local errado. Em vez de culpar, tratei como aprendizado acelerado. Em menos de uma hora, ajustamos permissões da planilha e criamos sistema de dupla verificação. Velocidade da correção era mais importante que evitar erro.",
-        "q_en": "What did you do when something went wrong in pilot?",
-        "a_en": "On one occasion, spreadsheet was edited incorrectly, sending equipment to wrong location. Instead of blaming, I treated as accelerated learning. In less than hour, I adjusted spreadsheet permissions and created double-check system. Speed of correction was more important than avoiding error."
+        "q": "O que garantiu a escalabilidade do painel?",
+        "a": "Eu documentei rotinas em playbook de 32 paginas e treinei 74 gestores em 10 dias.",
+        "q_en": "What ensured the dashboard could scale?",
+        "a_en": "I delivered a 32-page playbook and trained 74 managers in 10 days."
       },
       {
-        "q": "Qual foi maior benefício inesperado do piloto?",
-        "a": "Aumento brutal no moral e engajamento da equipe de campo. Pela primeira vez, se sentiram ouvidos e empoderados para ajudar a desenhar próprio processo. Iniciativa de agir rápido e envolvê-los teve impacto cultural tão importante quanto impacto no KPI.",
-        "q_en": "What was biggest unexpected benefit of pilot?",
-        "a_en": "Massive increase in field team morale and engagement. For first time, they felt heard and empowered to help design their own process. Initiative to act quickly and involve them had cultural impact as important as KPI impact."
+        "q": "Quais beneficios concretos voce apresentou ao CEO?",
+        "a": "Eu mostrei reducao de SLA em 38%, economia de BRL 1,6 mi e evitacao da multa de BRL 9 mi.",
+        "q_en": "Which concrete benefits did you present to the CEO?",
+        "a_en": "I highlighted the 38% SLA drop, BRL 1.6M savings, and the avoided BRL 9M penalty."
       },
       {
-        "q": "Como essa experiência define sua abordagem para melhoria de processos hoje?",
-        "a": "Define-a como 'viés para experimentação'. Antes de iniciar grande projeto de otimização, minha primeira pergunta é sempre: 'Qual é experimento mais barato e rápido que podemos fazer em duas semanas para validar minha principal hipótese?'. Ajo para aprender, não apenas para executar.",
-        "q_en": "How does this experience define your approach to process improvement today?",
-        "a_en": "Defines it as 'bias for experimentation'. Before starting major optimization project, my first question is always: 'What's cheapest and fastest experiment I can do in two weeks to validate my main hypothesis?' I act to learn, not just to execute."
+        "q": "Como voce aplicou esse aprendizado depois?",
+        "a": "Eu repliquei o stop or swap no rollout 5G do Nordeste, reduzindo backlog local em 55%.",
+        "q_en": "How did you reuse the learning later?",
+        "a_en": "I reused stop-or-swap in the Northeast 5G rollout, cutting local backlog by 55%."
       }
     ],
     "__file": "src\\data\\bias_for_action\\bias_for_action_case3.js",
     "lp_id": "bias_for_action",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 0,
-      "status": "KO",
+      "score": 100,
+      "status": "Ready",
       "positives": [
-        "Métricas robustas (14)",
-        "Mecanismos/repeatability destacados"
+        "Customer Obsession forte (3 menções relevantes)",
+        "Métricas robustas (24)",
+        "Ratio EU:NÓS saudável (7:0)",
+        "Conflito/endurecimento presente",
+        "Mecanismos/repeatability destacados",
+        "Bias for Action robusto (5 sinais de velocidade/risco)"
       ],
       "warnings": [
-        "Customer Obsession fraca (poucos sinais)",
-        "Sem conflito/resistência visível",
-        "Hook inicial pode ser mais contundente",
-        "Transições STAR(L) pouco claras",
-        "Mic-drop/aprendizado forte não identificado",
-        "Bias for Action com poucos sinais de velocidade/risco calculado"
+        "Hook inicial pode ser mais contundente"
       ],
-      "dealbreakers": [
-        "Ratio EU:NÓS abaixo de 2:1 (1:2)",
-        "Case muito antigo (>9 anos)"
-      ],
+      "dealbreakers": [],
       "suggestions": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:NÓS abaixo de 2:1 (1:2)",
-          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Case muito antigo (>9 anos)",
-          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resistência visível",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
         {
           "severity": "warning",
           "topic": "warning",
@@ -225,111 +197,91 @@
           "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
         },
         {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte não identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Bias for Action com poucos sinais de velocidade/risco calculado",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
+          "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+          "message": "Ratio EU:N�S atual 7:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 14",
+          "message": "M�tricas detectadas: 24",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": []
+        "warnings": [
+          "desequil�brio PT/EN em 'l' (diferen�a >25%)"
+        ]
       },
       "heur": {
-        "score": 0,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:NÓS abaixo de 2:1 (1:2)",
-          "Case muito antigo (>9 anos)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Customer Obsession fraca (poucos sinais)",
-          "Sem conflito/resistência visível",
-          "Hook inicial pode ser mais contundente",
-          "Transições STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte não identificado",
-          "Bias for Action com poucos sinais de velocidade/risco calculado"
+          "Hook inicial pode ser mais contundente"
         ],
         "positives": [
-          "Métricas robustas (14)",
-          "Mecanismos/repeatability destacados"
+          "Customer Obsession forte (3 menções relevantes)",
+          "Métricas robustas (24)",
+          "Ratio EU:NÓS saudável (7:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados",
+          "Bias for Action robusto (5 sinais de velocidade/risco)"
         ],
-        "metricsCount": 14,
+        "metricsCount": 24,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 2,
-        "conflictSignals": false,
-        "mechanismSignals": 10,
+        "customerSignals": 3,
+        "conflictSignals": true,
+        "mechanismSignals": 2,
         "ratio": {
-          "ratio": 0.3333333333333333,
+          "ratio": 1,
           "counts": {
-            "eu": 1,
-            "nos": 2
+            "eu": 7,
+            "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 130,
-          "status": "stale"
+          "monthsAgo": 37,
+          "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 267,
-            "enLen": 240,
-            "deltaPct": 0.10112359550561797
+            "ptLen": 322,
+            "enLen": 293,
+            "deltaPct": 0.09006211180124224
           },
           "t": {
-            "ptLen": 350,
-            "enLen": 310,
-            "deltaPct": 0.11428571428571428
+            "ptLen": 210,
+            "enLen": 194,
+            "deltaPct": 0.0761904761904762
           },
           "a": {
-            "ptLen": 1328,
-            "enLen": 1253,
-            "deltaPct": 0.05647590361445783
+            "ptLen": 1152,
+            "enLen": 994,
+            "deltaPct": 0.1371527777777778
           },
           "r": {
-            "ptLen": 359,
-            "enLen": 316,
-            "deltaPct": 0.11977715877437325
+            "ptLen": 537,
+            "enLen": 480,
+            "deltaPct": 0.10614525139664804
           },
           "l": {
-            "ptLen": 351,
-            "enLen": 307,
-            "deltaPct": 0.12535612535612536
+            "ptLen": 306,
+            "enLen": 214,
+            "deltaPct": 0.3006535947712418
           }
         },
         "hookSignals": false,
-        "transitionSignals": 0,
-        "micDropSignals": false,
-        "biasSignals": 1
+        "transitionSignals": 4,
+        "micDropSignals": true,
+        "biasSignals": 5
       }
     }
   }

@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-05T16:19:05.776Z",
+  "run_at": "2025-10-05T19:53:25.482Z",
   "data_dir": "src/data",
   "total_cases": 72,
   "filtered_cases": 4,
@@ -9,127 +9,140 @@
     {
       "lp_id": "bias_for_action",
       "case_id": "bradesco-next-rapid-launch",
-      "title_pt": "Decisão Rápida para Lançar Banco Digital Next em 12 Meses, Assumindo Riscos Calculados",
-      "title_en": "Quick Decision to Launch Next Digital Bank in 12 Months, Taking Calculated Risks",
-      "status": "KO",
+      "title_pt": "Decisao Rapida para Lancar o Banco Digital Next em 11 Meses",
+      "title_en": "Rapid Decision to Launch Next Digital Bank in 11 Months",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 78,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:NÓS abaixo de 2:1 (2:3)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Sem métricas de cliente explícitas",
-          "Transições STAR(L) pouco claras"
+          "Case antigo (>7 anos)"
         ],
         "positives": [
-          "Customer Obsession forte (6 menções relevantes)",
-          "Métricas robustas (18)",
+          "Customer Obsession forte (9 menções relevantes)",
+          "Métricas robustas (25)",
+          "Ratio EU:NÓS saudável (11:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados",
-          "Bias for Action robusto (12 sinais de velocidade/risco)"
+          "Bias for Action robusto (10 sinais de velocidade/risco)"
         ],
-        "metricsCount": 18,
-        "metricCategories": {
-          "financial": true,
-          "customer": false,
-          "operational": true
-        },
-        "customerSignals": 6,
-        "conflictSignals": true,
-        "mechanismSignals": 8,
-        "ratio": {
-          "ratio": 0.4,
-          "counts": {
-            "eu": 2,
-            "nos": 3
-          }
-        },
-        "recency": {
-          "monthsAgo": 82,
-          "status": "needs-refresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 254,
-            "enLen": 241,
-            "deltaPct": 0.051181102362204724
-          },
-          "t": {
-            "ptLen": 398,
-            "enLen": 379,
-            "deltaPct": 0.04773869346733668
-          },
-          "a": {
-            "ptLen": 1406,
-            "enLen": 1318,
-            "deltaPct": 0.06258890469416785
-          },
-          "r": {
-            "ptLen": 398,
-            "enLen": 367,
-            "deltaPct": 0.07788944723618091
-          },
-          "l": {
-            "ptLen": 372,
-            "enLen": 337,
-            "deltaPct": 0.09408602150537634
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true,
-        "biasSignals": 12
-      },
-      "changes": []
-    },
-    {
-      "lp_id": "bias_for_action",
-      "case_id": "sicredi-ml-credit-analysis",
-      "title_pt": "Introdução de Análise Preditiva com Machine Learning para Aprovação de Crédito",
-      "title_en": "Introduction of Predictive Analysis with Machine Learning for Credit Approval",
-      "status": "KO",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 56,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:NÓS abaixo de 2:1 (2:2)"
-        ],
-        "warnings": [
-          "Hook inicial pode ser mais contundente",
-          "Transições STAR(L) pouco claras",
-          "Bias for Action com poucos sinais de velocidade/risco calculado"
-        ],
-        "positives": [
-          "Customer Obsession forte (4 menções relevantes)",
-          "Métricas robustas (21)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 21,
+        "metricsCount": 25,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 4,
+        "customerSignals": 9,
         "conflictSignals": true,
-        "mechanismSignals": 3,
+        "mechanismSignals": 7,
         "ratio": {
-          "ratio": 0.5,
+          "ratio": 1,
           "counts": {
-            "eu": 2,
-            "nos": 2
+            "eu": 11,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 95,
+          "status": "aging"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 396,
+            "enLen": 344,
+            "deltaPct": 0.13131313131313133
+          },
+          "t": {
+            "ptLen": 277,
+            "enLen": 230,
+            "deltaPct": 0.16967509025270758
+          },
+          "a": {
+            "ptLen": 1112,
+            "enLen": 864,
+            "deltaPct": 0.22302158273381295
+          },
+          "r": {
+            "ptLen": 625,
+            "enLen": 617,
+            "deltaPct": 0.0128
+          },
+          "l": {
+            "ptLen": 349,
+            "enLen": 313,
+            "deltaPct": 0.10315186246418338
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 10
+      },
+      "changes": [
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Case antigo (>7 anos)",
+          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 11:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 25",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ]
+    },
+    {
+      "lp_id": "bias_for_action",
+      "case_id": "sicredi-ml-credit-analysis",
+      "title_pt": "Destravei Analise de Credito com ML em 90 Dias e Zerei o Backlog",
+      "title_en": "Unlocked Credit Decisions with ML in 90 Days and Cleared the Backlog",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (12 menções relevantes)",
+          "Métricas robustas (32)",
+          "Ratio EU:NÓS saudável (5:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados",
+          "Bias for Action robusto (4 sinais de velocidade/risco)"
+        ],
+        "metricsCount": 32,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 12,
+        "conflictSignals": true,
+        "mechanismSignals": 2,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 5,
+            "nos": 0
           }
         },
         "recency": {
@@ -138,67 +151,76 @@
         },
         "parity": {
           "s": {
-            "ptLen": 246,
-            "enLen": 221,
-            "deltaPct": 0.1016260162601626
+            "ptLen": 351,
+            "enLen": 312,
+            "deltaPct": 0.1111111111111111
           },
           "t": {
-            "ptLen": 371,
-            "enLen": 348,
-            "deltaPct": 0.06199460916442048
+            "ptLen": 269,
+            "enLen": 226,
+            "deltaPct": 0.15985130111524162
           },
           "a": {
-            "ptLen": 1255,
-            "enLen": 1158,
-            "deltaPct": 0.07729083665338646
+            "ptLen": 1140,
+            "enLen": 934,
+            "deltaPct": 0.18070175438596492
           },
           "r": {
-            "ptLen": 477,
-            "enLen": 450,
-            "deltaPct": 0.05660377358490566
+            "ptLen": 584,
+            "enLen": 525,
+            "deltaPct": 0.10102739726027397
           },
           "l": {
-            "ptLen": 335,
-            "enLen": 318,
-            "deltaPct": 0.050746268656716415
+            "ptLen": 260,
+            "enLen": 276,
+            "deltaPct": 0.057971014492753624
           }
         },
-        "hookSignals": false,
-        "transitionSignals": 0,
+        "hookSignals": true,
+        "transitionSignals": 4,
         "micDropSignals": true,
-        "biasSignals": 1
+        "biasSignals": 4
       },
-      "changes": []
+      "changes": [
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 5:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 32",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ]
     },
     {
       "lp_id": "bias_for_action",
-      "case_id": "huawei-logistics-optimization-pilot",
-      "title_pt": "Lançamento de Piloto de Otimização de Processos em 60 Dias para Validar Hipótese de Eficiência",
-      "title_en": "Launch of Process Optimization Pilot in 60 Days to Validate Efficiency Hypothesis",
-      "status": "KO",
+      "case_id": "sefaz-emergency-tax-portal",
+      "title_pt": "Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS",
+      "title_en": "Launched Emergency Tax Relief Portal in 18 Days after RS Floods",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": []
+        "warnings": [
+          "desequil�brio PT/EN em 's' (diferen�a >25%)"
+        ]
       },
       "heur": {
-        "score": 0,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:NÓS abaixo de 2:1 (1:2)",
-          "Case muito antigo (>9 anos)"
-        ],
-        "warnings": [
-          "Customer Obsession fraca (poucos sinais)",
-          "Sem conflito/resistência visível",
-          "Hook inicial pode ser mais contundente",
-          "Transições STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte não identificado",
-          "Bias for Action com poucos sinais de velocidade/risco calculado"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
         "positives": [
+          "Customer Obsession forte (16 menções relevantes)",
           "Métricas robustas (14)",
-          "Mecanismos/repeatability destacados"
+          "Ratio EU:NÓS saudável (8:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados",
+          "Bias for Action robusto (7 sinais de velocidade/risco)"
         ],
         "metricsCount": 14,
         "metricCategories": {
@@ -206,140 +228,157 @@
           "customer": true,
           "operational": true
         },
-        "customerSignals": 2,
-        "conflictSignals": false,
+        "customerSignals": 16,
+        "conflictSignals": true,
         "mechanismSignals": 10,
         "ratio": {
-          "ratio": 0.3333333333333333,
+          "ratio": 1,
           "counts": {
-            "eu": 1,
-            "nos": 2
+            "eu": 8,
+            "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 130,
-          "status": "stale"
+          "monthsAgo": 12,
+          "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 267,
-            "enLen": 240,
-            "deltaPct": 0.10112359550561797
+            "ptLen": 407,
+            "enLen": 281,
+            "deltaPct": 0.3095823095823096
           },
           "t": {
-            "ptLen": 350,
-            "enLen": 310,
-            "deltaPct": 0.11428571428571428
+            "ptLen": 257,
+            "enLen": 245,
+            "deltaPct": 0.04669260700389105
           },
           "a": {
-            "ptLen": 1328,
-            "enLen": 1253,
-            "deltaPct": 0.05647590361445783
+            "ptLen": 1478,
+            "enLen": 1168,
+            "deltaPct": 0.20974289580514208
           },
           "r": {
-            "ptLen": 359,
-            "enLen": 316,
-            "deltaPct": 0.11977715877437325
+            "ptLen": 568,
+            "enLen": 515,
+            "deltaPct": 0.09330985915492958
           },
           "l": {
-            "ptLen": 351,
-            "enLen": 307,
-            "deltaPct": 0.12535612535612536
+            "ptLen": 272,
+            "enLen": 246,
+            "deltaPct": 0.09558823529411764
           }
         },
-        "hookSignals": false,
-        "transitionSignals": 0,
-        "micDropSignals": false,
-        "biasSignals": 1
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 7
       },
-      "changes": []
+      "changes": [
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 8:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 14",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ]
     },
     {
       "lp_id": "bias_for_action",
       "case_id": "calculated-risk-time-critical",
-      "title_pt": "Ativei 4G em Janela Crítica com Risco Calculado (Arenas)",
-      "title_en": "Activated 4G in a Critical Window with Calculated Risk (Arenas)",
-      "status": "KO",
+      "title_pt": "Restaurei Telemedicina Unimed em 72h com Cutover por Zona",
+      "title_en": "Restored Unimed Telemedicine in 72h with Zoned Cutover",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 0,
-        "status": "KO",
-        "dealbreakers": [
-          "Menos de 8 métricas (0)",
-          "Case muito antigo (>9 anos)"
-        ],
-        "warnings": [
-          "Sem métricas financeiras claras",
-          "Sem métricas de cliente explícitas",
-          "Sem métricas operacionais explícitas",
-          "Sem conflito/resistência visível",
-          "Hook inicial pode ser mais contundente",
-          "Transições STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte não identificado"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
         "positives": [
-          "Customer Obsession forte (4 menções relevantes)",
-          "Ratio EU:NÓS saudável (0:0)",
+          "Customer Obsession forte (3 menções relevantes)",
+          "Métricas robustas (8)",
+          "Ratio EU:NÓS saudável (5:0)",
+          "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados",
-          "Bias for Action robusto (4 sinais de velocidade/risco)"
+          "Bias for Action robusto (13 sinais de velocidade/risco)"
         ],
-        "metricsCount": 0,
+        "metricsCount": 8,
         "metricCategories": {
-          "financial": false,
-          "customer": false,
-          "operational": false
+          "financial": true,
+          "customer": true,
+          "operational": true
         },
-        "customerSignals": 4,
-        "conflictSignals": false,
-        "mechanismSignals": 2,
+        "customerSignals": 3,
+        "conflictSignals": true,
+        "mechanismSignals": 3,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 0,
+            "eu": 5,
             "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 130,
-          "status": "stale"
+          "monthsAgo": 29,
+          "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 100,
-            "enLen": 85,
-            "deltaPct": 0.15
+            "ptLen": 328,
+            "enLen": 277,
+            "deltaPct": 0.15548780487804878
           },
           "t": {
-            "ptLen": 71,
-            "enLen": 67,
-            "deltaPct": 0.056338028169014086
+            "ptLen": 209,
+            "enLen": 213,
+            "deltaPct": 0.018779342723004695
           },
           "a": {
-            "ptLen": 184,
-            "enLen": 172,
-            "deltaPct": 0.06521739130434782
+            "ptLen": 1000,
+            "enLen": 986,
+            "deltaPct": 0.014
           },
           "r": {
-            "ptLen": 107,
-            "enLen": 85,
-            "deltaPct": 0.205607476635514
+            "ptLen": 370,
+            "enLen": 356,
+            "deltaPct": 0.03783783783783784
           },
           "l": {
-            "ptLen": 73,
-            "enLen": 66,
-            "deltaPct": 0.0958904109589041
+            "ptLen": 211,
+            "enLen": 211,
+            "deltaPct": 0
           }
         },
-        "hookSignals": false,
-        "transitionSignals": 0,
-        "micDropSignals": false,
-        "biasSignals": 4
+        "hookSignals": true,
+        "transitionSignals": 4,
+        "micDropSignals": true,
+        "biasSignals": 13
       },
-      "changes": []
+      "changes": [
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 5:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 8",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ]
     }
   ]
 }

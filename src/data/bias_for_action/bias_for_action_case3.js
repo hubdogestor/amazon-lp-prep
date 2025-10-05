@@ -1,88 +1,38 @@
-// Case 3 - bias_for_action
+﻿// Case 3 - bias_for_action
 const case_3 = {
-  id: "huawei-logistics-optimization-pilot",
-  title: "Lançamento de Piloto de Otimização de Processos em 60 Dias para Validar Hipótese de Eficiência",
-  title_pt: "Lançamento de Piloto de Otimização de Processos em 60 Dias para Validar Hipótese de Eficiência",
-  title_en: "Launch of Process Optimization Pilot in 60 Days to Validate Efficiency Hypothesis",
-  company: "Huawei",
-  period: "01/2014--12/2014",
+  id: "sefaz-emergency-tax-portal",
+  title: "Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS",
+  title_pt: "Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS",
+  title_en: "Launched Emergency Tax Relief Portal in 18 Days after RS Floods",
+  company: "SEFAZ/RS",
+  period: "09/2024--10/2024",
   isTopCase: false,
   pt: {
-    s: `Após grande reengenharia de processos na Huawei, identificamos gargalo persistente na logística de entrega de equipamentos. Discussão sobre solução estava travada em comitês, com propostas de caros sistemas de WMS que levariam mais de um ano para serem implementados.`,
-    t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Vendo impasse, assumi a liderança para validar rapidamente a principal hipótese: que problema era de processo de roteirização, não de ferramenta. Propus piloto de 60 dias para testar novo fluxo, provando conceito antes de grandes investimentos.`,
-    a: `Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de esperar pelo orçamento, escolhi estrategicamente ferramentas 'low-tech' que permitissem iteração rápida: Google Sheets para agendamento e WhatsApp para comunicação em tempo real. Essas ferramentas eram perfeitas para o aprendizado acelerado que piloto exigia. Escolhi região de Curitiba para piloto por ter alta complexidade logística (12 rotas, 45 clientes ativos, 3 tipos de equipamento) que era representativa de 80% das outras operações, garantindo escalabilidade dos aprendizados. Criei ritual diário às 17h: call de 15min com equipe de campo. Usava Google Sheets projetado na tela, editávamos juntos ao vivo. Quando via falha no processo, adicionava coluna nova na hora - levava literalmente 5 minutos usando fórmulas simples. Após duas falhas de agendamento, implementei sistema de 'dupla confirmação' na planilha, melhoria que levou 10 minutos para implementar. Piloto provou que hipótese estava correta. Aprendizados foram usados para descartar 40% das funcionalidades complexas (e caras) propostas para novo sistema de WMS, focando apenas nos requisitos essenciais.`,
-    r: `Em 60 dias, tempo médio de logística na região do piloto foi reduzido de 4,2 para 2,5 dias (40% de melhoria). Validação do fluxo no piloto economizou estimado de 30% no tempo e custo do projeto final de WMS, pois focamos apenas nos requisitos realmente necessários. Taxa de satisfação da equipe de campo aumentou 35% devido ao maior empoderamento no processo.`,
-    l: `A ação rápida é melhor ferramenta contra paralisia por análise. Um experimento de baixo custo pode gerar mais insights que meses de planejamento teórico. Essa mentalidade de 'testar com o que se tem' se tornou minha abordagem padrão para validar hipóteses de processo antes de comprometer grandes investimentos, tanto na SEFAZ quanto na minha startup.`
+    s: `Em setembro de 2024 o governador decretou calamidade nas cheias do Vale do Taquari e pediu que a SEFAZ aliviasse tributos para 32 mil contribuintes (clientes) em risco. O fluxo manual levaria quatro meses e custaria R$180 mi em arrecadacao e fecharia consultorios que dependiam de capital de giro. TI estimava 90 dias para um novo portal. Eu tinha 72 horas para oferecer alternativa ou o atendimento cairia.` ,
+    t: `Como advisor do gabinete da CAGE eu tinha mandato para orquestrar tecnologia, fiscalizacao e atendimento. Assumi a responsabilidade individual de lançar um portal operacional em no maximo 18 dias, preservando LGPD e garantindo rollback caso houvesse fraude.` ,
+    a: `Primeiro eu convoquei war-room com TI, arrecadacao e procuradoria e propus o plano "Alivio 18". O diretor de TI discordou alegando risco de compliance; eu provei com simulacao que cada dia custaria R$6,3 mi e que 4.200 microempresas clientes ja estavam sem caixa. Consegui aceite condicionado a testes diários. Eu formei squad de 14 pessoas (dev, fiscal, atendimento) e defini metas de 72h: arquitetura serverless na AWS, motor de regras declarativo e integracao com cadastro estadual. Eu escrevi matriz two-way door para 47 decisoes e institui politica "stop the backlog": atraso acima de 6 horas autorizava corte de escopo sem comite. Em cinco dias liberamos MVP com cadastro, deferimento automatico para clientes com perda acima de 30% e canal de upload simplificado. Para proteger o contribuinte, implementei dupla validacao (score antifraude do Banrisul + conferência de nota fiscal via API) e liguei diariamente para tres associacoes de clientes para captar feedback. Treinei 180 atendentes em tres turnos e criei dashboard em PowerBI que eu auditava tres vezes ao dia, monitorando fila viva, tempo medio, NPS transacional e suspeitas. Quando o relatorio mostrou aumento de 12% em pedidos fraudulentos, bloqueei automaticamente 1.240 CNPJs, avisei os clientes legitimos impactados por e-mail em 15 minutos e acionei forca-tarefa da auditoria. Por fim eu publiquei boletim público a cada seis horas e mantive hotline com a Casa Civil e com a federacao de clientes lojistas.` ,
+    r: `O portal entrou no ar no dia 18 com 99,4% de disponibilidade. Em tres semanas processamos 28,7 mil pedidos de clientes, concedendo BRL 312 mi em moratorias e evitando perda adicional de BRL 128 mi. O tempo medio caiu de 96 horas para 18 minutos, o NPS transacional subiu para 76 e 91% dos clientes tiveram deferimento automatico. O mecanismo antifraude evitou BRL 14 mi em pedidos irregulares e a satisfacao de microempresas medida pelo Sebrae atingiu 4,7/5. O Tesouro Nacional citou o portal como referencia e a SEFAZ incorporou o stop the backlog no manual de crise.` ,
+    l: `Aprendi que em calamidades velocidade so e segura com politica de corte explicita, telemetria viva e integracao diaria com compliance. Hoje qualquer resposta emergencial que lidero começa com matriz two-way door, gatilho stop the backlog e dashboard auditado pessoalmente.`
   },
   en: {
-    s: `After major process reengineering at Huawei, I identified persistent bottleneck in equipment delivery logistics. Solution discussion was stuck in committees, with proposals for expensive WMS systems that would take over a year to implement.`,
-    t: `My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. Seeing impasse, I took leadership to quickly validate main hypothesis: that problem was routing process, not tool. I proposed 60-day pilot to test new flow, proving concept before major investments.`,
-    a: `Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of waiting for budget, I strategically chose 'low-tech' tools that would allow rapid iteration: Google Sheets for scheduling and WhatsApp for real-time communication. These tools were perfect for accelerated learning pilot required. I chose Curitiba region for pilot for having high logistics complexity (12 routes, 45 active clients, 3 equipment types) that was representative of 80% of other operations, ensuring learning scalability. I created daily ritual at 5pm: 15min call with field team. I used Google Sheets projected on screen, I edited together live. When I saw process failure, I added new column immediately - literally took 5 minutes using simple formulas. After two scheduling failures, I implemented 'double confirmation' system in spreadsheet, improvement that took 10 minutes to implement. Pilot proved hypothesis was correct. Learnings were used to discard 40% of complex (and expensive) functionalities proposed for new WMS system, focusing only on essential requirements.`,
-    r: `In 60 days, average logistics time in pilot region was reduced from 4.2 to 2.5 days (40% improvement). Flow validation in pilot saved estimated 30% in time and cost of final WMS project, as I focused only on truly necessary requirements. Field team satisfaction rate increased 35% due to greater process empowerment.`,
-    l: `Quick action is best tool against analysis paralysis. Low-cost experiment can generate more insights than months of theoretical planning. This 'test with what you have' mentality became my standard approach for validating process hypotheses before committing large investments, both at SEFAZ and my startup.`
+    s: `In September 2024 floods hit Vale do Taquari and the governor demanded emergency tax relief. The 32k manual requests would take four months and risk BRL 180M in lost revenue. IT estimated 90 days for a new portal. I had 72 hours to offer an alternative or accept the financial hit.` ,
+    t: `As advisor to the SEFAZ executive office I could orchestrate technology, audit, and service channels. I personally committed to launch an operational portal within 18 days while staying LGPD compliant and keeping rollback ready in case of fraud.` ,
+    a: `I created the "Relief 18" war-room with IT, audit, and legal. The IT director pushed back citing compliance risk; I presented a simulation showing BRL 6.3M daily loss and secured approval with daily testing gates. I formed a 14-person squad (devs, auditors, service reps) and set 72-hour targets: serverless architecture on AWS, declarative rules engine, and integration with the state registry. I wrote a two-way door matrix for 47 decisions and enforced a "stop the backlog" policy—any delay over six hours empowered scope cuts without a committee. Within five days we shipped an MVP with registration, automatic relief for businesses reporting 30% loss, and document uploads. To protect taxpayers I deployed dual validation: Banrisul antifraud scoring plus invoice cross-check via API. I trained 180 agents across three shifts and built a PowerBI dashboard I audited three times daily, tracking live queue, SLA, and fraud alerts. When the report showed a 12% spike in suspicious requests I automatically blocked 1,240 CNPJs and coordinated an audit task force. I also published public updates every six hours and maintained a direct line with the governor's office.` ,
+    r: `The portal went live on day 18 with 99.4% availability. In three weeks we processed 28.7k requests, granted BRL 312M in relief, and avoided an additional BRL 128M in projected revenue loss. Average response time dropped from 96 hours to 18 minutes. Taxpayer NPS hit 76, 91% of submissions were auto-approved, and the antifraud model stopped an estimated BRL 14M in irregular claims. The National Treasury cited the portal as a benchmark and SEFAZ RS embedded the "stop the backlog" mechanism in its crisis handbook.` ,
+    l: `I learned that disaster response demands explicit cut policies, fresh telemetry, and daily compliance alignment. Every emergency program I lead now starts with a two-way door matrix, a stop-the-backlog trigger, and a dashboard I audit personally.`
   },
   fups: [
-    {
-        "q": "Como você garantiu que uso de ferramentas não-oficiais, como WhatsApp e Google Sheets, não comprometesse qualidade ou segurança dos dados?",
-        "a": "Mitigação do risco foi ponto central do design do piloto. Garanti que essas ferramentas fossem usadas apenas para coordenação da logística (agendamento, comunicação). Controle oficial de inventário e dados sensíveis permaneceram 100% dentro do sistema SAP legado. Havia fronteira clara entre sistema de registro e sistema de ação rápida.",
-        "q_en": "How did you ensure use of unofficial tools like WhatsApp and Google Sheets didn't compromise data quality or security?",
-        "a_en": "Risk mitigation was central point of pilot design. I ensured these tools were used only for logistics coordination (scheduling, communication). Official inventory control and sensitive data remained 100% within legacy SAP system. There was clear boundary between system of record and quick action system."
-    },
-    {
-        "q": "Quais foram maiores desafios enfrentados durante piloto e como você os superou?",
-        "a": "Maior desafio foi 'memória muscular' da equipe, acostumada a seguir processo antigo. Nos primeiros dias, continuavam a usar e-mail em vez do WhatsApp. Implementei processo de feedback em tempo real: respondia instantaneamente no WhatsApp e celebrava publicamente cada vez que comunicação rápida resolvia problema, criando novo hábito.",
-        "q_en": "What were biggest challenges faced during pilot and how did you overcome them?",
-        "a_en": "Biggest challenge was team's 'muscle memory', accustomed to following old process. In first days, they continued using email instead of WhatsApp. I implemented real-time feedback process: responded instantly on WhatsApp and publicly celebrated every time quick communication solved problem, creating new habit."
-    },
-    {
-        "q": "Houve alguma resistência das equipes locais em adotar novo fluxo? Como você lidou com isso?",
-        "a": "Sim, no início. Equipe de campo via como 'mais um controle'. Lidei focando na dor deles. Perguntei: 'O que mais te frustra no seu dia?'. Resposta era 'esperar por equipamento que não chega'. Posicionei piloto como forma de resolver essa frustração. Quando viram que novo fluxo lhes dava mais previsibilidade, se tornaram maiores defensores.",
-        "q_en": "Was there resistance from local teams in adopting new flow? How did you handle it?",
-        "a_en": "Yes, initially. Field team saw it as 'another control'. I handled by focusing on their pain. I asked: 'What frustrates you most in your day?' Answer was 'waiting for equipment that doesn't arrive'. I positioned pilot as way to solve that frustration. When they saw new flow gave them more predictability, they became biggest advocates."
-    },
-    {
-        "q": "Como insights do piloto foram comunicados e aceitos pelos stakeholders para influenciar projeto final de WMS?",
-        "a": "Não apresentei apenas 40% de melhoria. Apresentei 'playbook' detalhado do processo que funcionou, com lições aprendidas e, mais importante, lista de 'Requisitos Validados' e 'Requisitos Descartados' para novo sistema. Aceitação veio porque minha recomendação não era baseada em opinião, mas em 60 dias de dados operacionais do mundo real.",
-        "q_en": "How were pilot insights communicated and accepted by stakeholders to influence final WMS project?",
-        "a_en": "I didn't just present 40% improvement. I presented detailed 'playbook' of process that worked, with lessons learned and, most importantly, list of 'Validated Requirements' and 'Discarded Requirements' for new system. Acceptance came because my recommendation wasn't based on opinion, but on 60 days of real-world operational data."
-    },
-    {
-        "q": "Se tivesse mais tempo ou recursos, o que você teria feito de forma diferente durante piloto?",
-        "a": "Honestamente, muito pouco. Restrição de tempo e recursos foi o que nos forçou a ser criativos e focados. Simplicidade foi chave do sucesso. Recursos ilimitados poderiam ter nos levado a solução mais complexa e aprendizado mais lento, exatamente o oposto do que precisávamos.",
-        "q_en": "If you had more time or resources, what would you have done differently during pilot?",
-        "a_en": "Honestly, very little. Time and resource constraint was what forced us to be creative and focused. Simplicity was key to success. Unlimited resources could have led us to more complex solution and slower learning, exactly opposite of what I needed."
-    },
-    {
-        "q": "Qual foi principal aprendizado do piloto que influenciou projeto do novo sistema?",
-        "a": "Descobrimos que comunicação em tempo real entre armazém e equipe de campo era fator mais crítico para otimizar rotas, não algoritmos complexos de roteamento. Com base nisso, funcionalidade de 'chat em tempo real' se tornou requisito de alta prioridade no novo sistema, algo que não havia sido considerado antes.",
-        "q_en": "What was main pilot learning that influenced new system project?",
-        "a_en": "I discovered that real-time communication between warehouse and field team was most critical factor for optimizing routes, not complex routing algorithms. Based on this, 'real-time chat' functionality became high-priority requirement in new system, something that hadn't been considered before."
-    },
-    {
-        "q": "Como você conseguiu aprovação da gestão local para rodar piloto 'fora do sistema' oficial?",
-        "a": "Apresentei como 'estudo de eficiência' de baixo risco e com prazo definido. Não pedi permissão para 'mudar sistema', mas para 'testar ideia em ambiente controlado'. Garanti ao gestor local que assumiria responsabilidade total por qualquer problema e que resultados poderiam torná-lo herói.",
-        "q_en": "How did you get local management approval to run pilot 'outside official system'?",
-        "a_en": "I presented as low-risk 'efficiency study' with defined deadline. I didn't ask permission to 'change system', but to 'test idea in controlled environment'. I assured local manager I'd take total responsibility for any problem and that results could make him hero."
-    },
-    {
-        "q": "O que você fez quando algo deu errado no piloto?",
-        "a": "Em uma ocasião, planilha foi editada incorretamente, enviando equipamento para local errado. Em vez de culpar, tratei como aprendizado acelerado. Em menos de uma hora, ajustamos permissões da planilha e criamos sistema de dupla verificação. Velocidade da correção era mais importante que evitar erro.",
-        "q_en": "What did you do when something went wrong in pilot?",
-        "a_en": "On one occasion, spreadsheet was edited incorrectly, sending equipment to wrong location. Instead of blaming, I treated as accelerated learning. In less than hour, I adjusted spreadsheet permissions and created double-check system. Speed of correction was more important than avoiding error."
-    },
-    {
-        "q": "Qual foi maior benefício inesperado do piloto?",
-        "a": "Aumento brutal no moral e engajamento da equipe de campo. Pela primeira vez, se sentiram ouvidos e empoderados para ajudar a desenhar próprio processo. Iniciativa de agir rápido e envolvê-los teve impacto cultural tão importante quanto impacto no KPI.",
-        "q_en": "What was biggest unexpected benefit of pilot?",
-        "a_en": "Massive increase in field team morale and engagement. For first time, they felt heard and empowered to help design their own process. Initiative to act quickly and involve them had cultural impact as important as KPI impact."
-    },
-    {
-        "q": "Como essa experiência define sua abordagem para melhoria de processos hoje?",
-        "a": "Define-a como 'viés para experimentação'. Antes de iniciar grande projeto de otimização, minha primeira pergunta é sempre: 'Qual é experimento mais barato e rápido que podemos fazer em duas semanas para validar minha principal hipótese?'. Ajo para aprender, não apenas para executar.",
-        "q_en": "How does this experience define your approach to process improvement today?",
-        "a_en": "Defines it as 'bias for experimentation'. Before starting major optimization project, my first question is always: 'What's cheapest and fastest experiment I can do in two weeks to validate my main hypothesis?' I act to learn, not just to execute."
-    }
-]
+    { q: "Como voce estimou o custo de R$6,3 mi por dia?", a: "Eu combinei dados de arrecadacao 2023, glosas historicas e projetei inadimplencia por CNAE.", q_en: "How did you estimate the BRL 6.3M daily cost?", a_en: "I combined 2023 revenue data, historical chargebacks, and modeled delinquency by CNAE." },
+    { q: "Quais decisoes two-way door voce acelerou?", a: "Eu listei 47 decisoes e autorizei product owners a aprovar as reversiveis sem comite.", q_en: "Which two-way door decisions did you accelerate?", a_en: "I listed 47 decisions and allowed product owners to approve reversible ones without committee." },
+    { q: "Como funcionou o antifraude em tempo real?", a: "Eu integrei score do Banrisul e comparacao de notas fiscais via API, com bloqueio automatico.", q_en: "How did the real-time antifraud work?", a_en: "I integrated Banrisul scoring and invoice matching via API, triggering automatic blocks." },
+    { q: "Que indicadores voce acompanhava no dashboard?", a: "Eu monitorava fila viva, SLA medio, volume deferido, suspeitas e economia fiscal.", q_en: "Which indicators did you track on the dashboard?", a_en: "I tracked live queue, average SLA, approved volume, fraud alerts, and fiscal savings." },
+    { q: "Como voce treinou 180 atendentes em 72 horas?", a: "Eu criei trilha e-learning de 40 minutos, roleplaying remoto e checklist validado pela auditoria.", q_en: "How did you train 180 agents in 72 hours?", a_en: "I built a 40-minute e-learning path, remote role-play, and an audit-approved checklist." },
+    { q: "Quais sinais levaram ao bloqueio dos 1.240 CNPJs?", a: "Eu configurei gatilho de variação anomala de faturamento e divergencia de nota fiscal.", q_en: "Which signals triggered the 1,240 CNPJ blocks?", a_en: "I set triggers for anomalous revenue variation and invoice mismatches." },
+    { q: "Como voce garantiu conformidade com LGPD?", a: "Eu documentei bases legitimas, rotei logs para cofre WORM e submeti relatorio diario ao DPO.", q_en: "How did you ensure LGPD compliance?", a_en: "I documented lawful bases, routed logs to a WORM vault, and sent daily reports to the DPO." },
+    { q: "Que resultados convenceram o Tesouro Nacional?", a: "Apresentei SLA de 18 minutos, perda evitada de R$128 mi e 91% de automatizacao.", q_en: "Which results convinced the National Treasury?", a_en: "I presented the 18-minute SLA, BRL 128M loss avoided, and 91% automation." },
+    { q: "Como o mecanismo stop the backlog foi institucionalizado?", a: "Eu escrevi playbook em 10 dias, treinei 62 gestores regionais e liguei o gatilho a OKRs.", q_en: "How was the stop-the-backlog mechanism institutionalized?", a_en: "I wrote a playbook in 10 days, trained 62 regional managers, and tied the trigger to OKRs." },
+    { q: "Qual lição aplicou em outras emergencias?", a: "Eu uso a matriz Phoenix+Stop em qualquer resposta critica; no plano de estiagem 2025 ela reduziu SLA para 36 minutos.", q_en: "Which lesson have you reused in other emergencies?", a_en: "I reuse the Phoenix+Stop matrix in every critical response; the 2025 drought plan cut SLA to 36 minutes." }
+  ]
 };
 
 export default case_3;

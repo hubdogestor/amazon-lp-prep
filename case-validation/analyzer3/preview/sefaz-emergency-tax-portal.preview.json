@@ -1,0 +1,278 @@
+{
+  "original": {
+    "id": "sefaz-emergency-tax-portal",
+    "title": "Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS",
+    "title_pt": "Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS",
+    "title_en": "Launched Emergency Tax Relief Portal in 18 Days after RS Floods",
+    "company": "SEFAZ/RS",
+    "period": "09/2024--10/2024",
+    "isTopCase": false,
+    "pt": {
+      "s": "Em setembro de 2024 o governador decretou calamidade nas cheias do Vale do Taquari e pediu que a SEFAZ aliviasse tributos para 32 mil contribuintes (clientes) em risco. O fluxo manual levaria quatro meses e custaria R$180 mi em arrecadacao e fecharia consultorios que dependiam de capital de giro. TI estimava 90 dias para um novo portal. Eu tinha 72 horas para oferecer alternativa ou o atendimento cairia.",
+      "t": "Como advisor do gabinete da CAGE eu tinha mandato para orquestrar tecnologia, fiscalizacao e atendimento. Assumi a responsabilidade individual de lançar um portal operacional em no maximo 18 dias, preservando LGPD e garantindo rollback caso houvesse fraude.",
+      "a": "Primeiro eu convoquei war-room com TI, arrecadacao e procuradoria e propus o plano \"Alivio 18\". O diretor de TI discordou alegando risco de compliance; eu provei com simulacao que cada dia custaria R$6,3 mi e que 4.200 microempresas clientes ja estavam sem caixa. Consegui aceite condicionado a testes diários. Eu formei squad de 14 pessoas (dev, fiscal, atendimento) e defini metas de 72h: arquitetura serverless na AWS, motor de regras declarativo e integracao com cadastro estadual. Eu escrevi matriz two-way door para 47 decisoes e institui politica \"stop the backlog\": atraso acima de 6 horas autorizava corte de escopo sem comite. Em cinco dias liberamos MVP com cadastro, deferimento automatico para clientes com perda acima de 30% e canal de upload simplificado. Para proteger o contribuinte, implementei dupla validacao (score antifraude do Banrisul + conferência de nota fiscal via API) e liguei diariamente para tres associacoes de clientes para captar feedback. Treinei 180 atendentes em tres turnos e criei dashboard em PowerBI que eu auditava tres vezes ao dia, monitorando fila viva, tempo medio, NPS transacional e suspeitas. Quando o relatorio mostrou aumento de 12% em pedidos fraudulentos, bloqueei automaticamente 1.240 CNPJs, avisei os clientes legitimos impactados por e-mail em 15 minutos e acionei forca-tarefa da auditoria. Por fim eu publiquei boletim público a cada seis horas e mantive hotline com a Casa Civil e com a federacao de clientes lojistas.",
+      "r": "O portal entrou no ar no dia 18 com 99,4% de disponibilidade. Em tres semanas processamos 28,7 mil pedidos de clientes, concedendo BRL 312 mi em moratorias e evitando perda adicional de BRL 128 mi. O tempo medio caiu de 96 horas para 18 minutos, o NPS transacional subiu para 76 e 91% dos clientes tiveram deferimento automatico. O mecanismo antifraude evitou BRL 14 mi em pedidos irregulares e a satisfacao de microempresas medida pelo Sebrae atingiu 4,7/5. O Tesouro Nacional citou o portal como referencia e a SEFAZ incorporou o stop the backlog no manual de crise.",
+      "l": "Aprendi que em calamidades velocidade so e segura com politica de corte explicita, telemetria viva e integracao diaria com compliance. Hoje qualquer resposta emergencial que lidero começa com matriz two-way door, gatilho stop the backlog e dashboard auditado pessoalmente."
+    },
+    "en": {
+      "s": "In September 2024 floods hit Vale do Taquari and the governor demanded emergency tax relief. The 32k manual requests would take four months and risk BRL 180M in lost revenue. IT estimated 90 days for a new portal. I had 72 hours to offer an alternative or accept the financial hit.",
+      "t": "As advisor to the SEFAZ executive office I could orchestrate technology, audit, and service channels. I personally committed to launch an operational portal within 18 days while staying LGPD compliant and keeping rollback ready in case of fraud.",
+      "a": "I created the \"Relief 18\" war-room with IT, audit, and legal. The IT director pushed back citing compliance risk; I presented a simulation showing BRL 6.3M daily loss and secured approval with daily testing gates. I formed a 14-person squad (devs, auditors, service reps) and set 72-hour targets: serverless architecture on AWS, declarative rules engine, and integration with the state registry. I wrote a two-way door matrix for 47 decisions and enforced a \"stop the backlog\" policy—any delay over six hours empowered scope cuts without a committee. Within five days we shipped an MVP with registration, automatic relief for businesses reporting 30% loss, and document uploads. To protect taxpayers I deployed dual validation: Banrisul antifraud scoring plus invoice cross-check via API. I trained 180 agents across three shifts and built a PowerBI dashboard I audited three times daily, tracking live queue, SLA, and fraud alerts. When the report showed a 12% spike in suspicious requests I automatically blocked 1,240 CNPJs and coordinated an audit task force. I also published public updates every six hours and maintained a direct line with the governor's office.",
+      "r": "The portal went live on day 18 with 99.4% availability. In three weeks we processed 28.7k requests, granted BRL 312M in relief, and avoided an additional BRL 128M in projected revenue loss. Average response time dropped from 96 hours to 18 minutes. Taxpayer NPS hit 76, 91% of submissions were auto-approved, and the antifraud model stopped an estimated BRL 14M in irregular claims. The National Treasury cited the portal as a benchmark and SEFAZ RS embedded the \"stop the backlog\" mechanism in its crisis handbook.",
+      "l": "I learned that disaster response demands explicit cut policies, fresh telemetry, and daily compliance alignment. Every emergency program I lead now starts with a two-way door matrix, a stop-the-backlog trigger, and a dashboard I audit personally."
+    },
+    "fups": [
+      {
+        "q": "Como voce estimou o custo de R$6,3 mi por dia?",
+        "a": "Eu combinei dados de arrecadacao 2023, glosas historicas e projetei inadimplencia por CNAE.",
+        "q_en": "How did you estimate the BRL 6.3M daily cost?",
+        "a_en": "I combined 2023 revenue data, historical chargebacks, and modeled delinquency by CNAE."
+      },
+      {
+        "q": "Quais decisoes two-way door voce acelerou?",
+        "a": "Eu listei 47 decisoes e autorizei product owners a aprovar as reversiveis sem comite.",
+        "q_en": "Which two-way door decisions did you accelerate?",
+        "a_en": "I listed 47 decisions and allowed product owners to approve reversible ones without committee."
+      },
+      {
+        "q": "Como funcionou o antifraude em tempo real?",
+        "a": "Eu integrei score do Banrisul e comparacao de notas fiscais via API, com bloqueio automatico.",
+        "q_en": "How did the real-time antifraud work?",
+        "a_en": "I integrated Banrisul scoring and invoice matching via API, triggering automatic blocks."
+      },
+      {
+        "q": "Que indicadores voce acompanhava no dashboard?",
+        "a": "Eu monitorava fila viva, SLA medio, volume deferido, suspeitas e economia fiscal.",
+        "q_en": "Which indicators did you track on the dashboard?",
+        "a_en": "I tracked live queue, average SLA, approved volume, fraud alerts, and fiscal savings."
+      },
+      {
+        "q": "Como voce treinou 180 atendentes em 72 horas?",
+        "a": "Eu criei trilha e-learning de 40 minutos, roleplaying remoto e checklist validado pela auditoria.",
+        "q_en": "How did you train 180 agents in 72 hours?",
+        "a_en": "I built a 40-minute e-learning path, remote role-play, and an audit-approved checklist."
+      },
+      {
+        "q": "Quais sinais levaram ao bloqueio dos 1.240 CNPJs?",
+        "a": "Eu configurei gatilho de variação anomala de faturamento e divergencia de nota fiscal.",
+        "q_en": "Which signals triggered the 1,240 CNPJ blocks?",
+        "a_en": "I set triggers for anomalous revenue variation and invoice mismatches."
+      },
+      {
+        "q": "Como voce garantiu conformidade com LGPD?",
+        "a": "Eu documentei bases legitimas, rotei logs para cofre WORM e submeti relatorio diario ao DPO.",
+        "q_en": "How did you ensure LGPD compliance?",
+        "a_en": "I documented lawful bases, routed logs to a WORM vault, and sent daily reports to the DPO."
+      },
+      {
+        "q": "Que resultados convenceram o Tesouro Nacional?",
+        "a": "Apresentei SLA de 18 minutos, perda evitada de R$128 mi e 91% de automatizacao.",
+        "q_en": "Which results convinced the National Treasury?",
+        "a_en": "I presented the 18-minute SLA, BRL 128M loss avoided, and 91% automation."
+      },
+      {
+        "q": "Como o mecanismo stop the backlog foi institucionalizado?",
+        "a": "Eu escrevi playbook em 10 dias, treinei 62 gestores regionais e liguei o gatilho a OKRs.",
+        "q_en": "How was the stop-the-backlog mechanism institutionalized?",
+        "a_en": "I wrote a playbook in 10 days, trained 62 regional managers, and tied the trigger to OKRs."
+      },
+      {
+        "q": "Qual lição aplicou em outras emergencias?",
+        "a": "Eu uso a matriz Phoenix+Stop em qualquer resposta critica; no plano de estiagem 2025 ela reduziu SLA para 36 minutos.",
+        "q_en": "Which lesson have you reused in other emergencies?",
+        "a_en": "I reuse the Phoenix+Stop matrix in every critical response; the 2025 drought plan cut SLA to 36 minutes."
+      }
+    ],
+    "__file": "src\\data\\bias_for_action\\bias_for_action_case3.js",
+    "lp_id": "bias_for_action",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "sefaz-emergency-tax-portal",
+    "title": "Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS",
+    "title_pt": "Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS",
+    "title_en": "Launched Emergency Tax Relief Portal in 18 Days after RS Floods",
+    "company": "SEFAZ/RS",
+    "period": "09/2024--10/2024",
+    "isTopCase": false,
+    "pt": {
+      "s": "Em setembro de 2024 o governador decretou calamidade nas cheias do Vale do Taquari e pediu que a SEFAZ aliviasse tributos para 32 mil contribuintes (clientes) em risco. O fluxo manual levaria quatro meses e custaria R$180 mi em arrecadacao e fecharia consultorios que dependiam de capital de giro. TI estimava 90 dias para um novo portal. Eu tinha 72 horas para oferecer alternativa ou o atendimento cairia.",
+      "t": "Como advisor do gabinete da CAGE eu tinha mandato para orquestrar tecnologia, fiscalizacao e atendimento. Assumi a responsabilidade individual de lançar um portal operacional em no maximo 18 dias, preservando LGPD e garantindo rollback caso houvesse fraude.",
+      "a": "Primeiro eu convoquei war-room com TI, arrecadacao e procuradoria e propus o plano \"Alivio 18\". O diretor de TI discordou alegando risco de compliance; eu provei com simulacao que cada dia custaria R$6,3 mi e que 4.200 microempresas clientes ja estavam sem caixa. Consegui aceite condicionado a testes diários. Eu formei squad de 14 pessoas (dev, fiscal, atendimento) e defini metas de 72h: arquitetura serverless na AWS, motor de regras declarativo e integracao com cadastro estadual. Eu escrevi matriz two-way door para 47 decisoes e institui politica \"stop the backlog\": atraso acima de 6 horas autorizava corte de escopo sem comite. Em cinco dias liberamos MVP com cadastro, deferimento automatico para clientes com perda acima de 30% e canal de upload simplificado. Para proteger o contribuinte, implementei dupla validacao (score antifraude do Banrisul + conferência de nota fiscal via API) e liguei diariamente para tres associacoes de clientes para captar feedback. Treinei 180 atendentes em tres turnos e criei dashboard em PowerBI que eu auditava tres vezes ao dia, monitorando fila viva, tempo medio, NPS transacional e suspeitas. Quando o relatorio mostrou aumento de 12% em pedidos fraudulentos, bloqueei automaticamente 1.240 CNPJs, avisei os clientes legitimos impactados por e-mail em 15 minutos e acionei forca-tarefa da auditoria. Por fim eu publiquei boletim público a cada seis horas e mantive hotline com a Casa Civil e com a federacao de clientes lojistas.",
+      "r": "O portal entrou no ar no dia 18 com 99,4% de disponibilidade. Em tres semanas processamos 28,7 mil pedidos de clientes, concedendo BRL 312 mi em moratorias e evitando perda adicional de BRL 128 mi. O tempo medio caiu de 96 horas para 18 minutos, o NPS transacional subiu para 76 e 91% dos clientes tiveram deferimento automatico. O mecanismo antifraude evitou BRL 14 mi em pedidos irregulares e a satisfacao de microempresas medida pelo Sebrae atingiu 4,7/5. O Tesouro Nacional citou o portal como referencia e a SEFAZ incorporou o stop the backlog no manual de crise.",
+      "l": "Aprendi que em calamidades velocidade so e segura com politica de corte explicita, telemetria viva e integracao diaria com compliance. Hoje qualquer resposta emergencial que lidero começa com matriz two-way door, gatilho stop the backlog e dashboard auditado pessoalmente."
+    },
+    "en": {
+      "s": "In September 2024 floods hit Vale do Taquari and the governor demanded emergency tax relief. The 32k manual requests would take four months and risk BRL 180M in lost revenue. IT estimated 90 days for a new portal. I had 72 hours to offer an alternative or accept the financial hit.",
+      "t": "As advisor to the SEFAZ executive office I could orchestrate technology, audit, and service channels. I personally committed to launch an operational portal within 18 days while staying LGPD compliant and keeping rollback ready in case of fraud.",
+      "a": "I created the \"Relief 18\" war-room with IT, audit, and legal. The IT director pushed back citing compliance risk; I presented a simulation showing BRL 6.3M daily loss and secured approval with daily testing gates. I formed a 14-person squad (devs, auditors, service reps) and set 72-hour targets: serverless architecture on AWS, declarative rules engine, and integration with the state registry. I wrote a two-way door matrix for 47 decisions and enforced a \"stop the backlog\" policy—any delay over six hours empowered scope cuts without a committee. Within five days we shipped an MVP with registration, automatic relief for businesses reporting 30% loss, and document uploads. To protect taxpayers I deployed dual validation: Banrisul antifraud scoring plus invoice cross-check via API. I trained 180 agents across three shifts and built a PowerBI dashboard I audited three times daily, tracking live queue, SLA, and fraud alerts. When the report showed a 12% spike in suspicious requests I automatically blocked 1,240 CNPJs and coordinated an audit task force. I also published public updates every six hours and maintained a direct line with the governor's office.",
+      "r": "The portal went live on day 18 with 99.4% availability. In three weeks we processed 28.7k requests, granted BRL 312M in relief, and avoided an additional BRL 128M in projected revenue loss. Average response time dropped from 96 hours to 18 minutes. Taxpayer NPS hit 76, 91% of submissions were auto-approved, and the antifraud model stopped an estimated BRL 14M in irregular claims. The National Treasury cited the portal as a benchmark and SEFAZ RS embedded the \"stop the backlog\" mechanism in its crisis handbook.",
+      "l": "I learned that disaster response demands explicit cut policies, fresh telemetry, and daily compliance alignment. Every emergency program I lead now starts with a two-way door matrix, a stop-the-backlog trigger, and a dashboard I audit personally."
+    },
+    "fups": [
+      {
+        "q": "Como voce estimou o custo de R$6,3 mi por dia?",
+        "a": "Eu combinei dados de arrecadacao 2023, glosas historicas e projetei inadimplencia por CNAE.",
+        "q_en": "How did you estimate the BRL 6.3M daily cost?",
+        "a_en": "I combined 2023 revenue data, historical chargebacks, and modeled delinquency by CNAE."
+      },
+      {
+        "q": "Quais decisoes two-way door voce acelerou?",
+        "a": "Eu listei 47 decisoes e autorizei product owners a aprovar as reversiveis sem comite.",
+        "q_en": "Which two-way door decisions did you accelerate?",
+        "a_en": "I listed 47 decisions and allowed product owners to approve reversible ones without committee."
+      },
+      {
+        "q": "Como funcionou o antifraude em tempo real?",
+        "a": "Eu integrei score do Banrisul e comparacao de notas fiscais via API, com bloqueio automatico.",
+        "q_en": "How did the real-time antifraud work?",
+        "a_en": "I integrated Banrisul scoring and invoice matching via API, triggering automatic blocks."
+      },
+      {
+        "q": "Que indicadores voce acompanhava no dashboard?",
+        "a": "Eu monitorava fila viva, SLA medio, volume deferido, suspeitas e economia fiscal.",
+        "q_en": "Which indicators did you track on the dashboard?",
+        "a_en": "I tracked live queue, average SLA, approved volume, fraud alerts, and fiscal savings."
+      },
+      {
+        "q": "Como voce treinou 180 atendentes em 72 horas?",
+        "a": "Eu criei trilha e-learning de 40 minutos, roleplaying remoto e checklist validado pela auditoria.",
+        "q_en": "How did you train 180 agents in 72 hours?",
+        "a_en": "I built a 40-minute e-learning path, remote role-play, and an audit-approved checklist."
+      },
+      {
+        "q": "Quais sinais levaram ao bloqueio dos 1.240 CNPJs?",
+        "a": "Eu configurei gatilho de variação anomala de faturamento e divergencia de nota fiscal.",
+        "q_en": "Which signals triggered the 1,240 CNPJ blocks?",
+        "a_en": "I set triggers for anomalous revenue variation and invoice mismatches."
+      },
+      {
+        "q": "Como voce garantiu conformidade com LGPD?",
+        "a": "Eu documentei bases legitimas, rotei logs para cofre WORM e submeti relatorio diario ao DPO.",
+        "q_en": "How did you ensure LGPD compliance?",
+        "a_en": "I documented lawful bases, routed logs to a WORM vault, and sent daily reports to the DPO."
+      },
+      {
+        "q": "Que resultados convenceram o Tesouro Nacional?",
+        "a": "Apresentei SLA de 18 minutos, perda evitada de R$128 mi e 91% de automatizacao.",
+        "q_en": "Which results convinced the National Treasury?",
+        "a_en": "I presented the 18-minute SLA, BRL 128M loss avoided, and 91% automation."
+      },
+      {
+        "q": "Como o mecanismo stop the backlog foi institucionalizado?",
+        "a": "Eu escrevi playbook em 10 dias, treinei 62 gestores regionais e liguei o gatilho a OKRs.",
+        "q_en": "How was the stop-the-backlog mechanism institutionalized?",
+        "a_en": "I wrote a playbook in 10 days, trained 62 regional managers, and tied the trigger to OKRs."
+      },
+      {
+        "q": "Qual lição aplicou em outras emergencias?",
+        "a": "Eu uso a matriz Phoenix+Stop em qualquer resposta critica; no plano de estiagem 2025 ela reduziu SLA para 36 minutos.",
+        "q_en": "Which lesson have you reused in other emergencies?",
+        "a_en": "I reuse the Phoenix+Stop matrix in every critical response; the 2025 drought plan cut SLA to 36 minutes."
+      }
+    ],
+    "__file": "src\\data\\bias_for_action\\bias_for_action_case3.js",
+    "lp_id": "bias_for_action",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 100,
+      "status": "Ready",
+      "positives": [
+        "Customer Obsession forte (16 menções relevantes)",
+        "Métricas robustas (14)",
+        "Ratio EU:NÓS saudável (8:0)",
+        "Conflito/endurecimento presente",
+        "Mecanismos/repeatability destacados",
+        "Bias for Action robusto (7 sinais de velocidade/risco)"
+      ],
+      "warnings": [],
+      "dealbreakers": [],
+      "suggestions": [
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 8:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 14",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ],
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": [
+          "desequil�brio PT/EN em 's' (diferen�a >25%)"
+        ]
+      },
+      "heur": {
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [],
+        "positives": [
+          "Customer Obsession forte (16 menções relevantes)",
+          "Métricas robustas (14)",
+          "Ratio EU:NÓS saudável (8:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados",
+          "Bias for Action robusto (7 sinais de velocidade/risco)"
+        ],
+        "metricsCount": 14,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 16,
+        "conflictSignals": true,
+        "mechanismSignals": 10,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 8,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 12,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 407,
+            "enLen": 281,
+            "deltaPct": 0.3095823095823096
+          },
+          "t": {
+            "ptLen": 257,
+            "enLen": 245,
+            "deltaPct": 0.04669260700389105
+          },
+          "a": {
+            "ptLen": 1478,
+            "enLen": 1168,
+            "deltaPct": 0.20974289580514208
+          },
+          "r": {
+            "ptLen": 568,
+            "enLen": 515,
+            "deltaPct": 0.09330985915492958
+          },
+          "l": {
+            "ptLen": 272,
+            "enLen": 246,
+            "deltaPct": 0.09558823529411764
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 7
+      }
+    }
+  }
+}
