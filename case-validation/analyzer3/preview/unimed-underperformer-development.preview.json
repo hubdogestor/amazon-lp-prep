@@ -178,16 +178,16 @@
       "score": 90,
       "status": "Ready",
       "positives": [
-        "M�tricas robustas (12)",
-        "Ratio EU:N�S saud�vel (3:0)",
+        "Métricas robustas (12)",
+        "Ratio EU:NÓS saudável (3:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
         "Customer Obsession fraca (poucos sinais)",
-        "Sem m�tricas de cliente expl�citas",
-        "Sem m�tricas operacionais expl�citas",
-        "Transi��es STAR(L) pouco claras"
+        "Sem métricas de cliente explícitas",
+        "Sem métricas operacionais explícitas",
+        "Transições STAR(L) pouco claras"
       ],
       "dealbreakers": [],
       "suggestions": [
@@ -200,19 +200,19 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
+          "message": "Sem métricas de cliente explícitas",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
+          "message": "Sem métricas operacionais explícitas",
           "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
@@ -239,13 +239,13 @@
         "dealbreakers": [],
         "warnings": [
           "Customer Obsession fraca (poucos sinais)",
-          "Sem m�tricas de cliente expl�citas",
-          "Sem m�tricas operacionais expl�citas",
-          "Transi��es STAR(L) pouco claras"
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "M�tricas robustas (12)",
-          "Ratio EU:N�S saud�vel (3:0)",
+          "Métricas robustas (12)",
+          "Ratio EU:NÓS saudável (3:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -298,7 +298,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 1,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 2
       }
     }
   }

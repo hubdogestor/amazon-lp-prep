@@ -178,15 +178,15 @@
       "score": 90,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (14 men��es relevantes)",
-        "M�tricas robustas (16)",
-        "Ratio EU:N�S saud�vel (3:0)",
+        "Customer Obsession forte (14 menções relevantes)",
+        "Métricas robustas (16)",
+        "Ratio EU:NÓS saudável (3:0)",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem m�tricas de cliente expl�citas",
-        "Sem conflito/resist�ncia vis�vel",
-        "Transi��es STAR(L) pouco claras",
+        "Sem métricas de cliente explícitas",
+        "Sem conflito/resistência visível",
+        "Transições STAR(L) pouco claras",
         "Case antigo (>7 anos)"
       ],
       "dealbreakers": [],
@@ -194,19 +194,19 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
+          "message": "Sem métricas de cliente explícitas",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
+          "message": "Sem conflito/resistência visível",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
@@ -238,15 +238,15 @@
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
-          "Transi��es STAR(L) pouco claras",
+          "Sem métricas de cliente explícitas",
+          "Sem conflito/resistência visível",
+          "Transições STAR(L) pouco claras",
           "Case antigo (>7 anos)"
         ],
         "positives": [
-          "Customer Obsession forte (14 men��es relevantes)",
-          "M�tricas robustas (16)",
-          "Ratio EU:N�S saud�vel (3:0)",
+          "Customer Obsession forte (14 menções relevantes)",
+          "Métricas robustas (16)",
+          "Ratio EU:NÓS saudável (3:0)",
           "Mecanismos/repeatability destacados"
         ],
         "metricsCount": 16,
@@ -298,7 +298,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 0,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 0
       }
     }
   }

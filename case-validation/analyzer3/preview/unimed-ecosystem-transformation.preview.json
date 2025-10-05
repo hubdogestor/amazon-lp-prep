@@ -178,24 +178,24 @@
       "score": 61,
       "status": "KO",
       "positives": [
-        "Customer Obsession forte (4 men��es relevantes)",
-        "M�tricas robustas (20)",
+        "Customer Obsession forte (4 menções relevantes)",
+        "Métricas robustas (20)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
         "Hook inicial pode ser mais contundente",
-        "Transi��es STAR(L) pouco claras"
+        "Transições STAR(L) pouco claras"
       ],
       "dealbreakers": [
-        "Ratio EU:N�S abaixo de 2:1 (1:1)"
+        "Ratio EU:NÓS abaixo de 2:1 (1:1)"
       ],
       "suggestions": [
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:1)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
+          "message": "Ratio EU:NÓS abaixo de 2:1 (1:1)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
         },
         {
           "severity": "warning",
@@ -206,7 +206,7 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
@@ -231,15 +231,15 @@
         "score": 61,
         "status": "KO",
         "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (1:1)"
+          "Ratio EU:NÓS abaixo de 2:1 (1:1)"
         ],
         "warnings": [
           "Hook inicial pode ser mais contundente",
-          "Transi��es STAR(L) pouco claras"
+          "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (4 men��es relevantes)",
-          "M�tricas robustas (20)",
+          "Customer Obsession forte (4 menções relevantes)",
+          "Métricas robustas (20)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -292,7 +292,8 @@
         },
         "hookSignals": false,
         "transitionSignals": 1,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 0
       }
     }
   }

@@ -178,9 +178,9 @@
       "score": 100,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (12 men��es relevantes)",
-        "M�tricas robustas (30)",
-        "Ratio EU:N�S saud�vel (8:0)",
+        "Customer Obsession forte (12 menções relevantes)",
+        "Métricas robustas (30)",
+        "Ratio EU:NÓS saudável (8:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
@@ -211,9 +211,9 @@
         "dealbreakers": [],
         "warnings": [],
         "positives": [
-          "Customer Obsession forte (12 men��es relevantes)",
-          "M�tricas robustas (30)",
-          "Ratio EU:N�S saud�vel (8:0)",
+          "Customer Obsession forte (12 menções relevantes)",
+          "Métricas robustas (30)",
+          "Ratio EU:NÓS saudável (8:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -266,7 +266,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 2,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 0
       }
     }
   }

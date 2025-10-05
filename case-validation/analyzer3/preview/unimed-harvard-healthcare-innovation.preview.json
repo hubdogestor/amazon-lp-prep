@@ -178,23 +178,23 @@
       "score": 58,
       "status": "KO",
       "positives": [
-        "M�tricas robustas (33)",
+        "Métricas robustas (33)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
         "Customer Obsession fraca (poucos sinais)",
-        "Transi��es STAR(L) pouco claras"
+        "Transições STAR(L) pouco claras"
       ],
       "dealbreakers": [
-        "Ratio EU:N�S abaixo de 2:1 (1:2)"
+        "Ratio EU:NÓS abaixo de 2:1 (1:2)"
       ],
       "suggestions": [
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
+          "message": "Ratio EU:NÓS abaixo de 2:1 (1:2)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
         },
         {
           "severity": "warning",
@@ -205,7 +205,7 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
@@ -230,14 +230,14 @@
         "score": 58,
         "status": "KO",
         "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (1:2)"
+          "Ratio EU:NÓS abaixo de 2:1 (1:2)"
         ],
         "warnings": [
           "Customer Obsession fraca (poucos sinais)",
-          "Transi��es STAR(L) pouco claras"
+          "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "M�tricas robustas (33)",
+          "Métricas robustas (33)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -290,7 +290,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 1,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 1
       }
     }
   }

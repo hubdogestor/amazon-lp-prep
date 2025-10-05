@@ -178,14 +178,14 @@
       "score": 57,
       "status": "KO",
       "positives": [
-        "Customer Obsession forte (3 men��es relevantes)",
-        "M�tricas robustas (28)",
-        "Ratio EU:N�S saud�vel (2:0)",
+        "Customer Obsession forte (3 menções relevantes)",
+        "Métricas robustas (28)",
+        "Ratio EU:NÓS saudável (2:0)",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem m�tricas de cliente expl�citas",
-        "Sem conflito/resist�ncia vis�vel"
+        "Sem métricas de cliente explícitas",
+        "Sem conflito/resistência visível"
       ],
       "dealbreakers": [
         "Case muito antigo (>9 anos)"
@@ -200,13 +200,13 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
+          "message": "Sem métricas de cliente explícitas",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
+          "message": "Sem conflito/resistência visível",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
@@ -234,13 +234,13 @@
           "Case muito antigo (>9 anos)"
         ],
         "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Sem conflito/resist�ncia vis�vel"
+          "Sem métricas de cliente explícitas",
+          "Sem conflito/resistência visível"
         ],
         "positives": [
-          "Customer Obsession forte (3 men��es relevantes)",
-          "M�tricas robustas (28)",
-          "Ratio EU:N�S saud�vel (2:0)",
+          "Customer Obsession forte (3 menções relevantes)",
+          "Métricas robustas (28)",
+          "Ratio EU:NÓS saudável (2:0)",
           "Mecanismos/repeatability destacados"
         ],
         "metricsCount": 28,
@@ -292,7 +292,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 2,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 0
       }
     }
   }

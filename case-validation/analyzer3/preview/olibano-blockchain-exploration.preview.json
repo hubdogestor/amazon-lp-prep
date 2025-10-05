@@ -178,42 +178,42 @@
       "score": 93,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (10 men��es relevantes)",
-        "M�tricas robustas (21)",
-        "Ratio EU:N�S saud�vel (1:0)",
+        "Customer Obsession forte (10 menções relevantes)",
+        "Métricas robustas (21)",
+        "Ratio EU:NÓS saudável (1:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem m�tricas de cliente expl�citas",
-        "Sem m�tricas operacionais expl�citas",
-        "Transi��es STAR(L) pouco claras",
-        "Mic-drop/aprendizado forte n�o identificado"
+        "Sem métricas de cliente explícitas",
+        "Sem métricas operacionais explícitas",
+        "Transições STAR(L) pouco claras",
+        "Mic-drop/aprendizado forte não identificado"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
+          "message": "Sem métricas de cliente explícitas",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
+          "message": "Sem métricas operacionais explícitas",
           "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
+          "message": "Mic-drop/aprendizado forte não identificado",
           "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
         },
         {
@@ -239,15 +239,15 @@
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Sem m�tricas operacionais expl�citas",
-          "Transi��es STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte n�o identificado"
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
         ],
         "positives": [
-          "Customer Obsession forte (10 men��es relevantes)",
-          "M�tricas robustas (21)",
-          "Ratio EU:N�S saud�vel (1:0)",
+          "Customer Obsession forte (10 menções relevantes)",
+          "Métricas robustas (21)",
+          "Ratio EU:NÓS saudável (1:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -300,7 +300,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 0,
-        "micDropSignals": false
+        "micDropSignals": false,
+        "biasSignals": 0
       }
     }
   }

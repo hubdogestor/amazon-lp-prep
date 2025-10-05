@@ -178,27 +178,27 @@
       "score": 0,
       "status": "KO",
       "positives": [
-        "M�tricas robustas (14)",
+        "Métricas robustas (14)",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
         "Customer Obsession fraca (poucos sinais)",
-        "Sem m�tricas de cliente expl�citas",
-        "Sem conflito/resist�ncia vis�vel",
+        "Sem conflito/resistência visível",
         "Hook inicial pode ser mais contundente",
-        "Transi��es STAR(L) pouco claras",
-        "Mic-drop/aprendizado forte n�o identificado"
+        "Transições STAR(L) pouco claras",
+        "Mic-drop/aprendizado forte não identificado",
+        "Bias for Action com poucos sinais de velocidade/risco calculado"
       ],
       "dealbreakers": [
-        "Ratio EU:N�S abaixo de 2:1 (1:2)",
+        "Ratio EU:NÓS abaixo de 2:1 (1:2)",
         "Case muito antigo (>9 anos)"
       ],
       "suggestions": [
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
+          "message": "Ratio EU:NÓS abaixo de 2:1 (1:2)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
         },
         {
           "severity": "dealbreaker",
@@ -215,13 +215,7 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
+          "message": "Sem conflito/resistência visível",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
@@ -233,14 +227,20 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
+          "message": "Mic-drop/aprendizado forte não identificado",
           "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Bias for Action com poucos sinais de velocidade/risco calculado",
+          "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "dealbreaker",
@@ -264,25 +264,25 @@
         "score": 0,
         "status": "KO",
         "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (1:2)",
+          "Ratio EU:NÓS abaixo de 2:1 (1:2)",
           "Case muito antigo (>9 anos)"
         ],
         "warnings": [
           "Customer Obsession fraca (poucos sinais)",
-          "Sem m�tricas de cliente expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
+          "Sem conflito/resistência visível",
           "Hook inicial pode ser mais contundente",
-          "Transi��es STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte n�o identificado"
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado",
+          "Bias for Action com poucos sinais de velocidade/risco calculado"
         ],
         "positives": [
-          "M�tricas robustas (14)",
+          "Métricas robustas (14)",
           "Mecanismos/repeatability destacados"
         ],
         "metricsCount": 14,
         "metricCategories": {
           "financial": true,
-          "customer": false,
+          "customer": true,
           "operational": true
         },
         "customerSignals": 2,
@@ -328,7 +328,8 @@
         },
         "hookSignals": false,
         "transitionSignals": 0,
-        "micDropSignals": false
+        "micDropSignals": false,
+        "biasSignals": 1
       }
     }
   }

@@ -178,31 +178,31 @@
       "score": 0,
       "status": "KO",
       "positives": [
-        "M�tricas robustas (14)",
+        "Métricas robustas (14)",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem m�tricas de cliente expl�citas",
-        "Sem conflito/resist�ncia vis�vel",
-        "Transi��es STAR(L) pouco claras"
+        "Sem métricas de cliente explícitas",
+        "Sem conflito/resistência visível",
+        "Transições STAR(L) pouco claras"
       ],
       "dealbreakers": [
-        "Aus�ncia de Customer Obsession",
-        "Ratio EU:N�S abaixo de 2:1 (2:2)",
+        "Ausência de Customer Obsession",
+        "Ratio EU:NÓS abaixo de 2:1 (2:2)",
         "Case muito antigo (>9 anos)"
       ],
       "suggestions": [
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
+          "message": "Ausência de Customer Obsession",
           "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
         },
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (2:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
+          "message": "Ratio EU:NÓS abaixo de 2:1 (2:2)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
         },
         {
           "severity": "dealbreaker",
@@ -213,19 +213,19 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
+          "message": "Sem métricas de cliente explícitas",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
+          "message": "Sem conflito/resistência visível",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
@@ -250,17 +250,17 @@
         "score": 0,
         "status": "KO",
         "dealbreakers": [
-          "Aus�ncia de Customer Obsession",
-          "Ratio EU:N�S abaixo de 2:1 (2:2)",
+          "Ausência de Customer Obsession",
+          "Ratio EU:NÓS abaixo de 2:1 (2:2)",
           "Case muito antigo (>9 anos)"
         ],
         "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
-          "Transi��es STAR(L) pouco claras"
+          "Sem métricas de cliente explícitas",
+          "Sem conflito/resistência visível",
+          "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "M�tricas robustas (14)",
+          "Métricas robustas (14)",
           "Mecanismos/repeatability destacados"
         ],
         "metricsCount": 14,
@@ -312,7 +312,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 0,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 2
       }
     }
   }

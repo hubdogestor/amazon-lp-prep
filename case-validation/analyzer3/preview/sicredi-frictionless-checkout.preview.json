@@ -178,33 +178,33 @@
       "score": 89,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (28 men��es relevantes)",
-        "M�tricas robustas (28)",
-        "Ratio EU:N�S saud�vel (0:0)"
+        "Customer Obsession forte (28 menções relevantes)",
+        "Métricas robustas (29)",
+        "Ratio EU:NÓS saudável (0:0)"
       ],
       "warnings": [
-        "Sem conflito/resist�ncia vis�vel",
-        "Mecanismos/processos n�o evidenciados",
-        "Transi��es STAR(L) pouco claras"
+        "Sem conflito/resistência visível",
+        "Mecanismos/processos não evidenciados",
+        "Transições STAR(L) pouco claras"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
+          "message": "Sem conflito/resistência visível",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
+          "message": "Mecanismos/processos não evidenciados",
           "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
@@ -216,7 +216,7 @@
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 28",
+          "message": "M�tricas detectadas: 29",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -230,16 +230,16 @@
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Sem conflito/resist�ncia vis�vel",
-          "Mecanismos/processos n�o evidenciados",
-          "Transi��es STAR(L) pouco claras"
+          "Sem conflito/resistência visível",
+          "Mecanismos/processos não evidenciados",
+          "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (28 men��es relevantes)",
-          "M�tricas robustas (28)",
-          "Ratio EU:N�S saud�vel (0:0)"
+          "Customer Obsession forte (28 menções relevantes)",
+          "Métricas robustas (29)",
+          "Ratio EU:NÓS saudável (0:0)"
         ],
-        "metricsCount": 28,
+        "metricsCount": 29,
         "metricCategories": {
           "financial": true,
           "customer": true,
@@ -288,7 +288,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 0,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 1
       }
     }
   }

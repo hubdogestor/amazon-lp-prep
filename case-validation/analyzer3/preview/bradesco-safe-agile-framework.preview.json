@@ -178,14 +178,14 @@
       "score": 100,
       "status": "Ready",
       "positives": [
-        "M�tricas robustas (23)",
-        "Ratio EU:N�S saud�vel (1:0)",
+        "Métricas robustas (23)",
+        "Ratio EU:NÓS saudável (1:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
         "Customer Obsession fraca (poucos sinais)",
-        "Sem m�tricas financeiras claras"
+        "Sem métricas financeiras claras"
       ],
       "dealbreakers": [],
       "suggestions": [
@@ -198,7 +198,7 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
+          "message": "Sem métricas financeiras claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
@@ -225,11 +225,11 @@
         "dealbreakers": [],
         "warnings": [
           "Customer Obsession fraca (poucos sinais)",
-          "Sem m�tricas financeiras claras"
+          "Sem métricas financeiras claras"
         ],
         "positives": [
-          "M�tricas robustas (23)",
-          "Ratio EU:N�S saud�vel (1:0)",
+          "Métricas robustas (23)",
+          "Ratio EU:NÓS saudável (1:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -282,7 +282,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 2,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 2
       }
     }
   }

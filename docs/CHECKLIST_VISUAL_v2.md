@@ -1,4 +1,4 @@
-# CHECKLIST_VISUAL_v2.md
+﻿# CHECKLIST_VISUAL_v2.md
 **Versao:** v2 - 2025-10-05 13:02
 
 ## Gates
@@ -22,7 +22,10 @@
   - Warnings: nenhum; um case cobre decisao dificil com oito stakeholders (sicredi-mobile-first-strategy).
 - `best_employer`: 3/3 cases Ready (scores 92,99,96 | metricas medias 22.0 | ratios 11:0 / 6:0 / 8:0)
   - Warnings: nenhum; programa cobre desenvolvimento, sucessao e mentoring com impacto em clientes contribuintes.
-- Testes (`npm test`) e build (`npm run build`) verdes em 05/10 11:59-12:04
+- `bias_for_action`: 0/4 cases KO (scores 78,56,0,0 | metricas medias 9.5 | bias signals 12/8/0/4)
+  - Dealbreakers: ratio EU:Nos 2:3 em `bradesco-next-rapid-launch`; ausencia de metricas + case >9 anos em `sicredi-ml-credit-analysis`; `huawei-logistics-optimization-pilot` e `calculated-risk-time-critical` ainda placeholders (sem metricas, sem conflito, sem mecanismos).
+  - Warnings: reforcar hooks, transicoes STAR(L) e customer obsession; incluir conflito claro e plano de reversibilidade em todos.
+- Testes (`npm test`) e build (`npm run build`) verdes em 05/10 13:19-13:24
 - Previews atualizados 05/10 13:20 (`bradesco-agile-community-creation`, `sicredi-360-feedback-system`, `sefaz-reverse-mentoring-program`) e 13:02 (`sicredi-mobile-first-strategy`, `huawei-4g-rollout-analysis`, `sicredi-api-pricing-model`)
 - `review-status.json` 05/10 13:20 registra todos os Ready de `best_employer` e 13:02 os de `are_right_a_lot`
 
@@ -52,3 +55,7 @@
 | 2025-10-05 12:44 | disagree_and_commit | bradesco-mvp-feature-prioritization | Revisado + refine preview | 100 | Feed em 82 dias, churn -2,4 p.p.; warnings limpos |
 | 2025-10-05 12:44 | disagree_and_commit | huawei-world-cup-timeline | Revisado + refine preview | 100 | Licencas em 7 dias, disponibilidade 99,94%; fans NPS 81 |
 | 2025-10-05 12:44 | disagree_and_commit | unimed-retention-strategy | Revisado + refine preview | 100 | Churn 3,6% -> 2,1%; telemedicina +52%; compromisso registrado |
+| 2025-10-05 16:19 | bias_for_action | bradesco-next-rapid-launch | Validate + refine preview | 78 | KO: ratio 2:3; adicionar metricas de cliente (NPS/SAT) e conflito, reforcar EU no A/R |
+| 2025-10-05 16:19 | bias_for_action | sicredi-ml-credit-analysis | Validate + refine preview | 56 | KO: sem metricas, case antigo; inserir dados 2021+, conflito com risco; criar mecanismos anti retrabalho |
+| 2025-10-05 16:19 | bias_for_action | huawei-logistics-optimization-pilot | Validate + refine preview | 0 | KO: narrativa placeholder; precisa reescrever com metricas, conflito e customer obsession reais |
+| 2025-10-05 16:19 | bias_for_action | calculated-risk-time-critical | Validate + refine preview | 0 | KO: falta STAR completo; incluir situacao real, decisao two-way door e plano de rollback |

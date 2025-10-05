@@ -175,51 +175,44 @@
     "lp_id": "frugality",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 40,
+      "score": 45,
       "status": "KO",
       "positives": [
-        "M�tricas robustas (15)",
-        "Ratio EU:N�S saud�vel (2:0)",
+        "Métricas robustas (15)",
+        "Ratio EU:NÓS saudável (2:0)",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem m�tricas de cliente expl�citas",
-        "Sem m�tricas operacionais expl�citas",
-        "Sem conflito/resist�ncia vis�vel",
-        "Transi��es STAR(L) pouco claras"
+        "Sem métricas de cliente explícitas",
+        "Sem conflito/resistência visível",
+        "Transições STAR(L) pouco claras"
       ],
       "dealbreakers": [
-        "Aus�ncia de Customer Obsession"
+        "Ausência de Customer Obsession"
       ],
       "suggestions": [
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
+          "message": "Ausência de Customer Obsession",
           "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
+          "message": "Sem métricas de cliente explícitas",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
+          "message": "Sem conflito/resistência visível",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
@@ -241,27 +234,26 @@
         "warnings": []
       },
       "heur": {
-        "score": 40,
+        "score": 45,
         "status": "KO",
         "dealbreakers": [
-          "Aus�ncia de Customer Obsession"
+          "Ausência de Customer Obsession"
         ],
         "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Sem m�tricas operacionais expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
-          "Transi��es STAR(L) pouco claras"
+          "Sem métricas de cliente explícitas",
+          "Sem conflito/resistência visível",
+          "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "M�tricas robustas (15)",
-          "Ratio EU:N�S saud�vel (2:0)",
+          "Métricas robustas (15)",
+          "Ratio EU:NÓS saudável (2:0)",
           "Mecanismos/repeatability destacados"
         ],
         "metricsCount": 15,
         "metricCategories": {
           "financial": true,
           "customer": false,
-          "operational": false
+          "operational": true
         },
         "customerSignals": 0,
         "conflictSignals": false,
@@ -306,7 +298,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 1,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 1
       }
     }
   }

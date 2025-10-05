@@ -178,14 +178,14 @@
       "score": 92,
       "status": "Ready",
       "positives": [
-        "M�tricas robustas (17)",
-        "Ratio EU:N�S saud�vel (1:0)",
+        "Métricas robustas (17)",
+        "Ratio EU:NÓS saudável (1:0)",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
         "Customer Obsession fraca (poucos sinais)",
-        "Sem m�tricas operacionais expl�citas",
-        "Sem conflito/resist�ncia vis�vel"
+        "Sem métricas operacionais explícitas",
+        "Sem conflito/resistência visível"
       ],
       "dealbreakers": [],
       "suggestions": [
@@ -198,13 +198,13 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
+          "message": "Sem métricas operacionais explícitas",
           "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
+          "message": "Sem conflito/resistência visível",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
@@ -231,12 +231,12 @@
         "dealbreakers": [],
         "warnings": [
           "Customer Obsession fraca (poucos sinais)",
-          "Sem m�tricas operacionais expl�citas",
-          "Sem conflito/resist�ncia vis�vel"
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível"
         ],
         "positives": [
-          "M�tricas robustas (17)",
-          "Ratio EU:N�S saud�vel (1:0)",
+          "Métricas robustas (17)",
+          "Ratio EU:NÓS saudável (1:0)",
           "Mecanismos/repeatability destacados"
         ],
         "metricsCount": 17,
@@ -288,7 +288,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 3,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 1
       }
     }
   }

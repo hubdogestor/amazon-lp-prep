@@ -181,45 +181,45 @@
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem m�tricas financeiras claras",
-        "Sem conflito/resist�ncia vis�vel",
+        "Sem métricas financeiras claras",
+        "Sem conflito/resistência visível",
         "Hook inicial pode ser mais contundente",
-        "Transi��es STAR(L) pouco claras"
+        "Transições STAR(L) pouco claras"
       ],
       "dealbreakers": [
-        "Aus�ncia de Customer Obsession",
-        "Menos de 8 m�tricas (5)",
-        "Ratio EU:N�S abaixo de 2:1 (1:2)"
+        "Ausência de Customer Obsession",
+        "Menos de 8 métricas (5)",
+        "Ratio EU:NÓS abaixo de 2:1 (1:2)"
       ],
       "suggestions": [
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
+          "message": "Ausência de Customer Obsession",
           "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
         },
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (5)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
+          "message": "Menos de 8 métricas (5)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
         },
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
+          "message": "Ratio EU:NÓS abaixo de 2:1 (1:2)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
+          "message": "Sem métricas financeiras claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
+          "message": "Sem conflito/resistência visível",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
@@ -231,7 +231,7 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
@@ -256,15 +256,15 @@
         "score": 0,
         "status": "KO",
         "dealbreakers": [
-          "Aus�ncia de Customer Obsession",
-          "Menos de 8 m�tricas (5)",
-          "Ratio EU:N�S abaixo de 2:1 (1:2)"
+          "Ausência de Customer Obsession",
+          "Menos de 8 métricas (5)",
+          "Ratio EU:NÓS abaixo de 2:1 (1:2)"
         ],
         "warnings": [
-          "Sem m�tricas financeiras claras",
-          "Sem conflito/resist�ncia vis�vel",
+          "Sem métricas financeiras claras",
+          "Sem conflito/resistência visível",
           "Hook inicial pode ser mais contundente",
-          "Transi��es STAR(L) pouco claras"
+          "Transições STAR(L) pouco claras"
         ],
         "positives": [
           "Mecanismos/repeatability destacados"
@@ -318,7 +318,8 @@
         },
         "hookSignals": false,
         "transitionSignals": 1,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 0
       }
     }
   }

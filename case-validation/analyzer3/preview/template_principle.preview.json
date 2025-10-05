@@ -574,63 +574,63 @@
       "score": 0,
       "status": "KO",
       "positives": [
-        "Ratio EU:N�S saud�vel (0:0)"
+        "Ratio EU:NÓS saudável (0:0)"
       ],
       "warnings": [
-        "Sem m�tricas financeiras claras",
-        "Sem m�tricas de cliente expl�citas",
-        "Sem m�tricas operacionais expl�citas",
-        "Sem conflito/resist�ncia vis�vel",
-        "Mecanismos/processos n�o evidenciados",
+        "Sem métricas financeiras claras",
+        "Sem métricas de cliente explícitas",
+        "Sem métricas operacionais explícitas",
+        "Sem conflito/resistência visível",
+        "Mecanismos/processos não evidenciados",
         "Hook inicial pode ser mais contundente",
-        "Transi��es STAR(L) pouco claras",
-        "Mic-drop/aprendizado forte n�o identificado"
+        "Transições STAR(L) pouco claras",
+        "Mic-drop/aprendizado forte não identificado"
       ],
       "dealbreakers": [
-        "Aus�ncia de Customer Obsession",
-        "Menos de 8 m�tricas (0)"
+        "Ausência de Customer Obsession",
+        "Menos de 8 métricas (0)"
       ],
       "suggestions": [
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
+          "message": "Ausência de Customer Obsession",
           "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
         },
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (0)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
+          "message": "Menos de 8 métricas (0)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
+          "message": "Sem métricas financeiras claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
+          "message": "Sem métricas de cliente explícitas",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
+          "message": "Sem métricas operacionais explícitas",
           "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
+          "message": "Sem conflito/resistência visível",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
+          "message": "Mecanismos/processos não evidenciados",
           "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
         },
         {
@@ -642,13 +642,13 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
+          "message": "Mic-drop/aprendizado forte não identificado",
           "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
         },
         {
@@ -693,21 +693,21 @@
         "score": 0,
         "status": "KO",
         "dealbreakers": [
-          "Aus�ncia de Customer Obsession",
-          "Menos de 8 m�tricas (0)"
+          "Ausência de Customer Obsession",
+          "Menos de 8 métricas (0)"
         ],
         "warnings": [
-          "Sem m�tricas financeiras claras",
-          "Sem m�tricas de cliente expl�citas",
-          "Sem m�tricas operacionais expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
-          "Mecanismos/processos n�o evidenciados",
+          "Sem métricas financeiras claras",
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
+          "Mecanismos/processos não evidenciados",
           "Hook inicial pode ser mais contundente",
-          "Transi��es STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte n�o identificado"
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
         ],
         "positives": [
-          "Ratio EU:N�S saud�vel (0:0)"
+          "Ratio EU:NÓS saudável (0:0)"
         ],
         "metricsCount": 0,
         "metricCategories": {
@@ -758,67 +758,68 @@
         },
         "hookSignals": false,
         "transitionSignals": 0,
-        "micDropSignals": false
+        "micDropSignals": false,
+        "biasSignals": 0
       }
     },
     "fups": [
       {
-        "q": "Qual foi o maior risco que voc� assumiu pessoalmente e como mitigou?",
-        "a": "Descrever o risco calculado, o plano de mitiga��o e como monitorou sinais de alerta.",
+        "q": "Qual foi o maior risco que você assumiu pessoalmente e como mitigou?",
+        "a": "Descrever o risco calculado, o plano de mitigação e como monitorou sinais de alerta.",
         "q_en": "What was the biggest personal risk you took and how did you mitigate it?",
         "a_en": "Explain the calculated risk, mitigation plan, and how you monitored leading indicators."
       },
       {
-        "q": "Como voc� garantiu que os mecanismos criados n�o dependessem apenas de voc�?",
-        "a": "Explicar como documentou, treinou o time e definiu cad�ncia para torn�-los escal�veis.",
+        "q": "Como você garantiu que os mecanismos criados não dependessem apenas de você?",
+        "a": "Explicar como documentou, treinou o time e definiu cadência para torná-los escaláveis.",
         "q_en": "How did you make sure the mechanisms created did not rely solely on you?",
         "a_en": "Share how you documented, trained the team, and set cadence to make them scalable."
       },
       {
-        "q": "Quais dados voc� usou para auditar se a solu��o continuava saud�vel ap�s o lan�amento?",
-        "a": "Detalhar indicadores leading/lagging, frequ�ncia de auditoria e a��es corretivas.",
+        "q": "Quais dados você usou para auditar se a solução continuava saudável após o lançamento?",
+        "a": "Detalhar indicadores leading/lagging, frequência de auditoria e ações corretivas.",
         "q_en": "Which data did you use to audit the solution after launch?",
         "a_en": "Detail leading/lagging indicators, audit cadence, and corrective actions."
       },
       {
-        "q": "Relate um momento em que recebeu pushback de um stakeholder cr�tico e como resolveu.",
+        "q": "Relate um momento em que recebeu pushback de um stakeholder crítico e como resolveu.",
         "a": "Descrever contexto, argumentos utilizados, trade-offs assumidos e compromisso final.",
         "q_en": "Describe a moment when a critical stakeholder pushed back and how you resolved it.",
         "a_en": "Cover context, arguments, trade-offs, and how you achieved commitment."
       },
       {
         "q": "Se tivesse 20% menos tempo, o que cortaria e o que preservaria?",
-        "a": "Indicar prioridades inegoci�veis, insumos que protegem qualidade e o que pode ser simplificado.",
+        "a": "Indicar prioridades inegociáveis, insumos que protegem qualidade e o que pode ser simplificado.",
         "q_en": "If you had 20% less time, what would you cut and what would you preserve?",
         "a_en": "Highlight non-negotiable priorities, quality safeguards, and what could be simplified."
       },
       {
-        "q": "Como voc� capturou a voz do cliente al�m dos dados quantitativos?",
-        "a": "Explicar entrevistas, shadowing, tickets, reviews e como esses sinais mudaram a solu��o.",
+        "q": "Como você capturou a voz do cliente além dos dados quantitativos?",
+        "a": "Explicar entrevistas, shadowing, tickets, reviews e como esses sinais mudaram a solução.",
         "q_en": "How did you capture the voice of the customer beyond quantitative data?",
         "a_en": "Explain interviews, shadowing, tickets, reviews, and how those signals changed the solution."
       },
       {
-        "q": "Quais m�tricas de cliente voc� definiu como leading indicators?",
-        "a": "Listar m�tricas de experi�ncia, thresholds de alerta e forma de resposta r�pida.",
+        "q": "Quais métricas de cliente você definiu como leading indicators?",
+        "a": "Listar métricas de experiência, thresholds de alerta e forma de resposta rápida.",
         "q_en": "Which customer metrics did you define as leading indicators?",
         "a_en": "List the experience metrics, alert thresholds, and how you triggered a fast response."
       },
       {
-        "q": "Como voc� calculou o impacto financeiro e validou com finan�as?",
-        "a": "Descrever modelo financeiro, premissas, valida��o com FP&A ou controller.",
+        "q": "Como você calculou o impacto financeiro e validou com finanças?",
+        "a": "Descrever modelo financeiro, premissas, validação com FP&A ou controller.",
         "q_en": "How did you calculate the financial impact and validate it with finance?",
         "a_en": "Describe the financial model, assumptions, and FP&A/controller validation."
       },
       {
-        "q": "Qual foi a m�trica mais desafiadora de coletar e como garantiu qualidade dos dados?",
-        "a": "Comentar sobre origem, limpeza, governan�a e mecanismo de auditoria.",
+        "q": "Qual foi a métrica mais desafiadora de coletar e como garantiu qualidade dos dados?",
+        "a": "Comentar sobre origem, limpeza, governança e mecanismo de auditoria.",
         "q_en": "Which metric was hardest to capture and how did you ensure data quality?",
         "a_en": "Talk about source, cleansing, governance, and the audit mechanism."
       },
       {
-        "q": "Que mecanismos voc� instituiu para impedir regress�o ap�s sua sa�da?",
-        "a": "Falar sobre cad�ncias, donos claros, dashboards autom�ticos e revis�es executivas.",
+        "q": "Que mecanismos você instituiu para impedir regressão após sua saída?",
+        "a": "Falar sobre cadências, donos claros, dashboards automáticos e revisões executivas.",
         "q_en": "What mechanisms did you install to avoid regression once you stepped away?",
         "a_en": "Cover cadences, clear owners, automated dashboards, and exec reviews."
       }

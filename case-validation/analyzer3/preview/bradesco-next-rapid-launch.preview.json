@@ -175,38 +175,39 @@
     "lp_id": "bias_for_action",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 68,
+      "score": 78,
       "status": "KO",
       "positives": [
-        "Customer Obsession forte (6 men��es relevantes)",
-        "M�tricas robustas (18)",
+        "Customer Obsession forte (6 menções relevantes)",
+        "Métricas robustas (18)",
         "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Mecanismos/repeatability destacados",
+        "Bias for Action robusto (12 sinais de velocidade/risco)"
       ],
       "warnings": [
-        "Sem m�tricas de cliente expl�citas",
-        "Transi��es STAR(L) pouco claras"
+        "Sem métricas de cliente explícitas",
+        "Transições STAR(L) pouco claras"
       ],
       "dealbreakers": [
-        "Ratio EU:N�S abaixo de 2:1 (2:3)"
+        "Ratio EU:NÓS abaixo de 2:1 (2:3)"
       ],
       "suggestions": [
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (2:3)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
+          "message": "Ratio EU:NÓS abaixo de 2:1 (2:3)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
+          "message": "Sem métricas de cliente explícitas",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
@@ -228,20 +229,21 @@
         "warnings": []
       },
       "heur": {
-        "score": 68,
+        "score": 78,
         "status": "KO",
         "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (2:3)"
+          "Ratio EU:NÓS abaixo de 2:1 (2:3)"
         ],
         "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Transi��es STAR(L) pouco claras"
+          "Sem métricas de cliente explícitas",
+          "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (6 men��es relevantes)",
-          "M�tricas robustas (18)",
+          "Customer Obsession forte (6 menções relevantes)",
+          "Métricas robustas (18)",
           "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+          "Mecanismos/repeatability destacados",
+          "Bias for Action robusto (12 sinais de velocidade/risco)"
         ],
         "metricsCount": 18,
         "metricCategories": {
@@ -292,7 +294,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 1,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 12
       }
     }
   }

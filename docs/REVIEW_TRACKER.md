@@ -1,5 +1,5 @@
-# REVIEW_TRACKER.md
-**Atualizado em:** 2025-10-05 13:02
+﻿# REVIEW_TRACKER.md
+**Atualizado em:** 2025-10-05 16:19
 
 | LP | Case ID | Titulo (PT) | Status | Score | Metricas | EU:NOS | Reviewer | Observacoes |
 |----|---------|-------------|--------|-------|----------|--------|----------|-------------|
@@ -33,3 +33,7 @@
 | invent_and_simplify | unimed-open-innovation | Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68% | Ready | 100 | 24 | 13:0 | Motor 3.0 | Warning: evidenciar metrica operacional na revisao |
 | invent_and_simplify | sefarz-pix-reconciliation-automation | Automacao de conciliacao PIX municipal inventada em 45 dias eliminou risco fiscal | Ready | 100 | 25 | 12:0 | Motor 3.0 | Warning: polir transicoes STAR(L) |
 | invent_and_simplify | payment-simplification-high-impact | Inventei motor de simplificacao de liquidez que reduziu D+3 para D+0 em marketplaces | Ready | 100 | 27 | 12:1 | Motor 3.0 | Warnings: metricas operacionais explicitas; transicoes STAR(L) |
+| bias_for_action | bradesco-next-rapid-launch | Decisao rapida para lancar o banco Next em 12 meses assumindo riscos calculados | KO | 78 | 18 | 2:3 | Motor 3.0 | Ajustar ratio EU:Nos; adicionar metricas de cliente e conflito explicito; reforcar EU no A/R |
+| bias_for_action | sicredi-ml-credit-analysis | Introduzi ML no credito mas preciso provar velocidade e governanca com dados recentes | KO | 56 | 0 | 0:0 | Motor 3.0 | Reescrever com metricas 2021+, conflito e mecanismos anti retrabalho; customer obsession fraca |
+| bias_for_action | huawei-logistics-optimization-pilot | Estrutura placeholder de logistica; substitui com case real de decisao rapida | KO | 0 | 0 | 0:0 | Motor 3.0 | Placeholder: construir narrativa completa com situacao real, metricas, conflito e mecanismos |
+| bias_for_action | calculated-risk-time-critical | Case generico sobre risco calculado; falta STAR e plano de rollback | KO | 0 | 0 | 0:0 | Motor 3.0 | Reescrever: definir situacao concreta, decisao two-way door, metricas e rollback detalhado |

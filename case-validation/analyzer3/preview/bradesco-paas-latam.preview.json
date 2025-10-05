@@ -178,17 +178,17 @@
       "score": 66,
       "status": "Needs-Rewrite",
       "positives": [
-        "M�tricas robustas (13)",
-        "Ratio EU:N�S saud�vel (1:0)",
+        "Métricas robustas (13)",
+        "Ratio EU:NÓS saudável (1:0)",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
         "Customer Obsession fraca (poucos sinais)",
-        "Sem m�tricas de cliente expl�citas",
-        "Sem m�tricas operacionais expl�citas",
-        "Sem conflito/resist�ncia vis�vel",
+        "Sem métricas de cliente explícitas",
+        "Sem métricas operacionais explícitas",
+        "Sem conflito/resistência visível",
         "Hook inicial pode ser mais contundente",
-        "Transi��es STAR(L) pouco claras"
+        "Transições STAR(L) pouco claras"
       ],
       "dealbreakers": [],
       "suggestions": [
@@ -201,19 +201,19 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
+          "message": "Sem métricas de cliente explícitas",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
+          "message": "Sem métricas operacionais explícitas",
           "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
+          "message": "Sem conflito/resistência visível",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
@@ -225,7 +225,7 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
@@ -252,15 +252,15 @@
         "dealbreakers": [],
         "warnings": [
           "Customer Obsession fraca (poucos sinais)",
-          "Sem m�tricas de cliente expl�citas",
-          "Sem m�tricas operacionais expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
           "Hook inicial pode ser mais contundente",
-          "Transi��es STAR(L) pouco claras"
+          "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "M�tricas robustas (13)",
-          "Ratio EU:N�S saud�vel (1:0)",
+          "Métricas robustas (13)",
+          "Ratio EU:NÓS saudável (1:0)",
           "Mecanismos/repeatability destacados"
         ],
         "metricsCount": 13,
@@ -312,7 +312,8 @@
         },
         "hookSignals": false,
         "transitionSignals": 1,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 0
       }
     }
   }

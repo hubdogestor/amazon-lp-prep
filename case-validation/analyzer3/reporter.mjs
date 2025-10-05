@@ -35,8 +35,10 @@ function buildCsv(report) {
     'lint_warnings',
     'metrics_count',
     'eu_nos_ratio',
-    'recency_months'
+    'recency_months',
+    'bias_signals'
   ];
+
 
   const lines = [header.join(',')];
 
@@ -55,7 +57,8 @@ function buildCsv(report) {
       escapeCsv((result.lint?.warnings || []).join('|')),
       result.heur?.metricsCount ?? '',
       result.heur?.ratio ? formatRatio(result.heur.ratio.counts.eu, result.heur.ratio.counts.nos) : '',
-      result.heur?.recency?.monthsAgo ?? ''
+      result.heur?.recency?.monthsAgo ?? '',
+      result.heur?.biasSignals ?? ''
     ].join(','));
   }
 
@@ -86,6 +89,7 @@ function buildSummary(report) {
   const avgScore = average(report.results.map(r => r.heur?.score).filter(isNumber));
   const avgMetrics = average(report.results.map(r => r.heur?.metricsCount).filter(isNumber));
   const avgRatio = average(report.results.map(r => r.heur?.ratio?.ratio).filter(isNumber));
+  const avgBiasSignals = average(report.results.map(r => r.heur?.biasSignals).filter(isNumber));
 
   const totalDealbreakers = report.results.reduce((acc, r) => acc + (r.heur?.dealbreakers?.length || 0), 0);
   const totalWarnings = report.results.reduce((acc, r) => acc + (r.heur?.warnings?.length || 0), 0);
@@ -95,9 +99,10 @@ Gerado em: ${report.run_at}
 
 - Casos avaliados: ${totals}
 - Ready: ${ready} | Needs-Polish: ${needsPolish} | Needs-Rewrite: ${rewrite} | KO: ${ko} | Lint blockers: ${report.results.filter(r => r.status === 'Lint-Blocker').length}
-- Score m�dio: ${isNumber(avgScore) ? avgScore.toFixed(1) : 'N/D'}
-- M�tricas por case (m�dia): ${isNumber(avgMetrics) ? avgMetrics.toFixed(1) : 'N/D'}
-- Ratio EU:N�S m�dio: ${isNumber(avgRatio) ? avgRatio.toFixed(2) : 'N/D'}
+- Score mÃ©dio: ${isNumber(avgScore) ? avgScore.toFixed(1) : 'N/D'}
+- MÃ©tricas por case (mÃ©dia): ${isNumber(avgMetrics) ? avgMetrics.toFixed(1) : 'N/D'}
+- Ratio EU:NÃ“S mÃ©dio: ${isNumber(avgRatio) ? avgRatio.toFixed(2) : 'N/D'}
+- Bias signals (media): ${isNumber(avgBiasSignals) ? avgBiasSignals.toFixed(1) : 'N/D'}
 - Dealbreakers totais: ${totalDealbreakers}
 - Warnings totais: ${totalWarnings}
 `; 
@@ -112,5 +117,6 @@ function average(values) {
 function isNumber(value) {
   return typeof value === 'number' && Number.isFinite(value);
 }
+
 
 

@@ -10,14 +10,14 @@
     "pt": {
       "s": "Situacao: Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicial mostrava que 63% das chamadas vinham de apenas quatro parceiros gigantes e que a nova tabela reduziria receitas em 11%, mas o diretor comercial estava convencido de que o volume compensaria. O time de vendas ja tinha comunicado a mudanca a 23 parceiros e o CFO queria ver numeros em menos de uma semana.",
       "t": "Task: Tarefa: Eu precisava demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. Metas: (1) construir um modelo de elasticidade..., (2) apresentar um plano alternativo..., (3) negociar com comercial e parceiros um piloto que preservasse receita e experiencia. Apos esse alinhamento comecei a execucao pragmatica. construir um modelo de elasticidade e custo em cinco dias, (2) apresentar um plano alternativo com unit economics positivos, (3) negociar com comercial e parceiros um piloto que preservasse receita e experiencia.",
-      "a": "Action: Acao: Eu extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Levei os graficos ao diretor comercial e ao CFO dizendo: \"os fatos nao sustentam o preco fixo; estou propondo uma tabela escalonada com desconto progressivo\". Criei o mecanismo \"Price Ladder\" e defini tres camadas: ate 5M de chamadas, 5-25M e acima de 25M, com precos de R$ 3,10, R$ 2,80 e R$ 2,40. Inclui fee minimo mensal para cobrir custo fixo. Consegui buy-in ao mostrar que o CAC payback cairia de 9 para 5 meses e que o NPS projetado subia 11 pontos. Em paralelo, sentei com vendas para criar playbook de comunicacao transparente e com tecnologia para ajustar billing em 21 dias. Abri UMA linha direta com seis parceiros chave, apresentei os dados e obtive carta de intencao para o piloto em 30 dias.",
+      "a": "Action: Acao: Primeiro, eu extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguida, levei os graficos ao diretor comercial e ao CFO dizendo: \"os fatos nao sustentam o preco fixo; estou propondo uma tabela escalonada com desconto progressivo\". Criei o mecanismo \"Price Ladder\" e defini tres camadas: ate 5M de chamadas, 5-25M e acima de 25M, com precos de R$ 3,10, R$ 2,80 e R$ 2,40. Inclui fee minimo mensal para cobrir custo fixo. Consegui buy-in ao mostrar que o CAC payback cairia de 9 para 5 meses e que o NPS projetado subia 11 pontos. Por fim, sentei com vendas para criar playbook de comunicacao transparente e com tecnologia para ajustar billing em 21 dias. Abri UMA linha direta com seis parceiros chave, apresentei os dados e obtive carta de intencao para o piloto em 30 dias.",
       "r": "Result: Resultado: Como resultado direto o piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CFO aprovou rollout completo e o diretor comercial me chamou para atualizar trimestralmente o pricing com o mesmo modelo.",
       "l": "Learning: Licao: Por fim aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. Quando eu mostro clusters, elasticidade e payback lado a lado, convenco comercial e finanas a abandonar uma ideia popular, sem perder a relacao com parceiros."
     },
     "en": {
       "s": "Situation: I was the platform PM at Sicredi when the committee approved a flat price of BRL 2.90 per API call for fintech partners. My early analysis showed that 63% of calls came from four large partners and the new table would cut revenue by 11%, but the sales director believed volume would offset it. Sales had already announced the change to 23 partners and the CFO wanted numbers within a week.",
       "t": "Task: Tarefa: I had to mathematically prove whether the proposal held up and, if not, design a robust model that preserved committee and partner trust. Goals: (1) build an elasticity and cost model..., (2) present an alternative plan..., (3) negotiate a pilot with sales and partners that protected revenue and experience. After that alignment I moved into pragmatic execution. build an elasticity and cost model in five days, (2) present an alternative plan with positive unit economics, (3) negotiate a pilot with sales and partners that protected revenue and experience.",
-      "a": "Action: Acao: First I extracted 18 months of usage logs, ran K-means clustering to segment partners by volume, and used logistic regression to estimate price-driven churn. The model showed the premium cluster would drop volume 22% and destroy BRL 14M annually. I presented the charts to the sales director and CFO stating, \"facts do not support the flat price; I propose a tiered schedule with progressive discounts.\" I created the \"Price Ladder\" mechanism and defined three tiersup to 5M calls, 5-25M, above 25Mpriced at BRL 3.10, 2.80, and 2.40, plus a minimum monthly fee to cover fixed cost. I earned buy-in by showing CAC payback falling from nine to five months and projected NPS rising eleven points. In parallel I worked with sales on a transparent communication playbook and with technology to adjust billing in 21 days. I opened a hotline with six key partners, presented the data, and received letters of intent for a 30-day pilot.",
+      "a": "Action: Acao: First First, I extracted 18 months of usage logs, ran K-means clustering to segment partners by volume, and used logistic regression to estimate price-driven churn. The model showed the premium cluster would drop volume 22% and destroy BRL 14M annually. Next, I presented the charts to the sales director and CFO stating, \"facts do not support the flat price; I propose a tiered schedule with progressive discounts.\" I created the \"Price Ladder\" mechanism and defined three tiersup to 5M calls, 5-25M, above 25Mpriced at BRL 3.10, 2.80, and 2.40, plus a minimum monthly fee to cover fixed cost. I earned buy-in by showing CAC payback falling from nine to five months and projected NPS rising eleven points. Finally, I worked with sales on a transparent communication playbook and with technology to adjust billing in 21 days. I opened a hotline with six key partners, presented the data, and received letters of intent for a 30-day pilot.",
       "r": "Result: Resultado: As a direct result the pilot with six partners representing 58% of volume ran between August and September. Revenue rose 8.7%, churn stayed at 0.6% (vs. 2.1% under the old model), and platform NPS climbed from 63 to 74. Finally the CFO approved full rollout and the sales director asked me to refresh pricing quarterly using the same model.",
       "l": "Learning: Licao: Lastly, I learned that being right often means translating data science into plain financial language. When I show clusters, elasticity, and payback side by side, I convince sales and finance to drop a popular idea without damaging partner relationships."
     },
@@ -98,14 +98,14 @@
     "pt": {
       "s": "Situacao: Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicial mostrava que 63% das chamadas vinham de apenas quatro parceiros gigantes e que a nova tabela reduziria receitas em 11%, mas o diretor comercial estava convencido de que o volume compensaria. O time de vendas ja tinha comunicado a mudanca a 23 parceiros e o CFO queria ver numeros em menos de uma semana.",
       "t": "Task: Tarefa: Eu precisava demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. Metas: (1) construir um modelo de elasticidade..., (2) apresentar um plano alternativo..., (3) negociar com comercial e parceiros um piloto que preservasse receita e experiencia. Apos esse alinhamento comecei a execucao pragmatica. construir um modelo de elasticidade e custo em cinco dias, (2) apresentar um plano alternativo com unit economics positivos, (3) negociar com comercial e parceiros um piloto que preservasse receita e experiencia.",
-      "a": "Action: Acao: Eu extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Levei os graficos ao diretor comercial e ao CFO dizendo: \"os fatos nao sustentam o preco fixo; estou propondo uma tabela escalonada com desconto progressivo\". Criei o mecanismo \"Price Ladder\" e defini tres camadas: ate 5M de chamadas, 5-25M e acima de 25M, com precos de R$ 3,10, R$ 2,80 e R$ 2,40. Inclui fee minimo mensal para cobrir custo fixo. Consegui buy-in ao mostrar que o CAC payback cairia de 9 para 5 meses e que o NPS projetado subia 11 pontos. Em paralelo, sentei com vendas para criar playbook de comunicacao transparente e com tecnologia para ajustar billing em 21 dias. Abri UMA linha direta com seis parceiros chave, apresentei os dados e obtive carta de intencao para o piloto em 30 dias.",
+      "a": "Action: Acao: Primeiro, eu extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguida, levei os graficos ao diretor comercial e ao CFO dizendo: \"os fatos nao sustentam o preco fixo; estou propondo uma tabela escalonada com desconto progressivo\". Criei o mecanismo \"Price Ladder\" e defini tres camadas: ate 5M de chamadas, 5-25M e acima de 25M, com precos de R$ 3,10, R$ 2,80 e R$ 2,40. Inclui fee minimo mensal para cobrir custo fixo. Consegui buy-in ao mostrar que o CAC payback cairia de 9 para 5 meses e que o NPS projetado subia 11 pontos. Por fim, sentei com vendas para criar playbook de comunicacao transparente e com tecnologia para ajustar billing em 21 dias. Abri UMA linha direta com seis parceiros chave, apresentei os dados e obtive carta de intencao para o piloto em 30 dias.",
       "r": "Result: Resultado: Como resultado direto o piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CFO aprovou rollout completo e o diretor comercial me chamou para atualizar trimestralmente o pricing com o mesmo modelo.",
       "l": "Learning: Licao: Por fim aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. Quando eu mostro clusters, elasticidade e payback lado a lado, convenco comercial e finanas a abandonar uma ideia popular, sem perder a relacao com parceiros."
     },
     "en": {
       "s": "Situation: I was the platform PM at Sicredi when the committee approved a flat price of BRL 2.90 per API call for fintech partners. My early analysis showed that 63% of calls came from four large partners and the new table would cut revenue by 11%, but the sales director believed volume would offset it. Sales had already announced the change to 23 partners and the CFO wanted numbers within a week.",
       "t": "Task: Tarefa: I had to mathematically prove whether the proposal held up and, if not, design a robust model that preserved committee and partner trust. Goals: (1) build an elasticity and cost model..., (2) present an alternative plan..., (3) negotiate a pilot with sales and partners that protected revenue and experience. After that alignment I moved into pragmatic execution. build an elasticity and cost model in five days, (2) present an alternative plan with positive unit economics, (3) negotiate a pilot with sales and partners that protected revenue and experience.",
-      "a": "Action: Acao: First I extracted 18 months of usage logs, ran K-means clustering to segment partners by volume, and used logistic regression to estimate price-driven churn. The model showed the premium cluster would drop volume 22% and destroy BRL 14M annually. I presented the charts to the sales director and CFO stating, \"facts do not support the flat price; I propose a tiered schedule with progressive discounts.\" I created the \"Price Ladder\" mechanism and defined three tiersup to 5M calls, 5-25M, above 25Mpriced at BRL 3.10, 2.80, and 2.40, plus a minimum monthly fee to cover fixed cost. I earned buy-in by showing CAC payback falling from nine to five months and projected NPS rising eleven points. In parallel I worked with sales on a transparent communication playbook and with technology to adjust billing in 21 days. I opened a hotline with six key partners, presented the data, and received letters of intent for a 30-day pilot.",
+      "a": "Action: Acao: First First, I extracted 18 months of usage logs, ran K-means clustering to segment partners by volume, and used logistic regression to estimate price-driven churn. The model showed the premium cluster would drop volume 22% and destroy BRL 14M annually. Next, I presented the charts to the sales director and CFO stating, \"facts do not support the flat price; I propose a tiered schedule with progressive discounts.\" I created the \"Price Ladder\" mechanism and defined three tiersup to 5M calls, 5-25M, above 25Mpriced at BRL 3.10, 2.80, and 2.40, plus a minimum monthly fee to cover fixed cost. I earned buy-in by showing CAC payback falling from nine to five months and projected NPS rising eleven points. Finally, I worked with sales on a transparent communication playbook and with technology to adjust billing in 21 days. I opened a hotline with six key partners, presented the data, and received letters of intent for a 30-day pilot.",
       "r": "Result: Resultado: As a direct result the pilot with six partners representing 58% of volume ran between August and September. Revenue rose 8.7%, churn stayed at 0.6% (vs. 2.1% under the old model), and platform NPS climbed from 63 to 74. Finally the CFO approved full rollout and the sales director asked me to refresh pricing quarterly using the same model.",
       "l": "Learning: Licao: Lastly, I learned that being right often means translating data science into plain financial language. When I show clusters, elasticity, and payback side by side, I convince sales and finance to drop a popular idea without damaging partner relationships."
     },
@@ -178,23 +178,15 @@
       "score": 100,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (30 men��es relevantes)",
-        "M�tricas robustas (24)",
-        "Ratio EU:N�S saud�vel (4:0)",
+        "Customer Obsession forte (30 menções relevantes)",
+        "Métricas robustas (24)",
+        "Ratio EU:NÓS saudável (4:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
-      "warnings": [
-        "Transi��es STAR(L) pouco claras"
-      ],
+      "warnings": [],
       "dealbreakers": [],
       "suggestions": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
         {
           "severity": "info",
           "topic": "ownership",
@@ -217,13 +209,11 @@
         "score": 100,
         "status": "Ready",
         "dealbreakers": [],
-        "warnings": [
-          "Transi��es STAR(L) pouco claras"
-        ],
+        "warnings": [],
         "positives": [
-          "Customer Obsession forte (30 men��es relevantes)",
-          "M�tricas robustas (24)",
-          "Ratio EU:N�S saud�vel (4:0)",
+          "Customer Obsession forte (30 menções relevantes)",
+          "Métricas robustas (24)",
+          "Ratio EU:NÓS saudável (4:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -259,9 +249,9 @@
             "deltaPct": 0.0875796178343949
           },
           "a": {
-            "ptLen": 989,
-            "enLen": 942,
-            "deltaPct": 0.047522750252780584
+            "ptLen": 1007,
+            "enLen": 952,
+            "deltaPct": 0.05461767626613704
           },
           "r": {
             "ptLen": 392,
@@ -275,8 +265,9 @@
           }
         },
         "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true
+        "transitionSignals": 3,
+        "micDropSignals": true,
+        "biasSignals": 1
       }
     }
   }

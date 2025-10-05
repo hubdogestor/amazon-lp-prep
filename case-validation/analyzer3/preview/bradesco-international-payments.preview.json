@@ -178,14 +178,14 @@
       "score": 100,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (8 men��es relevantes)",
-        "M�tricas robustas (37)",
-        "Ratio EU:N�S saud�vel (13:0)",
+        "Customer Obsession forte (8 menções relevantes)",
+        "Métricas robustas (37)",
+        "Ratio EU:NÓS saudável (13:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Transi��es STAR(L) pouco claras",
+        "Transições STAR(L) pouco claras",
         "Case antigo (>7 anos)"
       ],
       "dealbreakers": [],
@@ -193,7 +193,7 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
@@ -225,13 +225,13 @@
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Transi��es STAR(L) pouco claras",
+          "Transições STAR(L) pouco claras",
           "Case antigo (>7 anos)"
         ],
         "positives": [
-          "Customer Obsession forte (8 men��es relevantes)",
-          "M�tricas robustas (37)",
-          "Ratio EU:N�S saud�vel (13:0)",
+          "Customer Obsession forte (8 menções relevantes)",
+          "Métricas robustas (37)",
+          "Ratio EU:NÓS saudável (13:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -284,7 +284,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 0,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 1
       }
     }
   }

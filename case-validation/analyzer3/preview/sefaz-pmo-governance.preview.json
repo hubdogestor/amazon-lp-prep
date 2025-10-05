@@ -175,38 +175,31 @@
     "lp_id": "insist_on_highest_standards",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 61,
+      "score": 66,
       "status": "KO",
       "positives": [
-        "M�tricas robustas (21)",
+        "Métricas robustas (21)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Customer Obsession fraca (poucos sinais)",
-        "Sem m�tricas de cliente expl�citas"
+        "Customer Obsession fraca (poucos sinais)"
       ],
       "dealbreakers": [
-        "Ratio EU:N�S abaixo de 2:1 (2:1)"
+        "Ratio EU:NÓS abaixo de 2:1 (2:1)"
       ],
       "suggestions": [
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (2:1)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
+          "message": "Ratio EU:NÓS abaixo de 2:1 (2:1)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
         },
         {
           "severity": "warning",
           "topic": "warning",
           "message": "Customer Obsession fraca (poucos sinais)",
           "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "dealbreaker",
@@ -227,24 +220,23 @@
         "warnings": []
       },
       "heur": {
-        "score": 61,
+        "score": 66,
         "status": "KO",
         "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (2:1)"
+          "Ratio EU:NÓS abaixo de 2:1 (2:1)"
         ],
         "warnings": [
-          "Customer Obsession fraca (poucos sinais)",
-          "Sem m�tricas de cliente expl�citas"
+          "Customer Obsession fraca (poucos sinais)"
         ],
         "positives": [
-          "M�tricas robustas (21)",
+          "Métricas robustas (21)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
         "metricsCount": 21,
         "metricCategories": {
           "financial": true,
-          "customer": false,
+          "customer": true,
           "operational": true
         },
         "customerSignals": 2,
@@ -290,7 +282,8 @@
         },
         "hookSignals": true,
         "transitionSignals": 2,
-        "micDropSignals": true
+        "micDropSignals": true,
+        "biasSignals": 0
       }
     }
   }

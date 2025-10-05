@@ -2,27 +2,34 @@ import { STARL_KEYS } from './utils/schema.mjs';
 
 const CUSTOMER_TERMS = [
   'cliente', 'clientes', 'customer', 'customers', 'member', 'members', 'paciente', 'pacientes',
-  'consumidor', 'consumidores', 'seller', 'sellers', 'usu·rio', 'usu·rios', 'user', 'users',
+  'consumidor', 'consumidores', 'seller', 'sellers', 'usu√°rio', 'usu√°rios', 'user', 'users',
   'merchant', 'merchants', 'partner', 'parceiro', 'parceiros'
 ];
 
 const CONFLICT_TERMS = [
-  'conflito', 'discord', 'resist', 'objeÁ„o', 'pushback', 'press„o', 'escalon', 'alinhamento difÌcil',
-  'desacordo', 'debate', 'backbone', 'disagree', 'tenho convicÁ„o', 'bypass', 'challenge', 'tens„o'
+  'conflito', 'discord', 'resist', 'obje√ß√£o', 'pushback', 'press√£o', 'escalon', 'alinhamento dif√≠cil',
+  'desacordo', 'debate', 'backbone', 'disagree', 'tenho convic√ß√£o', 'bypass', 'challenge', 'tens√£o'
 ];
 
 const MECHANISM_TERMS = [
-  'processo', 'mecanismo', 'framework', 'ritual', 'cadÍncia', 'dashboard', 'automati', 'automatiz',
-  'sistema', 'pipeline', 'governanÁa', 'governanca', 'okr', 'kpi', 'war room', 'runbook', 'playbook'
+  'processo', 'mecanismo', 'framework', 'ritual', 'cad√™ncia', 'dashboard', 'automati', 'automatiz',
+  'sistema', 'pipeline', 'governan√ßa', 'governanca', 'okr', 'kpi', 'war room', 'runbook', 'playbook'
 ];
 
-const HOOK_TERMS = ['crise', 'colapso', 'perda', 'queda', 'multas', 'risco', 'ameaÁa', 'ameaÁado', 'urgente'];
+const BIAS_SPEED_TERMS = [
+  'rapido', 'rapidamente', 'speed', 'veloc', 'urgente', 'prazo curto', 'prazo agressivo',
+  'two-way door', 'two way door', 'risco calculado', 'decisao rapida', 'go-no go', 'cutover',
+  'rollout relampago', 'piloto em', 'mvp em', 'sprint extra', 'acao imediata', 'mitiguei o risco',
+  'rollback', 'fallback', 'time to market', 'janela de', 'em horas', 'em 24h', 'em 48h'
+];
+
+const HOOK_TERMS = ['crise', 'colapso', 'perda', 'queda', 'multas', 'risco', 'amea√ßa', 'amea√ßado', 'urgente'];
 const TRANSITION_TERMS = ['primeiro', 'depois', 'em seguida', 'com isso', 'portanto', 'assim', 'logo', 'por fim'];
-const MICDROP_TERMS = ['aprendi', 'lesson', 'aprendizado', 'desde ent„o', 'desde entao', 'isso mudou', 'passei a'];
+const MICDROP_TERMS = ['aprendi', 'lesson', 'aprendizado', 'desde ent√£o', 'desde entao', 'isso mudou', 'passei a'];
 
 const FINANCIAL_REGEX = /(receita|revenue|lucro|profit|ebitda|roi|margem|cash|custo|saving|economia|capex|opex|payback)/i;
-const CUSTOMER_METRIC_REGEX = /(nps|csat|churn|reten[cÁ][a„]o|satisfa[cÁ][a„]o|feedback|exp[Èe]riencia|complaint|sla de atendimento|net promoter)/i;
-const OPERATIONAL_REGEX = /(sla|lead time|tempo de ciclo|throughput|bug|defeito|erro|lat[Íe]ncia|tempo de resposta|tempo mÈdio|mttr|mtbf)/i;
+const CUSTOMER_METRIC_REGEX = /(nps|csat|churn|reten[c√ß][a√£]o|satisfa[c√ß][a√£]o|feedback|exp[√©e]riencia|complaint|sla de atendimento|net promoter)/i;
+const OPERATIONAL_REGEX = /(sla|lead time|tempo de ciclo|throughput|bug|defeito|erro|lat[√™e]ncia|tempo de resposta|tempo m√©dio|mttr|mtbf)/i;
 
 function normalize(value) {
   return (value || '')
@@ -47,7 +54,7 @@ function countOccurrences(text, terms) {
 }
 
 function detectMetrics(text) {
-  const metricPattern = /(?:R\$|US\$|\$)\s?\d[\d.,]*|\d[\d.,]*\s?(?:%|pontos|pts|pp|dias?|semanas?|mes(?:es)?|anos?|clientes|usu[a·]rios|tickets|casos|equipes|lojas|squads|k|milhoes|milhıes|bilhoes|bilhıes)/gi;
+  const metricPattern = /(?:R\$|US\$|\$)\s?\d[\d.,]*|\d[\d.,]*\s?(?:%|pontos|pts|pp|dias?|semanas?|mes(?:es)?|anos?|clientes|usu[a√°]rios|tickets|casos|equipes|lojas|squads|k|milhoes|milh√µes|bilhoes|bilh√µes)/gi;
   const matches = text.match(metricPattern) || [];
   if (process.env.DEBUG_METRICS === '1') {
     console.log('metrics debug', matches.length);
@@ -62,7 +69,7 @@ function detectMetrics(text) {
 
 function computeEuNosRatio(text) {
   const eu = (text.match(/\beu\b/g) || []).length + (text.match(/\bi\b/g) || []).length;
-  const nos = (text.match(/\bn[oÛ]s\b/g) || []).length + (text.match(/\bwe\b/g) || []).length;
+  const nos = (text.match(/\bn[o√≥]s\b/g) || []).length + (text.match(/\bwe\b/g) || []).length;
   const total = eu + nos;
   if (total === 0) return { ratio: 1, counts: { eu, nos } };
   return { ratio: eu / total, counts: { eu, nos } };
@@ -145,42 +152,44 @@ export function analyzeHeuristics(rawCase = {}) {
   const ratioInfo = computeEuNosRatio(normalize(textPT));
   const recency = computeRecency(rawCase.period);
   const parity = buildParitySnapshot(rawCase);
+  const lpId = rawCase.lp_id || "";
+  const biasSignals = countOccurrences(unifiedText, BIAS_SPEED_TERMS);
 
   const dealbreakers = [];
   const warnings = [];
   const positives = [];
 
-  if (customerSignals === 0) dealbreakers.push('AusÍncia de Customer Obsession');
+  if (customerSignals === 0) dealbreakers.push('Aus√™ncia de Customer Obsession');
   else if (customerSignals < 3) warnings.push('Customer Obsession fraca (poucos sinais)');
-  else positives.push(`Customer Obsession forte (${customerSignals} menÁıes relevantes)`);
+  else positives.push(`Customer Obsession forte (${customerSignals} men√ß√µes relevantes)`);
 
   if (metrics.count < 8) {
-    dealbreakers.push(`Menos de 8 mÈtricas (${metrics.count})`);
+    dealbreakers.push(`Menos de 8 m√©tricas (${metrics.count})`);
   } else {
-    positives.push(`MÈtricas robustas (${metrics.count})`);
+    positives.push(`M√©tricas robustas (${metrics.count})`);
   }
 
-  if (!metrics.categories.financial) warnings.push('Sem mÈtricas financeiras claras');
-  if (!metrics.categories.customer) warnings.push('Sem mÈtricas de cliente explÌcitas');
-  if (!metrics.categories.operational) warnings.push('Sem mÈtricas operacionais explÌcitas');
+  if (!metrics.categories.financial) warnings.push('Sem m√©tricas financeiras claras');
+  if (!metrics.categories.customer) warnings.push('Sem m√©tricas de cliente expl√≠citas');
+  if (!metrics.categories.operational) warnings.push('Sem m√©tricas operacionais expl√≠citas');
 
   if (ratioInfo.ratio < 0.67) {
-    dealbreakers.push(`Ratio EU:N”S abaixo de 2:1 (${formatRatio(ratioInfo.counts.eu, ratioInfo.counts.nos)})`);
+    dealbreakers.push(`Ratio EU:N√ìS abaixo de 2:1 (${formatRatio(ratioInfo.counts.eu, ratioInfo.counts.nos)})`);
   } else if (ratioInfo.ratio < 0.75) {
-    warnings.push(`Ratio EU:N”S abaixo da meta 3:1 (${formatRatio(ratioInfo.counts.eu, ratioInfo.counts.nos)})`);
+    warnings.push(`Ratio EU:N√ìS abaixo da meta 3:1 (${formatRatio(ratioInfo.counts.eu, ratioInfo.counts.nos)})`);
   } else {
-    positives.push(`Ratio EU:N”S saud·vel (${formatRatio(ratioInfo.counts.eu, ratioInfo.counts.nos)})`);
+    positives.push(`Ratio EU:N√ìS saud√°vel (${formatRatio(ratioInfo.counts.eu, ratioInfo.counts.nos)})`);
   }
 
-  if (!conflictSignals) warnings.push('Sem conflito/resistÍncia visÌvel');
+  if (!conflictSignals) warnings.push('Sem conflito/resist√™ncia vis√≠vel');
   else positives.push('Conflito/endurecimento presente');
 
-  if (mechanismSignals === 0) warnings.push('Mecanismos/processos n„o evidenciados');
+  if (mechanismSignals === 0) warnings.push('Mecanismos/processos n√£o evidenciados');
   else positives.push('Mecanismos/repeatability destacados');
 
   if (!hookSignals) warnings.push('Hook inicial pode ser mais contundente');
-  if (transitionSignals < 2) warnings.push('TransiÁıes STAR(L) pouco claras');
-  if (!micDropSignals) warnings.push('Mic-drop/aprendizado forte n„o identificado');
+  if (transitionSignals < 2) warnings.push('Transi√ß√µes STAR(L) pouco claras');
+  if (!micDropSignals) warnings.push('Mic-drop/aprendizado forte n√£o identificado');
 
   if (recency.status === 'stale') dealbreakers.push('Case muito antigo (>9 anos)');
   else if (recency.status === 'aging') warnings.push('Case antigo (>7 anos)');
@@ -191,6 +200,10 @@ export function analyzeHeuristics(rawCase = {}) {
     }
   }
 
+  if (lpId === 'bias_for_action') {
+    if (biasSignals < 3) warnings.push('Bias for Action com poucos sinais de velocidade/risco calculado');
+    else positives.push(`Bias for Action robusto (${biasSignals} sinais de velocidade/risco)`);
+  }
   let score = 50;
   score += Math.min(metrics.count, 12) * 3;
   score += Math.min(customerSignals, 6) * 2;
@@ -199,6 +212,9 @@ export function analyzeHeuristics(rawCase = {}) {
   score += hookSignals ? 3 : 0;
   score += micDropSignals ? 3 : 0;
   score += Math.min(transitionSignals, 4) * 1.5;
+  if (lpId === 'bias_for_action') {
+    score += Math.min(biasSignals, 5) * 2;
+  }
 
   score -= warnings.length * 5;
   score -= dealbreakers.length * 40;
@@ -223,7 +239,8 @@ export function analyzeHeuristics(rawCase = {}) {
     parity,
     hookSignals,
     transitionSignals,
-    micDropSignals
+    micDropSignals,
+    biasSignals
   };
 }function formatRatio(eu, nos) {
   if (nos === 0) return `${eu}:0`;

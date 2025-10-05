@@ -1,24 +1,22 @@
-# GATE A — Sintese Base + App + Modelo
+# GATE A - Sintese Base + App + Modelo
 
-## Da Base (Knowledge Base + vaga)
-- LPs como mecanismos: customer obsession em primeiro plano, ownership, dive deep, invent and simplify, insist on highest standards, deliver results; cada história precisa mostrar conflito real, decisões difíceis e impacto replicável.
-- Requisitos duros: >=8 métricas confiáveis por case (finanças, cliente, operação), ratio EU:NÓS >=3:1 (falha automática <2:1), conflito explícito com resolução, recência (últimos 5 anos preferencial), aprendizagem/mic-drop obrigatório.
-- Amazon prioriza mecanismos acima de intenções: processos sustentáveis, dashboards, automações e cadência de auditoria são provas fortes.
-- Tom duplamente executivo PT/EN espelhado, sem “false friends”; customer obsession obrigatória mesmo em casos técnicos; dados devem amarrar cliente ? negócio.
-- Vaga Payments/Oakberry: ênfase em AI/ML aplicada a operações, Lean/Six Sigma, eventos críticos, governança e integração parceiros — precisa destacar impactos em pagamentos, automação, risco/reg compliance.
+## Da Base (Knowledge Base + Leonardo + Vaga)
+- Amazon cobra narrativa STAR(L) com mecanismos repetiveis, 8+ metricas e conflito concreto; ratio EU:Nos deve ficar >=3:1 (dealbreaker <2:1) e Customer Obsession precisa ser explicita em situacao, acao e resultado.
+- Guia de LPs reforca: hooks fortes na Situacao, Task curta com ownership individual, Action de 60-70% do tempo, Resultados com comparacao before/after e Learning com mic-drop acionavel.
+- Vaga Payments/Oakberry exige provas de AI/ML aplicados a operacoes, lances Lean/Six Sigma e integracao com parceiros/regulacao; dados do CV mostram repertorio em bancos (Bradesco Next, Sicredi), saude (Unimed) e governo (SEFAZ) com impacto financeiro >USD 200M.
+- Prep-call e notas HR destacam: contar historias recentes (<=5 anos quando possivel), mecanizar aprendizados, voce no centro das decisoes, frugalidade e responsabilidade ampla; entrevistas esperam follow-ups sobre riscos, trade-offs, stakeholders discordantes.
+- Para Bias for Action especificamente: enfatizar decisoes two-way door, calculo de riscos, tempo comprimido, e mecanismos para evitar retrabalho; ainda assim, nao perder customer obsession e longo prazo.
 
-## Da App Anterior (bundle `case-validation/`)
-- Analyzer 2.0 (front) possui heurísticas ricas: dealbreakers, timing, mecanismos, ownership ratio; bom repertório conceitual mas roda no browser e injeta placeholders.
-- Motor 3.0 atual (node) é minimalista: garante apenas campos STARL e FUPs genéricas, insere marcadores `[Hook]`, `[Transition]`, `[Mic-drop]` sem conteúdo real, não valida métricas, conflito ou customer obsession ? risco de reprovação.
-- Loader aceita JS com `eval`/`vm` sem validar esquema completo ? precisamos endurecer parsing e reportar erros por case.
-- Reporter gera `review-status.json|csv`, mas heurísticas usam regex simples (quantidade de `%`, `eu`/`nos`), resultando em falsos positivos; não há scoring objetivo nem checagem de recência/conflito.
-- FUPs padronizadas quebram paridade PT/EN e não consideram bucket (técnico, conflito, mecanismo). Nenhum mecanismo para conservar texto existente.
+## Da App Anterior (bundle case-validation/)
+- Front (src/**) entrega analisador 2.x orientado a browser: possui heuristicas amplas (dealbreakers, timing, ownership ratio, mecanismos) mas usa parsing permissivo e injeta textos placeholder; mantem biblioteca generica de FUPs sem bucket.
+- Motor 3.0 (node) ja separado em case-validation/analyzer3/: loader sandboxia JS com vm, linter valida shape STARL/PT-EN/FUPs, heuristicas calculam metricas, customer signals, ratio EU:Nos, recencia, mecanismos e status; rewriter gera scorecard e plano de acao, fups completa com biblioteca curada, reporter grava JSON/CSV/preview.
+- Relatorios atuais (review-status.*) exibem scores (Ready/Needs-Polish/Needs-Rewrite/KO) por case; previews armazenam original x mutated com sugestoes, sem tocar arquivos de origem (writer.mjs desativado) mantendo bundle isolado.
+- Gaps atuais para Bias for Action: heuristica ja penaliza ausencia de conflito e metricas, mas precisamos checar se palavras-chave de velocidade/risco estao capturando bem; revisar se biblioteca de FUP inclui perguntas especificas de risco/timing; confirmar logs e output para pipeline batch.
 
-## Do Modelo (Motor 3.0 desejado)
-- Pipeline fora do bundle (somente `case-validation/analyzer3/**`): Loader rígido (schema STARL + FUPs=10), validações contextuais (recência <=60 meses salvo exceção, conflito detectado por palavras-chave e follow-ups existentes), customer obsession com heurísticas multi-língua.
-- Scoring objetivo: peso para Dealbreakers (KO), red flags (penalidade), métricas (contagem, diversidade), ratio EU:NÓS (0-1), mecanismos, hooks/transições/mic-drop reais, alinhamento LP (palavras-chave e entidades). Saída por case: status, score 0-100, motivos.
-- Rewriter deve apenas sugerir (pré-visualização) sem placeholders: produzir `preview/<id>.preview.json` com diffs textuais e recomendações estruradas (sem alterar arquivo original). Fornecer upgrades Paridade PT/EN via heurística que compara comprimento, sentenças e termos.
-- FUPs: manter existentes; completar faltantes com biblioteca curada por LP/bucket; validar PT/EN 1:1, sem texto “? revisar”.
-- Reporter: atualizar `review-status.json|csv` e `scan_summary.md` com métricas agregadas (quantidade de dealbreakers, média ratio, média métricas, lista de KOs). Preparar dados para checklist.
-- CLI: suportar `--validate`, `--refine --lp=... [--case=...]`, flags de modo seco vs aplicar preview; logs humanos com contadores finais.
-- Integração pós-Gate B: manter writer off; outputs alimentam revisão humana ? ação posterior será manual.
+## Do Modelo (Motor 3.0 desejado nesta rodada)
+- Manter pipeline CLI fora do bundle (node case-validation/analyzer3/index.mjs --validate|--refine) respeitando shape id,title_pt,title_en,company,period,isTopCase,pt{ s,t,a,r,l },en{ s,t,a,r,l },fups[10].
+- Para Bias for Action, reforcar heuristicas de velocidade: garantir contagem de termos ligados a risco calculado, decisao rapida, reversibilidade e mecanismos anti retrabalho; se necessario adicionar keywords sem quebrar outros LPs.
+- Ajustar biblioteca de FUPs para trazer questoes de risco/calculo, escalonamento rapido, trade-offs de tempo; preservar paridade PT/EN e nao duplicar existentes.
+- No modo refine gerar previews detalhados com scorecard atualizado, mantendo plano de acoes (dealbreakers/warnings/positives) sem alterar dados originais.
+- Monitorar review-status.json|csv para confirmar que casos de bias_for_action avancam para Ready/Needs-Polish; atualizar docs/CHECKLIST_VISUAL_v2.md e docs/REVIEW_TRACKER.md apos execucao.
+- Riscos: falsos positivos em metricas (regex monetaria), recencia >7 anos (verificar periodos), infos sem conflito; mitigar revisando manualmente preview e ajustando heuristicas apenas se necessario. Bundle original permanece intocado; qualquer ajuste fica em analyzer3.

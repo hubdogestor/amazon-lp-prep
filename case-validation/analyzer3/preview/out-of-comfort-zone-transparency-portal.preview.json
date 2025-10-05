@@ -178,57 +178,57 @@
       "score": 0,
       "status": "KO",
       "positives": [
-        "Ratio EU:N�S saud�vel (0:0)",
+        "Ratio EU:NÓS saudável (0:0)",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem m�tricas financeiras claras",
-        "Sem m�tricas de cliente expl�citas",
-        "Sem m�tricas operacionais expl�citas",
-        "Sem conflito/resist�ncia vis�vel",
+        "Sem métricas financeiras claras",
+        "Sem métricas de cliente explícitas",
+        "Sem métricas operacionais explícitas",
+        "Sem conflito/resistência visível",
         "Hook inicial pode ser mais contundente",
-        "Transi��es STAR(L) pouco claras",
-        "Mic-drop/aprendizado forte n�o identificado"
+        "Transições STAR(L) pouco claras",
+        "Mic-drop/aprendizado forte não identificado"
       ],
       "dealbreakers": [
-        "Aus�ncia de Customer Obsession",
-        "Menos de 8 m�tricas (2)"
+        "Ausência de Customer Obsession",
+        "Menos de 8 métricas (2)"
       ],
       "suggestions": [
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
+          "message": "Ausência de Customer Obsession",
           "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
         },
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (2)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
+          "message": "Menos de 8 métricas (2)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
+          "message": "Sem métricas financeiras claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
+          "message": "Sem métricas de cliente explícitas",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
+          "message": "Sem métricas operacionais explícitas",
           "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
+          "message": "Sem conflito/resistência visível",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
@@ -240,13 +240,13 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
+          "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
+          "message": "Mic-drop/aprendizado forte não identificado",
           "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
         },
         {
@@ -271,20 +271,20 @@
         "score": 0,
         "status": "KO",
         "dealbreakers": [
-          "Aus�ncia de Customer Obsession",
-          "Menos de 8 m�tricas (2)"
+          "Ausência de Customer Obsession",
+          "Menos de 8 métricas (2)"
         ],
         "warnings": [
-          "Sem m�tricas financeiras claras",
-          "Sem m�tricas de cliente expl�citas",
-          "Sem m�tricas operacionais expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
+          "Sem métricas financeiras claras",
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
           "Hook inicial pode ser mais contundente",
-          "Transi��es STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte n�o identificado"
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
         ],
         "positives": [
-          "Ratio EU:N�S saud�vel (0:0)",
+          "Ratio EU:NÓS saudável (0:0)",
           "Mecanismos/repeatability destacados"
         ],
         "metricsCount": 2,
@@ -336,7 +336,8 @@
         },
         "hookSignals": false,
         "transitionSignals": 0,
-        "micDropSignals": false
+        "micDropSignals": false,
+        "biasSignals": 0
       }
     }
   }
