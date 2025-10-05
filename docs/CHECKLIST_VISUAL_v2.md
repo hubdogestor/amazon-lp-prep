@@ -1,37 +1,39 @@
 # CHECKLIST_VISUAL_v2.md
-**VersÃ£o:** v2 â€” 2025-10-04 22:04
+**Versão:** v2 — 2025-10-04 23:23
 
-## ðŸ§­ Gates
-- **GATE A â€” SYNTHESIS.md**: [ ] Pendente / [ ] ConcluÃ­do
-- **GATE B â€” MOTOR_DE_ANALISE_3.0.md**: [ ] Pendente / [ ] ConcluÃ­do
+## ? Gates
+- **GATE A — SYNTHESIS.md**: [x] Concluído
+- **GATE B — MOTOR_DE_ANALISE_3.0.md**: [x] Concluído
 
-## ðŸ“Š Dashboard
-- Progresso: 0/64 cases (0%)
-- Score mÃ©dio: -/10 (meta â‰¥8)
-- MÃ©tricas/case (mÃ©dia): - (meta â‰¥8)
-- Ratio EU:NÃ“S (mÃ©dio): -:1 (meta â‰¥3:1)
-- FUPs 100% completas: 0%
+## ?? Dashboard
+- Progresso: 4/4 cases `dive_deep` analisados (1 Ready, 3 KO)
+- Score médio: 59.5/100 (meta =85)
+- Métricas/case (média): 40.3 (meta =8)
+- Ratio médio EU:NÓS: ˜2.0:1 (meta =3:1 — atenção)
+- FUPs 100% completas: 4/4
 
-## âœ… CritÃ©rios de Aceite Globais
-- [ ] STAR(L) PT/EN + 10 FUPs por case
-- [ ] Hook / TransiÃ§Ãµes Sâ†’Tâ†’Aâ†’Râ†’L / Mic-drop
-- [ ] â‰¥8 mÃ©tricas por case
-- [ ] EU:NÃ“S â‰¥3:1 (falha se <2:1)
+## ??? Critérios de Aceite Globais
+- [ ] STAR(L) PT/EN + 10 FUPs por case (estrutura ok, narrativa precisa ajustes nos KOs)
+- [ ] Hook / Transições S?T?A?R?L / Mic-drop
+- [ ] =8 métricas por case
+- [ ] EU:NÓS =3:1 (falha se <2:1)
 - [ ] Build + Tests verdes
-- [ ] Sem regressÃ£o de bundle
+- [ ] Sem regressão de bundle
 
-## ðŸ—‚ï¸ Lote Atual â€” `dive_deep`
-- Cases: 4 â€” ConcluÃ­dos: 0/4
-- PrÃ³ximo: Case 1 â€” Status: ðŸ”´ PrÃ³ximo
+## ?? Lote Atual — `dive_deep`
+- Cases: 4 — Ready: 1 | Needs-Polish: 0 | KO: 3
+- Próximo foco: reforçar ownership/conflito em `sicredi-churn-analysis`, `hsbc-data-validation-audit`, `unimed-fraud-investigation`
 
-### Checklist por Case
-- [ ] AnÃ¡lise concluÃ­da
-- [ ] AnÃ¡lise aprovada
-- [ ] RevisÃ£o concluÃ­da
-- [ ] RevisÃ£o aprovada
-- [ ] Base atualizada
-- [ ] Build testado
+### Checklist por Case (`dive_deep`)
+- [x] sicredi-pix-settlement — Ready — revisar ajustes de transição/ownership (warnings leves)
+- [ ] sicredi-churn-analysis — KO — reforçar EU:NÓS e conflito antes de nova rodada
+- [ ] hsbc-data-validation-audit — KO — reforçar métricas de impacto e mic-drop
+- [ ] unimed-fraud-investigation — KO — inserir conflito explícito e mecanismos repetíveis
 
-## ðŸ“… HistÃ³rico
-| Data | LP | Case | AÃ§Ã£o | Score Antesâ†’Depois | Notas |
-|------|----|------|------|--------------------|-------|
+## ??? Histórico
+| Data | LP | Case | Ação | Score | Notas |
+|------|----|------|------|-------|-------|
+| 2025-10-04 | dive_deep | sicredi-pix-settlement | Refinado (preview) | 100 | Ready (warnings: ownership 11:4, transições) |
+| 2025-10-04 | dive_deep | sicredi-churn-analysis | Validação | 68 | KO — ratio 6:4 e conflito ausente |
+| 2025-10-04 | dive_deep | hsbc-data-validation-audit | Validação | 28 | KO — métricas ok, ausência de mecanismos/ownership |
+| 2025-10-04 | dive_deep | unimed-fraud-investigation | Validação | 42 | KO — recência ok, falta conflito e mic-drop |

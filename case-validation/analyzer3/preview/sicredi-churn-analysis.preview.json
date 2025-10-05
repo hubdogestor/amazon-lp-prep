@@ -1,0 +1,289 @@
+{
+  "original": {
+    "id": "sicredi-churn-analysis",
+    "title": "Análise de Dados para Identificar os Principais Drivers de Churn no App",
+    "title_pt": "Análise de Dados para Identificar os Principais Drivers de Churn no App",
+    "title_en": "Data Analysis to Identify Main App Churn Drivers",
+    "company": "Sicredi Woop",
+    "period": "01/2019-10/2019",
+    "isTopCase": false,
+    "pt": {
+      "s": "Quando eu era Estrategista de Produtos no Sicredi, o banco digital Woop enfrentava uma taxa de churn anual de 40% - impactando diretamente R$ 12M em receita perdida anualmente e colocando em risco nossa meta de crescimento de 150% na base de usuários. A métrica de alto nível era alarmante, mas era apenas um sintoma de um problema mais profundo que estava minando nossa competitividade contra neobanks como Nubank e C6. A liderança tinha várias hipóteses baseadas em anedotas -- 'a concorrência é mais agressiva', 'faltam funcionalidades' -- mas não havia um diagnóstico preciso baseado em dados.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era ir além das opiniões e encontrar a causa raiz do churn. Eu precisava mergulhar nos dados para entender não apenas quantos clientes estavam saindo, mas quem eram, quando saíam e, o mais importante, por quê. A tarefa não era delegar uma análise, mas conduzi-la pessoalmente para garantir a profundidade necessária para tomar decisões estratégicas fundamentadas.",
+      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Não confiei nos dashboards existentes pois eles mostravam o 'o quê' (churn alto), mas não o 'onde' ou o 'porquê'. Suspeitei que as médias agregadas estavam mascarando o problema real porque minha experiência prévia me ensinou que problemas complexos raramente são distribuídos uniformemente - geralmente há concentrações que revelam a causa raiz. Por isso, desenvolvi uma abordagem customizada de investigação: solicitei acesso read-only ao Redshift e EU escrevi queries SQL juntando 5 tabelas (users, events, sessions, transactions, support_tickets) para reconstruir a jornada completa. Exemplo da query principal: SELECT user_id, signup_week, DATEDIFF(day, signup_date, churned_date) as days_to_churn, last_completed_step FROM user_cohorts WHERE churned_date IS NOT NULL GROUP BY signup_week. Esta query de 47 linhas processou 2.3M registros e revelou o 'cliff' nos primeiros 7 dias. Para encontrar o 'quando', usei o Power BI para construir uma análise de coorte que segmentava os usuários por semana de cadastro. Isso revelou um 'precipício': mais de 50% do churn ocorria nos primeiros 7 dias. Com isso, foquei no funil de onboarding no Firebase e identifiquei a etapa exata do 'onde': o upload de documentos, com uma taxa de abandono de 40%. Para garantir que os dados do Firebase eram confiáveis, cruzei com três fontes: Dados de eventos do Firebase (comportamento), Dados transacionais do Data Warehouse (conversão real em pagamentos), e Tickets de suporte (voz qualitativa). Para entender o 'porquê', li mais de 500 tickets de suporte e reviews da app store, categorizando-os por tipo de problema e frequência. Essa análise qualitativa foi crucial porque revelou que 60% das reclamações mencionavam 'documento inválido' ou 'erro no cadastro', confirmando que o problema não era de produto-mercado fit, mas de execução operacional. Eu compilei a análise quantitativa e qualitativa em um business case robusto e o apresentei ao comitê de liderança de produto. O ROI que calculei foi baseado em: cada 1% de redução no churn = R$ 300k adicionais em receita anual; corrigir onboarding custaria R$ 180k; construir nova funcionalidade custaria R$ 400k com impacto incerto. Mostrei que o ROI de corrigir o onboarding era 3x maior e com risco muito menor.",
+      "r": "A implementação de um novo provedor de OCR e de mensagens de erro claras, baseada nessa análise, resultou em uma redução de 18% na taxa de churn em 9 meses (de 40% para 32.8% anualizado). Isso representou R$ 5.4M em receita adicional retida. A melhoria na conversão do onboarding foi um dos principais drivers que, junto a outras iniciativas, contribuiu para o crescimento de 25% na base de usuários ativos no ano seguinte, superando nossa meta original de 150% por ter eliminado o 'vazamento' no topo do funil.",
+      "l": "Aprendi que métricas de alto nível são perigosas porque escondem a verdade, mas mais importante: aprendi a metodologia de 'triangulação de dados' - sempre cruzar quantitativo + qualitativo + operacional para formar um diagnóstico preciso. Um líder não pode operar à distância. Ele precisa ter a habilidade e a disposição de conectar-se aos dados brutos, auditar os detalhes e questionar premissas. Em payment operations, aplico essa mesma metodologia: quando vejo uma métrica agregada como 'taxa de aprovação de 94%', EU sempre questiono: 94% para quem? Qual merchant size? Qual método de pagamento? Qual horário? Essa disciplina de 'desagregar antes de otimizar' me salvou de tomar decisões baseadas em falsos positivos várias vezes. As respostas reais geralmente estão escondidas 2-3 níveis abaixo da métrica superficial."
+    },
+    "en": {
+      "s": "When I was Product Strategist at Sicredi, the digital bank Woop faced an annual churn rate of 40% - directly impacting R$ 12M in lost revenue annually and jeopardizing my goal of 150% growth in user base. The high-level metric was alarming, but it was just a symptom of a deeper problem that was undermining my competitiveness against neobanks like Nubank and C6. Leadership had various hypotheses based on anecdotes -- 'competition is more aggressive,' 'features are missing' -- but there was no precise diagnosis based on data.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to go beyond opinions and find the root cause of churn. I needed to dive into the data to understand not just how many customers were leaving, but who they were, when they left, and most importantly, why. The task wasn't to delegate an analysis, but to conduct it personally to ensure the necessary depth for making informed strategic decisions.",
+      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I didn't trust existing dashboards because they showed the 'what' (high churn), but not the 'where' or 'why.' I suspected that aggregated averages were masking the real problem because my previous experience taught me that complex problems are rarely distributed uniformly - there are usually concentrations that reveal the root cause. Therefore, I developed a custom investigation approach: I requested read-only access to Redshift and wrote SQL queries joining 5 tables (users, events, sessions, transactions, support_tickets) to reconstruct the complete journey. Main query example: SELECT user_id, signup_week, DATEDIFF(day, signup_date, churned_date) as days_to_churn, last_completed_step FROM user_cohorts WHERE churned_date IS NOT NULL GROUP BY signup_week. This 47-line query processed 2.3M records and revealed the 'cliff' in the first 7 days. To find the 'when,' I used Power BI to build a cohort analysis that segmented users by signup week. This revealed a 'cliff': over 50% of churn occurred in the first 7 days. With this, I focused on the onboarding funnel in Firebase and identified the exact 'where': document upload, with a 40% abandonment rate. To ensure Firebase data was reliable, I cross-referenced three sources: Firebase event data (behavior), Data Warehouse transactional data (actual payment conversion), and Support tickets (qualitative voice). To understand the 'why,' I read over 500 support tickets and app store reviews, categorizing them by problem type and frequency. This qualitative analysis was crucial because it revealed that 60% of complaints mentioned 'invalid document' or 'registration error,' confirming that the problem wasn't product-market fit, but operational execution. I compiled the quantitative and qualitative analysis into a robust business case and presented it to the product leadership committee. The ROI I calculated was based on: each 1% churn reduction = R$ 300k additional annual revenue; fixing onboarding would cost R$ 180k; building new functionality would cost R$ 400k with uncertain impact. I showed that the ROI of fixing onboarding was 3x greater and with much lower risk.",
+      "r": "Implementation of a new OCR provider and clear error messages, based on this analysis, resulted in an 18% reduction in churn rate over 9 months (from 40% to 32.8% annualized). This represented R$ 5.4M in additional retained revenue. The onboarding conversion improvement was one of the main drivers that, along with other initiatives, contributed to 25% growth in active user base the following year, exceeding my original goal of 150% by eliminating the 'leak' at the top of the funnel.",
+      "l": "I learned that high-level metrics are dangerous because they hide the truth, but more importantly: I learned the methodology of 'data triangulation' - always cross quantitative + qualitative + operational to form a precise diagnosis. A leader cannot operate at a distance. They need the ability and willingness to connect to raw data, audit details, and question assumptions. In payment operations, I apply this same methodology: when I see an aggregated metric like '94% approval rate,' I always question: 94% for whom? Which merchant size? Which payment method? Which time? This discipline of 'disaggregate before optimize' has saved me from making decisions based on false positives several times. The real answers are usually hidden 2-3 levels below the superficial metric."
+    },
+    "fups": [
+      {
+        "q": "Como você definiu os critérios para priorizar o problema do onboarding em relação a outras possíveis causas de churn?",
+        "a": "Usei uma matriz de 'Impacto vs. Esforço vs. Confiança'. Onboarding tinha: Alto impacto (50% do churn), Baixo esforço (mudança técnica isolada), Alta confiança (dados triangulados). Comparei com outras hipóteses: 'falta de features' tinha alto impacto mas baixa confiança (baseado em anedotas), 'preços' tinha média confiança mas alto esforço (impacto em toda estratégia). O onboarding era o 'low hanging fruit' com maior ROI garantido.",
+        "q_en": "How did you define criteria to prioritize the onboarding problem over other possible churn causes?",
+        "a_en": "I used an 'Impact vs. Effort vs. Confidence' matrix. Onboarding had: High impact (50% of churn), Low effort (isolated technical change), High confidence (triangulated data). I compared with other hypotheses: 'missing features' had high impact but low confidence (based on anecdotes), 'pricing' had medium confidence but high effort (impact on entire strategy). Onboarding was the 'low hanging fruit' with highest guaranteed ROI."
+      },
+      {
+        "q": "Quais foram os desafios técnicos ou organizacionais ao obter acesso ao Redshift e validar os dados de diferentes fontes?",
+        "a": "O maior desafio foi convencer o DBA a me dar acesso read-only ao Redshift - ele estava preocupado com performance e segurança. EU resolvi criando queries otimizadas e agendando-as para horários de menor carga. Para validação entre fontes, o desafio era que cada sistema tinha granularidade diferente: Firebase tracking em eventos, DW em transações, tickets em texto livre. Criei chaves de ligação padronizadas (user_id + timestamp) para conseguir cruzar os dados com precisão.",
+        "q_en": "What were the technical or organizational challenges in getting Redshift access and validating data from different sources?",
+        "a_en": "The biggest challenge was convincing the DBA to give me read-only access to Redshift - he was concerned about performance and security. I solved this by creating optimized queries and scheduling them for low-traffic hours. For cross-source validation, the challenge was that each system had different granularity: Firebase tracking events, DW transactions, tickets in free text. I created standardized linking keys (user_id + timestamp) to accurately cross-reference the data."
+      },
+      {
+        "q": "Como você garantiu que as mudanças propostas no onboarding (como o novo OCR) foram implementadas com eficácia?",
+        "a": "EU criei um 'war room' virtual com engenharia, produto e QA, com reuniões diárias durante a implementação. Definimos métricas de sucesso claras antes do desenvolvimento: taxa de upload bem-sucedido >95%, tempo médio <30 segundos, taxa de falsos positivos <2%. Implementamos A/B testing com 10% dos usuários primeiro, monitorando métricas em tempo real. Só escalamos para 100% quando todos os KPIs estavam dentro do target por 7 dias consecutivos.",
+        "q_en": "How did you ensure the proposed onboarding changes (like the new OCR) were effectively implemented?",
+        "a_en": "I created a virtual 'war room' with engineering, product, and QA, with daily meetings during implementation. I defined clear success metrics before development: successful upload rate >95%, average time <30 seconds, false positive rate <2%. I implemented A/B testing with 10% of users first, monitoring metrics in real-time. I only scaled to 100% when all KPIs were within target for 7 consecutive days."
+      },
+      {
+        "q": "Após a redução inicial do churn, como você monitorou se as melhorias eram sustentáveis a longo prazo?",
+        "a": "Criei um dashboard de 'saúde do onboarding' com 8 métricas que atualizava diariamente: taxa de conversão por etapa, tempo médio por etapa, top 5 erros, NPS do processo. Mais importante: implementei alertas automáticos que me notificavam se qualquer métrica saísse do range esperado por 3 dias consecutivos. Mensalmente, refazia a análise de coorte para garantir que a melhoria se mantinha em diferentes períodos e perfis de usuário. A sustentabilidade veio do monitoramento proativo, não reativo.",
+        "q_en": "After the initial churn reduction, how did you monitor if improvements were sustainable long-term?",
+        "a_en": "I created an 'onboarding health' dashboard with 8 metrics that updated daily: conversion rate by step, average time per step, top 5 errors, process NPS. More importantly: I implemented automatic alerts that notified me if any metric went out of expected range for 3 consecutive days. Monthly, I redid cohort analysis to ensure improvement was maintained across different periods and user profiles. Sustainability came from proactive, not reactive monitoring."
+      },
+      {
+        "q": "Como a abordagem que você usou para resolver o problema de churn foi aplicada em outros fluxos no Sicredi?",
+        "a": "A metodologia de 'triangulação de dados' virou padrão no Sicredi. EU treinei 6 PMs em como fazer análise de coorte + funil + qualitativa. Aplicamos em: Abandono no processo de empréstimo (descobrimos gargalo no bureau de crédito), Baixa adoção do cartão (problema na logística de entrega), Churn em investimentos (interface confusa). Cada caso usou a mesma estrutura: dashboard superficial → mergulho nos dados → triangulação → business case → implementação + monitoramento. Virou minha 'metodologia padrão' para problemas de produto.",
+        "q_en": "How was the approach you used to solve the churn problem applied to other flows at Sicredi?",
+        "a_en": "The 'data triangulation' methodology became standard at Sicredi. I trained 6 PMs on how to do cohort + funnel + qualitative analysis. I applied it to: Loan process abandonment (discovered credit bureau bottleneck), Low card adoption (delivery logistics problem), Investment churn (confusing interface). Each case used the same structure: superficial dashboard → data dive → triangulation → business case → implementation + monitoring. It became my 'standard methodology' for product problems."
+      },
+      {
+        "q": "Por que você decidiu auditar diretamente os dados em vez de confiar nos dashboards existentes? Houve problemas específicos que você identificou inicialmente?",
+        "a": "Os dashboards eram superficiais, mostravam apenas o número final de churn, mas não a jornada do usuário. O sinal que me levou a desconfiar foi que a métrica era 'plana', sugerindo um problema constante, o que parecia errado. Eu suspeitava que o problema estava concentrado em um ponto específico, e a única forma de confirmar isso era mergulhar nos dados de eventos para reconstruir a jornada passo a passo.",
+        "q_en": "Why did you decide to directly audit the data instead of trusting existing dashboards? Were there specific problems you initially identified?",
+        "a_en": "The dashboards were superficial, showing only the final churn number, but not the user journey. The signal that led me to distrust was that the metric was 'flat,' suggesting a constant problem, which seemed wrong. I suspected the problem was concentrated at a specific point, and the only way to confirm this was to dive into event data to reconstruct the journey step by step."
+      },
+      {
+        "q": "Como você conduziu a análise de funil e coorte? Houve ferramentas ou métodos específicos que facilitaram o processo?",
+        "a": "Usei uma combinação de ferramentas. Primeiro, no Power BI, criei a análise de coorte plotando a retenção de usuários por semana de cadastro, o que me mostrou o 'precipício' nos primeiros 7 dias. Com essa pista, fui para o Firebase Analytics, onde usei a ferramenta de 'Funnel Analysis' para mapear os eventos do onboarding e identificar a etapa exata com a maior taxa de abandono, que era o upload de documentos.",
+        "q_en": "How did you conduct the funnel and cohort analysis? Were there specific tools or methods that facilitated the process?",
+        "a_en": "I used a combination of tools. First, in Power BI, I created cohort analysis plotting user retention by signup week, which showed me the 'cliff' in the first 7 days. With this clue, I went to Firebase Analytics, where I used the 'Funnel Analysis' tool to map onboarding events and identify the exact step with the highest abandonment rate, which was document upload."
+      },
+      {
+        "q": "Como você garantiu que os insights qualitativos (tickets e reviews) fossem representativos e confiáveis para apoiar suas conclusões?",
+        "a": "Eu usei uma abordagem de amostragem e categorização. Em vez de ler aleatoriamente, filtrei todos os tickets e reviews dos últimos 3 meses com palavras-chave relevantes ('cadastro', 'erro', 'documento'). Li uma amostra de 500 e os categorizei por tipo de problema. A consistência foi impressionante: mais de 60% mencionavam a mesma frustração com o upload de documentos, o que me deu alta confiança de que o insight era representativo.",
+        "q_en": "How did you ensure that qualitative insights (tickets and reviews) were representative and reliable to support your conclusions?",
+        "a_en": "I used a sampling and categorization approach. Instead of reading randomly, I filtered all tickets and reviews from the last 3 months with relevant keywords ('registration,' 'error,' 'document'). I read a sample of 500 and categorized them by problem type. The consistency was impressive: over 60% mentioned the same frustration with document upload, which gave me high confidence that the insight was representative."
+      },
+      {
+        "q": "Quais desafios você enfrentou ao priorizar a troca do provedor de OCR e o redesenho do fluxo no roadmap? Houve resistência dos times?",
+        "a": "Sim, o maior desafio foi a resistência da equipe de engenharia, que já estava comprometida com o desenvolvimento de novas features e via a troca do OCR como um retrabalho custoso. Eu superei isso apresentando a eles não apenas o 'o quê' (trocar o OCR), mas o 'porquê' (o impacto financeiro do churn e o sofrimento do cliente). Apresentei a eles os dados e os enquadrei como os 'heróis' que poderiam resolver a maior dor do meu cliente.",
+        "q_en": "What challenges did you face when prioritizing the OCR provider change and flow redesign in the roadmap? Was there team resistance?",
+        "a_en": "Yes, the biggest challenge was resistance from the engineering team, which was already committed to developing new features and saw the OCR change as costly rework. I overcame this by presenting not just the 'what' (change OCR), but the 'why' (financial impact of churn and customer suffering). I presented the data to them and framed them as the 'heroes' who could solve my customer's biggest pain."
+      },
+      {
+        "q": "Depois de implementar as mudanças, como você mediu e acompanhou a redução do churn e o impacto na adoção do aplicativo ao longo do tempo?",
+        "a": "Eu criamos um 'dashboard de saúde do onboarding'. Nele, acompanhávamos diariamente duas métricas principais: a taxa de conversão do funil de onboarding e a taxa de retenção da coorte de novos usuários após 7 e 30 dias. Vimos a conversão do funil aumentar em 20 pontos percentuais na primeira semana, e a retenção de 7 dias melhorar consistentemente, o que provou o impacto direto das mudanças.",
+        "q_en": "After implementing the changes, how did you measure and track churn reduction and app adoption impact over time?",
+        "a_en": "I created an 'onboarding health dashboard.' In it, I tracked two main metrics daily: onboarding funnel conversion rate and new user cohort retention rate after 7 and 30 days. I saw funnel conversion increase by 20 percentage points in the first week, and 7-day retention consistently improve, which proved the direct impact of the changes."
+      }
+    ],
+    "__file": "src\\data\\dive_deep\\dive_deep_case1.js",
+    "lp_id": "dive_deep",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "sicredi-churn-analysis",
+    "title": "Análise de Dados para Identificar os Principais Drivers de Churn no App",
+    "title_pt": "Análise de Dados para Identificar os Principais Drivers de Churn no App",
+    "title_en": "Data Analysis to Identify Main App Churn Drivers",
+    "company": "Sicredi Woop",
+    "period": "01/2019-10/2019",
+    "isTopCase": false,
+    "pt": {
+      "s": "Quando eu era Estrategista de Produtos no Sicredi, o banco digital Woop enfrentava uma taxa de churn anual de 40% - impactando diretamente R$ 12M em receita perdida anualmente e colocando em risco nossa meta de crescimento de 150% na base de usuários. A métrica de alto nível era alarmante, mas era apenas um sintoma de um problema mais profundo que estava minando nossa competitividade contra neobanks como Nubank e C6. A liderança tinha várias hipóteses baseadas em anedotas -- 'a concorrência é mais agressiva', 'faltam funcionalidades' -- mas não havia um diagnóstico preciso baseado em dados.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era ir além das opiniões e encontrar a causa raiz do churn. Eu precisava mergulhar nos dados para entender não apenas quantos clientes estavam saindo, mas quem eram, quando saíam e, o mais importante, por quê. A tarefa não era delegar uma análise, mas conduzi-la pessoalmente para garantir a profundidade necessária para tomar decisões estratégicas fundamentadas.",
+      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Não confiei nos dashboards existentes pois eles mostravam o 'o quê' (churn alto), mas não o 'onde' ou o 'porquê'. Suspeitei que as médias agregadas estavam mascarando o problema real porque minha experiência prévia me ensinou que problemas complexos raramente são distribuídos uniformemente - geralmente há concentrações que revelam a causa raiz. Por isso, desenvolvi uma abordagem customizada de investigação: solicitei acesso read-only ao Redshift e EU escrevi queries SQL juntando 5 tabelas (users, events, sessions, transactions, support_tickets) para reconstruir a jornada completa. Exemplo da query principal: SELECT user_id, signup_week, DATEDIFF(day, signup_date, churned_date) as days_to_churn, last_completed_step FROM user_cohorts WHERE churned_date IS NOT NULL GROUP BY signup_week. Esta query de 47 linhas processou 2.3M registros e revelou o 'cliff' nos primeiros 7 dias. Para encontrar o 'quando', usei o Power BI para construir uma análise de coorte que segmentava os usuários por semana de cadastro. Isso revelou um 'precipício': mais de 50% do churn ocorria nos primeiros 7 dias. Com isso, foquei no funil de onboarding no Firebase e identifiquei a etapa exata do 'onde': o upload de documentos, com uma taxa de abandono de 40%. Para garantir que os dados do Firebase eram confiáveis, cruzei com três fontes: Dados de eventos do Firebase (comportamento), Dados transacionais do Data Warehouse (conversão real em pagamentos), e Tickets de suporte (voz qualitativa). Para entender o 'porquê', li mais de 500 tickets de suporte e reviews da app store, categorizando-os por tipo de problema e frequência. Essa análise qualitativa foi crucial porque revelou que 60% das reclamações mencionavam 'documento inválido' ou 'erro no cadastro', confirmando que o problema não era de produto-mercado fit, mas de execução operacional. Eu compilei a análise quantitativa e qualitativa em um business case robusto e o apresentei ao comitê de liderança de produto. O ROI que calculei foi baseado em: cada 1% de redução no churn = R$ 300k adicionais em receita anual; corrigir onboarding custaria R$ 180k; construir nova funcionalidade custaria R$ 400k com impacto incerto. Mostrei que o ROI de corrigir o onboarding era 3x maior e com risco muito menor.",
+      "r": "A implementação de um novo provedor de OCR e de mensagens de erro claras, baseada nessa análise, resultou em uma redução de 18% na taxa de churn em 9 meses (de 40% para 32.8% anualizado). Isso representou R$ 5.4M em receita adicional retida. A melhoria na conversão do onboarding foi um dos principais drivers que, junto a outras iniciativas, contribuiu para o crescimento de 25% na base de usuários ativos no ano seguinte, superando nossa meta original de 150% por ter eliminado o 'vazamento' no topo do funil.",
+      "l": "Aprendi que métricas de alto nível são perigosas porque escondem a verdade, mas mais importante: aprendi a metodologia de 'triangulação de dados' - sempre cruzar quantitativo + qualitativo + operacional para formar um diagnóstico preciso. Um líder não pode operar à distância. Ele precisa ter a habilidade e a disposição de conectar-se aos dados brutos, auditar os detalhes e questionar premissas. Em payment operations, aplico essa mesma metodologia: quando vejo uma métrica agregada como 'taxa de aprovação de 94%', EU sempre questiono: 94% para quem? Qual merchant size? Qual método de pagamento? Qual horário? Essa disciplina de 'desagregar antes de otimizar' me salvou de tomar decisões baseadas em falsos positivos várias vezes. As respostas reais geralmente estão escondidas 2-3 níveis abaixo da métrica superficial."
+    },
+    "en": {
+      "s": "When I was Product Strategist at Sicredi, the digital bank Woop faced an annual churn rate of 40% - directly impacting R$ 12M in lost revenue annually and jeopardizing my goal of 150% growth in user base. The high-level metric was alarming, but it was just a symptom of a deeper problem that was undermining my competitiveness against neobanks like Nubank and C6. Leadership had various hypotheses based on anecdotes -- 'competition is more aggressive,' 'features are missing' -- but there was no precise diagnosis based on data.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to go beyond opinions and find the root cause of churn. I needed to dive into the data to understand not just how many customers were leaving, but who they were, when they left, and most importantly, why. The task wasn't to delegate an analysis, but to conduct it personally to ensure the necessary depth for making informed strategic decisions.",
+      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I didn't trust existing dashboards because they showed the 'what' (high churn), but not the 'where' or 'why.' I suspected that aggregated averages were masking the real problem because my previous experience taught me that complex problems are rarely distributed uniformly - there are usually concentrations that reveal the root cause. Therefore, I developed a custom investigation approach: I requested read-only access to Redshift and wrote SQL queries joining 5 tables (users, events, sessions, transactions, support_tickets) to reconstruct the complete journey. Main query example: SELECT user_id, signup_week, DATEDIFF(day, signup_date, churned_date) as days_to_churn, last_completed_step FROM user_cohorts WHERE churned_date IS NOT NULL GROUP BY signup_week. This 47-line query processed 2.3M records and revealed the 'cliff' in the first 7 days. To find the 'when,' I used Power BI to build a cohort analysis that segmented users by signup week. This revealed a 'cliff': over 50% of churn occurred in the first 7 days. With this, I focused on the onboarding funnel in Firebase and identified the exact 'where': document upload, with a 40% abandonment rate. To ensure Firebase data was reliable, I cross-referenced three sources: Firebase event data (behavior), Data Warehouse transactional data (actual payment conversion), and Support tickets (qualitative voice). To understand the 'why,' I read over 500 support tickets and app store reviews, categorizing them by problem type and frequency. This qualitative analysis was crucial because it revealed that 60% of complaints mentioned 'invalid document' or 'registration error,' confirming that the problem wasn't product-market fit, but operational execution. I compiled the quantitative and qualitative analysis into a robust business case and presented it to the product leadership committee. The ROI I calculated was based on: each 1% churn reduction = R$ 300k additional annual revenue; fixing onboarding would cost R$ 180k; building new functionality would cost R$ 400k with uncertain impact. I showed that the ROI of fixing onboarding was 3x greater and with much lower risk.",
+      "r": "Implementation of a new OCR provider and clear error messages, based on this analysis, resulted in an 18% reduction in churn rate over 9 months (from 40% to 32.8% annualized). This represented R$ 5.4M in additional retained revenue. The onboarding conversion improvement was one of the main drivers that, along with other initiatives, contributed to 25% growth in active user base the following year, exceeding my original goal of 150% by eliminating the 'leak' at the top of the funnel.",
+      "l": "I learned that high-level metrics are dangerous because they hide the truth, but more importantly: I learned the methodology of 'data triangulation' - always cross quantitative + qualitative + operational to form a precise diagnosis. A leader cannot operate at a distance. They need the ability and willingness to connect to raw data, audit details, and question assumptions. In payment operations, I apply this same methodology: when I see an aggregated metric like '94% approval rate,' I always question: 94% for whom? Which merchant size? Which payment method? Which time? This discipline of 'disaggregate before optimize' has saved me from making decisions based on false positives several times. The real answers are usually hidden 2-3 levels below the superficial metric."
+    },
+    "fups": [
+      {
+        "q": "Como você definiu os critérios para priorizar o problema do onboarding em relação a outras possíveis causas de churn?",
+        "a": "Usei uma matriz de 'Impacto vs. Esforço vs. Confiança'. Onboarding tinha: Alto impacto (50% do churn), Baixo esforço (mudança técnica isolada), Alta confiança (dados triangulados). Comparei com outras hipóteses: 'falta de features' tinha alto impacto mas baixa confiança (baseado em anedotas), 'preços' tinha média confiança mas alto esforço (impacto em toda estratégia). O onboarding era o 'low hanging fruit' com maior ROI garantido.",
+        "q_en": "How did you define criteria to prioritize the onboarding problem over other possible churn causes?",
+        "a_en": "I used an 'Impact vs. Effort vs. Confidence' matrix. Onboarding had: High impact (50% of churn), Low effort (isolated technical change), High confidence (triangulated data). I compared with other hypotheses: 'missing features' had high impact but low confidence (based on anecdotes), 'pricing' had medium confidence but high effort (impact on entire strategy). Onboarding was the 'low hanging fruit' with highest guaranteed ROI."
+      },
+      {
+        "q": "Quais foram os desafios técnicos ou organizacionais ao obter acesso ao Redshift e validar os dados de diferentes fontes?",
+        "a": "O maior desafio foi convencer o DBA a me dar acesso read-only ao Redshift - ele estava preocupado com performance e segurança. EU resolvi criando queries otimizadas e agendando-as para horários de menor carga. Para validação entre fontes, o desafio era que cada sistema tinha granularidade diferente: Firebase tracking em eventos, DW em transações, tickets em texto livre. Criei chaves de ligação padronizadas (user_id + timestamp) para conseguir cruzar os dados com precisão.",
+        "q_en": "What were the technical or organizational challenges in getting Redshift access and validating data from different sources?",
+        "a_en": "The biggest challenge was convincing the DBA to give me read-only access to Redshift - he was concerned about performance and security. I solved this by creating optimized queries and scheduling them for low-traffic hours. For cross-source validation, the challenge was that each system had different granularity: Firebase tracking events, DW transactions, tickets in free text. I created standardized linking keys (user_id + timestamp) to accurately cross-reference the data."
+      },
+      {
+        "q": "Como você garantiu que as mudanças propostas no onboarding (como o novo OCR) foram implementadas com eficácia?",
+        "a": "EU criei um 'war room' virtual com engenharia, produto e QA, com reuniões diárias durante a implementação. Definimos métricas de sucesso claras antes do desenvolvimento: taxa de upload bem-sucedido >95%, tempo médio <30 segundos, taxa de falsos positivos <2%. Implementamos A/B testing com 10% dos usuários primeiro, monitorando métricas em tempo real. Só escalamos para 100% quando todos os KPIs estavam dentro do target por 7 dias consecutivos.",
+        "q_en": "How did you ensure the proposed onboarding changes (like the new OCR) were effectively implemented?",
+        "a_en": "I created a virtual 'war room' with engineering, product, and QA, with daily meetings during implementation. I defined clear success metrics before development: successful upload rate >95%, average time <30 seconds, false positive rate <2%. I implemented A/B testing with 10% of users first, monitoring metrics in real-time. I only scaled to 100% when all KPIs were within target for 7 consecutive days."
+      },
+      {
+        "q": "Após a redução inicial do churn, como você monitorou se as melhorias eram sustentáveis a longo prazo?",
+        "a": "Criei um dashboard de 'saúde do onboarding' com 8 métricas que atualizava diariamente: taxa de conversão por etapa, tempo médio por etapa, top 5 erros, NPS do processo. Mais importante: implementei alertas automáticos que me notificavam se qualquer métrica saísse do range esperado por 3 dias consecutivos. Mensalmente, refazia a análise de coorte para garantir que a melhoria se mantinha em diferentes períodos e perfis de usuário. A sustentabilidade veio do monitoramento proativo, não reativo.",
+        "q_en": "After the initial churn reduction, how did you monitor if improvements were sustainable long-term?",
+        "a_en": "I created an 'onboarding health' dashboard with 8 metrics that updated daily: conversion rate by step, average time per step, top 5 errors, process NPS. More importantly: I implemented automatic alerts that notified me if any metric went out of expected range for 3 consecutive days. Monthly, I redid cohort analysis to ensure improvement was maintained across different periods and user profiles. Sustainability came from proactive, not reactive monitoring."
+      },
+      {
+        "q": "Como a abordagem que você usou para resolver o problema de churn foi aplicada em outros fluxos no Sicredi?",
+        "a": "A metodologia de 'triangulação de dados' virou padrão no Sicredi. EU treinei 6 PMs em como fazer análise de coorte + funil + qualitativa. Aplicamos em: Abandono no processo de empréstimo (descobrimos gargalo no bureau de crédito), Baixa adoção do cartão (problema na logística de entrega), Churn em investimentos (interface confusa). Cada caso usou a mesma estrutura: dashboard superficial → mergulho nos dados → triangulação → business case → implementação + monitoramento. Virou minha 'metodologia padrão' para problemas de produto.",
+        "q_en": "How was the approach you used to solve the churn problem applied to other flows at Sicredi?",
+        "a_en": "The 'data triangulation' methodology became standard at Sicredi. I trained 6 PMs on how to do cohort + funnel + qualitative analysis. I applied it to: Loan process abandonment (discovered credit bureau bottleneck), Low card adoption (delivery logistics problem), Investment churn (confusing interface). Each case used the same structure: superficial dashboard → data dive → triangulation → business case → implementation + monitoring. It became my 'standard methodology' for product problems."
+      },
+      {
+        "q": "Por que você decidiu auditar diretamente os dados em vez de confiar nos dashboards existentes? Houve problemas específicos que você identificou inicialmente?",
+        "a": "Os dashboards eram superficiais, mostravam apenas o número final de churn, mas não a jornada do usuário. O sinal que me levou a desconfiar foi que a métrica era 'plana', sugerindo um problema constante, o que parecia errado. Eu suspeitava que o problema estava concentrado em um ponto específico, e a única forma de confirmar isso era mergulhar nos dados de eventos para reconstruir a jornada passo a passo.",
+        "q_en": "Why did you decide to directly audit the data instead of trusting existing dashboards? Were there specific problems you initially identified?",
+        "a_en": "The dashboards were superficial, showing only the final churn number, but not the user journey. The signal that led me to distrust was that the metric was 'flat,' suggesting a constant problem, which seemed wrong. I suspected the problem was concentrated at a specific point, and the only way to confirm this was to dive into event data to reconstruct the journey step by step."
+      },
+      {
+        "q": "Como você conduziu a análise de funil e coorte? Houve ferramentas ou métodos específicos que facilitaram o processo?",
+        "a": "Usei uma combinação de ferramentas. Primeiro, no Power BI, criei a análise de coorte plotando a retenção de usuários por semana de cadastro, o que me mostrou o 'precipício' nos primeiros 7 dias. Com essa pista, fui para o Firebase Analytics, onde usei a ferramenta de 'Funnel Analysis' para mapear os eventos do onboarding e identificar a etapa exata com a maior taxa de abandono, que era o upload de documentos.",
+        "q_en": "How did you conduct the funnel and cohort analysis? Were there specific tools or methods that facilitated the process?",
+        "a_en": "I used a combination of tools. First, in Power BI, I created cohort analysis plotting user retention by signup week, which showed me the 'cliff' in the first 7 days. With this clue, I went to Firebase Analytics, where I used the 'Funnel Analysis' tool to map onboarding events and identify the exact step with the highest abandonment rate, which was document upload."
+      },
+      {
+        "q": "Como você garantiu que os insights qualitativos (tickets e reviews) fossem representativos e confiáveis para apoiar suas conclusões?",
+        "a": "Eu usei uma abordagem de amostragem e categorização. Em vez de ler aleatoriamente, filtrei todos os tickets e reviews dos últimos 3 meses com palavras-chave relevantes ('cadastro', 'erro', 'documento'). Li uma amostra de 500 e os categorizei por tipo de problema. A consistência foi impressionante: mais de 60% mencionavam a mesma frustração com o upload de documentos, o que me deu alta confiança de que o insight era representativo.",
+        "q_en": "How did you ensure that qualitative insights (tickets and reviews) were representative and reliable to support your conclusions?",
+        "a_en": "I used a sampling and categorization approach. Instead of reading randomly, I filtered all tickets and reviews from the last 3 months with relevant keywords ('registration,' 'error,' 'document'). I read a sample of 500 and categorized them by problem type. The consistency was impressive: over 60% mentioned the same frustration with document upload, which gave me high confidence that the insight was representative."
+      },
+      {
+        "q": "Quais desafios você enfrentou ao priorizar a troca do provedor de OCR e o redesenho do fluxo no roadmap? Houve resistência dos times?",
+        "a": "Sim, o maior desafio foi a resistência da equipe de engenharia, que já estava comprometida com o desenvolvimento de novas features e via a troca do OCR como um retrabalho custoso. Eu superei isso apresentando a eles não apenas o 'o quê' (trocar o OCR), mas o 'porquê' (o impacto financeiro do churn e o sofrimento do cliente). Apresentei a eles os dados e os enquadrei como os 'heróis' que poderiam resolver a maior dor do meu cliente.",
+        "q_en": "What challenges did you face when prioritizing the OCR provider change and flow redesign in the roadmap? Was there team resistance?",
+        "a_en": "Yes, the biggest challenge was resistance from the engineering team, which was already committed to developing new features and saw the OCR change as costly rework. I overcame this by presenting not just the 'what' (change OCR), but the 'why' (financial impact of churn and customer suffering). I presented the data to them and framed them as the 'heroes' who could solve my customer's biggest pain."
+      },
+      {
+        "q": "Depois de implementar as mudanças, como você mediu e acompanhou a redução do churn e o impacto na adoção do aplicativo ao longo do tempo?",
+        "a": "Eu criamos um 'dashboard de saúde do onboarding'. Nele, acompanhávamos diariamente duas métricas principais: a taxa de conversão do funil de onboarding e a taxa de retenção da coorte de novos usuários após 7 e 30 dias. Vimos a conversão do funil aumentar em 20 pontos percentuais na primeira semana, e a retenção de 7 dias melhorar consistentemente, o que provou o impacto direto das mudanças.",
+        "q_en": "After implementing the changes, how did you measure and track churn reduction and app adoption impact over time?",
+        "a_en": "I created an 'onboarding health dashboard.' In it, I tracked two main metrics daily: onboarding funnel conversion rate and new user cohort retention rate after 7 and 30 days. I saw funnel conversion increase by 20 percentage points in the first week, and 7-day retention consistently improve, which proved the direct impact of the changes."
+      }
+    ],
+    "__file": "src\\data\\dive_deep\\dive_deep_case1.js",
+    "lp_id": "dive_deep",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 68,
+      "status": "KO",
+      "positives": [
+        "Customer Obsession forte (18 men��es relevantes)",
+        "M�tricas robustas (40)",
+        "Mecanismos/repeatability destacados"
+      ],
+      "warnings": [
+        "Sem conflito/resist�ncia vis�vel"
+      ],
+      "dealbreakers": [
+        "Ratio EU:N�S abaixo de 2:1 (6:4)"
+      ],
+      "suggestions": [
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Ratio EU:N�S abaixo de 2:1 (6:4)",
+          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem conflito/resist�ncia vis�vel",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 6:4 (ideal >= 3:1)",
+          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 40",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ],
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 68,
+        "status": "KO",
+        "dealbreakers": [
+          "Ratio EU:N�S abaixo de 2:1 (6:4)"
+        ],
+        "warnings": [
+          "Sem conflito/resist�ncia vis�vel"
+        ],
+        "positives": [
+          "Customer Obsession forte (18 men��es relevantes)",
+          "M�tricas robustas (40)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 40,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 18,
+        "conflictSignals": false,
+        "mechanismSignals": 3,
+        "ratio": {
+          "ratio": 0.6,
+          "counts": {
+            "eu": 6,
+            "nos": 4
+          }
+        },
+        "recency": {
+          "monthsAgo": 72,
+          "status": "needs-refresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 597,
+            "enLen": 529,
+            "deltaPct": 0.11390284757118928
+          },
+          "t": {
+            "ptLen": 492,
+            "enLen": 479,
+            "deltaPct": 0.026422764227642278
+          },
+          "a": {
+            "ptLen": 2360,
+            "enLen": 2256,
+            "deltaPct": 0.04406779661016949
+          },
+          "r": {
+            "ptLen": 511,
+            "enLen": 487,
+            "deltaPct": 0.046966731898238745
+          },
+          "l": {
+            "ptLen": 823,
+            "enLen": 777,
+            "deltaPct": 0.05589307411907655
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true
+      }
+    }
+  }
+}

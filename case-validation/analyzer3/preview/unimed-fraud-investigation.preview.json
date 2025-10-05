@@ -1,0 +1,321 @@
+{
+  "original": {
+    "id": "unimed-fraud-investigation",
+    "title": "Investigação Manual de Anomalias em Transações para Identificar um Novo Padrão de Fraude",
+    "title_pt": "Investigação Manual de Anomalias em Transações para Identificar um Novo Padrão de Fraude",
+    "title_en": "Manual Investigation of Transaction Anomalies to Identify a New Fraud Pattern",
+    "company": "Unimed",
+    "period": "06/2022-12/2022",
+    "isTopCase": false,
+    "pt": {
+      "s": "Nosso sistema automatizado de detecção de fraudes em reembolsos na Unimed era eficaz contra padrões conhecidos, e as métricas gerais de perdas estavam dentro da meta. No entanto, uma analista sênior me procurou com uma anedota: 'Algo parece estranho com os reembolsos de uma rede de clínicas, o volume é incomum, mas os valores são baixos e passam nos filtros'.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Eu poderia ter descartado a anedota, já que os dashboards estavam 'verdes'. Porém, minha experiência prévia com sistemas de fraud detection me ensinou que analistas experientes desenvolvem 'intuição de padrões' que algoritmos não capturam - especialmente para fraudes novas e sofisticadas. Os sistemas automatizados são excelentes em encontrar o que já conhecem, mas a intuição humana é superior para detectar anomalias genuinamente novas. Minha tarefa foi validar ou refutar a suspeita através de investigação profunda, pois nossa limitação conhecida era não detectar fraudes de baixo valor distribuídas que passavam sob o radar individual.",
+      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Pedi à equipe de dados uma extração de todas as transações daquela rede nos últimos seis meses. Importei o CSV de 47MB (186k linhas) para Power BI. EU criei 8 visualizações diferentes para explorar os dados: 1. Scatter plot: valor_transação vs hora_do_dia, 2. Heatmap: IP_origem vs procedimento_código, 3. Network graph: médico → paciente relationships, 4. Timeline: volume por dia da semana, 5. Geographic map: distribuição por CEP, 6. Frequency analysis: procedimentos mais comuns, 7. Boxplot: distribuição de valores por médico, 8. Correlation matrix: todas as variáveis numéricas. Foi o scatter plot (#1) que revelou o padrão 'smoking gun': cluster massivo de valores baixos (R$ 50-150) entre 2-4am - estatisticamente impossível para consultas médicas reais, pois clínicas não operam na madrugada. O deep dive manual revelou o esquema completo: aproximadamente 50 pacientes diferentes recebiam reembolsos para o mesmo procedimento de baixo valor, de múltiplos médicos, submetidos de madrugada e do mesmo IP (185.23.xxx.xxx). Era um padrão de fraude 'low and slow', inteligentemente desenhado para passar sob o radar de sistemas que monitoram volumes altos ou valores altos. Com a evidência irrefutável, EU liderei um workshop com a equipe de ciência de dados. Não apenas relatei o problema; traduzi minhas descobertas em requisitos técnicos claros para novas 'features' do modelo: 'criar variável para nº de pacientes únicos por IP em 24h', 'sinalizar transações fora do horário comercial', 'detectar redes de relacionamento artificial médico-paciente'. EU priorizei esse desenvolvimento no backlog, defini cronograma de 30 dias, e estabeleci KPI de sucesso: reduzir esse tipo específico de fraude em 90%.",
+      "r": "A investigação descobriu uma rede de fraude que representava R$ 2 milhões anuais em perdas (0.8% do total de reembolsos, mas concentrada em uma única modalidade). Comparado ao volume total de reembolsos (R$ 250M/ano), parecia pequeno percentualmente, mas o impacto concentrado era significativo - representava 15% das perdas totais por fraude da empresa. A atualização do modelo, baseada nos meus requisitos técnicos, foi implementada e reduziu as perdas por esse tipo de fraude em mais de 95% no trimestre seguinte. A analista que deu o alerta inicial foi publicamente reconhecida no all-hands, criando uma cultura onde insights humanos são valorizados e incentivados. Posteriormente, quando cheguei no Sicredi, apliquei exatamente essa mesma técnica de 'visualização exploratória' para identificar padrões em fraude de pagamentos PIX, resultando na redução de 45% que mencionei no outro case.",
+      "l": "A lição fundamental foi que esta investigação manual revelou algo que nenhum dashboard ou sistema automatizado detectaria: um padrão de rede distribuída que só emergia quando você plotava múltiplas dimensões simultaneamente. Os verdadeiros insights estão escondidos nas intersections dos dados que só investigação humana profunda consegue encontrar. Mergulhar fundo não é apenas sobre volume de dados, mas sobre fazer as conexões certas entre dimensões aparentemente não relacionadas. A humildade de ouvir insights qualitativos de analistas experientes, combinada com a curiosidade de investigar dados brutos pessoalmente, é o que separa líderes que encontram truth from signal vs. those que se contentam com superficial metrics."
+    },
+    "en": {
+      "s": "Our automated fraud detection system for reimbursements at Unimed was effective against known patterns, and general loss metrics were within target. However, a senior analyst approached me with an anecdote: 'Something seems strange with reimbursements from a clinic network, the volume is unusual, but values are low and pass through filters'.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. I could have dismissed the anecdote, since dashboards were 'green.' However, my previous experience with fraud detection systems taught me that experienced analysts develop 'pattern intuition' that algorithms don't capture - especially for new and sophisticated frauds. Automated systems are excellent at finding what they already know, but human intuition is superior for detecting genuinely new anomalies. My task was to validate or refute the suspicion through deep investigation, as my known limitation was not detecting low-value distributed frauds that flew under the individual radar.",
+      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I asked the data team for an extraction of all transactions from that network in the last six months. I imported the 47MB CSV (186k lines) into Power BI. I created 8 different visualizations to explore the data: 1. Scatter plot: transaction_value vs time_of_day, 2. Heatmap: source_IP vs procedure_code, 3. Network graph: doctor → patient relationships, 4. Timeline: volume by day of week, 5. Geographic map: distribution by ZIP code, 6. Frequency analysis: most common procedures, 7. Boxplot: value distribution by doctor, 8. Correlation matrix: all numerical variables. It was scatter plot (#1) that revealed the 'smoking gun' pattern: massive cluster of low values (R$ 50-150) between 2-4am - statistically impossible for real medical consultations, as clinics don't operate at dawn. The manual deep dive revealed the complete scheme: approximately 50 different patients received reimbursements for the same low-value procedure, from multiple doctors, submitted at dawn from the same IP (185.23.xxx.xxx). It was a 'low and slow' fraud pattern, intelligently designed to fly under the radar of systems that monitor high volumes or high values. With irrefutable evidence, I led a workshop with the data science team. I didn't just report the problem; I translated my findings into clear technical requirements for new model 'features': 'create variable for number of unique patients per IP in 24h', 'flag transactions outside business hours', 'detect artificial doctor-patient relationship networks'. I prioritized this development in the backlog, defined a 30-day timeline, and established success KPI: reduce this specific type of fraud by 90%.",
+      "r": "The investigation discovered a fraud network that represented R$ 2 million annual losses (0.8% of total reimbursements, but concentrated in a single modality). Compared to total reimbursement volume (R$ 250M/year), it seemed small percentually, but the concentrated impact was significant - it represented 15% of the company's total fraud losses. The model update, based on my technical requirements, was implemented and reduced losses from this type of fraud by over 95% in the following quarter. The analyst who gave the initial alert was publicly recognized in all-hands, creating a culture where human insights are valued and encouraged. Later, when I arrived at Sicredi, I applied exactly this same 'exploratory visualization' technique to identify patterns in PIX payment fraud, resulting in the 45% reduction I mentioned in the other case.",
+      "l": "The fundamental lesson was that this manual investigation revealed something no dashboard or automated system would detect: a distributed network pattern that only emerged when you plotted multiple dimensions simultaneously. True insights are hidden in data intersections that only deep human investigation can find. Diving deep isn't just about data volume, but about making the right connections between seemingly unrelated dimensions. The humility to listen to qualitative insights from experienced analysts, combined with curiosity to investigate raw data personally, is what separates leaders who find truth from signal vs. those who settle for superficial metrics."
+    },
+    "fups": [
+      {
+        "q": "Como você garantiu que as visualizações no Power BI estavam livres de vieses ou erros que poderiam comprometer os insights?",
+        "a": "EU usei 3 técnicas de validação: 1) Cross-validation - cada insight do Power BI foi confirmado com queries diretas no banco de dados, 2) Peer review - mostrei as visualizações para 2 analistas seniores que validaram os padrões, 3) Sanity checks - testei edge cases conhecidos para garantir que as visualizações mostravam o comportamento esperado. Por exemplo, quando identifiquei o cluster 2-4am, voltei aos dados brutos e confirmei que realmente havia 847 transações nesse horário em 6 meses.",
+        "q_en": "How did you ensure Power BI visualizations were free from biases or errors that could compromise insights?",
+        "a_en": "I used 3 validation techniques: 1) Cross-validation - each Power BI insight was confirmed with direct database queries, 2) Peer review - I showed visualizations to 2 senior analysts who validated patterns, 3) Sanity checks - I tested known edge cases to ensure visualizations showed expected behavior. For example, when I identified the 2-4am cluster, I went back to raw data and confirmed there were really 847 transactions in that timeframe over 6 months."
+      },
+      {
+        "q": "Houve resistência da equipe de ciência de dados em aceitar sua priorização ou recomendações? Como lidou com isso?",
+        "a": "Sim, inicialmente houve ceticismo - eles confiavam no modelo automatizado e viam minha análise como 'cherry picking'. EU lidei mostrando não apenas o padrão, mas a magnitude: 'Este esquema representa 15% das minha perdas totais, não é estatisticamente insignificante'. Mais importante: enquadrei como 'expandir as capacidades do modelo', não 'corrigir falhas do modelo'. Quando mostramos o ROI (R$ 2M salvos vs. R$ 80k de desenvolvimento), eles se tornaram advocates da solução.",
+        "q_en": "Was there resistance from the data science team in accepting your prioritization or recommendations? How did you handle it?",
+        "a_en": "Yes, initially there was skepticism - they trusted the automated model and saw my analysis as 'cherry picking.' I handled it by showing not just the pattern, but the magnitude: 'This scheme represents 15% of my total losses, it's not statistically insignificant.' More importantly: I framed it as 'expand model capabilities,' not 'fix model flaws.' When I showed ROI (R$ 2M saved vs. R$ 80k development), they became solution advocates."
+      },
+      {
+        "q": "Depois de corrigir o modelo, você implementou processos ou ferramentas para detectar fraudes semelhantes de forma proativa?",
+        "a": "Sim, EU criei o ritual trimestral 'Caça a Padrões' onde uma equipe multidisciplinar (analistas + cientistas de dados + eu) analisa proativamente dados de diferentes modalidades procurando anomalias. Usamos a mesma metodologia: múltiplas visualizações + cruzamento qualitativo/quantitativo. Também implementei alertas automáticos para 'red flags' que identificamos: transações fora de horário comercial, múltiplos pacientes mesmo IP, procedures com frequência anômala. Em 18 meses, identificamos 3 novos esquemas usando essa abordagem.",
+        "q_en": "After fixing the model, did you implement processes or tools to proactively detect similar frauds?",
+        "a_en": "Yes, I created the quarterly 'Pattern Hunt' ritual where a multidisciplinary team (analysts + data scientists + me) proactively analyzes data from different modalities looking for anomalies. I use the same methodology: multiple visualizations + qualitative/quantitative cross-referencing. I also implemented automatic alerts for 'red flags' I identified: transactions outside business hours, multiple patients same IP, procedures with anomalous frequency. In 18 months, I identified 3 new schemes using this approach."
+      },
+      {
+        "q": "Olhando para trás, existe algo que você teria feito de forma diferente para identificar o padrão mais rápido ou com maior eficiência?",
+        "a": "Sim, EU teria começado com network analysis desde o primeiro dia. Perdi 2 dias criando visualizações tradicionais antes de criar o network graph que mostrou as connections artificiais médico-paciente. Hoje, sempre que investigo fraude, começou com 3 visualizações: network graph (para ver relationships), time series (para ver patterns temporais), e geographic plot (para ver concentrações espaciais). Essa sequência otimizada reduz tempo de investigação de 5 para 2 dias.",
+        "q_en": "Looking back, is there anything you would have done differently to identify the pattern faster or more efficiently?",
+        "a_en": "Yes, I would have started with network analysis from day one. I lost 2 days creating traditional visualizations before creating the network graph that showed artificial doctor-patient connections. Today, whenever I investigate fraud, I start with 3 visualizations: network graph (to see relationships), time series (to see temporal patterns), and geographic plot (to see spatial concentrations. This optimized sequence reduces investigation time from 5 to 2 days."
+      },
+      {
+        "q": "Como aplicou a técnica de 'visualização exploratória' em outros projetos, e quais foram os resultados mais notáveis?",
+        "a": "Apliquei no Sicredi para PIX fraud detection, na Unimed para procedure abuse detection, e em consultorias para customer churn analysis. O resultado mais notável foi no Sicredi: usando scatter plots de transaction_amount vs. transaction_time, identifiquei que 78% das fraudes aconteciam entre 11pm-2am (horário que fraudsters preferem pois há menos monitoring). Isso resultou em enhanced risk scoring noturno que reduziu PIX fraud em 47%. A metodologia virou 'template padrão' que documentei e reuso.",
+        "q_en": "How did you apply the 'exploratory visualization' technique in other projects, and what were the most notable results?",
+        "a_en": "I applied it at Sicredi for PIX fraud detection, at Unimed for procedure abuse detection, and in consultancies for customer churn analysis. Most notable result was at Sicredi: using scatter plots of transaction_amount vs. transaction_time, I identified that 78% of frauds happened between 11pm-2am (time fraudsters prefer as there's less monitoring). This resulted in enhanced nighttime risk scoring that reduced PIX fraud by 47%. The methodology became 'standard template' that I documented and reuse."
+      },
+      {
+        "q": "Quais outras opções você considerou antes de decidir por uma análise manual dos dados?",
+        "a": "A primeira opção considerada foi pedir à equipe de dados para 'investigar'. No entanto, o pedido seria vago ('investigue atividades suspeitas'). Decidi fazer a análise exploratória inicial eu mesmo para transformar a suspeita difusa em uma hipótese concreta. Uma vez que identifiquei o padrão de IP e horário, pude fazer um pedido muito mais específico e eficaz para a equipe de dados.",
+        "q_en": "What other options did you consider before deciding on manual data analysis?",
+        "a_en": "The first option considered was asking the data team to 'investigate.' However, the request would be vague ('investigate suspicious activities'). I decided to do the initial exploratory analysis myself to transform the diffuse suspicion into a concrete hypothesis. Once I identified the IP and time pattern, I could make a much more specific and effective request to the data team."
+      },
+      {
+        "q": "Você enfrentou resistência ou ceticismo ao iniciar essa investigação? Se sim, como lidou com isso?",
+        "a": "Sim, houve ceticismo inicial da equipe de dados, que confiava em seu modelo automatizado. Eu lidei com isso não como uma crítica, mas como uma parceria. Eu disse: 'Nosso modelo é ótimo, mas quero testar se podemos torná-lo ainda mais inteligente. Me ajudem com esta extração de dados para que eu possa procurar por novos padrões que possamos ensinar à máquina'.",
+        "q_en": "Did you face resistance or skepticism when starting this investigation? If so, how did you handle it?",
+        "a_en": "Yes, there was initial skepticism from the data team, which trusted their automated model. I handled this not as criticism, but as partnership. I said: 'Our model is great, but I want to test if I can make it even smarter. Help me with this data extraction so I can look for new patterns I can teach the machine.'"
+      },
+      {
+        "q": "Como você mediu o sucesso do novo modelo de detecção após as mudanças implementadas?",
+        "a": "Eu medimos de duas formas. Primeiro, rodamos o novo modelo retroativamente sobre os dados antigos e confirmamos que ele teria detectado 98% dos casos fraudulentos que eu encontrei manualmente. Segundo, após a implementação, criamos um dashboard específico para monitorar a incidência de fraudes 'low and slow', e vimos esse número cair para quase zero.",
+        "q_en": "How did you measure the success of the new detection model after the changes were implemented?",
+        "a_en": "I measured in two ways. First, I ran the new model retroactively on old data and confirmed it would have detected 98% of fraudulent cases I found manually. Second, after implementation, I created a specific dashboard to monitor 'low and slow' fraud incidence, and I saw this number drop to almost zero."
+      },
+      {
+        "q": "Essa abordagem de investigação foi escalada para outros tipos de transações ou áreas?",
+        "a": "Sim. O sucesso desta investigação levou à criação de um novo ritual trimestral chamado 'Caça a Padrões'. Nele, uma equipe multidisciplinar se reúne para analisar proativamente os dados de diferentes linhas de produto, procurando por anomalias e novos padrões, em vez de apenas reagir aos alertas dos sistemas existentes.",
+        "q_en": "Was this investigation approach scaled to other types of transactions or areas?",
+        "a_en": "Yes. The success of this investigation led to the creation of a new quarterly ritual called 'Pattern Hunt.' In it, a multidisciplinary team meets to proactively analyze data from different product lines, looking for anomalies and new patterns, instead of just reacting to existing system alerts."
+      },
+      {
+        "q": "O que você fez para criar um ambiente onde uma analista se sentisse segura para trazer uma 'suspeita' sem dados concretos?",
+        "a": "Eu mantenho uma política de 'portas abertas' e frequentemente participo das reuniões operacionais da equipe, não como chefe, mas como ouvinte. Em uma dessas reuniões, eu havia dito explicitamente: 'Se vocês virem algo que parece estranho, mesmo que não saibam explicar o porquê, minha porta está sempre aberta'. A segurança foi construída proativamente.",
+        "q_en": "What did you do to create an environment where an analyst felt safe bringing a 'suspicion' without concrete data?",
+        "a_en": "I maintain an 'open doors' policy and frequently participate in team operational meetings, not as boss, but as listener. In one of these meetings, I had explicitly said: 'If you see something that seems strange, even if you can't explain why, my door is always open.' Safety was built proactively."
+      }
+    ],
+    "__file": "src\\data\\dive_deep\\dive_deep_case3.js",
+    "lp_id": "dive_deep",
+    "__load_warnings": []
+  },
+  "mutated": {
+    "id": "unimed-fraud-investigation",
+    "title": "Investigação Manual de Anomalias em Transações para Identificar um Novo Padrão de Fraude",
+    "title_pt": "Investigação Manual de Anomalias em Transações para Identificar um Novo Padrão de Fraude",
+    "title_en": "Manual Investigation of Transaction Anomalies to Identify a New Fraud Pattern",
+    "company": "Unimed",
+    "period": "06/2022-12/2022",
+    "isTopCase": false,
+    "pt": {
+      "s": "Nosso sistema automatizado de detecção de fraudes em reembolsos na Unimed era eficaz contra padrões conhecidos, e as métricas gerais de perdas estavam dentro da meta. No entanto, uma analista sênior me procurou com uma anedota: 'Algo parece estranho com os reembolsos de uma rede de clínicas, o volume é incomum, mas os valores são baixos e passam nos filtros'.",
+      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Eu poderia ter descartado a anedota, já que os dashboards estavam 'verdes'. Porém, minha experiência prévia com sistemas de fraud detection me ensinou que analistas experientes desenvolvem 'intuição de padrões' que algoritmos não capturam - especialmente para fraudes novas e sofisticadas. Os sistemas automatizados são excelentes em encontrar o que já conhecem, mas a intuição humana é superior para detectar anomalias genuinamente novas. Minha tarefa foi validar ou refutar a suspeita através de investigação profunda, pois nossa limitação conhecida era não detectar fraudes de baixo valor distribuídas que passavam sob o radar individual.",
+      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Pedi à equipe de dados uma extração de todas as transações daquela rede nos últimos seis meses. Importei o CSV de 47MB (186k linhas) para Power BI. EU criei 8 visualizações diferentes para explorar os dados: 1. Scatter plot: valor_transação vs hora_do_dia, 2. Heatmap: IP_origem vs procedimento_código, 3. Network graph: médico → paciente relationships, 4. Timeline: volume por dia da semana, 5. Geographic map: distribuição por CEP, 6. Frequency analysis: procedimentos mais comuns, 7. Boxplot: distribuição de valores por médico, 8. Correlation matrix: todas as variáveis numéricas. Foi o scatter plot (#1) que revelou o padrão 'smoking gun': cluster massivo de valores baixos (R$ 50-150) entre 2-4am - estatisticamente impossível para consultas médicas reais, pois clínicas não operam na madrugada. O deep dive manual revelou o esquema completo: aproximadamente 50 pacientes diferentes recebiam reembolsos para o mesmo procedimento de baixo valor, de múltiplos médicos, submetidos de madrugada e do mesmo IP (185.23.xxx.xxx). Era um padrão de fraude 'low and slow', inteligentemente desenhado para passar sob o radar de sistemas que monitoram volumes altos ou valores altos. Com a evidência irrefutável, EU liderei um workshop com a equipe de ciência de dados. Não apenas relatei o problema; traduzi minhas descobertas em requisitos técnicos claros para novas 'features' do modelo: 'criar variável para nº de pacientes únicos por IP em 24h', 'sinalizar transações fora do horário comercial', 'detectar redes de relacionamento artificial médico-paciente'. EU priorizei esse desenvolvimento no backlog, defini cronograma de 30 dias, e estabeleci KPI de sucesso: reduzir esse tipo específico de fraude em 90%.",
+      "r": "A investigação descobriu uma rede de fraude que representava R$ 2 milhões anuais em perdas (0.8% do total de reembolsos, mas concentrada em uma única modalidade). Comparado ao volume total de reembolsos (R$ 250M/ano), parecia pequeno percentualmente, mas o impacto concentrado era significativo - representava 15% das perdas totais por fraude da empresa. A atualização do modelo, baseada nos meus requisitos técnicos, foi implementada e reduziu as perdas por esse tipo de fraude em mais de 95% no trimestre seguinte. A analista que deu o alerta inicial foi publicamente reconhecida no all-hands, criando uma cultura onde insights humanos são valorizados e incentivados. Posteriormente, quando cheguei no Sicredi, apliquei exatamente essa mesma técnica de 'visualização exploratória' para identificar padrões em fraude de pagamentos PIX, resultando na redução de 45% que mencionei no outro case.",
+      "l": "A lição fundamental foi que esta investigação manual revelou algo que nenhum dashboard ou sistema automatizado detectaria: um padrão de rede distribuída que só emergia quando você plotava múltiplas dimensões simultaneamente. Os verdadeiros insights estão escondidos nas intersections dos dados que só investigação humana profunda consegue encontrar. Mergulhar fundo não é apenas sobre volume de dados, mas sobre fazer as conexões certas entre dimensões aparentemente não relacionadas. A humildade de ouvir insights qualitativos de analistas experientes, combinada com a curiosidade de investigar dados brutos pessoalmente, é o que separa líderes que encontram truth from signal vs. those que se contentam com superficial metrics."
+    },
+    "en": {
+      "s": "Our automated fraud detection system for reimbursements at Unimed was effective against known patterns, and general loss metrics were within target. However, a senior analyst approached me with an anecdote: 'Something seems strange with reimbursements from a clinic network, the volume is unusual, but values are low and pass through filters'.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. I could have dismissed the anecdote, since dashboards were 'green.' However, my previous experience with fraud detection systems taught me that experienced analysts develop 'pattern intuition' that algorithms don't capture - especially for new and sophisticated frauds. Automated systems are excellent at finding what they already know, but human intuition is superior for detecting genuinely new anomalies. My task was to validate or refute the suspicion through deep investigation, as my known limitation was not detecting low-value distributed frauds that flew under the individual radar.",
+      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I asked the data team for an extraction of all transactions from that network in the last six months. I imported the 47MB CSV (186k lines) into Power BI. I created 8 different visualizations to explore the data: 1. Scatter plot: transaction_value vs time_of_day, 2. Heatmap: source_IP vs procedure_code, 3. Network graph: doctor → patient relationships, 4. Timeline: volume by day of week, 5. Geographic map: distribution by ZIP code, 6. Frequency analysis: most common procedures, 7. Boxplot: value distribution by doctor, 8. Correlation matrix: all numerical variables. It was scatter plot (#1) that revealed the 'smoking gun' pattern: massive cluster of low values (R$ 50-150) between 2-4am - statistically impossible for real medical consultations, as clinics don't operate at dawn. The manual deep dive revealed the complete scheme: approximately 50 different patients received reimbursements for the same low-value procedure, from multiple doctors, submitted at dawn from the same IP (185.23.xxx.xxx). It was a 'low and slow' fraud pattern, intelligently designed to fly under the radar of systems that monitor high volumes or high values. With irrefutable evidence, I led a workshop with the data science team. I didn't just report the problem; I translated my findings into clear technical requirements for new model 'features': 'create variable for number of unique patients per IP in 24h', 'flag transactions outside business hours', 'detect artificial doctor-patient relationship networks'. I prioritized this development in the backlog, defined a 30-day timeline, and established success KPI: reduce this specific type of fraud by 90%.",
+      "r": "The investigation discovered a fraud network that represented R$ 2 million annual losses (0.8% of total reimbursements, but concentrated in a single modality). Compared to total reimbursement volume (R$ 250M/year), it seemed small percentually, but the concentrated impact was significant - it represented 15% of the company's total fraud losses. The model update, based on my technical requirements, was implemented and reduced losses from this type of fraud by over 95% in the following quarter. The analyst who gave the initial alert was publicly recognized in all-hands, creating a culture where human insights are valued and encouraged. Later, when I arrived at Sicredi, I applied exactly this same 'exploratory visualization' technique to identify patterns in PIX payment fraud, resulting in the 45% reduction I mentioned in the other case.",
+      "l": "The fundamental lesson was that this manual investigation revealed something no dashboard or automated system would detect: a distributed network pattern that only emerged when you plotted multiple dimensions simultaneously. True insights are hidden in data intersections that only deep human investigation can find. Diving deep isn't just about data volume, but about making the right connections between seemingly unrelated dimensions. The humility to listen to qualitative insights from experienced analysts, combined with curiosity to investigate raw data personally, is what separates leaders who find truth from signal vs. those who settle for superficial metrics."
+    },
+    "fups": [
+      {
+        "q": "Como você garantiu que as visualizações no Power BI estavam livres de vieses ou erros que poderiam comprometer os insights?",
+        "a": "EU usei 3 técnicas de validação: 1) Cross-validation - cada insight do Power BI foi confirmado com queries diretas no banco de dados, 2) Peer review - mostrei as visualizações para 2 analistas seniores que validaram os padrões, 3) Sanity checks - testei edge cases conhecidos para garantir que as visualizações mostravam o comportamento esperado. Por exemplo, quando identifiquei o cluster 2-4am, voltei aos dados brutos e confirmei que realmente havia 847 transações nesse horário em 6 meses.",
+        "q_en": "How did you ensure Power BI visualizations were free from biases or errors that could compromise insights?",
+        "a_en": "I used 3 validation techniques: 1) Cross-validation - each Power BI insight was confirmed with direct database queries, 2) Peer review - I showed visualizations to 2 senior analysts who validated patterns, 3) Sanity checks - I tested known edge cases to ensure visualizations showed expected behavior. For example, when I identified the 2-4am cluster, I went back to raw data and confirmed there were really 847 transactions in that timeframe over 6 months."
+      },
+      {
+        "q": "Houve resistência da equipe de ciência de dados em aceitar sua priorização ou recomendações? Como lidou com isso?",
+        "a": "Sim, inicialmente houve ceticismo - eles confiavam no modelo automatizado e viam minha análise como 'cherry picking'. EU lidei mostrando não apenas o padrão, mas a magnitude: 'Este esquema representa 15% das minha perdas totais, não é estatisticamente insignificante'. Mais importante: enquadrei como 'expandir as capacidades do modelo', não 'corrigir falhas do modelo'. Quando mostramos o ROI (R$ 2M salvos vs. R$ 80k de desenvolvimento), eles se tornaram advocates da solução.",
+        "q_en": "Was there resistance from the data science team in accepting your prioritization or recommendations? How did you handle it?",
+        "a_en": "Yes, initially there was skepticism - they trusted the automated model and saw my analysis as 'cherry picking.' I handled it by showing not just the pattern, but the magnitude: 'This scheme represents 15% of my total losses, it's not statistically insignificant.' More importantly: I framed it as 'expand model capabilities,' not 'fix model flaws.' When I showed ROI (R$ 2M saved vs. R$ 80k development), they became solution advocates."
+      },
+      {
+        "q": "Depois de corrigir o modelo, você implementou processos ou ferramentas para detectar fraudes semelhantes de forma proativa?",
+        "a": "Sim, EU criei o ritual trimestral 'Caça a Padrões' onde uma equipe multidisciplinar (analistas + cientistas de dados + eu) analisa proativamente dados de diferentes modalidades procurando anomalias. Usamos a mesma metodologia: múltiplas visualizações + cruzamento qualitativo/quantitativo. Também implementei alertas automáticos para 'red flags' que identificamos: transações fora de horário comercial, múltiplos pacientes mesmo IP, procedures com frequência anômala. Em 18 meses, identificamos 3 novos esquemas usando essa abordagem.",
+        "q_en": "After fixing the model, did you implement processes or tools to proactively detect similar frauds?",
+        "a_en": "Yes, I created the quarterly 'Pattern Hunt' ritual where a multidisciplinary team (analysts + data scientists + me) proactively analyzes data from different modalities looking for anomalies. I use the same methodology: multiple visualizations + qualitative/quantitative cross-referencing. I also implemented automatic alerts for 'red flags' I identified: transactions outside business hours, multiple patients same IP, procedures with anomalous frequency. In 18 months, I identified 3 new schemes using this approach."
+      },
+      {
+        "q": "Olhando para trás, existe algo que você teria feito de forma diferente para identificar o padrão mais rápido ou com maior eficiência?",
+        "a": "Sim, EU teria começado com network analysis desde o primeiro dia. Perdi 2 dias criando visualizações tradicionais antes de criar o network graph que mostrou as connections artificiais médico-paciente. Hoje, sempre que investigo fraude, começou com 3 visualizações: network graph (para ver relationships), time series (para ver patterns temporais), e geographic plot (para ver concentrações espaciais). Essa sequência otimizada reduz tempo de investigação de 5 para 2 dias.",
+        "q_en": "Looking back, is there anything you would have done differently to identify the pattern faster or more efficiently?",
+        "a_en": "Yes, I would have started with network analysis from day one. I lost 2 days creating traditional visualizations before creating the network graph that showed artificial doctor-patient connections. Today, whenever I investigate fraud, I start with 3 visualizations: network graph (to see relationships), time series (to see temporal patterns), and geographic plot (to see spatial concentrations. This optimized sequence reduces investigation time from 5 to 2 days."
+      },
+      {
+        "q": "Como aplicou a técnica de 'visualização exploratória' em outros projetos, e quais foram os resultados mais notáveis?",
+        "a": "Apliquei no Sicredi para PIX fraud detection, na Unimed para procedure abuse detection, e em consultorias para customer churn analysis. O resultado mais notável foi no Sicredi: usando scatter plots de transaction_amount vs. transaction_time, identifiquei que 78% das fraudes aconteciam entre 11pm-2am (horário que fraudsters preferem pois há menos monitoring). Isso resultou em enhanced risk scoring noturno que reduziu PIX fraud em 47%. A metodologia virou 'template padrão' que documentei e reuso.",
+        "q_en": "How did you apply the 'exploratory visualization' technique in other projects, and what were the most notable results?",
+        "a_en": "I applied it at Sicredi for PIX fraud detection, at Unimed for procedure abuse detection, and in consultancies for customer churn analysis. Most notable result was at Sicredi: using scatter plots of transaction_amount vs. transaction_time, I identified that 78% of frauds happened between 11pm-2am (time fraudsters prefer as there's less monitoring). This resulted in enhanced nighttime risk scoring that reduced PIX fraud by 47%. The methodology became 'standard template' that I documented and reuse."
+      },
+      {
+        "q": "Quais outras opções você considerou antes de decidir por uma análise manual dos dados?",
+        "a": "A primeira opção considerada foi pedir à equipe de dados para 'investigar'. No entanto, o pedido seria vago ('investigue atividades suspeitas'). Decidi fazer a análise exploratória inicial eu mesmo para transformar a suspeita difusa em uma hipótese concreta. Uma vez que identifiquei o padrão de IP e horário, pude fazer um pedido muito mais específico e eficaz para a equipe de dados.",
+        "q_en": "What other options did you consider before deciding on manual data analysis?",
+        "a_en": "The first option considered was asking the data team to 'investigate.' However, the request would be vague ('investigate suspicious activities'). I decided to do the initial exploratory analysis myself to transform the diffuse suspicion into a concrete hypothesis. Once I identified the IP and time pattern, I could make a much more specific and effective request to the data team."
+      },
+      {
+        "q": "Você enfrentou resistência ou ceticismo ao iniciar essa investigação? Se sim, como lidou com isso?",
+        "a": "Sim, houve ceticismo inicial da equipe de dados, que confiava em seu modelo automatizado. Eu lidei com isso não como uma crítica, mas como uma parceria. Eu disse: 'Nosso modelo é ótimo, mas quero testar se podemos torná-lo ainda mais inteligente. Me ajudem com esta extração de dados para que eu possa procurar por novos padrões que possamos ensinar à máquina'.",
+        "q_en": "Did you face resistance or skepticism when starting this investigation? If so, how did you handle it?",
+        "a_en": "Yes, there was initial skepticism from the data team, which trusted their automated model. I handled this not as criticism, but as partnership. I said: 'Our model is great, but I want to test if I can make it even smarter. Help me with this data extraction so I can look for new patterns I can teach the machine.'"
+      },
+      {
+        "q": "Como você mediu o sucesso do novo modelo de detecção após as mudanças implementadas?",
+        "a": "Eu medimos de duas formas. Primeiro, rodamos o novo modelo retroativamente sobre os dados antigos e confirmamos que ele teria detectado 98% dos casos fraudulentos que eu encontrei manualmente. Segundo, após a implementação, criamos um dashboard específico para monitorar a incidência de fraudes 'low and slow', e vimos esse número cair para quase zero.",
+        "q_en": "How did you measure the success of the new detection model after the changes were implemented?",
+        "a_en": "I measured in two ways. First, I ran the new model retroactively on old data and confirmed it would have detected 98% of fraudulent cases I found manually. Second, after implementation, I created a specific dashboard to monitor 'low and slow' fraud incidence, and I saw this number drop to almost zero."
+      },
+      {
+        "q": "Essa abordagem de investigação foi escalada para outros tipos de transações ou áreas?",
+        "a": "Sim. O sucesso desta investigação levou à criação de um novo ritual trimestral chamado 'Caça a Padrões'. Nele, uma equipe multidisciplinar se reúne para analisar proativamente os dados de diferentes linhas de produto, procurando por anomalias e novos padrões, em vez de apenas reagir aos alertas dos sistemas existentes.",
+        "q_en": "Was this investigation approach scaled to other types of transactions or areas?",
+        "a_en": "Yes. The success of this investigation led to the creation of a new quarterly ritual called 'Pattern Hunt.' In it, a multidisciplinary team meets to proactively analyze data from different product lines, looking for anomalies and new patterns, instead of just reacting to existing system alerts."
+      },
+      {
+        "q": "O que você fez para criar um ambiente onde uma analista se sentisse segura para trazer uma 'suspeita' sem dados concretos?",
+        "a": "Eu mantenho uma política de 'portas abertas' e frequentemente participo das reuniões operacionais da equipe, não como chefe, mas como ouvinte. Em uma dessas reuniões, eu havia dito explicitamente: 'Se vocês virem algo que parece estranho, mesmo que não saibam explicar o porquê, minha porta está sempre aberta'. A segurança foi construída proativamente.",
+        "q_en": "What did you do to create an environment where an analyst felt safe bringing a 'suspicion' without concrete data?",
+        "a_en": "I maintain an 'open doors' policy and frequently participate in team operational meetings, not as boss, but as listener. In one of these meetings, I had explicitly said: 'If you see something that seems strange, even if you can't explain why, my door is always open.' Safety was built proactively."
+      }
+    ],
+    "__file": "src\\data\\dive_deep\\dive_deep_case3.js",
+    "lp_id": "dive_deep",
+    "__load_warnings": [],
+    "__scorecard": {
+      "score": 42,
+      "status": "KO",
+      "positives": [
+        "Customer Obsession forte (6 men��es relevantes)",
+        "M�tricas robustas (19)",
+        "Mecanismos/repeatability destacados"
+      ],
+      "warnings": [
+        "Sem m�tricas financeiras claras",
+        "Sem m�tricas de cliente expl�citas",
+        "Sem conflito/resist�ncia vis�vel",
+        "Transi��es STAR(L) pouco claras",
+        "Mic-drop/aprendizado forte n�o identificado"
+      ],
+      "dealbreakers": [
+        "Ratio EU:N�S abaixo de 2:1 (5:3)"
+      ],
+      "suggestions": [
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Ratio EU:N�S abaixo de 2:1 (5:3)",
+          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas financeiras claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas de cliente expl�citas",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem conflito/resist�ncia vis�vel",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Transi��es STAR(L) pouco claras",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Mic-drop/aprendizado forte n�o identificado",
+          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 5:3 (ideal >= 3:1)",
+          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 19",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ],
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 42,
+        "status": "KO",
+        "dealbreakers": [
+          "Ratio EU:N�S abaixo de 2:1 (5:3)"
+        ],
+        "warnings": [
+          "Sem m�tricas financeiras claras",
+          "Sem m�tricas de cliente expl�citas",
+          "Sem conflito/resist�ncia vis�vel",
+          "Transi��es STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte n�o identificado"
+        ],
+        "positives": [
+          "Customer Obsession forte (6 men��es relevantes)",
+          "M�tricas robustas (19)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 19,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": true
+        },
+        "customerSignals": 6,
+        "conflictSignals": false,
+        "mechanismSignals": 17,
+        "ratio": {
+          "ratio": 0.625,
+          "counts": {
+            "eu": 5,
+            "nos": 3
+          }
+        },
+        "recency": {
+          "monthsAgo": 34,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 361,
+            "enLen": 343,
+            "deltaPct": 0.04986149584487535
+          },
+          "t": {
+            "ptLen": 747,
+            "enLen": 703,
+            "deltaPct": 0.058902275769745646
+          },
+          "a": {
+            "ptLen": 1815,
+            "enLen": 1764,
+            "deltaPct": 0.02809917355371901
+          },
+          "r": {
+            "ptLen": 894,
+            "enLen": 846,
+            "deltaPct": 0.053691275167785234
+          },
+          "l": {
+            "ptLen": 729,
+            "enLen": 670,
+            "deltaPct": 0.08093278463648834
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 0,
+        "micDropSignals": false
+      }
+    }
+  }
+}
