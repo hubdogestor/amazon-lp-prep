@@ -1,16 +1,16 @@
 {
-  "run_at": "2025-10-05T15:25:53.064Z",
+  "run_at": "2025-10-05T16:00:40.795Z",
   "data_dir": "src/data",
   "total_cases": 72,
-  "filtered_cases": 4,
-  "lp": "disagree_and_commit",
+  "filtered_cases": 3,
+  "lp": "best_employer",
   "case": null,
   "results": [
     {
-      "lp_id": "disagree_and_commit",
-      "case_id": "unimed-retention-strategy",
-      "title_pt": "Defendi foco em retencao e depois liderei o plano hibrido aprovado pelo CEO",
-      "title_en": "I defended retention focus and then led the hybrid plan approved by the CEO",
+      "lp_id": "best_employer",
+      "case_id": "bradesco-agile-community-creation",
+      "title_pt": "Escalei a guilda de produto e promovi 18 lideres em seis meses",
+      "title_en": "I scaled the product guild and promoted 18 leaders in six months",
       "status": "Ready",
       "lint": {
         "ok": true,
@@ -18,329 +18,277 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
+        "score": 92,
         "status": "Ready",
         "dealbreakers": [],
-        "warnings": [],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
+          "Sem m�tricas operacionais expl�citas",
+          "Sem conflito/resist�ncia vis�vel"
+        ],
         "positives": [
-          "Customer Obsession forte (10 men��es relevantes)",
-          "M�tricas robustas (35)",
-          "Ratio EU:N�S saud�vel (11:0)",
-          "Conflito/endurecimento presente",
+          "M�tricas robustas (17)",
+          "Ratio EU:N�S saud�vel (1:0)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 35,
+        "metricsCount": 17,
         "metricCategories": {
           "financial": true,
           "customer": true,
-          "operational": true
+          "operational": false
         },
-        "customerSignals": 10,
-        "conflictSignals": true,
-        "mechanismSignals": 3,
+        "customerSignals": 2,
+        "conflictSignals": false,
+        "mechanismSignals": 5,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 11,
+            "eu": 1,
             "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 24,
+          "monthsAgo": 26,
           "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 563,
-            "enLen": 504,
-            "deltaPct": 0.10479573712255773
+            "ptLen": 489,
+            "enLen": 394,
+            "deltaPct": 0.19427402862985685
           },
           "t": {
-            "ptLen": 331,
-            "enLen": 330,
-            "deltaPct": 0.0030211480362537764
+            "ptLen": 340,
+            "enLen": 277,
+            "deltaPct": 0.18529411764705883
           },
           "a": {
-            "ptLen": 1545,
-            "enLen": 1435,
-            "deltaPct": 0.07119741100323625
+            "ptLen": 1041,
+            "enLen": 955,
+            "deltaPct": 0.08261287223823247
           },
           "r": {
-            "ptLen": 600,
-            "enLen": 555,
-            "deltaPct": 0.075
+            "ptLen": 449,
+            "enLen": 415,
+            "deltaPct": 0.0757238307349666
           },
           "l": {
-            "ptLen": 270,
-            "enLen": 281,
-            "deltaPct": 0.03914590747330961
+            "ptLen": 314,
+            "enLen": 302,
+            "deltaPct": 0.03821656050955414
           }
         },
         "hookSignals": true,
-        "transitionSignals": 2,
+        "transitionSignals": 3,
         "micDropSignals": true
       },
       "changes": [
         {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Customer Obsession fraca (poucos sinais)",
+          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas operacionais expl�citas",
+          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem conflito/resist�ncia vis�vel",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        },
+        {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 11:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 1:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 35",
+          "message": "M�tricas detectadas: 17",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ]
     },
     {
-      "lp_id": "disagree_and_commit",
-      "case_id": "huawei-world-cup-timeline",
-      "title_pt": "Bati de frente com o VP sobre acelerar 5G e entreguei o plano aprovado para a Copa Feminina",
-      "title_en": "I challenged the VP on 5G acceleration and delivered the approved plan for the Women's World Cup",
+      "lp_id": "best_employer",
+      "case_id": "sicredi-360-feedback-system",
+      "title_pt": "Transformei o feedback 360 em pipeline de sucessao para todos os PMs",
+      "title_en": "I turned 360 feedback into a full succession pipeline for every PM",
       "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": []
+        "warnings": [
+          "desequil�brio PT/EN em 't' (diferen�a >25%)"
+        ]
       },
       "heur": {
-        "score": 100,
+        "score": 99,
         "status": "Ready",
         "dealbreakers": [],
-        "warnings": [],
+        "warnings": [
+          "Sem m�tricas operacionais expl�citas",
+          "Sem conflito/resist�ncia vis�vel"
+        ],
         "positives": [
-          "Customer Obsession forte (9 men��es relevantes)",
-          "M�tricas robustas (23)",
-          "Ratio EU:N�S saud�vel (9:0)",
-          "Conflito/endurecimento presente",
+          "Customer Obsession forte (3 men��es relevantes)",
+          "M�tricas robustas (16)",
+          "Ratio EU:N�S saud�vel (3:0)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 23,
+        "metricsCount": 16,
         "metricCategories": {
           "financial": true,
           "customer": true,
-          "operational": true
+          "operational": false
         },
-        "customerSignals": 9,
-        "conflictSignals": true,
-        "mechanismSignals": 6,
+        "customerSignals": 3,
+        "conflictSignals": false,
+        "mechanismSignals": 8,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 9,
+            "eu": 3,
             "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 27,
+          "monthsAgo": 10,
           "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 707,
-            "enLen": 810,
-            "deltaPct": 0.1271604938271605
+            "ptLen": 358,
+            "enLen": 323,
+            "deltaPct": 0.09776536312849161
           },
           "t": {
-            "ptLen": 322,
-            "enLen": 305,
-            "deltaPct": 0.052795031055900624
+            "ptLen": 376,
+            "enLen": 267,
+            "deltaPct": 0.2898936170212766
           },
           "a": {
-            "ptLen": 1205,
-            "enLen": 1227,
-            "deltaPct": 0.017929910350448247
+            "ptLen": 1118,
+            "enLen": 977,
+            "deltaPct": 0.1261180679785331
           },
           "r": {
-            "ptLen": 568,
-            "enLen": 537,
-            "deltaPct": 0.05457746478873239
-          },
-          "l": {
-            "ptLen": 240,
-            "enLen": 244,
-            "deltaPct": 0.01639344262295082
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 2,
-        "micDropSignals": true
-      },
-      "changes": [
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 9:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 23",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
-    },
-    {
-      "lp_id": "disagree_and_commit",
-      "case_id": "bradesco-mvp-feature-prioritization",
-      "title_pt": "Discordei da priorizacao de MVP, aceitei o voto do comite e ainda entreguei o top recurso pedido",
-      "title_en": "I disagreed with the MVP priorities, accepted the committee vote, and delivered the top feature they demanded",
-      "status": "Ready",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 100,
-        "status": "Ready",
-        "dealbreakers": [],
-        "warnings": [],
-        "positives": [
-          "Customer Obsession forte (10 men��es relevantes)",
-          "M�tricas robustas (14)",
-          "Ratio EU:N�S saud�vel (9:1)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 14,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
-        },
-        "customerSignals": 10,
-        "conflictSignals": true,
-        "mechanismSignals": 1,
-        "ratio": {
-          "ratio": 0.9,
-          "counts": {
-            "eu": 9,
-            "nos": 1
-          }
-        },
-        "recency": {
-          "monthsAgo": 29,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 441,
-            "enLen": 429,
-            "deltaPct": 0.027210884353741496
-          },
-          "t": {
-            "ptLen": 308,
-            "enLen": 311,
-            "deltaPct": 0.00964630225080386
-          },
-          "a": {
-            "ptLen": 884,
-            "enLen": 859,
-            "deltaPct": 0.02828054298642534
-          },
-          "r": {
-            "ptLen": 471,
-            "enLen": 422,
-            "deltaPct": 0.1040339702760085
-          },
-          "l": {
-            "ptLen": 208,
-            "enLen": 207,
-            "deltaPct": 0.004807692307692308
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 5,
-        "micDropSignals": true
-      },
-      "changes": [
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 9:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 14",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
-    },
-    {
-      "lp_id": "disagree_and_commit",
-      "case_id": "commit-on-disagreement-product-strategy",
-      "title_pt": "Escalei discordancia sobre estrategia de pricing e liderei o piloto aprovado sem ruido",
-      "title_en": "I escalated the pricing strategy disagreement and led the approved pilot without friction",
-      "status": "Ready",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 100,
-        "status": "Ready",
-        "dealbreakers": [],
-        "warnings": [],
-        "positives": [
-          "Customer Obsession forte (12 men��es relevantes)",
-          "M�tricas robustas (30)",
-          "Ratio EU:N�S saud�vel (8:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 30,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
-        },
-        "customerSignals": 12,
-        "conflictSignals": true,
-        "mechanismSignals": 4,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 8,
-            "nos": 0
-          }
-        },
-        "recency": {
-          "monthsAgo": 14,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
             "ptLen": 390,
-            "enLen": 355,
-            "deltaPct": 0.08974358974358974
-          },
-          "t": {
-            "ptLen": 294,
-            "enLen": 265,
-            "deltaPct": 0.09863945578231292
-          },
-          "a": {
-            "ptLen": 1139,
-            "enLen": 1024,
-            "deltaPct": 0.1009657594381036
-          },
-          "r": {
-            "ptLen": 474,
-            "enLen": 443,
-            "deltaPct": 0.06540084388185655
+            "enLen": 376,
+            "deltaPct": 0.035897435897435895
           },
           "l": {
-            "ptLen": 250,
-            "enLen": 250,
-            "deltaPct": 0
+            "ptLen": 248,
+            "enLen": 238,
+            "deltaPct": 0.04032258064516129
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 3,
+        "micDropSignals": true
+      },
+      "changes": [
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem m�tricas operacionais expl�citas",
+          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem conflito/resist�ncia vis�vel",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        },
+        {
+          "severity": "info",
+          "topic": "ownership",
+          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+        },
+        {
+          "severity": "info",
+          "topic": "metrics",
+          "message": "M�tricas detectadas: 16",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+        }
+      ]
+    },
+    {
+      "lp_id": "best_employer",
+      "case_id": "sefaz-reverse-mentoring-program",
+      "title_pt": "Implementei reverse mentoring hibrido e subi o eNPS da secretaria para 82",
+      "title_en": "I launched hybrid reverse mentoring and lifted the department eNPS to 82",
+      "status": "Ready",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 96,
+        "status": "Ready",
+        "dealbreakers": [],
+        "warnings": [
+          "Sem conflito/resist�ncia vis�vel"
+        ],
+        "positives": [
+          "Customer Obsession forte (13 men��es relevantes)",
+          "M�tricas robustas (8)",
+          "Ratio EU:N�S saud�vel (2:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 8,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 13,
+        "conflictSignals": false,
+        "mechanismSignals": 11,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 2,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 11,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 518,
+            "enLen": 446,
+            "deltaPct": 0.138996138996139
+          },
+          "t": {
+            "ptLen": 351,
+            "enLen": 336,
+            "deltaPct": 0.042735042735042736
+          },
+          "a": {
+            "ptLen": 934,
+            "enLen": 887,
+            "deltaPct": 0.05032119914346895
+          },
+          "r": {
+            "ptLen": 538,
+            "enLen": 477,
+            "deltaPct": 0.11338289962825279
+          },
+          "l": {
+            "ptLen": 280,
+            "enLen": 283,
+            "deltaPct": 0.01060070671378092
           }
         },
         "hookSignals": true,
@@ -349,15 +297,21 @@
       },
       "changes": [
         {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sem conflito/resist�ncia vis�vel",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        },
+        {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 8:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 2:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 30",
+          "message": "M�tricas detectadas: 8",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ]
