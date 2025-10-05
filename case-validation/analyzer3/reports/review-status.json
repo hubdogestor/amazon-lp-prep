@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-05T11:23:37.430Z",
+  "run_at": "2025-10-05T12:20:02.836Z",
   "data_dir": "src/data",
   "total_cases": 72,
   "filtered_cases": 72,
@@ -1060,78 +1060,77 @@
     {
       "lp_id": "customer_obsession",
       "case_id": "unimed-customer-experience",
-      "title_pt": "Transformação da Experiência do Cliente com Aumento de NPS de 6 Pontos",
-      "title_en": "Customer Experience Transformation with 6-Point NPS Increase",
-      "status": "KO",
+      "title_pt": "Transformei a Jornada do Beneficiário e Levei o NPS de 28 para 58 em 12 Meses",
+      "title_en": "Rebuilt the Member Journey and Lifted NPS from 28 to 58 in 12 Months",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 62,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (2:1)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Sem conflito/resist�ncia vis�vel",
           "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (51 men��es relevantes)",
-          "M�tricas robustas (52)",
+          "Customer Obsession forte (18 men��es relevantes)",
+          "M�tricas robustas (55)",
+          "Ratio EU:N�S saud�vel (6:0)",
+          "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 52,
+        "metricsCount": 55,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 51,
-        "conflictSignals": false,
-        "mechanismSignals": 5,
+        "customerSignals": 18,
+        "conflictSignals": true,
+        "mechanismSignals": 2,
         "ratio": {
-          "ratio": 0.6666666666666666,
+          "ratio": 1,
           "counts": {
-            "eu": 2,
-            "nos": 1
+            "eu": 6,
+            "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 10,
+          "monthsAgo": 22,
           "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 666,
-            "enLen": 629,
-            "deltaPct": 0.05555555555555555
+            "ptLen": 434,
+            "enLen": 371,
+            "deltaPct": 0.14516129032258066
           },
           "t": {
-            "ptLen": 490,
-            "enLen": 460,
-            "deltaPct": 0.061224489795918366
+            "ptLen": 267,
+            "enLen": 293,
+            "deltaPct": 0.08873720136518772
           },
           "a": {
-            "ptLen": 2141,
-            "enLen": 2068,
-            "deltaPct": 0.03409621672115834
+            "ptLen": 1492,
+            "enLen": 1298,
+            "deltaPct": 0.13002680965147453
           },
           "r": {
-            "ptLen": 844,
-            "enLen": 810,
-            "deltaPct": 0.04028436018957346
+            "ptLen": 401,
+            "enLen": 378,
+            "deltaPct": 0.057356608478802994
           },
           "l": {
-            "ptLen": 591,
-            "enLen": 565,
-            "deltaPct": 0.043993231810490696
+            "ptLen": 254,
+            "enLen": 247,
+            "deltaPct": 0.027559055118110236
           }
         },
         "hookSignals": true,
-        "transitionSignals": 1,
+        "transitionSignals": 0,
         "micDropSignals": true
       },
       "changes": []
@@ -1139,47 +1138,43 @@
     {
       "lp_id": "customer_obsession",
       "case_id": "bradesco-next-customer-ritual",
-      "title_pt": "Implementação de Ritual Customer-Centric que Elevou NPS de 35 para 62",
-      "title_en": "Implementation of Customer-Centric Ritual that Raised NPS from 35 to 62",
-      "status": "Lint-Blocker",
+      "title_pt": "Liderei o Ritual de Voz do Cliente que Levou o NPS do Next de 35 para 62",
+      "title_en": "Led the Voice-of-Customer Ritual that Lifted Next's NPS from 35 to 62",
+      "status": "Ready",
       "lint": {
-        "ok": false,
-        "issues": [
-          "fup[9].q_en ausente ou vazio",
-          "fup[9].a_en ausente ou vazio"
-        ],
+        "ok": true,
+        "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 57,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (3:3)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Sem conflito/resist�ncia vis�vel",
           "Transi��es STAR(L) pouco claras",
           "Case antigo (>7 anos)"
         ],
         "positives": [
-          "Customer Obsession forte (54 men��es relevantes)",
-          "M�tricas robustas (18)",
+          "Customer Obsession forte (40 men��es relevantes)",
+          "M�tricas robustas (37)",
+          "Ratio EU:N�S saud�vel (14:1)",
+          "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 18,
+        "metricsCount": 37,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 54,
-        "conflictSignals": false,
+        "customerSignals": 40,
+        "conflictSignals": true,
         "mechanismSignals": 8,
         "ratio": {
-          "ratio": 0.5,
+          "ratio": 0.9333333333333333,
           "counts": {
-            "eu": 3,
-            "nos": 3
+            "eu": 14,
+            "nos": 1
           }
         },
         "recency": {
@@ -1188,29 +1183,29 @@
         },
         "parity": {
           "s": {
-            "ptLen": 594,
-            "enLen": 563,
-            "deltaPct": 0.05218855218855219
+            "ptLen": 478,
+            "enLen": 388,
+            "deltaPct": 0.18828451882845187
           },
           "t": {
-            "ptLen": 529,
-            "enLen": 498,
-            "deltaPct": 0.05860113421550094
+            "ptLen": 278,
+            "enLen": 281,
+            "deltaPct": 0.010676156583629894
           },
           "a": {
-            "ptLen": 1912,
-            "enLen": 1832,
-            "deltaPct": 0.04184100418410042
+            "ptLen": 1584,
+            "enLen": 1491,
+            "deltaPct": 0.058712121212121215
           },
           "r": {
-            "ptLen": 915,
-            "enLen": 876,
-            "deltaPct": 0.04262295081967213
+            "ptLen": 486,
+            "enLen": 474,
+            "deltaPct": 0.024691358024691357
           },
           "l": {
-            "ptLen": 722,
-            "enLen": 712,
-            "deltaPct": 0.013850415512465374
+            "ptLen": 274,
+            "enLen": 278,
+            "deltaPct": 0.014388489208633094
           }
         },
         "hookSignals": true,
@@ -1222,47 +1217,42 @@
     {
       "lp_id": "customer_obsession",
       "case_id": "sicredi-frictionless-checkout",
-      "title_pt": "Redesign de Gateway Focado no Cliente Final que Reduziu Abandono de Carrinho em 25 Pontos",
-      "title_en": "Customer-Focused Gateway Redesign that Reduced Cart Abandonment by 25 Points",
-      "status": "Lint-Blocker",
+      "title_pt": "Redesenhei o Checkout do Gateway e Cortei Abandono de Carrinho em 25 Pontos",
+      "title_en": "Redesigned Our Gateway Checkout and Cut Cart Abandonment by 25 Points",
+      "status": "Ready",
       "lint": {
-        "ok": false,
-        "issues": [
-          "fup[9].q_en ausente ou vazio",
-          "fup[9].a_en ausente ou vazio"
-        ],
+        "ok": true,
+        "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 46,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (1:2)"
-        ],
+        "score": 89,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Sem m�tricas operacionais expl�citas",
           "Sem conflito/resist�ncia vis�vel",
           "Mecanismos/processos n�o evidenciados",
           "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (69 men��es relevantes)",
-          "M�tricas robustas (26)"
+          "Customer Obsession forte (28 men��es relevantes)",
+          "M�tricas robustas (28)",
+          "Ratio EU:N�S saud�vel (0:0)"
         ],
-        "metricsCount": 26,
+        "metricsCount": 28,
         "metricCategories": {
           "financial": true,
           "customer": true,
-          "operational": false
+          "operational": true
         },
-        "customerSignals": 69,
+        "customerSignals": 28,
         "conflictSignals": false,
         "mechanismSignals": 0,
         "ratio": {
-          "ratio": 0.3333333333333333,
+          "ratio": 1,
           "counts": {
-            "eu": 1,
-            "nos": 2
+            "eu": 0,
+            "nos": 0
           }
         },
         "recency": {
@@ -1271,33 +1261,33 @@
         },
         "parity": {
           "s": {
-            "ptLen": 556,
-            "enLen": 499,
-            "deltaPct": 0.10251798561151079
+            "ptLen": 395,
+            "enLen": 358,
+            "deltaPct": 0.09367088607594937
           },
           "t": {
-            "ptLen": 546,
-            "enLen": 509,
-            "deltaPct": 0.06776556776556776
+            "ptLen": 279,
+            "enLen": 294,
+            "deltaPct": 0.05102040816326531
           },
           "a": {
-            "ptLen": 1698,
-            "enLen": 1588,
-            "deltaPct": 0.06478209658421673
+            "ptLen": 1134,
+            "enLen": 1035,
+            "deltaPct": 0.0873015873015873
           },
           "r": {
-            "ptLen": 1027,
-            "enLen": 929,
-            "deltaPct": 0.09542356377799416
+            "ptLen": 435,
+            "enLen": 410,
+            "deltaPct": 0.05747126436781609
           },
           "l": {
-            "ptLen": 723,
-            "enLen": 680,
-            "deltaPct": 0.059474412171507604
+            "ptLen": 292,
+            "enLen": 279,
+            "deltaPct": 0.04452054794520548
           }
         },
         "hookSignals": true,
-        "transitionSignals": 1,
+        "transitionSignals": 0,
         "micDropSignals": true
       },
       "changes": []

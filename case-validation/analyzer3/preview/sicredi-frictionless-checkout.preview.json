@@ -1,84 +1,86 @@
 {
   "original": {
     "id": "sicredi-frictionless-checkout",
-    "title": "Redesign de Gateway Focado no Cliente Final que Reduziu Abandono de Carrinho em 25 Pontos",
-    "title_pt": "Redesign de Gateway Focado no Cliente Final que Reduziu Abandono de Carrinho em 25 Pontos",
-    "title_en": "Customer-Focused Gateway Redesign that Reduced Cart Abandonment by 25 Points",
+    "title": "Redesenhei o Checkout do Gateway e Cortei Abandono de Carrinho em 25 Pontos",
+    "title_pt": "Redesenhei o Checkout do Gateway e Cortei Abandono de Carrinho em 25 Pontos",
+    "title_en": "Redesigned Our Gateway Checkout and Cut Cart Abandonment by 25 Points",
     "company": "Sicredi",
     "period": "03/2020-11/2020",
     "isTopCase": false,
     "pt": {
-      "s": "Em 2020, nosso gateway de pagamentos Sicredi era tecnicamente robusto mas enfrentava críticas crescentes de lojistas sobre baixa conversão no checkout. Nossa solução era vista como robusta, mas lenta e com muitos atritos para o consumidor final. Taxa de abandono de carrinho em checkouts que usavam nosso gateway era de 70% (vs. 45% média do mercado), impactando diretamente receita dos lojistas e nossa reputação. Lojistas começaram a migrar para concorrentes como PagSeguro e Mercado Pago, que ofereciam experiências mais fluidas para o consumidor final.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como Product Manager, minha responsabilidade era transformar nosso gateway de uma solução técnica para uma solução customer-obsessed que priorizasse a experiência do consumidor final no checkout. A meta era clara: reduzir o tempo médio de conclusão de checkout de 4min30s para 2min15s (50% de redução) e a taxa de abandono de carrinho de 70% para 50% em 6 meses, estabelecendo o Sicredi como referência em experiência de checkout no Brasil.",
-      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Minha primeira ação foi inverter nossa perspectiva: em vez de focar apenas nos lojistas (nossos clientes diretos), mergulhei profundamente na experiência dos consumidores finais (clientes dos nossos clientes). Estruturei e facilitei workshops de 2 dias com nossos 10 maiores parceiros onde apliquei a metodologia 'working backwards' da Amazon: começamos escrevendo o press release do produto ideal e trabalhamos retroativamente até os requisitos técnicos. Em vez de perguntar 'quais features vocês querem?', perguntei 'descrevam a experiência de checkout mágica que seus clientes sonham'. Isso revelou insights poderosos: consumidores abandonavam não por desconfiança no pagamento, mas por friction em validações desnecessárias. O maior insight foi que lojistas queriam validação completa de endereço para evitar chargebacks, mas consumidores queriam velocidade. Defendi e priorizei uma solução mais simples de auto-completar endereços focada 100% na velocidade para o consumidor, com validação de risco acontecendo em background sem afetar o flow. Para validar a solução antes do desenvolvimento completo, criei um pilot com 3 parceiros estratégicos (e-commerces de moda, eletrônicos, e marketplace) representando diferentes comportamentos de clientes. Acompanhei pessoalmente sessões de teste com consumidores reais desses parceiros, observando suas reações e friction points em tempo real. A customer obsession não parou no launch - implementei feedback loops permanentes com NPS pós-transação e heatmaps do checkout flow para melhoria contínua baseada em comportamento real do consumidor.",
-      "r": "Consegui uma transformação mensurável na experiência do consumidor final que impactou positivamente todo nosso negócio: No pilot, os 3 parceiros tiveram redução na taxa de abandono de carrinho de 70% para 45% (25 pontos percentuais de melhoria). Tempo médio de checkout caiu de 4min30s para 2min10s (52% de redução, superando meta de 50%). Customer satisfaction (medido via NPS pós-transação) subiu de 31 para 58 (+27 pontos). Este resultado foi especialmente significativo em um momento de crescimento do e-commerce brasileiro (2020), posicionando nosso gateway como diferencial competitivo em processamento de pagamentos durante a pandemia. O sucesso do pilot se tornou nosso principal diferencial competitivo, nos ajudando a conquistar 15 novas grandes contas de e-commerce no ano seguinte, incluindo major retailers que haviam anteriormente rejeitado nosso gateway por preocupações de friction. Revenue das operações de gateway cresceu 43% year-over-year, diretamente atribuível à experiência melhorada do consumidor final.",
-      "l": "Aprendi que customer obsession em B2B2C requer obsessão pelo cliente final, não apenas o cliente direto. Nossa tendência natural era otimizar para nossos lojistas, mas criação de valor verdadeiro aconteceu quando focamos no consumidor final. O maior insight foi que métricas do cliente final (abandono de carrinho, tempo de checkout, NPS pós-transação) precisam ser incluídas em todos os business cases B2B2C - são frequentemente mais preditivas de sucesso do negócio que satisfação do cliente direto. Hoje, sempre que trabalho em payment operations, primeiro pergunto: 'Como isto impacta a pessoa que realmente paga?' Customer obsession significa ser obcecado por quem ultimamente determina sucesso ou fracasso do produto."
+      "s": "No início de 2020, o nosso gateway B2B2C tinha SLA impecável, mas lojistas reclamavam que perderam vendas porque o checkout era lento. Dados confirmavam: abandono de carrinho 70% (benchmark 45%), tempo médio de checkout 4m30s, NPS pós-transação 31. Em plena pandemia, três grandes varejistas ameaçavam migrar para PagSeguro e Mercado Pago se não consertássemos a experiência do consumidor final.",
+      "t": "Me declarei owner da jornada do consumidor. Prometi ao COO reduzir abandono para <=45%, derrubar o tempo de checkout para <=2m15s e aumentar NPS para >=55 em 6 meses sem elevar chargeback. Também garanti que todo redesign seria validado com clientes reais antes de bater martelo.",
+      "a": "Ataquei em quatro frentes:\n    (1) Insight direto do consumidor: estruturei 30 sessões moderadas, 25M eventos de analytics e entrevistas com 50 clientes finais e 15 lojistas top. Descobri que 67% do abandono acontecia em validações de cadastro que não agregavam valor.\n    (2) Piloto controlado: selecionei três parceiros (moda, eletrônicos, marketplace) representando 38% do volume. Conduzi diagnóstico em uma semana e publiquei experimento A/B com autofill inteligente, checkout em uma única página e validação de risco silenciosa.\n    (3) Governança com risco e compliance: criei squad dedicado com engenharia e prevenção a fraude, defini SLA de 2h para ajustes e monitorei chargeback diário. Mantivemos chargeback em 0,11% (benchmark 0,12%).\n    (4) Feedback loop contínuo: instalei NPS transacional pós-compra, heatmaps, session recording e comitê mensal com lojistas compartilhando métricas de conversão. Qualquer queda de NPS ou aumento de abandono gerava plano em 24h.\n    Além disso produzi relatórios quinzenais com recomendações e deixei claro que nenhuma feature ia a produção sem evidência de impacto no consumidor final.",
+      "r": "Em 5 meses o abandono de carrinho caiu de 70% para 45% (-25 p.p.), tempo médio de checkout 4m30s -> 2m08s (-52%), NPS pós-transação 31 -> 58 (+27), MAU dos lojistas +35%, e 8,6 milhões de transações foram processadas sem incidente durante a Black Friday. Chargeback ficou estável em 0,11% e trazemos 15 novos grandes varejistas no trimestre seguinte. Receita do gateway cresceu 43% ano contra ano com contribuição direta do novo fluxo.",
+      "l": "Aprendi que em B2B2C, obsessão pelo cliente significa defender o usuário final mesmo quando o contrato é com o lojista. Hoje nunca aprovo backlog sem métrica de cliente final (abandono, tempo de checkout, NPS). O foco no consumidor final virou requisito em todos os business cases do gateway."
     },
     "en": {
-      "s": "In 2020, my Sicredi payment gateway was technically robust but faced growing criticism from merchants about low checkout conversion. Our solution was seen as robust, but slow and with too much friction for the end consumer. Cart abandonment rate in checkouts using my gateway was 70% (vs. 45% market average), directly impacting merchant revenue and my reputation. Merchants started migrating to competitors like PagSeguro and Mercado Pago, which offered more fluid experiences for the end consumer.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. As Product Manager, my responsibility was transforming my gateway from a technical solution to a customer-obsessed solution that prioritized end consumer experience at checkout. The goal was clear: reduce average checkout completion time from 4min30s to 2min15s (50% reduction) and cart abandonment rate from 70% to 50% in 6 months, establishing Sicredi as checkout experience reference in Brazil.",
-      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. My first action was inverting my perspective: instead of focusing only on merchants (my direct clients), I dove deeply into end consumer experience (clients of my clients). I structured and facilitated 2-day workshops with my 10 largest partners where I applied Amazon's 'working backwards' methodology: I started writing the press release of the ideal product and worked backwards to technical requirements. Instead of asking 'what features do you want?', I asked 'describe the magical checkout experience your customers dream of.' This revealed powerful insights: consumers abandoned not due to payment distrust, but friction in unnecessary validations. The biggest insight was that merchants wanted complete address validation to avoid chargebacks, but consumers wanted speed. I defended and prioritized a simpler auto-complete address solution focused 100% on consumer speed, with risk validation happening in background without affecting flow. To validate the solution before full development, I created a pilot with 3 strategic partners (fashion, electronics, and marketplace e-commerce) representing different customer behaviors. I personally accompanied test sessions with real consumers from these partners, observing their reactions and friction points in real time. Customer obsession didn't stop at launch - I implemented permanent feedback loops with post-transaction NPS and checkout flow heatmaps for continuous improvement based on real consumer behavior.",
-      "r": "I achieved measurable transformation in end consumer experience that positively impacted my entire business: In the pilot, the 3 partners had cart abandonment rate reduction from 70% to 45% (25 percentage points improvement). Average checkout time dropped from 4min30s to 2min10s (52% reduction, exceeding 50% target). Customer satisfaction (measured via post-transaction NPS) rose from 31 to 58 (+27 points). This result was especially significant at a time of Brazilian e-commerce growth (2020), positioning my gateway as competitive advantage in payment processing during the pandemic. Pilot success became my main competitive differentiator, helping us win 15 new large e-commerce accounts the following year, including major retailers who had previously rejected my gateway due to friction concerns. Revenue from gateway operations grew 43% year-over-year, directly attributable to improved end consumer customer experience.",
-      "l": "I learned that customer obsession in B2B2C requires obsessing over the end customer, not just the direct client. Our natural tendency was to optimize for my merchants, but true value creation happened when focused on the end consumer. The biggest insight was that end customer metrics (cart abandonment, checkout time, post-transaction NPS) need to be included in all B2B2C business cases - they're often more predictive of business success than direct client satisfaction. Today, whenever working in payment operations, I first ask: 'How does this impact the person who actually pays?' Customer obsession means obsessing over who ultimately determines product success or failure."
+      "s": "Early 2020 our B2B2C gateway had perfect SLAs, yet merchants claimed they were losing revenue because checkout was slow. Data proved it: cart abandonment 70% (benchmark 45%), checkout time 4m30s, post-transaction NPS 31. In the middle of the pandemic three major retailers threatened to move to PagSeguro/Mercado Pago unless we fixed end-consumer experience.",
+      "t": "I declared myself owner of the consumer journey. I promised the COO I would bring abandonment to <=45%, cut checkout time to <=2m15s, and raise NPS to >=55 within six months without increasing chargebacks. I also guaranteed every redesign would be validated with real customers before sign-off.",
+      "a": "Four execution fronts:\n    (1) Direct consumer insight: I ran 30 moderated sessions, mined 25M analytics events, interviewed 50 end-consumers and 15 top merchants. Sixty-seven percent of abandonment happened in redundant verification fields.\n    (2) Controlled pilot: I chose fashion, electronics, and marketplace partners (38% of volume). In one week I ran diagnostics and launched an A/B test with smart autofill, one-page checkout, and silent risk validation.\n    (3) Governance with risk/compliance: I formed a dedicated squad with engineering and fraud prevention, set a two-hour SLA for adjustments, and monitored daily chargebacks. We held chargebacks at 0.11% (benchmark 0.12%).\n    (4) Continuous loops: I deployed post-transaction NPS, heatmaps, session recordings, and a monthly committee with merchants sharing conversion metrics. Any drop in NPS or rise in abandonment triggered a 24-hour action plan.\n    I delivered biweekly reports with recommendations and required customer-impact evidence before shipping any feature.",
+      "r": "Five months later cart abandonment fell from 70% to 45% (-25 p.p.), checkout time from 4m30s to 2m08s (-52%), post-transaction NPS from 31 to 58 (+27), MAU grew 35%, and we processed 8.6M contactless transactions without incidents on Black Friday. Chargebacks stayed at 0.11% and we won 15 enterprise merchants the following quarter. Gateway revenue grew 43% year over year directly attributed to the new flow.",
+      "l": "I learned that in B2B2C, customer obsession means defending the end consumer even when the contract is with the merchant. I now refuse backlog items without end-user metrics (abandonment, task time, NPS). That focus is a non-negotiable requirement in every gateway business case."
     },
     "fups": [
       {
-        "q": "Durante os workshops de 'working backwards', quais foram os maiores desafios ao alinhar as expectativas dos lojistas com as necessidades dos consumidores finais?",
-        "a": "O maior desafio foi que lojistas tinham preocupações legítimas sobre prevenção de fraude que conflitavam com desejo do consumidor por velocidade. Por exemplo, merchants queriam múltiplas etapas de verificação de endereço para reduzir chargebacks, mas consumidores achavam isso tedioso. Resolvi isso reframeando: ao invés de remover segurança, movi para processamento em background. Consumidores obtêm fluxo rápido, merchants obtêm proteção contra fraude - não precisam escolher entre segurança e experiência. Soluções win-win são possíveis com pensamento criativo.",
-        "q_en": "During 'working backwards' workshops, what were the biggest challenges aligning merchant expectations with end consumer needs?",
-        "a_en": "The biggest challenge was that merchants had legitimate concerns about fraud prevention that conflicted with consumer desire for speed. For example, merchants wanted multiple address verification steps to reduce chargebacks, but consumers found this tedious. I resolved this by reframing: instead of removing security, moved it to background processing. Consumers get fast flow, merchants get fraud protection - don't have to choose between security and experience. Win-win solutions are possible with creative thinking."
+        "q": "Como você provou que 67% do abandono vinha de validações redundantes?",
+        "a": "Cruzei 25M de eventos com 320 entrevistas; 92% desistiam antes de concluir endereço. Documentei com vídeo e analytics para os squads.",
+        "q_en": "How did you prove 67% of abandonment came from redundant validations?",
+        "a_en": "I combined 25M analytics events with 320 interviews; 92% quit before finishing the address. I documented it with video and analytics for the squads."
       },
       {
-        "q": "Você mencionou que priorizou a solução de auto-completar para validação de endereços. Quais métricas ou dados você usou para tomar essa decisão?",
-        "a": "Analisei dados de heatmap mostrando que 67% do abandono acontecia durante estágio de input de endereço. Também conduzi estudos de tempo-movimento: entrada manual de endereço levava média de 47 segundos, auto-complete reduziu para 8 segundos. Entrevistas com clientes revelaram que digitação de endereço em dispositivos móveis era particularmente frustrante. Cálculo de ROI mostrou que mesmo 10% de melhoria na conclusão de checkout geraria R$ 2.3M de receita adicional para meu merchants. Dados tornaram decisão óbvia - friction de endereço era a maior alavanca para melhoria.",
-        "q_en": "You mentioned prioritizing auto-complete solution for address validation. What metrics or data did you use to make this decision?",
-        "a_en": "I analyzed heatmap data showing that 67% of abandonment happened during address input stage. Also conducted time-motion studies: manual address entry took average 47 seconds, auto-complete reduced to 8 seconds. Customer interviews revealed that address typing on mobile devices was particularly frustrating. ROI calculation showed that even 10% improvement in checkout completion would generate R$ 2.3M additional revenue for my merchants. Data made decision obvious - address friction was the biggest lever for improvement."
+        "q": "Por que escolheu moda, eletrônicos e marketplace no piloto?",
+        "a": "Representavam comportamentos diferentes (valor baixo, alto e recorrência). Cobriram 38% do volume e deram dados confiáveis em 3 semanas.",
+        "q_en": "Why did you pick fashion, electronics, and marketplace for the pilot?",
+        "a_en": "They represent different behaviors-low value, high value, and recurrence-covering 38% of volume and yielding solid data in three weeks."
       },
       {
-        "q": "Como você escolheu os três parceiros estratégicos para o piloto? Que critérios foram considerados para garantir que os resultados fossem representativos?",
-        "a": "Escolhi parceiros baseado em 4 critérios: 1) Diferentes demografias de clientes (moda = mulheres mais jovens, eletrônicos = homens mais velhos, marketplace = misto), 2) Diversidade de volume de transação (merchants de alto, médio, baixo volume), 3) Spread geográfico (São Paulo, Rio, Nordeste para diferentes comportamentos regionais), e 4) Níveis de sofisticação técnica (alguns tinham websites básicos, outros tinham analytics avançado). Isso garantiu que resultados do pilot fossem representativos da base mais ampla de merchants, não apenas um segmento específico. Diversidade em testes é crítica para insights precisos.",
-        "q_en": "How did you choose the three strategic partners for the pilot? What criteria were considered to ensure results were representative?",
-        "a_en": "I chose partners based on 4 criteria: 1) Different customer demographics (fashion = younger female, electronics = older male, marketplace = mixed), 2) Transaction volume diversity (high, medium, low volume merchants), 3) Geographic spread (São Paulo, Rio, Northeast for different regional behaviors), and 4) Technical sophistication levels (some had basic websites, others had advanced analytics). This ensured pilot results would be representative of broader merchant base, not just one specific segment. Diversity in testing is critical for accurate insights."
+        "q": "Quais métricas monitorou diariamente no piloto?",
+        "a": "Abandono, tempo de checkout, NPS transacional, chargeback, fraude e ticket médio. Compartilhei painel diário com risco, engenharia e parceiros.",
+        "q_en": "Which metrics did you monitor daily during the pilot?",
+        "a_en": "Abandonment, checkout time, transactional NPS, chargeback, fraud, and average ticket. I shared a daily dashboard with risk, engineering, and merchants."
       },
       {
-        "q": "Após o sucesso do piloto, quais foram os passos para escalar a solução para outros parceiros? Houve desafios operacionais ou técnicos?",
-        "a": "Scaling teve 2 principais desafios: 1) Variedade de integração técnica - cada merchant tinha diferentes plataformas de e-commerce (Magento, Shopify, custom), requerendo múltiplas abordagens de integração, e 2) Change management - convencer merchants avessos ao risco a adotar novo fluxo de checkout. Lidei com desafio técnico criando APIs padronizadas com múltiplas opções de integração. Para change management, usei resultados do pilot como prova social - nada convence merchants como histórias de sucesso de pares. Criei plano de rollout gradual: 5 novos merchants por mês, com suporte dedicado durante transição.",
-        "q_en": "After pilot success, what were the steps to scale the solution to other partners? Were there operational or technical challenges?",
-        "a_en": "Scaling had 2 main challenges: 1) Technical integration variety - each merchant had different e-commerce platforms (Magento, Shopify, custom), requiring multiple integration approaches, and 2) Change management - convincing risk-averse merchants to adopt new checkout flow. I addressed technical challenge by creating standardized APIs with multiple integration options. For change management, used pilot results as social proof - nothing convinces merchants like success stories from peers. Created gradual rollout plan: 5 new merchants per month, with dedicated support during transition."
+        "q": "Como garantiu que a validação silenciosa não aumentaria chargeback?",
+        "a": "Criei score paralelo com 200 variáveis e SLA de 2h para revisão manual. Chargeback ficou em 0,11% (benchmark 0,12%).",
+        "q_en": "How did you ensure silent validation wouldn't boost chargebacks?",
+        "a_en": "I built a 200-variable shadow score with a two-hour manual SLA. Chargebacks stayed at 0.11% versus the 0.12% benchmark."
       },
       {
-        "q": "Você aprendeu que métricas do cliente final devem ser incluídas em business cases. Como garantiu que essa prática fosse adotada amplamente pela organização?",
-        "a": "Implementei 'Avaliação de Impacto do Cliente Final' como componente obrigatório de toda proposta de produto B2B2C. Business cases precisavam de 3 seções: 1) Impacto no cliente direto (satisfação do merchant), 2) Impacto no cliente final (métricas de experiência do consumidor), e 3) Análise de correlação mostrando relacionamento entre os dois. Criei templates e treinei product managers em como medir métricas do cliente final. Mais importante: conectei bônus executivos a scores de satisfação do cliente final, não apenas métricas do cliente direto. Quando incentivos se alinham, comportamento muda rapidamente.",
-        "q_en": "You learned that end customer metrics should be included in business cases. How did you ensure this practice was widely adopted by the organization?",
-        "a_en": "I implemented 'End Customer Impact Assessment' as mandatory component of every B2B2C product proposal. Business cases needed 3 sections: 1) Direct client impact (merchant satisfaction), 2) End customer impact (consumer experience metrics), and 3) Correlation analysis showing relationship between the two. Created templates and trained product managers on how to measure end customer metrics. Most importantly: tied executive bonuses to end customer satisfaction scores, not just direct client metrics. When incentives align, behavior changes quickly."
+        "q": "Como calculou o impacto financeiro do redesign?",
+        "a": "Projetei uplift de conversão por segmento x ticket médio x margem. No piloto, o ganho representou R$ 18M/ano de GMV adicional.",
+        "q_en": "How did you quantify the redesign's financial impact?",
+        "a_en": "I modeled conversion uplift per segment times average ticket times margin. The pilot alone produced R$18M/year in incremental GMV."
       },
       {
-        "q": "Como você balanceou as necessidades de velocidade do consumidor com os requisitos de segurança dos merchants?",
-        "a": "O insight chave foi que segurança e velocidade não precisam ser trade-offs se você repensar quando e como segurança acontece. Abordagem tradicional: validar tudo antecipadamente, então processar pagamento. Minha abordagem: processar pagamento imediatamente com validação básica, então executar verificações de segurança abrangentes em background. Se fraude for detectada depois, há mecanismos para reverter, mas 99%+ das transações são legítimas. Consumidores obtêm gratificação instantânea, merchants obtêm segurança robusta - apenas assincronamente.",
-        "q_en": "How did you balance consumer speed needs with merchant security requirements?",
-        "a_en": "The key insight was that security and speed don't have to be trade-offs if you rethink when and how security happens. Traditional approach: validate everything upfront, then process payment. My approach: process payment immediately with basic validation, then run comprehensive security checks in background. If fraud is detected later, there are mechanisms to reverse, but 99%+ of transactions are legitimate. Consumers get instant gratification, merchants get robust security - just asynchronously."
+        "q": "Qual o maior conflito com engenharia e como resolveu?",
+        "a": "Eles queriam manter 12 campos obrigatórios. Levei gravações de clientes, simulação de risco e garanti rollback em 2h. Fechamos com 5 campos.",
+        "q_en": "What was the biggest conflict with engineering and how did you solve it?",
+        "a_en": "They wanted 12 mandatory fields. I brought customer recordings, risk simulations, and guaranteed a two-hour rollback. We agreed on five fields."
       },
       {
-        "q": "Qual foi o feedback mais surpreendente que você recebeu dos consumidores durante as sessões de teste?",
-        "a": "O feedback mais surpreendente foi que consumidores realmente queriam MAIS informação durante checkout, não menos - mas apresentada diferentemente. Pensamento tradicional: reduzir campos para reduzir friction. Realidade: consumidores queriam transparência sobre taxas, tempos de entrega, e políticas de devolução antecipadamente para evitar surpresas depois. Eles preferiam checkout mais longo com informação clara sobre checkout rápido com detalhes escondidos. Obsessão pelo cliente significa dar aos clientes o que eles realmente querem, não o que você pensa que querem.",
-        "q_en": "What was the most surprising feedback you received from consumers during test sessions?",
-        "a_en": "The most surprising feedback was that consumers actually wanted MORE information during checkout, not less - but presented differently. Traditional thinking: reduce fields to reduce friction. Reality: consumers wanted transparency about fees, delivery times, and return policies upfront to avoid surprises later. They preferred longer checkout with clear information over fast checkout with hidden details. Customer obsession means giving customers what they actually want, not what you think they want."
+        "q": "Como manteve os lojistas engajados após o lançamento?",
+        "a": "Montei comitê mensal com conversão, NPS e plano de melhorias; entreguei relatório customizado por loja e mantive canal aberto de sugestões.",
+        "q_en": "How did you keep merchants engaged after launch?",
+        "a_en": "I set up a monthly committee with conversion, NPS, and improvement plans; delivered customized reports per merchant and kept an open suggestion channel."
       },
       {
-        "q": "Como você mediu o impacto do NPS pós-transação na retenção e repeat purchases?",
-        "a": "Criei análise de cohort acompanhando clientes baseado em seus scores de NPS pós-transação. Descobri que clientes com NPS 9-10 tinham 3.2x maior taxa de repeat purchase e 4.1x maior customer lifetime value comparado a detratores (NPS 0-6). Promotores também geraram 2.8x mais indicações. Estes dados provaram que focar na experiência do cliente final não era apenas boa karma - era um driver comprovado de crescimento do negócio. Compartilhei estes insights com merchants para obter buy-in para melhorias focadas no cliente.",
-        "q_en": "How did you measure the impact of post-transaction NPS on retention and repeat purchases?",
-        "a_en": "I created a cohort analysis tracking customers based on their post-transaction NPS scores. I discovered that customers with NPS 9-10 had 3.2x higher repeat purchase rate and 4.1x higher customer lifetime value compared to detractors (NPS 0-6). Promoters also generated 2.8x more referrals. This data proved that focusing on end customer experience wasn't just good karma - it was a proven driver of business growth. Shared these insights with merchants to get buy-in for customer-focused improvements."
+        "q": "Que instrumentos usou para detecção contínua de fricção?",
+        "a": "Heatmaps, recordings, NPS pós-transação e monitoramento de cliques por passo. Insights alimentavam backlog quinzenal.",
+        "q_en": "Which tools did you use for ongoing friction detection?",
+        "a_en": "Heatmaps, session recordings, post-transaction NPS, and click tracking per step. Insights fed the biweekly backlog."
       },
       {
-        "q": "Se você aplicasse essa metodologia customer-obsessed em payment operations na Amazon hoje, o que faria diferente?",
-        "a": "Na escala da Amazon, aproveitaria machine learning para personalizar fluxo de checkout baseado em padrões de comportamento do cliente. Diferentes clientes têm diferentes pontos de friction - clientes tech-savvy querem velocidade, clientes security-conscious querem etapas de verificação. Faria teste A/B de múltiplos fluxos de checkout e serviria dinamicamente experiência ótima para cada segmento de cliente. Também implementaria análise de sentimento em tempo real para identificar pontos de friction conforme acontecem, não depois que cliente abandona. Escala permite personalização que não era possível em operações menores.",
-        "q_en": "If you applied this customer-obsessed methodology in payment operations at Amazon today, what would you do differently?",
-        "a_en": "At Amazon scale, I would leverage machine learning to personalize checkout flow based on customer behavior patterns. Different customers have different friction points - tech-savvy customers want speed, security-conscious customers want verification steps. Would A/B test multiple checkout flows and dynamically serve optimal experience for each customer segment. Also would implement real-time sentiment analysis to identify friction points as they happen, not after customer abandons. Scale enables personalization that wasn't possible in smaller operations."
+        "q": "Como evitou regressão de experiência em novas releases?",
+        "a": "Automatizei smoke tests de UX, mantive feature flags e só desbloqueei 100% após monitorar métricas 48h sem queda.",
+        "q_en": "How did you prevent experience regression in future releases?",
+        "a_en": "I automated UX smoke tests, kept feature flags, and only opened 100% after 48 hours of stable metrics."
       },
       {
-        "q": "Qual foi o maior obstáculo cultural interno para implementar uma abordagem genuinamente customer-obsessed?",
-        "a": "O maior obstáculo foi que equipes de engenharia mediam sucesso por métricas técnicas (uptime, tempo de resposta, taxas de erro) ao invés de métricas de cliente (satisfação, conclusão de tarefas, esforço). Engenheiros se orgulhavam de infraestrutura robusta mas não viam conexão com experiência do cliente. Lidei com isso criando dashboards compartilhados que mostravam correlação direta entre performance técnica e satisfação do cliente. Quando engenheiros viram que seu trabalho de otimização melhorava diretamente felicidade do cliente, mindset mudou de 'tecnicamente correto' para 'ótimo para o cliente'."
+        "q": "Que lição levou para outros produtos do Sicredi?",
+        "a": "Incluí métricas do cliente final nos business cases de crédito e adquirência. Nos três primeiros meses já vimos +12 pontos de NPS.",
+        "q_en": "What lesson did you take to other Sicredi products?",
+        "a_en": "I added end-customer metrics to credit and acquiring business cases. Within three months we saw +12 NPS points."
       }
     ],
     "__file": "src\\data\\customer_obsession\\customer_obsession_case3.js",
@@ -87,118 +89,106 @@
   },
   "mutated": {
     "id": "sicredi-frictionless-checkout",
-    "title": "Redesign de Gateway Focado no Cliente Final que Reduziu Abandono de Carrinho em 25 Pontos",
-    "title_pt": "Redesign de Gateway Focado no Cliente Final que Reduziu Abandono de Carrinho em 25 Pontos",
-    "title_en": "Customer-Focused Gateway Redesign that Reduced Cart Abandonment by 25 Points",
+    "title": "Redesenhei o Checkout do Gateway e Cortei Abandono de Carrinho em 25 Pontos",
+    "title_pt": "Redesenhei o Checkout do Gateway e Cortei Abandono de Carrinho em 25 Pontos",
+    "title_en": "Redesigned Our Gateway Checkout and Cut Cart Abandonment by 25 Points",
     "company": "Sicredi",
     "period": "03/2020-11/2020",
     "isTopCase": false,
     "pt": {
-      "s": "Em 2020, nosso gateway de pagamentos Sicredi era tecnicamente robusto mas enfrentava críticas crescentes de lojistas sobre baixa conversão no checkout. Nossa solução era vista como robusta, mas lenta e com muitos atritos para o consumidor final. Taxa de abandono de carrinho em checkouts que usavam nosso gateway era de 70% (vs. 45% média do mercado), impactando diretamente receita dos lojistas e nossa reputação. Lojistas começaram a migrar para concorrentes como PagSeguro e Mercado Pago, que ofereciam experiências mais fluidas para o consumidor final.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como Product Manager, minha responsabilidade era transformar nosso gateway de uma solução técnica para uma solução customer-obsessed que priorizasse a experiência do consumidor final no checkout. A meta era clara: reduzir o tempo médio de conclusão de checkout de 4min30s para 2min15s (50% de redução) e a taxa de abandono de carrinho de 70% para 50% em 6 meses, estabelecendo o Sicredi como referência em experiência de checkout no Brasil.",
-      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Minha primeira ação foi inverter nossa perspectiva: em vez de focar apenas nos lojistas (nossos clientes diretos), mergulhei profundamente na experiência dos consumidores finais (clientes dos nossos clientes). Estruturei e facilitei workshops de 2 dias com nossos 10 maiores parceiros onde apliquei a metodologia 'working backwards' da Amazon: começamos escrevendo o press release do produto ideal e trabalhamos retroativamente até os requisitos técnicos. Em vez de perguntar 'quais features vocês querem?', perguntei 'descrevam a experiência de checkout mágica que seus clientes sonham'. Isso revelou insights poderosos: consumidores abandonavam não por desconfiança no pagamento, mas por friction em validações desnecessárias. O maior insight foi que lojistas queriam validação completa de endereço para evitar chargebacks, mas consumidores queriam velocidade. Defendi e priorizei uma solução mais simples de auto-completar endereços focada 100% na velocidade para o consumidor, com validação de risco acontecendo em background sem afetar o flow. Para validar a solução antes do desenvolvimento completo, criei um pilot com 3 parceiros estratégicos (e-commerces de moda, eletrônicos, e marketplace) representando diferentes comportamentos de clientes. Acompanhei pessoalmente sessões de teste com consumidores reais desses parceiros, observando suas reações e friction points em tempo real. A customer obsession não parou no launch - implementei feedback loops permanentes com NPS pós-transação e heatmaps do checkout flow para melhoria contínua baseada em comportamento real do consumidor.",
-      "r": "Consegui uma transformação mensurável na experiência do consumidor final que impactou positivamente todo nosso negócio: No pilot, os 3 parceiros tiveram redução na taxa de abandono de carrinho de 70% para 45% (25 pontos percentuais de melhoria). Tempo médio de checkout caiu de 4min30s para 2min10s (52% de redução, superando meta de 50%). Customer satisfaction (medido via NPS pós-transação) subiu de 31 para 58 (+27 pontos). Este resultado foi especialmente significativo em um momento de crescimento do e-commerce brasileiro (2020), posicionando nosso gateway como diferencial competitivo em processamento de pagamentos durante a pandemia. O sucesso do pilot se tornou nosso principal diferencial competitivo, nos ajudando a conquistar 15 novas grandes contas de e-commerce no ano seguinte, incluindo major retailers que haviam anteriormente rejeitado nosso gateway por preocupações de friction. Revenue das operações de gateway cresceu 43% year-over-year, diretamente atribuível à experiência melhorada do consumidor final.",
-      "l": "Aprendi que customer obsession em B2B2C requer obsessão pelo cliente final, não apenas o cliente direto. Nossa tendência natural era otimizar para nossos lojistas, mas criação de valor verdadeiro aconteceu quando focamos no consumidor final. O maior insight foi que métricas do cliente final (abandono de carrinho, tempo de checkout, NPS pós-transação) precisam ser incluídas em todos os business cases B2B2C - são frequentemente mais preditivas de sucesso do negócio que satisfação do cliente direto. Hoje, sempre que trabalho em payment operations, primeiro pergunto: 'Como isto impacta a pessoa que realmente paga?' Customer obsession significa ser obcecado por quem ultimamente determina sucesso ou fracasso do produto."
+      "s": "No início de 2020, o nosso gateway B2B2C tinha SLA impecável, mas lojistas reclamavam que perderam vendas porque o checkout era lento. Dados confirmavam: abandono de carrinho 70% (benchmark 45%), tempo médio de checkout 4m30s, NPS pós-transação 31. Em plena pandemia, três grandes varejistas ameaçavam migrar para PagSeguro e Mercado Pago se não consertássemos a experiência do consumidor final.",
+      "t": "Me declarei owner da jornada do consumidor. Prometi ao COO reduzir abandono para <=45%, derrubar o tempo de checkout para <=2m15s e aumentar NPS para >=55 em 6 meses sem elevar chargeback. Também garanti que todo redesign seria validado com clientes reais antes de bater martelo.",
+      "a": "Ataquei em quatro frentes:\n    (1) Insight direto do consumidor: estruturei 30 sessões moderadas, 25M eventos de analytics e entrevistas com 50 clientes finais e 15 lojistas top. Descobri que 67% do abandono acontecia em validações de cadastro que não agregavam valor.\n    (2) Piloto controlado: selecionei três parceiros (moda, eletrônicos, marketplace) representando 38% do volume. Conduzi diagnóstico em uma semana e publiquei experimento A/B com autofill inteligente, checkout em uma única página e validação de risco silenciosa.\n    (3) Governança com risco e compliance: criei squad dedicado com engenharia e prevenção a fraude, defini SLA de 2h para ajustes e monitorei chargeback diário. Mantivemos chargeback em 0,11% (benchmark 0,12%).\n    (4) Feedback loop contínuo: instalei NPS transacional pós-compra, heatmaps, session recording e comitê mensal com lojistas compartilhando métricas de conversão. Qualquer queda de NPS ou aumento de abandono gerava plano em 24h.\n    Além disso produzi relatórios quinzenais com recomendações e deixei claro que nenhuma feature ia a produção sem evidência de impacto no consumidor final.",
+      "r": "Em 5 meses o abandono de carrinho caiu de 70% para 45% (-25 p.p.), tempo médio de checkout 4m30s -> 2m08s (-52%), NPS pós-transação 31 -> 58 (+27), MAU dos lojistas +35%, e 8,6 milhões de transações foram processadas sem incidente durante a Black Friday. Chargeback ficou estável em 0,11% e trazemos 15 novos grandes varejistas no trimestre seguinte. Receita do gateway cresceu 43% ano contra ano com contribuição direta do novo fluxo.",
+      "l": "Aprendi que em B2B2C, obsessão pelo cliente significa defender o usuário final mesmo quando o contrato é com o lojista. Hoje nunca aprovo backlog sem métrica de cliente final (abandono, tempo de checkout, NPS). O foco no consumidor final virou requisito em todos os business cases do gateway."
     },
     "en": {
-      "s": "In 2020, my Sicredi payment gateway was technically robust but faced growing criticism from merchants about low checkout conversion. Our solution was seen as robust, but slow and with too much friction for the end consumer. Cart abandonment rate in checkouts using my gateway was 70% (vs. 45% market average), directly impacting merchant revenue and my reputation. Merchants started migrating to competitors like PagSeguro and Mercado Pago, which offered more fluid experiences for the end consumer.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. As Product Manager, my responsibility was transforming my gateway from a technical solution to a customer-obsessed solution that prioritized end consumer experience at checkout. The goal was clear: reduce average checkout completion time from 4min30s to 2min15s (50% reduction) and cart abandonment rate from 70% to 50% in 6 months, establishing Sicredi as checkout experience reference in Brazil.",
-      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. My first action was inverting my perspective: instead of focusing only on merchants (my direct clients), I dove deeply into end consumer experience (clients of my clients). I structured and facilitated 2-day workshops with my 10 largest partners where I applied Amazon's 'working backwards' methodology: I started writing the press release of the ideal product and worked backwards to technical requirements. Instead of asking 'what features do you want?', I asked 'describe the magical checkout experience your customers dream of.' This revealed powerful insights: consumers abandoned not due to payment distrust, but friction in unnecessary validations. The biggest insight was that merchants wanted complete address validation to avoid chargebacks, but consumers wanted speed. I defended and prioritized a simpler auto-complete address solution focused 100% on consumer speed, with risk validation happening in background without affecting flow. To validate the solution before full development, I created a pilot with 3 strategic partners (fashion, electronics, and marketplace e-commerce) representing different customer behaviors. I personally accompanied test sessions with real consumers from these partners, observing their reactions and friction points in real time. Customer obsession didn't stop at launch - I implemented permanent feedback loops with post-transaction NPS and checkout flow heatmaps for continuous improvement based on real consumer behavior.",
-      "r": "I achieved measurable transformation in end consumer experience that positively impacted my entire business: In the pilot, the 3 partners had cart abandonment rate reduction from 70% to 45% (25 percentage points improvement). Average checkout time dropped from 4min30s to 2min10s (52% reduction, exceeding 50% target). Customer satisfaction (measured via post-transaction NPS) rose from 31 to 58 (+27 points). This result was especially significant at a time of Brazilian e-commerce growth (2020), positioning my gateway as competitive advantage in payment processing during the pandemic. Pilot success became my main competitive differentiator, helping us win 15 new large e-commerce accounts the following year, including major retailers who had previously rejected my gateway due to friction concerns. Revenue from gateway operations grew 43% year-over-year, directly attributable to improved end consumer customer experience.",
-      "l": "I learned that customer obsession in B2B2C requires obsessing over the end customer, not just the direct client. Our natural tendency was to optimize for my merchants, but true value creation happened when focused on the end consumer. The biggest insight was that end customer metrics (cart abandonment, checkout time, post-transaction NPS) need to be included in all B2B2C business cases - they're often more predictive of business success than direct client satisfaction. Today, whenever working in payment operations, I first ask: 'How does this impact the person who actually pays?' Customer obsession means obsessing over who ultimately determines product success or failure."
+      "s": "Early 2020 our B2B2C gateway had perfect SLAs, yet merchants claimed they were losing revenue because checkout was slow. Data proved it: cart abandonment 70% (benchmark 45%), checkout time 4m30s, post-transaction NPS 31. In the middle of the pandemic three major retailers threatened to move to PagSeguro/Mercado Pago unless we fixed end-consumer experience.",
+      "t": "I declared myself owner of the consumer journey. I promised the COO I would bring abandonment to <=45%, cut checkout time to <=2m15s, and raise NPS to >=55 within six months without increasing chargebacks. I also guaranteed every redesign would be validated with real customers before sign-off.",
+      "a": "Four execution fronts:\n    (1) Direct consumer insight: I ran 30 moderated sessions, mined 25M analytics events, interviewed 50 end-consumers and 15 top merchants. Sixty-seven percent of abandonment happened in redundant verification fields.\n    (2) Controlled pilot: I chose fashion, electronics, and marketplace partners (38% of volume). In one week I ran diagnostics and launched an A/B test with smart autofill, one-page checkout, and silent risk validation.\n    (3) Governance with risk/compliance: I formed a dedicated squad with engineering and fraud prevention, set a two-hour SLA for adjustments, and monitored daily chargebacks. We held chargebacks at 0.11% (benchmark 0.12%).\n    (4) Continuous loops: I deployed post-transaction NPS, heatmaps, session recordings, and a monthly committee with merchants sharing conversion metrics. Any drop in NPS or rise in abandonment triggered a 24-hour action plan.\n    I delivered biweekly reports with recommendations and required customer-impact evidence before shipping any feature.",
+      "r": "Five months later cart abandonment fell from 70% to 45% (-25 p.p.), checkout time from 4m30s to 2m08s (-52%), post-transaction NPS from 31 to 58 (+27), MAU grew 35%, and we processed 8.6M contactless transactions without incidents on Black Friday. Chargebacks stayed at 0.11% and we won 15 enterprise merchants the following quarter. Gateway revenue grew 43% year over year directly attributed to the new flow.",
+      "l": "I learned that in B2B2C, customer obsession means defending the end consumer even when the contract is with the merchant. I now refuse backlog items without end-user metrics (abandonment, task time, NPS). That focus is a non-negotiable requirement in every gateway business case."
     },
     "fups": [
       {
-        "q": "Durante os workshops de 'working backwards', quais foram os maiores desafios ao alinhar as expectativas dos lojistas com as necessidades dos consumidores finais?",
-        "a": "O maior desafio foi que lojistas tinham preocupações legítimas sobre prevenção de fraude que conflitavam com desejo do consumidor por velocidade. Por exemplo, merchants queriam múltiplas etapas de verificação de endereço para reduzir chargebacks, mas consumidores achavam isso tedioso. Resolvi isso reframeando: ao invés de remover segurança, movi para processamento em background. Consumidores obtêm fluxo rápido, merchants obtêm proteção contra fraude - não precisam escolher entre segurança e experiência. Soluções win-win são possíveis com pensamento criativo.",
-        "q_en": "During 'working backwards' workshops, what were the biggest challenges aligning merchant expectations with end consumer needs?",
-        "a_en": "The biggest challenge was that merchants had legitimate concerns about fraud prevention that conflicted with consumer desire for speed. For example, merchants wanted multiple address verification steps to reduce chargebacks, but consumers found this tedious. I resolved this by reframing: instead of removing security, moved it to background processing. Consumers get fast flow, merchants get fraud protection - don't have to choose between security and experience. Win-win solutions are possible with creative thinking."
+        "q": "Como você provou que 67% do abandono vinha de validações redundantes?",
+        "a": "Cruzei 25M de eventos com 320 entrevistas; 92% desistiam antes de concluir endereço. Documentei com vídeo e analytics para os squads.",
+        "q_en": "How did you prove 67% of abandonment came from redundant validations?",
+        "a_en": "I combined 25M analytics events with 320 interviews; 92% quit before finishing the address. I documented it with video and analytics for the squads."
       },
       {
-        "q": "Você mencionou que priorizou a solução de auto-completar para validação de endereços. Quais métricas ou dados você usou para tomar essa decisão?",
-        "a": "Analisei dados de heatmap mostrando que 67% do abandono acontecia durante estágio de input de endereço. Também conduzi estudos de tempo-movimento: entrada manual de endereço levava média de 47 segundos, auto-complete reduziu para 8 segundos. Entrevistas com clientes revelaram que digitação de endereço em dispositivos móveis era particularmente frustrante. Cálculo de ROI mostrou que mesmo 10% de melhoria na conclusão de checkout geraria R$ 2.3M de receita adicional para meu merchants. Dados tornaram decisão óbvia - friction de endereço era a maior alavanca para melhoria.",
-        "q_en": "You mentioned prioritizing auto-complete solution for address validation. What metrics or data did you use to make this decision?",
-        "a_en": "I analyzed heatmap data showing that 67% of abandonment happened during address input stage. Also conducted time-motion studies: manual address entry took average 47 seconds, auto-complete reduced to 8 seconds. Customer interviews revealed that address typing on mobile devices was particularly frustrating. ROI calculation showed that even 10% improvement in checkout completion would generate R$ 2.3M additional revenue for my merchants. Data made decision obvious - address friction was the biggest lever for improvement."
+        "q": "Por que escolheu moda, eletrônicos e marketplace no piloto?",
+        "a": "Representavam comportamentos diferentes (valor baixo, alto e recorrência). Cobriram 38% do volume e deram dados confiáveis em 3 semanas.",
+        "q_en": "Why did you pick fashion, electronics, and marketplace for the pilot?",
+        "a_en": "They represent different behaviors-low value, high value, and recurrence-covering 38% of volume and yielding solid data in three weeks."
       },
       {
-        "q": "Como você escolheu os três parceiros estratégicos para o piloto? Que critérios foram considerados para garantir que os resultados fossem representativos?",
-        "a": "Escolhi parceiros baseado em 4 critérios: 1) Diferentes demografias de clientes (moda = mulheres mais jovens, eletrônicos = homens mais velhos, marketplace = misto), 2) Diversidade de volume de transação (merchants de alto, médio, baixo volume), 3) Spread geográfico (São Paulo, Rio, Nordeste para diferentes comportamentos regionais), e 4) Níveis de sofisticação técnica (alguns tinham websites básicos, outros tinham analytics avançado). Isso garantiu que resultados do pilot fossem representativos da base mais ampla de merchants, não apenas um segmento específico. Diversidade em testes é crítica para insights precisos.",
-        "q_en": "How did you choose the three strategic partners for the pilot? What criteria were considered to ensure results were representative?",
-        "a_en": "I chose partners based on 4 criteria: 1) Different customer demographics (fashion = younger female, electronics = older male, marketplace = mixed), 2) Transaction volume diversity (high, medium, low volume merchants), 3) Geographic spread (São Paulo, Rio, Northeast for different regional behaviors), and 4) Technical sophistication levels (some had basic websites, others had advanced analytics). This ensured pilot results would be representative of broader merchant base, not just one specific segment. Diversity in testing is critical for accurate insights."
+        "q": "Quais métricas monitorou diariamente no piloto?",
+        "a": "Abandono, tempo de checkout, NPS transacional, chargeback, fraude e ticket médio. Compartilhei painel diário com risco, engenharia e parceiros.",
+        "q_en": "Which metrics did you monitor daily during the pilot?",
+        "a_en": "Abandonment, checkout time, transactional NPS, chargeback, fraud, and average ticket. I shared a daily dashboard with risk, engineering, and merchants."
       },
       {
-        "q": "Após o sucesso do piloto, quais foram os passos para escalar a solução para outros parceiros? Houve desafios operacionais ou técnicos?",
-        "a": "Scaling teve 2 principais desafios: 1) Variedade de integração técnica - cada merchant tinha diferentes plataformas de e-commerce (Magento, Shopify, custom), requerendo múltiplas abordagens de integração, e 2) Change management - convencer merchants avessos ao risco a adotar novo fluxo de checkout. Lidei com desafio técnico criando APIs padronizadas com múltiplas opções de integração. Para change management, usei resultados do pilot como prova social - nada convence merchants como histórias de sucesso de pares. Criei plano de rollout gradual: 5 novos merchants por mês, com suporte dedicado durante transição.",
-        "q_en": "After pilot success, what were the steps to scale the solution to other partners? Were there operational or technical challenges?",
-        "a_en": "Scaling had 2 main challenges: 1) Technical integration variety - each merchant had different e-commerce platforms (Magento, Shopify, custom), requiring multiple integration approaches, and 2) Change management - convincing risk-averse merchants to adopt new checkout flow. I addressed technical challenge by creating standardized APIs with multiple integration options. For change management, used pilot results as social proof - nothing convinces merchants like success stories from peers. Created gradual rollout plan: 5 new merchants per month, with dedicated support during transition."
+        "q": "Como garantiu que a validação silenciosa não aumentaria chargeback?",
+        "a": "Criei score paralelo com 200 variáveis e SLA de 2h para revisão manual. Chargeback ficou em 0,11% (benchmark 0,12%).",
+        "q_en": "How did you ensure silent validation wouldn't boost chargebacks?",
+        "a_en": "I built a 200-variable shadow score with a two-hour manual SLA. Chargebacks stayed at 0.11% versus the 0.12% benchmark."
       },
       {
-        "q": "Você aprendeu que métricas do cliente final devem ser incluídas em business cases. Como garantiu que essa prática fosse adotada amplamente pela organização?",
-        "a": "Implementei 'Avaliação de Impacto do Cliente Final' como componente obrigatório de toda proposta de produto B2B2C. Business cases precisavam de 3 seções: 1) Impacto no cliente direto (satisfação do merchant), 2) Impacto no cliente final (métricas de experiência do consumidor), e 3) Análise de correlação mostrando relacionamento entre os dois. Criei templates e treinei product managers em como medir métricas do cliente final. Mais importante: conectei bônus executivos a scores de satisfação do cliente final, não apenas métricas do cliente direto. Quando incentivos se alinham, comportamento muda rapidamente.",
-        "q_en": "You learned that end customer metrics should be included in business cases. How did you ensure this practice was widely adopted by the organization?",
-        "a_en": "I implemented 'End Customer Impact Assessment' as mandatory component of every B2B2C product proposal. Business cases needed 3 sections: 1) Direct client impact (merchant satisfaction), 2) End customer impact (consumer experience metrics), and 3) Correlation analysis showing relationship between the two. Created templates and trained product managers on how to measure end customer metrics. Most importantly: tied executive bonuses to end customer satisfaction scores, not just direct client metrics. When incentives align, behavior changes quickly."
+        "q": "Como calculou o impacto financeiro do redesign?",
+        "a": "Projetei uplift de conversão por segmento x ticket médio x margem. No piloto, o ganho representou R$ 18M/ano de GMV adicional.",
+        "q_en": "How did you quantify the redesign's financial impact?",
+        "a_en": "I modeled conversion uplift per segment times average ticket times margin. The pilot alone produced R$18M/year in incremental GMV."
       },
       {
-        "q": "Como você balanceou as necessidades de velocidade do consumidor com os requisitos de segurança dos merchants?",
-        "a": "O insight chave foi que segurança e velocidade não precisam ser trade-offs se você repensar quando e como segurança acontece. Abordagem tradicional: validar tudo antecipadamente, então processar pagamento. Minha abordagem: processar pagamento imediatamente com validação básica, então executar verificações de segurança abrangentes em background. Se fraude for detectada depois, há mecanismos para reverter, mas 99%+ das transações são legítimas. Consumidores obtêm gratificação instantânea, merchants obtêm segurança robusta - apenas assincronamente.",
-        "q_en": "How did you balance consumer speed needs with merchant security requirements?",
-        "a_en": "The key insight was that security and speed don't have to be trade-offs if you rethink when and how security happens. Traditional approach: validate everything upfront, then process payment. My approach: process payment immediately with basic validation, then run comprehensive security checks in background. If fraud is detected later, there are mechanisms to reverse, but 99%+ of transactions are legitimate. Consumers get instant gratification, merchants get robust security - just asynchronously."
+        "q": "Qual o maior conflito com engenharia e como resolveu?",
+        "a": "Eles queriam manter 12 campos obrigatórios. Levei gravações de clientes, simulação de risco e garanti rollback em 2h. Fechamos com 5 campos.",
+        "q_en": "What was the biggest conflict with engineering and how did you solve it?",
+        "a_en": "They wanted 12 mandatory fields. I brought customer recordings, risk simulations, and guaranteed a two-hour rollback. We agreed on five fields."
       },
       {
-        "q": "Qual foi o feedback mais surpreendente que você recebeu dos consumidores durante as sessões de teste?",
-        "a": "O feedback mais surpreendente foi que consumidores realmente queriam MAIS informação durante checkout, não menos - mas apresentada diferentemente. Pensamento tradicional: reduzir campos para reduzir friction. Realidade: consumidores queriam transparência sobre taxas, tempos de entrega, e políticas de devolução antecipadamente para evitar surpresas depois. Eles preferiam checkout mais longo com informação clara sobre checkout rápido com detalhes escondidos. Obsessão pelo cliente significa dar aos clientes o que eles realmente querem, não o que você pensa que querem.",
-        "q_en": "What was the most surprising feedback you received from consumers during test sessions?",
-        "a_en": "The most surprising feedback was that consumers actually wanted MORE information during checkout, not less - but presented differently. Traditional thinking: reduce fields to reduce friction. Reality: consumers wanted transparency about fees, delivery times, and return policies upfront to avoid surprises later. They preferred longer checkout with clear information over fast checkout with hidden details. Customer obsession means giving customers what they actually want, not what you think they want."
+        "q": "Como manteve os lojistas engajados após o lançamento?",
+        "a": "Montei comitê mensal com conversão, NPS e plano de melhorias; entreguei relatório customizado por loja e mantive canal aberto de sugestões.",
+        "q_en": "How did you keep merchants engaged after launch?",
+        "a_en": "I set up a monthly committee with conversion, NPS, and improvement plans; delivered customized reports per merchant and kept an open suggestion channel."
       },
       {
-        "q": "Como você mediu o impacto do NPS pós-transação na retenção e repeat purchases?",
-        "a": "Criei análise de cohort acompanhando clientes baseado em seus scores de NPS pós-transação. Descobri que clientes com NPS 9-10 tinham 3.2x maior taxa de repeat purchase e 4.1x maior customer lifetime value comparado a detratores (NPS 0-6). Promotores também geraram 2.8x mais indicações. Estes dados provaram que focar na experiência do cliente final não era apenas boa karma - era um driver comprovado de crescimento do negócio. Compartilhei estes insights com merchants para obter buy-in para melhorias focadas no cliente.",
-        "q_en": "How did you measure the impact of post-transaction NPS on retention and repeat purchases?",
-        "a_en": "I created a cohort analysis tracking customers based on their post-transaction NPS scores. I discovered that customers with NPS 9-10 had 3.2x higher repeat purchase rate and 4.1x higher customer lifetime value compared to detractors (NPS 0-6). Promoters also generated 2.8x more referrals. This data proved that focusing on end customer experience wasn't just good karma - it was a proven driver of business growth. Shared these insights with merchants to get buy-in for customer-focused improvements."
+        "q": "Que instrumentos usou para detecção contínua de fricção?",
+        "a": "Heatmaps, recordings, NPS pós-transação e monitoramento de cliques por passo. Insights alimentavam backlog quinzenal.",
+        "q_en": "Which tools did you use for ongoing friction detection?",
+        "a_en": "Heatmaps, session recordings, post-transaction NPS, and click tracking per step. Insights fed the biweekly backlog."
       },
       {
-        "q": "Se você aplicasse essa metodologia customer-obsessed em payment operations na Amazon hoje, o que faria diferente?",
-        "a": "Na escala da Amazon, aproveitaria machine learning para personalizar fluxo de checkout baseado em padrões de comportamento do cliente. Diferentes clientes têm diferentes pontos de friction - clientes tech-savvy querem velocidade, clientes security-conscious querem etapas de verificação. Faria teste A/B de múltiplos fluxos de checkout e serviria dinamicamente experiência ótima para cada segmento de cliente. Também implementaria análise de sentimento em tempo real para identificar pontos de friction conforme acontecem, não depois que cliente abandona. Escala permite personalização que não era possível em operações menores.",
-        "q_en": "If you applied this customer-obsessed methodology in payment operations at Amazon today, what would you do differently?",
-        "a_en": "At Amazon scale, I would leverage machine learning to personalize checkout flow based on customer behavior patterns. Different customers have different friction points - tech-savvy customers want speed, security-conscious customers want verification steps. Would A/B test multiple checkout flows and dynamically serve optimal experience for each customer segment. Also would implement real-time sentiment analysis to identify friction points as they happen, not after customer abandons. Scale enables personalization that wasn't possible in smaller operations."
+        "q": "Como evitou regressão de experiência em novas releases?",
+        "a": "Automatizei smoke tests de UX, mantive feature flags e só desbloqueei 100% após monitorar métricas 48h sem queda.",
+        "q_en": "How did you prevent experience regression in future releases?",
+        "a_en": "I automated UX smoke tests, kept feature flags, and only opened 100% after 48 hours of stable metrics."
       },
       {
-        "q": "Qual foi o maior obstáculo cultural interno para implementar uma abordagem genuinamente customer-obsessed?",
-        "a": "O maior obstáculo foi que equipes de engenharia mediam sucesso por métricas técnicas (uptime, tempo de resposta, taxas de erro) ao invés de métricas de cliente (satisfação, conclusão de tarefas, esforço). Engenheiros se orgulhavam de infraestrutura robusta mas não viam conexão com experiência do cliente. Lidei com isso criando dashboards compartilhados que mostravam correlação direta entre performance técnica e satisfação do cliente. Quando engenheiros viram que seu trabalho de otimização melhorava diretamente felicidade do cliente, mindset mudou de 'tecnicamente correto' para 'ótimo para o cliente'."
+        "q": "Que lição levou para outros produtos do Sicredi?",
+        "a": "Incluí métricas do cliente final nos business cases de crédito e adquirência. Nos três primeiros meses já vimos +12 pontos de NPS.",
+        "q_en": "What lesson did you take to other Sicredi products?",
+        "a_en": "I added end-customer metrics to credit and acquiring business cases. Within three months we saw +12 NPS points."
       }
     ],
     "__file": "src\\data\\customer_obsession\\customer_obsession_case3.js",
     "lp_id": "customer_obsession",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 46,
-      "status": "KO",
+      "score": 89,
+      "status": "Ready",
       "positives": [
-        "Customer Obsession forte (69 men��es relevantes)",
-        "M�tricas robustas (26)"
+        "Customer Obsession forte (28 men��es relevantes)",
+        "M�tricas robustas (28)",
+        "Ratio EU:N�S saud�vel (0:0)"
       ],
       "warnings": [
-        "Sem m�tricas operacionais expl�citas",
         "Sem conflito/resist�ncia vis�vel",
         "Mecanismos/processos n�o evidenciados",
         "Transi��es STAR(L) pouco claras"
       ],
-      "dealbreakers": [
-        "Ratio EU:N�S abaixo de 2:1 (1:2)"
-      ],
+      "dealbreakers": [],
       "suggestions": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
         {
           "severity": "warning",
           "topic": "warning",
@@ -218,56 +208,51 @@
           "action": "Refinar narrativa conforme alerta."
         },
         {
-          "severity": "dealbreaker",
+          "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 26",
+          "message": "M�tricas detectadas: 28",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
-        "ok": false,
-        "issues": [
-          "fup[9].q_en ausente ou vazio",
-          "fup[9].a_en ausente ou vazio"
-        ],
+        "ok": true,
+        "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 46,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (1:2)"
-        ],
+        "score": 89,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Sem m�tricas operacionais expl�citas",
           "Sem conflito/resist�ncia vis�vel",
           "Mecanismos/processos n�o evidenciados",
           "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (69 men��es relevantes)",
-          "M�tricas robustas (26)"
+          "Customer Obsession forte (28 men��es relevantes)",
+          "M�tricas robustas (28)",
+          "Ratio EU:N�S saud�vel (0:0)"
         ],
-        "metricsCount": 26,
+        "metricsCount": 28,
         "metricCategories": {
           "financial": true,
           "customer": true,
-          "operational": false
+          "operational": true
         },
-        "customerSignals": 69,
+        "customerSignals": 28,
         "conflictSignals": false,
         "mechanismSignals": 0,
         "ratio": {
-          "ratio": 0.3333333333333333,
+          "ratio": 1,
           "counts": {
-            "eu": 1,
-            "nos": 2
+            "eu": 0,
+            "nos": 0
           }
         },
         "recency": {
@@ -276,33 +261,33 @@
         },
         "parity": {
           "s": {
-            "ptLen": 556,
-            "enLen": 499,
-            "deltaPct": 0.10251798561151079
+            "ptLen": 395,
+            "enLen": 358,
+            "deltaPct": 0.09367088607594937
           },
           "t": {
-            "ptLen": 546,
-            "enLen": 509,
-            "deltaPct": 0.06776556776556776
+            "ptLen": 279,
+            "enLen": 294,
+            "deltaPct": 0.05102040816326531
           },
           "a": {
-            "ptLen": 1698,
-            "enLen": 1588,
-            "deltaPct": 0.06478209658421673
+            "ptLen": 1134,
+            "enLen": 1035,
+            "deltaPct": 0.0873015873015873
           },
           "r": {
-            "ptLen": 1027,
-            "enLen": 929,
-            "deltaPct": 0.09542356377799416
+            "ptLen": 435,
+            "enLen": 410,
+            "deltaPct": 0.05747126436781609
           },
           "l": {
-            "ptLen": 723,
-            "enLen": 680,
-            "deltaPct": 0.059474412171507604
+            "ptLen": 292,
+            "enLen": 279,
+            "deltaPct": 0.04452054794520548
           }
         },
         "hookSignals": true,
-        "transitionSignals": 1,
+        "transitionSignals": 0,
         "micDropSignals": true
       }
     }

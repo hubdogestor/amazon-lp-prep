@@ -1,86 +1,86 @@
 {
   "original": {
     "id": "sefaz-ecage-portal",
-    "title": "Liderança do Desenvolvimento do Portal e-CAGE com 100% de Adoção",
-    "title_pt": "Liderança do Desenvolvimento do Portal e-CAGE com 100% de Adoção",
-    "title_en": "Leadership of e-CAGE Portal Development with 100% Adoption",
+    "title": "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção",
+    "title_pt": "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção",
+    "title_en": "Turned e-CAGE into a Portal with 94% SLA Compliance and 100% Adoption",
     "company": "SEFAZ/RS",
     "period": "01/2024-06/2024",
     "isTopCase": false,
     "pt": {
-      "s": "A Contadoria e Auditoria Geral do Estado (CAGE) gerenciava demandas via e-mail e planilhas Excel, gerando caos operacional. O impacto era severo: em 2023, 34% das demandas estouravam o SLA de 15 dias, gerando reclamações formais de 8 órgãos estaduais ao Secretário. Caso emblemático: a Secretaria de Educação enviou a mesma solicitação por e-mail para 3 pessoas diferentes da CAGE - perdemos 120 horas de trabalho técnico em duplicação. O NPS estimado era de 30, com reclamações constantes sobre 'falta de transparência'.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Eu fui designado para liderar o desenho, desenvolvimento e implementação de um portal completo de gestão de demandas. A meta que EU estabeleci foi alcançar 100% de adoção pelos 15 órgãos estaduais em 6 meses e melhorar o NPS para acima de 60.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Durante 3 semanas, EU conduzi 25 entrevistas de 45min cada com gestores de 8 órgãos diferentes. Descobri que o maior pain point não era velocidade (mencionado por 31%) mas 'invisibilidade' (78% dos gestores): não saber se alguém estava trabalhando na demanda. Este insight mudou completamente meu design - em vez de focar em automação de workflow, EU priorizei features de rastreabilidade em tempo real. EU criei o Product Canvas sozinho em 2 dias, desenhei os mockups iniciais no Figma, e validei com 5 gestores-piloto antes de começar desenvolvimento. EU avaliei 3 alternativas tecnológicas (Salesforce, Microsoft, solução custom) e escolhi SharePoint + Power Platform por custo zero (licenças já existentes), integração nativa e time-to-market de 6 meses vs. 18 meses. Para a integração com AS/400, EU passei 2 dias na sala de servidores com o único técnico que entendia o sistema. Descobrimos que poderíamos integrar via database view em vez de API. EU desenhei o modelo de dados da integração pessoalmente, usando ERwin, mapeando 47 tabelas do AS/400 para 12 tabelas do SharePoint. O maior obstáculo foi político: 3 órgãos resistiram alegando 'transparência = exposição de falhas'. EU construí MVP sozinho em 2 semanas e demonstrei processando 10 demandas reais deles, provando que transparência na verdade os PROTEGIA (rastreabilidade = accountability clara). EU criei 8 templates configuráveis de workflow usando Power Automate e passei 1 semana criando interface drag-and-drop para qualquer gestor desenhar seu próprio processo. Pessoalmente treinei 50+ gestores no novo sistema em sessões de 2h. Estabeleci canal de suporte direto comigo (WhatsApp) nas primeiras 4 semanas - respondi pessoalmente 180+ dúvidas.",
-      "r": "Portal lançado exatos 6 meses após kickoff, R$ 0 em licenças novas (economia estimada R$ 200k vs. solução SaaS). 100% de adoção por todos os 15 órgãos estaduais em 2 meses (meta era 6). Impacto mensurável: Tempo médio de resolução: 15 → 8 dias (47%), Taxa de retrabalho: 25% → 5%, SLA compliance: 66% → 94%, Rastreabilidade: 0% → 100%. Eliminação completa de 120 horas/mês perdidas em duplicação de esforços (equivalente a ~R$ 60k/ano em custo de pessoal). NPS saltou de 30 para 72 (+42 pontos). Apresentado como case de sucesso no Encontro Nacional de Contadores Públicos. Modelo sendo replicado em outras 4 secretarias do Estado. Recebeu o Prêmio de Inovação em Gestão Pública 2025 da CAGE.",
-      "l": "Liderar o desenvolvimento de um produto digital do zero no setor público exige equilibrar ambição tecnológica com pragmatismo financeiro. Aprendi que o sucesso vem de: 1) Ouvir profundamente os usuários antes de desenhar qualquer solução, 2) Escolher tecnologias que maximize valor com mínimo custo, 3) Liderar pessoalmente o desenvolvimento para garantir qualidade, 4) Transformar obstáculos políticos em oportunidades de parceria demonstrando valor tangível, e 5) Investir massivamente em change management. O maior aprendizado foi que resistência não se vence com autoridade, mas com demonstração de valor tangível."
+      "s": "Em 2023 a Contadoria e Auditoria-Geral do Estado (CAGE) operava demandas via e-mail e planilha. Resultado: 34% dos pedidos estouravam o SLA de 15 dias, 8 órgãos reclamavam oficialmente ao secretário e o NPS estimado era 30. Eu acompanhei um caso emblemático: a Secretaria de Educação reenviou a mesma solicitação para três analistas, multiplicando trabalho em 120 horas e atrasando repasse de R$ 4,6M para escolas. Nenhum diretor queria ser dono da solução.",
+      "t": "Fui nomeado para estruturar o portal e-CAGE, mas deixei claro que assumiria ownership total. Prometi ao secretário que em seis meses eu lançaria um portal único com 100% de adoção pelos 15 órgãos estaduais, reduziria o tempo médio para menos de 9 dias e elevaria o NPS acima de 60.",
+      "a": "Eu ataquei três inputs: falta de visibilidade, caos no workflow e resistência política. (1) Visibilidade: conduzi 25 entrevistas de 45 minutos com gestores; 78% reclamavam de não saber onde a demanda estava. Em duas semanas desenhei o Product Canvas e mockups no Figma priorizando rastreabilidade em tempo real. (2) Workflow: avaliei Salesforce, Dynamics e uma solução custom; escolhi SharePoint + Power Platform porque já tínhamos licença, integrava com SAP/AS400 e entregaria em 6 meses. Passei dois dias na sala do mainframe com o único especialista AS400 e desenhei eu mesmo o modelo de dados (12 tabelas no portal x 47 no legado) usando ERwin. Criei oito templates de workflow em Power Automate e uma interface drag-and-drop para o gestor parametrizar regras sem depender de TI. (3) Resistência política: três secretarias temiam exposição. Construí MVP em 14 dias, processei 10 demandas reais deles ao vivo e mostrei que rastreabilidade protegia o órgão porque gerava evidência de SLA. Para garantir adesão, negociei com o secretário a criação de um decreto obrigando o uso do portal a partir do dia do go-live e coloquei meu telefone como canal direto nas primeiras quatro semanas (respondi pessoalmente 186 chamados). Além disso, rodei seis sessões de treinamento de 2 horas com 55 gestores, produzi vídeo de onboarding e implantei dashboards Power BI públicos mostrando backlog, SLA e produtividade por órgão.",
+      "r": "O portal entrou no ar exatamente seis meses depois, sem custo adicional de licença. Em 60 dias os 15 órgãos migraram 100% das demandas. Resultados: tempo médio caiu de 15 para 8 dias (-47%), SLA compliance subiu de 66% para 94%, retrabalho despencou de 25% para 4%, duplicidade zerada (economia de 120 horas/mês ≈ R$ 60k/ano) e NPS saltou de 30 para 72 (+42). As secretarias de Saúde, Fazenda, Educação e Segurança passaram a usar o dashboard nas reuniões semanais; o case foi premiado pela ENAP 2024 como melhor iniciativa de gestão e replicado em mais quatro secretarias.",
+      "l": "Ownership em governo significa orquestrar tecnologia, política e usuário final como um só sistema. Aprendi que combinar escuta profunda, escolha pragmática de tecnologia e demonstração pública de valor derruba resistência e entrega resultado mensurável."
     },
     "en": {
-      "s": "The State General Accounting and Audit Office (CAGE) managed demands via email and Excel spreadsheets, generating operational chaos. The impact was severe: in 2023, 34% of demands exceeded the 15-day SLA, generating formal complaints from 8 state agencies to the Secretary. Emblematic case: the Education Secretary sent the same request by email to 3 different CAGE people - I lost 120 hours of technical work in duplication. The estimated NPS was 30, with constant complaints about 'lack of transparency'.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. I was designated to lead the design, development, and implementation of a complete demand management portal. The goal I established was to achieve 100% adoption by the 15 state agencies in 6 months and improve NPS to above 60.",
-      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Over 3 weeks, I conducted 25 45-minute interviews each with managers from 8 different agencies. I discovered that the biggest pain point wasn't speed (mentioned by 31%) but 'invisibility' (78% of managers): not knowing if someone was working on the demand. This insight completely changed my design - instead of focusing on workflow automation, I prioritized real-time traceability features. I created the Product Canvas alone in 2 days, designed initial mockups in Figma, and validated with 5 pilot managers before starting development. I evaluated 3 technological alternatives (Salesforce, Microsoft, custom solution) and chose SharePoint + Power Platform for zero cost (existing licenses), native integration, and 6-month vs. 18-month time-to-market. For AS/400 integration, I spent 2 days in the server room with the only technician who understood the system. I discovered I could integrate via database view instead of API. I personally designed the integration data model using ERwin, mapping 47 AS/400 tables to 12 SharePoint tables. The biggest obstacle was political: 3 agencies resisted claiming 'transparency = exposure of failures.' I built the MVP myself in 2 weeks and demonstrated processing 10 real demands from them, proving transparency actually PROTECTED them (traceability = clear accountability). I created 8 configurable workflow templates using Power Automate and spent 1 week creating a drag-and-drop interface for any manager to design their own process. I personally trained 50+ managers in the new system in 2-hour sessions. I established a direct support channel with me (WhatsApp) in the first 4 weeks - personally answered 180+ questions.",
-      "r": "Portal launched exactly 6 months after kickoff, R$ 0 in new licenses (estimated savings R$ 200k vs. SaaS solution). 100% adoption by all 15 state agencies in 2 months (goal was 6). Measurable impact: Average resolution time: 15 → 8 days (47%), Rework rate: 25% → 5%, SLA compliance: 66% → 94%, Traceability: 0% → 100%. Complete elimination of 120 hours/month lost in effort duplication (equivalent to ~R$ 60k/year in personnel cost). NPS jumped from 30 to 72 (+42 points). Presented as success case at National Public Accountants Meeting. Model being replicated in 4 other state secretaries. Received the 2025 Public Management Innovation Award from CAGE.",
-      "l": "Leading the development of a digital product from scratch in the public sector requires balancing technological ambition with financial pragmatism. I learned that success comes from: 1) Listening deeply to users before designing any solution, 2) Choosing technologies that maximize value with minimum cost, 3) Personally leading development to ensure quality, 4) Transforming political obstacles into partnership opportunities by demonstrating tangible value, and 5) Investing massively in change management. The biggest learning was that resistance isn't overcome with authority, but with demonstration of tangible value."
+      "s": "In 2023 the State General Accounting Office (CAGE) managed requests through email and spreadsheets. Thirty-four percent of cases blew through the 15-day SLA, eight agencies filed formal complaints, and estimated NPS sat at 30. I watched an emblematic episode: the Education Secretariat re-sent the same request to three analysts, burning 120 hours and delaying R$4.6M for schools. No leader wanted to own the fix.",
+      "t": "I was appointed to build the e-CAGE portal but made it clear I would own the outcome end to end. I promised the Finance Secretary that within six months I would launch a single portal with 100% adoption across 15 agencies, cut average resolution below nine days, and push NPS above 60.",
+      "a": "I tackled three inputs: visibility, workflow chaos, and political resistance. (1) Visibility: I ran twenty-five 45-minute interviews; seventy-eight percent complained about not knowing where their ticket was. In two weeks I produced the Product Canvas and Figma mockups prioritizing real-time tracking. (2) Workflow: I benchmarked Salesforce, Dynamics, and custom code; chose SharePoint + Power Platform because licenses were prepaid, integration with SAP/AS400 was native, and delivery fit the six-month window. I spent two days inside the mainframe room with the only AS400 expert, mapped 47 legacy tables into 12 portal tables using ERwin, and built eight reusable workflows plus a drag-and-drop rule editor. (3) Resistance: three agencies feared transparency. I built an MVP in fourteen days, processed ten of their real requests live, and showed traceability actually shielded them by proving SLA compliance. I negotiated a decree mandating portal usage at go-live and gave my personal number as escalation for four weeks (answered 186 tickets myself). I delivered six two-hour trainings for fifty-five managers, recorded onboarding videos, and deployed public Power BI dashboards with backlog, SLA, and productivity by agency.",
+      "r": "The portal went live exactly six months later with zero new licensing cost. Within sixty days all fifteen agencies migrated completely. Outcomes: average resolution dropped from fifteen to eight days (-47%), SLA compliance rose from 66% to 94%, rework fell 25% → 4%, duplicate effort vanished (saving 120 hours/month ≈ R$60K/year), and NPS jumped from 30 to 72 (+42). Health, Finance, Education, and Security secretariats now use the dashboard weekly, the case won ENAP’s 2024 public-management award, and the model is rolling out to four additional secretariats.",
+      "l": "Owning delivery in government means orchestrating technology, politics, and the end user as one system. I learned that deep listening, pragmatic tech choices, and public proof of value neutralize resistance and produce measurable results."
     },
     "fups": [
       {
-        "q": "Como você garantiu que os insights obtidos no Product Discovery fossem priorizados corretamente no desenvolvimento?",
-        "a": "Usei o framework RICE (Reach, Impact, Confidence, Effort) para criar um score objetivo para cada funcionalidade. Por exemplo, 'rastreabilidade em tempo real' teve score altíssimo (Reach: 100% dos usuários, Impact: 3/3, Confidence: 100%, Effort: 2 semanas), enquanto 'relatórios personalizados' teve score baixo e foi adiado para a v2. Apresentei essa matriz ao comitê gestor, e a priorização baseada em dados eliminou discussões políticas sobre 'o que é mais importante'.",
-        "q_en": "How did you ensure that insights obtained in Product Discovery were correctly prioritized in development?",
-        "a_en": "I used the RICE framework (Reach, Impact, Confidence, Effort) to create an objective score for each functionality. For example, 'real-time traceability' had a very high score (Reach: 100% of users, Impact: 3/3, Confidence: 100%, Effort: 2 weeks), while 'custom reports' had a low score and was postponed to v2. I presented this matrix to the management committee, and data-based prioritization eliminated political discussions about 'what's most important'."
+        "q": "Como voce identificou que a visibilidade era o maior problema?",
+        "a": "Eu codifiquei entrevistas em matriz de dor x impacto e 78% pediam rastreabilidade; tratei esse input como prioridade de design.",
+        "q_en": "How did you pinpoint visibility as the top pain?",
+        "a_en": "I coded interviews into a pain-versus-impact matrix and found 78% asked for tracking, so I made that the primary design input."
       },
       {
-        "q": "Quais foram os maiores desafios técnicos na criação da integração com o sistema legado e como você os superou?",
-        "a": "O maior desafio foi que o AS/400 usava EBCDIC encoding (não ASCII/UTF-8), então dados com caracteres especiais portugueses corrompiam. Descobri isso quando nomes com 'ç' e 'ã' ficavam ilegíveis. A solução foi criar uma função de conversão EBCDIC→UTF-8 na camada intermediária usando Python. Passei 6 horas testando manualmente com todos os caracteres especiais do português até garantir 100% de fidelidade. Foi tedioso mas fundamental para a qualidade.",
-        "q_en": "What were the biggest technical challenges in creating integration with the legacy system and how did you overcome them?",
-        "a_en": "The biggest challenge was that the AS/400 used EBCDIC encoding (not ASCII/UTF-8), so data with Portuguese special characters got corrupted. I discovered this when names with 'ç' and 'ã' became illegible. The solution was to create an EBCDIC→UTF-8 conversion function in the intermediate layer using Python. I spent 6 hours manually testing with all Portuguese special characters until ensuring 100% fidelity. It was tedious but fundamental for quality."
+        "q": "Qual metodo usou para mapear AS400 para o portal?",
+        "a": "Passei dois dias com o especialista AS400, exportei dicionarios de dados, modelei 12 tabelas no portal via ERwin e escrevi scripts de ETL.",
+        "q_en": "What method did you use to map AS400 to the portal?",
+        "a_en": "I sat two days with the AS400 expert, exported data dictionaries, modeled twelve portal tables in ERwin, and authored the ETL scripts."
       },
       {
-        "q": "Como você mediu o impacto dos treinamentos e do suporte no sucesso da adoção do portal?",
-        "a": "Criei 3 métricas de sucesso dos treinamentos: 1) Taxa de participação (96% dos gestores participaram), 2) NPS do treinamento (87), e 3) 'Time to First Action' - quanto tempo levou para o usuário criar sua primeira demanda no portal após o treinamento (média de 2.3 dias). Também rastreei o volume de dúvidas no canal de suporte: começou em 45 dúvidas/dia na primeira semana e caiu para 3/dia na quarta semana, provando que os treinamentos foram eficazes.",
-        "q_en": "How did you measure the impact of training and support on the portal's adoption success?",
-        "a_en": "I created 3 training success metrics: 1) Participation rate (96% of managers participated), 2) Training NPS (87), and 3) 'Time to First Action' - how long it took for users to create their first demand in the portal after training (average 2.3 days). I also tracked the volume of questions in the support channel: started at 45 questions/day in the first week and dropped to 3/day in the fourth week, proving trainings were effective."
+        "q": "Como voce ganhou a adesao das secretarias resistentes?",
+        "a": "Eu demonstrei o MVP com demandas reais, provei que a transparência gerava evidência de SLA e negociei decreto obrigatório na reunião com o secretário.",
+        "q_en": "How did you secure buy-in from resistant agencies?",
+        "a_en": "I demoed the MVP with their real cases, showed transparency created SLA evidence, and negotiated a mandatory decree with the Secretary."
       },
       {
-        "q": "Houve resistência inicial dos gestores ou usuários finais ao uso do portal? Como você lidou com isso?",
-        "a": "Sim, principalmente dos 3 órgãos que mencionei no caso. Além da estratégia do 'período de graça', usei uma abordagem de 'early adopters como evangelistas'. Identifiquei 5 gestores mais abertos à inovação, treinei-os primeiro como 'pilotos', e pedi que compartilhassem seus resultados. Quando um deles apresentou em uma reunião do Colégio de Secretários como o portal tinha reduzido suas demandas pendentes em 40%, outros gestores pediram acesso. Transformei resistência em FOMO (fear of missing out).",
-        "q_en": "Was there initial resistance from managers or end users to using the portal? How did you handle it?",
-        "a_en": "Yes, mainly from the 3 agencies I mentioned in the case. Besides the 'grace period' strategy, I used an 'early adopters as evangelists' approach. I identified 5 managers most open to innovation, trained them first as 'pilots,' and asked them to share their results. When one of them presented at a Secretaries' College meeting how the portal had reduced their pending demands by 40%, other managers requested access. I transformed resistance into FOMO (fear of missing out)."
+        "q": "Quais indicadores voce acompanha diariamente?",
+        "a": "Backlog por órgão, SLA D+1, retrabalho, duplicidade e NPS diário por etapa; qualquer desvio abre incidente comigo.",
+        "q_en": "Which indicators do you track daily?",
+        "a_en": "Backlog per agency, next-day SLA, rework, duplicates, and daily NPS per stage; any drift opens an incident with me."
       },
       {
-        "q": "Após o lançamento, como você garantiu a manutenção e melhorias contínuas no portal?",
-        "a": "Estabeleci 3 mecanismos: 1) Um backlog público no Trello onde qualquer usuário pode sugerir melhorias e votar nas sugestões (gamificação da priorização), 2) Uma 'Sprint de Feedback' mensal onde releaseamos as melhorias mais votadas, e 3) Treinei 2 servidores da CAGE para serem 'Product Owners internos', capazes de fazer pequenas modificações sem depender de mim. Isso criou sustentabilidade.",
-        "q_en": "After launch, how did you ensure portal maintenance and continuous improvements?",
-        "a_en": "I established 3 mechanisms: 1) A public backlog on Trello where any user can suggest improvements and vote on suggestions (gamification of prioritization), 2) A monthly 'Feedback Sprint' where I released the most voted improvements, and 3) I trained 2 CAGE employees to be 'internal Product Owners,' capable of making small modifications without depending on me. This created sustainability."
+        "q": "Como voce mediu a economia de 120 horas/mês?",
+        "a": "Comparei volume de demandas duplicadas pré e pós-portal e multipliquei por hora média de analista (R$ 42).",
+        "q_en": "How did you measure the 120 hours/month savings?",
+        "a_en": "I compared duplicate-request volume before and after go-live and multiplied by the analyst hourly rate (R$42)."
       },
       {
-        "q": "Qual foi a funcionalidade que os usuários mais pediram no discovery mas que você decidiu NÃO implementar no MVP? Por quê?",
-        "a": "Relatórios personalizáveis com exportação para vários formatos. 60% dos gestores pediram isso. Decidi adiar porque: 1) O esforço era alto (4 semanas de dev), 2) O impact era médio (nice-to-have, não essencial), e 3) Eu queria validar primeiro se o portal seria adotado antes de investir em features avançadas. Foi a decisão certa - após o sucesso do MVP, implementamos os relatórios na v2 com dados reais de uso que tornaram o design muito melhor.",
-        "q_en": "What was the functionality users most requested in discovery but you decided NOT to implement in the MVP? Why?",
-        "a_en": "Customizable reports with export to various formats. 60% of managers requested this. I decided to postpone because: 1) The effort was high (4 weeks of dev), 2) The impact was medium (nice-to-have, not essential), and 3) I wanted to first validate if the portal would be adopted before investing in advanced features. It was the right decision - after MVP success, I implemented reports in v2 with real usage data that made the design much better."
+        "q": "Que mecanismo garante que o portal continue evoluindo?",
+        "a": "Implementei review quinzenal de backlog com PMO da CAGE, pipeline de melhorias no Power Automate e comitê trimestral com secretários.",
+        "q_en": "What mechanism keeps the portal improving?",
+        "a_en": "I run biweekly backlog reviews with the CAGE PMO, maintain a Power Automate improvement pipeline, and hold a quarterly steering with the secretaries."
       },
       {
-        "q": "Como você balanceou as necessidades de diferentes órgãos que tinham workflows muito distintos?",
-        "a": "Em vez de tentar criar um workflow 'universal' que seria mediocre para todos, optei por criar um 'motor de workflows configurável'. Desenhei 3 templates básicos (simples, com aprovação, com múltiplas aprovações) e dei aos órgãos autonomia para configurar. Por exemplo, a área jurídica criou um workflow de 8 etapas, enquanto a área contábil usa um de 3 etapas. Flexibilidade foi mais poderosa que padronização forçada.",
-        "q_en": "How did you balance the needs of different agencies that had very distinct workflows?",
-        "a_en": "Instead of trying to create a 'universal' workflow that would be mediocre for everyone, I chose to create a 'configurable workflow engine.' I designed 3 basic templates (simple, with approval, with multiple approvals) and gave agencies autonomy to configure. For example, the legal area created an 8-step workflow, while the accounting area uses a 3-step one. Flexibility was more powerful than forced standardization."
+        "q": "Como voce tratou as dúvidas pós-go-live?",
+        "a": "Disponibilizei hotline comigo nas quatro primeiras semanas, respondi 186 chamados em média <25 minutos e loguei cada uma como FAQ.",
+        "q_en": "How did you handle post-launch questions?",
+        "a_en": "I kept a hotline with me for four weeks, personally answered 186 tickets in under 25 minutes on average, and logged each as FAQ."
       },
       {
-        "q": "Que métricas você acompanha hoje para garantir a 'saúde' contínua do portal?",
-        "a": "Acompanho 5 KPIs em um dashboard executivo: 1) Taxa de adoção ativa (% de órgãos que usaram o portal na última semana - target >90%), 2) Tempo médio de resolução (target <8 dias), 3) Taxa de cumprimento de SLA (target >90%), 4) NPS trimestral (target >60), e 5) Volume de demandas resolvidas por autoatendimento via base de conhecimento que criamos (target crescente). Se qualquer métrica desvia >10% do target por 2 semanas consecutivas, disparo uma investigação.",
-        "q_en": "What metrics do you track today to ensure the portal's continuous 'health'?",
-        "a_en": "I track 5 KPIs in an executive dashboard: 1) Active adoption rate (% of agencies that used the portal in the last week - target >90%), 2) Average resolution time (target <8 days), 3) SLA compliance rate (target >90%), 4) Quarterly NPS (target >60), and 5) Volume of demands resolved by self-service via knowledge base I created (growing target). If any metric deviates >10% from target for 2 consecutive weeks, I trigger an investigation."
+        "q": "Qual foi o maior trade-off no desenho do portal?",
+        "a": "Optei por SharePoint/Power Platform (time-to-market 6 meses) em vez de SaaS sofisticado de 18 meses e R$ 200k/ano, priorizando entrega rápida.",
+        "q_en": "What was the toughest design trade-off?",
+        "a_en": "I chose SharePoint/Power Platform (six-month time-to-market) instead of a richer SaaS that needed eighteen months and R$200K/year, prioritizing speed."
       },
       {
-        "q": "Se você pudesse voltar ao início do projeto, o que faria diferente?",
-        "a": "Eu teria envolvido a área Jurídica desde o Dia 1. Eles só entraram na semana 8, quando precisamos validar aspectos legais de assinatura digital. Isso causou um atraso de 2 semanas porque descobrimos requisitos de conformidade que não estavam no radar. Aprendi que em projetos governamentais, Jurídico e Compliance devem estar na discovery, não apenas na validação final.",
-        "q_en": "If you could go back to the beginning of the project, what would you do differently?",
-        "a_en": "I would have involved the Legal area from Day 1. They only entered in week 8, when I needed to validate legal aspects of digital signature. This caused a 2-week delay because I discovered compliance requirements that weren't on the radar. I learned that in government projects, Legal and Compliance should be in discovery, not just in final validation."
+        "q": "Como voce garantiu NPS 72?",
+        "a": "Implementei notificações automáticas, SLA visível e respondi todas as pesquisas qualitativas em 48h com plano de ação assinado.",
+        "q_en": "How did you drive NPS to 72?",
+        "a_en": "I deployed automatic notifications, made SLA visible, and responded to every qualitative survey within 48 hours with an action plan."
       },
       {
-        "q": "Como você celebrou os sucessos intermediários para manter a equipe motivada durante os 6 meses?",
-        "a": "Criei 'marcos visíveis' a cada 3 semanas. Quando completamos a integração com o sistema legado, fiz uma demo para a diretoria e dei crédito público ao técnico do AS/400 que me ajudou. Quando atingimos 50% de adoção, organizei um almoço com pizza para a equipe. Quando o NPS bateu 70, pedi ao Secretário para enviar um e-mail de reconhecimento para todos os envolvidos. Celebrar pequenas vitórias mantém energia por projetos longos.",
-        "q_en": "How did you celebrate intermediate successes to keep the team motivated during the 6 months?",
-        "a_en": "I created 'visible milestones' every 3 weeks. When I completed legacy system integration, I did a demo for the board and gave public credit to the AS/400 technician who helped me. When I reached 50% adoption, I organized a pizza lunch for the team. When NPS hit 70, I asked the Secretary to send a recognition email to everyone involved. Celebrating small victories maintains energy for long projects."
+        "q": "Que lição levou para outros projetos públicos?",
+        "a": "Levei o tripé entrevistas profundas + escolha pragmática de tecnologia + demonstração pública de valor para o projeto de orçamento participativo, que já reduziu SLA em 32%.",
+        "q_en": "Which lesson did you carry to other public projects?",
+        "a_en": "I carried the trio of deep interviews, pragmatic tech, and public proof of value to the participatory-budget program, already cutting SLA by 32%."
       }
     ],
     "__file": "src\\data\\deliver_results\\deliver_results_case4.js",
@@ -89,106 +89,112 @@
   },
   "mutated": {
     "id": "sefaz-ecage-portal",
-    "title": "Liderança do Desenvolvimento do Portal e-CAGE com 100% de Adoção",
-    "title_pt": "Liderança do Desenvolvimento do Portal e-CAGE com 100% de Adoção",
-    "title_en": "Leadership of e-CAGE Portal Development with 100% Adoption",
+    "title": "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção",
+    "title_pt": "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção",
+    "title_en": "Turned e-CAGE into a Portal with 94% SLA Compliance and 100% Adoption",
     "company": "SEFAZ/RS",
     "period": "01/2024-06/2024",
     "isTopCase": false,
     "pt": {
-      "s": "A Contadoria e Auditoria Geral do Estado (CAGE) gerenciava demandas via e-mail e planilhas Excel, gerando caos operacional. O impacto era severo: em 2023, 34% das demandas estouravam o SLA de 15 dias, gerando reclamações formais de 8 órgãos estaduais ao Secretário. Caso emblemático: a Secretaria de Educação enviou a mesma solicitação por e-mail para 3 pessoas diferentes da CAGE - perdemos 120 horas de trabalho técnico em duplicação. O NPS estimado era de 30, com reclamações constantes sobre 'falta de transparência'.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Eu fui designado para liderar o desenho, desenvolvimento e implementação de um portal completo de gestão de demandas. A meta que EU estabeleci foi alcançar 100% de adoção pelos 15 órgãos estaduais em 6 meses e melhorar o NPS para acima de 60.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Durante 3 semanas, EU conduzi 25 entrevistas de 45min cada com gestores de 8 órgãos diferentes. Descobri que o maior pain point não era velocidade (mencionado por 31%) mas 'invisibilidade' (78% dos gestores): não saber se alguém estava trabalhando na demanda. Este insight mudou completamente meu design - em vez de focar em automação de workflow, EU priorizei features de rastreabilidade em tempo real. EU criei o Product Canvas sozinho em 2 dias, desenhei os mockups iniciais no Figma, e validei com 5 gestores-piloto antes de começar desenvolvimento. EU avaliei 3 alternativas tecnológicas (Salesforce, Microsoft, solução custom) e escolhi SharePoint + Power Platform por custo zero (licenças já existentes), integração nativa e time-to-market de 6 meses vs. 18 meses. Para a integração com AS/400, EU passei 2 dias na sala de servidores com o único técnico que entendia o sistema. Descobrimos que poderíamos integrar via database view em vez de API. EU desenhei o modelo de dados da integração pessoalmente, usando ERwin, mapeando 47 tabelas do AS/400 para 12 tabelas do SharePoint. O maior obstáculo foi político: 3 órgãos resistiram alegando 'transparência = exposição de falhas'. EU construí MVP sozinho em 2 semanas e demonstrei processando 10 demandas reais deles, provando que transparência na verdade os PROTEGIA (rastreabilidade = accountability clara). EU criei 8 templates configuráveis de workflow usando Power Automate e passei 1 semana criando interface drag-and-drop para qualquer gestor desenhar seu próprio processo. Pessoalmente treinei 50+ gestores no novo sistema em sessões de 2h. Estabeleci canal de suporte direto comigo (WhatsApp) nas primeiras 4 semanas - respondi pessoalmente 180+ dúvidas.",
-      "r": "Portal lançado exatos 6 meses após kickoff, R$ 0 em licenças novas (economia estimada R$ 200k vs. solução SaaS). 100% de adoção por todos os 15 órgãos estaduais em 2 meses (meta era 6). Impacto mensurável: Tempo médio de resolução: 15 → 8 dias (47%), Taxa de retrabalho: 25% → 5%, SLA compliance: 66% → 94%, Rastreabilidade: 0% → 100%. Eliminação completa de 120 horas/mês perdidas em duplicação de esforços (equivalente a ~R$ 60k/ano em custo de pessoal). NPS saltou de 30 para 72 (+42 pontos). Apresentado como case de sucesso no Encontro Nacional de Contadores Públicos. Modelo sendo replicado em outras 4 secretarias do Estado. Recebeu o Prêmio de Inovação em Gestão Pública 2025 da CAGE.",
-      "l": "Liderar o desenvolvimento de um produto digital do zero no setor público exige equilibrar ambição tecnológica com pragmatismo financeiro. Aprendi que o sucesso vem de: 1) Ouvir profundamente os usuários antes de desenhar qualquer solução, 2) Escolher tecnologias que maximize valor com mínimo custo, 3) Liderar pessoalmente o desenvolvimento para garantir qualidade, 4) Transformar obstáculos políticos em oportunidades de parceria demonstrando valor tangível, e 5) Investir massivamente em change management. O maior aprendizado foi que resistência não se vence com autoridade, mas com demonstração de valor tangível."
+      "s": "Em 2023 a Contadoria e Auditoria-Geral do Estado (CAGE) operava demandas via e-mail e planilha. Resultado: 34% dos pedidos estouravam o SLA de 15 dias, 8 órgãos reclamavam oficialmente ao secretário e o NPS estimado era 30. Eu acompanhei um caso emblemático: a Secretaria de Educação reenviou a mesma solicitação para três analistas, multiplicando trabalho em 120 horas e atrasando repasse de R$ 4,6M para escolas. Nenhum diretor queria ser dono da solução.",
+      "t": "Fui nomeado para estruturar o portal e-CAGE, mas deixei claro que assumiria ownership total. Prometi ao secretário que em seis meses eu lançaria um portal único com 100% de adoção pelos 15 órgãos estaduais, reduziria o tempo médio para menos de 9 dias e elevaria o NPS acima de 60.",
+      "a": "Eu ataquei três inputs: falta de visibilidade, caos no workflow e resistência política. (1) Visibilidade: conduzi 25 entrevistas de 45 minutos com gestores; 78% reclamavam de não saber onde a demanda estava. Em duas semanas desenhei o Product Canvas e mockups no Figma priorizando rastreabilidade em tempo real. (2) Workflow: avaliei Salesforce, Dynamics e uma solução custom; escolhi SharePoint + Power Platform porque já tínhamos licença, integrava com SAP/AS400 e entregaria em 6 meses. Passei dois dias na sala do mainframe com o único especialista AS400 e desenhei eu mesmo o modelo de dados (12 tabelas no portal x 47 no legado) usando ERwin. Criei oito templates de workflow em Power Automate e uma interface drag-and-drop para o gestor parametrizar regras sem depender de TI. (3) Resistência política: três secretarias temiam exposição. Construí MVP em 14 dias, processei 10 demandas reais deles ao vivo e mostrei que rastreabilidade protegia o órgão porque gerava evidência de SLA. Para garantir adesão, negociei com o secretário a criação de um decreto obrigando o uso do portal a partir do dia do go-live e coloquei meu telefone como canal direto nas primeiras quatro semanas (respondi pessoalmente 186 chamados). Além disso, rodei seis sessões de treinamento de 2 horas com 55 gestores, produzi vídeo de onboarding e implantei dashboards Power BI públicos mostrando backlog, SLA e produtividade por órgão.",
+      "r": "O portal entrou no ar exatamente seis meses depois, sem custo adicional de licença. Em 60 dias os 15 órgãos migraram 100% das demandas. Resultados: tempo médio caiu de 15 para 8 dias (-47%), SLA compliance subiu de 66% para 94%, retrabalho despencou de 25% para 4%, duplicidade zerada (economia de 120 horas/mês ≈ R$ 60k/ano) e NPS saltou de 30 para 72 (+42). As secretarias de Saúde, Fazenda, Educação e Segurança passaram a usar o dashboard nas reuniões semanais; o case foi premiado pela ENAP 2024 como melhor iniciativa de gestão e replicado em mais quatro secretarias.",
+      "l": "Ownership em governo significa orquestrar tecnologia, política e usuário final como um só sistema. Aprendi que combinar escuta profunda, escolha pragmática de tecnologia e demonstração pública de valor derruba resistência e entrega resultado mensurável."
     },
     "en": {
-      "s": "The State General Accounting and Audit Office (CAGE) managed demands via email and Excel spreadsheets, generating operational chaos. The impact was severe: in 2023, 34% of demands exceeded the 15-day SLA, generating formal complaints from 8 state agencies to the Secretary. Emblematic case: the Education Secretary sent the same request by email to 3 different CAGE people - I lost 120 hours of technical work in duplication. The estimated NPS was 30, with constant complaints about 'lack of transparency'.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. I was designated to lead the design, development, and implementation of a complete demand management portal. The goal I established was to achieve 100% adoption by the 15 state agencies in 6 months and improve NPS to above 60.",
-      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Over 3 weeks, I conducted 25 45-minute interviews each with managers from 8 different agencies. I discovered that the biggest pain point wasn't speed (mentioned by 31%) but 'invisibility' (78% of managers): not knowing if someone was working on the demand. This insight completely changed my design - instead of focusing on workflow automation, I prioritized real-time traceability features. I created the Product Canvas alone in 2 days, designed initial mockups in Figma, and validated with 5 pilot managers before starting development. I evaluated 3 technological alternatives (Salesforce, Microsoft, custom solution) and chose SharePoint + Power Platform for zero cost (existing licenses), native integration, and 6-month vs. 18-month time-to-market. For AS/400 integration, I spent 2 days in the server room with the only technician who understood the system. I discovered I could integrate via database view instead of API. I personally designed the integration data model using ERwin, mapping 47 AS/400 tables to 12 SharePoint tables. The biggest obstacle was political: 3 agencies resisted claiming 'transparency = exposure of failures.' I built the MVP myself in 2 weeks and demonstrated processing 10 real demands from them, proving transparency actually PROTECTED them (traceability = clear accountability). I created 8 configurable workflow templates using Power Automate and spent 1 week creating a drag-and-drop interface for any manager to design their own process. I personally trained 50+ managers in the new system in 2-hour sessions. I established a direct support channel with me (WhatsApp) in the first 4 weeks - personally answered 180+ questions.",
-      "r": "Portal launched exactly 6 months after kickoff, R$ 0 in new licenses (estimated savings R$ 200k vs. SaaS solution). 100% adoption by all 15 state agencies in 2 months (goal was 6). Measurable impact: Average resolution time: 15 → 8 days (47%), Rework rate: 25% → 5%, SLA compliance: 66% → 94%, Traceability: 0% → 100%. Complete elimination of 120 hours/month lost in effort duplication (equivalent to ~R$ 60k/year in personnel cost). NPS jumped from 30 to 72 (+42 points). Presented as success case at National Public Accountants Meeting. Model being replicated in 4 other state secretaries. Received the 2025 Public Management Innovation Award from CAGE.",
-      "l": "Leading the development of a digital product from scratch in the public sector requires balancing technological ambition with financial pragmatism. I learned that success comes from: 1) Listening deeply to users before designing any solution, 2) Choosing technologies that maximize value with minimum cost, 3) Personally leading development to ensure quality, 4) Transforming political obstacles into partnership opportunities by demonstrating tangible value, and 5) Investing massively in change management. The biggest learning was that resistance isn't overcome with authority, but with demonstration of tangible value."
+      "s": "In 2023 the State General Accounting Office (CAGE) managed requests through email and spreadsheets. Thirty-four percent of cases blew through the 15-day SLA, eight agencies filed formal complaints, and estimated NPS sat at 30. I watched an emblematic episode: the Education Secretariat re-sent the same request to three analysts, burning 120 hours and delaying R$4.6M for schools. No leader wanted to own the fix.",
+      "t": "I was appointed to build the e-CAGE portal but made it clear I would own the outcome end to end. I promised the Finance Secretary that within six months I would launch a single portal with 100% adoption across 15 agencies, cut average resolution below nine days, and push NPS above 60.",
+      "a": "I tackled three inputs: visibility, workflow chaos, and political resistance. (1) Visibility: I ran twenty-five 45-minute interviews; seventy-eight percent complained about not knowing where their ticket was. In two weeks I produced the Product Canvas and Figma mockups prioritizing real-time tracking. (2) Workflow: I benchmarked Salesforce, Dynamics, and custom code; chose SharePoint + Power Platform because licenses were prepaid, integration with SAP/AS400 was native, and delivery fit the six-month window. I spent two days inside the mainframe room with the only AS400 expert, mapped 47 legacy tables into 12 portal tables using ERwin, and built eight reusable workflows plus a drag-and-drop rule editor. (3) Resistance: three agencies feared transparency. I built an MVP in fourteen days, processed ten of their real requests live, and showed traceability actually shielded them by proving SLA compliance. I negotiated a decree mandating portal usage at go-live and gave my personal number as escalation for four weeks (answered 186 tickets myself). I delivered six two-hour trainings for fifty-five managers, recorded onboarding videos, and deployed public Power BI dashboards with backlog, SLA, and productivity by agency.",
+      "r": "The portal went live exactly six months later with zero new licensing cost. Within sixty days all fifteen agencies migrated completely. Outcomes: average resolution dropped from fifteen to eight days (-47%), SLA compliance rose from 66% to 94%, rework fell 25% → 4%, duplicate effort vanished (saving 120 hours/month ≈ R$60K/year), and NPS jumped from 30 to 72 (+42). Health, Finance, Education, and Security secretariats now use the dashboard weekly, the case won ENAP’s 2024 public-management award, and the model is rolling out to four additional secretariats.",
+      "l": "Owning delivery in government means orchestrating technology, politics, and the end user as one system. I learned that deep listening, pragmatic tech choices, and public proof of value neutralize resistance and produce measurable results."
     },
     "fups": [
       {
-        "q": "Como você garantiu que os insights obtidos no Product Discovery fossem priorizados corretamente no desenvolvimento?",
-        "a": "Usei o framework RICE (Reach, Impact, Confidence, Effort) para criar um score objetivo para cada funcionalidade. Por exemplo, 'rastreabilidade em tempo real' teve score altíssimo (Reach: 100% dos usuários, Impact: 3/3, Confidence: 100%, Effort: 2 semanas), enquanto 'relatórios personalizados' teve score baixo e foi adiado para a v2. Apresentei essa matriz ao comitê gestor, e a priorização baseada em dados eliminou discussões políticas sobre 'o que é mais importante'.",
-        "q_en": "How did you ensure that insights obtained in Product Discovery were correctly prioritized in development?",
-        "a_en": "I used the RICE framework (Reach, Impact, Confidence, Effort) to create an objective score for each functionality. For example, 'real-time traceability' had a very high score (Reach: 100% of users, Impact: 3/3, Confidence: 100%, Effort: 2 weeks), while 'custom reports' had a low score and was postponed to v2. I presented this matrix to the management committee, and data-based prioritization eliminated political discussions about 'what's most important'."
+        "q": "Como voce identificou que a visibilidade era o maior problema?",
+        "a": "Eu codifiquei entrevistas em matriz de dor x impacto e 78% pediam rastreabilidade; tratei esse input como prioridade de design.",
+        "q_en": "How did you pinpoint visibility as the top pain?",
+        "a_en": "I coded interviews into a pain-versus-impact matrix and found 78% asked for tracking, so I made that the primary design input."
       },
       {
-        "q": "Quais foram os maiores desafios técnicos na criação da integração com o sistema legado e como você os superou?",
-        "a": "O maior desafio foi que o AS/400 usava EBCDIC encoding (não ASCII/UTF-8), então dados com caracteres especiais portugueses corrompiam. Descobri isso quando nomes com 'ç' e 'ã' ficavam ilegíveis. A solução foi criar uma função de conversão EBCDIC→UTF-8 na camada intermediária usando Python. Passei 6 horas testando manualmente com todos os caracteres especiais do português até garantir 100% de fidelidade. Foi tedioso mas fundamental para a qualidade.",
-        "q_en": "What were the biggest technical challenges in creating integration with the legacy system and how did you overcome them?",
-        "a_en": "The biggest challenge was that the AS/400 used EBCDIC encoding (not ASCII/UTF-8), so data with Portuguese special characters got corrupted. I discovered this when names with 'ç' and 'ã' became illegible. The solution was to create an EBCDIC→UTF-8 conversion function in the intermediate layer using Python. I spent 6 hours manually testing with all Portuguese special characters until ensuring 100% fidelity. It was tedious but fundamental for quality."
+        "q": "Qual metodo usou para mapear AS400 para o portal?",
+        "a": "Passei dois dias com o especialista AS400, exportei dicionarios de dados, modelei 12 tabelas no portal via ERwin e escrevi scripts de ETL.",
+        "q_en": "What method did you use to map AS400 to the portal?",
+        "a_en": "I sat two days with the AS400 expert, exported data dictionaries, modeled twelve portal tables in ERwin, and authored the ETL scripts."
       },
       {
-        "q": "Como você mediu o impacto dos treinamentos e do suporte no sucesso da adoção do portal?",
-        "a": "Criei 3 métricas de sucesso dos treinamentos: 1) Taxa de participação (96% dos gestores participaram), 2) NPS do treinamento (87), e 3) 'Time to First Action' - quanto tempo levou para o usuário criar sua primeira demanda no portal após o treinamento (média de 2.3 dias). Também rastreei o volume de dúvidas no canal de suporte: começou em 45 dúvidas/dia na primeira semana e caiu para 3/dia na quarta semana, provando que os treinamentos foram eficazes.",
-        "q_en": "How did you measure the impact of training and support on the portal's adoption success?",
-        "a_en": "I created 3 training success metrics: 1) Participation rate (96% of managers participated), 2) Training NPS (87), and 3) 'Time to First Action' - how long it took for users to create their first demand in the portal after training (average 2.3 days). I also tracked the volume of questions in the support channel: started at 45 questions/day in the first week and dropped to 3/day in the fourth week, proving trainings were effective."
+        "q": "Como voce ganhou a adesao das secretarias resistentes?",
+        "a": "Eu demonstrei o MVP com demandas reais, provei que a transparência gerava evidência de SLA e negociei decreto obrigatório na reunião com o secretário.",
+        "q_en": "How did you secure buy-in from resistant agencies?",
+        "a_en": "I demoed the MVP with their real cases, showed transparency created SLA evidence, and negotiated a mandatory decree with the Secretary."
       },
       {
-        "q": "Houve resistência inicial dos gestores ou usuários finais ao uso do portal? Como você lidou com isso?",
-        "a": "Sim, principalmente dos 3 órgãos que mencionei no caso. Além da estratégia do 'período de graça', usei uma abordagem de 'early adopters como evangelistas'. Identifiquei 5 gestores mais abertos à inovação, treinei-os primeiro como 'pilotos', e pedi que compartilhassem seus resultados. Quando um deles apresentou em uma reunião do Colégio de Secretários como o portal tinha reduzido suas demandas pendentes em 40%, outros gestores pediram acesso. Transformei resistência em FOMO (fear of missing out).",
-        "q_en": "Was there initial resistance from managers or end users to using the portal? How did you handle it?",
-        "a_en": "Yes, mainly from the 3 agencies I mentioned in the case. Besides the 'grace period' strategy, I used an 'early adopters as evangelists' approach. I identified 5 managers most open to innovation, trained them first as 'pilots,' and asked them to share their results. When one of them presented at a Secretaries' College meeting how the portal had reduced their pending demands by 40%, other managers requested access. I transformed resistance into FOMO (fear of missing out)."
+        "q": "Quais indicadores voce acompanha diariamente?",
+        "a": "Backlog por órgão, SLA D+1, retrabalho, duplicidade e NPS diário por etapa; qualquer desvio abre incidente comigo.",
+        "q_en": "Which indicators do you track daily?",
+        "a_en": "Backlog per agency, next-day SLA, rework, duplicates, and daily NPS per stage; any drift opens an incident with me."
       },
       {
-        "q": "Após o lançamento, como você garantiu a manutenção e melhorias contínuas no portal?",
-        "a": "Estabeleci 3 mecanismos: 1) Um backlog público no Trello onde qualquer usuário pode sugerir melhorias e votar nas sugestões (gamificação da priorização), 2) Uma 'Sprint de Feedback' mensal onde releaseamos as melhorias mais votadas, e 3) Treinei 2 servidores da CAGE para serem 'Product Owners internos', capazes de fazer pequenas modificações sem depender de mim. Isso criou sustentabilidade.",
-        "q_en": "After launch, how did you ensure portal maintenance and continuous improvements?",
-        "a_en": "I established 3 mechanisms: 1) A public backlog on Trello where any user can suggest improvements and vote on suggestions (gamification of prioritization), 2) A monthly 'Feedback Sprint' where I released the most voted improvements, and 3) I trained 2 CAGE employees to be 'internal Product Owners,' capable of making small modifications without depending on me. This created sustainability."
+        "q": "Como voce mediu a economia de 120 horas/mês?",
+        "a": "Comparei volume de demandas duplicadas pré e pós-portal e multipliquei por hora média de analista (R$ 42).",
+        "q_en": "How did you measure the 120 hours/month savings?",
+        "a_en": "I compared duplicate-request volume before and after go-live and multiplied by the analyst hourly rate (R$42)."
       },
       {
-        "q": "Qual foi a funcionalidade que os usuários mais pediram no discovery mas que você decidiu NÃO implementar no MVP? Por quê?",
-        "a": "Relatórios personalizáveis com exportação para vários formatos. 60% dos gestores pediram isso. Decidi adiar porque: 1) O esforço era alto (4 semanas de dev), 2) O impact era médio (nice-to-have, não essencial), e 3) Eu queria validar primeiro se o portal seria adotado antes de investir em features avançadas. Foi a decisão certa - após o sucesso do MVP, implementamos os relatórios na v2 com dados reais de uso que tornaram o design muito melhor.",
-        "q_en": "What was the functionality users most requested in discovery but you decided NOT to implement in the MVP? Why?",
-        "a_en": "Customizable reports with export to various formats. 60% of managers requested this. I decided to postpone because: 1) The effort was high (4 weeks of dev), 2) The impact was medium (nice-to-have, not essential), and 3) I wanted to first validate if the portal would be adopted before investing in advanced features. It was the right decision - after MVP success, I implemented reports in v2 with real usage data that made the design much better."
+        "q": "Que mecanismo garante que o portal continue evoluindo?",
+        "a": "Implementei review quinzenal de backlog com PMO da CAGE, pipeline de melhorias no Power Automate e comitê trimestral com secretários.",
+        "q_en": "What mechanism keeps the portal improving?",
+        "a_en": "I run biweekly backlog reviews with the CAGE PMO, maintain a Power Automate improvement pipeline, and hold a quarterly steering with the secretaries."
       },
       {
-        "q": "Como você balanceou as necessidades de diferentes órgãos que tinham workflows muito distintos?",
-        "a": "Em vez de tentar criar um workflow 'universal' que seria mediocre para todos, optei por criar um 'motor de workflows configurável'. Desenhei 3 templates básicos (simples, com aprovação, com múltiplas aprovações) e dei aos órgãos autonomia para configurar. Por exemplo, a área jurídica criou um workflow de 8 etapas, enquanto a área contábil usa um de 3 etapas. Flexibilidade foi mais poderosa que padronização forçada.",
-        "q_en": "How did you balance the needs of different agencies that had very distinct workflows?",
-        "a_en": "Instead of trying to create a 'universal' workflow that would be mediocre for everyone, I chose to create a 'configurable workflow engine.' I designed 3 basic templates (simple, with approval, with multiple approvals) and gave agencies autonomy to configure. For example, the legal area created an 8-step workflow, while the accounting area uses a 3-step one. Flexibility was more powerful than forced standardization."
+        "q": "Como voce tratou as dúvidas pós-go-live?",
+        "a": "Disponibilizei hotline comigo nas quatro primeiras semanas, respondi 186 chamados em média <25 minutos e loguei cada uma como FAQ.",
+        "q_en": "How did you handle post-launch questions?",
+        "a_en": "I kept a hotline with me for four weeks, personally answered 186 tickets in under 25 minutes on average, and logged each as FAQ."
       },
       {
-        "q": "Que métricas você acompanha hoje para garantir a 'saúde' contínua do portal?",
-        "a": "Acompanho 5 KPIs em um dashboard executivo: 1) Taxa de adoção ativa (% de órgãos que usaram o portal na última semana - target >90%), 2) Tempo médio de resolução (target <8 dias), 3) Taxa de cumprimento de SLA (target >90%), 4) NPS trimestral (target >60), e 5) Volume de demandas resolvidas por autoatendimento via base de conhecimento que criamos (target crescente). Se qualquer métrica desvia >10% do target por 2 semanas consecutivas, disparo uma investigação.",
-        "q_en": "What metrics do you track today to ensure the portal's continuous 'health'?",
-        "a_en": "I track 5 KPIs in an executive dashboard: 1) Active adoption rate (% of agencies that used the portal in the last week - target >90%), 2) Average resolution time (target <8 days), 3) SLA compliance rate (target >90%), 4) Quarterly NPS (target >60), and 5) Volume of demands resolved by self-service via knowledge base I created (growing target). If any metric deviates >10% from target for 2 consecutive weeks, I trigger an investigation."
+        "q": "Qual foi o maior trade-off no desenho do portal?",
+        "a": "Optei por SharePoint/Power Platform (time-to-market 6 meses) em vez de SaaS sofisticado de 18 meses e R$ 200k/ano, priorizando entrega rápida.",
+        "q_en": "What was the toughest design trade-off?",
+        "a_en": "I chose SharePoint/Power Platform (six-month time-to-market) instead of a richer SaaS that needed eighteen months and R$200K/year, prioritizing speed."
       },
       {
-        "q": "Se você pudesse voltar ao início do projeto, o que faria diferente?",
-        "a": "Eu teria envolvido a área Jurídica desde o Dia 1. Eles só entraram na semana 8, quando precisamos validar aspectos legais de assinatura digital. Isso causou um atraso de 2 semanas porque descobrimos requisitos de conformidade que não estavam no radar. Aprendi que em projetos governamentais, Jurídico e Compliance devem estar na discovery, não apenas na validação final.",
-        "q_en": "If you could go back to the beginning of the project, what would you do differently?",
-        "a_en": "I would have involved the Legal area from Day 1. They only entered in week 8, when I needed to validate legal aspects of digital signature. This caused a 2-week delay because I discovered compliance requirements that weren't on the radar. I learned that in government projects, Legal and Compliance should be in discovery, not just in final validation."
+        "q": "Como voce garantiu NPS 72?",
+        "a": "Implementei notificações automáticas, SLA visível e respondi todas as pesquisas qualitativas em 48h com plano de ação assinado.",
+        "q_en": "How did you drive NPS to 72?",
+        "a_en": "I deployed automatic notifications, made SLA visible, and responded to every qualitative survey within 48 hours with an action plan."
       },
       {
-        "q": "Como você celebrou os sucessos intermediários para manter a equipe motivada durante os 6 meses?",
-        "a": "Criei 'marcos visíveis' a cada 3 semanas. Quando completamos a integração com o sistema legado, fiz uma demo para a diretoria e dei crédito público ao técnico do AS/400 que me ajudou. Quando atingimos 50% de adoção, organizei um almoço com pizza para a equipe. Quando o NPS bateu 70, pedi ao Secretário para enviar um e-mail de reconhecimento para todos os envolvidos. Celebrar pequenas vitórias mantém energia por projetos longos.",
-        "q_en": "How did you celebrate intermediate successes to keep the team motivated during the 6 months?",
-        "a_en": "I created 'visible milestones' every 3 weeks. When I completed legacy system integration, I did a demo for the board and gave public credit to the AS/400 technician who helped me. When I reached 50% adoption, I organized a pizza lunch for the team. When NPS hit 70, I asked the Secretary to send a recognition email to everyone involved. Celebrating small victories maintains energy for long projects."
+        "q": "Que lição levou para outros projetos públicos?",
+        "a": "Levei o tripé entrevistas profundas + escolha pragmática de tecnologia + demonstração pública de valor para o projeto de orçamento participativo, que já reduziu SLA em 32%.",
+        "q_en": "Which lesson did you carry to other public projects?",
+        "a_en": "I carried the trio of deep interviews, pragmatic tech, and public proof of value to the participatory-budget program, already cutting SLA by 32%."
       }
     ],
     "__file": "src\\data\\deliver_results\\deliver_results_case4.js",
     "lp_id": "deliver_results",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
+      "score": 98,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (3 men��es relevantes)",
-        "M�tricas robustas (44)",
-        "Ratio EU:N�S saud�vel (11:0)",
+        "M�tricas robustas (26)",
+        "Ratio EU:N�S saud�vel (4:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
+        "Customer Obsession fraca (poucos sinais)",
         "Transi��es STAR(L) pouco claras"
       ],
       "dealbreakers": [],
       "suggestions": [
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Customer Obsession fraca (poucos sinais)",
+          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
+        },
         {
           "severity": "warning",
           "topic": "warning",
@@ -198,13 +204,13 @@
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 11:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 4:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 44",
+          "message": "M�tricas detectadas: 26",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -214,32 +220,32 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
+        "score": 98,
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
           "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (3 men��es relevantes)",
-          "M�tricas robustas (44)",
-          "Ratio EU:N�S saud�vel (11:0)",
+          "M�tricas robustas (26)",
+          "Ratio EU:N�S saud�vel (4:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 44,
+        "metricsCount": 26,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 3,
+        "customerSignals": 1,
         "conflictSignals": true,
-        "mechanismSignals": 4,
+        "mechanismSignals": 5,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 11,
+            "eu": 4,
             "nos": 0
           }
         },
@@ -249,33 +255,33 @@
         },
         "parity": {
           "s": {
-            "ptLen": 521,
-            "enLen": 506,
-            "deltaPct": 0.028790786948176585
+            "ptLen": 457,
+            "enLen": 413,
+            "deltaPct": 0.0962800875273523
           },
           "t": {
-            "ptLen": 348,
-            "enLen": 338,
-            "deltaPct": 0.028735632183908046
+            "ptLen": 281,
+            "enLen": 285,
+            "deltaPct": 0.014035087719298246
           },
           "a": {
-            "ptLen": 1962,
-            "enLen": 1921,
-            "deltaPct": 0.02089704383282365
+            "ptLen": 1417,
+            "enLen": 1232,
+            "deltaPct": 0.1305575158786168
           },
           "r": {
-            "ptLen": 692,
-            "enLen": 655,
-            "deltaPct": 0.05346820809248555
+            "ptLen": 573,
+            "enLen": 563,
+            "deltaPct": 0.017452006980802792
           },
           "l": {
-            "ptLen": 618,
-            "enLen": 622,
-            "deltaPct": 0.006430868167202572
+            "ptLen": 253,
+            "enLen": 238,
+            "deltaPct": 0.05928853754940711
           }
         },
         "hookSignals": true,
-        "transitionSignals": 0,
+        "transitionSignals": 1,
         "micDropSignals": true
       }
     }
