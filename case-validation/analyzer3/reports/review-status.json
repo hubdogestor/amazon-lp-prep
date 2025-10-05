@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-05T01:42:52.651Z",
+  "run_at": "2025-10-05T10:54:02.274Z",
   "data_dir": "src/data",
   "total_cases": 72,
   "filtered_cases": 72,
@@ -84,38 +84,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 37",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "are_right_a_lot",
@@ -196,50 +165,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Case muito antigo (>9 anos)",
-          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 22",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "are_right_a_lot",
@@ -319,38 +245,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:3)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:3 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 24",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "best_employer",
@@ -431,44 +326,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 8",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "best_employer",
@@ -548,38 +406,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 4:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 8",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "best_employer",
@@ -658,44 +485,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 10",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "bias_for_action",
@@ -775,38 +565,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (2:3)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:3 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 18",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "bias_for_action",
@@ -886,38 +645,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (2:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 21",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "bias_for_action",
@@ -1000,68 +728,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Case muito antigo (>9 anos)",
-          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 14",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "bias_for_action",
@@ -1146,74 +813,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (0)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Case muito antigo (>9 anos)",
-          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 0",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "broad_responsibility",
@@ -1295,50 +895,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (3)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 3",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "broad_responsibility",
@@ -1418,44 +975,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 16",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "broad_responsibility",
@@ -1535,44 +1055,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (3:3)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:3 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 8",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "customer_obsession",
@@ -1651,38 +1134,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (2:1)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:1 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 52",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "customer_obsession",
@@ -1765,44 +1217,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (3:3)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:3 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 18",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "customer_obsession",
@@ -1885,50 +1300,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 26",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "dataStructure.js",
@@ -2014,140 +1386,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "code": "create_pt",
-          "severity": "critical",
-          "message": "Estrutura PT criada vazia"
-        },
-        {
-          "code": "create_en",
-          "severity": "critical",
-          "message": "Estrutura EN criada vazia"
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (0)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 0",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi o maior risco que voc� assumiu pessoalmente e como mitigou?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� garantiu que os mecanismos criados n�o dependessem apenas de voc�?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais dados voc� usou para auditar se a solu��o continuava saud�vel ap�s o lan�amento?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Relate um momento em que recebeu pushback de um stakeholder cr�tico e como resolveu."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Se tivesse 20% menos tempo, o que cortaria e o que preservaria?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� capturou a voz do cliente al�m dos dados quantitativos?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais m�tricas de cliente voc� definiu como leading indicators?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� calculou o impacto financeiro e validou com finan�as?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi a m�trica mais desafiadora de coletar e como garantiu qualidade dos dados?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Que mecanismos voc� instituiu para impedir regress�o ap�s sua sa�da?"
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "deliver_results",
@@ -2229,50 +1468,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Case muito antigo (>9 anos)",
-          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 9:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 26",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "deliver_results",
@@ -2351,44 +1547,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 10:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 50",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "deliver_results",
@@ -2470,56 +1629,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 5:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 34",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "deliver_results",
@@ -2597,26 +1707,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 11:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 44",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "disagree_and_commit",
@@ -2695,38 +1786,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:1)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:1 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 48",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "disagree_and_commit",
@@ -2809,56 +1869,7 @@
         "transitionSignals": 1,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Case muito antigo (>9 anos)",
-          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 4:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 16",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "disagree_and_commit",
@@ -2937,38 +1948,7 @@
         "transitionSignals": 3,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 5:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 19",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "disagree_and_commit",
@@ -3051,62 +2031,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (2)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 2",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "dive_deep",
@@ -3182,20 +2107,7 @@
         "transitionSignals": 2,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 13:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 39",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "dive_deep",
@@ -3274,32 +2186,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 26",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "dive_deep",
@@ -3378,38 +2265,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 5:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 20",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "dive_deep",
@@ -3487,26 +2343,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 4:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 41",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "earn_trust",
@@ -3584,32 +2421,7 @@
         "transitionSignals": 2,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (6:5)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 6:5 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 13",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "earn_trust",
@@ -3690,50 +2502,7 @@
         "transitionSignals": 1,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 13",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "earn_trust",
@@ -3813,44 +2582,7 @@
         "transitionSignals": 2,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (2:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 23",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "earn_trust",
@@ -3932,56 +2664,7 @@
         "transitionSignals": 1,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (3)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 3",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "earn_trust",
@@ -4063,68 +2746,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (4)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 4",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "frugality",
@@ -4205,50 +2827,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 15",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "frugality",
@@ -4329,56 +2908,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (2:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Case muito antigo (>9 anos)",
-          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 14",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "frugality",
@@ -4456,38 +2986,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 12",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "hire_and_develop_the_best",
@@ -4568,56 +3067,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (6)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (2:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Case muito antigo (>9 anos)",
-          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 6",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "hire_and_develop_the_best",
@@ -4698,62 +3148,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (5)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 5",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "hire_and_develop_the_best",
@@ -4833,44 +3228,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 12",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "icebreaker.js",
@@ -4972,180 +3330,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "code": "fill_pt_s",
-          "severity": "critical",
-          "message": "pt.s preenchido com string vazia"
-        },
-        {
-          "code": "fill_en_s",
-          "severity": "critical",
-          "message": "en.s preenchido com string vazia"
-        },
-        {
-          "code": "fill_pt_t",
-          "severity": "critical",
-          "message": "pt.t preenchido com string vazia"
-        },
-        {
-          "code": "fill_en_t",
-          "severity": "critical",
-          "message": "en.t preenchido com string vazia"
-        },
-        {
-          "code": "fill_pt_a",
-          "severity": "critical",
-          "message": "pt.a preenchido com string vazia"
-        },
-        {
-          "code": "fill_en_a",
-          "severity": "critical",
-          "message": "en.a preenchido com string vazia"
-        },
-        {
-          "code": "fill_pt_r",
-          "severity": "critical",
-          "message": "pt.r preenchido com string vazia"
-        },
-        {
-          "code": "fill_en_r",
-          "severity": "critical",
-          "message": "en.r preenchido com string vazia"
-        },
-        {
-          "code": "fill_pt_l",
-          "severity": "critical",
-          "message": "pt.l preenchido com string vazia"
-        },
-        {
-          "code": "fill_en_l",
-          "severity": "critical",
-          "message": "en.l preenchido com string vazia"
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (0)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 0",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi o maior risco que voc� assumiu pessoalmente e como mitigou?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� garantiu que os mecanismos criados n�o dependessem apenas de voc�?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais dados voc� usou para auditar se a solu��o continuava saud�vel ap�s o lan�amento?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Relate um momento em que recebeu pushback de um stakeholder cr�tico e como resolveu."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Se tivesse 20% menos tempo, o que cortaria e o que preservaria?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� capturou a voz do cliente al�m dos dados quantitativos?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais m�tricas de cliente voc� definiu como leading indicators?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� calculou o impacto financeiro e validou com finan�as?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi a m�trica mais desafiadora de coletar e como garantiu qualidade dos dados?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Que mecanismos voc� instituiu para impedir regress�o ap�s sua sa�da?"
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "insist_on_highest_standards",
@@ -5224,32 +3409,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 26",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "insist_on_highest_standards",
@@ -5328,38 +3488,7 @@
         "transitionSignals": 2,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (2:1)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:1 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 21",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "insist_on_highest_standards",
@@ -5439,38 +3568,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:4)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:4 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 20",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "insist_on_highest_standards",
@@ -5552,62 +3650,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (4)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 4",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "invent_and_simplify",
@@ -5688,50 +3731,7 @@
         "transitionSignals": 2,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Case muito antigo (>9 anos)",
-          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 31",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "invent_and_simplify",
@@ -5812,44 +3812,7 @@
         "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 26",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "invent_and_simplify",
@@ -5928,44 +3891,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:3)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:3 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 50",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "invent_and_simplify",
@@ -6044,38 +3970,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:1)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:1 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 53",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "invent_and_simplify",
@@ -6162,56 +4057,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Paridade PT/EN desequilibrada em r",
-          "action": "Ajustar texto PT/EN para manter comprimentos pr�ximos e evitar inconsist�ncias."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 10",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "invent_and_simplify",
@@ -6292,44 +4138,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (5)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 5",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "learn_and_be_curious",
@@ -6408,38 +4217,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 33",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "learn_and_be_curious",
@@ -6517,32 +4295,7 @@
         "transitionSignals": 2,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 23",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "learn_and_be_curious",
@@ -6623,44 +4376,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 21",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "learn_and_be_curious",
@@ -6745,62 +4461,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (1)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 1",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "learn_and_be_curious",
@@ -6884,74 +4545,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (2)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 2",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "meta_overrides.js",
@@ -7055,140 +4649,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "code": "create_pt",
-          "severity": "critical",
-          "message": "Estrutura PT criada vazia"
-        },
-        {
-          "code": "create_en",
-          "severity": "critical",
-          "message": "Estrutura EN criada vazia"
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (0)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 0",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi o maior risco que voc� assumiu pessoalmente e como mitigou?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� garantiu que os mecanismos criados n�o dependessem apenas de voc�?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais dados voc� usou para auditar se a solu��o continuava saud�vel ap�s o lan�amento?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Relate um momento em que recebeu pushback de um stakeholder cr�tico e como resolveu."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Se tivesse 20% menos tempo, o que cortaria e o que preservaria?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� capturou a voz do cliente al�m dos dados quantitativos?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais m�tricas de cliente voc� definiu como leading indicators?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� calculou o impacto financeiro e validou com finan�as?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi a m�trica mais desafiadora de coletar e como garantiu qualidade dos dados?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Que mecanismos voc� instituiu para impedir regress�o ap�s sua sa�da?"
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "myQuestions.js",
@@ -7290,180 +4751,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "code": "fill_pt_s",
-          "severity": "critical",
-          "message": "pt.s preenchido com string vazia"
-        },
-        {
-          "code": "fill_en_s",
-          "severity": "critical",
-          "message": "en.s preenchido com string vazia"
-        },
-        {
-          "code": "fill_pt_t",
-          "severity": "critical",
-          "message": "pt.t preenchido com string vazia"
-        },
-        {
-          "code": "fill_en_t",
-          "severity": "critical",
-          "message": "en.t preenchido com string vazia"
-        },
-        {
-          "code": "fill_pt_a",
-          "severity": "critical",
-          "message": "pt.a preenchido com string vazia"
-        },
-        {
-          "code": "fill_en_a",
-          "severity": "critical",
-          "message": "en.a preenchido com string vazia"
-        },
-        {
-          "code": "fill_pt_r",
-          "severity": "critical",
-          "message": "pt.r preenchido com string vazia"
-        },
-        {
-          "code": "fill_en_r",
-          "severity": "critical",
-          "message": "en.r preenchido com string vazia"
-        },
-        {
-          "code": "fill_pt_l",
-          "severity": "critical",
-          "message": "pt.l preenchido com string vazia"
-        },
-        {
-          "code": "fill_en_l",
-          "severity": "critical",
-          "message": "en.l preenchido com string vazia"
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (0)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 0",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi o maior risco que voc� assumiu pessoalmente e como mitigou?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� garantiu que os mecanismos criados n�o dependessem apenas de voc�?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais dados voc� usou para auditar se a solu��o continuava saud�vel ap�s o lan�amento?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Relate um momento em que recebeu pushback de um stakeholder cr�tico e como resolveu."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Se tivesse 20% menos tempo, o que cortaria e o que preservaria?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� capturou a voz do cliente al�m dos dados quantitativos?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais m�tricas de cliente voc� definiu como leading indicators?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� calculou o impacto financeiro e validou com finan�as?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi a m�trica mais desafiadora de coletar e como garantiu qualidade dos dados?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Que mecanismos voc� instituiu para impedir regress�o ap�s sua sa�da?"
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "ownership",
@@ -7477,35 +4765,35 @@
         "warnings": []
       },
       "heur": {
-        "score": 92,
+        "score": 100,
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
+          "Sem m�tricas operacionais expl�citas",
           "Transi��es STAR(L) pouco claras",
           "Case antigo (>7 anos)"
         ],
         "positives": [
-          "Customer Obsession forte (12 men��es relevantes)",
-          "M�tricas robustas (40)",
-          "Ratio EU:N�S saud�vel (6:2)",
+          "Customer Obsession forte (8 men��es relevantes)",
+          "M�tricas robustas (41)",
+          "Ratio EU:N�S saud�vel (21:0)",
+          "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 40,
+        "metricsCount": 41,
         "metricCategories": {
           "financial": true,
-          "customer": false,
-          "operational": true
+          "customer": true,
+          "operational": false
         },
-        "customerSignals": 12,
-        "conflictSignals": false,
-        "mechanismSignals": 4,
+        "customerSignals": 8,
+        "conflictSignals": true,
+        "mechanismSignals": 12,
         "ratio": {
-          "ratio": 0.75,
+          "ratio": 1,
           "counts": {
-            "eu": 6,
-            "nos": 2
+            "eu": 21,
+            "nos": 0
           }
         },
         "recency": {
@@ -7514,73 +4802,36 @@
         },
         "parity": {
           "s": {
-            "ptLen": 547,
-            "enLen": 525,
-            "deltaPct": 0.04021937842778794
+            "ptLen": 531,
+            "enLen": 490,
+            "deltaPct": 0.07721280602636535
           },
           "t": {
-            "ptLen": 510,
-            "enLen": 483,
-            "deltaPct": 0.052941176470588235
+            "ptLen": 528,
+            "enLen": 531,
+            "deltaPct": 0.005649717514124294
           },
           "a": {
-            "ptLen": 1729,
-            "enLen": 1665,
-            "deltaPct": 0.03701561596298438
+            "ptLen": 1244,
+            "enLen": 1198,
+            "deltaPct": 0.03697749196141479
           },
           "r": {
-            "ptLen": 744,
-            "enLen": 690,
-            "deltaPct": 0.07258064516129033
+            "ptLen": 682,
+            "enLen": 634,
+            "deltaPct": 0.07038123167155426
           },
           "l": {
-            "ptLen": 459,
-            "enLen": 427,
-            "deltaPct": 0.06971677559912855
+            "ptLen": 336,
+            "enLen": 314,
+            "deltaPct": 0.06547619047619048
           }
         },
         "hookSignals": true,
-        "transitionSignals": 1,
+        "transitionSignals": 0,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 6:2 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 40",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "ownership",
@@ -7597,29 +4848,27 @@
         "score": 100,
         "status": "Ready",
         "dealbreakers": [],
-        "warnings": [
-          "Customer Obsession fraca (poucos sinais)",
-          "Sem m�tricas de cliente expl�citas"
-        ],
+        "warnings": [],
         "positives": [
-          "M�tricas robustas (31)",
-          "Ratio EU:N�S saud�vel (2:0)",
+          "Customer Obsession forte (5 men��es relevantes)",
+          "M�tricas robustas (33)",
+          "Ratio EU:N�S saud�vel (19:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 31,
+        "metricsCount": 33,
         "metricCategories": {
           "financial": true,
-          "customer": false,
+          "customer": true,
           "operational": true
         },
-        "customerSignals": 2,
+        "customerSignals": 5,
         "conflictSignals": true,
-        "mechanismSignals": 11,
+        "mechanismSignals": 19,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 2,
+            "eu": 19,
             "nos": 0
           }
         },
@@ -7629,105 +4878,77 @@
         },
         "parity": {
           "s": {
-            "ptLen": 529,
-            "enLen": 521,
-            "deltaPct": 0.015122873345935728
+            "ptLen": 462,
+            "enLen": 359,
+            "deltaPct": 0.22294372294372294
           },
           "t": {
-            "ptLen": 533,
-            "enLen": 536,
-            "deltaPct": 0.005597014925373134
+            "ptLen": 385,
+            "enLen": 376,
+            "deltaPct": 0.023376623376623377
           },
           "a": {
-            "ptLen": 1610,
-            "enLen": 1546,
-            "deltaPct": 0.03975155279503106
+            "ptLen": 1255,
+            "enLen": 1127,
+            "deltaPct": 0.10199203187250996
           },
           "r": {
-            "ptLen": 706,
-            "enLen": 695,
-            "deltaPct": 0.015580736543909348
+            "ptLen": 533,
+            "enLen": 485,
+            "deltaPct": 0.0900562851782364
           },
           "l": {
-            "ptLen": 520,
-            "enLen": 494,
-            "deltaPct": 0.05
+            "ptLen": 348,
+            "enLen": 341,
+            "deltaPct": 0.020114942528735632
           }
         },
         "hookSignals": true,
         "transitionSignals": 2,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 31",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "ownership",
       "case_id": "bradesco-international-payments",
-      "title_pt": "Liderança de Força-Tarefa Cross-Funcional para Otimização de Custos em Pagamentos Internacionais",
-      "title_en": "Cross-Functional Task Force Leadership for International Payments Cost Optimization",
-      "status": "KO",
+      "title_pt": "Forca-Tarefa de Pagamentos Internacionais para Cortar Custos e Recuperar SLAs",
+      "title_en": "International Payments Task Force to Cut Costs and Recover SLAs",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 49,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (1:4)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Sem m�tricas operacionais expl�citas",
           "Transi��es STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte n�o identificado",
           "Case antigo (>7 anos)"
         ],
         "positives": [
-          "Customer Obsession forte (4 men��es relevantes)",
-          "M�tricas robustas (39)",
+          "Customer Obsession forte (8 men��es relevantes)",
+          "M�tricas robustas (37)",
+          "Ratio EU:N�S saud�vel (13:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 39,
+        "metricsCount": 37,
         "metricCategories": {
           "financial": true,
           "customer": true,
-          "operational": false
+          "operational": true
         },
-        "customerSignals": 4,
+        "customerSignals": 8,
         "conflictSignals": true,
-        "mechanismSignals": 8,
+        "mechanismSignals": 11,
         "ratio": {
-          "ratio": 0.2,
+          "ratio": 1,
           "counts": {
-            "eu": 1,
-            "nos": 4
+            "eu": 13,
+            "nos": 0
           }
         },
         "recency": {
@@ -7736,123 +4957,77 @@
         },
         "parity": {
           "s": {
-            "ptLen": 585,
-            "enLen": 574,
-            "deltaPct": 0.018803418803418803
+            "ptLen": 505,
+            "enLen": 485,
+            "deltaPct": 0.039603960396039604
           },
           "t": {
-            "ptLen": 565,
-            "enLen": 535,
-            "deltaPct": 0.05309734513274336
+            "ptLen": 348,
+            "enLen": 354,
+            "deltaPct": 0.01694915254237288
           },
           "a": {
-            "ptLen": 1366,
-            "enLen": 1318,
-            "deltaPct": 0.03513909224011713
+            "ptLen": 1297,
+            "enLen": 1310,
+            "deltaPct": 0.009923664122137405
           },
           "r": {
-            "ptLen": 787,
-            "enLen": 715,
-            "deltaPct": 0.09148665819567979
+            "ptLen": 389,
+            "enLen": 406,
+            "deltaPct": 0.04187192118226601
           },
           "l": {
-            "ptLen": 497,
-            "enLen": 503,
-            "deltaPct": 0.011928429423459244
+            "ptLen": 322,
+            "enLen": 274,
+            "deltaPct": 0.14906832298136646
           }
         },
         "hookSignals": true,
         "transitionSignals": 0,
-        "micDropSignals": false
+        "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:4)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:4 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 39",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "ownership",
       "case_id": "hsbc-payment-reconciliation",
-      "title_pt": "Resolução Crítica de Reconciliação de Pagamentos ($47M)",
-      "title_en": "Critical Payment Reconciliation Resolution ($47M)",
-      "status": "KO",
+      "title_pt": "Reconciliei US$47M de Pagamentos na Reta Final do Cutover",
+      "title_en": "Reconciled US$47M in Payments Ahead of Cutover",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 38,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:N�S abaixo de 2:1 (1:2)"
-        ],
+        "score": 97,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Sem m�tricas de cliente expl�citas",
           "Sem conflito/resist�ncia vis�vel",
           "Transi��es STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte n�o identificado",
           "Case antigo (>7 anos)"
         ],
         "positives": [
-          "Customer Obsession forte (4 men��es relevantes)",
-          "M�tricas robustas (62)",
+          "Customer Obsession forte (9 men��es relevantes)",
+          "M�tricas robustas (23)",
+          "Ratio EU:N�S saud�vel (12:0)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 62,
+        "metricsCount": 23,
         "metricCategories": {
           "financial": true,
-          "customer": false,
+          "customer": true,
           "operational": true
         },
-        "customerSignals": 4,
+        "customerSignals": 9,
         "conflictSignals": false,
-        "mechanismSignals": 17,
+        "mechanismSignals": 16,
         "ratio": {
-          "ratio": 0.3333333333333333,
+          "ratio": 1,
           "counts": {
-            "eu": 1,
-            "nos": 2
+            "eu": 12,
+            "nos": 0
           }
         },
         "recency": {
@@ -7861,128 +5036,75 @@
         },
         "parity": {
           "s": {
-            "ptLen": 706,
-            "enLen": 651,
-            "deltaPct": 0.07790368271954674
+            "ptLen": 425,
+            "enLen": 406,
+            "deltaPct": 0.04470588235294118
           },
           "t": {
-            "ptLen": 763,
-            "enLen": 746,
-            "deltaPct": 0.022280471821756225
+            "ptLen": 260,
+            "enLen": 257,
+            "deltaPct": 0.011538461538461539
           },
           "a": {
-            "ptLen": 1531,
-            "enLen": 1429,
-            "deltaPct": 0.06662312214239059
+            "ptLen": 1196,
+            "enLen": 1137,
+            "deltaPct": 0.04933110367892977
           },
           "r": {
-            "ptLen": 934,
-            "enLen": 872,
-            "deltaPct": 0.06638115631691649
+            "ptLen": 437,
+            "enLen": 379,
+            "deltaPct": 0.13272311212814644
           },
           "l": {
-            "ptLen": 669,
-            "enLen": 604,
-            "deltaPct": 0.09715994020926756
+            "ptLen": 292,
+            "enLen": 278,
+            "deltaPct": 0.04794520547945205
           }
         },
         "hookSignals": true,
-        "transitionSignals": 0,
-        "micDropSignals": false
+        "transitionSignals": 1,
+        "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:2)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:2 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 62",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "ownership",
       "case_id": "payment-incidents-prevention-mechanism",
-      "title_pt": "Criei um Mecanismo para Prevenir Incidentes Reincidentes em Pagamentos",
-      "title_en": "Built a Mechanism to Prevent Recurring Incidents in Payment Systems",
-      "status": "Needs-Polish",
+      "title_pt": "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
+      "title_en": "Turned Recurring Payment Incidents into a Reliability Mechanism",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": [
-          "desequil�brio PT/EN em 's' (diferen�a >25%)"
-        ]
+        "warnings": []
       },
       "heur": {
-        "score": 79,
-        "status": "Needs-Polish",
+        "score": 100,
+        "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Customer Obsession fraca (poucos sinais)",
-          "Sem m�tricas de cliente expl�citas",
-          "Hook inicial pode ser mais contundente",
           "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
-          "M�tricas robustas (10)",
-          "Ratio EU:N�S saud�vel (0:0)",
+          "Customer Obsession forte (3 men��es relevantes)",
+          "M�tricas robustas (17)",
+          "Ratio EU:N�S saud�vel (11:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 10,
+        "metricsCount": 17,
         "metricCategories": {
           "financial": true,
-          "customer": false,
+          "customer": true,
           "operational": true
         },
-        "customerSignals": 2,
+        "customerSignals": 3,
         "conflictSignals": true,
-        "mechanismSignals": 5,
+        "mechanismSignals": 12,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 0,
+            "eu": 11,
             "nos": 0
           }
         },
@@ -7992,216 +5114,114 @@
         },
         "parity": {
           "s": {
-            "ptLen": 277,
-            "enLen": 191,
-            "deltaPct": 0.3104693140794224
+            "ptLen": 455,
+            "enLen": 409,
+            "deltaPct": 0.1010989010989011
           },
           "t": {
-            "ptLen": 171,
-            "enLen": 150,
-            "deltaPct": 0.12280701754385964
+            "ptLen": 246,
+            "enLen": 230,
+            "deltaPct": 0.06504065040650407
           },
           "a": {
-            "ptLen": 449,
-            "enLen": 394,
-            "deltaPct": 0.12249443207126949
+            "ptLen": 1302,
+            "enLen": 1109,
+            "deltaPct": 0.14823348694316435
           },
           "r": {
-            "ptLen": 216,
-            "enLen": 162,
-            "deltaPct": 0.25
+            "ptLen": 457,
+            "enLen": 417,
+            "deltaPct": 0.087527352297593
           },
           "l": {
-            "ptLen": 149,
-            "enLen": 150,
-            "deltaPct": 0.006666666666666667
+            "ptLen": 329,
+            "enLen": 315,
+            "deltaPct": 0.0425531914893617
           }
         },
-        "hookSignals": false,
-        "transitionSignals": 0,
+        "hookSignals": true,
+        "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 10",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "ownership",
       "case_id": "long-term-tradeoff",
       "title_pt": "Assumi Trade-off: Menos Escopo Agora por Maior Robustez",
       "title_en": "Took the Trade-off: Less Scope Now for Greater Robustness",
-      "status": "KO",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 0,
-        "status": "KO",
-        "dealbreakers": [
-          "Aus�ncia de Customer Obsession",
-          "Menos de 8 m�tricas (6)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Sem m�tricas de cliente expl�citas",
-          "Sem m�tricas operacionais expl�citas",
-          "Sem conflito/resist�ncia vis�vel",
-          "Mecanismos/processos n�o evidenciados",
-          "Transi��es STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte n�o identificado"
+          "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
-          "Ratio EU:N�S saud�vel (0:0)"
+          "Customer Obsession forte (15 men��es relevantes)",
+          "M�tricas robustas (26)",
+          "Ratio EU:N�S saud�vel (20:0)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 6,
+        "metricsCount": 26,
         "metricCategories": {
           "financial": true,
-          "customer": false,
-          "operational": false
+          "customer": true,
+          "operational": true
         },
-        "customerSignals": 0,
-        "conflictSignals": false,
-        "mechanismSignals": 0,
+        "customerSignals": 15,
+        "conflictSignals": true,
+        "mechanismSignals": 4,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 0,
+            "eu": 20,
             "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 58,
+          "monthsAgo": 46,
           "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 119,
-            "enLen": 101,
-            "deltaPct": 0.15126050420168066
+            "ptLen": 534,
+            "enLen": 492,
+            "deltaPct": 0.07865168539325842
           },
           "t": {
-            "ptLen": 109,
-            "enLen": 112,
-            "deltaPct": 0.026785714285714284
+            "ptLen": 423,
+            "enLen": 358,
+            "deltaPct": 0.1536643026004728
           },
           "a": {
-            "ptLen": 212,
-            "enLen": 209,
+            "ptLen": 1254,
+            "enLen": 1272,
             "deltaPct": 0.014150943396226415
           },
           "r": {
-            "ptLen": 113,
-            "enLen": 108,
-            "deltaPct": 0.04424778761061947
+            "ptLen": 532,
+            "enLen": 513,
+            "deltaPct": 0.03571428571428571
           },
           "l": {
-            "ptLen": 101,
-            "enLen": 87,
-            "deltaPct": 0.13861386138613863
+            "ptLen": 319,
+            "enLen": 302,
+            "deltaPct": 0.05329153605015674
           }
         },
         "hookSignals": true,
-        "transitionSignals": 0,
-        "micDropSignals": false
+        "transitionSignals": 1,
+        "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (6)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 6",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "principlesData.js",
@@ -8287,140 +5307,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "code": "create_pt",
-          "severity": "critical",
-          "message": "Estrutura PT criada vazia"
-        },
-        {
-          "code": "create_en",
-          "severity": "critical",
-          "message": "Estrutura EN criada vazia"
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (0)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 0",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi o maior risco que voc� assumiu pessoalmente e como mitigou?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� garantiu que os mecanismos criados n�o dependessem apenas de voc�?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais dados voc� usou para auditar se a solu��o continuava saud�vel ap�s o lan�amento?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Relate um momento em que recebeu pushback de um stakeholder cr�tico e como resolveu."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Se tivesse 20% menos tempo, o que cortaria e o que preservaria?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� capturou a voz do cliente al�m dos dados quantitativos?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais m�tricas de cliente voc� definiu como leading indicators?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� calculou o impacto financeiro e validou com finan�as?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi a m�trica mais desafiadora de coletar e como garantiu qualidade dos dados?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Que mecanismos voc� instituiu para impedir regress�o ap�s sua sa�da?"
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "template-claude.js",
@@ -8524,140 +5411,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "code": "create_pt",
-          "severity": "critical",
-          "message": "Estrutura PT criada vazia"
-        },
-        {
-          "code": "create_en",
-          "severity": "critical",
-          "message": "Estrutura EN criada vazia"
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (0)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 0",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi o maior risco que voc� assumiu pessoalmente e como mitigou?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� garantiu que os mecanismos criados n�o dependessem apenas de voc�?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais dados voc� usou para auditar se a solu��o continuava saud�vel ap�s o lan�amento?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Relate um momento em que recebeu pushback de um stakeholder cr�tico e como resolveu."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Se tivesse 20% menos tempo, o que cortaria e o que preservaria?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� capturou a voz do cliente al�m dos dados quantitativos?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais m�tricas de cliente voc� definiu como leading indicators?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� calculou o impacto financeiro e validou com finan�as?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi a m�trica mais desafiadora de coletar e como garantiu qualidade dos dados?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Que mecanismos voc� instituiu para impedir regress�o ap�s sua sa�da?"
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "think_big",
@@ -8737,38 +5491,7 @@
         "transitionSignals": 2,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Case muito antigo (>9 anos)",
-          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 28",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "think_big",
@@ -8848,38 +5571,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:N�S abaixo de 2:1 (1:1)",
-          "action": "Reescrever se��es destacando decis�es e a��es pessoais (\"Eu decidi\", \"Eu implementei\")."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:1 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 20",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "think_big",
@@ -8960,56 +5652,7 @@
         "transitionSignals": 1,
         "micDropSignals": true
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 13",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "think_big",
@@ -9092,68 +5735,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (2)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 2",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "topCases.js",
@@ -9239,140 +5821,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "code": "create_pt",
-          "severity": "critical",
-          "message": "Estrutura PT criada vazia"
-        },
-        {
-          "code": "create_en",
-          "severity": "critical",
-          "message": "Estrutura EN criada vazia"
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (0)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 0",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi o maior risco que voc� assumiu pessoalmente e como mitigou?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� garantiu que os mecanismos criados n�o dependessem apenas de voc�?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais dados voc� usou para auditar se a solu��o continuava saud�vel ap�s o lan�amento?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Relate um momento em que recebeu pushback de um stakeholder cr�tico e como resolveu."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Se tivesse 20% menos tempo, o que cortaria e o que preservaria?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� capturou a voz do cliente al�m dos dados quantitativos?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais m�tricas de cliente voc� definiu como leading indicators?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� calculou o impacto financeiro e validou com finan�as?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi a m�trica mais desafiadora de coletar e como garantiu qualidade dos dados?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Que mecanismos voc� instituiu para impedir regress�o ap�s sua sa�da?"
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "typicalQuestions.js",
@@ -9476,140 +5925,7 @@
         "transitionSignals": 0,
         "micDropSignals": false
       },
-      "changes": [
-        {
-          "code": "create_pt",
-          "severity": "critical",
-          "message": "Estrutura PT criada vazia"
-        },
-        {
-          "code": "create_en",
-          "severity": "critical",
-          "message": "Estrutura EN criada vazia"
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Aus�ncia de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
-        },
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 m�tricas (0)",
-          "action": "Adicionar m�tricas tang�veis em Resultado e A��o (cliente, financeiro e opera��o)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas financeiras claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas operacionais expl�citas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resist�ncia vis�vel",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos n�o evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transi��es STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mic-drop/aprendizado forte n�o identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 0",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi o maior risco que voc� assumiu pessoalmente e como mitigou?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� garantiu que os mecanismos criados n�o dependessem apenas de voc�?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais dados voc� usou para auditar se a solu��o continuava saud�vel ap�s o lan�amento?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Relate um momento em que recebeu pushback de um stakeholder cr�tico e como resolveu."
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Se tivesse 20% menos tempo, o que cortaria e o que preservaria?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� capturou a voz do cliente al�m dos dados quantitativos?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Quais m�tricas de cliente voc� definiu como leading indicators?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Como voc� calculou o impacto financeiro e validou com finan�as?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Qual foi a m�trica mais desafiadora de coletar e como garantiu qualidade dos dados?"
-        },
-        {
-          "severity": "info",
-          "topic": "fup",
-          "message": "FUP adicionada: Que mecanismos voc� instituiu para impedir regress�o ap�s sua sa�da?"
-        }
-      ]
+      "changes": []
     }
   ]
 }

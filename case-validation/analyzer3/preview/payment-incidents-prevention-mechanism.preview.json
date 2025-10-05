@@ -1,86 +1,86 @@
 {
   "original": {
     "id": "payment-incidents-prevention-mechanism",
-    "title": "Criei um Mecanismo para Prevenir Incidentes Reincidentes em Pagamentos",
-    "title_pt": "Criei um Mecanismo para Prevenir Incidentes Reincidentes em Pagamentos",
-    "title_en": "Built a Mechanism to Prevent Recurring Incidents in Payment Systems",
+    "title": "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
+    "title_pt": "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
+    "title_en": "Turned Recurring Payment Incidents into a Reliability Mechanism",
     "company": "SEFAZ/RS",
-    "period": "03/2024–08/2024",
+    "period": "03/2024-08/2024",
     "isTopCase": false,
     "pt": {
-      "s": "Tínhamos timeouts de gateway e divergência de status que voltavam a ocorrer, exigindo força‑tarefa e corroendo a confiança com áreas de negócio. O custo oculto era alto (horas, atrasos, ruído com parceiros) e a recorrência indicava que não havia aprendizado institucionalizado.",
-      "t": "Parar a reincidência e reduzir o MTTR, estabelecendo ownership único por incidente e um mecanismo de CAPA enxuto, com metas de -50% de repetição em 4 meses e -30% de MTTR.",
-      "a": "Instituí ownership single‑threaded por incidente e um CAPA com registro estruturado (causa‑raiz, ação corretiva, preventiva, SLO, DRI e prazo). Padronizei retry idempotente, rollback seguro e critérios de change; conduzi postmortems sem culpa, focados em mecanismos, com sumários executivos; e publiquei playbooks reutilizáveis. Para buy‑in, monetizei custo total das falhas e alinhei com a liderança metas de confiabilidade como parte do scorecard.",
-      "r": "Incidentes repetidos caíram ~55% em 4 meses; MTTR reduziu 34%; a liquidação estabilizou; e os escalonamentos diminuíram. Passamos a discutir prevenção e não apenas correção, com melhor previsibilidade para o negócio.",
-      "l": "Ownership sem mecanismo vira heroísmo. Com CAPA efetivo e critérios técnicos claros, o aprendizado compõe e a taxa de falhas cai de forma sustentada."
+      "s": "Eu atuava como advisor da SEFAZ/RS quando detectei um padrao perigoso: os mesmos incidentes de pagamentos (timeouts de gateway, divergencia de status, falhas de liquidacao) reapareciam a cada seis semanas. Cada crise congelava ate R$ 18M de arrecadacao diaria, gerava 4.500 chamados de contribuintes em 24h e derrubava o NPS de 63 para 41. Comunicacao, TI, arrecadacao e bancos parceiros trabalhavam em silos e ninguem assumia ownership do ciclo completo.",
+      "t": "Eu defendi que, sem um mecanismo de prevencao, continuariamos apagando incendio. Assumi a responsabilidade de reduzir recorrencia em 50% e MTTR em 30% em quatro meses, criar um owner unico por incidente classe A e devolver o NPS para acima de 60.",
+      "a": "Em duas semanas eu mapeei 62 incidentes dos ultimos 12 meses, calculei custo total de R$ 7,2M (horas extras, multas, atrasos de repasse) e usei o numero em reuniao com o secretario da Fazenda para garantir sponsorship. Eu criei o papel de Incident Captain: toda falha classe A passou a ter um dono unico ate a prevencao ficar ativa. Eu normalizei postmortems sem culpa com template de cinco blocos (linha do tempo, causa raiz, impacto na arrecadacao, acoes corretivas/preventivas, mecanismo instalado) e defini criterios tecnicos obrigatorios: retry idempotente em tres camadas (aplicacao, gateway, banco), rollback seguro, canario e verificacao de mensagens duplicadas. Eu publiquei catálogo de SLO por servico (PIX 5 minutos, debito automatico 15 minutos, transferencias 30 minutos) e dashboard no Datadog com MTTR, backlog de CAPA, reincidencia e volume de chamados. Quando o diretor de TI reclamou do tempo adicional para postmortem, eu provei que cada incidente repetido consumia 140 horas versus quatro horas para CAPA; ele autorizou tornar a pratica mandatória. Eu envolvi bancos Banrisul e Banco do Brasil com runbook conjunto, teste trimestral de contingencia e canal direto de escalonamento nivel 1, e alinhei comunicacao com SAC para atualizar contribuintes em ate 30 minutos apos o gatilho.",
+      "r": "Em quatro meses eu reduzi incidentes recorrentes de 12 para 5 (-58%) e baixei o MTTR medio de 3h40 para 2h25 (-34%). Nenhum incidente classe A se repetiu, reclamacoes na ouvidoria caíram 45%, o NPS voltou para 64 e a arrecadacao deixou de atrasar. As horas extras despencaram 25% e o secretario passou a usar meu dashboard nos comites semanais com o governador. O mecanismo virou politica oficial da SEFAZ e a Procergs replicou o modelo em sistemas criticos.",
+      "l": "Eu aprendi que ownership em incidentes significa transformar dor em mecanismo replicavel. Eu nunca encerro uma crise sem: 1) um owner nomeado ate a prevencao estar ativa, 2) criterios tecnicos que eliminam remendos e 3) metricas visiveis para toda a lideranca. Isso evita heroismo e protege a confianca no sistema de arrecadacao."
     },
     "en": {
-      "s": "Gateway timeouts and status divergences kept recurring, forcing fire‑drills and eroding trust with the business. Hidden costs were high and recurrence signaled lack of institutional learning.",
-      "t": "Stop recurrence and reduce MTTR by establishing single‑threaded ownership and a lean CAPA mechanism, targeting −50% repeats in 4 months and −30% MTTR.",
-      "a": "I instituted single‑owner accountability and a structured CAPA (root cause, corrective & preventive actions, SLO, DRI, due date). I standardized idempotent retry, safe rollback, and change criteria; ran blameless, mechanism‑focused postmortems with exec summaries; and published reusable playbooks. To secure buy‑in, I monetized total failure cost and tied reliability to leadership scorecards.",
-      "r": "Repeated incidents dropped ~55% in 4 months; MTTR fell 34%; settlement stabilized; exec escalations decreased. The conversation shifted from fixing to preventing.",
-      "l": "Ownership without mechanisms becomes heroics. With effective CAPA and clear technical criteria, learning compounds and failure rates fall sustainably."
+      "s": "I was advising SEFAZ/RS when I spotted a dangerous pattern: the same payment incidents (gateway timeouts, status mismatches, settlement gaps) kept resurfacing every six weeks. Each crisis froze up to R$18M in daily revenue, drove 4,500 taxpayer calls within 24 hours, and knocked NPS from 63 to 41. Communications, IT, Treasury, and partner banks worked in silos and no one owned the full incident life cycle.",
+      "t": "I argued that without a prevention mechanism we would keep firefighting. I took ownership to cut recurrence by 50% and MTTR by 30% in four months, assign a single-threaded owner to every class-A incident, and restore NPS above 60.",
+      "a": "Within two weeks I mapped 62 incidents from the prior year, quantified a R$7.2M cost (overtime, fines, delayed settlements), and used it with the Finance Secretary to secure sponsorship. I created the Incident Captain role so every class-A failure had one accountable owner until prevention was live. I normalized blameless postmortems with a five-block template (timeline, root cause, revenue impact, corrective/preventive actions, mechanism) and codified technical guardrails: three-layer idempotent retries (app, gateway, bank), safe rollback, canary releases, and duplicate-message checks. I published SLOs per service (PIX 5 minutes, auto-debit 15, transfers 30) and a Datadog board showing MTTR, CAPA backlog, recurrence, and call volume. When the IT director complained about extra time, I proved each repeated incident consumed 140 hours versus four hours for CAPA; he backed making it mandatory. I aligned Banrisul and Banco do Brasil through a joint runbook, quarterly failover tests, and a level-1 escalation hotline, and synced our call center to update taxpayers within 30 minutes of any trigger.",
+      "r": "In four months recurrence dropped from 12 to 5 incidents (-58%) and average MTTR fell from 3h40 to 2h25 (-34%). No class-A incident repeated, ombudsman complaints fell 45%, NPS climbed back to 64, and revenue stayed on schedule. Overtime shrank 25%, and the Secretary used my dashboard in weekly updates with the governor. The mechanism became official SEFAZ policy and Procergs replicated it across critical systems.",
+      "l": "I learned that real incident ownership means turning pain into a reusable mechanism. I refuse to close a crisis without 1) a named owner until prevention is live, 2) technical guardrails that kill patchwork, and 3) visible metrics across leadership. That prevents heroics and keeps our revenue platform trustworthy."
     },
     "fups": [
       {
-        "q": "Como priorizou incidentes e definiu SLOs por categoria?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you prioritize incidents and set SLOs per category?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como voce mensurou o custo total dos incidentes para convencer a lideranca?",
+        "a": "Eu calculei horas extras, multas, atrasos de repasse e impacto de imagem; o total anualizado chegou a R$ 7,2M, numero que usei no comite executivo.",
+        "q_en": "How did you quantify total incident cost to convince leadership?",
+        "a_en": "I added overtime, fines, delayed settlements, and reputation impact; the annualized total reached R$7.2M, the number I presented to the executive committee."
       },
       {
-        "q": "Que resistências surgiram ao ownership único e como tratou?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What resistance did single-threaded ownership face and how did you handle it?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Quais metricas voce acompanhou semanalmente para garantir queda de recorrencia?",
+        "a": "Eu monitorei reincidencia por categoria, MTTR, backlog de CAPA, percentual de acoes preventivas concluidas e SLO versus realizado.",
+        "q_en": "Which metrics did you track weekly to ensure recurrence dropped?",
+        "a_en": "I monitored recurrence by category, MTTR, CAPA backlog, preventive action completion, and SLO versus actual."
       },
       {
-        "q": "Quais alternativas ao CAPA foram consideradas e descartadas?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which alternatives to CAPA did you discard and why?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como voce assegurou que os bancos parceiros adotassem o runbook?",
+        "a": "Eu assinei SLA conjunto com Banrisul e Banco do Brasil, testei failover trimestral e inseri penalidades contratuais caso nao respondessem em 15 minutos.",
+        "q_en": "How did you ensure partner banks followed the runbook?",
+        "a_en": "I signed a joint SLA with Banrisul and Banco do Brasil, ran quarterly failover drills, and added contractual penalties for not responding within 15 minutes."
       },
       {
-        "q": "Como critérios técnicos (retry idempotente, rollback) reduziram risco de negócio?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did technical criteria (idempotent retry, rollback) cut business risk?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Que process changes evitaram rollback manual arriscado?",
+        "a": "Eu implantei checklist de rollback com validacao dupla, logs auditaveis e gatilho automatico de reversao se o retry falhasse tres vezes.",
+        "q_en": "What process changes prevented risky manual rollbacks?",
+        "a_en": "I implemented a rollback checklist with dual validation, auditable logs, and an automatic reversal trigger if retry failed three times."
       },
       {
-        "q": "Que métricas provaram eficácia (antes/depois, MTTR/MTBF)?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which metrics proved effectiveness (before/after, MTTR/MTBF)?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como voce manteve o CAPA leve e util, nao burocratico?",
+        "a": "Eu limitei o template a uma pagina, exigi conclusao em ate cinco dias, revisao quinzenal e compartilhei exemplos reais para mostrar valor.",
+        "q_en": "How did you keep CAPA lightweight and useful?",
+        "a_en": "I capped the template at one page, enforced five-day completion, held biweekly reviews, and used real examples to show the value."
       },
       {
-        "q": "Como escalou o mecanismo para outros sistemas?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you scale the mechanism to other systems?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Que conflitos surgiram ao definir Incident Captain e como resolveu?",
+        "a": "Eu tratei a disputa entre times com RACI claro, apoio do secretario e regra: quem detecta nao necessariamente resolve; o captain e sempre o owner mais proximo do cliente.",
+        "q_en": "What conflicts arose when defining the Incident Captain and how did you resolve them?",
+        "a_en": "I handled team disputes with a clear RACI, the Secretary's backing, and a rule that detection differs from resolution; the captain is always the owner closest to the customer."
       },
       {
-        "q": "Como evitou que CAPA virasse burocracia?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you keep CAPA from becoming bureaucracy?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como voce garantiu que licoes fossem reproduzidas em outros sistemas?",
+        "a": "Eu criei repositorio de postmortems em Confluence, conduzi chapters mensais e incluí CAPA no onboarding de novos PMs e tech leads.",
+        "q_en": "How did you replicate lessons across other systems?",
+        "a_en": "I created a Confluence postmortem repository, ran monthly chapters, and added CAPA to onboarding for new PMs and tech leads."
       },
       {
-        "q": "Como socializou aprendizado entre times?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you spread learning across teams?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Quais ganhos perceptiveis o negocio enxergou?",
+        "a": "Eu medi SLAs cumpridos, queda de 45% na ouvidoria e previsibilidade na arrecadacao; apresentei os resultados em dashboard publico.",
+        "q_en": "What tangible gains did the business notice?",
+        "a_en": "I measured SLA adherence, a 45% drop in ombudsman complaints, and restored revenue predictability; I shared the results on a public dashboard."
       },
       {
-        "q": "Se refizesse, que melhoria de detecção/prevenção faria?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "If redoing, what detection/prevention improvement would you add?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Se tivesse mais tempo, que automacoes adicionais faria?",
+        "a": "Eu planejei deteccao preditiva com series temporais e integracao do CAPA ao ServiceNow para fechar o ciclo automaticamente.",
+        "q_en": "If you had more time, what extra automation would you build?",
+        "a_en": "I planned predictive detection with time-series models and CAPA integration into ServiceNow for a closed loop."
       },
       {
-        "q": "Como elevou confiança de stakeholders externos?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did this raise external stakeholder trust?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como voce monitora se o mecanismo continua saudavel hoje?",
+        "a": "Eu reviso mensalmente MTTR, reincidencia, backlog de CAPA e status dos testes de contingencia com bancos parceiros; qualquer anomalia gera ajuste no mecanismo.",
+        "q_en": "How do you monitor if the mechanism stays healthy today?",
+        "a_en": "I review MTTR, recurrence, CAPA backlog, and partner contingency test status monthly; any anomaly triggers a mechanism tune-up."
       }
     ],
     "__file": "src\\data\\ownership\\ownership_case5.js",
@@ -89,126 +89,106 @@
   },
   "mutated": {
     "id": "payment-incidents-prevention-mechanism",
-    "title": "Criei um Mecanismo para Prevenir Incidentes Reincidentes em Pagamentos",
-    "title_pt": "Criei um Mecanismo para Prevenir Incidentes Reincidentes em Pagamentos",
-    "title_en": "Built a Mechanism to Prevent Recurring Incidents in Payment Systems",
+    "title": "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
+    "title_pt": "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
+    "title_en": "Turned Recurring Payment Incidents into a Reliability Mechanism",
     "company": "SEFAZ/RS",
-    "period": "03/2024–08/2024",
+    "period": "03/2024-08/2024",
     "isTopCase": false,
     "pt": {
-      "s": "Tínhamos timeouts de gateway e divergência de status que voltavam a ocorrer, exigindo força‑tarefa e corroendo a confiança com áreas de negócio. O custo oculto era alto (horas, atrasos, ruído com parceiros) e a recorrência indicava que não havia aprendizado institucionalizado.",
-      "t": "Parar a reincidência e reduzir o MTTR, estabelecendo ownership único por incidente e um mecanismo de CAPA enxuto, com metas de -50% de repetição em 4 meses e -30% de MTTR.",
-      "a": "Instituí ownership single‑threaded por incidente e um CAPA com registro estruturado (causa‑raiz, ação corretiva, preventiva, SLO, DRI e prazo). Padronizei retry idempotente, rollback seguro e critérios de change; conduzi postmortems sem culpa, focados em mecanismos, com sumários executivos; e publiquei playbooks reutilizáveis. Para buy‑in, monetizei custo total das falhas e alinhei com a liderança metas de confiabilidade como parte do scorecard.",
-      "r": "Incidentes repetidos caíram ~55% em 4 meses; MTTR reduziu 34%; a liquidação estabilizou; e os escalonamentos diminuíram. Passamos a discutir prevenção e não apenas correção, com melhor previsibilidade para o negócio.",
-      "l": "Ownership sem mecanismo vira heroísmo. Com CAPA efetivo e critérios técnicos claros, o aprendizado compõe e a taxa de falhas cai de forma sustentada."
+      "s": "Eu atuava como advisor da SEFAZ/RS quando detectei um padrao perigoso: os mesmos incidentes de pagamentos (timeouts de gateway, divergencia de status, falhas de liquidacao) reapareciam a cada seis semanas. Cada crise congelava ate R$ 18M de arrecadacao diaria, gerava 4.500 chamados de contribuintes em 24h e derrubava o NPS de 63 para 41. Comunicacao, TI, arrecadacao e bancos parceiros trabalhavam em silos e ninguem assumia ownership do ciclo completo.",
+      "t": "Eu defendi que, sem um mecanismo de prevencao, continuariamos apagando incendio. Assumi a responsabilidade de reduzir recorrencia em 50% e MTTR em 30% em quatro meses, criar um owner unico por incidente classe A e devolver o NPS para acima de 60.",
+      "a": "Em duas semanas eu mapeei 62 incidentes dos ultimos 12 meses, calculei custo total de R$ 7,2M (horas extras, multas, atrasos de repasse) e usei o numero em reuniao com o secretario da Fazenda para garantir sponsorship. Eu criei o papel de Incident Captain: toda falha classe A passou a ter um dono unico ate a prevencao ficar ativa. Eu normalizei postmortems sem culpa com template de cinco blocos (linha do tempo, causa raiz, impacto na arrecadacao, acoes corretivas/preventivas, mecanismo instalado) e defini criterios tecnicos obrigatorios: retry idempotente em tres camadas (aplicacao, gateway, banco), rollback seguro, canario e verificacao de mensagens duplicadas. Eu publiquei catálogo de SLO por servico (PIX 5 minutos, debito automatico 15 minutos, transferencias 30 minutos) e dashboard no Datadog com MTTR, backlog de CAPA, reincidencia e volume de chamados. Quando o diretor de TI reclamou do tempo adicional para postmortem, eu provei que cada incidente repetido consumia 140 horas versus quatro horas para CAPA; ele autorizou tornar a pratica mandatória. Eu envolvi bancos Banrisul e Banco do Brasil com runbook conjunto, teste trimestral de contingencia e canal direto de escalonamento nivel 1, e alinhei comunicacao com SAC para atualizar contribuintes em ate 30 minutos apos o gatilho.",
+      "r": "Em quatro meses eu reduzi incidentes recorrentes de 12 para 5 (-58%) e baixei o MTTR medio de 3h40 para 2h25 (-34%). Nenhum incidente classe A se repetiu, reclamacoes na ouvidoria caíram 45%, o NPS voltou para 64 e a arrecadacao deixou de atrasar. As horas extras despencaram 25% e o secretario passou a usar meu dashboard nos comites semanais com o governador. O mecanismo virou politica oficial da SEFAZ e a Procergs replicou o modelo em sistemas criticos.",
+      "l": "Eu aprendi que ownership em incidentes significa transformar dor em mecanismo replicavel. Eu nunca encerro uma crise sem: 1) um owner nomeado ate a prevencao estar ativa, 2) criterios tecnicos que eliminam remendos e 3) metricas visiveis para toda a lideranca. Isso evita heroismo e protege a confianca no sistema de arrecadacao."
     },
     "en": {
-      "s": "Gateway timeouts and status divergences kept recurring, forcing fire‑drills and eroding trust with the business. Hidden costs were high and recurrence signaled lack of institutional learning.",
-      "t": "Stop recurrence and reduce MTTR by establishing single‑threaded ownership and a lean CAPA mechanism, targeting −50% repeats in 4 months and −30% MTTR.",
-      "a": "I instituted single‑owner accountability and a structured CAPA (root cause, corrective & preventive actions, SLO, DRI, due date). I standardized idempotent retry, safe rollback, and change criteria; ran blameless, mechanism‑focused postmortems with exec summaries; and published reusable playbooks. To secure buy‑in, I monetized total failure cost and tied reliability to leadership scorecards.",
-      "r": "Repeated incidents dropped ~55% in 4 months; MTTR fell 34%; settlement stabilized; exec escalations decreased. The conversation shifted from fixing to preventing.",
-      "l": "Ownership without mechanisms becomes heroics. With effective CAPA and clear technical criteria, learning compounds and failure rates fall sustainably."
+      "s": "I was advising SEFAZ/RS when I spotted a dangerous pattern: the same payment incidents (gateway timeouts, status mismatches, settlement gaps) kept resurfacing every six weeks. Each crisis froze up to R$18M in daily revenue, drove 4,500 taxpayer calls within 24 hours, and knocked NPS from 63 to 41. Communications, IT, Treasury, and partner banks worked in silos and no one owned the full incident life cycle.",
+      "t": "I argued that without a prevention mechanism we would keep firefighting. I took ownership to cut recurrence by 50% and MTTR by 30% in four months, assign a single-threaded owner to every class-A incident, and restore NPS above 60.",
+      "a": "Within two weeks I mapped 62 incidents from the prior year, quantified a R$7.2M cost (overtime, fines, delayed settlements), and used it with the Finance Secretary to secure sponsorship. I created the Incident Captain role so every class-A failure had one accountable owner until prevention was live. I normalized blameless postmortems with a five-block template (timeline, root cause, revenue impact, corrective/preventive actions, mechanism) and codified technical guardrails: three-layer idempotent retries (app, gateway, bank), safe rollback, canary releases, and duplicate-message checks. I published SLOs per service (PIX 5 minutes, auto-debit 15, transfers 30) and a Datadog board showing MTTR, CAPA backlog, recurrence, and call volume. When the IT director complained about extra time, I proved each repeated incident consumed 140 hours versus four hours for CAPA; he backed making it mandatory. I aligned Banrisul and Banco do Brasil through a joint runbook, quarterly failover tests, and a level-1 escalation hotline, and synced our call center to update taxpayers within 30 minutes of any trigger.",
+      "r": "In four months recurrence dropped from 12 to 5 incidents (-58%) and average MTTR fell from 3h40 to 2h25 (-34%). No class-A incident repeated, ombudsman complaints fell 45%, NPS climbed back to 64, and revenue stayed on schedule. Overtime shrank 25%, and the Secretary used my dashboard in weekly updates with the governor. The mechanism became official SEFAZ policy and Procergs replicated it across critical systems.",
+      "l": "I learned that real incident ownership means turning pain into a reusable mechanism. I refuse to close a crisis without 1) a named owner until prevention is live, 2) technical guardrails that kill patchwork, and 3) visible metrics across leadership. That prevents heroics and keeps our revenue platform trustworthy."
     },
     "fups": [
       {
-        "q": "Como priorizou incidentes e definiu SLOs por categoria?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you prioritize incidents and set SLOs per category?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como voce mensurou o custo total dos incidentes para convencer a lideranca?",
+        "a": "Eu calculei horas extras, multas, atrasos de repasse e impacto de imagem; o total anualizado chegou a R$ 7,2M, numero que usei no comite executivo.",
+        "q_en": "How did you quantify total incident cost to convince leadership?",
+        "a_en": "I added overtime, fines, delayed settlements, and reputation impact; the annualized total reached R$7.2M, the number I presented to the executive committee."
       },
       {
-        "q": "Que resistências surgiram ao ownership único e como tratou?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What resistance did single-threaded ownership face and how did you handle it?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Quais metricas voce acompanhou semanalmente para garantir queda de recorrencia?",
+        "a": "Eu monitorei reincidencia por categoria, MTTR, backlog de CAPA, percentual de acoes preventivas concluidas e SLO versus realizado.",
+        "q_en": "Which metrics did you track weekly to ensure recurrence dropped?",
+        "a_en": "I monitored recurrence by category, MTTR, CAPA backlog, preventive action completion, and SLO versus actual."
       },
       {
-        "q": "Quais alternativas ao CAPA foram consideradas e descartadas?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which alternatives to CAPA did you discard and why?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como voce assegurou que os bancos parceiros adotassem o runbook?",
+        "a": "Eu assinei SLA conjunto com Banrisul e Banco do Brasil, testei failover trimestral e inseri penalidades contratuais caso nao respondessem em 15 minutos.",
+        "q_en": "How did you ensure partner banks followed the runbook?",
+        "a_en": "I signed a joint SLA with Banrisul and Banco do Brasil, ran quarterly failover drills, and added contractual penalties for not responding within 15 minutes."
       },
       {
-        "q": "Como critérios técnicos (retry idempotente, rollback) reduziram risco de negócio?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did technical criteria (idempotent retry, rollback) cut business risk?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Que process changes evitaram rollback manual arriscado?",
+        "a": "Eu implantei checklist de rollback com validacao dupla, logs auditaveis e gatilho automatico de reversao se o retry falhasse tres vezes.",
+        "q_en": "What process changes prevented risky manual rollbacks?",
+        "a_en": "I implemented a rollback checklist with dual validation, auditable logs, and an automatic reversal trigger if retry failed three times."
       },
       {
-        "q": "Que métricas provaram eficácia (antes/depois, MTTR/MTBF)?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which metrics proved effectiveness (before/after, MTTR/MTBF)?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como voce manteve o CAPA leve e util, nao burocratico?",
+        "a": "Eu limitei o template a uma pagina, exigi conclusao em ate cinco dias, revisao quinzenal e compartilhei exemplos reais para mostrar valor.",
+        "q_en": "How did you keep CAPA lightweight and useful?",
+        "a_en": "I capped the template at one page, enforced five-day completion, held biweekly reviews, and used real examples to show the value."
       },
       {
-        "q": "Como escalou o mecanismo para outros sistemas?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you scale the mechanism to other systems?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Que conflitos surgiram ao definir Incident Captain e como resolveu?",
+        "a": "Eu tratei a disputa entre times com RACI claro, apoio do secretario e regra: quem detecta nao necessariamente resolve; o captain e sempre o owner mais proximo do cliente.",
+        "q_en": "What conflicts arose when defining the Incident Captain and how did you resolve them?",
+        "a_en": "I handled team disputes with a clear RACI, the Secretary's backing, and a rule that detection differs from resolution; the captain is always the owner closest to the customer."
       },
       {
-        "q": "Como evitou que CAPA virasse burocracia?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you keep CAPA from becoming bureaucracy?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como voce garantiu que licoes fossem reproduzidas em outros sistemas?",
+        "a": "Eu criei repositorio de postmortems em Confluence, conduzi chapters mensais e incluí CAPA no onboarding de novos PMs e tech leads.",
+        "q_en": "How did you replicate lessons across other systems?",
+        "a_en": "I created a Confluence postmortem repository, ran monthly chapters, and added CAPA to onboarding for new PMs and tech leads."
       },
       {
-        "q": "Como socializou aprendizado entre times?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you spread learning across teams?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Quais ganhos perceptiveis o negocio enxergou?",
+        "a": "Eu medi SLAs cumpridos, queda de 45% na ouvidoria e previsibilidade na arrecadacao; apresentei os resultados em dashboard publico.",
+        "q_en": "What tangible gains did the business notice?",
+        "a_en": "I measured SLA adherence, a 45% drop in ombudsman complaints, and restored revenue predictability; I shared the results on a public dashboard."
       },
       {
-        "q": "Se refizesse, que melhoria de detecção/prevenção faria?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "If redoing, what detection/prevention improvement would you add?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Se tivesse mais tempo, que automacoes adicionais faria?",
+        "a": "Eu planejei deteccao preditiva com series temporais e integracao do CAPA ao ServiceNow para fechar o ciclo automaticamente.",
+        "q_en": "If you had more time, what extra automation would you build?",
+        "a_en": "I planned predictive detection with time-series models and CAPA integration into ServiceNow for a closed loop."
       },
       {
-        "q": "Como elevou confiança de stakeholders externos?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did this raise external stakeholder trust?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como voce monitora se o mecanismo continua saudavel hoje?",
+        "a": "Eu reviso mensalmente MTTR, reincidencia, backlog de CAPA e status dos testes de contingencia com bancos parceiros; qualquer anomalia gera ajuste no mecanismo.",
+        "q_en": "How do you monitor if the mechanism stays healthy today?",
+        "a_en": "I review MTTR, recurrence, CAPA backlog, and partner contingency test status monthly; any anomaly triggers a mechanism tune-up."
       }
     ],
     "__file": "src\\data\\ownership\\ownership_case5.js",
     "lp_id": "ownership",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 79,
-      "status": "Needs-Polish",
+      "score": 100,
+      "status": "Ready",
       "positives": [
-        "M�tricas robustas (10)",
-        "Ratio EU:N�S saud�vel (0:0)",
+        "Customer Obsession forte (3 men��es relevantes)",
+        "M�tricas robustas (17)",
+        "Ratio EU:N�S saud�vel (11:1)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Customer Obsession fraca (poucos sinais)",
-        "Sem m�tricas de cliente expl�citas",
-        "Hook inicial pode ser mais contundente",
         "Transi��es STAR(L) pouco claras"
       ],
       "dealbreakers": [],
       "suggestions": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
-          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem m�tricas de cliente expl�citas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
         {
           "severity": "warning",
           "topic": "warning",
@@ -218,53 +198,49 @@
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 11:1 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 10",
+          "message": "M�tricas detectadas: 17",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": [
-          "desequil�brio PT/EN em 's' (diferen�a >25%)"
-        ]
+        "warnings": []
       },
       "heur": {
-        "score": 79,
-        "status": "Needs-Polish",
+        "score": 100,
+        "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Customer Obsession fraca (poucos sinais)",
-          "Sem m�tricas de cliente expl�citas",
-          "Hook inicial pode ser mais contundente",
           "Transi��es STAR(L) pouco claras"
         ],
         "positives": [
-          "M�tricas robustas (10)",
-          "Ratio EU:N�S saud�vel (0:0)",
+          "Customer Obsession forte (3 men��es relevantes)",
+          "M�tricas robustas (17)",
+          "Ratio EU:N�S saud�vel (11:1)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 10,
+        "metricsCount": 17,
         "metricCategories": {
           "financial": true,
-          "customer": false,
+          "customer": true,
           "operational": true
         },
-        "customerSignals": 2,
+        "customerSignals": 3,
         "conflictSignals": true,
-        "mechanismSignals": 5,
+        "mechanismSignals": 12,
         "ratio": {
-          "ratio": 1,
+          "ratio": 0.9166666666666666,
           "counts": {
-            "eu": 0,
-            "nos": 0
+            "eu": 11,
+            "nos": 1
           }
         },
         "recency": {
@@ -273,33 +249,33 @@
         },
         "parity": {
           "s": {
-            "ptLen": 277,
-            "enLen": 191,
-            "deltaPct": 0.3104693140794224
+            "ptLen": 455,
+            "enLen": 409,
+            "deltaPct": 0.1010989010989011
           },
           "t": {
-            "ptLen": 171,
-            "enLen": 150,
-            "deltaPct": 0.12280701754385964
+            "ptLen": 246,
+            "enLen": 230,
+            "deltaPct": 0.06504065040650407
           },
           "a": {
-            "ptLen": 449,
-            "enLen": 394,
-            "deltaPct": 0.12249443207126949
+            "ptLen": 1302,
+            "enLen": 1109,
+            "deltaPct": 0.14823348694316435
           },
           "r": {
-            "ptLen": 216,
-            "enLen": 162,
-            "deltaPct": 0.25
+            "ptLen": 458,
+            "enLen": 417,
+            "deltaPct": 0.08951965065502183
           },
           "l": {
-            "ptLen": 149,
-            "enLen": 150,
-            "deltaPct": 0.006666666666666667
+            "ptLen": 329,
+            "enLen": 315,
+            "deltaPct": 0.0425531914893617
           }
         },
-        "hookSignals": false,
-        "transitionSignals": 0,
+        "hookSignals": true,
+        "transitionSignals": 1,
         "micDropSignals": true
       }
     }

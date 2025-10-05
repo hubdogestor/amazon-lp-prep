@@ -4,85 +4,85 @@ const case_6 = {
   title: "Assumi Trade-off: Menos Escopo Agora por Maior Robustez",
   title_pt: "Assumi Trade-off: Menos Escopo Agora por Maior Robustez",
   title_en: "Took the Trade-off: Less Scope Now for Greater Robustness",
-  company: "Unimed / Banco Next (ex.)",
-  period: "2019-2020",
+  company: "Banco Next",
+  period: "07/2021-12/2021",
   isTopCase: false,
   pt: {
-    s: `A pressão por features ignorava fragilidades no core de pagamento; risco de incidentes, chargebacks e custo de suporte.`,
-    t: `Defendi reduzir escopo e investir em testes de carga, observabilidade e hardening antes de ampliar o produto.`,
-    a: `Modelei cenários de carga/receita/custos e mostrei o ponto de inflexão financeiro; ancorei decisão em dados de falhas e riscos de compliance; negociei plano em fases: MVP seguro agora, expansão pós-estabilização.`,
-    r: `Disponibilidade +2,1 p.p.; chargebacks -14%; suporte -18% em 6 meses; releases seguintes sem incidentes críticos.`,
-    l: `Dizer 'não' protege valor: a organização adotou 'qualidade antes de velocidade' em domínios críticos.`
+    s: `Eu liderava a integração de pagamentos no banco digital Next quando o squad planejava lançar 14 features em uma única release para a Black Friday. Eu enxergava latência média em 680 ms (+45%), backlog com 27 incidentes P1 e chargebacks crescendo 19% ao mês. Eu recebi alerta do NOC de que sob pico de 8 mil transações por segundo o core legado bateria 92% de CPU e poderia derrubar 3,5 milhões de transações por dia. O CPO insistia em manter o roadmap completo porque o marketing já prometera as novidades para 1,2 milhão de clientes.`,
+    t: `Meu escopo formal cobria integrações com parceiros, mas eu assumi ownership total do core. Eu estabeleci metas: manter disponibilidade acima de 99,9%, reduzir chargebacks em pelo menos 15% e liberar a release em duas ondas somente quando os controles críticos passassem em testes de carga. Eu avisei o CEO que cortaria a primeira onda para cinco features essenciais e entregaria o restante quando os gates estivesse verdes.`,
+    a: `Eu formei uma tiger team com SRE, risco e produto em 48 horas. (1) Eu modelei cenários financeiros mostrando perda potencial de R$ 24M em multas, chargebacks e churn se lançássemos tudo sem reforço. (2) Eu orquestrei testes de carga com Locust até 12 mil TPS e provei que aos 7.600 TPS o core travava por limite de pooling. (3) Eu reescrevi o plano em duas fases: fase um com cinco features críticas (PIX recorrente, limites dinâmicos, antifraude adaptativo, SLA de disputa, painel de cashback) e fase dois pós-hardening. (4) Eu implantei mecanismos: circuit breaker, 96 alertas Prometheus, feature flags por segmento e game days duas vezes por semana. (5) Eu negociei com marketing e compliance uma campanha trust-first baseada nas cinco features e um roadmap público ancorado em marcos de estabilidade. (6) Eu enfrentei resistência do CPO no comitê executivo mostrando heatmap com nove métricas críticas (CPU, latência p95, chargeback ratio, SLA antifraude) e votei pelo gate até que os riscos ficassem aceitáveis; o CEO apoiou ao ver o modelo risco versus NPS. (7) Eu sentei no call center e reuni os cinco maiores merchants (iFood, Magazine Luiza, Rappi, Uber, B2W) para explicar o plano, ajustar feature flags e garantir SLA dedicado durante o pico.`,
+    r: `Eu estabilizei o core em 28 dias mantendo apenas cinco features: disponibilidade subiu de 99,2% para 99,97%, latência p95 caiu para 320 ms (-53%), incidentes P1 reduziram de 27 para quatro por mês e chargebacks baixaram 18%. Eu garanti que a Black Friday processasse 3,8 milhões de transações por dia sem degradação, elevei o NPS pós-evento de 61 para 79 e reduzi reclamações no BACEN em 42%. Eu liberei a fase dois 45 dias depois com zero incidentes críticos e instituí um Postmortem Council semanal para manter o aprendizado vivo.`,
+    l: `Eu aprendi que ownership inclui dizer não quando os dados mostram que o cliente pagaria a conta. Eu comprovei que liderar com evidências, trazer o cliente para a mesa e deixar mecanismos permanentes preserva confiança. Eu transformei esse trade-off no checklist padrão de resiliência para qualquer lançamento relevante.`,
   },
   en: {
-    s: `Feature pressure ignored payment-core fragilities; risk of incidents, chargebacks, and support costs.`,
-    t: `I advocated cutting scope and investing in load tests, observability, and hardening before widening the product.`,
-    a: `I modeled load/revenue/cost scenarios and showed the financial inflection point; anchored the decision on failure data and compliance risks; negotiated phased plan: safe MVP now, expansion after stabilization.`,
-    r: `+2.1 pp availability; -14% chargebacks; -18% support in 6 months; later releases without critical incidents.`,
-    l: `Saying 'no' protects value: the org adopted 'quality before speed' in critical domains.`
+    s: `I was leading payments integration at Next digital bank when the squad planned to ship 14 features in a single release for Black Friday. I saw average latency at 680 ms (+45%), a backlog of 27 P1 incidents, and chargebacks climbing 19% month over month. The NOC warned me that under the 8K TPS peak the legacy core would hit 92% CPU and could knock out 3.5 million transactions per day. The CPO insisted on shipping the full roadmap because marketing had promised it to 1.2 million customers.`,
+    t: `My formal remit covered partner integrations, but I took full ownership of the core. I set the goals: keep availability above 99.9%, cut chargebacks by at least 15%, and release in two waves only after critical controls passed load testing. I told the CEO I would trim the first wave to five essential features and deliver the rest once the gates were green.`,
+    a: `I formed a tiger team with SRE, risk, and product in 48 hours. (1) I built financial scenarios that showed a potential R$24M loss in penalties, chargebacks, and churn if we launched everything without hardening. (2) I orchestrated Locust load tests up to 12K TPS and proved the core stalled at 7,600 TPS because of pooling limits. (3) I rewrote the roadmap into two phases: phase one with five critical features (recurring PIX, dynamic limits, adaptive antifraud, dispute SLA automation, cashback dashboard) and phase two after hardening. (4) I implemented mechanisms: circuit breaker, 96 Prometheus alerts, segment-based feature flags, and twice-weekly game days. (5) I negotiated a trust-first campaign with marketing and compliance anchored on the five features and a public roadmap tied to stability milestones. (6) I faced the CPO pushback in the executive committee by presenting a heatmap with nine critical metrics (CPU, p95 latency, chargeback ratio, antifraud SLA), voting to hold the gate until the risk dropped; the CEO backed the decision after seeing the risk-versus-NPS model. (7) I took call-center shifts and met top merchants (iFood, Magazine Luiza, Rappi, Uber, B2W) to explain the plan, tune feature flags, and guarantee dedicated SLAs during the peak.`,
+    r: `By holding the scope to five features I stabilized the core in 28 days: availability rose from 99.2% to 99.97%, p95 latency dropped to 320 ms (-53%), P1 incidents fell from 27 to four per month, and chargebacks decreased 18%. I ensured Black Friday processed 3.8 million transactions per day with no degradation, lifted post-event NPS from 61 to 79, and cut BACEN complaints by 42%. I shipped phase two 45 days later with zero critical incidents and created a weekly Postmortem Council to keep the learning alive.`,
+    l: `I learned that ownership sometimes means saying no when the data shows the customer would pay the price. I proved that leading with evidence, bringing the customer into the room, and leaving permanent resilience mechanisms preserves trust. I now start every major launch with this resilience checklist.`,
   },
   fups: [
     {
-        "q": "Qual seria o impacto se o trade-off não fosse feito?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What would have happened without the trade-off?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      "q": "Como calculou o risco financeiro de R$ 24M ao manter o escopo completo?",
+      "a": "Eu modelei perda por SLA quebrado (R$ 8,5M), chargebacks adicionais (R$ 11M) e multa potencial do BACEN (R$ 4,5M). Eu usei histórico de 18 incidentes e curvas de churn para projetar o impacto e apresentei ao CFO e ao CEO antes de votar pelo gate.",
+      "q_en": "How did you calculate the R$24M financial risk for keeping the full scope?",
+      "a_en": "I modeled SLA penalties (R$8.5M), incremental chargebacks (R$11M), and a potential BACEN fine (R$4.5M), using 18 past incidents and churn curves to project the exposure and presenting it to the CFO and CEO before the gate vote."
     },
     {
-        "q": "Como persuadiu sponsors a priorizar robustez?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you persuade sponsors to prioritize robustness?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      "q": "Quais experimentos de carga sustentaram sua decisão?",
+      "a": "Eu rodei 42 cenários no Locust simulando picos de 6K a 12K TPS com mix real de transações. Eu identifiquei gargalo em pooling e falha de timeout no antifraude, documentei em laudos anexados ao comitê e usei para priorizar correções.",
+      "q_en": "Which load experiments supported your call?",
+      "a_en": "I executed 42 Locust scenarios from 6K to 12K TPS with real transaction mixes, identifying a pooling bottleneck and antifraud timeout, documenting them for the executive committee and prioritizing fixes accordingly."
     },
     {
-        "q": "Como cenários de carga/financeiros sustentaram a decisão?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did load/financial scenarios support the decision?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      "q": "Como alinhou merchants estratégicos à decisão de adiar features?",
+      "a": "Eu mapeei os 20 maiores merchants por volume, discuti o plano em reuniões individuais e configurei feature flags para liberar funcionalidades críticas somente quando estáveis. Eu ofereci playbooks de contingência e canais diretos com SRE durante o pico.",
+      "q_en": "How did you align strategic merchants around delaying features?",
+      "a_en": "I mapped the top 20 merchants by volume, held one-on-one sessions, configured feature flags to release critical capabilities only when stable, and provided contingency playbooks with direct SRE channels during the peak."
     },
     {
-        "q": "Que riscos foram reduzidos com observabilidade/hardening?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which risks were reduced by observability/hardening?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      "q": "Que métricas compuseram o heatmap que convenceu o comitê executivo?",
+      "a": "Eu usei nove métricas: CPU, memória, latência p95, erros 5xx, chargeback ratio, fraude bloqueada, SLA de disputa, backlog P1 e NPS previsto. Cada métrica tinha threshold com risco financeiro associado.",
+      "q_en": "Which metrics were in the heatmap that convinced the executive committee?",
+      "a_en": "I used nine metrics: CPU, memory, p95 latency, 5xx errors, chargeback ratio, fraud blocked, dispute SLA, P1 backlog, and forecasted NPS, each with thresholds and linked financial risk."
     },
     {
-        "q": "Que métricas provaram o ganho?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which metrics proved the gain?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      "q": "Como monitorou e reagiu durante a Black Friday?",
+      "a": "Eu montei war room 24/7, três dashboards em tempo real, runbooks com RTO de 15 minutos e canal direto com Marketing e NOC. Qualquer métrica fora do envelope disparava playbook de contingência com freeze automático de features secundárias.",
+      "q_en": "How did you monitor and react during Black Friday?",
+      "a_en": "I ran a 24/7 war room with three real-time dashboards, playbooks with a 15-minute RTO, and a direct channel with Marketing and the NOC. Any metric outside the envelope triggered contingency playbooks and automatic freeze of secondary features."
     },
     {
-        "q": "Como esse movimento influenciou o roadmap?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did this influence the roadmap?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      "q": "De que forma mediu e comprovou o ganho de NPS e redução de reclamações?",
+      "a": "Eu comparei pesquisas NPS pré e pós-Black Friday (amostra de 8 mil clientes) e correlacionei com dados de chargeback e tickets. Eu monitorei portal do BACEN e Reclame Aqui e validei a queda de 42% com o jurídico.",
+      "q_en": "How did you measure the NPS gain and complaint reduction?",
+      "a_en": "I compared pre- and post-Black Friday NPS surveys (8K customers), correlated them with chargeback and ticket data, monitored BACEN and Reclame Aqui complaints, and confirmed the 42% drop with legal."
     },
     {
-        "q": "Você replicou a abordagem em outros produtos?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Did you replicate the approach elsewhere?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      "q": "Como manteve o squad motivado depois de reduzir o escopo?",
+      "a": "Eu redefini OKRs com foco em resiliência, criei reconhecimento semanal e reservei 15% da sprint para melhorias técnicas escolhidas pelo time. Eu comuniquei a vitória no dia seguinte à Black Friday com métricas claras de impacto.",
+      "q_en": "How did you keep the squad motivated after the scope cut?",
+      "a_en": "I reframed OKRs around resilience, set up a weekly recognition loop, reserved 15% of each sprint for engineering improvements chosen by the team, and communicated the Black Friday win the very next day with clear metrics."
     },
     {
-        "q": "Que resistências enfrentou e como resolveu?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What resistance did you face and how did you resolve it?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      "q": "Quais ajustes liberaram a fase dois em 45 dias?",
+      "a": "Eu implementei connection pooling dinâmico, refatorei antifraude para streaming, elevei cobertura de testes de carga para 85% do mapa de fluxos e adicionei canary release com rollback automático. Todos os gates ficaram verdes na segunda rodada.",
+      "q_en": "What adjustments enabled phase two in 45 days?",
+      "a_en": "I delivered dynamic connection pooling, refactored antifraud to streaming, increased load-test coverage to 85% of the flow map, and added canary releases with automatic rollback. All gates turned green on the second run."
     },
     {
-        "q": "Se refizesse, o que mudaria no pacing?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "If redoing, what would you change in pacing?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      "q": "Como funciona o Postmortem Council que você criou?",
+      "a": "Eu conduzo um rito semanal com SRE, produto e risco. Eu reviso incidentes, métricas de resiliência e defino actions com responsáveis e prazos. As lições entram em repositório público e viram critérios obrigatórios para novos lançamentos.",
+      "q_en": "How does the Postmortem Council you created operate?",
+      "a_en": "I run a weekly ritual with SRE, product, and risk reviewing incidents, resilience metrics, and assigning actions with owners and due dates. Lessons go to a public repository and become mandatory criteria for future launches."
     },
     {
-        "q": "Como documentou e socializou o aprendizado?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you document and share the learning?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+      "q": "Se conduzisse esse lançamento novamente, o que faria diferente?",
+      "a": "Eu iniciaria modelagem de risco e testes de carga já na fase de ideação. No projeto original esses artefatos chegaram apenas na pré-release; antecipando, eu reduziria a necessidade de cortar escopo na reta final.",
+      "q_en": "If you led this launch again, what would you change?",
+      "a_en": "I would start risk modeling and load testing during ideation. In the original project those assets appeared only right before release; anticipating them would reduce late scope cuts."
     }
-]
+  ]
 };
 
 export default case_6;
