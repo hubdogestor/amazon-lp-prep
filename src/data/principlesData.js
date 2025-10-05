@@ -2,7 +2,7 @@
 // Os dados dos princípios agora vêm de consolidatedPrinciples.js
 
 // Icebreaker data
-export const icebreakerData = {
+const icebreakerData = {
   pt: {
     intro: `Olá! Sou Leonardo Menezes, um profissional com mais de 15 anos de experiência em transformação digital e gestão de produtos no setor financeiro e de saúde. 
 
@@ -53,5 +53,5 @@ In recent years, I worked at Sicredi and Woop, focusing on fintech solutions, an
 // Os dados dos princípios agora são importados de consolidatedPrinciples.js
 // Este arquivo mantém apenas icebreaker para compatibilidade
 
-export default icebreakerData;
+module.exports = icebreakerData;
 

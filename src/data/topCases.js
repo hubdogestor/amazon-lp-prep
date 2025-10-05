@@ -1,7 +1,7 @@
 // TOP CASES CONFIGURATION
 // Define quais casos devem receber o ícone de alvo 🎯
 
-export const topCasesConfig = {
+const topCasesConfig = {
   // IDs dos casos que são considerados "top cases"
   topCaseIds: [
     'migracao-critica-de-dados-e-compliance',
@@ -32,7 +32,7 @@ export const topCasesConfig = {
 };
 
 // Mapeamento de correções de títulos e datas
-export const titleCorrections = {
+const titleCorrections = {
   // Top Cases com correções específicas
   'Migração Crítica de Dados e Compliance': {
     title_pt: 'Migração Crítica de Dados e Compliance',
@@ -162,4 +162,4 @@ export const titleCorrections = {
   }
 };
 
-export default { topCasesConfig, titleCorrections };
+module.exports = { topCasesConfig, titleCorrections };

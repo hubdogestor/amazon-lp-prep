@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-05T23:28:25.738Z",
+  "run_at": "2025-10-05T23:53:41.374Z",
   "data_dir": "src/data",
   "total_cases": 72,
   "filtered_cases": 72,
@@ -1271,16 +1271,34 @@
     },
     {
       "lp_id": "dataStructure.js",
-      "case_id": "dataStructure",
       "title_pt": "",
       "title_en": "",
       "status": "Lint-Blocker",
       "lint": {
         "ok": false,
         "issues": [
-          "falha ao carregar arquivo: parse error: Unexpected token 'export'"
+          "campo 'id' ausente ou vazio",
+          "campo 'title_pt' ausente ou vazio",
+          "campo 'title_en' ausente ou vazio",
+          "campo 'company' ausente ou vazio",
+          "campo 'period' ausente ou vazio",
+          "objeto pt ausente",
+          "objeto en ausente",
+          "pt.s ausente ou vazio",
+          "en.s ausente ou vazio",
+          "pt.t ausente ou vazio",
+          "en.t ausente ou vazio",
+          "pt.a ausente ou vazio",
+          "en.a ausente ou vazio",
+          "pt.r ausente ou vazio",
+          "en.r ausente ou vazio",
+          "pt.l ausente ou vazio",
+          "en.l ausente ou vazio",
+          "FUPs insuficientes: 0 (necess�rio 10)"
         ],
-        "warnings": []
+        "warnings": [
+          "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)"
+        ]
       },
       "heur": {
         "score": 0,
@@ -3089,24 +3107,23 @@
       "case_id": "unimed-underperformer-development",
       "title_pt": "Desenvolvimento de um Analista de Baixo Desempenho Através de Realocação e Ownership",
       "title_en": "Underperforming Analyst Development Through Reallocation and Ownership",
-      "status": "KO",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 73,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:NÓS abaixo de 2:1 (8:5)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
           "Customer Obsession forte (27 menções relevantes)",
           "Métricas robustas (40)",
+          "Ratio EU:NÓS saudável (20:5)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -3118,11 +3135,11 @@
         },
         "customerSignals": 27,
         "conflictSignals": true,
-        "mechanismSignals": 7,
+        "mechanismSignals": 8,
         "ratio": {
-          "ratio": 0.6153846153846154,
+          "ratio": 0.8,
           "counts": {
-            "eu": 8,
+            "eu": 20,
             "nos": 5
           }
         },
@@ -3142,14 +3159,14 @@
             "deltaPct": 0.08575581395348837
           },
           "a": {
-            "ptLen": 1180,
-            "enLen": 1092,
-            "deltaPct": 0.07457627118644068
+            "ptLen": 1374,
+            "enLen": 1267,
+            "deltaPct": 0.07787481804949054
           },
           "r": {
-            "ptLen": 979,
-            "enLen": 903,
-            "deltaPct": 0.07763023493360573
+            "ptLen": 977,
+            "enLen": 889,
+            "deltaPct": 0.09007164790174002
           },
           "l": {
             "ptLen": 404,
@@ -5148,16 +5165,32 @@
     },
     {
       "lp_id": "principlesData.js",
-      "case_id": "principlesData",
       "title_pt": "",
       "title_en": "",
       "status": "Lint-Blocker",
       "lint": {
         "ok": false,
         "issues": [
-          "falha ao carregar arquivo: parse error: Unexpected token 'export'"
+          "campo 'id' ausente ou vazio",
+          "campo 'title_pt' ausente ou vazio",
+          "campo 'title_en' ausente ou vazio",
+          "campo 'company' ausente ou vazio",
+          "campo 'period' ausente ou vazio",
+          "pt.s ausente ou vazio",
+          "en.s ausente ou vazio",
+          "pt.t ausente ou vazio",
+          "en.t ausente ou vazio",
+          "pt.a ausente ou vazio",
+          "en.a ausente ou vazio",
+          "pt.r ausente ou vazio",
+          "en.r ausente ou vazio",
+          "pt.l ausente ou vazio",
+          "en.l ausente ou vazio",
+          "FUPs insuficientes: 0 (necess�rio 10)"
         ],
-        "warnings": []
+        "warnings": [
+          "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)"
+        ]
       },
       "heur": {
         "score": 0,
@@ -5658,16 +5691,34 @@
     },
     {
       "lp_id": "topCases.js",
-      "case_id": "topCases",
       "title_pt": "",
       "title_en": "",
       "status": "Lint-Blocker",
       "lint": {
         "ok": false,
         "issues": [
-          "falha ao carregar arquivo: parse error: Unexpected token 'export'"
+          "campo 'id' ausente ou vazio",
+          "campo 'title_pt' ausente ou vazio",
+          "campo 'title_en' ausente ou vazio",
+          "campo 'company' ausente ou vazio",
+          "campo 'period' ausente ou vazio",
+          "objeto pt ausente",
+          "objeto en ausente",
+          "pt.s ausente ou vazio",
+          "en.s ausente ou vazio",
+          "pt.t ausente ou vazio",
+          "en.t ausente ou vazio",
+          "pt.a ausente ou vazio",
+          "en.a ausente ou vazio",
+          "pt.r ausente ou vazio",
+          "en.r ausente ou vazio",
+          "pt.l ausente ou vazio",
+          "en.l ausente ou vazio",
+          "FUPs insuficientes: 0 (necess�rio 10)"
         ],
-        "warnings": []
+        "warnings": [
+          "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)"
+        ]
       },
       "heur": {
         "score": 0,
