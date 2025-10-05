@@ -8,16 +8,16 @@
     "period": "01/2020--12/2020",
     "isTopCase": false,
     "pt": {
-      "s": "No Sicredi, ao introduzirmos o primeiro modelo de ML para pré-aprovação de crédito, o sucesso trouxe uma nova e complexa responsabilidade. A escala do nosso negócio significava que as decisões do nosso algoritmo impactariam a vida financeira de milhares de pessoas. O risco de o modelo perpetuar vieses, levando a decisões injustas, era uma responsabilidade que precisávamos endereçar com urgência.",
+      "s": "No Sicredi, ao introduzirmos o primeiro modelo de ML para pré-aprovação de crédito, o sucesso trouxe uma nova e complexa responsabilidade. A escala do negócio significava que as decisões do algoritmo impactariam a vida financeira de 120 mil+ cooperados. Quando propus uma \"Política de IA Responsável\", enfrentei resistência imediata: o VP Comercial argumentou que \"auditorias éticas atrasariam lançamentos\" e que \"concorrentes não fazem isso\". O risco de perpetuar vieses, levando a decisões injustas contra trabalhadores autônomos e minorias, era uma responsabilidade que eu precisava endereçar, mesmo contra a resistência interna.",
       "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade ia além da acurácia do modelo. Eu precisava garantir que nosso uso de IA fosse ético e justo para toda a comunidade. Minha tarefa foi liderar a criação da primeira 'Política de IA Responsável' do Sicredi, deixando as coisas melhores, não apenas em tecnologia, mas em governança e responsabilidade social.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Iniciei o projeto apresentando à liderança os riscos reputacionais e regulatórios emergentes de IA enviesada, usando exemplos de outras empresas. Argumentei que, para uma cooperativa baseada em princípios de equidade, a responsabilidade de garantir uma IA justa não era opcional, era central para nossa marca. Estudei especificamente os frameworks de IA Responsável do Google e Microsoft porque eram os mais maduros do mercado, com casos de uso documentados em instituições financeiras, e incluíam ferramentas práticas de detecção de viés que podíamos adaptar. Organizei um workshop com especialistas em ética de IA da UFRGS. O insight chave foi o conceito de 'justiça contrafactual', que nos ajudou a moldar nossos testes de viés de uma forma muito mais robusta que simples comparações demográficas. A política que redigi instituía mecanismos concretos. Um deles foi o 'teste de viés' obrigatório aplicado a qualquer modelo que impactasse decisões de clientes. Nos testes iniciais, identificamos que nosso modelo estava penalizando injustamente trabalhadores autônomos (taxa de aprovação 23% menor vs. trabalhadores formais com mesmo perfil de risco). A correção foi feita através de 'feature engineering', criando novas variáveis que representavam melhor a saúde financeira de um autônomo (ex: regularidade de depósitos, diversidade de fontes de renda). Antes, a negação de crédito era uma 'caixa-preta'. A política exigiu um processo de 'explicabilidade'. Eu liderei a criação de um sistema que traduzia a decisão do modelo em uma explicação simples, como 'A negação foi baseada em um alto nível de endividamento atual', que passou a ser comunicada ao cliente, aumentando transparência e confiança.",
+      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Iniciei o projeto apresentando pessoalmente à liderança os riscos reputacionais e regulatórios emergentes de IA enviesada, usando exemplos específicos de outras empresas. Argumentei veementemente que, para uma cooperativa baseada em princípios de equidade, a responsabilidade de garantir uma IA justa não era opcional, era central para a marca. Estudei intensivamente os frameworks de IA Responsável do Google e Microsoft porque eram os mais maduros do mercado, com casos de uso documentados em instituições financeiras, e incluíam ferramentas práticas de detecção de viés que eu poderia adaptar. Tomei a decisão de organizar um workshop com especialistas em ética de IA da UFRGS, enfrentando resistência inicial sobre custos. O insight chave foi o conceito de 'justiça contrafactual', que me ajudou a moldar testes de viés muito mais robustos que simples comparações demográficas. Redigi pessoalmente a política que instituía mecanismos concretos. Um deles foi o 'teste de viés' obrigatório que implementei para qualquer modelo que impactasse decisões de clientes. Quando os testes iniciais que supervisionei identificaram que o modelo estava penalizando injustamente trabalhadores autônomos (taxa de aprovação 23% menor vs. trabalhadores formais com mesmo perfil de risco), liderei pessoalmente a correção através de 'feature engineering'. Criei novas variáveis que representavam melhor a saúde financeira de um autônomo (regularidade de depósitos, diversidade de fontes de renda). Quando enfrentei pushback sobre complexidade adicional, justifiquei o ROI ético. A política que elaborei exigiu um processo de 'explicabilidade'. Liderei a criação de um sistema que traduzia a decisão do modelo em explicação simples, comunicada ao cliente, aumentando transparência e confiança.",
       "r": "A 'Política de IA Responsável' foi implementada e se tornou o padrão para todos os projetos de dados no Sicredi. A correção do viés aumentou a taxa de aprovação para trabalhadores autônomos qualificados em 15%, equiparando-a à de trabalhadores formais com perfil similar (de 23% abaixo para 2% abaixo da média), tornando nosso crédito mais justo e inclusivo. A abordagem responsável nos deu grande credibilidade com os reguladores do Banco Central e fortaleceu nossa marca como uma instituição que se preocupa genuinamente com o impacto social de suas decisões. O framework foi posteriormente solicitado por 3 outras cooperativas de crédito como benchmark de melhores práticas.",
       "l": "Aprendi que, com a escala, a responsabilidade de um líder é sobre as consequências não intencionais de suas ações. Essa experiência me ensinou a incorporar uma 'revisão de impacto ético' no início de todos os projetos de tecnologia que lidero, garantindo que consideremos os efeitos secundários desde o primeiro dia."
     },
     "en": {
-      "s": "At Sicredi, when introducing the first ML model for credit pre-approval, success brought a new and complex responsibility. Our business scale meant my algorithm's decisions would impact thousands of people's financial lives. The risk of the model perpetuating biases, leading to unfair decisions, was a responsibility I urgently needed to address.",
+      "s": "At Sicredi, when introducing the first ML model for credit pre-approval, success brought a new and complex responsibility. Business scale meant the algorithm's decisions would impact 120k+ cooperative members' financial lives. When I proposed a \"Responsible AI Policy,\" I faced immediate resistance: the Commercial VP argued that \"ethical audits would delay launches\" and that \"competitors don't do this.\" The risk of perpetuating biases, leading to unfair decisions against freelance workers and minorities, was a responsibility I needed to address, even against internal resistance.",
       "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility went beyond model accuracy. I needed to ensure my AI use was ethical and fair to the entire community. My task was to lead creation of Sicredi's first 'Responsible AI Policy', leaving things better, not just in technology, but in governance and social responsibility.",
-      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I started the project by presenting leadership with emerging reputational and regulatory risks of biased AI, using examples from other companies. I argued that, for a cooperative based on equity principles, the responsibility to ensure fair AI wasn't optional, it was central to my brand. I specifically studied Google and Microsoft's Responsible AI frameworks because they were the most mature in the market, with documented use cases in financial institutions, and included practical bias detection tools I could adapt. I organized a workshop with AI ethics experts from UFRGS. The key insight was the concept of 'counterfactual fairness', which helped us shape my bias tests much more robustly than simple demographic comparisons. The policy I drafted instituted concrete mechanisms. One was mandatory 'bias testing' applied to any model impacting customer decisions. In initial tests, I identified my model was unfairly penalizing freelance workers (23% lower approval rate vs. formal workers with same risk profile). Correction was made through 'feature engineering', creating new variables that better represented a freelancer's financial health (e.g., deposit regularity, income source diversity). Before, credit denial was a 'black box'. The policy required an 'explainability' process. I led creation of a system that translated the model's decision into simple explanation, like 'Denial was based on high current debt level', which was communicated to customers, increasing transparency and trust.",
+      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I personally presented to leadership the emerging reputational and regulatory risks of biased AI, using specific examples from other companies. I argued vehemently that, for a cooperative based on equity principles, the responsibility to ensure fair AI wasn't optional, it was central to the brand. I intensively studied Google and Microsoft's Responsible AI frameworks because they were the most mature in the market, with documented use cases in financial institutions, and included practical bias detection tools I could adapt. I made the decision to organize a workshop with AI ethics experts from UFRGS, facing initial resistance about costs. The key insight was the concept of 'counterfactual fairness', which helped me shape much more robust bias tests than simple demographic comparisons. I personally drafted the policy that instituted concrete mechanisms. One was mandatory 'bias testing' I implemented for any model impacting customer decisions. When initial tests I supervised identified the model was unfairly penalizing freelance workers (23% lower approval rate vs. formal workers with same risk profile), I personally led the correction through 'feature engineering'. I created new variables that better represented a freelancer's financial health (deposit regularity, income source diversity). When I faced pushback about additional complexity, I justified the ethical ROI. The policy I elaborated required an 'explainability' process. I led creation of a system that translated the model's decision into simple explanation, communicated to customers, increasing transparency and trust.",
       "r": "The 'Responsible AI Policy' was implemented and became the standard for all data projects at Sicredi. Bias correction increased approval rate for qualified freelance workers by 15%, equalizing it with formal workers with similar profile (from 23% below to 2% below average), making my credit fairer and more inclusive. The responsible approach gave us great credibility with Central Bank regulators and strengthened my brand as an institution that genuinely cares about the social impact of its decisions. The framework was subsequently requested by 3 other credit cooperatives as a best practices benchmark.",
       "l": "I learned that, with scale, a leader's responsibility is about unintended consequences of their actions. This experience taught me to incorporate an 'ethical impact review' at the beginning of all technology projects I lead, ensuring I consider secondary effects from day one."
     },
@@ -96,16 +96,16 @@
     "period": "01/2020--12/2020",
     "isTopCase": false,
     "pt": {
-      "s": "No Sicredi, ao introduzirmos o primeiro modelo de ML para pré-aprovação de crédito, o sucesso trouxe uma nova e complexa responsabilidade. A escala do nosso negócio significava que as decisões do nosso algoritmo impactariam a vida financeira de milhares de pessoas. O risco de o modelo perpetuar vieses, levando a decisões injustas, era uma responsabilidade que precisávamos endereçar com urgência.",
+      "s": "No Sicredi, ao introduzirmos o primeiro modelo de ML para pré-aprovação de crédito, o sucesso trouxe uma nova e complexa responsabilidade. A escala do negócio significava que as decisões do algoritmo impactariam a vida financeira de 120 mil+ cooperados. Quando propus uma \"Política de IA Responsável\", enfrentei resistência imediata: o VP Comercial argumentou que \"auditorias éticas atrasariam lançamentos\" e que \"concorrentes não fazem isso\". O risco de perpetuar vieses, levando a decisões injustas contra trabalhadores autônomos e minorias, era uma responsabilidade que eu precisava endereçar, mesmo contra a resistência interna.",
       "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade ia além da acurácia do modelo. Eu precisava garantir que nosso uso de IA fosse ético e justo para toda a comunidade. Minha tarefa foi liderar a criação da primeira 'Política de IA Responsável' do Sicredi, deixando as coisas melhores, não apenas em tecnologia, mas em governança e responsabilidade social.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Iniciei o projeto apresentando à liderança os riscos reputacionais e regulatórios emergentes de IA enviesada, usando exemplos de outras empresas. Argumentei que, para uma cooperativa baseada em princípios de equidade, a responsabilidade de garantir uma IA justa não era opcional, era central para nossa marca. Estudei especificamente os frameworks de IA Responsável do Google e Microsoft porque eram os mais maduros do mercado, com casos de uso documentados em instituições financeiras, e incluíam ferramentas práticas de detecção de viés que podíamos adaptar. Organizei um workshop com especialistas em ética de IA da UFRGS. O insight chave foi o conceito de 'justiça contrafactual', que nos ajudou a moldar nossos testes de viés de uma forma muito mais robusta que simples comparações demográficas. A política que redigi instituía mecanismos concretos. Um deles foi o 'teste de viés' obrigatório aplicado a qualquer modelo que impactasse decisões de clientes. Nos testes iniciais, identificamos que nosso modelo estava penalizando injustamente trabalhadores autônomos (taxa de aprovação 23% menor vs. trabalhadores formais com mesmo perfil de risco). A correção foi feita através de 'feature engineering', criando novas variáveis que representavam melhor a saúde financeira de um autônomo (ex: regularidade de depósitos, diversidade de fontes de renda). Antes, a negação de crédito era uma 'caixa-preta'. A política exigiu um processo de 'explicabilidade'. Eu liderei a criação de um sistema que traduzia a decisão do modelo em uma explicação simples, como 'A negação foi baseada em um alto nível de endividamento atual', que passou a ser comunicada ao cliente, aumentando transparência e confiança.",
+      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Iniciei o projeto apresentando pessoalmente à liderança os riscos reputacionais e regulatórios emergentes de IA enviesada, usando exemplos específicos de outras empresas. Argumentei veementemente que, para uma cooperativa baseada em princípios de equidade, a responsabilidade de garantir uma IA justa não era opcional, era central para a marca. Estudei intensivamente os frameworks de IA Responsável do Google e Microsoft porque eram os mais maduros do mercado, com casos de uso documentados em instituições financeiras, e incluíam ferramentas práticas de detecção de viés que eu poderia adaptar. Tomei a decisão de organizar um workshop com especialistas em ética de IA da UFRGS, enfrentando resistência inicial sobre custos. O insight chave foi o conceito de 'justiça contrafactual', que me ajudou a moldar testes de viés muito mais robustos que simples comparações demográficas. Redigi pessoalmente a política que instituía mecanismos concretos. Um deles foi o 'teste de viés' obrigatório que implementei para qualquer modelo que impactasse decisões de clientes. Quando os testes iniciais que supervisionei identificaram que o modelo estava penalizando injustamente trabalhadores autônomos (taxa de aprovação 23% menor vs. trabalhadores formais com mesmo perfil de risco), liderei pessoalmente a correção através de 'feature engineering'. Criei novas variáveis que representavam melhor a saúde financeira de um autônomo (regularidade de depósitos, diversidade de fontes de renda). Quando enfrentei pushback sobre complexidade adicional, justifiquei o ROI ético. A política que elaborei exigiu um processo de 'explicabilidade'. Liderei a criação de um sistema que traduzia a decisão do modelo em explicação simples, comunicada ao cliente, aumentando transparência e confiança.",
       "r": "A 'Política de IA Responsável' foi implementada e se tornou o padrão para todos os projetos de dados no Sicredi. A correção do viés aumentou a taxa de aprovação para trabalhadores autônomos qualificados em 15%, equiparando-a à de trabalhadores formais com perfil similar (de 23% abaixo para 2% abaixo da média), tornando nosso crédito mais justo e inclusivo. A abordagem responsável nos deu grande credibilidade com os reguladores do Banco Central e fortaleceu nossa marca como uma instituição que se preocupa genuinamente com o impacto social de suas decisões. O framework foi posteriormente solicitado por 3 outras cooperativas de crédito como benchmark de melhores práticas.",
       "l": "Aprendi que, com a escala, a responsabilidade de um líder é sobre as consequências não intencionais de suas ações. Essa experiência me ensinou a incorporar uma 'revisão de impacto ético' no início de todos os projetos de tecnologia que lidero, garantindo que consideremos os efeitos secundários desde o primeiro dia."
     },
     "en": {
-      "s": "At Sicredi, when introducing the first ML model for credit pre-approval, success brought a new and complex responsibility. Our business scale meant my algorithm's decisions would impact thousands of people's financial lives. The risk of the model perpetuating biases, leading to unfair decisions, was a responsibility I urgently needed to address.",
+      "s": "At Sicredi, when introducing the first ML model for credit pre-approval, success brought a new and complex responsibility. Business scale meant the algorithm's decisions would impact 120k+ cooperative members' financial lives. When I proposed a \"Responsible AI Policy,\" I faced immediate resistance: the Commercial VP argued that \"ethical audits would delay launches\" and that \"competitors don't do this.\" The risk of perpetuating biases, leading to unfair decisions against freelance workers and minorities, was a responsibility I needed to address, even against internal resistance.",
       "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility went beyond model accuracy. I needed to ensure my AI use was ethical and fair to the entire community. My task was to lead creation of Sicredi's first 'Responsible AI Policy', leaving things better, not just in technology, but in governance and social responsibility.",
-      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I started the project by presenting leadership with emerging reputational and regulatory risks of biased AI, using examples from other companies. I argued that, for a cooperative based on equity principles, the responsibility to ensure fair AI wasn't optional, it was central to my brand. I specifically studied Google and Microsoft's Responsible AI frameworks because they were the most mature in the market, with documented use cases in financial institutions, and included practical bias detection tools I could adapt. I organized a workshop with AI ethics experts from UFRGS. The key insight was the concept of 'counterfactual fairness', which helped us shape my bias tests much more robustly than simple demographic comparisons. The policy I drafted instituted concrete mechanisms. One was mandatory 'bias testing' applied to any model impacting customer decisions. In initial tests, I identified my model was unfairly penalizing freelance workers (23% lower approval rate vs. formal workers with same risk profile). Correction was made through 'feature engineering', creating new variables that better represented a freelancer's financial health (e.g., deposit regularity, income source diversity). Before, credit denial was a 'black box'. The policy required an 'explainability' process. I led creation of a system that translated the model's decision into simple explanation, like 'Denial was based on high current debt level', which was communicated to customers, increasing transparency and trust.",
+      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I personally presented to leadership the emerging reputational and regulatory risks of biased AI, using specific examples from other companies. I argued vehemently that, for a cooperative based on equity principles, the responsibility to ensure fair AI wasn't optional, it was central to the brand. I intensively studied Google and Microsoft's Responsible AI frameworks because they were the most mature in the market, with documented use cases in financial institutions, and included practical bias detection tools I could adapt. I made the decision to organize a workshop with AI ethics experts from UFRGS, facing initial resistance about costs. The key insight was the concept of 'counterfactual fairness', which helped me shape much more robust bias tests than simple demographic comparisons. I personally drafted the policy that instituted concrete mechanisms. One was mandatory 'bias testing' I implemented for any model impacting customer decisions. When initial tests I supervised identified the model was unfairly penalizing freelance workers (23% lower approval rate vs. formal workers with same risk profile), I personally led the correction through 'feature engineering'. I created new variables that better represented a freelancer's financial health (deposit regularity, income source diversity). When I faced pushback about additional complexity, I justified the ethical ROI. The policy I elaborated required an 'explainability' process. I led creation of a system that translated the model's decision into simple explanation, communicated to customers, increasing transparency and trust.",
       "r": "The 'Responsible AI Policy' was implemented and became the standard for all data projects at Sicredi. Bias correction increased approval rate for qualified freelance workers by 15%, equalizing it with formal workers with similar profile (from 23% below to 2% below average), making my credit fairer and more inclusive. The responsible approach gave us great credibility with Central Bank regulators and strengthened my brand as an institution that genuinely cares about the social impact of its decisions. The framework was subsequently requested by 3 other credit cooperatives as a best practices benchmark.",
       "l": "I learned that, with scale, a leader's responsibility is about unintended consequences of their actions. This experience taught me to incorporate an 'ethical impact review' at the beginning of all technology projects I lead, ensuring I consider secondary effects from day one."
     },
@@ -175,28 +175,21 @@
     "lp_id": "broad_responsibility",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 45,
-      "status": "KO",
+      "score": 99,
+      "status": "Ready",
       "positives": [
-        "Customer Obsession forte (6 menções relevantes)",
-        "Métricas robustas (8)",
+        "Customer Obsession forte (8 menções relevantes)",
+        "Métricas robustas (9)",
+        "Ratio EU:NÓS saudável (4:1)",
+        "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
         "Sem métricas de cliente explícitas",
-        "Sem conflito/resistência visível",
         "Transições STAR(L) pouco claras"
       ],
-      "dealbreakers": [
-        "Ratio EU:NÓS abaixo de 2:1 (3:3)"
-      ],
+      "dealbreakers": [],
       "suggestions": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ratio EU:NÓS abaixo de 2:1 (3:3)",
-          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
-        },
         {
           "severity": "warning",
           "topic": "warning",
@@ -206,25 +199,19 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resistência visível",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
           "message": "Transições STAR(L) pouco claras",
           "action": "Refinar narrativa conforme alerta."
         },
         {
-          "severity": "dealbreaker",
+          "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:3 (ideal >= 3:1)",
-          "action": "Refor�ar a��es individuais: reescrever frases passivas e destacar decis�es pessoais nas se��es A/R."
+          "message": "Ratio EU:N�S atual 4:1 (ideal >= 3:1)",
+          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 8",
+          "message": "M�tricas detectadas: 9",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -234,35 +221,34 @@
         "warnings": []
       },
       "heur": {
-        "score": 45,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:NÓS abaixo de 2:1 (3:3)"
-        ],
+        "score": 99,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
           "Sem métricas de cliente explícitas",
-          "Sem conflito/resistência visível",
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (6 menções relevantes)",
-          "Métricas robustas (8)",
+          "Customer Obsession forte (8 menções relevantes)",
+          "Métricas robustas (9)",
+          "Ratio EU:NÓS saudável (4:1)",
+          "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 8,
+        "metricsCount": 9,
         "metricCategories": {
           "financial": true,
           "customer": false,
           "operational": true
         },
-        "customerSignals": 6,
-        "conflictSignals": false,
+        "customerSignals": 8,
+        "conflictSignals": true,
         "mechanismSignals": 7,
         "ratio": {
-          "ratio": 0.5,
+          "ratio": 0.8,
           "counts": {
-            "eu": 3,
-            "nos": 3
+            "eu": 4,
+            "nos": 1
           }
         },
         "recency": {
@@ -271,9 +257,9 @@
         },
         "parity": {
           "s": {
-            "ptLen": 398,
-            "enLen": 347,
-            "deltaPct": 0.12814070351758794
+            "ptLen": 632,
+            "enLen": 584,
+            "deltaPct": 0.0759493670886076
           },
           "t": {
             "ptLen": 433,
@@ -281,9 +267,9 @@
             "deltaPct": 0.08314087759815242
           },
           "a": {
-            "ptLen": 1944,
-            "enLen": 1760,
-            "deltaPct": 0.09465020576131687
+            "ptLen": 1884,
+            "enLen": 1720,
+            "deltaPct": 0.0870488322717622
           },
           "r": {
             "ptLen": 677,

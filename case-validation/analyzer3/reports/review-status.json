@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-05T23:09:20.975Z",
+  "run_at": "2025-10-05T23:22:20.981Z",
   "data_dir": "src/data",
   "total_cases": 72,
   "filtered_cases": 72,
@@ -796,43 +796,39 @@
       "case_id": "unimed-lgpd-compliance",
       "title_pt": "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes",
       "title_en": "LGPD Compliance Assurance in Digital Product Launch for Millions of Customers",
-      "status": "KO",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 28,
-        "status": "KO",
-        "dealbreakers": [
-          "Menos de 8 métricas (3)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Sem métricas de cliente explícitas",
-          "Sem métricas operacionais explícitas",
-          "Hook inicial pode ser mais contundente",
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (18 menções relevantes)",
-          "Ratio EU:NÓS saudável (3:0)",
+          "Customer Obsession forte (29 menções relevantes)",
+          "Métricas robustas (22)",
+          "Ratio EU:NÓS saudável (5:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 3,
+        "metricsCount": 22,
         "metricCategories": {
           "financial": true,
-          "customer": false,
-          "operational": false
+          "customer": true,
+          "operational": true
         },
-        "customerSignals": 18,
+        "customerSignals": 29,
         "conflictSignals": true,
         "mechanismSignals": 4,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 3,
+            "eu": 5,
             "nos": 0
           }
         },
@@ -842,9 +838,9 @@
         },
         "parity": {
           "s": {
-            "ptLen": 437,
-            "enLen": 414,
-            "deltaPct": 0.05263157894736842
+            "ptLen": 562,
+            "enLen": 533,
+            "deltaPct": 0.051601423487544484
           },
           "t": {
             "ptLen": 478,
@@ -857,9 +853,9 @@
             "deltaPct": 0.08030199039121483
           },
           "r": {
-            "ptLen": 734,
-            "enLen": 609,
-            "deltaPct": 0.17029972752043596
+            "ptLen": 1176,
+            "enLen": 975,
+            "deltaPct": 0.17091836734693877
           },
           "l": {
             "ptLen": 367,
@@ -867,10 +863,10 @@
             "deltaPct": 0.16348773841961853
           }
         },
-        "hookSignals": false,
+        "hookSignals": true,
         "transitionSignals": 1,
         "micDropSignals": true,
-        "biasSignals": 0
+        "biasSignals": 2
       },
       "changes": []
     },
@@ -960,42 +956,41 @@
       "case_id": "sicredi-responsible-ai-policy",
       "title_pt": "Desenvolvimento de uma Política de IA Responsável para Análise de Crédito, Garantindo Equidade e Transparência",
       "title_en": "Responsible AI Policy Development for Credit Analysis, Ensuring Equity and Transparency",
-      "status": "KO",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 45,
-        "status": "KO",
-        "dealbreakers": [
-          "Ratio EU:NÓS abaixo de 2:1 (3:3)"
-        ],
+        "score": 99,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
           "Sem métricas de cliente explícitas",
-          "Sem conflito/resistência visível",
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (6 menções relevantes)",
-          "Métricas robustas (8)",
+          "Customer Obsession forte (8 menções relevantes)",
+          "Métricas robustas (9)",
+          "Ratio EU:NÓS saudável (4:1)",
+          "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 8,
+        "metricsCount": 9,
         "metricCategories": {
           "financial": true,
           "customer": false,
           "operational": true
         },
-        "customerSignals": 6,
-        "conflictSignals": false,
+        "customerSignals": 8,
+        "conflictSignals": true,
         "mechanismSignals": 7,
         "ratio": {
-          "ratio": 0.5,
+          "ratio": 0.8,
           "counts": {
-            "eu": 3,
-            "nos": 3
+            "eu": 4,
+            "nos": 1
           }
         },
         "recency": {
@@ -1004,9 +999,9 @@
         },
         "parity": {
           "s": {
-            "ptLen": 398,
-            "enLen": 347,
-            "deltaPct": 0.12814070351758794
+            "ptLen": 632,
+            "enLen": 584,
+            "deltaPct": 0.0759493670886076
           },
           "t": {
             "ptLen": 433,
@@ -1014,9 +1009,9 @@
             "deltaPct": 0.08314087759815242
           },
           "a": {
-            "ptLen": 1944,
-            "enLen": 1760,
-            "deltaPct": 0.09465020576131687
+            "ptLen": 1884,
+            "enLen": 1720,
+            "deltaPct": 0.0870488322717622
           },
           "r": {
             "ptLen": 677,
@@ -2704,35 +2699,34 @@
         "warnings": []
       },
       "heur": {
-        "score": 45,
+        "score": 50,
         "status": "KO",
         "dealbreakers": [
           "Ausência de Customer Obsession"
         ],
         "warnings": [
-          "Sem métricas de cliente explícitas",
           "Sem conflito/resistência visível",
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Métricas robustas (15)",
-          "Ratio EU:NÓS saudável (2:0)",
+          "Métricas robustas (30)",
+          "Ratio EU:NÓS saudável (4:1)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 15,
+        "metricsCount": 30,
         "metricCategories": {
           "financial": true,
-          "customer": false,
+          "customer": true,
           "operational": true
         },
         "customerSignals": 0,
         "conflictSignals": false,
-        "mechanismSignals": 11,
+        "mechanismSignals": 7,
         "ratio": {
-          "ratio": 1,
+          "ratio": 0.8,
           "counts": {
-            "eu": 2,
-            "nos": 0
+            "eu": 4,
+            "nos": 1
           }
         },
         "recency": {
@@ -2741,24 +2735,24 @@
         },
         "parity": {
           "s": {
-            "ptLen": 564,
-            "enLen": 531,
-            "deltaPct": 0.05851063829787234
+            "ptLen": 684,
+            "enLen": 625,
+            "deltaPct": 0.08625730994152046
           },
           "t": {
-            "ptLen": 498,
-            "enLen": 471,
-            "deltaPct": 0.05421686746987952
+            "ptLen": 649,
+            "enLen": 602,
+            "deltaPct": 0.0724191063174114
           },
           "a": {
-            "ptLen": 1248,
-            "enLen": 1136,
-            "deltaPct": 0.08974358974358974
+            "ptLen": 1227,
+            "enLen": 1132,
+            "deltaPct": 0.07742461287693561
           },
           "r": {
-            "ptLen": 501,
-            "enLen": 473,
-            "deltaPct": 0.05588822355289421
+            "ptLen": 789,
+            "enLen": 663,
+            "deltaPct": 0.1596958174904943
           },
           "l": {
             "ptLen": 705,
@@ -2769,7 +2763,7 @@
         "hookSignals": true,
         "transitionSignals": 1,
         "micDropSignals": true,
-        "biasSignals": 1
+        "biasSignals": 0
       },
       "changes": []
     },

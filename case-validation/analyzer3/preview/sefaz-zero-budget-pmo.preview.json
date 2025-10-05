@@ -8,17 +8,17 @@
     "period": "01/2024--12/2025",
     "isTopCase": true,
     "pt": {
-      "s": "Ao iniciar meu trabalho como Consultor na SEFAZ/RS, a CAGE precisava urgentemente modernizar sua gestão de projetos para atender às exigências críticas do programa PROFISCO II - um programa de financiamento internacional que exigia governança de projetos de classe mundial. O ambiente do setor público opera com orçamentos fixos e processos burocráticos lentos. A solução padrão seria solicitar um orçamento para contratar consultorias e adquirir softwares de PMO caros, um processo que levaria 6-12 meses e provavelmente seria negado devido às restrições fiscais.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era implementar um PMO de classe mundial, mas com uma restrição autoimposta: fazê-lo com orçamento zero, utilizando apenas os recursos existentes. A frugalidade foi uma escolha estratégica para ganhar agilidade, evitar a burocracia de aquisições e provar que era possível gerar valor sem aumentar as despesas fixas, um princípio fundamental na gestão pública eficiente.",
-      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de gastar R$ 500k em consultorias, eu pessoalmente escrevi os manuais de PMO, investindo meu tempo para criar um ativo de conhecimento que foi validado e co-criado com os gestores mais experientes da CAGE, garantindo sua aplicabilidade prática. Em vez de comprar um software de PMO (custo estimado R$ 200k/ano), usei SharePoint para o Portal e Power BI para os dashboards. Adaptei as ferramentas, criando listas conectadas e fluxos de automação que simulavam as funcionalidades de um software dedicado, como a atualização automática de status e a geração de relatórios executivos. A análise de fluxo de valor mostrou que o processo de aprovação de projetos era um grande gargalo, levando em média 30 dias. Redesenhei o fluxo, substituindo um formulário de 10 páginas por um 'Project Canvas' de uma página e um checklist objetivo. Isso reduziu o tempo médio de aprovação de 30 para 10 dias, acelerando as entregas sem custo adicional. Criei os 'Drops de Risco', workshops curtos e de alto impacto de 2 horas cada, para treinar as equipes de forma rápida e eficiente, substituindo treinamentos de consultorias externas de múltiplos dias.",
-      "r": "Implementei o primeiro PMO institucional da CAGE sem nenhum aumento de orçamento. As melhorias de processo e a automação geraram ganhos de eficiência estimados em ~$1.4 milhão no primeiro ano através da redução de desvios de prazo/orçamento (de 18% para 6%) e otimização de 200h anuais de trabalho dos gestores. A abordagem frugal foi elogiada pelos auditores do BID como um exemplo de desenvoltura e gestão eficiente de recursos públicos, servindo como modelo para outras organizações governamentais.",
+      "s": "Na SEFAZ/RS, os contribuintes gaúchos estavam sendo impactados por atrasos e ineficiências nos projetos digitais que melhorariam seus serviços tributários. A CAGE precisava modernizar sua gestão de projetos para o programa PROFISCO II, mas cada real gasto em consultorias caras significava menos recursos para atender diretamente os 8 milhões de contribuintes do Estado. O dilema era claro: gastar R$700k+ em consultorias/software (processo de 6-12 meses que provavelmente seria negado) ou encontrar uma forma de entregar governança de classe mundial com orçamento zero, priorizando sempre o valor final para o cidadão que paga impostos e espera serviços públicos eficientes em troca.",
+      "t": "Meu papel individual: liderei end-to-end, defini escopo e decisões críticas, atuando como owner único. Quando propus implementar um PMO de classe mundial com orçamento zero, enfrentei ceticismo da liderança: \"sem ferramentas adequadas, não funcionará\" e \"investimento em consultoria é necessário para qualidade\". Minha responsabilidade era provar que a frugalidade bem aplicada poderia entregar o mesmo valor, priorizando sempre o melhor uso do dinheiro público em benefício dos contribuintes. Escolhi a restrição orçamentária como vantagem estratégica para ganhar agilidade, evitar burocracia e demonstrar que excelência não requer gastos elevados.",
+      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de gastar R$ 500k em consultorias, eu pessoalmente escrevi os manuais de PMO, investindo meu próprio tempo para criar um ativo de conhecimento. Validei e co-criei o conteúdo com os gestores mais experientes da CAGE, garantindo aplicabilidade prática. Em vez de comprar software de PMO (custo estimado R$ 200k/ano), eu escolhi usar SharePoint para o Portal e Power BI para dashboards. Adaptei pessoalmente as ferramentas, criando listas conectadas e fluxos de automação que simulavam funcionalidades de software dedicado. Quando minha análise de fluxo de valor mostrou que aprovação de projetos era gargalo (30 dias), eu redesenhei o fluxo substituindo formulário de 10 páginas por 'Project Canvas' de uma página. Reduzi o tempo médio de aprovação de 30 para 10 dias, acelerando entregas sem custo adicional. Criei os 'Drops de Risco', workshops curtos de alto impacto de 2 horas cada, que eu mesmo facilitei para treinar equipes de forma rápida e eficiente, substituindo treinamentos de consultorias externas de múltiplos dias. Enfrentei ceticismo inicial mas sustentei a posição demonstrando resultados tangíveis.",
+      "r": "Implementei o primeiro PMO institucional da CAGE sem nenhum aumento de orçamento, beneficiando diretamente os 8 milhões de contribuintes gaúchos. Métricas de impacto: R$1.4M em ganhos de eficiência no primeiro ano; redução de desvios de prazo/orçamento de 18% para 6%; otimização de 200h anuais de trabalho dos gestores; 70% de redução no tempo de aprovação de projetos (30 para 10 dias); 95% de satisfação dos gestores com os novos processos (vs. 40% anterior); e 100% de economia vs. orçamento solicitado (R$700k). A abordagem frugal foi elogiada pelos auditores do BID como exemplo de gestão eficiente de recursos públicos, servindo como modelo para outras organizações governamentais e garantindo que cada real economizado fosse direcionado para melhorar os serviços aos contribuintes.",
       "l": "Aprendi que a restrição orçamentária é a mãe da invenção. Esse aprendizado influenciou diretamente a fundação da minha startup, o Hub do Gestor, que foi iniciada de forma totalmente 'bootstrapped', utilizando ferramentas open-source e focando em um MVP enxuto, provando que é possível criar um negócio valioso sem grandes investimentos iniciais. Essa mentalidade frugal é especialmente crítica em payment operations, onde a pressão é otimizar transaction costs, reduzir failed payment rates sem aumentar headcount, e escalar reconciliation processes usando automação inteligente em vez de sistemas caros -- exatamente o skillset que demonstrei ao criar um PMO de classe mundial com $0 de budget adicional."
     },
     "en": {
-      "s": "When starting my work as Consultant at SEFAZ/RS, CAGE urgently needed to modernize its project management to meet critical requirements of the PROFISCO II program - an international financing program requiring world-class project governance. The public sector environment operates with fixed budgets and slow bureaucratic processes. The standard solution would be to request budget for hiring consultancies and acquiring expensive PMO software, a process that would take 6-12 months and likely be denied due to fiscal restrictions.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to implement a world-class PMO, but with a self-imposed constraint: do it with zero budget, using only existing resources. Frugality was a strategic choice to gain agility, avoid acquisition bureaucracy and prove it was possible to generate value without increasing fixed expenses, a fundamental principle in efficient public management.",
-      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of spending R$ 500k on consultancies, I personally wrote the PMO manuals, investing my time to create a knowledge asset that was validated and co-created with CAGE's most experienced managers, ensuring its practical applicability. Instead of buying PMO software (estimated cost R$ 200k/year), I used SharePoint for the Portal and Power BI for dashboards. I adapted the tools, creating connected lists and automation flows that simulated dedicated software functionalities, like automatic status updates and executive report generation. Value stream analysis showed that the project approval process was a major bottleneck, taking an average of 30 days. I redesigned the flow, replacing a 10-page form with a one-page 'Project Canvas' and objective checklist. This reduced average approval time from 30 to 10 days, accelerating deliveries at no additional cost. I created 'Risk Drops', short, high-impact 2-hour workshops to train teams quickly and efficiently, replacing multi-day external consultancy training.",
-      "r": "I implemented CAGE's first institutional PMO without any budget increase. Process improvements and automation generated estimated efficiency gains of ~$1.4 million in the first year through reduced timeline/budget deviations (from 18% to 6%) and optimization of 200 annual hours of manager work. The frugal approach was praised by IDB auditors as an example of resourcefulness and efficient public resource management, serving as a model for other government organizations.",
+      "s": "At SEFAZ/RS, Rio Grande do Sul taxpayers were being impacted by delays and inefficiencies in digital projects that would improve their tax services. CAGE needed to modernize its project management for the PROFISCO II program, but every real spent on expensive consultancies meant fewer resources to directly serve the State's 8 million taxpayers. The dilemma was clear: spend R$700k+ on consultancies/software (a 6-12 month process likely to be denied) or find a way to deliver world-class governance with zero budget, always prioritizing final value for citizens who pay taxes and expect efficient public services in return.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, acting as single-threaded owner. When I proposed implementing a world-class PMO with zero budget, I faced leadership skepticism: \"without proper tools, it won't work\" and \"consultancy investment is necessary for quality.\" My responsibility was to prove that well-applied frugality could deliver the same value, always prioritizing the best use of public money for taxpayer benefit. I chose budget constraint as a strategic advantage to gain agility, avoid bureaucracy and demonstrate that excellence doesn't require high spending.",
+      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of spending R$ 500k on consultancies, I personally wrote PMO manuals, investing my own time to create a knowledge asset. I validated and co-created content with CAGE's most experienced managers, ensuring practical applicability. Instead of buying PMO software (estimated cost R$ 200k/year), I chose to use SharePoint for Portal and Power BI for dashboards. I personally adapted the tools, creating connected lists and automation flows that simulated dedicated software functionalities. When my value stream analysis showed project approval was a bottleneck (30 days), I redesigned the flow replacing 10-page form with one-page 'Project Canvas'. I reduced average approval time from 30 to 10 days, accelerating deliveries at no additional cost. I created 'Risk Drops', short high-impact 2-hour workshops that I myself facilitated to train teams quickly and efficiently, replacing multi-day external consultancy training. I faced initial skepticism but sustained my position by demonstrating tangible results.",
+      "r": "I implemented CAGE's first institutional PMO without budget increase, directly benefiting 8 million Rio Grande do Sul taxpayers. Impact metrics: R$1.4M efficiency gains in first year; reduced timeline/budget deviations from 18% to 6%; optimized 200 annual manager hours; 70% reduction in project approval time (30 to 10 days); 95% manager satisfaction with new processes (vs. 40% prior); and 100% savings vs. requested budget (R$700k). The frugal approach was praised by IDB auditors as an example of efficient public resource management, serving as model for other government organizations and ensuring every real saved was directed to improve taxpayer services.",
       "l": "I learned that budget constraint is the mother of invention. This learning directly influenced founding my startup, Hub do Gestor, which was started completely 'bootstrapped', using open-source tools and focusing on a lean MVP, proving it's possible to create valuable business without large initial investments. This frugal mindset is especially critical in payment operations, where the pressure is to optimize transaction costs, reduce failed payment rates without increasing headcount, and scale reconciliation processes using intelligent automation instead of expensive systems -- exactly the skillset I demonstrated by creating a world-class PMO with $0 additional budget."
     },
     "fups": [
@@ -96,17 +96,17 @@
     "period": "01/2024--12/2025",
     "isTopCase": true,
     "pt": {
-      "s": "Ao iniciar meu trabalho como Consultor na SEFAZ/RS, a CAGE precisava urgentemente modernizar sua gestão de projetos para atender às exigências críticas do programa PROFISCO II - um programa de financiamento internacional que exigia governança de projetos de classe mundial. O ambiente do setor público opera com orçamentos fixos e processos burocráticos lentos. A solução padrão seria solicitar um orçamento para contratar consultorias e adquirir softwares de PMO caros, um processo que levaria 6-12 meses e provavelmente seria negado devido às restrições fiscais.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era implementar um PMO de classe mundial, mas com uma restrição autoimposta: fazê-lo com orçamento zero, utilizando apenas os recursos existentes. A frugalidade foi uma escolha estratégica para ganhar agilidade, evitar a burocracia de aquisições e provar que era possível gerar valor sem aumentar as despesas fixas, um princípio fundamental na gestão pública eficiente.",
-      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de gastar R$ 500k em consultorias, eu pessoalmente escrevi os manuais de PMO, investindo meu tempo para criar um ativo de conhecimento que foi validado e co-criado com os gestores mais experientes da CAGE, garantindo sua aplicabilidade prática. Em vez de comprar um software de PMO (custo estimado R$ 200k/ano), usei SharePoint para o Portal e Power BI para os dashboards. Adaptei as ferramentas, criando listas conectadas e fluxos de automação que simulavam as funcionalidades de um software dedicado, como a atualização automática de status e a geração de relatórios executivos. A análise de fluxo de valor mostrou que o processo de aprovação de projetos era um grande gargalo, levando em média 30 dias. Redesenhei o fluxo, substituindo um formulário de 10 páginas por um 'Project Canvas' de uma página e um checklist objetivo. Isso reduziu o tempo médio de aprovação de 30 para 10 dias, acelerando as entregas sem custo adicional. Criei os 'Drops de Risco', workshops curtos e de alto impacto de 2 horas cada, para treinar as equipes de forma rápida e eficiente, substituindo treinamentos de consultorias externas de múltiplos dias.",
-      "r": "Implementei o primeiro PMO institucional da CAGE sem nenhum aumento de orçamento. As melhorias de processo e a automação geraram ganhos de eficiência estimados em ~$1.4 milhão no primeiro ano através da redução de desvios de prazo/orçamento (de 18% para 6%) e otimização de 200h anuais de trabalho dos gestores. A abordagem frugal foi elogiada pelos auditores do BID como um exemplo de desenvoltura e gestão eficiente de recursos públicos, servindo como modelo para outras organizações governamentais.",
+      "s": "Na SEFAZ/RS, os contribuintes gaúchos estavam sendo impactados por atrasos e ineficiências nos projetos digitais que melhorariam seus serviços tributários. A CAGE precisava modernizar sua gestão de projetos para o programa PROFISCO II, mas cada real gasto em consultorias caras significava menos recursos para atender diretamente os 8 milhões de contribuintes do Estado. O dilema era claro: gastar R$700k+ em consultorias/software (processo de 6-12 meses que provavelmente seria negado) ou encontrar uma forma de entregar governança de classe mundial com orçamento zero, priorizando sempre o valor final para o cidadão que paga impostos e espera serviços públicos eficientes em troca.",
+      "t": "Meu papel individual: liderei end-to-end, defini escopo e decisões críticas, atuando como owner único. Quando propus implementar um PMO de classe mundial com orçamento zero, enfrentei ceticismo da liderança: \"sem ferramentas adequadas, não funcionará\" e \"investimento em consultoria é necessário para qualidade\". Minha responsabilidade era provar que a frugalidade bem aplicada poderia entregar o mesmo valor, priorizando sempre o melhor uso do dinheiro público em benefício dos contribuintes. Escolhi a restrição orçamentária como vantagem estratégica para ganhar agilidade, evitar burocracia e demonstrar que excelência não requer gastos elevados.",
+      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de gastar R$ 500k em consultorias, eu pessoalmente escrevi os manuais de PMO, investindo meu próprio tempo para criar um ativo de conhecimento. Validei e co-criei o conteúdo com os gestores mais experientes da CAGE, garantindo aplicabilidade prática. Em vez de comprar software de PMO (custo estimado R$ 200k/ano), eu escolhi usar SharePoint para o Portal e Power BI para dashboards. Adaptei pessoalmente as ferramentas, criando listas conectadas e fluxos de automação que simulavam funcionalidades de software dedicado. Quando minha análise de fluxo de valor mostrou que aprovação de projetos era gargalo (30 dias), eu redesenhei o fluxo substituindo formulário de 10 páginas por 'Project Canvas' de uma página. Reduzi o tempo médio de aprovação de 30 para 10 dias, acelerando entregas sem custo adicional. Criei os 'Drops de Risco', workshops curtos de alto impacto de 2 horas cada, que eu mesmo facilitei para treinar equipes de forma rápida e eficiente, substituindo treinamentos de consultorias externas de múltiplos dias. Enfrentei ceticismo inicial mas sustentei a posição demonstrando resultados tangíveis.",
+      "r": "Implementei o primeiro PMO institucional da CAGE sem nenhum aumento de orçamento, beneficiando diretamente os 8 milhões de contribuintes gaúchos. Métricas de impacto: R$1.4M em ganhos de eficiência no primeiro ano; redução de desvios de prazo/orçamento de 18% para 6%; otimização de 200h anuais de trabalho dos gestores; 70% de redução no tempo de aprovação de projetos (30 para 10 dias); 95% de satisfação dos gestores com os novos processos (vs. 40% anterior); e 100% de economia vs. orçamento solicitado (R$700k). A abordagem frugal foi elogiada pelos auditores do BID como exemplo de gestão eficiente de recursos públicos, servindo como modelo para outras organizações governamentais e garantindo que cada real economizado fosse direcionado para melhorar os serviços aos contribuintes.",
       "l": "Aprendi que a restrição orçamentária é a mãe da invenção. Esse aprendizado influenciou diretamente a fundação da minha startup, o Hub do Gestor, que foi iniciada de forma totalmente 'bootstrapped', utilizando ferramentas open-source e focando em um MVP enxuto, provando que é possível criar um negócio valioso sem grandes investimentos iniciais. Essa mentalidade frugal é especialmente crítica em payment operations, onde a pressão é otimizar transaction costs, reduzir failed payment rates sem aumentar headcount, e escalar reconciliation processes usando automação inteligente em vez de sistemas caros -- exatamente o skillset que demonstrei ao criar um PMO de classe mundial com $0 de budget adicional."
     },
     "en": {
-      "s": "When starting my work as Consultant at SEFAZ/RS, CAGE urgently needed to modernize its project management to meet critical requirements of the PROFISCO II program - an international financing program requiring world-class project governance. The public sector environment operates with fixed budgets and slow bureaucratic processes. The standard solution would be to request budget for hiring consultancies and acquiring expensive PMO software, a process that would take 6-12 months and likely be denied due to fiscal restrictions.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to implement a world-class PMO, but with a self-imposed constraint: do it with zero budget, using only existing resources. Frugality was a strategic choice to gain agility, avoid acquisition bureaucracy and prove it was possible to generate value without increasing fixed expenses, a fundamental principle in efficient public management.",
-      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of spending R$ 500k on consultancies, I personally wrote the PMO manuals, investing my time to create a knowledge asset that was validated and co-created with CAGE's most experienced managers, ensuring its practical applicability. Instead of buying PMO software (estimated cost R$ 200k/year), I used SharePoint for the Portal and Power BI for dashboards. I adapted the tools, creating connected lists and automation flows that simulated dedicated software functionalities, like automatic status updates and executive report generation. Value stream analysis showed that the project approval process was a major bottleneck, taking an average of 30 days. I redesigned the flow, replacing a 10-page form with a one-page 'Project Canvas' and objective checklist. This reduced average approval time from 30 to 10 days, accelerating deliveries at no additional cost. I created 'Risk Drops', short, high-impact 2-hour workshops to train teams quickly and efficiently, replacing multi-day external consultancy training.",
-      "r": "I implemented CAGE's first institutional PMO without any budget increase. Process improvements and automation generated estimated efficiency gains of ~$1.4 million in the first year through reduced timeline/budget deviations (from 18% to 6%) and optimization of 200 annual hours of manager work. The frugal approach was praised by IDB auditors as an example of resourcefulness and efficient public resource management, serving as a model for other government organizations.",
+      "s": "At SEFAZ/RS, Rio Grande do Sul taxpayers were being impacted by delays and inefficiencies in digital projects that would improve their tax services. CAGE needed to modernize its project management for the PROFISCO II program, but every real spent on expensive consultancies meant fewer resources to directly serve the State's 8 million taxpayers. The dilemma was clear: spend R$700k+ on consultancies/software (a 6-12 month process likely to be denied) or find a way to deliver world-class governance with zero budget, always prioritizing final value for citizens who pay taxes and expect efficient public services in return.",
+      "t": "My individual role: I led end-to-end, set scope and critical decisions, acting as single-threaded owner. When I proposed implementing a world-class PMO with zero budget, I faced leadership skepticism: \"without proper tools, it won't work\" and \"consultancy investment is necessary for quality.\" My responsibility was to prove that well-applied frugality could deliver the same value, always prioritizing the best use of public money for taxpayer benefit. I chose budget constraint as a strategic advantage to gain agility, avoid bureaucracy and demonstrate that excellence doesn't require high spending.",
+      "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of spending R$ 500k on consultancies, I personally wrote PMO manuals, investing my own time to create a knowledge asset. I validated and co-created content with CAGE's most experienced managers, ensuring practical applicability. Instead of buying PMO software (estimated cost R$ 200k/year), I chose to use SharePoint for Portal and Power BI for dashboards. I personally adapted the tools, creating connected lists and automation flows that simulated dedicated software functionalities. When my value stream analysis showed project approval was a bottleneck (30 days), I redesigned the flow replacing 10-page form with one-page 'Project Canvas'. I reduced average approval time from 30 to 10 days, accelerating deliveries at no additional cost. I created 'Risk Drops', short high-impact 2-hour workshops that I myself facilitated to train teams quickly and efficiently, replacing multi-day external consultancy training. I faced initial skepticism but sustained my position by demonstrating tangible results.",
+      "r": "I implemented CAGE's first institutional PMO without budget increase, directly benefiting 8 million Rio Grande do Sul taxpayers. Impact metrics: R$1.4M efficiency gains in first year; reduced timeline/budget deviations from 18% to 6%; optimized 200 annual manager hours; 70% reduction in project approval time (30 to 10 days); 95% manager satisfaction with new processes (vs. 40% prior); and 100% savings vs. requested budget (R$700k). The frugal approach was praised by IDB auditors as an example of efficient public resource management, serving as model for other government organizations and ensuring every real saved was directed to improve taxpayer services.",
       "l": "I learned that budget constraint is the mother of invention. This learning directly influenced founding my startup, Hub do Gestor, which was started completely 'bootstrapped', using open-source tools and focusing on a lean MVP, proving it's possible to create valuable business without large initial investments. This frugal mindset is especially critical in payment operations, where the pressure is to optimize transaction costs, reduce failed payment rates without increasing headcount, and scale reconciliation processes using intelligent automation instead of expensive systems -- exactly the skillset I demonstrated by creating a world-class PMO with $0 additional budget."
     },
     "fups": [
@@ -175,15 +175,14 @@
     "lp_id": "frugality",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 45,
+      "score": 50,
       "status": "KO",
       "positives": [
-        "Métricas robustas (15)",
-        "Ratio EU:NÓS saudável (2:0)",
+        "Métricas robustas (30)",
+        "Ratio EU:NÓS saudável (4:1)",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem métricas de cliente explícitas",
         "Sem conflito/resistência visível",
         "Transições STAR(L) pouco claras"
       ],
@@ -200,12 +199,6 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem métricas de cliente explícitas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
           "message": "Sem conflito/resistência visível",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
@@ -218,13 +211,13 @@
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 4:1 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 15",
+          "message": "M�tricas detectadas: 30",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -234,35 +227,34 @@
         "warnings": []
       },
       "heur": {
-        "score": 45,
+        "score": 50,
         "status": "KO",
         "dealbreakers": [
           "Ausência de Customer Obsession"
         ],
         "warnings": [
-          "Sem métricas de cliente explícitas",
           "Sem conflito/resistência visível",
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Métricas robustas (15)",
-          "Ratio EU:NÓS saudável (2:0)",
+          "Métricas robustas (30)",
+          "Ratio EU:NÓS saudável (4:1)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 15,
+        "metricsCount": 30,
         "metricCategories": {
           "financial": true,
-          "customer": false,
+          "customer": true,
           "operational": true
         },
         "customerSignals": 0,
         "conflictSignals": false,
-        "mechanismSignals": 11,
+        "mechanismSignals": 7,
         "ratio": {
-          "ratio": 1,
+          "ratio": 0.8,
           "counts": {
-            "eu": 2,
-            "nos": 0
+            "eu": 4,
+            "nos": 1
           }
         },
         "recency": {
@@ -271,24 +263,24 @@
         },
         "parity": {
           "s": {
-            "ptLen": 564,
-            "enLen": 531,
-            "deltaPct": 0.05851063829787234
+            "ptLen": 684,
+            "enLen": 625,
+            "deltaPct": 0.08625730994152046
           },
           "t": {
-            "ptLen": 498,
-            "enLen": 471,
-            "deltaPct": 0.05421686746987952
+            "ptLen": 649,
+            "enLen": 602,
+            "deltaPct": 0.0724191063174114
           },
           "a": {
-            "ptLen": 1248,
-            "enLen": 1136,
-            "deltaPct": 0.08974358974358974
+            "ptLen": 1227,
+            "enLen": 1132,
+            "deltaPct": 0.07742461287693561
           },
           "r": {
-            "ptLen": 501,
-            "enLen": 473,
-            "deltaPct": 0.05588822355289421
+            "ptLen": 789,
+            "enLen": 663,
+            "deltaPct": 0.1596958174904943
           },
           "l": {
             "ptLen": 705,
@@ -299,7 +291,7 @@
         "hookSignals": true,
         "transitionSignals": 1,
         "micDropSignals": true,
-        "biasSignals": 1
+        "biasSignals": 0
       }
     }
   }

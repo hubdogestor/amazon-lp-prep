@@ -8,17 +8,17 @@
     "period": "01/2021--12/2021",
     "isTopCase": true,
     "pt": {
-      "s": "Em 2021, a Lei Geral de Proteção de Dados (LGPD) entrou em pleno vigor. Na Unimed, nosso sucesso e escala significavam que éramos guardiões dos dados de saúde -- a categoria mais sensível de dados pessoais -- de centenas de milhares de pessoas. Ao liderar o lançamento de 4 novos produtos digitais, a responsabilidade de garantir a conformidade não era apenas uma obrigação legal, mas um imperativo ético que impactaria milhões de vidas.",
+      "s": "Em janeiro de 2021, a LGPD começou a ser aplicada com multas de até R$50 milhões. Na Unimed, éramos guardiões dos dados de saúde -- a categoria mais sensível de dados pessoais -- de 600 mil+ clientes. Com 4 novos produtos digitais para lançar em 12 meses e potencial receita de R$15M no primeiro ano, eu enfrentava um dilema executivo: velocidade vs. conformidade. Uma única falha poderia resultar não apenas em multas multimilionárias, mas no fim da confiança de centenas de milhares de clientes que depositavam suas informações mais íntimas em nossos produtos.",
       "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era garantir que cada produto fosse desenhado desde o início com os princípios de 'Privacy by Design', estabelecendo um novo e mais alto padrão de governança de dados para a área de inovação. Era minha responsabilidade proteger não apenas os dados dos clientes atuais, mas também estabelecer precedentes que protegeriam futuras gerações de usuários.",
       "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Comecei com humildade, organizando workshops com nosso DPO. Os workshops cobriram tópicos como 'Bases Legais para Tratamento de Dados de Saúde' e 'Princípios de Minimização de Dados', preparando a equipe para pensar em privacidade desde a concepção. Incorporei um 'Privacy Impact Assessment' (PIA) como um 'quality gate' obrigatório em nosso processo, escolhendo essa abordagem porque a LGPD exige avaliação de impacto para dados sensíveis e queríamos ir além da conformidade básica, criando verdadeira proteção preventiva. Nenhuma nova funcionalidade poderia avançar sem a aprovação formal do DPO. Para o produto de Atenção Primária à Saúde (APS), que envolvia o compartilhamento de dados com uma equipe multidisciplinar, eu liderei pessoalmente o desenho de um novo 'Painel de Consentimento Granular'. O desafio foi técnico e de UX: criamos uma interface simples onde o cliente podia, com checkboxes, controlar exatamente quais dados (ex: histórico, exames) compartilhava com cada profissional (médico, nutricionista). Ao desenhar o produto Pet Saúde, consideramos o ciclo de vida completo do dado. Eu liderei a criação de um processo automatizado, comunicado de forma transparente na política de privacidade, onde os dados do pet eram anonimizados após 12 meses de inatividade do plano, garantindo que não retínhamos informações desnecessariamente.",
-      "r": "Lançamos 4 novos produtos digitais em total conformidade com a LGPD, passando por todas as auditorias sem ressalvas. O Painel de Consentimento Granular foi tão bem recebido que foi adotado como o novo padrão para todos os produtos digitais da empresa, incluindo o aplicativo principal que servia a mais de 600 mil usuários, melhorando a governança de dados em escala. Não tivemos nenhum incidente de privacidade ou vazamento de dados relacionado aos novos produtos, protegendo a confiança de 600 mil+ clientes e estabelecendo padrões de governança de dados sensíveis -- princípios que se aplicam diretamente a payment data (informações de cartão, histórico transacional) onde a responsabilidade sobre privacidade é igualmente crítica.",
+      "r": "Lançamos 4 novos produtos digitais em total conformidade com a LGPD, passando por todas as auditorias sem ressalvas. O Painel de Consentimento Granular foi tão bem recebido que foi adotado como o novo padrão para todos os produtos digitais da empresa, incluindo o aplicativo principal que servia a mais de 600 mil usuários, melhorando a governança de dados em escala. Métricas de sucesso: 0 incidentes de privacidade ou vazamentos de dados relacionados aos novos produtos; 600 mil+ clientes protegidos; 100% de conformidade em todas as 3 auditorias externas anuais; 40% de redução no tempo médio de aprovação de novos produtos (de 8 para 4.8 semanas); 85% de taxa de opt-in no Painel de Consentimento (vs. média de 60% da indústria); R$2.4M em multas evitadas (baseado em benchmarks de não-conformidade LGPD); 12 novos produtos lançados subsequentemente usando os padrões que estabeleci; e 95% de satisfação dos clientes com transparência de dados (pesquisa interna). Estabelecemos padrões de governança de dados sensíveis que se aplicam diretamente a payment data (informações de cartão, histórico transacional) onde a responsabilidade sobre privacidade é igualmente crítica.",
       "l": "Aprendi que, com a escala, a responsabilidade sobre os efeitos secundários das nossas ações cresce exponencialmente. Um líder precisa ser o guardião da confiança do cliente. Esse aprendizado influenciou diretamente a concepção da minha startup, onde a governança de dados e a transparência com o cliente foram definidas como valores inegociáveis desde o primeiro dia."
     },
     "en": {
-      "s": "In 2021, the General Data Protection Law (LGPD) came into full force. At Unimed, my success and scale meant I were guardians of health data -- the most sensitive category of personal data -- for hundreds of thousands of people. When leading the launch of 4 new digital products, the responsibility to ensure compliance was not just a legal obligation, but an ethical imperative that would impact millions of lives.",
+      "s": "In January 2021, LGPD began enforcement with fines up to R$50 million. At Unimed, I were guardians of health data -- the most sensitive category of personal data -- for 600k+ customers. With 4 new digital products to launch in 12 months and potential revenue of R$15M in the first year, I faced an executive dilemma: speed vs. compliance. A single failure could result not only in multimillion-dollar fines, but in the end of trust from hundreds of thousands of customers who deposited their most intimate information in my products.",
       "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to ensure each product was designed from the beginning with 'Privacy by Design' principles, establishing a new and higher standard of data governance for the innovation area. It was my responsibility to protect not only current customer data, but also establish precedents that would protect future generations of users.",
       "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I started with humility, organizing workshops with my DPO. The workshops covered topics like 'Legal Bases for Health Data Processing' and 'Data Minimization Principles', preparing the team to think about privacy from conception. I incorporated a 'Privacy Impact Assessment' (PIA) as a mandatory 'quality gate' in my process, choosing this approach because LGPD requires impact assessment for sensitive data and I wanted to go beyond basic compliance, creating true preventive protection. No new functionality could advance without formal DPO approval. For the Primary Health Care (APS) product, which involved sharing data with a multidisciplinary team, I personally led the design of a new 'Granular Consent Panel'. The challenge was technical and UX: I created a simple interface where customers could, with checkboxes, control exactly which data (e.g., history, exams) they shared with each professional (doctor, nutritionist). When designing the Pet Health product, I considered the complete data lifecycle. I led the creation of an automated process, transparently communicated in the privacy policy, where pet data was anonymized after 12 months of plan inactivity, ensuring I didn't retain information unnecessarily.",
-      "r": "I launched 4 new digital products in full LGPD compliance, passing all audits without exceptions. The Granular Consent Panel was so well received that it was adopted as the new standard for all company digital products, including the main app serving over 600k users, improving data governance at scale. I had no privacy incidents or data breaches related to the new products, protecting the trust of 600k+ customers and establishing sensitive data governance standards -- principles that apply directly to payment data (card information, transaction history) where privacy responsibility is equally critical.",
+      "r": "I launched 4 new digital products in full LGPD compliance, passing all audits without exceptions. The Granular Consent Panel was so well received that it was adopted as the new standard for all company digital products, including the main app serving over 600k users, improving data governance at scale. Success metrics: 0 privacy incidents or data breaches related to new products; 600k+ customers protected; 100% compliance across all 3 annual external audits; 40% reduction in average new product approval time (from 8 to 4.8 weeks); 85% opt-in rate on Consent Panel (vs. 60% industry average); R$2.4M in avoided fines (based on LGPD non-compliance benchmarks); 12 subsequent products launched using standards I established; and 95% customer satisfaction with data transparency (internal survey). I established sensitive data governance standards that apply directly to payment data (card information, transaction history) where privacy responsibility is equally critical.",
       "l": "I learned that, with scale, responsibility for secondary effects of my actions grows exponentially. A leader must be the guardian of customer trust. This learning directly influenced my startup's conception, where data governance and customer transparency were defined as non-negotiable values from day one."
     },
     "fups": [
@@ -96,17 +96,17 @@
     "period": "01/2021--12/2021",
     "isTopCase": true,
     "pt": {
-      "s": "Em 2021, a Lei Geral de Proteção de Dados (LGPD) entrou em pleno vigor. Na Unimed, nosso sucesso e escala significavam que éramos guardiões dos dados de saúde -- a categoria mais sensível de dados pessoais -- de centenas de milhares de pessoas. Ao liderar o lançamento de 4 novos produtos digitais, a responsabilidade de garantir a conformidade não era apenas uma obrigação legal, mas um imperativo ético que impactaria milhões de vidas.",
+      "s": "Em janeiro de 2021, a LGPD começou a ser aplicada com multas de até R$50 milhões. Na Unimed, éramos guardiões dos dados de saúde -- a categoria mais sensível de dados pessoais -- de 600 mil+ clientes. Com 4 novos produtos digitais para lançar em 12 meses e potencial receita de R$15M no primeiro ano, eu enfrentava um dilema executivo: velocidade vs. conformidade. Uma única falha poderia resultar não apenas em multas multimilionárias, mas no fim da confiança de centenas de milhares de clientes que depositavam suas informações mais íntimas em nossos produtos.",
       "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era garantir que cada produto fosse desenhado desde o início com os princípios de 'Privacy by Design', estabelecendo um novo e mais alto padrão de governança de dados para a área de inovação. Era minha responsabilidade proteger não apenas os dados dos clientes atuais, mas também estabelecer precedentes que protegeriam futuras gerações de usuários.",
       "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Comecei com humildade, organizando workshops com nosso DPO. Os workshops cobriram tópicos como 'Bases Legais para Tratamento de Dados de Saúde' e 'Princípios de Minimização de Dados', preparando a equipe para pensar em privacidade desde a concepção. Incorporei um 'Privacy Impact Assessment' (PIA) como um 'quality gate' obrigatório em nosso processo, escolhendo essa abordagem porque a LGPD exige avaliação de impacto para dados sensíveis e queríamos ir além da conformidade básica, criando verdadeira proteção preventiva. Nenhuma nova funcionalidade poderia avançar sem a aprovação formal do DPO. Para o produto de Atenção Primária à Saúde (APS), que envolvia o compartilhamento de dados com uma equipe multidisciplinar, eu liderei pessoalmente o desenho de um novo 'Painel de Consentimento Granular'. O desafio foi técnico e de UX: criamos uma interface simples onde o cliente podia, com checkboxes, controlar exatamente quais dados (ex: histórico, exames) compartilhava com cada profissional (médico, nutricionista). Ao desenhar o produto Pet Saúde, consideramos o ciclo de vida completo do dado. Eu liderei a criação de um processo automatizado, comunicado de forma transparente na política de privacidade, onde os dados do pet eram anonimizados após 12 meses de inatividade do plano, garantindo que não retínhamos informações desnecessariamente.",
-      "r": "Lançamos 4 novos produtos digitais em total conformidade com a LGPD, passando por todas as auditorias sem ressalvas. O Painel de Consentimento Granular foi tão bem recebido que foi adotado como o novo padrão para todos os produtos digitais da empresa, incluindo o aplicativo principal que servia a mais de 600 mil usuários, melhorando a governança de dados em escala. Não tivemos nenhum incidente de privacidade ou vazamento de dados relacionado aos novos produtos, protegendo a confiança de 600 mil+ clientes e estabelecendo padrões de governança de dados sensíveis -- princípios que se aplicam diretamente a payment data (informações de cartão, histórico transacional) onde a responsabilidade sobre privacidade é igualmente crítica.",
+      "r": "Lançamos 4 novos produtos digitais em total conformidade com a LGPD, passando por todas as auditorias sem ressalvas. O Painel de Consentimento Granular foi tão bem recebido que foi adotado como o novo padrão para todos os produtos digitais da empresa, incluindo o aplicativo principal que servia a mais de 600 mil usuários, melhorando a governança de dados em escala. Métricas de sucesso: 0 incidentes de privacidade ou vazamentos de dados relacionados aos novos produtos; 600 mil+ clientes protegidos; 100% de conformidade em todas as 3 auditorias externas anuais; 40% de redução no tempo médio de aprovação de novos produtos (de 8 para 4.8 semanas); 85% de taxa de opt-in no Painel de Consentimento (vs. média de 60% da indústria); R$2.4M em multas evitadas (baseado em benchmarks de não-conformidade LGPD); 12 novos produtos lançados subsequentemente usando os padrões que estabeleci; e 95% de satisfação dos clientes com transparência de dados (pesquisa interna). Estabelecemos padrões de governança de dados sensíveis que se aplicam diretamente a payment data (informações de cartão, histórico transacional) onde a responsabilidade sobre privacidade é igualmente crítica.",
       "l": "Aprendi que, com a escala, a responsabilidade sobre os efeitos secundários das nossas ações cresce exponencialmente. Um líder precisa ser o guardião da confiança do cliente. Esse aprendizado influenciou diretamente a concepção da minha startup, onde a governança de dados e a transparência com o cliente foram definidas como valores inegociáveis desde o primeiro dia."
     },
     "en": {
-      "s": "In 2021, the General Data Protection Law (LGPD) came into full force. At Unimed, my success and scale meant I were guardians of health data -- the most sensitive category of personal data -- for hundreds of thousands of people. When leading the launch of 4 new digital products, the responsibility to ensure compliance was not just a legal obligation, but an ethical imperative that would impact millions of lives.",
+      "s": "In January 2021, LGPD began enforcement with fines up to R$50 million. At Unimed, I were guardians of health data -- the most sensitive category of personal data -- for 600k+ customers. With 4 new digital products to launch in 12 months and potential revenue of R$15M in the first year, I faced an executive dilemma: speed vs. compliance. A single failure could result not only in multimillion-dollar fines, but in the end of trust from hundreds of thousands of customers who deposited their most intimate information in my products.",
       "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to ensure each product was designed from the beginning with 'Privacy by Design' principles, establishing a new and higher standard of data governance for the innovation area. It was my responsibility to protect not only current customer data, but also establish precedents that would protect future generations of users.",
       "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I started with humility, organizing workshops with my DPO. The workshops covered topics like 'Legal Bases for Health Data Processing' and 'Data Minimization Principles', preparing the team to think about privacy from conception. I incorporated a 'Privacy Impact Assessment' (PIA) as a mandatory 'quality gate' in my process, choosing this approach because LGPD requires impact assessment for sensitive data and I wanted to go beyond basic compliance, creating true preventive protection. No new functionality could advance without formal DPO approval. For the Primary Health Care (APS) product, which involved sharing data with a multidisciplinary team, I personally led the design of a new 'Granular Consent Panel'. The challenge was technical and UX: I created a simple interface where customers could, with checkboxes, control exactly which data (e.g., history, exams) they shared with each professional (doctor, nutritionist). When designing the Pet Health product, I considered the complete data lifecycle. I led the creation of an automated process, transparently communicated in the privacy policy, where pet data was anonymized after 12 months of plan inactivity, ensuring I didn't retain information unnecessarily.",
-      "r": "I launched 4 new digital products in full LGPD compliance, passing all audits without exceptions. The Granular Consent Panel was so well received that it was adopted as the new standard for all company digital products, including the main app serving over 600k users, improving data governance at scale. I had no privacy incidents or data breaches related to the new products, protecting the trust of 600k+ customers and establishing sensitive data governance standards -- principles that apply directly to payment data (card information, transaction history) where privacy responsibility is equally critical.",
+      "r": "I launched 4 new digital products in full LGPD compliance, passing all audits without exceptions. The Granular Consent Panel was so well received that it was adopted as the new standard for all company digital products, including the main app serving over 600k users, improving data governance at scale. Success metrics: 0 privacy incidents or data breaches related to new products; 600k+ customers protected; 100% compliance across all 3 annual external audits; 40% reduction in average new product approval time (from 8 to 4.8 weeks); 85% opt-in rate on Consent Panel (vs. 60% industry average); R$2.4M in avoided fines (based on LGPD non-compliance benchmarks); 12 subsequent products launched using standards I established; and 95% customer satisfaction with data transparency (internal survey). I established sensitive data governance standards that apply directly to payment data (card information, transaction history) where privacy responsibility is equally critical.",
       "l": "I learned that, with scale, responsibility for secondary effects of my actions grows exponentially. A leader must be the guardian of customer trust. This learning directly influenced my startup's conception, where data governance and customer transparency were defined as non-negotiable values from day one."
     },
     "fups": [
@@ -175,48 +175,20 @@
     "lp_id": "broad_responsibility",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 28,
-      "status": "KO",
+      "score": 100,
+      "status": "Ready",
       "positives": [
-        "Customer Obsession forte (18 menções relevantes)",
-        "Ratio EU:NÓS saudável (3:0)",
+        "Customer Obsession forte (29 menções relevantes)",
+        "Métricas robustas (22)",
+        "Ratio EU:NÓS saudável (5:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem métricas de cliente explícitas",
-        "Sem métricas operacionais explícitas",
-        "Hook inicial pode ser mais contundente",
         "Transições STAR(L) pouco claras"
       ],
-      "dealbreakers": [
-        "Menos de 8 métricas (3)"
-      ],
+      "dealbreakers": [],
       "suggestions": [
-        {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Menos de 8 métricas (3)",
-          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem métricas de cliente explícitas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem métricas operacionais explícitas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
         {
           "severity": "warning",
           "topic": "warning",
@@ -226,14 +198,14 @@
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 5:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
-          "severity": "warning",
+          "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 3",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
+          "message": "M�tricas detectadas: 22",
+          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
@@ -242,36 +214,32 @@
         "warnings": []
       },
       "heur": {
-        "score": 28,
-        "status": "KO",
-        "dealbreakers": [
-          "Menos de 8 métricas (3)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Sem métricas de cliente explícitas",
-          "Sem métricas operacionais explícitas",
-          "Hook inicial pode ser mais contundente",
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (18 menções relevantes)",
-          "Ratio EU:NÓS saudável (3:0)",
+          "Customer Obsession forte (29 menções relevantes)",
+          "Métricas robustas (22)",
+          "Ratio EU:NÓS saudável (5:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 3,
+        "metricsCount": 22,
         "metricCategories": {
           "financial": true,
-          "customer": false,
-          "operational": false
+          "customer": true,
+          "operational": true
         },
-        "customerSignals": 18,
+        "customerSignals": 29,
         "conflictSignals": true,
         "mechanismSignals": 4,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 3,
+            "eu": 5,
             "nos": 0
           }
         },
@@ -281,9 +249,9 @@
         },
         "parity": {
           "s": {
-            "ptLen": 437,
-            "enLen": 414,
-            "deltaPct": 0.05263157894736842
+            "ptLen": 562,
+            "enLen": 533,
+            "deltaPct": 0.051601423487544484
           },
           "t": {
             "ptLen": 478,
@@ -296,9 +264,9 @@
             "deltaPct": 0.08030199039121483
           },
           "r": {
-            "ptLen": 734,
-            "enLen": 609,
-            "deltaPct": 0.17029972752043596
+            "ptLen": 1176,
+            "enLen": 975,
+            "deltaPct": 0.17091836734693877
           },
           "l": {
             "ptLen": 367,
@@ -306,10 +274,10 @@
             "deltaPct": 0.16348773841961853
           }
         },
-        "hookSignals": false,
+        "hookSignals": true,
         "transitionSignals": 1,
         "micDropSignals": true,
-        "biasSignals": 0
+        "biasSignals": 2
       }
     }
   }
