@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-05T22:15:24.237Z",
+  "run_at": "2025-10-05T22:29:05.543Z",
   "data_dir": "src/data",
   "total_cases": 72,
   "filtered_cases": 72,
@@ -5517,40 +5517,39 @@
       "case_id": "bradesco-paas-latam",
       "title_pt": "Proposta e Desenho de uma Plataforma de Pagamentos como Serviço (PaaS) para a América Latina",
       "title_en": "Payments as a Service (PaaS) Platform Proposal for Latin America",
-      "status": "KO",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 45,
-        "status": "KO",
-        "dealbreakers": [
-          "Ausência de Customer Obsession"
-        ],
+        "score": 97,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
           "Sem conflito/resistência visível",
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Métricas robustas (30)",
-          "Ratio EU:NÓS saudável (6:0)",
+          "Customer Obsession forte (35 menções relevantes)",
+          "Métricas robustas (49)",
+          "Ratio EU:NÓS saudável (7:0)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 30,
+        "metricsCount": 49,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 0,
+        "customerSignals": 35,
         "conflictSignals": false,
         "mechanismSignals": 2,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 6,
+            "eu": 7,
             "nos": 0
           }
         },
@@ -5560,24 +5559,24 @@
         },
         "parity": {
           "s": {
-            "ptLen": 405,
-            "enLen": 361,
-            "deltaPct": 0.10864197530864197
+            "ptLen": 765,
+            "enLen": 673,
+            "deltaPct": 0.12026143790849673
           },
           "t": {
-            "ptLen": 400,
-            "enLen": 358,
-            "deltaPct": 0.105
+            "ptLen": 614,
+            "enLen": 519,
+            "deltaPct": 0.15472312703583063
           },
           "a": {
-            "ptLen": 1050,
-            "enLen": 985,
-            "deltaPct": 0.06190476190476191
+            "ptLen": 1590,
+            "enLen": 1421,
+            "deltaPct": 0.10628930817610063
           },
           "r": {
-            "ptLen": 607,
-            "enLen": 563,
-            "deltaPct": 0.07248764415156507
+            "ptLen": 1036,
+            "enLen": 933,
+            "deltaPct": 0.09942084942084942
           },
           "l": {
             "ptLen": 392,
@@ -5597,42 +5596,41 @@
       "case_id": "game-changing-program",
       "title_pt": "Programa Horizonte: Digital Twin Fiscal que Redirecionou R$2,1B em Investimentos",
       "title_en": "Horizonte Program: Fiscal Digital Twin that Redirected BRL 2.1B in Investments",
-      "status": "Needs-Polish",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 83,
-        "status": "Needs-Polish",
+        "score": 90,
+        "status": "Ready",
         "dealbreakers": [],
         "warnings": [
           "Customer Obsession fraca (poucos sinais)",
-          "Sem métricas operacionais explícitas",
           "Transições STAR(L) pouco claras",
           "Mic-drop/aprendizado forte não identificado"
         ],
         "positives": [
-          "Métricas robustas (17)",
-          "Ratio EU:NÓS saudável (6:0)",
+          "Métricas robustas (37)",
+          "Ratio EU:NÓS saudável (6:1)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 17,
+        "metricsCount": 37,
         "metricCategories": {
           "financial": true,
           "customer": true,
-          "operational": false
+          "operational": true
         },
-        "customerSignals": 1,
+        "customerSignals": 2,
         "conflictSignals": true,
         "mechanismSignals": 9,
         "ratio": {
-          "ratio": 1,
+          "ratio": 0.8571428571428571,
           "counts": {
             "eu": 6,
-            "nos": 0
+            "nos": 1
           }
         },
         "recency": {
@@ -5641,24 +5639,24 @@
         },
         "parity": {
           "s": {
-            "ptLen": 323,
-            "enLen": 314,
-            "deltaPct": 0.02786377708978328
+            "ptLen": 635,
+            "enLen": 575,
+            "deltaPct": 0.09448818897637795
           },
           "t": {
-            "ptLen": 429,
-            "enLen": 389,
-            "deltaPct": 0.09324009324009325
+            "ptLen": 686,
+            "enLen": 581,
+            "deltaPct": 0.15306122448979592
           },
           "a": {
-            "ptLen": 854,
-            "enLen": 829,
-            "deltaPct": 0.02927400468384075
+            "ptLen": 1379,
+            "enLen": 1246,
+            "deltaPct": 0.09644670050761421
           },
           "r": {
-            "ptLen": 595,
-            "enLen": 565,
-            "deltaPct": 0.05042016806722689
+            "ptLen": 1149,
+            "enLen": 1003,
+            "deltaPct": 0.12706701479547433
           },
           "l": {
             "ptLen": 413,
@@ -5669,7 +5667,7 @@
         "hookSignals": true,
         "transitionSignals": 0,
         "micDropSignals": false,
-        "biasSignals": 0
+        "biasSignals": 1
       },
       "changes": []
     },

@@ -23,64 +23,64 @@ const case_4 = {
   },
   fups: [
     {
-        "q": "Como escolheu fontes primárias?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you choose primary sources?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como escolheu fontes primárias para o pipeline de aprendizado?",
+        "a": "Mapeei competências-alvo entrevistando 12 clientes enterprise que representavam 68% da receita de pagamentos. Descobri que queriam principalmente: (1) integração PIX < 2 semanas, (2) suporte a Open Finance sem fricção, (3) reconciliação automatizada multi-adquirente. Baseado nisso, priorizei circulares BACEN, papers de FEBRABAN sobre PIX, roadmaps de Visa/Mastercard sobre tokenização, e especificações Open Finance do Banco Central. Evitei fontes genéricas (blogs de tecnologia) porque não ofereciam profundidade regulatória necessária. Assinei alertas diretos do BACEN para mudanças em tempo real.",
+        "q_en": "How did you choose primary sources for the learning pipeline?",
+        "a_en": "I mapped target competencies by interviewing 12 enterprise clients representing 68% of payments revenue. I discovered they wanted primarily: (1) PIX integration < 2 weeks, (2) frictionless Open Finance support, (3) automated multi-acquirer reconciliation. Based on that, I prioritized Central Bank circulars, FEBRABAN papers on PIX, Visa/Mastercard roadmaps on tokenization, and Central Bank Open Finance specs. I avoided generic sources (tech blogs) because they didn't offer necessary regulatory depth. I subscribed to direct Central Bank alerts for real-time changes."
     },
     {
-        "q": "Qual PoC teve maior impacto?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which PoC had the biggest impact?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Qual PoC teve maior impacto direto nos clientes?",
+        "a": "O template PIX que criei teve impacto mais transformador. Reduziu tempo de integração PIX de 6 para 1.5 semanas, economizando R$ 280k/ano em custos de engenharia. Mas impacto real nos clientes foi que permitiu lançamento 60% mais rápido de funcionalidades PIX, acelerando time-to-market. Clientes reportaram 45% de redução em tempo de onboarding de novos meios de pagamento. O framework de reconciliação multi-adquirente foi segundo maior - eliminou 94% de erros manuais (de 340 para 18 erros/mês), melhorando drasticamente experiência operacional do cliente.",
+        "q_en": "Which PoC had the biggest direct impact on customers?",
+        "a_en": "The PIX template I created had most transformative impact. It reduced PIX integration time from 6 to 1.5 weeks, saving R$ 280k/year in engineering costs. But real customer impact was enabling 60% faster launch of PIX features, accelerating time-to-market. Clients reported 45% reduction in onboarding time for new payment methods. Multi-acquirer reconciliation framework was second biggest - eliminated 94% of manual errors (from 340 to 18 errors/month), dramatically improving customer operational experience."
     },
     {
-        "q": "Como manteve constância do ROT?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you keep ROT consistent?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como manteve constância do ROT (Ritmo de Trabalho) semanal de aprendizado?",
+        "a": "Bloqueei 4 horas às sextas-feiras no calendário como 'non-negotiable learning time' e marquei como 'Out of Office' para evitar reuniões. Criei accountability público: publiquei newsletter interna 'Payments Pulse' toda segunda-feira resumindo aprendizados da semana anterior. Pressão de entregar conteúdo de qualidade para 45 pessoas criou compromisso. Também atrelei 15% do meu bônus trimestral a meta de criar 2 PoCs reutilizáveis por trimestre. Incentivo financeiro + accountability social garantiram disciplina mesmo quando roadmap ficava apertado.",
+        "q_en": "How did you keep weekly learning ROT (Rhythm of Business) consistent?",
+        "a_en": "I blocked 4 hours every Friday on calendar as 'non-negotiable learning time' and marked as 'Out of Office' to avoid meetings. I created public accountability: published internal newsletter 'Payments Pulse' every Monday summarizing previous week's learnings. Pressure to deliver quality content to 45 people created commitment. Also tied 15% of my quarterly bonus to goal of creating 2 reusable PoCs per quarter. Financial incentive + social accountability ensured discipline even when roadmap was tight."
     },
     {
-        "q": "Como antecipou mudanças regulatórias?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you anticipate regulatory changes?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como antecipou mudanças regulatórias do BACEN antes de impactarem os clientes?",
+        "a": "Assinei alertas diretos das circulares do BACEN e participei de 4 webinars da Controladoria Geral por ano. Quando BACEN anunciou Open Finance, investi imediatamente 80 horas em 3 semanas estudando especificações antes do prazo de implementação. Isso me deu 6 meses de vantagem - criei PoC de Open Finance funcional antes dos concorrentes. Resultado: evitamos multas de não-conformidade (R$ 47k/dia de atraso) e lançamos features 4 meses antes da concorrência, capturando early adopters e ganhando market share.",
+        "q_en": "How did you anticipate Central Bank regulatory changes before they impacted customers?",
+        "a_en": "I subscribed to direct Central Bank circular alerts and attended 4 Controller's Office webinars per year. When Central Bank announced Open Finance, I immediately invested 80 hours over 3 weeks studying specifications before implementation deadline. This gave me 6 months advantage - created functional Open Finance PoC before competitors. Result: avoided non-compliance fines (R$ 47k/day delay) and launched features 4 months before competition, capturing early adopters and gaining market share."
     },
     {
-        "q": "Que métricas provam eficácia?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What metrics prove effectiveness?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Que métricas provam que o sistema de aprendizado realmente acelerou execução?",
+        "a": "Três métricas principais: (1) Ramp-up time caiu de 6 para 2.8 semanas (53% de redução) - medido como tempo entre anúncio de nova regulação até primeiro commit de código. (2) Taxa de utilização saltou de 22% para 81% - medido como % de aprendizados que viraram features em produção dentro de 90 dias. (3) Time-to-market de integrações caiu de 8 para 3.2 semanas (60% mais rápido). ROI financeiro foi 8.3x: 832h investidas geraram R$ 2.1M em economia (retrabalho evitado + conformidade antecipada + aceleração de receita).",
+        "q_en": "What metrics prove the learning system actually accelerated execution?",
+        "a_en": "Three main metrics: (1) Ramp-up time dropped from 6 to 2.8 weeks (53% reduction) - measured as time between new regulation announcement to first code commit. (2) Utilization rate jumped from 22% to 81% - measured as % of learnings that became production features within 90 days. (3) Integration time-to-market dropped from 8 to 3.2 weeks (60% faster). Financial ROI was 8.3x: 832h invested generated R$ 2.1M savings (rework avoided + early compliance + revenue acceleration)."
     },
     {
-        "q": "Como compartilhou conhecimento?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you share knowledge?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como compartilhou conhecimento para que não ficasse silo individual?",
+        "a": "Usei três mecanismos: (1) Newsletter 'Payments Pulse' semanal para 45 pessoas com resumo executivo de mudanças regulatórias e PoCs relevantes. (2) Guildas quinzenais de 90 minutos onde apresentava PoC novo + hands-on prático. (3) Repositório Git com 8 templates pré-configurados e documentação padrão (README + arquitetura + casos de uso). Resultado: conhecimento foi replicado - 2 outras áreas (fraud detection e compliance) adotaram o sistema. Taxa de aproveitamento saltou de 22% para 81%, provando que compartilhamento funcionou.",
+        "q_en": "How did you share knowledge so it didn't remain individual silo?",
+        "a_en": "I used three mechanisms: (1) Weekly 'Payments Pulse' newsletter for 45 people with executive summary of regulatory changes and relevant PoCs. (2) Bi-weekly 90-minute guilds where I presented new PoC + practical hands-on. (3) Git repository with 8 pre-configured templates and standard documentation (README + architecture + use cases). Result: knowledge was replicated - 2 other areas (fraud detection and compliance) adopted the system. Utilization rate jumped from 22% to 81%, proving sharing worked."
     },
     {
-        "q": "Como prioriza temas emergentes?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How do you prioritize emerging topics?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como priorizou temas emergentes quando havia dezenas de mudanças regulatórias simultâneas?",
+        "a": "Criei matriz de priorização com 3 dimensões: (1) Impacto no cliente - entrevistava top 12 clientes enterprise trimestralmente sobre dores; (2) Urgência regulatória - deadline do BACEN e multa potencial; (3) Complexidade técnica - estimava esforço de implementação. Somente temas com score ponderado > 7/10 entravam no pipeline. Exemplo: PIX foi 10/10 em todas dimensões, então investí 80h imediatamente. Já tokenização de cartões foi 5/10, então adiei. Resultado: foquei em PIX e Open Finance que geraram 78% do impacto nos clientes.",
+        "q_en": "How did you prioritize emerging topics when there were dozens of simultaneous regulatory changes?",
+        "a_en": "I created prioritization matrix with 3 dimensions: (1) Customer impact - interviewed top 12 enterprise clients quarterly about pain points; (2) Regulatory urgency - Central Bank deadline and potential fine; (3) Technical complexity - estimated implementation effort. Only topics with weighted score > 7/10 entered pipeline. Example: PIX was 10/10 on all dimensions, so I invested 80h immediately. Card tokenization was 5/10, so I postponed. Result: focused on PIX and Open Finance which generated 78% of customer impact."
     },
     {
-        "q": "Que mecanismos evitam dispersão?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What mechanisms avoid dispersion?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Que mecanismos implementou para evitar dispersão de foco em 'shiny objects' ao invés de problemas reais?",
+        "a": "Regra rígida: todo PoC precisava resolver dor específica de cliente validada em entrevista direta. Sem validação = sem PoC. Criei critério de entrada: PoC só avançava se (1) resolvesse problema reportado por ≥3 clientes, (2) tivesse código reutilizável em ≥3 projetos, (3) tempo de implementação <16h. Isso eliminou PoCs acadêmicos interessantes mas inúteis. Também revisei trimestralmente com CFO: PoCs sem aplicação prática em 90 dias eram arquivados. Accountability financeira evitou 'innovation theater'.",
+        "q_en": "What mechanisms did you implement to avoid focus dispersion on 'shiny objects' instead of real problems?",
+        "a_en": "Strict rule: every PoC needed to solve specific customer pain validated in direct interview. No validation = no PoC. I created entry criteria: PoC only advanced if (1) solved problem reported by ≥3 clients, (2) had reusable code in ≥3 projects, (3) implementation time <16h. This eliminated interesting but useless academic PoCs. Also reviewed quarterly with CFO: PoCs without practical application in 90 days were archived. Financial accountability avoided 'innovation theater'."
     },
     {
-        "q": "Se refizesse, que melhoria faria?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "If redoing, what improvement would you add?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Se pudesse refazer, que melhoria faria no sistema de aprendizado?",
+        "a": "Investiria em automação de tracking de impacto desde o início. Rastreei manualmente quantos PoCs viraram features de produção, mas isso consumia 2h/semana. Criaria dashboard automático conectado ao Jira mostrando: (1) tempo de PoC até produção, (2) economia gerada por PoC, (3) clientes impactados. Também faria partnership com universidades (tipo UFRGS) mais cedo - teria acesso a pesquisas de ponta 6 meses antes. Finalmente, documentaria melhor 'failure patterns' - quais PoCs falharam e por quê, para evitar repetir erros.",
+        "q_en": "If you could redo it, what improvement would you make to the learning system?",
+        "a_en": "Would invest in impact tracking automation from the start. I manually tracked how many PoCs became production features, but this consumed 2h/week. Would create automatic dashboard connected to Jira showing: (1) PoC to production time, (2) savings generated per PoC, (3) customers impacted. Also would partnership with universities (like UFRGS) earlier - would have access to cutting-edge research 6 months sooner. Finally, would better document 'failure patterns' - which PoCs failed and why, to avoid repeating mistakes."
     },
     {
-        "q": "Como o sistema escala com o workload?",
-        "a": "Eu descrevi a decisão, os critérios e as evidências, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How does the system scale with workload?",
-        "a_en": "I described the decision, criteria, and evidence, tying them to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como o sistema escalou quando o workload de regulações do BACEN triplicou com Open Finance?",
+        "a": "Quando BACEN lançou Open Finance com 4 fases simultâneas, criei 'modelo de treinar treinadores'. Treinei 3 tech leads em metodologia de PoCs (critérios, documentação, git workflow) e distribui responsabilidade: um focou em APIs de pagamento, outro em dados de cadastro, terceiro em compartilhamento de produtos. Eu virei 'revisor' ao invés de 'criador' de todos PoCs. Isso 3x nossa capacidade sem contratar. Também reutilizamos 70% do código dos PoCs anteriores, acelerando drasticamente. Sistema provou ser escalável - 2 outras áreas da empresa replicaram.",
+        "q_en": "How did the system scale when Central Bank regulation workload tripled with Open Finance?",
+        "a_en": "When Central Bank launched Open Finance with 4 simultaneous phases, I created 'train the trainers' model. I trained 3 tech leads in PoC methodology (criteria, documentation, git workflow) and distributed responsibility: one focused on payment APIs, another on registration data, third on product sharing. I became 'reviewer' instead of 'creator' of all PoCs. This 3x our capacity without hiring. Also reused 70% of code from previous PoCs, dramatically accelerating. System proved scalable - 2 other company areas replicated it."
     }
 ]
 };
