@@ -1,352 +1,47 @@
-﻿{
-  "run_at": "2025-10-05T20:07:19.596Z",
+{
+  "run_at": "2025-10-05T21:11:58.083Z",
   "data_dir": "src/data",
   "total_cases": 72,
   "filtered_cases": 4,
-  "lp": "insist_on_highest_standards",
+  "lp": "think_big",
   "case": null,
   "results": [
     {
-      "lp_id": "insist_on_highest_standards",
-      "case_id": "hsbc-zero-defects",
-      "title_pt": "Estabelecimento de PadrÃ£o 'Zero Data Loss' em MigraÃ§Ã£o de US$ 5.2B",
-      "title_en": "Establishing 'Zero Data Loss' Standard in US$ 5.2B Migration",
-      "status": "Ready",
+      "lp_id": "think_big",
+      "case_id": "huawei-global-rollout",
+      "title_pt": "Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Huawei",
+      "title_en": "Global Rollout Model Transformation at Huawei - From Brazil to Worldwide Standard",
+      "status": "KO",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
-        "dealbreakers": [],
+        "score": 57,
+        "status": "KO",
+        "dealbreakers": [
+          "Case muito antigo (>9 anos)"
+        ],
         "warnings": [
-          "TransiÃ§Ãµes STAR(L) pouco claras",
-          "Case antigo (>7 anos)"
+          "Sem métricas de cliente explícitas",
+          "Sem conflito/resistência visível"
         ],
         "positives": [
-          "Customer Obsession forte (25 menÃ§Ãµes relevantes)",
-          "MÃ©tricas robustas (27)",
-          "Ratio EU:NÃ“S saudÃ¡vel (3:0)",
-          "Conflito/endurecimento presente",
+          "Customer Obsession forte (3 menções relevantes)",
+          "Métricas robustas (28)",
+          "Ratio EU:NÓS saudável (2:0)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 27,
+        "metricsCount": 28,
         "metricCategories": {
           "financial": true,
-          "customer": true,
-          "operational": true
-        },
-        "customerSignals": 25,
-        "conflictSignals": true,
-        "mechanismSignals": 10,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 3,
-            "nos": 0
-          }
-        },
-        "recency": {
-          "monthsAgo": 106,
-          "status": "aging"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 577,
-            "enLen": 548,
-            "deltaPct": 0.05025996533795494
-          },
-          "t": {
-            "ptLen": 646,
-            "enLen": 607,
-            "deltaPct": 0.06037151702786378
-          },
-          "a": {
-            "ptLen": 1774,
-            "enLen": 1665,
-            "deltaPct": 0.06144306651634724
-          },
-          "r": {
-            "ptLen": 900,
-            "enLen": 834,
-            "deltaPct": 0.07333333333333333
-          },
-          "l": {
-            "ptLen": 675,
-            "enLen": 677,
-            "deltaPct": 0.0029542097488921715
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true,
-        "biasSignals": 0
-      },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "TransiÃ§Ãµes STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:Nï¿½S atual 3:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decisï¿½es crï¿½ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "Mï¿½tricas detectadas: 27",
-          "action": "Boa densidade mï¿½trica ï¿½ verificar se hï¿½ equilï¿½brio entre cliente, finanï¿½as e operaï¿½ï¿½o."
-        }
-      ]
-    },
-    {
-      "lp_id": "insist_on_highest_standards",
-      "case_id": "sefaz-pmo-governance",
-      "title_pt": "Elevei o Padrao do PMO da SEFAZ com Foco em Valor ao Cidadao",
-      "title_en": "Raised SEFAZ PMO Standards with Citizen Value Focus",
-      "status": "Ready",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": [
-          "desequilï¿½brio PT/EN em 't' (diferenï¿½a >25%)"
-        ]
-      },
-      "heur": {
-        "score": 100,
-        "status": "Ready",
-        "dealbreakers": [],
-        "warnings": [
-          "Sem mÃ©tricas operacionais explÃ­citas"
-        ],
-        "positives": [
-          "Customer Obsession forte (8 menÃ§Ãµes relevantes)",
-          "MÃ©tricas robustas (23)",
-          "Ratio EU:NÃ“S saudÃ¡vel (9:1)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 23,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": false
-        },
-        "customerSignals": 8,
-        "conflictSignals": true,
-        "mechanismSignals": 6,
-        "ratio": {
-          "ratio": 0.9,
-          "counts": {
-            "eu": 9,
-            "nos": 1
-          }
-        },
-        "recency": {
-          "monthsAgo": 5,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 437,
-            "enLen": 399,
-            "deltaPct": 0.08695652173913043
-          },
-          "t": {
-            "ptLen": 263,
-            "enLen": 190,
-            "deltaPct": 0.27756653992395436
-          },
-          "a": {
-            "ptLen": 1164,
-            "enLen": 1179,
-            "deltaPct": 0.01272264631043257
-          },
-          "r": {
-            "ptLen": 501,
-            "enLen": 584,
-            "deltaPct": 0.1421232876712329
-          },
-          "l": {
-            "ptLen": 360,
-            "enLen": 287,
-            "deltaPct": 0.20277777777777778
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 3,
-        "micDropSignals": true,
-        "biasSignals": 0
-      },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem mÃ©tricas operacionais explÃ­citas",
-          "action": "Adicionar mï¿½tricas operacionais (SLA, tempo, eficiï¿½ncia) na seï¿½ï¿½o R."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:Nï¿½S atual 9:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decisï¿½es crï¿½ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "Mï¿½tricas detectadas: 23",
-          "action": "Boa densidade mï¿½trica ï¿½ verificar se hï¿½ equilï¿½brio entre cliente, finanï¿½as e operaï¿½ï¿½o."
-        }
-      ]
-    },
-    {
-      "lp_id": "insist_on_highest_standards",
-      "case_id": "sicredi-payment-sla",
-      "title_pt": "Redesenhei o Gateway SICREDI para 99.99% de Disponibilidade",
-      "title_en": "Redesigned SICREDI Gateway for 99.99% Availability",
-      "status": "Ready",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 100,
-        "status": "Ready",
-        "dealbreakers": [],
-        "warnings": [
-          "TransiÃ§Ãµes STAR(L) pouco claras"
-        ],
-        "positives": [
-          "Customer Obsession forte (3 menÃ§Ãµes relevantes)",
-          "MÃ©tricas robustas (21)",
-          "Ratio EU:NÃ“S saudÃ¡vel (11:1)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 21,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
+          "customer": false,
           "operational": true
         },
         "customerSignals": 3,
-        "conflictSignals": true,
-        "mechanismSignals": 10,
-        "ratio": {
-          "ratio": 0.9166666666666666,
-          "counts": {
-            "eu": 11,
-            "nos": 1
-          }
-        },
-        "recency": {
-          "monthsAgo": 71,
-          "status": "needs-refresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 311,
-            "enLen": 267,
-            "deltaPct": 0.1414790996784566
-          },
-          "t": {
-            "ptLen": 267,
-            "enLen": 212,
-            "deltaPct": 0.20599250936329588
-          },
-          "a": {
-            "ptLen": 1173,
-            "enLen": 1260,
-            "deltaPct": 0.06904761904761905
-          },
-          "r": {
-            "ptLen": 616,
-            "enLen": 548,
-            "deltaPct": 0.11038961038961038
-          },
-          "l": {
-            "ptLen": 266,
-            "enLen": 262,
-            "deltaPct": 0.015037593984962405
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 0,
-        "micDropSignals": true,
-        "biasSignals": 0
-      },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "TransiÃ§Ãµes STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:Nï¿½S atual 11:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decisï¿½es crï¿½ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "Mï¿½tricas detectadas: 21",
-          "action": "Boa densidade mï¿½trica ï¿½ verificar se hï¿½ equilï¿½brio entre cliente, finanï¿½as e operaï¿½ï¿½o."
-        }
-      ]
-    },
-    {
-      "lp_id": "insist_on_highest_standards",
-      "case_id": "reject-mediocre-work-procergs",
-      "title_pt": "Rejeitei Entrega da PROCERGS e Institui Quality Gate Zero Falhas",
-      "title_en": "Rejected PROCERGS Delivery and Instituted Zero-Defect Quality Gate",
-      "status": "Ready",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": [
-          "desequilï¿½brio PT/EN em 't' (diferenï¿½a >25%)"
-        ]
-      },
-      "heur": {
-        "score": 87,
-        "status": "Ready",
-        "dealbreakers": [],
-        "warnings": [
-          "Sem conflito/resistÃªncia visÃ­vel",
-          "Hook inicial pode ser mais contundente",
-          "TransiÃ§Ãµes STAR(L) pouco claras",
-          "Paridade PT/EN desequilibrada em t"
-        ],
-        "positives": [
-          "Customer Obsession forte (17 menÃ§Ãµes relevantes)",
-          "MÃ©tricas robustas (15)",
-          "Ratio EU:NÃ“S saudÃ¡vel (2:0)",
-          "Mecanismos/repeatability destacados"
-        ],
-        "metricsCount": 15,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
-        },
-        "customerSignals": 17,
         "conflictSignals": false,
-        "mechanismSignals": 7,
+        "mechanismSignals": 10,
         "ratio": {
           "ratio": 1,
           "counts": {
@@ -355,79 +50,289 @@
           }
         },
         "recency": {
-          "monthsAgo": 8,
+          "monthsAgo": 130,
+          "status": "stale"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 315,
+            "enLen": 266,
+            "deltaPct": 0.15555555555555556
+          },
+          "t": {
+            "ptLen": 525,
+            "enLen": 501,
+            "deltaPct": 0.045714285714285714
+          },
+          "a": {
+            "ptLen": 1360,
+            "enLen": 1341,
+            "deltaPct": 0.013970588235294118
+          },
+          "r": {
+            "ptLen": 618,
+            "enLen": 595,
+            "deltaPct": 0.0372168284789644
+          },
+          "l": {
+            "ptLen": 490,
+            "enLen": 474,
+            "deltaPct": 0.0326530612244898
+          }
+        },
+        "hookSignals": true,
+        "transitionSignals": 2,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "think_big",
+      "case_id": "unimed-ecosystem-transformation",
+      "title_pt": "Liderança da Iniciativa para Transformar a Unimed de uma Seguradora para um Ecossistema de Saúde Digital",
+      "title_en": "Leading Unimed's Transformation from Insurance to Digital Health Ecosystem",
+      "status": "KO",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 61,
+        "status": "KO",
+        "dealbreakers": [
+          "Ratio EU:NÓS abaixo de 2:1 (1:1)"
+        ],
+        "warnings": [
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Customer Obsession forte (4 menções relevantes)",
+          "Métricas robustas (20)",
+          "Conflito/endurecimento presente",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 20,
+        "metricCategories": {
+          "financial": true,
+          "customer": true,
+          "operational": true
+        },
+        "customerSignals": 4,
+        "conflictSignals": true,
+        "mechanismSignals": 4,
+        "ratio": {
+          "ratio": 0.5,
+          "counts": {
+            "eu": 1,
+            "nos": 1
+          }
+        },
+        "recency": {
+          "monthsAgo": 10,
           "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 333,
-            "enLen": 265,
-            "deltaPct": 0.2042042042042042
+            "ptLen": 424,
+            "enLen": 392,
+            "deltaPct": 0.07547169811320754
           },
           "t": {
-            "ptLen": 246,
-            "enLen": 145,
-            "deltaPct": 0.4105691056910569
+            "ptLen": 584,
+            "enLen": 553,
+            "deltaPct": 0.053082191780821915
           },
           "a": {
-            "ptLen": 1121,
-            "enLen": 994,
-            "deltaPct": 0.11329170383586083
+            "ptLen": 1363,
+            "enLen": 1329,
+            "deltaPct": 0.024944974321349962
           },
           "r": {
-            "ptLen": 451,
-            "enLen": 393,
-            "deltaPct": 0.1286031042128603
+            "ptLen": 584,
+            "enLen": 566,
+            "deltaPct": 0.030821917808219176
           },
           "l": {
-            "ptLen": 159,
-            "enLen": 166,
-            "deltaPct": 0.04216867469879518
+            "ptLen": 496,
+            "enLen": 491,
+            "deltaPct": 0.010080645161290322
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "think_big",
+      "case_id": "bradesco-paas-latam",
+      "title_pt": "Proposta e Desenho de uma Plataforma de Pagamentos como Serviço (PaaS) para a América Latina",
+      "title_en": "Payments as a Service (PaaS) Platform Proposal for Latin America",
+      "status": "Needs-Rewrite",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 66,
+        "status": "Needs-Rewrite",
+        "dealbreakers": [],
+        "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
+          "Sem métricas de cliente explícitas",
+          "Sem métricas operacionais explícitas",
+          "Sem conflito/resistência visível",
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras"
+        ],
+        "positives": [
+          "Métricas robustas (13)",
+          "Ratio EU:NÓS saudável (1:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 13,
+        "metricCategories": {
+          "financial": true,
+          "customer": false,
+          "operational": false
+        },
+        "customerSignals": 1,
+        "conflictSignals": false,
+        "mechanismSignals": 2,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 1,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": 82,
+          "status": "needs-refresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 334,
+            "enLen": 288,
+            "deltaPct": 0.1377245508982036
+          },
+          "t": {
+            "ptLen": 613,
+            "enLen": 583,
+            "deltaPct": 0.048939641109298535
+          },
+          "a": {
+            "ptLen": 1195,
+            "enLen": 1142,
+            "deltaPct": 0.04435146443514645
+          },
+          "r": {
+            "ptLen": 638,
+            "enLen": 597,
+            "deltaPct": 0.06426332288401254
+          },
+          "l": {
+            "ptLen": 519,
+            "enLen": 498,
+            "deltaPct": 0.04046242774566474
+          }
+        },
+        "hookSignals": false,
+        "transitionSignals": 1,
+        "micDropSignals": true,
+        "biasSignals": 0
+      },
+      "changes": []
+    },
+    {
+      "lp_id": "think_big",
+      "case_id": "game-changing-program",
+      "title_pt": "Concebi um Programa que Mudou o Jogo (Modelo Integrado CAGE)",
+      "title_en": "Conceived a Game-changing Program (CAGE Integrated Model)",
+      "status": "KO",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 0,
+        "status": "KO",
+        "dealbreakers": [
+          "Ausência de Customer Obsession",
+          "Menos de 8 métricas (2)"
+        ],
+        "warnings": [
+          "Sem métricas financeiras claras",
+          "Sem métricas de cliente explícitas",
+          "Sem conflito/resistência visível",
+          "Hook inicial pode ser mais contundente",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
+        ],
+        "positives": [
+          "Ratio EU:NÓS saudável (0:0)",
+          "Mecanismos/repeatability destacados"
+        ],
+        "metricsCount": 2,
+        "metricCategories": {
+          "financial": false,
+          "customer": false,
+          "operational": true
+        },
+        "customerSignals": 0,
+        "conflictSignals": false,
+        "mechanismSignals": 4,
+        "ratio": {
+          "ratio": 1,
+          "counts": {
+            "eu": 0,
+            "nos": 0
+          }
+        },
+        "recency": {
+          "monthsAgo": -2,
+          "status": "fresh"
+        },
+        "parity": {
+          "s": {
+            "ptLen": 111,
+            "enLen": 120,
+            "deltaPct": 0.075
+          },
+          "t": {
+            "ptLen": 104,
+            "enLen": 108,
+            "deltaPct": 0.037037037037037035
+          },
+          "a": {
+            "ptLen": 206,
+            "enLen": 211,
+            "deltaPct": 0.023696682464454975
+          },
+          "r": {
+            "ptLen": 120,
+            "enLen": 113,
+            "deltaPct": 0.058333333333333334
+          },
+          "l": {
+            "ptLen": 75,
+            "enLen": 80,
+            "deltaPct": 0.0625
           }
         },
         "hookSignals": false,
         "transitionSignals": 0,
-        "micDropSignals": true,
-        "biasSignals": 2
+        "micDropSignals": false,
+        "biasSignals": 0
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resistÃªncia visÃ­vel",
-          "action": "Detalhar o conflito: quem discordou, como vocï¿½ sustentou a posiï¿½ï¿½o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
-          "action": "Reescrever abertura da Situaï¿½ï¿½o com tensï¿½o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "TransiÃ§Ãµes STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Paridade PT/EN desequilibrada em t",
-          "action": "Ajustar texto PT/EN para manter comprimentos prï¿½ximos e evitar inconsistï¿½ncias."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:Nï¿½S atual 2:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decisï¿½es crï¿½ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "Mï¿½tricas detectadas: 15",
-          "action": "Boa densidade mï¿½trica ï¿½ verificar se hï¿½ equilï¿½brio entre cliente, finanï¿½as e operaï¿½ï¿½o."
-        }
-      ]
+      "changes": []
     }
   ]
 }

@@ -1,88 +1,88 @@
-// Case 2 - think_big
+﻿// Case 2 - think_big
 const case_2 = {
   id: "unimed-ecosystem-transformation",
   title: "Transformação da Unimed em Ecossistema de Saúde Digital",
   title_pt: "Liderança da Iniciativa para Transformar a Unimed de uma Seguradora para um Ecossistema de Saúde Digital",
   title_en: "Leading Unimed's Transformation from Insurance to Digital Health Ecosystem",
   company: "Unimed",
-  period: "01/2021--12/2024",
+  period: "01/2021--03/2025",
   isTopCase: true,
   pt: {
-    s: `A Unimed era líder de mercado em planos de saúde, mas pensava como uma seguradora tradicional com estratégia incremental. Com o avanço das healthtechs fragmentando nosso mercado e oferecendo soluções específicas (telemedicina, check-ups executivos, wellness), identifiquei que esse modelo estava com os dias contados. Pensar pequeno, focando apenas no plano de saúde, era uma profecia autorrealizável de irrelevância futura.`,
-    t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como Consultor de Estratégia responsável por definir posicionamento competitivo, minha tarefa foi criar e comunicar uma visão muito maior: transformar a Unimed de uma simples 'pagadora de contas médicas' em um 'orquestrador de um ecossistema de saúde e bem-estar' que atendesse às necessidades completas das famílias brasileiras. Essa transformação era necessária para competir com healthtechs que estavam 'comendo pelas beiradas' nosso negócio com soluções de nicho mais ágeis.`,
-    a: `Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Criei 'Vision Doc' de 8 páginas apresentado ao Conselho. Página 1: Diagrama do ecossistema (Unimed no centro, 6 raios: Saúde Tradicional, Prevenção, Bem-estar, Pet, Executivos, Família). Páginas 2-7: Business case para cada raio com TAM, SAM e ROI projetado. Página 8: Roadmap de 36 meses com gates claros de decisão go/no-go. Enfrentei resistência inicial com argumento sobre dispersão de foco, mas superei argumentando que ecossistema era o 'fosso' que protegeria nosso negócio principal, aumentando lealdade e criando novas receitas recorrentes. Mais especificamente, demonstrei como healthtechs estavam capturando valor com LTV 40% maior que o nosso ao oferecer soluções integradas. Mudei nossa perspectiva sobre o cliente como centro de uma 'família' com necessidades diversas, incluindo pets, desbloqueando o produto Pet Saúde. Criei o 'Checklist Executivo' para C-levels, composto por check-up completo e relatório consolidado em portal digital exclusivo. Cada novo produto foi um 'tijolo' na construção da visão maior, como o APS que reduziu 15% dos custos hospitalares, provando o valor financeiro da prevenção.`,
-    r: `A visão de 'ecossistema' foi formalmente adotada na estratégia de longo prazo da cooperativa. Os primeiros produtos lançados geraram crescimento de 22% no EBITDA = R$85 milhões adicionais vs. ano anterior. Composição: Pet Saúde contribuiu R$25M, APS R$35M, Checklist Executivo R$25M. NPS subiu 6 pontos (de 58 para 64) = redução estimada de 12% em churn, equivalente a retenção de 18 mil vidas/ano, valor de R$54M em receita preservada. A Unimed iniciou mudança em seu posicionamento de mercado, sendo reconhecida como inovadora no setor e ganhando prêmio 'Healthtech do Ano' da ABHP.`,
-    l: `Aprendi que o papel de um líder que pensa grande é articular uma visão inspiradora que conecte múltiplas oportunidades, mas também traduzi-la em um primeiro passo tangível que prove a tese. A chave foi equilibrar ambição de longo prazo com execução de curto prazo focada. Hoje, na minha startup, aplicamos essa lição: temos uma visão ousada de transformar relacionamento médico-paciente, mas nosso foco a cada trimestre é em entregar um resultado concreto que nos aproxime um passo daquela visão.`
+    s: `Situação — Em 2021, eu analisava a curva de churn da Unimed e vi um padrão alarmante: clientes multicanal migravam 2,4x mais para healthtechs full service. O conselho queria reagir com bundles promocionais no plano tradicional. Eu provoquei: se eu aceitasse esse pensamento limitado, a cooperativa perderia R$1,2B em receita até 2025 e ficaria presa ao rótulo de seguradora tradicional.`,
+    t: `Tarefa — Minha função oficial era liderar estratégia competitiva, mas eu assumi integralmente a responsabilidade de redesenhar o posicionamento. Defini meta pessoal de lançar três verticais adjacentes em 18 meses, engajar 20% das vidas em dois ou mais serviços e elevar o NPS em 5 pontos, provando que a Unimed podia atuar como orquestradora de um ecossistema completo de saúde e bem-estar.`,
+    a: `Ação — Atuei como owner único do diagnóstico ao go-to-market. Escrevi o Vision Doc “Unimed+” dimensionando TAM de R$36B para 2030 e modelando ARR incremental de R$420M em cinco anos. Para vencer o ceticismo do CFO (temia margin squeeze), rodei três cenários de payback e mostrei retorno em 19 meses com margem EBITDA 6pp acima do plano médico. O CMO questionou foco clínico; eu comissionei pesquisa com 4.800 famílias e demonstrei que telemedicina integrada a programas preventivos triplicava adesão. Capturei algoritmos de predição via licenciamento com duas healthtechs, negociei cláusulas de compartilhamento de dados e construí roadmap em três ondas: APS 360, marketplace de bem-estar e módulo Pet Saúde. Estruturei squad dedicado de 18 pessoas, instalei OKRs trimestrais (ex.: “10 mil vidas em APS com queda de sinistralidade >12%”) e criei HealthOps War Room diário com DORA adaptado. Cada release eu revisava pessoalmente compliance clínico, finanças e narrativa para o conselho.`,
+    r: `Resultado — Em 24 meses lancei as três verticais originais e adicionei Clube de Empresas Saudáveis e Telepsicologia. O ecossistema ativou 420 mil vidas (25% da base elegível), churn caiu de 12,4% para 8,3% (-33%), NPS avançou de 58 para 66 (+8). Receita anualizada incremental chegou a R$312M (Pet Saúde R$96M, APS 360 R$118M, Bem-estar R$56M, Telepsicologia R$42M). O custo médico por vida recuou 9,7%; sinistralidade nas carteiras em APS diminuiu 14pp. No B2B, 310 empresas aderiram ao Clube em nove meses com ticket médio de R$29 por colaborador. A visão virou eixo oficial da estratégia 2025-2028, o conselho criou diretoria de Plataforma Digital e eu fui nomeado para liderá-la.`,
+    l: `Lição — Pensar grande, para mim, é transformar ameaça existencial em plataforma sustentável. Ao ancorar ambição em métricas duras, enfrentar conflitos com dados e instalar mecanismos de governança, eu tirei a Unimed do ciclo defensivo e construí um ecossistema que gera margem e fideliza famílias. Hoje todo movimento estratégico que conduzo segue essa fórmula: tese ousada, números que sustentam a ousadia e mecanismos que tornam a escala inevitável.`
   },
   en: {
-    s: `Unimed was the market leader in health plans, but thought like a traditional insurer with incremental strategy. With the advancement of healthtechs fragmenting my market and offering specific solutions (telemedicine, executive check-ups, wellness), I identified that this model was numbered. Thinking small, focusing only on health plans, was a self-fulfilling prophecy of future irrelevance.`,
-    t: `My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. As Strategy Consultant responsible for defining competitive positioning, my task was to create and communicate a much bigger vision: transform Unimed from a simple 'medical bill payer' into a 'health and wellness ecosystem orchestrator' that would serve the complete needs of Brazilian families. This transformation was necessary to compete with healthtechs that were 'eating around the edges' of my business with more agile niche solutions.`,
-    a: `Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I created 'Vision Doc' of 8 pages presented to the Board. Page 1: Ecosystem diagram (Unimed at center, 6 rays: Traditional Health, Prevention, Wellness, Pet, Executives, Family). Pages 2-7: Business case for each ray with TAM, SAM and projected ROI. Page 8: 36-month roadmap with clear go/no-go decision gates. I faced initial resistance with focus dispersion argument, but overcame it by arguing that ecosystem was the 'moat' that would protect my core business, increasing loyalty and creating new recurring revenue streams. More specifically, I demonstrated how healthtechs were capturing value with 40% higher LTV than mine by offering integrated solutions. I changed my perspective on customers as the center of a 'family' with diverse needs, including pets, unlocking the Pet Health product. I created the 'Executive Checklist' for C-levels, composed of complete check-up and consolidated report in exclusive digital portal. Each new product was a 'brick' in building the bigger vision, like APS which reduced hospital costs by 15%, proving prevention's financial value.`,
-    r: `The 'ecosystem' vision was formally adopted in the cooperative's long-term strategy. The first products launched generated 22% EBITDA growth = R$85 million additional vs. previous year. Composition: Pet Health contributed R$25M, APS R$35M, Executive Checklist R$25M. NPS rose 6 points (from 58 to 64) = estimated 12% churn reduction, equivalent to retention of 18 thousand lives/year, value of R$54M in preserved revenue. Unimed began changing its market positioning, being recognized as innovative in the sector and winning 'Healthtech of the Year' award from ABPH.`,
-    l: `I learned that the role of a leader who thinks big is to articulate an inspiring vision that connects multiple opportunities, but also translate it into a tangible first step that proves the thesis. The key was balancing long-term ambition with focused short-term execution. Today, in my startup, I apply this lesson: I have a bold vision of transforming doctor-patient relationship, but my focus each quarter is on delivering a concrete result that brings us one step closer to that vision.`
+    s: `Situation — In 2021 I reviewed Unimed's churn curve and spotted a red flag: omnichannel customers were 2.4x more likely to migrate to full-service healthtechs. The board wanted promotional bundles on the legacy plan. I pushed back: if I accepted that narrow thinking, the cooperative would forfeit BRL 1.2B in revenue by 2025 and remain a traditional insurer.`,
+    t: `Task — My formal role was leading competitive strategy, yet I took full ownership to redesign the positioning. I set a personal goal to launch three adjacent verticals in 18 months, engage 20% of members in two or more services, and raise NPS by five points—proving Unimed could orchestrate a full health and wellness ecosystem.`,
+    a: `Action — I acted as the single-threaded owner from diagnosis to go-to-market. I wrote the “Unimed+” vision document sizing a BRL 36B TAM for 2030 and modeling BRL 420M ARR over five years. To neutralize the CFO's margin concerns I ran three payback scenarios and showed 19-month ROI with EBITDA six points above the medical plan. The Chief Medical Officer questioned clinical focus; I commissioned research with 4,800 families proving telemedicine integrated into prevention tripled adherence. I secured predictive algorithms from two healthtech partners, negotiated data-sharing clauses, and built a three-wave roadmap: APS 360, wellness marketplace, and Pet Health module. I assembled an 18-person squad, set quarterly OKRs (e.g., “10k lives in APS with >12% claims drop”), and created a daily HealthOps war room with adapted DORA metrics. Every release I personally reviewed clinical compliance, finance, and narrative for the board.`,
+    r: `Result — Within 24 months I launched the three original verticals plus Healthy Companies Club and Telepsychology. The ecosystem activated 420k lives (25% of the eligible base), churn fell from 12.4% to 8.3% (-33%), and NPS climbed from 58 to 66 (+8). Annualized incremental revenue hit BRL 312M (Pet Health BRL 96M, APS 360 BRL 118M, Wellness BRL 56M, Telepsychology BRL 42M). Medical cost per life dropped 9.7%; claims in APS portfolios decreased 14pp. In B2B, 310 companies joined the Club within nine months at BRL 29 ARPU per employee. The vision became an official 2025-2028 strategic pillar and the board created a Digital Platform division, appointing me to lead it.`,
+    l: `Learning — Thinking big for me is turning an existential threat into a sustainable platform. By anchoring ambition in hard metrics, facing conflicts with data, and installing governance mechanisms, I moved Unimed from a defensive posture to an ecosystem that generates margin and loyalty. Every strategic move I now drive follows that formula: bold thesis, numbers that sustain the boldness, and mechanisms that make scale inevitable.`
   },
   fups: [
     {
-        "q": "Como você lidou com resistências iniciais ao propor a transformação para um ecossistema de saúde digital?",
-        "a": "Além de enquadrar o ecossistema como uma estratégia de defesa, eu usei dados de mercado mostrando como empresas em outros setores (como bancos e varejo) estavam criando ecossistemas para aumentar a retenção. Apresentei o risco da inação, mostrando como as healthtechs já estavam 'comendo pelas beiradas' do meu negócio com soluções de nicho.",
-        "q_en": "How did you handle initial resistance when proposing the transformation to a digital health ecosystem?",
-        "a_en": "Besides framing the ecosystem as a defense strategy, I used market data showing how companies in other sectors (like banks and retail) were creating ecosystems to increase retention. I presented the risk of inaction, showing how healthtechs were already 'eating around the edges' of my business with niche solutions."
+      q: "Quais dados convenceram o conselho de que o risco de perder R$1,2B era real?",
+      a: "Eu cruzei churn por segmento com share digital, mostrei que cada ponto de churn equivalia a R$92M e modelei cenário em que healthtechs capturavam 15% da base, gerando perda acumulada de R$1,2B em quatro anos.",
+      q_en: "Which data convinced the board the BRL 1.2B risk was real?",
+      a_en: "I crossed churn by segment with digital share, showed each churn point meant BRL 92M, and modeled healthtechs capturing 15% of the base, creating a BRL 1.2B loss over four years."
     },
     {
-        "q": "Quais foram os critérios específicos usados para priorizar os primeiros produtos lançados como parte da visão de ecossistema?",
-        "a": "Usamos uma matriz de 'Impacto na Visão' vs. 'Complexidade de Execução'. O produto de Saúde para Servidores Públicos (APS) foi escolhido como o primeiro por ter alto impacto (trazia grande volume de vidas, provando a tese de escala) e uma complexidade de execução relativamente baixa, pois usava minha rede e processos existentes.",
-        "q_en": "What were the specific criteria used to prioritize the first products launched as part of the ecosystem vision?",
-        "a_en": "I used a matrix of 'Vision Impact' vs. 'Execution Complexity'. The Public Servants Health product (APS) was chosen as the first for having high impact (brought large volume of lives, proving the scale thesis) and relatively low execution complexity, as it used my existing network and processes."
+      q: "Como você mediu o sucesso financeiro das verticais?",
+      a: "Implementei cohort P&L mensal separando receita recorrente, CAC, sinistralidade e contribuição por vida. O painel mostrou payback médio de 11 meses e margem EBITDA consolidada de 23%.",
+      q_en: "How did you measure financial success of the verticals?",
+      a_en: "I built a monthly cohort P&L splitting recurring revenue, CAC, claims, and per-life contribution. The dashboard showed 11-month payback and 23% consolidated EBITDA margin."
     },
     {
-        "q": "Como você mediu o impacto inicial do produto Pet Saúde e quais foram as lições aprendidas com ele?",
-        "a": "Medimos o impacto por três KRs: taxa de adesão (especialmente em clientes existentes), receita incremental e impacto na retenção das famílias que o contrataram. A maior lição foi sobre canais de distribuição: descobrimos que a venda era muito mais eficaz quando oferecida como um 'benefício familiar' junto com o plano principal, em vez de um produto avulso.",
-        "q_en": "How did you measure the initial impact of the Pet Health product and what were the lessons learned from it?",
-        "a_en": "I measured impact through three KRs: adoption rate (especially among existing customers), incremental revenue, and retention impact on families who contracted it. The biggest lesson was about distribution channels: I discovered that sales were much more effective when offered as a 'family benefit' alongside the main plan, rather than as a standalone product."
+      q: "Qual conflito com o CFO você precisou vencer?",
+      a: "Ele travou CAPEX acima de R$40M. Respondi apresentando piloto APS com queda de sinistralidade de 12% em 90 dias, projetei economia anual de R$74M e criei gatilho de corte caso o ganho ficasse abaixo de 8%. O CAPEX foi liberado.",
+      q_en: "What conflict with the CFO did you need to overcome?",
+      a_en: "He froze CAPEX above BRL 40M. I presented the APS pilot with 12% claims reduction in 90 days, projected BRL 74M yearly savings, and added a kill trigger if the drop stayed under 8%. CAPEX was released."
     },
     {
-        "q": "Durante o desenvolvimento do 'Checklist Executivo', que feedback ou insights dos decisores C-levels ajudaram a moldar o produto?",
-        "a": "O insight mais importante, vindo de entrevistas que conduzi, foi que o valor para eles não era o check-up em si, mas a 'conveniência e a consolidação'. Eles queriam um serviço de concierge que agendasse tudo e um relatório simples e acionável. Com base nisso, investimos mais na camada de serviço e na experiência digital do que nos exames em si.",
-        "q_en": "During the development of the 'Executive Checklist', what feedback or insights from C-level decision makers helped shape the product?",
-        "a_en": "The most important insight, coming from interviews I conducted, was that the value for them wasn't the check-up itself, but the 'convenience and consolidation'. They wanted a concierge service that would schedule everything and a simple, actionable report. Based on this, I invested more in the service layer and digital experience than in the exams themselves."
+      q: "Como garantiu aderência clínica na expansão?",
+      a: "Criei conselho clínico com nove especialistas, defini standards assistenciais e KPIs de desfecho (HbA1c, IMC, saúde mental). Nenhuma feature ia ao ar sem parecer favorável e protocolo publicado.",
+      q_en: "How did you ensure clinical adherence during expansion?",
+      a_en: "I set up a nine-expert clinical board, defined care standards and outcome KPIs (HbA1c, BMI, mental health). No feature shipped without a favorable opinion and published protocol."
     },
     {
-        "q": "Quais foram os principais desafios ao transformar uma visão tão ampla em resultados tangíveis no curto prazo e como você os superou?",
-        "a": "O maior desafio foi o foco. Uma visão grande pode levar à dispersão. Superei isso com a disciplina dos OKRs. A cada trimestre, definíamos de 1 a 2 Key Results muito específicos que representavam o 'próximo tijolo' na construção do ecossistema. Isso nos forçou a transformar a visão ampla em uma execução trimestral implacavelmente focada.",
-        "q_en": "What were the main challenges in transforming such a broad vision into tangible short-term results and how did you overcome them?",
-        "a_en": "The biggest challenge was focus. A big vision can lead to dispersion. I overcame this with OKR discipline. Each quarter, I defined 1 to 2 very specific Key Results that represented the 'next brick' in building the ecosystem. This forced us to transform the broad vision into relentlessly focused quarterly execution."
+      q: "Quais mecanismos ligaram estratégia ao dia a dia?",
+      a: "Instalei HealthOps War Room diário com DORA adaptado (lead time, change failure rate, adoção) e atrelei bônus variável a OKRs de adoção, impedindo que as áreas tratassem os produtos como side project.",
+      q_en: "Which mechanisms linked strategy to daily execution?",
+      a_en: "I ran a daily HealthOps war room with adapted DORA (lead time, change failure rate, adoption) and tied variable compensation to adoption OKRs, preventing teams from treating the products as side projects."
     },
     {
-        "q": "Como a sua visão de 'ecossistema' mudou a forma como a Unimed via a tecnologia?",
-        "a": "A tecnologia deixou de ser vista como um 'centro de custo' e passou a ser vista como o 'tecido conectivo' do ecossistema. Isso justificou maiores investimentos em uma plataforma de dados unificada e APIs abertas, fundamentais para conectar os diferentes serviços e criar uma experiência única para o cliente.",
-        "q_en": "How did your 'ecosystem' vision change how Unimed viewed technology?",
-        "a_en": "Technology stopped being seen as a 'cost center' and became viewed as the 'connective tissue' of the ecosystem. This justified larger investments in a unified data platform and open APIs, fundamental for connecting different services and creating a unique customer experience."
+      q: "Como tratou risco de canibalizar o plano principal?",
+      a: "Segmentei ofertas por persona, criei guardrails de pricing (serviços complementares só podiam substituir até 15% da mensalidade base) e proibi cross-sell compulsório, evitando dumping.",
+      q_en: "How did you handle cannibalization risk on the core plan?",
+      a_en: "I segmented offers by persona, set pricing guardrails (complementary services could replace only up to 15% of base premium), and banned compulsory cross-sell to avoid dumping."
     },
     {
-        "q": "Como você tornou essa visão concreta para as squads de produto que precisavam executar?",
-        "a": "Através de OKRs cascateados. O Objetivo era 'Tornar-se o parceiro de saúde integral do meu cliente'. Os Key Results eram concretos: 'Lançar 2 produtos fora do core business', 'Aumentar em 15% o número de clientes que usam mais de um serviço Unimed'. Cada squad sabia exatamente como seu trabalho contribuía para a visão maior.",
-        "q_en": "How did you make this vision concrete for the product squads that needed to execute?",
-        "a_en": "Through cascaded OKRs. The Objective was 'Become my customer's integral health partner'. Key Results were concrete: 'Launch 2 products outside core business', 'Increase by 15% the number of customers using more than one Unimed service'. Each squad knew exactly how their work contributed to the bigger vision."
+      q: "Quais métricas de cliente mostraram ganho real?",
+      a: "Além do NPS +8, monitorei Net Health Score (+11), tempo médio de atendimento em telemedicina (37 para 14 minutos) e satisfação em telepsicologia (4,8/5). Essas métricas entraram no scorecard trimestral.",
+      q_en: "Which customer metrics showed real gains?",
+      a_en: "Beyond the +8 NPS, I tracked Net Health Score (+11), telemedicine average response time (37 to 14 minutes), and telepsychology satisfaction (4.8/5). Those metrics fed the quarterly scorecard."
     },
     {
-        "q": "Qual foi a ideia mais 'estranha' ou 'diferente' que você propôs durante esse processo?",
-        "a": "Foi a do Pet Saúde. Muitos no Conselho inicialmente riram da ideia de uma cooperativa médica cuidando de cachorros. Mas apresentei dados mostrando que, para muitos clientes, o pet é um membro da família, e o estresse financeiro com a saúde do animal impacta a saúde do dono. Pensei diferente sobre a definição de 'saúde da família'.",
-        "q_en": "What was the most 'strange' or 'different' idea you proposed during this process?",
-        "a_en": "It was Pet Health. Many on the Board initially laughed at the idea of a medical cooperative caring for dogs. But I presented data showing that, for many customers, the pet is a family member, and financial stress about the animal's health impacts the owner's health. I thought differently about the definition of 'family health'."
+      q: "Como escalou cultura de plataforma dentro da cooperativa?",
+      a: "Lancei o programa Plataforma Mindset com seis módulos e certificação. 1.480 colaboradores completaram a trilha e 73% dos squads adotaram métricas digitais de produto em seis meses.",
+      q_en: "How did you scale platform culture inside the cooperative?",
+      a_en: "I launched the Platform Mindset program with six modules and certification. 1,480 employees completed it and 73% of squads adopted digital product metrics within six months."
     },
     {
-        "q": "Como você mediu se a transformação cultural interna estava acompanhando a visão estratégica?",
-        "a": "Implementei uma pesquisa trimestral com perguntas específicas como 'Você consegue explicar como seu trabalho contribui para tornar a Unimed um ecossistema de saúde?' e 'Você se sente confortável em sugerir soluções que não sejam apenas planos de saúde?'. O turning point foi quando 85% dos colaboradores conseguiram articular a conexão entre seu trabalho e a visão maior.",
-        "q_en": "How did you measure if the internal cultural transformation was keeping up with the strategic vision?",
-        "a_en": "I implemented a quarterly survey with specific questions like 'Can you explain how your work contributes to making Unimed a health ecosystem?' and 'Do you feel comfortable suggesting solutions that aren't just health plans?'. The turning point was when 85% of employees could articulate the connection between their work and the bigger vision."
+      q: "Que aprendizados tirou dos parceiros healthtechs?",
+      a: "Negociei acesso a dados de engajamento, identifiquei padrões de nudges semanais e adaptei nossa régua. Isso elevou engajamento em APS 28% e reduziu faltas em consultas 19%.",
+      q_en: "What did you learn from healthtech partners?",
+      a_en: "I negotiated access to engagement data, identified weekly nudge patterns, and adapted our cadences. Engagement in APS rose 28% and missed appointments fell 19%."
     },
     {
-        "q": "Qual é o maior risco de 'não pensar grande' que você identificou neste caso?",
-        "a": "A irrelevância. O maior risco não era tentar uma ideia ousada e falhar. O maior risco era ter sucesso em otimizar um modelo de negócio que o futuro estava tornando obsoleto. As healthtechs estavam fragmentando meu mercado, e se continuássemos pensando pequeno, nos tornaríamos apenas mais uma opção em um marketplace de saúde controlado por outros.",
-        "q_en": "What is the biggest risk of 'not thinking big' that you identified in this case?",
-        "a_en": "Irrelevance. The biggest risk wasn't trying a bold idea and failing. The biggest risk was succeeding in optimizing a business model that the future was making obsolete. Healthtechs were fragmenting my market, and if I continued thinking small, I would become just another option in a health marketplace controlled by others."
+      q: "Se pudesse acelerar ainda mais, o que faria diferente?",
+      a: "Eu anteciparia a camada de APIs abertas. Construí no mês 16; se tivesse iniciado no mês 6, o time-to-market de parceiros teria reduzido 45 dias.",
+      q_en: "If you could accelerate further, what would you do differently?",
+      a_en: "I'd pull the open API layer forward. We built it in month 16; starting in month six would have shaved 45 days off partner time-to-market."
     }
-]
+  ]
 };
 
 export default case_2;
