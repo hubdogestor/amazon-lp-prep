@@ -62,13 +62,22 @@ export const questionsToCasesMapping = {
       "case_id": "hsbc-migration-leadership",
       "score": 45
     },
-    "2": null,
+    "2": {
+      "case_id": "long-term-tradeoff",
+      "score": 85
+    },
     "3": {
       "case_id": "hsbc-migration-leadership",
       "score": 45
     },
-    "4": null,
-    "5": null,
+    "4": {
+      "case_id": "long-term-tradeoff",
+      "score": 90
+    },
+    "5": {
+      "case_id": "sefaz-emergency-rollback-no-approval",
+      "score": 95
+    },
     "6": {
       "case_id": "payment-incidents-prevention-mechanism",
       "score": 50
