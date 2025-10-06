@@ -173,6 +173,10 @@ export default function App() {
   const [caseFupSearchTerms, setCaseFupSearchTerms] = useState({});
   const [caseFupSearchOpen, setCaseFupSearchOpen] = useState({}); // controla visibilidade da busca
 
+  // Local STAR search per case (formato: { "caseId": "searchTerm" })
+  const [caseStarSearchTerms, setCaseStarSearchTerms] = useState({});
+  const [caseStarSearchOpen, setCaseStarSearchOpen] = useState({}); // controla visibilidade da busca
+
   const t = TEXTS[language];
   const rawPrinciplesData = usePrinciplesData();
   const principlesData = useMemo(() => {
@@ -336,6 +340,46 @@ export default function App() {
       );
     });
   }, [caseFupSearchTerms]);
+
+  // Toggle busca local no STAR Case para um case específico
+  const toggleCaseStarSearch = useCallback((caseId) => {
+    setCaseStarSearchOpen(prev => ({
+      ...prev,
+      [caseId]: !prev[caseId]
+    }));
+    // Limpa o termo de busca ao fechar
+    if (caseStarSearchOpen[caseId]) {
+      setCaseStarSearchTerms(prev => {
+        const newTerms = { ...prev };
+        delete newTerms[caseId];
+        return newTerms;
+      });
+    }
+  }, [caseStarSearchOpen]);
+
+  // Atualiza termo de busca STAR para um case específico
+  const updateCaseStarSearchTerm = useCallback((caseId, term) => {
+    setCaseStarSearchTerms(prev => ({
+      ...prev,
+      [caseId]: term
+    }));
+  }, []);
+
+  // Verifica se termo de busca STAR existe em alguma seção do STAR(L)
+  const starSectionMatchesTerm = useCallback((caseObj, lang, term) => {
+    if (!term || !caseObj || !caseObj[lang]) return true;
+    
+    const termLower = term.toLowerCase().trim();
+    const starData = caseObj[lang];
+    
+    return (
+      starData.s?.toLowerCase().includes(termLower) ||
+      starData.t?.toLowerCase().includes(termLower) ||
+      starData.a?.toLowerCase().includes(termLower) ||
+      starData.r?.toLowerCase().includes(termLower) ||
+      starData.l?.toLowerCase().includes(termLower)
+    );
+  }, []);
 
   // FUP search results - memoized (multi-word support)
   const fupSearchResults = useMemo(() => {
@@ -1055,41 +1099,88 @@ export default function App() {
                           className="px-6 pb-6 pt-2 grid grid-cols-1 lg:grid-cols-2 gap-8 text-slate-700 bg-white/40 backdrop-blur-sm"
                         >
                           <div className="space-y-3">
-                            <h4 className="text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 mb-3">📋 STAR Case</h4>
+                            {/* Header com botão para abrir busca local no STAR */}
+                            <div className="flex flex-col gap-2">
+                              <button
+                                onClick={() => toggleCaseStarSearch(c.id || slugify(c.title))}
+                                className="text-left flex items-center justify-between text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 hover:text-blue-600 transition-colors group"
+                              >
+                                <span className="flex items-center gap-2">
+                                  📋 STAR Case
+                                  <span className="text-xs text-slate-500 group-hover:text-blue-500">
+                                    {caseStarSearchOpen[c.id || slugify(c.title)] ? '🔍 (busca ativa)' : '(clique para buscar)'}
+                                  </span>
+                                </span>
+                                <span className="text-slate-400 text-sm">
+                                  {caseStarSearchOpen[c.id || slugify(c.title)] ? '✕' : '🔎'}
+                                </span>
+                              </button>
+
+                              {/* Caixa de busca local - aparece ao clicar */}
+                              {caseStarSearchOpen[c.id || slugify(c.title)] && (
+                                <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 animate-fadeIn">
+                                  <input
+                                    type="text"
+                                    placeholder="Buscar em S.T.A.R.L deste case..."
+                                    value={caseStarSearchTerms[c.id || slugify(c.title)] || ''}
+                                    onChange={(e) => updateCaseStarSearchTerm(c.id || slugify(c.title), e.target.value)}
+                                    className="w-full px-3 py-2 border border-blue-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                                    autoFocus
+                                  />
+                                  {caseStarSearchTerms[c.id || slugify(c.title)] && (
+                                    <div className="mt-2">
+                                      <p className="text-xs text-slate-600">
+                                        🔎 Buscando por: <strong>{caseStarSearchTerms[c.id || slugify(c.title)]}</strong>
+                                      </p>
+                                      {starSectionMatchesTerm(c, language, caseStarSearchTerms[c.id || slugify(c.title)]) ? (
+                                        <p className="text-xs text-green-600 font-medium mt-1 bg-green-50 px-2 py-1 rounded">
+                                          ✓ Termo encontrado no STAR(L)
+                                        </p>
+                                      ) : (
+                                        <p className="text-xs text-yellow-600 font-medium mt-1 bg-yellow-50 px-2 py-1 rounded">
+                                          ⚠️ Termo não encontrado
+                                        </p>
+                                      )}
+                                    </div>
+                                  )}
+                                </div>
+                              )}
+                            </div>
+
                             <div className="space-y-3 leading-relaxed text-base">
                               <p>
                                 <strong>{t.situation}:</strong>{" "}
                                 <HighlightableText
                                   text={(c && c[language] && c[language].s) || ""}
-                                  searchTerm={highlightCaseTerm}
+                                  searchTerm={caseStarSearchTerms[c.id || slugify(c.title)] || highlightCaseTerm}
                                 />
                               </p>
                               <p>
                                 <strong>{t.task}:</strong>{" "}
                                 <HighlightableText
                                   text={(c && c[language] && c[language].t) || ""}
-                                  searchTerm={highlightCaseTerm}
+                                  searchTerm={caseStarSearchTerms[c.id || slugify(c.title)] || highlightCaseTerm}
                                 />
                               </p>
                               <p>
                                 <strong>{t.action}:</strong>{" "}
                                 <HighlightableText
                                   text={(c && c[language] && c[language].a) || ""}
-                                  searchTerm={highlightCaseTerm}
+                                  searchTerm={caseStarSearchTerms[c.id || slugify(c.title)] || highlightCaseTerm}
                                 />
                               </p>
                               <p>
                                 <strong>{t.result}:</strong>{" "}
                                 <HighlightableText
                                   text={(c && c[language] && c[language].r) || ""}
-                                  searchTerm={highlightCaseTerm}
+                                  searchTerm={caseStarSearchTerms[c.id || slugify(c.title)] || highlightCaseTerm}
                                 />
                               </p>
                               <p>
                                 <strong>{t.learning}:</strong>{" "}
                                 <HighlightableText
                                   text={(c && c[language] && c[language].l) || ""}
-                                  searchTerm={highlightCaseTerm}
+                                  searchTerm={caseStarSearchTerms[c.id || slugify(c.title)] || highlightCaseTerm}
                                 />
                               </p>
                             </div>
