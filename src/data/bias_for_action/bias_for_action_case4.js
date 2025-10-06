@@ -1,11 +1,11 @@
 ﻿// Case 4 - bias_for_action
 const case_4 = {
   id: "calculated-risk-time-critical",
-  title: "Restaurei Telemedicina Unimed em 72h com Cutover por Zona",
-  title_pt: "Restaurei Telemedicina Unimed em 72h com Cutover por Zona",
-  title_en: "Restored Unimed Telemedicine in 72h with Zoned Cutover",
+  title: "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",
+  title_pt: "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",
+  title_en: "Calculated Risk Under Time Pressure: Restored Telemedicine in 72h with Zoned Mitigation and Selective Rollback",
   company: "Unimed Porto Alegre",
-  period: "03/2023--05/2023",
+  period: "03/2023-05/2023",
   isTopCase: false,
   pt: {
     s: `Em 3 de marco de 2023 sofremos ataque ransomware que derrubou a plataforma de telemedicina e deixou 38 mil consultas em risco. O time de infraestrutura queria reinstalar todo o ambiente em duas semanas. Cada dia offline custava R$1,2 mi em glosas e pacientes onco e cardio ficariam sem atendimento. Eu precisei decidir em horas.` ,

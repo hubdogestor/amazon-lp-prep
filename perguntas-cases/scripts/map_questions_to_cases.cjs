@@ -41,8 +41,8 @@ const LP_FOLDER_MAP = {
   'dive_deep': 'dive_deep',
   'disagree_and_commit': 'disagree_and_commit',
   'deliver_results': 'deliver_results',
-  'best_employer': 'strive_to_be_earths_best_employer',
-  'broad_responsibility': 'success_and_scale_bring_broad_responsibility'
+  'best_employer': 'best_employer',
+  'broad_responsibility': 'broad_responsibility'
 };
 
 // ============================================================================

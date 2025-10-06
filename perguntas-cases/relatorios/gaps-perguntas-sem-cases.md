@@ -1,6 +1,6 @@
 # Gaps: Perguntas Sem Cases Adequados
 
-**Total de gaps**: 80 perguntas (46.8%)
+**Total de gaps**: 71 perguntas (41.5%)
 
 ---
 
@@ -36,85 +36,49 @@
 
 ## BEST EMPLOYER
 
-**10 gaps**
-
-### 🔴 Conte sobre como você cria um ambiente de trabalho melhor
-
-- **EN**: Tell me about how you create a better work environment
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
-
-### 🟡 Me fale sobre quando você priorizou o bem-estar da equipe
-
-- **EN**: Tell me about when you prioritized team well-being
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+**6 gaps**
 
 ### 🟡 Como você promove diversidade e inclusão?
 
 - **EN**: How do you promote diversity and inclusion?
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
-
-### 🟡 Descreva uma situação onde você defendeu sua equipe
-
-- **EN**: Describe a situation where you advocated for your team
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Escalei a guilda de produto e promovi 18 lideres em seis meses" (score 40/100). Case do LP correto (best_employer)
 
 ### 🟡 Me dê um exemplo de quando você investiu no crescimento de alguém
 
 - **EN**: Give me an example of when you invested in someone's growth
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Escalei a guilda de produto e promovi 18 lideres em seis meses" (score 40/100). Case do LP correto (best_employer)
 
 ### 🟡 Conte sobre uma vez que você fez seu ambiente de trabalho mais seguro, inclusivo ou divertido
 
 - **EN**: Tell me about a time you made your work environment safer, more inclusive or more fun
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
-
-### 🟡 Me fale sobre quando você teve que equilibrar produtividade com bem-estar da equipe
-
-- **EN**: Tell me about when you had to balance productivity with team well-being
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Escalei a guilda de produto e promovi 18 lideres em seis meses" (score 40/100). Case do LP correto (best_employer)
 
 ### 🟡 Descreva uma situação onde você criou oportunidade de crescimento para alguém
 
 - **EN**: Describe a situation where you created growth opportunity for someone
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Escalei a guilda de produto e promovi 18 lideres em seis meses" (score 40/100). Case do LP correto (best_employer)
 
 ### 🟡 Como você garante que diferentes perspectivas e backgrounds são valorizados?
 
 - **EN**: How do you ensure different perspectives and backgrounds are valued?
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Escalei a guilda de produto e promovi 18 lideres em seis meses" (score 40/100). Case do LP correto (best_employer)
 
 ### 🟡 Conte sobre quando você teve que tomar uma decisão pensando no que é melhor para as pessoas, não só nos resultados
 
 - **EN**: Tell me about when you had to make decision thinking about what's best for people, not just results
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Escalei a guilda de produto e promovi 18 lideres em seis meses" (score 40/100). Case do LP correto (best_employer)
 
 ---
 
 ## BIAS FOR ACTION
 
-**8 gaps**
-
-### 🔴 Nos dê um exemplo de risco calculado que você tomou quando o tempo era crítico, e como você mitigou esse risco?
-
-- **EN**: Give us an example of a calculated risk you took when time was critical, and how you mitigated that risk?
-- **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Decisao Rapida para Lancar o Banco Digital Next em 11 Meses" (score 40/100). Case do LP correto (bias_for_action)
-
-### 🟡 Me fale sobre uma decisão que você tomou com informação limitada
-
-- **EN**: Tell me about a decision you made with limited information
-- **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Decisao Rapida para Lancar o Banco Digital Next em 11 Meses" (score 40/100). Case do LP correto (bias_for_action)
+**6 gaps**
 
 ### 🟡 Como você decide quando é hora de agir vs. analisar mais?
 
@@ -156,67 +120,49 @@
 
 ## BROAD RESPONSIBILITY
 
-**10 gaps**
-
-### 🔴 Me fale sobre como você considera impacto mais amplo das suas decisões
-
-- **EN**: Tell me about how you consider broader impact of your decisions
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+**7 gaps**
 
 ### 🟡 Conte sobre uma vez que você agiu pensando na comunidade
 
 - **EN**: Tell me about a time you acted thinking about community
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
-
-### 🟡 Como você equilibra resultados com responsabilidade social?
-
-- **EN**: How do you balance results with social responsibility?
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
 
 ### 🟡 Descreva uma situação onde você tomou a decisão certa, não a fácil
 
 - **EN**: Describe a situation where you made the right decision, not the easy one
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
 
 ### 🟡 Me dê um exemplo de quando você considerou stakeholders além dos óbvios
 
 - **EN**: Give me an example of when you considered stakeholders beyond the obvious
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
 
 ### 🟡 Conte sobre quando você deixou algo melhor do que encontrou
 
 - **EN**: Tell me about when you left something better than you found it
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
 
 ### 🟡 Me fale sobre uma decisão moral ou ética que você enfrentou no trabalho - como lidou?
 
 - **EN**: Tell me about a moral or ethical decision you faced at work - how did you handle it?
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
 
 ### 🟡 Descreva uma vez que você considerou impactos de segunda ordem das suas ações
 
 - **EN**: Describe a time you considered second-order impacts of your actions
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
-
-### 🟡 Como você pensa sobre comunidades locais, planeta e futuras gerações nas suas decisões?
-
-- **EN**: How do you think about local communities, planet and future generations in your decisions?
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
 
 ### 🟡 Conte sobre quando você escolheu fazer o certo mesmo custando resultados de curto prazo
 
 - **EN**: Tell me about when you chose to do the right thing even costing short-term results
-- **Score**: 0/100
-- **Reasoning**: Nenhum case disponível para este LP
+- **Score**: 40/100
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
 
 ---
 

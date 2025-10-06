@@ -961,22 +961,22 @@
     "priority": "ALTA",
     "question_pt": "Nos dê um exemplo de risco calculado que você tomou quando o tempo era crítico, e como você mitigou esse risco?",
     "question_en": "Give us an example of a calculated risk you took when time was critical, and how you mitigated that risk?",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Decisao Rapida para Lancar o Banco Digital Next em 11 Meses\" (score 40/100). Case do LP correto (bias_for_action)"
+    "has_case": "sim",
+    "case_id": "calculated-risk-time-critical",
+    "case_title": "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",
+    "score": 75,
+    "reasoning": "Case do LP correto (bias_for_action); 1 keyword presente; Contexto de decisão sob risco/incerteza; Título muito alinhado com pergunta"
   },
   {
     "lp": "bias_for_action",
     "priority": "NORMAL",
     "question_pt": "Me fale sobre uma decisão que você tomou com informação limitada",
     "question_en": "Tell me about a decision you made with limited information",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Decisao Rapida para Lancar o Banco Digital Next em 11 Meses\" (score 40/100). Case do LP correto (bias_for_action)"
+    "has_case": "sim",
+    "case_id": "calculated-risk-time-critical",
+    "case_title": "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",
+    "score": 55,
+    "reasoning": "Case do LP correto (bias_for_action); Contexto de decisão sob risco/incerteza"
   },
   {
     "lp": "bias_for_action",
@@ -1665,22 +1665,22 @@
     "priority": "ALTA",
     "question_pt": "Conte sobre como você cria um ambiente de trabalho melhor",
     "question_en": "Tell me about how you create a better work environment",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "has_case": "sim",
+    "case_id": "sefaz-reverse-mentoring-program",
+    "case_title": "Criando Ambiente de Trabalho Melhor: Reverse Mentoring que Elevou eNPS para 82 e Uniu Gerações",
+    "score": 60,
+    "reasoning": "Case do LP correto (best_employer); 1 keyword presente; Título muito alinhado com pergunta"
   },
   {
     "lp": "best_employer",
     "priority": "NORMAL",
     "question_pt": "Me fale sobre quando você priorizou o bem-estar da equipe",
     "question_en": "Tell me about when you prioritized team well-being",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "has_case": "sim",
+    "case_id": "bradesco-agile-community-creation",
+    "case_title": "Escalei a guilda de produto e promovi 18 lideres em seis meses",
+    "score": 60,
+    "reasoning": "Case do LP correto (best_employer); Contexto de liderança/equipe alinhado"
   },
   {
     "lp": "best_employer",
@@ -1690,19 +1690,19 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Escalei a guilda de produto e promovi 18 lideres em seis meses\" (score 40/100). Case do LP correto (best_employer)"
   },
   {
     "lp": "best_employer",
     "priority": "NORMAL",
     "question_pt": "Descreva uma situação onde você defendeu sua equipe",
     "question_en": "Describe a situation where you advocated for your team",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "has_case": "sim",
+    "case_id": "bradesco-agile-community-creation",
+    "case_title": "Escalei a guilda de produto e promovi 18 lideres em seis meses",
+    "score": 60,
+    "reasoning": "Case do LP correto (best_employer); Contexto de liderança/equipe alinhado"
   },
   {
     "lp": "best_employer",
@@ -1712,8 +1712,8 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Escalei a guilda de produto e promovi 18 lideres em seis meses\" (score 40/100). Case do LP correto (best_employer)"
   },
   {
     "lp": "best_employer",
@@ -1723,19 +1723,19 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Escalei a guilda de produto e promovi 18 lideres em seis meses\" (score 40/100). Case do LP correto (best_employer)"
   },
   {
     "lp": "best_employer",
     "priority": "NORMAL",
     "question_pt": "Me fale sobre quando você teve que equilibrar produtividade com bem-estar da equipe",
     "question_en": "Tell me about when you had to balance productivity with team well-being",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "has_case": "sim",
+    "case_id": "bradesco-agile-community-creation",
+    "case_title": "Escalei a guilda de produto e promovi 18 lideres em seis meses",
+    "score": 60,
+    "reasoning": "Case do LP correto (best_employer); Contexto de liderança/equipe alinhado"
   },
   {
     "lp": "best_employer",
@@ -1745,8 +1745,8 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Escalei a guilda de produto e promovi 18 lideres em seis meses\" (score 40/100). Case do LP correto (best_employer)"
   },
   {
     "lp": "best_employer",
@@ -1756,8 +1756,8 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Escalei a guilda de produto e promovi 18 lideres em seis meses\" (score 40/100). Case do LP correto (best_employer)"
   },
   {
     "lp": "best_employer",
@@ -1767,19 +1767,19 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Escalei a guilda de produto e promovi 18 lideres em seis meses\" (score 40/100). Case do LP correto (best_employer)"
   },
   {
     "lp": "broad_responsibility",
     "priority": "ALTA",
     "question_pt": "Me fale sobre como você considera impacto mais amplo das suas decisões",
     "question_en": "Tell me about how you consider broader impact of your decisions",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "has_case": "sim",
+    "case_id": "unimed-lgpd-compliance",
+    "case_title": "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes",
+    "score": 50,
+    "reasoning": "Case do LP correto (broad_responsibility); 1 keyword presente"
   },
   {
     "lp": "broad_responsibility",
@@ -1789,19 +1789,19 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
   },
   {
     "lp": "broad_responsibility",
     "priority": "NORMAL",
     "question_pt": "Como você equilibra resultados com responsabilidade social?",
     "question_en": "How do you balance results with social responsibility?",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "has_case": "sim",
+    "case_id": "sicredi-responsible-ai-policy",
+    "case_title": "Impacto Amplo das Decisões: Política de IA Responsável com Responsabilidade Social, Equidade e Transparência",
+    "score": 60,
+    "reasoning": "Case do LP correto (broad_responsibility); 1 keyword presente; Título muito alinhado com pergunta"
   },
   {
     "lp": "broad_responsibility",
@@ -1811,8 +1811,8 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
   },
   {
     "lp": "broad_responsibility",
@@ -1822,8 +1822,8 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
   },
   {
     "lp": "broad_responsibility",
@@ -1833,8 +1833,8 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
   },
   {
     "lp": "broad_responsibility",
@@ -1844,8 +1844,8 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
   },
   {
     "lp": "broad_responsibility",
@@ -1855,19 +1855,19 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
   },
   {
     "lp": "broad_responsibility",
     "priority": "NORMAL",
     "question_pt": "Como você pensa sobre comunidades locais, planeta e futuras gerações nas suas decisões?",
     "question_en": "How do you think about local communities, planet and future generations in your decisions?",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "has_case": "sim",
+    "case_id": "unimed-lgpd-compliance",
+    "case_title": "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes",
+    "score": 50,
+    "reasoning": "Case do LP correto (broad_responsibility); 1 keyword presente"
   },
   {
     "lp": "broad_responsibility",
@@ -1877,7 +1877,7 @@
     "has_case": "não",
     "case_id": "",
     "case_title": "",
-    "score": 0,
-    "reasoning": "Nenhum case disponível para este LP"
+    "score": 40,
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
   }
 ]
