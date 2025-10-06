@@ -356,11 +356,11 @@
     "priority": "ALTA",
     "question_pt": "Conte sobre uma situação onde você tomou uma decisão difícil com input de diferentes stakeholders",
     "question_en": "Tell me about a situation where you made a difficult decision with input from different stakeholders",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders\" (score 40/100). Case do LP correto (are_right_a_lot)"
+    "has_case": "sim",
+    "case_id": "sicredi-mobile-first-strategy",
+    "case_title": "Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime",
+    "score": 50,
+    "reasoning": "Case do LP correto (are_right_a_lot); 1 keyword presente"
   },
   {
     "lp": "are_right_a_lot",
@@ -368,8 +368,8 @@
     "question_pt": "Me fale sobre quando você mudou de opinião baseado em novos dados",
     "question_en": "Tell me about when you changed your mind based on new data",
     "has_case": "sim",
-    "case_id": "sicredi-mobile-first-strategy",
-    "case_title": "Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders",
+    "case_id": "sicredi-api-pricing-model",
+    "case_title": "Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias",
     "score": 80,
     "reasoning": "Case do LP correto (are_right_a_lot); 1 keyword presente; Contexto de análise de dados alinhado; Conceito alinhado (+5)"
   },
@@ -382,7 +382,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders\" (score 40/100). Case do LP correto (are_right_a_lot)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime\" (score 40/100). Case do LP correto (are_right_a_lot)"
   },
   {
     "lp": "are_right_a_lot",
@@ -400,11 +400,11 @@
     "priority": "NORMAL",
     "question_pt": "Me dê um exemplo de quando você desafiou uma decisão que achava errada",
     "question_en": "Give me an example of when you challenged a decision you thought was wrong",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders\" (score 40/100). Case do LP correto (are_right_a_lot)"
+    "has_case": "sim",
+    "case_id": "sicredi-mobile-first-strategy",
+    "case_title": "Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime",
+    "score": 50,
+    "reasoning": "Case do LP correto (are_right_a_lot); 1 keyword presente"
   },
   {
     "lp": "are_right_a_lot",
@@ -415,7 +415,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders\" (score 40/100). Case do LP correto (are_right_a_lot)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime\" (score 40/100). Case do LP correto (are_right_a_lot)"
   },
   {
     "lp": "are_right_a_lot",
@@ -426,7 +426,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders\" (score 40/100). Case do LP correto (are_right_a_lot)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime\" (score 40/100). Case do LP correto (are_right_a_lot)"
   },
   {
     "lp": "are_right_a_lot",
@@ -448,18 +448,18 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders\" (score 40/100). Case do LP correto (are_right_a_lot)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime\" (score 40/100). Case do LP correto (are_right_a_lot)"
   },
   {
     "lp": "are_right_a_lot",
     "priority": "NORMAL",
     "question_pt": "Conte sobre quando você teve que tomar uma decisão rápida sob pressão - você estava certo?",
     "question_en": "Tell me about when you had to make a quick decision under pressure - were you right?",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders\" (score 40/100). Case do LP correto (are_right_a_lot)"
+    "has_case": "sim",
+    "case_id": "sicredi-mobile-first-strategy",
+    "case_title": "Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime",
+    "score": 50,
+    "reasoning": "Case do LP correto (are_right_a_lot); 1 keyword presente"
   },
   {
     "lp": "are_right_a_lot",

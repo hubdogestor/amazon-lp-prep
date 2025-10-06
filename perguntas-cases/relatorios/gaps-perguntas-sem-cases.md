@@ -1,54 +1,36 @@
 # Gaps: Perguntas Sem Cases Adequados
 
-**Total de gaps**: 83 perguntas (48.5%)
+**Total de gaps**: 80 perguntas (46.8%)
 
 ---
 
 ## ARE RIGHT A LOT
 
-**7 gaps**
-
-### 🔴 Conte sobre uma situação onde você tomou uma decisão difícil com input de diferentes stakeholders
-
-- **EN**: Tell me about a situation where you made a difficult decision with input from different stakeholders
-- **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders" (score 40/100). Case do LP correto (are_right_a_lot)
+**4 gaps**
 
 ### 🟡 Como você toma decisões com informação incompleta?
 
 - **EN**: How do you make decisions with incomplete information?
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders" (score 40/100). Case do LP correto (are_right_a_lot)
-
-### 🟡 Me dê um exemplo de quando você desafiou uma decisão que achava errada
-
-- **EN**: Give me an example of when you challenged a decision you thought was wrong
-- **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders" (score 40/100). Case do LP correto (are_right_a_lot)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime" (score 40/100). Case do LP correto (are_right_a_lot)
 
 ### 🟡 Conte sobre uma vez que você teve uma opinião impopular mas correta
 
 - **EN**: Tell me about a time you had an unpopular but correct opinion
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders" (score 40/100). Case do LP correto (are_right_a_lot)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime" (score 40/100). Case do LP correto (are_right_a_lot)
 
 ### 🟡 Me fale sobre quando você estava errado - como você lidou com isso?
 
 - **EN**: Tell me about when you were wrong - how did you handle it?
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders" (score 40/100). Case do LP correto (are_right_a_lot)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime" (score 40/100). Case do LP correto (are_right_a_lot)
 
 ### 🟡 Como você garante que está fazendo as perguntas certas antes de tomar decisões?
 
 - **EN**: How do you ensure you're asking the right questions before making decisions?
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders" (score 40/100). Case do LP correto (are_right_a_lot)
-
-### 🟡 Conte sobre quando você teve que tomar uma decisão rápida sob pressão - você estava certo?
-
-- **EN**: Tell me about when you had to make a quick decision under pressure - were you right?
-- **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders" (score 40/100). Case do LP correto (are_right_a_lot)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime" (score 40/100). Case do LP correto (are_right_a_lot)
 
 ---
 
