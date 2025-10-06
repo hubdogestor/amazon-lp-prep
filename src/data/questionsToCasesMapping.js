@@ -128,7 +128,10 @@ export const questionsToCasesMapping = {
       "case_id": "sicredi-api-pricing-model",
       "score": 80
     },
-    "2": null,
+    "2": {
+      "case_id": "huawei-4g-rollout-analysis",
+      "score": 85
+    },
     "3": {
       "case_id": "sicredi-api-pricing-model",
       "score": 50
@@ -137,13 +140,22 @@ export const questionsToCasesMapping = {
       "case_id": "sicredi-mobile-first-strategy",
       "score": 50
     },
-    "5": null,
-    "6": null,
+    "5": {
+      "case_id": "sicredi-api-pricing-model",
+      "score": 90
+    },
+    "6": {
+      "case_id": "sicredi-wrong-fraud-model-pivot",
+      "score": 95
+    },
     "7": {
       "case_id": "sicredi-api-pricing-model",
       "score": 50
     },
-    "8": null,
+    "8": {
+      "case_id": "sicredi-mobile-first-strategy",
+      "score": 80
+    },
     "9": {
       "case_id": "sicredi-mobile-first-strategy",
       "score": 50
@@ -158,7 +170,10 @@ export const questionsToCasesMapping = {
       "case_id": "stay-updated-payments-fintech",
       "score": 55
     },
-    "1": null,
+    "1": {
+      "case_id": "stay-updated-payments-fintech",
+      "score": 75
+    },
     "2": {
       "case_id": "unimed-harvard-healthcare-innovation",
       "score": 50
@@ -172,7 +187,10 @@ export const questionsToCasesMapping = {
       "score": 50
     },
     "5": null,
-    "6": null,
+    "6": {
+      "case_id": "stay-updated-payments-fintech",
+      "score": 75
+    },
     "7": {
       "case_id": "stay-updated-payments-fintech",
       "score": 45
@@ -232,8 +250,14 @@ export const questionsToCasesMapping = {
       "case_id": "unimed-ecosystem-transformation",
       "score": 50
     },
-    "1": null,
-    "2": null,
+    "1": {
+      "case_id": "unimed-ecosystem-transformation",
+      "score": 85
+    },
+    "2": {
+      "case_id": "bradesco-paas-latam",
+      "score": 90
+    },
     "3": {
       "case_id": "unimed-ecosystem-transformation",
       "score": 50
@@ -246,7 +270,10 @@ export const questionsToCasesMapping = {
       "case_id": "unimed-ecosystem-transformation",
       "score": 50
     },
-    "6": null,
+    "6": {
+      "case_id": "bradesco-paas-latam",
+      "score": 85
+    },
     "7": null,
     "8": {
       "case_id": "unimed-ecosystem-transformation",
@@ -275,16 +302,34 @@ export const questionsToCasesMapping = {
       "case_id": "bradesco-next-rapid-launch",
       "score": 50
     },
-    "3": null,
-    "4": null,
-    "5": null,
+    "3": {
+      "case_id": "bradesco-next-rapid-launch",
+      "score": 85
+    },
+    "4": {
+      "case_id": "sefaz-emergency-tax-portal",
+      "score": 90
+    },
+    "5": {
+      "case_id": "sicredi-ml-credit-analysis",
+      "score": 80
+    },
     "6": {
       "case_id": "bradesco-next-rapid-launch",
       "score": 50
     },
-    "7": null,
-    "8": null,
-    "9": null
+    "7": {
+      "case_id": "bradesco-next-rapid-launch",
+      "score": 85
+    },
+    "8": {
+      "case_id": "calculated-risk-time-critical",
+      "score": 80
+    },
+    "9": {
+      "case_id": "sicredi-fraud-emergency-4h-decision",
+      "score": 90
+    }
   },
   "frugality": {
     "0": {
@@ -295,17 +340,26 @@ export const questionsToCasesMapping = {
       "case_id": "huawei-resource-optimization",
       "score": 60
     },
-    "2": null,
+    "2": {
+      "case_id": "huawei-resource-optimization",
+      "score": 75
+    },
     "3": {
       "case_id": "sefaz-zero-budget-pmo",
       "score": 50
     },
-    "4": null,
+    "4": {
+      "case_id": "sefaz-zero-budget-pmo",
+      "score": 80
+    },
     "5": {
       "case_id": "huawei-resource-optimization",
       "score": 60
     },
-    "6": null,
+    "6": {
+      "case_id": "sefaz-zero-budget-pmo",
+      "score": 75
+    },
     "7": null,
     "8": {
       "case_id": "sefaz-zero-budget-pmo",
@@ -442,14 +496,26 @@ export const questionsToCasesMapping = {
       "case_id": "huawei-world-cup-4g",
       "score": 85
     },
-    "1": null,
-    "2": null,
+    "1": {
+      "case_id": "huawei-world-cup-4g",
+      "score": 95
+    },
+    "2": {
+      "case_id": "huawei-world-cup-4g",
+      "score": 90
+    },
     "3": {
       "case_id": "huawei-world-cup-4g",
       "score": 45
     },
-    "4": null,
-    "5": null,
+    "4": {
+      "case_id": "sicredi-pix-deadline-miss-recovery",
+      "score": 95
+    },
+    "5": {
+      "case_id": "huawei-world-cup-4g",
+      "score": 85
+    },
     "6": {
       "case_id": "huawei-world-cup-4g",
       "score": 50
@@ -458,7 +524,10 @@ export const questionsToCasesMapping = {
       "case_id": "huawei-world-cup-4g",
       "score": 45
     },
-    "8": null,
+    "8": {
+      "case_id": "unimed-ebitda-growth",
+      "score": 80
+    },
     "9": {
       "case_id": "huawei-world-cup-4g",
       "score": 45

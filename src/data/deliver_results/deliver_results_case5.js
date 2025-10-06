@@ -1,0 +1,89 @@
+// Case 5 - deliver_results
+const case_5 = {
+  id: "sicredi-pix-deadline-miss-recovery",
+  title: "Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias",
+  title_pt: "Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias",
+  title_en: "Missed Pix Deadline Due to Poor Priority Management: Owned It, Learned, and Recovered in 60 Days",
+  company: "Sicredi",
+  period: "03/2020-09/2020",
+  isTopCase: false,
+  isGoodCase: false,
+  pt: {
+    s: `Em marco de 2020 o Sicredi tinha prazo regulatorio do Banco Central para entregar o Pix em 16 de novembro. Eu era o Product Owner responsavel por coordenar 5 squads (payments, fraud, channels, core-banking, infra) e garantir a entrega no prazo. O escopo incluia 8 jornadas criticas (P2P, QR Code dinamico, Pix Saque, Pix Troco) com 23 dependencias tecnicas. Eu subestimei a complexidade das integrações do dict (diretorio de chaves) e confiei demais nas estimativas otimistas das squads. Em setembro ficou claro que nao entregariamos no prazo: testes de carga revelaram que o sistema suportava apenas 120 TPS contra os 450 TPS exigidos pelo BCB, e tinhamos 17 casos de borda de fraude sem tratamento. Perderiamos o deadline por 3 semanas, colocando a cooperativa em risco regulatorio e reputacional.`,
+    t: `Eu era o responsavel end-to-end pela entrega do Pix. Minha responsabilidade pessoal era coordenar as 5 squads, gerenciar as 23 dependencias criticas, garantir conformidade regulatoria e entregar dentro do prazo do BCB. O fracasso em entregar era minha responsabilidade direta - eu que subestimei riscos, nao priorizei corretamente os testes de performance e nao criei os mecanismos de alerta antecipado necessarios.`,
+    a: `Primeiro eu assumi a responsabilidade publicamente em reuniao com o C-level e apresentei analise honesta do que deu errado: eu havia priorizado features visiveis (UI do app) sobre infraestrutura critica (capacidade, resiliencia), nao havia mapeado as 23 dependencias em rede critica (deixei linear), e nao tinha implementado gates de qualidade objetivos a cada sprint. Em segundo lugar eu renegocie o prazo com o BCB: consegui 3 semanas de extensao mediante compromisso de entrega faseada (core flows em nov, features avancadas em dez). Terceiro eu criei a matriz RACI de dependencias que eu deveria ter feito no inicio: mapeei os 23 pontos de integracao, identifiquei 9 dependencias criticas no caminho critico e estabeleci daily syncs de 15min com os 9 owners. Quarto eu priorizei ruthlessly: cortei 40% do escopo original (Pix Saque e Pix Troco para fase 2), mantive apenas os 4 flows core exigidos pelo BCB (P2P, QR estatico, QR dinamico, Pix Copia-Cola). Quinto eu implementei os gates que faltavam: teste de carga obrigatorio a cada 3 dias, review de casos de fraude toda segunda, e freeze code 10 dias antes do go-live. Sexto eu assumi comando tatil diario: daily de 8h com todas as squads, painel live de TPS/latencia que eu checava 6 vezes por dia, e autoridade para desbloquear qualquer impedimento em menos de 2 horas.`,
+    r: `Consegui entregar o Pix Core em 16 de novembro conforme novo acordo com BCB - 3 semanas depois do prazo original mas dentro do prazo renegociado. O sistema entrou em producao suportando 520 TPS (16% acima do minimo exigido), com 0 incidentes criticos nas primeiras 72 horas. Nos primeiros 30 dias processamos 2.8 milhoes de transacoes Pix com 99.2% de disponibilidade. A fase 2 (features avancadas) foi entregue em dezembro, 2 semanas antes do prazo, com 95% do valor do escopo original. O NPS do Pix subiu de 45 (beta) para 68 (producao). Recuperei a confianca da lideranca: em janeiro fui promovido a Head of Payments e me pediram para aplicar os mesmos mecanismos de gestao em Open Banking. A matriz de dependencias e os gates de qualidade que criei viraram padrao para todos os projetos regulatorios do Sicredi acima de 50 pessoas.`,
+    l: `Aprendi 3 licoes duras: (1) Nunca mais começo projeto critico sem mapa de dependencias em rede (nao linear) - agora faço pre-mortem obrigatorio no kick-off identificando o que pode dar errado; (2) Gates objetivos sao inegociaveis - implemento teste de carga desde sprint 1, nao deixo para o final; (3) Confianca se reconstroi com transparencia radical e entrega consistente - criei ritual de "reality check" toda sexta onde exponho riscos antes de virarem problemas. Usei esse playbook depois na Unimed para lançar IA de autorizacao medica: fiz pre-mortem no dia 1, testes de acuracia a cada sprint, matriz de 18 dependencias mapeada, e entreguei 2 semanas antes do prazo com 95.2% de acuracia. O erro no Pix me ensinou que ownership verdadeiro inclui assumir fracassos, aprender rapido e entregar recuperacao com numeros.`
+  },
+  en: {
+    s: `In March 2020 Sicredi had a Central Bank regulatory deadline to deliver Pix by November 16. I was the Product Owner responsible for coordinating 5 squads (payments, fraud, channels, core-banking, infra) and ensuring on-time delivery. The scope included 8 critical journeys (P2P, Dynamic QR Code, Pix Withdrawal, Pix Change) with 23 technical dependencies. I underestimated the complexity of dict (key directory) integrations and trusted too much in squads' optimistic estimates. By September it became clear we wouldn't meet the deadline: load tests revealed the system supported only 120 TPS against the 450 TPS required by BCB, and we had 17 unhandled fraud edge cases. We would miss the deadline by 3 weeks, putting the cooperative at regulatory and reputational risk.`,
+    t: `I was the end-to-end owner for Pix delivery. My personal responsibility was to coordinate the 5 squads, manage the 23 critical dependencies, ensure regulatory compliance, and deliver within BCB's deadline. The failure to deliver was my direct responsibility - I underestimated risks, didn't prioritize performance testing correctly, and didn't create the necessary early warning mechanisms.`,
+    a: `First I took public responsibility in a C-level meeting and presented an honest analysis of what went wrong: I had prioritized visible features (app UI) over critical infrastructure (capacity, resilience), hadn't mapped the 23 dependencies as a critical network (left them linear), and hadn't implemented objective quality gates at each sprint. Second I renegotiated the deadline with BCB: got a 3-week extension with commitment to phased delivery (core flows in Nov, advanced features in Dec). Third I created the RACI dependency matrix I should have done at the start: mapped the 23 integration points, identified 9 critical dependencies on the critical path, and established 15-min daily syncs with the 9 owners. Fourth I prioritized ruthlessly: cut 40% of original scope (Pix Withdrawal and Pix Change to phase 2), kept only the 4 core flows required by BCB (P2P, Static QR, Dynamic QR, Pix Copy-Paste). Fifth I implemented the missing gates: mandatory load testing every 3 days, fraud case review every Monday, and code freeze 10 days before go-live. Sixth I took daily tactical command: 8am daily with all squads, live TPS/latency dashboard I checked 6 times per day, and authority to unblock any impediment in less than 2 hours.`,
+    r: `I delivered Pix Core on November 16 per new agreement with BCB - 3 weeks after original deadline but within renegotiated timeline. The system went live supporting 520 TPS (16% above required minimum), with 0 critical incidents in the first 72 hours. In the first 30 days we processed 2.8 million Pix transactions with 99.2% availability. Phase 2 (advanced features) was delivered in December, 2 weeks ahead of schedule, with 95% of original scope value. Pix NPS rose from 45 (beta) to 68 (production). I recovered leadership's trust: in January I was promoted to Head of Payments and asked to apply the same management mechanisms to Open Banking. The dependency matrix and quality gates I created became standard for all Sicredi regulatory projects above 50 people.`,
+    l: `I learned 3 hard lessons: (1) Never start critical project without network dependency map (not linear) - now I do mandatory pre-mortem at kick-off identifying what can go wrong; (2) Objective gates are non-negotiable - I implement load testing from sprint 1, don't leave it to the end; (3) Trust is rebuilt with radical transparency and consistent delivery - I created a "reality check" ritual every Friday where I expose risks before they become problems. I used this playbook later at Unimed to launch medical authorization AI: did pre-mortem on day 1, accuracy testing each sprint, mapped 18 dependencies, and delivered 2 weeks ahead with 95.2% accuracy. The Pix failure taught me that true ownership includes owning failures, learning fast, and delivering recovery with numbers.`
+  },
+  fups: [
+    {
+      q: "O que especificamente voce subestimou no planejamento inicial?",
+      a: "Eu subestimei 3 coisas criticas: (1) a complexidade do dict do BCB com 23 pontos de integracao em rede (nao linear); (2) o impacto de performance - achei que 200 TPS bastavam mas o BCB exigia 450; (3) a quantidade de casos de borda de fraude - mapeei 6 mas havia 17.",
+      q_en: "What specifically did you underestimate in initial planning?",
+      a_en: "I underestimated 3 critical things: (1) the complexity of BCB's dict with 23 integration points in a network (not linear); (2) the performance impact - I thought 200 TPS would suffice but BCB required 450; (3) the amount of fraud edge cases - I mapped 6 but there were 17."
+    },
+    {
+      q: "Como voce assumiu a responsabilidade publicamente?",
+      a: "Eu apresentei ao C-level analise honesta do que eu errei: priorizei UI sobre infra, nao mapeei dependencias em rede, nao implementei gates de qualidade. Assumi que o erro foi meu como PO, nao culpei as squads ou estimativas.",
+      q_en: "How did you take public responsibility?",
+      a_en: "I presented the C-level an honest analysis of what I got wrong: prioritized UI over infra, didn't map dependencies as network, didn't implement quality gates. I owned that the error was mine as PO, didn't blame squads or estimates."
+    },
+    {
+      q: "Como voce conseguiu renegociar 3 semanas com o BCB?",
+      a: "Eu apresentei ao BCB: (1) analise tecnica mostrando que entregar mal seria pior que entregar 3 semanas depois; (2) plano faseado com core flows garantidos em nov; (3) track record do Sicredi em entregar outros projetos BCB. Comprometi entrega faseada documentada.",
+      q_en: "How did you renegotiate 3 weeks with BCB?",
+      a_en: "I presented to BCB: (1) technical analysis showing delivering poorly would be worse than delivering 3 weeks later; (2) phased plan with core flows guaranteed in Nov; (3) Sicredi's track record delivering other BCB projects. I committed to documented phased delivery."
+    },
+    {
+      q: "Quais foram os criterios para cortar 40% do escopo?",
+      a: "Eu mantive apenas o que o BCB exigia como obrigatorio (P2P, QR estatico/dinamico, Pix Copia-Cola). Cortei features avancadas (Pix Saque, Pix Troco) e recursos de UX que agregavam valor mas nao eram regulatorios. Priorizei conformidade sobre conveniencia.",
+      q_en: "What were the criteria for cutting 40% of scope?",
+      a_en: "I kept only what BCB required as mandatory (P2P, Static/Dynamic QR, Pix Copy-Paste). I cut advanced features (Pix Withdrawal, Pix Change) and UX resources that added value but weren't regulatory. I prioritized compliance over convenience."
+    },
+    {
+      q: "Como voce implementou os gates de qualidade que faltavam?",
+      a: "Eu estabeleci 3 gates obrigatorios: (1) teste de carga a cada 3 dias monitorando TPS/latencia; (2) review de casos de fraude toda segunda com time de risco; (3) code freeze 10 dias antes do go-live. Nenhuma squad podia avançar sem passar pelos gates.",
+      q_en: "How did you implement the missing quality gates?",
+      a_en: "I established 3 mandatory gates: (1) load testing every 3 days monitoring TPS/latency; (2) fraud case review every Monday with risk team; (3) code freeze 10 days before go-live. No squad could advance without passing gates."
+    },
+    {
+      q: "Que metricas voce usou para medir a recuperacao?",
+      a: "Eu medi recuperacao com: (1) entrega no prazo renegociado (16/nov cumprido); (2) performance acima do minimo (520 TPS vs 450 exigidos); (3) 0 incidentes criticos em 72h; (4) NPS de 45 para 68; (5) fase 2 entregue 2 semanas antes.",
+      q_en: "What metrics did you use to measure recovery?",
+      a_en: "I measured recovery with: (1) delivery on renegotiated deadline (Nov 16 met); (2) performance above minimum (520 TPS vs 450 required); (3) 0 critical incidents in 72h; (4) NPS from 45 to 68; (5) phase 2 delivered 2 weeks early."
+    },
+    {
+      q: "Como voce recuperou a confianca da lideranca?",
+      a: "Eu recuperei confianca com: (1) transparencia radical - expus todos os riscos antes de virarem problemas; (2) entrega consistente - cumpri o prazo renegociado e fase 2 antes da hora; (3) numeros solidos - 520 TPS, 99.2% disponibilidade, NPS 68. Em 60 dias fui promovido a Head of Payments.",
+      q_en: "How did you recover leadership's trust?",
+      a_en: "I recovered trust with: (1) radical transparency - exposed all risks before they became problems; (2) consistent delivery - met renegotiated deadline and phase 2 early; (3) solid numbers - 520 TPS, 99.2% availability, NPS 68. In 60 days I was promoted to Head of Payments."
+    },
+    {
+      q: "O que mudou na sua forma de gerenciar projetos depois desse erro?",
+      a: "Eu mudei 3 praticas core: (1) Pre-mortem obrigatorio no kick-off identificando o que pode dar errado; (2) Gates objetivos desde sprint 1 (testes de carga/seguranca), nao no final; (3) Reality check toda sexta expondo riscos. Apliquei isso na Unimed e entreguei IA 2 semanas antes.",
+      q_en: "What changed in your project management after this error?",
+      a_en: "I changed 3 core practices: (1) Mandatory pre-mortem at kick-off identifying what can go wrong; (2) Objective gates from sprint 1 (load/security testing), not at the end; (3) Reality check every Friday exposing risks. I applied this at Unimed and delivered AI 2 weeks early."
+    },
+    {
+      q: "Como voce lidou emocionalmente com o fracasso publico?",
+      a: "Foi duro assumir publicamente que eu havia errado, mas aprendi que ownership real inclui assumir fracassos, nao so sucessos. Foquei em aprender rapido e entregar recuperacao solida. O resultado - promocao em 60 dias - mostrou que vulnerabilidade + execucao constroem mais confianca que perfecionismo falso.",
+      q_en: "How did you emotionally handle the public failure?",
+      a_en: "It was hard to publicly admit I had failed, but I learned that real ownership includes owning failures, not just successes. I focused on learning fast and delivering solid recovery. The result - promotion in 60 days - showed that vulnerability + execution build more trust than false perfectionism."
+    },
+    {
+      q: "Que conselho voce daria para alguem que perdeu um deadline critico?",
+      a: "Eu diria: (1) Assuma rapido e publicamente - nao esconda ou culpe outros; (2) Apresente analise honesta do que deu errado e o que voce aprendeu; (3) Foque em entregar recuperacao com numeros solidos; (4) Implemente mecanismos para nao repetir o erro. Fracasso + aprendizado + recuperacao = growth.",
+      q_en: "What advice would you give someone who missed a critical deadline?",
+      a_en: "I'd say: (1) Own it quickly and publicly - don't hide or blame others; (2) Present honest analysis of what went wrong and what you learned; (3) Focus on delivering recovery with solid numbers; (4) Implement mechanisms to not repeat the error. Failure + learning + recovery = growth."
+    }
+  ]
+};
+
+export default case_5;
