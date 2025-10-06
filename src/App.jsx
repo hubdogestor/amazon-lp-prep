@@ -169,6 +169,10 @@ export default function App() {
   const [highlightFupTerm, setHighlightFupTerm] = useState("");
   const [highlightTypicalTerm, setHighlightTypicalTerm] = useState("");
 
+  // Local FUP search per case (formato: { "caseId": "searchTerm" })
+  const [caseFupSearchTerms, setCaseFupSearchTerms] = useState({});
+  const [caseFupSearchOpen, setCaseFupSearchOpen] = useState({}); // controla visibilidade da busca
+
   const t = TEXTS[language];
   const rawPrinciplesData = usePrinciplesData();
   const principlesData = useMemo(() => {
@@ -292,6 +296,46 @@ export default function App() {
       }
     }, 100);
   }, [principlesData, setHighlightedCase]);
+
+  // Toggle busca local de FUPs para um case específico
+  const toggleCaseFupSearch = useCallback((caseId) => {
+    setCaseFupSearchOpen(prev => ({
+      ...prev,
+      [caseId]: !prev[caseId]
+    }));
+    // Limpa o termo de busca ao fechar
+    if (caseFupSearchOpen[caseId]) {
+      setCaseFupSearchTerms(prev => {
+        const newTerms = { ...prev };
+        delete newTerms[caseId];
+        return newTerms;
+      });
+    }
+  }, [caseFupSearchOpen]);
+
+  // Atualiza termo de busca para um case específico
+  const updateCaseFupSearchTerm = useCallback((caseId, term) => {
+    setCaseFupSearchTerms(prev => ({
+      ...prev,
+      [caseId]: term
+    }));
+  }, []);
+
+  // Filtra FUPs de um case específico baseado no termo de busca local
+  const filterCaseFups = useCallback((fups, caseId, lang) => {
+    const searchTerm = caseFupSearchTerms[caseId];
+    if (!searchTerm || searchTerm.trim() === '') return fups;
+
+    const term = searchTerm.toLowerCase().trim();
+    return fups.filter(f => {
+      const question = lang === "en" ? (f.q_en || f.q) : f.q;
+      const answer = lang === "en" ? (f.a_en || f.a) : f.a;
+      return (
+        question?.toLowerCase().includes(term) ||
+        answer?.toLowerCase().includes(term)
+      );
+    });
+  }, [caseFupSearchTerms]);
 
   // FUP search results - memoized (multi-word support)
   const fupSearchResults = useMemo(() => {
@@ -1052,12 +1096,57 @@ export default function App() {
                           </div>
 
                           <div className="space-y-3">
-                            <h4 className="text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 mb-3">❓ Follow-up Questions</h4>
+                            {/* Header com botão para abrir busca local */}
+                            <div className="flex flex-col gap-2">
+                              <button
+                                onClick={() => toggleCaseFupSearch(c.id || slugify(c.title))}
+                                className="text-left flex items-center justify-between text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 hover:text-blue-600 transition-colors group"
+                              >
+                                <span className="flex items-center gap-2">
+                                  ❓ Follow-up Questions
+                                  <span className="text-xs text-slate-500 group-hover:text-blue-500">
+                                    {caseFupSearchOpen[c.id || slugify(c.title)] ? '🔍 (busca ativa)' : '(clique para buscar)'}
+                                  </span>
+                                </span>
+                                <span className="text-slate-400 text-sm">
+                                  {caseFupSearchOpen[c.id || slugify(c.title)] ? '✕' : '🔎'}
+                                </span>
+                              </button>
+
+                              {/* Caixa de busca local - aparece ao clicar */}
+                              {caseFupSearchOpen[c.id || slugify(c.title)] && (
+                                <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 animate-fadeIn">
+                                  <input
+                                    type="text"
+                                    placeholder="Buscar nas 10 perguntas deste case..."
+                                    value={caseFupSearchTerms[c.id || slugify(c.title)] || ''}
+                                    onChange={(e) => updateCaseFupSearchTerm(c.id || slugify(c.title), e.target.value)}
+                                    className="w-full px-3 py-2 border border-blue-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                                    autoFocus
+                                  />
+                                  {caseFupSearchTerms[c.id || slugify(c.title)] && (
+                                    <p className="text-xs text-slate-600 mt-2">
+                                      🔎 Buscando por: <strong>{caseFupSearchTerms[c.id || slugify(c.title)]}</strong>
+                                    </p>
+                                  )}
+                                </div>
+                              )}
+                            </div>
+
                             {(() => {
-                              const fups = getCaseFups(c);
+                              const allFups = getCaseFups(c);
+                              const fups = filterCaseFups(allFups, c.id || slugify(c.title), language);
+                              const hasLocalSearch = caseFupSearchTerms[c.id || slugify(c.title)]?.trim();
+                              
                               return fups.length > 0 ? (
-                                <ul className="list-disc pl-5 space-y-2 text-sm">
-                                  {fups.map((f, fIdx) => {
+                                <div>
+                                  {hasLocalSearch && (
+                                    <p className="text-xs text-green-600 font-medium mb-2 bg-green-50 px-2 py-1 rounded">
+                                      ✓ {fups.length} de {allFups.length} pergunta(s) encontrada(s)
+                                    </p>
+                                  )}
+                                  <ul className="list-disc pl-5 space-y-2 text-sm">
+                                    {fups.map((f, fIdx) => {
                                     const fupId = `fup-${principle.id}-${slugify(c.id || c.title)}-${fIdx}`;
                                     const question = language === "en" ? (f.q_en || f.q) : f.q;
                                     const answer = language === "en" ? (f.a_en || f.a) : f.a;
@@ -1076,21 +1165,31 @@ export default function App() {
                                         }`}>
                                           <HighlightableText
                                             text={question}
-                                            searchTerm={highlightFupTerm}
+                                            searchTerm={caseFupSearchTerms[c.id || slugify(c.title)] || highlightFupTerm}
                                           />
                                         </div>
                                         {answer && (
                                           <div className="text-slate-600 whitespace-pre-line">
                                             <HighlightableText
                                               text={answer}
-                                              searchTerm={highlightFupTerm}
+                                              searchTerm={caseFupSearchTerms[c.id || slugify(c.title)] || highlightFupTerm}
                                             />
                                           </div>
                                         )}
                                       </li>
                                     );
                                   })}
-                                </ul>
+                                  </ul>
+                                </div>
+                              ) : hasLocalSearch ? (
+                                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3">
+                                  <p className="text-sm text-yellow-800">
+                                    ⚠️ Nenhuma pergunta encontrada com o termo: <strong>{caseFupSearchTerms[c.id || slugify(c.title)]}</strong>
+                                  </p>
+                                  <p className="text-xs text-yellow-700 mt-1">
+                                    Tente outro termo ou limpe a busca.
+                                  </p>
+                                </div>
                               ) : (
                                 <div className="text-slate-500 italic">Nenhuma pergunta disponível.</div>
                               );
