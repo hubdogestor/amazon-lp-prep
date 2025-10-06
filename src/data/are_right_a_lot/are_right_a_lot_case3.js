@@ -5,7 +5,7 @@ const case_3 = {
   title_pt: "Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias",
   title_en: "I used data science to prove the API pricing would not pay off and redesigned the model in 30 days",
   company: "Sicredi Plataforma",
-  period: "06/2023-12/2023",
+  period: "06/2020-12/2020",
   isTopCase: false,
   pt: {
     s: `Situacao: Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicial mostrava que 63% das chamadas vinham de apenas quatro parceiros gigantes e que a nova tabela reduziria receitas em 11%, mas o diretor comercial estava convencido de que o volume compensaria. O time de vendas ja tinha comunicado a mudanca a 23 parceiros e o CFO queria ver numeros em menos de uma semana.`,

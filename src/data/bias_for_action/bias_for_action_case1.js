@@ -5,7 +5,7 @@ const case_1 = {
   title_pt: "Decisao Rapida para Lancar o Banco Digital Next em 11 Meses",
   title_en: "Rapid Decision to Launch Next Digital Bank in 11 Months",
   company: "Bradesco Next",
-  period: "01/2016--11/2017",
+  period: "07/2016-11/2017",
   isTopCase: true,
   pt: {
     s: `Em janeiro de 2016 recebi o alerta de que concorrentes digitais abririam conta em menos de 10 minutos enquanto nossa rota de aprovacao levava 27 dias e perdia 38% dos leads. O board queria plano completo em 18 meses, mas esse ritmo faria a Amazon se posicionar no mercado antes de o Next chegar ao mercado. Eu precisava agir em semanas para nao perder 420 mil potenciais correntistas do pipeline.` ,

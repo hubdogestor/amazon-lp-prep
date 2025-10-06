@@ -5,7 +5,7 @@ const case_1 = {
   title_pt: "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde",
   title_en: "Applying Harvard Concepts to Launch New Digital Health Products",
   company: "Unimed",
-  period: "01/2021-12/2024",
+  period: "07/2021-02/2024",
   isTopCase: true,
   pt: {
     s: `Na Unimed, identifiquei que a empresa líder de mercado estava operando com modelo tradicional enquanto healthtechs como Alice e Sami cresciam 300% ao ano capturando participação de mercado com experiências superiores dos beneficiários. Analisei dados de churn e descobri que 42% dos associados cancelavam por frustração com burocracia no atendimento. Havia necessidade urgente de inovar centrado no cliente, mas a organização carecia completamente de frameworks modernos. Examinei tentativas anteriores de inovação - 3 projetos digitais foram descontinuados após 6 meses por falta de metodologia estruturada e por ignorarem feedback real dos beneficiários.`,

@@ -5,7 +5,7 @@ const case_1 = {
   title_pt: "Liderança da Migração de US$ 5.2B de Ativos e Contas",
   title_en: "Leadership of US$ 5.2B Assets and Accounts Migration",
   company: "HSBC",
-  period: "01/2015-12/2016",
+  period: "05/2015-06/2016",
   isTopCase: false,
   pt: {
     s: `Eu recebi o e-mail urgente do CFO com o assunto "Deal em risco" e o relatório do BACEN. Ele apontava 17 falhas de controle, 94 mil contas sem validação FATCA e um NPS premium despencando de 71 para 52. Eu tinha 18 meses até o closing da venda do HSBC Brasil para o Bradesco (US$ 5,2B) e ninguém assumia a migração de 2,7M de contas e US$ 3,2B em ativos. Quando eu provoquei os diretores de Operações, Compliance, TI e Comercial, cada um alegou que o problema era de outra área enquanto clientes priority ameaçavam retirar recursos.`,

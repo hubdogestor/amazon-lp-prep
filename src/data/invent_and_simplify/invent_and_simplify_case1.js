@@ -5,7 +5,7 @@ const case_1 = {
   title_pt: "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing",
   title_en: "Invented 5G mechanism with Six Sigma playbook that reversed client-facing penalties",
   company: "Huawei LATAM",
-  period: "03/2021-09/2022",
+  period: "03/2013-09/2014",
   isTopCase: false,
   pt: {
     s: `Quando assumi o rollout 5G para cinco operadoras regionais, o SLA medio estava em 214 dias e 38 mil assinantes reclamavam de atrasos nas ativacoes piloto. Os executivos clientes ameacaram aplicar penalidades de R$ 2,7M por trimestre e suspender 62 sites. O NPS tecnico caiu de 51 para 17 em duas ondas seguidas, e os prefeitos de quatro capitais condicionaram licencas a entregas em 90 dias. Eu passei as primeiras 72 horas dentro do war room ouvindo call center e analisando 11.420 tickets de campo para entender a dor real do cliente final.`,

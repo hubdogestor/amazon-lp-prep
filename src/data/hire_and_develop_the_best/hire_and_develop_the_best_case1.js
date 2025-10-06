@@ -5,7 +5,7 @@ const case_1 = {
   title_pt: "Mentoria de 30+ Gerentes de Projeto e Criação de uma Comunidade de Prática",
   title_en: "Mentoring 30+ Project Managers and Creating a Community of Practice",
   company: "Huawei",
-  period: "01/2018--12/2020",
+  period: "01/2012-12/2014",
   isTopCase: true,
   pt: {
     s: `Na Huawei, durante a expansão na América Latina, operadoras parceiras reclamavam da qualidade das entregas dos nossos projetos 4G/5G. Analisei feedback de 15 operadoras que reportaram 47% de projetos atrasados, impactando 8,2 milhões de clientes finais que não conseguiam acessar cobertura 4G prometida. Descobri que 73% dos atrasos vinham de gerentes de projeto (GPs) sem experiência em negociar com stakeholders técnicos das operadoras, gerenciar fornecedores globais sob pressão, e entregar soluções que realmente resolvessem problemas de conectividade dos usuários finais. Cada projeto atrasado custava R$ 2,8M em multas contratuais e perda de receita, além de frustrar milhões de clientes esperando melhor qualidade de sinal. Precisava urgentemente elevar a barra dos nossos GPs para entregar excelência técnica que impactasse diretamente a experiência dos usuários finais das operadoras.`,

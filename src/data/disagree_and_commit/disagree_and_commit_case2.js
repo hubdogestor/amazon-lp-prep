@@ -5,7 +5,7 @@ const case_2 = {
   title_pt: "Bati de frente com o VP sobre acelerar 5G e entreguei o plano aprovado para a Copa Feminina",
   title_en: "I challenged the VP on 5G acceleration and delivered the approved plan for the Women's World Cup",
   company: "Huawei LATAM",
-  period: "09/2022-07/2023",
+  period: "09/2013-07/2014",
   isTopCase: false,
   pt: {
     s: `Se atrasassemos o rollout 5G nas quinze cidades-sede da Copa do Mundo Feminina 2023, a FIFA aplicaria multa de US$ 8M e 280 mil torcedores ficariam sem conectividade; quando assumi o programa recebi em 24 horas 18 ligacoes de clientes operadoras e da FIFA reforcando essa ameaca, o VP global de delivery decidiu encurtar o cronograma em 30 dias para abrir precedente comercial. Eu discordava: os relatrios de readiness mostravam licencas municipais pendentes em 9 cidades e fornecedores de fibra com backlog de 18 dias. Eu disse na reuniao: "se cortarmos 30 dias agora, vamos falhar no estagio de FAT e voce vai ter de explicar para a FIFA". O VP respondeu: "se nao executar, troco a lideranca do programa".`,

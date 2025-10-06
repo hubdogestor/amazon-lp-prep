@@ -5,7 +5,7 @@ const case_5 = {
   title_pt: "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
   title_en: "Turned Recurring Payment Incidents into a Reliability Mechanism",
   company: "SEFAZ/RS",
-  period: "03/2024-08/2024",
+  period: "08/2024-11/2024",
   isTopCase: false,
   pt: {
     s: `Eu atuava como advisor da SEFAZ/RS quando detectei um padrao perigoso: os mesmos incidentes de pagamentos (timeouts de gateway, divergencia de status, falhas de liquidacao) reapareciam a cada seis semanas. Cada crise congelava ate R$ 18M de arrecadacao diaria, gerava 4.500 chamados de contribuintes em 24h e derrubava o NPS de 63 para 41. Comunicacao, TI, arrecadacao e bancos parceiros trabalhavam em silos e ninguem assumia ownership do ciclo completo.`,

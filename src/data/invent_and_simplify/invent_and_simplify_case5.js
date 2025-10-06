@@ -4,8 +4,8 @@ const case_5 = {
   title: "Automacao de conciliacao PIX municipal inventada em 45 dias eliminou risco fiscal",
   title_pt: "Automacao de conciliacao PIX municipal inventada em 45 dias eliminou risco fiscal",
   title_en: "Invented PIX municipal reconciliation automation in 45 days eliminating fiscal risk",
-  company: "Secretaria da Fazenda do Estado do Ceara",
-  period: "05/2023-01/2024",
+  company: "SEFAZ RS",
+  period: "08/2024-01/2025",
   isTopCase: false,
   pt: {
     s: `Eu assumi a tesouraria digital quando 184 municipios clientes estavam perdendo rastreabilidade de recebiveis PIX. O tempo medio de conciliacao era 72 horas, o NPS dos tesoureiros caiu de 54 para 18 e o atraso bloqueava repasses federais de R$ 38M por mes. Prefeitos reclamavam diretamente comigo porque havia 5.400 atendimentos sem resposta e 37% das escolas ficavam sem verba no quinto dia util. Eu passei tres dias em campo ouvindo secretarios de educacao e clientes contadores; a dor era clara: ninguem confiava no extrato do estado.`,

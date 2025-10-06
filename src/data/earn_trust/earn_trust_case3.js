@@ -5,7 +5,7 @@ const case_3 = {
   title_pt: "Reconquistei parceiro chave com plano de saldo garantido em 30 dias",
   title_en: "Won back key partner with 30-day guaranteed settlement plan",
   company: "Bradesco Payments",
-  period: "09/2022-01/2023",
+  period: "09/2017-01/2018",
   isTopCase: false,
   pt: {
     s: `Um marketplace que respondia por 18% do nosso TPV suspendeu operacoes em setembro de 2022 depois que atrasamos tres ciclos de liquidacao D+1. R$ 420M ficaram parados, 8.700 sellers reclamaram e o parceiro publicou notinha dizendo que migraria para concorrente. O CEO exigiu que eu abrisse renegociacao com garantia pessoal de que o problema nao voltaria.`,

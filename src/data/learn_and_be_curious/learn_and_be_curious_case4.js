@@ -3,9 +3,9 @@ const case_4 = {
   id: "stay-updated-payments-fintech",
   title: "Criei um Sistema de Atualização Contínua em Payments/Fintech com PoCs Reutilizáveis",
   title_pt: "Criei um Sistema de Atualização Contínua em Payments/Fintech com PoCs Reutilizáveis",
-  title_en: "Built a Continuous Learning System in Payments/Fintech with Reusable PoCs",
-  company: "Pessoal/Profissional",
-  period: "01/2020-12/2024",
+  title_en: "I developed 15+ complementary skills through systematic learning across multiple domains",
+  company: "Unimed",
+  period: "07/2022-02/2024",
   isTopCase: false,
   pt: {
     s: `No setor de pagamentos, identifiquei que minha equipe estava sempre 6-12 meses atrasada em relação a mudanças regulatórias e tecnológicas do BACEN. Analisei 15 incidentes de integração de pagamento que ocorreram sob minha responsabilidade em 2 anos e descobri que 73% eram causados por desconhecimento de padrões recentes (PIX, Open Finance, ISO 20022). Clientes corporativos reclamavam diretamente comigo que levava 8 semanas para eu avaliar viabilidade de novas funcionalidades, perdendo janelas competitivas. Tentativas anteriores que implementei para manter equipe atualizada falharam - reuniões mensais de 'tech talks' que organizei tinham 22% de participação e zero aplicação prática. Sem método estruturado, decisões ficavam defasadas, riscos regulatórios aumentavam e inovação virava tentativa-e-erro custosa.`,

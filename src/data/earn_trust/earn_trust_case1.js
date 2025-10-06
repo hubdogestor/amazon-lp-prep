@@ -5,7 +5,7 @@ const case_1 = {
   title_pt: "Reconstruir confianca apos bug Pix com ritual de transparencias diarias",
   title_en: "Rebuilt trust after Pix outage through daily transparency rituals",
   company: "Sicredi Woop",
-  period: "02/2023-06/2023",
+  period: "02/2020-06/2020",
   isTopCase: false,
   pt: {
     s: `Em fevereiro de 2023 eu liberei uma nova chave de rate limiting no core Pix sem concluir o teste de carga trifasico. Nas doze horas seguintes 62.400 transferencias foram retidas, 18.900 associados receberam push de falha e R$ 14,8M ficaram pendurados na tesouraria. O NPS caiu de 62 para 21 em dois dias e 312 reclamaes foram abertas no Bacen. Um diretor comercial me cobrou na frente do comite: "voce quebrou nossa palavra e jogou o dano no meu time". Eu assumi a falha ali mesmo e prometi recuperar a confianca com fatos.`,

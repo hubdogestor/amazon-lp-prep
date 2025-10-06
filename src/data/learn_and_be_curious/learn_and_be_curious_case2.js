@@ -5,7 +5,7 @@ const case_2 = {
   title_pt: "Implementação de Framework Ágil em Escala para Banco Digital",
   title_en: "Large-Scale Agile Framework Implementation for Digital Bank",
   company: "Bradesco",
-  period: "01/2016-12/2018",
+  period: "07/2016-05/2018",
   isTopCase: false,
   pt: {
     s: `Para construir o Banco Digital Next, coordenávamos 17 squads e 230 profissionais espalhados por 3 prédios em São Paulo. O maior problema: 6 semanas de atraso acumulado no trimestre por dependências não mapeadas entre squads. Reuniões de alinhamento consumiam 40% do tempo produtivo - desenvolvedores gastavam 16 horas/semana em meetings sem delivery tangível. O modelo tradicional de gestão em cascata do Bradesco era fundamentalmente inadequado para a velocidade e interdependência exigida por produto digital. Tentativas anteriores de 'agilidade' foram superficiais - sprints isolados sem coordenação global.`,

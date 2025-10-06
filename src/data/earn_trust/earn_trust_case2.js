@@ -5,7 +5,7 @@ const case_2 = {
   title_pt: "Transformei relacionamento com Bacen com briefings executivos em 48h",
   title_en: "Transformed Central Bank relationship with 48-hour executive briefings",
   company: "HSBC Brasil",
-  period: "07/2022-03/2023",
+  period: "07/2015-03/2016",
   isTopCase: false,
   pt: {
     s: `Em julho de 2022 o Bacen notificou o HSBC por falhas repetidas em reportes de PLD. Dois oficios citavam discrepancias de R$ 1,1B em posicao diaria e ameaavam abrir processo sancionador. O score de relacionamento do regulador caiu para 43/100 e recebemos 18 perguntas formais em um unico mes. O CFO me pediu: "voc reconstruiu pontes com reguladores antes, mas agora  zero margem para erro".`,

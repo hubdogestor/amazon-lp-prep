@@ -5,7 +5,7 @@ const case_5 = {
   title_pt: "Liderei o Portal da Transparência: Fora da Zona de Conforto",
   title_en: "Led the Transparency Portal: Out of the Comfort Zone",
   company: "SEFAZ/RS",
-  period: "01/2023-04/2023",
+  period: "08/2024-11/2024",
   isTopCase: false,
   pt: {
     s: `Na SEFAZ/RS, identifiquei que cidadãos não tinham acesso transparente a dados fiscais públicos - analisei e descobri que 78% das solicitações via Lei de Acesso à Informação eram sobre execução orçamentária básica que eu poderia disponibilizar online. Examinei reclamações do Ministério Público e mapeei que falta de transparência gerava 340 processos/ano questionando uso de recursos públicos. Portal da Transparência existente estava 5 anos desatualizado, com dados agregados inúteis (ninguém conseguia entender). Eu assumiria projeto envolvendo dados sensíveis de contratos, licitações e folha de pagamento - qualquer vazamento de dados pessoais ou erro de cálculo teria impacto imediato na reputação institucional e poderia gerar processo administrativo contra mim. Tecnicamente, estava completamente fora da minha zona de conforto: eu nunca tinha trabalhado com dados governamentais, LGPD aplicada ao setor público, ou projetos com escrutínio de TCE (Tribunal de Contas do Estado) e Ministério Público. Examinei tentativas anteriores de modernizar o portal que falharam em 2019 e 2021 por complexidade técnica e político-jurídica.`,

@@ -5,7 +5,7 @@ const case_2 = {
   title_pt: "Auditoria Pessoal em Processos de Validacao de Dados em Multiplos Paises",
   title_en: "Personal Audit of Data Validation Processes Across Multiple Countries",
   company: "HSBC",
-  period: "01/2015-12/2016",
+  period: "05/2015-06/2016",
   isTopCase: false,
   pt: {
     s: `Na migracao do portfolio de US$ 5,2 bilhoes do HSBC para o Bradesco, eu era o responsavel direto pela governanca do programa. A migracao envolvia 280 mil contas de clientes high-net-worth (67% com ativos acima de US$ 1M) em 12 paises. Os dashboards mostravam tudo "verde", com 99,8% de correspondencia, e o fornecedor global insistia que nao precisavamos auditar mais nada. Eu via risco reputacional gigantesco: bastava um erro em nomes ou enderecos para cartas de compliance nao chegarem e clientes-chave perderem acesso aos investimentos.`,

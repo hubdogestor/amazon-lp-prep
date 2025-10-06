@@ -3,9 +3,9 @@ const case_1 = {
   id: "huawei-world-cup-4g",
   title: "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade",
   title_pt: "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade",
-  title_en: "Led the 4G/5G Upgrade for Copa America 2021 with 99.8% Availability",
+  title_en: "5G Network Rollout Acceleration that Delivered 2,400 Sites Ahead of Schedule",
   company: "Huawei",
-  period: "08/2020-07/2021",
+  period: "08/2013-07/2014",
   isTopCase: true,
   pt: {
     s: `Quando a CONMEBOL confirmou a Copa America 2021 no Brasil em plena pandemia, eu recebi ligações dos quatro CTOs exigindo ampliar capacidade 4G/5G para processar pagamentos sem contato nos estadios. O cronograma era 40% menor que o original do Mundial 2014 e herdamos pipeline travado: licencas da ANATEL levavam 168 dias (meta 70), dois integradores entregavam so 61% dos sites no prazo e 280 toneladas de equipamentos estavam retidas em portos. Sem rede, os parceiros projetavam perda de R$ 28M/dia em transacoes e multa de US$ 10M por estadio da CONMEBOL.`,

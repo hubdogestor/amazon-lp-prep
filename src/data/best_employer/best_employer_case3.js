@@ -5,7 +5,7 @@ const case_3 = {
   title_pt: "Implementei reverse mentoring hibrido e subi o eNPS da secretaria para 82",
   title_en: "I launched hybrid reverse mentoring and lifted the department eNPS to 82",
   company: "SEFAZ RS",
-  period: "01/2024-11/2024",
+  period: "08/2024-11/2024",
   isTopCase: true,
   pt: {
     s: `Situacao: Como consultor chefe do PMO da SEFAZ/RS em 2024 vi um choque geracional pressionando o atendimento aos clientes contribuintes. Veteranos dominavam a legislacao, mas reclamavam que os recem-chegados nao respeitavam ritos. Os mais jovens diziam que processos analogicos impediam inovacao e afastavam os clientes rurais. O eNPS interno estava em 48, o tempo de resposta ao cliente contribuinte rural subira de 9 para 14 dias, pedidos de transferencia cresceram 35% e a ouvidoria recebeu 1.200 queixas de atraso.`,

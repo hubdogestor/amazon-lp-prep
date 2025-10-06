@@ -38,7 +38,7 @@ const titleCorrections = {
     title_pt: 'Migração Crítica de Dados e Compliance',
     title_en: 'Critical Data Migration and Compliance', 
     company: 'HSBC → Bradesco',
-    period: '2019-2024' // Conforme solicitado pelo usuário
+    period: '05/2015-06/2016' // Período real da transição
   },
   
   'Redução Drástica de SLA com Novo Modelo de Processo': {

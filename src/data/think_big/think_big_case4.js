@@ -5,7 +5,7 @@ const case_4 = {
   title_pt: "Programa Horizonte: Digital Twin Fiscal que Redirecionou R$2,1B em Investimentos",
   title_en: "Horizonte Program: Fiscal Digital Twin that Redirected BRL 2.1B in Investments",
   company: "SEFAZ-RS",
-  period: "04/2023--08/2025",
+  period: "08/2024-11/2025",
   isTopCase: false,
   pt: {
     s: `Situação — Em 2023, eu assumi a missão de destravar o planejamento plurianual do Rio Grande do Sul. O estado investiria R$4,5B em infraestrutura, porém cada secretaria priorizava isoladamente. Analisei reclamações de 11,7 milhões de cidadãos gaúchos via Portal do Cidadão e descobri que 64% criticavam obras inacabadas, tempo de deslocamento excessivo e falta de transparência no uso de seus impostos. Sem um modelo unificado centrado no benefício real para contribuintes, acumulávamos risco de desperdiçar R$680M/ano em gargalos logísticos e escolher projetos com ROI marginal que ignoravam as necessidades mais urgentes da população.`,

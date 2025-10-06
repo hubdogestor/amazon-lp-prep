@@ -5,7 +5,7 @@ const case_2 = {
   title_pt: "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero",
   title_en: "Institutional PMO Structuring and PROFISCO II Governance from Scratch",
   company: "SEFAZ/RS",
-  period: "01/2024-12/2025",
+  period: "08/2024-11/2025",
   isTopCase: false,
   pt: {
     s: `Eu recebi um ofício do BID com alerta vermelho: se em 45 dias a SEFAZ/RS não apresentasse um plano robusto de governança para o PROFISCO II (R$ 180M), o desembolso de US$ 12M seria congelado. Eu enxergava a CAGE tocando 28 projetos críticos sem PMO, três iniciativas duplicadas queimando R$ 4,2M e 18 auditorias em atraso. Cada diretor dizia "isso é da outra secretaria" enquanto 42 mil contribuintes aguardavam melhorias em serviços digitais que nunca chegavam.`,

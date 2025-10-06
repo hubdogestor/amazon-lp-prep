@@ -4,8 +4,8 @@ const case_5 = {
   title: "Remodelei SLA com meu diretor expondo dados e assumindo compromissos semanais",
   title_pt: "Remodelei SLA com meu diretor expondo dados e assumindo compromissos semanais",
   title_en: "Redesigned SLA with my director by exposing data and taking weekly commitments",
-  company: "Atlas Pay",
-  period: "05/2023-08/2023",
+  company: "Bradesco Payments",
+  period: "05/2017-08/2017",
   isTopCase: false,
   pt: {
     s: `Meu diretor queria reduzir o SLA de onboard de sellers de 48 para 12 horas sem investir em compliance, mesmo com 6,2 mil clientes reclamando de atraso. Eu tinha dados mostrando que cairiamos para 62% de aprovacao correta e seriamos multados. Na discussao ele disse: "se voce nao entregar 12 horas vamos trocar o dono do processo". O clima ficou carregado e vi que eu tinha perdido earn trust.`,

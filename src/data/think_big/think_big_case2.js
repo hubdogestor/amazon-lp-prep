@@ -5,7 +5,7 @@ const case_2 = {
   title_pt: "Liderança da Iniciativa para Transformar a Unimed de uma Seguradora para um Ecossistema de Saúde Digital",
   title_en: "Leading Unimed's Transformation from Insurance to Digital Health Ecosystem",
   company: "Unimed",
-  period: "01/2021--03/2025",
+  period: "07/2021-02/2024",
   isTopCase: true,
   pt: {
     s: `Situação — Em 2021, eu analisava a curva de churn da Unimed e vi um padrão alarmante: clientes multicanal migravam 2,4x mais para healthtechs full service. O conselho queria reagir com bundles promocionais no plano tradicional. Eu provoquei: se eu aceitasse esse pensamento limitado, a cooperativa perderia R$1,2B em receita até 2025 e ficaria presa ao rótulo de seguradora tradicional.`,

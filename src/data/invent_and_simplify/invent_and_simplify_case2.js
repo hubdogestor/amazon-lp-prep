@@ -5,7 +5,7 @@ const case_2 = {
   title_pt: "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
   title_en: "Invented one-click KYC stream that cut Next onboarding from 32 to 6 hours",
   company: "Bradesco",
-  period: "08/2021-05/2022",
+  period: "08/2016-05/2017",
   isTopCase: false,
   pt: {
     s: `O relancamento do Next em 2021 ameaçava derrapar porque 41% das contas piloto ficavam presas em compliance por 32 horas e 18% desistiam antes da primeira transacao. O NPS de onboarding despencou de 56 para 22 e o Bacen tinha aberto dois oficios cobrando aderencia a novas regras de suitabilidade. Eu participei de grupos focais com 25 clientes beta e ouvi, de cada um, que o atrito era mandar o mesmo documento cinco vezes e esperar retorno sem prazo.`,

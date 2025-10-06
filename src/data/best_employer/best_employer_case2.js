@@ -5,7 +5,7 @@ const case_2 = {
   title_pt: "Transformei o feedback 360 em pipeline de sucessao para todos os PMs",
   title_en: "I turned 360 feedback into a full succession pipeline for every PM",
   company: "Sicredi Plataforma",
-  period: "03/2024-12/2024",
+  period: "03/2019-12/2019",
   isTopCase: true,
   pt: {
     s: `Situacao: Ao assumir a lideranca da plataforma de APIs em 2024 notei que 38 PMs trabalhavam em silos. O ciclo de desempenho gerava so notas genericas, 52% dos gestores achavam o feedback injusto e quatro PMs seniors haviam sido assediados por concorrentes. Sem desenvolvimento claro, arriscavamos perder talento chave e nossa escala de produtos cooperativos.`,

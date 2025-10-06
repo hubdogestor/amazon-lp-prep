@@ -18,7 +18,7 @@ const metaOverrides = {
     title_pt: "Migração Crítica de Dados e Compliance",
     title_en: "Critical Data Migration & Compliance",
     company: "HSBC → Bradesco",
-    period: "11/2015–09/2016", // approx.
+    period: "05/2015–06/2016", // approx.
   },
 
   // Huawei (2009–2015)

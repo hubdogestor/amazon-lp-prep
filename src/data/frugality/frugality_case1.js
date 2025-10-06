@@ -5,7 +5,7 @@ const case_1 = {
   title_pt: "Geração de U$1.4M em Ganhos de Eficiência no Setor Público sem Aumento de Orçamento",
   title_en: "Generating $1.4M in Public Sector Efficiency Gains Without Budget Increase",
   company: "SEFAZ/RS",
-  period: "01/2024--12/2025",
+  period: "08/2024-11/2025",
   isTopCase: true,
   pt: {
     s: `Na SEFAZ/RS, os 8 milhões de contribuintes gaúchos sofriam com atrasos crônicos: restituições de impostos atrasadas, processos de certidão negativa demorados, sistemas tributários lentos. Cada projeto digital atrasado significava mais uma semana de frustração para o cidadão esperando seus serviços. A CAGE precisava modernizar a gestão de projetos para PROFISCO II, mas cada real gasto em consultorias caras (R$700k+) era um real a menos para melhorar diretamente a experiência dos contribuintes. Eu vi claramente o dilema: gastar fortunas em consultorias externas ou usar abordagem frugal para entregar valor máximo aos cidadãos que pagam nossos salários com seus impostos e merecem excelência em troca.`,

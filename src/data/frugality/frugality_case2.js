@@ -5,7 +5,7 @@ const case_2 = {
   title_pt: "Otimização de Recursos em um Portfólio de 50+ Projetos para Acelerar o Rollout do 4G",
   title_en: "Resource Optimization in 50+ Project Portfolio to Accelerate 4G Rollout",
   company: "Huawei",
-  period: "01/2018--12/2019",
+  period: "01/2013-12/2014",
   isTopCase: true,
   pt: {
     s: `Na Huawei, 200 milhões de brasileiros esperavam conectividade 4G de qualidade para a Copa do Mundo 2014, mas enfrentávamos pressão gigantesca com contratos de R$2.5 bilhões em risco. Cada dia de atraso significava milhões de usuários frustrados com conexões lentas durante o maior evento esportivo do país. O orçamento era fixo e totalmente alocado, com 50+ projetos críticos em paralelo. A abordagem tradicional seria solicitar orçamento de emergência para contratar mais equipes, mas eu sabia que isso prejudicaria a experiência dos usuários finais que pagam por conectividade premium e merecem excelência.`,

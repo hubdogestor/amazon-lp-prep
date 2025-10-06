@@ -5,7 +5,7 @@ const case_2 = {
   title_pt: "Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest",
   title_en: "I modeled 5G risks in real time and pivoted the architecture mid-rollout without delaying the FIFA Fan Fest",
   company: "Huawei LATAM",
-  period: "04/2023-01/2024",
+  period: "08/2014-03/2015",
   isTopCase: false,
   pt: {
     s: `Situacao: No rollout 5G da Huawei para a Fan Fest da Copa Feminina 2023 eu assumia 42 sites em quatro paises. Dois meses antes do evento, os testes de campo mostraram perda de 23% na taxa de throughput em estruturas temporarias. O diretor de engenharia queria seguir o plano original com antenas passivas, mas eu sabia que a FIFA exigia 1,3 Gbps sustentado e que 140 mil torcedores assistiriam aos jogos em teloes. Os dados duravam 48 horas para chegar ao comite e ninguem tinha clareza sobre a gravidade.`,

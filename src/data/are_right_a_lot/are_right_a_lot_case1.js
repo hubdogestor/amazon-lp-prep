@@ -5,7 +5,7 @@ const case_1 = {
   title_pt: "Mostrei dados contrarios ao hype e redesenhei o roadmap mobile com aval de todos os stakeholders",
   title_en: "I countered the hype with data and redesigned the mobile roadmap with full stakeholder buy-in",
   company: "Sicredi Digital",
-  period: "01/2024-09/2024",
+  period: "01/2020-05/2021",
   isTopCase: true,
   pt: {
     s: `Situacao: Em janeiro de 2024 assumi a lideranca do app Sicredi. Marketing queria lancar em 90 dias um super app com feed social porque concorrentes estavam viralizando. A area de risco alertou que 48% das reclamacoes eram por falhas em autenticao e a superintendencia regional pedia funcionalidades especificas para cooperados do agronegocio. Eu recebi em tres dias oito pedidos conflitantes: marketing, risco, canais fisicos, operacoes, banco digital, TI, juridico e duas regionais. Cada um defendia sua propria verdade.`,

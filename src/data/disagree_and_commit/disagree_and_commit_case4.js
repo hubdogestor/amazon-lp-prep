@@ -5,7 +5,7 @@ const case_4 = {
   title_pt: "Escalei discordancia sobre estrategia de pricing e liderei o piloto aprovado sem ruido",
   title_en: "I escalated the pricing strategy disagreement and led the approved pilot without friction",
   company: "Bradesco Next",
-  period: "03/2024-08/2024",
+  period: "03/2017-08/2017",
   isTopCase: false,
   pt: {
     s: `No Bradesco Next eu liderava o produto de creditos parcelados para PMEs. O CRO queria cortar o markup de 2,2% para 1,0% em toda a carteira para ganhar share contra um concorrente. Eu discordava: nossas analises mostravam que 38% da carteira tinha risco alto e queimar margem colocaria R$ 15M de ECL adicional. O CRO falou: "se voce nao baixar o preco, coloco outro PM para tocar o produto".`,
