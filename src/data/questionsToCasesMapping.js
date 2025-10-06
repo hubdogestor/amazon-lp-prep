@@ -88,8 +88,8 @@ export const questionsToCasesMapping = {
   },
   "invent_simplify": {
     "0": {
-      "case_id": "payment-simplification-high-impact",
-      "score": 75
+      "case_id": "unimed-ai-authorization",
+      "score": 90
     },
     "1": {
       "case_id": "unimed-open-innovation",
@@ -438,7 +438,10 @@ export const questionsToCasesMapping = {
     }
   },
   "deliver_results": {
-    "0": null,
+    "0": {
+      "case_id": "huawei-world-cup-4g",
+      "score": 85
+    },
     "1": null,
     "2": null,
     "3": {

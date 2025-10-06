@@ -1,12 +1,13 @@
 // Case 3 - invent_and_simplify
 const case_3 = {
   id: "unimed-ai-authorization",
-  title: "IA de autorizacao medica inventada com foco em beneficiario destravou 82% de automacao",
-  title_pt: "IA de autorizacao medica inventada com foco em beneficiario destravou 82% de automacao",
-  title_en: "Invented beneficiary-centric medical authorization AI that unlocked 82% automation",
+  title: "Inventei IA de Autorizacao Medica que Simplificou Processo de 5 Dias para 9 Horas (82% Automacao)",
+  title_pt: "Inventei IA de Autorizacao Medica que Simplificou Processo de 5 Dias para 9 Horas (82% Automacao)",
+  title_en: "Invented Medical Authorization AI that Simplified 5-Day Process to 9 Hours (82% Automation)",
   company: "Unimed",
   period: "01/2023-10/2023",
-  isTopCase: false,
+  isTopCase: true,
+  isGoodCase: false,
   pt: {
     s: `Eu fui chamado quando 1.120 solicitacoes medicas por dia enfrentavam 5,1 dias de espera e o NPS caiu de 48 para 19 em tres meses. Os oito maiores hospitais parceiros ameaçaram migrar 22 mil vidas porque pacientes onco estavam perdendo janela clinica de 48 horas. Em 36 horas eu entrei nas salas de recuperacao, conversei com 14 pacientes e gravei que 64% da dor vinha da confirmacao de cobertura, nao do laudo. Tambem identifiquei que 71% dos 3.400 contatos semanais no call center eram pedidos de urgencia sem tracking.`,
     t: `Eu assumi ownership total e defini meta clara: automatizar 80% das decisoes ate out/23 sem aumentar risco clinico e reduzir o SLA critico para 12 horas. Eu comuniquei pessoalmente ao conselho medico que eu assinaria cada regra de negocio implantada e reportaria semanalmente cada excecao.`,

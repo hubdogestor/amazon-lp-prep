@@ -289,12 +289,15 @@ export default function App() {
     setExpandedCases({ [caseObj.title]: true });
     setSelectedPrinciple(lpId);
     
-    // Removido: scroll automático para o case
-    // O usuário prefere rolar manualmente
+    // Scroll para o case após um delay
     setTimeout(() => {
       const caseDomId = `case-${slugify(case_id)}`;
-      // Highlight temporário (sem scroll)
-      setHighlightedCase(caseDomId, 2000);
+      const elem = document.getElementById(caseDomId);
+      if (elem) {
+        elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Highlight temporário
+        setHighlightedCase(caseDomId, 2000);
+      }
     }, 100);
   }, [principlesData, setHighlightedCase]);
 
