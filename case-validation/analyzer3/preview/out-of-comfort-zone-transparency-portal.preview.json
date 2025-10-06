@@ -23,64 +23,64 @@
     },
     "fups": [
       {
-        "q": "Quais riscos de exposição pública você mapeou?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What public-exposure risks did you map?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Quais riscos de exposição de dados pessoais e reputacionais você mapeou antes de lançar o portal?",
+        "a": "Mapeei 3 categorias de risco: (1) Vazamento de dados pessoais - criei matriz classificando cada campo em 4 níveis (público irrestrito, público anonimizado, público agregado, confidencial) e estabeleci que nenhuma query poderia retornar <5 registros agregados para evitar identificação; (2) Erro de cálculo que gerasse contestação judicial - validei todos algoritmos com TCE e criei dupla checagem automática; (3) Captura política de prioridades - publiquei ranking mensal de projetos e qualquer ROI <12% entrava em revisão obrigatória com Tribunal de Contas. Implementei 12 testes de homologação específicos para anonimização antes do go-live.",
+        "q_en": "What personal data exposure and reputational risks did you map before launching the portal?",
+        "a_en": "I mapped 3 risk categories: (1) Personal data leaks - created matrix classifying each field into 4 levels (unrestricted public, anonymized public, aggregated public, confidential) and established no query could return <5 aggregated records to avoid identification; (2) Calculation errors generating lawsuits - validated all algorithms with Audit Court and created automatic double-checking; (3) Political capture of priorities - published monthly project ranking and any ROI <12% entered mandatory Audit Court review. Implemented 12 specific anonymization homologation tests before go-live."
       },
       {
-        "q": "Como articulou múltiplas áreas e externos?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you coordinate multiple areas and externals?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como conseguiu articular stakeholders tão conflitantes (TCE querendo transparência total vs. jurídico protegendo dados)?",
+        "a": "Não tentei conciliar posições incompatíveis - criei solução híbrida que satisfazia necessidades reais de ambos. TCE precisava auditar, não necessariamente ver CPFs publicamente. Jurídico precisava proteger LGPD, não bloquear auditoria. Desenhei sistema com 2 níveis: (1) Portal público com faixas salariais + cargo + lotação (sem CPF); (2) Acesso restrito para TCE/MP com CPF mediante justificativa auditável. Chave foi fazer 6 audiências públicas com 1.840 cidadãos - quando mostrei que população queria transparência útil (não CPFs, mas impacto de gastos), convenci jurídico que proteção excessiva prejudicava cidadão.",
+        "q_en": "How did you articulate such conflicting stakeholders (Audit Court wanting total transparency vs. legal protecting data)?",
+        "a_en": "Didn't try to reconcile incompatible positions - created hybrid solution satisfying real needs of both. Audit Court needed to audit, not necessarily see CPFs publicly. Legal needed to protect LGPD, not block audits. I designed 2-tier system: (1) Public portal with salary ranges + position + department (no CPF); (2) Restricted access for Audit Court/Prosecutor with CPF requiring auditable justification. Key was holding 6 public hearings with 1,840 citizens - when I showed population wanted useful transparency (not CPFs, but spending impact), I convinced legal that excessive protection hurt citizens."
       },
       {
-        "q": "Como o MVP acelerou a entrega sem perder qualidade?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did MVP accelerate delivery without losing quality?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como o MVP focado em 5 casos de uso priorizou qualidade sem comprometer escopo necessário?",
+        "a": "Entrevistei 230 cidadãos em 5 cidades e 18 jornalistas investigativos para identificar o que realmente importava. Descobri top 3 frustrações: obras paradas 12+ meses (78%), falta de transparência (64%), e tempo de deslocamento >90min. Desenhei MVP atacando essas dores: (1) execução orçamentária com drill-down por programa; (2) contratos vigentes; (3) evolução de folha por secretaria; (4) licitações com status; (5) transferências a municípios. Isso cobria 85% das solicitações LAI, então poderia validar hipótese rapidamente. Qualidade veio de tempo médio de resposta <1.8s (vs. meta 3s) e zero incidentes de privacidade.",
+        "q_en": "How did the MVP focused on 5 use cases prioritize quality without compromising necessary scope?",
+        "a_en": "I interviewed 230 citizens in 5 cities and 18 investigative journalists to identify what really mattered. I discovered top 3 frustrations: stalled works 12+ months (78%), lack of transparency (64%), and commute time >90min. I designed MVP attacking these pains: (1) budget execution with drill-down by program; (2) active contracts; (3) payroll evolution by department; (4) procurement with status; (5) transfers to municipalities. This covered 85% of Freedom of Information requests, so could validate hypothesis quickly. Quality came from average response time <1.8s (vs. 3s goal) and zero privacy incidents."
       },
       {
-        "q": "Que métricas de sucesso acompanhou?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which success metrics did you track?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Que métricas específicas acompanhou para provar impacto nos cidadãos, além de métricas técnicas?",
+        "a": "Rastreei 4 categorias: (1) Impacto direto no cidadão: tempo médio deslocamento casa-trabalho caiu de 87min para 61min para 2.3M pessoas (30% redução), satisfação com transparência aumentou de 28% para 71% (pesquisa Datafolha/TCE com 3.200 respondentes); (2) Eficiência operacional: solicitações LAI caíram 67% (de 340 para 112/ano), economizando 480h/ano; (3) Qualidade técnica: tempo resposta 1.8s, zero incidentes em 18 meses; (4) Impacto político: NPS cidadãos com investimentos estaduais cresceu de 31 para 66, taxa de conclusão de obras saltou de 42% para 78%.",
+        "q_en": "What specific metrics did you track to prove citizen impact, beyond technical metrics?",
+        "a_en": "I tracked 4 categories: (1) Direct citizen impact: average home-work commute dropped from 87min to 61min for 2.3M people (30% reduction), transparency satisfaction rose from 28% to 71% (Datafolha/Audit Court survey, 3,200 respondents); (2) Operational efficiency: Freedom of Information requests dropped 67% (from 340 to 112/year), saving 480h/year; (3) Technical quality: 1.8s response time, zero incidents in 18 months; (4) Political impact: citizen NPS with state investments grew from 31 to 66, work completion rate jumped from 42% to 78%."
       },
       {
-        "q": "Como tratou privacidade/anonimização?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you handle privacy/anonymization?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como implementou técnicas de anonimização K-anonymity na prática para dados de folha de pagamento?",
+        "a": "Usei K-anonymity com K≥5, garantindo que cada combinação de atributos (cargo+lotação+faixa salarial) aparecesse em pelo menos 5 registros. Implementei: (1) Faixas salariais amplas (ex: R$8-12k, não R$10.347) para aumentar K; (2) Agregação geográfica (secretaria, não setor específico) quando K<5; (3) Supressão de outliers (ex: se governador é único em faixa >R$30k, suprimi registro); (4) Query monitoring que bloqueava automaticamente consultas retornando <5 registros. Li 8 pareceres jurídicos de outros estados e participei de 4 webinars da CGU para validar abordagem antes de implementar.",
+        "q_en": "How did you implement K-anonymity anonymization techniques in practice for payroll data?",
+        "a_en": "I used K-anonymity with K≥5, ensuring each attribute combination (position+department+salary range) appeared in at least 5 records. I implemented: (1) Wide salary ranges (e.g., R$8-12k, not R$10,347) to increase K; (2) Geographic aggregation (department, not specific sector) when K<5; (3) Outlier suppression (e.g., if governor is unique in >R$30k range, suppressed record); (4) Query monitoring that automatically blocked queries returning <5 records. Read 8 legal opinions from other states and attended 4 Controller's Office webinars to validate approach before implementing."
       },
       {
-        "q": "Houve incidentes/quase-incidentes?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Any incidents/near misses?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Houve incidentes de tentativa de re-identificação ou quase vazamento de dados? Como respondeu?",
+        "a": "Tivemos 2 quase-incidentes: (1) Jornalista tentou cruzar dados de folha com lista pública de matrículas para identificar servidores - nosso sistema de query monitoring detectou padrão suspeito (>100 queries sequenciais) e bloqueou automaticamente. Investigamos, confirmamos tentativa de re-identificação, e reforçamos K-anonymity aumentando faixas salariais; (2) Bug em filtro permitiu query retornando 3 registros (violando K≥5) - descobrimos em auditoria interna antes de ir público. Corrigi em 4 horas, documentei em post-mortem, e implementei teste de regressão. Zero vazamentos reais em 18 meses porque mecanismos de detecção antecipada funcionaram.",
+        "q_en": "Were there re-identification attempts or near data leak incidents? How did you respond?",
+        "a_en": "Had 2 near-incidents: (1) Journalist tried crossing payroll data with public enrollment list to identify public servants - our query monitoring system detected suspicious pattern (>100 sequential queries) and automatically blocked. Investigated, confirmed re-identification attempt, and reinforced K-anonymity by widening salary ranges; (2) Filter bug allowed query returning 3 records (violating K≥5) - discovered in internal audit before going public. Fixed in 4 hours, documented in post-mortem, and implemented regression test. Zero actual leaks in 18 months because early detection mechanisms worked."
       },
       {
-        "q": "Como escalou/reutilizou a solução?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you scale/reuse the solution?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como garantiu que a solução fosse reutilizada e escalada além do projeto inicial?",
+        "a": "Três estratégias: (1) Institucionalização - portal virou base para 3 iniciativas subsequentes (Painel COVID, Transparência de Convênios, Portal de Licitações); dados foram reutilizados por 23 municípios gaúchos que replicaram arquitetura; (2) Knowledge transfer - conhecimento em LGPD setorial que adquiri foi aplicado por mim em 4 outros projetos da SEFAZ, gerando R$ 380k em consultorias externas evitadas; (3) Escala geográfica - modelo foi replicado em Santa Catarina em 2025 com meu suporte. Chave foi documentar decision logs e criar playbook de implementação que qualquer estado pudesse seguir.",
+        "q_en": "How did you ensure the solution was reused and scaled beyond the initial project?",
+        "a_en": "Three strategies: (1) Institutionalization - portal became base for 3 subsequent initiatives (COVID Dashboard, Grants Transparency, Procurement Portal); data was reused by 23 municipalities in Rio Grande do Sul that replicated architecture; (2) Knowledge transfer - sectoral LGPD knowledge I acquired was applied by me to 4 other SEFAZ projects, generating R$ 380k in avoided external consultancies; (3) Geographic scale - model was replicated in Santa Catarina in 2025 with my support. Key was documenting decision logs and creating implementation playbook any state could follow."
       },
       {
-        "q": "Que lições políticas aplicou depois?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which political lessons did you apply later?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Que lições de navegação político-jurídica você aplicou em projetos subsequentes?",
+        "a": "Três lições transformadoras: (1) Validação com usuários finais desarma objeções - quando mostrei que 1.840 cidadãos em audiências públicas queriam transparência útil, jurídico recuou de proteção excessiva; (2) Soluções híbridas são mais sustentáveis que 'tudo ou nada' - acesso público + acesso restrito satisfez ambos stakeholders; (3) Investir 20% do prazo em aprendizado intensivo (80h estudando LGPD setorial, lendo pareceres) antes de executar evita erros caros - apliquei isso em todos projetos SEFAZ subsequentes, sempre investindo em expertise regulatória antes de desenhar solução. Economizou R$ 380k em retrabalho evitado.",
+        "q_en": "What political-legal navigation lessons did you apply in subsequent projects?",
+        "a_en": "Three transformative lessons: (1) End-user validation disarms objections - when I showed 1,840 citizens in public hearings wanted useful transparency, legal backed off excessive protection; (2) Hybrid solutions are more sustainable than 'all or nothing' - public access + restricted access satisfied both stakeholders; (3) Investing 20% of timeline in intensive learning (80h studying sectoral LGPD, reading opinions) before executing avoids expensive mistakes - applied this to all subsequent SEFAZ projects, always investing in regulatory expertise before designing solution. Saved R$ 380k in avoided rework."
       },
       {
-        "q": "Se refizesse, que governança mudaria?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "If redoing, what governance would you change?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Se pudesse refazer a governança multi-stakeholder, o que mudaria para reduzir fricção?",
+        "a": "Criaria 'comitê técnico' separado do 'comitê político' desde o início. Comitê técnico (jurídico + TCE + DPO) resolveria questões de LGPD/anonimização semanalmente com decisões rápidas. Comitê político (governador + secretários) aprovaria direcionamento mensal, não detalhes técnicos. Perdi 2 semanas em reuniões onde governador discutia detalhes de K-anonymity - totalmente desnecessário. Também implementaria 'decision log' público desde dia 1 - documentar cada decisão de arquitetura e justificativa reduziria questionamentos repetitivos. Isso economizaria ~15% do prazo (2 semanas).",
+        "q_en": "If you could redo multi-stakeholder governance, what would you change to reduce friction?",
+        "a_en": "Would create separate 'technical committee' from 'political committee' from the start. Technical committee (legal + Audit Court + DPO) would resolve LGPD/anonymization issues weekly with fast decisions. Political committee (governor + secretaries) would approve monthly direction, not technical details. Wasted 2 weeks in meetings where governor discussed K-anonymity details - totally unnecessary. Also would implement public 'decision log' from day 1 - documenting each architecture decision and rationale would reduce repetitive questioning. This would save ~15% of timeline (2 weeks)."
       },
       {
-        "q": "Como garantiu sustentabilidade pós-lançamento?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you ensure post-launch sustainability?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como garantiu que o portal continuaria funcionando e evoluindo após sua saída do projeto?",
+        "a": "Três mecanismos de sustentabilidade: (1) Transferência de conhecimento - treinei 12 analistas municipais em manutenção da arquitetura e conduzi 6 sessões de 'shadowing' onde me observavam resolver problemas reais; (2) Documentação viva - criei wiki interno com arquitetura, decision logs, e runbooks para incidentes comuns (ex: 'como adicionar nova secretaria ao portal'); (3) Métricas atreladas a incentivos - NPS de satisfação com transparência virou KPI de bônus de 3 secretários, criando ownership distribuído. Portal entregou 104% da meta de acessos no ano seguinte sem minha participação, provando sustentabilidade.",
+        "q_en": "How did you ensure the portal would continue functioning and evolving after you left the project?",
+        "a_en": "Three sustainability mechanisms: (1) Knowledge transfer - trained 12 municipal analysts in architecture maintenance and conducted 6 'shadowing' sessions where they observed me solving real problems; (2) Living documentation - created internal wiki with architecture, decision logs, and runbooks for common incidents (e.g., 'how to add new department to portal'); (3) Metrics tied to incentives - transparency satisfaction NPS became bonus KPI for 3 secretaries, creating distributed ownership. Portal delivered 104% of access goal the following year without my participation, proving sustainability."
       }
     ],
     "__file": "src\\data\\learn_and_be_curious\\learn_and_be_curious_case5.js",
@@ -111,64 +111,64 @@
     },
     "fups": [
       {
-        "q": "Quais riscos de exposição pública você mapeou?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "What public-exposure risks did you map?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Quais riscos de exposição de dados pessoais e reputacionais você mapeou antes de lançar o portal?",
+        "a": "Mapeei 3 categorias de risco: (1) Vazamento de dados pessoais - criei matriz classificando cada campo em 4 níveis (público irrestrito, público anonimizado, público agregado, confidencial) e estabeleci que nenhuma query poderia retornar <5 registros agregados para evitar identificação; (2) Erro de cálculo que gerasse contestação judicial - validei todos algoritmos com TCE e criei dupla checagem automática; (3) Captura política de prioridades - publiquei ranking mensal de projetos e qualquer ROI <12% entrava em revisão obrigatória com Tribunal de Contas. Implementei 12 testes de homologação específicos para anonimização antes do go-live.",
+        "q_en": "What personal data exposure and reputational risks did you map before launching the portal?",
+        "a_en": "I mapped 3 risk categories: (1) Personal data leaks - created matrix classifying each field into 4 levels (unrestricted public, anonymized public, aggregated public, confidential) and established no query could return <5 aggregated records to avoid identification; (2) Calculation errors generating lawsuits - validated all algorithms with Audit Court and created automatic double-checking; (3) Political capture of priorities - published monthly project ranking and any ROI <12% entered mandatory Audit Court review. Implemented 12 specific anonymization homologation tests before go-live."
       },
       {
-        "q": "Como articulou múltiplas áreas e externos?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you coordinate multiple areas and externals?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como conseguiu articular stakeholders tão conflitantes (TCE querendo transparência total vs. jurídico protegendo dados)?",
+        "a": "Não tentei conciliar posições incompatíveis - criei solução híbrida que satisfazia necessidades reais de ambos. TCE precisava auditar, não necessariamente ver CPFs publicamente. Jurídico precisava proteger LGPD, não bloquear auditoria. Desenhei sistema com 2 níveis: (1) Portal público com faixas salariais + cargo + lotação (sem CPF); (2) Acesso restrito para TCE/MP com CPF mediante justificativa auditável. Chave foi fazer 6 audiências públicas com 1.840 cidadãos - quando mostrei que população queria transparência útil (não CPFs, mas impacto de gastos), convenci jurídico que proteção excessiva prejudicava cidadão.",
+        "q_en": "How did you articulate such conflicting stakeholders (Audit Court wanting total transparency vs. legal protecting data)?",
+        "a_en": "Didn't try to reconcile incompatible positions - created hybrid solution satisfying real needs of both. Audit Court needed to audit, not necessarily see CPFs publicly. Legal needed to protect LGPD, not block audits. I designed 2-tier system: (1) Public portal with salary ranges + position + department (no CPF); (2) Restricted access for Audit Court/Prosecutor with CPF requiring auditable justification. Key was holding 6 public hearings with 1,840 citizens - when I showed population wanted useful transparency (not CPFs, but spending impact), I convinced legal that excessive protection hurt citizens."
       },
       {
-        "q": "Como o MVP acelerou a entrega sem perder qualidade?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did MVP accelerate delivery without losing quality?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como o MVP focado em 5 casos de uso priorizou qualidade sem comprometer escopo necessário?",
+        "a": "Entrevistei 230 cidadãos em 5 cidades e 18 jornalistas investigativos para identificar o que realmente importava. Descobri top 3 frustrações: obras paradas 12+ meses (78%), falta de transparência (64%), e tempo de deslocamento >90min. Desenhei MVP atacando essas dores: (1) execução orçamentária com drill-down por programa; (2) contratos vigentes; (3) evolução de folha por secretaria; (4) licitações com status; (5) transferências a municípios. Isso cobria 85% das solicitações LAI, então poderia validar hipótese rapidamente. Qualidade veio de tempo médio de resposta <1.8s (vs. meta 3s) e zero incidentes de privacidade.",
+        "q_en": "How did the MVP focused on 5 use cases prioritize quality without compromising necessary scope?",
+        "a_en": "I interviewed 230 citizens in 5 cities and 18 investigative journalists to identify what really mattered. I discovered top 3 frustrations: stalled works 12+ months (78%), lack of transparency (64%), and commute time >90min. I designed MVP attacking these pains: (1) budget execution with drill-down by program; (2) active contracts; (3) payroll evolution by department; (4) procurement with status; (5) transfers to municipalities. This covered 85% of Freedom of Information requests, so could validate hypothesis quickly. Quality came from average response time <1.8s (vs. 3s goal) and zero privacy incidents."
       },
       {
-        "q": "Que métricas de sucesso acompanhou?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which success metrics did you track?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Que métricas específicas acompanhou para provar impacto nos cidadãos, além de métricas técnicas?",
+        "a": "Rastreei 4 categorias: (1) Impacto direto no cidadão: tempo médio deslocamento casa-trabalho caiu de 87min para 61min para 2.3M pessoas (30% redução), satisfação com transparência aumentou de 28% para 71% (pesquisa Datafolha/TCE com 3.200 respondentes); (2) Eficiência operacional: solicitações LAI caíram 67% (de 340 para 112/ano), economizando 480h/ano; (3) Qualidade técnica: tempo resposta 1.8s, zero incidentes em 18 meses; (4) Impacto político: NPS cidadãos com investimentos estaduais cresceu de 31 para 66, taxa de conclusão de obras saltou de 42% para 78%.",
+        "q_en": "What specific metrics did you track to prove citizen impact, beyond technical metrics?",
+        "a_en": "I tracked 4 categories: (1) Direct citizen impact: average home-work commute dropped from 87min to 61min for 2.3M people (30% reduction), transparency satisfaction rose from 28% to 71% (Datafolha/Audit Court survey, 3,200 respondents); (2) Operational efficiency: Freedom of Information requests dropped 67% (from 340 to 112/year), saving 480h/year; (3) Technical quality: 1.8s response time, zero incidents in 18 months; (4) Political impact: citizen NPS with state investments grew from 31 to 66, work completion rate jumped from 42% to 78%."
       },
       {
-        "q": "Como tratou privacidade/anonimização?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you handle privacy/anonymization?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como implementou técnicas de anonimização K-anonymity na prática para dados de folha de pagamento?",
+        "a": "Usei K-anonymity com K≥5, garantindo que cada combinação de atributos (cargo+lotação+faixa salarial) aparecesse em pelo menos 5 registros. Implementei: (1) Faixas salariais amplas (ex: R$8-12k, não R$10.347) para aumentar K; (2) Agregação geográfica (secretaria, não setor específico) quando K<5; (3) Supressão de outliers (ex: se governador é único em faixa >R$30k, suprimi registro); (4) Query monitoring que bloqueava automaticamente consultas retornando <5 registros. Li 8 pareceres jurídicos de outros estados e participei de 4 webinars da CGU para validar abordagem antes de implementar.",
+        "q_en": "How did you implement K-anonymity anonymization techniques in practice for payroll data?",
+        "a_en": "I used K-anonymity with K≥5, ensuring each attribute combination (position+department+salary range) appeared in at least 5 records. I implemented: (1) Wide salary ranges (e.g., R$8-12k, not R$10,347) to increase K; (2) Geographic aggregation (department, not specific sector) when K<5; (3) Outlier suppression (e.g., if governor is unique in >R$30k range, suppressed record); (4) Query monitoring that automatically blocked queries returning <5 records. Read 8 legal opinions from other states and attended 4 Controller's Office webinars to validate approach before implementing."
       },
       {
-        "q": "Houve incidentes/quase-incidentes?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Any incidents/near misses?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Houve incidentes de tentativa de re-identificação ou quase vazamento de dados? Como respondeu?",
+        "a": "Tivemos 2 quase-incidentes: (1) Jornalista tentou cruzar dados de folha com lista pública de matrículas para identificar servidores - nosso sistema de query monitoring detectou padrão suspeito (>100 queries sequenciais) e bloqueou automaticamente. Investigamos, confirmamos tentativa de re-identificação, e reforçamos K-anonymity aumentando faixas salariais; (2) Bug em filtro permitiu query retornando 3 registros (violando K≥5) - descobrimos em auditoria interna antes de ir público. Corrigi em 4 horas, documentei em post-mortem, e implementei teste de regressão. Zero vazamentos reais em 18 meses porque mecanismos de detecção antecipada funcionaram.",
+        "q_en": "Were there re-identification attempts or near data leak incidents? How did you respond?",
+        "a_en": "Had 2 near-incidents: (1) Journalist tried crossing payroll data with public enrollment list to identify public servants - our query monitoring system detected suspicious pattern (>100 sequential queries) and automatically blocked. Investigated, confirmed re-identification attempt, and reinforced K-anonymity by widening salary ranges; (2) Filter bug allowed query returning 3 records (violating K≥5) - discovered in internal audit before going public. Fixed in 4 hours, documented in post-mortem, and implemented regression test. Zero actual leaks in 18 months because early detection mechanisms worked."
       },
       {
-        "q": "Como escalou/reutilizou a solução?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you scale/reuse the solution?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como garantiu que a solução fosse reutilizada e escalada além do projeto inicial?",
+        "a": "Três estratégias: (1) Institucionalização - portal virou base para 3 iniciativas subsequentes (Painel COVID, Transparência de Convênios, Portal de Licitações); dados foram reutilizados por 23 municípios gaúchos que replicaram arquitetura; (2) Knowledge transfer - conhecimento em LGPD setorial que adquiri foi aplicado por mim em 4 outros projetos da SEFAZ, gerando R$ 380k em consultorias externas evitadas; (3) Escala geográfica - modelo foi replicado em Santa Catarina em 2025 com meu suporte. Chave foi documentar decision logs e criar playbook de implementação que qualquer estado pudesse seguir.",
+        "q_en": "How did you ensure the solution was reused and scaled beyond the initial project?",
+        "a_en": "Three strategies: (1) Institutionalization - portal became base for 3 subsequent initiatives (COVID Dashboard, Grants Transparency, Procurement Portal); data was reused by 23 municipalities in Rio Grande do Sul that replicated architecture; (2) Knowledge transfer - sectoral LGPD knowledge I acquired was applied by me to 4 other SEFAZ projects, generating R$ 380k in avoided external consultancies; (3) Geographic scale - model was replicated in Santa Catarina in 2025 with my support. Key was documenting decision logs and creating implementation playbook any state could follow."
       },
       {
-        "q": "Que lições políticas aplicou depois?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "Which political lessons did you apply later?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Que lições de navegação político-jurídica você aplicou em projetos subsequentes?",
+        "a": "Três lições transformadoras: (1) Validação com usuários finais desarma objeções - quando mostrei que 1.840 cidadãos em audiências públicas queriam transparência útil, jurídico recuou de proteção excessiva; (2) Soluções híbridas são mais sustentáveis que 'tudo ou nada' - acesso público + acesso restrito satisfez ambos stakeholders; (3) Investir 20% do prazo em aprendizado intensivo (80h estudando LGPD setorial, lendo pareceres) antes de executar evita erros caros - apliquei isso em todos projetos SEFAZ subsequentes, sempre investindo em expertise regulatória antes de desenhar solução. Economizou R$ 380k em retrabalho evitado.",
+        "q_en": "What political-legal navigation lessons did you apply in subsequent projects?",
+        "a_en": "Three transformative lessons: (1) End-user validation disarms objections - when I showed 1,840 citizens in public hearings wanted useful transparency, legal backed off excessive protection; (2) Hybrid solutions are more sustainable than 'all or nothing' - public access + restricted access satisfied both stakeholders; (3) Investing 20% of timeline in intensive learning (80h studying sectoral LGPD, reading opinions) before executing avoids expensive mistakes - applied this to all subsequent SEFAZ projects, always investing in regulatory expertise before designing solution. Saved R$ 380k in avoided rework."
       },
       {
-        "q": "Se refizesse, que governança mudaria?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "If redoing, what governance would you change?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Se pudesse refazer a governança multi-stakeholder, o que mudaria para reduzir fricção?",
+        "a": "Criaria 'comitê técnico' separado do 'comitê político' desde o início. Comitê técnico (jurídico + TCE + DPO) resolveria questões de LGPD/anonimização semanalmente com decisões rápidas. Comitê político (governador + secretários) aprovaria direcionamento mensal, não detalhes técnicos. Perdi 2 semanas em reuniões onde governador discutia detalhes de K-anonymity - totalmente desnecessário. Também implementaria 'decision log' público desde dia 1 - documentar cada decisão de arquitetura e justificativa reduziria questionamentos repetitivos. Isso economizaria ~15% do prazo (2 semanas).",
+        "q_en": "If you could redo multi-stakeholder governance, what would you change to reduce friction?",
+        "a_en": "Would create separate 'technical committee' from 'political committee' from the start. Technical committee (legal + Audit Court + DPO) would resolve LGPD/anonymization issues weekly with fast decisions. Political committee (governor + secretaries) would approve monthly direction, not technical details. Wasted 2 weeks in meetings where governor discussed K-anonymity details - totally unnecessary. Also would implement public 'decision log' from day 1 - documenting each architecture decision and rationale would reduce repetitive questioning. This would save ~15% of timeline (2 weeks)."
       },
       {
-        "q": "Como garantiu sustentabilidade pós-lançamento?",
-        "a": "Eu descrevi a decisão, os critérios e a evidência, conectando ao impacto no cliente/operação. Usei dados e mecanismos para mitigar riscos e sustentar escala.",
-        "q_en": "How did you ensure post-launch sustainability?",
-        "a_en": "I described the decision, criteria, and evidence, tied to customer/operations impact. I used data and mechanisms to mitigate risk and sustain scale."
+        "q": "Como garantiu que o portal continuaria funcionando e evoluindo após sua saída do projeto?",
+        "a": "Três mecanismos de sustentabilidade: (1) Transferência de conhecimento - treinei 12 analistas municipais em manutenção da arquitetura e conduzi 6 sessões de 'shadowing' onde me observavam resolver problemas reais; (2) Documentação viva - criei wiki interno com arquitetura, decision logs, e runbooks para incidentes comuns (ex: 'como adicionar nova secretaria ao portal'); (3) Métricas atreladas a incentivos - NPS de satisfação com transparência virou KPI de bônus de 3 secretários, criando ownership distribuído. Portal entregou 104% da meta de acessos no ano seguinte sem minha participação, provando sustentabilidade.",
+        "q_en": "How did you ensure the portal would continue functioning and evolving after you left the project?",
+        "a_en": "Three sustainability mechanisms: (1) Knowledge transfer - trained 12 municipal analysts in architecture maintenance and conducted 6 'shadowing' sessions where they observed me solving real problems; (2) Living documentation - created internal wiki with architecture, decision logs, and runbooks for common incidents (e.g., 'how to add new department to portal'); (3) Metrics tied to incentives - transparency satisfaction NPS became bonus KPI for 3 secretaries, creating distributed ownership. Portal delivered 104% of access goal the following year without my participation, proving sustainability."
       }
     ],
     "__file": "src\\data\\learn_and_be_curious\\learn_and_be_curious_case5.js",

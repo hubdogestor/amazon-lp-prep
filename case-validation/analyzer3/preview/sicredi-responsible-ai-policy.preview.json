@@ -24,9 +24,9 @@
     "fups": [
       {
         "q": "Quais foram os principais desafios ao implementar a Política de IA Responsável e como você os superou?",
-        "a": "O maior desafio foi a percepção de que isso 'atrasaria a inovação'. Superei isso mostrando que a IA Responsável não era um 'freio', mas um 'guard-rail'. Argumentei que construir um modelo justo e transparente desde o início era muito mais rápido e barato do que gerenciar uma crise de reputação ou ter que reconstruir um modelo enviesado do zero no futuro.",
+        "a": "O maior desafio foi a resistência do VP Comercial que argumentou que 'auditorias éticas atrasariam lançamentos' e que 'concorrentes não fazem isso'. Superei isso demonstrando com dados que modelos enviesados custaram à concorrência milhões em multas e reputação. Mostrei que IA Responsável não era 'freio', mas 'guard-rail' que acelerava go-to-market ao evitar retrabalho. Argumentei que construir certo desde o início era mais rápido que gerenciar crise depois.",
         "q_en": "What were the main challenges implementing the Responsible AI Policy and how did you overcome them?",
-        "a_en": "The biggest challenge was the perception that this would 'slow innovation'. I overcame this by showing that Responsible AI wasn't a 'brake', but a 'guard-rail'. I argued that building a fair and transparent model from the start was much faster and cheaper than managing a reputation crisis or having to rebuild a biased model from scratch in the future."
+        "a_en": "The biggest challenge was resistance from Commercial VP who argued that 'ethical audits would delay launches' and 'competitors don't do this'. I overcame this by demonstrating with data that biased models cost competitors millions in fines and reputation. I showed Responsible AI wasn't a 'brake' but a 'guard-rail' that accelerated go-to-market by avoiding rework. I argued building right from start was faster than managing crisis later."
       },
       {
         "q": "Como você monitorou os resultados após corrigir o viés no modelo? Houve melhorias específicas para os trabalhadores autônomos ou outros grupos?",
@@ -112,9 +112,9 @@
     "fups": [
       {
         "q": "Quais foram os principais desafios ao implementar a Política de IA Responsável e como você os superou?",
-        "a": "O maior desafio foi a percepção de que isso 'atrasaria a inovação'. Superei isso mostrando que a IA Responsável não era um 'freio', mas um 'guard-rail'. Argumentei que construir um modelo justo e transparente desde o início era muito mais rápido e barato do que gerenciar uma crise de reputação ou ter que reconstruir um modelo enviesado do zero no futuro.",
+        "a": "O maior desafio foi a resistência do VP Comercial que argumentou que 'auditorias éticas atrasariam lançamentos' e que 'concorrentes não fazem isso'. Superei isso demonstrando com dados que modelos enviesados custaram à concorrência milhões em multas e reputação. Mostrei que IA Responsável não era 'freio', mas 'guard-rail' que acelerava go-to-market ao evitar retrabalho. Argumentei que construir certo desde o início era mais rápido que gerenciar crise depois.",
         "q_en": "What were the main challenges implementing the Responsible AI Policy and how did you overcome them?",
-        "a_en": "The biggest challenge was the perception that this would 'slow innovation'. I overcame this by showing that Responsible AI wasn't a 'brake', but a 'guard-rail'. I argued that building a fair and transparent model from the start was much faster and cheaper than managing a reputation crisis or having to rebuild a biased model from scratch in the future."
+        "a_en": "The biggest challenge was resistance from Commercial VP who argued that 'ethical audits would delay launches' and 'competitors don't do this'. I overcame this by demonstrating with data that biased models cost competitors millions in fines and reputation. I showed Responsible AI wasn't a 'brake' but a 'guard-rail' that accelerated go-to-market by avoiding rework. I argued building right from start was faster than managing crisis later."
       },
       {
         "q": "Como você monitorou os resultados após corrigir o viés no modelo? Houve melhorias específicas para os trabalhadores autônomos ou outros grupos?",

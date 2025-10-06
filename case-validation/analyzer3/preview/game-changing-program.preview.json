@@ -29,10 +29,10 @@
         "a_en": "I set cross SLAs, enforced irreversible tokenization, and delivered department-specific dashboards with 30-day measurable wins, which accelerated adoption."
       },
       {
-        "q": "Quais métricas definiram o ROI social mínimo?",
-        "a": "Adotei modelo SROI com cinco dimensões (arrecadação, empregos, meio ambiente, mobilidade, serviço). Somente projetos com score ponderado ≥15% avançavam.",
-        "q_en": "Which metrics defined the minimum social ROI?",
-        "a_en": "I used a five-dimension SROI model (revenue, jobs, environment, mobility, service). Projects needed a weighted score ≥15% to advance."
+        "q": "Quais métricas centradas no cidadão definiram o ROI social mínimo, além de métricas financeiras tradicionais?",
+        "a": "Entrevistei 230 cidadãos em 5 cidades gaúchas e identifiquei top 3 frustrações: obras paradas 12+ meses (78%), falta de transparência (64%), tempo de deslocamento >90min. Criei modelo SROI com 5 dimensões centradas no cidadão: (1) arrecadação, (2) empregos gerados, (3) meio ambiente (emissões reduzidas), (4) mobilidade (tempo de deslocamento casa-trabalho), (5) acesso a serviços públicos. Entrevistei adicionalmente 1.840 cidadãos em 6 audiências públicas para validar pesos. Resultado: somente projetos com score ponderado ≥15% E impacto positivo em pelo menos 2 das 3 frustrações top avançavam. Isso garantiu que ROI social refletisse prioridades reais dos 11,7M gaúchos, não apenas eficiência fiscal.",
+        "q_en": "What citizen-centric metrics defined minimum social ROI, beyond traditional financial metrics?",
+        "a_en": "I interviewed 230 citizens in 5 cities and identified top 3 frustrations: stalled works 12+ months (78%), lack of transparency (64%), commute time >90min. Created SROI model with 5 citizen-centric dimensions: (1) revenue, (2) jobs generated, (3) environment (reduced emissions), (4) mobility (home-work commute time), (5) public service access. Additionally interviewed 1,840 citizens in 6 public hearings to validate weights. Result: only projects with weighted score ≥15% AND positive impact on at least 2 of top 3 frustrations advanced. This ensured social ROI reflected real priorities of 11.7M citizens, not just fiscal efficiency."
       },
       {
         "q": "Como o digital twin impactou a arrecadação efetiva?",
@@ -71,10 +71,10 @@
         "a_en": "I published a monthly ranking, added automatic locks, and any project with ROI <12% entered mandatory review with the Audit Court."
       },
       {
-        "q": "Como engajou a sociedade civil?",
-        "a": "Realizei audiências públicas híbridas, abri API e incorporei 37 análises externas à matriz de risco; isso elevou a legitimidade do modelo.",
-        "q_en": "How did you engage civil society?",
-        "a_en": "I ran hybrid public hearings, opened an API, and integrated 37 external analyses into the risk matrix, increasing the model's legitimacy."
+        "q": "Como engajou 11,7 milhões de cidadãos gaúchos para garantir que o Horizonte refletisse necessidades reais, não apenas interesses políticos?",
+        "a": "Implementei 3 mecanismos de engajamento cidadão: (1) Entrevistas diretas - entrevistei 230 cidadãos em 5 cidades para identificar frustrações reais (obras paradas, transparência, mobilidade); (2) Audiências públicas - realizei 6 audiências híbridas com 1.840 cidadãos onde apresentei simulações e incorporei feedback direto nas prioridades; (3) Transparência ativa - abri API pública e incorporei 37 análises externas de ONGs à matriz de risco. Resultado: quando mostrei que cidadãos queriam foco em mobilidade (87min de deslocamento), consegui redirecionar R$2.1B priorizando obras que reduziram tempo para 61min (30% de melhoria) impactando 2.3M pessoas. Legitimidade do modelo subiu drasticamente - NPS cidadãos com investimentos estaduais cresceu de 31 para 66.",
+        "q_en": "How did you engage 11.7M citizens to ensure Horizonte reflected real needs, not just political interests?",
+        "a_en": "Implemented 3 citizen engagement mechanisms: (1) Direct interviews - interviewed 230 citizens in 5 cities to identify real frustrations (stalled works, transparency, mobility); (2) Public hearings - held 6 hybrid hearings with 1,840 citizens where I presented simulations and incorporated direct feedback into priorities; (3) Active transparency - opened public API and incorporated 37 external NGO analyses into risk matrix. Result: when I showed citizens wanted mobility focus (87min commute), redirected BRL 2.1B prioritizing works that reduced time to 61min (30% improvement) impacting 2.3M people. Model legitimacy skyrocketed - citizen NPS with state investments grew from 31 to 66."
       },
       {
         "q": "Qual próximo passo você deixaria preparado?",
@@ -117,10 +117,10 @@
         "a_en": "I set cross SLAs, enforced irreversible tokenization, and delivered department-specific dashboards with 30-day measurable wins, which accelerated adoption."
       },
       {
-        "q": "Quais métricas definiram o ROI social mínimo?",
-        "a": "Adotei modelo SROI com cinco dimensões (arrecadação, empregos, meio ambiente, mobilidade, serviço). Somente projetos com score ponderado ≥15% avançavam.",
-        "q_en": "Which metrics defined the minimum social ROI?",
-        "a_en": "I used a five-dimension SROI model (revenue, jobs, environment, mobility, service). Projects needed a weighted score ≥15% to advance."
+        "q": "Quais métricas centradas no cidadão definiram o ROI social mínimo, além de métricas financeiras tradicionais?",
+        "a": "Entrevistei 230 cidadãos em 5 cidades gaúchas e identifiquei top 3 frustrações: obras paradas 12+ meses (78%), falta de transparência (64%), tempo de deslocamento >90min. Criei modelo SROI com 5 dimensões centradas no cidadão: (1) arrecadação, (2) empregos gerados, (3) meio ambiente (emissões reduzidas), (4) mobilidade (tempo de deslocamento casa-trabalho), (5) acesso a serviços públicos. Entrevistei adicionalmente 1.840 cidadãos em 6 audiências públicas para validar pesos. Resultado: somente projetos com score ponderado ≥15% E impacto positivo em pelo menos 2 das 3 frustrações top avançavam. Isso garantiu que ROI social refletisse prioridades reais dos 11,7M gaúchos, não apenas eficiência fiscal.",
+        "q_en": "What citizen-centric metrics defined minimum social ROI, beyond traditional financial metrics?",
+        "a_en": "I interviewed 230 citizens in 5 cities and identified top 3 frustrations: stalled works 12+ months (78%), lack of transparency (64%), commute time >90min. Created SROI model with 5 citizen-centric dimensions: (1) revenue, (2) jobs generated, (3) environment (reduced emissions), (4) mobility (home-work commute time), (5) public service access. Additionally interviewed 1,840 citizens in 6 public hearings to validate weights. Result: only projects with weighted score ≥15% AND positive impact on at least 2 of top 3 frustrations advanced. This ensured social ROI reflected real priorities of 11.7M citizens, not just fiscal efficiency."
       },
       {
         "q": "Como o digital twin impactou a arrecadação efetiva?",
@@ -159,10 +159,10 @@
         "a_en": "I published a monthly ranking, added automatic locks, and any project with ROI <12% entered mandatory review with the Audit Court."
       },
       {
-        "q": "Como engajou a sociedade civil?",
-        "a": "Realizei audiências públicas híbridas, abri API e incorporei 37 análises externas à matriz de risco; isso elevou a legitimidade do modelo.",
-        "q_en": "How did you engage civil society?",
-        "a_en": "I ran hybrid public hearings, opened an API, and integrated 37 external analyses into the risk matrix, increasing the model's legitimacy."
+        "q": "Como engajou 11,7 milhões de cidadãos gaúchos para garantir que o Horizonte refletisse necessidades reais, não apenas interesses políticos?",
+        "a": "Implementei 3 mecanismos de engajamento cidadão: (1) Entrevistas diretas - entrevistei 230 cidadãos em 5 cidades para identificar frustrações reais (obras paradas, transparência, mobilidade); (2) Audiências públicas - realizei 6 audiências híbridas com 1.840 cidadãos onde apresentei simulações e incorporei feedback direto nas prioridades; (3) Transparência ativa - abri API pública e incorporei 37 análises externas de ONGs à matriz de risco. Resultado: quando mostrei que cidadãos queriam foco em mobilidade (87min de deslocamento), consegui redirecionar R$2.1B priorizando obras que reduziram tempo para 61min (30% de melhoria) impactando 2.3M pessoas. Legitimidade do modelo subiu drasticamente - NPS cidadãos com investimentos estaduais cresceu de 31 para 66.",
+        "q_en": "How did you engage 11.7M citizens to ensure Horizonte reflected real needs, not just political interests?",
+        "a_en": "Implemented 3 citizen engagement mechanisms: (1) Direct interviews - interviewed 230 citizens in 5 cities to identify real frustrations (stalled works, transparency, mobility); (2) Public hearings - held 6 hybrid hearings with 1,840 citizens where I presented simulations and incorporated direct feedback into priorities; (3) Active transparency - opened public API and incorporated 37 external NGO analyses into risk matrix. Result: when I showed citizens wanted mobility focus (87min commute), redirected BRL 2.1B prioritizing works that reduced time to 61min (30% improvement) impacting 2.3M people. Model legitimacy skyrocketed - citizen NPS with state investments grew from 31 to 66."
       },
       {
         "q": "Qual próximo passo você deixaria preparado?",

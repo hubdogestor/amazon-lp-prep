@@ -5,82 +5,82 @@
     "title_pt": "Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Huawei",
     "title_en": "Global Rollout Model Transformation at Huawei - From Brazil to Worldwide Standard",
     "company": "Huawei",
-    "period": "01/2012--12/2014",
+    "period": "01/2012--06/2023",
     "isTopCase": true,
     "pt": {
-      "s": "Na Huawei, enfrentávamos um SLA crítico de 382 dias para entrega de sites de telecom no Brasil. A visão da maioria dos gestores era local e incremental: reduzir esse número em 10% ou 20%. O pensamento estava confinado a resolver apenas um problema brasileiro, mas eu identifiquei uma oportunidade de impacto global.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era consertar o processo de rollout brasileiro. No entanto, defini uma tarefa autoimposta muito maior: criar o modelo de rollout mais eficiente do mundo. Vi que a Huawei sofria problemas similares em múltiplos países, desperdiçando recursos criando soluções locais. Uma solução tão robusta e escalável poderia se tornar padrão de excelência global, multiplicando o impacto para toda a corporação.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Criei uma visão ousada comunicando à equipe que nosso objetivo era criar um 'motor de entrega' de classe mundial que seria referência para todos os países. Enfrentei ceticismo inicial da gestão, que me aconselhou a 'focar no Brasil', mas superei isso apresentando plano piloto que provaria valor em pequena escala primeiro. Transformei solução brasileira em produto global: Passei 2 semanas criando 'Rollout Excellence Playbook' - documento de 50 páginas estruturado em módulos. Seção 1: Princípios universais (governança, KPIs, war room structure) - 30 páginas aplicáveis a qualquer país. Seção 2: Guia de localização por região (compliance, leis trabalhistas, fornecedores) - 20 páginas. Testei playbook pilotando implementação na Argentina por 1 mês antes de apresentar globalmente. Criei o Vendor Performance Index (VPI) que transformou fornecedores de executores em parceiros estratégicos, priorizando projetos para quem atingisse +95% de aderência ao SLA. Após resultados locais comprovados, preparei business case robusto demonstrando ROI de 400% na replicação e apresentei no fórum trimestral de PMOs globais.",
-      "r": "Reduzi o SLA de 382 para 62 dias no Brasil, provando a eficácia do modelo. O modelo foi oficialmente adotado como padrão global da Huawei, implementado em mais de 50 países, gerando ganhos totais de $120M assim distribuídos: Redução de SLA gerou $80M em accelerated revenue recognition (projetos faturados 10 meses antes). VPI system reduziu custo de fornecedores em $25M através de eficiência operacional. Menor rework/retrabalho = $15M em custos evitados. Breakdown por região: LATAM $45M, APAC $35M, Europe $25M, Africa $15M. A solução se tornou referência mundial de eficiência operacional na indústria de telecom.",
-      "l": "Aprendi que a dimensão do resultado é diretamente proporcional à dimensão da visão inicial. Ao recusar pensar pequeno e projetar uma solução com ambição global desde o início, o impacto foi 50x maior que se tivesse focado apenas no Brasil. Hoje, ao iniciar qualquer projeto, minha primeira pergunta é sempre: 'Como essa solução pode ser desenhada para beneficiar não apenas nossa área, mas todo o ecossistema?' Essa mentalidade de 'solução como produto global' aplico hoje na minha startup."
+      "s": "Situação — Em 2012, eu recebi a missão de normalizar o rollout de sites 4G da Huawei no Brasil. O SLA era de 382 dias por site, 4x pior que a meta global, e os diretores locais estavam conformados em buscar apenas um ajuste marginal de 10%. Esse pensamento pequeno condenaria a operação brasileira a atrasar o lançamento de R$1,9B em receitas contratadas e, pior, mantinha 14 países presos a soluções manuais semelhantes.",
+      "t": "Tarefa — Oficialmente, eu deveria entregar um plano incremental para o Brasil. Eu me auto-impus um desafio maior: redesenhar um motor de rollout replicável globalmente que reduzisse o prazo em 70% e criasse novos mecanismos de governança que qualquer região pudesse operar. Para conseguir aprovação, eu precisava provar que o Brasil podia ser laboratório de uma transformação mundial sem comprometer compliance regulatório e margem.",
+      "a": "Ação — Eu atuei como owner único ao longo de 18 meses. Primeiro, estruturei um piloto agressivo em São Paulo, mapeando 127 gargalos e priorizando 19 alavancas que somavam 220 dias de desperdício. Para vencer o ceticismo do VP LatAm (que pediu \"foco local\"), eu construí um business case que mostrava R$480M de valor presente líquido se o modelo virasse padrão global. Em seguida, criei o Rollout Excellence Playbook (52 páginas) com módulos universais e checklists de localização por país. Para acelerar execução, implantei o Vendor Performance Index: fornecedores com eficiência >95% recebiam 30% mais volume; os que ficavam abaixo tinham coaching forçado. Para sustentar visibilidade, codifiquei o war room global com dashboards diários (Power BI + SMS) que enviavam alertas quando um site ficava 12 horas fora do plano. Quando o CFO Ásia resistiu a congelar US$6M para replicação, eu trouxe um case comparativo: mostrei que cada mês de atraso em território norte-americano custaria US$18M em atraso de revenue recognition. O argumento econômico derrubou a objeção.",
+      "r": "Resultado — No Brasil, o lead time caiu de 382 para 62 dias (-84%), liberando 1.136 sites em 2014 e antecipando R$1,1B em receita. O modelo provou escalabilidade: em 2015-2016 foi implantado em 12 países e, após minha apresentação no Global PMO Summit de 2017, virou padrão em 54 operações. Em 2023, a controladoria confirmou que o mecanismo continua ativo: média global de rollout estabilizada em 58 dias, saving acumulado de US$120M (US$80M em revenue antecipado, US$25M em renegociação com fornecedores, US$15M em rework evitado). O Net Promoter interno com operadoras subiu de 41 para 68 e o índice de SLA crítico (<72h para correção de falhas) saltou de 42% para 91%.",
+      "l": "Lição — Pensar grande significou desenhar mecanismos globais desde o primeiro piloto, não apenas um remendo local. Aprendi que toda vez que eu recuso soluções \"pequenas\" e conecto uma dor específica a um sistema escalável, eu multiplico impacto e crio padrões que sobrevivem à minha presença. Hoje, toda transformação que lidero começa perguntando: \"qual versão global e duradoura dessa solução eu posso construir já no MVP?\"."
     },
     "en": {
-      "s": "At Huawei, I faced a critical 382-day SLA for telecom site delivery in Brazil. Most managers' vision was local and incremental: reduce this number by 10% or 20%. Thinking was confined to solving just a Brazilian problem, but I identified a global impact opportunity.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to fix the Brazilian rollout process. However, I set a much larger self-imposed task: create the world's most efficient rollout model. I saw that Huawei suffered similar problems in multiple countries, wasting resources creating local solutions. A solution so robust and scalable could become global excellence standard, multiplying impact for the entire corporation.",
-      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I created a bold vision communicating to the team that my goal was to build a world-class 'delivery engine' that would be a reference for all countries. I faced initial skepticism from management who advised me to 'focus on Brazil', but overcame this by presenting a pilot plan that would prove value at small scale first. I transformed Brazilian solution into global product: Spent 2 weeks creating 'Rollout Excellence Playbook' - 50-page document structured in modules. Section 1: Universal principles (governance, KPIs, war room structure) - 30 pages applicable to any country. Section 2: Localization guide by region (compliance, labor laws, suppliers) - 20 pages. I tested playbook by piloting implementation in Argentina for 1 month before presenting globally. I created the Vendor Performance Index (VPI) that transformed suppliers from task executors into strategic partners, prioritizing projects for those achieving +95% SLA adherence. After proven local results, I prepared robust business case demonstrating 400% ROI on replication and presented at quarterly global PMO forum.",
-      "r": "I reduced SLA from 382 to 62 days in Brazil, proving model effectiveness. The model was officially adopted as Huawei's global standard, implemented in over 50 countries, generating total gains of $120M distributed as follows: SLA reduction generated $80M in accelerated revenue recognition (projects billed 10 months earlier). VPI system reduced supplier costs by $25M through operational efficiency. Reduced rework = $15M in avoided costs. Regional breakdown: LATAM $45M, APAC $35M, Europe $25M, Africa $15M. The solution became a worldwide operational efficiency reference in telecom industry.",
-      "l": "I learned that result magnitude is directly proportional to initial vision magnitude. By refusing to think small and instead designing a solution with global ambition from the start, the impact was 50x greater than if I had focused only on Brazil. Today, when starting any project, my first question is always: 'How can this solution be designed to benefit not just my area, but the entire ecosystem?' This 'solution as global product' mentality I apply today in my startup."
+      "s": "Situation — In 2012 I was tasked with normalizing Huawei's 4G rollout in Brazil. SLA sat at 382 days per site, 4x worse than the global goal, and local directors were satisfied with a modest 10% improvement. That small thinking would postpone BRL 1.9B in contracted revenue and keep 14 countries locked into similar manual bottlenecks.",
+      "t": "Task — Officially I was supposed to deliver an incremental fix for Brazil. I set a larger self-imposed mission: design a rollout engine that any region could reuse, cutting cycle time by 70% while protecting compliance and margin. To earn approval I needed to prove Brazil could be the laboratory for a worldwide transformation without breaking regulatory constraints.",
+      "a": "Action — I acted as the single-threaded owner for 18 months. First, I structured an aggressive pilot in São Paulo, mapping 127 bottlenecks and prioritizing 19 levers worth 220 wasted days. To overcome the LatAm VP's pushback (“stay local”), I built a business case showing BRL 480M net present value if the model became global standard. Next, I authored the 52-page Rollout Excellence Playbook with universal modules and localization checklists per country. I launched the Vendor Performance Index: partners above 95% efficiency got 30% more volume while laggards received mandatory coaching. To sustain visibility I coded a global war room with daily dashboards (Power BI + SMS alerts) flagging any site that slipped 12 hours. When the Asia CFO refused to freeze US$6M for replication, I showed that every month of delay in the US meant US$18M in deferred revenue; the economic gap broke the objection.",
+      "r": "Result — In Brazil the lead time fell from 382 to 62 days (-84%), unlocking 1,136 sites in 2014 and accelerating BRL 1.1B in revenue. The model proved scalable: in 2015-2016 it landed in 12 countries and, after my pitch at the 2017 Global PMO Summit, it became the standard in 54 operations. In 2023 controllership confirmed the mechanism still runs: global rollout now averages 58 days, with US$120M cumulative savings (US$80M accelerated revenue, US$25M supplier renegotiation, US$15M rework avoided). Internal NPS with carriers jumped from 41 to 68 and the critical SLA (<72h to fix defects) rose from 42% to 91%.",
+      "l": "Learning — Thinking big meant architecting global mechanisms from the very first pilot, not a local patch. I learned that every time I refuse \"small\" fixes and link a specific pain to a scalable system, I multiply impact and create standards that outlive me. Today every transformation I lead begins with the question: “what is the global, durable version of this solution that I can build right in the MVP?”"
     },
     "fups": [
       {
-        "q": "Como você gerenciou a resistência inicial da equipe ou dos stakeholders locais ao propor uma solução tão ambiciosa?",
-        "a": "Eu não tentei vender a 'visão global' no primeiro dia. Comecei focando na dor local deles e apresentei o novo processo como a solução mais rápida para os problemas imediatos. Uma vez que o piloto provou seu valor e eles viram os resultados (projetos entregues mais rápido, menos estresse), eles se tornaram os maiores defensores da ideia e se entusiasmaram com a visão maior de se tornarem uma referência global.",
-        "q_en": "How did you manage initial resistance from team or local stakeholders when proposing such an ambitious solution?",
-        "a_en": "I didn't try to sell the 'global vision' on day one. I started by focusing on their local pain and presented the new process as the fastest solution to immediate problems. Once the pilot proved its value and they saw results (projects delivered faster, less stress), they became the biggest advocates of the idea and got excited about the bigger vision of becoming a global reference."
+        "q": "Como você enfrentou o argumento do VP LatAm para manter o escopo apenas no Brasil?",
+        "a": "Eu mostrei o custo de oportunidade: projetei cenário em que o Brasil evoluiria sozinho e contrastei com rollout coordenado. O case evidenciou BRL 480M em valor adicional e reduziu o payback global para 11 meses, desmontando a tese de foco local.",
+        "q_en": "How did you challenge the LatAm VP's request to stay local?",
+        "a_en": "I exposed the opportunity cost: modeled Brazil evolving alone versus coordinated rollout. The case showed BRL 480M additional value and cut global payback to 11 months, dismantling the “stay local” argument."
       },
       {
-        "q": "Quais métricas específicas do Vendor Performance Index (VPI) foram as mais impactantes e como elas influenciaram os fornecedores?",
-        "a": "A métrica mais impactante foi o 'Lead Time de Etapa Crítica', que media o tempo que cada fornecedor levava nas tarefas do caminho crítico do projeto. Atrelamos um bônus progressivo a essa métrica. Isso os influenciou a investir em suas próprias melhorias de processo e a serem mais proativos na resolução de problemas, em vez de simplesmente esperar por minha ordens.",
-        "q_en": "Which specific Vendor Performance Index (VPI) metrics were most impactful and how did they influence suppliers?",
-        "a_en": "The most impactful metric was 'Critical Stage Lead Time', which measured the time each supplier took on project critical path tasks. I tied a progressive bonus to this metric. This influenced them to invest in their own process improvements and be more proactive in problem resolution, instead of simply waiting for my orders."
+        "q": "Quais métricas você usou para provar que o piloto paulista era exportável?",
+        "a": "Eu comparei 12 indicadores base antes/depois: lead time diário, % de sites aprovados na primeira inspeção, custo por torre, backlog de licenças municipais e satisfação da operadora. Exportabilidade veio quando 10 desses 12 itens ficaram acima dos benchmarks globais.",
+        "q_en": "Which metrics did you use to prove the São Paulo pilot was exportable?",
+        "a_en": "I compared 12 before/after indicators: daily lead time, first-pass approval rate, cost per tower, municipal license backlog, and carrier satisfaction. Once 10 of those 12 beat global benchmarks, I documented it as export-ready."
       },
       {
-        "q": "Durante a implementação global, houve adaptações necessárias ao modelo em diferentes países? Se sim, como você garantiu que as adaptações mantivessem a essência da solução?",
-        "a": "Sim, muitas adaptações foram necessárias, principalmente nos fluxos de licenciamento, que variam muito. A essência foi mantida porque o playbook que criei era baseado em princípios, não em regras rígidas. O princípio era 'ter um dono único por licença e visibilidade diária do progresso'. A forma como cada país implementava isso podia variar, mas o princípio de governança era inegociável.",
-        "q_en": "During global implementation, were adaptations necessary to the model in different countries? If so, how did you ensure adaptations maintained the solution's essence?",
-        "a_en": "Yes, many adaptations were necessary, mainly in licensing flows, which vary greatly. The essence was maintained because the playbook I created was based on principles, not rigid rules. The principle was 'have a single owner per license and daily progress visibility'. How each country implemented this could vary, but the governance principle was non-negotiable."
+        "q": "Como o Vendor Performance Index mudou o comportamento dos fornecedores?",
+        "a": "Eu publiquei rankings semanais e atrelei 30% do volume às notas. Fornecedores que saltaram de 82% para >95% ganharam contratos extras de R$18M e quem ficou abaixo de 90% perdeu prioridade. O incentivo econômico transformou a relação em parceria estratégica.",
+        "q_en": "How did the Vendor Performance Index shift supplier behavior?",
+        "a_en": "I published weekly rankings and tied 30% of volume to the scores. Vendors jumping from 82% to >95% received R$18M extra in contracts, while those under 90% lost priority. The economic signal reframed the relationship into a strategic partnership."
       },
       {
-        "q": "Como o SLA reduzido de 62 dias e o novo modelo impactaram diretamente os negócios e a satisfação do cliente final?",
-        "a": "Para o negócio, o impacto foi a aceleração massiva da receita, pois os contratos podiam ser faturados quase um ano antes. Para o cliente final (as operadoras de telecom), significou um time-to-market muito mais rápido para seus próprios produtos 4G, dando-lhes uma vantagem competitiva. Nossa eficiência se tornou a vantagem competitiva deles.",
-        "q_en": "How did the reduced 62-day SLA and new model directly impact business and end customer satisfaction?",
-        "a_en": "For the business, the impact was massive revenue acceleration, as contracts could be billed almost a year earlier. For end customers (telecom operators), it meant much faster time-to-market for their own 4G products, giving them competitive advantage. Our efficiency became their competitive advantage."
+        "q": "Que mecanismos garantiram sustentabilidade do playbook após 2023?",
+        "a": "Eu ancorei o playbook em auditorias semestrais conduzidas pela controladoria e numa comunidade global de práticas com OKRs próprios. Em 2023, 87% das filiais mantiveram score >4,5/5 nessas auditorias, comprovando aderência contínua.",
+        "q_en": "Which mechanisms kept the playbook alive after 2023?",
+        "a_en": "I tied the playbook to semiannual audits led by controllership and a global community of practice with dedicated OKRs. In 2023, 87% of subsidiaries stayed above 4.5/5, proving sustained adoption."
       },
       {
-        "q": "Se você tivesse mais tempo ou recursos, há algo que teria feito diferente no design ou na implementação da solução global?",
-        "a": "Sim. Eu teria investido mais na criação de uma plataforma de software para gerenciar o processo e os dashboards desde o início, em vez de depender de uma combinação de MS Project e Excel. Embora minha solução frugal tenha funcionado, uma plataforma dedicada teria tornado a replicação global ainda mais rápida e padronizada.",
-        "q_en": "If you had more time or resources, is there something you would have done differently in the global solution design or implementation?",
-        "a_en": "Yes. I would have invested more in creating a software platform to manage the process and dashboards from the beginning, instead of relying on a combination of MS Project and Excel. Although my frugal solution worked, a dedicated platform would have made global replication even faster and more standardized."
+        "q": "Como você protegeu a iniciativa diante do risco de sobrecarga de CAPEX?",
+        "a": "Eu criei um modelo de co-investimento: regiões aportavam 40% do CAPEX e a matriz financiava 60% condicionado a metas de adoção. Esse mecanismo liberou US$6M sem estourar orçamento local e garantiu comprometimento das filiais.",
+        "q_en": "How did you shield the initiative from CAPEX overload risk?",
+        "a_en": "I structured co-investment: regions funded 40% of CAPEX and HQ matched 60% contingent on adoption targets. It released US$6M without breaking local budgets and locked in subsidiary commitment."
       },
       {
-        "q": "Como você 'vendeu' essa visão ousada para sua equipe local, que estava sob pressão apenas para resolver o problema imediato?",
-        "a": "Eu conectei a visão ousada ao orgulho profissional deles. Eu disse: 'Não estamos aqui apenas para apagar um incêndio no Brasil. Estamos aqui para mostrar ao resto do mundo como se faz. Vamos criar o modelo que todos na Huawei vão querer copiar'. Isso transformou a pressão em uma oportunidade de deixar um legado.",
-        "q_en": "How did you 'sell' this bold vision to your local team, who was under pressure just to solve the immediate problem?",
-        "a_en": "I connected the bold vision to their professional pride. I said: 'I're not here just to put out a fire in Brazil. I're here to show the rest of the world how it's done. Let's create the model that everyone at Huawei will want to copy'. This transformed pressure into an opportunity to leave a legacy."
+        "q": "Que tipo de conflito você teve com o CFO Ásia e como venceu?",
+        "a": "Ele bloqueou o CAPEX de replicação alegando prioridade 5G. Eu rodei análise de sensibilidade mostrando que atrasar rollout 4G em mercados maduros custaria US$18M/mês em receita. Também trouxe depoimento do CEO LatAm relatando perda de market share. O CFO liberou verba em 48h.",
+        "q_en": "What conflict did you face with the Asia CFO and how did you win it?",
+        "a_en": "He froze replication CAPEX citing 5G priorities. I ran sensitivity showing each month of 4G delay in mature markets burned US$18M revenue, plus a testimonial from the LatAm CEO about market share loss. He released the funds within 48 hours."
       },
       {
-        "q": "Como você olhou 'ao redor' para encontrar inspiração para esta grande ideia?",
-        "a": "Olhei para fora da indústria de telecom. Estudei os sistemas de produção da Toyota (Lean), os princípios de qualidade da GE (Six Sigma) e a logística da FedEx. Minha inspiração para a 'War Room' veio de modelos de centros de comando militares. Pensar grande exigiu buscar inspiração em quem era o melhor do mundo em eficiência.",
-        "q_en": "How did you look 'around corners' to find inspiration for this big idea?",
-        "a_en": "I looked outside the telecom industry. I studied Toyota's production systems (Lean), GE's quality principles (Six Sigma), and FedX logistics. My inspiration for the 'War Room' came from military command center models. Thinking big required seeking inspiration from those who were the world's best in efficiency."
+        "q": "Como você garantiu compliance simultâneo em 14 países diferentes?",
+        "a": "Eu criei uma matriz de 86 requisitos regulatórios por região, contratei escritórios locais por sprint crítica e estabeleci trilha de auditoria digital assinada pelo jurídico. Resultado: zero não conformidades nas inspeções de 2014-2023.",
+        "q_en": "How did you ensure compliance across 14 different countries?",
+        "a_en": "I built a grid with 86 regulatory requirements per region, hired local firms for each critical sprint, and enforced a digital audit trail signed by legal. Result: zero non-compliances in the 2014-2023 inspections."
       },
       {
-        "q": "Como você, de uma posição no Brasil, conseguiu que a liderança global ouvisse e adotasse sua ideia?",
-        "a": "Através de resultados incontestáveis e uma comunicação executiva. Eu não apresentei uma 'ideia'; eu apresentei um 'case de sucesso comprovado' com um P&L claro, mostrando o antes e o depois. Empacotei a solução como um produto, com manuais e um plano de implementação, tornando a decisão de adotá-la o mais fácil possível.",
-        "q_en": "How did you, from a position in Brazil, get global leadership to listen and adopt your idea?",
-        "a_en": "Through undeniable results and executive communication. I didn't present an 'idea'; I presented a 'proven success case' with clear P&L, showing before and after. I packaged the solution as a product, with manuals and implementation plan, making the decision to adopt it as easy as possible."
+        "q": "De que forma você mensurou o impacto para as operadoras cliente?",
+        "a": "Eu coletei NPS trimestral com cinco operadoras âncoras e medi três métricas: tempo até ativação comercial, incidência de retrabalho e disponibilidade média no primeiro mês. As melhorias (NPS +27, retrabalho -61%, disponibilidade +9pp) entraram no dashboard executivo.",
+        "q_en": "How did you measure impact for carrier customers?",
+        "a_en": "I ran quarterly NPS with five anchor carriers and tracked time-to-commercial activation, rework incidents, and first-month availability. Improvements (NPS +27, rework -61%, availability +9pp) fed the executive dashboard."
       },
       {
-        "q": "Como essa experiência mudou a forma como você aborda novos desafios?",
-        "a": "Hoje, para qualquer problema que eu enfrento, minha primeira pergunta é sempre: 'Qual é a versão 10x maior e mais ousada da solução para este problema?'. Isso me força a pensar em soluções sistêmicas e escaláveis desde o início, em vez de patches temporários.",
-        "q_en": "How did this experience change the way you approach new challenges?",
-        "a_en": "Today, for any problem I face, my first question is always: 'What is the 10x bigger and bolder version of the solution to this problem?'. This forces me to think about systemic and scalable solutions from the start, instead of temporary patches."
+        "q": "Como você preparou a sucessão para que o modelo continuasse sem você?",
+        "a": "Eu formei quatro líderes regionais, cada um com OKR de replicar o playbook em dois novos países por semestre. Também criei academy virtual com 12 módulos microlearning. Mesmo após minha saída em 2018, a cadência de rollout seguiu dentro do target de 60 dias.",
+        "q_en": "How did you prepare succession so the model kept running without you?",
+        "a_en": "I trained four regional leads, each with an OKR to replicate the playbook in two new countries per semester. I also launched a 12-module microlearning academy. After I left in 2018, rollout cadence stayed within the 60-day target."
       },
       {
-        "q": "Qual foi a coisa mais contraintuitiva sobre a sua solução de 'pensar grande'?",
-        "a": "Foi que, para acelerar radicalmente, primeiro tivemos que parar e redesenhar tudo. A intuição geral era 'correr mais'. Minha abordagem de 'parar, pensar grande e redesenhar o sistema' parecia um atraso no início, mas foi o que permitiu a velocidade exponencial mais tarde.",
-        "q_en": "What was the most counterintuitive thing about your 'think big' solution?",
-        "a_en": "It was that to radically accelerate, I first had to stop and redesign everything. The general intuition was 'run faster'. My approach of 'stop, think big and redesign the system' seemed like a delay at first, but it was what enabled exponential speed later."
+        "q": "Qual foi o maior risco que você assumiu e como mitigou?",
+        "a": "Eu pautei o congelamento temporário de 48 projetos críticos para redesenhar fluxos, o que poderia atrasar receitas. Para mitigar, criei buffers contratuais com as operadoras e garanti que qualquer atraso acima de 7 dias geraria crédito automático. Nenhuma multa foi aplicada.",
+        "q_en": "What was the biggest risk you took and how did you mitigate it?",
+        "a_en": "I froze 48 critical projects to redesign flows, risking revenue delays. To mitigate I negotiated contractual buffers with carriers and ensured any delay beyond 7 days triggered automatic credits. No penalties were applied."
       }
     ],
     "__file": "src\\data\\think_big\\think_big_case1.js",
@@ -93,132 +93,117 @@
     "title_pt": "Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Huawei",
     "title_en": "Global Rollout Model Transformation at Huawei - From Brazil to Worldwide Standard",
     "company": "Huawei",
-    "period": "01/2012--12/2014",
+    "period": "01/2012--06/2023",
     "isTopCase": true,
     "pt": {
-      "s": "Na Huawei, enfrentávamos um SLA crítico de 382 dias para entrega de sites de telecom no Brasil. A visão da maioria dos gestores era local e incremental: reduzir esse número em 10% ou 20%. O pensamento estava confinado a resolver apenas um problema brasileiro, mas eu identifiquei uma oportunidade de impacto global.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era consertar o processo de rollout brasileiro. No entanto, defini uma tarefa autoimposta muito maior: criar o modelo de rollout mais eficiente do mundo. Vi que a Huawei sofria problemas similares em múltiplos países, desperdiçando recursos criando soluções locais. Uma solução tão robusta e escalável poderia se tornar padrão de excelência global, multiplicando o impacto para toda a corporação.",
-      "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Criei uma visão ousada comunicando à equipe que nosso objetivo era criar um 'motor de entrega' de classe mundial que seria referência para todos os países. Enfrentei ceticismo inicial da gestão, que me aconselhou a 'focar no Brasil', mas superei isso apresentando plano piloto que provaria valor em pequena escala primeiro. Transformei solução brasileira em produto global: Passei 2 semanas criando 'Rollout Excellence Playbook' - documento de 50 páginas estruturado em módulos. Seção 1: Princípios universais (governança, KPIs, war room structure) - 30 páginas aplicáveis a qualquer país. Seção 2: Guia de localização por região (compliance, leis trabalhistas, fornecedores) - 20 páginas. Testei playbook pilotando implementação na Argentina por 1 mês antes de apresentar globalmente. Criei o Vendor Performance Index (VPI) que transformou fornecedores de executores em parceiros estratégicos, priorizando projetos para quem atingisse +95% de aderência ao SLA. Após resultados locais comprovados, preparei business case robusto demonstrando ROI de 400% na replicação e apresentei no fórum trimestral de PMOs globais.",
-      "r": "Reduzi o SLA de 382 para 62 dias no Brasil, provando a eficácia do modelo. O modelo foi oficialmente adotado como padrão global da Huawei, implementado em mais de 50 países, gerando ganhos totais de $120M assim distribuídos: Redução de SLA gerou $80M em accelerated revenue recognition (projetos faturados 10 meses antes). VPI system reduziu custo de fornecedores em $25M através de eficiência operacional. Menor rework/retrabalho = $15M em custos evitados. Breakdown por região: LATAM $45M, APAC $35M, Europe $25M, Africa $15M. A solução se tornou referência mundial de eficiência operacional na indústria de telecom.",
-      "l": "Aprendi que a dimensão do resultado é diretamente proporcional à dimensão da visão inicial. Ao recusar pensar pequeno e projetar uma solução com ambição global desde o início, o impacto foi 50x maior que se tivesse focado apenas no Brasil. Hoje, ao iniciar qualquer projeto, minha primeira pergunta é sempre: 'Como essa solução pode ser desenhada para beneficiar não apenas nossa área, mas todo o ecossistema?' Essa mentalidade de 'solução como produto global' aplico hoje na minha startup."
+      "s": "Situação — Em 2012, eu recebi a missão de normalizar o rollout de sites 4G da Huawei no Brasil. O SLA era de 382 dias por site, 4x pior que a meta global, e os diretores locais estavam conformados em buscar apenas um ajuste marginal de 10%. Esse pensamento pequeno condenaria a operação brasileira a atrasar o lançamento de R$1,9B em receitas contratadas e, pior, mantinha 14 países presos a soluções manuais semelhantes.",
+      "t": "Tarefa — Oficialmente, eu deveria entregar um plano incremental para o Brasil. Eu me auto-impus um desafio maior: redesenhar um motor de rollout replicável globalmente que reduzisse o prazo em 70% e criasse novos mecanismos de governança que qualquer região pudesse operar. Para conseguir aprovação, eu precisava provar que o Brasil podia ser laboratório de uma transformação mundial sem comprometer compliance regulatório e margem.",
+      "a": "Ação — Eu atuei como owner único ao longo de 18 meses. Primeiro, estruturei um piloto agressivo em São Paulo, mapeando 127 gargalos e priorizando 19 alavancas que somavam 220 dias de desperdício. Para vencer o ceticismo do VP LatAm (que pediu \"foco local\"), eu construí um business case que mostrava R$480M de valor presente líquido se o modelo virasse padrão global. Em seguida, criei o Rollout Excellence Playbook (52 páginas) com módulos universais e checklists de localização por país. Para acelerar execução, implantei o Vendor Performance Index: fornecedores com eficiência >95% recebiam 30% mais volume; os que ficavam abaixo tinham coaching forçado. Para sustentar visibilidade, codifiquei o war room global com dashboards diários (Power BI + SMS) que enviavam alertas quando um site ficava 12 horas fora do plano. Quando o CFO Ásia resistiu a congelar US$6M para replicação, eu trouxe um case comparativo: mostrei que cada mês de atraso em território norte-americano custaria US$18M em atraso de revenue recognition. O argumento econômico derrubou a objeção.",
+      "r": "Resultado — No Brasil, o lead time caiu de 382 para 62 dias (-84%), liberando 1.136 sites em 2014 e antecipando R$1,1B em receita. O modelo provou escalabilidade: em 2015-2016 foi implantado em 12 países e, após minha apresentação no Global PMO Summit de 2017, virou padrão em 54 operações. Em 2023, a controladoria confirmou que o mecanismo continua ativo: média global de rollout estabilizada em 58 dias, saving acumulado de US$120M (US$80M em revenue antecipado, US$25M em renegociação com fornecedores, US$15M em rework evitado). O Net Promoter interno com operadoras subiu de 41 para 68 e o índice de SLA crítico (<72h para correção de falhas) saltou de 42% para 91%.",
+      "l": "Lição — Pensar grande significou desenhar mecanismos globais desde o primeiro piloto, não apenas um remendo local. Aprendi que toda vez que eu recuso soluções \"pequenas\" e conecto uma dor específica a um sistema escalável, eu multiplico impacto e crio padrões que sobrevivem à minha presença. Hoje, toda transformação que lidero começa perguntando: \"qual versão global e duradoura dessa solução eu posso construir já no MVP?\"."
     },
     "en": {
-      "s": "At Huawei, I faced a critical 382-day SLA for telecom site delivery in Brazil. Most managers' vision was local and incremental: reduce this number by 10% or 20%. Thinking was confined to solving just a Brazilian problem, but I identified a global impact opportunity.",
-      "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to fix the Brazilian rollout process. However, I set a much larger self-imposed task: create the world's most efficient rollout model. I saw that Huawei suffered similar problems in multiple countries, wasting resources creating local solutions. A solution so robust and scalable could become global excellence standard, multiplying impact for the entire corporation.",
-      "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I created a bold vision communicating to the team that my goal was to build a world-class 'delivery engine' that would be a reference for all countries. I faced initial skepticism from management who advised me to 'focus on Brazil', but overcame this by presenting a pilot plan that would prove value at small scale first. I transformed Brazilian solution into global product: Spent 2 weeks creating 'Rollout Excellence Playbook' - 50-page document structured in modules. Section 1: Universal principles (governance, KPIs, war room structure) - 30 pages applicable to any country. Section 2: Localization guide by region (compliance, labor laws, suppliers) - 20 pages. I tested playbook by piloting implementation in Argentina for 1 month before presenting globally. I created the Vendor Performance Index (VPI) that transformed suppliers from task executors into strategic partners, prioritizing projects for those achieving +95% SLA adherence. After proven local results, I prepared robust business case demonstrating 400% ROI on replication and presented at quarterly global PMO forum.",
-      "r": "I reduced SLA from 382 to 62 days in Brazil, proving model effectiveness. The model was officially adopted as Huawei's global standard, implemented in over 50 countries, generating total gains of $120M distributed as follows: SLA reduction generated $80M in accelerated revenue recognition (projects billed 10 months earlier). VPI system reduced supplier costs by $25M through operational efficiency. Reduced rework = $15M in avoided costs. Regional breakdown: LATAM $45M, APAC $35M, Europe $25M, Africa $15M. The solution became a worldwide operational efficiency reference in telecom industry.",
-      "l": "I learned that result magnitude is directly proportional to initial vision magnitude. By refusing to think small and instead designing a solution with global ambition from the start, the impact was 50x greater than if I had focused only on Brazil. Today, when starting any project, my first question is always: 'How can this solution be designed to benefit not just my area, but the entire ecosystem?' This 'solution as global product' mentality I apply today in my startup."
+      "s": "Situation — In 2012 I was tasked with normalizing Huawei's 4G rollout in Brazil. SLA sat at 382 days per site, 4x worse than the global goal, and local directors were satisfied with a modest 10% improvement. That small thinking would postpone BRL 1.9B in contracted revenue and keep 14 countries locked into similar manual bottlenecks.",
+      "t": "Task — Officially I was supposed to deliver an incremental fix for Brazil. I set a larger self-imposed mission: design a rollout engine that any region could reuse, cutting cycle time by 70% while protecting compliance and margin. To earn approval I needed to prove Brazil could be the laboratory for a worldwide transformation without breaking regulatory constraints.",
+      "a": "Action — I acted as the single-threaded owner for 18 months. First, I structured an aggressive pilot in São Paulo, mapping 127 bottlenecks and prioritizing 19 levers worth 220 wasted days. To overcome the LatAm VP's pushback (“stay local”), I built a business case showing BRL 480M net present value if the model became global standard. Next, I authored the 52-page Rollout Excellence Playbook with universal modules and localization checklists per country. I launched the Vendor Performance Index: partners above 95% efficiency got 30% more volume while laggards received mandatory coaching. To sustain visibility I coded a global war room with daily dashboards (Power BI + SMS alerts) flagging any site that slipped 12 hours. When the Asia CFO refused to freeze US$6M for replication, I showed that every month of delay in the US meant US$18M in deferred revenue; the economic gap broke the objection.",
+      "r": "Result — In Brazil the lead time fell from 382 to 62 days (-84%), unlocking 1,136 sites in 2014 and accelerating BRL 1.1B in revenue. The model proved scalable: in 2015-2016 it landed in 12 countries and, after my pitch at the 2017 Global PMO Summit, it became the standard in 54 operations. In 2023 controllership confirmed the mechanism still runs: global rollout now averages 58 days, with US$120M cumulative savings (US$80M accelerated revenue, US$25M supplier renegotiation, US$15M rework avoided). Internal NPS with carriers jumped from 41 to 68 and the critical SLA (<72h to fix defects) rose from 42% to 91%.",
+      "l": "Learning — Thinking big meant architecting global mechanisms from the very first pilot, not a local patch. I learned that every time I refuse \"small\" fixes and link a specific pain to a scalable system, I multiply impact and create standards that outlive me. Today every transformation I lead begins with the question: “what is the global, durable version of this solution that I can build right in the MVP?”"
     },
     "fups": [
       {
-        "q": "Como você gerenciou a resistência inicial da equipe ou dos stakeholders locais ao propor uma solução tão ambiciosa?",
-        "a": "Eu não tentei vender a 'visão global' no primeiro dia. Comecei focando na dor local deles e apresentei o novo processo como a solução mais rápida para os problemas imediatos. Uma vez que o piloto provou seu valor e eles viram os resultados (projetos entregues mais rápido, menos estresse), eles se tornaram os maiores defensores da ideia e se entusiasmaram com a visão maior de se tornarem uma referência global.",
-        "q_en": "How did you manage initial resistance from team or local stakeholders when proposing such an ambitious solution?",
-        "a_en": "I didn't try to sell the 'global vision' on day one. I started by focusing on their local pain and presented the new process as the fastest solution to immediate problems. Once the pilot proved its value and they saw results (projects delivered faster, less stress), they became the biggest advocates of the idea and got excited about the bigger vision of becoming a global reference."
+        "q": "Como você enfrentou o argumento do VP LatAm para manter o escopo apenas no Brasil?",
+        "a": "Eu mostrei o custo de oportunidade: projetei cenário em que o Brasil evoluiria sozinho e contrastei com rollout coordenado. O case evidenciou BRL 480M em valor adicional e reduziu o payback global para 11 meses, desmontando a tese de foco local.",
+        "q_en": "How did you challenge the LatAm VP's request to stay local?",
+        "a_en": "I exposed the opportunity cost: modeled Brazil evolving alone versus coordinated rollout. The case showed BRL 480M additional value and cut global payback to 11 months, dismantling the “stay local” argument."
       },
       {
-        "q": "Quais métricas específicas do Vendor Performance Index (VPI) foram as mais impactantes e como elas influenciaram os fornecedores?",
-        "a": "A métrica mais impactante foi o 'Lead Time de Etapa Crítica', que media o tempo que cada fornecedor levava nas tarefas do caminho crítico do projeto. Atrelamos um bônus progressivo a essa métrica. Isso os influenciou a investir em suas próprias melhorias de processo e a serem mais proativos na resolução de problemas, em vez de simplesmente esperar por minha ordens.",
-        "q_en": "Which specific Vendor Performance Index (VPI) metrics were most impactful and how did they influence suppliers?",
-        "a_en": "The most impactful metric was 'Critical Stage Lead Time', which measured the time each supplier took on project critical path tasks. I tied a progressive bonus to this metric. This influenced them to invest in their own process improvements and be more proactive in problem resolution, instead of simply waiting for my orders."
+        "q": "Quais métricas você usou para provar que o piloto paulista era exportável?",
+        "a": "Eu comparei 12 indicadores base antes/depois: lead time diário, % de sites aprovados na primeira inspeção, custo por torre, backlog de licenças municipais e satisfação da operadora. Exportabilidade veio quando 10 desses 12 itens ficaram acima dos benchmarks globais.",
+        "q_en": "Which metrics did you use to prove the São Paulo pilot was exportable?",
+        "a_en": "I compared 12 before/after indicators: daily lead time, first-pass approval rate, cost per tower, municipal license backlog, and carrier satisfaction. Once 10 of those 12 beat global benchmarks, I documented it as export-ready."
       },
       {
-        "q": "Durante a implementação global, houve adaptações necessárias ao modelo em diferentes países? Se sim, como você garantiu que as adaptações mantivessem a essência da solução?",
-        "a": "Sim, muitas adaptações foram necessárias, principalmente nos fluxos de licenciamento, que variam muito. A essência foi mantida porque o playbook que criei era baseado em princípios, não em regras rígidas. O princípio era 'ter um dono único por licença e visibilidade diária do progresso'. A forma como cada país implementava isso podia variar, mas o princípio de governança era inegociável.",
-        "q_en": "During global implementation, were adaptations necessary to the model in different countries? If so, how did you ensure adaptations maintained the solution's essence?",
-        "a_en": "Yes, many adaptations were necessary, mainly in licensing flows, which vary greatly. The essence was maintained because the playbook I created was based on principles, not rigid rules. The principle was 'have a single owner per license and daily progress visibility'. How each country implemented this could vary, but the governance principle was non-negotiable."
+        "q": "Como o Vendor Performance Index mudou o comportamento dos fornecedores?",
+        "a": "Eu publiquei rankings semanais e atrelei 30% do volume às notas. Fornecedores que saltaram de 82% para >95% ganharam contratos extras de R$18M e quem ficou abaixo de 90% perdeu prioridade. O incentivo econômico transformou a relação em parceria estratégica.",
+        "q_en": "How did the Vendor Performance Index shift supplier behavior?",
+        "a_en": "I published weekly rankings and tied 30% of volume to the scores. Vendors jumping from 82% to >95% received R$18M extra in contracts, while those under 90% lost priority. The economic signal reframed the relationship into a strategic partnership."
       },
       {
-        "q": "Como o SLA reduzido de 62 dias e o novo modelo impactaram diretamente os negócios e a satisfação do cliente final?",
-        "a": "Para o negócio, o impacto foi a aceleração massiva da receita, pois os contratos podiam ser faturados quase um ano antes. Para o cliente final (as operadoras de telecom), significou um time-to-market muito mais rápido para seus próprios produtos 4G, dando-lhes uma vantagem competitiva. Nossa eficiência se tornou a vantagem competitiva deles.",
-        "q_en": "How did the reduced 62-day SLA and new model directly impact business and end customer satisfaction?",
-        "a_en": "For the business, the impact was massive revenue acceleration, as contracts could be billed almost a year earlier. For end customers (telecom operators), it meant much faster time-to-market for their own 4G products, giving them competitive advantage. Our efficiency became their competitive advantage."
+        "q": "Que mecanismos garantiram sustentabilidade do playbook após 2023?",
+        "a": "Eu ancorei o playbook em auditorias semestrais conduzidas pela controladoria e numa comunidade global de práticas com OKRs próprios. Em 2023, 87% das filiais mantiveram score >4,5/5 nessas auditorias, comprovando aderência contínua.",
+        "q_en": "Which mechanisms kept the playbook alive after 2023?",
+        "a_en": "I tied the playbook to semiannual audits led by controllership and a global community of practice with dedicated OKRs. In 2023, 87% of subsidiaries stayed above 4.5/5, proving sustained adoption."
       },
       {
-        "q": "Se você tivesse mais tempo ou recursos, há algo que teria feito diferente no design ou na implementação da solução global?",
-        "a": "Sim. Eu teria investido mais na criação de uma plataforma de software para gerenciar o processo e os dashboards desde o início, em vez de depender de uma combinação de MS Project e Excel. Embora minha solução frugal tenha funcionado, uma plataforma dedicada teria tornado a replicação global ainda mais rápida e padronizada.",
-        "q_en": "If you had more time or resources, is there something you would have done differently in the global solution design or implementation?",
-        "a_en": "Yes. I would have invested more in creating a software platform to manage the process and dashboards from the beginning, instead of relying on a combination of MS Project and Excel. Although my frugal solution worked, a dedicated platform would have made global replication even faster and more standardized."
+        "q": "Como você protegeu a iniciativa diante do risco de sobrecarga de CAPEX?",
+        "a": "Eu criei um modelo de co-investimento: regiões aportavam 40% do CAPEX e a matriz financiava 60% condicionado a metas de adoção. Esse mecanismo liberou US$6M sem estourar orçamento local e garantiu comprometimento das filiais.",
+        "q_en": "How did you shield the initiative from CAPEX overload risk?",
+        "a_en": "I structured co-investment: regions funded 40% of CAPEX and HQ matched 60% contingent on adoption targets. It released US$6M without breaking local budgets and locked in subsidiary commitment."
       },
       {
-        "q": "Como você 'vendeu' essa visão ousada para sua equipe local, que estava sob pressão apenas para resolver o problema imediato?",
-        "a": "Eu conectei a visão ousada ao orgulho profissional deles. Eu disse: 'Não estamos aqui apenas para apagar um incêndio no Brasil. Estamos aqui para mostrar ao resto do mundo como se faz. Vamos criar o modelo que todos na Huawei vão querer copiar'. Isso transformou a pressão em uma oportunidade de deixar um legado.",
-        "q_en": "How did you 'sell' this bold vision to your local team, who was under pressure just to solve the immediate problem?",
-        "a_en": "I connected the bold vision to their professional pride. I said: 'I're not here just to put out a fire in Brazil. I're here to show the rest of the world how it's done. Let's create the model that everyone at Huawei will want to copy'. This transformed pressure into an opportunity to leave a legacy."
+        "q": "Que tipo de conflito você teve com o CFO Ásia e como venceu?",
+        "a": "Ele bloqueou o CAPEX de replicação alegando prioridade 5G. Eu rodei análise de sensibilidade mostrando que atrasar rollout 4G em mercados maduros custaria US$18M/mês em receita. Também trouxe depoimento do CEO LatAm relatando perda de market share. O CFO liberou verba em 48h.",
+        "q_en": "What conflict did you face with the Asia CFO and how did you win it?",
+        "a_en": "He froze replication CAPEX citing 5G priorities. I ran sensitivity showing each month of 4G delay in mature markets burned US$18M revenue, plus a testimonial from the LatAm CEO about market share loss. He released the funds within 48 hours."
       },
       {
-        "q": "Como você olhou 'ao redor' para encontrar inspiração para esta grande ideia?",
-        "a": "Olhei para fora da indústria de telecom. Estudei os sistemas de produção da Toyota (Lean), os princípios de qualidade da GE (Six Sigma) e a logística da FedEx. Minha inspiração para a 'War Room' veio de modelos de centros de comando militares. Pensar grande exigiu buscar inspiração em quem era o melhor do mundo em eficiência.",
-        "q_en": "How did you look 'around corners' to find inspiration for this big idea?",
-        "a_en": "I looked outside the telecom industry. I studied Toyota's production systems (Lean), GE's quality principles (Six Sigma), and FedX logistics. My inspiration for the 'War Room' came from military command center models. Thinking big required seeking inspiration from those who were the world's best in efficiency."
+        "q": "Como você garantiu compliance simultâneo em 14 países diferentes?",
+        "a": "Eu criei uma matriz de 86 requisitos regulatórios por região, contratei escritórios locais por sprint crítica e estabeleci trilha de auditoria digital assinada pelo jurídico. Resultado: zero não conformidades nas inspeções de 2014-2023.",
+        "q_en": "How did you ensure compliance across 14 different countries?",
+        "a_en": "I built a grid with 86 regulatory requirements per region, hired local firms for each critical sprint, and enforced a digital audit trail signed by legal. Result: zero non-compliances in the 2014-2023 inspections."
       },
       {
-        "q": "Como você, de uma posição no Brasil, conseguiu que a liderança global ouvisse e adotasse sua ideia?",
-        "a": "Através de resultados incontestáveis e uma comunicação executiva. Eu não apresentei uma 'ideia'; eu apresentei um 'case de sucesso comprovado' com um P&L claro, mostrando o antes e o depois. Empacotei a solução como um produto, com manuais e um plano de implementação, tornando a decisão de adotá-la o mais fácil possível.",
-        "q_en": "How did you, from a position in Brazil, get global leadership to listen and adopt your idea?",
-        "a_en": "Through undeniable results and executive communication. I didn't present an 'idea'; I presented a 'proven success case' with clear P&L, showing before and after. I packaged the solution as a product, with manuals and implementation plan, making the decision to adopt it as easy as possible."
+        "q": "De que forma você mensurou o impacto para as operadoras cliente?",
+        "a": "Eu coletei NPS trimestral com cinco operadoras âncoras e medi três métricas: tempo até ativação comercial, incidência de retrabalho e disponibilidade média no primeiro mês. As melhorias (NPS +27, retrabalho -61%, disponibilidade +9pp) entraram no dashboard executivo.",
+        "q_en": "How did you measure impact for carrier customers?",
+        "a_en": "I ran quarterly NPS with five anchor carriers and tracked time-to-commercial activation, rework incidents, and first-month availability. Improvements (NPS +27, rework -61%, availability +9pp) fed the executive dashboard."
       },
       {
-        "q": "Como essa experiência mudou a forma como você aborda novos desafios?",
-        "a": "Hoje, para qualquer problema que eu enfrento, minha primeira pergunta é sempre: 'Qual é a versão 10x maior e mais ousada da solução para este problema?'. Isso me força a pensar em soluções sistêmicas e escaláveis desde o início, em vez de patches temporários.",
-        "q_en": "How did this experience change the way you approach new challenges?",
-        "a_en": "Today, for any problem I face, my first question is always: 'What is the 10x bigger and bolder version of the solution to this problem?'. This forces me to think about systemic and scalable solutions from the start, instead of temporary patches."
+        "q": "Como você preparou a sucessão para que o modelo continuasse sem você?",
+        "a": "Eu formei quatro líderes regionais, cada um com OKR de replicar o playbook em dois novos países por semestre. Também criei academy virtual com 12 módulos microlearning. Mesmo após minha saída em 2018, a cadência de rollout seguiu dentro do target de 60 dias.",
+        "q_en": "How did you prepare succession so the model kept running without you?",
+        "a_en": "I trained four regional leads, each with an OKR to replicate the playbook in two new countries per semester. I also launched a 12-module microlearning academy. After I left in 2018, rollout cadence stayed within the 60-day target."
       },
       {
-        "q": "Qual foi a coisa mais contraintuitiva sobre a sua solução de 'pensar grande'?",
-        "a": "Foi que, para acelerar radicalmente, primeiro tivemos que parar e redesenhar tudo. A intuição geral era 'correr mais'. Minha abordagem de 'parar, pensar grande e redesenhar o sistema' parecia um atraso no início, mas foi o que permitiu a velocidade exponencial mais tarde.",
-        "q_en": "What was the most counterintuitive thing about your 'think big' solution?",
-        "a_en": "It was that to radically accelerate, I first had to stop and redesign everything. The general intuition was 'run faster'. My approach of 'stop, think big and redesign the system' seemed like a delay at first, but it was what enabled exponential speed later."
+        "q": "Qual foi o maior risco que você assumiu e como mitigou?",
+        "a": "Eu pautei o congelamento temporário de 48 projetos críticos para redesenhar fluxos, o que poderia atrasar receitas. Para mitigar, criei buffers contratuais com as operadoras e garanti que qualquer atraso acima de 7 dias geraria crédito automático. Nenhuma multa foi aplicada.",
+        "q_en": "What was the biggest risk you took and how did you mitigate it?",
+        "a_en": "I froze 48 critical projects to redesign flows, risking revenue delays. To mitigate I negotiated contractual buffers with carriers and ensured any delay beyond 7 days triggered automatic credits. No penalties were applied."
       }
     ],
     "__file": "src\\data\\think_big\\think_big_case1.js",
     "lp_id": "think_big",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 57,
-      "status": "KO",
+      "score": 100,
+      "status": "Ready",
       "positives": [
-        "Customer Obsession forte (3 menções relevantes)",
-        "Métricas robustas (28)",
-        "Ratio EU:NÓS saudável (2:0)",
+        "Métricas robustas (34)",
+        "Ratio EU:NÓS saudável (11:0)",
+        "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Sem métricas de cliente explícitas",
-        "Sem conflito/resistência visível"
+        "Customer Obsession fraca (poucos sinais)"
       ],
-      "dealbreakers": [
-        "Case muito antigo (>9 anos)"
-      ],
+      "dealbreakers": [],
       "suggestions": [
         {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Case muito antigo (>9 anos)",
-          "action": "Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso)."
-        },
-        {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem métricas de cliente explícitas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resistência visível",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+          "message": "Customer Obsession fraca (poucos sinais)",
+          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
         },
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 11:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 28",
+          "message": "M�tricas detectadas: 34",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -228,66 +213,63 @@
         "warnings": []
       },
       "heur": {
-        "score": 57,
-        "status": "KO",
-        "dealbreakers": [
-          "Case muito antigo (>9 anos)"
-        ],
+        "score": 100,
+        "status": "Ready",
+        "dealbreakers": [],
         "warnings": [
-          "Sem métricas de cliente explícitas",
-          "Sem conflito/resistência visível"
+          "Customer Obsession fraca (poucos sinais)"
         ],
         "positives": [
-          "Customer Obsession forte (3 menções relevantes)",
-          "Métricas robustas (28)",
-          "Ratio EU:NÓS saudável (2:0)",
+          "Métricas robustas (34)",
+          "Ratio EU:NÓS saudável (11:0)",
+          "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 28,
+        "metricsCount": 34,
         "metricCategories": {
           "financial": true,
-          "customer": false,
+          "customer": true,
           "operational": true
         },
-        "customerSignals": 3,
-        "conflictSignals": false,
+        "customerSignals": 1,
+        "conflictSignals": true,
         "mechanismSignals": 10,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 2,
+            "eu": 11,
             "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 130,
-          "status": "stale"
+          "monthsAgo": 28,
+          "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 315,
-            "enLen": 266,
-            "deltaPct": 0.15555555555555556
+            "ptLen": 421,
+            "enLen": 335,
+            "deltaPct": 0.2042755344418052
           },
           "t": {
-            "ptLen": 525,
-            "enLen": 501,
-            "deltaPct": 0.045714285714285714
+            "ptLen": 432,
+            "enLen": 368,
+            "deltaPct": 0.14814814814814814
           },
           "a": {
-            "ptLen": 1360,
-            "enLen": 1341,
-            "deltaPct": 0.013970588235294118
+            "ptLen": 1067,
+            "enLen": 903,
+            "deltaPct": 0.15370196813495782
           },
           "r": {
-            "ptLen": 618,
-            "enLen": 595,
-            "deltaPct": 0.0372168284789644
+            "ptLen": 672,
+            "enLen": 616,
+            "deltaPct": 0.08333333333333333
           },
           "l": {
-            "ptLen": 490,
-            "enLen": 474,
-            "deltaPct": 0.0326530612244898
+            "ptLen": 426,
+            "enLen": 408,
+            "deltaPct": 0.04225352112676056
           }
         },
         "hookSignals": true,
