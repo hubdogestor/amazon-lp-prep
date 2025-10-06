@@ -1081,6 +1081,11 @@ export default function App() {
                               ⭐ TOP CASE
                             </span>
                           )}
+                          {!isTop && c.isGoodCase && (
+                            <span className="px-2.5 py-0.5 bg-blue-500 text-white text-[10px] font-semibold rounded-full shadow-sm">
+                              👍 GOOD CASE
+                            </span>
+                          )}
                           <h3 className={`text-lg font-bold ${isTop ? 'text-[#232F3E]' : 'text-slate-900'}`}>
                             <HighlightableText
                               text={getDisplayCaseTitle(c, language)}

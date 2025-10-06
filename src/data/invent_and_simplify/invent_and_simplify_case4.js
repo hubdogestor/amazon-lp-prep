@@ -6,7 +6,8 @@ const case_4 = {
   title_en: "Invented open platform with SaaS LP that cut innovation cycle by 68%",
   company: "Unimed",
   period: "02/2022-12/2023",
-  isTopCase: true,
+  isTopCase: false,
+  isGoodCase: true,
   pt: {
     s: `Eu encontrei o ecossistema de inovacao da Unimed travado: 47 projetos internos demoravam em media 21 meses para virar MVP, queimando R$ 2,1M cada um, e 63% eram cancelados sem tocar paciente algum. Doze startups parceiras tinham abandonado os pilotos porque levavam 140 dias para assinar NDA. Enquanto isso, 52 mil medicos cooperados reclamavam da burocracia e o NPS das solucoes digitais caiu de 55 para 28. Eu visitei oito cooperativas regionais em duas semanas e ouvi de gestores e pacientes que a dor real era a falta de solucoes simples para telemonitorar cronicos.`,
     t: `Eu decidi ser owner de ponta a ponta e tracei a meta de lancar um hub aberto que gerasse MVP em seis meses, priorizando dores validadas por pacientes. Eu me comprometi a cortar o ciclo de aprovacao em 70% e entregar pelo menos tres solucoes com NPS acima de 60 ate o fim de 2023.`,
