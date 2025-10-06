@@ -442,4 +442,4 @@ const typicalQuestions = {
   }
 };
 
-export default typicalQuestions;
+module.exports = typicalQuestions;

@@ -291,4 +291,4 @@ const template_principle = {
   ]
 };
 
-export default template_principle;
+module.exports = template_principle;

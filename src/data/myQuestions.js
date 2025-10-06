@@ -302,4 +302,4 @@ const myQuestionsData = {
   }
 };
 
-export default myQuestionsData;
+module.exports = myQuestionsData;
