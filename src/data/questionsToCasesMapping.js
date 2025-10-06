@@ -108,9 +108,18 @@ export const questionsToCasesMapping = {
       "case_id": "unimed-open-innovation",
       "score": 65
     },
-    "3": null,
-    "4": null,
-    "5": null,
+    "3": {
+      "case_id": "bradesco-next-compliance-simplification",
+      "score": 85
+    },
+    "4": {
+      "case_id": "unimed-ai-authorization",
+      "score": 95
+    },
+    "5": {
+      "case_id": "payment-simplification-high-impact",
+      "score": 80
+    },
     "6": {
       "case_id": "payment-simplification-high-impact",
       "score": 75

@@ -279,33 +279,33 @@
     "priority": "NORMAL",
     "question_pt": "Descreva uma situação onde você desafiou o status quo",
     "question_en": "Describe a situation where you challenged the status quo",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%\" (score 40/100). Case do LP correto (invent_simplify)"
+    "has_case": "sim",
+    "case_id": "bradesco-next-compliance-simplification",
+    "case_title": "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
+    "score": 85,
+    "reasoning": "Case do LP correto (invent_simplify); Desafio ao status quo (47 regras→5 macros, removeu 11 telas); 1 keyword presente; Inovação estrutural dramática; Conceito alinhado (+10)"
   },
   {
     "lp": "invent_simplify",
     "priority": "NORMAL",
     "question_pt": "Me fale sobre uma vez que você criou um processo mais simples que teve grande impacto",
     "question_en": "Tell me about a time you created a simpler process that had great impact",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%\" (score 40/100). Case do LP correto (invent_simplify)"
+    "has_case": "sim",
+    "case_id": "unimed-ai-authorization",
+    "case_title": "Inventei IA de Autorizacao Medica que Simplificou Processo de 5 Dias para 9 Horas (82% Automacao)",
+    "score": 95,
+    "reasoning": "Case do LP correto (invent_simplify); TOP CASE; Processo simplificado (5 dias→9h) com impacto dramático; 2 keywords presentes; R$ 2.4M/ano + NPS +67; PERFEITAMENTE alinhado com pergunta"
   },
   {
     "lp": "invent_simplify",
     "priority": "NORMAL",
     "question_pt": "Conte sobre quando você teve um plano mas encontrou obstáculos - como você pivotou?",
     "question_en": "Tell me about when you had a plan but encountered obstacles - how did you pivot?",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%\" (score 40/100). Case do LP correto (invent_simplify)"
+    "has_case": "sim",
+    "case_id": "payment-simplification-high-impact",
+    "case_title": "Inventei motor de simplificacao de liquidez que reduziu D+3 para D+0 em marketplaces",
+    "score": 80,
+    "reasoning": "Case do LP correto (invent_simplify); Plano com obstáculos + pivot (comitê recusou, criou experimento 50 lojistas + fundo R$ 25M); 1 keyword presente; Conceito alinhado (+10)"
   },
   {
     "lp": "invent_simplify",
