@@ -1,8 +1,9 @@
 {
     "name":  "amazon-lp-prep",
     "private":  true,
-    "version":  "1.0.0",
+    "version":  "3.0.0",
     "type":  "module",
+    "homepage": "https://hubdogestor.github.io/amazon-lp-prep",
     "scripts":  {
                     "dev":  "vite",
                     "build":  "vite build",
