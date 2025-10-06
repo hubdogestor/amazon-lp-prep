@@ -122,4 +122,4 @@ I believe I can add immediate value to the team while continuing to evolve profe
   }
 };
 
-module.exports = icebreakerData;
+export default icebreakerData;

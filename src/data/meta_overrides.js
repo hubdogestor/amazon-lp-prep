@@ -260,5 +260,5 @@ const metaOverrides = {
 // Exemplo de slug: "Título PT" → "titulo-pt" (sem acentos, minúsculas, hífens).
 // ----------------------------------------------------------------------
 
-module.exports = metaOverrides;
+export default metaOverrides;
 

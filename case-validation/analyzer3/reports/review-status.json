@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-06T00:04:01.519Z",
+  "run_at": "2025-10-06T00:09:21.326Z",
   "data_dir": "src/data",
   "total_cases": 72,
   "filtered_cases": 72,
@@ -1271,34 +1271,16 @@
     },
     {
       "lp_id": "dataStructure.js",
+      "case_id": "dataStructure",
       "title_pt": "",
       "title_en": "",
       "status": "Lint-Blocker",
       "lint": {
         "ok": false,
         "issues": [
-          "campo 'id' ausente ou vazio",
-          "campo 'title_pt' ausente ou vazio",
-          "campo 'title_en' ausente ou vazio",
-          "campo 'company' ausente ou vazio",
-          "campo 'period' ausente ou vazio",
-          "objeto pt ausente",
-          "objeto en ausente",
-          "pt.s ausente ou vazio",
-          "en.s ausente ou vazio",
-          "pt.t ausente ou vazio",
-          "en.t ausente ou vazio",
-          "pt.a ausente ou vazio",
-          "en.a ausente ou vazio",
-          "pt.r ausente ou vazio",
-          "en.r ausente ou vazio",
-          "pt.l ausente ou vazio",
-          "en.l ausente ou vazio",
-          "FUPs insuficientes: 0 (necess�rio 10)"
+          "falha ao carregar arquivo: parse error: Unexpected token 'export'"
         ],
-        "warnings": [
-          "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)"
-        ]
+        "warnings": []
       },
       "heur": {
         "score": 0,

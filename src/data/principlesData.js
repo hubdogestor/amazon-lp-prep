@@ -53,5 +53,5 @@ In recent years, I worked at Sicredi and Woop, focusing on fintech solutions, an
 // Os dados dos princípios agora são importados de consolidatedPrinciples.js
 // Este arquivo mantém apenas icebreaker para compatibilidade
 
-module.exports = icebreakerData;
+export default icebreakerData;
 

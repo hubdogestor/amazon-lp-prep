@@ -162,4 +162,4 @@ const titleCorrections = {
   }
 };
 
-module.exports = { topCasesConfig, titleCorrections };
+export default { topCasesConfig, titleCorrections };

@@ -14,12 +14,12 @@ const dataStructure = {
   cases: []
 };
 
-const defaultIcebreaker = {
+export const defaultIcebreaker = {
   pt: "Dados do icebreaker serao carregados aqui...",
   en: "Icebreaker data will be loaded here..."
 };
 
-const defaultPrinciples = [
+export const defaultPrinciples = [
   {
     id: "loading",
     title: {
@@ -34,16 +34,16 @@ const defaultPrinciples = [
   }
 ];
 
-const validateIcebreakerData = (data) => {
-  return data &&
-         typeof data === 'object' &&
-         typeof data.pt === 'string' &&
-         typeof data.en === 'string';
+export const validateIcebreakerData = (data) => {
+  return data && 
+         data.pt && 
+         data.pt.title && 
+         Array.isArray(data.pt.questions);
 };
 
-const validatePrinciplesData = (data) => {
-  return Array.isArray(data) &&
-         data.every(principle =>
+export const validatePrinciplesData = (data) => {
+  return Array.isArray(data) && 
+         data.every(principle => 
            principle.id &&
            principle.title &&
            principle.title.pt &&
@@ -55,10 +55,4 @@ const validatePrinciplesData = (data) => {
          );
 };
 
-module.exports = { 
-  dataStructure,
-  defaultIcebreaker,
-  defaultPrinciples,
-  validateIcebreakerData,
-  validatePrinciplesData
-};
+export default dataStructure;
