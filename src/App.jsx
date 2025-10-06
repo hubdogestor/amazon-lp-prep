@@ -289,15 +289,12 @@ export default function App() {
     setExpandedCases({ [caseObj.title]: true });
     setSelectedPrinciple(lpId);
     
-    // Scroll para o case após um delay
+    // Removido: scroll automático para o case
+    // O usuário prefere rolar manualmente
     setTimeout(() => {
       const caseDomId = `case-${slugify(case_id)}`;
-      const elem = document.getElementById(caseDomId);
-      if (elem) {
-        elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        // Highlight temporário
-        setHighlightedCase(caseDomId, 2000);
-      }
+      // Highlight temporário (sem scroll)
+      setHighlightedCase(caseDomId, 2000);
     }, 100);
   }, [principlesData, setHighlightedCase]);
 
@@ -1077,7 +1074,7 @@ export default function App() {
                       >
                         <div className="flex items-center gap-3">
                           {isTop && (
-                            <span className="px-3 py-1 bg-[#FF9900] text-white text-xs font-bold rounded-full shadow-md animate-pulse">
+                            <span className="px-3 py-1 bg-[#FF9900] text-white text-[10px] font-bold rounded-full shadow-md animate-pulse">
                               ⭐ TOP CASE
                             </span>
                           )}

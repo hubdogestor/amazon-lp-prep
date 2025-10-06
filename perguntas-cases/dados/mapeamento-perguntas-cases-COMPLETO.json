@@ -247,10 +247,10 @@
     "question_pt": "Conte sobre uma inovação que você implementou que simplificou um processo (que era complexo)?",
     "question_en": "Tell me about an innovation you implemented that simplified a (complex) process?",
     "has_case": "sim",
-    "case_id": "payment-simplification-high-impact",
-    "case_title": "Inventei motor de simplificacao de liquidez que reduziu D+3 para D+0 em marketplaces",
-    "score": 75,
-    "reasoning": "Case do LP correto (invent_simplify); Contexto de inovação/simplificação alinhado; Conceito alinhado (+10)"
+    "case_id": "bradesco-next-compliance-simplification",
+    "case_title": "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
+    "score": 90,
+    "reasoning": "Case do LP correto (invent_simplify); TOP CASE; Simplificou 47 regras em 5 macros; Customer obsession explícito; Replicabilidade comprovada"
   },
   {
     "lp": "invent_simplify",
@@ -1555,11 +1555,11 @@
     "priority": "ALTA",
     "question_pt": "Conte sobre um projeto desafiador entregue com sucesso superando obstáculos significativos",
     "question_en": "Tell me about a challenging project delivered successfully overcoming significant obstacles",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
+    "has_case": "sim",
+    "case_id": "huawei-world-cup-4g",
+    "case_title": "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade",
+    "score": 85,
+    "reasoning": "Case do LP correto (deliver_results); TOP CASE; Superou 6 obstáculos significativos; Impacto massivo (99.8% disponibilidade)"
   },
   {
     "lp": "deliver_results",
