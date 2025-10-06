@@ -7,6 +7,7 @@ const case_3 = {
   company: "OLÍBANO",
   period: "03/2024-08/2024",
   isTopCase: false,
+  isGoodCase: true,
   pt: {
     s: `Como sócio-investidor na OLÍBANO, empresa focada em payment innovation, observava debate intenso sobre blockchain durante nossas reuniões mensais do conselho. Na reunião trimestral de outubro/2023, dois sócios defendiam fortemente investir R$ 800k em solução blockchain para remessas internacionais, argumentando que competidores estavam ganhando vantagem. Havia muito barulho e opiniões fortes mas pouca clareza real sobre aplicações práticas de negócio. Estava claro que precisava de entendimento profundo da tecnologia para tomar decisões estratégicas informadas ao invés de seguir hype do mercado.`,
     t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Pedi 90 dias para fazer due diligence técnica abrangente antes da decisão final, assumindo pessoalmente a tarefa de avaliar viabilidade do blockchain completamente. Objetivo duplo: adquirir conhecimento técnico suficiente para avaliar oportunidades com precisão e usar esse conhecimento para explorar aplicação prática que resolveria dor real do cliente. Era momento de decisão crítica - R$ 800k representavam porção significativa do nosso orçamento anual de investimentos.`,

@@ -7,6 +7,7 @@ const case_2 = {
   company: "Bradesco",
   period: "07/2016-05/2018",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Para construir o Banco Digital Next, coordenávamos 17 squads e 230 profissionais espalhados por 3 prédios em São Paulo. O maior problema: 6 semanas de atraso acumulado no trimestre por dependências não mapeadas entre squads. Reuniões de alinhamento consumiam 40% do tempo produtivo - desenvolvedores gastavam 16 horas/semana em meetings sem delivery tangível. O modelo tradicional de gestão em cascata do Bradesco era fundamentalmente inadequado para a velocidade e interdependência exigida por produto digital. Tentativas anteriores de 'agilidade' foram superficiais - sprints isolados sem coordenação global.`,
     t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era pesquisar, aprender, e implementar modelo de entrega ágil verdadeiramente funcional para nosso contexto específico. Não poderia simplesmente copiar framework existente - precisava aprender princípios profundos do ágil em escala e adaptar às restrições culturais de um grande banco tradicional brasileiro. Era claro que precisava de conhecimento além da nossa expertise interna para resolver esse desafio de escala.`,

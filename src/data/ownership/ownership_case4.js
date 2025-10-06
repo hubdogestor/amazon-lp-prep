@@ -6,7 +6,8 @@ const case_4 = {
   title_en: "Reconciled US$47M in Payments Ahead of Cutover",
   company: "HSBC",
   period: "03/2016-05/2016",
-  isTopCase: true,
+  isTopCase: false,
+  isGoodCase: true,
   pt: {
     s: `Eu tinha criado uma rotina de auditoria paralela para o programa Banquo e, a 21 dias do cutover para o Bradesco, ela apontou 2.847 pagamentos internacionais nao reconciliados somando US$ 47M. O Bacen vinha multando bancos em ate 0,5% dos ativos por falhas similares, e 18 clientes priority reclamaram de atrasos superiores a 48h. Cada diretor queria empurrar a correção para depois do fechamento para nao travar o cronograma.`,
     t: `Mesmo sendo PMO e nao dono da operacao, eu avisei o CEO que assumiria a reconciliacao ponta a ponta. Eu me comprometi a zerar o backlog antes do cutover, proteger clientes priority com comunicacao diaria e sair com carta formal do Bacen validando os controles.`,

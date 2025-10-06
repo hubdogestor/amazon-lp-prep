@@ -7,6 +7,7 @@ const case_2 = {
   company: "Huawei LATAM",
   period: "09/2013-07/2014",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Se atrasassemos o rollout 5G nas quinze cidades-sede da Copa do Mundo Feminina 2023, a FIFA aplicaria multa de US$ 8M e 280 mil torcedores ficariam sem conectividade; quando assumi o programa recebi em 24 horas 18 ligacoes de clientes operadoras e da FIFA reforcando essa ameaca, o VP global de delivery decidiu encurtar o cronograma em 30 dias para abrir precedente comercial. Eu discordava: os relatrios de readiness mostravam licencas municipais pendentes em 9 cidades e fornecedores de fibra com backlog de 18 dias. Eu disse na reuniao: "se cortarmos 30 dias agora, vamos falhar no estagio de FAT e voce vai ter de explicar para a FIFA". O VP respondeu: "se nao executar, troco a lideranca do programa".`,
     t: `Defini que eu mostraria dados irrefutveis, aceitaria a decisao final e lideraria a execucao 120% focada. Minhas metas: (1) apresentar analise de caminho critico em 72 horas, (2) alinhar com o VP e com o cliente (operadoras e FIFA) a decisao de cronograma, (3) entregar o plano aprovado removendo blocos de fibre e energia.`,

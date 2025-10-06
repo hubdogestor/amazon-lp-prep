@@ -6,7 +6,8 @@ const case_1 = {
   title_en: "I scaled the product guild and promoted 18 leaders in six months",
   company: "Bradesco Next",
   period: "02/2017-08/2017",
-  isTopCase: true,
+  isTopCase: false,
+  isGoodCase: true,
   pt: {
     s: `Situacao: Quando assumi o portifolio de produto no Bradesco Next em 2023, o banco estava migrando 65 squads para um modelo remoto-first. As pesquisas de clima mostravam queda de 12 pontos em senso de pertencimento e 47% dos PMs diziam nao enxergar caminho de carreira. Para piorar, marketing queria cursos focados em growth, compliance exigia trilhas obrigatorias e TI pedia conteudo tecnico pesado. Os patrocinadores pressionavam por uma academia unica, mas com expectativas conflitantes.`,
     t: `Tarefa: Criei a meta de redesenhar a guilda de produto em oito semanas, entregando uma experiencia de desenvolvimento que equilibrasse as demandas de marketing, compliance e TI sem perder foco humano. Eu precisava aumentar eNPS em 20 pontos, formar sucessores para vagas criticas e provar que o investimento trazia ROI em churn de talentos.`,

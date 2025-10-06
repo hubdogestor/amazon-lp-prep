@@ -7,6 +7,7 @@ const case_2 = {
   company: "Bradesco Next",
   period: "01/2017-12/2017",
   isTopCase: true,
+  isGoodCase: false,
   pt: {
     s: `Quando o Bradesco decidiu lançar o Next para bater de frente com Nubank e Banco Inter, eu recebi o diagnóstico: NPS 35, churn de 22% nos primeiros 30 dias, onboarding digital com 42% de abandono. O board queria "paridade de features" e ignorava a voz do cliente, os squads reclamavam que abrir espaço para sessões atrapalharia sprints e o financeiro ameaçou cortar budget se o time-to-market caísse. Eu entendi que, se não mudassemos a cultura, seríamos apenas mais um app roxo.` ,
     t: `Eu assumi ownership end-to-end e me comprometi com o CEO do Next a alcançar NPS >=60 em seis meses, reduzir abandono para <20%, churn para <12% e manter o burn rate. Eu também prometi que eu mesmo colocaria o cliente na mesa do board todo mês para quebrar a resistência interna.` ,

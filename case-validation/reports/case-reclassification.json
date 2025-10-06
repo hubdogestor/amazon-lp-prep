@@ -1,0 +1,1722 @@
+{
+  "topCases": [
+    {
+      "lpId": "customer_obsession",
+      "caseId": "bradesco-next-customer-ritual",
+      "score": 85
+    },
+    {
+      "lpId": "ownership",
+      "caseId": "hsbc-migration-leadership",
+      "score": 55
+    },
+    {
+      "lpId": "are_right_a_lot",
+      "caseId": "sicredi-mobile-first-strategy",
+      "score": 90
+    },
+    {
+      "lpId": "learn_and_be_curious",
+      "caseId": "stay-updated-payments-fintech",
+      "score": 55
+    },
+    {
+      "lpId": "hire_and_develop_the_best",
+      "caseId": "unimed-underperformer-development",
+      "score": 60
+    },
+    {
+      "lpId": "insist_on_highest_standards",
+      "caseId": "sefaz-pmo-governance",
+      "score": 60
+    },
+    {
+      "lpId": "bias_for_action",
+      "caseId": "calculated-risk-time-critical",
+      "score": 75
+    },
+    {
+      "lpId": "frugality",
+      "caseId": "huawei-resource-optimization",
+      "score": 60
+    },
+    {
+      "lpId": "earn_trust",
+      "caseId": "hard-feedback-leadership-style",
+      "score": 75
+    },
+    {
+      "lpId": "dive_deep",
+      "caseId": "sicredi-churn-analysis",
+      "score": 75
+    },
+    {
+      "lpId": "broad_responsibility",
+      "caseId": "sicredi-responsible-ai-policy",
+      "score": 100
+    },
+    {
+      "lpId": "think_big",
+      "caseId": "unimed-ecosystem-transformation",
+      "score": 50
+    },
+    {
+      "lpId": "best_employer",
+      "caseId": "sefaz-reverse-mentoring-program",
+      "score": 60
+    },
+    {
+      "lpId": "disagree_and_commit",
+      "caseId": "bradesco-mvp-feature-prioritization",
+      "score": 55
+    }
+  ],
+  "goodCases": [
+    {
+      "lpId": "ownership",
+      "id": "hsbc-payment-reconciliation",
+      "file": "ownership_case4.js",
+      "title": "Reconciliei US$47M de Pagamentos na Reta Final do Cutover",
+      "qualityScore": 100,
+      "maxScore": 75,
+      "questionsWithScore": 1,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: HSBC (03/2016-05/2016)",
+        "Tamanho adequado: 2610 chars",
+        "Ratio EU:NÓS = 12.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "ownership",
+      "id": "payment-incidents-prevention-mechanism",
+      "file": "ownership_case5.js",
+      "title": "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
+      "qualityScore": 100,
+      "maxScore": 50,
+      "questionsWithScore": 1,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: SEFAZ/RS (08/2024-11/2024)",
+        "Tamanho adequado: 2789 chars",
+        "Ratio EU:NÓS = 11.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "are_right_a_lot",
+      "id": "sicredi-api-pricing-model",
+      "file": "are_right_a_lot_case3.js",
+      "title": "Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias",
+      "qualityScore": 100,
+      "maxScore": 90,
+      "questionsWithScore": 4,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Sicredi Plataforma (06/2020-12/2020)",
+        "Tamanho adequado: 2783 chars",
+        "Ratio EU:NÓS = 4.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "learn_and_be_curious",
+      "id": "olibano-blockchain-exploration",
+      "file": "learn_and_be_curious_case3.js",
+      "title": "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização",
+      "qualityScore": 83,
+      "maxScore": 50,
+      "questionsWithScore": 2,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: OLÍBANO (03/2024-08/2024)",
+        "Tamanho adequado: 4645 chars"
+      ],
+      "issues": [
+        "Ratio EU:NÓS = 1.0:1 (baixo)"
+      ]
+    },
+    {
+      "lpId": "hire_and_develop_the_best",
+      "id": "bradesco-talent-pipeline-creation",
+      "file": "hire_and_develop_the_best_case2.js",
+      "title": "Criação de Pipeline de Talentos Ágeis e Elevação dos Padrões de Contratação no InovaBra",
+      "qualityScore": 100,
+      "maxScore": 50,
+      "questionsWithScore": 1,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Bradesco (01/2017--12/2018)",
+        "Tamanho adequado: 4951 chars",
+        "Ratio EU:NÓS = 9.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "insist_on_highest_standards",
+      "id": "hsbc-zero-defects",
+      "file": "insist_on_highest_standards_case1.js",
+      "title": "Estabelecimento de Padrão 'Zero Data Loss' em Migração de US$ 5.2B",
+      "qualityScore": 100,
+      "maxScore": 60,
+      "questionsWithScore": 1,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: HSBC (05/2015-06/2016)",
+        "Tamanho adequado: 4572 chars",
+        "Ratio EU:NÓS = 2.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "bias_for_action",
+      "id": "bradesco-next-rapid-launch",
+      "file": "bias_for_action_case1.js",
+      "title": "Decisao Rapida para Lancar o Banco Digital Next em 11 Meses",
+      "qualityScore": 100,
+      "maxScore": 50,
+      "questionsWithScore": 2,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Bradesco Next (07/2016-11/2017)",
+        "Tamanho adequado: 2759 chars",
+        "Ratio EU:NÓS = 11.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "frugality",
+      "id": "sefaz-zero-budget-pmo",
+      "file": "frugality_case1.js",
+      "title": "Geração de U$1.4M em Ganhos de Eficiência no Setor Público sem Aumento de Orçamento",
+      "qualityScore": 100,
+      "maxScore": 50,
+      "questionsWithScore": 2,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: SEFAZ/RS (08/2024-11/2025)",
+        "Tamanho adequado: 4119 chars",
+        "Ratio EU:NÓS = 5.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "earn_trust",
+      "id": "sicredi-post-mortem-transparency",
+      "file": "earn_trust_case1.js",
+      "title": "Reconstruir confianca apos bug Pix com ritual de transparencias diarias",
+      "qualityScore": 100,
+      "maxScore": 75,
+      "questionsWithScore": 6,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Sicredi Woop (02/2020-06/2020)",
+        "Tamanho adequado: 3152 chars",
+        "Ratio EU:NÓS = 15.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "dive_deep",
+      "id": "hsbc-data-validation-audit",
+      "file": "dive_deep_case2.js",
+      "title": "Auditoria Pessoal em Processos de Validacao de Dados em Multiplos Paises",
+      "qualityScore": 100,
+      "maxScore": 100,
+      "questionsWithScore": 2,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: HSBC (05/2015-06/2016)",
+        "Tamanho adequado: 3074 chars",
+        "Ratio EU:NÓS = 3.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "dive_deep",
+      "id": "unimed-fraud-investigation",
+      "file": "dive_deep_case3.js",
+      "title": "Investigacao Manual de Anomalias em Reembolsos para Identificar Fraude em Rede",
+      "qualityScore": 100,
+      "maxScore": 85,
+      "questionsWithScore": 1,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Unimed (06/2022-12/2022)",
+        "Tamanho adequado: 3149 chars",
+        "Ratio EU:NÓS = 5.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "think_big",
+      "id": "bradesco-paas-latam",
+      "file": "think_big_case3.js",
+      "title": "Proposta e Desenho de uma Plataforma de Pagamentos como Serviço (PaaS) para a América Latina",
+      "qualityScore": 100,
+      "maxScore": 75,
+      "questionsWithScore": 1,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Bradesco Next (03/2018--06/2022)",
+        "Tamanho adequado: 4397 chars",
+        "Ratio EU:NÓS = 6.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "best_employer",
+      "id": "bradesco-agile-community-creation",
+      "file": "best_employer_case1.js",
+      "title": "Escalei a guilda de produto e promovi 18 lideres em seis meses",
+      "qualityScore": 83,
+      "maxScore": 60,
+      "questionsWithScore": 3,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Bradesco Next (02/2017-08/2017)",
+        "Tamanho adequado: 2633 chars"
+      ],
+      "issues": [
+        "Ratio EU:NÓS = 1.0:1 (baixo)"
+      ]
+    },
+    {
+      "lpId": "disagree_and_commit",
+      "id": "unimed-retention-strategy",
+      "file": "disagree_and_commit_case1.js",
+      "title": "Defendi foco em retencao e depois liderei o plano hibrido aprovado pelo CEO",
+      "qualityScore": 100,
+      "maxScore": 60,
+      "questionsWithScore": 1,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Unimed Nacional (02/2023-10/2023)",
+        "Tamanho adequado: 3309 chars",
+        "Ratio EU:NÓS = 11.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "disagree_and_commit",
+      "id": "commit-on-disagreement-product-strategy",
+      "file": "disagree_and_commit_case4.js",
+      "title": "Escalei discordancia sobre estrategia de pricing e liderei o piloto aprovado sem ruido",
+      "qualityScore": 100,
+      "maxScore": 50,
+      "questionsWithScore": 2,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Bradesco Next (03/2017-08/2017)",
+        "Tamanho adequado: 2547 chars",
+        "Ratio EU:NÓS = 8.0:1"
+      ],
+      "issues": []
+    }
+  ],
+  "regularCases": [
+    {
+      "lpId": "customer_obsession",
+      "id": "unimed-customer-experience",
+      "file": "customer_obsession_case1.js",
+      "title": "Transformei a Jornada do Beneficiário e Levei o NPS de 28 para 58 em 12 Meses",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Unimed (01/2023-12/2023)",
+        "Tamanho adequado: 2848 chars",
+        "Ratio EU:NÓS = 6.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "customer_obsession",
+      "id": "sicredi-frictionless-checkout",
+      "file": "customer_obsession_case3.js",
+      "title": "Redesenhei o Checkout do Gateway e Cortei Abandono de Carrinho em 25 Pontos",
+      "qualityScore": 83,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Sicredi (03/2020-11/2020)",
+        "Tamanho adequado: 2535 chars"
+      ],
+      "issues": [
+        "Ratio EU:NÓS = 0.0:1 (baixo)"
+      ]
+    },
+    {
+      "lpId": "ownership",
+      "id": "sefaz-pmo-creation",
+      "file": "ownership_case2.js",
+      "title": "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: SEFAZ/RS (08/2024-11/2025)",
+        "Tamanho adequado: 2983 chars",
+        "Ratio EU:NÓS = 19.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "ownership",
+      "id": "bradesco-international-payments",
+      "file": "ownership_case3.js",
+      "title": "Forca-Tarefa de Pagamentos Internacionais para Cortar Custos e Recuperar SLAs",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Bradesco (01/2017-06/2017)",
+        "Tamanho adequado: 2861 chars",
+        "Ratio EU:NÓS = 13.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "ownership",
+      "id": "long-term-tradeoff",
+      "file": "ownership_case6.js",
+      "title": "Assumi Trade-off: Menos Escopo Agora por Maior Robustez",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Bradesco Next (07/2017-12/2017)",
+        "Tamanho adequado: 3062 chars",
+        "Ratio EU:NÓS = 20.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "are_right_a_lot",
+      "id": "huawei-4g-rollout-analysis",
+      "file": "are_right_a_lot_case2.js",
+      "title": "Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Huawei LATAM (08/2014-03/2015)",
+        "Tamanho adequado: 2931 chars",
+        "Ratio EU:NÓS = 5.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "learn_and_be_curious",
+      "id": "unimed-harvard-healthcare-innovation",
+      "file": "learn_and_be_curious_case1.js",
+      "title": "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde",
+      "qualityScore": 67,
+      "maxScore": 50,
+      "questionsWithScore": 1,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Unimed (07/2021-02/2024)"
+      ],
+      "issues": [
+        "Texto longo: 5317 chars",
+        "Ratio EU:NÓS = 1.0:1 (baixo)"
+      ]
+    },
+    {
+      "lpId": "learn_and_be_curious",
+      "id": "bradesco-safe-agile-framework",
+      "file": "learn_and_be_curious_case2.js",
+      "title": "Implementação de Framework Ágil em Escala para Banco Digital",
+      "qualityScore": 83,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Bradesco (07/2016-05/2018)",
+        "Tamanho adequado: 4717 chars"
+      ],
+      "issues": [
+        "Ratio EU:NÓS = 1.0:1 (baixo)"
+      ]
+    },
+    {
+      "lpId": "learn_and_be_curious",
+      "id": "out-of-comfort-zone-transparency-portal",
+      "file": "learn_and_be_curious_case5.js",
+      "title": "Liderei o Portal da Transparência: Fora da Zona de Conforto",
+      "qualityScore": 83,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: SEFAZ/RS (08/2024-11/2024)",
+        "Ratio EU:NÓS = 8.0:1"
+      ],
+      "issues": [
+        "Texto longo: 5944 chars"
+      ]
+    },
+    {
+      "lpId": "hire_and_develop_the_best",
+      "id": "huawei-project-managers-mentoring",
+      "file": "hire_and_develop_the_best_case1.js",
+      "title": "Mentoria de 30+ Gerentes de Projeto e Criação de uma Comunidade de Prática",
+      "qualityScore": 83,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Huawei (01/2012-12/2014)",
+        "Ratio EU:NÓS = 6.0:1"
+      ],
+      "issues": [
+        "Texto longo: 5018 chars"
+      ]
+    },
+    {
+      "lpId": "insist_on_highest_standards",
+      "id": "sicredi-payment-sla",
+      "file": "insist_on_highest_standards_case3.js",
+      "title": "Redesenhei o Gateway SICREDI para 99.99% de Disponibilidade",
+      "qualityScore": 100,
+      "maxScore": 45,
+      "questionsWithScore": 1,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Sicredi (02/2019--11/2019)",
+        "Tamanho adequado: 2633 chars",
+        "Ratio EU:NÓS = 11.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "insist_on_highest_standards",
+      "id": "reject-mediocre-work-procergs",
+      "file": "insist_on_highest_standards_case4.js",
+      "title": "Rejeitei Entrega da PROCERGS e Institui Quality Gate Zero Falhas",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: SEFAZ/RS (11/2024--02/2025)",
+        "Tamanho adequado: 2310 chars",
+        "Ratio EU:NÓS = 2.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "bias_for_action",
+      "id": "sicredi-ml-credit-analysis",
+      "file": "bias_for_action_case2.js",
+      "title": "Destravei Analise de Credito com ML em 90 Dias e Zerei o Backlog",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Sicredi Woop (02/2019--12/2020)",
+        "Tamanho adequado: 2604 chars",
+        "Ratio EU:NÓS = 5.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "bias_for_action",
+      "id": "sefaz-emergency-tax-portal",
+      "file": "bias_for_action_case3.js",
+      "title": "Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: SEFAZ/RS (09/2024--10/2024)",
+        "Tamanho adequado: 2982 chars",
+        "Ratio EU:NÓS = 8.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "frugality",
+      "id": "unimed-automation-n8n",
+      "file": "frugality_case3.js",
+      "title": "Automação de Relatórios de Reconciliação Financeira Usando Ferramentas Open-Source (n8n)",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Unimed (01/2023--12/2023)",
+        "Tamanho adequado: 3344 chars",
+        "Ratio EU:NÓS = 2.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "earn_trust",
+      "id": "hsbc-bacen-communication",
+      "file": "earn_trust_case2.js",
+      "title": "Transformei relacionamento com Bacen com briefings executivos em 48h",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: HSBC Brasil (07/2015-03/2016)",
+        "Tamanho adequado: 2209 chars",
+        "Ratio EU:NÓS = 11.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "earn_trust",
+      "id": "bradesco-partner-recovery",
+      "file": "earn_trust_case3.js",
+      "title": "Reconquistei parceiro chave com plano de saldo garantido em 30 dias",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Bradesco Payments (09/2017-01/2018)",
+        "Tamanho adequado: 2115 chars",
+        "Ratio EU:NÓS = 9.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "earn_trust",
+      "id": "disagreement-with-manager-sla",
+      "file": "earn_trust_case5.js",
+      "title": "Remodelei SLA com meu diretor expondo dados e assumindo compromissos semanais",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Bradesco Payments (05/2017-08/2017)",
+        "Tamanho adequado: 1856 chars",
+        "Ratio EU:NÓS = 10.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "dive_deep",
+      "id": "sicredi-pix-settlement",
+      "file": "dive_deep_case4.js",
+      "title": "Reducao de 47% no Tempo de Liquidacao de Pagamentos PIX",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Sicredi (03/2020-08/2020)",
+        "Tamanho adequado: 2520 chars",
+        "Ratio EU:NÓS = 4.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "broad_responsibility",
+      "id": "unimed-lgpd-compliance",
+      "file": "broad_responsibility_case1.js",
+      "title": "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Unimed (08/2021-12/2021)",
+        "Tamanho adequado: 4040 chars",
+        "Ratio EU:NÓS = 4.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "broad_responsibility",
+      "id": "hsbc-fatca-aml-migration",
+      "file": "broad_responsibility_case2.js",
+      "title": "Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: HSBC (01/2016--12/2016)",
+        "Tamanho adequado: 4010 chars",
+        "Ratio EU:NÓS = 3.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "think_big",
+      "id": "huawei-global-rollout",
+      "file": "think_big_case1.js",
+      "title": "Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Huawei",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Huawei (01/2012--06/2023)",
+        "Tamanho adequado: 3018 chars",
+        "Ratio EU:NÓS = 10.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "think_big",
+      "id": "game-changing-program",
+      "file": "think_big_case4.js",
+      "title": "Programa Horizonte: Digital Twin Fiscal que Redirecionou R$2,1B em Investimentos",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: SEFAZ-RS (08/2024-11/2025)",
+        "Tamanho adequado: 4262 chars",
+        "Ratio EU:NÓS = 3.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "best_employer",
+      "id": "sicredi-360-feedback-system",
+      "file": "best_employer_case2.js",
+      "title": "Transformei o feedback 360 em pipeline de sucessao para todos os PMs",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": true,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Sicredi Plataforma (03/2019-12/2019)",
+        "Tamanho adequado: 2490 chars",
+        "Ratio EU:NÓS = 3.0:1"
+      ],
+      "issues": []
+    },
+    {
+      "lpId": "disagree_and_commit",
+      "id": "huawei-world-cup-timeline",
+      "file": "disagree_and_commit_case2.js",
+      "title": "Bati de frente com o VP sobre acelerar 5G e entreguei o plano aprovado para a Copa Feminina",
+      "qualityScore": 100,
+      "maxScore": 0,
+      "questionsWithScore": 0,
+      "isTopCase": false,
+      "strengths": [
+        "STAR(L) completo em PT",
+        "10 FUPs",
+        "Contém métricas quantitativas",
+        "Contexto: Huawei LATAM (09/2013-07/2014)",
+        "Tamanho adequado: 3042 chars",
+        "Ratio EU:NÓS = 9.0:1"
+      ],
+      "issues": []
+    }
+  ],
+  "summary": {
+    "customer_obsession": {
+      "topCase": {
+        "id": "bradesco-next-customer-ritual",
+        "file": "customer_obsession_case2.js"
+      },
+      "goodCases": [],
+      "regularCases": [
+        {
+          "id": "unimed-customer-experience",
+          "file": "customer_obsession_case1.js",
+          "title": "Transformei a Jornada do Beneficiário e Levei o NPS de 28 para 58 em 12 Meses",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Unimed (01/2023-12/2023)",
+            "Tamanho adequado: 2848 chars",
+            "Ratio EU:NÓS = 6.0:1"
+          ],
+          "issues": []
+        },
+        {
+          "id": "sicredi-frictionless-checkout",
+          "file": "customer_obsession_case3.js",
+          "title": "Redesenhei o Checkout do Gateway e Cortei Abandono de Carrinho em 25 Pontos",
+          "qualityScore": 83,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Sicredi (03/2020-11/2020)",
+            "Tamanho adequado: 2535 chars"
+          ],
+          "issues": [
+            "Ratio EU:NÓS = 0.0:1 (baixo)"
+          ]
+        }
+      ]
+    },
+    "ownership": {
+      "topCase": {
+        "id": "hsbc-migration-leadership",
+        "file": "ownership_case1.js"
+      },
+      "goodCases": [
+        {
+          "id": "hsbc-payment-reconciliation",
+          "file": "ownership_case4.js",
+          "title": "Reconciliei US$47M de Pagamentos na Reta Final do Cutover",
+          "qualityScore": 100,
+          "maxScore": 75,
+          "questionsWithScore": 1,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: HSBC (03/2016-05/2016)",
+            "Tamanho adequado: 2610 chars",
+            "Ratio EU:NÓS = 12.0:1"
+          ],
+          "issues": []
+        },
+        {
+          "id": "payment-incidents-prevention-mechanism",
+          "file": "ownership_case5.js",
+          "title": "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
+          "qualityScore": 100,
+          "maxScore": 50,
+          "questionsWithScore": 1,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: SEFAZ/RS (08/2024-11/2024)",
+            "Tamanho adequado: 2789 chars",
+            "Ratio EU:NÓS = 11.0:1"
+          ],
+          "issues": []
+        }
+      ],
+      "regularCases": [
+        {
+          "id": "sefaz-pmo-creation",
+          "file": "ownership_case2.js",
+          "title": "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: SEFAZ/RS (08/2024-11/2025)",
+            "Tamanho adequado: 2983 chars",
+            "Ratio EU:NÓS = 19.0:1"
+          ],
+          "issues": []
+        },
+        {
+          "id": "bradesco-international-payments",
+          "file": "ownership_case3.js",
+          "title": "Forca-Tarefa de Pagamentos Internacionais para Cortar Custos e Recuperar SLAs",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Bradesco (01/2017-06/2017)",
+            "Tamanho adequado: 2861 chars",
+            "Ratio EU:NÓS = 13.0:1"
+          ],
+          "issues": []
+        },
+        {
+          "id": "long-term-tradeoff",
+          "file": "ownership_case6.js",
+          "title": "Assumi Trade-off: Menos Escopo Agora por Maior Robustez",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Bradesco Next (07/2017-12/2017)",
+            "Tamanho adequado: 3062 chars",
+            "Ratio EU:NÓS = 20.0:1"
+          ],
+          "issues": []
+        }
+      ]
+    },
+    "invent_and_simplify": {
+      "topCase": null,
+      "goodCases": [],
+      "regularCases": []
+    },
+    "are_right_a_lot": {
+      "topCase": {
+        "id": "sicredi-mobile-first-strategy",
+        "file": "are_right_a_lot_case1.js"
+      },
+      "goodCases": [
+        {
+          "id": "sicredi-api-pricing-model",
+          "file": "are_right_a_lot_case3.js",
+          "title": "Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias",
+          "qualityScore": 100,
+          "maxScore": 90,
+          "questionsWithScore": 4,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Sicredi Plataforma (06/2020-12/2020)",
+            "Tamanho adequado: 2783 chars",
+            "Ratio EU:NÓS = 4.0:1"
+          ],
+          "issues": []
+        }
+      ],
+      "regularCases": [
+        {
+          "id": "huawei-4g-rollout-analysis",
+          "file": "are_right_a_lot_case2.js",
+          "title": "Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Huawei LATAM (08/2014-03/2015)",
+            "Tamanho adequado: 2931 chars",
+            "Ratio EU:NÓS = 5.0:1"
+          ],
+          "issues": []
+        }
+      ]
+    },
+    "learn_and_be_curious": {
+      "topCase": {
+        "id": "stay-updated-payments-fintech",
+        "file": "learn_and_be_curious_case4.js"
+      },
+      "goodCases": [
+        {
+          "id": "olibano-blockchain-exploration",
+          "file": "learn_and_be_curious_case3.js",
+          "title": "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização",
+          "qualityScore": 83,
+          "maxScore": 50,
+          "questionsWithScore": 2,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: OLÍBANO (03/2024-08/2024)",
+            "Tamanho adequado: 4645 chars"
+          ],
+          "issues": [
+            "Ratio EU:NÓS = 1.0:1 (baixo)"
+          ]
+        }
+      ],
+      "regularCases": [
+        {
+          "id": "unimed-harvard-healthcare-innovation",
+          "file": "learn_and_be_curious_case1.js",
+          "title": "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde",
+          "qualityScore": 67,
+          "maxScore": 50,
+          "questionsWithScore": 1,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Unimed (07/2021-02/2024)"
+          ],
+          "issues": [
+            "Texto longo: 5317 chars",
+            "Ratio EU:NÓS = 1.0:1 (baixo)"
+          ]
+        },
+        {
+          "id": "bradesco-safe-agile-framework",
+          "file": "learn_and_be_curious_case2.js",
+          "title": "Implementação de Framework Ágil em Escala para Banco Digital",
+          "qualityScore": 83,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Bradesco (07/2016-05/2018)",
+            "Tamanho adequado: 4717 chars"
+          ],
+          "issues": [
+            "Ratio EU:NÓS = 1.0:1 (baixo)"
+          ]
+        },
+        {
+          "id": "out-of-comfort-zone-transparency-portal",
+          "file": "learn_and_be_curious_case5.js",
+          "title": "Liderei o Portal da Transparência: Fora da Zona de Conforto",
+          "qualityScore": 83,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: SEFAZ/RS (08/2024-11/2024)",
+            "Ratio EU:NÓS = 8.0:1"
+          ],
+          "issues": [
+            "Texto longo: 5944 chars"
+          ]
+        }
+      ]
+    },
+    "hire_and_develop_the_best": {
+      "topCase": {
+        "id": "unimed-underperformer-development",
+        "file": "hire_and_develop_the_best_case3.js"
+      },
+      "goodCases": [
+        {
+          "id": "bradesco-talent-pipeline-creation",
+          "file": "hire_and_develop_the_best_case2.js",
+          "title": "Criação de Pipeline de Talentos Ágeis e Elevação dos Padrões de Contratação no InovaBra",
+          "qualityScore": 100,
+          "maxScore": 50,
+          "questionsWithScore": 1,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Bradesco (01/2017--12/2018)",
+            "Tamanho adequado: 4951 chars",
+            "Ratio EU:NÓS = 9.0:1"
+          ],
+          "issues": []
+        }
+      ],
+      "regularCases": [
+        {
+          "id": "huawei-project-managers-mentoring",
+          "file": "hire_and_develop_the_best_case1.js",
+          "title": "Mentoria de 30+ Gerentes de Projeto e Criação de uma Comunidade de Prática",
+          "qualityScore": 83,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Huawei (01/2012-12/2014)",
+            "Ratio EU:NÓS = 6.0:1"
+          ],
+          "issues": [
+            "Texto longo: 5018 chars"
+          ]
+        }
+      ]
+    },
+    "insist_on_highest_standards": {
+      "topCase": {
+        "id": "sefaz-pmo-governance",
+        "file": "insist_on_highest_standards_case2.js"
+      },
+      "goodCases": [
+        {
+          "id": "hsbc-zero-defects",
+          "file": "insist_on_highest_standards_case1.js",
+          "title": "Estabelecimento de Padrão 'Zero Data Loss' em Migração de US$ 5.2B",
+          "qualityScore": 100,
+          "maxScore": 60,
+          "questionsWithScore": 1,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: HSBC (05/2015-06/2016)",
+            "Tamanho adequado: 4572 chars",
+            "Ratio EU:NÓS = 2.0:1"
+          ],
+          "issues": []
+        }
+      ],
+      "regularCases": [
+        {
+          "id": "sicredi-payment-sla",
+          "file": "insist_on_highest_standards_case3.js",
+          "title": "Redesenhei o Gateway SICREDI para 99.99% de Disponibilidade",
+          "qualityScore": 100,
+          "maxScore": 45,
+          "questionsWithScore": 1,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Sicredi (02/2019--11/2019)",
+            "Tamanho adequado: 2633 chars",
+            "Ratio EU:NÓS = 11.0:1"
+          ],
+          "issues": []
+        },
+        {
+          "id": "reject-mediocre-work-procergs",
+          "file": "insist_on_highest_standards_case4.js",
+          "title": "Rejeitei Entrega da PROCERGS e Institui Quality Gate Zero Falhas",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: SEFAZ/RS (11/2024--02/2025)",
+            "Tamanho adequado: 2310 chars",
+            "Ratio EU:NÓS = 2.0:1"
+          ],
+          "issues": []
+        }
+      ]
+    },
+    "bias_for_action": {
+      "topCase": {
+        "id": "calculated-risk-time-critical",
+        "file": "bias_for_action_case4.js"
+      },
+      "goodCases": [
+        {
+          "id": "bradesco-next-rapid-launch",
+          "file": "bias_for_action_case1.js",
+          "title": "Decisao Rapida para Lancar o Banco Digital Next em 11 Meses",
+          "qualityScore": 100,
+          "maxScore": 50,
+          "questionsWithScore": 2,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Bradesco Next (07/2016-11/2017)",
+            "Tamanho adequado: 2759 chars",
+            "Ratio EU:NÓS = 11.0:1"
+          ],
+          "issues": []
+        }
+      ],
+      "regularCases": [
+        {
+          "id": "sicredi-ml-credit-analysis",
+          "file": "bias_for_action_case2.js",
+          "title": "Destravei Analise de Credito com ML em 90 Dias e Zerei o Backlog",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Sicredi Woop (02/2019--12/2020)",
+            "Tamanho adequado: 2604 chars",
+            "Ratio EU:NÓS = 5.0:1"
+          ],
+          "issues": []
+        },
+        {
+          "id": "sefaz-emergency-tax-portal",
+          "file": "bias_for_action_case3.js",
+          "title": "Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: SEFAZ/RS (09/2024--10/2024)",
+            "Tamanho adequado: 2982 chars",
+            "Ratio EU:NÓS = 8.0:1"
+          ],
+          "issues": []
+        }
+      ]
+    },
+    "frugality": {
+      "topCase": {
+        "id": "huawei-resource-optimization",
+        "file": "frugality_case2.js"
+      },
+      "goodCases": [
+        {
+          "id": "sefaz-zero-budget-pmo",
+          "file": "frugality_case1.js",
+          "title": "Geração de U$1.4M em Ganhos de Eficiência no Setor Público sem Aumento de Orçamento",
+          "qualityScore": 100,
+          "maxScore": 50,
+          "questionsWithScore": 2,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: SEFAZ/RS (08/2024-11/2025)",
+            "Tamanho adequado: 4119 chars",
+            "Ratio EU:NÓS = 5.0:1"
+          ],
+          "issues": []
+        }
+      ],
+      "regularCases": [
+        {
+          "id": "unimed-automation-n8n",
+          "file": "frugality_case3.js",
+          "title": "Automação de Relatórios de Reconciliação Financeira Usando Ferramentas Open-Source (n8n)",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Unimed (01/2023--12/2023)",
+            "Tamanho adequado: 3344 chars",
+            "Ratio EU:NÓS = 2.0:1"
+          ],
+          "issues": []
+        }
+      ]
+    },
+    "earn_trust": {
+      "topCase": {
+        "id": "hard-feedback-leadership-style",
+        "file": "earn_trust_case4.js"
+      },
+      "goodCases": [
+        {
+          "id": "sicredi-post-mortem-transparency",
+          "file": "earn_trust_case1.js",
+          "title": "Reconstruir confianca apos bug Pix com ritual de transparencias diarias",
+          "qualityScore": 100,
+          "maxScore": 75,
+          "questionsWithScore": 6,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Sicredi Woop (02/2020-06/2020)",
+            "Tamanho adequado: 3152 chars",
+            "Ratio EU:NÓS = 15.0:1"
+          ],
+          "issues": []
+        }
+      ],
+      "regularCases": [
+        {
+          "id": "hsbc-bacen-communication",
+          "file": "earn_trust_case2.js",
+          "title": "Transformei relacionamento com Bacen com briefings executivos em 48h",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: HSBC Brasil (07/2015-03/2016)",
+            "Tamanho adequado: 2209 chars",
+            "Ratio EU:NÓS = 11.0:1"
+          ],
+          "issues": []
+        },
+        {
+          "id": "bradesco-partner-recovery",
+          "file": "earn_trust_case3.js",
+          "title": "Reconquistei parceiro chave com plano de saldo garantido em 30 dias",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Bradesco Payments (09/2017-01/2018)",
+            "Tamanho adequado: 2115 chars",
+            "Ratio EU:NÓS = 9.0:1"
+          ],
+          "issues": []
+        },
+        {
+          "id": "disagreement-with-manager-sla",
+          "file": "earn_trust_case5.js",
+          "title": "Remodelei SLA com meu diretor expondo dados e assumindo compromissos semanais",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Bradesco Payments (05/2017-08/2017)",
+            "Tamanho adequado: 1856 chars",
+            "Ratio EU:NÓS = 10.0:1"
+          ],
+          "issues": []
+        }
+      ]
+    },
+    "dive_deep": {
+      "topCase": {
+        "id": "sicredi-churn-analysis",
+        "file": "dive_deep_case1.js"
+      },
+      "goodCases": [
+        {
+          "id": "hsbc-data-validation-audit",
+          "file": "dive_deep_case2.js",
+          "title": "Auditoria Pessoal em Processos de Validacao de Dados em Multiplos Paises",
+          "qualityScore": 100,
+          "maxScore": 100,
+          "questionsWithScore": 2,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: HSBC (05/2015-06/2016)",
+            "Tamanho adequado: 3074 chars",
+            "Ratio EU:NÓS = 3.0:1"
+          ],
+          "issues": []
+        },
+        {
+          "id": "unimed-fraud-investigation",
+          "file": "dive_deep_case3.js",
+          "title": "Investigacao Manual de Anomalias em Reembolsos para Identificar Fraude em Rede",
+          "qualityScore": 100,
+          "maxScore": 85,
+          "questionsWithScore": 1,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Unimed (06/2022-12/2022)",
+            "Tamanho adequado: 3149 chars",
+            "Ratio EU:NÓS = 5.0:1"
+          ],
+          "issues": []
+        }
+      ],
+      "regularCases": [
+        {
+          "id": "sicredi-pix-settlement",
+          "file": "dive_deep_case4.js",
+          "title": "Reducao de 47% no Tempo de Liquidacao de Pagamentos PIX",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Sicredi (03/2020-08/2020)",
+            "Tamanho adequado: 2520 chars",
+            "Ratio EU:NÓS = 4.0:1"
+          ],
+          "issues": []
+        }
+      ]
+    },
+    "broad_responsibility": {
+      "topCase": {
+        "id": "sicredi-responsible-ai-policy",
+        "file": "broad_responsibility_case3.js"
+      },
+      "goodCases": [],
+      "regularCases": [
+        {
+          "id": "unimed-lgpd-compliance",
+          "file": "broad_responsibility_case1.js",
+          "title": "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Unimed (08/2021-12/2021)",
+            "Tamanho adequado: 4040 chars",
+            "Ratio EU:NÓS = 4.0:1"
+          ],
+          "issues": []
+        },
+        {
+          "id": "hsbc-fatca-aml-migration",
+          "file": "broad_responsibility_case2.js",
+          "title": "Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: HSBC (01/2016--12/2016)",
+            "Tamanho adequado: 4010 chars",
+            "Ratio EU:NÓS = 3.0:1"
+          ],
+          "issues": []
+        }
+      ]
+    },
+    "deliver_results": {
+      "topCase": null,
+      "goodCases": [],
+      "regularCases": []
+    },
+    "think_big": {
+      "topCase": {
+        "id": "unimed-ecosystem-transformation",
+        "file": "think_big_case2.js"
+      },
+      "goodCases": [
+        {
+          "id": "bradesco-paas-latam",
+          "file": "think_big_case3.js",
+          "title": "Proposta e Desenho de uma Plataforma de Pagamentos como Serviço (PaaS) para a América Latina",
+          "qualityScore": 100,
+          "maxScore": 75,
+          "questionsWithScore": 1,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Bradesco Next (03/2018--06/2022)",
+            "Tamanho adequado: 4397 chars",
+            "Ratio EU:NÓS = 6.0:1"
+          ],
+          "issues": []
+        }
+      ],
+      "regularCases": [
+        {
+          "id": "huawei-global-rollout",
+          "file": "think_big_case1.js",
+          "title": "Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Huawei",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Huawei (01/2012--06/2023)",
+            "Tamanho adequado: 3018 chars",
+            "Ratio EU:NÓS = 10.0:1"
+          ],
+          "issues": []
+        },
+        {
+          "id": "game-changing-program",
+          "file": "think_big_case4.js",
+          "title": "Programa Horizonte: Digital Twin Fiscal que Redirecionou R$2,1B em Investimentos",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: SEFAZ-RS (08/2024-11/2025)",
+            "Tamanho adequado: 4262 chars",
+            "Ratio EU:NÓS = 3.0:1"
+          ],
+          "issues": []
+        }
+      ]
+    },
+    "best_employer": {
+      "topCase": {
+        "id": "sefaz-reverse-mentoring-program",
+        "file": "best_employer_case3.js"
+      },
+      "goodCases": [
+        {
+          "id": "bradesco-agile-community-creation",
+          "file": "best_employer_case1.js",
+          "title": "Escalei a guilda de produto e promovi 18 lideres em seis meses",
+          "qualityScore": 83,
+          "maxScore": 60,
+          "questionsWithScore": 3,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Bradesco Next (02/2017-08/2017)",
+            "Tamanho adequado: 2633 chars"
+          ],
+          "issues": [
+            "Ratio EU:NÓS = 1.0:1 (baixo)"
+          ]
+        }
+      ],
+      "regularCases": [
+        {
+          "id": "sicredi-360-feedback-system",
+          "file": "best_employer_case2.js",
+          "title": "Transformei o feedback 360 em pipeline de sucessao para todos os PMs",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Sicredi Plataforma (03/2019-12/2019)",
+            "Tamanho adequado: 2490 chars",
+            "Ratio EU:NÓS = 3.0:1"
+          ],
+          "issues": []
+        }
+      ]
+    },
+    "disagree_and_commit": {
+      "topCase": {
+        "id": "bradesco-mvp-feature-prioritization",
+        "file": "disagree_and_commit_case3.js"
+      },
+      "goodCases": [
+        {
+          "id": "unimed-retention-strategy",
+          "file": "disagree_and_commit_case1.js",
+          "title": "Defendi foco em retencao e depois liderei o plano hibrido aprovado pelo CEO",
+          "qualityScore": 100,
+          "maxScore": 60,
+          "questionsWithScore": 1,
+          "isTopCase": true,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Unimed Nacional (02/2023-10/2023)",
+            "Tamanho adequado: 3309 chars",
+            "Ratio EU:NÓS = 11.0:1"
+          ],
+          "issues": []
+        },
+        {
+          "id": "commit-on-disagreement-product-strategy",
+          "file": "disagree_and_commit_case4.js",
+          "title": "Escalei discordancia sobre estrategia de pricing e liderei o piloto aprovado sem ruido",
+          "qualityScore": 100,
+          "maxScore": 50,
+          "questionsWithScore": 2,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Bradesco Next (03/2017-08/2017)",
+            "Tamanho adequado: 2547 chars",
+            "Ratio EU:NÓS = 8.0:1"
+          ],
+          "issues": []
+        }
+      ],
+      "regularCases": [
+        {
+          "id": "huawei-world-cup-timeline",
+          "file": "disagree_and_commit_case2.js",
+          "title": "Bati de frente com o VP sobre acelerar 5G e entreguei o plano aprovado para a Copa Feminina",
+          "qualityScore": 100,
+          "maxScore": 0,
+          "questionsWithScore": 0,
+          "isTopCase": false,
+          "strengths": [
+            "STAR(L) completo em PT",
+            "10 FUPs",
+            "Contém métricas quantitativas",
+            "Contexto: Huawei LATAM (09/2013-07/2014)",
+            "Tamanho adequado: 3042 chars",
+            "Ratio EU:NÓS = 9.0:1"
+          ],
+          "issues": []
+        }
+      ]
+    }
+  }
+}

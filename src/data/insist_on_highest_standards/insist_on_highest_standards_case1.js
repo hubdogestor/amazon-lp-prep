@@ -6,7 +6,8 @@ const case_1 = {
   title_en: "Establishing 'Zero Data Loss' Standard in US$ 5.2B Migration",
   company: "HSBC",
   period: "05/2015-06/2016",
-  isTopCase: true,
+  isTopCase: false,
+  isGoodCase: true,
   pt: {
     s: `Durante a migração da operação HSBC para o Bradesco (US$ 5.2B em ativos, 2.7 milhões de contas), eu enfrentei um desafio de padrões. Em benchmarks de migrações bancárias similares (Wells Fargo-Wachovia, BB&T-SunTrust), a taxa de erro aceitável era de 0.01-0.05% - considerada 'best practice' pela indústria. Isso significava que perder dados de 270-1.350 clientes seria 'normal' e 'aceitável'. O padrão de mercado para migrações dessa escala aceitava 'perda de dados mínima' como inevitável. Consultores externos e até mesmo o Bradesco consideravam 0.01% um 'padrão agressivo'.`,
     t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Estabeleci pessoalmente o padrão de 'zero data loss' como critério de sucesso não negociável, um padrão consideravelmente mais alto do que estava sendo discutido inicialmente. Minha justificativa foi tripla: (1) Cada conta representava uma vida real - mães de família, aposentados, empresários - que confiaram no HSBC por décadas, (2) Reputacionalmente, 'perda mínima' vira manchete de jornal 'banco perde dados de clientes', (3) Regulatoriamente, qualquer perda seria auditada pelo BACEN indefinidamente. Estabeleci: zero. Não 0.01%. Zero.`,

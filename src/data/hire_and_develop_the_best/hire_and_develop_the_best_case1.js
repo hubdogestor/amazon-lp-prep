@@ -6,7 +6,8 @@ const case_1 = {
   title_en: "Mentoring 30+ Project Managers and Creating a Community of Practice",
   company: "Huawei",
   period: "01/2012-12/2014",
-  isTopCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Na Huawei, durante a expansão na América Latina, operadoras parceiras reclamavam da qualidade das entregas dos nossos projetos 4G/5G. Analisei feedback de 15 operadoras que reportaram 47% de projetos atrasados, impactando 8,2 milhões de clientes finais que não conseguiam acessar cobertura 4G prometida. Descobri que 73% dos atrasos vinham de gerentes de projeto (GPs) sem experiência em negociar com stakeholders técnicos das operadoras, gerenciar fornecedores globais sob pressão, e entregar soluções que realmente resolvessem problemas de conectividade dos usuários finais. Cada projeto atrasado custava R$ 2,8M em multas contratuais e perda de receita, além de frustrar milhões de clientes esperando melhor qualidade de sinal. Precisava urgentemente elevar a barra dos nossos GPs para entregar excelência técnica que impactasse diretamente a experiência dos usuários finais das operadoras.`,
     t: `Meu papel individual: eu assumi a responsabilidade de transformar radicalmente nossa capacidade de liderança técnica para garantir que cada projeto entregasse valor excepcional aos clientes finais das operadoras. Defini minha meta pessoal: reduzir atrasos de projetos de 47% para <10% em 18 meses, aumentar satisfação dos clientes (operadoras) de 6.2 para 8.5/10, e criar um pipeline robusto de 25+ líderes técnicos que pudessem garantir excelência nas entregas que impactavam milhões de usuários. Decidi criar um sistema estruturado de desenvolvimento que combinasse mentoria intensiva com prática real, focando obsessivamente na qualidade final percebida pelos clientes das operadoras.`,

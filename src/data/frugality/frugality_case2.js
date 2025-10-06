@@ -7,6 +7,7 @@ const case_2 = {
   company: "Huawei",
   period: "01/2013-12/2014",
   isTopCase: true,
+  isGoodCase: false,
   pt: {
     s: `Na Huawei, 200 milhões de brasileiros esperavam conectividade 4G de qualidade para a Copa do Mundo 2014, mas enfrentávamos pressão gigantesca com contratos de R$2.5 bilhões em risco. Cada dia de atraso significava milhões de usuários frustrados com conexões lentas durante o maior evento esportivo do país. O orçamento era fixo e totalmente alocado, com 50+ projetos críticos em paralelo. A abordagem tradicional seria solicitar orçamento de emergência para contratar mais equipes, mas eu sabia que isso prejudicaria a experiência dos usuários finais que pagam por conectividade premium e merecem excelência.`,
     t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como Gerente do PMO, minha responsabilidade era garantir a entrega do portfólio dentro das restrições existentes. Recusei-me a aceitar que a única solução era gastar mais. Minha tarefa era encontrar uma maneira de 'fabricar' os recursos necessários através da otimização e da eliminação de desperdícios, maximizando a capacidade produtiva da equipe existente de 200+ especialistas.`,

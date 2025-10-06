@@ -7,6 +7,7 @@ const case_6 = {
   company: "Bradesco Next",
   period: "07/2017-12/2017",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Eu liderava a integração de pagamentos no banco digital Next quando o squad planejava lançar 14 features em uma única release para a Black Friday. Eu enxergava latência média em 680 ms (+45%), backlog com 27 incidentes P1 e chargebacks crescendo 19% ao mês. Eu recebi alerta do NOC de que sob pico de 8 mil transações por segundo o core legado bateria 92% de CPU e poderia derrubar 3,5 milhões de transações por dia. O CPO insistia em manter o roadmap completo porque o marketing já prometera as novidades para 1,2 milhão de clientes.`,
     t: `Meu escopo formal cobria integrações com parceiros, mas eu assumi ownership total do core. Eu estabeleci metas: manter disponibilidade acima de 99,9%, reduzir chargebacks em pelo menos 15% e liberar a release em duas ondas somente quando os controles críticos passassem em testes de carga. Eu avisei o CEO que cortaria a primeira onda para cinco features essenciais e entregaria o restante quando os gates estivesse verdes.`,

@@ -7,6 +7,7 @@ const case_3 = {
   company: "SEFAZ/RS",
   period: "09/2024--10/2024",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Em setembro de 2024 o governador decretou calamidade nas cheias do Vale do Taquari e pediu que a SEFAZ aliviasse tributos para 32 mil contribuintes (clientes) em risco. O fluxo manual levaria quatro meses e custaria R$180 mi em arrecadacao e fecharia consultorios que dependiam de capital de giro. TI estimava 90 dias para um novo portal. Eu tinha 72 horas para oferecer alternativa ou o atendimento cairia.` ,
     t: `Como advisor do gabinete da CAGE eu tinha mandato para orquestrar tecnologia, fiscalizacao e atendimento. Assumi a responsabilidade individual de lançar um portal operacional em no maximo 18 dias, preservando LGPD e garantindo rollback caso houvesse fraude.` ,

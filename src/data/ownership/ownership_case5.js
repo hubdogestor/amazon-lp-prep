@@ -7,6 +7,7 @@ const case_5 = {
   company: "SEFAZ/RS",
   period: "08/2024-11/2024",
   isTopCase: false,
+  isGoodCase: true,
   pt: {
     s: `Eu atuava como advisor da SEFAZ/RS quando detectei um padrao perigoso: os mesmos incidentes de pagamentos (timeouts de gateway, divergencia de status, falhas de liquidacao) reapareciam a cada seis semanas. Cada crise congelava ate R$ 18M de arrecadacao diaria, gerava 4.500 chamados de contribuintes em 24h e derrubava o NPS de 63 para 41. Comunicacao, TI, arrecadacao e bancos parceiros trabalhavam em silos e ninguem assumia ownership do ciclo completo.`,
     t: `Eu defendi que, sem um mecanismo de prevencao, continuariamos apagando incendio. Assumi a responsabilidade de reduzir recorrencia em 50% e MTTR em 30% em quatro meses, criar um owner unico por incidente classe A e devolver o NPS para acima de 60.`,

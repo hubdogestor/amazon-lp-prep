@@ -6,7 +6,8 @@ const case_4 = {
   title_en: "Turned hard feedback into a transparency pact with the risk team",
   company: "Sicredi Digital",
   period: "01/2019-04/2019",
-  isTopCase: false,
+  isTopCase: true,
+  isGoodCase: false,
   pt: {
     s: `Em janeiro de 2024 eu apresentei um roadmap de mitigacao de chargeback para o comite de risco. No final do encontro a diretora disse na frente de todos: "eu nao confio em voce porque voce aparece so quando o numero melhora". O time ficou em silencio, e eu senti que a credibilidade estava em 3/10. Havia 19 iniciativas criticas travadas, 4,5 mil sellers reclamando de reembolsos atrasados e chargebacks em 0,62%.`,
     t: `Eu assumi ali que precisava reconquistar earn trust. Tracei a meta de reduzir chargeback para 0,40% em 90 dias, liberar as 19 iniciativas e criar um ritual onde a diretora soubesse de cada problema antes do report semanal.`,

@@ -7,6 +7,7 @@ const case_3 = {
   company: "Bradesco Payments",
   period: "09/2017-01/2018",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Um marketplace que respondia por 18% do nosso TPV suspendeu operacoes em setembro de 2022 depois que atrasamos tres ciclos de liquidacao D+1. R$ 420M ficaram parados, 8.700 sellers reclamaram e o parceiro publicou notinha dizendo que migraria para concorrente. O CEO exigiu que eu abrisse renegociacao com garantia pessoal de que o problema nao voltaria.`,
     t: `Eu assumi como single-threaded owner. Prometi normalizar o backlog em 10 dias, reduzir variacao de saldo a menos de 0,2% e assinar um acordo de nivel de confianca com clausulas que eu mesmo supervisionaria.`,

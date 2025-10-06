@@ -7,6 +7,7 @@ const case_3 = {
   company: "Unimed",
   period: "01/2023--12/2023",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `A equipe de payment reconciliation da Unimed gastava 200 horas de trabalho manual por mês na criação de relatórios de reconciliação entre sistemas de pagamento, cobrança e administradoras de cartão, um processo tedioso e propenso a erros. A equipe havia solicitado um orçamento de R$ 300.000 para uma ferramenta de automação empresarial especializada em reconciliação financeira, mas o processo de aprovação seria longo e incerto. O cliente interno (equipe de finanças) estava frustrado com a carga de trabalho repetitiva que os impedia de focar em análises estratégicas.`,
     t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como líder de Inovação, vi a oportunidade de resolver o problema de uma forma muito mais frugal e ágil. Minha tarefa era entregar o mesmo resultado (relatórios automatizados de reconciliação financeira), mas com uma fração do custo e do tempo, demonstrando que constraints financeiros podem gerar soluções mais criativas e sustentáveis.`,

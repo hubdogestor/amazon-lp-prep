@@ -7,6 +7,7 @@ const case_3 = {
   company: "Bradesco",
   period: "01/2017-06/2017",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Eu auditava o relatorio mensal de pagamentos internacionais quando vi o alerta vermelho: o custo medio por transacao subiu de R$ 47 para R$ 54 (+15%) em seis meses, adicionando R$ 364k por mes ao P&L (R$ 4,3M anualizados). O SLA explodiu de 2h50 para 4h10 e o NPS premium caiu de 66 para 48; tres dos meus 20 maiores clientes ameaçaram migrar. Quando confrontei Operacoes, Compliance, TI e Comercial, ouvi "isso nao e nosso problema". O CFO cravou 90 dias para recuperar custo e SLA ou cortaria headcount.`,
     t: `Mesmo com mandato formal restrito a transformacao digital, eu declarei que assumiria ownership ponta a ponta. Na frente do comite eu prometi cortar ao menos 12% do custo medio, trazer o SLA para menos de 3h e recolocar o NPS acima de 65 dentro de 90 dias. Pedi sete dias para apresentar o plano e garanti entregas tangiveis em 30, sem budget extra.`,

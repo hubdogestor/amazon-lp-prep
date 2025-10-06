@@ -7,6 +7,7 @@ const case_1 = {
   company: "Sicredi",
   period: "01/2020-05/2021",
   isTopCase: true,
+  isGoodCase: false,
   pt: {
     s: `Situacao: Em janeiro de 2020 assumi a lideranca do app Sicredi. Marketing queria lancar em 90 dias um super app com feed social porque concorrentes estavam viralizando. A area de risco alertou que 48% das reclamacoes eram por falhas em autenticao e a superintendencia regional pedia funcionalidades especificas para cooperados do agronegocio. Eu recebi em tres dias oito pedidos conflitantes: marketing, risco, canais fisicos, operacoes, banco digital, TI, juridico e duas regionais. Cada um defendia sua propria verdade.`,
     t: `Task: Tarefa: Eu defini que precisava separar opiniao de fato e chegar a um roadmap que preservasse resultado financeiro e experiencia do cooperado. Minhas metas: (1) rodar em dez dias uma analise multi-fonte mostrando impacto real de estabilidade vs feed social, (2) construir um business case que equilibrasse NPS, margem e custos de risco para apresentar ao comite executivo, (3) negociar um plano sequenciado que tivesse o acordo formal de todos os patrocinadores e que eu pudesse executar em 6 sprints.`,

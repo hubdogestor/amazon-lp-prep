@@ -7,6 +7,7 @@ const case_4 = {
   company: "SEFAZ-RS",
   period: "08/2024-11/2025",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Situação — Em 2023, eu assumi a missão de destravar o planejamento plurianual do Rio Grande do Sul. O estado investiria R$4,5B em infraestrutura, porém cada secretaria priorizava isoladamente. Analisei reclamações de 11,7 milhões de cidadãos gaúchos via Portal do Cidadão e descobri que 64% criticavam obras inacabadas, tempo de deslocamento excessivo e falta de transparência no uso de seus impostos. Sem um modelo unificado centrado no benefício real para contribuintes, acumulávamos risco de desperdiçar R$680M/ano em gargalos logísticos e escolher projetos com ROI marginal que ignoravam as necessidades mais urgentes da população.`,
     t: `Tarefa — O pedido inicial do governador era um dashboard de execução. Eu me auto-impus criar o Programa Horizonte centrado no cidadão: um digital twin fiscal-urbanístico capaz de simular cenários macroeconômicos, equilibrar caixa em tempo real e priorizar investimentos por ROI social que impactasse vidas reais de gaúchos. Estabeleci metas pessoais centradas no contribuinte: cortar o ciclo decisório de 60 para 10 dias (reduzindo espera por serviços públicos), reprogramar pelo menos R$1B para projetos que beneficiassem diretamente 70% da população, e elevar o índice de confiança do Tesouro acima de 80 pontos para restaurar credibilidade junto aos cidadãos que financiam o governo.`,

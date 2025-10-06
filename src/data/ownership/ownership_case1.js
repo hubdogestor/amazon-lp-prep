@@ -6,7 +6,8 @@ const case_1 = {
   title_en: "Leadership of US$ 5.2B Assets and Accounts Migration",
   company: "HSBC",
   period: "05/2015-06/2016",
-  isTopCase: false,
+  isTopCase: true,
+  isGoodCase: false,
   pt: {
     s: `Eu recebi o e-mail urgente do CFO com o assunto "Deal em risco" e o relatório do BACEN. Ele apontava 17 falhas de controle, 94 mil contas sem validação FATCA e um NPS premium despencando de 71 para 52. Eu tinha 18 meses até o closing da venda do HSBC Brasil para o Bradesco (US$ 5,2B) e ninguém assumia a migração de 2,7M de contas e US$ 3,2B em ativos. Quando eu provoquei os diretores de Operações, Compliance, TI e Comercial, cada um alegou que o problema era de outra área enquanto clientes priority ameaçavam retirar recursos.`,
     t: `Mesmo com mandato formal restrito ao PMO de transformação digital, eu subi na reunião do comitê executivo e me declarei owner único dessa transição. Eu estabeleci metas explícitas: migrar 100% das contas sem perdas de dados, manter churn HNWI abaixo de 0,5%, recuperar o NPS premium para acima de 70 e fechar todas as auditorias BACEN/IRS sem ressalvas. Eu recusei a pressão do board por encurtar o cronograma de 18 para 12 meses sem reforçar controles e ofereci um roadmap com gates objetivos que eu pessoalmente desbloquearia.`,

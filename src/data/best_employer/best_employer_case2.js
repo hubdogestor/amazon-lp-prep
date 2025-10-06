@@ -6,7 +6,8 @@ const case_2 = {
   title_en: "I turned 360 feedback into a full succession pipeline for every PM",
   company: "Sicredi Plataforma",
   period: "03/2019-12/2019",
-  isTopCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Situacao: Ao assumir a lideranca da plataforma de APIs em 2024 notei que 38 PMs trabalhavam em silos. O ciclo de desempenho gerava so notas genericas, 52% dos gestores achavam o feedback injusto e quatro PMs seniors haviam sido assediados por concorrentes. Sem desenvolvimento claro, arriscavamos perder talento chave e nossa escala de produtos cooperativos.`,
     t: `Tarefa: Eu me comprometi a construir, em noventa dias, um mecanismo de feedback 360 que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de sucessao para todas as funcoes de produto. Minha meta era elevar a confianca no processo para 85%, criar pipeline com pelo menos dois sucessores por papel critico e reduzir a intencao de saida para abaixo de 5%.`,

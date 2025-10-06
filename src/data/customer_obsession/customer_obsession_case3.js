@@ -7,6 +7,7 @@ const case_3 = {
   company: "Sicredi",
   period: "03/2020-11/2020",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `No início de 2020, o nosso gateway B2B2C tinha SLA impecável, mas lojistas reclamavam que perderam vendas porque o checkout era lento. Dados confirmavam: abandono de carrinho 70% (benchmark 45%), tempo médio de checkout 4m30s, NPS pós-transação 31. Em plena pandemia, três grandes varejistas ameaçavam migrar para PagSeguro e Mercado Pago se não consertássemos a experiência do consumidor final.` ,
     t: `Me declarei owner da jornada do consumidor. Prometi ao COO reduzir abandono para <=45%, derrubar o tempo de checkout para <=2m15s e aumentar NPS para >=55 em 6 meses sem elevar chargeback. Também garanti que todo redesign seria validado com clientes reais antes de bater martelo.` ,

@@ -7,6 +7,7 @@ const case_4 = {
   company: "Bradesco Next",
   period: "03/2017-08/2017",
   isTopCase: false,
+  isGoodCase: true,
   pt: {
     s: `No Bradesco Next eu liderava o produto de creditos parcelados para PMEs. O CRO queria cortar o markup de 2,2% para 1,0% em toda a carteira para ganhar share contra um concorrente. Eu discordava: nossas analises mostravam que 38% da carteira tinha risco alto e queimar margem colocaria R$ 15M de ECL adicional. O CRO falou: "se voce nao baixar o preco, coloco outro PM para tocar o produto".`,
     t: `Tracei um plano em tres passos: (1) em 48 horas mostrar ao CEO e ao CRO um modelo de elasticidade que suportasse minha posicao, (2) aceitar o veredito final e anunciar ao time que eu estava 100% comprometido com ele, (3) entregar os resultados do piloto aprovado em 60 dias, com KPIs acordados.`,

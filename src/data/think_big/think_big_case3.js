@@ -7,6 +7,7 @@ const case_3 = {
   company: "Bradesco Next",
   period: "03/2018--06/2022",
   isTopCase: false,
+  isGoodCase: true,
   pt: {
     s: `Situação — Em 2018, o Next operava 6,5 milhões de contas digitais com uptime de 99,98%, porém toda a estratégia seguia confinada ao B2C brasileiro. Stripe, dLocal e Adyen avançavam na região capturando fintechs que ignorávamos. Eu analisei feedback de 340 comerciantes parceiros do Next que reclamavam de integrações lentas e descobri que 68% desejavam APIs simples para oferecer pagamentos aos seus próprios clientes finais. Eu mostrei que manter foco local significava desperdiçar um ativo de R$120M/ano em custos fixos que poderia virar receita se eu transformasse nossa stack em plataforma regional - e, mais importante, permitiria que milhões de consumidores latino-americanos tivessem experiências de pagamento tão rápidas quanto as que oferecíamos no Brasil.`,
     t: `Tarefa — Como Product Manager de inovação, meu mandato oficial era lançar features para o app. Eu me auto-impus uma missão maior centrada no cliente final: provar que a stack de pagamentos podia virar produto exportável que permitisse a consumidores latino-americanos terem a mesma experiência rápida e confiável de pagamento que oferecíamos no Brasil. Estabeleci metas pessoais de destravar viabilidade técnica em 120 dias, fechar três pilotos pagantes em 12 meses que impactassem pelo menos 500 mil consumidores finais, e desenhar business plan para gerar R$70M de ARR em três anos com margem bruta acima de 55%.`,

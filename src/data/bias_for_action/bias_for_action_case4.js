@@ -6,7 +6,8 @@ const case_4 = {
   title_en: "Calculated Risk Under Time Pressure: Restored Telemedicine in 72h with Zoned Mitigation and Selective Rollback",
   company: "Unimed Porto Alegre",
   period: "03/2023-05/2023",
-  isTopCase: false,
+  isTopCase: true,
+  isGoodCase: false,
   pt: {
     s: `Em 3 de marco de 2023 sofremos ataque ransomware que derrubou a plataforma de telemedicina e deixou 38 mil consultas em risco. O time de infraestrutura queria reinstalar todo o ambiente em duas semanas. Cada dia offline custava R$1,2 mi em glosas e pacientes onco e cardio ficariam sem atendimento. Eu precisei decidir em horas.` ,
     t: `Como head de transformacao digital eu era owner do produto e das integrações. Minha missao era reestabelecer 80% da capacidade em 72 horas, mantendo LGPD e garantindo rollback caso o ambiente ficasse instavel.` ,

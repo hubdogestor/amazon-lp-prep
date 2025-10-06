@@ -7,6 +7,7 @@ const case_5 = {
   company: "Bradesco Payments",
   period: "05/2017-08/2017",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Meu diretor queria reduzir o SLA de onboard de sellers de 48 para 12 horas sem investir em compliance, mesmo com 6,2 mil clientes reclamando de atraso. Eu tinha dados mostrando que cairiamos para 62% de aprovacao correta e seriamos multados. Na discussao ele disse: "se voce nao entregar 12 horas vamos trocar o dono do processo". O clima ficou carregado e vi que eu tinha perdido earn trust.`,
     t: `Reconhecendo que a ameaca estava na mesa, eu decidi mostrar fatos e assumir cadencia de compromisso. Estabeleci meta de entregar aprovacao em 18 horas em 45 dias, manter falso positivo abaixo de 1,5% e construir trajeto transparente onde ele aprovasse cada trade-off.`,

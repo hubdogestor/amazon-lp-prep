@@ -7,6 +7,7 @@ const case_2 = {
   company: "Sicredi Woop",
   period: "02/2019--12/2020",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Quando assumi a gerencia do Woop, a aprovacao de credito levava 5,2 dias e gerava cancelamento de 31% das propostas. O backlog passava de 18 mil pedidos e a cooperativa perdia R$46 mi em carteira potencial por trimestre. A area queria contratar um WMS de risco em 14 meses. Eu nao podia aceitar essa paralisia enquanto clientes migravam para fintechs.` ,
     t: `Eu era o responsavel direto pelo produto de credito digital e pela jornada de onboarding. Meu objetivo pessoal era provar em menos de 90 dias que Machine Learning podia cortar o SLA de analise para menos de 1 hora, mantendo compliance com Bacen e protecao ao cooperado.` ,

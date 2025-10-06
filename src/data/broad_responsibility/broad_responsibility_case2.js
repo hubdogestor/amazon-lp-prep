@@ -6,7 +6,8 @@ const case_2 = {
   title_en: "FATCA and AML Controls Implementation in Billion-Dollar Operation",
   company: "HSBC",
   period: "01/2016--12/2016",
-  isTopCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `No contexto de payment operations em wealth management, a venda da operação do HSBC para o Bradesco envolvia a migração de um portfólio bilionário com milhares de contas internacionais. Nosso sucesso e escala significavam que estávamos no centro de regulamentações globais complexas como FATCA e AML (Anti-Lavagem de Dinheiro). Uma única falha poderia resultar em multas multimilionárias e impactar a integridade do sistema financeiro global.`,
     t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como líder do portfólio, minha responsabilidade era absoluta. Eu precisava garantir 100% de conformidade em uma operação que processava bilhões em transações. A tarefa era entender as implicações mais amplas de nossas ações: nosso trabalho era uma linha de defesa na integridade do sistema financeiro global, protegendo não apenas o banco, mas contribuindo para a estabilidade econômica internacional.`,

@@ -6,7 +6,8 @@ const case_3 = {
   title_en: "I disagreed with the MVP priorities, accepted the committee vote, and delivered the top feature they demanded",
   company: "Bradesco Next",
   period: "11/2017-05/2018",
-  isTopCase: false,
+  isTopCase: true,
+  isGoodCase: false,
   pt: {
     s: `No refresh do app Next 2023 eu liderava o discovery. O comite de produto queria priorizar um feed social gamificado porque concorrentes estavam gerando buzz. Eu defendia investir primeiro no novo motor de recomendacao financeira, pois 61% dos cancelamentos vinham de clientes que nao entendiam o gasto futuro. Eu disse: "um feed bonitinho nao baixa churn". O CPO respondeu: "se voce nao entrar na fila do feed, perco o suporte do marketing".`,
     t: `Decidi que iria provar o impacto do motor, escalar a descisao e, se o feed vencesse, eu mesmo lideraria a entrega sem reclamar. Metas: rodar experimento comparando ambos em duas semanas, levar o resultado ao comite executivo e, apos a votacao, entregar o backlog aprovado em seis sprints com NPS acima de 70.`,

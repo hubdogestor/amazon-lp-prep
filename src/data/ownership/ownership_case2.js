@@ -7,6 +7,7 @@ const case_2 = {
   company: "SEFAZ/RS",
   period: "08/2024-11/2025",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Eu recebi um ofício do BID com alerta vermelho: se em 45 dias a SEFAZ/RS não apresentasse um plano robusto de governança para o PROFISCO II (R$ 180M), o desembolso de US$ 12M seria congelado. Eu enxergava a CAGE tocando 28 projetos críticos sem PMO, três iniciativas duplicadas queimando R$ 4,2M e 18 auditorias em atraso. Cada diretor dizia "isso é da outra secretaria" enquanto 42 mil contribuintes aguardavam melhorias em serviços digitais que nunca chegavam.`,
     t: `Meu contrato dizia suporte metodológico, mas eu me declarei owner único da governança. Eu assumi como metas zerar suspensão de desembolso, eliminar duplicidade, reduzir desvio de prazo de 23% para abaixo de 8% e entregar dashboards diários para secretários e BID. Eu prometi ao Secretário da Fazenda um blueprint em sete dias e rituais operando em 30 sem contratar consultoria externa.`,

@@ -6,7 +6,8 @@ const case_3 = {
   title_en: "Underperforming Analyst Development Through Reallocation and Ownership",
   company: "Unimed",
   period: "01/2023--12/2023",
-  isTopCase: false,
+  isTopCase: true,
+  isGoodCase: false,
   pt: {
     s: `Na Unimed, a equipe de operações de pagamentos sofria com alto turnover (40%), impactando diretamente 18 milhões de beneficiários que enfrentavam atrasos na liberação de autorizações médicas e reembolsos. Analises de satisfação mostraram que 34% dos beneficiários reclamavam de lentidão nos processos financeiros, com tempo médio de reembolso de 12 dias vs. 5 dias da concorrência. Para reverter isso, criei um programa de desenvolvimento de carreira focado em reter talentos e acelerar atendimento aos beneficiários. No entanto, um analista recém-contratado, apesar de ter demonstrado grande potencial analítico na entrevista, estava com produtividade 30% abaixo da média na área de análise de fraude, gerando gargalo que atrasava liberações para 250k beneficiários/mês. Ele estava desmotivado e corria risco de ser desligado, o que agravaria ainda mais os atrasos para nossos beneficiários.`,
     t: `Meu papel individual: eu liderei end-to-end esta iniciativa centrada nos 18 milhões de beneficiários que dependiam de processos financeiros eficientes. Minha responsabilidade era desenvolver os melhores talentos, priorizando sempre o impacto final nos clientes da Unimed. Em vez de simplesmente desligar um funcionário com baixo desempenho (o que agravaria atrasos para 250K beneficiários/mês), eu decidi diagnosticar a causa raiz e criar plano de desenvolvimento que acelerasse o atendimento aos nossos clientes. Estabeleci meta clara: transformar esse analista em multiplicador de valor para nossos beneficiários, provando que investimento em pessoas gera melhor experiência do cliente.`,

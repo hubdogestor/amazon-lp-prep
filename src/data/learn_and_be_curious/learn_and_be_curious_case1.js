@@ -6,7 +6,8 @@ const case_1 = {
   title_en: "Applying Harvard Concepts to Launch New Digital Health Products",
   company: "Unimed",
   period: "07/2021-02/2024",
-  isTopCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Na Unimed, identifiquei que a empresa líder de mercado estava operando com modelo tradicional enquanto healthtechs como Alice e Sami cresciam 300% ao ano capturando participação de mercado com experiências superiores dos beneficiários. Analisei dados de churn e descobri que 42% dos associados cancelavam por frustração com burocracia no atendimento. Havia necessidade urgente de inovar centrado no cliente, mas a organização carecia completamente de frameworks modernos. Examinei tentativas anteriores de inovação - 3 projetos digitais foram descontinuados após 6 meses por falta de metodologia estruturada e por ignorarem feedback real dos beneficiários.`,
     t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era estruturar a área de inovação e liderar o lançamento de novos produtos digitais que competissem diretamente com healthtechs. Identifiquei que precisava de conhecimento acadêmico de ponta para competir com startups que usavam frameworks de Stanford e Harvard. Investi US$ 3.200 do meu próprio orçamento e 120 horas ao longo de 8 semanas para completar o curso 'Innovating in Healthcare' na Harvard School of Public Health, com meta clara de traduzir pelo menos 3 conceitos específicos em produtos concretos mensuráveis. Escolhi Harvard especificamente porque era a única instituição que combinava rigor acadêmico com cases reais de transformação em healthcare incumbents similares à Unimed.`,

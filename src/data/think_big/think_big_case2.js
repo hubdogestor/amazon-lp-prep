@@ -7,6 +7,7 @@ const case_2 = {
   company: "Unimed",
   period: "07/2021-02/2024",
   isTopCase: true,
+  isGoodCase: false,
   pt: {
     s: `Situação — Em 2021, eu analisava a curva de churn da Unimed e vi um padrão alarmante: clientes multicanal migravam 2,4x mais para healthtechs full service. O conselho queria reagir com bundles promocionais no plano tradicional. Eu provoquei: se eu aceitasse esse pensamento limitado, a cooperativa perderia R$1,2B em receita até 2025 e ficaria presa ao rótulo de seguradora tradicional.`,
     t: `Tarefa — Minha função oficial era liderar estratégia competitiva, mas eu assumi integralmente a responsabilidade de redesenhar o posicionamento. Defini meta pessoal de lançar três verticais adjacentes em 18 meses, engajar 20% das vidas em dois ou mais serviços e elevar o NPS em 5 pontos, provando que a Unimed podia atuar como orquestradora de um ecossistema completo de saúde e bem-estar.`,

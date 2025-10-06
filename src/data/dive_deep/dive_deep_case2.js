@@ -7,6 +7,7 @@ const case_2 = {
   company: "HSBC",
   period: "05/2015-06/2016",
   isTopCase: false,
+  isGoodCase: true,
   pt: {
     s: `Na migracao do portfolio de US$ 5,2 bilhoes do HSBC para o Bradesco, eu era o responsavel direto pela governanca do programa. A migracao envolvia 280 mil contas de clientes high-net-worth (67% com ativos acima de US$ 1M) em 12 paises. Os dashboards mostravam tudo "verde", com 99,8% de correspondencia, e o fornecedor global insistia que nao precisavamos auditar mais nada. Eu via risco reputacional gigantesco: bastava um erro em nomes ou enderecos para cartas de compliance nao chegarem e clientes-chave perderem acesso aos investimentos.`,
     t: `Fui nomeado single-threaded owner para provar se a migracao estava, de fato, segura. Meu compromisso com o COO era entregar, em 10 dias, um laudo independente com amostras auditadas, avaliacao de impacto ao cliente e plano de mitigacao se houvesse falhas. Eu precisava mergulhar nos dados pessoalmente, confrontar o fornecedor e proteger o go-live sem atrasar o cronograma.`,

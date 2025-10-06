@@ -6,7 +6,8 @@ const case_1 = {
   title_en: "Rebuilt the Member Journey and Lifted NPS from 28 to 58 in 12 Months",
   company: "Unimed",
   period: "01/2023-12/2023",
-  isTopCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Em janeiro de 2023 eu assumi a diretoria de Experiência do Cliente da Unimed com um cenário crítico: NPS em 28 (benchmark 45), churn anual de 18%, 63% dos tickets marcados como "falta de transparência" e 1,6 milhão de interações/ano em canais que se contradiziam. O conselho só falava em cortar custo, a diretoria médica ameaçou bloquear qualquer mudança por medo de multa da ANS e três cooperativas sugeriram terceirizar atendimento.` ,
     t: `Eu me declarei owner end-to-end. Prometi ao CEO e ao conselho que, em 12 meses, entregaria NPS >=60, churn <=11%, autorização crítica <=2 dias e aumentaria a transparência sem estourar CAPEX. Também garanti que eu mesmo traria a voz do cliente ao board em todo ciclo.` ,

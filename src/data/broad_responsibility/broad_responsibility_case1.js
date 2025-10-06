@@ -7,6 +7,7 @@ const case_1 = {
   company: "Unimed",
   period: "08/2021-12/2021",
   isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `Em janeiro de 2021, a LGPD começou a ser aplicada com multas de até R$50 milhões. Na Unimed, éramos guardiões dos dados de saúde -- a categoria mais sensível de dados pessoais -- de 600 mil+ clientes. Com 4 novos produtos digitais para lançar em 12 meses e potencial receita de R$15M no primeiro ano, eu enfrentava um dilema executivo: velocidade vs. conformidade. Uma única falha poderia resultar não apenas em multas multimilionárias, mas no fim da confiança de centenas de milhares de clientes que depositavam suas informações mais íntimas em nossos produtos.`,
     t: `Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era garantir que cada produto fosse desenhado desde o início com os princípios de 'Privacy by Design', estabelecendo um novo e mais alto padrão de governança de dados para a área de inovação. Era minha responsabilidade proteger não apenas os dados dos clientes atuais, mas também estabelecer precedentes que protegeriam futuras gerações de usuários.`,

@@ -7,6 +7,7 @@ const case_3 = {
   company: "SEFAZ RS",
   period: "08/2024-11/2024",
   isTopCase: true,
+  isGoodCase: false,
   pt: {
     s: `Situacao: Como consultor chefe do PMO da SEFAZ/RS em 2024 vi um choque geracional pressionando o atendimento aos clientes contribuintes. Veteranos dominavam a legislacao, mas reclamavam que os recem-chegados nao respeitavam ritos. Os mais jovens diziam que processos analogicos impediam inovacao e afastavam os clientes rurais. O eNPS interno estava em 48, o tempo de resposta ao cliente contribuinte rural subira de 9 para 14 dias, pedidos de transferencia cresceram 35% e a ouvidoria recebeu 1.200 queixas de atraso.`,
     t: `Tarefa: O secretario me pediu criar um ambiente de trabalho melhor que unisse geracoes, reduzisse pedidos de transferencia e melhorasse o servico aos clientes contribuintes sem ampliar custo. Eu defini que criar ambiente de trabalho melhor significava: (1) eNPS acima de 80 (colaboradores engajados querendo ficar), (2) pedidos de transferencia -50% (retencao demonstrada), (3) colaboracao intergeracional mensuravel (73%+ reportando melhoria na qualidade das relacoes), (4) crescimento de liderancas internas (>15 novas emergindo naturalmente). Nao bastava entregar resultado ao contribuinte externo - eu precisava construir um local onde as pessoas QUISESSEM trabalhar, crescer e contribuir todos os dias.`,
