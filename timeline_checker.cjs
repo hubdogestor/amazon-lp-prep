@@ -1,13 +1,4 @@
-consconst timeline = {
-  'Huawei': ['2009-10', '2015-04'],
-  'HSBC': ['2015-05', '2016-06'], 
-  'Bradesco': ['2016-07', '2018-05'],
-  'Sicredi': ['2018-06', '2021-05'],
-  'Unimed': ['2021-06', '2024-02'],
-  'SEFAZ': ['2024-07', '2025-11'],
-  'OLÍBANO': ['2024-01', '2024-12'],
-  'HUB DO GESTOR': ['2025-01', '2025-12']
-};ire('fs');
+const fs = require('fs');
 const path = require('path');
 
 // Histórico profissional correto
