@@ -1,6 +1,6 @@
 # Gaps: Perguntas Sem Cases Adequados
 
-**Total de gaps**: 71 perguntas (41.5%)
+**Total de gaps**: 68 perguntas (39.8%)
 
 ---
 
@@ -120,49 +120,31 @@
 
 ## BROAD RESPONSIBILITY
 
-**7 gaps**
-
-### 🟡 Conte sobre uma vez que você agiu pensando na comunidade
-
-- **EN**: Tell me about a time you acted thinking about community
-- **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
+**4 gaps**
 
 ### 🟡 Descreva uma situação onde você tomou a decisão certa, não a fácil
 
 - **EN**: Describe a situation where you made the right decision, not the easy one
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
-
-### 🟡 Me dê um exemplo de quando você considerou stakeholders além dos óbvios
-
-- **EN**: Give me an example of when you considered stakeholders beyond the obvious
-- **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária" (score 40/100). Case do LP correto (broad_responsibility)
 
 ### 🟡 Conte sobre quando você deixou algo melhor do que encontrou
 
 - **EN**: Tell me about when you left something better than you found it
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária" (score 40/100). Case do LP correto (broad_responsibility)
 
 ### 🟡 Me fale sobre uma decisão moral ou ética que você enfrentou no trabalho - como lidou?
 
 - **EN**: Tell me about a moral or ethical decision you faced at work - how did you handle it?
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
-
-### 🟡 Descreva uma vez que você considerou impactos de segunda ordem das suas ações
-
-- **EN**: Describe a time you considered second-order impacts of your actions
-- **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária" (score 40/100). Case do LP correto (broad_responsibility)
 
 ### 🟡 Conte sobre quando você escolheu fazer o certo mesmo custando resultados de curto prazo
 
 - **EN**: Tell me about when you chose to do the right thing even costing short-term results
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes" (score 40/100). Case do LP correto (broad_responsibility)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária" (score 40/100). Case do LP correto (broad_responsibility)
 
 ---
 
@@ -234,13 +216,13 @@
 
 - **EN**: How do you ensure quality in details?
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Analise de Dados para Identificar os Principais Drivers de Churn no App" (score 40/100). Case do LP correto (dive_deep)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Reducao de 47% no Tempo de Liquidacao de Pagamentos PIX" (score 40/100). Case do LP correto (dive_deep)
 
 ### 🟡 Descreva uma vez que alguém te deu uma explicação mas você não acreditou e investigou - qual foi a verdade?
 
 - **EN**: Describe a time someone gave you an explanation but you didn't believe it and investigated - what was the truth?
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Analise de Dados para Identificar os Principais Drivers de Churn no App" (score 40/100). Case do LP correto (dive_deep)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Reducao de 47% no Tempo de Liquidacao de Pagamentos PIX" (score 40/100). Case do LP correto (dive_deep)
 
 ---
 
@@ -414,19 +396,19 @@
 
 - **EN**: Describe a situation where you challenged the status quo
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing" (score 40/100). Case do LP correto (invent_simplify)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%" (score 40/100). Case do LP correto (invent_simplify)
 
 ### 🟡 Me fale sobre uma vez que você criou um processo mais simples que teve grande impacto
 
 - **EN**: Tell me about a time you created a simpler process that had great impact
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing" (score 40/100). Case do LP correto (invent_simplify)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%" (score 40/100). Case do LP correto (invent_simplify)
 
 ### 🟡 Conte sobre quando você teve um plano mas encontrou obstáculos - como você pivotou?
 
 - **EN**: Tell me about when you had a plan but encountered obstacles - how did you pivot?
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing" (score 40/100). Case do LP correto (invent_simplify)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%" (score 40/100). Case do LP correto (invent_simplify)
 
 ---
 
@@ -468,19 +450,19 @@
 
 - **EN**: Tell me about a long-term decision you made
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderança da Migração de US$ 5.2B de Ativos e Contas" (score 40/100). Case do LP correto (ownership)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Reconciliei US$47M de Pagamentos na Reta Final do Cutover" (score 40/100). Case do LP correto (ownership)
 
 ### 🟡 Me fale sobre um trade-off difícil que você fez pensando no longo prazo
 
 - **EN**: Tell me about a difficult trade-off you made thinking long-term
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderança da Migração de US$ 5.2B de Ativos e Contas" (score 40/100). Case do LP correto (ownership)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Reconciliei US$47M de Pagamentos na Reta Final do Cutover" (score 40/100). Case do LP correto (ownership)
 
 ### 🟡 Descreva uma situação onde você tomou uma decisão importante de negócio sem consultar seu gestor
 
 - **EN**: Describe a situation where you made an important business decision without consulting your manager
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderança da Migração de US$ 5.2B de Ativos e Contas" (score 40/100). Case do LP correto (ownership)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Reconciliei US$47M de Pagamentos na Reta Final do Cutover" (score 40/100). Case do LP correto (ownership)
 
 ---
 

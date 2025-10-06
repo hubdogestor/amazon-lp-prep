@@ -121,6 +121,7 @@ function loadAllCases() {
           title_en: caseObj.title_en || '',
           company: caseObj.company,
           period: caseObj.period,
+          isTopCase: caseObj.isTopCase || false,
           pt: caseObj.pt,
           en: caseObj.en,
           filePath: path.relative(__dirname, filePath)
@@ -229,7 +230,12 @@ function extractKeywords(question) {
     'simplificação', 'simplification', 'otimização', 'optimization', 'six sigma',
     'processo', 'process', 'api', 'integração', 'integration', 'dados', 'data',
     'análise', 'analysis', 'decisão', 'decision', 'risco', 'risk', 'cliente', 'customer',
-    'time', 'team', 'equipe', 'conflito', 'conflict', 'feedback', 'prazo', 'deadline'
+    'time', 'team', 'equipe', 'conflito', 'conflict', 'feedback', 'prazo', 'deadline',
+    // ✅ ADICIONADO: Vocabulário de broad_responsibility
+    'impacto', 'amplo', 'impact', 'broader', 'responsabilidade', 'responsibility',
+    'social', 'sociedade', 'society', 'comunidade', 'community', 'stakeholders',
+    'consequências', 'consequences', 'futuras gerações', 'future generations',
+    'ecossistema', 'ecosystem', 'segunda ordem', 'second order'
   ];
   
   for (const term of domainTerms) {
@@ -241,7 +247,9 @@ function extractKeywords(question) {
   // Verbos de ação
   const actionVerbs = [
     'simplificou', 'otimizou', 'automatizou', 'reduziu', 'aumentou', 'criou',
-    'implementou', 'liderou', 'desenvolveu', 'resolveu', 'identificou', 'melhorou'
+    'implementou', 'liderou', 'desenvolveu', 'resolveu', 'identificou', 'melhorou',
+    // ✅ ADICIONADO: Verbos relacionados a impacto/responsabilidade
+    'considerar', 'considerou', 'consider', 'avaliou', 'evaluated', 'mitigou', 'mitigated'
   ];
   
   for (const verb of actionVerbs) {
@@ -359,6 +367,28 @@ function analyzeContext(question, caseData) {
     reason = 'Contexto de decisão sob risco/incerteza';
   }
   
+  // Impacto Amplo / Responsabilidade Social (broad_responsibility)
+  if ((q.includes('impacto') && (q.includes('amplo') || q.includes('mais amplo'))) ||
+      q.includes('responsabilidade social') || 
+      q.includes('consequências não intencionais') ||
+      q.includes('futuras gerações') || 
+      q.includes('sociedade') || q.includes('comunidade') ||
+      q.includes('stakeholders') ||
+      (q.includes('broader') && q.includes('impact'))) {
+    
+    if (fullCase.includes('impacto amplo') || 
+        fullCase.includes('responsabilidade social') ||
+        fullCase.includes('sociedade') || fullCase.includes('comunidade') ||
+        fullCase.includes('stakeholders') || 
+        fullCase.includes('consequências') ||
+        fullCase.includes('secondary') || fullCase.includes('secundário') ||
+        fullCase.includes('broader impact') ||
+        fullCase.includes('social responsibility')) {
+      score += 25;
+      reason = 'Contexto de impacto amplo/responsabilidade social alinhado';
+    }
+  }
+  
   return { score, reason };
 }
 
@@ -389,8 +419,14 @@ function findBestCaseForQuestion(question, allCases) {
     };
   });
   
-  // Ordena por score
-  scored.sort((a, b) => b.score - a.score);
+  // Ordena por score (descendente) e, em caso de empate, prefere isTopCase=true
+  scored.sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    // Tie-breaking: isTopCase=true ganha
+    if (a.case.isTopCase && !b.case.isTopCase) return -1;
+    if (!a.case.isTopCase && b.case.isTopCase) return 1;
+    return 0;
+  });
   
   const best = scored[0];
   
@@ -429,7 +465,17 @@ function analyzeConceptMatch(question, caseData, fullCase) {
     { q: ['conflito', 'discord', 'desacordo'], c: ['conflito', 'discord', 'desacord'], weight: 15 },
     { q: ['rápido', 'urgência', 'pressão'], c: ['urgência', 'rápido', 'emergência'], weight: 12 },
     { q: ['longo prazo', 'decisão estratégica'], c: ['longo prazo', 'futuro', 'estratégia'], weight: 12 },
-    { q: ['aprender', 'estudar', 'conhecimento'], c: ['aprendi', 'estudo', 'conhecimento'], weight: 10 }
+    { q: ['aprender', 'estudar', 'conhecimento'], c: ['aprendi', 'estudo', 'conhecimento'], weight: 10 },
+    // ✅ ADICIONADO: Conceitos de broad_responsibility
+    { q: ['impacto', 'amplo', 'mais amplo', 'broader'], 
+      c: ['impacto amplo', 'impacto mais amplo', 'responsabilidade social', 'broader impact'], 
+      weight: 20 },
+    { q: ['consequências', 'não intencionais', 'segunda ordem', 'unintended'], 
+      c: ['consequências', 'não intencionais', 'impacto secundário', 'segunda ordem', 'efeitos colaterais'], 
+      weight: 18 },
+    { q: ['sociedade', 'comunidade', 'stakeholders', 'social'], 
+      c: ['sociedade', 'comunidade', 'stakeholders', 'social', 'cooperados', 'membros'], 
+      weight: 15 }
   ];
   
   for (const concept of concepts) {

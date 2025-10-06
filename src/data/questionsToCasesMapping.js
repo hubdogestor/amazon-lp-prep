@@ -1,0 +1,518 @@
+// Mapeamento automático: typicalQuestions  cases
+// Gerado por: map_questions_to_cases.cjs
+// Última atualização: 2025-10-06T15:33:19.720Z
+
+export const questionsToCasesMapping = {
+  "customer_obsession": {
+    "0": {
+      "case_id": "bradesco-next-customer-ritual",
+      "score": 85
+    },
+    "1": {
+      "case_id": "bradesco-next-customer-ritual",
+      "score": 90
+    },
+    "2": {
+      "case_id": "bradesco-next-customer-ritual",
+      "score": 85
+    },
+    "3": {
+      "case_id": "bradesco-next-customer-ritual",
+      "score": 85
+    },
+    "4": {
+      "case_id": "bradesco-next-customer-ritual",
+      "score": 90
+    },
+    "5": {
+      "case_id": "bradesco-next-customer-ritual",
+      "score": 85
+    },
+    "6": {
+      "case_id": "bradesco-next-customer-ritual",
+      "score": 85
+    },
+    "7": {
+      "case_id": "bradesco-next-customer-ritual",
+      "score": 85
+    },
+    "8": {
+      "case_id": "bradesco-next-customer-ritual",
+      "score": 85
+    },
+    "9": {
+      "case_id": "bradesco-next-customer-ritual",
+      "score": 85
+    },
+    "10": {
+      "case_id": "bradesco-next-customer-ritual",
+      "score": 90
+    },
+    "11": {
+      "case_id": "bradesco-next-customer-ritual",
+      "score": 85
+    }
+  },
+  "ownership": {
+    "0": {
+      "case_id": "hsbc-migration-leadership",
+      "score": 55
+    },
+    "1": {
+      "case_id": "hsbc-migration-leadership",
+      "score": 45
+    },
+    "2": null,
+    "3": {
+      "case_id": "hsbc-migration-leadership",
+      "score": 45
+    },
+    "4": null,
+    "5": null,
+    "6": {
+      "case_id": "payment-incidents-prevention-mechanism",
+      "score": 50
+    },
+    "7": {
+      "case_id": "hsbc-migration-leadership",
+      "score": 45
+    },
+    "8": {
+      "case_id": "hsbc-migration-leadership",
+      "score": 80
+    },
+    "9": {
+      "case_id": "hsbc-payment-reconciliation",
+      "score": 75
+    }
+  },
+  "invent_simplify": {
+    "0": {
+      "case_id": "payment-simplification-high-impact",
+      "score": 75
+    },
+    "1": {
+      "case_id": "unimed-open-innovation",
+      "score": 65
+    },
+    "2": {
+      "case_id": "unimed-open-innovation",
+      "score": 65
+    },
+    "3": null,
+    "4": null,
+    "5": null,
+    "6": {
+      "case_id": "payment-simplification-high-impact",
+      "score": 75
+    },
+    "7": {
+      "case_id": "unimed-ai-authorization",
+      "score": 50
+    },
+    "8": {
+      "case_id": "unimed-ai-authorization",
+      "score": 50
+    },
+    "9": {
+      "case_id": "unimed-open-innovation",
+      "score": 60
+    }
+  },
+  "are_right_a_lot": {
+    "0": {
+      "case_id": "sicredi-mobile-first-strategy",
+      "score": 90
+    },
+    "1": {
+      "case_id": "sicredi-api-pricing-model",
+      "score": 80
+    },
+    "2": null,
+    "3": {
+      "case_id": "sicredi-api-pricing-model",
+      "score": 50
+    },
+    "4": {
+      "case_id": "sicredi-mobile-first-strategy",
+      "score": 50
+    },
+    "5": null,
+    "6": null,
+    "7": {
+      "case_id": "sicredi-api-pricing-model",
+      "score": 50
+    },
+    "8": null,
+    "9": {
+      "case_id": "sicredi-mobile-first-strategy",
+      "score": 50
+    },
+    "10": {
+      "case_id": "sicredi-api-pricing-model",
+      "score": 90
+    }
+  },
+  "learn_and_be_curious": {
+    "0": {
+      "case_id": "stay-updated-payments-fintech",
+      "score": 55
+    },
+    "1": null,
+    "2": {
+      "case_id": "unimed-harvard-healthcare-innovation",
+      "score": 50
+    },
+    "3": {
+      "case_id": "stay-updated-payments-fintech",
+      "score": 45
+    },
+    "4": {
+      "case_id": "olibano-blockchain-exploration",
+      "score": 50
+    },
+    "5": null,
+    "6": null,
+    "7": {
+      "case_id": "stay-updated-payments-fintech",
+      "score": 45
+    },
+    "8": {
+      "case_id": "olibano-blockchain-exploration",
+      "score": 50
+    },
+    "9": null
+  },
+  "hire_and_develop_the_best": {
+    "0": {
+      "case_id": "unimed-underperformer-development",
+      "score": 60
+    },
+    "1": null,
+    "2": null,
+    "3": {
+      "case_id": "bradesco-talent-pipeline-creation",
+      "score": 50
+    },
+    "4": null,
+    "5": null,
+    "6": null,
+    "7": null,
+    "8": null,
+    "9": null,
+    "10": null
+  },
+  "insist_on_highest_standards": {
+    "0": {
+      "case_id": "sefaz-pmo-governance",
+      "score": 60
+    },
+    "1": null,
+    "2": null,
+    "3": {
+      "case_id": "sefaz-pmo-governance",
+      "score": 60
+    },
+    "4": null,
+    "5": null,
+    "6": {
+      "case_id": "sicredi-payment-sla",
+      "score": 45
+    },
+    "7": {
+      "case_id": "hsbc-zero-defects",
+      "score": 60
+    },
+    "8": null,
+    "9": null,
+    "10": null
+  },
+  "think_big": {
+    "0": {
+      "case_id": "unimed-ecosystem-transformation",
+      "score": 50
+    },
+    "1": null,
+    "2": null,
+    "3": {
+      "case_id": "unimed-ecosystem-transformation",
+      "score": 50
+    },
+    "4": {
+      "case_id": "unimed-ecosystem-transformation",
+      "score": 45
+    },
+    "5": {
+      "case_id": "unimed-ecosystem-transformation",
+      "score": 50
+    },
+    "6": null,
+    "7": null,
+    "8": {
+      "case_id": "unimed-ecosystem-transformation",
+      "score": 70
+    },
+    "9": {
+      "case_id": "unimed-ecosystem-transformation",
+      "score": 50
+    },
+    "10": null,
+    "11": {
+      "case_id": "bradesco-paas-latam",
+      "score": 75
+    }
+  },
+  "bias_for_action": {
+    "0": {
+      "case_id": "calculated-risk-time-critical",
+      "score": 75
+    },
+    "1": {
+      "case_id": "calculated-risk-time-critical",
+      "score": 55
+    },
+    "2": {
+      "case_id": "bradesco-next-rapid-launch",
+      "score": 50
+    },
+    "3": null,
+    "4": null,
+    "5": null,
+    "6": {
+      "case_id": "bradesco-next-rapid-launch",
+      "score": 50
+    },
+    "7": null,
+    "8": null,
+    "9": null
+  },
+  "frugality": {
+    "0": {
+      "case_id": "huawei-resource-optimization",
+      "score": 60
+    },
+    "1": {
+      "case_id": "huawei-resource-optimization",
+      "score": 60
+    },
+    "2": null,
+    "3": {
+      "case_id": "sefaz-zero-budget-pmo",
+      "score": 50
+    },
+    "4": null,
+    "5": {
+      "case_id": "huawei-resource-optimization",
+      "score": 60
+    },
+    "6": null,
+    "7": null,
+    "8": {
+      "case_id": "sefaz-zero-budget-pmo",
+      "score": 50
+    },
+    "9": {
+      "case_id": "huawei-resource-optimization",
+      "score": 60
+    },
+    "10": {
+      "case_id": "huawei-resource-optimization",
+      "score": 60
+    }
+  },
+  "earn_trust": {
+    "0": {
+      "case_id": "hard-feedback-leadership-style",
+      "score": 75
+    },
+    "1": {
+      "case_id": "hard-feedback-leadership-style",
+      "score": 65
+    },
+    "2": {
+      "case_id": "sicredi-post-mortem-transparency",
+      "score": 50
+    },
+    "3": {
+      "case_id": "hard-feedback-leadership-style",
+      "score": 60
+    },
+    "4": null,
+    "5": {
+      "case_id": "hard-feedback-leadership-style",
+      "score": 60
+    },
+    "6": null,
+    "7": {
+      "case_id": "sicredi-post-mortem-transparency",
+      "score": 50
+    },
+    "8": {
+      "case_id": "sicredi-post-mortem-transparency",
+      "score": 50
+    },
+    "9": null,
+    "10": {
+      "case_id": "sicredi-post-mortem-transparency",
+      "score": 75
+    },
+    "11": {
+      "case_id": "sicredi-post-mortem-transparency",
+      "score": 50
+    },
+    "12": {
+      "case_id": "sicredi-post-mortem-transparency",
+      "score": 50
+    }
+  },
+  "dive_deep": {
+    "0": {
+      "case_id": "sicredi-churn-analysis",
+      "score": 75
+    },
+    "1": {
+      "case_id": "sicredi-churn-analysis",
+      "score": 65
+    },
+    "2": null,
+    "3": {
+      "case_id": "hsbc-data-validation-audit",
+      "score": 100
+    },
+    "4": {
+      "case_id": "sicredi-churn-analysis",
+      "score": 50
+    },
+    "5": {
+      "case_id": "sicredi-churn-analysis",
+      "score": 85
+    },
+    "6": null,
+    "7": {
+      "case_id": "sicredi-churn-analysis",
+      "score": 85
+    },
+    "8": {
+      "case_id": "hsbc-data-validation-audit",
+      "score": 50
+    },
+    "9": {
+      "case_id": "unimed-fraud-investigation",
+      "score": 85
+    }
+  },
+  "disagree_and_commit": {
+    "0": {
+      "case_id": "bradesco-mvp-feature-prioritization",
+      "score": 55
+    },
+    "1": {
+      "case_id": "bradesco-mvp-feature-prioritization",
+      "score": 45
+    },
+    "2": null,
+    "3": {
+      "case_id": "unimed-retention-strategy",
+      "score": 60
+    },
+    "4": null,
+    "5": {
+      "case_id": "bradesco-mvp-feature-prioritization",
+      "score": 45
+    },
+    "6": {
+      "case_id": "bradesco-mvp-feature-prioritization",
+      "score": 45
+    },
+    "7": {
+      "case_id": "commit-on-disagreement-product-strategy",
+      "score": 50
+    },
+    "8": {
+      "case_id": "bradesco-mvp-feature-prioritization",
+      "score": 45
+    },
+    "9": {
+      "case_id": "commit-on-disagreement-product-strategy",
+      "score": 50
+    }
+  },
+  "deliver_results": {
+    "0": null,
+    "1": null,
+    "2": null,
+    "3": {
+      "case_id": "huawei-world-cup-4g",
+      "score": 45
+    },
+    "4": null,
+    "5": null,
+    "6": {
+      "case_id": "huawei-world-cup-4g",
+      "score": 50
+    },
+    "7": {
+      "case_id": "huawei-world-cup-4g",
+      "score": 45
+    },
+    "8": null,
+    "9": {
+      "case_id": "huawei-world-cup-4g",
+      "score": 45
+    }
+  },
+  "best_employer": {
+    "0": {
+      "case_id": "sefaz-reverse-mentoring-program",
+      "score": 60
+    },
+    "1": {
+      "case_id": "bradesco-agile-community-creation",
+      "score": 60
+    },
+    "2": null,
+    "3": {
+      "case_id": "bradesco-agile-community-creation",
+      "score": 60
+    },
+    "4": null,
+    "5": null,
+    "6": {
+      "case_id": "bradesco-agile-community-creation",
+      "score": 60
+    },
+    "7": null,
+    "8": null,
+    "9": null
+  },
+  "broad_responsibility": {
+    "0": {
+      "case_id": "sicredi-responsible-ai-policy",
+      "score": 100
+    },
+    "1": {
+      "case_id": "sicredi-responsible-ai-policy",
+      "score": 70
+    },
+    "2": {
+      "case_id": "sicredi-responsible-ai-policy",
+      "score": 100
+    },
+    "3": null,
+    "4": {
+      "case_id": "sicredi-responsible-ai-policy",
+      "score": 70
+    },
+    "5": null,
+    "6": null,
+    "7": {
+      "case_id": "sicredi-responsible-ai-policy",
+      "score": 70
+    },
+    "8": {
+      "case_id": "sicredi-responsible-ai-policy",
+      "score": 70
+    },
+    "9": null
+  }
+};

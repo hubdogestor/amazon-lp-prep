@@ -162,7 +162,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderança da Migração de US$ 5.2B de Ativos e Contas\" (score 40/100). Case do LP correto (ownership)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Reconciliei US$47M de Pagamentos na Reta Final do Cutover\" (score 40/100). Case do LP correto (ownership)"
   },
   {
     "lp": "ownership",
@@ -184,7 +184,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderança da Migração de US$ 5.2B de Ativos e Contas\" (score 40/100). Case do LP correto (ownership)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Reconciliei US$47M de Pagamentos na Reta Final do Cutover\" (score 40/100). Case do LP correto (ownership)"
   },
   {
     "lp": "ownership",
@@ -195,7 +195,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderança da Migração de US$ 5.2B de Ativos e Contas\" (score 40/100). Case do LP correto (ownership)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Reconciliei US$47M de Pagamentos na Reta Final do Cutover\" (score 40/100). Case do LP correto (ownership)"
   },
   {
     "lp": "ownership",
@@ -236,8 +236,8 @@
     "question_pt": "Descreva quando você criou um mecanismo para prevenir problemas recorrentes em pagamentos",
     "question_en": "Describe when you created a mechanism to prevent recurring problems in payments",
     "has_case": "sim",
-    "case_id": "bradesco-international-payments",
-    "case_title": "Forca-Tarefa de Pagamentos Internacionais para Cortar Custos e Recuperar SLAs",
+    "case_id": "hsbc-payment-reconciliation",
+    "case_title": "Reconciliei US$47M de Pagamentos na Reta Final do Cutover",
     "score": 75,
     "reasoning": "Case do LP correto (ownership); 1 keyword presente; Contexto de pagamentos/fraude alinhado"
   },
@@ -258,8 +258,8 @@
     "question_pt": "Me fale sobre uma solução criativa que você desenvolveu",
     "question_en": "Tell me about a creative solution you developed",
     "has_case": "sim",
-    "case_id": "huawei-six-sigma-optimization",
-    "case_title": "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing",
+    "case_id": "unimed-open-innovation",
+    "case_title": "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%",
     "score": 65,
     "reasoning": "Case do LP correto (invent_simplify); Contexto de inovação/simplificação alinhado"
   },
@@ -269,8 +269,8 @@
     "question_pt": "Como você simplifica processos complexos?",
     "question_en": "How do you simplify complex processes?",
     "has_case": "sim",
-    "case_id": "huawei-six-sigma-optimization",
-    "case_title": "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing",
+    "case_id": "unimed-open-innovation",
+    "case_title": "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%",
     "score": 65,
     "reasoning": "Case do LP correto (invent_simplify); Contexto de inovação/simplificação alinhado"
   },
@@ -283,7 +283,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing\" (score 40/100). Case do LP correto (invent_simplify)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%\" (score 40/100). Case do LP correto (invent_simplify)"
   },
   {
     "lp": "invent_simplify",
@@ -294,7 +294,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing\" (score 40/100). Case do LP correto (invent_simplify)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%\" (score 40/100). Case do LP correto (invent_simplify)"
   },
   {
     "lp": "invent_simplify",
@@ -305,7 +305,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing\" (score 40/100). Case do LP correto (invent_simplify)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%\" (score 40/100). Case do LP correto (invent_simplify)"
   },
   {
     "lp": "invent_simplify",
@@ -346,8 +346,8 @@
     "question_pt": "Conte sobre um processo de payment operations que você automatizou ou otimizou",
     "question_en": "Tell me about a payment operations process you automated or optimized",
     "has_case": "sim",
-    "case_id": "bradesco-next-compliance-simplification",
-    "case_title": "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
+    "case_id": "unimed-open-innovation",
+    "case_title": "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%",
     "score": 60,
     "reasoning": "Case do LP correto (invent_simplify); Foco em redução de custos/otimização"
   },
@@ -359,8 +359,8 @@
     "has_case": "sim",
     "case_id": "sicredi-mobile-first-strategy",
     "case_title": "Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime",
-    "score": 50,
-    "reasoning": "Case do LP correto (are_right_a_lot); 1 keyword presente"
+    "score": 90,
+    "reasoning": "Case do LP correto (are_right_a_lot); 2 keywords presentes; Contexto de impacto amplo/responsabilidade social alinhado; Conceito alinhado (+5)"
   },
   {
     "lp": "are_right_a_lot",
@@ -1361,7 +1361,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Analise de Dados para Identificar os Principais Drivers de Churn no App\" (score 40/100). Case do LP correto (dive_deep)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Reducao de 47% no Tempo de Liquidacao de Pagamentos PIX\" (score 40/100). Case do LP correto (dive_deep)"
   },
   {
     "lp": "dive_deep",
@@ -1405,7 +1405,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Analise de Dados para Identificar os Principais Drivers de Churn no App\" (score 40/100). Case do LP correto (dive_deep)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Reducao de 47% no Tempo de Liquidacao de Pagamentos PIX\" (score 40/100). Case do LP correto (dive_deep)"
   },
   {
     "lp": "dive_deep",
@@ -1776,21 +1776,21 @@
     "question_pt": "Me fale sobre como você considera impacto mais amplo das suas decisões",
     "question_en": "Tell me about how you consider broader impact of your decisions",
     "has_case": "sim",
-    "case_id": "unimed-lgpd-compliance",
-    "case_title": "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes",
-    "score": 50,
-    "reasoning": "Case do LP correto (broad_responsibility); 1 keyword presente"
+    "case_id": "sicredi-responsible-ai-policy",
+    "case_title": "Impacto Amplo das Decisões: Política de IA Responsável com Responsabilidade Social, Equidade e Transparência",
+    "score": 100,
+    "reasoning": "Case do LP correto (broad_responsibility); 3 keywords-chave presentes; Contexto de impacto amplo/responsabilidade social alinhado; Conceito alinhado (+20); Título muito alinhado com pergunta"
   },
   {
     "lp": "broad_responsibility",
     "priority": "NORMAL",
     "question_pt": "Conte sobre uma vez que você agiu pensando na comunidade",
     "question_en": "Tell me about a time you acted thinking about community",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
+    "has_case": "sim",
+    "case_id": "sicredi-responsible-ai-policy",
+    "case_title": "Impacto Amplo das Decisões: Política de IA Responsável com Responsabilidade Social, Equidade e Transparência",
+    "score": 70,
+    "reasoning": "Case do LP correto (broad_responsibility); Contexto de impacto amplo/responsabilidade social alinhado; Conceito alinhado (+5)"
   },
   {
     "lp": "broad_responsibility",
@@ -1800,8 +1800,8 @@
     "has_case": "sim",
     "case_id": "sicredi-responsible-ai-policy",
     "case_title": "Impacto Amplo das Decisões: Política de IA Responsável com Responsabilidade Social, Equidade e Transparência",
-    "score": 60,
-    "reasoning": "Case do LP correto (broad_responsibility); 1 keyword presente; Título muito alinhado com pergunta"
+    "score": 100,
+    "reasoning": "Case do LP correto (broad_responsibility); 3 keywords-chave presentes; Contexto de impacto amplo/responsabilidade social alinhado; Conceito alinhado (+5); Título muito alinhado com pergunta"
   },
   {
     "lp": "broad_responsibility",
@@ -1812,18 +1812,18 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária\" (score 40/100). Case do LP correto (broad_responsibility)"
   },
   {
     "lp": "broad_responsibility",
     "priority": "NORMAL",
     "question_pt": "Me dê um exemplo de quando você considerou stakeholders além dos óbvios",
     "question_en": "Give me an example of when you considered stakeholders beyond the obvious",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
+    "has_case": "sim",
+    "case_id": "sicredi-responsible-ai-policy",
+    "case_title": "Impacto Amplo das Decisões: Política de IA Responsável com Responsabilidade Social, Equidade e Transparência",
+    "score": 70,
+    "reasoning": "Case do LP correto (broad_responsibility); Contexto de impacto amplo/responsabilidade social alinhado; Conceito alinhado (+5)"
   },
   {
     "lp": "broad_responsibility",
@@ -1834,7 +1834,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária\" (score 40/100). Case do LP correto (broad_responsibility)"
   },
   {
     "lp": "broad_responsibility",
@@ -1845,18 +1845,18 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária\" (score 40/100). Case do LP correto (broad_responsibility)"
   },
   {
     "lp": "broad_responsibility",
     "priority": "NORMAL",
     "question_pt": "Descreva uma vez que você considerou impactos de segunda ordem das suas ações",
     "question_en": "Describe a time you considered second-order impacts of your actions",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
+    "has_case": "sim",
+    "case_id": "sicredi-responsible-ai-policy",
+    "case_title": "Impacto Amplo das Decisões: Política de IA Responsável com Responsabilidade Social, Equidade e Transparência",
+    "score": 70,
+    "reasoning": "Case do LP correto (broad_responsibility); 2 keywords presentes; Conceito alinhado (+10)"
   },
   {
     "lp": "broad_responsibility",
@@ -1864,10 +1864,10 @@
     "question_pt": "Como você pensa sobre comunidades locais, planeta e futuras gerações nas suas decisões?",
     "question_en": "How do you think about local communities, planet and future generations in your decisions?",
     "has_case": "sim",
-    "case_id": "unimed-lgpd-compliance",
-    "case_title": "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes",
-    "score": 50,
-    "reasoning": "Case do LP correto (broad_responsibility); 1 keyword presente"
+    "case_id": "sicredi-responsible-ai-policy",
+    "case_title": "Impacto Amplo das Decisões: Política de IA Responsável com Responsabilidade Social, Equidade e Transparência",
+    "score": 70,
+    "reasoning": "Case do LP correto (broad_responsibility); Contexto de impacto amplo/responsabilidade social alinhado; Conceito alinhado (+5)"
   },
   {
     "lp": "broad_responsibility",
@@ -1878,6 +1878,6 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes\" (score 40/100). Case do LP correto (broad_responsibility)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária\" (score 40/100). Case do LP correto (broad_responsibility)"
   }
 ]

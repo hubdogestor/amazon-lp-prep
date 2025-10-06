@@ -3,6 +3,7 @@ import { Search } from "lucide-react";
 import icebreakerData from "./data/icebreaker.js";
 import myQuestionsData from "./data/myQuestions.js";
 import typicalQuestions from "./data/typicalQuestions.js";
+import { questionsToCasesMapping } from "./data/questionsToCasesMapping.js";
 import { usePrinciplesData } from "./hooks/usePrinciplesData.js";
 import { HighlightableText } from "./components/HighlightableText.jsx";
 import { useDebounce } from "./hooks/useDebounce.js";
@@ -258,6 +259,39 @@ export default function App() {
     });
     setSelectedPrinciple(principleId);
   }, [searchTerm]);
+
+  // Navegar para o case mapeado a partir de uma pergunta típica
+  const navigateToMappedCase = useCallback((lpId, questionIndex) => {
+    const mapping = questionsToCasesMapping[lpId];
+    if (!mapping || !mapping[questionIndex]) {
+      // Sem case mapeado para esta pergunta
+      return;
+    }
+
+    const { case_id } = mapping[questionIndex];
+    
+    // Encontrar o case nos dados
+    const principle = principlesData.find(p => p.id === lpId);
+    if (!principle) return;
+
+    const caseObj = principle.cases?.find(c => c.id === case_id);
+    if (!caseObj) return;
+
+    // Expandir o case
+    setExpandedCases({ [caseObj.title]: true });
+    setSelectedPrinciple(lpId);
+    
+    // Scroll para o case após um delay
+    setTimeout(() => {
+      const caseDomId = `case-${slugify(case_id)}`;
+      const elem = document.getElementById(caseDomId);
+      if (elem) {
+        elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Highlight temporário
+        setHighlightedCase(caseDomId, 2000);
+      }
+    }, 100);
+  }, [principlesData, setHighlightedCase]);
 
   // FUP search results - memoized (multi-word support)
   const fupSearchResults = useMemo(() => {
@@ -864,24 +898,47 @@ export default function App() {
                     <div className="mt-4 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 rounded-lg p-4 shadow-sm">
                       <h3 className="text-sm font-bold text-[#232F3E] mb-3 uppercase tracking-wide flex items-center gap-2">
                         💭 {language === "pt" ? "Perguntas Típicas do Entrevistador" : "Typical Interviewer Questions"}
+                        <span className="text-xs font-normal text-gray-500 ml-2">
+                          ({language === "pt" ? "Clique para ver o case que responde" : "Click to see the case that answers"})
+                        </span>
                       </h3>
                       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                         {(language === "en" ? typicalQuestions[principle.id].en : typicalQuestions[principle.id].pt).map((q, qIdx) => {
                           const questionId = `typical-q-${principle.id}-${qIdx}`;
                           const isHighlighted = highlightedTypicalQuestionId === questionId;
+                          const hasCase = questionsToCasesMapping[principle.id]?.[qIdx];
+                          const caseScore = hasCase?.score || 0;
+                          
                           return (
-                            <div
+                            <button
                               key={qIdx}
                               id={questionId}
-                              className={`px-3 py-2 bg-white/60 border border-blue-200 rounded text-xs text-[#232F3E] transition-all duration-300 hover:bg-white hover:shadow-sm flex items-center justify-center text-center min-h-[60px] ${
-                                isHighlighted ? 'bg-yellow-200 font-bold shadow-md' : ''
+                              onClick={() => {
+                                if (hasCase) {
+                                  navigateToMappedCase(principle.id, qIdx);
+                                }
+                              }}
+                              disabled={!hasCase}
+                              className={`px-3 py-2 border rounded text-xs transition-all duration-300 flex items-center justify-center text-center min-h-[60px] ${
+                                hasCase 
+                                  ? 'bg-white/80 border-blue-200 text-[#232F3E] hover:bg-blue-50 hover:shadow-md hover:scale-105 cursor-pointer' 
+                                  : 'bg-gray-100 border-gray-300 text-gray-400 cursor-not-allowed'
+                              } ${
+                                isHighlighted ? 'bg-yellow-200 font-bold shadow-md ring-2 ring-yellow-400' : ''
                               }`}
+                              title={hasCase 
+                                ? `${language === "pt" ? "Clique para ver o case" : "Click to see case"} (score: ${caseScore})` 
+                                : (language === "pt" ? "Sem case mapeado" : "No case mapped")
+                              }
                             >
-                              <HighlightableText
-                                text={q}
-                                searchTerm={highlightTypicalTerm}
-                              />
-                            </div>
+                              <span className="flex items-center gap-1">
+                                {hasCase && <span className="text-green-600 font-bold">✓</span>}
+                                <HighlightableText
+                                  text={q}
+                                  searchTerm={highlightTypicalTerm}
+                                />
+                              </span>
+                            </button>
                           );
                         })}
                       </div>
