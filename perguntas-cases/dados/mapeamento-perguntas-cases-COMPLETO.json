@@ -477,11 +477,11 @@
     "priority": "ALTA",
     "question_pt": "Como você se mantém atualizado na sua área de expertise e como explora novas áreas de conhecimento?",
     "question_en": "How do you stay updated in your area of expertise and how do you explore new areas of knowledge?",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde\" (score 40/100). Case do LP correto (learn_and_be_curious)"
+    "has_case": "sim",
+    "case_id": "stay-updated-payments-fintech",
+    "case_title": "Como Me Mantive Constantemente Atualizado em Payments/Fintech e Explorei Novas Áreas Criando Sistema Estruturado de Aprendizado com PoCs",
+    "score": 55,
+    "reasoning": "Case do LP correto (learn_and_be_curious); Conceito alinhado (+5); Título muito alinhado com pergunta"
   },
   {
     "lp": "learn_and_be_curious",
@@ -510,11 +510,11 @@
     "priority": "NORMAL",
     "question_pt": "Descreva uma situação onde você teve que aprender algo rapidamente",
     "question_en": "Describe a situation where you had to learn something quickly",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde\" (score 40/100). Case do LP correto (learn_and_be_curious)"
+    "has_case": "sim",
+    "case_id": "stay-updated-payments-fintech",
+    "case_title": "Como Me Mantive Constantemente Atualizado em Payments/Fintech e Explorei Novas Áreas Criando Sistema Estruturado de Aprendizado com PoCs",
+    "score": 45,
+    "reasoning": "Case do LP correto (learn_and_be_curious); Conceito alinhado (+5)"
   },
   {
     "lp": "learn_and_be_curious",
@@ -554,11 +554,11 @@
     "priority": "NORMAL",
     "question_pt": "Descreva uma área onde você identificou uma lacuna de conhecimento e como você a preencheu",
     "question_en": "Describe an area where you identified a knowledge gap and how you filled it",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde\" (score 40/100). Case do LP correto (learn_and_be_curious)"
+    "has_case": "sim",
+    "case_id": "stay-updated-payments-fintech",
+    "case_title": "Como Me Mantive Constantemente Atualizado em Payments/Fintech e Explorei Novas Áreas Criando Sistema Estruturado de Aprendizado com PoCs",
+    "score": 45,
+    "reasoning": "Case do LP correto (learn_and_be_curious); Conceito alinhado (+5)"
   },
   {
     "lp": "learn_and_be_curious",
@@ -1559,7 +1559,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
   },
   {
     "lp": "deliver_results",
@@ -1570,7 +1570,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
   },
   {
     "lp": "deliver_results",
@@ -1581,7 +1581,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
   },
   {
     "lp": "deliver_results",
@@ -1590,7 +1590,7 @@
     "question_en": "Give me an example of when you had to prioritize to deliver on time",
     "has_case": "sim",
     "case_id": "huawei-world-cup-4g",
-    "case_title": "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade",
+    "case_title": "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade",
     "score": 45,
     "reasoning": "Case do LP correto (deliver_results); Conceito alinhado (+5)"
   },
@@ -1603,7 +1603,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
   },
   {
     "lp": "deliver_results",
@@ -1614,7 +1614,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
   },
   {
     "lp": "deliver_results",
@@ -1623,7 +1623,7 @@
     "question_en": "Describe a time you had to deliver results facing significant challenges",
     "has_case": "sim",
     "case_id": "huawei-world-cup-4g",
-    "case_title": "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade",
+    "case_title": "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade",
     "score": 50,
     "reasoning": "Case do LP correto (deliver_results); Conceito alinhado (+10)"
   },
@@ -1634,7 +1634,7 @@
     "question_en": "How do you focus on key business inputs and deliver them with quality on time?",
     "has_case": "sim",
     "case_id": "huawei-world-cup-4g",
-    "case_title": "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade",
+    "case_title": "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade",
     "score": 45,
     "reasoning": "Case do LP correto (deliver_results); Conceito alinhado (+5)"
   },
@@ -1647,7 +1647,7 @@
     "case_id": "",
     "case_title": "",
     "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
+    "reasoning": "Nenhum case adequado. Melhor disponível: \"Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade\" (score 40/100). Case do LP correto (deliver_results)"
   },
   {
     "lp": "deliver_results",
@@ -1656,7 +1656,7 @@
     "question_en": "Tell me about a challenging goal you achieved",
     "has_case": "sim",
     "case_id": "huawei-world-cup-4g",
-    "case_title": "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade",
+    "case_title": "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade",
     "score": 45,
     "reasoning": "Case do LP correto (deliver_results); Conceito alinhado (+5)"
   },

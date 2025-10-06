@@ -1,6 +1,6 @@
 # Gaps: Perguntas Sem Cases Adequados
 
-**Total de gaps**: 86 perguntas (50.3%)
+**Total de gaps**: 83 perguntas (48.5%)
 
 ---
 
@@ -246,37 +246,37 @@
 
 - **EN**: Tell me about a challenging project delivered successfully overcoming significant obstacles
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade" (score 40/100). Case do LP correto (deliver_results)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade" (score 40/100). Case do LP correto (deliver_results)
 
 ### 🟡 Me fale sobre uma vez que você entregou sob pressão
 
 - **EN**: Tell me about a time you delivered under pressure
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade" (score 40/100). Case do LP correto (deliver_results)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade" (score 40/100). Case do LP correto (deliver_results)
 
 ### 🟡 Como você lida com prazos apertados?
 
 - **EN**: How do you handle tight deadlines?
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade" (score 40/100). Case do LP correto (deliver_results)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade" (score 40/100). Case do LP correto (deliver_results)
 
 ### 🟡 Conte sobre quando você não gerenciou prioridades efetivamente e algo não foi entregue no prazo
 
 - **EN**: Tell me about when you didn't manage priorities effectively and something wasn't delivered on time
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade" (score 40/100). Case do LP correto (deliver_results)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade" (score 40/100). Case do LP correto (deliver_results)
 
 ### 🟡 Me fale sobre quando você teve dois deadlines ao mesmo tempo - como gerenciou?
 
 - **EN**: Tell me about when you had two deadlines at same time - how did you manage?
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade" (score 40/100). Case do LP correto (deliver_results)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade" (score 40/100). Case do LP correto (deliver_results)
 
 ### 🟡 Conte sobre quando você se recusou a baixar padrões apesar de pressão por deadlines
 
 - **EN**: Tell me about when you refused to lower standards despite deadline pressure
 - **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade" (score 40/100). Case do LP correto (deliver_results)
+- **Reasoning**: Nenhum case adequado. Melhor disponível: "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade" (score 40/100). Case do LP correto (deliver_results)
 
 ---
 
@@ -504,23 +504,11 @@
 
 ## LEARN AND BE CURIOUS
 
-**7 gaps**
-
-### 🔴 Como você se mantém atualizado na sua área de expertise e como explora novas áreas de conhecimento?
-
-- **EN**: How do you stay updated in your area of expertise and how do you explore new areas of knowledge?
-- **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde" (score 40/100). Case do LP correto (learn_and_be_curious)
+**4 gaps**
 
 ### 🟡 Me fale sobre a última coisa nova que você aprendeu
 
 - **EN**: Tell me about the last new thing you learned
-- **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde" (score 40/100). Case do LP correto (learn_and_be_curious)
-
-### 🟡 Descreva uma situação onde você teve que aprender algo rapidamente
-
-- **EN**: Describe a situation where you had to learn something quickly
 - **Score**: 40/100
 - **Reasoning**: Nenhum case adequado. Melhor disponível: "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde" (score 40/100). Case do LP correto (learn_and_be_curious)
 
@@ -533,12 +521,6 @@
 ### 🟡 Me fale sobre algo que você aprendeu que te tornou melhor no seu trabalho
 
 - **EN**: Tell me about something you learned that made you better at your job
-- **Score**: 40/100
-- **Reasoning**: Nenhum case adequado. Melhor disponível: "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde" (score 40/100). Case do LP correto (learn_and_be_curious)
-
-### 🟡 Descreva uma área onde você identificou uma lacuna de conhecimento e como você a preencheu
-
-- **EN**: Describe an area where you identified a knowledge gap and how you filled it
 - **Score**: 40/100
 - **Reasoning**: Nenhum case adequado. Melhor disponível: "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde" (score 40/100). Case do LP correto (learn_and_be_curious)
 

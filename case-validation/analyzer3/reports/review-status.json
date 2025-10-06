@@ -1,16 +1,16 @@
 {
-  "run_at": "2025-10-06T02:00:39.936Z",
+  "run_at": "2025-10-06T12:25:18.365Z",
   "data_dir": "src/data",
   "total_cases": 72,
   "filtered_cases": 1,
-  "lp": "deliver_results",
-  "case": "huawei-world-cup-4g",
+  "lp": "learn_and_be_curious",
+  "case": "stay-updated-payments-fintech",
   "results": [
     {
-      "lp_id": "deliver_results",
-      "case_id": "huawei-world-cup-4g",
-      "title_pt": "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade",
-      "title_en": "Led the 4G/5G Upgrade for 2014 FIFA World Cup with 99.8% Availability",
+      "lp_id": "learn_and_be_curious",
+      "case_id": "stay-updated-payments-fintech",
+      "title_pt": "Criei um Sistema de Atualização Contínua em Payments/Fintech com PoCs Reutilizáveis",
+      "title_en": "I developed 15+ complementary skills through systematic learning across multiple domains",
       "status": "Ready",
       "lint": {
         "ok": true,
@@ -25,84 +25,65 @@
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (4 menções relevantes)",
-          "Métricas robustas (62)",
-          "Ratio EU:NÓS saudável (35:2)",
+          "Customer Obsession forte (21 menções relevantes)",
+          "Métricas robustas (49)",
+          "Ratio EU:NÓS saudável (3:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 62,
+        "metricsCount": 49,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 4,
+        "customerSignals": 21,
         "conflictSignals": true,
-        "mechanismSignals": 16,
+        "mechanismSignals": 11,
         "ratio": {
-          "ratio": 0.9459459459459459,
+          "ratio": 1,
           "counts": {
-            "eu": 35,
-            "nos": 2
+            "eu": 3,
+            "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": 135,
-          "status": "stale"
+          "monthsAgo": 20,
+          "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 1225,
-            "enLen": 1109,
-            "deltaPct": 0.0946938775510204
+            "ptLen": 817,
+            "enLen": 704,
+            "deltaPct": 0.1383108935128519
           },
           "t": {
-            "ptLen": 306,
-            "enLen": 288,
-            "deltaPct": 0.058823529411764705
+            "ptLen": 595,
+            "enLen": 568,
+            "deltaPct": 0.0453781512605042
           },
           "a": {
-            "ptLen": 2150,
-            "enLen": 2008,
-            "deltaPct": 0.06604651162790698
+            "ptLen": 1691,
+            "enLen": 1589,
+            "deltaPct": 0.06031933767001774
           },
           "r": {
-            "ptLen": 958,
-            "enLen": 860,
-            "deltaPct": 0.1022964509394572
+            "ptLen": 1007,
+            "enLen": 947,
+            "deltaPct": 0.05958291956305859
           },
           "l": {
-            "ptLen": 609,
-            "enLen": 581,
-            "deltaPct": 0.04597701149425287
+            "ptLen": 646,
+            "enLen": 619,
+            "deltaPct": 0.04179566563467492
           }
         },
         "hookSignals": true,
         "transitionSignals": 1,
         "micDropSignals": true,
-        "biasSignals": 0
+        "biasSignals": 2
       },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 35:2 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 62",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ]
+      "changes": []
     }
   ]
 }
