@@ -96,9 +96,11 @@ const performanceMonitor = new PerformanceMonitor();
 
 /**
  * Decorator para monitorar performance de métodos
- * @param {string} name - Nome da operação
+ * @param {Object} target - Target object
+ * @param {string} propertyName - Property name
+ * @param {Object} descriptor - Property descriptor
  */
-export const measurePerformance = (name) => (target, propertyName, descriptor) => {
+export function withPerformanceTracking(target, propertyName, descriptor) {
   const method = descriptor.value;
   
   descriptor.value = function (...args) {
@@ -109,7 +111,7 @@ export const measurePerformance = (name) => (target, propertyName, descriptor) =
   };
   
   return descriptor;
-};
+}
 
 /**
  * Hook para debounce com cancelamento automático

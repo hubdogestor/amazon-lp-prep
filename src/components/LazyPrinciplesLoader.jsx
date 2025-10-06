@@ -1,8 +1,5 @@
 // src/components/LazyPrinciplesLoader.jsx
-import { lazy, Suspense } from 'react';
-
-// Lazy load dos dados dos princípios
-const PrinciplesData = lazy(() => import('../data_principles.js'));
+import { Suspense } from 'react';
 
 // Componente de loading
 function LoadingSpinner() {

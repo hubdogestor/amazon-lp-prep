@@ -1,5 +1,5 @@
 // src/hooks/__tests__/usePrinciplesData.test.js
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect } from 'vitest';
 import { renderHook } from '@testing-library/react';
 import { usePrinciplesData } from '../usePrinciplesData.js';
 
