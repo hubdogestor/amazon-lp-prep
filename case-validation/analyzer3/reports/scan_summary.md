@@ -1,11 +1,11 @@
 # scan_summary.md
-Gerado em: 2025-10-06T00:15:24.412Z
+Gerado em: 2025-10-06T02:00:39.936Z
 
-- Casos avaliados: 72
-- Ready: 64 | Needs-Polish: 0 | Needs-Rewrite: 0 | KO: 0 | Lint blockers: 8
-- Score mÃ©dio: 87.5
-- MÃ©tricas por case (mÃ©dia): 23.6
-- Ratio EU:NÃ“S mÃ©dio: 0.97
-- Bias signals (media): 1.1
-- Dealbreakers totais: 16
-- Warnings totais: 154
+- Casos avaliados: 1
+- Ready: 1 | Needs-Polish: 0 | Needs-Rewrite: 0 | KO: 0 | Lint blockers: 0
+- Score mÃ©dio: 100.0
+- MÃ©tricas por case (mÃ©dia): 62.0
+- Ratio EU:NÃ“S mÃ©dio: 0.95
+- Bias signals (media): 0.0
+- Dealbreakers totais: 0
+- Warnings totais: 1

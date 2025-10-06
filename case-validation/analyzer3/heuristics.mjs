@@ -191,8 +191,9 @@ export function analyzeHeuristics(rawCase = {}) {
   if (transitionSignals < 2) warnings.push('Transições STAR(L) pouco claras');
   if (!micDropSignals) warnings.push('Mic-drop/aprendizado forte não identificado');
 
-  if (recency.status === 'stale') dealbreakers.push('Case muito antigo (>9 anos)');
-  else if (recency.status === 'aging') warnings.push('Case antigo (>7 anos)');
+  // REGRA DESABILITADA: aceitar cases antigos com mecanismos replicados até hoje
+  // if (recency.status === 'stale') dealbreakers.push('Case muito antigo (>9 anos)');
+  // else if (recency.status === 'aging') warnings.push('Case antigo (>7 anos)');
 
   for (const [key, snapshot] of Object.entries(parity)) {
     if (snapshot.deltaPct > 0.35) {

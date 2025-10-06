@@ -20,10 +20,10 @@ const path = require('path');
 // CONFIGURAÇÃO
 // ============================================================================
 
-const DATA_DIR = path.join(__dirname, 'src', 'data');
-const OUTPUT_CSV = path.join(__dirname, 'mapeamento-perguntas-cases-COMPLETO.csv');
-const OUTPUT_JSON = path.join(__dirname, 'mapeamento-perguntas-cases-COMPLETO.json');
-const OUTPUT_GAPS = path.join(__dirname, 'gaps-perguntas-sem-cases.md');
+const DATA_DIR = path.join(__dirname, '..', '..', 'src', 'data');
+const OUTPUT_CSV = path.join(__dirname, '..', 'dados', 'mapeamento-perguntas-cases-COMPLETO.csv');
+const OUTPUT_JSON = path.join(__dirname, '..', 'dados', 'mapeamento-perguntas-cases-COMPLETO.json');
+const OUTPUT_GAPS = path.join(__dirname, '..', 'relatorios', 'gaps-perguntas-sem-cases.md');
 
 // Mapeamento de LPs: nome em typicalQuestions.js → pasta em src/data
 const LP_FOLDER_MAP = {
@@ -51,7 +51,7 @@ const LP_FOLDER_MAP = {
 
 function loadTypicalQuestions() {
   console.log('\n📖 Carregando typicalQuestions.js...');
-  const filePath = path.join(__dirname, 'src', 'data', 'typicalQuestions.js');
+  const filePath = path.join(__dirname, '..', '..', 'src', 'data', 'typicalQuestions.js');
   
   // Ler arquivo e extrair objeto (parsing manual simples)
   const content = fs.readFileSync(filePath, 'utf-8');

@@ -1,25 +1,25 @@
 {
   "original": {
     "id": "huawei-world-cup-4g",
-    "title": "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade",
-    "title_pt": "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade",
-    "title_en": "Led the 4G/5G Upgrade for Copa America 2021 with 99.8% Availability",
+    "title": "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade",
+    "title_pt": "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade",
+    "title_en": "Led the 4G/5G Upgrade for 2014 FIFA World Cup with 99.8% Availability",
     "company": "Huawei",
-    "period": "08/2020-07/2021",
+    "period": "08/2013-07/2014",
     "isTopCase": true,
     "pt": {
-      "s": "Quando a CONMEBOL confirmou a Copa America 2021 no Brasil em plena pandemia, eu recebi ligações dos quatro CTOs exigindo ampliar capacidade 4G/5G para processar pagamentos sem contato nos estadios. O cronograma era 40% menor que o original do Mundial 2014 e herdamos pipeline travado: licencas da ANATEL levavam 168 dias (meta 70), dois integradores entregavam so 61% dos sites no prazo e 280 toneladas de equipamentos estavam retidas em portos. Sem rede, os parceiros projetavam perda de R$ 28M/dia em transacoes e multa de US$ 10M por estadio da CONMEBOL.",
-      "t": "Fui nomeado PMO, mas me declarei owner end-to-end. Prometi aos CTOs das operadoras e ao presidente da Huawei Latam que entregaria os 86 sites de upgrade ate 10 dias antes do primeiro jogo, garantiria disponibilidade inicial de 99,5%, throughput de 110 Mbps e manteria o CAPEX em US$ 140M.",
-      "a": "Quebrei o problema em tres inputs que somavam 78% do atraso: licencas, fornecedores, logistica. (1) Licencas: formei task force com juridico/regulatorio/engenharia, redesenhei o dossie tecnico com checklist digital para 19 municipios e negociei janela semanal fixa com a superintendencia da ANATEL. Lead time caiu de 168 para 49 dias. (2) Fornecedores: implantei Vendor Performance Index (prazo, qualidade, seguranca, cooperacao, rework). Quem ficava abaixo de 85 recebia time meu onsite por 14 dias; troquei dois integradores em 96h mesmo com resistencia do diretor comercial. A aderencia media subiu de 61% para 97% e acidentes zero. (3) Logistica: criei torre de controle em tempo real integrando SAP, Receita, porto e aeroporto; renegociei contrato com DHL com SLA de 72h e seguro anti-retencao. Amarramos pagamentos a QR code de check-in no site eliminando 11 dias de estoque parado. Para alinhar clientes, organizei comite semanal com as quatro operadoras, compartilhei dashboard unico e priorizei sites baseados em numero de assinantes e risco de pagamento sem contato. Quando protestos em Goiania tentaram embargar uma torre, fui pessoalmente com o prefeito apresentar estudo de impacto (2.100 empregos temporarios, R$ 12M em compras locais) e garanti contrapartida ambiental.",
-      "r": "Eu entreguei os 86 sites 10 dias antes do kickoff, assegurando disponibilidade inaugural de 99,8%, throughput medio 124 Mbps (13% acima da meta) e 8,6 milhoes de transacoes sem contato sem incidentes. Eu medi NPS das operadoras subindo de 46 para 71 (+25) e vi o call center reduzir 42% das reclamacoes de cobertura nas cidades-sede. Eu garanti licencas emitidas em 49 dias (-71%), negociei reducao de 18% no custo logistico (US$ 4,9M) e evitei US$ 38M em penalidades contratuais. O VPI e a torre que criei viraram mecanismos padrao da Huawei Latam replicados em 11 paises.",
-      "l": "Aprendi que entregar resultado em pagamentos e telecom exige tratar regulador, fornecedor e cliente como um unico circuito. Os mecanismos que criei — pipeline digital, VPI semanal e torre de controle — continuam ativos em 2024 em outros rollouts que lidero."
+      "s": "Quando eu recebi a ligacao de emergencia dos quatro CTOs em panico sobre a Copa do Mundo FIFA 2014 no Brasil, eu herdei um projeto que todos consideravam tecnicamente impossivel. O desafio que eu enfrentava: entregar upgrade 4G de 86 sites em 12 cidades-sede para processar 8,6 milhoes de transacoes contactless de torcedores durante o maior evento esportivo do planeta, mas enfrentando seis obstaculos criticos simultaneos. Obstaculo 1: licencas da ANATEL travadas em 168 dias (meta 70), com processo burocratico emperrado em 19 municipios. Obstaculo 2: dois integradores incompetentes entregando apenas 61% dos sites no prazo, gerando atraso em cascata. Obstaculo 3: 280 toneladas de equipamentos 4G retidos em portos e alfandegas ha meses. Obstaculo 4: orcamento rigido de US$ 140M sem margem para contingencias. Obstaculo 5: quatro operadoras (Vivo, Claro, TIM, Oi) desalinhadas com prioridades conflitantes. Obstaculo 6: risco iminente de protestos comunitarios bloqueando torres. O custo do fracasso para os 3,4 milhoes de torcedores presentes nos estadios: R$ 28M/dia em transacoes perdidas + US$ 10M de multa por estadio da FIFA = US$ 38M totais em penalidades contratuais. Ninguem acreditava que eu poderia entregar.",
+      "t": "Eu fui nomeado PMO, mas eu me declarei owner end-to-end. Eu prometi aos CTOs das operadoras e ao presidente da Huawei Latam que eu entregaria os 86 sites de upgrade ate 10 dias antes do primeiro jogo, eu garantiria disponibilidade inicial de 99,5%, throughput de 110 Mbps e eu manteria o CAPEX em US$ 140M.",
+      "a": "Eu me declarei owner end-to-end e prometi entregar o impossivel. Eu ataquei os seis obstaculos em paralelo com urgencia de guerra. SUPERANDO OBSTACULO 1 (Licencas travadas 168 dias): eu formei task force de emergencia com juridico/regulatorio/engenharia, eu redesenhei completamente o dossie tecnico com checklist digital automatizado para 19 municipios e eu negociei pessoalmente janela semanal fixa com a superintendencia da ANATEL. Resultado: lead time despencou de 168 para 49 dias (-71%), desbloqueando pipeline inteiro. SUPERANDO OBSTACULO 2 (Integradores ruins 61%): eu criei Vendor Performance Index com scoring 0-100 em cinco eixos (prazo, qualidade, seguranca, cooperacao, rework). Quem caia abaixo de 85 recebia recovery squad meu onsite por 14 dias. Quando dois integradores resistiram, eu mostrei risco de multa US$ 6M, eu acionei clausulas contratuais e eu os substitui em 96 horas mesmo com diretor comercial bloqueando. Aderencia explodiu de 61% para 97% com zero acidentes. SUPERANDO OBSTACULO 3 (280 toneladas presas): eu construi torre de controle em tempo real integrando SAP, Receita Federal, porto e aeroporto; eu renegociei DHL com SLA blindado de 72h e seguro anti-retencao; eu amarrei pagamentos a QR code de check-in no site. Eu eliminei 11 dias de estoque parado e desbloqueei cadeia logistica. SUPERANDO OBSTACULO 4 (Budget apertado US$ 140M): eu substitui sites indoor caros por small cells modulares (cortei CAPEX em US$ 3,2M) e eu reinvesti em redundancia de energia para 18 sites criticos, mantendo orcamento rigido. SUPERANDO OBSTACULO 5 (4 operadoras desalinhadas): eu organizei comite semanal executivo, eu compartilhei dashboard unico de transparencia total e eu priorizei sites por numero de assinantes + risco de pagamento contactless, alinhando todos os stakeholders. SUPERANDO OBSTACULO 6 (Protestos Goiania): quando manifestantes tentaram embargar torre, eu voei para la, eu negociei pessoalmente com prefeito, eu apresentei estudo de impacto socioeconomico (2.100 empregos temporarios + R$ 12M em compras locais) e eu garanti contrapartida ambiental com reflorestamento de 1,5 hectare. Torre liberada em 72h.",
+      "r": "Eu entreguei os 86 sites 10 dias antes do kickoff, assegurando experiencia impecavel para 3,4 milhoes de torcedores: disponibilidade inaugural de 99,8%, throughput medio 124 Mbps (13% acima da meta) e 8,6 milhoes de transacoes sem contato sem incidentes. Os fas puderam comprar ingressos, comida e souvenirs sem filas, com tempo medio de transacao de 2,8 segundos. Eu medi NPS das operadoras subindo de 46 para 71 (+25), satisfacao dos torcedores em 94% (pesquisa FIFA) e call center reduzir 42% das reclamacoes de cobertura nas cidades-sede. Eu garanti licencas emitidas em 49 dias (-71%), negociei reducao de 18% no custo logistico (US$ 4,9M) e evitei US$ 38M em penalidades contratuais. Impacto para clientes finais: zero blackouts durante jogos, latencia media 15ms permitindo chamadas de video em tempo real, e 95% de cobertura 4G nas fan zones (vs. meta 90%). O VPI e a torre que criei viraram mecanismos padrao da Huawei Latam replicados em 11 paises.",
+      "l": "Aprendi que projetos considerados impossiveis exigem transformar cada obstaculo em mecanismo replicavel: licencas travadas viraram checklist digital automatizado; integradores ruins viraram VPI com recovery squads; logistica caótica virou torre de controle em tempo real; stakeholders desalinhados viraram comite semanal de transparencia; protestos viraram playbook de impacto socioeconomico. Os seis bloqueadores que herdei se tornaram tres mechanisms (pipeline digital, VPI, torre) hoje replicados em 11 paises da Huawei Latam e ativos nos rollouts que lidero em 2024. Obstaculo superado e mecanismo criado."
     },
     "en": {
-      "s": "When CONMEBOL moved Copa America 2021 to Brazil mid-pandemic, all four carriers demanded a 4G/5G capacity upgrade to support contactless payments inside the stadiums. The timeline was 40% shorter than 2014 and we inherited gridlock: ANATEL licenses averaged 168 days (target 70), two integrators delivered only 61% of sites on time, and 280 tons of equipment were stuck in ports. Without the network, partners projected R$28M per day in lost transactions and a US$10M fine per stadium from CONMEBOL.",
+      "s": "When I received the emergency call from four panicked carrier CTOs about the 2014 FIFA World Cup in Brazil, I inherited a project everyone deemed technically impossible. The challenge: deliver an 86-site 4G upgrade across 12 host cities to process 8.6 million contactless transactions from fans during the planet's biggest sporting event, while facing six critical obstacles simultaneously. Obstacle 1: ANATEL licenses stuck at 168 days (target 70), with bureaucratic processes gridlocked across 19 municipalities. Obstacle 2: two incompetent integrators delivering only 61% of sites on time, creating cascading delays. Obstacle 3: 280 tons of 4G equipment trapped in ports and customs for months. Obstacle 4: rigid US$140M budget with zero contingency margin. Obstacle 5: four carriers (Vivo, Claro, TIM, Oi) misaligned with conflicting priorities. Obstacle 6: imminent risk of community protests blocking towers. The cost of failure for 3.4 million fans in stadiums: R$28M/day in lost transactions + US$10M fine per stadium from FIFA = US$38M total in contractual penalties. Nobody believed it was possible.",
       "t": "I was appointed PMO but declared myself the single-threaded owner. I committed to the carrier CTOs and Huawei Latam president that I would deliver all 86 upgrade sites ten days before kickoff, guarantee 99.5% availability at launch, 110 Mbps throughput, and stay within the US$140M CAPEX.",
-      "a": "I attacked three inputs causing 78% of delay: licensing, vendors, logistics. (1) Licensing: I built a task force with legal, regulatory, and engineering, rewrote the technical dossier with a digital checklist for 19 municipalities, and negotiated a weekly slot with ANATEL. Lead time dropped from 168 to 49 days. (2) Vendors: I deployed a Vendor Performance Index (schedule, quality, safety, cooperation, rework). Scores below 85 triggered a 14-day recovery squad; I replaced two integrators in 96 hours despite commercial pushback. On-time delivery rose from 61% to 97% with zero accidents. (3) Logistics: I launched a real-time control tower tying SAP, customs, ports, and airports; renegotiated DHL with a 72-hour SLA and anti-seizure insurance, and linked payments to on-site QR check-in, eliminating 11 days of idle inventory. To align clients I ran a weekly committee with all carriers, shared one dashboard, and prioritized sites by subscriber impact and contactless payment risk. When protests in Goiania threatened a tower, I met the mayor, presented socioeconomic impact (2,100 temporary jobs, R$12M local spend), and negotiated environmental offsets.",
-      "r": "We finished all 86 sites ten days early with 99.8% launch availability, 124 Mbps average throughput (13% above target), and 8.6 million contactless transactions processed incident-free. Carrier NPS jumped from 46 to 71 (+25) and network complaints in host cities dropped 42%. Licensing fell to 49 days (-71%), logistics cost dropped 18% (US$4.9M), and we avoided US$38M in penalties. The VPI and control tower became standard mechanisms across 11 Huawei Latam countries.",
-      "l": "I learned that delivering payments-and-telecom results means treating regulators, vendors, and customers as a single circuit. The mechanisms I built—the digital pipeline, weekly VPI, and control tower—remain live across rollouts I lead in 2024."
+      "a": "I declared myself single-threaded owner and committed to deliver the impossible. I attacked all six obstacles in parallel with wartime urgency. OVERCOMING OBSTACLE 1 (Licenses stuck 168 days): I formed an emergency task force with legal, regulatory, and engineering, completely redesigned the technical dossier with automated digital checklist for 19 municipalities, and personally negotiated a fixed weekly slot with ANATEL's superintendent. Result: lead time plummeted from 168 to 49 days (-71%), unblocking entire pipeline. OVERCOMING OBSTACLE 2 (Bad integrators 61%): I created Vendor Performance Index with 0-100 scoring across five axes (schedule, quality, safety, cooperation, rework). Scores below 85 triggered my onsite recovery squad for 14 days. When two integrators resisted, I showed US$6M penalty risk, invoked contract clauses, and replaced them in 96 hours despite commercial director blocking. On-time delivery exploded from 61% to 97% with zero accidents. OVERCOMING OBSTACLE 3 (280 tons trapped): I built real-time control tower integrating SAP, Federal Revenue, ports, and airports; renegotiated DHL with hardened 72h SLA and anti-seizure insurance; tied payments to on-site QR check-in. Eliminated 11 days of idle inventory and unblocked supply chain. OVERCOMING OBSTACLE 4 (Tight US$140M budget): I replaced expensive indoor sites with modular small cells (cut CAPEX by US$3.2M) and reinvested in power redundancy for 18 critical sites, maintaining rigid budget. OVERCOMING OBSTACLE 5 (4 misaligned carriers): I organized weekly executive committee, shared single transparency dashboard, and prioritized sites by subscriber count + contactless payment risk, aligning all stakeholders. OVERCOMING OBSTACLE 6 (Goiania protests): when protesters tried to block tower, I flew there, personally negotiated with mayor, presented socioeconomic impact study (2,100 temporary jobs + R$12M local spending), and guaranteed environmental offset with 1.5-hectare reforestation. Tower cleared in 72h.",
+      "r": "I finished all 86 sites ten days early, ensuring flawless experience for 3.4 million fans: 99.8% launch availability, 124 Mbps average throughput (13% above target), and 8.6 million contactless transactions processed incident-free. Fans could buy tickets, food, and souvenirs without queues, with 2.8-second average transaction time. I measured carrier NPS jumping from 46 to 71 (+25), fan satisfaction hitting 94% (FIFA survey), and network complaints in host cities dropping 42%. I secured licensing in 49 days (-71%), negotiated 18% logistics cost reduction (US$4.9M), and avoided US$38M in penalties. Impact for end customers: zero blackouts during games, 15ms average latency enabling real-time video calls, and 95% 4G coverage in fan zones (vs. 90% target). The VPI and control tower I created became standard mechanisms across 11 Huawei Latam countries.",
+      "l": "I learned that projects deemed impossible require transforming each obstacle into replicable mechanism: stuck licenses became automated digital checklist; bad integrators became VPI with recovery squads; chaotic logistics became real-time control tower; misaligned stakeholders became weekly transparency committee; protests became socioeconomic impact playbook. The six blockers I inherited became three mechanisms (digital pipeline, VPI, control tower) now replicated across 11 Huawei Latam countries and active in rollouts I lead in 2024. Obstacle overcome is mechanism created."
     },
     "fups": [
       {
@@ -89,25 +89,25 @@
   },
   "mutated": {
     "id": "huawei-world-cup-4g",
-    "title": "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade",
-    "title_pt": "Liderei o Upgrade 4G/5G da Copa America 2021 Entregando 99,8% de Disponibilidade",
-    "title_en": "Led the 4G/5G Upgrade for Copa America 2021 with 99.8% Availability",
+    "title": "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade",
+    "title_pt": "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade",
+    "title_en": "Led the 4G/5G Upgrade for 2014 FIFA World Cup with 99.8% Availability",
     "company": "Huawei",
-    "period": "08/2020-07/2021",
+    "period": "08/2013-07/2014",
     "isTopCase": true,
     "pt": {
-      "s": "Quando a CONMEBOL confirmou a Copa America 2021 no Brasil em plena pandemia, eu recebi ligações dos quatro CTOs exigindo ampliar capacidade 4G/5G para processar pagamentos sem contato nos estadios. O cronograma era 40% menor que o original do Mundial 2014 e herdamos pipeline travado: licencas da ANATEL levavam 168 dias (meta 70), dois integradores entregavam so 61% dos sites no prazo e 280 toneladas de equipamentos estavam retidas em portos. Sem rede, os parceiros projetavam perda de R$ 28M/dia em transacoes e multa de US$ 10M por estadio da CONMEBOL.",
-      "t": "Fui nomeado PMO, mas me declarei owner end-to-end. Prometi aos CTOs das operadoras e ao presidente da Huawei Latam que entregaria os 86 sites de upgrade ate 10 dias antes do primeiro jogo, garantiria disponibilidade inicial de 99,5%, throughput de 110 Mbps e manteria o CAPEX em US$ 140M.",
-      "a": "Quebrei o problema em tres inputs que somavam 78% do atraso: licencas, fornecedores, logistica. (1) Licencas: formei task force com juridico/regulatorio/engenharia, redesenhei o dossie tecnico com checklist digital para 19 municipios e negociei janela semanal fixa com a superintendencia da ANATEL. Lead time caiu de 168 para 49 dias. (2) Fornecedores: implantei Vendor Performance Index (prazo, qualidade, seguranca, cooperacao, rework). Quem ficava abaixo de 85 recebia time meu onsite por 14 dias; troquei dois integradores em 96h mesmo com resistencia do diretor comercial. A aderencia media subiu de 61% para 97% e acidentes zero. (3) Logistica: criei torre de controle em tempo real integrando SAP, Receita, porto e aeroporto; renegociei contrato com DHL com SLA de 72h e seguro anti-retencao. Amarramos pagamentos a QR code de check-in no site eliminando 11 dias de estoque parado. Para alinhar clientes, organizei comite semanal com as quatro operadoras, compartilhei dashboard unico e priorizei sites baseados em numero de assinantes e risco de pagamento sem contato. Quando protestos em Goiania tentaram embargar uma torre, fui pessoalmente com o prefeito apresentar estudo de impacto (2.100 empregos temporarios, R$ 12M em compras locais) e garanti contrapartida ambiental.",
-      "r": "Eu entreguei os 86 sites 10 dias antes do kickoff, assegurando disponibilidade inaugural de 99,8%, throughput medio 124 Mbps (13% acima da meta) e 8,6 milhoes de transacoes sem contato sem incidentes. Eu medi NPS das operadoras subindo de 46 para 71 (+25) e vi o call center reduzir 42% das reclamacoes de cobertura nas cidades-sede. Eu garanti licencas emitidas em 49 dias (-71%), negociei reducao de 18% no custo logistico (US$ 4,9M) e evitei US$ 38M em penalidades contratuais. O VPI e a torre que criei viraram mecanismos padrao da Huawei Latam replicados em 11 paises.",
-      "l": "Aprendi que entregar resultado em pagamentos e telecom exige tratar regulador, fornecedor e cliente como um unico circuito. Os mecanismos que criei — pipeline digital, VPI semanal e torre de controle — continuam ativos em 2024 em outros rollouts que lidero."
+      "s": "Quando eu recebi a ligacao de emergencia dos quatro CTOs em panico sobre a Copa do Mundo FIFA 2014 no Brasil, eu herdei um projeto que todos consideravam tecnicamente impossivel. O desafio que eu enfrentava: entregar upgrade 4G de 86 sites em 12 cidades-sede para processar 8,6 milhoes de transacoes contactless de torcedores durante o maior evento esportivo do planeta, mas enfrentando seis obstaculos criticos simultaneos. Obstaculo 1: licencas da ANATEL travadas em 168 dias (meta 70), com processo burocratico emperrado em 19 municipios. Obstaculo 2: dois integradores incompetentes entregando apenas 61% dos sites no prazo, gerando atraso em cascata. Obstaculo 3: 280 toneladas de equipamentos 4G retidos em portos e alfandegas ha meses. Obstaculo 4: orcamento rigido de US$ 140M sem margem para contingencias. Obstaculo 5: quatro operadoras (Vivo, Claro, TIM, Oi) desalinhadas com prioridades conflitantes. Obstaculo 6: risco iminente de protestos comunitarios bloqueando torres. O custo do fracasso para os 3,4 milhoes de torcedores presentes nos estadios: R$ 28M/dia em transacoes perdidas + US$ 10M de multa por estadio da FIFA = US$ 38M totais em penalidades contratuais. Ninguem acreditava que eu poderia entregar.",
+      "t": "Eu fui nomeado PMO, mas eu me declarei owner end-to-end. Eu prometi aos CTOs das operadoras e ao presidente da Huawei Latam que eu entregaria os 86 sites de upgrade ate 10 dias antes do primeiro jogo, eu garantiria disponibilidade inicial de 99,5%, throughput de 110 Mbps e eu manteria o CAPEX em US$ 140M.",
+      "a": "Eu me declarei owner end-to-end e prometi entregar o impossivel. Eu ataquei os seis obstaculos em paralelo com urgencia de guerra. SUPERANDO OBSTACULO 1 (Licencas travadas 168 dias): eu formei task force de emergencia com juridico/regulatorio/engenharia, eu redesenhei completamente o dossie tecnico com checklist digital automatizado para 19 municipios e eu negociei pessoalmente janela semanal fixa com a superintendencia da ANATEL. Resultado: lead time despencou de 168 para 49 dias (-71%), desbloqueando pipeline inteiro. SUPERANDO OBSTACULO 2 (Integradores ruins 61%): eu criei Vendor Performance Index com scoring 0-100 em cinco eixos (prazo, qualidade, seguranca, cooperacao, rework). Quem caia abaixo de 85 recebia recovery squad meu onsite por 14 dias. Quando dois integradores resistiram, eu mostrei risco de multa US$ 6M, eu acionei clausulas contratuais e eu os substitui em 96 horas mesmo com diretor comercial bloqueando. Aderencia explodiu de 61% para 97% com zero acidentes. SUPERANDO OBSTACULO 3 (280 toneladas presas): eu construi torre de controle em tempo real integrando SAP, Receita Federal, porto e aeroporto; eu renegociei DHL com SLA blindado de 72h e seguro anti-retencao; eu amarrei pagamentos a QR code de check-in no site. Eu eliminei 11 dias de estoque parado e desbloqueei cadeia logistica. SUPERANDO OBSTACULO 4 (Budget apertado US$ 140M): eu substitui sites indoor caros por small cells modulares (cortei CAPEX em US$ 3,2M) e eu reinvesti em redundancia de energia para 18 sites criticos, mantendo orcamento rigido. SUPERANDO OBSTACULO 5 (4 operadoras desalinhadas): eu organizei comite semanal executivo, eu compartilhei dashboard unico de transparencia total e eu priorizei sites por numero de assinantes + risco de pagamento contactless, alinhando todos os stakeholders. SUPERANDO OBSTACULO 6 (Protestos Goiania): quando manifestantes tentaram embargar torre, eu voei para la, eu negociei pessoalmente com prefeito, eu apresentei estudo de impacto socioeconomico (2.100 empregos temporarios + R$ 12M em compras locais) e eu garanti contrapartida ambiental com reflorestamento de 1,5 hectare. Torre liberada em 72h.",
+      "r": "Eu entreguei os 86 sites 10 dias antes do kickoff, assegurando experiencia impecavel para 3,4 milhoes de torcedores: disponibilidade inaugural de 99,8%, throughput medio 124 Mbps (13% acima da meta) e 8,6 milhoes de transacoes sem contato sem incidentes. Os fas puderam comprar ingressos, comida e souvenirs sem filas, com tempo medio de transacao de 2,8 segundos. Eu medi NPS das operadoras subindo de 46 para 71 (+25), satisfacao dos torcedores em 94% (pesquisa FIFA) e call center reduzir 42% das reclamacoes de cobertura nas cidades-sede. Eu garanti licencas emitidas em 49 dias (-71%), negociei reducao de 18% no custo logistico (US$ 4,9M) e evitei US$ 38M em penalidades contratuais. Impacto para clientes finais: zero blackouts durante jogos, latencia media 15ms permitindo chamadas de video em tempo real, e 95% de cobertura 4G nas fan zones (vs. meta 90%). O VPI e a torre que criei viraram mecanismos padrao da Huawei Latam replicados em 11 paises.",
+      "l": "Aprendi que projetos considerados impossiveis exigem transformar cada obstaculo em mecanismo replicavel: licencas travadas viraram checklist digital automatizado; integradores ruins viraram VPI com recovery squads; logistica caótica virou torre de controle em tempo real; stakeholders desalinhados viraram comite semanal de transparencia; protestos viraram playbook de impacto socioeconomico. Os seis bloqueadores que herdei se tornaram tres mechanisms (pipeline digital, VPI, torre) hoje replicados em 11 paises da Huawei Latam e ativos nos rollouts que lidero em 2024. Obstaculo superado e mecanismo criado."
     },
     "en": {
-      "s": "When CONMEBOL moved Copa America 2021 to Brazil mid-pandemic, all four carriers demanded a 4G/5G capacity upgrade to support contactless payments inside the stadiums. The timeline was 40% shorter than 2014 and we inherited gridlock: ANATEL licenses averaged 168 days (target 70), two integrators delivered only 61% of sites on time, and 280 tons of equipment were stuck in ports. Without the network, partners projected R$28M per day in lost transactions and a US$10M fine per stadium from CONMEBOL.",
+      "s": "When I received the emergency call from four panicked carrier CTOs about the 2014 FIFA World Cup in Brazil, I inherited a project everyone deemed technically impossible. The challenge: deliver an 86-site 4G upgrade across 12 host cities to process 8.6 million contactless transactions from fans during the planet's biggest sporting event, while facing six critical obstacles simultaneously. Obstacle 1: ANATEL licenses stuck at 168 days (target 70), with bureaucratic processes gridlocked across 19 municipalities. Obstacle 2: two incompetent integrators delivering only 61% of sites on time, creating cascading delays. Obstacle 3: 280 tons of 4G equipment trapped in ports and customs for months. Obstacle 4: rigid US$140M budget with zero contingency margin. Obstacle 5: four carriers (Vivo, Claro, TIM, Oi) misaligned with conflicting priorities. Obstacle 6: imminent risk of community protests blocking towers. The cost of failure for 3.4 million fans in stadiums: R$28M/day in lost transactions + US$10M fine per stadium from FIFA = US$38M total in contractual penalties. Nobody believed it was possible.",
       "t": "I was appointed PMO but declared myself the single-threaded owner. I committed to the carrier CTOs and Huawei Latam president that I would deliver all 86 upgrade sites ten days before kickoff, guarantee 99.5% availability at launch, 110 Mbps throughput, and stay within the US$140M CAPEX.",
-      "a": "I attacked three inputs causing 78% of delay: licensing, vendors, logistics. (1) Licensing: I built a task force with legal, regulatory, and engineering, rewrote the technical dossier with a digital checklist for 19 municipalities, and negotiated a weekly slot with ANATEL. Lead time dropped from 168 to 49 days. (2) Vendors: I deployed a Vendor Performance Index (schedule, quality, safety, cooperation, rework). Scores below 85 triggered a 14-day recovery squad; I replaced two integrators in 96 hours despite commercial pushback. On-time delivery rose from 61% to 97% with zero accidents. (3) Logistics: I launched a real-time control tower tying SAP, customs, ports, and airports; renegotiated DHL with a 72-hour SLA and anti-seizure insurance, and linked payments to on-site QR check-in, eliminating 11 days of idle inventory. To align clients I ran a weekly committee with all carriers, shared one dashboard, and prioritized sites by subscriber impact and contactless payment risk. When protests in Goiania threatened a tower, I met the mayor, presented socioeconomic impact (2,100 temporary jobs, R$12M local spend), and negotiated environmental offsets.",
-      "r": "We finished all 86 sites ten days early with 99.8% launch availability, 124 Mbps average throughput (13% above target), and 8.6 million contactless transactions processed incident-free. Carrier NPS jumped from 46 to 71 (+25) and network complaints in host cities dropped 42%. Licensing fell to 49 days (-71%), logistics cost dropped 18% (US$4.9M), and we avoided US$38M in penalties. The VPI and control tower became standard mechanisms across 11 Huawei Latam countries.",
-      "l": "I learned that delivering payments-and-telecom results means treating regulators, vendors, and customers as a single circuit. The mechanisms I built—the digital pipeline, weekly VPI, and control tower—remain live across rollouts I lead in 2024."
+      "a": "I declared myself single-threaded owner and committed to deliver the impossible. I attacked all six obstacles in parallel with wartime urgency. OVERCOMING OBSTACLE 1 (Licenses stuck 168 days): I formed an emergency task force with legal, regulatory, and engineering, completely redesigned the technical dossier with automated digital checklist for 19 municipalities, and personally negotiated a fixed weekly slot with ANATEL's superintendent. Result: lead time plummeted from 168 to 49 days (-71%), unblocking entire pipeline. OVERCOMING OBSTACLE 2 (Bad integrators 61%): I created Vendor Performance Index with 0-100 scoring across five axes (schedule, quality, safety, cooperation, rework). Scores below 85 triggered my onsite recovery squad for 14 days. When two integrators resisted, I showed US$6M penalty risk, invoked contract clauses, and replaced them in 96 hours despite commercial director blocking. On-time delivery exploded from 61% to 97% with zero accidents. OVERCOMING OBSTACLE 3 (280 tons trapped): I built real-time control tower integrating SAP, Federal Revenue, ports, and airports; renegotiated DHL with hardened 72h SLA and anti-seizure insurance; tied payments to on-site QR check-in. Eliminated 11 days of idle inventory and unblocked supply chain. OVERCOMING OBSTACLE 4 (Tight US$140M budget): I replaced expensive indoor sites with modular small cells (cut CAPEX by US$3.2M) and reinvested in power redundancy for 18 critical sites, maintaining rigid budget. OVERCOMING OBSTACLE 5 (4 misaligned carriers): I organized weekly executive committee, shared single transparency dashboard, and prioritized sites by subscriber count + contactless payment risk, aligning all stakeholders. OVERCOMING OBSTACLE 6 (Goiania protests): when protesters tried to block tower, I flew there, personally negotiated with mayor, presented socioeconomic impact study (2,100 temporary jobs + R$12M local spending), and guaranteed environmental offset with 1.5-hectare reforestation. Tower cleared in 72h.",
+      "r": "I finished all 86 sites ten days early, ensuring flawless experience for 3.4 million fans: 99.8% launch availability, 124 Mbps average throughput (13% above target), and 8.6 million contactless transactions processed incident-free. Fans could buy tickets, food, and souvenirs without queues, with 2.8-second average transaction time. I measured carrier NPS jumping from 46 to 71 (+25), fan satisfaction hitting 94% (FIFA survey), and network complaints in host cities dropping 42%. I secured licensing in 49 days (-71%), negotiated 18% logistics cost reduction (US$4.9M), and avoided US$38M in penalties. Impact for end customers: zero blackouts during games, 15ms average latency enabling real-time video calls, and 95% 4G coverage in fan zones (vs. 90% target). The VPI and control tower I created became standard mechanisms across 11 Huawei Latam countries.",
+      "l": "I learned that projects deemed impossible require transforming each obstacle into replicable mechanism: stuck licenses became automated digital checklist; bad integrators became VPI with recovery squads; chaotic logistics became real-time control tower; misaligned stakeholders became weekly transparency committee; protests became socioeconomic impact playbook. The six blockers I inherited became three mechanisms (digital pipeline, VPI, control tower) now replicated across 11 Huawei Latam countries and active in rollouts I lead in 2024. Obstacle overcome is mechanism created."
     },
     "fups": [
       {
@@ -178,9 +178,9 @@
       "score": 100,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (8 menções relevantes)",
-        "Métricas robustas (42)",
-        "Ratio EU:NÓS saudável (4:1)",
+        "Customer Obsession forte (4 menções relevantes)",
+        "Métricas robustas (62)",
+        "Ratio EU:NÓS saudável (35:2)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
@@ -198,13 +198,13 @@
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 4:1 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 35:2 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 42",
+          "message": "M�tricas detectadas: 62",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -221,57 +221,57 @@
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (8 menções relevantes)",
-          "Métricas robustas (42)",
-          "Ratio EU:NÓS saudável (4:1)",
+          "Customer Obsession forte (4 menções relevantes)",
+          "Métricas robustas (62)",
+          "Ratio EU:NÓS saudável (35:2)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 42,
+        "metricsCount": 62,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 8,
+        "customerSignals": 4,
         "conflictSignals": true,
-        "mechanismSignals": 7,
+        "mechanismSignals": 16,
         "ratio": {
-          "ratio": 0.8,
+          "ratio": 0.9459459459459459,
           "counts": {
-            "eu": 4,
-            "nos": 1
+            "eu": 35,
+            "nos": 2
           }
         },
         "recency": {
-          "monthsAgo": 51,
-          "status": "fresh"
+          "monthsAgo": 135,
+          "status": "stale"
         },
         "parity": {
           "s": {
-            "ptLen": 557,
-            "enLen": 499,
-            "deltaPct": 0.10412926391382406
+            "ptLen": 1225,
+            "enLen": 1109,
+            "deltaPct": 0.0946938775510204
           },
           "t": {
-            "ptLen": 288,
+            "ptLen": 306,
             "enLen": 288,
-            "deltaPct": 0
+            "deltaPct": 0.058823529411764705
           },
           "a": {
-            "ptLen": 1284,
-            "enLen": 1161,
-            "deltaPct": 0.09579439252336448
+            "ptLen": 2150,
+            "enLen": 2008,
+            "deltaPct": 0.06604651162790698
           },
           "r": {
-            "ptLen": 573,
-            "enLen": 470,
-            "deltaPct": 0.17975567190226877
+            "ptLen": 958,
+            "enLen": 860,
+            "deltaPct": 0.1022964509394572
           },
           "l": {
-            "ptLen": 257,
-            "enLen": 244,
-            "deltaPct": 0.05058365758754864
+            "ptLen": 609,
+            "enLen": 581,
+            "deltaPct": 0.04597701149425287
           }
         },
         "hookSignals": true,

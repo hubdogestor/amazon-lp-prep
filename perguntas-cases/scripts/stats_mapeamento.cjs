@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 const fs = require('fs');
+const path = require('path');
 
-const data = JSON.parse(fs.readFileSync('mapeamento-perguntas-cases-COMPLETO.json', 'utf-8'));
+const data = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'dados', 'mapeamento-perguntas-cases-COMPLETO.json'), 'utf-8'));
 
 const byLP = {};
 data.forEach(r => {
