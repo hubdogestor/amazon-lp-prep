@@ -144,19 +144,19 @@ export const questionsToCasesMapping = {
     },
     "1": {
       "case_id": "sicredi-api-pricing-model",
-      "score": 80
+      "score": 85
     },
     "2": {
       "case_id": "huawei-4g-rollout-analysis",
       "score": 85
     },
     "3": {
-      "case_id": "sicredi-api-pricing-model",
-      "score": 50
+      "case_id": "sicredi-wrong-fraud-model-pivot",
+      "score": 85
     },
     "4": {
-      "case_id": "sicredi-mobile-first-strategy",
-      "score": 50
+      "case_id": "huawei-4g-rollout-analysis",
+      "score": 90
     },
     "5": {
       "case_id": "sicredi-api-pricing-model",
@@ -167,16 +167,16 @@ export const questionsToCasesMapping = {
       "score": 95
     },
     "7": {
-      "case_id": "sicredi-api-pricing-model",
-      "score": 50
+      "case_id": "sicredi-wrong-fraud-model-pivot",
+      "score": 85
     },
     "8": {
       "case_id": "sicredi-mobile-first-strategy",
-      "score": 80
+      "score": 85
     },
     "9": {
-      "case_id": "sicredi-mobile-first-strategy",
-      "score": 50
+      "case_id": "huawei-4g-rollout-analysis",
+      "score": 90
     },
     "10": {
       "case_id": "sicredi-api-pricing-model",
@@ -508,38 +508,44 @@ export const questionsToCasesMapping = {
   },
   "disagree_and_commit": {
     "0": {
-      "case_id": "bradesco-mvp-feature-prioritization",
-      "score": 55
+      "case_id": "unimed-retention-strategy",
+      "score": 90
     },
     "1": {
-      "case_id": "bradesco-mvp-feature-prioritization",
-      "score": 45
+      "case_id": "huawei-world-cup-timeline",
+      "score": 90
     },
-    "2": null,
+    "2": {
+      "case_id": "huawei-world-cup-timeline",
+      "score": 90
+    },
     "3": {
       "case_id": "unimed-retention-strategy",
-      "score": 60
+      "score": 90
     },
-    "4": null,
+    "4": {
+      "case_id": "huawei-world-cup-timeline",
+      "score": 90
+    },
     "5": {
-      "case_id": "bradesco-mvp-feature-prioritization",
-      "score": 45
+      "case_id": "commit-on-disagreement-product-strategy",
+      "score": 85
     },
     "6": {
-      "case_id": "bradesco-mvp-feature-prioritization",
-      "score": 45
+      "case_id": "unimed-retention-strategy",
+      "score": 85
     },
     "7": {
-      "case_id": "commit-on-disagreement-product-strategy",
-      "score": 50
+      "case_id": "bradesco-mvp-feature-prioritization",
+      "score": 85
     },
     "8": {
-      "case_id": "bradesco-mvp-feature-prioritization",
-      "score": 45
+      "case_id": "commit-on-disagreement-product-strategy",
+      "score": 85
     },
     "9": {
       "case_id": "commit-on-disagreement-product-strategy",
-      "score": 50
+      "score": 85
     }
   },
   "deliver_results": {
@@ -639,3 +645,5 @@ export const questionsToCasesMapping = {
     "9": null
   }
 };
+
+export default questionsToCasesMapping;
