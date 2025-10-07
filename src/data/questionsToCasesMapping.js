@@ -105,16 +105,16 @@ export const questionsToCasesMapping = {
       "score": 88
     },
     "2": {
-      "case_id": "bradesco-next-compliance-simplification",
-      "score": 85
+      "case_id": "unimed-ai-authorization",
+      "score": 95
     },
     "3": {
       "case_id": "bradesco-next-compliance-simplification",
       "score": 85
     },
     "4": {
-      "case_id": "unimed-open-innovation",
-      "score": 88
+      "case_id": "unimed-ai-authorization",
+      "score": 95
     },
     "5": {
       "case_id": "payment-simplification-high-impact",
@@ -139,6 +139,10 @@ export const questionsToCasesMapping = {
     "10": {
       "case_id": "sefarz-pix-reconciliation-automation",
       "score": 88
+    },
+    "11": {
+      "case_id": "unimed-ai-authorization",
+      "score": 95
     }
   },
   "are_right_a_lot": {
