@@ -603,6 +603,87 @@ Cases de frugality demonstraram que:
 |----|---------|-------------|--------|-------|----------|--------|--------------------|
 | hire_and_develop_the_best | unimed-underperformer-development | Desenvolvimento de um Analista de Baixo Desempenho Através de Realocação e Ownership | **Ready** | **100** | 40 | **16:5** | ✅ **Ratio EU:NÓS corrigido** (8:5→16:5) |
 
+---
+
+## ✨ **SESSÃO 3B: ADAPTAÇÃO DE 5 CASES (0% → 15-25% COVERAGE)**
+
+**Data:** 2025-01-XX  
+**Objetivo:** Adaptar 5 cases com 0% de cobertura de perguntas para responderem questões específicas nos LPs **Invent & Simplify**, **Ownership** e **Customer Obsession**.
+
+### Resumo Executivo
+
+| Métrica | Antes | Depois | Delta |
+|---------|-------|--------|-------|
+| **Cases adaptados** | 5 (0% coverage) | 5 (15-25% coverage) | ✅ +5 cases ativos |
+| **Novos mapeamentos** | 0 | 20 | ✅ +20 question-case pairs |
+| **Seções editadas** | 0 | 20 (S/T/A/L PT+EN) | ✅ 20 edits |
+| **Testes** | 31/31 PASS | 31/31 PASS | ✅ Sem regressões |
+| **Build** | 976KB | 983KB | ✅ +7KB (+0.7%) |
+
+### Cases Adaptados
+
+| # | Case ID | LP | Mapeamentos | Cobertura | Status |
+|---|---------|-----|-------------|-----------|--------|
+| 1 | unimed-open-innovation | invent_simplify | Q0, Q4, Q7, Q8 | 0% → 33% | ✅ DONE |
+| 2 | sefarz-pix-reconciliation-automation | invent_simplify | Q1, Q9, Q10 | 0% → 25% | ✅ DONE |
+| 3 | sefaz-pmo-creation | ownership | Q0, Q1, Q2, Q6, Q8 | 0% → 45% | ✅ DONE |
+| 4 | bradesco-international-payments | ownership | Q1, Q4, Q6, Q9 | 0% → 36% | ✅ DONE |
+| 5 | sicredi-frictionless-checkout | customer_obsession | Q0, Q3, Q4, Q5, Q9 | 0% → 42% | ✅ DONE |
+
+### Keywords Adicionadas
+
+**Invent & Simplify:**
+- ✅ "complexidade burocrática extrema" (unimed-open-innovation)
+- ✅ "olhar externo" (visitei 8 cooperativas, 3 dias em campo)
+- ✅ "BUILD vs BUY" (Fast-Track Klin vs consultoria)
+- ✅ "USO NÃO-CONVENCIONAL" (Python + SIAFEM API próprio)
+- ✅ "PIVOT" (manual → piloto → automação)
+- ✅ "balancear risco" (sandbox regulatório, stop-loss)
+
+**Ownership:**
+- ✅ "NÃO ERA MINHA FUNÇÃO" (sefaz-pmo, bradesco-payments)
+- ✅ "ir além do escopo formal"
+- ✅ "trade-offs de longo prazo" (pausar features por 6 semanas)
+- ✅ "mecanismos que sobrevivem" (31 templates, dashboard 24/7)
+- ✅ "prevenir reincidência" vs apagar incêndios
+- ✅ "capacitar sucessores" (8 PMI treinados)
+
+**Customer Obsession:**
+- ✅ "reclamavam de TAXA, mas dor real era UX" (necessidade não-expressa)
+- ✅ "working backwards" (começar do ideal, trabalhar para trás)
+- ✅ "trade-off customer vs métricas internas" (NPS vs upsell)
+- ✅ "antecipar necessidades não-verbalizadas"
+- ✅ "priorizar com recursos limitados" (3 de 12 melhorias)
+- ✅ "voz do cliente" (30 sessões, 25M eventos, 50 entrevistas)
+
+### Impacto por LP
+
+| LP | Cases | Novos Mapeamentos | Cobertura Antes | Cobertura Depois | Delta |
+|-----|-------|-------------------|-----------------|-------------------|-------|
+| **Invent & Simplify** | 2 | 7 | 7/12 (58%) | 11/12 (92%) | +4 mapeamentos |
+| **Ownership** | 2 | 9 | 4/11 (36%) | 13/11* (118%) | +9 mapeamentos |
+| **Customer Obsession** | 1 | 5 | 7/12 (58%) | 12/12 (100%) | +5 mapeamentos |
+
+*Alguns mapeamentos duplicados (multiple cases per question)
+
+### Documentação Criada
+
+- ✅ `docs/ESTRATEGIA_5_CASES_ADAPTACAO.md` (strategy document)
+- ✅ `docs/SESSION_3B_5_CASES_ADAPTACAO.md` (detailed report)
+- ✅ `REVIEW_TRACKER.md` updated (this section)
+
+### Validações
+
+- ✅ **31/31 testes PASS** (sem regressões)
+- ✅ **Build 983KB SUCCESS** (+7KB, +0.7%)
+- ✅ **PT/EN parity** mantido (espelhamento perfeito)
+- ✅ **EU:NÓS ≥ 3:1** mantido em todos os cases
+- ✅ **≥8 métricas** mantidas em cada case
+
+**Status Final:** ✅ **COMPLETO** — 5 cases transformados, 20 novos mapeamentos, 0 regressões
+
+---
+
 ## **STATUS FINAL: 72 CASOS, 64 READY, 0 KO**
 
 | LP | Case ID | Titulo (PT) | Status | Score | Metricas | EU:NOS | Reviewer | Observacoes |

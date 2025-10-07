@@ -5,7 +5,7 @@
 export const questionsToCasesMapping = {
   "customer_obsession": {
     "0": {
-      "case_id": "unimed-customer-experience",
+      "case_id": "sicredi-frictionless-checkout",
       "score": 90
     },
     "1": {
@@ -17,16 +17,16 @@ export const questionsToCasesMapping = {
       "score": 90
     },
     "3": {
-      "case_id": "sicredi-gateway-consumer-experience",
+      "case_id": "sicredi-frictionless-checkout",
       "score": 85
     },
     "4": {
-      "case_id": "unimed-customer-experience",
-      "score": 90
+      "case_id": "sicredi-frictionless-checkout",
+      "score": 88
     },
     "5": {
-      "case_id": "sicredi-gateway-consumer-experience",
-      "score": 90
+      "case_id": "sicredi-frictionless-checkout",
+      "score": 92
     },
     "6": {
       "case_id": "unimed-customer-experience",
@@ -41,7 +41,7 @@ export const questionsToCasesMapping = {
       "score": 90
     },
     "9": {
-      "case_id": "sicredi-gateway-consumer-experience",
+      "case_id": "sicredi-frictionless-checkout",
       "score": 85
     },
     "10": {
@@ -55,31 +55,31 @@ export const questionsToCasesMapping = {
   },
   "ownership": {
     "0": {
-      "case_id": "sefaz-emergency-rollback-no-approval",
-      "score": 85
+      "case_id": "sefaz-pmo-creation",
+      "score": 90
     },
     "1": {
-      "case_id": "sicredi-ml-credit-analysis",
-      "score": 85
+      "case_id": "sefaz-pmo-creation",
+      "score": 88
     },
     "2": {
-      "case_id": "long-term-tradeoff",
-      "score": 90
+      "case_id": "sefaz-pmo-creation",
+      "score": 92
     },
     "3": {
       "case_id": "sefaz-emergency-rollback-no-approval",
       "score": 85
     },
     "4": {
-      "case_id": "long-term-tradeoff",
-      "score": 90
+      "case_id": "bradesco-international-payments",
+      "score": 88
     },
     "5": {
       "case_id": "sefaz-emergency-rollback-no-approval",
       "score": 95
     },
     "6": {
-      "case_id": "unimed-ai-authorization",
+      "case_id": "bradesco-international-payments",
       "score": 85
     },
     "7": {
@@ -87,22 +87,22 @@ export const questionsToCasesMapping = {
       "score": 85
     },
     "8": {
-      "case_id": "hsbc-migration-leadership",
+      "case_id": "sefaz-pmo-creation",
       "score": 90
     },
     "9": {
-      "case_id": "hsbc-payment-reconciliation",
-      "score": 85
+      "case_id": "bradesco-international-payments",
+      "score": 88
     }
   },
   "invent_simplify": {
     "0": {
-      "case_id": "unimed-ai-authorization",
-      "score": 95
+      "case_id": "unimed-open-innovation",
+      "score": 90
     },
     "1": {
-      "case_id": "bradesco-next-compliance-simplification",
-      "score": 85
+      "case_id": "sefarz-pix-reconciliation-automation",
+      "score": 88
     },
     "2": {
       "case_id": "bradesco-next-compliance-simplification",
@@ -113,8 +113,8 @@ export const questionsToCasesMapping = {
       "score": 85
     },
     "4": {
-      "case_id": "unimed-ai-authorization",
-      "score": 95
+      "case_id": "unimed-open-innovation",
+      "score": 88
     },
     "5": {
       "case_id": "payment-simplification-high-impact",
@@ -125,16 +125,20 @@ export const questionsToCasesMapping = {
       "score": 90
     },
     "7": {
-      "case_id": "payment-simplification-high-impact",
+      "case_id": "unimed-open-innovation",
       "score": 90
     },
     "8": {
-      "case_id": "huawei-six-sigma-optimization",
-      "score": 90
+      "case_id": "unimed-open-innovation",
+      "score": 92
     },
     "9": {
-      "case_id": "sefaz-pix-automation",
+      "case_id": "sefarz-pix-reconciliation-automation",
       "score": 85
+    },
+    "10": {
+      "case_id": "sefarz-pix-reconciliation-automation",
+      "score": 88
     }
   },
   "are_right_a_lot": {
