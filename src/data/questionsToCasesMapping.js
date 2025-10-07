@@ -246,20 +246,20 @@ export const questionsToCasesMapping = {
   },
   "insist_on_highest_standards": {
     "0": {
-      "case_id": "sefaz-pmo-governance",
-      "score": 60
+      "case_id": "sicredi-payment-sla",
+      "score": 90
     },
     "1": {
-      "case_id": "sefaz-pmo-governance",
-      "score": 70
+      "case_id": "hsbc-zero-defects",
+      "score": 90
     },
     "2": {
       "case_id": "reject-mediocre-work-procergs",
       "score": 95
     },
     "3": {
-      "case_id": "sefaz-pmo-governance",
-      "score": 60
+      "case_id": "unimed-telemedicine-redo-for-excellence",
+      "score": 90
     },
     "4": {
       "case_id": "unimed-telemedicine-redo-for-excellence",
@@ -270,15 +270,15 @@ export const questionsToCasesMapping = {
       "score": 85
     },
     "6": {
-      "case_id": "sicredi-payment-sla",
-      "score": 45
+      "case_id": "reject-mediocre-work-procergs",
+      "score": 90
     },
     "7": {
-      "case_id": "hsbc-zero-defects",
-      "score": 60
+      "case_id": "reject-mediocre-work-procergs",
+      "score": 90
     },
     "8": {
-      "case_id": "hsbc-zero-defects",
+      "case_id": "unimed-telemedicine-redo-for-excellence",
       "score": 90
     },
     "9": {
@@ -550,8 +550,8 @@ export const questionsToCasesMapping = {
   },
   "deliver_results": {
     "0": {
-      "case_id": "huawei-world-cup-4g",
-      "score": 85
+      "case_id": "sefaz-ecage-portal",
+      "score": 90
     },
     "1": {
       "case_id": "huawei-world-cup-4g",
@@ -562,8 +562,8 @@ export const questionsToCasesMapping = {
       "score": 90
     },
     "3": {
-      "case_id": "huawei-world-cup-4g",
-      "score": 45
+      "case_id": "sicredi-fraud-reduction",
+      "score": 85
     },
     "4": {
       "case_id": "sicredi-pix-deadline-miss-recovery",
@@ -574,20 +574,20 @@ export const questionsToCasesMapping = {
       "score": 85
     },
     "6": {
-      "case_id": "huawei-world-cup-4g",
-      "score": 50
+      "case_id": "sefaz-ecage-portal",
+      "score": 85
     },
     "7": {
-      "case_id": "huawei-world-cup-4g",
-      "score": 45
+      "case_id": "sicredi-pix-deadline-miss-recovery",
+      "score": 85
     },
     "8": {
       "case_id": "unimed-ebitda-growth",
       "score": 80
     },
     "9": {
-      "case_id": "huawei-world-cup-4g",
-      "score": 45
+      "case_id": "sicredi-fraud-reduction",
+      "score": 85
     }
   },
   "best_employer": {
