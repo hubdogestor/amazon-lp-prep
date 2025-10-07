@@ -512,40 +512,106 @@ export const questionsToCasesMapping = {
     }
   },
   "bias_for_action": {
+    // === CASE: sicredi-ml-credit-analysis (5 mappings) - PHASE 3 ===
     "0": {
-      "case_id": "calculated-risk-time-critical",
+      "case_id": "sicredi-ml-credit-analysis",
       "score": 98
     },
     "1": {
-      "case_id": "sicredi-fraud-emergency-4h-decision",
-      "score": 80
+      "case_id": "sicredi-ml-credit-analysis",
+      "score": 95
     },
     "2": {
-      "case_id": "calculated-risk-time-critical",
-      "score": 98
+      "case_id": "sicredi-ml-credit-analysis",
+      "score": 92
     },
     "3": {
-      "case_id": "bradesco-next-rapid-launch",
+      "case_id": "sicredi-ml-credit-analysis",
       "score": 90
     },
     "4": {
+      "case_id": "sicredi-ml-credit-analysis",
+      "score": 88
+    },
+    // === CASE: sicredi-fraud-emergency-4h-decision (4 mappings) - PHASE 3 ===
+    "0_alt1": {
+      "case_id": "sicredi-fraud-emergency-4h-decision",
+      "score": 98
+    },
+    "1_alt1": {
+      "case_id": "sicredi-fraud-emergency-4h-decision",
+      "score": 98
+    },
+    "3_alt1": {
+      "case_id": "sicredi-fraud-emergency-4h-decision",
+      "score": 92
+    },
+    "7": {
+      "case_id": "sicredi-fraud-emergency-4h-decision",
+      "score": 95
+    },
+    // === CASE: bradesco-next-rapid-launch (5 mappings) - PHASE 3 ===
+    "0_alt2": {
+      "case_id": "bradesco-next-rapid-launch",
+      "score": 95
+    },
+    "2_alt1": {
+      "case_id": "bradesco-next-rapid-launch",
+      "score": 92
+    },
+    "3_alt2": {
+      "case_id": "bradesco-next-rapid-launch",
+      "score": 90
+    },
+    "6": {
+      "case_id": "bradesco-next-rapid-launch",
+      "score": 88
+    },
+    "7_alt1": {
+      "case_id": "bradesco-next-rapid-launch",
+      "score": 98
+    },
+    // === CASE: sefaz-project-pivot-70-percent (5 mappings) - PHASE 3 ===
+    "0_alt3": {
+      "case_id": "sefaz-project-pivot-70-percent",
+      "score": 92
+    },
+    "1_alt2": {
+      "case_id": "sefaz-project-pivot-70-percent",
+      "score": 88
+    },
+    "3_alt3": {
+      "case_id": "sefaz-project-pivot-70-percent",
+      "score": 90
+    },
+    "7_alt2": {
+      "case_id": "sefaz-project-pivot-70-percent",
+      "score": 85
+    },
+    "8": {
+      "case_id": "sefaz-project-pivot-70-percent",
+      "score": 98
+    },
+    // === CASE: sefaz-emergency-tax-portal (3 mappings) - PHASE 3 ===
+    "0_alt4": {
+      "case_id": "sefaz-emergency-tax-portal",
+      "score": 95
+    },
+    "2_alt2": {
       "case_id": "sefaz-emergency-tax-portal",
       "score": 90
     },
+    "4_alt1": {
+      "case_id": "sefaz-emergency-tax-portal",
+      "score": 88
+    },
+    // === Legacy/Template cases (keep for reference) ===
     "5": {
       "case_id": "calculated-risk-time-critical",
       "score": 95
     },
-    "6": {
+    "6_alt1": {
       "case_id": "calculated-risk-time-critical",
-      "score": 90
-    },
-    "7": {
-      "case_id": "bradesco-next-rapid-launch",
-      "score": 90
-    },
-    "8": {
-      "case_id": "sefaz-project-pivot-70-percent",
       "score": 90
     },
     "9": {

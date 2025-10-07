@@ -1,7 +1,7 @@
 {
   "totalCases": 68,
-  "totalMapped": 37,
-  "totalUnmapped": 7,
+  "totalMapped": 42,
+  "totalUnmapped": 6,
   "insufficientMapping": [
     {
       "lp": "Customer Obsession",
@@ -51,34 +51,6 @@
       "count": 2,
       "isTopCase": false,
       "file": "think_big_case1.js"
-    },
-    {
-      "lp": "Bias for Action",
-      "caseId": "bradesco-next-rapid-launch",
-      "count": 2,
-      "isTopCase": false,
-      "file": "bias_for_action_case1.js"
-    },
-    {
-      "lp": "Bias for Action",
-      "caseId": "sefaz-emergency-tax-portal",
-      "count": 1,
-      "isTopCase": false,
-      "file": "bias_for_action_case3.js"
-    },
-    {
-      "lp": "Bias for Action",
-      "caseId": "sicredi-fraud-emergency-4h-decision",
-      "count": 1,
-      "isTopCase": false,
-      "file": "bias_for_action_case5.js"
-    },
-    {
-      "lp": "Bias for Action",
-      "caseId": "sefaz-project-pivot-70-percent",
-      "count": 1,
-      "isTopCase": false,
-      "file": "bias_for_action_case6.js"
     },
     {
       "lp": "Earn Trust",
@@ -350,10 +322,45 @@
     },
     {
       "lp": "Bias for Action",
-      "caseId": "calculated-risk-time-critical",
+      "caseId": "bradesco-next-rapid-launch",
       "count": 5,
+      "isTopCase": false,
+      "file": "bias_for_action_case1.js"
+    },
+    {
+      "lp": "Bias for Action",
+      "caseId": "sicredi-ml-credit-analysis",
+      "count": 5,
+      "isTopCase": false,
+      "file": "bias_for_action_case2.js"
+    },
+    {
+      "lp": "Bias for Action",
+      "caseId": "sefaz-emergency-tax-portal",
+      "count": 3,
+      "isTopCase": false,
+      "file": "bias_for_action_case3.js"
+    },
+    {
+      "lp": "Bias for Action",
+      "caseId": "calculated-risk-time-critical",
+      "count": 3,
       "isTopCase": true,
       "file": "bias_for_action_case4.js"
+    },
+    {
+      "lp": "Bias for Action",
+      "caseId": "sicredi-fraud-emergency-4h-decision",
+      "count": 4,
+      "isTopCase": false,
+      "file": "bias_for_action_case5.js"
+    },
+    {
+      "lp": "Bias for Action",
+      "caseId": "sefaz-project-pivot-70-percent",
+      "count": 5,
+      "isTopCase": false,
+      "file": "bias_for_action_case6.js"
     },
     {
       "lp": "Frugality",
@@ -738,45 +745,44 @@
     "bias_for_action": {
       "name": "Bias for Action",
       "totalCases": 6,
-      "unmapped": [
-        {
-          "caseId": "sicredi-ml-credit-analysis",
-          "isTopCase": false,
-          "file": "bias_for_action_case2.js"
-        }
-      ],
-      "insufficient": [
+      "unmapped": [],
+      "insufficient": [],
+      "wellMapped": [
         {
           "caseId": "bradesco-next-rapid-launch",
-          "count": 2,
+          "count": 5,
           "isTopCase": false,
           "file": "bias_for_action_case1.js"
         },
         {
+          "caseId": "sicredi-ml-credit-analysis",
+          "count": 5,
+          "isTopCase": false,
+          "file": "bias_for_action_case2.js"
+        },
+        {
           "caseId": "sefaz-emergency-tax-portal",
-          "count": 1,
+          "count": 3,
           "isTopCase": false,
           "file": "bias_for_action_case3.js"
         },
         {
+          "caseId": "calculated-risk-time-critical",
+          "count": 3,
+          "isTopCase": true,
+          "file": "bias_for_action_case4.js"
+        },
+        {
           "caseId": "sicredi-fraud-emergency-4h-decision",
-          "count": 1,
+          "count": 4,
           "isTopCase": false,
           "file": "bias_for_action_case5.js"
         },
         {
           "caseId": "sefaz-project-pivot-70-percent",
-          "count": 1,
+          "count": 5,
           "isTopCase": false,
           "file": "bias_for_action_case6.js"
-        }
-      ],
-      "wellMapped": [
-        {
-          "caseId": "calculated-risk-time-critical",
-          "count": 5,
-          "isTopCase": true,
-          "file": "bias_for_action_case4.js"
         }
       ]
     },
