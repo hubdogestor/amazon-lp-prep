@@ -1,7 +1,7 @@
 {
   "totalCases": 68,
-  "totalMapped": 46,
-  "totalUnmapped": 4,
+  "totalMapped": 48,
+  "totalUnmapped": 2,
   "insufficientMapping": [
     {
       "lp": "Customer Obsession",
@@ -147,10 +147,24 @@
     },
     {
       "lp": "Ownership",
+      "caseId": "hsbc-migration-leadership",
+      "count": 5,
+      "isTopCase": true,
+      "file": "ownership_case1.js"
+    },
+    {
+      "lp": "Ownership",
       "caseId": "sefaz-pmo-creation",
       "count": 5,
       "isTopCase": false,
       "file": "ownership_case2.js"
+    },
+    {
+      "lp": "Ownership",
+      "caseId": "bradesco-international-payments",
+      "count": 5,
+      "isTopCase": false,
+      "file": "ownership_case3.js"
     },
     {
       "lp": "Ownership",
@@ -454,13 +468,7 @@
       "file": "best_employer_case3.js"
     }
   ],
-  "topCasesUnmapped": [
-    {
-      "lp": "Ownership",
-      "caseId": "hsbc-migration-leadership",
-      "file": "ownership_case1.js"
-    }
-  ],
+  "topCasesUnmapped": [],
   "byLP": {
     "customer_obsession": {
       "name": "Customer Obsession",
@@ -492,25 +500,26 @@
     "ownership": {
       "name": "Ownership",
       "totalCases": 8,
-      "unmapped": [
+      "unmapped": [],
+      "insufficient": [],
+      "wellMapped": [
         {
           "caseId": "hsbc-migration-leadership",
+          "count": 5,
           "isTopCase": true,
           "file": "ownership_case1.js"
         },
-        {
-          "caseId": "bradesco-international-payments",
-          "isTopCase": false,
-          "file": "ownership_case3.js"
-        }
-      ],
-      "insufficient": [],
-      "wellMapped": [
         {
           "caseId": "sefaz-pmo-creation",
           "count": 5,
           "isTopCase": false,
           "file": "ownership_case2.js"
+        },
+        {
+          "caseId": "bradesco-international-payments",
+          "count": 5,
+          "isTopCase": false,
+          "file": "ownership_case3.js"
         },
         {
           "caseId": "hsbc-payment-reconciliation",
