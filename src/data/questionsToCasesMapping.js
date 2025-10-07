@@ -55,44 +55,112 @@ export const questionsToCasesMapping = {
   },
   "ownership": {
     "0": {
-      "case_id": "hsbc-migration-leadership",
+      "case_id": "sefaz-pmo-creation",
+      "score": 98
+    },
+    "0_alt1": {
+      "case_id": "hsbc-payment-reconciliation",
+      "score": 98
+    },
+    "0_alt2": {
+      "case_id": "payment-incidents-prevention-mechanism",
       "score": 95
     },
+    "0_alt3": {
+      "case_id": "long-term-tradeoff",
+      "score": 92
+    },
+    "0_alt4": {
+      "case_id": "sefaz-emergency-rollback-no-approval",
+      "score": 90
+    },
+    "0_alt5": {
+      "case_id": "bradesco-next-delay",
+      "score": 85
+    },
     "1": {
-      "case_id": "hsbc-migration-leadership",
+      "case_id": "sefaz-pmo-creation",
+      "score": 95
+    },
+    "1_alt1": {
+      "case_id": "hsbc-payment-reconciliation",
       "score": 95
     },
     "2": {
-      "case_id": "hsbc-migration-leadership",
-      "score": 90
+      "case_id": "long-term-tradeoff",
+      "score": 95
+    },
+    "2_alt1": {
+      "case_id": "payment-incidents-prevention-mechanism",
+      "score": 88
+    },
+    "2_alt2": {
+      "case_id": "bradesco-next-delay",
+      "score": 85
     },
     "3": {
       "case_id": "sefaz-emergency-rollback-no-approval",
       "score": 85
     },
     "4": {
-      "case_id": "bradesco-international-payments",
-      "score": 88
+      "case_id": "long-term-tradeoff",
+      "score": 98
     },
     "5": {
-      "case_id": "hsbc-migration-leadership",
-      "score": 85
+      "case_id": "sefaz-emergency-rollback-no-approval",
+      "score": 98
     },
     "6": {
-      "case_id": "bradesco-international-payments",
-      "score": 85
+      "case_id": "sefaz-pmo-creation",
+      "score": 92
+    },
+    "6_alt1": {
+      "case_id": "hsbc-payment-reconciliation",
+      "score": 92
+    },
+    "6_alt2": {
+      "case_id": "payment-incidents-prevention-mechanism",
+      "score": 98
+    },
+    "6_alt3": {
+      "case_id": "long-term-tradeoff",
+      "score": 90
     },
     "7": {
       "case_id": "bradesco-next-delay",
-      "score": 85
+      "score": 98
     },
-    "8": {
-      "case_id": "hsbc-migration-leadership",
+    "7_alt1": {
+      "case_id": "sefaz-emergency-rollback-no-approval",
       "score": 95
     },
-    "9": {
-      "case_id": "bradesco-international-payments",
+    "8": {
+      "case_id": "sefaz-pmo-creation",
+      "score": 90
+    },
+    "8_alt1": {
+      "case_id": "hsbc-payment-reconciliation",
+      "score": 90
+    },
+    "8_alt2": {
+      "case_id": "payment-incidents-prevention-mechanism",
+      "score": 85
+    },
+    "8_alt3": {
+      "case_id": "long-term-tradeoff",
       "score": 88
+    },
+    "9": {
+      "case_id": "sefaz-pmo-creation",
+      "score": 88
+    },
+    "9_alt1": {
+      "case_id": "hsbc-payment-reconciliation",
+      "score": 88
+    },
+    "9_alt2": {
+      "case_id": "payment-incidents-prevention-mechanism",
+      "score": 98
     }
   },
   "invent_simplify": {
@@ -100,49 +168,121 @@ export const questionsToCasesMapping = {
       "case_id": "unimed-ai-authorization",
       "score": 98
     },
+    "0_alt1": {
+      "case_id": "bradesco-next-compliance-simplification",
+      "score": 98
+    },
+    "0_alt2": {
+      "case_id": "huawei-six-sigma-optimization",
+      "score": 95
+    },
+    "0_alt3": {
+      "case_id": "unimed-open-innovation",
+      "score": 95
+    },
+    "0_alt4": {
+      "case_id": "sefarz-pix-reconciliation-automation",
+      "score": 95
+    },
+    "0_alt5": {
+      "case_id": "payment-simplification-high-impact",
+      "score": 98
+    },
     "1": {
       "case_id": "unimed-ai-authorization",
       "score": 95
     },
+    "1_alt1": {
+      "case_id": "payment-simplification-high-impact",
+      "score": 95
+    },
+    "1_alt2": {
+      "case_id": "huawei-six-sigma-optimization",
+      "score": 92
+    },
+    "1_alt3": {
+      "case_id": "bradesco-next-compliance-simplification",
+      "score": 92
+    },
+    "1_alt4": {
+      "case_id": "unimed-open-innovation",
+      "score": 92
+    },
+    "1_alt5": {
+      "case_id": "sefarz-pix-reconciliation-automation",
+      "score": 92
+    },
     "2": {
       "case_id": "bradesco-next-compliance-simplification",
-      "score": 85
+      "score": 95
     },
     "3": {
-      "case_id": "huawei-six-sigma-optimization",
-      "score": 88
+      "case_id": "unimed-open-innovation",
+      "score": 90
     },
     "4": {
       "case_id": "unimed-ai-authorization",
       "score": 98
     },
-    "5": {
+    "4_alt1": {
+      "case_id": "huawei-six-sigma-optimization",
+      "score": 90
+    },
+    "4_alt2": {
       "case_id": "payment-simplification-high-impact",
-      "score": 80
+      "score": 88
+    },
+    "5": {
+      "case_id": "sefarz-pix-reconciliation-automation",
+      "score": 88
     },
     "6": {
       "case_id": "unimed-ai-authorization",
       "score": 92
     },
-    "7": {
-      "case_id": "unimed-open-innovation",
+    "6_alt1": {
+      "case_id": "bradesco-next-compliance-simplification",
       "score": 90
     },
-    "8": {
+    "6_alt2": {
+      "case_id": "payment-simplification-high-impact",
+      "score": 90
+    },
+    "6_alt3": {
       "case_id": "unimed-open-innovation",
-      "score": 92
+      "score": 88
+    },
+    "7": {
+      "case_id": "unimed-open-innovation",
+      "score": 98
+    },
+    "7_alt1": {
+      "case_id": "bradesco-next-compliance-simplification",
+      "score": 88
+    },
+    "8": {
+      "case_id": "sefarz-pix-reconciliation-automation",
+      "score": 98
+    },
+    "8_alt1": {
+      "case_id": "huawei-six-sigma-optimization",
+      "score": 88
     },
     "9": {
       "case_id": "unimed-ai-authorization",
       "score": 88
     },
-    "10": {
-      "case_id": "sefarz-pix-reconciliation-automation",
-      "score": 88
+    "9_alt1": {
+      "case_id": "payment-simplification-high-impact",
+      "score": 92
     },
-    "11": {
-      "case_id": "sefarz-pix-reconciliation-automation",
+    "9_alt2": {
+      "case_id": "huawei-six-sigma-optimization",
       "score": 85
+    },
+    "9_alt3": {
+      "case_id": "sefarz-pix-reconciliation-automation",
+      "score": 90
     }
   },
   "are_right_a_lot": {

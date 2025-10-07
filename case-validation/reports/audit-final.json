@@ -1,7 +1,7 @@
 {
   "totalCases": 68,
-  "totalMapped": 29,
-  "totalUnmapped": 14,
+  "totalMapped": 37,
+  "totalUnmapped": 7,
   "insufficientMapping": [
     {
       "lp": "Customer Obsession",
@@ -11,25 +11,18 @@
       "file": "customer_obsession_case1.js"
     },
     {
-      "lp": "Ownership",
-      "caseId": "sefaz-emergency-rollback-no-approval",
-      "count": 1,
+      "lp": "Are Right, A Lot",
+      "caseId": "sicredi-api-pricing-model",
+      "count": 2,
       "isTopCase": false,
-      "file": "ownership_case7.js"
-    },
-    {
-      "lp": "Ownership",
-      "caseId": "bradesco-next-delay",
-      "count": 1,
-      "isTopCase": false,
-      "file": "ownership_case8.js"
+      "file": "are_right_a_lot_case3.js"
     },
     {
       "lp": "Are Right, A Lot",
-      "caseId": "sicredi-mobile-first-strategy",
+      "caseId": "sicredi-wrong-fraud-model-pivot",
       "count": 2,
-      "isTopCase": true,
-      "file": "are_right_a_lot_case1.js"
+      "isTopCase": false,
+      "file": "are_right_a_lot_case4.js"
     },
     {
       "lp": "Learn and Be Curious",
@@ -53,25 +46,11 @@
       "file": "hire_and_develop_the_best_case1.js"
     },
     {
-      "lp": "Insist on the Highest Standards",
-      "caseId": "hsbc-zero-defects",
-      "count": 1,
-      "isTopCase": false,
-      "file": "insist_on_highest_standards_case1.js"
-    },
-    {
-      "lp": "Insist on the Highest Standards",
-      "caseId": "sicredi-payment-sla",
-      "count": 2,
-      "isTopCase": false,
-      "file": "insist_on_highest_standards_case3.js"
-    },
-    {
       "lp": "Think Big",
-      "caseId": "unimed-ecosystem-transformation",
+      "caseId": "huawei-global-rollout",
       "count": 2,
-      "isTopCase": true,
-      "file": "think_big_case2.js"
+      "isTopCase": false,
+      "file": "think_big_case1.js"
     },
     {
       "lp": "Bias for Action",
@@ -145,10 +124,24 @@
     },
     {
       "lp": "Have Backbone; Disagree and Commit",
-      "caseId": "bradesco-mvp-feature-prioritization",
+      "caseId": "unimed-retention-strategy",
       "count": 1,
-      "isTopCase": true,
-      "file": "disagree_and_commit_case3.js"
+      "isTopCase": false,
+      "file": "disagree_and_commit_case1.js"
+    },
+    {
+      "lp": "Have Backbone; Disagree and Commit",
+      "caseId": "huawei-world-cup-timeline",
+      "count": 2,
+      "isTopCase": false,
+      "file": "disagree_and_commit_case2.js"
+    },
+    {
+      "lp": "Have Backbone; Disagree and Commit",
+      "caseId": "commit-on-disagreement-product-strategy",
+      "count": 2,
+      "isTopCase": false,
+      "file": "disagree_and_commit_case4.js"
     },
     {
       "lp": "Deliver Results",
@@ -196,17 +189,94 @@
     },
     {
       "lp": "Ownership",
-      "caseId": "hsbc-migration-leadership",
+      "caseId": "sefaz-pmo-creation",
       "count": 5,
-      "isTopCase": true,
-      "file": "ownership_case1.js"
+      "isTopCase": false,
+      "file": "ownership_case2.js"
     },
     {
       "lp": "Ownership",
-      "caseId": "bradesco-international-payments",
+      "caseId": "hsbc-payment-reconciliation",
+      "count": 5,
+      "isTopCase": false,
+      "file": "ownership_case4.js"
+    },
+    {
+      "lp": "Ownership",
+      "caseId": "payment-incidents-prevention-mechanism",
+      "count": 5,
+      "isTopCase": false,
+      "file": "ownership_case5.js"
+    },
+    {
+      "lp": "Ownership",
+      "caseId": "long-term-tradeoff",
+      "count": 5,
+      "isTopCase": false,
+      "file": "ownership_case6.js"
+    },
+    {
+      "lp": "Ownership",
+      "caseId": "sefaz-emergency-rollback-no-approval",
+      "count": 4,
+      "isTopCase": false,
+      "file": "ownership_case7.js"
+    },
+    {
+      "lp": "Ownership",
+      "caseId": "bradesco-next-delay",
       "count": 3,
       "isTopCase": false,
-      "file": "ownership_case3.js"
+      "file": "ownership_case8.js"
+    },
+    {
+      "lp": "Invent and Simplify",
+      "caseId": "huawei-six-sigma-optimization",
+      "count": 5,
+      "isTopCase": false,
+      "file": "invent_and_simplify_case1.js"
+    },
+    {
+      "lp": "Invent and Simplify",
+      "caseId": "bradesco-next-compliance-simplification",
+      "count": 5,
+      "isTopCase": false,
+      "file": "invent_and_simplify_case2.js"
+    },
+    {
+      "lp": "Invent and Simplify",
+      "caseId": "unimed-ai-authorization",
+      "count": 5,
+      "isTopCase": true,
+      "file": "invent_and_simplify_case3.js"
+    },
+    {
+      "lp": "Invent and Simplify",
+      "caseId": "unimed-open-innovation",
+      "count": 5,
+      "isTopCase": false,
+      "file": "invent_and_simplify_case4.js"
+    },
+    {
+      "lp": "Invent and Simplify",
+      "caseId": "sefarz-pix-reconciliation-automation",
+      "count": 5,
+      "isTopCase": false,
+      "file": "invent_and_simplify_case5.js"
+    },
+    {
+      "lp": "Invent and Simplify",
+      "caseId": "payment-simplification-high-impact",
+      "count": 5,
+      "isTopCase": false,
+      "file": "invent_and_simplify_case6.js"
+    },
+    {
+      "lp": "Are Right, A Lot",
+      "caseId": "sicredi-mobile-first-strategy",
+      "count": 4,
+      "isTopCase": true,
+      "file": "are_right_a_lot_case1.js"
     },
     {
       "lp": "Are Right, A Lot",
@@ -214,20 +284,6 @@
       "count": 3,
       "isTopCase": false,
       "file": "are_right_a_lot_case2.js"
-    },
-    {
-      "lp": "Are Right, A Lot",
-      "caseId": "sicredi-api-pricing-model",
-      "count": 3,
-      "isTopCase": false,
-      "file": "are_right_a_lot_case3.js"
-    },
-    {
-      "lp": "Are Right, A Lot",
-      "caseId": "sicredi-wrong-fraud-model-pivot",
-      "count": 3,
-      "isTopCase": false,
-      "file": "are_right_a_lot_case4.js"
     },
     {
       "lp": "Learn and Be Curious",
@@ -252,8 +308,15 @@
     },
     {
       "lp": "Insist on the Highest Standards",
-      "caseId": "reject-mediocre-work-procergs",
+      "caseId": "sefaz-pmo-governance",
       "count": 5,
+      "isTopCase": true,
+      "file": "insist_on_highest_standards_case2.js"
+    },
+    {
+      "lp": "Insist on the Highest Standards",
+      "caseId": "reject-mediocre-work-procergs",
+      "count": 3,
       "isTopCase": false,
       "file": "insist_on_highest_standards_case4.js"
     },
@@ -266,15 +329,15 @@
     },
     {
       "lp": "Think Big",
-      "caseId": "huawei-global-rollout",
-      "count": 3,
-      "isTopCase": false,
-      "file": "think_big_case1.js"
+      "caseId": "unimed-ecosystem-transformation",
+      "count": 4,
+      "isTopCase": true,
+      "file": "think_big_case2.js"
     },
     {
       "lp": "Think Big",
       "caseId": "bradesco-paas-latam",
-      "count": 4,
+      "count": 3,
       "isTopCase": false,
       "file": "think_big_case3.js"
     },
@@ -336,24 +399,10 @@
     },
     {
       "lp": "Have Backbone; Disagree and Commit",
-      "caseId": "unimed-retention-strategy",
-      "count": 3,
-      "isTopCase": false,
-      "file": "disagree_and_commit_case1.js"
-    },
-    {
-      "lp": "Have Backbone; Disagree and Commit",
-      "caseId": "huawei-world-cup-timeline",
-      "count": 3,
-      "isTopCase": false,
-      "file": "disagree_and_commit_case2.js"
-    },
-    {
-      "lp": "Have Backbone; Disagree and Commit",
-      "caseId": "commit-on-disagreement-product-strategy",
-      "count": 3,
-      "isTopCase": false,
-      "file": "disagree_and_commit_case4.js"
+      "caseId": "bradesco-mvp-feature-prioritization",
+      "count": 5,
+      "isTopCase": true,
+      "file": "disagree_and_commit_case3.js"
     },
     {
       "lp": "Deliver Results",
@@ -386,14 +435,9 @@
   ],
   "topCasesUnmapped": [
     {
-      "lp": "Invent and Simplify",
-      "caseId": "unimed-ai-authorization",
-      "file": "invent_and_simplify_case3.js"
-    },
-    {
-      "lp": "Insist on the Highest Standards",
-      "caseId": "sefaz-pmo-governance",
-      "file": "insist_on_highest_standards_case2.js"
+      "lp": "Ownership",
+      "caseId": "hsbc-migration-leadership",
+      "file": "ownership_case1.js"
     }
   ],
   "byLP": {
@@ -429,92 +473,99 @@
       "totalCases": 8,
       "unmapped": [
         {
-          "caseId": "sefaz-pmo-creation",
-          "isTopCase": false,
-          "file": "ownership_case2.js"
-        },
-        {
-          "caseId": "hsbc-payment-reconciliation",
-          "isTopCase": false,
-          "file": "ownership_case4.js"
-        },
-        {
-          "caseId": "payment-incidents-prevention-mechanism",
-          "isTopCase": false,
-          "file": "ownership_case5.js"
-        },
-        {
-          "caseId": "long-term-tradeoff",
-          "isTopCase": false,
-          "file": "ownership_case6.js"
-        }
-      ],
-      "insufficient": [
-        {
-          "caseId": "sefaz-emergency-rollback-no-approval",
-          "count": 1,
-          "isTopCase": false,
-          "file": "ownership_case7.js"
-        },
-        {
-          "caseId": "bradesco-next-delay",
-          "count": 1,
-          "isTopCase": false,
-          "file": "ownership_case8.js"
-        }
-      ],
-      "wellMapped": [
-        {
           "caseId": "hsbc-migration-leadership",
-          "count": 5,
           "isTopCase": true,
           "file": "ownership_case1.js"
         },
         {
           "caseId": "bradesco-international-payments",
-          "count": 3,
           "isTopCase": false,
           "file": "ownership_case3.js"
         }
+      ],
+      "insufficient": [],
+      "wellMapped": [
+        {
+          "caseId": "sefaz-pmo-creation",
+          "count": 5,
+          "isTopCase": false,
+          "file": "ownership_case2.js"
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "count": 5,
+          "isTopCase": false,
+          "file": "ownership_case4.js"
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "count": 5,
+          "isTopCase": false,
+          "file": "ownership_case5.js"
+        },
+        {
+          "caseId": "long-term-tradeoff",
+          "count": 5,
+          "isTopCase": false,
+          "file": "ownership_case6.js"
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "count": 4,
+          "isTopCase": false,
+          "file": "ownership_case7.js"
+        },
+        {
+          "caseId": "bradesco-next-delay",
+          "count": 3,
+          "isTopCase": false,
+          "file": "ownership_case8.js"
+        }
       ]
     },
-    "invent_and_simplify": {
+    "invent_simplify": {
       "name": "Invent and Simplify",
       "totalCases": 6,
-      "unmapped": [
+      "unmapped": [],
+      "insufficient": [],
+      "wellMapped": [
         {
           "caseId": "huawei-six-sigma-optimization",
+          "count": 5,
           "isTopCase": false,
           "file": "invent_and_simplify_case1.js"
         },
         {
           "caseId": "bradesco-next-compliance-simplification",
+          "count": 5,
           "isTopCase": false,
           "file": "invent_and_simplify_case2.js"
         },
         {
           "caseId": "unimed-ai-authorization",
+          "count": 5,
           "isTopCase": true,
           "file": "invent_and_simplify_case3.js"
         },
         {
           "caseId": "unimed-open-innovation",
+          "count": 5,
           "isTopCase": false,
           "file": "invent_and_simplify_case4.js"
         },
         {
           "caseId": "sefarz-pix-reconciliation-automation",
+          "count": 5,
           "isTopCase": false,
           "file": "invent_and_simplify_case5.js"
         },
         {
           "caseId": "payment-simplification-high-impact",
+          "count": 5,
           "isTopCase": false,
           "file": "invent_and_simplify_case6.js"
         }
-      ],
-      "insufficient": [],
-      "wellMapped": []
+      ]
     },
     "are_right_a_lot": {
       "name": "Are Right, A Lot",
@@ -522,30 +573,30 @@
       "unmapped": [],
       "insufficient": [
         {
-          "caseId": "sicredi-mobile-first-strategy",
-          "count": 2,
-          "isTopCase": true,
-          "file": "are_right_a_lot_case1.js"
-        }
-      ],
-      "wellMapped": [
-        {
-          "caseId": "huawei-4g-rollout-analysis",
-          "count": 3,
-          "isTopCase": false,
-          "file": "are_right_a_lot_case2.js"
-        },
-        {
           "caseId": "sicredi-api-pricing-model",
-          "count": 3,
+          "count": 2,
           "isTopCase": false,
           "file": "are_right_a_lot_case3.js"
         },
         {
           "caseId": "sicredi-wrong-fraud-model-pivot",
-          "count": 3,
+          "count": 2,
           "isTopCase": false,
           "file": "are_right_a_lot_case4.js"
+        }
+      ],
+      "wellMapped": [
+        {
+          "caseId": "sicredi-mobile-first-strategy",
+          "count": 4,
+          "isTopCase": true,
+          "file": "are_right_a_lot_case1.js"
+        },
+        {
+          "caseId": "huawei-4g-rollout-analysis",
+          "count": 3,
+          "isTopCase": false,
+          "file": "are_right_a_lot_case2.js"
         }
       ]
     },
@@ -619,29 +670,27 @@
       "totalCases": 5,
       "unmapped": [
         {
-          "caseId": "sefaz-pmo-governance",
-          "isTopCase": true,
-          "file": "insist_on_highest_standards_case2.js"
-        }
-      ],
-      "insufficient": [
-        {
           "caseId": "hsbc-zero-defects",
-          "count": 1,
           "isTopCase": false,
           "file": "insist_on_highest_standards_case1.js"
         },
         {
           "caseId": "sicredi-payment-sla",
-          "count": 2,
           "isTopCase": false,
           "file": "insist_on_highest_standards_case3.js"
         }
       ],
+      "insufficient": [],
       "wellMapped": [
         {
-          "caseId": "reject-mediocre-work-procergs",
+          "caseId": "sefaz-pmo-governance",
           "count": 5,
+          "isTopCase": true,
+          "file": "insist_on_highest_standards_case2.js"
+        },
+        {
+          "caseId": "reject-mediocre-work-procergs",
+          "count": 3,
           "isTopCase": false,
           "file": "insist_on_highest_standards_case4.js"
         },
@@ -659,22 +708,22 @@
       "unmapped": [],
       "insufficient": [
         {
-          "caseId": "unimed-ecosystem-transformation",
+          "caseId": "huawei-global-rollout",
           "count": 2,
-          "isTopCase": true,
-          "file": "think_big_case2.js"
+          "isTopCase": false,
+          "file": "think_big_case1.js"
         }
       ],
       "wellMapped": [
         {
-          "caseId": "huawei-global-rollout",
-          "count": 3,
-          "isTopCase": false,
-          "file": "think_big_case1.js"
+          "caseId": "unimed-ecosystem-transformation",
+          "count": 4,
+          "isTopCase": true,
+          "file": "think_big_case2.js"
         },
         {
           "caseId": "bradesco-paas-latam",
-          "count": 4,
+          "count": 3,
           "isTopCase": false,
           "file": "think_big_case3.js"
         },
@@ -835,30 +884,30 @@
       "unmapped": [],
       "insufficient": [
         {
-          "caseId": "bradesco-mvp-feature-prioritization",
-          "count": 1,
-          "isTopCase": true,
-          "file": "disagree_and_commit_case3.js"
-        }
-      ],
-      "wellMapped": [
-        {
           "caseId": "unimed-retention-strategy",
-          "count": 3,
+          "count": 1,
           "isTopCase": false,
           "file": "disagree_and_commit_case1.js"
         },
         {
           "caseId": "huawei-world-cup-timeline",
-          "count": 3,
+          "count": 2,
           "isTopCase": false,
           "file": "disagree_and_commit_case2.js"
         },
         {
           "caseId": "commit-on-disagreement-product-strategy",
-          "count": 3,
+          "count": 2,
           "isTopCase": false,
           "file": "disagree_and_commit_case4.js"
+        }
+      ],
+      "wellMapped": [
+        {
+          "caseId": "bradesco-mvp-feature-prioritization",
+          "count": 5,
+          "isTopCase": true,
+          "file": "disagree_and_commit_case3.js"
         }
       ]
     },

@@ -18,7 +18,7 @@ const DATA_PATH = path.join(BASE_PATH, 'src', 'data');
 const LPS = [
   { id: 'customer_obsession', folder: 'customer_obsession', name: 'Customer Obsession' },
   { id: 'ownership', folder: 'ownership', name: 'Ownership' },
-  { id: 'invent_and_simplify', folder: 'invent_and_simplify', name: 'Invent and Simplify' },
+  { id: 'invent_simplify', folder: 'invent_and_simplify', name: 'Invent and Simplify' },
   { id: 'are_right_a_lot', folder: 'are_right_a_lot', name: 'Are Right, A Lot' },
   { id: 'learn_and_be_curious', folder: 'learn_and_be_curious', name: 'Learn and Be Curious' },
   { id: 'hire_and_develop_the_best', folder: 'hire_and_develop_the_best', name: 'Hire and Develop the Best' },
@@ -33,22 +33,10 @@ const LPS = [
   { id: 'best_employer', folder: 'best_employer', name: 'Strive to be Earth\'s Best Employer' }
 ];
 
-// Carregar mapping
-const mappingPath = path.join(DATA_PATH, 'questionsToCasesMapping.js');
-const mappingContent = fs.readFileSync(mappingPath, 'utf-8');
-
-const mappingMatch = mappingContent.match(/export\s+const\s+questionsToCasesMapping\s*=\s*({[\s\S]+?});/);
-if (!mappingMatch) {
-  console.error('❌ Erro ao extrair questionsToCasesMapping');
-  process.exit(1);
-}
-
-const jsonString = mappingMatch[1]
-  .replace(/\/\/.*$/gm, '')
-  .replace(/,(\s*[}\]])/g, '$1')
-  .replace(/(['"])?([a-zA-Z0-9_]+)(['"])?\s*:/g, '"$2":');
-
-const mapping = JSON.parse(jsonString);
+// Carregar mapping (importar diretamente)
+const mappingFilePath = path.join(DATA_PATH, 'questionsToCasesMapping.js');
+const mappingModule = await import(`file:///${mappingFilePath.replace(/\\/g, '/')}`);
+const mapping = mappingModule.questionsToCasesMapping;
 
 console.log('\n' + '═'.repeat(80));
 console.log('  📊 AUDITORIA CORRETA - BASEADA EM IDs REAIS DOS CASES');
