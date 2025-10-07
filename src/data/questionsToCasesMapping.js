@@ -8,6 +8,10 @@ export const questionsToCasesMapping = {
       "case_id": "sicredi-frictionless-checkout",
       "score": 90
     },
+    "0_alt1": {
+      "case_id": "unimed-customer-experience",
+      "score": 88
+    },
     "1": {
       "case_id": "bradesco-next-customer-ritual",
       "score": 90
@@ -350,9 +354,17 @@ export const questionsToCasesMapping = {
       "case_id": "sicredi-mobile-first-strategy",
       "score": 95
     },
+    "0_alt1": {
+      "case_id": "sicredi-wrong-fraud-model-pivot",
+      "score": 90
+    },
     "1": {
       "case_id": "sicredi-mobile-first-strategy",
       "score": 92
+    },
+    "1_alt1": {
+      "case_id": "sicredi-api-pricing-model",
+      "score": 88
     },
     "2": {
       "case_id": "huawei-4g-rollout-analysis",
@@ -527,6 +539,10 @@ export const questionsToCasesMapping = {
       "case_id": "unimed-underperformer-development",
       "score": 98
     },
+    "0_alt1": {
+      "case_id": "huawei-project-managers-mentoring",
+      "score": 90
+    },
     "1": {
       "case_id": "unimed-underperformer-development",
       "score": 95
@@ -569,9 +585,21 @@ export const questionsToCasesMapping = {
       "case_id": "sefaz-pmo-governance",
       "score": 98
     },
+    "0_alt1": {
+      "case_id": "hsbc-zero-defects",
+      "score": 92
+    },
+    "0_alt2": {
+      "case_id": "sicredi-payment-sla",
+      "score": 88
+    },
     "1": {
       "case_id": "sefaz-pmo-governance",
       "score": 98
+    },
+    "1_alt1": {
+      "case_id": "hsbc-zero-defects",
+      "score": 90
     },
     "2": {
       "case_id": "sefaz-pmo-governance",
@@ -585,6 +613,10 @@ export const questionsToCasesMapping = {
       "case_id": "unimed-telemedicine-redo-for-excellence",
       "score": 95
     },
+    "4_alt1": {
+      "case_id": "sicredi-payment-sla",
+      "score": 90
+    },
     "5": {
       "case_id": "reject-mediocre-work-procergs",
       "score": 85
@@ -593,6 +625,10 @@ export const questionsToCasesMapping = {
       "case_id": "sefaz-pmo-governance",
       "score": 92
     },
+    "6_alt1": {
+      "case_id": "hsbc-zero-defects",
+      "score": 88
+    },
     "7": {
       "case_id": "reject-mediocre-work-procergs",
       "score": 90
@@ -600,6 +636,10 @@ export const questionsToCasesMapping = {
     "8": {
       "case_id": "unimed-telemedicine-redo-for-excellence",
       "score": 90
+    },
+    "8_alt1": {
+      "case_id": "sicredi-payment-sla",
+      "score": 85
     },
     "9": {
       "case_id": "reject-mediocre-work-procergs",
@@ -614,6 +654,10 @@ export const questionsToCasesMapping = {
     "0": {
       "case_id": "unimed-ecosystem-transformation",
       "score": 98
+    },
+    "0_alt1": {
+      "case_id": "huawei-global-rollout",
+      "score": 90
     },
     "1": {
       "case_id": "unimed-ecosystem-transformation",

@@ -1,45 +1,16 @@
 {
   "totalCases": 68,
-  "totalMapped": 61,
-  "totalUnmapped": 2,
-  "insufficientMapping": [
+  "totalMapped": 68,
+  "totalUnmapped": 0,
+  "insufficientMapping": [],
+  "wellMapped": [
     {
       "lp": "Customer Obsession",
       "caseId": "unimed-customer-experience",
-      "count": 2,
+      "count": 3,
       "isTopCase": false,
       "file": "customer_obsession_case1.js"
     },
-    {
-      "lp": "Are Right, A Lot",
-      "caseId": "sicredi-api-pricing-model",
-      "count": 2,
-      "isTopCase": false,
-      "file": "are_right_a_lot_case3.js"
-    },
-    {
-      "lp": "Are Right, A Lot",
-      "caseId": "sicredi-wrong-fraud-model-pivot",
-      "count": 2,
-      "isTopCase": false,
-      "file": "are_right_a_lot_case4.js"
-    },
-    {
-      "lp": "Hire and Develop the Best",
-      "caseId": "huawei-project-managers-mentoring",
-      "count": 2,
-      "isTopCase": false,
-      "file": "hire_and_develop_the_best_case1.js"
-    },
-    {
-      "lp": "Think Big",
-      "caseId": "huawei-global-rollout",
-      "count": 2,
-      "isTopCase": false,
-      "file": "think_big_case1.js"
-    }
-  ],
-  "wellMapped": [
     {
       "lp": "Customer Obsession",
       "caseId": "bradesco-next-customer-ritual",
@@ -167,6 +138,20 @@
       "file": "are_right_a_lot_case2.js"
     },
     {
+      "lp": "Are Right, A Lot",
+      "caseId": "sicredi-api-pricing-model",
+      "count": 3,
+      "isTopCase": false,
+      "file": "are_right_a_lot_case3.js"
+    },
+    {
+      "lp": "Are Right, A Lot",
+      "caseId": "sicredi-wrong-fraud-model-pivot",
+      "count": 3,
+      "isTopCase": false,
+      "file": "are_right_a_lot_case4.js"
+    },
+    {
       "lp": "Learn and Be Curious",
       "caseId": "unimed-harvard-healthcare-innovation",
       "count": 5,
@@ -203,6 +188,13 @@
     },
     {
       "lp": "Hire and Develop the Best",
+      "caseId": "huawei-project-managers-mentoring",
+      "count": 3,
+      "isTopCase": false,
+      "file": "hire_and_develop_the_best_case1.js"
+    },
+    {
+      "lp": "Hire and Develop the Best",
       "caseId": "bradesco-talent-pipeline-creation",
       "count": 3,
       "isTopCase": false,
@@ -217,10 +209,24 @@
     },
     {
       "lp": "Insist on the Highest Standards",
+      "caseId": "hsbc-zero-defects",
+      "count": 3,
+      "isTopCase": false,
+      "file": "insist_on_highest_standards_case1.js"
+    },
+    {
+      "lp": "Insist on the Highest Standards",
       "caseId": "sefaz-pmo-governance",
       "count": 5,
       "isTopCase": true,
       "file": "insist_on_highest_standards_case2.js"
+    },
+    {
+      "lp": "Insist on the Highest Standards",
+      "caseId": "sicredi-payment-sla",
+      "count": 3,
+      "isTopCase": false,
+      "file": "insist_on_highest_standards_case3.js"
     },
     {
       "lp": "Insist on the Highest Standards",
@@ -235,6 +241,13 @@
       "count": 3,
       "isTopCase": false,
       "file": "insist_on_highest_standards_case5.js"
+    },
+    {
+      "lp": "Think Big",
+      "caseId": "huawei-global-rollout",
+      "count": 3,
+      "isTopCase": false,
+      "file": "think_big_case1.js"
     },
     {
       "lp": "Think Big",
@@ -474,15 +487,14 @@
       "name": "Customer Obsession",
       "totalCases": 3,
       "unmapped": [],
-      "insufficient": [
+      "insufficient": [],
+      "wellMapped": [
         {
           "caseId": "unimed-customer-experience",
-          "count": 2,
+          "count": 3,
           "isTopCase": false,
           "file": "customer_obsession_case1.js"
-        }
-      ],
-      "wellMapped": [
+        },
         {
           "caseId": "bradesco-next-customer-ritual",
           "count": 4,
@@ -601,20 +613,7 @@
       "name": "Are Right, A Lot",
       "totalCases": 4,
       "unmapped": [],
-      "insufficient": [
-        {
-          "caseId": "sicredi-api-pricing-model",
-          "count": 2,
-          "isTopCase": false,
-          "file": "are_right_a_lot_case3.js"
-        },
-        {
-          "caseId": "sicredi-wrong-fraud-model-pivot",
-          "count": 2,
-          "isTopCase": false,
-          "file": "are_right_a_lot_case4.js"
-        }
-      ],
+      "insufficient": [],
       "wellMapped": [
         {
           "caseId": "sicredi-mobile-first-strategy",
@@ -627,6 +626,18 @@
           "count": 3,
           "isTopCase": false,
           "file": "are_right_a_lot_case2.js"
+        },
+        {
+          "caseId": "sicredi-api-pricing-model",
+          "count": 3,
+          "isTopCase": false,
+          "file": "are_right_a_lot_case3.js"
+        },
+        {
+          "caseId": "sicredi-wrong-fraud-model-pivot",
+          "count": 3,
+          "isTopCase": false,
+          "file": "are_right_a_lot_case4.js"
         }
       ]
     },
@@ -672,15 +683,14 @@
       "name": "Hire and Develop the Best",
       "totalCases": 3,
       "unmapped": [],
-      "insufficient": [
+      "insufficient": [],
+      "wellMapped": [
         {
           "caseId": "huawei-project-managers-mentoring",
-          "count": 2,
+          "count": 3,
           "isTopCase": false,
           "file": "hire_and_develop_the_best_case1.js"
-        }
-      ],
-      "wellMapped": [
+        },
         {
           "caseId": "bradesco-talent-pipeline-creation",
           "count": 3,
@@ -698,25 +708,26 @@
     "insist_on_highest_standards": {
       "name": "Insist on the Highest Standards",
       "totalCases": 5,
-      "unmapped": [
+      "unmapped": [],
+      "insufficient": [],
+      "wellMapped": [
         {
           "caseId": "hsbc-zero-defects",
+          "count": 3,
           "isTopCase": false,
           "file": "insist_on_highest_standards_case1.js"
         },
-        {
-          "caseId": "sicredi-payment-sla",
-          "isTopCase": false,
-          "file": "insist_on_highest_standards_case3.js"
-        }
-      ],
-      "insufficient": [],
-      "wellMapped": [
         {
           "caseId": "sefaz-pmo-governance",
           "count": 5,
           "isTopCase": true,
           "file": "insist_on_highest_standards_case2.js"
+        },
+        {
+          "caseId": "sicredi-payment-sla",
+          "count": 3,
+          "isTopCase": false,
+          "file": "insist_on_highest_standards_case3.js"
         },
         {
           "caseId": "reject-mediocre-work-procergs",
@@ -736,15 +747,14 @@
       "name": "Think Big",
       "totalCases": 4,
       "unmapped": [],
-      "insufficient": [
+      "insufficient": [],
+      "wellMapped": [
         {
           "caseId": "huawei-global-rollout",
-          "count": 2,
+          "count": 3,
           "isTopCase": false,
           "file": "think_big_case1.js"
-        }
-      ],
-      "wellMapped": [
+        },
         {
           "caseId": "unimed-ecosystem-transformation",
           "count": 4,
