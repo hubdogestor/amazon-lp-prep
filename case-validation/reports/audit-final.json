@@ -1,7 +1,7 @@
 {
   "totalCases": 68,
-  "totalMapped": 42,
-  "totalUnmapped": 6,
+  "totalMapped": 46,
+  "totalUnmapped": 4,
   "insufficientMapping": [
     {
       "lp": "Customer Obsession",
@@ -23,20 +23,6 @@
       "count": 2,
       "isTopCase": false,
       "file": "are_right_a_lot_case4.js"
-    },
-    {
-      "lp": "Learn and Be Curious",
-      "caseId": "olibano-blockchain-exploration",
-      "count": 1,
-      "isTopCase": false,
-      "file": "learn_and_be_curious_case3.js"
-    },
-    {
-      "lp": "Learn and Be Curious",
-      "caseId": "out-of-comfort-zone-transparency-portal",
-      "count": 2,
-      "isTopCase": false,
-      "file": "learn_and_be_curious_case5.js"
     },
     {
       "lp": "Hire and Develop the Best",
@@ -259,10 +245,38 @@
     },
     {
       "lp": "Learn and Be Curious",
+      "caseId": "unimed-harvard-healthcare-innovation",
+      "count": 5,
+      "isTopCase": false,
+      "file": "learn_and_be_curious_case1.js"
+    },
+    {
+      "lp": "Learn and Be Curious",
+      "caseId": "bradesco-safe-agile-framework",
+      "count": 5,
+      "isTopCase": false,
+      "file": "learn_and_be_curious_case2.js"
+    },
+    {
+      "lp": "Learn and Be Curious",
+      "caseId": "olibano-blockchain-exploration",
+      "count": 4,
+      "isTopCase": false,
+      "file": "learn_and_be_curious_case3.js"
+    },
+    {
+      "lp": "Learn and Be Curious",
       "caseId": "stay-updated-payments-fintech",
       "count": 6,
       "isTopCase": true,
       "file": "learn_and_be_curious_case4.js"
+    },
+    {
+      "lp": "Learn and Be Curious",
+      "caseId": "out-of-comfort-zone-transparency-portal",
+      "count": 5,
+      "isTopCase": false,
+      "file": "learn_and_be_curious_case5.js"
     },
     {
       "lp": "Hire and Develop the Best",
@@ -610,38 +624,38 @@
     "learn_and_be_curious": {
       "name": "Learn and Be Curious",
       "totalCases": 5,
-      "unmapped": [
+      "unmapped": [],
+      "insufficient": [],
+      "wellMapped": [
         {
           "caseId": "unimed-harvard-healthcare-innovation",
+          "count": 5,
           "isTopCase": false,
           "file": "learn_and_be_curious_case1.js"
         },
         {
           "caseId": "bradesco-safe-agile-framework",
+          "count": 5,
           "isTopCase": false,
           "file": "learn_and_be_curious_case2.js"
-        }
-      ],
-      "insufficient": [
+        },
         {
           "caseId": "olibano-blockchain-exploration",
-          "count": 1,
+          "count": 4,
           "isTopCase": false,
           "file": "learn_and_be_curious_case3.js"
         },
-        {
-          "caseId": "out-of-comfort-zone-transparency-portal",
-          "count": 2,
-          "isTopCase": false,
-          "file": "learn_and_be_curious_case5.js"
-        }
-      ],
-      "wellMapped": [
         {
           "caseId": "stay-updated-payments-fintech",
           "count": 6,
           "isTopCase": true,
           "file": "learn_and_be_curious_case4.js"
+        },
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "count": 5,
+          "isTopCase": false,
+          "file": "learn_and_be_curious_case5.js"
         }
       ]
     },

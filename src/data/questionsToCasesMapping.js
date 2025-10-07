@@ -332,43 +332,132 @@ export const questionsToCasesMapping = {
     }
   },
   "learn_and_be_curious": {
+    // === CASE: unimed-harvard-healthcare-innovation (5 mappings) ===
+    // Q0: Stay updated - Harvard course (98)
+    // Q1: Last thing learned - Value-Based Healthcare (95)
+    // Q4: Curiosity → improvement - 87% framework application (92)
+    // Q6: Better at job - R$4M impact, 22% EBITDA growth (90)
+    // Q7: Knowledge gap - Innovation frameworks from zero (88)
     "0": {
-      "case_id": "stay-updated-payments-fintech",
+      "case_id": "unimed-harvard-healthcare-innovation",
       "score": 98
     },
     "1": {
+      "case_id": "unimed-harvard-healthcare-innovation",
+      "score": 95
+    },
+    "4": {
+      "case_id": "unimed-harvard-healthcare-innovation",
+      "score": 92
+    },
+    "6": {
+      "case_id": "unimed-harvard-healthcare-innovation",
+      "score": 90
+    },
+    "7": {
+      "case_id": "unimed-harvard-healthcare-innovation",
+      "score": 88
+    },
+
+    // === CASE: bradesco-safe-agile-framework (5 mappings) ===
+    // Q0: Stay updated - SAFe cert, first at Bradesco (95)
+    // Q1: Last thing learned - Agile at scale (92)
+    // Q3: Learn quickly - 16h study + 2-day cert (90)
+    // Q7: Knowledge gap - Traditional → agile scaling (88)
+    // Q9: Different area - Software frameworks → banking (85)
+    "0_alt1": {
+      "case_id": "bradesco-safe-agile-framework",
+      "score": 95
+    },
+    "1_alt1": {
+      "case_id": "bradesco-safe-agile-framework",
+      "score": 92
+    },
+    "3": {
+      "case_id": "bradesco-safe-agile-framework",
+      "score": 90
+    },
+    "7_alt1": {
+      "case_id": "bradesco-safe-agile-framework",
+      "score": 88
+    },
+    "9": {
+      "case_id": "bradesco-safe-agile-framework",
+      "score": 85
+    },
+
+    // === CASE: olibano-blockchain-exploration (4 mappings) ===
+    // Q0: Stay updated - MIT blockchain course (92)
+    // Q1: Last learned - Blockchain tech, saved R$800k (90)
+    // Q7: Knowledge gap - Evaluated R$800k investment (88)
+    // Q8: Explore when busy - 120h while running company (85)
+    "0_alt2": {
+      "case_id": "olibano-blockchain-exploration",
+      "score": 92
+    },
+    "1_alt2": {
+      "case_id": "olibano-blockchain-exploration",
+      "score": 90
+    },
+    "7_alt2": {
+      "case_id": "olibano-blockchain-exploration",
+      "score": 88
+    },
+    "8": {
       "case_id": "olibano-blockchain-exploration",
       "score": 85
     },
-    "2": {
+
+    // === CASE: out-of-comfort-zone-transparency-portal (5 mappings) ===
+    // Q0: Stay updated - 80h LGPD study (90)
+    // Q2: Out of comfort zone - First government project (98)
+    // Q3: Learn quickly - 80h in 3 weeks (88)
+    // Q5: Seemingly impossible - 2019/2021 failed attempts (85)
+    // Q7: Knowledge gap - LGPD/K-anonymity from zero (90)
+    "0_alt3": {
       "case_id": "out-of-comfort-zone-transparency-portal",
       "score": 90
     },
-    "3": {
-      "case_id": "stay-updated-payments-fintech",
-      "score": 92
+    "2": {
+      "case_id": "out-of-comfort-zone-transparency-portal",
+      "score": 98
     },
-    "4": {
-      "case_id": "stay-updated-payments-fintech",
-      "score": 95
+    "3_alt1": {
+      "case_id": "out-of-comfort-zone-transparency-portal",
+      "score": 88
     },
     "5": {
       "case_id": "out-of-comfort-zone-transparency-portal",
       "score": 85
     },
-    "6": {
+    "7_alt3": {
+      "case_id": "out-of-comfort-zone-transparency-portal",
+      "score": 90
+    },
+
+    // === CASE: stay-updated-payments-fintech (6 mappings - TOP CASE) ===
+    // Existing mappings maintained
+    "0_alt4": {
+      "case_id": "stay-updated-payments-fintech",
+      "score": 98
+    },
+    "3_alt2": {
+      "case_id": "stay-updated-payments-fintech",
+      "score": 92
+    },
+    "4_alt1": {
+      "case_id": "stay-updated-payments-fintech",
+      "score": 95
+    },
+    "6_alt1": {
       "case_id": "stay-updated-payments-fintech",
       "score": 90
     },
-    "7": {
+    "7_alt4": {
       "case_id": "stay-updated-payments-fintech",
       "score": 88
     },
-    "8": {
-      "case_id": "bradesco-safe-agile-methodology",
-      "score": 85
-    },
-    "9": {
+    "9_alt1": {
       "case_id": "stay-updated-payments-fintech",
       "score": 85
     }
