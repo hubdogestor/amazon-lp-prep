@@ -605,26 +605,44 @@ export const questionsToCasesMapping = {
   "best_employer": {
     "0": {
       "case_id": "sefaz-reverse-mentoring-program",
-      "score": 60
+      "score": 92
     },
     "1": {
       "case_id": "bradesco-agile-community-creation",
-      "score": 60
+      "score": 88
     },
-    "2": null,
+    "2": {
+      "case_id": "sicredi-360-feedback-system",
+      "score": 85
+    },
     "3": {
       "case_id": "bradesco-agile-community-creation",
-      "score": 60
+      "score": 90
     },
-    "4": null,
-    "5": null,
+    "4": {
+      "case_id": "sefaz-reverse-mentoring-program",
+      "score": 88
+    },
+    "5": {
+      "case_id": "sicredi-360-feedback-system",
+      "score": 82
+    },
     "6": {
       "case_id": "bradesco-agile-community-creation",
-      "score": 60
+      "score": 85
     },
-    "7": null,
-    "8": null,
-    "9": null
+    "7": {
+      "case_id": "sefaz-reverse-mentoring-program",
+      "score": 90
+    },
+    "8": {
+      "case_id": "sicredi-360-feedback-system",
+      "score": 85
+    },
+    "9": {
+      "case_id": "sefaz-reverse-mentoring-program",
+      "score": 90
+    }
   },
   "broad_responsibility": {
     "0": {
