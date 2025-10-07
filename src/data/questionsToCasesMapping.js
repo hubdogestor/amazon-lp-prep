@@ -227,22 +227,49 @@ export const questionsToCasesMapping = {
   },
   "hire_and_develop_the_best": {
     "0": {
-      "case_id": "unimed-underperformer-development",
-      "score": 60
+      "case_id": "huawei-project-managers-mentoring",
+      "score": 92
     },
-    "1": null,
-    "2": null,
-    "3": {
+    "1": {
+      "case_id": "huawei-project-managers-mentoring",
+      "score": 90
+    },
+    "2": {
       "case_id": "bradesco-talent-pipeline-creation",
-      "score": 50
+      "score": 88
     },
-    "4": null,
-    "5": null,
-    "6": null,
-    "7": null,
-    "8": null,
-    "9": null,
-    "10": null
+    "3": {
+      "case_id": "huawei-project-managers-mentoring",
+      "score": 90
+    },
+    "4": {
+      "case_id": "bradesco-talent-pipeline-creation",
+      "score": 85
+    },
+    "5": {
+      "case_id": "huawei-project-managers-mentoring",
+      "score": 92
+    },
+    "6": {
+      "case_id": "bradesco-talent-pipeline-creation",
+      "score": 90
+    },
+    "7": {
+      "case_id": "unimed-underperformer-development",
+      "score": 82
+    },
+    "8": {
+      "case_id": "huawei-project-managers-mentoring",
+      "score": 90
+    },
+    "9": {
+      "case_id": "unimed-underperformer-development",
+      "score": 85
+    },
+    "10": {
+      "case_id": "huawei-project-managers-mentoring",
+      "score": 92
+    }
   },
   "insist_on_highest_standards": {
     "0": {
@@ -292,8 +319,8 @@ export const questionsToCasesMapping = {
   },
   "think_big": {
     "0": {
-      "case_id": "unimed-ecosystem-transformation",
-      "score": 50
+      "case_id": "huawei-global-rollout",
+      "score": 90
     },
     "1": {
       "case_id": "unimed-ecosystem-transformation",
@@ -304,34 +331,40 @@ export const questionsToCasesMapping = {
       "score": 90
     },
     "3": {
-      "case_id": "unimed-ecosystem-transformation",
-      "score": 50
+      "case_id": "game-changing-program",
+      "score": 88
     },
     "4": {
-      "case_id": "unimed-ecosystem-transformation",
-      "score": 45
+      "case_id": "bradesco-paas-latam",
+      "score": 85
     },
     "5": {
-      "case_id": "unimed-ecosystem-transformation",
-      "score": 50
+      "case_id": "huawei-global-rollout",
+      "score": 88
     },
     "6": {
       "case_id": "bradesco-paas-latam",
       "score": 85
     },
-    "7": null,
+    "7": {
+      "case_id": "game-changing-program",
+      "score": 90
+    },
     "8": {
       "case_id": "unimed-ecosystem-transformation",
-      "score": 70
+      "score": 85
     },
     "9": {
-      "case_id": "unimed-ecosystem-transformation",
-      "score": 50
-    },
-    "10": null,
-    "11": {
       "case_id": "bradesco-paas-latam",
-      "score": 75
+      "score": 82
+    },
+    "10": {
+      "case_id": "game-changing-program",
+      "score": 92
+    },
+    "11": {
+      "case_id": "huawei-global-rollout",
+      "score": 90
     }
   },
   "bias_for_action": {
@@ -650,29 +683,41 @@ export const questionsToCasesMapping = {
       "score": 100
     },
     "1": {
-      "case_id": "sicredi-responsible-ai-policy",
-      "score": 70
+      "case_id": "unimed-lgpd-compliance",
+      "score": 88
     },
     "2": {
       "case_id": "sicredi-responsible-ai-policy",
       "score": 100
     },
-    "3": null,
+    "3": {
+      "case_id": "hsbc-fatca-aml-migration",
+      "score": 90
+    },
     "4": {
       "case_id": "sicredi-responsible-ai-policy",
-      "score": 70
+      "score": 85
     },
-    "5": null,
-    "6": null,
+    "5": {
+      "case_id": "unimed-lgpd-compliance",
+      "score": 85
+    },
+    "6": {
+      "case_id": "hsbc-fatca-aml-migration",
+      "score": 88
+    },
     "7": {
       "case_id": "sicredi-responsible-ai-policy",
-      "score": 70
+      "score": 82
     },
     "8": {
-      "case_id": "sicredi-responsible-ai-policy",
-      "score": 70
+      "case_id": "unimed-lgpd-compliance",
+      "score": 90
     },
-    "9": null
+    "9": {
+      "case_id": "hsbc-fatca-aml-migration",
+      "score": 92
+    }
   }
 };
 
