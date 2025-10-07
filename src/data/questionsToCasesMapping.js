@@ -378,90 +378,102 @@ export const questionsToCasesMapping = {
   },
   "frugality": {
     "0": {
-      "case_id": "huawei-resource-optimization",
-      "score": 60
+      "case_id": "sefaz-zero-budget-pmo",
+      "score": 92
     },
     "1": {
       "case_id": "huawei-resource-optimization",
-      "score": 60
+      "score": 85
     },
     "2": {
       "case_id": "huawei-resource-optimization",
-      "score": 75
+      "score": 85
     },
     "3": {
       "case_id": "sefaz-zero-budget-pmo",
-      "score": 50
+      "score": 95
     },
     "4": {
       "case_id": "sefaz-zero-budget-pmo",
-      "score": 80
+      "score": 88
     },
     "5": {
       "case_id": "huawei-resource-optimization",
-      "score": 60
+      "score": 92
     },
     "6": {
-      "case_id": "sefaz-zero-budget-pmo",
-      "score": 75
+      "case_id": "unimed-automation-n8n",
+      "score": 85
     },
-    "7": null,
+    "7": {
+      "case_id": "unimed-automation-n8n",
+      "score": 80
+    },
     "8": {
-      "case_id": "sefaz-zero-budget-pmo",
-      "score": 50
+      "case_id": "unimed-automation-n8n",
+      "score": 93
     },
     "9": {
-      "case_id": "huawei-resource-optimization",
-      "score": 60
+      "case_id": "unimed-automation-n8n",
+      "score": 82
     },
     "10": {
-      "case_id": "huawei-resource-optimization",
-      "score": 60
+      "case_id": "unimed-automation-n8n",
+      "score": 85
     }
   },
   "earn_trust": {
     "0": {
       "case_id": "hard-feedback-leadership-style",
-      "score": 75
+      "score": 85
     },
     "1": {
       "case_id": "hard-feedback-leadership-style",
-      "score": 65
+      "score": 85
     },
     "2": {
       "case_id": "sicredi-post-mortem-transparency",
-      "score": 50
+      "score": 95
     },
     "3": {
       "case_id": "hard-feedback-leadership-style",
-      "score": 60
+      "score": 90
     },
-    "4": null,
+    "4": {
+      "case_id": "disagreement-with-manager-sla",
+      "score": 82
+    },
     "5": {
-      "case_id": "hard-feedback-leadership-style",
-      "score": 60
-    },
-    "6": null,
-    "7": {
       "case_id": "sicredi-post-mortem-transparency",
-      "score": 50
+      "score": 90
+    },
+    "6": {
+      "case_id": "hsbc-bacen-communication",
+      "score": 82
+    },
+    "7": {
+      "case_id": "bradesco-partner-recovery",
+      "score": 85
     },
     "8": {
       "case_id": "sicredi-post-mortem-transparency",
-      "score": 50
+      "score": 95
     },
-    "9": null,
+    "9": {
+      "case_id": "bradesco-partner-recovery",
+      "score": 85
+    },
     "10": {
       "case_id": "sicredi-post-mortem-transparency",
-      "score": 75
+      "score": 95
     },
     "11": {
-      "case_id": "sicredi-post-mortem-transparency",
-      "score": 50
+      "case_id": "hsbc-bacen-communication",
+      "score": 80
     },
     "12": {
-      "case_id": "sicredi-post-mortem-transparency",
-      "score": 50
+      "case_id": "hard-feedback-leadership-style",
+      "score": 88
     }
   },
   "dive_deep": {
