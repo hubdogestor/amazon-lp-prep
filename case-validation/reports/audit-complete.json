@@ -1,0 +1,475 @@
+{
+  "totalCases": 80,
+  "totalMapped": 0,
+  "totalUnmapped": 80,
+  "topCasesUnmapped": [
+    {
+      "lp": "Customer Obsession",
+      "caseId": "customer_obsession_case2"
+    },
+    {
+      "lp": "Ownership",
+      "caseId": "ownership_case1"
+    },
+    {
+      "lp": "Invent and Simplify",
+      "caseId": "invent_and_simplify_case3"
+    },
+    {
+      "lp": "Are Right, A Lot",
+      "caseId": "are_right_a_lot_case1"
+    },
+    {
+      "lp": "Learn and Be Curious",
+      "caseId": "learn_and_be_curious_case4"
+    },
+    {
+      "lp": "Hire and Develop the Best",
+      "caseId": "hire_and_develop_the_best_case3"
+    },
+    {
+      "lp": "Think Big",
+      "caseId": "think_big_case2"
+    },
+    {
+      "lp": "Bias for Action",
+      "caseId": "bias_for_action_case4"
+    },
+    {
+      "lp": "Frugality",
+      "caseId": "frugality_case2"
+    },
+    {
+      "lp": "Earn Trust",
+      "caseId": "earn_trust_case4"
+    },
+    {
+      "lp": "Dive Deep",
+      "caseId": "dive_deep_case1"
+    },
+    {
+      "lp": "Deliver Results",
+      "caseId": "deliver_results_case1"
+    }
+  ],
+  "insufficientMapping": [],
+  "wellMapped": [],
+  "byLP": {
+    "customer_obsession": {
+      "name": "Customer Obsession",
+      "totalCases": 5,
+      "unmapped": [
+        {
+          "caseId": "customer_obsession_case1",
+          "isTopCase": false
+        },
+        {
+          "caseId": "customer_obsession_case2",
+          "isTopCase": true
+        },
+        {
+          "caseId": "customer_obsession_case3",
+          "isTopCase": false
+        },
+        {
+          "caseId": "customer_obsession_config",
+          "isTopCase": false
+        },
+        {
+          "caseId": "index",
+          "isTopCase": false
+        }
+      ],
+      "insufficient": [],
+      "wellMapped": []
+    },
+    "ownership": {
+      "name": "Ownership",
+      "totalCases": 10,
+      "unmapped": [
+        {
+          "caseId": "index",
+          "isTopCase": false
+        },
+        {
+          "caseId": "ownership_case1",
+          "isTopCase": true
+        },
+        {
+          "caseId": "ownership_case2",
+          "isTopCase": false
+        },
+        {
+          "caseId": "ownership_case3",
+          "isTopCase": false
+        },
+        {
+          "caseId": "ownership_case4",
+          "isTopCase": false
+        },
+        {
+          "caseId": "ownership_case5",
+          "isTopCase": false
+        },
+        {
+          "caseId": "ownership_case6",
+          "isTopCase": false
+        },
+        {
+          "caseId": "ownership_case7",
+          "isTopCase": false
+        },
+        {
+          "caseId": "ownership_case8",
+          "isTopCase": false
+        },
+        {
+          "caseId": "ownership_config",
+          "isTopCase": false
+        }
+      ],
+      "insufficient": [],
+      "wellMapped": []
+    },
+    "invent_and_simplify": {
+      "name": "Invent and Simplify",
+      "totalCases": 8,
+      "unmapped": [
+        {
+          "caseId": "index",
+          "isTopCase": false
+        },
+        {
+          "caseId": "invent_and_simplify_case1",
+          "isTopCase": false
+        },
+        {
+          "caseId": "invent_and_simplify_case2",
+          "isTopCase": false
+        },
+        {
+          "caseId": "invent_and_simplify_case3",
+          "isTopCase": true
+        },
+        {
+          "caseId": "invent_and_simplify_case4",
+          "isTopCase": false
+        },
+        {
+          "caseId": "invent_and_simplify_case5",
+          "isTopCase": false
+        },
+        {
+          "caseId": "invent_and_simplify_case6",
+          "isTopCase": false
+        },
+        {
+          "caseId": "invent_and_simplify_config",
+          "isTopCase": false
+        }
+      ],
+      "insufficient": [],
+      "wellMapped": []
+    },
+    "are_right_a_lot": {
+      "name": "Are Right, A Lot",
+      "totalCases": 6,
+      "unmapped": [
+        {
+          "caseId": "are_right_a_lot_case1",
+          "isTopCase": true
+        },
+        {
+          "caseId": "are_right_a_lot_case2",
+          "isTopCase": false
+        },
+        {
+          "caseId": "are_right_a_lot_case3",
+          "isTopCase": false
+        },
+        {
+          "caseId": "are_right_a_lot_case4",
+          "isTopCase": false
+        },
+        {
+          "caseId": "are_right_a_lot_config",
+          "isTopCase": false
+        },
+        {
+          "caseId": "index",
+          "isTopCase": false
+        }
+      ],
+      "insufficient": [],
+      "wellMapped": []
+    },
+    "learn_and_be_curious": {
+      "name": "Learn and Be Curious",
+      "totalCases": 7,
+      "unmapped": [
+        {
+          "caseId": "index",
+          "isTopCase": false
+        },
+        {
+          "caseId": "learn_and_be_curious_case1",
+          "isTopCase": false
+        },
+        {
+          "caseId": "learn_and_be_curious_case2",
+          "isTopCase": false
+        },
+        {
+          "caseId": "learn_and_be_curious_case3",
+          "isTopCase": false
+        },
+        {
+          "caseId": "learn_and_be_curious_case4",
+          "isTopCase": true
+        },
+        {
+          "caseId": "learn_and_be_curious_case5",
+          "isTopCase": false
+        },
+        {
+          "caseId": "learn_and_be_curious_config",
+          "isTopCase": false
+        }
+      ],
+      "insufficient": [],
+      "wellMapped": []
+    },
+    "hire_and_develop_the_best": {
+      "name": "Hire and Develop the Best",
+      "totalCases": 5,
+      "unmapped": [
+        {
+          "caseId": "hire_and_develop_the_best_case1",
+          "isTopCase": false
+        },
+        {
+          "caseId": "hire_and_develop_the_best_case2",
+          "isTopCase": false
+        },
+        {
+          "caseId": "hire_and_develop_the_best_case3",
+          "isTopCase": true
+        },
+        {
+          "caseId": "hire_and_develop_the_best_config",
+          "isTopCase": false
+        },
+        {
+          "caseId": "index",
+          "isTopCase": false
+        }
+      ],
+      "insufficient": [],
+      "wellMapped": []
+    },
+    "think_big": {
+      "name": "Think Big",
+      "totalCases": 6,
+      "unmapped": [
+        {
+          "caseId": "index",
+          "isTopCase": false
+        },
+        {
+          "caseId": "think_big_case1",
+          "isTopCase": false
+        },
+        {
+          "caseId": "think_big_case2",
+          "isTopCase": true
+        },
+        {
+          "caseId": "think_big_case3",
+          "isTopCase": false
+        },
+        {
+          "caseId": "think_big_case4",
+          "isTopCase": false
+        },
+        {
+          "caseId": "think_big_config",
+          "isTopCase": false
+        }
+      ],
+      "insufficient": [],
+      "wellMapped": []
+    },
+    "bias_for_action": {
+      "name": "Bias for Action",
+      "totalCases": 8,
+      "unmapped": [
+        {
+          "caseId": "bias_for_action_case1",
+          "isTopCase": false
+        },
+        {
+          "caseId": "bias_for_action_case2",
+          "isTopCase": false
+        },
+        {
+          "caseId": "bias_for_action_case3",
+          "isTopCase": false
+        },
+        {
+          "caseId": "bias_for_action_case4",
+          "isTopCase": true
+        },
+        {
+          "caseId": "bias_for_action_case5",
+          "isTopCase": false
+        },
+        {
+          "caseId": "bias_for_action_case6",
+          "isTopCase": false
+        },
+        {
+          "caseId": "bias_for_action_config",
+          "isTopCase": false
+        },
+        {
+          "caseId": "index",
+          "isTopCase": false
+        }
+      ],
+      "insufficient": [],
+      "wellMapped": []
+    },
+    "frugality": {
+      "name": "Frugality",
+      "totalCases": 5,
+      "unmapped": [
+        {
+          "caseId": "frugality_case1",
+          "isTopCase": false
+        },
+        {
+          "caseId": "frugality_case2",
+          "isTopCase": true
+        },
+        {
+          "caseId": "frugality_case3",
+          "isTopCase": false
+        },
+        {
+          "caseId": "frugality_config",
+          "isTopCase": false
+        },
+        {
+          "caseId": "index",
+          "isTopCase": false
+        }
+      ],
+      "insufficient": [],
+      "wellMapped": []
+    },
+    "earn_trust": {
+      "name": "Earn Trust",
+      "totalCases": 7,
+      "unmapped": [
+        {
+          "caseId": "earn_trust_case1",
+          "isTopCase": false
+        },
+        {
+          "caseId": "earn_trust_case2",
+          "isTopCase": false
+        },
+        {
+          "caseId": "earn_trust_case3",
+          "isTopCase": false
+        },
+        {
+          "caseId": "earn_trust_case4",
+          "isTopCase": true
+        },
+        {
+          "caseId": "earn_trust_case5",
+          "isTopCase": false
+        },
+        {
+          "caseId": "earn_trust_config",
+          "isTopCase": false
+        },
+        {
+          "caseId": "index",
+          "isTopCase": false
+        }
+      ],
+      "insufficient": [],
+      "wellMapped": []
+    },
+    "dive_deep": {
+      "name": "Dive Deep",
+      "totalCases": 6,
+      "unmapped": [
+        {
+          "caseId": "dive_deep_case1",
+          "isTopCase": true
+        },
+        {
+          "caseId": "dive_deep_case2",
+          "isTopCase": false
+        },
+        {
+          "caseId": "dive_deep_case3",
+          "isTopCase": false
+        },
+        {
+          "caseId": "dive_deep_case4",
+          "isTopCase": false
+        },
+        {
+          "caseId": "dive_deep_config",
+          "isTopCase": false
+        },
+        {
+          "caseId": "index",
+          "isTopCase": false
+        }
+      ],
+      "insufficient": [],
+      "wellMapped": []
+    },
+    "deliver_results": {
+      "name": "Deliver Results",
+      "totalCases": 7,
+      "unmapped": [
+        {
+          "caseId": "deliver_results_case1",
+          "isTopCase": true
+        },
+        {
+          "caseId": "deliver_results_case2",
+          "isTopCase": false
+        },
+        {
+          "caseId": "deliver_results_case3",
+          "isTopCase": false
+        },
+        {
+          "caseId": "deliver_results_case4",
+          "isTopCase": false
+        },
+        {
+          "caseId": "deliver_results_case5",
+          "isTopCase": false
+        },
+        {
+          "caseId": "deliver_results_config",
+          "isTopCase": false
+        },
+        {
+          "caseId": "index",
+          "isTopCase": false
+        }
+      ],
+      "insufficient": [],
+      "wellMapped": []
+    }
+  }
+}
