@@ -33,7 +33,7 @@ export const questionsToCasesMapping = {
       "score": 85
     },
     "7": {
-      "case_id": "sicredi-gateway-consumer-experience",
+      "case_id": "sicredi-frictionless-checkout",
       "score": 90
     },
     "8": {
