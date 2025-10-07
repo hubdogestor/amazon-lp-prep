@@ -243,14 +243,26 @@ export const questionsToCasesMapping = {
       "case_id": "sefaz-pmo-governance",
       "score": 60
     },
-    "1": null,
-    "2": null,
+    "1": {
+      "case_id": "sefaz-pmo-governance",
+      "score": 70
+    },
+    "2": {
+      "case_id": "reject-mediocre-work-procergs",
+      "score": 95
+    },
     "3": {
       "case_id": "sefaz-pmo-governance",
       "score": 60
     },
-    "4": null,
-    "5": null,
+    "4": {
+      "case_id": "unimed-telemedicine-redo-for-excellence",
+      "score": 95
+    },
+    "5": {
+      "case_id": "reject-mediocre-work-procergs",
+      "score": 85
+    },
     "6": {
       "case_id": "sicredi-payment-sla",
       "score": 45
@@ -259,9 +271,18 @@ export const questionsToCasesMapping = {
       "case_id": "hsbc-zero-defects",
       "score": 60
     },
-    "8": null,
-    "9": null,
-    "10": null
+    "8": {
+      "case_id": "hsbc-zero-defects",
+      "score": 90
+    },
+    "9": {
+      "case_id": "reject-mediocre-work-procergs",
+      "score": 80
+    },
+    "10": {
+      "case_id": "sicredi-payment-sla",
+      "score": 85
+    }
   },
   "think_big": {
     "0": {

@@ -719,22 +719,22 @@
     "priority": "NORMAL",
     "question_pt": "Conte sobre uma vez que você elevou a barra de qualidade",
     "question_en": "Tell me about a time you raised the quality bar",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Estabelecimento de Padrão 'Zero Data Loss' em Migração de US$ 5.2B\" (score 40/100). Case do LP correto (insist_on_highest_standards)"
+    "has_case": "sim",
+    "case_id": "sefaz-pmo-governance",
+    "case_title": "Elevei o Padrao do PMO da SEFAZ com Foco em Valor ao Cidadao",
+    "score": 70,
+    "reasoning": "Case do LP correto (insist_on_highest_standards); Elevou padrões PMO (63% estouro→5% tolerância); 1 keyword presente; Contexto de liderança/equipe alinhado; Conceito alinhado (+10)"
   },
   {
     "lp": "insist_on_highest_standards",
     "priority": "NORMAL",
     "question_pt": "Me fale sobre quando você não aceitou um trabalho medíocre",
     "question_en": "Tell me about when you didn't accept mediocre work",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Estabelecimento de Padrão 'Zero Data Loss' em Migração de US$ 5.2B\" (score 40/100). Case do LP correto (insist_on_highest_standards)"
+    "has_case": "sim",
+    "case_id": "reject-mediocre-work-procergs",
+    "case_title": "Rejeitei Entrega da PROCERGS e Institui Quality Gate Zero Falhas",
+    "score": 95,
+    "reasoning": "Case do LP correto (insist_on_highest_standards); PERFEITO para pergunta - rejeitou 74 defeitos PROCERGS, congelou aceite; 2 keywords presentes; Conceito alinhado (+10)"
   },
   {
     "lp": "insist_on_highest_standards",
@@ -752,22 +752,22 @@
     "priority": "NORMAL",
     "question_pt": "Descreva uma situação onde você teve que refazer algo para atingir excelência",
     "question_en": "Describe a situation where you had to redo something to achieve excellence",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Estabelecimento de Padrão 'Zero Data Loss' em Migração de US$ 5.2B\" (score 40/100). Case do LP correto (insist_on_highest_standards)"
+    "has_case": "sim",
+    "case_id": "unimed-telemedicine-redo-for-excellence",
+    "case_title": "Refiz Plataforma de Telemedicina do Zero Após NPS 28 para Atingir Padrão de Excelência (NPS 84)",
+    "score": 95,
+    "reasoning": "Case do LP correto (insist_on_highest_standards); PERFEITO - pausou plataforma, admitiu falha, refez do zero; NPS 28→84; 2 keywords presentes; Conceito alinhado (+10)"
   },
   {
     "lp": "insist_on_highest_standards",
     "priority": "NORMAL",
     "question_pt": "Me dê um exemplo de quando você implementou um processo de qualidade",
     "question_en": "Give me an example of when you implemented a quality process",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Estabelecimento de Padrão 'Zero Data Loss' em Migração de US$ 5.2B\" (score 40/100). Case do LP correto (insist_on_highest_standards)"
+    "has_case": "sim",
+    "case_id": "reject-mediocre-work-procergs",
+    "case_title": "Rejeitei Entrega da PROCERGS e Institui Quality Gate Zero Falhas",
+    "score": 85,
+    "reasoning": "Case do LP correto (insist_on_highest_standards); Implementou Phoenix Quality Gate (32 critérios, CI/CD, SonarQube); 2 keywords presentes; Conceito alinhado (+10)"
   },
   {
     "lp": "insist_on_highest_standards",
@@ -796,33 +796,33 @@
     "priority": "NORMAL",
     "question_pt": "Me fale sobre uma vez que você teve que escolher entre velocidade e qualidade",
     "question_en": "Tell me about a time you had to choose between speed and quality",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Estabelecimento de Padrão 'Zero Data Loss' em Migração de US$ 5.2B\" (score 40/100). Case do LP correto (insist_on_highest_standards)"
+    "has_case": "sim",
+    "case_id": "hsbc-zero-defects",
+    "case_title": "Estabelecimento de Padrão 'Zero Data Loss' em Migração de US$ 5.2B",
+    "score": 90,
+    "reasoning": "Case do LP correto (insist_on_highest_standards); EXCELENTE - Bradesco queria acelerar aceitando 0.001% loss, rejeitou publicamente; 2 keywords presentes; Conceito alinhado (+10)"
   },
   {
     "lp": "insist_on_highest_standards",
     "priority": "NORMAL",
     "question_pt": "Como você garante que defeitos não passam para frente e problemas ficam resolvidos?",
     "question_en": "How do you ensure defects don't pass forward and problems stay solved?",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Estabelecimento de Padrão 'Zero Data Loss' em Migração de US$ 5.2B\" (score 40/100). Case do LP correto (insist_on_highest_standards)"
+    "has_case": "sim",
+    "case_id": "reject-mediocre-work-procergs",
+    "case_title": "Rejeitei Entrega da PROCERGS e Institui Quality Gate Zero Falhas",
+    "score": 80,
+    "reasoning": "Case do LP correto (insist_on_highest_standards); Phoenix Gate previne defeitos, CI/CD quebra build em falha; 2 keywords presentes; Conceito alinhado (+10)"
   },
   {
     "lp": "insist_on_highest_standards",
     "priority": "NORMAL",
     "question_pt": "Conte sobre quando você estabeleceu um novo padrão que outros achavam impossível de atingir",
     "question_en": "Tell me about when you established a new standard others thought was impossible to achieve",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Estabelecimento de Padrão 'Zero Data Loss' em Migração de US$ 5.2B\" (score 40/100). Case do LP correto (insist_on_highest_standards)"
+    "has_case": "sim",
+    "case_id": "sicredi-payment-sla",
+    "case_title": "Redesenhei o Gateway SICREDI para 99.99% de Disponibilidade",
+    "score": 85,
+    "reasoning": "Case do LP correto (insist_on_highest_standards); Estabeleceu 99.99% quando ninguém BR passava 99.8%, achavam impossível; 2 keywords presentes; Conceito alinhado (+10)"
   },
   {
     "lp": "think_big",
