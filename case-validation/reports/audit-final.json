@@ -28,7 +28,7 @@
     {
       "lp": "Ownership",
       "caseId": "hsbc-migration-leadership",
-      "count": 5,
+      "count": 6,
       "isTopCase": true,
       "file": "ownership_case1.js"
     },
@@ -517,7 +517,7 @@
       "wellMapped": [
         {
           "caseId": "hsbc-migration-leadership",
-          "count": 5,
+          "count": 6,
           "isTopCase": true,
           "file": "ownership_case1.js"
         },

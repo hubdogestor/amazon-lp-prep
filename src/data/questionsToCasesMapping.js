@@ -150,7 +150,7 @@ export const questionsToCasesMapping = {
       "case_id": "hsbc-payment-reconciliation",
       "score": 95
     },
-    "2": {
+    "2_alt3": {
       "case_id": "long-term-tradeoff",
       "score": 95
     },

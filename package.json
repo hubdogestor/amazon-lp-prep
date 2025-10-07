@@ -1,7 +1,7 @@
 {
     "name":  "amazon-lp-prep",
     "private":  true,
-    "version":  "3.0.0",
+    "version":  "3.1.0",
     "type":  "module",
     "homepage": "https://hubdogestor.github.io/amazon-lp-prep",
     "scripts":  {
@@ -13,6 +13,8 @@
                     "test:ui":  "vitest --ui",
                     "test:coverage":  "vitest --coverage",
                     "deploy":  "npm run build \u0026\u0026 gh-pages -d dist",
+                    "audit:final":  "node case-validation/audit-final.mjs",
+                    "audit:complete":  "node case-validation/audit-complete.mjs",
                     "validate:cases":  "node case-validation/analyzer3/index.mjs --validate --data=src/data",
                     "refine:lp":  "node case-validation/analyzer3/index.mjs --refine --data=src/data",
                     "refine:one":  "node case-validation/analyzer3/index.mjs --refine --data=src/data"
