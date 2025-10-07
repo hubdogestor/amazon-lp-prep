@@ -7,10 +7,11 @@ import case4 from './ownership_case4.js';
 import case5 from './ownership_case5.js';
 import case6 from './ownership_case6.js';
 import case7 from './ownership_case7.js';
+import case8 from './ownership_case8.js';
 
 export default {
   principle: config.principle,
   id: config.id,
   name: config.name,
-  cases: [case1, case2, case3, case4, case5, case6, case7]
+  cases: [case1, case2, case3, case4, case5, case6, case7, case8]
 };

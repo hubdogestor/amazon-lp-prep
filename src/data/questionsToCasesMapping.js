@@ -55,20 +55,20 @@ export const questionsToCasesMapping = {
   },
   "ownership": {
     "0": {
-      "case_id": "hsbc-migration-leadership",
-      "score": 55
+      "case_id": "sefaz-emergency-rollback-no-approval",
+      "score": 85
     },
     "1": {
-      "case_id": "hsbc-migration-leadership",
-      "score": 45
+      "case_id": "sicredi-ml-credit-analysis",
+      "score": 85
     },
     "2": {
       "case_id": "long-term-tradeoff",
-      "score": 85
+      "score": 90
     },
     "3": {
-      "case_id": "hsbc-migration-leadership",
-      "score": 45
+      "case_id": "sefaz-emergency-rollback-no-approval",
+      "score": 85
     },
     "4": {
       "case_id": "long-term-tradeoff",
@@ -79,20 +79,20 @@ export const questionsToCasesMapping = {
       "score": 95
     },
     "6": {
-      "case_id": "payment-incidents-prevention-mechanism",
-      "score": 50
+      "case_id": "unimed-ai-authorization",
+      "score": 85
     },
     "7": {
-      "case_id": "hsbc-migration-leadership",
-      "score": 45
+      "case_id": "bradesco-next-delay",
+      "score": 85
     },
     "8": {
       "case_id": "hsbc-migration-leadership",
-      "score": 80
+      "score": 90
     },
     "9": {
       "case_id": "hsbc-payment-reconciliation",
-      "score": 75
+      "score": 85
     }
   },
   "invent_simplify": {
