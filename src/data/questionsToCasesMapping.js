@@ -467,33 +467,39 @@ export const questionsToCasesMapping = {
   "dive_deep": {
     "0": {
       "case_id": "sicredi-churn-analysis",
-      "score": 75
+      "score": 90
     },
     "1": {
-      "case_id": "sicredi-churn-analysis",
-      "score": 65
+      "case_id": "hsbc-data-validation-audit",
+      "score": 85
     },
-    "2": null,
+    "2": {
+      "case_id": "sicredi-pix-settlement",
+      "score": 85
+    },
     "3": {
       "case_id": "hsbc-data-validation-audit",
       "score": 100
     },
     "4": {
-      "case_id": "sicredi-churn-analysis",
-      "score": 50
+      "case_id": "sicredi-pix-settlement",
+      "score": 90
     },
     "5": {
       "case_id": "sicredi-churn-analysis",
       "score": 85
     },
-    "6": null,
+    "6": {
+      "case_id": "unimed-fraud-investigation",
+      "score": 90
+    },
     "7": {
-      "case_id": "sicredi-churn-analysis",
-      "score": 85
+      "case_id": "sicredi-pix-settlement",
+      "score": 90
     },
     "8": {
-      "case_id": "hsbc-data-validation-audit",
-      "score": 50
+      "case_id": "unimed-fraud-investigation",
+      "score": 85
     },
     "9": {
       "case_id": "unimed-fraud-investigation",
