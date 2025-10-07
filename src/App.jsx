@@ -209,10 +209,13 @@ export default function App() {
       }
     });
     
-    return questionNumbers.sort((a, b) => a - b).map(num => ({
-      number: num,
-      text: language === 'pt' ? questions.pt[num] : questions.en[num]
-    }));
+    return questionNumbers.sort((a, b) => a - b).map(num => {
+      const questionText = language === 'pt' ? questions.pt[num] : questions.en[num];
+      return {
+        number: num,
+        text: questionText || `Question ${num}` // Fallback se texto não existir
+      };
+    }).filter(q => q.text); // Remove questões sem texto
   }, [language]);
 
   // Show loading state when searching
@@ -1063,7 +1066,7 @@ export default function App() {
                   const isTop = isTopCase(c);
                   const caseQuestions = getCaseQuestions(c.id, principle.id);
                   const questionsTooltip = caseQuestions.length > 0
-                    ? `${language === 'pt' ? 'Responde' : 'Answers'} ${caseQuestions.length} ${language === 'pt' ? 'pergunta(s)' : 'question(s)'}: Q${caseQuestions.map(q => q.number).join(', Q')}\n\n${caseQuestions.slice(0, 3).map(q => `Q${q.number}: ${q.text.substring(0, 80)}...`).join('\n')}`
+                    ? `${language === 'pt' ? 'Responde' : 'Answers'} ${caseQuestions.length} ${language === 'pt' ? 'pergunta(s)' : 'question(s)'}: Q${caseQuestions.map(q => q.number).join(', Q')}\n\n${caseQuestions.slice(0, 3).map(q => `Q${q.number}: ${(q.text || '').substring(0, 80)}...`).join('\n')}`
                     : language === 'pt' ? 'Nenhuma pergunta mapeada' : 'No questions mapped';
 
                   return (
