@@ -196,11 +196,21 @@ export default function App() {
 
   // Get questions that this case answers for a given principle
   const getCaseQuestions = useCallback((caseId, principleId) => {
+    // DEBUG: Log para investigar
+    console.log(`🔍 getCaseQuestions called: caseId="${caseId}", principleId="${principleId}"`);
+    
     const principleMapping = questionsToCasesMapping[principleId];
-    if (!principleMapping) return [];
+    if (!principleMapping) {
+      console.log(`❌ principleMapping NOT FOUND for "${principleId}"`);
+      console.log(`   Available keys:`, Object.keys(questionsToCasesMapping));
+      return [];
+    }
     
     const questions = typicalQuestions[principleId];
-    if (!questions) return [];
+    if (!questions) {
+      console.log(`❌ questions NOT FOUND for "${principleId}"`);
+      return [];
+    }
     
     const questionNumbers = [];
     Object.entries(principleMapping).forEach(([qNum, mapping]) => {
@@ -208,6 +218,8 @@ export default function App() {
         questionNumbers.push(parseInt(qNum));
       }
     });
+    
+    console.log(`✅ Found ${questionNumbers.length} questions:`, questionNumbers);
     
     return questionNumbers.sort((a, b) => a - b).map(num => {
       const questionText = language === 'pt' ? questions.pt[num] : questions.en[num];
