@@ -973,10 +973,10 @@
     "question_pt": "Me fale sobre uma decisão que você tomou com informação limitada",
     "question_en": "Tell me about a decision you made with limited information",
     "has_case": "sim",
-    "case_id": "calculated-risk-time-critical",
-    "case_title": "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",
-    "score": 55,
-    "reasoning": "Case do LP correto (bias_for_action); Contexto de decisão sob risco/incerteza"
+    "case_id": "sicredi-fraud-emergency-4h-decision",
+    "case_title": "Tomei Decisão em 4 Horas Sob Fraude Massiva com Dados Incompletos e Salvei R$ 2.3M",
+    "score": 80,
+    "reasoning": "Case do LP correto (bias_for_action); REMAPEADO; 3 sinais em 1h15min (informação limitada); Decisão crítica sob fraude massiva; 2 keywords presentes"
   },
   {
     "lp": "bias_for_action",
@@ -984,43 +984,43 @@
     "question_pt": "Conte sobre uma vez que você agiu rapidamente",
     "question_en": "Tell me about a time you acted quickly",
     "has_case": "sim",
-    "case_id": "bradesco-next-rapid-launch",
-    "case_title": "Decisao Rapida para Lancar o Banco Digital Next em 11 Meses",
-    "score": 50,
-    "reasoning": "Case do LP correto (bias_for_action); 1 keyword presente"
+    "case_id": "sefaz-emergency-tax-portal",
+    "case_title": "Restaurei Portal de Impostos em Emergência com Decisão Rápida sob Pressão",
+    "score": 90,
+    "reasoning": "Case do LP correto (bias_for_action); REMAPEADO; Portal em 18 dias, MVP 5 dias (ação ultra-rápida); 2 keywords presentes; Conceito perfeitamente alinhado (+10)"
   },
   {
     "lp": "bias_for_action",
     "priority": "NORMAL",
     "question_pt": "Como você decide quando é hora de agir vs. analisar mais?",
     "question_en": "How do you decide when it's time to act vs. analyze more?",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Decisao Rapida para Lancar o Banco Digital Next em 11 Meses\" (score 40/100). Case do LP correto (bias_for_action)"
+    "has_case": "sim",
+    "case_id": "bradesco-next-rapid-launch",
+    "case_title": "Classifiquei 126 Decisoes em Two-Way/One-Way Door e Lancei Banco Digital em 11 Meses",
+    "score": 90,
+    "reasoning": "Case do LP correto (bias_for_action); FULL REVIEWED; Decision Quality Threshold framework (custo erro vs. delay); FUP dedicado; Two-way door context (+5)"
   },
   {
     "lp": "bias_for_action",
     "priority": "NORMAL",
     "question_pt": "Descreva uma situação onde velocidade era crítica",
     "question_en": "Describe a situation where speed was critical",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Decisao Rapida para Lancar o Banco Digital Next em 11 Meses\" (score 40/100). Case do LP correto (bias_for_action)"
+    "has_case": "sim",
+    "case_id": "sefaz-emergency-tax-portal",
+    "case_title": "Restaurei Portal de Impostos em Emergência com Decisão Rápida sob Pressão",
+    "score": 90,
+    "reasoning": "Case do LP correto (bias_for_action); Velocidade crítica em situação de emergência; 2 keywords presentes; Conceito alinhado (+10); Título alinhado com pergunta"
   },
   {
     "lp": "bias_for_action",
     "priority": "NORMAL",
     "question_pt": "Me fale sobre quando você foi o primeiro a agir em algo",
     "question_en": "Tell me about when you were the first to act on something",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Decisao Rapida para Lancar o Banco Digital Next em 11 Meses\" (score 40/100). Case do LP correto (bias_for_action)"
+    "has_case": "sim",
+    "case_id": "sicredi-ml-credit-analysis",
+    "case_title": "Fui o Primeiro a Implementar Análise de Crédito com Machine Learning no Sicredi",
+    "score": 85,
+    "reasoning": "Case do LP correto (bias_for_action); FULL REVIEWED; Expandido com resistência cultural (23 anos análise manual); Shadow mode 87%; Analistas viraram embaixadores (+5)"
   },
   {
     "lp": "bias_for_action",
@@ -1029,42 +1029,42 @@
     "question_en": "Describe a time you had to make a reversible decision quickly vs. irreversible with more analysis",
     "has_case": "sim",
     "case_id": "bradesco-next-rapid-launch",
-    "case_title": "Decisao Rapida para Lancar o Banco Digital Next em 11 Meses",
-    "score": 50,
-    "reasoning": "Case do LP correto (bias_for_action); 1 keyword presente"
+    "case_title": "Classifiquei 126 Decisoes em Two-Way/One-Way Door e Lancei Banco Digital em 11 Meses",
+    "score": 90,
+    "reasoning": "Case do LP correto (bias_for_action); FULL REVIEWED; Two-Way Door framework (3 critérios); 79% <24h, 94% accuracy; +20 linhas STAR; 3 FUPs especializados (+40)"
   },
   {
     "lp": "bias_for_action",
     "priority": "NORMAL",
     "question_pt": "Como você equilibra necessidade de dados com necessidade de agir?",
     "question_en": "How do you balance need for data with need to act?",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Decisao Rapida para Lancar o Banco Digital Next em 11 Meses\" (score 40/100). Case do LP correto (bias_for_action)"
+    "has_case": "sim",
+    "case_id": "bradesco-next-rapid-launch",
+    "case_title": "Classifiquei 126 Decisoes em Two-Way/One-Way Door e Lancei Banco Digital em 11 Meses",
+    "score": 90,
+    "reasoning": "Case do LP correto (bias_for_action); FULL REVIEWED; Minimum Confidence Threshold (80% >R$10M, 60% <R$500k); Risk Gate framework; FUP dedicado (+5)"
   },
   {
     "lp": "bias_for_action",
     "priority": "NORMAL",
     "question_pt": "Conte sobre quando você teve que mudar curso/direção de um projeto quando estava 70% completo",
     "question_en": "Tell me about when you had to change course/direction of a project when it was 70% complete",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Decisao Rapida para Lancar o Banco Digital Next em 11 Meses\" (score 40/100). Case do LP correto (bias_for_action)"
+    "has_case": "sim",
+    "case_id": "sefaz-project-pivot-70-percent",
+    "case_title": "Pivotei Projeto 70% Completo Quando Reforma Tributária Obsoletou 40% do Código",
+    "score": 90,
+    "reasoning": "Case do LP correto (bias_for_action); NOVO CASE; Pivot genuíno (70% completo, 40% obsoleto); Impact Matrix (60% reuso); R$800k savings; Pivot Framework 5 steps; 10 FUPs (+10)"
   },
   {
     "lp": "bias_for_action",
     "priority": "NORMAL",
     "question_pt": "Descreva uma situação onde você teve que tomar decisão rápida sobre transação suspeita",
     "question_en": "Describe a situation where you had to make quick decision about suspicious transaction",
-    "has_case": "não",
-    "case_id": "",
-    "case_title": "",
-    "score": 40,
-    "reasoning": "Nenhum case adequado. Melhor disponível: \"Decisao Rapida para Lancar o Banco Digital Next em 11 Meses\" (score 40/100). Case do LP correto (bias_for_action)"
+    "has_case": "sim",
+    "case_id": "sicredi-fraud-emergency-4h-decision",
+    "case_title": "Tomei Decisão em 4 Horas Sob Fraude Massiva com Dados Incompletos e Salvei R$ 2.3M",
+    "score": 90,
+    "reasoning": "Case do LP correto (bias_for_action); NOVO CASE sobre decisão rápida sob fraude; 2 keywords presentes; Contexto de pagamentos/fraude alinhado; Conceito alinhado (+10); Título PERFEITAMENTE alinhado com pergunta"
   },
   {
     "lp": "frugality",

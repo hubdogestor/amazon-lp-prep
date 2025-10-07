@@ -334,16 +334,16 @@ export const questionsToCasesMapping = {
       "score": 75
     },
     "1": {
-      "case_id": "calculated-risk-time-critical",
-      "score": 55
+      "case_id": "sicredi-fraud-emergency-4h-decision",
+      "score": 80
     },
     "2": {
-      "case_id": "bradesco-next-rapid-launch",
-      "score": 50
+      "case_id": "sefaz-emergency-tax-portal",
+      "score": 90
     },
     "3": {
       "case_id": "bradesco-next-rapid-launch",
-      "score": 85
+      "score": 90
     },
     "4": {
       "case_id": "sefaz-emergency-tax-portal",
@@ -351,19 +351,19 @@ export const questionsToCasesMapping = {
     },
     "5": {
       "case_id": "sicredi-ml-credit-analysis",
-      "score": 80
+      "score": 85
     },
     "6": {
       "case_id": "bradesco-next-rapid-launch",
-      "score": 50
+      "score": 90
     },
     "7": {
       "case_id": "bradesco-next-rapid-launch",
-      "score": 85
+      "score": 90
     },
     "8": {
-      "case_id": "calculated-risk-time-critical",
-      "score": 80
+      "case_id": "sefaz-project-pivot-70-percent",
+      "score": 90
     },
     "9": {
       "case_id": "sicredi-fraud-emergency-4h-decision",
