@@ -225,8 +225,8 @@ export const questionsToCasesMapping = {
       "score": 88
     },
     "8": {
-      "case_id": "stay-updated-payments-fintech",
-      "score": 90
+      "case_id": "bradesco-safe-agile-methodology",
+      "score": 85
     },
     "9": {
       "case_id": "stay-updated-payments-fintech",
@@ -263,21 +263,17 @@ export const questionsToCasesMapping = {
       "score": 90
     },
     "7": {
-      "case_id": "unimed-underperformer-development",
-      "score": 82
+      "case_id": "huawei-project-managers-mentoring",
+      "score": 88
     },
     "8": {
       "case_id": "unimed-underperformer-development",
       "score": 92
     },
     "9": {
-      "case_id": "unimed-underperformer-development",
+      "case_id": "bradesco-talent-pipeline-creation",
       "score": 85
     },
-    "10": {
-      "case_id": "huawei-project-managers-mentoring",
-      "score": 92
-    }
   },
   "insist_on_highest_standards": {
     "0": {
@@ -423,8 +419,8 @@ export const questionsToCasesMapping = {
       "score": 95
     },
     "1": {
-      "case_id": "huawei-resource-optimization",
-      "score": 85
+      "case_id": "sefaz-zero-budget-pmo",
+      "score": 92
     },
     "2": {
       "case_id": "huawei-resource-optimization",
@@ -439,8 +435,8 @@ export const questionsToCasesMapping = {
       "score": 95
     },
     "5": {
-      "case_id": "huawei-resource-optimization",
-      "score": 92
+      "case_id": "sefaz-zero-budget-pmo",
+      "score": 88
     },
     "6": {
       "case_id": "unimed-automation-n8n",
@@ -539,8 +535,8 @@ export const questionsToCasesMapping = {
       "score": 98
     },
     "5": {
-      "case_id": "sicredi-churn-analysis",
-      "score": 85
+      "case_id": "sicredi-pix-settlement",
+      "score": 90
     },
     "6": {
       "case_id": "sicredi-churn-analysis",
