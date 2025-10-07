@@ -98,15 +98,15 @@ export const questionsToCasesMapping = {
   "invent_simplify": {
     "0": {
       "case_id": "unimed-ai-authorization",
-      "score": 90
+      "score": 95
     },
     "1": {
-      "case_id": "unimed-open-innovation",
-      "score": 65
+      "case_id": "bradesco-next-compliance-simplification",
+      "score": 85
     },
     "2": {
-      "case_id": "unimed-open-innovation",
-      "score": 65
+      "case_id": "bradesco-next-compliance-simplification",
+      "score": 85
     },
     "3": {
       "case_id": "bradesco-next-compliance-simplification",
@@ -121,20 +121,20 @@ export const questionsToCasesMapping = {
       "score": 80
     },
     "6": {
-      "case_id": "payment-simplification-high-impact",
-      "score": 75
+      "case_id": "huawei-six-sigma-optimization",
+      "score": 90
     },
     "7": {
-      "case_id": "unimed-ai-authorization",
-      "score": 50
+      "case_id": "payment-simplification-high-impact",
+      "score": 90
     },
     "8": {
-      "case_id": "unimed-ai-authorization",
-      "score": 50
+      "case_id": "huawei-six-sigma-optimization",
+      "score": 90
     },
     "9": {
-      "case_id": "unimed-open-innovation",
-      "score": 60
+      "case_id": "sefaz-pix-automation",
+      "score": 85
     }
   },
   "are_right_a_lot": {
