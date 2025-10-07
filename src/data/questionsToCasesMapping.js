@@ -5,8 +5,8 @@
 export const questionsToCasesMapping = {
   "customer_obsession": {
     "0": {
-      "case_id": "bradesco-next-customer-ritual",
-      "score": 85
+      "case_id": "unimed-customer-experience",
+      "score": 90
     },
     "1": {
       "case_id": "bradesco-next-customer-ritual",
@@ -14,38 +14,38 @@ export const questionsToCasesMapping = {
     },
     "2": {
       "case_id": "bradesco-next-customer-ritual",
-      "score": 85
+      "score": 90
     },
     "3": {
-      "case_id": "bradesco-next-customer-ritual",
+      "case_id": "sicredi-gateway-consumer-experience",
       "score": 85
     },
     "4": {
-      "case_id": "bradesco-next-customer-ritual",
+      "case_id": "unimed-customer-experience",
       "score": 90
     },
     "5": {
-      "case_id": "bradesco-next-customer-ritual",
-      "score": 85
+      "case_id": "sicredi-gateway-consumer-experience",
+      "score": 90
     },
     "6": {
-      "case_id": "bradesco-next-customer-ritual",
+      "case_id": "unimed-customer-experience",
       "score": 85
     },
     "7": {
-      "case_id": "bradesco-next-customer-ritual",
-      "score": 85
+      "case_id": "sicredi-gateway-consumer-experience",
+      "score": 90
     },
     "8": {
       "case_id": "bradesco-next-customer-ritual",
-      "score": 85
+      "score": 90
     },
     "9": {
-      "case_id": "bradesco-next-customer-ritual",
+      "case_id": "sicredi-gateway-consumer-experience",
       "score": 85
     },
     "10": {
-      "case_id": "bradesco-next-customer-ritual",
+      "case_id": "unimed-customer-experience",
       "score": 90
     },
     "11": {
