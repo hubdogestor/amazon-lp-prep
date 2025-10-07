@@ -1,6 +1,6 @@
 {
   "totalCases": 68,
-  "totalMapped": 48,
+  "totalMapped": 61,
   "totalUnmapped": 2,
   "insufficientMapping": [
     {
@@ -37,97 +37,6 @@
       "count": 2,
       "isTopCase": false,
       "file": "think_big_case1.js"
-    },
-    {
-      "lp": "Earn Trust",
-      "caseId": "hsbc-bacen-communication",
-      "count": 1,
-      "isTopCase": false,
-      "file": "earn_trust_case2.js"
-    },
-    {
-      "lp": "Earn Trust",
-      "caseId": "bradesco-partner-recovery",
-      "count": 2,
-      "isTopCase": false,
-      "file": "earn_trust_case3.js"
-    },
-    {
-      "lp": "Earn Trust",
-      "caseId": "disagreement-with-manager-sla",
-      "count": 1,
-      "isTopCase": false,
-      "file": "earn_trust_case5.js"
-    },
-    {
-      "lp": "Dive Deep",
-      "caseId": "hsbc-data-validation-audit",
-      "count": 2,
-      "isTopCase": false,
-      "file": "dive_deep_case2.js"
-    },
-    {
-      "lp": "Dive Deep",
-      "caseId": "unimed-fraud-investigation",
-      "count": 1,
-      "isTopCase": false,
-      "file": "dive_deep_case3.js"
-    },
-    {
-      "lp": "Dive Deep",
-      "caseId": "sicredi-pix-settlement",
-      "count": 2,
-      "isTopCase": false,
-      "file": "dive_deep_case4.js"
-    },
-    {
-      "lp": "Have Backbone; Disagree and Commit",
-      "caseId": "unimed-retention-strategy",
-      "count": 1,
-      "isTopCase": false,
-      "file": "disagree_and_commit_case1.js"
-    },
-    {
-      "lp": "Have Backbone; Disagree and Commit",
-      "caseId": "huawei-world-cup-timeline",
-      "count": 2,
-      "isTopCase": false,
-      "file": "disagree_and_commit_case2.js"
-    },
-    {
-      "lp": "Have Backbone; Disagree and Commit",
-      "caseId": "commit-on-disagreement-product-strategy",
-      "count": 2,
-      "isTopCase": false,
-      "file": "disagree_and_commit_case4.js"
-    },
-    {
-      "lp": "Deliver Results",
-      "caseId": "unimed-ebitda-growth",
-      "count": 1,
-      "isTopCase": false,
-      "file": "deliver_results_case2.js"
-    },
-    {
-      "lp": "Deliver Results",
-      "caseId": "sicredi-fraud-reduction",
-      "count": 2,
-      "isTopCase": false,
-      "file": "deliver_results_case3.js"
-    },
-    {
-      "lp": "Deliver Results",
-      "caseId": "sefaz-ecage-portal",
-      "count": 2,
-      "isTopCase": false,
-      "file": "deliver_results_case4.js"
-    },
-    {
-      "lp": "Deliver Results",
-      "caseId": "sicredi-pix-deadline-miss-recovery",
-      "count": 2,
-      "isTopCase": false,
-      "file": "deliver_results_case5.js"
     }
   ],
   "wellMapped": [
@@ -420,10 +329,31 @@
     },
     {
       "lp": "Earn Trust",
+      "caseId": "hsbc-bacen-communication",
+      "count": 3,
+      "isTopCase": false,
+      "file": "earn_trust_case2.js"
+    },
+    {
+      "lp": "Earn Trust",
+      "caseId": "bradesco-partner-recovery",
+      "count": 3,
+      "isTopCase": false,
+      "file": "earn_trust_case3.js"
+    },
+    {
+      "lp": "Earn Trust",
       "caseId": "hard-feedback-leadership-style",
       "count": 6,
       "isTopCase": true,
       "file": "earn_trust_case4.js"
+    },
+    {
+      "lp": "Earn Trust",
+      "caseId": "disagreement-with-manager-sla",
+      "count": 3,
+      "isTopCase": false,
+      "file": "earn_trust_case5.js"
     },
     {
       "lp": "Dive Deep",
@@ -433,6 +363,41 @@
       "file": "dive_deep_case1.js"
     },
     {
+      "lp": "Dive Deep",
+      "caseId": "hsbc-data-validation-audit",
+      "count": 3,
+      "isTopCase": false,
+      "file": "dive_deep_case2.js"
+    },
+    {
+      "lp": "Dive Deep",
+      "caseId": "unimed-fraud-investigation",
+      "count": 3,
+      "isTopCase": false,
+      "file": "dive_deep_case3.js"
+    },
+    {
+      "lp": "Dive Deep",
+      "caseId": "sicredi-pix-settlement",
+      "count": 3,
+      "isTopCase": false,
+      "file": "dive_deep_case4.js"
+    },
+    {
+      "lp": "Have Backbone; Disagree and Commit",
+      "caseId": "unimed-retention-strategy",
+      "count": 3,
+      "isTopCase": false,
+      "file": "disagree_and_commit_case1.js"
+    },
+    {
+      "lp": "Have Backbone; Disagree and Commit",
+      "caseId": "huawei-world-cup-timeline",
+      "count": 3,
+      "isTopCase": false,
+      "file": "disagree_and_commit_case2.js"
+    },
+    {
       "lp": "Have Backbone; Disagree and Commit",
       "caseId": "bradesco-mvp-feature-prioritization",
       "count": 5,
@@ -440,11 +405,46 @@
       "file": "disagree_and_commit_case3.js"
     },
     {
+      "lp": "Have Backbone; Disagree and Commit",
+      "caseId": "commit-on-disagreement-product-strategy",
+      "count": 3,
+      "isTopCase": false,
+      "file": "disagree_and_commit_case4.js"
+    },
+    {
       "lp": "Deliver Results",
       "caseId": "huawei-world-cup-4g",
       "count": 3,
       "isTopCase": true,
       "file": "deliver_results_case1.js"
+    },
+    {
+      "lp": "Deliver Results",
+      "caseId": "unimed-ebitda-growth",
+      "count": 4,
+      "isTopCase": false,
+      "file": "deliver_results_case2.js"
+    },
+    {
+      "lp": "Deliver Results",
+      "caseId": "sicredi-fraud-reduction",
+      "count": 3,
+      "isTopCase": false,
+      "file": "deliver_results_case3.js"
+    },
+    {
+      "lp": "Deliver Results",
+      "caseId": "sefaz-ecage-portal",
+      "count": 3,
+      "isTopCase": false,
+      "file": "deliver_results_case4.js"
+    },
+    {
+      "lp": "Deliver Results",
+      "caseId": "sicredi-pix-deadline-miss-recovery",
+      "count": 3,
+      "isTopCase": false,
+      "file": "deliver_results_case5.js"
     },
     {
       "lp": "Strive to be Earth's Best Employer",
@@ -839,26 +839,7 @@
       "name": "Earn Trust",
       "totalCases": 5,
       "unmapped": [],
-      "insufficient": [
-        {
-          "caseId": "hsbc-bacen-communication",
-          "count": 1,
-          "isTopCase": false,
-          "file": "earn_trust_case2.js"
-        },
-        {
-          "caseId": "bradesco-partner-recovery",
-          "count": 2,
-          "isTopCase": false,
-          "file": "earn_trust_case3.js"
-        },
-        {
-          "caseId": "disagreement-with-manager-sla",
-          "count": 1,
-          "isTopCase": false,
-          "file": "earn_trust_case5.js"
-        }
-      ],
+      "insufficient": [],
       "wellMapped": [
         {
           "caseId": "sicredi-post-mortem-transparency",
@@ -867,10 +848,28 @@
           "file": "earn_trust_case1.js"
         },
         {
+          "caseId": "hsbc-bacen-communication",
+          "count": 3,
+          "isTopCase": false,
+          "file": "earn_trust_case2.js"
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "count": 3,
+          "isTopCase": false,
+          "file": "earn_trust_case3.js"
+        },
+        {
           "caseId": "hard-feedback-leadership-style",
           "count": 6,
           "isTopCase": true,
           "file": "earn_trust_case4.js"
+        },
+        {
+          "caseId": "disagreement-with-manager-sla",
+          "count": 3,
+          "isTopCase": false,
+          "file": "earn_trust_case5.js"
         }
       ]
     },
@@ -878,32 +877,31 @@
       "name": "Dive Deep",
       "totalCases": 4,
       "unmapped": [],
-      "insufficient": [
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "count": 2,
-          "isTopCase": false,
-          "file": "dive_deep_case2.js"
-        },
-        {
-          "caseId": "unimed-fraud-investigation",
-          "count": 1,
-          "isTopCase": false,
-          "file": "dive_deep_case3.js"
-        },
-        {
-          "caseId": "sicredi-pix-settlement",
-          "count": 2,
-          "isTopCase": false,
-          "file": "dive_deep_case4.js"
-        }
-      ],
+      "insufficient": [],
       "wellMapped": [
         {
           "caseId": "sicredi-churn-analysis",
           "count": 5,
           "isTopCase": true,
           "file": "dive_deep_case1.js"
+        },
+        {
+          "caseId": "hsbc-data-validation-audit",
+          "count": 3,
+          "isTopCase": false,
+          "file": "dive_deep_case2.js"
+        },
+        {
+          "caseId": "unimed-fraud-investigation",
+          "count": 3,
+          "isTopCase": false,
+          "file": "dive_deep_case3.js"
+        },
+        {
+          "caseId": "sicredi-pix-settlement",
+          "count": 3,
+          "isTopCase": false,
+          "file": "dive_deep_case4.js"
         }
       ]
     },
@@ -911,32 +909,31 @@
       "name": "Have Backbone; Disagree and Commit",
       "totalCases": 4,
       "unmapped": [],
-      "insufficient": [
+      "insufficient": [],
+      "wellMapped": [
         {
           "caseId": "unimed-retention-strategy",
-          "count": 1,
+          "count": 3,
           "isTopCase": false,
           "file": "disagree_and_commit_case1.js"
         },
         {
           "caseId": "huawei-world-cup-timeline",
-          "count": 2,
+          "count": 3,
           "isTopCase": false,
           "file": "disagree_and_commit_case2.js"
         },
-        {
-          "caseId": "commit-on-disagreement-product-strategy",
-          "count": 2,
-          "isTopCase": false,
-          "file": "disagree_and_commit_case4.js"
-        }
-      ],
-      "wellMapped": [
         {
           "caseId": "bradesco-mvp-feature-prioritization",
           "count": 5,
           "isTopCase": true,
           "file": "disagree_and_commit_case3.js"
+        },
+        {
+          "caseId": "commit-on-disagreement-product-strategy",
+          "count": 3,
+          "isTopCase": false,
+          "file": "disagree_and_commit_case4.js"
         }
       ]
     },
@@ -944,38 +941,37 @@
       "name": "Deliver Results",
       "totalCases": 5,
       "unmapped": [],
-      "insufficient": [
-        {
-          "caseId": "unimed-ebitda-growth",
-          "count": 1,
-          "isTopCase": false,
-          "file": "deliver_results_case2.js"
-        },
-        {
-          "caseId": "sicredi-fraud-reduction",
-          "count": 2,
-          "isTopCase": false,
-          "file": "deliver_results_case3.js"
-        },
-        {
-          "caseId": "sefaz-ecage-portal",
-          "count": 2,
-          "isTopCase": false,
-          "file": "deliver_results_case4.js"
-        },
-        {
-          "caseId": "sicredi-pix-deadline-miss-recovery",
-          "count": 2,
-          "isTopCase": false,
-          "file": "deliver_results_case5.js"
-        }
-      ],
+      "insufficient": [],
       "wellMapped": [
         {
           "caseId": "huawei-world-cup-4g",
           "count": 3,
           "isTopCase": true,
           "file": "deliver_results_case1.js"
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "count": 4,
+          "isTopCase": false,
+          "file": "deliver_results_case2.js"
+        },
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "count": 3,
+          "isTopCase": false,
+          "file": "deliver_results_case3.js"
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "count": 3,
+          "isTopCase": false,
+          "file": "deliver_results_case4.js"
+        },
+        {
+          "caseId": "sicredi-pix-deadline-miss-recovery",
+          "count": 3,
+          "isTopCase": false,
+          "file": "deliver_results_case5.js"
         }
       ]
     },

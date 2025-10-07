@@ -819,13 +819,25 @@ export const questionsToCasesMapping = {
       "case_id": "hard-feedback-leadership-style",
       "score": 98
     },
+    "0_alt1": {
+      "case_id": "disagreement-with-manager-sla",
+      "score": 90
+    },
     "1": {
       "case_id": "hard-feedback-leadership-style",
       "score": 98
     },
+    "1_alt1": {
+      "case_id": "bradesco-partner-recovery",
+      "score": 88
+    },
     "2": {
       "case_id": "sicredi-post-mortem-transparency",
       "score": 95
+    },
+    "2_alt1": {
+      "case_id": "hsbc-bacen-communication",
+      "score": 88
     },
     "3": {
       "case_id": "hard-feedback-leadership-style",
@@ -851,9 +863,17 @@ export const questionsToCasesMapping = {
       "case_id": "sicredi-post-mortem-transparency",
       "score": 95
     },
+    "8_alt1": {
+      "case_id": "hsbc-bacen-communication",
+      "score": 90
+    },
     "9": {
       "case_id": "bradesco-partner-recovery",
       "score": 85
+    },
+    "9_alt1": {
+      "case_id": "disagreement-with-manager-sla",
+      "score": 88
     },
     "10": {
       "case_id": "sicredi-post-mortem-transparency",
@@ -873,6 +893,10 @@ export const questionsToCasesMapping = {
       "case_id": "sicredi-churn-analysis",
       "score": 98
     },
+    "0_alt1": {
+      "case_id": "unimed-fraud-investigation",
+      "score": 90
+    },
     "1": {
       "case_id": "hsbc-data-validation-audit",
       "score": 85
@@ -884,6 +908,10 @@ export const questionsToCasesMapping = {
     "3": {
       "case_id": "hsbc-data-validation-audit",
       "score": 100
+    },
+    "3_alt1": {
+      "case_id": "sicredi-pix-settlement",
+      "score": 88
     },
     "4": {
       "case_id": "sicredi-churn-analysis",
@@ -897,9 +925,17 @@ export const questionsToCasesMapping = {
       "case_id": "sicredi-churn-analysis",
       "score": 92
     },
+    "6_alt1": {
+      "case_id": "unimed-fraud-investigation",
+      "score": 92
+    },
     "7": {
       "case_id": "sicredi-pix-settlement",
       "score": 90
+    },
+    "7_alt1": {
+      "case_id": "hsbc-data-validation-audit",
+      "score": 88
     },
     "8": {
       "case_id": "unimed-fraud-investigation",
@@ -915,9 +951,17 @@ export const questionsToCasesMapping = {
       "case_id": "bradesco-mvp-feature-prioritization",
       "score": 98
     },
+    "0_alt1": {
+      "case_id": "unimed-retention-strategy",
+      "score": 88
+    },
     "1": {
       "case_id": "bradesco-mvp-feature-prioritization",
       "score": 95
+    },
+    "1_alt1": {
+      "case_id": "commit-on-disagreement-product-strategy",
+      "score": 90
     },
     "2": {
       "case_id": "huawei-world-cup-timeline",
@@ -931,12 +975,20 @@ export const questionsToCasesMapping = {
       "case_id": "huawei-world-cup-timeline",
       "score": 90
     },
+    "4_alt1": {
+      "case_id": "huawei-world-cup-timeline",
+      "score": 88
+    },
     "5": {
       "case_id": "bradesco-mvp-feature-prioritization",
       "score": 90
     },
     "6": {
       "case_id": "bradesco-mvp-feature-prioritization",
+      "score": 92
+    },
+    "6_alt1": {
+      "case_id": "unimed-retention-strategy",
       "score": 92
     },
     "7": {
@@ -953,13 +1005,22 @@ export const questionsToCasesMapping = {
     }
   },
   "deliver_results": {
+    // === EXISTING + NEW MAPPINGS ===
     "0": {
       "case_id": "sefaz-ecage-portal",
       "score": 90
     },
+    "0_alt1": {
+      "case_id": "unimed-ebitda-growth",
+      "score": 92
+    },
     "1": {
       "case_id": "huawei-world-cup-4g",
       "score": 95
+    },
+    "1_alt1": {
+      "case_id": "sicredi-fraud-reduction",
+      "score": 90
     },
     "2": {
       "case_id": "huawei-world-cup-4g",
@@ -981,9 +1042,17 @@ export const questionsToCasesMapping = {
       "case_id": "sefaz-ecage-portal",
       "score": 85
     },
+    "6_alt1": {
+      "case_id": "unimed-ebitda-growth",
+      "score": 88
+    },
     "7": {
       "case_id": "sicredi-pix-deadline-miss-recovery",
       "score": 85
+    },
+    "7_alt1": {
+      "case_id": "unimed-ebitda-growth",
+      "score": 90
     },
     "8": {
       "case_id": "unimed-ebitda-growth",
@@ -992,6 +1061,14 @@ export const questionsToCasesMapping = {
     "9": {
       "case_id": "sicredi-fraud-reduction",
       "score": 85
+    },
+    "9_alt1": {
+      "case_id": "sefaz-ecage-portal",
+      "score": 88
+    },
+    "9_alt2": {
+      "case_id": "sicredi-pix-deadline-miss-recovery",
+      "score": 92
     }
   },
   "best_employer": {
