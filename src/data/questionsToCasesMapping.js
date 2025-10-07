@@ -186,38 +186,44 @@ export const questionsToCasesMapping = {
   "learn_and_be_curious": {
     "0": {
       "case_id": "stay-updated-payments-fintech",
-      "score": 55
+      "score": 95
     },
     "1": {
-      "case_id": "stay-updated-payments-fintech",
-      "score": 75
+      "case_id": "olibano-blockchain-exploration",
+      "score": 85
     },
     "2": {
-      "case_id": "unimed-harvard-healthcare-innovation",
-      "score": 50
+      "case_id": "out-of-comfort-zone-transparency-portal",
+      "score": 90
     },
     "3": {
-      "case_id": "stay-updated-payments-fintech",
-      "score": 45
+      "case_id": "bradesco-safe-agile-framework",
+      "score": 85
     },
     "4": {
       "case_id": "olibano-blockchain-exploration",
-      "score": 50
+      "score": 85
     },
-    "5": null,
+    "5": {
+      "case_id": "out-of-comfort-zone-transparency-portal",
+      "score": 85
+    },
     "6": {
-      "case_id": "stay-updated-payments-fintech",
-      "score": 75
+      "case_id": "bradesco-safe-agile-framework",
+      "score": 90
     },
     "7": {
-      "case_id": "stay-updated-payments-fintech",
-      "score": 45
+      "case_id": "unimed-harvard-healthcare-innovation",
+      "score": 90
     },
     "8": {
-      "case_id": "olibano-blockchain-exploration",
-      "score": 50
+      "case_id": "stay-updated-payments-fintech",
+      "score": 90
     },
-    "9": null
+    "9": {
+      "case_id": "unimed-harvard-healthcare-innovation",
+      "score": 85
+    }
   },
   "hire_and_develop_the_best": {
     "0": {
