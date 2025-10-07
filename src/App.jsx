@@ -194,6 +194,27 @@ export default function App() {
     return getDisplayCaseTitleUtil(c, lang);
   }, []);
 
+  // Get questions that this case answers for a given principle
+  const getCaseQuestions = useCallback((caseId, principleId) => {
+    const principleMapping = questionsToCasesMapping[principleId];
+    if (!principleMapping) return [];
+    
+    const questions = typicalQuestions[principleId];
+    if (!questions) return [];
+    
+    const questionNumbers = [];
+    Object.entries(principleMapping).forEach(([qNum, mapping]) => {
+      if (mapping && mapping.case_id === caseId) {
+        questionNumbers.push(parseInt(qNum));
+      }
+    });
+    
+    return questionNumbers.sort((a, b) => a - b).map(num => ({
+      number: num,
+      text: language === 'pt' ? questions.pt[num] : questions.en[num]
+    }));
+  }, [language]);
+
   // Show loading state when searching
   useEffect(() => {
     if (searchTerm || questionSearch) {
@@ -1040,6 +1061,10 @@ export default function App() {
                   const open = !!expandedCases[c.title];
                   const isHighlighted = highlightedCaseId === caseDomId;
                   const isTop = isTopCase(c);
+                  const caseQuestions = getCaseQuestions(c.id, principle.id);
+                  const questionsTooltip = caseQuestions.length > 0
+                    ? `${language === 'pt' ? 'Responde' : 'Answers'} ${caseQuestions.length} ${language === 'pt' ? 'pergunta(s)' : 'question(s)'}: Q${caseQuestions.map(q => q.number).join(', Q')}\n\n${caseQuestions.slice(0, 3).map(q => `Q${q.number}: ${q.text.substring(0, 80)}...`).join('\n')}`
+                    : language === 'pt' ? 'Nenhuma pergunta mapeada' : 'No questions mapped';
 
                   return (
                     <article
@@ -1050,6 +1075,7 @@ export default function App() {
                           ? 'from-orange-50 to-amber-50 border-4 border-[#FF9900] shadow-lg shadow-orange-200/50 hover:shadow-xl hover:shadow-orange-300/50'
                           : 'from-blue-50 to-sky-50 border-2 border-blue-300 hover:shadow-lg hover:shadow-blue-200/50 hover:border-blue-400'
                       } ${isHighlighted ? 'ring-2 ring-amber-400' : ''}`}
+                      title={questionsTooltip}
                     >
                       {/* Header clicável (área ampla) */}
                       <header
@@ -1084,6 +1110,14 @@ export default function App() {
                           {!isTop && c.isGoodCase && (
                             <span className="px-2.5 py-0.5 bg-blue-500 text-white text-[10px] font-semibold rounded-full shadow-sm">
                               👍 GOOD CASE
+                            </span>
+                          )}
+                          {caseQuestions.length > 0 && (
+                            <span 
+                              className="px-2.5 py-0.5 bg-purple-500 text-white text-[10px] font-semibold rounded-full shadow-sm cursor-help"
+                              title={questionsTooltip}
+                            >
+                              💬 {caseQuestions.length} {language === 'pt' ? 'Q' : 'Q'}
                             </span>
                           )}
                           <h3 className={`text-lg font-bold ${isTop ? 'text-[#232F3E]' : 'text-slate-900'}`}>
