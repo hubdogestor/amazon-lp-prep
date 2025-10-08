@@ -1,38 +1,87 @@
-﻿// Case 4 - bias_for_action
-const case_4 = {
-  id: "calculated-risk-time-critical",
-  title: "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",
-  title_pt: "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",
-  title_en: "Calculated Risk Under Time Pressure: Restored Telemedicine in 72h with Zoned Mitigation and Selective Rollback",
-  company: "Unimed Porto Alegre",
-  period: "03/2023-05/2023",
-  isTopCase: true,
-  isGoodCase: false,
-  pt: {
-    s: `Às 6h37 da manhã de uma sexta-feira, um ataque de ransomware derrubou completamente nossa plataforma de telemedicina, colocando 38 mil consultas em risco imediato e gerando uma perda potencial de R$ 1,2 milhão por dia. Enquanto a equipe de infraestrutura, seguindo o protocolo padrão, propunha um rebuild completo de duas semanas, pacientes oncológicos e cardiopatas ficariam sem atendimento. Eu tinha apenas algumas horas para decidir entre o procedimento seguro, mas lento, ou assumir um risco calculado para restaurar o serviço em tempo recorde.`,
-    t: `Diante desse cenário de urgência extrema, o desafio que assumi foi reestabelecer no mínimo 80% da capacidade operacional em 72 horas, mantendo conformidade com a LGPD e garantindo um plano de rollback imediato. Como head de transformação digital e owner do produto, minha missão não era apenas restaurar a tecnologia; era salvar milhares de consultas de pacientes vulneráveis, evitar perdas financeiras de mais de R$ 8 milhões e proteger a reputação da empresa, sabendo que cada hora de indecisão custaria vidas, dinheiro e confiança.`,
-    a: `Para entregar esse resultado sob pressão, estruturei um plano de resposta que chamei de "Phoenix", baseado em arquitetura de zonas isoladas e rollback seletivo. Primeiro, dividi a plataforma monolítica em cinco zonas operacionais independentes (agendamento, billing, prontuário, vídeo, prescrições). Em duas horas, convoquei um conselho de crise com CFO, CIO e DPO, onde assumi responsabilidade pessoal pelo risco de migrar a zona crítica de consultas para uma cloud pública temporária. Após uma negociação intensa, obtive autorização emergencial de 72 horas do jurídico, documentando todas as salvaguardas. Em paralelo, importei um backup offline, rodei scripts de sanitização que escrevi pessoalmente e criei um runbook de rollback detalhado para cada zona, com gatilhos automáticos baseados em latência e taxa de erro. Quando a zona de vídeo apresentou latência crítica no segundo dia, acionei o rollback seletivo em sete minutos, migrando para um provedor alternativo e restabelecendo o serviço em 31 minutos, sem perder nenhuma consulta em andamento.`,
-    r: `Esse esforço coordenado resultou na restauração mais rápida da história da cooperativa. Em apenas 61 horas, restabeleci 83% da capacidade operacional, com um SLA de consulta ainda melhor que o anterior à crise. Evitamos 32 mil cancelamentos, mantivemos o NPS acima de 71 pontos durante a crise e reduzimos as perdas financeiras potenciais em R$ 5,8 milhões. Mais importante, o atendimento oncológico crítico voltou em 36 horas, e a auditoria interna e da ANS não registrou nenhum incidente de privacidade, validando as salvaguardas implementadas.`,
-    l: `Retrospectivamente, essa crise transformou minha abordagem a incidentes críticos. Aprendi que resiliência exige três pilares inegociáveis: (1) Arquitetura por zonas isoladas, para que uma falha não derrube todo o sistema; (2) Rollback ensaiado com gatilhos automáticos, porque um plano B no papel é inútil sem testes reais; e (3) Comunicação franca e contínua, pois o silêncio em uma crise destrói a confiança mais rápido que a falha técnica. Hoje, qualquer sistema core que lidero já nasce com essa 'matriz Phoenix' embutida, uma lição que já evitou dois incidentes posteriores sem necessidade de intervenção manual.`,
+﻿const case_4 = {
+  "id": "calculated-risk-time-critical",
+  "title": "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",
+  "title_pt": "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",
+  "title_en": "Calculated Risk Under Time Pressure: Restored Telemedicine in 72h with Zoned Mitigation and Selective Rollback",
+  "company": "Unimed Porto Alegre",
+  "period": "03/2023-05/2023",
+  "isTopCase": true,
+  "isGoodCase": false,
+  "pt": {
+    "s": "Às 6h37 da manhã de uma sexta-feira, um ataque de ransomware derrubou completamente nossa plataforma de telemedicina, colocando 38 mil consultas em risco imediato e gerando uma perda potencial de R$ 1,2 milhão por dia. Enquanto a equipe de infraestrutura, seguindo o protocolo padrão, propunha um rebuild completo de duas semanas, pacientes oncológicos e cardiopatas ficariam sem atendimento. Eu tinha apenas algumas horas para decidir entre o procedimento seguro, mas lento, ou assumir um risco calculado para restaurar o serviço em tempo recorde.",
+    "t": "Diante desse cenário de urgência extrema, o desafio que assumi foi reestabelecer no mínimo 80% da capacidade operacional em 72 horas, mantendo conformidade com a LGPD e garantindo um plano de rollback imediato. Como head de transformação digital e owner do produto, minha missão não era apenas restaurar a tecnologia; era salvar milhares de consultas de pacientes vulneráveis, evitar perdas financeiras de mais de R$ 8 milhões e proteger a reputação da empresa, sabendo que cada hora de indecisão custaria vidas, dinheiro e confiança.",
+    "a": "Para entregar esse resultado sob pressão, estruturei um plano de resposta que chamei de \"Phoenix\", baseado em arquitetura de zonas isoladas e rollback seletivo. Primeiro, dividi a plataforma monolítica em cinco zonas operacionais independentes (agendamento, billing, prontuário, vídeo, prescrições). Em duas horas, convoquei um conselho de crise com CFO, CIO e DPO, onde assumi responsabilidade pessoal pelo risco de migrar a zona crítica de consultas para uma cloud pública temporária. Após uma negociação intensa, obtive autorização emergencial de 72 horas do jurídico, documentando todas as salvaguardas. Em paralelo, importei um backup offline, rodei scripts de sanitização que escrevi pessoalmente e criei um runbook de rollback detalhado para cada zona, com gatilhos automáticos baseados em latência e taxa de erro. Quando a zona de vídeo apresentou latência crítica no segundo dia, acionei o rollback seletivo em sete minutos, migrando para um provedor alternativo e restabelecendo o serviço em 31 minutos, sem perder nenhuma consulta em andamento.",
+    "r": "Esse esforço coordenado resultou na restauração mais rápida da história da cooperativa. Em apenas 61 horas, restabeleci 83% da capacidade operacional, com um SLA de consulta ainda melhor que o anterior à crise. Evitamos 32 mil cancelamentos, mantivemos o NPS acima de 71 pontos durante a crise e reduzimos as perdas financeiras potenciais em R$ 5,8 milhões. Mais importante, o atendimento oncológico crítico voltou em 36 horas, e a auditoria interna e da ANS não registrou nenhum incidente de privacidade, validando as salvaguardas implementadas.",
+    "l": "Retrospectivamente, essa crise transformou minha abordagem a incidentes críticos. Aprendi que resiliência exige três pilares inegociáveis: (1) Arquitetura por zonas isoladas, para que uma falha não derrube todo o sistema; (2) Rollback ensaiado com gatilhos automáticos, porque um plano B no papel é inútil sem testes reais; e (3) Comunicação franca e contínua, pois o silêncio em uma crise destrói a confiança mais rápido que a falha técnica. Hoje, qualquer sistema core que lidero já nasce com essa 'matriz Phoenix' embutida, uma lição que já evitou dois incidentes posteriores sem necessidade de intervenção manual."
   },
-  en: {
-    s: `At 6:37 AM on a Friday, a ransomware attack completely took down our telemedicine platform, putting 38,000 appointments at immediate risk and creating a potential loss of BRL 1.2 million per day. While the infrastructure team, following standard protocol, proposed a two-week complete rebuild, oncology and cardiac patients would be left without care. I had only a few hours to decide between the safe but slow procedure or taking a calculated risk to restore the service in record time.`,
-    t: `Faced with this extremely urgent scenario, the challenge I took on was to re-establish at least 80% of operational capacity within 72 hours, maintaining LGPD compliance and ensuring an immediate rollback plan. As head of digital transformation and product owner, my mission was not just to restore the technology; it was to save thousands of appointments for vulnerable patients, avoid financial losses of over BRL 8 million, and protect the company's reputation, knowing that every hour of indecision would cost lives, money, and trust.`,
-    a: `To deliver this result under pressure, I structured a response plan I called "Phoenix," based on an isolated zone architecture and selective rollback. First, I divided the monolithic platform into five independent operational zones (scheduling, billing, medical records, video, prescriptions). Within two hours, I convened a crisis council with the CFO, CIO, and DPO, where I took personal responsibility for the risk of migrating the critical appointment zone to a temporary public cloud. After intense negotiation, I obtained a 72-hour emergency authorization from the legal department, documenting all safeguards. In parallel, I imported an offline backup, ran sanitization scripts I personally wrote, and created a detailed rollback runbook for each zone, with automatic triggers based on latency and error rates. When the video zone showed critical latency on the second day, I triggered a selective rollback in seven minutes, migrating to an alternative provider and restoring service in 31 minutes without losing any ongoing consultations.`,
-    r: `This coordinated effort resulted in the fastest restoration in the cooperative's history. In just 61 hours, I re-established 83% of operational capacity, with a consultation SLA even better than before the crisis. We avoided 32,000 cancellations, maintained an NPS above 71 points during the crisis, and reduced potential financial losses by BRL 5.8 million. Most importantly, critical oncology care was back in 36 hours, and both internal and ANS audits recorded no privacy incidents, validating the safeguards implemented.`,
-    l: `In retrospect, this crisis transformed my approach to critical incidents. I learned that resilience requires three non-negotiable pillars: (1) Isolated zone architecture, so one failure doesn't bring down the entire system; (2) Rehearsed rollbacks with automatic triggers, because a plan B on paper is useless without real testing; and (3) Frank and continuous communication, as silence in a crisis destroys trust faster than a technical failure. Today, any core system I lead is born with this 'Phoenix matrix' embedded, a lesson that has already prevented two subsequent incidents without needing manual intervention.`
+  "en": {
+    "s": "At 6:37 AM on a Friday, a ransomware attack completely took down our telemedicine platform, putting 38,000 appointments at immediate risk and creating a potential loss of BRL 1.2 million per day. While the infrastructure team, following standard protocol, proposed a two-week complete rebuild, oncology and cardiac patients would be left without care. I had only a few hours to decide between the safe but slow procedure or taking a calculated risk to restore the service in record time.",
+    "t": "Faced with this extremely urgent scenario, the challenge I took on was to re-establish at least 80% of operational capacity within 72 hours, maintaining LGPD compliance and ensuring an immediate rollback plan. As head of digital transformation and product owner, my mission was not just to restore the technology; it was to save thousands of appointments for vulnerable patients, avoid financial losses of over BRL 8 million, and protect the company's reputation, knowing that every hour of indecision would cost lives, money, and trust.",
+    "a": "To deliver this result under pressure, I structured a response plan I called \"Phoenix,\" based on an isolated zone architecture and selective rollback. First, I divided the monolithic platform into five independent operational zones (scheduling, billing, medical records, video, prescriptions). Within two hours, I convened a crisis council with the CFO, CIO, and DPO, where I took personal responsibility for the risk of migrating the critical appointment zone to a temporary public cloud. After intense negotiation, I obtained a 72-hour emergency authorization from the legal department, documenting all safeguards. In parallel, I imported an offline backup, ran sanitization scripts I personally wrote, and created a detailed rollback runbook for each zone, with automatic triggers based on latency and error rates. When the video zone showed critical latency on the second day, I triggered a selective rollback in seven minutes, migrating to an alternative provider and restoring service in 31 minutes without losing any ongoing consultations.",
+    "r": "This coordinated effort resulted in the fastest restoration in the cooperative's history. In just 61 hours, I re-established 83% of operational capacity, with a consultation SLA even better than before the crisis. We avoided 32,000 cancellations, maintained an NPS above 71 points during the crisis, and reduced potential financial losses by BRL 5.8 million. Most importantly, critical oncology care was back in 36 hours, and both internal and ANS audits recorded no privacy incidents, validating the safeguards implemented.",
+    "l": "In retrospect, this crisis transformed my approach to critical incidents. I learned that resilience requires three non-negotiable pillars: (1) Isolated zone architecture, so one failure doesn't bring down the entire system; (2) Rehearsed rollbacks with automatic triggers, because a plan B on paper is useless without real testing; and (3) Frank and continuous communication, as silence in a crisis destroys trust faster than a technical failure. Today, any core system I lead is born with this 'Phoenix matrix' embedded, a lesson that has already prevented two subsequent incidents without needing manual intervention."
   },
-  fups: [
-    { q: "Como voce decidiu pelas cinco zonas do plano Phoenix?", a: "Eu mapeei dependencias e escolhi blocos que podiam operar isolados sem quebrar LGPD.", q_en: "How did you define the five Phoenix zones?", a_en: "I mapped dependencies and picked blocks that could run isolated without breaching LGPD." },
-    { q: "Quais dados voce usou para conseguir aprovacao do DPO?", a: "Eu apresentei analise de impacto de R$1,2 mi por dia e as salvaguardas de criptografia e auditoria.", q_en: "Which data convinced the DPO?", a_en: "I shared the BRL 1.2M daily impact and the encryption and audit safeguards." },
-    { q: "Como voce garantiu higiene dos backups em 26 minutos?", a: "Eu escrevi scripts de sanitizacao com hash duplo e bloqueio de executavel suspeito.", q_en: "How did you sanitise backups in 26 minutes?", a_en: "I built sanitisation scripts with double hashing and suspicious executable blocking." },
-    { q: "Que criterios acionaram rollback seletivo da zona de video?", a: "Latencia acima de 450 ms e erro HTTP maior que 2% por 5 minutos.", q_en: "What triggered the selective rollback of the video zone?", a_en: "Latency above 450 ms and HTTP error over 2% for five minutes." },
-    { q: "Como voce manteve os medicos informados?", a: "Eu criei bot que enviava push a cada 30 minutos e abria ticket automatico em caso de falha.", q_en: "How did you keep physicians informed?", a_en: "I built a bot pushing updates every 30 minutes and auto-opening tickets on failure." },
-    { q: "Quais indicadores voce monitorou no war-room?", a: "Eu acompanhava disponibilidade por zona, tempo de consulta, fila de prescricao e alertas de LGPD.", q_en: "Which indicators did you track in the war-room?", a_en: "I tracked zone availability, consult duration, prescription queue, and LGPD alerts." },
-    { q: "Como voce quantificou a perda evitada de R$5,8 mi?", a: "Eu projetei glosas, multas regulatorias e custo de cancelamento por especialidade.", q_en: "How did you quantify the BRL 5.8M loss avoided?", a_en: "I modelled chargebacks, regulatory fines, and cancellation cost per specialty." },
-    { q: "Que comunicacao voce fez com reguladores?", a: "Eu emiti boletins a cada 2 horas com status, salvaguardas e plano de retomada validado.", q_en: "What did you communicate to regulators?", a_en: "I sent two-hour reports detailing status, safeguards, and the validated recovery plan." },
-    { q: "O que voce mudou nos sistemas apos o incidente?", a: "Eu implantei zonamento permanente, backup imutavel e simulacao trimestral do Phoenix.", q_en: "What system changes followed the incident?", a_en: "I implemented permanent zoning, immutable backup, and quarterly Phoenix drills." },
-    { q: "Qual aprendizado levou para outros projetos?", a: "Eu passei a exigir planilha Phoenix antes de qualquer go-live critico de TI.", q_en: "What lesson did you apply elsewhere?", a_en: "I now demand the Phoenix sheet before any critical IT go-live." }
+  "fups": [
+    {
+      "q": "Como voce decidiu pelas cinco zonas do plano Phoenix?",
+      "a": "Eu mapeei dependencias e escolhi blocos que podiam operar isolados sem quebrar LGPD.",
+      "q_en": "How did you define the five Phoenix zones?",
+      "a_en": "I mapped dependencies and picked blocks that could run isolated without breaching LGPD."
+    },
+    {
+      "q": "Quais dados voce usou para conseguir aprovacao do DPO?",
+      "a": "Eu apresentei analise de impacto de R$1,2 mi por dia e as salvaguardas de criptografia e auditoria.",
+      "q_en": "Which data convinced the DPO?",
+      "a_en": "I shared the BRL 1.2M daily impact and the encryption and audit safeguards."
+    },
+    {
+      "q": "Como voce garantiu higiene dos backups em 26 minutos?",
+      "a": "Eu escrevi scripts de sanitizacao com hash duplo e bloqueio de executavel suspeito.",
+      "q_en": "How did you sanitise backups in 26 minutes?",
+      "a_en": "I built sanitisation scripts with double hashing and suspicious executable blocking."
+    },
+    {
+      "q": "Que criterios acionaram rollback seletivo da zona de video?",
+      "a": "Latencia acima de 450 ms e erro HTTP maior que 2% por 5 minutos.",
+      "q_en": "What triggered the selective rollback of the video zone?",
+      "a_en": "Latency above 450 ms and HTTP error over 2% for five minutes."
+    },
+    {
+      "q": "Como voce manteve os medicos informados?",
+      "a": "Eu criei bot que enviava push a cada 30 minutos e abria ticket automatico em caso de falha.",
+      "q_en": "How did you keep physicians informed?",
+      "a_en": "I built a bot pushing updates every 30 minutes and auto-opening tickets on failure."
+    },
+    {
+      "q": "Quais indicadores voce monitorou no war-room?",
+      "a": "Eu acompanhava disponibilidade por zona, tempo de consulta, fila de prescricao e alertas de LGPD.",
+      "q_en": "Which indicators did you track in the war-room?",
+      "a_en": "I tracked zone availability, consult duration, prescription queue, and LGPD alerts."
+    },
+    {
+      "q": "Como voce quantificou a perda evitada de R$5,8 mi?",
+      "a": "Eu projetei glosas, multas regulatorias e custo de cancelamento por especialidade.",
+      "q_en": "How did you quantify the BRL 5.8M loss avoided?",
+      "a_en": "I modelled chargebacks, regulatory fines, and cancellation cost per specialty."
+    },
+    {
+      "q": "Que comunicacao voce fez com reguladores?",
+      "a": "Eu emiti boletins a cada 2 horas com status, salvaguardas e plano de retomada validado.",
+      "q_en": "What did you communicate to regulators?",
+      "a_en": "I sent two-hour reports detailing status, safeguards, and the validated recovery plan."
+    },
+    {
+      "q": "O que voce mudou nos sistemas apos o incidente?",
+      "a": "Eu implantei zonamento permanente, backup imutavel e simulacao trimestral do Phoenix.",
+      "q_en": "What system changes followed the incident?",
+      "a_en": "I implemented permanent zoning, immutable backup, and quarterly Phoenix drills."
+    },
+    {
+      "q": "Qual aprendizado levou para outros projetos?",
+      "a": "Eu passei a exigir planilha Phoenix antes de qualquer go-live critico de TI.",
+      "q_en": "What lesson did you apply elsewhere?",
+      "a_en": "I now demand the Phoenix sheet before any critical IT go-live."
+    }
   ]
 };
 
