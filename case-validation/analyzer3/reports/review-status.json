@@ -1,65 +1,272 @@
 {
-  "run_at": "2025-10-08T12:07:22.201Z",
+  "run_at": "2025-10-08T12:30:08.931Z",
   "data_dir": "src/data",
   "total_cases": 80,
-  "filtered_cases": 1,
-  "lp": null,
-  "case": "calculated-risk-time-critical",
+  "filtered_cases": 4,
+  "lp": "dive_deep",
+  "case": null,
   "results": [
     {
-      "lp_id": "bias_for_action",
-      "case_id": "calculated-risk-time-critical",
-      "title_pt": "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",
-      "title_en": "Calculated Risk Under Time Pressure: Restored Telemedicine in 72h with Zoned Mitigation and Selective Rollback",
-      "status": "Needs-Rewrite",
+      "lp_id": "dive_deep",
+      "case_id": "sicredi-churn-analysis",
+      "title_pt": "Analise de Dados para Identificar os Principais Drivers de Churn no App",
+      "title_en": "Data Analysis to Identify Main App Churn Drivers",
+      "status": "Needs-Polish",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 63,
-        "status": "Needs-Rewrite",
+        "score": 75,
+        "status": "Needs-Polish",
         "dealbreakers": [],
         "warnings": [
-          "Sinais de Customer Obsession fracos"
+          "Faltam transições narrativas entre seções STARL"
         ],
         "positives": [
-          "Métricas robustas (8)",
-          "Ratio EU:NÓS saudável (15.0:1)"
+          "Métricas robustas (39)",
+          "Ratio EU:NÓS saudável (29.0:1)"
         ],
         "breakdown": {
-          "narrative": 12,
-          "metrics": 15,
-          "lpContent": 4,
-          "amazonAspects": 9,
+          "narrative": 16,
+          "metrics": 20,
+          "lpContent": 0,
+          "amazonAspects": 12,
           "contribution": 10,
           "structure": 10
         },
         "details": {
           "metrics": {
-            "count": 8,
-            "hasFinancial": false,
+            "count": 39,
+            "hasFinancial": true,
             "hasCustomer": true,
             "hasOperational": true
           },
           "contribution": {
-            "ratio": 15,
-            "eu": 15,
-            "nos": 1
+            "ratio": 29,
+            "eu": 29,
+            "nos": 0
           },
           "amazonAspects": {
-            "customerSignals": 2,
-            "mechanismSignals": 2,
-            "conflictSignals": 1
+            "customerSignals": 12,
+            "mechanismSignals": 1,
+            "conflictSignals": 2
           },
           "lpContent": {
-            "strongCount": 2,
+            "strongCount": 0,
             "mediumCount": 0
           }
         }
       },
-      "changes": []
+      "changes": [
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
+        }
+      ]
+    },
+    {
+      "lp_id": "dive_deep",
+      "case_id": "hsbc-data-validation-audit",
+      "title_pt": "Auditoria Pessoal em Processos de Validacao de Dados em Multiplos Paises",
+      "title_en": "Personal Audit of Data Validation Processes Across Multiple Countries",
+      "status": "Needs-Polish",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 76,
+        "status": "Needs-Polish",
+        "dealbreakers": [],
+        "warnings": [
+          "Faltam transições narrativas entre seções STARL",
+          "Nenhum sinal de conflito ou superação de resistência"
+        ],
+        "positives": [
+          "Métricas robustas (26)",
+          "Ratio EU:NÓS saudável (8.5:1)"
+        ],
+        "breakdown": {
+          "narrative": 14,
+          "metrics": 20,
+          "lpContent": 6,
+          "amazonAspects": 10,
+          "contribution": 10,
+          "structure": 10
+        },
+        "details": {
+          "metrics": {
+            "count": 26,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 8.5,
+            "eu": 17,
+            "nos": 2
+          },
+          "amazonAspects": {
+            "customerSignals": 11,
+            "mechanismSignals": 3,
+            "conflictSignals": 0
+          },
+          "lpContent": {
+            "strongCount": 2,
+            "mediumCount": 2
+          }
+        }
+      },
+      "changes": [
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Nenhum sinal de conflito ou superação de resistência",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        }
+      ]
+    },
+    {
+      "lp_id": "dive_deep",
+      "case_id": "unimed-fraud-investigation",
+      "title_pt": "Investigacao Manual de Anomalias em Reembolsos para Identificar Fraude em Rede",
+      "title_en": "Manual Investigation of Reimbursement Anomalies to Uncover Network Fraud",
+      "status": "Needs-Polish",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 73,
+        "status": "Needs-Polish",
+        "dealbreakers": [],
+        "warnings": [
+          "Faltam transições narrativas entre seções STARL",
+          "Nenhum sinal de conflito ou superação de resistência"
+        ],
+        "positives": [
+          "Métricas robustas (20)",
+          "Ratio EU:NÓS saudável (6.0:1)"
+        ],
+        "breakdown": {
+          "narrative": 12,
+          "metrics": 19,
+          "lpContent": 6,
+          "amazonAspects": 10,
+          "contribution": 10,
+          "structure": 10
+        },
+        "details": {
+          "metrics": {
+            "count": 20,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": false
+          },
+          "contribution": {
+            "ratio": 6,
+            "eu": 18,
+            "nos": 3
+          },
+          "amazonAspects": {
+            "customerSignals": 14,
+            "mechanismSignals": 5,
+            "conflictSignals": 0
+          },
+          "lpContent": {
+            "strongCount": 2,
+            "mediumCount": 2
+          }
+        }
+      },
+      "changes": [
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Nenhum sinal de conflito ou superação de resistência",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+        }
+      ]
+    },
+    {
+      "lp_id": "dive_deep",
+      "case_id": "sicredi-pix-settlement",
+      "title_pt": "Reducao de 47% no Tempo de Liquidacao de Pagamentos PIX",
+      "title_en": "47% Reduction in PIX Payment Settlement Time",
+      "status": "Needs-Polish",
+      "lint": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "heur": {
+        "score": 76,
+        "status": "Needs-Polish",
+        "dealbreakers": [],
+        "warnings": [
+          "Faltam transições narrativas entre seções STARL"
+        ],
+        "positives": [
+          "Métricas robustas (41)",
+          "Ratio EU:NÓS saudável (6.0:1)"
+        ],
+        "breakdown": {
+          "narrative": 14,
+          "metrics": 20,
+          "lpContent": 0,
+          "amazonAspects": 15,
+          "contribution": 10,
+          "structure": 10
+        },
+        "details": {
+          "metrics": {
+            "count": 41,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 6,
+            "eu": 18,
+            "nos": 3
+          },
+          "amazonAspects": {
+            "customerSignals": 10,
+            "mechanismSignals": 4,
+            "conflictSignals": 4
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
+          }
+        }
+      },
+      "changes": [
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
+        }
+      ]
     }
   ]
 }

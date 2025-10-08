@@ -8,10 +8,10 @@ const HOOK_STAKES_REGEX = /(R\$|US\$|\$)\s?\d[\d.,]*\s?(milh[oõ]es|bilh[oõ]es|
 const HOOK_CONFLICT_TERMS = ['conselho', 'board', 'diretoria', 'c-level', 'ceo', 'cto', 'cfo', 'ameaçou', 'exigiu', 'demandou'];
 
 const TRANSITION_STARTERS = {
-  t: ['diante desse cenário', 'com essa missão', 'o desafio era', 'minha tarefa era', 'the challenge was', 'my task was'],
-  a: ['para resolver isso', 'para atacar o problema', 'minha abordagem foi', 'to solve this', 'my approach was', 'para cumprir esse compromisso'],
-  r: ['como resultado', 'o impacto foi', 'as a result', 'the impact was', 'esse esforço entregou'],
-  l: ['aprendi que', 'retrospectivamente', 'a lição que ficou', 'i learned that', 'in retrospect', 'this case taught me'],
+  t: ['diante desse cenário', 'com essa missão', 'o desafio era', 'minha tarefa era', 'o desafio crítico', 'a missão que recebi', 'the challenge was', 'my task was', 'the critical challenge', 'faced with this'],
+  a: ['para resolver isso', 'para atacar o problema', 'minha abordagem foi', 'minha estratégia foi', 'eu ataquei em', 'to solve this', 'my approach was', 'my strategy was', 'para cumprir esse compromisso', 'para entregar esse resultado'],
+  r: ['como resultado', 'o impacto foi', 'as a result', 'the impact was', 'esse esforço entregou', 'o impacto mensurável foi', 'os resultados foram', 'esse esforço coordenado resultou', 'this coordinated effort resulted'],
+  l: ['aprendi que', 'retrospectivamente', 'a lição que ficou', 'a principal lição', 'esse caso me ensinou', 'i learned that', 'in retrospect', 'this case taught me', 'the main lesson'],
 };
 
 const MIC_DROP_MECHANISM_TERMS = ['ritual', 'playbook', 'framework', 'processo', 'mecanismo', 'modelo', 'sistema', 'automação'];
@@ -52,43 +52,55 @@ function hasTerm(text, terms) {
 // --- Funções de Pontuação por Dimensão (Lógica v3.2) ---
 
 function scoreNarrativeQuality(rawCase) {
-  const s_norm = normalize(rawCase.pt?.s || '');
+  const s_text = rawCase.pt?.s || '';
+  const s_norm = normalize(s_text);
   const l_norm = normalize(rawCase.pt?.l || '');
-  let score = 0;
+  let details = {};
 
-  // 1. Hook (10 pontos)
-  const hasUrgency = HOOK_URGENCY_TERMS.some(term => s_norm.includes(term));
-  const hasStakes = HOOK_STAKES_REGEX.test(rawCase.pt?.s || '');
-  const hasConflict = HOOK_CONFLICT_TERMS.some(term => s_norm.includes(term));
-  
+  // 1. Hook (Vale 10 pontos)
+  const hasUrgency = hasTerm(s_norm, HOOK_URGENCY_TERMS);
+  const hasStakes = HOOK_STAKES_REGEX.test(s_text);
+  const hasConflict = hasTerm(s_norm, HOOK_CONFLICT_TERMS);
+  const s_length = s_text.length;
+
   let hookScore = 0;
-  if (hasUrgency) hookScore += 4;
+  if (hasUrgency) hookScore += 3;
   if (hasStakes) hookScore += 4;
   if (hasConflict) hookScore += 2;
-  score += hookScore;
+  if (s_length > 150 && hookScore > 0) hookScore += 1;
+  if (hasStakes && hookScore < 5) hookScore = 5;
+  
+  details.hookScore = Math.min(hookScore, 10);
 
-  // 2. Transições (10 pontos)
+  // 2. Transições (Vale 10 pontos)
   let transitionCount = 0;
   if (hasTerm(rawCase.pt?.t, TRANSITION_STARTERS.t)) transitionCount++;
   if (hasTerm(rawCase.pt?.a, TRANSITION_STARTERS.a)) transitionCount++;
   if (hasTerm(rawCase.pt?.r, TRANSITION_STARTERS.r)) transitionCount++;
   if (hasTerm(rawCase.pt?.l, TRANSITION_STARTERS.l)) transitionCount++;
-  score += Math.min(transitionCount * 2.5, 10);
+  
+  const transitionScore = Math.min(transitionCount * 2.5, 10);
+  details.transitionCount = transitionCount;
 
-  // 3. Mic-Drop (5 pontos)
+  // 3. Mic-Drop (Vale 5 pontos)
   const hasLearning = hasTerm(l_norm, ['aprendi', 'lição', 'aprendizado']);
   const hasMechanism = hasTerm(l_norm, MIC_DROP_MECHANISM_TERMS);
   const hasReplication = hasTerm(l_norm, MIC_DROP_REPLICATION_TERMS);
   
+  let micDropScore = 0;
   if (hasLearning && hasMechanism && hasReplication) {
-    score += 5;
+    micDropScore = 5;
   } else if (hasLearning && hasMechanism) {
-    score += 3;
+    micDropScore = 3;
   } else if (hasLearning) {
-    score += 1;
+    micDropScore = 1;
   }
+  details.micDropScore = micDropScore;
 
-  return { score: Math.round(score), details: { hookScore, transitionCount } };
+  // Score final é a soma das partes
+  const finalScore = details.hookScore + transitionScore + details.micDropScore;
+
+  return { score: Math.round(finalScore), details };
 }
 
 function scoreMetrics(rawCombined) {
@@ -124,20 +136,32 @@ function scoreLpContent(text, lpId) {
   return { score, details: { strongCount, mediumCount } };
 }
 
-function scoreAmazonAspects(text) {
+function scoreAmazonAspects(text, rawCombined) {
   let score = 0;
-  const customerSignals = countOccurrences(text, CUSTOMER_TERMS);
-  const mechanismSignals = countOccurrences(text, MECHANISM_TERMS);
-  const conflictSignals = countOccurrences(text, CONFLICT_TERMS);
+  const details = {
+    customerSignals: countOccurrences(text, CUSTOMER_TERMS),
+    mechanismSignals: countOccurrences(text, MECHANISM_TERMS),
+    conflictSignals: countOccurrences(text, CONFLICT_TERMS),
+  };
 
   // Customer Obsession (5 pontos)
-  score += Math.min(customerSignals * 1.5, 5);
-  // Mechanisms (5 pontos)
-  score += Math.min(mechanismSignals * 1.5, 5);
-  // Conflict (5 pontos)
-  score += Math.min(conflictSignals * 2.5, 5);
+  let customerScore = 0;
+  if (details.customerSignals > 0) {
+    customerScore = 1; // Base point
+    customerScore += Math.min(details.customerSignals - 1, 2); // Up to 2 more points for frequency
+  }
+  // A specific customer metric is a very strong signal.
+  if (CUSTOMER_METRIC_REGEX.test(rawCombined)) {
+    customerScore = Math.max(customerScore, 3) + 2; // Guarantee at least 3, then add 2 for a max of 5
+  }
+  score += Math.min(customerScore, 5);
 
-  return { score: Math.round(score), details: { customerSignals, mechanismSignals, conflictSignals } };
+  // Mechanisms (5 pontos)
+  score += Math.min(details.mechanismSignals * 1.5, 5);
+  // Conflict (5 pontos)
+  score += Math.min(details.conflictSignals * 2.5, 5);
+
+  return { score: Math.round(score), details };
 }
 
 function scoreIndividualContribution(text) {
@@ -178,7 +202,7 @@ export function analyzeHeuristics(rawCase = {}, lintResult = { ok: true, issues:
   const narrative = scoreNarrativeQuality(rawCase);
   const metrics = scoreMetrics(rawCombined);
   const lpContent = scoreLpContent(unifiedText, lpId);
-  const amazonAspects = scoreAmazonAspects(unifiedText);
+  const amazonAspects = scoreAmazonAspects(unifiedText, rawCombined);
   const contribution = scoreIndividualContribution(unifiedText);
   const structure = scoreStructure(lintResult);
 
@@ -187,7 +211,7 @@ export function analyzeHeuristics(rawCase = {}, lintResult = { ok: true, issues:
   totalScore += narrative.score * 1.25; // 25% -> 25 pts
   totalScore += metrics.score;          // 20% -> 20 pts
   totalScore += lpContent.score;        // 20% -> 20 pts
-  totalScore += amazonAspects.score * (2/3) * 1.5; // 15% -> 15 pts
+  totalScore += amazonAspects.score * 1.25; // 15% -> 15 pts (12 * 1.25 = 15)
   totalScore += contribution.score;     // 10% -> 10 pts
   totalScore += structure.score;        // 10% -> 10 pts
 

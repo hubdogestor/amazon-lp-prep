@@ -177,29 +177,22 @@
     "lp_id": "dive_deep",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 75,
+      "status": "Needs-Polish",
       "positives": [
-        "Customer Obsession forte (15 menções relevantes)",
         "Métricas robustas (39)",
-        "Ratio EU:NÓS saudável (13:0)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (29.0:1)"
       ],
-      "warnings": [],
+      "warnings": [
+        "Faltam transições narrativas entre seções STARL"
+      ],
       "dealbreakers": [],
       "suggestions": [
         {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 13:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 39",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
         }
       ],
       "lint": {
@@ -208,68 +201,46 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
+        "score": 75,
+        "status": "Needs-Polish",
         "dealbreakers": [],
-        "warnings": [],
-        "positives": [
-          "Customer Obsession forte (15 menções relevantes)",
-          "Métricas robustas (39)",
-          "Ratio EU:NÓS saudável (13:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+        "warnings": [
+          "Faltam transições narrativas entre seções STARL"
         ],
-        "metricsCount": 39,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
+        "positives": [
+          "Métricas robustas (39)",
+          "Ratio EU:NÓS saudável (29.0:1)"
+        ],
+        "breakdown": {
+          "narrative": 16,
+          "metrics": 20,
+          "lpContent": 0,
+          "amazonAspects": 12,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 15,
-        "conflictSignals": true,
-        "mechanismSignals": 12,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 13,
+        "details": {
+          "metrics": {
+            "count": 39,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 29,
+            "eu": 29,
             "nos": 0
+          },
+          "amazonAspects": {
+            "customerSignals": 12,
+            "mechanismSignals": 1,
+            "conflictSignals": 2
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 72,
-          "status": "needs-refresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 348,
-            "enLen": 267,
-            "deltaPct": 0.23275862068965517
-          },
-          "t": {
-            "ptLen": 285,
-            "enLen": 259,
-            "deltaPct": 0.0912280701754386
-          },
-          "a": {
-            "ptLen": 976,
-            "enLen": 830,
-            "deltaPct": 0.14959016393442623
-          },
-          "r": {
-            "ptLen": 345,
-            "enLen": 341,
-            "deltaPct": 0.011594202898550725
-          },
-          "l": {
-            "ptLen": 442,
-            "enLen": 440,
-            "deltaPct": 0.004524886877828055
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 2,
-        "micDropSignals": true,
-        "biasSignals": 1
+        }
       }
     }
   }

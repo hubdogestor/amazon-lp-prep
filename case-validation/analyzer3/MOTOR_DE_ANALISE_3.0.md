@@ -1,87 +1,171 @@
-# Motor de Análise 3.0 — Documentação Completa
+# Documentação do Motor de Análise v3.2# Motor de Análise 3.0 — Documentação Completa
 
-**Versão**: 3.1.0  
-**Última Atualização**: 07 de Outubro de 2025  
-**Status**: ✅ VALIDADO E OPERACIONAL
 
----
 
-## 📋 ÍNDICE
+**Data**: 08 de Outubro de 2025**Versão**: 3.1.0  
 
-1. [Visão Geral](#visão-geral)
+**Autor**: Principal Engineer (GitHub Copilot)**Última Atualização**: 07 de Outubro de 2025  
+
+**Status**: ✅ Versão Final**Status**: ✅ VALIDADO E OPERACIONAL
+
+
+
+## 1. Visão Geral---
+
+
+
+O Motor de Análise v3.2 é um sistema baseado em Node.js projetado para avaliar programaticamente a qualidade de narrativas de entrevista baseadas nos Princípios de Liderança da Amazon. Ele substitui uma abordagem anterior, baseada em contagem de palavras-chave, por um modelo de pontuação ponderado e multidimensional que analisa o contexto e a estrutura da narrativa.## 📋 ÍNDICE
+
+
+
+O sistema opera através de scripts na pasta `case-validation/analyzer3/` e pode ser invocado via comandos `npm`.1. [Visão Geral](#visão-geral)
+
 2. [Pipeline de Execução](#pipeline-de-execução)
-3. [Como Usar](#como-usar)
+
+## 2. Arquitetura e Componentes3. [Como Usar](#como-usar)
+
 4. [Sistema de Scoring](#sistema-de-scoring)
-5. [Saídas e Relatórios](#saídas-e-relatórios)
+
+O motor é composto por vários módulos que trabalham em conjunto:5. [Saídas e Relatórios](#saídas-e-relatórios)
+
 6. [Troubleshooting](#troubleshooting)
-7. [Validação e Testes](#validação-e-testes)
 
----
+-   `index.mjs`: O orquestrador principal. Processa os argumentos da linha de comando (`--validate`, `--refine`), carrega os casos, executa as análises e gera os relatórios.7. [Validação e Testes](#validação-e-testes)
 
-## 🎯 VISÃO GERAL
+-   `loader.mjs`: Responsável por carregar os arquivos de caso (`.js`) do diretório `src/data`, tratando erros de sintaxe e validando a estrutura básica.
 
-O Motor 3.0 é um sistema automatizado de análise e validação de cases STAR(L) para preparação de entrevistas Amazon. Ele:
+-   `linter.mjs`: Realiza verificações estruturais e de conformidade nos dados do caso. Garante que todos os campos necessários (`s`, `t`, `a`, `r`, `l`) estão presentes, que não há campos vazios e que a paridade entre PT e EN é mantida.---
 
-✅ **Valida** estrutura, conteúdo e qualidade de 68 cases  
+-   `heuristics.mjs`: **O cérebro do motor**. Contém a lógica de pontuação (`analyzeHeuristics`). É aqui que as 6 dimensões de qualidade são avaliadas.
+
+-   `lp-keywords.mjs`: Um dicionário de palavras-chave associadas a cada Princípio de Liderança, divididas em `strong` e `medium` para uma pontuação mais precisa.## 🎯 VISÃO GERAL
+
+-   `reporter.mjs`: Formata e escreve os resultados da análise em diferentes formatos, como JSON e CSV, na pasta `reports/`.
+
+-   `rewriter.mjs` / `fups.mjs`: Módulos para o modo `--refine`, responsáveis por sugerir melhorias (atualmente em desenvolvimento).O Motor 3.0 é um sistema automatizado de análise e validação de cases STAR(L) para preparação de entrevistas Amazon. Ele:
+
+
+
+## 3. Lógica de Pontuação (Scoring)✅ **Valida** estrutura, conteúdo e qualidade de 68 cases  
+
 ✅ **Detecta** dealbreakers e warnings automaticamente  
-✅ **Calcula** score 0-100 baseado em heurísticas Amazon  
+
+A pontuação é a principal inovação do v3.2. Um score final de 0 a 100 é calculado com base em 6 dimensões ponderadas:✅ **Calcula** score 0-100 baseado em heurísticas Amazon  
+
 ✅ **Gera** previews com sugestões de melhoria  
-✅ **Produz** relatórios JSON/CSV para análise  
 
-**Status Atual**: ✅ OPERACIONAL (validado em 07/10/2025)
+### 3.1. Qualidade da Narrativa (Peso: 25%)✅ **Produz** relatórios JSON/CSV para análise  
 
----
 
-## ⚙️ PIPELINE DE EXECUÇÃO
 
-### **1. Loader (`loader.mjs`)**
-- **Função**: Carrega todos os cases de `src/data/**/*.js`
+-   **Hook (10 pts)**: Avalia a força da abertura do caso. Procura por termos de **urgência** (`crise`, `risco`), **stakes** numéricos (R$ 1.2M, 38 mil consultas) e **conflito** (`board`, `c-level`).**Status Atual**: ✅ OPERACIONAL (validado em 07/10/2025)
+
+-   **Transições (10 pts)**: Verifica se existem conectores narrativos fluidos entre as seções S→T→A→R→L, usando uma lista de frases de transição comuns.
+
+-   **Mic-Drop (5 pts)**: Analisa a seção de aprendizado (L). Pontua mais alto se o aprendizado gerou um **mecanismo** (`playbook`, `ritual`) que foi **replicado** em outros contextos.---
+
+
+
+### 3.2. Métricas (Peso: 20%)## ⚙️ PIPELINE DE EXECUÇÃO
+
+
+
+-   **Quantidade (15 pts)**: Usa uma escala logarítmica. A pontuação máxima é para 12+ métricas, com um bom score para 8+.### **1. Loader (`loader.mjs`)**
+
+-   **Diversidade (5 pts)**: Incentiva o uso de métricas de diferentes categorias, procurando por termos `Financeiros` (ROI, receita), de `Cliente` (NPS, CSAT) e `Operacionais` (SLA, latência).- **Função**: Carrega todos os cases de `src/data/**/*.js`
+
 - **Processo**:
-  - Varre diretórios recursivamente
+
+### 3.3. Conteúdo do LP (Peso: 20%)  - Varre diretórios recursivamente
+
   - Ignora arquivos de configuração (index.js, config.js, etc.)
-  - Executa cada case em sandbox VM seguro
+
+-   Mede a profundidade da conexão com o Princípio de Liderança específico do caso. Usa o `lp-keywords.mjs` para contar ocorrências de palavras-chave `strong` (2 pontos) e `medium` (1 ponto), com um teto de 20 pontos.  - Executa cada case em sandbox VM seguro
+
   - Anexa metadados: `lp_id`, `case_id`, `__load_warnings`
-- **Output**: Array de cases carregados
 
-### **2. Linter (`linter.mjs`)**
-- **Função**: Valida estrutura e shape dos cases
-- **Validações**:
+### 3.4. Aspectos Amazon (Peso: 15%)- **Output**: Array de cases carregados
+
+
+
+-   **Customer Obsession (5 pts)**: Procura por termos relacionados ao cliente. A pontuação é significativamente maior se uma métrica de cliente (NPS, CSAT) for encontrada.### **2. Linter (`linter.mjs`)**
+
+-   **Mecanismos (5 pts)**: Reutiliza a lógica do Mic-Drop para encontrar a criação de sistemas e processos.- **Função**: Valida estrutura e shape dos cases
+
+-   **Conflito (5 pts)**: Procura por termos que indicam superação de resistência (`conflito`, `objeção`, `escalar`).- **Validações**:
+
   - ✅ Presença de campos obrigatórios (id, title, company, period, pt, en, fups)
-  - ✅ STAR(L) completo em PT e EN (s, t, a, r, l)
+
+### 3.5. Contribuição Individual (Peso: 10%)  - ✅ STAR(L) completo em PT e EN (s, t, a, r, l)
+
   - ✅ Exatamente 10 FUPs (q, a, q_en, a_en)
-  - ✅ Período válido (formato MM/YYYY-MM/YYYY)
+
+-   Calcula o ratio de "Eu" vs. "Nós" no texto. Um ratio de **3:1 ou mais** recebe a pontuação máxima (10). Um ratio abaixo de 2:1 é um *dealbreaker*.  - ✅ Período válido (formato MM/YYYY-MM/YYYY)
+
   - ✅ Paridade PT/EN (mesmas seções, tamanhos similares)
-- **Output**: `{ ok: boolean, issues: [], warnings: [] }`
+
+### 3.6. Estrutura (Peso: 10%)- **Output**: `{ ok: boolean, issues: [], warnings: [] }`
+
   - **Issues**: Bloqueadores (impedem Ready)
-  - **Warnings**: Pontos de atenção (reduzem score)
 
-### **3. Heuristics (`heuristics.mjs`)**
+-   Recebe a pontuação do `linter.mjs`. A pontuação máxima (10) é dada se não houver erros ou warnings. Warnings de paridade PT/EN reduzem a pontuação.  - **Warnings**: Pontos de atenção (reduzem score)
+
+
+
+## 4. Status e Dealbreakers### **3. Heuristics (`heuristics.mjs`)**
+
 - **Função**: Análise profunda de qualidade do conteúdo
-- **Análises**:
-  - 📊 **Métricas**: Conta métricas quantitativas (financeiras, operacionais, cliente)
-  - 👥 **Customer Obsession**: Detecta sinais de foco no cliente
-  - 🔢 **Ratio EU:NÓS**: Calcula protagonismo individual
-  - ⚙️ **Mecanismos**: Identifica processos/frameworks replicáveis
-  - ⚔️ **Conflito**: Detecta tensão dramática e resistência
-  - 📅 **Recency**: Calcula antiguidade do case
-  - 🌐 **Paridade PT/EN**: Verifica simetria entre versões
-- **Output**: Score 0-100 + Status (Ready/Polish/Rewrite/KO)
 
-### **4. Rewriter (`rewriter.mjs`)**
+-   **Dealbreakers**: Certas condições resultam em um status `KO` (Knock-Out) imediato, independentemente do score.- **Análises**:
+
+    -   Ratio EU:NÓS < 2:1.  - 📊 **Métricas**: Conta métricas quantitativas (financeiras, operacionais, cliente)
+
+    -   Menos de 5 métricas.  - 👥 **Customer Obsession**: Detecta sinais de foco no cliente
+
+    -   Ausência total de sinais de Customer Obsession.  - 🔢 **Ratio EU:NÓS**: Calcula protagonismo individual
+
+    -   Erros estruturais graves apontados pelo linter.  - ⚙️ **Mecanismos**: Identifica processos/frameworks replicáveis
+
+-   **Status**: Com base no score final e na ausência de dealbreakers, um caso é classificado como:  - ⚔️ **Conflito**: Detecta tensão dramática e resistência
+
+    -   `Ready` (≥ 85)  - 📅 **Recency**: Calcula antiguidade do case
+
+    -   `Needs-Polish` (≥ 70)  - 🌐 **Paridade PT/EN**: Verifica simetria entre versões
+
+    -   `Needs-Rewrite` (< 70)- **Output**: Score 0-100 + Status (Ready/Polish/Rewrite/KO)
+
+
+
+## 5. Como Usar### **4. Rewriter (`rewriter.mjs`)**
+
 - **Função**: Gera scorecard e sugestões de melhoria
-- **Processo**:
-  - Converte dealbreakers em ações corretivas
-  - Transforma warnings em sugestões específicas
-  - Cria plano de ação executável
-  - **NÃO ALTERA** o case original (apenas preview)
-- **Output**: `__scorecard` com insights + action plan
 
-### **5. FUPs (`fups.mjs`)**
-- **Função**: Valida e complementa Follow-Up Questions
-- **Processo**:
-  - Mantém FUPs existentes (se boas)
-  - Sugere FUPs adicionais de biblioteca curada:
-    - Core questions (métricas, decisões)
+-   **Validação de todos os casos**:- **Processo**:
+
+    ```bash  - Converte dealbreakers em ações corretivas
+
+    node case-validation/analyzer3/index.mjs --validate --data=src/data  - Transforma warnings em sugestões específicas
+
+    ```  - Cria plano de ação executável
+
+-   **Validação de um LP específico**:  - **NÃO ALTERA** o case original (apenas preview)
+
+    ```bash- **Output**: `__scorecard` com insights + action plan
+
+    node case-validation/analyzer3/index.mjs --validate --lp=dive_deep --data=src/data
+
+    ```### **5. FUPs (`fups.mjs`)**
+
+-   **Validação de um caso específico**:- **Função**: Valida e complementa Follow-Up Questions
+
+    ```bash- **Processo**:
+
+    node case-validation/analyzer3/index.mjs --validate --case=calculated-risk-time-critical --data=src/data  - Mantém FUPs existentes (se boas)
+
+    ```  - Sugere FUPs adicionais de biblioteca curada:
+
+Os relatórios são gerados em `case-validation/analyzer3/reports/`.    - Core questions (métricas, decisões)
+
     - Customer-focused questions
     - Mechanism questions
     - LP-specific questions

@@ -32,8 +32,8 @@ export const LP_KEYWORDS = {
     medium: ['impacto de grande escala', 'large-scale impact', 'não-óbvio', 'non-obvious'],
   },
   bias_for_action: {
-    strong: ['velocidade', 'speed', 'risco calculado', 'calculated risk', 'two-way door', 'decisão reversível', 'execução rápida', 'quick execution', 'agir com urgência', 'sense of urgency'],
-    medium: ['informação limitada', 'limited information', 'piloto', 'mvp', 'time to market'],
+    strong: ['velocidade', 'speed', 'risco calculado', 'calculated risk', 'two-way door', 'decisão reversível', 'execução rápida', 'quick execution', 'agir com urgência', 'sense of urgency', 'plano de contingência', 'contingency plan', 'rollback', 'reversão', 'tempo crítico', 'time-critical', 'decisão rápida', 'quick decision'],
+    medium: ['informação limitada', 'limited information', 'piloto', 'mvp', 'time to market', 'mitigação', 'mitigation', 'trade-off', 'análise de risco', 'risk analysis'],
   },
   frugality: {
     strong: ['fazer mais com menos', 'do more with less', 'restrições', 'constraints', 'autossuficiência', 'self-sufficiency', 'otimização de recursos', 'resource optimization', 'eliminar desperdício', 'eliminate waste'],
