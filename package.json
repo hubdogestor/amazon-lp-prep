@@ -9,7 +9,7 @@
                     "build":  "vite build",
                     "preview":  "vite preview",
                     "lint":  "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-                    "test":  "vitest",
+                    "test":  "vitest run",
                     "test:ui":  "vitest --ui",
                     "test:coverage":  "vitest --coverage",
                     "deploy":  "npm run build \u0026\u0026 gh-pages -d dist",
