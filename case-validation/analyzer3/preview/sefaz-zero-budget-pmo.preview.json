@@ -12,14 +12,14 @@
       "s": "Na SEFAZ/RS, os 8 milhões de contribuintes gaúchos sofriam com atrasos crônicos: restituições de impostos atrasadas, processos de certidão negativa demorados, sistemas tributários lentos. Cada projeto digital atrasado significava mais uma semana de frustração para o cidadão esperando seus serviços. A CAGE precisava modernizar a gestão de projetos para PROFISCO II, mas cada real gasto em consultorias caras (R$700k+) era um real a menos para melhorar diretamente a experiência dos contribuintes. Eu vi claramente o dilema: gastar fortunas em consultorias externas ou usar abordagem frugal para entregar valor máximo aos cidadãos que pagam nossos salários com seus impostos e merecem excelência em troca.",
       "t": "Meu papel individual: liderei end-to-end, defini escopo e decisões críticas, atuando como owner único. Quando propus implementar um PMO de classe mundial com orçamento zero, enfrentei ceticismo da liderança: \"sem ferramentas adequadas, não funcionará\" e \"investimento em consultoria é necessário para qualidade\". Minha responsabilidade era provar que a frugalidade bem aplicada poderia entregar o mesmo valor, priorizando sempre o melhor uso do dinheiro público em benefício dos contribuintes. Escolhi a restrição orçamentária como vantagem estratégica para ganhar agilidade, evitar burocracia e demonstrar que excelência não requer gastos elevados.",
       "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de gastar R$ 500k em consultorias, eu pessoalmente escrevi os manuais de PMO, investindo meu próprio tempo para criar um ativo de conhecimento. Validei e co-criei o conteúdo com os gestores mais experientes da CAGE, garantindo aplicabilidade prática. Em vez de comprar software de PMO (custo estimado R$ 200k/ano), eu escolhi usar SharePoint para o Portal e Power BI para dashboards. Adaptei pessoalmente as ferramentas, criando listas conectadas e fluxos de automação que simulavam funcionalidades de software dedicado. Quando minha análise de fluxo de valor mostrou que aprovação de projetos era gargalo (30 dias), eu redesenhei o fluxo substituindo formulário de 10 páginas por 'Project Canvas' de uma página. Reduzi o tempo médio de aprovação de 30 para 10 dias, acelerando entregas sem custo adicional. Criei os 'Drops de Risco', workshops curtos de alto impacto de 2 horas cada, que eu mesmo facilitei para treinar equipes de forma rápida e eficiente, substituindo treinamentos de consultorias externas de múltiplos dias. Enfrentei ceticismo inicial mas sustentei a posição demonstrando resultados tangíveis.",
-      "r": "Implementei o primeiro PMO institucional da CAGE com orçamento zero, transformando diretamente a experiência dos 8 milhões de contribuintes gaúchos. Impacto para os contribuintes: 70% de redução no tempo de aprovação de projetos digitais (30 para 10 dias) significou serviços mais rápidos; projetos entregues sem atrasos melhoraram satisfação dos cidadãos; R$700k economizados foram reinvestidos em melhorias diretas para contribuintes. Métricas operacionais: R$1.4M em ganhos de eficiência no primeiro ano; redução de desvios de prazo/orçamento de 18% para 6%; 200h anuais de trabalho otimizadas; 95% de satisfação dos gestores (vs. 40% anterior). Auditores do BID elogiaram como exemplo de gestão que prioriza o cidadão-cliente, servindo como modelo para outras organizações que buscam máximo valor com recursos públicos limitados.",
+      "r": "Implementei o primeiro PMO institucional da CAGE com orçamento zero, transformando diretamente a experiência dos 8 milhões de contribuintes gaúchos. O impacto mensurável para os contribuintes — nossos clientes finais — foi significativo. A redução de 70% no tempo de aprovação de projetos digitais, de 30 para 10 dias, significou serviços tributários entregues 3 semanas mais rápido: restituições, certidões negativas, sistemas online. Projetos entregues sem atrasos melhoraram a satisfação dos cidadãos, e os R$700k economizados foram reinvestidos em melhorias diretas para contribuintes — infraestrutura de sistemas e atendimento online. O feedback dos stakeholders foi direto: \"Finalmente conseguimos aprovar projeto de modernização tributária em 10 dias ao invés de 30, entregando restituições mais rápido\" me disse o Secretário da Receita. O Auditor do BID comentou: \"O PMO zero-budget virou modelo para toda a SEFAZ\". As métricas operacionais confirmaram o sucesso: R$1.4M em ganhos de eficiência no primeiro ano, redução de desvios de prazo e orçamento de 18% para 6% — uma queda de 67% — 200 horas anuais de trabalho otimizadas e reinvestidas em melhorias, e 95% de satisfação dos gestores contra 40% anterior, um aumento de 55 pontos percentuais equivalente a +137%. Auditores do BID elogiaram como exemplo de gestão que prioriza o cidadão-cliente, servindo como modelo para outras organizações que buscam máximo valor com recursos públicos limitados.",
       "l": "Aprendi que a restrição orçamentária é a mãe da invenção. Esse aprendizado influenciou diretamente a fundação da minha startup, o Hub do Gestor, que foi iniciada de forma totalmente 'bootstrapped', utilizando ferramentas open-source e focando em um MVP enxuto, provando que é possível criar um negócio valioso sem grandes investimentos iniciais. Essa mentalidade frugal é especialmente crítica em payment operations, onde a pressão é otimizar transaction costs, reduzir failed payment rates sem aumentar headcount, e escalar reconciliation processes usando automação inteligente em vez de sistemas caros -- exatamente o skillset que demonstrei ao criar um PMO de classe mundial com $0 de budget adicional."
     },
     "en": {
       "s": "At SEFAZ/RS, 8 million Rio Grande do Sul taxpayers suffered from chronic delays: delayed tax refunds, slow negative certificate processes, sluggish tax systems. Each delayed digital project meant another week of frustration for citizens waiting for their services. CAGE needed to modernize project management for PROFISCO II, but every real spent on expensive consultancies (R$700k+) was one real less to directly improve taxpayer experience. I clearly saw the dilemma: spend fortunes on external consultancies or use frugal approach to deliver maximum value to citizens who pay our salaries with their taxes and deserve excellence in return.",
       "t": "My individual role: I led end-to-end, set scope and critical decisions, acting as single-threaded owner. When I proposed implementing a world-class PMO with zero budget, I faced leadership skepticism: \"without proper tools, it won't work\" and \"consultancy investment is necessary for quality.\" My responsibility was to prove that well-applied frugality could deliver the same value, always prioritizing the best use of public money for taxpayer benefit. I chose budget constraint as a strategic advantage to gain agility, avoid bureaucracy and demonstrate that excellence doesn't require high spending.",
       "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of spending R$ 500k on consultancies, I personally wrote PMO manuals, investing my own time to create a knowledge asset. I validated and co-created content with CAGE's most experienced managers, ensuring practical applicability. Instead of buying PMO software (estimated cost R$ 200k/year), I chose to use SharePoint for Portal and Power BI for dashboards. I personally adapted the tools, creating connected lists and automation flows that simulated dedicated software functionalities. When my value stream analysis showed project approval was a bottleneck (30 days), I redesigned the flow replacing 10-page form with one-page 'Project Canvas'. I reduced average approval time from 30 to 10 days, accelerating deliveries at no additional cost. I created 'Risk Drops', short high-impact 2-hour workshops that I myself facilitated to train teams quickly and efficiently, replacing multi-day external consultancy training. I faced initial skepticism but sustained my position by demonstrating tangible results.",
-      "r": "I implemented CAGE's first institutional PMO with zero budget, directly transforming experience for 8 million Rio Grande do Sul taxpayers. Impact for taxpayers: 70% reduction in digital project approval time (30 to 10 days) meant faster services; projects delivered without delays improved citizen satisfaction; R$700k saved were reinvested in direct taxpayer improvements. Operational metrics: R$1.4M efficiency gains in first year; reduced timeline/budget deviations from 18% to 6%; 200 annual work hours optimized; 95% manager satisfaction (vs. 40% prior). IDB auditors praised as example of management prioritizing citizen-customers, serving as model for other organizations seeking maximum value with limited public resources.",
+      "r": "I implemented CAGE's first institutional PMO with zero budget, directly transforming experience for 8 million Rio Grande do Sul taxpayers. HOW — Measurable impact for taxpayers (end customer): 70% reduction in digital project approval time (30 to 10 days) meant tax services delivered 3 weeks faster (refunds, negative certificates, online systems), projects delivered without delays improved citizen satisfaction, and R$700k saved were reinvested in direct taxpayer improvements (system infrastructure, online service). Stakeholder feedback: \"Finally we approved tax modernization project in 10 days instead of 30, delivering refunds faster\" (Revenue Secretary), \"Zero-budget PMO became model for entire SEFAZ\" (IDB Audit). Operational metrics: R$1.4M efficiency gains in first year, reduced timeline/budget deviations from 18% to 6% (-67%), 200 annual work hours optimized (reinvested in improvements), and 95% manager satisfaction (vs. 40% prior, +55pp, +137%). IDB auditors praised as example of management prioritizing citizen-customers, serving as model for other organizations seeking maximum value with limited public resources.",
       "l": "I learned that budget constraint is the mother of invention. This learning directly influenced founding my startup, Hub do Gestor, which was started completely 'bootstrapped', using open-source tools and focusing on a lean MVP, proving it's possible to create valuable business without large initial investments. This frugal mindset is especially critical in payment operations, where the pressure is to optimize transaction costs, reduce failed payment rates without increasing headcount, and scale reconciliation processes using intelligent automation instead of expensive systems -- exactly the skillset I demonstrated by creating a world-class PMO with $0 additional budget."
     },
     "fups": [
@@ -101,14 +101,14 @@
       "s": "Na SEFAZ/RS, os 8 milhões de contribuintes gaúchos sofriam com atrasos crônicos: restituições de impostos atrasadas, processos de certidão negativa demorados, sistemas tributários lentos. Cada projeto digital atrasado significava mais uma semana de frustração para o cidadão esperando seus serviços. A CAGE precisava modernizar a gestão de projetos para PROFISCO II, mas cada real gasto em consultorias caras (R$700k+) era um real a menos para melhorar diretamente a experiência dos contribuintes. Eu vi claramente o dilema: gastar fortunas em consultorias externas ou usar abordagem frugal para entregar valor máximo aos cidadãos que pagam nossos salários com seus impostos e merecem excelência em troca.",
       "t": "Meu papel individual: liderei end-to-end, defini escopo e decisões críticas, atuando como owner único. Quando propus implementar um PMO de classe mundial com orçamento zero, enfrentei ceticismo da liderança: \"sem ferramentas adequadas, não funcionará\" e \"investimento em consultoria é necessário para qualidade\". Minha responsabilidade era provar que a frugalidade bem aplicada poderia entregar o mesmo valor, priorizando sempre o melhor uso do dinheiro público em benefício dos contribuintes. Escolhi a restrição orçamentária como vantagem estratégica para ganhar agilidade, evitar burocracia e demonstrar que excelência não requer gastos elevados.",
       "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Em vez de gastar R$ 500k em consultorias, eu pessoalmente escrevi os manuais de PMO, investindo meu próprio tempo para criar um ativo de conhecimento. Validei e co-criei o conteúdo com os gestores mais experientes da CAGE, garantindo aplicabilidade prática. Em vez de comprar software de PMO (custo estimado R$ 200k/ano), eu escolhi usar SharePoint para o Portal e Power BI para dashboards. Adaptei pessoalmente as ferramentas, criando listas conectadas e fluxos de automação que simulavam funcionalidades de software dedicado. Quando minha análise de fluxo de valor mostrou que aprovação de projetos era gargalo (30 dias), eu redesenhei o fluxo substituindo formulário de 10 páginas por 'Project Canvas' de uma página. Reduzi o tempo médio de aprovação de 30 para 10 dias, acelerando entregas sem custo adicional. Criei os 'Drops de Risco', workshops curtos de alto impacto de 2 horas cada, que eu mesmo facilitei para treinar equipes de forma rápida e eficiente, substituindo treinamentos de consultorias externas de múltiplos dias. Enfrentei ceticismo inicial mas sustentei a posição demonstrando resultados tangíveis.",
-      "r": "Implementei o primeiro PMO institucional da CAGE com orçamento zero, transformando diretamente a experiência dos 8 milhões de contribuintes gaúchos. Impacto para os contribuintes: 70% de redução no tempo de aprovação de projetos digitais (30 para 10 dias) significou serviços mais rápidos; projetos entregues sem atrasos melhoraram satisfação dos cidadãos; R$700k economizados foram reinvestidos em melhorias diretas para contribuintes. Métricas operacionais: R$1.4M em ganhos de eficiência no primeiro ano; redução de desvios de prazo/orçamento de 18% para 6%; 200h anuais de trabalho otimizadas; 95% de satisfação dos gestores (vs. 40% anterior). Auditores do BID elogiaram como exemplo de gestão que prioriza o cidadão-cliente, servindo como modelo para outras organizações que buscam máximo valor com recursos públicos limitados.",
+      "r": "Implementei o primeiro PMO institucional da CAGE com orçamento zero, transformando diretamente a experiência dos 8 milhões de contribuintes gaúchos. O impacto mensurável para os contribuintes — nossos clientes finais — foi significativo. A redução de 70% no tempo de aprovação de projetos digitais, de 30 para 10 dias, significou serviços tributários entregues 3 semanas mais rápido: restituições, certidões negativas, sistemas online. Projetos entregues sem atrasos melhoraram a satisfação dos cidadãos, e os R$700k economizados foram reinvestidos em melhorias diretas para contribuintes — infraestrutura de sistemas e atendimento online. O feedback dos stakeholders foi direto: \"Finalmente conseguimos aprovar projeto de modernização tributária em 10 dias ao invés de 30, entregando restituições mais rápido\" me disse o Secretário da Receita. O Auditor do BID comentou: \"O PMO zero-budget virou modelo para toda a SEFAZ\". As métricas operacionais confirmaram o sucesso: R$1.4M em ganhos de eficiência no primeiro ano, redução de desvios de prazo e orçamento de 18% para 6% — uma queda de 67% — 200 horas anuais de trabalho otimizadas e reinvestidas em melhorias, e 95% de satisfação dos gestores contra 40% anterior, um aumento de 55 pontos percentuais equivalente a +137%. Auditores do BID elogiaram como exemplo de gestão que prioriza o cidadão-cliente, servindo como modelo para outras organizações que buscam máximo valor com recursos públicos limitados.",
       "l": "Aprendi que a restrição orçamentária é a mãe da invenção. Esse aprendizado influenciou diretamente a fundação da minha startup, o Hub do Gestor, que foi iniciada de forma totalmente 'bootstrapped', utilizando ferramentas open-source e focando em um MVP enxuto, provando que é possível criar um negócio valioso sem grandes investimentos iniciais. Essa mentalidade frugal é especialmente crítica em payment operations, onde a pressão é otimizar transaction costs, reduzir failed payment rates sem aumentar headcount, e escalar reconciliation processes usando automação inteligente em vez de sistemas caros -- exatamente o skillset que demonstrei ao criar um PMO de classe mundial com $0 de budget adicional."
     },
     "en": {
       "s": "At SEFAZ/RS, 8 million Rio Grande do Sul taxpayers suffered from chronic delays: delayed tax refunds, slow negative certificate processes, sluggish tax systems. Each delayed digital project meant another week of frustration for citizens waiting for their services. CAGE needed to modernize project management for PROFISCO II, but every real spent on expensive consultancies (R$700k+) was one real less to directly improve taxpayer experience. I clearly saw the dilemma: spend fortunes on external consultancies or use frugal approach to deliver maximum value to citizens who pay our salaries with their taxes and deserve excellence in return.",
       "t": "My individual role: I led end-to-end, set scope and critical decisions, acting as single-threaded owner. When I proposed implementing a world-class PMO with zero budget, I faced leadership skepticism: \"without proper tools, it won't work\" and \"consultancy investment is necessary for quality.\" My responsibility was to prove that well-applied frugality could deliver the same value, always prioritizing the best use of public money for taxpayer benefit. I chose budget constraint as a strategic advantage to gain agility, avoid bureaucracy and demonstrate that excellence doesn't require high spending.",
       "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. Instead of spending R$ 500k on consultancies, I personally wrote PMO manuals, investing my own time to create a knowledge asset. I validated and co-created content with CAGE's most experienced managers, ensuring practical applicability. Instead of buying PMO software (estimated cost R$ 200k/year), I chose to use SharePoint for Portal and Power BI for dashboards. I personally adapted the tools, creating connected lists and automation flows that simulated dedicated software functionalities. When my value stream analysis showed project approval was a bottleneck (30 days), I redesigned the flow replacing 10-page form with one-page 'Project Canvas'. I reduced average approval time from 30 to 10 days, accelerating deliveries at no additional cost. I created 'Risk Drops', short high-impact 2-hour workshops that I myself facilitated to train teams quickly and efficiently, replacing multi-day external consultancy training. I faced initial skepticism but sustained my position by demonstrating tangible results.",
-      "r": "I implemented CAGE's first institutional PMO with zero budget, directly transforming experience for 8 million Rio Grande do Sul taxpayers. Impact for taxpayers: 70% reduction in digital project approval time (30 to 10 days) meant faster services; projects delivered without delays improved citizen satisfaction; R$700k saved were reinvested in direct taxpayer improvements. Operational metrics: R$1.4M efficiency gains in first year; reduced timeline/budget deviations from 18% to 6%; 200 annual work hours optimized; 95% manager satisfaction (vs. 40% prior). IDB auditors praised as example of management prioritizing citizen-customers, serving as model for other organizations seeking maximum value with limited public resources.",
+      "r": "I implemented CAGE's first institutional PMO with zero budget, directly transforming experience for 8 million Rio Grande do Sul taxpayers. HOW — Measurable impact for taxpayers (end customer): 70% reduction in digital project approval time (30 to 10 days) meant tax services delivered 3 weeks faster (refunds, negative certificates, online systems), projects delivered without delays improved citizen satisfaction, and R$700k saved were reinvested in direct taxpayer improvements (system infrastructure, online service). Stakeholder feedback: \"Finally we approved tax modernization project in 10 days instead of 30, delivering refunds faster\" (Revenue Secretary), \"Zero-budget PMO became model for entire SEFAZ\" (IDB Audit). Operational metrics: R$1.4M efficiency gains in first year, reduced timeline/budget deviations from 18% to 6% (-67%), 200 annual work hours optimized (reinvested in improvements), and 95% manager satisfaction (vs. 40% prior, +55pp, +137%). IDB auditors praised as example of management prioritizing citizen-customers, serving as model for other organizations seeking maximum value with limited public resources.",
       "l": "I learned that budget constraint is the mother of invention. This learning directly influenced founding my startup, Hub do Gestor, which was started completely 'bootstrapped', using open-source tools and focusing on a lean MVP, proving it's possible to create valuable business without large initial investments. This frugal mindset is especially critical in payment operations, where the pressure is to optimize transaction costs, reduce failed payment rates without increasing headcount, and scale reconciliation processes using intelligent automation instead of expensive systems -- exactly the skillset I demonstrated by creating a world-class PMO with $0 additional budget."
     },
     "fups": [
@@ -177,43 +177,22 @@
     "lp_id": "frugality",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 96,
-      "status": "Ready",
+      "score": 74,
+      "status": "Needs-Polish",
       "positives": [
-        "Customer Obsession forte (3 menções relevantes)",
-        "Métricas robustas (27)",
-        "Ratio EU:NÓS saudável (5:0)",
-        "Mecanismos/repeatability destacados"
+        "Métricas robustas (35)",
+        "Ratio EU:NÓS saudável (23.0:1)"
       ],
       "warnings": [
-        "Sem conflito/resistência visível",
-        "Transições STAR(L) pouco claras"
+        "Faltam transições narrativas entre seções STARL"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resistência visível",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
+          "message": "Faltam transições narrativas entre seções STARL",
           "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 5:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 27",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
@@ -222,70 +201,46 @@
         "warnings": []
       },
       "heur": {
-        "score": 96,
-        "status": "Ready",
+        "score": 74,
+        "status": "Needs-Polish",
         "dealbreakers": [],
         "warnings": [
-          "Sem conflito/resistência visível",
-          "Transições STAR(L) pouco claras"
+          "Faltam transições narrativas entre seções STARL"
         ],
         "positives": [
-          "Customer Obsession forte (3 menções relevantes)",
-          "Métricas robustas (27)",
-          "Ratio EU:NÓS saudável (5:0)",
-          "Mecanismos/repeatability destacados"
+          "Métricas robustas (35)",
+          "Ratio EU:NÓS saudável (23.0:1)"
         ],
-        "metricsCount": 27,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
+        "breakdown": {
+          "narrative": 11,
+          "metrics": 19,
+          "lpContent": 2,
+          "amazonAspects": 15,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 3,
-        "conflictSignals": false,
-        "mechanismSignals": 7,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 5,
-            "nos": 0
+        "details": {
+          "metrics": {
+            "count": 35,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": false
+          },
+          "contribution": {
+            "ratio": 23,
+            "eu": 23,
+            "nos": 1
+          },
+          "amazonAspects": {
+            "customerSignals": 4,
+            "mechanismSignals": 4,
+            "conflictSignals": 3
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 2
           }
-        },
-        "recency": {
-          "monthsAgo": -1,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 705,
-            "enLen": 642,
-            "deltaPct": 0.08936170212765958
-          },
-          "t": {
-            "ptLen": 649,
-            "enLen": 602,
-            "deltaPct": 0.0724191063174114
-          },
-          "a": {
-            "ptLen": 1227,
-            "enLen": 1132,
-            "deltaPct": 0.07742461287693561
-          },
-          "r": {
-            "ptLen": 833,
-            "enLen": 731,
-            "deltaPct": 0.12244897959183673
-          },
-          "l": {
-            "ptLen": 705,
-            "enLen": 678,
-            "deltaPct": 0.03829787234042553
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true,
-        "biasSignals": 0
+        }
       }
     }
   }

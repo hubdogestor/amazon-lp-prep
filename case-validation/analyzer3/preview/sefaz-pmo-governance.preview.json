@@ -177,37 +177,36 @@
     "lp_id": "insist_on_highest_standards",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 62,
+      "status": "Needs-Rewrite",
       "positives": [
-        "Customer Obsession forte (8 menções relevantes)",
         "Métricas robustas (23)",
-        "Ratio EU:NÓS saudável (9:1)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (25.0:1)"
       ],
       "warnings": [
-        "Sem métricas operacionais explícitas"
+        "desequil�brio PT/EN em 't' (diferen�a >25%)",
+        "Faltam transições narrativas entre seções STARL",
+        "Nenhum sinal de conflito ou superação de resistência"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem métricas operacionais explícitas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
+          "message": "desequil�brio PT/EN em 't' (diferen�a >25%)",
+          "action": "Refinar narrativa conforme alerta."
         },
         {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 9:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
         },
         {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 23",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Nenhum sinal de conflito ou superação de resistência",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         }
       ],
       "lint": {
@@ -218,70 +217,48 @@
         ]
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
+        "score": 62,
+        "status": "Needs-Rewrite",
         "dealbreakers": [],
         "warnings": [
-          "Sem métricas operacionais explícitas"
+          "desequil�brio PT/EN em 't' (diferen�a >25%)",
+          "Faltam transições narrativas entre seções STARL",
+          "Nenhum sinal de conflito ou superação de resistência"
         ],
         "positives": [
-          "Customer Obsession forte (8 menções relevantes)",
           "Métricas robustas (23)",
-          "Ratio EU:NÓS saudável (9:1)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+          "Ratio EU:NÓS saudável (25.0:1)"
         ],
-        "metricsCount": 23,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": false
+        "breakdown": {
+          "narrative": 10,
+          "metrics": 19,
+          "lpContent": 0,
+          "amazonAspects": 10,
+          "contribution": 10,
+          "structure": 7.5
         },
-        "customerSignals": 8,
-        "conflictSignals": true,
-        "mechanismSignals": 6,
-        "ratio": {
-          "ratio": 0.9,
-          "counts": {
-            "eu": 9,
+        "details": {
+          "metrics": {
+            "count": 23,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": false
+          },
+          "contribution": {
+            "ratio": 25,
+            "eu": 25,
             "nos": 1
+          },
+          "amazonAspects": {
+            "customerSignals": 7,
+            "mechanismSignals": 3,
+            "conflictSignals": 0
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 5,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 437,
-            "enLen": 399,
-            "deltaPct": 0.08695652173913043
-          },
-          "t": {
-            "ptLen": 263,
-            "enLen": 190,
-            "deltaPct": 0.27756653992395436
-          },
-          "a": {
-            "ptLen": 1164,
-            "enLen": 1179,
-            "deltaPct": 0.01272264631043257
-          },
-          "r": {
-            "ptLen": 501,
-            "enLen": 584,
-            "deltaPct": 0.1421232876712329
-          },
-          "l": {
-            "ptLen": 360,
-            "enLen": 287,
-            "deltaPct": 0.20277777777777778
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 3,
-        "micDropSignals": true,
-        "biasSignals": 0
+        }
       }
     }
   }

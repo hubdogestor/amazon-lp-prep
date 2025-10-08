@@ -177,37 +177,22 @@
     "lp_id": "invent_and_simplify",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 71,
+      "status": "Needs-Polish",
       "positives": [
-        "Customer Obsession forte (13 menções relevantes)",
         "Métricas robustas (22)",
-        "Ratio EU:NÓS saudável (7:0)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (25.0:1)"
       ],
       "warnings": [
-        "Transições STAR(L) pouco claras"
+        "Faltam transições narrativas entre seções STARL"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
+          "message": "Faltam transições narrativas entre seções STARL",
           "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 7:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 22",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
@@ -216,70 +201,46 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
+        "score": 71,
+        "status": "Needs-Polish",
         "dealbreakers": [],
         "warnings": [
-          "Transições STAR(L) pouco claras"
+          "Faltam transições narrativas entre seções STARL"
         ],
         "positives": [
-          "Customer Obsession forte (13 menções relevantes)",
           "Métricas robustas (22)",
-          "Ratio EU:NÓS saudável (7:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+          "Ratio EU:NÓS saudável (25.0:1)"
         ],
-        "metricsCount": 22,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
+        "breakdown": {
+          "narrative": 10,
+          "metrics": 20,
+          "lpContent": 0,
+          "amazonAspects": 15,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 13,
-        "conflictSignals": true,
-        "mechanismSignals": 15,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 7,
+        "details": {
+          "metrics": {
+            "count": 22,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 25,
+            "eu": 25,
             "nos": 0
+          },
+          "amazonAspects": {
+            "customerSignals": 16,
+            "mechanismSignals": 6,
+            "conflictSignals": 3
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 133,
-          "status": "stale"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 542,
-            "enLen": 548,
-            "deltaPct": 0.010948905109489052
-          },
-          "t": {
-            "ptLen": 281,
-            "enLen": 284,
-            "deltaPct": 0.01056338028169014
-          },
-          "a": {
-            "ptLen": 1149,
-            "enLen": 1075,
-            "deltaPct": 0.06440382941688425
-          },
-          "r": {
-            "ptLen": 478,
-            "enLen": 490,
-            "deltaPct": 0.024489795918367346
-          },
-          "l": {
-            "ptLen": 430,
-            "enLen": 408,
-            "deltaPct": 0.05116279069767442
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true,
-        "biasSignals": 0
+        }
       }
     }
   }

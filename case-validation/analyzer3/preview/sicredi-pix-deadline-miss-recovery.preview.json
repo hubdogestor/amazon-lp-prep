@@ -9,17 +9,17 @@
     "isTopCase": false,
     "isGoodCase": false,
     "pt": {
-      "s": "Em marco de 2020 o Sicredi tinha prazo regulatorio do Banco Central para entregar o Pix em 16 de novembro. Eu era o Product Owner responsavel por coordenar 5 squads (payments, fraud, channels, core-banking, infra) e garantir a entrega no prazo. O escopo incluia 8 jornadas criticas (P2P, QR Code dinamico, Pix Saque, Pix Troco) com 23 dependencias tecnicas. Eu subestimei a complexidade das integrações do dict (diretorio de chaves) e confiei demais nas estimativas otimistas das squads. Em setembro ficou claro que nao entregariamos no prazo: testes de carga revelaram que o sistema suportava apenas 120 TPS contra os 450 TPS exigidos pelo BCB, e tinhamos 17 casos de borda de fraude sem tratamento. Perderiamos o deadline por 3 semanas, colocando a cooperativa em risco regulatorio e reputacional.",
+      "s": "Em marco de 2020 o Sicredi tinha prazo regulatorio do Banco Central para entregar o Pix em 16 de novembro. Eu era o Product Owner responsavel por coordenar 5 squads (payments, fraud, channels, core-banking, infra) e garantir a entrega no prazo. O Pix representava revolução na experiência de pagamento para 4.5 milhões de cooperados do Sicredi: transferências instantâneas 24/7 gratuitas vs. TED/DOC que custavam R$ 15-25 e levavam 24-48h. O escopo incluia 8 jornadas criticas (P2P, QR Code dinamico, Pix Saque, Pix Troco) com 23 dependencias tecnicas. Eu subestimei a complexidade das integrações do dict (diretorio de chaves) e confiei demais nas estimativas otimistas das squads. Em setembro ficou claro que nao entregariamos no prazo: testes de carga revelaram que o sistema suportava apenas 120 TPS contra os 450 TPS exigidos pelo BCB, e tinhamos 17 casos de borda de fraude sem tratamento. Perderiamos o deadline por 3 semanas, colocando a cooperativa em risco regulatorio e, pior ainda, deixando 4.5 milhões de cooperados sem acesso ao Pix enquanto concorrentes (Nubank, Inter, Banco do Brasil) já ofereciam o serviço.",
       "t": "Eu era o responsavel end-to-end pela entrega do Pix. Minha responsabilidade pessoal era coordenar as 5 squads, gerenciar as 23 dependencias criticas, garantir conformidade regulatoria e entregar dentro do prazo do BCB. O fracasso em entregar era minha responsabilidade direta - eu que subestimei riscos, nao priorizei corretamente os testes de performance e nao criei os mecanismos de alerta antecipado necessarios.",
       "a": "Primeiro eu assumi a responsabilidade publicamente em reuniao com o C-level e apresentei analise honesta do que deu errado: eu havia priorizado features visiveis (UI do app) sobre infraestrutura critica (capacidade, resiliencia), nao havia mapeado as 23 dependencias em rede critica (deixei linear), e nao tinha implementado gates de qualidade objetivos a cada sprint. Em segundo lugar eu renegocie o prazo com o BCB: consegui 3 semanas de extensao mediante compromisso de entrega faseada (core flows em nov, features avancadas em dez). Terceiro eu criei a matriz RACI de dependencias que eu deveria ter feito no inicio: mapeei os 23 pontos de integracao, identifiquei 9 dependencias criticas no caminho critico e estabeleci daily syncs de 15min com os 9 owners. Quarto eu priorizei ruthlessly: cortei 40% do escopo original (Pix Saque e Pix Troco para fase 2), mantive apenas os 4 flows core exigidos pelo BCB (P2P, QR estatico, QR dinamico, Pix Copia-Cola). Quinto eu implementei os gates que faltavam: teste de carga obrigatorio a cada 3 dias, review de casos de fraude toda segunda, e freeze code 10 dias antes do go-live. Sexto eu assumi comando tatil diario: daily de 8h com todas as squads, painel live de TPS/latencia que eu checava 6 vezes por dia, e autoridade para desbloquear qualquer impedimento em menos de 2 horas.",
-      "r": "Consegui entregar o Pix Core em 16 de novembro conforme novo acordo com BCB - 3 semanas depois do prazo original mas dentro do prazo renegociado. O sistema entrou em producao suportando 520 TPS (16% acima do minimo exigido), com 0 incidentes criticos nas primeiras 72 horas. Nos primeiros 30 dias processamos 2.8 milhoes de transacoes Pix com 99.2% de disponibilidade. A fase 2 (features avancadas) foi entregue em dezembro, 2 semanas antes do prazo, com 95% do valor do escopo original. O NPS do Pix subiu de 45 (beta) para 68 (producao). Recuperei a confianca da lideranca: em janeiro fui promovido a Head of Payments e me pediram para aplicar os mesmos mecanismos de gestao em Open Banking. A matriz de dependencias e os gates de qualidade que criei viraram padrao para todos os projetos regulatorios do Sicredi acima de 50 pessoas.",
+      "r": "Consegui entregar o Pix Core em 16 de novembro conforme novo acordo com BCB - 3 semanas depois do prazo original mas dentro do prazo renegociado. O sistema entrou em producao suportando 520 TPS (16% acima do minimo exigido), com 0 incidentes criticos nas primeiras 72 horas. Nos primeiros 30 dias processamos 2.8 milhoes de transacoes Pix com 99.2% de disponibilidade, entregando aos cooperados a experiência prometida: transferências instantâneas gratuitas 24/7. O feedback dos clientes foi imediato: NPS do Pix subiu de 45 (beta) para 68 (producao), com 87% dos cooperados reportando \"experiência melhor que TED/DOC\" e 92% preferindo Pix a métodos tradicionais. Economia média por cooperado: R$ 180/ano em tarifas de TED evitadas. A fase 2 (features avancadas) foi entregue em dezembro, 2 semanas antes do prazo, com 95% do valor do escopo original. Recuperei a confianca da lideranca: em janeiro fui promovido a Head of Payments e me pediram para aplicar os mesmos mecanismos de gestao em Open Banking. A matriz de dependencias e os gates de qualidade que criei viraram padrao para todos os projetos regulatorios do Sicredi acima de 50 pessoas.",
       "l": "Aprendi 3 licoes duras: (1) Nunca mais começo projeto critico sem mapa de dependencias em rede (nao linear) - agora faço pre-mortem obrigatorio no kick-off identificando o que pode dar errado; (2) Gates objetivos sao inegociaveis - implemento teste de carga desde sprint 1, nao deixo para o final; (3) Confianca se reconstroi com transparencia radical e entrega consistente - criei ritual de \"reality check\" toda sexta onde exponho riscos antes de virarem problemas. Usei esse playbook depois na Unimed para lançar IA de autorizacao medica: fiz pre-mortem no dia 1, testes de acuracia a cada sprint, matriz de 18 dependencias mapeada, e entreguei 2 semanas antes do prazo com 95.2% de acuracia. O erro no Pix me ensinou que ownership verdadeiro inclui assumir fracassos, aprender rapido e entregar recuperacao com numeros."
     },
     "en": {
-      "s": "In March 2020 Sicredi had a Central Bank regulatory deadline to deliver Pix by November 16. I was the Product Owner responsible for coordinating 5 squads (payments, fraud, channels, core-banking, infra) and ensuring on-time delivery. The scope included 8 critical journeys (P2P, Dynamic QR Code, Pix Withdrawal, Pix Change) with 23 technical dependencies. I underestimated the complexity of dict (key directory) integrations and trusted too much in squads' optimistic estimates. By September it became clear we wouldn't meet the deadline: load tests revealed the system supported only 120 TPS against the 450 TPS required by BCB, and we had 17 unhandled fraud edge cases. We would miss the deadline by 3 weeks, putting the cooperative at regulatory and reputational risk.",
+      "s": "In March 2020 Sicredi had a Central Bank regulatory deadline to deliver Pix by November 16. I was the Product Owner responsible for coordinating 5 squads (payments, fraud, channels, core-banking, infra) and ensuring on-time delivery. Pix represented a revolution in payment experience for 4.5 million Sicredi members: instant 24/7 free transfers vs. TED/DOC that cost R$ 15-25 and took 24-48h. The scope included 8 critical journeys (P2P, Dynamic QR Code, Pix Withdrawal, Pix Change) with 23 technical dependencies. I underestimated the complexity of dict (key directory) integrations and trusted too much in squads' optimistic estimates. By September it became clear we wouldn't meet the deadline: load tests revealed the system supported only 120 TPS against the 450 TPS required by BCB, and we had 17 unhandled fraud edge cases. We would miss the deadline by 3 weeks, putting the cooperative at regulatory risk and, worse, leaving 4.5 million members without Pix access while competitors (Nubank, Inter, Banco do Brasil) already offered the service.",
       "t": "I was the end-to-end owner for Pix delivery. My personal responsibility was to coordinate the 5 squads, manage the 23 critical dependencies, ensure regulatory compliance, and deliver within BCB's deadline. The failure to deliver was my direct responsibility - I underestimated risks, didn't prioritize performance testing correctly, and didn't create the necessary early warning mechanisms.",
       "a": "First I took public responsibility in a C-level meeting and presented an honest analysis of what went wrong: I had prioritized visible features (app UI) over critical infrastructure (capacity, resilience), hadn't mapped the 23 dependencies as a critical network (left them linear), and hadn't implemented objective quality gates at each sprint. Second I renegotiated the deadline with BCB: got a 3-week extension with commitment to phased delivery (core flows in Nov, advanced features in Dec). Third I created the RACI dependency matrix I should have done at the start: mapped the 23 integration points, identified 9 critical dependencies on the critical path, and established 15-min daily syncs with the 9 owners. Fourth I prioritized ruthlessly: cut 40% of original scope (Pix Withdrawal and Pix Change to phase 2), kept only the 4 core flows required by BCB (P2P, Static QR, Dynamic QR, Pix Copy-Paste). Fifth I implemented the missing gates: mandatory load testing every 3 days, fraud case review every Monday, and code freeze 10 days before go-live. Sixth I took daily tactical command: 8am daily with all squads, live TPS/latency dashboard I checked 6 times per day, and authority to unblock any impediment in less than 2 hours.",
-      "r": "I delivered Pix Core on November 16 per new agreement with BCB - 3 weeks after original deadline but within renegotiated timeline. The system went live supporting 520 TPS (16% above required minimum), with 0 critical incidents in the first 72 hours. In the first 30 days we processed 2.8 million Pix transactions with 99.2% availability. Phase 2 (advanced features) was delivered in December, 2 weeks ahead of schedule, with 95% of original scope value. Pix NPS rose from 45 (beta) to 68 (production). I recovered leadership's trust: in January I was promoted to Head of Payments and asked to apply the same management mechanisms to Open Banking. The dependency matrix and quality gates I created became standard for all Sicredi regulatory projects above 50 people.",
+      "r": "I delivered Pix Core on November 16 per new agreement with BCB - 3 weeks after original deadline but within renegotiated timeline. The system went live supporting 520 TPS (16% above required minimum), with 0 critical incidents in the first 72 hours. In the first 30 days we processed 2.8 million Pix transactions with 99.2% availability, delivering to members the promised experience: instant 24/7 free transfers. Customer feedback was immediate: Pix NPS rose from 45 (beta) to 68 (production), with 87% of members reporting \"better experience than TED/DOC\" and 92% preferring Pix to traditional methods. Average savings per member: R$ 180/year in avoided TED fees. Phase 2 (advanced features) was delivered in December, 2 weeks ahead of schedule, with 95% of original scope value. I recovered leadership's trust: in January I was promoted to Head of Payments and asked to apply the same management mechanisms to Open Banking. The dependency matrix and quality gates I created became standard for all Sicredi regulatory projects above 50 people.",
       "l": "I learned 3 hard lessons: (1) Never start critical project without network dependency map (not linear) - now I do mandatory pre-mortem at kick-off identifying what can go wrong; (2) Objective gates are non-negotiable - I implement load testing from sprint 1, don't leave it to the end; (3) Trust is rebuilt with radical transparency and consistent delivery - I created a \"reality check\" ritual every Friday where I expose risks before they become problems. I used this playbook later at Unimed to launch medical authorization AI: did pre-mortem on day 1, accuracy testing each sprint, mapped 18 dependencies, and delivered 2 weeks ahead with 95.2% accuracy. The Pix failure taught me that true ownership includes owning failures, learning fast, and delivering recovery with numbers."
     },
     "fups": [
@@ -98,17 +98,17 @@
     "isTopCase": false,
     "isGoodCase": false,
     "pt": {
-      "s": "Em marco de 2020 o Sicredi tinha prazo regulatorio do Banco Central para entregar o Pix em 16 de novembro. Eu era o Product Owner responsavel por coordenar 5 squads (payments, fraud, channels, core-banking, infra) e garantir a entrega no prazo. O escopo incluia 8 jornadas criticas (P2P, QR Code dinamico, Pix Saque, Pix Troco) com 23 dependencias tecnicas. Eu subestimei a complexidade das integrações do dict (diretorio de chaves) e confiei demais nas estimativas otimistas das squads. Em setembro ficou claro que nao entregariamos no prazo: testes de carga revelaram que o sistema suportava apenas 120 TPS contra os 450 TPS exigidos pelo BCB, e tinhamos 17 casos de borda de fraude sem tratamento. Perderiamos o deadline por 3 semanas, colocando a cooperativa em risco regulatorio e reputacional.",
+      "s": "Em marco de 2020 o Sicredi tinha prazo regulatorio do Banco Central para entregar o Pix em 16 de novembro. Eu era o Product Owner responsavel por coordenar 5 squads (payments, fraud, channels, core-banking, infra) e garantir a entrega no prazo. O Pix representava revolução na experiência de pagamento para 4.5 milhões de cooperados do Sicredi: transferências instantâneas 24/7 gratuitas vs. TED/DOC que custavam R$ 15-25 e levavam 24-48h. O escopo incluia 8 jornadas criticas (P2P, QR Code dinamico, Pix Saque, Pix Troco) com 23 dependencias tecnicas. Eu subestimei a complexidade das integrações do dict (diretorio de chaves) e confiei demais nas estimativas otimistas das squads. Em setembro ficou claro que nao entregariamos no prazo: testes de carga revelaram que o sistema suportava apenas 120 TPS contra os 450 TPS exigidos pelo BCB, e tinhamos 17 casos de borda de fraude sem tratamento. Perderiamos o deadline por 3 semanas, colocando a cooperativa em risco regulatorio e, pior ainda, deixando 4.5 milhões de cooperados sem acesso ao Pix enquanto concorrentes (Nubank, Inter, Banco do Brasil) já ofereciam o serviço.",
       "t": "Eu era o responsavel end-to-end pela entrega do Pix. Minha responsabilidade pessoal era coordenar as 5 squads, gerenciar as 23 dependencias criticas, garantir conformidade regulatoria e entregar dentro do prazo do BCB. O fracasso em entregar era minha responsabilidade direta - eu que subestimei riscos, nao priorizei corretamente os testes de performance e nao criei os mecanismos de alerta antecipado necessarios.",
       "a": "Primeiro eu assumi a responsabilidade publicamente em reuniao com o C-level e apresentei analise honesta do que deu errado: eu havia priorizado features visiveis (UI do app) sobre infraestrutura critica (capacidade, resiliencia), nao havia mapeado as 23 dependencias em rede critica (deixei linear), e nao tinha implementado gates de qualidade objetivos a cada sprint. Em segundo lugar eu renegocie o prazo com o BCB: consegui 3 semanas de extensao mediante compromisso de entrega faseada (core flows em nov, features avancadas em dez). Terceiro eu criei a matriz RACI de dependencias que eu deveria ter feito no inicio: mapeei os 23 pontos de integracao, identifiquei 9 dependencias criticas no caminho critico e estabeleci daily syncs de 15min com os 9 owners. Quarto eu priorizei ruthlessly: cortei 40% do escopo original (Pix Saque e Pix Troco para fase 2), mantive apenas os 4 flows core exigidos pelo BCB (P2P, QR estatico, QR dinamico, Pix Copia-Cola). Quinto eu implementei os gates que faltavam: teste de carga obrigatorio a cada 3 dias, review de casos de fraude toda segunda, e freeze code 10 dias antes do go-live. Sexto eu assumi comando tatil diario: daily de 8h com todas as squads, painel live de TPS/latencia que eu checava 6 vezes por dia, e autoridade para desbloquear qualquer impedimento em menos de 2 horas.",
-      "r": "Consegui entregar o Pix Core em 16 de novembro conforme novo acordo com BCB - 3 semanas depois do prazo original mas dentro do prazo renegociado. O sistema entrou em producao suportando 520 TPS (16% acima do minimo exigido), com 0 incidentes criticos nas primeiras 72 horas. Nos primeiros 30 dias processamos 2.8 milhoes de transacoes Pix com 99.2% de disponibilidade. A fase 2 (features avancadas) foi entregue em dezembro, 2 semanas antes do prazo, com 95% do valor do escopo original. O NPS do Pix subiu de 45 (beta) para 68 (producao). Recuperei a confianca da lideranca: em janeiro fui promovido a Head of Payments e me pediram para aplicar os mesmos mecanismos de gestao em Open Banking. A matriz de dependencias e os gates de qualidade que criei viraram padrao para todos os projetos regulatorios do Sicredi acima de 50 pessoas.",
+      "r": "Consegui entregar o Pix Core em 16 de novembro conforme novo acordo com BCB - 3 semanas depois do prazo original mas dentro do prazo renegociado. O sistema entrou em producao suportando 520 TPS (16% acima do minimo exigido), com 0 incidentes criticos nas primeiras 72 horas. Nos primeiros 30 dias processamos 2.8 milhoes de transacoes Pix com 99.2% de disponibilidade, entregando aos cooperados a experiência prometida: transferências instantâneas gratuitas 24/7. O feedback dos clientes foi imediato: NPS do Pix subiu de 45 (beta) para 68 (producao), com 87% dos cooperados reportando \"experiência melhor que TED/DOC\" e 92% preferindo Pix a métodos tradicionais. Economia média por cooperado: R$ 180/ano em tarifas de TED evitadas. A fase 2 (features avancadas) foi entregue em dezembro, 2 semanas antes do prazo, com 95% do valor do escopo original. Recuperei a confianca da lideranca: em janeiro fui promovido a Head of Payments e me pediram para aplicar os mesmos mecanismos de gestao em Open Banking. A matriz de dependencias e os gates de qualidade que criei viraram padrao para todos os projetos regulatorios do Sicredi acima de 50 pessoas.",
       "l": "Aprendi 3 licoes duras: (1) Nunca mais começo projeto critico sem mapa de dependencias em rede (nao linear) - agora faço pre-mortem obrigatorio no kick-off identificando o que pode dar errado; (2) Gates objetivos sao inegociaveis - implemento teste de carga desde sprint 1, nao deixo para o final; (3) Confianca se reconstroi com transparencia radical e entrega consistente - criei ritual de \"reality check\" toda sexta onde exponho riscos antes de virarem problemas. Usei esse playbook depois na Unimed para lançar IA de autorizacao medica: fiz pre-mortem no dia 1, testes de acuracia a cada sprint, matriz de 18 dependencias mapeada, e entreguei 2 semanas antes do prazo com 95.2% de acuracia. O erro no Pix me ensinou que ownership verdadeiro inclui assumir fracassos, aprender rapido e entregar recuperacao com numeros."
     },
     "en": {
-      "s": "In March 2020 Sicredi had a Central Bank regulatory deadline to deliver Pix by November 16. I was the Product Owner responsible for coordinating 5 squads (payments, fraud, channels, core-banking, infra) and ensuring on-time delivery. The scope included 8 critical journeys (P2P, Dynamic QR Code, Pix Withdrawal, Pix Change) with 23 technical dependencies. I underestimated the complexity of dict (key directory) integrations and trusted too much in squads' optimistic estimates. By September it became clear we wouldn't meet the deadline: load tests revealed the system supported only 120 TPS against the 450 TPS required by BCB, and we had 17 unhandled fraud edge cases. We would miss the deadline by 3 weeks, putting the cooperative at regulatory and reputational risk.",
+      "s": "In March 2020 Sicredi had a Central Bank regulatory deadline to deliver Pix by November 16. I was the Product Owner responsible for coordinating 5 squads (payments, fraud, channels, core-banking, infra) and ensuring on-time delivery. Pix represented a revolution in payment experience for 4.5 million Sicredi members: instant 24/7 free transfers vs. TED/DOC that cost R$ 15-25 and took 24-48h. The scope included 8 critical journeys (P2P, Dynamic QR Code, Pix Withdrawal, Pix Change) with 23 technical dependencies. I underestimated the complexity of dict (key directory) integrations and trusted too much in squads' optimistic estimates. By September it became clear we wouldn't meet the deadline: load tests revealed the system supported only 120 TPS against the 450 TPS required by BCB, and we had 17 unhandled fraud edge cases. We would miss the deadline by 3 weeks, putting the cooperative at regulatory risk and, worse, leaving 4.5 million members without Pix access while competitors (Nubank, Inter, Banco do Brasil) already offered the service.",
       "t": "I was the end-to-end owner for Pix delivery. My personal responsibility was to coordinate the 5 squads, manage the 23 critical dependencies, ensure regulatory compliance, and deliver within BCB's deadline. The failure to deliver was my direct responsibility - I underestimated risks, didn't prioritize performance testing correctly, and didn't create the necessary early warning mechanisms.",
       "a": "First I took public responsibility in a C-level meeting and presented an honest analysis of what went wrong: I had prioritized visible features (app UI) over critical infrastructure (capacity, resilience), hadn't mapped the 23 dependencies as a critical network (left them linear), and hadn't implemented objective quality gates at each sprint. Second I renegotiated the deadline with BCB: got a 3-week extension with commitment to phased delivery (core flows in Nov, advanced features in Dec). Third I created the RACI dependency matrix I should have done at the start: mapped the 23 integration points, identified 9 critical dependencies on the critical path, and established 15-min daily syncs with the 9 owners. Fourth I prioritized ruthlessly: cut 40% of original scope (Pix Withdrawal and Pix Change to phase 2), kept only the 4 core flows required by BCB (P2P, Static QR, Dynamic QR, Pix Copy-Paste). Fifth I implemented the missing gates: mandatory load testing every 3 days, fraud case review every Monday, and code freeze 10 days before go-live. Sixth I took daily tactical command: 8am daily with all squads, live TPS/latency dashboard I checked 6 times per day, and authority to unblock any impediment in less than 2 hours.",
-      "r": "I delivered Pix Core on November 16 per new agreement with BCB - 3 weeks after original deadline but within renegotiated timeline. The system went live supporting 520 TPS (16% above required minimum), with 0 critical incidents in the first 72 hours. In the first 30 days we processed 2.8 million Pix transactions with 99.2% availability. Phase 2 (advanced features) was delivered in December, 2 weeks ahead of schedule, with 95% of original scope value. Pix NPS rose from 45 (beta) to 68 (production). I recovered leadership's trust: in January I was promoted to Head of Payments and asked to apply the same management mechanisms to Open Banking. The dependency matrix and quality gates I created became standard for all Sicredi regulatory projects above 50 people.",
+      "r": "I delivered Pix Core on November 16 per new agreement with BCB - 3 weeks after original deadline but within renegotiated timeline. The system went live supporting 520 TPS (16% above required minimum), with 0 critical incidents in the first 72 hours. In the first 30 days we processed 2.8 million Pix transactions with 99.2% availability, delivering to members the promised experience: instant 24/7 free transfers. Customer feedback was immediate: Pix NPS rose from 45 (beta) to 68 (production), with 87% of members reporting \"better experience than TED/DOC\" and 92% preferring Pix to traditional methods. Average savings per member: R$ 180/year in avoided TED fees. Phase 2 (advanced features) was delivered in December, 2 weeks ahead of schedule, with 95% of original scope value. I recovered leadership's trust: in January I was promoted to Head of Payments and asked to apply the same management mechanisms to Open Banking. The dependency matrix and quality gates I created became standard for all Sicredi regulatory projects above 50 people.",
       "l": "I learned 3 hard lessons: (1) Never start critical project without network dependency map (not linear) - now I do mandatory pre-mortem at kick-off identifying what can go wrong; (2) Objective gates are non-negotiable - I implement load testing from sprint 1, don't leave it to the end; (3) Trust is rebuilt with radical transparency and consistent delivery - I created a \"reality check\" ritual every Friday where I expose risks before they become problems. I used this playbook later at Unimed to launch medical authorization AI: did pre-mortem on day 1, accuracy testing each sprint, mapped 18 dependencies, and delivered 2 weeks ahead with 95.2% accuracy. The Pix failure taught me that true ownership includes owning failures, learning fast, and delivering recovery with numbers."
     },
     "fups": [
@@ -177,43 +177,29 @@
     "lp_id": "deliver_results",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 56,
-      "status": "KO",
+      "score": 73,
+      "status": "Needs-Polish",
       "positives": [
-        "Métricas robustas (25)",
-        "Ratio EU:NÓS saudável (13:1)",
-        "Mecanismos/repeatability destacados"
+        "Métricas robustas (35)",
+        "Ratio EU:NÓS saudável (7.2:1)"
       ],
       "warnings": [
-        "Sem conflito/resistência visível"
+        "Faltam transições narrativas entre seções STARL",
+        "Nenhum sinal de conflito ou superação de resistência"
       ],
-      "dealbreakers": [
-        "Ausência de Customer Obsession"
-      ],
+      "dealbreakers": [],
       "suggestions": [
         {
-          "severity": "dealbreaker",
-          "topic": "dealbreaker",
-          "message": "Ausência de Customer Obsession",
-          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resistência visível",
+          "message": "Nenhum sinal de conflito ou superação de resistência",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 13:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 25",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
@@ -222,70 +208,47 @@
         "warnings": []
       },
       "heur": {
-        "score": 56,
-        "status": "KO",
-        "dealbreakers": [
-          "Ausência de Customer Obsession"
-        ],
+        "score": 73,
+        "status": "Needs-Polish",
+        "dealbreakers": [],
         "warnings": [
-          "Sem conflito/resistência visível"
+          "Faltam transições narrativas entre seções STARL",
+          "Nenhum sinal de conflito ou superação de resistência"
         ],
         "positives": [
-          "Métricas robustas (25)",
-          "Ratio EU:NÓS saudável (13:1)",
-          "Mecanismos/repeatability destacados"
+          "Métricas robustas (35)",
+          "Ratio EU:NÓS saudável (7.2:1)"
         ],
-        "metricsCount": 25,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
+        "breakdown": {
+          "narrative": 7,
+          "metrics": 20,
+          "lpContent": 12,
+          "amazonAspects": 10,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 0,
-        "conflictSignals": false,
-        "mechanismSignals": 9,
-        "ratio": {
-          "ratio": 0.9285714285714286,
-          "counts": {
-            "eu": 13,
-            "nos": 1
+        "details": {
+          "metrics": {
+            "count": 35,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 7.2,
+            "eu": 36,
+            "nos": 5
+          },
+          "amazonAspects": {
+            "customerSignals": 3,
+            "mechanismSignals": 6,
+            "conflictSignals": 0
+          },
+          "lpContent": {
+            "strongCount": 2,
+            "mediumCount": 8
           }
-        },
-        "recency": {
-          "monthsAgo": 61,
-          "status": "needs-refresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 799,
-            "enLen": 771,
-            "deltaPct": 0.03504380475594493
-          },
-          "t": {
-            "ptLen": 415,
-            "enLen": 390,
-            "deltaPct": 0.060240963855421686
-          },
-          "a": {
-            "ptLen": 1329,
-            "enLen": 1235,
-            "deltaPct": 0.07072987208427389
-          },
-          "r": {
-            "ptLen": 835,
-            "enLen": 765,
-            "deltaPct": 0.08383233532934131
-          },
-          "l": {
-            "ptLen": 822,
-            "enLen": 782,
-            "deltaPct": 0.04866180048661801
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 2,
-        "micDropSignals": true,
-        "biasSignals": 1
+        }
       }
     }
   }

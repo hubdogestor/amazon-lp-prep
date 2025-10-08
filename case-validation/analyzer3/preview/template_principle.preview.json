@@ -573,95 +573,186 @@
     "__scorecard": {
       "score": 0,
       "status": "KO",
-      "positives": [
-        "Ratio EU:NÓS saudável (0:0)"
-      ],
+      "positives": [],
       "warnings": [
-        "Sem métricas financeiras claras",
-        "Sem métricas de cliente explícitas",
-        "Sem métricas operacionais explícitas",
-        "Sem conflito/resistência visível",
-        "Mecanismos/processos não evidenciados",
-        "Hook inicial pode ser mais contundente",
-        "Transições STAR(L) pouco claras",
-        "Mic-drop/aprendizado forte não identificado"
+        "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)",
+        "Hook inicial fraco (sem urgência ou stakes claros)",
+        "Faltam transições narrativas entre seções STARL",
+        "Nenhum sinal de conflito ou superação de resistência",
+        "Nenhum mecanismo ou processo replicável mencionado"
       ],
       "dealbreakers": [
-        "Ausência de Customer Obsession",
-        "Menos de 8 métricas (0)"
+        "campo 'title_pt' ausente ou vazio",
+        "campo 'title_en' ausente ou vazio",
+        "campo 'company' ausente ou vazio",
+        "campo 'period' ausente ou vazio",
+        "objeto pt ausente",
+        "objeto en ausente",
+        "pt.s ausente ou vazio",
+        "en.s ausente ou vazio",
+        "pt.t ausente ou vazio",
+        "en.t ausente ou vazio",
+        "pt.a ausente ou vazio",
+        "en.a ausente ou vazio",
+        "pt.r ausente ou vazio",
+        "en.r ausente ou vazio",
+        "pt.l ausente ou vazio",
+        "en.l ausente ou vazio",
+        "FUPs insuficientes: 0 (necess�rio 10)",
+        "Métricas insuficientes: 0 (mínimo 5)",
+        "Ausência total de sinais de Customer Obsession",
+        "Ratio EU:NÓS crítico: 0.0:1 (mínimo 2:1)"
       ],
       "suggestions": [
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Ausência de Customer Obsession",
+          "message": "campo 'title_pt' ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "campo 'title_en' ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "campo 'company' ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "campo 'period' ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "objeto pt ausente",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "objeto en ausente",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "pt.s ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "en.s ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "pt.t ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "en.t ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "pt.a ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "en.a ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "pt.r ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "en.r ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "pt.l ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "en.l ausente ou vazio",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "FUPs insuficientes: 0 (necess�rio 10)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Métricas insuficientes: 0 (mínimo 5)",
+          "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Ausência total de sinais de Customer Obsession",
           "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
         },
         {
           "severity": "dealbreaker",
           "topic": "dealbreaker",
-          "message": "Menos de 8 métricas (0)",
+          "message": "Ratio EU:NÓS crítico: 0.0:1 (mínimo 2:1)",
           "action": "Revisar conte�do com foco nas exig�ncias LP Amazon."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem métricas financeiras claras",
+          "message": "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem métricas de cliente explícitas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem métricas operacionais explícitas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resistência visível",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Mecanismos/processos não evidenciados",
-          "action": "Explicar processos repet�veis criados (cad�ncia, dashboards, automa��es, playbooks)."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial pode ser mais contundente",
+          "message": "Hook inicial fraco (sem urgência ou stakes claros)",
           "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
+          "message": "Faltam transições narrativas entre seções STARL",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Mic-drop/aprendizado forte não identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 0:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+          "message": "Nenhum sinal de conflito ou superação de resistência",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
           "severity": "warning",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 0",
-          "action": "Inserir ou detalhar m�tricas espec�ficas (cliente, financeiro, opera��o) nas se��es R e A."
+          "topic": "warning",
+          "message": "Nenhum mecanismo ou processo replicável mencionado",
+          "action": "Refinar narrativa conforme alerta."
         }
       ],
       "lint": {
@@ -693,73 +784,65 @@
         "score": 0,
         "status": "KO",
         "dealbreakers": [
-          "Ausência de Customer Obsession",
-          "Menos de 8 métricas (0)"
+          "campo 'title_pt' ausente ou vazio",
+          "campo 'title_en' ausente ou vazio",
+          "campo 'company' ausente ou vazio",
+          "campo 'period' ausente ou vazio",
+          "objeto pt ausente",
+          "objeto en ausente",
+          "pt.s ausente ou vazio",
+          "en.s ausente ou vazio",
+          "pt.t ausente ou vazio",
+          "en.t ausente ou vazio",
+          "pt.a ausente ou vazio",
+          "en.a ausente ou vazio",
+          "pt.r ausente ou vazio",
+          "en.r ausente ou vazio",
+          "pt.l ausente ou vazio",
+          "en.l ausente ou vazio",
+          "FUPs insuficientes: 0 (necess�rio 10)",
+          "Métricas insuficientes: 0 (mínimo 5)",
+          "Ausência total de sinais de Customer Obsession",
+          "Ratio EU:NÓS crítico: 0.0:1 (mínimo 2:1)"
         ],
         "warnings": [
-          "Sem métricas financeiras claras",
-          "Sem métricas de cliente explícitas",
-          "Sem métricas operacionais explícitas",
-          "Sem conflito/resistência visível",
-          "Mecanismos/processos não evidenciados",
-          "Hook inicial pode ser mais contundente",
-          "Transições STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte não identificado"
+          "periodo sem ano reconhec�vel (esperado MM/YYYY-... ou YYYY)",
+          "Hook inicial fraco (sem urgência ou stakes claros)",
+          "Faltam transições narrativas entre seções STARL",
+          "Nenhum sinal de conflito ou superação de resistência",
+          "Nenhum mecanismo ou processo replicável mencionado"
         ],
-        "positives": [
-          "Ratio EU:NÓS saudável (0:0)"
-        ],
-        "metricsCount": 0,
-        "metricCategories": {
-          "financial": false,
-          "customer": false,
-          "operational": false
+        "positives": [],
+        "breakdown": {
+          "narrative": 0,
+          "metrics": 0,
+          "lpContent": 0,
+          "amazonAspects": 0,
+          "contribution": 0,
+          "structure": 0
         },
-        "customerSignals": 0,
-        "conflictSignals": false,
-        "mechanismSignals": 0,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
+        "details": {
+          "metrics": {
+            "count": 0,
+            "hasFinancial": false,
+            "hasCustomer": false,
+            "hasOperational": false
+          },
+          "contribution": {
+            "ratio": 0,
             "eu": 0,
             "nos": 0
+          },
+          "amazonAspects": {
+            "customerSignals": 0,
+            "mechanismSignals": 0,
+            "conflictSignals": 0
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": null,
-          "status": "unknown"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 0,
-            "enLen": 0,
-            "deltaPct": 0
-          },
-          "t": {
-            "ptLen": 0,
-            "enLen": 0,
-            "deltaPct": 0
-          },
-          "a": {
-            "ptLen": 0,
-            "enLen": 0,
-            "deltaPct": 0
-          },
-          "r": {
-            "ptLen": 0,
-            "enLen": 0,
-            "deltaPct": 0
-          },
-          "l": {
-            "ptLen": 0,
-            "enLen": 0,
-            "deltaPct": 0
-          }
-        },
-        "hookSignals": false,
-        "transitionSignals": 0,
-        "micDropSignals": false,
-        "biasSignals": 0
+        }
       }
     },
     "fups": [

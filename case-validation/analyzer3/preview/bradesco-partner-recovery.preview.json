@@ -98,14 +98,14 @@
     "isTopCase": false,
     "isGoodCase": false,
     "pt": {
-      "s": "Um marketplace que respondia por 18% do nosso TPV suspendeu operacoes em setembro de 2022 depois que atrasamos tres ciclos de liquidacao D+1. R$ 420M ficaram parados, 8.700 sellers reclamaram e o parceiro publicou notinha dizendo que migraria para concorrente. O CEO exigiu que eu abrisse renegociacao com garantia pessoal de que o problema nao voltaria.",
+      "s": "O desafio começou quando um marketplace que respondia por 18% do nosso TPV suspendeu operacoes em setembro de 2022 depois que atrasamos tres ciclos de liquidacao D+1. R$ 420M ficaram parados, 8.700 sellers reclamaram e o parceiro publicou notinha dizendo que migraria para concorrente. O CEO exigiu que eu abrisse renegociacao com garantia pessoal de que o problema nao voltaria.",
       "t": "Eu assumi como single-threaded owner. Prometi normalizar o backlog em 10 dias, reduzir variacao de saldo a menos de 0,2% e assinar um acordo de nivel de confianca com clausulas que eu mesmo supervisionaria.",
       "a": "Primeiro eu tracei a raiz: um descompasso entre agenda de liquidez e janelas de recompra. Eu sentei com tesouraria e impus um buffer de R$ 80M sob meu controle, com previsao de caixa atualizada a cada 4 horas. Enfrentei a resistencia do diretor financeiro que nao queria imobilizar capital; eu provei que perder o parceiro destruiria R$ 52M em receita anual e aceitei reduzir meu budget de marketing em 18% para compensar. Segundo, criei o mecanismo \"Saldo Garantido 7h\": todo seller receberia extrato assinado por mim as 7h mostrando saldo futuro, repasse e eventual ajuste. Terceiro, fui ao parceiro, apresentei dados, reconheci publicamente a falha e pedi 30 dias para estabilizar. Eu aceitei auditoria externa deles, abri acesso ao meu dashboard e fiz stand-up diario com o CFO do marketplace. Quarto, implantei um monitor de confianca com 12 indicadores (SLA, tickets, saldo, NPS) e enviei carta semanal com resumo, incidentes e plano.",
       "r": "Em 9 dias eu zerei o backlog de R$ 420M, zerei tickets acima de 24h, e o NPS do parceiro voltou de 18 para 63 em seis semanas. A variacao de saldo ficou em 0,08%, o churn de sellers caiu 3,9 p.p., e o marketplace assinou renovacao de contrato por mais dois anos. O executivo que me cobrou inicialmente passou a me convidar para revisar novos produtos conjuntos.",
       "l": "Eu aprendi que earn trust com parceiro so acontece quando voce compromete capital proprio e comunica a verdade antes do boato. Mostrar saldo futuro assinado por mim mudou o relacionamento: hoje qualquer parceiro recebe a carta diaria mesmo sem incidente."
     },
     "en": {
-      "s": "A marketplace responsible for 18% of our TPV halted operations in September 2022 after we missed three D+1 settlement cycles. BRL 420M remained frozen, 8,700 sellers complained, and the partner announced they would migrate to a competitor. The CEO demanded I renegotiate with personal assurance the issue would not recur.",
+      "s": "The challenge began when a marketplace responsible for 18% of our TPV halted operations in September 2022 after we missed three D+1 settlement cycles. BRL 420M remained frozen, 8,700 sellers complained, and the partner announced they would migrate to a competitor. The CEO demanded I renegotiate with personal assurance the issue would not recur.",
       "t": "I acted as the single-threaded owner. I committed to clear the backlog within ten days, keep balance variance under 0.2%, and sign a trust-level agreement with clauses I would personally supervise.",
       "a": "I diagnosed the root cause: a mismatch between liquidity schedule and buyback windows. I sat with treasury and imposed an BRL 80M buffer under my control with cash forecasts refreshed every four hours. The finance director resisted the capital lock; I proved losing the partner would destroy BRL 52M in annual revenue and agreed to cut my marketing budget by 18% to offset. Next I created the \"7 a.m. Guaranteed Balance\" mechanism: every seller received a statement signed by me at 7 a.m. showing future balance, payout, and any adjustment. I visited the partner, presented the data, owned the error publicly, and asked for 30 days to stabilize. I accepted their external audit, opened dashboard access, and ran a daily stand-up with the partner CFO. Finally I implemented a trust monitor with twelve indicators (SLA, tickets, balance, NPS) and sent a weekly letter summarizing incidents and plans.",
       "r": "Within nine days I cleared the BRL 420M backlog, eliminated tickets older than 24 hours, and the partner NPS rose from 18 to 63 within six weeks. Balance variance stayed at 0.08%, seller churn fell 3.9 p.p., and the marketplace renewed the contract for two years. The executive who challenged me now invites me to co-design joint products.",
@@ -177,29 +177,41 @@
     "lp_id": "earn_trust",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 60,
+      "status": "Needs-Rewrite",
       "positives": [
-        "Customer Obsession forte (22 menções relevantes)",
         "Métricas robustas (15)",
-        "Ratio EU:NÓS saudável (9:0)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (22.0:1)"
       ],
-      "warnings": [],
+      "warnings": [
+        "Hook inicial fraco (sem urgência ou stakes claros)",
+        "Faltam transições narrativas entre seções STARL"
+      ],
       "dealbreakers": [],
       "suggestions": [
         {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 9:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[pt] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
         },
         {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 15",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[en] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Hook inicial fraco (sem urgência ou stakes claros)",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
         }
       ],
       "lint": {
@@ -208,68 +220,47 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
+        "score": 60,
+        "status": "Needs-Rewrite",
         "dealbreakers": [],
-        "warnings": [],
-        "positives": [
-          "Customer Obsession forte (22 menções relevantes)",
-          "Métricas robustas (15)",
-          "Ratio EU:NÓS saudável (9:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+        "warnings": [
+          "Hook inicial fraco (sem urgência ou stakes claros)",
+          "Faltam transições narrativas entre seções STARL"
         ],
-        "metricsCount": 15,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
+        "positives": [
+          "Métricas robustas (15)",
+          "Ratio EU:NÓS saudável (22.0:1)"
+        ],
+        "breakdown": {
+          "narrative": 7,
+          "metrics": 20,
+          "lpContent": 0,
+          "amazonAspects": 9,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 22,
-        "conflictSignals": true,
-        "mechanismSignals": 3,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 9,
-            "nos": 0
+        "details": {
+          "metrics": {
+            "count": 15,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 22,
+            "eu": 22,
+            "nos": 1
+          },
+          "amazonAspects": {
+            "customerSignals": 6,
+            "mechanismSignals": 1,
+            "conflictSignals": 1
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 93,
-          "status": "aging"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 354,
-            "enLen": 321,
-            "deltaPct": 0.09322033898305085
-          },
-          "t": {
-            "ptLen": 206,
-            "enLen": 197,
-            "deltaPct": 0.043689320388349516
-          },
-          "a": {
-            "ptLen": 940,
-            "enLen": 898,
-            "deltaPct": 0.04468085106382979
-          },
-          "r": {
-            "ptLen": 361,
-            "enLen": 339,
-            "deltaPct": 0.060941828254847646
-          },
-          "l": {
-            "ptLen": 254,
-            "enLen": 283,
-            "deltaPct": 0.10247349823321555
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 2,
-        "micDropSignals": true,
-        "biasSignals": 0
+        }
       }
     }
   }

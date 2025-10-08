@@ -177,29 +177,22 @@
     "lp_id": "invent_and_simplify",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 69,
+      "status": "Needs-Rewrite",
       "positives": [
-        "Customer Obsession forte (12 menções relevantes)",
         "Métricas robustas (23)",
-        "Ratio EU:NÓS saudável (15:0)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (38.0:1)"
       ],
-      "warnings": [],
+      "warnings": [
+        "Faltam transições narrativas entre seções STARL"
+      ],
       "dealbreakers": [],
       "suggestions": [
         {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 15:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 23",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
         }
       ],
       "lint": {
@@ -208,68 +201,46 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
+        "score": 69,
+        "status": "Needs-Rewrite",
         "dealbreakers": [],
-        "warnings": [],
-        "positives": [
-          "Customer Obsession forte (12 menções relevantes)",
-          "Métricas robustas (23)",
-          "Ratio EU:NÓS saudável (15:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+        "warnings": [
+          "Faltam transições narrativas entre seções STARL"
         ],
-        "metricsCount": 23,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
+        "positives": [
+          "Métricas robustas (23)",
+          "Ratio EU:NÓS saudável (38.0:1)"
+        ],
+        "breakdown": {
+          "narrative": 8,
+          "metrics": 20,
+          "lpContent": 0,
+          "amazonAspects": 15,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 12,
-        "conflictSignals": true,
-        "mechanismSignals": 5,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 15,
-            "nos": 0
+        "details": {
+          "metrics": {
+            "count": 23,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 38,
+            "eu": 38,
+            "nos": 1
+          },
+          "amazonAspects": {
+            "customerSignals": 6,
+            "mechanismSignals": 3,
+            "conflictSignals": 2
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 24,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 520,
-            "enLen": 523,
-            "deltaPct": 0.0057361376673040155
-          },
-          "t": {
-            "ptLen": 288,
-            "enLen": 267,
-            "deltaPct": 0.07291666666666667
-          },
-          "a": {
-            "ptLen": 1111,
-            "enLen": 1074,
-            "deltaPct": 0.0333033303330333
-          },
-          "r": {
-            "ptLen": 551,
-            "enLen": 524,
-            "deltaPct": 0.04900181488203267
-          },
-          "l": {
-            "ptLen": 455,
-            "enLen": 416,
-            "deltaPct": 0.08571428571428572
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 2,
-        "micDropSignals": true,
-        "biasSignals": 3
+        }
       }
     }
   }

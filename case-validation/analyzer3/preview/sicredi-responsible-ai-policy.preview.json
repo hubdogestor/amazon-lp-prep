@@ -9,14 +9,14 @@
     "isTopCase": true,
     "isGoodCase": false,
     "pt": {
-      "s": "No Sicredi, ao introduzirmos o primeiro modelo de ML para pré-aprovação de crédito, o sucesso trouxe uma nova e complexa responsabilidade. A escala do negócio significava que as decisões do algoritmo impactariam a vida financeira de 120 mil+ cooperados. Antes de implementar, analisei impactos em 3 dimensões: (1) cooperados (120k pessoas, 28% autônomos historicamente sub-representados em crédito), (2) reguladores (BACEN com foco crescente em equidade algorítmica), (3) sociedade (risco de perpetuar vieses contra trabalhadores autônomos e minorias). Quando propus uma \"Política de IA Responsável\", enfrentei resistência imediata: o VP Comercial argumentou que \"auditorias éticas atrasariam lançamentos\" e que \"concorrentes não fazem isso\". Mas o impacto amplo de decisões erradas - multas, reputação, exclusão financeira de milhares - era uma responsabilidade que eu precisava endereçar, mesmo contra a resistência interna.",
+      "s": "\"120 mil vidas financeiras. Modelo aprovado. Taxa de aprovação para autônomos: 23% menor. Viés confirmado antes do deploy.\" No Sicredi, ao introduzirmos o primeiro modelo de ML para pré-aprovação de crédito, o sucesso trouxe uma nova e complexa responsabilidade. A escala do negócio significava que as decisões do algoritmo impactariam a vida financeira de 120 mil+ cooperados. Antes de implementar, analisei impactos em 3 dimensões: (1) cooperados (120k pessoas, 28% autônomos historicamente sub-representados em crédito), (2) reguladores (BACEN com foco crescente em equidade algorítmica), (3) sociedade (risco de perpetuar vieses contra trabalhadores autônomos e minorias). Quando propus uma \"Política de IA Responsável\", enfrentei resistência imediata: o VP Comercial argumentou que \"auditorias éticas atrasariam lançamentos\" e que \"concorrentes não fazem isso\". Mas o impacto amplo de decisões erradas - multas, reputação, exclusão financeira de milhares - era uma responsabilidade que eu precisava endereçar, mesmo contra a resistência interna.",
       "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha tarefa era considerar impacto amplo das decisões de IA: não apenas acurácia do modelo (métrica técnica), mas efeitos secundários em 120k+ cooperados, trabalhadores autônomos (28% da base, 33.600 pessoas), reguladores BACEN (fiscalização crescente), e futuras gerações (precedente de uso ético de dados). Eu precisava garantir que cada decisão do algoritmo fosse auditável, justa e transparente para toda a comunidade cooperativa. Minha tarefa foi liderar a criação da primeira 'Política de IA Responsável' do Sicredi, deixando as coisas melhores não apenas em tecnologia, mas em governança e responsabilidade social ampla.",
       "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Iniciei o projeto apresentando pessoalmente à liderança os riscos reputacionais e regulatórios emergentes de IA enviesada, usando exemplos específicos de outras empresas. Argumentei veementemente que, para uma cooperativa baseada em princípios de equidade, a responsabilidade de garantir uma IA justa não era opcional, era central para a marca. Estudei intensivamente os frameworks de IA Responsável do Google e Microsoft porque eram os mais maduros do mercado, com casos de uso documentados em instituições financeiras, e incluíam ferramentas práticas de detecção de viés que eu poderia adaptar. Tomei a decisão de organizar um workshop com especialistas em ética de IA da UFRGS, enfrentando resistência inicial sobre custos. O insight chave foi o conceito de 'justiça contrafactual', que me ajudou a moldar testes de viés muito mais robustos que simples comparações demográficas. Redigi pessoalmente a política que instituía mecanismos concretos. Um deles foi o 'teste de viés' obrigatório que implementei para qualquer modelo que impactasse decisões de clientes. Quando os testes iniciais que supervisionei identificaram que o modelo estava penalizando injustamente trabalhadores autônomos (taxa de aprovação 23% menor vs. trabalhadores formais com mesmo perfil de risco), liderei pessoalmente a correção através de 'feature engineering'. Criei novas variáveis que representavam melhor a saúde financeira de um autônomo (regularidade de depósitos, diversidade de fontes de renda). Quando enfrentei pushback sobre complexidade adicional, justifiquei o ROI ético. A política que elaborei exigiu um processo de 'explicabilidade'. Liderei a criação de um sistema que traduzia a decisão do modelo em explicação simples, comunicada ao cliente, aumentando transparência e confiança.",
       "r": "A 'Política de IA Responsável' foi implementada e se tornou o padrão para todos os projetos de dados no Sicredi. Impacto amplo mensurável em 3 dimensões: (1) Cooperados - 18.000+ autônomos qualificados (15% de 120k base) ganharam acesso a crédito justo, taxa de aprovação aumentou 15% equiparando-se à de trabalhadores formais (de 23% abaixo para 2% abaixo da média), gerando R$ 47M+ em crédito liberado antes negado injustamente. (2) Reguladores - credibilidade com BACEN evitou fiscalização invasiva (3 concorrentes sofreram auditorias custando R$ 12M+ cada), fomos citados como caso de sucesso em circular sobre governança algorítmica. (3) Sociedade - framework replicado por 3 cooperativas (600k+ membros agregados), estabelecendo precedente de IA responsável no cooperativismo brasileiro, protegendo futuras gerações de exclusão financeira algorítmica.",
       "l": "Aprendi que considerar impacto amplo das decisões exige metodologia estruturada, não apenas boa intenção. Hoje uso 3 passos em todo projeto: (1) Mapear stakeholders secundários além do cliente direto - no caso IA foram autônomos (28% base), reguladores, sociedade, não só time de crédito; (2) Antecipar efeitos não intencionais com testes empíricos - 'justiça contrafactual' detectou viés que análise superficial perderia; (3) Criar governança para decisões em escala - Comitê de Ética com multidisciplinar (dados, negócio, jurídico, compliance, voz do cooperado) garante múltiplas perspectivas. Antes de qualquer projeto de tecnologia que lidero, pergunto 'Quem mais isso afeta além do usuário direto?' e documento respostas em matriz de impacto com mitigações. Responsabilidade sobre efeitos secundários cresce exponencialmente com escala - 120k decisões algorítmicas exigem governança proporcional."
     },
     "en": {
-      "s": "At Sicredi, when introducing the first ML model for credit pre-approval, success brought a new and complex responsibility. Business scale meant the algorithm's decisions would impact 120k+ cooperative members' financial lives. Before implementing, I analyzed impacts across 3 dimensions: (1) members (120k people, 28% freelancers historically underrepresented in credit), (2) regulators (Central Bank with growing focus on algorithmic equity), (3) society (risk of perpetuating biases against freelance workers and minorities). When I proposed a \"Responsible AI Policy,\" I faced immediate resistance: the Commercial VP argued that \"ethical audits would delay launches\" and that \"competitors don't do this.\" But the broader impact of wrong decisions - fines, reputation, financial exclusion of thousands - was a responsibility I needed to address, even against internal resistance.",
+      "s": "\"120 thousand financial lives. Model approved. Approval rate for freelancers: 23% lower. Bias confirmed before deploy.\" At Sicredi, when introducing the first ML model for credit pre-approval, success brought a new and complex responsibility. Business scale meant the algorithm's decisions would impact 120k+ cooperative members' financial lives. Before implementing, I analyzed impacts across 3 dimensions: (1) members (120k people, 28% freelancers historically underrepresented in credit), (2) regulators (Central Bank with growing focus on algorithmic equity), (3) society (risk of perpetuating biases against freelance workers and minorities). When I proposed a \"Responsible AI Policy,\" I faced immediate resistance: the Commercial VP argued that \"ethical audits would delay launches\" and that \"competitors don't do this.\" But the broader impact of wrong decisions - fines, reputation, financial exclusion of thousands - was a responsibility I needed to address, even against internal resistance.",
       "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My task was to consider broader impact of AI decisions: not just model accuracy (technical metric), but secondary effects on 120k+ members, freelance workers (28% of base, 33,600 people), Central Bank regulators (increasing oversight), and future generations (precedent for ethical data use). I needed to ensure every algorithm decision was auditable, fair and transparent to the entire cooperative community. My task was to lead creation of Sicredi's first 'Responsible AI Policy', leaving things better not just in technology, but in governance and broad social responsibility.",
       "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I personally presented to leadership the emerging reputational and regulatory risks of biased AI, using specific examples from other companies. I argued vehemently that, for a cooperative based on equity principles, the responsibility to ensure fair AI wasn't optional, it was central to the brand. I intensively studied Google and Microsoft's Responsible AI frameworks because they were the most mature in the market, with documented use cases in financial institutions, and included practical bias detection tools I could adapt. I made the decision to organize a workshop with AI ethics experts from UFRGS, facing initial resistance about costs. The key insight was the concept of 'counterfactual fairness', which helped me shape much more robust bias tests than simple demographic comparisons. I personally drafted the policy that instituted concrete mechanisms. One was mandatory 'bias testing' I implemented for any model impacting customer decisions. When initial tests I supervised identified the model was unfairly penalizing freelance workers (23% lower approval rate vs. formal workers with same risk profile), I personally led the correction through 'feature engineering'. I created new variables that better represented a freelancer's financial health (deposit regularity, income source diversity). When I faced pushback about additional complexity, I justified the ethical ROI. The policy I elaborated required an 'explainability' process. I led creation of a system that translated the model's decision into simple explanation, communicated to customers, increasing transparency and trust.",
       "r": "The 'Responsible AI Policy' was implemented and became the standard for all data projects at Sicredi. Measurable broader impact across 3 dimensions: (1) Members - 18,000+ qualified freelancers (15% of 120k base) gained access to fair credit, approval rate increased 15% equalizing with formal workers (from 23% below to 2% below average), generating R$ 47M+ in credit previously denied unfairly. (2) Regulators - credibility with Central Bank avoided invasive oversight (3 competitors suffered audits costing R$ 12M+ each), we were cited as success case in circular on algorithmic governance. (3) Society - framework replicated by 3 cooperatives (600k+ aggregate members), establishing precedent for responsible AI in Brazilian cooperativism, protecting future generations from algorithmic financial exclusion.",
@@ -98,14 +98,14 @@
     "isTopCase": true,
     "isGoodCase": false,
     "pt": {
-      "s": "No Sicredi, ao introduzirmos o primeiro modelo de ML para pré-aprovação de crédito, o sucesso trouxe uma nova e complexa responsabilidade. A escala do negócio significava que as decisões do algoritmo impactariam a vida financeira de 120 mil+ cooperados. Antes de implementar, analisei impactos em 3 dimensões: (1) cooperados (120k pessoas, 28% autônomos historicamente sub-representados em crédito), (2) reguladores (BACEN com foco crescente em equidade algorítmica), (3) sociedade (risco de perpetuar vieses contra trabalhadores autônomos e minorias). Quando propus uma \"Política de IA Responsável\", enfrentei resistência imediata: o VP Comercial argumentou que \"auditorias éticas atrasariam lançamentos\" e que \"concorrentes não fazem isso\". Mas o impacto amplo de decisões erradas - multas, reputação, exclusão financeira de milhares - era uma responsabilidade que eu precisava endereçar, mesmo contra a resistência interna.",
+      "s": "\"120 mil vidas financeiras. Modelo aprovado. Taxa de aprovação para autônomos: 23% menor. Viés confirmado antes do deploy.\" No Sicredi, ao introduzirmos o primeiro modelo de ML para pré-aprovação de crédito, o sucesso trouxe uma nova e complexa responsabilidade. A escala do negócio significava que as decisões do algoritmo impactariam a vida financeira de 120 mil+ cooperados. Antes de implementar, analisei impactos em 3 dimensões: (1) cooperados (120k pessoas, 28% autônomos historicamente sub-representados em crédito), (2) reguladores (BACEN com foco crescente em equidade algorítmica), (3) sociedade (risco de perpetuar vieses contra trabalhadores autônomos e minorias). Quando propus uma \"Política de IA Responsável\", enfrentei resistência imediata: o VP Comercial argumentou que \"auditorias éticas atrasariam lançamentos\" e que \"concorrentes não fazem isso\". Mas o impacto amplo de decisões erradas - multas, reputação, exclusão financeira de milhares - era uma responsabilidade que eu precisava endereçar, mesmo contra a resistência interna.",
       "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha tarefa era considerar impacto amplo das decisões de IA: não apenas acurácia do modelo (métrica técnica), mas efeitos secundários em 120k+ cooperados, trabalhadores autônomos (28% da base, 33.600 pessoas), reguladores BACEN (fiscalização crescente), e futuras gerações (precedente de uso ético de dados). Eu precisava garantir que cada decisão do algoritmo fosse auditável, justa e transparente para toda a comunidade cooperativa. Minha tarefa foi liderar a criação da primeira 'Política de IA Responsável' do Sicredi, deixando as coisas melhores não apenas em tecnologia, mas em governança e responsabilidade social ampla.",
       "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Iniciei o projeto apresentando pessoalmente à liderança os riscos reputacionais e regulatórios emergentes de IA enviesada, usando exemplos específicos de outras empresas. Argumentei veementemente que, para uma cooperativa baseada em princípios de equidade, a responsabilidade de garantir uma IA justa não era opcional, era central para a marca. Estudei intensivamente os frameworks de IA Responsável do Google e Microsoft porque eram os mais maduros do mercado, com casos de uso documentados em instituições financeiras, e incluíam ferramentas práticas de detecção de viés que eu poderia adaptar. Tomei a decisão de organizar um workshop com especialistas em ética de IA da UFRGS, enfrentando resistência inicial sobre custos. O insight chave foi o conceito de 'justiça contrafactual', que me ajudou a moldar testes de viés muito mais robustos que simples comparações demográficas. Redigi pessoalmente a política que instituía mecanismos concretos. Um deles foi o 'teste de viés' obrigatório que implementei para qualquer modelo que impactasse decisões de clientes. Quando os testes iniciais que supervisionei identificaram que o modelo estava penalizando injustamente trabalhadores autônomos (taxa de aprovação 23% menor vs. trabalhadores formais com mesmo perfil de risco), liderei pessoalmente a correção através de 'feature engineering'. Criei novas variáveis que representavam melhor a saúde financeira de um autônomo (regularidade de depósitos, diversidade de fontes de renda). Quando enfrentei pushback sobre complexidade adicional, justifiquei o ROI ético. A política que elaborei exigiu um processo de 'explicabilidade'. Liderei a criação de um sistema que traduzia a decisão do modelo em explicação simples, comunicada ao cliente, aumentando transparência e confiança.",
       "r": "A 'Política de IA Responsável' foi implementada e se tornou o padrão para todos os projetos de dados no Sicredi. Impacto amplo mensurável em 3 dimensões: (1) Cooperados - 18.000+ autônomos qualificados (15% de 120k base) ganharam acesso a crédito justo, taxa de aprovação aumentou 15% equiparando-se à de trabalhadores formais (de 23% abaixo para 2% abaixo da média), gerando R$ 47M+ em crédito liberado antes negado injustamente. (2) Reguladores - credibilidade com BACEN evitou fiscalização invasiva (3 concorrentes sofreram auditorias custando R$ 12M+ cada), fomos citados como caso de sucesso em circular sobre governança algorítmica. (3) Sociedade - framework replicado por 3 cooperativas (600k+ membros agregados), estabelecendo precedente de IA responsável no cooperativismo brasileiro, protegendo futuras gerações de exclusão financeira algorítmica.",
       "l": "Aprendi que considerar impacto amplo das decisões exige metodologia estruturada, não apenas boa intenção. Hoje uso 3 passos em todo projeto: (1) Mapear stakeholders secundários além do cliente direto - no caso IA foram autônomos (28% base), reguladores, sociedade, não só time de crédito; (2) Antecipar efeitos não intencionais com testes empíricos - 'justiça contrafactual' detectou viés que análise superficial perderia; (3) Criar governança para decisões em escala - Comitê de Ética com multidisciplinar (dados, negócio, jurídico, compliance, voz do cooperado) garante múltiplas perspectivas. Antes de qualquer projeto de tecnologia que lidero, pergunto 'Quem mais isso afeta além do usuário direto?' e documento respostas em matriz de impacto com mitigações. Responsabilidade sobre efeitos secundários cresce exponencialmente com escala - 120k decisões algorítmicas exigem governança proporcional."
     },
     "en": {
-      "s": "At Sicredi, when introducing the first ML model for credit pre-approval, success brought a new and complex responsibility. Business scale meant the algorithm's decisions would impact 120k+ cooperative members' financial lives. Before implementing, I analyzed impacts across 3 dimensions: (1) members (120k people, 28% freelancers historically underrepresented in credit), (2) regulators (Central Bank with growing focus on algorithmic equity), (3) society (risk of perpetuating biases against freelance workers and minorities). When I proposed a \"Responsible AI Policy,\" I faced immediate resistance: the Commercial VP argued that \"ethical audits would delay launches\" and that \"competitors don't do this.\" But the broader impact of wrong decisions - fines, reputation, financial exclusion of thousands - was a responsibility I needed to address, even against internal resistance.",
+      "s": "\"120 thousand financial lives. Model approved. Approval rate for freelancers: 23% lower. Bias confirmed before deploy.\" At Sicredi, when introducing the first ML model for credit pre-approval, success brought a new and complex responsibility. Business scale meant the algorithm's decisions would impact 120k+ cooperative members' financial lives. Before implementing, I analyzed impacts across 3 dimensions: (1) members (120k people, 28% freelancers historically underrepresented in credit), (2) regulators (Central Bank with growing focus on algorithmic equity), (3) society (risk of perpetuating biases against freelance workers and minorities). When I proposed a \"Responsible AI Policy,\" I faced immediate resistance: the Commercial VP argued that \"ethical audits would delay launches\" and that \"competitors don't do this.\" But the broader impact of wrong decisions - fines, reputation, financial exclusion of thousands - was a responsibility I needed to address, even against internal resistance.",
       "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My task was to consider broader impact of AI decisions: not just model accuracy (technical metric), but secondary effects on 120k+ members, freelance workers (28% of base, 33,600 people), Central Bank regulators (increasing oversight), and future generations (precedent for ethical data use). I needed to ensure every algorithm decision was auditable, fair and transparent to the entire cooperative community. My task was to lead creation of Sicredi's first 'Responsible AI Policy', leaving things better not just in technology, but in governance and broad social responsibility.",
       "a": "Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I personally presented to leadership the emerging reputational and regulatory risks of biased AI, using specific examples from other companies. I argued vehemently that, for a cooperative based on equity principles, the responsibility to ensure fair AI wasn't optional, it was central to the brand. I intensively studied Google and Microsoft's Responsible AI frameworks because they were the most mature in the market, with documented use cases in financial institutions, and included practical bias detection tools I could adapt. I made the decision to organize a workshop with AI ethics experts from UFRGS, facing initial resistance about costs. The key insight was the concept of 'counterfactual fairness', which helped me shape much more robust bias tests than simple demographic comparisons. I personally drafted the policy that instituted concrete mechanisms. One was mandatory 'bias testing' I implemented for any model impacting customer decisions. When initial tests I supervised identified the model was unfairly penalizing freelance workers (23% lower approval rate vs. formal workers with same risk profile), I personally led the correction through 'feature engineering'. I created new variables that better represented a freelancer's financial health (deposit regularity, income source diversity). When I faced pushback about additional complexity, I justified the ethical ROI. The policy I elaborated required an 'explainability' process. I led creation of a system that translated the model's decision into simple explanation, communicated to customers, increasing transparency and trust.",
       "r": "The 'Responsible AI Policy' was implemented and became the standard for all data projects at Sicredi. Measurable broader impact across 3 dimensions: (1) Members - 18,000+ qualified freelancers (15% of 120k base) gained access to fair credit, approval rate increased 15% equalizing with formal workers (from 23% below to 2% below average), generating R$ 47M+ in credit previously denied unfairly. (2) Regulators - credibility with Central Bank avoided invasive oversight (3 competitors suffered audits costing R$ 12M+ each), we were cited as success case in circular on algorithmic governance. (3) Society - framework replicated by 3 cooperatives (600k+ aggregate members), establishing precedent for responsible AI in Brazilian cooperativism, protecting future generations from algorithmic financial exclusion.",
@@ -177,117 +177,59 @@
     "lp_id": "broad_responsibility",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 69,
+      "status": "Needs-Rewrite",
       "positives": [
-        "Customer Obsession forte (20 menções relevantes)",
-        "Métricas robustas (31)",
-        "Ratio EU:NÓS saudável (4:0)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Métricas robustas (33)",
+        "Ratio EU:NÓS saudável (29.0:1)"
       ],
-      "warnings": [
-        "Sem métricas de cliente explícitas",
-        "Transições STAR(L) pouco claras"
-      ],
+      "warnings": [],
       "dealbreakers": [],
-      "suggestions": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem métricas de cliente explícitas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 4:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 31",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ],
+      "suggestions": [],
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
+        "score": 69,
+        "status": "Needs-Rewrite",
         "dealbreakers": [],
-        "warnings": [
-          "Sem métricas de cliente explícitas",
-          "Transições STAR(L) pouco claras"
-        ],
+        "warnings": [],
         "positives": [
-          "Customer Obsession forte (20 menções relevantes)",
-          "Métricas robustas (31)",
-          "Ratio EU:NÓS saudável (4:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+          "Métricas robustas (33)",
+          "Ratio EU:NÓS saudável (29.0:1)"
         ],
-        "metricsCount": 31,
-        "metricCategories": {
-          "financial": true,
-          "customer": false,
-          "operational": true
+        "breakdown": {
+          "narrative": 12,
+          "metrics": 18,
+          "lpContent": 0,
+          "amazonAspects": 13,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 20,
-        "conflictSignals": true,
-        "mechanismSignals": 7,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 4,
-            "nos": 0
+        "details": {
+          "metrics": {
+            "count": 33,
+            "hasFinancial": true,
+            "hasCustomer": false,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 29,
+            "eu": 29,
+            "nos": 1
+          },
+          "amazonAspects": {
+            "customerSignals": 6,
+            "mechanismSignals": 10,
+            "conflictSignals": 6
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 58,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 926,
-            "enLen": 880,
-            "deltaPct": 0.04967602591792657
-          },
-          "t": {
-            "ptLen": 734,
-            "enLen": 691,
-            "deltaPct": 0.05858310626702997
-          },
-          "a": {
-            "ptLen": 1884,
-            "enLen": 1720,
-            "deltaPct": 0.0870488322717622
-          },
-          "r": {
-            "ptLen": 857,
-            "enLen": 810,
-            "deltaPct": 0.05484247374562427
-          },
-          "l": {
-            "ptLen": 901,
-            "enLen": 867,
-            "deltaPct": 0.03773584905660377
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true,
-        "biasSignals": 0
+        }
       }
     }
   }

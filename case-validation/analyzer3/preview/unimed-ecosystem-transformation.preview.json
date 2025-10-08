@@ -98,14 +98,14 @@
     "isTopCase": true,
     "isGoodCase": false,
     "pt": {
-      "s": "Situação — Em 2021, eu analisava a curva de churn da Unimed e vi um padrão alarmante: clientes multicanal migravam 2,4x mais para healthtechs full service. O conselho queria reagir com bundles promocionais no plano tradicional. Eu provoquei: se eu aceitasse esse pensamento limitado, a cooperativa perderia R$1,2B em receita até 2025 e ficaria presa ao rótulo de seguradora tradicional.",
+      "s": "O desafio começou quando situação — Em 2021, eu analisava a curva de churn da Unimed e vi um padrão alarmante: clientes multicanal migravam 2,4x mais para healthtechs full service. O conselho queria reagir com bundles promocionais no plano tradicional. Eu provoquei: se eu aceitasse esse pensamento limitado, a cooperativa perderia R$1,2B em receita até 2025 e ficaria presa ao rótulo de seguradora tradicional.",
       "t": "Tarefa — Minha função oficial era liderar estratégia competitiva, mas eu assumi integralmente a responsabilidade de redesenhar o posicionamento. Defini meta pessoal de lançar três verticais adjacentes em 18 meses, engajar 20% das vidas em dois ou mais serviços e elevar o NPS em 5 pontos, provando que a Unimed podia atuar como orquestradora de um ecossistema completo de saúde e bem-estar.",
       "a": "Ação — Atuei como owner único do diagnóstico ao go-to-market. Escrevi o Vision Doc “Unimed+” dimensionando TAM de R$36B para 2030 e modelando ARR incremental de R$420M em cinco anos. Para vencer o ceticismo do CFO (temia margin squeeze), rodei três cenários de payback e mostrei retorno em 19 meses com margem EBITDA 6pp acima do plano médico. O CMO questionou foco clínico; eu comissionei pesquisa com 4.800 famílias e demonstrei que telemedicina integrada a programas preventivos triplicava adesão. Capturei algoritmos de predição via licenciamento com duas healthtechs, negociei cláusulas de compartilhamento de dados e construí roadmap em três ondas: APS 360, marketplace de bem-estar e módulo Pet Saúde. Estruturei squad dedicado de 18 pessoas, instalei OKRs trimestrais (ex.: “10 mil vidas em APS com queda de sinistralidade >12%”) e criei HealthOps War Room diário com DORA adaptado. Cada release eu revisava pessoalmente compliance clínico, finanças e narrativa para o conselho.",
       "r": "Resultado — Em 24 meses lancei as três verticais originais e adicionei Clube de Empresas Saudáveis e Telepsicologia. O ecossistema ativou 420 mil vidas (25% da base elegível), churn caiu de 12,4% para 8,3% (-33%), NPS avançou de 58 para 66 (+8). Receita anualizada incremental chegou a R$312M (Pet Saúde R$96M, APS 360 R$118M, Bem-estar R$56M, Telepsicologia R$42M). O custo médico por vida recuou 9,7%; sinistralidade nas carteiras em APS diminuiu 14pp. No B2B, 310 empresas aderiram ao Clube em nove meses com ticket médio de R$29 por colaborador. A visão virou eixo oficial da estratégia 2025-2028, o conselho criou diretoria de Plataforma Digital e eu fui nomeado para liderá-la.",
       "l": "Lição — Pensar grande, para mim, é transformar ameaça existencial em plataforma sustentável. Ao ancorar ambição em métricas duras, enfrentar conflitos com dados e instalar mecanismos de governança, eu tirei a Unimed do ciclo defensivo e construí um ecossistema que gera margem e fideliza famílias. Hoje todo movimento estratégico que conduzo segue essa fórmula: tese ousada, números que sustentam a ousadia e mecanismos que tornam a escala inevitável."
     },
     "en": {
-      "s": "Situation — In 2021 I reviewed Unimed's churn curve and spotted a red flag: omnichannel customers were 2.4x more likely to migrate to full-service healthtechs. The board wanted promotional bundles on the legacy plan. I pushed back: if I accepted that narrow thinking, the cooperative would forfeit BRL 1.2B in revenue by 2025 and remain a traditional insurer.",
+      "s": "The challenge began when situation — In 2021 I reviewed Unimed's churn curve and spotted a red flag: omnichannel customers were 2.4x more likely to migrate to full-service healthtechs. The board wanted promotional bundles on the legacy plan. I pushed back: if I accepted that narrow thinking, the cooperative would forfeit BRL 1.2B in revenue by 2025 and remain a traditional insurer.",
       "t": "Task — My formal role was leading competitive strategy, yet I took full ownership to redesign the positioning. I set a personal goal to launch three adjacent verticals in 18 months, engage 20% of members in two or more services, and raise NPS by five points—proving Unimed could orchestrate a full health and wellness ecosystem.",
       "a": "Action — I acted as the single-threaded owner from diagnosis to go-to-market. I wrote the “Unimed+” vision document sizing a BRL 36B TAM for 2030 and modeling BRL 420M ARR over five years. To neutralize the CFO's margin concerns I ran three payback scenarios and showed 19-month ROI with EBITDA six points above the medical plan. The Chief Medical Officer questioned clinical focus; I commissioned research with 4,800 families proving telemedicine integrated into prevention tripled adherence. I secured predictive algorithms from two healthtech partners, negotiated data-sharing clauses, and built a three-wave roadmap: APS 360, wellness marketplace, and Pet Health module. I assembled an 18-person squad, set quarterly OKRs (e.g., “10k lives in APS with >12% claims drop”), and created a daily HealthOps war room with adapted DORA metrics. Every release I personally reviewed clinical compliance, finance, and narrative for the board.",
       "r": "Result — Within 24 months I launched the three original verticals plus Healthy Companies Club and Telepsychology. The ecosystem activated 420k lives (25% of the eligible base), churn fell from 12.4% to 8.3% (-33%), and NPS climbed from 58 to 66 (+8). Annualized incremental revenue hit BRL 312M (Pet Health BRL 96M, APS 360 BRL 118M, Wellness BRL 56M, Telepsychology BRL 42M). Medical cost per life dropped 9.7%; claims in APS portfolios decreased 14pp. In B2B, 310 companies joined the Club within nine months at BRL 29 ARPU per employee. The vision became an official 2025-2028 strategic pillar and the board created a Digital Platform division, appointing me to lead it.",
@@ -177,51 +177,55 @@
     "lp_id": "think_big",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 98,
-      "status": "Ready",
+      "score": 57,
+      "status": "Needs-Rewrite",
       "positives": [
-        "Customer Obsession forte (7 menções relevantes)",
         "Métricas robustas (32)",
-        "Ratio EU:NÓS saudável (8:0)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (23.0:1)"
       ],
       "warnings": [
-        "Sem métricas operacionais explícitas",
-        "Transições STAR(L) pouco claras",
-        "Mic-drop/aprendizado forte não identificado"
+        "Hook inicial fraco (sem urgência ou stakes claros)",
+        "Faltam transições narrativas entre seções STARL",
+        "Nenhum sinal de conflito ou superação de resistência",
+        "Nenhum mecanismo ou processo replicável mencionado"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem métricas operacionais explícitas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[pt] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
+        },
+        {
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[en] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
+          "message": "Hook inicial fraco (sem urgência ou stakes claros)",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Mic-drop/aprendizado forte não identificado",
-          "action": "Fortalecer aprendizado no L: insight concreto aplicado em contexto recente."
+          "message": "Nenhum sinal de conflito ou superação de resistência",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         },
         {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 8:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 32",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Nenhum mecanismo ou processo replicável mencionado",
+          "action": "Refinar narrativa conforme alerta."
         }
       ],
       "lint": {
@@ -230,72 +234,49 @@
         "warnings": []
       },
       "heur": {
-        "score": 98,
-        "status": "Ready",
+        "score": 57,
+        "status": "Needs-Rewrite",
         "dealbreakers": [],
         "warnings": [
-          "Sem métricas operacionais explícitas",
-          "Transições STAR(L) pouco claras",
-          "Mic-drop/aprendizado forte não identificado"
+          "Hook inicial fraco (sem urgência ou stakes claros)",
+          "Faltam transições narrativas entre seções STARL",
+          "Nenhum sinal de conflito ou superação de resistência",
+          "Nenhum mecanismo ou processo replicável mencionado"
         ],
         "positives": [
-          "Customer Obsession forte (7 menções relevantes)",
           "Métricas robustas (32)",
-          "Ratio EU:NÓS saudável (8:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+          "Ratio EU:NÓS saudável (23.0:1)"
         ],
-        "metricsCount": 32,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": false
+        "breakdown": {
+          "narrative": 6,
+          "metrics": 19,
+          "lpContent": 4,
+          "amazonAspects": 5,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 7,
-        "conflictSignals": true,
-        "mechanismSignals": 9,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 8,
+        "details": {
+          "metrics": {
+            "count": 32,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": false
+          },
+          "contribution": {
+            "ratio": 23,
+            "eu": 23,
             "nos": 0
+          },
+          "amazonAspects": {
+            "customerSignals": 8,
+            "mechanismSignals": 0,
+            "conflictSignals": 0
+          },
+          "lpContent": {
+            "strongCount": 2,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 20,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 386,
-            "enLen": 359,
-            "deltaPct": 0.06994818652849741
-          },
-          "t": {
-            "ptLen": 390,
-            "enLen": 328,
-            "deltaPct": 0.15897435897435896
-          },
-          "a": {
-            "ptLen": 986,
-            "enLen": 936,
-            "deltaPct": 0.05070993914807302
-          },
-          "r": {
-            "ptLen": 683,
-            "enLen": 673,
-            "deltaPct": 0.014641288433382138
-          },
-          "l": {
-            "ptLen": 451,
-            "enLen": 434,
-            "deltaPct": 0.037694013303769404
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 0,
-        "micDropSignals": false,
-        "biasSignals": 0
+        }
       }
     }
   }

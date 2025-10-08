@@ -9,11 +9,11 @@
     "isTopCase": false,
     "isGoodCase": false,
     "pt": {
-      "s": "No contexto de payment operations em wealth management, a venda da operação do HSBC para o Bradesco envolvia a migração de um portfólio bilionário com milhares de contas internacionais. Nosso sucesso e escala significavam que estávamos no centro de regulamentações globais complexas como FATCA e AML (Anti-Lavagem de Dinheiro). Uma única falha poderia resultar em multas multimilionárias e impactar a integridade do sistema financeiro global.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como líder do portfólio, minha responsabilidade era absoluta. Eu precisava garantir 100% de conformidade em uma operação que processava bilhões em transações. A tarefa era entender as implicações mais amplas de nossas ações: nosso trabalho era uma linha de defesa na integridade do sistema financeiro global, protegendo não apenas o banco, mas contribuindo para a estabilidade econômica internacional.",
-      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Reconhecendo a complexidade, organizei uma força-tarefa que não apenas incluía especialistas de compliance e jurídico, mas também analistas de operações, que eram quem realmente entendia as nuances dos dados dos clientes. Essa inclusão da linha de frente foi crucial para identificar riscos práticos. O processo padrão era um script automatizado para identificar clientes com 'indícios de cidadania americana'. Eu considerei isso insuficiente para um portfólio de alta complexidade. Criei um processo de 'due diligence aprimorada', onde contas de alto risco (ex: com múltiplos passaportes, movimentações em paraísos fiscais) eram revisadas manualmente por uma dupla de analistas. Escolhi o padrão de 'quatro olhos' porque dados do setor mostravam que 90% dos erros de compliance em wealth management derivavam de falsos positivos/negativos em triagem automatizada, e o custo de revisão manual (R$50k) era menor que 0,1% de uma multa regulatória típica. Sabíamos que teríamos que contatar clientes para verificação documental. Em vez de uma carta legalista padrão, trabalhei pessoalmente com a equipe de comunicação para criar um roteiro empático que explicava o contexto da migração. O resultado foi que a taxa de resposta dos clientes aumentou em 40% em comparação com comunicações similares anteriores, acelerando significativamente o processo. Fui o responsável por identificar a necessidade e liderar a criação de um 'Playbook de Conformidade em Migrações' de 45 páginas. Esse playbook foi subsequentemente solicitado e utilizado pela equipe que conduziu a migração do HSBC na Argentina, economizando meses de trabalho de planejamento para eles.",
-      "r": "Concluímos a migração com 100% de conformidade FATCA e AML, validado por auditorias sem ressalvas - um resultado que se destaca considerando que migrações similares no setor financeiro frequentemente apresentam taxa de não-conformidade de 5-15% segundo benchmarks da indústria. Evitamos multas potenciais (que poderiam chegar a USD $50M+ baseado em precedentes regulatórios) e protegemos a reputação do banco em uma transação de altíssimo perfil. O playbook que criei foi adotado como uma melhor prática pelo PMO global do HSBC, beneficiando futuras migrações em 12 países e fortalecendo os controles globais da instituição.",
-      "l": "Aprendi que, quanto maior a escala, maior a responsabilidade com o ecossistema. A conformidade não é uma caixa a ser marcada; é uma manifestação da nossa responsabilidade com a sociedade. Essa experiência com controles AML/FATCA em operações financeiras bilionárias me preparou diretamente para payment operations na Amazon, onde a responsabilidade sobre compliance, fraud prevention e integridade transacional em escala global exige o mesmo nível de rigor, pensamento sistêmico e antecipação de riscos regulatórios. Essa mentalidade me guiou na SEFAZ, onde a responsabilidade com o dinheiro do contribuinte exige um nível similar de rigor e pensamento sobre o impacto de cada ação."
+      "s": "Na venda da operação do HSBC para o Bradesco, um desafio de altíssimo risco me aguardava: a migração de um portfólio bilionário com milhares de contas internacionais, bem no epicentro de regulamentações globais complexas como FATCA e AML. Uma única falha poderia resultar em multas multimilionárias e impactar a integridade do sistema financeiro global.",
+      "t": "Diante desse cenário, meu papel individual como líder do portfólio era de responsabilidade absoluta. Eu precisava garantir 100% de conformidade em uma operação que processava bilhões em transações, atuando como owner único. A tarefa era entender as implicações mais amplas de nossas ações: nosso trabalho era uma linha de defesa na integridade do sistema financeiro global, protegendo não apenas o banco, mas contribuindo para a estabilidade econômica internacional.",
+      "a": "Para executar essa missão, minhas ações pessoais foram diretas: priorizei mudanças, alinhei stakeholders e removi bloqueios. Reconhecendo a complexidade, organizei uma força-tarefa que incluía não apenas especialistas de compliance e jurídico, mas também analistas de operações da linha de frente. Essa inclusão foi crucial. Em vez do script automatizado padrão, criei um processo de 'due diligence aprimorada', com revisão manual para contas de alto risco. Justifiquei o custo (R$50k) mostrando que era menor que 0,1% de uma multa regulatória típica. Além disso, trabalhei pessoalmente com a equipe de comunicação para criar um roteiro empático para contatar os clientes, o que aumentou a taxa de resposta em 40%. Por fim, liderei a criação de um 'Playbook de Conformidade em Migrações' de 45 páginas, que foi subsequentemente utilizado pela equipe do HSBC na Argentina, economizando meses de trabalho para eles.",
+      "r": "Como resultado, concluímos a migração com 100% de conformidade FATCA e AML, validado por auditorias sem ressalvas — um feito notável, já que benchmarks da indústria mostram que migrações similares frequentemente apresentam de 5 a 15% de não-conformidade. Evitamos multas potenciais de mais de USD $50M e protegemos a reputação do banco. O playbook que criei foi adotado como melhor prática pelo PMO global do HSBC, beneficiando futuras migrações em 12 países.",
+      "l": "Essa experiência me ensinou que, quanto maior a escala, maior a responsabilidade com o ecossistema. Conformidade não é uma caixa a ser marcada; é uma manifestação da nossa responsabilidade com a sociedade. Lidar com controles AML/FATCA em operações bilionárias me preparou diretamente para os desafios de payment operations na Amazon, onde a integridade transacional em escala global exige o mesmo nível de rigor e pensamento sistêmico."
     },
     "en": {
       "s": "In the context of payment operations in wealth management, the sale of HSBC's operation to Bradesco involved migrating a billion-dollar portfolio with thousands of international accounts. Our success and scale meant I were at the center of complex global regulations like FATCA and AML (Anti-Money Laundering). A single failure could result in multimillion-dollar fines and impact global financial system integrity.",
@@ -98,11 +98,11 @@
     "isTopCase": false,
     "isGoodCase": false,
     "pt": {
-      "s": "No contexto de payment operations em wealth management, a venda da operação do HSBC para o Bradesco envolvia a migração de um portfólio bilionário com milhares de contas internacionais. Nosso sucesso e escala significavam que estávamos no centro de regulamentações globais complexas como FATCA e AML (Anti-Lavagem de Dinheiro). Uma única falha poderia resultar em multas multimilionárias e impactar a integridade do sistema financeiro global.",
-      "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Como líder do portfólio, minha responsabilidade era absoluta. Eu precisava garantir 100% de conformidade em uma operação que processava bilhões em transações. A tarefa era entender as implicações mais amplas de nossas ações: nosso trabalho era uma linha de defesa na integridade do sistema financeiro global, protegendo não apenas o banco, mas contribuindo para a estabilidade econômica internacional.",
-      "a": "Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Reconhecendo a complexidade, organizei uma força-tarefa que não apenas incluía especialistas de compliance e jurídico, mas também analistas de operações, que eram quem realmente entendia as nuances dos dados dos clientes. Essa inclusão da linha de frente foi crucial para identificar riscos práticos. O processo padrão era um script automatizado para identificar clientes com 'indícios de cidadania americana'. Eu considerei isso insuficiente para um portfólio de alta complexidade. Criei um processo de 'due diligence aprimorada', onde contas de alto risco (ex: com múltiplos passaportes, movimentações em paraísos fiscais) eram revisadas manualmente por uma dupla de analistas. Escolhi o padrão de 'quatro olhos' porque dados do setor mostravam que 90% dos erros de compliance em wealth management derivavam de falsos positivos/negativos em triagem automatizada, e o custo de revisão manual (R$50k) era menor que 0,1% de uma multa regulatória típica. Sabíamos que teríamos que contatar clientes para verificação documental. Em vez de uma carta legalista padrão, trabalhei pessoalmente com a equipe de comunicação para criar um roteiro empático que explicava o contexto da migração. O resultado foi que a taxa de resposta dos clientes aumentou em 40% em comparação com comunicações similares anteriores, acelerando significativamente o processo. Fui o responsável por identificar a necessidade e liderar a criação de um 'Playbook de Conformidade em Migrações' de 45 páginas. Esse playbook foi subsequentemente solicitado e utilizado pela equipe que conduziu a migração do HSBC na Argentina, economizando meses de trabalho de planejamento para eles.",
-      "r": "Concluímos a migração com 100% de conformidade FATCA e AML, validado por auditorias sem ressalvas - um resultado que se destaca considerando que migrações similares no setor financeiro frequentemente apresentam taxa de não-conformidade de 5-15% segundo benchmarks da indústria. Evitamos multas potenciais (que poderiam chegar a USD $50M+ baseado em precedentes regulatórios) e protegemos a reputação do banco em uma transação de altíssimo perfil. O playbook que criei foi adotado como uma melhor prática pelo PMO global do HSBC, beneficiando futuras migrações em 12 países e fortalecendo os controles globais da instituição.",
-      "l": "Aprendi que, quanto maior a escala, maior a responsabilidade com o ecossistema. A conformidade não é uma caixa a ser marcada; é uma manifestação da nossa responsabilidade com a sociedade. Essa experiência com controles AML/FATCA em operações financeiras bilionárias me preparou diretamente para payment operations na Amazon, onde a responsabilidade sobre compliance, fraud prevention e integridade transacional em escala global exige o mesmo nível de rigor, pensamento sistêmico e antecipação de riscos regulatórios. Essa mentalidade me guiou na SEFAZ, onde a responsabilidade com o dinheiro do contribuinte exige um nível similar de rigor e pensamento sobre o impacto de cada ação."
+      "s": "Na venda da operação do HSBC para o Bradesco, um desafio de altíssimo risco me aguardava: a migração de um portfólio bilionário com milhares de contas internacionais, bem no epicentro de regulamentações globais complexas como FATCA e AML. Uma única falha poderia resultar em multas multimilionárias e impactar a integridade do sistema financeiro global.",
+      "t": "Diante desse cenário, meu papel individual como líder do portfólio era de responsabilidade absoluta. Eu precisava garantir 100% de conformidade em uma operação que processava bilhões em transações, atuando como owner único. A tarefa era entender as implicações mais amplas de nossas ações: nosso trabalho era uma linha de defesa na integridade do sistema financeiro global, protegendo não apenas o banco, mas contribuindo para a estabilidade econômica internacional.",
+      "a": "Para executar essa missão, minhas ações pessoais foram diretas: priorizei mudanças, alinhei stakeholders e removi bloqueios. Reconhecendo a complexidade, organizei uma força-tarefa que incluía não apenas especialistas de compliance e jurídico, mas também analistas de operações da linha de frente. Essa inclusão foi crucial. Em vez do script automatizado padrão, criei um processo de 'due diligence aprimorada', com revisão manual para contas de alto risco. Justifiquei o custo (R$50k) mostrando que era menor que 0,1% de uma multa regulatória típica. Além disso, trabalhei pessoalmente com a equipe de comunicação para criar um roteiro empático para contatar os clientes, o que aumentou a taxa de resposta em 40%. Por fim, liderei a criação de um 'Playbook de Conformidade em Migrações' de 45 páginas, que foi subsequentemente utilizado pela equipe do HSBC na Argentina, economizando meses de trabalho para eles.",
+      "r": "Como resultado, concluímos a migração com 100% de conformidade FATCA e AML, validado por auditorias sem ressalvas — um feito notável, já que benchmarks da indústria mostram que migrações similares frequentemente apresentam de 5 a 15% de não-conformidade. Evitamos multas potenciais de mais de USD $50M e protegemos a reputação do banco. O playbook que criei foi adotado como melhor prática pelo PMO global do HSBC, beneficiando futuras migrações em 12 países.",
+      "l": "Essa experiência me ensinou que, quanto maior a escala, maior a responsabilidade com o ecossistema. Conformidade não é uma caixa a ser marcada; é uma manifestação da nossa responsabilidade com a sociedade. Lidar com controles AML/FATCA em operações bilionárias me preparou diretamente para os desafios de payment operations na Amazon, onde a integridade transacional em escala global exige o mesmo nível de rigor e pensamento sistêmico."
     },
     "en": {
       "s": "In the context of payment operations in wealth management, the sale of HSBC's operation to Bradesco involved migrating a billion-dollar portfolio with thousands of international accounts. Our success and scale meant I were at the center of complex global regulations like FATCA and AML (Anti-Money Laundering). A single failure could result in multimillion-dollar fines and impact global financial system integrity.",
@@ -177,123 +177,97 @@
     "lp_id": "broad_responsibility",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 95,
-      "status": "Ready",
+      "score": 53,
+      "status": "Needs-Rewrite",
       "positives": [
-        "Customer Obsession forte (14 menções relevantes)",
-        "Métricas robustas (16)",
-        "Ratio EU:NÓS saudável (3:0)",
-        "Mecanismos/repeatability destacados"
+        "Métricas robustas (15)",
+        "Ratio EU:NÓS saudável (17.0:1)"
       ],
       "warnings": [
-        "Sem métricas de cliente explícitas",
-        "Sem conflito/resistência visível",
-        "Transições STAR(L) pouco claras"
+        "desequil�brio PT/EN em 'a' (diferen�a >25%)",
+        "desequil�brio PT/EN em 'l' (diferen�a >25%)",
+        "Sinais de Customer Obsession fracos",
+        "Nenhum sinal de conflito ou superação de resistência"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem métricas de cliente explícitas",
+          "message": "desequil�brio PT/EN em 'a' (diferen�a >25%)",
           "action": "Refinar narrativa conforme alerta."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resistência visível",
+          "message": "desequil�brio PT/EN em 'l' (diferen�a >25%)",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sinais de Customer Obsession fracos",
+          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Nenhum sinal de conflito ou superação de resistência",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 16",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": []
+        "warnings": [
+          "desequil�brio PT/EN em 'a' (diferen�a >25%)",
+          "desequil�brio PT/EN em 'l' (diferen�a >25%)"
+        ]
       },
       "heur": {
-        "score": 95,
-        "status": "Ready",
+        "score": 53,
+        "status": "Needs-Rewrite",
         "dealbreakers": [],
         "warnings": [
-          "Sem métricas de cliente explícitas",
-          "Sem conflito/resistência visível",
-          "Transições STAR(L) pouco claras"
+          "desequil�brio PT/EN em 'a' (diferen�a >25%)",
+          "desequil�brio PT/EN em 'l' (diferen�a >25%)",
+          "Sinais de Customer Obsession fracos",
+          "Nenhum sinal de conflito ou superação de resistência"
         ],
         "positives": [
-          "Customer Obsession forte (14 menções relevantes)",
-          "Métricas robustas (16)",
-          "Ratio EU:NÓS saudável (3:0)",
-          "Mecanismos/repeatability destacados"
+          "Métricas robustas (15)",
+          "Ratio EU:NÓS saudável (17.0:1)"
         ],
-        "metricsCount": 16,
-        "metricCategories": {
-          "financial": true,
-          "customer": false,
-          "operational": true
+        "breakdown": {
+          "narrative": 9,
+          "metrics": 18,
+          "lpContent": 0,
+          "amazonAspects": 7,
+          "contribution": 10,
+          "structure": 5
         },
-        "customerSignals": 14,
-        "conflictSignals": false,
-        "mechanismSignals": 16,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 3,
+        "details": {
+          "metrics": {
+            "count": 15,
+            "hasFinancial": true,
+            "hasCustomer": false,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 17,
+            "eu": 17,
             "nos": 0
+          },
+          "amazonAspects": {
+            "customerSignals": 2,
+            "mechanismSignals": 8,
+            "conflictSignals": 0
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 106,
-          "status": "aging"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 442,
-            "enLen": 415,
-            "deltaPct": 0.06108597285067873
-          },
-          "t": {
-            "ptLen": 507,
-            "enLen": 471,
-            "deltaPct": 0.07100591715976332
-          },
-          "a": {
-            "ptLen": 1755,
-            "enLen": 1577,
-            "deltaPct": 0.10142450142450142
-          },
-          "r": {
-            "ptLen": 624,
-            "enLen": 588,
-            "deltaPct": 0.057692307692307696
-          },
-          "l": {
-            "ptLen": 682,
-            "enLen": 649,
-            "deltaPct": 0.04838709677419355
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 0,
-        "micDropSignals": true,
-        "biasSignals": 0
+        }
       }
     }
   }

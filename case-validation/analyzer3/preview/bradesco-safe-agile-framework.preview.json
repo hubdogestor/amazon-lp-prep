@@ -98,14 +98,14 @@
     "isTopCase": false,
     "isGoodCase": false,
     "pt": {
-      "s": "Para construir o Banco Digital Next, coordenávamos 17 squads e 230 profissionais espalhados por 3 prédios em São Paulo. O maior problema: 6 semanas de atraso acumulado no trimestre por dependências não mapeadas entre squads. Reuniões de alinhamento consumiam 40% do tempo produtivo - desenvolvedores gastavam 16 horas/semana em meetings sem delivery tangível. O modelo tradicional de gestão em cascata do Bradesco era fundamentalmente inadequado para a velocidade e interdependência exigida por produto digital. Tentativas anteriores de 'agilidade' foram superficiais - sprints isolados sem coordenação global.",
+      "s": "O desafio começou quando para construir o Banco Digital Next, coordenávamos 17 squads e 230 profissionais espalhados por 3 prédios em São Paulo. O maior problema: 6 semanas de atraso acumulado no trimestre por dependências não mapeadas entre squads. Reuniões de alinhamento consumiam 40% do tempo produtivo - desenvolvedores gastavam 16 horas/semana em meetings sem delivery tangível. O modelo tradicional de gestão em cascata do Bradesco era fundamentalmente inadequado para a velocidade e interdependência exigida por produto digital. Tentativas anteriores de 'agilidade' foram superficiais - sprints isolados sem coordenação global.",
       "t": "Meu papel individual: eu liderei end-to-end, defini escopo e decisões críticas, e atuei como owner único. Minha responsabilidade era pesquisar, aprender, e implementar modelo de entrega ágil verdadeiramente funcional para nosso contexto específico. Não poderia simplesmente copiar framework existente - precisava aprender princípios profundos do ágil em escala e adaptar às restrições culturais de um grande banco tradicional brasileiro. Era claro que precisava de conhecimento além da nossa expertise interna para resolver esse desafio de escala.",
       "a": "Nota de contexto: conectei as mudanças a operações de pagamento onde cabia (ex.: conciliação/settlement, antifraude, SLA de liquidação). Ações pessoais: priorizei mudanças, alinhei stakeholders, tomei decisões de trade-off e removi bloqueios. Mergulhei sistematicamente em frameworks de escala ágil. Completei a certificação SAFe 4.0 Scrum Master (SSM) em curso intensivo de 2 dias + prova rigorosa, investindo 16 horas de estudo prévio em whitepapers e documentação. Fui o primeiro profissional do Bradesco certificado em SAFe, o que me deu credibilidade instantânea para liderar a transformação entre stakeholders céticos. Facilitei pessoalmente o primeiro PI Planning em março/2017 com 3 squads piloto (35 pessoas) em sala do 18º andar do edifício matriz. Preparei meticulosamente: 4 paredes com papel kraft, comprei 200 post-its coloridos, montei timeline física de 10 semanas com milestones visíveis. Comecei às 9h, planejei terminar às 18h seguindo formato oficial de 2 dias condensado. Às 15h30, observei energia caindo dramaticamente. Pausei cerimônia, entrevistei participantes sobre fadiga, ajustei dinâmica para incluir energizers, terminamos às 17h com todos genuinamente alinhados. Na retrospectiva imediata, decidi boldly adaptar: próxima PI seria redesenhada para 1 dia completo. Fui co-fundador da 'Comunidade Ágil @ InovaBra' que se tornou núcleo de aprendizado para transformação. Desenhei workshops mensais onde facilitava pessoalmente sessões de Design Thinking - equipes que participaram dos treinamentos melhoraram métricas de aceitação de features em 30% através de melhor user-centricity. Criei fórum inovador de 'retrospectiva da retrospectiva' com Agile Coaches cross-teams, donde práticas compartilhadas como relatórios de status 'one-pager' foram organicamente adotados por outras 3 diretorias, provando natureza viral de boas práticas.",
       "r": "A implementação do modelo ágil adaptado foi absolutamente determinante para lançamento bem-sucedido do Next em exatamente 12 meses (vs. timeline original de 18 meses). Reduziu atrasos acumulados de 6 semanas para zero através de mapeamento de dependências. Comunidade Ágil treinou mais de 2.000 profissionais no Bradesco, acelerando dramaticamente toda transformação digital além do Next. Modelo de PI Planning adaptado e rituais de governança foram formalmente adotados e replicados em outros 4 programas estratégicos do banco. Mais significativo: reduziu tempo em reuniões de alinhamento em 50% (de 40% para 20% do tempo produtivo) e completamente eliminou retrabalho causado por dependências não gerenciadas - equipes conseguiam prever e coordenar trabalho 3 meses à frente. Adaptações do framework foram documentadas em playbook 'Bradesco Way of Working' que depois se tornou padrão corporativo para todas iniciativas digitais.",
       "l": "Aprendi que em transformação major, framework é apenas ponto de partida para jornada de aprendizado. Habilidade real está na curiosidade para entender cultura existente profundamente e disposição para adaptar continuamente baseado em feedback real, não perfeição teórica. PI Planning de 1 dia me ensinou que às vezes você deve quebrar 'regras' estabelecidas para salvar princípios subjacentes - cerimônia mais curta preservou energia e engajamento enquanto atingiu mesmos objetivos de alinhamento. Sucesso veio da busca implacável de conhecimento (certificação formal), curiosidade genuína para experimentar (pilotando adaptações), e humildade para aprender com erros (melhorias baseadas em retrospectiva). Aprendizado contínuo tornou-se nossa vantagem competitiva."
     },
     "en": {
-      "s": "To build the Next Digital Bank, I were coordinating 17 squads and 230 professionals spread across 3 buildings in São Paulo. The biggest problem: 6 weeks accumulated delay in the quarter due to unmapped dependencies between squads. Alignment meetings consumed 40% of productive time - developers spent 16 hours/week in meetings without tangible delivery. Bradesco's traditional waterfall management model was fundamentally inadequate for the speed and interdependence required by digital product. Previous attempts at 'agility' were superficial - isolated sprints without global coordination.",
+      "s": "The challenge began when to build the Next Digital Bank, I were coordinating 17 squads and 230 professionals spread across 3 buildings in São Paulo. The biggest problem: 6 weeks accumulated delay in the quarter due to unmapped dependencies between squads. Alignment meetings consumed 40% of productive time - developers spent 16 hours/week in meetings without tangible delivery. Bradesco's traditional waterfall management model was fundamentally inadequate for the speed and interdependence required by digital product. Previous attempts at 'agility' were superficial - isolated sprints without global coordination.",
       "t": "My individual role: I led end-to-end, set scope and critical decisions, and acted as the single-threaded owner. My responsibility was to research, learn, and implement a truly functional agile delivery model for my specific context. I couldn't simply copy existing framework - I needed to learn deep principles of agile at scale and adapt to cultural constraints of a large traditional Brazilian bank. It was clear I needed knowledge beyond my internal expertise to solve this scale challenge.",
       "a": "Context note: I tied changes to payment operations when applicable (e.g., reconciliation/settlement, fraud prevention, settlement SLA). Personal actions: I drove execution—prioritized changes, aligned stakeholders, made trade-offs, and unblocked teams. I systematically dove into agile scaling frameworks. I completed SAFe 4.0 Scrum Master (SSM) certification in intensive 2-day course + rigorous exam, investing 16 hours prior study in whitepapers and documentation. I was the first Bradesco professional certified in SAFe, which gave me instant credibility to lead transformation among skeptical stakeholders. I personally facilitated the first PI Planning in March/2017 with 3 pilot squads (35 people) in 18th floor room of headquarters building. I prepared meticulously: 4 walls with kraft paper, bought 200 colored post-its, mounted physical 10-week timeline with visible milestones. Started at 9 AM, planned to finish at 6 PM following official 2-day format condensed. At 3:30 PM, I observed energy dropping dramatically. I paused ceremony, interviewed participants about fatigue, adjusted dynamics to include energizers, finished at 5 PM with everyone genuinely aligned. In immediate retrospective, I decided to boldly adapt: next PI would be redesigned for 1 complete day. I co-founded 'Agile Community @ InovaBra' which became learning nucleus for transformation. I designed monthly workshops where personally facilitated Design Thinking sessions - teams that participated in training improved feature acceptance metrics by 30% through better user-centricity. I created innovative 'retrospective of retrospectives' forum with cross-team Agile Coaches, where shared practices like 'one-pager' status reports were organically adopted by 3 other directorates, proving viral nature of good practices.",
       "r": "Implementation of adapted agile model was absolutely decisive for successful launch of Next in exactly 12 months (vs. original 18-month timeline). Reduced accumulated delays from 6 weeks to zero through dependency mapping. Agile Community trained over 2,000 professionals across Bradesco, dramatically accelerating entire digital transformation beyond just Next. Adapted PI Planning model and governance rituals were formally adopted and replicated in 4 other strategic bank programs. Most significantly: reduced time in alignment meetings by 50% (from 40% to 20% of productive time) and completely eliminated rework caused by unmanaged dependencies - teams could predict and coordinate work 3 months ahead. Framework adaptations were documented in 'Bradesco Way of Working' playbook which later became corporate standard for all digital initiatives.",
@@ -177,43 +177,48 @@
     "lp_id": "learn_and_be_curious",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 76,
+      "status": "Needs-Polish",
       "positives": [
         "Métricas robustas (23)",
-        "Ratio EU:NÓS saudável (1:0)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (20.0:1)"
       ],
       "warnings": [
-        "Customer Obsession fraca (poucos sinais)",
-        "Sem métricas financeiras claras"
+        "Sinais de Customer Obsession fracos",
+        "Hook inicial fraco (sem urgência ou stakes claros)",
+        "Faltam transições narrativas entre seções STARL"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[pt] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
+        },
+        {
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[en] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
+        },
+        {
           "severity": "warning",
           "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
+          "message": "Sinais de Customer Obsession fracos",
           "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem métricas financeiras claras",
+          "message": "Hook inicial fraco (sem urgência ou stakes claros)",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
           "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 1:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 23",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
@@ -222,70 +227,48 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
+        "score": 76,
+        "status": "Needs-Polish",
         "dealbreakers": [],
         "warnings": [
-          "Customer Obsession fraca (poucos sinais)",
-          "Sem métricas financeiras claras"
+          "Sinais de Customer Obsession fracos",
+          "Hook inicial fraco (sem urgência ou stakes claros)",
+          "Faltam transições narrativas entre seções STARL"
         ],
         "positives": [
           "Métricas robustas (23)",
-          "Ratio EU:NÓS saudável (1:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+          "Ratio EU:NÓS saudável (20.0:1)"
         ],
-        "metricsCount": 23,
-        "metricCategories": {
-          "financial": false,
-          "customer": true,
-          "operational": true
+        "breakdown": {
+          "narrative": 6,
+          "metrics": 18,
+          "lpContent": 14,
+          "amazonAspects": 13,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 2,
-        "conflictSignals": true,
-        "mechanismSignals": 12,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 1,
+        "details": {
+          "metrics": {
+            "count": 23,
+            "hasFinancial": false,
+            "hasCustomer": true,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 20,
+            "eu": 20,
             "nos": 0
+          },
+          "amazonAspects": {
+            "customerSignals": 2,
+            "mechanismSignals": 12,
+            "conflictSignals": 1
+          },
+          "lpContent": {
+            "strongCount": 6,
+            "mediumCount": 2
           }
-        },
-        "recency": {
-          "monthsAgo": 89,
-          "status": "aging"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 610,
-            "enLen": 591,
-            "deltaPct": 0.03114754098360656
-          },
-          "t": {
-            "ptLen": 547,
-            "enLen": 493,
-            "deltaPct": 0.09872029250457039
-          },
-          "a": {
-            "ptLen": 1864,
-            "enLen": 1805,
-            "deltaPct": 0.03165236051502146
-          },
-          "r": {
-            "ptLen": 931,
-            "enLen": 850,
-            "deltaPct": 0.08700322234156821
-          },
-          "l": {
-            "ptLen": 765,
-            "enLen": 704,
-            "deltaPct": 0.07973856209150326
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 2,
-        "micDropSignals": true,
-        "biasSignals": 2
+        }
       }
     }
   }

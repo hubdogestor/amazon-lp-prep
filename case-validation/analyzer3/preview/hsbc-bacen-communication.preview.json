@@ -98,14 +98,14 @@
     "isTopCase": false,
     "isGoodCase": false,
     "pt": {
-      "s": "Em julho de 2022 o Bacen notificou o HSBC por falhas repetidas em reportes de PLD. Dois oficios citavam discrepancias de R$ 1,1B em posicao diaria e ameaavam abrir processo sancionador. O score de relacionamento do regulador caiu para 43/100 e recebemos 18 perguntas formais em um unico mes. O CFO me pediu: \"voc reconstruiu pontes com reguladores antes, mas agora  zero margem para erro\".",
+      "s": "O desafio começou quando em julho de 2022 o Bacen notificou o HSBC por falhas repetidas em reportes de PLD. Dois oficios citavam discrepancias de R$ 1,1B em posicao diaria e ameaavam abrir processo sancionador. O score de relacionamento do regulador caiu para 43/100 e recebemos 18 perguntas formais em um unico mes. O CFO me pediu: \"voc reconstruiu pontes com reguladores antes, mas agora  zero margem para erro\".",
       "t": "Eu assumi ownership total do dossi regulatorio. Defini como metas responder qualquer pedido em ate 48 horas, reduzir as discrepancias para zero em 60 dias e elevar o score de relacionamento acima de 80 ate maro de 2023.",
       "a": "Primeiro eu montei um inventario de 1.276 campos enviados ao Bacen e descobri que 219 vinham de planilhas manuais. Eu confrontei o diretor de risco que queria manter o processo legado e provei com analise que 71% dos erros surgiam ali; ele aceitou quando eu ofereci um squad dedicado com SLAs claros. Depois eu criei os \"Bacen Briefings\": todo pedido virava um resumo executivo de duas paginas com fonte, owner e prazo, assinado por mim e entregue em ate 6 horas para o CFO e o regulador. Eu tambem assumi pessoalmente as reunioes quinzenais com o Departamento de Monitoramento do Bacen, levei dashboards com profundidade de reconciliao (diferena maxima 0,8%), e pedi feedback explicito em cada encontro. Para ganhar credibilidade, eu publiquei um memo interno chamado \"Regra de 3 Transparencias\": admitir o erro com numero, explicar acao corretiva, e informar data de revalidacao. A cada incidente eu aplicava a regra no mesmo dia.",
       "r": "Em 54 dias eu eliminei 100% das discrepancias, respondi 47 pedidos em media 12 horas mais rapido que o SLA de 48h, avisei os 4,3 mil clientes corporativos sobre o plano em ate 24 horas e o score do Bacen subiu de 43 para 86. O processo sancionador foi arquivado, nenhuma multa aplicada, e o departamento elogiou o formato dos briefings em ofcio oficial. O CFO manteve o ritual: ate hoje toda consulta do regulador recebe o template que eu criei.",
       "l": "Eu aprendi que earn trust com regulador precisa de simetria de informacao: eles nao podem descobrir nada antes de voce contar. Briefings curtos, numeros exatos e follow-up comprometido constroem credibilidade de longo prazo."
     },
     "en": {
-      "s": "In July 2022 the Central Bank flagged HSBC for repeated AML reporting gaps. Two letters cited BRL 1.1B mismatches in the daily position, affecting 4,300 corporate customers, and threatened a sanction process. The regulator relationship score fell to 43/100 and we received 18 formal questions in one month. The CFO told me, \"you rebuilt regulator bridges before, but now we have zero room for error.\"",
+      "s": "The challenge began when in July 2022 the Central Bank flagged HSBC for repeated AML reporting gaps. Two letters cited BRL 1.1B mismatches in the daily position, affecting 4,300 corporate customers, and threatened a sanction process. The regulator relationship score fell to 43/100 and we received 18 formal questions in one month. The CFO told me, \"you rebuilt regulator bridges before, but now we have zero room for error.\"",
       "t": "I took full ownership of the regulatory dossier. I set goals to answer any request within 48 hours, drive discrepancies to zero within 60 days, and lift the relationship score above 80 by March 2023.",
       "a": "I inventoried 1,276 fields sent to the Central Bank and found 219 sourced from manual spreadsheets. I challenged the risk director who wanted to keep the legacy process and proved 71% of errors originated there; he agreed after I offered a dedicated squad with clear SLAs. Next I created the \"Central Bank Briefings\": every request became a two-page executive summary listing source, owner, deadline, signed by me and delivered within six hours to the CFO and the regulator. I personally led the biweekly meetings with the supervisory team, brought reconciliation dashboards showing max variance at 0.8%, shared a briefing with our premium customers explaining how each fix protected their balances, and asked for explicit feedback every session. To earn credibility I published an internal memo named the \"Three Transparencies Rule\": admit the error with a number, explain the corrective action, state the retest date. I applied the rule on the same day of each incident.",
       "r": "Within 54 days I removed 100% of discrepancies, answered 47 requests on average 12 hours faster than the 48-hour target, notified the 4,300 corporate customers within 24 hours, and the Central Bank score climbed from 43 to 86. The sanction process was closed with no fines and the supervisory team praised the briefing format in an official letter. The CFO kept the ritual: every regulator question still receives the template I created.",
@@ -177,29 +177,56 @@
     "lp_id": "earn_trust",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 58,
+      "status": "KO",
       "positives": [
-        "Customer Obsession forte (8 menções relevantes)",
         "Métricas robustas (9)",
-        "Ratio EU:NÓS saudável (11:0)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (11.5:1)"
       ],
-      "warnings": [],
-      "dealbreakers": [],
+      "warnings": [
+        "Hook inicial fraco (sem urgência ou stakes claros)",
+        "Faltam transições narrativas entre seções STARL",
+        "Nenhum sinal de conflito ou superação de resistência"
+      ],
+      "dealbreakers": [
+        "Ausência total de sinais de Customer Obsession"
+      ],
       "suggestions": [
         {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 11:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[pt] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
         },
         {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 9",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[en] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
+        },
+        {
+          "severity": "dealbreaker",
+          "topic": "dealbreaker",
+          "message": "Ausência total de sinais de Customer Obsession",
+          "action": "Reposicionar a narrativa come�ando pelo cliente: explicitar dor, feedbacks e m�tricas de satisfa��o."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Hook inicial fraco (sem urgência ou stakes claros)",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Nenhum sinal de conflito ou superação de resistência",
+          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
         }
       ],
       "lint": {
@@ -208,68 +235,50 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
-        "dealbreakers": [],
-        "warnings": [],
-        "positives": [
-          "Customer Obsession forte (8 menções relevantes)",
-          "Métricas robustas (9)",
-          "Ratio EU:NÓS saudável (11:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+        "score": 58,
+        "status": "KO",
+        "dealbreakers": [
+          "Ausência total de sinais de Customer Obsession"
         ],
-        "metricsCount": 9,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
+        "warnings": [
+          "Hook inicial fraco (sem urgência ou stakes claros)",
+          "Faltam transições narrativas entre seções STARL",
+          "Nenhum sinal de conflito ou superação de resistência"
+        ],
+        "positives": [
+          "Métricas robustas (9)",
+          "Ratio EU:NÓS saudável (11.5:1)"
+        ],
+        "breakdown": {
+          "narrative": 7,
+          "metrics": 17,
+          "lpContent": 0,
+          "amazonAspects": 10,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 8,
-        "conflictSignals": true,
-        "mechanismSignals": 7,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 11,
-            "nos": 0
+        "details": {
+          "metrics": {
+            "count": 9,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 11.5,
+            "eu": 23,
+            "nos": 2
+          },
+          "amazonAspects": {
+            "customerSignals": 0,
+            "mechanismSignals": 5,
+            "conflictSignals": 0
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 115,
-          "status": "stale"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 389,
-            "enLen": 400,
-            "deltaPct": 0.0275
-          },
-          "t": {
-            "ptLen": 219,
-            "enLen": 199,
-            "deltaPct": 0.091324200913242
-          },
-          "a": {
-            "ptLen": 932,
-            "enLen": 972,
-            "deltaPct": 0.0411522633744856
-          },
-          "r": {
-            "ptLen": 445,
-            "enLen": 437,
-            "deltaPct": 0.017977528089887642
-          },
-          "l": {
-            "ptLen": 224,
-            "enLen": 220,
-            "deltaPct": 0.017857142857142856
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 2,
-        "micDropSignals": true,
-        "biasSignals": 1
+        }
       }
     }
   }

@@ -9,18 +9,18 @@
     "isTopCase": false,
     "isGoodCase": true,
     "pt": {
-      "s": "Em 14 de agosto de 2021 as 6h da manha recebi alerta critico do NOC: transacoes Pix suspeitas dispararam 340% em 90 minutos (de 45 por hora para 198 por hora). O modelo de fraude estava sinalizando padrao novo que nunca tinhamos visto: contas recém-abertas (< 7 dias) fazendo Pix de valores medios (R$ 800-1.200) para 23 CPFs diferentes em sequencia rapida (< 3 minutos entre transacoes). Tinhamos dados incompletos: o sistema de KYC estava em manutencao entao nao conseguiamos verificar historico completo dos CPFs destinatarios, e o time de fraude só chegaria as 9h. Eu precisava decidir em no maximo 4 horas: bloquear todas as transacoes (impactando 100% dos clientes novos, incluindo legitimos) ou deixar passar e arriscar perda de R$ 2.3M projetada ate o fim do dia.",
-      "t": "Eu era o Head of Payments responsavel por proteger o Sicredi de fraude mantendo experiencia do cliente. Minha responsabilidade pessoal era tomar decisao rapida sob incerteza para balancear risco de perda financeira versus risco de bloquear clientes legitimos. Eu tinha autoridade para implementar bloqueios temporarios sem aprovacao de comitê quando havia risco material.",
-      "a": "As 6h15 eu ativei o protocolo de emergencia e convoquei call com 4 pessoas chave: lider do NOC, analista senior de fraude (que consegui acordar), engenheiro de payments e compliance officer. As 6h30 eu tinha coletado 3 sinais: (1) 87% das contas suspeitas tinham sido abertas via parceiro X (marketplace); (2) os CPFs destinatarios tinham sobreposicao de 64% com base de mulas conhecidas (dado parcial do sistema antigo); (3) o ticket medio de R$ 950 estava abaixo do limite de alerta configurado (R$ 1.500) entao o sistema nao bloqueou automaticamente. Com esses 3 dados incompletos eu tinha 2 opcoes: (A) bloquear 100% das contas < 7 dias do parceiro X por 24h (impactaria 840 clientes, 15% falsos positivos estimados) ou (B) subir o limite de alerta para R$ 600 e monitorar (deixaria passar 40% das fraudes projetadas). As 7h15 eu tomei a decisao: implementei bloqueio cirurgico - bloqueei contas < 7 dias do parceiro X mas apenas para Pix acima de R$ 600 para CPFs fora da whitelist de relacionamento (ex: nao bloqueei pix para CPF de familiares). Isso reduzia falsos positivos de 15% para 4% mantendo protecao de 89% das fraudes. As 7h30 eu liguei pessoalmente para o CEO do parceiro X e pedi suspensao temporaria de onboarding ate investigarmos (ele aceitou em 15 minutos). As 8h eu implementei painel live de monitoramento que eu checava a cada 20 minutos e estabeleci 3 gatilhos de rollback: se falsos positivos > 6%, se NPS cair > 5 pontos, ou se fraudes vazarem > R$ 200k, eu reverteria a decisao.",
-      "r": "O bloqueio cirurgico funcionou: contivemos 89% das fraudes projetadas economizando R$ 2.05M das R$ 2.3M em risco. Bloqueamos 312 transacoes fraudulentas confirmadas e tivemos apenas 34 falsos positivos (4.0%, dentro do gate de 6%). O NPS de clientes novos caiu apenas 2 pontos (de 64 para 62) e se recuperou em 3 dias quando liberamos gradualmente. As 14h o time de fraude chegou e confirmou minha hipotese: era esquema coordenado de mulas usando vulnerabilidade no KYC do parceiro X. Fechamos a vulnerabilidade em 48h e o CEO do parceiro implementou verificacao adicional de documenting. Nos 30 dias seguintes fraude via parceiro X caiu 94%. A decisao rapida com dados incompletos mas criterios claros virou case study interno de bias for action com risk management: eu apresentei o playbook (sinais minimos, opcoes binaras, gates de rollback) e ele foi adotado em outros 3 casos de fraude emergencial.",
-      "l": "Aprendi que decisao rapida sob incerteza exige 3 elementos: (1) Coletar sinais minimos suficientes (nao esperar dados perfeitos) - 3 sinais em 1h15min foram suficientes; (2) Definir opcoes binarias claras e gates objetivos de rollback - isso acelera a decisao; (3) Implementar monitorizacao intensiva pos-decisao para ajustar rapido se necessario - checava painel a cada 20min. Usei esse modelo depois na Unimed quando modelo de IA de autorizacao medica comecou a aprovar 8% acima do esperado: em 2 horas coletei 3 sinais, implementei throttling cirurgico (reduzi aprovacao automatica de 82% para 65% temporariamente), estabeleci gates e monitorei intensivamente. Ajustei o modelo em 18 horas e voltei aos 82% sem incidentes. Bias for action nao e agir cegamente, e agir rapido com sinais minimos e mecanismos de controle."
+      "s": "\"R$ 2.3 milhões em risco até o fim do dia — você tem 4 horas para decidir\" me disse o líder do NOC às 6h05, logo após detectar o ataque de fraude.\n\nEm 14 de agosto de 2021 as 6h da manha recebi alerta critico do NOC: transacoes Pix suspeitas dispararam 340% em 90 minutos (de 45 por hora para 198 por hora). O modelo de fraude estava sinalizando padrao novo que nunca tinhamos visto: contas recém-abertas (< 7 dias) fazendo Pix de valores medios (R$ 800-1.200) para 23 CPFs diferentes em sequencia rapida (< 3 minutos entre transacoes).\n\nO problema era crítico e os dados incompletos: o sistema de KYC estava em manutencao entao nao conseguiamos verificar historico completo dos CPFs destinatarios, e o time de fraude só chegaria as 9h. Eu precisava decidir em no maximo 4 horas: bloquear todas as transacoes (impactando 100% dos clientes novos, incluindo legitimos) ou deixar passar e arriscar perda de R$ 2.3M projetada ate o fim do dia.",
+      "t": "O desafio crítico era tomar uma decisão em 4 horas com dados incompletos, balanceando proteção financeira e experiência do cliente. Eu era o Head of Payments responsavel por proteger o Sicredi de fraude mantendo experiencia do cliente. Minha responsabilidade pessoal era tomar decisao rapida sob incerteza para balancear risco de perda financeira versus risco de bloquear clientes legitimos. Eu tinha autoridade para implementar bloqueios temporarios sem aprovacao de comitê quando havia risco material.",
+      "a": "Minha abordagem foi coletar sinais mínimos em tempo recorde e implementar bloqueio cirúrgico com monitoramento intensivo.\n\nAs 6h15 eu ativei o protocolo de emergencia e convoquei call com 4 pessoas chave: lider do NOC, analista senior de fraude (que consegui acordar), engenheiro de payments e compliance officer. As 6h30 eu tinha coletado 3 sinais: (1) 87% das contas suspeitas tinham sido abertas via parceiro X (marketplace); (2) os CPFs destinatarios tinham sobreposicao de 64% com base de mulas conhecidas (dado parcial do sistema antigo); (3) o ticket medio de R$ 950 estava abaixo do limite de alerta configurado (R$ 1.500) entao o sistema nao bloqueou automaticamente.\n\nCom esses 3 dados incompletos eu tinha 2 opcoes: (A) bloquear 100% das contas < 7 dias do parceiro X por 24h (impactaria 840 clientes, 15% falsos positivos estimados) ou (B) subir o limite de alerta para R$ 600 e monitorar (deixaria passar 40% das fraudes projetadas). As 7h15 eu tomei a decisao: implementei bloqueio cirurgico - bloqueei contas < 7 dias do parceiro X mas apenas para Pix acima de R$ 600 para CPFs fora da whitelist de relacionamento (ex: nao bloqueei pix para CPF de familiares). Isso reduzia falsos positivos de 15% para 4% mantendo protecao de 89% das fraudes.\n\nAs 7h30 eu liguei pessoalmente para o CEO do parceiro X e pedi suspensao temporaria de onboarding ate investigarmos (ele aceitou em 15 minutos). As 8h eu implementei painel live de monitoramento que eu checava a cada 20 minutos e estabeleci 3 gatilhos de rollback: se falsos positivos > 6%, se NPS cair > 5 pontos, ou se fraudes vazarem > R$ 200k, eu reverteria a decisao.",
+      "r": "O impacto mensurável da decisão rápida foi significativo — economizamos R$ 2.05M e mantivemos a experiência dos clientes legítimos intacta.\n\nO bloqueio cirurgico funcionou: contivemos 89% das fraudes projetadas economizando R$ 2.05M das R$ 2.3M em risco. Bloqueamos 312 transacoes fraudulentas confirmadas e tivemos apenas 34 falsos positivos (4.0%, dentro do gate de 6%). O NPS de clientes novos caiu apenas 2 pontos (de 64 para 62) e se recuperou em 3 dias quando liberamos gradualmente.\n\nAs 14h o time de fraude chegou e confirmou minha hipotese: era esquema coordenado de mulas usando vulnerabilidade no KYC do parceiro X. Fechamos a vulnerabilidade em 48h e o CEO do parceiro implementou verificacao adicional de documenting. Nos 30 dias seguintes fraude via parceiro X caiu 94%. A decisao rapida com dados incompletos mas criterios claros virou case study interno de bias for action com risk management: eu apresentei o playbook (sinais minimos, opcoes binaras, gates de rollback) e ele foi adotado em outros 3 casos de fraude emergencial.",
+      "l": "A lição principal desse caso mudou minha compreensão sobre decisão sob incerteza: decisão rápida não é agir cegamente, é agir com sinais mínimos e mecanismos de controle.\n\nAprendi que decisao rapida sob incerteza exige 3 elementos: (1) Coletar sinais minimos suficientes (nao esperar dados perfeitos) - 3 sinais em 1h15min foram suficientes; (2) Definir opcoes binarias claras e gates objetivos de rollback - isso acelera a decisao; (3) Implementar monitorizacao intensiva pos-decisao para ajustar rapido se necessario - checava painel a cada 20min.\n\nUsei esse modelo depois na Unimed quando modelo de IA de autorizacao medica comecou a aprovar 8% acima do esperado: em 2 horas coletei 3 sinais, implementei throttling cirurgico (reduzi aprovacao automatica de 82% para 65% temporariamente), estabeleci gates e monitorei intensivamente. Ajustei o modelo em 18 horas e voltei aos 82% sem incidentes. Bias for action nao e agir cegamente, e agir rapido com sinais minimos e mecanismos de controle."
     },
     "en": {
-      "s": "On August 14, 2021 at 6am I received critical alert from NOC: suspicious Pix transactions spiked 340% in 90 minutes (from 45 per hour to 198 per hour). The fraud model was signaling a new pattern we'd never seen: newly-opened accounts (< 7 days) making medium-value Pix (BRL 800-1,200) to 23 different CPFs in rapid sequence (< 3 minutes between transactions). We had incomplete data: the KYC system was under maintenance so we couldn't verify complete history of recipient CPFs, and the fraud team would only arrive at 9am. I needed to decide in max 4 hours: block all transactions (impacting 100% of new customers, including legitimate ones) or let it pass and risk projected loss of BRL 2.3M by end of day.",
-      "t": "I was the Head of Payments responsible for protecting Sicredi from fraud while maintaining customer experience. My personal responsibility was to make fast decision under uncertainty to balance financial loss risk versus risk of blocking legitimate customers. I had authority to implement temporary blocks without committee approval when there was material risk.",
-      "a": "At 6:15am I activated emergency protocol and called 4 key people: NOC leader, senior fraud analyst (whom I managed to wake up), payments engineer, and compliance officer. By 6:30am I had collected 3 signals: (1) 87% of suspicious accounts had been opened via partner X (marketplace); (2) recipient CPFs had 64% overlap with known mule database (partial data from old system); (3) average ticket of BRL 950 was below configured alert limit (BRL 1,500) so system didn't auto-block. With these 3 incomplete data points I had 2 options: (A) block 100% of accounts < 7 days from partner X for 24h (would impact 840 customers, 15% false positives estimated) or (B) raise alert limit to BRL 600 and monitor (would let 40% of projected frauds pass). At 7:15am I made the decision: implemented surgical block - blocked accounts < 7 days from partner X but only for Pix above BRL 600 to CPFs outside relationship whitelist (e.g. didn't block pix to family member CPFs). This reduced false positives from 15% to 4% while maintaining 89% fraud protection. At 7:30am I personally called partner X's CEO and requested temporary onboarding suspension until we investigated (he accepted in 15 minutes). At 8am I implemented live monitoring dashboard I checked every 20 minutes and established 3 rollback triggers: if false positives > 6%, if NPS drops > 5 points, or if frauds leak > BRL 200k, I would revert the decision.",
-      "r": "The surgical block worked: we contained 89% of projected frauds saving BRL 2.05M of the BRL 2.3M at risk. We blocked 312 confirmed fraudulent transactions and had only 34 false positives (4.0%, within 6% gate). New customer NPS dropped only 2 points (from 64 to 62) and recovered in 3 days when we gradually released. At 2pm the fraud team arrived and confirmed my hypothesis: it was coordinated mule scheme using vulnerability in partner X's KYC. We closed the vulnerability in 48h and the partner's CEO implemented additional document verification. In the following 30 days fraud via partner X dropped 94%. The fast decision with incomplete data but clear criteria became internal case study of bias for action with risk management: I presented the playbook (minimum signals, binary options, rollback gates) and it was adopted in 3 other emergency fraud cases.",
-      "l": "I learned that fast decision under uncertainty requires 3 elements: (1) Collect minimum sufficient signals (don't wait for perfect data) - 3 signals in 1h15min were enough; (2) Define clear binary options and objective rollback gates - this accelerates decision; (3) Implement intensive post-decision monitoring to adjust quickly if needed - I checked dashboard every 20min. I used this model later at Unimed when medical authorization AI model started approving 8% above expected: in 2 hours I collected 3 signals, implemented surgical throttling (reduced auto-approval from 82% to 65% temporarily), established gates and monitored intensively. I adjusted the model in 18 hours and returned to 82% without incidents. Bias for action isn't acting blindly, it's acting fast with minimum signals and control mechanisms."
+      "s": "\"BRL 2.3 million at risk by end of day — you have 4 hours to decide\" the NOC leader told me at 6:05am, right after detecting the fraud attack.\n\nOn August 14, 2021 at 6am I received critical alert from NOC: suspicious Pix transactions spiked 340% in 90 minutes (from 45 per hour to 198 per hour). The fraud model was signaling a new pattern we'd never seen: newly-opened accounts (< 7 days) making medium-value Pix (BRL 800-1,200) to 23 different CPFs in rapid sequence (< 3 minutes between transactions).\n\nThe problem was critical and data incomplete: the KYC system was under maintenance so we couldn't verify complete history of recipient CPFs, and the fraud team would only arrive at 9am. I needed to decide in max 4 hours: block all transactions (impacting 100% of new customers, including legitimate ones) or let it pass and risk projected loss of BRL 2.3M by end of day.",
+      "t": "The critical challenge was making a decision in 4 hours with incomplete data, balancing financial protection and customer experience. I was the Head of Payments responsible for protecting Sicredi from fraud while maintaining customer experience. My personal responsibility was to make fast decision under uncertainty to balance financial loss risk versus risk of blocking legitimate customers. I had authority to implement temporary blocks without committee approval when there was material risk.",
+      "a": "My approach was to collect minimum signals in record time and implement surgical blocking with intensive monitoring.\n\nAt 6:15am I activated emergency protocol and called 4 key people: NOC leader, senior fraud analyst (whom I managed to wake up), payments engineer, and compliance officer. By 6:30am I had collected 3 signals: (1) 87% of suspicious accounts had been opened via partner X (marketplace); (2) recipient CPFs had 64% overlap with known mule database (partial data from old system); (3) average ticket of BRL 950 was below configured alert limit (BRL 1,500) so system didn't auto-block.\n\nWith these 3 incomplete data points I had 2 options: (A) block 100% of accounts < 7 days from partner X for 24h (would impact 840 customers, 15% false positives estimated) or (B) raise alert limit to BRL 600 and monitor (would let 40% of projected frauds pass). At 7:15am I made the decision: implemented surgical block - blocked accounts < 7 days from partner X but only for Pix above BRL 600 to CPFs outside relationship whitelist (e.g. didn't block pix to family member CPFs). This reduced false positives from 15% to 4% while maintaining 89% fraud protection.\n\nAt 7:30am I personally called partner X's CEO and requested temporary onboarding suspension until we investigated (he accepted in 15 minutes). At 8am I implemented live monitoring dashboard I checked every 20 minutes and established 3 rollback triggers: if false positives > 6%, if NPS drops > 5 points, or if frauds leak > BRL 200k, I would revert the decision.",
+      "r": "The measurable impact of the fast decision was significant — we saved BRL 2.05M and kept legitimate customer experience intact.\n\nThe surgical block worked: we contained 89% of projected frauds saving BRL 2.05M of the BRL 2.3M at risk. We blocked 312 confirmed fraudulent transactions and had only 34 false positives (4.0%, within 6% gate). New customer NPS dropped only 2 points (from 64 to 62) and recovered in 3 days when we gradually released.\n\nAt 2pm the fraud team arrived and confirmed my hypothesis: it was coordinated mule scheme using vulnerability in partner X's KYC. We closed the vulnerability in 48h and the partner's CEO implemented additional document verification. In the following 30 days fraud via partner X dropped 94%. The fast decision with incomplete data but clear criteria became internal case study of bias for action with risk management: I presented the playbook (minimum signals, binary options, rollback gates) and it was adopted in 3 other emergency fraud cases.",
+      "l": "The main lesson from this case changed my understanding of decision-making under uncertainty: fast decision isn't acting blindly, it's acting with minimum signals and control mechanisms.\n\nI learned that fast decision under uncertainty requires 3 elements: (1) Collect minimum sufficient signals (don't wait for perfect data) - 3 signals in 1h15min were enough; (2) Define clear binary options and objective rollback gates - this accelerates decision; (3) Implement intensive post-decision monitoring to adjust quickly if needed - I checked dashboard every 20min.\n\nI used this model later at Unimed when medical authorization AI model started approving 8% above expected: in 2 hours I collected 3 signals, implemented surgical throttling (reduced auto-approval from 82% to 65% temporarily), established gates and monitored intensively. I adjusted the model in 18 hours and returned to 82% without incidents. Bias for action isn't acting blindly, it's acting fast with minimum signals and control mechanisms."
     },
     "fups": [
       {
@@ -98,18 +98,18 @@
     "isTopCase": false,
     "isGoodCase": true,
     "pt": {
-      "s": "Em 14 de agosto de 2021 as 6h da manha recebi alerta critico do NOC: transacoes Pix suspeitas dispararam 340% em 90 minutos (de 45 por hora para 198 por hora). O modelo de fraude estava sinalizando padrao novo que nunca tinhamos visto: contas recém-abertas (< 7 dias) fazendo Pix de valores medios (R$ 800-1.200) para 23 CPFs diferentes em sequencia rapida (< 3 minutos entre transacoes). Tinhamos dados incompletos: o sistema de KYC estava em manutencao entao nao conseguiamos verificar historico completo dos CPFs destinatarios, e o time de fraude só chegaria as 9h. Eu precisava decidir em no maximo 4 horas: bloquear todas as transacoes (impactando 100% dos clientes novos, incluindo legitimos) ou deixar passar e arriscar perda de R$ 2.3M projetada ate o fim do dia.",
-      "t": "Eu era o Head of Payments responsavel por proteger o Sicredi de fraude mantendo experiencia do cliente. Minha responsabilidade pessoal era tomar decisao rapida sob incerteza para balancear risco de perda financeira versus risco de bloquear clientes legitimos. Eu tinha autoridade para implementar bloqueios temporarios sem aprovacao de comitê quando havia risco material.",
-      "a": "As 6h15 eu ativei o protocolo de emergencia e convoquei call com 4 pessoas chave: lider do NOC, analista senior de fraude (que consegui acordar), engenheiro de payments e compliance officer. As 6h30 eu tinha coletado 3 sinais: (1) 87% das contas suspeitas tinham sido abertas via parceiro X (marketplace); (2) os CPFs destinatarios tinham sobreposicao de 64% com base de mulas conhecidas (dado parcial do sistema antigo); (3) o ticket medio de R$ 950 estava abaixo do limite de alerta configurado (R$ 1.500) entao o sistema nao bloqueou automaticamente. Com esses 3 dados incompletos eu tinha 2 opcoes: (A) bloquear 100% das contas < 7 dias do parceiro X por 24h (impactaria 840 clientes, 15% falsos positivos estimados) ou (B) subir o limite de alerta para R$ 600 e monitorar (deixaria passar 40% das fraudes projetadas). As 7h15 eu tomei a decisao: implementei bloqueio cirurgico - bloqueei contas < 7 dias do parceiro X mas apenas para Pix acima de R$ 600 para CPFs fora da whitelist de relacionamento (ex: nao bloqueei pix para CPF de familiares). Isso reduzia falsos positivos de 15% para 4% mantendo protecao de 89% das fraudes. As 7h30 eu liguei pessoalmente para o CEO do parceiro X e pedi suspensao temporaria de onboarding ate investigarmos (ele aceitou em 15 minutos). As 8h eu implementei painel live de monitoramento que eu checava a cada 20 minutos e estabeleci 3 gatilhos de rollback: se falsos positivos > 6%, se NPS cair > 5 pontos, ou se fraudes vazarem > R$ 200k, eu reverteria a decisao.",
-      "r": "O bloqueio cirurgico funcionou: contivemos 89% das fraudes projetadas economizando R$ 2.05M das R$ 2.3M em risco. Bloqueamos 312 transacoes fraudulentas confirmadas e tivemos apenas 34 falsos positivos (4.0%, dentro do gate de 6%). O NPS de clientes novos caiu apenas 2 pontos (de 64 para 62) e se recuperou em 3 dias quando liberamos gradualmente. As 14h o time de fraude chegou e confirmou minha hipotese: era esquema coordenado de mulas usando vulnerabilidade no KYC do parceiro X. Fechamos a vulnerabilidade em 48h e o CEO do parceiro implementou verificacao adicional de documenting. Nos 30 dias seguintes fraude via parceiro X caiu 94%. A decisao rapida com dados incompletos mas criterios claros virou case study interno de bias for action com risk management: eu apresentei o playbook (sinais minimos, opcoes binaras, gates de rollback) e ele foi adotado em outros 3 casos de fraude emergencial.",
-      "l": "Aprendi que decisao rapida sob incerteza exige 3 elementos: (1) Coletar sinais minimos suficientes (nao esperar dados perfeitos) - 3 sinais em 1h15min foram suficientes; (2) Definir opcoes binarias claras e gates objetivos de rollback - isso acelera a decisao; (3) Implementar monitorizacao intensiva pos-decisao para ajustar rapido se necessario - checava painel a cada 20min. Usei esse modelo depois na Unimed quando modelo de IA de autorizacao medica comecou a aprovar 8% acima do esperado: em 2 horas coletei 3 sinais, implementei throttling cirurgico (reduzi aprovacao automatica de 82% para 65% temporariamente), estabeleci gates e monitorei intensivamente. Ajustei o modelo em 18 horas e voltei aos 82% sem incidentes. Bias for action nao e agir cegamente, e agir rapido com sinais minimos e mecanismos de controle."
+      "s": "\"R$ 2.3 milhões em risco até o fim do dia — você tem 4 horas para decidir\" me disse o líder do NOC às 6h05, logo após detectar o ataque de fraude.\n\nEm 14 de agosto de 2021 as 6h da manha recebi alerta critico do NOC: transacoes Pix suspeitas dispararam 340% em 90 minutos (de 45 por hora para 198 por hora). O modelo de fraude estava sinalizando padrao novo que nunca tinhamos visto: contas recém-abertas (< 7 dias) fazendo Pix de valores medios (R$ 800-1.200) para 23 CPFs diferentes em sequencia rapida (< 3 minutos entre transacoes).\n\nO problema era crítico e os dados incompletos: o sistema de KYC estava em manutencao entao nao conseguiamos verificar historico completo dos CPFs destinatarios, e o time de fraude só chegaria as 9h. Eu precisava decidir em no maximo 4 horas: bloquear todas as transacoes (impactando 100% dos clientes novos, incluindo legitimos) ou deixar passar e arriscar perda de R$ 2.3M projetada ate o fim do dia.",
+      "t": "O desafio crítico era tomar uma decisão em 4 horas com dados incompletos, balanceando proteção financeira e experiência do cliente. Eu era o Head of Payments responsavel por proteger o Sicredi de fraude mantendo experiencia do cliente. Minha responsabilidade pessoal era tomar decisao rapida sob incerteza para balancear risco de perda financeira versus risco de bloquear clientes legitimos. Eu tinha autoridade para implementar bloqueios temporarios sem aprovacao de comitê quando havia risco material.",
+      "a": "Minha abordagem foi coletar sinais mínimos em tempo recorde e implementar bloqueio cirúrgico com monitoramento intensivo.\n\nAs 6h15 eu ativei o protocolo de emergencia e convoquei call com 4 pessoas chave: lider do NOC, analista senior de fraude (que consegui acordar), engenheiro de payments e compliance officer. As 6h30 eu tinha coletado 3 sinais: (1) 87% das contas suspeitas tinham sido abertas via parceiro X (marketplace); (2) os CPFs destinatarios tinham sobreposicao de 64% com base de mulas conhecidas (dado parcial do sistema antigo); (3) o ticket medio de R$ 950 estava abaixo do limite de alerta configurado (R$ 1.500) entao o sistema nao bloqueou automaticamente.\n\nCom esses 3 dados incompletos eu tinha 2 opcoes: (A) bloquear 100% das contas < 7 dias do parceiro X por 24h (impactaria 840 clientes, 15% falsos positivos estimados) ou (B) subir o limite de alerta para R$ 600 e monitorar (deixaria passar 40% das fraudes projetadas). As 7h15 eu tomei a decisao: implementei bloqueio cirurgico - bloqueei contas < 7 dias do parceiro X mas apenas para Pix acima de R$ 600 para CPFs fora da whitelist de relacionamento (ex: nao bloqueei pix para CPF de familiares). Isso reduzia falsos positivos de 15% para 4% mantendo protecao de 89% das fraudes.\n\nAs 7h30 eu liguei pessoalmente para o CEO do parceiro X e pedi suspensao temporaria de onboarding ate investigarmos (ele aceitou em 15 minutos). As 8h eu implementei painel live de monitoramento que eu checava a cada 20 minutos e estabeleci 3 gatilhos de rollback: se falsos positivos > 6%, se NPS cair > 5 pontos, ou se fraudes vazarem > R$ 200k, eu reverteria a decisao.",
+      "r": "O impacto mensurável da decisão rápida foi significativo — economizamos R$ 2.05M e mantivemos a experiência dos clientes legítimos intacta.\n\nO bloqueio cirurgico funcionou: contivemos 89% das fraudes projetadas economizando R$ 2.05M das R$ 2.3M em risco. Bloqueamos 312 transacoes fraudulentas confirmadas e tivemos apenas 34 falsos positivos (4.0%, dentro do gate de 6%). O NPS de clientes novos caiu apenas 2 pontos (de 64 para 62) e se recuperou em 3 dias quando liberamos gradualmente.\n\nAs 14h o time de fraude chegou e confirmou minha hipotese: era esquema coordenado de mulas usando vulnerabilidade no KYC do parceiro X. Fechamos a vulnerabilidade em 48h e o CEO do parceiro implementou verificacao adicional de documenting. Nos 30 dias seguintes fraude via parceiro X caiu 94%. A decisao rapida com dados incompletos mas criterios claros virou case study interno de bias for action com risk management: eu apresentei o playbook (sinais minimos, opcoes binaras, gates de rollback) e ele foi adotado em outros 3 casos de fraude emergencial.",
+      "l": "A lição principal desse caso mudou minha compreensão sobre decisão sob incerteza: decisão rápida não é agir cegamente, é agir com sinais mínimos e mecanismos de controle.\n\nAprendi que decisao rapida sob incerteza exige 3 elementos: (1) Coletar sinais minimos suficientes (nao esperar dados perfeitos) - 3 sinais em 1h15min foram suficientes; (2) Definir opcoes binarias claras e gates objetivos de rollback - isso acelera a decisao; (3) Implementar monitorizacao intensiva pos-decisao para ajustar rapido se necessario - checava painel a cada 20min.\n\nUsei esse modelo depois na Unimed quando modelo de IA de autorizacao medica comecou a aprovar 8% acima do esperado: em 2 horas coletei 3 sinais, implementei throttling cirurgico (reduzi aprovacao automatica de 82% para 65% temporariamente), estabeleci gates e monitorei intensivamente. Ajustei o modelo em 18 horas e voltei aos 82% sem incidentes. Bias for action nao e agir cegamente, e agir rapido com sinais minimos e mecanismos de controle."
     },
     "en": {
-      "s": "On August 14, 2021 at 6am I received critical alert from NOC: suspicious Pix transactions spiked 340% in 90 minutes (from 45 per hour to 198 per hour). The fraud model was signaling a new pattern we'd never seen: newly-opened accounts (< 7 days) making medium-value Pix (BRL 800-1,200) to 23 different CPFs in rapid sequence (< 3 minutes between transactions). We had incomplete data: the KYC system was under maintenance so we couldn't verify complete history of recipient CPFs, and the fraud team would only arrive at 9am. I needed to decide in max 4 hours: block all transactions (impacting 100% of new customers, including legitimate ones) or let it pass and risk projected loss of BRL 2.3M by end of day.",
-      "t": "I was the Head of Payments responsible for protecting Sicredi from fraud while maintaining customer experience. My personal responsibility was to make fast decision under uncertainty to balance financial loss risk versus risk of blocking legitimate customers. I had authority to implement temporary blocks without committee approval when there was material risk.",
-      "a": "At 6:15am I activated emergency protocol and called 4 key people: NOC leader, senior fraud analyst (whom I managed to wake up), payments engineer, and compliance officer. By 6:30am I had collected 3 signals: (1) 87% of suspicious accounts had been opened via partner X (marketplace); (2) recipient CPFs had 64% overlap with known mule database (partial data from old system); (3) average ticket of BRL 950 was below configured alert limit (BRL 1,500) so system didn't auto-block. With these 3 incomplete data points I had 2 options: (A) block 100% of accounts < 7 days from partner X for 24h (would impact 840 customers, 15% false positives estimated) or (B) raise alert limit to BRL 600 and monitor (would let 40% of projected frauds pass). At 7:15am I made the decision: implemented surgical block - blocked accounts < 7 days from partner X but only for Pix above BRL 600 to CPFs outside relationship whitelist (e.g. didn't block pix to family member CPFs). This reduced false positives from 15% to 4% while maintaining 89% fraud protection. At 7:30am I personally called partner X's CEO and requested temporary onboarding suspension until we investigated (he accepted in 15 minutes). At 8am I implemented live monitoring dashboard I checked every 20 minutes and established 3 rollback triggers: if false positives > 6%, if NPS drops > 5 points, or if frauds leak > BRL 200k, I would revert the decision.",
-      "r": "The surgical block worked: we contained 89% of projected frauds saving BRL 2.05M of the BRL 2.3M at risk. We blocked 312 confirmed fraudulent transactions and had only 34 false positives (4.0%, within 6% gate). New customer NPS dropped only 2 points (from 64 to 62) and recovered in 3 days when we gradually released. At 2pm the fraud team arrived and confirmed my hypothesis: it was coordinated mule scheme using vulnerability in partner X's KYC. We closed the vulnerability in 48h and the partner's CEO implemented additional document verification. In the following 30 days fraud via partner X dropped 94%. The fast decision with incomplete data but clear criteria became internal case study of bias for action with risk management: I presented the playbook (minimum signals, binary options, rollback gates) and it was adopted in 3 other emergency fraud cases.",
-      "l": "I learned that fast decision under uncertainty requires 3 elements: (1) Collect minimum sufficient signals (don't wait for perfect data) - 3 signals in 1h15min were enough; (2) Define clear binary options and objective rollback gates - this accelerates decision; (3) Implement intensive post-decision monitoring to adjust quickly if needed - I checked dashboard every 20min. I used this model later at Unimed when medical authorization AI model started approving 8% above expected: in 2 hours I collected 3 signals, implemented surgical throttling (reduced auto-approval from 82% to 65% temporarily), established gates and monitored intensively. I adjusted the model in 18 hours and returned to 82% without incidents. Bias for action isn't acting blindly, it's acting fast with minimum signals and control mechanisms."
+      "s": "\"BRL 2.3 million at risk by end of day — you have 4 hours to decide\" the NOC leader told me at 6:05am, right after detecting the fraud attack.\n\nOn August 14, 2021 at 6am I received critical alert from NOC: suspicious Pix transactions spiked 340% in 90 minutes (from 45 per hour to 198 per hour). The fraud model was signaling a new pattern we'd never seen: newly-opened accounts (< 7 days) making medium-value Pix (BRL 800-1,200) to 23 different CPFs in rapid sequence (< 3 minutes between transactions).\n\nThe problem was critical and data incomplete: the KYC system was under maintenance so we couldn't verify complete history of recipient CPFs, and the fraud team would only arrive at 9am. I needed to decide in max 4 hours: block all transactions (impacting 100% of new customers, including legitimate ones) or let it pass and risk projected loss of BRL 2.3M by end of day.",
+      "t": "The critical challenge was making a decision in 4 hours with incomplete data, balancing financial protection and customer experience. I was the Head of Payments responsible for protecting Sicredi from fraud while maintaining customer experience. My personal responsibility was to make fast decision under uncertainty to balance financial loss risk versus risk of blocking legitimate customers. I had authority to implement temporary blocks without committee approval when there was material risk.",
+      "a": "My approach was to collect minimum signals in record time and implement surgical blocking with intensive monitoring.\n\nAt 6:15am I activated emergency protocol and called 4 key people: NOC leader, senior fraud analyst (whom I managed to wake up), payments engineer, and compliance officer. By 6:30am I had collected 3 signals: (1) 87% of suspicious accounts had been opened via partner X (marketplace); (2) recipient CPFs had 64% overlap with known mule database (partial data from old system); (3) average ticket of BRL 950 was below configured alert limit (BRL 1,500) so system didn't auto-block.\n\nWith these 3 incomplete data points I had 2 options: (A) block 100% of accounts < 7 days from partner X for 24h (would impact 840 customers, 15% false positives estimated) or (B) raise alert limit to BRL 600 and monitor (would let 40% of projected frauds pass). At 7:15am I made the decision: implemented surgical block - blocked accounts < 7 days from partner X but only for Pix above BRL 600 to CPFs outside relationship whitelist (e.g. didn't block pix to family member CPFs). This reduced false positives from 15% to 4% while maintaining 89% fraud protection.\n\nAt 7:30am I personally called partner X's CEO and requested temporary onboarding suspension until we investigated (he accepted in 15 minutes). At 8am I implemented live monitoring dashboard I checked every 20 minutes and established 3 rollback triggers: if false positives > 6%, if NPS drops > 5 points, or if frauds leak > BRL 200k, I would revert the decision.",
+      "r": "The measurable impact of the fast decision was significant — we saved BRL 2.05M and kept legitimate customer experience intact.\n\nThe surgical block worked: we contained 89% of projected frauds saving BRL 2.05M of the BRL 2.3M at risk. We blocked 312 confirmed fraudulent transactions and had only 34 false positives (4.0%, within 6% gate). New customer NPS dropped only 2 points (from 64 to 62) and recovered in 3 days when we gradually released.\n\nAt 2pm the fraud team arrived and confirmed my hypothesis: it was coordinated mule scheme using vulnerability in partner X's KYC. We closed the vulnerability in 48h and the partner's CEO implemented additional document verification. In the following 30 days fraud via partner X dropped 94%. The fast decision with incomplete data but clear criteria became internal case study of bias for action with risk management: I presented the playbook (minimum signals, binary options, rollback gates) and it was adopted in 3 other emergency fraud cases.",
+      "l": "The main lesson from this case changed my understanding of decision-making under uncertainty: fast decision isn't acting blindly, it's acting with minimum signals and control mechanisms.\n\nI learned that fast decision under uncertainty requires 3 elements: (1) Collect minimum sufficient signals (don't wait for perfect data) - 3 signals in 1h15min were enough; (2) Define clear binary options and objective rollback gates - this accelerates decision; (3) Implement intensive post-decision monitoring to adjust quickly if needed - I checked dashboard every 20min.\n\nI used this model later at Unimed when medical authorization AI model started approving 8% above expected: in 2 hours I collected 3 signals, implemented surgical throttling (reduced auto-approval from 82% to 65% temporarily), established gates and monitored intensively. I adjusted the model in 18 hours and returned to 82% without incidents. Bias for action isn't acting blindly, it's acting fast with minimum signals and control mechanisms."
     },
     "fups": [
       {
@@ -177,51 +177,22 @@
     "lp_id": "bias_for_action",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
+      "score": 95,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (32 menções relevantes)",
-        "Métricas robustas (58)",
-        "Ratio EU:NÓS saudável (12:1)",
-        "Mecanismos/repeatability destacados",
-        "Bias for Action robusto (12 sinais de velocidade/risco)"
+        "Métricas robustas (60)",
+        "Ratio EU:NÓS saudável (3.4:1)"
       ],
       "warnings": [
-        "Sem métricas operacionais explícitas",
-        "Sem conflito/resistência visível",
-        "Transições STAR(L) pouco claras"
+        "Nenhum sinal de conflito ou superação de resistência"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem métricas operacionais explícitas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem conflito/resistência visível",
+          "message": "Nenhum sinal de conflito ou superação de resistência",
           "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 12:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 58",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
@@ -230,72 +201,46 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
+        "score": 95,
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Sem métricas operacionais explícitas",
-          "Sem conflito/resistência visível",
-          "Transições STAR(L) pouco claras"
+          "Nenhum sinal de conflito ou superação de resistência"
         ],
         "positives": [
-          "Customer Obsession forte (32 menções relevantes)",
-          "Métricas robustas (58)",
-          "Ratio EU:NÓS saudável (12:1)",
-          "Mecanismos/repeatability destacados",
-          "Bias for Action robusto (12 sinais de velocidade/risco)"
+          "Métricas robustas (60)",
+          "Ratio EU:NÓS saudável (3.4:1)"
         ],
-        "metricsCount": 58,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": false
+        "breakdown": {
+          "narrative": 19,
+          "metrics": 19,
+          "lpContent": 20,
+          "amazonAspects": 10,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 32,
-        "conflictSignals": false,
-        "mechanismSignals": 10,
-        "ratio": {
-          "ratio": 0.9230769230769231,
-          "counts": {
-            "eu": 12,
-            "nos": 1
+        "details": {
+          "metrics": {
+            "count": 60,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": false
+          },
+          "contribution": {
+            "ratio": 3.4444444444444446,
+            "eu": 31,
+            "nos": 9
+          },
+          "amazonAspects": {
+            "customerSignals": 12,
+            "mechanismSignals": 9,
+            "conflictSignals": 0
+          },
+          "lpContent": {
+            "strongCount": 11,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 50,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 771,
-            "enLen": 709,
-            "deltaPct": 0.08041504539559015
-          },
-          "t": {
-            "ptLen": 371,
-            "enLen": 362,
-            "deltaPct": 0.02425876010781671
-          },
-          "a": {
-            "ptLen": 1507,
-            "enLen": 1406,
-            "deltaPct": 0.06702057067020571
-          },
-          "r": {
-            "ptLen": 903,
-            "enLen": 862,
-            "deltaPct": 0.04540420819490587
-          },
-          "l": {
-            "ptLen": 822,
-            "enLen": 817,
-            "deltaPct": 0.006082725060827251
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true,
-        "biasSignals": 12
+        }
       }
     }
   }

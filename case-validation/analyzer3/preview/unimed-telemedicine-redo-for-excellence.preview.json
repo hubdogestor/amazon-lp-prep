@@ -98,14 +98,14 @@
     "isTopCase": false,
     "isGoodCase": true,
     "pt": {
-      "s": "Em março de 2022 lançamos a primeira versão da plataforma de telemedicina da Unimed depois de 4 meses de desenvolvimento e investimento de R$ 1,8 milhão. Nas primeiras 3 semanas registramos 2.840 consultas mas o NPS caiu para 28, recebi 1.370 reclamações diretas e médicos relataram 8 desistências por dia por problemas técnicos. Beneficiários idosos (42% da base) não conseguiam conectar sozinhos e o tempo médio de setup era 11 minutos. A diretoria pressionava para \"ajustar aos poucos\" mas eu sabia que estávamos entregando mediocridade.",
+      "s": "O desafio começou quando em março de 2022 lançamos a primeira versão da plataforma de telemedicina da Unimed depois de 4 meses de desenvolvimento e investimento de R$ 1,8 milhão. Nas primeiras 3 semanas registramos 2.840 consultas mas o NPS caiu para 28, recebi 1.370 reclamações diretas e médicos relataram 8 desistências por dia por problemas técnicos. Beneficiários idosos (42% da base) não conseguiam conectar sozinhos e o tempo médio de setup era 11 minutos. A diretoria pressionava para \"ajustar aos poucos\" mas eu sabia que estávamos entregando mediocridade.",
       "t": "Eu assumi ownership total do produto e tomei a decisão mais difícil: pausar todas as consultas por 15 dias, admitir publicamente que a plataforma não atendia nosso padrão de excelência e comprometer-me pessoalmente a refazer do zero com foco em simplicidade e confiabilidade. Meu compromisso público foi atingir NPS acima de 75 em 90 dias ou pedir demissão.",
       "a": "Primeiro, eu pausei a plataforma no dia 22 de março e liguei pessoalmente para os 87 médicos parceiros e para 340 beneficiários que haviam agendado consultas, pedindo desculpas e explicando que não aceitaria entregar serviço abaixo do padrão de saúde que mereciam. Publiquei carta aberta no portal e aceitei críticas públicas. Segundo, montei war-room com 12 pessoas (incluindo 3 médicos e 5 beneficiários idosos) e redesenhei a jornada completa em 8 dias: eliminei 14 telas, reduzi o cadastro para 3 cliques, implementei vídeo-teste obrigatório antes de agendar e criei botão SOS que conectava com suporte em 40 segundos. Terceiro, reescrevi 78% do código front-end, migrei de WebRTC para Vonage (mais estável), adicionei fallback automático para telefone se conexão caísse e implementei tutorial interativo de 2 minutos narrado por voz. Enfrentei resistência do CTO que achava \"desperdício\" jogar fora código, mas apresentei ao conselho os custos de reputação (R$ 4,2 milhões estimados em churn) e consegui aprovação. Durante 60 dias testei pessoalmente com 120 beneficiários reais em suas casas, ajustei 43 detalhes de UX e só liberei quando 95% conseguiram conectar sozinhos em menos de 3 minutos.",
       "r": "Relançamos em 15 de junho com zero incidentes técnicos. Nas primeiras 4 semanas o NPS saltou para 84, tempo de setup caiu para 2min20s, médicos reportaram zero desistências técnicas e conseguimos 8.600 consultas no primeiro mês (3x o volume anterior). Taxa de sucesso na primeira tentativa chegou a 96,2%, reclamações técnicas caíram 94% e o tempo médio de suporte caiu de 11 para 2 minutos. Beneficiários idosos enviaram 237 mensagens de agradecimento e a Unimed ganhou prêmio de Inovação Digital da ABRAMGE em novembro. O investimento adicional de R$ 680 mil foi recuperado em 4 meses pelo aumento de adesão e redução de custo operacional (R$ 3,1 milhões/ano). A plataforma virou case de excelência apresentado em 6 Unimeds regionais.",
       "l": "Aprendi que insistir nos mais altos padrões às vezes significa ter coragem de admitir publicamente que algo não está bom o suficiente e recomeçar do zero. Refazer não é fracasso, é compromisso com excelência. Quando você coloca o cliente (beneficiário) no centro e não aceita mediocridade, a equipe se mobiliza e o resultado sempre supera. Hoje, sempre que vejo produto com NPS abaixo de 60, questiono se devemos pausar e refazer em vez de \"consertar aos poucos\"."
     },
     "en": {
-      "s": "In March 2022 we launched Unimed's first telemedicine platform after 4 months of development and BRL 1.8M investment. In the first 3 weeks we logged 2,840 consultations but NPS dropped to 28, I received 1,370 direct complaints, and doctors reported 8 daily dropouts due to technical issues. Elderly beneficiaries (42% of base) couldn't connect alone and average setup time hit 11 minutes. Leadership pushed to \"tweak gradually\" but I knew we were delivering mediocrity.",
+      "s": "The challenge began when in March 2022 we launched Unimed's first telemedicine platform after 4 months of development and BRL 1.8M investment. In the first 3 weeks we logged 2,840 consultations but NPS dropped to 28, I received 1,370 direct complaints, and doctors reported 8 daily dropouts due to technical issues. Elderly beneficiaries (42% of base) couldn't connect alone and average setup time hit 11 minutes. Leadership pushed to \"tweak gradually\" but I knew we were delivering mediocrity.",
       "t": "I took total product ownership and made the hardest call: pause all consultations for 15 days, publicly admit the platform failed our excellence standard, and personally commit to rebuild from scratch with focus on simplicity and reliability. My public pledge: hit NPS above 75 in 90 days or resign.",
       "a": "First, I paused the platform on March 22 and personally called 87 partner doctors and 340 beneficiaries with scheduled appointments, apologizing and explaining I would not accept delivering healthcare service below the standard they deserved. I published an open letter on the portal and welcomed public criticism. Second, I assembled a 12-person war-room (including 3 doctors and 5 elderly beneficiaries) and redesigned the complete journey in 8 days: removed 14 screens, cut registration to 3 clicks, implemented mandatory video-test before booking, and created an SOS button connecting to support in 40 seconds. Third, I rewrote 78% of front-end code, migrated from WebRTC to Vonage (more stable), added automatic fallback to phone if connection dropped, and built a 2-minute interactive voice-narrated tutorial. I faced CTO resistance who saw it as \"wasted code,\" but I presented to the board the reputational costs (BRL 4.2M estimated churn) and secured approval. For 60 days I personally tested with 120 real beneficiaries in their homes, adjusted 43 UX details, and only released when 95% could connect alone in under 3 minutes.",
       "r": "We relaunched on June 15 with zero technical incidents. In the first 4 weeks NPS jumped to 84, setup time dropped to 2min20s, doctors reported zero technical dropouts, and we hit 8,600 consultations in month one (3x previous volume). First-attempt success rate reached 96.2%, technical complaints fell 94%, and average support time dropped from 11 to 2 minutes. Elderly beneficiaries sent 237 thank-you messages and Unimed won ABRAMGE's Digital Innovation Award in November. The additional BRL 680k investment paid back in 4 months through higher adoption and reduced operational cost (BRL 3.1M/year). The platform became an excellence case presented at 6 regional Unimeds.",
@@ -177,29 +177,54 @@
     "lp_id": "insist_on_highest_standards",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 53,
+      "status": "Needs-Rewrite",
       "positives": [
-        "Customer Obsession forte (5 menções relevantes)",
-        "Métricas robustas (23)",
-        "Ratio EU:NÓS saudável (3:1)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Métricas robustas (23)"
       ],
-      "warnings": [],
+      "warnings": [
+        "Ratio EU:NÓS abaixo do ideal: 2.4:1 (ideal 3:1)",
+        "Hook inicial fraco (sem urgência ou stakes claros)",
+        "Faltam transições narrativas entre seções STARL",
+        "Nenhum mecanismo ou processo replicável mencionado"
+      ],
       "dealbreakers": [],
       "suggestions": [
         {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[pt] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
         },
         {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 23",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[en] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Ratio EU:NÓS abaixo do ideal: 2.4:1 (ideal 3:1)",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Hook inicial fraco (sem urgência ou stakes claros)",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Nenhum mecanismo ou processo replicável mencionado",
+          "action": "Refinar narrativa conforme alerta."
         }
       ],
       "lint": {
@@ -208,68 +233,48 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
+        "score": 53,
+        "status": "Needs-Rewrite",
         "dealbreakers": [],
-        "warnings": [],
-        "positives": [
-          "Customer Obsession forte (5 menções relevantes)",
-          "Métricas robustas (23)",
-          "Ratio EU:NÓS saudável (3:1)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+        "warnings": [
+          "Ratio EU:NÓS abaixo do ideal: 2.4:1 (ideal 3:1)",
+          "Hook inicial fraco (sem urgência ou stakes claros)",
+          "Faltam transições narrativas entre seções STARL",
+          "Nenhum mecanismo ou processo replicável mencionado"
         ],
-        "metricsCount": 23,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
+        "positives": [
+          "Métricas robustas (23)"
+        ],
+        "breakdown": {
+          "narrative": 7,
+          "metrics": 19,
+          "lpContent": 0,
+          "amazonAspects": 8,
+          "contribution": 5,
+          "structure": 10
         },
-        "customerSignals": 5,
-        "conflictSignals": true,
-        "mechanismSignals": 1,
-        "ratio": {
-          "ratio": 0.75,
-          "counts": {
-            "eu": 3,
-            "nos": 1
+        "details": {
+          "metrics": {
+            "count": 23,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": false
+          },
+          "contribution": {
+            "ratio": 2.4285714285714284,
+            "eu": 17,
+            "nos": 7
+          },
+          "amazonAspects": {
+            "customerSignals": 12,
+            "mechanismSignals": 0,
+            "conflictSignals": 1
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 34,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 540,
-            "enLen": 469,
-            "deltaPct": 0.13148148148148148
-          },
-          "t": {
-            "ptLen": 357,
-            "enLen": 299,
-            "deltaPct": 0.16246498599439776
-          },
-          "a": {
-            "ptLen": 1201,
-            "enLen": 1135,
-            "deltaPct": 0.054954204829308906
-          },
-          "r": {
-            "ptLen": 736,
-            "enLen": 673,
-            "deltaPct": 0.08559782608695653
-          },
-          "l": {
-            "ptLen": 463,
-            "enLen": 479,
-            "deltaPct": 0.033402922755741124
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 2,
-        "micDropSignals": true,
-        "biasSignals": 2
+        }
       }
     }
   }

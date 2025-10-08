@@ -2,7 +2,7 @@
 import { loadAllCases } from './loader.mjs';
 import { lintCase } from './linter.mjs';
 import { analyzeHeuristics } from './heuristics.mjs';
-import { rewriteCase, ensureParityPTEN } from './rewriter.mjs';
+import { rewriteCase, rewriteCaseV2, ensureParityPTEN } from './rewriter.mjs';
 import { optimizeFUPs } from './fups.mjs';
 import { writeReports, writePreviewChanges } from './reporter.mjs';
 
@@ -56,7 +56,19 @@ const RUN_TS = new Date().toISOString();
       mutated = parity.case;
       if (parity.changed) changeLog.push(...parity.changes);
 
-      const rew = rewriteCase(mutated, heur);
+      // Prefer rewriteCaseV2 (hooks + transitions) when available
+      let rew = null;
+      try {
+        if (typeof rewriteCaseV2 === 'function') {
+          rew = rewriteCaseV2(mutated, heur);
+        } else {
+          rew = rewriteCase(mutated, heur);
+        }
+      } catch (e) {
+        console.error('[analyzer3] rewrite error, falling back to legacy rewrite:', e);
+        rew = rewriteCase(mutated, heur);
+      }
+
       mutated = rew.case;
       if (rew.changed) changeLog.push(...rew.changes);
 

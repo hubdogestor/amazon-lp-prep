@@ -177,37 +177,29 @@
     "lp_id": "insist_on_highest_standards",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 62,
+      "status": "Needs-Rewrite",
       "positives": [
-        "Customer Obsession forte (25 menções relevantes)",
         "Métricas robustas (27)",
-        "Ratio EU:NÓS saudável (3:0)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (22.0:1)"
       ],
       "warnings": [
-        "Transições STAR(L) pouco claras"
+        "Sinais de Customer Obsession fracos",
+        "Faltam transições narrativas entre seções STARL"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
+          "message": "Sinais de Customer Obsession fracos",
+          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
           "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 27",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
@@ -216,70 +208,47 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
+        "score": 62,
+        "status": "Needs-Rewrite",
         "dealbreakers": [],
         "warnings": [
-          "Transições STAR(L) pouco claras"
+          "Sinais de Customer Obsession fracos",
+          "Faltam transições narrativas entre seções STARL"
         ],
         "positives": [
-          "Customer Obsession forte (25 menções relevantes)",
           "Métricas robustas (27)",
-          "Ratio EU:NÓS saudável (3:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+          "Ratio EU:NÓS saudável (22.0:1)"
         ],
-        "metricsCount": 27,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
+        "breakdown": {
+          "narrative": 10,
+          "metrics": 18,
+          "lpContent": 0,
+          "amazonAspects": 9,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 25,
-        "conflictSignals": true,
-        "mechanismSignals": 10,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 3,
+        "details": {
+          "metrics": {
+            "count": 27,
+            "hasFinancial": true,
+            "hasCustomer": false,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 22,
+            "eu": 22,
             "nos": 0
+          },
+          "amazonAspects": {
+            "customerSignals": 2,
+            "mechanismSignals": 3,
+            "conflictSignals": 1
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 112,
-          "status": "stale"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 577,
-            "enLen": 548,
-            "deltaPct": 0.05025996533795494
-          },
-          "t": {
-            "ptLen": 646,
-            "enLen": 607,
-            "deltaPct": 0.06037151702786378
-          },
-          "a": {
-            "ptLen": 1774,
-            "enLen": 1665,
-            "deltaPct": 0.06144306651634724
-          },
-          "r": {
-            "ptLen": 900,
-            "enLen": 834,
-            "deltaPct": 0.07333333333333333
-          },
-          "l": {
-            "ptLen": 675,
-            "enLen": 677,
-            "deltaPct": 0.0029542097488921715
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true,
-        "biasSignals": 0
+        }
       }
     }
   }

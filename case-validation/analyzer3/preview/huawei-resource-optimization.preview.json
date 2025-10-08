@@ -177,117 +177,59 @@
     "lp_id": "frugality",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 82,
+      "status": "Needs-Polish",
       "positives": [
-        "Customer Obsession forte (7 menções relevantes)",
         "Métricas robustas (22)",
-        "Ratio EU:NÓS saudável (4:1)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (21.0:1)"
       ],
-      "warnings": [
-        "Sem métricas de cliente explícitas",
-        "Transições STAR(L) pouco claras"
-      ],
+      "warnings": [],
       "dealbreakers": [],
-      "suggestions": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem métricas de cliente explícitas",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 4:1 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 22",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
-        }
-      ],
+      "suggestions": [],
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
+        "score": 82,
+        "status": "Needs-Polish",
         "dealbreakers": [],
-        "warnings": [
-          "Sem métricas de cliente explícitas",
-          "Transições STAR(L) pouco claras"
-        ],
+        "warnings": [],
         "positives": [
-          "Customer Obsession forte (7 menções relevantes)",
           "Métricas robustas (22)",
-          "Ratio EU:NÓS saudável (4:1)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+          "Ratio EU:NÓS saudável (21.0:1)"
         ],
-        "metricsCount": 22,
-        "metricCategories": {
-          "financial": true,
-          "customer": false,
-          "operational": true
+        "breakdown": {
+          "narrative": 14,
+          "metrics": 18,
+          "lpContent": 10,
+          "amazonAspects": 13,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 7,
-        "conflictSignals": true,
-        "mechanismSignals": 6,
-        "ratio": {
-          "ratio": 0.8,
-          "counts": {
-            "eu": 4,
+        "details": {
+          "metrics": {
+            "count": 22,
+            "hasFinancial": true,
+            "hasCustomer": false,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 21,
+            "eu": 21,
             "nos": 1
+          },
+          "amazonAspects": {
+            "customerSignals": 6,
+            "mechanismSignals": 5,
+            "conflictSignals": 3
+          },
+          "lpContent": {
+            "strongCount": 4,
+            "mediumCount": 2
           }
-        },
-        "recency": {
-          "monthsAgo": 130,
-          "status": "stale"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 608,
-            "enLen": 535,
-            "deltaPct": 0.12006578947368421
-          },
-          "t": {
-            "ptLen": 487,
-            "enLen": 444,
-            "deltaPct": 0.08829568788501027
-          },
-          "a": {
-            "ptLen": 1295,
-            "enLen": 1211,
-            "deltaPct": 0.06486486486486487
-          },
-          "r": {
-            "ptLen": 782,
-            "enLen": 701,
-            "deltaPct": 0.10358056265984655
-          },
-          "l": {
-            "ptLen": 409,
-            "enLen": 390,
-            "deltaPct": 0.04645476772616137
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 0,
-        "micDropSignals": true,
-        "biasSignals": 2
+        }
       }
     }
   }

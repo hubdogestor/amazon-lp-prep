@@ -56,8 +56,8 @@ export function rewriteCase(originalCase = {}, heuristics = {}) {
     suggestions.push({
       severity: heuristics.ratio.ratio >= 0.75 ? 'info' : heuristics.ratio.ratio >= 0.67 ? 'warning' : 'dealbreaker',
       topic: 'ownership',
-      message: `Ratio EU:NÓS atual ${formatRatioMessage(heuristics.ratio.counts.eu, heuristics.ratio.counts.nos)}`,
-      action: heuristics.ratio.ratio >= 0.75 ? 'Manter foco no "EU" descrevendo decisões críticas pessoais.' : 'Reforçar ações individuais: reescrever frases passivas e destacar decisões pessoais nas seções A/R.'
+      message: `Ratio EU:Nï¿½S atual ${formatRatioMessage(heuristics.ratio.counts.eu, heuristics.ratio.counts.nos)}`,
+      action: heuristics.ratio.ratio >= 0.75 ? 'Manter foco no "EU" descrevendo decisï¿½es crï¿½ticas pessoais.' : 'Reforï¿½ar aï¿½ï¿½es individuais: reescrever frases passivas e destacar decisï¿½es pessoais nas seï¿½ï¿½es A/R.'
     });
   }
 
@@ -65,8 +65,8 @@ export function rewriteCase(originalCase = {}, heuristics = {}) {
     suggestions.push({
       severity: heuristics.metricsCount >= 8 ? 'info' : 'warning',
       topic: 'metrics',
-      message: `Métricas detectadas: ${heuristics.metricsCount}`,
-      action: heuristics.metricsCount >= 8 ? 'Boa densidade métrica — verificar se há equilíbrio entre cliente, finanças e operação.' : 'Inserir ou detalhar métricas específicas (cliente, financeiro, operação) nas seções R e A.'
+      message: `Mï¿½tricas detectadas: ${heuristics.metricsCount}`,
+      action: heuristics.metricsCount >= 8 ? 'Boa densidade mï¿½trica ï¿½ verificar se hï¿½ equilï¿½brio entre cliente, finanï¿½as e operaï¿½ï¿½o.' : 'Inserir ou detalhar mï¿½tricas especï¿½ficas (cliente, financeiro, operaï¿½ï¿½o) nas seï¿½ï¿½es R e A.'
     });
   }
 
@@ -91,47 +91,47 @@ export function rewriteCase(originalCase = {}, heuristics = {}) {
 
 function buildActionFromDealbreaker(message) {
   if (/Customer Obsession/i.test(message)) {
-    return 'Reposicionar a narrativa começando pelo cliente: explicitar dor, feedbacks e métricas de satisfação.';
+    return 'Reposicionar a narrativa comeï¿½ando pelo cliente: explicitar dor, feedbacks e mï¿½tricas de satisfaï¿½ï¿½o.';
   }
-  if (/Menos de 8 métricas/i.test(message)) {
-    return 'Adicionar métricas tangíveis em Resultado e Ação (cliente, financeiro e operação).';
+  if (/Menos de 8 mï¿½tricas/i.test(message)) {
+    return 'Adicionar mï¿½tricas tangï¿½veis em Resultado e Aï¿½ï¿½o (cliente, financeiro e operaï¿½ï¿½o).';
   }
-  if (/Ratio EU:NÓS/i.test(message)) {
-    return 'Reescrever seções destacando decisões e ações pessoais ("Eu decidi", "Eu implementei").';
+  if (/Ratio EU:Nï¿½S/i.test(message)) {
+    return 'Reescrever seï¿½ï¿½es destacando decisï¿½es e aï¿½ï¿½es pessoais ("Eu decidi", "Eu implementei").';
   }
   if (/Case muito antigo/i.test(message)) {
     return 'Trazer casos mais recentes ou conectar explicitamente impactos atuais (mecanismos ainda em uso).';
   }
-  return 'Revisar conteúdo com foco nas exigências LP Amazon.';
+  return 'Revisar conteï¿½do com foco nas exigï¿½ncias LP Amazon.';
 }
 
 function buildActionFromWarning(message) {
   if (/Customer Obsession/i.test(message)) {
-    return 'Incluir evidências claras de voz do cliente, feedbacks e métricas de experiência.';
+    return 'Incluir evidï¿½ncias claras de voz do cliente, feedbacks e mï¿½tricas de experiï¿½ncia.';
   }
   if (/financi/i.test(message)) {
-    return 'Inserir métricas financeiras (receita, savings, margem) vinculadas ao impacto.';
+    return 'Inserir mï¿½tricas financeiras (receita, savings, margem) vinculadas ao impacto.';
   }
   if (/operacionais/i.test(message)) {
-    return 'Adicionar métricas operacionais (SLA, tempo, eficiência) na seção R.';
+    return 'Adicionar mï¿½tricas operacionais (SLA, tempo, eficiï¿½ncia) na seï¿½ï¿½o R.';
   }
   if (/conflito/i.test(message)) {
-    return 'Detalhar o conflito: quem discordou, como você sustentou a posição e qual foi o desfecho.';
+    return 'Detalhar o conflito: quem discordou, como vocï¿½ sustentou a posiï¿½ï¿½o e qual foi o desfecho.';
   }
   if (/Mecanismos/i.test(message)) {
-    return 'Explicar processos repetíveis criados (cadência, dashboards, automações, playbooks).';
+    return 'Explicar processos repetï¿½veis criados (cadï¿½ncia, dashboards, automaï¿½ï¿½es, playbooks).';
   }
   if (/Hook/i.test(message)) {
-    return 'Reescrever abertura da Situação com tensão executiva: risco, meta agressiva, impacto financeiro.';
+    return 'Reescrever abertura da Situaï¿½ï¿½o com tensï¿½o executiva: risco, meta agressiva, impacto financeiro.';
   }
   if (/Transicoes STAR\(L\)/i.test(message)) {
-    return 'Adicionar frases ponte nas seções T/A/R para guiar a história (ex.: "Para atacar", "Com isso", "O resultado").';
+    return 'Adicionar frases ponte nas seï¿½ï¿½es T/A/R para guiar a histï¿½ria (ex.: "Para atacar", "Com isso", "O resultado").';
   }
   if (/Mic-drop/i.test(message)) {
     return 'Fortalecer aprendizado no L: insight concreto aplicado em contexto recente.';
   }
   if (/Paridade PT\/EN/i.test(message)) {
-    return 'Ajustar texto PT/EN para manter comprimentos próximos e evitar inconsistências.';
+    return 'Ajustar texto PT/EN para manter comprimentos prï¿½ximos e evitar inconsistï¿½ncias.';
   }
   if (/Case antigo/i.test(message)) {
     return 'Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente.';
@@ -142,4 +142,153 @@ function buildActionFromWarning(message) {
 function formatRatioMessage(eu, nos) {
   if (nos === 0) return `${eu}:0 (ideal >= 3:1)`;
   return `${eu}:${nos} (ideal >= 3:1)`;
+}
+
+const TRANSITIONS = {
+  pt: {
+    s_t: [
+      "Diante desse cenÃ¡rio, ",
+      "Frente a este desafio, ",
+      "Nesse contexto, ",
+      "Com a urgÃªncia estabelecida, ",
+    ],
+    t_a: [
+      "Para atingir essa meta, minha abordagem foi ",
+      "Para executar essa visÃ£o, eu estruturei o trabalho em ",
+      "Com o objetivo definido, eu agi em ",
+      "Para transformar o plano em realidade, minha estratÃ©gia foi ",
+    ],
+    a_r: [
+      "Como resultado direto dessas aÃ§Ãµes, ",
+      "Esse esforÃ§o coordenado culminou em ",
+      "O impacto mensurÃ¡vel dessa iniciativa foi ",
+      "Com isso, os resultados que obtivemos foram ",
+    ],
+    r_l: [
+      "Olhando para trÃ¡s, a grande liÃ§Ã£o que tirei foi ",
+      "Refletindo sobre o processo, aprendi que ",
+      "Essa experiÃªncia me ensinou que ",
+      "Como aprendizado principal, ficou claro que ",
+    ],
+  },
+  en: {
+    s_t: [
+      "Faced with this scenario, ",
+      "Given this challenge, ",
+      "In this context, ",
+      "With the urgency established, ",
+    ],
+    t_a: [
+      "To achieve this goal, my approach was to ",
+      "To execute this vision, I structured the work into ",
+      "With the objective set, I took action on ",
+      "To turn the plan into reality, my strategy was to ",
+    ],
+    a_r: [
+      "As a direct result of these actions, ",
+      "This coordinated effort culminated in ",
+      "The measurable impact of this initiative was ",
+      "As a result, the outcomes we achieved were ",
+    ],
+    r_l: [
+      "Looking back, the key lesson I learned was that ",
+      "Reflecting on the process, I learned that ",
+      "This experience taught me that ",
+      "As a key takeaway, it became clear that ",
+    ],
+  },
+};
+
+function getRandomTransition(lang, key) {
+  const transitions = TRANSITIONS[lang][key];
+  return transitions[Math.floor(Math.random() * transitions.length)];
+}
+
+function hasTransition(text, lang, key) {
+    const lowerText = text.toLowerCase().trim();
+    return TRANSITIONS[lang][key].some(t => lowerText.startsWith(t.toLowerCase().trim()));
+}
+
+export function rewriteCaseV2(originalCase = {}, heuristics = {}) {
+  const newCase = deepClone(originalCase);
+  const changes = [];
+  let changed = false;
+
+  const needsHookImprovement = heuristics.warnings?.some(w => /Hook/i.test(w));
+  const needsTransitionImprovement = heuristics.warnings?.some(w => /Transicoes STAR\(L\)/i.test(w));
+
+  if (needsHookImprovement) {
+    for (const lang of ['pt', 'en']) {
+      if (newCase[lang]?.s) {
+        const originalText = newCase[lang].s;
+        const sentences = originalText.split(/(?<=[.!?])\s+/);
+        if (sentences.length > 1) {
+          const firstSentence = sentences.shift();
+          const hookPrefix = lang === 'pt' ? 'O desafio comeÃ§ou quando ' : 'The challenge began when ';
+          const newFirstSentence = hookPrefix + firstSentence.charAt(0).toLowerCase() + firstSentence.slice(1);
+          newCase[lang].s = [newFirstSentence, ...sentences].join(' ');
+          
+          if (originalText !== newCase[lang].s) {
+            changed = true;
+            changes.push({
+              severity: 'suggestion',
+              topic: 'hook',
+              message: `[${lang}] Hook (S) reescrito para maior impacto.`,
+              action: 'Validar se o novo hook captura a urgÃªncia e os stakes do caso.'
+            });
+          }
+        }
+      }
+    }
+  }
+
+  if (needsTransitionImprovement) {
+    for (const lang of ['pt', 'en']) {
+        const starl = newCase[lang];
+        if (!starl) continue;
+
+        // S -> T
+        if (starl.t && !hasTransition(starl.t, lang, 's_t')) {
+            const transition = getRandomTransition(lang, 's_t');
+            starl.t = transition + starl.t.charAt(0).toLowerCase() + starl.t.slice(1);
+            changed = true;
+            changes.push({ severity: 'suggestion', topic: 'transition', message: `[${lang}] Adicionada transiÃ§Ã£o S->T.` });
+        }
+
+        // T -> A
+        if (starl.a && !hasTransition(starl.a, lang, 't_a')) {
+            const transition = getRandomTransition(lang, 't_a');
+            starl.a = transition + starl.a.charAt(0).toLowerCase() + starl.a.slice(1);
+            changed = true;
+            changes.push({ severity: 'suggestion', topic: 'transition', message: `[${lang}] Adicionada transiÃ§Ã£o T->A.` });
+        }
+
+        // A -> R
+        if (starl.r && !hasTransition(starl.r, lang, 'a_r')) {
+            const transition = getRandomTransition(lang, 'a_r');
+            starl.r = transition + starl.r.charAt(0).toLowerCase() + starl.r.slice(1);
+            changed = true;
+            changes.push({ severity: 'suggestion', topic: 'transition', message: `[${lang}] Adicionada transiÃ§Ã£o A->R.` });
+        }
+
+        // R -> L
+        if (starl.l && !hasTransition(starl.l, lang, 'r_l')) {
+            const transition = getRandomTransition(lang, 'r_l');
+            starl.l = transition + starl.l.charAt(0).toLowerCase() + starl.l.slice(1);
+            changed = true;
+            changes.push({ severity: 'suggestion', topic: 'transition', message: `[${lang}] Adicionada transiÃ§Ã£o R->L.` });
+        }
+    }
+  }
+
+  const baseRewrite = rewriteCase(newCase, heuristics);
+  
+  const finalCase = baseRewrite.case;
+  finalCase.__scorecard.suggestions = [...changes, ...baseRewrite.changes];
+
+  return {
+    changed: changed || baseRewrite.changed,
+    changes: finalCase.__scorecard.suggestions,
+    case: finalCase,
+  };
 }

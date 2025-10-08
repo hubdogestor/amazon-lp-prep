@@ -177,37 +177,22 @@
     "lp_id": "ownership",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
+      "score": 99,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (8 menções relevantes)",
         "Métricas robustas (37)",
-        "Ratio EU:NÓS saudável (17:0)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (38.0:1)"
       ],
       "warnings": [
-        "Transições STAR(L) pouco claras"
+        "Faltam transições narrativas entre seções STARL"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Transições STAR(L) pouco claras",
+          "message": "Faltam transições narrativas entre seções STARL",
           "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 17:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
-        },
-        {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 37",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
       "lint": {
@@ -216,70 +201,46 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
+        "score": 99,
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Transições STAR(L) pouco claras"
+          "Faltam transições narrativas entre seções STARL"
         ],
         "positives": [
-          "Customer Obsession forte (8 menções relevantes)",
           "Métricas robustas (37)",
-          "Ratio EU:NÓS saudável (17:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+          "Ratio EU:NÓS saudável (38.0:1)"
         ],
-        "metricsCount": 37,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
+        "breakdown": {
+          "narrative": 16,
+          "metrics": 20,
+          "lpContent": 20,
+          "amazonAspects": 15,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 8,
-        "conflictSignals": true,
-        "mechanismSignals": 16,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 17,
+        "details": {
+          "metrics": {
+            "count": 37,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 38,
+            "eu": 38,
             "nos": 0
+          },
+          "amazonAspects": {
+            "customerSignals": 10,
+            "mechanismSignals": 6,
+            "conflictSignals": 2
+          },
+          "lpContent": {
+            "strongCount": 11,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 100,
-          "status": "aging"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 675,
-            "enLen": 647,
-            "deltaPct": 0.04148148148148148
-          },
-          "t": {
-            "ptLen": 543,
-            "enLen": 539,
-            "deltaPct": 0.007366482504604052
-          },
-          "a": {
-            "ptLen": 1297,
-            "enLen": 1310,
-            "deltaPct": 0.009923664122137405
-          },
-          "r": {
-            "ptLen": 389,
-            "enLen": 406,
-            "deltaPct": 0.04187192118226601
-          },
-          "l": {
-            "ptLen": 706,
-            "enLen": 658,
-            "deltaPct": 0.0679886685552408
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 0,
-        "micDropSignals": true,
-        "biasSignals": 1
+        }
       }
     }
   }

@@ -98,14 +98,14 @@
     "isTopCase": false,
     "isGoodCase": false,
     "pt": {
-      "s": "Situação — Em 2012, eu recebi a missão de normalizar o rollout de sites 4G da Huawei no Brasil. O SLA era de 382 dias por site, 4x pior que a meta global, e os diretores locais estavam conformados em buscar apenas um ajuste marginal de 10%. Esse pensamento pequeno condenaria a operação brasileira a atrasar o lançamento de R$1,9B em receitas contratadas e, pior, mantinha 14 países presos a soluções manuais semelhantes.",
+      "s": "O desafio começou quando situação — Em 2012, eu recebi a missão de normalizar o rollout de sites 4G da Huawei no Brasil. O SLA era de 382 dias por site, 4x pior que a meta global, e os diretores locais estavam conformados em buscar apenas um ajuste marginal de 10%. Esse pensamento pequeno condenaria a operação brasileira a atrasar o lançamento de R$1,9B em receitas contratadas e, pior, mantinha 14 países presos a soluções manuais semelhantes.",
       "t": "Tarefa — Oficialmente, eu deveria entregar um plano incremental para o Brasil. Eu me auto-impus um desafio maior: redesenhar um motor de rollout replicável globalmente que reduzisse o prazo em 70% e criasse novos mecanismos de governança que qualquer região pudesse operar. Para conseguir aprovação, eu precisava provar que o Brasil podia ser laboratório de uma transformação mundial sem comprometer compliance regulatório e margem.",
       "a": "Ação — Eu atuei como owner único ao longo de 18 meses. Primeiro, estruturei um piloto agressivo em São Paulo, mapeando 127 gargalos e priorizando 19 alavancas que somavam 220 dias de desperdício. Para vencer o ceticismo do VP LatAm (que pediu \"foco local\"), eu construí um business case que mostrava R$480M de valor presente líquido se o modelo virasse padrão global. Em seguida, criei o Rollout Excellence Playbook (52 páginas) com módulos universais e checklists de localização por país. Para acelerar execução, implantei o Vendor Performance Index: fornecedores com eficiência >95% recebiam 30% mais volume; os que ficavam abaixo tinham coaching forçado. Para sustentar visibilidade, codifiquei o war room global com dashboards diários (Power BI + SMS) que enviavam alertas quando um site ficava 12 horas fora do plano. Quando o CFO Ásia resistiu a congelar US$6M para replicação, eu trouxe um case comparativo: mostrei que cada mês de atraso em território norte-americano custaria US$18M em atraso de revenue recognition. O argumento econômico derrubou a objeção.",
       "r": "Resultado — No Brasil, o lead time caiu de 382 para 62 dias (-84%), liberando 1.136 sites em 2014 e antecipando R$1,1B em receita. O modelo provou escalabilidade: em 2015-2016 foi implantado em 12 países e, após minha apresentação no Global PMO Summit de 2017, virou padrão em 54 operações. Em 2023, a controladoria confirmou que o mecanismo continua ativo: média global de rollout estabilizada em 58 dias, saving acumulado de US$120M (US$80M em revenue antecipado, US$25M em renegociação com fornecedores, US$15M em rework evitado). O Net Promoter interno com operadoras subiu de 41 para 68 e o índice de SLA crítico (<72h para correção de falhas) saltou de 42% para 91%.",
       "l": "Lição — Pensar grande significou desenhar mecanismos globais desde o primeiro piloto, não apenas um remendo local. Aprendi que toda vez que eu recuso soluções \"pequenas\" e conecto uma dor específica a um sistema escalável, eu multiplico impacto e crio padrões que sobrevivem à minha presença. Hoje, toda transformação que lidero começa perguntando: \"qual versão global e duradoura dessa solução eu posso construir já no MVP?\"."
     },
     "en": {
-      "s": "Situation — In 2012 I was tasked with normalizing Huawei's 4G rollout in Brazil. SLA sat at 382 days per site, 4x worse than the global goal, and local directors were satisfied with a modest 10% improvement. That small thinking would postpone BRL 1.9B in contracted revenue and keep 14 countries locked into similar manual bottlenecks.",
+      "s": "The challenge began when situation — In 2012 I was tasked with normalizing Huawei's 4G rollout in Brazil. SLA sat at 382 days per site, 4x worse than the global goal, and local directors were satisfied with a modest 10% improvement. That small thinking would postpone BRL 1.9B in contracted revenue and keep 14 countries locked into similar manual bottlenecks.",
       "t": "Task — Officially I was supposed to deliver an incremental fix for Brazil. I set a larger self-imposed mission: design a rollout engine that any region could reuse, cutting cycle time by 70% while protecting compliance and margin. To earn approval I needed to prove Brazil could be the laboratory for a worldwide transformation without breaking regulatory constraints.",
       "a": "Action — I acted as the single-threaded owner for 18 months. First, I structured an aggressive pilot in São Paulo, mapping 127 bottlenecks and prioritizing 19 levers worth 220 wasted days. To overcome the LatAm VP's pushback (“stay local”), I built a business case showing BRL 480M net present value if the model became global standard. Next, I authored the 52-page Rollout Excellence Playbook with universal modules and localization checklists per country. I launched the Vendor Performance Index: partners above 95% efficiency got 30% more volume while laggards received mandatory coaching. To sustain visibility I coded a global war room with daily dashboards (Power BI + SMS alerts) flagging any site that slipped 12 hours. When the Asia CFO refused to freeze US$6M for replication, I showed that every month of delay in the US meant US$18M in deferred revenue; the economic gap broke the objection.",
       "r": "Result — In Brazil the lead time fell from 382 to 62 days (-84%), unlocking 1,136 sites in 2014 and accelerating BRL 1.1B in revenue. The model proved scalable: in 2015-2016 it landed in 12 countries and, after my pitch at the 2017 Global PMO Summit, it became the standard in 54 operations. In 2023 controllership confirmed the mechanism still runs: global rollout now averages 58 days, with US$120M cumulative savings (US$80M accelerated revenue, US$25M supplier renegotiation, US$15M rework avoided). Internal NPS with carriers jumped from 41 to 68 and the critical SLA (<72h to fix defects) rose from 42% to 91%.",
@@ -177,36 +177,48 @@
     "lp_id": "think_big",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 66,
+      "status": "Needs-Rewrite",
       "positives": [
         "Métricas robustas (34)",
-        "Ratio EU:NÓS saudável (11:0)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (26.0:1)"
       ],
       "warnings": [
-        "Customer Obsession fraca (poucos sinais)"
+        "Sinais de Customer Obsession fracos",
+        "Hook inicial fraco (sem urgência ou stakes claros)",
+        "Faltam transições narrativas entre seções STARL"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[pt] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
+        },
+        {
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[en] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
+        },
+        {
           "severity": "warning",
           "topic": "warning",
-          "message": "Customer Obsession fraca (poucos sinais)",
+          "message": "Sinais de Customer Obsession fracos",
           "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
         },
         {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 11:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Hook inicial fraco (sem urgência ou stakes claros)",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
         },
         {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 34",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
         }
       ],
       "lint": {
@@ -215,69 +227,48 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
+        "score": 66,
+        "status": "Needs-Rewrite",
         "dealbreakers": [],
         "warnings": [
-          "Customer Obsession fraca (poucos sinais)"
+          "Sinais de Customer Obsession fracos",
+          "Hook inicial fraco (sem urgência ou stakes claros)",
+          "Faltam transições narrativas entre seções STARL"
         ],
         "positives": [
           "Métricas robustas (34)",
-          "Ratio EU:NÓS saudável (11:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+          "Ratio EU:NÓS saudável (26.0:1)"
         ],
-        "metricsCount": 34,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
+        "breakdown": {
+          "narrative": 6,
+          "metrics": 20,
+          "lpContent": 0,
+          "amazonAspects": 15,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 1,
-        "conflictSignals": true,
-        "mechanismSignals": 10,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 11,
+        "details": {
+          "metrics": {
+            "count": 34,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 26,
+            "eu": 26,
             "nos": 0
+          },
+          "amazonAspects": {
+            "customerSignals": 1,
+            "mechanismSignals": 6,
+            "conflictSignals": 2
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 28,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 421,
-            "enLen": 335,
-            "deltaPct": 0.2042755344418052
-          },
-          "t": {
-            "ptLen": 432,
-            "enLen": 368,
-            "deltaPct": 0.14814814814814814
-          },
-          "a": {
-            "ptLen": 1067,
-            "enLen": 903,
-            "deltaPct": 0.15370196813495782
-          },
-          "r": {
-            "ptLen": 672,
-            "enLen": 616,
-            "deltaPct": 0.08333333333333333
-          },
-          "l": {
-            "ptLen": 426,
-            "enLen": 408,
-            "deltaPct": 0.04225352112676056
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 2,
-        "micDropSignals": true,
-        "biasSignals": 0
+        }
       }
     }
   }

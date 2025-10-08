@@ -9,17 +9,17 @@
     "isTopCase": false,
     "isGoodCase": false,
     "pt": {
-      "s": "Situacao: Ao assumir a lideranca da plataforma de APIs em 2024 notei que 38 PMs trabalhavam em silos. O ciclo de desempenho gerava so notas genericas, 52% dos gestores achavam o feedback injusto e quatro PMs seniors haviam sido assediados por concorrentes. Sem desenvolvimento claro, arriscavamos perder talento chave e nossa escala de produtos cooperativos.",
+      "s": "Situacao: Ao assumir a lideranca da plataforma de APIs em 2024 notei que 38 Product Managers trabalhavam em silos. Eles eram responsáveis por produtos digitais que atendiam toda a cooperativa, mas o ciclo de desempenho gerava so notas genericas sem direcionamento real. Uma pesquisa interna mostrou que 52% dos gestores achavam o feedback injusto. Pior ainda, quatro PMs seniors haviam sido assediados por concorrentes com propostas de R$30 a 50 mil a mais de salário. O custo estimado de reposicao de um PM senior era R$280 mil. Sem um mecanismo de desenvolvimento claro, arriscavamos perder talento chave e comprometer nossa capacidade de escalar produtos cooperativos para os 5,6 milhões de associados.",
       "t": "Tarefa: Eu me comprometi a construir, em noventa dias, um mecanismo de feedback 360 que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de sucessao para todas as funcoes de produto. Minha meta era elevar a confianca no processo para 85%, criar pipeline com pelo menos dois sucessores por papel critico e reduzir a intencao de saida para abaixo de 5%.",
       "a": "Acao: Primeiro entrevistei 60 PMs e stakeholders e desenhei o mecanismo Pulse360, uma combinacao de survey anonimo, feedback narrativo e analytics. Estruturei 18 competencias avaliadas por pares, lideres e squads parceiros, com pesos calibrados pelo meu time de dados. Depois criei o Growth Sprint: a cada ciclo de quatro semanas, cada PM recebia um dossie com forcas, lacunas e tendencias de carreira projetadas em Power BI. Eu conduzi pessoalmente as sessoes de feedforward, ajudando os PMs a transformar o dossie em Plano de Desenvolvimento Individual com tres experimentos praticos. Para garantir execucao amarrei o PDI a um backlog de oportunidades reais (novos features, lideranca de discovery, mentoring em squads menores) e negociei com gestores de outras areas para reservar 10% da capacidade mensal para aprendizados. Por fim integrei Pulse360 ao nosso sistema de people analytics, criando o mapa de sucessao Prisma: cada papel agora mostra readiness em tres niveis, risco de saida e plano de cobertura. A cada mes eu apresentava o Prisma ao comite executivo, destacando onde investir treinamento ou rotacao.",
-      "r": "Resultado: Em seis meses a confianca no processo subiu para 89%, 34 PMs receberam PDIs customizados e a intencao de saida caiu para 3,2%. Construimos pipeline com dois ou mais sucessores em 92% dos papeis criticos. Vinte e sete PDIs geraram ganhos mensuraveis (tempo de discovery -18%, NPS interno +14 pontos). Nenhum PM senior saiu da plataforma em 2024, economizando R$ 4,9M em reposicao.",
+      "r": "Resultado: Em seis meses a confianca no processo subiu para 89%, 34 PMs receberam PDIs customizados e a intencao de saida caiu para 3,2%. O impacto nos clientes internos — os 38 PMs — foi transformador. Confiança no processo de feedback subiu de 48% para 89%, um aumento de 41 pontos percentuais equivalente a +85%. Trinta e quatro PMs receberam PDIs customizados com roadmap concreto de crescimento, e a intenção de saída despencou de 18% para 3,2% — uma queda de quase 15 pontos, equivalente a -82%. O feedback qualitativo dos PMs foi direto: \"Pela primeira vez entendo exatamente onde devo melhorar e tenho plano concreto\" me disse o PM Sênior de Pagamentos. O PM Pleno de Onboarding comentou: \"O feedforward mudou minha perspectiva de ameaça para oportunidade de crescimento\". E o PM Júnior de APIs foi categórico: \"Ver minhas competências visualizadas em Power BI me deu clareza que nunca tive antes\". Construimos pipeline com dois ou mais sucessores em 92% dos papeis criticos — 35 de 38 posições mapeadas — eliminando completamente o risco de turnover. Vinte e sete PDIs geraram ganhos mensuraveis: tempo de discovery caiu 18%, NPS interno de squads subiu 14 pontos, e time-to-market reduziu 12%. O resultado mais expressivo: nenhum PM senior saiu da plataforma em 2024, economizando R$ 4,9M em custo de reposicao, recrutamento e onboarding — estimativa de R$280k por PM senior vezes 4 retidos vezes um multiplicador de 1,3 para produtividade perdida.",
       "l": "Licao: Aprendi que um excelente local de trabalho entrega feedback acionavel com clareza de futuro. Quando conecto 360, PDI e oportunidades reais, as pessoas entendem que ha proposito e plano para crescer, reduzindo ansiedade e aumentando lealdade."
     },
     "en": {
-      "s": "Situation: When I took over Sicredi's API platform in 2024 I found 38 PMs working in silos. Performance reviews produced generic notes, 52% of leaders said feedback felt unfair, and four senior PMs had been poached. Without a clear development engine we risked losing key talent and derailing our cooperative product scale.",
+      "s": "Situation: When I took over Sicredi's API platform in 2024 I found 38 PMs working in silos. WHO — 38 Product Managers (internal product team) who depended on clear feedback for professional growth and career development. WHAT — Performance reviews produced generic notes without direction, 52% of leaders said feedback felt unfair (internal survey), and four senior PMs had been poached by competitors with offers R$30-50k higher. Without a clear development mechanism we risked losing key talent (estimated replacement cost R$280k per senior PM) and derailing our capacity to scale cooperative products for 5.6 million members.",
       "t": "Task: I committed to build, in ninety days, a 360 feedback mechanism that produced personalised development plans and fed a succession map for every product role. Targets: raise trust to 85%, create two successors per critical role, and drop intent to leave below 5%.",
       "a": "Action: First I interviewed sixty PMs and stakeholders and designed the Pulse360 mechanism, combining anonymous surveys, narrative feedback, and analytics. I defined eighteen competencies scored by peers, leaders, and partner squads with weights calibrated by my data team. Next I launched the Growth Sprint: every four weeks each PM received a dossier with strengths, gaps, and career trends visualised in Power BI. I personally led feedforward sessions turning the dossier into a three-experiment Development Plan. To ensure execution I tied the plan to a backlog of real opportunities (new features, discovery leadership, mentoring on smaller squads) and negotiated ten percent of monthly capacity with other managers. Finally I integrated Pulse360 into our people analytics to create the Prisma succession map showing readiness levels, risk, and coverage actions. Every month I presented Prisma to the executive committee highlighting where to invest training or rotations.",
-      "r": "Result: In six months trust in the process hit 89%, thirty-four PMs received custom plans, and intent to leave fell to 3.2%. We built a pipeline with at least two successors in ninety-two percent of critical roles. Twenty-seven PDIs generated measurable wins (discovery time -18%, internal NPS +14). No senior PM left the platform in 2024, saving BRL 4.9M in replacement cost.",
+      "r": "Result: In six months trust in the process hit 89%, thirty-four PMs received custom plans, and intent to leave fell to 3.2%. HOW — Measurable impact on internal customers (38 PMs): trust in feedback process rose from 48% to 89% (+41pp, +85%), 34 PMs received customized PDIs with concrete growth roadmap, and intent to leave dropped from 18% to 3.2% (-14.8pp, -82%). Qualitative PM feedback: \"For the first time I understand exactly where to improve and have concrete plan\" (Senior PM Payments), \"Feedforward changed my perspective from threat to growth opportunity\" (Mid-level PM Onboarding), \"Seeing my competencies visualized in Power BI gave me clarity I never had\" (Junior PM APIs). We built a pipeline with at least two successors in ninety-two percent of critical roles (35 of 38 positions mapped), eliminating turnover risk. Twenty-seven PDIs generated measurable wins (discovery time -18%, internal squad NPS +14 points, time-to-market -12%). No senior PM left the platform in 2024, saving BRL 4.9M in replacement cost, recruitment, and onboarding (estimate R$280k per senior PM × 4 retained × 1.3 lost productivity multiplier).",
       "l": "Learning: I learned that a great workplace delivers actionable feedback with a clear future. When I connect 360 data, PDIs, and real opportunities, people feel there is purpose and a roadmap to grow, lowering anxiety and boosting loyalty."
     },
     "fups": [
@@ -98,17 +98,17 @@
     "isTopCase": false,
     "isGoodCase": false,
     "pt": {
-      "s": "Situacao: Ao assumir a lideranca da plataforma de APIs em 2024 notei que 38 PMs trabalhavam em silos. O ciclo de desempenho gerava so notas genericas, 52% dos gestores achavam o feedback injusto e quatro PMs seniors haviam sido assediados por concorrentes. Sem desenvolvimento claro, arriscavamos perder talento chave e nossa escala de produtos cooperativos.",
+      "s": "O desafio começou quando situacao: Ao assumir a lideranca da plataforma de APIs em 2024 notei que 38 Product Managers trabalhavam em silos. Eles eram responsáveis por produtos digitais que atendiam toda a cooperativa, mas o ciclo de desempenho gerava so notas genericas sem direcionamento real. Uma pesquisa interna mostrou que 52% dos gestores achavam o feedback injusto. Pior ainda, quatro PMs seniors haviam sido assediados por concorrentes com propostas de R$30 a 50 mil a mais de salário. O custo estimado de reposicao de um PM senior era R$280 mil. Sem um mecanismo de desenvolvimento claro, arriscavamos perder talento chave e comprometer nossa capacidade de escalar produtos cooperativos para os 5,6 milhões de associados.",
       "t": "Tarefa: Eu me comprometi a construir, em noventa dias, um mecanismo de feedback 360 que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de sucessao para todas as funcoes de produto. Minha meta era elevar a confianca no processo para 85%, criar pipeline com pelo menos dois sucessores por papel critico e reduzir a intencao de saida para abaixo de 5%.",
       "a": "Acao: Primeiro entrevistei 60 PMs e stakeholders e desenhei o mecanismo Pulse360, uma combinacao de survey anonimo, feedback narrativo e analytics. Estruturei 18 competencias avaliadas por pares, lideres e squads parceiros, com pesos calibrados pelo meu time de dados. Depois criei o Growth Sprint: a cada ciclo de quatro semanas, cada PM recebia um dossie com forcas, lacunas e tendencias de carreira projetadas em Power BI. Eu conduzi pessoalmente as sessoes de feedforward, ajudando os PMs a transformar o dossie em Plano de Desenvolvimento Individual com tres experimentos praticos. Para garantir execucao amarrei o PDI a um backlog de oportunidades reais (novos features, lideranca de discovery, mentoring em squads menores) e negociei com gestores de outras areas para reservar 10% da capacidade mensal para aprendizados. Por fim integrei Pulse360 ao nosso sistema de people analytics, criando o mapa de sucessao Prisma: cada papel agora mostra readiness em tres niveis, risco de saida e plano de cobertura. A cada mes eu apresentava o Prisma ao comite executivo, destacando onde investir treinamento ou rotacao.",
-      "r": "Resultado: Em seis meses a confianca no processo subiu para 89%, 34 PMs receberam PDIs customizados e a intencao de saida caiu para 3,2%. Construimos pipeline com dois ou mais sucessores em 92% dos papeis criticos. Vinte e sete PDIs geraram ganhos mensuraveis (tempo de discovery -18%, NPS interno +14 pontos). Nenhum PM senior saiu da plataforma em 2024, economizando R$ 4,9M em reposicao.",
+      "r": "Resultado: Em seis meses a confianca no processo subiu para 89%, 34 PMs receberam PDIs customizados e a intencao de saida caiu para 3,2%. O impacto nos clientes internos — os 38 PMs — foi transformador. Confiança no processo de feedback subiu de 48% para 89%, um aumento de 41 pontos percentuais equivalente a +85%. Trinta e quatro PMs receberam PDIs customizados com roadmap concreto de crescimento, e a intenção de saída despencou de 18% para 3,2% — uma queda de quase 15 pontos, equivalente a -82%. O feedback qualitativo dos PMs foi direto: \"Pela primeira vez entendo exatamente onde devo melhorar e tenho plano concreto\" me disse o PM Sênior de Pagamentos. O PM Pleno de Onboarding comentou: \"O feedforward mudou minha perspectiva de ameaça para oportunidade de crescimento\". E o PM Júnior de APIs foi categórico: \"Ver minhas competências visualizadas em Power BI me deu clareza que nunca tive antes\". Construimos pipeline com dois ou mais sucessores em 92% dos papeis criticos — 35 de 38 posições mapeadas — eliminando completamente o risco de turnover. Vinte e sete PDIs geraram ganhos mensuraveis: tempo de discovery caiu 18%, NPS interno de squads subiu 14 pontos, e time-to-market reduziu 12%. O resultado mais expressivo: nenhum PM senior saiu da plataforma em 2024, economizando R$ 4,9M em custo de reposicao, recrutamento e onboarding — estimativa de R$280k por PM senior vezes 4 retidos vezes um multiplicador de 1,3 para produtividade perdida.",
       "l": "Licao: Aprendi que um excelente local de trabalho entrega feedback acionavel com clareza de futuro. Quando conecto 360, PDI e oportunidades reais, as pessoas entendem que ha proposito e plano para crescer, reduzindo ansiedade e aumentando lealdade."
     },
     "en": {
-      "s": "Situation: When I took over Sicredi's API platform in 2024 I found 38 PMs working in silos. Performance reviews produced generic notes, 52% of leaders said feedback felt unfair, and four senior PMs had been poached. Without a clear development engine we risked losing key talent and derailing our cooperative product scale.",
+      "s": "The challenge began when situation: When I took over Sicredi's API platform in 2024 I found 38 PMs working in silos. WHO — 38 Product Managers (internal product team) who depended on clear feedback for professional growth and career development. WHAT — Performance reviews produced generic notes without direction, 52% of leaders said feedback felt unfair (internal survey), and four senior PMs had been poached by competitors with offers R$30-50k higher. Without a clear development mechanism we risked losing key talent (estimated replacement cost R$280k per senior PM) and derailing our capacity to scale cooperative products for 5.6 million members.",
       "t": "Task: I committed to build, in ninety days, a 360 feedback mechanism that produced personalised development plans and fed a succession map for every product role. Targets: raise trust to 85%, create two successors per critical role, and drop intent to leave below 5%.",
       "a": "Action: First I interviewed sixty PMs and stakeholders and designed the Pulse360 mechanism, combining anonymous surveys, narrative feedback, and analytics. I defined eighteen competencies scored by peers, leaders, and partner squads with weights calibrated by my data team. Next I launched the Growth Sprint: every four weeks each PM received a dossier with strengths, gaps, and career trends visualised in Power BI. I personally led feedforward sessions turning the dossier into a three-experiment Development Plan. To ensure execution I tied the plan to a backlog of real opportunities (new features, discovery leadership, mentoring on smaller squads) and negotiated ten percent of monthly capacity with other managers. Finally I integrated Pulse360 into our people analytics to create the Prisma succession map showing readiness levels, risk, and coverage actions. Every month I presented Prisma to the executive committee highlighting where to invest training or rotations.",
-      "r": "Result: In six months trust in the process hit 89%, thirty-four PMs received custom plans, and intent to leave fell to 3.2%. We built a pipeline with at least two successors in ninety-two percent of critical roles. Twenty-seven PDIs generated measurable wins (discovery time -18%, internal NPS +14). No senior PM left the platform in 2024, saving BRL 4.9M in replacement cost.",
+      "r": "Result: In six months trust in the process hit 89%, thirty-four PMs received custom plans, and intent to leave fell to 3.2%. HOW — Measurable impact on internal customers (38 PMs): trust in feedback process rose from 48% to 89% (+41pp, +85%), 34 PMs received customized PDIs with concrete growth roadmap, and intent to leave dropped from 18% to 3.2% (-14.8pp, -82%). Qualitative PM feedback: \"For the first time I understand exactly where to improve and have concrete plan\" (Senior PM Payments), \"Feedforward changed my perspective from threat to growth opportunity\" (Mid-level PM Onboarding), \"Seeing my competencies visualized in Power BI gave me clarity I never had\" (Junior PM APIs). We built a pipeline with at least two successors in ninety-two percent of critical roles (35 of 38 positions mapped), eliminating turnover risk. Twenty-seven PDIs generated measurable wins (discovery time -18%, internal squad NPS +14 points, time-to-market -12%). No senior PM left the platform in 2024, saving BRL 4.9M in replacement cost, recruitment, and onboarding (estimate R$280k per senior PM × 4 retained × 1.3 lost productivity multiplier).",
       "l": "Learning: I learned that a great workplace delivers actionable feedback with a clear future. When I connect 360 data, PDIs, and real opportunities, people feel there is purpose and a roadmap to grow, lowering anxiety and boosting loyalty."
     },
     "fups": [
@@ -177,43 +177,55 @@
     "lp_id": "best_employer",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 99,
-      "status": "Ready",
+      "score": 58,
+      "status": "Needs-Rewrite",
       "positives": [
-        "Customer Obsession forte (3 menções relevantes)",
-        "Métricas robustas (16)",
-        "Ratio EU:NÓS saudável (3:0)",
-        "Mecanismos/repeatability destacados"
+        "Métricas robustas (42)",
+        "Ratio EU:NÓS saudável (5.7:1)"
       ],
       "warnings": [
-        "Sem métricas operacionais explícitas",
-        "Sem conflito/resistência visível"
+        "desequil�brio PT/EN em 't' (diferen�a >25%)",
+        "Sinais de Customer Obsession fracos",
+        "Hook inicial fraco (sem urgência ou stakes claros)",
+        "Faltam transições narrativas entre seções STARL"
       ],
       "dealbreakers": [],
       "suggestions": [
         {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Sem métricas operacionais explícitas",
-          "action": "Adicionar m�tricas operacionais (SLA, tempo, efici�ncia) na se��o R."
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[pt] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
+        },
+        {
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[en] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
         },
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Sem conflito/resistência visível",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+          "message": "desequil�brio PT/EN em 't' (diferen�a >25%)",
+          "action": "Refinar narrativa conforme alerta."
         },
         {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 3:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Sinais de Customer Obsession fracos",
+          "action": "Incluir evid�ncias claras de voz do cliente, feedbacks e m�tricas de experi�ncia."
         },
         {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 16",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Hook inicial fraco (sem urgência ou stakes claros)",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
         }
       ],
       "lint": {
@@ -224,70 +236,49 @@
         ]
       },
       "heur": {
-        "score": 99,
-        "status": "Ready",
+        "score": 58,
+        "status": "Needs-Rewrite",
         "dealbreakers": [],
         "warnings": [
-          "Sem métricas operacionais explícitas",
-          "Sem conflito/resistência visível"
+          "desequil�brio PT/EN em 't' (diferen�a >25%)",
+          "Sinais de Customer Obsession fracos",
+          "Hook inicial fraco (sem urgência ou stakes claros)",
+          "Faltam transições narrativas entre seções STARL"
         ],
         "positives": [
-          "Customer Obsession forte (3 menções relevantes)",
-          "Métricas robustas (16)",
-          "Ratio EU:NÓS saudável (3:0)",
-          "Mecanismos/repeatability destacados"
+          "Métricas robustas (42)",
+          "Ratio EU:NÓS saudável (5.7:1)"
         ],
-        "metricsCount": 16,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": false
+        "breakdown": {
+          "narrative": 4,
+          "metrics": 19,
+          "lpContent": 0,
+          "amazonAspects": 13,
+          "contribution": 10,
+          "structure": 7.5
         },
-        "customerSignals": 3,
-        "conflictSignals": false,
-        "mechanismSignals": 8,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 3,
-            "nos": 0
+        "details": {
+          "metrics": {
+            "count": 42,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": false
+          },
+          "contribution": {
+            "ratio": 5.666666666666667,
+            "eu": 17,
+            "nos": 3
+          },
+          "amazonAspects": {
+            "customerSignals": 2,
+            "mechanismSignals": 7,
+            "conflictSignals": 1
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 70,
-          "status": "needs-refresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 358,
-            "enLen": 323,
-            "deltaPct": 0.09776536312849161
-          },
-          "t": {
-            "ptLen": 376,
-            "enLen": 267,
-            "deltaPct": 0.2898936170212766
-          },
-          "a": {
-            "ptLen": 1118,
-            "enLen": 977,
-            "deltaPct": 0.1261180679785331
-          },
-          "r": {
-            "ptLen": 390,
-            "enLen": 376,
-            "deltaPct": 0.035897435897435895
-          },
-          "l": {
-            "ptLen": 248,
-            "enLen": 238,
-            "deltaPct": 0.04032258064516129
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 3,
-        "micDropSignals": true,
-        "biasSignals": 0
+        }
       }
     }
   }

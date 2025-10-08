@@ -98,14 +98,14 @@
     "isTopCase": false,
     "isGoodCase": true,
     "pt": {
-      "s": "No ciclo de OKRs de 2023 eu liderava o produto de engajamento digital. O diretor comercial exigia dobrar o budget de aquisicao com cashback agressivo porque a meta de novas vidas estava 18% abaixo do plano. Eu discordava: churn mensal chegara a 3,6% em clientes com mais de 24 meses e 41 mil beneficiarios haviam aberto reclamacoes sobre falta de acompanhamento digital. O CCO disse em voz alta: \"se voce insistir em retencao, vou pedir ao CEO para trocar o owner\". Eu sabia que precisava provar meus dados antes de aceitar um corte de 50% no roadmap de retencao.",
+      "s": "O desafio começou quando no ciclo de OKRs de 2023 eu liderava o produto de engajamento digital. O diretor comercial exigia dobrar o budget de aquisicao com cashback agressivo porque a meta de novas vidas estava 18% abaixo do plano. Eu discordava: churn mensal chegara a 3,6% em clientes com mais de 24 meses e 41 mil beneficiarios haviam aberto reclamacoes sobre falta de acompanhamento digital. O CCO disse em voz alta: \"se voce insistir em retencao, vou pedir ao CEO para trocar o owner\". Eu sabia que precisava provar meus dados antes de aceitar um corte de 50% no roadmap de retencao.",
       "t": "Eu me declarei owner do resultado e defini tres metas pessoais: (1) apresentar ao CEO em cinco dias um modelo mostrando que cada ponto de churn custava R$ 42M em receita anualizada, (2) garantir uma decisao executiva clara, mesmo que contraria ao meu plano, e (3) executar o caminho aprovado entregando impacto em menos de 90 dias.",
       "a": "Primeiro eu consolidei 30 meses de NPS, churn e LTV em um painel e rodei uma simulacao Monte Carlo que provava que investir R$ 30M adicionais em cashback geraria ROI negativo se o churn continuasse acima de 3%. Segundo, levei o modelo ao CFO e pedi patrocinio para levar o tema ao comite executivo; eu entrei na sala dizendo: \"nao concordo com desviar R$ 30M de retencao e vou sustentar isso com dados\". O CEO decidiu por um plano hibrido: 60% dos recursos em retencao digital, 40% em aquisicao via cashback para publico de 18-25 anos. Mesmo discordando parcialmente, eu respondi ali: \"entendi a decisao, a partir de agora eu lidero a execucao do hibrido e respondo pelos resultados\". Terceiro, montei um squad com CX, marketing e TI para entregar cirurgia de retencao: implantei alertas proativos para 520k beneficiarios cronicos com SLA de disparo de 30 minutos e tempo medio de resposta de 4 horas aos tickets com base em 12 sinais clinicos, negociei com TI a liberacao de APIs de prontuario em quatro semanas e reduzi o backlog de integracoes em 63% e derrubei o SLA de integracao de 21 horas para 9 horas. Em paralelo, codifiquei regras de cashback escalonado (R$ 20, R$ 45, R$ 80) com gatilhos de uso em telemedicina e aplicativos de farmacia, mesmo achando o incentivo agressivo demais. Quarto, criamos rituais semanais com o CCO para revisar dados; eu abria cada meeting relembrando que tinha discordado, mas que agora minha responsabilidade era entregar a meta combinada, e pedi que ele firmasse em ata quando fizesse mudancas taticais.",
       "r": "Como consequencia direta, em 75 dias o churn de clientes com mais de 24 meses caiu de 3,6% para 2,1%, o NPS do app subiu de 48 para 67 e as utilizacoes de telemedicina cresceram 52% e o tempo medio de atendimento caiu de 18 minutos para 11 minutos. O cashback trouxe 18 mil novas vidas no segmento jovem, mantendo CAC dentro do orcamento. O CFO confirmou savings de R$ 96M em receita preservada e o CEO registrou em ata que eu havia \"discordado com dados e comprometido com o plano aprovado\". O CCO, que ameacava trocar o owner, me convidou para liderar a carteira de programas de fidelidade em 2024.",
       "l": "Por fim, aprendi que disagree and commit nao e ganhar uma disputa, e sim ganhar o direito de executar a decisao final com credibilidade. Quando eu deixo clara a divergencia com fatos, aceito o veredito e assumo a entrega, a organizacao confia que nao jogo contra o time."
     },
     "en": {
-      "s": "In 2023 I led Unimed's digital engagement product. The sales director demanded we double the acquisition budget with aggressive cashback because new lives were 18% behind plan. I disagreed: churn among members over 24 months had reached 3.6% and 41,000 beneficiaries had filed complaints about missing digital follow-up. The CCO told me bluntly, \"if you keep insisting on retention, I will ask the CEO to replace you.\" I knew I had to prove my numbers before accepting a 50% cut to the retention roadmap.",
+      "s": "The challenge began when in 2023 I led Unimed's digital engagement product. The sales director demanded we double the acquisition budget with aggressive cashback because new lives were 18% behind plan. I disagreed: churn among members over 24 months had reached 3.6% and 41,000 beneficiaries had filed complaints about missing digital follow-up. The CCO told me bluntly, \"if you keep insisting on retention, I will ask the CEO to replace you.\" I knew I had to prove my numbers before accepting a 50% cut to the retention roadmap.",
       "t": "I declared myself the owner of the outcome and set three personal goals: (1) present to the CEO within five days a model showing each churn point destroyed BRL 42M in annual revenue, (2) secure a clear executive decision even if it went against my plan, and (3) execute the chosen path delivering measurable impact inside 90 days.",
       "a": "First I consolidated 30 months of NPS, churn, and LTV into a dashboard and ran a Monte Carlo simulation proving that investing an extra BRL 30M in cashback would yield negative ROI if churn stayed above 3%. Second, I took the model to the CFO and asked for sponsorship to escalate; I entered the executive room stating, \"I do not agree with shifting BRL 30M away from retention and I will defend the data.\" The CEO ruled for a hybrid plan: 60% of funds for digital retention, 40% for youth-targeted cashback. Even though it was only partially my plan, I replied on the spot, \"I understand the decision; from now on I lead the hybrid execution and I am accountable for results.\" Third, I built a squad across CX, marketing, and IT to deliver retention mechanics: I deployed proactive alerts for 520k chronic members with a 30-minute dispatch SLA and average ticket response time of four hours, using twelve clinical signals, negotiated API access with IT in four weeks, and cut the integration backlog by 63% and reduced the integration SLA from 21 hours to nine hours. In parallel I coded the tiered cashback rules (BRL 20, 45, 80) with triggers for telemedicine and pharmacy apps, even though I felt the incentive was aggressive. Fourth, we set weekly rituals with the CCO; I opened each one by reminding him I had disagreed, but that now my job was to hit the agreed targets, and I asked him to log any tactical changes he requested.",
       "r": "As a direct consequence, within 75 days churn for members over 24 months dropped from 3.6% to 2.1%, app NPS jumped from 48 to 67, and telemedicine usage climbed 52% and average telemedicine handling time dropped from 18 minutes to 11 minutes. Cashback brought 18,000 new young lives while keeping CAC on budget. The CFO confirmed BRL 96M in preserved revenue and the CEO recorded in the minutes that I had \"disagreed with data and committed to the executive decision\". The CCO who threatened to replace me invited me to lead the loyalty portfolio in 2024.",
@@ -177,29 +177,41 @@
     "lp_id": "disagree_and_commit",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 100,
-      "status": "Ready",
+      "score": 63,
+      "status": "Needs-Rewrite",
       "positives": [
-        "Customer Obsession forte (10 menções relevantes)",
         "Métricas robustas (35)",
-        "Ratio EU:NÓS saudável (11:0)",
-        "Conflito/endurecimento presente",
-        "Mecanismos/repeatability destacados"
+        "Ratio EU:NÓS saudável (18.5:1)"
       ],
-      "warnings": [],
+      "warnings": [
+        "Hook inicial fraco (sem urgência ou stakes claros)",
+        "Faltam transições narrativas entre seções STARL"
+      ],
       "dealbreakers": [],
       "suggestions": [
         {
-          "severity": "info",
-          "topic": "ownership",
-          "message": "Ratio EU:N�S atual 11:0 (ideal >= 3:1)",
-          "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[pt] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
         },
         {
-          "severity": "info",
-          "topic": "metrics",
-          "message": "M�tricas detectadas: 35",
-          "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[en] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Hook inicial fraco (sem urgência ou stakes claros)",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
+        },
+        {
+          "severity": "warning",
+          "topic": "warning",
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
         }
       ],
       "lint": {
@@ -208,68 +220,47 @@
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
+        "score": 63,
+        "status": "Needs-Rewrite",
         "dealbreakers": [],
-        "warnings": [],
-        "positives": [
-          "Customer Obsession forte (10 menções relevantes)",
-          "Métricas robustas (35)",
-          "Ratio EU:NÓS saudável (11:0)",
-          "Conflito/endurecimento presente",
-          "Mecanismos/repeatability destacados"
+        "warnings": [
+          "Hook inicial fraco (sem urgência ou stakes claros)",
+          "Faltam transições narrativas entre seções STARL"
         ],
-        "metricsCount": 35,
-        "metricCategories": {
-          "financial": true,
-          "customer": true,
-          "operational": true
+        "positives": [
+          "Métricas robustas (35)",
+          "Ratio EU:NÓS saudável (18.5:1)"
+        ],
+        "breakdown": {
+          "narrative": 7,
+          "metrics": 20,
+          "lpContent": 0,
+          "amazonAspects": 11,
+          "contribution": 10,
+          "structure": 10
         },
-        "customerSignals": 10,
-        "conflictSignals": true,
-        "mechanismSignals": 3,
-        "ratio": {
-          "ratio": 1,
-          "counts": {
-            "eu": 11,
-            "nos": 0
+        "details": {
+          "metrics": {
+            "count": 35,
+            "hasFinancial": true,
+            "hasCustomer": true,
+            "hasOperational": true
+          },
+          "contribution": {
+            "ratio": 18.5,
+            "eu": 37,
+            "nos": 2
+          },
+          "amazonAspects": {
+            "customerSignals": 21,
+            "mechanismSignals": 2,
+            "conflictSignals": 1
+          },
+          "lpContent": {
+            "strongCount": 0,
+            "mediumCount": 0
           }
-        },
-        "recency": {
-          "monthsAgo": 24,
-          "status": "fresh"
-        },
-        "parity": {
-          "s": {
-            "ptLen": 563,
-            "enLen": 504,
-            "deltaPct": 0.10479573712255773
-          },
-          "t": {
-            "ptLen": 331,
-            "enLen": 330,
-            "deltaPct": 0.0030211480362537764
-          },
-          "a": {
-            "ptLen": 1545,
-            "enLen": 1435,
-            "deltaPct": 0.07119741100323625
-          },
-          "r": {
-            "ptLen": 600,
-            "enLen": 555,
-            "deltaPct": 0.075
-          },
-          "l": {
-            "ptLen": 270,
-            "enLen": 281,
-            "deltaPct": 0.03914590747330961
-          }
-        },
-        "hookSignals": true,
-        "transitionSignals": 2,
-        "micDropSignals": true,
-        "biasSignals": 0
+        }
       }
     }
   }
