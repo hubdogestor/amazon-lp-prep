@@ -45,8 +45,8 @@ const RUN_TS = new Date().toISOString();
 
   for (const c of targets) {
     const lint = lintCase(c);
-    const heur = analyzeHeuristics(c);
-    const finalStatus = lint.ok ? heur.status : 'Lint-Blocker';
+    const heur = analyzeHeuristics(c, lint);
+    const finalStatus = heur.status;
 
     let mutated = cloneCase(c);
     const changeLog = [];
@@ -92,7 +92,7 @@ const RUN_TS = new Date().toISOString();
   if (MODE_REFINE) {
     console.log("[analyzer3] Previews prontos em 'case-validation/analyzer3/preview/'.");
   }
-  console.log(`[analyzer3] Relatórios em ${OUT_DIR}`);
+  console.log(`[analyzer3] Relatï¿½rios em ${OUT_DIR}`);
 })().catch(e => {
   console.error('[analyzer3] ERROR', e);
   process.exit(1);

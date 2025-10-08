@@ -1,251 +1,262 @@
 import { STARL_KEYS } from './utils/schema.mjs';
+import { LP_KEYWORDS } from './refinement_v3_2/lp-keywords.mjs';
 
-const CUSTOMER_TERMS = [
-  'cliente', 'clientes', 'customer', 'customers', 'member', 'members', 'paciente', 'pacientes',
-  'consumidor', 'consumidores', 'seller', 'sellers', 'usuário', 'usuários', 'user', 'users',
-  'merchant', 'merchants', 'partner', 'parceiro', 'parceiros'
-];
+// --- Termos e Expressões Chave ---
 
-const CONFLICT_TERMS = [
-  'conflito', 'discord', 'resist', 'objeção', 'pushback', 'pressão', 'escalon', 'alinhamento difícil',
-  'desacordo', 'debate', 'backbone', 'disagree', 'tenho convicção', 'bypass', 'challenge', 'tensão'
-];
+const HOOK_URGENCY_TERMS = ['crise', 'colapso', 'perda', 'queda', 'multa', 'risco', 'ameaça', 'urgente', 'impacto negativo', 'problema crítico'];
+const HOOK_STAKES_REGEX = /(R\$|US\$|\$)\s?\d[\d.,]*\s?(milh[oõ]es|bilh[oõ]es|k)|nps de \d+|queda de \d+%|perda de \d+|afetando \d+ clientes/;
+const HOOK_CONFLICT_TERMS = ['conselho', 'board', 'diretoria', 'c-level', 'ceo', 'cto', 'cfo', 'ameaçou', 'exigiu', 'demandou'];
 
-const MECHANISM_TERMS = [
-  'processo', 'mecanismo', 'framework', 'ritual', 'cadência', 'dashboard', 'automati', 'automatiz',
-  'sistema', 'pipeline', 'governança', 'governanca', 'okr', 'kpi', 'war room', 'runbook', 'playbook'
-];
+const TRANSITION_STARTERS = {
+  t: ['diante desse cenário', 'com essa missão', 'o desafio era', 'minha tarefa era', 'the challenge was', 'my task was'],
+  a: ['para resolver isso', 'para atacar o problema', 'minha abordagem foi', 'to solve this', 'my approach was', 'para cumprir esse compromisso'],
+  r: ['como resultado', 'o impacto foi', 'as a result', 'the impact was', 'esse esforço entregou'],
+  l: ['aprendi que', 'retrospectivamente', 'a lição que ficou', 'i learned that', 'in retrospect', 'this case taught me'],
+};
 
-const BIAS_SPEED_TERMS = [
-  'rapido', 'rapidamente', 'speed', 'veloc', 'urgente', 'prazo curto', 'prazo agressivo',
-  'two-way door', 'two way door', 'risco calculado', 'decisao rapida', 'go-no go', 'cutover',
-  'rollout relampago', 'piloto em', 'mvp em', 'sprint extra', 'acao imediata', 'mitiguei o risco',
-  'rollback', 'fallback', 'time to market', 'janela de', 'em horas', 'em 24h', 'em 48h'
-];
+const MIC_DROP_MECHANISM_TERMS = ['ritual', 'playbook', 'framework', 'processo', 'mecanismo', 'modelo', 'sistema', 'automação'];
+const MIC_DROP_REPLICATION_TERMS = ['replicado', 'adotado', 'escalado para', 'virou padrão', 'se tornou o novo', 'replicated', 'adopted', 'scaled to'];
 
-const HOOK_TERMS = ['crise', 'colapso', 'perda', 'queda', 'multas', 'risco', 'ameaça', 'ameaçado', 'urgente'];
-const TRANSITION_TERMS = ['primeiro', 'depois', 'em seguida', 'com isso', 'portanto', 'assim', 'logo', 'por fim'];
-const MICDROP_TERMS = ['aprendi', 'lesson', 'aprendizado', 'desde então', 'desde entao', 'isso mudou', 'passei a'];
+const CUSTOMER_TERMS = ['cliente', 'usuário', 'consumidor', 'customer', 'user', 'nps', 'csat', 'churn', 'retenção', 'satisfação', 'experiência do cliente', 'cx'];
+const CONFLICT_TERMS = ['conflito', 'resistência', 'objeção', 'pushback', 'pressão', 'escalar', 'desacordo', 'debate', 'trade-off', 'tive que convencer'];
+const MECHANISM_TERMS = MIC_DROP_MECHANISM_TERMS; // Reutilizando a lista
 
-const FINANCIAL_REGEX = /(receita|revenue|lucro|profit|ebitda|roi|margem|cash|custo|saving|economia|capex|opex|payback)/i;
-const CUSTOMER_METRIC_REGEX = /(nps|csat|churn|reten[cç][aã]o|satisfa[cç][aã]o|feedback|exp[ée]riencia|complaint|sla de atendimento|net promoter)/i;
-const OPERATIONAL_REGEX = /(sla|lead time|tempo de ciclo|throughput|bug|defeito|erro|lat[êe]ncia|tempo de resposta|tempo médio|mttr|mtbf)/i;
+const METRIC_REGEX = /(?:R\$|US\$|\$)\s?\d[\d.,]*|\d[\d.,]*\s?(?:%|pontos|pts|pp|dias?|semanas?|mes(?:es)?|anos?|clientes|usu[aá]rios|tickets|casos|equipes|lojas|squads|k|milh[oõ]es|bilh[oõ]es)/gi;
+const FINANCIAL_REGEX = /(receita|revenue|lucro|profit|ebitda|roi|margem|custo|saving|economia|capex|opex|payback)/i;
+const CUSTOMER_METRIC_REGEX = /(nps|csat|churn|reten[cç][aã]o|satisfa[cç][aã]o|feedback|exp[ée]riencia|net promoter)/i;
+const OPERATIONAL_REGEX = /(sla|lead time|tempo de ciclo|throughput|bug|defeito|erro|lat[êe]ncia|tempo de resposta|mttr|mtbf)/i;
 
-function normalize(value) {
-  return (value || '')
-    .toString()
+
+// --- Funções de Normalização e Contagem ---
+
+function normalize(text) {
+  return (text || '')
     .normalize('NFD')
-    .replace(/[^\p{L}\p{N}\s%\$.,-]/gu, ' ')
+    .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase();
 }
 
-function allText(c) {
-  const starlPT = STARL_KEYS.map(key => c.pt?.[key] || '').join('\n');
-  const starlEN = STARL_KEYS.map(key => c.en?.[key] || '').join('\n');
-  return normalize(`${starlPT}\n${starlEN}`);
-}
-
 function countOccurrences(text, terms) {
-  return terms.reduce((accumulator, term) => {
-    const regex = new RegExp(term, 'g');
-    const matches = text.match(regex);
-    return accumulator + (matches ? matches.length : 0);
+  const normalizedText = normalize(text);
+  return terms.reduce((acc, term) => {
+    const regex = new RegExp(`\\b${normalize(term)}\\b`, 'g');
+    return acc + (normalizedText.match(regex) || []).length;
   }, 0);
 }
 
-function detectMetrics(text) {
-  const metricPattern = /(?:R\$|US\$|\$)\s?\d[\d.,]*|\d[\d.,]*\s?(?:%|pontos|pts|pp|dias?|semanas?|mes(?:es)?|anos?|clientes|usu[aá]rios|tickets|casos|equipes|lojas|squads|k|milhoes|milhões|bilhoes|bilhões)/gi;
-  const matches = text.match(metricPattern) || [];
-  if (process.env.DEBUG_METRICS === '1') {
-    console.log('metrics debug', matches.length);
-  }
-  const categories = {
-    financial: FINANCIAL_REGEX.test(text),
-    customer: CUSTOMER_METRIC_REGEX.test(text),
-    operational: OPERATIONAL_REGEX.test(text)
-  };
-  return { count: matches.length, categories };
+function hasTerm(text, terms) {
+  const normalizedText = normalize(text);
+  return terms.some(term => normalizedText.includes(normalize(term)));
 }
 
-function computeEuNosRatio(text) {
+// --- Funções de Pontuação por Dimensão (Lógica v3.2) ---
+
+function scoreNarrativeQuality(rawCase) {
+  const s_norm = normalize(rawCase.pt?.s || '');
+  const l_norm = normalize(rawCase.pt?.l || '');
+  let score = 0;
+
+  // 1. Hook (10 pontos)
+  const hasUrgency = HOOK_URGENCY_TERMS.some(term => s_norm.includes(term));
+  const hasStakes = HOOK_STAKES_REGEX.test(rawCase.pt?.s || '');
+  const hasConflict = HOOK_CONFLICT_TERMS.some(term => s_norm.includes(term));
+  
+  let hookScore = 0;
+  if (hasUrgency) hookScore += 4;
+  if (hasStakes) hookScore += 4;
+  if (hasConflict) hookScore += 2;
+  score += hookScore;
+
+  // 2. Transições (10 pontos)
+  let transitionCount = 0;
+  if (hasTerm(rawCase.pt?.t, TRANSITION_STARTERS.t)) transitionCount++;
+  if (hasTerm(rawCase.pt?.a, TRANSITION_STARTERS.a)) transitionCount++;
+  if (hasTerm(rawCase.pt?.r, TRANSITION_STARTERS.r)) transitionCount++;
+  if (hasTerm(rawCase.pt?.l, TRANSITION_STARTERS.l)) transitionCount++;
+  score += Math.min(transitionCount * 2.5, 10);
+
+  // 3. Mic-Drop (5 pontos)
+  const hasLearning = hasTerm(l_norm, ['aprendi', 'lição', 'aprendizado']);
+  const hasMechanism = hasTerm(l_norm, MIC_DROP_MECHANISM_TERMS);
+  const hasReplication = hasTerm(l_norm, MIC_DROP_REPLICATION_TERMS);
+  
+  if (hasLearning && hasMechanism && hasReplication) {
+    score += 5;
+  } else if (hasLearning && hasMechanism) {
+    score += 3;
+  } else if (hasLearning) {
+    score += 1;
+  }
+
+  return { score: Math.round(score), details: { hookScore, transitionCount } };
+}
+
+function scoreMetrics(rawCombined) {
+  const matches = rawCombined.match(METRIC_REGEX) || [];
+  const count = matches.length;
+  
+  // 1. Contagem de Métricas (15 pontos) - logarítmico
+  let countScore = 0;
+  if (count >= 12) countScore = 15;
+  else if (count >= 8) countScore = 12;
+  else if (count >= 5) countScore = 7;
+  else countScore = 0;
+
+  // 2. Categorias de Métricas (5 pontos)
+  let categoryScore = 0;
+  if (FINANCIAL_REGEX.test(rawCombined)) categoryScore += 2;
+  if (CUSTOMER_METRIC_REGEX.test(rawCombined)) categoryScore += 2;
+  if (OPERATIONAL_REGEX.test(rawCombined)) categoryScore += 1;
+
+  return { score: countScore + categoryScore, details: { count, hasFinancial: FINANCIAL_REGEX.test(rawCombined), hasCustomer: CUSTOMER_METRIC_REGEX.test(rawCombined), hasOperational: OPERATIONAL_REGEX.test(rawCombined) } };
+}
+
+function scoreLpContent(text, lpId) {
+  const keywords = LP_KEYWORDS[lpId];
+  if (!keywords) return { score: 0, details: { strongCount: 0, mediumCount: 0 } };
+
+  const strongCount = countOccurrences(text, keywords.strong);
+  const mediumCount = countOccurrences(text, keywords.medium);
+  
+  // Pontuação: 2 pontos por termo forte, 1 por termo médio, com teto.
+  const score = Math.min(strongCount * 2 + mediumCount * 1, 20);
+  
+  return { score, details: { strongCount, mediumCount } };
+}
+
+function scoreAmazonAspects(text) {
+  let score = 0;
+  const customerSignals = countOccurrences(text, CUSTOMER_TERMS);
+  const mechanismSignals = countOccurrences(text, MECHANISM_TERMS);
+  const conflictSignals = countOccurrences(text, CONFLICT_TERMS);
+
+  // Customer Obsession (5 pontos)
+  score += Math.min(customerSignals * 1.5, 5);
+  // Mechanisms (5 pontos)
+  score += Math.min(mechanismSignals * 1.5, 5);
+  // Conflict (5 pontos)
+  score += Math.min(conflictSignals * 2.5, 5);
+
+  return { score: Math.round(score), details: { customerSignals, mechanismSignals, conflictSignals } };
+}
+
+function scoreIndividualContribution(text) {
   const eu = (text.match(/\beu\b/g) || []).length + (text.match(/\bi\b/g) || []).length;
   const nos = (text.match(/\bn[oó]s\b/g) || []).length + (text.match(/\bwe\b/g) || []).length;
-  const total = eu + nos;
-  if (total === 0) return { ratio: 1, counts: { eu, nos } };
-  return { ratio: eu / total, counts: { eu, nos } };
+  const ratio = nos > 0 ? eu / nos : eu > 0 ? eu : 0;
+
+  let score = 0;
+  if (ratio >= 3) score = 10;
+  else if (ratio >= 2) score = 5;
+  else score = 0;
+
+  return { score, details: { ratio, eu, nos } };
 }
 
-function computeRecency(period) {
-  if (!period || typeof period !== 'string') {
-    return { monthsAgo: null, status: 'unknown' };
-  }
-
-  if (/present|atual|now|current/i.test(period)) {
-    return { monthsAgo: 0, status: 'current' };
-  }
-
-  const matches = Array.from(period.matchAll(/(\d{1,2})\/(\d{4})/g)).map(match => ({
-    month: Number(match[1]),
-    year: Number(match[2])
-  }));
-
-  let targetDate;
-  if (matches.length) {
-    const latest = matches.sort((a, b) => (a.year === b.year ? a.month - b.month : a.year - b.year)).at(-1);
-    targetDate = new Date(latest.year, (latest.month || 12) - 1, 1);
-  } else {
-    const yearMatches = period.match(/(19|20)\d{2}/g);
-    if (!yearMatches) {
-      return { monthsAgo: null, status: 'unknown' };
-    }
-    const latestYear = Math.max(...yearMatches.map(Number));
-    targetDate = new Date(latestYear, 11, 1);
-  }
-
-  const now = new Date();
-  const monthsAgo = (now.getFullYear() - targetDate.getFullYear()) * 12 + (now.getMonth() - targetDate.getMonth());
-
-  let status = 'fresh';
-  if (monthsAgo > 108) status = 'stale';
-  else if (monthsAgo > 84) status = 'aging';
-  else if (monthsAgo > 60) status = 'needs-refresh';
-
-  return { monthsAgo, status };
+function scoreStructure(lintResult) {
+  if (!lintResult.ok) return { score: 0 };
+  
+  let score = 10;
+  // Penaliza por warnings de paridade
+  const parityWarnings = lintResult.warnings.filter(w => w.includes('PT/EN')).length;
+  score -= parityWarnings * 2.5;
+  
+  return { score: Math.max(0, score) };
 }
 
-function hasTerm(text, terms) {
-  return terms.some(term => text.includes(term));
-}
 
-function transitionsScore(text) {
-  return TRANSITION_TERMS.filter(term => text.includes(term)).length;
-}
+// --- Função Principal de Análise ---
 
-function buildParitySnapshot(c) {
-  const stats = {};
-  for (const key of STARL_KEYS) {
-    const ptLen = (c.pt?.[key] || '').trim().length;
-    const enLen = (c.en?.[key] || '').trim().length;
-    const longer = Math.max(ptLen, enLen) || 1;
-    stats[key] = {
-      ptLen,
-      enLen,
-      deltaPct: Math.abs(ptLen - enLen) / longer
-    };
-  }
-  return stats;
-}
-
-export function analyzeHeuristics(rawCase = {}) {
+export function analyzeHeuristics(rawCase = {}, lintResult = { ok: true, issues: [], warnings: [] }) {
   const textPT = STARL_KEYS.map(key => rawCase.pt?.[key] || '').join("\n");
   const textEN = STARL_KEYS.map(key => rawCase.en?.[key] || '').join("\n");
   const rawCombined = `${textPT}\n${textEN}`;
   const unifiedText = normalize(rawCombined);
-
-  const metrics = detectMetrics(rawCombined);
-  const customerSignals = countOccurrences(unifiedText, CUSTOMER_TERMS);
-  const conflictSignals = countOccurrences(unifiedText, CONFLICT_TERMS) > 0;
-  const mechanismSignals = countOccurrences(unifiedText, MECHANISM_TERMS);
-  const hookSignals = hasTerm(normalize(rawCase.pt?.s || ''), HOOK_TERMS) || /\d+%|R\$|US\$|\$/.test(rawCase.pt?.s || '');
-  const transitionSignals = transitionsScore(normalize(textPT));
-  const micDropSignals = hasTerm(normalize(rawCase.pt?.l || ''), MICDROP_TERMS);
-  const ratioInfo = computeEuNosRatio(normalize(textPT));
-  const recency = computeRecency(rawCase.period);
-  const parity = buildParitySnapshot(rawCase);
   const lpId = rawCase.lp_id || "";
-  const biasSignals = countOccurrences(unifiedText, BIAS_SPEED_TERMS);
 
-  const dealbreakers = [];
-  const warnings = [];
+  // --- Coleta de Pontuações ---
+  const narrative = scoreNarrativeQuality(rawCase);
+  const metrics = scoreMetrics(rawCombined);
+  const lpContent = scoreLpContent(unifiedText, lpId);
+  const amazonAspects = scoreAmazonAspects(unifiedText);
+  const contribution = scoreIndividualContribution(unifiedText);
+  const structure = scoreStructure(lintResult);
+
+  // --- Cálculo do Score Final Ponderado ---
+  let totalScore = 0;
+  totalScore += narrative.score * 1.25; // 25% -> 25 pts
+  totalScore += metrics.score;          // 20% -> 20 pts
+  totalScore += lpContent.score;        // 20% -> 20 pts
+  totalScore += amazonAspects.score * (2/3) * 1.5; // 15% -> 15 pts
+  totalScore += contribution.score;     // 10% -> 10 pts
+  totalScore += structure.score;        // 10% -> 10 pts
+
+  // --- Geração de Dealbreakers e Warnings ---
+  const dealbreakers = [...lintResult.issues];
+  const warnings = [...lintResult.warnings];
   const positives = [];
 
-  if (customerSignals === 0) dealbreakers.push('Ausência de Customer Obsession');
-  else if (customerSignals < 3) warnings.push('Customer Obsession fraca (poucos sinais)');
-  else positives.push(`Customer Obsession forte (${customerSignals} menções relevantes)`);
-
-  if (metrics.count < 8) {
-    dealbreakers.push(`Menos de 8 métricas (${metrics.count})`);
+  if (metrics.details.count < 5) {
+    dealbreakers.push(`Métricas insuficientes: ${metrics.details.count} (mínimo 5)`);
+  } else if (metrics.details.count < 8) {
+    warnings.push(`Número de métricas baixo: ${metrics.details.count} (ideal 8+)`);
   } else {
-    positives.push(`Métricas robustas (${metrics.count})`);
+    positives.push(`Métricas robustas (${metrics.details.count})`);
   }
 
-  if (!metrics.categories.financial) warnings.push('Sem métricas financeiras claras');
-  if (!metrics.categories.customer) warnings.push('Sem métricas de cliente explícitas');
-  if (!metrics.categories.operational) warnings.push('Sem métricas operacionais explícitas');
+  if (amazonAspects.details.customerSignals === 0) {
+    dealbreakers.push('Ausência total de sinais de Customer Obsession');
+  } else if (amazonAspects.details.customerSignals < 3) {
+    warnings.push('Sinais de Customer Obsession fracos');
+  }
 
-  if (ratioInfo.ratio < 0.67) {
-    dealbreakers.push(`Ratio EU:NÓS abaixo de 2:1 (${formatRatio(ratioInfo.counts.eu, ratioInfo.counts.nos)})`);
-  } else if (ratioInfo.ratio < 0.75) {
-    warnings.push(`Ratio EU:NÓS abaixo da meta 3:1 (${formatRatio(ratioInfo.counts.eu, ratioInfo.counts.nos)})`);
+  if (contribution.details.ratio < 2) {
+    dealbreakers.push(`Ratio EU:NÓS crítico: ${contribution.details.ratio.toFixed(1)}:1 (mínimo 2:1)`);
+  } else if (contribution.details.ratio < 3) {
+    warnings.push(`Ratio EU:NÓS abaixo do ideal: ${contribution.details.ratio.toFixed(1)}:1 (ideal 3:1)`);
   } else {
-    positives.push(`Ratio EU:NÓS saudável (${formatRatio(ratioInfo.counts.eu, ratioInfo.counts.nos)})`);
+    positives.push(`Ratio EU:NÓS saudável (${contribution.details.ratio.toFixed(1)}:1)`);
   }
 
-  if (!conflictSignals) warnings.push('Sem conflito/resistência visível');
-  else positives.push('Conflito/endurecimento presente');
+  if (narrative.details.hookScore < 4) warnings.push('Hook inicial fraco (sem urgência ou stakes claros)');
+  if (narrative.details.transitionCount < 2) warnings.push('Faltam transições narrativas entre seções STARL');
+  if (amazonAspects.details.conflictSignals === 0) warnings.push('Nenhum sinal de conflito ou superação de resistência');
+  if (amazonAspects.details.mechanismSignals === 0) warnings.push('Nenhum mecanismo ou processo replicável mencionado');
 
-  if (mechanismSignals === 0) warnings.push('Mecanismos/processos não evidenciados');
-  else positives.push('Mecanismos/repeatability destacados');
-
-  if (!hookSignals) warnings.push('Hook inicial pode ser mais contundente');
-  if (transitionSignals < 2) warnings.push('Transições STAR(L) pouco claras');
-  if (!micDropSignals) warnings.push('Mic-drop/aprendizado forte não identificado');
-
-  // REGRA DESABILITADA: aceitar cases antigos com mecanismos replicados até hoje
-  // if (recency.status === 'stale') dealbreakers.push('Case muito antigo (>9 anos)');
-  // else if (recency.status === 'aging') warnings.push('Case antigo (>7 anos)');
-
-  for (const [key, snapshot] of Object.entries(parity)) {
-    if (snapshot.deltaPct > 0.35) {
-      warnings.push(`Paridade PT/EN desequilibrada em ${key}`);
-    }
+  // --- Determinação do Status Final ---
+  const finalScore = Math.max(0, Math.min(100, Math.round(totalScore)));
+  let status = 'Unknown';
+  if (dealbreakers.length > 0) {
+    status = 'KO';
+  } else if (finalScore >= 85) {
+    status = 'Ready';
+  } else if (finalScore >= 70) {
+    status = 'Needs-Polish';
+  } else {
+    status = 'Needs-Rewrite';
   }
-
-  if (lpId === 'bias_for_action') {
-    if (biasSignals < 3) warnings.push('Bias for Action com poucos sinais de velocidade/risco calculado');
-    else positives.push(`Bias for Action robusto (${biasSignals} sinais de velocidade/risco)`);
-  }
-  let score = 50;
-  score += Math.min(metrics.count, 12) * 3;
-  score += Math.min(customerSignals, 6) * 2;
-  score += mechanismSignals > 2 ? 6 : mechanismSignals > 0 ? 3 : 0;
-  score += conflictSignals ? 6 : 0;
-  score += hookSignals ? 3 : 0;
-  score += micDropSignals ? 3 : 0;
-  score += Math.min(transitionSignals, 4) * 1.5;
-  if (lpId === 'bias_for_action') {
-    score += Math.min(biasSignals, 5) * 2;
-  }
-
-  score -= warnings.length * 5;
-  score -= dealbreakers.length * 40;
-
-  score = Math.max(0, Math.min(100, Math.round(score)));
-
-  const status = dealbreakers.length > 0 ? 'KO' : score >= 85 ? 'Ready' : score >= 70 ? 'Needs-Polish' : 'Needs-Rewrite';
 
   return {
-    score,
+    score: finalScore,
     status,
     dealbreakers,
     warnings,
     positives,
-    metricsCount: metrics.count,
-    metricCategories: metrics.categories,
-    customerSignals,
-    conflictSignals,
-    mechanismSignals,
-    ratio: ratioInfo,
-    recency,
-    parity,
-    hookSignals,
-    transitionSignals,
-    micDropSignals,
-    biasSignals
+    breakdown: {
+      narrative: narrative.score,
+      metrics: metrics.score,
+      lpContent: lpContent.score,
+      amazonAspects: amazonAspects.score,
+      contribution: contribution.score,
+      structure: structure.score,
+    },
+    details: {
+      metrics: metrics.details,
+      contribution: contribution.details,
+      amazonAspects: amazonAspects.details,
+      lpContent: lpContent.details,
+    }
   };
-}function formatRatio(eu, nos) {
-  if (nos === 0) return `${eu}:0`;
-  return `${eu}:${nos}`;
 }
 
 
