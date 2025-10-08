@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-08T19:46:26.685Z",
+  "run_at": "2025-10-08T19:58:43.365Z",
   "data_dir": "src/data",
   "total_cases": 80,
   "filtered_cases": 5,
@@ -181,90 +181,53 @@
       "case_id": "sefaz-ecage-portal",
       "title_pt": "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção",
       "title_en": "Turned e-CAGE into a Portal with 94% SLA Compliance and 100% Adoption",
-      "status": "Needs-Rewrite",
+      "status": "Needs-Polish",
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": [
-          "desequil�brio PT/EN em 'r' (diferen�a >25%)"
-        ]
+        "warnings": []
       },
       "heur": {
-        "score": 64,
-        "status": "Needs-Rewrite",
+        "score": 84,
+        "status": "Needs-Polish",
         "dealbreakers": [],
-        "warnings": [
-          "desequil�brio PT/EN em 'r' (diferen�a >25%)",
-          "Hook inicial fraco (sem urgência ou stakes claros)",
-          "Faltam transições narrativas entre seções STARL"
-        ],
+        "warnings": [],
         "positives": [
-          "Métricas robustas (29)",
-          "Ratio EU:NÓS saudável (18.0:1)"
+          "Métricas robustas (50)",
+          "Ratio EU:NÓS saudável (33.0:1)"
         ],
         "breakdown": {
-          "narrative": 6,
+          "narrative": 12,
           "metrics": 20,
-          "lpContent": 3,
-          "amazonAspects": 13,
+          "lpContent": 10,
+          "amazonAspects": 15,
           "contribution": 10,
-          "structure": 7.5
+          "structure": 10
         },
         "details": {
           "metrics": {
-            "count": 29,
+            "count": 50,
             "hasFinancial": true,
             "hasCustomer": true,
             "hasOperational": true
           },
           "contribution": {
-            "ratio": 18,
-            "eu": 18,
-            "nos": 0
+            "ratio": 33,
+            "eu": 33,
+            "nos": 1
           },
           "amazonAspects": {
             "customerSignals": 9,
-            "mechanismSignals": 2,
-            "conflictSignals": 3
+            "mechanismSignals": 6,
+            "conflictSignals": 6
           },
           "lpContent": {
-            "strongCount": 0,
-            "mediumCount": 3
+            "strongCount": 4,
+            "mediumCount": 2
           }
         }
       },
-      "changes": [
-        {
-          "severity": "suggestion",
-          "topic": "hook",
-          "message": "[pt] Hook (S) reescrito para maior impacto.",
-          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
-        },
-        {
-          "severity": "suggestion",
-          "topic": "hook",
-          "message": "[en] Hook (S) reescrito para maior impacto.",
-          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "desequil�brio PT/EN em 'r' (diferen�a >25%)",
-          "action": "Refinar narrativa conforme alerta."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Hook inicial fraco (sem urgência ou stakes claros)",
-          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
-        },
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Faltam transições narrativas entre seções STARL",
-          "action": "Refinar narrativa conforme alerta."
-        }
-      ]
+      "changes": []
     },
     {
       "lp_id": "deliver_results",
