@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T22:26:16.531Z",
+  "generated_at": "2025-10-08T23:07:16.789Z",
   "total_cases": 71,
   "leadership_principles": [
     {
@@ -385,8 +385,8 @@
           "period": "01/2019-10/2019",
           "isTopCase": true,
           "metadata": {
-            "word_count_pt": 392,
-            "word_count_en": 332,
+            "word_count_pt": 539,
+            "word_count_en": 510,
             "fup_count": 10,
             "has_learning": true,
             "sections_present": [
@@ -410,8 +410,8 @@
           "period": "05/2015-06/2016",
           "isTopCase": false,
           "metadata": {
-            "word_count_pt": 475,
-            "word_count_en": 427,
+            "word_count_pt": 513,
+            "word_count_en": 490,
             "fup_count": 10,
             "has_learning": true,
             "sections_present": [
@@ -435,8 +435,8 @@
           "period": "06/2022-12/2022",
           "isTopCase": false,
           "metadata": {
-            "word_count_pt": 242,
-            "word_count_en": 220,
+            "word_count_pt": 429,
+            "word_count_en": 408,
             "fup_count": 10,
             "has_learning": true,
             "sections_present": [
@@ -460,8 +460,8 @@
           "period": "03/2020-08/2020",
           "isTopCase": false,
           "metadata": {
-            "word_count_pt": 223,
-            "word_count_en": 205,
+            "word_count_pt": 535,
+            "word_count_en": 497,
             "fup_count": 10,
             "has_learning": true,
             "sections_present": [
@@ -867,8 +867,8 @@
           "period": "07/2016-05/2018",
           "isTopCase": false,
           "metadata": {
-            "word_count_pt": 431,
-            "word_count_en": 409,
+            "word_count_pt": 637,
+            "word_count_en": 620,
             "fup_count": 10,
             "has_learning": true,
             "sections_present": [
@@ -1000,8 +1000,8 @@
           "period": "07/2024–05/2025",
           "isTopCase": true,
           "metadata": {
-            "word_count_pt": 388,
-            "word_count_en": 408,
+            "word_count_pt": 653,
+            "word_count_en": 619,
             "fup_count": 10,
             "has_learning": true,
             "sections_present": [
