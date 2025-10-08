@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-08T02:55:05.951Z",
+  "run_at": "2025-10-08T03:09:16.561Z",
   "data_dir": "src/data",
   "total_cases": 80,
   "filtered_cases": 80,
@@ -3265,21 +3265,21 @@
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (63 menções relevantes)",
-          "Métricas robustas (45)",
+          "Customer Obsession forte (81 menções relevantes)",
+          "Métricas robustas (55)",
           "Ratio EU:NÓS saudável (6:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 45,
+        "metricsCount": 55,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 63,
+        "customerSignals": 81,
         "conflictSignals": true,
-        "mechanismSignals": 8,
+        "mechanismSignals": 13,
         "ratio": {
           "ratio": 1,
           "counts": {
@@ -3293,29 +3293,29 @@
         },
         "parity": {
           "s": {
-            "ptLen": 893,
-            "enLen": 798,
-            "deltaPct": 0.10638297872340426
+            "ptLen": 1506,
+            "enLen": 1381,
+            "deltaPct": 0.08300132802124834
           },
           "t": {
-            "ptLen": 687,
-            "enLen": 624,
-            "deltaPct": 0.09170305676855896
+            "ptLen": 962,
+            "enLen": 873,
+            "deltaPct": 0.09251559251559252
           },
           "a": {
-            "ptLen": 1768,
-            "enLen": 1659,
-            "deltaPct": 0.06165158371040724
+            "ptLen": 2019,
+            "enLen": 1911,
+            "deltaPct": 0.05349182763744428
           },
           "r": {
-            "ptLen": 1093,
-            "enLen": 965,
-            "deltaPct": 0.1171088746569076
+            "ptLen": 1248,
+            "enLen": 1104,
+            "deltaPct": 0.11538461538461539
           },
           "l": {
-            "ptLen": 577,
-            "enLen": 538,
-            "deltaPct": 0.06759098786828423
+            "ptLen": 841,
+            "enLen": 784,
+            "deltaPct": 0.06777645659928656
           }
         },
         "hookSignals": true,
@@ -3345,26 +3345,26 @@
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (46 menções relevantes)",
-          "Métricas robustas (48)",
-          "Ratio EU:NÓS saudável (9:2)",
+          "Customer Obsession forte (58 menções relevantes)",
+          "Métricas robustas (63)",
+          "Ratio EU:NÓS saudável (9:3)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 48,
+        "metricsCount": 63,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": false
         },
-        "customerSignals": 46,
+        "customerSignals": 58,
         "conflictSignals": true,
-        "mechanismSignals": 19,
+        "mechanismSignals": 31,
         "ratio": {
-          "ratio": 0.8181818181818182,
+          "ratio": 0.75,
           "counts": {
             "eu": 9,
-            "nos": 2
+            "nos": 3
           }
         },
         "recency": {
@@ -3373,29 +3373,29 @@
         },
         "parity": {
           "s": {
-            "ptLen": 846,
-            "enLen": 709,
-            "deltaPct": 0.16193853427895982
+            "ptLen": 1544,
+            "enLen": 1361,
+            "deltaPct": 0.11852331606217617
           },
           "t": {
-            "ptLen": 716,
-            "enLen": 625,
-            "deltaPct": 0.1270949720670391
+            "ptLen": 1012,
+            "enLen": 886,
+            "deltaPct": 0.12450592885375494
           },
           "a": {
-            "ptLen": 1872,
-            "enLen": 1738,
-            "deltaPct": 0.07158119658119658
+            "ptLen": 2061,
+            "enLen": 1932,
+            "deltaPct": 0.06259097525473072
           },
           "r": {
-            "ptLen": 1119,
-            "enLen": 1047,
-            "deltaPct": 0.064343163538874
+            "ptLen": 1272,
+            "enLen": 1182,
+            "deltaPct": 0.07075471698113207
           },
           "l": {
-            "ptLen": 398,
-            "enLen": 373,
-            "deltaPct": 0.06281407035175879
+            "ptLen": 643,
+            "enLen": 602,
+            "deltaPct": 0.06376360808709176
           }
         },
         "hookSignals": true,
@@ -3424,21 +3424,21 @@
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (27 menções relevantes)",
-          "Métricas robustas (40)",
+          "Customer Obsession forte (42 menções relevantes)",
+          "Métricas robustas (56)",
           "Ratio EU:NÓS saudável (20:5)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 40,
+        "metricsCount": 56,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 27,
+        "customerSignals": 42,
         "conflictSignals": true,
-        "mechanismSignals": 8,
+        "mechanismSignals": 10,
         "ratio": {
           "ratio": 0.8,
           "counts": {
@@ -3452,29 +3452,29 @@
         },
         "parity": {
           "s": {
-            "ptLen": 892,
-            "enLen": 807,
-            "deltaPct": 0.0952914798206278
+            "ptLen": 1616,
+            "enLen": 1474,
+            "deltaPct": 0.08787128712871287
           },
           "t": {
-            "ptLen": 688,
-            "enLen": 629,
-            "deltaPct": 0.08575581395348837
+            "ptLen": 985,
+            "enLen": 910,
+            "deltaPct": 0.07614213197969544
           },
           "a": {
-            "ptLen": 1374,
-            "enLen": 1267,
-            "deltaPct": 0.07787481804949054
+            "ptLen": 1583,
+            "enLen": 1478,
+            "deltaPct": 0.06632975363234365
           },
           "r": {
-            "ptLen": 977,
-            "enLen": 889,
-            "deltaPct": 0.09007164790174002
+            "ptLen": 1178,
+            "enLen": 1082,
+            "deltaPct": 0.08149405772495756
           },
           "l": {
-            "ptLen": 404,
-            "enLen": 347,
-            "deltaPct": 0.14108910891089108
+            "ptLen": 706,
+            "enLen": 640,
+            "deltaPct": 0.09348441926345609
           }
         },
         "hookSignals": true,
@@ -5314,35 +5314,42 @@
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": []
+        "warnings": [
+          "desequil�brio PT/EN em 's' (diferen�a >25%)",
+          "desequil�brio PT/EN em 't' (diferen�a >25%)",
+          "desequil�brio PT/EN em 'r' (diferen�a >25%)",
+          "desequil�brio PT/EN em 'l' (diferen�a >25%)"
+        ]
       },
       "heur": {
-        "score": 100,
+        "score": 92,
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
           "Sem conflito/resistência visível",
-          "Transições STAR(L) pouco claras"
+          "Transições STAR(L) pouco claras",
+          "Paridade PT/EN desequilibrada em s",
+          "Paridade PT/EN desequilibrada em t"
         ],
         "positives": [
-          "Customer Obsession forte (11 menções relevantes)",
-          "Métricas robustas (40)",
-          "Ratio EU:NÓS saudável (12:1)",
+          "Customer Obsession forte (22 menções relevantes)",
+          "Métricas robustas (51)",
+          "Ratio EU:NÓS saudável (14:1)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 40,
+        "metricsCount": 51,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 11,
+        "customerSignals": 22,
         "conflictSignals": false,
-        "mechanismSignals": 29,
+        "mechanismSignals": 35,
         "ratio": {
-          "ratio": 0.9230769230769231,
+          "ratio": 0.9333333333333333,
           "counts": {
-            "eu": 12,
+            "eu": 14,
             "nos": 1
           }
         },
@@ -5352,35 +5359,35 @@
         },
         "parity": {
           "s": {
-            "ptLen": 425,
+            "ptLen": 1085,
             "enLen": 406,
-            "deltaPct": 0.04470588235294118
+            "deltaPct": 0.6258064516129033
           },
           "t": {
-            "ptLen": 260,
+            "ptLen": 522,
             "enLen": 257,
-            "deltaPct": 0.011538461538461539
+            "deltaPct": 0.5076628352490421
           },
           "a": {
-            "ptLen": 1196,
+            "ptLen": 1398,
             "enLen": 1137,
-            "deltaPct": 0.04933110367892977
+            "deltaPct": 0.18669527896995708
           },
           "r": {
-            "ptLen": 854,
+            "ptLen": 1050,
             "enLen": 787,
-            "deltaPct": 0.07845433255269321
+            "deltaPct": 0.25047619047619046
           },
           "l": {
-            "ptLen": 820,
+            "ptLen": 1091,
             "enLen": 774,
-            "deltaPct": 0.05609756097560976
+            "deltaPct": 0.29055912007332724
           }
         },
         "hookSignals": true,
         "transitionSignals": 1,
         "micDropSignals": true,
-        "biasSignals": 10
+        "biasSignals": 16
       },
       "changes": []
     },
@@ -5482,21 +5489,21 @@
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Customer Obsession forte (28 menções relevantes)",
-          "Métricas robustas (45)",
+          "Customer Obsession forte (52 menções relevantes)",
+          "Métricas robustas (56)",
           "Ratio EU:NÓS saudável (21:1)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 45,
+        "metricsCount": 56,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 28,
+        "customerSignals": 52,
         "conflictSignals": true,
-        "mechanismSignals": 7,
+        "mechanismSignals": 8,
         "ratio": {
           "ratio": 0.9545454545454546,
           "counts": {
@@ -5510,35 +5517,35 @@
         },
         "parity": {
           "s": {
-            "ptLen": 534,
-            "enLen": 492,
-            "deltaPct": 0.07865168539325842
+            "ptLen": 1192,
+            "enLen": 1106,
+            "deltaPct": 0.07214765100671142
           },
           "t": {
-            "ptLen": 423,
-            "enLen": 358,
-            "deltaPct": 0.1536643026004728
+            "ptLen": 664,
+            "enLen": 590,
+            "deltaPct": 0.11144578313253012
           },
           "a": {
-            "ptLen": 1254,
-            "enLen": 1272,
-            "deltaPct": 0.014150943396226415
+            "ptLen": 1464,
+            "enLen": 1469,
+            "deltaPct": 0.0034036759700476512
           },
           "r": {
-            "ptLen": 1131,
-            "enLen": 1088,
-            "deltaPct": 0.03801945181255526
+            "ptLen": 1319,
+            "enLen": 1255,
+            "deltaPct": 0.04852160727824109
           },
           "l": {
-            "ptLen": 1163,
-            "enLen": 1164,
-            "deltaPct": 0.000859106529209622
+            "ptLen": 1402,
+            "enLen": 1390,
+            "deltaPct": 0.008559201141226819
           }
         },
         "hookSignals": true,
         "transitionSignals": 1,
         "micDropSignals": true,
-        "biasSignals": 0
+        "biasSignals": 1
       },
       "changes": []
     },
@@ -5631,35 +5638,40 @@
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": []
+        "warnings": [
+          "desequil�brio PT/EN em 's' (diferen�a >25%)",
+          "desequil�brio PT/EN em 't' (diferen�a >25%)"
+        ]
       },
       "heur": {
-        "score": 100,
+        "score": 92,
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
           "Sem conflito/resistência visível",
-          "Transições STAR(L) pouco claras"
+          "Transições STAR(L) pouco claras",
+          "Paridade PT/EN desequilibrada em s",
+          "Paridade PT/EN desequilibrada em t"
         ],
         "positives": [
-          "Customer Obsession forte (14 menções relevantes)",
-          "Métricas robustas (41)",
-          "Ratio EU:NÓS saudável (13:1)",
+          "Customer Obsession forte (16 menções relevantes)",
+          "Métricas robustas (46)",
+          "Ratio EU:NÓS saudável (17:1)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 41,
+        "metricsCount": 46,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 14,
+        "customerSignals": 16,
         "conflictSignals": false,
-        "mechanismSignals": 20,
+        "mechanismSignals": 22,
         "ratio": {
-          "ratio": 0.9285714285714286,
+          "ratio": 0.9444444444444444,
           "counts": {
-            "eu": 13,
+            "eu": 17,
             "nos": 1
           }
         },
@@ -5669,35 +5681,35 @@
         },
         "parity": {
           "s": {
-            "ptLen": 1111,
+            "ptLen": 1832,
             "enLen": 1079,
-            "deltaPct": 0.0288028802880288
+            "deltaPct": 0.41102620087336245
           },
           "t": {
-            "ptLen": 593,
+            "ptLen": 895,
             "enLen": 580,
-            "deltaPct": 0.021922428330522766
+            "deltaPct": 0.35195530726256985
           },
           "a": {
-            "ptLen": 1606,
+            "ptLen": 1825,
             "enLen": 1549,
-            "deltaPct": 0.03549190535491906
+            "deltaPct": 0.15123287671232877
           },
           "r": {
-            "ptLen": 1257,
+            "ptLen": 1446,
             "enLen": 1219,
-            "deltaPct": 0.030230708035003977
+            "deltaPct": 0.156984785615491
           },
           "l": {
-            "ptLen": 1024,
+            "ptLen": 1285,
             "enLen": 1006,
-            "deltaPct": 0.017578125
+            "deltaPct": 0.2171206225680934
           }
         },
         "hookSignals": true,
         "transitionSignals": 1,
         "micDropSignals": true,
-        "biasSignals": 3
+        "biasSignals": 5
       },
       "changes": []
     },

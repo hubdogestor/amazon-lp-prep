@@ -1,11 +1,11 @@
 # scan_summary.md
-Gerado em: 2025-10-08T02:55:05.951Z
+Gerado em: 2025-10-08T03:09:16.561Z
 
 - Casos avaliados: 80
 - Ready: 69 | Needs-Polish: 1 | Needs-Rewrite: 0 | KO: 0 | Lint blockers: 10
-- Score mÃ©dio: 86.7
-- MÃ©tricas por case (mÃ©dia): 29.0
+- Score mÃ©dio: 86.5
+- MÃ©tricas por case (mÃ©dia): 29.8
 - Ratio EU:NÃ“S mÃ©dio: 0.95
-- Bias signals (media): 2.3
+- Bias signals (media): 2.4
 - Dealbreakers totais: 20
-- Warnings totais: 164
+- Warnings totais: 168
