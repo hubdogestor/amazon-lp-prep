@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-08T09:53:41.396Z",
+  "run_at": "2025-10-08T09:59:36.317Z",
   "data_dir": "src/data",
   "total_cases": 80,
   "filtered_cases": 80,
@@ -177,9 +177,9 @@
         "dealbreakers": [],
         "warnings": [],
         "positives": [
-          "Customer Obsession forte (30 menções relevantes)",
+          "Customer Obsession forte (27 menções relevantes)",
           "Métricas robustas (24)",
-          "Ratio EU:NÓS saudável (4:0)",
+          "Ratio EU:NÓS saudável (2:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -189,13 +189,13 @@
           "customer": true,
           "operational": true
         },
-        "customerSignals": 30,
+        "customerSignals": 27,
         "conflictSignals": true,
-        "mechanismSignals": 3,
+        "mechanismSignals": 5,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 4,
+            "eu": 2,
             "nos": 0
           }
         },
@@ -205,29 +205,29 @@
         },
         "parity": {
           "s": {
-            "ptLen": 466,
-            "enLen": 400,
-            "deltaPct": 0.14163090128755365
+            "ptLen": 503,
+            "enLen": 441,
+            "deltaPct": 0.12326043737574553
           },
           "t": {
-            "ptLen": 628,
-            "enLen": 573,
-            "deltaPct": 0.0875796178343949
+            "ptLen": 429,
+            "enLen": 389,
+            "deltaPct": 0.09324009324009325
           },
           "a": {
-            "ptLen": 1007,
-            "enLen": 952,
-            "deltaPct": 0.05461767626613704
+            "ptLen": 1103,
+            "enLen": 1045,
+            "deltaPct": 0.05258386219401632
           },
           "r": {
-            "ptLen": 392,
-            "enLen": 359,
-            "deltaPct": 0.08418367346938775
+            "ptLen": 419,
+            "enLen": 392,
+            "deltaPct": 0.06443914081145585
           },
           "l": {
-            "ptLen": 290,
-            "enLen": 271,
-            "deltaPct": 0.06551724137931035
+            "ptLen": 470,
+            "enLen": 435,
+            "deltaPct": 0.07446808510638298
           }
         },
         "hookSignals": true,

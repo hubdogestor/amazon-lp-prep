@@ -1,5 +1,5 @@
 # scan_summary.md
-Gerado em: 2025-10-08T09:53:41.396Z
+Gerado em: 2025-10-08T09:59:36.317Z
 
 - Casos avaliados: 80
 - Ready: 69 | Needs-Polish: 1 | Needs-Rewrite: 0 | KO: 0 | Lint blockers: 10
