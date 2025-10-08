@@ -24,9 +24,6 @@ npm test
 
 # Build for production
 npm run build
-
-# Run audit
-npm run audit:final
 ```
 
 ---
@@ -104,17 +101,9 @@ amazon-lp-prep/
 │   │   └── [16 LP folders]/
 │   ├── hooks/            # Custom React hooks
 │   └── utils/            # Utility functions
-├── case-validation/
-│   ├── audit-final.mjs   # Main audit tool
-│   ├── analyzer3/        # Motor 3.0 (future)
-│   └── reports/          # Audit outputs
-├── docs/
-│   ├── CHECKLIST_VISUAL_v2.md
-│   ├── REVIEW_TRACKER.md
-│   └── templates/
 ├── archives/
-│   ├── phases/           # Phase documentation
 │   └── backups/          # Version backups
+├── base-conhecimento/    # Reference materials
 ├── public/               # Static assets
 └── dist/                 # Production build
 ```
@@ -140,20 +129,11 @@ npm run test:coverage    # Generate coverage report
 ### Quality Checks
 ```bash
 npm run lint             # Run ESLint
-npm run audit:final      # Run comprehensive audit
-npm run audit:complete   # Run complete audit with details
 ```
 
 ### Deployment
 ```bash
 npm run deploy           # Build + deploy to GitHub Pages
-```
-
-### Validation (Motor 3.0)
-```bash
-npm run validate:cases   # Validate all cases
-npm run refine:lp        # Refine specific LP
-npm run refine:one       # Refine single case
 ```
 
 ---
@@ -216,43 +196,17 @@ Coverage:    100% well-mapped cases
 ## 📚 Documentation
 
 ### Essential Docs
-- [`AGENTS.md`](AGENTS.md) - Primary AI agent instructions
-- [`SYNTHESIS.md`](SYNTHESIS.md) - Motor 3.0 analysis base
+- [`README.md`](README.md) - This file
 - [`CHANGELOG.md`](CHANGELOG.md) - Complete version history
-- [`PHASE5_PROJECT_COMPLETE.md`](PHASE5_PROJECT_COMPLETE.md) - Final status
-
-### Templates
-- `docs/MOTOR_DE_ANALISE_3.0_template.md` - Analysis template
-- `docs/SYNTHESIS_template.md` - Synthesis template
-- `docs/CHECKLIST_VISUAL_v2.md` - Visual checklist
-- `docs/REVIEW_TRACKER.md` - Review tracking
 
 ### Archived
-- `archives/phases/` - Phase documentation (0-5)
-- `archives/backups/` - Version backups
+- `archives/backups/v3.1.0/` - Version 3.1.0 backup
 
 ---
 
 ## 🔍 Audit System
 
-### Run Audits
-```bash
-# Quick audit (summary)
-npm run audit:final
-
-# Complete audit (detailed)
-npm run audit:complete
-```
-
-### Audit Output
-```
-✅ Bem mapeados (≥3 Q):   68 (100%)
-✅ Insuficientes (<3 Q):  0 (0%)
-✅ Não mapeados (0 Q):    0 (0%)
-
-TOP CASES:
-✅ Bem mapeados (≥3 Q):   15 (100%)
-```
+Manual audit can be done by reviewing the `src/data/questionsToCasesMapping.js` file to ensure all cases have proper mappings.
 
 ---
 
@@ -264,14 +218,12 @@ TOP CASES:
 3. Run `npm test` (ensure passing)
 4. Run `npm run lint` (fix errors)
 5. Run `npm run build` (verify build)
-6. Run `npm run audit:final` (check coverage)
-7. Commit and push
+6. Commit and push
 
 ### Code Quality Standards
 - All tests must pass
 - ESLint errors must be fixed
 - Build must succeed
-- Audit must show 100% coverage
 - PT/EN parity in all cases
 
 ---
@@ -287,24 +239,6 @@ Private project - All rights reserved
 **Leonardo Menezes**  
 Principal Engineer | Product Manager  
 Preparing for Amazon Leadership Principles Interview
-
----
-
-## 🎯 Next Steps
-
-### Motor 3.0 (Optional Enhancement)
-The analyzer3 system is available in `case-validation/analyzer3/` for:
-- Automated preview generation
-- Batch refinement operations
-- Quality scoring automation
-- STAR(L) structure validation
-
-### Usage
-```bash
-npm run validate:cases    # Validate all 68 cases
-npm run refine:lp         # Refine specific LP
-npm run refine:one        # Refine single case
-```
 
 ---
 
