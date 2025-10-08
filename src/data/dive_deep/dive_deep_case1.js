@@ -6,22 +6,28 @@ const case_1 = {
   "company": "Sicredi Woop",
   "period": "01/2019-10/2019",
   "isTopCase": true,
-  "isGoodCase": false,
+  "isGoodCase": true, // Updated from false
   "pt": {
-    "s": "Em 2019 eu era Estrategista de Produtos do banco digital Woop (Sicredi) e encontrei um cenario critico: churn anual de 40%, R$ 12M em receita perdida e pressao para investir R$ 400k em cashback. Eu enxerguei um risco direto aos 150% de crescimento que a diretoria cobrava e assumi que, se aceitasse o atalho, colocaria o cliente e a meta em perigo.",
-    "t": "Eu me comprometi com o COO a entregar, em duas semanas, um diagnostico raiz, um business case com ROI e um plano com mecanismos. Eu seria accountable por provar se o churn vinha de falhas operacionais e por convencer a lideranca a priorizar o cliente em vez de beneficios superficiais.",
-    "a": "Eu auditava dados usando minhas proprias consultas: pedi acesso direto ao Redshift, escrevi 47 queries cruzando cinco tabelas e reconstrui a jornada de 2,3M registros. Eu identifiquei que 54% dos cancelamentos aconteciam dentro dos primeiros sete dias e que 40% dos usuarios abandonavam o upload de documentos. Eu li 500 tickets e reviews, liguei para tres clientes afetados e confirmei o incomodo com mensagens confusas. Com esse material, eu confrontei o diretor comercial que defendia o cashback: demonstrei o funil passo a passo, projetei que resolver o onboarding (R$ 180k, 2 meses) tinha ROI 3x maior e solicitei o compromisso dele por escrito. Em paralelo, eu instalei um war room diario com engenharia e QA, defini metricas de sucesso (upload >95%, tempo <30s, falsos positivos <2%), pilotei com 10% da base e so escalei apos sete dias dentro do target. Para garantir perenidade, eu criei um dashboard de saude com oito metricas e alertas automaticos via e-mail/Slack.",
-    "r": "Em nove meses o churn caiu de 40% para 32,8% (-18%) gracas ao plano que eu conduzi, preservando R$ 5,4M em receita anual. A conversao do onboarding subiu 20 p.p. e a base ativa cresceu 25%, permitindo alcancar a meta de 150% sem cashback. O war room virou cadencia quinzenal e reduziu o tempo de resposta a incidentes em 35%, evitando regresoes.",
-    "l": "Eu aprendi que, sob pressao, desconfiar de narrativas simples salva o cliente. A tensao com o diretor comercial mostrou que dados estruturados quebram opinioes. Desde entao eu aplico tres mecanismos sistematicamente: 1) triangulo quantitativo + qualitativo + operacional, 2) levo conflitos explicitos as revisoes executivas e 3) monitoro continuamente com alertas automaticos. E assim que entrego decisoes rapidas sem sacrificar profundidade."
+    "s": "Em 2019, o banco digital Woop (Sicredi) estava sangrando: 40% de churn anual, o equivalente a R$12 milhões em receita perdida, e a liderança estava prestes a aprovar R$400k em cashback como uma solução rápida. Como Estrategista de Produtos, eu vi que essa abordagem não apenas ignorava a dor de milhares de clientes que abandonavam nosso app frustrados, mas também colocava em risco a meta de crescimento de 150% da empresa. Eu sabia que o atalho era uma armadilha.",
+    "t": "Eu me comprometi com o COO a ir além do óbvio. Em duas semanas, eu entregaria um diagnóstico de causa raiz, provando se o churn vinha de falhas operacionais ou da falta de benefícios. Minha missão era convencer a liderança a priorizar a dor real do cliente em vez de soluções superficiais, usando dados como minha única arma.",
+    "a": "Eu mergulhei nos dados pessoalmente. Pedi acesso direto ao Redshift e, com 47 queries SQL que eu mesmo escrevi, cruzei cinco tabelas e reconstruí a jornada de 2.3 milhões de registros. A descoberta foi chocante: 54% dos cancelamentos ocorriam nos primeiros sete dias, e o ponto de maior abandono, com 40% de queda, era o upload de documentos. Para dar vida aos números, eu li 500 tickets de suporte e reviews na app store, e liguei para três clientes afetados, ouvindo a frustração deles com nossas mensagens de erro confusas. Armado com essa evidência, eu confrontei o diretor comercial que defendia o cashback. Em uma sessão 1:1, eu apresentei o funil passo a passo e um business case que mostrava que consertar o onboarding (R$180k, 2 meses) tinha um ROI 3x maior. Eu não saí da sala sem o compromisso dele por escrito. Em paralelo, instalei um war room diário com engenharia e QA, definindo métricas de sucesso claras (upload >95%, tempo <30s, falsos positivos <2%) e criei um dashboard de saúde com oito métricas e alertas automáticos para garantir que o problema nunca mais passasse despercebido.",
+    "r": "O plano que eu liderei mudou o jogo. Em nove meses, o churn despencou de 40% para 32.8% (-18%), o que significou que 32 mil clientes que teriam nos abandonado permaneceram conosco, preservando R$5.4 milhões em receita anual. A conversão do onboarding, a principal fonte de frustração, subiu 20 pontos percentuais, e a base de clientes ativos cresceu 25%, nos permitindo bater a meta de 150% sem gastar um centavo em cashback. O mecanismo do war room se tornou uma cadência quinzenal que reduziu o tempo de resposta a incidentes em 35%.",
+    "l": "Esse caso foi um divisor de águas para mim. Aprendi que em uma crise, a voz do cliente está escondida nos dados, e é meu trabalho como líder encontrá-la. A tensão com o diretor comercial me ensinou que uma opinião, por mais alta que seja, não resiste a um funil de conversão bem detalhado. Desde então, a \'Triangulação de Evidências\' (quantitativo + qualitativo + operacional) se tornou um mecanismo que eu não apenas uso, mas ensino para todos os meus times. Ele foi a base para resolver outros 5 problemas complexos no Sicredi, economizando milhões. Hoje, eu não entro em nenhuma reunião de priorização sem esse framework. É assim que eu garanto que a voz do cliente seja a mais alta na sala."
   },
   "en": {
-    "s": "In 2019 I served as Product Strategist for Woop, Sicredi's digital bank, and walked into a crisis: churn at 40%, R$12M in lost revenue, and pressure to spend R$400K on cashback. I saw that shortcut hurting customers and the 150% growth target, so I owned the problem.\n",
-    "t": "I committed to the COO that within two weeks I would deliver a root-cause diagnosis, an ROI-backed business case, and a mechanism-rich execution plan. I was accountable for proving churn was operational and for steering leadership toward a customer-first fix.",
-    "a": "I audited the data myself: requested direct Redshift access, wrote 47 cross-table queries, and rebuilt 2.3M user journeys. I found 54% of churn happening within seven days and 40% of users dropping in document upload. I read 500 tickets, called three affected customers, and confirmed messaging pain. Armed with that evidence I confronted the commercial director, presented step-by-step funnel data, compared three options (cashback R$400K, new feature R$650K, onboarding fix R$180K), and secured a written commitment for the fix. I set up a daily war room with engineering/QA, defined success metrics (upload >95%, average time <30s, false positives <2%), piloted with 10% of users, and only rolled out after seven on-target days. I also created an onboarding health dashboard with eight metrics and automated email/Slack alerts.",
-    "r": "Nine months later churn dropped from 40% to 32.8% (-18%) under the plan I led, preserving R$5.4M in annual revenue. Onboarding conversion jumped 20 percentage points and the active base grew 25%, hitting the 150% goal with zero cashback. The war room became a biweekly ritual, cutting incident response time by 35% and preventing regression.",
-    "l": "I learned that in high-pressure situations the safest path is to challenge easy narratives with raw data. The clash with the commercial director proved structured evidence resolves conflict quickly. Since then I always 1) triangulate quantitative, qualitative, and operational signals, 2) surface disagreements openly in exec reviews, and 3) run continuous monitoring with automated alerts. That is how I deliver speed without losing depth."
+    "s": "In 2019, the digital bank Woop (Sicredi) was bleeding: 40% annual churn, equivalent to BRL 12 million in lost revenue, and leadership was about to approve BRL 400k in cashback as a quick fix. As a Product Strategist, I saw that this approach not only ignored the pain of thousands of customers who were abandoning our app in frustration but also jeopardized the company\'s 150% growth target. I knew the shortcut was a trap.",
+    "t": "I committed to the COO to go beyond the obvious. Within two weeks, I would deliver a root-cause diagnosis, proving whether the churn came from operational failures or a lack of benefits. My mission was to convince leadership to prioritize the customer\'s real pain over superficial solutions, using data as my only weapon.",
+    "a": "I dove into the data myself. I requested direct access to Redshift and, with 47 SQL queries I wrote myself, I cross-referenced five tables and reconstructed the journey of 2.3 million records. The discovery was shocking: 54% of cancellations occurred within the first seven days, and the biggest drop-off point, with a 40% drop, was the document upload. To bring the numbers to life, I read 500 support tickets and app store reviews, and I called three affected customers, listening to their frustration with our confusing error messages. Armed with this evidence, I confronted the commercial director who was advocating for cashback. In a 1:1 session, I presented the step-by-step funnel and a business case showing that fixing the onboarding (BRL 180k, 2 months) had a 3x higher ROI. I didn\'t leave the room without his written commitment. In parallel, I set up a daily war room with engineering and QA, defining clear success metrics (upload >95%, time <30s, false positives <2%) and created a health dashboard with eight metrics and automatic alerts to ensure the problem would never go unnoticed again.",
+    "r": "The plan I led changed the game. In nine months, churn plummeted from 40% to 32.8% (-18%), which meant that 32,000 customers who would have abandoned us stayed, preserving BRL 5.4 million in annual revenue. The onboarding conversion, the main source of frustration, increased by 20 percentage points, and the active customer base grew by 25%, allowing us to hit the 150% growth target without spending a dime on cashback. The war room mechanism became a bi-weekly cadence that reduced incident response time by 35%.",
+    "l": "This case was a turning point for me. I learned that in a crisis, the customer\'s voice is hidden in the data, and it\'s my job as a leader to find it. The tension with the commercial director taught me that an opinion, no matter how senior, cannot withstand a well-detailed conversion funnel. Since then, the \'Evidence Triangulation\' (quantitative + qualitative + operational) has become a mechanism that I not only use but teach to all my teams. It was the basis for solving 5 other complex problems at Sicredi, saving millions. Today, I don\'t walk into any prioritization meeting without this framework. That\'s how I ensure the customer\'s voice is the loudest in the room."
   },
   "fups": [
+    {
+        "q": "Qual foi seu maior erro nesse processo e o que você faria diferente hoje?",
+        "a": "Meu maior erro foi não ter envolvido o diretor comercial desde o dia 1 da minha investigação. Eu assumi que os dados falariam por si só e preparei uma grande revelação, o que o colocou na defensiva. Hoje, eu o traria para a sala de investigação comigo, o convidaria para ouvir as ligações dos clientes e o tornaria um parceiro na descoberta. A conclusão seria a mesma, mas teríamos chegado a ela juntos, com muito menos atrito.",
+        "q_en": "What was your biggest mistake in this process, and what would you do differently today?",
+        "a_en": "My biggest mistake was not involving the commercial director from day 1 of my investigation. I assumed the data would speak for itself and prepared a big reveal, which put him on the defensive. Today, I would bring him into the investigation room with me, invite him to listen to customer calls, and make him a partner in the discovery. The conclusion would have been the same, but we would have reached it together, with much less friction."
+    },
     {
       "q": "Como voce conduziu o confronto com o diretor comercial e garantiu alinhamento sem desgastar a relacao?",
       "a": "Preparei um doc de 8 paginas com dados e simulacoes, marquei uma sessao 1:1, mostrei o impacto financeiro de cada alternativa e pedi um commitment explicito. Transformei a discordancia em uma decisao baseada em ROI, o que facilitou o patrocinio dele na execucao.",
@@ -48,41 +54,36 @@ const case_1 = {
     },
     {
       "q": "Quais foram os principais riscos do war room diario e como voce os mitigou?",
-      "a": "O principal risco era sobrecarregar engenharia e perder foco. Estabeleci agenda de 30 minutos, usei um kanban com tres prioridades e qualquer item fora do escopo exigia aprovacao minha + CTO. Tambem programei 'dias sem reuniao' para evitar fadiga.",
+      "a": "O principal risco era sobrecarregar engenharia e perder foco. Estabeleci agenda de 30 minutos, usei um kanban com tres prioridades e qualquer item fora do escopo exigia aprovacao minha + CTO. Tambem programei \'dias sem reuniao\' para evitar fadiga.",
       "q_en": "What were the main risks of the daily war room and how did you mitigate them?",
-      "a_en": "The main risk was overloading engineering and losing focus. I enforced a 30-minute agenda, used a three-priority kanban, and anything outside scope needed my + CTO approval. I also scheduled 'no-meeting days' to avoid fatigue."
+      "a_en": "The main risk was overloading engineering and losing focus. I enforced a 30-minute agenda, used a three-priority kanban, and anything outside scope needed my + CTO approval. I also scheduled \'no-meeting days\' to avoid fatigue."
     },
     {
-      "q": "Como voce calculou e comunicou o ROI de 3x para a diretoria?",
-      "a": "Projetei receita preservada com base na reducao de churn (% x base x ticket medio) e comparei com o investimento incremental (OCR, UX, QA). Usei cenario conservador e mostrei payback em cinco meses. O CFO validou os numeros antes da apresentacao ao board.",
-      "q_en": "How did you calculate and communicate the 3x ROI to the board?",
-      "a_en": "I projected preserved revenue using churn reduction (% x base x ARPU) and compared it with incremental spend (OCR, UX, QA). I used a conservative scenario and showed five-month payback. The CFO validated the numbers before I presented to the board."
+      q: "Como voce calculou e comunicou o ROI de 3x para a diretoria?",
+      a: "Projetei receita preservada com base na reducao de churn (% x base x ticket medio) e comparei com o investimento incremental (OCR, UX, QA). Usei cenario conservador e mostrei payback em cinco meses. O CFO validou os numeros antes da apresentacao ao board.",
+      q_en: "How did you calculate and communicate the 3x ROI to the board?",
+      a_en: "I projected preserved revenue using churn reduction (% x base x ARPU) and compared it with incremental spend (OCR, UX, QA). I used a conservative scenario and showed five-month payback. The CFO validated the numbers before I presented to the board."
     },
     {
-      "q": "De que forma voce garantiu que a solucao atendesse clientes com baixa proficiencia digital?",
-      "a": "Inclui no piloto um grupo de clientes 60+ e facilitei sessoes de usabilidade remota. Ajustei as mensagens para linguagem simples, inclui video microlearning e medi CSAT especifico desse publico, que subiu de 6,1 para 7,8.",
-      "q_en": "How did you make sure the solution worked for low digital literacy customers?",
-      "a_en": "I included 60+ customers in the pilot and ran remote usability sessions. I simplified error messages, added a microlearning video, and tracked a dedicated CSAT which climbed from 6.1 to 7.8."
+      q: "De que forma voce garantiu que a solucao atendesse clientes com baixa proficiencia digital?",
+      a: "Inclui no piloto um grupo de clientes 60+ e facilitei sessoes de usabilidade remota. Ajustei as mensagens para linguagem simples, inclui video microlearning e medi CSAT especifico desse publico, que subiu de 6,1 para 7,8.",
+      q_en: "How did you make sure the solution worked for low digital literacy customers?",
+      a_en: "I included 60+ customers in the pilot and ran remote usability sessions. I simplified error messages, added a microlearning video, and tracked a dedicated CSAT which climbed from 6.1 to 7.8."
     },
     {
-      "q": "Como voce usou o aprendizado desse caso em outras frentes do Sicredi?",
-      "a": "Transformei a abordagem em training: formei seis PMs na metodologia de triangulacao, documentei o playbook e implementei retro trimestral. Aplicamos depois em credito, cartoes e investimentos, sempre com analise coorte + funil + qualitativo.",
-      "q_en": "How did you reuse this learning across other Sicredi initiatives?",
-      "a_en": "I turned the approach into training: coached six PMs on triangulation, documented the playbook, and instituted a quarterly retro. We reused it for lending, cards, and investments with the same cohort + funnel + qualitative triad."
+      q: "Como voce usou o aprendizado desse caso em outras frentes do Sicredi?",
+      a: "Transformei a abordagem em training: formei seis PMs na metodologia de triangulacao, documentei o playbook e implementei retro trimestral. Aplicamos depois em credito, cartoes e investimentos, sempre com analise coorte + funil + qualitativo.",
+      q_en: "How did you reuse this learning across other Sicredi initiatives?",
+      a_en: "I turned the approach into training: coached six PMs on triangulation, documented the playbook, and instituted a quarterly retro. We reused it for lending, cards, and investments with the same cohort + funnel + qualitative triad."
     },
     {
-      "q": "Qual metrica voce monitorou para provar que o problema nao voltou apos 12 meses?",
-      "a": "Alem do churn anualizado, monitorei a retencao de 7 e 30 dias por coorte. Se qualquer coorte caisse 5 p.p., o alerta automatico me obrigava a fazer deep dive e apresentar plano corretivo em 48h para o COO.",
-      "q_en": "Which metric did you monitor to prove the issue didn't return after 12 months?",
-      "a_en": "Beyond annual churn, I tracked seven-day and 30-day retention by cohort. If any cohort dropped 5 p.p., the automated alert forced a deep dive and a 48-hour corrective plan for the COO."
-    },
-    {
-      "q": "Que licao voce leva para entrevistas da Amazon a partir desse conflito interno?",
-      "a": "Ser vocalmente autocritico e chegar com dados antes da discussao virar opiniao. Hoje preparo mecanismos, visualizacoes e ROI antes de entrar em qualquer debate de priorizacao - isso cria alinhamento rapido e evita guerras politicas.",
-      "q_en": "What's the key lesson from this internal conflict that you bring to Amazon interviews?",
-      "a_en": "Being vocally self-critical and arriving with data before opinions harden. I now prepare mechanisms, visuals, and ROI evidence before any prioritization debate-that creates fast alignment and avoids political battles."
+      q: "Qual metrica voce monitorou para provar que o problema nao voltou apos 12 meses?",
+      a: "Alem do churn anualizado, monitorei a retencao de 7 e 30 dias por coorte. Se qualquer coorte caisse 5 p.p., o alerta automatico me obrigava a fazer deep dive e apresentar plano corretivo em 48h para o COO.",
+      q_en: "Which metric did you monitor to prove the issue didn\'t return after 12 months?",
+      a_en: "Beyond annual churn, I tracked seven-day and 30-day retention by cohort. If any cohort dropped 5 p.p., the automated alert forced a deep dive and a 48-hour corrective plan for the COO."
     }
   ]
 };
 
 export default case_1;
+

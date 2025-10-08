@@ -1,0 +1,3789 @@
+{
+  "generated_at": "2025-10-08T22:27:43.647Z",
+  "total_cases": 71,
+  "cases_scored": [
+    {
+      "case_id": "huawei-six-sigma-optimization",
+      "lp": "Invent and Simplify",
+      "title_pt": "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing",
+      "company": "Huawei LATAM",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 16,
+        "specific_metrics_count": 16,
+        "generic_terms_count": 0,
+        "word_count_pt": 466,
+        "word_count_en": 442,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "70",
+          "context": "70%"
+        },
+        {
+          "type": "percentage",
+          "value": "61",
+          "context": "61%"
+        },
+        {
+          "type": "percentage",
+          "value": "73",
+          "context": "73%"
+        },
+        {
+          "type": "percentage",
+          "value": "81",
+          "context": "81%"
+        },
+        {
+          "type": "percentage",
+          "value": "87",
+          "context": "87%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "bradesco-next-compliance-simplification",
+      "lp": "Invent and Simplify",
+      "title_pt": "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
+      "company": "Bradesco",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 18,
+        "specific_metrics_count": 18,
+        "generic_terms_count": 0,
+        "word_count_pt": 578,
+        "word_count_en": 563,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "41",
+          "context": "41%"
+        },
+        {
+          "type": "percentage",
+          "value": "18",
+          "context": "18%"
+        },
+        {
+          "type": "percentage",
+          "value": "90",
+          "context": "90%"
+        },
+        {
+          "type": "percentage",
+          "value": "63",
+          "context": "63%"
+        },
+        {
+          "type": "percentage",
+          "value": "63",
+          "context": "63%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-ai-authorization",
+      "lp": "Invent and Simplify",
+      "title_pt": "Inventei IA de Autorizacao Medica que Simplificou Processo de 5 Dias para 9 Horas (82% Automacao)",
+      "company": "Unimed",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 18,
+        "specific_metrics_count": 18,
+        "generic_terms_count": 0,
+        "word_count_pt": 481,
+        "word_count_en": 449,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "64",
+          "context": "64%"
+        },
+        {
+          "type": "percentage",
+          "value": "71",
+          "context": "71%"
+        },
+        {
+          "type": "percentage",
+          "value": "80",
+          "context": "80%"
+        },
+        {
+          "type": "percentage",
+          "value": "95,2",
+          "context": "95,2%"
+        },
+        {
+          "type": "percentage",
+          "value": "82",
+          "context": "82%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-open-innovation",
+      "lp": "Invent and Simplify",
+      "title_pt": "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovacao em 68%",
+      "company": "Unimed",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 20,
+        "specific_metrics_count": 20,
+        "generic_terms_count": 0,
+        "word_count_pt": 572,
+        "word_count_en": 525,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "63",
+          "context": "63%"
+        },
+        {
+          "type": "percentage",
+          "value": "70",
+          "context": "70%"
+        },
+        {
+          "type": "percentage",
+          "value": "41",
+          "context": "41%"
+        },
+        {
+          "type": "percentage",
+          "value": "68",
+          "context": "68%"
+        },
+        {
+          "type": "percentage",
+          "value": "44",
+          "context": "44%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sefarz-pix-reconciliation-automation",
+      "lp": "Invent and Simplify",
+      "title_pt": "Automacao de conciliacao PIX municipal inventada em 45 dias eliminou risco fiscal",
+      "company": "SEFAZ RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 20,
+        "specific_metrics_count": 20,
+        "generic_terms_count": 0,
+        "word_count_pt": 553,
+        "word_count_en": 501,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "37",
+          "context": "37%"
+        },
+        {
+          "type": "percentage",
+          "value": "80",
+          "context": "80%"
+        },
+        {
+          "type": "percentage",
+          "value": "60",
+          "context": "60%"
+        },
+        {
+          "type": "percentage",
+          "value": "52",
+          "context": "52%"
+        },
+        {
+          "type": "percentage",
+          "value": "70",
+          "context": "70%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "payment-simplification-high-impact",
+      "lp": "Invent and Simplify",
+      "title_pt": "Inventei motor de simplificacao de liquidez que reduziu D+3 para D+0 em marketplaces",
+      "company": "Bradesco Fintech Hub",
+      "auto_calculated": {
+        "eu_nos_ratio": 12,
+        "metrics_count": 20,
+        "specific_metrics_count": 20,
+        "generic_terms_count": 0,
+        "word_count_pt": 396,
+        "word_count_en": 361,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 9.9,
+        "auto_score_total": 49.9
+      },
+      "flags": [
+        "⚠️ Text curto (396 palavras)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "80",
+          "context": "80%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,35",
+          "context": "0,35%"
+        },
+        {
+          "type": "percentage",
+          "value": "64",
+          "context": "64%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,2",
+          "context": "0,2%"
+        },
+        {
+          "type": "percentage",
+          "value": "82",
+          "context": "82%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "hsbc-migration-leadership",
+      "lp": "Ownership",
+      "title_pt": "Liderança da Migração de US$ 5.2B de Ativos e Contas",
+      "company": "HSBC",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 30,
+        "specific_metrics_count": 30,
+        "generic_terms_count": 1,
+        "word_count_pt": 951,
+        "word_count_en": 886,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 14,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 49
+      },
+      "flags": [
+        "⚠️ 1 termos genéricos detectados"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,5",
+          "context": "0,5%"
+        },
+        {
+          "type": "percentage",
+          "value": "20",
+          "context": "20%"
+        },
+        {
+          "type": "percentage",
+          "value": "4,3",
+          "context": "4,3%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,8",
+          "context": "0,8%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sefaz-pmo-creation",
+      "lp": "Ownership",
+      "title_pt": "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero",
+      "company": "SEFAZ/RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 21,
+        "specific_metrics_count": 21,
+        "generic_terms_count": 0,
+        "word_count_pt": 555,
+        "word_count_en": 486,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "23",
+          "context": "23%"
+        },
+        {
+          "type": "percentage",
+          "value": "8",
+          "context": "8%"
+        },
+        {
+          "type": "percentage",
+          "value": "62",
+          "context": "62%"
+        },
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "percentage",
+          "value": "23",
+          "context": "23%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "bradesco-international-payments",
+      "lp": "Ownership",
+      "title_pt": "Forca-Tarefa de Pagamentos Internacionais para Cortar Custos e Recuperar SLAs",
+      "company": "Bradesco",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 25,
+        "specific_metrics_count": 23,
+        "generic_terms_count": 0,
+        "word_count_pt": 582,
+        "word_count_en": 556,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "+15",
+          "context": "+15%"
+        },
+        {
+          "type": "percentage",
+          "value": "12",
+          "context": "12%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,5",
+          "context": "0,5%"
+        },
+        {
+          "type": "percentage",
+          "value": "68",
+          "context": "68%"
+        },
+        {
+          "type": "currency",
+          "value": "47",
+          "context": "R$ 47"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "hsbc-payment-reconciliation",
+      "lp": "Ownership",
+      "title_pt": "Reconciliei US$47M de Pagamentos na Reta Final do Cutover",
+      "company": "HSBC",
+      "auto_calculated": {
+        "eu_nos_ratio": 14,
+        "metrics_count": 32,
+        "specific_metrics_count": 32,
+        "generic_terms_count": 0,
+        "word_count_pt": 836,
+        "word_count_en": 531,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "0,5",
+          "context": "0,5%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,5",
+          "context": "0,5%"
+        },
+        {
+          "type": "percentage",
+          "value": "80",
+          "context": "80%"
+        },
+        {
+          "type": "percentage",
+          "value": "80",
+          "context": "80%"
+        },
+        {
+          "type": "percentage",
+          "value": "80",
+          "context": "80%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "payment-incidents-prevention-mechanism",
+      "lp": "Ownership",
+      "title_pt": "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
+      "company": "SEFAZ/RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 17,
+        "specific_metrics_count": 15,
+        "generic_terms_count": 0,
+        "word_count_pt": 444,
+        "word_count_en": 383,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "50",
+          "context": "50%"
+        },
+        {
+          "type": "percentage",
+          "value": "30",
+          "context": "30%"
+        },
+        {
+          "type": "percentage",
+          "value": "45",
+          "context": "45%"
+        },
+        {
+          "type": "percentage",
+          "value": "25",
+          "context": "25%"
+        },
+        {
+          "type": "currency",
+          "value": "18M",
+          "context": "R$ 18M"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "long-term-tradeoff",
+      "lp": "Ownership",
+      "title_pt": "Assumi Trade-off: Menos Escopo Agora por Maior Robustez",
+      "company": "Bradesco Next",
+      "auto_calculated": {
+        "eu_nos_ratio": 21,
+        "metrics_count": 28,
+        "specific_metrics_count": 27,
+        "generic_terms_count": 1,
+        "word_count_pt": 984,
+        "word_count_en": 932,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 14,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 49
+      },
+      "flags": [
+        "⚠️ 1 termos genéricos detectados"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "+45",
+          "context": "+45%"
+        },
+        {
+          "type": "percentage",
+          "value": "19",
+          "context": "19%"
+        },
+        {
+          "type": "percentage",
+          "value": "92",
+          "context": "92%"
+        },
+        {
+          "type": "percentage",
+          "value": "+45",
+          "context": "+45%"
+        },
+        {
+          "type": "percentage",
+          "value": "19",
+          "context": "19%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sefaz-emergency-rollback-no-approval",
+      "lp": "Ownership",
+      "title_pt": "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei 23k Empresas",
+      "company": "SEFAZ/RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 11,
+        "metrics_count": 10,
+        "specific_metrics_count": 10,
+        "generic_terms_count": 0,
+        "word_count_pt": 842,
+        "word_count_en": 796,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "currency",
+          "value": "4.8M",
+          "context": "R$ 4.8M"
+        },
+        {
+          "type": "currency",
+          "value": "8.2M",
+          "context": "R$ 8.2M"
+        },
+        {
+          "type": "currency",
+          "value": "350",
+          "context": "R$ 350"
+        },
+        {
+          "type": "currency",
+          "value": "3M",
+          "context": "R$ 3M"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "bradesco-next-delay",
+      "lp": "Ownership",
+      "title_pt": "Erro de Estimativa no Lançamento Bradesco Next",
+      "company": "Bradesco",
+      "auto_calculated": {
+        "eu_nos_ratio": 4,
+        "metrics_count": 13,
+        "specific_metrics_count": 13,
+        "generic_terms_count": 0,
+        "word_count_pt": 553,
+        "word_count_en": 527,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "60",
+          "context": "60%"
+        },
+        {
+          "type": "percentage",
+          "value": "85",
+          "context": "85%"
+        },
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        },
+        {
+          "type": "percentage",
+          "value": "42",
+          "context": "42%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-churn-analysis",
+      "lp": "Dive Deep",
+      "title_pt": "Analise de Dados para Identificar os Principais Drivers de Churn no App",
+      "company": "Sicredi Woop",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 19,
+        "specific_metrics_count": 18,
+        "generic_terms_count": 0,
+        "word_count_pt": 392,
+        "word_count_en": 332,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 9.8,
+        "auto_score_total": 49.8
+      },
+      "flags": [
+        "⚠️ Text curto (392 palavras)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        },
+        {
+          "type": "percentage",
+          "value": "150",
+          "context": "150%"
+        },
+        {
+          "type": "percentage",
+          "value": "54",
+          "context": "54%"
+        },
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        },
+        {
+          "type": "percentage",
+          "value": "95",
+          "context": "95%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "hsbc-data-validation-audit",
+      "lp": "Dive Deep",
+      "title_pt": "Auditoria Pessoal em Processos de Validacao de Dados em Multiplos Paises",
+      "company": "HSBC",
+      "auto_calculated": {
+        "eu_nos_ratio": 3,
+        "metrics_count": 14,
+        "specific_metrics_count": 14,
+        "generic_terms_count": 0,
+        "word_count_pt": 475,
+        "word_count_en": 427,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 12,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 47
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "67",
+          "context": "67%"
+        },
+        {
+          "type": "percentage",
+          "value": "99,8",
+          "context": "99,8%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,3",
+          "context": "0,3%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,05",
+          "context": "0,05%"
+        },
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-fraud-investigation",
+      "lp": "Dive Deep",
+      "title_pt": "Investigacao Manual de Anomalias em Reembolsos para Identificar Fraude em Rede",
+      "company": "Unimed",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 5,
+        "specific_metrics_count": 5,
+        "generic_terms_count": 1,
+        "word_count_pt": 242,
+        "word_count_en": 220,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 8,
+        "fup_completeness": 10,
+        "word_count_adequacy": 6,
+        "auto_score_total": 39
+      },
+      "flags": [
+        "⚠️ Poucas métricas específicas (5)",
+        "⚠️ 1 termos genéricos detectados",
+        "⚠️ Text curto (242 palavras)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "42",
+          "context": "42%"
+        },
+        {
+          "type": "percentage",
+          "value": "31",
+          "context": "31%"
+        },
+        {
+          "type": "time_unit",
+          "value": "6",
+          "unit": "meses",
+          "context": "6 meses"
+        },
+        {
+          "type": "time_unit",
+          "value": "11",
+          "unit": "min",
+          "context": "11 min"
+        },
+        {
+          "type": "transition",
+          "from": "25",
+          "to": "11",
+          "context": "25 para 11"
+        }
+      ],
+      "needs_manual_review": true
+    },
+    {
+      "case_id": "sicredi-pix-settlement",
+      "lp": "Dive Deep",
+      "title_pt": "Reducao de 47% no Tempo de Liquidacao de Pagamentos PIX",
+      "company": "Sicredi",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 6,
+        "specific_metrics_count": 5,
+        "generic_terms_count": 0,
+        "word_count_pt": 223,
+        "word_count_en": 205,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 9,
+        "fup_completeness": 10,
+        "word_count_adequacy": 5.6,
+        "auto_score_total": 39.6
+      },
+      "flags": [
+        "⚠️ Poucas métricas específicas (5)",
+        "⚠️ Text curto (223 palavras)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "80",
+          "context": "80%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,4",
+          "context": "0,4%"
+        },
+        {
+          "type": "currency",
+          "value": "2M",
+          "context": "R$2M"
+        },
+        {
+          "type": "time_unit",
+          "value": "60",
+          "unit": "dias",
+          "context": "60 dias"
+        },
+        {
+          "type": "transition",
+          "from": "95",
+          "to": "2,9",
+          "context": "95 para 2,9"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "huawei-world-cup-4g",
+      "lp": "Deliver Results",
+      "title_pt": "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade",
+      "company": "Huawei",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 37,
+        "specific_metrics_count": 35,
+        "generic_terms_count": 0,
+        "word_count_pt": 1094,
+        "word_count_en": 941,
+        "fup_count": 12
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "61",
+          "context": "61%"
+        },
+        {
+          "type": "percentage",
+          "value": "99,5",
+          "context": "99,5%"
+        },
+        {
+          "type": "percentage",
+          "value": "61",
+          "context": "61%"
+        },
+        {
+          "type": "percentage",
+          "value": "61",
+          "context": "61%"
+        },
+        {
+          "type": "percentage",
+          "value": "97",
+          "context": "97%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-ebitda-growth",
+      "lp": "Deliver Results",
+      "title_pt": "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Tres Inputs Chave",
+      "company": "Unimed",
+      "auto_calculated": {
+        "eu_nos_ratio": 7,
+        "metrics_count": 38,
+        "specific_metrics_count": 37,
+        "generic_terms_count": 0,
+        "word_count_pt": 970,
+        "word_count_en": 883,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "83",
+          "context": "83%"
+        },
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        },
+        {
+          "type": "percentage",
+          "value": "83",
+          "context": "83%"
+        },
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        },
+        {
+          "type": "percentage",
+          "value": "20",
+          "context": "20%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-fraud-reduction",
+      "lp": "Deliver Results",
+      "title_pt": "Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses",
+      "company": "Sicredi Woop",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 32,
+        "specific_metrics_count": 30,
+        "generic_terms_count": 0,
+        "word_count_pt": 776,
+        "word_count_en": 709,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "217",
+          "context": "217%"
+        },
+        {
+          "type": "percentage",
+          "value": "217",
+          "context": "217%"
+        },
+        {
+          "type": "percentage",
+          "value": "30",
+          "context": "30%"
+        },
+        {
+          "type": "percentage",
+          "value": "2",
+          "context": "2%"
+        },
+        {
+          "type": "percentage",
+          "value": "67",
+          "context": "67%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sefaz-ecage-portal",
+      "lp": "Deliver Results",
+      "title_pt": "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção",
+      "company": "SEFAZ/RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 38,
+        "specific_metrics_count": 37,
+        "generic_terms_count": 0,
+        "word_count_pt": 1335,
+        "word_count_en": 1227,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "34",
+          "context": "34%"
+        },
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "percentage",
+          "value": "78",
+          "context": "78%"
+        },
+        {
+          "type": "percentage",
+          "value": "90",
+          "context": "90%"
+        },
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-pix-deadline-miss-recovery",
+      "lp": "Deliver Results",
+      "title_pt": "Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias",
+      "company": "Sicredi",
+      "auto_calculated": {
+        "eu_nos_ratio": 11,
+        "metrics_count": 20,
+        "specific_metrics_count": 20,
+        "generic_terms_count": 0,
+        "word_count_pt": 1122,
+        "word_count_en": 1057,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        },
+        {
+          "type": "percentage",
+          "value": "16",
+          "context": "16%"
+        },
+        {
+          "type": "percentage",
+          "value": "99.2",
+          "context": "99.2%"
+        },
+        {
+          "type": "percentage",
+          "value": "87",
+          "context": "87%"
+        },
+        {
+          "type": "percentage",
+          "value": "92",
+          "context": "92%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-post-mortem-transparency",
+      "lp": "Earn Trust",
+      "title_pt": "Reconstruir confianca apos bug Pix com ritual de transparencias diarias",
+      "company": "Sicredi Woop",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 21,
+        "specific_metrics_count": 21,
+        "generic_terms_count": 0,
+        "word_count_pt": 521,
+        "word_count_en": 480,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "71",
+          "context": "71%"
+        },
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "percentage",
+          "value": "76",
+          "context": "76%"
+        },
+        {
+          "type": "currency",
+          "value": "14,8M",
+          "context": "R$ 14,8M"
+        },
+        {
+          "type": "currency",
+          "value": "237",
+          "context": "R$ 237"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "hsbc-bacen-communication",
+      "lp": "Earn Trust",
+      "title_pt": "Transformei relacionamento com Bacen com briefings executivos em 48h",
+      "company": "HSBC Brasil",
+      "auto_calculated": {
+        "eu_nos_ratio": 7.5,
+        "metrics_count": 14,
+        "specific_metrics_count": 14,
+        "generic_terms_count": 0,
+        "word_count_pt": 577,
+        "word_count_en": 489,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "71",
+          "context": "71%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,8",
+          "context": "0,8%"
+        },
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "percentage",
+          "value": "98",
+          "context": "98%"
+        },
+        {
+          "type": "percentage",
+          "value": "72",
+          "context": "72%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "bradesco-partner-recovery",
+      "lp": "Earn Trust",
+      "title_pt": "Reconquistei parceiro chave com plano de saldo garantido em 30 dias",
+      "company": "Bradesco Payments",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 13,
+        "specific_metrics_count": 13,
+        "generic_terms_count": 0,
+        "word_count_pt": 354,
+        "word_count_en": 334,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 8.8,
+        "auto_score_total": 48.9
+      },
+      "flags": [
+        "⚠️ Text curto (354 palavras)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "18",
+          "context": "18%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,2",
+          "context": "0,2%"
+        },
+        {
+          "type": "percentage",
+          "value": "18",
+          "context": "18%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,08",
+          "context": "0,08%"
+        },
+        {
+          "type": "currency",
+          "value": "420M",
+          "context": "R$ 420M"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "hard-feedback-leadership-style",
+      "lp": "Earn Trust",
+      "title_pt": "Transformei feedback duro em pacto de transparencia com time de risco",
+      "company": "Sicredi Digital",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 14,
+        "specific_metrics_count": 14,
+        "generic_terms_count": 0,
+        "word_count_pt": 386,
+        "word_count_en": 355,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 9.7,
+        "auto_score_total": 49.6
+      },
+      "flags": [
+        "⚠️ Text curto (386 palavras)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "0,62",
+          "context": "0,62%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,40",
+          "context": "0,40%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,38",
+          "context": "0,38%"
+        },
+        {
+          "type": "percentage",
+          "value": "82",
+          "context": "82%"
+        },
+        {
+          "type": "currency",
+          "value": "3,4M",
+          "context": "R$ 3,4M"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "disagreement-with-manager-sla",
+      "lp": "Earn Trust",
+      "title_pt": "Remodelei SLA com meu diretor expondo dados e assumindo compromissos semanais",
+      "company": "Bradesco Payments",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 17,
+        "specific_metrics_count": 17,
+        "generic_terms_count": 0,
+        "word_count_pt": 313,
+        "word_count_en": 348,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 7.8,
+        "auto_score_total": 47.8
+      },
+      "flags": [
+        "⚠️ Text curto (313 palavras)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "62",
+          "context": "62%"
+        },
+        {
+          "type": "percentage",
+          "value": "1,5",
+          "context": "1,5%"
+        },
+        {
+          "type": "percentage",
+          "value": "38",
+          "context": "38%"
+        },
+        {
+          "type": "percentage",
+          "value": "83",
+          "context": "83%"
+        },
+        {
+          "type": "percentage",
+          "value": "1,2",
+          "context": "1,2%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-customer-experience",
+      "lp": "Customer Obsession",
+      "title_pt": "Transformei a Jornada do Beneficiário e Levei o NPS de 28 para 58 em 12 Meses",
+      "company": "Unimed",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 46,
+        "specific_metrics_count": 43,
+        "generic_terms_count": 0,
+        "word_count_pt": 567,
+        "word_count_en": 536,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "18",
+          "context": "18%"
+        },
+        {
+          "type": "percentage",
+          "value": "11",
+          "context": "11%"
+        },
+        {
+          "type": "percentage",
+          "value": "63",
+          "context": "63%"
+        },
+        {
+          "type": "percentage",
+          "value": "11",
+          "context": "11%"
+        },
+        {
+          "type": "percentage",
+          "value": "71",
+          "context": "71%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "bradesco-next-customer-ritual",
+      "lp": "Customer Obsession",
+      "title_pt": "Liderei o Ritual de Voz do Cliente que Levou o NPS do Next de 35 para 62",
+      "company": "Bradesco Next",
+      "auto_calculated": {
+        "eu_nos_ratio": 14,
+        "metrics_count": 42,
+        "specific_metrics_count": 41,
+        "generic_terms_count": 0,
+        "word_count_pt": 779,
+        "word_count_en": 706,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "22",
+          "context": "22%"
+        },
+        {
+          "type": "percentage",
+          "value": "42",
+          "context": "42%"
+        },
+        {
+          "type": "percentage",
+          "value": "20",
+          "context": "20%"
+        },
+        {
+          "type": "percentage",
+          "value": "12",
+          "context": "12%"
+        },
+        {
+          "type": "percentage",
+          "value": "38",
+          "context": "38%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-frictionless-checkout",
+      "lp": "Customer Obsession",
+      "title_pt": "Redesenhei o Checkout do Gateway e Cortei Abandono de Carrinho em 25 Pontos",
+      "company": "Sicredi",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 21,
+        "specific_metrics_count": 20,
+        "generic_terms_count": 0,
+        "word_count_pt": 672,
+        "word_count_en": 633,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "70",
+          "context": "70%"
+        },
+        {
+          "type": "percentage",
+          "value": "45",
+          "context": "45%"
+        },
+        {
+          "type": "percentage",
+          "value": "70",
+          "context": "70%"
+        },
+        {
+          "type": "percentage",
+          "value": "45",
+          "context": "45%"
+        },
+        {
+          "type": "percentage",
+          "value": "2,9",
+          "context": "2,9%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-harvard-healthcare-innovation",
+      "lp": "Learn and Be Curious",
+      "title_pt": "Aplicação de Conceitos de Harvard para Lançar Novos Produtos Digitais em Saúde",
+      "company": "Unimed",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 27,
+        "specific_metrics_count": 24,
+        "generic_terms_count": 0,
+        "word_count_pt": 757,
+        "word_count_en": 722,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "300",
+          "context": "300%"
+        },
+        {
+          "type": "percentage",
+          "value": "42",
+          "context": "42%"
+        },
+        {
+          "type": "percentage",
+          "value": "68",
+          "context": "68%"
+        },
+        {
+          "type": "percentage",
+          "value": "73",
+          "context": "73%"
+        },
+        {
+          "type": "percentage",
+          "value": "15",
+          "context": "15%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "bradesco-safe-agile-framework",
+      "lp": "Learn and Be Curious",
+      "title_pt": "Implementação de Framework Ágil em Escala para Banco Digital",
+      "company": "Bradesco",
+      "auto_calculated": {
+        "eu_nos_ratio": 0,
+        "metrics_count": 9,
+        "specific_metrics_count": 9,
+        "generic_terms_count": 0,
+        "word_count_pt": 431,
+        "word_count_en": 409,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 3,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 38
+      },
+      "flags": [
+        "⚠️ Ratio EU:NÓS baixo (0.0:1)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        },
+        {
+          "type": "percentage",
+          "value": "50",
+          "context": "50%"
+        },
+        {
+          "type": "time_unit",
+          "value": "6",
+          "unit": "semanas",
+          "context": "6 semanas"
+        },
+        {
+          "type": "time_unit",
+          "value": "16",
+          "unit": "horas",
+          "context": "16 horas"
+        },
+        {
+          "type": "time_unit",
+          "value": "2",
+          "unit": "dias",
+          "context": "2 dias"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "olibano-blockchain-exploration",
+      "lp": "Learn and Be Curious",
+      "title_pt": "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização",
+      "company": "OLÍBANO",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 22,
+        "specific_metrics_count": 20,
+        "generic_terms_count": 2,
+        "word_count_pt": 794,
+        "word_count_en": 760,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 13,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 48
+      },
+      "flags": [
+        "⚠️ 2 termos genéricos detectados"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "70",
+          "context": "70%"
+        },
+        {
+          "type": "percentage",
+          "value": "5",
+          "context": "5%"
+        },
+        {
+          "type": "percentage",
+          "value": "5",
+          "context": "5%"
+        },
+        {
+          "type": "percentage",
+          "value": "78",
+          "context": "78%"
+        },
+        {
+          "type": "percentage",
+          "value": "+150",
+          "context": "+150%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "stay-updated-payments-fintech",
+      "lp": "Learn and Be Curious",
+      "title_pt": "Como Me Mantive Constantemente Atualizado em Payments/Fintech e Explorei Novas Áreas Criando Sistema Estruturado de Aprendizado com PoCs",
+      "company": "Sicredi",
+      "auto_calculated": {
+        "eu_nos_ratio": 4,
+        "metrics_count": 50,
+        "specific_metrics_count": 49,
+        "generic_terms_count": 0,
+        "word_count_pt": 1052,
+        "word_count_en": 989,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "68",
+          "context": "68%"
+        },
+        {
+          "type": "percentage",
+          "value": "73",
+          "context": "73%"
+        },
+        {
+          "type": "percentage",
+          "value": "22",
+          "context": "22%"
+        },
+        {
+          "type": "percentage",
+          "value": "73",
+          "context": "73%"
+        },
+        {
+          "type": "percentage",
+          "value": "68",
+          "context": "68%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "out-of-comfort-zone-transparency-portal",
+      "lp": "Learn and Be Curious",
+      "title_pt": "Liderei o Portal da Transparência: Fora da Zona de Conforto",
+      "company": "SEFAZ/RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 2.67,
+        "metrics_count": 23,
+        "specific_metrics_count": 23,
+        "generic_terms_count": 0,
+        "word_count_pt": 841,
+        "word_count_en": 828,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 9,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 44
+      },
+      "flags": [
+        "⚠️ Ratio EU:NÓS baixo (2.7:1)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "78",
+          "context": "78%"
+        },
+        {
+          "type": "percentage",
+          "value": "60",
+          "context": "60%"
+        },
+        {
+          "type": "percentage",
+          "value": "5",
+          "context": "5%"
+        },
+        {
+          "type": "percentage",
+          "value": "42",
+          "context": "42%"
+        },
+        {
+          "type": "percentage",
+          "value": "67",
+          "context": "67%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "hsbc-zero-defects",
+      "lp": "Insist on the Highest Standards",
+      "title_pt": "Estabelecimento de Padrão 'Zero Data Loss' em Migração de US$ 5.2B",
+      "company": "HSBC",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 14,
+        "specific_metrics_count": 12,
+        "generic_terms_count": 1,
+        "word_count_pt": 672,
+        "word_count_en": 635,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 14,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 49
+      },
+      "flags": [
+        "⚠️ 1 termos genéricos detectados"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "0.01",
+          "context": "0.01%"
+        },
+        {
+          "type": "percentage",
+          "value": "0.01",
+          "context": "0.01%"
+        },
+        {
+          "type": "percentage",
+          "value": "0.05",
+          "context": "0.05%"
+        },
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "percentage",
+          "value": "1",
+          "context": "1%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sefaz-pmo-governance",
+      "lp": "Insist on the Highest Standards",
+      "title_pt": "Elevei o Padrão do PMO da SEFAZ com Foco em Valor ao Cidadão",
+      "company": "SEFAZ/RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 0,
+        "metrics_count": 16,
+        "specific_metrics_count": 16,
+        "generic_terms_count": 0,
+        "word_count_pt": 388,
+        "word_count_en": 408,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 3,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 9.7,
+        "auto_score_total": 37.7
+      },
+      "flags": [
+        "⚠️ Ratio EU:NÓS baixo (0.0:1)",
+        "⚠️ Text curto (388 palavras)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "63",
+          "context": "63%"
+        },
+        {
+          "type": "percentage",
+          "value": "5",
+          "context": "5%"
+        },
+        {
+          "type": "percentage",
+          "value": "32",
+          "context": "32%"
+        },
+        {
+          "type": "percentage",
+          "value": "63",
+          "context": "63%"
+        },
+        {
+          "type": "percentage",
+          "value": "6,8",
+          "context": "6,8%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-payment-sla",
+      "lp": "Insist on the Highest Standards",
+      "title_pt": "Redesenhei o Gateway SICREDI para 99.99% de Disponibilidade",
+      "company": "Sicredi",
+      "auto_calculated": {
+        "eu_nos_ratio": 11,
+        "metrics_count": 24,
+        "specific_metrics_count": 24,
+        "generic_terms_count": 0,
+        "word_count_pt": 419,
+        "word_count_en": 389,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "99,5",
+          "context": "99,5%"
+        },
+        {
+          "type": "percentage",
+          "value": "99,8",
+          "context": "99,8%"
+        },
+        {
+          "type": "percentage",
+          "value": "99,99",
+          "context": "99,99%"
+        },
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        },
+        {
+          "type": "percentage",
+          "value": "30",
+          "context": "30%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "reject-mediocre-work-procergs",
+      "lp": "Insist on the Highest Standards",
+      "title_pt": "Rejeitei Entrega da PROCERGS e Institui Quality Gate Zero Falhas",
+      "company": "SEFAZ/RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 12,
+        "specific_metrics_count": 12,
+        "generic_terms_count": 0,
+        "word_count_pt": 382,
+        "word_count_en": 311,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 9.5,
+        "auto_score_total": 49.5
+      },
+      "flags": [
+        "⚠️ Text curto (382 palavras)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "85",
+          "context": "85%"
+        },
+        {
+          "type": "percentage",
+          "value": "99,5",
+          "context": "99,5%"
+        },
+        {
+          "type": "percentage",
+          "value": "94",
+          "context": "94%"
+        },
+        {
+          "type": "percentage",
+          "value": "99,94",
+          "context": "99,94%"
+        },
+        {
+          "type": "percentage",
+          "value": "36",
+          "context": "36%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-telemedicine-redo-for-excellence",
+      "lp": "Insist on the Highest Standards",
+      "title_pt": "Refiz Plataforma de Telemedicina do Zero Após NPS 28 para Atingir Padrão de Excelência (NPS 84)",
+      "company": "Unimed",
+      "auto_calculated": {
+        "eu_nos_ratio": 1,
+        "metrics_count": 26,
+        "specific_metrics_count": 26,
+        "generic_terms_count": 0,
+        "word_count_pt": 713,
+        "word_count_en": 665,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 3,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 38
+      },
+      "flags": [
+        "⚠️ Ratio EU:NÓS baixo (1.0:1)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "42",
+          "context": "42%"
+        },
+        {
+          "type": "percentage",
+          "value": "78",
+          "context": "78%"
+        },
+        {
+          "type": "percentage",
+          "value": "95",
+          "context": "95%"
+        },
+        {
+          "type": "percentage",
+          "value": "96,2",
+          "context": "96,2%"
+        },
+        {
+          "type": "percentage",
+          "value": "94",
+          "context": "94%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-mobile-first-strategy",
+      "lp": "Are Right, A Lot",
+      "title_pt": "Decisão Difícil com Múltiplos Stakeholders: Equilibrei Inputs Conflitantes e Redesenhei Roadmap Mobile com Aprovação Unânime",
+      "company": "Sicredi",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 18,
+        "specific_metrics_count": 18,
+        "generic_terms_count": 0,
+        "word_count_pt": 608,
+        "word_count_en": 564,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "48",
+          "context": "48%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,1",
+          "context": "0,1%"
+        },
+        {
+          "type": "percentage",
+          "value": "1,8",
+          "context": "1,8%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,4",
+          "context": "0,4%"
+        },
+        {
+          "type": "percentage",
+          "value": "22",
+          "context": "22%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "huawei-4g-rollout-analysis",
+      "lp": "Are Right, A Lot",
+      "title_pt": "Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest",
+      "company": "Huawei LATAM",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 10,
+        "specific_metrics_count": 10,
+        "generic_terms_count": 0,
+        "word_count_pt": 502,
+        "word_count_en": 479,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "23",
+          "context": "23%"
+        },
+        {
+          "type": "percentage",
+          "value": "67",
+          "context": "67%"
+        },
+        {
+          "type": "currency",
+          "value": "9M",
+          "context": "$ 9M"
+        },
+        {
+          "type": "currency",
+          "value": "3,2M",
+          "context": "$ 3,2M"
+        },
+        {
+          "type": "currency",
+          "value": "9M",
+          "context": "$ 9M"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-api-pricing-model",
+      "lp": "Are Right, A Lot",
+      "title_pt": "Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias",
+      "company": "Sicredi Plataforma",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 18,
+        "specific_metrics_count": 18,
+        "generic_terms_count": 0,
+        "word_count_pt": 484,
+        "word_count_en": 444,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "11",
+          "context": "11%"
+        },
+        {
+          "type": "percentage",
+          "value": "63",
+          "context": "63%"
+        },
+        {
+          "type": "percentage",
+          "value": "22",
+          "context": "22%"
+        },
+        {
+          "type": "percentage",
+          "value": "58",
+          "context": "58%"
+        },
+        {
+          "type": "percentage",
+          "value": "8,7",
+          "context": "8,7%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-wrong-fraud-model-pivot",
+      "lp": "Are Right, A Lot",
+      "title_pt": "Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior",
+      "company": "Sicredi",
+      "auto_calculated": {
+        "eu_nos_ratio": 10.5,
+        "metrics_count": 34,
+        "specific_metrics_count": 34,
+        "generic_terms_count": 1,
+        "word_count_pt": 826,
+        "word_count_en": 789,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 14,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 49
+      },
+      "flags": [
+        "⚠️ 1 termos genéricos detectados"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "95",
+          "context": "95%"
+        },
+        {
+          "type": "percentage",
+          "value": "23",
+          "context": "23%"
+        },
+        {
+          "type": "percentage",
+          "value": "8",
+          "context": "8%"
+        },
+        {
+          "type": "percentage",
+          "value": "34",
+          "context": "34%"
+        },
+        {
+          "type": "percentage",
+          "value": "78",
+          "context": "78%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "bradesco-next-rapid-launch",
+      "lp": "Bias for Action",
+      "title_pt": "Classifiquei 126 Decisoes em Two-Way/One-Way Door e Lancei Banco Digital em 11 Meses",
+      "company": "Bradesco Next",
+      "auto_calculated": {
+        "eu_nos_ratio": 2,
+        "metrics_count": 28,
+        "specific_metrics_count": 28,
+        "generic_terms_count": 0,
+        "word_count_pt": 483,
+        "word_count_en": 466,
+        "fup_count": 12
+      },
+      "scores": {
+        "eu_nos_ratio_score": 6,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 41
+      },
+      "flags": [
+        "⚠️ Ratio EU:NÓS baixo (2.0:1)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "38",
+          "context": "38%"
+        },
+        {
+          "type": "percentage",
+          "value": "79",
+          "context": "79%"
+        },
+        {
+          "type": "percentage",
+          "value": "79",
+          "context": "79%"
+        },
+        {
+          "type": "percentage",
+          "value": "82",
+          "context": "82%"
+        },
+        {
+          "type": "percentage",
+          "value": "41",
+          "context": "41%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-ml-credit-analysis",
+      "lp": "Bias for Action",
+      "title_pt": "Destravei Analise de Credito com ML em 90 Dias e Zerei o Backlog",
+      "company": "Sicredi Woop",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 39,
+        "specific_metrics_count": 38,
+        "generic_terms_count": 0,
+        "word_count_pt": 982,
+        "word_count_en": 884,
+        "fup_count": 11
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "31",
+          "context": "31%"
+        },
+        {
+          "type": "percentage",
+          "value": "31",
+          "context": "31%"
+        },
+        {
+          "type": "percentage",
+          "value": "31",
+          "context": "31%"
+        },
+        {
+          "type": "percentage",
+          "value": "36",
+          "context": "36%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,6",
+          "context": "0,6%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sefaz-emergency-tax-portal",
+      "lp": "Bias for Action",
+      "title_pt": "Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS",
+      "company": "SEFAZ/RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 26,
+        "specific_metrics_count": 26,
+        "generic_terms_count": 0,
+        "word_count_pt": 1075,
+        "word_count_en": 986,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "30",
+          "context": "30%"
+        },
+        {
+          "type": "percentage",
+          "value": "12",
+          "context": "12%"
+        },
+        {
+          "type": "percentage",
+          "value": "99,4",
+          "context": "99,4%"
+        },
+        {
+          "type": "percentage",
+          "value": "91",
+          "context": "91%"
+        },
+        {
+          "type": "currency",
+          "value": "6,3",
+          "context": "R$ 6,3"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "calculated-risk-time-critical",
+      "lp": "Bias for Action",
+      "title_pt": "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",
+      "company": "Unimed Porto Alegre",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 10,
+        "specific_metrics_count": 10,
+        "generic_terms_count": 0,
+        "word_count_pt": 500,
+        "word_count_en": 488,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "80",
+          "context": "80%"
+        },
+        {
+          "type": "percentage",
+          "value": "83",
+          "context": "83%"
+        },
+        {
+          "type": "currency",
+          "value": "1,2",
+          "context": "R$ 1,2"
+        },
+        {
+          "type": "currency",
+          "value": "8",
+          "context": "R$ 8"
+        },
+        {
+          "type": "currency",
+          "value": "5,8",
+          "context": "R$ 5,8"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-fraud-emergency-4h-decision",
+      "lp": "Bias for Action",
+      "title_pt": "Tomei Decisão em 4 Horas Sob Fraude Massiva com Dados Incompletos e Salvei R$ 2.3M",
+      "company": "Sicredi",
+      "auto_calculated": {
+        "eu_nos_ratio": 12,
+        "metrics_count": 47,
+        "specific_metrics_count": 47,
+        "generic_terms_count": 0,
+        "word_count_pt": 834,
+        "word_count_en": 791,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "340",
+          "context": "340%"
+        },
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "percentage",
+          "value": "87",
+          "context": "87%"
+        },
+        {
+          "type": "percentage",
+          "value": "64",
+          "context": "64%"
+        },
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sefaz-project-pivot-70-percent",
+      "lp": "Bias for Action",
+      "title_pt": "Pivotei Projeto SEFAZ 70% Completo para Nova Legislacao e Entreguei com 2 Meses de Atraso Aceitavel",
+      "company": "SEFAZ/RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 26,
+        "metrics_count": 58,
+        "specific_metrics_count": 58,
+        "generic_terms_count": 0,
+        "word_count_pt": 1051,
+        "word_count_en": 1008,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "70",
+          "context": "70%"
+        },
+        {
+          "type": "percentage",
+          "value": "60",
+          "context": "60%"
+        },
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        },
+        {
+          "type": "percentage",
+          "value": "60",
+          "context": "60%"
+        },
+        {
+          "type": "percentage",
+          "value": "25",
+          "context": "25%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "huawei-global-rollout",
+      "lp": "Think Big",
+      "title_pt": "Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Huawei",
+      "company": "Huawei",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 24,
+        "specific_metrics_count": 23,
+        "generic_terms_count": 0,
+        "word_count_pt": 486,
+        "word_count_en": 436,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "10",
+          "context": "10%"
+        },
+        {
+          "type": "percentage",
+          "value": "70",
+          "context": "70%"
+        },
+        {
+          "type": "percentage",
+          "value": "95",
+          "context": "95%"
+        },
+        {
+          "type": "percentage",
+          "value": "30",
+          "context": "30%"
+        },
+        {
+          "type": "percentage",
+          "value": "42",
+          "context": "42%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-ecosystem-transformation",
+      "lp": "Think Big",
+      "title_pt": "Liderança da Iniciativa para Transformar a Unimed de uma Seguradora para um Ecossistema de Saúde Digital",
+      "company": "Unimed",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 21,
+        "specific_metrics_count": 20,
+        "generic_terms_count": 0,
+        "word_count_pt": 451,
+        "word_count_en": 431,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "20",
+          "context": "20%"
+        },
+        {
+          "type": "percentage",
+          "value": "12",
+          "context": "12%"
+        },
+        {
+          "type": "percentage",
+          "value": "25",
+          "context": "25%"
+        },
+        {
+          "type": "percentage",
+          "value": "12,4",
+          "context": "12,4%"
+        },
+        {
+          "type": "percentage",
+          "value": "8,3",
+          "context": "8,3%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "bradesco-paas-latam",
+      "lp": "Think Big",
+      "title_pt": "Proposta e Desenho de uma Plataforma de Pagamentos como Serviço (PaaS) para a América Latina",
+      "company": "Bradesco Next",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 18,
+        "specific_metrics_count": 18,
+        "generic_terms_count": 0,
+        "word_count_pt": 517,
+        "word_count_en": 474,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "99,98",
+          "context": "99,98%"
+        },
+        {
+          "type": "percentage",
+          "value": "68",
+          "context": "68%"
+        },
+        {
+          "type": "percentage",
+          "value": "58",
+          "context": "58%"
+        },
+        {
+          "type": "percentage",
+          "value": "74",
+          "context": "74%"
+        },
+        {
+          "type": "percentage",
+          "value": "28",
+          "context": "28%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "game-changing-program",
+      "lp": "Think Big",
+      "title_pt": "Programa Horizonte: Digital Twin Fiscal que Redirecionou R$2,1B em Investimentos",
+      "company": "SEFAZ-RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 3,
+        "metrics_count": 40,
+        "specific_metrics_count": 40,
+        "generic_terms_count": 0,
+        "word_count_pt": 861,
+        "word_count_en": 706,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 12,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 47
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "64",
+          "context": "64%"
+        },
+        {
+          "type": "percentage",
+          "value": "41",
+          "context": "41%"
+        },
+        {
+          "type": "percentage",
+          "value": "78",
+          "context": "78%"
+        },
+        {
+          "type": "percentage",
+          "value": "70",
+          "context": "70%"
+        },
+        {
+          "type": "percentage",
+          "value": "78",
+          "context": "78%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-retention-strategy",
+      "lp": "Have Backbone; Disagree and Commit",
+      "title_pt": "Defendi foco em retencao e depois liderei o plano hibrido aprovado pelo CEO",
+      "company": "Unimed Nacional",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 32,
+        "specific_metrics_count": 32,
+        "generic_terms_count": 1,
+        "word_count_pt": 689,
+        "word_count_en": 646,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 14,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 49
+      },
+      "flags": [
+        "⚠️ 1 termos genéricos detectados"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "18",
+          "context": "18%"
+        },
+        {
+          "type": "percentage",
+          "value": "3,6",
+          "context": "3,6%"
+        },
+        {
+          "type": "percentage",
+          "value": "3",
+          "context": "3%"
+        },
+        {
+          "type": "percentage",
+          "value": "60",
+          "context": "60%"
+        },
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "huawei-world-cup-timeline",
+      "lp": "Have Backbone; Disagree and Commit",
+      "title_pt": "Bati de frente com o VP sobre acelerar 5G e entreguei o plano aprovado para a Copa Feminina",
+      "company": "Huawei LATAM",
+      "auto_calculated": {
+        "eu_nos_ratio": 4,
+        "metrics_count": 23,
+        "specific_metrics_count": 23,
+        "generic_terms_count": 1,
+        "word_count_pt": 647,
+        "word_count_en": 606,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 14,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 49
+      },
+      "flags": [
+        "⚠️ 1 termos genéricos detectados"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "120",
+          "context": "120%"
+        },
+        {
+          "type": "percentage",
+          "value": "67",
+          "context": "67%"
+        },
+        {
+          "type": "percentage",
+          "value": "99,94",
+          "context": "99,94%"
+        },
+        {
+          "type": "currency",
+          "value": "8M",
+          "context": "$ 8M"
+        },
+        {
+          "type": "currency",
+          "value": "11,3M",
+          "context": "$ 11,3M"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "bradesco-mvp-feature-prioritization",
+      "lp": "Have Backbone; Disagree and Commit",
+      "title_pt": "Discordei da priorizacao de MVP, aceitei o voto do comite e ainda entreguei o top recurso pedido",
+      "company": "Bradesco Next",
+      "auto_calculated": {
+        "eu_nos_ratio": 1.5,
+        "metrics_count": 13,
+        "specific_metrics_count": 13,
+        "generic_terms_count": 0,
+        "word_count_pt": 588,
+        "word_count_en": 568,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 3,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 38
+      },
+      "flags": [
+        "⚠️ Ratio EU:NÓS baixo (1.5:1)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "61",
+          "context": "61%"
+        },
+        {
+          "type": "percentage",
+          "value": "18",
+          "context": "18%"
+        },
+        {
+          "type": "percentage",
+          "value": "36",
+          "context": "36%"
+        },
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "percentage",
+          "value": "27",
+          "context": "27%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "commit-on-disagreement-product-strategy",
+      "lp": "Have Backbone; Disagree and Commit",
+      "title_pt": "Escalei discordancia sobre estrategia de pricing e liderei o piloto aprovado sem ruido",
+      "company": "Bradesco Next",
+      "auto_calculated": {
+        "eu_nos_ratio": 2,
+        "metrics_count": 21,
+        "specific_metrics_count": 21,
+        "generic_terms_count": 1,
+        "word_count_pt": 659,
+        "word_count_en": 630,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 6,
+        "metrics_score": 14,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 40
+      },
+      "flags": [
+        "⚠️ Ratio EU:NÓS baixo (2.0:1)",
+        "⚠️ 1 termos genéricos detectados"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "2,2",
+          "context": "2,2%"
+        },
+        {
+          "type": "percentage",
+          "value": "1,0",
+          "context": "1,0%"
+        },
+        {
+          "type": "percentage",
+          "value": "38",
+          "context": "38%"
+        },
+        {
+          "type": "percentage",
+          "value": "1,0",
+          "context": "1,0%"
+        },
+        {
+          "type": "percentage",
+          "value": "4,1",
+          "context": "4,1%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "huawei-project-managers-mentoring",
+      "lp": "Hire and Develop the Best",
+      "title_pt": "Mentoria de 30+ Gerentes de Projeto e Criação de uma Comunidade de Prática",
+      "company": "Huawei",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 34,
+        "specific_metrics_count": 34,
+        "generic_terms_count": 0,
+        "word_count_pt": 951,
+        "word_count_en": 871,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "47",
+          "context": "47%"
+        },
+        {
+          "type": "percentage",
+          "value": "73",
+          "context": "73%"
+        },
+        {
+          "type": "percentage",
+          "value": "47",
+          "context": "47%"
+        },
+        {
+          "type": "percentage",
+          "value": "73",
+          "context": "73%"
+        },
+        {
+          "type": "percentage",
+          "value": "47",
+          "context": "47%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "bradesco-talent-pipeline-creation",
+      "lp": "Hire and Develop the Best",
+      "title_pt": "Criação de Pipeline de Talentos Ágeis e Elevação dos Padrões de Contratação no InovaBra",
+      "company": "Bradesco",
+      "auto_calculated": {
+        "eu_nos_ratio": 3,
+        "metrics_count": 36,
+        "specific_metrics_count": 36,
+        "generic_terms_count": 0,
+        "word_count_pt": 945,
+        "word_count_en": 858,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 12,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 47
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "67",
+          "context": "67%"
+        },
+        {
+          "type": "percentage",
+          "value": "300",
+          "context": "300%"
+        },
+        {
+          "type": "percentage",
+          "value": "28",
+          "context": "28%"
+        },
+        {
+          "type": "percentage",
+          "value": "300",
+          "context": "300%"
+        },
+        {
+          "type": "percentage",
+          "value": "67",
+          "context": "67%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-underperformer-development",
+      "lp": "Hire and Develop the Best",
+      "title_pt": "Desenvolvimento de um Analista de Baixo Desempenho Através de Realocação e Ownership",
+      "company": "Unimed",
+      "auto_calculated": {
+        "eu_nos_ratio": 4,
+        "metrics_count": 25,
+        "specific_metrics_count": 25,
+        "generic_terms_count": 0,
+        "word_count_pt": 870,
+        "word_count_en": 773,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        },
+        {
+          "type": "percentage",
+          "value": "34",
+          "context": "34%"
+        },
+        {
+          "type": "percentage",
+          "value": "30",
+          "context": "30%"
+        },
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        },
+        {
+          "type": "percentage",
+          "value": "34",
+          "context": "34%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sefaz-zero-budget-pmo",
+      "lp": "Frugality",
+      "title_pt": "Geração de U$1.4M em Ganhos de Eficiência no Setor Público sem Aumento de Orçamento",
+      "company": "SEFAZ/RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 22,
+        "specific_metrics_count": 22,
+        "generic_terms_count": 0,
+        "word_count_pt": 697,
+        "word_count_en": 591,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "70",
+          "context": "70%"
+        },
+        {
+          "type": "percentage",
+          "value": "18",
+          "context": "18%"
+        },
+        {
+          "type": "percentage",
+          "value": "6",
+          "context": "6%"
+        },
+        {
+          "type": "percentage",
+          "value": "67",
+          "context": "67%"
+        },
+        {
+          "type": "percentage",
+          "value": "95",
+          "context": "95%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "huawei-resource-optimization",
+      "lp": "Frugality",
+      "title_pt": "Otimização de Recursos em um Portfólio de 50+ Projetos para Acelerar o Rollout do 4G",
+      "company": "Huawei",
+      "auto_calculated": {
+        "eu_nos_ratio": 4,
+        "metrics_count": 11,
+        "specific_metrics_count": 11,
+        "generic_terms_count": 0,
+        "word_count_pt": 525,
+        "word_count_en": 472,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "30",
+          "context": "30%"
+        },
+        {
+          "type": "percentage",
+          "value": "15",
+          "context": "15%"
+        },
+        {
+          "type": "percentage",
+          "value": "15",
+          "context": "15%"
+        },
+        {
+          "type": "percentage",
+          "value": "95",
+          "context": "95%"
+        },
+        {
+          "type": "percentage",
+          "value": "90",
+          "context": "90%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-automation-n8n",
+      "lp": "Frugality",
+      "title_pt": "Automação de Relatórios de Reconciliação Financeira Usando Ferramentas Open-Source (n8n)",
+      "company": "Unimed",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 24,
+        "specific_metrics_count": 20,
+        "generic_terms_count": 1,
+        "word_count_pt": 674,
+        "word_count_en": 625,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 14,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 49
+      },
+      "flags": [
+        "⚠️ 1 termos genéricos detectados"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "68",
+          "context": "68%"
+        },
+        {
+          "type": "percentage",
+          "value": "20",
+          "context": "20%"
+        },
+        {
+          "type": "percentage",
+          "value": "80",
+          "context": "80%"
+        },
+        {
+          "type": "percentage",
+          "value": "68",
+          "context": "68%"
+        },
+        {
+          "type": "percentage",
+          "value": "14",
+          "context": "14%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-lgpd-compliance",
+      "lp": "Success and Scale Bring Broad Responsibility",
+      "title_pt": "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes",
+      "company": "Unimed",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 8,
+        "specific_metrics_count": 8,
+        "generic_terms_count": 1,
+        "word_count_pt": 619,
+        "word_count_en": 570,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 14,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 49
+      },
+      "flags": [
+        "⚠️ 1 termos genéricos detectados"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "percentage",
+          "value": "85",
+          "context": "85%"
+        },
+        {
+          "type": "percentage",
+          "value": "60",
+          "context": "60%"
+        },
+        {
+          "type": "currency",
+          "value": "50",
+          "context": "R$ 50"
+        },
+        {
+          "type": "currency",
+          "value": "15",
+          "context": "R$ 15"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "hsbc-fatca-aml-migration",
+      "lp": "Success and Scale Bring Broad Responsibility",
+      "title_pt": "Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária",
+      "company": "HSBC",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 7,
+        "specific_metrics_count": 7,
+        "generic_terms_count": 0,
+        "word_count_pt": 398,
+        "word_count_en": 531,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 12,
+        "fup_completeness": 10,
+        "word_count_adequacy": 9.9,
+        "auto_score_total": 47
+      },
+      "flags": [
+        "⚠️ Poucas métricas específicas (7)",
+        "⚠️ Text curto (398 palavras)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,1",
+          "context": "0,1%"
+        },
+        {
+          "type": "percentage",
+          "value": "40",
+          "context": "40%"
+        },
+        {
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
+        },
+        {
+          "type": "percentage",
+          "value": "15",
+          "context": "15%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-responsible-ai-policy",
+      "lp": "Success and Scale Bring Broad Responsibility",
+      "title_pt": "Impacto Amplo das Decisões: Política de IA Responsável com Responsabilidade Social, Equidade e Transparência",
+      "company": "Sicredi",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 11,
+        "specific_metrics_count": 11,
+        "generic_terms_count": 1,
+        "word_count_pt": 766,
+        "word_count_en": 720,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 14,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 49
+      },
+      "flags": [
+        "⚠️ 1 termos genéricos detectados"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "23",
+          "context": "23%"
+        },
+        {
+          "type": "percentage",
+          "value": "28",
+          "context": "28%"
+        },
+        {
+          "type": "percentage",
+          "value": "28",
+          "context": "28%"
+        },
+        {
+          "type": "percentage",
+          "value": "23",
+          "context": "23%"
+        },
+        {
+          "type": "percentage",
+          "value": "15",
+          "context": "15%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "bradesco-agile-community-creation",
+      "lp": "Strive to be Earth's Best Employer",
+      "title_pt": "Escalei a guilda de produto e promovi 18 lideres em seis meses",
+      "company": "Bradesco Next",
+      "auto_calculated": {
+        "eu_nos_ratio": 0,
+        "metrics_count": 10,
+        "specific_metrics_count": 10,
+        "generic_terms_count": 0,
+        "word_count_pt": 459,
+        "word_count_en": 443,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 3,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 38
+      },
+      "flags": [
+        "⚠️ Ratio EU:NÓS baixo (0.0:1)"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "47",
+          "context": "47%"
+        },
+        {
+          "type": "percentage",
+          "value": "18",
+          "context": "18%"
+        },
+        {
+          "type": "percentage",
+          "value": "94",
+          "context": "94%"
+        },
+        {
+          "type": "percentage",
+          "value": "18",
+          "context": "18%"
+        },
+        {
+          "type": "percentage",
+          "value": "6",
+          "context": "6%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-360-feedback-system",
+      "lp": "Strive to be Earth's Best Employer",
+      "title_pt": "Transformei o feedback 360 em pipeline de sucessao para todos os PMs",
+      "company": "Sicredi Plataforma",
+      "auto_calculated": {
+        "eu_nos_ratio": 3,
+        "metrics_count": 19,
+        "specific_metrics_count": 18,
+        "generic_terms_count": 0,
+        "word_count_pt": 626,
+        "word_count_en": 503,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 12,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 47
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "52",
+          "context": "52%"
+        },
+        {
+          "type": "percentage",
+          "value": "85",
+          "context": "85%"
+        },
+        {
+          "type": "percentage",
+          "value": "5",
+          "context": "5%"
+        },
+        {
+          "type": "percentage",
+          "value": "10",
+          "context": "10%"
+        },
+        {
+          "type": "percentage",
+          "value": "89",
+          "context": "89%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sefaz-reverse-mentoring-program",
+      "lp": "Strive to be Earth's Best Employer",
+      "title_pt": "Criando Ambiente de Trabalho Melhor: Reverse Mentoring que Elevou eNPS para 82 e Uniu Gerações",
+      "company": "SEFAZ RS",
+      "auto_calculated": {
+        "eu_nos_ratio": 10,
+        "metrics_count": 20,
+        "specific_metrics_count": 18,
+        "generic_terms_count": 1,
+        "word_count_pt": 947,
+        "word_count_en": 897,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 14,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 49
+      },
+      "flags": [
+        "⚠️ 1 termos genéricos detectados"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "+35",
+          "context": "+35%"
+        },
+        {
+          "type": "percentage",
+          "value": "35",
+          "context": "35%"
+        },
+        {
+          "type": "percentage",
+          "value": "73",
+          "context": "73%"
+        },
+        {
+          "type": "percentage",
+          "value": "+71",
+          "context": "+71%"
+        },
+        {
+          "type": "percentage",
+          "value": "5",
+          "context": "5%"
+        }
+      ],
+      "needs_manual_review": false
+    }
+  ],
+  "statistics": {
+    "avg_auto_score": 48.1,
+    "max_auto_score": 50,
+    "min_auto_score": 37.7,
+    "cases_needing_review": 1
+  }
+}
