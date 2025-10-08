@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-08T01:41:47.514Z",
+  "run_at": "2025-10-08T01:55:30.176Z",
   "data_dir": "src/data",
   "total_cases": 80,
   "filtered_cases": 80,
@@ -3181,28 +3181,28 @@
         "warnings": []
       },
       "heur": {
-        "score": 89,
+        "score": 98,
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Customer Obsession fraca (poucos sinais)",
           "Sem conflito/resistência visível",
           "Transições STAR(L) pouco claras"
         ],
         "positives": [
-          "Métricas robustas (12)",
+          "Customer Obsession forte (4 menções relevantes)",
+          "Métricas robustas (38)",
           "Ratio EU:NÓS saudável (2:0)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 12,
+        "metricsCount": 38,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 2,
+        "customerSignals": 4,
         "conflictSignals": false,
-        "mechanismSignals": 20,
+        "mechanismSignals": 24,
         "ratio": {
           "ratio": 1,
           "counts": {
@@ -3216,9 +3216,9 @@
         },
         "parity": {
           "s": {
-            "ptLen": 571,
-            "enLen": 506,
-            "deltaPct": 0.1138353765323993
+            "ptLen": 701,
+            "enLen": 645,
+            "deltaPct": 0.07988587731811697
           },
           "t": {
             "ptLen": 442,
@@ -3231,9 +3231,9 @@
             "deltaPct": 0.04911433172302738
           },
           "r": {
-            "ptLen": 733,
-            "enLen": 675,
-            "deltaPct": 0.0791268758526603
+            "ptLen": 1752,
+            "enLen": 1695,
+            "deltaPct": 0.032534246575342464
           },
           "l": {
             "ptLen": 356,
