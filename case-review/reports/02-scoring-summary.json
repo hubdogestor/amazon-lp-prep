@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T23:33:27.899Z",
+  "generated_at": "2025-10-08T23:53:01.992Z",
   "total_cases": 71,
   "cases_scored": [
     {
@@ -9,11 +9,11 @@
       "company": "Huawei LATAM",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 16,
-        "specific_metrics_count": 16,
+        "metrics_count": 13,
+        "specific_metrics_count": 13,
         "generic_terms_count": 0,
-        "word_count_pt": 466,
-        "word_count_en": 442,
+        "word_count_pt": 412,
+        "word_count_en": 384,
         "fup_count": 10
       },
       "scores": {
@@ -44,13 +44,13 @@
         },
         {
           "type": "percentage",
-          "value": "81",
-          "context": "81%"
-        },
-        {
-          "type": "percentage",
           "value": "87",
           "context": "87%"
+        },
+        {
+          "type": "currency",
+          "value": "2,7M",
+          "context": "R$ 2,7M"
         }
       ],
       "needs_manual_review": false
@@ -62,29 +62,24 @@
       "company": "Bradesco",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 18,
-        "specific_metrics_count": 18,
+        "metrics_count": 10,
+        "specific_metrics_count": 10,
         "generic_terms_count": 0,
-        "word_count_pt": 578,
-        "word_count_en": 563,
+        "word_count_pt": 368,
+        "word_count_en": 354,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 10,
-        "auto_score_total": 50
+        "word_count_adequacy": 9.2,
+        "auto_score_total": 49.2
       },
       "flags": [
-        "✅ Métricas automáticas OK"
+        "⚠️ Text curto (368 palavras)"
       ],
       "metrics_sample": [
-        {
-          "type": "percentage",
-          "value": "41",
-          "context": "41%"
-        },
         {
           "type": "percentage",
           "value": "18",
@@ -102,8 +97,13 @@
         },
         {
           "type": "percentage",
-          "value": "63",
-          "context": "63%"
+          "value": "81",
+          "context": "81%"
+        },
+        {
+          "type": "percentage",
+          "value": "90",
+          "context": "90%"
         }
       ],
       "needs_manual_review": false
@@ -115,34 +115,25 @@
       "company": "Unimed",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 18,
-        "specific_metrics_count": 18,
+        "metrics_count": 7,
+        "specific_metrics_count": 7,
         "generic_terms_count": 0,
-        "word_count_pt": 481,
-        "word_count_en": 449,
+        "word_count_pt": 360,
+        "word_count_en": 345,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
-        "metrics_score": 15,
+        "metrics_score": 12,
         "fup_completeness": 10,
-        "word_count_adequacy": 10,
-        "auto_score_total": 50
+        "word_count_adequacy": 9,
+        "auto_score_total": 46
       },
       "flags": [
-        "✅ Métricas automáticas OK"
+        "⚠️ Poucas métricas específicas (7)",
+        "⚠️ Text curto (360 palavras)"
       ],
       "metrics_sample": [
-        {
-          "type": "percentage",
-          "value": "64",
-          "context": "64%"
-        },
-        {
-          "type": "percentage",
-          "value": "71",
-          "context": "71%"
-        },
         {
           "type": "percentage",
           "value": "80",
@@ -150,13 +141,24 @@
         },
         {
           "type": "percentage",
-          "value": "95,2",
-          "context": "95,2%"
+          "value": "82",
+          "context": "82%"
         },
         {
           "type": "percentage",
-          "value": "82",
-          "context": "82%"
+          "value": "90",
+          "context": "90%"
+        },
+        {
+          "type": "currency",
+          "value": "2,4M",
+          "context": "R$2,4M"
+        },
+        {
+          "type": "time_unit",
+          "value": "5.1",
+          "unit": "dias",
+          "context": "5.1 dias"
         }
       ],
       "needs_manual_review": false
@@ -168,29 +170,24 @@
       "company": "Unimed",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 20,
-        "specific_metrics_count": 20,
+        "metrics_count": 10,
+        "specific_metrics_count": 10,
         "generic_terms_count": 0,
-        "word_count_pt": 572,
-        "word_count_en": 525,
+        "word_count_pt": 379,
+        "word_count_en": 367,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 10,
-        "auto_score_total": 50
+        "word_count_adequacy": 9.5,
+        "auto_score_total": 49.5
       },
       "flags": [
-        "✅ Métricas automáticas OK"
+        "⚠️ Text curto (379 palavras)"
       ],
       "metrics_sample": [
-        {
-          "type": "percentage",
-          "value": "63",
-          "context": "63%"
-        },
         {
           "type": "percentage",
           "value": "70",
@@ -210,6 +207,11 @@
           "type": "percentage",
           "value": "44",
           "context": "44%"
+        },
+        {
+          "type": "percentage",
+          "value": "19",
+          "context": "19%"
         }
       ],
       "needs_manual_review": false
@@ -221,48 +223,50 @@
       "company": "SEFAZ RS",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 20,
-        "specific_metrics_count": 20,
+        "metrics_count": 7,
+        "specific_metrics_count": 7,
         "generic_terms_count": 0,
-        "word_count_pt": 553,
-        "word_count_en": 501,
+        "word_count_pt": 359,
+        "word_count_en": 340,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
-        "metrics_score": 15,
+        "metrics_score": 12,
         "fup_completeness": 10,
-        "word_count_adequacy": 10,
-        "auto_score_total": 50
+        "word_count_adequacy": 9,
+        "auto_score_total": 46
       },
       "flags": [
-        "✅ Métricas automáticas OK"
+        "⚠️ Poucas métricas específicas (7)",
+        "⚠️ Text curto (359 palavras)"
       ],
       "metrics_sample": [
         {
           "type": "percentage",
-          "value": "37",
-          "context": "37%"
+          "value": "99,1",
+          "context": "99,1%"
         },
         {
           "type": "percentage",
-          "value": "80",
-          "context": "80%"
+          "value": "93",
+          "context": "93%"
         },
         {
-          "type": "percentage",
-          "value": "60",
-          "context": "60%"
+          "type": "currency",
+          "value": "27M",
+          "context": "R$27M"
         },
         {
-          "type": "percentage",
-          "value": "52",
-          "context": "52%"
+          "type": "currency",
+          "value": "4,6M",
+          "context": "R$4,6M"
         },
         {
-          "type": "percentage",
-          "value": "70",
-          "context": "70%"
+          "type": "time_unit",
+          "value": "72",
+          "unit": "horas",
+          "context": "72 horas"
         }
       ],
       "needs_manual_review": false
@@ -273,30 +277,26 @@
       "title_pt": "Inventei motor de simplificacao de liquidez que reduziu D+3 para D+0 em marketplaces",
       "company": "Bradesco Fintech Hub",
       "auto_calculated": {
-        "eu_nos_ratio": 12,
-        "metrics_count": 20,
-        "specific_metrics_count": 20,
+        "eu_nos_ratio": 3,
+        "metrics_count": 6,
+        "specific_metrics_count": 6,
         "generic_terms_count": 0,
-        "word_count_pt": 396,
-        "word_count_en": 361,
+        "word_count_pt": 330,
+        "word_count_en": 311,
         "fup_count": 10
       },
       "scores": {
-        "eu_nos_ratio_score": 15,
-        "metrics_score": 15,
+        "eu_nos_ratio_score": 12,
+        "metrics_score": 12,
         "fup_completeness": 10,
-        "word_count_adequacy": 9.9,
-        "auto_score_total": 49.9
+        "word_count_adequacy": 8.3,
+        "auto_score_total": 42.3
       },
       "flags": [
-        "⚠️ Text curto (396 palavras)"
+        "⚠️ Poucas métricas específicas (6)",
+        "⚠️ Text curto (330 palavras)"
       ],
       "metrics_sample": [
-        {
-          "type": "percentage",
-          "value": "80",
-          "context": "80%"
-        },
         {
           "type": "percentage",
           "value": "0,35",
@@ -304,18 +304,24 @@
         },
         {
           "type": "percentage",
-          "value": "64",
-          "context": "64%"
-        },
-        {
-          "type": "percentage",
-          "value": "0,2",
-          "context": "0,2%"
-        },
-        {
-          "type": "percentage",
           "value": "82",
           "context": "82%"
+        },
+        {
+          "type": "currency",
+          "value": "19M",
+          "context": "R$19M"
+        },
+        {
+          "type": "currency",
+          "value": "7,4M",
+          "context": "R$7,4M"
+        },
+        {
+          "type": "time_unit",
+          "value": "3",
+          "unit": "dias",
+          "context": "3 dias"
         }
       ],
       "needs_manual_review": false
@@ -1069,10 +1075,10 @@
       "company": "Sicredi Woop",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 32,
-        "specific_metrics_count": 30,
+        "metrics_count": 31,
+        "specific_metrics_count": 29,
         "generic_terms_count": 0,
-        "word_count_pt": 776,
+        "word_count_pt": 833,
         "word_count_en": 709,
         "fup_count": 10
       },
@@ -1094,11 +1100,6 @@
         },
         {
           "type": "percentage",
-          "value": "217",
-          "context": "217%"
-        },
-        {
-          "type": "percentage",
           "value": "30",
           "context": "30%"
         },
@@ -1111,6 +1112,11 @@
           "type": "percentage",
           "value": "67",
           "context": "67%"
+        },
+        {
+          "type": "percentage",
+          "value": "38",
+          "context": "38%"
         }
       ],
       "needs_manual_review": false
@@ -1387,10 +1393,10 @@
       "company": "Sicredi Digital",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 14,
-        "specific_metrics_count": 14,
+        "metrics_count": 16,
+        "specific_metrics_count": 16,
         "generic_terms_count": 0,
-        "word_count_pt": 386,
+        "word_count_pt": 446,
         "word_count_en": 355,
         "fup_count": 10
       },
@@ -1398,17 +1404,22 @@
         "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 9.7,
-        "auto_score_total": 49.6
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
       },
       "flags": [
-        "⚠️ Text curto (386 palavras)"
+        "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
         {
           "type": "percentage",
           "value": "0,62",
           "context": "0,62%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,45",
+          "context": "0,45%"
         },
         {
           "type": "percentage",
@@ -1424,11 +1435,6 @@
           "type": "percentage",
           "value": "82",
           "context": "82%"
-        },
-        {
-          "type": "currency",
-          "value": "3,4M",
-          "context": "R$ 3,4M"
         }
       ],
       "needs_manual_review": false
@@ -1440,10 +1446,10 @@
       "company": "Bradesco Payments",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 17,
-        "specific_metrics_count": 17,
+        "metrics_count": 23,
+        "specific_metrics_count": 23,
         "generic_terms_count": 0,
-        "word_count_pt": 313,
+        "word_count_pt": 406,
         "word_count_en": 348,
         "fup_count": 10
       },
@@ -1451,17 +1457,27 @@
         "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 7.8,
-        "auto_score_total": 47.8
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
       },
       "flags": [
-        "⚠️ Text curto (313 palavras)"
+        "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
         {
           "type": "percentage",
+          "value": "75",
+          "context": "75%"
+        },
+        {
+          "type": "percentage",
           "value": "62",
           "context": "62%"
+        },
+        {
+          "type": "percentage",
+          "value": "38",
+          "context": "38%"
         },
         {
           "type": "percentage",
@@ -1472,16 +1488,6 @@
           "type": "percentage",
           "value": "38",
           "context": "38%"
-        },
-        {
-          "type": "percentage",
-          "value": "83",
-          "context": "83%"
-        },
-        {
-          "type": "percentage",
-          "value": "1,2",
-          "context": "1,2%"
         }
       ],
       "needs_manual_review": false
@@ -1535,59 +1541,6 @@
           "type": "percentage",
           "value": "71",
           "context": "71%"
-        }
-      ],
-      "needs_manual_review": false
-    },
-    {
-      "case_id": "bradesco-next-customer-ritual",
-      "lp": "Customer Obsession",
-      "title_pt": "Liderei o Ritual de Voz do Cliente que Levou o NPS do Next de 35 para 62",
-      "company": "Bradesco Next",
-      "auto_calculated": {
-        "eu_nos_ratio": 14,
-        "metrics_count": 42,
-        "specific_metrics_count": 41,
-        "generic_terms_count": 0,
-        "word_count_pt": 779,
-        "word_count_en": 706,
-        "fup_count": 10
-      },
-      "scores": {
-        "eu_nos_ratio_score": 15,
-        "metrics_score": 15,
-        "fup_completeness": 10,
-        "word_count_adequacy": 10,
-        "auto_score_total": 50
-      },
-      "flags": [
-        "✅ Métricas automáticas OK"
-      ],
-      "metrics_sample": [
-        {
-          "type": "percentage",
-          "value": "22",
-          "context": "22%"
-        },
-        {
-          "type": "percentage",
-          "value": "42",
-          "context": "42%"
-        },
-        {
-          "type": "percentage",
-          "value": "20",
-          "context": "20%"
-        },
-        {
-          "type": "percentage",
-          "value": "12",
-          "context": "12%"
-        },
-        {
-          "type": "percentage",
-          "value": "38",
-          "context": "38%"
         }
       ],
       "needs_manual_review": false
@@ -1863,23 +1816,23 @@
       "title_pt": "Liderei o Portal da Transparência: Fora da Zona de Conforto",
       "company": "SEFAZ/RS",
       "auto_calculated": {
-        "eu_nos_ratio": 2.67,
-        "metrics_count": 23,
-        "specific_metrics_count": 23,
+        "eu_nos_ratio": 3.33,
+        "metrics_count": 22,
+        "specific_metrics_count": 22,
         "generic_terms_count": 0,
-        "word_count_pt": 841,
+        "word_count_pt": 860,
         "word_count_en": 828,
         "fup_count": 10
       },
       "scores": {
-        "eu_nos_ratio_score": 9,
+        "eu_nos_ratio_score": 12,
         "metrics_score": 15,
         "fup_completeness": 10,
         "word_count_adequacy": 10,
-        "auto_score_total": 44
+        "auto_score_total": 47
       },
       "flags": [
-        "⚠️ Ratio EU:NÓS baixo (2.7:1)"
+        "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
         {
@@ -2022,11 +1975,11 @@
       "title_pt": "Redesenhei o Gateway SICREDI para 99.99% de Disponibilidade",
       "company": "Sicredi",
       "auto_calculated": {
-        "eu_nos_ratio": 11,
-        "metrics_count": 24,
-        "specific_metrics_count": 24,
+        "eu_nos_ratio": 13,
+        "metrics_count": 26,
+        "specific_metrics_count": 26,
         "generic_terms_count": 0,
-        "word_count_pt": 419,
+        "word_count_pt": 531,
         "word_count_en": 389,
         "fup_count": 10
       },
@@ -2058,13 +2011,13 @@
         },
         {
           "type": "percentage",
-          "value": "40",
-          "context": "40%"
+          "value": "99,99",
+          "context": "99,99%"
         },
         {
           "type": "percentage",
-          "value": "30",
-          "context": "30%"
+          "value": "40",
+          "context": "40%"
         }
       ],
       "needs_manual_review": false
@@ -2340,11 +2293,11 @@
       "title_pt": "Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior",
       "company": "Sicredi",
       "auto_calculated": {
-        "eu_nos_ratio": 10.5,
-        "metrics_count": 34,
-        "specific_metrics_count": 34,
+        "eu_nos_ratio": 11,
+        "metrics_count": 35,
+        "specific_metrics_count": 35,
         "generic_terms_count": 1,
-        "word_count_pt": 826,
+        "word_count_pt": 879,
         "word_count_en": 789,
         "fup_count": 10
       },
@@ -2361,6 +2314,16 @@
       "metrics_sample": [
         {
           "type": "percentage",
+          "value": "23",
+          "context": "23%"
+        },
+        {
+          "type": "percentage",
+          "value": "34",
+          "context": "34%"
+        },
+        {
+          "type": "percentage",
           "value": "95",
           "context": "95%"
         },
@@ -2373,16 +2336,6 @@
           "type": "percentage",
           "value": "8",
           "context": "8%"
-        },
-        {
-          "type": "percentage",
-          "value": "34",
-          "context": "34%"
-        },
-        {
-          "type": "percentage",
-          "value": "78",
-          "context": "78%"
         }
       ],
       "needs_manual_review": false
@@ -3769,7 +3722,7 @@
     }
   ],
   "statistics": {
-    "avg_auto_score": 49.2,
+    "avg_auto_score": 49,
     "max_auto_score": 50,
     "min_auto_score": 40,
     "cases_needing_review": 0
