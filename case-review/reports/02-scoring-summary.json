@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T23:16:20.166Z",
+  "generated_at": "2025-10-08T23:33:27.899Z",
   "total_cases": 71,
   "cases_scored": [
     {
@@ -1704,12 +1704,12 @@
       "title_pt": "Implementação de Framework Ágil em Escala para Banco Digital",
       "company": "Bradesco",
       "auto_calculated": {
-        "eu_nos_ratio": 8.5,
-        "metrics_count": 11,
-        "specific_metrics_count": 11,
+        "eu_nos_ratio": 10,
+        "metrics_count": 24,
+        "specific_metrics_count": 24,
         "generic_terms_count": 0,
-        "word_count_pt": 637,
-        "word_count_en": 620,
+        "word_count_pt": 820,
+        "word_count_en": 794,
         "fup_count": 10
       },
       "scores": {
@@ -1734,22 +1734,19 @@
           "context": "50%"
         },
         {
-          "type": "time_unit",
-          "value": "6",
-          "unit": "semanas",
-          "context": "6 semanas"
+          "type": "percentage",
+          "value": "100",
+          "context": "100%"
         },
         {
-          "type": "time_unit",
-          "value": "16",
-          "unit": "horas",
-          "context": "16 horas"
+          "type": "percentage",
+          "value": "89",
+          "context": "89%"
         },
         {
-          "type": "time_unit",
-          "value": "3",
-          "unit": "meses",
-          "context": "3 meses"
+          "type": "percentage",
+          "value": "52",
+          "context": "52%"
         }
       ],
       "needs_manual_review": false
@@ -3670,20 +3667,20 @@
       "title_pt": "Transformei o feedback 360 em pipeline de sucessao para todos os PMs",
       "company": "Sicredi Plataforma",
       "auto_calculated": {
-        "eu_nos_ratio": 3,
-        "metrics_count": 19,
-        "specific_metrics_count": 18,
+        "eu_nos_ratio": 13,
+        "metrics_count": 28,
+        "specific_metrics_count": 27,
         "generic_terms_count": 0,
-        "word_count_pt": 626,
-        "word_count_en": 503,
+        "word_count_pt": 993,
+        "word_count_en": 935,
         "fup_count": 10
       },
       "scores": {
-        "eu_nos_ratio_score": 12,
+        "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
         "word_count_adequacy": 10,
-        "auto_score_total": 47
+        "auto_score_total": 50
       },
       "flags": [
         "✅ Métricas automáticas OK"
@@ -3701,18 +3698,18 @@
         },
         {
           "type": "percentage",
+          "value": "48",
+          "context": "48%"
+        },
+        {
+          "type": "percentage",
           "value": "5",
           "context": "5%"
         },
         {
           "type": "percentage",
-          "value": "10",
-          "context": "10%"
-        },
-        {
-          "type": "percentage",
-          "value": "89",
-          "context": "89%"
+          "value": "18",
+          "context": "18%"
         }
       ],
       "needs_manual_review": false
@@ -3772,7 +3769,7 @@
     }
   ],
   "statistics": {
-    "avg_auto_score": 49.1,
+    "avg_auto_score": 49.2,
     "max_auto_score": 50,
     "min_auto_score": 40,
     "cases_needing_review": 0
