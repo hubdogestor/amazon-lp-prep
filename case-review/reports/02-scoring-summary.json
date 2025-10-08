@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T22:27:43.647Z",
+  "generated_at": "2025-10-08T23:16:20.166Z",
   "total_cases": 71,
   "cases_scored": [
     {
@@ -750,23 +750,23 @@
       "title_pt": "Analise de Dados para Identificar os Principais Drivers de Churn no App",
       "company": "Sicredi Woop",
       "auto_calculated": {
-        "eu_nos_ratio": 10,
-        "metrics_count": 19,
-        "specific_metrics_count": 18,
+        "eu_nos_ratio": 2.8,
+        "metrics_count": 18,
+        "specific_metrics_count": 17,
         "generic_terms_count": 0,
-        "word_count_pt": 392,
-        "word_count_en": 332,
+        "word_count_pt": 539,
+        "word_count_en": 510,
         "fup_count": 10
       },
       "scores": {
-        "eu_nos_ratio_score": 15,
+        "eu_nos_ratio_score": 9,
         "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 9.8,
-        "auto_score_total": 49.8
+        "word_count_adequacy": 10,
+        "auto_score_total": 44
       },
       "flags": [
-        "⚠️ Text curto (392 palavras)"
+        "⚠️ Ratio EU:NÓS baixo (2.8:1)"
       ],
       "metrics_sample": [
         {
@@ -803,12 +803,118 @@
       "title_pt": "Auditoria Pessoal em Processos de Validacao de Dados em Multiplos Paises",
       "company": "HSBC",
       "auto_calculated": {
-        "eu_nos_ratio": 3,
-        "metrics_count": 14,
-        "specific_metrics_count": 14,
+        "eu_nos_ratio": 10,
+        "metrics_count": 9,
+        "specific_metrics_count": 9,
         "generic_terms_count": 0,
-        "word_count_pt": 475,
-        "word_count_en": 427,
+        "word_count_pt": 513,
+        "word_count_en": 490,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "99,8",
+          "context": "99,8%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,2",
+          "context": "0,2%"
+        },
+        {
+          "type": "percentage",
+          "value": "0,05",
+          "context": "0,05%"
+        },
+        {
+          "type": "percentage",
+          "value": "35",
+          "context": "35%"
+        },
+        {
+          "type": "currency",
+          "value": "5,2",
+          "context": "$ 5,2"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "unimed-fraud-investigation",
+      "lp": "Dive Deep",
+      "title_pt": "Investigacao Manual de Anomalias em Reembolsos para Identificar Fraude em Rede",
+      "company": "Unimed",
+      "auto_calculated": {
+        "eu_nos_ratio": 4.5,
+        "metrics_count": 10,
+        "specific_metrics_count": 10,
+        "generic_terms_count": 0,
+        "word_count_pt": 429,
+        "word_count_en": 408,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "31",
+          "context": "31%"
+        },
+        {
+          "type": "percentage",
+          "value": "42",
+          "context": "42%"
+        },
+        {
+          "type": "percentage",
+          "value": "45",
+          "context": "45%"
+        },
+        {
+          "type": "currency",
+          "value": "150,",
+          "context": "R$150,"
+        },
+        {
+          "type": "currency",
+          "value": "4.8",
+          "context": "R$4.8"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "sicredi-pix-settlement",
+      "lp": "Dive Deep",
+      "title_pt": "Reducao de 47% no Tempo de Liquidacao de Pagamentos PIX",
+      "company": "Sicredi",
+      "auto_calculated": {
+        "eu_nos_ratio": 3,
+        "metrics_count": 19,
+        "specific_metrics_count": 19,
+        "generic_terms_count": 0,
+        "word_count_pt": 535,
+        "word_count_en": 497,
         "fup_count": 10
       },
       "scores": {
@@ -824,116 +930,14 @@
       "metrics_sample": [
         {
           "type": "percentage",
-          "value": "67",
-          "context": "67%"
+          "value": "40",
+          "context": "40%"
         },
         {
           "type": "percentage",
-          "value": "99,8",
-          "context": "99,8%"
+          "value": "65",
+          "context": "65%"
         },
-        {
-          "type": "percentage",
-          "value": "0,3",
-          "context": "0,3%"
-        },
-        {
-          "type": "percentage",
-          "value": "0,05",
-          "context": "0,05%"
-        },
-        {
-          "type": "percentage",
-          "value": "100",
-          "context": "100%"
-        }
-      ],
-      "needs_manual_review": false
-    },
-    {
-      "case_id": "unimed-fraud-investigation",
-      "lp": "Dive Deep",
-      "title_pt": "Investigacao Manual de Anomalias em Reembolsos para Identificar Fraude em Rede",
-      "company": "Unimed",
-      "auto_calculated": {
-        "eu_nos_ratio": 10,
-        "metrics_count": 5,
-        "specific_metrics_count": 5,
-        "generic_terms_count": 1,
-        "word_count_pt": 242,
-        "word_count_en": 220,
-        "fup_count": 10
-      },
-      "scores": {
-        "eu_nos_ratio_score": 15,
-        "metrics_score": 8,
-        "fup_completeness": 10,
-        "word_count_adequacy": 6,
-        "auto_score_total": 39
-      },
-      "flags": [
-        "⚠️ Poucas métricas específicas (5)",
-        "⚠️ 1 termos genéricos detectados",
-        "⚠️ Text curto (242 palavras)"
-      ],
-      "metrics_sample": [
-        {
-          "type": "percentage",
-          "value": "42",
-          "context": "42%"
-        },
-        {
-          "type": "percentage",
-          "value": "31",
-          "context": "31%"
-        },
-        {
-          "type": "time_unit",
-          "value": "6",
-          "unit": "meses",
-          "context": "6 meses"
-        },
-        {
-          "type": "time_unit",
-          "value": "11",
-          "unit": "min",
-          "context": "11 min"
-        },
-        {
-          "type": "transition",
-          "from": "25",
-          "to": "11",
-          "context": "25 para 11"
-        }
-      ],
-      "needs_manual_review": true
-    },
-    {
-      "case_id": "sicredi-pix-settlement",
-      "lp": "Dive Deep",
-      "title_pt": "Reducao de 47% no Tempo de Liquidacao de Pagamentos PIX",
-      "company": "Sicredi",
-      "auto_calculated": {
-        "eu_nos_ratio": 10,
-        "metrics_count": 6,
-        "specific_metrics_count": 5,
-        "generic_terms_count": 0,
-        "word_count_pt": 223,
-        "word_count_en": 205,
-        "fup_count": 10
-      },
-      "scores": {
-        "eu_nos_ratio_score": 15,
-        "metrics_score": 9,
-        "fup_completeness": 10,
-        "word_count_adequacy": 5.6,
-        "auto_score_total": 39.6
-      },
-      "flags": [
-        "⚠️ Poucas métricas específicas (5)",
-        "⚠️ Text curto (223 palavras)"
-      ],
-      "metrics_sample": [
         {
           "type": "percentage",
           "value": "80",
@@ -941,25 +945,13 @@
         },
         {
           "type": "percentage",
-          "value": "0,4",
-          "context": "0,4%"
+          "value": "47",
+          "context": "47%"
         },
         {
-          "type": "currency",
-          "value": "2M",
-          "context": "R$2M"
-        },
-        {
-          "type": "time_unit",
-          "value": "60",
-          "unit": "dias",
-          "context": "60 dias"
-        },
-        {
-          "type": "transition",
-          "from": "95",
-          "to": "2,9",
-          "context": "95 para 2,9"
+          "type": "percentage",
+          "value": "0.4",
+          "context": "0.4%"
         }
       ],
       "needs_manual_review": false
@@ -1712,23 +1704,23 @@
       "title_pt": "Implementação de Framework Ágil em Escala para Banco Digital",
       "company": "Bradesco",
       "auto_calculated": {
-        "eu_nos_ratio": 0,
-        "metrics_count": 9,
-        "specific_metrics_count": 9,
+        "eu_nos_ratio": 8.5,
+        "metrics_count": 11,
+        "specific_metrics_count": 11,
         "generic_terms_count": 0,
-        "word_count_pt": 431,
-        "word_count_en": 409,
+        "word_count_pt": 637,
+        "word_count_en": 620,
         "fup_count": 10
       },
       "scores": {
-        "eu_nos_ratio_score": 3,
+        "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
         "word_count_adequacy": 10,
-        "auto_score_total": 38
+        "auto_score_total": 50
       },
       "flags": [
-        "⚠️ Ratio EU:NÓS baixo (0.0:1)"
+        "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
         {
@@ -1755,9 +1747,9 @@
         },
         {
           "type": "time_unit",
-          "value": "2",
-          "unit": "dias",
-          "context": "2 dias"
+          "value": "3",
+          "unit": "meses",
+          "context": "3 meses"
         }
       ],
       "needs_manual_review": false
@@ -1980,24 +1972,23 @@
       "title_pt": "Elevei o Padrão do PMO da SEFAZ com Foco em Valor ao Cidadão",
       "company": "SEFAZ/RS",
       "auto_calculated": {
-        "eu_nos_ratio": 0,
-        "metrics_count": 16,
-        "specific_metrics_count": 16,
+        "eu_nos_ratio": 10,
+        "metrics_count": 17,
+        "specific_metrics_count": 17,
         "generic_terms_count": 0,
-        "word_count_pt": 388,
-        "word_count_en": 408,
+        "word_count_pt": 653,
+        "word_count_en": 619,
         "fup_count": 10
       },
       "scores": {
-        "eu_nos_ratio_score": 3,
+        "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 9.7,
-        "auto_score_total": 37.7
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
       },
       "flags": [
-        "⚠️ Ratio EU:NÓS baixo (0.0:1)",
-        "⚠️ Text curto (388 palavras)"
+        "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
         {
@@ -2012,6 +2003,11 @@
         },
         {
           "type": "percentage",
+          "value": "63",
+          "context": "63%"
+        },
+        {
+          "type": "percentage",
           "value": "32",
           "context": "32%"
         },
@@ -2019,11 +2015,6 @@
           "type": "percentage",
           "value": "63",
           "context": "63%"
-        },
-        {
-          "type": "percentage",
-          "value": "6,8",
-          "context": "6,8%"
         }
       ],
       "needs_manual_review": false
@@ -2140,23 +2131,23 @@
       "title_pt": "Refiz Plataforma de Telemedicina do Zero Após NPS 28 para Atingir Padrão de Excelência (NPS 84)",
       "company": "Unimed",
       "auto_calculated": {
-        "eu_nos_ratio": 1,
-        "metrics_count": 26,
-        "specific_metrics_count": 26,
+        "eu_nos_ratio": 57,
+        "metrics_count": 30,
+        "specific_metrics_count": 30,
         "generic_terms_count": 0,
-        "word_count_pt": 713,
-        "word_count_en": 665,
+        "word_count_pt": 942,
+        "word_count_en": 881,
         "fup_count": 10
       },
       "scores": {
-        "eu_nos_ratio_score": 3,
+        "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
         "word_count_adequacy": 10,
-        "auto_score_total": 38
+        "auto_score_total": 50
       },
       "flags": [
-        "⚠️ Ratio EU:NÓS baixo (1.0:1)"
+        "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
         {
@@ -2181,8 +2172,8 @@
         },
         {
           "type": "percentage",
-          "value": "94",
-          "context": "94%"
+          "value": "90",
+          "context": "90%"
         }
       ],
       "needs_manual_review": false
@@ -3041,23 +3032,23 @@
       "title_pt": "Discordei da priorizacao de MVP, aceitei o voto do comite e ainda entreguei o top recurso pedido",
       "company": "Bradesco Next",
       "auto_calculated": {
-        "eu_nos_ratio": 1.5,
+        "eu_nos_ratio": 22,
         "metrics_count": 13,
         "specific_metrics_count": 13,
         "generic_terms_count": 0,
-        "word_count_pt": 588,
-        "word_count_en": 568,
+        "word_count_pt": 728,
+        "word_count_en": 701,
         "fup_count": 10
       },
       "scores": {
-        "eu_nos_ratio_score": 3,
+        "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
         "word_count_adequacy": 10,
-        "auto_score_total": 38
+        "auto_score_total": 50
       },
       "flags": [
-        "⚠️ Ratio EU:NÓS baixo (1.5:1)"
+        "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
         {
@@ -3626,23 +3617,23 @@
       "title_pt": "Escalei a guilda de produto e promovi 18 lideres em seis meses",
       "company": "Bradesco Next",
       "auto_calculated": {
-        "eu_nos_ratio": 0,
+        "eu_nos_ratio": 10,
         "metrics_count": 10,
         "specific_metrics_count": 10,
         "generic_terms_count": 0,
-        "word_count_pt": 459,
-        "word_count_en": 443,
+        "word_count_pt": 642,
+        "word_count_en": 609,
         "fup_count": 10
       },
       "scores": {
-        "eu_nos_ratio_score": 3,
+        "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
         "word_count_adequacy": 10,
-        "auto_score_total": 38
+        "auto_score_total": 50
       },
       "flags": [
-        "⚠️ Ratio EU:NÓS baixo (0.0:1)"
+        "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
         {
@@ -3781,9 +3772,9 @@
     }
   ],
   "statistics": {
-    "avg_auto_score": 48.1,
+    "avg_auto_score": 49.1,
     "max_auto_score": 50,
-    "min_auto_score": 37.7,
-    "cases_needing_review": 1
+    "min_auto_score": 40,
+    "cases_needing_review": 0
   }
 }
