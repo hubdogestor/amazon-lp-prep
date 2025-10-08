@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-08T11:16:07.817Z",
+  "run_at": "2025-10-08T11:49:34.471Z",
   "data_dir": "src/data",
   "total_cases": 80,
   "filtered_cases": 80,
@@ -804,28 +804,31 @@
         "score": 100,
         "status": "Ready",
         "dealbreakers": [],
-        "warnings": [],
+        "warnings": [
+          "Sem métricas financeiras claras",
+          "Transições STAR(L) pouco claras"
+        ],
         "positives": [
-          "Customer Obsession forte (13 menções relevantes)",
-          "Métricas robustas (16)",
-          "Ratio EU:NÓS saudável (6:0)",
+          "Customer Obsession forte (4 menções relevantes)",
+          "Métricas robustas (8)",
+          "Ratio EU:NÓS saudável (2:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados",
-          "Bias for Action robusto (24 sinais de velocidade/risco)"
+          "Bias for Action robusto (11 sinais de velocidade/risco)"
         ],
-        "metricsCount": 16,
+        "metricsCount": 8,
         "metricCategories": {
-          "financial": true,
+          "financial": false,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 13,
+        "customerSignals": 4,
         "conflictSignals": true,
-        "mechanismSignals": 15,
+        "mechanismSignals": 6,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 6,
+            "eu": 2,
             "nos": 0
           }
         },
@@ -835,35 +838,35 @@
         },
         "parity": {
           "s": {
-            "ptLen": 993,
-            "enLen": 963,
-            "deltaPct": 0.030211480362537766
+            "ptLen": 548,
+            "enLen": 487,
+            "deltaPct": 0.11131386861313869
           },
           "t": {
-            "ptLen": 956,
-            "enLen": 909,
-            "deltaPct": 0.049163179916317995
+            "ptLen": 534,
+            "enLen": 537,
+            "deltaPct": 0.00558659217877095
           },
           "a": {
-            "ptLen": 2027,
-            "enLen": 1908,
-            "deltaPct": 0.058707449432659105
+            "ptLen": 1055,
+            "enLen": 1046,
+            "deltaPct": 0.008530805687203791
           },
           "r": {
-            "ptLen": 1190,
-            "enLen": 1109,
-            "deltaPct": 0.0680672268907563
+            "ptLen": 546,
+            "enLen": 524,
+            "deltaPct": 0.040293040293040296
           },
           "l": {
-            "ptLen": 1435,
-            "enLen": 1423,
-            "deltaPct": 0.008362369337979094
+            "ptLen": 617,
+            "enLen": 619,
+            "deltaPct": 0.0032310177705977385
           }
         },
         "hookSignals": true,
-        "transitionSignals": 4,
+        "transitionSignals": 1,
         "micDropSignals": true,
-        "biasSignals": 24
+        "biasSignals": 11
       },
       "changes": []
     },
@@ -1040,27 +1043,29 @@
         "score": 100,
         "status": "Ready",
         "dealbreakers": [],
-        "warnings": [],
+        "warnings": [
+          "Sem métricas de cliente explícitas"
+        ],
         "positives": [
-          "Customer Obsession forte (41 menções relevantes)",
-          "Métricas robustas (25)",
-          "Ratio EU:NÓS saudável (6:0)",
+          "Customer Obsession forte (18 menções relevantes)",
+          "Métricas robustas (14)",
+          "Ratio EU:NÓS saudável (1:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 25,
+        "metricsCount": 14,
         "metricCategories": {
           "financial": true,
-          "customer": true,
+          "customer": false,
           "operational": true
         },
-        "customerSignals": 41,
+        "customerSignals": 18,
         "conflictSignals": true,
-        "mechanismSignals": 18,
+        "mechanismSignals": 7,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 6,
+            "eu": 1,
             "nos": 0
           }
         },
@@ -1070,35 +1075,35 @@
         },
         "parity": {
           "s": {
-            "ptLen": 1169,
-            "enLen": 1063,
-            "deltaPct": 0.09067579127459367
+            "ptLen": 840,
+            "enLen": 773,
+            "deltaPct": 0.07976190476190476
           },
           "t": {
-            "ptLen": 900,
-            "enLen": 839,
-            "deltaPct": 0.06777777777777778
+            "ptLen": 583,
+            "enLen": 546,
+            "deltaPct": 0.0634648370497427
           },
           "a": {
-            "ptLen": 2158,
-            "enLen": 1933,
-            "deltaPct": 0.10426320667284522
+            "ptLen": 964,
+            "enLen": 871,
+            "deltaPct": 0.09647302904564316
           },
           "r": {
-            "ptLen": 1699,
-            "enLen": 1458,
-            "deltaPct": 0.1418481459682166
+            "ptLen": 671,
+            "enLen": 607,
+            "deltaPct": 0.09538002980625931
           },
           "l": {
-            "ptLen": 1679,
-            "enLen": 1531,
-            "deltaPct": 0.08814770696843359
+            "ptLen": 841,
+            "enLen": 768,
+            "deltaPct": 0.08680142687277051
           }
         },
         "hookSignals": true,
         "transitionSignals": 2,
         "micDropSignals": true,
-        "biasSignals": 6
+        "biasSignals": 1
       },
       "changes": []
     },
@@ -1107,40 +1112,42 @@
       "case_id": "hsbc-fatca-aml-migration",
       "title_pt": "Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária",
       "title_en": "FATCA and AML Controls Implementation in Billion-Dollar Operation",
-      "status": "Ready",
+      "status": "Needs-Polish",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 95,
-        "status": "Ready",
+        "score": 82,
+        "status": "Needs-Polish",
         "dealbreakers": [],
         "warnings": [
+          "Customer Obsession fraca (poucos sinais)",
           "Sem métricas de cliente explícitas",
-          "Sem conflito/resistência visível",
-          "Transições STAR(L) pouco claras"
+          "Sem métricas operacionais explícitas",
+          "Transições STAR(L) pouco claras",
+          "Mic-drop/aprendizado forte não identificado"
         ],
         "positives": [
-          "Customer Obsession forte (14 menções relevantes)",
-          "Métricas robustas (16)",
-          "Ratio EU:NÓS saudável (3:0)",
+          "Métricas robustas (14)",
+          "Ratio EU:NÓS saudável (0:0)",
+          "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 16,
+        "metricsCount": 14,
         "metricCategories": {
           "financial": true,
           "customer": false,
-          "operational": true
+          "operational": false
         },
-        "customerSignals": 14,
-        "conflictSignals": false,
-        "mechanismSignals": 16,
+        "customerSignals": 2,
+        "conflictSignals": true,
+        "mechanismSignals": 10,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 3,
+            "eu": 0,
             "nos": 0
           }
         },
@@ -1150,34 +1157,34 @@
         },
         "parity": {
           "s": {
-            "ptLen": 442,
-            "enLen": 415,
-            "deltaPct": 0.06108597285067873
+            "ptLen": 374,
+            "enLen": 377,
+            "deltaPct": 0.007957559681697613
           },
           "t": {
-            "ptLen": 507,
-            "enLen": 471,
-            "deltaPct": 0.07100591715976332
+            "ptLen": 422,
+            "enLen": 402,
+            "deltaPct": 0.04739336492890995
           },
           "a": {
-            "ptLen": 1755,
-            "enLen": 1577,
-            "deltaPct": 0.10142450142450142
+            "ptLen": 913,
+            "enLen": 844,
+            "deltaPct": 0.0755750273822563
           },
           "r": {
-            "ptLen": 624,
-            "enLen": 588,
-            "deltaPct": 0.057692307692307696
+            "ptLen": 459,
+            "enLen": 435,
+            "deltaPct": 0.05228758169934641
           },
           "l": {
-            "ptLen": 682,
-            "enLen": 649,
-            "deltaPct": 0.04838709677419355
+            "ptLen": 436,
+            "enLen": 433,
+            "deltaPct": 0.006880733944954129
           }
         },
         "hookSignals": true,
-        "transitionSignals": 0,
-        "micDropSignals": true,
+        "transitionSignals": 1,
+        "micDropSignals": false,
         "biasSignals": 0
       },
       "changes": []
@@ -1187,41 +1194,42 @@
       "case_id": "sicredi-responsible-ai-policy",
       "title_pt": "Impacto Amplo das Decisões: Política de IA Responsável com Responsabilidade Social, Equidade e Transparência",
       "title_en": "Broader Impact of Decisions: Responsible AI Policy with Social Responsibility, Equity and Transparency",
-      "status": "Ready",
+      "status": "KO",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 100,
-        "status": "Ready",
-        "dealbreakers": [],
+        "score": 8,
+        "status": "KO",
+        "dealbreakers": [
+          "Menos de 8 métricas (6)",
+          "Ratio EU:NÓS abaixo de 2:1 (2:2)"
+        ],
         "warnings": [
           "Sem métricas de cliente explícitas",
-          "Transições STAR(L) pouco claras"
+          "Mic-drop/aprendizado forte não identificado"
         ],
         "positives": [
-          "Customer Obsession forte (20 menções relevantes)",
-          "Métricas robustas (33)",
-          "Ratio EU:NÓS saudável (4:0)",
+          "Customer Obsession forte (9 menções relevantes)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 33,
+        "metricsCount": 6,
         "metricCategories": {
           "financial": true,
           "customer": false,
           "operational": true
         },
-        "customerSignals": 20,
+        "customerSignals": 9,
         "conflictSignals": true,
-        "mechanismSignals": 7,
+        "mechanismSignals": 8,
         "ratio": {
-          "ratio": 1,
+          "ratio": 0.5,
           "counts": {
-            "eu": 4,
-            "nos": 0
+            "eu": 2,
+            "nos": 2
           }
         },
         "recency": {
@@ -1230,35 +1238,35 @@
         },
         "parity": {
           "s": {
-            "ptLen": 1050,
-            "enLen": 1000,
-            "deltaPct": 0.047619047619047616
+            "ptLen": 502,
+            "enLen": 476,
+            "deltaPct": 0.05179282868525897
           },
           "t": {
-            "ptLen": 734,
-            "enLen": 691,
-            "deltaPct": 0.05858310626702997
+            "ptLen": 471,
+            "enLen": 450,
+            "deltaPct": 0.044585987261146494
           },
           "a": {
-            "ptLen": 1884,
-            "enLen": 1720,
-            "deltaPct": 0.0870488322717622
+            "ptLen": 935,
+            "enLen": 925,
+            "deltaPct": 0.0106951871657754
           },
           "r": {
-            "ptLen": 857,
-            "enLen": 810,
-            "deltaPct": 0.05484247374562427
+            "ptLen": 595,
+            "enLen": 587,
+            "deltaPct": 0.013445378151260505
           },
           "l": {
-            "ptLen": 901,
-            "enLen": 867,
-            "deltaPct": 0.03773584905660377
+            "ptLen": 570,
+            "enLen": 553,
+            "deltaPct": 0.02982456140350877
           }
         },
         "hookSignals": true,
-        "transitionSignals": 1,
-        "micDropSignals": true,
-        "biasSignals": 0
+        "transitionSignals": 2,
+        "micDropSignals": false,
+        "biasSignals": 1
       },
       "changes": []
     },

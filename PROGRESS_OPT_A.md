@@ -20,7 +20,7 @@ Completar **OPT 1.1 (Hooks) + OPT 1.2 (Transitions)** nos **48 cases restantes**
 
 ---
 
-## ✅ **CASES COMPLETOS (26/68 — 38%)**
+## ✅ **CASES COMPLETOS (32/68 — 47%)**
 
 ### **PHASE 2 — TOP 20 Cases (Completos Anteriormente)**
 
@@ -51,24 +51,24 @@ Completar **OPT 1.1 (Hooks) + OPT 1.2 (Transitions)** nos **48 cases restantes**
 22. ✅ huawei-4g-rollout-analysis (are_right_a_lot) — score 100
 23. ✅ sicredi-api-pricing-model (are_right_a_lot) — score 100
 
-### **SESSÃO 2 — BATCH 7 Parte 2 (3 cases completos) 🎉**
+### **SESSÃO 2 — BATCH 7 Parte 2 (3 cases completos)**
 
 24. ✅ sefaz-reverse-mentoring-program (best_employer) — score 100
 25. ✅ sicredi-ml-credit-analysis (bias_for_action) — score 100
 26. ✅ sefaz-emergency-tax-portal (bias_for_action) — score 100
 
+### **SESSÃO 3 — BATCH 8 (6 cases completos) 🎉**
+
+27. ✅ calculated-risk-time-critical (bias_for_action) — score 100
+28. ✅ unimed-lgpd-compliance (broad_responsibility) — score 100
+29. ⏸️ hsbc-fatca-aml-migration (broad_responsibility) — score 95 (original mantido)
+30. ✅ sicredi-responsible-ai-policy (broad_responsibility) — score 100
+31. ✅ sicredi-frictionless-checkout (customer_obsession) — score 89
+32. ✅ sicredi-fraud-reduction (deliver_results) — score 100
+
 ---
 
-## ⏳ **CASES RESTANTES (42/68 — 62%)**
-
-### **BATCH 8 — bias_for_action + broad_responsibility + customer_obsession (6 cases)**
-
-27. ⏳ calculated-risk-time-critical (bias_for_action)
-28. ⏳ unimed-lgpd-compliance (broad_responsibility)
-29. ⏳ hsbc-fatca-aml-migration (broad_responsibility)
-30. ⏳ sicredi-responsible-ai-policy (broad_responsibility)
-31. ⏳ sicredi-frictionless-checkout (customer_obsession)
-32. ⏳ sicredi-fraud-reduction (deliver_results)
+## ⏳ **CASES RESTANTES (36/68 — 53%)**
 
 ### **BATCH 9 — deliver_results + disagree_and_commit + dive_deep (6 cases)**
 
