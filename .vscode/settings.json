@@ -1,3 +1,7 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    // Execução totalmente automática - sem prompts de confirmação
+    "github.copilot.chat.executeCommands": "allow",
+    "github.copilot.chat.confirmFileOperations": false,
+    "security.workspace.trust.enabled": false
 }
