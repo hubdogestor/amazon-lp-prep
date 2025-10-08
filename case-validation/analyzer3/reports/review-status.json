@@ -1,5 +1,5 @@
 {
-  "run_at": "2025-10-08T09:59:36.317Z",
+  "run_at": "2025-10-08T10:11:48.528Z",
   "data_dir": "src/data",
   "total_cases": 80,
   "filtered_cases": 80,
@@ -489,28 +489,27 @@
         "score": 100,
         "status": "Ready",
         "dealbreakers": [],
-        "warnings": [
-          "Sem conflito/resistência visível"
-        ],
+        "warnings": [],
         "positives": [
-          "Customer Obsession forte (16 menções relevantes)",
-          "Métricas robustas (16)",
-          "Ratio EU:NÓS saudável (4:0)",
+          "Customer Obsession forte (11 menções relevantes)",
+          "Métricas robustas (25)",
+          "Ratio EU:NÓS saudável (7:0)",
+          "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 16,
+        "metricsCount": 25,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 16,
-        "conflictSignals": false,
-        "mechanismSignals": 15,
+        "customerSignals": 11,
+        "conflictSignals": true,
+        "mechanismSignals": 22,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 4,
+            "eu": 7,
             "nos": 0
           }
         },
@@ -520,29 +519,29 @@
         },
         "parity": {
           "s": {
-            "ptLen": 518,
-            "enLen": 446,
-            "deltaPct": 0.138996138996139
+            "ptLen": 813,
+            "enLen": 739,
+            "deltaPct": 0.0910209102091021
           },
           "t": {
-            "ptLen": 707,
-            "enLen": 640,
-            "deltaPct": 0.09476661951909476
+            "ptLen": 977,
+            "enLen": 921,
+            "deltaPct": 0.057318321392016376
           },
           "a": {
-            "ptLen": 934,
-            "enLen": 887,
-            "deltaPct": 0.05032119914346895
+            "ptLen": 1587,
+            "enLen": 1512,
+            "deltaPct": 0.04725897920604915
           },
           "r": {
-            "ptLen": 983,
-            "enLen": 915,
-            "deltaPct": 0.06917599186164802
+            "ptLen": 1475,
+            "enLen": 1362,
+            "deltaPct": 0.07661016949152542
           },
           "l": {
-            "ptLen": 1105,
-            "enLen": 1050,
-            "deltaPct": 0.049773755656108594
+            "ptLen": 1790,
+            "enLen": 1710,
+            "deltaPct": 0.0446927374301676
           }
         },
         "hookSignals": true,
@@ -651,26 +650,26 @@
         "dealbreakers": [],
         "warnings": [],
         "positives": [
-          "Customer Obsession forte (12 menções relevantes)",
-          "Métricas robustas (33)",
-          "Ratio EU:NÓS saudável (6:0)",
+          "Customer Obsession forte (18 menções relevantes)",
+          "Métricas robustas (49)",
+          "Ratio EU:NÓS saudável (10:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados",
-          "Bias for Action robusto (4 sinais de velocidade/risco)"
+          "Bias for Action robusto (9 sinais de velocidade/risco)"
         ],
-        "metricsCount": 33,
+        "metricsCount": 49,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 12,
+        "customerSignals": 18,
         "conflictSignals": true,
-        "mechanismSignals": 2,
+        "mechanismSignals": 8,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 6,
+            "eu": 10,
             "nos": 0
           }
         },
@@ -680,35 +679,35 @@
         },
         "parity": {
           "s": {
-            "ptLen": 658,
-            "enLen": 617,
-            "deltaPct": 0.06231003039513678
+            "ptLen": 1068,
+            "enLen": 1003,
+            "deltaPct": 0.060861423220973786
           },
           "t": {
-            "ptLen": 269,
-            "enLen": 226,
-            "deltaPct": 0.15985130111524162
+            "ptLen": 782,
+            "enLen": 753,
+            "deltaPct": 0.0370843989769821
           },
           "a": {
-            "ptLen": 1140,
-            "enLen": 934,
-            "deltaPct": 0.18070175438596492
+            "ptLen": 1898,
+            "enLen": 1752,
+            "deltaPct": 0.07692307692307693
           },
           "r": {
-            "ptLen": 584,
-            "enLen": 525,
-            "deltaPct": 0.10102739726027397
+            "ptLen": 1141,
+            "enLen": 1070,
+            "deltaPct": 0.06222611744084137
           },
           "l": {
-            "ptLen": 260,
-            "enLen": 276,
-            "deltaPct": 0.057971014492753624
+            "ptLen": 1340,
+            "enLen": 1261,
+            "deltaPct": 0.05895522388059701
           }
         },
         "hookSignals": true,
         "transitionSignals": 4,
         "micDropSignals": true,
-        "biasSignals": 4
+        "biasSignals": 9
       },
       "changes": []
     },
@@ -721,9 +720,7 @@
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": [
-          "desequil�brio PT/EN em 's' (diferen�a >25%)"
-        ]
+        "warnings": []
       },
       "heur": {
         "score": 100,
@@ -731,26 +728,26 @@
         "dealbreakers": [],
         "warnings": [],
         "positives": [
-          "Customer Obsession forte (16 menções relevantes)",
-          "Métricas robustas (14)",
-          "Ratio EU:NÓS saudável (8:0)",
+          "Customer Obsession forte (47 menções relevantes)",
+          "Métricas robustas (20)",
+          "Ratio EU:NÓS saudável (11:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados",
-          "Bias for Action robusto (7 sinais de velocidade/risco)"
+          "Bias for Action robusto (17 sinais de velocidade/risco)"
         ],
-        "metricsCount": 14,
+        "metricsCount": 20,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 16,
+        "customerSignals": 47,
         "conflictSignals": true,
-        "mechanismSignals": 10,
+        "mechanismSignals": 21,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 8,
+            "eu": 11,
             "nos": 0
           }
         },
@@ -760,35 +757,35 @@
         },
         "parity": {
           "s": {
-            "ptLen": 407,
-            "enLen": 281,
-            "deltaPct": 0.3095823095823096
+            "ptLen": 900,
+            "enLen": 808,
+            "deltaPct": 0.10222222222222223
           },
           "t": {
-            "ptLen": 257,
-            "enLen": 245,
-            "deltaPct": 0.04669260700389105
+            "ptLen": 908,
+            "enLen": 835,
+            "deltaPct": 0.08039647577092511
           },
           "a": {
-            "ptLen": 1478,
-            "enLen": 1168,
-            "deltaPct": 0.20974289580514208
+            "ptLen": 2547,
+            "enLen": 2339,
+            "deltaPct": 0.08166470357283079
           },
           "r": {
-            "ptLen": 568,
-            "enLen": 515,
-            "deltaPct": 0.09330985915492958
+            "ptLen": 1449,
+            "enLen": 1333,
+            "deltaPct": 0.0800552104899931
           },
           "l": {
-            "ptLen": 272,
-            "enLen": 246,
-            "deltaPct": 0.09558823529411764
+            "ptLen": 1480,
+            "enLen": 1405,
+            "deltaPct": 0.05067567567567568
           }
         },
         "hookSignals": true,
         "transitionSignals": 2,
         "micDropSignals": true,
-        "biasSignals": 7
+        "biasSignals": 17
       },
       "changes": []
     },
