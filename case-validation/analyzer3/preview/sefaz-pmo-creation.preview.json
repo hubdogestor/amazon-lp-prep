@@ -5,21 +5,22 @@
     "title_pt": "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero",
     "title_en": "Institutional PMO Structuring and PROFISCO II Governance from Scratch",
     "company": "SEFAZ/RS",
-    "period": "01/2024-12/2025",
+    "period": "08/2024-11/2025",
     "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
-      "s": "Eu recebi um ofício do BID com alerta vermelho: se em 45 dias a SEFAZ/RS não apresentasse um plano robusto de governança para o PROFISCO II (R$ 180M), o desembolso de US$ 12M seria congelado. Eu enxergava a CAGE tocando 28 projetos críticos sem PMO, três iniciativas duplicadas queimando R$ 4,2M e 18 auditorias em atraso. Cada diretor dizia \"isso é da outra secretaria\" enquanto 42 mil contribuintes aguardavam melhorias em serviços digitais que nunca chegavam.",
-      "t": "Meu contrato dizia suporte metodológico, mas eu me declarei owner único da governança. Eu assumi como metas zerar suspensão de desembolso, eliminar duplicidade, reduzir desvio de prazo de 23% para abaixo de 8% e entregar dashboards diários para secretários e BID. Eu prometi ao Secretário da Fazenda um blueprint em sete dias e rituais operando em 30 sem contratar consultoria externa.",
+      "s": "Eu recebi um ofício do BID com alerta vermelho: se em 45 dias a SEFAZ/RS não apresentasse um plano robusto de governança para o PROFISCO II (R$ 180M), o desembolso de US$ 12M seria congelado. Estruturar PMO NÃO ERA MINHA FUNÇÃO—meu contrato dizia apenas suporte metodológico. Mas eu enxergava a CAGE tocando 28 projetos críticos sem governança, três iniciativas duplicadas queimando R$ 4,2M e 18 auditorias em atraso. Cada diretor dizia \"isso é da outra secretaria\" enquanto 42 mil contribuintes aguardavam melhorias em serviços digitais que nunca chegavam. Eu decidi ir além do meu escopo e assumir responsabilidade de ponta a ponta.",
+      "t": "Ignorando meu escopo formal, eu me declarei owner único da governança e assumi responsabilidade pessoal. Eu tracei metas de longo prazo: zerar suspensão de desembolso, eliminar duplicidade, reduzir desvio de prazo de 23% para abaixo de 8% e estruturar mecanismos que sobrevivessem à minha saída. Eu prometi ao Secretário da Fazenda um blueprint em sete dias e rituais operando em 30 sem contratar consultoria externa, pensando em sustentabilidade além do meu contrato.",
       "a": "Eu mergulhei em 11 bases (S2GPR, FPE, SEI, e-Social) no primeiro fim de semana e construí no Power BI um mapa dos 28 projetos com burn rate, entregáveis e impacto no contribuinte. Eu usei o mapa para derrubar a proposta de contratar consultoria de R$ 1,1M provando que 62% dos atrasos vinham da ausência de mecanismos internos. Em seguida: (1) Eu desenhei a governança em três loops — war room diário comigo, ritos quinzenais com secretários e steering mensal com o BID com pacote de métricas (NPS interno, savings, risco regulatório); (2) Eu escrevi 31 templates e automatizei 18 dashboards em SharePoint/Power BI, reduzindo coleta manual de seis horas para 40 minutos por projeto; (3) Eu implantei mecanismo de Customer Obsession entrevistando 37 auditores e 52 usuários fiscais, repriorizando backlog por impacto no cidadão e reescalando o portfólio; (4) Eu quebrei resistência de diretorias que alegavam burocracia facilitando workshops com dados — mostrar que fundir três projetos digitais em um liberaria R$ 1,8M e cortaria tempo de entrega ao contribuinte de 210 para 120 dias; (5) Eu abri linha direta com o BID enviando relatórios semanais com 16 KPIs, matriz de risco atualizada e registro de decisões, evitando três ofícios de não conformidade.",
       "r": "Eu vi o BID liberar integralmente os US$ 12M em 90 dias, sem retenções. Eu eliminei 100% das duplicidades, reduzi o desvio médio de prazo de 23% para 7,4% e recuperei R$ 2,3M do orçamento anual. Eu elevei o NPS dos serviços digitais para contribuintes de 52 para 76, reduzi o tempo de restituição prioritária de ICMS de 28 para nove dias e automatizei 72% dos reports, liberando 1.520 horas da equipe por ano. Eu capacitei oito servidores que se certificaram no PMI, assumiram o PMO e foram citados pelo BID como referência nacional.",
-      "l": "Eu aprendi que ownership no setor público é provar que disciplina gera valor para o cidadão, não burocracia. Eu mostrei que combinar modelagem financeira, defesa do usuário final e mecanismos autoportantes dispensa consultorias e sustenta resultados. Eu transformei esse caso no meu template para programas financiados por organismos multilaterais."
+      "l": "Eu aprendi que ownership verdadeiro significa assumir responsabilidade além do escopo formal e estruturar mecanismos que sobrevivem à minha saída. No setor público, isso exige provar que disciplina gera valor para o cidadão, não burocracia. Pensar no longo prazo significa criar rituais autoportantes (war rooms, dashboards), capacitar sucessores (8 certificados PMI) e documentar tudo (31 templates). Eu transformei esse caso no meu template: sempre que vejo ineficiência sistêmica, eu tomo ownership e construo mecanismos duradouros—mesmo quando \"não é minha função\"."
     },
     "en": {
-      "s": "I received an IDB red-alert letter: if SEFAZ/RS failed to deliver a robust governance plan for PROFISCO II (R$180M) within 45 days, a US$12M disbursement would be frozen. I saw CAGE running 28 critical projects with no PMO, three duplicated initiatives burning R$4.2M, and 18 audits overdue while 42K taxpayers awaited digital improvements that never arrived.",
-      "t": "My contract said methodology support, but I declared myself the single-threaded owner. I set goals to avoid disbursement suspension, eliminate duplication, cut schedule deviation from 23% to below 8%, and deliver daily dashboards to the secretaries and IDB. I promised the Finance Secretary a blueprint in seven days and live rituals in 30 without hiring external consultants.",
+      "s": "I received an IDB red-alert letter: if SEFAZ/RS failed to deliver a robust governance plan for PROFISCO II (R$180M) within 45 days, a US$12M disbursement would be frozen. Structuring a PMO WAS NOT MY ROLE—my contract only covered methodology support. But I saw CAGE running 28 critical projects with no governance, three duplicated initiatives burning R$4.2M, and 18 audits overdue while 42K taxpayers awaited digital improvements that never arrived. Each director said \"that's another department's problem.\" I decided to go beyond my scope and take end-to-end ownership.",
+      "t": "Ignoring my formal scope, I declared myself single-threaded owner and took personal responsibility. I set long-term goals: avoid disbursement suspension, eliminate duplication, cut schedule deviation from 23% to below 8%, and build mechanisms that would outlive my contract. I promised the Finance Secretary a blueprint in seven days and live rituals in 30 without hiring external consultants, thinking about sustainability beyond my tenure.",
       "a": "I dove into 11 systems (S2GPR, FPE, SEI, e-Social) the first weekend and built a Power BI map of the 28 projects with burn rate, deliverables, and taxpayer impact. I used the map to kill a R$1.1M consultancy pitch by proving 62% of delays came from missing internal mechanisms. Then I: (1) designed governance across three loops—daily war room with me, biweekly rituals with secretaries, and a monthly IDB steering with metrics (internal NPS, savings, regulatory risk); (2) authored 31 templates and automated 18 dashboards on SharePoint/Power BI, shrinking manual data gathering from six hours to 40 minutes per project; (3) launched a customer-obsession mechanism by interviewing 37 auditors and 52 tax service users, reprioritizing the backlog by taxpayer impact, and re-scoping the portfolio; (4) broke director resistance with data workshops showing that merging three digital projects into one freed R$1.8M and cut taxpayer lead time from 210 to 120 days; (5) opened a direct line with the IDB through weekly reports covering 16 KPIs, a refreshed risk matrix, and a decisions log, preventing three non-compliance notices.",
       "r": "Within 90 days the IDB released the entire US$12M tranche with no holds. I removed duplication, cut schedule deviation from 23% to 7.4%, recovered R$2.3M from the annual budget, lifted taxpayer-facing service NPS from 52 to 76, and reduced priority ICMS refund time from 28 to nine days. Automating 72% of reporting freed 1,520 staff hours per year, and the eight civil servants I trained earned PMI certifications, took over the PMO, and were cited by the IDB as a national reference.",
-      "l": "I learned that public-sector ownership means proving discipline creates citizen value instead of bureaucracy. I showed that blending financial modeling, user advocacy, and self-sustaining mechanisms removes dependency on consultants and keeps results alive. I now treat this playbook as the blueprint for multilateral-funded transformations."
+      "l": "I learned that true ownership means taking responsibility beyond formal scope and building mechanisms that outlive my presence. In the public sector, that requires proving discipline creates citizen value, not bureaucracy. Thinking long-term means creating self-sustaining rituals (war rooms, dashboards), training successors (8 PMI certified), and documenting everything (31 templates). I turned this into my template: whenever I spot systemic inefficiency, I take ownership and build lasting mechanisms—even when \"it's not my job.\""
     },
     "fups": [
       {
@@ -93,21 +94,22 @@
     "title_pt": "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero",
     "title_en": "Institutional PMO Structuring and PROFISCO II Governance from Scratch",
     "company": "SEFAZ/RS",
-    "period": "01/2024-12/2025",
+    "period": "08/2024-11/2025",
     "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
-      "s": "Eu recebi um ofício do BID com alerta vermelho: se em 45 dias a SEFAZ/RS não apresentasse um plano robusto de governança para o PROFISCO II (R$ 180M), o desembolso de US$ 12M seria congelado. Eu enxergava a CAGE tocando 28 projetos críticos sem PMO, três iniciativas duplicadas queimando R$ 4,2M e 18 auditorias em atraso. Cada diretor dizia \"isso é da outra secretaria\" enquanto 42 mil contribuintes aguardavam melhorias em serviços digitais que nunca chegavam.",
-      "t": "Meu contrato dizia suporte metodológico, mas eu me declarei owner único da governança. Eu assumi como metas zerar suspensão de desembolso, eliminar duplicidade, reduzir desvio de prazo de 23% para abaixo de 8% e entregar dashboards diários para secretários e BID. Eu prometi ao Secretário da Fazenda um blueprint em sete dias e rituais operando em 30 sem contratar consultoria externa.",
+      "s": "Eu recebi um ofício do BID com alerta vermelho: se em 45 dias a SEFAZ/RS não apresentasse um plano robusto de governança para o PROFISCO II (R$ 180M), o desembolso de US$ 12M seria congelado. Estruturar PMO NÃO ERA MINHA FUNÇÃO—meu contrato dizia apenas suporte metodológico. Mas eu enxergava a CAGE tocando 28 projetos críticos sem governança, três iniciativas duplicadas queimando R$ 4,2M e 18 auditorias em atraso. Cada diretor dizia \"isso é da outra secretaria\" enquanto 42 mil contribuintes aguardavam melhorias em serviços digitais que nunca chegavam. Eu decidi ir além do meu escopo e assumir responsabilidade de ponta a ponta.",
+      "t": "Ignorando meu escopo formal, eu me declarei owner único da governança e assumi responsabilidade pessoal. Eu tracei metas de longo prazo: zerar suspensão de desembolso, eliminar duplicidade, reduzir desvio de prazo de 23% para abaixo de 8% e estruturar mecanismos que sobrevivessem à minha saída. Eu prometi ao Secretário da Fazenda um blueprint em sete dias e rituais operando em 30 sem contratar consultoria externa, pensando em sustentabilidade além do meu contrato.",
       "a": "Eu mergulhei em 11 bases (S2GPR, FPE, SEI, e-Social) no primeiro fim de semana e construí no Power BI um mapa dos 28 projetos com burn rate, entregáveis e impacto no contribuinte. Eu usei o mapa para derrubar a proposta de contratar consultoria de R$ 1,1M provando que 62% dos atrasos vinham da ausência de mecanismos internos. Em seguida: (1) Eu desenhei a governança em três loops — war room diário comigo, ritos quinzenais com secretários e steering mensal com o BID com pacote de métricas (NPS interno, savings, risco regulatório); (2) Eu escrevi 31 templates e automatizei 18 dashboards em SharePoint/Power BI, reduzindo coleta manual de seis horas para 40 minutos por projeto; (3) Eu implantei mecanismo de Customer Obsession entrevistando 37 auditores e 52 usuários fiscais, repriorizando backlog por impacto no cidadão e reescalando o portfólio; (4) Eu quebrei resistência de diretorias que alegavam burocracia facilitando workshops com dados — mostrar que fundir três projetos digitais em um liberaria R$ 1,8M e cortaria tempo de entrega ao contribuinte de 210 para 120 dias; (5) Eu abri linha direta com o BID enviando relatórios semanais com 16 KPIs, matriz de risco atualizada e registro de decisões, evitando três ofícios de não conformidade.",
       "r": "Eu vi o BID liberar integralmente os US$ 12M em 90 dias, sem retenções. Eu eliminei 100% das duplicidades, reduzi o desvio médio de prazo de 23% para 7,4% e recuperei R$ 2,3M do orçamento anual. Eu elevei o NPS dos serviços digitais para contribuintes de 52 para 76, reduzi o tempo de restituição prioritária de ICMS de 28 para nove dias e automatizei 72% dos reports, liberando 1.520 horas da equipe por ano. Eu capacitei oito servidores que se certificaram no PMI, assumiram o PMO e foram citados pelo BID como referência nacional.",
-      "l": "Eu aprendi que ownership no setor público é provar que disciplina gera valor para o cidadão, não burocracia. Eu mostrei que combinar modelagem financeira, defesa do usuário final e mecanismos autoportantes dispensa consultorias e sustenta resultados. Eu transformei esse caso no meu template para programas financiados por organismos multilaterais."
+      "l": "Eu aprendi que ownership verdadeiro significa assumir responsabilidade além do escopo formal e estruturar mecanismos que sobrevivem à minha saída. No setor público, isso exige provar que disciplina gera valor para o cidadão, não burocracia. Pensar no longo prazo significa criar rituais autoportantes (war rooms, dashboards), capacitar sucessores (8 certificados PMI) e documentar tudo (31 templates). Eu transformei esse caso no meu template: sempre que vejo ineficiência sistêmica, eu tomo ownership e construo mecanismos duradouros—mesmo quando \"não é minha função\"."
     },
     "en": {
-      "s": "I received an IDB red-alert letter: if SEFAZ/RS failed to deliver a robust governance plan for PROFISCO II (R$180M) within 45 days, a US$12M disbursement would be frozen. I saw CAGE running 28 critical projects with no PMO, three duplicated initiatives burning R$4.2M, and 18 audits overdue while 42K taxpayers awaited digital improvements that never arrived.",
-      "t": "My contract said methodology support, but I declared myself the single-threaded owner. I set goals to avoid disbursement suspension, eliminate duplication, cut schedule deviation from 23% to below 8%, and deliver daily dashboards to the secretaries and IDB. I promised the Finance Secretary a blueprint in seven days and live rituals in 30 without hiring external consultants.",
+      "s": "I received an IDB red-alert letter: if SEFAZ/RS failed to deliver a robust governance plan for PROFISCO II (R$180M) within 45 days, a US$12M disbursement would be frozen. Structuring a PMO WAS NOT MY ROLE—my contract only covered methodology support. But I saw CAGE running 28 critical projects with no governance, three duplicated initiatives burning R$4.2M, and 18 audits overdue while 42K taxpayers awaited digital improvements that never arrived. Each director said \"that's another department's problem.\" I decided to go beyond my scope and take end-to-end ownership.",
+      "t": "Ignoring my formal scope, I declared myself single-threaded owner and took personal responsibility. I set long-term goals: avoid disbursement suspension, eliminate duplication, cut schedule deviation from 23% to below 8%, and build mechanisms that would outlive my contract. I promised the Finance Secretary a blueprint in seven days and live rituals in 30 without hiring external consultants, thinking about sustainability beyond my tenure.",
       "a": "I dove into 11 systems (S2GPR, FPE, SEI, e-Social) the first weekend and built a Power BI map of the 28 projects with burn rate, deliverables, and taxpayer impact. I used the map to kill a R$1.1M consultancy pitch by proving 62% of delays came from missing internal mechanisms. Then I: (1) designed governance across three loops—daily war room with me, biweekly rituals with secretaries, and a monthly IDB steering with metrics (internal NPS, savings, regulatory risk); (2) authored 31 templates and automated 18 dashboards on SharePoint/Power BI, shrinking manual data gathering from six hours to 40 minutes per project; (3) launched a customer-obsession mechanism by interviewing 37 auditors and 52 tax service users, reprioritizing the backlog by taxpayer impact, and re-scoping the portfolio; (4) broke director resistance with data workshops showing that merging three digital projects into one freed R$1.8M and cut taxpayer lead time from 210 to 120 days; (5) opened a direct line with the IDB through weekly reports covering 16 KPIs, a refreshed risk matrix, and a decisions log, preventing three non-compliance notices.",
       "r": "Within 90 days the IDB released the entire US$12M tranche with no holds. I removed duplication, cut schedule deviation from 23% to 7.4%, recovered R$2.3M from the annual budget, lifted taxpayer-facing service NPS from 52 to 76, and reduced priority ICMS refund time from 28 to nine days. Automating 72% of reporting freed 1,520 staff hours per year, and the eight civil servants I trained earned PMI certifications, took over the PMO, and were cited by the IDB as a national reference.",
-      "l": "I learned that public-sector ownership means proving discipline creates citizen value instead of bureaucracy. I showed that blending financial modeling, user advocacy, and self-sustaining mechanisms removes dependency on consultants and keeps results alive. I now treat this playbook as the blueprint for multilateral-funded transformations."
+      "l": "I learned that true ownership means taking responsibility beyond formal scope and building mechanisms that outlive my presence. In the public sector, that requires proving discipline creates citizen value, not bureaucracy. Thinking long-term means creating self-sustaining rituals (war rooms, dashboards), training successors (8 PMI certified), and documenting everything (31 templates). I turned this into my template: whenever I spot systemic inefficiency, I take ownership and build lasting mechanisms—even when \"it's not my job.\""
     },
     "fups": [
       {
@@ -178,9 +180,9 @@
       "score": 100,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (5 menções relevantes)",
+        "Customer Obsession forte (4 menções relevantes)",
         "Métricas robustas (34)",
-        "Ratio EU:NÓS saudável (19:0)",
+        "Ratio EU:NÓS saudável (20:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
@@ -190,7 +192,7 @@
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 19:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 20:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
@@ -211,9 +213,9 @@
         "dealbreakers": [],
         "warnings": [],
         "positives": [
-          "Customer Obsession forte (5 menções relevantes)",
+          "Customer Obsession forte (4 menções relevantes)",
           "Métricas robustas (34)",
-          "Ratio EU:NÓS saudável (19:0)",
+          "Ratio EU:NÓS saudável (20:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -223,30 +225,30 @@
           "customer": true,
           "operational": true
         },
-        "customerSignals": 5,
+        "customerSignals": 4,
         "conflictSignals": true,
-        "mechanismSignals": 19,
+        "mechanismSignals": 23,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 19,
+            "eu": 20,
             "nos": 0
           }
         },
         "recency": {
-          "monthsAgo": -2,
+          "monthsAgo": -1,
           "status": "fresh"
         },
         "parity": {
           "s": {
-            "ptLen": 462,
-            "enLen": 359,
-            "deltaPct": 0.22294372294372294
+            "ptLen": 634,
+            "enLen": 571,
+            "deltaPct": 0.09936908517350158
           },
           "t": {
-            "ptLen": 385,
-            "enLen": 376,
-            "deltaPct": 0.023376623376623377
+            "ptLen": 468,
+            "enLen": 441,
+            "deltaPct": 0.057692307692307696
           },
           "a": {
             "ptLen": 1255,
@@ -259,9 +261,9 @@
             "deltaPct": 0.0900562851782364
           },
           "l": {
-            "ptLen": 348,
-            "enLen": 341,
-            "deltaPct": 0.020114942528735632
+            "ptLen": 569,
+            "enLen": 533,
+            "deltaPct": 0.0632688927943761
           }
         },
         "hookSignals": true,

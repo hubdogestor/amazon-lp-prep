@@ -6,7 +6,8 @@
     "title_en": "Redesigned SICREDI Gateway for 99.99% Availability",
     "company": "Sicredi",
     "period": "02/2019--11/2019",
-    "isTopCase": true,
+    "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
       "s": "Em fevereiro de 2019 eu assisti um hospital parceiro cancelar 23 procedimentos porque o gateway ficou indisponivel por 14 minutos. Operavamos com SLA de 99,5% (43 horas de down/ano) e nenhum fornecedor brasileiro passava de 99,8%. Para quem depende de autorizacao em sala cirurgica, esse padrao era inaceitavel.",
       "t": "Como head de experiencias digitais eu era dono direto das integracoes de pagamento e decidi que nao aceitaria nada abaixo de 99,99% (4 nines). Isso significava reduzir indisponibilidade de 43 horas para 52 minutos por ano e redesenhar arquitetura, processo e cultura.",
@@ -94,7 +95,8 @@
     "title_en": "Redesigned SICREDI Gateway for 99.99% Availability",
     "company": "Sicredi",
     "period": "02/2019--11/2019",
-    "isTopCase": true,
+    "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
       "s": "Em fevereiro de 2019 eu assisti um hospital parceiro cancelar 23 procedimentos porque o gateway ficou indisponivel por 14 minutos. Operavamos com SLA de 99,5% (43 horas de down/ano) e nenhum fornecedor brasileiro passava de 99,8%. Para quem depende de autorizacao em sala cirurgica, esse padrao era inaceitavel.",
       "t": "Como head de experiencias digitais eu era dono direto das integracoes de pagamento e decidi que nao aceitaria nada abaixo de 99,99% (4 nines). Isso significava reduzir indisponibilidade de 43 horas para 52 minutos por ano e redesenhar arquitetura, processo e cultura.",

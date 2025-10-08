@@ -6,7 +6,8 @@
     "title_en": "Built the Anti-Fraud Mechanism that Cut Losses 46% in 5 Months",
     "company": "Sicredi Woop",
     "period": "01/2020-05/2020",
-    "isTopCase": true,
+    "isTopCase": false,
+    "isGoodCase": true,
     "pt": {
       "s": "Em dezembro de 2019 o Woop registrou recorde negativo: R$ 420k em perdas de onboarding fraudulento (217% acima da media), NPS de entrada despencando para 29 e 3.200 novos clientes bloqueados por engano. Cinco analistas reagiam manualmente, sem mecanismo de priorizacao e sob pressao da diretoria juridica para cortar aprovacoes ate a chegada de um modelo de IA que levaria 6 meses.",
       "t": "Eu assumi ownership integral. Prometi ao CEO reduzir perdas em pelo menos 30% em ate 5 meses, manter falsos positivos abaixo de 2% e reconquistar NPS de onboarding acima de 55 sem esperar o novo modelo preditivo.",
@@ -94,7 +95,8 @@
     "title_en": "Built the Anti-Fraud Mechanism that Cut Losses 46% in 5 Months",
     "company": "Sicredi Woop",
     "period": "01/2020-05/2020",
-    "isTopCase": true,
+    "isTopCase": false,
+    "isGoodCase": true,
     "pt": {
       "s": "Em dezembro de 2019 o Woop registrou recorde negativo: R$ 420k em perdas de onboarding fraudulento (217% acima da media), NPS de entrada despencando para 29 e 3.200 novos clientes bloqueados por engano. Cinco analistas reagiam manualmente, sem mecanismo de priorizacao e sob pressao da diretoria juridica para cortar aprovacoes ate a chegada de um modelo de IA que levaria 6 meses.",
       "t": "Eu assumi ownership integral. Prometi ao CEO reduzir perdas em pelo menos 30% em ate 5 meses, manter falsos positivos abaixo de 2% e reconquistar NPS de onboarding acima de 55 sem esperar o novo modelo preditivo.",

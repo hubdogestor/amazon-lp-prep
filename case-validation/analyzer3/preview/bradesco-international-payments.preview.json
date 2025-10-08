@@ -7,19 +7,20 @@
     "company": "Bradesco",
     "period": "01/2017-06/2017",
     "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
-      "s": "Eu auditava o relatorio mensal de pagamentos internacionais quando vi o alerta vermelho: o custo medio por transacao subiu de R$ 47 para R$ 54 (+15%) em seis meses, adicionando R$ 364k por mes ao P&L (R$ 4,3M anualizados). O SLA explodiu de 2h50 para 4h10 e o NPS premium caiu de 66 para 48; tres dos meus 20 maiores clientes ameaçaram migrar. Quando confrontei Operacoes, Compliance, TI e Comercial, ouvi \"isso nao e nosso problema\". O CFO cravou 90 dias para recuperar custo e SLA ou cortaria headcount.",
-      "t": "Mesmo com mandato formal restrito a transformacao digital, eu declarei que assumiria ownership ponta a ponta. Na frente do comite eu prometi cortar ao menos 12% do custo medio, trazer o SLA para menos de 3h e recolocar o NPS acima de 65 dentro de 90 dias. Pedi sete dias para apresentar o plano e garanti entregas tangiveis em 30, sem budget extra.",
+      "s": "Eu auditava o relatorio mensal de pagamentos internacionais quando vi o alerta vermelho: o custo medio por transacao subiu de R$ 47 para R$ 54 (+15%) em seis meses, adicionando R$ 364k por mes ao P&L (R$ 4,3M anualizados). O SLA explodiu de 2h50 para 4h10 e o NPS premium caiu de 66 para 48; tres dos meus 20 maiores clientes ameaçaram migrar. Estruturar forca-tarefa NÃO ERA MINHA FUNÇÃO—meu mandato formal era apenas transformacao digital. Mas quando confrontei Operacoes, Compliance, TI e Comercial, ouvi \"isso nao e nosso problema\". O CFO cravou 90 dias para recuperar custo e SLA ou cortaria headcount. Eu decidi ir alem do meu escopo e assumir ownership total da crise.",
+      "t": "Mesmo com mandato formal restrito a transformacao digital, eu me declarei owner ponta a ponta e assumi responsabilidade pessoal. Na frente do comite eu prometi cortar ao menos 12% do custo medio, trazer o SLA para menos de 3h e recolocar o NPS acima de 65 dentro de 90 dias. Mais importante: eu tracei o trade-off de longo prazo—pausar features novas de marketing por seis semanas para refactoring da reconciliacao, pensando em prevenir reincidencia. Pedi sete dias para apresentar o plano e garanti entregas tangiveis em 30, sem budget extra.",
       "a": "No dia seguinte eu formei uma forca-tarefa com sete pessoas (Operacoes, Compliance, TI, Comercial, Procurement) com charter simples: daily de 30 minutos, decisoes por metrica e eu como single-threaded owner. (1) Eu construí um business case de tres cenarios cruzando custo incremental, churn de clientes priority (R$ 1,2M/ano) e multas potenciais do Bacen (ate 0,5% dos ativos) para ganhar o CFO. (2) Eu extraí 160k transacoes dos ultimos 90 dias, normalizei em Python e mostrei que 68% do custo vinha de reconciliacao manual e tabela antiquada de correspondentes. (3) Eu redesenhei o fluxo com filas medidas, implantei RPA conciliando SWIFT MT103 vs ledger e criei um score de risco que escalona tickets acima de R$ 200k para revisao manual. (4) Eu negociei com dois bancos correspondentes contratos baseados em volume com reducao media de 18 bps, condicionados a piloto de 30 dias com auditoria semanal. (5) Quando o diretor de Compliance travou o rollout, eu voei a Brasilia, apresentei os controles ao Bacen, ajustei segregacao de funcoes e sai com carta de nao oposicao em 48h. (6) Para recuperar clientes, eu liguei pessoalmente para os 30 maiores premium, abri canal 24/7 e publiquei dashboard no Grafana com 12 indicadores (SLA por pais, custo por corredor, backlog, MTTD, risco de churn).",
       "r": "Em 74 dias eu atingi as metas: custo medio caiu de R$ 54 para R$ 46,4 (-14%), SLA voltou para 2h32, backlog diario despencou de 1.120 para 160 transacoes (-86%) e o NPS premium subiu de 48 para 74. Evitei perda anual de R$ 4,8M e zerei pedidos de cancelamento dos clientes priority. O CFO institucionalizou o ritual como template corporativo e meu dashboard virou fonte oficial em comites.",
-      "l": "Eu aprendi que ownership real e ocupar o vazio entre silos antes que ele destrua valor. Transformar conflito em dado irrefutavel, negociar trade-offs com impacto financeiro e deixar mecanismos permanentes (RPA, score de risco, dashboard) garante que o problema nao volte. Esse virou meu playbook para crises de pagamentos."
+      "l": "Eu aprendi que ownership verdadeiro significa assumir responsabilidade alem do escopo formal, fazer trade-offs impopulares de longo prazo (pausar features para refactoring) e construir mecanismos preventivos que impedem reincidencia. Nao basta apagar incendios—e preciso criar sistemas (RPA, score de risco, dashboard 24/7) que monitoram continuamente e alertam antes da crise. Eu transformei esse caso no meu playbook: sempre que vejo ineficiencia sistemica, eu tomo ownership, negocio trade-offs com impacto financeiro e deixo mecanismos permanentes rodando—mesmo quando \"nao e minha funcao\". Esse ritual de war room com metrica unica e single-threaded owner virou meu template para crises de pagamentos."
     },
     "en": {
-      "s": "I was auditing the international payments monthly report when the red flag popped: average cost per transaction climbed from R$47 to R$54 (+15%) in six months, adding R$364K per month (R$4.3M annualized). SLA ballooned from 2h50 to 4h10 and premium NPS crashed from 66 to 48; three of my top 20 clients threatened to leave. When I confronted Operations, Compliance, IT, and Commercial I heard \"not my problem\". The CFO gave me 90 days to recover cost and SLA or he would cut headcount.",
-      "t": "Although my formal remit was digital transformation, I said I would own the end-to-end exposure. In front of the steering committee I committed to slash at least 12% of unit cost, bring SLA back under three hours, and lift NPS above 65 within 90 days. I asked for seven days to present the plan and promised tangible results in 30 with zero extra budget.",
+      "s": "I was auditing the international payments monthly report when the red flag popped: average cost per transaction climbed from R$47 to R$54 (+15%) in six months, adding R$364K per month (R$4.3M annualized). SLA ballooned from 2h50 to 4h10 and premium NPS crashed from 66 to 48; three of my top 20 clients threatened to leave. Building a task force WAS NOT MY JOB—my formal remit was only digital transformation. But when I confronted Operations, Compliance, IT, and Commercial I heard \"not my problem\". The CFO gave me 90 days to recover cost and SLA or he would cut headcount. I decided to go beyond my scope and take total ownership of the crisis.",
+      "t": "Although my formal remit was digital transformation, I declared myself end-to-end owner and took personal responsibility. In front of the steering committee I committed to slash at least 12% of unit cost, bring SLA back under three hours, and lift NPS above 65 within 90 days. More importantly: I framed the long-term trade-off—pause new marketing features for six weeks to refactor reconciliation, thinking about preventing recurrence. I asked for seven days to present the plan and promised tangible results in 30 with zero extra budget.",
       "a": "The next morning I assembled a seven-person task force across Ops, Compliance, IT, Commercial, and Procurement with a tight charter: 30-minute daily standups, metric-driven decisions, and me as the single-threaded owner. (1) I built a three-scenario business case covering incremental cost, premium-client churn risk (R$1.2M/year), and potential BACEN fines (up to 0.5% of assets) to secure the CFO's backing. (2) I pulled 160K transactions from the last 90 days, normalized them in Python, and proved 68% of cost came from manual reconciliation and outdated correspondent pricing. (3) I redesigned the workflow with queue metrics, deployed an RPA to reconcile SWIFT MT103 vs ledger, and implemented a risk score that escalated tickets above R$200K for manual review. (4) I negotiated volume-based contracts with two correspondent banks, locking an average 18 bps reduction tied to a 30-day pilot with weekly audits. (5) When the compliance director froze the rollout, I flew to Brasilia, walked BACEN through the controls, tightened segregation of duties, and secured the no-objection letter within 48 hours. (6) To retain clients I personally called the top 30, opened a 24/7 dedicated channel, and published a Grafana dashboard with 12 metrics (SLA by country, cost per corridor, backlog, MTTD, churn risk).",
       "r": "Within 74 days I hit the targets: average cost dropped from R$54 to R$46.4 (-14%), SLA landed at 2h32, backlog fell from 1,120 to 160 transactions (-86%), and premium NPS rebounded from 48 to 74. I avoided R$4.8M/year in losses and wiped out cancellation requests from priority clients. The CFO institutionalized my ritual as the corporate template and my dashboard became standard in executive committees.",
-      "l": "I learned that real ownership is stepping into the gap between silos before it destroys value. Turning conflict into data, trading with a financial lens, and leaving mechanisms (RPA, risk score, dashboard) running keeps the gains. This is now my playbook for payment crises."
+      "l": "I learned that true ownership means taking responsibility beyond formal scope, making unpopular long-term trade-offs (pause features for refactoring), and building preventive mechanisms that block recurrence. It's not enough to fight fires—you must create systems (RPA, risk score, 24/7 dashboard) that monitor continuously and alert before the crisis. I turned this into my playbook: whenever I spot systemic inefficiency, I take ownership, negotiate trade-offs with financial impact, and leave permanent mechanisms running—even when \"it's not my job.\" This war-room ritual with single metric and single-threaded owner became my template for payment crises."
     },
     "fups": [
       {
@@ -95,19 +96,20 @@
     "company": "Bradesco",
     "period": "01/2017-06/2017",
     "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
-      "s": "Eu auditava o relatorio mensal de pagamentos internacionais quando vi o alerta vermelho: o custo medio por transacao subiu de R$ 47 para R$ 54 (+15%) em seis meses, adicionando R$ 364k por mes ao P&L (R$ 4,3M anualizados). O SLA explodiu de 2h50 para 4h10 e o NPS premium caiu de 66 para 48; tres dos meus 20 maiores clientes ameaçaram migrar. Quando confrontei Operacoes, Compliance, TI e Comercial, ouvi \"isso nao e nosso problema\". O CFO cravou 90 dias para recuperar custo e SLA ou cortaria headcount.",
-      "t": "Mesmo com mandato formal restrito a transformacao digital, eu declarei que assumiria ownership ponta a ponta. Na frente do comite eu prometi cortar ao menos 12% do custo medio, trazer o SLA para menos de 3h e recolocar o NPS acima de 65 dentro de 90 dias. Pedi sete dias para apresentar o plano e garanti entregas tangiveis em 30, sem budget extra.",
+      "s": "Eu auditava o relatorio mensal de pagamentos internacionais quando vi o alerta vermelho: o custo medio por transacao subiu de R$ 47 para R$ 54 (+15%) em seis meses, adicionando R$ 364k por mes ao P&L (R$ 4,3M anualizados). O SLA explodiu de 2h50 para 4h10 e o NPS premium caiu de 66 para 48; tres dos meus 20 maiores clientes ameaçaram migrar. Estruturar forca-tarefa NÃO ERA MINHA FUNÇÃO—meu mandato formal era apenas transformacao digital. Mas quando confrontei Operacoes, Compliance, TI e Comercial, ouvi \"isso nao e nosso problema\". O CFO cravou 90 dias para recuperar custo e SLA ou cortaria headcount. Eu decidi ir alem do meu escopo e assumir ownership total da crise.",
+      "t": "Mesmo com mandato formal restrito a transformacao digital, eu me declarei owner ponta a ponta e assumi responsabilidade pessoal. Na frente do comite eu prometi cortar ao menos 12% do custo medio, trazer o SLA para menos de 3h e recolocar o NPS acima de 65 dentro de 90 dias. Mais importante: eu tracei o trade-off de longo prazo—pausar features novas de marketing por seis semanas para refactoring da reconciliacao, pensando em prevenir reincidencia. Pedi sete dias para apresentar o plano e garanti entregas tangiveis em 30, sem budget extra.",
       "a": "No dia seguinte eu formei uma forca-tarefa com sete pessoas (Operacoes, Compliance, TI, Comercial, Procurement) com charter simples: daily de 30 minutos, decisoes por metrica e eu como single-threaded owner. (1) Eu construí um business case de tres cenarios cruzando custo incremental, churn de clientes priority (R$ 1,2M/ano) e multas potenciais do Bacen (ate 0,5% dos ativos) para ganhar o CFO. (2) Eu extraí 160k transacoes dos ultimos 90 dias, normalizei em Python e mostrei que 68% do custo vinha de reconciliacao manual e tabela antiquada de correspondentes. (3) Eu redesenhei o fluxo com filas medidas, implantei RPA conciliando SWIFT MT103 vs ledger e criei um score de risco que escalona tickets acima de R$ 200k para revisao manual. (4) Eu negociei com dois bancos correspondentes contratos baseados em volume com reducao media de 18 bps, condicionados a piloto de 30 dias com auditoria semanal. (5) Quando o diretor de Compliance travou o rollout, eu voei a Brasilia, apresentei os controles ao Bacen, ajustei segregacao de funcoes e sai com carta de nao oposicao em 48h. (6) Para recuperar clientes, eu liguei pessoalmente para os 30 maiores premium, abri canal 24/7 e publiquei dashboard no Grafana com 12 indicadores (SLA por pais, custo por corredor, backlog, MTTD, risco de churn).",
       "r": "Em 74 dias eu atingi as metas: custo medio caiu de R$ 54 para R$ 46,4 (-14%), SLA voltou para 2h32, backlog diario despencou de 1.120 para 160 transacoes (-86%) e o NPS premium subiu de 48 para 74. Evitei perda anual de R$ 4,8M e zerei pedidos de cancelamento dos clientes priority. O CFO institucionalizou o ritual como template corporativo e meu dashboard virou fonte oficial em comites.",
-      "l": "Eu aprendi que ownership real e ocupar o vazio entre silos antes que ele destrua valor. Transformar conflito em dado irrefutavel, negociar trade-offs com impacto financeiro e deixar mecanismos permanentes (RPA, score de risco, dashboard) garante que o problema nao volte. Esse virou meu playbook para crises de pagamentos."
+      "l": "Eu aprendi que ownership verdadeiro significa assumir responsabilidade alem do escopo formal, fazer trade-offs impopulares de longo prazo (pausar features para refactoring) e construir mecanismos preventivos que impedem reincidencia. Nao basta apagar incendios—e preciso criar sistemas (RPA, score de risco, dashboard 24/7) que monitoram continuamente e alertam antes da crise. Eu transformei esse caso no meu playbook: sempre que vejo ineficiencia sistemica, eu tomo ownership, negocio trade-offs com impacto financeiro e deixo mecanismos permanentes rodando—mesmo quando \"nao e minha funcao\". Esse ritual de war room com metrica unica e single-threaded owner virou meu template para crises de pagamentos."
     },
     "en": {
-      "s": "I was auditing the international payments monthly report when the red flag popped: average cost per transaction climbed from R$47 to R$54 (+15%) in six months, adding R$364K per month (R$4.3M annualized). SLA ballooned from 2h50 to 4h10 and premium NPS crashed from 66 to 48; three of my top 20 clients threatened to leave. When I confronted Operations, Compliance, IT, and Commercial I heard \"not my problem\". The CFO gave me 90 days to recover cost and SLA or he would cut headcount.",
-      "t": "Although my formal remit was digital transformation, I said I would own the end-to-end exposure. In front of the steering committee I committed to slash at least 12% of unit cost, bring SLA back under three hours, and lift NPS above 65 within 90 days. I asked for seven days to present the plan and promised tangible results in 30 with zero extra budget.",
+      "s": "I was auditing the international payments monthly report when the red flag popped: average cost per transaction climbed from R$47 to R$54 (+15%) in six months, adding R$364K per month (R$4.3M annualized). SLA ballooned from 2h50 to 4h10 and premium NPS crashed from 66 to 48; three of my top 20 clients threatened to leave. Building a task force WAS NOT MY JOB—my formal remit was only digital transformation. But when I confronted Operations, Compliance, IT, and Commercial I heard \"not my problem\". The CFO gave me 90 days to recover cost and SLA or he would cut headcount. I decided to go beyond my scope and take total ownership of the crisis.",
+      "t": "Although my formal remit was digital transformation, I declared myself end-to-end owner and took personal responsibility. In front of the steering committee I committed to slash at least 12% of unit cost, bring SLA back under three hours, and lift NPS above 65 within 90 days. More importantly: I framed the long-term trade-off—pause new marketing features for six weeks to refactor reconciliation, thinking about preventing recurrence. I asked for seven days to present the plan and promised tangible results in 30 with zero extra budget.",
       "a": "The next morning I assembled a seven-person task force across Ops, Compliance, IT, Commercial, and Procurement with a tight charter: 30-minute daily standups, metric-driven decisions, and me as the single-threaded owner. (1) I built a three-scenario business case covering incremental cost, premium-client churn risk (R$1.2M/year), and potential BACEN fines (up to 0.5% of assets) to secure the CFO's backing. (2) I pulled 160K transactions from the last 90 days, normalized them in Python, and proved 68% of cost came from manual reconciliation and outdated correspondent pricing. (3) I redesigned the workflow with queue metrics, deployed an RPA to reconcile SWIFT MT103 vs ledger, and implemented a risk score that escalated tickets above R$200K for manual review. (4) I negotiated volume-based contracts with two correspondent banks, locking an average 18 bps reduction tied to a 30-day pilot with weekly audits. (5) When the compliance director froze the rollout, I flew to Brasilia, walked BACEN through the controls, tightened segregation of duties, and secured the no-objection letter within 48 hours. (6) To retain clients I personally called the top 30, opened a 24/7 dedicated channel, and published a Grafana dashboard with 12 metrics (SLA by country, cost per corridor, backlog, MTTD, churn risk).",
       "r": "Within 74 days I hit the targets: average cost dropped from R$54 to R$46.4 (-14%), SLA landed at 2h32, backlog fell from 1,120 to 160 transactions (-86%), and premium NPS rebounded from 48 to 74. I avoided R$4.8M/year in losses and wiped out cancellation requests from priority clients. The CFO institutionalized my ritual as the corporate template and my dashboard became standard in executive committees.",
-      "l": "I learned that real ownership is stepping into the gap between silos before it destroys value. Turning conflict into data, trading with a financial lens, and leaving mechanisms (RPA, risk score, dashboard) running keeps the gains. This is now my playbook for payment crises."
+      "l": "I learned that true ownership means taking responsibility beyond formal scope, making unpopular long-term trade-offs (pause features for refactoring), and building preventive mechanisms that block recurrence. It's not enough to fight fires—you must create systems (RPA, risk score, 24/7 dashboard) that monitor continuously and alert before the crisis. I turned this into my playbook: whenever I spot systemic inefficiency, I take ownership, negotiate trade-offs with financial impact, and leave permanent mechanisms running—even when \"it's not my job.\" This war-room ritual with single metric and single-threaded owner became my template for payment crises."
     },
     "fups": [
       {
@@ -180,13 +182,12 @@
       "positives": [
         "Customer Obsession forte (8 menções relevantes)",
         "Métricas robustas (37)",
-        "Ratio EU:NÓS saudável (13:0)",
+        "Ratio EU:NÓS saudável (17:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
-        "Transições STAR(L) pouco claras",
-        "Case antigo (>7 anos)"
+        "Transições STAR(L) pouco claras"
       ],
       "dealbreakers": [],
       "suggestions": [
@@ -197,15 +198,9 @@
           "action": "Refinar narrativa conforme alerta."
         },
         {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "Case antigo (>7 anos)",
-          "action": "Conectar explicitamente como o mecanismo segue ativo ou considere um case mais recente."
-        },
-        {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 13:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 17:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
@@ -225,13 +220,12 @@
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Transições STAR(L) pouco claras",
-          "Case antigo (>7 anos)"
+          "Transições STAR(L) pouco claras"
         ],
         "positives": [
           "Customer Obsession forte (8 menções relevantes)",
           "Métricas robustas (37)",
-          "Ratio EU:NÓS saudável (13:0)",
+          "Ratio EU:NÓS saudável (17:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
@@ -243,11 +237,11 @@
         },
         "customerSignals": 8,
         "conflictSignals": true,
-        "mechanismSignals": 11,
+        "mechanismSignals": 16,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 13,
+            "eu": 17,
             "nos": 0
           }
         },
@@ -257,14 +251,14 @@
         },
         "parity": {
           "s": {
-            "ptLen": 505,
-            "enLen": 485,
-            "deltaPct": 0.039603960396039604
+            "ptLen": 675,
+            "enLen": 647,
+            "deltaPct": 0.04148148148148148
           },
           "t": {
-            "ptLen": 348,
-            "enLen": 354,
-            "deltaPct": 0.01694915254237288
+            "ptLen": 543,
+            "enLen": 539,
+            "deltaPct": 0.007366482504604052
           },
           "a": {
             "ptLen": 1297,
@@ -277,9 +271,9 @@
             "deltaPct": 0.04187192118226601
           },
           "l": {
-            "ptLen": 322,
-            "enLen": 274,
-            "deltaPct": 0.14906832298136646
+            "ptLen": 706,
+            "enLen": 658,
+            "deltaPct": 0.0679886685552408
           }
         },
         "hookSignals": true,

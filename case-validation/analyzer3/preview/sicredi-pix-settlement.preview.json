@@ -6,7 +6,8 @@
     "title_en": "47% Reduction in PIX Payment Settlement Time",
     "company": "Sicredi",
     "period": "03/2020-08/2020",
-    "isTopCase": true,
+    "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
       "s": "Em 2020 eu liderava o produto PIX no Sicredi quando o SLA desabou: liquidacao media de 4,2h versus 3h exigidas pelo Bacen. Um merchant de R$2M/mensais anunciou que migraria para a concorrencia, o NPS caiu para 32 e recebemos carta oficial avisando de multas entre R$50k e R$200k por incidente se nada mudasse em 60 dias. Fraude, TI e Operacoes estavam em conflito e ninguem tinha plano concreto.",
       "t": "Assumi ownership total. Prometi ao COO e ao Bacen reduzir o tempo medio para abaixo de 2h em 45 dias (margem adicional para absorver picos) e, ao mesmo tempo, preservar a experiencia do cliente mantendo falsos positivos abaixo de 0,5%. Eu seria responsavel por diagnostico, mudanca tecnica e mecanismos de monitoramento.",
@@ -94,7 +95,8 @@
     "title_en": "47% Reduction in PIX Payment Settlement Time",
     "company": "Sicredi",
     "period": "03/2020-08/2020",
-    "isTopCase": true,
+    "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
       "s": "Em 2020 eu liderava o produto PIX no Sicredi quando o SLA desabou: liquidacao media de 4,2h versus 3h exigidas pelo Bacen. Um merchant de R$2M/mensais anunciou que migraria para a concorrencia, o NPS caiu para 32 e recebemos carta oficial avisando de multas entre R$50k e R$200k por incidente se nada mudasse em 60 dias. Fraude, TI e Operacoes estavam em conflito e ninguem tinha plano concreto.",
       "t": "Assumi ownership total. Prometi ao COO e ao Bacen reduzir o tempo medio para abaixo de 2h em 45 dias (margem adicional para absorver picos) e, ao mesmo tempo, preservar a experiencia do cliente mantendo falsos positivos abaixo de 0,5%. Eu seria responsavel por diagnostico, mudanca tecnica e mecanismos de monitoramento.",

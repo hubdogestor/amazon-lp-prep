@@ -6,7 +6,8 @@
     "title_en": "Global Rollout Model Transformation at Huawei - From Brazil to Worldwide Standard",
     "company": "Huawei",
     "period": "01/2012--06/2023",
-    "isTopCase": true,
+    "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
       "s": "Situação — Em 2012, eu recebi a missão de normalizar o rollout de sites 4G da Huawei no Brasil. O SLA era de 382 dias por site, 4x pior que a meta global, e os diretores locais estavam conformados em buscar apenas um ajuste marginal de 10%. Esse pensamento pequeno condenaria a operação brasileira a atrasar o lançamento de R$1,9B em receitas contratadas e, pior, mantinha 14 países presos a soluções manuais semelhantes.",
       "t": "Tarefa — Oficialmente, eu deveria entregar um plano incremental para o Brasil. Eu me auto-impus um desafio maior: redesenhar um motor de rollout replicável globalmente que reduzisse o prazo em 70% e criasse novos mecanismos de governança que qualquer região pudesse operar. Para conseguir aprovação, eu precisava provar que o Brasil podia ser laboratório de uma transformação mundial sem comprometer compliance regulatório e margem.",
@@ -94,7 +95,8 @@
     "title_en": "Global Rollout Model Transformation at Huawei - From Brazil to Worldwide Standard",
     "company": "Huawei",
     "period": "01/2012--06/2023",
-    "isTopCase": true,
+    "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
       "s": "Situação — Em 2012, eu recebi a missão de normalizar o rollout de sites 4G da Huawei no Brasil. O SLA era de 382 dias por site, 4x pior que a meta global, e os diretores locais estavam conformados em buscar apenas um ajuste marginal de 10%. Esse pensamento pequeno condenaria a operação brasileira a atrasar o lançamento de R$1,9B em receitas contratadas e, pior, mantinha 14 países presos a soluções manuais semelhantes.",
       "t": "Tarefa — Oficialmente, eu deveria entregar um plano incremental para o Brasil. Eu me auto-impus um desafio maior: redesenhar um motor de rollout replicável globalmente que reduzisse o prazo em 70% e criasse novos mecanismos de governança que qualquer região pudesse operar. Para conseguir aprovação, eu precisava provar que o Brasil podia ser laboratório de uma transformação mundial sem comprometer compliance regulatório e margem.",

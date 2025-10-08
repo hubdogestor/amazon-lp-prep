@@ -5,7 +5,7 @@
     "title_pt": "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção",
     "title_en": "Turned e-CAGE into a Portal with 94% SLA Compliance and 100% Adoption",
     "company": "SEFAZ/RS",
-    "period": "01/2024-06/2024",
+    "period": "08/2024-11/2024",
     "isTopCase": false,
     "pt": {
       "s": "Em 2023 a Contadoria e Auditoria-Geral do Estado (CAGE) operava demandas via e-mail e planilha. Resultado: 34% dos pedidos estouravam o SLA de 15 dias, 8 órgãos reclamavam oficialmente ao secretário e o NPS estimado era 30. Eu acompanhei um caso emblemático: a Secretaria de Educação reenviou a mesma solicitação para três analistas, multiplicando trabalho em 120 horas e atrasando repasse de R$ 4,6M para escolas. Nenhum diretor queria ser dono da solução.",
@@ -93,7 +93,7 @@
     "title_pt": "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção",
     "title_en": "Turned e-CAGE into a Portal with 94% SLA Compliance and 100% Adoption",
     "company": "SEFAZ/RS",
-    "period": "01/2024-06/2024",
+    "period": "08/2024-11/2024",
     "isTopCase": false,
     "pt": {
       "s": "Em 2023 a Contadoria e Auditoria-Geral do Estado (CAGE) operava demandas via e-mail e planilha. Resultado: 34% dos pedidos estouravam o SLA de 15 dias, 8 órgãos reclamavam oficialmente ao secretário e o NPS estimado era 30. Eu acompanhei um caso emblemático: a Secretaria de Educação reenviou a mesma solicitação para três analistas, multiplicando trabalho em 120 horas e atrasando repasse de R$ 4,6M para escolas. Nenhum diretor queria ser dono da solução.",
@@ -250,7 +250,7 @@
           }
         },
         "recency": {
-          "monthsAgo": 16,
+          "monthsAgo": 11,
           "status": "fresh"
         },
         "parity": {

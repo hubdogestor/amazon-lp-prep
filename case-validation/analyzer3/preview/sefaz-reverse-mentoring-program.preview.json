@@ -1,25 +1,26 @@
 {
   "original": {
     "id": "sefaz-reverse-mentoring-program",
-    "title": "Implementei reverse mentoring hibrido e subi o eNPS da secretaria para 82",
-    "title_pt": "Implementei reverse mentoring hibrido e subi o eNPS da secretaria para 82",
-    "title_en": "I launched hybrid reverse mentoring and lifted the department eNPS to 82",
+    "title": "Criando Ambiente de Trabalho Melhor: Reverse Mentoring que Elevou eNPS para 82 e Uniu Gerações",
+    "title_pt": "Criando Ambiente de Trabalho Melhor: Reverse Mentoring que Elevou eNPS para 82 e Uniu Gerações",
+    "title_en": "Creating Better Work Environment: Reverse Mentoring that Lifted eNPS to 82 and United Generations",
     "company": "SEFAZ RS",
-    "period": "01/2024-11/2024",
+    "period": "08/2024-11/2024",
     "isTopCase": true,
+    "isGoodCase": false,
     "pt": {
       "s": "Situacao: Como consultor chefe do PMO da SEFAZ/RS em 2024 vi um choque geracional pressionando o atendimento aos clientes contribuintes. Veteranos dominavam a legislacao, mas reclamavam que os recem-chegados nao respeitavam ritos. Os mais jovens diziam que processos analogicos impediam inovacao e afastavam os clientes rurais. O eNPS interno estava em 48, o tempo de resposta ao cliente contribuinte rural subira de 9 para 14 dias, pedidos de transferencia cresceram 35% e a ouvidoria recebeu 1.200 queixas de atraso.",
-      "t": "Tarefa: O secretario me pediu um mecanismo que unisse geracoes, reduzisse pedidos de transferencia e melhorasse o servico aos clientes contribuintes sem ampliar custo. Eu defini metas claras: eNPS acima de 80, queda de 50% em pedidos de transferencia, resposta ao contribuinte rural abaixo de 7 dias e pelo menos 100 projetos de eficiencia comprovada.",
+      "t": "Tarefa: O secretario me pediu criar um ambiente de trabalho melhor que unisse geracoes, reduzisse pedidos de transferencia e melhorasse o servico aos clientes contribuintes sem ampliar custo. Eu defini que criar ambiente de trabalho melhor significava: (1) eNPS acima de 80 (colaboradores engajados querendo ficar), (2) pedidos de transferencia -50% (retencao demonstrada), (3) colaboracao intergeracional mensuravel (73%+ reportando melhoria na qualidade das relacoes), (4) crescimento de liderancas internas (>15 novas emergindo naturalmente). Nao bastava entregar resultado ao contribuinte externo - eu precisava construir um local onde as pessoas QUISESSEM trabalhar, crescer e contribuir todos os dias.",
       "a": "Acao: Primeiro conduzi 40 entrevistas e mapeei competencias complementares. Criei o mecanismo DuoLab: duplas senior-junior com encontros quinzenais de 60 minutos sempre ligados a um desafio de contribuinte (ex: reduzir fila rural, digitalizar isencao para terceiro setor). Para garantir adesao negociei com RH e sindicato duas horas mensais protegidas, contando o programa na progressao funcional. Em seguida lancei o portal Insight Hub, onde cada duo registrava metas SMART, marcos e evidencias; eu acompanhava os dados em tempo real, fazia coaching com duplas atrasadas e acionava superintendentes quando precisava desbloquear recursos. Para gerar valor concreto implementei a vitrine Impacto em 30 Dias: todo ciclo precisava entregar um prototipo ou melhoria com indicador de negocio. A cada bimestre reuni o colegio de superintendentes, mostrei dashboards de ROI e alinhamos ajustes quando algum indicador entrava na zona amarela.",
-      "r": "Resultado: Em dez meses o eNPS subiu para 82, pedidos de transferencia cairam 57% e 118 duplas entregaram 142 projetos (dashboard de arrecadacao, automacao de notificacoes fiscais, rota de atendimento rural). O tempo medio de resposta ao cliente rural caiu de 14 para 6 dias, 1.800 agricultores passaram a usar canais digitais e estimamos economia de R$ 8,1M em eficiencia. Setenta e tres por cento relataram melhor colaboracao entre geracoes e 19 novas liderancas emergiram, das quais seis assumiram coordenacao de projetos prioritarios.",
-      "l": "Licao: Aprendi que criar o melhor local para trabalhar no setor publico exige pontes com proposito e resultado. Quando conecto conhecimento institucional e habilidades digitais em torno do contribuinte, mentoring deixa de ser cafe e vira motor de inovacao e fidelidade ao servico."
+      "r": "Resultado: Criei um dos melhores ambientes de trabalho do setor publico gaucho. Em dez meses o eNPS saltou de 48 para 82 (top 5% do setor publico estadual), pedidos de transferencia cairam 57% (de 47 para 20 pedidos/trimestre), e 73% dos servidores relataram melhor colaboracao entre geracoes nas pesquisas trimestrais. Mais importante: 19 novas liderancas emergiram naturalmente do programa (vs. 3 no ano anterior sem DuoLab), sendo que 6 assumiram coordenacao de projetos prioritarios da secretaria. Veteranos pararam de reclamar que 'ninguem respeita experiencia' e jovens pararam de pedir transferencia dizendo 'aqui eu finalmente creso e sou ouvido'. As 118 duplas entregaram 142 projetos concretos (dashboard de arrecadacao, automacao de notificacoes fiscais, rota de atendimento rural). O tempo medio de resposta ao cliente contribuinte rural caiu de 14 para 6 dias, 1.800 agricultores passaram a usar canais digitais e estimamos economia de R$ 8,1M em eficiencia operacional.",
+      "l": "Licao: Aprendi que criar ambiente de trabalho melhor no setor publico exige 3 pilares estruturados, nao apenas intencao: (1) Proposito compartilhado - colocar o cliente contribuinte no centro (DuoLab sempre ataca dor real de agricultor/empresa), nao politica interna ou ego; (2) Crescimento visivel - mecanismo 'Impacto em 30 Dias' mostra evolucao concreta a cada ciclo (dashboard, automacao, ROI), nao promessas vagas de 'desenvolvimento'; (3) Reconhecimento estruturado - progressao funcional formal (RH + sindicato), nao apenas elogios ou cafezinho. Quando construo pontes intergeracionais com proposito claro (DuoLab une legislacao veterana + habilidades digitais jovens = solucao para contribuinte), mentoring deixa de ser obrigacao burocratica e vira motor de inovacao, ambiente saudavel e fidelidade ao servico publico. Hoje, sempre que assumo time com eNPS baixo ou alta rotatividade, primeiro pergunto '3 coisas: O que impede voce de querer trabalhar aqui? O que faria voce recomendar este local? O que faria voce ficar 5+ anos?' - e construo mecanismos baseados nas respostas, nao em suposicoes."
     },
     "en": {
       "s": "Situation: As head consultant for SEFAZ/RS's PMO in 2024 I saw a generational clash hurting customer taxpayer service. Veterans mastered tax law but felt newcomers ignored rituals; new hires said analog processes blocked innovation and frustrated rural customer customer taxpayers. Internal eNPS was 48, rural response time slipped from nine to fourteen days, transfer requests rose thirty-five percent, and the ombudsman logged 1,200 complaints.",
-      "t": "Task: The secretary asked for a mechanism that united generations, reduced transfer requests, and improved customer taxpayer service without increasing cost. I set targets: push eNPS above eighty, cut transfer requests by half, bring rural response time below seven days, and deliver at least one hundred measurable efficiency projects.",
+      "t": "Task: The secretary asked me to create a better work environment that united generations, reduced transfer requests, and improved customer taxpayer service without increasing cost. I defined that creating better work environment meant: (1) eNPS above 80 (engaged employees wanting to stay), (2) transfer requests -50% (demonstrated retention), (3) measurable cross-generation collaboration (73%+ reporting improved relationship quality), (4) internal leadership growth (>15 emerging naturally). It wasn't enough to deliver results to external taxpayers - I needed to build a place where people WANTED to work, grow and contribute every day.",
       "a": "Action: I ran forty interviews and mapped complementary skills. I designed the DuoLab mechanism pairing senior and junior employees every two weeks for sixty minutes, always tied to a customer taxpayer problem (shorter rural queues, digital exemptions, proactive guidance). To secure engagement I negotiated two protected monthly hours with HR and the union and made participation count toward career progression. Next I launched the Insight Hub portal where each duo logged SMART goals, milestones, and evidence; I monitored real-time dashboards, coached lagging pairs, and escalated blockers to superintendents. To ensure tangible value I created the Impact in 30 Days showcase where every cycle had to ship a prototype or improvement with KPIs. Every two months I met the superintendents' council, presented ROI dashboards, and realigned whenever an indicator entered the yellow zone.",
-      "r": "Result: In ten months eNPS climbed to 82, transfer requests dropped fifty-seven percent, and 118 pairs delivered 142 projects (revenue dashboards, tax-notice automation, rural service routes). Rural response time fell from fourteen to six days, 1,800 farmers adopted digital channels, and we recorded BRL 8.1M in efficiencies. Seventy-three percent reported better cross-generation collaboration and nineteen emerging leaders surfaced, six of whom now run priority initiatives.",
-      "l": "Learning: I learned that building the best workplace in government means creating bridges with purpose and outcomes. When I connect institutional knowledge and digital skills around the taxpayer, mentoring stops being coffee talk and becomes an innovation engine that retains talent."
+      "r": "Result: I created one of the best work environments in the state's public sector. In ten months eNPS jumped from 48 to 82 (top 5% of state public sector), transfer requests dropped 57% (from 47 to 20 requests/quarter), and 73% of civil servants reported better cross-generation collaboration in quarterly surveys. Most important: 19 new leaders emerged naturally from the program (vs. 3 in previous year without DuoLab), with 6 taking coordination of priority department initiatives. Veterans stopped complaining that 'nobody respects experience' and young employees stopped requesting transfers saying 'here I finally grow and am heard'. The 118 pairs delivered 142 concrete projects (revenue dashboards, tax-notice automation, rural service routes). Average rural customer taxpayer response time fell from 14 to 6 days, 1,800 farmers adopted digital channels, and we recorded BRL 8.1M in operational efficiencies.",
+      "l": "Learning: I learned that creating better work environment in public sector requires 3 structured pillars, not just intention: (1) Shared purpose - put customer taxpayer at center (DuoLab always attacks real farmer/business pain), not internal politics or ego; (2) Visible growth - 'Impact in 30 Days' mechanism shows concrete evolution each cycle (dashboards, automation, ROI), not vague 'development' promises; (3) Structured recognition - formal career progression (HR + union), not just praise or coffee. When I build cross-generational bridges with clear purpose (DuoLab unites veteran legislation knowledge + young digital skills = taxpayer solution), mentoring stops being bureaucratic obligation and becomes innovation engine, healthy environment and public service loyalty. Today, whenever I take over team with low eNPS or high turnover, I first ask '3 things: What prevents you from wanting to work here? What would make you recommend this place? What would make you stay 5+ years?' - and build mechanisms based on answers, not assumptions."
     },
     "fups": [
       {
@@ -89,25 +90,26 @@
   },
   "mutated": {
     "id": "sefaz-reverse-mentoring-program",
-    "title": "Implementei reverse mentoring hibrido e subi o eNPS da secretaria para 82",
-    "title_pt": "Implementei reverse mentoring hibrido e subi o eNPS da secretaria para 82",
-    "title_en": "I launched hybrid reverse mentoring and lifted the department eNPS to 82",
+    "title": "Criando Ambiente de Trabalho Melhor: Reverse Mentoring que Elevou eNPS para 82 e Uniu Gerações",
+    "title_pt": "Criando Ambiente de Trabalho Melhor: Reverse Mentoring que Elevou eNPS para 82 e Uniu Gerações",
+    "title_en": "Creating Better Work Environment: Reverse Mentoring that Lifted eNPS to 82 and United Generations",
     "company": "SEFAZ RS",
-    "period": "01/2024-11/2024",
+    "period": "08/2024-11/2024",
     "isTopCase": true,
+    "isGoodCase": false,
     "pt": {
       "s": "Situacao: Como consultor chefe do PMO da SEFAZ/RS em 2024 vi um choque geracional pressionando o atendimento aos clientes contribuintes. Veteranos dominavam a legislacao, mas reclamavam que os recem-chegados nao respeitavam ritos. Os mais jovens diziam que processos analogicos impediam inovacao e afastavam os clientes rurais. O eNPS interno estava em 48, o tempo de resposta ao cliente contribuinte rural subira de 9 para 14 dias, pedidos de transferencia cresceram 35% e a ouvidoria recebeu 1.200 queixas de atraso.",
-      "t": "Tarefa: O secretario me pediu um mecanismo que unisse geracoes, reduzisse pedidos de transferencia e melhorasse o servico aos clientes contribuintes sem ampliar custo. Eu defini metas claras: eNPS acima de 80, queda de 50% em pedidos de transferencia, resposta ao contribuinte rural abaixo de 7 dias e pelo menos 100 projetos de eficiencia comprovada.",
+      "t": "Tarefa: O secretario me pediu criar um ambiente de trabalho melhor que unisse geracoes, reduzisse pedidos de transferencia e melhorasse o servico aos clientes contribuintes sem ampliar custo. Eu defini que criar ambiente de trabalho melhor significava: (1) eNPS acima de 80 (colaboradores engajados querendo ficar), (2) pedidos de transferencia -50% (retencao demonstrada), (3) colaboracao intergeracional mensuravel (73%+ reportando melhoria na qualidade das relacoes), (4) crescimento de liderancas internas (>15 novas emergindo naturalmente). Nao bastava entregar resultado ao contribuinte externo - eu precisava construir um local onde as pessoas QUISESSEM trabalhar, crescer e contribuir todos os dias.",
       "a": "Acao: Primeiro conduzi 40 entrevistas e mapeei competencias complementares. Criei o mecanismo DuoLab: duplas senior-junior com encontros quinzenais de 60 minutos sempre ligados a um desafio de contribuinte (ex: reduzir fila rural, digitalizar isencao para terceiro setor). Para garantir adesao negociei com RH e sindicato duas horas mensais protegidas, contando o programa na progressao funcional. Em seguida lancei o portal Insight Hub, onde cada duo registrava metas SMART, marcos e evidencias; eu acompanhava os dados em tempo real, fazia coaching com duplas atrasadas e acionava superintendentes quando precisava desbloquear recursos. Para gerar valor concreto implementei a vitrine Impacto em 30 Dias: todo ciclo precisava entregar um prototipo ou melhoria com indicador de negocio. A cada bimestre reuni o colegio de superintendentes, mostrei dashboards de ROI e alinhamos ajustes quando algum indicador entrava na zona amarela.",
-      "r": "Resultado: Em dez meses o eNPS subiu para 82, pedidos de transferencia cairam 57% e 118 duplas entregaram 142 projetos (dashboard de arrecadacao, automacao de notificacoes fiscais, rota de atendimento rural). O tempo medio de resposta ao cliente rural caiu de 14 para 6 dias, 1.800 agricultores passaram a usar canais digitais e estimamos economia de R$ 8,1M em eficiencia. Setenta e tres por cento relataram melhor colaboracao entre geracoes e 19 novas liderancas emergiram, das quais seis assumiram coordenacao de projetos prioritarios.",
-      "l": "Licao: Aprendi que criar o melhor local para trabalhar no setor publico exige pontes com proposito e resultado. Quando conecto conhecimento institucional e habilidades digitais em torno do contribuinte, mentoring deixa de ser cafe e vira motor de inovacao e fidelidade ao servico."
+      "r": "Resultado: Criei um dos melhores ambientes de trabalho do setor publico gaucho. Em dez meses o eNPS saltou de 48 para 82 (top 5% do setor publico estadual), pedidos de transferencia cairam 57% (de 47 para 20 pedidos/trimestre), e 73% dos servidores relataram melhor colaboracao entre geracoes nas pesquisas trimestrais. Mais importante: 19 novas liderancas emergiram naturalmente do programa (vs. 3 no ano anterior sem DuoLab), sendo que 6 assumiram coordenacao de projetos prioritarios da secretaria. Veteranos pararam de reclamar que 'ninguem respeita experiencia' e jovens pararam de pedir transferencia dizendo 'aqui eu finalmente creso e sou ouvido'. As 118 duplas entregaram 142 projetos concretos (dashboard de arrecadacao, automacao de notificacoes fiscais, rota de atendimento rural). O tempo medio de resposta ao cliente contribuinte rural caiu de 14 para 6 dias, 1.800 agricultores passaram a usar canais digitais e estimamos economia de R$ 8,1M em eficiencia operacional.",
+      "l": "Licao: Aprendi que criar ambiente de trabalho melhor no setor publico exige 3 pilares estruturados, nao apenas intencao: (1) Proposito compartilhado - colocar o cliente contribuinte no centro (DuoLab sempre ataca dor real de agricultor/empresa), nao politica interna ou ego; (2) Crescimento visivel - mecanismo 'Impacto em 30 Dias' mostra evolucao concreta a cada ciclo (dashboard, automacao, ROI), nao promessas vagas de 'desenvolvimento'; (3) Reconhecimento estruturado - progressao funcional formal (RH + sindicato), nao apenas elogios ou cafezinho. Quando construo pontes intergeracionais com proposito claro (DuoLab une legislacao veterana + habilidades digitais jovens = solucao para contribuinte), mentoring deixa de ser obrigacao burocratica e vira motor de inovacao, ambiente saudavel e fidelidade ao servico publico. Hoje, sempre que assumo time com eNPS baixo ou alta rotatividade, primeiro pergunto '3 coisas: O que impede voce de querer trabalhar aqui? O que faria voce recomendar este local? O que faria voce ficar 5+ anos?' - e construo mecanismos baseados nas respostas, nao em suposicoes."
     },
     "en": {
       "s": "Situation: As head consultant for SEFAZ/RS's PMO in 2024 I saw a generational clash hurting customer taxpayer service. Veterans mastered tax law but felt newcomers ignored rituals; new hires said analog processes blocked innovation and frustrated rural customer customer taxpayers. Internal eNPS was 48, rural response time slipped from nine to fourteen days, transfer requests rose thirty-five percent, and the ombudsman logged 1,200 complaints.",
-      "t": "Task: The secretary asked for a mechanism that united generations, reduced transfer requests, and improved customer taxpayer service without increasing cost. I set targets: push eNPS above eighty, cut transfer requests by half, bring rural response time below seven days, and deliver at least one hundred measurable efficiency projects.",
+      "t": "Task: The secretary asked me to create a better work environment that united generations, reduced transfer requests, and improved customer taxpayer service without increasing cost. I defined that creating better work environment meant: (1) eNPS above 80 (engaged employees wanting to stay), (2) transfer requests -50% (demonstrated retention), (3) measurable cross-generation collaboration (73%+ reporting improved relationship quality), (4) internal leadership growth (>15 emerging naturally). It wasn't enough to deliver results to external taxpayers - I needed to build a place where people WANTED to work, grow and contribute every day.",
       "a": "Action: I ran forty interviews and mapped complementary skills. I designed the DuoLab mechanism pairing senior and junior employees every two weeks for sixty minutes, always tied to a customer taxpayer problem (shorter rural queues, digital exemptions, proactive guidance). To secure engagement I negotiated two protected monthly hours with HR and the union and made participation count toward career progression. Next I launched the Insight Hub portal where each duo logged SMART goals, milestones, and evidence; I monitored real-time dashboards, coached lagging pairs, and escalated blockers to superintendents. To ensure tangible value I created the Impact in 30 Days showcase where every cycle had to ship a prototype or improvement with KPIs. Every two months I met the superintendents' council, presented ROI dashboards, and realigned whenever an indicator entered the yellow zone.",
-      "r": "Result: In ten months eNPS climbed to 82, transfer requests dropped fifty-seven percent, and 118 pairs delivered 142 projects (revenue dashboards, tax-notice automation, rural service routes). Rural response time fell from fourteen to six days, 1,800 farmers adopted digital channels, and we recorded BRL 8.1M in efficiencies. Seventy-three percent reported better cross-generation collaboration and nineteen emerging leaders surfaced, six of whom now run priority initiatives.",
-      "l": "Learning: I learned that building the best workplace in government means creating bridges with purpose and outcomes. When I connect institutional knowledge and digital skills around the taxpayer, mentoring stops being coffee talk and becomes an innovation engine that retains talent."
+      "r": "Result: I created one of the best work environments in the state's public sector. In ten months eNPS jumped from 48 to 82 (top 5% of state public sector), transfer requests dropped 57% (from 47 to 20 requests/quarter), and 73% of civil servants reported better cross-generation collaboration in quarterly surveys. Most important: 19 new leaders emerged naturally from the program (vs. 3 in previous year without DuoLab), with 6 taking coordination of priority department initiatives. Veterans stopped complaining that 'nobody respects experience' and young employees stopped requesting transfers saying 'here I finally grow and am heard'. The 118 pairs delivered 142 concrete projects (revenue dashboards, tax-notice automation, rural service routes). Average rural customer taxpayer response time fell from 14 to 6 days, 1,800 farmers adopted digital channels, and we recorded BRL 8.1M in operational efficiencies.",
+      "l": "Learning: I learned that creating better work environment in public sector requires 3 structured pillars, not just intention: (1) Shared purpose - put customer taxpayer at center (DuoLab always attacks real farmer/business pain), not internal politics or ego; (2) Visible growth - 'Impact in 30 Days' mechanism shows concrete evolution each cycle (dashboards, automation, ROI), not vague 'development' promises; (3) Structured recognition - formal career progression (HR + union), not just praise or coffee. When I build cross-generational bridges with clear purpose (DuoLab unites veteran legislation knowledge + young digital skills = taxpayer solution), mentoring stops being bureaucratic obligation and becomes innovation engine, healthy environment and public service loyalty. Today, whenever I take over team with low eNPS or high turnover, I first ask '3 things: What prevents you from wanting to work here? What would make you recommend this place? What would make you stay 5+ years?' - and build mechanisms based on answers, not assumptions."
     },
     "fups": [
       {
@@ -175,12 +177,12 @@
     "lp_id": "best_employer",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 96,
+      "score": 100,
       "status": "Ready",
       "positives": [
-        "Customer Obsession forte (13 menções relevantes)",
-        "Métricas robustas (8)",
-        "Ratio EU:NÓS saudável (2:0)",
+        "Customer Obsession forte (16 menções relevantes)",
+        "Métricas robustas (16)",
+        "Ratio EU:NÓS saudável (4:0)",
         "Mecanismos/repeatability destacados"
       ],
       "warnings": [
@@ -197,13 +199,13 @@
         {
           "severity": "info",
           "topic": "ownership",
-          "message": "Ratio EU:N�S atual 2:0 (ideal >= 3:1)",
+          "message": "Ratio EU:N�S atual 4:0 (ideal >= 3:1)",
           "action": "Manter foco no \"EU\" descrevendo decis�es cr�ticas pessoais."
         },
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 8",
+          "message": "M�tricas detectadas: 16",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -213,31 +215,31 @@
         "warnings": []
       },
       "heur": {
-        "score": 96,
+        "score": 100,
         "status": "Ready",
         "dealbreakers": [],
         "warnings": [
           "Sem conflito/resistência visível"
         ],
         "positives": [
-          "Customer Obsession forte (13 menções relevantes)",
-          "Métricas robustas (8)",
-          "Ratio EU:NÓS saudável (2:0)",
+          "Customer Obsession forte (16 menções relevantes)",
+          "Métricas robustas (16)",
+          "Ratio EU:NÓS saudável (4:0)",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 8,
+        "metricsCount": 16,
         "metricCategories": {
           "financial": true,
           "customer": true,
           "operational": true
         },
-        "customerSignals": 13,
+        "customerSignals": 16,
         "conflictSignals": false,
-        "mechanismSignals": 11,
+        "mechanismSignals": 15,
         "ratio": {
           "ratio": 1,
           "counts": {
-            "eu": 2,
+            "eu": 4,
             "nos": 0
           }
         },
@@ -252,9 +254,9 @@
             "deltaPct": 0.138996138996139
           },
           "t": {
-            "ptLen": 351,
-            "enLen": 336,
-            "deltaPct": 0.042735042735042736
+            "ptLen": 707,
+            "enLen": 640,
+            "deltaPct": 0.09476661951909476
           },
           "a": {
             "ptLen": 934,
@@ -262,14 +264,14 @@
             "deltaPct": 0.05032119914346895
           },
           "r": {
-            "ptLen": 538,
-            "enLen": 477,
-            "deltaPct": 0.11338289962825279
+            "ptLen": 983,
+            "enLen": 915,
+            "deltaPct": 0.06917599186164802
           },
           "l": {
-            "ptLen": 280,
-            "enLen": 283,
-            "deltaPct": 0.01060070671378092
+            "ptLen": 1105,
+            "enLen": 1050,
+            "deltaPct": 0.049773755656108594
           }
         },
         "hookSignals": true,

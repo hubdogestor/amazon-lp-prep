@@ -7,6 +7,7 @@
     "company": "Huawei",
     "period": "08/2013-07/2014",
     "isTopCase": true,
+    "isGoodCase": false,
     "pt": {
       "s": "Quando eu recebi a ligacao de emergencia dos quatro CTOs em panico sobre a Copa do Mundo FIFA 2014 no Brasil, eu herdei um projeto que todos consideravam tecnicamente impossivel. O desafio que eu enfrentava: entregar upgrade 4G de 86 sites em 12 cidades-sede para processar 8,6 milhoes de transacoes contactless de torcedores durante o maior evento esportivo do planeta, mas enfrentando seis obstaculos criticos simultaneos. Obstaculo 1: licencas da ANATEL travadas em 168 dias (meta 70), com processo burocratico emperrado em 19 municipios. Obstaculo 2: dois integradores incompetentes entregando apenas 61% dos sites no prazo, gerando atraso em cascata. Obstaculo 3: 280 toneladas de equipamentos 4G retidos em portos e alfandegas ha meses. Obstaculo 4: orcamento rigido de US$ 140M sem margem para contingencias. Obstaculo 5: quatro operadoras (Vivo, Claro, TIM, Oi) desalinhadas com prioridades conflitantes. Obstaculo 6: risco iminente de protestos comunitarios bloqueando torres. O custo do fracasso para os 3,4 milhoes de torcedores presentes nos estadios: R$ 28M/dia em transacoes perdidas + US$ 10M de multa por estadio da FIFA = US$ 38M totais em penalidades contratuais. Ninguem acreditava que eu poderia entregar.",
       "t": "Eu fui nomeado PMO, mas eu me declarei owner end-to-end. Eu prometi aos CTOs das operadoras e ao presidente da Huawei Latam que eu entregaria os 86 sites de upgrade ate 10 dias antes do primeiro jogo, eu garantiria disponibilidade inicial de 99,5%, throughput de 110 Mbps e eu manteria o CAPEX em US$ 140M.",
@@ -23,40 +24,52 @@
     },
     "fups": [
       {
-        "q": "Como voce derrubou o lead time de licenca de 168 para 49 dias?",
-        "a": "Digitalizei checklist para 19 municipios, consolidei laudos em dossie unico e garanti janela fixa semanal com a superintendencia da ANATEL.",
-        "q_en": "How did you cut license lead time from 168 to 49 days?",
-        "a_en": "I digitized the checklist for 19 municipalities, consolidated reports into a single dossier, and secured a weekly slot with ANATEL."
+        "q": "Qual foi o obstaculo mais dificil de superar dos seis que voce enfrentou?",
+        "a": "O Obstaculo 2 (integradores ruins com 61% de aderencia). Eu precisei substituir dois fornecedores em 96 horas mesmo com o diretor comercial bloqueando, mostrar risco de multa US$ 6M e implantar VPI com recovery squads onsite. Foi critico porque o atraso em cascata ameacava todo o cronograma da Copa.",
+        "q_en": "Which was the toughest obstacle to overcome among the six you faced?",
+        "a_en": "Obstacle 2 (bad integrators with 61% adherence). I had to replace two vendors in 96 hours despite commercial director blocking, show US$6M penalty risk, and deploy VPI with onsite recovery squads. It was critical because cascading delays threatened the entire World Cup schedule."
       },
       {
-        "q": "Como funcionava o Vendor Performance Index?",
-        "a": "Score de 0 a 100 com cinco eixos (prazo, qualidade, seguranca, cooperacao, retrabalho). Abaixo de 85 ativava squad de recuperacao conduzida por mim.",
-        "q_en": "How did the Vendor Performance Index work?",
-        "a_en": "A 0-100 score on five axes (schedule, quality, safety, collaboration, rework). Anything under 85 triggered a recovery squad led by me."
+        "q": "Como voce atacou seis obstaculos em paralelo sem perder foco?",
+        "a": "Eu criei torre de controle unificada rastreando os seis em tempo real com dashboard unico para CTOs das quatro operadoras. Cada obstaculo tinha owner dedicado (task force licencas, squad vendors, time logistica) reportando para mim diariamente. Eu priorizava por impacto no caminho critico: licencas e vendors primeiro (bloqueadores), depois logistica e budget (otimizadores).",
+        "q_en": "How did you attack six obstacles in parallel without losing focus?",
+        "a_en": "I created unified control tower tracking all six real-time with single dashboard for CTOs of four carriers. Each obstacle had dedicated owner (licensing task force, vendor squad, logistics team) reporting to me daily. I prioritized by critical path impact: licenses and vendors first (blockers), then logistics and budget (optimizers)."
       },
       {
-        "q": "Qual foi o maior conflito com fornecedores?",
-        "a": "Integrador incumbente se recusou a liberar equipe; mostrei risco de multa de US$ 6M, acionei clausula contratual e migrei time em 96h.",
-        "q_en": "What was the toughest supplier conflict?",
-        "a_en": "An incumbent refused to release crews; I showed a US$6M penalty risk, invoked the contract clause, and migrated the team within 96 hours."
+        "q": "Como voce derrubou o lead time de licenca de 168 para 49 dias (Obstaculo 1)?",
+        "a": "Eu formei task force de emergencia com juridico/regulatorio/engenharia, redesenhei completamente o dossie tecnico com checklist digital automatizado para 19 municipios e negociei pessoalmente janela semanal fixa com a superintendencia da ANATEL. A digitalizacao eliminou retrabalho e a janela fixa criou previsibilidade.",
+        "q_en": "How did you cut license lead time from 168 to 49 days (Obstacle 1)?",
+        "a_en": "I formed emergency task force with legal/regulatory/engineering, completely redesigned technical dossier with automated digital checklist for 19 municipalities, and personally negotiated fixed weekly slot with ANATEL's superintendent. Digitization eliminated rework and fixed slot created predictability."
       },
       {
-        "q": "Quais SLAs voce travou na torre logistica?",
-        "a": "Check-in porto 12h, liberacao aduana 72h, transporte final 24h. Pagamento so apos leitura de QR code no site.",
-        "q_en": "Which SLAs ran in the logistics tower?",
-        "a_en": "Port check-in 12h, customs clearance 72h, last-mile 24h. Payments after on-site QR scan only."
+        "q": "Como funcionava o Vendor Performance Index que voce criou (Obstaculo 2)?",
+        "a": "Score de 0 a 100 com cinco eixos (prazo, qualidade, seguranca, cooperacao, retrabalho). Eu calculava semanalmente e quem ficava abaixo de 85 recebia recovery squad meu onsite por 14 dias com plano de acao obrigatorio. Score abaixo de 70 por duas semanas consecutivas ativava clausula de substituicao. Isso fez a aderencia explodir de 61% para 97%.",
+        "q_en": "How did the Vendor Performance Index you created work (Obstacle 2)?",
+        "a_en": "A 0-100 score on five axes (schedule, quality, safety, collaboration, rework). I calculated weekly and scores below 85 triggered my onsite recovery squad for 14 days with mandatory action plan. Score below 70 for two consecutive weeks activated replacement clause. This made adherence explode from 61% to 97%."
       },
       {
-        "q": "Como voce garantiu a queda de 42% nas reclamacoes de cobertura?",
-        "a": "Monitorei tickets por estadio, acionei tuning de radio em 48h e ampliei capacidade RAN em 15 setores prioritarios antes da fase de grupos.",
-        "q_en": "How did you drive the 42% drop in coverage complaints?",
-        "a_en": "I tracked tickets per stadium, triggered RF tuning within 48 hours, and expanded RAN capacity in 15 priority sectors before the group stage."
+        "q": "Qual foi o maior conflito com fornecedores e como voce venceu?",
+        "a": "Integrador incumbente se recusou a liberar equipe alegando clausulas contratuais. Eu reuni o presidente da Huawei Latam, mostrei risco de multa de US$ 6M da FIFA, acionei clausula de performance insuficiente e migrei todo o time em 96 horas. Foi brutal mas necessario - estava comprometendo os 86 sites.",
+        "q_en": "What was the toughest supplier conflict and how did you win it?",
+        "a_en": "Incumbent integrator refused to release crews citing contractual clauses. I gathered Huawei Latam president, showed US$6M FIFA penalty risk, invoked insufficient performance clause, and migrated entire team in 96 hours. It was brutal but necessary - it was compromising all 86 sites."
       },
       {
-        "q": "Que metricas voce acompanhou no comite semanal com operadoras?",
-        "a": "Disponibilidade por site, backlog de licenca, status de vendor, risco de protesto, projecao de transacoes contactless, NPS semanal.",
-        "q_en": "Which metrics did you share in the weekly carrier committee?",
-        "a_en": "Site availability, licensing backlog, vendor status, protest risk, contactless transaction forecast, and weekly NPS."
+        "q": "Como voce desbloqueou as 280 toneladas presas em portos (Obstaculo 3)?",
+        "a": "Eu construi torre de controle em tempo real integrando SAP, Receita Federal, porto e aeroporto via APIs. Renegociei DHL com SLA blindado de 72h port-to-site e seguro anti-retencao. Amarrei pagamentos a QR code de check-in no site, eliminando 11 dias de estoque parado. A visibilidade end-to-end foi o game changer.",
+        "q_en": "How did you unblock the 280 tons trapped in ports (Obstacle 3)?",
+        "a_en": "I built real-time control tower integrating SAP, Federal Revenue, ports, and airports via APIs. Renegotiated DHL with hardened 72h port-to-site SLA and anti-seizure insurance. Tied payments to on-site QR check-in, eliminating 11 days of idle inventory. End-to-end visibility was the game changer."
+      },
+      {
+        "q": "Como voce garantiu experiencia impecavel para os 3,4 milhoes de torcedores?",
+        "a": "Eu priorizei sites por densidade de torcedores e volume de transacoes projetado. Monitorei tickets por estadio em tempo real, acionei tuning de radio em 48h quando detectava degradacao e ampliei capacidade RAN em 15 setores prioritarios antes da fase de grupos. Resultado: zero blackouts, 2,8s por transacao, 94% de satisfacao FIFA.",
+        "q_en": "How did you ensure flawless experience for 3.4 million fans?",
+        "a_en": "I prioritized sites by fan density and projected transaction volume. I monitored tickets per stadium real-time, triggered RF tuning within 48h when detecting degradation, and expanded RAN capacity in 15 priority sectors before group stage. Result: zero blackouts, 2.8s per transaction, 94% FIFA satisfaction."
+      },
+      {
+        "q": "Que metricas voce acompanhou no comite semanal com as quatro operadoras?",
+        "a": "Eu apresentava dashboard com disponibilidade por site, backlog de licenca ANATEL, status de vendor com VPI score, risco de protesto comunitario, projecao de transacoes contactless por estadio, NPS semanal das operadoras e progress dos seis obstaculos. Transparencia total gerou alinhamento executivo.",
+        "q_en": "Which metrics did you track in weekly committee with four carriers?",
+        "a_en": "I presented dashboard with site availability, ANATEL license backlog, vendor status with VPI score, community protest risk, contactless transaction forecast per stadium, weekly carrier NPS, and progress on six obstacles. Total transparency generated executive alignment."
       },
       {
         "q": "Como voce calculou o impacto de 8,6M transacoes sem incidente?",
@@ -71,16 +84,16 @@
         "a_en": "I swapped expensive indoor sites for modular small cells (cut CAPEX by US$3.2M) and reinvested in power redundancy for 18 critical sites."
       },
       {
-        "q": "Como voce tratou resistencia comunitaria em Goiania?",
-        "a": "Apresentei estudo socioeconomico, garanti contrapartida ambiental (reflorestamento de 1,5 ha) e criei canal direto com lider comunitario.",
-        "q_en": "How did you handle the community pushback in Goiania?",
-        "a_en": "I shared socioeconomic impact, committed to a 1.5-hectare reforestation offset, and opened a direct channel with the community leader."
+        "q": "Como voce negociou a resolucao dos protestos em Goiania (Obstaculo 6)?",
+        "a": "Quando manifestantes tentaram embargar a torre, eu voei para Goiania no dia seguinte, negociei pessoalmente com o prefeito e lider comunitario por 8 horas. Apresentei estudo de impacto socioeconomico mostrando 2.100 empregos temporarios + R$ 12M em compras locais. Garanti contrapartida ambiental com reflorestamento de 1,5 hectare. Torre liberada em 72h.",
+        "q_en": "How did you negotiate resolution of Goiania protests (Obstacle 6)?",
+        "a_en": "When protesters tried to block tower, I flew to Goiania next day, personally negotiated with mayor and community leader for 8 hours. I presented socioeconomic impact study showing 2,100 temporary jobs + R$12M local spending. I guaranteed environmental offset with 1.5-hectare reforestation. Tower cleared in 72h."
       },
       {
-        "q": "Como perpetuou o VPI e a torre apos o projeto?",
-        "a": "Documentei metodologia, treinei squads regionais e inclui os ritos nos OKRs de rede 2022; hoje estao ativos em 11 paises.",
-        "q_en": "How did you sustain the VPI and control tower after the project?",
-        "a_en": "I documented the method, trained regional squads, and embedded the rituals in the 2022 network OKRs; they're active in 11 countries today."
+        "q": "Como voce transformou os seis obstaculos em mecanismos replicaveis?",
+        "a": "Eu documentei cada solucao como playbook: (1) Checklist digital ANATEL virou template para outros rollouts; (2) VPI com recovery squads virou governanca padrao de vendors; (3) Torre de controle logistica virou central de operacoes permanente; (4) Comite semanal multi-operadora virou ritual de alinhamento; (5) Playbook de impacto socioeconomico virou ferramenta de stakeholder management. Hoje estao ativos em 11 paises.",
+        "q_en": "How did you transform six obstacles into replicable mechanisms?",
+        "a_en": "I documented each solution as playbook: (1) ANATEL digital checklist became template for other rollouts; (2) VPI with recovery squads became standard vendor governance; (3) Logistics control tower became permanent operations center; (4) Weekly multi-carrier committee became alignment ritual; (5) Socioeconomic impact playbook became stakeholder management tool. Today active in 11 countries."
       }
     ],
     "__file": "src\\data\\deliver_results\\deliver_results_case1.js",
@@ -95,6 +108,7 @@
     "company": "Huawei",
     "period": "08/2013-07/2014",
     "isTopCase": true,
+    "isGoodCase": false,
     "pt": {
       "s": "Quando eu recebi a ligacao de emergencia dos quatro CTOs em panico sobre a Copa do Mundo FIFA 2014 no Brasil, eu herdei um projeto que todos consideravam tecnicamente impossivel. O desafio que eu enfrentava: entregar upgrade 4G de 86 sites em 12 cidades-sede para processar 8,6 milhoes de transacoes contactless de torcedores durante o maior evento esportivo do planeta, mas enfrentando seis obstaculos criticos simultaneos. Obstaculo 1: licencas da ANATEL travadas em 168 dias (meta 70), com processo burocratico emperrado em 19 municipios. Obstaculo 2: dois integradores incompetentes entregando apenas 61% dos sites no prazo, gerando atraso em cascata. Obstaculo 3: 280 toneladas de equipamentos 4G retidos em portos e alfandegas ha meses. Obstaculo 4: orcamento rigido de US$ 140M sem margem para contingencias. Obstaculo 5: quatro operadoras (Vivo, Claro, TIM, Oi) desalinhadas com prioridades conflitantes. Obstaculo 6: risco iminente de protestos comunitarios bloqueando torres. O custo do fracasso para os 3,4 milhoes de torcedores presentes nos estadios: R$ 28M/dia em transacoes perdidas + US$ 10M de multa por estadio da FIFA = US$ 38M totais em penalidades contratuais. Ninguem acreditava que eu poderia entregar.",
       "t": "Eu fui nomeado PMO, mas eu me declarei owner end-to-end. Eu prometi aos CTOs das operadoras e ao presidente da Huawei Latam que eu entregaria os 86 sites de upgrade ate 10 dias antes do primeiro jogo, eu garantiria disponibilidade inicial de 99,5%, throughput de 110 Mbps e eu manteria o CAPEX em US$ 140M.",
@@ -111,40 +125,52 @@
     },
     "fups": [
       {
-        "q": "Como voce derrubou o lead time de licenca de 168 para 49 dias?",
-        "a": "Digitalizei checklist para 19 municipios, consolidei laudos em dossie unico e garanti janela fixa semanal com a superintendencia da ANATEL.",
-        "q_en": "How did you cut license lead time from 168 to 49 days?",
-        "a_en": "I digitized the checklist for 19 municipalities, consolidated reports into a single dossier, and secured a weekly slot with ANATEL."
+        "q": "Qual foi o obstaculo mais dificil de superar dos seis que voce enfrentou?",
+        "a": "O Obstaculo 2 (integradores ruins com 61% de aderencia). Eu precisei substituir dois fornecedores em 96 horas mesmo com o diretor comercial bloqueando, mostrar risco de multa US$ 6M e implantar VPI com recovery squads onsite. Foi critico porque o atraso em cascata ameacava todo o cronograma da Copa.",
+        "q_en": "Which was the toughest obstacle to overcome among the six you faced?",
+        "a_en": "Obstacle 2 (bad integrators with 61% adherence). I had to replace two vendors in 96 hours despite commercial director blocking, show US$6M penalty risk, and deploy VPI with onsite recovery squads. It was critical because cascading delays threatened the entire World Cup schedule."
       },
       {
-        "q": "Como funcionava o Vendor Performance Index?",
-        "a": "Score de 0 a 100 com cinco eixos (prazo, qualidade, seguranca, cooperacao, retrabalho). Abaixo de 85 ativava squad de recuperacao conduzida por mim.",
-        "q_en": "How did the Vendor Performance Index work?",
-        "a_en": "A 0-100 score on five axes (schedule, quality, safety, collaboration, rework). Anything under 85 triggered a recovery squad led by me."
+        "q": "Como voce atacou seis obstaculos em paralelo sem perder foco?",
+        "a": "Eu criei torre de controle unificada rastreando os seis em tempo real com dashboard unico para CTOs das quatro operadoras. Cada obstaculo tinha owner dedicado (task force licencas, squad vendors, time logistica) reportando para mim diariamente. Eu priorizava por impacto no caminho critico: licencas e vendors primeiro (bloqueadores), depois logistica e budget (otimizadores).",
+        "q_en": "How did you attack six obstacles in parallel without losing focus?",
+        "a_en": "I created unified control tower tracking all six real-time with single dashboard for CTOs of four carriers. Each obstacle had dedicated owner (licensing task force, vendor squad, logistics team) reporting to me daily. I prioritized by critical path impact: licenses and vendors first (blockers), then logistics and budget (optimizers)."
       },
       {
-        "q": "Qual foi o maior conflito com fornecedores?",
-        "a": "Integrador incumbente se recusou a liberar equipe; mostrei risco de multa de US$ 6M, acionei clausula contratual e migrei time em 96h.",
-        "q_en": "What was the toughest supplier conflict?",
-        "a_en": "An incumbent refused to release crews; I showed a US$6M penalty risk, invoked the contract clause, and migrated the team within 96 hours."
+        "q": "Como voce derrubou o lead time de licenca de 168 para 49 dias (Obstaculo 1)?",
+        "a": "Eu formei task force de emergencia com juridico/regulatorio/engenharia, redesenhei completamente o dossie tecnico com checklist digital automatizado para 19 municipios e negociei pessoalmente janela semanal fixa com a superintendencia da ANATEL. A digitalizacao eliminou retrabalho e a janela fixa criou previsibilidade.",
+        "q_en": "How did you cut license lead time from 168 to 49 days (Obstacle 1)?",
+        "a_en": "I formed emergency task force with legal/regulatory/engineering, completely redesigned technical dossier with automated digital checklist for 19 municipalities, and personally negotiated fixed weekly slot with ANATEL's superintendent. Digitization eliminated rework and fixed slot created predictability."
       },
       {
-        "q": "Quais SLAs voce travou na torre logistica?",
-        "a": "Check-in porto 12h, liberacao aduana 72h, transporte final 24h. Pagamento so apos leitura de QR code no site.",
-        "q_en": "Which SLAs ran in the logistics tower?",
-        "a_en": "Port check-in 12h, customs clearance 72h, last-mile 24h. Payments after on-site QR scan only."
+        "q": "Como funcionava o Vendor Performance Index que voce criou (Obstaculo 2)?",
+        "a": "Score de 0 a 100 com cinco eixos (prazo, qualidade, seguranca, cooperacao, retrabalho). Eu calculava semanalmente e quem ficava abaixo de 85 recebia recovery squad meu onsite por 14 dias com plano de acao obrigatorio. Score abaixo de 70 por duas semanas consecutivas ativava clausula de substituicao. Isso fez a aderencia explodir de 61% para 97%.",
+        "q_en": "How did the Vendor Performance Index you created work (Obstacle 2)?",
+        "a_en": "A 0-100 score on five axes (schedule, quality, safety, collaboration, rework). I calculated weekly and scores below 85 triggered my onsite recovery squad for 14 days with mandatory action plan. Score below 70 for two consecutive weeks activated replacement clause. This made adherence explode from 61% to 97%."
       },
       {
-        "q": "Como voce garantiu a queda de 42% nas reclamacoes de cobertura?",
-        "a": "Monitorei tickets por estadio, acionei tuning de radio em 48h e ampliei capacidade RAN em 15 setores prioritarios antes da fase de grupos.",
-        "q_en": "How did you drive the 42% drop in coverage complaints?",
-        "a_en": "I tracked tickets per stadium, triggered RF tuning within 48 hours, and expanded RAN capacity in 15 priority sectors before the group stage."
+        "q": "Qual foi o maior conflito com fornecedores e como voce venceu?",
+        "a": "Integrador incumbente se recusou a liberar equipe alegando clausulas contratuais. Eu reuni o presidente da Huawei Latam, mostrei risco de multa de US$ 6M da FIFA, acionei clausula de performance insuficiente e migrei todo o time em 96 horas. Foi brutal mas necessario - estava comprometendo os 86 sites.",
+        "q_en": "What was the toughest supplier conflict and how did you win it?",
+        "a_en": "Incumbent integrator refused to release crews citing contractual clauses. I gathered Huawei Latam president, showed US$6M FIFA penalty risk, invoked insufficient performance clause, and migrated entire team in 96 hours. It was brutal but necessary - it was compromising all 86 sites."
       },
       {
-        "q": "Que metricas voce acompanhou no comite semanal com operadoras?",
-        "a": "Disponibilidade por site, backlog de licenca, status de vendor, risco de protesto, projecao de transacoes contactless, NPS semanal.",
-        "q_en": "Which metrics did you share in the weekly carrier committee?",
-        "a_en": "Site availability, licensing backlog, vendor status, protest risk, contactless transaction forecast, and weekly NPS."
+        "q": "Como voce desbloqueou as 280 toneladas presas em portos (Obstaculo 3)?",
+        "a": "Eu construi torre de controle em tempo real integrando SAP, Receita Federal, porto e aeroporto via APIs. Renegociei DHL com SLA blindado de 72h port-to-site e seguro anti-retencao. Amarrei pagamentos a QR code de check-in no site, eliminando 11 dias de estoque parado. A visibilidade end-to-end foi o game changer.",
+        "q_en": "How did you unblock the 280 tons trapped in ports (Obstacle 3)?",
+        "a_en": "I built real-time control tower integrating SAP, Federal Revenue, ports, and airports via APIs. Renegotiated DHL with hardened 72h port-to-site SLA and anti-seizure insurance. Tied payments to on-site QR check-in, eliminating 11 days of idle inventory. End-to-end visibility was the game changer."
+      },
+      {
+        "q": "Como voce garantiu experiencia impecavel para os 3,4 milhoes de torcedores?",
+        "a": "Eu priorizei sites por densidade de torcedores e volume de transacoes projetado. Monitorei tickets por estadio em tempo real, acionei tuning de radio em 48h quando detectava degradacao e ampliei capacidade RAN em 15 setores prioritarios antes da fase de grupos. Resultado: zero blackouts, 2,8s por transacao, 94% de satisfacao FIFA.",
+        "q_en": "How did you ensure flawless experience for 3.4 million fans?",
+        "a_en": "I prioritized sites by fan density and projected transaction volume. I monitored tickets per stadium real-time, triggered RF tuning within 48h when detecting degradation, and expanded RAN capacity in 15 priority sectors before group stage. Result: zero blackouts, 2.8s per transaction, 94% FIFA satisfaction."
+      },
+      {
+        "q": "Que metricas voce acompanhou no comite semanal com as quatro operadoras?",
+        "a": "Eu apresentava dashboard com disponibilidade por site, backlog de licenca ANATEL, status de vendor com VPI score, risco de protesto comunitario, projecao de transacoes contactless por estadio, NPS semanal das operadoras e progress dos seis obstaculos. Transparencia total gerou alinhamento executivo.",
+        "q_en": "Which metrics did you track in weekly committee with four carriers?",
+        "a_en": "I presented dashboard with site availability, ANATEL license backlog, vendor status with VPI score, community protest risk, contactless transaction forecast per stadium, weekly carrier NPS, and progress on six obstacles. Total transparency generated executive alignment."
       },
       {
         "q": "Como voce calculou o impacto de 8,6M transacoes sem incidente?",
@@ -159,16 +185,16 @@
         "a_en": "I swapped expensive indoor sites for modular small cells (cut CAPEX by US$3.2M) and reinvested in power redundancy for 18 critical sites."
       },
       {
-        "q": "Como voce tratou resistencia comunitaria em Goiania?",
-        "a": "Apresentei estudo socioeconomico, garanti contrapartida ambiental (reflorestamento de 1,5 ha) e criei canal direto com lider comunitario.",
-        "q_en": "How did you handle the community pushback in Goiania?",
-        "a_en": "I shared socioeconomic impact, committed to a 1.5-hectare reforestation offset, and opened a direct channel with the community leader."
+        "q": "Como voce negociou a resolucao dos protestos em Goiania (Obstaculo 6)?",
+        "a": "Quando manifestantes tentaram embargar a torre, eu voei para Goiania no dia seguinte, negociei pessoalmente com o prefeito e lider comunitario por 8 horas. Apresentei estudo de impacto socioeconomico mostrando 2.100 empregos temporarios + R$ 12M em compras locais. Garanti contrapartida ambiental com reflorestamento de 1,5 hectare. Torre liberada em 72h.",
+        "q_en": "How did you negotiate resolution of Goiania protests (Obstacle 6)?",
+        "a_en": "When protesters tried to block tower, I flew to Goiania next day, personally negotiated with mayor and community leader for 8 hours. I presented socioeconomic impact study showing 2,100 temporary jobs + R$12M local spending. I guaranteed environmental offset with 1.5-hectare reforestation. Tower cleared in 72h."
       },
       {
-        "q": "Como perpetuou o VPI e a torre apos o projeto?",
-        "a": "Documentei metodologia, treinei squads regionais e inclui os ritos nos OKRs de rede 2022; hoje estao ativos em 11 paises.",
-        "q_en": "How did you sustain the VPI and control tower after the project?",
-        "a_en": "I documented the method, trained regional squads, and embedded the rituals in the 2022 network OKRs; they're active in 11 countries today."
+        "q": "Como voce transformou os seis obstaculos em mecanismos replicaveis?",
+        "a": "Eu documentei cada solucao como playbook: (1) Checklist digital ANATEL virou template para outros rollouts; (2) VPI com recovery squads virou governanca padrao de vendors; (3) Torre de controle logistica virou central de operacoes permanente; (4) Comite semanal multi-operadora virou ritual de alinhamento; (5) Playbook de impacto socioeconomico virou ferramenta de stakeholder management. Hoje estao ativos em 11 paises.",
+        "q_en": "How did you transform six obstacles into replicable mechanisms?",
+        "a_en": "I documented each solution as playbook: (1) ANATEL digital checklist became template for other rollouts; (2) VPI with recovery squads became standard vendor governance; (3) Logistics control tower became permanent operations center; (4) Weekly multi-carrier committee became alignment ritual; (5) Socioeconomic impact playbook became stakeholder management tool. Today active in 11 countries."
       }
     ],
     "__file": "src\\data\\deliver_results\\deliver_results_case1.js",
@@ -211,7 +237,9 @@
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": []
+        "warnings": [
+          "FUPs excedentes: 12 (ideal 10)"
+        ]
       },
       "heur": {
         "score": 100,

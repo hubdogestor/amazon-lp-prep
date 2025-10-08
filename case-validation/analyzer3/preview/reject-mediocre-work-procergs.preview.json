@@ -7,6 +7,7 @@
     "company": "SEFAZ/RS",
     "period": "11/2024--02/2025",
     "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
       "s": "Em novembro de 2024 a PROCERGS entregou a primeira versao da integracao fiscal usada pelos clientes contribuintes afetados pelas enchentes. Detectei 74 defeitos bloqueadores, zero testes automatizados e documentacao divergente. Se eu aceitasse em 72 horas, como previa o contrato, exporia 12 mil clientes a dados incorretos e fraude.",
       "t": "Como advisor da CAGE eu era dono tecnico e contratual. Minha responsabilidade era proteger o contribuinte e garantir que o sistema entrasse em producao sem risco. Decidi rejeitar a entrega e elevar o padrao de qualidade mesmo sob ameaca de multa.",
@@ -95,6 +96,7 @@
     "company": "SEFAZ/RS",
     "period": "11/2024--02/2025",
     "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
       "s": "Em novembro de 2024 a PROCERGS entregou a primeira versao da integracao fiscal usada pelos clientes contribuintes afetados pelas enchentes. Detectei 74 defeitos bloqueadores, zero testes automatizados e documentacao divergente. Se eu aceitasse em 72 horas, como previa o contrato, exporia 12 mil clientes a dados incorretos e fraude.",
       "t": "Como advisor da CAGE eu era dono tecnico e contratual. Minha responsabilidade era proteger o contribuinte e garantir que o sistema entrasse em producao sem risco. Decidi rejeitar a entrega e elevar o padrao de qualidade mesmo sob ameaca de multa.",

@@ -5,8 +5,9 @@
     "title_pt": "Bati de frente com o VP sobre acelerar 5G e entreguei o plano aprovado para a Copa Feminina",
     "title_en": "I challenged the VP on 5G acceleration and delivered the approved plan for the Women's World Cup",
     "company": "Huawei LATAM",
-    "period": "09/2022-07/2023",
+    "period": "09/2013-07/2014",
     "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
       "s": "Se atrasassemos o rollout 5G nas quinze cidades-sede da Copa do Mundo Feminina 2023, a FIFA aplicaria multa de US$ 8M e 280 mil torcedores ficariam sem conectividade; quando assumi o programa recebi em 24 horas 18 ligacoes de clientes operadoras e da FIFA reforcando essa ameaca, o VP global de delivery decidiu encurtar o cronograma em 30 dias para abrir precedente comercial. Eu discordava: os relatrios de readiness mostravam licencas municipais pendentes em 9 cidades e fornecedores de fibra com backlog de 18 dias. Eu disse na reuniao: \"se cortarmos 30 dias agora, vamos falhar no estagio de FAT e voce vai ter de explicar para a FIFA\". O VP respondeu: \"se nao executar, troco a lideranca do programa\".",
       "t": "Defini que eu mostraria dados irrefutveis, aceitaria a decisao final e lideraria a execucao 120% focada. Minhas metas: (1) apresentar analise de caminho critico em 72 horas, (2) alinhar com o VP e com o cliente (operadoras e FIFA) a decisao de cronograma, (3) entregar o plano aprovado removendo blocos de fibre e energia.",
@@ -18,7 +19,7 @@
       "s": "If we slipped the 5G rollout for the fifteen host cities of the 2023 Women's World Cup, FIFA would fine us US$ 8M and 280,000 fans would lose connectivity; within 24 hours of taking the program eighteen carrier customers and the FIFA client called warning about that threat, the global delivery VP decided to compress the schedule by 30 days to create a commercial precedent. I disagreed: readiness reports showed municipal permits pending in nine cities, fan-experience partners and corporate clients warning that 280,000 ticket holders and twelve broadcasters would lack indoor 5G, and fiber contractors with an 18-day backlog. I said in the meeting, \"if we cut 30 days now, we will fail FAT and you will have to explain it to FIFA.\" The VP answered, \"if you do not execute, I will replace the program lead.\"",
       "t": "I decided to present irrefutable data, accept the final call, and lead execution with 120% focus. My goals were: (1) deliver a critical-path analysis in 72 hours, (2) align the VP and the client (carriers and FIFA) on the schedule decision, (3) deliver the approved plan clearing fiber and power blockers.",
       "a": "First I updated the Primavera schedule, calculated float, and showed that a 30-day cut would raise delay risk to 67%. I took the analysis to the VP and to the host carrier's CEO saying, \"I disagree, but I will follow whatever decision leaves this room.\" After an hour of debate, the VP chose a 15-day cut conditioned on permit clearance in ten days and doubled FAT windows. I replied immediately: \"I register my original disagreement, but from now on I lead the 15-day plan and own every milestone.\" Second, I assembled a task force with city halls, the fiber vendor, and RF teams, ran a licensing blitz in 72 hours, and personally signed 27 waiver requests. Third, I implemented a 24/7 war room with a 48-indicator dashboard, tracked venue NPS daily, enforced a 6-hour activation SLA per venue, measured each vendor's mean time to recover, and enforced a rapid-decision playbook: if a task slipped by eight hours, I approved overtime or re-routed crews without additional authorization. Fourth, to show commitment, I flew with the VP to Sydney and presented the mitigation strategy to FIFA executives and the carrier presidents, verbally stating that I owned every milestone and would keep customer stakeholders updated daily.",
-      "r": "We delivered the fifteen cities with twelve days of buffer and no critical incidents. Permits were cleared in seven days, average commissioning time fell from 29 to 17 hours, and tournament availability reached 99.94%, the fan NPS inside arenas hit 81 pontos (12 pontos acima do baseline), e o SLA medio de ativacao caiu de 9 horas para 5 horas. The carrier reported US$ 11.3M in avoided penalties. The VP acknowledged that I had disagreed with data but executed with absolute rigor and nominated me to lead the Los Angeles 2026 rollout.",
+      "r": "We delivered the fifteen cities with twelve days of buffer and no critical incidents. Permits were cleared in seven days, average commissioning time fell from 29 to 17 hours, and tournament availability reached 99.94%. Fan NPS inside arenas hit 81 points (12 points above baseline), and average activation SLA dropped from 9 hours to 5 hours. The carrier reported US$ 11.3M in avoided penalties. The VP acknowledged that I had disagreed with data but executed with absolute rigor and nominated me to lead the Los Angeles 2026 rollout.",
       "l": "I learned that disagree and commit requires escalating risks upward, then owning delivery when the decision maker chooses the path. When I put my name on every milestone even after diverging, I earn the license to challenge again in the future."
     },
     "fups": [
@@ -93,8 +94,9 @@
     "title_pt": "Bati de frente com o VP sobre acelerar 5G e entreguei o plano aprovado para a Copa Feminina",
     "title_en": "I challenged the VP on 5G acceleration and delivered the approved plan for the Women's World Cup",
     "company": "Huawei LATAM",
-    "period": "09/2022-07/2023",
+    "period": "09/2013-07/2014",
     "isTopCase": false,
+    "isGoodCase": false,
     "pt": {
       "s": "Se atrasassemos o rollout 5G nas quinze cidades-sede da Copa do Mundo Feminina 2023, a FIFA aplicaria multa de US$ 8M e 280 mil torcedores ficariam sem conectividade; quando assumi o programa recebi em 24 horas 18 ligacoes de clientes operadoras e da FIFA reforcando essa ameaca, o VP global de delivery decidiu encurtar o cronograma em 30 dias para abrir precedente comercial. Eu discordava: os relatrios de readiness mostravam licencas municipais pendentes em 9 cidades e fornecedores de fibra com backlog de 18 dias. Eu disse na reuniao: \"se cortarmos 30 dias agora, vamos falhar no estagio de FAT e voce vai ter de explicar para a FIFA\". O VP respondeu: \"se nao executar, troco a lideranca do programa\".",
       "t": "Defini que eu mostraria dados irrefutveis, aceitaria a decisao final e lideraria a execucao 120% focada. Minhas metas: (1) apresentar analise de caminho critico em 72 horas, (2) alinhar com o VP e com o cliente (operadoras e FIFA) a decisao de cronograma, (3) entregar o plano aprovado removendo blocos de fibre e energia.",
@@ -106,7 +108,7 @@
       "s": "If we slipped the 5G rollout for the fifteen host cities of the 2023 Women's World Cup, FIFA would fine us US$ 8M and 280,000 fans would lose connectivity; within 24 hours of taking the program eighteen carrier customers and the FIFA client called warning about that threat, the global delivery VP decided to compress the schedule by 30 days to create a commercial precedent. I disagreed: readiness reports showed municipal permits pending in nine cities, fan-experience partners and corporate clients warning that 280,000 ticket holders and twelve broadcasters would lack indoor 5G, and fiber contractors with an 18-day backlog. I said in the meeting, \"if we cut 30 days now, we will fail FAT and you will have to explain it to FIFA.\" The VP answered, \"if you do not execute, I will replace the program lead.\"",
       "t": "I decided to present irrefutable data, accept the final call, and lead execution with 120% focus. My goals were: (1) deliver a critical-path analysis in 72 hours, (2) align the VP and the client (carriers and FIFA) on the schedule decision, (3) deliver the approved plan clearing fiber and power blockers.",
       "a": "First I updated the Primavera schedule, calculated float, and showed that a 30-day cut would raise delay risk to 67%. I took the analysis to the VP and to the host carrier's CEO saying, \"I disagree, but I will follow whatever decision leaves this room.\" After an hour of debate, the VP chose a 15-day cut conditioned on permit clearance in ten days and doubled FAT windows. I replied immediately: \"I register my original disagreement, but from now on I lead the 15-day plan and own every milestone.\" Second, I assembled a task force with city halls, the fiber vendor, and RF teams, ran a licensing blitz in 72 hours, and personally signed 27 waiver requests. Third, I implemented a 24/7 war room with a 48-indicator dashboard, tracked venue NPS daily, enforced a 6-hour activation SLA per venue, measured each vendor's mean time to recover, and enforced a rapid-decision playbook: if a task slipped by eight hours, I approved overtime or re-routed crews without additional authorization. Fourth, to show commitment, I flew with the VP to Sydney and presented the mitigation strategy to FIFA executives and the carrier presidents, verbally stating that I owned every milestone and would keep customer stakeholders updated daily.",
-      "r": "We delivered the fifteen cities with twelve days of buffer and no critical incidents. Permits were cleared in seven days, average commissioning time fell from 29 to 17 hours, and tournament availability reached 99.94%, the fan NPS inside arenas hit 81 pontos (12 pontos acima do baseline), e o SLA medio de ativacao caiu de 9 horas para 5 horas. The carrier reported US$ 11.3M in avoided penalties. The VP acknowledged that I had disagreed with data but executed with absolute rigor and nominated me to lead the Los Angeles 2026 rollout.",
+      "r": "We delivered the fifteen cities with twelve days of buffer and no critical incidents. Permits were cleared in seven days, average commissioning time fell from 29 to 17 hours, and tournament availability reached 99.94%. Fan NPS inside arenas hit 81 points (12 points above baseline), and average activation SLA dropped from 9 hours to 5 hours. The carrier reported US$ 11.3M in avoided penalties. The VP acknowledged that I had disagreed with data but executed with absolute rigor and nominated me to lead the Los Angeles 2026 rollout.",
       "l": "I learned that disagree and commit requires escalating risks upward, then owning delivery when the decision maker chooses the path. When I put my name on every milestone even after diverging, I earn the license to challenge again in the future."
     },
     "fups": [
@@ -179,7 +181,7 @@
       "status": "Ready",
       "positives": [
         "Customer Obsession forte (9 menções relevantes)",
-        "Métricas robustas (23)",
+        "Métricas robustas (21)",
         "Ratio EU:NÓS saudável (9:0)",
         "Conflito/endurecimento presente",
         "Mecanismos/repeatability destacados"
@@ -196,7 +198,7 @@
         {
           "severity": "info",
           "topic": "metrics",
-          "message": "M�tricas detectadas: 23",
+          "message": "M�tricas detectadas: 21",
           "action": "Boa densidade m�trica � verificar se h� equil�brio entre cliente, finan�as e opera��o."
         }
       ],
@@ -212,12 +214,12 @@
         "warnings": [],
         "positives": [
           "Customer Obsession forte (9 menções relevantes)",
-          "Métricas robustas (23)",
+          "Métricas robustas (21)",
           "Ratio EU:NÓS saudável (9:0)",
           "Conflito/endurecimento presente",
           "Mecanismos/repeatability destacados"
         ],
-        "metricsCount": 23,
+        "metricsCount": 21,
         "metricCategories": {
           "financial": true,
           "customer": true,
@@ -234,8 +236,8 @@
           }
         },
         "recency": {
-          "monthsAgo": 27,
-          "status": "fresh"
+          "monthsAgo": 135,
+          "status": "stale"
         },
         "parity": {
           "s": {
@@ -255,8 +257,8 @@
           },
           "r": {
             "ptLen": 568,
-            "enLen": 537,
-            "deltaPct": 0.05457746478873239
+            "enLen": 534,
+            "deltaPct": 0.05985915492957746
           },
           "l": {
             "ptLen": 240,

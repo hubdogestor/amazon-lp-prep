@@ -7,6 +7,7 @@
     "company": "Unimed",
     "period": "06/2022-12/2022",
     "isTopCase": false,
+    "isGoodCase": true,
     "pt": {
       "s": "No segundo semestre de 2022 eu liderava a celula de analytics antifraude da Unimed. As perdas totais estavam dentro do limite (0,5% da sinistralidade), mas uma analista experiente me sinalizou que pacientes de uma rede popular recebiam muitos reembolsos de baixo valor durante a madrugada. O dashboard padrao nao mostrava nada e o diretor assistencial queria seguir com outras prioridades. O alerta podia ser um \"falso positivo\", mas se fosse real significaria reembolsos indevidos atingindo clientes com franquias altas.",
       "t": "Assumi ownership total do caso. Eu prometi a CFO entregar em cinco dias um veredito com quantificacao financeira, impacto ao cliente e plano de bloqueio. Ao mesmo tempo convenci o diretor assistencial a liberar acesso completo aos logs e a permitir contato com regulatorio e Ouvidoria para entender possiveis queixas dos beneficiarios.",
@@ -95,6 +96,7 @@
     "company": "Unimed",
     "period": "06/2022-12/2022",
     "isTopCase": false,
+    "isGoodCase": true,
     "pt": {
       "s": "No segundo semestre de 2022 eu liderava a celula de analytics antifraude da Unimed. As perdas totais estavam dentro do limite (0,5% da sinistralidade), mas uma analista experiente me sinalizou que pacientes de uma rede popular recebiam muitos reembolsos de baixo valor durante a madrugada. O dashboard padrao nao mostrava nada e o diretor assistencial queria seguir com outras prioridades. O alerta podia ser um \"falso positivo\", mas se fosse real significaria reembolsos indevidos atingindo clientes com franquias altas.",
       "t": "Assumi ownership total do caso. Eu prometi a CFO entregar em cinco dias um veredito com quantificacao financeira, impacto ao cliente e plano de bloqueio. Ao mesmo tempo convenci o diretor assistencial a liberar acesso completo aos logs e a permitir contato com regulatorio e Ouvidoria para entender possiveis queixas dos beneficiarios.",

@@ -5,7 +5,7 @@
     "title_pt": "Inventei motor de simplificacao de liquidez que reduziu D+3 para D+0 em marketplaces",
     "title_en": "Invented liquidity simplification engine that moved settlements from D+3 to D+0",
     "company": "Bradesco Fintech Hub",
-    "period": "04/2023-12/2023",
+    "period": "04/2017-12/2017",
     "isTopCase": false,
     "pt": {
       "s": "Trinta marketplaces medio porte estavam ameaçando sair da plataforma de payments porque recebiam o saldo em D+3, enquanto concorrentes pagavam em seis horas. Eu recebi 4.200 chamados de lojistas pedindo capital de giro e o NPS caiu de 63 para 29 em dois ciclos. Dois varejistas chave (R$ 480M em TPV) enviaram carta exigindo plano concreto ou migrariam em 60 dias. Eu pessoalmente liguei para 20 lojistas top e escutei que a dor era a previsibilidade do fluxo de caixa e nao apenas a tarifa.",
@@ -93,7 +93,7 @@
     "title_pt": "Inventei motor de simplificacao de liquidez que reduziu D+3 para D+0 em marketplaces",
     "title_en": "Invented liquidity simplification engine that moved settlements from D+3 to D+0",
     "company": "Bradesco Fintech Hub",
-    "period": "04/2023-12/2023",
+    "period": "04/2017-12/2017",
     "isTopCase": false,
     "pt": {
       "s": "Trinta marketplaces medio porte estavam ameaçando sair da plataforma de payments porque recebiam o saldo em D+3, enquanto concorrentes pagavam em seis horas. Eu recebi 4.200 chamados de lojistas pedindo capital de giro e o NPS caiu de 63 para 29 em dois ciclos. Dois varejistas chave (R$ 480M em TPV) enviaram carta exigindo plano concreto ou migrariam em 60 dias. Eu pessoalmente liguei para 20 lojistas top e escutei que a dor era a previsibilidade do fluxo de caixa e nao apenas a tarifa.",
@@ -252,8 +252,8 @@
           }
         },
         "recency": {
-          "monthsAgo": 22,
-          "status": "fresh"
+          "monthsAgo": 94,
+          "status": "aging"
         },
         "parity": {
           "s": {

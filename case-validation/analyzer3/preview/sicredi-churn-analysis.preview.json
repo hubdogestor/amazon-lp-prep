@@ -6,7 +6,8 @@
     "title_en": "Data Analysis to Identify Main App Churn Drivers",
     "company": "Sicredi Woop",
     "period": "01/2019-10/2019",
-    "isTopCase": false,
+    "isTopCase": true,
+    "isGoodCase": false,
     "pt": {
       "s": "Em 2019 eu era Estrategista de Produtos do banco digital Woop (Sicredi) e encontrei um cenario critico: churn anual de 40%, R$ 12M em receita perdida e pressao para investir R$ 400k em cashback. Eu enxerguei um risco direto aos 150% de crescimento que a diretoria cobrava e assumi que, se aceitasse o atalho, colocaria o cliente e a meta em perigo.",
       "t": "Eu me comprometi com o COO a entregar, em duas semanas, um diagnostico raiz, um business case com ROI e um plano com mecanismos. Eu seria accountable por provar se o churn vinha de falhas operacionais e por convencer a lideranca a priorizar o cliente em vez de beneficios superficiais.",
@@ -94,7 +95,8 @@
     "title_en": "Data Analysis to Identify Main App Churn Drivers",
     "company": "Sicredi Woop",
     "period": "01/2019-10/2019",
-    "isTopCase": false,
+    "isTopCase": true,
+    "isGoodCase": false,
     "pt": {
       "s": "Em 2019 eu era Estrategista de Produtos do banco digital Woop (Sicredi) e encontrei um cenario critico: churn anual de 40%, R$ 12M em receita perdida e pressao para investir R$ 400k em cashback. Eu enxerguei um risco direto aos 150% de crescimento que a diretoria cobrava e assumi que, se aceitasse o atalho, colocaria o cliente e a meta em perigo.",
       "t": "Eu me comprometi com o COO a entregar, em duas semanas, um diagnostico raiz, um business case com ROI e um plano com mecanismos. Eu seria accountable por provar se o churn vinha de falhas operacionais e por convencer a lideranca a priorizar o cliente em vez de beneficios superficiais.",
