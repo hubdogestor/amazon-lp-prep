@@ -1,25 +1,25 @@
 {
   "original": {
     "id": "sefaz-pmo-governance",
-    "title": "Elevei o Padrao do PMO da SEFAZ com Foco em Valor ao Cidadao",
-    "title_pt": "Elevei o Padrao do PMO da SEFAZ com Foco em Valor ao Cidadao",
+    "title": "Elevei o Padrão do PMO da SEFAZ com Foco em Valor ao Cidadão",
+    "title_pt": "Elevei o Padrão do PMO da SEFAZ com Foco em Valor ao Cidadão",
     "title_en": "Raised SEFAZ PMO Standards with Citizen Value Focus",
     "company": "SEFAZ/RS",
-    "period": "07/2024--05/2025",
+    "period": "07/2024–05/2025",
     "isTopCase": true,
     "isGoodCase": false,
     "pt": {
-      "s": "Quando cheguei ao gabinete da CAGE em julho de 2024 encontrei 74 projetos com 63% de estouro orcamentario e atrasos medios de 5,6 meses. Nenhum acompanhava NPS ou tempo de servico dos clientes contribuintes; aceitava-se entregar software mesmo se o contribuinte aguardasse 10 dias por uma certidao ou se ligasse cinco vezes para o 156. Eu revisitei 12 auditorias do BID e calculei perda de R$ 38 mi por ano causada por essa complacencia.",
-      "t": "Eu assumi o papel de owner unico da governanca de projetos. Minha missao pessoal era instituir padrao de excelencia equivalente ao setor privado: projetos aprovados apenas com outcome mensuravel, tolerancia maxima de 5% em orcamento e total transparencia externa.",
-      "a": "Primeiro eu convoquei war-room com subsecretarios, mostrei os R$ 38 mi de perdas e li dois relatos de clientes contribuintes que estavam 14 dias sem licenca. O subsecretario de TI resistiu a cancelar projetos sem outcome; eu apresentei backlog de chamados e consegui apoio do secretario para adotar novo padrao em 48 horas. Em seguida eu redigi quatro manuais (157 paginas) com exemplos reais, criterios de aceite e evidencias obrigatorias. Eu criei a matriz \"Outcome First\": nenhum projeto passava do gate 0 sem meta de tempo de servico, NPS de cliente e impacto financeiro. Em duas semanas eu recusei 11 pedidos de software e pedi redesign orientado a contribuinte. Para sustentar cultura eu publiquei o Portal PMO Transparente com dados em tempo real de orcamento, prazo, ROI e indicadores de cliente; expus API aberta e enviei link para 20 entidades empresariais. Implantei o ritual mensal \"Impact Review\" e liguei pessoalmente para o gerente que alegou “setor publico e assim mesmo”, exigindo plano com dono e prazo. Eu estabeleci checklist de 28 itens e gate com auditor independente. Tambem alinhei BID e TCE em comite bimensal, reduzindo retrabalho em 32%.",
-      "r": "Em nove meses a variacao orcamentaria caiu de 63% para 6,8% e a aderencia a prazos subiu para 88%. Vinte e oito projetos passaram a reportar outcome: a digitalizacao de certidoes reduziu tempo de emissao de 10 dias para 22 horas, NPS dos clientes passou de 43 para 71 e chamadas ao 156 cairam 41%. O Portal PMO Transparente recebeu 9,4 mil acessos (38% de entidades empresariais) e virou referencia do BID. O ROI acumulado atingiu R$ 57 mi e a secretaria de Planejamento adotou a matriz Outcome First.",
-      "l": "Aprendi que insistir nos mais altos padroes no setor publico exige evidencias objetivas, transparencia radical e tolerancia zero a justificativas vagas. Hoje qualquer programa que lidero comeca com manual de padroes escrito por mim, portal publico de telemetria e ritual de Impact Review - mecanismos que sustentam o nivel de excelencia mesmo apos minha saida."
+      "s": "Ao chegar à CAGE em julho de 2024, encontrei 74 projetos com 63% de estouro orçamentário e atrasos de 5,6 meses. Nenhum media o impacto no cidadão; a entrega de software era considerada um sucesso, mesmo que uma certidão levasse 10 dias. Auditorias do BID mostraram uma perda de R$ 38 milhões/ano por má governança, um nível considerado normal no setor público.",
+      "t": "Assumi como owner da governança de projetos para instituir um padrão de excelência do setor privado: aprovações baseadas em outcomes, desvio orçamentário máximo de 5% e transparência total.",
+      "a": "Convoquei uma war-room com subsecretários, apresentei a perda de R$ 38 milhões e usei dados de backlog para obter o apoio do Secretário para um novo padrão em 48 horas. Elaborei quatro manuais (157 páginas) com exemplos e gates verificáveis. Introduzi a matriz 'Outcome First': nenhum projeto saía do gate 0 sem métricas de impacto no cidadão (tempo de serviço, NPS, economia). Em duas semanas, recusei 11 propostas de software e exigi um redesenho. Criei o portal 'PMO Transparente' com dados em tempo real sobre orçamento, cronograma, ROI e indicadores de serviço, publicando-o no site da SEFAZ com uma API aberta. Instituí 'Impact Reviews' mensais, onde cada gerente apresentava evidências. Quando um gerente alegou que 'o setor público funciona assim', exigi um plano de remediação com dono e prazo. Apliquei um checklist de qualidade de 28 pontos e um gate de QA independente. Alinhei o BID e o tribunal de contas em um comitê bimestral, reduzindo o retrabalho de auditoria em 32%.",
+      "r": "Em 9 meses, o desvio orçamentário caiu de 63% para 6,8% e a aderência ao cronograma subiu para 88%. 28 projetos passaram a relatar outcomes diretos; a digitalização de certidões reduziu o tempo de emissão de 10 dias para 22 horas e a carga do call-center em 41%. O portal de transparência teve 9,4 mil visitas no primeiro trimestre. Os projetos priorizados entregaram R$ 57 milhões de ROI. O escritório de planejamento do estado adotou a matriz Outcome First, e o governador citou o PMO como referência de accountability.",
+      "l": "Aprendi que elevar os padrões no setor público exige evidências objetivas, transparência radical e tolerância zero a desculpas vagas. Todo programa que lidero agora começa com meu playbook, um portal de telemetria público e 'Impact Reviews' — mecanismos que mantêm o padrão elevado mesmo após minha saída."
     },
     "en": {
-      "s": "When I joined the SEFAZ executive office in July 2024 I found 74 projects with 63% budget variance and 5.6-month delays. Worse, none measured citizen impact; launching a new system was considered success even if certificates still took 10 days. Twelve BID audits showed the state was burning BRL 38M per year because of poor project governance. That level was treated as normal in the public sector.",
-      "t": "I became the single owner for project governance. My mission was to set private-sector grade standards: outcome-driven approvals, maximum 5% budget deviation, and full external transparency.",
-      "a": "I convened a war-room with subsecretaries and presented the BRL 38M loss analysis. The IT subsecretary resisted killing output-only projects; I used backlog data to secure the secretary's sponsorship and mandated a new standard within 48 hours. I wrote four playbooks myself (157 pages) covering initiation, risk, change, and closure, all with public-sector examples and verifiable gates. I introduced the \"Outcome First\" matrix: no project left gate 0 without citizen-impact metrics (service time, NPS, savings). Within two weeks I rejected 11 software-only proposals and demanded redesign. I built the \"PMO Transparente\" Power BI portal showing budget, schedule, ROI, and service indicators live, published it on the SEFAZ website, and exposed an open API. I instituted monthly \"Impact Reviews\" where each manager presented evidence (logs, NPS, audit). When a manager claimed \"public sector works like this\" I stopped the session and required a remedial plan with owner, deadline, and residual risk. I enforced a 28-point quality checklist and a mandatory independent QA gate. I also aligned BID and the state audit court in a bi-monthly committee, cutting audit rework by 32%.",
-      "r": "In nine months budget variance dropped from 63% to 6.8% and schedule adherence climbed to 88%. Twenty-eight projects now report direct outcomes; e.g., the certificate digitisation cut issuance time from 10 days to 22 hours and reduced call-centre load by 41%. The transparency portal logged 9.4k visits in the first quarter and triggered two BID knowledge-sharing requests. Prioritized projects delivered BRL 57M ROI, triple the historical average. The state planning office adopted the Outcome First matrix and the governor publicly referenced the PMO as an accountability benchmark.",
+      "s": "When I joined the SEFAZ executive office in July 2024, I found 74 projects with a 63% budget variance and 5.6-month delays. Worse, none measured citizen impact; launching a new system was considered a success even if certificates still took 10 days. Twelve BID audits showed the state was losing BRL 38M per year due to poor project governance, a level treated as normal in the public sector.",
+      "t": "I became the single owner for project governance. My mission was to set private-sector grade standards: outcome-driven approvals, a maximum 5% budget deviation, and full external transparency.",
+      "a": "I convened a war-room with subsecretaries and presented the BRL 38M loss analysis. The IT subsecretary resisted killing output-only projects; I used backlog data to secure the secretary's sponsorship and mandated a new standard within 48 hours. I wrote four playbooks myself (157 pages) covering initiation, risk, change, and closure, all with public-sector examples and verifiable gates. I introduced the 'Outcome First' matrix: no project left gate 0 without citizen-impact metrics (service time, NPS, savings). Within two weeks, I rejected 11 software-only proposals and demanded a redesign. I built the 'PMO Transparente' Power BI portal showing budget, schedule, ROI, and service indicators live, published it on the SEFAZ website, and exposed an open API. I instituted monthly 'Impact Reviews' where each manager presented evidence (logs, NPS, audit). When a manager claimed 'the public sector works like this,' I stopped the session and required a remedial plan with an owner, deadline, and residual risk. I enforced a 28-point quality checklist and a mandatory independent QA gate. I also aligned the BID and the state audit court in a bi-monthly committee, cutting audit rework by 32%.",
+      "r": "In nine months, budget variance dropped from 63% to 6.8%, and schedule adherence climbed to 88%. Twenty-eight projects now report direct outcomes; e.g., the certificate digitization cut issuance time from 10 days to 22 hours and reduced call-center load by 41%. The transparency portal logged 9.4k visits in the first quarter and triggered two BID knowledge-sharing requests. Prioritized projects delivered BRL 57M ROI, triple the historical average. The state planning office adopted the Outcome First matrix, and the governor publicly referenced the PMO as an accountability benchmark.",
       "l": "I learned that raising public-sector standards requires objective evidence, radical transparency, and zero tolerance for vague excuses. Every program I lead now launches with my playbook, a public telemetry portal, and Impact Reviews—mechanisms that keep the bar high even after I leave."
     },
     "fups": [
@@ -90,25 +90,25 @@
   },
   "mutated": {
     "id": "sefaz-pmo-governance",
-    "title": "Elevei o Padrao do PMO da SEFAZ com Foco em Valor ao Cidadao",
-    "title_pt": "Elevei o Padrao do PMO da SEFAZ com Foco em Valor ao Cidadao",
+    "title": "Elevei o Padrão do PMO da SEFAZ com Foco em Valor ao Cidadão",
+    "title_pt": "Elevei o Padrão do PMO da SEFAZ com Foco em Valor ao Cidadão",
     "title_en": "Raised SEFAZ PMO Standards with Citizen Value Focus",
     "company": "SEFAZ/RS",
-    "period": "07/2024--05/2025",
+    "period": "07/2024–05/2025",
     "isTopCase": true,
     "isGoodCase": false,
     "pt": {
-      "s": "Quando cheguei ao gabinete da CAGE em julho de 2024 encontrei 74 projetos com 63% de estouro orcamentario e atrasos medios de 5,6 meses. Nenhum acompanhava NPS ou tempo de servico dos clientes contribuintes; aceitava-se entregar software mesmo se o contribuinte aguardasse 10 dias por uma certidao ou se ligasse cinco vezes para o 156. Eu revisitei 12 auditorias do BID e calculei perda de R$ 38 mi por ano causada por essa complacencia.",
-      "t": "Eu assumi o papel de owner unico da governanca de projetos. Minha missao pessoal era instituir padrao de excelencia equivalente ao setor privado: projetos aprovados apenas com outcome mensuravel, tolerancia maxima de 5% em orcamento e total transparencia externa.",
-      "a": "Primeiro eu convoquei war-room com subsecretarios, mostrei os R$ 38 mi de perdas e li dois relatos de clientes contribuintes que estavam 14 dias sem licenca. O subsecretario de TI resistiu a cancelar projetos sem outcome; eu apresentei backlog de chamados e consegui apoio do secretario para adotar novo padrao em 48 horas. Em seguida eu redigi quatro manuais (157 paginas) com exemplos reais, criterios de aceite e evidencias obrigatorias. Eu criei a matriz \"Outcome First\": nenhum projeto passava do gate 0 sem meta de tempo de servico, NPS de cliente e impacto financeiro. Em duas semanas eu recusei 11 pedidos de software e pedi redesign orientado a contribuinte. Para sustentar cultura eu publiquei o Portal PMO Transparente com dados em tempo real de orcamento, prazo, ROI e indicadores de cliente; expus API aberta e enviei link para 20 entidades empresariais. Implantei o ritual mensal \"Impact Review\" e liguei pessoalmente para o gerente que alegou “setor publico e assim mesmo”, exigindo plano com dono e prazo. Eu estabeleci checklist de 28 itens e gate com auditor independente. Tambem alinhei BID e TCE em comite bimensal, reduzindo retrabalho em 32%.",
-      "r": "Em nove meses a variacao orcamentaria caiu de 63% para 6,8% e a aderencia a prazos subiu para 88%. Vinte e oito projetos passaram a reportar outcome: a digitalizacao de certidoes reduziu tempo de emissao de 10 dias para 22 horas, NPS dos clientes passou de 43 para 71 e chamadas ao 156 cairam 41%. O Portal PMO Transparente recebeu 9,4 mil acessos (38% de entidades empresariais) e virou referencia do BID. O ROI acumulado atingiu R$ 57 mi e a secretaria de Planejamento adotou a matriz Outcome First.",
-      "l": "Aprendi que insistir nos mais altos padroes no setor publico exige evidencias objetivas, transparencia radical e tolerancia zero a justificativas vagas. Hoje qualquer programa que lidero comeca com manual de padroes escrito por mim, portal publico de telemetria e ritual de Impact Review - mecanismos que sustentam o nivel de excelencia mesmo apos minha saida."
+      "s": "Ao chegar à CAGE em julho de 2024, encontrei 74 projetos com 63% de estouro orçamentário e atrasos de 5,6 meses. Nenhum media o impacto no cidadão; a entrega de software era considerada um sucesso, mesmo que uma certidão levasse 10 dias. Auditorias do BID mostraram uma perda de R$ 38 milhões/ano por má governança, um nível considerado normal no setor público.",
+      "t": "Assumi como owner da governança de projetos para instituir um padrão de excelência do setor privado: aprovações baseadas em outcomes, desvio orçamentário máximo de 5% e transparência total.",
+      "a": "Convoquei uma war-room com subsecretários, apresentei a perda de R$ 38 milhões e usei dados de backlog para obter o apoio do Secretário para um novo padrão em 48 horas. Elaborei quatro manuais (157 páginas) com exemplos e gates verificáveis. Introduzi a matriz 'Outcome First': nenhum projeto saía do gate 0 sem métricas de impacto no cidadão (tempo de serviço, NPS, economia). Em duas semanas, recusei 11 propostas de software e exigi um redesenho. Criei o portal 'PMO Transparente' com dados em tempo real sobre orçamento, cronograma, ROI e indicadores de serviço, publicando-o no site da SEFAZ com uma API aberta. Instituí 'Impact Reviews' mensais, onde cada gerente apresentava evidências. Quando um gerente alegou que 'o setor público funciona assim', exigi um plano de remediação com dono e prazo. Apliquei um checklist de qualidade de 28 pontos e um gate de QA independente. Alinhei o BID e o tribunal de contas em um comitê bimestral, reduzindo o retrabalho de auditoria em 32%.",
+      "r": "Em 9 meses, o desvio orçamentário caiu de 63% para 6,8% e a aderência ao cronograma subiu para 88%. 28 projetos passaram a relatar outcomes diretos; a digitalização de certidões reduziu o tempo de emissão de 10 dias para 22 horas e a carga do call-center em 41%. O portal de transparência teve 9,4 mil visitas no primeiro trimestre. Os projetos priorizados entregaram R$ 57 milhões de ROI. O escritório de planejamento do estado adotou a matriz Outcome First, e o governador citou o PMO como referência de accountability.",
+      "l": "Aprendi que elevar os padrões no setor público exige evidências objetivas, transparência radical e tolerância zero a desculpas vagas. Todo programa que lidero agora começa com meu playbook, um portal de telemetria público e 'Impact Reviews' — mecanismos que mantêm o padrão elevado mesmo após minha saída."
     },
     "en": {
-      "s": "When I joined the SEFAZ executive office in July 2024 I found 74 projects with 63% budget variance and 5.6-month delays. Worse, none measured citizen impact; launching a new system was considered success even if certificates still took 10 days. Twelve BID audits showed the state was burning BRL 38M per year because of poor project governance. That level was treated as normal in the public sector.",
-      "t": "I became the single owner for project governance. My mission was to set private-sector grade standards: outcome-driven approvals, maximum 5% budget deviation, and full external transparency.",
-      "a": "I convened a war-room with subsecretaries and presented the BRL 38M loss analysis. The IT subsecretary resisted killing output-only projects; I used backlog data to secure the secretary's sponsorship and mandated a new standard within 48 hours. I wrote four playbooks myself (157 pages) covering initiation, risk, change, and closure, all with public-sector examples and verifiable gates. I introduced the \"Outcome First\" matrix: no project left gate 0 without citizen-impact metrics (service time, NPS, savings). Within two weeks I rejected 11 software-only proposals and demanded redesign. I built the \"PMO Transparente\" Power BI portal showing budget, schedule, ROI, and service indicators live, published it on the SEFAZ website, and exposed an open API. I instituted monthly \"Impact Reviews\" where each manager presented evidence (logs, NPS, audit). When a manager claimed \"public sector works like this\" I stopped the session and required a remedial plan with owner, deadline, and residual risk. I enforced a 28-point quality checklist and a mandatory independent QA gate. I also aligned BID and the state audit court in a bi-monthly committee, cutting audit rework by 32%.",
-      "r": "In nine months budget variance dropped from 63% to 6.8% and schedule adherence climbed to 88%. Twenty-eight projects now report direct outcomes; e.g., the certificate digitisation cut issuance time from 10 days to 22 hours and reduced call-centre load by 41%. The transparency portal logged 9.4k visits in the first quarter and triggered two BID knowledge-sharing requests. Prioritized projects delivered BRL 57M ROI, triple the historical average. The state planning office adopted the Outcome First matrix and the governor publicly referenced the PMO as an accountability benchmark.",
+      "s": "When I joined the SEFAZ executive office in July 2024, I found 74 projects with a 63% budget variance and 5.6-month delays. Worse, none measured citizen impact; launching a new system was considered a success even if certificates still took 10 days. Twelve BID audits showed the state was losing BRL 38M per year due to poor project governance, a level treated as normal in the public sector.",
+      "t": "I became the single owner for project governance. My mission was to set private-sector grade standards: outcome-driven approvals, a maximum 5% budget deviation, and full external transparency.",
+      "a": "I convened a war-room with subsecretaries and presented the BRL 38M loss analysis. The IT subsecretary resisted killing output-only projects; I used backlog data to secure the secretary's sponsorship and mandated a new standard within 48 hours. I wrote four playbooks myself (157 pages) covering initiation, risk, change, and closure, all with public-sector examples and verifiable gates. I introduced the 'Outcome First' matrix: no project left gate 0 without citizen-impact metrics (service time, NPS, savings). Within two weeks, I rejected 11 software-only proposals and demanded a redesign. I built the 'PMO Transparente' Power BI portal showing budget, schedule, ROI, and service indicators live, published it on the SEFAZ website, and exposed an open API. I instituted monthly 'Impact Reviews' where each manager presented evidence (logs, NPS, audit). When a manager claimed 'the public sector works like this,' I stopped the session and required a remedial plan with an owner, deadline, and residual risk. I enforced a 28-point quality checklist and a mandatory independent QA gate. I also aligned the BID and the state audit court in a bi-monthly committee, cutting audit rework by 32%.",
+      "r": "In nine months, budget variance dropped from 63% to 6.8%, and schedule adherence climbed to 88%. Twenty-eight projects now report direct outcomes; e.g., the certificate digitization cut issuance time from 10 days to 22 hours and reduced call-center load by 41%. The transparency portal logged 9.4k visits in the first quarter and triggered two BID knowledge-sharing requests. Prioritized projects delivered BRL 57M ROI, triple the historical average. The state planning office adopted the Outcome First matrix, and the governor publicly referenced the PMO as an accountability benchmark.",
       "l": "I learned that raising public-sector standards requires objective evidence, radical transparency, and zero tolerance for vague excuses. Every program I lead now launches with my playbook, a public telemetry portal, and Impact Reviews—mechanisms that keep the bar high even after I leave."
     },
     "fups": [
@@ -177,25 +177,18 @@
     "lp_id": "insist_on_highest_standards",
     "__load_warnings": [],
     "__scorecard": {
-      "score": 62,
+      "score": 69,
       "status": "Needs-Rewrite",
       "positives": [
         "Métricas robustas (23)",
-        "Ratio EU:NÓS saudável (25.0:1)"
+        "Ratio EU:NÓS saudável (16.0:1)"
       ],
       "warnings": [
-        "desequil�brio PT/EN em 't' (diferen�a >25%)",
         "Faltam transições narrativas entre seções STARL",
         "Nenhum sinal de conflito ou superação de resistência"
       ],
       "dealbreakers": [],
       "suggestions": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "desequil�brio PT/EN em 't' (diferen�a >25%)",
-          "action": "Refinar narrativa conforme alerta."
-        },
         {
           "severity": "warning",
           "topic": "warning",
@@ -212,30 +205,27 @@
       "lint": {
         "ok": true,
         "issues": [],
-        "warnings": [
-          "desequil�brio PT/EN em 't' (diferen�a >25%)"
-        ]
+        "warnings": []
       },
       "heur": {
-        "score": 62,
+        "score": 69,
         "status": "Needs-Rewrite",
         "dealbreakers": [],
         "warnings": [
-          "desequil�brio PT/EN em 't' (diferen�a >25%)",
           "Faltam transições narrativas entre seções STARL",
           "Nenhum sinal de conflito ou superação de resistência"
         ],
         "positives": [
           "Métricas robustas (23)",
-          "Ratio EU:NÓS saudável (25.0:1)"
+          "Ratio EU:NÓS saudável (16.0:1)"
         ],
         "breakdown": {
-          "narrative": 10,
+          "narrative": 16,
           "metrics": 19,
           "lpContent": 0,
-          "amazonAspects": 10,
+          "amazonAspects": 8,
           "contribution": 10,
-          "structure": 7.5
+          "structure": 10
         },
         "details": {
           "metrics": {
@@ -245,13 +235,13 @@
             "hasOperational": false
           },
           "contribution": {
-            "ratio": 25,
-            "eu": 25,
-            "nos": 1
+            "ratio": 16,
+            "eu": 16,
+            "nos": 0
           },
           "amazonAspects": {
-            "customerSignals": 7,
-            "mechanismSignals": 3,
+            "customerSignals": 3,
+            "mechanismSignals": 2,
             "conflictSignals": 0
           },
           "lpContent": {

@@ -1,80 +1,16 @@
 {
-  "run_at": "2025-10-08T19:58:43.365Z",
+  "run_at": "2025-10-08T20:17:46.228Z",
   "data_dir": "src/data",
   "total_cases": 80,
-  "filtered_cases": 5,
-  "lp": "deliver_results",
-  "case": null,
+  "filtered_cases": 1,
+  "lp": "ownership",
+  "case": "hsbc-migration-leadership",
   "results": [
     {
-      "lp_id": "deliver_results",
-      "case_id": "huawei-world-cup-4g",
-      "title_pt": "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade",
-      "title_en": "Led the 4G/5G Upgrade for 2014 FIFA World Cup with 99.8% Availability",
-      "status": "Needs-Polish",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": [
-          "FUPs excedentes: 12 (ideal 10)"
-        ]
-      },
-      "heur": {
-        "score": 84,
-        "status": "Needs-Polish",
-        "dealbreakers": [],
-        "warnings": [
-          "FUPs excedentes: 12 (ideal 10)"
-        ],
-        "positives": [
-          "Métricas robustas (63)",
-          "Ratio EU:NÓS saudável (25.0:1)"
-        ],
-        "breakdown": {
-          "narrative": 20,
-          "metrics": 20,
-          "lpContent": 0,
-          "amazonAspects": 15,
-          "contribution": 10,
-          "structure": 10
-        },
-        "details": {
-          "metrics": {
-            "count": 63,
-            "hasFinancial": true,
-            "hasCustomer": true,
-            "hasOperational": true
-          },
-          "contribution": {
-            "ratio": 25,
-            "eu": 25,
-            "nos": 0
-          },
-          "amazonAspects": {
-            "customerSignals": 6,
-            "mechanismSignals": 9,
-            "conflictSignals": 2
-          },
-          "lpContent": {
-            "strongCount": 0,
-            "mediumCount": 0
-          }
-        }
-      },
-      "changes": [
-        {
-          "severity": "warning",
-          "topic": "warning",
-          "message": "FUPs excedentes: 12 (ideal 10)",
-          "action": "Refinar narrativa conforme alerta."
-        }
-      ]
-    },
-    {
-      "lp_id": "deliver_results",
-      "case_id": "unimed-ebitda-growth",
-      "title_pt": "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Tres Inputs Chave",
-      "title_en": "Digital Health Platform that Unified 347 Cooperatives and Served 4.2M Lives",
+      "lp_id": "ownership",
+      "case_id": "hsbc-migration-leadership",
+      "title_pt": "Liderança da Migração de US$ 5.2B de Ativos e Contas",
+      "title_en": "Leadership of US$ 5.2B Assets and Accounts Migration",
       "status": "Needs-Polish",
       "lint": {
         "ok": true,
@@ -82,203 +18,44 @@
         "warnings": []
       },
       "heur": {
-        "score": 78,
+        "score": 84,
         "status": "Needs-Polish",
         "dealbreakers": [],
-        "warnings": [],
+        "warnings": [
+          "Faltam transições narrativas entre seções STARL"
+        ],
         "positives": [
-          "Métricas robustas (70)",
-          "Ratio EU:NÓS saudável (16.0:1)"
+          "Métricas robustas (49)",
+          "Ratio EU:NÓS saudável (28.0:1)"
         ],
         "breakdown": {
           "narrative": 14,
           "metrics": 20,
-          "lpContent": 4,
-          "amazonAspects": 13,
-          "contribution": 10,
-          "structure": 10
-        },
-        "details": {
-          "metrics": {
-            "count": 70,
-            "hasFinancial": true,
-            "hasCustomer": true,
-            "hasOperational": true
-          },
-          "contribution": {
-            "ratio": 16,
-            "eu": 32,
-            "nos": 2
-          },
-          "amazonAspects": {
-            "customerSignals": 27,
-            "mechanismSignals": 10,
-            "conflictSignals": 1
-          },
-          "lpContent": {
-            "strongCount": 2,
-            "mediumCount": 0
-          }
-        }
-      },
-      "changes": []
-    },
-    {
-      "lp_id": "deliver_results",
-      "case_id": "sicredi-fraud-reduction",
-      "title_pt": "Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses",
-      "title_en": "Built the Anti-Fraud Mechanism that Cut Losses 46% in 5 Months",
-      "status": "Needs-Polish",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 84,
-        "status": "Needs-Polish",
-        "dealbreakers": [],
-        "warnings": [],
-        "positives": [
-          "Métricas robustas (45)",
-          "Ratio EU:NÓS saudável (24.0:1)"
-        ],
-        "breakdown": {
-          "narrative": 20,
-          "metrics": 20,
-          "lpContent": 0,
+          "lpContent": 8,
           "amazonAspects": 15,
           "contribution": 10,
           "structure": 10
         },
         "details": {
           "metrics": {
-            "count": 45,
+            "count": 49,
             "hasFinancial": true,
             "hasCustomer": true,
             "hasOperational": true
           },
           "contribution": {
-            "ratio": 24,
-            "eu": 24,
-            "nos": 1
+            "ratio": 28,
+            "eu": 28,
+            "nos": 0
           },
           "amazonAspects": {
-            "customerSignals": 23,
-            "mechanismSignals": 11,
-            "conflictSignals": 3
-          },
-          "lpContent": {
-            "strongCount": 0,
-            "mediumCount": 0
-          }
-        }
-      },
-      "changes": []
-    },
-    {
-      "lp_id": "deliver_results",
-      "case_id": "sefaz-ecage-portal",
-      "title_pt": "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção",
-      "title_en": "Turned e-CAGE into a Portal with 94% SLA Compliance and 100% Adoption",
-      "status": "Needs-Polish",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 84,
-        "status": "Needs-Polish",
-        "dealbreakers": [],
-        "warnings": [],
-        "positives": [
-          "Métricas robustas (50)",
-          "Ratio EU:NÓS saudável (33.0:1)"
-        ],
-        "breakdown": {
-          "narrative": 12,
-          "metrics": 20,
-          "lpContent": 10,
-          "amazonAspects": 15,
-          "contribution": 10,
-          "structure": 10
-        },
-        "details": {
-          "metrics": {
-            "count": 50,
-            "hasFinancial": true,
-            "hasCustomer": true,
-            "hasOperational": true
-          },
-          "contribution": {
-            "ratio": 33,
-            "eu": 33,
-            "nos": 1
-          },
-          "amazonAspects": {
-            "customerSignals": 9,
-            "mechanismSignals": 6,
-            "conflictSignals": 6
+            "customerSignals": 14,
+            "mechanismSignals": 8,
+            "conflictSignals": 2
           },
           "lpContent": {
             "strongCount": 4,
-            "mediumCount": 2
-          }
-        }
-      },
-      "changes": []
-    },
-    {
-      "lp_id": "deliver_results",
-      "case_id": "sicredi-pix-deadline-miss-recovery",
-      "title_pt": "Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias",
-      "title_en": "Missed Pix Deadline Due to Poor Priority Management: Owned It, Learned, and Recovered in 60 Days",
-      "status": "Needs-Polish",
-      "lint": {
-        "ok": true,
-        "issues": [],
-        "warnings": []
-      },
-      "heur": {
-        "score": 82,
-        "status": "Needs-Polish",
-        "dealbreakers": [],
-        "warnings": [
-          "Nenhum sinal de conflito ou superação de resistência"
-        ],
-        "positives": [
-          "Métricas robustas (37)",
-          "Ratio EU:NÓS saudável (9.6:1)"
-        ],
-        "breakdown": {
-          "narrative": 12,
-          "metrics": 20,
-          "lpContent": 14,
-          "amazonAspects": 10,
-          "contribution": 10,
-          "structure": 10
-        },
-        "details": {
-          "metrics": {
-            "count": 37,
-            "hasFinancial": true,
-            "hasCustomer": true,
-            "hasOperational": true
-          },
-          "contribution": {
-            "ratio": 9.6,
-            "eu": 48,
-            "nos": 5
-          },
-          "amazonAspects": {
-            "customerSignals": 4,
-            "mechanismSignals": 7,
-            "conflictSignals": 0
-          },
-          "lpContent": {
-            "strongCount": 2,
-            "mediumCount": 10
+            "mediumCount": 0
           }
         }
       },
@@ -286,8 +63,8 @@
         {
           "severity": "warning",
           "topic": "warning",
-          "message": "Nenhum sinal de conflito ou superação de resistência",
-          "action": "Detalhar o conflito: quem discordou, como voc� sustentou a posi��o e qual foi o desfecho."
+          "message": "Faltam transições narrativas entre seções STARL",
+          "action": "Refinar narrativa conforme alerta."
         }
       ]
     }
