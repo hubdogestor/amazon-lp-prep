@@ -24,10 +24,64 @@ const case_2 = {
   },
   fups: [
     {
-      q: "Como voc\u00ea estruturou as 120 entrevistas para garantir profundidade e diversidade?",
-      a: "Cruzei risco, NPS, ticket medio e canal de aquisicao; usei roteiro semi-estruturado cobrindo onboarding, uso diario e suporte.",
+      q: "Como você estruturou as 120 entrevistas para garantir profundidade e diversidade?",
+      a: "Cruzei risco, NPS, ticket médio e canal de aquisição; usei roteiro semi-estruturado cobrindo onboarding, uso diário e suporte.",
       q_en: "How did you structure the 120 interviews to keep depth and diversity?",
-      a_en: "I blended risk, NPS tier, average ticket, and acquisition channel, then ran semi-structured guides covering onboarding, daily use, and support." 
+      a_en: "I blended risk, NPS tier, average ticket, and acquisition channel, then ran semi-structured guides covering onboarding, daily use, and support."
+    },
+    {
+      q: "Qual foi a reação inicial dos PMs quando você parou o desenvolvimento do cashback?",
+      a: "Houve resistência forte. Apresentei ROI comparativo (1.8:1 vs 9.2:1), dados de pain point (38% vs 12%) e ofereci feature flag para validar hipótese. Depois do sucesso do OCR, viraram aliados.",
+      q_en: "What was the initial PM reaction when you stopped cashback development?",
+      a_en: "Strong resistance. I presented comparative ROI (1.8:1 vs 9.2:1), pain point data (38% vs 12%), and offered feature flag to validate hypothesis. After OCR success, they became allies."
+    },
+    {
+      q: "Como você mediu o ROI de 9.2:1 do OCR comparado ao 1.8:1 do cashback?",
+      a: "OCR: custo R$ 120k, reduziu 26 p.p. abandono = +R$ 1.1M MRR. Cashback: custo R$ 680k (8 semanas dev + budget), impacto projetado +R$ 1.2M mas só 12% base elegível.",
+      q_en: "How did you measure OCR's 9.2:1 ROI versus cashback's 1.8:1?",
+      a_en: "OCR: R$120k cost, reduced 26 p.p. abandonment = +R$1.1M MRR. Cashback: R$680k cost (8 weeks dev + budget), projected +R$1.2M but only 12% eligible base."
+    },
+    {
+      q: "Que métricas você usou no Customer Validation Score?",
+      a: "Cinco dimensões: problema validado (entrevistas), solução testada (protótipo), viabilidade técnica, impacto no NPS e esforço. Score <3 voltava para descoberta.",
+      q_en: "Which metrics did you use in the Customer Validation Score?",
+      a_en: "Five dimensions: validated problem (interviews), tested solution (prototype), technical feasibility, NPS impact, and effort. Score <3 went back to discovery."
+    },
+    {
+      q: "Como você convenceu o board a dar carta branca para mudar roadmap?",
+      a: "Levei áudios reais de clientes, incluindo um que tentou 6 vezes abrir conta. Mostrei mapa de jornada day-one com 42% abandono. O impacto emocional + dados gerou urgência para mudança.",
+      q_en: "How did you convince the board to give freedom to change roadmap?",
+      a_en: "I brought real customer audio, including one who tried 6 times to open account. Showed day-one journey map with 42% abandonment. Emotional impact + data created urgency for change."
+    },
+    {
+      q: "Qual foi o formato exato das sessões de cliente que funcionou?",
+      a: "90 minutos, 5 clientes por sprint, matriz de insights (problema-solução-hipótese), gravação para squad inteiro, action items com owner. PMs facilitavam por rotação.",
+      q_en: "What was the exact customer session format that worked?",
+      a_en: "90 minutes, 5 customers per sprint, insight matrix (problem-solution-hypothesis), recording for entire squad, action items with owners. PMs facilitated by rotation."
+    },
+    {
+      q: "Como você manteve velocidade de desenvolvimento durante a transformação cultural?",
+      a: "Paralelizei: sessões com clientes aconteciam durante sprints, não interrompiam. Insights viravam backlog refinement. Lead time caiu 45% porque priorizamos certo.",
+      q_en: "How did you maintain development velocity during cultural transformation?",
+      a_en: "I parallelized: customer sessions happened during sprints, didn't interrupt. Insights became backlog refinement. Lead time dropped 45% because we prioritized right."
+    },
+    {
+      q: "Que resistência você enfrentou do financeiro e como superou?",
+      a: "CFO temia aumento de burn rate. Provei que customer obsession reduzia waste: -38% lead time, -R$ 2.1M features canceladas, +32% cross-sell. ROI líquido positivo em 4 meses.",
+      q_en: "What financial resistance did you face and how did you overcome it?",
+      a_en: "CFO feared burn rate increase. I proved customer obsession reduced waste: -38% lead time, -R$2.1M cancelled features, +32% cross-sell. Net positive ROI in 4 months."
+    },
+    {
+      q: "Como você escalou o modelo para outras verticais do Bradesco?",
+      a: "Criei playbook com templates, treinei 15 product leaders, estabeleci rituais mensais cross-verticais. Cartões e seguros adotaram primeiro, depois investimentos.",
+      q_en: "How did you scale the model to other Bradesco verticals?",
+      a_en: "Created playbook with templates, trained 15 product leaders, established monthly cross-vertical rituals. Cards and insurance adopted first, then investments."
+    },
+    {
+      q: "Qual foi o aprendizado mais importante sobre customer obsession em bancos tradicionais?",
+      a: "Bancos são hierárquicos e data-driven. Customer obsession só pega quando você transforma voz do cliente em dados financeiros que executivos entendem: ROI, churn, NPS impacting revenue.",
+      q_en: "What was the most important learning about customer obsession in traditional banks?",
+      a_en: "Banks are hierarchical and data-driven. Customer obsession only sticks when you transform customer voice into financial data executives understand: ROI, churn, NPS impacting revenue."
     }
   ]
 };

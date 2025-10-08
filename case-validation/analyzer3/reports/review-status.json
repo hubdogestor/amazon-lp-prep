@@ -1,70 +1,82 @@
 {
-  "run_at": "2025-10-08T20:17:46.228Z",
+  "run_at": "2025-10-08T20:22:56.502Z",
   "data_dir": "src/data",
   "total_cases": 80,
   "filtered_cases": 1,
-  "lp": "ownership",
-  "case": "hsbc-migration-leadership",
+  "lp": "customer_obsession",
+  "case": "bradesco-next-customer-ritual",
   "results": [
     {
-      "lp_id": "ownership",
-      "case_id": "hsbc-migration-leadership",
-      "title_pt": "Liderança da Migração de US$ 5.2B de Ativos e Contas",
-      "title_en": "Leadership of US$ 5.2B Assets and Accounts Migration",
-      "status": "Needs-Polish",
+      "lp_id": "customer_obsession",
+      "case_id": "bradesco-next-customer-ritual",
+      "title_pt": "Liderei o Ritual de Voz do Cliente que Levou o NPS do Next de 35 para 62",
+      "title_en": "Led the Voice-of-Customer Ritual that Lifted Next's NPS from 35 to 62",
+      "status": "Ready",
       "lint": {
         "ok": true,
         "issues": [],
         "warnings": []
       },
       "heur": {
-        "score": 84,
-        "status": "Needs-Polish",
+        "score": 99,
+        "status": "Ready",
         "dealbreakers": [],
         "warnings": [
-          "Faltam transições narrativas entre seções STARL"
+          "Hook inicial fraco (sem urgência ou stakes claros)"
         ],
         "positives": [
-          "Métricas robustas (49)",
-          "Ratio EU:NÓS saudável (28.0:1)"
+          "Métricas robustas (59)",
+          "Ratio EU:NÓS saudável (12.3:1)"
         ],
         "breakdown": {
-          "narrative": 14,
+          "narrative": 16,
           "metrics": 20,
-          "lpContent": 8,
+          "lpContent": 20,
           "amazonAspects": 15,
           "contribution": 10,
           "structure": 10
         },
         "details": {
           "metrics": {
-            "count": 49,
+            "count": 59,
             "hasFinancial": true,
             "hasCustomer": true,
             "hasOperational": true
           },
           "contribution": {
-            "ratio": 28,
-            "eu": 28,
-            "nos": 0
+            "ratio": 12.333333333333334,
+            "eu": 37,
+            "nos": 3
           },
           "amazonAspects": {
-            "customerSignals": 14,
-            "mechanismSignals": 8,
-            "conflictSignals": 2
+            "customerSignals": 68,
+            "mechanismSignals": 5,
+            "conflictSignals": 3
           },
           "lpContent": {
-            "strongCount": 4,
-            "mediumCount": 0
+            "strongCount": 38,
+            "mediumCount": 36
           }
         }
       },
       "changes": [
         {
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[pt] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
+        },
+        {
+          "severity": "suggestion",
+          "topic": "hook",
+          "message": "[en] Hook (S) reescrito para maior impacto.",
+          "action": "Validar se o novo hook captura a urgência e os stakes do caso."
+        },
+        {
           "severity": "warning",
           "topic": "warning",
-          "message": "Faltam transições narrativas entre seções STARL",
-          "action": "Refinar narrativa conforme alerta."
+          "message": "Hook inicial fraco (sem urgência ou stakes claros)",
+          "action": "Reescrever abertura da Situa��o com tens�o executiva: risco, meta agressiva, impacto financeiro."
         }
       ]
     }

@@ -1,2 +1,2 @@
 lp_id,case_id,title_pt,title_en,status,score,dealbreakers,warnings,positives,lint_issues,lint_warnings,metrics_count,eu_nos_ratio,recency_months,bias_signals
-ownership,hsbc-migration-leadership,Liderança da Migração de US$ 5.2B de Ativos e Contas,Leadership of US$ 5.2B Assets and Accounts Migration,Needs-Polish,84,,Faltam transições narrativas entre seções STARL,Métricas robustas (49)|Ratio EU:NÓS saudável (28.0:1),,,,,,
+customer_obsession,bradesco-next-customer-ritual,Liderei o Ritual de Voz do Cliente que Levou o NPS do Next de 35 para 62,Led the Voice-of-Customer Ritual that Lifted Next's NPS from 35 to 62,Ready,99,,Hook inicial fraco (sem urgência ou stakes claros),Métricas robustas (59)|Ratio EU:NÓS saudável (12.3:1),,,,,,
