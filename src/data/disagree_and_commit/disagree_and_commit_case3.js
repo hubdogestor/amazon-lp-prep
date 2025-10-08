@@ -1,4 +1,3 @@
-// Case 3 - disagree_and_commit
 const case_3 = {
   id: "bradesco-mvp-feature-prioritization",
   title: "Discordei da priorizacao de MVP, aceitei o voto do comite e ainda entreguei o top recurso pedido",
@@ -9,30 +8,80 @@ const case_3 = {
   isTopCase: true,
   isGoodCase: false,
   pt: {
-    s: `O desafio começou quando no refresh do app Next 2023 eu liderava o discovery. O comite de produto queria priorizar um feed social gamificado porque concorrentes estavam gerando buzz. Eu defendia investir primeiro no novo motor de recomendacao financeira, pois 61% dos cancelamentos vinham de clientes que nao entendiam o gasto futuro. Eu disse: "um feed bonitinho nao baixa churn". O CPO respondeu: "se voce nao entrar na fila do feed, perco o suporte do marketing".`,
-    t: `Decidi que iria provar o impacto do motor, escalar a descisao e, se o feed vencesse, eu mesmo lideraria a entrega sem reclamar. Metas: rodar experimento comparando ambos em duas semanas, levar o resultado ao comite executivo e, apos a votacao, entregar o backlog aprovado em seis sprints com NPS acima de 70.`,
-    a: `Conduzi um teste A/B com 40 mil clientes usando prototipo de feed e prototipo do motor. O feed aumentou tempo de tela em 18%, mas o motor reduziu intencao de cancelar em 36%. Levei os dados ao comite dizendo: "eu recomendo motor, mas se votarem pelo feed, eu assumo os riscos e entrego". O CMO votou pelo feed, o CFO comigo, e o CEO fez voto de minerva escolhendo o feed gamificado com condicao de entregar em 90 dias. Eu respondi: "discordei, mas estou comprometido com o MVP aprovado". Assumi o squad, negociei com marketing para liberar criativos em duas semanas, estabeleci SLA de aprovacao em 6 horas, escrevi as regras de missoes, integrei API de cashback com latencia abaixo de 300 ms e criei mecanismo de recomendacao lite (meu plano B) que rodava em background. Mantive o motor como feature secundaria, obtendo aprovacao do CPO depois que mostrei que nao atrasaria o go-live.`,
-    r: `Entregamos o feed em 82 dias; o engajamento subiu 27% e o tempo medio de sessao passou de 3,1 para 4,0 minutos, NPS do app foi a 72 e a intencao de cancelamento caiu 19%. Como o motor basico rodava silenciosamente, conseguimos reduzir churn ainda mais nos clientes de alta renda (2,4 pontos). O CEO reconheceu em all-hands que eu tinha discordado com dados e mesmo assim entregado o que o comite votou, e aprovou investimento de R$ 8M para evoluir o motor completo em Q4.`,
-    l: `Aprendi que disagree and commit pressupoe abandonar o plano perfeito quando a maioria decide. Se eu executo com excelencia a decisao que nao escolhi, abro espaco para reinserir minhas apostas logo em seguida.`,
+    s: "O desafio começou quando no refresh do app Next 2023 eu liderava o discovery. O comite de produto queria priorizar um feed social gamificado porque concorrentes estavam gerando buzz. Eu defendia investir primeiro no novo motor de recomendacao financeira, pois 61% dos cancelamentos vinham de clientes que nao entendiam o gasto futuro. Eu disse: \"um feed bonitinho nao baixa churn\". O CPO respondeu: \"se voce nao entrar na fila do feed, perco o suporte do marketing\".",
+    t: "Decidi que iria provar o impacto do motor, escalar a descisao e, se o feed vencesse, eu mesmo lideraria a entrega sem reclamar. Metas: rodar experimento comparando ambos em duas semanas, levar o resultado ao comite executivo e, apos a votacao, entregar o backlog aprovado em seis sprints com NPS acima de 70.",
+    a: "Conduzi um teste A/B com 40 mil clientes usando prototipo de feed e prototipo do motor. O feed aumentou tempo de tela em 18%, mas o motor reduziu intencao de cancelar em 36%. Levei os dados ao comite dizendo: \"eu recomendo motor, mas se votarem pelo feed, eu assumo os riscos e entrego\". O CMO votou pelo feed, o CFO comigo, e o CEO fez voto de minerva escolhendo o feed gamificado com condicao de entregar em 90 dias. Eu respondi: \"discordei, mas estou comprometido com o MVP aprovado\". Assumi o squad, negociei com marketing para liberar criativos em duas semanas, estabeleci SLA de aprovacao em 6 horas, escrevi as regras de missoes, integrei API de cashback com latencia abaixo de 300 ms e criei mecanismo de recomendacao lite (meu plano B) que rodava em background. Mantive o motor como feature secundaria, obtendo aprovacao do CPO depois que mostrei que nao atrasaria o go-live.",
+    r: "Entregamos o feed em 82 dias; o engajamento subiu 27% e o tempo medio de sessao passou de 3,1 para 4,0 minutos, NPS do app foi a 72 e a intencao de cancelamento caiu 19%. Como o motor basico rodava silenciosamente, conseguimos reduzir churn ainda mais nos clientes de alta renda (2,4 pontos). O CEO reconheceu em all-hands que eu tinha discordado com dados e mesmo assim entregado o que o comite votou, e aprovou investimento de R$ 8M para evoluir o motor completo em Q4.",
+    l: "Aprendi que disagree and commit pressupoe abandonar o plano perfeito quando a maioria decide. Se eu executo com excelencia a decisao que nao escolhi, abro espaco para reinserir minhas apostas logo em seguida."
   },
   en: {
-    s: `The challenge began when during the 2023 Next app refresh I led discovery. The product committee wanted to prioritize a gamified social feed because competitors were getting buzz. I argued we should invest first in the new financial recommendation engine since 61% of churn came from customers lacking visibility on future spend. I stated, "a shiny feed will not drop churn." The CPO replied, "if you do not queue for the feed, I lose marketing support."`,
-    t: `I decided to prove the engine's impact, escalate the decision, and if the feed won I would lead delivery without complaining. Goals: run an experiment comparing both in two weeks, present the outcome to the executive committee, and once they voted, deliver the approved backlog in six sprints with NPS above 70.`,
-    a: `I ran an A/B test with 40,000 customers using feed and engine prototypes. The feed increased screen time 18%, but the engine cut cancellation intent by 36%. I took the data to the committee saying, "I recommend the engine, but if you vote for the feed, I will own the risk and deliver." The CMO voted for the feed, the CFO sided with me, and the CEO cast the tie-breaking vote for the gamified feed conditional on a 90-day launch. I responded, "I disagreed, but I am committed to the approved MVP." I took over the squad, negotiated with marketing to release creatives within two weeks, wrote mission rules, integrated cashback APIs with latency under 300 ms, and quietly embedded a lite recommendation engine so I could still test my hypothesis. I kept the engine as a secondary feature after obtaining the CPO's approval by proving it did not delay go-live.`,
-    r: `We launched the feed in 82 days; engagement rose 27%, and average session time increased from 3.1 to 4.0 minutes. App NPS hit 72, and cancellation intent dropped 19%. Because the lite engine ran silently, churn among affluent clients dropped an additional 2.4 points. The CEO acknowledged in the all-hands that I had disagreed with data yet delivered the committee's choice and approved BRL 8M to expand the full engine in Q4.`,
-    l: `I learned that disagree and commit means leaving behind the perfect plan once the majority decides. When I execute a decision I did not pick with excellence, I win room to reinsert my bets immediately after.`,
+    s: "The challenge began when during the 2023 Next app refresh I led discovery. The product committee wanted to prioritize a gamified social feed because competitors were getting buzz. I argued we should invest first in the new financial recommendation engine since 61% of churn came from customers lacking visibility on future spend. I stated, \"a shiny feed will not drop churn.\" The CPO replied, \"if you do not queue for the feed, I lose marketing support.\"",
+    t: "I decided to prove the engine's impact, escalate the decision, and if the feed won I would lead delivery without complaining. Goals: run an experiment comparing both in two weeks, present the outcome to the executive committee, and once they voted, deliver the approved backlog in six sprints with NPS above 70.",
+    a: "I ran an A/B test with 40,000 customers using feed and engine prototypes. The feed increased screen time 18%, but the engine cut cancellation intent by 36%. I took the data to the committee saying, \"I recommend the engine, but if you vote for the feed, I will own the risk and deliver.\" The CMO voted for the feed, the CFO sided with me, and the CEO cast the tie-breaking vote for the gamified feed conditional on a 90-day launch. I responded, \"I disagreed, but I am committed to the approved MVP.\" I took over the squad, negotiated with marketing to release creatives within two weeks, wrote mission rules, integrated cashback APIs with latency under 300 ms, and quietly embedded a lite recommendation engine so I could still test my hypothesis. I kept the engine as a secondary feature after obtaining the CPO's approval by proving it did not delay go-live.",
+    r: "We launched the feed in 82 days; engagement rose 27%, and average session time increased from 3.1 to 4.0 minutes. App NPS hit 72, and cancellation intent dropped 19%. Because the lite engine ran silently, churn among affluent clients dropped an additional 2.4 points. The CEO acknowledged in the all-hands that I had disagreed with data yet delivered the committee's choice and approved BRL 8M to expand the full engine in Q4.",
+    l: "I learned that disagree and commit means leaving behind the perfect plan once the majority decides. When I execute a decision I did not pick with excellence, I win room to reinsert my bets immediately after."
   },
   fups: [
-    { q: "Como voce montou o teste A/B?", a: "Usei amostra de 40 mil clientes, medi tempo de tela, intencao de cancelamento e ticket medio, rodando por 14 dias.", q_en: "How did you set up the A/B test?", a_en: "I used a 40,000-customer sample, tracked screen time, cancellation intent, and average ticket over 14 days." },
-    { q: "O que voce apresentou ao comite?", a: "Tabela comparando feed vs motor, ROI projetado, e heatmap de churn por segmento.", q_en: "What did you present to the committee?", a_en: "A comparison table feed vs engine, projected ROI, and churn heatmaps per segment." },
-    { q: "Como negociou com marketing?", a: "Propus sprint dedicada para criativos, garanti briefing em 48h, estabeleci SLA de entrega em duas semanas e monitorei tempo medio de aprovacao em 6 horas.", q_en: "How did you negotiate with marketing?", a_en: "I dedicated a sprint for creatives, guaranteed a 48-hour brief, and enforced a two-week delivery SLA." },
-    { q: "O que continha o motor lite?", a: "Regras de recomendacao baseadas em saldo e categoria, rodando em background e exibindo cartoes de insight simples.", q_en: "What did the lite engine include?", a_en: "Recommendation rules based on balance and category, running in background and surfacing simple insight cards." },
-    { q: "Como garantiu que o feed ficasse pronto em seis sprints?", a: "Travei backlog, cortei gold plating, apliquei WIP limite 4 por squad, defini SLA de deploy de 4 horas e fiz demo diaria dos componentes criticos.", q_en: "How did you ensure the feed shipped in six sprints?", a_en: "I froze backlog, cut gold plating, enforced WIP limit of four per squad, and ran daily demos of critical components." },
-    { q: "Quais metricas acompanhou apos o go-live?", a: "Tempo de tela, NPS, cancels, uso de cashback, faturamento por cliente e reclamacoes no Bacen.", q_en: "Which metrics did you track post go-live?", a_en: "Screen time, NPS, cancellations, cashback usage, revenue per customer, and Central Bank complaints." },
-    { q: "Como documentou o commit?", a: "Enviei e-mail para o comite com o plano dos seis sprints e a frase 'assumo integralmente a execucao do MVP aprovado'.", q_en: "How did you document the commitment?", a_en: "I emailed the committee the six-sprint plan stating 'I fully own execution of the approved MVP'." },
-    { q: "Qual risco voce monitorou no feed?", a: "Engajamento sem conversao; defini gatilho de alerta se tempo de tela subisse sem queda de cancelamentos.", q_en: "Which risk did you monitor in the feed?", a_en: "Engagement without conversion; I set alerts if screen time rose without cancellation drops." },
-    { q: "Como conseguiu aprovacao para evoluir o motor completo?", a: "Apresentei resultado do lite engine, com churn -2,4 p.p., e pedi R$ 8M como follow-on; o CEO aprovou na hora.", q_en: "How did you get approval to scale the full engine?", a_en: "I presented the lite engine results (churn -2.4 p.p.) and requested BRL 8M as follow-on; the CEO approved immediately." },
-    { q: "Que liao o time levou?", a: "Que podemos discordar com respeito, mas depois da votacao todo mundo entrega como se fosse a ideia original.", q_en: "What lesson did the team take away?", a_en: "That we can disagree respectfully, but after the vote everyone delivers as if it were the original idea." }
+    {
+      q: "Como voce montou o teste A/B?",
+      a: "Usei amostra de 40 mil clientes, medi tempo de tela, intencao de cancelamento e ticket medio, rodando por 14 dias.",
+      q_en: "How did you set up the A/B test?",
+      a_en: "I used a 40,000-customer sample, tracked screen time, cancellation intent, and average ticket over 14 days."
+    },
+    {
+      q: "O que voce apresentou ao comite?",
+      a: "Tabela comparando feed vs motor, ROI projetado, e heatmap de churn por segmento.",
+      q_en: "What did you present to the committee?",
+      a_en: "A comparison table feed vs engine, projected ROI, and churn heatmaps per segment."
+    },
+    {
+      q: "Como negociou com marketing?",
+      a: "Propus sprint dedicada para criativos, garanti briefing em 48h, estabeleci SLA de entrega em duas semanas e monitorei tempo medio de aprovacao em 6 horas.",
+      q_en: "How did you negotiate with marketing?",
+      a_en: "I dedicated a sprint for creatives, guaranteed a 48-hour brief, and enforced a two-week delivery SLA."
+    },
+    {
+      q: "O que continha o motor lite?",
+      a: "Regras de recomendacao baseadas em saldo e categoria, rodando em background e exibindo cartoes de insight simples.",
+      q_en: "What did the lite engine include?",
+      a_en: "Recommendation rules based on balance and category, running in background and surfacing simple insight cards."
+    },
+    {
+      q: "Como garantiu que o feed ficasse pronto em seis sprints?",
+      a: "Travei backlog, cortei gold plating, apliquei WIP limite 4 por squad, defini SLA de deploy de 4 horas e fiz demo diaria dos componentes criticos.",
+      q_en: "How did you ensure the feed shipped in six sprints?",
+      a_en: "I froze backlog, cut gold plating, enforced WIP limit of four per squad, and ran daily demos of critical components."
+    },
+    {
+      q: "Quais metricas acompanhou apos o go-live?",
+      a: "Tempo de tela, NPS, cancels, uso de cashback, faturamento por cliente e reclamacoes no Bacen.",
+      q_en: "Which metrics did you track post go-live?",
+      a_en: "Screen time, NPS, cancellations, cashback usage, revenue per customer, and Central Bank complaints."
+    },
+    {
+      q: "Como documentou o commit?",
+      a: "Enviei e-mail para o comite com o plano dos seis sprints e a frase 'assumo integralmente a execucao do MVP aprovado'.",
+      q_en: "How did you document the commitment?",
+      a_en: "I emailed the committee the six-sprint plan stating 'I fully own execution of the approved MVP'."
+    },
+    {
+      q: "Qual risco voce monitorou no feed?",
+      a: "Engajamento sem conversao; defini gatilho de alerta se tempo de tela subisse sem queda de cancelamentos.",
+      q_en: "Which risk did you monitor in the feed?",
+      a_en: "Engagement without conversion; I set alerts if screen time rose without cancellation drops."
+    },
+    {
+      q: "Como conseguiu aprovacao para evoluir o motor completo?",
+      a: "Apresentei resultado do lite engine, com churn -2,4 p.p., e pedi R$ 8M como follow-on; o CEO aprovou na hora.",
+      q_en: "How did you get approval to scale the full engine?",
+      a_en: "I presented the lite engine results (churn -2.4 p.p.) and requested BRL 8M as follow-on; the CEO approved immediately."
+    },
+    {
+      q: "Que liao o time levou?",
+      a: "Que podemos discordar com respeito, mas depois da votacao todo mundo entrega como se fosse a ideia original.",
+      q_en: "What lesson did the team take away?",
+      a_en: "That we can disagree respectfully, but after the vote everyone delivers as if it were the original idea."
+    }
   ]
 };
 

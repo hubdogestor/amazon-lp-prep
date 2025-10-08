@@ -1,33 +1,87 @@
-// Case 1 - best_employer
 const case_1 = {
-  id: "bradesco-agile-community-creation",
-  title: "Escalei a guilda de produto e promovi 18 lideres em seis meses",
-  title_pt: "Escalei a guilda de produto e promovi 18 lideres em seis meses",
-  title_en: "I scaled the product guild and promoted 18 leaders in six months",
-  company: "Bradesco Next",
-  period: "02/2017-08/2017",
-  isTopCase: false,
-  isGoodCase: true,
-  pt: {
-    s: `Situacao: Quando eu assumi o portifolio de produto no Bradesco Next em 2023, eu estava liderando migracao de 65 squads para um modelo remoto-first. Minha equipe interna era composta de 120 Product Managers responsaveis por produtos digitais usados por 10 milhoes de clientes do Next. O problema se tornou evidente quando as pesquisas de clima mostravam queda de 12 pontos em senso de pertencimento e 47% dos PMs diziam nao enxergar caminho de carreira claro (pesquisa interna), gerando risco de perda de talento chave (rotatividade de 18%). Para piorar, marketing queria cursos focados em growth, compliance exigia trilhas obrigatorias de regulamentacao, e TI pedia conteudo tecnico pesado. Os patrocinadores pressionavam por uma academia unica, mas com expectativas conflitantes que paralisavam minha decisao e frustravam os 120 PMs.`,
-    t: `Tarefa: Criei a meta de redesenhar a guilda de produto em oito semanas, entregando uma experiencia de desenvolvimento que equilibrasse as demandas de marketing, compliance e TI sem perder foco humano. Eu precisava aumentar eNPS em 20 pontos, formar sucessores para vagas criticas e provar que o investimento trazia ROI em churn de talentos.`,
-    a: `Acao: Primeiro, eu coletei dados de rotatividade, performance e clima e montei o mecanismo Growth Engine, um painel que cruzava aderencia a competencias com impacto de negocio. Eu levei o dashboard aos tres patrocinadores e explicitei os trade-offs, deixando claro que eu so aprovaria conteudo que fechasse a conta no Growth Engine. Em seguida, eu criei o Career Canvas: 23 competencias agrupadas em quatro jornadas. Eu facilitei oficinas com 120 PMs e capturei 640 historias de sucesso e dor; usei isso para construir seis trilhas hibridas (produto, dados, storytelling, regulatorio, tech e lideranca). Para reduzir atrito com compliance, eu convidei um gerente juridico para testar os modulos e dei poder de veto apenas sobre conteudo sensivel. Eu montei um time de multiplicadores com 18 PMs e estabeleci rituais semanais de mentoria reversa. Por fim, eu implantei um sistema de badges atrelado a casos reais: cada modulo exigia aplicar o aprendizado em um produto ativo e apresentar resultados em demo publico, garantindo transferencia pratica e visibilidade.`,
-    r: `Resultado: Em seis meses, 94% dos PMs completaram pelo menos tres trilhas, o eNPS subiu 27 pontos e a rotatividade caiu de 18% para 6%. O impacto mensuravel nos clientes internos — meus 120 PMs — foi transformador. Primeiro: eNPS subiu de 42 para 69 (+27 pontos, +64%), demonstrando engajamento real. Segundo: rotatividade caiu de 18% para 6% (-12pp, -67%), retendo talentos criticos. Terceiro: 94% dos PMs completaram pelo menos 3 trilhas (vs. 22% de participacao anterior em tech talks), provando adocao massiva. O feedback qualitativo foi direto e revelador: "Pela primeira vez vejo meu plano de carreira conectado a impacto real nos produtos do Next" me disse um PM Senior de Onboarding. "O Career Canvas me deu clareza sobre onde investir meu tempo para crescer" comentou um PM Pleno de Investimentos. "Badges atrelados a casos reais motivaram muito mais que certificados genericos" disse um PM Junior de Pagamentos. Dezoito PMs foram promovidos para funcoes de lideranca (pipeline de sucessao construido) e o tempo medio para preencher vaga senior reduziu de 78 para 31 dias (-60%, reduzindo pressao em squads). Projetos guiados pelo Career Canvas entregaram aumento de 11% em NPS de cliente final do Next (de 68 para 75) e 8% em receita incremental (R$12.8M). O CFO registrou que o programa evitou R$ 6,4M em custos de substituicao (estimativa R$355k por PM × 18 retidos).`,
-    l: `Licao: Aprendi que ser o melhor empregador exige tratar desenvolvimento como produto: medir impacto, equilibrar trade-offs e entregar valor rapido. Desde entao, toda nova equipe que lidero comeca com um Growth Engine e um Career Canvas co-criado, porque dados e protagonismo sao uteis quando dao rumo ao talento.`,
+  "id": "bradesco-agile-community-creation",
+  "title": "Escalei a guilda de produto e promovi 18 lideres em seis meses",
+  "title_pt": "Escalei a guilda de produto e promovi 18 lideres em seis meses",
+  "title_en": "I scaled the product guild and promoted 18 leaders in six months",
+  "company": "Bradesco Next",
+  "period": "02/2017-08/2017",
+  "isTopCase": false,
+  "isGoodCase": true,
+  "pt": {
+    "s": "Quando assumi o portfólio de produto no Bradesco Next, liderei a migração de 65 squads para um modelo remoto, mas o senso de pertencimento da minha equipe de 120 PMs caiu 12 pontos e 47% não viam um plano de carreira, resultando em 18% de rotatividade. A situação era um campo minado de stakeholders: marketing exigia treinamento em growth, compliance impunha trilhas regulatórias, e TI demandava conteúdo técnico, paralisando qualquer avanço.",
+    "t": "Diante do risco iminente de perder talentos-chave, minha missão era redesenhar a guilda de produto em oito semanas. O desafio era criar uma experiência de desenvolvimento que não apenas alinhasse as expectativas conflitantes dos stakeholders, mas que também aumentasse o eNPS em 20 pontos, formasse uma linha de sucessão para posições críticas e comprovasse o ROI do investimento através da redução do churn de talentos.",
+    "a": "Para transformar essa crise em oportunidade, minha primeira ação foi coletar dados de rotatividade, performance e clima para construir o 'Growth Engine', um painel que correlacionava competências com impacto no negócio. Ao apresentar os trade-offs claros aos patrocinadores, estabeleci que apenas conteúdos que se provassem eficazes no Growth Engine seriam aprovados. Em seguida, co-criei com os 120 PMs o 'Career Canvas', mapeando 23 competências em quatro jornadas e construindo seis trilhas de desenvolvimento a partir de 640 histórias reais. Para mitigar o conflito com compliance, envolvi um gerente jurídico no processo, dando-lhe poder de veto apenas sobre conteúdo sensível. Finalmente, para garantir a aplicação prática, implementei um sistema de badges atrelado a projetos reais, onde cada PM precisava aplicar o conhecimento em um produto ativo e apresentar os resultados, o que gerou um ciclo virtuoso de aprendizado e visibilidade.",
+    "r": "Os resultados foram transformadores e superaram todas as metas. Em seis meses, 94% dos PMs completaram ao menos três trilhas, o eNPS saltou de 42 para 69 (+27 pontos), e a rotatividade despencou de 18% para 6%, o que, segundo o CFO, evitou R$ 6,4 milhões em custos de substituição. Mais do que números, formamos um pipeline de liderança, promovendo 18 PMs e reduzindo o tempo de preenchimento de vagas sênior em 60%. O impacto chegou ao cliente final, com um aumento de 11% no NPS e R$ 12,8 milhões em receita incremental gerada por projetos guiados pelo novo modelo.",
+    "l": "A grande lição foi que para ser o melhor empregador, é preciso tratar o desenvolvimento de talentos como um produto: com foco no cliente (o colaborador), orientado por dados e com entregas de valor rápidas. Essa experiência me ensinou que um 'Growth Engine' e um 'Career Canvas' co-criados são ferramentas poderosas para alinhar desenvolvimento individual com impacto no negócio. Hoje, aplico esse playbook em todas as equipes que lidero, pois entendi que dados e autonomia só geram valor quando direcionam o crescimento do talento."
   },
-  en: {
-    s: `Situation: When I took over Bradesco Next's product portfolio in 2023 I was leading migration of 65 squads to a remote-first model. My internal team was composed of 120 Product Managers responsible for digital products used by 10 million Next customers. The problem became evident when engagement scores dropped twelve points and 47% of PMs said they saw no clear career path (internal survey), generating risk of losing key talent (18% turnover rate). Marketing demanded growth courses, compliance insisted on mandatory regulatory tracks, and engineering wanted deep technical content. Sponsors wanted one academy, but their clashing agendas paralyzed my decision and frustrated the 120 PMs.`,
-    t: `Task: I set the goal to redesign the product guild in eight weeks, balancing marketing, compliance, and engineering demands without losing the human focus. I committed to lift eNPS by twenty points, build successors for critical roles, and prove ROI through lower talent churn.`,
-    a: `Action: First I gathered attrition, performance, and engagement data and built the Growth Engine mechanism, a dashboard that crossed competency gaps with business impact. I showed it to the three sponsors and made the trade-offs explicit, agreeing to approve only content that passed the Growth Engine. Next I designed the Career Canvas with twenty-three competencies across four journeys. I ran workshops with 120 PMs, captured 640 stories, and turned them into six hybrid tracks (product, data, storytelling, regulatory, tech, leadership). To reduce compliance friction I had a legal manager test every module and granted veto only on sensitive topics. I selected eighteen senior PMs as multipliers and installed weekly reverse-mentoring rituals. Finally, I launched a badge system tied to live projects: each module required applying the learning to an active product and presenting results in a public demo, ensuring practical transfer and visibility.`,
-    r: `Result: In six months 94% of PMs completed at least three tracks, eNPS climbed twenty-seven points, and attrition fell from 18% to 6%. The measurable impact on internal customers — my 120 PMs — was transformational. First: eNPS rose from 42 to 69 (+27 points, +64%), demonstrating real engagement. Second: turnover dropped from 18% to 6% (-12pp, -67%), retaining critical talent. Third: 94% of PMs completed at least 3 tracks (vs. 22% attendance in previous tech talks), proving massive adoption. The qualitative feedback was direct and revealing: "For the first time I see my career plan connected to real impact on Next products" a Senior PM Onboarding told me. "Career Canvas gave me clarity on where to invest my time to grow" a Mid-level PM Investments commented. "Badges tied to real cases motivated much more than generic certificates" a Junior PM Payments said. Eighteen PMs were promoted to leadership roles (succession pipeline built) and the average time to fill a senior role dropped from 78 to 31 days (-60%, reducing squad pressure). Projects powered by the Career Canvas delivered an eleven-percent boost in Next customer NPS (from 68 to 75) and eight-percent incremental revenue (R$12.8M). The CFO documented BRL 6.4M saved in replacement costs (estimate R$355k per PM × 18 retained).`,
-    l: `Learning: I learned that being the best employer means treating development like a product: measure impact, balance trade-offs, and ship value fast. Since then every new team I lead starts with a co-created Growth Engine and Career Canvas, because data and ownership only matter when they guide talent.`,
+  "en": {
+    "s": "When I took over the product portfolio at Bradesco Next, I was leading the migration of 65 squads to a remote model, but my team of 120 PMs saw a 12-point drop in their sense of belonging, and 47% saw no clear career path, resulting in an 18% turnover rate. The situation was a stakeholder minefield: marketing demanded growth training, compliance imposed regulatory tracks, and IT required technical content, paralyzing any progress.",
+    "t": "Facing the imminent risk of losing key talent, my mission was to redesign the product guild in eight weeks. The challenge was to create a development experience that not only aligned conflicting stakeholder expectations but also increased eNPS by 20 points, built a succession pipeline for critical positions, and proved the ROI of the investment by reducing talent churn.",
+    "a": "To turn this crisis into an opportunity, my first action was to collect turnover, performance, and climate data to build the 'Growth Engine,' a dashboard that correlated competencies with business impact. By presenting clear trade-offs to the sponsors, I established that only content proven effective in the Growth Engine would be approved. Next, I co-created the 'Career Canvas' with the 120 PMs, mapping 23 competencies into four journeys and building six development tracks from 640 real stories. To mitigate conflict with compliance, I involved a legal manager in the process, giving them veto power only over sensitive content. Finally, to ensure practical application, I implemented a badge system tied to real projects, where each PM had to apply their knowledge to an active product and present the results, creating a virtuous cycle of learning and visibility.",
+    "r": "The results were transformative and exceeded all goals. In six months, 94% of PMs completed at least three tracks, the eNPS jumped from 42 to 69 (+27 points), and turnover plummeted from 18% to 6%, which, according to the CFO, avoided BRL 6.4 million in replacement costs. More than just numbers, we built a leadership pipeline, promoting 18 PMs and reducing the time to fill senior positions by 60%. The impact reached the end customer, with an 11% increase in NPS and BRL 12.8 million in incremental revenue generated by projects guided by the new model.",
+    "l": "The great lesson was that to be the best employer, you must treat talent development as a product: with a focus on the customer (the employee), data-driven, and with rapid value deliveries. This experience taught me that a co-created 'Growth Engine' and 'Career Canvas' are powerful tools for aligning individual development with business impact. Today, I apply this playbook to all the teams I lead, as I understood that data and autonomy only create value when they guide talent growth."
   },
-  fups: [
-    { q: "Como voce calculou os R$ 6,4M de economia?", a: "Somei custo de reposicao, recrutamento e perda de produtividade versus o churn historico antes da guilda.", q_en: "How did you compute the BRL 6.4M savings?", a_en: "I summed replacement, recruiting, and productivity loss against historical churn before the guild." },
-    { q: "Que dados abasteceram o Growth Engine?", a: "Clima, avaliacao de performance, NPS de cliente, churn de produto e custos de treinamento.", q_en: "Which data fed the Growth Engine?", a_en: "Engagement, performance reviews, customer NPS, product churn, and training costs." },
-    { q: "Como voce escolheu os multiplicadores?", a: "Analisei engajamento, feedback 360 e resultados de produto para eleger 18 PMs.", q_en: "How did you select the multipliers?", a_en: "I looked at engagement, 360 feedback, and product outcomes to pick eighteen PMs." },
-    { q: "Como garantiu adesao do marketing?", a: "Inclui dois modulos de growth com estudos de caso reais e convidei o CMO para abrir a trilha.", q_en: "How did you secure marketing buy-in?", a_en: "I added two growth modules with live case studies and had the CMO kick off the track." },
-    { q: "Qual foi o maior conflito com compliance?", a: "Eles queriam aprovar todo conteudo; restringi o veto a temas regulados e dei visibilidade ao restante.", q_en: "What was the biggest compliance conflict?", a_en: "They wanted to approve every module; I limited veto power to regulated topics and made the rest visible." }
+  "fups": [
+    {
+      "q": "Como voce calculou os R$ 6,4M de economia?",
+      "a": "Somei custo de reposicao, recrutamento e perda de produtividade versus o churn historico antes da guilda.",
+      "q_en": "How did you compute the BRL 6.4M savings?",
+      "a_en": "I summed replacement, recruiting, and productivity loss against historical churn before the guild."
+    },
+    {
+      "q": "Que dados abasteceram o Growth Engine?",
+      "a": "Clima, avaliacao de performance, NPS de cliente, churn de produto e custos de treinamento.",
+      "q_en": "Which data fed the Growth Engine?",
+      "a_en": "Engagement, performance reviews, customer NPS, product churn, and training costs."
+    },
+    {
+      "q": "Como voce escolheu os multiplicadores?",
+      "a": "Analisei engajamento, feedback 360 e resultados de produto para eleger 18 PMs.",
+      "q_en": "How did you select the multipliers?",
+      "a_en": "I looked at engagement, 360 feedback, and product outcomes to pick eighteen PMs."
+    },
+    {
+      "q": "Como garantiu adesao do marketing?",
+      "a": "Inclui dois modulos de growth com estudos de caso reais e convidei o CMO para abrir a trilha.",
+      "q_en": "How did you secure marketing buy-in?",
+      "a_en": "I added two growth modules with live case studies and had the CMO kick off the track."
+    },
+    {
+      "q": "Qual foi o maior conflito com compliance?",
+      "a": "Eles queriam aprovar todo conteudo; restringi o veto a temas regulados e dei visibilidade ao restante.",
+      "q_en": "What was the biggest compliance conflict?",
+      "a_en": "They wanted to approve every module; I limited veto power to regulated topics and made the rest visible."
+    },
+    {
+      "q": "O que o Career Canvas mede?",
+      "a": "Nove competencias tecnicas, sete humanas, quatro de negocio e tres de lideranca com niveis de senioridade.",
+      "q_en": "What does the Career Canvas measure?",
+      "a_en": "Nine technical, seven human, four business, and three leadership competencies with seniority levels."
+    },
+    {
+      "q": "Como voce acompanhou promocao e sucessao?",
+      "a": "Criei pipeline trimestral por senioridade e discutia com o RH os candidatos prontos em 90 dias.",
+      "q_en": "How did you track promotion and succession?",
+      "a_en": "I ran a quarterly pipeline by seniority and met HR to review candidates ready within ninety days."
+    },
+    {
+      "q": "Qual foi o indicador de ROI?",
+      "a": "Comparei churn projetado sem a guilda versus churn real, multiplicado pelo custo total de substituicao.",
+      "q_en": "What ROI metric did you use?",
+      "a_en": "Projected churn without the guild versus actual churn, multiplied by total replacement cost."
+    },
+    {
+      "q": "Como voce deu visibilidade aos resultados?",
+      "a": "Publiquei placar quinzenal com badges, promocoes e cases, compartilhado com diretoria.",
+      "q_en": "How did you give visibility to results?",
+      "a_en": "I issued a biweekly scoreboard with badges, promotions, and case studies shared with executives."
+    },
+    {
+      "q": "Como reaplicou o modelo depois?",
+      "a": "Usei o Growth Engine para criar a academia de compliance de pagamentos na Unimed em 2024.",
+      "q_en": "How did you reuse the model later?",
+      "a_en": "I reused the Growth Engine to build the payments compliance academy at Unimed in 2024."
+    }
   ]
 };
 
