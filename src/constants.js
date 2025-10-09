@@ -1,5 +1,5 @@
 // Application constants
-export const TIMER_DEFAULT_SECONDS = 300;
+export const TIMER_DEFAULT_SECONDS = 420; // 7 minutes
 export const HIGHLIGHT_SCROLL_DELAY = 120;
 export const FUP_SCROLL_DELAY = 120;
 export const CASE_EXPAND_DELAY = 80;

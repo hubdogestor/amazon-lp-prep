@@ -1659,23 +1659,44 @@ function HeaderTimer() {
 
   useEffect(() => {
     let id;
-    if (running) id = setInterval(() => setSeconds((s) => Math.max(0, s - 1)), 1000);
+    if (running) id = setInterval(() => setSeconds((s) => s - 1), 1000);
     return () => id && clearInterval(id);
   }, [running]);
 
-  const minutes = Math.floor(seconds / 60);
-  const secs = seconds % 60;
-  const timeDisplay = `${String(minutes).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+  const isNegative = seconds < 0;
+  const absSeconds = Math.abs(seconds);
+  const minutes = Math.floor(absSeconds / 60);
+  const secs = absSeconds % 60;
+  const timeDisplay = `${isNegative ? '-' : ''}${String(minutes).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+
+  // Alert state: last minute (0-59 seconds)
+  const isLastMinute = seconds > 0 && seconds <= 60;
+  const isTimeUp = seconds <= 0;
 
   return (
     <div
       id="timerBox"
-      className="w-full h-full px-4 border border-slate-200 rounded-lg bg-white flex items-center justify-between gap-3"
+      className={`w-full h-full px-4 border-2 rounded-lg flex items-center justify-between gap-3 transition-all ${
+        isTimeUp
+          ? 'border-red-500 bg-red-50 animate-pulse'
+          : isLastMinute
+          ? 'border-amber-500 bg-amber-50 shadow-lg shadow-amber-200'
+          : 'border-slate-200 bg-white'
+      }`}
       role="timer"
       aria-live="polite"
       aria-atomic="true"
     >
-      <span className="font-mono text-2xl font-bold text-slate-800" aria-label={`${minutes} minutes ${secs} seconds`}>
+      <span
+        className={`font-mono text-2xl font-bold transition-colors ${
+          isTimeUp
+            ? 'text-red-600'
+            : isLastMinute
+            ? 'text-amber-700'
+            : 'text-slate-800'
+        }`}
+        aria-label={`${minutes} minutes ${secs} seconds`}
+      >
         {timeDisplay}
       </span>
       <div className="flex items-center gap-2">
