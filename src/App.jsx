@@ -1343,7 +1343,8 @@ export default function App() {
 }
 
 // ---------- Subcomponent: Icebreaker Modal ----------
-function IcebreakerModal({ language, onClose }) {
+function IcebreakerModal({ language: initialLanguage, onClose }) {
+  const [language, setLanguage] = useState(initialLanguage);
   const data = icebreakerData[language];
   const [expandedSection, setExpandedSection] = useState(null);
   const [selectedVersion, setSelectedVersion] = useState({});
@@ -1355,6 +1356,10 @@ function IcebreakerModal({ language, onClose }) {
       id: key,
       data: data[key]
     }));
+
+  const toggleLanguage = () => {
+    setLanguage(prev => prev === 'pt' ? 'en' : 'pt');
+  };
 
   const toggleVersion = (sectionId, versionId) => {
     setSelectedVersion(prev => ({
@@ -1372,7 +1377,7 @@ function IcebreakerModal({ language, onClose }) {
       aria-labelledby="icebreaker-title"
     >
       <div
-        className="bg-white rounded-xl shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-hidden mx-4"
+        className="bg-white rounded-xl shadow-2xl max-w-[95vw] w-full max-h-[90vh] overflow-hidden mx-4"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-4 flex items-center justify-between">
@@ -1382,13 +1387,22 @@ function IcebreakerModal({ language, onClose }) {
             </h2>
             <p className="text-orange-100 text-sm mt-1">{data.subtitle}</p>
           </div>
-          <button
-            onClick={onClose}
-            className="text-white hover:bg-orange-600 rounded-lg px-3 py-2 transition text-xl"
-            aria-label="Close icebreaker modal"
-          >
-            ✕
-          </button>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={toggleLanguage}
+              className="text-white hover:bg-orange-600 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
+              aria-label="Toggle language"
+            >
+              🌐 {language === 'pt' ? 'EN' : 'PT'}
+            </button>
+            <button
+              onClick={onClose}
+              className="text-white hover:bg-orange-600 rounded-lg px-3 py-2 transition text-xl"
+              aria-label="Close icebreaker modal"
+            >
+              ✕
+            </button>
+          </div>
         </div>
 
         <div className="p-6 overflow-y-auto max-h-[calc(90vh-100px)]">
@@ -1424,7 +1438,7 @@ function IcebreakerModal({ language, onClose }) {
 
                   {isExpanded && (
                     <div className="p-5 bg-white border-t border-gray-200">
-                      <div className="grid gap-4">
+                      <div className="grid md:grid-cols-2 gap-4">
                         {sectionData.versions?.map((version) => {
                           const isVersionExpanded = selectedVersion[section.id] === version.id;
                           

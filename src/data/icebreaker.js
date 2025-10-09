@@ -63,6 +63,59 @@ O que me diferencia é a capacidade de mergulhar no detalhe técnico mantendo vi
           tags: ["leadership principles", "customer obsession", "ownership", "deliver results"],
           hook: "Leadership Principles da Amazon em ação",
           mic_drop: "Customer obsession + dive deep + deliver results = meu DNA profissional"
+        },
+        {
+          id: "versao_executiva_impacto",
+          title: "Versão Executiva - Foco em Impacto (2-3 min)",
+          badge: "Executiva",
+          badgeColor: "bg-purple-500",
+          context: "Para Gabriela Bonelle ou entrevistadores sênior",
+          content: `Sou Leonardo Menezes, um líder em transformação digital com 15+ anos gerando valor mensurável em escala. Ao longo da minha carreira, liderei programas que criaram mais de US$ 300 milhões em valor para organizações como Huawei, HSBC, Bradesco, Sicredi e Unimed.
+
+Minha trajetória começou na Huawei, onde por 6 anos liderei a infraestrutura de telecomunicações que conectou o Brasil ao 4G. Entreguei a primeira estação 4G do país em 2012 e coordenei toda a conectividade da Copa do Mundo 2014. O que me diferenciou foi mergulhar no detalhe operacional: redesenhei processos que reduziram SLAs de 382 para 62 dias, gerando US$ 120 milhões em eficiência.
+
+Depois migrei para o setor financeiro, onde liderei a transformação mais crítica da história bancária brasileira: a migração de US$ 3 bilhões em ativos do HSBC para o Bradesco, com zero perda de dados e compliance total. Também co-liderei o lançamento do Banco Digital Next, competindo diretamente com Nubank.
+
+Nos últimos anos, tenho focado em aplicar IA e automação em setores tradicionais. Na Unimed, implementei soluções que reduziram 30% o tempo de processamento de sinistros e lancei produtos digitais que hoje representam US$ 16 milhões em receita. Atualmente na SEFAZ-RS, estou modernizando a gestão fiscal do estado através de frameworks de value-based management.
+
+O que me motiva é transformar complexidade em simplicidade, sempre com foco em resultados mensuráveis e impacto real no cliente final.`,
+          tags: ["executiva", "impacto", "liderança", "resultados"],
+          hook: "US$ 300 milhões em valor gerado",
+          mic_drop: "Transformar complexidade em simplicidade com impacto mensurável"
+        },
+        {
+          id: "versao_pagamentos_ai",
+          title: "Versão Pagamentos & AI (2 min)",
+          badge: "Payments + AI",
+          badgeColor: "bg-indigo-500",
+          context: "Para entrevistadores técnicos ou foco na vaga específica",
+          content: `Sou Leonardo Menezes, especialista em transformação de operações de pagamento através de IA e automação. Minha experiência única combina 15+ anos em infraestrutura crítica com expertise recente em machine learning aplicado a fintech.
+
+Comecei construindo a infraestrutura que sustenta os pagamentos digitais hoje: na Huawei, liderei o rollout do 4G que habilitou o PIX e pagamentos móveis no Brasil. Depois, no setor financeiro, gerenciei operações de pagamento em escala bilionária - migrei US$ 3 bilhões em ativos entre bancos sem uma única falha transacional.
+
+Nos últimos anos, tenho focado em aplicar IA para otimizar operações de pagamento. No Sicredi, implementei modelos de ML para credit scoring e fraud detection que aceleraram aprovações em 40%. Na Unimed, automatizei processamento de sinistros com IA, reduzindo cycle time em 30% e gerando US$ 45 milhões em savings anuais.
+
+Minha abordagem é sempre data-driven: uso métricas como Payment Success Rate, Authorization Rate e Process Cycle Time para medir impacto real. Também tenho experiência com metodologias Lean Six Sigma, que aplico para identificar waste em processos de pagamento e criar soluções sustentáveis.
+
+O que me diferencia é combinar visão estratégica com execução hands-on, sempre focando em customer obsession e operational excellence.`,
+          tags: ["pagamentos", "IA", "técnica", "métricas"],
+          hook: "Especialista em transformação de operações de pagamento através de IA",
+          mic_drop: "Visão estratégica com execução hands-on, customer obsession e operational excellence"
+        },
+        {
+          id: "versao_concisa_poderosa",
+          title: "Versão Concisa & Poderosa (1 min)",
+          badge: "Concisa",
+          badgeColor: "bg-red-500",
+          context: "Para situações de tempo limitado ou icebreaker rápido",
+          content: `Sou Leonardo Menezes, líder em transformação digital com track record de US$ 300+ milhões em valor gerado. Nos últimos 15 anos, liderei programas críticos que conectaram o Brasil ao 4G, migraram bilhões em ativos bancários sem falhas, e implementaram IA que automatizou operações complexas.
+
+Minha expertise está em transformar desafios operacionais em oportunidades de crescimento. Recentemente, implementei soluções de machine learning que reduziram custos em US$ 45 milhões anuais e lancei produtos digitais que geram US$ 16 milhões em receita.
+
+Sou movido por customer obsession e operational excellence. Busco oportunidades onde posso aplicar minha experiência em pagamentos, IA e transformação operacional para gerar impacto significativo em escala Amazon.`,
+          tags: ["concisa", "impacto", "customer obsession", "operational excellence"],
+          hook: "US$ 300+ milhões em valor gerado",
+          mic_drop: "Customer obsession e operational excellence em escala Amazon"
         }
       ]
     },
@@ -133,6 +186,8 @@ Minha carreira sempre foi sobre escolher o desafio mais difícil (migração ban
         {
           id: "versao_program_manager_ai",
           title: "Versão Program Manager & AI",
+          badge: "PM + AI",
+          badgeColor: "bg-purple-500",
           content: `Esta vaga é a convergência perfeita da minha experiência: program management em escala, transformação operacional e implementação de AI/ML em operações críticas.
 
 Meu background é exatamente o que vocês precisam. Liderei programas complexos que geraram US$ 300+ milhões em valor, sempre com foco em operational excellence. Na Huawei, coordenei 30+ PMs e 20 fornecedores para entregar infraestrutura crítica. No HSBC/Bradesco, gerenciei a migração mais complexa da história bancária brasileira.
@@ -157,6 +212,8 @@ Esta posição oferece o que busco: ownership end-to-end, impacto mensurável e 
         {
           id: "versao_dive_deep_results",
           title: "Versão Dive Deep & Deliver Results",
+          badge: "Strengths",
+          badgeColor: "bg-green-500",
           content: `Meu principal diferencial é a capacidade de mergulhar profundamente em problemas complexos e entregar resultados mensuráveis consistentemente.
 
 **Dive Deep**: Não me contento com análises superficiais. Na Huawei, quando SLAs estavam em 382 dias, eu mesmo conduzi root cause analysis usando Ishikawa e 5 Whys, identificando que 60% dos atrasos vinham de gargalos regulatórios. Negociei pessoalmente com prefeituras e ANATEL, redesenhei workflows e reduzi para 62 dias.
@@ -181,6 +238,8 @@ O que me diferencia é combinar profundidade técnica com visão de negócio, se
         {
           id: "versao_perfeccionismo_produtivo",
           title: "Perfeccionismo Produtivo",
+          badge: "Development",
+          badgeColor: "bg-yellow-500",
           content: `Uma área que continuo desenvolvendo é equilibrar meu perfeccionismo natural com a necessidade de "bias for action" em ambientes de alta velocidade.
 
 Minha tendência é querer refinar soluções até atingirem padrão muito alto, o que às vezes pode impactar speed to market. Reconheci isso durante um projeto na Unimed, onde passei tempo excessivo refinando dashboards executivos que já atendiam perfeitamente às necessidades.
@@ -195,6 +254,8 @@ Essa evolução me tornou mais eficiente sem comprometer qualidade. Na verdade, 
         {
           id: "versao_delegacao_estrategica",
           title: "Delegação Estratégica",
+          badge: "Leadership Growth",
+          badgeColor: "bg-yellow-600",
           content: `Uma competência que venho aprimorando é delegação estratégica, especialmente em projetos de alta visibilidade. Minha experiência técnica e paixão pelos detalhes às vezes me levam a assumir tarefas que poderiam ser melhor executadas por especialistas da equipe.
 
 Identifiquei isso durante implementação de IA na Unimed, onde inicialmente estava muito envolvido nos aspectos técnicos do machine learning. Percebi que isso limitava minha capacidade de focar na estratégia e alinhamento com stakeholders.
@@ -380,6 +441,44 @@ What differentiates me is the ability to dive into technical details while maint
           tags: ["leadership principles", "customer obsession", "ownership", "deliver results"],
           hook: "Amazon's Leadership Principles in action",
           mic_drop: "Customer obsession + dive deep + deliver results = my professional DNA"
+        },
+        {
+          id: "executive_impact_version",
+          title: "Executive Version - Impact Focus (2-3 min)",
+          badge: "Executive",
+          badgeColor: "bg-purple-500",
+          context: "For Gabriela Bonelle or senior interviewers",
+          content: `I'm Leonardo Menezes, a digital transformation leader with 15+ years generating measurable value at scale. Throughout my career, I've led programs that created over $300 million in value for organizations like Huawei, HSBC, Bradesco, Sicredi, and Unimed.
+
+My journey started at Huawei, where for 6 years I led the telecom infrastructure that connected Brazil to 4G. I delivered Brazil's first 4G station in 2012 and coordinated all connectivity for the 2014 World Cup. What differentiated me was diving deep into operational details: I redesigned processes that reduced SLAs from 382 to 62 days, generating $120 million in efficiency.
+
+I then moved to financial services, where I led the most critical transformation in Brazilian banking history: migrating $3 billion in assets from HSBC to Bradesco with zero data loss and full compliance. I also co-led the launch of Next Digital Bank, competing directly with Nubank.
+
+In recent years, I've focused on applying AI and automation to traditional sectors. At Unimed, I implemented solutions that reduced claims processing time by 30% and launched digital products now generating $16 million in revenue. Currently at SEFAZ-RS, I'm modernizing the state's fiscal management through value-based management frameworks.
+
+What drives me is transforming complexity into simplicity, always focusing on measurable results and real impact on the end customer.`,
+          tags: ["executive", "impact", "leadership", "results"],
+          hook: "$300 million in value generated",
+          mic_drop: "Transforming complexity into simplicity with measurable impact"
+        },
+        {
+          id: "payments_ai_version",
+          title: "Payments & AI Version (2 min)",
+          badge: "Payments + AI",
+          badgeColor: "bg-indigo-500",
+          context: "For technical interviewers or role-specific focus",
+          content: `I'm Leonardo Menezes, a specialist in transforming payment operations through AI and automation. My unique experience combines 15+ years in critical infrastructure with recent expertise in machine learning applied to fintech.
+
+I started building the infrastructure that supports digital payments today: at Huawei, I led the 4G rollout that enabled PIX and mobile payments in Brazil. Later, in financial services, I managed payment operations at billion-dollar scale - migrated $3 billion in assets between banks without a single transactional failure.
+
+In recent years, I've focused on applying AI to optimize payment operations. At Sicredi, I implemented ML models for credit scoring and fraud detection that accelerated approvals by 40%. At Unimed, I automated claims processing with AI, reducing cycle time by 30% and generating $45 million in annual savings.
+
+My approach is always data-driven: I use metrics like Payment Success Rate, Authorization Rate, and Process Cycle Time to measure real impact. I also have experience with Lean Six Sigma methodologies, which I apply to identify waste in payment processes and create sustainable solutions.
+
+What differentiates me is combining strategic vision with hands-on execution, always focusing on customer obsession and operational excellence.`,
+          tags: ["payments", "AI", "technical", "metrics"],
+          hook: "Specialist in transforming payment operations through AI",
+          mic_drop: "Strategic vision with hands-on execution, customer obsession and operational excellence"
         }
       ]
     },
@@ -450,6 +549,8 @@ My career has always been about choosing the hardest challenge (billion-dollar b
         {
           id: "versao_program_manager_ai",
           title: "Program Manager & AI Version",
+          badge: "PM + AI",
+          badgeColor: "bg-purple-500",
           content: `This role is the perfect convergence of my experience: program management at scale, operational transformation, and AI/ML implementation in critical operations.
 
 My background is exactly what you need. I've led complex programs that generated $300+ million in value, always focusing on operational excellence. At Huawei, I coordinated 30+ PMs and 20 suppliers to deliver critical infrastructure. At HSBC/Bradesco, I managed the most complex migration in Brazilian banking history.
@@ -474,6 +575,8 @@ This position offers what I seek: end-to-end ownership, measurable impact, and o
         {
           id: "versao_dive_deep_results",
           title: "Dive Deep & Deliver Results Version",
+          badge: "Strengths",
+          badgeColor: "bg-green-500",
           content: `My main differentiator is the ability to dive deeply into complex problems and consistently deliver measurable results.
 
 **Dive Deep**: I don't settle for superficial analysis. At Huawei, when SLAs were at 382 days, I personally conducted root cause analysis using Ishikawa and 5 Whys, identifying that 60% of delays came from regulatory bottlenecks. I personally negotiated with municipalities and ANATEL, redesigned workflows and reduced to 62 days.
@@ -498,6 +601,8 @@ What differentiates me is combining technical depth with business vision, always
         {
           id: "versao_perfeccionismo_produtivo",
           title: "Productive Perfectionism",
+          badge: "Development",
+          badgeColor: "bg-yellow-500",
           content: `An area I continue developing is balancing my natural perfectionism with the need for "bias for action" in high-velocity environments.
 
 My tendency is to want to refine solutions until they reach very high standards, which sometimes can impact speed to market. I recognized this during a project at Unimed, where I spent excessive time refining executive dashboards that already perfectly met the needs.
@@ -512,6 +617,8 @@ This evolution made me more efficient without compromising quality. In fact, the
         {
           id: "versao_delegacao_estrategica",
           title: "Strategic Delegation",
+          badge: "Leadership Growth",
+          badgeColor: "bg-yellow-600",
           content: `A competency I've been improving is strategic delegation, especially in high-visibility projects. My technical experience and passion for details sometimes lead me to take on tasks that could be better executed by team specialists.
 
 I identified this during AI implementation at Unimed, where initially I was too involved in the technical aspects of machine learning. I realized this limited my ability to focus on strategy and stakeholder alignment.
