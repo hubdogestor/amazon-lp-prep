@@ -15,7 +15,9 @@
       "Bash(git init:*)",
       "Bash(git commit:*)",
       "Bash(git branch:*)",
-      "Read(//d/github2/**)"
+      "Read(//d/github2/**)",
+      "Bash(git reset:*)",
+      "Bash(git checkout:*)"
     ],
     "deny": [],
     "ask": []
