@@ -1549,7 +1549,8 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
 }
 
 // ---------- Subcomponent: My Questions Modal ----------
-function MyQuestionsModal({ language, onClose }) {
+function MyQuestionsModal({ language: initialLanguage, onClose }) {
+  const [language, setLanguage] = useState(initialLanguage);
   const data = myQuestionsData[language];
   const [expandedCategories, setExpandedCategories] = useState({});
 
@@ -1558,6 +1559,10 @@ function MyQuestionsModal({ language, onClose }) {
       ...prev,
       [idx]: !prev[idx]
     }));
+  };
+
+  const toggleLanguage = () => {
+    setLanguage(prev => prev === 'pt' ? 'en' : 'pt');
   };
 
   return (
@@ -1576,13 +1581,22 @@ function MyQuestionsModal({ language, onClose }) {
           <h2 id="myquestions-title" className="text-2xl font-bold text-white flex items-center gap-2">
             🤔 {data.title}
           </h2>
-          <button
-            onClick={onClose}
-            className="text-white hover:bg-white/20 rounded-lg px-3 py-1 transition"
-            aria-label="Close my questions modal"
-          >
-            ✕
-          </button>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={toggleLanguage}
+              className="text-white hover:bg-white/20 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
+              aria-label="Toggle language"
+            >
+              🌐 {language === 'pt' ? 'EN' : 'PT'}
+            </button>
+            <button
+              onClick={onClose}
+              className="text-white hover:bg-white/20 rounded-lg px-3 py-2 transition text-xl"
+              aria-label="Close my questions modal"
+            >
+              ✕
+            </button>
+          </div>
         </div>
 
         <div className="p-6 overflow-y-auto max-h-[calc(85vh-80px)]">
