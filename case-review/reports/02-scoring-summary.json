@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T00:06:12.136Z",
+  "generated_at": "2025-10-09T00:12:39.411Z",
   "total_cases": 71,
   "cases_scored": [
     {
@@ -597,11 +597,11 @@
       "title_pt": "Assumi Trade-off: Menos Escopo Agora por Maior Robustez",
       "company": "Bradesco Next",
       "auto_calculated": {
-        "eu_nos_ratio": 21,
+        "eu_nos_ratio": 23,
         "metrics_count": 28,
         "specific_metrics_count": 27,
         "generic_terms_count": 1,
-        "word_count_pt": 984,
+        "word_count_pt": 1016,
         "word_count_en": 932,
         "fup_count": 10
       },
@@ -650,11 +650,11 @@
       "title_pt": "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei 23k Empresas",
       "company": "SEFAZ/RS",
       "auto_calculated": {
-        "eu_nos_ratio": 11,
+        "eu_nos_ratio": 10,
         "metrics_count": 10,
         "specific_metrics_count": 10,
         "generic_terms_count": 0,
-        "word_count_pt": 842,
+        "word_count_pt": 820,
         "word_count_en": 796,
         "fup_count": 10
       },
@@ -756,11 +756,11 @@
       "title_pt": "Analise de Dados para Identificar os Principais Drivers de Churn no App",
       "company": "Sicredi Woop",
       "auto_calculated": {
-        "eu_nos_ratio": 2.8,
-        "metrics_count": 18,
-        "specific_metrics_count": 17,
+        "eu_nos_ratio": 2.5,
+        "metrics_count": 19,
+        "specific_metrics_count": 18,
         "generic_terms_count": 0,
-        "word_count_pt": 539,
+        "word_count_pt": 614,
         "word_count_en": 510,
         "fup_count": 10
       },
@@ -772,7 +772,7 @@
         "auto_score_total": 44
       },
       "flags": [
-        "⚠️ Ratio EU:NÓS baixo (2.8:1)"
+        "⚠️ Ratio EU:NÓS baixo (2.5:1)"
       ],
       "metrics_sample": [
         {
@@ -3621,10 +3621,10 @@
       "company": "Bradesco Next",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 10,
-        "specific_metrics_count": 10,
+        "metrics_count": 11,
+        "specific_metrics_count": 11,
         "generic_terms_count": 0,
-        "word_count_pt": 642,
+        "word_count_pt": 708,
         "word_count_en": 609,
         "fup_count": 10
       },
@@ -3639,6 +3639,11 @@
         "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "18",
+          "context": "18%"
+        },
         {
           "type": "percentage",
           "value": "47",
@@ -3658,11 +3663,6 @@
           "type": "percentage",
           "value": "18",
           "context": "18%"
-        },
-        {
-          "type": "percentage",
-          "value": "6",
-          "context": "6%"
         }
       ],
       "needs_manual_review": false
@@ -3727,10 +3727,10 @@
       "company": "SEFAZ RS",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 20,
-        "specific_metrics_count": 18,
+        "metrics_count": 19,
+        "specific_metrics_count": 17,
         "generic_terms_count": 1,
-        "word_count_pt": 947,
+        "word_count_pt": 963,
         "word_count_en": 897,
         "fup_count": 10
       },
@@ -3745,11 +3745,6 @@
         "⚠️ 1 termos genéricos detectados"
       ],
       "metrics_sample": [
-        {
-          "type": "percentage",
-          "value": "+35",
-          "context": "+35%"
-        },
         {
           "type": "percentage",
           "value": "35",
@@ -3769,6 +3764,11 @@
           "type": "percentage",
           "value": "5",
           "context": "5%"
+        },
+        {
+          "type": "percentage",
+          "value": "57",
+          "context": "57%"
         }
       ],
       "needs_manual_review": false
