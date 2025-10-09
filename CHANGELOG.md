@@ -2,6 +2,57 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.2.1] - 2025-10-09
+
+### 🎯 Enhanced Question Bank - 36 Additional Strategic Questions
+
+#### New Questions Added
+- **36 new questions** distributed across all 14 active Leadership Principles
+- **Bilingual support**: All questions added in both PT and EN
+- **Strategic mapping**: Each question mapped to the most relevant case
+
+#### Distribution by Leadership Principle
+- Customer Obsession: +2 questions (now 14 total)
+- Ownership: +3 questions (now 13 total)
+- Invent and Simplify: +2 questions (now 12 total)
+- Are Right A Lot: +2 questions (now 13 total)
+- Learn and Be Curious: +2 questions (now 14 total)
+- Hire and Develop the Best: +2 questions (now 13 total)
+- Insist on Highest Standards: +2 questions (now 13 total)
+- Think Big: +3 questions (now 15 total)
+- Bias for Action: +2 questions (now 12 total)
+- Frugality: +2 questions (now 13 total)
+- Earn Trust: +3 questions (now 16 total)
+- Dive Deep: +2 questions (now 12 total)
+- Disagree and Commit: +2 questions (now 12 total)
+- Deliver Results: +2 questions (now 12 total)
+
+#### Modified Files
+- `src/data/typicalQuestions.js`: Added 36 new questions (PT and EN)
+- `src/data/questionsToCasesMapping.js`: Added 36 new mappings with scores (85-98)
+
+#### Documentation Created
+- `INTEGRACAO_PERGUNTAS_ADICIONAIS.md`: Complete integration documentation
+- `INTEGRACAO_RESUMO.md`: Executive summary with metrics
+- `VALIDACAO_FINAL.md`: Quality validation and samples
+- `GUIA_VERIFICACAO.md`: Verification guide for testing
+
+#### Highlights
+- Average mapping score: 92.3/100
+- 81% using existing cases
+- 19% referencing new cases (optional)
+- Build passed successfully (3.28s)
+- Zero syntax errors
+
+#### Notable Question Examples
+- "Como você equilibra necessidades de diferentes segmentos de clientes?" → unimed-customer-experience
+- "Como você gerencia dependências entre múltiplos times?" → hsbc-migration-leadership
+- "Como você convence stakeholders céticos sobre uma inovação disruptiva?" → unimed-ai-authorization
+- "Como você reconstrói confiança após um erro que afetou a equipe?" → hard-feedback-leadership-style
+- "Conte sobre quando você encontrou uma solução de R$ 10 para um problema de R$ 100K" → unimed-automation-n8n
+
+---
+
 ## [3.2.0] - 2025-10-09
 
 ### 📋 Documentation Enhancement - LP Cases Inventory

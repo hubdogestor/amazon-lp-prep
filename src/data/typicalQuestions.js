@@ -15,7 +15,9 @@ const typicalQuestions = {
       "Como você prioriza necessidades de clientes quando recursos são limitados?",
       "Conte sobre uma vez que você defendeu um cliente mesmo quando isso não era popular internamente",
       "Como você equilibra prevenção de fraude com experiência do cliente?",
-      "Como você reduziu chargebacks/disputas mantendo satisfação do cliente?"
+      "Como você reduziu chargebacks/disputas mantendo satisfação do cliente?",
+      "Como você equilibra necessidades de diferentes segmentos de clientes?",
+      "Conte sobre quando você teve que educar um cliente sobre algo que ele não sabia que precisava"
     ],
     en: [
       "Tell me about a time you went above and beyond customer expectations or anticipated an unexpressed need",
@@ -29,7 +31,9 @@ const typicalQuestions = {
       "How do you prioritize customer needs when resources are limited?",
       "Tell me about a time you defended a customer even when it wasn't internally popular",
       "How do you balance fraud prevention with customer experience?",
-      "How did you reduce chargebacks/disputes while maintaining customer satisfaction?"
+      "How did you reduce chargebacks/disputes while maintaining customer satisfaction?",
+      "How do you balance needs of different customer segments?",
+      "Tell me about when you had to educate a customer about something they didn't know they needed"
     ]
   },
   "ownership": {
@@ -43,7 +47,10 @@ const typicalQuestions = {
       "Me fale sobre quando você identificou uma ineficiência e tomou ownership para melhorar",
       "Como você lida com situações onde precisa assumir responsabilidade por erros?",
       "Descreva um projeto que você liderou do início ao fim - como garantiu o sucesso?",
-      "Descreva quando você criou um mecanismo para prevenir problemas recorrentes em pagamentos"
+      "Descreva quando você criou um mecanismo para prevenir problemas recorrentes em pagamentos",
+      "Como você lida com situações onde múltiplas pessoas poderiam assumir ownership?",
+      "Conte sobre quando você teve que assumir ownership de um problema criado por outro time",
+      "Como você gerencia dependências entre múltiplos times?"
     ],
     en: [
       "Tell me about a situation where you took responsibility beyond your work scope and area of knowledge - how did you handle it, balancing current/normal tasks with these new ones?",
@@ -55,7 +62,10 @@ const typicalQuestions = {
       "Tell me about when you identified an inefficiency and took ownership to improve it",
       "How do you handle situations where you need to take responsibility for mistakes?",
       "Describe a project you led from start to finish - how did you ensure success?",
-      "Describe when you created a mechanism to prevent recurring problems in payments"
+      "Describe when you created a mechanism to prevent recurring problems in payments",
+      "How do you handle situations where multiple people could take ownership?",
+      "Tell me about when you had to take ownership of a problem created by another team",
+      "How do you manage dependencies between multiple teams?"
     ]
   },
   "invent_simplify": {
@@ -69,7 +79,9 @@ const typicalQuestions = {
       "Descreva uma situação onde você equilibrou inovação com risco",
       "Como você decidiu entre construir uma solução própria vs. adaptar algo existente?",
       "Me dê um exemplo de quando você usou tecnologia/ferramenta de forma não-convencional para resolver um problema",
-      "Conte sobre um processo de payment operations que você automatizou ou otimizou"
+      "Conte sobre um processo de payment operations que você automatizou ou otimizou",
+      "Como você convence stakeholders céticos sobre uma inovação disruptiva?",
+      "Conte sobre quando você simplificou algo que todos achavam que precisava ser complexo"
     ],
     en: [
       "Tell me about an innovation you implemented that simplified a (complex) process?",
@@ -81,7 +93,9 @@ const typicalQuestions = {
       "Describe a situation where you balanced innovation with risk",
       "How did you decide between building your own solution vs. adapting something existing?",
       "Give me an example of when you used technology/tool in an unconventional way to solve a problem",
-      "Tell me about a payment operations process you automated or optimized"
+      "Tell me about a payment operations process you automated or optimized",
+      "How do you convince skeptical stakeholders about a disruptive innovation?",
+      "Tell me about when you simplified something everyone thought needed to be complex"
     ]
   },
   "are_right_a_lot": {
@@ -96,7 +110,9 @@ const typicalQuestions = {
       "Descreva uma vez que você buscou perspectivas diversas para desafiar suas próprias crenças",
       "Como você garante que está fazendo as perguntas certas antes de tomar decisões?",
       "Conte sobre quando você teve que tomar uma decisão rápida sob pressão - você estava certo?",
-      "Me dê exemplo de quando você usou dados de pagamento para impactar decisões comerciais"
+      "Me dê exemplo de quando você usou dados de pagamento para impactar decisões comerciais",
+      "Como você lida com situações onde dados conflitam com sua intuição?",
+      "Conte sobre uma decisão onde você estava certo mas não conseguiu convencer outros inicialmente"
     ],
     en: [
       "Tell me about a situation where you made a difficult decision with input from different stakeholders",
@@ -109,7 +125,9 @@ const typicalQuestions = {
       "Describe a time you sought diverse perspectives to challenge your own beliefs",
       "How do you ensure you're asking the right questions before making decisions?",
       "Tell me about when you had to make a quick decision under pressure - were you right?",
-      "Give me an example of when you used payment data to impact business decisions"
+      "Give me an example of when you used payment data to impact business decisions",
+      "How do you handle situations where data conflicts with your intuition?",
+      "Tell me about a decision where you were right but couldn't convince others initially"
     ]
   },
   "learn_and_be_curious": {
@@ -125,7 +143,9 @@ const typicalQuestions = {
       "Como você explora novas possibilidades mesmo quando está ocupado com o dia a dia?",
       "Conte sobre quando você aplicou aprendizados de uma área completamente diferente ao seu trabalho",
       "Conte sobre um projeto que não deu certo / que você falhou",
-      "Conte sobre uma situação onde você aprendeu com erros"
+      "Conte sobre uma situação onde você aprendeu com erros",
+      "Como você identifica quando precisa desaprender algo que sabia?",
+      "Conte sobre quando sua curiosidade te levou a questionar uma prática estabelecida"
     ],
     en: [
       "How do you stay updated in your area of expertise and how do you explore new areas of knowledge?",
@@ -139,7 +159,9 @@ const typicalQuestions = {
       "How do you explore new possibilities even when busy with day-to-day?",
       "Tell me about when you applied learnings from a completely different area to your work",
       "Tell me about a project that didn't work out / that you failed",
-      "Tell me about a situation where you learned from mistakes"
+      "Tell me about a situation where you learned from mistakes",
+      "How do you identify when you need to unlearn something you knew?",
+      "Tell me about when your curiosity led you to question an established practice"
     ]
   },
   "hire_and_develop_the_best": {
@@ -154,7 +176,9 @@ const typicalQuestions = {
       "Descreva uma vez que você melhorou moral e produtividade da sua equipe",
       "Me fale sobre alguém que você mentorou - qual foi o impacto?",
       "Como você reconhece talento excepcional e os move pela organização?",
-      "Conte sobre quando você teve que tomar uma decisão difícil sobre performance de alguém"
+      "Conte sobre quando você teve que tomar uma decisão difícil sobre performance de alguém",
+      "Como você identifica potencial em pessoas que outros não veem?",
+      "Conte sobre quando você teve que fazer uma promoção controversa"
     ],
     en: [
       "How did you approach developing a team member who was underperforming?",
@@ -167,7 +191,9 @@ const typicalQuestions = {
       "Describe a time you improved your team's morale and productivity",
       "Tell me about someone you mentored - what was the impact?",
       "How do you recognize exceptional talent and move them through the organization?",
-      "Tell me about when you had to make a difficult decision about someone's performance"
+      "Tell me about when you had to make a difficult decision about someone's performance",
+      "How do you identify potential in people that others don't see?",
+      "Tell me about when you had to make a controversial promotion"
     ]
   },
   "insist_on_highest_standards": {
@@ -182,7 +208,9 @@ const typicalQuestions = {
       "Descreva um projeto que você gostaria de ter feito melhor - o que faria diferente hoje?",
       "Me fale sobre uma vez que você teve que escolher entre velocidade e qualidade",
       "Como você garante que defeitos não passam para frente e problemas ficam resolvidos?",
-      "Conte sobre quando você estabeleceu um novo padrão que outros achavam impossível de atingir"
+      "Conte sobre quando você estabeleceu um novo padrão que outros achavam impossível de atingir",
+      "Como você define 'qualidade suficiente' vs 'perfeição paralisante'?",
+      "Conte sobre quando você teve que recusar entregar algo por não atingir seus padrões"
     ],
     en: [
       "How do you ensure the team maintains high standards even with tight deadlines?",
@@ -195,7 +223,9 @@ const typicalQuestions = {
       "Describe a project you wish you had done better - what would you do differently today?",
       "Tell me about a time you had to choose between speed and quality",
       "How do you ensure defects don't pass forward and problems stay solved?",
-      "Tell me about when you established a new standard others thought was impossible to achieve"
+      "Tell me about when you established a new standard others thought was impossible to achieve",
+      "How do you define 'sufficient quality' vs 'paralyzing perfection'?",
+      "Tell me about when you had to refuse to deliver something for not meeting your standards"
     ]
   },
   "think_big": {
@@ -211,7 +241,10 @@ const typicalQuestions = {
       "Me fale sobre quando você teve que vender uma ideia ousada para liderança sênior",
       "Como você cria e comunica uma direção ousada que inspira resultados?",
       "Conte sobre quando você pensou grande mas teve que adaptar a escala - como você fez?",
-      "Descreva uma vez que você identificou oportunidade de receita em operações de pagamento"
+      "Descreva uma vez que você identificou oportunidade de receita em operações de pagamento",
+      "Como você equilibra pensar grande com ser realista sobre recursos?",
+      "Conte sobre uma visão sua que levou anos para ser compreendida",
+      "Conte sobre quando você teve que coordenar lançamento global"
     ],
     en: [
       "Tell me about a time you proposed a bold idea that brought great results",
@@ -225,7 +258,10 @@ const typicalQuestions = {
       "Tell me about when you had to sell a bold idea to senior leadership",
       "How do you create and communicate a bold direction that inspires results?",
       "Tell me about when you thought big but had to adapt the scale - how did you do it?",
-      "Describe a time you identified revenue opportunity in payment operations"
+      "Describe a time you identified revenue opportunity in payment operations",
+      "How do you balance thinking big with being realistic about resources?",
+      "Tell me about a vision of yours that took years to be understood",
+      "Tell me about when you had to coordinate a global launch"
     ]
   },
   "bias_for_action": {
@@ -239,7 +275,9 @@ const typicalQuestions = {
       "Descreva uma vez que você teve que tomar decisão reversível rapidamente vs. irreversível com mais análise",
       "Como você equilibra necessidade de dados com necessidade de agir?",
       "Conte sobre quando você teve que mudar curso/direção de um projeto quando estava 70% completo",
-      "Descreva uma situação onde você teve que tomar decisão rápida sobre transação suspeita"
+      "Descreva uma situação onde você teve que tomar decisão rápida sobre transação suspeita",
+      "Como você comunica decisões rápidas para stakeholders que preferem mais análise?",
+      "Conte sobre quando você teve que agir contra o conselho de especialistas"
     ],
     en: [
       "Give us an example of a calculated risk you took when time was critical, and how you mitigated that risk?",
@@ -251,7 +289,9 @@ const typicalQuestions = {
       "Describe a time you had to make a reversible decision quickly vs. irreversible with more analysis",
       "How do you balance need for data with need to act?",
       "Tell me about when you had to change course/direction of a project when it was 70% complete",
-      "Describe a situation where you had to make quick decision about suspicious transaction"
+      "Describe a situation where you had to make quick decision about suspicious transaction",
+      "How do you communicate quick decisions to stakeholders who prefer more analysis?",
+      "Tell me about when you had to act against the advice of experts"
     ]
   },
   "frugality": {
@@ -266,7 +306,9 @@ const typicalQuestions = {
       "Descreva uma situação onde você recusou mais recursos para completar um projeto - por quê?",
       "Como você gerenciaria projetos sem orçamento e sem recursos?",
       "Conte sobre quando você teve que gerenciar orçamento - como você extraiu mais valor com menos?",
-      "Como você equilibra custo operacional com expansão de métodos de pagamento?"
+      "Como você equilibra custo operacional com expansão de métodos de pagamento?",
+      "Como você equilibra frugalidade com investimento necessário para crescimento?",
+      "Conte sobre quando você encontrou uma solução de R$ 10 para um problema de R$ 100K"
     ],
     en: [
       "Tell me about a time you did more with less",
@@ -279,7 +321,9 @@ const typicalQuestions = {
       "Describe a situation where you refused more resources to complete a project - why?",
       "How would you manage projects with no budget and no resources?",
       "Tell me about when you had to manage budget - how did you extract more value with less?",
-      "How do you balance operational cost with payment method expansion?"
+      "How do you balance operational cost with payment method expansion?",
+      "How do you balance frugality with investment needed for growth?",
+      "Tell me about when you found a $10 solution to a $100K problem"
     ]
   },
   "earn_trust": {
@@ -296,7 +340,10 @@ const typicalQuestions = {
       "Conte sobre quando você foi vocalmente auto-crítico mesmo sendo constrangedor",
       "Me fale sobre uma parceria complexa que você negociou com processadores de pagamento",
       "Como você gerencia relacionamentos com múltiplos stakeholders (bancos, gateways, reguladores)?",
-      "Conte sobre quando você teve que influenciar parceiros externos sem autoridade direta"
+      "Conte sobre quando você teve que influenciar parceiros externos sem autoridade direta",
+      "Como você reconstrói confiança após um erro que afetou a equipe?",
+      "Conte sobre quando você teve que ser transparente sobre algo que te prejudicaria",
+      "Como você comunica status para executivos sêniores?"
     ],
     en: [
       "What was the most difficult feedback you ever received? And how did you deal with it? / Tell me about negative feedback you received",
@@ -311,7 +358,10 @@ const typicalQuestions = {
       "Tell me about when you were vocally self-critical even when embarrassing",
       "Tell me about a complex partnership you negotiated with payment processors",
       "How do you manage relationships with multiple stakeholders (banks, gateways, regulators)?",
-      "Tell me about when you had to influence external partners without direct authority"
+      "Tell me about when you had to influence external partners without direct authority",
+      "How do you rebuild trust after a mistake that affected the team?",
+      "Tell me about when you had to be transparent about something that would hurt you",
+      "How do you communicate status to senior executives?"
     ]
   },
   "dive_deep": {
@@ -325,7 +375,9 @@ const typicalQuestions = {
       "Descreva uma vez que alguém te deu uma explicação mas você não acreditou e investigou - qual foi a verdade?",
       "Como você usa '5 Whys' ou análise de causa raiz para chegar ao fundo de problemas?",
       "Conte sobre quando métricas e anedotas diferiam - como você descobriu a verdade?",
-      "Conte sobre uma vez que você identificou um padrão de fraude ou risco que outros não viram"
+      "Conte sobre uma vez que você identificou um padrão de fraude ou risco que outros não viram",
+      "Como você sabe quando parar de analisar e começar a agir?",
+      "Conte sobre quando sua análise profunda revelou algo que ninguém esperava"
     ],
     en: [
       "Tell me about a situation where you needed to understand root cause to solve complex problem",
@@ -337,7 +389,9 @@ const typicalQuestions = {
       "Describe a time someone gave you an explanation but you didn't believe it and investigated - what was the truth?",
       "How do you use '5 Whys' or root cause analysis to get to bottom of problems?",
       "Tell me about when metrics and anecdotes differed - how did you discover the truth?",
-      "Tell me about a time you identified a fraud or risk pattern others didn't see"
+      "Tell me about a time you identified a fraud or risk pattern others didn't see",
+      "How do you know when to stop analyzing and start acting?",
+      "Tell me about when your deep analysis revealed something nobody expected"
     ]
   },
   "disagree_and_commit": {
@@ -351,7 +405,9 @@ const typicalQuestions = {
       "Conte sobre quando você discordou de um colega/PM/gestor porque achava que estava errado para o cliente",
       "Descreva uma vez que você teve uma ideia que não foi aceita - como você reagiu?",
       "Me fale sobre um conflito que você resolveu - qual foi o processo?",
-      "Como você desafia respeitosamente decisões mas depois se compromete totalmente?"
+      "Como você desafia respeitosamente decisões mas depois se compromete totalmente?",
+      "Como você mantém sua equipe motivada quando você mesmo discordou da decisão?",
+      "Conte sobre quando você teve que defender publicamente uma decisão que contestou internamente"
     ],
     en: [
       "Tell me about a situation where you disagreed with supervisor/manager, but still committed to final decision (and delivery)",
@@ -363,7 +419,9 @@ const typicalQuestions = {
       "Tell me about when you disagreed with colleague/PM/manager because you thought it was wrong for customer",
       "Describe a time you had an idea that wasn't accepted - how did you react?",
       "Tell me about a conflict you resolved - what was the process?",
-      "How do you respectfully challenge decisions but then fully commit?"
+      "How do you respectfully challenge decisions but then fully commit?",
+      "How do you keep your team motivated when you yourself disagreed with the decision?",
+      "Tell me about when you had to publicly defend a decision you challenged internally"
     ]
   },
   "deliver_results": {
@@ -377,7 +435,9 @@ const typicalQuestions = {
       "Descreva uma vez que você teve que entregar resultados diante de desafios significativos",
       "Como você foca nos inputs-chave do negócio e os entrega com qualidade no prazo?",
       "Conte sobre quando você se recusou a baixar padrões apesar de pressão por deadlines",
-      "Conte sobre uma meta desafiadora que você alcançou"
+      "Conte sobre uma meta desafiadora que você alcançou",
+      "Como você lida com situações onde entregar o resultado pode comprometer relacionamentos?",
+      "Conte sobre quando você teve que escolher entre resultado perfeito e prazo crítico"
     ],
     en: [
       "Tell me about a challenging project delivered successfully overcoming significant obstacles",
@@ -389,7 +449,9 @@ const typicalQuestions = {
       "Describe a time you had to deliver results facing significant challenges",
       "How do you focus on key business inputs and deliver them with quality on time?",
       "Tell me about when you refused to lower standards despite deadline pressure",
-      "Tell me about a challenging goal you achieved"
+      "Tell me about a challenging goal you achieved",
+      "How do you handle situations where delivering the result may compromise relationships?",
+      "Tell me about when you had to choose between perfect result and critical deadline"
     ]
   },
   "best_employer": {
