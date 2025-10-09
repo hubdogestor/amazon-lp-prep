@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-08T23:53:01.992Z",
+  "generated_at": "2025-10-09T00:06:12.136Z",
   "total_cases": 71,
   "cases_scored": [
     {
@@ -333,24 +333,29 @@
       "company": "HSBC",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 30,
-        "specific_metrics_count": 30,
-        "generic_terms_count": 1,
-        "word_count_pt": 951,
-        "word_count_en": 886,
+        "metrics_count": 11,
+        "specific_metrics_count": 11,
+        "generic_terms_count": 0,
+        "word_count_pt": 376,
+        "word_count_en": 357,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
-        "metrics_score": 14,
+        "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 10,
-        "auto_score_total": 49
+        "word_count_adequacy": 9.4,
+        "auto_score_total": 49.4
       },
       "flags": [
-        "⚠️ 1 termos genéricos detectados"
+        "⚠️ Text curto (376 palavras)"
       ],
       "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "60",
+          "context": "60%"
+        },
         {
           "type": "percentage",
           "value": "100",
@@ -360,11 +365,6 @@
           "type": "percentage",
           "value": "0,5",
           "context": "0,5%"
-        },
-        {
-          "type": "percentage",
-          "value": "20",
-          "context": "20%"
         },
         {
           "type": "percentage",
@@ -1541,6 +1541,59 @@
           "type": "percentage",
           "value": "71",
           "context": "71%"
+        }
+      ],
+      "needs_manual_review": false
+    },
+    {
+      "case_id": "bradesco-next-customer-ritual",
+      "lp": "Customer Obsession",
+      "title_pt": "Liderei o Ritual de Voz do Cliente que Levou o NPS do Next de 35 para 62",
+      "company": "Bradesco Next",
+      "auto_calculated": {
+        "eu_nos_ratio": 14,
+        "metrics_count": 42,
+        "specific_metrics_count": 41,
+        "generic_terms_count": 0,
+        "word_count_pt": 779,
+        "word_count_en": 706,
+        "fup_count": 10
+      },
+      "scores": {
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
+        "fup_completeness": 10,
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
+      },
+      "flags": [
+        "✅ Métricas automáticas OK"
+      ],
+      "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "22",
+          "context": "22%"
+        },
+        {
+          "type": "percentage",
+          "value": "42",
+          "context": "42%"
+        },
+        {
+          "type": "percentage",
+          "value": "20",
+          "context": "20%"
+        },
+        {
+          "type": "percentage",
+          "value": "12",
+          "context": "12%"
+        },
+        {
+          "type": "percentage",
+          "value": "38",
+          "context": "38%"
         }
       ],
       "needs_manual_review": false

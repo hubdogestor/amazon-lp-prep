@@ -1,4 +1,4 @@
-// Case 2 - customer_obsession
+// Case 2 -    s: `"Bradesco Next vai ser o Nubank roxo." A provocação do diretor de produtos caiu como soco na primeira reunião de roadmap, janeiro de 2017. Ele estava certo — e eu sabia disso. Tínhamos acabado de lançar para bater de frente com Nubank e Banco Inter, mas os números eram brutais: NPS travado em 35 (Nubank estava em 87), churn de 22% nos primeiros 30 dias, 42% de abandono no onboarding digital. Pior: o board empurrava "paridade de features" feito mantra, ignorando sistematicamente a voz do cliente; os squads reclamavam que abrir espaço para sessões com usuários "atrapalharia sprints"; o financeiro ameaçava cortar budget se o time-to-market caísse um milímetro. Estávamos construindo um app roxo com alma de banco tradicional — e os clientes estavam fugindo. Se eu não virasse essa cultura de dentro pra fora, o Next seria só mais um fracasso de transformação digital arquivado na gaveta do board em 18 meses.`,customer_obsession
 const case_2 = {
   id: "bradesco-next-customer-ritual",
   title: "Liderei o Ritual de Voz do Cliente que Levou o NPS do Next de 35 para 62",
