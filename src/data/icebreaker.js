@@ -230,7 +230,65 @@ O resultado foi melhoria significativa na eficiência da equipe e qualidade das 
           lp: "Bias for Action, Ownership"
         }
       ]
-    }
+    },
+
+    // Array simplificado para o modal
+    questions: [
+      {
+        q: "Fale sobre você / Me conte sobre você",
+        a: `**Versão Executiva - Foco em Impacto (2-3 min)**
+
+Sou Leonardo Menezes, um líder em transformação digital com 15+ anos gerando valor mensurável em escala. Ao longo da minha carreira, liderei programas que criaram mais de US$ 300 milhões em valor para organizações como Huawei, HSBC, Bradesco, Sicredi e Unimed.
+
+Minha trajetória começou na Huawei, onde por 6 anos liderei a infraestrutura de telecomunicações que conectou o Brasil ao 4G. Entreguei a primeira estação 4G do país em 2012 e coordenei toda a conectividade da Copa do Mundo 2014. O que me diferenciou foi mergulhar no detalhe operacional: redesenhei processos que reduziram SLAs de 382 para 62 dias, gerando US$ 120 milhões em eficiência.
+
+Depois migrei para o setor financeiro, onde liderei a transformação mais crítica da história bancária brasileira: a migração de US$ 3 bilhões em ativos do HSBC para o Bradesco, com zero perda de dados e compliance total. Também co-liderei o lançamento do Banco Digital Next, competindo diretamente com Nubank.
+
+Nos últimos anos, tenho focado em aplicar IA e automação em setores tradicionais. Na Unimed, implementei soluções que reduziram 30% o tempo de processamento de sinistros e lancei produtos digitais que hoje representam US$ 16 milhões em receita. Atualmente na SEFAZ-RS, estou modernizando a gestão fiscal do estado através de frameworks de value-based management.
+
+O que me motiva é transformar complexidade em simplicidade, sempre com foco em resultados mensuráveis e impacto real no cliente final.`
+      },
+      {
+        q: "Por que Amazon?",
+        a: `**Versão Leadership Principles**
+
+A Amazon sempre me fascinou porque é onde customer obsession não é apenas retórica, mas está embutida no DNA de cada decisão. Ao longo da minha carreira, sempre priorizei o impacto no cliente final - seja entregando a primeira estação 4G do Brasil para conectar pessoas, ou implementando IA que reduz tempo de processamento de sinistros na saúde.
+
+O que mais me atrai são os Leadership Principles, especialmente "Dive Deep" e "Invent and Simplify". Na Huawei, mergulhei tão profundamente nos processos operacionais que redesenhei workflows reduzindo SLAs de 382 para 62 dias. Na Unimed, simplifiquei operações complexas através de automação, gerando US$ 45 milhões em savings.
+
+A cultura de "Ownership" ressoa profundamente comigo. No HSBC, assumi responsabilidade end-to-end pela migração de US$ 3 bilhões, trabalhando pessoalmente com reguladores e auditores para garantir zero falhas. Não delego responsabilidade - mergulho no problema.
+
+Amazon representa a combinação perfeita de escala, inovação e impacto. Quero contribuir com uma organização que pensa grande, age rápido e coloca o cliente em primeiro lugar em cada decisão. É onde posso aplicar minha experiência em transformação operacional para gerar valor em escala verdadeiramente global.`
+      },
+      {
+        q: "Por que esta vaga específica?",
+        a: `**Versão Program Manager & AI**
+
+Esta vaga é a convergência perfeita da minha experiência: program management em escala, transformação operacional e implementação de AI/ML em operações críticas.
+
+Meu background é exatamente o que vocês precisam. Liderei programas complexos que geraram US$ 300+ milhões em valor, sempre com foco em operational excellence. Na Huawei, coordenei 30+ PMs e 20 fornecedores para entregar infraestrutura crítica. No HSBC/Bradesco, gerenciei a migração mais complexa da história bancária brasileira.
+
+Mais importante: tenho experiência prática implementando AI/ML em payment operations. Na Unimed, meus modelos automatizaram processamento que reduziu cycle time em 30%. No Sicredi, implementei ML para credit scoring e fraud detection que melhorou authorization rates significativamente.
+
+A parceria com Oakberry me empolga porque vejo oportunidade de aplicar Lean Six Sigma para identificar waste em payment processes e implementar AI use cases que reduzam operational cost per transaction. Minha experiência com value-based management e OKRs será crucial para medir ROI dessas transformações.
+
+Esta posição oferece o que busco: ownership end-to-end, impacto mensurável e oportunidade de aplicar minha expertise em um ambiente que valoriza inovação e customer obsession.`
+      },
+      {
+        q: "Quais são seus principais pontos fortes?",
+        a: `**Dive Deep & Deliver Results**
+
+Meu principal diferencial é a capacidade de mergulhar profundamente em problemas complexos e entregar resultados mensuráveis consistentemente.
+
+**Dive Deep**: Não me contento com análises superficiais. Na Huawei, quando SLAs estavam em 382 dias, eu mesmo conduzi root cause analysis usando Ishikawa e 5 Whys, identificando que 60% dos atrasos vinham de gargalos regulatórios. Negociei pessoalmente com prefeituras e ANATEL, redesenhei workflows e reduzi para 62 dias.
+
+**Deliver Results**: Tenho track record de US$ 300+ milhões em valor gerado. Na Unimed, implementei IA que automatizou 30% do processamento de sinistros, gerando US$ 45 milhões em savings anuais. No HSBC, migrei US$ 3 bilhões sem uma única falha.
+
+**Customer Obsession**: Sempre conecto decisões técnicas ao impacto no cliente. No Sicredi, meus modelos de ML não apenas melhoraram credit scoring - eles reduziram tempo de aprovação de crédito, melhorando experiência de 6.4 milhões de cooperados.
+
+O que me diferencia é combinar profundidade técnica com visão de negócio, sempre focando em outcomes que importam para o cliente final.`
+      }
+    ]
   },
 
   en: {
@@ -299,7 +357,37 @@ Amazon represents the perfect combination of scale, innovation, and impact. I wa
           mic_drop: "Scale, innovation and impact - where I can generate value at global scale"
         }
       ]
-    }
+    },
+
+    // Simplified array for the modal
+    questions: [
+      {
+        q: "Tell me about yourself / Walk me through your background",
+        a: `**Executive Version - Impact Focus (2-3 min)**
+
+I'm Leonardo Menezes, a digital transformation leader with 15+ years generating measurable value at scale. Throughout my career, I've led programs that created over $300 million in value for organizations like Huawei, HSBC, Bradesco, Sicredi, and Unimed.
+
+My journey started at Huawei, where for 6 years I led the telecom infrastructure that connected Brazil to 4G. I delivered Brazil's first 4G station in 2012 and coordinated all connectivity for the 2014 World Cup. What differentiated me was diving deep into operational details: I redesigned processes that reduced SLAs from 382 to 62 days, generating $120 million in efficiency.
+
+I then moved to financial services, where I led the most critical transformation in Brazilian banking history: migrating $3 billion in assets from HSBC to Bradesco with zero data loss and full compliance. I also co-led the launch of Next Digital Bank, competing directly with Nubank.
+
+In recent years, I've focused on applying AI and automation to traditional sectors. At Unimed, I implemented solutions that reduced claims processing time by 30% and launched digital products now generating $16 million in revenue. Currently at SEFAZ-RS, I'm modernizing the state's fiscal management through value-based management frameworks.
+
+What drives me is transforming complexity into simplicity, always focusing on measurable results and real impact on the end customer.`
+      },
+      {
+        q: "Why Amazon? / What attracts you to Amazon?",
+        a: `**Leadership Principles Version**
+
+Amazon has always fascinated me because it's where customer obsession isn't just rhetoric, but is embedded in the DNA of every decision. Throughout my career, I've always prioritized end-customer impact - whether delivering Brazil's first 4G station to connect people, or implementing AI that reduces healthcare claims processing time.
+
+What attracts me most are the Leadership Principles, especially "Dive Deep" and "Invent and Simplify." At Huawei, I dove so deep into operational processes that I redesigned workflows reducing SLAs from 382 to 62 days. At Unimed, I simplified complex operations through automation, generating $45 million in savings.
+
+The "Ownership" culture resonates deeply with me. At HSBC, I took end-to-end responsibility for migrating $3 billion, working personally with regulators and auditors to ensure zero failures. I don't delegate responsibility - I dive into the problem.
+
+Amazon represents the perfect combination of scale, innovation, and impact. I want to contribute to an organization that thinks big, acts fast, and puts the customer first in every decision. It's where I can apply my operational transformation experience to generate value at truly global scale.`
+      }
+    ]
   }
 };
 
