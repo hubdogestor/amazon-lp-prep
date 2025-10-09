@@ -179,30 +179,48 @@ Este TO-DO acompanha a execução do **Master Plan** de revisão dos 71 cases pa
 
 ---
 
-## 🟡 SPRINT 3: Métricas + Transições
+## � SPRINT 3: Métricas + Transições
 
 **Objetivo**: Adicionar métricas faltantes e melhorar fluidez narrativa  
 **Esforço total**: 5.4 horas  
-**Status**: ⏳ NÃO INICIADO  
+**Status**: 🔄 **EM PROGRESSO** (2025-10-08)  
 **Dependência**: Recomendado após Sprints 1 e 2
 
-### **Parte A: Adicionar Métricas** (1h)
+### **Parte A: Dive Deep - Métricas + Hooks** (1h) ✅ COMPLETO
 
-**Cases para revisar** (2 total):
+**Cases revisados** (4 casos de Dive Deep):
 
-- [ ] **`unimed-fraud-investigation`** (0.5h)
+- [x] **`sicredi-churn-analysis`** ✅ COMPLETO
   - **LP**: Dive Deep
-  - **Score atual**: 75/100
-  - **Problema**: Apenas 5 métricas (meta: 8+)
-  - **Ação**: Adicionar métricas secundárias (economia, satisfação)
-  - **Arquivo**: `src/data/dive_deep/case2.js`
+  - **Score**: 44.0/55 → **47.0/55** (+3 pts)
+  - **EU:NÓS**: 2.5:1 → **3.8:1** (+52%)
+  - **Métricas**: 18 → **20**
+  - **Melhorias**: Transição S→T, Learning com 3 exemplos (R$12.8M economizados)
+  - **Arquivo**: `src/data/dive_deep/dive_deep_case1.js`
 
-- [ ] **`sicredi-pix-settlement`** (0.5h)
+- [x] **`hsbc-data-validation-audit`** ✅ COMPLETO
   - **LP**: Dive Deep
-  - **Score atual**: 75.6/100
-  - **Problema**: Apenas 5 métricas (meta: 8+)
-  - **Ação**: Substituir termos genéricos por números específicos
-  - **Arquivo**: `src/data/dive_deep/case4.js`
+  - **Score**: 50.0/55 (mantido perfeito!)
+  - **EU:NÓS**: 10.0:1 (mantido)
+  - **Métricas**: 9 → **10**
+  - **Melhorias**: Transição T→A, Result com 8 programas + US$47Bi protegidos
+  - **Arquivo**: `src/data/dive_deep/dive_deep_case2.js`
+
+- [x] **`unimed-fraud-investigation`** ✅ COMPLETO
+  - **LP**: Dive Deep
+  - **Score**: 50.0/55 (mantido perfeito!)
+  - **EU:NÓS**: 4.5:1 → **9.0:1** (2x melhor! 🎯)
+  - **Métricas**: 10 → **12**
+  - **Melhorias**: Hook dramatizado (R$4.8M sangrando), Result com 14 instituições + R$67M + PIX R$23M
+  - **Arquivo**: `src/data/dive_deep/dive_deep_case3.js`
+
+- [x] **`sicredi-pix-settlement`** ✅ COMPLETO
+  - **LP**: Dive Deep
+  - **Score**: 47.0/55 (mantido)
+  - **EU:NÓS**: 3.0:1 (mantido)
+  - **Métricas**: 19 → **23** (+4 métricas!)
+  - **Melhorias**: Hook ajustado com contexto ("Quando assumi o PIX..."), Learning com TED+boleto (R$8.7M)
+  - **Arquivo**: `src/data/dive_deep/dive_deep_case4.js`
 
 ### **Parte B: Transições STAR** (2.4h)
 
@@ -259,9 +277,9 @@ Este TO-DO acompanha a execução do **Master Plan** de revisão dos 71 cases pa
 |--------|--------|-------|-----------------|-------------|-----------|
 | Sprint 1 | ✅ **COMPLETO** | 2 (de 5) | 12.5h | **2h** | 2/2 (100%) ✅ |
 | Sprint 2 | ✅ **COMPLETO** | 13 | 7.5h | **6.5h** | 13/13 (100%) ✅ |
-| Sprint 3 | ⏳ Não iniciado | 15 | 5.4h | - | 0/15 (0%) |
+| Sprint 3 | 🔄 Em progresso | 15 | 5.4h | **1h** | 4/15 (27%) |
 | Sprint 4 | ⏳ Não iniciado | 53 | 26.8h | - | 0/53 (0%) |
-| **TOTAL** | **27.9% completo** | **84** | **52.2h** | **8.5h** | **21.2%** |
+| **TOTAL** | **33.3% completo** | **84** | **52.2h** | **9.5h** | **22.6%** |
 
 ### **Score do Portfólio**
 
@@ -284,6 +302,13 @@ Este TO-DO acompanha a execução do **Master Plan** de revisão dos 71 cases pa
 - Escrita fluída e não robotizada (pragmatismo aplicado)
 - Média de score mantida em 49.0/55 (excelente!)
 - 1 caso (sicredi-360-feedback) já tinha hook dramático do Sprint 1
+
+**Sprint 3 (Parte A - Dive Deep)**: Refinamento profundo em 4 casos sensíveis:
+- sicredi-churn-analysis: 44→47 pts (+6.8%), ratio 2.5→3.8 (+52%)
+- hsbc-data-validation-audit: Mantido 50 pts, +1 métrica, +US$47Bi impacto documentado
+- unimed-fraud-investigation: Mantido 50 pts, ratio 4.5→9.0 (2x melhor!), +2 métricas
+- sicredi-pix-settlement: Mantido 47 pts, +4 métricas, hook ajustado com contexto
+- **Média Dive Deep**: 48.5/55 (todos ≥47 pts) ✅
 
 ---
 

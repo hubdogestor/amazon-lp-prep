@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T00:48:05.902Z",
+  "generated_at": "2025-10-09T01:11:25.635Z",
   "total_cases": 71,
   "cases_scored": [
     {
@@ -964,12 +964,12 @@
       "company": "Huawei",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 37,
-        "specific_metrics_count": 35,
+        "metrics_count": 24,
+        "specific_metrics_count": 23,
         "generic_terms_count": 0,
-        "word_count_pt": 1094,
-        "word_count_en": 941,
-        "fup_count": 12
+        "word_count_pt": 511,
+        "word_count_en": 464,
+        "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
@@ -999,13 +999,13 @@
         },
         {
           "type": "percentage",
-          "value": "61",
-          "context": "61%"
+          "value": "97",
+          "context": "97%"
         },
         {
           "type": "percentage",
-          "value": "97",
-          "context": "97%"
+          "value": "99,8",
+          "context": "99,8%"
         }
       ],
       "needs_manual_review": false
@@ -1016,12 +1016,12 @@
       "title_pt": "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Tres Inputs Chave",
       "company": "Unimed",
       "auto_calculated": {
-        "eu_nos_ratio": 7,
-        "metrics_count": 38,
-        "specific_metrics_count": 37,
+        "eu_nos_ratio": 10,
+        "metrics_count": 25,
+        "specific_metrics_count": 25,
         "generic_terms_count": 0,
-        "word_count_pt": 970,
-        "word_count_en": 883,
+        "word_count_pt": 518,
+        "word_count_en": 471,
         "fup_count": 10
       },
       "scores": {
@@ -1047,18 +1047,18 @@
         },
         {
           "type": "percentage",
-          "value": "83",
-          "context": "83%"
+          "value": "80",
+          "context": "80%"
         },
         {
           "type": "percentage",
-          "value": "40",
-          "context": "40%"
+          "value": "35",
+          "context": "35%"
         },
         {
           "type": "percentage",
-          "value": "20",
-          "context": "20%"
+          "value": "31",
+          "context": "31%"
         }
       ],
       "needs_manual_review": false
@@ -1070,11 +1070,11 @@
       "company": "Sicredi Woop",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 31,
-        "specific_metrics_count": 29,
+        "metrics_count": 29,
+        "specific_metrics_count": 27,
         "generic_terms_count": 0,
-        "word_count_pt": 833,
-        "word_count_en": 709,
+        "word_count_pt": 576,
+        "word_count_en": 529,
         "fup_count": 10
       },
       "scores": {
@@ -1123,11 +1123,11 @@
       "company": "SEFAZ/RS",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 38,
-        "specific_metrics_count": 37,
+        "metrics_count": 26,
+        "specific_metrics_count": 25,
         "generic_terms_count": 0,
-        "word_count_pt": 1335,
-        "word_count_en": 1227,
+        "word_count_pt": 686,
+        "word_count_en": 641,
         "fup_count": 10
       },
       "scores": {
@@ -1158,13 +1158,13 @@
         },
         {
           "type": "percentage",
-          "value": "90",
-          "context": "90%"
+          "value": "100",
+          "context": "100%"
         },
         {
           "type": "percentage",
-          "value": "100",
-          "context": "100%"
+          "value": "66",
+          "context": "66%"
         }
       ],
       "needs_manual_review": false
@@ -1175,12 +1175,12 @@
       "title_pt": "Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias",
       "company": "Sicredi",
       "auto_calculated": {
-        "eu_nos_ratio": 11,
-        "metrics_count": 20,
-        "specific_metrics_count": 20,
+        "eu_nos_ratio": 6,
+        "metrics_count": 17,
+        "specific_metrics_count": 17,
         "generic_terms_count": 0,
-        "word_count_pt": 1122,
-        "word_count_en": 1057,
+        "word_count_pt": 687,
+        "word_count_en": 650,
         "fup_count": 10
       },
       "scores": {
@@ -1206,8 +1206,8 @@
         },
         {
           "type": "percentage",
-          "value": "99.2",
-          "context": "99.2%"
+          "value": "99,2",
+          "context": "99,2%"
         },
         {
           "type": "percentage",
@@ -1216,8 +1216,8 @@
         },
         {
           "type": "percentage",
-          "value": "92",
-          "context": "92%"
+          "value": "95",
+          "context": "95%"
         }
       ],
       "needs_manual_review": false
@@ -1759,10 +1759,10 @@
       "company": "OLÍBANO",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 22,
-        "specific_metrics_count": 20,
+        "metrics_count": 26,
+        "specific_metrics_count": 24,
         "generic_terms_count": 2,
-        "word_count_pt": 794,
+        "word_count_pt": 894,
         "word_count_en": 760,
         "fup_count": 10
       },
@@ -2659,11 +2659,11 @@
       "title_pt": "Pivotei Projeto SEFAZ 70% Completo para Nova Legislacao e Entreguei com 2 Meses de Atraso Aceitavel",
       "company": "SEFAZ/RS",
       "auto_calculated": {
-        "eu_nos_ratio": 26,
-        "metrics_count": 58,
-        "specific_metrics_count": 58,
+        "eu_nos_ratio": 28,
+        "metrics_count": 63,
+        "specific_metrics_count": 63,
         "generic_terms_count": 0,
-        "word_count_pt": 1051,
+        "word_count_pt": 1172,
         "word_count_en": 1008,
         "fup_count": 10
       },
