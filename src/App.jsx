@@ -637,7 +637,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
       });
     });
 
-    return results.slice(0, 10); // Limit to 10 results
+    return results; // No limit - show all results
   }, [principlesData, debouncedSearchTerm, language]);
 
   return (
