@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T01:39:37.576Z",
+  "generated_at": "2025-10-09T01:50:04.682Z",
   "total_cases": 71,
   "cases_scored": [
     {
@@ -540,11 +540,11 @@
       "company": "SEFAZ/RS",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 20,
-        "specific_metrics_count": 18,
+        "metrics_count": 19,
+        "specific_metrics_count": 17,
         "generic_terms_count": 0,
-        "word_count_pt": 607,
-        "word_count_en": 541,
+        "word_count_pt": 559,
+        "word_count_en": 508,
         "fup_count": 10
       },
       "scores": {
@@ -592,23 +592,23 @@
       "title_pt": "Assumi Trade-off: Menos Escopo Agora por Maior Robustez",
       "company": "Bradesco Next",
       "auto_calculated": {
-        "eu_nos_ratio": 4,
-        "metrics_count": 26,
-        "specific_metrics_count": 25,
-        "generic_terms_count": 1,
-        "word_count_pt": 811,
-        "word_count_en": 743,
+        "eu_nos_ratio": 10,
+        "metrics_count": 17,
+        "specific_metrics_count": 16,
+        "generic_terms_count": 0,
+        "word_count_pt": 542,
+        "word_count_en": 502,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
-        "metrics_score": 14,
+        "metrics_score": 15,
         "fup_completeness": 10,
         "word_count_adequacy": 10,
-        "auto_score_total": 49
+        "auto_score_total": 50
       },
       "flags": [
-        "⚠️ 1 termos genéricos detectados"
+        "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
         {
@@ -628,13 +628,13 @@
         },
         {
           "type": "percentage",
-          "value": "99,9",
-          "context": "99,9%"
+          "value": "99,2",
+          "context": "99,2%"
         },
         {
           "type": "percentage",
-          "value": "15",
-          "context": "15%"
+          "value": "99,97",
+          "context": "99,97%"
         }
       ],
       "needs_manual_review": false
@@ -645,23 +645,23 @@
       "title_pt": "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei 23k Empresas",
       "company": "SEFAZ/RS",
       "auto_calculated": {
-        "eu_nos_ratio": 8,
-        "metrics_count": 10,
-        "specific_metrics_count": 10,
+        "eu_nos_ratio": 6,
+        "metrics_count": 6,
+        "specific_metrics_count": 6,
         "generic_terms_count": 0,
-        "word_count_pt": 823,
-        "word_count_en": 789,
+        "word_count_pt": 523,
+        "word_count_en": 506,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
-        "metrics_score": 15,
+        "metrics_score": 12,
         "fup_completeness": 10,
         "word_count_adequacy": 10,
-        "auto_score_total": 50
+        "auto_score_total": 47
       },
       "flags": [
-        "✅ Métricas automáticas OK"
+        "⚠️ Poucas métricas específicas (6)"
       ],
       "metrics_sample": [
         {
@@ -671,23 +671,26 @@
         },
         {
           "type": "currency",
-          "value": "4,8M",
-          "context": "R$ 4,8M"
-        },
-        {
-          "type": "currency",
           "value": "8,2M",
           "context": "R$ 8,2M"
         },
         {
-          "type": "currency",
-          "value": "350",
-          "context": "R$ 350"
+          "type": "time_unit",
+          "value": "30",
+          "unit": "min",
+          "context": "30min"
         },
         {
-          "type": "currency",
-          "value": "3M",
-          "context": "R$ 3M"
+          "type": "time_unit",
+          "value": "10",
+          "unit": "min",
+          "context": "10min"
+        },
+        {
+          "type": "time_unit",
+          "value": "15",
+          "unit": "min",
+          "context": "15 min"
         }
       ],
       "needs_manual_review": false
@@ -699,11 +702,11 @@
       "company": "Bradesco",
       "auto_calculated": {
         "eu_nos_ratio": 5,
-        "metrics_count": 18,
-        "specific_metrics_count": 18,
+        "metrics_count": 16,
+        "specific_metrics_count": 16,
         "generic_terms_count": 0,
-        "word_count_pt": 696,
-        "word_count_en": 632,
+        "word_count_pt": 606,
+        "word_count_en": 554,
         "fup_count": 10
       },
       "scores": {
@@ -739,8 +742,8 @@
         },
         {
           "type": "percentage",
-          "value": "15",
-          "context": "15%"
+          "value": "42",
+          "context": "42%"
         }
       ],
       "needs_manual_review": false
@@ -1335,10 +1338,10 @@
       "company": "Bradesco Payments",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 13,
-        "specific_metrics_count": 13,
+        "metrics_count": 16,
+        "specific_metrics_count": 16,
         "generic_terms_count": 0,
-        "word_count_pt": 354,
+        "word_count_pt": 495,
         "word_count_en": 334,
         "fup_count": 10
       },
@@ -1346,13 +1349,18 @@
         "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 8.8,
-        "auto_score_total": 48.9
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
       },
       "flags": [
-        "⚠️ Text curto (354 palavras)"
+        "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "18",
+          "context": "18%"
+        },
         {
           "type": "percentage",
           "value": "18",
@@ -1372,11 +1380,6 @@
           "type": "percentage",
           "value": "0,08",
           "context": "0,08%"
-        },
-        {
-          "type": "currency",
-          "value": "420M",
-          "context": "R$ 420M"
         }
       ],
       "needs_manual_review": false
@@ -1864,11 +1867,11 @@
       "title_pt": "Liderei o Portal da Transparência: Fora da Zona de Conforto",
       "company": "SEFAZ/RS",
       "auto_calculated": {
-        "eu_nos_ratio": 3.33,
-        "metrics_count": 22,
-        "specific_metrics_count": 22,
+        "eu_nos_ratio": 3,
+        "metrics_count": 25,
+        "specific_metrics_count": 25,
         "generic_terms_count": 0,
-        "word_count_pt": 860,
+        "word_count_pt": 974,
         "word_count_en": 828,
         "fup_count": 10
       },
@@ -2872,10 +2875,10 @@
       "company": "SEFAZ-RS",
       "auto_calculated": {
         "eu_nos_ratio": 3,
-        "metrics_count": 40,
-        "specific_metrics_count": 40,
+        "metrics_count": 44,
+        "specific_metrics_count": 44,
         "generic_terms_count": 0,
-        "word_count_pt": 861,
+        "word_count_pt": 987,
         "word_count_en": 706,
         "fup_count": 10
       },
@@ -2907,13 +2910,13 @@
         },
         {
           "type": "percentage",
-          "value": "70",
-          "context": "70%"
+          "value": "64",
+          "context": "64%"
         },
         {
           "type": "percentage",
-          "value": "78",
-          "context": "78%"
+          "value": "41",
+          "context": "41%"
         }
       ],
       "needs_manual_review": false
