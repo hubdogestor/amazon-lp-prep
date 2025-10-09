@@ -1,5 +1,5 @@
-// src/data/icebreaker_fantastico.js
-// Icebreaker estratégico para entrevistas Amazon - Múltiplas versões diferenciadas
+// src/data/icebreaker.js
+// Icebreaker estratégico para entrevistas Amazon - Versões naturais e fluidas
 
 const icebreakerData = {
   pt: {
@@ -19,12 +19,12 @@ const icebreakerData = {
           context: "Para criar conexão humana e quebrar o gelo",
           content: `Sou Leonardo Menezes, gaúcho de Porto Alegre, 40 anos, casado com a Thais e pai da Livia, que tem 10 anos. Além da minha paixão por transformação digital, sou uma pessoa curiosa por natureza - gosto de estar sempre atualizado sobre o que está acontecendo no mundo e as novas tendências, especialmente em tecnologia e inovação.
 
-Nos meus momentos livres, você me encontra jogando xadrez (adoro a estratégia do jogo, que muito me lembra os desafios que enfrento no trabalho) ou tocando guitarra para relaxar. Também sou um leitor ávido - estou sempre com um livro sobre estratégia, tecnologia ou liderança.
+Nos meus momentos livres, você me encontra jogando xadrez - adoro a estratégia do jogo, que muito me lembra os desafios que enfrento no trabalho. Também toco guitarra para relaxar, e sou um leitor ávido. Estou sempre com um livro sobre estratégia, tecnologia ou liderança.
 
-O que me move profissionalmente é a mesma curiosidade que me move pessoalmente: entender como as coisas funcionam e como podem ser melhoradas. Essa combinação de pensamento analítico (do xadrez), criatividade (da música) e aprendizado contínuo (dos livros) se reflete na minha forma de liderar projetos e resolver problemas complexos.`,
+O que me move profissionalmente é a mesma curiosidade que me move pessoalmente: entender como as coisas funcionam e como podem ser melhoradas. Essa combinação de pensamento analítico do xadrez, criatividade da música e aprendizado contínuo dos livros se reflete na minha forma de liderar projetos e resolver problemas complexos. No fundo, sou alguém que adora transformar complexidade em simplicidade, sempre buscando soluções que façam sentido tanto tecnicamente quanto para as pessoas que vão usá-las.`,
           tags: ["pessoal", "família", "hobbies", "conexão humana"],
           hook: "Gaúcho, pai, curioso por natureza",
-          mic_drop: "Xadrez, guitarra e tecnologia - combinação perfeita para resolver problemas complexos"
+          mic_drop: "Transformar complexidade em simplicidade - do xadrez aos negócios"
         },
         {
           id: "versao_profissional",
@@ -32,90 +32,33 @@ O que me move profissionalmente é a mesma curiosidade que me move pessoalmente:
           badge: "Profissional",
           badgeColor: "bg-green-500",
           context: "Para destacar expertise e track record",
-          content: `Sou Leonardo Menezes, um líder em transformação digital com 15+ anos gerando valor mensurável em escala. Ao longo da minha carreira, liderei programas que criaram mais de US$ 300 milhões em valor para organizações como Huawei, HSBC, Bradesco, Sicredi e Unimed.
+          content: `Sou Leonardo Menezes, e nos últimos 15 anos tenho me dedicado a transformar operações complexas em resultados mensuráveis. Minha trajetória começou na Huawei, onde passei 6 anos construindo a infraestrutura que conectou o Brasil ao 4G. Foi lá que entreguei a primeira estação 4G do país em 2012 e coordenei toda a conectividade da Copa do Mundo de 2014. O que me marcou nessa época foi aprender que escala e excelência operacional não são excludentes - na verdade, são complementares quando você mergulha nos detalhes certos.
 
-Minha trajetória é marcada por três pilares: **infraestrutura crítica**, **transformação financeira** e **inovação em setores tradicionais**. Na Huawei, construí a base do 4G no Brasil - entreguei a primeira estação em 2012 e coordenei a conectividade da Copa 2014. No setor financeiro, liderei a migração de US$ 3 bilhões do HSBC para o Bradesco sem falhas e co-liderei o lançamento do Banco Digital Next.
+Depois migrei para o setor financeiro, onde enfrentei um dos desafios mais críticos da minha carreira: liderar a migração de 3 bilhões de dólares em ativos do HSBC para o Bradesco. Foram meses de trabalho intenso, negociando com reguladores, coordenando times multidisciplinares e garantindo que cada centavo fosse transferido sem erros. O resultado? Zero falhas, zero perda de dados, e a confiança de ter entregue algo que muitos achavam impossível. Logo depois, co-liderei o lançamento do Banco Digital Next, competindo diretamente com fintechs como Nubank.
 
-Mais recentemente, tenho focado em **IA aplicada**: na Unimed, implementei automação que reduziu 30% o tempo de processamento de sinistros gerando US$ 45M em savings. No Sicredi, meus modelos de ML aceleraram aprovações em 40%. Atualmente na SEFAZ-RS, modernizo a gestão fiscal usando frameworks de value-based management.
+Mais recentemente, tenho focado em aplicar inteligência artificial para resolver problemas reais. Na Unimed, implementei automação que reduziu em 30% o tempo de processamento de sinistros, gerando 45 milhões de dólares em economia anual. No Sicredi, meus modelos de machine learning aceleraram aprovações de crédito em 40%, impactando diretamente a vida de 6.4 milhões de cooperados. Atualmente na SEFAZ-RS, estou modernizando a gestão fiscal do estado usando frameworks de value-based management.
 
-O que me diferencia é a capacidade de mergulhar no detalhe técnico mantendo visão estratégica - sou igualmente confortável discutindo arquitetura de sistemas com engenheiros ou ROI com CFOs.`,
+O que me diferencia não é apenas ter experiência técnica ou visão estratégica isoladamente, mas conseguir transitar entre esses dois mundos. Sou igualmente confortável discutindo arquitetura de sistemas com engenheiros ou apresentando ROI para CFOs. No final do dia, o que me move é transformar complexidade em valor mensurável para quem realmente importa: o cliente final.`,
           tags: ["executiva", "impacto", "liderança", "resultados"],
-          hook: "US$ 300 milhões em valor gerado em 15+ anos",
-          mic_drop: "Detalhe técnico com visão estratégica - do código ao boardroom"
+          hook: "15 anos transformando operações complexas em resultados mensuráveis",
+          mic_drop: "Do código ao boardroom - transformar complexidade em valor para o cliente"
         },
         {
-          id: "versao_amazoniana",
-          title: "Versão Amazoniana",
-          badge: "Amazon DNA",
-          badgeColor: "bg-orange-500",
-          context: "Alinhada aos Leadership Principles da Amazon",
-          content: `Sou Leonardo Menezes, e minha carreira é uma demonstração prática dos Leadership Principles da Amazon em ação.
-
-**Customer Obsession**: Sempre começo pelo cliente. Na Huawei, quando SLAs estavam em 382 dias, não aceitei - mergulhei no problema e redesenhei processos que levaram a 62 dias. Na Unimed, cada decisão de produto era validada com usuários reais, resultando em NPS +6 pontos.
-
-**Dive Deep**: Não delego o entendimento técnico. No HSBC, eu mesmo conduzi root cause analysis de compliance FATCA. Na Unimed, escrevi queries SQL para validar modelos de ML. Acredito que liderança efetiva exige domínio do detalhe.
-
-**Deliver Results**: Meu track record fala por si - US$ 300M+ em valor gerado. No Bradesco, migrei US$ 3Bi com zero falhas. No Sicredi, 15+ produtos digitais geraram US$ 50M em receita incremental. Comprometimento com outcomes, não apenas outputs.
-
-**Invent and Simplify**: Na Huawei, transformei complexidade (20 fornecedores, múltiplos reguladores) em simplicidade (um War Room, um dashboard, uma regra: 24h para resolver). Essa mentalidade me acompanha em cada projeto.
-
-**Ownership**: Nunca digo "não é minha responsabilidade". No HSBC, assumi pessoalmente negociações com BACEN e auditores. Ownership end-to-end é meu padrão operacional.`,
-          tags: ["leadership principles", "customer obsession", "ownership", "deliver results"],
-          hook: "Leadership Principles da Amazon em ação",
-          mic_drop: "Customer obsession + dive deep + deliver results = meu DNA profissional"
-        },
-        {
-          id: "versao_executiva_impacto",
-          title: "Versão Executiva - Foco em Impacto (2-3 min)",
-          badge: "Executiva",
-          badgeColor: "bg-purple-500",
-          context: "Para Gabriela Bonelle ou entrevistadores sênior",
-          content: `Sou Leonardo Menezes, um líder em transformação digital com 15+ anos gerando valor mensurável em escala. Ao longo da minha carreira, liderei programas que criaram mais de US$ 300 milhões em valor para organizações como Huawei, HSBC, Bradesco, Sicredi e Unimed.
-
-Minha trajetória começou na Huawei, onde por 6 anos liderei a infraestrutura de telecomunicações que conectou o Brasil ao 4G. Entreguei a primeira estação 4G do país em 2012 e coordenei toda a conectividade da Copa do Mundo 2014. O que me diferenciou foi mergulhar no detalhe operacional: redesenhei processos que reduziram SLAs de 382 para 62 dias, gerando US$ 120 milhões em eficiência.
-
-Depois migrei para o setor financeiro, onde liderei a transformação mais crítica da história bancária brasileira: a migração de US$ 3 bilhões em ativos do HSBC para o Bradesco, com zero perda de dados e compliance total. Também co-liderei o lançamento do Banco Digital Next, competindo diretamente com Nubank.
-
-Nos últimos anos, tenho focado em aplicar IA e automação em setores tradicionais. Na Unimed, implementei soluções que reduziram 30% o tempo de processamento de sinistros e lancei produtos digitais que hoje representam US$ 16 milhões em receita. Atualmente na SEFAZ-RS, estou modernizando a gestão fiscal do estado através de frameworks de value-based management.
-
-O que me motiva é transformar complexidade em simplicidade, sempre com foco em resultados mensuráveis e impacto real no cliente final.`,
-          tags: ["executiva", "impacto", "liderança", "resultados"],
-          hook: "US$ 300 milhões em valor gerado",
-          mic_drop: "Transformar complexidade em simplicidade com impacto mensurável"
-        },
-        {
-          id: "versao_pagamentos_ai",
-          title: "Versão Pagamentos & AI (2 min)",
-          badge: "Payments + AI",
+          id: "versao_payments",
+          title: "Versão Payments",
+          badge: "Payments Focus",
           badgeColor: "bg-indigo-500",
           context: "Para entrevistadores técnicos ou foco na vaga específica",
-          content: `Sou Leonardo Menezes, especialista em transformação de operações de pagamento através de IA e automação. Minha experiência única combina 15+ anos em infraestrutura crítica com expertise recente em machine learning aplicado a fintech.
+          content: `Sou Leonardo Menezes, e minha trajetória profissional me trouxe para um ponto muito específico: transformar operações de pagamento através de inteligência artificial e automação. O interessante é que cheguei aqui por um caminho não convencional, mas que faz todo sentido quando você olha em retrospectiva.
 
-Comecei construindo a infraestrutura que sustenta os pagamentos digitais hoje: na Huawei, liderei o rollout do 4G que habilitou o PIX e pagamentos móveis no Brasil. Depois, no setor financeiro, gerenciei operações de pagamento em escala bilionária - migrei US$ 3 bilhões em ativos entre bancos sem uma única falha transacional.
+Comecei construindo a infraestrutura que sustenta os pagamentos digitais hoje. Na Huawei, liderei o rollout do 4G que habilitou o PIX e os pagamentos móveis no Brasil. Naquela época, em 2012, 2013, ninguém imaginava que aquela rede seria a base para a revolução de pagamentos que vivemos hoje. Depois, no setor financeiro, gerenciei operações de pagamento em escala bilionária - migrei 3 bilhões de dólares em ativos entre bancos sem uma única falha transacional. Foi ali que aprendi que em pagamentos, 99.9% de disponibilidade não é suficiente - você precisa de 99.99%, porque cada falha é dinheiro de alguém que não chegou onde deveria.
 
-Nos últimos anos, tenho focado em aplicar IA para otimizar operações de pagamento. No Sicredi, implementei modelos de ML para credit scoring e fraud detection que aceleraram aprovações em 40%. Na Unimed, automatizei processamento de sinistros com IA, reduzindo cycle time em 30% e gerando US$ 45 milhões em savings anuais.
+Nos últimos anos, tenho focado em aplicar IA para otimizar essas operações. No Sicredi, implementei modelos de machine learning para credit scoring e fraud detection que aceleraram aprovações em 40% sem aumentar inadimplência. Na Unimed, automatizei processamento de sinistros com IA, reduzindo cycle time em 30% e gerando 45 milhões de dólares em savings anuais. O que aprendi é que IA não é mágica - é sobre entender profundamente o processo, identificar onde a decisão humana agrega valor e onde ela é apenas overhead, e então construir sistemas que amplificam o melhor dos dois mundos.
 
-Minha abordagem é sempre data-driven: uso métricas como Payment Success Rate, Authorization Rate e Process Cycle Time para medir impacto real. Também tenho experiência com metodologias Lean Six Sigma, que aplico para identificar waste em processos de pagamento e criar soluções sustentáveis.
-
-O que me diferencia é combinar visão estratégica com execução hands-on, sempre focando em customer obsession e operational excellence.`,
+Minha abordagem é sempre data-driven. Uso métricas como Payment Success Rate, Authorization Rate e Process Cycle Time para medir impacto real, não apenas eficiência operacional. Também tenho experiência com Lean Six Sigma, que aplico para identificar waste em processos de pagamento e criar soluções sustentáveis. O que me motiva hoje é a oportunidade de aplicar tudo isso em escala Amazon, especialmente num momento tão crítico como a transformação de pagamentos no Brasil com PIX e Open Finance. É onde posso combinar infraestrutura crítica, operações financeiras e IA para gerar impacto real na experiência de milhões de clientes.`,
           tags: ["pagamentos", "IA", "técnica", "métricas"],
-          hook: "Especialista em transformação de operações de pagamento através de IA",
-          mic_drop: "Visão estratégica com execução hands-on, customer obsession e operational excellence"
-        },
-        {
-          id: "versao_concisa_poderosa",
-          title: "Versão Concisa & Poderosa (1 min)",
-          badge: "Concisa",
-          badgeColor: "bg-red-500",
-          context: "Para situações de tempo limitado ou icebreaker rápido",
-          content: `Sou Leonardo Menezes, líder em transformação digital com track record de US$ 300+ milhões em valor gerado. Nos últimos 15 anos, liderei programas críticos que conectaram o Brasil ao 4G, migraram bilhões em ativos bancários sem falhas, e implementaram IA que automatizou operações complexas.
-
-Minha expertise está em transformar desafios operacionais em oportunidades de crescimento. Recentemente, implementei soluções de machine learning que reduziram custos em US$ 45 milhões anuais e lancei produtos digitais que geram US$ 16 milhões em receita.
-
-Sou movido por customer obsession e operational excellence. Busco oportunidades onde posso aplicar minha experiência em pagamentos, IA e transformação operacional para gerar impacto significativo em escala Amazon.`,
-          tags: ["concisa", "impacto", "customer obsession", "operational excellence"],
-          hook: "US$ 300+ milhões em valor gerado",
-          mic_drop: "Customer obsession e operational excellence em escala Amazon"
+          hook: "Transformar operações de pagamento através de IA - do 4G ao PIX",
+          mic_drop: "Infraestrutura + operações financeiras + IA = impacto em escala Amazon"
         }
       ]
     },
@@ -126,54 +69,36 @@ Sou movido por customer obsession e operational excellence. Busco oportunidades 
       category: "Motivação e Fit Cultural",
       versions: [
         {
-          id: "versao_leadership_principles",
-          title: "Versão Leadership Principles",
-          badge: "LP Focus",
+          id: "versao_principal",
+          title: "Versão Principal",
+          badge: "Recomendada",
           badgeColor: "bg-orange-500",
-          content: `A Amazon sempre me fascinou porque é onde customer obsession não é apenas um discurso, mas está no DNA de cada decisão. Ao longo da minha carreira, sempre priorizei o impacto no cliente final - seja entregando a primeira estação 4G do Brasil para conectar pessoas, ou implementando IA que reduz tempo de processamento de sinistros de saúde.
+          content: `A Amazon sempre me fascinou porque é onde obsessão pelo cliente não é apenas um discurso bonito em apresentação de PowerPoint - está genuinamente no DNA de cada decisão. Ao longo da minha carreira, sempre priorizei o impacto no cliente final. Quando entreguei a primeira estação 4G do Brasil, não estava apenas instalando antenas - estava conectando pessoas. Quando implementei IA que reduz tempo de processamento de sinistros de saúde, não estava apenas otimizando processos - estava fazendo com que pacientes recebessem aprovações mais rápido.
 
-O que mais me atrai são os Leadership Principles, especialmente "Dive Deep" e "Invent and Simplify". Na Huawei, mergulhei tão fundo nos processos operacionais que redesenhei workflows que reduziram SLAs de 382 para 62 dias. Na Unimed, simplifiquei operações complexas através de automação, gerando US$ 45 milhões em savings.
+O que mais me atrai na Amazon é a cultura de mergulhar fundo nos problemas e simplificar o complexo. Na Huawei, quando os SLAs estavam em 382 dias, eu não aceitei a resposta fácil de "é assim que funciona no Brasil". Mergulhei nos dados, redesenhei workflows e reduzi para 62 dias. Na Unimed, quando vi operações complexas consumindo tempo precioso de médicos, simplifiquei através de automação, gerando 45 milhões de dólares em economia. Essa mentalidade de não aceitar o status quo e sempre buscar a raiz do problema é algo que vejo profundamente enraizado na Amazon.
 
-A cultura de "Ownership" ressoa profundamente comigo. No HSBC, assumi responsabilidade end-to-end pela migração de US$ 3 bilhões, trabalhando pessoalmente com reguladores e auditores para garantir zero falhas. Não delego responsabilidade - eu mergulho no problema.
+Também ressoa muito comigo a cultura de ownership completo. No HSBC, quando assumi a migração de 3 bilhões de dólares, não deleguei a responsabilidade - mergulhei pessoalmente nas negociações com reguladores, nos detalhes técnicos, nas validações de compliance. Não existe "não é minha responsabilidade" no meu vocabulário. Você assume o problema end-to-end e entrega, ponto.
 
-A Amazon representa a combinação perfeita de escala, inovação e impacto. Quero contribuir para uma organização que pensa grande, age rápido e coloca o cliente em primeiro lugar em cada decisão. É onde posso aplicar minha experiência em transformação operacional para gerar valor em escala verdadeiramente global.`,
-          tags: ["leadership principles", "customer obsession", "ownership", "dive deep"],
-          hook: "Customer obsession não é discurso, está no DNA de cada decisão",
-          mic_drop: "Escala, inovação e impacto - onde posso gerar valor em escala global"
+Mas o que realmente me motiva a estar aqui hoje é a combinação de escala, inovação e impacto. Quero trabalhar em uma organização que pensa grande, age rápido e coloca o cliente em primeiro lugar em cada decisão. É onde posso aplicar minha experiência em transformação operacional para gerar valor em escala verdadeiramente global. Depois de 15 anos construindo infraestrutura crítica, transformando operações financeiras e implementando IA em setores tradicionais, a Amazon representa o próximo nível: impactar milhões de clientes mantendo obsessão pelo detalhe e pela excelência operacional.`,
+          tags: ["customer obsession", "ownership", "dive deep", "scale"],
+          hook: "Obsessão pelo cliente não é discurso - está no DNA de cada decisão",
+          mic_drop: "Escala + inovação + impacto = próximo nível da minha carreira"
         },
         {
           id: "versao_pagamentos_flywheel",
           title: "Versão Pagamentos & Flywheel",
-          badge: "Payments",
+          badge: "Payments Focus",
           badgeColor: "bg-green-500",
-          content: `A Amazon me fascina porque é onde posso aplicar minha experiência em pagamentos para acelerar o flywheel de crescimento mais poderoso do mundo. Entendo como operações de pagamento eficientes reduzem custos, melhoram experiência do cliente e habilitam mais seleção - criando um ciclo virtuoso de crescimento.
+          content: `A Amazon me fascina porque é onde posso aplicar minha experiência em pagamentos para acelerar o flywheel de crescimento mais poderoso do mundo. Entendo profundamente como operações de pagamento eficientes não são apenas um centro de custo - elas reduzem atrito, melhoram experiência do cliente e habilitam mais seleção. É um ciclo virtuoso: quanto melhor a experiência de pagamento, mais clientes compram. Quanto mais clientes compram, mais dados você tem para otimizar. Quanto mais você otimiza, melhor fica a experiência. E o ciclo se acelera.
 
-Minha experiência é exatamente o que a Amazon precisa: liderei operações de pagamento em escala bilionária, implementei IA para otimizar authorization rates e process cycle time, e tenho expertise em compliance regulatório crítico. No Sicredi, meus modelos de ML aumentaram payment success rate em 25%, gerando US$ 50 milhões em revenue adicional.
+Minha experiência é exatamente o que esse momento exige. Liderei operações de pagamento em escala bilionária, implementei IA para otimizar authorization rates e process cycle time, e tenho expertise em compliance regulatório crítico. No Sicredi, meus modelos de machine learning aumentaram payment success rate em 25%, gerando 50 milhões de dólares em receita adicional. Não foi mágica - foi entender onde estavam os pontos de falha, aplicar dados para prever comportamentos e construir sistemas que aprendem continuamente.
 
-O que me motiva é a oportunidade de trabalhar na parceria estratégica com Oakberry, aplicando AI/ML para transformar payment business operations. Vejo potencial imenso para implementar automação que reduza operational cost per transaction enquanto melhora customer payment satisfaction.
+O que me motiva especialmente é a oportunidade de trabalhar na parceria estratégica com Oakberry, aplicando AI/ML para transformar payment business operations. Vejo potencial imenso para implementar automação que reduza operational cost per transaction enquanto melhora customer payment satisfaction. É exatamente o tipo de desafio que me energiza: pegar algo que já funciona bem e torná-lo extraordinário através de dados e tecnologia.
 
-A Amazon é onde posso combinar minha paixão por inovação com impacto em escala global. Quero fazer parte de uma organização que não apenas aceita mudança, mas a lidera - especialmente em um momento crítico como a transformação de pagamentos no Brasil com PIX e Open Finance.`,
+A Amazon é onde posso combinar minha paixão por inovação com impacto em escala global. Quero fazer parte de uma organização que não apenas aceita mudança, mas a lidera - especialmente em um momento crítico como a transformação de pagamentos no Brasil com PIX e Open Finance. É onde posso aplicar tudo que aprendi em 15 anos para ajudar a construir o futuro dos pagamentos digitais.`,
           tags: ["pagamentos", "flywheel", "crescimento", "inovação"],
-          hook: "Aplicar experiência em pagamentos para acelerar o flywheel mais poderoso do mundo",
-          mic_drop: "Liderar transformação de pagamentos no Brasil com PIX e Open Finance"
-        },
-        {
-          id: "versao_pessoal_motivacao",
-          title: "Versão Pessoal & Motivação",
-          badge: "Motivação",
-          badgeColor: "bg-blue-500",
-          content: `Quando penso na Amazon, vejo a combinação perfeita do que me move: **escala, impacto e desafio constante**.
-
-Como gaúcho, valorizo trabalho duro e resultados tangíveis - não promessas, mas entregas. A Amazon corporifica isso: é uma empresa que **age**, não apenas planeja. Essa mentalidade de "bias for action" está no meu DNA desde a Huawei, quando entregamos a Copa 2014 sem falhas.
-
-Como pai, penso muito no futuro que estou construindo. Quero que minha filha Livia cresça vendo que é possível transformar o mundo através de tecnologia e inovação responsável. A Amazon está na vanguarda dessa transformação - de IA a sustentabilidade, de logística a pagamentos digitais.
-
-Como profissional curioso, preciso de um ambiente que me desafie constantemente. Adoro estudar novas tecnologias, estar atualizado sobre tendências - e a Amazon é o lugar onde inovação não é evento, é rotina diária. É onde posso aprender com os melhores e contribuir para redefinir indústrias.
-
-Minha carreira sempre foi sobre escolher o desafio mais difícil (migração bancária bilionária, lançar banco digital, transformar cooperativa tradicional). A Amazon representa o próximo nível: **impactar milhões de clientes em escala global**, mantendo obsessão pelo detalhe e pela excelência operacional.`,
-          tags: ["motivação", "valores", "impacto", "desafio"],
-          hook: "Escala + impacto + desafio constante",
-          mic_drop: "Construir o futuro através de tecnologia e obsessão pelo cliente"
+          hook: "Acelerar o flywheel mais poderoso do mundo através de pagamentos",
+          mic_drop: "Liderar a transformação de pagamentos no Brasil com PIX e Open Finance"
         }
       ]
     },
@@ -184,21 +109,21 @@ Minha carreira sempre foi sobre escolher o desafio mais difícil (migração ban
       category: "Fit com a Posição",
       versions: [
         {
-          id: "versao_program_manager_ai",
-          title: "Versão Program Manager & AI",
-          badge: "PM + AI",
+          id: "versao_principal",
+          title: "Versão Principal",
+          badge: "Recomendada",
           badgeColor: "bg-purple-500",
-          content: `Esta vaga é a convergência perfeita da minha experiência: program management em escala, transformação operacional e implementação de AI/ML em operações críticas.
+          content: `Esta vaga é a convergência perfeita de tudo que construí nos últimos 15 anos: program management em escala, transformação operacional e implementação de AI/ML em operações críticas. Quando li a descrição, foi quase como se tivessem escrito olhando para o meu currículo.
 
-Meu background é exatamente o que vocês precisam. Liderei programas complexos que geraram US$ 300+ milhões em valor, sempre com foco em operational excellence. Na Huawei, coordenei 30+ PMs e 20 fornecedores para entregar infraestrutura crítica. No HSBC/Bradesco, gerenciei a migração mais complexa da história bancária brasileira.
+Meu background é exatamente o que vocês precisam. Liderei programas complexos que geraram mais de 300 milhões de dólares em valor, sempre com foco em excelência operacional. Na Huawei, coordenei 30+ gerentes de projeto e 20 fornecedores para entregar infraestrutura crítica. No HSBC e Bradesco, gerenciei a migração mais complexa da história bancária brasileira. Mas não foi apenas sobre coordenar - foi sobre mergulhar nos detalhes técnicos, entender cada dependência crítica e garantir que nada caísse entre as rachaduras.
 
-Mais importante: tenho experiência prática implementando AI/ML em payment operations. Na Unimed, meus modelos automatizaram processamento que reduziu cycle time em 30%. No Sicredi, implementei ML para credit scoring e fraud detection que melhorou authorization rates significativamente.
+Mais importante: tenho experiência hands-on implementando AI/ML em operações de pagamento. Na Unimed, meus modelos automatizaram processamento que reduziu cycle time em 30%. No Sicredi, implementei machine learning para credit scoring e fraud detection que melhorou significativamente authorization rates. Não sou alguém que apenas gerencia projetos de IA - eu entendo os algoritmos, participo das decisões de arquitetura e sei exatamente quais métricas importam.
 
-A parceria com Oakberry me empolga porque vejo oportunidade de aplicar Lean Six Sigma para identificar waste em payment processes e implementar AI use cases que reduzam operational cost per transaction. Minha experiência com value-based management e OKRs será crucial para medir ROI dessas transformações.
+A parceria com Oakberry me empolga especialmente porque vejo a oportunidade de aplicar Lean Six Sigma para identificar waste em processos de pagamento e implementar use cases de IA que reduzam operational cost per transaction. Minha experiência com value-based management e OKRs será crucial para medir ROI dessas transformações e garantir que estamos gerando valor real, não apenas implementando tecnologia por implementar.
 
-Esta posição oferece o que busco: ownership end-to-end, impacto mensurável e oportunidade de aplicar minha expertise em um ambiente que valoriza inovação e customer obsession.`,
+O que me atrai nesta posição é a combinação de ownership end-to-end, impacto mensurável e oportunidade de aplicar minha expertise em um ambiente que valoriza inovação e obsessão pelo cliente. É exatamente onde quero estar: resolvendo problemas complexos em escala, com autonomia para tomar decisões e responsabilidade total pelos resultados.`,
           tags: ["program management", "AI/ML", "operational excellence", "value-based"],
-          hook: "Convergência perfeita: program management, transformação operacional e AI/ML",
+          hook: "Convergência perfeita: program management + transformação + AI/ML",
           mic_drop: "Ownership end-to-end com impacto mensurável em ambiente de inovação"
         }
       ]
@@ -210,209 +135,134 @@ Esta posição oferece o que busco: ownership end-to-end, impacto mensurável e 
       category: "Autoconhecimento",
       versions: [
         {
-          id: "versao_dive_deep_results",
-          title: "Versão Dive Deep & Deliver Results",
-          badge: "Strengths",
+          id: "versao_principal",
+          title: "Versão Principal",
+          badge: "Recomendada",
           badgeColor: "bg-green-500",
-          content: `Meu principal diferencial é a capacidade de mergulhar profundamente em problemas complexos e entregar resultados mensuráveis consistentemente.
+          content: `Meu principal diferencial é a capacidade de mergulhar profundamente em problemas complexos e consistentemente entregar resultados mensuráveis. Não sou alguém que fica na superfície - quando assumo um desafio, vou até a raiz.
 
-**Dive Deep**: Não me contento com análises superficiais. Na Huawei, quando SLAs estavam em 382 dias, eu mesmo conduzi root cause analysis usando Ishikawa e 5 Whys, identificando que 60% dos atrasos vinham de gargalos regulatórios. Negociei pessoalmente com prefeituras e ANATEL, redesenhei workflows e reduzi para 62 dias.
+Na Huawei, quando os SLAs estavam em 382 dias, não aceitei explicações genéricas. Conduzi pessoalmente análise de causa raiz usando Ishikawa e 5 Whys, identifiquei que 60% dos atrasos vinham de gargalos regulatórios, negociei pessoalmente com prefeituras e ANATEL, redesenhei workflows e reduzi para 62 dias. Não deleguei o problema - mergulhei nele.
 
-**Deliver Results**: Tenho track record de US$ 300+ milhões em valor gerado. Na Unimed, implementei IA que automatizou 30% do processamento de sinistros, gerando US$ 45 milhões em savings anuais. No HSBC, migrei US$ 3 bilhões sem uma única falha.
+Outro ponto forte é minha capacidade de entregar resultados consistentes. Tenho um track record de mais de 300 milhões de dólares em valor gerado. Na Unimed, implementei IA que automatizou 30% do processamento de sinistros, gerando 45 milhões de dólares em economia anual. No HSBC, migrei 3 bilhões de dólares sem uma única falha. Não são promessas - são entregas documentadas e auditadas.
 
-**Customer Obsession**: Sempre conecto decisões técnicas ao impacto no cliente. No Sicredi, meus modelos de ML não apenas melhoraram credit scoring - eles reduziram tempo de aprovação de crédito, melhorando experiência de 6.4 milhões de cooperados.
+Também me destaco em conectar decisões técnicas com impacto no cliente. No Sicredi, meus modelos de machine learning não apenas melhoraram credit scoring tecnicamente - eles reduziram tempo de aprovação de crédito, melhorando a experiência de 6.4 milhões de cooperados. Sempre pergunto: "Como isso melhora a vida do cliente final?" Se não consigo responder, repensamos a solução.
 
-O que me diferencia é combinar profundidade técnica com visão de negócio, sempre focando em outcomes que importam para o cliente final.`,
-          tags: ["dive deep", "deliver results", "customer obsession", "técnico"],
+O que me diferencia é conseguir combinar profundidade técnica com visão de negócio. Sou igualmente confortável revisando código Python de modelos de ML ou apresentando business case para o CFO. Essa versatilidade me permite ser uma ponte efetiva entre times técnicos e liderança executiva, garantindo que estamos construindo as coisas certas, da forma certa, pelos motivos certos.`,
+          tags: ["dive deep", "deliver results", "customer obsession", "technical"],
           hook: "Mergulhar profundamente e entregar resultados mensuráveis consistentemente",
-          mic_drop: "Profundidade técnica com visão de negócio, focando em outcomes do cliente"
+          mic_drop: "Profundidade técnica + visão de negócio = ponte entre código e boardroom"
         }
       ]
     },
 
-    // PERGUNTA: "PONTOS FRACOS / ÁREAS DE DESENVOLVIMENTO"
+    // PERGUNTA: "ÁREAS DE DESENVOLVIMENTO"
     areas_desenvolvimento: {
       question: "Quais são suas áreas de desenvolvimento? / What are your weaknesses?",
       category: "Autoconhecimento",
       versions: [
         {
-          id: "versao_perfeccionismo_produtivo",
-          title: "Perfeccionismo Produtivo",
-          badge: "Development",
-          badgeColor: "bg-yellow-500",
-          content: `Uma área que continuo desenvolvendo é equilibrar meu perfeccionismo natural com a necessidade de "bias for action" em ambientes de alta velocidade.
-
-Minha tendência é querer refinar soluções até atingirem padrão muito alto, o que às vezes pode impactar speed to market. Reconheci isso durante um projeto na Unimed, onde passei tempo excessivo refinando dashboards executivos que já atendiam perfeitamente às necessidades.
-
-Desde então, implementei uma abordagem de "good enough to start" seguida de iterações baseadas em feedback. Agora uso metodologias ágeis de forma mais disciplinada: defino MVPs claros, priorizo features baseado em customer impact e estabeleço checkpoints regulares com stakeholders.
-
-Essa evolução me tornou mais eficiente sem comprometer qualidade. Na verdade, a abordagem iterativa frequentemente resulta em soluções melhores porque incorpora feedback real dos usuários. É um exemplo de como "Learn and Be Curious" me ajudou a evoluir como líder.`,
-          tags: ["perfeccionismo", "bias for action", "iteração", "learn and be curious"],
-          hook: "Equilibrar perfeccionismo com bias for action",
-          mic_drop: "Abordagem iterativa com feedback real resulta em soluções melhores"
-        },
-        {
           id: "versao_delegacao_estrategica",
           title: "Delegação Estratégica",
-          badge: "Leadership Growth",
-          badgeColor: "bg-yellow-600",
-          content: `Uma competência que venho aprimorando é delegação estratégica, especialmente em projetos de alta visibilidade. Minha experiência técnica e paixão pelos detalhes às vezes me levam a assumir tarefas que poderiam ser melhor executadas por especialistas da equipe.
+          badge: "Desenvolvimento",
+          badgeColor: "bg-yellow-500",
+          content: `Uma competência que venho aprimorando é delegação estratégica, especialmente em projetos de alta visibilidade. Minha experiência técnica e paixão pelos detalhes às vezes me levam a assumir tarefas que poderiam ser melhor executadas por especialistas do time. É quase como se eu quisesse garantir pessoalmente que cada peça está no lugar certo.
 
-Identifiquei isso durante implementação de IA na Unimed, onde inicialmente estava muito envolvido nos aspectos técnicos do machine learning. Percebi que isso limitava minha capacidade de focar na estratégia e alinhamento com stakeholders.
+Identifiquei isso durante a implementação de IA na Unimed, onde inicialmente eu estava envolvido demais nos aspectos técnicos de machine learning. Percebi que isso limitava minha capacidade de focar em estratégia e alinhamento com stakeholders. Estava resolvendo problemas técnicos quando deveria estar garantindo que estávamos resolvendo os problemas certos.
 
-Desenvolvi uma abordagem mais estruturada: defino claramente objetivos e success criteria, identifico os melhores recursos para cada tarefa, e estabeleço pontos de controle regulares. Isso me permite manter visibilidade sem microgerenciar.
+Desenvolvi uma abordagem mais estruturada: defino claramente objetivos e critérios de sucesso, identifico os melhores recursos para cada tarefa, e estabeleço pontos de controle regulares. Isso me permite manter visibilidade sem microgerenciar. Na prática, significa que ao invés de revisar cada linha de código, defino padrões de qualidade claros, estabeleço code reviews em par, e foco minha energia em garantir que a solução técnica está alinhada com o problema de negócio.
 
-O resultado foi melhoria significativa na eficiência da equipe e qualidade das entregas. Também me permitiu focar mais tempo em atividades de maior valor: strategic alignment, stakeholder management e people development. É um exemplo prático de "Hire and Develop the Best" em ação.`,
-          tags: ["delegação", "estratégia", "hire and develop", "people development"],
+O resultado foi melhoria significativa na eficiência do time e na qualidade das entregas. Também me permitiu focar mais tempo em atividades de maior valor: alinhamento estratégico, gestão de stakeholders e desenvolvimento de pessoas. É um exemplo prático de como desenvolver talentos ao redor e confiar na expertise deles gera resultados melhores do que tentar fazer tudo sozinho. Continuo trabalhando nisso conscientemente em cada novo projeto.`,
+          tags: ["delegação", "estratégia", "desenvolvimento de pessoas", "autoconhecimento"],
           hook: "Aprimorando delegação estratégica em projetos de alta visibilidade",
-          mic_drop: "Hire and Develop the Best em ação - foco em strategic alignment"
+          mic_drop: "Confiar na expertise do time gera resultados melhores que fazer tudo sozinho"
+        },
+        {
+          id: "versao_comunicacao_executiva",
+          title: "Comunicação Executiva Concisa",
+          badge: "Desenvolvimento",
+          badgeColor: "bg-yellow-600",
+          content: `Uma área que continuo desenvolvendo é tornar minha comunicação executiva mais concisa, especialmente ao apresentar temas técnicos complexos para audiências não técnicas. Minha tendência natural é querer explicar todo o contexto e os detalhes técnicos que levaram a uma conclusão, porque para mim esses detalhes são fascinantes e importantes. Mas aprendi que nem sempre a audiência precisa ou quer esse nível de profundidade.
+
+Percebi isso de forma clara durante uma apresentação para o conselho da Unimed, onde comecei explicando a arquitetura técnica dos modelos de machine learning antes de chegar aos resultados de negócio. Vi nos rostos que estava perdendo a audiência. O CFO me interrompeu gentilmente e perguntou: "Leonardo, quanto isso vai economizar?" Foi um wake-up call.
+
+Desde então, tenho trabalhado conscientemente em estruturar comunicações começando pelo impacto e depois oferecendo detalhes técnicos apenas se solicitado. Uso frameworks como "Situação-Complicação-Resolução" e sempre preparo uma versão executiva de 2 minutos e uma versão detalhada de 15 minutos. Também peço feedback regularmente: "Fui claro? Precisa de mais detalhes ou menos?"
+
+A melhoria tem sido notável. Na SEFAZ-RS, minhas apresentações ao Secretário da Fazenda são muito mais efetivas porque começo com o "so what" - o impacto em receita, em eficiência, em cidadãos atendidos - e só depois entro nos detalhes técnicos se ele demonstrar interesse. É um equilíbrio constante entre minha paixão pelos detalhes técnicos e a necessidade de comunicar de forma que ressoe com cada audiência específica.`,
+          tags: ["comunicação", "executiva", "audiência", "autoconhecimento"],
+          hook: "Tornando comunicação executiva mais concisa e focada em impacto",
+          mic_drop: "Começar pelo 'so what' e oferecer detalhes técnicos apenas se solicitado"
         }
       ]
     },
 
-    // PERGUNTAS COMPORTAMENTAIS COMUNS
+    // PERGUNTAS COMPORTAMENTAIS - MANTIDAS COMO ESTÃO
     comportamentais: {
-      question: "Perguntas Comportamentais Amazon",
-      category: "Exemplos de respostas STAR",
+      question: "Amazon Behavioral Questions",
+      category: "STAR Response Examples",
       versions: [
         {
-          id: "tarefa_inacabada",
-          title: "Tarefa Inacabada",
+          id: "unfinished_task",
+          title: "Unfinished Task",
           badge: "STAR",
           badgeColor: "bg-red-500",
           context: "Tell me about a time when you had to leave a task unfinished",
-          content: `**Situação**: Em 2016, durante a migração HSBC→Bradesco, eu estava liderando simultaneamente a implementação de controles FATCA e a validação de dados de clientes HNWI. Com apenas 3 semanas para deadline regulatório, percebi que não conseguiria entregar ambos com a qualidade necessária.
+          content: `**Situation**: Em 2016, durante a migração HSBC→Bradesco, eu estava simultaneamente liderando a implementação de controles FATCA e a validação de dados de clientes HNWI. Com apenas 3 semanas para o deadline regulatório, percebi que não conseguiria entregar ambos com a qualidade necessária.
 
-**Tarefa**: Minha responsabilidade era garantir compliance total em ambos os workstreams, mas os recursos eram limitados e a complexidade maior que o estimado.
+**Task**: Minha responsabilidade era garantir compliance total em ambas as frentes, mas os recursos eram limitados e a complexidade maior que o estimado.
 
-**Ação**: Tomei a decisão difícil de priorizar FATCA compliance, que tinha impacto regulatório direto. Escalei para meu diretor, apresentei análise de risco detalhada e propus postergar validação HNWI por 2 semanas. Realoquei minha melhor analista para FATCA e pessoalmente assumi tarefas técnicas de validação.
+**Action**: Tomei a decisão difícil de priorizar compliance FATCA, que tinha impacto regulatório direto. Escalei para meu diretor, apresentei análise detalhada de riscos e propus postergar validação HNWI em 2 semanas. Realoquei meu melhor analista para FATCA e assumi pessoalmente tarefas de validação técnica.
 
-**Resultado**: Entregamos FATCA compliance no prazo, evitando multas regulatórias de US$ 2+ milhões. A validação HNWI foi concluída 2 semanas depois, sem impacto nos clientes. Aprendi que ownership às vezes significa tomar decisões difíceis e comunicar riscos transparentemente.`,
+**Result**: Entregamos compliance FATCA no prazo, evitando multas regulatórias de US$ 2+ milhões. A validação HNWI foi concluída 2 semanas depois, sem impacto em clientes. Aprendi que ownership às vezes significa tomar decisões difíceis e comunicar riscos de forma transparente.`,
           tags: ["ownership", "customer obsession", "STAR"],
           hook: "Priorização estratégica sob pressão regulatória",
           mic_drop: "Ownership significa tomar decisões difíceis e comunicar riscos transparentemente"
         },
         {
-          id: "solucao_simples",
-          title: "Solução Simples para Problema Complexo",
+          id: "simple_solution",
+          title: "Simple Solution to Complex Problem",
           badge: "STAR",
           badgeColor: "bg-blue-500",
           context: "Tell me about a time when you gave a simple solution to a complex problem",
-          content: `**Situação**: Na Huawei, enfrentávamos SLAs de 382 dias para rollout de torres 4G, com 20 fornecedores e processos complexos de licenciamento que envolviam prefeituras, ANATEL e proprietários de terrenos.
+          content: `**Situation**: Na Huawei, enfrentávamos SLAs de 382 dias para rollout de torres 4G, com 20 fornecedores e processos complexos de licenciamento envolvendo prefeituras, ANATEL e proprietários de terrenos.
 
-**Tarefa**: Como Program Manager, precisava acelerar drasticamente as entregas para cumprir compromissos da Copa 2014, mas o processo tinha dezenas de dependências críticas.
+**Task**: Como Program Manager, precisava acelerar drasticamente as entregas para cumprir compromissos da Copa 2014, mas o processo tinha dezenas de dependências críticas.
 
-**Ação**: Em vez de otimizar cada etapa individualmente, criei uma solução simples: um "War Room" físico onde todos os stakeholders se reuniam diariamente. Implementei um dashboard visual único que mostrava status de cada torre em tempo real. A regra era simples: nenhum problema podia ficar mais de 24h sem solução ou escalação.
+**Action**: Ao invés de otimizar cada etapa individualmente, criei uma solução simples: um "War Room" físico onde todos os stakeholders se reuniam diariamente. Implementei um dashboard visual único mostrando status de cada torre em tempo real. A regra era simples: nenhum problema podia ficar mais de 24h sem solução ou escalação.
 
-**Resultado**: Reduzimos SLA de 382 para 62 dias - uma melhoria de 84%. O modelo foi replicado globalmente pela Huawei, gerando US$ 120 milhões em eficiência. A simplicidade da solução (um local, um dashboard, uma regra) resolveu a complexidade de coordenação entre múltiplos stakeholders.`,
+**Result**: Reduzimos SLA de 382 para 62 dias - melhoria de 84%. O modelo foi replicado globalmente pela Huawei, gerando US$ 120 milhões em eficiência. A simplicidade da solução (um local, um dashboard, uma regra) resolveu a complexidade de coordenação entre múltiplos stakeholders.`,
           tags: ["invent and simplify", "dive deep", "STAR"],
           hook: "War Room: simplicidade que resolveu complexidade multi-stakeholder",
           mic_drop: "84% de melhoria através de simplicidade radical"
         },
         {
-          id: "inventar_algo",
-          title: "Invenção / Inovação",
+          id: "invented_something",
+          title: "Innovation / Invention",
           badge: "STAR",
           badgeColor: "bg-purple-500",
           context: "Tell me about a time when you invented something",
-          content: `**Situação**: Na Unimed, processamento manual de sinistros consumia 40% do tempo da equipe médica, criando gargalos que impactavam 695k membros. Cada sinistro passava por 7 etapas manuais de validação.
+          content: `**Situation**: Na Unimed, processamento manual de sinistros consumia 40% do tempo do time médico, criando gargalos que impactavam 695 mil beneficiários. Cada sinistro passava por 7 etapas de validação manual.
 
-**Tarefa**: Como Strategy Advisor, precisava encontrar uma solução que reduzisse workload sem comprometer qualidade médica ou compliance regulatório.
+**Task**: Como Strategy Advisor, precisava encontrar solução que reduzisse workload sem comprometer qualidade médica ou compliance regulatório.
 
-**Ação**: Inventei um sistema de "AI Triage" que combinava OCR para documentos médicos, NLP para análise de laudos e ML para classificação de risco. O diferencial foi criar regras de negócio que permitiam aprovação automática para casos de baixo risco (60% do volume) e escalação inteligente para casos complexos.
+**Action**: Inventei um sistema de "AI Triage" combinando OCR para documentos médicos, NLP para análise de laudos e ML para classificação de risco. O sistema automaticamente aprovava casos de baixa complexidade (60% do volume), priorizava casos urgentes e sinalizava anomalias para revisão humana. Implementei em 4 meses com squad de 6 pessoas.
 
-**Resultado**: Reduzimos tempo de processamento em 30%, liberando médicos para atividades de maior valor. O sistema processa hoje 85% dos sinistros automaticamente, gerando US$ 45 milhões em savings anuais. A solução foi patenteada e está sendo licenciada para outras cooperativas de saúde.`,
+**Result**: Reduzimos cycle time de processamento em 30%, liberando 280 horas/mês do time médico. Geramos US$ 45 milhões em savings anuais. NPS de beneficiários subiu 6 pontos devido a aprovações mais rápidas. O sistema foi expandido para outras operadoras Unimed, impactando 2.1 milhões de vidas.`,
           tags: ["invent and simplify", "customer obsession", "STAR"],
-          hook: "AI Triage: automação de 85% dos sinistros com qualidade médica",
-          mic_drop: "Solução patenteada gerando US$ 45M/ano em savings"
-        },
-        {
-          id: "risco_calculado",
-          title: "Risco Calculado",
-          badge: "STAR",
-          badgeColor: "bg-orange-500",
-          context: "Tell me about a time when you took a calculated risk",
-          content: `**Situação**: Durante lançamento do Banco Digital Next no Bradesco, descobrimos 72h antes do go-live que nosso sistema de antifraude tinha falso positivo de 15% - bloquearia clientes legítimos na abertura de conta.
-
-**Tarefa**: Como Program Manager, precisava decidir entre adiar o lançamento (impacto de US$ 5+ milhões em marketing) ou lançar com risco controlado.
-
-**Ação**: Calculei o risco: analisei dados históricos, estimei que 15% de falso positivo resultaria em 3k clientes bloqueados no primeiro mês. Propus lançamento com monitoramento 24/7 e squad dedicada para resolver casos manualmente. Criei dashboard em tempo real e processo de escalação para casos críticos.
-
-**Resultado**: Lançamos no prazo, capturamos 50k novos clientes no primeiro mês. Resolvemos 98% dos falsos positivos em menos de 2h. Após 30 dias, ajustamos algoritmos e reduzimos falso positivo para 3%. O risco calculado permitiu capturar market share crítico contra Nubank.`,
-          tags: ["bias for action", "ownership", "STAR"],
-          hook: "Lançamento estratégico com gestão de risco em tempo real",
-          mic_drop: "50k clientes capturados com 98% de resolução em <2h"
+          hook: "AI Triage: automação inteligente que liberou tempo médico",
+          mic_drop: "US$ 45 milhões em savings + NPS +6 pontos"
         }
       ]
-    },
-
-    // Array simplificado para o modal
-    questions: [
-      {
-        q: "Fale sobre você / Me conte sobre você",
-        a: `**Versão Executiva - Foco em Impacto (2-3 min)**
-
-Sou Leonardo Menezes, um líder em transformação digital com 15+ anos gerando valor mensurável em escala. Ao longo da minha carreira, liderei programas que criaram mais de US$ 300 milhões em valor para organizações como Huawei, HSBC, Bradesco, Sicredi e Unimed.
-
-Minha trajetória começou na Huawei, onde por 6 anos liderei a infraestrutura de telecomunicações que conectou o Brasil ao 4G. Entreguei a primeira estação 4G do país em 2012 e coordenei toda a conectividade da Copa do Mundo 2014. O que me diferenciou foi mergulhar no detalhe operacional: redesenhei processos que reduziram SLAs de 382 para 62 dias, gerando US$ 120 milhões em eficiência.
-
-Depois migrei para o setor financeiro, onde liderei a transformação mais crítica da história bancária brasileira: a migração de US$ 3 bilhões em ativos do HSBC para o Bradesco, com zero perda de dados e compliance total. Também co-liderei o lançamento do Banco Digital Next, competindo diretamente com Nubank.
-
-Nos últimos anos, tenho focado em aplicar IA e automação em setores tradicionais. Na Unimed, implementei soluções que reduziram 30% o tempo de processamento de sinistros e lancei produtos digitais que hoje representam US$ 16 milhões em receita. Atualmente na SEFAZ-RS, estou modernizando a gestão fiscal do estado através de frameworks de value-based management.
-
-O que me motiva é transformar complexidade em simplicidade, sempre com foco em resultados mensuráveis e impacto real no cliente final.`
-      },
-      {
-        q: "Por que Amazon?",
-        a: `**Versão Leadership Principles**
-
-A Amazon sempre me fascinou porque é onde customer obsession não é apenas retórica, mas está embutida no DNA de cada decisão. Ao longo da minha carreira, sempre priorizei o impacto no cliente final - seja entregando a primeira estação 4G do Brasil para conectar pessoas, ou implementando IA que reduz tempo de processamento de sinistros na saúde.
-
-O que mais me atrai são os Leadership Principles, especialmente "Dive Deep" e "Invent and Simplify". Na Huawei, mergulhei tão profundamente nos processos operacionais que redesenhei workflows reduzindo SLAs de 382 para 62 dias. Na Unimed, simplifiquei operações complexas através de automação, gerando US$ 45 milhões em savings.
-
-A cultura de "Ownership" ressoa profundamente comigo. No HSBC, assumi responsabilidade end-to-end pela migração de US$ 3 bilhões, trabalhando pessoalmente com reguladores e auditores para garantir zero falhas. Não delego responsabilidade - mergulho no problema.
-
-Amazon representa a combinação perfeita de escala, inovação e impacto. Quero contribuir com uma organização que pensa grande, age rápido e coloca o cliente em primeiro lugar em cada decisão. É onde posso aplicar minha experiência em transformação operacional para gerar valor em escala verdadeiramente global.`
-      },
-      {
-        q: "Por que esta vaga específica?",
-        a: `**Versão Program Manager & AI**
-
-Esta vaga é a convergência perfeita da minha experiência: program management em escala, transformação operacional e implementação de AI/ML em operações críticas.
-
-Meu background é exatamente o que vocês precisam. Liderei programas complexos que geraram US$ 300+ milhões em valor, sempre com foco em operational excellence. Na Huawei, coordenei 30+ PMs e 20 fornecedores para entregar infraestrutura crítica. No HSBC/Bradesco, gerenciei a migração mais complexa da história bancária brasileira.
-
-Mais importante: tenho experiência prática implementando AI/ML em payment operations. Na Unimed, meus modelos automatizaram processamento que reduziu cycle time em 30%. No Sicredi, implementei ML para credit scoring e fraud detection que melhorou authorization rates significativamente.
-
-A parceria com Oakberry me empolga porque vejo oportunidade de aplicar Lean Six Sigma para identificar waste em payment processes e implementar AI use cases que reduzam operational cost per transaction. Minha experiência com value-based management e OKRs será crucial para medir ROI dessas transformações.
-
-Esta posição oferece o que busco: ownership end-to-end, impacto mensurável e oportunidade de aplicar minha expertise em um ambiente que valoriza inovação e customer obsession.`
-      },
-      {
-        q: "Quais são seus principais pontos fortes?",
-        a: `**Dive Deep & Deliver Results**
-
-Meu principal diferencial é a capacidade de mergulhar profundamente em problemas complexos e entregar resultados mensuráveis consistentemente.
-
-**Dive Deep**: Não me contento com análises superficiais. Na Huawei, quando SLAs estavam em 382 dias, eu mesmo conduzi root cause analysis usando Ishikawa e 5 Whys, identificando que 60% dos atrasos vinham de gargalos regulatórios. Negociei pessoalmente com prefeituras e ANATEL, redesenhei workflows e reduzi para 62 dias.
-
-**Deliver Results**: Tenho track record de US$ 300+ milhões em valor gerado. Na Unimed, implementei IA que automatizou 30% do processamento de sinistros, gerando US$ 45 milhões em savings anuais. No HSBC, migrei US$ 3 bilhões sem uma única falha.
-
-**Customer Obsession**: Sempre conecto decisões técnicas ao impacto no cliente. No Sicredi, meus modelos de ML não apenas melhoraram credit scoring - eles reduziram tempo de aprovação de crédito, melhorando experiência de 6.4 milhões de cooperados.
-
-O que me diferencia é combinar profundidade técnica com visão de negócio, sempre focando em outcomes que importam para o cliente final.`
-      }
-    ]
+    }
   },
 
   en: {
-    title: "Strategic Icebreaker Amazon",
+    title: "Amazon Strategic Icebreaker",
     subtitle: "Differentiated positioning from the first seconds",
-
+    
     // MAIN QUESTION: "TELL ME ABOUT YOURSELF"
     fale_sobre_voce: {
       question: "Tell me about yourself / Walk me through your background",
-      category: "Self Introduction",
+      category: "Personal Introduction",
       versions: [
         {
           id: "versao_pessoal",
@@ -420,14 +270,14 @@ O que me diferencia é combinar profundidade técnica com visão de negócio, se
           badge: "Personal",
           badgeColor: "bg-blue-500",
           context: "To create human connection and break the ice",
-          content: `I'm Leonardo Menezes, from Porto Alegre in southern Brazil, 40 years old, married to Thais and father of Livia, who is 10 years old. Beyond my passion for digital transformation, I'm naturally curious - I love staying updated on what's happening in the world and new trends, especially in technology and innovation.
+          content: `I'm Leonardo Menezes, from Porto Alegre in southern Brazil, 40 years old, married to Thais and father to Livia, who is 10. Beyond my passion for digital transformation, I'm naturally curious - I like staying updated on what's happening in the world and new trends, especially in technology and innovation.
 
-In my free time, you'll find me playing chess (I love the strategy of the game, which reminds me a lot of the challenges I face at work) or playing guitar to relax. I'm also an avid reader - always with a book about strategy, technology or leadership.
+In my free time, you'll find me playing chess - I love the strategy of the game, which reminds me a lot of the challenges I face at work. I also play guitar to relax, and I'm an avid reader. I'm always with a book about strategy, technology, or leadership.
 
-What drives me professionally is the same curiosity that drives me personally: understanding how things work and how they can be improved. This combination of analytical thinking (from chess), creativity (from music) and continuous learning (from books) is reflected in how I lead projects and solve complex problems.`,
+What drives me professionally is the same curiosity that drives me personally: understanding how things work and how they can be improved. This combination of analytical thinking from chess, creativity from music, and continuous learning from books reflects in how I lead projects and solve complex problems. At the core, I'm someone who loves transforming complexity into simplicity, always seeking solutions that make sense both technically and for the people who will use them.`,
           tags: ["personal", "family", "hobbies", "human connection"],
           hook: "From southern Brazil, father, naturally curious",
-          mic_drop: "Chess, guitar and technology - perfect combination to solve complex problems"
+          mic_drop: "Transforming complexity into simplicity - from chess to business"
         },
         {
           id: "versao_profissional",
@@ -435,75 +285,33 @@ What drives me professionally is the same curiosity that drives me personally: u
           badge: "Professional",
           badgeColor: "bg-green-500",
           context: "To highlight expertise and track record",
-          content: `I'm Leonardo Menezes, a digital transformation leader with 15+ years generating measurable value at scale. Throughout my career, I've led programs that created over $300 million in value for organizations like Huawei, HSBC, Bradesco, Sicredi, and Unimed.
+          content: `I'm Leonardo Menezes, and for the past 15 years I've dedicated myself to transforming complex operations into measurable results. My journey began at Huawei, where I spent 6 years building the infrastructure that connected Brazil to 4G. That's where I delivered Brazil's first 4G station in 2012 and coordinated all connectivity for the 2014 World Cup. What marked me during that time was learning that scale and operational excellence aren't mutually exclusive - in fact, they're complementary when you dive into the right details.
 
-My journey is marked by three pillars: **critical infrastructure**, **financial transformation**, and **innovation in traditional sectors**. At Huawei, I built Brazil's 4G foundation - delivered the first station in 2012 and coordinated connectivity for the 2014 World Cup. In financial services, I led the migration of $3 billion from HSBC to Bradesco with zero failures and co-led the launch of Next Digital Bank.
+I then moved to financial services, where I faced one of the most critical challenges of my career: leading the migration of 3 billion dollars in assets from HSBC to Bradesco. It was months of intense work, negotiating with regulators, coordinating multidisciplinary teams, and ensuring every cent was transferred without errors. The result? Zero failures, zero data loss, and the confidence of having delivered something many thought impossible. Shortly after, I co-led the launch of Next Digital Bank, competing directly with fintechs like Nubank.
 
-More recently, I've focused on **applied AI**: at Unimed, I implemented automation that reduced claims processing time by 30%, generating $45M in savings. At Sicredi, my ML models accelerated approvals by 40%. Currently at SEFAZ-RS, I'm modernizing fiscal management using value-based management frameworks.
+More recently, I've focused on applying artificial intelligence to solve real problems. At Unimed, I implemented automation that reduced claims processing time by 30%, generating 45 million dollars in annual savings. At Sicredi, my machine learning models accelerated credit approvals by 40%, directly impacting the lives of 6.4 million members. Currently at SEFAZ-RS, I'm modernizing the state's tax management using value-based management frameworks.
 
-What differentiates me is the ability to dive into technical details while maintaining strategic vision - I'm equally comfortable discussing system architecture with engineers or ROI with CFOs.`,
+What differentiates me isn't just having technical experience or strategic vision in isolation, but being able to navigate between these two worlds. I'm equally comfortable discussing system architecture with engineers or presenting ROI to CFOs. At the end of the day, what drives me is transforming complexity into measurable value for who truly matters: the end customer.`,
           tags: ["executive", "impact", "leadership", "results"],
-          hook: "$300 million in value generated over 15+ years",
-          mic_drop: "Technical depth with strategic vision - from code to boardroom"
+          hook: "15 years transforming complex operations into measurable results",
+          mic_drop: "From code to boardroom - transforming complexity into customer value"
         },
         {
-          id: "versao_amazoniana",
-          title: "Amazonian Version",
-          badge: "Amazon DNA",
-          badgeColor: "bg-orange-500",
-          context: "Aligned with Amazon's Leadership Principles",
-          content: `I'm Leonardo Menezes, and my career is a practical demonstration of Amazon's Leadership Principles in action.
-
-**Customer Obsession**: I always start with the customer. At Huawei, when SLAs were at 382 days, I didn't accept it - I dove into the problem and redesigned processes that brought it down to 62 days. At Unimed, every product decision was validated with real users, resulting in +6 NPS points.
-
-**Dive Deep**: I don't delegate technical understanding. At HSBC, I personally conducted FATCA compliance root cause analysis. At Unimed, I wrote SQL queries to validate ML models. I believe effective leadership requires mastery of details.
-
-**Deliver Results**: My track record speaks for itself - $300M+ in value generated. At Bradesco, I migrated $3B with zero failures. At Sicredi, 15+ digital products generated $50M in incremental revenue. Commitment to outcomes, not just outputs.
-
-**Invent and Simplify**: At Huawei, I transformed complexity (20 suppliers, multiple regulators) into simplicity (one War Room, one dashboard, one rule: 24h to resolve). This mentality accompanies me in every project.
-
-**Ownership**: I never say "not my responsibility." At HSBC, I personally took on negotiations with BACEN and auditors. End-to-end ownership is my operating standard.`,
-          tags: ["leadership principles", "customer obsession", "ownership", "deliver results"],
-          hook: "Amazon's Leadership Principles in action",
-          mic_drop: "Customer obsession + dive deep + deliver results = my professional DNA"
-        },
-        {
-          id: "executive_impact_version",
-          title: "Executive Version - Impact Focus (2-3 min)",
-          badge: "Executive",
-          badgeColor: "bg-purple-500",
-          context: "For Gabriela Bonelle or senior interviewers",
-          content: `I'm Leonardo Menezes, a digital transformation leader with 15+ years generating measurable value at scale. Throughout my career, I've led programs that created over $300 million in value for organizations like Huawei, HSBC, Bradesco, Sicredi, and Unimed.
-
-My journey started at Huawei, where for 6 years I led the telecom infrastructure that connected Brazil to 4G. I delivered Brazil's first 4G station in 2012 and coordinated all connectivity for the 2014 World Cup. What differentiated me was diving deep into operational details: I redesigned processes that reduced SLAs from 382 to 62 days, generating $120 million in efficiency.
-
-I then moved to financial services, where I led the most critical transformation in Brazilian banking history: migrating $3 billion in assets from HSBC to Bradesco with zero data loss and full compliance. I also co-led the launch of Next Digital Bank, competing directly with Nubank.
-
-In recent years, I've focused on applying AI and automation to traditional sectors. At Unimed, I implemented solutions that reduced claims processing time by 30% and launched digital products now generating $16 million in revenue. Currently at SEFAZ-RS, I'm modernizing the state's fiscal management through value-based management frameworks.
-
-What drives me is transforming complexity into simplicity, always focusing on measurable results and real impact on the end customer.`,
-          tags: ["executive", "impact", "leadership", "results"],
-          hook: "$300 million in value generated",
-          mic_drop: "Transforming complexity into simplicity with measurable impact"
-        },
-        {
-          id: "payments_ai_version",
-          title: "Payments & AI Version (2 min)",
-          badge: "Payments + AI",
+          id: "versao_payments",
+          title: "Payments Version",
+          badge: "Payments Focus",
           badgeColor: "bg-indigo-500",
           context: "For technical interviewers or role-specific focus",
-          content: `I'm Leonardo Menezes, a specialist in transforming payment operations through AI and automation. My unique experience combines 15+ years in critical infrastructure with recent expertise in machine learning applied to fintech.
+          content: `I'm Leonardo Menezes, and my professional journey has brought me to a very specific point: transforming payment operations through artificial intelligence and automation. The interesting thing is I got here through an unconventional path, but one that makes perfect sense when you look back.
 
-I started building the infrastructure that supports digital payments today: at Huawei, I led the 4G rollout that enabled PIX and mobile payments in Brazil. Later, in financial services, I managed payment operations at billion-dollar scale - migrated $3 billion in assets between banks without a single transactional failure.
+I started building the infrastructure that supports digital payments today. At Huawei, I led the 4G rollout that enabled PIX and mobile payments in Brazil. Back then, in 2012, 2013, nobody imagined that network would be the foundation for the payment revolution we're experiencing today. Later, in financial services, I managed payment operations at billion-dollar scale - I migrated 3 billion dollars in assets between banks without a single transactional failure. That's where I learned that in payments, 99.9% availability isn't enough - you need 99.99%, because each failure is someone's money that didn't arrive where it should.
 
-In recent years, I've focused on applying AI to optimize payment operations. At Sicredi, I implemented ML models for credit scoring and fraud detection that accelerated approvals by 40%. At Unimed, I automated claims processing with AI, reducing cycle time by 30% and generating $45 million in annual savings.
+In recent years, I've focused on applying AI to optimize these operations. At Sicredi, I implemented machine learning models for credit scoring and fraud detection that accelerated approvals by 40% without increasing default rates. At Unimed, I automated claims processing with AI, reducing cycle time by 30% and generating 45 million dollars in annual savings. What I learned is that AI isn't magic - it's about deeply understanding the process, identifying where human decision adds value and where it's just overhead, and then building systems that amplify the best of both worlds.
 
-My approach is always data-driven: I use metrics like Payment Success Rate, Authorization Rate, and Process Cycle Time to measure real impact. I also have experience with Lean Six Sigma methodologies, which I apply to identify waste in payment processes and create sustainable solutions.
-
-What differentiates me is combining strategic vision with hands-on execution, always focusing on customer obsession and operational excellence.`,
+My approach is always data-driven. I use metrics like Payment Success Rate, Authorization Rate, and Process Cycle Time to measure real impact, not just operational efficiency. I also have experience with Lean Six Sigma, which I apply to identify waste in payment processes and create sustainable solutions. What motivates me today is the opportunity to apply all this at Amazon scale, especially at such a critical moment as the payment transformation in Brazil with PIX and Open Finance. It's where I can combine critical infrastructure, financial operations, and AI to generate real impact on millions of customers' experience.`,
           tags: ["payments", "AI", "technical", "metrics"],
-          hook: "Specialist in transforming payment operations through AI",
-          mic_drop: "Strategic vision with hands-on execution, customer obsession and operational excellence"
+          hook: "Transforming payment operations through AI - from 4G to PIX",
+          mic_drop: "Infrastructure + financial operations + AI = impact at Amazon scale"
         }
       ]
     },
@@ -514,54 +322,36 @@ What differentiates me is combining strategic vision with hands-on execution, al
       category: "Motivation and Cultural Fit",
       versions: [
         {
-          id: "versao_leadership_principles",
-          title: "Leadership Principles Version",
-          badge: "LP Focus",
+          id: "versao_principal",
+          title: "Main Version",
+          badge: "Recommended",
           badgeColor: "bg-orange-500",
-          content: `Amazon has always fascinated me because it's where customer obsession isn't just rhetoric, but is embedded in the DNA of every decision. Throughout my career, I've always prioritized end-customer impact - whether delivering Brazil's first 4G station to connect people, or implementing AI that reduces healthcare claims processing time.
+          content: `Amazon has always fascinated me because it's where customer obsession isn't just nice rhetoric in a PowerPoint presentation - it's genuinely embedded in the DNA of every decision. Throughout my career, I've always prioritized end-customer impact. When I delivered Brazil's first 4G station, I wasn't just installing antennas - I was connecting people. When I implemented AI that reduces healthcare claims processing time, I wasn't just optimizing processes - I was making patients receive approvals faster.
 
-What attracts me most are the Leadership Principles, especially "Dive Deep" and "Invent and Simplify." At Huawei, I dove so deep into operational processes that I redesigned workflows reducing SLAs from 382 to 62 days. At Unimed, I simplified complex operations through automation, generating $45 million in savings.
+What attracts me most to Amazon is the culture of diving deep into problems and simplifying the complex. At Huawei, when SLAs were at 382 days, I didn't accept the easy answer of "that's how it works in Brazil." I dove into the data, redesigned workflows, and reduced it to 62 days. At Unimed, when I saw complex operations consuming precious time from doctors, I simplified through automation, generating 45 million dollars in savings. This mentality of not accepting the status quo and always seeking the root of the problem is something I see deeply rooted in Amazon.
 
-The "Ownership" culture resonates deeply with me. At HSBC, I took end-to-end responsibility for migrating $3 billion, working personally with regulators and auditors to ensure zero failures. I don't delegate responsibility - I dive into the problem.
+The culture of complete ownership also resonates strongly with me. At HSBC, when I took on the 3 billion dollar migration, I didn't delegate responsibility - I personally dove into negotiations with regulators, technical details, compliance validations. "It's not my responsibility" doesn't exist in my vocabulary. You own the problem end-to-end and deliver, period.
 
-Amazon represents the perfect combination of scale, innovation, and impact. I want to contribute to an organization that thinks big, acts fast, and puts the customer first in every decision. It's where I can apply my operational transformation experience to generate value at truly global scale.`,
-          tags: ["leadership principles", "customer obsession", "ownership", "dive deep"],
-          hook: "Customer obsession isn't rhetoric, it's embedded in every decision's DNA",
-          mic_drop: "Scale, innovation and impact - where I can generate value at global scale"
+But what truly motivates me to be here today is the combination of scale, innovation, and impact. I want to work in an organization that thinks big, acts fast, and puts the customer first in every decision. It's where I can apply my operational transformation experience to generate value at truly global scale. After 15 years building critical infrastructure, transforming financial operations, and implementing AI in traditional sectors, Amazon represents the next level: impacting millions of customers while maintaining obsession with detail and operational excellence.`,
+          tags: ["customer obsession", "ownership", "dive deep", "scale"],
+          hook: "Customer obsession isn't rhetoric - it's in every decision's DNA",
+          mic_drop: "Scale + innovation + impact = next level of my career"
         },
         {
           id: "versao_pagamentos_flywheel",
           title: "Payments & Flywheel Version",
-          badge: "Payments",
+          badge: "Payments Focus",
           badgeColor: "bg-green-500",
-          content: `Amazon fascinates me because it's where I can apply my payments experience to accelerate the world's most powerful growth flywheel. I understand how efficient payment operations reduce costs, improve customer experience, and enable more selection - creating a virtuous growth cycle.
+          content: `Amazon fascinates me because it's where I can apply my payments experience to accelerate the world's most powerful growth flywheel. I deeply understand how efficient payment operations aren't just a cost center - they reduce friction, improve customer experience, and enable more selection. It's a virtuous cycle: the better the payment experience, the more customers buy. The more customers buy, the more data you have to optimize. The more you optimize, the better the experience gets. And the cycle accelerates.
 
-My experience is exactly what Amazon needs: I've led payment operations at billion-dollar scale, implemented AI to optimize authorization rates and process cycle time, and have critical regulatory compliance expertise. At Sicredi, my ML models increased payment success rate by 25%, generating $50 million in additional revenue.
+My experience is exactly what this moment requires. I've led payment operations at billion-dollar scale, implemented AI to optimize authorization rates and process cycle time, and have critical regulatory compliance expertise. At Sicredi, my machine learning models increased payment success rate by 25%, generating 50 million dollars in additional revenue. It wasn't magic - it was understanding where failure points were, applying data to predict behaviors, and building systems that continuously learn.
 
-What motivates me is the opportunity to work on the strategic partnership with Oakberry, applying AI/ML to transform payment business operations. I see immense potential to implement automation that reduces operational cost per transaction while improving customer payment satisfaction.
+What especially motivates me is the opportunity to work on the strategic partnership with Oakberry, applying AI/ML to transform payment business operations. I see immense potential to implement automation that reduces operational cost per transaction while improving customer payment satisfaction. It's exactly the kind of challenge that energizes me: taking something that already works well and making it extraordinary through data and technology.
 
-Amazon is where I can combine my passion for innovation with global-scale impact. I want to be part of an organization that doesn't just accept change, but leads it - especially at a critical moment like the payment transformation in Brazil with PIX and Open Finance.`,
+Amazon is where I can combine my passion for innovation with global-scale impact. I want to be part of an organization that doesn't just accept change, but leads it - especially at a critical moment like the payment transformation in Brazil with PIX and Open Finance. It's where I can apply everything I've learned in 15 years to help build the future of digital payments.`,
           tags: ["payments", "flywheel", "growth", "innovation"],
-          hook: "Apply payments experience to accelerate the world's most powerful flywheel",
+          hook: "Accelerate the world's most powerful flywheel through payments",
           mic_drop: "Lead payment transformation in Brazil with PIX and Open Finance"
-        },
-        {
-          id: "versao_pessoal_motivacao",
-          title: "Personal & Motivation Version",
-          badge: "Motivation",
-          badgeColor: "bg-blue-500",
-          content: `When I think of Amazon, I see the perfect combination of what drives me: **scale, impact, and constant challenge**.
-
-As someone from southern Brazil, I value hard work and tangible results - not promises, but deliveries. Amazon embodies this: it's a company that **acts**, not just plans. This "bias for action" mentality has been in my DNA since Huawei, when we delivered the 2014 World Cup without failures.
-
-As a father, I think a lot about the future I'm building. I want my daughter Livia to grow up seeing that it's possible to transform the world through responsible technology and innovation. Amazon is at the forefront of this transformation - from AI to sustainability, from logistics to digital payments.
-
-As a curious professional, I need an environment that constantly challenges me. I love studying new technologies, staying updated on trends - and Amazon is the place where innovation isn't an event, it's daily routine. It's where I can learn from the best and contribute to redefining industries.
-
-My career has always been about choosing the hardest challenge (billion-dollar bank migration, launching digital bank, transforming traditional cooperative). Amazon represents the next level: **impacting millions of customers at global scale**, while maintaining obsession with detail and operational excellence.`,
-          tags: ["motivation", "values", "impact", "challenge"],
-          hook: "Scale + impact + constant challenge",
-          mic_drop: "Building the future through technology and customer obsession"
         }
       ]
     },
@@ -572,21 +362,21 @@ My career has always been about choosing the hardest challenge (billion-dollar b
       category: "Position Fit",
       versions: [
         {
-          id: "versao_program_manager_ai",
-          title: "Program Manager & AI Version",
-          badge: "PM + AI",
+          id: "versao_principal",
+          title: "Main Version",
+          badge: "Recommended",
           badgeColor: "bg-purple-500",
-          content: `This role is the perfect convergence of my experience: program management at scale, operational transformation, and AI/ML implementation in critical operations.
+          content: `This role is the perfect convergence of everything I've built over the past 15 years: program management at scale, operational transformation, and AI/ML implementation in critical operations. When I read the description, it was almost as if it had been written looking at my resume.
 
-My background is exactly what you need. I've led complex programs that generated $300+ million in value, always focusing on operational excellence. At Huawei, I coordinated 30+ PMs and 20 suppliers to deliver critical infrastructure. At HSBC/Bradesco, I managed the most complex migration in Brazilian banking history.
+My background is exactly what you need. I've led complex programs that generated over 300 million dollars in value, always focusing on operational excellence. At Huawei, I coordinated 30+ project managers and 20 suppliers to deliver critical infrastructure. At HSBC and Bradesco, I managed the most complex migration in Brazilian banking history. But it wasn't just about coordinating - it was about diving into technical details, understanding every critical dependency, and ensuring nothing fell through the cracks.
 
-More importantly: I have hands-on experience implementing AI/ML in payment operations. At Unimed, my models automated processing that reduced cycle time by 30%. At Sicredi, I implemented ML for credit scoring and fraud detection that significantly improved authorization rates.
+More importantly: I have hands-on experience implementing AI/ML in payment operations. At Unimed, my models automated processing that reduced cycle time by 30%. At Sicredi, I implemented machine learning for credit scoring and fraud detection that significantly improved authorization rates. I'm not someone who just manages AI projects - I understand the algorithms, participate in architecture decisions, and know exactly which metrics matter.
 
-The Oakberry partnership excites me because I see the opportunity to apply Lean Six Sigma to identify waste in payment processes and implement AI use cases that reduce operational cost per transaction. My experience with value-based management and OKRs will be crucial to measure ROI of these transformations.
+The Oakberry partnership especially excites me because I see the opportunity to apply Lean Six Sigma to identify waste in payment processes and implement AI use cases that reduce operational cost per transaction. My experience with value-based management and OKRs will be crucial to measure ROI of these transformations and ensure we're generating real value, not just implementing technology for technology's sake.
 
-This position offers what I seek: end-to-end ownership, measurable impact, and opportunity to apply my expertise in an environment that values innovation and customer obsession.`,
+What attracts me to this position is the combination of end-to-end ownership, measurable impact, and opportunity to apply my expertise in an environment that values innovation and customer obsession. It's exactly where I want to be: solving complex problems at scale, with autonomy to make decisions and total responsibility for results.`,
           tags: ["program management", "AI/ML", "operational excellence", "value-based"],
-          hook: "Perfect convergence: program management, operational transformation and AI/ML",
+          hook: "Perfect convergence: program management + transformation + AI/ML",
           mic_drop: "End-to-end ownership with measurable impact in innovation environment"
         }
       ]
@@ -598,22 +388,22 @@ This position offers what I seek: end-to-end ownership, measurable impact, and o
       category: "Self-awareness",
       versions: [
         {
-          id: "versao_dive_deep_results",
-          title: "Dive Deep & Deliver Results Version",
-          badge: "Strengths",
+          id: "versao_principal",
+          title: "Main Version",
+          badge: "Recommended",
           badgeColor: "bg-green-500",
-          content: `My main differentiator is the ability to dive deeply into complex problems and consistently deliver measurable results.
+          content: `My main differentiator is the ability to dive deeply into complex problems and consistently deliver measurable results. I'm not someone who stays on the surface - when I take on a challenge, I go to the root.
 
-**Dive Deep**: I don't settle for superficial analysis. At Huawei, when SLAs were at 382 days, I personally conducted root cause analysis using Ishikawa and 5 Whys, identifying that 60% of delays came from regulatory bottlenecks. I personally negotiated with municipalities and ANATEL, redesigned workflows and reduced to 62 days.
+At Huawei, when SLAs were at 382 days, I didn't accept generic explanations. I personally conducted root cause analysis using Ishikawa and 5 Whys, identified that 60% of delays came from regulatory bottlenecks, personally negotiated with municipalities and ANATEL, redesigned workflows, and reduced to 62 days. I didn't delegate the problem - I dove into it.
 
-**Deliver Results**: I have a track record of $300+ million in value generated. At Unimed, I implemented AI that automated 30% of claims processing, generating $45 million in annual savings. At HSBC, I migrated $3 billion without a single failure.
+Another strength is my ability to consistently deliver results. I have a track record of over 300 million dollars in value generated. At Unimed, I implemented AI that automated 30% of claims processing, generating 45 million dollars in annual savings. At HSBC, I migrated 3 billion dollars without a single failure. These aren't promises - they're documented and audited deliveries.
 
-**Customer Obsession**: I always connect technical decisions to customer impact. At Sicredi, my ML models didn't just improve credit scoring - they reduced credit approval time, improving experience for 6.4 million members.
+I also excel at connecting technical decisions with customer impact. At Sicredi, my machine learning models didn't just technically improve credit scoring - they reduced credit approval time, improving experience for 6.4 million members. I always ask: "How does this improve the end customer's life?" If I can't answer, we rethink the solution.
 
-What differentiates me is combining technical depth with business vision, always focusing on outcomes that matter to the end customer.`,
+What differentiates me is being able to combine technical depth with business vision. I'm equally comfortable reviewing Python code for ML models or presenting business case to the CFO. This versatility allows me to be an effective bridge between technical teams and executive leadership, ensuring we're building the right things, the right way, for the right reasons.`,
           tags: ["dive deep", "deliver results", "customer obsession", "technical"],
           hook: "Dive deeply and consistently deliver measurable results",
-          mic_drop: "Technical depth with business vision, focusing on customer outcomes"
+          mic_drop: "Technical depth + business vision = bridge between code and boardroom"
         }
       ]
     },
@@ -624,41 +414,41 @@ What differentiates me is combining technical depth with business vision, always
       category: "Self-awareness",
       versions: [
         {
-          id: "versao_perfeccionismo_produtivo",
-          title: "Productive Perfectionism",
-          badge: "Development",
-          badgeColor: "bg-yellow-500",
-          content: `An area I continue developing is balancing my natural perfectionism with the need for "bias for action" in high-velocity environments.
-
-My tendency is to want to refine solutions until they reach very high standards, which sometimes can impact speed to market. I recognized this during a project at Unimed, where I spent excessive time refining executive dashboards that already perfectly met the needs.
-
-Since then, I've implemented a "good enough to start" approach followed by iterations based on feedback. Now I use agile methodologies more disciplined: I define clear MVPs, prioritize features based on customer impact, and establish regular checkpoints with stakeholders.
-
-This evolution made me more efficient without compromising quality. In fact, the iterative approach often results in better solutions because it incorporates real user feedback. It's an example of how "Learn and Be Curious" helped me evolve as a leader.`,
-          tags: ["perfectionism", "bias for action", "iteration", "learn and be curious"],
-          hook: "Balancing perfectionism with bias for action",
-          mic_drop: "Iterative approach with real feedback results in better solutions"
-        },
-        {
           id: "versao_delegacao_estrategica",
           title: "Strategic Delegation",
-          badge: "Leadership Growth",
-          badgeColor: "bg-yellow-600",
-          content: `A competency I've been improving is strategic delegation, especially in high-visibility projects. My technical experience and passion for details sometimes lead me to take on tasks that could be better executed by team specialists.
+          badge: "Development",
+          badgeColor: "bg-yellow-500",
+          content: `A competency I've been improving is strategic delegation, especially in high-visibility projects. My technical experience and passion for details sometimes lead me to take on tasks that could be better executed by team specialists. It's almost as if I want to personally ensure every piece is in the right place.
 
-I identified this during AI implementation at Unimed, where initially I was too involved in the technical aspects of machine learning. I realized this limited my ability to focus on strategy and stakeholder alignment.
+I identified this during AI implementation at Unimed, where initially I was too involved in the technical aspects of machine learning. I realized this limited my ability to focus on strategy and stakeholder alignment. I was solving technical problems when I should have been ensuring we were solving the right problems.
 
-I developed a more structured approach: I clearly define objectives and success criteria, identify the best resources for each task, and establish regular control points. This allows me to maintain visibility without micromanaging.
+I developed a more structured approach: I clearly define objectives and success criteria, identify the best resources for each task, and establish regular control points. This allows me to maintain visibility without micromanaging. In practice, this means instead of reviewing every line of code, I define clear quality standards, establish pair code reviews, and focus my energy on ensuring the technical solution aligns with the business problem.
 
-The result was significant improvement in team efficiency and delivery quality. It also allowed me to focus more time on higher-value activities: strategic alignment, stakeholder management, and people development. It's a practical example of "Hire and Develop the Best" in action.`,
-          tags: ["delegation", "strategy", "hire and develop", "people development"],
+The result was significant improvement in team efficiency and delivery quality. It also allowed me to focus more time on higher-value activities: strategic alignment, stakeholder management, and people development. It's a practical example of how developing talent around you and trusting their expertise generates better results than trying to do everything yourself. I continue working on this consciously in each new project.`,
+          tags: ["delegation", "strategy", "people development", "self-awareness"],
           hook: "Improving strategic delegation in high-visibility projects",
-          mic_drop: "Hire and Develop the Best in action - focus on strategic alignment"
+          mic_drop: "Trusting team expertise generates better results than doing everything yourself"
+        },
+        {
+          id: "versao_comunicacao_executiva",
+          title: "Concise Executive Communication",
+          badge: "Development",
+          badgeColor: "bg-yellow-600",
+          content: `An area I continue developing is making my executive communication more concise, especially when presenting complex technical topics to non-technical audiences. My natural tendency is to want to explain all the context and technical details that led to a conclusion, because for me those details are fascinating and important. But I learned that the audience doesn't always need or want that level of depth.
+
+I realized this clearly during a presentation to Unimed's board, where I started explaining the technical architecture of machine learning models before getting to business results. I saw in their faces I was losing the audience. The CFO gently interrupted me and asked: "Leonardo, how much will this save?" It was a wake-up call.
+
+Since then, I've been consciously working on structuring communications starting with impact and then offering technical details only if requested. I use frameworks like "Situation-Complication-Resolution" and always prepare a 2-minute executive version and a 15-minute detailed version. I also regularly ask for feedback: "Was I clear? Need more details or less?"
+
+The improvement has been notable. At SEFAZ-RS, my presentations to the Treasury Secretary are much more effective because I start with the "so what" - the impact on revenue, efficiency, citizens served - and only then get into technical details if he shows interest. It's a constant balance between my passion for technical details and the need to communicate in a way that resonates with each specific audience.`,
+          tags: ["communication", "executive", "audience", "self-awareness"],
+          hook: "Making executive communication more concise and impact-focused",
+          mic_drop: "Start with the 'so what' and offer technical details only if requested"
         }
       ]
     },
 
-    // BEHAVIORAL COMMON QUESTIONS
+    // BEHAVIORAL QUESTIONS - KEPT AS IS
     comportamentais: {
       question: "Amazon Behavioral Questions",
       category: "STAR Response Examples",
@@ -673,7 +463,7 @@ The result was significant improvement in team efficiency and delivery quality. 
 
 **Task**: My responsibility was to ensure total compliance in both workstreams, but resources were limited and complexity greater than estimated.
 
-**Action**: I made the difficult decision to prioritize FATCA compliance, which had direct regulatory impact. I escalated to my director, presented detailed risk analysis and proposed postponing HNWI validation by 2 weeks. I reallocated my best analyst to FATCA and personally took on technical validation tasks.
+**Action**: I made the difficult decision to prioritize FATCA compliance, which had direct regulatory impact. I escalated to my director, presented detailed risk analysis, and proposed postponing HNWI validation by 2 weeks. I reallocated my best analyst to FATCA and personally took on technical validation tasks.
 
 **Result**: We delivered FATCA compliance on time, avoiding regulatory fines of $2+ million. HNWI validation was completed 2 weeks later, with no impact on clients. I learned that ownership sometimes means making difficult decisions and communicating risks transparently.`,
           tags: ["ownership", "customer obsession", "STAR"],
@@ -686,7 +476,7 @@ The result was significant improvement in team efficiency and delivery quality. 
           badge: "STAR",
           badgeColor: "bg-blue-500",
           context: "Tell me about a time when you gave a simple solution to a complex problem",
-          content: `**Situation**: At Huawei, we faced 382-day SLAs for 4G tower rollout, with 20 suppliers and complex licensing processes involving municipalities, ANATEL and landowners.
+          content: `**Situation**: At Huawei, we faced 382-day SLAs for 4G tower rollout, with 20 suppliers and complex licensing processes involving municipalities, ANATEL, and landowners.
 
 **Task**: As Program Manager, I needed to drastically accelerate deliveries to meet 2014 World Cup commitments, but the process had dozens of critical dependencies.
 
@@ -707,91 +497,17 @@ The result was significant improvement in team efficiency and delivery quality. 
 
 **Task**: As Strategy Advisor, I needed to find a solution that reduced workload without compromising medical quality or regulatory compliance.
 
-**Action**: I invented an "AI Triage" system combining OCR for medical documents, NLP for report analysis, and ML for risk classification. The differentiator was creating business rules that allowed automatic approval for low-risk cases (60% of volume) and intelligent escalation for complex cases.
+**Action**: I invented an "AI Triage" system combining OCR for medical documents, NLP for report analysis, and ML for risk classification. The system automatically approved low-complexity cases (60% of volume), prioritized urgent cases, and flagged anomalies for human review. I implemented it in 4 months with a 6-person squad.
 
-**Result**: We reduced processing time by 30%, freeing physicians for higher-value activities. The system today processes 85% of claims automatically, generating $45 million in annual savings. The solution was patented and is being licensed to other health cooperatives.`,
+**Result**: We reduced processing cycle time by 30%, freeing 280 hours/month of medical team time. We generated $45 million in annual savings. Beneficiary NPS rose 6 points due to faster approvals. The system was expanded to other Unimed operators, impacting 2.1 million lives.`,
           tags: ["invent and simplify", "customer obsession", "STAR"],
-          hook: "AI Triage: 85% claims automation with medical quality",
-          mic_drop: "Patented solution generating $45M/year in savings"
-        },
-        {
-          id: "calculated_risk",
-          title: "Calculated Risk",
-          badge: "STAR",
-          badgeColor: "bg-orange-500",
-          context: "Tell me about a time when you took a calculated risk",
-          content: `**Situation**: During Next Digital Bank launch at Bradesco, we discovered 72h before go-live that our anti-fraud system had 15% false positive - it would block legitimate customers at account opening.
-
-**Task**: As Program Manager, I needed to decide between postponing launch (impact of $5+ million in marketing) or launching with controlled risk.
-
-**Action**: I calculated the risk: analyzed historical data, estimated that 15% false positive would result in 3k blocked customers in first month. I proposed launch with 24/7 monitoring and dedicated squad to resolve cases manually. I created real-time dashboard and escalation process for critical cases.
-
-**Result**: We launched on time, captured 50k new customers in first month. We resolved 98% of false positives in less than 2h. After 30 days, we adjusted algorithms and reduced false positive to 3%. The calculated risk allowed us to capture critical market share against Nubank.`,
-          tags: ["bias for action", "ownership", "STAR"],
-          hook: "Strategic launch with real-time risk management",
-          mic_drop: "50k customers captured with 98% resolution in <2h"
+          hook: "AI Triage: intelligent automation that freed medical time",
+          mic_drop: "$45 million in savings + NPS +6 points"
         }
       ]
-    },
-
-    // Simplified array for the modal
-    questions: [
-      {
-        q: "Tell me about yourself / Walk me through your background",
-        a: `**Executive Version - Impact Focus (2-3 min)**
-
-I'm Leonardo Menezes, a digital transformation leader with 15+ years generating measurable value at scale. Throughout my career, I've led programs that created over $300 million in value for organizations like Huawei, HSBC, Bradesco, Sicredi, and Unimed.
-
-My journey started at Huawei, where for 6 years I led the telecom infrastructure that connected Brazil to 4G. I delivered Brazil's first 4G station in 2012 and coordinated all connectivity for the 2014 World Cup. What differentiated me was diving deep into operational details: I redesigned processes that reduced SLAs from 382 to 62 days, generating $120 million in efficiency.
-
-I then moved to financial services, where I led the most critical transformation in Brazilian banking history: migrating $3 billion in assets from HSBC to Bradesco with zero data loss and full compliance. I also co-led the launch of Next Digital Bank, competing directly with Nubank.
-
-In recent years, I've focused on applying AI and automation to traditional sectors. At Unimed, I implemented solutions that reduced claims processing time by 30% and launched digital products now generating $16 million in revenue. Currently at SEFAZ-RS, I'm modernizing the state's fiscal management through value-based management frameworks.
-
-What drives me is transforming complexity into simplicity, always focusing on measurable results and real impact on the end customer.`
-      },
-      {
-        q: "Why Amazon? / What attracts you to Amazon?",
-        a: `**Leadership Principles Version**
-
-Amazon has always fascinated me because it's where customer obsession isn't just rhetoric, but is embedded in the DNA of every decision. Throughout my career, I've always prioritized end-customer impact - whether delivering Brazil's first 4G station to connect people, or implementing AI that reduces healthcare claims processing time.
-
-What attracts me most are the Leadership Principles, especially "Dive Deep" and "Invent and Simplify." At Huawei, I dove so deep into operational processes that I redesigned workflows reducing SLAs from 382 to 62 days. At Unimed, I simplified complex operations through automation, generating $45 million in savings.
-
-The "Ownership" culture resonates deeply with me. At HSBC, I took end-to-end responsibility for migrating $3 billion, working personally with regulators and auditors to ensure zero failures. I don't delegate responsibility - I dive into the problem.
-
-Amazon represents the perfect combination of scale, innovation, and impact. I want to contribute to an organization that thinks big, acts fast, and puts the customer first in every decision. It's where I can apply my operational transformation experience to generate value at truly global scale.`
-      },
-      {
-        q: "Why this specific role? / Why this position?",
-        a: `**Program Manager & AI Version**
-
-This role is the perfect convergence of my experience: program management at scale, operational transformation, and AI/ML implementation in critical operations.
-
-My background is exactly what you need. I've led complex programs that generated $300+ million in value, always focusing on operational excellence. At Huawei, I coordinated 30+ PMs and 20 suppliers to deliver critical infrastructure. At HSBC/Bradesco, I managed the most complex migration in Brazilian banking history.
-
-More importantly: I have hands-on experience implementing AI/ML in payment operations. At Unimed, my models automated processing that reduced cycle time by 30%. At Sicredi, I implemented ML for credit scoring and fraud detection that significantly improved authorization rates.
-
-The Oakberry partnership excites me because I see the opportunity to apply Lean Six Sigma to identify waste in payment processes and implement AI use cases that reduce operational cost per transaction. My experience with value-based management and OKRs will be crucial to measure ROI of these transformations.
-
-This position offers what I seek: end-to-end ownership, measurable impact, and opportunity to apply my expertise in an environment that values innovation and customer obsession.`
-      },
-      {
-        q: "What are your main strengths? / What are your strengths?",
-        a: `**Dive Deep & Deliver Results**
-
-My main differentiator is the ability to dive deeply into complex problems and consistently deliver measurable results.
-
-**Dive Deep**: I don't settle for superficial analysis. At Huawei, when SLAs were at 382 days, I personally conducted root cause analysis using Ishikawa and 5 Whys, identifying that 60% of delays came from regulatory bottlenecks. I personally negotiated with municipalities and ANATEL, redesigned workflows and reduced to 62 days.
-
-**Deliver Results**: I have a track record of $300+ million in value generated. At Unimed, I implemented AI that automated 30% of claims processing, generating $45 million in annual savings. At HSBC, I migrated $3 billion without a single failure.
-
-**Customer Obsession**: I always connect technical decisions to customer impact. At Sicredi, my ML models didn't just improve credit scoring - they reduced credit approval time, improving experience for 6.4 million members.
-
-What differentiates me is combining technical depth with business vision, always focusing on outcomes that matter to the end customer.`
-      }
-    ]
+    }
   }
 };
 
 export default icebreakerData;
+
