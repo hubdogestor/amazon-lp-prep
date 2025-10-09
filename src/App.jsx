@@ -271,7 +271,7 @@ export default function App() {
     return base;
   }, [principlesData, selectedPrinciple, showTopCases, debouncedSearchTerm, language, getCaseBaseTitle]);
 
-  const toggleCase = useCallback((caseTitle, principleId, preserveSearchTerm = false) => {
+  const toggleCase = useCallback((caseId, principleId, preserveSearchTerm = false) => {
     if (preserveSearchTerm && searchTerm) {
       setHighlightCaseTerm(searchTerm);
     }
@@ -286,7 +286,7 @@ export default function App() {
 
     setExpandedCases((prev) => {
       const next = {};
-      next[caseTitle] = !prev[caseTitle];
+      next[caseId] = !prev[caseId];
       return next;
     });
     setSelectedPrinciple(principleId);
@@ -301,7 +301,7 @@ export default function App() {
     }
 
     const { case_id } = mapping[questionIndex];
-    
+
     // Encontrar o case nos dados
     const principle = principlesData.find(p => p.id === lpId);
     if (!principle) return;
@@ -309,10 +309,10 @@ export default function App() {
     const caseObj = principle.cases?.find(c => c.id === case_id);
     if (!caseObj) return;
 
-    // Expandir o case
-    setExpandedCases({ [caseObj.title]: true });
+    // Expandir o case usando case_id em vez de title
+    setExpandedCases({ [case_id]: true });
     setSelectedPrinciple(lpId);
-    
+
     // Scroll para o case após um delay
     setTimeout(() => {
       const caseDomId = `case-${slugify(case_id)}`;
@@ -620,7 +620,7 @@ export default function App() {
                             clearHighlights();
 
                             setTimeout(() => {
-                              setExpandedCases({ [c.title]: true });
+                              setExpandedCases({ [c.id || c.title]: true });
                               setHighlightCaseTerm(savedSearchWords.join(' '));
                               setHighlightFupTerm("");
                               setHighlightTypicalTerm("");
@@ -695,7 +695,7 @@ export default function App() {
                           clearHighlights();
 
                           setTimeout(() => {
-                            setExpandedCases({ [c.title]: true });
+                            setExpandedCases({ [c.id || c.title]: true });
                             setQuestionSearch("");
                             setHighlightCaseTerm("");
                             setHighlightFupTerm(searchWords.join(' '));
@@ -1061,7 +1061,7 @@ export default function App() {
                 {((principle && principle.cases) || []).map((c, idx) => {
                   const caseKey = `${principle.id}-${idx}`;
                   const caseDomId = `case-${slugify(c.id || c.title)}`;
-                  const open = !!expandedCases[c.title];
+                  const open = !!expandedCases[c.id || c.title];
                   const isHighlighted = highlightedCaseId === caseDomId;
                   const isTop = isTopCase(c);
                   const caseQuestions = getCaseQuestions(c.id, principle.id);
@@ -1088,7 +1088,7 @@ export default function App() {
                         onClick={(e) => {
                           e.stopPropagation();
                           const hasSearchTerm = !!searchTerm;
-                          toggleCase(c.title, principle.id, hasSearchTerm);
+                          toggleCase(c.id || c.title, principle.id, hasSearchTerm);
                           if (hasSearchTerm) {
                             setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
                           }

@@ -5,10 +5,14 @@
 export const questionsToCasesMapping = {
   "customer_obsession": {
     "0": {
+      "case_id": "unimed-pet-anticipation",
+      "score": 98
+    },
+    "0_alt1": {
       "case_id": "sicredi-frictionless-checkout",
       "score": 90
     },
-    "0_alt1": {
+    "0_alt2": {
       "case_id": "unimed-customer-experience",
       "score": 88
     },
