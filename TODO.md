@@ -7,7 +7,12 @@
 
 ## 🎯 OVERVIEW
 
-Este TO-DO acompanha a execução do **Master Plan** de revisão dos 71 cases para entrevistas Amazon L5/L6.
+Este TO-DO acompanha## � SPRINT 3: Métricas + Transições
+
+**Objetivo**: Adicionar métricas faltantes e melhorar fluidez narrativa  
+**Esforço total**: 5.4 horas  
+**Status**: 🔄 **EM PROGRESSO** (2025-10-08 - Parte B 62.5% completa)  
+**Dependência**: Recomendado após Sprints 1 e 2cução do **Master Plan** de revisão dos 71 cases para entrevistas Amazon L5/L6.
 
 **Documentação completa**: [`case-review/reports/MASTER-PLAN.md`](case-review/reports/MASTER-PLAN.md)
 
@@ -222,19 +227,70 @@ Este TO-DO acompanha a execução do **Master Plan** de revisão dos 71 cases pa
   - **Melhorias**: Hook ajustado com contexto ("Quando assumi o PIX..."), Learning com TED+boleto (R$8.7M)
   - **Arquivo**: `src/data/dive_deep/dive_deep_case4.js`
 
-### **Parte B: Transições STAR** (2.4h)
+### **Parte B: Transições STAR** (2.4h) 🔄 **EM PROGRESSO**
 
-**Cases para revisar** (8 total):
-- [ ] Identificar os 8 cases com transições fracas
-- [ ] Ver detalhes em [`case-review/analysis/by-dimension/02-transitions.md`](case-review/analysis/by-dimension/02-transitions.md)
-- [ ] Adicionar conectores entre S→T→A→R→L
-- [ ] Validar fluidez narrativa
+**Objetivo**: Adicionar 4 conectores STAR (S→T→A→R→L) em 8 cases com transições fracas  
+**Status**: 5 de 8 completos (62.5%)
 
-**Exemplos de conectores**:
-- S→T: "Diante desse cenário, eu decidi..."
-- T→A: "Para cumprir esse compromisso, ataquei em quatro frentes..."
-- A→R: "Esse esforço coordenado entregou..."
-- R→L: "Retrospectivamente, esse caso me ensinou que..."
+**Cases revisados**:
+
+- [x] **`commit-on-disagreement-product-strategy`** ✅ COMPLETO + REVISADO
+  - **LP**: Have Backbone; Disagree and Commit
+  - **Score**: 40.0/55 (mantido)
+  - **EU:NÓS**: 2.0:1 | **Métricas**: 21
+  - **Melhorias**: 4 transições STAR + correções de linguagem natural (FAT→testes de aceitação, remoção de menções explícitas LP, flow T section revisado)
+  - **Arquivo**: `src/data/disagree_and_commit/disagree_and_commit_case2.js`
+
+- [x] **`bradesco-next-rapid-launch`** ✅ COMPLETO
+  - **LP**: Bias for Action
+  - **Score**: 41.0/55 (mantido)
+  - **EU:NÓS**: 2.0:1 | **Métricas**: 28
+  - **Melhorias**: 4 transições STAR completas, narrativa de velocidade calculada com controle
+  - **Arquivo**: `src/data/bias_for_action/bias_for_action_case1.js`
+
+- [x] **`payment-simplification-high-impact`** ⏪ REVERTIDO
+  - **LP**: Invent and Simplify
+  - **Score**: 48.1/55 (original mantido)
+  - **Status**: Usuário solicitou manter versão original - case forte não precisava de alterações
+  - **Arquivo**: `src/data/invent_and_simplify/invent_and_simplify_case6.js`
+
+- [x] **`out-of-comfort-zone-transparency-portal`** ✅ COMPLETO
+  - **LP**: Learn and Be Curious
+  - **Score**: 47.0/55 (mantido)
+  - **EU:NÓS**: 3.0:1 | **Métricas**: 25 (+3)
+  - **Melhorias**: 4 transições STAR, narrativa de aprendizado estruturado (80h estudo, 4 webinars CGU, 8 pareceres jurídicos, 18 entrevistas)
+  - **Arquivo**: `src/data/learn_and_be_curious/learn_and_be_curious_case5.js`
+
+- [x] **`game-changing-program`** ✅ COMPLETO
+  - **LP**: Think Big
+  - **Score**: 47.0/55 (mantido)
+  - **EU:NÓS**: 3.0:1 | **Métricas**: 44 (+4 - excelente!)
+  - **Melhorias**: 4 transições STAR, narrativa citizen-centric (11.7M cidadãos impactados, 230 entrevistas, 6 audiências públicas)
+  - **Arquivo**: `src/data/think_big/think_big_case4.js`
+
+- [x] **`bradesco-partner-recovery`** ✅ COMPLETO 🏆
+  - **LP**: Earn Trust
+  - **Score**: 48.9/55 → **50.0/55** (+1.1 pts - EXCELLENCE!)
+  - **EU:NÓS**: 10.0:1 | **Métricas**: 13 → **16** (+3)
+  - **Melhorias**: 4 transições STAR completas, narrativa de reconstrução de confiança através de ações tangíveis (buffer R$80M, extrato 7h assinado, auditoria externa, stand-up diário CFO, carta semanal)
+  - **Arquivo**: `src/data/earn_trust/earn_trust_case3.js`
+
+**Cases pendentes** (3 restantes):
+- [ ] Case 9: TBD
+- [ ] Case 10: TBD
+- [ ] Case 11: TBD
+
+**Framework de conectores aplicado**:
+- S→T: "Diante desse cenário [crítico], eu [assumi/decidi/tracei]..."
+- T→A: "Para cumprir esse compromisso/Para [objetivo], eu [ações]..."
+- A→R: "Esse esforço coordenado — [lista de ações] — entregou/resultou..."
+- R→L: "Retrospectivamente, esse caso me ensinou que [learning sem mencionar LP explicitamente]..."
+
+**Qualidade Standards**:
+- ✅ Storytelling teleprompter-quality (não robotizado)
+- ✅ Sem jargões técnicos (FAT→testes de aceitação)
+- ✅ Sem menções explícitas de LP (demonstrar através de comportamento)
+- ✅ Flow natural em português brasileiro
 
 ### **Parte C: Mic-Drops** (2h)
 
@@ -277,9 +333,9 @@ Este TO-DO acompanha a execução do **Master Plan** de revisão dos 71 cases pa
 |--------|--------|-------|-----------------|-------------|-----------|
 | Sprint 1 | ✅ **COMPLETO** | 2 (de 5) | 12.5h | **2h** | 2/2 (100%) ✅ |
 | Sprint 2 | ✅ **COMPLETO** | 13 | 7.5h | **6.5h** | 13/13 (100%) ✅ |
-| Sprint 3 | 🔄 Em progresso | 15 | 5.4h | **1h** | 4/15 (27%) |
+| Sprint 3 | 🔄 Em progresso | 15 | 5.4h | **2.5h** | 9/15 (60%) |
 | Sprint 4 | ⏳ Não iniciado | 53 | 26.8h | - | 0/53 (0%) |
-| **TOTAL** | **33.3% completo** | **84** | **52.2h** | **9.5h** | **22.6%** |
+| **TOTAL** | **40% completo** | **84** | **52.2h** | **11h** | **28.6%** |
 
 ### **Score do Portfólio**
 
@@ -309,6 +365,15 @@ Este TO-DO acompanha a execução do **Master Plan** de revisão dos 71 cases pa
 - unimed-fraud-investigation: Mantido 50 pts, ratio 4.5→9.0 (2x melhor!), +2 métricas
 - sicredi-pix-settlement: Mantido 47 pts, +4 métricas, hook ajustado com contexto
 - **Média Dive Deep**: 48.5/55 (todos ≥47 pts) ✅
+
+**Sprint 3 (Parte B - Transições STAR)**: 5 de 8 casos completos com conectores S→T→A→R→L:
+- commit-on-disagreement: 40 pts (mantido após revisão com feedback de linguagem natural)
+- bradesco-next-rapid-launch: 41 pts (mantido, narrativa velocidade calculada)
+- payment-simplification: 48.1 pts (revertido ao original por solicitação)
+- out-of-comfort-zone: 47 pts (+3 métricas, narrativa aprendizado estruturado)
+- game-changing-program: 47 pts (+4 métricas, citizen-centric 11.7M impactados)
+- **bradesco-partner-recovery: 48.9→50.0 pts (+1.1 pts, EXCELLENCE! 🏆)**
+- **Status**: 62.5% completo (5/8), 3 cases pendentes
 
 ---
 
