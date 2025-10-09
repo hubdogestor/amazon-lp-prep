@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T01:11:25.635Z",
+  "generated_at": "2025-10-09T01:31:47.390Z",
   "total_cases": 71,
   "cases_scored": [
     {
@@ -328,22 +328,22 @@
       "company": "HSBC",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 11,
-        "specific_metrics_count": 11,
+        "metrics_count": 21,
+        "specific_metrics_count": 20,
         "generic_terms_count": 0,
-        "word_count_pt": 376,
-        "word_count_en": 357,
+        "word_count_pt": 566,
+        "word_count_en": 511,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 9.4,
-        "auto_score_total": 49.4
+        "word_count_adequacy": 10,
+        "auto_score_total": 50
       },
       "flags": [
-        "⚠️ Text curto (376 palavras)"
+        "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
         {
@@ -381,11 +381,11 @@
       "company": "SEFAZ/RS",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 21,
-        "specific_metrics_count": 21,
+        "metrics_count": 23,
+        "specific_metrics_count": 23,
         "generic_terms_count": 0,
-        "word_count_pt": 555,
-        "word_count_en": 486,
+        "word_count_pt": 654,
+        "word_count_en": 602,
         "fup_count": 10
       },
       "scores": {
@@ -437,8 +437,8 @@
         "metrics_count": 25,
         "specific_metrics_count": 23,
         "generic_terms_count": 0,
-        "word_count_pt": 582,
-        "word_count_en": 556,
+        "word_count_pt": 613,
+        "word_count_en": 573,
         "fup_count": 10
       },
       "scores": {
@@ -486,12 +486,12 @@
       "title_pt": "Reconciliei US$47M de Pagamentos na Reta Final do Cutover",
       "company": "HSBC",
       "auto_calculated": {
-        "eu_nos_ratio": 14,
-        "metrics_count": 32,
-        "specific_metrics_count": 32,
+        "eu_nos_ratio": 6,
+        "metrics_count": 28,
+        "specific_metrics_count": 28,
         "generic_terms_count": 0,
-        "word_count_pt": 836,
-        "word_count_en": 531,
+        "word_count_pt": 660,
+        "word_count_en": 593,
         "fup_count": 10
       },
       "scores": {
@@ -512,11 +512,6 @@
         },
         {
           "type": "percentage",
-          "value": "0,5",
-          "context": "0,5%"
-        },
-        {
-          "type": "percentage",
           "value": "80",
           "context": "80%"
         },
@@ -529,6 +524,11 @@
           "type": "percentage",
           "value": "80",
           "context": "80%"
+        },
+        {
+          "type": "percentage",
+          "value": "15",
+          "context": "15%"
         }
       ],
       "needs_manual_review": false
@@ -2398,7 +2398,7 @@
         "metrics_count": 28,
         "specific_metrics_count": 28,
         "generic_terms_count": 0,
-        "word_count_pt": 483,
+        "word_count_pt": 552,
         "word_count_en": 466,
         "fup_count": 12
       },
@@ -2977,20 +2977,20 @@
       "title_pt": "Bati de frente com o VP sobre acelerar 5G e entreguei o plano aprovado para a Copa Feminina",
       "company": "Huawei LATAM",
       "auto_calculated": {
-        "eu_nos_ratio": 4,
-        "metrics_count": 23,
-        "specific_metrics_count": 23,
+        "eu_nos_ratio": 3,
+        "metrics_count": 25,
+        "specific_metrics_count": 25,
         "generic_terms_count": 1,
-        "word_count_pt": 647,
+        "word_count_pt": 759,
         "word_count_en": 606,
         "fup_count": 10
       },
       "scores": {
-        "eu_nos_ratio_score": 15,
+        "eu_nos_ratio_score": 12,
         "metrics_score": 14,
         "fup_completeness": 10,
         "word_count_adequacy": 10,
-        "auto_score_total": 49
+        "auto_score_total": 46
       },
       "flags": [
         "⚠️ 1 termos genéricos detectados"
@@ -3018,8 +3018,8 @@
         },
         {
           "type": "currency",
-          "value": "11,3M",
-          "context": "$ 11,3M"
+          "value": "8M",
+          "context": "$ 8M"
         }
       ],
       "needs_manual_review": false
@@ -3770,7 +3770,7 @@
     }
   ],
   "statistics": {
-    "avg_auto_score": 49.2,
+    "avg_auto_score": 49.1,
     "max_auto_score": 50,
     "min_auto_score": 40,
     "cases_needing_review": 0
