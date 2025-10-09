@@ -1345,12 +1345,21 @@ export default function App() {
 // ---------- Subcomponent: Icebreaker Modal ----------
 function IcebreakerModal({ language, onClose }) {
   const data = icebreakerData[language];
-  const [expandedQuestions, setExpandedQuestions] = useState({});
+  const [expandedSection, setExpandedSection] = useState(null);
+  const [selectedVersion, setSelectedVersion] = useState({});
 
-  const toggleQuestion = (idx) => {
-    setExpandedQuestions(prev => ({
+  // Pega todas as seções (exceto title, subtitle e questions)
+  const sections = Object.keys(data)
+    .filter(key => !['title', 'subtitle', 'questions'].includes(key))
+    .map(key => ({
+      id: key,
+      data: data[key]
+    }));
+
+  const toggleVersion = (sectionId, versionId) => {
+    setSelectedVersion(prev => ({
       ...prev,
-      [idx]: !prev[idx]
+      [sectionId]: prev[sectionId] === versionId ? null : versionId
     }));
   };
 
@@ -1363,51 +1372,145 @@ function IcebreakerModal({ language, onClose }) {
       aria-labelledby="icebreaker-title"
     >
       <div
-        className="bg-white rounded-xl shadow-2xl max-w-4xl w-full max-h-[85vh] overflow-hidden mx-4"
+        className="bg-white rounded-xl shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-hidden mx-4"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-4 flex items-center justify-between">
-          <h2 id="icebreaker-title" className="text-2xl font-bold text-white flex items-center gap-2">
-            💬 {data.title}
-          </h2>
+        <div className="bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-4 flex items-center justify-between">
+          <div>
+            <h2 id="icebreaker-title" className="text-2xl font-bold text-white flex items-center gap-2">
+              💬 {data.title}
+            </h2>
+            <p className="text-orange-100 text-sm mt-1">{data.subtitle}</p>
+          </div>
           <button
             onClick={onClose}
-            className="text-white hover:bg-white/20 rounded-lg px-3 py-1 transition"
+            className="text-white hover:bg-orange-600 rounded-lg px-3 py-2 transition text-xl"
             aria-label="Close icebreaker modal"
           >
             ✕
           </button>
         </div>
 
-        <div className="p-6 overflow-y-auto max-h-[calc(85vh-80px)]">
-          <div className="space-y-4">
-            {data.questions.map((item, idx) => {
-              const isExpanded = expandedQuestions[idx];
+        <div className="p-6 overflow-y-auto max-h-[calc(90vh-100px)]">
+          <div className="space-y-6">
+            {sections.map((section) => {
+              const sectionData = section.data;
+              const isExpanded = expandedSection === section.id;
+              
               return (
                 <div
-                  key={idx}
-                  className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-lg border border-slate-200 overflow-hidden"
+                  key={section.id}
+                  className="border-2 border-gray-200 rounded-xl overflow-hidden hover:border-orange-300 transition-all"
                 >
                   <div
-                    className="flex items-center justify-between px-5 py-4 cursor-pointer hover:bg-white/60 transition"
-                    onClick={() => toggleQuestion(idx)}
+                    className="bg-gradient-to-r from-gray-50 to-white px-5 py-4 cursor-pointer"
+                    onClick={() => setExpandedSection(isExpanded ? null : section.id)}
                   >
-                    <h3 className="text-lg font-bold text-slate-900 flex items-center gap-2">
-                      <span className="text-blue-600 font-mono text-sm">Q{idx + 1}</span>
-                      <span>{item.q}</span>
-                    </h3>
-                    <span className="text-sm text-blue-600 select-none">
-                      {isExpanded ? (language === "pt" ? "Fechar ▾" : "Close ▾") : (language === "pt" ? "Ver resposta" : "View answer")}
-                    </span>
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <h3 className="text-xl font-bold text-gray-900">{sectionData.question}</h3>
+                        <p className="text-sm text-gray-600 mt-1">{sectionData.category}</p>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <span className="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-xs font-semibold">
+                          {sectionData.versions?.length || 0} versões
+                        </span>
+                        <span className={`text-2xl transition-transform ${isExpanded ? 'rotate-180' : ''}`}>
+                          ▼
+                        </span>
+                      </div>
+                    </div>
                   </div>
+
                   {isExpanded && (
-                    <div className="px-5 pb-5 pt-2 bg-white/40">
-                      <div className="pl-7 text-slate-700 leading-relaxed whitespace-pre-line">
-                        {item.a.split(/(\*\*[^*]+\*\*)/).map((part, i) => {
-                          if (part.startsWith('**') && part.endsWith('**')) {
-                            return <strong key={i}>{part.slice(2, -2)}</strong>;
-                          }
-                          return part;
+                    <div className="p-5 bg-white border-t border-gray-200">
+                      <div className="grid gap-4">
+                        {sectionData.versions?.map((version) => {
+                          const isVersionExpanded = selectedVersion[section.id] === version.id;
+                          
+                          return (
+                            <div
+                              key={version.id}
+                              className={`border-2 rounded-lg transition-all ${
+                                isVersionExpanded 
+                                  ? 'border-orange-400 shadow-lg' 
+                                  : 'border-gray-200 hover:border-gray-300'
+                              }`}
+                            >
+                              <div
+                                className="p-4 cursor-pointer bg-gradient-to-r from-gray-50 to-white"
+                                onClick={() => toggleVersion(section.id, version.id)}
+                              >
+                                <div className="flex items-start justify-between mb-2">
+                                  <div className="flex-1">
+                                    <div className="flex items-center gap-3 mb-2">
+                                      {version.badge && (
+                                        <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${version.badgeColor}`}>
+                                          {version.badge}
+                                        </span>
+                                      )}
+                                      <h4 className="text-lg font-bold text-gray-800">
+                                        {version.title}
+                                      </h4>
+                                    </div>
+                                    {version.context && (
+                                      <p className="text-sm text-gray-600 italic">
+                                        {version.context}
+                                      </p>
+                                    )}
+                                  </div>
+                                  <span className={`ml-3 transition-transform ${isVersionExpanded ? 'rotate-180' : ''}`}>
+                                    ▼
+                                  </span>
+                                </div>
+
+                                {isVersionExpanded && (
+                                  <div className="mt-4 pt-4 border-t border-gray-200">
+                                    <div className="bg-white rounded-lg p-4 mb-4 shadow-sm">
+                                      <div className="text-gray-700 leading-relaxed whitespace-pre-line">
+                                        {version.content.split(/(\*\*[^*]+\*\*)/).map((part, i) => {
+                                          if (part.startsWith('**') && part.endsWith('**')) {
+                                            return <strong key={i} className="text-gray-900">{part.slice(2, -2)}</strong>;
+                                          }
+                                          return part;
+                                        })}
+                                      </div>
+                                    </div>
+                                    
+                                    {(version.hook || version.mic_drop) && (
+                                      <div className="grid md:grid-cols-2 gap-3 mb-3">
+                                        {version.hook && (
+                                          <div className="bg-orange-50 rounded-lg p-3">
+                                            <p className="font-bold text-orange-700 text-xs mb-1">🎣 Hook</p>
+                                            <p className="text-gray-700 text-sm">{version.hook}</p>
+                                          </div>
+                                        )}
+                                        {version.mic_drop && (
+                                          <div className="bg-blue-50 rounded-lg p-3">
+                                            <p className="font-bold text-blue-700 text-xs mb-1">🎤 Mic Drop</p>
+                                            <p className="text-gray-700 text-sm">{version.mic_drop}</p>
+                                          </div>
+                                        )}
+                                      </div>
+                                    )}
+
+                                    {version.tags && version.tags.length > 0 && (
+                                      <div className="flex flex-wrap gap-2">
+                                        {version.tags.map(tag => (
+                                          <span
+                                            key={tag}
+                                            className="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs"
+                                          >
+                                            #{tag}
+                                          </span>
+                                        ))}
+                                      </div>
+                                    )}
+                                  </div>
+                                )}
+                              </div>
+                            </div>
+                          );
                         })}
                       </div>
                     </div>
@@ -1418,10 +1521,10 @@ function IcebreakerModal({ language, onClose }) {
           </div>
         </div>
 
-        <div className="bg-slate-50 px-6 py-4 border-t border-slate-200 flex justify-end">
+        <div className="bg-gray-50 px-6 py-4 border-t border-gray-200 flex justify-end">
           <button
             onClick={onClose}
-            className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-medium"
+            className="px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition font-semibold"
           >
             {language === "pt" ? "Fechar" : "Close"}
           </button>
