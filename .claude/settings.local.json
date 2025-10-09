@@ -14,7 +14,8 @@
       "Bash(git add:*)",
       "Bash(git init:*)",
       "Bash(git commit:*)",
-      "Bash(git branch:*)"
+      "Bash(git branch:*)",
+      "Read(//d/github2/**)"
     ],
     "deny": [],
     "ask": []
