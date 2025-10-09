@@ -12,51 +12,57 @@ const icebreakerData = {
       category: "Apresentação Pessoal",
       versions: [
         {
-          id: "versao_executiva_impacto",
-          title: "Versão Executiva - Foco em Impacto (2-3 min)",
-          context: "Para Gabriela Bonelle ou entrevistadores sênior",
+          id: "versao_pessoal",
+          title: "Versão Pessoal",
+          badge: "Pessoal",
+          badgeColor: "bg-blue-500",
+          context: "Para criar conexão humana e quebrar o gelo",
+          content: `Sou Leonardo Menezes, gaúcho de Porto Alegre, 40 anos, casado com a Thais e pai da Livia, que tem 10 anos. Além da minha paixão por transformação digital, sou uma pessoa curiosa por natureza - gosto de estar sempre atualizado sobre o que está acontecendo no mundo e as novas tendências, especialmente em tecnologia e inovação.
+
+Nos meus momentos livres, você me encontra jogando xadrez (adoro a estratégia do jogo, que muito me lembra os desafios que enfrento no trabalho) ou tocando guitarra para relaxar. Também sou um leitor ávido - estou sempre com um livro sobre estratégia, tecnologia ou liderança.
+
+O que me move profissionalmente é a mesma curiosidade que me move pessoalmente: entender como as coisas funcionam e como podem ser melhoradas. Essa combinação de pensamento analítico (do xadrez), criatividade (da música) e aprendizado contínuo (dos livros) se reflete na minha forma de liderar projetos e resolver problemas complexos.`,
+          tags: ["pessoal", "família", "hobbies", "conexão humana"],
+          hook: "Gaúcho, pai, curioso por natureza",
+          mic_drop: "Xadrez, guitarra e tecnologia - combinação perfeita para resolver problemas complexos"
+        },
+        {
+          id: "versao_profissional",
+          title: "Versão Profissional",
+          badge: "Profissional",
+          badgeColor: "bg-green-500",
+          context: "Para destacar expertise e track record",
           content: `Sou Leonardo Menezes, um líder em transformação digital com 15+ anos gerando valor mensurável em escala. Ao longo da minha carreira, liderei programas que criaram mais de US$ 300 milhões em valor para organizações como Huawei, HSBC, Bradesco, Sicredi e Unimed.
 
-Minha trajetória começou na Huawei, onde por 6 anos liderei a infraestrutura de telecomunicações que conectou o Brasil ao 4G. Entreguei a primeira estação 4G do país em 2012 e coordenei toda a conectividade da Copa do Mundo 2014. O que me diferenciou foi mergulhar no detalhe operacional: redesenhei processos que reduziram SLAs de 382 para 62 dias, gerando US$ 120 milhões em eficiência.
+Minha trajetória é marcada por três pilares: **infraestrutura crítica**, **transformação financeira** e **inovação em setores tradicionais**. Na Huawei, construí a base do 4G no Brasil - entreguei a primeira estação em 2012 e coordenei a conectividade da Copa 2014. No setor financeiro, liderei a migração de US$ 3 bilhões do HSBC para o Bradesco sem falhas e co-liderei o lançamento do Banco Digital Next.
 
-Depois migrei para o setor financeiro, onde liderei a transformação mais crítica da história bancária brasileira: a migração de US$ 3 bilhões em ativos do HSBC para o Bradesco, com zero perda de dados e compliance total. Também co-liderei o lançamento do Banco Digital Next, competindo diretamente com Nubank.
+Mais recentemente, tenho focado em **IA aplicada**: na Unimed, implementei automação que reduziu 30% o tempo de processamento de sinistros gerando US$ 45M em savings. No Sicredi, meus modelos de ML aceleraram aprovações em 40%. Atualmente na SEFAZ-RS, modernizo a gestão fiscal usando frameworks de value-based management.
 
-Nos últimos anos, tenho focado em aplicar IA e automação em setores tradicionais. Na Unimed, implementei soluções que reduziram 30% o tempo de processamento de sinistros e lancei produtos digitais que hoje representam US$ 16 milhões em receita. Atualmente na SEFAZ-RS, estou modernizando a gestão fiscal do estado através de frameworks de value-based management.
-
-O que me motiva é transformar complexidade em simplicidade, sempre com foco em resultados mensuráveis e impacto real no cliente final.`,
+O que me diferencia é a capacidade de mergulhar no detalhe técnico mantendo visão estratégica - sou igualmente confortável discutindo arquitetura de sistemas com engenheiros ou ROI com CFOs.`,
           tags: ["executiva", "impacto", "liderança", "resultados"],
-          hook: "US$ 300 milhões em valor gerado",
-          mic_drop: "Transformar complexidade em simplicidade com impacto mensurável"
+          hook: "US$ 300 milhões em valor gerado em 15+ anos",
+          mic_drop: "Detalhe técnico com visão estratégica - do código ao boardroom"
         },
         {
-          id: "versao_pagamentos_ai",
-          title: "Versão Pagamentos & AI (2 min)",
-          context: "Para entrevistadores técnicos ou foco na vaga específica",
-          content: `Sou Leonardo Menezes, especialista em transformação de operações de pagamento através de IA e automação. Minha experiência única combina 15+ anos em infraestrutura crítica com expertise recente em machine learning aplicado a fintech.
+          id: "versao_amazoniana",
+          title: "Versão Amazoniana",
+          badge: "Amazon DNA",
+          badgeColor: "bg-orange-500",
+          context: "Alinhada aos Leadership Principles da Amazon",
+          content: `Sou Leonardo Menezes, e minha carreira é uma demonstração prática dos Leadership Principles da Amazon em ação.
 
-Comecei construindo a infraestrutura que sustenta os pagamentos digitais hoje: na Huawei, liderei o rollout do 4G que habilitou o PIX e pagamentos móveis no Brasil. Depois, no setor financeiro, gerenciei operações de pagamento em escala bilionária - migrei US$ 3 bilhões em ativos entre bancos sem uma única falha transacional.
+**Customer Obsession**: Sempre começo pelo cliente. Na Huawei, quando SLAs estavam em 382 dias, não aceitei - mergulhei no problema e redesenhei processos que levaram a 62 dias. Na Unimed, cada decisão de produto era validada com usuários reais, resultando em NPS +6 pontos.
 
-Nos últimos anos, tenho focado em aplicar IA para otimizar operações de pagamento. No Sicredi, implementei modelos de ML para credit scoring e fraud detection que aceleraram aprovações em 40%. Na Unimed, automatizei processamento de sinistros com IA, reduzindo cycle time em 30% e gerando US$ 45 milhões em savings anuais.
+**Dive Deep**: Não delego o entendimento técnico. No HSBC, eu mesmo conduzi root cause analysis de compliance FATCA. Na Unimed, escrevi queries SQL para validar modelos de ML. Acredito que liderança efetiva exige domínio do detalhe.
 
-Minha abordagem é sempre data-driven: uso métricas como Payment Success Rate, Authorization Rate e Process Cycle Time para medir impacto real. Também tenho experiência com metodologias Lean Six Sigma, que aplico para identificar waste em processos de pagamento e criar soluções sustentáveis.
+**Deliver Results**: Meu track record fala por si - US$ 300M+ em valor gerado. No Bradesco, migrei US$ 3Bi com zero falhas. No Sicredi, 15+ produtos digitais geraram US$ 50M em receita incremental. Comprometimento com outcomes, não apenas outputs.
 
-O que me diferencia é combinar visão estratégica com execução hands-on, sempre focando em customer obsession e operational excellence.`,
-          tags: ["pagamentos", "IA", "técnica", "métricas"],
-          hook: "Especialista em transformação de operações de pagamento através de IA",
-          mic_drop: "Visão estratégica com execução hands-on, customer obsession e operational excellence"
-        },
-        {
-          id: "versao_concisa_poderosa",
-          title: "Versão Concisa & Poderosa (1 min)",
-          context: "Para situações de tempo limitado ou icebreaker rápido",
-          content: `Sou Leonardo Menezes, líder em transformação digital com track record de US$ 300+ milhões em valor gerado. Nos últimos 15 anos, liderei programas críticos que conectaram o Brasil ao 4G, migraram bilhões em ativos bancários sem falhas, e implementaram IA que automatizou operações complexas.
+**Invent and Simplify**: Na Huawei, transformei complexidade (20 fornecedores, múltiplos reguladores) em simplicidade (um War Room, um dashboard, uma regra: 24h para resolver). Essa mentalidade me acompanha em cada projeto.
 
-Minha expertise está em transformar desafios operacionais em oportunidades de crescimento. Recentemente, implementei soluções de machine learning que reduziram custos em US$ 45 milhões anuais e lancei produtos digitais que geram US$ 16 milhões em receita.
-
-Sou movido por customer obsession e operational excellence. Busco oportunidades onde posso aplicar minha experiência em pagamentos, IA e transformação operacional para gerar impacto significativo em escala Amazon.`,
-          tags: ["concisa", "impacto", "customer obsession", "operational excellence"],
-          hook: "US$ 300+ milhões em valor gerado",
-          mic_drop: "Customer obsession e operational excellence em escala Amazon"
+**Ownership**: Nunca digo "não é minha responsabilidade". No HSBC, assumi pessoalmente negociações com BACEN e auditores. Ownership end-to-end é meu padrão operacional.`,
+          tags: ["leadership principles", "customer obsession", "ownership", "deliver results"],
+          hook: "Leadership Principles da Amazon em ação",
+          mic_drop: "Customer obsession + dive deep + deliver results = meu DNA profissional"
         }
       ]
     },
@@ -69,6 +75,8 @@ Sou movido por customer obsession e operational excellence. Busco oportunidades 
         {
           id: "versao_leadership_principles",
           title: "Versão Leadership Principles",
+          badge: "LP Focus",
+          badgeColor: "bg-orange-500",
           content: `A Amazon sempre me fascinou porque é onde customer obsession não é apenas um discurso, mas está no DNA de cada decisão. Ao longo da minha carreira, sempre priorizei o impacto no cliente final - seja entregando a primeira estação 4G do Brasil para conectar pessoas, ou implementando IA que reduz tempo de processamento de sinistros de saúde.
 
 O que mais me atrai são os Leadership Principles, especialmente "Dive Deep" e "Invent and Simplify". Na Huawei, mergulhei tão fundo nos processos operacionais que redesenhei workflows que reduziram SLAs de 382 para 62 dias. Na Unimed, simplifiquei operações complexas através de automação, gerando US$ 45 milhões em savings.
@@ -83,6 +91,8 @@ A Amazon representa a combinação perfeita de escala, inovação e impacto. Que
         {
           id: "versao_pagamentos_flywheel",
           title: "Versão Pagamentos & Flywheel",
+          badge: "Payments",
+          badgeColor: "bg-green-500",
           content: `A Amazon me fascina porque é onde posso aplicar minha experiência em pagamentos para acelerar o flywheel de crescimento mais poderoso do mundo. Entendo como operações de pagamento eficientes reduzem custos, melhoram experiência do cliente e habilitam mais seleção - criando um ciclo virtuoso de crescimento.
 
 Minha experiência é exatamente o que a Amazon precisa: liderei operações de pagamento em escala bilionária, implementei IA para otimizar authorization rates e process cycle time, e tenho expertise em compliance regulatório crítico. No Sicredi, meus modelos de ML aumentaram payment success rate em 25%, gerando US$ 50 milhões em revenue adicional.
@@ -93,6 +103,24 @@ A Amazon é onde posso combinar minha paixão por inovação com impacto em esca
           tags: ["pagamentos", "flywheel", "crescimento", "inovação"],
           hook: "Aplicar experiência em pagamentos para acelerar o flywheel mais poderoso do mundo",
           mic_drop: "Liderar transformação de pagamentos no Brasil com PIX e Open Finance"
+        },
+        {
+          id: "versao_pessoal_motivacao",
+          title: "Versão Pessoal & Motivação",
+          badge: "Motivação",
+          badgeColor: "bg-blue-500",
+          content: `Quando penso na Amazon, vejo a combinação perfeita do que me move: **escala, impacto e desafio constante**.
+
+Como gaúcho, valorizo trabalho duro e resultados tangíveis - não promessas, mas entregas. A Amazon corporifica isso: é uma empresa que **age**, não apenas planeja. Essa mentalidade de "bias for action" está no meu DNA desde a Huawei, quando entregamos a Copa 2014 sem falhas.
+
+Como pai, penso muito no futuro que estou construindo. Quero que minha filha Livia cresça vendo que é possível transformar o mundo através de tecnologia e inovação responsável. A Amazon está na vanguarda dessa transformação - de IA a sustentabilidade, de logística a pagamentos digitais.
+
+Como profissional curioso, preciso de um ambiente que me desafie constantemente. Adoro estudar novas tecnologias, estar atualizado sobre tendências - e a Amazon é o lugar onde inovação não é evento, é rotina diária. É onde posso aprender com os melhores e contribuir para redefinir indústrias.
+
+Minha carreira sempre foi sobre escolher o desafio mais difícil (migração bancária bilionária, lançar banco digital, transformar cooperativa tradicional). A Amazon representa o próximo nível: **impactar milhões de clientes em escala global**, mantendo obsessão pelo detalhe e pela excelência operacional.`,
+          tags: ["motivação", "valores", "impacto", "desafio"],
+          hook: "Escala + impacto + desafio constante",
+          mic_drop: "Construir o futuro através de tecnologia e obsessão pelo cliente"
         }
       ]
     },
