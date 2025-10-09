@@ -9,7 +9,7 @@ export const questionsToCasesMapping = {
       "score": 98
     },
     "0_alt1": {
-      "case_id": "sicredi-frictionless-checkout",
+      "case_id": "sicredi-small-business-survival",
       "score": 90
     },
     "0_alt2": {
@@ -17,23 +17,23 @@ export const questionsToCasesMapping = {
       "score": 88
     },
     "1": {
-      "case_id": "bradesco-next-customer-ritual",
+      "case_id": "unimed-cancer-patient-journey",
       "score": 90
     },
     "2": {
-      "case_id": "bradesco-next-customer-ritual",
+      "case_id": "sicredi-woop-segment-balance",
       "score": 90
     },
     "3": {
-      "case_id": "sicredi-frictionless-checkout",
+      "case_id": "sicredi-small-business-survival",
       "score": 85
     },
     "4": {
-      "case_id": "sicredi-frictionless-checkout",
+      "case_id": "bradesco-elderly-digital-inclusion",
       "score": 88
     },
     "5": {
-      "case_id": "sicredi-frictionless-checkout",
+      "case_id": "unimed-pet-anticipation",
       "score": 92
     },
     "6": {
@@ -41,15 +41,15 @@ export const questionsToCasesMapping = {
       "score": 85
     },
     "7": {
-      "case_id": "sicredi-frictionless-checkout",
+      "case_id": "sicredi-small-business-survival",
       "score": 90
     },
     "8": {
-      "case_id": "bradesco-next-customer-ritual",
+      "case_id": "sicredi-woop-segment-balance",
       "score": 90
     },
     "9": {
-      "case_id": "sicredi-frictionless-checkout",
+      "case_id": "bradesco-elderly-digital-inclusion",
       "score": 85
     },
     "10": {
@@ -57,7 +57,7 @@ export const questionsToCasesMapping = {
       "score": 90
     },
     "11": {
-      "case_id": "bradesco-next-customer-ritual",
+      "case_id": "sicredi-small-business-survival",
       "score": 85
     },
     "12": {
@@ -443,7 +443,7 @@ export const questionsToCasesMapping = {
       "score": 88
     },
     "12": {
-      "case_id": "huawei-hybrid-cloud-architecture",
+      "case_id": "sicredi-api-pricing-model",
       "score": 92
     }
   },
@@ -801,25 +801,25 @@ export const questionsToCasesMapping = {
     }
   },
   "bias_for_action": {
-    // === CASE: sicredi-ml-credit-analysis (5 mappings) - PHASE 3 ===
+    // === CASE: sicredi-ml-credit-approval (5 mappings) - PHASE 3 ===
     "0": {
-      "case_id": "sicredi-ml-credit-analysis",
+      "case_id": "sicredi-ml-credit-approval",
       "score": 98
     },
     "1": {
-      "case_id": "sicredi-ml-credit-analysis",
+      "case_id": "sicredi-ml-credit-approval",
       "score": 95
     },
     "2": {
-      "case_id": "sicredi-ml-credit-analysis",
+      "case_id": "sicredi-ml-credit-approval",
       "score": 92
     },
     "3": {
-      "case_id": "sicredi-ml-credit-analysis",
+      "case_id": "sicredi-ml-credit-approval",
       "score": 90
     },
     "4": {
-      "case_id": "sicredi-ml-credit-analysis",
+      "case_id": "sicredi-ml-credit-approval",
       "score": 88
     },
     // === CASE: sicredi-fraud-emergency-4h-decision (4 mappings) - PHASE 3 ===
@@ -1048,7 +1048,7 @@ export const questionsToCasesMapping = {
       "score": 98
     },
     "14": {
-      "case_id": "bradesco-next-estimation-error",
+      "case_id": "sicredi-post-mortem-transparency",
       "score": 95
     },
     "15": {
