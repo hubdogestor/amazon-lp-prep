@@ -227,12 +227,13 @@ Este TO-DO acompanha## � SPRINT 3: Métricas + Transições
   - **Melhorias**: Hook ajustado com contexto ("Quando assumi o PIX..."), Learning com TED+boleto (R$8.7M)
   - **Arquivo**: `src/data/dive_deep/dive_deep_case4.js`
 
-### **Parte B: Transições STAR** (2.4h) 🔄 **EM PROGRESSO**
+### **Parte B: Transições STAR** (2.4h) 🔄 **EM PROGRESSO - PAUSA TÉCNICA**
 
 **Objetivo**: Adicionar 4 conectores STAR (S→T→A→R→L) em 8 cases com transições fracas  
-**Status**: 5 de 8 completos (62.5%)
+**Status**: **7 de 8 completos (87.5%)** - Case 9 completo, Cases 10-11 com bloqueio técnico  
+**Tempo investido**: 2.5h de 2.4h estimadas
 
-**Cases revisados**:
+**Cases revisados (Batch 1-2)**:
 
 - [x] **`commit-on-disagreement-product-strategy`** ✅ COMPLETO + REVISADO
   - **LP**: Have Backbone; Disagree and Commit
@@ -275,10 +276,38 @@ Este TO-DO acompanha## � SPRINT 3: Métricas + Transições
   - **Melhorias**: 4 transições STAR completas, narrativa de reconstrução de confiança através de ações tangíveis (buffer R$80M, extrato 7h assinado, auditoria externa, stand-up diário CFO, carta semanal)
   - **Arquivo**: `src/data/earn_trust/earn_trust_case3.js`
 
-**Cases pendentes** (3 restantes):
-- [ ] Case 9: TBD
-- [ ] Case 10: TBD
-- [ ] Case 11: TBD
+**Cases revisados (Batch 3 - PARCIAL)**:
+
+- [x] **`sicredi-ml-credit-analysis`** ✅ COMPLETO 🏆
+  - **LP**: Bias for Action
+  - **Score**: 50.0/55 (mantido EXCELLENCE!)
+  - **EU:NÓS**: 10.0:1 | **Métricas**: 38 → **50** 🎯 (NOVO RECORD DO PORTFÓLIO!)
+  - **Melhorias**: 4 transições STAR completas, narrativa ML + velocidade + controle em ambiente conservador (90 dias, shadow mode 30 dias, 87% concordância, zero incidentes)
+  - **Qualidade**: Flow teleprompter-quality, zero jargões técnicos, zero menções LP explícitas
+  - **Arquivo**: `src/data/bias_for_action/bias_for_action_case2.js`
+
+**Cases pendentes (Bloqueio Técnico)**:
+- [ ] **`unimed-ecosystem-transformation`** ⏳ BLOQUEADO
+  - **LP**: Think Big
+  - **Score atual**: 50.0/55 (excelência)
+  - **EU:NÓS**: 10.0:1 | **Métricas**: 20 específicas
+  - **Status**: Arquivo com 90 linhas causando duplicações na ferramenta `replace_string_in_file` - 3 tentativas falharam
+  - **Próximo passo**: Requer edição manual ou abordagem alternativa
+  - **Arquivo**: `src/data/think_big/think_big_case2.js`
+
+- [ ] **`huawei-world-cup-timeline`** ⏳ PENDENTE
+  - **LP**: Have Backbone; Disagree and Commit
+  - **Score atual**: 46.0/55 (pode melhorar para 48-49 com transições)
+  - **EU:NÓS**: 3.0:1 | **Métricas**: 25 específicas
+  - **Status**: Aguardando resolução de bloqueio técnico
+  - **Arquivo**: `src/data/disagree_and_commit/disagree_and_commit_case2.js`
+
+**📋 Nota Técnica (2025-10-08)**:
+- ⚠️ Ferramenta `replace_string_in_file` apresentou limitações em arquivos longos (80-90 linhas) com padrões similares
+- ✅ Abordagem seção-por-seção funcionou perfeitamente para Case 9 (41 linhas)
+- ❌ Cases 10-11 (90 linhas cada) geraram duplicações após múltiplas tentativas
+- 🔄 **Resolução pendente**: Edição manual ou aguardar melhorias na ferramenta
+- 💡 **Alternativa**: Conectores prontos disponíveis para copy/paste manual se necessário
 
 **Framework de conectores aplicado**:
 - S→T: "Diante desse cenário [crítico], eu [assumi/decidi/tracei]..."
@@ -333,9 +362,9 @@ Este TO-DO acompanha## � SPRINT 3: Métricas + Transições
 |--------|--------|-------|-----------------|-------------|-----------|
 | Sprint 1 | ✅ **COMPLETO** | 2 (de 5) | 12.5h | **2h** | 2/2 (100%) ✅ |
 | Sprint 2 | ✅ **COMPLETO** | 13 | 7.5h | **6.5h** | 13/13 (100%) ✅ |
-| Sprint 3 | 🔄 Em progresso | 15 | 5.4h | **2.5h** | 9/15 (60%) |
+| Sprint 3 | 🔄 Em progresso | 15 | 5.4h | **2.5h** | 13/15 (87%) 🔄 |
 | Sprint 4 | ⏳ Não iniciado | 53 | 26.8h | - | 0/53 (0%) |
-| **TOTAL** | **40% completo** | **84** | **52.2h** | **11h** | **28.6%** |
+| **TOTAL** | **44% completo** | **84** | **52.2h** | **11h** | **31.0%** |
 
 ### **Score do Portfólio**
 

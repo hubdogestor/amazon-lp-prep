@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T01:57:27.724Z",
+  "generated_at": "2025-10-09T02:18:00.832Z",
   "total_cases": 71,
   "cases_scored": [
     {
@@ -2451,10 +2451,10 @@
       "company": "Sicredi Woop",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 39,
-        "specific_metrics_count": 38,
+        "metrics_count": 51,
+        "specific_metrics_count": 50,
         "generic_terms_count": 0,
-        "word_count_pt": 982,
+        "word_count_pt": 1184,
         "word_count_en": 884,
         "fup_count": 11
       },
@@ -2486,13 +2486,13 @@
         },
         {
           "type": "percentage",
-          "value": "36",
-          "context": "36%"
+          "value": "31",
+          "context": "31%"
         },
         {
           "type": "percentage",
-          "value": "0,6",
-          "context": "0,6%"
+          "value": "36",
+          "context": "36%"
         }
       ],
       "needs_manual_review": false
