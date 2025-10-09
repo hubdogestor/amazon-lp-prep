@@ -536,6 +536,18 @@ export const questionsToCasesMapping = {
     "9_alt1": {
       "case_id": "stay-updated-payments-fintech",
       "score": 85
+    },
+
+    // === CASE: unimed-cvc-failure-learning (2 mappings - NEW) ===
+    // Q10: Project that failed - CVC launch failure (98)
+    // Q11: Learned from mistakes - DMAIC applied to failure (98)
+    "10": {
+      "case_id": "unimed-cvc-failure-learning",
+      "score": 98
+    },
+    "11": {
+      "case_id": "unimed-cvc-failure-learning",
+      "score": 98
     }
   },
   "hire_and_develop_the_best": {

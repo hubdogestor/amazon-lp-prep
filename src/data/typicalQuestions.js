@@ -123,7 +123,9 @@ const typicalQuestions = {
       "Me fale sobre algo que você aprendeu que te tornou melhor no seu trabalho",
       "Descreva uma área onde você identificou uma lacuna de conhecimento e como você a preencheu",
       "Como você explora novas possibilidades mesmo quando está ocupado com o dia a dia?",
-      "Conte sobre quando você aplicou aprendizados de uma área completamente diferente ao seu trabalho"
+      "Conte sobre quando você aplicou aprendizados de uma área completamente diferente ao seu trabalho",
+      "Conte sobre um projeto que não deu certo / que você falhou",
+      "Conte sobre uma situação onde você aprendeu com erros"
     ],
     en: [
       "How do you stay updated in your area of expertise and how do you explore new areas of knowledge?",
@@ -135,7 +137,9 @@ const typicalQuestions = {
       "Tell me about something you learned that made you better at your job",
       "Describe an area where you identified a knowledge gap and how you filled it",
       "How do you explore new possibilities even when busy with day-to-day?",
-      "Tell me about when you applied learnings from a completely different area to your work"
+      "Tell me about when you applied learnings from a completely different area to your work",
+      "Tell me about a project that didn't work out / that you failed",
+      "Tell me about a situation where you learned from mistakes"
     ]
   },
   "hire_and_develop_the_best": {
