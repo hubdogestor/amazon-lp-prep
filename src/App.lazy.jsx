@@ -1,5 +1,5 @@
 import { useMemo, useState, useEffect, useCallback, lazy, Suspense } from "react";
-import { Search } from "lucide-react";
+import { Search, Copy, Check } from "lucide-react";
 import principlesDataRaw from "./data_principles.js";
 import { useDebounce } from "./hooks/useDebounce.js";
 import { useHighlight } from "./hooks/useHighlight.js";
@@ -144,6 +144,7 @@ export default function App() {
   const [showTopCases, setShowTopCases] = useState(false);
   const [language, setLanguage] = useState("pt");
   const [isSearching, setIsSearching] = useState(false);
+  const [copiedCaseId, setCopiedCaseId] = useState(null);
 
   const debouncedSearchTerm = useDebounce(searchTerm, DEBOUNCE_SEARCH_DELAY);
   const debouncedQuestionSearch = useDebounce(questionSearch, DEBOUNCE_SEARCH_DELAY);
@@ -269,6 +270,126 @@ export default function App() {
       <HighlightableText text={text} searchTerm={term} />
     </Suspense>
   ), []);
+
+  const generatePrompt = useCallback((caseData, principleData, lang) => {
+    const isPortuguese = lang === 'pt';
+    const caseContent = caseData[lang] || {};
+    const fups = getCaseFups(caseData);
+
+    let prompt = '';
+
+    if (isPortuguese) {
+      prompt = `# CONTEXTO DE ENTREVISTA - LEADERSHIP PRINCIPLES AMAZON
+
+## Princípio: ${getDisplayName(principleData, lang)}
+
+${principleData.principle ? `**Descrição do Princípio:** ${principleData.principle.description}\n` : ''}
+
+## Case: ${getDisplayCaseTitle(caseData, lang)}
+
+### STAR Framework:
+
+**Situação (Situation):**
+${caseContent.s || ''}
+
+**Tarefa (Task):**
+${caseContent.t || ''}
+
+**Ação (Action):**
+${caseContent.a || ''}
+
+**Resultado (Result):**
+${caseContent.r || ''}
+
+**Aprendizado (Learning):**
+${caseContent.l || ''}
+`;
+
+      if (fups.length > 0) {
+        prompt += `\n### Follow-up Questions (FUPs):\n\n`;
+        fups.forEach((fup, idx) => {
+          const question = fup.q || '';
+          const answer = fup.a || '';
+          prompt += `**${idx + 1}. ${question}**\n`;
+          if (answer) {
+            prompt += `${answer}\n\n`;
+          } else {
+            prompt += '\n';
+          }
+        });
+      }
+
+      prompt += `\n---
+
+**INSTRUÇÕES:**
+Estou em uma entrevista para a Amazon e acabei de compartilhar o case acima. Na próxima mensagem, vou enviar a pergunta que o entrevistador me fez. Por favor, me ajude a elaborar uma resposta natural, autêntica e que demonstre os Leadership Principles da Amazon, especialmente "${getDisplayName(principleData, lang)}".
+
+Responda como se você fosse eu, mantendo consistência com os detalhes do case compartilhado acima. Seja específico, use exemplos concretos e demonstre aprendizado.`;
+
+    } else {
+      prompt = `# INTERVIEW CONTEXT - AMAZON LEADERSHIP PRINCIPLES
+
+## Principle: ${getDisplayName(principleData, lang)}
+
+${principleData.principle ? `**Principle Description:** ${principleData.principle.description_en || principleData.principle.description}\n` : ''}
+
+## Case: ${getDisplayCaseTitle(caseData, lang)}
+
+### STAR Framework:
+
+**Situation:**
+${caseContent.s || ''}
+
+**Task:**
+${caseContent.t || ''}
+
+**Action:**
+${caseContent.a || ''}
+
+**Result:**
+${caseContent.r || ''}
+
+**Learning:**
+${caseContent.l || ''}
+`;
+
+      if (fups.length > 0) {
+        prompt += `\n### Follow-up Questions (FUPs):\n\n`;
+        fups.forEach((fup, idx) => {
+          const question = fup.q_en || fup.q || '';
+          const answer = fup.a_en || fup.a || '';
+          prompt += `**${idx + 1}. ${question}**\n`;
+          if (answer) {
+            prompt += `${answer}\n\n`;
+          } else {
+            prompt += '\n';
+          }
+        });
+      }
+
+      prompt += `\n---
+
+**INSTRUCTIONS:**
+I'm in an interview for Amazon and I've just shared the case above. In my next message, I'll send the question the interviewer asked me. Please help me craft a natural, authentic response that demonstrates Amazon's Leadership Principles, especially "${getDisplayName(principleData, lang)}".
+
+Respond as if you were me, maintaining consistency with the details from the case shared above. Be specific, use concrete examples, and demonstrate learning.`;
+    }
+
+    return prompt;
+  }, [getDisplayName, getDisplayCaseTitle]);
+
+  const copyPromptToClipboard = useCallback(async (caseData, principleData, caseKey) => {
+    const prompt = generatePrompt(caseData, principleData, language);
+
+    try {
+      await navigator.clipboard.writeText(prompt);
+      setCopiedCaseId(caseKey);
+      setTimeout(() => setCopiedCaseId(null), 2000);
+    } catch (err) {
+      console.error('Falha ao copiar:', err);
+      alert('Não foi possível copiar para a área de transferência.');
+    }
+  }, [generatePrompt, language]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
@@ -512,29 +633,31 @@ export default function App() {
                       }`}
                     >
                       <header
-                        className={`flex items-center justify-between px-5 py-4 cursor-pointer ${
+                        className={`flex items-center justify-between px-5 py-4 ${
                           open ? "bg-white/80" : "bg-white/60"
                         } hover:bg-white/90 backdrop-blur-sm`}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          const hasSearchTerm = !!searchTerm;
-                          toggleCase(c.title, principle.id, hasSearchTerm);
-                          if (hasSearchTerm) {
-                            setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
-                          }
-                        }}
-                        role="button"
-                        tabIndex={0}
-                        aria-expanded={open}
-                        aria-controls={`case-content-${caseKey}`}
-                        onKeyDown={(e) => {
-                          if (e.key === 'Enter' || e.key === ' ') {
-                            e.preventDefault();
-                            e.currentTarget.click();
-                          }
-                        }}
                       >
-                        <div className="flex items-center gap-2">
+                        <div
+                          className="flex items-center gap-2 flex-1 cursor-pointer"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            const hasSearchTerm = !!searchTerm;
+                            toggleCase(c.title, principle.id, hasSearchTerm);
+                            if (hasSearchTerm) {
+                              setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
+                            }
+                          }}
+                          role="button"
+                          tabIndex={0}
+                          aria-expanded={open}
+                          aria-controls={`case-content-${caseKey}`}
+                          onKeyDown={(e) => {
+                            if (e.key === 'Enter' || e.key === ' ') {
+                              e.preventDefault();
+                              e.currentTarget.click();
+                            }
+                          }}
+                        >
                           <h3 className="text-lg font-bold text-slate-900">
                             <HighlightedText
                               text={getDisplayCaseTitle(c, language)}
@@ -542,9 +665,48 @@ export default function App() {
                             />
                           </h3>
                         </div>
-                        <span className="text-sm text-amber-600 select-none">
-                          {open ? t.close : t.viewDetails} ▾
-                        </span>
+                        <div className="flex items-center gap-3">
+                          {open && (
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                copyPromptToClipboard(c, principle, caseKey);
+                              }}
+                              className={`flex items-center gap-2 px-3 py-1.5 text-sm rounded-lg border transition-all ${
+                                copiedCaseId === caseKey
+                                  ? 'bg-green-50 border-green-300 text-green-700'
+                                  : 'bg-white border-slate-300 text-slate-700 hover:bg-slate-50'
+                              }`}
+                              title={language === 'pt' ? 'Copiar prompt para IA' : 'Copy prompt for AI'}
+                              aria-label={language === 'pt' ? 'Gerar e copiar prompt' : 'Generate and copy prompt'}
+                            >
+                              {copiedCaseId === caseKey ? (
+                                <>
+                                  <Check className="w-4 h-4" />
+                                  <span>{language === 'pt' ? 'Copiado!' : 'Copied!'}</span>
+                                </>
+                              ) : (
+                                <>
+                                  <Copy className="w-4 h-4" />
+                                  <span>{language === 'pt' ? 'Gerar Prompt' : 'Generate Prompt'}</span>
+                                </>
+                              )}
+                            </button>
+                          )}
+                          <span
+                            className="text-sm text-amber-600 select-none cursor-pointer"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              const hasSearchTerm = !!searchTerm;
+                              toggleCase(c.title, principle.id, hasSearchTerm);
+                              if (hasSearchTerm) {
+                                setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
+                              }
+                            }}
+                          >
+                            {open ? t.close : t.viewDetails} ▾
+                          </span>
+                        </div>
                       </header>
 
                       {open && (
