@@ -272,51 +272,76 @@ O resultado foi melhoria significativa na eficiência da equipe e qualidade das 
 
     // PERGUNTAS COMPORTAMENTAIS COMUNS
     comportamentais: {
-      category: "Perguntas Comportamentais Amazon",
-      questions: [
+      question: "Perguntas Comportamentais Amazon",
+      category: "Exemplos de respostas STAR",
+      versions: [
         {
-          q: "Tell me about a time when you had to leave a task unfinished",
-          a: `**Situação**: Em 2016, durante a migração HSBC→Bradesco, eu estava liderando simultaneamente a implementação de controles FATCA e a validação de dados de clientes HNWI. Com apenas 3 semanas para deadline regulatório, percebi que não conseguiria entregar ambos com a qualidade necessária.
+          id: "tarefa_inacabada",
+          title: "Tarefa Inacabada",
+          badge: "STAR",
+          badgeColor: "bg-red-500",
+          context: "Tell me about a time when you had to leave a task unfinished",
+          content: `**Situação**: Em 2016, durante a migração HSBC→Bradesco, eu estava liderando simultaneamente a implementação de controles FATCA e a validação de dados de clientes HNWI. Com apenas 3 semanas para deadline regulatório, percebi que não conseguiria entregar ambos com a qualidade necessária.
 
 **Tarefa**: Minha responsabilidade era garantir compliance total em ambos os workstreams, mas os recursos eram limitados e a complexidade maior que o estimado.
 
 **Ação**: Tomei a decisão difícil de priorizar FATCA compliance, que tinha impacto regulatório direto. Escalei para meu diretor, apresentei análise de risco detalhada e propus postergar validação HNWI por 2 semanas. Realoquei minha melhor analista para FATCA e pessoalmente assumi tarefas técnicas de validação.
 
 **Resultado**: Entregamos FATCA compliance no prazo, evitando multas regulatórias de US$ 2+ milhões. A validação HNWI foi concluída 2 semanas depois, sem impacto nos clientes. Aprendi que ownership às vezes significa tomar decisões difíceis e comunicar riscos transparentemente.`,
-          lp: "Ownership, Customer Obsession"
+          tags: ["ownership", "customer obsession", "STAR"],
+          hook: "Priorização estratégica sob pressão regulatória",
+          mic_drop: "Ownership significa tomar decisões difíceis e comunicar riscos transparentemente"
         },
         {
-          q: "Tell me about a time when you gave a simple solution to a complex problem",
-          a: `**Situação**: Na Huawei, enfrentávamos SLAs de 382 dias para rollout de torres 4G, com 20 fornecedores e processos complexos de licenciamento que envolviam prefeituras, ANATEL e proprietários de terrenos.
+          id: "solucao_simples",
+          title: "Solução Simples para Problema Complexo",
+          badge: "STAR",
+          badgeColor: "bg-blue-500",
+          context: "Tell me about a time when you gave a simple solution to a complex problem",
+          content: `**Situação**: Na Huawei, enfrentávamos SLAs de 382 dias para rollout de torres 4G, com 20 fornecedores e processos complexos de licenciamento que envolviam prefeituras, ANATEL e proprietários de terrenos.
 
 **Tarefa**: Como Program Manager, precisava acelerar drasticamente as entregas para cumprir compromissos da Copa 2014, mas o processo tinha dezenas de dependências críticas.
 
 **Ação**: Em vez de otimizar cada etapa individualmente, criei uma solução simples: um "War Room" físico onde todos os stakeholders se reuniam diariamente. Implementei um dashboard visual único que mostrava status de cada torre em tempo real. A regra era simples: nenhum problema podia ficar mais de 24h sem solução ou escalação.
 
 **Resultado**: Reduzimos SLA de 382 para 62 dias - uma melhoria de 84%. O modelo foi replicado globalmente pela Huawei, gerando US$ 120 milhões em eficiência. A simplicidade da solução (um local, um dashboard, uma regra) resolveu a complexidade de coordenação entre múltiplos stakeholders.`,
-          lp: "Invent and Simplify, Dive Deep"
+          tags: ["invent and simplify", "dive deep", "STAR"],
+          hook: "War Room: simplicidade que resolveu complexidade multi-stakeholder",
+          mic_drop: "84% de melhoria através de simplicidade radical"
         },
         {
-          q: "Tell me about a time when you invented something",
-          a: `**Situação**: Na Unimed, processamento manual de sinistros consumia 40% do tempo da equipe médica, criando gargalos que impactavam 695k membros. Cada sinistro passava por 7 etapas manuais de validação.
+          id: "inventar_algo",
+          title: "Invenção / Inovação",
+          badge: "STAR",
+          badgeColor: "bg-purple-500",
+          context: "Tell me about a time when you invented something",
+          content: `**Situação**: Na Unimed, processamento manual de sinistros consumia 40% do tempo da equipe médica, criando gargalos que impactavam 695k membros. Cada sinistro passava por 7 etapas manuais de validação.
 
 **Tarefa**: Como Strategy Advisor, precisava encontrar uma solução que reduzisse workload sem comprometer qualidade médica ou compliance regulatório.
 
 **Ação**: Inventei um sistema de "AI Triage" que combinava OCR para documentos médicos, NLP para análise de laudos e ML para classificação de risco. O diferencial foi criar regras de negócio que permitiam aprovação automática para casos de baixo risco (60% do volume) e escalação inteligente para casos complexos.
 
 **Resultado**: Reduzimos tempo de processamento em 30%, liberando médicos para atividades de maior valor. O sistema processa hoje 85% dos sinistros automaticamente, gerando US$ 45 milhões em savings anuais. A solução foi patenteada e está sendo licenciada para outras cooperativas de saúde.`,
-          lp: "Invent and Simplify, Customer Obsession"
+          tags: ["invent and simplify", "customer obsession", "STAR"],
+          hook: "AI Triage: automação de 85% dos sinistros com qualidade médica",
+          mic_drop: "Solução patenteada gerando US$ 45M/ano em savings"
         },
         {
-          q: "Tell me about a time when you took a calculated risk",
-          a: `**Situação**: Durante lançamento do Banco Digital Next no Bradesco, descobrimos 72h antes do go-live que nosso sistema de antifraude tinha falso positivo de 15% - bloquearia clientes legítimos na abertura de conta.
+          id: "risco_calculado",
+          title: "Risco Calculado",
+          badge: "STAR",
+          badgeColor: "bg-orange-500",
+          context: "Tell me about a time when you took a calculated risk",
+          content: `**Situação**: Durante lançamento do Banco Digital Next no Bradesco, descobrimos 72h antes do go-live que nosso sistema de antifraude tinha falso positivo de 15% - bloquearia clientes legítimos na abertura de conta.
 
 **Tarefa**: Como Program Manager, precisava decidir entre adiar o lançamento (impacto de US$ 5+ milhões em marketing) ou lançar com risco controlado.
 
 **Ação**: Calculei o risco: analisei dados históricos, estimei que 15% de falso positivo resultaria em 3k clientes bloqueados no primeiro mês. Propus lançamento com monitoramento 24/7 e squad dedicada para resolver casos manualmente. Criei dashboard em tempo real e processo de escalação para casos críticos.
 
 **Resultado**: Lançamos no prazo, capturamos 50k novos clientes no primeiro mês. Resolvemos 98% dos falsos positivos em menos de 2h. Após 30 dias, ajustamos algoritmos e reduzimos falso positivo para 3%. O risco calculado permitiu capturar market share crítico contra Nubank.`,
-          lp: "Bias for Action, Ownership"
+          tags: ["bias for action", "ownership", "STAR"],
+          hook: "Lançamento estratégico com gestão de risco em tempo real",
+          mic_drop: "50k clientes capturados com 98% de resolução em <2h"
         }
       ]
     },
@@ -635,51 +660,76 @@ The result was significant improvement in team efficiency and delivery quality. 
 
     // BEHAVIORAL COMMON QUESTIONS
     comportamentais: {
-      category: "Amazon Behavioral Questions",
-      questions: [
+      question: "Amazon Behavioral Questions",
+      category: "STAR Response Examples",
+      versions: [
         {
-          q: "Tell me about a time when you had to leave a task unfinished",
-          a: `**Situation**: In 2016, during the HSBC→Bradesco migration, I was simultaneously leading FATCA controls implementation and HNWI client data validation. With only 3 weeks to regulatory deadline, I realized I couldn't deliver both with necessary quality.
+          id: "unfinished_task",
+          title: "Unfinished Task",
+          badge: "STAR",
+          badgeColor: "bg-red-500",
+          context: "Tell me about a time when you had to leave a task unfinished",
+          content: `**Situation**: In 2016, during the HSBC→Bradesco migration, I was simultaneously leading FATCA controls implementation and HNWI client data validation. With only 3 weeks to regulatory deadline, I realized I couldn't deliver both with necessary quality.
 
 **Task**: My responsibility was to ensure total compliance in both workstreams, but resources were limited and complexity greater than estimated.
 
 **Action**: I made the difficult decision to prioritize FATCA compliance, which had direct regulatory impact. I escalated to my director, presented detailed risk analysis and proposed postponing HNWI validation by 2 weeks. I reallocated my best analyst to FATCA and personally took on technical validation tasks.
 
 **Result**: We delivered FATCA compliance on time, avoiding regulatory fines of $2+ million. HNWI validation was completed 2 weeks later, with no impact on clients. I learned that ownership sometimes means making difficult decisions and communicating risks transparently.`,
-          lp: "Ownership, Customer Obsession"
+          tags: ["ownership", "customer obsession", "STAR"],
+          hook: "Strategic prioritization under regulatory pressure",
+          mic_drop: "Ownership means making difficult decisions and communicating risks transparently"
         },
         {
-          q: "Tell me about a time when you gave a simple solution to a complex problem",
-          a: `**Situation**: At Huawei, we faced 382-day SLAs for 4G tower rollout, with 20 suppliers and complex licensing processes involving municipalities, ANATEL and landowners.
+          id: "simple_solution",
+          title: "Simple Solution to Complex Problem",
+          badge: "STAR",
+          badgeColor: "bg-blue-500",
+          context: "Tell me about a time when you gave a simple solution to a complex problem",
+          content: `**Situation**: At Huawei, we faced 382-day SLAs for 4G tower rollout, with 20 suppliers and complex licensing processes involving municipalities, ANATEL and landowners.
 
 **Task**: As Program Manager, I needed to drastically accelerate deliveries to meet 2014 World Cup commitments, but the process had dozens of critical dependencies.
 
 **Action**: Instead of optimizing each step individually, I created a simple solution: a physical "War Room" where all stakeholders met daily. I implemented a single visual dashboard showing each tower's status in real-time. The rule was simple: no problem could stay more than 24h without solution or escalation.
 
 **Result**: We reduced SLA from 382 to 62 days - an 84% improvement. The model was replicated globally by Huawei, generating $120 million in efficiency. The simplicity of the solution (one location, one dashboard, one rule) solved the complexity of coordination among multiple stakeholders.`,
-          lp: "Invent and Simplify, Dive Deep"
+          tags: ["invent and simplify", "dive deep", "STAR"],
+          hook: "War Room: simplicity that solved multi-stakeholder complexity",
+          mic_drop: "84% improvement through radical simplicity"
         },
         {
-          q: "Tell me about a time when you invented something",
-          a: `**Situation**: At Unimed, manual claims processing consumed 40% of medical team's time, creating bottlenecks impacting 695k members. Each claim went through 7 manual validation steps.
+          id: "invented_something",
+          title: "Innovation / Invention",
+          badge: "STAR",
+          badgeColor: "bg-purple-500",
+          context: "Tell me about a time when you invented something",
+          content: `**Situation**: At Unimed, manual claims processing consumed 40% of medical team's time, creating bottlenecks impacting 695k members. Each claim went through 7 manual validation steps.
 
 **Task**: As Strategy Advisor, I needed to find a solution that reduced workload without compromising medical quality or regulatory compliance.
 
 **Action**: I invented an "AI Triage" system combining OCR for medical documents, NLP for report analysis, and ML for risk classification. The differentiator was creating business rules that allowed automatic approval for low-risk cases (60% of volume) and intelligent escalation for complex cases.
 
 **Result**: We reduced processing time by 30%, freeing physicians for higher-value activities. The system today processes 85% of claims automatically, generating $45 million in annual savings. The solution was patented and is being licensed to other health cooperatives.`,
-          lp: "Invent and Simplify, Customer Obsession"
+          tags: ["invent and simplify", "customer obsession", "STAR"],
+          hook: "AI Triage: 85% claims automation with medical quality",
+          mic_drop: "Patented solution generating $45M/year in savings"
         },
         {
-          q: "Tell me about a time when you took a calculated risk",
-          a: `**Situation**: During Next Digital Bank launch at Bradesco, we discovered 72h before go-live that our anti-fraud system had 15% false positive - it would block legitimate customers at account opening.
+          id: "calculated_risk",
+          title: "Calculated Risk",
+          badge: "STAR",
+          badgeColor: "bg-orange-500",
+          context: "Tell me about a time when you took a calculated risk",
+          content: `**Situation**: During Next Digital Bank launch at Bradesco, we discovered 72h before go-live that our anti-fraud system had 15% false positive - it would block legitimate customers at account opening.
 
 **Task**: As Program Manager, I needed to decide between postponing launch (impact of $5+ million in marketing) or launching with controlled risk.
 
 **Action**: I calculated the risk: analyzed historical data, estimated that 15% false positive would result in 3k blocked customers in first month. I proposed launch with 24/7 monitoring and dedicated squad to resolve cases manually. I created real-time dashboard and escalation process for critical cases.
 
 **Result**: We launched on time, captured 50k new customers in first month. We resolved 98% of false positives in less than 2h. After 30 days, we adjusted algorithms and reduced false positive to 3%. The calculated risk allowed us to capture critical market share against Nubank.`,
-          lp: "Bias for Action, Ownership"
+          tags: ["bias for action", "ownership", "STAR"],
+          hook: "Strategic launch with real-time risk management",
+          mic_drop: "50k customers captured with 98% resolution in <2h"
         }
       ]
     },
