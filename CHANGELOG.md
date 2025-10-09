@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.2.0] - 2025-10-09
+
+### 📋 Documentation Enhancement - LP Cases Inventory
+
+#### New Comprehensive Document
+- **LP-CASES-INVENTORY.md** - Complete inventory of all Leadership Principles with correlated cases
+  - All 16 Leadership Principles documented
+  - 71+ cases catalogued with full details
+  - Bilingual titles (PT/EN)
+  - Company and period information
+  - Top Cases marked (🎯)
+  - Complete statistics by LP and company
+
+#### Key Features
+- **Quick Index**: Direct navigation to all 16 LPs
+- **Structured Format**: Clear sections for each LP
+- **Visual Indicators**: Emojis for better identification
+- **Complete Metadata**: Company, period, language variants
+- **Statistics**: Distribution by LP, companies, and Top Cases
+
+#### Backup
+- Created v3.2.0 backup at `archives/backups/v3.2.0/`
+- Backup file: `amazon-lp-prep-v3.2.0-2025-10-09.tar.gz` (717 KB)
+- Includes all source files, case-review, documentation, and configs
+- Excludes: node_modules, .git, dist, archives, .vscode
+
+---
+
 ## [3.1.0] - 2025-10-07
 
 ### 🎉 Project Completion - 100% Coverage Achieved
