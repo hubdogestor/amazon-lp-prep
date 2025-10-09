@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T01:31:47.390Z",
+  "generated_at": "2025-10-09T01:39:37.576Z",
   "total_cases": 71,
   "cases_scored": [
     {
@@ -540,11 +540,11 @@
       "company": "SEFAZ/RS",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 17,
-        "specific_metrics_count": 15,
+        "metrics_count": 20,
+        "specific_metrics_count": 18,
         "generic_terms_count": 0,
-        "word_count_pt": 444,
-        "word_count_en": 383,
+        "word_count_pt": 607,
+        "word_count_en": 541,
         "fup_count": 10
       },
       "scores": {
@@ -579,9 +579,9 @@
           "context": "25%"
         },
         {
-          "type": "currency",
-          "value": "18M",
-          "context": "R$ 18M"
+          "type": "percentage",
+          "value": "67",
+          "context": "67%"
         }
       ],
       "needs_manual_review": false
@@ -592,12 +592,12 @@
       "title_pt": "Assumi Trade-off: Menos Escopo Agora por Maior Robustez",
       "company": "Bradesco Next",
       "auto_calculated": {
-        "eu_nos_ratio": 23,
-        "metrics_count": 28,
-        "specific_metrics_count": 27,
+        "eu_nos_ratio": 4,
+        "metrics_count": 26,
+        "specific_metrics_count": 25,
         "generic_terms_count": 1,
-        "word_count_pt": 1016,
-        "word_count_en": 932,
+        "word_count_pt": 811,
+        "word_count_en": 743,
         "fup_count": 10
       },
       "scores": {
@@ -628,13 +628,13 @@
         },
         {
           "type": "percentage",
-          "value": "+45",
-          "context": "+45%"
+          "value": "99,9",
+          "context": "99,9%"
         },
         {
           "type": "percentage",
-          "value": "19",
-          "context": "19%"
+          "value": "15",
+          "context": "15%"
         }
       ],
       "needs_manual_review": false
@@ -645,12 +645,12 @@
       "title_pt": "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei 23k Empresas",
       "company": "SEFAZ/RS",
       "auto_calculated": {
-        "eu_nos_ratio": 10,
+        "eu_nos_ratio": 8,
         "metrics_count": 10,
         "specific_metrics_count": 10,
         "generic_terms_count": 0,
-        "word_count_pt": 820,
-        "word_count_en": 796,
+        "word_count_pt": 823,
+        "word_count_en": 789,
         "fup_count": 10
       },
       "scores": {
@@ -671,13 +671,13 @@
         },
         {
           "type": "currency",
-          "value": "4.8M",
-          "context": "R$ 4.8M"
+          "value": "4,8M",
+          "context": "R$ 4,8M"
         },
         {
           "type": "currency",
-          "value": "8.2M",
-          "context": "R$ 8.2M"
+          "value": "8,2M",
+          "context": "R$ 8,2M"
         },
         {
           "type": "currency",
@@ -698,12 +698,12 @@
       "title_pt": "Erro de Estimativa no Lançamento Bradesco Next",
       "company": "Bradesco",
       "auto_calculated": {
-        "eu_nos_ratio": 4,
-        "metrics_count": 13,
-        "specific_metrics_count": 13,
+        "eu_nos_ratio": 5,
+        "metrics_count": 18,
+        "specific_metrics_count": 18,
         "generic_terms_count": 0,
-        "word_count_pt": 553,
-        "word_count_en": 527,
+        "word_count_pt": 696,
+        "word_count_en": 632,
         "fup_count": 10
       },
       "scores": {
@@ -739,8 +739,8 @@
         },
         {
           "type": "percentage",
-          "value": "42",
-          "context": "42%"
+          "value": "15",
+          "context": "15%"
         }
       ],
       "needs_manual_review": false
