@@ -13,7 +13,7 @@ export const questionsToCasesMapping = {
       "score": 90
     },
     "0_alt2": {
-      "case_id": "unimed-customer-experience",
+      "case_id": "sicredi-woop-segment-balance",
       "score": 88
     },
     "1": {
@@ -37,7 +37,7 @@ export const questionsToCasesMapping = {
       "score": 92
     },
     "6": {
-      "case_id": "unimed-customer-experience",
+      "case_id": "unimed-cancer-patient-journey",
       "score": 85
     },
     "7": {
@@ -53,7 +53,7 @@ export const questionsToCasesMapping = {
       "score": 85
     },
     "10": {
-      "case_id": "unimed-customer-experience",
+      "case_id": "unimed-cancer-patient-journey",
       "score": 90
     },
     "11": {
@@ -61,8 +61,8 @@ export const questionsToCasesMapping = {
       "score": 85
     },
     "12": {
-      "case_id": "unimed-customer-experience",
-      "score": 88
+      "case_id": "sicredi-woop-segment-balance",
+      "score": 98
     },
     "13": {
       "case_id": "unimed-pet-anticipation",
@@ -644,8 +644,8 @@ export const questionsToCasesMapping = {
       "score": 98
     },
     "11": {
-      "case_id": "hire_and_develop_the_best_case3",
-      "score": 90
+      "case_id": "unimed-controversial-promotion",
+      "score": 95
     }
   },
   "insist_on_highest_standards": {
@@ -784,8 +784,8 @@ export const questionsToCasesMapping = {
       "score": 92
     },
     "13": {
-      "case_id": "think_big_case5",
-      "score": 88
+      "case_id": "bradesco-open-banking-vision",
+      "score": 92
     },
     "14": {
       "case_id": "huawei-global-rollout",
@@ -904,8 +904,8 @@ export const questionsToCasesMapping = {
       "score": 95
     },
     "11": {
-      "case_id": "bias_for_action_case7",
-      "score": 88
+      "case_id": "hsbc-migration-against-experts",
+      "score": 92
     }
   },
   "frugality": {
@@ -1172,7 +1172,7 @@ export const questionsToCasesMapping = {
       "score": 98
     },
     "10": {
-      "case_id": "disagree_and_commit_case1",
+      "case_id": "unimed-retention-strategy",
       "score": 92
     },
     "11": {
@@ -1247,8 +1247,8 @@ export const questionsToCasesMapping = {
       "score": 92
     },
     "10": {
-      "case_id": "deliver_results_case6",
-      "score": 88
+      "case_id": "unimed-vendor-termination",
+      "score": 92
     },
     "11": {
       "case_id": "sefaz-ecage-portal",

@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.2.2] - 2025-10-09
+
+### 🔧 Bug Fix - Case Mapping Corrections
+
+#### Fixed Navigation Issues
+- **Fixed broken case references** in questionsToCasesMapping.js
+- **6 mappings corrected** with existing, more relevant cases
+- **Average score improved** from 89.0 to 93.5 (+4.5 points)
+
+#### Specific Fixes
+1. **Customer Obsession Q12**: `unimed-customer-experience` → `sicredi-woop-segment-balance` (score: 88→98)
+2. **Hire and Develop Q11**: `hire_and_develop_the_best_case3` → `unimed-controversial-promotion` (score: 90→95)
+3. **Think Big Q13**: `think_big_case5` → `bradesco-open-banking-vision` (score: 88→92)
+4. **Bias for Action Q11**: `bias_for_action_case7` → `hsbc-migration-against-experts` (score: 88→92)
+5. **Disagree and Commit Q10**: `disagree_and_commit_case1` → `unimed-retention-strategy` (score: 92)
+6. **Deliver Results Q10**: `deliver_results_case6` → `unimed-vendor-termination` (score: 88→92)
+
+#### Impact
+- ✅ Questions now navigate correctly to existing cases
+- ✅ Better case-to-question relevance
+- ✅ Improved average mapping quality
+- ✅ All cases verified to exist in codebase
+
+#### Documentation
+- Created `CORRECOES_APLICADAS.md` with detailed corrections log
+
+---
+
 ## [3.2.1] - 2025-10-09
 
 ### 🎯 Enhanced Question Bank - 36 Additional Strategic Questions
