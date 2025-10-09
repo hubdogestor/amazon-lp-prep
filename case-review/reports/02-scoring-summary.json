@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T00:19:33.344Z",
+  "generated_at": "2025-10-09T00:48:05.902Z",
   "total_cases": 71,
   "cases_scored": [
     {
@@ -9,22 +9,22 @@
       "company": "Huawei LATAM",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 13,
-        "specific_metrics_count": 13,
+        "metrics_count": 16,
+        "specific_metrics_count": 15,
         "generic_terms_count": 0,
-        "word_count_pt": 412,
-        "word_count_en": 384,
+        "word_count_pt": 349,
+        "word_count_en": 327,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 10,
-        "auto_score_total": 50
+        "word_count_adequacy": 8.7,
+        "auto_score_total": 48.7
       },
       "flags": [
-        "✅ Métricas automáticas OK"
+        "⚠️ Text curto (349 palavras)"
       ],
       "metrics_sample": [
         {
@@ -39,18 +39,18 @@
         },
         {
           "type": "percentage",
-          "value": "73",
-          "context": "73%"
-        },
-        {
-          "type": "percentage",
-          "value": "87",
-          "context": "87%"
+          "value": "100",
+          "context": "100%"
         },
         {
           "type": "currency",
           "value": "2,7M",
           "context": "R$ 2,7M"
+        },
+        {
+          "type": "currency",
+          "value": "12k",
+          "context": "R$ 12k"
         }
       ],
       "needs_manual_review": false
@@ -62,22 +62,22 @@
       "company": "Bradesco",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 10,
-        "specific_metrics_count": 10,
+        "metrics_count": 14,
+        "specific_metrics_count": 13,
         "generic_terms_count": 0,
-        "word_count_pt": 368,
-        "word_count_en": 354,
+        "word_count_pt": 339,
+        "word_count_en": 314,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 9.2,
-        "auto_score_total": 49.2
+        "word_count_adequacy": 8.5,
+        "auto_score_total": 48.5
       },
       "flags": [
-        "⚠️ Text curto (368 palavras)"
+        "⚠️ Text curto (339 palavras)"
       ],
       "metrics_sample": [
         {
@@ -92,18 +92,18 @@
         },
         {
           "type": "percentage",
+          "value": "80",
+          "context": "80%"
+        },
+        {
+          "type": "percentage",
           "value": "63",
           "context": "63%"
         },
         {
           "type": "percentage",
-          "value": "81",
-          "context": "81%"
-        },
-        {
-          "type": "percentage",
-          "value": "90",
-          "context": "90%"
+          "value": "4",
+          "context": "4%"
         }
       ],
       "needs_manual_review": false
@@ -115,23 +115,22 @@
       "company": "Unimed",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 7,
-        "specific_metrics_count": 7,
+        "metrics_count": 11,
+        "specific_metrics_count": 10,
         "generic_terms_count": 0,
-        "word_count_pt": 360,
-        "word_count_en": 345,
+        "word_count_pt": 336,
+        "word_count_en": 324,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
-        "metrics_score": 12,
+        "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 9,
-        "auto_score_total": 46
+        "word_count_adequacy": 8.4,
+        "auto_score_total": 48.4
       },
       "flags": [
-        "⚠️ Poucas métricas específicas (7)",
-        "⚠️ Text curto (360 palavras)"
+        "⚠️ Text curto (336 palavras)"
       ],
       "metrics_sample": [
         {
@@ -146,19 +145,19 @@
         },
         {
           "type": "percentage",
-          "value": "90",
-          "context": "90%"
+          "value": "89",
+          "context": "89%"
         },
         {
           "type": "currency",
           "value": "2,4M",
-          "context": "R$2,4M"
+          "context": "R$ 2,4M"
         },
         {
           "type": "time_unit",
-          "value": "5.1",
+          "value": "5,1",
           "unit": "dias",
-          "context": "5.1 dias"
+          "context": "5,1 dias"
         }
       ],
       "needs_manual_review": false
@@ -170,22 +169,22 @@
       "company": "Unimed",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 10,
-        "specific_metrics_count": 10,
+        "metrics_count": 16,
+        "specific_metrics_count": 16,
         "generic_terms_count": 0,
-        "word_count_pt": 379,
-        "word_count_en": 367,
+        "word_count_pt": 333,
+        "word_count_en": 311,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
         "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 9.5,
-        "auto_score_total": 49.5
+        "word_count_adequacy": 8.3,
+        "auto_score_total": 48.3
       },
       "flags": [
-        "⚠️ Text curto (379 palavras)"
+        "⚠️ Text curto (333 palavras)"
       ],
       "metrics_sample": [
         {
@@ -223,23 +222,22 @@
       "company": "SEFAZ RS",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 7,
-        "specific_metrics_count": 7,
+        "metrics_count": 11,
+        "specific_metrics_count": 10,
         "generic_terms_count": 0,
-        "word_count_pt": 359,
-        "word_count_en": 340,
+        "word_count_pt": 321,
+        "word_count_en": 302,
         "fup_count": 10
       },
       "scores": {
         "eu_nos_ratio_score": 15,
-        "metrics_score": 12,
+        "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 9,
-        "auto_score_total": 46
+        "word_count_adequacy": 8,
+        "auto_score_total": 48
       },
       "flags": [
-        "⚠️ Poucas métricas específicas (7)",
-        "⚠️ Text curto (359 palavras)"
+        "⚠️ Text curto (321 palavras)"
       ],
       "metrics_sample": [
         {
@@ -254,19 +252,18 @@
         },
         {
           "type": "currency",
-          "value": "27M",
-          "context": "R$27M"
+          "value": "847M",
+          "context": "R$ 847M"
         },
         {
           "type": "currency",
-          "value": "4,6M",
-          "context": "R$4,6M"
+          "value": "200k",
+          "context": "R$ 200k"
         },
         {
-          "type": "time_unit",
-          "value": "72",
-          "unit": "horas",
-          "context": "72 horas"
+          "type": "currency",
+          "value": "27M",
+          "context": "R$ 27M"
         }
       ],
       "needs_manual_review": false
@@ -277,26 +274,35 @@
       "title_pt": "Inventei motor de simplificacao de liquidez que reduziu D+3 para D+0 em marketplaces",
       "company": "Bradesco Fintech Hub",
       "auto_calculated": {
-        "eu_nos_ratio": 3,
-        "metrics_count": 6,
-        "specific_metrics_count": 6,
+        "eu_nos_ratio": 10,
+        "metrics_count": 12,
+        "specific_metrics_count": 12,
         "generic_terms_count": 0,
-        "word_count_pt": 330,
-        "word_count_en": 311,
+        "word_count_pt": 324,
+        "word_count_en": 306,
         "fup_count": 10
       },
       "scores": {
-        "eu_nos_ratio_score": 12,
-        "metrics_score": 12,
+        "eu_nos_ratio_score": 15,
+        "metrics_score": 15,
         "fup_completeness": 10,
-        "word_count_adequacy": 8.3,
-        "auto_score_total": 42.3
+        "word_count_adequacy": 8.1,
+        "auto_score_total": 48.1
       },
       "flags": [
-        "⚠️ Poucas métricas específicas (6)",
-        "⚠️ Text curto (330 palavras)"
+        "⚠️ Text curto (324 palavras)"
       ],
       "metrics_sample": [
+        {
+          "type": "percentage",
+          "value": "23",
+          "context": "23%"
+        },
+        {
+          "type": "percentage",
+          "value": "80",
+          "context": "80%"
+        },
         {
           "type": "percentage",
           "value": "0,35",
@@ -309,19 +315,8 @@
         },
         {
           "type": "currency",
-          "value": "19M",
-          "context": "R$19M"
-        },
-        {
-          "type": "currency",
-          "value": "7,4M",
-          "context": "R$7,4M"
-        },
-        {
-          "type": "time_unit",
-          "value": "3",
-          "unit": "dias",
-          "context": "3 dias"
+          "value": "2,4B",
+          "context": "R$ 2,4B"
         }
       ],
       "needs_manual_review": false
@@ -756,23 +751,23 @@
       "title_pt": "Analise de Dados para Identificar os Principais Drivers de Churn no App",
       "company": "Sicredi Woop",
       "auto_calculated": {
-        "eu_nos_ratio": 2.5,
-        "metrics_count": 19,
-        "specific_metrics_count": 18,
+        "eu_nos_ratio": 3.75,
+        "metrics_count": 22,
+        "specific_metrics_count": 20,
         "generic_terms_count": 0,
-        "word_count_pt": 614,
+        "word_count_pt": 637,
         "word_count_en": 510,
         "fup_count": 10
       },
       "scores": {
-        "eu_nos_ratio_score": 9,
+        "eu_nos_ratio_score": 12,
         "metrics_score": 15,
         "fup_completeness": 10,
         "word_count_adequacy": 10,
-        "auto_score_total": 44
+        "auto_score_total": 47
       },
       "flags": [
-        "⚠️ Ratio EU:NÓS baixo (2.5:1)"
+        "✅ Métricas automáticas OK"
       ],
       "metrics_sample": [
         {
@@ -810,10 +805,10 @@
       "company": "HSBC",
       "auto_calculated": {
         "eu_nos_ratio": 10,
-        "metrics_count": 9,
-        "specific_metrics_count": 9,
+        "metrics_count": 10,
+        "specific_metrics_count": 10,
         "generic_terms_count": 0,
-        "word_count_pt": 513,
+        "word_count_pt": 538,
         "word_count_en": 490,
         "fup_count": 10
       },
@@ -862,11 +857,11 @@
       "title_pt": "Investigacao Manual de Anomalias em Reembolsos para Identificar Fraude em Rede",
       "company": "Unimed",
       "auto_calculated": {
-        "eu_nos_ratio": 4.5,
-        "metrics_count": 10,
-        "specific_metrics_count": 10,
+        "eu_nos_ratio": 9,
+        "metrics_count": 12,
+        "specific_metrics_count": 12,
         "generic_terms_count": 0,
-        "word_count_pt": 429,
+        "word_count_pt": 439,
         "word_count_en": 408,
         "fup_count": 10
       },
@@ -898,13 +893,13 @@
         },
         {
           "type": "currency",
-          "value": "150,",
-          "context": "R$150,"
+          "value": "4.8",
+          "context": "R$ 4.8"
         },
         {
           "type": "currency",
-          "value": "4.8",
-          "context": "R$4.8"
+          "value": "150,",
+          "context": "R$150,"
         }
       ],
       "needs_manual_review": false
@@ -916,10 +911,10 @@
       "company": "Sicredi",
       "auto_calculated": {
         "eu_nos_ratio": 3,
-        "metrics_count": 19,
-        "specific_metrics_count": 19,
+        "metrics_count": 23,
+        "specific_metrics_count": 23,
         "generic_terms_count": 0,
-        "word_count_pt": 535,
+        "word_count_pt": 593,
         "word_count_en": 497,
         "fup_count": 10
       },
@@ -3775,7 +3770,7 @@
     }
   ],
   "statistics": {
-    "avg_auto_score": 49,
+    "avg_auto_score": 49.2,
     "max_auto_score": 50,
     "min_auto_score": 40,
     "cases_needing_review": 0

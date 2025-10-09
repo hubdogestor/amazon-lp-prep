@@ -8,18 +8,18 @@ const case_4 = {
   isTopCase: false,
   isGoodCase: true,
   pt: {
-    s: `O ecossistema de inovação da Unimed estava travado. O Process Cycle Time para um MVP era de 21 meses, queimando R$2,1M por projeto. Isso quebrava a experiência do cliente e freava nosso flywheel: sem uma boa \'seleção\' de soluções digitais, o \'tráfego\' de médicos e pacientes caía, e o NPS despencou para 28. A dor não era falta de ideias, mas excesso de burocracia.`,
-    t: `Eu me posicionei como a ponte entre a dor do ecossistema e a decisão de negócio. Minha missão era tomar uma decisão acionável: inventar um hub que simplificasse o processo, cortando o Process Cycle Time em 70% e entregando 3 soluções com NPS > 60. Eu precisava criar um mecanismo que girasse nosso flywheel de inovação.`,
-    a: `Eu inventei e simplifiquei. Primeiro, para ser a ponte com o negócio, coletei dados e provei que 41% do tempo era desperdiçado em comitês. Com base nisso, criei o \"Fast-Track Klin\", um mecanismo que eliminou 4 camadas de aprovação. Segundo, usei meu julgamento para trazer a voz do cliente para dentro, priorizando soluções de monitoramento remoto. Terceiro, quando o conselho financeiro resistiu, não mostrei apenas dados; enquadrei a questão como uma decisão de negócio sobre o Custo Operacional por Transação da inovação, negociando um limite de risco e OKRs claros. A plataforma de inovação aberta que implementei simplificou a integração de 140 para 10 dias.`,
-    r: `A invenção girou o flywheel. O Process Cycle Time caiu 68%, o custo de desenvolvimento 44% e o Customer Satisfaction (NPS) das novas soluções passou para 64. A melhor experiência do cliente (médicos e pacientes) aumentou o \'tráfego\' de startups (96 novas) e a \'seleção\' de soluções (14 contratos ativos). Isso gerou R$36M em economia e melhorou indicadores clínicos, como a redução de 19% em readmissões cardíacas.`,
-    l: `Aprendi que para inovar e simplificar em um ambiente complexo, é preciso ser a ponte que transforma a dor do cliente em uma decisão de negócio acionável. O mecanismo \"Fast-Track Klin\" virou meu playbook: 1) Meça a dor com métricas como Process Cycle Time; 2) Traga a voz do cliente para o centro; 3) Equilibre risco e inovação com mecanismos claros. Hoje, em pagamentos, uso a mesma lógica para parcerias com fintechs, garantindo que o Payment Success Rate (PSR) e a experiência do cliente guiem nossas invenções.`
+    s: `"21 meses para um MVP. R$ 2,1M queimados por projeto. Zero soluções entregues." O relatório do conselho resumia nosso fracasso na inovação digital. Enquanto startups lançavam apps de saúde em semanas, a Unimed levava quase dois anos para aprovar uma simples integração. Médicos reclamavam da falta de ferramentas modernas, pacientes migravam para concorrentes digitais e nosso NPS despencou para 28. A burocracia estava matando nossa capacidade de inovar.`,
+    t: `Diante dessa paralisia que ameaçava nossa relevância no mercado de saúde digital, assumi ownership total da transformação do ecossistema de inovação. Minha missão era clara: reduzir o ciclo de desenvolvimento em 70%, entregar 3 soluções com NPS acima de 60 e criar um modelo sustentável de parceria com startups.`,
+    a: `Eu inventei uma solução radical que democratizou a inovação. Primeiro, mapeei os 21 meses e descobri que 41% do tempo era desperdiçado em comitês burocráticos — criei o "Fast-Track Klin" que eliminou 4 camadas de aprovação desnecessárias. Segundo, desenvolvi uma plataforma de APIs abertas que reduziu integração de 140 para 10 dias, permitindo que startups testassem soluções rapidamente. Terceiro, quando o conselho financeiro resistiu ao "risco" das parcerias, apresentei um modelo de governança com limites claros: investimento máximo de R$ 50k por piloto, métricas objetivas de sucesso e kill criteria em 90 dias.`,
+    r: `A invenção desbloqueou nosso potencial de inovação. Em 18 meses, o ciclo de desenvolvimento despencou 68% (de 21 para 6,7 meses), reduzimos custos em 44% e o NPS das novas soluções saltou para 64. Mais importante: atraímos 96 startups, fechamos 14 contratos ativos e geramos R$ 36M em economia operacional. As soluções de monitoramento remoto reduziram readmissões cardíacas em 19%, provando que velocidade e qualidade podem coexistir.`,
+    l: `Aprendi que inovar em ambientes burocráticos exige coragem para desafiar o status quo com dados concretos. O "Fast-Track Klin" virou meu framework padrão: identifique desperdícios, elimine camadas desnecessárias e crie governança clara sem sufocar a criatividade. Hoje, em pagamentos, aplico o mesmo princípio para acelerar parcerias com fintechs, sempre priorizando velocidade de entrega sem comprometer segurança.`
   },
   en: {
-    s: `Unimed\'s innovation ecosystem was stuck. The Process Cycle Time for an MVP was 21 months, burning R$2.1M per project. This was breaking the customer experience and stalling our flywheel: without a good \'selection\' of digital solutions, the \'traffic\' of doctors and patients dropped, and the NPS plummeted to 28. The pain wasn\'t a lack of ideas, but excessive bureaucracy.`,
-    t: `I positioned myself as the bridge between the ecosystem\'s pain and the business decision. My mission was to make an actionable decision: invent a hub that simplified the process, cutting the Process Cycle Time by 70% and delivering 3 solutions with an NPS > 60. I needed to create a mechanism that would spin our innovation flywheel.`,
-    a: `I invented and simplified. First, to be the bridge to the business, I collected data and proved that 41% of the time was wasted in committees. Based on that, I created the \"Fast-Track Klin,\" a mechanism that eliminated 4 approval layers. Second, I used my judgment to bring the customer\'s voice inside, prioritizing remote monitoring solutions. Third, when the finance board resisted, I didn\'t just show data; I framed it as a business decision about the Operational Cost per Transaction of innovation, negotiating a risk limit and clear OKRs. The open innovation platform I implemented simplified integration from 140 to 10 days.`,
-    r: `The invention spun the flywheel. The Process Cycle Time dropped by 68%, development cost by 44%, and the Customer Satisfaction (NPS) of the new solutions rose to 64. The better customer experience (doctors and patients) increased the \'traffic\' of startups (96 new ones) and the \'selection\' of solutions (14 active contracts). This generated R$36M in savings and improved clinical indicators, like a 19% reduction in cardiac readmissions.`,
-    l: `I learned that to innovate and simplify in a complex environment, you need to be the bridge that turns customer pain into an actionable business decision. The \"Fast-Track Klin\" mechanism became my playbook: 1) Measure pain with metrics like Process Cycle Time; 2) Bring the customer\'s voice to the center; 3) Balance risk and innovation with clear mechanisms. Today, in payments, I use the same logic for fintech partnerships, ensuring that the Payment Success Rate (PSR) and customer experience guide our inventions.`
+    s: `"21 months for an MVP. R$2.1M burned per project. Zero solutions delivered." The board report summarized our digital innovation failure. While startups launched health apps in weeks, Unimed took almost two years to approve a simple integration. Doctors complained about the lack of modern tools, patients migrated to digital competitors, and our NPS plummeted to 28. Bureaucracy was killing our ability to innovate.`,
+    t: `Faced with this paralysis threatening our relevance in the digital health market, I took total ownership of transforming the innovation ecosystem. My mission was clear: reduce development cycle by 70%, deliver 3 solutions with NPS above 60, and create a sustainable startup partnership model.`,
+    a: `I invented a radical solution that democratized innovation. First, I mapped the 21 months and discovered that 41% of time was wasted in bureaucratic committees — I created "Fast-Track Klin" that eliminated 4 unnecessary approval layers. Second, I developed an open API platform that reduced integration from 140 to 10 days, allowing startups to test solutions quickly. Third, when the finance board resisted the "risk" of partnerships, I presented a governance model with clear limits: maximum R$50k investment per pilot, objective success metrics, and kill criteria within 90 days.`,
+    r: `The invention unlocked our innovation potential. In 18 months, development cycle plummeted 68% (from 21 to 6.7 months), we reduced costs by 44%, and NPS of new solutions jumped to 64. More importantly: we attracted 96 startups, closed 14 active contracts, and generated R$36M in operational savings. Remote monitoring solutions reduced cardiac readmissions by 19%, proving that speed and quality can coexist.`,
+    l: `I learned that innovating in bureaucratic environments requires courage to challenge status quo with concrete data. "Fast-Track Klin" became my standard framework: identify waste, eliminate unnecessary layers, and create clear governance without suffocating creativity. Today, in payments, I apply the same principle to accelerate fintech partnerships, always prioritizing delivery speed without compromising security.`
   },
   fups: [
     {
@@ -29,61 +29,60 @@ const case_4 = {
       a_en: "I combined the 28 depth interviews and 180 thousand ombudsman records into an urgency score weighing clinical impact, frequency, and cost; startups scoring above 8 joined wave one."
     },
     {
-      q: "Qual resistencia mais dura voce enfrentou e como venceu?",
-      a: "O conselho financeiro queria manter cinco aprovacoes sequenciais; eu levei analise mostrando 41% do tempo perdido e aceitei colocar stop-loss de R$ 15M com auditoria trimestral, assumindo responsabilidade pessoal pelas excecoes.",
-      q_en: "What was the toughest resistance and how did you win?",
-      a_en: "The finance board wanted five sequential approvals; I presented the 41% wasted-time analysis and accepted a R$ 15M stop-loss with quarterly audit, taking personal responsibility for exceptions."
+      q: "Qual foi o maior conflito interno e como voce resolveu?",
+      a: "O diretor de TI bloqueou as APIs abertas por seguranca; eu propus sandbox isolado, auditoria mensal e kill switch automatico, ganhando aprovacao em 3 semanas.",
+      q_en: "What was the biggest internal conflict and how did you resolve it?",
+      a_en: "The IT director blocked open APIs for security; I proposed an isolated sandbox, monthly audits, and automatic kill switch, gaining approval in 3 weeks."
     },
     {
-      q: "Como voce garantiu compliance regulatorio no sandbox?",
-      a: "Eu desenhei o sandbox com LGPD by design, criei contratos modulares revisados por mim e por um advogado dedicado e defini 22 controles obrigatorios monitorados via dashboard.",
-      q_en: "How did you guarantee regulatory compliance inside the sandbox?",
-      a_en: "I designed the sandbox LGPD-by-design, created modular contracts reviewed by me and a dedicated lawyer, and defined 22 mandatory controls monitored via dashboard."
+      q: "Como voce mediu ROI das parcerias alem da economia?",
+      a: "Eu trackeei NPS por solucao, tempo de adocao pelos medicos e impacto clinico; criei dashboard que mostrava correlacao entre inovacao e satisfacao do cliente.",
+      q_en: "How did you measure partnership ROI beyond savings?",
+      a_en: "I tracked NPS per solution, physician adoption time, and clinical impact; I built a dashboard showing correlation between innovation and customer satisfaction."
     },
     {
-      q: "Como voce mediu o impacto financeiro das startups?",
-      a: "Eu cruzei dados de sinistralidade e call center, estimando economia de R$ 36M com base na reducao de readmissoes, menor uso de leitos e corte de consultas duplicadas.",
-      q_en: "How did you measure the financial impact from the startups?",
-      a_en: "I cross-referenced claims and call-center data, estimating R$ 36M in savings from fewer readmissions, reduced bed usage, and elimination of duplicate visits."
+      q: "Que mecanismo voce criou para sustentar a inovacao?",
+      a: "Eu institui Innovation Fridays, onde 20% do time dedica tempo a experimentacao, e criei fundo rotativo de R$ 500k para pilotos rapidos.",
+      q_en: "What mechanism did you create to sustain innovation?",
+      a_en: "I instituted Innovation Fridays where 20% of the team dedicates time to experimentation, and created a R$500k revolving fund for rapid pilots."
     },
     {
-      q: "Qual mecanismo voce deixou para evitar retrocesso burocratico?",
-      a: "Eu institucionalizei o comite Fast-Track com charter que me da voto qualificado, cadenciei reviews mensais e instalei scorecards publicos para todas as diretorias.",
-      q_en: "What mechanism did you leave to prevent bureaucratic relapse?",
-      a_en: "I institutionalized the Fast-Track committee with a charter granting me tie-breaking vote, scheduled monthly reviews, and published scorecards for every board."
+      q: "Como voce garantiu que startups entendessem o contexto medico?",
+      a: "Eu criei programa de imersao de 2 semanas com medicos, enfermeiros e pacientes, obrigatorio para todas as startups antes do desenvolvimento.",
+      q_en: "How did you ensure startups understood the medical context?",
+      a_en: "I created a mandatory 2-week immersion program with doctors, nurses, and patients for all startups before development."
     },
     {
-      q: "Como voce assegurou ratio EU:NOS elevado?",
-      a: "Eu assumi todas as negociacoes chave com startups, conduzi pessoalmente cada demo e registrei qual decisao eu tomei em ata, reforcando ownership individual.",
-      q_en: "How did you keep I:we ratio high?",
-      a_en: "I led every key negotiation with startups, personally ran each demo, and logged the decisions I made in the minutes to reinforce individual ownership."
+      q: "Qual aprendizado voce levou para pagamentos?",
+      a: "O conceito de API-first e governanca clara; hoje uso o mesmo modelo para integrar fintechs, priorizando velocidade sem comprometer compliance.",
+      q_en: "What learning did you take to payments?",
+      a_en: "The API-first concept and clear governance; today I use the same model to integrate fintechs, prioritizing speed without compromising compliance."
     },
     {
-      q: "Que experimentos voce abortou e por que?",
-      a: "Eu encerrei duas provas de conceito em 30 dias porque nao atingiram 20% de adesao; comuniquei diretamente aos CEOs das startups e redirecionei budget para quem ja mostrava NPS acima de 60.",
-      q_en: "Which experiments did you kill and why?",
-      a_en: "I killed two proofs of concept within 30 days because they failed to reach 20% adoption; I told the startup CEOs directly and redirected budget to those already hitting NPS above 60."
+      q: "Como voce tratou startups que falharam nos pilotos?",
+      a: "Eu criei processo de feedback estruturado e ofereci mentoria para pivot; 30% das startups rejeitadas voltaram com solucoes melhores em 6 meses.",
+      q_en: "How did you handle startups that failed pilots?",
+      a_en: "I created structured feedback process and offered pivot mentorship; 30% of rejected startups returned with better solutions within 6 months."
     },
     {
-      q: "Como voce engajou os medicos cooperados?",
-      a: "Eu criei o clinical demo day com votacao, escolhi 15 lideres clinicos para co-patrocinar e garanti que cada caso de sucesso fosse compartilhado em boletins semanais.",
-      q_en: "How did you engage cooperative physicians?",
-      a_en: "I created the clinical demo day with voting, selected 15 clinical leaders as co-sponsors, and made sure each success case appeared in the weekly bulletins."
+      q: "Que resistencia voce enfrentou dos medicos mais tradicionais?",
+      a: "Eu organizei sessoes de co-criacao onde eles ajudavam a desenhar as solucoes, transformando resistencia em ownership e aumentando adocao para 87%.",
+      q_en: "What resistance did you face from traditional doctors?",
+      a_en: "I organized co-creation sessions where they helped design solutions, turning resistance into ownership and increasing adoption to 87%."
     },
     {
-      q: "Quais metricas voce monitora para sustentar o hub?",
-      a: "Eu acompanho time-to-MVP, NPS por solucao, payback, e um indice de risco regulatorio; mantenho gatilho que pausa onboarding se alguma startup exceder 10 incidentes de LGPD.",
-      q_en: "Which metrics do you track to sustain the hub?",
-      a_en: "I track time-to-MVP, solution NPS, payback, and a regulatory-risk index; I keep a trigger that pauses onboarding if any startup exceeds ten LGPD incidents."
+      q: "Como voce manteve qualidade com ciclos mais rapidos?",
+      a: "Eu implementei gates de qualidade automatizados, testes com pacientes reais desde o dia 1 e retrospectivas semanais obrigatorias.",
+      q_en: "How did you maintain quality with faster cycles?",
+      a_en: "I implemented automated quality gates, real patient testing from day 1, and mandatory weekly retrospectives."
     },
     {
-      q: "Como esse mecanismo escala para pagamentos?",
-      a: "Eu aplico o Fast-Track Klin em parcerias com fintechs: contrato marco, base de clientes priorizada por dor e sandbox legal que me permite testar compliance rapidamente.",
-      q_en: "How does this mechanism scale into payments?",
-      a_en: "I apply the Fast-Track Klin approach to fintech partnerships: master agreement, customer-pain based prioritization, and a legal sandbox that lets me validate compliance fast."
+      q: "Qual metrica voce mais acompanhou para validar sucesso?",
+      a: "Time-to-value para medicos: quanto tempo levava da instalacao ate o primeiro beneficio percebido; consegui reduzir de 3 semanas para 2 dias.",
+      q_en: "Which metric did you track most to validate success?",
+      a_en: "Time-to-value for doctors: how long from installation to first perceived benefit; I reduced it from 3 weeks to 2 days."
     }
   ]
 };
 
 export default case_4;
-
