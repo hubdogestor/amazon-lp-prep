@@ -435,6 +435,10 @@ export const questionsToCasesMapping = {
       "score": 90
     },
     "11": {
+      "case_id": "sefaz-data-vs-intuition",
+      "score": 98
+    },
+    "11_alt1": {
       "case_id": "sicredi-mobile-first-strategy",
       "score": 88
     },
@@ -645,6 +649,10 @@ export const questionsToCasesMapping = {
     },
     "11": {
       "case_id": "unimed-controversial-promotion",
+      "score": 98
+    },
+    "12": {
+      "case_id": "unimed-underperformer-development",
       "score": 95
     }
   },
@@ -785,7 +793,7 @@ export const questionsToCasesMapping = {
     },
     "13": {
       "case_id": "bradesco-open-banking-vision",
-      "score": 92
+      "score": 98
     },
     "14": {
       "case_id": "huawei-global-rollout",
@@ -905,7 +913,7 @@ export const questionsToCasesMapping = {
     },
     "11": {
       "case_id": "hsbc-migration-against-experts",
-      "score": 92
+      "score": 98
     }
   },
   "frugality": {
@@ -1248,7 +1256,7 @@ export const questionsToCasesMapping = {
     },
     "10": {
       "case_id": "unimed-vendor-termination",
-      "score": 92
+      "score": 98
     },
     "11": {
       "case_id": "sefaz-ecage-portal",
