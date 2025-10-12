@@ -376,7 +376,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
     }
 
     return prompt;
-  }, [getDisplayName, getDisplayCaseTitle]);
+  }, [getDisplayCaseTitle]);
 
   const copyPromptToClipboard = useCallback(async (caseData, principleData, caseKey) => {
     const prompt = generatePrompt(caseData, principleData, language);

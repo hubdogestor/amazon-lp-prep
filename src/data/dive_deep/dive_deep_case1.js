@@ -6,7 +6,7 @@ const case_1 = {
   "company": "Sicredi Woop",
   "period": "01/2019-10/2019",
   "isTopCase": true,
-  "isGoodCase": true,
+  "isGoodCase": false,
 
   "pt": {
     "s": "Em 2019, eu atuava como estrategista de produtos no Sicredi Woop, o braço digital da cooperativa. Naquele momento, enfrentávamos um desafio crítico: churn anual de 40%, representando cerca de R$ 12 milhões em perda de receita. Certa manhã, vi esse número piscando em vermelho no dashboard quando o diretor comercial entrou na sala e disse - \"Leonardo, vamos liberar R$ 400 mil em cashback agora. Precisamos estancar essa sangria.\" Ali percebi o dilema: aprovar uma solução imediata e, possivelmente, desperdiçar recursos, ou parar tudo para entender a causa real do problema. Eu já havia lido centenas de tickets de suporte, e as queixas mostravam que o problema poderia não estar na falta de benefícios, mas sim na experiência do cliente. Eu precisava decidir: ceder à pressão por velocidade ou mergulhar nos dados para encontrar a verdade - mesmo que isso significasse confrontar um diretor e atrasar a solução rápida.",

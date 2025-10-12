@@ -21,7 +21,6 @@ const __dirname = path.dirname(__filename);
 
 const INVENTORY_FILE = path.join(__dirname, 'reports', '01-inventory.json');
 const OUTPUT_FILE = path.join(__dirname, 'reports', '02-scoring-summary.json');
-const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
 
 /**
  * Calcula ratio EU:NÓS

@@ -23,7 +23,6 @@ const __dirname = path.dirname(__filename);
 const INVENTORY_FILE = path.join(__dirname, 'reports', '01-inventory.json');
 const SCORING_FILE = path.join(__dirname, 'reports', '02-scoring-summary.json');
 const OUTPUT_DIR = path.join(__dirname, 'analysis', 'by-dimension');
-const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
 
 /**
  * Carrega case completo
@@ -326,7 +325,7 @@ async function main() {
   console.log('🔍 Análise Profunda por Dimensão (71 cases)...\n');
 
   const inventory = JSON.parse(fs.readFileSync(INVENTORY_FILE, 'utf8'));
-  const scoring = JSON.parse(fs.readFileSync(SCORING_FILE, 'utf8'));
+  JSON.parse(fs.readFileSync(SCORING_FILE, 'utf8'));
 
   const analyses = {
     hooks: [],

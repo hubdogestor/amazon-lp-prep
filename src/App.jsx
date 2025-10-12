@@ -184,6 +184,16 @@ export default function App() {
     return sortPrinciples(rawPrinciplesData, language);
   }, [rawPrinciplesData, language]);
 
+  const casesByPrinciple = useMemo(() => {
+    const map = new Map();
+    (principlesData || []).forEach((principle) => {
+      const list = Array.isArray(principle.cases) ? principle.cases : [];
+      const index = new Map(list.map((item) => [item.id, item]));
+      map.set(principle.id, { list, index });
+    });
+    return map;
+  }, [principlesData]);
+
   const clearExpanded = useCallback(() => setExpandedCases({}), []);
 
   // Memoize case title functions
@@ -195,28 +205,62 @@ export default function App() {
     return getDisplayCaseTitleUtil(c, lang);
   }, []);
 
+  const getBestCaseOption = useCallback((principleId, questionIndex) => {
+    const principleMapping = questionsToCasesMapping[principleId];
+    if (!principleMapping) return null;
+
+    const entry = principleMapping[String(questionIndex)];
+    if (!entry || !Array.isArray(entry.options) || entry.options.length === 0) {
+      return null;
+    }
+
+    const principleCases = casesByPrinciple.get(principleId);
+    if (!principleCases) return null;
+
+    const sortedOptions = [...entry.options].sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+
+    for (const option of sortedOptions) {
+      const caseData = principleCases.index.get(option.caseId);
+      if (caseData) {
+        return { ...option, caseData };
+      }
+    }
+
+    return null;
+  }, [casesByPrinciple]);
+
   // Get questions that this case answers for a given principle
   const getCaseQuestions = useCallback((caseId, principleId) => {
     const principleMapping = questionsToCasesMapping[principleId];
     if (!principleMapping) return [];
-    
+
     const questions = typicalQuestions[principleId];
     if (!questions) return [];
-    
-    const questionNumbers = [];
-    Object.entries(principleMapping).forEach(([qNum, mapping]) => {
-      if (mapping && mapping.case_id === caseId) {
-        questionNumbers.push(parseInt(qNum));
+
+    const localizedQuestions = language === "pt" ? questions.pt : questions.en;
+    if (!Array.isArray(localizedQuestions)) return [];
+
+    const results = [];
+
+    localizedQuestions.forEach((questionText, index) => {
+      const entry = principleMapping[String(index)];
+      if (!entry || !Array.isArray(entry.options)) {
+        return;
+      }
+
+      const match = entry.options.find((option) => option.caseId === caseId);
+      if (match) {
+        results.push({
+          number: index,
+          text: questionText || `Question ${index}`,
+          score: match.score ?? null,
+        });
       }
     });
-    
-    return questionNumbers.sort((a, b) => a - b).map(num => {
-      const questionText = language === 'pt' ? questions.pt[num] : questions.en[num];
-      return {
-        number: num,
-        text: questionText || `Question ${num}` // Fallback se texto não existir
-      };
-    }).filter(q => q.text); // Remove questões sem texto
+
+    return results
+      .filter((item) => Boolean(item.text))
+      .sort((a, b) => a.number - b.number);
   }, [language]);
 
   // Show loading state when searching
@@ -398,7 +442,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
     }
 
     return prompt;
-  }, []);
+  }, [getDisplayCaseTitle]);
 
   const copyPromptToClipboard = useCallback(async (caseData, principleData, caseKey) => {
     const prompt = generatePrompt(caseData, principleData, language);
@@ -415,36 +459,25 @@ Respond as if you were me, maintaining consistency with the details from the cas
 
   // Navegar para o case mapeado a partir de uma pergunta típica
   const navigateToMappedCase = useCallback((lpId, questionIndex) => {
-    const mapping = questionsToCasesMapping[lpId];
-    if (!mapping || !mapping[questionIndex]) {
-      // Sem case mapeado para esta pergunta
+    const option = getBestCaseOption(lpId, questionIndex);
+    if (!option || !option.caseData) {
       return;
     }
 
-    const { case_id } = mapping[questionIndex];
+    const caseId = option.caseData.id;
 
-    // Encontrar o case nos dados
-    const principle = principlesData.find(p => p.id === lpId);
-    if (!principle) return;
-
-    const caseObj = principle.cases?.find(c => c.id === case_id);
-    if (!caseObj) return;
-
-    // Expandir o case usando case_id em vez de title
-    setExpandedCases({ [case_id]: true });
+    setExpandedCases({ [caseId]: true });
     setSelectedPrinciple(lpId);
 
-    // Scroll para o case após um delay
     setTimeout(() => {
-      const caseDomId = `case-${slugify(case_id)}`;
+      const caseDomId = `case-${slugify(caseId)}`;
       const elem = document.getElementById(caseDomId);
       if (elem) {
         elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        // Highlight temporário
         setHighlightedCase(caseDomId, 2000);
       }
     }, 100);
-  }, [principlesData, setHighlightedCase]);
+  }, [getBestCaseOption, setHighlightedCase]);
 
   // Toggle busca local de FUPs para um case específico
   const toggleCaseFupSearch = useCallback((caseId) => {
@@ -761,7 +794,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
                             {renderSnippet()}
                           </div>
                           <div className="text-xs text-slate-500 mt-1">
-                            {getDisplayCaseTitle(c, language)} • {getDisplayName(p, language)}
+                            {getDisplayCaseTitle(c, language)} - {getDisplayName(p, language)}
                           </div>
                         </div>
                       );
@@ -840,7 +873,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
                           />
                         </div>
                         <div className="text-slate-500">
-                          {getDisplayName(p, language)} • {getDisplayCaseTitle(c, language)}
+                          {getDisplayName(p, language)} - {getDisplayCaseTitle(c, language)}
                         </div>
                       </div>
                     ))}
@@ -1139,8 +1172,22 @@ Respond as if you were me, maintaining consistency with the details from the cas
                         {(language === "en" ? typicalQuestions[principle.id].en : typicalQuestions[principle.id].pt).map((q, qIdx) => {
                           const questionId = `typical-q-${principle.id}-${qIdx}`;
                           const isHighlighted = highlightedTypicalQuestionId === questionId;
-                          const hasCase = questionsToCasesMapping[principle.id]?.[qIdx];
-                          const caseScore = hasCase?.score || 0;
+                          const bestOption = getBestCaseOption(principle.id, qIdx);
+                          const hasCase = Boolean(bestOption);
+                          const caseScore = bestOption?.score ?? 0;
+                          const mappedCaseTitle = bestOption?.caseData
+                            ? getDisplayCaseTitle(bestOption.caseData, language)
+                            : "";
+                          const tooltip = (() => {
+                            if (!hasCase) {
+                              return language === "pt" ? "Sem case mapeado" : "No case mapped";
+                            }
+                            const actionLabel = language === "pt" ? "Clique para ver o case" : "Click to see case";
+                            if (mappedCaseTitle) {
+                              return `${actionLabel} (${mappedCaseTitle} - score: ${caseScore})`;
+                            }
+                            return `${actionLabel} (score: ${caseScore})`;
+                          })();
                           
                           return (
                             <button
@@ -1153,19 +1200,16 @@ Respond as if you were me, maintaining consistency with the details from the cas
                               }}
                               disabled={!hasCase}
                               className={`px-3 py-2 border rounded text-xs transition-all duration-300 flex items-center justify-center text-center min-h-[60px] ${
-                                hasCase 
-                                  ? 'bg-white/80 border-blue-200 text-[#232F3E] hover:bg-blue-50 hover:shadow-md hover:scale-105 cursor-pointer' 
+                                hasCase
+                                  ? 'bg-white/80 border-blue-200 text-[#232F3E] hover:bg-blue-50 hover:shadow-md hover:scale-105 cursor-pointer'
                                   : 'bg-gray-100 border-gray-300 text-gray-400 cursor-not-allowed'
                               } ${
                                 isHighlighted ? 'bg-yellow-200 font-bold shadow-md ring-2 ring-yellow-400' : ''
                               }`}
-                              title={hasCase 
-                                ? `${language === "pt" ? "Clique para ver o case" : "Click to see case"} (score: ${caseScore})` 
-                                : (language === "pt" ? "Sem case mapeado" : "No case mapped")
-                              }
+                              title={tooltip}
                             >
                               <span className="flex items-center gap-1">
-                                {hasCase && <span className="text-green-600 font-bold">✓</span>}
+                                {hasCase && <span className="text-green-600 font-bold">V</span>}
                                 <HighlightableText
                                   text={q}
                                   searchTerm={highlightTypicalTerm}
@@ -1186,8 +1230,16 @@ Respond as if you were me, maintaining consistency with the details from the cas
                   const isHighlighted = highlightedCaseId === caseDomId;
                   const isTop = isTopCase(c);
                   const caseQuestions = getCaseQuestions(c.id, principle.id);
+                  const questionSummaryLabel = language === 'pt' ? 'Responde' : 'Answers';
+                  const questionCountLabel = language === 'pt' ? 'pergunta(s)' : 'question(s)';
+                  const questionIdList = caseQuestions.map((q) => `Q${q.number}`).join(', ');
+                  const questionDetails = caseQuestions.slice(0, 3).map((q) => {
+                    const preview = (q.text || '').substring(0, 80);
+                    const scoreLabel = q.score != null ? ` (score: ${q.score})` : '';
+                    return `Q${q.number}${scoreLabel}: ${preview}...`;
+                  }).join('\n');
                   const questionsTooltip = caseQuestions.length > 0
-                    ? `${language === 'pt' ? 'Responde' : 'Answers'} ${caseQuestions.length} ${language === 'pt' ? 'pergunta(s)' : 'question(s)'}: Q${caseQuestions.map(q => q.number).join(', Q')}\n\n${caseQuestions.slice(0, 3).map(q => `Q${q.number}: ${(q.text || '').substring(0, 80)}...`).join('\n')}`
+                    ? `${questionSummaryLabel} ${caseQuestions.length} ${questionCountLabel}: ${questionIdList}\n\n${questionDetails}`
                     : language === 'pt' ? 'Nenhuma pergunta mapeada' : 'No questions mapped';
 
                   return (

@@ -6,7 +6,7 @@ const case_3 = {
   company: "Unimed",
   period: "06/2022-12/2022",
   isTopCase: true,
-  isGoodCase: true,
+  isGoodCase: false,
 
   pt: {
     s: `R$ 4,8 milhões sangrando em reembolsos fraudulentos - um padrão invisível ao sistema, mas não aos meus olhos. Em 2022, enquanto atuava como Head de Inovação & Produto Digital da Unimed, passei a supervisionar também a área de Risco de Pagamentos. Uma analista do time me trouxe algo aparentemente trivial: milhares de reembolsos de R$150, sempre para os mesmos 12 psicólogos, solicitados por 112 clientes diferentes. O sistema antifraude, que analisava transações de forma isolada, estava “verde”, sem alertas. Mas uma rápida projeção mostrou o tamanho do problema: uma perda anual de quase R$5 milhões - um vazamento silencioso e corrosivo à confiança de 1,6 milhão de clientes.`,
