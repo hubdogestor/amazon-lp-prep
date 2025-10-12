@@ -1,7 +1,7 @@
 const case_3 = {
   id: "unimed-ai-authorization",
-  title: "Inventei IA de Autorizacao Medica que Simplificou Processo de 5 Dias para 9 Horas (82% Automacao)",
-  title_pt: "Inventei IA de Autorizacao Medica que Simplificou Processo de 5 Dias para 9 Horas (82% Automacao)",
+  title: "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Horas (82% Automação)",
+  title_pt: "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Horas (82% Automação)",
   title_en: "Invented Medical Authorization AI that Simplified 5-Day Process to 9 Hours (82% Automation)",
   company: "Unimed",
   period: "01/2023-10/2023",

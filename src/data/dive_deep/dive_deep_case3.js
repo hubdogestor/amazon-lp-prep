@@ -113,7 +113,7 @@ const case_3 = {
     },
     {
       q: "Qual foi o momento em que você percebeu que estava certo sobre a fraude?",
-      a: "Quando desenhei o grafo e vi as 12 clínicas se conectando aos mesmos 3 devices. Foi o "aha moment" - a anomalia virou uma rede visível. Naquele instante, eu sabia que era fraude sistêmica.",
+      a: "Quando desenhei o grafo e vi as 12 clínicas se conectando aos mesmos 3 devices. Foi o 'aha moment' - a anomalia virou uma rede visível. Naquele instante, eu sabia que era fraude sistêmica.",
       q_en: "What was the moment you realized you were right about the fraud?",
       a_en: "When I drew the graph and saw the 12 clinics connecting to the same 3 devices. It was the 'aha moment' - the anomaly became a visible network. At that instant, I knew it was systemic fraud."
     },

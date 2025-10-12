@@ -1,6 +1,6 @@
 const case_1 = {
   "id": "sicredi-churn-analysis",
-  "title": "Analise de Dados para Identificar os Principais Drivers de Churn no App",
+  "title": "Análise de Dados para Identificar os Principais Drivers de Churn no App",
   "title_pt": "Análise de Dados para Identificar os Principais Drivers de Churn no App",
   "title_en": "Data Analysis to Identify the Main Drivers of App Churn",
   "company": "Sicredi Woop",
