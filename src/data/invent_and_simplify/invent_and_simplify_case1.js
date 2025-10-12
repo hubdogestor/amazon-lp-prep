@@ -1,86 +1,128 @@
 const case_1 = {
   id: "huawei-six-sigma-optimization",
-  title: "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing",
-  title_pt: "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing",
-  title_en: "Invented 5G mechanism with Six Sigma playbook that reversed client-facing penalties",
+  title: "Invention of 5G Mechanism with Six Sigma Playbook that Eliminated Client-Facing Penalties",
   company: "Huawei LATAM",
-  period: "03/2013-09/2014",
+  period: "03/2013–09/2014",
   isTopCase: true,
   isGoodCase: true,
+
   pt: {
-    s: `"R$ 2,7M em multas trimestrais. NPS despencou de 51 para 17. Cinco operadoras ameaçando cancelar contratos." O cenário era devastador: 214 dias para ativar um site 5G, 38 mil assinantes sem cobertura prometida e um processo com 19 handoffs que ninguém conseguia rastrear. Cada dia de atraso custava R$ 12k em penalidades e destruía a credibilidade da Huawei no mercado mais estratégico da América Latina.`,
-    t: `Diante desse colapso operacional que ameaçava nossa posição no mercado, assumi ownership total do rollout 5G para cinco operadoras. Minha missão era clara: reduzir o tempo de ativação para 60 dias em 70% dos sites, eliminar as multas e recuperar a confiança dos clientes — tudo sem aumentar capex.`,
-    a: `Eu inventei uma solução radical usando metodologia DMAIC. Primeiro, criei o indicador "tempo de dor do cliente" — medindo horas de indisponibilidade por assinante — que revelou que 61% dos defeitos vinham da fila offshore. Segundo, descartei completamente o pipeline de 19 handoffs e criei o playbook "One Flow": 8 marcos obrigatórios com owners únicos e SLAs cristalinos. Terceiro, codifiquei em Python o "Command Center 5G" que automatizou 14 reuniões semanais e criou alertas proativos via WhatsApp. Quando o diretor de engenharia resistiu à mudança, usei os dados para justificar o investimento de R$ 180k que trouxe QA para São Paulo, acelerando homologações em 11 dias.`,
-    r: `A invenção transformou radicalmente a operação. Em seis meses, o tempo de ativação despencou de 214 para 58 dias (-73%), eliminamos 100% das multas (economia de R$ 10,8M anuais) e o NPS saltou de 17 para 56. Mais importante: desbloqueamos R$ 47M em receita antecipada para os clientes, que reduziram churn em 3,4 pontos percentuais. O Command Center virou mecanismo oficial da Huawei, replicado em oito países e sustentando rollouts até hoje.`,
-    l: `Aprendi que inventar e simplificar é sobre eliminar complexidade desnecessária que prejudica o cliente final. O "tempo de dor do cliente" virou meu indicador padrão para priorizar melhorias. Hoje, em pagamentos, aplico o mesmo princípio: meço horas de indisponibilidade do lojista, elimino handoffs redundantes e construo dashboards que transformam dados complexos em decisões acionáveis para qualquer líder.`
+    s: `Em 2013, eu era Product Manager de Network Optimization na Huawei LATAM, responsável pelo desempenho do rollout 5G em um dos contratos mais críticos da região. O cenário era grave: multas de R$ 2,7 milhões por trimestre, NPS de 51 caindo para 17 e cinco operadoras cogitando rescindir contratos.  
+    A ativação média de cada site levava 214 dias, com 38 mil assinantes sem cobertura e 19 pontos de repasse entre equipes. A cadeia ficara ingovernável, os times trabalhavam muito e entregavam pouco. Eu sabia que precisávamos restaurar confiança antes que os clientes rompessem o contrato.`,
+    
+    t: `A diretoria me convocou para conduzir uma intervenção no processo de ativação 5G. Defini três metas: reduzir o tempo de implantação de 214 para 60 dias, eliminar as multas e reconquistar a credibilidade — sem novo capex. Percebi que o problema era menos capacidade e mais estrutura: o modelo de trabalho tinha características de um sistema que cresceu sem design central. Eu precisava devolver clareza ao processo.`,
+    
+    a: `Antes de qualquer ferramenta, fui pessoalmente a campanhas de ativação no campo para observar a realidade das equipes. Usando o DMAIC do Six Sigma, mapeei todo o fluxo e percebi que ninguém media quanto tempo o cliente ficava afetado pelas falhas. Criei o indicador “tempo de dor do cliente”, medindo horas de indisponibilidade multiplicadas pela base afetada. Essa métrica expôs onde a inércia custava mais.  
+    Com os dados, montei mapa de causas — 61% dos defeitos vinham do QA offshore. Sugeri trazer parte da validação para o Brasil e construí um modelo financeiro mostrando que cada dia de atraso equivalia a R$ 780 mil em receita retida dos clientes. Apresentei para engenharia e finanças, e a mudança foi aprovada com orçamento próprio de R$ 180 mil.  
+    Paralelamente, simplifiquei o processo: eliminei 11 handoffs e mantive oito marcos claros com responsáveis únicos, documentados no “One Flow Playbook”. Codifiquei do zero um painel em Python — o “5G Command Center” — que automatizava 14 reuniões semanais, consolidava SLA entre times e enviava alertas WhatsApp imediatos para desvios.  
+    No relacionamento com os clientes, adotei transparência: a cada duas semanas eu mesmo apresentava o mapa de tempo de dor, mostrando a redução em horas e comprometendo‑me com as causas ainda abertas. Esse simples gesto restaurou confiança e mudou o tom das reuniões.`,
+    
+    r: `Após seis meses, o tempo de ativação caiu de 214 para 58 dias (‑73%). As multas desapareceram, gerando R$ 10,8 milhões de economia anual. O NPS subiu de 17 para 56 e o modelo passou a ser referência interna: o Command Center foi replicado em oito países. As equipes reconheceram claramente a relação entre decisão técnica e impacto no cliente, e a organização recuperou respeito frente aos clientes.  
+    O resultado mais profundo foi cultural — pela primeira vez os times entenderam que simplificar é parte da engenharia, não um pedido de gestão.`,
+    
+    l: `Aprendi que simplificar não é reduzir, é organizar para enxergar. O indicador “tempo de dor do cliente” virou minha forma padrão de quantificar impacto em operações. Continuo usando essa abordagem em pagamentos digitais e serviços online — substituindo opiniões por medidas claras que todos podem questionar e melhorar.`
   },
+
   en: {
-    s: `"R$2.7M in quarterly penalties. NPS crashed from 51 to 17. Five carriers threatening contract cancellations." The scenario was devastating: 214 days to activate a 5G site, 38,000 subscribers without promised coverage, and a process with 19 handoffs that nobody could track. Each day of delay cost R$12k in penalties and destroyed Huawei's credibility in Latin America's most strategic market.`,
-    t: `Faced with this operational collapse threatening our market position, I took total ownership of the 5G rollout for five carriers. My mission was clear: reduce activation time to 60 days for 70% of sites, eliminate penalties, and recover client trust — all without increasing capex.`,
-    a: `I invented a radical solution using DMAIC methodology. First, I created the "customer pain time" indicator — measuring unavailability hours per subscriber — which revealed that 61% of defects came from the offshore queue. Second, I completely discarded the 19-handoff pipeline and created the "One Flow" playbook: 8 mandatory gates with single owners and crystal-clear SLAs. Third, I coded the "5G Command Center" in Python that automated 14 weekly meetings and created proactive WhatsApp alerts. When the engineering director resisted the change, I used data to justify the R$180k investment that brought QA to São Paulo, accelerating certifications by 11 days.`,
-    r: `The invention radically transformed the operation. In six months, activation time plummeted from 214 to 58 days (-73%), we eliminated 100% of penalties (R$10.8M annual savings), and NPS jumped from 17 to 56. More importantly: we unlocked R$47M in accelerated revenue for clients, who reduced churn by 3.4 percentage points. The Command Center became Huawei's official mechanism, replicated in eight countries and sustaining rollouts to this day.`,
-    l: `I learned that inventing and simplifying is about eliminating unnecessary complexity that hurts the end customer. "Customer pain time" became my standard indicator for prioritizing improvements. Today, in payments, I apply the same principle: I measure merchant unavailability hours, eliminate redundant handoffs, and build dashboards that turn complex data into actionable decisions for any leader.`
+    s: `In 2013, I was Product Manager for Network Optimization at Huawei LATAM, accountable for 5G rollout performance across one of the region’s largest telecom operators. The situation was severe: quarterly penalties reached BRL 2.7 million, NPS had dropped from 51 to 17, and five carriers were openly considering contract termination.  
+    Average site activation took 214 days, leaving 38 thousand subscribers without coverage. The process involved 19 handoffs between engineering, QA, supply chain and operations. Everyone was busy, yet progress was minimal. It felt like a system operating by inertia. We risked losing our most profitable market.`,
+    
+    t: `The regional board asked me to orchestrate recovery of the 5G activation process. I set three objectives: cut activation time from 214 to 60 days, remove client penalties completely, and restore trust—without increasing capex.  
+    I soon realized that the core issue wasn’t resource shortage but structural complexity. Our system had grown organically without coherent design. Bringing clarity back became my first priority.`,
+    
+    a: `Before proposing any tool, I went on‑site with field engineers to observe integration in real conditions. Using Six Sigma’s DMAIC cycle, I documented each phase and discovered that no one measured how long customers were actually impacted.  
+    I developed a new metric called **“customer pain time”**, quantifying hours of unavailability multiplied by affected subscribers. This number put financial magnitude behind each delay and revealed that 61% of cumulative downtime came from offshore QA queues processing outdated builds outside our timezone.  
+    I proposed repatriating part of QA and built a financial simulation proving that each lost day equaled roughly BRL 780 k in client revenue. The finance and engineering teams validated the data, and management approved a local QA initiative with a BRL 180 k budget.  
+    Meanwhile, I rebuilt the workflow from the ground up: 19 handoffs condensed into 8 checkpoints, each with a clearly identified owner and measurable entry/exit criteria. I wrote the “One Flow Playbook” and created supporting software—the **“5G Command Center”**—a Python‑based dashboard automating 14 recurring meetings, consolidating SLA calculations, and sending WhatsApp alerts the moment a threshold was exceeded.  
+    To regain client confidence, I instituted transparent reporting. Every two weeks I presented “pain time” dashboards directly to carrier executives, showing trend lines and actions under way. Turning data into visuals helped transform criticism into cooperation.`,
+    
+    r: `After six months, activation time dropped from 214 to 58 days (−73 %). All contractual penalties were eliminated, saving BRL 10.8 million per year. NPS rose from 17 to 56, and client trust was permanently restored. Carriers collectively unlocked around BRL 47 million in previously delayed revenue.  
+    The Command Center became official practice across eight LATAM countries. More than a platform, it created a new culture of accountability — engineers understood instantly which event caused which delay, and leaders gained visibility without micromanagement.`,
+    
+    l: `This project shaped how I approach operational design. The breakthrough didn’t come from adding complexity but from reframing measurement around what the customer actually feels.  
+    “Customer pain time” became my standard lever for aligning business and technical decisions. Ever since, whether in connectivity or digital payments, I rely on metrics that expose friction precisely and can survive leadership transitions because everyone understands their logic. The lesson is simple: sustainable performance is built on clarity that people trust.`
   },
+
   fups: [
+    // 1. Erro / Failure
     {
-      q: "Como voce priorizou os cinco carriers quando todos estavam em crise?",
-      a: "Eu usei o indicador de horas de dor do cliente para rankear clusters; foquei nas duas operadoras com maior penalidade acumulada (R$ 1,5M) e programei tres sprints dedicados a elas antes de expandir.",
-      q_en: "How did you prioritize the five carriers when everyone felt urgent?",
-      a_en: "I ranked clusters by customer pain hours, focused on the two carriers with the largest accrued penalties (R$ 1.5M), and scheduled three dedicated sprints for them before expanding."
+      q: "Qual foi seu maior erro ou falha nesse caso?",
+      a: "No início tentei redesenhar todo o processo de uma vez e isso diluiu o foco. Aprendi que simplificação é maratona: começando com quick wins que geram credibilidade.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "At first I tried to redesign the entire process at once, which diluted focus. I learned that simplification is a marathon — start with quick wins that earn trust."
+    },
+    // 2. O que faria diferente / What would you do differently
+    {
+      q: "O que você faria diferente hoje?",
+      a: "Ter trazido o cliente para o diagnóstico inicial e não só para a entrega. Isso teria acelerado o apoio político e validado hipóteses mais cedo.",
+      q_en: "What would you do differently today?",
+      a_en: "I would involve the client during the diagnostic phase, not only at delivery. Early engagement would have accelerated buy‑in and validated assumptions faster."
+    },
+    // 3. Obstáculo mais difícil / Hardest obstacle
+    {
+      q: "Qual foi o obstáculo mais difícil de superar?",
+      a: "A oposição da engenharia offshore, que temia perder autonomia. Usei dados financeiros — R$47 mi bloqueados por atrasos — para transformar resistência em evidência.",
+      q_en: "What was the most difficult obstacle to overcome?",
+      a_en: "Resistance from the offshore engineering team, afraid of losing autonomy. I used financial correlation — BRL 47 M blocked due to delays — to turn resistance into data‑driven insight."
+    },
+    // 4. Riscos / Risks
+    {
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "Interrupção de entregas durante migração de QA e perda de patrocínio executivo. Mitiguei com rollout em lotes de 15 dias com rollback de 12 h e relatórios transparentes ao board.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "Main risks were delivery interruption during QA migration and losing executive sponsorship. I mitigated through 15‑day batch rollouts, 12‑hour rollback plans, and transparent reports to the board."
+    },
+    // 5. Dados / Data rationale
+    {
+      q: "Que dados você usou e qual foi a racional de cálculo?",
+      a: "Coletei 214 históricos de sites cruzando tempo de deploy, defeitos e receita retida. O 'tempo de dor' multiplicava horas sem serviço pela base afetada, evidenciando perda real.",
+      q_en: "What data did you use and what was the calculation rationale?",
+      a_en: "I analyzed 214 site histories combining deploy time, defects, and blocked revenue. The 'customer pain time' multiplied downtime hours by affected users, exposing real cost per delay."
+    },
+    // 6. Uso posterior / Later application
+    {
+      q: "Como você usou o aprendizado desse caso em outras frentes ou trabalhos?",
+      a: "Levei o indicador de 'tempo de dor' para fintechs e pagamentos, correlacionando falhas de reconciliação ao prejuízo de receita e priorizando correções com base em impacto humano.",
+      q_en: "How did you use the learning from this case elsewhere?",
+      a_en: "I applied the 'customer pain time' metric in fintech operations, linking reconciliation failures to revenue loss and prioritizing fixes based on human and financial impact."
+    },
+
+    // Complementares bilíngues
+    {
+      q: "Como garantiu sustentabilidade após o projeto?",
+      a: "Implementei alertas automáticos de SLA, auditoria trimestral e documentação pública. O mecanismo continuou operando após minha saída.",
+      q_en: "How did you ensure sustainability after completion?",
+      a_en: "I set automated SLA alerts, quarterly audits, and open documentation. The mechanism kept running long after I left."
     },
     {
-      q: "Qual foi a maior resistencia interna e como voce venceu?",
-      a: "O diretor de engenharia bloqueou a migracao do QA; eu levei logs mostrando 61% dos defeitos vindos da fila offshore e negociei com RH um pacote de retencao para os 8 especialistas que aceitei mover para Sao Paulo.",
-      q_en: "What was the hardest internal pushback and how did you break it?",
-      a_en: "The engineering director blocked the QA switch; I showed logs proving 61% of defects originated offshore and negotiated a retention package with HR for the eight specialists I moved to Sao Paulo."
+      q: "Qual decisão mais impopular precisou tomar?",
+      a: "Transferir parte do QA do exterior para o Brasil, contrariando contratos antigos. A prova financeira convenceu rápido.",
+      q_en: "What was your most unpopular decision?",
+      a_en: "Moving part of QA from overseas to Brazil, which broke old contracts. The financial proof converted resistance quickly."
     },
     {
-      q: "Como voce garantiu que o Command Center nao virasse mais uma ferramenta ignorada?",
-      a: "Eu anexei o uso diario ao bonus dos gerentes de implantacao, criei alertas via WhatsApp com tres indicadores chave e facilitei uma rotina de 15 minutos onde eu pessoalmente revisava excecoes com cada cliente.",
-      q_en: "How did you ensure the Command Center would not become shelfware?",
-      a_en: "I tied daily usage to rollout managers' bonuses, pushed WhatsApp alerts with three key indicators, and ran a 15-minute ritual where I personally reviewed exceptions with each client."
+      q: "Como mediu o fator humano de sucesso?",
+      a: "Subida de NPS de 17 para 56 e 72% menos escalonamentos. Mostrou que confiança havia voltado.",
+      q_en: "How did you measure the human factor of success?",
+      a_en: "NPS jumped from 17 to 56 and 72 % fewer internal escalations — clear proof that trust was restored."
     },
     {
-      q: "Que tipo de dado voce considerou para provar o retorno financeiro?",
-      a: "Eu consolidei no PowerBI a previsao de receita por antena, o ganho de ARPU e a reducao de churn observada nos primeiros 45 dias; o CFO do cliente validou os R$ 47M antecipados em conjunto comigo.",
-      q_en: "What data did you use to prove the financial upside?",
-      a_en: "I consolidated antenna revenue forecasts, ARPU uplift, and churn reduction observed in the first 45 days; the client's CFO validated the R$ 47M pull-forward with me."
+      q: "Que habilidade pessoal mais contribuiu para o resultado?",
+      a: "Traduzir dados complexos em linguagem executiva. Essa ponte manteve engenharia e board no mesmo ritmo.",
+      q_en: "Which personal skill contributed most?",
+      a_en: "Translating complex data into executive language — that bridge kept engineering and leadership in sync."
     },
     {
-      q: "Como voce tratou o risco regulatorio com as prefeituras?",
-      a: "Eu criei um pacote unico de licenca, apresentei pessoalmente aos quatro prefeitos e disponibilizei um painel publico com andamento por site, reduzindo consultas duplicadas em 72%.",
-      q_en: "How did you address regulatory risk with the city halls?",
-      a_en: "I built a single licensing bundle, presented it personally to the four mayors, and published a public dashboard per site, cutting duplicate inquiries by 72%."
+      q: "Como lidou com falhas do Command Center nas primeiras semanas?",
+      a: "Operei monitoramento 24h manual por 15 dias e mantive fallback em planilha para evitar incidentes.",
+      q_en: "How did you handle early Command Center failures?",
+      a_en: "I manually monitored logs 24 hours a day for two weeks and maintained spreadsheet fallback to prevent incidents."
     },
     {
-      q: "Qual mecanismo voce deixou para sustentar o SLA apos sua saida?",
-      a: "Eu documentei o playbook One Flow, treinei 43 lideres de campo e instalei auditorias quinzenais automatizadas com triggers que avisam o VP sempre que o SLA passa de 70 dias.",
-      q_en: "What mechanism did you leave to keep the SLA after you moved on?",
-      a_en: "I documented the One Flow playbook, trained 43 field leaders, and deployed bi-weekly automated audits that ping the VP whenever SLA exceeds 70 days."
-    },
-    {
-      q: "Como voce mediu a satisfacao do cliente final e nao apenas da operadora?",
-      a: "Eu conectei o Command Center ao CRM B2C dos carriers e monitorei reconexoes em 48 horas, alem de realizar entrevistas com 40 assinantes prioritarios identificados pelo churn score.",
-      q_en: "How did you measure end-customer satisfaction and not just the carrier's view?",
-      a_en: "I linked the Command Center to the carriers' B2C CRM, tracked reactivations within 48 hours, and interviewed 40 priority subscribers flagged by churn score."
-    },
-    {
-      q: "Que trade-off financeiro voce precisou fazer para acelerar homologacoes?",
-      a: "Eu realoquei R$ 180k do orcamento de viagens para cobrir o QA local, cortei 22 deslocamentos internacionais e reduzi em 18% o gasto com diarias.",
-      q_en: "What financial trade-off did you take to accelerate certifications?",
-      a_en: "I reallocated R$ 180k from the travel budget to fund local QA, cut 22 international trips, and reduced per-diem spend by 18%."
-    },
-    {
-      q: "Como voce garantiu ratio EU:NOS saudavel no time?",
-      a: "Eu mantive ownership explicito: todas as decisoes criticas eram aprovadas por mim e registradas no Command Center, deixando claro onde eu intervinha em vez de diluir em comites.",
-      q_en: "How did you keep a healthy I:we ratio inside the team?",
-      a_en: "I kept explicit ownership: every critical decision was approved by me and logged in the Command Center, making it clear where I intervened instead of hiding behind committees."
-    },
-    {
-      q: "Que aprendizado voce exportou imediatamente para pagamentos?",
-      a: "Eu reuso o indicador de tempo de dor para medir horas com falha de conciliacao em adquirentes, priorizando squads que reduzem impacto direto no lojista.",
-      q_en: "What learning did you export straight into payments?",
-      a_en: "I reuse the customer pain-time indicator to measure reconciliation outage hours in acquirers, prioritizing squads that reduce direct merchant impact."
+      q: "Qual aprendizado mais importante tirou dessa experiência?",
+      a: "Quando todos têm acesso aos mesmos dados, o comportamento muda sem precisar impor regras.",
+      q_en: "What was your most important takeaway?",
+      a_en: "When everyone shares the same data, behavior shifts naturally — transparency drives discipline more than control."
     }
   ]
 };

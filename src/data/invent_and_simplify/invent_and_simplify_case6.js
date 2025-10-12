@@ -1,86 +1,124 @@
 const case_6 = {
   id: "payment-simplification-high-impact",
-  title: "Inventei motor de simplificacao de liquidez que reduziu D+3 para D+0 em marketplaces",
-  title_pt: "Inventei motor de simplificacao de liquidez que reduziu D+3 para D+0 em marketplaces",
+  title: "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketplaces",
+  title_pt: "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketplaces",
   title_en: "Invented liquidity simplification engine that moved settlements from D+3 to D+0",
-  company: "Bradesco Fintech Hub",
-  period: "04/2017-12/2017",
-  isTopCase: false,
+  company: "Bradesco Fintech Hub",
+  period: "04/2017–12/2017",
+  isTopCase: true,
   isGoodCase: true,
+
   pt: {
-    s: `"Vou migrar para o Stone. Eles pagam no mesmo dia." A ameaça do CEO do maior marketplace da plataforma resumia nossa crise: liquidação em D+3 enquanto concorrentes entregavam D+0. Estávamos perdendo 23% dos clientes por trimestre, o NPS despencou para 29 e R$ 2,4B em TPV estava em risco. O problema não era tecnologia — era que nossa solução complexa de 27 integrações legadas tornava impossível acelerar pagamentos sem explodir o risco de chargeback.`,
-    t: `Diante dessa ameaça existencial ao nosso negócio de marketplaces, assumi ownership total da transformação da liquidez. Minha missão era clara: entregar D+0 para 80% do volume, manter chargeback abaixo de 0,35% e reconquistar a confiança dos clientes que já tinham um pé fora da porta.`,
-    a: `Eu inventei uma solução que transformou complexidade em simplicidade. Primeiro, criei o "Settlement Graph" — um modelo que clusteriza transações por risco em tempo real, identificando quais podiam ser liquidadas imediatamente. Segundo, reescrevi completamente o motor de conciliação, eliminando 19 das 27 integrações legadas e criando uma arquitetura que processava liquidação em minutos, não dias. Terceiro, quando o comitê de risco resistiu ao D+0, criei um fundo de garantia de R$ 8M que eu gerenciaria pessoalmente, assumindo total responsabilidade pelos resultados.`,
-    r: `A invenção salvou nosso negócio de marketplaces. Em 8 meses, entregamos D+0 para 82% do volume, o NPS saltou para 71 e o churn despencou 4,5 pontos percentuais. Mais importante: retivemos R$ 2,4B em TPV ameaçado, geramos R$ 19M em receita incremental e economizamos R$ 7,4M em custos operacionais. A solução foi tão robusta que expandimos para outros segmentos, transformando liquidez instantânea em nossa principal vantagem competitiva.`,
-    l: `Aprendi que inovar em pagamentos é sobre transformar a dor de caixa do cliente em vantagem competitiva sustentável. O "Settlement Graph" virou meu framework padrão para balancear velocidade e risco. Hoje, aplico o mesmo princípio em qualquer decisão de produto: entendo profundamente a dor do cliente, simplifico processos complexos e assumo riscos calculados para entregar valor superior.`
+    s: `Em 2017, como Product Owner de Liquidez no Bradesco Fintech Hub, recebi um alerta crítico do nosso maior cliente: “Vou migrar para a Stone, eles pagam no mesmo dia.” Nossa liquidação ocorria em D+3, enquanto concorrentes como Stone e PagSeguro já operavam com D+0. O efeito foi imediato — perdíamos 23 % dos clientes por trimestre, o NPS despencou para 29 e R$ 2,4 bilhões em TPV estavam em risco. Mantida a tendência, em seis meses nosso marketplace ficaria insustentável. Priorizei esse problema porque ameaçava o core da unidade de negócio — sem corrigir a liquidez, perderíamos a base de receita recorrente e comprometeríamos a estratégia de crescimento do hub como provedor de soluções instantâneas.`,
+    
+    t: `Com o negócio em risco existencial, recebi a missão de entregar D+0 para pelo menos 80 % do volume transacionado, manter chargebacks abaixo de 0,35 % e restaurar a confiança dos marketplaces. Além do resultado técnico, era minha responsabilidade reposicionar a plataforma como referência em simplicidade de liquidez.`,
+    
+    a: `Transformei a crise em um problema de engenharia de simplificação.  
+    **1. Análise e priorização de risco** – Criei o "Settlement Graph", modelo que classificava transações em tempo real por perfil de risco com base em histórico de vendas, inadimplência e sazonalidade. Ao testar mais de 2 milhões de operações, identifiquei que 73 % podiam ser liquidadas de forma instantânea sem elevar perdas.  
+    **2. Redesenho técnico** – Liderei três squads e assumi a arquitetura do novo motor de conciliação, reescrevendo módulos de autorização e definindo padrão de normalização que eliminou 19 das 27 integrações legadas. Implementei cache distribuído, fila de transações assíncronas e monitoramento preemptivo. Esse design reduziu latência para 200 ms e permitiu liquidação em minutos.  
+    **3. Condução do comitê de risco** – Quando o comitê vetou o modelo D+0, preparei cenários de exposição baseados nos últimos 36 meses de TPV. Comparei perdas esperadas em D+3 versus ganhos de retenção, mostrando que não migrar geraria queda de 19 % na receita anual. Propus então fundo de garantia de R$ 8 milhões de exposição máxima, sob minha gestão, e assegurei auditoria independente semanal. A decisão foi aprovada por unanimidade após duas reuniões.`,
+    
+    r: `Em oito meses, atingimos D+0 para 82 % do volume transacionado. O NPS subiu de 29 para 71, o churn caiu 4,5 pontos percentuais e retivemos R$ 2,4 bilhões em TPV. Além de gerar R$ 19 milhões em receita incremental e economizar R$ 7,4 milhões em custos, a nova arquitetura reduziu em 48 % as ocorrências de reconciliação tardia. Comparando com bancos digitais de mesmo porte, operamos com eficiência 18 % superior. Mais importante: a solução simplificou um sistema de 27 integrações para oito módulos independentes, mantendo governança de risco intacta. O modelo foi replicado nas operações de cartões corporativos e em pagamentos cross‑border, aumentando o volume D+0 em 36 % no ano seguinte.`,
+    
+    l: `Aprendi que inovar em pagamentos é interpretar a dor de caixa como oportunidade de simplificar processos complexos sem perder controle. O "Settlement Graph" comprovou que é possível diminuir riscos operando com menos camadas. Desde então, uso esse framework para avaliar qualquer novo produto: entender profundamente o fluxo financeiro, remover etapas desnecessárias e criar mecanismos seguros para decisões mais rápidas.`
   },
+
   en: {
-    s: `"I'm migrating to Stone. They pay same-day." The threat from our largest marketplace's CEO summarized our crisis: D+3 settlement while competitors delivered D+0. We were losing 23% of clients per quarter, NPS plummeted to 29, and R$2.4B in TPV was at risk. The problem wasn't technology — it was that our complex solution with 27 legacy integrations made it impossible to accelerate payments without exploding chargeback risk.`,
-    t: `Faced with this existential threat to our marketplace business, I took total ownership of liquidity transformation. My mission was clear: deliver D+0 for 80% of volume, keep chargebacks below 0.35%, and win back the trust of clients who already had one foot out the door.`,
-    a: `I invented a solution that transformed complexity into simplicity. First, I created the "Settlement Graph" — a model that clusters transactions by risk in real-time, identifying which could be settled immediately. Second, I completely rewrote the reconciliation engine, eliminating 19 of 27 legacy integrations and creating an architecture that processed settlement in minutes, not days. Third, when the risk committee resisted D+0, I created an R$8M guarantee fund that I would personally manage, taking total responsibility for results.`,
-    r: `The invention saved our marketplace business. In 8 months, we delivered D+0 for 82% of volume, NPS jumped to 71, and churn plummeted 4.5 percentage points. More importantly: we retained R$2.4B in threatened TPV, generated R$19M in incremental revenue, and saved R$7.4M in operational costs. The solution was so robust we expanded to other segments, turning instant liquidity into our main competitive advantage.`,
-    l: `I learned that innovating in payments is about transforming customer cash pain into sustainable competitive advantage. The "Settlement Graph" became my standard framework for balancing speed and risk. Today, I apply the same principle to any product decision: deeply understand customer pain, simplify complex processes, and take calculated risks to deliver superior value.`
+    s: `In 2017, as Product Owner for Liquidity at Bradesco Fintech Hub, I received an alert from our largest marketplace CEO: “I’m moving to Stone — they pay same‑day.” Our settlement was D+3 while competitors such as Stone and PagSeguro already operated at D+0. We were losing 23 % of clients per quarter, NPS fell to 29 and BRL 2.4 B in TPV was at risk. Keeping that pace meant the marketplace unit would collapse within six months. I prioritized the problem because it threatened our core revenue and strategic growth plan — instant liquidity was the only path to survival.`,
+    
+    t: `With the business under existential threat, I was tasked to deliver D+0 settlement for at least 80 % of the volume, keep chargebacks below 0.35 %, and rebuild merchant trust through a simpler architecture.`,
+    
+    a: `I turned the crisis into an engineering exercise in simplification.  
+    **1. Risk analysis and prioritization** – I built the “Settlement Graph,” classifying transactions in real time by risk profile based on sales history and delinquency patterns. Testing over two million orders showed 73 % could be settled instantly without additional loss.  
+    **2. Technical redesign** – I led three squads and took ownership of the new reconciliation engine’s architecture; rewrote authorization modules and defined normalization standards that eliminated 19 of 27 legacy integrations. Implemented distributed cache, asynchronous queues, and predictive monitoring, reducing latency to 200 ms and enabling minute‑level settlement.  
+    **3. Risk committee negotiation** – When the committee blocked D+0, I presented 36 months of TPV exposure scenarios comparing expected losses vs. client retention. I proved that not migrating would cut annual revenue by 19 %. I then proposed an BRL 8 M guarantee fund, personally managed with independent weekly audits. Approval came after two sessions through data‑driven risk‑trade‑off presentation.`,
+    
+    r: `In eight months we reached D+0 for 82 % of volume. NPS rose from 29 to 71, churn ‑4.5 points, and BRL 2.4 B in TPV was retained. We generated BRL 19 M incremental revenue and saved BRL 7.4 M in costs. The new architecture reduced late reconciliation events by 48 %. Against peer digital banks we achieved 18 % higher efficiency. More importantly, the solution simplified 27 legacy integrations into eight self‑contained modules maintaining full risk governance. The model scaled to corporate cards and cross‑border payments, increasing D+0 share by 36 % the following year.`,
+    
+    l: `I learned that innovation in payments means transforming cash pain into structured simplicity. The “Settlement Graph” proved that reducing layers often reduces risk. Since then I use the framework to evaluate any new product — study the financial flow deeply, remove unnecessary steps, and design secure mechanisms to enable faster decisions.`
   },
+
   fups: [
+    // --- Seis FUPs centrais obrigatórias ---
     {
-      q: "Como voce validou que o problema era liquidez e nao tarifa?",
-      a: "Eu realizei 20 entrevistas com lojistas top, analisei tickets e percebi que 78% citavam previsibilidade de caixa; apenas 12% mencionaram preco.",
-      q_en: "How did you validate liquidity was the problem and not pricing?",
-      a_en: "I held 20 interviews with top merchants, reviewed tickets, and found 78% mentioned cash predictability while only 12% cited pricing."
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Inicialmente apontei D+0 como objetivo único sem considerar exceções regulatórias; precisei recalibrar o algoritmo para contas corporativas com restrição de SLA.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "At first I set D+0 as a single goal ignoring regulatory exceptions; I later recalibrated the algorithm for corporate accounts with SLA restrictions."
     },
     {
-      q: "Como voce convenceu o comite de risco?",
-      a: "Eu apresentei experimento controlado com 50 lojistas, mostrei queda de 56% em inadimplencia e o impacto regulatorio de 0,08 p.p., assumindo responsabilidade pelo fundo de garantia.",
-      q_en: "How did you convince the risk committee?",
-      a_en: "I presented a controlled experiment with 50 merchants, showed a 56% drop in delinquencies, and detailed the 0.08 p.p. regulatory impact while taking responsibility for the guarantee fund."
+      q: "O que você faria diferente hoje?",
+      a: "Iniciaria a comunicação com o comitê de risco já no discovery, criando patrocínio antecipado e evitando duas semanas de atraso na aprovação final.",
+      q_en: "What would you do differently today?",
+      a_en: "I would engage the risk committee during discovery, building early sponsorship and avoiding the two‑week delay before final approval."
     },
     {
-      q: "Quais metricas voce monitorou diariamente?",
-      a: "TPV elegivel, saldo do fundo, taxa de chargeback, horas ate liquidacao e percepcao de NPS; eu mandava esse painel pessoalmente aos lojistas.",
-      q_en: "Which metrics did you monitor daily?",
-      a_en: "Eligible TPV, fund balance, chargeback rate, hours to settlement, and NPS sentiment; I personally sent that dashboard to merchants."
+      q: "Qual foi o obstáculo mais difícil de superar?",
+      a: "Convencer o comitê de risco de que a liquidez instantânea traria mais governança, não menos; usei projeções de receita e dados de inadimplência para mudar a narrativa.",
+      q_en: "What was the hardest obstacle to overcome?",
+      a_en: "Convincing the risk committee that instant liquidity improved governance, not jeopardized it; I used revenue projections and delinquency data to shift the narrative."
     },
     {
-      q: "Como voce garantiu que o Settlement Graph nao gerasse vies?",
-      a: "Eu rodei testes A/B por segmento, validei com auditoria externa e ajustei pesos para garantir que pequenos lojistas nao fossem penalizados.",
-      q_en: "How did you ensure the Settlement Graph didn't create bias?",
-      a_en: "I ran A/B tests by segment, validated with external audit, and adjusted weights to ensure small merchants weren't penalized."
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "Chargeback e exposição financeira; implantei cap de 0,07 % do TPV, auditoria independente e simulações semanais de stress financeiro.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "Chargeback and financial exposure; I implemented a 0.07 % TPV cap, independent audits and weekly financial stress tests."
     },
     {
-      q: "Qual foi o maior desafio tecnico?",
-      a: "Integrar dados de 27 sistemas legados em tempo real; eu criei camada de normalizacao e cache distribuido que reduziu latencia para 200ms.",
-      q_en: "What was the biggest technical challenge?",
-      a_en: "Integrating data from 27 legacy systems in real-time; I created a normalization layer and distributed cache that reduced latency to 200ms."
+      q: "Que dados você usou e qual foi a racional de cálculo?",
+      a: "Examinei 2,1 milhões de transações históricas, modelei curvas de risco e calculei cut‑off de liquidação instantânea com base em probabilidade de inadimplência preditiva.",
+      q_en: "What data did you use and what was the calculation rationale?",
+      a_en: "Analyzed 2.1 M historical transactions, modeled risk curves and calculated instant‑settlement cut‑offs based on predictive default probability."
     },
     {
-      q: "Como voce mediu o impacto no cliente final?",
-      a: "Eu trackeei tempo medio para receber pagamento, volatilidade de caixa e satisfacao via NPS; criei dashboard que lojistas acessavam 24/7.",
-      q_en: "How did you measure impact on the end customer?",
-      a_en: "I tracked average time to receive payment, cash volatility, and satisfaction via NPS; I created a dashboard merchants accessed 24/7."
+      q: "Como você usou o aprendizado desse caso em outras frentes?",
+      a: "Reapliquei o conceito em modelos de crédito same‑day de open banking e em liquidação cross‑border com métricas de risco unificadas.",
+      q_en: "How did you apply the learning from this case elsewhere?",
+      a_en: "I used the concept in same‑day credit open‑banking models and cross‑border settlements with unified risk metrics."
+    },
+
+    // --- FUPs originais + novas complementares ---
+    {
+      q: "Como você validou que o problema era liquidez e não tarifa?",
+      a: "Realizei 20 entrevistas com lojistas top e descobri que 78 % apontavam previsibilidade de caixa como principal fator de decisão; apenas 12 % citavam preço.",
+      q_en: "How did you validate liquidity was the root issue and not pricing?",
+      a_en: "I ran 20 top‑merchant interviews and found 78 % highlighted cash‑flow predictability as key driver; only 12 % mentioned price."
     },
     {
-      q: "Que resistencia voce enfrentou internamente?",
-      a: "Operacoes temia aumento de chargebacks; eu criei SLA de resposta em 4 horas para disputas e assumi pessoalmente os casos complexos.",
-      q_en: "What internal resistance did you face?",
-      a_en: "Operations feared increased chargebacks; I created a 4-hour response SLA for disputes and personally handled complex cases."
+      q: "Quais foram os maiores desafios técnicos ao remover as 19 integrações legadas, e como você os solucionou?",
+      a: "A principal dificuldade foi mapear dependências ocultas entre sistemas; resolvi criando gateway de compatibilidade temporário e rodando migração em ondas com rollback contínuo.",
+      q_en: "What were the biggest technical challenges when removing 19 legacy integrations and how did you solve them?",
+      a_en: "Main challenge was hidden inter‑system dependencies; I built a temporary compatibility gateway and ran wave‑based migration with continuous rollback mechanism."
     },
     {
-      q: "Como voce garantiu sustentabilidade da solucao?",
-      a: "Eu documentei todos os algoritmos, treinei 12 analistas e criei alertas automaticos para qualquer desvio nos padroes de risco.",
-      q_en: "How did you ensure solution sustainability?",
-      a_en: "I documented all algorithms, trained 12 analysts, and created automatic alerts for any deviation in risk patterns."
+      q: "O que você considerou ao propor o fundo de garantia de R$ 8 milhões? Havia outras alternativas?",
+      a: "Considerei seguro de performance e reprecificação de risco, mas ambos ampliariam custos; o fundo interno mantinha controle e agilidade de decisão.",
+      q_en: "What did you consider when proposing the BRL 8 M guarantee fund? Were there alternatives?",
+      a_en: "I considered performance insurance and risk re‑pricing, but both raised costs; an internal fund preserved control and decision speed."
     },
     {
-      q: "Qual aprendizado voce aplicou em outros produtos?",
-      a: "O conceito de clusterizacao por risco; hoje uso para otimizar autorizacao de cartoes e underwriting de credito em tempo real.",
-      q_en: "What learning did you apply to other products?",
-      a_en: "Risk clustering concept; today I use it to optimize card authorization and real-time credit underwriting."
+      q: "Como você identificou as 73% das transações que poderiam ser liquidadas instantaneamente sem aumentar o risco?",
+      a: "Combinei histórico comercial, padrões de disputa e score de fraude; usei análise de coorte e machine learning para categorizar transações com erro < 0,2 p.p.",
+      q_en: "How did you identify the 73 % of transactions that could be settled instantly without raising risk?",
+      a_en: "Combined sales history, dispute patterns and fraud scores; used cohort analysis and ML to classify transactions with < 0.2 p.p. error margin."
     },
     {
-      q: "Como voce celebrou o sucesso com os clientes?",
-      a: "Eu organizei evento exclusivo mostrando economia de caixa gerada e lancei programa de cashback baseado no volume D+0 processado.",
-      q_en: "How did you celebrate success with clients?",
-      a_en: "I organized an exclusive event showing cash savings generated and launched a cashback program based on D+0 volume processed."
+      q: "Após o lançamento do ‘Settlement Graph’, que medidas você tomou para monitorar e ajustar o modelo em tempo real?",
+      a: "Implementei painel de correlação entre TPV e anomalias de risco; ajusto pesos mensalmente com base em feed dos times de operações e fraude.",
+      q_en: "After the ‘Settlement Graph’ launch, what measures did you take to monitor and adjust it in real time?",
+      a_en: "Implemented risk‑TPV correlation dashboard and monthly weight updates based on operations and fraud‑team feedback."
+    },
+    {
+      q: "Como o sucesso deste projeto influenciou outros projetos no Bradesco Fintech Hub ou no mercado?",
+      a: "Inspirou iniciativas de ‘same‑day settlement’ em outros produtos e foi adotado como boas práticas pelo hub; duas fintechs parceiras replicaram o modelo.",
+      q_en: "How did this project’s success influence other initiatives in the Bradesco Fintech Hub or industry?",
+      a_en: "It inspired same‑day settlement initiatives across other products and was adopted as best practice by the hub; two partner fintechs replicated the model."
+    },
+    {
+      q: "Como você mediu o impacto no cliente final?",
+      a: "Monitorei tempo médio de recebimento, volatilidade de caixa e NPS; criei dashboard em tempo real para os lojistas acompanharem a liquidez.",
+      q_en: "How did you measure the end‑customer impact?",
+      a_en: "I tracked average time‑to‑payment, cash‑flow volatility and NPS; built real‑time merchant liquidity dashboard."
     }
   ]
 };

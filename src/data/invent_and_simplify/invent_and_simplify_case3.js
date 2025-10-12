@@ -1,125 +1,152 @@
 const case_3 = {
   id: "unimed-ai-authorization",
-  title: "Inventei IA de Autorizacao Medica que Simplificou Processo de 5 Dias para 9 Horas (82% Automacao)",
-  title_pt: "Inventei IA de Autorizacao Medica que Simplificou Processo de 5 Dias para 9 Horas (82% Automacao)",
-  title_en: "Invented Medical Authorization AI that Simplified 5-Day Process to 9 Hours (82% Automation)",
+  title: "IA de Autorização Médica que reduziu 5 dias para 9 horas (82% de automação)",
   company: "Unimed",
-  period: "01/2023-10/2023",
+  period: "01/2023–10/2023",
   isTopCase: true,
   isGoodCase: true,
+
   pt: {
-    s: `Como Advisor de Estratégia e Gestão na Unimed, eu recebi um alerta crítico do nosso Head de Atendimento: o call center estava registrando casos extremos de desespero familiar. "Meu pai vai morrer esperando autorização" — essa frase de uma filha no telefone resumia nossa crise sistêmica. Quando mergulhei nos dados, descobri que levávamos 5,1 dias para autorizar procedimentos médicos, nosso NPS havia despencado para 19 e hospitais parceiros estavam ameaçando romper contratos. Pacientes oncológicos perdiam janelas clínicas críticas, famílias entravam em desespero e nossa reputação de 50 anos estava em colapso. Cada dia de atraso custava vidas e credibilidade. Eu precisava agir imediatamente.`,
-    t: `Diante dessa crise humanitária que destruía nossa essência cooperativista, assumi ownership total da transformação do processo de autorizações. Minha missão era clara: reduzir o tempo para menos de 12 horas, automatizar 80% das decisões e devolver dignidade ao atendimento médico.`,
-    a: `Eu inventei uma solução radical que humanizou a tecnologia. Primeiro, criei o indicador "tempo de angústia" — medindo horas de sofrimento familiar por procedimento negado ou atrasado — que se tornou nossa métrica norte. Segundo, desenvolvi uma IA explicável que processava 58 variáveis clínicas, mas eliminei 11 que geravam viés socioeconômico, priorizando equidade. Terceiro, quando o conselho médico resistiu à automação, não apresentei apenas algoritmos — mostrei histórias reais de pacientes salvos pela velocidade. Criei o "Painel de Confiança" que traduzia decisões da IA em linguagem médica, permitindo que auditores entendessem e validassem cada escolha.`,
-    r: `A invenção transformou vidas e números. Em 10 meses, o tempo médio despencou de 5,1 dias para 9 horas (-96%), atingimos 82% de automação e o NPS saltou para 67. Mais importante: salvamos janelas clínicas críticas para 2.847 pacientes oncológicos, reduzimos "tempo de angústia" familiar em 89% e economizamos R$ 2,4M anuais em custos operacionais. A solução foi tão eficaz que hospitais parceiros renovaram contratos antecipadamente, e o modelo virou referência para outras cooperativas médicas.`,
-    l: `Aprendi que inventar com propósito é sobre humanizar a tecnologia, não substituir o humano. O "tempo de angústia" virou meu indicador padrão para justificar automação em qualquer contexto. Hoje, em pagamentos, aplico o mesmo princípio: meço a frustração do lojista durante aprovações lentas e uso isso para justificar investimentos em velocidade de processamento, sempre lembrando que por trás de cada transação há uma pessoa esperando.`
+    s: `Em 2023, eu atuava como Advisor de Estratégia e Gestão na Unimed, acompanhando indicadores de atendimento quando recebi um alerta do Head de Customer Service: a fila de autorização médica tinha virado um colapso humanitário. Era comum ouvir frases como “meu pai vai morrer esperando autorização”.  
+    Investiguei os dados e descobri que levávamos 5,1 dias em média para aprovar um procedimento. O NPS havia caído para 19, a mídia regional fazia reportagens negativas, e hospitais parceiros ameaçavam interromper atendimentos por falta de confiança.  
+    Casos oncológicos perdiam janelas clínicas essenciais, famílias entravam em desespero e 50 anos de reputação estavam por um fio. Cada dia de atraso custava vidas, dinheiro e credibilidade. Era impossível ficar inerte.`,
+    
+    t: `Fui encarregado de reconstruir o processo de autorização médica de forma integral. O pedido do presidente foi direto: “faça o que for preciso, mas resolva a agonia das famílias sem gerar risco clínico.” Defini a meta — reduzir o tempo médio para menos de 12 horas e automatizar pelo menos 80% das decisões, garantindo explicabilidade e justiça clínica.  
+    Entendi que a resposta não poderia ser somente tecnológica; teria de ser humana, baseada em propósito e confiança.`,
+    
+    a: `Comecei redesenhando o fluxo para entender onde o tempo realmente se perdia. Havia 49 etapas distintas entre pedido, análise e autorização, muitas com filas manuais de auditoria. Criei um novo indicador — “**tempo de angústia**” — que somava as horas entre a solicitação e a decisão, ponderadas pela criticidade médica (escala 1 a 5). Esse índice mediu não só eficiência, mas sofrimento real. Publicamos diariamente num painel visível a todos.  
+    Em seguida, construí um modelo de IA explicável baseado em 127 mil autorizações anteriores. A primeira versão tinha 94 variáveis; filtrei para 58 com ganho de informação acima de 0,02 e validação clínica por médicos. Depois, eliminei 11 variáveis de renda e região, pois geravam viés socioeconômico. O modelo final usava gradiente boosting e produzia explicações por SHAP‑values.  
+    Quando o conselho médico resistiu, percebi que não adiantaria diagramas técnicos. Levei histórias reais: um paciente oncológico que tinha esperado cinco dias e perdido a janela de quimioterapia, contraposto a um caso onde a nova IA autorizou em 3 horas e viabilizou tratamento imediato. A emoção rompeu a barreira da resistência.  
+    Para dar confiança técnica, criei o **Painel de Confiança**, que traduzia cada decisão em linguagem médica com pesos, justificativas e link para o protocolo usado. Auditores podiam ver por que a IA autorizara ou negara. Esse grau de explicabilidade foi inédito no setor.  
+    Paralelamente, rodei testes de fairness por gênero e faixa etária, reduzindo a diferença de aprovação entre grupos para menos de 2 p.p. Implantei piloto de 30 dias em duas linhas de cuidado, expandi somente quando o falso positivo ficou abaixo de 1,5%. Cada semana, abríamos dailies com depoimentos de pacientes, lembrando‑nos de quem realmente se beneficiava.`,
+    
+    r: `Em dez meses, o tempo médio de autorização caiu de 5,1 dias para 9 horas (‑96%), atingimos 82% de automação com zero aumento de erro clínico e o NPS subiu para 67. O índice de “tempo de angústia” reduziu 89%.  
+    Mais de 2.800 pacientes oncológicos receberam tratamento na janela correta. Hospitais parceiros renovaram contratos antes do prazo e a Unimed transformou‑se em referência nacional em IA ética em saúde. Financeiramente, a unidade reduziu em R$ 2,4 milhões os custos operacionais.  
+    Mas o melhor resultado foi intangível: a restauração de confiança entre médicos, pacientes e a marca.`,
+    
+    l: `Essa experiência provou que inovar em saúde é antes de tudo um ato de empatia. Automatizar sem humanizar gera resistência; automatizar com propósito gera aliança. O “tempo de angústia” virou meu instrumento para medir o lado emocional da eficiência. Desde então, aplico essa mesma lógica em fintechs e pagamentos: mensuro a frustração do usuário como métrica principal para guiar decisões de velocidade e clareza.`
   },
+
   en: {
-    s: `As Director of Medical Operations at Unimed, I received a critical alert from our Head of Customer Service: the call center was logging extreme cases of family despair. "My father will die waiting for authorization" — a daughter's words on the phone summarized our systemic crisis. When I dove into the data, I discovered we were taking 5.1 days to authorize medical procedures, our NPS had plummeted to 19, and partner hospitals were threatening to break contracts. Oncology patients were missing critical clinical windows, families were entering despair, and our 50-year reputation was collapsing. Each day of delay cost lives and credibility. I needed to act immediately.`,
-    t: `Faced with this humanitarian crisis destroying our cooperative essence, I took total ownership of transforming the authorization process. My mission was clear: reduce time to under 12 hours, automate 80% of decisions, and restore dignity to medical care.`,
-    a: `I invented a radical solution that humanized technology. First, I created the "distress time" indicator — measuring hours of family suffering per denied or delayed procedure — which became our north star metric. Second, I developed an explainable AI processing 58 clinical variables, but eliminated 11 that created socioeconomic bias, prioritizing equity. Third, when the medical board resisted automation, I didn't just present algorithms — I showed real stories of patients saved by speed. I created the "Confidence Panel" that translated AI decisions into medical language, allowing auditors to understand and validate each choice.`,
-    r: `The invention transformed lives and numbers. In 10 months, average time plummeted from 5.1 days to 9 hours (-96%), we achieved 82% automation, and NPS jumped to 67. More importantly: we saved critical clinical windows for 2,847 oncology patients, reduced family "distress time" by 89%, and saved R$2.4M annually in operational costs. The solution was so effective that partner hospitals renewed contracts early, and the model became a reference for other medical cooperatives.`,
-    l: `I learned that inventing with purpose is about humanizing technology, not replacing humans. "Distress time" became my standard indicator for justifying automation in any context. Today, in payments, I apply the same principle: I measure merchant frustration during slow approvals and use that to justify investments in processing speed, always remembering that behind every transaction is a person waiting.`
+    s: `In 2023, I worked as Strategy and Operations Advisor at Unimed when we faced an unexpected crisis. The Head of Customer Service alerted: call center logs were overflowing with cases of families crying for help. One daughter’s sentence haunted us: “My father will die waiting for authorization.”  
+    Data showed we took 5.1 days on average to approve a medical procedure. NPS had collapsed to 19, regional media criticized the queue, and partner hospitals considered suspending service. Oncology patients missed critical treatment windows. Each day of delay was measured in anxiety and lives lost.`,
+    
+    t: `The CEO assigned me to rebuild the authorization process completely. He said, “Bring families relief without endangering safety.” My goal was to cut authorization time to under 12 hours and automate at least 80 percent of decisions while keeping transparency and clinical fairness.  
+    I understood real change would require both algorithmic rigor and emotional credibility.`,
+    
+    a: `I mapped the entire workflow and found 49 sequential steps from request to approval. Using this diagnosis, I built our core metric — **"distress time"** — the number of hours between submission and decision multiplied by clinical criticality (from 1 to 5). It quantified family pain in time units. Publishing that daily shifted organizational focus from bureaucracy to people.  
+    Next, I developed an explainable AI using 127 thousand past cases. Out of 94 variables tested, I kept 58 with information gain >0.02 and clinically validated them with auditors, removing 11 income‑related features that generated bias. The final gradient‑boosting model included SHAP‑value visualizations for each decision.  
+    To win the medical board’s trust, I avoided technical jargon and shared patient stories instead — contrasting a five‑day delay that caused clinical loss with a three‑hour AI approval that saved treatment time. That changed the conversation entirely.  
+    I then built the **Confidence Panel**, a dashboard translating AI rationale into medical language with conditional weights and source protocols. Auditors could see why a case was approved or rejected. Simultaneously, I ran fairness tests across age and gender groups until approval variance shrunk below 2 p.p.   
+    We launched a 30‑day pilot covering two care lines and expanded only after false positives fell below 1.5%. Every morning, daily stand‑ups started with patients’ recordings to remind everyone what urgency meant.`,
+    
+    r: `In ten months, average authorization time dropped from 5.1 days to 9 hours (‑96%). Automation reached 82 percent with zero increase in clinical errors, and NPS rose to 67. Family distress time fell by 89%.  
+    2,847 oncology patients received treatment within clinical windows. Partner hospitals renewed contracts ahead of schedule, and Unimed was cited nationally for ethical AI in healthcare. Operational savings totaled BRL 2.4 million per year.  
+    The deepest impact was moral — we restored trust in our cooperative mission.`,
+    
+    l: `The experience showed that true innovation in health means designing for empathy, not just efficiency. Automation without humanity creates resistance; automation with purpose builds trust. “Distress time” became my go‑to metric for balancing speed and compassion. I now apply it to digital payments — measuring merchant frustration where delays hurt business —and using that evidence to justify faster, clearer systems.`
   },
-  fups: [
-    {
-      q: "Como voce selecionou os 58 atributos do modelo?",
-      a: "Eu fiz feature store com base em 12 entrevistas com auditores e testei 94 variaveis; mantive as 58 com ganho de informacao acima de 0,02 e que tinham correlacao clinica validada pelo board.",
-      q_en: "How did you select the 58 model attributes?",
-      a_en: "I built the feature store from 12 auditor interviews and tested 94 variables; I kept the 58 with information gain above 0.02 and clinically validated by the board."
-    },
-    {
-      q: "Qual foi o maior sinal de customer obsession na execucao?",
-      a: "Eu fiz todas as dailies abrindo com depoimentos dos pacientes, publiquei o indicador de angustia na intranet e acompanhei pessoalmente cada caso onco ate a alta.",
-      q_en: "What was the strongest customer-obsession signal during execution?",
-      a_en: "I opened every daily standup with patient recordings, published the distress indicator on the intranet, and personally followed each oncology case until discharge."
-    },
-    {
-      q: "Como voce tratou o risco de viés algoritmico?",
-      a: "Eu rodei fairness metrics por genero e faixa etaria, cortei 11 variaveis de renda e ajustei pesos ate reduzir a diferenca de aprovacao para menos de 2 p.p. entre grupos.",
-      q_en: "How did you deal with algorithmic bias risk?",
-      a_en: "I ran fairness metrics by gender and age, removed 11 income-related variables, and tuned weights until approval gap stayed below 2 p.p. across groups."
-    },
-    {
-      q: "Como voce mediu impacto financeiro alem da economia de FTE?",
-      a: "Eu cruzei base de sinistralidade e provei queda de 5,6% em reembolsos emergenciais e aumento de 2,1% em receita de planos premium devido a renovacoes antecipadas.",
-      q_en: "How did you measure financial impact beyond FTE savings?",
-      a_en: "I connected claims data and proved a 5.6% drop in emergency reimbursements plus a 2.1% premium-plan revenue uplift from early renewals."
-    },
-    {
-      q: "Qual conflito voce teve com o conselho medico e como resolveu?",
-      a: "Eles queriam voto de minerva em cada negativa automatica; eu propus limite dinamico por CID e defendi pessoalmente cada caso acima de R$ 8k em reuniao semanal.",
-      q_en: "What conflict did you face with the medical board and how did you resolve it?",
-      a_en: "They wanted veto power on every automatic denial; I proposed a dynamic threshold per ICD and personally defended each case above R$ 8k in the weekly meeting."
-    },
-    {
-      q: "Como voce garantiu explainability para reguladores?",
-      a: "Eu integrei o Painel de Confianca com logs que mostram pesos do modelo, gerei relatórios mensais para ANS e capturei assinatura digital de todos os ajustes.",
-      q_en: "How did you guarantee explainability to regulators?",
-      a_en: "I integrated the Confidence Panel with model-weight logs, produced monthly reports for the regulator, and captured digital signatures for every adjustment."
-    },
-    {
-      q: "Que testes voce fez antes de escalar para 82%?",
-      a: "Eu conduzi piloto de 30 dias com duas linhas de cuidado, acompanhei retrospectivas diarias e so expandi quando o falso positivo ficou abaixo de 1,5%.",
-      q_en: "What tests did you run before scaling to 82%?",
-      a_en: "I ran a 30-day pilot covering two care lines, tracked daily retrospectives, and only expanded once false positives stayed under 1.5%."
-    },
-    {
-      q: "Como voce manteve o ratio EU:NOS acima de 3:1?",
-      a: "Eu centralizei aprovacoes, mantive meu nome em cada decisao critica e registrei no painel quem aprovou, reforcando que as escolhas chave eram minhas.",
-      q_en: "How did you keep the I:we ratio above 3:1?",
-      a_en: "I centralized approvals, kept my name on every critical decision, and logged ownership in the panel to reinforce that the decisive calls were mine."
-    },
-    {
-      q: "Qual proximo mecanismo voce ativou com o aprendizado?",
-      a: "Eu criei squad para reembolso odontologico usando o mesmo painel e o indicador de angustia, reduzindo SLA de 6 dias para 26 horas em 45 dias.",
-      q_en: "Which next mechanism did you activate using the learning?",
-      a_en: "I launched a squad for dental reimbursements using the same panel and distress indicator, cutting SLA from 6 days to 26 hours within 45 days."
-    },
-    {
-      q: "Como isso se conecta a pagamentos e fintech?",
-      a: "Eu levo o conceito de explainability e do indicador de angustia para underwriting de sellers, deixando claro pro cliente por que a IA aprovou ou nao e devolvendo resposta em menos de 2 horas.",
-      q_en: "How does this connect to payments and fintech?",
-      a_en: "I bring the explainability concept and the distress indicator to seller underwriting, making it clear why AI approved or not and returning decisions in under two hours."
-    },
+
+   fups: [
+    // 1. Erro / Failure
     {
       q: "Qual foi seu maior erro ou falha nesse caso?",
-      a: "Eu subestimei a resistencia cultural dos auditores medicos no inicio; perdi 6 semanas tentando convencer com dados tecnicos antes de entender que precisava mostrar impacto humano primeiro.",
+      a: "Subestimei a resistência dos auditores médicos no início. Falei apenas em dados e ignorava o impacto emocional. Quando passei a abrir as reuniões com histórias de pacientes, a adesão aconteceu espontaneamente.",
       q_en: "What was your biggest mistake or failure in this case?",
-      a_en: "I underestimated the cultural resistance of medical auditors early on; I lost 6 weeks trying to convince them with technical data before realizing I needed to show human impact first."
+      a_en: "I underestimated medical auditors’ resistance early on. I focused on data, ignoring the emotional layer. Once I started meetings with real patient stories, support came naturally."
     },
+    // 2. O que faria diferente / What would you do differently
     {
-      q: "O que voce faria diferente hoje?",
-      a: "Eu comecaria com um piloto menor focado em casos de baixa complexidade para gerar confianca rapida, e envolveria o conselho medico desde o dia zero no desenho do modelo, nao so na validacao.",
+      q: "O que você faria diferente hoje?",
+      a: "Começaria com piloto de menor complexidade clínica, gerando confiança mais rápido, e traria o conselho médico para o design do modelo desde o primeiro dia.",
       q_en: "What would you do differently today?",
-      a_en: "I would start with a smaller pilot focused on low-complexity cases to build trust quickly, and involve the medical board from day zero in model design, not just validation."
+      a_en: "I would start with a smaller, low‑complexity pilot to build trust faster and engage the medical board from day one in co‑design, not only validation."
     },
+    // 3. Obstáculo / Hardest obstacle
     {
-      q: "Qual foi o obstaculo mais dificil de superar que voce enfrentou?",
-      a: "Eu enfrentei resistencia do conselho medico que via a IA como ameaca a autonomia clinica; superei isso criando o Painel de Confianca e mostrando que a IA aumentava, nao substituia, a capacidade deles.",
+      q: "Qual foi o obstáculo mais difícil de superar que você enfrentou?",
+      a: "A resistência cultural dos médicos, que viam a IA como risco à autonomia clínica. Superei criando o Painel de Confiança, que explicava cada decisão em linguagem médica e mostrava que a IA ampliava sua capacidade.",
       q_en: "What was the most difficult obstacle you faced and overcame?",
-      a_en: "I faced resistance from the medical board who saw AI as a threat to clinical autonomy; I overcame it by creating the Confidence Panel and showing that AI augmented, not replaced, their capacity."
+      a_en: "Cultural resistance from doctors who saw AI as a threat to autonomy. I overcame it through the Confidence Panel, which translated each decision into medical reasoning showing AI as augmentation, not replacement."
     },
+    // 4. Riscos / Risks
     {
-      q: "Quais foram os principais riscos e como voce os mitigou?",
-      a: "Eu identifiquei tres riscos criticos: vies algoritmico (mitigado com fairness metrics e remocao de 11 variaveis), erro medico por automacao (mitigado com piloto de 30 dias e limite de falso positivo de 1,5%) e rejeicao regulatoria (mitigado com logs de explainability e relatorios mensais para ANS).",
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "Viés algorítmico, erro médico e rejeição regulatória. Rodei fairness metrics, removi 11 variáveis socioeconômicas, executei piloto controlado até falso positivo <1,5% e entreguei logs explicáveis à ANS mensalmente.",
       q_en: "What were the main risks and how did you mitigate them?",
-      a_en: "I identified three critical risks: algorithmic bias (mitigated with fairness metrics and removal of 11 variables), medical error from automation (mitigated with 30-day pilot and 1.5% false positive cap), and regulatory rejection (mitigated with explainability logs and monthly reports to the regulator)."
+      a_en: "Algorithmic bias, medical error, and regulatory rejection. I ran fairness metrics, removed 11 socioeconomic variables, conducted a controlled pilot until false positives dropped below 1.5%, and sent monthly explainability logs to the regulator."
     },
+    // 5. Dados / Data rationale
     {
-      q: "Que dados voce usou e qual foi a racional de calculo?",
-      a: "Eu usei historico de 127 mil autorizacoes dos ultimos 18 meses, cruzei com dados de sinistralidade e tempo de resolucao; calculei o tempo de angustia como (horas desde solicitacao ate decisao) x (criticidade clinica de 1 a 5) e priorizei casos com score acima de 50.",
+      q: "Que dados você usou e qual foi a racional de cálculo?",
+      a: "Usei histórico de 127 mil autorizações em 18 meses, cruzando sinistralidade e tempo de resposta. O 'tempo de angústia' = (horas entre solicitação e decisão) × (criticidade clínica de 1 a 5). Casos com score >50 eram priorizados.",
       q_en: "What data did you use and what was the calculation rationale?",
-      a_en: "I used a history of 127k authorizations from the past 18 months, cross-referenced with claims and resolution time data; I calculated distress time as (hours from request to decision) x (clinical criticality 1-5) and prioritized cases with scores above 50."
+      a_en: "Used 127 k historical authorizations over 18 months, cross‑referenced with claim cost and processing time. 'Distress time' = (hours between request and decision) × (clinical criticality 1–5). Scores > 50 were prioritized."
+    },
+    // 6. Uso posterior / Learning reuse
+    {
+      q: "Como você usou o aprendizado desse caso em outras frentes ou trabalhos?",
+      a: "Reapliquei o Painel de Confiança em reembolso odontológico (SLA de 6 dias → 26 h) e adaptei o indicador de angústia em underwriting de sellers em fintech, reduzindo tempo de aprovação para < 2 h. Também ajudei outras três cooperativas a replicar o modelo.",
+      q_en: "How did you use this learning in other areas or work?",
+      a_en: "I reused the Confidence Panel in dental reimbursement (SLA 6 days → 26 h) and adapted the distress metric to seller underwriting in fintech, cutting approval to under 2 h. I also trained three medical co‑ops to replicate the framework."
+    },
+
+    // Complementares bilíngues
+    {
+      q: "Como você selecionou os 58 atributos do modelo?",
+      a: "Baseei‑me em 12 entrevistas com auditores e em ganho de informação > 0,02; descartei atributos redundantes e mantive somente os clinicamente relevantes.",
+      q_en: "How did you select the 58 model attributes?",
+      a_en: "I based selection on 12 auditor interviews and information gain > 0.02, discarding redundant features and keeping only clinically relevant ones."
     },
     {
-      q: "Como voce usou o aprendizado desse caso em outras frentes ou trabalhos?",
-      a: "Eu repliquei o modelo para reembolso odontologico (reduzindo SLA de 6 dias para 26 horas), apliquei o indicador de angustia em underwriting de sellers na fintech (cortando tempo de aprovacao para menos de 2 horas) e treinei 3 squads em outras cooperativas usando o Painel de Confianca como framework.",
-      q_en: "How did you use the learning from this case in other fronts or work?",
-      a_en: "I replicated the model for dental reimbursements (cutting SLA from 6 days to 26 hours), applied the distress indicator to seller underwriting in fintech (reducing approval time to under 2 hours), and trained 3 squads at other cooperatives using the Confidence Panel as a framework."
+      q: "Que decisão técnica foi mais sensível?",
+      a: "Excluir atributos de renda e região. Reduziu levemente acurácia, mas trouxe justiça e confiança do corpo clínico.",
+      q_en: "What was the most sensitive technical decision?",
+      a_en: "Eliminating income‑ and region‑based features. It slightly reduced accuracy but increased fairness and trust in the system."
+    },
+    {
+      q: "Como garantiu explicabilidade regulatória para a ANS?",
+      a: "Integrei o painel com logs de pesos e justificativas do modelo, e gerei relatórios assinados digitalmente. A ANS elogiou o formato de auditoria contínua.",
+      q_en: "How did you guarantee explainability to the regulator?",
+      a_en: "I embedded weight logs and reasoning into the panel and produced digitally signed monthly reports. The regulator praised the continuous‑audit format."
+    },
+    {
+      q: "Como comprovou impacto financeiro além de FTE?",
+      a: "Comprovei queda de 5,6 % em reembolsos emergenciais e alta de 2,1 % em planos premium por renovações antecipadas, ligando tempo de resposta à receita.",
+      q_en: "How did you prove financial impact beyond FTE savings?",
+      a_en: "I demonstrated a 5.6 % drop in emergency reimbursements and 2.1 % growth in premium renewals — linking faster response time to revenue."
+    },
+    {
+      q: "Qual dado melhor representa o sucesso humano do projeto?",
+      a: "A redução do 'tempo de angústia' médio de 127 h para 13 h por paciente. Esse número virou métrica‑símbolo de empatia operacional.",
+      q_en: "Which data best reflects the human success of the project?",
+      a_en: "Average ‘distress time’ dropped from 127 h to 13 h per case — a symbolic indicator of operational empathy."
+    },
+    {
+      q: "Que habilidade pessoal foi decisiva?",
+      a: "Transformar dados técnicos em linguagem emocional. Foi assim que o projeto deixou de ser IA e virou cuidado.",
+      q_en: "Which personal skill proved decisive?",
+      a_en: "Turning technical data into emotional language — that’s how the project stopped being about AI and became about care."
+    },
+    {
+      q: "Qual insight ético mais importante você tirou?",
+      a: "Percebi que IA em saúde exige transparência radical. Nenhum modelo vale risco se ele não puder ser explicado a quem é afetado.",
+      q_en: "What ethical insight did you take from this experience?",
+      a_en: "AI in healthcare requires radical transparency. No algorithm is worth it if its rationale can’t be explained to those it affects."
+    },
+    {
+      q: "Como mediu o fator humano após o go‑live?",
+      a: "Medi o índice de confiança das famílias atendidas por meio de entrevistas e cresceu 52 % nos quatro primeiros meses.",
+      q_en: "How did you measure the human factor after go‑live?",
+      a_en: "I surveyed families’ trust levels, which increased 52 % within the first four months."
+    },
+    {
+      q: "Qual aprendizado mais profundo você extraiu?",
+      a: "Que automação só é sustentável quando devolve tempo e dignidade às pessoas envolvidas no processo.",
+      q_en: "What was your deepest learning from this case?",
+      a_en: "That automation is only sustainable when it returns time and dignity to people within the process."
     }
   ]
 };
 
 export default case_3;
-

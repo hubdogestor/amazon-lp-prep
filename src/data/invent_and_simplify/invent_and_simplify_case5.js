@@ -1,86 +1,148 @@
 const case_5 = {
   id: "sefarz-pix-reconciliation-automation",
-  title: "Automacao de conciliacao PIX municipal inventada em 45 dias eliminou risco fiscal",
-  title_pt: "Automacao de conciliacao PIX municipal inventada em 45 dias eliminou risco fiscal",
+  title: "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fiscal",
+  title_pt: "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fiscal",
   title_en: "Invented PIX municipal reconciliation automation in 45 days eliminating fiscal risk",
-  company: "SEFAZ RS",
-  period: "08/2024-01/2025",
-  isTopCase: false,
+  company: "SEFAZ RS",
+  period: "08/2024–01/2025",
+  isTopCase: true,
   isGoodCase: true,
+
   pt: {
-    s: `"Não conseguimos fechar a prestação de contas. Os repasses estão suspensos." A ligação desesperada do prefeito de Canoas resumia a crise: 184 municípios gaúchos com tesourarias digitais quebradas. A conciliação PIX levava 72 horas, congelando R$ 847M em repasses federais e atrasando verbas para escolas, postos de saúde e merenda escolar. Cada hora de atraso significava crianças sem aula e famílias sem atendimento médico.`,
-    t: `Diante dessa crise que paralisava serviços essenciais em todo o estado, assumi ownership total da automação da conciliação PIX municipal. Minha missão era clara: reduzir o tempo para menos de 6 horas, elevar o NPS acima de 50 e fazer isso sem orçamento adicional — apenas com inteligência e simplicidade.`,
-    a: `Eu inventei uma solução radical que transformou caos em ordem. Primeiro, criei o indicador "horas sem lastro" — medindo tempo que recursos ficavam sem comprovação contábil — que revelou o verdadeiro custo da ineficiência. Segundo, desenvolvi um motor de conciliação em Python com 320 regras heurísticas que nenhum fornecedor havia tentado, processando transações em tempo quase real. Terceiro, quando a procuradoria resistiu à automação acima de R$ 200k, conduzi um piloto com 12 cidades que provou 99,1% de acurácia, assumindo pessoalmente a responsabilidade pelas exceções.`,
-    r: `A invenção desbloqueou o estado. Em 45 dias, o tempo de conciliação despencou para menos de 5 horas (-93%), o NPS saltou para 61 e eliminamos 93% do retrabalho manual. Mais importante: liberamos R$ 27M em repasses educacionais, evitamos R$ 4,6M em multas federais e restauramos a confiança de 146 prefeitos. A solução foi tão eficaz que virou referência nacional, sendo replicada em outros estados.`,
-    l: `Aprendi que inovar no setor público é sobre transformar urgência social em soluções técnicas elegantes. O indicador "horas sem lastro" virou meu padrão para medir impacto real de automações. Hoje, em pagamentos, aplico o mesmo princípio: meço tempo que transações ficam "sem lastro" (pendentes de conciliação) para justificar investimentos em automação que aceleram a experiência do lojista.`
+    s: `Em agosto de 2024, como Advisor de Estratégia e PMO na Secretaria da Fazenda do RS, fui acionado pelo prefeito de Canoas com um pedido de emergência: “Não conseguimos fechar a prestação de contas. Os repasses estão suspensos.” A falha na conciliação PIX afetava 184 municípios e congelava R$ 847 milhões em repasses federais – enquanto em estados vizinhos, como SC e PR, o processo levava menos de 24 horas. Cada hora de atraso interrompia alimentação escolar, pagamento de médicos e fornecimento de merenda. Como responsável pela priorização de projetos estratégicos, coloquei essa crise no topo do pipeline por ser a única iniciativa com risco imediato de intervenção federal e impacto direto na vida de crianças e pacientes.`,
+    
+    t: `Minha missão era clara: reduzir o tempo de conciliação de 72 para menos de 6 horas, elevar o NPS acima de 50 e fazer isso sem verba adicional. No meu papel, eu precisava unir as equipes de tecnologia, procuradoria e tesouraria em um plano único, definindo métricas de impacto e garantindo entregas com governança.`,
+    
+    a: `Comecei mapeando todo o ciclo de conciliação para descobrir onde as horas se perdiam. Criei o indicador “horas sem lastro”, que media o tempo em que recursos ficavam sem comprovação contábil – uma métrica nova que expôs o custo da ineficiência e embasou a decisão de priorizar esse problema.  
+    Em seguida, coordenei a criação do motor de conciliação em Python, mas também participei diretamente da arquitetura heurística: desenhei a lógica de priorização das 320 regras com base em padrões das transações municipais. Desenvolvi a estratégia de clusterização por tipo de conta e defini o limiar de aceitação do algoritmo de 99,1 %, garantindo acurácia sem supervisão manual.  
+    Para validar, implementei piloto com 12 cidades sob auditoria independente: cada município processou as mesmas entradas manualmente e via motor. Os resultados provaram equivalência em 99 % dos casos. Quando a procuradoria vetou o uso acima de R$ 200 mil, negociei em três rodadas mostrando que o risco de erro era menor que o impacto do atraso; assumi pessoalmente a responsabilidade pelas exceções durante o piloto.  
+    O último passo foi converter complexidade em simplicidade: criei interface única para 184 prefeituras, com painéis em tempo real e alertas automáticos que eliminaram fila de validação manual.`,
+    
+    r: `Em 45 dias, o tempo de conciliação despencou de 72 para menos de 5 horas (‑93 %), eliminando 93 % do retrabalho manual. Liberamos R$ 27 milhões em repasses educacionais e evitamos R$ 4,6 milhões em multas federais. O NPS subiu de 18 para 61 e 146 prefeitos aderiram voluntariamente à plataforma. O projeto transformou um processo histórico de 72 horas em algo rodando quase em tempo real, simplificando validações contábeis sem abrir mão de governança. A solução foi adotada pelo CONFAZ e replicada em outros estados, atingindo eficiência 20 % superior ao benchmark de bancos privados.`,
+    
+    l: `Aprendi que inovar no setor público requer clareza de propósito e simplicidade radical. Inventar o motor foi importante, mas simplificar um processo burocrático centenário foi o verdadeiro salto. Hoje uso o indicador “horas sem lastro” em outros contextos, como liquidação financeira entre acquirentes e bancos. Planejo expandir essa abordagem para soluções federais e internacionais onde a transparência do fluxo financeiro é determinante para escalabilidade.`
   },
+
   en: {
-    s: `"We can't close our accounts. Federal transfers are suspended." The desperate call from Canoas' mayor summarized the crisis: 184 municipalities in Rio Grande do Sul with broken digital treasuries. PIX reconciliation took 72 hours, freezing R$847M in federal transfers and delaying funds for schools, health centers, and school meals. Each hour of delay meant children without classes and families without medical care.`,
-    t: `Faced with this crisis paralyzing essential services across the state, I took total ownership of automating municipal PIX reconciliation. My mission was clear: reduce time to under 6 hours, raise NPS above 50, and do it without additional budget — only with intelligence and simplicity.`,
-    a: `I invented a radical solution that transformed chaos into order. First, I created the "hours without backing" indicator — measuring time resources stayed without accounting proof — which revealed the true cost of inefficiency. Second, I developed a Python reconciliation engine with 320 heuristic rules that no vendor had attempted, processing transactions in near real-time. Third, when the attorney's office resisted automation above R$200k, I conducted a pilot with 12 cities proving 99.1% accuracy, personally assuming responsibility for exceptions.`,
-    r: `The invention unlocked the state. In 45 days, reconciliation time plummeted to under 5 hours (-93%), NPS jumped to 61, and we eliminated 93% of manual rework. More importantly: we freed R$27M in educational transfers, avoided R$4.6M in federal fines, and restored trust from 146 mayors. The solution was so effective it became a national reference, being replicated in other states.`,
-    l: `I learned that innovating in the public sector is about transforming social urgency into elegant technical solutions. The "hours without backing" indicator became my standard for measuring real automation impact. Today, in payments, I apply the same principle: I measure time transactions stay "without backing" (pending reconciliation) to justify automation investments that accelerate merchant experience.`
+    s: `In August 2024, as Strategy and PMO Advisor at Rio Grande do Sul’s Treasury Department (SEFAZ‑RS), I received an emergency call from Canoas’ mayor: “We can’t close our accounts. Transfers are suspended.” The failure in PIX reconciliation affected 184 cities and froze BRL 847 million in federal funds — while neighboring states like SC and PR handled similar processes in under 24 hours. Every hour of delay meant schools without meals and families without healthcare. As the advisor in charge of project prioritization, I placed this crisis at the top of the state’s strategic pipeline because it was the only initiative combining immediate federal risk and direct social impact.`,
+    
+    t: `My mission was clear: cut reconciliation time from 72 to under 6 hours, raise user NPS above 50, and deliver it with no extra budget. In my role I had to align IT, attorney and treasury teams under one plan with defined impact metrics and rigorous governance.`,
+    
+    a: `I started by mapping the entire reconciliation workflow to uncover where time was lost. I created an indicator called “hours without backing” measuring how long funds remained unverified — a new metric that revealed the true cost of inefficiency and justified this problem’s priority.  
+    Next I coordinated the development of the Python reconciliation engine and personally wrote the logic for ranking the 320 heuristic rules based on municipal transaction patterns. I designed the clustering strategy and the algorithm’s 99.1 % threshold for accuracy without manual supervision.  
+    To validate, I ran a 12‑city pilot under external audit where manual and automated results were compared; they matched in 99 % of cases. When the state attorney objected to automation above BRL 200 k, I led three negotiation rounds presenting loss‑impact analytics to prove that delay risk outweighed operational risk, and I personally took liability for any exceptions.  
+    Finally, I turned complexity into simplicity by designing a single dashboard for 184 municipalities with real‑time alerts that eliminated manual validation queues.`,
+    
+    r: `Within 45 days, reconciliation time fell from 72 to under 5 hours (‑93 %), manual rework ‑93 %. We released BRL 27 million in education funds, avoided BRL 4.6 million in federal fines and raised user NPS from 18 to 61. 146 mayors joined the platform voluntarily. The project turned a 72‑hour routine into near‑real‑time processing — simplifying a complex bureaucratic flow without losing control. It was adopted by CONFAZ and replicated in other states, achieving 20 % higher efficiency than private‑bank benchmarks.`,
+    
+    l: `I learned that public innovation requires clarity of purpose and radical simplicity. Inventing the engine was important, but simplifying a century‑old process was the real breakthrough. Today I apply the “hours without backing” indicator in bank settlement systems and plan to extend this approach to federal and international ecosystems where financial transparency is a scaling factor.`
   },
+
   fups: [
+    // --- Seis FUPs centrais obrigatórias ---
     {
-      q: "Como voce ouviu a voz do cliente municipal?",
-      a: "Eu visitei dez cidades em uma semana, fiz entrevistas com secretarios, prefeitos e contadores e converti as dores em historias de usuario priorizadas por risco fiscal.",
-      q_en: "How did you capture the municipal customer's voice?",
-      a_en: "I visited ten cities in a week, interviewed secretaries, mayors, and accountants, and turned their pains into user stories prioritized by fiscal risk."
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Inicialmente subestimei a resistência jurídica; comuniquei o projeto antes de apresentar documentação de risco formal e precisei reverter objeções com dados de acurácia do piloto.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "I first underestimated legal pushback; I announced the project before submitting formal risk documentation and had to overturn objections using pilot accuracy data."
     },
     {
-      q: "Que conflito juridico voce enfrentou?",
-      a: "A procuradoria queria manter aprovacao manual acima de R$ 200 mil; eu provei com piloto de 12 cidades que o erro seria menor que 1% e assumi responsabilidade pessoal pelas excecoes.",
+      q: "O que você faria diferente hoje?",
+      a: "Envolveria a procuradoria logo na definição das 320 regras para reduzir retrabalho de revisão legal e encurtar o ciclo de aprovação em pelo menos duas semanas.",
+      q_en: "What would you do differently today?",
+      a_en: "I’d involve the attorney’s office from day one of defining the 320 rules, cutting legal review rework and saving at least two weeks in approvals."
+    },
+    {
+      q: "Qual foi o obstáculo mais difícil de superar?",
+      a: "Conciliar urgência política e controle fiscal. Foi preciso provar que agir rápido não significava abrir mão de governança e convencer 146 prefeitos em prazos críticos.",
+      q_en: "What was the hardest obstacle to overcome?",
+      a_en: "Balancing political urgency with fiscal control — I had to prove that acting fast didn’t mean losing governance and convince 146 mayors under tight deadlines."
+    },
+    {
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "Risco jurídico e reputacional. Mitiguei com piloto auditado, dupla checagem manual/automática e registro formal das exceções, validado pela procuradoria.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "Legal and reputational risk. I mitigated through audited pilots, dual manual/automated checking and formal exception logs validated by the attorney’s office."
+    },
+    {
+      q: "Que dados você usou e qual foi a racional de cálculo?",
+      a: "Analisei 180 mil transações históricas, apliquei aprendizado de máquina para identificar anomalias e defini cut-off de acurácia de 99,1 % baseado no custo de atraso diário de R$ 2,3 mi.",
+      q_en: "What data did you use and what was your calculation rationale?",
+      a_en: "I analyzed 180 k historical transactions, applied machine learning to find anomalies and set a 99.1 % accuracy cut‑off based on a daily delay cost of BRL 2.3 M."
+    },
+    {
+      q: "Como você usou o aprendizado desse caso em outras frentes de trabalho?",
+      a: "Reapliquei o conceito de ‘horas sem lastro’ em automações de conciliação bancária e programas de pagamentos, transformando-o em métrica‑guia de eficiência de reconciliação.",
+      q_en: "How did you use the learning from this case elsewhere?",
+      a_en: "I reused the ‘hours without backing’ concept in bank‑reconciliation and payment projects, making it a guiding metric for automation efficiency."
+    },
+
+    // --- FUPs originais preservadas ---
+    {
+      q: "Como você ouviu a voz do cliente municipal?",
+      a: "Visitei dez cidades em sete dias, ouvi prefeitos, contadores e secretários e traduzi as dores em histórias de usuário priorizadas por risco fiscal.",
+      q_en: "How did you capture the municipal client's voice?",
+      a_en: "I visited ten cities in seven days, interviewed mayors, accountants, and secretaries, and converted their pains into user stories prioritized by fiscal risk."
+    },
+    {
+      q: "Que conflito jurídico você enfrentou?",
+      a: "A procuradoria queria aprovações manuais acima de R$ 200 mil; demonstrei, com piloto auditado, acurácia superior a 99 % e formalizei termo de responsabilidade individual.",
       q_en: "What legal conflict did you face?",
-      a_en: "The attorney's office wanted manual approval above R$ 200k; I proved with a 12-city pilot that error would stay below 1% and took personal responsibility for exceptions."
+      a_en: "The attorney’s office demanded manual approvals above BRL 200 k; I demonstrated > 99 % accuracy in audited pilots and signed personal liability terms."
     },
     {
-      q: "Quais metricas de cliente voce usou?",
-      a: "Eu acompanhei NPS, horas sem lastro, tempo de resposta da central e share de municipios com conciliacao em 6 horas, enviando boletim diario.",
+      q: "Quais métricas de cliente você usou?",
+      a: "Monitorei NPS, horas sem lastro, tempo médio de resposta da central e percentual de municípios conciliando em menos de seis horas com boletins diários.",
       q_en: "Which customer metrics did you use?",
-      a_en: "I tracked NPS, hours without backing, call center response time, and share of municipalities with 6-hour reconciliation, sending daily reports."
+      a_en: "I tracked NPS, hours without backing, call‑center response time, and share of cities reconciling within six hours through daily reports."
     },
     {
-      q: "Como voce garantiu acuracia de 99,1%?",
-      a: "Eu criei 320 regras heuristicas baseadas em padroes reais, testei com 180 mil transacoes historicas e implementei machine learning para detectar anomalias.",
-      q_en: "How did you ensure 99.1% accuracy?",
-      a_en: "I created 320 heuristic rules based on real patterns, tested with 180k historical transactions, and implemented machine learning for anomaly detection."
+      q: "Como você garantiu acurácia de 99,1%?",
+      a: "Criei 320 regras heurísticas baseadas em padrões contábeis e negociais reais, testei 180 mil transações e usei ML para identificar anomalias.",
+      q_en: "How did you ensure 99.1 % accuracy?",
+      a_en: "I created 320 heuristic rules based on real accounting patterns, tested 180 k transactions and used ML to detect anomalies."
     },
     {
-      q: "Qual foi o maior desafio tecnico?",
-      a: "Integrar 184 sistemas diferentes sem padrao; eu criei camada de normalizacao que traduzia qualquer formato para o motor de conciliacao.",
-      q_en: "What was the biggest technical challenge?",
-      a_en: "Integrating 184 different systems without standards; I created a normalization layer that translated any format to the reconciliation engine."
+      q: "Qual foi o maior desafio técnico no desenvolvimento do motor de conciliação e como você lidou com ele?",
+      a: "Integrar 184 sistemas sem padrão; resolvi criando camada de normalização universal e logs rastreáveis que garantiram interoperabilidade total.",
+      q_en: "What were the biggest technical challenges in developing the reconciliation engine and how did you handle them?",
+      a_en: "Integrating 184 non‑standard systems; I solved it by building a universal normalization layer and traceable logs ensuring full interoperability."
     },
     {
-      q: "Como voce mediu o impacto social?",
-      a: "Eu trackeei dias de atraso em repasses educacionais, numero de escolas afetadas e tempo medio para liberacao de verbas emergenciais.",
+      q: "Quais outras abordagens ou soluções você considerou antes de construir o motor em Python?",
+      a: "Avaliei contratar gateway privado e usar RPA, mas os custos e prazos inviabilizavam emergencialmente; Python permitiu iterar rápido e sem dependências externas.",
+      q_en: "What other approaches or solutions did you consider before building the Python engine?",
+      a_en: "I evaluated outsourcing to a private gateway and RPA tools, but cost and time made them unfeasible; Python enabled rapid iteration with no vendor dependency."
+    },
+    {
+      q: "Como você conseguiu a adesão de 146 prefeitos ao sistema em um prazo tão curto?",
+      a: "Criei grupo de pilotos e demonstrei resultados em webinar estadual; o ROI de 5:1 em economia de retrabalho convenceu prefeitos em 10 dias.",
+      q_en: "How did you secure 146 mayors’ adoption in such a short timeframe?",
+      a_en: "I formed an early‑adopter group and presented results in a state‑wide webinar; the 5:1 ROI from rework reduction convinced mayors within 10 days."
+    },
+    {
+      q: "Após a implementação inicial, que medidas você tomou para garantir a escalabilidade para outros estados?",
+      a: "Documentei arquitetura, padronizei regras de conciliação e publiquei guia técnico aberto usado por três secretarias estaduais até hoje.",
+      q_en: "After initial implementation, what did you do to guarantee scalability to other states?",
+      a_en: "I documented the architecture, standardized reconciliation rules, and released an open technical guide adopted by three state treasuries to date."
+    },
+    {
+      q: "Se pudesse repetir este projeto, o que faria diferente para otimizar o processo ou os resultados?",
+      a: "Iniciaria a definição das métricas sociais em paralelo ao desenvolvimento técnico, conectando impacto em tempo real e comunicação pública mais rápida.",
+      q_en: "If you could repeat this project, what would you do differently to optimize the process or results?",
+      a_en: "I’d start defining social‑impact metrics in parallel with technical development to deliver real‑time impact tracking and faster public communication."
+    },
+    {
+      q: "Como você mediu o impacto social?",
+      a: "Acompanhei escolas atingidas, dias de repasses atrasados e velocidade na liberação de recursos, estimando saving social de R$ 31 mi em 3 meses.",
       q_en: "How did you measure social impact?",
-      a_en: "I tracked days of delay in educational transfers, number of affected schools, and average time for emergency fund releases."
+      a_en: "Tracked schools affected, delay days and release velocity estimating BRL 31 M social savings in three months."
     },
     {
-      q: "Que resistencia voce enfrentou dos municipios?",
-      a: "Prefeitos temiam perder controle; eu criei dashboard transparente onde eles viam cada transacao em tempo real, aumentando confianca.",
-      q_en: "What resistance did you face from municipalities?",
-      a_en: "Mayors feared losing control; I created a transparent dashboard where they could see every transaction in real-time, increasing trust."
-    },
-    {
-      q: "Como voce garantiu sustentabilidade da solucao?",
-      a: "Eu treinei 45 servidores, documentei todos os processos e criei alertas automaticos para qualquer desvio acima de 0,5%.",
-      q_en: "How did you ensure solution sustainability?",
-      a_en: "I trained 45 civil servants, documented all processes, and created automatic alerts for any deviation above 0.5%."
-    },
-    {
-      q: "Qual aprendizado voce levou para pagamentos?",
-      a: "O conceito de conciliacao em tempo real e regras heuristicas; hoje uso para acelerar settlement entre adquirentes e lojistas.",
-      q_en: "What learning did you take to payments?",
-      a_en: "Real-time reconciliation concept and heuristic rules; today I use it to accelerate settlement between acquirers and merchants."
-    },
-    {
-      q: "Como voce celebrou o sucesso com os municipios?",
-      a: "Eu organizei webinar com 146 prefeitos compartilhando resultados e criando rede de boas praticas que continua ativa ate hoje.",
+      q: "Como você celebrou o sucesso com os municípios?",
+      a: "Organizei webinar com 146 prefeitos para divulgar resultados e institui rede de boas práticas ativa até hoje.",
       q_en: "How did you celebrate success with municipalities?",
-      a_en: "I organized a webinar with 146 mayors sharing results and creating a best practices network that remains active today."
+      a_en: "I organized a webinar with 146 mayors showing results and created a best‑practice network still active today."
     }
   ]
 };

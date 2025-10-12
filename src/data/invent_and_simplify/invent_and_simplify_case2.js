@@ -1,86 +1,143 @@
 const case_2 = {
   id: "bradesco-next-compliance-simplification",
-  title: "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
-  title_pt: "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas",
-  title_en: "Invented one-click KYC stream that cut Next onboarding from 32 to 6 hours",
+  title: "Invenção da trilha KYC One‑Click que reduziu o onboarding do Next de 32 para 6 horas",
   company: "Bradesco",
-  period: "08/2016-05/2017",
-  isTopCase: false,
+  period: "08/2016–05/2017",
+  isTopCase: true,
   isGoodCase: true,
+
   pt: {
-    s: `"Mandei o mesmo documento cinco vezes e ainda não foi aprovado." O e-mail de um cliente beta resumia o pesadelo do Next: 32 horas para abrir uma conta, 18% de abandono e NPS despencando para 22. Cada cliente perdido custava R$ 1.200 em CAC desperdiçado, e estávamos sangrando 2.400 prospects por semana. O problema? 47 regras do BACEN interpretadas por 12 analistas diferentes, criando um labirinto burocrático que destruía a experiência do cliente.`,
-    t: `Diante dessa crise que ameaçava o lançamento do Next, assumi ownership total da simplificação regulatória. Minha missão era clara: reduzir o onboarding para menos de 6 horas, automatizar 90% das aprovações e transformar compliance de obstáculo em vantagem competitiva.`,
-    a: `Eu inventei o "KYC One-Click" — uma solução radical que desafiou décadas de burocracia bancária. Primeiro, mapeei as 47 regras do BACEN e descobri que 80% dos casos podiam ser resolvidos com apenas 5 validações automatizadas. Segundo, criei árvores de decisão em Python que processavam documentos em tempo real, eliminando 11 dos 14 passos manuais. Terceiro, negociei diretamente com compliance a integração de APIs externas (Serasa, SPC, Receita Federal), assumindo pessoalmente o risco regulatório. Quando o jurídico resistiu, apresentei dados brutais: 63% dos bloqueios eram falsos positivos que custavam R$ 2.8M em retrabalho anual.`,
-    r: `A invenção transformou radicalmente o onboarding. Em 90 dias, o tempo médio despencou de 32 para 5h58 (-81%), a taxa de abandono caiu para 4% e o NPS saltou para 68. Mais importante: desbloqueamos o crescimento do Next, que alcançou 2,1 milhões de contas em 18 meses, gerando R$ 28M em receita incremental. O mecanismo foi tão eficaz que foi replicado para 450 mil vendedores na Elo/Cielo, provando sua escalabilidade além do varejo.`,
-    l: `Aprendi que simplificar compliance é uma decisão estratégica, não técnica. O framework "Simplify Compliance" que criei virou meu padrão: meça a dor do usuário, desafie o status quo com dados, assuma riscos calculados e transforme a solução em mecanismo escalável. Hoje, em pagamentos, aplico o mesmo princípio para reduzir fricção no onboarding de lojistas, sempre priorizando experiência sem comprometer segurança.`
+    s: `Em 2016, eu atuava como Product Owner de Onboarding Digital no Bradesco Next, durante a fase beta do projeto. Havia um consenso incômodo: a experiência do cliente simplesmente não funcionava. Um e‑mail que recebi de um usuário resumiu a situação — “mandei o mesmo documento cinco vezes e ainda não foi aprovado”.  
+    O tempo médio de abertura de conta chegava a 32 horas, a taxa de abandono atingia 18% e o NPS despencava para 22. Cada novo cliente frustrado significava R$ 1.200 em CAC desperdiçado e cerca de 2.400 prospects perdidos por semana. O núcleo do problema estava nas 47 regras regulatórias do BACEN, interpretadas por 12 analistas diferentes, criando um labirinto burocrático que ninguém conseguia explicar direito.`,
+    
+    t: `A situação ameaçava o lançamento do Next — o maior projeto digital do banco. Eu fui encarregado de liderar a revisão do fluxo de compliance com um objetivo específico: tornar o processo compatível com as metas de crescimento.  
+    Meu plano consistia em três frentes: reduzir o tempo de onboarding de 32 para menos de 6 horas, automatizar 90% das aprovações e redefinir compliance como parte da vantagem competitiva — não como barreira operacional. Sabia que mexeria em dogmas fortes do banco e em normas históricas.`,
+    
+    a: `Comecei pelo óbvio: entender, linha a linha, as 47 regras do BACEN. Descobri que 80% dos casos se encaixavam em padrões simples que poderiam ser automatizados. Montei uma matriz com essas regras e construí árvores de decisão em Python capazes de processar documentos em tempo real. O teste piloto mostrou que era possível eliminar 11 dos 14 passos manuais.  
+    Para resolver a parte regulatória, propus a integração com APIs externas — Serasa, SPC e Receita Federal —, aceitando ser o responsável técnico e operacional pelas chamadas a essas fontes. Criei um canal de prestação de contas direto com compliance e registre log de toda transação com assinatura digital.  
+    Quando o jurídico resistiu, mostrei dados duros: 63% das reprovações eram falsos positivos que custavam R$ 2,8 milhões por ano em retrabalho. Apresentei simulação de risco comparando cenários com e sem automação e demonstrei que a exposição real era 16 vezes menor do que se supunha. Com isso, o comitê de risco aprovou a mudança.  
+    Em paralelo, liguei pessoalmente para clientes que haviam desistido do processo. As gravações dessas conversas mostraram claramente que ninguém entendia porque o sistema pedía o mesmo documento várias vezes. Usei essas falas para mapear a jornada e eliminei telas redundantes. Chamamos o novo fluxo de **“KYC One‑Click”**, em referência à intenção de resolver tudo em um único envio.  
+    Para viabilizar a governança, implantei um scorecard semanal que suspendia automáticamente novos cadastros caso o SLA passasse de 8 horas. Criei um treinamento trimestral baseado em casos reais de falsos positivos e instituí auditoria de logs assinados digitalmente.`,
+    
+    r: `O efeito foi visível em poucos meses. Em 90 dias, o tempo médio de abertura de conta caiu de 32 para 5h58 (‑81%). A taxa de abandono caiu para 4%, o NPS saltou para 68 e o retrabaho no compliance baixou 74%. O Next voltou a crescer: atingiu 2,1 milhões de contas em 18 meses e gerou R$ 28 milhões de receita incremental.  
+    A solução foi replicada para 450 mil vendedores na Elo e Cielo, mostrando que o conceito era escalável além do varejo bancário. O maior reconhecimento veio quando compliance passou a usar a trilha como referência positiva em outras áreas do banco.`,
+    
+    l: `Aprendi que simplificar regras não é violá‑las, é entendê‑las a ponto de traduzir em decisões objetivas. O framework “**Simplify Compliance**” que nasceu desse projeto foca em quatro pilares: medir a dor do usuário, usar dados para quebrar dogmas, assumir riscos calculados e transformar a solução em mecanismo escalável.  
+    Hoje, em soluções de pagamento, uso o mesmo raciocínio para reduzir fricções de onboarding de lojistas, sem abrir mão da segurança.`
   },
+
   en: {
-    s: `"I uploaded the same document five times and it still wasn't approved." A beta customer's email summarized Next's nightmare: 32 hours to open an account, 18% abandonment, and NPS plummeting to 22. Each lost customer cost R$1,200 in wasted CAC, and we were bleeding 2,400 prospects weekly. The problem? 47 Central Bank rules interpreted by 12 different analysts, creating a bureaucratic maze that destroyed customer experience.`,
-    t: `Faced with this crisis threatening Next's launch, I took total ownership of regulatory simplification. My mission was clear: reduce onboarding to under 6 hours, automate 90% of approvals, and transform compliance from obstacle to competitive advantage.`,
-    a: `I invented "KYC One-Click" — a radical solution that challenged decades of banking bureaucracy. First, I mapped the 47 Central Bank rules and discovered that 80% of cases could be resolved with just 5 automated validations. Second, I created Python decision trees that processed documents in real-time, eliminating 11 of 14 manual steps. Third, I negotiated directly with compliance to integrate external APIs (Serasa, SPC, Federal Revenue), personally assuming regulatory risk. When legal resisted, I presented brutal data: 63% of blocks were false positives costing R$2.8M in annual rework.`,
-    r: `The invention radically transformed onboarding. In 90 days, average time plummeted from 32 to 5h58 (-81%), abandonment rate fell to 4%, and NPS jumped to 68. More importantly: we unlocked Next's growth, reaching 2.1 million accounts in 18 months, generating R$28M in incremental revenue. The mechanism was so effective it was replicated for 450,000 sellers in Elo/Cielo, proving its scalability beyond retail.`,
-    l: `I learned that simplifying compliance is a strategic decision, not a technical one. The "Simplify Compliance" framework I created became my standard: measure user pain, challenge status quo with data, take calculated risks, and turn the solution into a scalable mechanism. Today, in payments, I apply the same principle to reduce friction in merchant onboarding, always prioritizing experience without compromising security.`
+    s: `In 2016, I was Product Owner for Digital Onboarding at Bradesco Next during its beta phase. An email from a frustrated tester captured the problem: "I uploaded the same document five times and it was still rejected."  
+    Average account opening took 32 hours, 18% of users abandoned the journey, and NPS fell to 22. Each lost customer cost BRL 1,200 in wasted CAC — about 2,400 prospects per week. Behind it was a maze of 47 Central Bank rules interpreted by 12 different analysts, creating confusion and rework across departments.`,
+    
+    t: `The crisis threatened Next’s public launch. I was asked to restructure the compliance onboarding stream so it could scale without breaking regulations. My objectives: cut time from 32 to under 6 hours, automate 90% of approvals, and shift compliance from barrier to advantage.  
+    I knew success would depend on data‑driven credibility more than bold technical claims.`,
+    
+    a: `I mapped all 47 rules line by line with internal specialists and discovered that 80 percent of client cases fit five repetitive validation patterns. I coded Python decision trees that could process documents in real time, removing 11 of 14 manual steps.  
+    To accelerate background checks, I negotiated integration with external APIs — Serasa, SPC, and Federal Revenue — and personally took responsibility for the regulatory interfaces. I implemented digitally signed logs and auditable trails for every API call.  
+    When the legal department objected, I presented hard numbers: 63% of account rejections were false positives costing BRL 2.8 million per year in rework. I simulated risk exposure with and without automation; the data showed the automated model was 16 times safer. Compliance authorized the pilot within a week.  
+    I also called customers who had abandoned mid‑process, recorded their feedback, and used those insights to streamline user flows and remove redundant screens. The new process became known as the **"KYC One‑Click"**, reflecting its simplicity.  
+    To maintain governance, I implemented a weekly scorecard that automatically paused intake if SLA exceeded 8 hours and introduced quarterly compliance training based on real audit logs.`,
+    
+    r: `Results were immediate. Within 90 days onboarding time fell from 32 hours to 5 hours 58 minutes (−81%). Abandonment dropped to 4%, NPS jumped to 68, and compliance rework was reduced by 74%. Next accelerated to 2.1 million accounts in 18 months, generating BRL 28 million in incremental revenue.  
+    The mechanism was replicated for 450,000 merchants at Elo and Cielo, proving its scalability beyond retail banking. Perhaps most importantly, compliance teams themselves started to champion the model as best practice.`,
+    
+    l: `I learned that simplifying regulation is about understanding it deeply, not bypassing it. From that project I framed a method called **"Simplify Compliance"** anchored on four rules: measure user pain, break assumptions with data, take calculated risks, and turn solutions into scalable mechanisms.  
+    I use the same method in payment ecosystems today, reducing merchant onboarding friction while maintaining audit‑grade security.`
   },
+
   fups: [
+    // 1. Erro / Failure
     {
-      q: "Como voce convenceu compliance a abrir as APIs externas?",
-      a: "Eu apresentei business case com reducao de 74% em reanalise e aceitei ser o ponto de contato unico com os provedores, assinando SLA de resposta em 90 minutos.",
-      q_en: "How did you convince compliance to open external APIs?",
-      a_en: "I presented a business case showing a 74% drop in reanalysis and agreed to be the sole point of contact with providers, signing a 90-minute response SLA."
+      q: "Qual foi seu maior erro ou falha nesse caso?",
+      a: "Demorei para envolver o jurídico nas primeiras simulações; apresentei o modelo já pronto e causei reação de ruptura. Aprendi que, em ambiente regulado, a co‑criação previne resistência.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "I was late in engaging Legal for early simulations; presenting the final model created unnecessary shock. I learned that in regulated environments, co‑creation prevents resistance."
+    },
+    // 2. O que faria diferente / What would you do differently
+    {
+      q: "O que você faria diferente hoje?",
+      a: "Começaria com piloto menor, mostrando impacto real em dados de reanálise antes de propor alteração completa no fluxo. Pequenas comprovações abrem portas mais rápido.",
+      q_en: "What would you do differently today?",
+      a_en: "I would start with a smaller pilot, showing tangible drop in reanalysis before changing the entire flow. Small empirical proofs open doors faster."
+    },
+    // 3. Obstáculo / Obstacle
+    {
+      q: "Qual foi o obstáculo mais difícil de superar?",
+      a: "Mudar a crença antiga de que mais etapas significam mais segurança. Usei dados dos falsos positivos (63%) para provar que excesso de checagem gerava ruído, não controle.",
+      q_en: "What was the most difficult obstacle to overcome?",
+      a_en: "Changing the belief that 'more steps mean more safety.' I used false‑positive data (63%) to show that redundant checks created noise, not control."
+    },
+    // 4. Riscos / Risks
+    {
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "Três riscos: exposição regulatória (mitigada assumindo o SLA e criando logs digitais assinados), falha de integração com APIs externas (reserva técnica e redundância), e resistência política interna (dados e transparência semanal).",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "Three main risks: regulatory exposure (mitigated by owning SLAs and signed logs), API integration failures (technical fallback and redundancy), and political resistance (weekly transparent updates with evidence)."
+    },
+    // 5. Dados / Data rationale
+    {
+      q: "Que dados você usou e qual foi a racional de cálculo?",
+      a: "Analisei logs de 47 regras do Bacen e 18 mil cadastros rejeitados. Calculei custo de retrabalho por bloqueio falso e demonstrei perda anual de R$ 2,8 mi. Esse número foi chave para convencer o board.",
+      q_en: "What data did you use and what was the calculation rationale?",
+      a_en: "I analyzed compliance logs covering 47 Central Bank rules and 18 k rejected applications. I calculated rework cost per false positive—about BRL 2.8 M yearly—key evidence for executive approval."
+    },
+    // 6. Uso posterior / Learning reuse
+    {
+      q: "Como você usou o aprendizado desse caso em outras frentes ou trabalhos?",
+      a: "Apliquei o conceito One‑Click em acquisição de sellers e billers em pagamentos, mantendo experiência simples e rastreabilidade total. O mesmo modelo depois serviu de base para onboarding antifraude em uma fintech parceira.",
+      q_en: "How did you use the learnings from this case elsewhere?",
+      a_en: "I applied the One‑Click concept to seller and biller onboarding in payments, keeping simplicity and full traceability. The same model later became the foundation for an anti‑fraud onboarding flow in a partner fintech."
+    },
+
+    // Complementares bilíngues
+    {
+      q: "Como construiu confiança com compliance?",
+      a: "Compartilhei logs e métricas semanais, mostrando que o sistema auditava a si mesmo. Essa transparência virou argumento de segurança, não de risco.",
+      q_en: "How did you build trust with compliance?",
+      a_en: "By sharing weekly logs proving self‑auditing capability. Transparency turned from a 'risk' argument into a 'safety' argument."
     },
     {
-      q: "Que sinal de customer obsession voce mais usou?",
-      a: "Eu liguei pessoalmente para clientes que abandonavam e prometi retorno cronometrado; os depoimentos direcionaram quais telas eliminar.",
-      q_en: "What customer-obsession signal did you rely on the most?",
-      a_en: "I personally called customers who abandoned and promised timed callbacks; their feedback guided which screens to remove."
+      q: "Que trade‑off financeiro precisou assumir?",
+      a: "Aceitei sobrepreço de 5 bps para clientes de onboarding imediato, cobrindo o custo de infraestrutura extra. Tornou o projeto financeiramente neutro.",
+      q_en: "What financial trade‑off did you take?",
+      a_en: "I accepted a 5 bps surcharge for instant‑onboarding clients to offset infra cost, keeping the project financially neutral."
     },
     {
-      q: "Como voce garantiu aderencia regulatoria apos automatizar?",
-      a: "Eu criei trilha de auditoria com logs assinados digitalmente e agendei reunioes mensais com Bacen levando evidencias de falso positivo.",
-      q_en: "How did you ensure regulatory adherence after automating?",
-      a_en: "I built an audit trail with digitally signed logs and held monthly regulator meetings presenting false-positive evidence."
+      q: "Como garantiu perenidade após o go‑live?",
+      a: "Implantei scorecard com gatilho que pausa onboarding se o SLA médio passar de 8 h e treino trimestral baseado em casos reais.",
+      q_en: "How did you ensure long‑term sustainability after go‑live?",
+      a_en: "I built a scorecard triggering automatic pause if average SLA exceeded 8 h and established quarterly training based on real false‑positive cases."
     },
     {
-      q: "Qual trade-off financeiro voce assumiu?",
-      a: "Eu reestruturei pricing para cobrir o investimento, cobrando 5 bps extra de clientes que desejavam onboarding imediato.",
-      q_en: "What financial trade-off did you assume?",
-      a_en: "I restructured pricing to cover the investment, adding 5 bps for customers demanding immediate onboarding."
+      q: "Que métrica melhor representa o sucesso?",
+      a: "O onboarding caiu de 32 h para 5h58 sem aumento de fraude, e a taxa de abandono desceu para 4%, maior sinal de confiança do cliente.",
+      q_en: "Which metric best summarizes success?",
+      a_en: "Onboarding time dropped from 32 hours to 5 h 58 m with no fraud increase, and abandonment fell to 4% —the clearest proof of regained trust."
     },
     {
-      q: "Como voce manteve ratio EU:NOS acima de 3:1?",
-      a: "Eu centralizei aprovacoes, escrevi pessoalmente as cartas ao Bacen e registrei todas as decisoes criticas como minhas no comite executivo.",
-      q_en: "How did you keep the I:we ratio above 3:1?",
-      a_en: "I centralized approvals, personally wrote the letters to the regulator, and documented every critical decision as mine in the executive committee."
+      q: "Como reagiu o jurídico após os resultados?",
+      a: "O mesmo time que inicialmente bloqueava o piloto apresentou o KYC One‑Click no comitê. A transparência inverteu a resistência.",
+      q_en: "How did Legal react after results?",
+      a_en: "The same team that initially opposed the pilot later presented One‑Click to the executive committee — transparency flipped resistance into advocacy."
     },
     {
-      q: "Quais metricas voce acompanhou apos o go-live?",
-      a: "SLA medio, abandono, NPS, fraude, reclamacoes no Bacen e volume de reanalise; eu enviava boletim semanal ao CEO.",
-      q_en: "Which metrics did you track after go-live?",
-      a_en: "Average SLA, abandonment, NPS, fraud, regulator complaints, and reanalysis volume; I sent a weekly report to the CEO."
+      q: "Qual impacto cultural o case causou no banco?",
+      a: "Compliance passou a participar das squads de produto já no design, o que reduziu atritos internos e acelerou aprovações.",
+      q_en: "What cultural impact did the case generate?",
+      a_en: "Compliance began joining product squads from design phase onward, cutting internal friction and speeding approvals."
     },
     {
-      q: "Como voce tratou clientes de maior risco?",
-      a: "Eu criei camada de grafos que detecta relacoes e valida automaticamente cada beneficiario, escalando para analise manual somente acima de score 0,7.",
-      q_en: "How did you handle higher-risk customers?",
-      a_en: "I built a graph layer detecting relationships and auto-validating beneficiaries, escalating to manual review only when the score exceeded 0.7."
+      q: "Que habilidade pessoal mais contribuiu para o resultado?",
+      a: "Traduzir jargão regulatório em valor de negócio, mostrando que compliance pode ser diferencial de produto.",
+      q_en: "Which personal skill most contributed?",
+      a_en: "Translating regulatory language into business value, proving compliance itself can become a product differentiator."
     },
     {
-      q: "Qual foi o maior aprendizado para pagamentos?",
-      a: "Aplicar o conceito de one-click KYC para sellers e billers, garantindo experiencia simples e logs completos desde o inicio.",
-      q_en: "What was the biggest takeaway for payments?",
-      a_en: "Apply the one-click KYC concept to sellers and billers, ensuring simple experience and full logs from day one."
-    },
-    {
-      q: "Que mecanismos evitam regressao do processo?",
-      a: "Eu criei scorecard semanal com gatilho que pausa onboarding se SLA passar de 8 horas e exigi treino trimestral de compliance baseado em dados reais.",
-      q_en: "What mechanisms prevent regression?",
-      a_en: "I built a weekly scorecard with a trigger suspending onboarding if SLA exceeds eight hours and mandated quarterly compliance training based on real data."
-    },
-    {
-      q: "Como voce compartilhou os resultados com o cliente final?",
-      a: "Enviei e-mail personalizado destacando tempo medio de resposta e video explicando o novo fluxo, encerrando com mic-drop de que o risco ficava comigo.",
-      q_en: "How did you share results with the end customer?",
-      a_en: "I sent personalized emails highlighting response time and a video explaining the new flow, closing with a mic drop that I was taking the risk."
+      q: "Qual aprendizado humano mais claro você tirou?",
+      a: "Percebi que burocracia nasce do medo de errar. Quando mostramos dados objetivos, o medo cede espaço à colaboração.",
+      q_en: "What was your key human insight from this experience?",
+      a_en: "Bureaucracy often stems from fear of error. When people see objective data, fear gives way to collaboration."
     }
   ]
 };

@@ -1,89 +1,95 @@
 const case_2 = {
   id: "hsbc-data-validation-audit",
-  title: "Auditoria Pessoal em Processos de Validacao de Dados em Multiplos Paises",
-  title_pt: "Auditoria Pessoal em Processos de Validacao de Dados em Multiplos Paises",
+  title: "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países",
+  title_pt: "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países",
   title_en: "Personal Audit of Data Validation Processes Across Multiple Countries",
   company: "HSBC",
   period: "05/2015-06/2016",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: true,
+
   pt: {
-    s: `Quando um dashboard mostra 99,8% de sucesso na migração de um portfólio de US$ 5,2 bilhões, a maioria dos executivos comemora. Mas eu vi uma bomba-relógio prestes a explodir para 280 mil clientes de alta renda do HSBC. Aquele 0,2% de erro significava que nomes como \'João\' viravam \'Jo?o\', bloqueando o acesso a milhões em investimentos e fazendo com que cartas de compliance nunca chegassem. O fornecedor global dizia \'está tudo bem\', mas eu sabia que a confiança dos nossos clientes mais valiosos estava em jogo.`,
-    t: `Fui nomeado o single-threaded owner para ser a voz do cliente naquela migração. Meu compromisso com o COO era claro: em 10 dias, eu iria provar, com dados, o risco real para os clientes da instituição e entregar um plano para garantir que nenhum deles fosse prejudicado, protegendo o go-live sem atrasar o cronograma.`,
-    a: `Eu mergulhei nos dados pessoalmente, pedindo acesso direto ao Redshift e às instâncias Oracle. Escrevi 51 scripts SQL para caçar os erros que os jobs padrão ignoravam, como caracteres especiais em nomes internacionais. Auditei manualmente 120 contas, não as aleatórias, mas as dos clientes com maior patrimônio e atividade internacional, onde um erro seria catastrófico. Para dar voz à dor, liguei para 12 Relationship Managers e usei suas histórias de horror de migrações passadas para provar que o NPS dos nossos clientes VIPs despencaria. Minha investigação revelou 840 contas em risco, totalizando US$ 180 milhões em ativos. Em uma chamada de crise com o diretor do fornecedor, eu não mostrei apenas queries; eu simulei a tela de um cliente VIP tentando acessar seu portfólio bloqueado. Exigi uma correção em 72 horas e liderei três squads globais (Índia, Polônia, Brasil) para reescrever o parser. Finalmente, instalei um mecanismo de \'Auditoria do Cliente Cético\': um script de comparação byte a byte que me alertava sobre qualquer desvio acima de 0,05%.`,
-    r: `O resultado foi a proteção total dos clientes da instituição. Nenhum dos 840 clientes em risco sofreu qualquer impacto no go-live. O NPS, que prevíamos que iria desabar para menos de 50, se manteve estável em 82. Além do impacto no cliente, minha ação evitou multas FATCA estimadas em até US$ 5 milhões. O mecanismo de alerta que criei reduziu o tempo de resposta a incidentes de dados em 35% e o playbook da minha auditoria foi publicado pelo PMO global como leitura obrigatória para todas as futuras migrações — sendo aplicado em 8 programas subsequentes no México, Reino Unido, Hong Kong e Singapura, protegendo US$ 47 bilhões adicionais em ativos.`,
-    l: `Esse caso me ensinou que a verdadeira governança não é sobre agradar dashboards, é sobre honrar a confiança do cliente. Um dashboard \'verde\' pode esconder uma experiência \'vermelha\' para milhares. Desde então, eu aplico um mecanismo que chamo de \'Auditoria do Cliente Cético\': 1) Eu pessoalmente audito as amostras mais críticas, não com a visão do sistema, mas com a visão do cliente que mais tem a perder. 2) Eu trago a \'voz da dor\' para a sala, seja através dos RMs ou dos próprios clientes. 3) Eu instalo um monitoramento contínuo que mede a experiência do cliente, não apenas a saúde do sistema. Esse playbook se tornou meu legado no HSBC, protegendo milhões de clientes em programas subsequentes.`
+    s: `Em 2015, eu atuava como Program Manager no Retail Banking & Wealth Management (RBWM) do HSBC. Estávamos conduzindo a migração de um portfólio de clientes de alta renda entre sistemas globais — uma operação de US$ 5,2 bilhões em ativos. Um dashboard mostrava 99,8% de sucesso, o que parecia uma vitória. Mas, ao analisar o 0,2% restante, percebi uma bomba-relógio prestes a explodir: nomes como “João” viravam “Jo?o”. Pequenos erros de codificação impediam acessos a contas, bloqueavam carteiras de investimento e poderiam afetar a credibilidade junto a 280 mil clientes de alta renda. O fornecedor global garantia que tudo estava sob controle, mas eu sabia que a confiança dos nossos clientes mais valiosos estava em risco.`,
+    
+    t: `Fui nomeado single-threaded owner dessa frente, sendo a voz do cliente na migração. Meu compromisso com o COO era direto: em 10 dias, provar com dados o risco real para os clientes e entregar um plano que assegurasse que nenhum seria impactado — sem atrasar o go-live. O desafio era combinar profundidade técnica, pressão de prazos e a sensibilidade de lidar com grandes stakeholders globais.`,
+    
+    a: `Comecei mergulhando nos dados por conta própria. Solicitei acesso direto ao Redshift e às instâncias Oracle e escrevi 51 scripts SQL para identificar inconsistências que os jobs padrão ignoravam, principalmente erros em caracteres internacionais. Realizei uma auditoria pessoal em 120 contas — escolhidas não de forma aleatória, mas entre os maiores patrimônios e perfis internacionais. Em paralelo, entrevistei 12 Relationship Managers (RMs) para entender os impactos reais de erros anteriores nas relações com clientes VIP. Usei essas histórias para sensibilizar o comitê global e provar que o NPS poderia despencar abaixo de 50 se o problema fosse ignorado.`,
+    
+    r: `Minha análise revelou 840 contas em risco, totalizando US$ 180 milhões em ativos. Durante uma call de crise com o diretor do fornecedor global, fui direto: simulei a experiência real de um cliente vendo seu portfólio bloqueado na tela. Isso gerou a virada. Negociei um turnaround de 72h para o patch e liderei três squads distribuídos (Índia, Polônia e Brasil) para reescrever o parser. Além disso, criei o mecanismo “Auditoria do Cliente Cético”: um script que comparava byte a byte origem e destino, alertando qualquer divergência acima de 0,05%. No go-live, nenhum dos 840 clientes foi impactado. O NPS se manteve em 82, evitando reclamações e multas FATCA estimadas em até US$ 5 milhões. O mecanismo reduziu o tempo de reação a incidentes de dados em 35%, e o playbook dessa auditoria foi publicado pelo PMO global e replicado em oito programas seguintes (México, Reino Unido, Hong Kong e Singapura), protegendo mais de US$ 47 bilhões em ativos.`,
+    
+    l: `Essa experiência me ensinou que governança real não é sobre dashboards “verdes”, e sim sobre confiança do cliente. Um indicador perfeito pode esconder uma experiência desastrosa. A partir daí, criei três mecanismos que levo comigo até hoje: (1) auditorias críticas conduzidas sob o olhar do cliente mais impactado; (2) trazer a “voz da dor” para dentro das salas executivas; e (3) monitorar experiência, não apenas performance técnica. Esse método — a “Auditoria do Cliente Cético” — virou um padrão replicado e uma das lições mais duradouras da minha trajetória no HSBC.`
   },
+
   en: {
-    s: `When a dashboard shows 99.8% success in a US$5.2 billion portfolio migration, most executives celebrate. But I saw a ticking time bomb about to explode for 280,000 high-net-worth HSBC clients. That 0.2% error meant names like \'João\' became \'Jo?o\', blocking access to millions in investments and causing compliance letters to never arrive. The global vendor said \'everything is fine,\', but I knew the trust of our most valuable clients was at stake.`,
-    t: `I was appointed the single-threaded owner to be the voice of the customer in that migration. My commitment to the COO was clear: within 10 days, I would prove, with data, the real risk to our clients and deliver a plan to ensure none of them were harmed, protecting the go-live without delaying the timeline.`,
-    a: `I dove into the data myself, requesting direct access to Redshift and the Oracle instances. I wrote 51 SQL scripts to hunt for the errors the standard jobs ignored, like special characters in international names. I manually audited 120 accounts, not random ones, but those of clients with the highest net worth and international activity, where an error would be catastrophic. To give a voice to the pain, I called 12 Relationship Managers and used their horror stories from past migrations to prove that the NPS of our VIP clients would plummet. My investigation revealed 840 accounts at risk, totaling US$180 million in assets. In a crisis call with the vendor\'s director, I didn\'t just show queries; I simulated the screen of a VIP client trying to access their blocked portfolio. I demanded a fix in 72 hours and led three global squads (India, Poland, Brazil) to rewrite the parser. Finally, I installed a \'Skeptical Customer Audit\' mechanism: a byte-by-byte comparison script that alerted me to any deviation above 0.05%.`,
-    r: `The result was the complete protection of our clients. None of the 840 at-risk clients suffered any impact at go-live. The NPS, which we predicted would plummet to below 50, remained stable at 82. In addition to the customer impact, my action avoided FATCA fines estimated at up to US$5 million. The alert mechanism I created reduced the response time to data incidents by 35%, and my audit playbook was published by the global PMO as mandatory reading for all future migrations.`,
-    l: `This case taught me that true governance is not about pleasing dashboards, it\'s about honoring the customer\'s trust. A \'green\' dashboard can hide a \'red\' experience for thousands. Since then, I apply a mechanism I call the \'Skeptical Customer Audit\': 1) I personally audit the most critical samples, not from the system\'s perspective, but from the perspective of the customer who has the most to lose. 2) I bring the \'voice of pain\' into the room, whether through RMs or the customers themselves. 3) I install continuous monitoring that measures the customer experience, not just system health. This playbook became my legacy at HSBC, protecting millions of customers in subsequent programs.`
+    s: `In 2015, I was a Program Manager at HSBC’s Retail Banking & Wealth Management (RBWM) division. We were conducting a large-scale migration of a US$5.2 billion portfolio of high-net-worth client accounts. A dashboard showed 99.8% success — reason enough for celebration. But that 0.2% gap caught my attention. Characters like “João” had turned into “Jo?o,” which meant blocked logins, inaccessible investments, and undelivered compliance letters. The global vendor insisted everything was fine, but I saw a potential trust crisis for 280,000 premium clients.`,
+    
+    t: `I was appointed as the single-threaded owner — the direct voice of the customer in that migration. My goal, aligned with the COO, was to prove the real client risk with hard data and propose a fix within ten days — protecting clients without delaying go-live. The task demanded deep technical dive, stakeholder management, and unwavering ownership under pressure.`,
+    
+    a: `I dove into the data myself, requesting direct access to Redshift and Oracle instances. I wrote 51 SQL scripts to uncover overlooked inconsistencies — mainly encoding errors with international characters. I personally audited 120 accounts, focusing on high-value, high-risk clients, and reached out to 12 Relationship Managers to gather stories from past migration issues. Their insights helped me build an irrefutable business case showing potential NPS collapse if unaddressed.`,
+    
+    r: `The investigation uncovered 840 at-risk accounts totaling US$180 million in assets. During a crisis call with the global vendor director, I simulated exactly what a VIP client would see when locked out of their portfolio. The call changed the room’s tone. I negotiated a 72-hour turnaround, led three global squads (India, Poland, Brazil) to rewrite the parser, and created the “Skeptical Customer Audit” mechanism — a byte-by-byte comparison alerting deviations above 0.05%. As a result, zero clients were impacted at go-live, NPS stayed at 82, and potential FATCA fines up to US$5 million were avoided. Incident response time dropped 35%, and my audit playbook became mandatory reading for all future migrations — later protecting US$47 billion in assets across eight countries.`,
+    
+    l: `The experience taught me that real governance is not about green dashboards — it’s about protecting the customer’s trust. A flawless metric can hide a broken experience. Since then, I’ve lived by the “Skeptical Customer Audit” mindset: (1) personally audit what matters most to the client, (2) bring frontline voices into executive discussions, and (3) track client experience, not just system uptime. This principle became part of every major program I led afterwards.`
   },
+
   fups: [
     {
-        q: "Qual foi o maior risco que você não previu inicialmente?",
-        a: "Eu subestimei a resistência cultural do fornecedor em admitir uma falha. Eu achei que os dados seriam suficientes, mas precisei de uma escalada direta ao diretor global deles, com o impacto financeiro e o risco de quebra de contrato na mesa. Aprendi que, além dos dados, é preciso ter uma estratégia de influência e escalada preparada para quando a negação é mais forte que a evidência.",
-        q_en: "What was the biggest risk you didn\'t initially foresee?",
-        a_en: "I underestimated the vendor\'s cultural resistance to admitting a flaw. I thought the data would be enough, but I needed a direct escalation to their global director, with the financial impact and the risk of breach of contract on the table. I learned that in addition to data, you need to have an influence and escalation strategy ready for when denial is stronger than the evidence."
+      q: "Qual foi o erro mais relevante que você cometeu nesse processo?",
+      a: "No início, confiei demais no fornecedor global e subestimei o impacto cultural da negação. Pensei que um bom relatório técnico bastaria. Aprendi que dados sozinhos não bastam quando há defensividade — é preciso estratégia política e narrativa clara de risco ao negócio."
     },
     {
-      q: "Como voce convenceu o fornecedor global a priorizar a correcao sem atrasar o cronograma?",
-      a: "Montei um plano de risco binario: mostrei o calculo de multa FATCA, os 840 registros afetados e uma linha do tempo comparando correcao em 72h versus impacto pos go-live. Pedi um commitment formal do diretor do fornecedor e inseri checkpoint diario comigo e com o CTO.",
-      q_en: "How did you convince the global vendor to prioritize the fix without delaying the timeline?",
-      a_en: "I built a binary risk plan: showed the FATCA penalty exposure, the 840 affected records, and a timeline comparing an immediate 72-hour fix versus post go-live fallout. I asked the vendor director for a formal commitment and set up a daily checkpoint with him and our CTO." 
+      q: "O que faria diferente se enfrentasse essa mesma situação hoje?",
+      a: "Eu envolveria a liderança global na etapa de diagnóstico ainda mais cedo, ampliando o alinhamento sobre riscos reputacionais. Também designaria um co-líder regional para compartilhar ownership e acelerar decisões multi-fuso."
     },
     {
-      q: "Que criterios voce usou para selecionar as 120 contas auditadas manualmente?",
-      a: "Criei um score baseado em valor de ativos, presenca internacional, campos sensiveis e historico de reclamacoes. As 120 contas cobriam 95% da receita em risco e traziam pelo menos um campo com caracteres especiais.",
-      q_en: "What criteria did you use to choose the 120 accounts for manual audit?",
-      a_en: "I built a scoring model using asset value, international presence, sensitive fields, and prior complaints. The 120 accounts covered 95% of revenue at risk and each had at least one special-character field." 
+      q: "Qual foi o obstáculo mais difícil de superar?",
+      a: "Convencer o fornecedor e parte do board de que 0,2% de erro era inaceitável. Muitos viam como estatisticamente irrelevante. Para quebrar a barreira, transformei o dado em emoção, simulando a dor real de um cliente travado no sistema."
     },
     {
-      q: "Como voce garantiu que o parser corrigido nao introduzisse novos problemas?",
-      a: "Implementei testes unitarios com 30 cenarios, rodamos carga retroativa com hash de comparacao e usei o script de byte check. Tambem fizemos smoke test com 50 clientes acompanhados pelos RMs.",
-      q_en: "How did you ensure the fixed parser did not introduce new issues?",
-      a_en: "We added 30 unit-test scenarios, ran a retroactive load with hash comparison, and used the byte-check script. We also ran a smoke test with 50 real customers monitored by their RMs." 
+      q: "Quais riscos você identificou e como foram mitigados?",
+      a: "Os principais riscos eram: (1) atraso no go-live, (2) falha em FATCA/KYC, e (3) dano reputacional. Mitigamos definindo janelas paralelas de validação com engenharia, checkpoints diários e comunicação transparente ao board global."
     },
     {
-      q: "De que maneira voce envolveu os Relationship Managers na mitigacao do risco?",
-      a: "Compartilhei com cada RM a lista de clientes potencialmente afetados, pedi validacao de dados sensiveis e alinhei mensagens proativas caso encontrasse erro. Isso manteve a area comercial confiante e preservou o NPS em 82.",
-      q_en: "How did you involve Relationship Managers in mitigating the risk?",
-      a_en: "I shared a list of potentially affected clients with each RM, asked them to validate sensitive fields, and aligned proactive messaging. That kept the commercial team confident and maintained NPS at 82." 
+      q: "Como você chegou ao cálculo de risco de US$ 180 milhões?",
+      a: "Projetei o volume total de contas com erro e multipliquei pela média de ativos dos segmentos Private e Premier. A auditoria manual validou amostras de 0,05%, confirmando a materialidade. Documentei tudo com trilhas SAP e relatórios SQL auditáveis."
     },
     {
-      q: "Qual foi o mecanismo de alerta implementado apos o go-live?",
-      a: "Criei um script em Python que compara byte a byte os arquivos origem/destino, gera checksum e dispara alerta via Slack/e-mail quando a divergencia ultrapassa 0,05%. Os alertas abrem incidentes no ServiceNow com SLA de 12h.",
-      q_en: "What alerting mechanism did you implement after go-live?",
-      a_en: "A Python script compares source vs target byte-by-byte, generates checksums, and triggers Slack/email alerts for deviations over 0.05%. Alerts auto-create ServiceNow incidents with a 12-hour SLA." 
+      q: "Como mediu que o cliente não foi impactado após o go-live?",
+      a: "Usei três fontes de validação: logs de acesso pós-go-live, monitoramento de tickets prioritários e entrevistas com RMs. Nos 30 primeiros dias, nenhum incidente relacionado a cadastros incorretos foi reportado."
     },
     {
-      q: "Como voce mediu o impacto evitado no NPS e na satisfacao do cliente?",
-      a: "Projetei a queda de NPS com base nas 32 reclamacoes da migracao anterior e no valor dos clientes afetados. Apos o go-live, capturei NPS priority em 82 e zero reclamacoes sobre cadastro incorreto.",
-      q_en: "How did you measure the avoided impact on NPS and customer satisfaction?",
-      a_en: "I projected NPS drop using 32 complaints from the prior migration and the value of affected clients. After go-live we captured priority-customer NPS at 82 and zero complaints about incorrect data." 
+      q: "Como garantiu que o parser corrigido não introduzisse novos erros?",
+      a: "Adotamos 30 cenários de testes unitários, retroload com hash comparison e smoke test supervisionado por RMs e compliance. O processo virou pré-requisito formal em releases seguintes."
     },
     {
-      q: "Que licao voce compartilhou com o PMO global e como foi aplicada depois?",
-      a: "Documentei um playbook de 14 passos com auditoria amostral, envolvimento de RM e mecanismo de alerta. O documento virou prerequisito em programas subsequentes no Mexico e Reino Unido.",
-      q_en: "What lesson did you share with the global PMO and how was it applied later?",
-      a_en: "I documented a 14-step playbook covering sample audits, RM involvement, and alert mechanisms. It became mandatory in follow-up migrations in Mexico and the UK." 
+      q: "Qual dado ou métrica foi o mais importante para defender sua tese?",
+      a: "A correlação entre campos com caracteres especiais e falhas de autenticação. Aquele 0,2% concentrava 90% das reclamações históricas. Esse insight mudou o foco da mitigação."
     },
     {
-      q: "Como voce equilibrou velocidade e profundidade para entregar o laudo em 10 dias?",
-      a: "Dividi os 10 dias em tres ondas: 3 dias de auditoria tecnica, 3 para validacao com RM/regulatorio, 2 para correcao com os squads e 2 para revalidacao. Usei dailies curtos e kanban para remover bloqueios em horas.",
-      q_en: "How did you balance speed and depth to deliver the report in 10 days?",
-      a_en: "I split the 10 days into three waves: 3 days technical audit, 3 days RM/regulatory validation, 2 days fixes with squads, 2 days revalidation. Short dailies and a kanban board kept blockers to hours." 
+      q: "Como envolveu os Relationship Managers para criar empatia na liderança?",
+      a: "Usei os RMs como voz viva do cliente. Pedi que relatassem suas experiências passadas diretamente em calls executivas. A dor narrada na primeira pessoa rompeu o ceticismo técnico e trouxe realidade às discussões."
     },
     {
-      q: "Quais sinais voce monitora quando um dashboard parece bom demais?",
-      a: "Procuro ausencia de variancia, campos criticos sem distribuicao esperada e indicadores que nao mudam conforme a complexidade. Se tudo fica plano por semanas, levanto alerta e audito manualmente.",
-      q_en: "What signals do you monitor when a dashboard looks too good?",
-      a_en: "I look for lack of variance, critical fields without expected distribution, and indicators that do not shift with data complexity. If everything stays flat for weeks, I raise a flag and audit manually." 
+      q: "Como lidou com a pressão do tempo versus a necessidade de profundidade?",
+      a: "Criei sprints de 3 dias: um técnico, um de validação e outro de correção. Reportava progressos diários ao COO. Essa cadência dava confiança à liderança sem perder profundidade."
+    },
+    {
+      q: "Houve algum sinal precoce que o dashboard omitiria falhas?",
+      a: "Sim. A ausência de variação e logs truncados em campos críticos. Dashboards sem ruído são suspeitos. Aprendi a usar métricas de dispersão para avaliar saúde de amostras."
+    },
+    {
+      q: "Como o aprendizado desse caso foi aplicado em outros projetos?",
+      a: "A metodologia da ‘Auditoria do Cliente Cético’ virou processo padrão em programas no México e Reino Unido. Também adaptei o mecanismo ao ambiente digital do Bradesco, no Banquo Program, mantendo o mesmo princípio: auditar com a ótica do cliente."
+    },
+    {
+      q: "Que mecanismo você adotou para evitar recidivas do problema?",
+      a: "O script byte-to-byte passou a ser executado semanalmente em background. Criei métricas de desvio de encoding e alarmes automáticos via Slack. Posteriormente, isso evoluiu em ferramenta de monitoramento de integridade global."
+    },
+    {
+      q: "O que esse caso demonstra sobre sua forma de ‘mergulhar fundo’?",
+      a: "Mostra que eu não me baseio em números confortáveis — eu questiono, refaço e olho pelos olhos do cliente. Para mim, ‘Dive Deep’ é conectar técnica, emoção e impacto real, mesmo quando isso significa discordar de dashboards perfeitos."
     }
   ]
 };
 
 export default case_2;
-
