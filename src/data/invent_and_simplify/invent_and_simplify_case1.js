@@ -1,13 +1,14 @@
 const case_1 = {
   id: "huawei-six-sigma-optimization",
-  title: "Invention of 5G Mechanism with Six Sigma Playbook that Eliminated Client-Facing Penalties",
+  title: "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing",
+  title_pt: "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing",
+  title_en: "Invented 5G mechanism with Six Sigma playbook that reversed client-facing penalties",
   company: "Huawei LATAM",
   period: "03/2013-09/2014",
   isTopCase: true,
-  isGoodCase: true,
-
+  isGoodCase: false,
   pt: {
-    s: `Em 2013, eu era Product Manager de Network Optimization na Huawei LATAM, responsável pelo desempenho do rollout 5G em um dos contratos mais críticos da região. O cenário era grave: multas de R$ 2,7 milhões por trimestre, NPS de 51 caindo para 17 e cinco operadoras cogitando rescindir contratos.  
+    s: `Em 2013, eu era Product Manager de Network Optimization na Huawei LATAM, responsável pelo desempenho do rollout 4G em um dos contratos mais críticos da região. O cenário era grave: multas de R$ 2,7 milhões por trimestre, NPS de 51 caindo para 17 e cinco operadoras cogitando rescindir contratos.  
     A ativação média de cada site levava 214 dias, com 38 mil assinantes sem cobertura e 19 pontos de repasse entre equipes. A cadeia ficara ingovernável, os times trabalhavam muito e entregavam pouco. Eu sabia que precisávamos restaurar confiança antes que os clientes rompessem o contrato.`,
     
     t: `A diretoria me convocou para conduzir uma intervenção no processo de ativação 5G. Defini três metas: reduzir o tempo de implantação de 214 para 60 dias, eliminar as multas e reconquistar a credibilidade - sem novo capex. Percebi que o problema era menos capacidade e mais estrutura: o modelo de trabalho tinha características de um sistema que cresceu sem design central. Eu precisava devolver clareza ao processo.`,
@@ -24,7 +25,7 @@ const case_1 = {
   },
 
   en: {
-    s: `In 2013, I was Product Manager for Network Optimization at Huawei LATAM, accountable for 5G rollout performance across one of the region’s largest telecom operators. The situation was severe: quarterly penalties reached BRL 2.7 million, NPS had dropped from 51 to 17, and five carriers were openly considering contract termination.  
+    s: `In 2013, I was Product Manager for Network Optimization at Huawei LATAM, accountable for 4G rollout performance across one of the region’s largest telecom operators. The situation was severe: quarterly penalties reached BRL 2.7 million, NPS had dropped from 51 to 17, and five carriers were openly considering contract termination.  
     Average site activation took 214 days, leaving 38 thousand subscribers without coverage. The process involved 19 handoffs between engineering, QA, supply chain and operations. Everyone was busy, yet progress was minimal. It felt like a system operating by inertia. We risked losing our most profitable market.`,
     
     t: `The regional board asked me to orchestrate recovery of the 5G activation process. I set three objectives: cut activation time from 214 to 60 days, remove client penalties completely, and restore trust-without increasing capex.  
