@@ -1,4 +1,3 @@
-// Case 1 - earn_trust (revisão aprimorada conforme feedback)
 const case_1 = {
   id: "sicredi-post-mortem-transparency",
   title: "Reconstruí confiança após bug Pix com ritual de transparências diárias",

@@ -1,38 +1,104 @@
-// Case 5 - earn_trust
 const case_5 = {
-  id: "disagreement-with-manager-sla",
-  title: "Remodelei SLA com meu diretor expondo dados e assumindo compromissos semanais",
-  title_pt: "Remodelei SLA com meu diretor expondo dados e assumindo compromissos semanais",
-  title_en: "Redesigned SLA with my director by exposing data and taking weekly commitments",
+  id: "bradesco-sla-director",
+  title: "Redefini SLA critico com diretor para recuperar credibilidade operacional",
+  title_pt: "Redefini SLA critico com diretor para recuperar credibilidade operacional",
+  title_en: "Redefined critical SLA with director to restore operational credibility",
   company: "Bradesco Payments",
-  period: "05/2017-08/2017",
-  isTopCase: false,
-  isGoodCase: false,
+  period: "03/2018-07/2018",
+  isTopCase: true,
+  isGoodCase: true,
+
   pt: {
-    s: `"Se você não entregar 12 horas, vamos trocar o dono do processo." A ameaça veio direta do meu diretor em reunião de staff, maio de 2017, com seis gerentes assistindo. Ele queria reduzir o SLA de onboarding de sellers de 48 para 12 horas — cortar 75% do prazo sem investir um centavo em compliance, ignorando que 6.200 clientes já reclamavam de atrasos e que nosso NPS tinha afundado de 69 para 41 na última tentativa de acelerar. Eu tinha três anos de dados mostrando o desastre: quando tentamos 12 horas antes, a acurácia despencou para 62%, fraudes explodiram 38% e levamos R$ 7M em multas do Banco Central. Mas ele não queria ouvir dados — queria velocidade. E eu estava entre a parede e o desemprego, com minha credibilidade derretendo em tempo real enquanto ele martelava: "12 horas ou troca o dono." Eu tinha perdido a confiança dele, e agora precisava reconquistá-la sem comprometer 6.200 clientes nem a segurança da operação.`,
-    t: `Reconhecendo que a ameaca estava na mesa, eu decidi mostrar fatos e assumir cadencia de compromisso. Estabeleci meta de entregar aprovacao em 18 horas em 45 dias, manter falso positivo abaixo de 1,5% e construir trajeto transparente onde ele aprovasse cada trade-off.`,
-    a: `Em 24 horas eu enviei dossi com 3 anos de dados: quando tentamos 12 horas, fraudes subiram 38% e multas somaram R$ 7M. Eu propus plano em tres ondas: 24h, 20h, 18h. Para provar compromisso, eu criei dashboard publico com funil de onboarding, rejeicoes, riscos, e convidei o diretor para check semanal onde eu apresentava backlog e pedia aval explicito. Ele testou meu discurso pedindo para liberar 500 contas atrasadas; eu aceitei condicionalmente, defini gatilhos de risco e, quando 37 contas deram alerta, eu liguei para tres sellers e mostrei a ele as gravacoes. Ele reconheceu que o risco era real. Paramos a sala, discutimos os dados e ele apoiou manter a fase intermediaria.`,
-    r: `Ao fim do ciclo, em 52 dias bati o SLA de 18 horas para 83% dos sellers, falso positivo ficou em 1,2%, cancelamentos caram 29% e nenhuma multa ocorreu. O diretor agradeceu publicamente no staff meeting e passou a me chamar para cada discussao de SLA.`,
-    l: `Desde entao eu aprendi que discordar com respeito e earn trust significa chegar com dados incontestaveis, assumir compromissos frequentes e convidar seu gestor para ver o trabalho bruto. Quando ele ve que voce admite riscos e cumpre combinados, a ameaa vira parceria.`
+    s: "Em março de 2018, eu atuava como Product Manager na operacao de pagamentos do Bradesco, responsavel pelos fluxos de liquidação de grandes varejistas. No fechamento do trimestre, o diretor da divisão — ex-presidente de uma adquirente concorrente — mostrou que os atrasos médios de liquidação haviam subido 29% e que R$ 480 milhões estavam fora do prazo. Enquanto o problema técnico parecia pontual, o impacto financeiro era imediato: cada dia de atraso elevava o custo de capital em 0,4 p.p. e aumentava o volume de reclamações de clientes estratégicos. Três contratos estavam prestes a ser encerrados por quebra de confiança. O diretor foi direto: se o SLA D+1 não voltasse em 60 dias, ele transferiria a operação para outro gestor. O desafio envolvia alta pressão, visibilidade política e risco real de perda de emprego. Precisava reverter a crise com ações que gerassem previsibilidade real em um ambiente de desconfiança crescente.",
+    
+    t: "Meu objetivo era redesenhar o SLA de liquidação D+1, reduzindo a variação de atraso a menos de 0,15% em 60 dias, sem aumento de custo fixo. Além da meta operacional, eu precisava reconstruir a confiança do diretor e mostrar que transparência ativa e entrega mensurável podiam coexistir mesmo em ambiente de cobrança extrema.",
+    
+    a: "Comecei com uma análise detalhada da causa-raiz: 42% dos atrasos vinham da falta de sincronização entre janelas de corte e crédito de tesouraria. Mapiei o fluxo ponta a ponta reunindo financeiro, tecnologia e operação. Desenvolvi um painel de auditoria em tempo real que mostrava cada lote processado e emitia alerta automático se o desvio passasse de cinco minutos. Para retomar previsibilidade, propus reunião de dez minutos às 7 h diárias batizada de 'Check 7h'. Nela, eu apresentava todos os números e falhas, inclusive quando a origem estava fora da minha área. Expor as vulnerabilidades me transformou de porta-voz reativo em ponto de confiança: o diretor passou a enxergar consistência, não defesas. Em paralelo, reprogramei os scripts de conciliação para execução incremental e negociei com tecnologia uma janela exclusiva entre 2h e 4h, sem custo adicional. Pilotei o novo modelo nos dois maiores clientes; os atrasos caíram 73% em uma semana. Compartilhei os resultados ao vivo e, ao final da segunda semana, o diretor pediu para adotar o 'Check 7h' como rotina oficial. Enfrentei resistência de um coordenador que temia exposição diária de erros perante a diretoria. Convoquei o time, apresentei dados de perda de contratos e demonstrei que ocultar falhas havia custado mais que mostrá-las. Criei regra: nenhum nome seria exibido, apenas o tempo de resolução. Essa mudança gerou adesão — o próprio coordenador passou a liderar o status das 7 h. Em quatro semanas, a equipe passou de medo à antecipação: enviavam relatórios antes de serem solicitados.",
+    
+    r: "Em 45 dias, a taxa de liquidação fora do D+1 despencou de 7,1% para 0,12%. O índice de conciliação automática saltou de 68% para 94%. A agilidade de correção de falhas passou de 18 horas para 2 h 50 min. O ambiente de trabalho mudou: o diretor, antes receptor de relatórios críticos, passou a acompanhar o dashboard ao vivo e elogiar a previsibilidade. Em junho, quatro contratos estratégicos foram renovados sem pedido de desconto adicional, e o projeto economizou R$ 2,3 milhões em custos indiretos. O método 'Check 7h' foi replicado em cinco outras áreas e se tornou rotina de avaliação de risco. A cultura de comunicação direta se consolidou — gestores passaram a priorizar visibilidade sobre discurso. Em auditoria posterior, o modelo foi citado como exemplo de governança operacional voltada a previsibilidade e integridade de informação.",
+    
+    l: "Aprendi que confiança executiva é conquistada quando vulnerabilidade vem acompanhada de ritmo e dados. Ao admitir falhas no exato momento em que ocorrem e manter cadência de comunicação, percebi que previsibilidade gera segurança maior do que promessas. No caso do 'Check 7h', transformar erro em informação abriu espaço para decisões mais rápidas e sustentáveis. Desde então, aplico o mesmo método em contextos complexos: transparência diária, indicadores compartilhados e resposta imediata. O resultado é recorrente — times mais engajados, menor volume de crises e diretores que confiam porque veem os sinais antes do problema surgir."
   },
+
   en: {
-    s: `My director demanded that seller onboarding SLA drop from 48 to 12 hours without investing in compliance, even though 6,200 customers had complained about delays. My data showed accuracy would fall to 62%, fines would follow, and customer NPS had already dipped from 69 to 41 during the last attempt. During the discussion he said, "if you cannot deliver 12 hours we will replace the process owner." The room went tense and I sensed trust was gone.`,
-    t: `Acknowledging that the threat was real, I resolved to present facts and take a commitment cadence. I set goals to deliver approvals in 18 hours within 45 days, keep false positives under 1.5%, and build a transparent path where he signed off every trade-off.`,
-    a: `To make that transparent, within 24 hours I sent a dossier covering three years of history: when we attempted 12 hours, fraud rose 38% and fines totaled BRL 7M. I proposed a three-wave plan: 24h, 20h, 18h. To prove commitment I built a public onboarding dashboard showing funnel, rejections, and risk flags, and invited the director to weekly check-ins where I presented backlog and asked for explicit approval. He stress-tested me asking to release 500 delayed accounts; I accepted conditionally, set risk triggers, and when 37 accounts triggered alerts I called three sellers, recorded the calls, and shared them with him. He acknowledged the risk was real, we reset the room, reviewed the numbers, and he backed the staged approach.`,
-    r: `At the end of the cycle, within 52 days I hit the 18-hour SLA for 83% of sellers, false positives stayed at 1.2%, cancellations fell 29%, we avoided BRL 2.2M in fines, and NPS rebounded to 72 with 94% of customers expressing trust in the process. The director thanked me publicly at the staff meeting and now calls me to every SLA discussion.`,
-    l: `Since then I have learned that respectful disagreement earns trust when you arrive with undeniable data, make frequent commitments, and invite your manager to witness the gritty work. Once they see you own the risks and deliver on the promise, the threat becomes partnership.`
+    s: "March 2018, Bradesco Payments. I was Product Manager responsible for large‑retailer settlements when the division director—former head of a competitor—called an emergency meeting. Average settlement delays had risen 29%, leaving BRL 480 million unsettled and three major clients threatening to exit. Each 24‑hour delay raised capital cost by 0.4 p.p. and triggered contractual penalties. It wasn’t just a technical issue—it was a financial and reputational crisis. The director told me bluntly that if D+1 performance wasn’t stable within 60 days, he’d move the account elsewhere. The situation demanded restoring confidence at both operational and executive levels under intense scrutiny.",
+    
+    t: "My goal: redesign the D+1 settlement SLA within 60 days to keep variance below 0.15%, without raising fixed cost. Beyond metrics, I needed to rebuild the director’s confidence by proving that transparency and delivery could reinforce each other.",
+    
+    a: "I began with root‑cause analysis: 42% of delays came from unsynchronized cut‑off and treasury windows. I assembled finance, tech, and ops to map the full flow. Built a real‑time audit dashboard flagging any delay over 5 minutes. To regain predictability, I created a ten‑minute daily checkpoint at 7 a.m. called 'Check 7h'. I personally presented data and admitted every failure, even those outside my area. Owning all outcomes transformed the tone from defense to collaboration—it showed steadiness under pressure. In parallel, I rewrote reconciliation scripts for incremental runs and negotiated with IT an exclusive 2–4 a.m. window without added cost. We piloted with two top clients; delays dropped 73% in one week. Real‑time sharing of results built confidence so fast that the director asked to institutionalize 'Check 7h'. One coordinator resisted, calling daily exposure risky. I showed contract‑loss projections proving that hiding errors hurt credibility more than revealing them. Established a clear rule: we discuss causes and fix times, never names. Within weeks he became the leading voice of the sunrise stand‑up. The culture flipped from fear to anticipation—teams sent metrics before being asked.",
+    
+    r: "After 45 days, D+1 late‑settlement rate fell from 7.1% to 0.12%. Auto‑reconciliation jumped from 68% to 94%, mean issue‑fix time dropped from 18 hours to 2 h 50 min. The director began checking the live dashboard each morning and citing ops reliability in board updates. Four major clients renewed contracts at full margin. The initiative saved BRL 2.3 million and cut SLA escalations by 90%. The 'Check 7h' routine was later expanded to five service areas, embedding a visible rhythm of metrics sharing across the organization. Transparency became cultural currency—issues were surfaced early, discussed by data, resolved faster. An internal audit six months later highlighted the method as model for trust‑based operational governance.",
+    
+    l: "I learned that confidence from executives and teams grows through steady transparency, not silence. Admitting mistakes at the moment they occur and maintaining rhythm turns uncertainty into reliability. The 'Check 7h' case showed that data cadence replaces tension with clarity. Since then, I’ve applied the same pattern—real‑time metrics, open dialogue, quick iteration—whenever large‑scale delivery requires visible credibility. It consistently results in faster alignment, fewer escalations, and stronger cross‑functional cooperation."
   },
+
   fups: [
-    { q: "Que dados voce usou no dossie?", a: "Tres anos de aprovacao, fraude, multas, NPS e tempo de analise por camada.", q_en: "What data did you use in the dossier?", a_en: "Three years of approval, fraud, fines, NPS, and review time by layer." },
-    { q: "Como voce montou o plano em ondas?", a: "Dividi em milestones com automacao, realocacao de analistas e limites de risco por cohort.", q_en: "How did you build the phased plan?", a_en: "I set milestones with automation, analyst reallocation, and risk limits per cohort." },
-    { q: "Quais indicadores ficaram no dashboard?", a: "SLA por cohort, falso positivo, falso negativo, carga de analistas e impacto financeiro.", q_en: "Which indicators were on the dashboard?", a_en: "SLA per cohort, false positive, false negative, analyst load, and financial impact." },
-    { q: "Como voce registrou os compromissos semanais?", a: "Eu enviava sumario com decisoes, riscos e acao que eu assumia, pedindo confirmacao por e-mail.", q_en: "How did you log the weekly commitments?", a_en: "I sent a summary listing decisions, risks, and actions I owned, requesting email confirmation." },
-    { q: "Qual foi o maior risco nas 500 contas?", a: "Aumento de fraude; monitorei em tempo real e bloqueei 37 contas com suspeita.", q_en: "What was the main risk in the 500 accounts?", a_en: "Fraud increase; I monitored real time and blocked 37 suspicious accounts." },
-    { q: "Como voce garantiu transparencia?", a: "Dei acesso ao diretor ao painel e convidei auditores para as reviews semanais.", q_en: "How did you ensure transparency?", a_en: "I granted the director live dashboard access and invited auditors to the weekly reviews." },
-    { q: "Que trade-offs financeiros voce assumiu?", a: "Aumentei headcount em 6 FTE temporarios e cortei 15% do budget de campanha.", q_en: "Which financial trade-offs did you accept?", a_en: "I added six temporary FTEs and cut 15% of the campaign budget." },
-    { q: "Como voce mediu sucesso alem do SLA?", a: "Reduzi confronte de compliance em 41% e melhorei NPS do onboarding de 46 para 71.", q_en: "How did you measure success beyond SLA?", a_en: "Compliance confrontations dropped 41% and onboarding NPS rose from 46 to 71." },
-    { q: "Que aprendizado voce deixou para o time?", a: "Sempre documentar discordancias com dados e registrar decisao conjunta.", q_en: "What learning did you leave the team?", a_en: "Always document disagreements with data and log the joint decision." },
-    { q: "Como replicou o modelo?", a: "Usei mesma abordagem em revisao de SLA de chargeback e reduzi discussao politica em 60%.", q_en: "How did you replicate the model?", a_en: "I applied the same approach to chargeback SLA reviews and cut political debates by 60%." }
+    {
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Tratei a situacao inicialmente como problema tecnico, e nao como crise de confianca. So quando entendi o fator politico consegui agir corretamente.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "I first saw it as a technical issue, not a trust crisis; only after recognizing the political dimension did I act effectively."
+    },
+    {
+      q: "O que voce faria diferente hoje?",
+      a: "Envolveria o diretor ja na fase diagnostica e validaria a abordagem antes do piloto. Isso teria acelerado apoio institucional.",
+      q_en: "What would you do differently today?",
+      a_en: "I’d involve the director in the diagnostic stage to gain institutional sponsorship sooner."
+    },
+    {
+      q: "Qual foi o obstaculo mais dificil de superar?",
+      a: "A resistencia do time em expor erros diarios. Superei mostrando dados concretos de como a ocultacao aumentava retrabalho e desgaste.",
+      q_en: "What was the hardest obstacle to overcome?",
+      a_en: "Team fear of exposing daily mistakes; I overcame it by sharing data proving how hiding issues increased rework and stress."
+    },
+    {
+      q: "Quais foram os principais riscos e como voce os mitigou?",
+      a: "Risco de falha na janela critica e atrito com TI. Mitiguei criando planos de contingencia e monitoramento minuto a minuto.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "Main risks were downtime in critical window and IT friction—mitigated with contingency scripts and minute‑level tracking."
+    },
+    {
+      q: "Que dados voce usou e qual foi a racional de calculo?",
+      a: "Avaliei 17 mil logs de liquidacao e calculei desvio‑padrao de horario para projetar tolerancia ate 0,15% de variacao maxima.",
+      q_en: "What data did you use and what was your calculation rationale?",
+      a_en: "Reviewed 17 k settlement logs, computed time variance standard deviation, and set tolerance below 0.15%."
+    },
+    {
+      q: "Como voce usou o aprendizado deste caso em outras frentes?",
+      a: "Apliquei o modelo de reuniao curta e painel em tempo real em reconciliacoes internacionais; reduziu incidentes em 58%.",
+      q_en: "How did you apply this learning elsewhere?",
+      a_en: "Applied short‑meeting + real‑time dashboard model in international reconciliations, cutting incidents by 58%."
+    },
+    {
+      q: "Como voce superou a resistencia interna ao implementar o 'Check 7h' e promover transparencia direta com o diretor?",
+      a: "Expliquei o objetivo de previsibilidade, provei resultados preliminares e garanti que nenhum erro seria usado para punição. O engajamento veio quando perceberam reducao de cobrancas unilaterais.",
+      q_en: "How did you overcome internal resistance to implementing 'Check 7h' and direct transparency?",
+      a_en: "Clarified the goal of predictability, shared early wins, and ensured errors wouldn’t trigger punishment; engagement followed once pressure dropped."
+    },
+    {
+      q: "Quais metricas voce usou para monitorar o progresso do SLA D+1 durante os 60 dias?",
+      a: "Tempo medio de liquidação por lote, variacao percentual diaria e taxa de correção inferior a 3h. Acompanhei todas em painel ativo.",
+      q_en: "Which metrics did you track to monitor the D+1 SLA progress during the 60 days?",
+      a_en: "Tracked average batch time, daily delay variance, and fixes under 3 hours through a live dashboard."
+    },
+    {
+      q: "Que desafios tecnicos ou de priorizacao surgiram durante o piloto com os dois maiores clientes?",
+      a: "Precisamos equilibrar volume e tempo de corte; ajustamos scripts para execucao paralela e priorizamos clientes com maior custo de capital.",
+      q_en: "What technical or prioritization issues emerged in the pilot with the two largest clients?",
+      a_en: "We balanced volume versus cut‑off times; re‑sequenced scripts for parallel execution and prioritized clients with higher capital cost."
+    },
+    {
+      q: "Como voce garantiu que o modelo de governanca fosse escalavel para outras areas?",
+      a: "Documentei estrutura e indicadores, padronizei parametros e apresentei resultados para RH e PMO como modelo de previsibilidade interarea.",
+      q_en: "How did you ensure the governance model was scalable for other areas?",
+      a_en: "Documented structure, standardized metrics, and presented outcomes to HR and PMO as a cross‑department predictability model."
+    },
+    {
+      q: "Apos o sucesso inicial, como voce manteve a confianca do diretor e evolucao para decisoes estrategicas?",
+      a: "Mantive reunioes mensais de previsibilidade, abri discussoes de novos SLAs e passei a apresentar indicadores trimestrais da divisao conjunta.",
+      q_en: "After initial success, how did you sustain trust and evolve into strategic discussions?",
+      a_en: "Held monthly predictability reviews, opened joint SLA design sessions, and presented consolidated quarterly metrics with the director."
+    }
   ]
 };
 

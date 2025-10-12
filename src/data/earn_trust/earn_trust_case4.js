@@ -1,38 +1,104 @@
-// Case 4 - earn_trust (VERSÃO NATURAL)
 const case_4 = {
   id: "hard-feedback-leadership-style",
-  title: "Transformei feedback devastador em pacto de transparência radical",
-  title_pt: "Transformei feedback devastador em pacto de transparência radical",
+  title: "Transformei feedback devastador em pacto de transparencia radical",
+  title_pt: "Transformei feedback devastador em pacto de transparencia radical",
   title_en: "Turned devastating feedback into radical transparency pact",
   company: "Sicredi Digital",
   period: "01/2024-04/2024",
   isTopCase: true,
-  isGoodCase: false,
+  isGoodCase: true,
+
   pt: {
-    s: `"Eu não confio em você porque você aparece só quando o número melhora." A frase da diretora de risco ecoou na sala 302 como um tiro. Janeiro de 2024, oito executivos testemunhando minha credibilidade sendo demolida em quinze palavras. O silêncio que seguiu durou eternos sete segundos — senti cada olhar desviando, cada respiração presa, cada cadeira rangendo. Era eu, como Strategy Advisor do Sicredi Digital, enfrentando a verdade brutal: minha credibilidade estava em ruínas. Os números confirmavam: 19 iniciativas críticas travadas esperando aval de risco, 4.500 sellers bombardeando suporte com reembolsos atrasados há 11+ horas, chargeback sangrando em 0,62% quando nosso limite era 0,45%. Eu havia falhado em construir confiança quando as coisas estavam ruins, e agora pagava o preço publicamente.`,
-    t: `Meu escopo formal como Strategy Advisor cobria roadmap de produtos digitais, mas eu precisava resolver completamente essa crise de confiança. Tracei três metas não-negociáveis: reduzir chargeback para 0,40% em 90 dias, destravar as 19 iniciativas paralisadas, e criar transparência radical onde ela soubesse de cada problema antes do report semanal.`,
-    a: `Pedi cinco minutos a sós com ela, agradeci o feedback direto e prometi diagnóstico completo em 48 horas. Construí um dossiê brutal: 37 actions abertas com donos, datas e destaquei em vermelho onde EU havia falhado, incluindo 25 clientes afetados com ticket individual. Criei o "Transparency Scrum": todo dia às 8h eu enviava nota com três colunas (alertas críticos, decisões que tomei, pendências que precisava dela). Ela testou o ritual pedindo dados que eu não tinha; admiti na hora, liguei para o analista, coletei em 27 minutos e encaminhei para ela E para os clientes afetados. Para destravar as 19 iniciativas, montei Kanban compartilhado expondo 64 riscos e conduzi pessoalmente 12 reuniões de alinhamento entre risco, produto e engenharia. Enfrentei resistência da engenharia que dizia que expor dashboards revelaria falhas; mantive a decisão explicando que transparência com clientes era o único caminho para credibilidade sustentável.`,
-    r: `Em 74 dias, chargeback despencou para 0,38%, todas as 19 iniciativas foram entregues, SLA de reembolso caiu de 11 para 4 horas, reembolsos acima de 7 dias despencaram 82%. A diretora passou a participar do Transparency Scrum pedindo ajustes proativos. O eNPS entre meu time e risco subiu de 31 para 68, evitamos R$ 3,4M em perdas e recebemos reconhecimento formal do CFO. Mais importante: criamos um modelo de transparência que foi replicado por quatro outros líderes.`,
-    l: `Aprendi que reconstruir confiança após feedback devastador exige vulnerabilidade ativa: admitir falhas, compartilhar dados crus e agir antes de ser cobrado. Transparência não é fraqueza — é a única moeda que compra credibilidade duradoura. Hoje, sempre que recebo crítica pública, aplico o mesmo ritual em até 48 horas.`
+    s: "Janeiro de 2024, reuniao do board do Sicredi Digital. Eu atuava como Strategy Advisor responsavel pelo roadmap de produtos digitais. Durante a apresentacao de desempenho, a diretora de risco me interrompeu e disse: 'Eu nao confio em voce porque voce so aparece quando o numero melhora.' O comentario, diante de oito executivos, rompeu minha credibilidade em segundos. O silencio que se seguiu mostrou a extensao da crise: a falta de presencia nos momentos criticos tinha corroído a confianca entre areas e afetava diretamente os resultados do negocio. As 19 iniciativas paralisadas significavam 22% do backlog total congelado e R$ 3,4 milhoes de receita em risco. O chargeback atingia 0,62% contra meta de 0,45%, e o tempo medio de reembolso ultrapassava 11 horas. A desconexao entre squads transformara um desafio técnico em problema institucional. Eu precisava reconquistar previsibilidade e credibilidade de toda a organizacao, com entregas que demonstrassem confianca e não apenas a prometessem.",
+    
+    t: "Embora minha funcao formal fosse supervisionar o roadmap, percebi que o problema era mais profundo: o time havia deixado de acreditar nas minhas entregas e comunicacao. Defini tres metas diretas: reduzir o chargeback a 0,40% em 90 dias, destravar as 19 iniciativas e criar um sistema de transparencia que permitisse a todas as areas visualizar riscos e solucoes em tempo real.",
+    
+    a: "A primeira decisao foi tratar a crise como oportunidade de reconstrucao coletiva. Pedi cinco minutos a sos com a diretora de risco, agradeci o feedback e prometi um diagnostico completo em 48 horas. Analisei cada projeto bloqueado, identifiquei causas e criei um dossie com 37 acoes, evidenciando em vermelho as falhas que eram minhas. Expor minhas proprias falhas foi o ponto de virada: demonstrou humildade e seriedade para recuperar confianca. Em seguida, criei o ritual 'Transparency Scrum': todos os dias, as 8h, eu enviava uma nota com tres colunas fixas - alertas criticos, decisoes tomadas e pendencias de validacao. No inicio, o ritual foi recebido com ceticismo; alguns o viam como ferramenta de controle. Para reverter essa percepcao, convidei os proprios lideres a adaptar o formato e incluir temas. A participação cresceu porque todos começaram a enxergar seus impactos e contribuicoes. Em duas semanas, o ritual se transformou em espaco colaborativo real. Durante um encontro, a diretora solicitou um dado que eu nao tinha. Assumi publicamente a falha, acionei o analista e retornei com a resposta em 27 minutos. Essa agilidade e transparencia mostraram que o compromisso era genuino. Paralelamente, enfrentei resistencia da engenharia, preocupada com exposicao de dashboards. Realizei reuniao coletiva, mostrei que seriam compartilhados apenas dados tecnicos agregados e sem atribuicao de nomes. Com esse equilibrio, o time se sentiu seguro e comecou a sugerir novos indicadores, o que mudou o clima interno. Eu passei de alvo de desconfiança a facilitador da cooperacao interdepartamental.",
+    
+    r: "Em 74 dias, entregamos resultados concretos. O chargeback caiu de 0,62% para 0,38%, as 19 iniciativas foram concluidas e o SLA medio de reembolso foi reduzido de 11 para 4 horas. A comunicacao diaria reduziu escalacoes de risco de 11 para 2 por mes, e o eNPS entre as areas subiu de 31 para 68. O CFO reconheceu o modelo como referencia de governanca preventiva e o PMO o incorporou no framework de gestao digital. O pacto de transparencia radical passou a orientar operacoes de credito, investimentos e atendimento, criando uma rede de previsibilidade entre 270 colaboradores. Essa institucionalizacao alterou o comportamento de toda a estrutura: agora os times reportam riscos espontaneamente antes das auditorias. O ganho cultural foi claro—um ambiente mais colaborativo, com crises tratadas por fatos e nao por percepcao.",
+    
+    l: "Aprendi que confianca nao se reconquista com discursos, mas com a combinacao de vulnerabilidade e constancia. Ao expor minhas proprias falhas, mostrei que responsabilidade vem antes de resultado. Ao manter cadencia diaria e resposta imediata, provei que transparencia e um comportamento, nao um documento. Essa experiencia reforcou minha conviccao de que a previsibilidade que criamos dentro das equipes e o maior indicador de confianca externa. Hoje aplico o mesmo metodo em contextos de alta pressao: diagnostico com dados em 48 horas, comunicacao constante e decisao antecipada. O impacto e visivel—quanto mais os times percebem estabilidade e coerencia, mais o negocio cresce de forma sustentavel."
   },
+
   en: {
-    s: `"I don't trust you because you only show up when the numbers look good." The risk director's words echoed through conference room 302 like a gunshot. January 2024, eight executives witnessing my credibility being demolished in fifteen words. The silence that followed lasted eternal seven seconds — I felt every gaze shifting away, every breath held, every chair creaking. There I was, as Strategy Advisor at Sicredi Digital, facing brutal truth: my credibility was in ruins. The numbers confirmed it: 19 critical initiatives stalled awaiting risk approval, 4,500 sellers bombarding support about 11+ hour refund delays, chargeback bleeding at 0.62% when our limit was 0.45%. I had failed to build trust when things were bad, and now paid the price publicly.`,
-    t: `My formal scope as Strategy Advisor covered digital product roadmap, but I needed to completely resolve this trust crisis. I set three non-negotiable goals: reduce chargeback to 0.40% in 90 days, unblock the 19 paralyzed initiatives, and create radical transparency where she'd know every problem before the weekly report.`,
-    a: `I asked for five minutes alone with her, thanked the direct feedback, and promised complete diagnosis within 48 hours. I built a brutal dossier: 37 open actions with owners, dates, and highlighted in red where I had failed, including 25 affected customers with individual tickets. I created the "Transparency Scrum": every day at 8am I sent a note with three columns (critical alerts, decisions I made, blockers needing her). She stress-tested the ritual asking for data I didn't have; I admitted instantly, called the analyst, collected it in 27 minutes, and forwarded to her AND affected customers. To unblock the 19 initiatives, I built a shared Kanban exposing 64 risks and personally led 12 alignment meetings across risk, product, and engineering. I faced engineering resistance saying exposing dashboards would reveal failures; I held the line explaining transparency with customers was the only path to sustainable credibility.`,
-    r: `Within 74 days, chargeback plummeted to 0.38%, all 19 initiatives shipped, refund SLA dropped from 11 to 4 hours, refunds above 7 days plummeted 82%. The director joined the Transparency Scrum requesting proactive adjustments. Cross-team eNPS rose from 31 to 68, we avoided BRL 3.4M in losses, and received formal CFO recognition. Most importantly: we created a transparency model replicated by four other leaders.`,
-    l: `I learned that rebuilding trust after devastating feedback requires active vulnerability: admit failures, share raw data, and act before being chased. Transparency isn't weakness — it's the only currency that buys lasting credibility. Today, whenever I receive public criticism, I run the same ritual within 48 hours.`
+    s: "January 2024, Sicredi Digital board meeting. As Strategy Advisor for digital products, I was presenting when the Risk Director interrupted: 'I don't trust you because you only show up when numbers look good.' Her statement in front of eight executives instantly eroded my credibility. The silence that followed exposed the severity: lack of presence during crises had fractured interteam trust and now jeopardized the business. Nineteen initiatives were frozen—22% of the roadmap—and BRL 3.4M in revenue was at risk. Chargeback hit 0.62% (target 0.45%) and refund SLAs exceeded 11 hours. The operational slowdown became an institutional issue that demanded not apologies, but visible change.",
+    
+    t: "Although my role was to oversee the roadmap, I realized the breakdown stemmed from eroded confidence in leadership consistency. I set three goals: bring chargeback below 0.40% in 90 days, unblock the 19 stalled streams, and build a real-time transparency model where every team could see and act on risk simultaneously.",
+    
+    a: "I treated the feedback as raw material for reconstruction. Requested five private minutes with the Risk Director, thanked her, and promised a full diagnostic within 48 hours. I mapped all blocked projects, documented 37 open actions, and marked in red the ones under my responsibility. Owning my own mistakes publicly was the turning point—it replaced defensiveness with accountability. I then created the 'Transparency Scrum': each morning at 8 a.m., I sent a short update with three columns—critical alerts, decisions made, pending validations. Early reactions were skeptical; some saw it as control. I invited them to co-design the structure. Within two weeks, engagement soared because everyone saw how their work influenced shared metrics. During one meeting, the director asked for a number I didn’t have. I admitted the gap instantly, gathered data, and returned with the full report in 27 minutes. That moment reset perceptions—transparency evolved from intention to behavior. Engineering at first resisted open dashboards, afraid of blame. I organized an open session clarifying that only aggregated data, not individual metrics, would be shown. Once trust in boundaries formed, developers started suggesting new indicators proactively. My role shifted from being judged to being the facilitator of cooperation.",
+    
+    r: "Within 74 days, chargeback dropped from 0.62% to 0.38%, all 19 projects delivered, and refund SLAs fell from 11 to 4 hours. Daily transparency reduced escalations from 11 to 2 per month, and cross-team eNPS climbed from 31 to 68. The CFO endorsed the model as preventive governance, and PMO embedded it into the digital management framework. The approach expanded to credit, investments, and customer service operations, creating predictability for over 270 employees. Teams began reporting risks voluntarily before audit cycles. The cultural shift was tangible—issues are now handled through facts, not assumptions, and trust became measurable.",
+    
+    l: "I learned that trust is rebuilt through visible consistency, not speeches. By exposing my own flaws, I turned vulnerability into proof of control. Regular updates and fast reactions formed credibility over time. Predictability replaced assurance as the core of confidence. Today, when tension arises, I apply the same method—48-hour diagnosis, constant factual updates, early decisions. The pattern scales: stable communication builds reliable teams, and reliable teams sustain business growth."
   },
+
   fups: [
-    { q: "Como você estruturou o dossiê de 37 actions?", a: "Planilha com status, owner, deadline e clientes afetados. Destaquei em vermelho minhas falhas e mandei screenshot do painel em tempo real.", q_en: "How did you structure the 37-action dossier?", a_en: "Spreadsheet with status, owner, deadline, and affected customers. Highlighted my failures in red and sent real-time dashboard screenshot." },
-    { q: "O que tinha na nota diária do Transparency Scrum?", a: "Alertas críticos com impacto em clientes, decisões que tomei sem consultar, e pendências que dependiam dela ou do time de risco.", q_en: "What was in the daily Transparency Scrum note?", a_en: "Critical alerts with customer impact, decisions I made without consulting, and blockers depending on her or the risk team." },
-    { q: "Como você mediu a evolução da confiança?", a: "eNPS quinzenal entre times e número de escalações, que caiu de 11 para 2 por mês. Também tempo de resposta dela aos meus pedidos.", q_en: "How did you measure trust evolution?", a_en: "Biweekly cross-team eNPS and escalations, which dropped from 11 to 2 per month. Also her response time to my requests." },
-    { q: "Que ação específica reduziu o chargeback?", a: "Automatizei score de risco com corte em 0,65, bloqueando transações suspeitas. Derrubei tentativas fraudulentas em 41% e melhorei authorization rate.", q_en: "Which specific action reduced chargeback?", a_en: "Automated risk score with 0.65 cutoff, blocking suspicious transactions. Cut fraudulent attempts by 41% and improved authorization rate." },
-    { q: "Como você convenceu engenharia a expor os dashboards?", a: "Mostrei que 64 riscos ignorados eram responsabilidade deles e que transparência permitiria investir onde clientes mais sofriam. Dados > ego.", q_en: "How did you convince engineering to expose dashboards?", a_en: "Showed that 64 ignored risks were their responsibility and transparency would direct investment where customers suffered most. Data > ego." },
-    { q: "Qual ritual permaneceu após a crise?", a: "Transparency Scrum diário, review de riscos quinzenal e carta de lições aprendidas por release. Virou padrão da empresa.", q_en: "Which ritual remained after the crisis?", a_en: "Daily Transparency Scrum, biweekly risk review, and lessons-learned letter per release. Became company standard." },
-    { q: "Que trade-off você fez para focar na confiança?", a: "Pausei duas features de growth para liberar squad de risco e dediquei 80% do backlog para melhorar confiança do cliente.", q_en: "What trade-off did you make to focus on trust?", a_en: "Paused two growth features to free the risk squad and devoted 80% of backlog to improving customer trust." },
-    { q: "Como você preveniu recaída na confiança?", a: "Criei alertas automáticos se chargeback passar 0,45% e qualquer atraso > 6h gera nota extraordinária. Prevenção > correção.", q_en: "How did you prevent trust relapse?", a_en: "Created automatic alerts if chargeback exceeds 0.45% and any delay > 6h triggers extraordinary note. Prevention > correction." },
-    { q: "Qual foi a reação do time de risco?", a: "Pediram para manter o formato permanentemente e replicaram para compliance. A diretora virou advocate do modelo.", q_en: "What was the risk team's reaction?", a_en: "Asked to keep the format permanently and replicated it for compliance. The director became an advocate of the model." },
-    { q: "Como isso impactou outros líderes da empresa?", a: "Apresentei o case no all-hands e quatro líderes adotaram variações do ritual. Virou referência de crisis management.", q_en: "How did this impact other company leaders?", a_en: "Presented the case at all-hands and four leaders adopted ritual variations. Became crisis management reference." }
+    {
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Terei sido ausente nos momentos de crise; aprendi que ausencia e interpretada como desinteresse e destrói credibilidade rapidamente.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "Being absent during hard moments; learned that absence reads as disinterest and destroys credibility faster than any error."
+    },
+    {
+      q: "O que voce faria diferente hoje?",
+      a: "Criaria rotinas de reporte proativo mesmo antes de tensoes; previsibilidade evita a necessidade de reconquistar confianca depois.",
+      q_en: "What would you do differently today?",
+      a_en: "Would establish proactive update routines before conflicts arise; predictability prevents the need to rebuild trust later."
+    },
+    {
+      q: "Qual foi o obstaculo mais dificil de superar?",
+      a: "O medo coletivo da exposicao; superei demonstrando que transparencia protege tecnicamente e remove suposicoes nocivas.",
+      q_en: "What was the hardest obstacle to overcome?",
+      a_en: "Collective fear of exposure; I overcame it by proving transparency protects technically and removes harmful assumptions."
+    },
+    {
+      q: "Quais foram os principais riscos e como voce os mitigou?",
+      a: "Risco de desgaste politico e vazamento de informacoes; atuei com acordos de limite de dados e validacao conjunta das metricas.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "Political friction and data sensitivity; mitigated via boundary agreements and joint metric validation."
+    },
+    {
+      q: "Que dados voce usou e qual foi a racional de calculo?",
+      a: "Cruzei backlog, impacto financeiro e tempo medio de resposta; priorizei entregas com maior efeito na percepcao de confianca.",
+      q_en: "What data did you use and what was your rationale?",
+      a_en: "Cross-referenced backlog volume, financial impact, and response times; prioritized tasks with highest confidence impact."
+    },
+    {
+      q: "Como voce usou o aprendizado deste caso em outras frentes?",
+      a: "Apliquei o modelo de comunicacao diaria em auditorias internas, reduzindo tempo de analise de risco em 41%.",
+      q_en: "How did you apply this learning elsewhere?",
+      a_en: "Applied daily transparency model in internal audits, cutting risk analysis time by 41%."
+    },
+    {
+      q: "Como voce garantiu adesao ao modelo de transparencia radical, especialmente entre areas resistentes?",
+      a: "Inclui as areas desde o desenho inicial e co-criei criterios de exposicao; o envolvimento direto dissolveu resistencias.",
+      q_en: "How did you ensure adoption among resistant areas?",
+      a_en: "Included teams at design stage and co-created exposure criteria; active participation dissolved resistance."
+    },
+    {
+      q: "Que criterios voce usou para priorizar as 19 iniciativas no kanban compartihado?",
+      a: "Usei matriz de impacto em clientes e risco financeiro, priorizando frentes que gerassem confianca visivel em menos de 30 dias.",
+      q_en: "What criteria did you use to prioritize the 19 initiatives?",
+      a_en: "Used customer-impact vs. financial-risk matrix, prioritizing areas showing visible trust recovery within 30 days."
+    },
+    {
+      q: "Durante as reunioes bilaterais, quais foram os trade-offs mais dificeis de negociar?",
+      a: "Reduzir escopo sem parecer retrocesso; mantive foco em previsibilidade, mostrando que estabilidade gera velocidade futura.",
+      q_en: "What were the hardest trade-offs during bilateral meetings?",
+      a_en: "Reducing scope without appearing to regress; focused on stability, proving it accelerates future capacity."
+    },
+    {
+      q: "Apos a implementacao do Transparency Scrum, houve ajustes com base em feedback?",
+      a: "Sim, reduzimos volume de dados por ciclo e criamos sumarios semanais para diretores, otimizando a leitura e engajamento.",
+      q_en: "After implementing Transparency Scrum, were adjustments made from feedback?",
+      a_en: "Yes, trimmed data volume per cycle and added weekly summaries for directors, improving clarity and engagement."
+    },
+    {
+      q: "Como voce aplicaria o aprendizado deste caso em situacoes futuras de confianca fragilizada?",
+      a: "Repetiria a estrutura baseada em fatos, ritmo e exposicao clara: diagnostico 48h, comunicacao diaria e validacao conjunta.",
+      q_en: "How would you apply this learning in future low-trust scenarios?",
+      a_en: "Would replicate the fact-based cadence: 48-hour diagnosis, daily communication, and joint validation."
+    }
   ]
 };
 
