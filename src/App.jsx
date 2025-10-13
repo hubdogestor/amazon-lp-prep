@@ -1,5 +1,5 @@
 import { useMemo, useState, useEffect, useCallback, useRef } from "react";
-import { Search, Copy, Check } from "lucide-react";
+import { Search, Copy, Check, Circle, CheckCircle2 } from "lucide-react";
 import icebreakerData from "./data/icebreaker.js";
 import myQuestionsData from "./data/myQuestions.js";
 import typicalQuestions from "./data/typicalQuestions.js";
@@ -96,6 +96,34 @@ const getDisplayName = (p, lang) => getDisplayNameUtil(p, lang, PT_LABELS, EN_LA
 const sortPrinciples = (arr, lang) => sortPrinciplesUtil(arr, lang, ORDER_PT, ORDER_EN);
 
 // ---------- i18n ----------
+const STORAGE_KEYS = {
+  usedCases: "alp-used-cases",
+  usedQuestions: "alp-used-questions",
+  usedIcebreakers: "alp-used-icebreakers",
+};
+
+const loadUsedItems = (key) => {
+  if (typeof window === "undefined") return {};
+  try {
+    const raw = window.localStorage.getItem(key);
+    if (!raw) return {};
+    const parsed = JSON.parse(raw);
+    return parsed && typeof parsed === "object" ? parsed : {};
+  } catch (error) {
+    console.warn("[used-items] Failed to load", key, error);
+    return {};
+  }
+};
+
+const persistUsedItems = (key, value) => {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(key, JSON.stringify(value));
+  } catch (error) {
+    console.warn("[used-items] Failed to persist", key, error);
+  }
+};
+
 const TEXTS = {
   pt: {
     kSearch: "CASES 🗂️",
@@ -177,6 +205,60 @@ export default function App() {
   // Local STAR search per case (formato: { "caseId": "searchTerm" })
   const [caseStarSearchTerms, setCaseStarSearchTerms] = useState({});
   const [caseStarSearchOpen, setCaseStarSearchOpen] = useState({}); // controla visibilidade da busca
+  const [usedCases, setUsedCases] = useState(() => loadUsedItems(STORAGE_KEYS.usedCases));
+  const [usedQuestions, setUsedQuestions] = useState(() => loadUsedItems(STORAGE_KEYS.usedQuestions));
+  const [usedIcebreakers, setUsedIcebreakers] = useState(() => loadUsedItems(STORAGE_KEYS.usedIcebreakers));
+
+  useEffect(() => {
+    persistUsedItems(STORAGE_KEYS.usedCases, usedCases);
+  }, [usedCases]);
+
+  useEffect(() => {
+    persistUsedItems(STORAGE_KEYS.usedQuestions, usedQuestions);
+  }, [usedQuestions]);
+
+  useEffect(() => {
+    persistUsedItems(STORAGE_KEYS.usedIcebreakers, usedIcebreakers);
+  }, [usedIcebreakers]);
+
+  const toggleUsedCase = useCallback((caseId) => {
+    if (!caseId) return;
+    setUsedCases((prev) => {
+      const next = { ...prev };
+      if (next[caseId]) {
+        delete next[caseId];
+      } else {
+        next[caseId] = true;
+      }
+      return next;
+    });
+  }, []);
+
+  const toggleUsedQuestion = useCallback((questionId) => {
+    if (!questionId) return;
+    setUsedQuestions((prev) => {
+      const next = { ...prev };
+      if (next[questionId]) {
+        delete next[questionId];
+      } else {
+        next[questionId] = true;
+      }
+      return next;
+    });
+  }, []);
+
+  const toggleUsedIcebreaker = useCallback((narrativeId) => {
+    if (!narrativeId) return;
+    setUsedIcebreakers((prev) => {
+      const next = { ...prev };
+      if (next[narrativeId]) {
+        delete next[narrativeId];
+      } else {
+        next[narrativeId] = true;
+      }
+      return next;
+    });
+  }, []);
 
   const t = TEXTS[language];
   const rawPrinciplesData = usePrinciplesData();
@@ -719,6 +801,11 @@ Respond as if you were me, maintaining consistency with the details from the cas
                   >
                     {caseSearchResults.map((result, idx) => {
                       const { p, c, snippet, matches, searchWords } = result;
+                      const caseStorageId = c.id || slugify(c.title);
+                      const isCaseUsed = !!usedCases[caseStorageId];
+                      const toggleTooltip = isCaseUsed
+                        ? (language === 'pt' ? 'Remover marca de case usado' : 'Unmark case as used')
+                        : (language === 'pt' ? 'Marcar case como usado' : 'Mark case as used');
 
                       // Build snippet with multiple highlights
                       const renderSnippet = () => {
@@ -790,11 +877,36 @@ Respond as if you were me, maintaining consistency with the details from the cas
                             }
                           }}
                         >
-                          <div className="text-sm mb-1">
-                            {renderSnippet()}
-                          </div>
-                          <div className="text-xs text-slate-500 mt-1">
-                            {getDisplayCaseTitle(c, language)} - {getDisplayName(p, language)}
+                          <div className="flex items-start gap-3">
+                            <div className="flex-1">
+                              <div className="text-sm mb-1 text-slate-600">
+                                {renderSnippet()}
+                              </div>
+                              <div className="text-xs text-slate-500 mt-1">
+                                <span className={isCaseUsed ? 'line-through decoration-slate-400 decoration-2 text-slate-500' : 'font-medium text-slate-700'}>
+                                  {getDisplayCaseTitle(c, language)}
+                                </span>
+                                <span className="text-slate-400"> - </span>
+                                {getDisplayName(p, language)}
+                              </div>
+                            </div>
+                            <button
+                              type="button"
+                              onClick={(event) => {
+                                event.stopPropagation();
+                                toggleUsedCase(caseStorageId);
+                              }}
+                              className={`mt-1 inline-flex h-7 w-7 items-center justify-center rounded-full border text-slate-500 transition ${
+                                isCaseUsed
+                                  ? 'border-green-300 bg-green-50 text-green-600'
+                                  : 'border-slate-200 bg-white hover:bg-slate-50'
+                              }`}
+                              title={toggleTooltip}
+                              aria-label={toggleTooltip}
+                              aria-pressed={isCaseUsed}
+                            >
+                              {isCaseUsed ? <CheckCircle2 className="w-4 h-4" /> : <Circle className="w-4 h-4" />}
+                            </button>
                           </div>
                         </div>
                       );
@@ -913,47 +1025,77 @@ Respond as if you were me, maintaining consistency with the details from the cas
                     role="listbox"
                     className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
                   >
-                    {typicalQuestionSearchResults.map(({ p, q, idx }, k) => (
-                      <div
-                        key={`${p.id}-typical-${idx}-${k}`}
-                        role="option"
-                        tabIndex={0}
-                        className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
-                        onClick={() => {
-                          // Save search words BEFORE clearing (filter words with 3+ chars)
-                          const searchWords = debouncedTypicalQuestionSearch.trim().split(/\s+/).filter(w => w.length >= 3);
+                    {typicalQuestionSearchResults.map(({ p, q, idx }, k) => {
+                      const questionStorageId = `${p.id}-${idx}`;
+                      const isQuestionUsed = !!usedQuestions[questionStorageId];
+                      const toggleTooltip = isQuestionUsed
+                        ? (language === 'pt' ? 'Remover marca de pergunta usada' : 'Unmark question as used')
+                        : (language === 'pt' ? 'Marcar pergunta como usada' : 'Mark question as used');
 
-                          setSelectedPrinciple(p.id);
-                          setShowTopCases(false);
-                          setSearchTerm("");
-                          clearExpanded();
-                          clearHighlights();
+                      return (
+                        <div
+                          key={`${p.id}-typical-${idx}-${k}`}
+                          role="option"
+                          tabIndex={0}
+                          className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
+                          onClick={() => {
+                            // Save search words BEFORE clearing (filter words with 3+ chars)
+                            const searchWords = debouncedTypicalQuestionSearch.trim().split(/\s+/).filter(w => w.length >= 3);
 
-                          setTimeout(() => {
-                            setTypicalQuestionSearch("");
-                            setHighlightCaseTerm("");
-                            setHighlightFupTerm("");
-                            setHighlightTypicalTerm(searchWords.join(' '));
-                            const anchorId = `typical-q-${p.id}-${idx}`;
-                            setHighlightedTypicalQuestion(anchorId, 120);
-                          }, 0);
-                        }}
-                        onKeyDown={(e) => {
-                          if (e.key === 'Enter' || e.key === ' ') {
-                            e.preventDefault();
-                            e.currentTarget.click();
-                          }
-                        }}
-                      >
-                        <div className="font-medium text-slate-800">
-                          <HighlightableText
-                            text={q}
-                            searchTerm={debouncedTypicalQuestionSearch}
-                          />
+                            setSelectedPrinciple(p.id);
+                            setShowTopCases(false);
+                            setSearchTerm("");
+                            clearExpanded();
+                            clearHighlights();
+
+                            setTimeout(() => {
+                              setTypicalQuestionSearch("");
+                              setHighlightCaseTerm("");
+                              setHighlightFupTerm("");
+                              setHighlightTypicalTerm(searchWords.join(' '));
+                              const anchorId = `typical-q-${p.id}-${idx}`;
+                              setHighlightedTypicalQuestion(anchorId, 120);
+                            }, 0);
+                          }}
+                          onKeyDown={(e) => {
+                            if (e.key === 'Enter' || e.key === ' ') {
+                              e.preventDefault();
+                              e.currentTarget.click();
+                            }
+                          }}
+                        >
+                          <div className="flex items-start gap-3">
+                            <div className="flex-1">
+                              <div className="font-medium text-slate-800">
+                                <HighlightableText
+                                  text={q}
+                                  searchTerm={debouncedTypicalQuestionSearch}
+                                  className={isQuestionUsed ? 'line-through decoration-slate-400 decoration-2 text-slate-500' : ''}
+                                />
+                              </div>
+                              <div className="text-slate-500">{getDisplayName(p, language)}</div>
+                            </div>
+                            <button
+                              type="button"
+                              onClick={(event) => {
+                                event.stopPropagation();
+                                toggleUsedQuestion(questionStorageId);
+                              }}
+                              className={`mt-1 inline-flex h-7 w-7 items-center justify-center rounded-full border text-slate-500 transition ${
+                                isQuestionUsed
+                                  ? 'border-green-300 bg-green-50 text-green-600'
+                                  : 'border-slate-200 bg-white hover:bg-slate-50'
+                              }`}
+                              title={toggleTooltip}
+                              aria-label={toggleTooltip}
+                              aria-pressed={isQuestionUsed}
+                            >
+                              {isQuestionUsed ? <CheckCircle2 className="w-4 h-4" /> : <Circle className="w-4 h-4" />}
+                            </button>
+                          </div>
                         </div>
-                        <div className="text-slate-500">{getDisplayName(p, language)}</div>
-                      </div>
-                    ))}
+                      );
+                    })}
                     {typicalQuestionSearchResults.length === 0 && (
                       <div className="px-3 py-2 text-slate-500 text-sm">{t.noResult}</div>
                     )}
@@ -1064,6 +1206,8 @@ Respond as if you were me, maintaining consistency with the details from the cas
         <IcebreakerModal
           language={language}
           onClose={() => setShowIcebreaker(false)}
+          usedIcebreakers={usedIcebreakers}
+          onToggleUsed={toggleUsedIcebreaker}
         />
       )}
 
@@ -1171,6 +1315,8 @@ Respond as if you were me, maintaining consistency with the details from the cas
                       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                         {(language === "en" ? typicalQuestions[principle.id].en : typicalQuestions[principle.id].pt).map((q, qIdx) => {
                           const questionId = `typical-q-${principle.id}-${qIdx}`;
+                          const questionStorageId = `${principle.id}-${qIdx}`;
+                          const isQuestionUsed = !!usedQuestions[questionStorageId];
                           const isHighlighted = highlightedTypicalQuestionId === questionId;
                           const bestOption = getBestCaseOption(principle.id, qIdx);
                           const hasCase = Boolean(bestOption);
@@ -1188,34 +1334,56 @@ Respond as if you were me, maintaining consistency with the details from the cas
                             }
                             return `${actionLabel} (score: ${caseScore})`;
                           })();
-                          
+                          const toggleTooltip = isQuestionUsed
+                            ? (language === 'pt' ? 'Remover marca de pergunta usada' : 'Unmark question as used')
+                            : (language === 'pt' ? 'Marcar pergunta como usada' : 'Mark question as used');
+
                           return (
-                            <button
-                              key={qIdx}
-                              id={questionId}
-                              onClick={() => {
-                                if (hasCase) {
-                                  navigateToMappedCase(principle.id, qIdx);
-                                }
-                              }}
-                              disabled={!hasCase}
-                              className={`px-3 py-2 border rounded text-xs transition-all duration-300 flex items-center justify-center text-center min-h-[60px] ${
-                                hasCase
-                                  ? 'bg-white/80 border-blue-200 text-[#232F3E] hover:bg-blue-50 hover:shadow-md hover:scale-105 cursor-pointer'
-                                  : 'bg-gray-100 border-gray-300 text-gray-400 cursor-not-allowed'
-                              } ${
-                                isHighlighted ? 'bg-yellow-200 font-bold shadow-md ring-2 ring-yellow-400' : ''
-                              }`}
-                              title={tooltip}
-                            >
-                              <span className="flex items-center gap-1">
-                                {hasCase && <span className="text-green-600 font-bold">V</span>}
-                                <HighlightableText
-                                  text={q}
-                                  searchTerm={highlightTypicalTerm}
-                                />
-                              </span>
-                            </button>
+                            <div key={qIdx} className="relative">
+                              <button
+                                id={questionId}
+                                onClick={() => {
+                                  if (hasCase) {
+                                    navigateToMappedCase(principle.id, qIdx);
+                                  }
+                                }}
+                                disabled={!hasCase}
+                                className={`w-full px-3 py-2 border rounded text-xs transition-all duration-300 flex items-center justify-center text-center min-h-[60px] ${
+                                  hasCase
+                                    ? 'bg-white/80 border-blue-200 text-[#232F3E] hover:bg-blue-50 hover:shadow-md hover:scale-105 cursor-pointer'
+                                    : 'bg-gray-100 border-gray-300 text-gray-400 cursor-not-allowed'
+                                } ${
+                                  isHighlighted ? 'bg-yellow-200 font-bold shadow-md ring-2 ring-yellow-400' : ''
+                                } ${isQuestionUsed ? 'opacity-80' : ''}`}
+                                title={tooltip}
+                              >
+                                <span className="flex items-center gap-1">
+                                  {hasCase && <span className="text-green-600 font-bold">V</span>}
+                                  <HighlightableText
+                                    text={q}
+                                    searchTerm={highlightTypicalTerm}
+                                    className={isQuestionUsed ? 'line-through decoration-slate-400 decoration-2 text-slate-500' : ''}
+                                  />
+                                </span>
+                              </button>
+                              <button
+                                type="button"
+                                onClick={(event) => {
+                                  event.stopPropagation();
+                                  toggleUsedQuestion(questionStorageId);
+                                }}
+                                className={`absolute -top-2 -right-2 inline-flex h-7 w-7 items-center justify-center rounded-full border text-slate-500 shadow-sm transition ${
+                                  isQuestionUsed
+                                    ? 'border-green-300 bg-green-50 text-green-600'
+                                    : 'border-slate-200 bg-white hover:bg-slate-50'
+                                }`}
+                                title={toggleTooltip}
+                                aria-label={toggleTooltip}
+                                aria-pressed={isQuestionUsed}
+                              >
+                                {isQuestionUsed ? <CheckCircle2 className="w-4 h-4" /> : <Circle className="w-4 h-4" />}
+                              </button>
+                            </div>
                           );
                         })}
                       </div>
@@ -1229,6 +1397,8 @@ Respond as if you were me, maintaining consistency with the details from the cas
                   const open = !!expandedCases[c.id || c.title];
                   const isHighlighted = highlightedCaseId === caseDomId;
                   const isTop = isTopCase(c);
+                  const caseStorageId = c.id || slugify(c.title);
+                  const isCaseUsed = !!usedCases[caseStorageId];
                   const caseQuestions = getCaseQuestions(c.id, principle.id);
                   const questionSummaryLabel = language === 'pt' ? 'Responde' : 'Answers';
                   const questionCountLabel = language === 'pt' ? 'pergunta(s)' : 'question(s)';
@@ -1241,6 +1411,15 @@ Respond as if you were me, maintaining consistency with the details from the cas
                   const questionsTooltip = caseQuestions.length > 0
                     ? `${questionSummaryLabel} ${caseQuestions.length} ${questionCountLabel}: ${questionIdList}\n\n${questionDetails}`
                     : language === 'pt' ? 'Nenhuma pergunta mapeada' : 'No questions mapped';
+                  const toggleCaseTooltip = isCaseUsed
+                    ? (language === 'pt' ? 'Remover marca de case usado' : 'Unmark case as used')
+                    : (language === 'pt' ? 'Marcar case como usado' : 'Mark case as used');
+                  const toggleCaseLabel = isCaseUsed
+                    ? (language === 'pt' ? 'Usado' : 'Used')
+                    : (language === 'pt' ? 'Marcar' : 'Mark');
+                  const usedStarTextClass = isCaseUsed ? 'line-through decoration-slate-400 decoration-2 text-slate-500' : '';
+                  const usedFupQuestionClass = isCaseUsed ? 'line-through decoration-slate-400 decoration-2 text-slate-500' : 'text-slate-800';
+                  const usedFupAnswerClass = isCaseUsed ? 'line-through decoration-slate-300 decoration-2 text-slate-500' : 'text-slate-600';
 
                   return (
                     <article
@@ -1250,7 +1429,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
                         isTop
                           ? 'from-orange-50 to-amber-50 border-4 border-[#FF9900] shadow-lg shadow-orange-200/50 hover:shadow-xl hover:shadow-orange-300/50'
                           : 'from-blue-50 to-sky-50 border-2 border-blue-300 hover:shadow-lg hover:shadow-blue-200/50 hover:border-blue-400'
-                      } ${isHighlighted ? 'ring-2 ring-amber-400' : ''}`}
+                      } ${isHighlighted ? 'ring-2 ring-amber-400' : ''} ${isCaseUsed ? 'opacity-80' : ''}`}
                       title={questionsTooltip}
                     >
                       {/* Header clicável (área ampla) */}
@@ -1296,14 +1475,33 @@ Respond as if you were me, maintaining consistency with the details from the cas
                               💬 {caseQuestions.length} {language === 'pt' ? 'Q' : 'Q'}
                             </span>
                           )}
-                          <h3 className={`text-lg font-bold ${isTop ? 'text-[#232F3E]' : 'text-slate-900'}`}>
+                          <h3 className={`text-lg font-bold ${isTop ? 'text-[#232F3E]' : 'text-slate-900'} ${isCaseUsed ? 'text-slate-500' : ''}`}>
                             <HighlightableText
                               text={getDisplayCaseTitle(c, language)}
                               searchTerm={highlightCaseTerm}
+                              className={isCaseUsed ? 'line-through decoration-2 decoration-slate-500' : ''}
                             />
                           </h3>
                         </div>
                         <div className="flex items-center gap-3">
+                          <button
+                            type="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              toggleUsedCase(caseStorageId);
+                            }}
+                            className={`flex items-center gap-2 px-3 py-1.5 text-sm rounded-lg border transition-all ${
+                              isCaseUsed
+                                ? 'bg-green-50 border-green-300 text-green-700'
+                                : 'bg-white border-slate-300 text-slate-700 hover:bg-slate-50'
+                            }`}
+                            title={toggleCaseTooltip}
+                            aria-label={toggleCaseTooltip}
+                            aria-pressed={isCaseUsed}
+                          >
+                            {isCaseUsed ? (<CheckCircle2 className="w-4 h-4" />) : (<Circle className="w-4 h-4" />)}
+                            <span>{toggleCaseLabel}</span>
+                          </button>
                           {open && (
                             <button
                               onClick={(e) => {
@@ -1328,13 +1526,13 @@ Respond as if you were me, maintaining consistency with the details from the cas
                                   <Copy className="w-4 h-4" />
                                   <span>{language === 'pt' ? 'Gerar Prompt' : 'Generate Prompt'}</span>
                                 </>
-                              )}
-                            </button>
+                              )}                            </button>
                           )}
                           <span className="text-sm text-amber-600 select-none">
                             {open ? t.close : t.viewDetails} ▾
                           </span>
                         </div>
+
                       </header>
 
                       {open && (
@@ -1397,6 +1595,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
                                 <HighlightableText
                                   text={(c && c[language] && c[language].s) || ""}
                                   searchTerm={caseStarSearchTerms[c.id || slugify(c.title)] || highlightCaseTerm}
+                                  className={usedStarTextClass}
                                 />
                               </p>
                               <p>
@@ -1404,6 +1603,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
                                 <HighlightableText
                                   text={(c && c[language] && c[language].t) || ""}
                                   searchTerm={caseStarSearchTerms[c.id || slugify(c.title)] || highlightCaseTerm}
+                                  className={usedStarTextClass}
                                 />
                               </p>
                               <p>
@@ -1411,6 +1611,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
                                 <HighlightableText
                                   text={(c && c[language] && c[language].a) || ""}
                                   searchTerm={caseStarSearchTerms[c.id || slugify(c.title)] || highlightCaseTerm}
+                                  className={usedStarTextClass}
                                 />
                               </p>
                               <p>
@@ -1418,6 +1619,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
                                 <HighlightableText
                                   text={(c && c[language] && c[language].r) || ""}
                                   searchTerm={caseStarSearchTerms[c.id || slugify(c.title)] || highlightCaseTerm}
+                                  className={usedStarTextClass}
                                 />
                               </p>
                               <p>
@@ -1425,6 +1627,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
                                 <HighlightableText
                                   text={(c && c[language] && c[language].l) || ""}
                                   searchTerm={caseStarSearchTerms[c.id || slugify(c.title)] || highlightCaseTerm}
+                                  className={usedStarTextClass}
                                 />
                               </p>
                             </div>
@@ -1501,13 +1704,15 @@ Respond as if you were me, maintaining consistency with the details from the cas
                                           <HighlightableText
                                             text={question}
                                             searchTerm={caseFupSearchTerms[c.id || slugify(c.title)] || highlightFupTerm}
+                                            className={usedFupQuestionClass}
                                           />
                                         </div>
                                         {answer && (
-                                          <div className="text-slate-600 whitespace-pre-line">
+                                          <div className={`${usedFupAnswerClass} whitespace-pre-line`}>
                                             <HighlightableText
                                               text={answer}
                                               searchTerm={caseFupSearchTerms[c.id || slugify(c.title)] || highlightFupTerm}
+                                              className={usedFupAnswerClass}
                                             />
                                           </div>
                                         )}
@@ -1545,7 +1750,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
 }
 
 // ---------- Subcomponent: Icebreaker Modal ----------
-function IcebreakerModal({ language: initialLanguage, onClose }) {
+function IcebreakerModal({ language: initialLanguage, onClose, usedIcebreakers = {}, onToggleUsed = () => {} }) {
   const [language, setLanguage] = useState(initialLanguage);
   const data = icebreakerData[language];
   const [expandedSection, setExpandedSection] = useState(null);
@@ -1718,7 +1923,7 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
             <p className="text-orange-100 text-sm mt-1">{data.subtitle}</p>
           </div>
           <div className="flex w-full flex-wrap items-center gap-3 md:flex-nowrap md:flex-1 md:justify-end">
-            <div className="relative flex-1 basis-full md:basis-auto min-w-[220px] max-w-2xl">
+            <div className="relative flex-1 basis-full md:basis-auto min-w-[260px] md:max-w-none">
               <input
                 type="text"
                 value={narrativeFilter}
@@ -1731,31 +1936,39 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
                 🔍
               </span>
               {normalizedSearch && narrativeSuggestions.length > 0 && (
-                <div className="absolute z-50 mt-2 left-0 right-0 min-w-full max-h-80 overflow-auto rounded-xl border border-white/40 bg-white/95 shadow-xl text-slate-700">
-                  {narrativeSuggestions.map((item, idx) => (
-                    <button
-                      key={`${item.sectionId}-${item.version.id}-${idx}`}
-                      type="button"
-                      onClick={(event) => {
-                        event.stopPropagation();
-                        setExpandedSection(item.sectionId);
-                        setActiveNarrative({
-                          sectionId: item.sectionId,
-                          sectionTitle: item.sectionTitle,
-                          sectionCategory: item.sectionCategory,
-                          version: item.version,
-                        });
-                      }}
-                      className="w-full text-left px-4 py-3 border-b border-white/60 last:border-b-0 hover:bg-white transition"
-                    >
-                      <p className="text-sm text-slate-800 mb-1 leading-snug">
-                        <HighlightableText text={item.snippet} searchTerm={narrativeFilter} />
-                      </p>
-                      <p className="text-xs text-slate-500">
-                        {item.sectionTitle} • {item.version.title}
-                      </p>
-                    </button>
-                  ))}
+                <div className="absolute z-50 mt-2 left-0 right-0 min-w-full md:min-w-[520px] lg:min-w-[680px] max-h-80 overflow-auto rounded-xl border border-white/40 bg-white/95 shadow-xl text-slate-700">
+                  {narrativeSuggestions.map((item, idx) => {
+                    const narrativeId = `${language}-${item.sectionId}-${item.version.id}`;
+                    const isNarrativeUsed = !!usedIcebreakers[narrativeId];
+                    const snippetClass = isNarrativeUsed ? 'line-through decoration-slate-400 decoration-2 text-slate-500' : 'text-slate-800';
+                    const subtitleClass = isNarrativeUsed ? 'line-through decoration-slate-300 text-slate-500' : 'text-slate-500';
+
+                    return (
+                      <button
+                        key={`${item.sectionId}-${item.version.id}-${idx}`}
+                        type="button"
+                        onClick={(event) => {
+                          event.stopPropagation();
+                          setExpandedSection(item.sectionId);
+                          setActiveNarrative({
+                            sectionId: item.sectionId,
+                            sectionTitle: item.sectionTitle,
+                            sectionCategory: item.sectionCategory,
+                            version: item.version,
+                            narrativeId,
+                          });
+                        }}
+                        className={`w-full text-left px-4 py-3 border-b border-white/60 last:border-b-0 hover:bg-white transition ${isNarrativeUsed ? 'bg-white/80' : ''}`}
+                      >
+                        <p className={`text-sm mb-1 leading-snug ${snippetClass}`}>
+                          <HighlightableText text={item.snippet} searchTerm={narrativeFilter} className={snippetClass} />
+                        </p>
+                        <p className={`text-xs ${subtitleClass}`}>
+                          {item.sectionTitle} - {item.version.title}
+                        </p>
+                      </button>
+                    );
+                  })}
                 </div>
               )}
             </div>
@@ -1818,73 +2031,93 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
                       <div className="grid md:grid-cols-2 gap-4">
                                                 
                         {sectionData.versions?.map((version) => {
-                          const hookLabel = 'Hook';
-                          const micDropLabel = 'Mic Drop';
+                          const hookLabel = language === 'pt' ? 'Gancho' : 'Hook';
+                          const micDropLabel = language === 'pt' ? 'Fecho' : 'Mic Drop';
+                          const narrativeId = `${language}-${section.id}-${version.id}`;
+                          const isNarrativeUsed = !!usedIcebreakers[narrativeId];
+                          const toggleTooltip = isNarrativeUsed
+                            ? (language === 'pt' ? 'Remover marca de narrativa usada' : 'Unmark icebreaker as used')
+                            : (language === 'pt' ? 'Marcar narrativa como usada' : 'Mark icebreaker as used');
 
                           return (
-                            <button
-                              key={version.id}
-                              type="button"
-                              onClick={() => setActiveNarrative({
-                                sectionId: section.id,
-                                sectionTitle: sectionData.question,
-                                sectionCategory: sectionData.category,
-                                version,
-                              })}
-                              className="w-full text-left border-2 border-gray-200 rounded-lg bg-white hover:border-orange-300 focus:outline-none focus:ring-2 focus:ring-orange-400 transition-all"
-                              title={language === 'pt' ? 'Abrir narrativa completa' : 'Open full narrative'}
-                            >
-                              <div className="p-4 flex flex-col gap-3">
-                                <div className="flex items-start justify-between gap-3">
-                                  <div className="flex-1">
-                                    <div className="flex items-center gap-3 mb-2">
-                                      {version.badge && (
-                                        <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${version.badgeColor}`}>
-                                          {version.badge}
-                                        </span>
+                            <div key={version.id} className="relative">
+                              <button
+                                type="button"
+                                onClick={() => setActiveNarrative({
+                                  sectionId: section.id,
+                                  sectionTitle: sectionData.question,
+                                  sectionCategory: sectionData.category,
+                                  version,
+                                  narrativeId,
+                                })}
+                                className={`w-full text-left border-2 border-gray-200 rounded-lg bg-white hover:border-orange-300 focus:outline-none focus:ring-2 focus:ring-orange-400 transition-all ${isNarrativeUsed ? 'opacity-80' : ''}`}
+                                title={language === 'pt' ? 'Abrir narrativa completa' : 'Open full narrative'}
+                              >
+                                <div className="p-4 flex flex-col gap-3">
+                                  <div className="flex items-start justify-between gap-3">
+                                    <div className="flex-1">
+                                      <div className="flex items-center gap-3 mb-2">
+                                        {version.badge && (
+                                          <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${version.badgeColor}`}>
+                                            {version.badge}
+                                          </span>
+                                        )}
+                                        <h4 className={`text-lg font-bold text-gray-900 ${isNarrativeUsed ? 'line-through decoration-slate-500 text-slate-600' : ''}`}>{version.title}</h4>
+                                      </div>
+                                      {version.context && (
+                                        <p className={`text-sm text-gray-600 italic ${isNarrativeUsed ? 'line-through decoration-slate-400 text-gray-500' : ''}`}>
+                                          {version.context}
+                                        </p>
                                       )}
-                                      <h4 className="text-lg font-bold text-gray-900">{version.title}</h4>
                                     </div>
-                                    {version.context && (
-                                      <p className="text-sm text-gray-600 italic">
-                                        {version.context}
-                                      </p>
-                                    )}
+                                    <span className="text-xl text-orange-500 pr-8" aria-hidden="true">↗</span>
                                   </div>
-                                  <span className="text-xl text-orange-500" aria-hidden="true">↗</span>
+
+                                  {(version.hook || version.mic_drop) && (
+                                    <div className="grid md:grid-cols-2 gap-3">
+                                      {version.hook && (
+                                        <div className="bg-orange-50 rounded-lg p-3">
+                                          <p className="font-bold text-orange-700 text-xs mb-1">{hookLabel}</p>
+                                          <p className={`text-gray-700 text-xs ${isNarrativeUsed ? 'line-through decoration-slate-400 text-gray-600' : ''}`}>{version.hook}</p>
+                                        </div>
+                                      )}
+                                      {version.mic_drop && (
+                                        <div className="bg-blue-50 rounded-lg p-3">
+                                          <p className="font-bold text-blue-700 text-xs mb-1">{micDropLabel}</p>
+                                          <p className={`text-gray-700 text-xs ${isNarrativeUsed ? 'line-through decoration-slate-400 text-gray-600' : ''}`}>{version.mic_drop}</p>
+                                        </div>
+                                      )}
+                                    </div>
+                                  )}
+
+                                  {version.tags && version.tags.length > 0 && (
+                                    <div className="flex flex-wrap gap-2">
+                                      {version.tags.map((tag) => (
+                                        <span
+                                          key={tag}
+                                          className={`px-2 py-1 rounded text-xs ${isNarrativeUsed ? 'bg-gray-200 text-gray-500 line-through decoration-slate-400' : 'bg-gray-100 text-gray-600'}`}
+                                        >
+                                          #{tag}
+                                        </span>
+                                      ))}
+                                    </div>
+                                  )}
                                 </div>
-
-                                {(version.hook || version.mic_drop) && (
-                                  <div className="grid md:grid-cols-2 gap-3">
-                                    {version.hook && (
-                                      <div className="bg-orange-50 rounded-lg p-3">
-                                        <p className="font-bold text-orange-700 text-xs mb-1">{hookLabel}</p>
-                                        <p className="text-gray-700 text-xs">{version.hook}</p>
-                                      </div>
-                                    )}
-                                    {version.mic_drop && (
-                                      <div className="bg-blue-50 rounded-lg p-3">
-                                        <p className="font-bold text-blue-700 text-xs mb-1">{micDropLabel}</p>
-                                        <p className="text-gray-700 text-xs">{version.mic_drop}</p>
-                                      </div>
-                                    )}
-                                  </div>
-                                )}
-
-                                {version.tags && version.tags.length > 0 && (
-                                  <div className="flex flex-wrap gap-2">
-                                    {version.tags.map((tag) => (
-                                      <span
-                                        key={tag}
-                                        className="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs"
-                                      >
-                                        #{tag}
-                                      </span>
-                                    ))}
-                                  </div>
-                                )}
-                              </div>
-                            </button>
+                              </button>
+                              <button
+                                type="button"
+                                onClick={(event) => {
+                                  event.stopPropagation();
+                                  onToggleUsed(narrativeId);
+                                }}
+                                className="absolute top-3 right-3 inline-flex h-7 w-7 items-center justify-center rounded-full bg-white/90 text-slate-500 shadow-sm transition hover:text-green-600 focus:outline-none focus:ring-2 focus:ring-orange-200"
+                                title={toggleTooltip}
+                                aria-label={toggleTooltip}
+                                aria-pressed={isNarrativeUsed}
+                              >
+                                {isNarrativeUsed ? <CheckCircle2 className="w-4 h-4" /> : <Circle className="w-4 h-4" />}
+                              </button>
+                            </div>
                           );
                         })}
 
@@ -1909,6 +2142,16 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
           <NarrativeModal
             language={language}
             narrative={activeNarrative}
+            isUsed={(() => {
+              const narrativeId = activeNarrative.narrativeId || `${language}-${activeNarrative.sectionId}-${activeNarrative.version.id}`;
+              return !!usedIcebreakers[narrativeId];
+            })()}
+            onToggleUsed={() => {
+              const narrativeId = activeNarrative.narrativeId || `${language}-${activeNarrative.sectionId}-${activeNarrative.version.id}`;
+              if (narrativeId) {
+                onToggleUsed(narrativeId);
+              }
+            }}
             onClose={() => setActiveNarrative(null)}
           />
         )}
@@ -1919,7 +2162,7 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
 
 
 
-function NarrativeModal({ narrative, language, onClose }) {
+function NarrativeModal({ narrative, language, onClose, isUsed = false, onToggleUsed }) {
   const modalRef = useRef(null);
 
   useEffect(() => {
@@ -1949,6 +2192,14 @@ function NarrativeModal({ narrative, language, onClose }) {
   const micDropLabel = language === 'pt' ? 'Fecho' : 'Mic Drop';
   const tagsLabel = language === 'pt' ? 'Temas' : 'Tags';
   const closeLabel = language === 'pt' ? 'Fechar' : 'Close';
+  const toggleTooltip = isUsed
+    ? (language === 'pt' ? 'Remover marca de narrativa usada' : 'Unmark icebreaker as used')
+    : (language === 'pt' ? 'Marcar narrativa como usada' : 'Mark icebreaker as used');
+  const contextTextClass = isUsed ? 'line-through decoration-slate-300 text-gray-500' : 'text-gray-700';
+  const bodyTextClass = isUsed ? 'line-through decoration-slate-400 decoration-2 text-slate-600' : 'text-gray-700';
+  const contentBodyClass = `leading-relaxed whitespace-pre-line space-y-2 ${bodyTextClass}`;
+  const hookBodyClass = `text-xs ${bodyTextClass}`;
+  const tagClass = isUsed ? 'bg-gray-200 text-gray-500 line-through decoration-slate-400' : 'bg-gray-100 text-gray-600';
 
   return (
     <div
@@ -1986,26 +2237,47 @@ function NarrativeModal({ narrative, language, onClose }) {
               <p className="text-sm text-orange-100">{version.title}</p>
             </div>
           </div>
-          <button
-            type="button"
-            onClick={onClose}
-            className="text-white/80 hover:text-white text-2xl leading-none"
-            aria-label={closeLabel}
-          >
-            ×
-          </button>
+          <div className="flex items-center gap-3">
+            {onToggleUsed && (
+              <button
+                type="button"
+                onClick={(event) => {
+                  event.stopPropagation();
+                  onToggleUsed();
+                }}
+                className={`inline-flex h-9 w-9 items-center justify-center rounded-full border shadow-sm transition ${
+                  isUsed
+                    ? 'border-green-300 bg-white/90 text-green-600'
+                    : 'border-white/60 bg-white/20 text-white/80 hover:bg-white/30'
+                }`}
+                title={toggleTooltip}
+                aria-label={toggleTooltip}
+                aria-pressed={isUsed}
+              >
+                {isUsed ? <CheckCircle2 className="w-5 h-5" /> : <Circle className="w-5 h-5" />}
+              </button>
+            )}
+            <button
+              type="button"
+              onClick={onClose}
+              className="text-white/80 hover:text-white text-2xl leading-none"
+              aria-label={closeLabel}
+            >
+              �
+            </button>
+          </div>
         </div>
 
         <div className="px-6 py-6 space-y-5">
           {version.context && (
             <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-1">{contextLabel}</p>
-              <p className="text-sm text-gray-700">{version.context}</p>
+              <p className={`text-sm ${contextTextClass}`}>{version.context}</p>
             </div>
           )}
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
-            <div className="text-gray-700 leading-relaxed whitespace-pre-line space-y-2">
+            <div className={contentBodyClass}>
               {renderRichContent(version.content)}
             </div>
           </div>
@@ -2015,13 +2287,13 @@ function NarrativeModal({ narrative, language, onClose }) {
               {version.hook && (
                 <div className="bg-orange-50 rounded-xl p-4 border border-orange-200">
                   <p className="text-xs font-semibold uppercase tracking-wide text-orange-700 mb-1">{hookLabel}</p>
-                  <p className="text-xs text-gray-700">{version.hook}</p>
+                  <p className={hookBodyClass}>{version.hook}</p>
                 </div>
               )}
               {version.mic_drop && (
                 <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
                   <p className="text-xs font-semibold uppercase tracking-wide text-blue-700 mb-1">{micDropLabel}</p>
-                  <p className="text-xs text-gray-700">{version.mic_drop}</p>
+                  <p className={hookBodyClass}>{version.mic_drop}</p>
                 </div>
               )}
             </div>
@@ -2034,7 +2306,7 @@ function NarrativeModal({ narrative, language, onClose }) {
                 {version.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs"
+                    className={`px-2 py-1 rounded text-xs ${tagClass}`}
                   >
                     #{tag}
                   </span>
