@@ -183,22 +183,53 @@ Quero ajudar a Amazon a crescer sem perder a essência: times empoderados, diver
           title: "Versão Principal",
           badge: "Recomendada",
           badgeColor: "bg-purple-500",
-          content: `Esta vaga é a convergência perfeita de tudo que construí nos últimos 15 anos: program management em escala, transformação operacional e implementação de AI/ML em operações críticas. Quando li a descrição, foi quase como se tivessem escrito olhando para o meu currículo.
+          content: `Esta vaga reúne exatamente o tipo de transformação que venho conduzindo: redesenhar operações críticas com dados, automação e coordenação entre tecnologia e negócio. Liderar a evolução das operações de pagamentos, enquanto a parceria com a Oakberry ganha escala, exige alguém que consiga sair da estratégia para a execução e voltar com métricas claras.
 
-Meu background é exatamente o que vocês precisam. Liderei programas complexos que geraram mais de 300 milhões de dólares em valor, sempre com foco em excelência operacional. Na Huawei, coordenei 30+ gerentes de projeto e 20 fornecedores para entregar infraestrutura crítica. No HSBC e Bradesco, gerenciei a migração mais complexa da história bancária brasileira. Mas não foi apenas sobre coordenar - foi sobre mergulhar nos detalhes técnicos, entender cada dependência crítica e garantir que nada caísse entre as rachaduras.
+Na Unimed, implementei IA para automatizar decisões e reduzi o cycle time em 30%; no Sicredi, redesenhei regras de autorização com modelos de ML que elevaram o approval rate em 25%; na SEFAZ-RS, estruturei uma governança de dados que permitiu decisões de negócio em horas, não semanas. Em todos os casos, o segredo foi trabalhar com Lean Six Sigma, instrumentar indicadores e criar mecanismos de revisão com executivos e parceiros para garantir tração contínua.
 
-Mais importante: tenho experiência hands-on implementando AI/ML em operações de pagamento. Na Unimed, meus modelos automatizaram processamento que reduziu cycle time em 30%. No Sicredi, implementei machine learning para credit scoring e fraud detection que melhorou significativamente authorization rates. Não sou alguém que apenas gerencia projetos de IA - eu entendo os algoritmos, participo das decisões de arquitetura e sei exatamente quais métricas importam.
+Vejo três frentes imediatas onde posso acelerar a Amazon: definir o roadmap de automação (AI/ML) com squads multidisciplinares, medir obsessivamente eficiência e experiência do cliente e, ao mesmo tempo, preparar as áreas internas para decisões rápidas por meio de business reviews e dashboards claros. É o que faço de forma natural: transformar planos em mecanismos que duram.`,
+          tags: ["transformação", "AI/ML", "lean six sigma", "governança de dados"],
+          hook: "Transformar planos em mecanismos que geram tração contínua",
+          mic_drop: "Já liderei operações críticas com IA, métricas e coordenação ponta a ponta"
+        },
+        {
+          id: "versao_insights",
+          title: "Versão Métricas & Insights",
+          badge: "Métricas",
+          badgeColor: "bg-indigo-500",
+          content: `O job pede alguém que converta dados em decisões práticas e mantenha a operação alinhada. Essa é a minha zona de conforto. No governo do RS, integrei 48 fontes e criei business reviews quinzenais que encurtaram o tempo de reação de semanas para horas. No Sicredi, construí indicadores de performance para pagamentos que direcionavam ajustes em tempo quase real.
 
-A parceria com Oakberry me empolga especialmente porque vejo a oportunidade de aplicar Lean Six Sigma para identificar waste em processos de pagamento e implementar use cases de IA que reduzam operational cost per transaction. Minha experiência com value-based management e OKRs será crucial para medir ROI dessas transformações e garantir que estamos gerando valor real, não apenas implementando tecnologia por implementar.
+Para a Amazon, quero deixar métricas de eficiência, experiência e compliance visíveis para todos os times, conectando squads de AI/ML, operações, financeiro e parceiros externos. A partir daí, conduzir weekly reviews focadas em experimentos, gargalos e próximos passos. O objetivo é transformar a operação de pagamento em um sistema autoexplicativo, onde cada decisão tem dados, dono e prazo.`,
+          tags: ["métricas", "insights", "business review", "automação"],
+          hook: "Decisões rápidas começam com métricas simples e acessíveis",
+          mic_drop: "Transformei dados dispersos em review cadenciado que acelera decisões"
+        },
+        {
+          id: "versao_parcerias",
+          title: "Versão Parcerias & Stakeholders",
+          badge: "Stakeholders",
+          badgeColor: "bg-teal-500",
+          content: `O papel exige articular Amazon, Oakberry e demais parceiros para que tecnologia, produto e operação avancem juntos. Foi assim que conduzi a migração HSBC–Bradesco e o rollout do 4G: alinhando reguladores, fornecedores e times internos em planos com donos, riscos e checkpoints.
 
-O que me atrai nesta posição é a combinação de responsabilidade total de ponta a ponta, impacto mensurável e oportunidade de aplicar minha expertise em um ambiente que valoriza inovação e foco no cliente. É exatamente onde quero estar: resolvendo problemas complexos em escala, com autonomia para tomar decisões e responsabilidade total pelos resultados.`,
-          tags: ["program management", "AI/ML", "operational excellence", "value-based"],
-          hook: "Convergência perfeita: program management + transformação + AI/ML",
-          mic_drop: "Accountability end-to-end com impacto mensurável em ambiente de inovação"
+Na Amazon, quero criar um ritual em que produto, engenharia, risco, financeiro e parceiros externos revisem roadmap, dependências e prontidão com antecedência. Isso reduz surpresas, garante integração tecnológica e aumenta a confiança de todos os lados. Meu foco é garantir que cada stakeholder saiba o que precisa fazer, quando, com qual métrica de sucesso e como escalar rapidamente quando algo trava.`,
+          tags: ["stakeholders", "parcerias", "coordenação", "roadmap compartilhado"],
+          hook: "Orquestrar Amazon e parceiros para que nenhum elo fique para trás",
+          mic_drop: "Já alinhei programas multinacionais críticos com clareza de papéis e dependências"
+        },
+        {
+          id: "versao_eventos",
+          title: "Versão Eventos & Readiness",
+          badge: "Operações",
+          badgeColor: "bg-amber-500",
+          content: `Outra parte central do papel é preparar a Amazon para eventos críticos e revisões operacionais de alto risco. Foi isso que fiz na Copa 2014 com o War Room de telecom e em grandes lançamentos de IA em saúde: criar checklists, simulações e planos de contingência que evitam surpresas.
+
+Quero aplicar o mesmo rigor aqui: estabelecer readiness reviews periódicos, testar falhas hipotéticas com times técnicos e garantir que toda a cadeia (de backoffice a atendimento) esteja pronta para picos e mudanças. Isso envolve documentar runbooks, treinar equipes e garantir que aprendizados de cada evento retroalimentem o processo.`,
+          tags: ["readiness", "operações críticas", "planos de contingência", "runbooks"],
+          hook: "Eventos críticos pedem checklists, simulações e owners claros",
+          mic_drop: "Já garanti zero surpresa em momentos de alto risco com preparação disciplinada"
         }
       ]
     },
-
     // PERGUNTA: "PONTOS FORTES"
     pontos_fortes: {
       question: "Quais são seus principais pontos fortes? / What are your strengths?",
@@ -629,25 +660,56 @@ I want to help Amazon grow without losing what makes it unique: empowered teams,
       versions: [
         {
           id: "versao_principal",
-          title: "Main Version",
+          title: "Core Narrative",
           badge: "Recommended",
           badgeColor: "bg-purple-500",
-          content: `This role is the perfect convergence of everything I've built over the past 15 years: program management at scale, operational transformation, and AI/ML implementation in critical operations. When I read the description, it was almost as if it had been written looking at my resume.
+          content: `This role brings together exactly the kind of transformation work I’ve been doing: redesigning critical operations with data, automation, and the orchestration of tech and business teams. Leading payments operations while the Oakberry partnership scales requires someone comfortable moving from strategy to delivery and then back with clear metrics.
 
-My background is exactly what you need. I've led complex programs that generated over 300 million dollars in value, always focusing on operational excellence. At Huawei, I coordinated 30+ project managers and 20 suppliers to deliver critical infrastructure. At HSBC and Bradesco, I managed the most complex migration in Brazilian banking history. But it wasn't just about coordinating - it was about diving into technical details, understanding every critical dependency, and ensuring nothing fell through the cracks.
+At Unimed I used AI to automate decisions and trimmed cycle time by 30%; at Sicredi I rebuilt authorization rules with ML that lifted approval rates by 25%; at RS Treasury I set up a data governance model that allowed decisions in hours, not weeks. The pattern is the same: Lean Six Sigma rigor, well-instrumented indicators, and structured reviews with executives and partners to keep momentum.
 
-More importantly: I have hands-on experience implementing AI/ML in payment operations. At Unimed, my models automated processing that reduced cycle time by 30%. At Sicredi, I implemented machine learning for credit scoring and fraud detection that significantly improved authorization rates. I'm not someone who just manages AI projects - I understand the algorithms, participate in architecture decisions, and know exactly which metrics matter.
+I see three immediate fronts for Amazon: define the automation roadmap with cross-functional squads, measure efficiency and customer experience obsessively, and set up business reviews that keep every area aligned and ready to act. That’s how I naturally operate: turn plans into mechanisms that endure.`,
+          tags: ["transformation", "AI/ML", "lean six sigma", "data governance"],
+          hook: "Turning plans into mechanisms that sustain momentum",
+          mic_drop: "I’ve already run critical operations with AI, metrics, and end-to-end coordination"
+        },
+        {
+          id: "versao_insights",
+          title: "Metrics & Insights",
+          badge: "Metrics",
+          badgeColor: "bg-indigo-500",
+          content: `The job calls for someone who can convert data into practical decisions and keep the operation aligned. That’s my comfort zone. At the RS Treasury I integrated 48 sources and ran biweekly business reviews that shortened reaction time from weeks to hours. At Sicredi I built payment KPIs that directed near real-time adjustments.
 
-The Oakberry partnership especially excites me because I see the opportunity to apply Lean Six Sigma to identify waste in payment processes and implement AI use cases that reduce operational cost per transaction. My experience with value-based management and OKRs will be crucial to measure ROI of these transformations and ensure we're generating real value, not just implementing technology for technology's sake.
+For Amazon I want to make efficiency, customer and compliance metrics visible to every team, connecting AI/ML squads, operations, finance, and external partners. From there, I intend to run weekly reviews focused on experiments, bottlenecks, and next steps — turning the payments operation into a self-explanatory system where every decision has data, an owner, and a deadline.`,
+          tags: ["metrics", "insights", "business review", "automation"],
+          hook: "Fast decisions start with simple, accessible metrics",
+          mic_drop: "I’ve turned scattered data into a review cadence that speeds decisions"
+        },
+        {
+          id: "versao_parcerias",
+          title: "Partnership Orchestration",
+          badge: "Stakeholders",
+          badgeColor: "bg-teal-500",
+          content: `The role requires coordinating Amazon, Oakberry, and other partners so product, engineering, and operations move in lockstep. That’s how I ran the HSBC–Bradesco migration and the 4G rollout: aligning regulators, vendors, and internal teams around plans with owners, risks, and checkpoints.
 
-What attracts me to this position is the combination of end-to-end accountability, measurable impact, and opportunity to apply my expertise in an environment that values innovation and customer focus. It's exactly where I want to be: solving complex problems at scale, with autonomy to make decisions and total responsibility for results.`,
-          tags: ["program management", "AI/ML", "operational excellence", "value-based"],
-          hook: "Perfect convergence: program management + transformation + AI/ML",
-          mic_drop: "End-to-end accountability with measurable impact in innovation environment"
+For Amazon I plan to set up a ritual where product, engineering, risk, finance, and external partners review roadmap, dependencies, and readiness ahead of time. That eliminates surprises, secures technology integration, and builds confidence on every side. My focus is ensuring every stakeholder knows what to deliver, when, how success is measured, and how to escalate quickly when something blocks progress.`,
+          tags: ["stakeholders", "partnerships", "alignment", "shared roadmap"],
+          hook: "Orchestrating Amazon and partners so no link falls behind",
+          mic_drop: "I’ve aligned multinational programs with crystal-clear roles and dependencies"
+        },
+        {
+          id: "versao_eventos",
+          title: "Launch & Readiness",
+          badge: "Operations",
+          badgeColor: "bg-amber-500",
+          content: `Another core aspect of the job is preparing Amazon for high-stakes events and operational reviews. That’s exactly what I did for the 2014 World Cup telecom war room and in major healthcare AI launches: build checklists, simulations, and contingency plans that leave no room for surprises.
+
+I want to apply the same rigor here: establishing readiness reviews, running tabletop drills with tech teams, and ensuring every function — from back office to support — is ready for spikes and change. That means documented runbooks, trained teams, and a loop where lessons from each event feed back into the process.`,
+          tags: ["readiness", "critical operations", "contingency planning", "runbooks"],
+          hook: "High-stakes events demand checklists, simulations, and clear owners",
+          mic_drop: "I’ve delivered zero-surprise outcomes in high-risk moments with disciplined prep"
         }
       ]
     },
-
     // QUESTION: "STRENGTHS"
     pontos_fortes: {
       question: "What are your main strengths? / What are your strengths?",
