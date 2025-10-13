@@ -1,4 +1,4 @@
-import { useMemo, useState, useEffect, useCallback } from "react";
+import { useMemo, useState, useEffect, useCallback, useRef } from "react";
 import { Search, Copy, Check } from "lucide-react";
 import icebreakerData from "./data/icebreaker.js";
 import myQuestionsData from "./data/myQuestions.js";
@@ -1551,6 +1551,18 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
   const [expandedSection, setExpandedSection] = useState(null);
   const [activeNarrative, setActiveNarrative] = useState(null);
   const [narrativeFilter, setNarrativeFilter] = useState("");
+  const normalizedSearch = narrativeFilter.trim().toLowerCase();
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    if (!activeNarrative) {
+      containerRef?.current?.focus();
+    }
+  }, [activeNarrative]);
+
+  useEffect(() => {
+    containerRef?.current?.focus();
+  }, []);
 
   // Pega todas as seções (exceto title, subtitle e questions)
   const sections = Object.keys(data)
@@ -1560,7 +1572,63 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
       data: data[key]
     }));
 
-  const normalizedSearch = narrativeFilter.trim().toLowerCase();
+  const narrativeSuggestions = useMemo(() => {
+    if (!normalizedSearch) return [];
+
+    const results = [];
+
+    sections.forEach((section) => {
+      const versions = section.data?.versions || [];
+      versions.forEach((version) => {
+        const plainContent = version.content
+          ? version.content.replace(/\*\*[^*]+\*\*/g, '')
+          : '';
+
+        const aggregated = [
+          section.data?.question,
+          section.data?.category,
+          version.title,
+          version.context,
+          plainContent,
+          version.hook,
+          version.mic_drop,
+          Array.isArray(version.tags) ? version.tags.join(' ') : null,
+        ]
+          .filter(Boolean)
+          .join(' ')
+          .toLowerCase();
+
+        if (!aggregated.includes(normalizedSearch)) {
+          return;
+        }
+
+        let snippetSource = plainContent || version.context || version.hook || version.mic_drop || version.title || '';
+        const lowerSource = snippetSource.toLowerCase();
+        let matchIndex = lowerSource.indexOf(normalizedSearch);
+
+        if (matchIndex === -1) {
+          snippetSource = (version.context || version.hook || version.mic_drop || version.title || '').toString();
+          matchIndex = snippetSource.toLowerCase().indexOf(normalizedSearch);
+        }
+
+        const start = matchIndex < 0 ? 0 : Math.max(0, matchIndex - 40);
+        const end = matchIndex < 0 ? Math.min(snippetSource.length, 120) : Math.min(snippetSource.length, matchIndex + normalizedSearch.length + 60);
+        let snippet = snippetSource.slice(start, end).trim();
+        if (start > 0) snippet = `…${snippet}`;
+        if (end < snippetSource.length) snippet = `${snippet}…`;
+
+        results.push({
+          sectionId: section.id,
+          sectionTitle: section.data?.question,
+          sectionCategory: section.data?.category,
+          version,
+          snippet,
+        });
+      });
+    });
+
+    return results.slice(0, 12);
+  }, [normalizedSearch, sections]);
 
   const filteredSections = sections
     .map((section) => {
@@ -1611,16 +1679,29 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
     setLanguage(prev => prev === 'pt' ? 'en' : 'pt');
   };
 
+  const handleClose = useCallback(() => {
+    setActiveNarrative(null);
+    setNarrativeFilter("");
+    setExpandedSection(null);
+    onClose();
+  }, [onClose]);
+
   return (
     <div
+      ref={containerRef}
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm"
-      onClick={onClose}
+      onClick={handleClose}
       role="dialog"
       aria-modal="true"
       aria-labelledby="icebreaker-title"
       onKeyDown={(event) => {
         if (event.key === 'Escape') {
-          onClose();
+          event.stopPropagation();
+          if (activeNarrative) {
+            setActiveNarrative(null);
+          } else {
+            handleClose();
+          }
         }
       }}
       tabIndex={-1}
@@ -1656,9 +1737,37 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
               <span className="absolute inset-y-0 right-3 flex items-center text-white/70 pointer-events-none">
                 🔍
               </span>
+              {normalizedSearch && narrativeSuggestions.length > 0 && (
+                <div className="absolute z-50 mt-2 left-0 right-0 max-h-80 overflow-auto rounded-xl border border-white/40 bg-white/95 shadow-xl text-slate-700">
+                  {narrativeSuggestions.map((item, idx) => (
+                    <button
+                      key={`${item.sectionId}-${item.version.id}-${idx}`}
+                      type="button"
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        setExpandedSection(item.sectionId);
+                        setActiveNarrative({
+                          sectionId: item.sectionId,
+                          sectionTitle: item.sectionTitle,
+                          sectionCategory: item.sectionCategory,
+                          version: item.version,
+                        });
+                      }}
+                      className="w-full text-left px-4 py-3 border-b border-white/60 last:border-b-0 hover:bg-white transition"
+                    >
+                      <p className="text-sm text-slate-800 mb-1 leading-snug">
+                        <HighlightableText text={item.snippet} highlight={narrativeFilter} />
+                      </p>
+                      <p className="text-xs text-slate-500">
+                        {item.sectionTitle} • {item.version.title}
+                      </p>
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
             <button
-              onClick={onClose}
+              onClick={handleClose}
               className="text-white hover:bg-orange-600 rounded-lg px-3 py-2 transition text-xl"
               aria-label="Close icebreaker modal"
             >
@@ -1749,13 +1858,13 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
                                     {version.hook && (
                                       <div className="bg-orange-50 rounded-lg p-3">
                                         <p className="font-bold text-orange-700 text-xs mb-1">{hookLabel}</p>
-                                        <p className="text-gray-700 text-sm">{version.hook}</p>
+                                        <p className="text-gray-700 text-xs">{version.hook}</p>
                                       </div>
                                     )}
                                     {version.mic_drop && (
                                       <div className="bg-blue-50 rounded-lg p-3">
                                         <p className="font-bold text-blue-700 text-xs mb-1">{micDropLabel}</p>
-                                        <p className="text-gray-700 text-sm">{version.mic_drop}</p>
+                                        <p className="text-gray-700 text-xs">{version.mic_drop}</p>
                                       </div>
                                     )}
                                   </div>
@@ -1789,7 +1898,7 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
 
         <div className="bg-gray-50 px-6 py-4 border-t border-gray-200 flex justify-end">
           <button
-            onClick={onClose}
+            onClick={handleClose}
             className="px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition font-semibold"
           >
             {language === "pt" ? "Fechar" : "Close"}
@@ -1810,6 +1919,12 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
 
 
 function NarrativeModal({ narrative, language, onClose }) {
+  const modalRef = useRef(null);
+
+  useEffect(() => {
+    modalRef.current?.focus();
+  }, [narrative]);
+
   if (!narrative || !narrative.version) return null;
 
   const { sectionTitle, sectionCategory, version } = narrative;
@@ -1836,6 +1951,7 @@ function NarrativeModal({ narrative, language, onClose }) {
 
   return (
     <div
+      ref={modalRef}
       className="fixed inset-0 z-[70] flex items-center justify-center bg-black/60 backdrop-blur-sm px-4"
       onClick={(event) => {
         event.stopPropagation();
@@ -1898,13 +2014,13 @@ function NarrativeModal({ narrative, language, onClose }) {
               {version.hook && (
                 <div className="bg-orange-50 rounded-xl p-4 border border-orange-200">
                   <p className="text-xs font-semibold uppercase tracking-wide text-orange-700 mb-1">{hookLabel}</p>
-                  <p className="text-sm text-gray-700">{version.hook}</p>
+                  <p className="text-xs text-gray-700">{version.hook}</p>
                 </div>
               )}
               {version.mic_drop && (
                 <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
                   <p className="text-xs font-semibold uppercase tracking-wide text-blue-700 mb-1">{micDropLabel}</p>
-                  <p className="text-sm text-gray-700">{version.mic_drop}</p>
+                  <p className="text-xs text-gray-700">{version.mic_drop}</p>
                 </div>
               )}
             </div>
