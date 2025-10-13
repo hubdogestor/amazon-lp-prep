@@ -44,9 +44,27 @@ O que me diferencia não é apenas ter experiência técnica ou visão estratég
           mic_drop: "Do código ao boardroom - transformar complexidade em valor para o cliente"
         },
         {
+          id: "versao_tecnica",
+          title: "Versão Técnica",
+          badge: "Técnica",
+          badgeColor: "bg-gray-700",
+          context: "Para destacar experiência técnica em produto, programas e IA",
+          content: `Sou um Product Manager e Program Manager com especialização em transformação digital e implementação de IA. Minha experiência abrange desde infraestrutura de telecomunicações até produtos digitais em fintech e healthcare.
+
+Tecnicamente, tenho expertise em gestão de produtos end-to-end, desde discovery e user research até implementação e growth. Trabalho com metodologias ágeis, design thinking e data-driven decision making. Tenho experiência prática com machine learning para credit scoring, fraud detection e automação de processos.
+
+Nos últimos projetos, liderei a implementação de soluções de IA que automatizaram processos manuais, resultando em economias de $45 milhões anuais. Também desenvolvi frameworks de OKRs e value-based management que foram adotados como padrão organizacional.
+
+Minha abordagem combina visão estratégica com execução prática, sempre focando em métricas quantificáveis e impacto real no negócio. Tenho certificações em PMP, PMO-CP e SAFe SSM, e experiência liderando times multidisciplinares de até 30 pessoas.
+  `,
+          tags: ["product management", "program management", "IA", "machine learning", "metodologias"],
+          hook: "Product & Program Manager — transformação digital e IA",
+          mic_drop: "Visão estratégica + execução prática = impacto mensurável"
+        },
+        {
           id: "versao_payments",
           title: "Versão Payments",
-          badge: "Payments Focus",
+          badge: "Payments",
           badgeColor: "bg-indigo-500",
           context: "Para entrevistadores técnicos ou foco na vaga específica",
           content: `Sou Leonardo Menezes, e minha trajetória profissional me trouxe para um ponto muito específico: transformar operações de pagamento através de inteligência artificial e automação. O interessante é que cheguei aqui por um caminho não convencional, mas que faz todo sentido quando você olha em retrospectiva.
@@ -295,6 +313,24 @@ What differentiates me isn't just having technical experience or strategic visio
           tags: ["executive", "impact", "leadership", "results"],
           hook: "15 years transforming complex operations into measurable results",
           mic_drop: "From code to boardroom - transforming complexity into customer value"
+        },
+        {
+          id: "versao_tecnica",
+          title: "Technical Version",
+          badge: "Technical",
+          badgeColor: "bg-gray-700",
+          context: "To highlight technical product, program and AI expertise",
+          content: `I'm a Product Manager and Program Manager specialized in digital transformation and AI implementation. My experience spans telecommunications infrastructure to digital products in fintech and healthcare.
+
+Technically, I have expertise in end-to-end product management, from discovery and user research to implementation and growth. I work with agile methodologies, design thinking and data-driven decision making. I have hands-on experience with machine learning for credit scoring, fraud detection and process automation.
+
+In recent projects, I led AI implementations that automated manual processes, resulting in $45M in annual savings. I also developed OKR and value-based management frameworks that were adopted as organizational standards.
+
+My approach blends strategic vision with hands-on execution, always focusing on quantifiable metrics and real business impact. I hold certifications in PMP, PMO-CP and SAFe SSM, and have experience leading multidisciplinary teams of up to 30 people.
+  `,
+          tags: ["product management", "program management", "AI", "machine learning", "methodologies"],
+          hook: "Product & Program Manager — digital transformation & AI",
+          mic_drop: "Strategic vision + hands-on execution = measurable impact"
         },
         {
           id: "versao_payments",
