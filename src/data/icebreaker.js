@@ -107,6 +107,60 @@ Quero ajudar a Amazon a continuar crescendo sem perder a característica que a t
       ]
     },
 
+    por_que_mudar: {
+      question: "Por que está considerando mudar de emprego? / Why consider a move?",
+      category: "Motivação de Mudança",
+      versions: [
+        {
+          id: "foco_crescimento",
+          title: "Foco em Crescimento",
+          badge: "Crescimento",
+          badgeColor: "bg-lime-500",
+          content: `Cheguei a um ponto em que o próximo salto de aprendizado exige operar em um ambiente com escala global, mais ritmo e desafios inéditos. Na Amazon posso aplicar o que aprendi em telecom, finanças e setor público para resolver problemas de pagamento que impactam milhões de clientes diariamente.
+
+Quero continuar crescendo em complexidade: liderar squads multifuncionais, construir mecanismos que funcionem em vários países e acelerar minha curva em AI/ML aplicada a pagamentos. No cenário atual, esse tipo de desafio aparece de forma pontual; aqui ele é o dia a dia.`,
+          tags: ["crescimento", "aprendizado", "escala", "carreira"],
+          hook: "Pronto para um próximo ciclo de aprendizado em escala global",
+          mic_drop: "Busco o ambiente onde o desafio certo aparece todo dia, não uma vez por ano"
+        },
+        {
+          id: "foco_proposito",
+          title: "Foco em Propósito",
+          badge: "Propósito",
+          badgeColor: "bg-rose-500",
+          content: `Quero dedicar meus próximos anos a uma jornada que cria valor direto para clientes e parceiros. A Amazon tem uma missão que conversa com o que acredito: tornar a vida das pessoas mais fácil, com acesso amplo a produtos e serviços confiáveis.
+
+A parceria com a Oakberry mostra que existem oportunidades reais de ajudar empreendedores brasileiros a escalar com tecnologia. Isso me motiva a levantar todo dia e usar minhas habilidades em AI/ML, pagamentos e governança para gerar impacto tangível.`,
+          tags: ["propósito", "impacto", "clientes", "empreendedores"],
+          hook: "Quero construir tecnologia que transforme a vida de quem empreende e compra",
+          mic_drop: "Alinhar carreira e propósito me faz entregar mais energia, todos os dias"
+        },
+        {
+          id: "foco_desafio_tecnico",
+          title: "Foco em Desafio Técnico",
+          badge: "Tech",
+          badgeColor: "bg-sky-600",
+          content: `Estou pronto para mergulhar em um desafio técnico maior: integrar AI/ML, automação e novas formas de pagamento em uma plataforma de escala Amazon. Já provei que consigo fazer isso em ambientes regulados e críticos, mas quero levar essa experiência para um contexto onde a experimentação é acelerada e global.
+
+A arquitetura de pagamentos da Amazon, os requisitos de disponibilidade e a velocidade de inovação são o cenário perfeito para expandir minhas competências técnicas e de liderança.`,
+          tags: ["tecnologia", "AI/ML", "arquitetura", "escala"],
+          hook: "Buscar um tabuleiro técnico mais desafiador",
+          mic_drop: "Quero construir soluções que sustentem a próxima década de pagamentos digitais"
+        },
+        {
+          id: "foco_impacto_global",
+          title: "Foco em Impacto Global",
+          badge: "Impacto",
+          badgeColor: "bg-amber-600",
+          content: `Depois de impactar segmentos relevantes no Brasil, quero atuar em uma plataforma que conversa com o mundo. A Amazon me permite aprender com times globais, aplicar boas práticas localmente e exportar soluções criadas aqui para outros mercados.
+
+Esse intercâmbio amplia meu repertório, gera novas ideias e mantém a motivação alta porque vejo o impacto do meu trabalho ultrapassando fronteiras.`,
+          tags: ["impacto global", "colaboração", "aprendizado", "pagamentos"],
+          hook: "Expandir impacto local para uma vitrine global",
+          mic_drop: "Quero que soluções nascidas no Brasil resolvam problemas em outros países também"
+        }
+      ]
+    },
     por_que_amazon: {
       question: "Por que a Amazon? / Why Amazon?",
       category: "Motivação e Fit Cultural",
@@ -421,67 +475,8 @@ Essa musculatura trouxe previsibilidade ao roadmap, preservou energia do time e 
           mic_drop: "Foco preservado = entregas consistentes sem heróis de última hora"
         }
       ]
-    },
-    // PERGUNTAS COMPORTAMENTAIS - MANTIDAS COMO ESTÃO
-    comportamentais: {
-      question: "Amazon Behavioral Questions",
-      category: "STAR Response Examples",
-      versions: [
-        {
-          id: "unfinished_task",
-          title: "Unfinished Task",
-          badge: "STAR",
-          badgeColor: "bg-red-500",
-          context: "Tell me about a time when you had to leave a task unfinished",
-          content: `**Situation**: Em 2016, durante a migração HSBC→Bradesco, eu estava simultaneamente liderando a implementação de controles FATCA e a validação de dados de clientes HNWI. Com apenas 3 semanas para o deadline regulatório, percebi que não conseguiria entregar ambos com a qualidade necessária.
-
-**Task**: Minha responsabilidade era garantir compliance total em ambas as frentes, mas os recursos eram limitados e a complexidade maior que o estimado.
-
-**Action**: Tomei a decisão difícil de priorizar compliance FATCA, que tinha impacto regulatório direto. Escalei para meu diretor, apresentei análise detalhada de riscos e propus postergar validação HNWI em 2 semanas. Realoquei meu melhor analista para FATCA e assumi pessoalmente tarefas de validação técnica.
-
-**Result**: Entregamos compliance FATCA no prazo, evitando multas regulatórias de US$ 2+ milhões. A validação HNWI foi concluída 2 semanas depois, sem impacto em clientes. Aprendi que responsabilidade total às vezes significa tomar decisões difíceis e comunicar riscos de forma transparente.`,
-          tags: ["full accountability", "customer focus", "STAR"],
-          hook: "Priorização estratégica sob pressão regulatória",
-          mic_drop: "Accountability significa tomar decisões difíceis e comunicar riscos transparentemente"
-        },
-        {
-          id: "simple_solution",
-          title: "Simple Solution to Complex Problem",
-          badge: "STAR",
-          badgeColor: "bg-blue-500",
-          context: "Tell me about a time when you gave a simple solution to a complex problem",
-          content: `**Situation**: Na Huawei, enfrentávamos SLAs de 382 dias para rollout de torres 4G, com 20 fornecedores e processos complexos de licenciamento envolvendo prefeituras, ANATEL e proprietários de terrenos.
-
-**Task**: Como Program Manager, precisava acelerar drasticamente as entregas para cumprir compromissos da Copa 2014, mas o processo tinha dezenas de dependências críticas.
-
-**Action**: Ao invés de otimizar cada etapa individualmente, criei uma solução simples: um "War Room" físico onde todos os stakeholders se reuniam diariamente. Implementei um dashboard visual único mostrando status de cada torre em tempo real. A regra era simples: nenhum problema podia ficar mais de 24h sem solução ou escalação.
-
-**Result**: Reduzimos SLA de 382 para 62 dias - melhoria de 84%. O modelo foi replicado globalmente pela Huawei, gerando US$ 120 milhões em eficiência. A simplicidade da solução (um local, um dashboard, uma regra) resolveu a complexidade de coordenação entre múltiplos stakeholders.`,
-          tags: ["simplify and scale", "go deep", "STAR"],
-          hook: "War Room: simplicidade que resolveu complexidade multi-stakeholder",
-          mic_drop: "84% de melhoria através de simplicidade radical"
-        },
-        {
-          id: "invented_something",
-          title: "Innovation / Invention",
-          badge: "STAR",
-          badgeColor: "bg-purple-500",
-          context: "Tell me about a time when you invented something",
-          content: `**Situation**: Na Unimed, processamento manual de sinistros consumia 40% do tempo do time médico, criando gargalos que impactavam 695 mil beneficiários. Cada sinistro passava por 7 etapas de validação manual.
-
-**Task**: Como Strategy Advisor, precisava encontrar solução que reduzisse workload sem comprometer qualidade médica ou compliance regulatório.
-
-**Action**: Inventei um sistema de "AI Triage" combinando OCR para documentos médicos, NLP para análise de laudos e ML para classificação de risco. O sistema automaticamente aprovava casos de baixa complexidade (60% do volume), priorizava casos urgentes e sinalizava anomalias para revisão humana. Implementei em 4 meses com squad de 6 pessoas.
-
-**Result**: Reduzimos cycle time de processamento em 30%, liberando 280 horas/mês do time médico. Geramos US$ 45 milhões em savings anuais. NPS de beneficiários subiu 6 pontos devido a aprovações mais rápidas. O sistema foi expandido para outras operadoras Unimed, impactando 2.1 milhões de vidas.`,
-          tags: ["simplify and scale", "customer focus", "STAR"],
-          hook: "AI Triage: automação inteligente que liberou tempo médico",
-          mic_drop: "US$ 45 milhões em savings + NPS +6 pontos"
-        }
-      ]
-    }
-  },
-
+    },
+  },
   en: {
     title: "Amazon Strategic Icebreaker",
     subtitle: "Differentiated positioning from the first seconds",
@@ -587,6 +582,60 @@ I want to help Amazon grow without losing the traits that make it unique: empowe
       ]
     },
 
+    por_que_mudar: {
+      question: "Why are you considering a move? / Why consider a change?",
+      category: "Motivation for Change",
+      versions: [
+        {
+          id: "foco_crescimento",
+          title: "Growth Narrative",
+          badge: "Growth",
+          badgeColor: "bg-lime-500",
+          content: `I’ve reached a point where the next learning leap requires operating in a higher-scale environment with faster cadence and brand-new challenges. Amazon lets me bring together my telecom, financial services, and public-sector experience to solve payment problems that touch millions of customers daily.
+
+I want to keep stretching the complexity I handle: lead cross-functional squads, build mechanisms that work across countries, and accelerate my AI/ML journey applied to payments. In my current context those challenges show up occasionally; here they’re the norm.`,
+          tags: ["growth", "learning", "scale", "career"],
+          hook: "Ready for the next learning curve at global scale",
+          mic_drop: "I’m seeking a place where the right challenge appears every day, not once a year"
+        },
+        {
+          id: "foco_proposito",
+          title: "Purpose Narrative",
+          badge: "Purpose",
+          badgeColor: "bg-rose-500",
+          content: `I want my next years to be spent building something that undeniably improves life for customers and partners. Amazon’s mission resonates with me: make everyday life easier through reliable services and wide access.
+
+The Oakberry partnership shows there’s real opportunity to help Brazilian entrepreneurs scale with technology. That motivates me to pour my energy into AI/ML, payments, and governance so the impact is visible and tangible.`,
+          tags: ["purpose", "impact", "customers", "entrepreneurs"],
+          hook: "Building technology that empowers those who sell and those who buy",
+          mic_drop: "When career and purpose line up, I deliver more energy every single day"
+        },
+        {
+          id: "foco_desafio_tecnico",
+          title: "Technical Challenge Narrative",
+          badge: "Tech",
+          badgeColor: "bg-sky-600",
+          content: `I’m ready to dive into a bigger technical challenge: integrating AI/ML, automation, and new payment experiences inside an Amazon-scale platform. I’ve done this in regulated, high-stakes environments, and now I want to bring that playbook where experimentation is faster and reach is global.
+
+Amazon’s payments architecture, availability expectations, and innovation pace create the perfect arena to expand both my technical depth and my leadership range.`,
+          tags: ["technology", "AI/ML", "architecture", "scale"],
+          hook: "Looking for a more demanding technical board",
+          mic_drop: "I want to build the payment foundations that will stand for the next decade"
+        },
+        {
+          id: "foco_impacto_global",
+          title: "Global Impact Narrative",
+          badge: "Impact",
+          badgeColor: "bg-amber-600",
+          content: `After driving relevant outcomes in Brazil, I want to work on a platform that talks to the world. Amazon lets me learn from global teams, apply best practices locally, and export solutions created here to other markets.
+
+That cross-pollination expands my toolkit, sparks new ideas, and keeps motivation high because I can see the ripples of my work beyond one geography.`,
+          tags: ["global impact", "collaboration", "learning", "payments"],
+          hook: "Turning local expertise into global wins",
+          mic_drop: "I want solutions designed here to solve problems elsewhere too"
+        }
+      ]
+    },
     por_que_amazon: {
       question: "Why Amazon? / What attracts you to Amazon?",
       category: "Motivation and Cultural Fit",
@@ -900,69 +949,10 @@ That discipline keeps the roadmap predictable, preserves team energy, and sustai
         }
       ]
     },
-    // BEHAVIORAL QUESTIONS - KEPT AS IS
-    comportamentais: {
-      question: "Amazon Behavioral Questions",
-      category: "STAR Response Examples",
-      versions: [
-        {
-          id: "unfinished_task",
-          title: "Unfinished Task",
-          badge: "STAR",
-          badgeColor: "bg-red-500",
-          context: "Tell me about a time when you had to leave a task unfinished",
-          content: `**Situation**: In 2016, during the HSBC→Bradesco migration, I was simultaneously leading FATCA controls implementation and HNWI client data validation. With only 3 weeks to regulatory deadline, I realized I couldn't deliver both with necessary quality.
-
-**Task**: My responsibility was to ensure total compliance in both workstreams, but resources were limited and complexity greater than estimated.
-
-**Action**: I made the difficult decision to prioritize FATCA compliance, which had direct regulatory impact. I escalated to my director, presented detailed risk analysis, and proposed postponing HNWI validation by 2 weeks. I reallocated my best analyst to FATCA and personally took on technical validation tasks.
-
-**Result**: We delivered FATCA compliance on time, avoiding regulatory fines of $2+ million. HNWI validation was completed 2 weeks later, with no impact on clients. I learned that accountability sometimes means making difficult decisions and communicating risks transparently.`,
-          tags: ["full accountability", "customer focus", "STAR"],
-          hook: "Strategic prioritization under regulatory pressure",
-          mic_drop: "Accountability means making difficult decisions and communicating risks transparently"
-        },
-        {
-          id: "simple_solution",
-          title: "Simple Solution to Complex Problem",
-          badge: "STAR",
-          badgeColor: "bg-blue-500",
-          context: "Tell me about a time when you gave a simple solution to a complex problem",
-          content: `**Situation**: At Huawei, we faced 382-day SLAs for 4G tower rollout, with 20 suppliers and complex licensing processes involving municipalities, ANATEL, and landowners.
-
-**Task**: As Program Manager, I needed to drastically accelerate deliveries to meet 2014 World Cup commitments, but the process had dozens of critical dependencies.
-
-**Action**: Instead of optimizing each step individually, I created a simple solution: a physical "War Room" where all stakeholders met daily. I implemented a single visual dashboard showing each tower's status in real-time. The rule was simple: no problem could stay more than 24h without solution or escalation.
-
-**Result**: We reduced SLA from 382 to 62 days - an 84% improvement. The model was replicated globally by Huawei, generating $120 million in efficiency. The simplicity of the solution (one location, one dashboard, one rule) solved the complexity of coordination among multiple stakeholders.`,
-          tags: ["simplify and scale", "go deep", "STAR"],
-          hook: "War Room: simplicity that solved multi-stakeholder complexity",
-          mic_drop: "84% improvement through radical simplicity"
-        },
-        {
-          id: "invented_something",
-          title: "Innovation / Invention",
-          badge: "STAR",
-          badgeColor: "bg-purple-500",
-          context: "Tell me about a time when you invented something",
-          content: `**Situation**: At Unimed, manual claims processing consumed 40% of medical team's time, creating bottlenecks impacting 695k members. Each claim went through 7 manual validation steps.
-
-**Task**: As Strategy Advisor, I needed to find a solution that reduced workload without compromising medical quality or regulatory compliance.
-
-**Action**: I invented an "AI Triage" system combining OCR for medical documents, NLP for report analysis, and ML for risk classification. The system automatically approved low-complexity cases (60% of volume), prioritized urgent cases, and flagged anomalies for human review. I implemented it in 4 months with a 6-person squad.
-
-**Result**: We reduced processing cycle time by 30%, freeing 280 hours/month of medical team time. We generated $45 million in annual savings. Beneficiary NPS rose 6 points due to faster approvals. The system was expanded to other Unimed operators, impacting 2.1 million lives.`,
-          tags: ["simplify and scale", "customer focus", "STAR"],
-          hook: "AI Triage: intelligent automation that freed medical time",
-          mic_drop: "$45 million in savings + NPS +6 points"
-        }
-      ]
-    }
   }
 };
 
 export default icebreakerData;
-
 
 
 
