@@ -140,6 +140,27 @@ export default function App() {
     toggle: toggleUsedIcebreaker,
   } = usePersistentFlagMap(STORAGE_KEYS.usedIcebreakers);
 
+  const toggleCase = useCallback((caseId, principleId, preserveSearchTerm = false) => {
+    if (preserveSearchTerm && searchTerm) {
+      setHighlightCaseTerm(searchTerm);
+    }
+
+    if (!preserveSearchTerm) {
+      setSearchTerm("");
+      setHighlightCaseTerm("");
+    } else {
+      setSearchTerm("");
+    }
+    setQuestionSearch("");
+
+    setExpandedCases((prev) => {
+      const next = {};
+      next[caseId] = !prev[caseId];
+      return next;
+    });
+    setSelectedPrinciple(principleId);
+  }, [searchTerm]);
+
   const handleCaseHeaderToggle = useCallback((caseId, principleId, caseDomId, hasSearchTerm) => {
     toggleCase(caseId, principleId, hasSearchTerm);
     if (hasSearchTerm) {
@@ -272,27 +293,6 @@ export default function App() {
 
     return base;
   }, [principlesData, selectedPrinciple, showTopCases, debouncedSearchTerm, language, getCaseBaseTitle]);
-
-  const toggleCase = useCallback((caseId, principleId, preserveSearchTerm = false) => {
-    if (preserveSearchTerm && searchTerm) {
-      setHighlightCaseTerm(searchTerm);
-    }
-
-    if (!preserveSearchTerm) {
-      setSearchTerm("");
-      setHighlightCaseTerm("");
-    } else {
-      setSearchTerm("");
-    }
-    setQuestionSearch("");
-
-    setExpandedCases((prev) => {
-      const next = {};
-      next[caseId] = !prev[caseId];
-      return next;
-    });
-    setSelectedPrinciple(principleId);
-  }, [searchTerm]);
 
   const generatePrompt = useCallback((caseData, principleData, lang) => {
     const isPortuguese = lang === 'pt';
