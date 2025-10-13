@@ -287,14 +287,57 @@ Percebi isso de forma clara durante uma apresentação para o conselho da Unimed
 
 Desde então, tenho trabalhado conscientemente em estruturar comunicações começando pelo impacto e depois oferecendo detalhes técnicos apenas se solicitado. Uso frameworks como "Situação-Complicação-Resolução" e sempre preparo uma versão executiva de 2 minutos e uma versão detalhada de 15 minutos. Também peço feedback regularmente: "Fui claro? Precisa de mais detalhes ou menos?"
 
-A melhoria tem sido notável. Na SEFAZ-RS, minhas apresentações ao Secretário da Fazenda são muito mais efetivas porque começo com o "so what" - o impacto em receita, em eficiência, em cidadãos atendidos - e só depois entro nos detalhes técnicos se ele demonstrar interesse. É um equilíbrio constante entre minha paixão pelos detalhes técnicos e a necessidade de comunicar de forma que ressoe com cada audiência específica.`,
+A melhoria tem sido notável. Na SEFAZ-RS, minhas apresentações ao Secretário da Fazenda são muito mais efetivas porque começo com o "so what" - o impacto em receita, eficiência, cidadãos atendidos - e só depois entro nos detalhes técnicos se ele demonstrar interesse. É um equilíbrio constante entre minha paixão pelos detalhes técnicos e a necessidade de comunicar de forma que ressoe com cada audiência específica.`,
           tags: ["comunicação", "executiva", "audiência", "autoconhecimento"],
           hook: "Tornando comunicação executiva mais concisa e focada em impacto",
           mic_drop: "Começar pelo 'so what' e oferecer detalhes técnicos apenas se solicitado"
+        },
+        {
+          id: "paciencia_processos_politicos",
+          title: "Paciência com Processos Políticos",
+          badge: "Desenvolvimento",
+          badgeColor: "bg-amber-500",
+          content: `Uma área de desenvolvimento contínuo é a minha paciência com processos políticos organizacionais, especialmente quando percebo que decisões técnicas estão sendo influenciadas por fatores não ligados ao mérito da solução.
+
+Minha orientação natural é eficiência e entrega de resultados, o que às vezes me faz querer acelerar etapas de consenso que são vitais para o buy-in organizacional. Aprendi isso na implementação dos frameworks de OKRs na SEFAZ-RS, quando percebi que não bastava ter a melhor arquitetura – era preciso construir acordos duradouros.
+
+Hoje invisto mais tempo no início dos projetos para mapear as dinâmicas políticas, identificar champions em diferentes áreas e traduzir benefícios técnicos em objetivos estratégicos. Também passei a enxergar o processo de construção de consenso como parte do trabalho, não como obstáculo.
+
+O resultado são implementações mais sustentáveis, com adoção orgânica e menor retrabalho. Transformar política em alavanca virou uma vantagem competitiva pessoal.`,
+          tags: ["política", "consenso", "sustentabilidade", "adoção"],
+          hook: "Transformando política em alavanca de adoção",
+          mic_drop: "Consenso bem construído = implementação sustentável"
+        },
+        {
+          id: "decisoes_com_dados_incompletos",
+          title: "Decisões com Dados Imperfeitos",
+          badge: "Desenvolvimento",
+          badgeColor: "bg-yellow-400",
+          content: `Outra frente em evolução é tomar decisões rápidas mesmo quando os dados ainda não estão perfeitos. Meu reflexo natural é mergulhar até ter 100% de confiança estatística, e isso já atrasou alguns experimentos no Sicredi.
+
+Para equilibrar, passei a definir timeboxes para análises, acordar previamente qual nível de confiança é aceitável e mapear claramente qual aprendizado espero de cada ciclo. Se o dado não estiver completo no limite combinado, seguimos com um experimento controlado e coletamos o que falta depois.
+
+Esse ajuste reduziu o tempo de decisão, manteve o viés por ação e criou uma cadência de aprendizado contínuo sem paralisia por análise. A equipe ganhou velocidade sem abrir mão de responsabilidade.`,
+          tags: ["decisão", "dados", "bias for action", "timeboxing"],
+          hook: "Timebox para análise e decisão sem paralisia",
+          mic_drop: "Decisões em ritmo de sprint, com aprendizado incremental"
+        },
+        {
+          id: "proteção_foco_time",
+          title: "Protegendo o Foco do Time",
+          badge: "Desenvolvimento",
+          badgeColor: "bg-orange-500",
+          content: `Também venho lapidando minha disciplina em dizer "não agora" para demandas que diluem o foco do time. Minha vontade de gerar impacto fazia com que eu aceitasse novos pedidos sem avaliar a capacidade disponível, o que já sobrecarregou squads durante o rollout com a Oakberry.
+
+Hoje, antes de absorver trabalho extra, reviso os OKRs ativos, valido trade-offs com dados de capacidade e construo narrativas transparentes com stakeholders. Quando aceito algo novo, ajusto o backlog na mesma hora e comunico o impacto para evitar heróis de última hora.
+
+Essa musculatura trouxe previsibilidade ao roadmap, preservou energia do time e manteve a qualidade das entregas. Aprendi que foco também é uma escolha de liderança.`,
+          tags: ["priorização", "foco", "capacidade", "trade-offs"],
+          hook: "Escudo de foco para proteger capacidade do squad",
+          mic_drop: "Foco preservado = entregas consistentes sem heróis de última hora"
         }
       ]
     },
-
     // PERGUNTAS COMPORTAMENTAIS - MANTIDAS COMO ESTÃO
     comportamentais: {
       question: "Amazon Behavioral Questions",
@@ -618,36 +661,77 @@ That mindset keeps teams raising the bar together, reduces repeated mistakes, an
           title: "Strategic Delegation",
           badge: "Development",
           badgeColor: "bg-yellow-500",
-          content: `A competency I've been improving is strategic delegation, especially in high-visibility projects. My technical experience and passion for details sometimes lead me to take on tasks that could be better executed by team specialists. It's almost as if I want to personally ensure every piece is in the right place.
+          content: `A competency I've been improving is strategic delegation, especially in high-visibility projects. My technical background and love for detail sometimes make me take on tasks that specialists could execute better. It's almost like I want to personally ensure every piece is exactly where it should be.
 
-I identified this during AI implementation at Unimed, where initially I was too involved in the technical aspects of machine learning. I realized this limited my ability to focus on strategy and stakeholder alignment. I was solving technical problems when I should have been ensuring we were solving the right problems.
+I noticed this during the AI implementation at Unimed, where I stayed too deep in the machine learning details. That limited my bandwidth to focus on strategy and stakeholder alignment. I was solving technical problems when I should have been confirming we were solving the right business problem.
 
-I developed a more structured approach: I clearly define objectives and success criteria, identify the best resources for each task, and establish regular control points. This allows me to maintain visibility without micromanaging. In practice, this means instead of reviewing every line of code, I define clear quality standards, establish pair code reviews, and focus my energy on ensuring the technical solution aligns with the business problem.
+Now I set clear objectives and success criteria, map the best owner for each task, and schedule regular check-ins. That keeps visibility without micromanagement. Instead of reviewing every line of code, I define quality standards, enforce peer reviews, and invest energy in steering alignment and stakeholder communication.
 
-The result was significant improvement in team efficiency and delivery quality. It also allowed me to focus more time on higher-value activities: strategic alignment, stakeholder management, and people development. It's a practical example of how developing talent around you and trusting their expertise generates better results than trying to do everything yourself. I continue working on this consciously in each new project.`,
+The payoff has been stronger execution, faster delivery, and more time for high-leverage work like coaching and stakeholder management. Trusting the team's expertise simply scales better than doing everything myself.`,
           tags: ["delegation", "strategy", "people development", "self-awareness"],
-          hook: "Improving strategic delegation in high-visibility projects",
-          mic_drop: "Trusting team expertise generates better results than doing everything yourself"
+          hook: "Sharpening strategic delegation in high-visibility programs",
+          mic_drop: "Trusting specialists scales better than doing everything yourself"
         },
         {
           id: "versao_comunicacao_executiva",
           title: "Concise Executive Communication",
           badge: "Development",
           badgeColor: "bg-yellow-600",
-          content: `An area I continue developing is making my executive communication more concise, especially when presenting complex technical topics to non-technical audiences. My natural tendency is to want to explain all the context and technical details that led to a conclusion, because for me those details are fascinating and important. But I learned that the audience doesn't always need or want that level of depth.
+          content: `I still work on making executive communication more concise, especially when translating complex technical work for non-technical audiences. My instinct is to share all the context and analysis because I find it fascinating—but the audience often just wants the impact.
 
-I realized this clearly during a presentation to Unimed's board, where I started explaining the technical architecture of machine learning models before getting to business results. I saw in their faces I was losing the audience. The CFO gently interrupted me and asked: "Leonardo, how much will this save?" It was a wake-up call.
+A board presentation at Unimed made that painfully clear. I began with architecture details and saw attention slipping. The CFO kindly interrupted: "Leonardo, how much will this save?" That moment reset my approach.
 
-Since then, I've been consciously working on structuring communications starting with impact and then offering technical details only if requested. I use frameworks like "Situation-Complication-Resolution" and always prepare a 2-minute executive version and a 15-minute detailed version. I also regularly ask for feedback: "Was I clear? Need more details or less?"
+Since then I lead with outcomes, then offer technical depth only if requested. I prep a two-minute executive story and a deeper backup version, use frameworks like Situation-Complication-Resolution, and always ask for feedback on clarity.
 
-The improvement has been notable. At SEFAZ-RS, my presentations to the Treasury Secretary are much more effective because I start with the "so what" - the impact on revenue, efficiency, citizens served - and only then get into technical details if he shows interest. It's a constant balance between my passion for technical details and the need to communicate in a way that resonates with each specific audience.`,
-          tags: ["communication", "executive", "audience", "self-awareness"],
-          hook: "Making executive communication more concise and impact-focused",
-          mic_drop: "Start with the 'so what' and offer technical details only if requested"
+At SEFAZ-RS the difference is evident: starting with "so what" keeps leaders engaged and earns me permission to dive deep only when they want it.`,
+          tags: ["communication", "executive", "audience", "storytelling"],
+          hook: "Leading with impact before diving into technical depth",
+          mic_drop: "Start with the 'so what'—earn the right to go deep"
+        },
+        {
+          id: "paciencia_processos_politicos",
+          title: "Patience with Organizational Politics",
+          badge: "Development",
+          badgeColor: "bg-amber-500",
+          content: `A development area I monitor closely is staying patient when political dynamics influence technical decisions. I'm wired for efficiency and measurable outcomes, which can make me want to speed up consensus cycles that are vital for long-term adoption.
+
+Implementing OKR frameworks at SEFAZ-RS taught me that having the best design is not enough—you need coalitions. Now I invest more time upfront mapping stakeholders, spotting champions, and translating technical benefits into language that resonates with executive priorities.
+
+I reframed consensus-building as a delivery stage, not a hurdle. The result has been more sustainable rollouts, stronger adoption, and fewer surprises downstream.`,
+          tags: ["politics", "consensus", "sustainability", "adoption"],
+          hook: "Turning organizational politics into an adoption lever",
+          mic_drop: "Well-built consensus = sustainable implementation"
+        },
+        {
+          id: "decisoes_com_dados_incompletos",
+          title: "Deciding with Imperfect Data",
+          badge: "Development",
+          badgeColor: "bg-yellow-400",
+          content: `Another area I'm strengthening is making timely decisions even when the dataset isn't yet perfect. My instinct is to keep digging until confidence intervals are pristine, which has delayed a few experiments at Sicredi.
+
+To balance that, I now set timeboxes for analysis, define the acceptable confidence level upfront, and design clear learning plans for each iteration. If the timer expires, we launch a controlled experiment and backfill data later.
+
+This keeps the bias for action alive, shortens decision loops, and maintains a steady learning cadence without analysis paralysis.`,
+          tags: ["decision", "data", "bias for action", "timeboxing"],
+          hook: "Timeboxing analysis to avoid decision paralysis",
+          mic_drop: "Faster decisions with controlled experiments and learning loops"
+        },
+        {
+          id: "proteção_foco_time",
+          title: "Protecting Team Focus",
+          badge: "Development",
+          badgeColor: "bg-orange-500",
+          content: `I also work on saying "not now" when new requests dilute squad focus. My drive to contribute sometimes made me accept additional scope without recalibrating capacity, which overloaded teams during the Oakberry rollout.
+
+Now I check active OKRs, make trade-offs explicit with capacity data, and communicate the impact before accepting extra work. When I do take something on, I adjust the backlog immediately and align stakeholders to avoid late heroics.
+
+That discipline keeps the roadmap predictable, preserves team energy, and sustains quality. Focus is a leadership choice, and I'm treating it as such.`,
+          tags: ["prioritization", "focus", "capacity", "trade-offs"],
+          hook: "Shielding squad focus by making trade-offs explicit",
+          mic_drop: "Protected focus = consistent outcomes without burnout"
         }
       ]
     },
-
     // BEHAVIORAL QUESTIONS - KEPT AS IS
     comportamentais: {
       question: "Amazon Behavioral Questions",
@@ -710,6 +794,7 @@ The improvement has been notable. At SEFAZ-RS, my presentations to the Treasury 
 };
 
 export default icebreakerData;
+
 
 
 
