@@ -1216,6 +1216,8 @@ Respond as if you were me, maintaining consistency with the details from the cas
         <MyQuestionsModal
           language={language}
           onClose={() => setShowMyQuestions(false)}
+          usedQuestions={usedQuestions}
+          onToggleQuestion={toggleUsedQuestion}
         />
       )}
 
@@ -1414,9 +1416,6 @@ Respond as if you were me, maintaining consistency with the details from the cas
                   const toggleCaseTooltip = isCaseUsed
                     ? (language === 'pt' ? 'Remover marca de case usado' : 'Unmark case as used')
                     : (language === 'pt' ? 'Marcar case como usado' : 'Mark case as used');
-                  const toggleCaseLabel = isCaseUsed
-                    ? (language === 'pt' ? 'Usado' : 'Used')
-                    : (language === 'pt' ? 'Marcar' : 'Mark');
                   const usedStarTextClass = isCaseUsed ? 'line-through decoration-slate-400 decoration-2 text-slate-500' : '';
                   const usedFupQuestionClass = isCaseUsed ? 'line-through decoration-slate-400 decoration-2 text-slate-500' : 'text-slate-800';
                   const usedFupAnswerClass = isCaseUsed ? 'line-through decoration-slate-300 decoration-2 text-slate-500' : 'text-slate-600';
@@ -1490,17 +1489,16 @@ Respond as if you were me, maintaining consistency with the details from the cas
                               e.stopPropagation();
                               toggleUsedCase(caseStorageId);
                             }}
-                            className={`flex items-center gap-2 px-3 py-1.5 text-sm rounded-lg border transition-all ${
+                            className={`inline-flex h-9 w-9 items-center justify-center rounded-lg border transition-all ${
                               isCaseUsed
                                 ? 'bg-green-50 border-green-300 text-green-700'
-                                : 'bg-white border-slate-300 text-slate-700 hover:bg-slate-50'
+                                : 'bg-white border-slate-300 text-slate-600 hover:bg-slate-50'
                             }`}
                             title={toggleCaseTooltip}
                             aria-label={toggleCaseTooltip}
                             aria-pressed={isCaseUsed}
                           >
-                            {isCaseUsed ? (<CheckCircle2 className="w-4 h-4" />) : (<Circle className="w-4 h-4" />)}
-                            <span>{toggleCaseLabel}</span>
+                            {isCaseUsed ? (<CheckCircle2 className="w-5 h-5" />) : (<Circle className="w-5 h-5" />)}
                           </button>
                           {open && (
                             <button
@@ -2263,7 +2261,7 @@ function NarrativeModal({ narrative, language, onClose, isUsed = false, onToggle
               className="text-white/80 hover:text-white text-2xl leading-none"
               aria-label={closeLabel}
             >
-              �
+              <span aria-hidden="true">&times;</span>
             </button>
           </div>
         </div>
@@ -2321,7 +2319,7 @@ function NarrativeModal({ narrative, language, onClose, isUsed = false, onToggle
 }
 
 // ---------- Subcomponent: My Questions Modal ----------
-function MyQuestionsModal({ language: initialLanguage, onClose }) {
+function MyQuestionsModal({ language: initialLanguage, onClose, usedQuestions = {}, onToggleQuestion = () => {} }) {
   const [language, setLanguage] = useState(initialLanguage);
   const data = myQuestionsData[language];
   const [expandedCategories, setExpandedCategories] = useState({});
@@ -2396,12 +2394,43 @@ function MyQuestionsModal({ language: initialLanguage, onClose }) {
                   {isExpanded && (
                     <div className="px-5 pb-5 pt-2 bg-white/40">
                       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-                        {category.questions.map((item, qIdx) => (
-                          <div key={qIdx} className="border-l-4 border-purple-400 pl-4 py-2">
-                            <div className="font-semibold text-slate-800 mb-1">{item.q}</div>
-                            <div className="text-sm text-slate-600 italic">💡 {item.note}</div>
-                          </div>
-                        ))}
+                        {category.questions.map((item, qIdx) => {
+                          const questionStorageId = `my-${slugify(category.category)}-${qIdx}`;
+                          const isQuestionUsed = !!usedQuestions[questionStorageId];
+                          const toggleTooltip = isQuestionUsed
+                            ? (language === 'pt' ? 'Remover marca de pergunta usada' : 'Unmark question as used')
+                            : (language === 'pt' ? 'Marcar pergunta como usada' : 'Mark question as used');
+
+                          return (
+                            <div
+                              key={qIdx}
+                              className={`relative border-l-4 border-purple-400 pl-4 pr-2 py-3 rounded-lg bg-white/70 shadow-sm ${
+                                isQuestionUsed ? 'opacity-80' : ''
+                              }`}
+                            >
+                              <button
+                                type="button"
+                                onClick={() => onToggleQuestion(questionStorageId)}
+                                className={`absolute top-2 right-2 inline-flex h-8 w-8 items-center justify-center rounded-full border transition ${
+                                  isQuestionUsed
+                                    ? 'border-green-300 bg-green-50 text-green-600'
+                                    : 'border-slate-200 bg-white text-slate-500 hover:bg-slate-100'
+                                }`}
+                                title={toggleTooltip}
+                                aria-label={toggleTooltip}
+                                aria-pressed={isQuestionUsed}
+                              >
+                                {isQuestionUsed ? <CheckCircle2 className="w-4 h-4" /> : <Circle className="w-4 h-4" />}
+                              </button>
+                              <div className={`font-semibold text-slate-800 pr-10 ${isQuestionUsed ? 'line-through decoration-slate-400' : ''}`}>
+                                {item.q}
+                              </div>
+                              <div className={`mt-1 text-sm italic text-slate-600 pr-8 ${isQuestionUsed ? 'line-through decoration-slate-300 text-slate-500' : ''}`}>
+                                💡 {item.note}
+                              </div>
+                            </div>
+                          );
+                        })}
                       </div>
                     </div>
                   )}
