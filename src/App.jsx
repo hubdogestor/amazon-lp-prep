@@ -1,10 +1,10 @@
 import { useMemo, useState, useEffect, useCallback } from "react";
-import { Search, Copy, Check, Circle, CheckCircle2 } from "lucide-react";
+import { Search, Circle, CheckCircle2 } from "lucide-react";
 import typicalQuestions from "./data/typicalQuestions.js";
-import { questionsToCasesMapping } from "./data/questionsToCasesMapping.js";
 import { usePrinciplesData } from "./hooks/usePrinciplesData.js";
 import { HighlightableText } from "./components/HighlightableText.jsx";
 import { useDebounce } from "./hooks/useDebounce.js";
+import { useCaseHelpers } from "./hooks/useCaseHelpers.js";
 import { useHighlight } from "./hooks/useHighlight.js";
 import {
   slugify,
@@ -12,8 +12,6 @@ import {
 } from "./utils/textUtils.js";
 import {
   isTopCase,
-  getCaseBaseTitle as getCaseBaseTitleUtil,
-  getDisplayCaseTitle as getDisplayCaseTitleUtil,
   getCaseFups,
 } from "./utils/caseUtils.js";
 import {
@@ -235,15 +233,13 @@ export default function App() {
     return sortPrinciples(rawPrinciplesData, language);
   }, [rawPrinciplesData, language]);
 
-    const {
+  const {
     getCaseBaseTitle,
     getDisplayCaseTitle,
     getBestCaseOption,
     getCaseQuestions,
     casesByPrinciple,
   } = useCaseHelpers(principlesData, language);
-
-
 
   // Show loading state when searching
   useEffect(() => {
@@ -1101,7 +1097,9 @@ Respond as if you were me, maintaining consistency with the details from the cas
                     : (language === 'pt' ? 'Marcar case como usado' : 'Mark case as used');
 
                   return (
+                    // TODO: Ajustar a prop "key" dentro de CaseCard.jsx se o aviso persistir.
                     <CaseCard
+                      key={caseKey}
                       caseData={c}
                       principle={principle}
                       caseKey={caseKey}
