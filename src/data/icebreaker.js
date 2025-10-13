@@ -107,6 +107,72 @@ Quero ajudar a Amazon a continuar crescendo sem perder a característica que a t
       ]
     },
 
+    por_que_amazon: {
+      question: "Por que a Amazon? / Why Amazon?",
+      category: "Motivação e Fit Cultural",
+      versions: [
+        {
+          id: "versao_principal",
+          title: "Versão Principal",
+          badge: "Recomendada",
+          badgeColor: "bg-orange-500",
+          content: `O que me atrai na Amazon é ver foco genuíno no cliente caminhando lado a lado com disciplina operacional. Sempre que tive espaço para gerar impacto duradouro, foi em ambientes que valorizam quem mergulha fundo nos detalhes, simplifica o complexo e leva o resultado até o fim — e esse é exatamente o jeito da Amazon.
+
+Quando conectei o Brasil ao 4G na Huawei, tratei de cada dependência regulatória porque sabia que estava conectando pessoas, não apenas instalando antenas. Na Unimed, automatizei decisões com IA para devolver 45 milhões de dólares ao sistema de saúde, acelerando aprovações para os pacientes. No HSBC, garanti a migração de 3 bilhões de dólares sem ruídos porque confiança do cliente não admite falhas. O padrão é o mesmo: começar pelo cliente, ir ao detalhe, simplificar e entregar.
+
+Também admiro o quanto a Amazon incentiva builders. Transformei war rooms em centros de decisão, criei frameworks de valor e democratizei dados porque acredito que resultados sustentáveis nascem de mecanismos replicáveis, não de heroísmo. Quero trazer essa energia para uma companhia que pensa grande, age rápido e mede sucesso pelo impacto real no cliente.
+
+Para mim, a Amazon é o próximo passo natural: elevar a barra todos os dias, em escala global, com a segurança de que cada detalhe conta.`,
+          tags: ["foco no cliente", "disciplina operacional", "responsabilidade total", "simplificar"],
+          hook: "Foco genuíno no cliente com execução disciplinada",
+          mic_drop: "15 anos elevando a barra se encontram com o mecanismo que escala impacto"
+        },
+        {
+          id: "versao_payments",
+          title: "Versão Payments",
+          badge: "Payments",
+          badgeColor: "bg-green-500",
+          content: `A Amazon está prestes a dar o próximo salto em pagamentos com a parceria estratégica com a Oakberry, e esse é exatamente o tipo de desafio que me move. Combinar AI/ML, operações em grande escala e design de jornadas para transformar pagamentos em vantagem competitiva é onde entrego meus melhores resultados.
+
+Nos últimos anos liderei transformações similares: usei Lean Six Sigma para redesenhar fluxos de aprovação, implantei modelos de ML que elevaram authorization rate em 25% e construí pipelines self-service que reduziram o cycle time em 40%. Fiz isso alinhando produto, engenharia, risco, finanças e parceiros externos para que tecnologia, compliance e experiência do cliente avançassem juntos.
+
+Enxergo três frentes imediatas para aplicar esse repertório na Amazon Brasil: automatizar decisões com inteligência preditiva, ampliar capacidades self-service para os merchants da Oakberry e baixar o custo por transação sem perder experiência. Meu estilo é definir o mecanismo, instrumentar métricas e conduzir business reviews com dados na mão — tanto com VPs quanto com parceiros estratégicos.
+
+Quero liderar essa transformação ponta a ponta porque pagamentos são o motor silencioso desse crescimento. Cada melhoria que entregarmos destrava expansão, habilita novos lançamentos e fortalece a confiança do cliente brasileiro na Amazon.`,
+          tags: ["pagamentos", "AI/ML", "lean six sigma", "self-service"],
+          hook: "Parceria Oakberry como trampolim para uma nova geração de pagamentos",
+          mic_drop: "Transformar operações em mecanismos autoajustáveis que acompanham o cliente"
+        },
+        {
+          id: "versao_builder",
+          title: "Versão Builder",
+          badge: "Builder",
+          badgeColor: "bg-purple-500",
+          content: `A Amazon é o ecossistema ideal para quem constrói produtos começando pelo cliente e desenhando cada etapa a partir desse objetivo. Sempre que precisei entregar algo duradouro, segui esse roteiro: definir a experiência desejada, prototipar rápido, medir e iterar. Foi assim no rollout do 4G, na aplicação de IA em saúde e na criação de frameworks de valor para o setor público.
+
+Meu modo de operar é construir soluções simples e escaláveis. Criei um War Room PMO que virou referência global, implantei data lakes que democratizaram informação em horas e documentei playbooks de IA que depois foram adotados em larga escala. Tudo isso porque acredito que o cliente não tem tempo para esperar a versão perfeita — ele precisa sentir a evolução continuamente.
+
+Quero construir com pessoas que pensam grande, entregam rápido e medem obsessivamente. A Amazon oferece o palco certo: desafios complexos, autonomia de verdade, pares que elevam a régua e uma cultura onde boas ideias não morrem por falta de dono.`,
+          tags: ["simplificar", "builder", "planejamento centrado no cliente", "responsabilidade total"],
+          hook: "Construir partindo do cliente é meu modo natural de operar",
+          mic_drop: "Do War Room ao data lake — mecanismos replicáveis, não heroísmo"
+        },
+        {
+          id: "versao_people_lideranca",
+          title: "Versão Liderança & Cultura",
+          badge: "People",
+          badgeColor: "bg-blue-500",
+          content: `A Amazon não busca apenas resultados; quer continuar sendo um dos melhores lugares para se trabalhar enquanto entrega para o cliente. Essa combinação é o que me move: conciliar métricas de negócio com desenvolvimento de gente.
+
+Liderei squads em operações críticas mantendo NPS interno alto, criei comunidades de prática em IA/ML e Lean que multiplicaram conhecimento e estruturei mecanismos de coaching que elevaram a maturidade de PMs e engenheiros. Aprendi que cultura não se declara — ela se constrói em cada decisão de priorização, em cada feedback difícil e no cuidado com quem executa.
+
+Quero ajudar a Amazon a crescer sem perder a essência: times empoderados, diversidade de pensamento, autonomia com responsabilidade e uma régua alta para liderança. Para mim, elevar a régua começa dentro de casa: apoiar quem está ao meu lado para que o cliente perceba a diferença do lado de fora.`,
+          tags: ["liderança de pessoas", "melhor lugar para trabalhar", "aprendizado contínuo", "elevar a régua"],
+          hook: "Crescer sem perder a essência: performance + experiência humana",
+          mic_drop: "Cultura forte dentro de casa se traduz em clientes mais satisfeitos"
+        }
+      ]
+    },
     // PERGUNTA: "POR QUE ESTA VAGA?"
     por_que_esta_vaga: {
       question: "Por que esta vaga específica? / Why this role?",
@@ -490,6 +556,72 @@ I want to help Amazon grow without losing the traits that make it unique: empowe
       ]
     },
 
+    por_que_amazon: {
+      question: "Why Amazon? / What attracts you to Amazon?",
+      category: "Motivation and Cultural Fit",
+      versions: [
+        {
+          id: "versao_principal",
+          title: "Core Narrative",
+          badge: "Recommended",
+          badgeColor: "bg-orange-500",
+          content: `What excites me about Amazon is the genuine customer focus paired with operational discipline. Everywhere I've created lasting impact, the environment rewarded people who dive deep, simplify the complex, and see delivery through to the end — and that is precisely the Amazon mindset.
+
+When I rolled out Brazil's first 4G network, I handled every regulatory dependency because I knew I was connecting people, not just installing hardware. At Unimed, I used AI to return 45 million dollars to the healthcare system because faster approvals meant better outcomes for patients. At HSBC, I migrated 3 billion dollars without noise because customer trust leaves no room for error. Same pattern every time: start with the customer, go deep, simplify, deliver.
+
+I also value how Amazon celebrates builders. I turned war rooms into decision hubs, created value-based frameworks, and democratized data because sustainable results come from replicable mechanisms, not hero moments. I want to bring that energy to a company that thinks big, moves fast, and measures success by real customer impact.
+
+For me, Amazon is the natural next step: raising the bar every day, at global scale, with the certainty that every detail matters.`,
+          tags: ["customer focus", "operational discipline", "full accountability", "simplify"],
+          hook: "Genuine customer focus backed by disciplined execution",
+          mic_drop: "15 years of raising the bar meet the mechanism that scales impact"
+        },
+        {
+          id: "versao_payments",
+          title: "Payments Narrative",
+          badge: "Payments",
+          badgeColor: "bg-green-500",
+          content: `Amazon is about to take the next leap in payments with the Oakberry partnership, and that is exactly the kind of challenge that energizes me. Blending AI/ML, large-scale operations, and journey design to turn payments into a daily advantage is where I deliver my best work.
+
+In recent years I led similar transformations: applying Lean Six Sigma to redesign approval flows, deploying ML models that lifted authorization rates by 25%, and building self-service pipelines that trimmed cycle time by 40%. I did it by aligning product, engineering, risk, finance, and external partners so technology, compliance, and customer experience moved in lockstep.
+
+I see three immediate fronts to apply that playbook for Amazon Brazil: automate decisions with predictive intelligence, expand self-service capabilities for Oakberry merchants, and reduce cost per transaction without sacrificing experience. My style is to define the mechanism, instrument the metrics, and run business reviews with data in hand — with VPs and strategic partners alike.
+
+I want to lead this end-to-end transformation because payments are the quiet driver of this growth engine. Every improvement we release unlocks expansion, enables new launches, and deepens Brazilian customers’ trust in Amazon.`,
+          tags: ["payments", "AI/ML", "lean six sigma", "self-service"],
+          hook: "Oakberry partnership as a launchpad for the next payments leap",
+          mic_drop: "Turning operations into self-adjusting mechanisms that scale with customers"
+        },
+        {
+          id: "versao_builder",
+          title: "Builder Mindset",
+          badge: "Builder",
+          badgeColor: "bg-purple-500",
+          content: `Amazon is home for people who start with the customer and design every step from that point forward. Every enduring outcome I've delivered followed that playbook: define the ideal experience, prototype fast, iterate with data — whether I was lighting up the 4G network, deploying AI in healthcare, or shaping value frameworks for government.
+
+My way of operating is to build simple, scalable solutions. I designed a War Room PMO that became a global reference, deployed data lakes that put insight in the hands of decision-makers within hours, and codified AI playbooks that scaled across business units. Customers can’t wait for the perfect release — they deserve to feel progress continuously.
+
+I want to build alongside people who think big, ship quickly, and measure obsessively. Amazon offers the perfect stage: complex challenges, real autonomy, peers who elevate the bar, and a culture where good ideas don’t die for lack of ownership.`,
+          tags: ["simplify", "builder", "customer-first planning", "full accountability"],
+          hook: "Starting from the customer is my natural way of operating",
+          mic_drop: "From War Room to data lake — mechanisms scale, heroics don’t"
+        },
+        {
+          id: "versao_people_lideranca",
+          title: "Leadership & Culture",
+          badge: "People",
+          badgeColor: "bg-blue-500",
+          content: `Amazon isn’t chasing results alone; it’s committed to being one of the best workplaces on the planet while delivering for customers. That intersection is my sweet spot: coupling business metrics with people development.
+
+I’ve led squads through mission-critical operations while keeping internal NPS high, built AI/ML and Lean communities of practice that multiplied knowledge, and designed coaching mechanisms that raised PM and engineering maturity. Culture isn’t a slide deck — it’s every prioritization call, every tough feedback conversation, every investment in people.
+
+I want to help Amazon grow without losing what makes it unique: empowered teams, diverse thinking, autonomy with accountability, and a high bar for leadership. For me, raising the bar starts at home: supporting the people beside me so customers feel the difference outside.`,
+          tags: ["people leadership", "top workplace ambition", "continuous learning", "elevate the bar"],
+          hook: "Grow without losing the soul: performance + top workplace experience",
+          mic_drop: "Strong culture inside the house is felt by customers on the outside"
+        }
+      ]
+    },
     // QUESTION: "WHY THIS ROLE?"
     por_que_esta_vaga: {
       question: "Why this specific role? / Why this position?",
