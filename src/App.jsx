@@ -1549,7 +1549,7 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
   const [language, setLanguage] = useState(initialLanguage);
   const data = icebreakerData[language];
   const [expandedSection, setExpandedSection] = useState(null);
-  const [selectedVersion, setSelectedVersion] = useState({});
+  const [activeNarrative, setActiveNarrative] = useState(null);
 
   // Pega todas as seções (exceto title, subtitle e questions)
   const sections = Object.keys(data)
@@ -1561,13 +1561,6 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
 
   const toggleLanguage = () => {
     setLanguage(prev => prev === 'pt' ? 'en' : 'pt');
-  };
-
-  const toggleVersion = (sectionId, versionId) => {
-    setSelectedVersion(prev => ({
-      ...prev,
-      [sectionId]: prev[sectionId] === versionId ? null : versionId
-    }));
   };
 
   return (
@@ -1641,23 +1634,32 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
                   {isExpanded && (
                     <div className="p-5 bg-white border-t border-gray-200">
                       <div className="grid md:grid-cols-2 gap-4">
+                                                
                         {sectionData.versions?.map((version) => {
-                          const isVersionExpanded = selectedVersion[section.id] === version.id;
-                          
+                          const previewLines = version.content
+                            ? version.content.replace(/\*\*[^*]+\*\*/g, '').split('\n').map((line) => line.trim()).filter(Boolean)
+                            : [];
+                          const preview = previewLines[0] || '';
+                          const previewText = preview.length > 160 ? preview.slice(0, 160) + '...' : preview;
+                          const hookLabel = language === 'pt' ? 'Gancho' : 'Hook';
+                          const micDropLabel = language === 'pt' ? 'Fecho' : 'Mic Drop';
+                          const previewLabel = language === 'pt' ? 'Resumo rapido' : 'Quick glance';
+
                           return (
-                            <div
+                            <button
                               key={version.id}
-                              className={`border-2 rounded-lg transition-all ${
-                                isVersionExpanded 
-                                  ? 'border-orange-400 shadow-lg' 
-                                  : 'border-gray-200 hover:border-gray-300'
-                              }`}
+                              type="button"
+                              onClick={() => setActiveNarrative({
+                                sectionId: section.id,
+                                sectionTitle: sectionData.question,
+                                sectionCategory: sectionData.category,
+                                version,
+                              })}
+                              className="w-full text-left border-2 border-gray-200 rounded-lg bg-white hover:border-orange-300 focus:outline-none focus:ring-2 focus:ring-orange-400 transition-all"
+                              title={language === 'pt' ? 'Abrir narrativa completa' : 'Open full narrative'}
                             >
-                              <div
-                                className="p-4 cursor-pointer bg-gradient-to-r from-gray-50 to-white"
-                                onClick={() => toggleVersion(section.id, version.id)}
-                              >
-                                <div className="flex items-start justify-between mb-2">
+                              <div className="p-4 flex flex-col gap-3">
+                                <div className="flex items-start justify-between gap-3">
                                   <div className="flex-1">
                                     <div className="flex items-center gap-3 mb-2">
                                       {version.badge && (
@@ -1665,9 +1667,7 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
                                           {version.badge}
                                         </span>
                                       )}
-                                      <h4 className="text-lg font-bold text-gray-800">
-                                        {version.title}
-                                      </h4>
+                                      <h4 className="text-lg font-bold text-gray-900">{version.title}</h4>
                                     </div>
                                     {version.context && (
                                       <p className="text-sm text-gray-600 italic">
@@ -1675,59 +1675,50 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
                                       </p>
                                     )}
                                   </div>
-                                  <span className={`ml-3 transition-transform ${isVersionExpanded ? 'rotate-180' : ''}`}>
-                                    ▼
-                                  </span>
+                                  <span className="text-xl text-orange-500" aria-hidden="true">↗</span>
                                 </div>
 
-                                {isVersionExpanded && (
-                                  <div className="mt-4 pt-4 border-t border-gray-200">
-                                    <div className="bg-white rounded-lg p-4 mb-4 shadow-sm">
-                                      <div className="text-gray-700 leading-relaxed whitespace-pre-line">
-                                        {version.content.split(/(\*\*[^*]+\*\*)/).map((part, i) => {
-                                          if (part.startsWith('**') && part.endsWith('**')) {
-                                            return <strong key={i} className="text-gray-900">{part.slice(2, -2)}</strong>;
-                                          }
-                                          return part;
-                                        })}
-                                      </div>
-                                    </div>
-                                    
-                                    {(version.hook || version.mic_drop) && (
-                                      <div className="grid md:grid-cols-2 gap-3 mb-3">
-                                        {version.hook && (
-                                          <div className="bg-orange-50 rounded-lg p-3">
-                                            <p className="font-bold text-orange-700 text-xs mb-1">🎣 Hook</p>
-                                            <p className="text-gray-700 text-sm">{version.hook}</p>
-                                          </div>
-                                        )}
-                                        {version.mic_drop && (
-                                          <div className="bg-blue-50 rounded-lg p-3">
-                                            <p className="font-bold text-blue-700 text-xs mb-1">🎤 Mic Drop</p>
-                                            <p className="text-gray-700 text-sm">{version.mic_drop}</p>
-                                          </div>
-                                        )}
+                                {previewText && (
+                                  <div className="bg-gray-50 rounded-lg p-3">
+                                    <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">{previewLabel}</p>
+                                    <p className="text-sm text-gray-700">{previewText}</p>
+                                  </div>
+                                )}
+
+                                {(version.hook || version.mic_drop) && (
+                                  <div className="grid md:grid-cols-2 gap-3">
+                                    {version.hook && (
+                                      <div className="bg-orange-50 rounded-lg p-3">
+                                        <p className="font-bold text-orange-700 text-xs mb-1">{hookLabel}</p>
+                                        <p className="text-gray-700 text-sm">{version.hook}</p>
                                       </div>
                                     )}
-
-                                    {version.tags && version.tags.length > 0 && (
-                                      <div className="flex flex-wrap gap-2">
-                                        {version.tags.map(tag => (
-                                          <span
-                                            key={tag}
-                                            className="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs"
-                                          >
-                                            #{tag}
-                                          </span>
-                                        ))}
+                                    {version.mic_drop && (
+                                      <div className="bg-blue-50 rounded-lg p-3">
+                                        <p className="font-bold text-blue-700 text-xs mb-1">{micDropLabel}</p>
+                                        <p className="text-gray-700 text-sm">{version.mic_drop}</p>
                                       </div>
                                     )}
                                   </div>
                                 )}
+
+                                {version.tags && version.tags.length > 0 && (
+                                  <div className="flex flex-wrap gap-2">
+                                    {version.tags.map((tag) => (
+                                      <span
+                                        key={tag}
+                                        className="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs"
+                                      >
+                                        #{tag}
+                                      </span>
+                                    ))}
+                                  </div>
+                                )}
                               </div>
-                            </div>
+                            </button>
                           );
                         })}
+
                       </div>
                     </div>
                   )}
@@ -1744,6 +1735,130 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
           >
             {language === "pt" ? "Fechar" : "Close"}
           </button>
+        </div>
+        {activeNarrative && (
+          <NarrativeModal
+            language={language}
+            narrative={activeNarrative}
+            onClose={() => setActiveNarrative(null)}
+          />
+        )}
+      </div>
+    </div>
+  );
+}
+
+
+
+function NarrativeModal({ narrative, language, onClose }) {
+  if (!narrative || !narrative.version) return null;
+
+  const { sectionTitle, sectionCategory, version } = narrative;
+
+  const renderRichContent = (value) => {
+    if (!value) return null;
+    return value.split(/(\*\*[^*]+\*\*)/g).map((part, index) => {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        return (
+          <strong key={index} className="text-gray-900">
+            {part.slice(2, -2)}
+          </strong>
+        );
+      }
+      return part;
+    });
+  };
+
+  const contextLabel = language === 'pt' ? 'Contexto sugerido' : 'Suggested context';
+  const hookLabel = language === 'pt' ? 'Gancho' : 'Hook';
+  const micDropLabel = language === 'pt' ? 'Fecho' : 'Mic Drop';
+  const tagsLabel = language === 'pt' ? 'Temas' : 'Tags';
+  const closeLabel = language === 'pt' ? 'Fechar' : 'Close';
+
+  return (
+    <div
+      className="fixed inset-0 z-[70] flex items-center justify-center bg-black/60 backdrop-blur-sm px-4"
+      onClick={(event) => {
+        event.stopPropagation();
+        onClose();
+      }}
+      role="dialog"
+      aria-modal="true"
+      aria-label={sectionTitle}
+    >
+      <div
+        className="bg-white max-w-3xl w-full max-h-[90vh] overflow-y-auto rounded-2xl shadow-2xl"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <div className="bg-gradient-to-r from-orange-500 to-pink-500 px-6 py-5 text-white flex items-start justify-between gap-4">
+          <div>
+            <p className="text-xs uppercase tracking-wide text-orange-100">{sectionCategory}</p>
+            <h3 className="text-2xl font-bold mt-1">{sectionTitle}</h3>
+            <div className="flex items-center gap-3 mt-3">
+              {version.badge && (
+                <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${version.badgeColor}`}>
+                  {version.badge}
+                </span>
+              )}
+              <p className="text-sm text-orange-100">{version.title}</p>
+            </div>
+          </div>
+          <button
+            type="button"
+            onClick={onClose}
+            className="text-white/80 hover:text-white text-2xl leading-none"
+            aria-label={closeLabel}
+          >
+            ×
+          </button>
+        </div>
+
+        <div className="px-6 py-6 space-y-5">
+          {version.context && (
+            <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
+              <p className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-1">{contextLabel}</p>
+              <p className="text-sm text-gray-700">{version.context}</p>
+            </div>
+          )}
+
+          <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
+            <div className="text-gray-700 leading-relaxed whitespace-pre-line space-y-2">
+              {renderRichContent(version.content)}
+            </div>
+          </div>
+
+          {(version.hook || version.mic_drop) && (
+            <div className="grid md:grid-cols-2 gap-4">
+              {version.hook && (
+                <div className="bg-orange-50 rounded-xl p-4 border border-orange-200">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-orange-700 mb-1">{hookLabel}</p>
+                  <p className="text-sm text-gray-700">{version.hook}</p>
+                </div>
+              )}
+              {version.mic_drop && (
+                <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-blue-700 mb-1">{micDropLabel}</p>
+                  <p className="text-sm text-gray-700">{version.mic_drop}</p>
+                </div>
+              )}
+            </div>
+          )}
+
+          {version.tags && version.tags.length > 0 && (
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-2">{tagsLabel}</p>
+              <div className="flex flex-wrap gap-2">
+                {version.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs"
+                  >
+                    #{tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
