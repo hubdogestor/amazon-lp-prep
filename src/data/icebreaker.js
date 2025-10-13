@@ -48,23 +48,22 @@ O que me diferencia não é apenas ter experiência técnica ou visão estratég
           title: "Versão Técnica",
           badge: "Técnica",
           badgeColor: "bg-gray-700",
-          context: "Para destacar experiência técnica em produto, programas e IA",
-          content: `Sou um Product Manager e Program Manager com especialização em transformação digital e implementação de IA. Minha experiência abrange desde infraestrutura de telecomunicações até produtos digitais em fintech e healthcare.
+          context: "Para destacar produto, programa e IA",
+          content: `Sou um Product Manager e Program Manager com especialização em transformação digital e IA. Minha experiência vai de infraestrutura de telecom a produtos digitais em fintechs e saúde.
 
-Tecnicamente, tenho expertise em gestão de produtos end-to-end, desde discovery e user research até implementação e growth. Trabalho com metodologias ágeis, design thinking e data-driven decision making. Tenho experiência prática com machine learning para credit scoring, fraud detection e automação de processos.
+Tenho domínio de ponta a ponta em gestão de produto: discovery, priorização, entrega e growth. Trabalho com métodos ágeis, design thinking e decisões guiadas por dados. Possuo experiência prática com machine learning para crédito, fraude e automação de processos.
 
-Nos últimos projetos, liderei a implementação de soluções de IA que automatizaram processos manuais, resultando em economias de $45 milhões anuais. Também desenvolvi frameworks de OKRs e value-based management que foram adotados como padrão organizacional.
+Nos últimos projetos liderei implementações de IA que automatizaram processos manuais e geraram 45 milhões de dólares em savings anuais. Também criei frameworks de OKRs e value-based management adotados como padrão organizacional.
 
-Minha abordagem combina visão estratégica com execução prática, sempre focando em métricas quantificáveis e impacto real no negócio. Tenho certificações em PMP, PMO-CP e SAFe SSM, e experiência liderando times multidisciplinares de até 30 pessoas.
-  `,
+Equilibro visão estratégica e execução hands-on, sempre com métricas claras e impacto de negócio comprovado. Sou certificado PMP, PMO-CP e SAFe SSM, e já liderei equipes multidisciplinares de até 30 pessoas.`,
           tags: ["product management", "program management", "IA", "machine learning", "metodologias"],
-          hook: "Product & Program Manager — transformação digital e IA",
-          mic_drop: "Visão estratégica + execução prática = impacto mensurável"
+          hook: "Product & Program Manager - transformação digital e IA",
+          mic_drop: "Visão estratégica + execução hands-on = impacto mensurável"
         },
         {
           id: "versao_payments",
           title: "Versão Payments",
-          badge: "Payments",
+          badge: "Payments Focus",
           badgeColor: "bg-indigo-500",
           context: "Para entrevistadores técnicos ou foco na vaga específica",
           content: `Sou Leonardo Menezes, e minha trajetória profissional me trouxe para um ponto muito específico: transformar operações de pagamento através de inteligência artificial e automação. O interessante é que cheguei aqui por um caminho não convencional, mas que faz todo sentido quando você olha em retrospectiva.
@@ -157,22 +156,105 @@ O que me atrai nesta posição é a combinação de ownership end-to-end, impact
           title: "Versão Principal",
           badge: "Recomendada",
           badgeColor: "bg-green-500",
-          content: `Meu principal diferencial é a capacidade de mergulhar profundamente em problemas complexos e consistentemente entregar resultados mensuráveis. Não sou alguém que fica na superfície - quando assumo um desafio, vou até a raiz.
+          content: `Meu principal diferencial é a capacidade de mergulhar profundamente em problemas complexos e converter diagnóstico em execução mensurável.
 
-Na Huawei, quando os SLAs estavam em 382 dias, não aceitei explicações genéricas. Conduzi pessoalmente análise de causa raiz usando Ishikawa e 5 Whys, identifiquei que 60% dos atrasos vinham de gargalos regulatórios, negociei pessoalmente com prefeituras e ANATEL, redesenhei workflows e reduzi para 62 dias. Não deleguei o problema - mergulhei nele.
+Na Huawei, quando os SLAs estavam em 382 dias, conduzi pessoalmente análises de causa raiz (Ishikawa e 5 Whys), negociei com prefeituras e com a ANATEL e redesenhei o fluxo completo. O resultado foi a redução para 62 dias — sem atalhos, apenas mergulho profundo, dados na mão e obsessão por execução.
 
-Outro ponto forte é minha capacidade de entregar resultados consistentes. Tenho um track record de mais de 300 milhões de dólares em valor gerado. Na Unimed, implementei IA que automatizou 30% do processamento de sinistros, gerando 45 milhões de dólares em economia anual. No HSBC, migrei 3 bilhões de dólares sem uma única falha. Não são promessas - são entregas documentadas e auditadas.
+Na Unimed automatizei 30% do processamento de sinistros com IA, gerando 45 milhões de dólares em economia anual. No HSBC liderei a migração de 3 bilhões de dólares sem qualquer falha. Esses números são auditados e documentados.
 
-Também me destaco em conectar decisões técnicas com impacto no cliente. No Sicredi, meus modelos de machine learning não apenas melhoraram credit scoring tecnicamente - eles reduziram tempo de aprovação de crédito, melhorando a experiência de 6.4 milhões de cooperados. Sempre pergunto: "Como isso melhora a vida do cliente final?" Se não consigo responder, repensamos a solução.
+Também conecto decisões técnicas ao impacto no cliente. No Sicredi, modelos de machine learning que construí reduziram o tempo de aprovação de crédito e elevaram a experiência de 6,4 milhões de cooperados.
 
-O que me diferencia é conseguir combinar profundidade técnica com visão de negócio. Sou igualmente confortável revisando código Python de modelos de ML ou apresentando business case para o CFO. Essa versatilidade me permite ser uma ponte efetiva entre times técnicos e liderança executiva, garantindo que estamos construindo as coisas certas, da forma certa, pelos motivos certos.`,
+O traço comum é equilibrar profundidade técnica e visão de negócio. Sou igualmente confortável revisando código Python ou defendendo business cases para CFOs, garantindo que construímos o certo, da maneira certa, pelo motivo certo.`,
           tags: ["dive deep", "deliver results", "customer obsession", "technical"],
-          hook: "Mergulhar profundamente e entregar resultados mensuráveis consistentemente",
-          mic_drop: "Profundidade técnica + visão de negócio = ponte entre código e boardroom"
+          hook: "Mergulho profundo com entregas auditáveis",
+          mic_drop: "Profundidade técnica + visão de negócio que fecha o ciclo"
+        },
+        {
+          id: "foco_estrategia",
+          title: "Foco em Visão Estratégica",
+          badge: "Estratégia",
+          badgeColor: "bg-blue-700",
+          content: `Tenho facilidade em traduzir visão estratégica em roadmaps acionáveis e mensuráveis.
+
+Na Unimed antecipei a pressão competitiva e desenhei um portfólio digital que criou quatro novas linhas de receita — hoje respondem por 5% do faturamento. No HSBC/Bradesco converti uma tese de integração em um programa coordenado em cinco países, migrando 3 bilhões de dólares sem incidentes.
+
+Também combino frameworks de longo prazo com cadência operacional. Construo narrativas executivas, conecto investimentos a métricas e monitoro ROI continuamente para garantir que estratégia não vire um slide, mas entregas concretas.`,
+          tags: ["estratégia", "execução", "transformação", "ROI"],
+          hook: "Visão que vira roadmap, roadmap que vira resultado",
+          mic_drop: "Estratégia traduzida em bilhões migrados e novas receitas"
+        },
+        {
+          id: "foco_lideranca",
+          title: "Foco em Liderança",
+          badge: "Liderança",
+          badgeColor: "bg-purple-700",
+          content: `Lidero pessoas em ambientes de altíssima complexidade mantendo clareza, ritmo e engajamento.
+
+Implementei o War Room PMO na Huawei, alinhando mais de 30 PMs e 20 fornecedores. Reduzimos SLAs de 382 para 62 dias porque criei transparência radical, cadência diária e mecanismos de decisão em 24 horas.
+
+Minha comunicação conecta níveis técnicos e executivos. Traduzo complexidade para linguagem acessível, removo ruídos e garanto que cada pessoa saiba qual é o próximo passo. Essa combinação mantém os times motivados mesmo em programas longos e desafiadores.`,
+          tags: ["liderança", "comunicação", "motivação", "complexidade"],
+          hook: "Liderança com cadência, clareza e energia",
+          mic_drop: "War Room PMO replicado globalmente com times energizados"
+        },
+        {
+          id: "foco_inovacao",
+          title: "Foco em Inovação",
+          badge: "Inovação",
+          badgeColor: "bg-yellow-600",
+          content: `Transformo tecnologias emergentes em soluções com ROI comprovado.
+
+Fui pioneiro no rollout do 4G no Brasil e, anos depois, liderei automações com IA que reduziram em 30% o ciclo de sinistros na Unimed. No Sicredi desenhei algoritmos que aumentaram a aprovação de crédito mantendo risco sob controle.
+
+Não implemento inovação pela novidade. Construo business cases, defino métricas de sucesso, piloto com squads multifuncionais e converto aprendizado em playbook organizacional.`,
+          tags: ["inovação", "tecnologia", "data-driven", "cultura"],
+          hook: "Inovação com playbook e métricas, não apenas hype",
+          mic_drop: "IA, 4G e OKRs transformados em valor recorrente"
+        },
+        {
+          id: "foco_dados",
+          title: "Foco em Dados e Métricas",
+          badge: "Dados & Métricas",
+          badgeColor: "bg-cyan-700",
+          content: `Sou obcecado por decisões ancoradas em dados confiáveis e acessíveis.
+
+No Governo do RS redesenhei o data lake fiscal integrando 48 fontes e criei dashboards executivos que reduziram o ciclo decisório de semanas para horas. No Sicredi democratizei métricas de risco e produto para os times de negócio, permitindo que squads testassem hipóteses com autonomia.
+
+Invisto em governança, qualidade de dados e storytelling visual. Essa disciplina garante que cada discussão estratégica comece com fatos, não suposições.`,
+          tags: ["data", "analytics", "governança", "métricas"],
+          hook: "Decisão boa começa com dados confiáveis",
+          mic_drop: "48 fontes integradas → decisões em horas, não semanas"
+        },
+        {
+          id: "foco_cliente",
+          title: "Foco em Obsessão pelo Cliente",
+          badge: "Cliente",
+          badgeColor: "bg-orange-600",
+          content: `Uso a voz do cliente como bússola para priorizar e desenhar soluções.
+
+Ao redesenhar o onboarding do Sicredi, entrevistei cooperados, analisei NPS e métricas de churn. O resultado foi uma jornada digital que elevou a conversão em 23% e reduziu chamadas no contact center.
+
+Também levo feedback do campo para a mesa executiva. Isso garante que decisões financeiras, tecnológicas e operacionais mantenham o cliente no centro e gerem valor perceptível para quem usa o serviço.`,
+          tags: ["customer obsession", "experiência", "NPS", "priorização"],
+          hook: "Clientes reais guiando decisões estratégicas",
+          mic_drop: "Onboarding redesenhado: +23% de conversão e menos chamadas"
+        },
+        {
+          id: "foco_aprendizado",
+          title: "Foco em Aprendizado Contínuo",
+          badge: "Learn & Be Curious",
+          badgeColor: "bg-emerald-600",
+          content: `Aprendo rápido, ensino rápido e crio sistemas que multiplicam conhecimento.
+
+Lidero comunidades internas de prática em IA/ML e Lean, documentando playbooks e promovendo tech talks para acelerar adoção em larga escala. Em cada transformação capturo lições aprendidas e transformo em frameworks reutilizáveis.
+
+Essa postura garante que os times elevem a barra juntos, reduz erros repetidos e mantém a organização sempre um passo à frente.`,
+          tags: ["learn and be curious", "coaching", "comunidade", "melhoria contínua"],
+          hook: "Aprendizagem que vira vantagem competitiva",
+          mic_drop: "Playbooks e comunidades que aceleram cada nova iniciativa"
         }
       ]
     },
-
     // PERGUNTA: "ÁREAS DE DESENVOLVIMENTO"
     areas_desenvolvimento: {
       question: "Quais são suas áreas de desenvolvimento? / What are your weaknesses?",
@@ -319,18 +401,17 @@ What differentiates me isn't just having technical experience or strategic visio
           title: "Technical Version",
           badge: "Technical",
           badgeColor: "bg-gray-700",
-          context: "To highlight technical product, program and AI expertise",
-          content: `I'm a Product Manager and Program Manager specialized in digital transformation and AI implementation. My experience spans telecommunications infrastructure to digital products in fintech and healthcare.
+          context: "To showcase product, program, and AI depth",
+          content: `I'm a Product and Program Manager specialized in digital transformation and AI. My background spans telecommunications infrastructure and digital products across fintech and healthcare.
 
-Technically, I have expertise in end-to-end product management, from discovery and user research to implementation and growth. I work with agile methodologies, design thinking and data-driven decision making. I have hands-on experience with machine learning for credit scoring, fraud detection and process automation.
+I manage products end-to-end: discovery, prioritization, delivery, and growth. I work with agile methods, design thinking, and data-driven decisions, and I have hands-on experience with machine learning for credit, fraud, and process automation.
 
-In recent projects, I led AI implementations that automated manual processes, resulting in $45M in annual savings. I also developed OKR and value-based management frameworks that were adopted as organizational standards.
+In recent engagements I led AI initiatives that automated manual work and generated 45 million dollars in annual savings. I also built OKR and value-based management frameworks later adopted as organizational standards.
 
-My approach blends strategic vision with hands-on execution, always focusing on quantifiable metrics and real business impact. I hold certifications in PMP, PMO-CP and SAFe SSM, and have experience leading multidisciplinary teams of up to 30 people.
-  `,
-          tags: ["product management", "program management", "AI", "machine learning", "methodologies"],
-          hook: "Product & Program Manager — digital transformation & AI",
-          mic_drop: "Strategic vision + hands-on execution = measurable impact"
+I balance strategic vision with hands-on execution, always anchored in clear metrics and measurable business impact. I'm PMP, PMO-CP, and SAFe SSM certified, and have led cross-functional teams of up to 30 people.`,
+          tags: ["product management", "program management", "AI", "machine learning", "methods"],
+          hook: "Product & Program leader with practical AI delivery",
+          mic_drop: "Strategic vision + hands-on execution = measurable outcome"
         },
         {
           id: "versao_payments",
@@ -425,25 +506,108 @@ What attracts me to this position is the combination of end-to-end ownership, me
       versions: [
         {
           id: "versao_principal",
-          title: "Main Version",
+          title: "Core Narrative",
           badge: "Recommended",
           badgeColor: "bg-green-500",
-          content: `My main differentiator is the ability to dive deeply into complex problems and consistently deliver measurable results. I'm not someone who stays on the surface - when I take on a challenge, I go to the root.
+          content: `My strongest differentiator is diving deep into complex problems and converting diagnosis into measurable execution.
 
-At Huawei, when SLAs were at 382 days, I didn't accept generic explanations. I personally conducted root cause analysis using Ishikawa and 5 Whys, identified that 60% of delays came from regulatory bottlenecks, personally negotiated with municipalities and ANATEL, redesigned workflows, and reduced to 62 days. I didn't delegate the problem - I dove into it.
+At Huawei, when tower rollouts were stalled at 382 days, I personally ran Ishikawa and 5 Whys analysis, renegotiated with municipalities and ANATEL, and redesigned the end-to-end workflow. We brought the SLA down to 62 days — pure dive deep, data on hand, and execution obsession.
 
-Another strength is my ability to consistently deliver results. I have a track record of over 300 million dollars in value generated. At Unimed, I implemented AI that automated 30% of claims processing, generating 45 million dollars in annual savings. At HSBC, I migrated 3 billion dollars without a single failure. These aren't promises - they're documented and audited deliveries.
+At Unimed I automated 30% of claims processing with AI, generating 45 million dollars in annual savings. At HSBC I led a 3-billion-dollar migration with zero incidents. These numbers are audited and documented.
 
-I also excel at connecting technical decisions with customer impact. At Sicredi, my machine learning models didn't just technically improve credit scoring - they reduced credit approval time, improving experience for 6.4 million members. I always ask: "How does this improve the end customer's life?" If I can't answer, we rethink the solution.
+I also connect technical decisions to customer outcomes. At Sicredi, the machine learning models I built reduced credit approval time and improved experience for 6.4 million members.
 
-What differentiates me is being able to combine technical depth with business vision. I'm equally comfortable reviewing Python code for ML models or presenting business case to the CFO. This versatility allows me to be an effective bridge between technical teams and executive leadership, ensuring we're building the right things, the right way, for the right reasons.`,
+The common thread is balancing technical depth with business vision. I'm equally comfortable reviewing Python code or defending business cases to CFOs, making sure we ship the right thing, the right way, for the right reason.`,
           tags: ["dive deep", "deliver results", "customer obsession", "technical"],
-          hook: "Dive deeply and consistently deliver measurable results",
-          mic_drop: "Technical depth + business vision = bridge between code and boardroom"
+          hook: "Deep dives that end in audited outcomes",
+          mic_drop: "Technical depth + business vision that closes the loop"
+        },
+        {
+          id: "foco_estrategia",
+          title: "Strategic Vision in Action",
+          badge: "Strategy",
+          badgeColor: "bg-blue-700",
+          content: `I translate long-term vision into actionable, measurable roadmaps.
+
+At Unimed I anticipated competitive pressure and built a digital portfolio that launched four new products — now 5% of total revenue. At HSBC/Bradesco I turned an integration thesis into a coordinated program across five countries, migrating 3 billion dollars with zero data loss.
+
+I combine long-term frameworks with operational cadence. I craft executive narratives, connect investments to metrics, and monitor ROI relentlessly so strategy never becomes just a slide — it becomes delivered value.`,
+          tags: ["strategy", "execution", "transformation", "ROI"],
+          hook: "Vision that becomes a roadmap, roadmap that becomes results",
+          mic_drop: "Strategy translated into billions migrated and new revenue streams"
+        },
+        {
+          id: "foco_lideranca",
+          title: "High-Trust Leadership",
+          badge: "Leadership",
+          badgeColor: "bg-purple-700",
+          content: `I lead people through high-complexity programs while preserving clarity, pace, and engagement.
+
+I built the Huawei War Room PMO, aligning 30+ PMs and 20 suppliers. We cut SLAs from 382 to 62 days because I installed radical transparency, daily cadence, and 24-hour decision mechanisms.
+
+My communication bridges technical and executive levels. I translate complexity into clear language, remove noise, and ensure everyone knows the next step. That keeps teams energized even in long, demanding transformations.`,
+          tags: ["leadership", "communication", "motivation", "complexity"],
+          hook: "Leadership with cadence, clarity, and energy",
+          mic_drop: "War Room PMO replicated globally with motivated teams"
+        },
+        {
+          id: "foco_inovacao",
+          title: "Innovation with ROI",
+          badge: "Innovation",
+          badgeColor: "bg-yellow-600",
+          content: `I turn emerging technologies into solutions with proven ROI.
+
+I pioneered Brazil's first 4G rollout and, years later, led AI automations that cut claims cycle time by 30% at Unimed. At Sicredi I designed algorithms that increased credit approvals while keeping risk under control.
+
+Innovation is never hype for me. I build business cases, define success metrics, pilot with cross-functional squads, and convert learnings into organizational playbooks.`,
+          tags: ["innovation", "technology", "data-driven", "culture"],
+          hook: "Innovation with playbooks and metrics, not buzzwords",
+          mic_drop: "AI, 4G, and OKRs turned into recurring enterprise value"
+        },
+        {
+          id: "foco_dados",
+          title: "Data & Metrics Discipline",
+          badge: "Data",
+          badgeColor: "bg-cyan-700",
+          content: `I'm obsessed with decisions anchored in trustworthy, accessible data.
+
+In the RS Government I redesigned the fiscal data lake, integrating 48 sources and releasing executive dashboards that shrank decision cycles from weeks to hours. At Sicredi I democratized risk and product metrics, enabling squads to test hypotheses autonomously.
+
+I invest in governance, data quality, and visual storytelling. This discipline ensures every strategic debate starts with facts, not assumptions.`,
+          tags: ["data", "analytics", "governance", "metrics"],
+          hook: "Great decisions start with reliable data",
+          mic_drop: "48 sources integrated → decisions in hours, not weeks"
+        },
+        {
+          id: "foco_cliente",
+          title: "Customer Obsession in Practice",
+          badge: "Customer",
+          badgeColor: "bg-orange-600",
+          content: `I use the customer's voice as the compass to prioritize and shape solutions.
+
+When I redesigned Sicredi's onboarding journey, I interviewed members, analyzed NPS, and studied churn. The new digital journey lifted conversion by 23% and reduced contact-center calls.
+
+I also bring frontline feedback to executive tables so financial, tech, and operational decisions keep the customer at the center and generate value people can feel.`,
+          tags: ["customer obsession", "experience", "NPS", "prioritization"],
+          hook: "Real customer signals steering strategic bets",
+          mic_drop: "Onboarding redesign: +23% conversion and fewer support calls"
+        },
+        {
+          id: "foco_aprendizado",
+          title: "Learning Flywheel",
+          badge: "Learn & Be Curious",
+          badgeColor: "bg-emerald-600",
+          content: `I learn fast, teach fast, and create systems that scale knowledge.
+
+I lead internal communities of practice in AI/ML and Lean, documenting playbooks and hosting tech talks to accelerate enterprise adoption. In every transformation I capture lessons learned and turn them into reusable frameworks.
+
+That mindset keeps teams raising the bar together, reduces repeated mistakes, and makes the organization stay one step ahead.`,
+          tags: ["learn and be curious", "coaching", "community", "continuous improvement"],
+          hook: "Learning converted into competitive advantage",
+          mic_drop: "Playbooks and communities that accelerate every new initiative"
         }
       ]
     },
-
     // QUESTION: "WEAKNESSES / DEVELOPMENT AREAS"
     areas_desenvolvimento: {
       question: "What are your development areas? / What are your weaknesses?",
@@ -546,4 +710,6 @@ The improvement has been notable. At SEFAZ-RS, my presentations to the Treasury 
 };
 
 export default icebreakerData;
+
+
 
