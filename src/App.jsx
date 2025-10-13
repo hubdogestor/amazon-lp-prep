@@ -161,6 +161,10 @@ export default function App() {
     setSelectedPrinciple(principleId);
   }, [searchTerm]);
 
+  const clearExpanded = useCallback(() => {
+    setExpandedCases({});
+  }, []);
+
   const handleCaseHeaderToggle = useCallback((caseId, principleId, caseDomId, hasSearchTerm) => {
     toggleCase(caseId, principleId, hasSearchTerm);
     if (hasSearchTerm) {
