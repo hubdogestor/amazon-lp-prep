@@ -1550,6 +1550,7 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
   const data = icebreakerData[language];
   const [expandedSection, setExpandedSection] = useState(null);
   const [activeNarrative, setActiveNarrative] = useState(null);
+  const [narrativeFilter, setNarrativeFilter] = useState("");
 
   // Pega todas as seções (exceto title, subtitle e questions)
   const sections = Object.keys(data)
@@ -1558,6 +1559,53 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
       id: key,
       data: data[key]
     }));
+
+  const normalizedSearch = narrativeFilter.trim().toLowerCase();
+
+  const filteredSections = sections
+    .map((section) => {
+      if (!normalizedSearch) {
+        return section;
+      }
+
+      const versions = section.data.versions || [];
+      const filteredVersions = versions.filter((version) => {
+        const haystack = [
+          section.data.question,
+          section.data.category,
+          version.title,
+          version.context,
+          version.content,
+          version.hook,
+          version.mic_drop,
+          Array.isArray(version.tags) ? version.tags.join(' ') : null,
+        ]
+          .filter(Boolean)
+          .join(' ')
+          .toLowerCase();
+
+        return haystack.includes(normalizedSearch);
+      });
+
+      if (filteredVersions.length > 0) {
+        return {
+          ...section,
+          data: {
+            ...section.data,
+            versions: filteredVersions,
+          },
+        };
+      }
+
+      return null;
+    })
+    .filter(Boolean);
+
+  useEffect(() => {
+    if (expandedSection && !filteredSections.find((section) => section.id === expandedSection)) {
+      setExpandedSection(null);
+    }
+  }, [expandedSection, filteredSections]);
 
   const toggleLanguage = () => {
     setLanguage(prev => prev === 'pt' ? 'en' : 'pt');
@@ -1570,6 +1618,12 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
       role="dialog"
       aria-modal="true"
       aria-labelledby="icebreaker-title"
+      onKeyDown={(event) => {
+        if (event.key === 'Escape') {
+          onClose();
+        }
+      }}
+      tabIndex={-1}
     >
       <div
         className="bg-white rounded-xl shadow-2xl max-w-[95vw] w-full max-h-[90vh] overflow-hidden mx-4"
@@ -1590,6 +1644,19 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
             >
               🌐 {language === 'pt' ? 'EN' : 'PT'}
             </button>
+            <div className="relative">
+              <input
+                type="text"
+                value={narrativeFilter}
+                onChange={(event) => setNarrativeFilter(event.target.value)}
+                placeholder={language === 'pt' ? 'Filtrar narrativas...' : 'Filter narratives...'}
+                className="bg-white/15 text-white/90 placeholder:text-white/60 w-48 md:w-64 px-3 py-2 rounded-lg border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/60 transition"
+                onClick={(event) => event.stopPropagation()}
+              />
+              <span className="absolute inset-y-0 right-3 flex items-center text-white/70 pointer-events-none">
+                🔍
+              </span>
+            </div>
             <button
               onClick={onClose}
               className="text-white hover:bg-orange-600 rounded-lg px-3 py-2 transition text-xl"
@@ -1602,7 +1669,12 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
 
         <div className="p-6 overflow-y-auto max-h-[calc(90vh-100px)]">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            {sections.map((section) => {
+            {filteredSections.length === 0 && (
+              <div className="col-span-1 md:col-span-2 border border-dashed border-orange-300 rounded-xl p-6 text-center text-orange-700 bg-orange-50/60">
+                {language === 'pt' ? 'Nenhuma narrativa encontrada para esse filtro.' : 'No narratives match this filter.'}
+              </div>
+            )}
+            {filteredSections.map((section) => {
               const sectionData = section.data;
               const isExpanded = expandedSection === section.id;
               
@@ -1636,14 +1708,8 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
                       <div className="grid md:grid-cols-2 gap-4">
                                                 
                         {sectionData.versions?.map((version) => {
-                          const previewLines = version.content
-                            ? version.content.replace(/\*\*[^*]+\*\*/g, '').split('\n').map((line) => line.trim()).filter(Boolean)
-                            : [];
-                          const preview = previewLines[0] || '';
-                          const previewText = preview.length > 160 ? preview.slice(0, 160) + '...' : preview;
-                          const hookLabel = language === 'pt' ? 'Gancho' : 'Hook';
-                          const micDropLabel = language === 'pt' ? 'Fecho' : 'Mic Drop';
-                          const previewLabel = language === 'pt' ? 'Resumo rapido' : 'Quick glance';
+                          const hookLabel = 'Hook';
+                          const micDropLabel = 'Mic Drop';
 
                           return (
                             <button
@@ -1677,13 +1743,6 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
                                   </div>
                                   <span className="text-xl text-orange-500" aria-hidden="true">↗</span>
                                 </div>
-
-                                {previewText && (
-                                  <div className="bg-gray-50 rounded-lg p-3">
-                                    <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">{previewLabel}</p>
-                                    <p className="text-sm text-gray-700">{previewText}</p>
-                                  </div>
-                                )}
 
                                 {(version.hook || version.mic_drop) && (
                                   <div className="grid md:grid-cols-2 gap-3">
@@ -1785,9 +1844,16 @@ function NarrativeModal({ narrative, language, onClose }) {
       role="dialog"
       aria-modal="true"
       aria-label={sectionTitle}
+      onKeyDown={(event) => {
+        if (event.key === 'Escape') {
+          event.stopPropagation();
+          onClose();
+        }
+      }}
+      tabIndex={-1}
     >
       <div
-        className="bg-white max-w-3xl w-full max-h-[90vh] overflow-y-auto rounded-2xl shadow-2xl"
+        className="bg-white max-w-4xl w-full max-h-[90vh] overflow-y-auto rounded-2xl shadow-2xl"
         onClick={(event) => event.stopPropagation()}
       >
         <div className="bg-gradient-to-r from-orange-500 to-pink-500 px-6 py-5 text-white flex items-start justify-between gap-4">
