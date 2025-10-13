@@ -1,4 +1,4 @@
-﻿// Case 3 - think_big
+// Case 3 - think_big
 const case_3 = {
   id: "bradesco-paas-latam",
   title: "Proposta de Plataforma de Pagamentos como Serviço para América Latina",

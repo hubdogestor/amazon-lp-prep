@@ -1,4 +1,4 @@
-﻿// Case 1 - think_big
+// Case 1 - think_big
 const case_1 = {
   id: "huawei-global-rollout",
   title: "Transformação do Modelo de Rollout Global na Huawei",

@@ -1,4 +1,4 @@
-﻿// Case 2 - insist_on_highest_standards
+// Case 2 - insist_on_highest_standards
 const case_2 = {
   id: "sefaz-pmo-governance",
   title: "Elevei o Padrão do PMO da SEFAZ com Foco em Valor ao Cidadão",

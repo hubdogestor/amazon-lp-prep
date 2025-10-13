@@ -1,4 +1,4 @@
-﻿// Data structure definitions for Amazon Leadership Principles app
+// Data structure definitions for Amazon Leadership Principles app
 // This file defines the expected structure for external JSON imports
 
 const dataStructure = {

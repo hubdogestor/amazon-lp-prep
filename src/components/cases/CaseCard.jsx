@@ -53,15 +53,15 @@ export default function CaseCard({
     return (
       <div className="mt-2">
         <p className="text-xs text-slate-600">
-          ?? Buscando por: <strong>{starSearchTerm}</strong>
+          🔎 Buscando por: <strong>{starSearchTerm}</strong>
         </p>
         {matches ? (
           <p className="text-xs text-green-600 font-medium mt-1 bg-green-50 px-2 py-1 rounded">
-            V Termo encontrado no STAR(L)
+            Termo encontrado no STAR(L)
           </p>
         ) : (
           <p className="text-xs text-yellow-600 font-medium mt-1 bg-yellow-50 px-2 py-1 rounded">
-            ?? Termo no encontrado
+            ⚠️ Termo não encontrado
           </p>
         )}
       </div>
@@ -78,7 +78,7 @@ export default function CaseCard({
         <div>
           {hasLocalSearch && (
             <p className="text-xs text-green-600 font-medium mb-2 bg-green-50 px-2 py-1 rounded">
-              V {fups.length} de {allFups.length} pergunta(s) encontrada(s)
+              ✅ {fups.length} de {allFups.length} pergunta(s) encontrada(s)
             </p>
           )}
           <ul className="list-disc pl-5 space-y-2 text-sm">
@@ -86,11 +86,22 @@ export default function CaseCard({
               const fupId = `fup-${principle.id}-${caseSlug}-${fIdx}`;
               const question = language === "en" ? (f.q_en || f.q) : f.q;
               const answer = language === "en" ? (f.a_en || f.a) : f.a;
+              const questionForKey = question || "";
+              const keySource = (f.id || f.slug || questionForKey.slice(0, 24) || `${fIdx}`).toString().trim();
+              const sanitizedKey = keySource
+                .normalize('NFKD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .replace(/\s+/g, '-')
+                .replace(/[^a-zA-Z0-9-_]/g, '-')
+                .replace(/-+/g, '-')
+                .replace(/^-|-$/g, '') || `${fIdx}`;
+              const keyPrefix = (caseSlug || caseKey || `case-${principle.id || 'case'}`);
+              const fKey = `${keyPrefix}-${sanitizedKey}`;
               const isFupHighlighted = highlightedFupId === fupId;
 
               return (
                 <li
-                  key={`${caseSlug}-${fIdx}`}
+                  key={fKey}
                   id={fupId}
                   className={`flex flex-col gap-1 transition-all ${
                     isFupHighlighted ? "ring-2 ring-amber-300 rounded-md bg-amber-50 p-2" : ""
@@ -124,14 +135,14 @@ export default function CaseCard({
       return (
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3">
           <p className="text-sm text-yellow-800">
-            ?? Nenhuma pergunta encontrada com o termo: <strong>{fupSearchTerm}</strong>
+            ⚠️ Nenhuma pergunta encontrada com o termo: <strong>{fupSearchTerm}</strong>
           </p>
           <p className="text-xs text-yellow-700 mt-1">Tente outro termo ou limpe a busca.</p>
         </div>
       );
     }
 
-    return <div className="text-slate-500 italic">Nenhuma pergunta disponevel.</div>;
+    return <div className="text-slate-500 italic">Nenhuma pergunta disponível.</div>;
   };
 
   return (
@@ -166,12 +177,12 @@ export default function CaseCard({
         <div className="flex items-center gap-3">
           {isTop && (
             <span className="px-3 py-1 bg-[#FF9900] text-white text-[10px] font-bold rounded-full shadow-md animate-pulse">
-              ? TOP CASE
+              TOP CASE
             </span>
           )}
           {!isTop && caseData.isGoodCase && (
             <span className="px-2.5 py-0.5 bg-blue-500 text-white text-[10px] font-semibold rounded-full shadow-sm">
-              ?? GOOD CASE
+              💡 GOOD CASE
             </span>
           )}
           {caseQuestions.length > 0 && (
@@ -179,7 +190,7 @@ export default function CaseCard({
               className="px-2.5 py-0.5 bg-purple-500 text-white text-[10px] font-semibold rounded-full shadow-sm cursor-help"
               title={questionsTooltip}
             >
-              ?? {caseQuestions.length} {language === "pt" ? "Q" : "Q"}
+              📝 {caseQuestions.length} {language === "pt" ? "Q" : "Q"}
             </span>
           )}
           <h3 className={`text-lg font-bold ${isTop ? "text-[#232F3E]" : "text-slate-900"} ${isCaseUsed ? "text-slate-500" : ""}`}>
@@ -236,7 +247,7 @@ export default function CaseCard({
             </button>
           )}
           <span className="text-sm text-amber-600 select-none">
-            {open ? texts.close : texts.viewDetails} ?
+            {open ? texts.close : texts.viewDetails} {open ? "▲" : "▼"}
           </span>
         </div>
       </header>
@@ -253,12 +264,12 @@ export default function CaseCard({
                 className="text-left flex items-center justify-between text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 hover:text-blue-600 transition-colors group"
               >
                 <span className="flex items-center gap-2">
-                  ?? STAR Case
+                  ⭐ STAR Case
                   <span className="text-xs text-slate-500 group-hover:text-blue-500">
-                    {isStarSearchOpen ? "?? (busca ativa)" : "(clique para buscar)"}
+                    {isStarSearchOpen ? "🔎 (busca ativa)" : "(clique para buscar)"}
                   </span>
                 </span>
-                <span className="text-slate-400 text-sm">{isStarSearchOpen ? "?" : "??"}</span>
+                <span className="text-slate-400 text-sm">{isStarSearchOpen ? "▲" : "▼"}</span>
               </button>
 
               {isStarSearchOpen && (
@@ -327,12 +338,12 @@ export default function CaseCard({
                 className="text-left flex items-center justify-between text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 hover:text-blue-600 transition-colors group"
               >
                 <span className="flex items-center gap-2">
-                  ? Follow-up Questions
+                  ❓ Follow-up Questions
                   <span className="text-xs text-slate-500 group-hover:text-blue-500">
-                    {isFupSearchOpen ? "?? (busca ativa)" : "(clique para buscar)"}
+                    {isFupSearchOpen ? "🔎 (busca ativa)" : "(clique para buscar)"}
                   </span>
                 </span>
-                <span className="text-slate-400 text-sm">{isFupSearchOpen ? "?" : "??"}</span>
+                <span className="text-slate-400 text-sm">{isFupSearchOpen ? "▲" : "▼"}</span>
               </button>
 
               {isFupSearchOpen && (
@@ -347,7 +358,7 @@ export default function CaseCard({
                   />
                   {fupSearchTerm && (
                     <p className="text-xs text-slate-600 mt-2">
-                      ?? Buscando por: <strong>{fupSearchTerm}</strong>
+                      🔎 Buscando por: <strong>{fupSearchTerm}</strong>
                     </p>
                   )}
                 </div>
@@ -361,3 +372,4 @@ export default function CaseCard({
     </article>
   );
 }
+

@@ -1,4 +1,4 @@
-﻿const case_4 = {
+const case_4 = {
   "id": "calculated-risk-time-critical",
   "title": "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",
   "title_pt": "Risco Calculado em Tempo Crítico: Restaurei Telemedicina em 72h com Mitigação por Zonas e Rollback Seletivo",

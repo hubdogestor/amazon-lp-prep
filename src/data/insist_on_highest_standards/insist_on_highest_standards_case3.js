@@ -1,4 +1,4 @@
-﻿// Case 3 - insist_on_highest_standards
+// Case 3 - insist_on_highest_standards
 const case_3 = {
   id: "sicredi-payment-sla",
   title: "Redesenhei o Gateway SICREDI para 99.99% de Disponibilidade",

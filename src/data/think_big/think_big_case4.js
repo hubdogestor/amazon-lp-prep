@@ -1,4 +1,4 @@
-﻿// Case 4 - think_big
+// Case 4 - think_big
 const case_4 = {
   id: "game-changing-program",
   title: "Programa Horizonte: Digital Twin que Redirecionou R$2.1B em Investimentos",

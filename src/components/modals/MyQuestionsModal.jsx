@@ -33,7 +33,7 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
       >
         <div className="bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-4 flex items-center justify-between">
           <h2 id="myquestions-title" className="text-2xl font-bold text-white flex items-center gap-2">
-            ?? {data.title}
+            🧠 {data.title}
           </h2>
           <div className="flex items-center gap-3">
             <button
@@ -41,14 +41,14 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
               className="text-white hover:bg-white/20 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
               aria-label="Toggle language"
             >
-              ?? {language === "pt" ? "EN" : "PT"}
+              🌐 {language === "pt" ? "EN" : "PT"}
             </button>
             <button
               onClick={onClose}
               className="text-white hover:bg-white/20 rounded-lg px-3 py-2 transition text-xl"
               aria-label="Close my questions modal"
             >
-              ?
+              ×
             </button>
           </div>
         </div>
@@ -74,8 +74,8 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
                     </h3>
                     <span className="text-sm text-purple-600 select-none">
                       {isExpanded
-                        ? language === "pt" ? "Fechar ?" : "Close ?"
-                        : language === "pt" ? "Ver perguntas" : "View questions"}
+                        ? (language === "pt" ? "Fechar ▲" : "Close ▲")
+                        : (language === "pt" ? "Ver perguntas ▼" : "View questions ▼")}
                     </span>
                   </div>
 
@@ -114,7 +114,7 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
                                 {item.q}
                               </div>
                               <div className={`mt-1 text-sm italic text-slate-600 pr-8 ${isQuestionUsed ? "line-through decoration-slate-300 text-slate-500" : ""}`}>
-                                ?? {item.note}
+                                💡 {item.note}
                               </div>
                             </div>
                           );

@@ -1,4 +1,4 @@
-﻿// Case 3 - bias_for_action
+// Case 3 - bias_for_action
 const case_3 = {
   id: "sefaz-emergency-tax-portal",
   title: "Lancei Portal de Socorro Fiscal em 18 Dias apos as Cheias no RS",
