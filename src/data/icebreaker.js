@@ -90,32 +90,60 @@ Minha abordagem é sempre data-driven. Uso métricas como Payment Success Rate, 
           title: "Versão Principal",
           badge: "Recomendada",
           badgeColor: "bg-orange-500",
-          content: `A Amazon sempre me fascinou porque é onde obsessão pelo cliente não é apenas um discurso bonito em apresentação de PowerPoint - está genuinamente no DNA de cada decisão. Ao longo da minha carreira, sempre priorizei o impacto no cliente final. Quando entreguei a primeira estação 4G do Brasil, não estava apenas instalando antenas - estava conectando pessoas. Quando implementei IA que reduz tempo de processamento de sinistros de saúde, não estava apenas otimizando processos - estava fazendo com que pacientes recebessem aprovações mais rápido.
+          content: `O que me traz para a Amazon é a combinação rara de obsessão pelo cliente com rigor operacional. Sempre que tive espaço para entregar meu melhor, foi em ambientes que premiam quem mergulha fundo, simplifica o complexo e assume o resultado de ponta a ponta — exatamente os princípios que construíram a Amazon.
 
-O que mais me atrai na Amazon é a cultura de mergulhar fundo nos problemas e simplificar o complexo. Na Huawei, quando os SLAs estavam em 382 dias, eu não aceitei a resposta fácil de "é assim que funciona no Brasil". Mergulhei nos dados, redesenhei workflows e reduzi para 62 dias. Na Unimed, quando vi operações complexas consumindo tempo precioso de médicos, simplifiquei através de automação, gerando 45 milhões de dólares em economia. Essa mentalidade de não aceitar o status quo e sempre buscar a raiz do problema é algo que vejo profundamente enraizado na Amazon.
+Quando conectei o Brasil ao 4G na Huawei, cuidei de cada dependência regulatória porque sabia que, no fim, eu estava conectando pessoas. Na Unimed, usei IA para devolver 45 milhões de dólares ao sistema de saúde porque isso significava aprovações mais rápidas para pacientes. No HSBC, garanti a migração de 3 bilhões de dólares sem ruído porque confiança do cliente não admite falha. São exemplos do mesmo padrão: começar pelo cliente, mergulhar nos detalhes, simplificar e entregar.
 
-Também ressoa muito comigo a cultura de ownership completo. No HSBC, quando assumi a migração de 3 bilhões de dólares, não deleguei a responsabilidade - mergulhei pessoalmente nas negociações com reguladores, nos detalhes técnicos, nas validações de compliance. Não existe "não é minha responsabilidade" no meu vocabulário. Você assume o problema end-to-end e entrega, ponto.
+Também me identifico com o quanto a Amazon celebra builders. Sou movido pela curiosidade de entender como sistemas funcionam e onde podem ser melhorados. Transformei war rooms em hubs de decisão, criei frameworks de valor e democratizei dados porque acredito que grandes resultados vêm de mecanismos replicáveis, não de heroísmo.
 
-Mas o que realmente me motiva a estar aqui hoje é a combinação de escala, inovação e impacto. Quero trabalhar em uma organização que pensa grande, age rápido e coloca o cliente em primeiro lugar em cada decisão. É onde posso aplicar minha experiência em transformação operacional para gerar valor em escala verdadeiramente global. Depois de 15 anos construindo infraestrutura crítica, transformando operações financeiras e implementando IA em setores tradicionais, a Amazon representa o próximo nível: impactar milhões de clientes mantendo obsessão pelo detalhe e pela excelência operacional.`,
-          tags: ["customer obsession", "ownership", "dive deep", "scale"],
-          hook: "Obsessão pelo cliente não é discurso - está no DNA de cada decisão",
-          mic_drop: "Escala + inovação + impacto = próximo nível da minha carreira"
+Quero aplicar essa experiência em escala global, em um lugar que não se contenta com “bom o bastante” e mede sucesso pelo impacto real no cliente. A Amazon é o próximo passo lógico da minha jornada: elevar a barra diariamente, para milhões de clientes, com a mesma energia de quem entende que cada detalhe importa.`,
+          tags: ["customer obsession", "dive deep", "ownership", "invent and simplify"],
+          hook: "Customer obsession + rigor operacional no mesmo DNA",
+          mic_drop: "15 anos elevando a barra unem-se ao mecanismo que inventou o flywheel"
         },
         {
-          id: "versao_pagamentos_flywheel",
-          title: "Versão Pagamentos & Flywheel",
-          badge: "Payments Focus",
+          id: "versao_payments",
+          title: "Versão Payments",
+          badge: "Payments",
           badgeColor: "bg-green-500",
-          content: `A Amazon me fascina porque é onde posso aplicar minha experiência em pagamentos para acelerar o flywheel de crescimento mais poderoso do mundo. Entendo profundamente como operações de pagamento eficientes não são apenas um centro de custo - elas reduzem atrito, melhoram experiência do cliente e habilitam mais seleção. É um ciclo virtuoso: quanto melhor a experiência de pagamento, mais clientes compram. Quanto mais clientes compram, mais dados você tem para otimizar. Quanto mais você otimiza, melhor fica a experiência. E o ciclo se acelera.
+          content: `A Amazon é o lugar onde pagamentos deixam de ser apenas eficiência operacional e passam a ser aceleradores do flywheel. Quanto menos atrito na jornada de pagamento, mais clientes compram, mais dados temos para personalizar, maior fica a seleção — e o ciclo se retroalimenta. É exatamente aí que minha experiência gera vantagem competitiva.
 
-Minha experiência é exatamente o que esse momento exige. Liderei operações de pagamento em escala bilionária, implementei IA para otimizar authorization rates e process cycle time, e tenho expertise em compliance regulatório crítico. No Sicredi, meus modelos de machine learning aumentaram payment success rate em 25%, gerando 50 milhões de dólares em receita adicional. Não foi mágica - foi entender onde estavam os pontos de falha, aplicar dados para prever comportamentos e construir sistemas que aprendem continuamente.
+Liderei operações bilionárias, tratei com reguladores em cinco países e usei IA para elevar authorization rate, reduzir chargebacks e cortar cycle time. No Sicredi, reescrevi modelos de risco que adicionaram 50 milhões de dólares em receita recorrente porque destravaram mais clientes qualificados. Na Unimed, automatizei pipelines críticos sem comprometer compliance. Em cada caso, medi sucesso pelo impacto direto no cliente — o mesmo indicador que move a Amazon.
 
-O que me motiva especialmente é a oportunidade de trabalhar na parceria estratégica com Oakberry, aplicando AI/ML para transformar payment business operations. Vejo potencial imenso para implementar automação que reduza operational cost per transaction enquanto melhora customer payment satisfaction. É exatamente o tipo de desafio que me energiza: pegar algo que já funciona bem e torná-lo extraordinário através de dados e tecnologia.
+O que me anima nesta vaga é a oportunidade de trabalhar na interseção entre o PIX, o Open Finance e a parceria com a Oakberry para redesenhar a experiência de pagamento no Brasil. Vejo espaço para aplicar ML em roteamento inteligente, criar mecanismos de detecção proativa e reduzir o custo por transação ao mesmo tempo em que elevamos satisfação do cliente.
 
-A Amazon é onde posso combinar minha paixão por inovação com impacto em escala global. Quero fazer parte de uma organização que não apenas aceita mudança, mas a lidera - especialmente em um momento crítico como a transformação de pagamentos no Brasil com PIX e Open Finance. É onde posso aplicar tudo que aprendi em 15 anos para ajudar a construir o futuro dos pagamentos digitais.`,
-          tags: ["pagamentos", "flywheel", "crescimento", "inovação"],
-          hook: "Acelerar o flywheel mais poderoso do mundo através de pagamentos",
-          mic_drop: "Liderar a transformação de pagamentos no Brasil com PIX e Open Finance"
+Quero ajudar a Amazon a continuar liderando a evolução de pagamentos digitais no país: construir mecanismos que escalam, antecipam tendências regulatórias e transformam cada nova jornada de pagamento em vantagem competitiva.`,
+          tags: ["pagamentos", "flywheel", "AI/ML", "growth"],
+          hook: "Pagamentos como motor que acelera o flywheel",
+          mic_drop: "ML + PIX + cultura Amazon = próxima fronteira da experiência de pagamento"
+        },
+        {
+          id: "versao_builder",
+          title: "Versão Builder",
+          badge: "Builder",
+          badgeColor: "bg-purple-500",
+          content: `A Amazon é o ecossistema ideal para quem gosta de construir produtos começando pelo cliente e trabalhando de trás para frente. Sempre que precisei gerar impacto duradouro, comecei exatamente assim: definindo a experiência desejada, prototipando rápido e iterando com dados — seja conectando o país ao 4G, seja implementando IA em healthcare ou criando frameworks de valor para governos.
+
+O princípio de inventar e simplificar está no meu modo de operar. Criei um War Room PMO que virou padrão global, implantei data lakes que democratizaram informação para decisões em horas e desenhei playbooks de IA que foram adotados em escala. Tudo isso nasce da mesma crença da Amazon: o cliente não tem tempo para esperar pela versão perfeita, mas merece que você chegue lá rápido.
+
+Quero construir com gente que pensa grande, prototipa rápido e mede obsessivamente. A Amazon oferece o palco certo: desafios complexos, autonomia real, pares exigentes e a cultura que não deixa as boas ideias morrerem por falta de owner.`,
+          tags: ["invent and simplify", "builder", "working backwards", "ownership"],
+          hook: "Builder que trabalha de trás para frente encontra o habitat natural",
+          mic_drop: "Do War Room ao data lake — mecanismos replicáveis, não heroísmo"
+        },
+        {
+          id: "versao_people_leadership",
+          title: "Versão Liderança & Cultura",
+          badge: "People",
+          badgeColor: "bg-blue-500",
+          content: `A Amazon não quer apenas resultados; quer construir a melhor empregadora do mundo enquanto entrega para o cliente. É exatamente a interseção que me move: combinar métricas de negócio com desenvolvimento de gente.
+
+Liderei squads em operações críticas mantendo NPS interno alto, criei comunidades de prática em IA/ML e Lean que multiplicaram conhecimento, e construí mecanismos de coaching que elevaram a senioridade de PMs e engenheiros. Aprendi que cultura não se declara — se constrói em cada decisão de priorização, em cada feedback difícil e no cuidado com quem executa.
+
+Quero ajudar a Amazon a continuar crescendo sem perder a característica que a torna única: times empoderados, diversidade de pensamento, autonomia com responsabilidade e uma régua alta de liderança. Para mim, ser bar raiser começa dentro de casa: elevar a barra com quem está ao meu lado para que o cliente perceba a diferença do lado de fora.`,
+          tags: ["people leadership", "earths best employer", "learn and be curious", "bar raiser"],
+          hook: "Crescer sem perder a alma: performance + melhores empregadores",
+          mic_drop: "Bar raiser começa dentro de casa — cultura forte entrega cliente feliz"
         }
       ]
     },
@@ -483,35 +511,63 @@ My approach is always data-driven. I use metrics like Payment Success Rate, Auth
       versions: [
         {
           id: "versao_principal",
-          title: "Main Version",
+          title: "Core Narrative",
           badge: "Recommended",
           badgeColor: "bg-orange-500",
-          content: `Amazon has always fascinated me because it's where customer obsession isn't just nice rhetoric in a PowerPoint presentation - it's genuinely embedded in the DNA of every decision. Throughout my career, I've always prioritized end-customer impact. When I delivered Brazil's first 4G station, I wasn't just installing antennas - I was connecting people. When I implemented AI that reduces healthcare claims processing time, I wasn't just optimizing processes - I was making patients receive approvals faster.
+          content: `What draws me to Amazon is the rare combination of customer obsession and operational rigor. Every environment where I've delivered outsized results rewarded people who dive deep, simplify the complex, and own outcomes end to end — the exact principles that built Amazon.
 
-What attracts me most to Amazon is the culture of diving deep into problems and simplifying the complex. At Huawei, when SLAs were at 382 days, I didn't accept the easy answer of "that's how it works in Brazil." I dove into the data, redesigned workflows, and reduced it to 62 days. At Unimed, when I saw complex operations consuming precious time from doctors, I simplified through automation, generating 45 million dollars in savings. This mentality of not accepting the status quo and always seeking the root of the problem is something I see deeply rooted in Amazon.
+When I deployed Brazil's first 4G network, I obsessed over every regulatory dependency because I knew I was connecting people, not just installing hardware. At Unimed, I used AI to return 45 million dollars to the healthcare system because faster approvals mean better patient outcomes. At HSBC, I migrated 3 billion dollars without noise because customer trust doesn't have room for error. Same pattern every time: start with the customer, go deep on the details, simplify, deliver.
 
-The culture of complete ownership also resonates strongly with me. At HSBC, when I took on the 3 billion dollar migration, I didn't delegate responsibility - I personally dove into negotiations with regulators, technical details, compliance validations. "It's not my responsibility" doesn't exist in my vocabulary. You own the problem end-to-end and deliver, period.
+I also resonate with how much Amazon celebrates builders. I'm fueled by curiosity — understanding how systems work and finding leverage points. I turned war rooms into decision hubs, created value-based frameworks, and democratized data because lasting results come from mechanisms, not heroics.
 
-But what truly motivates me to be here today is the combination of scale, innovation, and impact. I want to work in an organization that thinks big, acts fast, and puts the customer first in every decision. It's where I can apply my operational transformation experience to generate value at truly global scale. After 15 years building critical infrastructure, transforming financial operations, and implementing AI in traditional sectors, Amazon represents the next level: impacting millions of customers while maintaining obsession with detail and operational excellence.`,
-          tags: ["customer obsession", "ownership", "dive deep", "scale"],
-          hook: "Customer obsession isn't rhetoric - it's in every decision's DNA",
-          mic_drop: "Scale + innovation + impact = next level of my career"
+I want to apply that experience at global scale, in a place that refuses “good enough” and measures success by real customer impact. Amazon is the natural next step: raising the bar daily for millions of customers, with the energy of someone who knows every detail matters.`,
+          tags: ["customer obsession", "dive deep", "ownership", "invent and simplify"],
+          hook: "Customer obsession plus execution rigor in one culture",
+          mic_drop: "15 years raising the bar meet the mechanism that invented the flywheel"
         },
         {
-          id: "versao_pagamentos_flywheel",
-          title: "Payments & Flywheel Version",
-          badge: "Payments Focus",
+          id: "versao_payments",
+          title: "Payments Narrative",
+          badge: "Payments",
           badgeColor: "bg-green-500",
-          content: `Amazon fascinates me because it's where I can apply my payments experience to accelerate the world's most powerful growth flywheel. I deeply understand how efficient payment operations aren't just a cost center - they reduce friction, improve customer experience, and enable more selection. It's a virtuous cycle: the better the payment experience, the more customers buy. The more customers buy, the more data you have to optimize. The more you optimize, the better the experience gets. And the cycle accelerates.
+          content: `Amazon is where payments evolve from back-office efficiency to flywheel accelerators. The smoother the payment journey, the more customers buy, the richer the data set becomes, the stronger the selection — and the cycle speeds up. That's exactly where my background creates leverage.
 
-My experience is exactly what this moment requires. I've led payment operations at billion-dollar scale, implemented AI to optimize authorization rates and process cycle time, and have critical regulatory compliance expertise. At Sicredi, my machine learning models increased payment success rate by 25%, generating 50 million dollars in additional revenue. It wasn't magic - it was understanding where failure points were, applying data to predict behaviors, and building systems that continuously learn.
+I've managed billion-dollar portfolios, negotiated with regulators across five countries, and used AI to lift authorization rates, reduce chargebacks, and shorten cycle time. At Sicredi, I rewrote risk models that delivered 50 million dollars in recurring revenue because we unlocked qualified customers. At Unimed, I automated mission-critical pipelines without compromising compliance. In every case, I measured success by customer impact — the same scorecard Amazon lives by.
 
-What especially motivates me is the opportunity to work on the strategic partnership with Oakberry, applying AI/ML to transform payment business operations. I see immense potential to implement automation that reduces operational cost per transaction while improving customer payment satisfaction. It's exactly the kind of challenge that energizes me: taking something that already works well and making it extraordinary through data and technology.
+What excites me now is the intersection of PIX, Open Finance, and the Oakberry partnership to reimagine Amazon's payment experience in Brazil. I see room for intelligent routing with ML, proactive anomaly detection, and mechanisms that reduce cost per transaction while increasing customer satisfaction.
 
-Amazon is where I can combine my passion for innovation with global-scale impact. I want to be part of an organization that doesn't just accept change, but leads it - especially at a critical moment like the payment transformation in Brazil with PIX and Open Finance. It's where I can apply everything I've learned in 15 years to help build the future of digital payments.`,
-          tags: ["payments", "flywheel", "growth", "innovation"],
-          hook: "Accelerate the world's most powerful flywheel through payments",
-          mic_drop: "Lead payment transformation in Brazil with PIX and Open Finance"
+I want to help Amazon keep leading digital payments in the country: building mechanisms that scale, anticipate regulation, and turn every journey into a competitive advantage.`,
+          tags: ["payments", "flywheel", "AI/ML", "growth"],
+          hook: "Payments as the engine that keeps the flywheel spinning faster",
+          mic_drop: "ML + PIX + Amazon culture = the next frontier of payment experience"
+        },
+        {
+          id: "versao_builder",
+          title: "Builder Mindset",
+          badge: "Builder",
+          badgeColor: "bg-purple-500",
+          content: `Amazon is home for people who like to start with the customer and work backwards. Every enduring outcome I've delivered followed that playbook: define the ideal experience, prototype fast, iterate with data — whether I was lighting up the 4G network, deploying AI in healthcare, or architecting value frameworks for government.
+
+Invent and Simplify is how I operate. I designed a War Room PMO that became a global pattern, deployed data lakes that put insight in the hands of decision-makers within hours, and codified AI playbooks that scaled across business units. All born from the same Amazon belief: customers can't wait for a perfect solution, but deserve that we get there fast.
+
+I want to build alongside people who think big, ship quickly, and measure obsessively. Amazon offers the perfect stage: complex challenges, real autonomy, peers who raise the bar, and a culture where good ideas don't die for lack of ownership.`,
+          tags: ["invent and simplify", "builder", "working backwards", "ownership"],
+          hook: "A builder who works backwards finds the natural habitat",
+          mic_drop: "From War Room to data lake — mechanisms scale, heroics don’t"
+        },
+        {
+          id: "versao_people_leadership",
+          title: "Leadership & Culture",
+          badge: "People",
+          badgeColor: "bg-blue-500",
+          content: `Amazon isn’t chasing results alone; it’s striving to be Earth’s Best Employer while delivering for customers. That intersection is my sweet spot: coupling business metrics with people development.
+
+I’ve led squads through mission-critical operations while keeping internal NPS high, built AI/ML and Lean communities of practice that multiplied knowledge, and designed coaching mechanisms that raised PM and engineering maturity. Culture isn’t a slide deck — it’s every prioritization decision, every tough feedback conversation, every investment in people.
+
+I want to help Amazon grow without losing the traits that make it unique: empowered teams, diverse thinking, autonomy with accountability, and a high leadership bar. For me, being a bar raiser starts at home: lifting the people beside me so customers feel the difference outside.`,
+          tags: ["people leadership", "earths best employer", "learn and be curious", "bar raiser"],
+          hook: "Grow without losing the soul: performance + Earth’s Best Employer",
+          mic_drop: "Bar raising starts inside — strong culture equals delighted customers"
         }
       ]
     },
