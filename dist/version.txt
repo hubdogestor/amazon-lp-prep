@@ -1,4 +1,4 @@
-Version 2.1.0
-Build: 2025-10-01 19:45:00
-Multi-word search enabled
-Debug logs active
+Version 3.3.0
+Build: 2025-10-13 17:05:00
+Modularized app structure
+Persistent used-state hook

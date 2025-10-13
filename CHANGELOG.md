@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.3.0] - 2025-10-13
+
+### 🧱 Refactor - Estrutura modular do App
+
+#### Componentização e Hooks
+- 📦 `App.jsx` delega modais, cartões de case e dropdowns para componentes dedicados em `src/components/**`.
+- 🔁 Criado `usePersistentFlagMap` para persistir marcações de uso em localStorage.
+- 🧮 Novo hook `useCaseHelpers` cuida de cache de cases, títulos e mapeamentos de perguntas.
+- ⏱️ Timer do cabeçalho movido para `HeaderTimer.jsx`, isolando comportamento.
+
+#### Organização de utilitários
+- 📚 Labels/ordenação dos princípios agora vivem em `principleLabels.js`.
+- 🗂️ Funções de case permanecem em `caseUtils.js`, eliminando dependências circulares que geravam o erro `_e` no build.
+
+#### Resultado
+- ✅ `npm run build` e `npm run test` executados com sucesso.
+- 🚀 Página volta a carregar corretamente e código fica mais fácil de manter e evoluir.
+
 ## [3.2.2] - 2025-10-09
 
 ### 🔧 Bug Fix - Case Mapping Corrections
