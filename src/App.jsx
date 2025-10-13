@@ -1710,35 +1710,28 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
         className="bg-white rounded-xl shadow-2xl max-w-[95vw] w-full max-h-[90vh] overflow-hidden mx-4"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-4 flex items-center justify-between">
+        <div className="bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <div>
             <h2 id="icebreaker-title" className="text-2xl font-bold text-white flex items-center gap-2">
               💬 {data.title}
             </h2>
             <p className="text-orange-100 text-sm mt-1">{data.subtitle}</p>
           </div>
-          <div className="flex items-center gap-3">
-            <button
-              onClick={toggleLanguage}
-              className="text-white hover:bg-orange-600 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
-              aria-label="Toggle language"
-            >
-              🌐 {language === 'pt' ? 'EN' : 'PT'}
-            </button>
-            <div className="relative">
+          <div className="flex w-full flex-wrap items-center gap-3 md:flex-nowrap md:flex-1 md:justify-end">
+            <div className="relative flex-1 basis-full md:basis-auto min-w-[220px] max-w-2xl">
               <input
                 type="text"
                 value={narrativeFilter}
                 onChange={(event) => setNarrativeFilter(event.target.value)}
                 placeholder={language === 'pt' ? 'Filtrar narrativas...' : 'Filter narratives...'}
-                className="bg-white/15 text-white/90 placeholder:text-white/60 w-48 md:w-64 px-3 py-2 rounded-lg border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/60 transition"
+                className="bg-white/15 text-white/90 placeholder:text-white/60 w-full pl-4 pr-10 py-2 rounded-lg border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/60 transition"
                 onClick={(event) => event.stopPropagation()}
               />
               <span className="absolute inset-y-0 right-3 flex items-center text-white/70 pointer-events-none">
                 🔍
               </span>
               {normalizedSearch && narrativeSuggestions.length > 0 && (
-                <div className="absolute z-50 mt-2 left-0 right-0 max-h-80 overflow-auto rounded-xl border border-white/40 bg-white/95 shadow-xl text-slate-700">
+                <div className="absolute z-50 mt-2 left-0 right-0 min-w-full max-h-80 overflow-auto rounded-xl border border-white/40 bg-white/95 shadow-xl text-slate-700">
                   {narrativeSuggestions.map((item, idx) => (
                     <button
                       key={`${item.sectionId}-${item.version.id}-${idx}`}
@@ -1756,7 +1749,7 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
                       className="w-full text-left px-4 py-3 border-b border-white/60 last:border-b-0 hover:bg-white transition"
                     >
                       <p className="text-sm text-slate-800 mb-1 leading-snug">
-                        <HighlightableText text={item.snippet} highlight={narrativeFilter} />
+                        <HighlightableText text={item.snippet} searchTerm={narrativeFilter} />
                       </p>
                       <p className="text-xs text-slate-500">
                         {item.sectionTitle} • {item.version.title}
@@ -1767,8 +1760,16 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
               )}
             </div>
             <button
+              onClick={toggleLanguage}
+              className="shrink-0 text-white hover:bg-orange-600 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
+              aria-label="Toggle language"
+            >
+              🌐 {language === 'pt' ? 'EN' : 'PT'}
+            </button>
+
+            <button
               onClick={handleClose}
-              className="text-white hover:bg-orange-600 rounded-lg px-3 py-2 transition text-xl"
+              className="shrink-0 text-white hover:bg-orange-600 rounded-lg px-3 py-2 transition text-xl"
               aria-label="Close icebreaker modal"
             >
               ✕
