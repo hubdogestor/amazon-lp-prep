@@ -1608,7 +1608,7 @@ function IcebreakerModal({ language: initialLanguage, onClose }) {
         </div>
 
         <div className="p-6 overflow-y-auto max-h-[calc(90vh-100px)]">
-          <div className="space-y-6">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {sections.map((section) => {
               const sectionData = section.data;
               const isExpanded = expandedSection === section.id;
@@ -1776,7 +1776,7 @@ function MyQuestionsModal({ language: initialLanguage, onClose }) {
       aria-labelledby="myquestions-title"
     >
       <div
-        className="bg-white rounded-xl shadow-2xl max-w-5xl w-full max-h-[85vh] overflow-hidden mx-4"
+        className="bg-white rounded-xl shadow-2xl max-w-[95vw] w-full max-h-[90vh] overflow-hidden mx-4"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-4 flex items-center justify-between">
@@ -1802,7 +1802,7 @@ function MyQuestionsModal({ language: initialLanguage, onClose }) {
         </div>
 
         <div className="p-6 overflow-y-auto max-h-[calc(85vh-80px)]">
-          <div className="space-y-4">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             {data.categories.map((category, catIdx) => {
               const isExpanded = expandedCategories[catIdx];
               return (
@@ -1825,7 +1825,7 @@ function MyQuestionsModal({ language: initialLanguage, onClose }) {
                   </div>
                   {isExpanded && (
                     <div className="px-5 pb-5 pt-2 bg-white/40">
-                      <div className="space-y-4">
+                      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                         {category.questions.map((item, qIdx) => (
                           <div key={qIdx} className="border-l-4 border-purple-400 pl-4 py-2">
                             <div className="font-semibold text-slate-800 mb-1">{item.q}</div>

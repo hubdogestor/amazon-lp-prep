@@ -169,6 +169,33 @@ const myQuestionsData = {
         ]
       },
       {
+        category: "Sugestões Glassdoor",
+        icon: "📝",
+        description: "Perguntas inspiradas em relatos recentes do Glassdoor",
+        questions: [
+          {
+            q: "Vi no Glassdoor que entrevistas recentes destacam liderança inclusiva. Quais comportamentos vocês avaliam como diferenciais hoje?",
+            note: "Mostra que você conecta pesquisa externa com expectativas internas",
+            level: "Leadership"
+          },
+          {
+            q: "Relatos no Glassdoor mencionam desafios de integração entre tecnologia e operações. Quais aprendizados desses casos orientam o roadmap atual?",
+            note: "Demonstra que você transforma feedback público em ações estruturadas",
+            level: "Strategic"
+          },
+          {
+            q: "Muitos candidatos citam a etapa com o bar raiser. Que padrões de reprovação vocês identificaram e como ajustaram o coaching dos times?",
+            note: "Evidencia foco em melhoria contínua do processo seletivo",
+            level: "Operational"
+          },
+          {
+            q: "Glassdoor mostra que candidatos valorizam clareza sobre sucesso nos primeiros 90 dias. Como vocês estruturam o onboarding para garantir resultados rápidos?",
+            note: "Mostra preocupação em entregar impacto logo no início",
+            level: "Execution"
+          }
+        ]
+      },
+      {
         category: "Perguntas de Fechamento Estratégico",
         icon: "🚀",
         description: "Perguntas que demonstram confiança e visão de contribuição",
@@ -360,6 +387,33 @@ const myQuestionsData = {
             q: "Is there a clear career path for Program Managers wanting to evolve to more senior roles? What are key differentiators between L6 and L7?",
             note: "Shows ambition and career planning",
             level: "Career Growth"
+          }
+        ]
+      },
+      {
+        category: "Glassdoor Suggestions",
+        icon: "📝",
+        description: "Questions inspired by recent interview stories shared on Glassdoor",
+        questions: [
+          {
+            q: "Glassdoor reviews highlight inclusive leadership as a differentiator. Which behaviors do you prioritize when evaluating senior Program Managers?",
+            note: "Shows you connect external research with Amazon expectations",
+            level: "Leadership"
+          },
+          {
+            q: "Several candidates mention integration challenges between tech and operations. What lessons from those cases still guide the roadmap today?",
+            note: "Signals you convert public feedback into structured improvements",
+            level: "Strategic"
+          },
+          {
+            q: "Many reviews reference the bar raiser round. What recurring rejection patterns have you identified and how did you evolve interviewer coaching?",
+            note: "Reinforces focus on continuously improving the hiring journey",
+            level: "Operational"
+          },
+          {
+            q: "Candidates appreciate clarity on success within the first 90 days. How do you design onboarding so new PMs can deliver fast impact?",
+            note: "Emphasizes commitment to early wins and measurable outcomes",
+            level: "Execution"
           }
         ]
       },
