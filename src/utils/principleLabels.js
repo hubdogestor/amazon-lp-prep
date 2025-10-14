@@ -24,7 +24,7 @@ export const PT_LABELS = {
   "mentalidade de dono": "Mentalidade de dono",
   "mergulhar fundo": "Mergulhar fundo",
   "entregar resultados": "Entregar resultados",
-  "ganhar a confianca": "Ganhar a confidência",
+  "ganhar a confianca": "Ganhar a confiança",
   "obsessao pelo cliente": "Obsessão pelo cliente",
   "aprender e ser curioso": "Aprender e ser curioso",
   "insistir nos mais altos padroes": "Insistir nos mais altos padrões",
