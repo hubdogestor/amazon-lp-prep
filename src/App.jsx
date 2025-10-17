@@ -416,7 +416,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
 
   // Navegar para o case mapeado a partir de uma pergunta típica
   const navigateToMappedCase = useCallback((lpId, questionIndex) => {
-    const option = getBestCaseOption(lpId, questionIndex);
+    const option = getBestCaseOption(lpId, questionIndex + 1);
     if (!option || !option.caseData) {
       return;
     }
@@ -996,7 +996,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
                           const questionStorageId = `${principle.id}-${qIdx}`;
                           const isQuestionUsed = !!usedQuestions[questionStorageId];
                           const isHighlighted = highlightedTypicalQuestionId === questionId;
-                          const bestOption = getBestCaseOption(principle.id, qIdx);
+                          const bestOption = getBestCaseOption(principle.id, qIdx + 1);
                           const hasCase = Boolean(bestOption);
                           const caseScore = bestOption?.score ?? 0;
                           const mappedCaseTitle = bestOption?.caseData

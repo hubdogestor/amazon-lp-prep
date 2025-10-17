@@ -57,8 +57,8 @@ export function useCaseHelpers(principlesData, language) {
       .filter(({ data }) => Array.isArray(data.options) && data.options.some((option) => option.caseId === caseId));
 
     return entry.map(({ questionIndex, data }) => ({
-      number: questionIndex + 1,
-      text: language === "en" ? questions.en?.[questionIndex] : questions.pt?.[questionIndex],
+      number: questionIndex,
+      text: language === "en" ? questions.en?.[questionIndex - 1] : questions.pt?.[questionIndex - 1],
       score:
         (data.options.find((option) => option.caseId === caseId) || {}).score ??
         data.options[0]?.score ??
