@@ -16,9 +16,9 @@ const case_1 = {
     a: `Antes de qualquer ferramenta, fui pessoalmente a campanhas de ativação no campo para observar a realidade das equipes. Usando o DMAIC do Six Sigma, mapeei todo o fluxo e percebi que ninguém media quanto tempo o cliente ficava afetado pelas falhas. Criei o indicador “tempo de dor do cliente”, medindo horas de indisponibilidade multiplicadas pela base afetada. Essa métrica expôs onde a inércia custava mais.  
     Com os dados, montei mapa de causas - 61% dos defeitos vinham do QA offshore. Sugeri trazer parte da validação para o Brasil e construí um modelo financeiro mostrando que cada dia de atraso equivalia a R$ 780 mil em receita retida dos clientes. Apresentei para engenharia e finanças, e a mudança foi aprovada com orçamento próprio de R$ 180 mil.  
     Paralelamente, simplifiquei o processo: eliminei 11 handoffs e mantive oito marcos claros com responsáveis únicos, documentados no “One Flow Playbook”. Codifiquei do zero um painel em Python - o “5G Command Center” - que automatizava 14 reuniões semanais, consolidava SLA entre times e enviava alertas WhatsApp imediatos para desvios.  
-    No relacionamento com os clientes, adotei transparência: a cada duas semanas eu mesmo apresentava o mapa de tempo de dor, mostrando a redução em horas e comprometendo‑me com as causas ainda abertas. Esse simples gesto restaurou confiança e mudou o tom das reuniões.`,
+    No relacionamento com os clientes, adotei transparência: a cada duas semanas eu mesmo apresentava o mapa de tempo de dor, mostrando a redução em horas e comprometendo-me com as causas ainda abertas. Esse simples gesto restaurou confiança e mudou o tom das reuniões.`,
     
-    r: `Após seis meses, o tempo de ativação caiu de 214 para 58 dias (‑73%). As multas desapareceram, gerando R$ 10,8 milhões de economia anual. O NPS subiu de 17 para 56 e o modelo passou a ser referência interna: o Command Center foi replicado em oito países. As equipes reconheceram claramente a relação entre decisão técnica e impacto no cliente, e a organização recuperou respeito frente aos clientes.  
+    r: `Após seis meses, o tempo de ativação caiu de 214 para 58 dias (-73%). As multas desapareceram, gerando R$ 10,8 milhões de economia anual. O NPS subiu de 17 para 56 e o modelo passou a ser referência interna: o Command Center foi replicado em oito países. As equipes reconheceram claramente a relação entre decisão técnica e impacto no cliente, e a organização recuperou respeito frente aos clientes.  
     O resultado mais profundo foi cultural - pela primeira vez os times entenderam que simplificar é parte da engenharia, não um pedido de gestão.`,
     
     l: `Aprendi que simplificar não é reduzir, é organizar para enxergar. O indicador “tempo de dor do cliente” virou minha forma padrão de quantificar impacto em operações. Continuo usando essa abordagem em pagamentos digitais e serviços online - substituindo opiniões por medidas claras que todos podem questionar e melhorar.`
@@ -31,10 +31,10 @@ const case_1 = {
     t: `The regional board asked me to orchestrate recovery of the 5G activation process. I set three objectives: cut activation time from 214 to 60 days, remove client penalties completely, and restore trust-without increasing capex.  
     I soon realized that the core issue wasn’t resource shortage but structural complexity. Our system had grown organically without coherent design. Bringing clarity back became my first priority.`,
     
-    a: `Before proposing any tool, I went on‑site with field engineers to observe integration in real conditions. Using Six Sigma’s DMAIC cycle, I documented each phase and discovered that no one measured how long customers were actually impacted.  
+    a: `Before proposing any tool, I went on-site with field engineers to observe integration in real conditions. Using Six Sigma’s DMAIC cycle, I documented each phase and discovered that no one measured how long customers were actually impacted.  
     I developed a new metric called **“customer pain time”**, quantifying hours of unavailability multiplied by affected subscribers. This number put financial magnitude behind each delay and revealed that 61% of cumulative downtime came from offshore QA queues processing outdated builds outside our timezone.  
     I proposed repatriating part of QA and built a financial simulation proving that each lost day equaled roughly BRL 780 k in client revenue. The finance and engineering teams validated the data, and management approved a local QA initiative with a BRL 180 k budget.  
-    Meanwhile, I rebuilt the workflow from the ground up: 19 handoffs condensed into 8 checkpoints, each with a clearly identified owner and measurable entry/exit criteria. I wrote the “One Flow Playbook” and created supporting software-the **“5G Command Center”**-a Python‑based dashboard automating 14 recurring meetings, consolidating SLA calculations, and sending WhatsApp alerts the moment a threshold was exceeded.  
+    Meanwhile, I rebuilt the workflow from the ground up: 19 handoffs condensed into 8 checkpoints, each with a clearly identified owner and measurable entry/exit criteria. I wrote the “One Flow Playbook” and created supporting software-the **“5G Command Center”**-a Python-based dashboard automating 14 recurring meetings, consolidating SLA calculations, and sending WhatsApp alerts the moment a threshold was exceeded.  
     To regain client confidence, I instituted transparent reporting. Every two weeks I presented “pain time” dashboards directly to carrier executives, showing trend lines and actions under way. Turning data into visuals helped transform criticism into cooperation.`,
     
     r: `After six months, activation time dropped from 214 to 58 days (−73 %). All contractual penalties were eliminated, saving BRL 10.8 million per year. NPS rose from 17 to 56, and client trust was permanently restored. Carriers collectively unlocked around BRL 47 million in previously delayed revenue.  
@@ -57,21 +57,21 @@ const case_1 = {
       q: "O que você faria diferente hoje?",
       a: "Ter trazido o cliente para o diagnóstico inicial e não só para a entrega. Isso teria acelerado o apoio político e validado hipóteses mais cedo.",
       q_en: "What would you do differently today?",
-      a_en: "I would involve the client during the diagnostic phase, not only at delivery. Early engagement would have accelerated buy‑in and validated assumptions faster."
+      a_en: "I would involve the client during the diagnostic phase, not only at delivery. Early engagement would have accelerated buy-in and validated assumptions faster."
     },
     // 3. Obstáculo mais difícil / Hardest obstacle
     {
       q: "Qual foi o obstáculo mais difícil de superar?",
       a: "A oposição da engenharia offshore, que temia perder autonomia. Usei dados financeiros - R$47 mi bloqueados por atrasos - para transformar resistência em evidência.",
       q_en: "What was the most difficult obstacle to overcome?",
-      a_en: "Resistance from the offshore engineering team, afraid of losing autonomy. I used financial correlation - BRL 47 M blocked due to delays - to turn resistance into data‑driven insight."
+      a_en: "Resistance from the offshore engineering team, afraid of losing autonomy. I used financial correlation - BRL 47 M blocked due to delays - to turn resistance into data-driven insight."
     },
     // 4. Riscos / Risks
     {
       q: "Quais foram os principais riscos e como você os mitigou?",
       a: "Interrupção de entregas durante migração de QA e perda de patrocínio executivo. Mitiguei com rollout em lotes de 15 dias com rollback de 12 h e relatórios transparentes ao board.",
       q_en: "What were the main risks and how did you mitigate them?",
-      a_en: "Main risks were delivery interruption during QA migration and losing executive sponsorship. I mitigated through 15‑day batch rollouts, 12‑hour rollback plans, and transparent reports to the board."
+      a_en: "Main risks were delivery interruption during QA migration and losing executive sponsorship. I mitigated through 15-day batch rollouts, 12-hour rollback plans, and transparent reports to the board."
     },
     // 5. Dados / Data rationale
     {

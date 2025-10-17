@@ -94,7 +94,7 @@ const case_4 = {
       a: "Mantive comunicação transparente, com relatórios semanais e acompanhamento VIP de clientes chave. Preferi admitir riscos e explicar planos ao invés de esconder instabilidades - isso manteve confiança."
       ,
       q_en: "How did you handle pressure from merchants and the board?",
-      a_en: "I kept transparent communication, weekly reports, and VIP follow-up for key clients. I preferred admitting risks and explaining plans rather than hiding instability — that preserved trust."
+      a_en: "I kept transparent communication, weekly reports, and VIP follow-up for key clients. I preferred admitting risks and explaining plans rather than hiding instability -- that preserved trust."
     },
     {
       q: "Que aprendizado desse caso você aplicou em outros fluxos?",
@@ -129,7 +129,7 @@ const case_4 = {
       a: "Quando vi o gráfico p95 colapsando após o ajuste na fila de fraude - ali soube que tínhamos virado o jogo. Era mais do que resolver um bug, era restaurar a confiança do cliente."
       ,
       q_en: "What was your decisive moment in this investigation?",
-      a_en: "When I saw the P95 curve collapse after adjusting the fraud queue — I knew we'd turned the tide. It was more than fixing a bug; it was restoring customer trust."
+      a_en: "When I saw the P95 curve collapse after adjusting the fraud queue -- I knew we'd turned the tide. It was more than fixing a bug; it was restoring customer trust."
     },
     {
       q: "O que esse caso demonstra sobre o princípio 'Dive Deep'?",
