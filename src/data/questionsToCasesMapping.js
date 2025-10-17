@@ -2290,6 +2290,10 @@ export const questionsToCasesMapping = {
     "2": {
       "options": [
         {
+          "caseId": "unimed-vendor-termination-trust",
+          "score": 95
+        },
+        {
           "caseId": "unimed-ebitda-growth",
           "score": 95
         },
@@ -2326,6 +2330,10 @@ export const questionsToCasesMapping = {
     "5": {
       "options": [
         {
+          "caseId": "unimed-vendor-termination-trust",
+          "score": 98
+        },
+        {
           "caseId": "unimed-ebitda-growth",
           "score": 95
         },
@@ -2349,6 +2357,10 @@ export const questionsToCasesMapping = {
     },
     "7": {
       "options": [
+        {
+          "caseId": "unimed-vendor-termination-trust",
+          "score": 98
+        },
         {
           "caseId": "unimed-ebitda-growth",
           "score": 92
@@ -2402,6 +2414,10 @@ export const questionsToCasesMapping = {
           "score": 98
         },
         {
+          "caseId": "unimed-vendor-termination-trust",
+          "score": 92
+        },
+        {
           "caseId": "huawei-global-rollout",
           "score": 90
         }
@@ -2409,6 +2425,10 @@ export const questionsToCasesMapping = {
     },
     "12": {
       "options": [
+        {
+          "caseId": "unimed-vendor-termination-trust",
+          "score": 98
+        },
         {
           "caseId": "unimed-ebitda-growth",
           "score": 95
