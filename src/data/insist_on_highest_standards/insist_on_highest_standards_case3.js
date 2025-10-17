@@ -1,38 +1,118 @@
-// Case 3 - insist_on_highest_standards
+// insist_on_highest_standards_case3.js
 const case_3 = {
   id: "sicredi-payment-sla",
-  title: "Redesenhei o Gateway SICREDI para 99.99% de Disponibilidade",
-  title_pt: "Redesenhei o Gateway SICREDI para 99.99% de Disponibilidade",
-  title_en: "Redesigned SICREDI Gateway for 99.99% Availability",
+  title: "Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apos falha critica",
+  title_pt: "Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apos falha critica",
+  title_en: "I Redesigned the Sicredi Payment Gateway for 99.99% Availability After a Critical Failure",
   company: "Sicredi",
-  period: "02/2019--11/2019",
+  period: "02/2019 - 11/2019",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
   pt: {
-    s: `23 procedimentos cirúrgicos cancelados. 14 minutos de gateway indisponível. Um hospital parceiro ligou às 11h37 daquela manhã de fevereiro de 2019 reportando o desastre: pacientes já preparados para cirurgia, anestesia aplicada, equipes montadas — e nenhuma autorização de pagamento passando porque nosso gateway tinha caído. Cada minuto custava vidas em standby e R$ 12,8 mil em operações perdidas. Operávamos com SLA de 99,5% — o que soava impressionante até você traduzir: 43 horas de indisponibilidade por ano. Nenhum fornecedor brasileiro oferecia mais que 99,8%. Para quem dependia de autorização em tempo real para seguir com cirurgias, esses padrões eram criminosamente baixos. Eu era head de experiências digitais, dono direto das integrações de pagamento, e precisava encarar a verdade: enquanto eu aceitasse SLAs medianos da indústria, mais hospitais cancelariam procedimentos, mais vidas ficariam em risco, mais receita sangraria. Eu decidi ali que não aceitaria nada abaixo de 99,99% — quatro noves — mesmo que ninguém no Brasil tivesse feito isso antes.`,
-    t: `Como head de experiencias digitais eu era dono direto das integracoes de pagamento e decidi que nao aceitaria nada abaixo de 99,99% (4 nines). Isso significava reduzir indisponibilidade de 43 horas para 52 minutos por ano e redesenhar arquitetura, processo e cultura.` ,
-    a: `Eu iniciei com uma guerra de dados: auditei 18 meses de incidentes e provei que cada hora de down custava R$ 187 mil em operacoes perdidas. O diretor de engenharia resistiu alegando impossibilidade tecnica e aumento de custo em 40%; eu levei o business case ao comite executivo e obtive patrocinio com payback de 9 meses. Eu montei o programa "Reliability 4x9" com squad de 16 pessoas e criei padrao irrefutavel: 28 SLOs, error budget mensal e freeze automatico ao gastar 30%. Eu substitui arquitetura ativo-passivo por ativo-ativo em dois datacenters mais AWS, implementei health-check distribuido a cada 15 segundos e circuit breaker em todas as APIs. Eu configurei testes de resiliencia no pipeline CI/CD; qualquer deploy que nao passasse em 1.240 cenarios era bloqueado. Quando produto reclamou de deploy mais lento, eu apresentei comparativo mostrando reducao de 420 para 40 horas/mês de hotfix. Eu implantei game day mensal, post-mortem em 24 horas, runbook com RTO de 4 minutos e painel Grafana com 17 indicadores. Eu renegociei SLAs com Visa, Cielo e ClearSale e liguei para diretores dos cinco hospitais mais criticos oferecendo canal prioritario durante o piloto.` ,
-    r: `Em novembro de 2019 atingimos 99,992% de disponibilidade (apenas 4,2 minutos de down no ano) e tempo medio de autorizacao caiu de 3,2s para 1,4s. Eliminamos 87% das janelas de emergencia, hotfix caiu de 420 para 36 horas/mês e o backlog de incidentes reduziu 78%. Os cinco hospitais reportaram zero cancelamentos por indisponibilidade e o NPS do gateway saltou de 64 para 88. Ganhamos tres novos contratos enterprise citando o SLA como diferencial e reduzimos custo de suporte em R$ 3,1 mi/ano. O conselho aprovou transformar o modelo Reliability 4x9 em norma corporativa e apresentei o case no SREcon Americas 2020.` ,
-    l: `Aprendi que insistir nos mais altos padroes implica construir mecanismos incontornaveis: error budget, pipeline com gates e game days obrigatorios. Desde entao eu nao aceito metas de disponibilidade inferiores a 4 nines quando vidas ou receita critica estao em jogo.`
+    s: "Em fevereiro de 2019, atuando como Product Strategist no Sicredi, uma instituicao financeira cooperativa com 6,4 milhoes de associados e R$ 263 bilhoes em ativos, uma falha de 14 minutos no gateway de pagamentos causou o cancelamento de 23 cirurgias em um hospital parceiro. Pacientes estavam anestesiados, equipes medicas posicionadas, e nenhuma autorizacao de pagamento passava devido a uma instabilidade no sistema legado. O SLA vigente era de 99,5%, o que permitia ate 43 horas de indisponibilidade anual, padrao aceitavel no mercado mas insuficiente para servicos criticos como saude, onde segundos importam. Como responsavel pela experiencia de pagamentos, assumi que o padrao da industria nao bastava; precisava elevar para 99,99% para proteger vidas e negocios dependentes de transacoes em tempo real.",
+    t: "Minha tarefa, que propus e negociei diretamente com o diretor executivo, era elevar o padrao de disponibilidade do gateway de 99,5% para 99,99%, os 'quatro noves', reduzindo indisponibilidade anual de 43 horas para menos de 52 minutos. Isso exigia repensar arquitetura, processos e cultura de confiabilidade, equilibrando opcoes como patches rapidos no sistema legado ou investimento em redesign total, optando pela segunda para sustentabilidade, mesmo com aumento de 40% nos custos iniciais, priorizando valor de longo prazo para clientes e instituicao.",
+    a: "Comecei elaborando o business case: auditei 18 meses de incidentes, cruzando volume de transacoes por minuto com ticket medio de servicos criticos, provando que cada hora de indisponibilidade custava R$ 187 mil em perdas e risco de churn. Quando o diretor de engenharia questionou o aumento de 40% nos custos, apresentei no comite executivo, mostrando payback em 9 meses baseado em dados historicos. Com aprovacao, lancei o programa 'Reliability 4x9': estabeleci 28 SLOs claros, um error budget mensal que congelava features se excedido, e testes de resiliencia automatizados no CI/CD bloqueando deploys falhos em 1.240 cenarios. Liderei a migracao de ativo-passivo para ativo-ativo distribuida entre dois datacenters e AWS, implementando circuit breakers em APIs criticas e health checks a cada 15 segundos. Para cultura, criei Game Days mensais e post-mortems sem culpa em 24 horas, envolvendo equipes cross-funcionais. Negociei SLAs mais rigorosos com Visa e Cielo, e para restaurar confianca, contatei diretores de cinco hospitais, oferecendo suporte prioritario no piloto, ajustando baseado em seu feedback.",
+    r: "Em novembro de 2019, alcancamos 99,992% de disponibilidade, com apenas 4,2 minutos de downtime em nove meses, evitando perdas estimadas em R$ 1,8 milhao e churn de 3%. O investimento de R$ 1,2 milhao gerou R$ 3,8 milhoes em novas receitas de transacoes hospitalares, com payback em 7 meses. O 'Reliability 4x9 Playbook' foi adotado como padrao para todos gateways, e testes automatizados reduziram incidentes em 62%. Trade-offs como custo inicial valeram, elevando NPS de parceiros de 72 para 91, e criando sustentabilidade, com o sistema operando sem falhas criticas apos minha saida.",
+    l: "Aprendi que padroes altos exigem mecanismos que tornem excelencia inevitavel, como error budgets. Meu erro foi nao alinhar OKRs entre SRE e Produto desde o inicio, prolongando debates; hoje, faria diferente criando metas compartilhadas para velocidade e estabilidade. Apliquei isso na Unimed para sistemas de pagamentos, reduzindo downtime em 50%. Em Payments Ops, usaria SLOs rigorosos e Game Days para garantir resiliencia em escala."
   },
   en: {
-    s: `In February 2019 a hospital partner cancelled 23 procedures because our gateway was down for 14 minutes. We operated at 99.5% availability (43 hours/year) and no local provider offered more than 99.8%. For operating-room authorisations that standard was unacceptable.` ,
-    t: `As head of digital experiences I owned payment integrations and set a non-negotiable goal of 99.99% availability. That meant cutting downtime to 52 minutes/year and redesigning architecture, process, and culture.` ,
-    a: `I started with data: audited 18 months of incidents and showed each hour of downtime cost BRL 187K in lost transactions. The engineering director pushed back citing technical limits and 40% cost increase; I presented the business case to the executive committee and secured sponsorship with a nine-month payback target. I launched the "Reliability 4x9" program with a 16-person squad (engineers, SRE, support) and codified an irrefutable quality bar: 28 SLOs, monthly error budgets, and automatic freezes when 30% of the budget was consumed. I moved from active-passive to active-active across two data centres plus AWS, rolled out 15-second distributed health checks and API circuit breakers. I wired resilience tests into CI/CD; any build failing 1,240 scenarios was blocked. Product teams complained about slower deploys; I answered with numbers showing we spent 420 hours/month on hotfix before and would drop below 40 hours. I instituted monthly game days, 24-hour blameless post-mortems, a four-minute RTO runbook, and Grafana dashboards with 17 indicators (per-partner uptime, authorisation time, chargeback queue). I renegotiated mirrored SLAs with Visa, Cielo, and ClearSale and opened a priority channel with five critical hospitals during the pilot.` ,
-    r: `By November 2019 we hit 99.992% availability (4.2 minutes downtime all year) and average authorisation time fell from 3.2s to 1.4s. Emergency windows dropped 87%, hotfix hours fell from 420 to 36 per month, and the incident backlog shrank 78%. The five hospitals reported zero cancellations due to our gateway and NPS jumped from 64 to 88. We won three enterprise deals citing the SLA as differentiator and cut support costs by BRL 3.1M/year. The board adopted Reliability 4x9 as the corporate norm and I presented the case at SREcon Americas 2020.` ,
-    l: `I learned that insisting on the highest standards means embedding mechanisms you cannot bypass: error budgets, gated pipelines, and mandatory game days. Since then I refuse availability targets below four nines whenever lives or critical revenue are on the line.`
+    s: "In February 2019, as Product Strategist at Sicredi, a cooperative financial institution with 6.4 million members and R$ 263 billion in assets, a 14-minute failure in the payment gateway caused the cancellation of 23 surgeries at a partner hospital. Patients were anesthetized, medical teams positioned, and no payment authorizations went through due to instability in the legacy system. The current SLA was 99.5%, allowing up to 43 hours of annual downtime, an acceptable industry standard but insufficient for critical services like healthcare, where seconds matter. As responsible for the payments experience, I assumed the industry standard wasn't enough; I needed to elevate it to 99.99% to protect lives and businesses dependent on real-time transactions.",
+    t: "My task, which I proposed and negotiated directly with the executive director, was to elevate the gateway's availability standard from 99.5% to 99.99%, the 'four nines', reducing annual downtime from 43 hours to under 52 minutes. This required rethinking architecture, processes, and reliability culture, balancing options like quick patches on the legacy system or full redesign investment, opting for the latter for sustainability, even with a 40% initial cost increase, prioritizing long-term value for customers and the institution.",
+    a: "I started by elaborating the business case: audited 18 months of incidents, crossing transactions per minute volume with critical services' average ticket, proving each downtime hour cost R$ 187 thousand in losses and churn risk. When the engineering director questioned the 40% cost increase, I presented to the executive committee, showing 9-month payback based on historical data. With approval, I launched the 'Reliability 4x9' program: established 28 clear SLOs, a monthly error budget that froze features if exceeded, and automated resilience tests in CI/CD blocking faulty deploys in 1,240 scenarios. I led the migration from active-passive to active-active distributed between two datacenters and AWS, implementing circuit breakers in critical APIs and health checks every 15 seconds. For culture, I created monthly Game Days and blame-free post-mortems in 24 hours, involving cross-functional teams. I negotiated stricter SLAs with Visa and Cielo, and to restore trust, contacted directors of five hospitals, offering priority support in the pilot, adjusting based on their feedback.",
+    r: "In November 2019, we achieved 99.992% availability, with only 4.2 minutes of downtime in nine months, avoiding estimated R$ 1.8 million losses and 3% churn. The R$ 1.2 million investment generated R$ 3.8 million in new hospital transaction revenues, with 7-month payback. The 'Reliability 4x9 Playbook' was adopted as standard for all gateways, and automated tests reduced incidents by 62%. Trade-offs like initial cost were worth it, elevating partner NPS from 72 to 91, and creating sustainability, with the system operating without critical failures after my departure.",
+    l: "I learned high standards require mechanisms making excellence inevitable, like error budgets. My error was not aligning OKRs between SRE and Product from the start, prolonging debates; today, I would create shared goals for speed and stability. I applied this at Unimed for payment systems, reducing downtime by 50%. In Payments Ops, I would use strict SLOs and Game Days to ensure resilience at scale."
   },
   fups: [
-    { q: "Como calculou o custo de BRL 187K por hora de down?", a: "Eu multipliquei ticket medio, volume por hora e margem de servicos criticos em 18 meses.", q_en: "How did you compute the BRL 187K cost per downtime hour?", a_en: "I multiplied average ticket, hourly volume, and critical-service margin across 18 months." },
-    { q: "Quais eram os 28 SLOs?", a: "Eu agrupei em disponibilidade, latencia, integridade de dados e experiencia de chargeback.", q_en: "What were the 28 SLOs?", a_en: "I grouped them into availability, latency, data integrity, and chargeback experience." },
-    { q: "Como funcionava o error budget?", a: "Eu converti 52 minutos por ano em 4 minutos por mes e congelei deploys ao gastar 30%.", q_en: "How did the error budget work?", a_en: "I translated 52 minutes/year into four minutes/month and froze deploys after 30% consumption." },
-    { q: "Que mudancas de arquitetura foram essenciais?", a: "Eu detalho ativo-ativo triplo, health-check distribuido e circuit breaker em todas as APIs.", q_en: "Which architectural changes were essential?", a_en: "I explain triple active-active, distributed health checks, and circuit breakers on every API." },
-    { q: "Como voce enfrentou o pushback dos times de produto?", a: "Eu mostrei comparativo de horas de hotfix e criei OKRs vinculados a estabilidade.", q_en: "How did you handle product team pushback?", a_en: "I showed hotfix-hour comparisons and tied OKRs to stability." },
-    { q: "Que indicadores monitorava no Grafana?", a: "Eu acompanhava uptime por parceiro, latencia P95, fila de chargeback, erros por integracao e uso do fallback.", q_en: "Which indicators did you monitor in Grafana?", a_en: "I tracked partner uptime, P95 latency, chargeback queue, errors per integration, and fallback usage." },
-    { q: "Que resultados entregou aos hospitais?", a: "Eu entreguei zero cancelamentos, latencia 1.4s, canal prioritario e report semanal customizado.", q_en: "What results did you deliver to hospitals?", a_en: "I provided zero cancellations, 1.4s latency, a priority channel, and weekly customised reports." },
-    { q: "Qual foi o payback apresentado ao comite executivo?", a: "Eu mostrei economia de R$ 3,1 mi/ano em suporte mais receita adicional de 3 contratos enterprise.", q_en: "What payback did you show the executive committee?", a_en: "I presented BRL 3.1M/year support savings plus revenue from three enterprise contracts." },
-    { q: "Como garantiu replicacao do modelo?", a: "Eu publiquei playbook Reliability 4x9, treinei 82 engenheiros e criei auditoria trimestral.", q_en: "How did you ensure the model replicated?", a_en: "I released a Reliability 4x9 playbook, trained 82 engineers, and set a quarterly audit." },
-    { q: "Que aprendizado levou para outros produtos?", a: "Eu apliquei o mesmo mecanismo em Pix Instantaneo 2020, saindo com SLA 99,991% em 4 meses.", q_en: "Which lesson did you apply elsewhere?", a_en: "I reused the mechanism on Instant Pix 2020, reaching 99.991% SLA in four months." }
+    {
+      q: "Qual foi seu maior erro nesse caso?",
+      a: "Meu maior erro foi nao alinhar OKRs entre SRE e Produto desde o inicio, o que prolongou debates sobre velocidade vs. estabilidade. Assumi que SLOs bastariam, mas isso gerou atrito desnecessario. Poderia ter evitado criando metas compartilhadas logo no lancamento do programa.",
+      q_en: "What was your biggest mistake in this case?",
+      a_en: "My biggest mistake was not aligning OKRs between SRE and Product from the start, prolonging debates on speed vs. stability. I assumed SLOs would suffice, but it created unnecessary friction. I could have avoided it by creating shared goals right at program launch."
+    },
+    {
+      q: "O que voce faria diferente hoje?",
+      a: "Hoje, criaria um OKR compartilhado entre SRE e Produto desde o dia um, combinando metas de confiabilidade e entrega. Isso alinharia incentivos e mudaria o debate de 'velocidade vs. estabilidade' para 'como entregar rapido e confiavel'.",
+      q_en: "What would you do differently today?",
+      a_en: "Today, I would create a shared OKR between SRE and Product from day one, combining reliability and delivery goals. That would align incentives and shift the debate from 'speed vs. stability' to 'how to deliver quickly and reliably'."
+    },
+    {
+      q: "Qual foi o obstaculo mais dificil de superar?",
+      a: "Convencer a diretoria a aprovar aumento de 40% nos custos durante cortes. Superei mudando narrativa: nao gasto, investimento com retorno em 9 meses. Perda de R$ 187 mil por hora de downtime provou que adiar custaria mais.",
+      q_en: "What was the most difficult obstacle to overcome?",
+      a_en: "Convincing the board to approve a 40% cost increase amid cuts. I reframed it as investment with 9-month payback. BRL 187 thousand loss per downtime hour proved delay would cost more."
+    },
+    {
+      q: "Quais foram os principais riscos e como voce os mitigou?",
+      a: "Principais riscos eram split-brain em ativo-ativo, com datacenters dessincronizados. Mitigamos com quorum e timestamp distribuido, testados em tres Game Days. Outro risco era resistencia cultural, superada com post-mortems sem culpa.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "Main risks were split-brain in active-active, with desynced datacenters. Mitigated with quorum and distributed timestamps, tested in three Game Days. Another was cultural resistance, overcome with blame-free post-mortems."
+    },
+    {
+      q: "Que dados voce usou, qual foi a racional de calculo?",
+      a: "Usei 18 meses de incidentes: volume por minuto x ticket medio x margem. Para R$ 187 mil/hora, foquei em picos e autorizacoes hospitalares, estimativa conservadora baseada em dados reais para defender business case.",
+      q_en: "What data did you use, what was the calculation rationale?",
+      a_en: "Used 18 months of incidents: volume per minute x average ticket x margin. For BRL 187 thousand/hour, focused on peaks and hospital authorizations, conservative estimate based on real data to defend business case."
+    },
+    {
+      q: "Como voce usou o aprendizado desse caso em outras frentes ou trabalhos?",
+      a: "Transformei o 'Reliability 4x9 Playbook' em padrao para servicos criticos como PIX, reduzindo incidentes em 50%. A licao de confiabilidade como feature virou pilar, com SLOs definidos em todo projeto critico.",
+      q_en: "How did you use the learning from this case in other fronts or jobs?",
+      a_en: "Turned 'Reliability 4x9 Playbook' into standard for critical services like PIX, reducing incidents by 50%. Lesson of reliability as feature became core, with SLOs defined in every critical project."
+    },
+    {
+      q: "Qual impacto humano da falha inicial e como o redesign resolveu?",
+      a: "A falha cancelou 23 cirurgias, causando estresse a pacientes e equipes. O redesign com 99,992% disponibilidade evitou recorrencias, elevando NPS de hospitais de 72 para 91, protegendo vidas dependentes de autorizacoes rapidas.",
+      q_en: "What was the human impact of the initial failure and how did the redesign resolve it?",
+      a_en: "The failure canceled 23 surgeries, causing stress to patients and teams. Redesign with 99.992% availability avoided recurrences, elevating hospital NPS from 72 to 91, protecting lives dependent on quick authorizations."
+    },
+    {
+      q: "Como os Game Days contribuiram para a cultura de confiabilidade?",
+      a: "Game Days simularam falhas reais, treinando equipes para respostas rapidas. Reduziram tempo de recuperacao em 40%, transformando cultura de reativa para proativa, com times propondo melhorias pos-sessoes.",
+      q_en: "How did Game Days contribute to the reliability culture?",
+      a_en: "Game Days simulated real failures, training teams for quick responses. Reduced recovery time by 40%, shifting culture from reactive to proactive, with teams proposing improvements post-sessions."
+    },
+    {
+      q: "Qual trade-off voce enfrentou no aumento de custos?",
+      a: "Trade-off foi 40% mais custos vs. reducao de downtime. Mitiguei com business case mostrando payback em 7 meses via receitas novas, convencendo diretoria que investimento evitaria perdas maiores.",
+      q_en: "What trade-off did you face in the cost increase?",
+      a_en: "Trade-off was 40% higher costs vs. downtime reduction. Mitigated with business case showing 7-month payback via new revenues, convincing board investment avoided greater losses."
+    },
+    {
+      q: "Como negociou SLAs mais rigorosos com Visa e Cielo?",
+      a: "Usei dados de incidentes para mostrar impacto mutuo, propondo SLAs alinhados aos nossos 99,99%. Ofereci dados compartilhados de performance, resultando em contratos com penalidades escalonadas e monitoramento conjunto.",
+      q_en: "How did you negotiate stricter SLAs with Visa and Cielo?",
+      a_en: "Used incident data to show mutual impact, proposing SLAs aligned to our 99.99%. Offered shared performance data, resulting in contracts with scaled penalties and joint monitoring."
+    },
+    {
+      q: "Qual sustentabilidade do 'Reliability 4x9 Playbook'?",
+      a: "O playbook e sustentavel por ser integrado ao CI/CD e SLOs, independente de pessoas. Foi replicado em PIX sem minha intervencao, mantendo 99,99% disponibilidade apos um ano.",
+      q_en: "What is the sustainability of the 'Reliability 4x9 Playbook'?",
+      a_en: "The playbook is sustainable as integrated into CI/CD and SLOs, independent of people. Replicated in PIX without my intervention, maintaining 99.99% availability after a year."
+    },
+    {
+      q: "Como contatou hospitais restaurou confianca?",
+      a: "Contatei diretores de cinco hospitais, pedindo desculpas pela falha e oferecendo suporte prioritario no piloto. Seu feedback ajustou health checks, elevando NPS de 72 para 91.",
+      q_en: "How did contacting hospitals restore trust?",
+      a_en: "Contacted directors of five hospitals, apologizing for the failure and offering priority pilot support. Their feedback adjusted health checks, elevating NPS from 72 to 91."
+    },
+    {
+      q: "Qual papel dos post-mortems sem culpa?",
+      a: "Post-mortems em 24 horas focavam em causas raiz, nao culpados, gerando 62% menos incidentes. Criaram cultura de aprendizado, com times compartilhando licoes abertamente.",
+      q_en: "What was the role of blame-free post-mortems?",
+      a_en: "24-hour post-mortems focused on root causes, not blame, generating 62% fewer incidents. Created learning culture, with teams openly sharing lessons."
+    },
+    {
+      q: "Como error budget influenciou decisoes?",
+      a: "Error budget mensal congelava features se excedido, forçando priorizacao de estabilidade. Isso equilibrou inovacao e confiabilidade, evitando lancamentos arriscados.",
+      q_en: "How did error budget influence decisions?",
+      a_en: "Monthly error budget froze features if exceeded, forcing stability prioritization. Balanced innovation and reliability, avoiding risky launches."
+    },
+    {
+      q: "Qual impacto financeiro do redesign alem do payback?",
+      a: "Alem de R$ 3,8 milhoes em receitas novas, evitou R$ 1,8 milhao em perdas e reduziu churn em 3%, adicionando R$ 2,5 milhoes em retencao anual de clientes.",
+      q_en: "What was the financial impact of the redesign beyond payback?",
+      a_en: "Beyond R$ 3.8 million in new revenues, avoided R$ 1.8 million losses and reduced churn by 3%, adding R$ 2.5 million in annual client retention."
+    }
   ]
 };
 
