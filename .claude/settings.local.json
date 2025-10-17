@@ -19,7 +19,10 @@
       "Bash(git reset:*)",
       "Bash(git checkout:*)",
       "Bash(python:*)",
-      "Bash(del fix_encoding.py)"
+      "Bash(del fix_encoding.py)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(del \"d:\\github2\\amazon-lp-prep\\fix_unicode.py\")"
     ],
     "deny": [],
     "ask": []
