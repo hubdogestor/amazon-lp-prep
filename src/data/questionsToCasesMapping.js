@@ -1456,7 +1456,7 @@ export const questionsToCasesMapping = {
           "score": 98
         },
         {
-          "caseId": "disagreement-with-manager-sla",
+          "caseId": "bradesco-sla-director",
           "score": 90
         }
       ]
@@ -1496,7 +1496,7 @@ export const questionsToCasesMapping = {
     "5": {
       "options": [
         {
-          "caseId": "disagreement-with-manager-sla",
+          "caseId": "bradesco-sla-director",
           "score": 82
         }
       ]
@@ -1540,7 +1540,7 @@ export const questionsToCasesMapping = {
     "10": {
       "options": [
         {
-          "caseId": "disagreement-with-manager-sla",
+          "caseId": "bradesco-sla-director",
           "score": 88
         },
         {
