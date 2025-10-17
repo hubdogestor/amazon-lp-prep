@@ -87,7 +87,7 @@ const case_8 = {
     },
     {
       q: "Como você lidou com a pressão do CEO e da imprensa?",
-      a: "Comuniquei que três semanas de espera eram melhor que um lançamento instável. Criamos estratégia de reputação: "lançamento responsável".",
+      a: "Comuniquei que três semanas de espera eram melhor que um lançamento instável. Criamos estratégia de reputação: 'lançamento responsável'.",
       q_en: "How did you handle the pressure from the CEO and the press?",
       a_en: "Explained that 3-week delay was safer than unstable launch. Built 'responsible launch' communication strategy."
     },
