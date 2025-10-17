@@ -1,4 +1,3 @@
-// Case 6 - deliver_results
 const case_6 = {
   id: "unimed-vendor-termination",
   title: "Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina",
