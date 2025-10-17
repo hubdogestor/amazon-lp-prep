@@ -26,87 +26,102 @@ const case_1 = {
     { q: "Qual foi seu maior erro ou falha nesse caso?", a: "Subestimei a fragmentação política entre as quatro operadoras e demorei a instaurar governança única. Essa falha inicial custou três semanas, mas consolidou o aprendizado de começar sempre com estrutura unificada.", q_en: "What was your biggest mistake or failure?", a_en: "I underestimated political fragmentation among the four carriers, losing three weeks before enforcing unified governance--lesson: start with single-tower structure." },
     { q: "O que você faria diferente hoje?", a: "Implantaria imediatamente a torre de controle e o comitê executivo no primeiro mês, antecipando riscos e reduzindo retrabalho.", q_en: "What would you do differently today?", a_en: "I would deploy the control tower and steering committee in month one to surface risks early and cut rework." },
     { q: "Qual foi o obstáculo mais difícil que você enfrentou?", a: "Gerir fornecedores com baixo desempenho e disputar prioridade com times comerciais. Enfrentei resistência mas mantive foco em dados e prazos inegociáveis.", q_en: "What was the hardest obstacle you faced?", a_en: "Handling low-performing vendors and internal commercial pressure; stayed with data-driven approach and non-negotiable deadlines." },
-    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Risco de atraso regulatório, gargalo logístico e paralisação local. Criei planos contingenciais e me envolvi pessoalmente nas negociações mais críticas.", q_en: "Main risks were regulatory delay, logistics bottleneck and local stoppages; mitigated via contingency plans and personal negotiation." },
-    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Combinei lead time médio de licenças, KPIs de VPI e SLA logístico em modelo previsional de risco x prazo usado no painel executivo.", q_en: "Combined average license lead-time, VPI KPIs, and logistics SLA into risk-vs-schedule model displayed on exec dashboard." },
-    { q: "Como você usou o aprendizado desse caso em outras frentes?", a: "Reapliquei VPI e torre de controle em 11 países Latam, reduzindo lead time médio em -60 % sem aumentar CAPEX.", q_en: "I replicated VPI and control tower across 11 Latam countries cutting lead-time 60 % with no CAPEX increase." },
+    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Risco de atraso regulatório, gargalo logístico e paralisação local. Criei planos contingenciais e me envolvi pessoalmente nas negociações mais críticas.", q_en: "What were the main risks and how did you mitigate them?", a_en: "Main risks were regulatory delay, logistics bottleneck and local stoppages; mitigated via contingency plans and personal negotiation." },
+    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Combinei lead time médio de licenças, KPIs de VPI e SLA logístico em modelo previsional de risco x prazo usado no painel executivo.", q_en: "What data did you use and what was the calculation rationale?", a_en: "Combined average license lead-time, VPI KPIs, and logistics SLA into risk-vs-schedule model displayed on exec dashboard." },
+    { q: "Como você usou o aprendizado desse caso em outras frentes?", a: "Reapliquei VPI e torre de controle em 11 países Latam, reduzindo lead time médio em -60 % sem aumentar CAPEX.", q_en: "How did you use the learning from this case in other areas?", a_en: "I replicated VPI and control tower across 11 Latam countries cutting lead-time 60 % with no CAPEX increase." },
 
     // existentes mantidas
     {
       q: "Qual foi o obstaculo mais dificil de superar dos seis que voce enfrentou?",
       a: "O obstáculo dos integradores com 61 % de aderência; substituí em 96 h apesar da resistência comercial, decisão que salvou o cronograma inteiro.",
-      q_en: "The integrators at 61 % adherence--replaced in 96 h despite commercial resistance; decision saved the entire schedule."
+      q_en: "What was the hardest blocker among the six you faced?",
+      a_en: "The integrators at 61 % adherence--replaced in 96 h despite commercial resistance; decision saved the entire schedule."
     },
     {
       q: "Como voce atacou seis obstaculos em paralelo sem perder foco?",
       a: "Dividi cada bloqueador com owner e pipeline claros e controlei via torre central. Priorizava sempre pelo impacto no caminho crítico.",
-      q_en: "Assigned dedicated owners per blocker and monitored through central tower; prioritized by critical-path impact."
+      q_en: "How did you attack six blockers in parallel without losing focus?",
+      a_en: "Assigned dedicated owners per blocker and monitored through central tower; prioritized by critical-path impact."
     },
     {
       q: "Como voce conseguiu substituir dois integradores em 96 horas?",
       a: "Mantive backup homologado desde o dia um e usei dados do VPI e risco de multa para aprovar troca imediata.",
-      q_en: "Kept pre-qualified vendors and used VPI and penalty risk to approve instant switch."
+      q_en: "How did you replace two integrators in 96 hours?",
+      a_en: "Kept pre-qualified vendors and used VPI and penalty risk to approve instant switch."
     },
     {
       q: "Qual foi o maior risco que voce assumiu pessoalmente?",
       a: "Viajar a Goiânia para negociar liberação da torre três semanas antes da Copa -- foi ação de alto risco mas necessária para evitar atraso nacional.",
-      q_en: "Flying to Goiânia to secure tower release three weeks pre-Cup -- a high-risk but necessary action to avoid nationwide delay."
+      q_en: "What was the biggest personal risk you took?",
+      a_en: "Flying to Goiânia to secure tower release three weeks pre-Cup -- a high-risk but necessary action to avoid nationwide delay."
     },
     {
       q: "Como voce garantiu que os mecanismos criados sobrevivessem apos sua saida?",
       a: "Documentei workflow, criei KPIs automáticos e treinei equipes locais. Os mecanismos operam autonomamente em 11 países.",
-      q_en: "Documented workflow, built auto KPIs, trained local teams -- systems now run autonomously in 11 countries."
+      q_en: "How did you ensure the mechanisms survived after your exit?",
+      a_en: "Documented workflow, built auto KPIs, trained local teams -- systems now run autonomously in 11 countries."
     },
     {
       q: "Qual foi o momento mais critico do projeto?",
       a: "Semana 8: descobri relatórios de progresso falsos; foi o gatilho para implantar VPI e restabelecer governança.",
-      q_en: "Week 8: found false progress reports; triggered VPI deployment and reset governance."
+      q_en: "What was the most critical moment of the project?",
+      a_en: "Week 8: found false progress reports; triggered VPI deployment and reset governance."
     },
     {
       q: "Como voce mediu o sucesso alem das metricas tecnicas?",
       a: "Acompanhei NPS das operadoras, satisfação do público e redução de reclamações de cobertura (-42 %).",
-      q_en: "Tracked carrier NPS, fan satisfaction and -42 % coverage complaints."
+      q_en: "How did you measure success beyond technical metrics?",
+      a_en: "Tracked carrier NPS, fan satisfaction and -42 % coverage complaints."
     },
     {
       q: "Que aprendizado voce aplicou em projetos posteriores?",
       a: "Passei a mapear bloqueadores no dia 1 e criar playbooks com métricas de offset automatizadas.",
-      q_en: "Now map blockers day one and build playbooks with automated offset metrics."
+      q_en: "What learning did you apply to later projects?",
+      a_en: "Now map blockers day one and build playbooks with automated offset metrics."
     },
     {
       q: "Como voce lidou com a pressao da FIFA e da midia?",
       a: "Implementei comunicação transparente com atualizações semanais e coletivas mensais, reduzindo ruído e aumentando confiança.",
-      q_en: "Used weekly updates and monthly briefings to cut noise and build trust."
+      q_en: "How did you handle FIFA and media pressure?",
+      a_en: "Used weekly updates and monthly briefings to cut noise and build trust."
     },
     {
       q: "Qual foi o impacto financeiro real alem de evitar multas?",
       a: "Economia de US$ 4,9 M logística (-18 %), US$ 23 M em receita antecipada e US$ 12 M em licenciamento de IP -- ROI 340 %.",
-      q_en: "Saved US$ 4.9 M logistics (-18 %), US$ 23 M revenue advanced and US$ 12 M IP licensing -- 340 % ROI."
+      q_en: "What was the real financial impact beyond avoiding fines?",
+      a_en: "Saved US$ 4.9 M logistics (-18 %), US$ 23 M revenue advanced and US$ 12 M IP licensing -- 340 % ROI."
     },
 
     // novas complementares do feedback
     {
       q: "Quais outras opções você considerou antes de substituir os dois integradores?",
       a: "Analisei reforçar mão de obra e dividir escopo, mas ambos aumentariam risco regulatório e CAPEX. A troca direta oferecia recuperação mais rápida sem custo extra.",
-      q_en: "Considered augmenting head-count or splitting scope, but both raised regulatory risk and CAPEX; full replacement gave faster recovery with no extra cost."
+      q_en: "What other options did you consider before replacing the two integrators?",
+      a_en: "Considered augmenting head-count or splitting scope, but both raised regulatory risk and CAPEX; full replacement gave faster recovery with no extra cost."
     },
     {
       q: "Você enfrentou resistência de alguma operadora ou regulador durante a implementação? Como lidou com isso?",
       a: "Sim, uma operadora quis priorizar torres urbanas; mostrei dados de impacto em assinantes rurais e alinhei prioridade pelo NPS nacional.",
-      q_en: "Yes, one carrier pushed urban sites first; I showed data on rural subscriber impact and aligned priorities by national NPS benefit."
+      q_en: "Did you face resistance from any carrier or regulator during implementation? How did you handle it?",
+      a_en: "Yes, one carrier pushed urban sites first; I showed data on rural subscriber impact and aligned priorities by national NPS benefit."
     },
     {
       q: "Como você priorizou os bloqueadores para garantir que cada um fosse resolvido no prazo certo?",
       a: "Classifiquei por impacto no caminho crítico e retorno médio em dias ganhos por ação; revisto semanalmente no comitê.",
-      q_en: "Ranked each blocker by critical-path impact and average days saved per action; reviewed weekly in executive committee."
+      q_en: "How did you prioritize blockers to ensure each was resolved at the right time?",
+      a_en: "Ranked each blocker by critical-path impact and average days saved per action; reviewed weekly in executive committee."
     },
     {
       q: "Depois do sucesso desse projeto, como você garantiu que os mecanismos criados fossem escaláveis para outras regiões?",
       a: "Transformei o VPI e a torre em módulos padronizados com manual de implante e treinamento regional, facilitando replicação em menos de 90 dias.",
-      q_en: "Standardized VPI and tower as modular kits with rollout manual and regional training -- replicable within 90 days."
+      q_en: "After this project's success, how did you ensure the mechanisms were scalable to other regions?",
+      a_en: "Standardized VPI and tower as modular kits with rollout manual and regional training -- replicable within 90 days."
     },
     {
       q: "Se pudesse refazer algum aspecto desse projeto, o que faria diferente e por quê?",
       a: "Implementaria métricas de saturação diária no primeiro mês para evitar subestimação do esforço de campo.",
-      q_en: "Would add daily saturation metrics in month one to avoid early field underestimation."
+      q_en: "If you could redo any aspect of this project, what would you do differently and why?",
+      a_en: "Would add daily saturation metrics in month one to avoid early field underestimation."
     }
   ]
 };

@@ -26,87 +26,102 @@ const case_8 = {
     { q: "Qual foi seu maior erro ou falha nesse caso?", a: "Assumir que complexidade técnica seria proporcional à das integrações anteriores e não considerar o efeito do TLS mútuo e dos retries assíncronos. Corrigi criando regra de buffer obrigatório e POCs de validação antecipada.", q_en: "What was your biggest mistake or failure?", a_en: "Assumed technical complexity equal to prior APIs, ignoring mutual TLS and async retries. Fixed via mandatory buffer and early validation POCs." },
     { q: "O que você faria diferente hoje?", a: "Reportaria a divergência assim que percepção de risco surgisse e envolveria o CTO antes de qualquer promessa oficial.", q_en: "What would you do differently today?", a_en: "Would flag variance as soon as risk perception rose and involve CTO before any public commitment." },
     { q: "Qual foi o obstáculo mais difícil que você enfrentou?", a: "Convencer a diretoria de que admitir a falha publicamente era estratégia de credibilidade, não exposição de fraqueza.", q_en: "What was the hardest obstacle you faced?", a_en: "Convincing leadership that public ownership built credibility instead of showing weakness." },
-    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Perda de reputação e atrasos adicionais; mitiguei apresentando plano de recuperação detalhado com prazos, ROI e métricas de qualidade.", q_en: "Reputation loss and further delays; mitigated through detailed recovery plan with ROI and quality metrics." },
-    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Baseei-me em logs de integração, throughput máximo observado, tempo médio por requisição e histórico de projetos regulatórios anteriores.", q_en: "Relied on integration logs, peak throughput, average request time, and past regulatory project metrics." },
-    { q: "Como você usou o aprendizado desse caso em outras frentes?", a: "Padronizei o framework e o expandi para produtos de crédito e onboarding, reduzindo variação de estimativas em 70% em toda a tribo Next.", q_en: "Standardized framework applied to credit and onboarding products, reducing estimation variance 70% across Next tribe." },
+    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Perda de reputação e atrasos adicionais; mitiguei apresentando plano de recuperação detalhado com prazos, ROI e métricas de qualidade.", q_en: "What were the main risks and how did you mitigate them?", a_en: "Reputation loss and further delays; mitigated through detailed recovery plan with ROI and quality metrics." },
+    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Baseei-me em logs de integração, throughput máximo observado, tempo médio por requisição e histórico de projetos regulatórios anteriores.", q_en: "What data did you use and what was the calculation rationale?", a_en: "Relied on integration logs, peak throughput, average request time, and past regulatory project metrics." },
+    { q: "Como você usou o aprendizado desse caso em outras frentes?", a: "Padronizei o framework e o expandi para produtos de crédito e onboarding, reduzindo variação de estimativas em 70% em toda a tribo Next.", q_en: "How did you use the learning from this case in other areas?", a_en: "Standardized framework applied to credit and onboarding products, reducing estimation variance 70% across Next tribe." },
 
     // FUPs originais mantidas
     {
       q: "Como você soube que havia subestimado a complexidade?",
       a: "Na sprint review de março percebi que o progresso funcional não refletia o status técnico. O número de falhas TLS e de timeout deixou evidente o gap.",
-      q_en: "At March sprint review I saw functional progress not matching technical reality; TLS and timeout failures exposed gap."
+      q_en: "How did you realize you had underestimated the complexity?",
+      a_en: "At March sprint review I saw functional progress not matching technical reality; TLS and timeout failures exposed gap."
     },
     {
       q: "Como o CEO e o CTO reagiram quando você assumiu o erro?",
       a: "Inicialmente surpresos, reconheceram transparência como valor estratégico e pediram plano de ação imediato.",
-      q_en: "Initially surprised, both valued transparency as strategic and asked for immediate action plan."
+      q_en: "How did the CEO and CTO react when you admitted the error?",
+      a_en: "Initially surprised, both valued transparency as strategic and asked for immediate action plan."
     },
     {
       q: "Qual foi o framework de estimativa que você criou?",
       a: "Inclui buffer de 40%, POC obrigatória, revisão quinzenal de estimativas e escalonamento automático para desvios acima de 15%.",
-      q_en: "Included 40% buffer, mandatory POC, bi-weekly review, and auto-escalation for >15% deviation."
+      q_en: "What was the estimation framework you created?",
+      a_en: "Included 40% buffer, mandatory POC, bi-weekly review, and auto-escalation for >15% deviation."
     },
     {
       q: "Como você mediu o impacto do seu erro na organização?",
       a: "Perdas diretas de R$ 2,1 M em três semanas de atraso e ganhos subsequentes de R$ 8,7 M com o novo método (ROI 314%).",
-      q_en: "R$ 2.1 M direct loss from 3-week delay, R$ 8.7 M savings afterwards--314% ROI."
+      q_en: "How did you measure the impact of your error on the organization?",
+      a_en: "R$ 2.1 M direct loss from 3-week delay, R$ 8.7 M savings afterwards--314% ROI."
     },
     {
       q: "Que resistência você enfrentou ao assumir o erro publicamente?",
       a: "Parte do time temia impacto de reputação; reverti essa visão explicando que transparência gera confiança e aprendizado coletivo.",
-      q_en: "Team feared reputational harm; I reframed transparency as trust and collective learning builder."
+      q_en: "What resistance did you face when admitting the error publicly?",
+      a_en: "Team feared reputational harm; I reframed transparency as trust and collective learning builder."
     },
     {
       q: "Como você garantiu que o framework fosse adotado pela empresa?",
       a: "Exibi ROI comprovado, treinei multiplicadores e formalizei o processo com apoio direto do CTO.",
-      q_en: "Showed verified ROI, trained internal champions, formalized process with CTO endorsement."
+      q_en: "How did you ensure the framework was adopted by the company?",
+      a_en: "Showed verified ROI, trained internal champions, formalized process with CTO endorsement."
     },
     {
       q: "Qual foi o maior aprendizado pessoal dessa experiência?",
       a: "Que vulnerabilidade combinada com método é força de liderança, não fraqueza.",
-      q_en: "That vulnerability paired with method is leadership strength, not weakness."
+      q_en: "What was the greatest personal learning from this experience?",
+      a_en: "That vulnerability paired with method is leadership strength, not weakness."
     },
     {
       q: "Como você aplicou esse aprendizado em outras situações?",
       a: "Usei o modelo em Sicredi e HSBC, ajustando métricas para cenários de open finance e capacity planning.",
-      q_en: "Applied model at Sicredi and HSBC, adapting metrics to open-finance and capacity-planning environments."
+      q_en: "How did you apply this learning in other situations?",
+      a_en: "Applied model at Sicredi and HSBC, adapting metrics to open-finance and capacity-planning environments."
     },
     {
       q: "Qual foi o ROI real do framework de estimativa?",
       a: "ROI 314% em 18 meses e eliminação de atrasos críticos em cinco projetos seguintes.",
-      q_en: "314% ROI in 18 months and zero critical delays across next five projects."
+      q_en: "What was the real ROI of the estimation framework?",
+      a_en: "314% ROI in 18 months and zero critical delays across next five projects."
     },
     {
       q: "Como você lidou com a pressão do CEO e da imprensa?",
-      a: "Comuniquei que três semanas de espera eram melhor que um lançamento instável. Criamos estratégia de reputação: “lançamento responsável”.",
-      q_en: "Explained that 3-week delay was safer than unstable launch. Built 'responsible launch' communication strategy."
+      a: "Comuniquei que três semanas de espera eram melhor que um lançamento instável. Criamos estratégia de reputação: "lançamento responsável".",
+      q_en: "How did you handle the pressure from the CEO and the press?",
+      a_en: "Explained that 3-week delay was safer than unstable launch. Built 'responsible launch' communication strategy."
     },
 
     // Novas FUPs do feedback adicional
     {
       q: "Como você garantiu a adesão da equipe e dos stakeholders ao novo framework de estimativa?",
       a: "Apresentei métricas de ROI, demonstrei ganhos nos testes-piloto e envolvi o CTO na comunicação do novo padrão.",
-      q_en: "Presented ROI metrics, showed pilot results, and involved CTO in communication of new standards."
+      q_en: "How did you ensure team and stakeholder buy-in to the new estimation framework?",
+      a_en: "Presented ROI metrics, showed pilot results, and involved CTO in communication of new standards."
     },
     {
       q: "O que você aprendeu com o processo de '5 porquês' e como aplicou em projetos futuros?",
       a: "Aprendi que causas humanas e sistêmicas costumam coexistir. Passei a registrar toda raiz identificada em base corporativa de lições aprendidas.",
-      q_en: "Learned human and systemic causes coexist; began logging every root cause to corporate lessons-learned base."
+      q_en: "What did you learn from the '5 whys' process and how did you apply it to future projects?",
+      a_en: "Learned human and systemic causes coexist; began logging every root cause to corporate lessons-learned base."
     },
     {
       q: "Quais foram os maiores desafios técnicos na integração com Serasa e como você os superou?",
       a: "Autenticação TLS mútua dependia de certificados assinados manualmente e latência de 5 segundos. Implementei paralelização de conexões e retries inteligentes.",
-      q_en: "Mutual TLS required manual cert sign-off and 5 s latency; implemented connection parallelism and smart retries."
+      q_en: "What were the biggest technical challenges in the Serasa integration and how did you overcome them?",
+      a_en: "Mutual TLS required manual cert sign-off and 5 s latency; implemented connection parallelism and smart retries."
     },
     {
       q: "Como você lidou com a resistência ou receios do CEO e do conselho ao comunicar o erro?",
       a: "Usei fato e ROI: mostrei que transparência custaria três semanas, mas evitaria perda potencial de R$ 12 M em reclamações e retrabalho.",
-      q_en: "Used facts and ROI--showed transparency would add three weeks but avert R$ 12 M potential loss."
+      q_en: "How did you handle resistance or concerns from the CEO and the board when communicating the error?",
+      a_en: "Used facts and ROI--showed transparency would add three weeks but avert R$ 12 M potential loss."
     },
     {
       q: "Se pudesse refazer este projeto, o que faria de forma diferente para evitar o erro inicial ou aprimorar resultados?",
       a: "Introduziria revisões técnicas de risco já na fase de discovery e criaria métricas preditivas de esforço baseado em integrações anteriores.",
-      q_en: "Would introduce technical-risk reviews in discovery phase and predictive effort metrics based on prior integrations."
+      q_en: "If you could redo this project, what would you do differently to avoid the initial error or improve results?",
+      a_en: "Would introduce technical-risk reviews in discovery phase and predictive effort metrics based on prior integrations."
     }
   ]
 };

@@ -39,72 +39,86 @@ const case_7 = {
     {
       q: "Quais foram os 4 controles de risco que você implementou para mitigar a decisão unilateral?",
       a: "1) Call emergencial com cinco testemunhas técnicas; 2) email formal assumindo responsabilidade; 3) gravação e ata digital; 4) três gates de reversão: 30 min erro, perda de dados, ou 2 h sem estabilizar.",
-      q_en: "1) Emergency call with five technical witnesses; 2) formal email assuming responsibility; 3) recording and signed minutes; 4) three rollback gates: 30 min fail, data loss, or 2 h no stability."
+      q_en: "What were the 4 risk controls you implemented to mitigate the unilateral decision?",
+      a_en: "1) Emergency call with five technical witnesses; 2) formal email assuming responsibility; 3) recording and signed minutes; 4) three rollback gates: 30 min fail, data loss, or 2 h no stability."
     },
     {
       q: "Como o diretor reagiu quando soube da sua decisão no dia seguinte?",
       a: "Reconheceu que a decisão foi correta e institucionalizou a prática em protocolo oficial de decisão emergencial.",
-      q_en: "He recognized the decision was right and institutionalized it as official emergency decision protocol."
+      q_en: "How did the director react when he learned of your decision the next day?",
+      a_en: "He recognized the decision was right and institutionalized it as official emergency decision protocol."
     },
     {
       q: "Qual foi o maior risco pessoal que você assumiu nessa decisão?",
       a: "Risco de demissão por insubordinação e responsabilidade civil caso houvesse perda de dados. Decidir não agir seria mais devastador para o estado e a equipe.",
-      q_en: "Risk of dismissal for insubordination and civil liability if data lost; not acting would bring larger harm to both state and team."
+      q_en: "What was the greatest personal risk you assumed in this decision?",
+      a_en: "Risk of dismissal for insubordination and civil liability if data lost; not acting would bring larger harm to both state and team."
     },
     {
       q: "Como você garantiu que a decisão fosse técnica e não emocional?",
       a: "Submeti o plano à validação técnica em tempo real com especialistas e documentei critérios mensuráveis para execução.",
-      q_en: "Submitted plan for peer validation in real time and documented measurable execution criteria."
+      q_en: "How did you ensure the decision was technical and not emotional?",
+      a_en: "Submitted plan for peer validation in real time and documented measurable execution criteria."
     },
     {
       q: "Que protocolo foi criado a partir dessa experiência?",
       a: "O 'Procedimento de Decisão Emergencial' autorizou coordenadores a agir quando gestor indisponível, exigindo documentação, testemunhas e gates. Aplicado com sucesso quatro vezes.",
-      q_en: "The 'Emergency Decision Procedure' empowered coordinators to act when manager unavailable, requiring documentation, witnesses and gates; used successfully four times."
+      q_en: "What protocol was created from this experience?",
+      a_en: "The 'Emergency Decision Procedure' empowered coordinators to act when manager unavailable, requiring documentation, witnesses and gates; used successfully four times."
     },
     {
       q: "Como você mediu o impacto real nas 23.400 empresas?",
       a: "Calculei faturamento médio diário e multipliquei por 23.400 empresas em 2,3 dias de fim de semana: R$ 8,2 M de perdas evitadas, sem reclamações após a restauração.",
-      q_en: "Average daily sales × 23,400 × 2.3 days = R$ 8.2 M avoided; zero complaints after restoration."
+      q_en: "How did you measure the real impact on the 23,400 companies?",
+      a_en: "Average daily sales × 23,400 × 2.3 days = R$ 8.2 M avoided; zero complaints after restoration."
     },
     {
       q: "Que resistência você enfrentou da equipe técnica?",
       a: "Medo de realizar rollback sem aprovação. Ganhei adesão mostrando dados de risco e apresentando os controles documentados.",
-      q_en: "Fear of rollback without approval; earned adherence by showing risk data and documented controls."
+      q_en: "What resistance did you face from the technical team?",
+      a_en: "Fear of rollback without approval; earned adherence by showing risk data and documented controls."
     },
     {
       q: "Como você aplicou esse aprendizado em outras situações?",
       a: "No Sicredi, usei o mesmo método (PIX down às 22h): 10 min de tentativa de contato, documentação imediata, testemunhas e execução controlada. Sistema retomado em 45 min.",
-      q_en: "At Sicredi (PIX down 10 PM): 10 min contact attempt, instant documentation, witnesses, controlled execution; system back in 45 min."
+      q_en: "How did you apply this learning in other situations?",
+      a_en: "At Sicredi (PIX down 10 PM): 10 min contact attempt, instant documentation, witnesses, controlled execution; system back in 45 min."
     },
     {
       q: "Qual foi o ROI real dessa decisão?",
       a: "ROI imediato de 70% (R$ 8,2 M preservados vs R$ 4,8 M de risco). No longo prazo, protocolo evitou R$ 15 M em três anos e me rendeu promoção por confiabilidade técnica.",
-      q_en: "Immediate ROI 70% (R$ 8.2 M protected vs R$ 4.8 M risk); long term protocol prevented R$ 15 M loss in 3 years and earned promotion for technical reliability."
+      q_en: "What was the real ROI of this decision?",
+      a_en: "Immediate ROI 70% (R$ 8.2 M protected vs R$ 4.8 M risk); long term protocol prevented R$ 15 M loss in 3 years and earned promotion for technical reliability."
     },
     {
       q: "Quais foram os maiores riscos técnicos associados ao rollback e como os controles implementados ajudaram a mitigá-los?",
       a: "O maior risco era corromper tabelas fiscais. Os gates temporais e a revisão coletiva do plano garantiram rollback seguro, completado sem perda de integridade.",
-      q_en: "Main risk was fiscal table corruption; time-gated execution and peer review secured rollback integrity with zero data loss."
+      q_en: "What were the major technical risks associated with the rollback and how did the implemented controls help mitigate them?",
+      a_en: "Main risk was fiscal table corruption; time-gated execution and peer review secured rollback integrity with zero data loss."
     },
     {
       q: "Como você garantiu que a equipe técnica estivesse alinhada e confiante para executar o rollback sob pressão?",
       a: "Expliquei os impactos reais e demonstrei cálculos de perdas; transformei a ansiedade em senso de propósito coletivo.",
-      q_en: "Explained real impact and showed financial loss calculations, turning anxiety into collective sense of mission."
+      q_en: "How did you ensure the technical team was aligned and confident to execute the rollback under pressure?",
+      a_en: "Explained real impact and showed financial loss calculations, turning anxiety into collective sense of mission."
     },
     {
       q: "Qual foi seu papel na criação e adaptação do protocolo de Decisão de Emergência usado posteriormente?",
       a: "Fui autor do documento-base junto à auditoria, defini critérios técnicos e liderei o treinamento dos novos coordenadores.",
-      q_en: "Authored base documentation with audit, defined technical criteria, and led coordinator training for the new protocol."
+      q_en: "What was your role in creating and adapting the Emergency Decision protocol used afterwards?",
+      a_en: "Authored base documentation with audit, defined technical criteria, and led coordinator training for the new protocol."
     },
     {
       q: "Se o rollback tivesse falhado, qual era o plano de contingência?",
       a: "Backup completo da base havia sido realizado às 16h, e plano B previa standby com réplica em datacenter de contingência em caráter de degradação controlada.",
-      q_en: "Full backup made at 4 PM; Plan B was fallback to secondary datacenter operating in degraded mode."
+      q_en: "If the rollback had failed, what was the contingency plan?",
+      a_en: "Full backup made at 4 PM; Plan B was fallback to secondary datacenter operating in degraded mode."
     },
     {
       q: "O que faria de forma diferente para melhorar o processo ou prevenir crises semelhantes?",
       a: "Implantaria automação de rollback testado em sandbox fiscal e alertas preditivos para evitar patches de incompatibilidade.",
-      q_en: "Would implement automated rollback tested in fiscal sandbox and predictive alerts to avoid incompatible patches."
+      q_en: "What would you do differently to improve the process or prevent similar crises?",
+      a_en: "Would implement automated rollback tested in fiscal sandbox and predictive alerts to avoid incompatible patches."
     }
   ]
 };

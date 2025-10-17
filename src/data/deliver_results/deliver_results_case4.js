@@ -24,80 +24,93 @@ const case_4 = {
   },
   fups: [
     // 6 principais obrigatórias
-    { q: "Qual foi seu maior erro ou falha nesse caso?", a: "Demorei a envolver stakeholders políticos logo no início. Foquei na arquitetura técnica antes de consolidar patrocínio entre secretarias. Corrigi isso promovendo workshops semanais de coautoria com secretários e subsecretários, o que reduziu resistência e agilizou decisões.", q_en: "I was late engaging political stakeholders. I focused on system design before securing sponsorship. Fixed by launching weekly co-creation sessions with top officials, reducing friction and speeding decisions." },
-    { q: "O que você faria diferente hoje?", a: "Estabeleceria desde o início um plano formal de gestão de mudança multidisciplinar, prevendo comunicação de risco e patrocínio cruzado. Teríamos antecipado consenso e economizado cerca de três semanas de negociação.", q_en: "I’d set a formal change-management plan at day one, embedding risk communication and cross-sponsorship -- would have saved about three weeks of alignment." },
-    { q: "Qual foi o obstáculo mais difícil que você enfrentou?", a: "Coordenar oito secretarias com agendas conflitantes e ciclos orçamentários diferentes. Gerenciei isso criando cadência semanal de priorização baseada em impacto fiscal e social, o que harmonizou os cronogramas.", q_en: "Coordinating eight agencies with conflicting agendas; I solved it through weekly prioritization cadence ranked by fiscal and citizen impact, aligning timelines." },
-    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Os maiores riscos eram falhas na integração SAP/AS400 e desconfiança política. Mitiguei aumentando logs diários, backup em nuvem e comunicação proativa via dashboards públicos.", q_en: "Top risks: SAP/AS400 failure and political distrust. Mitigated with daily logs, cloud backup, and proactive public dashboards for full transparency." },
-    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Analisei 18 meses de logs e métricas de resposta para definir baseline realista. Usei mediana em vez de média para evitar distorsões de outliers e calcular redução de 47 % no tempo médio de aprovação.", q_en: "Reviewed 18 months of response logs; used median over mean to avoid outlier bias and set realistic 47 % cycle-time reduction target." },
-    { q: "Como você usou o aprendizado desse caso em outras frentes?", a: "A estrutura de governança e rastreabilidade foi replicada no Orçamento Participativo, elevando SLA em 32 % sem investimento extra. Virou modelo oficial de transformação digital da SEFAZ.", q_en: "Governance and traceability model reapplied to Participatory Budget, raising SLA 32 % with no extra budget; it became SEFAZ’s official digital framework." },
+    { q: "Qual foi seu maior erro ou falha nesse caso?", a: "Demorei a envolver stakeholders políticos logo no início. Foquei na arquitetura técnica antes de consolidar patrocínio entre secretarias. Corrigi isso promovendo workshops semanais de coautoria com secretários e subsecretários, o que reduziu resistência e agilizou decisões.", q_en: "What was your biggest mistake or failure in this case?", a_en: "I was late engaging political stakeholders. I focused on system design before securing sponsorship. Fixed by launching weekly co-creation sessions with top officials, reducing friction and speeding decisions." },
+    { q: "O que você faria diferente hoje?", a: "Estabeleceria desde o início um plano formal de gestão de mudança multidisciplinar, prevendo comunicação de risco e patrocínio cruzado. Teríamos antecipado consenso e economizado cerca de três semanas de negociação.", q_en: "What would you do differently today?", a_en: "I'd set a formal change-management plan at day one, embedding risk communication and cross-sponsorship -- would have saved about three weeks of alignment." },
+    { q: "Qual foi o obstáculo mais difícil que você enfrentou?", a: "Coordenar oito secretarias com agendas conflitantes e ciclos orçamentários diferentes. Gerenciei isso criando cadência semanal de priorização baseada em impacto fiscal e social, o que harmonizou os cronogramas.", q_en: "What was the hardest obstacle you faced?", a_en: "Coordinating eight agencies with conflicting agendas; I solved it through weekly prioritization cadence ranked by fiscal and citizen impact, aligning timelines." },
+    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Os maiores riscos eram falhas na integração SAP/AS400 e desconfiança política. Mitiguei aumentando logs diários, backup em nuvem e comunicação proativa via dashboards públicos.", q_en: "What were the main risks and how did you mitigate them?", a_en: "Top risks: SAP/AS400 failure and political distrust. Mitigated with daily logs, cloud backup, and proactive public dashboards for full transparency." },
+    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Analisei 18 meses de logs e métricas de resposta para definir baseline realista. Usei mediana em vez de média para evitar distorsões de outliers e calcular redução de 47 % no tempo médio de aprovação.", q_en: "What data did you use and what was the calculation rationale?", a_en: "Reviewed 18 months of response logs; used median over mean to avoid outlier bias and set realistic 47 % cycle-time reduction target." },
+    { q: "Como você usou o aprendizado desse caso em outras frentes?", a: "A estrutura de governança e rastreabilidade foi replicada no Orçamento Participativo, elevando SLA em 32 % sem investimento extra. Virou modelo oficial de transformação digital da SEFAZ.", q_en: "How did you use the learning from this case in other areas?", a_en: "Governance and traceability model reapplied to Participatory Budget, raising SLA 32 % with no extra budget; it became SEFAZ's official digital framework." },
 
     // existentes revisadas
     {
       q: "Por que escolheu SharePoint em vez de Salesforce ou Dynamics?",
-      a: "A decisão uniu pragmatismo e controle fiscal. Comparei ROI, segurança e tempo. SharePoint entregou em 6 meses com custo zero e compliance nativo, mitigando risco jurídico e de contrato internacional.", 
-      q_en: "Decision blended pragmatism and fiscal control. Benchmarked ROI, security and time -- SharePoint delivered 6-month zero-cost solution with native compliance and no contract risk."
+      a: "A decisão uniu pragmatismo e controle fiscal. Comparei ROI, segurança e tempo. SharePoint entregou em 6 meses com custo zero e compliance nativo, mitigando risco jurídico e de contrato internacional.",
+      q_en: "Why did you choose SharePoint instead of Salesforce or Dynamics?",
+      a_en: "Decision blended pragmatism and fiscal control. Benchmarked ROI, security and time -- SharePoint delivered 6-month zero-cost solution with native compliance and no contract risk."
     },
     {
       q: "Como voce conseguiu 100% de adocao em apenas 60 dias?",
       a: "A combinação de decreto obrigatório e valor percebido: ofereci suporte direto nas primeiras 4 semanas, publiquei indicadores públicos de uso e criei ranking de desempenho. Virou competição saudável entre secretarias.",
-      q_en: "Mix of mandatory decree and visible value; I offered hands-on support 4 weeks, published usage metrics, and ranked agency performance creating healthy competition."
+      q_en: "How did you achieve 100% adoption in just 60 days?",
+      a_en: "Mix of mandatory decree and visible value; I offered hands-on support 4 weeks, published usage metrics, and ranked agency performance creating healthy competition."
     },
     {
       q: "Qual foi o maior desafio politico que voce enfrentou?",
       a: "Superar o medo da exposição. Demonstrei com MVP ao vivo que a transparência oferecia proteção. A partir daí, passei de obstáculo a aliado dos secretários.",
-      q_en: "Overcoming exposure fear; during live MVP demo proved transparency is protection - turned skeptics into allies."
+      q_en: "What was the biggest political challenge you faced?",
+      a_en: "Overcoming exposure fear; during live MVP demo proved transparency is protection - turned skeptics into allies."
     },
     {
       q: "Como voce garantiu sustentabilidade apos sua saida?",
       a: "Instituí comitê de governança autônomo com 12 super-usuários e rotina mensal de review. Automatizações Power BI e checklists de compliance garantem continuidade sem minha presença.",
-      q_en: "Set self-running governance committee (12 super-users) with monthly review; Power BI and compliance checklists sustain continuity after my exit."
+      q_en: "How did you ensure sustainability after your exit?",
+      a_en: "Set self-running governance committee (12 super-users) with monthly review; Power BI and compliance checklists sustain continuity after my exit."
     },
     {
       q: "Como voce lidou com a pressao do Tribunal de Contas?",
       a: "Adotei transparência radical: dashboard público com SLA e backlog. Com dados em tempo real, a cobrança virou colaboração.",
-      q_en: "Used radical transparency: public SLA/backlog dashboard; once they saw data live, pressure turned into collaboration."
+      q_en: "How did you handle the Court of Accounts pressure?",
+      a_en: "Used radical transparency: public SLA/backlog dashboard; once they saw data live, pressure turned into collaboration."
     },
     {
       q: "Como voce mediu o impacto real no cidadao final?",
       a: "Tempo de repasses de merenda -6 semanas → 8 dias e redução de consultas ao SAC em -38 %. Acompanhamos pesquisa de diretores escolares (+37 p.p. em satisfação).",
-      q_en: "Meal transfer time cut 6 weeks → 8 days, citizen calls -38 %, school head satisfaction +37 pts."
+      q_en: "How did you measure real impact on the end citizen?",
+      a_en: "Meal transfer time cut 6 weeks → 8 days, citizen calls -38 %, school head satisfaction +37 pts."
     },
     {
       q: "Que resistencia voce enfrentou da equipe de TI?",
       a: "TI preferia solução custom de 18 meses. Mostrei que cada mês de atraso representava R$ 400 mil em repasses bloqueados, o que fez a velocidade prevalecer.",
-      q_en: "IT wanted an 18-month custom build; I proved each month delay froze R$ 400 K in transfers -- speed prevailed."
+      q_en: "What resistance did you face from the IT team?",
+      a_en: "IT wanted an 18-month custom build; I proved each month delay froze R$ 400 K in transfers -- speed prevailed."
     },
     {
       q: "Qual foi o ROI do investimento no portal?",
       a: "Economia de 120h mensais (≈ R$ 60k/ano) + eliminação do legado + zero multas do Tribunal. Licenças já pagas → ROI efetivo em 30 dias.",
-      q_en: "Saved 120 h/month (~R$ 60K/yr), ended legacy and zero audit fines; licenses prepaid → ROI 30 days."
+      q_en: "What was the ROI of the portal investment?",
+      a_en: "Saved 120 h/month (~R$ 60K/yr), ended legacy and zero audit fines; licenses prepaid → ROI 30 days."
     },
 
     // novas complementares
     {
       q: "Quais critérios específicos você usou para priorizar SharePoint e como mitigou eventuais limitações da solução?",
       a: "Priorizei tempo, compliance e custo. Mitiguei limitações com camadas de Power Automate e governança via Azure AD. Resultado: atingimos 94 % de SLA sem infra nova.",
-      q_en: "Priority criteria: time, compliance, zero cost. Mitigated limits using Power Automate extensions and Azure AD governance -- reached 94 % SLA no new infra."
+      q_en: "What specific criteria did you use to prioritize SharePoint and how did you mitigate potential limitations?",
+      a_en: "Priority criteria: time, compliance, zero cost. Mitigated limits using Power Automate extensions and Azure AD governance -- reached 94 % SLA no new infra."
     },
     {
       q: "Como você engajou stakeholders e superou resistências políticas antes de implementar o novo sistema?",
       a: "Criei comitê pré-projeto com secretários, auditor geral e TI; as principais decisões foram cocriação desde o início. Essa inclusão gerou patrocínio e reduziu resistência.",
-      q_en: "Formed pre-project board with secretaries, chief auditor and IT heads; co-creating key decisions built sponsorship and neutralized resistance."
+      q_en: "How did you engage stakeholders and overcome political resistance before implementing the new system?",
+      a_en: "Formed pre-project board with secretaries, chief auditor and IT heads; co-creating key decisions built sponsorship and neutralized resistance."
     },
     {
       q: "Após o sucesso do Portal e-CAGE, que desafios surgiram ao replicar o modelo em outras secretarias?",
       a: "As novas secretarias tinham infraestruturas heterogêneas. Criei checklist de maturidade e modelos de dados padronizados para garantir copiabilidade rápida sem regras novas.",
-      q_en: "Other agencies had uneven infra; I built maturity checklists and standard data models to ensure fast replication without reinventing rules."
+      q_en: "After the Portal e-CAGE success, what challenges emerged when replicating the model to other agencies?",
+      a_en: "Other agencies had uneven infra; I built maturity checklists and standard data models to ensure fast replication without reinventing rules."
     },
     {
       q: "Como você garantiu que os mecanismos criados (comitê, templates, dashboards) fossem sustentáveis a longo prazo?",
       a: "Automatizei 40 rotinas de auditoria em Power Automate e liguei OKRs do comitê ao plano de gestão da SEFAZ. Assim, a manutenção virou meta oficial de carreira para super-usuários.",
-      q_en: "Automated 40 audit routines via Power Automate and linked committee OKRs to SEFAZ management plan, making maintenance a career goal for super-users."
+      q_en: "How did you ensure the created mechanisms (committee, templates, dashboards) were sustainable long-term?",
+      a_en: "Automated 40 audit routines via Power Automate and linked committee OKRs to SEFAZ management plan, making maintenance a career goal for super-users."
     },
     {
       q: "Se pudesse refazer o projeto, qual aspecto você faria diferente e por quê?",
       a: "Agendaria fase piloto com grupos menores para testar integração AS400 e ciclo de aprovação antes do go-live. Teria ganhado cerca de 10 dias no cronograma total.",
-      q_en: "Would start pilot phase with smaller units to test AS400 integration and workflow approval before go-live -- could save ~10 days on timeline."
+      q_en: "If you could redo the project, what aspect would you do differently and why?",
+      a_en: "Would start pilot phase with smaller units to test AS400 integration and workflow approval before go-live -- could save ~10 days on timeline."
     }
   ]
 };
