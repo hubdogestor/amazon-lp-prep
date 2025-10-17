@@ -125,6 +125,22 @@ export const questionsToCasesMapping = {
         }
       ]
     },
+    "11": {
+      "options": [
+        {
+          "caseId": "sicredi-fraud-prevention-experience",
+          "score": 98
+        }
+      ]
+    },
+    "12": {
+      "options": [
+        {
+          "caseId": "sicredi-chargeback-proactive-resolution",
+          "score": 98
+        }
+      ]
+    },
     "13": {
       "options": [
         {
