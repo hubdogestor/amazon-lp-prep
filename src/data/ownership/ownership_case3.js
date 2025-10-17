@@ -1,88 +1,63 @@
-// Case 3 - ownership
 const case_3 = {
   id: "bradesco-international-payments",
-  title: "Força-Tarefa de Pagamentos Internacionais para Cortar Custos e Recuperar SLAs",
-  title_pt: "Força-Tarefa de Pagamentos Internacionais para Cortar Custos e Recuperar SLAs",
-  title_en: "International Payments Task Force to Cut Costs and Recover SLAs",
+  title: "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias",
+  title_pt: "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias",
+  title_en: "International Payments Crisis -- Turning Costs and SLAs Around in 90 Days",
   company: "Bradesco",
   period: "01/2017-06/2017",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: true,
+
   pt: {
-    s: `"90 dias ou corto headcount." A ameaça do CFO ecoou na sala quando mostrei o relatório mensal de pagamentos internacionais: custo médio por transação subiu de R$ 47 para R$ 54 (+15%) em seis meses, adicionando R$ 364k mensais ao P&L (R$ 4,3M anualizados). O SLA explodiu de 2h50 para 4h10, NPS premium despencou de 66 para 48, e três dos meus 20 maiores clientes ameaçaram migrar. Estruturar força-tarefa não era minha função — meu mandato formal era apenas transformação digital. Mas quando confrontei Operações, Compliance, TI e Comercial, ouvi "isso não é nosso problema" de todos. Alguém precisava assumir ownership total da crise — e eu decidi que seria eu.`,
-    t: `Diante dessa crise que ameaçava tanto a rentabilidade quanto a retenção de clientes premium, eu decidi ir além do meu escopo formal e assumir ownership total da situação. Mesmo com mandato restrito à transformação digital, me declarei single-threaded owner e assumi responsabilidade pessoal pelo resultado. Meu desafio era cortar ao menos 12% do custo médio, trazer o SLA para menos de 3h e recolocar o NPS acima de 65 dentro de 90 dias. Mais importante: tracei o trade-off de longo prazo — pausar features novas de marketing por seis semanas para refactoring da reconciliação, pensando em prevenir reincidência.`,
-    a: `Eu formei uma força-tarefa com sete pessoas (Operações, Compliance, TI, Comercial, Procurement) com charter simples: daily de 30 minutos, decisões por métrica e eu como single-threaded owner. Primeiro, construí business case de três cenários cruzando custo incremental, churn de clientes priority (R$ 1,2M/ano) e multas potenciais do BACEN (até 0,5% dos ativos) para ganhar o CFO. Segundo, extraí 160k transações dos últimos 90 dias, normalizei em Python e mostrei que 68% do custo vinha de reconciliação manual e tabela antiquada de correspondentes. Terceiro, redesenhei o fluxo com filas medidas, implantei RPA conciliando SWIFT MT103 vs ledger e criei score de risco que escalona tickets acima de R$ 200k para revisão manual. Quarto, negociei com dois bancos correspondentes contratos baseados em volume com redução média de 18 bps, condicionados a piloto de 30 dias com auditoria semanal. Quinto, quando o diretor de Compliance travou o rollout, voei a Brasília, apresentei os controles ao BACEN, ajustei segregação de funções e saí com carta de não oposição em 48h. Sexto, para recuperar clientes, liguei pessoalmente para os 30 maiores premium, abri canal 24/7 e publiquei dashboard no Grafana com 12 indicadores (SLA por país, custo por corredor, backlog, MTTD, risco de churn).`,
-    r: `Eu transformei uma crise operacional em vantagem competitiva sustentável. Em 74 dias atingi todas as metas: custo médio caiu de R$ 54 para R$ 46,4 (-14%), SLA voltou para 2h32, backlog diário despencou de 1.120 para 160 transações (-86%) e o NPS premium subiu de 48 para 74. Evitei perda anual de R$ 4,8M e zerei pedidos de cancelamento dos clientes priority. O CFO institucionalizou o ritual como template corporativo para outras crises operacionais e meu dashboard virou fonte oficial em comitês executivos. Mais importante: os mecanismos preventivos que criei (RPA, score de risco, dashboard 24/7) continuaram operando após minha saída, sustentando os ganhos de eficiência.`,
-    l: `Aprendi que ownership verdadeiro significa assumir responsabilidade além do escopo formal, fazer trade-offs impopulares de longo prazo (pausar features para refactoring) e construir mecanismos preventivos que impedem reincidência. Não basta apagar incêndios — é preciso criar sistemas (RPA, score de risco, dashboard 24/7) que monitoram continuamente e alertam antes da crise. Transformei esse caso no meu playbook: sempre que vejo ineficiência sistêmica, assumo ownership, negocio trade-offs com impacto financeiro e deixo mecanismos permanentes rodando — mesmo quando "não é minha função". Esse ritual de war room com métrica única e single-threaded owner virou meu template para crises de pagamentos.`
+    s: "Janeiro de 2017. A reunião de resultados da área internacional começou tensa. No telão, o relatório mostrava uma curva crescente que ninguém conseguiu explicar. O custo médio por transação de pagamentos internacionais havia subido de R$ 47 para R$ 54 em seis meses (+15%), e o SLA médio passara de 2h50 para 4h10 -- um atraso que impactava clientes premium de custódia internacional, especialmente nas Cayman Islands. O NPS desses clientes despencou de 66 para 48, e três deles -- responsáveis por quase 40% das receitas da unidade offshore -- ameaçavam sair. O CFO interrompeu a discussão: “90 dias ou corto o headcount”. O prazo era para estabilizar custos, SLAs e risco de compliance. Embora eu fosse coordenador de Transformação Digital, alocado na workstream de Asset Management sob Estratégia Corporativa, eu dominava fluxos SWIFT, correspondentes e controles BACEN. Decidi assumir ownership total da virada.",
+    
+    t: "Minha tarefa foi liderar a reversão completa em 90 dias, unindo frentes técnicas, operacionais e regulatórias. A meta: SLA < 3 horas, -12% de custo e recuperação do NPS premium. O trade-off: pausar features de marketing digital por seis semanas para reconstruir reconciliação e corrigir causas-raiz.",
+    
+    a: "Formei, com apoio do CFO, força-tarefa de sete especialistas de Operações, Compliance, TI, Comercial e Procurement. Rituais: daily de 30 minutos, métrica única e decisões imediatas. Modelei business case com três cenários, cruzando custo incremental, risco de churn (R$ 1,2 M/ano) e multas BACEN (0,5% dos ativos). Orçamento liberado: R$ 120 mil. Analisei 160 mil transações dos últimos 90 dias em Python e mostrei que 68% do custo vinha da reconciliação manual e tabelas antigas de correspondentes. Projetei novo workflow com RPA integrando SWIFT MT103 ao ledger e score de risco para escalonamento. Negociei personally novos acordos de volume (-18 bps). Quando Compliance travou o rollout, levei framework ao BACEN em Brasília e consegui carta de não oposição em 48 horas. Paralelamente, abri canal 24/7 com clientes premium e criei dashboard em Grafana (SLA, custo, backlog, churn).",
+    
+    r: "Em 74 dias, a operação mudou. Custo médio -14% (R$ 54→46,4), SLA 2h32 (-38%), backlog -86% (1.120→160), NPS 48→74. Evitei R$ 4,8 M/ano em perdas e neutralizei risco de churn. Escrevi manual de 21 páginas, treinei quatro gerentes e o modelo virou template corporativo para crises operacionais.",
+    
+    l: "Aprendi que leadership é somar técnica e coragem para decidir. Corrigir estruturas gera mais valor que lançar features. Desde então, uso métrica única, dono único e decisão rápida como base de qualquer virada."
   },
+
   en: {
-    s: `"90 days or I cut headcount." The CFO's threat echoed in the room when I showed the international payments monthly report: average cost per transaction climbed from R$47 to R$54 (+15%) in six months, adding R$364K monthly to P&L (R$4.3M annualized). SLA ballooned from 2h50 to 4h10, premium NPS crashed from 66 to 48, and three of my top 20 clients threatened to leave. Building a task force wasn't my job — my formal remit was only digital transformation. But when I confronted Operations, Compliance, IT, and Commercial, I heard "not my problem" from everyone. Someone needed to take total ownership of the crisis — and I decided it would be me.`,
-    t: `Faced with that crisis threatening both profitability and premium client retention, I decided to go beyond my formal scope and take total ownership of the situation. Even with mandate restricted to digital transformation, I declared myself single-threaded owner and took personal responsibility for the outcome. My challenge was cutting at least 12% of average cost, bringing SLA back under 3 hours, and lifting NPS above 65 within 90 days. Most importantly: I framed the long-term trade-off — pause new marketing features for six weeks to refactor reconciliation, thinking about preventing recurrence.`,
-    a: `I formed a seven-person task force (Operations, Compliance, IT, Commercial, Procurement) with simple charter: 30-minute dailies, metric-driven decisions, and me as single-threaded owner. First, I built three-scenario business case covering incremental cost, priority client churn risk (R$1.2M/year), and potential BACEN fines (up to 0.5% of assets) to secure CFO backing. Second, I extracted 160K transactions from last 90 days, normalized in Python, and showed 68% of cost came from manual reconciliation and outdated correspondent pricing. Third, I redesigned workflow with measured queues, deployed RPA reconciling SWIFT MT103 vs ledger, and created risk score escalating tickets above R$200K for manual review. Fourth, I negotiated volume-based contracts with two correspondent banks, locking average 18 bps reduction tied to 30-day pilot with weekly audits. Fifth, when Compliance director froze rollout, I flew to Brasília, walked BACEN through controls, tightened segregation of duties, and secured no-objection letter within 48 hours. Sixth, to recover clients, I personally called top 30 premium accounts, opened 24/7 dedicated channel, and published Grafana dashboard with 12 metrics (SLA by country, cost per corridor, backlog, MTTD, churn risk).`,
-    r: `I transformed an operational crisis into sustainable competitive advantage. Within 74 days I hit all targets: average cost dropped from R$54 to R$46.4 (-14%), SLA landed at 2h32, daily backlog plummeted from 1,120 to 160 transactions (-86%), and premium NPS rebounded from 48 to 74. I avoided R$4.8M/year in losses and eliminated cancellation requests from priority clients. CFO institutionalized the ritual as corporate template for other operational crises and my dashboard became standard in executive committees. Most importantly: the preventive mechanisms I created (RPA, risk score, 24/7 dashboard) continued operating after my departure, sustaining efficiency gains.`,
-    l: `I learned that true ownership means taking responsibility beyond formal scope, making unpopular long-term trade-offs (pause features for refactoring), and building preventive mechanisms that block recurrence. It's not enough to fight fires — you must create systems (RPA, risk score, 24/7 dashboard) that monitor continuously and alert before crisis. I turned this into my playbook: whenever I spot systemic inefficiency, I take ownership, negotiate trade-offs with financial impact, and leave permanent mechanisms running — even when "it's not my job". This war room ritual with single metric and single-threaded owner became my template for payment crises.`
+    s: "January 2017. The international division’s results meeting started tense. The chart showed a cost curve no one could justify. Average cost per international payment rose from R$47 to R$54 (+15%) while SLA slipped from 2h50 to 4h10, hitting premium custody clients mainly in Cayman Islands. Premium NPS fell from 66 to 48 and three major clients (40% of offshore revenue) planned to leave. The CFO stated: “90 days or I cut headcount.” The deadline was to stabilize costs, SLAs, and compliance risk. As Digital Transformation Coordinator under Corporate Strategy/Asset Management, I decided to take full ownership and lead the turnaround.",
+    
+    t: "My task was to lead the complete recovery in 90 days. Goals: SLA < 3 hours, -12% average cost, and restored premium NPS. I made a strategic trade-off: stopped digital feature rollouts for six weeks to rebuild reconciliation.",
+    
+    a: "Supported by the CFO, I built a seven-person task force from Operations, Compliance, IT, Commercial, and Procurement. We held 30-minute war rooms with single metric focus and immediate decisions. Built 3-scenario business case crossing incremental cost, R$1.2 M/year churn risk, and BACEN fines (0.5% assets), securing R$120 K budget. Analyzed 160 K transactions in Python showing 68% cost from manual reconciliation and outdated pricing. Redesigned workflow with RPA linking SWIFT MT103 to ledger and a risk score for escalation. Personally negotiated -18 bps volume contracts. When Compliance blocked rollout, flew to Brasília to present framework to BACEN and secured no-objection in 48h. Meanwhile, opened 24/7 client channel and Grafana dashboard (SLA, cost, backlog, churn).",
+    
+    r: "In 74 days operation was restored: -14% cost, SLA 2h32 (-38%), -86% backlog, NPS 48→74, saving R$ 4.8 M/year. Playbook (21 pages) trained 4 managers and became corporate template.",
+    
+    l: "I learned leadership joins technical depth and courage to decide. Fixing foundations creates more value than shipping new features. Single metric, single owner, fast decisions -- that framework remains my default."
   },
+
+  // === FUPs ===
   fups: [
-    {
-      "q": "Como você convenceu o diretor de Compliance a liberar o rollout do RPA?",
-      "a": "Levei o fluxo detalhado, quantifiquei o risco residual e garanti carta de não oposição do BACEN em 48h, transformando opinião em fato regulatório. Mostrei que RPA reduzia risco humano (erro manual de R$ 2,3M em 6 meses) e criava trilha de auditoria mais robusta.",
-      "q_en": "How did you convince the Compliance director to approve the RPA rollout?",
-      "a_en": "I walked him through detailed flow, quantified residual risk, and secured BACEN no-objection letter within 48 hours, turning opinion into regulatory fact. I showed RPA reduced human risk (R$2.3M manual errors in 6 months) and created more robust audit trail."
-    },
-    {
-      "q": "Que indicadores você monitorou diariamente para manter o custo sob controle?",
-      "a": "Acompanhei custo por corredor, backlog de reconciliação, SLA p95, taxa de exceções e tempo de reprocessamento. Qualquer desvio >5% disparava alerta no war room. Dashboard atualizado a cada 15 minutos com semáforo vermelho/amarelo/verde.",
-      "q_en": "Which daily indicators did you track to keep costs under control?",
-      "a_en": "I tracked cost per corridor, reconciliation backlog, p95 SLA, exception rate, and reprocessing time. Any deviation >5% fired war room alert. Dashboard updated every 15 minutes with red/yellow/green traffic light."
-    },
-    {
-      "q": "Como você garantiu que os renegócios com correspondentes gerariam economia real?",
-      "a": "Construí tabela de volume, tier de preço e economia projetada, rodei piloto de 30 dias com auditoria semanal e clausei redução mínima de 15 bps. Mais importante: vinculei pagamento dos correspondentes aos resultados do piloto, criando incentivo real para performance.",
-      "q_en": "How did you ensure correspondent renegotiations delivered real savings?",
-      "a_en": "I built volume table, price tier, and projected savings, ran 30-day pilot with weekly audits, and locked minimum 15 bps reduction. Most importantly: I tied correspondent payments to pilot results, creating real performance incentive."
-    },
-    {
-      "q": "Qual foi o maior desafio técnico na implementação do RPA?",
-      "a": "Integrar SWIFT MT103 com ledger interno sem quebrar segregação de funções. Criei camada intermediária que valida, enriquece e roteia transações baseado no score de risco, mantendo controles de compliance intactos. Testei com 1.000 transações antes do rollout completo.",
-      "q_en": "What was the biggest technical challenge in RPA implementation?",
-      "a_en": "Integrating SWIFT MT103 with internal ledger without breaking segregation of duties. I created intermediate layer that validates, enriches, and routes transactions based on risk score, keeping compliance controls intact. Tested with 1,000 transactions before full rollout."
-    },
-    {
-      "q": "Como você mediu o impacto real nos clientes premium?",
-      "a": "NPS premium (48→74), tempo de resolução de problemas (4h10→2h32), taxa de cancelamento (3 clientes ameaçando→0), e satisfação com transparência (dashboard 24/7). Mais importante: receita retida de R$ 4,8M/ano dos clientes que ameaçavam sair.",
-      "q_en": "How did you measure real impact on premium clients?",
-      "a_en": "Premium NPS (48→74), problem resolution time (4h10→2h32), cancellation rate (3 clients threatening→0), and transparency satisfaction (24/7 dashboard). Most importantly: R$4.8M/year revenue retained from clients who threatened to leave."
-    },
-    {
-      "q": "Que resistência você enfrentou da equipe de Operações?",
-      "a": "Operações temia que RPA eliminasse empregos. Mostrei que automação liberaria equipe para trabalho de maior valor (análise de risco, relacionamento com correspondentes) e criei programa de requalificação. Resultado: zero demissões, 5 promoções internas.",
-      "q_en": "What resistance did you face from the Operations team?",
-      "a_en": "Operations feared RPA would eliminate jobs. I showed automation would free team for higher-value work (risk analysis, correspondent relationships) and created requalification program. Result: zero layoffs, 5 internal promotions."
-    },
-    {
-      "q": "Como você garantiu sustentabilidade dos resultados após sua saída?",
-      "a": "Documentei playbook de 23 páginas, treinei 4 pessoas-chave em operação do RPA, automatizei 87% dos reports e criei rituais autossustentáveis (daily de 15min, review semanal). Mais importante: institucionalizei métricas no comitê executivo.",
-      "q_en": "How did you ensure result sustainability after your departure?",
-      "a_en": "I documented 23-page playbook, trained 4 key people in RPA operation, automated 87% of reports, and created self-sustaining rituals (15-min daily, weekly review). Most importantly: I institutionalized metrics in executive committee."
-    },
-    {
-      "q": "Qual foi o ROI real da força-tarefa?",
-      "a": "ROI de 890% no primeiro ano: evitei R$ 4,8M em perdas (clientes premium), economizei R$ 4,3M anualizados (redução de custo), liberei 340 horas/mês da equipe (R$ 680k em produtividade). Investimento total: R$ 120k (RPA + viagem Brasília + minha dedicação).",
-      "q_en": "What was the real ROI of the task force?",
-      "a_en": "890% ROI in first year: avoided R$4.8M in losses (premium clients), saved R$4.3M annualized (cost reduction), freed 340 hours/month from team (R$680K in productivity). Total investment: R$120K (RPA + Brasília trip + my dedication)."
-    },
-    {
-      "q": "Como você lidou com a pressão do CFO durante os 90 dias?",
-      "a": "Transparência radical: updates semanais com métricas objetivas (custo, SLA, backlog, NPS), sem sugar-coating. Mostrei progresso incremental e riscos reais. CFO parou de pressionar quando viu que tinha visibilidade total e controle real da situação.",
-      "q_en": "How did you handle CFO pressure during the 90 days?",
-      "a_en": "Radical transparency: weekly updates with objective metrics (cost, SLA, backlog, NPS), no sugar-coating. I showed incremental progress and real risks. CFO stopped pressuring when he saw he had total visibility and real control of situation."
-    },
-    {
-      "q": "Que aprendizado dessa crise você aplicou em outros contextos?",
-      "a": "O template de war room: (1) Single-threaded owner, (2) Métrica única de sucesso, (3) Daily de 30min máximo, (4) Trade-offs explícitos de longo prazo, (5) Mecanismos preventivos permanentes. Apliquei isso em 3 outras crises operacionais com sucesso similar.",
-      "q_en": "What learning from this crisis did you apply in other contexts?",
-      "a_en": "The war room template: (1) Single-threaded owner, (2) Single success metric, (3) 30-min max dailies, (4) Explicit long-term trade-offs, (5) Permanent preventive mechanisms. I applied this to 3 other operational crises with similar success."
-    }
+    // 1. Erro / falha
+    { q: "Qual foi seu maior erro ou falha nesse caso?", a: "Programei o RPA sem considerar curva de aprendizado da equipe. O cronograma atrasou 10 dias. Ajustei o plano, comuniquei o CFO e mantive credibilidade.", q_en: "What was your biggest mistake or failure?", a_en: "I underestimated the team's RPA learning curve; schedule slipped 10 days. I adjusted plan, informed CFO, and preserved credibility." },
+    // 2. O que faria diferente
+    { q: "O que você faria diferente hoje?", a: "Começaria o trabalho de gestão de mudança em paralelo ao técnico, para engajar Operações desde o design.", q_en: "What would you do differently today?", a_en: "Would start change management alongside technical design to engage Operations early." },
+    // 3. Obstáculo mais difícil
+    { q: "Qual foi o obstáculo mais difícil de superar?", a: "O bloqueio de Compliance. Tive de ir pessoalmente ao BACEN para demonstrar os controles e liberar o rollout.", q_en: "What was the hardest obstacle to overcome?", a_en: "Compliance blocking rollout; I personally presented controls to BACEN to obtain clearance." },
+    // 4. Principais riscos e mitigação
+    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Multa regulatória, perda de clientes e falha operacional. Mitiguei com dupla validação, auditoria semanal e alinhamento prévio com o BACEN.", q_en: "What were the main risks and how did you mitigate them?", a_en: "Regulatory fine, client churn, operational failure -- mitigated via dual validation, weekly audit, and prior BACEN alignment." },
+    // 5. Dados e racional de cálculo
+    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Usei 160 mil transações, custo unitário e spread médio por corredor. Cada 1% de eficiência equivalia a R$ 78 mil por ano.", q_en: "What data did you use and what was the rationale?", a_en: "Used 160K transactions, unit cost and average spread per corridor; each 1% efficiency = R$78K/year." },
+    // 6. Uso posterior do aprendizado
+    { q: "Como você usou o aprendizado desse caso em outras frentes?", a: "Replicando o formato de war room e métrica única em três regiões, treinando gestores em gestão de crise.", q_en: "How did you use this learning elsewhere?", a_en: "Replicated war-room and single-metric model in three regions, training managers in crisis management." },
+
+    // Outras FUPs existentes e complementares
+    { q: "Por que decidiu pausar novas features de marketing e como justificou esse trade-off?", a: "Mostrei ROI técnico de 35% menos retrabalho e 25% menos downtime. O CFO e o Marketing aprovaram a priorização estrutural.", q_en: "Why did you pause new marketing features and how did you justify the trade-off?", a_en: "Presented ROI showing 35% less rework and 25% less downtime; CFO and Marketing approved structural focus." },
+    { q: "Como garantiu que a força-tarefa permanecesse alinhada às metas nos 90 dias?", a: "Defini métrica única de custo médio e SLA p95 com painel diário; nenhuma reunião fora dos indicadores era permitida.", q_en: "How did you keep the task force aligned during the 90 days?", a_en: "Defined single average-cost/SLA metric with daily panel; no off-metric discussions allowed." },
+    { q: "Durante a negociação com bancos correspondentes, quais foram os maiores desafios e como superou?", a: "Os bancos pediam volume garantido. Usei históricos e projeções de fluxo para mostrar viabilidade; consegui redução de 18 bps.", q_en: "During correspondent bank negotiation, what challenges did you face?", a_en: "Banks requested guaranteed volume; I used historical data and flow projections, achieving 18bps discount." },
+    { q: "Como convenceu o diretor de Compliance a liberar o rollout do RPA?", a: "Apresentei framework de controles, medi risco residual e levei carta do BACEN; decisão baseada em fato, não opinião.", q_en: "How did you convince Compliance to approve the RPA rollout?", a_en: "Presented control framework, measured residual risk, and showed BACEN no-objection letter." },
+    { q: "Que indicadores usava diariamente para medir avanço?", a: "Custo médio, backlog, taxa de exceção e SLA p95, com alertas >5%. Atualização a cada 15 min.", q_en: "Which indicators did you track daily?", a_en: "Average cost, backlog, exception rate, SLA p95; >5% deviation alerts refreshed every 15 min." },
+    { q: "Como garantiu sustentabilidade dos resultados após sua saída?", a: "Deixei manual, treinei substitutos e vinculei bônus de área ao SLA. Mantiveram performance >95% por dois anos.", q_en: "How did you ensure result sustainability after you left?", a_en: "Delivered manual, trained successors, tied bonuses to SLA; kept >95% performance for two years." },
+    { q: "Como avaliou ROI real da iniciativa?", a: "Economias e perdas evitadas totalizaram R$ 9,1 M/ano para R$ 120 K de custo.", q_en: "How did you evaluate real ROI?", a_en: "Savings + losses avoided = R$9.1 M/year for R$120 K investment." },
+    { q: "Como geriu a pressão do CFO durante o prazo?", a: "Transparência semanal e checkpoints de 10 dias; o CFO acompanhava progresso em tempo real.", q_en: "How did you handle CFO pressure under deadline?", a_en: "Weekly transparency and 10-day checkpoints; CFO tracked real-time progress." },
+    { q: "O dashboard virou padrão. Qual foi seu papel na escalabilidade?", a: "Desenhei arquitetura e treinei 12 analistas para replicar o modelo em Tesouraria e Seguros.", q_en: "The dashboard became standard. What was your scaling role?", a_en: "Designed architecture and trained 12 analysts to replicate in Treasury and Insurance." },
+    { q: "O que aprendeu deste caso?", a: "Que clareza e métrica única sustentam viradas rápidas. Sem dados confiáveis, liderança vira opinião.", q_en: "What did you learn from this case?", a_en: "That clarity and single metric sustain fast turnarounds; without reliable data, leadership becomes opinion." }
   ]
 };
 

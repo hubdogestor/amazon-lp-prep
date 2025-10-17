@@ -77,7 +77,7 @@ const case_3 = {
       q: "Como o parceiro reagiu às medidas de transparência?",
       a: "Relatou sentir-se \"dentro da sala de controle\" e passou a cocriar indicadores conosco, sinal de confiança restabelecida.",
       q_en: "How did the partner react to the transparency measures?",
-      a_en: "They said they felt "inside the control room" and began co-creating indicators--evidence trust was rebuilt."
+      a_en: "They said they felt \"inside the control room\" and began co-creating indicators--evidence trust was rebuilt."
     },
     {
       q: "Como o caso foi reaplicado em outros clientes?",

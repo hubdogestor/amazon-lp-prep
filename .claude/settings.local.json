@@ -22,7 +22,8 @@
       "Bash(del fix_encoding.py)",
       "Bash(dir:*)",
       "Bash(findstr:*)",
-      "Bash(del \"d:\\github2\\amazon-lp-prep\\fix_unicode.py\")"
+      "Bash(del \"d:\\github2\\amazon-lp-prep\\fix_unicode.py\")",
+      "Bash(del \"d:\\github2\\amazon-lp-prep\\fix_unicode_ownership.py\")"
     ],
     "deny": [],
     "ask": []

@@ -505,6 +505,128 @@ const typicalQuestions = {
       "How do you think about local communities, planet and future generations in your decisions?",
       "Tell me about when you chose to do the right thing even costing short-term results"
     ]
+  },
+  "program_management": {
+    pt: [
+      "Conte sobre o programa mais complexo que você liderou - qual era o escopo, quantos times envolvidos e qual foi o resultado?",
+      "Como você gerencia múltiplos projetos interdependentes com recursos limitados?",
+      "Descreva uma situação onde você teve que ajustar o roadmap de um programa devido a mudanças externas",
+      "Como você garante alinhamento entre múltiplos stakeholders com prioridades conflitantes?",
+      "Conte sobre quando você teve que escalar um problema crítico em um programa - como você decidiu quando e para quem escalar?",
+      "Como você mede sucesso de um programa além de prazo e orçamento?",
+      "Descreva uma situação onde você teve que cancelar ou pivotar um programa em andamento",
+      "Como você gerencia dependências críticas entre times que você não controla diretamente?",
+      "Conte sobre quando você teve que recuperar um programa que estava fora dos trilhos",
+      "Como você equilibra governança rigorosa com agilidade e velocidade de execução?",
+      "Descreva uma situação onde você teve que comunicar más notícias sobre um programa para executivos seniores",
+      "Como você identifica e mitiga riscos em programas de larga escala?",
+      "Como você comunica progresso de programas complexos para diferentes audiências?"
+    ],
+    en: [
+      "Tell me about the most complex program you led - what was the scope, how many teams involved, and what was the result?",
+      "How do you manage multiple interdependent projects with limited resources?",
+      "Describe a situation where you had to adjust a program roadmap due to external changes",
+      "How do you ensure alignment among multiple stakeholders with conflicting priorities?",
+      "Tell me about when you had to escalate a critical problem in a program - how did you decide when and to whom to escalate?",
+      "How do you measure program success beyond timeline and budget?",
+      "Describe a situation where you had to cancel or pivot an ongoing program",
+      "How do you manage critical dependencies between teams you don't directly control?",
+      "Tell me about when you had to recover a program that was off track",
+      "How do you balance rigorous governance with agility and execution speed?",
+      "Describe a situation where you had to communicate bad news about a program to senior executives",
+      "How do you identify and mitigate risks in large-scale programs?",
+      "How do you communicate progress of complex programs to different audiences?"
+    ]
+  },
+  "stakeholder_management": {
+    pt: [
+      "Conte sobre uma situação onde você teve que influenciar stakeholders seniores sem autoridade formal",
+      "Como você gerencia expectativas de stakeholders quando não pode entregar tudo que eles querem?",
+      "Descreva uma situação onde você teve que construir consenso entre stakeholders com visões opostas",
+      "Como você identifica e engaja stakeholders críticos em um projeto complexo?",
+      "Conte sobre quando você teve que dizer 'não' para um stakeholder poderoso - como você abordou?",
+      "Como você mantém stakeholders engajados em programas de longo prazo?",
+      "Descreva uma situação onde você teve que reconstruir confiança com um stakeholder após um problema",
+      "Como você adapta sua comunicação para diferentes tipos de stakeholders (técnicos vs executivos)?",
+      "Conte sobre quando você teve que gerenciar conflito entre stakeholders de diferentes áreas",
+      "Como você garante que stakeholders críticos estejam informados sem sobrecarregá-los?",
+      "Descreva uma situação onde você teve que negociar trade-offs difíceis com múltiplos stakeholders",
+      "Como você lida com stakeholders que resistem a mudanças necessárias?"
+    ],
+    en: [
+      "Tell me about a situation where you had to influence senior stakeholders without formal authority",
+      "How do you manage stakeholder expectations when you can't deliver everything they want?",
+      "Describe a situation where you had to build consensus among stakeholders with opposing views",
+      "How do you identify and engage critical stakeholders in a complex project?",
+      "Tell me about when you had to say 'no' to a powerful stakeholder - how did you approach it?",
+      "How do you keep stakeholders engaged in long-term programs?",
+      "Describe a situation where you had to rebuild trust with a stakeholder after a problem",
+      "How do you adapt your communication for different types of stakeholders (technical vs executive)?",
+      "Tell me about when you had to manage conflict between stakeholders from different areas",
+      "How do you ensure critical stakeholders are informed without overwhelming them?",
+      "Describe a situation where you had to negotiate difficult trade-offs with multiple stakeholders",
+      "How do you handle stakeholders who resist necessary changes?"
+    ]
+  },
+  "prioritizing_and_influence": {
+    pt: [
+      "Conte sobre uma decisão difícil de priorização onde você teve que escolher entre múltiplas iniciativas críticas",
+      "Como você decide o que NÃO fazer quando tudo parece urgente?",
+      "Descreva uma situação onde você influenciou uma decisão estratégica importante sem ter autoridade formal",
+      "Como você usa dados para influenciar decisões quando stakeholders têm opiniões baseadas em intuição?",
+      "Conte sobre quando você teve que defender uma priorização controversa para executivos seniores",
+      "Como você equilibra necessidades de curto prazo vs investimentos de longo prazo?",
+      "Descreva uma situação onde você mudou a priorização de um roadmap baseado em novas informações",
+      "Como você garante que decisões de priorização sejam transparentes e compreendidas por todos?",
+      "Conte sobre quando você teve que influenciar uma decisão técnica importante com impacto de negócio",
+      "Como você lida com pressão para priorizar iniciativas que você acredita serem erradas?",
+      "Descreva uma situação onde você teve que repriorizar recursos em meio a uma crise",
+      "Como você mede se suas decisões de priorização estão gerando o impacto esperado?"
+    ],
+    en: [
+      "Tell me about a difficult prioritization decision where you had to choose between multiple critical initiatives",
+      "How do you decide what NOT to do when everything seems urgent?",
+      "Describe a situation where you influenced an important strategic decision without formal authority",
+      "How do you use data to influence decisions when stakeholders have intuition-based opinions?",
+      "Tell me about when you had to defend a controversial prioritization to senior executives",
+      "How do you balance short-term needs vs long-term investments?",
+      "Describe a situation where you changed roadmap prioritization based on new information",
+      "How do you ensure prioritization decisions are transparent and understood by everyone?",
+      "Tell me about when you had to influence an important technical decision with business impact",
+      "How do you handle pressure to prioritize initiatives you believe are wrong?",
+      "Describe a situation where you had to reprioritize resources amid a crisis",
+      "How do you measure if your prioritization decisions are generating expected impact?"
+    ]
+  },
+  "deal_with_ambiguity": {
+    pt: [
+      "Conte sobre uma situação onde você teve que tomar decisões críticas com informação incompleta",
+      "Como você estrutura problemas quando não há precedentes ou playbook para seguir?",
+      "Descreva uma situação onde você teve que liderar um projeto sem escopo claro ou requisitos definidos",
+      "Como você decide quando você tem informação suficiente para agir vs quando precisa de mais dados?",
+      "Conte sobre quando você teve que navegar ambiguidade organizacional (mudanças de estrutura, fusões, etc.)",
+      "Como você mantém seu time focado e produtivo em ambientes de alta incerteza?",
+      "Descreva uma situação onde você teve que criar estrutura e processos do zero",
+      "Como você lida com mudanças frequentes de direção ou prioridades?",
+      "Conte sobre quando você teve que fazer trade-offs difíceis sem orientação clara da liderança",
+      "Como você comunica progresso quando os objetivos ainda estão sendo definidos?",
+      "Descreva uma situação onde você teve que experimentar e iterar para encontrar a solução certa",
+      "Como você equilibra planejamento vs execução quando o futuro é incerto?"
+    ],
+    en: [
+      "Tell me about a situation where you had to make critical decisions with incomplete information",
+      "How do you structure problems when there's no precedent or playbook to follow?",
+      "Describe a situation where you had to lead a project without clear scope or defined requirements",
+      "How do you decide when you have enough information to act vs when you need more data?",
+      "Tell me about when you had to navigate organizational ambiguity (structure changes, mergers, etc.)",
+      "How do you keep your team focused and productive in high-uncertainty environments?",
+      "Describe a situation where you had to create structure and processes from scratch",
+      "How do you handle frequent changes in direction or priorities?",
+      "Tell me about when you had to make difficult trade-offs without clear guidance from leadership",
+      "How do you communicate progress when objectives are still being defined?",
+      "Describe a situation where you had to experiment and iterate to find the right solution",
+      "How do you balance planning vs execution when the future is uncertain?"
+    ]
   }
 };
 

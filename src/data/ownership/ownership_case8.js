@@ -1,4 +1,3 @@
-// Case 8 - ownership
 const case_8 = {
   id: "bradesco-next-delay",
   title: "Erro de Estimativa no Lançamento Bradesco Next",
@@ -9,79 +8,105 @@ const case_8 = {
   isTopCase: false,
   isGoodCase: true,
   pt: {
-    s: `"Leonardo, você garantiu que abril era viável. O CEO já fez um press release. Onde você errou?" A confrontação do CTO em uma chamada executiva de março de 2018 foi direta, e o momento da verdade chegou. Eu era Principal Engineer liderando a integração de pagamentos do Bradesco Next quando três semanas antes do congelamento de código, meu time reportou 60% de conclusão quando eu havia comunicado 85% ao conselho. As apostas eram brutais: um prazo público de 28 de abril para o lançamento do banco 100% digital, já anunciado na imprensa; um mercado dominado pelo Nubank (NPS 92); e minha estimativa otimista que subestimou a complexidade da API da Serasa (TLS mútuo + retries assíncronos).`,
-    t: `Meu escopo formal cobria arquitetura e integração de APIs de pagamento — Serasa, SPC, bancos parceiros. Mas diante de um erro de estimativa que ameaçava um lançamento de alto risco, eu precisava assumir publicamente a responsabilidade, realinhar as expectativas com o C-level e entregar uma solução que não apenas corrigisse o curso, mas também fortalecesse a organização. Precisava transformar uma falha individual em uma capacidade organizacional duradoura.`,
-    a: `Eu tinha três hipóteses para lidar com o erro: (1) Transferir culpa para Serasa — "API deles mudou", (2) Pedir mais recursos e empurrar prazo silenciosamente, ou (3) Assumir erro publicamente e construir solução estruturada. Escolhi a terceira por ser a única sustentável. Primeiro, agi com transparência radical: em menos de 24 horas, enviei email ao CEO, CTO e conselho, com meu time em cópia, declarando: "Eu subestimei a complexidade da integração da Serasa. O erro foi meu. A nova data é 19 de maio." Segundo, conduzi post-mortem de 5 porquês em 48 horas, que revelou a causa raiz: ausência de framework de estimativa para integrações regulatórias. Terceiro, apresentei plano de recuperação: realoquei 8 FTEs de features não críticas, contratei 2 consultores especializados em Serasa (R$ 180k/mês) e implementei testes de carga em paralelo, comprimindo o cronograma em 3 semanas. Quarto, para garantir que o erro não se repetisse, criei e documentei novo framework de estimativa, incluindo buffer de 40% para APIs de terceiros e política de escalonamento clara. Quinto, treinei 4 engenheiros principais neste novo modelo e institucionalizei revisões de estimativa quinzenais.`,
-    r: `Transformei um erro individual em capacidade organizacional duradoura que fortaleceu toda a empresa. Entregamos o Bradesco Next na data revisada, 19 de maio, com motor de crédito suportando pico de 73k requisições/hora e aprovando 12.847 contas em 72 horas com zero incidentes. Atingimos tempo médio de aprovação de 3m47s, superando nossa meta de <5min e alcançando NPS de 89, próximo ao líder de mercado. Mais importante, o framework de estimativa que criei foi adotado em toda a empresa, reduzindo erro médio de estimativa de ±42% para ±11% nos 5 projetos seguintes e prevenindo 3 atrasos críticos. O framework salvou R$ 8,7M em custos de atraso e retrabalho ao longo de 18 meses. Quatro meses depois, fui promovido a Principal Engineer, com o CTO citando meu "exemplo de como líderes devem assumir responsabilidade".`,
-    l: `Ela se prova não na celebração do sucesso, mas na forma como lidamos com o fracasso. Admitir "o erro foi meu" de forma rápida e pública é o alicerce da confiança. Desde então, meu método é: escalar riscos cedo, não esconder; post-mortems sem culpa geram aprendizado, defesa gera repetição; e um mecanismo duradouro é a única prova de que a lição foi aprendida. Apliquei esse template no Sicredi quando subestimei complexidade do PIX (assumi erro, criei framework de estimativa para pagamentos instantâneos, evitei 2 atrasos futuros), e no HSBC quando erro de sizing causou degradação (transparência pública, novo modelo de capacity planning, zero incidentes similares em 24 meses).`
+    s: "Março de 2018, a contagem regressiva para o lançamento do Bradesco Next havia começado. Eu atuava como Product Manager responsável pelas integrações de pagamento -- a frente que conectava o novo banco digital ao Serasa, SPC e instituições parceiras. O contexto era de alta visibilidade: o CEO havia prometido à imprensa um lançamento no dia 28 de abril, e a concorrência, liderada pelo Nubank (NPS 92), pressionava por velocidade. Três semanas antes do code freeze, meu time me informou que o módulo da Serasa estava apenas 60 % concluído, quando eu já havia comunicado 85 % ao board. Em uma reunião executiva, o CTO foi direto: “Leonardo, você garantiu que abril era viável. O CEO já anunciou o prazo. Onde você errou?” A resposta estava na projeção: eu havia subestimado o impacto do mutual TLS, dos retries assíncronos e da burocracia para homologação regulatória da Serasa.",
+    t: "Meu escopo formal incluía planejamento e priorização técnica de integrações de pagamento, mas, diante de um erro de estimativa que ameaçava um lançamento estratégico, precisei assumir publicamente a responsabilidade e restaurar a confiança do C-level. Meu objetivo deixou de ser cumprir um prazo e passou a ser restabelecer credibilidade e criar um mecanismo que protegesse projetos futuros contra erros similares.",
+    a: "Analisei três alternativas: (1) atribuir o problema à Serasa, justificando mudança de API; (2) solicitar recursos extras e empurrar o prazo sem assumir falha; ou (3) admitir o erro e construir uma solução estruturada. Escolhi a terceira. Dentro de 24 horas, enviei email ao CEO, CTO e conselho, copiando o time: “Subestimei a complexidade da integração com a Serasa. O erro foi meu. A nova data é 19 de maio.” Em seguida, promovi um post-mortem de 5 porquês que revelou a causa raiz: ausência de framework de estimativas para integrações regulatórias com terceiros. Apresentei um plano de recuperação em três frentes: realocar oito pessoas de features secundárias, contratar dois consultores especializados da Serasa (R$ 180 mil/mês) e executar testes de carga em paralelo para ganhar três semanas. Por fim, criei um framework institucional de estimativas com quatro componentes -- buffer de 40 % para APIs de terceiros regulatórios, POCs obrigatórias para integrações maiores que 50 story points, revisões quinzenais e escalonamento automático quando a variância ultrapassasse 15 %. Treinei quatro engenheiros principais nesse modelo e formalizei o processo no roadmap da engenharia.",
+    r: "Em 19 de maio, entregamos o Next no novo prazo. O motor de crédito suportou picos de 73 mil requisições/hora e abriu 12.847 contas em 72 horas sem incidentes. O tempo médio de aprovação foi de 3 min 47 s (abaixo da meta de 5 min). O NPS atingiu 89, três pontos abaixo do Nubank. Em relação a lançamentos anteriores, reduzimos erros médios de estimativa de ±42 % para ±11 % e eliminamos três atrasos críticos, economizando R$ 8,7 milhões em 18 meses. O framework influenciou outras frentes de tecnologia e foi adotado como referência corporativa no processo de planejamento do grupo. Quatro meses depois, fui promovido -- o CTO registrou oficialmente que assumir erros e construir mecanismos era “uma marca de liderança madura”.",
+    l: "Aprendi que credibilidade se conquista mais nas falhas do que nos acertos. Assumir o erro de forma imediata preserva confiança e acelera resolução. Desde então, aplico um padrão: escalar riscos cedo, conduzir post-mortems sem culpa e deixar mecanismos institucionalizados como legado. Usei esse modelo no Sicredi e no HSBC para transformar falhas de estimativa em frameworks corporativos de planejamento e capacity."
   },
   en: {
-    s: `"Leonardo, you guaranteed April was feasible. The CEO already issued a press release. Where did you go wrong?" The CTO's confrontation on a March 2018 executive call was direct, and the moment of truth arrived. I was Principal Engineer leading payments integration for Bradesco Next when three weeks before code freeze, my team reported 60% completion when I had communicated 85% to the board. The stakes were brutal: a public deadline of April 28th for the 100% digital bank launch, already announced in the press; a market dominated by Nubank (NPS 92); and my optimistic estimate that underestimated the complexity of the Serasa API (mutual TLS + asynchronous retries).`,
-    t: `My formal scope covered architecture and payment API integration — Serasa, SPC, partner banks. But faced with an estimation error that threatened a high-stakes launch, I needed to publicly take responsibility, realign expectations with C-level, and deliver a solution that not only corrected course but also strengthened the organization. I needed to turn an individual failure into lasting organizational capability.`,
-    a: `I had three hypotheses to handle the error: (1) Shift blame to Serasa — "their API changed", (2) Ask for more resources and quietly push deadline, or (3) Own error publicly and build structured solution. I chose the third as the only sustainable one. First, I acted with radical transparency: within 24 hours, I sent email to CEO, CTO, and board, with my team copied, stating: "I underestimated the complexity of Serasa integration. The mistake was mine. The new date is May 19th." Second, I conducted 5-whys post-mortem within 48 hours, which revealed root cause: absence of estimation framework for regulatory integrations. Third, I presented recovery plan: reallocated 8 FTEs from non-critical features, hired 2 specialized Serasa consultants (R$180k/month), and implemented parallel load testing, compressing schedule by 3 weeks. Fourth, to ensure mistake wouldn't repeat, I created and documented new estimation framework, including 40% buffer for third-party APIs and clear escalation policy. Fifth, I trained 4 principal engineers on this new model and institutionalized bi-weekly estimation reviews.`,
-    r: `I transformed an individual error into lasting organizational capability that strengthened the entire company. We delivered Bradesco Next on revised date, May 19th, with credit engine supporting peak of 73k requests/hour and approving 12,847 accounts in 72 hours with zero incidents. We achieved average approval time of 3m47s, beating our goal of <5min and reaching NPS of 89, close to market leader. More importantly, the estimation framework I created was adopted company-wide, reducing average estimation error from ±42% to ±11% in following 5 projects and preventing 3 critical delays. The framework saved R$8.7M in delay costs and rework over 18 months. Four months later, I was promoted to Principal Engineer, with CTO citing my "example of how leaders should take responsibility".`,
-    l: `It's proven not in celebrating success, but in how we handle failure. Admitting "the mistake was mine" quickly and publicly is the bedrock of trust. Since then, my method has been: escalate risks early, don't hide; blameless post-mortems generate learning, defensiveness generates repetition; and lasting mechanism is the only proof that lesson was learned. I applied this template at Sicredi when I underestimated PIX complexity (owned error, created estimation framework for instant payments, avoided 2 future delays), and at HSBC when sizing error caused degradation (public transparency, new capacity planning model, zero similar incidents in 24 months).`
+    s: "March 2018. As Product Manager for payment integrations at Bradesco Next -- the group’s digital bank -- I was leading the connection between Next, Serasa, SPC, and partner institutions. The CEO had publicly announced a launch date of April 28, and the market was dominated by Nubank (NPS 92). Three weeks before code freeze my team reported 60 percent completion of the Serasa module while I had already informed the board of 85 percent. In an executive meeting, the CTO demanded, 'Leonardo, you guaranteed April was viable. The CEO has gone public. Where did you go wrong?' The answer: I had underestimated Serasa API complexities -- mutual TLS, asynchronous retries, and long regulatory validation cycles.",
+    t: "My formal scope spanned planning and technical prioritization across payment integrations. But facing an estimation error that jeopardized the company’s most visible launch, I needed to take responsibility publicly and rebuild trust through structured corrective action. The goal shifted from 'meeting the deadline' to 'building systems that protect future estimates'.",
+    a: "I evaluated three options: (1) blame Serasa for API changes; (2) quietly request resources and extend deadline; (3) admit mistake and design a systemic solution. I chose the third. Within 24 hours I emailed CEO, CTO, and board (CC team): 'I underestimated Serasa integration complexity. The error was mine. New target: May 19.' I then led a 5-Whys post-mortem exposing the root cause -- lack of an estimation framework for regulated third-party APIs. The recovery plan covered three fronts: reassigned eight engineers from low-impact features, hired two Serasa specialists (R$ 180K/month), and launched parallel load tests to cut three weeks off schedule. Finally, I built a four-pillar estimation framework (40 % buffer for external APIs, mandatory POCs, bi-weekly architectural reviews, and auto-escalation at >15 % variance) and trained four principal engineers to deploy it company-wide.",
+    r: "On May 19 we launched Next on the revised date. Credit engine handled 73 K requests/hour, 12,847 accounts approved within 72 hours, zero incidents. Average approval time 3 min 47 s (<5 min goal) and NPS 89 -- just three points below Nubank. Compared with previous digital initiatives, forecast error fell from ±42 % to ±11 and three critical delays were eliminated, saving R$ 8.7 M in 18 months. The framework became corporate standard and later replicated in other technology dives. Four months later the CTO cited this episode when promoting me as an example of executive accountability.",
+    l: "Leadership is earned more through failure than success. Owning error openly creates speed and trust. Since then, I apply a discipline: escalate risk early, conduct blameless post-mortems, and embed preventive mechanisms so lessons endure. This pattern later turned under-estimation issues at Sicredi and HSBC into planning frameworks and capacity models used to this day."
   },
   fups: [
+    // 6 centrais obrigatórias
+    { q: "Qual foi seu maior erro ou falha nesse caso?", a: "Assumir que complexidade técnica seria proporcional à das integrações anteriores e não considerar o efeito do TLS mútuo e dos retries assíncronos. Corrigi criando regra de buffer obrigatório e POCs de validação antecipada.", q_en: "What was your biggest mistake or failure?", a_en: "Assumed technical complexity equal to prior APIs, ignoring mutual TLS and async retries. Fixed via mandatory buffer and early validation POCs." },
+    { q: "O que você faria diferente hoje?", a: "Reportaria a divergência assim que percepção de risco surgisse e envolveria o CTO antes de qualquer promessa oficial.", q_en: "What would you do differently today?", a_en: "Would flag variance as soon as risk perception rose and involve CTO before any public commitment." },
+    { q: "Qual foi o obstáculo mais difícil que você enfrentou?", a: "Convencer a diretoria de que admitir a falha publicamente era estratégia de credibilidade, não exposição de fraqueza.", q_en: "What was the hardest obstacle you faced?", a_en: "Convincing leadership that public ownership built credibility instead of showing weakness." },
+    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Perda de reputação e atrasos adicionais; mitiguei apresentando plano de recuperação detalhado com prazos, ROI e métricas de qualidade.", q_en: "Reputation loss and further delays; mitigated through detailed recovery plan with ROI and quality metrics." },
+    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Baseei-me em logs de integração, throughput máximo observado, tempo médio por requisição e histórico de projetos regulatórios anteriores.", q_en: "Relied on integration logs, peak throughput, average request time, and past regulatory project metrics." },
+    { q: "Como você usou o aprendizado desse caso em outras frentes?", a: "Padronizei o framework e o expandi para produtos de crédito e onboarding, reduzindo variação de estimativas em 70% em toda a tribo Next.", q_en: "Standardized framework applied to credit and onboarding products, reducing estimation variance 70% across Next tribe." },
+
+    // FUPs originais mantidas
     {
-      "q": "Como você soube que havia subestimado a complexidade?",
-      "a": "Na sprint review de 12 de março, três semanas antes do code freeze, meu tech lead reportou que a integração Serasa estava 60% completa quando eu havia comunicado ao board 85% e garantido que abril era viável. O gap entre meu tracking (baseado em story points concluídos) e a realidade técnica (autenticação TLS + retries assíncronos ainda não resolvidos) ficou evidente quando testamos carga de 50k req/h e o sistema falhou em 73% das requisições.",
-      "q_en": "How did you know you had underestimated complexity?",
-      "a_en": "At March 12th sprint review, three weeks before code freeze, my tech lead reported Serasa integration was 60% complete when I had communicated 85% to board and guaranteed April was viable. The gap between my tracking (based on completed story points) and technical reality (TLS authentication + async retries still unresolved) became evident when we tested 50k req/h load and system failed 73% of requests."
+      q: "Como você soube que havia subestimado a complexidade?",
+      a: "Na sprint review de março percebi que o progresso funcional não refletia o status técnico. O número de falhas TLS e de timeout deixou evidente o gap.",
+      q_en: "At March sprint review I saw functional progress not matching technical reality; TLS and timeout failures exposed gap."
     },
     {
-      "q": "Como o CEO e o CTO reagiram quando você assumiu o erro?",
-      "a": "O CTO me confrontou duramente: 'Leonardo, você garantiu que abril era viável. O CEO já fez press release. Onde você errou?'. Quando assumi imediatamente 'o erro foi meu: subestimei Serasa e não incluí buffer regulatório', a tensão diminuiu. O CEO respondeu: 'Eu aprecio a honestidade. Qual é o novo target realista?'. A transparência imediata transformou confronto em colaboração.",
-      "q_en": "How did CEO and CTO react when you owned the error?",
-      "a_en": "CTO confronted me hard: 'Leonardo, you guaranteed April was viable. CEO already issued press release. Where did you go wrong?'. When I immediately owned 'the error was mine: I underestimated Serasa and didn't include regulatory buffer', tension decreased. CEO responded: 'I appreciate honesty. What's the realistic new target?'. Immediate transparency turned confrontation into collaboration."
+      q: "Como o CEO e o CTO reagiram quando você assumiu o erro?",
+      a: "Inicialmente surpresos, reconheceram transparência como valor estratégico e pediram plano de ação imediato.",
+      q_en: "Initially surprised, both valued transparency as strategic and asked for immediate action plan."
     },
     {
-      "q": "Qual foi o framework de estimativa que você criou?",
-      "a": "Criei framework com 4 componentes: (1) Buffer obrigatório de 40% para APIs de terceiros regulatórios, (2) POC técnico obrigatório para integrações >50 story points, (3) Revisão quinzenal com arquitetos sênior, (4) Escalação automática quando variance >15%. Framework reduziu erro médio de ±42% para ±11% e preveniu 3 atrasos críticos.",
-      "q_en": "What was the estimation framework you created?",
-      "a_en": "I created framework with 4 components: (1) Mandatory 40% buffer for regulatory third-party APIs, (2) Mandatory technical POC for integrations >50 story points, (3) Bi-weekly review with senior architects, (4) Automatic escalation when variance >15%. Framework reduced average error from ±42% to ±11% and prevented 3 critical delays."
+      q: "Qual foi o framework de estimativa que você criou?",
+      a: "Inclui buffer de 40%, POC obrigatória, revisão quinzenal de estimativas e escalonamento automático para desvios acima de 15%.",
+      q_en: "Included 40% buffer, mandatory POC, bi-weekly review, and auto-escalation for >15% deviation."
     },
     {
-      "q": "Como você mediu o impacto do seu erro na organização?",
-      "a": "Impacto direto: atraso de 3 semanas custou R$ 2,1M (marketing, consultores, oportunidade). Impacto indireto: credibilidade abalada com CEO e board. Mas o framework que criei salvou R$ 8,7M em custos de atraso nos 18 meses seguintes, gerando ROI líquido de 314%. Mais importante: transformei falha em ativo estratégico.",
-      "q_en": "How did you measure the impact of your error on the organization?",
-      "a_en": "Direct impact: 3-week delay cost R$2.1M (marketing, consultants, opportunity). Indirect impact: shaken credibility with CEO and board. But framework I created saved R$8.7M in delay costs over next 18 months, generating net ROI of 314%. Most importantly: I transformed failure into strategic asset."
+      q: "Como você mediu o impacto do seu erro na organização?",
+      a: "Perdas diretas de R$ 2,1 M em três semanas de atraso e ganhos subsequentes de R$ 8,7 M com o novo método (ROI 314%).",
+      q_en: "R$ 2.1 M direct loss from 3-week delay, R$ 8.7 M savings afterwards--314% ROI."
     },
     {
-      "q": "Que resistência você enfrentou ao assumir o erro publicamente?",
-      "a": "Meu time estava nervoso ('vai prejudicar nossa reputação'), alguns colegas sugeriram culpar Serasa ('API deles mudou'). Mas expliquei que transparência constrói confiança: 'Se escondermos agora, nunca mais seremos confiáveis'. Resultado: CEO passou a me consultar em decisões críticas porque sabia que eu seria transparente sobre riscos.",
-      "q_en": "What resistance did you face in owning the error publicly?",
-      "a_en": "My team was nervous ('it will hurt our reputation'), some colleagues suggested blaming Serasa ('their API changed'). But I explained transparency builds trust: 'If we hide now, we'll never be trusted again'. Result: CEO started consulting me on critical decisions because he knew I'd be transparent about risks."
+      q: "Que resistência você enfrentou ao assumir o erro publicamente?",
+      a: "Parte do time temia impacto de reputação; reverti essa visão explicando que transparência gera confiança e aprendizado coletivo.",
+      q_en: "Team feared reputational harm; I reframed transparency as trust and collective learning builder."
     },
     {
-      "q": "Como você garantiu que o framework fosse adotado pela empresa?",
-      "a": "Três estratégias: (1) Provei ROI com dados (±42% → ±11% de erro), (2) Treinei 4 engenheiros principais que se tornaram evangelistas, (3) Institucionalizei no processo oficial com aprovação do CTO. Mais importante: mostrei que framework nasceu de falha real, não de teoria, o que deu credibilidade.",
-      "q_en": "How did you ensure the framework was adopted by the company?",
-      "a_en": "Three strategies: (1) Proved ROI with data (±42% → ±11% error), (2) Trained 4 principal engineers who became evangelists, (3) Institutionalized in official process with CTO approval. Most importantly: I showed framework was born from real failure, not theory, which gave credibility."
+      q: "Como você garantiu que o framework fosse adotado pela empresa?",
+      a: "Exibi ROI comprovado, treinei multiplicadores e formalizei o processo com apoio direto do CTO.",
+      q_en: "Showed verified ROI, trained internal champions, formalized process with CTO endorsement."
     },
     {
-      "q": "Qual foi o maior aprendizado pessoal dessa experiência?",
-      "a": "Que liderança se prova no fracasso, não no sucesso. Antes eu evitava admitir erros por medo de parecer incompetente. Aprendi que transparência radical constrói confiança: CEO passou a me ver como 'líder confiável' porque sabia que eu escalaria problemas cedo, não esconderia até explodir.",
-      "q_en": "What was the biggest personal learning from this experience?",
-      "a_en": "That leadership is proven in failure, not success. Before I avoided admitting errors for fear of appearing incompetent. I learned radical transparency builds trust: CEO started seeing me as 'reliable leader' because he knew I'd escalate problems early, not hide until they exploded."
+      q: "Qual foi o maior aprendizado pessoal dessa experiência?",
+      a: "Que vulnerabilidade combinada com método é força de liderança, não fraqueza.",
+      q_en: "That vulnerability paired with method is leadership strength, not weakness."
     },
     {
-      "q": "Como você aplicou esse aprendizado em outras situações?",
-      "a": "No Sicredi: subestimei PIX complexity, assumi erro publicamente, criei framework de estimativa para pagamentos instantâneos. No HSBC: erro de sizing causou degradação, transparência pública, novo modelo de capacity planning. Template: erro → transparência pública → post-mortem → mecanismo → institucionalização.",
-      "q_en": "How did you apply this learning in other situations?",
-      "a_en": "At Sicredi: underestimated PIX complexity, owned error publicly, created estimation framework for instant payments. At HSBC: sizing error caused degradation, public transparency, new capacity planning model. Template: error → public transparency → post-mortem → mechanism → institutionalization."
+      q: "Como você aplicou esse aprendizado em outras situações?",
+      a: "Usei o modelo em Sicredi e HSBC, ajustando métricas para cenários de open finance e capacity planning.",
+      q_en: "Applied model at Sicredi and HSBC, adapting metrics to open-finance and capacity-planning environments."
     },
     {
-      "q": "Qual foi o ROI real do framework de estimativa?",
-      "a": "ROI de 314% em 18 meses: investimento de R$ 2,8M (treinamentos, ferramentas, tempo), economia de R$ 8,7M (atrasos evitados, retrabalho prevenido). Mais importante: 5 projetos seguintes tiveram erro médio de ±11% vs. ±42% anterior, e zero atrasos críticos vs. 3 previstos.",
-      "q_en": "What was the real ROI of the estimation framework?",
-      "a_en": "314% ROI over 18 months: investment of R$2.8M (training, tools, time), savings of R$8.7M (avoided delays, prevented rework). Most importantly: next 5 projects had average error of ±11% vs. ±42% before, and zero critical delays vs. 3 predicted."
+      q: "Qual foi o ROI real do framework de estimativa?",
+      a: "ROI 314% em 18 meses e eliminação de atrasos críticos em cinco projetos seguintes.",
+      q_en: "314% ROI in 18 months and zero critical delays across next five projects."
     },
     {
-      "q": "Como você lidou com a pressão do CEO e da imprensa?",
-      "a": "Transparência total: expliquei ao CEO que atraso de 3 semanas era melhor que lançamento instável que prejudicaria NPS. Com imprensa, criamos narrativa de 'lançamento responsável' focado em qualidade. Resultado: Bradesco Next lançou com NPS 89, próximo ao líder Nubank (92), validando a decisão.",
-      "q_en": "How did you handle pressure from CEO and press?",
-      "a_en": "Total transparency: I explained to CEO that 3-week delay was better than unstable launch that would hurt NPS. With press, we created narrative of 'responsible launch' focused on quality. Result: Bradesco Next launched with NPS 89, close to leader Nubank (92), validating the decision."
+      q: "Como você lidou com a pressão do CEO e da imprensa?",
+      a: "Comuniquei que três semanas de espera eram melhor que um lançamento instável. Criamos estratégia de reputação: “lançamento responsável”.",
+      q_en: "Explained that 3-week delay was safer than unstable launch. Built 'responsible launch' communication strategy."
+    },
+
+    // Novas FUPs do feedback adicional
+    {
+      q: "Como você garantiu a adesão da equipe e dos stakeholders ao novo framework de estimativa?",
+      a: "Apresentei métricas de ROI, demonstrei ganhos nos testes-piloto e envolvi o CTO na comunicação do novo padrão.",
+      q_en: "Presented ROI metrics, showed pilot results, and involved CTO in communication of new standards."
+    },
+    {
+      q: "O que você aprendeu com o processo de '5 porquês' e como aplicou em projetos futuros?",
+      a: "Aprendi que causas humanas e sistêmicas costumam coexistir. Passei a registrar toda raiz identificada em base corporativa de lições aprendidas.",
+      q_en: "Learned human and systemic causes coexist; began logging every root cause to corporate lessons-learned base."
+    },
+    {
+      q: "Quais foram os maiores desafios técnicos na integração com Serasa e como você os superou?",
+      a: "Autenticação TLS mútua dependia de certificados assinados manualmente e latência de 5 segundos. Implementei paralelização de conexões e retries inteligentes.",
+      q_en: "Mutual TLS required manual cert sign-off and 5 s latency; implemented connection parallelism and smart retries."
+    },
+    {
+      q: "Como você lidou com a resistência ou receios do CEO e do conselho ao comunicar o erro?",
+      a: "Usei fato e ROI: mostrei que transparência custaria três semanas, mas evitaria perda potencial de R$ 12 M em reclamações e retrabalho.",
+      q_en: "Used facts and ROI--showed transparency would add three weeks but avert R$ 12 M potential loss."
+    },
+    {
+      q: "Se pudesse refazer este projeto, o que faria de forma diferente para evitar o erro inicial ou aprimorar resultados?",
+      a: "Introduziria revisões técnicas de risco já na fase de discovery e criaria métricas preditivas de esforço baseado em integrações anteriores.",
+      q_en: "Would introduce technical-risk reviews in discovery phase and predictive effort metrics based on prior integrations."
     }
   ]
 };

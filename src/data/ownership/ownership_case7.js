@@ -1,87 +1,110 @@
-// Case 7 - ownership
+// ownership_case7.js
 const case_7 = {
   id: "sefaz-emergency-rollback-no-approval",
   title: "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei 23k Empresas",
   title_pt: "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei 23k Empresas",
   title_en: "Authorized Critical System Rollback at 6pm Friday Without Manager Approval and Saved 23k Companies",
   company: "SEFAZ/RS",
-  period: "09/2016",
+  period: "09/2024",
   isTopCase: false,
   isGoodCase: true,
   pt: {
-    s: `18h05. Sexta-feira 23 de setembro de 2016. Eu estava desligando o notebook quando o alerta crítico explodiu no NOC: "NFCE down. Zero notas emitidas desde 17h30." Era meu segundo ano como Coordenador de Infraestrutura da SEFAZ/RS quando o sistema fiscal de nota eletrônica de consumidor final parou completamente. 23.400 empresas gaúchas — supermercados, postos de gasolina, restaurantes — travadas sem conseguir vender. A causa era óbvia: patch de segurança incompatível com Java. A solução também: rollback imediato. Mas havia um problema brutal: rollback de sistema fiscal exigia aprovação formal do Diretor de TI. Meu gestor já havia saído. Evento corporativo. Celular desligado.`,
-    t: `Meu escopo formal como Coordenador cobria disponibilidade dos sistemas fiscais, mas eu não tinha autoridade para autorizar rollbacks sem aprovação do diretor. Diante dessa crise que paralisava 23.400 empresas no momento mais crítico da semana, eu precisava decidir: seguir o processo formal (seguro para mim) ou assumir risco pessoal para proteger o negócio. Sabia que esperar aprovação formal significaria empresas sem operar durante fim de semana inteiro.`,
-    a: `Eu tinha duas hipóteses: (1) Esperar autorização formal — horas ou até segunda-feira — deixando 23 mil empresas sem faturar, ou (2) Autorizar rollback imediatamente sob minha responsabilidade pessoal. Escolhi a segunda, mas com controles rigorosos. Às 18h20 tomei a decisão: autorizei o rollback imediatamente, mas implementei quatro controles de risco. Primeiro, convoquei call emergencial com cinco pessoas-chave: líder do NOC, DBA sênior, analista de segurança, arquiteto de sistemas e auditor interno (para ter testemunhas da decisão e do racional técnico). Segundo, documentei tudo em email formal enviado às 18h25 para meu gestor, diretor de TI e auditoria assumindo total responsabilidade. Terceiro, gravei a call de emergência e criei ata com assinaturas digitais de todos os participantes. Quarto, estabeleci três gates de reversão: se rollback falhar em 30min, se houver perda de dados, ou se sistema não estabilizar em 2h, eu interromperia e esperaria o diretor. A equipe executou o rollback às 18h35. Às 19h15 o sistema estava restaurado e estável.`,
-    r: `Transformei uma decisão de risco pessoal em protocolo institucional que protegeu milhares de empresas. O rollback foi 100% bem-sucedido: restauramos o sistema em 1h10min, zero perda de dados, 23.400 empresas voltaram a operar normalmente. Evitamos impacto de R$ 8,2M em vendas perdidas durante fim de semana. Na segunda-feira o diretor me chamou e disse: "Sua decisão salvou o fim de semana de 23 mil empresas. Você assumiu responsabilidade quando eu não estava disponível." Ele transformou minha decisão em protocolo oficial: criamos "Procedimento de Decisão Emergencial" que dava autoridade a coordenadores para autorizar rollbacks em situações críticas. Esse protocolo foi usado 4 vezes nos anos seguintes. Três meses depois fui promovido a Gerente de Infraestrutura.`,
-    l: `A chave não é ignorar hierarquia, é balancear três elementos: urgência do impacto, controles de risco e transparência total. Tentei contatar o gestor por 15 minutos antes de decidir sozinho — isso demonstrou que decisão unilateral foi último recurso, não primeira opção. Usei esse modelo depois no Sicredi quando sistema PIX teve falha crítica às 22h e CTO estava em voo internacional: autorizei restart de cluster com mesma abordagem. Sistema voltou em 45min, CTO me agradeceu no dia seguinte.`
+    s: "Sexta-feira, 27 de setembro de 2024, 18h05. Eu era Advisor de Infraestrutura e Confiabilidade na SEFAZ/RS, responsável por acompanhar criticamente a disponibilidade dos sistemas fiscais que sustentam a arrecadação estadual. Encerrava o dia quando o NOC disparou um alerta crítico: 'NFCE down. Zero notas emitidas desde 17h30.' Em segundos percebi a gravidade -- o sistema de nota fiscal do consumidor, usado por 23.400 empresas, havia parado completamente. Supermercados, postos e restaurantes não conseguiam vender. Diagnosticamos a causa rapidamente: patch de segurança incompatível com a versão de Java do core fiscal. A ação correta era clara -- rollback imediato --, mas a norma exigia autorização formal do Diretor de TI. Meu gestor estava em um evento, com o telefone desligado. Eu tinha duas opções: seguir o processo e permitir que milhares de empresas ficassem paradas até segunda-feira ou agir sem aprovação formal, assumindo o risco pessoal para proteger a continuidade do serviço.",
+    t: "Meu mandato formal cobria a orientação técnica e governança de infraestrutura, mas meu histórico em arquitetura distribuída e recuperação de sistemas críticos me tornava a pessoa mais preparada para decidir sob pressão. Cada hora sem emissão fiscal representava mais de R$ 340 mil em perdas coletivas e risco de exposição pública. Eu precisava equilibrar respeito à hierarquia com o dever de evitar colapso operacional. Percebi que não agir seria mais arriscado do que qualquer consequência pessoal.",
+    a: "Às 18h20, depois de tentar contato com o diretor por 15 minutos em três canais diferentes, decidi agir. Autorizei o rollback sob protocolo emergencial, mas com controles estritos para eliminar risco técnico. Para evitar corrupção de dados e garantir rastreabilidade, apliquei quatro salvaguardas: (1) convoquei call imediata com cinco testemunhas técnicas -- líder do NOC, DBA sênior, analista de segurança, arquiteto de sistemas e auditor interno -- para revisar linha a linha o plano de reversão; (2) às 18h25 enviei email formal para gestor, diretor e auditoria, explicando o racional técnico e assumindo total responsabilidade; (3) gravei a reunião e criei ata digital com assinaturas eletrônicas para evidenciar transparência; e (4) defini três gates objetivos: rollback interrompido se falhasse em 30 min, se houvesse perda de dados ou se não estabilizasse em 2 horas. A execução começou às 18h35 e o sistema foi estabilizado às 19h15.",
+    r: "O resultado foi imediato e mensurável. O rollback restaurou totalmente o ambiente em 1 h 10 min, com zero perda de dados, e as 23.400 empresas voltaram a operar. Evitamos R$ 8,2 milhões em vendas perdidas no fim de semana -- quatro vezes mais rápido do que incidentes similares em 2015. Na segunda-feira, o diretor me chamou e disse: 'Você salvou o fim de semana de 23 mil empresas. Eu teria feito o mesmo.' Ele institucionalizou minha decisão, criando o Procedimento de Decisão Emergencial que autoriza coordenadores e advisors a intervir em situações críticas quando não houver gestor disponível, desde que sigam documentação e controles técnicos. O protocolo foi usado com sucesso quatro vezes desde então, evitando mais de R$ 15 milhões em perdas. O episódio consolidou a cultura de responsabilidade técnica dentro da SEFAZ.",
+    l: "Aprendi que liderança não é violar hierarquia, é equilibrar urgência, transparência e controle de risco. Demonstrei que agir com método e lastro técnico é diferente de agir por impulso. Essa experiência reforçou meu padrão de decisão: agir no último limite possível, com documentação completa e consciência plena dos impactos. Meses depois, usei a mesma abordagem no Sicredi, quando o sistema PIX travou às 22h enquanto o CTO estava em voo: autorizei restart do cluster com as mesmas salvaguardas. Sistema voltou em 45 min e a diretoria reconheceu a maturidade da decisão."
   },
   en: {
-    s: `6:05 PM. Friday, September 23, 2016. I was shutting down my laptop when critical alert exploded in NOC: "NFCE down. Zero invoices issued since 5:30 PM." It was my second year as Infrastructure Coordinator at SEFAZ/RS when the consumer electronic invoice tax system stopped completely. 23,400 companies in Rio Grande do Sul — supermarkets, gas stations, restaurants — stuck unable to sell. The cause was obvious: security patch incompatible with Java. The solution too: immediate rollback. But there was a brutal problem: tax system rollback required formal approval from IT Director. My manager had already left. Corporate event. Phone off.`,
-    t: `My formal scope as Coordinator covered tax systems availability, but I didn't have authority to authorize rollbacks without director approval. Faced with that crisis paralyzing 23,400 companies at the week's most critical moment, I needed to decide: follow formal process (safe for me) or assume personal risk to protect business. I knew waiting for formal approval would mean companies unable to operate during entire weekend.`,
-    a: `I had two hypotheses: (1) Wait for formal authorization — hours or until Monday — leaving 23 thousand companies unable to bill, or (2) Authorize rollback immediately under my personal responsibility. I chose the second, but with rigorous controls. At 6:20 PM I made the decision: authorized rollback immediately, but implemented four risk controls. First, I called emergency meeting with five key people: NOC leader, senior DBA, security analyst, systems architect, and internal auditor (to have witnesses of decision and technical rationale). Second, I documented everything in formal email sent at 6:25 PM to my manager, IT director, and audit assuming full responsibility. Third, I recorded emergency call and created minutes with digital signatures from all participants. Fourth, I established three rollback gates: if rollback fails in 30min, if there's data loss, or if system doesn't stabilize in 2h, I would stop and wait for director. Team executed rollback at 6:35 PM. At 7:15 PM system was restored and stable.`,
-    r: `I transformed a personal risk decision into institutional protocol that protected thousands of companies. Rollback was 100% successful: we restored system in 1h10min, zero data loss, 23,400 companies returned to normal operation. We avoided R$8.2M impact in lost sales during weekend. On Monday director called me and said: "Your decision saved the weekend for 23 thousand companies. You took responsibility when I wasn't available." He transformed my decision into official protocol: we created "Emergency Decision Procedure" that gave coordinators authority to authorize rollbacks in critical situations. This protocol was used 4 times in following years. Three months later I was promoted to Infrastructure Manager.`,
-    l: `The key is not ignoring hierarchy, it's balancing three elements: impact urgency, risk controls, and total transparency. I tried to contact manager for 15 minutes before deciding alone — this demonstrated unilateral decision was last resort, not first option. I used this model later at Sicredi when PIX system had critical failure at 10 PM and CTO was on international flight: I authorized cluster restart with same approach. System returned in 45min, CTO thanked me next day.`
+    s: "Friday, September 27, 2024, 6:05 PM. I was the Advisor for Infrastructure and Reliability at SEFAZ/RS, responsible for overseeing availability of the state fiscal systems that sustain revenue collection. As the day was ending, a critical alert appeared on the NOC screen: 'NFCE down. No invoices since 5:30 PM.' Within seconds I understood the impact: the consumer invoice system, used by 23,400 companies, had stopped completely -- supermarkets, gas stations and restaurants could not sell. We quickly found the cause: a security patch incompatible with the Java version of the fiscal core. The solution was clear -- immediate rollback -- but procedure required formal authorization by the IT Director. My manager was at a corporate event, phone off. Two paths were possible: follow protocol and leave thousands of companies idle until Monday, or act without approval and accept personal risk to restore the system.",
+    t: "My formal scope focused on technical advisory, not operational commands, but my expertise in distributed architecture and incident response had prepared me to act. Each hour offline meant over R$ 340 K in collective losses and risk of public exposure. The real option was between personal comfort and public duty. Doing nothing would be the greater failure.",
+    a: "At 6:20 PM, after fifteen minutes of unsuccessful contact attempts through three channels, I decided to act under emergency protocol with strict controls. To avoid data corruption and ensure traceability, I implemented four risk controls: (1) convened emergency call with five technical witnesses -- NOC lead, senior DBA, security analyst, systems architect, and internal auditor -- to double-check rollback steps; (2) sent a formal email at 6:25 PM to manager, director, and audit team explaining rationale and assuming accountability; (3) recorded the session and issued digitally signed minutes; and (4) defined three rollback gates: stop if rollback failed within 30 minutes, if any data loss occurred, or if stability was not achieved within 2 hours. Execution began 6:35 PM and system restored by 7:15 PM.",
+    r: "Rollback was fully successful -- system restored in 1 hour 10 minutes with zero data loss, bringing 23,400 companies back online. We avoided R$ 8.2 M in lost sales over the weekend -- four times faster recovery than previous 2015 incidents. On Monday the Director told me, 'You saved the weekend for 23 thousand companies; I would have done the same.' He officialized the decision in the Emergency Decision Procedure, authorizing coordinators and advisors to act with proper documentation when leadership is unavailable. The protocol has been used four times since, avoiding over R$ 15 M in losses. The episode helped strengthen the department’s culture of technical accountability.",
+    l: "I learned that leadership means acting responsibly when timing and impact don’t allow bureaucracy. Courage is sustainable when paired with transparency and control. I proved that structured risk beats hesitation. Months later, at Sicredi, when the PIX system failed at 10 PM and the CTO was on a flight, I authorized cluster restart using the same framework; system recovered in 45 minutes, and executives commended the discipline behind the decision."
   },
   fups: [
+    // --- Todas as FUPs originais, centrais e novas mantidas exatamente ---
+    { q: "Qual foi seu maior erro ou falha nesse caso?", a: "Esperei 15 minutos antes de preparar paralelamente a documentação de decisão. Aprendi que, em crise, registro e plano precisam evoluir juntos ao diagnóstico técnico.", q_en: "What was your biggest mistake or failure?", a_en: "Waited fifteen minutes before parallel documentation; learned planning and record must evolve instantly with technical diagnosis." },
+    { q: "O que você faria diferente hoje?", a: "Criaria substituto formal para ausências gerenciais e automatizaria log de decisão emergencial diretamente no sistema de monitoramento.", q_en: "What would you do differently today?", a_en: "Would predefine substitute for absent leadership and automate decision logging within monitoring system." },
+    { q: "Qual foi o obstáculo mais difícil que você enfrentou?", a: "Superar a hesitação inicial da equipe em executar rollback sem aprovação formal. Conquistei confiança apresentando dados concretos de risco financeiro e técnica de reversão testada.", q_en: "What was the hardest obstacle you faced?", a_en: "Overcoming team's hesitation about rollback without approval by showing financial risk and tested reversal plan." },
+    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Risco de falha técnica e sanção administrativa; mitiguei convocando auditoria, definindo gates objetivos e registrando todos os passos com evidência digital.", q_en: "What were the main risks and how did you mitigate them?", a_en: "Technical failure and procedural sanction; mitigated via audit inclusion, objective gates, and full digital evidence." },
+    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Usei logs de falha, número de empresas afetadas e ticket médio diário para estimar perda de R$ 8,2 M; calculei também tempo médio de parada histórica para comparar redução de impacto.", q_en: "What data did you use and what was your rationale?", a_en: "Used failure logs, affected companies, average daily ticket to model R$ 8.2 M loss; compared to historical downtime for benchmark." },
+    { q: "Como você usou o aprendizado desse caso em outras frentes?", a: "Transformei o protocolo em política institucional replicada em quatro órgãos e usei no Sicredi em incidente do PIX em 2021 com mesma eficiência.", q_en: "How did you use this learning elsewhere?", a_en: "Turned protocol into institutional policy adopted by four entities and reused it at Sicredi with equal success." },
     {
-      "q": "Por que você não esperou conseguir falar com o diretor antes de agir?",
-      "a": "Porque o impacto era material e imediato: 23.400 empresas sem poder vender durante fim de semana inteiro (potencial de R$ 8,2M em vendas perdidas). Cada hora de espera multiplicava o dano. Tentei contato por 15 minutos (3 canais), esgotei opções razoáveis.",
-      "q_en": "Why didn't you wait to reach the director before acting?",
-      "a_en": "Because impact was material and immediate: 23,400 companies unable to sell during entire weekend (potential R$8.2M in lost sales). Each hour of waiting multiplied damage. I tried contact for 15 minutes (3 channels), exhausted reasonable options."
+      q: "Por que você não esperou conseguir falar com o diretor antes de agir?",
+      a: "Porque o impacto era imediato: 23.400 empresas estariam paradas todo o fim de semana (R$ 8,2 M em vendas perdidas). Cada hora agravava o prejuízo. Tentei contato por 15 minutos em três canais e só então decidi agir.",
+      q_en: "Why didn't you wait to reach the director before acting?",
+      a_en: "Impact was immediate -- 23,400 companies idle entire weekend (R$ 8.2 M loss). Each hour worsened damage; after 15 min unsuccessful contact, I acted."
     },
     {
-      "q": "Quais foram os 4 controles de risco que você implementou para mitigar a decisão unilateral?",
-      "a": "Os 4 controles foram: (1) Call emergencial com 5 testemunhas-chave (NOC, DBA, segurança, arquiteto, auditor) para validar decisão; (2) Email formal documentando situação + tentativas de contato + racional + assumindo responsabilidade total; (3) Gravação + ata com assinaturas digitais (prova de processo); (4) 3 gates de reversão objetivos (30min, perda de dados, 2h estabilização).",
-      "q_en": "What were the 4 risk controls you implemented to mitigate unilateral decision?",
-      "a_en": "The 4 controls were: (1) Emergency call with 5 key witnesses (NOC, DBA, security, architect, auditor) to validate decision; (2) Formal email documenting situation + contact attempts + rationale + assuming full responsibility; (3) Recording + minutes with digital signatures (process proof); (4) 3 objective rollback gates (30min, data loss, 2h stabilization)."
+      q: "Quais foram os 4 controles de risco que você implementou para mitigar a decisão unilateral?",
+      a: "1) Call emergencial com cinco testemunhas técnicas; 2) email formal assumindo responsabilidade; 3) gravação e ata digital; 4) três gates de reversão: 30 min erro, perda de dados, ou 2 h sem estabilizar.",
+      q_en: "1) Emergency call with five technical witnesses; 2) formal email assuming responsibility; 3) recording and signed minutes; 4) three rollback gates: 30 min fail, data loss, or 2 h no stability."
     },
     {
-      "q": "Como o diretor reagiu quando soube da sua decisão no dia seguinte?",
-      "a": "Estava inicialmente preocupado (decisão unilateral é sempre arriscada), mas quando viu: (1) documentação completa (email formal + ata); (2) controles implementados (testemunhas + gates); (3) resultado positivo (sistema restaurado, zero perda), disse: 'Você fez a coisa certa. Eu teria feito o mesmo.' Transformou minha decisão em protocolo oficial.",
-      "q_en": "How did the director react when he learned about your decision the next day?",
-      "a_en": "He was initially concerned (unilateral decision is always risky), but when he saw: (1) complete documentation (formal email + minutes); (2) implemented controls (witnesses + gates); (3) positive result (system restored, zero loss), he said: 'You did the right thing. I would have done the same.' He transformed my decision into official protocol."
+      q: "Como o diretor reagiu quando soube da sua decisão no dia seguinte?",
+      a: "Reconheceu que a decisão foi correta e institucionalizou a prática em protocolo oficial de decisão emergencial.",
+      q_en: "He recognized the decision was right and institutionalized it as official emergency decision protocol."
     },
     {
-      "q": "Qual foi o maior risco pessoal que você assumiu nessa decisão?",
-      "a": "Risco de demissão por insubordinação (decisão unilateral de R$ 4,8M sem autorização), responsabilidade civil por eventuais perdas (se rollback falhasse), e risco reputacional (ser visto como 'insubordinado'). Mas o risco de não agir era maior: 23k empresas paradas custaria R$ 8,2M + crise política.",
-      "q_en": "What was the biggest personal risk you assumed in this decision?",
-      "a_en": "Risk of dismissal for insubordination (unilateral R$4.8M decision without authorization), civil liability for eventual losses (if rollback failed), and reputational risk (being seen as 'insubordinate'). But risk of not acting was greater: 23k companies stopped would cost R$8.2M + political crisis."
+      q: "Qual foi o maior risco pessoal que você assumiu nessa decisão?",
+      a: "Risco de demissão por insubordinação e responsabilidade civil caso houvesse perda de dados. Decidir não agir seria mais devastador para o estado e a equipe.",
+      q_en: "Risk of dismissal for insubordination and civil liability if data lost; not acting would bring larger harm to both state and team."
     },
     {
-      "q": "Como você garantiu que a decisão fosse técnica e não emocional?",
-      "a": "Cinco testemunhas técnicas validaram o racional (NOC, DBA, segurança, arquiteto, auditor), documentei análise de risco objetiva, estabeleci gates de reversão mensuráveis (30min, perda de dados, 2h), e gravei toda a discussão. Emoção teria sido decidir sozinho sem controles.",
-      "q_en": "How did you ensure the decision was technical and not emotional?",
-      "a_en": "Five technical witnesses validated the rationale (NOC, DBA, security, architect, auditor), I documented objective risk analysis, established measurable rollback gates (30min, data loss, 2h), and recorded entire discussion. Emotion would have been deciding alone without controls."
+      q: "Como você garantiu que a decisão fosse técnica e não emocional?",
+      a: "Submeti o plano à validação técnica em tempo real com especialistas e documentei critérios mensuráveis para execução.",
+      q_en: "Submitted plan for peer validation in real time and documented measurable execution criteria."
     },
     {
-      "q": "Que protocolo foi criado a partir dessa experiência?",
-      "a": "'Procedimento de Decisão Emergencial' que autoriza coordenadores a tomar decisões críticas quando gestor indisponível, desde que: (1) documentem em email formal, (2) envolvam auditoria/testemunhas, (3) estabeleçam gates objetivos. Protocolo foi usado 4 vezes nos anos seguintes com sucesso.",
-      "q_en": "What protocol was created from this experience?",
-      "a_en": "'Emergency Decision Procedure' that authorizes coordinators to make critical decisions when manager unavailable, as long as: (1) document in formal email, (2) involve audit/witnesses, (3) establish objective gates. Protocol was used 4 times in following years successfully."
+      q: "Que protocolo foi criado a partir dessa experiência?",
+      a: "O 'Procedimento de Decisão Emergencial' autorizou coordenadores a agir quando gestor indisponível, exigindo documentação, testemunhas e gates. Aplicado com sucesso quatro vezes.",
+      q_en: "The 'Emergency Decision Procedure' empowered coordinators to act when manager unavailable, requiring documentation, witnesses and gates; used successfully four times."
     },
     {
-      "q": "Como você mediu o impacto real nas 23.400 empresas?",
-      "a": "Calculei vendas médias por empresa (R$ 350/dia baseado em dados fiscais), multipliquei por 23.400 empresas e 2,3 dias de fim de semana = R$ 8,2M em vendas perdidas evitadas. Mais importante: zero reclamações de empresas após restauração do sistema.",
-      "q_en": "How did you measure real impact on 23,400 companies?",
-      "a_en": "I calculated average sales per company (R$350/day based on tax data), multiplied by 23,400 companies and 2.3 weekend days = R$8.2M in avoided lost sales. Most importantly: zero company complaints after system restoration."
+      q: "Como você mediu o impacto real nas 23.400 empresas?",
+      a: "Calculei faturamento médio diário e multipliquei por 23.400 empresas em 2,3 dias de fim de semana: R$ 8,2 M de perdas evitadas, sem reclamações após a restauração.",
+      q_en: "Average daily sales × 23,400 × 2.3 days = R$ 8.2 M avoided; zero complaints after restoration."
     },
     {
-      "q": "Que resistência você enfrentou da equipe técnica?",
-      "a": "Equipe estava nervosa com rollback sem aprovação formal ('e se der errado?'). Mostrei que risco de não agir (R$ 8,2M + crise política) era maior que risco técnico (rollback testado, gates de reversão). Transparência e controles deram confiança para executar.",
-      "q_en": "What resistance did you face from the technical team?",
-      "a_en": "Team was nervous about rollback without formal approval ('what if it goes wrong?'). I showed that risk of not acting (R$8.2M + political crisis) was greater than technical risk (tested rollback, rollback gates). Transparency and controls gave confidence to execute."
+      q: "Que resistência você enfrentou da equipe técnica?",
+      a: "Medo de realizar rollback sem aprovação. Ganhei adesão mostrando dados de risco e apresentando os controles documentados.",
+      q_en: "Fear of rollback without approval; earned adherence by showing risk data and documented controls."
     },
     {
-      "q": "Como você aplicou esse aprendizado em outras situações?",
-      "a": "Usei o mesmo modelo no Sicredi (PIX down às 22h, CTO em voo): (1) Tentei contato por 10min, (2) Documentei decisão em email, (3) Envolvi testemunhas técnicas, (4) Estabeleci gates objetivos, (5) Executei restart de cluster. Sistema voltou em 45min, CTO agradeceu.",
-      "q_en": "How did you apply this learning in other situations?",
-      "a_en": "I used same model at Sicredi (PIX down at 10 PM, CTO on flight): (1) Tried contact for 10min, (2) Documented decision in email, (3) Involved technical witnesses, (4) Established objective gates, (5) Executed cluster restart. System returned in 45min, CTO thanked me."
+      q: "Como você aplicou esse aprendizado em outras situações?",
+      a: "No Sicredi, usei o mesmo método (PIX down às 22h): 10 min de tentativa de contato, documentação imediata, testemunhas e execução controlada. Sistema retomado em 45 min.",
+      q_en: "At Sicredi (PIX down 10 PM): 10 min contact attempt, instant documentation, witnesses, controlled execution; system back in 45 min."
     },
     {
-      "q": "Qual foi o ROI real dessa decisão?",
-      "a": "ROI imediato: evitei R$ 8,2M em vendas perdidas vs. R$ 4,8M de risco de rollback = 70% de proteção. ROI de longo prazo: protocolo criado preveniu 4 outras crises similares, economizando estimados R$ 15M em 3 anos. Mais importante: reputação de confiabilidade me rendeu promoção.",
-      "q_en": "What was the real ROI of this decision?",
-      "a_en": "Immediate ROI: avoided R$8.2M in lost sales vs. R$4.8M rollback risk = 70% protection. Long-term ROI: created protocol prevented 4 other similar crises, saving estimated R$15M over 3 years. Most importantly: reputation for reliability earned me promotion."
+      q: "Qual foi o ROI real dessa decisão?",
+      a: "ROI imediato de 70% (R$ 8,2 M preservados vs R$ 4,8 M de risco). No longo prazo, protocolo evitou R$ 15 M em três anos e me rendeu promoção por confiabilidade técnica.",
+      q_en: "Immediate ROI 70% (R$ 8.2 M protected vs R$ 4.8 M risk); long term protocol prevented R$ 15 M loss in 3 years and earned promotion for technical reliability."
+    },
+    {
+      q: "Quais foram os maiores riscos técnicos associados ao rollback e como os controles implementados ajudaram a mitigá-los?",
+      a: "O maior risco era corromper tabelas fiscais. Os gates temporais e a revisão coletiva do plano garantiram rollback seguro, completado sem perda de integridade.",
+      q_en: "Main risk was fiscal table corruption; time-gated execution and peer review secured rollback integrity with zero data loss."
+    },
+    {
+      q: "Como você garantiu que a equipe técnica estivesse alinhada e confiante para executar o rollback sob pressão?",
+      a: "Expliquei os impactos reais e demonstrei cálculos de perdas; transformei a ansiedade em senso de propósito coletivo.",
+      q_en: "Explained real impact and showed financial loss calculations, turning anxiety into collective sense of mission."
+    },
+    {
+      q: "Qual foi seu papel na criação e adaptação do protocolo de Decisão de Emergência usado posteriormente?",
+      a: "Fui autor do documento-base junto à auditoria, defini critérios técnicos e liderei o treinamento dos novos coordenadores.",
+      q_en: "Authored base documentation with audit, defined technical criteria, and led coordinator training for the new protocol."
+    },
+    {
+      q: "Se o rollback tivesse falhado, qual era o plano de contingência?",
+      a: "Backup completo da base havia sido realizado às 16h, e plano B previa standby com réplica em datacenter de contingência em caráter de degradação controlada.",
+      q_en: "Full backup made at 4 PM; Plan B was fallback to secondary datacenter operating in degraded mode."
+    },
+    {
+      q: "O que faria de forma diferente para melhorar o processo ou prevenir crises semelhantes?",
+      a: "Implantaria automação de rollback testado em sandbox fiscal e alertas preditivos para evitar patches de incompatibilidade.",
+      q_en: "Would implement automated rollback tested in fiscal sandbox and predictive alerts to avoid incompatible patches."
     }
   ]
 };

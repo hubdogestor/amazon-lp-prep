@@ -19,6 +19,12 @@ import learn_and_be_curious from './learn_and_be_curious/index.js';
 import ownership from './ownership/index.js';
 import think_big from './think_big/index.js';
 
+// Importar LPs Extras
+import program_management from './program_management/index.js';
+import stakeholder_management from './stakeholder_management/index.js';
+import prioritizing_and_influence from './prioritizing_and_influence/index.js';
+import deal_with_ambiguity from './deal_with_ambiguity/index.js';
+
 // Array consolidado na ordem desejada
 const consolidatedPrinciples = [
   invent_and_simplify,
@@ -36,7 +42,12 @@ const consolidatedPrinciples = [
   hire_and_develop_the_best,
   frugality,
   broad_responsibility,
-  best_employer
+  best_employer,
+  // LPs Extras
+  program_management,
+  stakeholder_management,
+  prioritizing_and_influence,
+  deal_with_ambiguity
 ];
 
 export default consolidatedPrinciples;
