@@ -12,12 +12,12 @@ export const questionsToCasesMapping = {
           "score": 98
         },
         {
-          "caseId": "sicredi-small-business-survival",
-          "score": 90
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 98
         },
         {
-          "caseId": "sicredi-woop-segment-balance",
-          "score": 88
+          "caseId": "sicredi-small-business-survival",
+          "score": 95
         }
       ]
     },
@@ -25,6 +25,10 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-cancer-patient-journey",
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-small-business-survival",
           "score": 90
         }
       ]
@@ -33,15 +37,23 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-woop-segment-balance",
-          "score": 90
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-small-business-survival",
+          "score": 88
         }
       ]
     },
     "4": {
       "options": [
         {
-          "caseId": "sicredi-small-business-survival",
-          "score": 85
+          "caseId": "unimed-pet-anticipation",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-elderly-digital-inclusion",
+          "score": 90
         }
       ]
     },
@@ -49,7 +61,11 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "bradesco-elderly-digital-inclusion",
-          "score": 88
+          "score": 95
+        },
+        {
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 92
         }
       ]
     },
@@ -57,23 +73,31 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-pet-anticipation",
-          "score": 92
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-small-business-survival",
+          "score": 88
         }
       ]
     },
     "7": {
       "options": [
         {
-          "caseId": "unimed-cancer-patient-journey",
-          "score": 85
+          "caseId": "sicredi-woop-segment-balance",
+          "score": 98
         }
       ]
     },
     "8": {
       "options": [
         {
+          "caseId": "sicredi-woop-segment-balance",
+          "score": 88
+        },
+        {
           "caseId": "sicredi-small-business-survival",
-          "score": 90
+          "score": 82
         }
       ]
     },
@@ -81,31 +105,23 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-woop-segment-balance",
-          "score": 90
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-small-business-survival",
+          "score": 85
         }
       ]
     },
     "10": {
       "options": [
         {
-          "caseId": "bradesco-elderly-digital-inclusion",
-          "score": 85
-        }
-      ]
-    },
-    "11": {
-      "options": [
+          "caseId": "sicredi-small-business-survival",
+          "score": 92
+        },
         {
           "caseId": "unimed-cancer-patient-journey",
           "score": 90
-        }
-      ]
-    },
-    "12": {
-      "options": [
-        {
-          "caseId": "sicredi-small-business-survival",
-          "score": 85
         }
       ]
     },
@@ -121,7 +137,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-pet-anticipation",
-          "score": 95
+          "score": 98
+        },
+        {
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-small-business-survival",
+          "score": 88
         }
       ]
     }

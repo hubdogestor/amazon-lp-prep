@@ -1,0 +1,173 @@
+MASTER_REVIEW - Revisão Completa dos Cases (.js)
+=================================================
+
+🧠 COMANDO-BASE
+---------------
+Quando abrir nova conversa:
+
+“Estou anexando um arquivo `.js` contendo um case (estrutura STAR(L) + FUPs).
+Quero que você realize revisão completa conforme as REGRAS abaixo e devolva o arquivo revisado,
+bilíngue e pronto para substituição.”
+
+
+REGRAS GERAIS
+--------------
+1. Revisar todo o case — texto STAR(L) e FUPs.
+2. Jamais resumir o texto. Prefiro material detalhado e fiel ao original.
+3. Devolver o arquivo em formato `.js` completo, mantendo:
+   id, title, company, period, isTopCase, isGoodCase.
+4. Tom no estilo Amazon Bar Raiser: decisivo, analítico, empático e humano.
+5. Demonstrar comportamento e mentalidade Amazon SEM citar os princípios.
+
+
+1. REVISÃO DO TEXTO STAR(L)
+----------------------------
+
+- fluência de storytelling, naturalidade oral e conexão entre as partes, como se fosse lido em um teleprompter: um fluxo contínuo e envolvente, mas ainda técnico e fiel aos fatos.
+- Atentar para:
+
+(S) Situação
+• Onde e quando ocorreu.
+• Qual cenário e contexto de negócio.
+• Que cargo ou função você exercia.
+• Dar detalhes que ambientem o leitor e mostrem relevância ou pressão.
+
+(T) Tarefa
+• Qual desafio precisava ser resolvido.
+• Qual o seu escopo direto.
+• Quais opções ou caminhos existiam.
+
+(A) Ação
+• Quais hipóteses avaliou e quais informações apoiaram sua decisão.
+• Quem estava envolvido.
+• Como você priorizou e decidiu.
+• Mostrar seu raciocínio de forma clara.
+
+(R) Resultado
+• Apresentar métricas, números, prazos, comparações antes/depois.
+• Demonstrar domínio dos resultados.
+• Mostrar trade-offs, ganhos e aprendizados técnicos e humanos.
+
+(L) Aprendizado (Learning)
+• Como a experiência influenciou seu crescimento.
+• O que faria diferente hoje.
+• Como aplicou o aprendizado em outros contextos.
+• Casos de erro são bem-vindos, desde que tragam reflexão genuína.
+
+DICAS:
+• Sempre demonstrar foco de longo prazo e escalabilidade.
+• Reforçar ownership (“eu assumi”, “eu conduzi”).
+• Equilíbrio entre dados e empatia com o cliente.
+• Ser autocrítico e transparente.
+• Cada bloco do STAR(L) deve fluir naturalmente para o seguinte, construindo uma narrativa contínua.
+• O leitor deve sentir progressão: contexto → desafio → ação → resultado → reflexão.
+• Evite formato de lista ou bullet; use conectores (exemplos: “por isso”, “em seguida”, “ao perceber isso”, “essa decisão levou a…”).
+• Inclua sempre: cargo, função, período, escala de impacto e ambiente organizacional (em especial no (S)).
+
+
+
+2. REVISÃO DAS FUPs
+--------------------
+As FUPs (Follow-up Questions) devem estar no formato:
+
+{
+  q: "Pergunta em português",
+  a: "Resposta em português",
+  q_en: "Question in English",
+  a_en: "Answer in English"
+}
+
+(se ficar mais fácil, pode colocar tudo na mesma linha... q / a / q_en / a_en ...
+
+Perguntas centrais obrigatórias:
+1. Erro / falha. (Ex: Qual foi seu maior erro / falha nesse caso?)
+2. O que faria diferente. (Ex: O que você faria diferente hoje?)
+3. Obstáculo mais difícil. (Ex: Qual foi o obstaculo mais dificil de superar que voce enfrentou?)
+4. Principais riscos e mitigação. (Ex: Quais foram os principais riscos e como voce os mitigou?)
+5. Dados usados e racional de cálculo. (Ex: Que dados você usou, qual foi a racional de cálculo ?)
+6. Uso posterior do aprendizado. (Ex: Como voce usou o aprendizado desse caso em outras frentes / trabalhos?)
+
+• Depois disso, verificar quais perguntas existentes devem ser mantidas (evitando redundâncias).
+
+E então, avaliar a adição dessas:
+
+Perguntas complementares possíveis:
+• Habilidade pessoal decisiva.
+• Impacto humano e ético.
+• Resistência cultural e engajamento.
+• Sustentabilidade e escalabilidade.
+• ROI e métricas.
+• Governança e alinhamento político.
+• Outras que possuírem vínculo com o case.
+
+Regras adicionais:
+• Assegurar que as FUPs estejam coerentes com o STAR após a revisão.
+• Expandir respostas se necessário, nunca omitir informações.
+• Manter entre 2 e 4 linhas por resposta, cheias de conteúdo.
+• Sempre bilíngues (PT e EN).
+• Linguagem natural, tom de conversa executiva.
+• Não há limite para a quantidade de FUPs.
+
+obs: Maiores detalhes no arquivo " Regra_FUPS.txt " 
+
+3. ESTILO E LINGUAGEM
+----------------------
+• Voz ativa e tom seguro em primeira pessoa (“analisei”, “decidi”, “liderei”).
+• Frases curtas e diretas, linguagem simples.
+• Confiança sem arrogância.
+• Sem jargões de marketing (“realm”, “robust”, “bespoke”, “daunting”, etc.).
+• Naturalidade > formalidade.
+• Clareza e ritmo de fala são prioritários.
+• Nunca resumir ou encurtar demais.
+• O texto deve ser lido como uma história contada em primeira pessoa, e não como um relatório técnico.
+• Priorize ritmo narrativo e emoção controlada — mostre por que cada decisão foi tomada e como o raciocínio evoluiu.
+• A fluidez é mais importante que a economia de palavras.
+
+
+
+4. DEMONSTRAR PRINCÍPIOS AMAZON (sem citar nomes)
+-------------------------------------------------
+Customer Obsession  → decisões orientadas pelo cliente e métricas de experiência
+Dive Deep           → análise de causa raiz, domínio de dados e KPIs
+Bias for Action     → agir com risco calculado quando o tempo é crítico
+Ownership           → assumir responsabilidades além do escopo
+Deliver Results     → foco em métricas tangíveis e sustentabilidade
+Invent and Simplify → inovação que simplifica o processo
+Earn Trust          → transparência, empatia e autocrítica
+Are Right a Lot     → decisões baseadas em evidências e abertura a feedback
+Think Big           → visão ambiciosa, impacto e escalabilidade
+Insist on Highest Standards → elevar padrões mesmo sob pressão
+Disagree and Commit → defender ideias com respeito e comprometimento
+Learn and Be Curious → curiosidade e aprendizado contínuo
+
+
+5. OUTPUT FINAL
+---------------
+• Arquivo `.js` completo, bilíngue, revisado.
+• Sem comentários fora da estrutura JS.
+• Manter indentação e formato originais.
+
+
+6. CHECKLIST ANTES DE ENTREGAR
+-------------------------------
+☑ STAR(L) revisado e fluido.
+☑ Seis FUPs centrais incluídas.
+☑ FUPs complementares coerentes.
+☑ Vocabulário padronizado (sem jargões).
+☑ Nenhum resumo ou corte indevido.
+☑ Tom alinhado com entrevistas Amazon.
+
+
+7. PROMPT RÁPIDO PARA USO FUTURO
+---------------------------------
+“Estou retomando o projeto de revisão dos meus cases.
+Anexo o arquivo `.js`.
+Aplique o PROMPT_MASTER – Revisão Completa dos Cases (inclui STAR(L) e FUPs).
+Mantenha o estilo Amazon Bar Raiser, formato idêntico e saídas bilíngues.
+Devolva o arquivo revisado e completo, sem omitir detalhes.”
+
+
+Observação final:
+-----------------
+Este arquivo consolida todas as instruções do Leonardo para revisão de portfólio.
+Pode ser usado a qualquer momento, mesmo após limpar o contexto.
