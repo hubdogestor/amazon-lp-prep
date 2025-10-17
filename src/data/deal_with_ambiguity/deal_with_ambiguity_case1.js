@@ -25,6 +25,44 @@ const case_5 = {
     l: `Retrospectively, this case was the most transformative of my career because it taught me that think big isn't about having grandiose ideas, but about having years of patience to prove visions ahead of their time. I learned transformative visions always face initial resistance because they challenge established mental models - "banks protect data" vs "banks become platforms". The key isn't convincing everyone immediately, but building progressive evidence (studies, pilots, cases) that makes vision impossible to ignore when context changes. I transformed this into personal framework I call "Patient Evangelization": (1) Document vision rigorously (studies, benchmarks), (2) Execute low-risk pilots validating vision components, (3) Monitor context changes (regulation, market) creating opportunity windows, (4) Reactivate discussion with evidence when context changes. I applied this later at Unimed defending in 2022 that telemedicine should be open platform for partner clinics (vision initially rejected, approved in 2023 after COVID validated model), and today in payments I defend processors should become payment ecosystem orchestrators - vision still misunderstood but I'm convinced will be reality in 3-5 years. The paradox is powerful: the more disruptive your vision, the longer it takes to be understood, and the more important your patience and evidence-based persistence.`,
   },
   fups: [
+    // --- 6 PERGUNTAS OBRIGATÓRIAS ---
+    {
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Subestimei o tempo necessário para mudar mentalidades estabelecidas e inicialmente tentei convencer todos de uma vez em 2018. Isso gerou resistência desnecessária. Deveria ter começado com coalizão menor de early adopters e expandido progressivamente. Perdi 6 meses tentando convencer céticos ao invés de focar em construir evidências com aliados.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "I underestimated time needed to change established mindsets and initially tried to convince everyone at once in 2018. This generated unnecessary resistance. Should have started with smaller coalition of early adopters and expanded progressively. Lost 6 months trying to convince skeptics instead of focusing on building evidence with allies."
+    },
+    {
+      q: "O que você faria diferente hoje?",
+      a: "Começaria o piloto de APIs 6 meses antes (janeiro 2019 vs junho 2019) e envolveria o diretor de estratégia desde o início, não apenas após ter resultados. Também documentaria o framework de 'Evangelização Paciente' desde 2018, o que teria acelerado replicação em outros contextos como telemedicina na Unimed.",
+      q_en: "What would you do differently today?",
+      a_en: "Would start API pilot 6 months earlier (January 2019 vs June 2019) and involve strategy director from beginning, not just after having results. Would also document 'Patient Evangelization' framework since 2018, which would have accelerated replication in other contexts like Unimed telemedicine."
+    },
+    {
+      q: "Qual foi o obstáculo mais difícil de superar?",
+      a: "O obstáculo mais difícil foi a mentalidade de 'banco como fortaleza' enraizada na cultura Bradesco há 80 anos. Não era resistência técnica ou regulatória, mas mental: 'APIs abertas = entregar ouro ao inimigo'. Levou 3 anos, piloto bem-sucedido e mudança de contexto regulatório para quebrar essa barreira. A persistência baseada em evidências foi a única estratégia que funcionou.",
+      q_en: "What was the hardest obstacle to overcome?",
+      a_en: "Hardest obstacle was 'bank as fortress' mindset rooted in 80-year Bradesco culture. It wasn't technical or regulatory resistance, but mental: 'open APIs = handing gold to enemy'. Took 3 years, successful pilot and regulatory context change to break this barrier. Evidence-based persistence was only strategy that worked."
+    },
+    {
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "1) Risco de reputação por agir fora de governança: mitigei conseguindo aprovação do CTO enquadrando como 'teste técnico'; 2) Risco de segurança/privacidade: sandbox isolado com dados sintéticos + NDAs rigorosos; 3) Risco de canibalização de receita: demonstrei que CAC indireto era 73% menor (R$ 42 vs R$ 156); 4) Risco de ser rotulado como idealista desconectado: construí evidências progressivas com cases internacionais e pilotos.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "1) Reputation risk from acting outside governance: mitigated by getting CTO approval framing as 'technical test'; 2) Security/privacy risk: isolated sandbox with synthetic data + strict NDAs; 3) Revenue cannibalization risk: demonstrated indirect CAC was 73% lower (BRL 42 vs BRL 156); 4) Risk of being labeled disconnected idealist: built progressive evidence with international cases and pilots."
+    },
+    {
+      q: "Que dados você usou e qual foi a racional de cálculo?",
+      a: "Analisei 12 plataformas globais (Stripe, Plaid, Adyen) e documentei 47 cases de novos modelos de receita. No piloto 2019: 3 fintechs, 4.200 novos clientes, R$ 340k receita, 18 dias integração (vs 6 meses tradicional). ROI final: investimento R$ 4.8M (2020-21), receita anualizada R$ 47M (nov/2021), economia R$ 18.2M vs custo médio adaptação regulatória = ROI 9.8x. CAC indireto 73% menor.",
+      q_en: "What data did you use and what was your calculation rationale?",
+      a_en: "Analyzed 12 global platforms (Stripe, Plaid, Adyen) and documented 47 new revenue model cases. In 2019 pilot: 3 fintechs, 4,200 new customers, BRL 340k revenue, 18-day integration (vs 6 months traditional). Final ROI: BRL 4.8M investment (2020-21), BRL 47M annualized revenue (Nov/2021), BRL 18.2M savings vs average regulatory adaptation cost = 9.8x ROI. 73% lower indirect CAC."
+    },
+    {
+      q: "Como você usou o aprendizado deste caso em outros contextos?",
+      a: "Criei framework 'Evangelização Paciente' aplicado em 2 contextos: (1) Unimed 2022: defendi telemedicina como plataforma aberta para clínicas parceiras, visão rejeitada inicialmente mas aprovada em 2023 após COVID validar modelo; (2) Pagamentos hoje: defendo processadores como orquestradores de ecossistemas (wallets, BNPL, cripto) via APIs - visão ainda incompreendida mas construindo evidências com pilotos e estudos Stripe/Adyen.",
+      q_en: "How did you use the learning from this case in other contexts?",
+      a_en: "Created 'Patient Evangelization' framework applied in 2 contexts: (1) Unimed 2022: defended telemedicine as open platform for partner clinics, vision initially rejected but approved in 2023 after COVID validated model; (2) Payments today: defend processors as ecosystem orchestrators (wallets, BNPL, crypto) via APIs - vision still misunderstood but building evidence with pilots and Stripe/Adyen studies."
+    },
+    // --- FUPs COMPLEMENTARES ---
     {
       q: "Como você manteve a motivação para defender a visão durante 3 anos de ceticismo?",
       a: "Reframeei mentalmente: não estava defendendo minha ideia, mas servindo os clientes que se beneficiariam de experiências melhores. Também me inspirei em cases do Stripe e Plaid que levaram 5-7 anos para provar o modelo. Mantive diário documentando evidências progressivas, o que me dava senso de progresso mesmo sem vitórias imediatas.",

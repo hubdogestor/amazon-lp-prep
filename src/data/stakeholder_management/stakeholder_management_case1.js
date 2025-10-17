@@ -23,6 +23,44 @@ const case_1 = {
     l: "Learning — Thinking big meant architecting global mechanisms from the very first pilot, not a local patch. I learned that every time I refuse \"small\" fixes and link a specific pain to a scalable system, I multiply impact and create standards that outlive me. Today every transformation I lead begins with the question: “what is the global, durable version of this solution that I can build right in the MVP?”"
   },
   fups: [
+    // --- 6 PERGUNTAS OBRIGATÓRIAS ---
+    {
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Subestimei a resistência política inicial dos diretores locais que estavam confortáveis com metas incrementais. Perdi 6 semanas convencendo quando deveria ter envolvido o VP Global desde o início para criar pressão top-down. Isso atrasou o piloto e quase comprometeu o business case.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "I underestimated initial political resistance from local directors comfortable with incremental goals. Lost 6 weeks convincing when I should have involved Global VP early to create top-down pressure. This delayed pilot and nearly compromised business case."
+    },
+    {
+      q: "O que você faria diferente hoje?",
+      a: "Construiria coalizão executiva global desde o dia 1, não após o piloto. Envolveria CFO, VP Global e leads de 3 regiões-chave no workshop inicial de design, criando ownership compartilhado e acelerando aprovação de CAPEX em pelo menos 2 meses.",
+      q_en: "What would you do differently today?",
+      a_en: "Would build global executive coalition from day 1, not after pilot. Would involve CFO, Global VP and leads from 3 key regions in initial design workshop, creating shared ownership and accelerating CAPEX approval by at least 2 months."
+    },
+    {
+      q: "Qual foi o obstáculo mais difícil de superar?",
+      a: "Convencer o CFO Ásia a congelar US$6M para replicação quando ele priorizava 5G. Precisei apresentar análise de sensibilidade mostrando US$18M/mês de receita perdida em atraso 4G e trazer testemunho do CEO LatAm sobre perda de market share. Levou 3 semanas de negociação intensa.",
+      q_en: "What was the hardest obstacle to overcome?",
+      a_en: "Convincing Asia CFO to freeze US$6M for replication when he prioritized 5G. Had to present sensitivity analysis showing US$18M/month revenue loss from 4G delays and bring LatAm CEO testimony on market share loss. Took 3 weeks of intense negotiation."
+    },
+    {
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "1) Congelamento de 48 projetos críticos: criei buffers contratuais com operadoras; 2) Sobrecarga de CAPEX: estruturei co-investimento 40/60 com regiões; 3) Resistência dos fornecedores: lancei Vendor Performance Index com incentivo econômico (+30% volume para top performers); 4) Perda de compliance: matriz de 86 requisitos regulatórios com trilha de auditoria digital.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "1) Freezing 48 critical projects: created contractual buffers with carriers; 2) CAPEX overload: structured 40/60 co-investment with regions; 3) Vendor pushback: launched Vendor Performance Index with economic incentive (+30% volume for top); 4) Compliance loss: 86-requirement regulatory matrix with digital audit trail."
+    },
+    {
+      q: "Que dados você usou e qual foi a racional de cálculo?",
+      a: "Mapeei 127 gargalos no piloto São Paulo e priorizei 19 alavancas que somavam 220 dias de desperdício. Comparei 12 indicadores before/after (lead time, aprovação 1ª inspeção, custo/torre, backlog licenças, NPS operadora). Calculei NPV de BRL 480M para rollout global vs local, com payback de 11 meses. ROI final: US$120M acumulado (2014-2023).",
+      q_en: "What data did you use and what was your calculation rationale?",
+      a_en: "Mapped 127 bottlenecks in São Paulo pilot and prioritized 19 levers worth 220 wasted days. Compared 12 before/after indicators (lead time, first-pass approval, cost/tower, license backlog, carrier NPS). Calculated BRL 480M NPV for global vs local rollout, 11-month payback. Final ROI: US$120M cumulative (2014-2023)."
+    },
+    {
+      q: "Como você usou o aprendizado deste caso em outros contextos?",
+      a: "O Rollout Excellence Playbook virou padrão em 54 operações Huawei globalmente. Repliquei a lógica de co-investimento regional em 3 programas de transformação digital (pagamentos, CRM, supply chain), sempre ancorando sustentabilidade em auditorias semestrais + comunidade de práticas. Redução média de cycle time de 40% nesses programas.",
+      q_en: "How did you use the learning from this case in other contexts?",
+      a_en: "Rollout Excellence Playbook became standard across 54 Huawei operations globally. Replicated regional co-investment logic in 3 digital transformation programs (payments, CRM, supply chain), always anchoring sustainability in semiannual audits + community of practice. Average 40% cycle time reduction in those programs."
+    },
+    // --- FUPs COMPLEMENTARES ---
     {
       q: "Como você enfrentou o argumento do VP LatAm para manter o escopo apenas no Brasil?",
       a: "Eu mostrei o custo de oportunidade: projetei cenário em que o Brasil evoluiria sozinho e contrastei com rollout coordenado. O case evidenciou BRL 480M em valor adicional e reduziu o payback global para 11 meses, desmontando a tese de foco local.",
