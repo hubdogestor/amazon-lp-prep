@@ -1,0 +1,70 @@
+// deal_with_ambiguity_case4.js
+const case_4 = {
+  id: "hsbc-bradesco-cultural-migration",
+  title: "Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturais",
+  title_pt: "Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturais",
+  title_en: "Navigating the HSBC-Bradesco Migration with Shifting Priorities and Cultural Barriers",
+  company: "HSBC & Bradesco",
+  period: "07/2016-05/2018",
+  role: "Program Manager / Agile Leader",
+  context: "Post-acquisition Integration",
+  isTopCase: false,
+  isGoodCase: true,
+  pt: {
+    s: "Em julho de 2016, logo após o Bradesco adquirir o HSBC Brasil por US$ 5,2 bilhões, fui nomeado Program Manager para liderar a workstream de Global Markets na integração. O cenário era de extrema ambiguidade.Tecnicamente, os requisitos de migração de dados mudavam quase semanalmente devido a novas descobertas em auditorias de compliance (FATCA). Pior ainda, havia uma enorme barreira cultural. A equipe legada do HSBC, acostumada a processos globais, reportando em inglês e a uma cultura de planejamento detalhado, agora respondia ao Bradesco, com uma cultura mais direta, focada na execução rápida e com comunicação em português. A incerteza estava em toda parte: qual processo seguir, a quem reportar, qual seria o 'novo normal'.",t: "Minha tarefa era dupla e complexa: garantir a migração técnica de um portfólio de R$ 3 bilhões com zero perda de dados, ao mesmo tempo em que integrava duas equipes com culturas de trabalho antagônicas, evitando a perda de talentos e o colapso da produtividade. Eu precisava criar uma ponte entre esses dois mundos e estabelecer um novo modelo operacional que respondesse às mudanças constantes de direção, tanto técnicas quanto culturais.",
+    a: "Para lidar com a ambiguidade técnica, abandonei o plano de projeto em cascata e instituí um 'modelo de Sprints de Migração Quinzenais'. A cada 15 dias, todo o time se reunia para reavaliar os riscos (usando RAID logs e heatmaps) e repriorizar o backlog de testes e validação de dados. Isso tornou a mudança de direção parte da rotina, em vez de uma crise. Para a barreira cultural, minha abordagem foi direta e empática. Primeiro, criei fóruns de 'tradução cultural': reuniões semanais onde eu explicava as expectativas da liderança do Bradesco para a equipe ex-HSBC e, inversamente, apresentava as preocupações processuais da minha equipe para a nova gestão. Segundo, estabeleci um 'padrão de comunicação bilíngue' para todas as reuniões e documentos, garantindo que ninguém ficasse isolado. Terceiro, e mais importante, eu protegi a equipe. Quando a pressão por velocidade do Bradesco conflitava com a necessidade de validação rigorosa do HSBC, eu intervinha, defendia a necessidade dos controles com base em dados de risco (FATCA) e negociava um meio-termo, assumindo a responsabilidade pelo resultado.",
+    r: "Essa abordagem dupla gerou resultados significativos.Tecnicamente, a migração dos R$ 3 bilhões em ativos foi concluída com 100% de conformidade e zero perda de dados, um sucesso reconhecido pelo comitê executivo. Culturalmente, o impacto foi ainda maior. A taxa de atrito (turnover) na minha equipe foi 40% menor do que a média das outras áreas de integração durante o mesmo período.Conseguimos não apenas reter, mas aumentar o portfólIO de private banking em 30% durante a transição, pois a equipe se sentiu segura e motivada para continuar atendendo os clientes de alta renda. O modelo de sprints quinzenais e os fóruns culturais foram adotados por outras duas workstreams da integração.",
+    l: "Aprendi que em uma fusão, a integração de sistemas é complexa, mas a integração de pessoas é o verdadeiro desafio. Lidar com a mudança de direção não é apenas sobre ajustar planos, mas sobre criar segurança psicológica para a equipe. O papel do líder é ser um 'tradutor' e um 'escudo': traduzir as novas regras do jogo e proteger a equipe da fricção cultural para que possam focar no trabalho técnico. Essa experiência solidificou minha crença de que processos ágeis (sprints) combinados com liderança empática e comunicação transparente são a única maneira de navegar em transformações organizacionais profundas."
+  },
+  en: {s: "In July 2016, right after Bradesco acquired HSBC Brazil for US$5.2 billion, I was appointed Program Manager to lead the Global Markets workstream in the integration. The scenario was one of extreme ambiguity.Technically, data migration requirements changed almost weekly due to new findings in compliance audits (FATCA). Even worse, there was a huge cultural barrier. The legacy HSBC team, accustomed to global processes, reporting in English, and a culture of detailed planning, now reported to Bradesco, with a more direct culture, focused on rapid execution and Portuguese communication. Uncertainty was everywhere: which process to follow, whom to report to, what the 'new normal' would be.",t: "My task was twofold and complex: to ensure the technical migration of a BRL 3 billion portfolio with zero data loss, while simultaneously integrating two teams with antagonistic work cultures, preventing talent loss and a collapse in productivity. I needed to build a bridge between these two worlds and establish a new operating model that could respond to the constant changes in direction, both technical and cultural.",
+    a: "To deal with the technical ambiguity, I abandoned the waterfall project plan and instituted a 'Bi-weekly Migration Sprints model.' Every 15 days, the entire team met to reassess risks (using RAID logs and heatmaps) and re-prioritize the data testing and validation backlog. This made changing direction part of the routine, rather than a crisis. For the cultural barrier, my approach was direct and empathetic. First, I created 'cultural translation' forums: weekly meetings where I explained the expectations of Bradesco's leadership to the ex-HSBC team and, conversely, presented my team's process concerns to the new management. Second, I established a 'bilingual communication standard' for all meetings and documents, ensuring no one was left isolated. Third, and most importantly, I protected the team. When the pressure for speed from Bradesco conflicted with the need for rigorous validation from HSBC, I would intervene, defend the need for controls based on risk data (FATCA), and negotiate a middle ground, taking responsibility for the outcome.",
+    r: "This dual approach yielded significant results.Technically, the migration of the BRL 3 billion in assets was completed with 100% compliance and zero data loss, a success recognized by the executive committee. Culturally, the impact was even greater. The attrition rate on my team was 40% lower than the average of other integration areas during the same period.We managed not only to retain but to increase the private banking portfolio by 30% during the transition, as the team felt secure and motivated to continue serving high-net-worth clients. The bi-weekly sprints model and cultural forums were adopted by two other integration workstreams.",
+    l: "I learned that in a merger, integrating systems is complex, but integrating people is the real challenge. Dealing with changing direction is not just about adjusting plans, but about creating psychological safety for the team. The leader's role is to be a 'translator' and a 'shield': translating the new rules of the game and protecting the team from cultural friction so they can focus on the technical work. This experience solidified my belief that agile processes (sprints) combined with empathetic leadership and transparent communication are the only way to navigate profound organizational transformations."
+  },
+  fups: [
+    {
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Meu erro inicial foi presumir que a comunicação top-down do Bradesco seria suficiente. Na primeira crise de prioridades, a equipe ex-HSBC paralisou. Aprendi que eu precisava ser o 'tradutor' ativo e criar meus próprios fóruns; a comunicação corporativa não era granular o suficiente para o dia a dia.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "My initial mistake was assuming Bradesco's top-down communication would be sufficient. In the first priority crisis, the ex-HSBC team froze. I learned that I needed to be the active 'translator' and create my own forums; corporate communication wasn't granular enough for daily work."
+    },
+    {
+      q: "O que você faria diferente hoje?",
+      a: "Eu teria criado um 'manual de cultura' no primeiro mês, documentando as diferenças de trabalho e estabelecendo regras de engajamento claras para as duas equipes. Isso teria sido mais proativo do que as reuniões reativas que criei, acelerando a integração e reduzindo a ansiedade inicial.",
+      q_en: "What would you do differently today?",
+      a_en: "I would have created a 'culture playbook' in the first month, documenting work differences and establishing clear engagement rules for both teams. This would have been more proactive than the reactive meetings I created, accelerating integration and reducing initial anxiety."
+    },
+    {
+      q: "Qual foi o obstáculo cultural mais difícil de superar?",
+      a: "A percepção de risco. A cultura do HSBC via o desvio de processo como um risco inaceitável, enquanto a do Bradesco via a lentidão como o maior risco. O mais difícil foi mediar essas duas visões. Usei dados de conformidade FATCA para justificar os controles necessários, mostrando que o risco regulatório era maior que o risco de um atraso de alguns dias.",
+      q_en: "What was the hardest cultural obstacle to overcome?",
+      a_en: "The perception of risk. HSBC's culture saw process deviation as an unacceptable risk, while Bradesco's saw slowness as the biggest risk. The hardest part was mediating these two views. I used FATCA compliance data to justify the necessary controls, showing that the regulatory risk was greater than the risk of a few days' delay."
+    },
+    {
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "Os principais riscos eram: 1) Perda de talentos-chave (mitiguei com comunicação e proteção da equipe), 2) Falha na auditoria de compliance (mitiguei com sprints de teste e defendendo os controles) e 3) Perda de clientes HNWI (mitiguei mantendo a equipe focada e motivada, o que resultou em crescimento de 30% da carteira).",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "The main risks were: 1) Loss of key talent (mitigated with communication and team protection), 2) Failure in compliance audit (mitigated with testing sprints and defending controls), and 3) Loss of HNWI clients (mitigated by keeping the team focused and motivated, which resulted in 30% portfolio growth)."
+    },
+    {
+      q: "Como você mediu que o atrito na sua equipe foi 40% menor?",
+      a: "Eu tinha acesso aos relatórios de headcount do PMO central da integração. Comparei a porcentagem de saídas voluntárias na minha workstream (12 pessoas) com a média das outras cinco workstreams no mesmo período de 18 meses. A minha taxa foi significativamente menor, e usei esse dado para mostrar o valor da minha abordagem de gestão.",
+      q_en: "How did you measure that attrition on your team was 40% lower?",
+      a_en: "I had access to the headcount reports from the central integration PMO. I compared the percentage of voluntary departures in my workstream (12 people) with the average of the other five workstreams over the same 18-month period. My rate was significantly lower, and I used this data to show the value of my management approach."
+    },
+    {
+      q: "Como você usou o aprendizado deste caso em outras frentes de trabalho?",
+      a: "Essa experiência me ensinou a fazer um 'diagnóstico cultural' em qualquer novo projeto. No Sicredi e na Unimed, minha primeira ação foi mapear os estilos de comunicação e os processos de decisão informais. Isso me permitiu adaptar minha estratégia de engajamento desde o início, em vez de descobrir as barreiras culturais no meio de uma crise.",
+      q_en: "How did you use the learning from this case in other work areas?",
+      a_en: "This experience taught me to perform a 'cultural diagnosis' in any new project. At Sicredi and Unimed, my first action was to map communication styles and informal decision-making processes. This allowed me to adapt my engagement strategy from the start, rather than discovering cultural barriers in the midst of a crisis."
+    },
+    {
+      q: "Descreva um momento específico em que você teve que atuar como 'escudo' para a equipe.",
+      a: "Houve uma reunião em que um diretor do Bradesco exigiu que pulássemos uma etapa de validação de dados para acelerar uma entrega em uma semana. A equipe ex-HSBC ficou em pânico. Pedi a palavra, apresentei o risco de multa de compliance de milhões de dólares com base nas regras do FATCA, e propus um plano alternativo com testes em paralelo. Assumi a responsabilidade pelo prazo, mas não abri mão do controle. O diretor concordou.",
+      q_en: "Describe a specific moment when you had to act as a 'shield' for the team.",
+      a_en: "There was a meeting where a Bradesco director demanded we skip a data validation step to speed up a delivery by one week. The ex-HSBC team panicked. I took the floor, presented the risk of a multi-million dollar compliance fine based on FATCA rules, and proposed an alternative plan with parallel testing. I took responsibility for the timeline but did not compromise on the control. The director agreed."
+    }
+  ]
+};
+
+export default case_4;
