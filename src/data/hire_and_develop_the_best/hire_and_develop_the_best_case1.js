@@ -24,6 +24,42 @@ const case_1 = {
   },
   fups: [
     {
+        "q": "Qual foi seu maior erro ou falha neste caso?",
+        "a": "Meu maior erro foi subestimar a resistência inicial da diretoria em investir no desenvolvimento interno. Perdi tempo em discussões informais em vez de construir imediatamente um business case robusto. Aprendi que, para mudar a mentalidade de líderes, dados sobre ROI e risco são mais eficazes do que argumentos puramente qualitativos.",
+        "q_en": "What was your biggest mistake or failure in this case?",
+        "a_en": "My biggest mistake was underestimating the board's initial resistance to investing in internal development. I wasted time in informal discussions instead of immediately building a robust business case. I learned that to change leaders' mindsets, data on ROI and risk are more effective than purely qualitative arguments."
+    },
+    {
+        "q": "O que você faria diferente hoje?",
+        "a": "Hoje, eu começaria apresentando o business case comparando o custo de R$ 890K da mentoria interna contra os R$ 3,2M de contratações externas. Além disso, eu criaria um sistema de 'certificação' formal para os mentees, alinhado com o RH, para dar mais peso e visibilidade ao programa desde o início, acelerando a adesão da liderança.",
+        "q_en": "What would you do differently today?",
+        "a_en": "Today, I would start by presenting the business case comparing the BRL 890K cost of internal mentoring versus the BRL 3.2M for external hires. Additionally, I would create a formal 'certification' system for mentees, aligned with HR, to give more weight and visibility to the program from the start, accelerating leadership buy-in."
+    },
+    {
+        "q": "Qual foi o obstáculo mais difícil de superar que você enfrentou?",
+        "a": "O obstáculo mais difícil foi a resistência cultural da diretoria, que preferia a solução aparentemente mais rápida de contratar talentos externos. Superei isso com dados, mostrando em três reuniões tensas que o desenvolvimento interno não era apenas 72% mais barato, mas também aumentava a retenção em 24 pontos percentuais, mitigando riscos de longo prazo.",
+        "q_en": "What was the hardest obstacle to overcome that you faced?",
+        "a_en": "The hardest obstacle was the cultural resistance from the board, who preferred the seemingly quicker solution of hiring external talent. I overcame this with data, showing in three tense meetings that internal development was not only 72% cheaper but also increased retention by 24 percentage points, mitigating long-term risks."
+    },
+    {
+        "q": "Quais foram os principais riscos e como você os mitigou?",
+        "a": "O principal risco era o programa de mentoria falhar e os atrasos nos projetos piorarem, custando milhões em multas. Mitiguei isso com um piloto de 6 meses, acompanhamento pessoal ('shadow coaching') em reuniões críticas e estabelecendo métricas claras de sucesso, como a redução de atrasos de 47% para menos de 10%.",
+        "q_en": "What were the main risks and how did you mitigate them?",
+        "a_en": "The main risk was the mentoring program failing and project delays worsening, costing millions in penalties. I mitigated this with a 6-month pilot, personal 'shadow coaching' in critical meetings, and setting clear success metrics, like reducing delays from 47% to under 10%."
+    },
+    {
+        "q": "Que dados você usou e qual foi a racional de cálculo?",
+        "a": "Usei dados de 15 operadoras: 47% de atrasos, R$ 2,8M em multas por projeto. Calculei o ROI do programa comparando o custo de R$ 890K da mentoria com a economia de R$ 8,4M em multas evitadas e o custo de R$ 3,2M de contratações externas. A satisfação do cliente foi medida em uma escala de 1 a 10, subindo de 6.2 para 8.7.",
+        "q_en": "What data did you use and what was your calculation rationale?",
+        "a_en": "I used data from 15 carriers: 47% delays, BRL 2.8M in penalties per project. I calculated the program's ROI by comparing the BRL 890K mentoring cost with the BRL 8.4M savings in avoided penalties and the BRL 3.2M cost of external hires. Customer satisfaction was measured on a 1-10 scale, rising from 6.2 to 8.7."
+    },
+    {
+        "q": "Como você usou o aprendizado desse caso em outras frentes / trabalhos?",
+        "a": "Apliquei o modelo de 'desenvolvimento como alavanca de escala' no Bradesco, Sicredi e Unimed, impactando milhões de clientes. A lição de que investir em pessoas gera o maior ROI se tornou minha assinatura de liderança, resultando na criação de programas de mentoria que comprovadamente reduziram falhas e melhoraram a entrega de valor.",
+        "q_en": "How did you use the learning from this case in other fronts / works?",
+        "a_en": "I applied the 'development as a scale lever' model at Bradesco, Sicredi, and Unimed, impacting millions of customers. The lesson that investing in people generates the highest ROI became my leadership signature, resulting in mentoring programs that demonstrably reduced failures and improved value delivery."
+    },
+    {
         "q": "Como você identificou quais gerentes de projeto tinham maior potencial técnico para lidar com projetos 4G/5G críticos?",
         "a": "Eu procurava por três sinais principais: 1) Curiosidade técnica: faziam perguntas sobre arquitetura de rede além de suas responsabilidades. 2) Compostura sob pressão: como reagiam quando operadoras escalavam problemas técnicos. 3) Orientação ao cliente final: se conseguiam conectar decisões técnicas com impacto nos 8,2M usuários das operadoras. Observava também quem naturalmente assumia ownership em crises de conectividade.",
         "q_en": "How did you identify which project managers had the greatest technical potential to handle critical 4G/5G projects?",

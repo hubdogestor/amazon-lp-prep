@@ -123,6 +123,13 @@ const case_3 = {
       q_en: "What does this case demonstrate about the 'Dive Deep' principle in practice?",
       a_en: "It means I don't delegate curiosity - I personally dive into raw data, understanding the journey, risk, and context. Diving deep means not accepting a 'green dashboard' without understanding what lies beneath."
     }
+    ,
+    {
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Meu erro inicial foi tentar ajustar o modelo antifraude existente em vez de reconstruí-lo. Perdi quase uma semana tentando calibrar regras que eram estruturalmente limitadas. Aprendi que, ao lidar com anomalias complexas, é mais eficiente começar do zero e confiar na análise de dados brutos do que tentar consertar um sistema falho.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "My initial mistake was trying to adjust the existing fraud model instead of rebuilding it. I lost almost a week calibrating rules that were structurally limited. I learned that when dealing with complex anomalies, it's more efficient to start from scratch and trust raw data analysis than to try to fix a flawed system."
+    }
   ]
 };
 
