@@ -78,6 +78,7 @@ export default function Header({
                 <div
                   id="case-dropdown"
                   role="listbox"
+                  aria-live="polite"
                   className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-96 overflow-auto"
                 >
                   <CaseSearchResults
@@ -118,6 +119,7 @@ export default function Header({
                 <div
                   id="fup-dropdown"
                   role="listbox"
+                  aria-live="polite"
                   className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
                 >
                   {fupSearchResults.length > 0 ? (
@@ -180,6 +182,7 @@ export default function Header({
                   <div
                     id="typical-dropdown"
                     role="listbox"
+                    aria-live="polite"
                     className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
                   >
                     {typicalQuestionSearchResults.length > 0 ? (

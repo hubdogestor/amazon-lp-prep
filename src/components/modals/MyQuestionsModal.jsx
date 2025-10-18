@@ -63,9 +63,12 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
                   key={catIdx}
                   className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-lg border border-slate-200 overflow-hidden"
                 >
-                  <div
-                    className="flex items-center justify-between px-5 py-4 cursor-pointer hover:bg-white/60 transition"
+                  <button
+                    type="button"
+                    className="w-full text-left flex items-center justify-between px-5 py-4 cursor-pointer hover:bg-white/60 transition"
                     onClick={() => toggleCategory(catIdx)}
+                    aria-expanded={isExpanded}
+                    aria-controls={`category-content-${catIdx}`}
                   >
                     <h3 className="text-lg font-bold text-slate-900 flex items-center gap-2">
                       <span className="text-2xl">{category.icon}</span>
@@ -77,10 +80,10 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
                         ? (language === "pt" ? "Fechar ▲" : "Close ▲")
                         : (language === "pt" ? "Ver perguntas ▼" : "View questions ▼")}
                     </span>
-                  </div>
+                  </button>
 
                   {isExpanded && (
-                    <div className="px-5 pb-5 pt-2 bg-white/40">
+                    <div id={`category-content-${catIdx}`} className="px-5 pb-5 pt-2 bg-white/40">
                       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                         {category.questions.map((item, qIdx) => {
                           const questionStorageId = `my-${slugify(category.category)}-${qIdx}`;

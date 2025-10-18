@@ -178,6 +178,7 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
                 placeholder={language === "pt" ? "Filtrar narrativas..." : "Filter narratives..."}
                 className="bg-white/15 text-white/90 placeholder:text-white/60 w-full pl-4 pr-10 py-2 rounded-lg border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/60 transition"
                 onClick={(event) => event.stopPropagation()}
+                aria-label={language === "pt" ? "Filtrar narrativas" : "Filter narratives"}
               />
               <span className="absolute inset-y-0 right-3 flex items-center text-white/70 pointer-events-none">
                 🔍
@@ -259,9 +260,12 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
                   key={section.id}
                   className="border-2 border-gray-200 rounded-xl overflow-hidden hover:border-orange-300 transition-all"
                 >
-                  <div
-                    className="bg-gradient-to-r from-gray-50 to-white px-5 py-4 cursor-pointer"
+                  <button
+                    type="button"
+                    className="w-full text-left bg-gradient-to-r from-gray-50 to-white px-5 py-4 cursor-pointer"
                     onClick={() => setExpandedSection(isExpanded ? null : section.id)}
+                    aria-expanded={isExpanded}
+                    aria-controls={`section-content-${section.id}`}
                   >
                     <div className="flex items-center justify-between">
                       <div>
@@ -277,10 +281,10 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
                         </span>
                       </div>
                     </div>
-                  </div>
+                  </button>
 
                   {isExpanded && (
-                    <div className="p-5 bg-white border-t border-gray-200">
+                    <div id={`section-content-${section.id}`} className="p-5 bg-white border-t border-gray-200">
                       <div className="grid md:grid-cols-2 gap-4">
                         {sectionData.versions?.map((version) => {
                           const hookLabel = language === "pt" ? "Gancho" : "Hook";
