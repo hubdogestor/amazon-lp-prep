@@ -1,7 +1,6 @@
 // disagree_and_commit_case4.js
 const case_4 = {
   id: "commit-on-disagreement-product-strategy",
-  title: "Discordei de uma estratégia de pricing, provei meu ponto com dados e liderei o piloto aprovado com excelência",
   title_pt: "Discordei de uma estratégia de pricing, provei meu ponto com dados e liderei o piloto aprovado com excelência",
   title_en: "I disagreed with a pricing strategy, proved my point with data, and led the approved pilot with excellence",
   company: "Bradesco Next",

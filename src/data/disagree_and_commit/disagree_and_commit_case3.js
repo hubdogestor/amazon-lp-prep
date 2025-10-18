@@ -1,12 +1,12 @@
 // disagree_and_commit_case3.js
 const case_3 = {
   id: "bradesco-mvp-feature-prioritization",
-  title: "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreguei resultados que viabilizaram meu plano original",
+  title_pt: "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreguei resultados que viabilizaram meu plano original",
   title_en: "Disagreed with MVP feature prioritization, accepted the committee's decision, and delivered results that funded my original plan",
   company: "Bradesco Next",
   period: "11/2017 - 05/2018",
-  isTopCase: false,
-  isGoodCase: false,
+  isTopCase: true,
+  isGoodCase: true,
   pt: {
     s: "Em março de 2018, como Head de Produto no Banco Digital Next, identifiquei um desalinhamento crítico no roadmap. O CPO, apoiado pelo marketing, defendia priorizar um feed social gamificado para aumentar o engajamento, enquanto minha análise de dados mostrava que 61% do nosso churn vinha de clientes que não conseguiam prever seus gastos futuros. A tensão era alta, pois eu defendia um motor de recomendação financeira baseado em machine learning que, segundo minhas projeções, poderia reduzir o churn em 30%. O CPO argumentava que sem o feed, perderíamos apoio de marketing, colocando em risco uma receita anual de R$ 180 milhões e a base de 2,4 milhões de clientes.",
     t: "Minha tarefa era resolver esse impasse de forma produtiva. Eu precisava apresentar dados irrefutáveis para embasar uma decisão executiva, forçar uma votação final no comitê e, caso minha proposta fosse rejeitada, comprometer-me totalmente com a execução do plano escolhido. Assumi a responsabilidade de entregar o MVP aprovado em seis sprints, mantendo o NPS acima de 70, independentemente de qual feature fosse priorizada.",

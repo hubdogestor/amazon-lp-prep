@@ -1,6 +1,5 @@
 const case_2 = {
   id: "sefaz-pmo-creation",
-  title: "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero",
   title_pt: "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero",
   title_en: "Institutional PMO Structuring and PROFISCO II Governance from Scratch",
   company: "SEFAZ/RS",

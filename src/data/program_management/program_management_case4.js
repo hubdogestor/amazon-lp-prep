@@ -1,7 +1,6 @@
 // program_management_case4.js
 const case_4 = {
   id: "unimed-cvc-cancellation",
-  title: "Cancelei o Programa de CVC na Lacador Participações Devido a Troca de Gestão",
   title_pt: "Cancelei o Programa de CVC na Lacador Participações Devido a Troca de Gestão",
   title_en: "Canceled the CVC Program at Lacador Participações Due to Management Change",
   company: "Unimed",

@@ -1,7 +1,6 @@
 // deliver_results_case2.js
 const case_2 = {
   id: "unimed-ebitda-growth",
-  title: "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave",
   title_pt: "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave",
   title_en: "Transformed Stagnant EBITDA into 22% Growth by Attacking Three Key Inputs",
   company: "Unimed",

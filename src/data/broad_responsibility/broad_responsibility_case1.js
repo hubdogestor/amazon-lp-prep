@@ -1,7 +1,6 @@
 // Case 1 - broad_responsibility
 const case_1 = {
   id: "unimed-lgpd-compliance",
-  title: "Conformidade LGPD em Produtos Digitais para Milhões de Clientes",
   title_pt: "Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes",
   title_en: "I took ownership of digital health integration across 15 cooperatives during COVID-19",
   company: "Unimed",

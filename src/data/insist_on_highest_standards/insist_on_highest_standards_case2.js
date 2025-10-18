@@ -1,8 +1,8 @@
 // insist_on_highest_standards_case2.js
 const case_2 = {
   id: "sefaz-pmo-governance",
-  title: "Elevei o padrao de governanca da SEFAZ, transformando o foco de entregas para valor ao cidadao",
   title_en: "I raised the SEFAZ governance standard, shifting the focus from deliverables to citizen value",
+  title_pt: "Elevei o padrao de governanca da SEFAZ, transformando o foco de entregas para valor ao cidadao",
   company: "Secretaria da Fazenda do RS",
   period: "07/2024 - 05/2025",
   isTopCase: false,

@@ -1,7 +1,7 @@
 const case_5 = {
   id: "huawei-4g-copa-2014-stakeholder",
-  title: "Coordenei lançamento 4G em 12 cidades da Copa 2014 negociando com 20 fornecedores, ANATEL, prefeituras e FIFA",
   title_en: "I coordinated 4G launch in 12 World Cup 2014 cities negotiating with 20 vendors, ANATEL, city halls and FIFA",
+  title_pt: "Coordenei lançamento 4G em 12 cidades da Copa 2014 negociando com 20 fornecedores, ANATEL, prefeituras e FIFA",
   company: "Huawei",
   period: "01/2013-07/2014",
   role: "Program Manager / Stakeholder Lead",

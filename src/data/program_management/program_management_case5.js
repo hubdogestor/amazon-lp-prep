@@ -1,7 +1,6 @@
 // program_management_case5.js
 const case_5 = {
   id: "sicredi-woop-delay-communication",
-  title: "Comuniquei Atraso de 3 Meses no Lançamento do App Woop ao Board",
   title_pt: "Comuniquei Atraso de 3 Meses no Lançamento do App Woop ao Board",
   title_en: "Communicated a 3-Month Delay in the Woop App Launch to the Board",
   company: "Sicredi",

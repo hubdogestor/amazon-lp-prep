@@ -1,7 +1,6 @@
 // insist_on_highest_standards_case4.js
 const case_4 = {
   id: "reject-mediocre-work-procergs",
-  title: "Rejeitei uma entrega de software de R$ 1,3M é criei um quality gate que se tornou padrao de contrato",
   title_pt: "Rejeitei uma entrega de software de R$ 1,3M é criei um quality gate que se tornou padrao de contrato",
   title_en: "I Rejected a BRL 1.3M Software Delivery and Created a Quality Gate That Became a Contract Standard",
   company: "Secretaria da Fazenda do RS",

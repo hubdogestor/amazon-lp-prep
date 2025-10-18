@@ -1,7 +1,6 @@
 // insist_on_highest_standards_case3.js
 const case_3 = {
   id: "sicredi-payment-sla",
-  title: "Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apos falha critica",
   title_pt: "Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apos falha critica",
   title_en: "I Redesigned the Sicredi Payment Gateway for 99.99% Availability After a Critical Failure",
   company: "Sicredi",

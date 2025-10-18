@@ -1,7 +1,6 @@
 // stakeholder_management_case4.js
 const case_4 = {
   id: "sefaz-integrated-management-framework",
-  title: "Influenciei Secretários a Adotar Framework Integrado de Gestão para Profisco II Sem Autoridade Formal",
   title_pt: "Influenciei Secretários a Adotar Framework Integrado de Gestão para Profisco II Sem Autoridade Formal",
   title_en: "Influenced Secretaries to Adopt Integrated Management Framework for Profisco II Without Formal Authority",
   company: "Secretaria da Fazenda do RS",

@@ -1,8 +1,8 @@
 // disagree_and_commit_case2.js
 const case_2 = {
   id: "huawei-world-cup-timeline",
-  title: "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado com antecedência",
   title_en: "I challenged the 2014 World Cup timeline compression and delivered the revised plan ahead of schedule",
+  title_pt: "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado com antecedência",
   company: "Huawei",
   period: "09/2013 - 07/2014",
   isTopCase: false,

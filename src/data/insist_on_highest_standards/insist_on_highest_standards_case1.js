@@ -1,8 +1,8 @@
 // insist_on_highest_standards_case1.js
 const case_1 = {
   id: "hsbc-zero-defects",
-  title: "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R$3 Bi sem erros",
   title_en: "I created the 'Zero Data Loss' standard and the mechanisms that ensured a BRL 3B migration with zero errors",
+  title_pt: "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R$3 Bi sem erros",
   company: "HSBC",
   period: "05/2015 - 06/2016",
   isTopCase: false,

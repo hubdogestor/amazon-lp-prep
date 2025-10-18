@@ -1,7 +1,6 @@
 // program_management_case3.js
 const case_3 = {
   id: "sefaz-roadmap-adjustment-reforma-tributária",
-  title: "Ajustei o Roadmap de Projetos Fiscais na SEFAZ Devido a Reforma Tributária",
   title_pt: "Ajustei o Roadmap de Projetos Fiscais na SEFAZ Devido a Reforma Tributária",
   title_en: "Adjusted the Fiscal Projects Roadmap at SEFAZ Due to Tax Reform",
   company: "Secretaria da Fazenda do RS",

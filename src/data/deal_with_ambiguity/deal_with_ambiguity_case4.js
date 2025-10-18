@@ -1,7 +1,6 @@
-// deal_with_ambiguity_case3.js
-const case_3 = {
+// deal_with_ambiguity_case4.js
+const case_4 = {
   id: "huawei-worldcup-war-room",
-  title: "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Ambiente de Incerteza",
   title_pt: "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Ambiente de Incerteza",
   title_en: "Leading Huawei's 2014 World Cup War Room to Keep the Team Focused Amidst Uncertainty",
   company: "Huawei",
@@ -70,4 +69,4 @@ const case_3 = {
   ]
 };
 
-export default case_3;
+export default case_4;

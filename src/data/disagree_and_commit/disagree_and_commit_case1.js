@@ -1,8 +1,8 @@
 // disagree_and_commit_case1.js
 const case_1 = {
   id: "unimed-retention-strategy",
-  title: "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido aprovado pelo CEO",
   title_en: "I defended a retention-focused strategy against commercial pressure and led the hybrid plan approved by the CEO",
+  title_pt: "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido aprovado pelo CEO",
   company: "Unimed",
   period: "02/2023 - 10/2023",
   isTopCase: false,

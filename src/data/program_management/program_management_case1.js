@@ -1,7 +1,6 @@
 // program_management_case1.js
 const case_1 = {
   id: "hsbc-migration-leadership",
-  title: "Liderança da Migração de US$ 5.2B de Ativos e Contas",
   title_pt: "Liderança da Migração de US$ 5.2B de Ativos e Contas",
   title_en: "Leadership of US$ 5.2B Assets and Accounts Migration",
   company: "HSBC",

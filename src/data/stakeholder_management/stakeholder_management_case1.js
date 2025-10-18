@@ -1,7 +1,6 @@
 // Case 1 - think_big
 const case_1 = {
   id: "huawei-global-rollout",
-  title: "Transformação do Modelo de Rollout Global na Huawei",
   title_pt: "Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Huawei",
   title_en: "Global Rollout Model Transformation at Huawei - From Brazil to Worldwide Standard",
   company: "Huawei",
@@ -125,4 +124,3 @@ const case_1 = {
 };
 
 export default case_1;
-

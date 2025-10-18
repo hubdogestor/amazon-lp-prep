@@ -1,7 +1,6 @@
 // insist_on_highest_standards_case5.js
 const case_5 = {
   id: "unimed-telemedicine-redo-for-excellence",
-  title: "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um padrao de excelencia (NPS 84)",
   title_pt: "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um padrao de excelencia (NPS 84)",
   title_en: "I Rebuilt a Telemedicine Platform from Scratch After an NPS of 28 to Achieve a Standard of Excellence (NPS 84)",
   company: "Unimed",
