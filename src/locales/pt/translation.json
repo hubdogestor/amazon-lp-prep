@@ -64,5 +64,6 @@
   "termFoundInStar": "Termo encontrado no STAR(L)",
   "termNotFound": "⚠️ Termo não encontrado",
   "fupQuestionsTitle": "Follow-up Questions",
-  "searchFupPlaceholder": "Buscar nas 10 perguntas deste case..."
+  "searchFupPlaceholder": "Buscar nas 10 perguntas deste case...",
+  "copyError": "Não foi possível copiar para a área de transferência."
 }

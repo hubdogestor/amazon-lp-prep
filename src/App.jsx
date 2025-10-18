@@ -374,9 +374,9 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
       setTimeout(() => setCopiedCaseId(null), 2000);
     } catch (err) {
       console.error('Falha ao copiar:', err);
-      alert('Não foi possível copiar para a área de transferência.');
+      alert(t('copyError'));
     }
-  }, [generatePrompt, language]);
+  }, [generatePrompt, i18n.language, t]);
 
   // Navegar para o case mapeado a partir de uma pergunta típica
   const navigateToMappedCase = useCallback((lpId, questionIndex) => {

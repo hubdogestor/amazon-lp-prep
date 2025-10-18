@@ -64,5 +64,6 @@
   "termFoundInStar": "Term found in STAR(L)",
   "termNotFound": "⚠️ Term not found",
   "fupQuestionsTitle": "Follow-up Questions",
-  "searchFupPlaceholder": "Search in the 10 questions of this case..."
+  "searchFupPlaceholder": "Search in the 10 questions of this case...",
+  "copyError": "Failed to copy to clipboard."
 }
