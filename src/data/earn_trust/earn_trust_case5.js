@@ -5,7 +5,7 @@ const case_5 = {
   title_en: "Redefined critical SLA with director to restore operational credibility",
   company: "Bradesco Payments",
   period: "03/2018-07/2018",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: true,
 
   pt: {

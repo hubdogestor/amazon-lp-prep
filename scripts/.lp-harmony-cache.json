@@ -3598,5 +3598,725 @@
     "reasoning": "PERFEITAMENTE alinhado: simplificou liquidez que todos achavam precisar ser D+3 para segurança (paradigma bancário conservador) usando Settlement Graph + ML que viabilizou D+0 sem elevar risco (82% volume).",
     "analyzedAt": "2025-01-19T23:45:00Z",
     "version": "3.0"
+  },
+  "earn_trust__Q1__sicredi-post-mortem-transparency": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: feedback devastador do Banco Central após bug Pix (62.400 transferências travadas), lidou com transparência radical criando war room 24/7 + cartas diárias (NPS 21→58, R$14,8M devolvidos).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q1__hsbc-bacen-communication": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Feedback MUITO difícil do Bacen sobre discrepâncias R$1,1B em PLD, lidou assumindo responsabilidade integral + pipeline automatizado + briefings 48h (score 43→86, processo encerrado sem multa).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q1__bradesco-partner-recovery": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Feedback MUITO difícil do parceiro suspendendo operações (R$420M bloqueados), lidou admitindo falhas + buffer R$80M sob sua responsabilidade (NPS 18→63, variação saldo 0,08%).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q1__hard-feedback-leadership-style": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: feedback DEVASTADOR público da diretora 'Eu não confio em você', lidou pedindo 5min + diagnóstico 48h + Transparency Scrum diário (chargeback 0,62%→0,38%, eNPS 31→68).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q1__bradesco-sla-director": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Feedback difícil do diretor sobre liquidação atrasando 29% (R$480M fora do SLA), lidou com análise causa-raiz + painel tempo real + Check 7h diário (taxa fora SLA 7,1%→0,12%).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q2__sicredi-post-mortem-transparency": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: admitiu PUBLICAMENTE erro de liberar rate limiting antes de teste completo, declarou-se responsável único + guerra room 24/7 + 48 comunicações transparentes (R$14,8M devolvidos).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q2__hsbc-bacen-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: assumiu PUBLICAMENTE responsabilidade pelo pipeline automatizado apesar de resistência do diretor de risco, garantiu ao CFO visibilidade diária (discrepâncias R$1,1B→zero em 54 dias).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q2__bradesco-partner-recovery": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: admitiu publicamente falhas na liquidação D+1 que causaram R$420M bloqueados, propôs buffer R$80M sob SUA responsabilidade pessoal (variação saldo 0,08%, NPS 18→63).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q2__hard-feedback-leadership-style": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: admitiu PUBLICAMENTE em relatório 48h suas falhas em 37 ações destacadas em vermelho, expôs vulnerabilidades criando Transparency Scrum (chargeback 0,62%→0,38%, 19 iniciativas destravadas).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q2__bradesco-sla-director": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: admitiu erro no Check 7h quando identificou desvio de 5min, expôs falha ANTES do diretor descobrir mantendo cadência diária (taxa fora D+1 7,1%→0,12%, conciliação automática 68%→94%).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q3__sicredi-post-mortem-transparency": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: reconstruiu confiança pós-bug Pix com ritual transparências diárias + war room 24/7 + cartas públicas ao Bacen mostrando progresso hora a hora (NPS 21→58, R$14,8M devolvidos em 36h).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q3__hsbc-bacen-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: reconstruiu confiança com Bacen após crise PLD usando briefings executivos 48h + pipeline automatizado transparente + visibilidade diária ao CFO (score 43→86, sem multa).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q3__bradesco-partner-recovery": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: reconstruiu confiança do parceiro após suspensão usando buffer R$80M + atualizações 4/4h + modelo Saldo Garantido (NPS 18→63, churn sellers -3,9pp, contrato renovado 2 anos).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q3__hard-feedback-leadership-style": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: reconstruiu confiança após feedback devastador público usando Transparency Scrum diário + diagnóstico 48h + exposição de falhas (eNPS 31→68, escaladas 11→2, CFO adotou como governança).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q3__bradesco-sla-director": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: reconstruiu confiança do diretor após atrasos 29% usando Check 7h diário + painel tempo real + transparência ativa (taxa fora D+1 7,1%→0,12%, R$2,3M economia, método replicado 5 áreas).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q4__sicredi-post-mortem-transparency": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Lida com conflito interno via transparência (war room 24/7 aberto ao time + painel hora/hora alinhando expectativas), mas pergunta foca em 'como lidar' vs. caso mostra reconstrução confiança pós-crise.",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q4__hsbc-bacen-communication": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Lida BEM com conflito: diretor de risco queria manter processo legado, resolveu assumindo publicamente responsabilidade pelo novo pipeline + garantindo ao CFO visibilidade diária (discrepâncias R$1,1B→zero).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q4__bradesco-partner-recovery": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Lida BEM com conflito: CFO resistiu ao buffer R$80M, resolveu com projeções mostrando que perder parceiro custaria mais + transparência nas atualizações 4/4h (variação saldo 0,08%, NPS 18→63).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q4__hard-feedback-leadership-style": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Lida BEM com conflito público: diretora de risco declarou desconfiança, resolveu pedindo 5min + agradecendo alerta + diagnóstico 48h mostrando vulnerabilidade (chargeback 0,62%→0,38%, eNPS 31→68).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q4__bradesco-sla-director": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Lida BEM com conflito: diretor criticou atrasos 29%, resolveu com análise causa-raiz + painel tempo real + Check 7h expondo falhas ANTES de escalar (taxa fora D+1 7,1%→0,12%, 4 contratos renovados).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q5__sicredi-post-mortem-transparency": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi EXTREMAMENTE transparente sobre bug Pix mesmo sendo MUITO desconfortável (312 reclamações Bacen), criando cartas diárias públicas + war room aberto (NPS 21→58, R$14,8M devolvidos).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q5__hsbc-bacen-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi EXTREMAMENTE transparente sobre discrepâncias R$1,1B PLD mesmo sendo MUITO desconfortável (risco de multa), assumindo publicamente responsabilidade (score 43→86, processo encerrado).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q5__bradesco-partner-recovery": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi EXTREMAMENTE transparente sobre R$420M bloqueados mesmo sendo MUITO desconfortável (risco de demissão), admitindo falhas + buffer sob SUA responsabilidade (NPS 18→63, churn -3,9pp).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q5__hard-feedback-leadership-style": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi EXTREMAMENTE transparente expondo 37 ações com falhas em VERMELHO mesmo sendo MUITO constrangedor (público para 8 executivos), criando Transparency Scrum (eNPS 31→68).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q5__bradesco-sla-director": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi EXTREMAMENTE transparente sobre atrasos 29% (R$480M fora do SLA) mesmo sendo MUITO desconfortável, expondo falhas com Check 7h diário (taxa fora D+1 7,1%→0,12%).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q6__sicredi-post-mortem-transparency": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Desacordo tangencial (time queria esconder bug vs. ele quis transparência radical), mas case foca em reconstruir confiança pós-crise vs. resolver desacordo específico com colega.",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q6__hsbc-bacen-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: desacordo DIRETO com diretor de risco que queria manter processo legado, resolveu assumindo publicamente responsabilidade + visibilidade CFO + squad multifuncional (discrepâncias R$1,1B→zero).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q6__bradesco-partner-recovery": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: desacordo DIRETO com CFO sobre buffer R$80M, resolveu com projeções mostrando custo de perder parceiro + transparência atualizações 4/4h (variação saldo 0,08%, contrato renovado).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q6__hard-feedback-leadership-style": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: desacordo PÚBLICO com diretora de risco ('não confio em você'), resolveu agradecendo alerta + diagnóstico 48h + expondo falhas em vermelho (chargeback 0,62%→0,38%, eNPS 31→68).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q6__bradesco-sla-director": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: desacordo DIRETO com diretor sobre atrasos 29%, resolveu com análise causa-raiz + Check 7h diário expondo falhas ANTES de escalar (taxa fora D+1 7,1%→0,12%, R$2,3M economia).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q7__sicredi-post-mortem-transparency": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Verdade dura MUITO presente: comunicar ao Bacen e conselho sobre bug Pix (62.400 transferências travadas) com transparência radical diária, mas case foca em reconstruir confiança vs. momento específico da verdade.",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q7__hsbc-bacen-communication": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Verdade dura presente: comunicar ao CFO sobre 219 campos manuais causando discrepâncias R$1,1B mesmo com resistência do diretor de risco, assumindo responsabilidade pública (score 43→86).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q7__bradesco-partner-recovery": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Verdade dura presente: comunicar ao parceiro sobre R$420M bloqueados + admitir falhas internas na liquidação D+1, propondo buffer sob SUA responsabilidade (NPS 18→63, churn sellers -3,9pp).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q7__hard-feedback-leadership-style": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: falar verdade dura para SI MESMO expondo 37 falhas em vermelho no diagnóstico 48h + admitir PUBLICAMENTE erros para diretora que declarou desconfiança (chargeback 0,62%→0,38%).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q7__bradesco-sla-director": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Verdade dura presente: comunicar ao diretor sobre 42% dos atrasos vindo de descompasso tesouraria, expondo falhas sistêmicas com Check 7h diário (taxa fora D+1 7,1%→0,12%, 4 contratos renovados).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q8__sicredi-post-mortem-transparency": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Influenciou time técnico via transparência (war room 24/7 + painel hora/hora), mas case foca em reconstruir confiança pós-crise vs. influenciar peer com opinião diferente sobre objetivo específico.",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q8__hsbc-bacen-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: influenciou diretor de risco (peer) que tinha opinião DIFERENTE (manter legado vs. automatizar) usando transparência + assumir responsabilidade pública + visibilidade CFO (discrepâncias R$1,1B→zero).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q8__bradesco-partner-recovery": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: influenciou CFO (peer) que tinha opinião DIFERENTE (não imobilizar capital vs. criar buffer) usando projeções + transparência atualizações 4/4h (variação saldo 0,08%, NPS 18→63).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q8__hard-feedback-leadership-style": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: influenciou diretora de risco (peer) que tinha desconfiança RADICAL usando vulnerabilidade + diagnóstico 48h + Transparency Scrum mostrando ritmo diário (chargeback 0,62%→0,38%, eNPS 31→68).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q8__bradesco-sla-director": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: influenciou diretor (peer) cético sobre recuperação usando Check 7h diário + painel tempo real + transparência ativa expondo falhas (taxa fora D+1 7,1%→0,12%, método replicado 5 áreas).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q9__sicredi-post-mortem-transparency": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Constrói confiança com stakeholder EXTERNO (Banco Central) via cartas diárias transparentes + war room 24/7 aberto mostrando progresso hora/hora (NPS 21→58, 312 reclamações resolvidas em 36h).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q9__hsbc-bacen-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: constrói confiança com stakeholder DESCONHECIDO (Bacen) via briefings executivos 48h + pipeline automatizado transparente + respostas 12h ANTES do prazo (score 43→86, sem multa).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q9__bradesco-partner-recovery": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: constrói confiança com stakeholder EXTERNO (parceiro marketplace) via admitir falhas + buffer R$80M + atualizações 4/4h + modelo Saldo Garantido (NPS 18→63, contrato renovado 2 anos).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q9__hard-feedback-leadership-style": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Constrói confiança com stakeholders INTERNOS (board + áreas) via Transparency Scrum diário + diagnóstico 48h + exposição vulnerabilidades (eNPS 31→68, escaladas 11→2, CFO adotou como governança).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q9__bradesco-sla-director": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Constrói confiança com stakeholder NOVO (diretor ex-concorrente) via Check 7h diário + painel tempo real + transparência ativa (taxa fora D+1 7,1%→0,12%, R$2,3M economia, 4 contratos renovados).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q10__sicredi-post-mortem-transparency": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi VOCALMENTE auto-crítico mesmo sendo EXTREMAMENTE constrangedor, declarando-se responsável ÚNICO por bug Pix em cartas públicas ao Bacen (62.400 transferências, NPS 21→58).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q10__hsbc-bacen-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi VOCALMENTE auto-crítico assumindo PUBLICAMENTE responsabilidade por discrepâncias R$1,1B mesmo sendo constrangedor perante CFO e Bacen (score 43→86, processo encerrado sem multa).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q10__bradesco-partner-recovery": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi VOCALMENTE auto-crítico admitindo publicamente falhas que causaram R$420M bloqueados mesmo sendo constrangedor, propondo buffer sob SUA responsabilidade (NPS 18→63, churn -3,9pp).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q10__hard-feedback-leadership-style": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi VOCALMENTE auto-crítico expondo 37 falhas em VERMELHO em diagnóstico PÚBLICO mesmo sendo EXTREMAMENTE constrangedor (8 executivos presentes), criando Transparency Scrum (eNPS 31→68).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q10__bradesco-sla-director": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi VOCALMENTE auto-crítico expondo atrasos 29% (R$480M fora SLA) com Check 7h diário mesmo sendo constrangedor perante diretor ex-concorrente (taxa fora D+1 7,1%→0,12%).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q11__sicredi-post-mortem-transparency": {
+    "relevance": 12,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 68,
+    "reasoning": "Parceria tangencial (relação com Bacen pós-bug Pix), mas case foca em reconstruir confiança regulatória vs. negociar parceria COMERCIAL complexa com processadores de pagamento.",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q11__hsbc-bacen-communication": {
+    "relevance": 12,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 68,
+    "reasoning": "Parceria tangencial (relação regulatória com Bacen sobre PLD), mas case foca em conformidade vs. negociar parceria COMERCIAL complexa com processadores de pagamento.",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q11__bradesco-partner-recovery": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Parceria PRESENTE: marketplace (processador de pagamento) suspendeu operações, negociou modelo Saldo Garantido com revisões trimestrais coassinadas + buffer R$80M (NPS 18→63, contrato renovado 2 anos).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q11__hard-feedback-leadership-style": {
+    "relevance": 12,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 68,
+    "reasoning": "Parceria NÃO mencionada (case foca em reconstruir confiança interna com board e áreas), sem evidência de negociação com processadores de pagamento externos.",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q11__bradesco-sla-director": {
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 74,
+    "reasoning": "Parceria indireta (operação de pagamentos com grandes varejistas), mas case foca em recuperar credibilidade operacional vs. negociar parceria COMERCIAL complexa com processadores.",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q12__sicredi-post-mortem-transparency": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: gerenciou MÚLTIPLOS stakeholders (Bacen regulador + conselho + clientes 62.400) via cartas diárias transparentes + war room 24/7 + painel hora/hora (NPS 21→58, R$14,8M devolvidos).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q12__hsbc-bacen-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: gerenciou MÚLTIPLOS stakeholders (Bacen regulador + CFO banco + diretor de risco) via briefings 48h + pipeline transparente + visibilidade diária (score 43→86, 47 solicitações 12h antes prazo).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q12__bradesco-partner-recovery": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: gerenciou MÚLTIPLOS stakeholders (marketplace gateway + tesouraria banco + CFO) via admitir falhas + buffer R$80M + atualizações 4/4h (NPS 18→63, variação saldo 0,08%, contrato renovado).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q12__hard-feedback-leadership-style": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Gerenciou BEM múltiplos stakeholders INTERNOS (board 8 executivos + diretora risco + áreas bloqueadas) via Transparency Scrum diário + diagnóstico 48h (eNPS 31→68, escaladas 11→2, 19 iniciativas destravadas).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q12__bradesco-sla-director": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Gerenciou BEM múltiplos stakeholders (diretor + tesouraria banco + tecnologia + grandes varejistas) via Check 7h diário + painel tempo real (taxa fora D+1 7,1%→0,12%, 4 contratos renovados).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q13__sicredi-post-mortem-transparency": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Influenciou parceiro EXTERNO (Bacen sem autoridade direta) via cartas diárias transparentes + respostas proativas mostrando progresso hora/hora (312 reclamações resolvidas, NPS 21→58, processo encerrado).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q13__hsbc-bacen-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: influenciou Bacen (parceiro EXTERNO sem autoridade direta) via briefings executivos 48h + pipeline automatizado + respostas 12h ANTES do prazo (score 43→86, processo encerrado sem multa).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q13__bradesco-partner-recovery": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: influenciou marketplace (parceiro EXTERNO sem autoridade direta) via admitir falhas + buffer R$80M + modelo Saldo Garantido com revisões trimestrais (NPS 18→63, contrato renovado 2 anos).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q13__hard-feedback-leadership-style": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Influenciou parceiros INTERNOS (áreas sem autoridade direta) via Transparency Scrum + vulnerabilidade, mas case foca em reconstruir confiança interna vs. influenciar parceiros EXTERNOS.",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q13__bradesco-sla-director": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Influenciou parceiros INTERNOS (tesouraria + tecnologia sem autoridade direta) via Check 7h + painel tempo real, mas case foca em recuperar credibilidade operacional vs. influenciar parceiros EXTERNOS.",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q14__sicredi-post-mortem-transparency": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: reconstruiu confiança após ERRO PRÓPRIO (bug Pix) que afetou equipe + 62.400 clientes via ritual transparências diárias + war room 24/7 (NPS 21→58, R$14,8M devolvidos em 36h).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q14__hsbc-bacen-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: reconstruiu confiança após ERRO SISTÊMICO (discrepâncias R$1,1B PLD) que afetou equipe + Bacen via assumir responsabilidade + pipeline automatizado + visibilidade diária (score 43→86).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q14__bradesco-partner-recovery": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: reconstruiu confiança após ERRO OPERACIONAL (atrasos D+1) que afetou equipe + 8.700 sellers via admitir falhas + buffer R$80M + modelo Saldo Garantido (NPS 18→63, churn -3,9pp).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q14__hard-feedback-leadership-style": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: reconstruiu confiança após ERRO DE LIDERANÇA (ausência em momentos críticos) que afetou 19 iniciativas bloqueadas via Transparency Scrum + diagnóstico 48h (chargeback 0,62%→0,38%, eNPS 31→68).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q14__bradesco-sla-director": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: reconstruiu confiança após ERRO OPERACIONAL (atrasos 29%) que afetou equipe + R$480M varejistas via Check 7h diário + painel tempo real (taxa fora D+1 7,1%→0,12%, R$2,3M economia).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q15__sicredi-post-mortem-transparency": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi transparente sobre bug Pix que CLARAMENTE o prejudicaria (risco de demissão + reputação), declarando-se responsável único em cartas públicas ao Bacen (NPS 21→58, R$14,8M devolvidos).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q15__hsbc-bacen-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi transparente sobre discrepâncias R$1,1B que CLARAMENTE o prejudicaria (risco de processo), assumindo publicamente responsabilidade pelo pipeline (score 43→86, processo encerrado sem multa).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q15__bradesco-partner-recovery": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi transparente sobre R$420M bloqueados que CLARAMENTE o prejudicaria (risco de perder cargo), admitindo falhas públicas + buffer sob SUA responsabilidade (NPS 18→63, contrato renovado).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q15__hard-feedback-leadership-style": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi transparente expondo 37 falhas em VERMELHO que CLARAMENTE o prejudicaria (credibilidade destruída publicamente), criando Transparency Scrum (chargeback 0,62%→0,38%, eNPS 31→68).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q15__bradesco-sla-director": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: foi transparente sobre atrasos 29% que CLARAMENTE o prejudicaria (diretor ex-concorrente cético), expondo falhas com Check 7h diário (taxa fora D+1 7,1%→0,12%, 4 contratos renovados).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q16__sicredi-post-mortem-transparency": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: comunica status para executivos SÊNIORES (conselho + diretor comercial) via cartas diárias transparentes + painel hora/hora com progresso concreto (NPS 21→58, conselho institucionalizou ritual).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q16__hsbc-bacen-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: comunica status para executivos SÊNIORES (CFO + diretor de risco + Bacen) via briefings executivos 48h + pipeline transparente + visibilidade diária (score 43→86, CFO expandiu formato).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q16__bradesco-partner-recovery": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: comunica status para executivos SÊNIORES (CFO + parceiro marketplace) via atualizações 4/4h do buffer R$80M + modelo Saldo Garantido com revisões trimestrais (NPS 18→63, contrato renovado).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q16__hard-feedback-leadership-style": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: comunica status para executivos SÊNIORES (board 8 executivos + CFO + diretora risco) via Transparency Scrum diário + diagnóstico 48h com métricas concretas (eNPS 31→68, CFO adotou como governança).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
+  },
+  "earn_trust__Q16__bradesco-sla-director": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: comunica status para executivo SÊNIOR (diretor ex-concorrente) via Check 7h diário + painel tempo real com alertas automáticos 5min + métricas antes/depois (taxa fora D+1 7,1%→0,12%).",
+    "analyzedAt": "2025-01-19T23:50:00Z",
+    "version": "3.0"
   }
 }

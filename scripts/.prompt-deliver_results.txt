@@ -1,0 +1,1375 @@
+
+# 🎯 TAREFA: Análise Semântica de Cases para Leadership Principle
+
+Você é um especialista em Leadership Principles da Amazon e vai analisar a qualidade do fit entre perguntas e cases de entrevista comportamental.
+
+## 📋 LEADERSHIP PRINCIPLE: DELIVER RESULTS
+
+## 🎯 CRITÉRIOS DE AVALIAÇÃO
+
+Para cada combinação Question × Case, você deve avaliar 3 componentes:
+
+### A. RELEVÂNCIA CONCEITUAL (0-30 pontos)
+- **30 pontos**: Case responde PERFEITAMENTE a pergunta (conceito central do case = pergunta)
+- **26 pontos**: Case responde MUITO BEM (conceito central fortemente relacionado)
+- **22 pontos**: Case responde BEM (conceito presente mas não é central)
+- **18 pontos**: Case responde PARCIALMENTE (conceito mencionado mas secundário)
+- **12 pontos**: Case responde TANGENCIALMENTE (conceito indireto)
+- **0 pontos**: Case NÃO responde a pergunta
+
+### B. PROFUNDIDADE DA RESPOSTA (0-30 pontos)
+- **30 pontos**: STAR-L completo com exemplos concretos + métricas + aprendizados profundos
+- **26 pontos**: STAR-L completo com bons exemplos + algumas métricas
+- **22 pontos**: STAR bom mas Learning superficial ou métricas vagas
+- **18 pontos**: STAR presente mas genérico, faltam detalhes
+- **12 pontos**: STAR incompleto ou muito superficial
+- **0 pontos**: Não fornece resposta adequada
+
+### C. EVIDÊNCIAS E MÉTRICAS (0-30 pontos)
+- **30 pontos**: Métricas CONCRETAS + impacto quantificado + comparações (antes/depois)
+- **26 pontos**: Métricas concretas + impacto quantificado
+- **22 pontos**: Algumas métricas + impacto descrito
+- **18 pontos**: Métricas vagas ou impacto não quantificado
+- **12 pontos**: Pouquíssimas evidências numéricas
+- **0 pontos**: Sem evidências ou métricas
+
+## 📊 FORMATO DE RESPOSTA
+
+Para cada combinação, retorne EXATAMENTE neste formato JSON:
+
+```json
+{
+  "cacheKey": "<cacheKey fornecido>",
+  "relevance": <0-30>,
+  "depth": <0-30>,
+  "evidence": <0-30>,
+  "scoreBase": <soma dos 3>,
+  "reasoning": "<1-2 frases explicando a avaliação>"
+}
+```
+
+## 🎯 COMBINAÇÕES PARA ANÁLISE
+
+
+---
+### COMBINAÇÃO 1/72
+
+**CacheKey**: `deliver_results__Q1__huawei-world-cup-4g`
+
+**Pergunta Q1**: "Conte sobre um projeto desafiador entregue com sucesso superando obstáculos significativos"
+
+**Case**: huawei-world-cup-4g
+**Título**: Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes ...
+- **T**: Naquela madrugada percebi que ninguém mais assumiria o risco. Decidi ser o líder que transformaria o caos em execução. Assumi formalmente o programa end-to-end, reportando diretamente ao presidente da...
+- **A**: Montei uma estratégia de guerra, com execução simultânea nos seis bloqueadores. No eixo 1 - licenças: reprojetamos o dossiê técnico, implantamos checklist digital e negociamos janela semanal fixa com ANATEL -- o lead time despencou de 168 para 49 dias (-71 %). No eixo 2 - integradores: criei o Vendor Performance Index (VPI 0-100) medindo cinco dimensões de entrega. Os dois fornecedores abaixo do l...
+- **R**: Dez meses depois, entregamos tudo dez dias antes do kick-off -- algo sem precedentes no histórico da Huawei Latam. A rede alcançou 99,8 % de disponibilidade (superando a meta de 99,5 %), throughput médio de 124 Mbps (+13 % vs meta e 40 % acima da média do setor) e 8,6 milhões de transações contactle...
+- **L**: Esse case me ensinou que resultados só são duradouros quando nascem de mecanismos escaláveis. Transformei bloqueadores em sistemas: licenças viraram checklist automático, integradores viraram VPI gove...
+
+
+---
+### COMBINAÇÃO 2/72
+
+**CacheKey**: `deliver_results__Q1__unimed-ebitda-growth`
+
+**Pergunta Q1**: "Conte sobre um projeto desafiador entregue com sucesso superando obstáculos significativos"
+
+**Case**: unimed-ebitda-growth
+**Título**: Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presid...
+- **T**: Diante desse ultimato e da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal e profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos ver...
+- **A**: Redefini o problema como um sistema de inputs controláveis e, com dados das 17 cooperativas, identifiquei três alavancas representando 80 % do impacto: custo assistencial, churn e novas receitas. Cada eixo ganhou um stream autônomo, com OKRs, owner e ritual quinzenal. No eixo de custo, analisando 36 meses de P&L, vi que pacientes crônicos geravam 35 % do gasto. Escolhi focar neles porque tinham me...
+- **R**: Após 24 meses, os números representaram a virada histórica da Unimed. O EBITDA cresceu 22 % (R$ 320 M → R$ 391 M), enquanto o setor como um todo cresceu apenas 9 %. APS 360 economizou R$ 21 M / ano, queda de churn gerou R$ 34 M de receita retida e os novos produtos acrescentaram R$ 16 M. NPS chegou ...
+- **L**: Aprendi que crescimento só se sustenta quando mecanismos viram rotina organizacional. Transformar crise em ciência foi o ponto de virada: inputs claros, OKRs trimestrais e revisões quinzenais se torna...
+
+
+---
+### COMBINAÇÃO 3/72
+
+**CacheKey**: `deliver_results__Q1__sicredi-fraud-reduction`
+
+**Pergunta Q1**: "Conte sobre um projeto desafiador entregue com sucesso superando obstáculos significativos"
+
+**Case**: sicredi-fraud-reduction
+**Título**: Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses
+
+**STAR-L Resumido**:
+- **S**: "R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueado...
+- **T**: Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era ...
+- **A**: Eu ataquei sistematicamente os dois inputs críticos que moviam o resultado, criando mecanismos que funcionariam mesmo sem minha presença. Primeiro, mergulhei 72 horas diretas no SQL analisando 5.137 tentativas suspeitas, cruzando tabelas de onboarding, device e KYC. A descoberta breakthrough: 67% dos golpes vinham de documentos sintéticos criados nas últimas 48h. Em uma semana escrevi 7 regras heu...
+- **R**: Eu entreguei resultados que salvaram o negócio sem destruir a experiência do cliente. Em cinco meses, as perdas despencaram de R$ 420k para R$ 226k (-46%), superando significativamente a meta de 30%. O tempo médio de resposta a novo padrão de ataque caiu de 21 dias para 18 horas (-96%), falsos posit...
+- **L**: Aprendi que entregar resultado sustentável sob ataque exige integração total: dados (heurísticas), resposta (war room) e experiência do cliente (contestação transparente) devem funcionar como sistema ...
+
+
+---
+### COMBINAÇÃO 4/72
+
+**CacheKey**: `deliver_results__Q1__sefaz-ecage-portal`
+
+**Pergunta Q1**: "Conte sobre um projeto desafiador entregue com sucesso superando obstáculos significativos"
+
+**Case**: sefaz-ecage-portal
+**Título**: Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secret...
+- **T**: Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal di...
+- **A**: A estratégia teve três frentes principais. **Primeira**, conduzi 25 entrevistas com gestores das oito secretarias e descobri que 78 % desconheciam o status de suas demandas, o que gerava retrabalho e ansiedade. Em duas semanas, desenhei um Product Canvas centrado na jornada do gestor e protótipos no Figma com painéis de rastreabilidade. **Segunda**, avaliei três soluções: Salesforce (12 meses, R$ ...
+- **R**: Resultado: em seis meses o Portal e-CAGE entrou no ar sem custo adicional e com 95 % de estabilidade. Em 60 dias, os 15 órgãos migraram 100 % das 1.200 demandas mensais. Tempo médio de aprovação -47 % (15 → 8 dias). SLA saltou de 66 % para 94 % -- a média histórica da SEFAZ era 71 % e o benchmark na...
+- **L**: Aprendi que liderar soluções no setor público exige moderar interesses divergentes com dados concretos e política ativa. O tripé escuta profunda, decisões pragmáticas e demonstração pública de valor g...
+
+
+---
+### COMBINAÇÃO 5/72
+
+**CacheKey**: `deliver_results__Q1__sicredi-pix-deadline-miss-recovery`
+
+**Pergunta Q1**: "Conte sobre um projeto desafiador entregue com sucesso superando obstáculos significativos"
+
+**Case**: sicredi-pix-deadline-miss-recovery
+**Título**: Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias
+
+**STAR-L Resumido**:
+- **S**: "Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os ...
+- **T**: Diante dessa falha regulatória iminente e do risco de deixar 4,5 milhões de cooperados sem acesso ao Pix, eu reconheci que havia subestimado gravemente a complexidade do projeto. Precisava assumir own...
+- **A**: Eu executei recuperação sistemática em seis etapas coordenadas para corrigir os erros específicos que cometi. Primeiro, assumi responsabilidade publicamente em reunião com o C-level e apresentei análise honesta do que deu errado: havia priorizado features visíveis (UI do app) sobre infraestrutura crítica (capacidade, resiliência), não mapeei as 23 dependências em rede crítica e não implementei gat...
+- **R**: Eu transformei fracasso em credibilidade através de execução disciplinada. Entreguei o Pix Core em 16 de novembro conforme novo acordo com BCB -- exatamente dentro do prazo renegociado. O sistema entrou em produção suportando 520 TPS (16% acima do mínimo exigido), com 0 incidentes críticos nas prime...
+- **L**: Aprendi que ownership verdadeiro inclui assumir fracassos públicos, aprender rapidamente e entregar recuperação sólida com métricas concretas. Três lições transformaram permanentemente minha abordagem...
+
+
+---
+### COMBINAÇÃO 6/72
+
+**CacheKey**: `deliver_results__Q1__unimed-vendor-termination`
+
+**Pergunta Q1**: "Conte sobre um projeto desafiador entregue com sucesso superando obstáculos significativos"
+
+**Case**: unimed-vendor-termination
+**Título**: Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, se você cortar a TechMed agora, vou ter que explicar ao conselho por que estamos rompendo parceria de 8 anos com fornecedor que nos ajudou a construir toda a infraestrutura digital." A advertência do diretor de TI ecoou na sala de crise enquanto eu segurava nas mãos dois fatos irreconcili...
+- **T**: Diante dessa encruzilhada brutal entre lealdade institucional e responsabilidade com o cliente final, assumi ownership total da decisão mais politicamente custosa da minha carreira na Unimed. Minha mi...
+- **A**: Executei uma estratégia de decisão e transição em sete movimentos coordenados, cada um projetado para transformar conflito de relacionamento em escolha baseada em dados e execução impecável. Primeiro, conduzi auditoria técnica forense em 48 horas. Reuni squad de 3 arquitetos seniores independentes (não envolvidos no projeto) e analisamos 2.3 milhões de linhas de código entregues pela TechMed, 847 ...
+- **R**: Os resultados validaram dolorosamente que deliver results às vezes exige coragem de priorizar o cliente final mesmo quando isso compromete relacionamentos de longo prazo. A plataforma de telemedicina foi lançada no prazo em 18 de setembro de 2023, e nos primeiros 90 dias alcançou 23.400 consultas re...
+- **L**: Retrospectivamente, esse caso redefiniu minha compreensão sobre deliver results - não se trata de entregar a qualquer custo, mas de ter coragem de fazer escolhas difíceis que priorizem o cliente final...
+
+
+---
+### COMBINAÇÃO 7/72
+
+**CacheKey**: `deliver_results__Q2__huawei-world-cup-4g`
+
+**Pergunta Q2**: "Me fale sobre uma vez que você entregou sob pressão"
+
+**Case**: huawei-world-cup-4g
+**Título**: Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes ...
+- **T**: Naquela madrugada percebi que ninguém mais assumiria o risco. Decidi ser o líder que transformaria o caos em execução. Assumi formalmente o programa end-to-end, reportando diretamente ao presidente da...
+- **A**: Montei uma estratégia de guerra, com execução simultânea nos seis bloqueadores. No eixo 1 - licenças: reprojetamos o dossiê técnico, implantamos checklist digital e negociamos janela semanal fixa com ANATEL -- o lead time despencou de 168 para 49 dias (-71 %). No eixo 2 - integradores: criei o Vendor Performance Index (VPI 0-100) medindo cinco dimensões de entrega. Os dois fornecedores abaixo do l...
+- **R**: Dez meses depois, entregamos tudo dez dias antes do kick-off -- algo sem precedentes no histórico da Huawei Latam. A rede alcançou 99,8 % de disponibilidade (superando a meta de 99,5 %), throughput médio de 124 Mbps (+13 % vs meta e 40 % acima da média do setor) e 8,6 milhões de transações contactle...
+- **L**: Esse case me ensinou que resultados só são duradouros quando nascem de mecanismos escaláveis. Transformei bloqueadores em sistemas: licenças viraram checklist automático, integradores viraram VPI gove...
+
+
+---
+### COMBINAÇÃO 8/72
+
+**CacheKey**: `deliver_results__Q2__unimed-ebitda-growth`
+
+**Pergunta Q2**: "Me fale sobre uma vez que você entregou sob pressão"
+
+**Case**: unimed-ebitda-growth
+**Título**: Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presid...
+- **T**: Diante desse ultimato e da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal e profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos ver...
+- **A**: Redefini o problema como um sistema de inputs controláveis e, com dados das 17 cooperativas, identifiquei três alavancas representando 80 % do impacto: custo assistencial, churn e novas receitas. Cada eixo ganhou um stream autônomo, com OKRs, owner e ritual quinzenal. No eixo de custo, analisando 36 meses de P&L, vi que pacientes crônicos geravam 35 % do gasto. Escolhi focar neles porque tinham me...
+- **R**: Após 24 meses, os números representaram a virada histórica da Unimed. O EBITDA cresceu 22 % (R$ 320 M → R$ 391 M), enquanto o setor como um todo cresceu apenas 9 %. APS 360 economizou R$ 21 M / ano, queda de churn gerou R$ 34 M de receita retida e os novos produtos acrescentaram R$ 16 M. NPS chegou ...
+- **L**: Aprendi que crescimento só se sustenta quando mecanismos viram rotina organizacional. Transformar crise em ciência foi o ponto de virada: inputs claros, OKRs trimestrais e revisões quinzenais se torna...
+
+
+---
+### COMBINAÇÃO 9/72
+
+**CacheKey**: `deliver_results__Q2__sicredi-fraud-reduction`
+
+**Pergunta Q2**: "Me fale sobre uma vez que você entregou sob pressão"
+
+**Case**: sicredi-fraud-reduction
+**Título**: Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses
+
+**STAR-L Resumido**:
+- **S**: "R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueado...
+- **T**: Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era ...
+- **A**: Eu ataquei sistematicamente os dois inputs críticos que moviam o resultado, criando mecanismos que funcionariam mesmo sem minha presença. Primeiro, mergulhei 72 horas diretas no SQL analisando 5.137 tentativas suspeitas, cruzando tabelas de onboarding, device e KYC. A descoberta breakthrough: 67% dos golpes vinham de documentos sintéticos criados nas últimas 48h. Em uma semana escrevi 7 regras heu...
+- **R**: Eu entreguei resultados que salvaram o negócio sem destruir a experiência do cliente. Em cinco meses, as perdas despencaram de R$ 420k para R$ 226k (-46%), superando significativamente a meta de 30%. O tempo médio de resposta a novo padrão de ataque caiu de 21 dias para 18 horas (-96%), falsos posit...
+- **L**: Aprendi que entregar resultado sustentável sob ataque exige integração total: dados (heurísticas), resposta (war room) e experiência do cliente (contestação transparente) devem funcionar como sistema ...
+
+
+---
+### COMBINAÇÃO 10/72
+
+**CacheKey**: `deliver_results__Q2__sefaz-ecage-portal`
+
+**Pergunta Q2**: "Me fale sobre uma vez que você entregou sob pressão"
+
+**Case**: sefaz-ecage-portal
+**Título**: Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secret...
+- **T**: Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal di...
+- **A**: A estratégia teve três frentes principais. **Primeira**, conduzi 25 entrevistas com gestores das oito secretarias e descobri que 78 % desconheciam o status de suas demandas, o que gerava retrabalho e ansiedade. Em duas semanas, desenhei um Product Canvas centrado na jornada do gestor e protótipos no Figma com painéis de rastreabilidade. **Segunda**, avaliei três soluções: Salesforce (12 meses, R$ ...
+- **R**: Resultado: em seis meses o Portal e-CAGE entrou no ar sem custo adicional e com 95 % de estabilidade. Em 60 dias, os 15 órgãos migraram 100 % das 1.200 demandas mensais. Tempo médio de aprovação -47 % (15 → 8 dias). SLA saltou de 66 % para 94 % -- a média histórica da SEFAZ era 71 % e o benchmark na...
+- **L**: Aprendi que liderar soluções no setor público exige moderar interesses divergentes com dados concretos e política ativa. O tripé escuta profunda, decisões pragmáticas e demonstração pública de valor g...
+
+
+---
+### COMBINAÇÃO 11/72
+
+**CacheKey**: `deliver_results__Q2__sicredi-pix-deadline-miss-recovery`
+
+**Pergunta Q2**: "Me fale sobre uma vez que você entregou sob pressão"
+
+**Case**: sicredi-pix-deadline-miss-recovery
+**Título**: Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias
+
+**STAR-L Resumido**:
+- **S**: "Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os ...
+- **T**: Diante dessa falha regulatória iminente e do risco de deixar 4,5 milhões de cooperados sem acesso ao Pix, eu reconheci que havia subestimado gravemente a complexidade do projeto. Precisava assumir own...
+- **A**: Eu executei recuperação sistemática em seis etapas coordenadas para corrigir os erros específicos que cometi. Primeiro, assumi responsabilidade publicamente em reunião com o C-level e apresentei análise honesta do que deu errado: havia priorizado features visíveis (UI do app) sobre infraestrutura crítica (capacidade, resiliência), não mapeei as 23 dependências em rede crítica e não implementei gat...
+- **R**: Eu transformei fracasso em credibilidade através de execução disciplinada. Entreguei o Pix Core em 16 de novembro conforme novo acordo com BCB -- exatamente dentro do prazo renegociado. O sistema entrou em produção suportando 520 TPS (16% acima do mínimo exigido), com 0 incidentes críticos nas prime...
+- **L**: Aprendi que ownership verdadeiro inclui assumir fracassos públicos, aprender rapidamente e entregar recuperação sólida com métricas concretas. Três lições transformaram permanentemente minha abordagem...
+
+
+---
+### COMBINAÇÃO 12/72
+
+**CacheKey**: `deliver_results__Q2__unimed-vendor-termination`
+
+**Pergunta Q2**: "Me fale sobre uma vez que você entregou sob pressão"
+
+**Case**: unimed-vendor-termination
+**Título**: Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, se você cortar a TechMed agora, vou ter que explicar ao conselho por que estamos rompendo parceria de 8 anos com fornecedor que nos ajudou a construir toda a infraestrutura digital." A advertência do diretor de TI ecoou na sala de crise enquanto eu segurava nas mãos dois fatos irreconcili...
+- **T**: Diante dessa encruzilhada brutal entre lealdade institucional e responsabilidade com o cliente final, assumi ownership total da decisão mais politicamente custosa da minha carreira na Unimed. Minha mi...
+- **A**: Executei uma estratégia de decisão e transição em sete movimentos coordenados, cada um projetado para transformar conflito de relacionamento em escolha baseada em dados e execução impecável. Primeiro, conduzi auditoria técnica forense em 48 horas. Reuni squad de 3 arquitetos seniores independentes (não envolvidos no projeto) e analisamos 2.3 milhões de linhas de código entregues pela TechMed, 847 ...
+- **R**: Os resultados validaram dolorosamente que deliver results às vezes exige coragem de priorizar o cliente final mesmo quando isso compromete relacionamentos de longo prazo. A plataforma de telemedicina foi lançada no prazo em 18 de setembro de 2023, e nos primeiros 90 dias alcançou 23.400 consultas re...
+- **L**: Retrospectivamente, esse caso redefiniu minha compreensão sobre deliver results - não se trata de entregar a qualquer custo, mas de ter coragem de fazer escolhas difíceis que priorizem o cliente final...
+
+
+---
+### COMBINAÇÃO 13/72
+
+**CacheKey**: `deliver_results__Q3__huawei-world-cup-4g`
+
+**Pergunta Q3**: "Como você lida com prazos apertados?"
+
+**Case**: huawei-world-cup-4g
+**Título**: Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes ...
+- **T**: Naquela madrugada percebi que ninguém mais assumiria o risco. Decidi ser o líder que transformaria o caos em execução. Assumi formalmente o programa end-to-end, reportando diretamente ao presidente da...
+- **A**: Montei uma estratégia de guerra, com execução simultânea nos seis bloqueadores. No eixo 1 - licenças: reprojetamos o dossiê técnico, implantamos checklist digital e negociamos janela semanal fixa com ANATEL -- o lead time despencou de 168 para 49 dias (-71 %). No eixo 2 - integradores: criei o Vendor Performance Index (VPI 0-100) medindo cinco dimensões de entrega. Os dois fornecedores abaixo do l...
+- **R**: Dez meses depois, entregamos tudo dez dias antes do kick-off -- algo sem precedentes no histórico da Huawei Latam. A rede alcançou 99,8 % de disponibilidade (superando a meta de 99,5 %), throughput médio de 124 Mbps (+13 % vs meta e 40 % acima da média do setor) e 8,6 milhões de transações contactle...
+- **L**: Esse case me ensinou que resultados só são duradouros quando nascem de mecanismos escaláveis. Transformei bloqueadores em sistemas: licenças viraram checklist automático, integradores viraram VPI gove...
+
+
+---
+### COMBINAÇÃO 14/72
+
+**CacheKey**: `deliver_results__Q3__unimed-ebitda-growth`
+
+**Pergunta Q3**: "Como você lida com prazos apertados?"
+
+**Case**: unimed-ebitda-growth
+**Título**: Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presid...
+- **T**: Diante desse ultimato e da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal e profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos ver...
+- **A**: Redefini o problema como um sistema de inputs controláveis e, com dados das 17 cooperativas, identifiquei três alavancas representando 80 % do impacto: custo assistencial, churn e novas receitas. Cada eixo ganhou um stream autônomo, com OKRs, owner e ritual quinzenal. No eixo de custo, analisando 36 meses de P&L, vi que pacientes crônicos geravam 35 % do gasto. Escolhi focar neles porque tinham me...
+- **R**: Após 24 meses, os números representaram a virada histórica da Unimed. O EBITDA cresceu 22 % (R$ 320 M → R$ 391 M), enquanto o setor como um todo cresceu apenas 9 %. APS 360 economizou R$ 21 M / ano, queda de churn gerou R$ 34 M de receita retida e os novos produtos acrescentaram R$ 16 M. NPS chegou ...
+- **L**: Aprendi que crescimento só se sustenta quando mecanismos viram rotina organizacional. Transformar crise em ciência foi o ponto de virada: inputs claros, OKRs trimestrais e revisões quinzenais se torna...
+
+
+---
+### COMBINAÇÃO 15/72
+
+**CacheKey**: `deliver_results__Q3__sicredi-fraud-reduction`
+
+**Pergunta Q3**: "Como você lida com prazos apertados?"
+
+**Case**: sicredi-fraud-reduction
+**Título**: Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses
+
+**STAR-L Resumido**:
+- **S**: "R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueado...
+- **T**: Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era ...
+- **A**: Eu ataquei sistematicamente os dois inputs críticos que moviam o resultado, criando mecanismos que funcionariam mesmo sem minha presença. Primeiro, mergulhei 72 horas diretas no SQL analisando 5.137 tentativas suspeitas, cruzando tabelas de onboarding, device e KYC. A descoberta breakthrough: 67% dos golpes vinham de documentos sintéticos criados nas últimas 48h. Em uma semana escrevi 7 regras heu...
+- **R**: Eu entreguei resultados que salvaram o negócio sem destruir a experiência do cliente. Em cinco meses, as perdas despencaram de R$ 420k para R$ 226k (-46%), superando significativamente a meta de 30%. O tempo médio de resposta a novo padrão de ataque caiu de 21 dias para 18 horas (-96%), falsos posit...
+- **L**: Aprendi que entregar resultado sustentável sob ataque exige integração total: dados (heurísticas), resposta (war room) e experiência do cliente (contestação transparente) devem funcionar como sistema ...
+
+
+---
+### COMBINAÇÃO 16/72
+
+**CacheKey**: `deliver_results__Q3__sefaz-ecage-portal`
+
+**Pergunta Q3**: "Como você lida com prazos apertados?"
+
+**Case**: sefaz-ecage-portal
+**Título**: Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secret...
+- **T**: Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal di...
+- **A**: A estratégia teve três frentes principais. **Primeira**, conduzi 25 entrevistas com gestores das oito secretarias e descobri que 78 % desconheciam o status de suas demandas, o que gerava retrabalho e ansiedade. Em duas semanas, desenhei um Product Canvas centrado na jornada do gestor e protótipos no Figma com painéis de rastreabilidade. **Segunda**, avaliei três soluções: Salesforce (12 meses, R$ ...
+- **R**: Resultado: em seis meses o Portal e-CAGE entrou no ar sem custo adicional e com 95 % de estabilidade. Em 60 dias, os 15 órgãos migraram 100 % das 1.200 demandas mensais. Tempo médio de aprovação -47 % (15 → 8 dias). SLA saltou de 66 % para 94 % -- a média histórica da SEFAZ era 71 % e o benchmark na...
+- **L**: Aprendi que liderar soluções no setor público exige moderar interesses divergentes com dados concretos e política ativa. O tripé escuta profunda, decisões pragmáticas e demonstração pública de valor g...
+
+
+---
+### COMBINAÇÃO 17/72
+
+**CacheKey**: `deliver_results__Q3__sicredi-pix-deadline-miss-recovery`
+
+**Pergunta Q3**: "Como você lida com prazos apertados?"
+
+**Case**: sicredi-pix-deadline-miss-recovery
+**Título**: Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias
+
+**STAR-L Resumido**:
+- **S**: "Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os ...
+- **T**: Diante dessa falha regulatória iminente e do risco de deixar 4,5 milhões de cooperados sem acesso ao Pix, eu reconheci que havia subestimado gravemente a complexidade do projeto. Precisava assumir own...
+- **A**: Eu executei recuperação sistemática em seis etapas coordenadas para corrigir os erros específicos que cometi. Primeiro, assumi responsabilidade publicamente em reunião com o C-level e apresentei análise honesta do que deu errado: havia priorizado features visíveis (UI do app) sobre infraestrutura crítica (capacidade, resiliência), não mapeei as 23 dependências em rede crítica e não implementei gat...
+- **R**: Eu transformei fracasso em credibilidade através de execução disciplinada. Entreguei o Pix Core em 16 de novembro conforme novo acordo com BCB -- exatamente dentro do prazo renegociado. O sistema entrou em produção suportando 520 TPS (16% acima do mínimo exigido), com 0 incidentes críticos nas prime...
+- **L**: Aprendi que ownership verdadeiro inclui assumir fracassos públicos, aprender rapidamente e entregar recuperação sólida com métricas concretas. Três lições transformaram permanentemente minha abordagem...
+
+
+---
+### COMBINAÇÃO 18/72
+
+**CacheKey**: `deliver_results__Q3__unimed-vendor-termination`
+
+**Pergunta Q3**: "Como você lida com prazos apertados?"
+
+**Case**: unimed-vendor-termination
+**Título**: Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, se você cortar a TechMed agora, vou ter que explicar ao conselho por que estamos rompendo parceria de 8 anos com fornecedor que nos ajudou a construir toda a infraestrutura digital." A advertência do diretor de TI ecoou na sala de crise enquanto eu segurava nas mãos dois fatos irreconcili...
+- **T**: Diante dessa encruzilhada brutal entre lealdade institucional e responsabilidade com o cliente final, assumi ownership total da decisão mais politicamente custosa da minha carreira na Unimed. Minha mi...
+- **A**: Executei uma estratégia de decisão e transição em sete movimentos coordenados, cada um projetado para transformar conflito de relacionamento em escolha baseada em dados e execução impecável. Primeiro, conduzi auditoria técnica forense em 48 horas. Reuni squad de 3 arquitetos seniores independentes (não envolvidos no projeto) e analisamos 2.3 milhões de linhas de código entregues pela TechMed, 847 ...
+- **R**: Os resultados validaram dolorosamente que deliver results às vezes exige coragem de priorizar o cliente final mesmo quando isso compromete relacionamentos de longo prazo. A plataforma de telemedicina foi lançada no prazo em 18 de setembro de 2023, e nos primeiros 90 dias alcançou 23.400 consultas re...
+- **L**: Retrospectivamente, esse caso redefiniu minha compreensão sobre deliver results - não se trata de entregar a qualquer custo, mas de ter coragem de fazer escolhas difíceis que priorizem o cliente final...
+
+
+---
+### COMBINAÇÃO 19/72
+
+**CacheKey**: `deliver_results__Q4__huawei-world-cup-4g`
+
+**Pergunta Q4**: "Me dê um exemplo de quando você teve que priorizar para entregar no prazo"
+
+**Case**: huawei-world-cup-4g
+**Título**: Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes ...
+- **T**: Naquela madrugada percebi que ninguém mais assumiria o risco. Decidi ser o líder que transformaria o caos em execução. Assumi formalmente o programa end-to-end, reportando diretamente ao presidente da...
+- **A**: Montei uma estratégia de guerra, com execução simultânea nos seis bloqueadores. No eixo 1 - licenças: reprojetamos o dossiê técnico, implantamos checklist digital e negociamos janela semanal fixa com ANATEL -- o lead time despencou de 168 para 49 dias (-71 %). No eixo 2 - integradores: criei o Vendor Performance Index (VPI 0-100) medindo cinco dimensões de entrega. Os dois fornecedores abaixo do l...
+- **R**: Dez meses depois, entregamos tudo dez dias antes do kick-off -- algo sem precedentes no histórico da Huawei Latam. A rede alcançou 99,8 % de disponibilidade (superando a meta de 99,5 %), throughput médio de 124 Mbps (+13 % vs meta e 40 % acima da média do setor) e 8,6 milhões de transações contactle...
+- **L**: Esse case me ensinou que resultados só são duradouros quando nascem de mecanismos escaláveis. Transformei bloqueadores em sistemas: licenças viraram checklist automático, integradores viraram VPI gove...
+
+
+---
+### COMBINAÇÃO 20/72
+
+**CacheKey**: `deliver_results__Q4__unimed-ebitda-growth`
+
+**Pergunta Q4**: "Me dê um exemplo de quando você teve que priorizar para entregar no prazo"
+
+**Case**: unimed-ebitda-growth
+**Título**: Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presid...
+- **T**: Diante desse ultimato e da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal e profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos ver...
+- **A**: Redefini o problema como um sistema de inputs controláveis e, com dados das 17 cooperativas, identifiquei três alavancas representando 80 % do impacto: custo assistencial, churn e novas receitas. Cada eixo ganhou um stream autônomo, com OKRs, owner e ritual quinzenal. No eixo de custo, analisando 36 meses de P&L, vi que pacientes crônicos geravam 35 % do gasto. Escolhi focar neles porque tinham me...
+- **R**: Após 24 meses, os números representaram a virada histórica da Unimed. O EBITDA cresceu 22 % (R$ 320 M → R$ 391 M), enquanto o setor como um todo cresceu apenas 9 %. APS 360 economizou R$ 21 M / ano, queda de churn gerou R$ 34 M de receita retida e os novos produtos acrescentaram R$ 16 M. NPS chegou ...
+- **L**: Aprendi que crescimento só se sustenta quando mecanismos viram rotina organizacional. Transformar crise em ciência foi o ponto de virada: inputs claros, OKRs trimestrais e revisões quinzenais se torna...
+
+
+---
+### COMBINAÇÃO 21/72
+
+**CacheKey**: `deliver_results__Q4__sicredi-fraud-reduction`
+
+**Pergunta Q4**: "Me dê um exemplo de quando você teve que priorizar para entregar no prazo"
+
+**Case**: sicredi-fraud-reduction
+**Título**: Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses
+
+**STAR-L Resumido**:
+- **S**: "R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueado...
+- **T**: Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era ...
+- **A**: Eu ataquei sistematicamente os dois inputs críticos que moviam o resultado, criando mecanismos que funcionariam mesmo sem minha presença. Primeiro, mergulhei 72 horas diretas no SQL analisando 5.137 tentativas suspeitas, cruzando tabelas de onboarding, device e KYC. A descoberta breakthrough: 67% dos golpes vinham de documentos sintéticos criados nas últimas 48h. Em uma semana escrevi 7 regras heu...
+- **R**: Eu entreguei resultados que salvaram o negócio sem destruir a experiência do cliente. Em cinco meses, as perdas despencaram de R$ 420k para R$ 226k (-46%), superando significativamente a meta de 30%. O tempo médio de resposta a novo padrão de ataque caiu de 21 dias para 18 horas (-96%), falsos posit...
+- **L**: Aprendi que entregar resultado sustentável sob ataque exige integração total: dados (heurísticas), resposta (war room) e experiência do cliente (contestação transparente) devem funcionar como sistema ...
+
+
+---
+### COMBINAÇÃO 22/72
+
+**CacheKey**: `deliver_results__Q4__sefaz-ecage-portal`
+
+**Pergunta Q4**: "Me dê um exemplo de quando você teve que priorizar para entregar no prazo"
+
+**Case**: sefaz-ecage-portal
+**Título**: Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secret...
+- **T**: Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal di...
+- **A**: A estratégia teve três frentes principais. **Primeira**, conduzi 25 entrevistas com gestores das oito secretarias e descobri que 78 % desconheciam o status de suas demandas, o que gerava retrabalho e ansiedade. Em duas semanas, desenhei um Product Canvas centrado na jornada do gestor e protótipos no Figma com painéis de rastreabilidade. **Segunda**, avaliei três soluções: Salesforce (12 meses, R$ ...
+- **R**: Resultado: em seis meses o Portal e-CAGE entrou no ar sem custo adicional e com 95 % de estabilidade. Em 60 dias, os 15 órgãos migraram 100 % das 1.200 demandas mensais. Tempo médio de aprovação -47 % (15 → 8 dias). SLA saltou de 66 % para 94 % -- a média histórica da SEFAZ era 71 % e o benchmark na...
+- **L**: Aprendi que liderar soluções no setor público exige moderar interesses divergentes com dados concretos e política ativa. O tripé escuta profunda, decisões pragmáticas e demonstração pública de valor g...
+
+
+---
+### COMBINAÇÃO 23/72
+
+**CacheKey**: `deliver_results__Q4__sicredi-pix-deadline-miss-recovery`
+
+**Pergunta Q4**: "Me dê um exemplo de quando você teve que priorizar para entregar no prazo"
+
+**Case**: sicredi-pix-deadline-miss-recovery
+**Título**: Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias
+
+**STAR-L Resumido**:
+- **S**: "Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os ...
+- **T**: Diante dessa falha regulatória iminente e do risco de deixar 4,5 milhões de cooperados sem acesso ao Pix, eu reconheci que havia subestimado gravemente a complexidade do projeto. Precisava assumir own...
+- **A**: Eu executei recuperação sistemática em seis etapas coordenadas para corrigir os erros específicos que cometi. Primeiro, assumi responsabilidade publicamente em reunião com o C-level e apresentei análise honesta do que deu errado: havia priorizado features visíveis (UI do app) sobre infraestrutura crítica (capacidade, resiliência), não mapeei as 23 dependências em rede crítica e não implementei gat...
+- **R**: Eu transformei fracasso em credibilidade através de execução disciplinada. Entreguei o Pix Core em 16 de novembro conforme novo acordo com BCB -- exatamente dentro do prazo renegociado. O sistema entrou em produção suportando 520 TPS (16% acima do mínimo exigido), com 0 incidentes críticos nas prime...
+- **L**: Aprendi que ownership verdadeiro inclui assumir fracassos públicos, aprender rapidamente e entregar recuperação sólida com métricas concretas. Três lições transformaram permanentemente minha abordagem...
+
+
+---
+### COMBINAÇÃO 24/72
+
+**CacheKey**: `deliver_results__Q4__unimed-vendor-termination`
+
+**Pergunta Q4**: "Me dê um exemplo de quando você teve que priorizar para entregar no prazo"
+
+**Case**: unimed-vendor-termination
+**Título**: Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, se você cortar a TechMed agora, vou ter que explicar ao conselho por que estamos rompendo parceria de 8 anos com fornecedor que nos ajudou a construir toda a infraestrutura digital." A advertência do diretor de TI ecoou na sala de crise enquanto eu segurava nas mãos dois fatos irreconcili...
+- **T**: Diante dessa encruzilhada brutal entre lealdade institucional e responsabilidade com o cliente final, assumi ownership total da decisão mais politicamente custosa da minha carreira na Unimed. Minha mi...
+- **A**: Executei uma estratégia de decisão e transição em sete movimentos coordenados, cada um projetado para transformar conflito de relacionamento em escolha baseada em dados e execução impecável. Primeiro, conduzi auditoria técnica forense em 48 horas. Reuni squad de 3 arquitetos seniores independentes (não envolvidos no projeto) e analisamos 2.3 milhões de linhas de código entregues pela TechMed, 847 ...
+- **R**: Os resultados validaram dolorosamente que deliver results às vezes exige coragem de priorizar o cliente final mesmo quando isso compromete relacionamentos de longo prazo. A plataforma de telemedicina foi lançada no prazo em 18 de setembro de 2023, e nos primeiros 90 dias alcançou 23.400 consultas re...
+- **L**: Retrospectivamente, esse caso redefiniu minha compreensão sobre deliver results - não se trata de entregar a qualquer custo, mas de ter coragem de fazer escolhas difíceis que priorizem o cliente final...
+
+
+---
+### COMBINAÇÃO 25/72
+
+**CacheKey**: `deliver_results__Q5__huawei-world-cup-4g`
+
+**Pergunta Q5**: "Conte sobre quando você não gerenciou prioridades efetivamente e algo não foi entregue no prazo"
+
+**Case**: huawei-world-cup-4g
+**Título**: Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes ...
+- **T**: Naquela madrugada percebi que ninguém mais assumiria o risco. Decidi ser o líder que transformaria o caos em execução. Assumi formalmente o programa end-to-end, reportando diretamente ao presidente da...
+- **A**: Montei uma estratégia de guerra, com execução simultânea nos seis bloqueadores. No eixo 1 - licenças: reprojetamos o dossiê técnico, implantamos checklist digital e negociamos janela semanal fixa com ANATEL -- o lead time despencou de 168 para 49 dias (-71 %). No eixo 2 - integradores: criei o Vendor Performance Index (VPI 0-100) medindo cinco dimensões de entrega. Os dois fornecedores abaixo do l...
+- **R**: Dez meses depois, entregamos tudo dez dias antes do kick-off -- algo sem precedentes no histórico da Huawei Latam. A rede alcançou 99,8 % de disponibilidade (superando a meta de 99,5 %), throughput médio de 124 Mbps (+13 % vs meta e 40 % acima da média do setor) e 8,6 milhões de transações contactle...
+- **L**: Esse case me ensinou que resultados só são duradouros quando nascem de mecanismos escaláveis. Transformei bloqueadores em sistemas: licenças viraram checklist automático, integradores viraram VPI gove...
+
+
+---
+### COMBINAÇÃO 26/72
+
+**CacheKey**: `deliver_results__Q5__unimed-ebitda-growth`
+
+**Pergunta Q5**: "Conte sobre quando você não gerenciou prioridades efetivamente e algo não foi entregue no prazo"
+
+**Case**: unimed-ebitda-growth
+**Título**: Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presid...
+- **T**: Diante desse ultimato e da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal e profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos ver...
+- **A**: Redefini o problema como um sistema de inputs controláveis e, com dados das 17 cooperativas, identifiquei três alavancas representando 80 % do impacto: custo assistencial, churn e novas receitas. Cada eixo ganhou um stream autônomo, com OKRs, owner e ritual quinzenal. No eixo de custo, analisando 36 meses de P&L, vi que pacientes crônicos geravam 35 % do gasto. Escolhi focar neles porque tinham me...
+- **R**: Após 24 meses, os números representaram a virada histórica da Unimed. O EBITDA cresceu 22 % (R$ 320 M → R$ 391 M), enquanto o setor como um todo cresceu apenas 9 %. APS 360 economizou R$ 21 M / ano, queda de churn gerou R$ 34 M de receita retida e os novos produtos acrescentaram R$ 16 M. NPS chegou ...
+- **L**: Aprendi que crescimento só se sustenta quando mecanismos viram rotina organizacional. Transformar crise em ciência foi o ponto de virada: inputs claros, OKRs trimestrais e revisões quinzenais se torna...
+
+
+---
+### COMBINAÇÃO 27/72
+
+**CacheKey**: `deliver_results__Q5__sicredi-fraud-reduction`
+
+**Pergunta Q5**: "Conte sobre quando você não gerenciou prioridades efetivamente e algo não foi entregue no prazo"
+
+**Case**: sicredi-fraud-reduction
+**Título**: Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses
+
+**STAR-L Resumido**:
+- **S**: "R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueado...
+- **T**: Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era ...
+- **A**: Eu ataquei sistematicamente os dois inputs críticos que moviam o resultado, criando mecanismos que funcionariam mesmo sem minha presença. Primeiro, mergulhei 72 horas diretas no SQL analisando 5.137 tentativas suspeitas, cruzando tabelas de onboarding, device e KYC. A descoberta breakthrough: 67% dos golpes vinham de documentos sintéticos criados nas últimas 48h. Em uma semana escrevi 7 regras heu...
+- **R**: Eu entreguei resultados que salvaram o negócio sem destruir a experiência do cliente. Em cinco meses, as perdas despencaram de R$ 420k para R$ 226k (-46%), superando significativamente a meta de 30%. O tempo médio de resposta a novo padrão de ataque caiu de 21 dias para 18 horas (-96%), falsos posit...
+- **L**: Aprendi que entregar resultado sustentável sob ataque exige integração total: dados (heurísticas), resposta (war room) e experiência do cliente (contestação transparente) devem funcionar como sistema ...
+
+
+---
+### COMBINAÇÃO 28/72
+
+**CacheKey**: `deliver_results__Q5__sefaz-ecage-portal`
+
+**Pergunta Q5**: "Conte sobre quando você não gerenciou prioridades efetivamente e algo não foi entregue no prazo"
+
+**Case**: sefaz-ecage-portal
+**Título**: Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secret...
+- **T**: Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal di...
+- **A**: A estratégia teve três frentes principais. **Primeira**, conduzi 25 entrevistas com gestores das oito secretarias e descobri que 78 % desconheciam o status de suas demandas, o que gerava retrabalho e ansiedade. Em duas semanas, desenhei um Product Canvas centrado na jornada do gestor e protótipos no Figma com painéis de rastreabilidade. **Segunda**, avaliei três soluções: Salesforce (12 meses, R$ ...
+- **R**: Resultado: em seis meses o Portal e-CAGE entrou no ar sem custo adicional e com 95 % de estabilidade. Em 60 dias, os 15 órgãos migraram 100 % das 1.200 demandas mensais. Tempo médio de aprovação -47 % (15 → 8 dias). SLA saltou de 66 % para 94 % -- a média histórica da SEFAZ era 71 % e o benchmark na...
+- **L**: Aprendi que liderar soluções no setor público exige moderar interesses divergentes com dados concretos e política ativa. O tripé escuta profunda, decisões pragmáticas e demonstração pública de valor g...
+
+
+---
+### COMBINAÇÃO 29/72
+
+**CacheKey**: `deliver_results__Q5__sicredi-pix-deadline-miss-recovery`
+
+**Pergunta Q5**: "Conte sobre quando você não gerenciou prioridades efetivamente e algo não foi entregue no prazo"
+
+**Case**: sicredi-pix-deadline-miss-recovery
+**Título**: Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias
+
+**STAR-L Resumido**:
+- **S**: "Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os ...
+- **T**: Diante dessa falha regulatória iminente e do risco de deixar 4,5 milhões de cooperados sem acesso ao Pix, eu reconheci que havia subestimado gravemente a complexidade do projeto. Precisava assumir own...
+- **A**: Eu executei recuperação sistemática em seis etapas coordenadas para corrigir os erros específicos que cometi. Primeiro, assumi responsabilidade publicamente em reunião com o C-level e apresentei análise honesta do que deu errado: havia priorizado features visíveis (UI do app) sobre infraestrutura crítica (capacidade, resiliência), não mapeei as 23 dependências em rede crítica e não implementei gat...
+- **R**: Eu transformei fracasso em credibilidade através de execução disciplinada. Entreguei o Pix Core em 16 de novembro conforme novo acordo com BCB -- exatamente dentro do prazo renegociado. O sistema entrou em produção suportando 520 TPS (16% acima do mínimo exigido), com 0 incidentes críticos nas prime...
+- **L**: Aprendi que ownership verdadeiro inclui assumir fracassos públicos, aprender rapidamente e entregar recuperação sólida com métricas concretas. Três lições transformaram permanentemente minha abordagem...
+
+
+---
+### COMBINAÇÃO 30/72
+
+**CacheKey**: `deliver_results__Q5__unimed-vendor-termination`
+
+**Pergunta Q5**: "Conte sobre quando você não gerenciou prioridades efetivamente e algo não foi entregue no prazo"
+
+**Case**: unimed-vendor-termination
+**Título**: Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, se você cortar a TechMed agora, vou ter que explicar ao conselho por que estamos rompendo parceria de 8 anos com fornecedor que nos ajudou a construir toda a infraestrutura digital." A advertência do diretor de TI ecoou na sala de crise enquanto eu segurava nas mãos dois fatos irreconcili...
+- **T**: Diante dessa encruzilhada brutal entre lealdade institucional e responsabilidade com o cliente final, assumi ownership total da decisão mais politicamente custosa da minha carreira na Unimed. Minha mi...
+- **A**: Executei uma estratégia de decisão e transição em sete movimentos coordenados, cada um projetado para transformar conflito de relacionamento em escolha baseada em dados e execução impecável. Primeiro, conduzi auditoria técnica forense em 48 horas. Reuni squad de 3 arquitetos seniores independentes (não envolvidos no projeto) e analisamos 2.3 milhões de linhas de código entregues pela TechMed, 847 ...
+- **R**: Os resultados validaram dolorosamente que deliver results às vezes exige coragem de priorizar o cliente final mesmo quando isso compromete relacionamentos de longo prazo. A plataforma de telemedicina foi lançada no prazo em 18 de setembro de 2023, e nos primeiros 90 dias alcançou 23.400 consultas re...
+- **L**: Retrospectivamente, esse caso redefiniu minha compreensão sobre deliver results - não se trata de entregar a qualquer custo, mas de ter coragem de fazer escolhas difíceis que priorizem o cliente final...
+
+
+---
+### COMBINAÇÃO 31/72
+
+**CacheKey**: `deliver_results__Q6__huawei-world-cup-4g`
+
+**Pergunta Q6**: "Me fale sobre quando você teve dois deadlines ao mesmo tempo - como gerenciou?"
+
+**Case**: huawei-world-cup-4g
+**Título**: Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes ...
+- **T**: Naquela madrugada percebi que ninguém mais assumiria o risco. Decidi ser o líder que transformaria o caos em execução. Assumi formalmente o programa end-to-end, reportando diretamente ao presidente da...
+- **A**: Montei uma estratégia de guerra, com execução simultânea nos seis bloqueadores. No eixo 1 - licenças: reprojetamos o dossiê técnico, implantamos checklist digital e negociamos janela semanal fixa com ANATEL -- o lead time despencou de 168 para 49 dias (-71 %). No eixo 2 - integradores: criei o Vendor Performance Index (VPI 0-100) medindo cinco dimensões de entrega. Os dois fornecedores abaixo do l...
+- **R**: Dez meses depois, entregamos tudo dez dias antes do kick-off -- algo sem precedentes no histórico da Huawei Latam. A rede alcançou 99,8 % de disponibilidade (superando a meta de 99,5 %), throughput médio de 124 Mbps (+13 % vs meta e 40 % acima da média do setor) e 8,6 milhões de transações contactle...
+- **L**: Esse case me ensinou que resultados só são duradouros quando nascem de mecanismos escaláveis. Transformei bloqueadores em sistemas: licenças viraram checklist automático, integradores viraram VPI gove...
+
+
+---
+### COMBINAÇÃO 32/72
+
+**CacheKey**: `deliver_results__Q6__unimed-ebitda-growth`
+
+**Pergunta Q6**: "Me fale sobre quando você teve dois deadlines ao mesmo tempo - como gerenciou?"
+
+**Case**: unimed-ebitda-growth
+**Título**: Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presid...
+- **T**: Diante desse ultimato e da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal e profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos ver...
+- **A**: Redefini o problema como um sistema de inputs controláveis e, com dados das 17 cooperativas, identifiquei três alavancas representando 80 % do impacto: custo assistencial, churn e novas receitas. Cada eixo ganhou um stream autônomo, com OKRs, owner e ritual quinzenal. No eixo de custo, analisando 36 meses de P&L, vi que pacientes crônicos geravam 35 % do gasto. Escolhi focar neles porque tinham me...
+- **R**: Após 24 meses, os números representaram a virada histórica da Unimed. O EBITDA cresceu 22 % (R$ 320 M → R$ 391 M), enquanto o setor como um todo cresceu apenas 9 %. APS 360 economizou R$ 21 M / ano, queda de churn gerou R$ 34 M de receita retida e os novos produtos acrescentaram R$ 16 M. NPS chegou ...
+- **L**: Aprendi que crescimento só se sustenta quando mecanismos viram rotina organizacional. Transformar crise em ciência foi o ponto de virada: inputs claros, OKRs trimestrais e revisões quinzenais se torna...
+
+
+---
+### COMBINAÇÃO 33/72
+
+**CacheKey**: `deliver_results__Q6__sicredi-fraud-reduction`
+
+**Pergunta Q6**: "Me fale sobre quando você teve dois deadlines ao mesmo tempo - como gerenciou?"
+
+**Case**: sicredi-fraud-reduction
+**Título**: Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses
+
+**STAR-L Resumido**:
+- **S**: "R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueado...
+- **T**: Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era ...
+- **A**: Eu ataquei sistematicamente os dois inputs críticos que moviam o resultado, criando mecanismos que funcionariam mesmo sem minha presença. Primeiro, mergulhei 72 horas diretas no SQL analisando 5.137 tentativas suspeitas, cruzando tabelas de onboarding, device e KYC. A descoberta breakthrough: 67% dos golpes vinham de documentos sintéticos criados nas últimas 48h. Em uma semana escrevi 7 regras heu...
+- **R**: Eu entreguei resultados que salvaram o negócio sem destruir a experiência do cliente. Em cinco meses, as perdas despencaram de R$ 420k para R$ 226k (-46%), superando significativamente a meta de 30%. O tempo médio de resposta a novo padrão de ataque caiu de 21 dias para 18 horas (-96%), falsos posit...
+- **L**: Aprendi que entregar resultado sustentável sob ataque exige integração total: dados (heurísticas), resposta (war room) e experiência do cliente (contestação transparente) devem funcionar como sistema ...
+
+
+---
+### COMBINAÇÃO 34/72
+
+**CacheKey**: `deliver_results__Q6__sefaz-ecage-portal`
+
+**Pergunta Q6**: "Me fale sobre quando você teve dois deadlines ao mesmo tempo - como gerenciou?"
+
+**Case**: sefaz-ecage-portal
+**Título**: Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secret...
+- **T**: Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal di...
+- **A**: A estratégia teve três frentes principais. **Primeira**, conduzi 25 entrevistas com gestores das oito secretarias e descobri que 78 % desconheciam o status de suas demandas, o que gerava retrabalho e ansiedade. Em duas semanas, desenhei um Product Canvas centrado na jornada do gestor e protótipos no Figma com painéis de rastreabilidade. **Segunda**, avaliei três soluções: Salesforce (12 meses, R$ ...
+- **R**: Resultado: em seis meses o Portal e-CAGE entrou no ar sem custo adicional e com 95 % de estabilidade. Em 60 dias, os 15 órgãos migraram 100 % das 1.200 demandas mensais. Tempo médio de aprovação -47 % (15 → 8 dias). SLA saltou de 66 % para 94 % -- a média histórica da SEFAZ era 71 % e o benchmark na...
+- **L**: Aprendi que liderar soluções no setor público exige moderar interesses divergentes com dados concretos e política ativa. O tripé escuta profunda, decisões pragmáticas e demonstração pública de valor g...
+
+
+---
+### COMBINAÇÃO 35/72
+
+**CacheKey**: `deliver_results__Q6__sicredi-pix-deadline-miss-recovery`
+
+**Pergunta Q6**: "Me fale sobre quando você teve dois deadlines ao mesmo tempo - como gerenciou?"
+
+**Case**: sicredi-pix-deadline-miss-recovery
+**Título**: Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias
+
+**STAR-L Resumido**:
+- **S**: "Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os ...
+- **T**: Diante dessa falha regulatória iminente e do risco de deixar 4,5 milhões de cooperados sem acesso ao Pix, eu reconheci que havia subestimado gravemente a complexidade do projeto. Precisava assumir own...
+- **A**: Eu executei recuperação sistemática em seis etapas coordenadas para corrigir os erros específicos que cometi. Primeiro, assumi responsabilidade publicamente em reunião com o C-level e apresentei análise honesta do que deu errado: havia priorizado features visíveis (UI do app) sobre infraestrutura crítica (capacidade, resiliência), não mapeei as 23 dependências em rede crítica e não implementei gat...
+- **R**: Eu transformei fracasso em credibilidade através de execução disciplinada. Entreguei o Pix Core em 16 de novembro conforme novo acordo com BCB -- exatamente dentro do prazo renegociado. O sistema entrou em produção suportando 520 TPS (16% acima do mínimo exigido), com 0 incidentes críticos nas prime...
+- **L**: Aprendi que ownership verdadeiro inclui assumir fracassos públicos, aprender rapidamente e entregar recuperação sólida com métricas concretas. Três lições transformaram permanentemente minha abordagem...
+
+
+---
+### COMBINAÇÃO 36/72
+
+**CacheKey**: `deliver_results__Q6__unimed-vendor-termination`
+
+**Pergunta Q6**: "Me fale sobre quando você teve dois deadlines ao mesmo tempo - como gerenciou?"
+
+**Case**: unimed-vendor-termination
+**Título**: Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, se você cortar a TechMed agora, vou ter que explicar ao conselho por que estamos rompendo parceria de 8 anos com fornecedor que nos ajudou a construir toda a infraestrutura digital." A advertência do diretor de TI ecoou na sala de crise enquanto eu segurava nas mãos dois fatos irreconcili...
+- **T**: Diante dessa encruzilhada brutal entre lealdade institucional e responsabilidade com o cliente final, assumi ownership total da decisão mais politicamente custosa da minha carreira na Unimed. Minha mi...
+- **A**: Executei uma estratégia de decisão e transição em sete movimentos coordenados, cada um projetado para transformar conflito de relacionamento em escolha baseada em dados e execução impecável. Primeiro, conduzi auditoria técnica forense em 48 horas. Reuni squad de 3 arquitetos seniores independentes (não envolvidos no projeto) e analisamos 2.3 milhões de linhas de código entregues pela TechMed, 847 ...
+- **R**: Os resultados validaram dolorosamente que deliver results às vezes exige coragem de priorizar o cliente final mesmo quando isso compromete relacionamentos de longo prazo. A plataforma de telemedicina foi lançada no prazo em 18 de setembro de 2023, e nos primeiros 90 dias alcançou 23.400 consultas re...
+- **L**: Retrospectivamente, esse caso redefiniu minha compreensão sobre deliver results - não se trata de entregar a qualquer custo, mas de ter coragem de fazer escolhas difíceis que priorizem o cliente final...
+
+
+---
+### COMBINAÇÃO 37/72
+
+**CacheKey**: `deliver_results__Q7__huawei-world-cup-4g`
+
+**Pergunta Q7**: "Descreva uma vez que você teve que entregar resultados diante de desafios significativos"
+
+**Case**: huawei-world-cup-4g
+**Título**: Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes ...
+- **T**: Naquela madrugada percebi que ninguém mais assumiria o risco. Decidi ser o líder que transformaria o caos em execução. Assumi formalmente o programa end-to-end, reportando diretamente ao presidente da...
+- **A**: Montei uma estratégia de guerra, com execução simultânea nos seis bloqueadores. No eixo 1 - licenças: reprojetamos o dossiê técnico, implantamos checklist digital e negociamos janela semanal fixa com ANATEL -- o lead time despencou de 168 para 49 dias (-71 %). No eixo 2 - integradores: criei o Vendor Performance Index (VPI 0-100) medindo cinco dimensões de entrega. Os dois fornecedores abaixo do l...
+- **R**: Dez meses depois, entregamos tudo dez dias antes do kick-off -- algo sem precedentes no histórico da Huawei Latam. A rede alcançou 99,8 % de disponibilidade (superando a meta de 99,5 %), throughput médio de 124 Mbps (+13 % vs meta e 40 % acima da média do setor) e 8,6 milhões de transações contactle...
+- **L**: Esse case me ensinou que resultados só são duradouros quando nascem de mecanismos escaláveis. Transformei bloqueadores em sistemas: licenças viraram checklist automático, integradores viraram VPI gove...
+
+
+---
+### COMBINAÇÃO 38/72
+
+**CacheKey**: `deliver_results__Q7__unimed-ebitda-growth`
+
+**Pergunta Q7**: "Descreva uma vez que você teve que entregar resultados diante de desafios significativos"
+
+**Case**: unimed-ebitda-growth
+**Título**: Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presid...
+- **T**: Diante desse ultimato e da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal e profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos ver...
+- **A**: Redefini o problema como um sistema de inputs controláveis e, com dados das 17 cooperativas, identifiquei três alavancas representando 80 % do impacto: custo assistencial, churn e novas receitas. Cada eixo ganhou um stream autônomo, com OKRs, owner e ritual quinzenal. No eixo de custo, analisando 36 meses de P&L, vi que pacientes crônicos geravam 35 % do gasto. Escolhi focar neles porque tinham me...
+- **R**: Após 24 meses, os números representaram a virada histórica da Unimed. O EBITDA cresceu 22 % (R$ 320 M → R$ 391 M), enquanto o setor como um todo cresceu apenas 9 %. APS 360 economizou R$ 21 M / ano, queda de churn gerou R$ 34 M de receita retida e os novos produtos acrescentaram R$ 16 M. NPS chegou ...
+- **L**: Aprendi que crescimento só se sustenta quando mecanismos viram rotina organizacional. Transformar crise em ciência foi o ponto de virada: inputs claros, OKRs trimestrais e revisões quinzenais se torna...
+
+
+---
+### COMBINAÇÃO 39/72
+
+**CacheKey**: `deliver_results__Q7__sicredi-fraud-reduction`
+
+**Pergunta Q7**: "Descreva uma vez que você teve que entregar resultados diante de desafios significativos"
+
+**Case**: sicredi-fraud-reduction
+**Título**: Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses
+
+**STAR-L Resumido**:
+- **S**: "R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueado...
+- **T**: Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era ...
+- **A**: Eu ataquei sistematicamente os dois inputs críticos que moviam o resultado, criando mecanismos que funcionariam mesmo sem minha presença. Primeiro, mergulhei 72 horas diretas no SQL analisando 5.137 tentativas suspeitas, cruzando tabelas de onboarding, device e KYC. A descoberta breakthrough: 67% dos golpes vinham de documentos sintéticos criados nas últimas 48h. Em uma semana escrevi 7 regras heu...
+- **R**: Eu entreguei resultados que salvaram o negócio sem destruir a experiência do cliente. Em cinco meses, as perdas despencaram de R$ 420k para R$ 226k (-46%), superando significativamente a meta de 30%. O tempo médio de resposta a novo padrão de ataque caiu de 21 dias para 18 horas (-96%), falsos posit...
+- **L**: Aprendi que entregar resultado sustentável sob ataque exige integração total: dados (heurísticas), resposta (war room) e experiência do cliente (contestação transparente) devem funcionar como sistema ...
+
+
+---
+### COMBINAÇÃO 40/72
+
+**CacheKey**: `deliver_results__Q7__sefaz-ecage-portal`
+
+**Pergunta Q7**: "Descreva uma vez que você teve que entregar resultados diante de desafios significativos"
+
+**Case**: sefaz-ecage-portal
+**Título**: Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secret...
+- **T**: Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal di...
+- **A**: A estratégia teve três frentes principais. **Primeira**, conduzi 25 entrevistas com gestores das oito secretarias e descobri que 78 % desconheciam o status de suas demandas, o que gerava retrabalho e ansiedade. Em duas semanas, desenhei um Product Canvas centrado na jornada do gestor e protótipos no Figma com painéis de rastreabilidade. **Segunda**, avaliei três soluções: Salesforce (12 meses, R$ ...
+- **R**: Resultado: em seis meses o Portal e-CAGE entrou no ar sem custo adicional e com 95 % de estabilidade. Em 60 dias, os 15 órgãos migraram 100 % das 1.200 demandas mensais. Tempo médio de aprovação -47 % (15 → 8 dias). SLA saltou de 66 % para 94 % -- a média histórica da SEFAZ era 71 % e o benchmark na...
+- **L**: Aprendi que liderar soluções no setor público exige moderar interesses divergentes com dados concretos e política ativa. O tripé escuta profunda, decisões pragmáticas e demonstração pública de valor g...
+
+
+---
+### COMBINAÇÃO 41/72
+
+**CacheKey**: `deliver_results__Q7__sicredi-pix-deadline-miss-recovery`
+
+**Pergunta Q7**: "Descreva uma vez que você teve que entregar resultados diante de desafios significativos"
+
+**Case**: sicredi-pix-deadline-miss-recovery
+**Título**: Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias
+
+**STAR-L Resumido**:
+- **S**: "Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os ...
+- **T**: Diante dessa falha regulatória iminente e do risco de deixar 4,5 milhões de cooperados sem acesso ao Pix, eu reconheci que havia subestimado gravemente a complexidade do projeto. Precisava assumir own...
+- **A**: Eu executei recuperação sistemática em seis etapas coordenadas para corrigir os erros específicos que cometi. Primeiro, assumi responsabilidade publicamente em reunião com o C-level e apresentei análise honesta do que deu errado: havia priorizado features visíveis (UI do app) sobre infraestrutura crítica (capacidade, resiliência), não mapeei as 23 dependências em rede crítica e não implementei gat...
+- **R**: Eu transformei fracasso em credibilidade através de execução disciplinada. Entreguei o Pix Core em 16 de novembro conforme novo acordo com BCB -- exatamente dentro do prazo renegociado. O sistema entrou em produção suportando 520 TPS (16% acima do mínimo exigido), com 0 incidentes críticos nas prime...
+- **L**: Aprendi que ownership verdadeiro inclui assumir fracassos públicos, aprender rapidamente e entregar recuperação sólida com métricas concretas. Três lições transformaram permanentemente minha abordagem...
+
+
+---
+### COMBINAÇÃO 42/72
+
+**CacheKey**: `deliver_results__Q7__unimed-vendor-termination`
+
+**Pergunta Q7**: "Descreva uma vez que você teve que entregar resultados diante de desafios significativos"
+
+**Case**: unimed-vendor-termination
+**Título**: Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, se você cortar a TechMed agora, vou ter que explicar ao conselho por que estamos rompendo parceria de 8 anos com fornecedor que nos ajudou a construir toda a infraestrutura digital." A advertência do diretor de TI ecoou na sala de crise enquanto eu segurava nas mãos dois fatos irreconcili...
+- **T**: Diante dessa encruzilhada brutal entre lealdade institucional e responsabilidade com o cliente final, assumi ownership total da decisão mais politicamente custosa da minha carreira na Unimed. Minha mi...
+- **A**: Executei uma estratégia de decisão e transição em sete movimentos coordenados, cada um projetado para transformar conflito de relacionamento em escolha baseada em dados e execução impecável. Primeiro, conduzi auditoria técnica forense em 48 horas. Reuni squad de 3 arquitetos seniores independentes (não envolvidos no projeto) e analisamos 2.3 milhões de linhas de código entregues pela TechMed, 847 ...
+- **R**: Os resultados validaram dolorosamente que deliver results às vezes exige coragem de priorizar o cliente final mesmo quando isso compromete relacionamentos de longo prazo. A plataforma de telemedicina foi lançada no prazo em 18 de setembro de 2023, e nos primeiros 90 dias alcançou 23.400 consultas re...
+- **L**: Retrospectivamente, esse caso redefiniu minha compreensão sobre deliver results - não se trata de entregar a qualquer custo, mas de ter coragem de fazer escolhas difíceis que priorizem o cliente final...
+
+
+---
+### COMBINAÇÃO 43/72
+
+**CacheKey**: `deliver_results__Q8__huawei-world-cup-4g`
+
+**Pergunta Q8**: "Como você foca nos inputs-chave do negócio e os entrega com qualidade no prazo?"
+
+**Case**: huawei-world-cup-4g
+**Título**: Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes ...
+- **T**: Naquela madrugada percebi que ninguém mais assumiria o risco. Decidi ser o líder que transformaria o caos em execução. Assumi formalmente o programa end-to-end, reportando diretamente ao presidente da...
+- **A**: Montei uma estratégia de guerra, com execução simultânea nos seis bloqueadores. No eixo 1 - licenças: reprojetamos o dossiê técnico, implantamos checklist digital e negociamos janela semanal fixa com ANATEL -- o lead time despencou de 168 para 49 dias (-71 %). No eixo 2 - integradores: criei o Vendor Performance Index (VPI 0-100) medindo cinco dimensões de entrega. Os dois fornecedores abaixo do l...
+- **R**: Dez meses depois, entregamos tudo dez dias antes do kick-off -- algo sem precedentes no histórico da Huawei Latam. A rede alcançou 99,8 % de disponibilidade (superando a meta de 99,5 %), throughput médio de 124 Mbps (+13 % vs meta e 40 % acima da média do setor) e 8,6 milhões de transações contactle...
+- **L**: Esse case me ensinou que resultados só são duradouros quando nascem de mecanismos escaláveis. Transformei bloqueadores em sistemas: licenças viraram checklist automático, integradores viraram VPI gove...
+
+
+---
+### COMBINAÇÃO 44/72
+
+**CacheKey**: `deliver_results__Q8__unimed-ebitda-growth`
+
+**Pergunta Q8**: "Como você foca nos inputs-chave do negócio e os entrega com qualidade no prazo?"
+
+**Case**: unimed-ebitda-growth
+**Título**: Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presid...
+- **T**: Diante desse ultimato e da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal e profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos ver...
+- **A**: Redefini o problema como um sistema de inputs controláveis e, com dados das 17 cooperativas, identifiquei três alavancas representando 80 % do impacto: custo assistencial, churn e novas receitas. Cada eixo ganhou um stream autônomo, com OKRs, owner e ritual quinzenal. No eixo de custo, analisando 36 meses de P&L, vi que pacientes crônicos geravam 35 % do gasto. Escolhi focar neles porque tinham me...
+- **R**: Após 24 meses, os números representaram a virada histórica da Unimed. O EBITDA cresceu 22 % (R$ 320 M → R$ 391 M), enquanto o setor como um todo cresceu apenas 9 %. APS 360 economizou R$ 21 M / ano, queda de churn gerou R$ 34 M de receita retida e os novos produtos acrescentaram R$ 16 M. NPS chegou ...
+- **L**: Aprendi que crescimento só se sustenta quando mecanismos viram rotina organizacional. Transformar crise em ciência foi o ponto de virada: inputs claros, OKRs trimestrais e revisões quinzenais se torna...
+
+
+---
+### COMBINAÇÃO 45/72
+
+**CacheKey**: `deliver_results__Q8__sicredi-fraud-reduction`
+
+**Pergunta Q8**: "Como você foca nos inputs-chave do negócio e os entrega com qualidade no prazo?"
+
+**Case**: sicredi-fraud-reduction
+**Título**: Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses
+
+**STAR-L Resumido**:
+- **S**: "R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueado...
+- **T**: Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era ...
+- **A**: Eu ataquei sistematicamente os dois inputs críticos que moviam o resultado, criando mecanismos que funcionariam mesmo sem minha presença. Primeiro, mergulhei 72 horas diretas no SQL analisando 5.137 tentativas suspeitas, cruzando tabelas de onboarding, device e KYC. A descoberta breakthrough: 67% dos golpes vinham de documentos sintéticos criados nas últimas 48h. Em uma semana escrevi 7 regras heu...
+- **R**: Eu entreguei resultados que salvaram o negócio sem destruir a experiência do cliente. Em cinco meses, as perdas despencaram de R$ 420k para R$ 226k (-46%), superando significativamente a meta de 30%. O tempo médio de resposta a novo padrão de ataque caiu de 21 dias para 18 horas (-96%), falsos posit...
+- **L**: Aprendi que entregar resultado sustentável sob ataque exige integração total: dados (heurísticas), resposta (war room) e experiência do cliente (contestação transparente) devem funcionar como sistema ...
+
+
+---
+### COMBINAÇÃO 46/72
+
+**CacheKey**: `deliver_results__Q8__sefaz-ecage-portal`
+
+**Pergunta Q8**: "Como você foca nos inputs-chave do negócio e os entrega com qualidade no prazo?"
+
+**Case**: sefaz-ecage-portal
+**Título**: Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secret...
+- **T**: Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal di...
+- **A**: A estratégia teve três frentes principais. **Primeira**, conduzi 25 entrevistas com gestores das oito secretarias e descobri que 78 % desconheciam o status de suas demandas, o que gerava retrabalho e ansiedade. Em duas semanas, desenhei um Product Canvas centrado na jornada do gestor e protótipos no Figma com painéis de rastreabilidade. **Segunda**, avaliei três soluções: Salesforce (12 meses, R$ ...
+- **R**: Resultado: em seis meses o Portal e-CAGE entrou no ar sem custo adicional e com 95 % de estabilidade. Em 60 dias, os 15 órgãos migraram 100 % das 1.200 demandas mensais. Tempo médio de aprovação -47 % (15 → 8 dias). SLA saltou de 66 % para 94 % -- a média histórica da SEFAZ era 71 % e o benchmark na...
+- **L**: Aprendi que liderar soluções no setor público exige moderar interesses divergentes com dados concretos e política ativa. O tripé escuta profunda, decisões pragmáticas e demonstração pública de valor g...
+
+
+---
+### COMBINAÇÃO 47/72
+
+**CacheKey**: `deliver_results__Q8__sicredi-pix-deadline-miss-recovery`
+
+**Pergunta Q8**: "Como você foca nos inputs-chave do negócio e os entrega com qualidade no prazo?"
+
+**Case**: sicredi-pix-deadline-miss-recovery
+**Título**: Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias
+
+**STAR-L Resumido**:
+- **S**: "Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os ...
+- **T**: Diante dessa falha regulatória iminente e do risco de deixar 4,5 milhões de cooperados sem acesso ao Pix, eu reconheci que havia subestimado gravemente a complexidade do projeto. Precisava assumir own...
+- **A**: Eu executei recuperação sistemática em seis etapas coordenadas para corrigir os erros específicos que cometi. Primeiro, assumi responsabilidade publicamente em reunião com o C-level e apresentei análise honesta do que deu errado: havia priorizado features visíveis (UI do app) sobre infraestrutura crítica (capacidade, resiliência), não mapeei as 23 dependências em rede crítica e não implementei gat...
+- **R**: Eu transformei fracasso em credibilidade através de execução disciplinada. Entreguei o Pix Core em 16 de novembro conforme novo acordo com BCB -- exatamente dentro do prazo renegociado. O sistema entrou em produção suportando 520 TPS (16% acima do mínimo exigido), com 0 incidentes críticos nas prime...
+- **L**: Aprendi que ownership verdadeiro inclui assumir fracassos públicos, aprender rapidamente e entregar recuperação sólida com métricas concretas. Três lições transformaram permanentemente minha abordagem...
+
+
+---
+### COMBINAÇÃO 48/72
+
+**CacheKey**: `deliver_results__Q8__unimed-vendor-termination`
+
+**Pergunta Q8**: "Como você foca nos inputs-chave do negócio e os entrega com qualidade no prazo?"
+
+**Case**: unimed-vendor-termination
+**Título**: Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, se você cortar a TechMed agora, vou ter que explicar ao conselho por que estamos rompendo parceria de 8 anos com fornecedor que nos ajudou a construir toda a infraestrutura digital." A advertência do diretor de TI ecoou na sala de crise enquanto eu segurava nas mãos dois fatos irreconcili...
+- **T**: Diante dessa encruzilhada brutal entre lealdade institucional e responsabilidade com o cliente final, assumi ownership total da decisão mais politicamente custosa da minha carreira na Unimed. Minha mi...
+- **A**: Executei uma estratégia de decisão e transição em sete movimentos coordenados, cada um projetado para transformar conflito de relacionamento em escolha baseada em dados e execução impecável. Primeiro, conduzi auditoria técnica forense em 48 horas. Reuni squad de 3 arquitetos seniores independentes (não envolvidos no projeto) e analisamos 2.3 milhões de linhas de código entregues pela TechMed, 847 ...
+- **R**: Os resultados validaram dolorosamente que deliver results às vezes exige coragem de priorizar o cliente final mesmo quando isso compromete relacionamentos de longo prazo. A plataforma de telemedicina foi lançada no prazo em 18 de setembro de 2023, e nos primeiros 90 dias alcançou 23.400 consultas re...
+- **L**: Retrospectivamente, esse caso redefiniu minha compreensão sobre deliver results - não se trata de entregar a qualquer custo, mas de ter coragem de fazer escolhas difíceis que priorizem o cliente final...
+
+
+---
+### COMBINAÇÃO 49/72
+
+**CacheKey**: `deliver_results__Q9__huawei-world-cup-4g`
+
+**Pergunta Q9**: "Conte sobre quando você se recusou a baixar padrões apesar de pressão por deadlines"
+
+**Case**: huawei-world-cup-4g
+**Título**: Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes ...
+- **T**: Naquela madrugada percebi que ninguém mais assumiria o risco. Decidi ser o líder que transformaria o caos em execução. Assumi formalmente o programa end-to-end, reportando diretamente ao presidente da...
+- **A**: Montei uma estratégia de guerra, com execução simultânea nos seis bloqueadores. No eixo 1 - licenças: reprojetamos o dossiê técnico, implantamos checklist digital e negociamos janela semanal fixa com ANATEL -- o lead time despencou de 168 para 49 dias (-71 %). No eixo 2 - integradores: criei o Vendor Performance Index (VPI 0-100) medindo cinco dimensões de entrega. Os dois fornecedores abaixo do l...
+- **R**: Dez meses depois, entregamos tudo dez dias antes do kick-off -- algo sem precedentes no histórico da Huawei Latam. A rede alcançou 99,8 % de disponibilidade (superando a meta de 99,5 %), throughput médio de 124 Mbps (+13 % vs meta e 40 % acima da média do setor) e 8,6 milhões de transações contactle...
+- **L**: Esse case me ensinou que resultados só são duradouros quando nascem de mecanismos escaláveis. Transformei bloqueadores em sistemas: licenças viraram checklist automático, integradores viraram VPI gove...
+
+
+---
+### COMBINAÇÃO 50/72
+
+**CacheKey**: `deliver_results__Q9__unimed-ebitda-growth`
+
+**Pergunta Q9**: "Conte sobre quando você se recusou a baixar padrões apesar de pressão por deadlines"
+
+**Case**: unimed-ebitda-growth
+**Título**: Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presid...
+- **T**: Diante desse ultimato e da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal e profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos ver...
+- **A**: Redefini o problema como um sistema de inputs controláveis e, com dados das 17 cooperativas, identifiquei três alavancas representando 80 % do impacto: custo assistencial, churn e novas receitas. Cada eixo ganhou um stream autônomo, com OKRs, owner e ritual quinzenal. No eixo de custo, analisando 36 meses de P&L, vi que pacientes crônicos geravam 35 % do gasto. Escolhi focar neles porque tinham me...
+- **R**: Após 24 meses, os números representaram a virada histórica da Unimed. O EBITDA cresceu 22 % (R$ 320 M → R$ 391 M), enquanto o setor como um todo cresceu apenas 9 %. APS 360 economizou R$ 21 M / ano, queda de churn gerou R$ 34 M de receita retida e os novos produtos acrescentaram R$ 16 M. NPS chegou ...
+- **L**: Aprendi que crescimento só se sustenta quando mecanismos viram rotina organizacional. Transformar crise em ciência foi o ponto de virada: inputs claros, OKRs trimestrais e revisões quinzenais se torna...
+
+
+---
+### COMBINAÇÃO 51/72
+
+**CacheKey**: `deliver_results__Q9__sicredi-fraud-reduction`
+
+**Pergunta Q9**: "Conte sobre quando você se recusou a baixar padrões apesar de pressão por deadlines"
+
+**Case**: sicredi-fraud-reduction
+**Título**: Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses
+
+**STAR-L Resumido**:
+- **S**: "R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueado...
+- **T**: Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era ...
+- **A**: Eu ataquei sistematicamente os dois inputs críticos que moviam o resultado, criando mecanismos que funcionariam mesmo sem minha presença. Primeiro, mergulhei 72 horas diretas no SQL analisando 5.137 tentativas suspeitas, cruzando tabelas de onboarding, device e KYC. A descoberta breakthrough: 67% dos golpes vinham de documentos sintéticos criados nas últimas 48h. Em uma semana escrevi 7 regras heu...
+- **R**: Eu entreguei resultados que salvaram o negócio sem destruir a experiência do cliente. Em cinco meses, as perdas despencaram de R$ 420k para R$ 226k (-46%), superando significativamente a meta de 30%. O tempo médio de resposta a novo padrão de ataque caiu de 21 dias para 18 horas (-96%), falsos posit...
+- **L**: Aprendi que entregar resultado sustentável sob ataque exige integração total: dados (heurísticas), resposta (war room) e experiência do cliente (contestação transparente) devem funcionar como sistema ...
+
+
+---
+### COMBINAÇÃO 52/72
+
+**CacheKey**: `deliver_results__Q9__sefaz-ecage-portal`
+
+**Pergunta Q9**: "Conte sobre quando você se recusou a baixar padrões apesar de pressão por deadlines"
+
+**Case**: sefaz-ecage-portal
+**Título**: Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secret...
+- **T**: Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal di...
+- **A**: A estratégia teve três frentes principais. **Primeira**, conduzi 25 entrevistas com gestores das oito secretarias e descobri que 78 % desconheciam o status de suas demandas, o que gerava retrabalho e ansiedade. Em duas semanas, desenhei um Product Canvas centrado na jornada do gestor e protótipos no Figma com painéis de rastreabilidade. **Segunda**, avaliei três soluções: Salesforce (12 meses, R$ ...
+- **R**: Resultado: em seis meses o Portal e-CAGE entrou no ar sem custo adicional e com 95 % de estabilidade. Em 60 dias, os 15 órgãos migraram 100 % das 1.200 demandas mensais. Tempo médio de aprovação -47 % (15 → 8 dias). SLA saltou de 66 % para 94 % -- a média histórica da SEFAZ era 71 % e o benchmark na...
+- **L**: Aprendi que liderar soluções no setor público exige moderar interesses divergentes com dados concretos e política ativa. O tripé escuta profunda, decisões pragmáticas e demonstração pública de valor g...
+
+
+---
+### COMBINAÇÃO 53/72
+
+**CacheKey**: `deliver_results__Q9__sicredi-pix-deadline-miss-recovery`
+
+**Pergunta Q9**: "Conte sobre quando você se recusou a baixar padrões apesar de pressão por deadlines"
+
+**Case**: sicredi-pix-deadline-miss-recovery
+**Título**: Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias
+
+**STAR-L Resumido**:
+- **S**: "Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os ...
+- **T**: Diante dessa falha regulatória iminente e do risco de deixar 4,5 milhões de cooperados sem acesso ao Pix, eu reconheci que havia subestimado gravemente a complexidade do projeto. Precisava assumir own...
+- **A**: Eu executei recuperação sistemática em seis etapas coordenadas para corrigir os erros específicos que cometi. Primeiro, assumi responsabilidade publicamente em reunião com o C-level e apresentei análise honesta do que deu errado: havia priorizado features visíveis (UI do app) sobre infraestrutura crítica (capacidade, resiliência), não mapeei as 23 dependências em rede crítica e não implementei gat...
+- **R**: Eu transformei fracasso em credibilidade através de execução disciplinada. Entreguei o Pix Core em 16 de novembro conforme novo acordo com BCB -- exatamente dentro do prazo renegociado. O sistema entrou em produção suportando 520 TPS (16% acima do mínimo exigido), com 0 incidentes críticos nas prime...
+- **L**: Aprendi que ownership verdadeiro inclui assumir fracassos públicos, aprender rapidamente e entregar recuperação sólida com métricas concretas. Três lições transformaram permanentemente minha abordagem...
+
+
+---
+### COMBINAÇÃO 54/72
+
+**CacheKey**: `deliver_results__Q9__unimed-vendor-termination`
+
+**Pergunta Q9**: "Conte sobre quando você se recusou a baixar padrões apesar de pressão por deadlines"
+
+**Case**: unimed-vendor-termination
+**Título**: Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, se você cortar a TechMed agora, vou ter que explicar ao conselho por que estamos rompendo parceria de 8 anos com fornecedor que nos ajudou a construir toda a infraestrutura digital." A advertência do diretor de TI ecoou na sala de crise enquanto eu segurava nas mãos dois fatos irreconcili...
+- **T**: Diante dessa encruzilhada brutal entre lealdade institucional e responsabilidade com o cliente final, assumi ownership total da decisão mais politicamente custosa da minha carreira na Unimed. Minha mi...
+- **A**: Executei uma estratégia de decisão e transição em sete movimentos coordenados, cada um projetado para transformar conflito de relacionamento em escolha baseada em dados e execução impecável. Primeiro, conduzi auditoria técnica forense em 48 horas. Reuni squad de 3 arquitetos seniores independentes (não envolvidos no projeto) e analisamos 2.3 milhões de linhas de código entregues pela TechMed, 847 ...
+- **R**: Os resultados validaram dolorosamente que deliver results às vezes exige coragem de priorizar o cliente final mesmo quando isso compromete relacionamentos de longo prazo. A plataforma de telemedicina foi lançada no prazo em 18 de setembro de 2023, e nos primeiros 90 dias alcançou 23.400 consultas re...
+- **L**: Retrospectivamente, esse caso redefiniu minha compreensão sobre deliver results - não se trata de entregar a qualquer custo, mas de ter coragem de fazer escolhas difíceis que priorizem o cliente final...
+
+
+---
+### COMBINAÇÃO 55/72
+
+**CacheKey**: `deliver_results__Q10__huawei-world-cup-4g`
+
+**Pergunta Q10**: "Conte sobre uma meta desafiadora que você alcançou"
+
+**Case**: huawei-world-cup-4g
+**Título**: Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes ...
+- **T**: Naquela madrugada percebi que ninguém mais assumiria o risco. Decidi ser o líder que transformaria o caos em execução. Assumi formalmente o programa end-to-end, reportando diretamente ao presidente da...
+- **A**: Montei uma estratégia de guerra, com execução simultânea nos seis bloqueadores. No eixo 1 - licenças: reprojetamos o dossiê técnico, implantamos checklist digital e negociamos janela semanal fixa com ANATEL -- o lead time despencou de 168 para 49 dias (-71 %). No eixo 2 - integradores: criei o Vendor Performance Index (VPI 0-100) medindo cinco dimensões de entrega. Os dois fornecedores abaixo do l...
+- **R**: Dez meses depois, entregamos tudo dez dias antes do kick-off -- algo sem precedentes no histórico da Huawei Latam. A rede alcançou 99,8 % de disponibilidade (superando a meta de 99,5 %), throughput médio de 124 Mbps (+13 % vs meta e 40 % acima da média do setor) e 8,6 milhões de transações contactle...
+- **L**: Esse case me ensinou que resultados só são duradouros quando nascem de mecanismos escaláveis. Transformei bloqueadores em sistemas: licenças viraram checklist automático, integradores viraram VPI gove...
+
+
+---
+### COMBINAÇÃO 56/72
+
+**CacheKey**: `deliver_results__Q10__unimed-ebitda-growth`
+
+**Pergunta Q10**: "Conte sobre uma meta desafiadora que você alcançou"
+
+**Case**: unimed-ebitda-growth
+**Título**: Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presid...
+- **T**: Diante desse ultimato e da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal e profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos ver...
+- **A**: Redefini o problema como um sistema de inputs controláveis e, com dados das 17 cooperativas, identifiquei três alavancas representando 80 % do impacto: custo assistencial, churn e novas receitas. Cada eixo ganhou um stream autônomo, com OKRs, owner e ritual quinzenal. No eixo de custo, analisando 36 meses de P&L, vi que pacientes crônicos geravam 35 % do gasto. Escolhi focar neles porque tinham me...
+- **R**: Após 24 meses, os números representaram a virada histórica da Unimed. O EBITDA cresceu 22 % (R$ 320 M → R$ 391 M), enquanto o setor como um todo cresceu apenas 9 %. APS 360 economizou R$ 21 M / ano, queda de churn gerou R$ 34 M de receita retida e os novos produtos acrescentaram R$ 16 M. NPS chegou ...
+- **L**: Aprendi que crescimento só se sustenta quando mecanismos viram rotina organizacional. Transformar crise em ciência foi o ponto de virada: inputs claros, OKRs trimestrais e revisões quinzenais se torna...
+
+
+---
+### COMBINAÇÃO 57/72
+
+**CacheKey**: `deliver_results__Q10__sicredi-fraud-reduction`
+
+**Pergunta Q10**: "Conte sobre uma meta desafiadora que você alcançou"
+
+**Case**: sicredi-fraud-reduction
+**Título**: Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses
+
+**STAR-L Resumido**:
+- **S**: "R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueado...
+- **T**: Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era ...
+- **A**: Eu ataquei sistematicamente os dois inputs críticos que moviam o resultado, criando mecanismos que funcionariam mesmo sem minha presença. Primeiro, mergulhei 72 horas diretas no SQL analisando 5.137 tentativas suspeitas, cruzando tabelas de onboarding, device e KYC. A descoberta breakthrough: 67% dos golpes vinham de documentos sintéticos criados nas últimas 48h. Em uma semana escrevi 7 regras heu...
+- **R**: Eu entreguei resultados que salvaram o negócio sem destruir a experiência do cliente. Em cinco meses, as perdas despencaram de R$ 420k para R$ 226k (-46%), superando significativamente a meta de 30%. O tempo médio de resposta a novo padrão de ataque caiu de 21 dias para 18 horas (-96%), falsos posit...
+- **L**: Aprendi que entregar resultado sustentável sob ataque exige integração total: dados (heurísticas), resposta (war room) e experiência do cliente (contestação transparente) devem funcionar como sistema ...
+
+
+---
+### COMBINAÇÃO 58/72
+
+**CacheKey**: `deliver_results__Q10__sefaz-ecage-portal`
+
+**Pergunta Q10**: "Conte sobre uma meta desafiadora que você alcançou"
+
+**Case**: sefaz-ecage-portal
+**Título**: Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secret...
+- **T**: Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal di...
+- **A**: A estratégia teve três frentes principais. **Primeira**, conduzi 25 entrevistas com gestores das oito secretarias e descobri que 78 % desconheciam o status de suas demandas, o que gerava retrabalho e ansiedade. Em duas semanas, desenhei um Product Canvas centrado na jornada do gestor e protótipos no Figma com painéis de rastreabilidade. **Segunda**, avaliei três soluções: Salesforce (12 meses, R$ ...
+- **R**: Resultado: em seis meses o Portal e-CAGE entrou no ar sem custo adicional e com 95 % de estabilidade. Em 60 dias, os 15 órgãos migraram 100 % das 1.200 demandas mensais. Tempo médio de aprovação -47 % (15 → 8 dias). SLA saltou de 66 % para 94 % -- a média histórica da SEFAZ era 71 % e o benchmark na...
+- **L**: Aprendi que liderar soluções no setor público exige moderar interesses divergentes com dados concretos e política ativa. O tripé escuta profunda, decisões pragmáticas e demonstração pública de valor g...
+
+
+---
+### COMBINAÇÃO 59/72
+
+**CacheKey**: `deliver_results__Q10__sicredi-pix-deadline-miss-recovery`
+
+**Pergunta Q10**: "Conte sobre uma meta desafiadora que você alcançou"
+
+**Case**: sicredi-pix-deadline-miss-recovery
+**Título**: Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias
+
+**STAR-L Resumido**:
+- **S**: "Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os ...
+- **T**: Diante dessa falha regulatória iminente e do risco de deixar 4,5 milhões de cooperados sem acesso ao Pix, eu reconheci que havia subestimado gravemente a complexidade do projeto. Precisava assumir own...
+- **A**: Eu executei recuperação sistemática em seis etapas coordenadas para corrigir os erros específicos que cometi. Primeiro, assumi responsabilidade publicamente em reunião com o C-level e apresentei análise honesta do que deu errado: havia priorizado features visíveis (UI do app) sobre infraestrutura crítica (capacidade, resiliência), não mapeei as 23 dependências em rede crítica e não implementei gat...
+- **R**: Eu transformei fracasso em credibilidade através de execução disciplinada. Entreguei o Pix Core em 16 de novembro conforme novo acordo com BCB -- exatamente dentro do prazo renegociado. O sistema entrou em produção suportando 520 TPS (16% acima do mínimo exigido), com 0 incidentes críticos nas prime...
+- **L**: Aprendi que ownership verdadeiro inclui assumir fracassos públicos, aprender rapidamente e entregar recuperação sólida com métricas concretas. Três lições transformaram permanentemente minha abordagem...
+
+
+---
+### COMBINAÇÃO 60/72
+
+**CacheKey**: `deliver_results__Q10__unimed-vendor-termination`
+
+**Pergunta Q10**: "Conte sobre uma meta desafiadora que você alcançou"
+
+**Case**: unimed-vendor-termination
+**Título**: Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, se você cortar a TechMed agora, vou ter que explicar ao conselho por que estamos rompendo parceria de 8 anos com fornecedor que nos ajudou a construir toda a infraestrutura digital." A advertência do diretor de TI ecoou na sala de crise enquanto eu segurava nas mãos dois fatos irreconcili...
+- **T**: Diante dessa encruzilhada brutal entre lealdade institucional e responsabilidade com o cliente final, assumi ownership total da decisão mais politicamente custosa da minha carreira na Unimed. Minha mi...
+- **A**: Executei uma estratégia de decisão e transição em sete movimentos coordenados, cada um projetado para transformar conflito de relacionamento em escolha baseada em dados e execução impecável. Primeiro, conduzi auditoria técnica forense em 48 horas. Reuni squad de 3 arquitetos seniores independentes (não envolvidos no projeto) e analisamos 2.3 milhões de linhas de código entregues pela TechMed, 847 ...
+- **R**: Os resultados validaram dolorosamente que deliver results às vezes exige coragem de priorizar o cliente final mesmo quando isso compromete relacionamentos de longo prazo. A plataforma de telemedicina foi lançada no prazo em 18 de setembro de 2023, e nos primeiros 90 dias alcançou 23.400 consultas re...
+- **L**: Retrospectivamente, esse caso redefiniu minha compreensão sobre deliver results - não se trata de entregar a qualquer custo, mas de ter coragem de fazer escolhas difíceis que priorizem o cliente final...
+
+
+---
+### COMBINAÇÃO 61/72
+
+**CacheKey**: `deliver_results__Q11__huawei-world-cup-4g`
+
+**Pergunta Q11**: "Como você lida com situações onde entregar o resultado pode comprometer relacionamentos?"
+
+**Case**: huawei-world-cup-4g
+**Título**: Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes ...
+- **T**: Naquela madrugada percebi que ninguém mais assumiria o risco. Decidi ser o líder que transformaria o caos em execução. Assumi formalmente o programa end-to-end, reportando diretamente ao presidente da...
+- **A**: Montei uma estratégia de guerra, com execução simultânea nos seis bloqueadores. No eixo 1 - licenças: reprojetamos o dossiê técnico, implantamos checklist digital e negociamos janela semanal fixa com ANATEL -- o lead time despencou de 168 para 49 dias (-71 %). No eixo 2 - integradores: criei o Vendor Performance Index (VPI 0-100) medindo cinco dimensões de entrega. Os dois fornecedores abaixo do l...
+- **R**: Dez meses depois, entregamos tudo dez dias antes do kick-off -- algo sem precedentes no histórico da Huawei Latam. A rede alcançou 99,8 % de disponibilidade (superando a meta de 99,5 %), throughput médio de 124 Mbps (+13 % vs meta e 40 % acima da média do setor) e 8,6 milhões de transações contactle...
+- **L**: Esse case me ensinou que resultados só são duradouros quando nascem de mecanismos escaláveis. Transformei bloqueadores em sistemas: licenças viraram checklist automático, integradores viraram VPI gove...
+
+
+---
+### COMBINAÇÃO 62/72
+
+**CacheKey**: `deliver_results__Q11__unimed-ebitda-growth`
+
+**Pergunta Q11**: "Como você lida com situações onde entregar o resultado pode comprometer relacionamentos?"
+
+**Case**: unimed-ebitda-growth
+**Título**: Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presid...
+- **T**: Diante desse ultimato e da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal e profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos ver...
+- **A**: Redefini o problema como um sistema de inputs controláveis e, com dados das 17 cooperativas, identifiquei três alavancas representando 80 % do impacto: custo assistencial, churn e novas receitas. Cada eixo ganhou um stream autônomo, com OKRs, owner e ritual quinzenal. No eixo de custo, analisando 36 meses de P&L, vi que pacientes crônicos geravam 35 % do gasto. Escolhi focar neles porque tinham me...
+- **R**: Após 24 meses, os números representaram a virada histórica da Unimed. O EBITDA cresceu 22 % (R$ 320 M → R$ 391 M), enquanto o setor como um todo cresceu apenas 9 %. APS 360 economizou R$ 21 M / ano, queda de churn gerou R$ 34 M de receita retida e os novos produtos acrescentaram R$ 16 M. NPS chegou ...
+- **L**: Aprendi que crescimento só se sustenta quando mecanismos viram rotina organizacional. Transformar crise em ciência foi o ponto de virada: inputs claros, OKRs trimestrais e revisões quinzenais se torna...
+
+
+---
+### COMBINAÇÃO 63/72
+
+**CacheKey**: `deliver_results__Q11__sicredi-fraud-reduction`
+
+**Pergunta Q11**: "Como você lida com situações onde entregar o resultado pode comprometer relacionamentos?"
+
+**Case**: sicredi-fraud-reduction
+**Título**: Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses
+
+**STAR-L Resumido**:
+- **S**: "R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueado...
+- **T**: Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era ...
+- **A**: Eu ataquei sistematicamente os dois inputs críticos que moviam o resultado, criando mecanismos que funcionariam mesmo sem minha presença. Primeiro, mergulhei 72 horas diretas no SQL analisando 5.137 tentativas suspeitas, cruzando tabelas de onboarding, device e KYC. A descoberta breakthrough: 67% dos golpes vinham de documentos sintéticos criados nas últimas 48h. Em uma semana escrevi 7 regras heu...
+- **R**: Eu entreguei resultados que salvaram o negócio sem destruir a experiência do cliente. Em cinco meses, as perdas despencaram de R$ 420k para R$ 226k (-46%), superando significativamente a meta de 30%. O tempo médio de resposta a novo padrão de ataque caiu de 21 dias para 18 horas (-96%), falsos posit...
+- **L**: Aprendi que entregar resultado sustentável sob ataque exige integração total: dados (heurísticas), resposta (war room) e experiência do cliente (contestação transparente) devem funcionar como sistema ...
+
+
+---
+### COMBINAÇÃO 64/72
+
+**CacheKey**: `deliver_results__Q11__sefaz-ecage-portal`
+
+**Pergunta Q11**: "Como você lida com situações onde entregar o resultado pode comprometer relacionamentos?"
+
+**Case**: sefaz-ecage-portal
+**Título**: Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secret...
+- **T**: Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal di...
+- **A**: A estratégia teve três frentes principais. **Primeira**, conduzi 25 entrevistas com gestores das oito secretarias e descobri que 78 % desconheciam o status de suas demandas, o que gerava retrabalho e ansiedade. Em duas semanas, desenhei um Product Canvas centrado na jornada do gestor e protótipos no Figma com painéis de rastreabilidade. **Segunda**, avaliei três soluções: Salesforce (12 meses, R$ ...
+- **R**: Resultado: em seis meses o Portal e-CAGE entrou no ar sem custo adicional e com 95 % de estabilidade. Em 60 dias, os 15 órgãos migraram 100 % das 1.200 demandas mensais. Tempo médio de aprovação -47 % (15 → 8 dias). SLA saltou de 66 % para 94 % -- a média histórica da SEFAZ era 71 % e o benchmark na...
+- **L**: Aprendi que liderar soluções no setor público exige moderar interesses divergentes com dados concretos e política ativa. O tripé escuta profunda, decisões pragmáticas e demonstração pública de valor g...
+
+
+---
+### COMBINAÇÃO 65/72
+
+**CacheKey**: `deliver_results__Q11__sicredi-pix-deadline-miss-recovery`
+
+**Pergunta Q11**: "Como você lida com situações onde entregar o resultado pode comprometer relacionamentos?"
+
+**Case**: sicredi-pix-deadline-miss-recovery
+**Título**: Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias
+
+**STAR-L Resumido**:
+- **S**: "Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os ...
+- **T**: Diante dessa falha regulatória iminente e do risco de deixar 4,5 milhões de cooperados sem acesso ao Pix, eu reconheci que havia subestimado gravemente a complexidade do projeto. Precisava assumir own...
+- **A**: Eu executei recuperação sistemática em seis etapas coordenadas para corrigir os erros específicos que cometi. Primeiro, assumi responsabilidade publicamente em reunião com o C-level e apresentei análise honesta do que deu errado: havia priorizado features visíveis (UI do app) sobre infraestrutura crítica (capacidade, resiliência), não mapeei as 23 dependências em rede crítica e não implementei gat...
+- **R**: Eu transformei fracasso em credibilidade através de execução disciplinada. Entreguei o Pix Core em 16 de novembro conforme novo acordo com BCB -- exatamente dentro do prazo renegociado. O sistema entrou em produção suportando 520 TPS (16% acima do mínimo exigido), com 0 incidentes críticos nas prime...
+- **L**: Aprendi que ownership verdadeiro inclui assumir fracassos públicos, aprender rapidamente e entregar recuperação sólida com métricas concretas. Três lições transformaram permanentemente minha abordagem...
+
+
+---
+### COMBINAÇÃO 66/72
+
+**CacheKey**: `deliver_results__Q11__unimed-vendor-termination`
+
+**Pergunta Q11**: "Como você lida com situações onde entregar o resultado pode comprometer relacionamentos?"
+
+**Case**: unimed-vendor-termination
+**Título**: Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, se você cortar a TechMed agora, vou ter que explicar ao conselho por que estamos rompendo parceria de 8 anos com fornecedor que nos ajudou a construir toda a infraestrutura digital." A advertência do diretor de TI ecoou na sala de crise enquanto eu segurava nas mãos dois fatos irreconcili...
+- **T**: Diante dessa encruzilhada brutal entre lealdade institucional e responsabilidade com o cliente final, assumi ownership total da decisão mais politicamente custosa da minha carreira na Unimed. Minha mi...
+- **A**: Executei uma estratégia de decisão e transição em sete movimentos coordenados, cada um projetado para transformar conflito de relacionamento em escolha baseada em dados e execução impecável. Primeiro, conduzi auditoria técnica forense em 48 horas. Reuni squad de 3 arquitetos seniores independentes (não envolvidos no projeto) e analisamos 2.3 milhões de linhas de código entregues pela TechMed, 847 ...
+- **R**: Os resultados validaram dolorosamente que deliver results às vezes exige coragem de priorizar o cliente final mesmo quando isso compromete relacionamentos de longo prazo. A plataforma de telemedicina foi lançada no prazo em 18 de setembro de 2023, e nos primeiros 90 dias alcançou 23.400 consultas re...
+- **L**: Retrospectivamente, esse caso redefiniu minha compreensão sobre deliver results - não se trata de entregar a qualquer custo, mas de ter coragem de fazer escolhas difíceis que priorizem o cliente final...
+
+
+---
+### COMBINAÇÃO 67/72
+
+**CacheKey**: `deliver_results__Q12__huawei-world-cup-4g`
+
+**Pergunta Q12**: "Conte sobre quando você teve que escolher entre resultado perfeito e prazo crítico"
+
+**Case**: huawei-world-cup-4g
+**Título**: Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes ...
+- **T**: Naquela madrugada percebi que ninguém mais assumiria o risco. Decidi ser o líder que transformaria o caos em execução. Assumi formalmente o programa end-to-end, reportando diretamente ao presidente da...
+- **A**: Montei uma estratégia de guerra, com execução simultânea nos seis bloqueadores. No eixo 1 - licenças: reprojetamos o dossiê técnico, implantamos checklist digital e negociamos janela semanal fixa com ANATEL -- o lead time despencou de 168 para 49 dias (-71 %). No eixo 2 - integradores: criei o Vendor Performance Index (VPI 0-100) medindo cinco dimensões de entrega. Os dois fornecedores abaixo do l...
+- **R**: Dez meses depois, entregamos tudo dez dias antes do kick-off -- algo sem precedentes no histórico da Huawei Latam. A rede alcançou 99,8 % de disponibilidade (superando a meta de 99,5 %), throughput médio de 124 Mbps (+13 % vs meta e 40 % acima da média do setor) e 8,6 milhões de transações contactle...
+- **L**: Esse case me ensinou que resultados só são duradouros quando nascem de mecanismos escaláveis. Transformei bloqueadores em sistemas: licenças viraram checklist automático, integradores viraram VPI gove...
+
+
+---
+### COMBINAÇÃO 68/72
+
+**CacheKey**: `deliver_results__Q12__unimed-ebitda-growth`
+
+**Pergunta Q12**: "Conte sobre quando você teve que escolher entre resultado perfeito e prazo crítico"
+
+**Case**: unimed-ebitda-growth
+**Título**: Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presid...
+- **T**: Diante desse ultimato e da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal e profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos ver...
+- **A**: Redefini o problema como um sistema de inputs controláveis e, com dados das 17 cooperativas, identifiquei três alavancas representando 80 % do impacto: custo assistencial, churn e novas receitas. Cada eixo ganhou um stream autônomo, com OKRs, owner e ritual quinzenal. No eixo de custo, analisando 36 meses de P&L, vi que pacientes crônicos geravam 35 % do gasto. Escolhi focar neles porque tinham me...
+- **R**: Após 24 meses, os números representaram a virada histórica da Unimed. O EBITDA cresceu 22 % (R$ 320 M → R$ 391 M), enquanto o setor como um todo cresceu apenas 9 %. APS 360 economizou R$ 21 M / ano, queda de churn gerou R$ 34 M de receita retida e os novos produtos acrescentaram R$ 16 M. NPS chegou ...
+- **L**: Aprendi que crescimento só se sustenta quando mecanismos viram rotina organizacional. Transformar crise em ciência foi o ponto de virada: inputs claros, OKRs trimestrais e revisões quinzenais se torna...
+
+
+---
+### COMBINAÇÃO 69/72
+
+**CacheKey**: `deliver_results__Q12__sicredi-fraud-reduction`
+
+**Pergunta Q12**: "Conte sobre quando você teve que escolher entre resultado perfeito e prazo crítico"
+
+**Case**: sicredi-fraud-reduction
+**Título**: Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses
+
+**STAR-L Resumido**:
+- **S**: "R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueado...
+- **T**: Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era ...
+- **A**: Eu ataquei sistematicamente os dois inputs críticos que moviam o resultado, criando mecanismos que funcionariam mesmo sem minha presença. Primeiro, mergulhei 72 horas diretas no SQL analisando 5.137 tentativas suspeitas, cruzando tabelas de onboarding, device e KYC. A descoberta breakthrough: 67% dos golpes vinham de documentos sintéticos criados nas últimas 48h. Em uma semana escrevi 7 regras heu...
+- **R**: Eu entreguei resultados que salvaram o negócio sem destruir a experiência do cliente. Em cinco meses, as perdas despencaram de R$ 420k para R$ 226k (-46%), superando significativamente a meta de 30%. O tempo médio de resposta a novo padrão de ataque caiu de 21 dias para 18 horas (-96%), falsos posit...
+- **L**: Aprendi que entregar resultado sustentável sob ataque exige integração total: dados (heurísticas), resposta (war room) e experiência do cliente (contestação transparente) devem funcionar como sistema ...
+
+
+---
+### COMBINAÇÃO 70/72
+
+**CacheKey**: `deliver_results__Q12__sefaz-ecage-portal`
+
+**Pergunta Q12**: "Conte sobre quando você teve que escolher entre resultado perfeito e prazo crítico"
+
+**Case**: sefaz-ecage-portal
+**Título**: Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção
+
+**STAR-L Resumido**:
+- **S**: Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secret...
+- **T**: Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal di...
+- **A**: A estratégia teve três frentes principais. **Primeira**, conduzi 25 entrevistas com gestores das oito secretarias e descobri que 78 % desconheciam o status de suas demandas, o que gerava retrabalho e ansiedade. Em duas semanas, desenhei um Product Canvas centrado na jornada do gestor e protótipos no Figma com painéis de rastreabilidade. **Segunda**, avaliei três soluções: Salesforce (12 meses, R$ ...
+- **R**: Resultado: em seis meses o Portal e-CAGE entrou no ar sem custo adicional e com 95 % de estabilidade. Em 60 dias, os 15 órgãos migraram 100 % das 1.200 demandas mensais. Tempo médio de aprovação -47 % (15 → 8 dias). SLA saltou de 66 % para 94 % -- a média histórica da SEFAZ era 71 % e o benchmark na...
+- **L**: Aprendi que liderar soluções no setor público exige moderar interesses divergentes com dados concretos e política ativa. O tripé escuta profunda, decisões pragmáticas e demonstração pública de valor g...
+
+
+---
+### COMBINAÇÃO 71/72
+
+**CacheKey**: `deliver_results__Q12__sicredi-pix-deadline-miss-recovery`
+
+**Pergunta Q12**: "Conte sobre quando você teve que escolher entre resultado perfeito e prazo crítico"
+
+**Case**: sicredi-pix-deadline-miss-recovery
+**Título**: Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias
+
+**STAR-L Resumido**:
+- **S**: "Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os ...
+- **T**: Diante dessa falha regulatória iminente e do risco de deixar 4,5 milhões de cooperados sem acesso ao Pix, eu reconheci que havia subestimado gravemente a complexidade do projeto. Precisava assumir own...
+- **A**: Eu executei recuperação sistemática em seis etapas coordenadas para corrigir os erros específicos que cometi. Primeiro, assumi responsabilidade publicamente em reunião com o C-level e apresentei análise honesta do que deu errado: havia priorizado features visíveis (UI do app) sobre infraestrutura crítica (capacidade, resiliência), não mapeei as 23 dependências em rede crítica e não implementei gat...
+- **R**: Eu transformei fracasso em credibilidade através de execução disciplinada. Entreguei o Pix Core em 16 de novembro conforme novo acordo com BCB -- exatamente dentro do prazo renegociado. O sistema entrou em produção suportando 520 TPS (16% acima do mínimo exigido), com 0 incidentes críticos nas prime...
+- **L**: Aprendi que ownership verdadeiro inclui assumir fracassos públicos, aprender rapidamente e entregar recuperação sólida com métricas concretas. Três lições transformaram permanentemente minha abordagem...
+
+
+---
+### COMBINAÇÃO 72/72
+
+**CacheKey**: `deliver_results__Q12__unimed-vendor-termination`
+
+**Pergunta Q12**: "Conte sobre quando você teve que escolher entre resultado perfeito e prazo crítico"
+
+**Case**: unimed-vendor-termination
+**Título**: Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, se você cortar a TechMed agora, vou ter que explicar ao conselho por que estamos rompendo parceria de 8 anos com fornecedor que nos ajudou a construir toda a infraestrutura digital." A advertência do diretor de TI ecoou na sala de crise enquanto eu segurava nas mãos dois fatos irreconcili...
+- **T**: Diante dessa encruzilhada brutal entre lealdade institucional e responsabilidade com o cliente final, assumi ownership total da decisão mais politicamente custosa da minha carreira na Unimed. Minha mi...
+- **A**: Executei uma estratégia de decisão e transição em sete movimentos coordenados, cada um projetado para transformar conflito de relacionamento em escolha baseada em dados e execução impecável. Primeiro, conduzi auditoria técnica forense em 48 horas. Reuni squad de 3 arquitetos seniores independentes (não envolvidos no projeto) e analisamos 2.3 milhões de linhas de código entregues pela TechMed, 847 ...
+- **R**: Os resultados validaram dolorosamente que deliver results às vezes exige coragem de priorizar o cliente final mesmo quando isso compromete relacionamentos de longo prazo. A plataforma de telemedicina foi lançada no prazo em 18 de setembro de 2023, e nos primeiros 90 dias alcançou 23.400 consultas re...
+- **L**: Retrospectivamente, esse caso redefiniu minha compreensão sobre deliver results - não se trata de entregar a qualquer custo, mas de ter coragem de fazer escolhas difíceis que priorizem o cliente final...
+
+
+---
+
+## ⚠️ IMPORTANTE
+
+1. Retorne APENAS um array JSON com todas as análises
+2. Use o formato exato especificado
+3. Seja RIGOROSO na avaliação - apenas casos excepcionais devem ter 30/30
+4. O scoreBase deve ser a SOMA exata de relevance + depth + evidence
+5. Não invente informações - se o case não menciona algo, penalize
+
+## 📝 EXEMPLO DE RESPOSTA
+
+```json
+[
+  {
+    "cacheKey": "ownership__Q1__hsbc-migration-leadership",
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "Conceito central (assumir migração além do escopo) alinha perfeitamente com a pergunta. STAR-L completo com métricas concretas (400 servidores, R$47M, -67% latência)."
+  }
+]
+```
+
+Agora analise as 72 combinações acima e retorne o array JSON.

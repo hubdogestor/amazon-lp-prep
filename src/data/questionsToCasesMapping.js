@@ -1522,128 +1522,368 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
-          "caseId": "hard-feedback-leadership-style",
-          "score": 81
-        }
-      ]
-    },
-    "2": {
-      "options": [
-        {
-          "caseId": "hsbc-bacen-communication",
-          "score": 83
-        }
-      ]
-    },
-    "3": {
-      "options": [
-        {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 86
+          "score": 93
         },
         {
-          "caseId": "bradesco-sla-director",
-          "score": 81
-        }
-      ]
-    },
-    "4": {
-      "options": [
+          "caseId": "hard-feedback-leadership-style",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 91
+        },
         {
           "caseId": "bradesco-sla-director",
           "score": 91
         },
         {
           "caseId": "hsbc-bacen-communication",
-          "score": 83
-        },
-        {
-          "caseId": "sicredi-post-mortem-transparency",
-          "score": 80
+          "score": 89
         }
       ]
     },
-    "5": {
-      "options": []
-    },
-    "6": {
-      "options": []
-    },
-    "7": {
-      "options": []
-    },
-    "8": {
-      "options": []
-    },
-    "9": {
+    "2": {
       "options": [
         {
-          "caseId": "sicredi-post-mortem-transparency",
-          "score": 90
-        },
-        {
-          "caseId": "hsbc-bacen-communication",
-          "score": 87
-        },
-        {
           "caseId": "bradesco-partner-recovery",
-          "score": 85
+          "score": 95
         },
         {
           "caseId": "bradesco-sla-director",
-          "score": 81
-        }
-      ]
-    },
-    "10": {
-      "options": [
-        {
-          "caseId": "hsbc-bacen-communication",
-          "score": 83
-        }
-      ]
-    },
-    "11": {
-      "options": []
-    },
-    "12": {
-      "options": []
-    },
-    "13": {
-      "options": []
-    },
-    "14": {
-      "options": [
+          "score": 95
+        },
         {
           "caseId": "sicredi-post-mortem-transparency",
+          "score": 93
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 93
+        },
+        {
+          "caseId": "hard-feedback-leadership-style",
           "score": 92
+        }
+      ]
+    },
+    "3": {
+      "options": [
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 93
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 93
+        },
+        {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 92
+        }
+      ]
+    },
+    "4": {
+      "options": [
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 91
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 91
         },
         {
           "caseId": "hsbc-bacen-communication",
           "score": 89
         },
         {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 88
+        },
+        {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 81
+        }
+      ]
+    },
+    "5": {
+      "options": [
+        {
           "caseId": "bradesco-partner-recovery",
-          "score": 87
+          "score": 95
         },
         {
           "caseId": "bradesco-sla-director",
-          "score": 85
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 93
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 93
+        },
+        {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 92
+        }
+      ]
+    },
+    "6": {
+      "options": [
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 93
+        },
+        {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 81
+        }
+      ]
+    },
+    "7": {
+      "options": [
+        {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 91
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 91
+        },
+        {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 89
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 89
+        }
+      ]
+    },
+    "8": {
+      "options": [
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 93
+        },
+        {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 81
+        }
+      ]
+    },
+    "9": {
+      "options": [
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 93
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 91
+        },
+        {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 89
+        },
+        {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 88
+        }
+      ]
+    },
+    "10": {
+      "options": [
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 93
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 93
+        },
+        {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 92
+        }
+      ]
+    },
+    "11": {
+      "options": [
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 91
+        }
+      ]
+    },
+    "12": {
+      "options": [
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 93
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 93
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 91
+        },
+        {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 88
+        }
+      ]
+    },
+    "13": {
+      "options": [
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 93
+        },
+        {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 89
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 83
+        },
+        {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 80
+        }
+      ]
+    },
+    "14": {
+      "options": [
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 93
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 93
+        },
+        {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 92
         }
       ]
     },
     "15": {
-      "options": []
+      "options": [
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 93
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 93
+        },
+        {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 92
+        }
+      ]
     },
     "16": {
       "options": [
         {
-          "caseId": "hsbc-bacen-communication",
-          "score": 87
+          "caseId": "bradesco-partner-recovery",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 95
         },
         {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 82
+          "score": 93
+        },
+        {
+          "caseId": "hsbc-bacen-communication",
+          "score": 93
+        },
+        {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 92
         }
       ]
     }
