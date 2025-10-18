@@ -6,7 +6,7 @@ const case_3 = {
   title_en: "Adjusted the Fiscal Projects Roadmap at SEFAZ Due to Tax Reform",
   company: "Secretaria da Fazenda do RS",
   period: "09/2024 - 03/2025",
-  isTopCase: true,
+  isTopCase: false,
   isGoodCase: true,
   pt: {
     s: "Em setembro de 2024, como Advisor na SEFAZ-RS, eu era responsável pela gestão do portfolio de projetos do Profisco II, um programa de modernização fiscal financiado pelo Banco Interamericano de Desenvolvimento (BID). O cenário mudou drasticamente quando as leis complementares da Reforma Tributária foram aprovadas, o que invalidou premissas centrais de 12 dos nossos projetos em andamento. Isso impactou um orçamento de R$ 45 milhoes é colocou em risco o compliance regulatorio é os prazos acordados com o BID, num ambiente onde as equipes já operavam no limite da capacidade.",
