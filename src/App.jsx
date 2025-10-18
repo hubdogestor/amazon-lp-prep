@@ -1,6 +1,5 @@
 import { useMemo, useState, useEffect, useCallback } from "react";
 import { useTranslation } from "react-i18next";
-import "./i18n"; // Import i18n configuration
 import typicalQuestions from "./data/typicalQuestions.js";
 import { usePrinciplesData } from "./hooks/usePrinciplesData.js";
 import { useSearch } from "./hooks/useSearch.js";
