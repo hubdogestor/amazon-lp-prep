@@ -8,7 +8,7 @@ const case_1 = {
   isTopCase: false,
   isGoodCase: false,
   pt: {
-    s: `Em 2013, eu era Product Manager de Network Optimization na Huawei LATAM, responsável pelo desempenho do rollout 4G em um dos contratos mais críticos da região. O cenário era grave: multas de R$ 2,7 milhões por trimestre, NPS de 51 caindo para 17 e cinco operadoras cogitando rescindir contratos.  
+    s: `Em 2013, eu era Product Manager de Network Optimization na Huawei LATAM, responsável pelo desempenho do rollout 4G em um dos contratos mais críticos da região. O cenário era grave: multas de R$2,7 milhões por trimestre, NPS de 51 caindo para 17 e cinco operadoras cogitando rescindir contratos.  
     A ativação média de cada site levava 214 dias, com 38 mil assinantes sem cobertura e 19 pontos de repasse entre equipes. A cadeia ficara ingovernável, os times trabalhavam muito e entregavam pouco. Eu sabia que precisávamos restaurar confiança antes que os clientes rompessem o contrato.`,
     
     t: `A diretoria me convocou para conduzir uma intervenção no processo de ativação 5G. Defini três metas: reduzir o tempo de implantação de 214 para 60 dias, eliminar as multas e reconquistar a credibilidade - sem novo capex. Percebi que o problema era menos capacidade e mais estrutura: o modelo de trabalho tinha características de um sistema que cresceu sem design central. Eu precisava devolver clareza ao processo.`,

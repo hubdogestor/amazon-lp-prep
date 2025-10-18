@@ -20,7 +20,7 @@ const case_6 = {
     
     r: `Em oito meses, atingimos D+0 para 82 % do volume transacionado. O NPS subiu de 29 para 71, o churn caiu 4,5 pontos percentuais e retivemos R$ 2,4 bilhões em TPV. Além de gerar R$ 19 milhões em receita incremental e economizar R$ 7,4 milhões em custos, a nova arquitetura reduziu em 48 % as ocorrências de reconciliação tardia. Comparando com bancos digitais de mesmo porte, operamos com eficiência 18 % superior. Mais importante: a solução simplificou um sistema de 27 integrações para oito módulos independentes, mantendo governança de risco intacta. O modelo foi replicado nas operações de cartões corporativos e em pagamentos cross-border, aumentando o volume D+0 em 36 % no ano seguinte.`,
     
-    l: `Aprendi que inovar em pagamentos é interpretar a dor de caixa como oportunidade de simplificar processos complexos sem perder controle. O "Settlement Graph" comprovou que é possível diminuir riscos operando com menos camadas. Desde então, uso esse framework para avaliar qualquer novo produto: entender profundamente o fluxo financeiro, remover etapas desnecessárias e criar mecanismos seguros para decisões mais rápidas.`
+    l: `Aprendi que inovar em pagamentos é interpretar a dor de caixa como oportunidade de simplificar processos complexos sem perder controle. O "Settlement Graph" comprovou que é possível diminuir riscos operando com menos camadas. Desde então, uso esse framework para avaliar qualquer novo produto: Entender profundamente o fluxo financeiro, remover etapas desnecessárias e criar mecanismos seguros para decisões mais rápidas.`
   },
 
   en: {

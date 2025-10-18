@@ -1650,45 +1650,228 @@ export const questionsToCasesMapping = {
   },
   "dive_deep": {
     "1": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-churn-analysis",
+          "score": 90
+        },
+        {
+          "caseId": "unimed-fraud-investigation",
+          "score": 86
+        },
+        {
+          "caseId": "hsbc-data-validation-audit",
+          "score": 82
+        },
+        {
+          "caseId": "sicredi-pix-settlement",
+          "score": 82
+        }
+      ]
     },
     "2": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-churn-analysis",
+          "score": 90
+        },
+        {
+          "caseId": "unimed-fraud-investigation",
+          "score": 86
+        },
+        {
+          "caseId": "hsbc-data-validation-audit",
+          "score": 82
+        },
+        {
+          "caseId": "sicredi-pix-settlement",
+          "score": 82
+        }
+      ]
     },
     "3": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-churn-analysis",
+          "score": 86
+        },
+        {
+          "caseId": "hsbc-data-validation-audit",
+          "score": 82
+        },
+        {
+          "caseId": "unimed-fraud-investigation",
+          "score": 82
+        }
+      ]
     },
     "4": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-churn-analysis",
+          "score": 90
+        },
+        {
+          "caseId": "unimed-fraud-investigation",
+          "score": 86
+        },
+        {
+          "caseId": "hsbc-data-validation-audit",
+          "score": 82
+        },
+        {
+          "caseId": "sicredi-pix-settlement",
+          "score": 82
+        }
+      ]
     },
     "5": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-churn-analysis",
+          "score": 90
+        },
+        {
+          "caseId": "unimed-fraud-investigation",
+          "score": 86
+        },
+        {
+          "caseId": "hsbc-data-validation-audit",
+          "score": 82
+        },
+        {
+          "caseId": "sicredi-pix-settlement",
+          "score": 82
+        }
+      ]
     },
     "6": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-churn-analysis",
+          "score": 90
+        },
+        {
+          "caseId": "unimed-fraud-investigation",
+          "score": 86
+        },
+        {
+          "caseId": "hsbc-data-validation-audit",
+          "score": 82
+        },
+        {
+          "caseId": "sicredi-pix-settlement",
+          "score": 82
+        }
+      ]
     },
     "7": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-churn-analysis",
+          "score": 90
+        },
+        {
+          "caseId": "unimed-fraud-investigation",
+          "score": 86
+        },
+        {
+          "caseId": "hsbc-data-validation-audit",
+          "score": 82
+        },
+        {
+          "caseId": "sicredi-pix-settlement",
+          "score": 82
+        }
+      ]
     },
     "8": {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
+          "score": 90
+        },
+        {
+          "caseId": "unimed-fraud-investigation",
+          "score": 86
+        },
+        {
+          "caseId": "hsbc-data-validation-audit",
+          "score": 82
+        },
+        {
+          "caseId": "sicredi-pix-settlement",
           "score": 82
         }
       ]
     },
     "9": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-churn-analysis",
+          "score": 90
+        },
+        {
+          "caseId": "hsbc-data-validation-audit",
+          "score": 82
+        },
+        {
+          "caseId": "unimed-fraud-investigation",
+          "score": 82
+        },
+        {
+          "caseId": "sicredi-pix-settlement",
+          "score": 82
+        }
+      ]
     },
     "10": {
-      "options": []
+      "options": [
+        {
+          "caseId": "unimed-fraud-investigation",
+          "score": 86
+        },
+        {
+          "caseId": "sicredi-churn-analysis",
+          "score": 82
+        },
+        {
+          "caseId": "hsbc-data-validation-audit",
+          "score": 82
+        }
+      ]
     },
     "11": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-churn-analysis",
+          "score": 86
+        },
+        {
+          "caseId": "unimed-fraud-investigation",
+          "score": 82
+        }
+      ]
     },
     "12": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-churn-analysis",
+          "score": 90
+        },
+        {
+          "caseId": "unimed-fraud-investigation",
+          "score": 86
+        },
+        {
+          "caseId": "hsbc-data-validation-audit",
+          "score": 82
+        },
+        {
+          "caseId": "sicredi-pix-settlement",
+          "score": 82
+        }
+      ]
     }
   },
   "disagree_and_commit": {

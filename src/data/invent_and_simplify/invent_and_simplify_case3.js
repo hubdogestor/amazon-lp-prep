@@ -28,7 +28,7 @@ const case_3 = {
   },
 
   en: {
-    s: `In 2023, I worked as Strategy and Operations Advisor at Unimed when we faced an unexpected crisis. The Head of Customer Service alerted: call center logs were overflowing with cases of families crying for help. One daughter’s sentence haunted us: “My father will die waiting for authorization.”  
+    s: `In 2023, I worked as Strategy and Operations Advisor at Unimed when we faced an unexpected crisis. The Head of Customer Service alerted: call center logs were overflowing with cases of families crying for help... One daughter’s sentence haunted us: “My father will die waiting for authorization.”  
     Data showed we took 5.1 days on average to approve a medical procedure. NPS had collapsed to 19, regional media criticized the queue, and partner hospitals considered suspending service. Oncology patients missed critical treatment windows. Each day of delay was measured in anxiety and lives lost.`,
     
     t: `The CEO assigned me to rebuild the authorization process completely. He said, “Bring families relief without endangering safety.” My goal was to cut authorization time to under 12 hours and automate at least 80 percent of decisions while keeping transparency and clinical fairness.  
