@@ -1,29 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run lint)",
-      "Bash(git tag:*)",
-      "Bash(git push:*)",
-      "Bash(dir)",
-      "Bash(mkdir:*)",
-      "Bash(xcopy:*)",
-      "Bash(npm run build:*)",
-      "Bash(npm test:*)",
-      "Bash(node:*)",
-      "Bash(npm run dev:*)",
-      "Bash(git add:*)",
-      "Bash(git init:*)",
-      "Bash(git commit:*)",
-      "Bash(git branch:*)",
-      "Read(//d/github2/**)",
-      "Bash(git reset:*)",
-      "Bash(git checkout:*)",
-      "Bash(python:*)",
-      "Bash(del fix_encoding.py)",
-      "Bash(dir:*)",
-      "Bash(findstr:*)",
-      "Bash(del \"d:\\github2\\amazon-lp-prep\\fix_unicode.py\")",
-      "Bash(del \"d:\\github2\\amazon-lp-prep\\fix_unicode_ownership.py\")"
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []
