@@ -1,5 +1,4 @@
 import fs from 'fs';
-import path from 'path';
 import { questionsToCasesMapping } from '../src/data/questionsToCasesMapping.js';
 import program from '../src/data/program_management/index.js';
 import typicalQuestions from '../src/data/typicalQuestions.js';
