@@ -1,9 +1,9 @@
 import { HighlightableText } from "../HighlightableText.jsx";
+import { useTranslation } from "react-i18next";
 
 export default function StarSection({
   caseData,
   language,
-  texts,
   isStarSearchOpen,
   starSearchTerm,
   renderStarSearchStatus,
@@ -12,6 +12,7 @@ export default function StarSection({
   highlightCaseTerm,
   usedStarTextClass,
 }) {
+  const { t } = useTranslation();
   return (
     <div className="space-y-3">
       <div className="flex flex-col gap-2">
@@ -20,9 +21,9 @@ export default function StarSection({
           className="text-left flex items-center justify-between text-base font-semibold text-slate-800 border-b border-slate-200 pb-1 hover:text-blue-600 transition-colors group"
         >
           <span className="flex items-center gap-2">
-            ⭐ STAR Case
+            ⭐ {t('starCaseTitle')}
             <span className="text-xs text-slate-500 group-hover:text-blue-500">
-              {isStarSearchOpen ? "🔎 (busca ativa)" : "(clique para buscar)"}
+              {isStarSearchOpen ? t('activeSearch') : t('clickToSearch')}
             </span>
           </span>
           <span className="text-slate-400 text-sm">{isStarSearchOpen ? "▲" : "▼"}</span>
@@ -32,7 +33,7 @@ export default function StarSection({
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 animate-fadeIn">
             <input
               type="text"
-              placeholder="Buscar em S.T.A.R.L deste case..."
+              placeholder={t('searchStarPlaceholder')}
               value={starSearchTerm}
               onChange={(event) => onUpdateCaseStarSearchTerm(event.target.value)}
               className="w-full px-3 py-2 border border-blue-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
@@ -45,7 +46,7 @@ export default function StarSection({
 
       <div className="space-y-3 leading-relaxed text-base">
         <p>
-          <strong>{texts.situation}:</strong>{" "}
+          <strong>{t('situation')}:</strong>{" "}
           <HighlightableText
             text={(caseData && caseData[language] && caseData[language].s) || ""}
             searchTerm={starSearchTerm || highlightCaseTerm}
@@ -53,7 +54,7 @@ export default function StarSection({
           />
         </p>
         <p>
-          <strong>{texts.task}:</strong>{" "}
+          <strong>{t('task')}:</strong>{" "}
           <HighlightableText
             text={(caseData && caseData[language] && caseData[language].t) || ""}
             searchTerm={starSearchTerm || highlightCaseTerm}
@@ -61,7 +62,7 @@ export default function StarSection({
           />
         </p>
         <p>
-          <strong>{texts.action}:</strong>{" "}
+          <strong>{t('action')}:</strong>{" "}
           <HighlightableText
             text={(caseData && caseData[language] && caseData[language].a) || ""}
             searchTerm={starSearchTerm || highlightCaseTerm}
@@ -69,7 +70,7 @@ export default function StarSection({
           />
         </p>
         <p>
-          <strong>{texts.result}:</strong>{" "}
+          <strong>{t('result')}:</strong>{" "}
           <HighlightableText
             text={(caseData && caseData[language] && caseData[language].r) || ""}
             searchTerm={starSearchTerm || highlightCaseTerm}
@@ -77,7 +78,7 @@ export default function StarSection({
           />
         </p>
         <p>
-          <strong>{texts.learning}:</strong>{" "}
+          <strong>{t('learning')}:</strong>{" "}
           <HighlightableText
             text={(caseData && caseData[language] && caseData[language].l) || ""}
             searchTerm={starSearchTerm || highlightCaseTerm}

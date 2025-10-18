@@ -1,10 +1,12 @@
 import { useState, useEffect, useMemo, useRef, useCallback } from "react";
 import { CheckCircle2, Circle } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import icebreakerData from "../../data/icebreaker.js";
 import { HighlightableText } from "../HighlightableText.jsx";
 import NarrativeModal from "./NarrativeModal.jsx";
 
 export default function IcebreakerModal({ language: initialLanguage, onClose, usedIcebreakers = {}, onToggleUsed = () => {} }) {
+  const { t } = useTranslation();
   const [language, setLanguage] = useState(initialLanguage);
   const data = icebreakerData[language];
   const [expandedSection, setExpandedSection] = useState(null);
@@ -175,10 +177,10 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
                 type="text"
                 value={narrativeFilter}
                 onChange={(event) => setNarrativeFilter(event.target.value)}
-                placeholder={language === "pt" ? "Filtrar narrativas..." : "Filter narratives..."}
+                placeholder={t('filterNarrativesPlaceholder')}
                 className="bg-white/15 text-white/90 placeholder:text-white/60 w-full pl-4 pr-10 py-2 rounded-lg border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/60 transition"
                 onClick={(event) => event.stopPropagation()}
-                aria-label={language === "pt" ? "Filtrar narrativas" : "Filter narratives"}
+                aria-label={t('filterNarrativesPlaceholder')}
               />
               <span className="absolute inset-y-0 right-3 flex items-center text-white/70 pointer-events-none">
                 🔍
@@ -231,7 +233,7 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
               className="shrink-0 text-white hover:bg-orange-600 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
               aria-label="Toggle language"
             >
-              🌐 {language === "pt" ? "EN" : "PT"}
+              🌐 {t('languageToggle')}
             </button>
 
             <button
@@ -248,7 +250,7 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {filteredSections.length === 0 && (
               <div className="col-span-1 md:col-span-2 border border-dashed border-orange-300 rounded-xl p-6 text-center text-orange-700 bg-orange-50/60">
-                {language === "pt" ? "Nenhuma narrativa encontrada para esse filtro." : "No narratives match this filter."}
+                {t('noNarrativesFound')}
               </div>
             )}
             {filteredSections.map((section) => {
@@ -274,7 +276,7 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
                       </div>
                       <div className="flex items-center gap-3">
                         <span className="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-xs font-semibold">
-                          {sectionData.versions?.length || 0} versões
+                          {sectionData.versions?.length || 0} {t('versions')}
                         </span>
                         <span className={`text-2xl transition-transform ${isExpanded ? "rotate-180" : ""}`}>
                           ▾
@@ -287,13 +289,13 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
                     <div id={`section-content-${section.id}`} className="p-5 bg-white border-t border-gray-200">
                       <div className="grid md:grid-cols-2 gap-4">
                         {sectionData.versions?.map((version) => {
-                          const hookLabel = language === "pt" ? "Gancho" : "Hook";
-                          const micDropLabel = language === "pt" ? "Fecho" : "Mic Drop";
+                          const hookLabel = t('hookLabel');
+                          const micDropLabel = t('micDropLabel');
                           const narrativeId = `${language}-${section.id}-${version.id}`;
                           const isNarrativeUsed = !!usedIcebreakers[narrativeId];
                           const toggleTooltip = isNarrativeUsed
-                            ? (language === "pt" ? "Remover marca de narrativa usada" : "Unmark icebreaker as used")
-                            : (language === "pt" ? "Marcar narrativa como usada" : "Mark icebreaker as used");
+                            ? t('unmarkUsedNarrative')
+                            : t('markUsedNarrative');
 
                           return (
                             <div key={version.id} className="relative">
@@ -309,7 +311,7 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
                                 className={`w-full text-left border-2 border-gray-200 rounded-lg bg-white hover:border-orange-300 focus:outline-none focus:ring-2 focus:ring-orange-400 transition-all ${
                                   isNarrativeUsed ? "opacity-80" : ""
                                 }`}
-                                title={language === "pt" ? "Abrir narrativa completa" : "Open full narrative"}
+                                title={t('openFullNarrative')}
                               >
                                 <div className="p-4 flex flex-col gap-3">
                                   <div className="flex items-start justify-between gap-3">
@@ -409,7 +411,7 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
             onClick={handleClose}
             className="px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition font-semibold"
           >
-            {language === "pt" ? "Fechar" : "Close"}
+            {t('close')}
           </button>
         </div>
         {activeNarrative && (

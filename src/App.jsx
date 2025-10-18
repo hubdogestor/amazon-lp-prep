@@ -1,4 +1,6 @@
 import { useMemo, useState, useEffect, useCallback } from "react";
+import { useTranslation } from "react-i18next";
+import "./i18n"; // Import i18n configuration
 import typicalQuestions from "./data/typicalQuestions.js";
 import { usePrinciplesData } from "./hooks/usePrinciplesData.js";
 import { useSearch } from "./hooks/useSearch.js";
@@ -41,47 +43,9 @@ const STORAGE_KEYS = {
   usedIcebreakers: "alp-used-icebreakers",
 };
 
-const TEXTS = {
-  pt: {
-    kSearch: "CASES 🗂️",
-    kFup: "FUP 🔎",
-    kTypical: "PERGUNTAS ❓",
-    viewDetails: "Ver detalhes",
-    close: "Fechar",
-    filterAll: "Todos os princípios",
-    topCases: "Top Cases",
-    icebreaker: "Icebreaker",
-    myQuestions: "Minhas Perguntas",
-    noResult: "Sem resultados",
-    situation: "Situação",
-    task: "Tarefa",
-    action: "Ação",
-    result: "Resultado",
-    learning: "Aprendizado",
-    timer: "Timer",
-  },
-  en: {
-    kSearch: "CASES 🗂️",
-    kFup: "FUP 🔎",
-    kTypical: "PERGUNTAS ❓",
-    viewDetails: "View details",
-    close: "Close",
-    filterAll: "All principles",
-    topCases: "Top Cases",
-    icebreaker: "Icebreaker",
-    myQuestions: "My Questions",
-    noResult: "No results",
-    situation: "Situation",
-    task: "Task",
-    action: "Action",
-    result: "Result",
-    learning: "Learning",
-    timer: "Timer",
-  },
-};
-
 // ---------- App ----------
 export default function App() {
+  const { t, i18n } = useTranslation();
   const [selectedPrinciple, setSelectedPrinciple] = useState("all");
   const [expandedCases, setExpandedCases] = useState({});
 
@@ -120,7 +84,11 @@ export default function App() {
   const [showTopCases, setShowTopCases] = useState(false);
   const [showIcebreaker, setShowIcebreaker] = useState(false);
   const [showMyQuestions, setShowMyQuestions] = useState(false);
-  const [language, setLanguage] = useState("pt");
+  const [language, setLanguage] = useState(i18n.language);
+
+  useEffect(() => {
+    i18n.changeLanguage(language);
+  }, [language, i18n]);
 
   const clearExpanded = useCallback(() => {
     setExpandedCases({});
@@ -302,34 +270,34 @@ export default function App() {
     let prompt = '';
 
     if (isPortuguese) {
-      prompt = `# CONTEXTO DE ENTREVISTA - LEADERSHIP PRINCIPLES AMAZON
+      prompt = `# ${t('prompt.interviewContext')} - ${t('prompt.amazonLp')}
 
-## Princípio: ${getDisplayName(principleData, lang)}
+## ${t('prompt.principle')}: ${getDisplayName(principleData, lang)}
 
-${principleData.principle ? `**Descrição do Princípio:** ${principleData.principle.description}\n` : ''}
+${principleData.principle ? `**${t('prompt.principleDescription')}:** ${principleData.principle.description}\n` : ''}
 
-## Case: ${getDisplayCaseTitle(caseData, lang)}
+## ${t('prompt.case')}: ${getDisplayCaseTitle(caseData, lang)}
 
-### STAR Framework:
+### ${t('prompt.starFramework')}:
 
-**Situação (Situation):**
+**${t('situation')}:**
 ${caseContent.s || ''}
 
-**Tarefa (Task):**
+**${t('task')}:**
 ${caseContent.t || ''}
 
-**Ação (Action):**
+**${t('action')}:**
 ${caseContent.a || ''}
 
-**Resultado (Result):**
+**${t('result')}:**
 ${caseContent.r || ''}
 
-**Aprendizado (Learning):**
+**${t('learning')}:**
 ${caseContent.l || ''}
 `;
 
       if (fups.length > 0) {
-        prompt += `\n### Follow-up Questions (FUPs):\n\n`;
+        prompt += `\n### ${t('prompt.followupQuestions')}:\n\n`;
         fups.forEach((fup, idx) => {
           const question = fup.q || '';
           const answer = fup.a || '';
@@ -344,40 +312,38 @@ ${caseContent.l || ''}
 
       prompt += `\n---
 
-**INSTRUÇÕES:**
-Estou em uma entrevista para a Amazon e acabei de compartilhar o case acima. Na próxima mensagem, vou enviar a pergunta que o entrevistador me fez. Por favor, me ajude a elaborar uma resposta natural, autêntica e que demonstre os Leadership Principles da Amazon, especialmente "${getDisplayName(principleData, lang)}".
-
-Responda como se você fosse eu, mantendo consistência com os detalhes do case compartilhado acima. Seja específico, use exemplos concretos e demonstre aprendizado.`;
+**${t('prompt.instructions')}:**
+${t('prompt.instructionsText', { principleName: getDisplayName(principleData, lang) })}`;
 
     } else {
-      prompt = `# INTERVIEW CONTEXT - AMAZON LEADERSHIP PRINCIPLES
+      prompt = `# ${t('prompt.interviewContext')} - ${t('prompt.amazonLp')}
 
-## Principle: ${getDisplayName(principleData, lang)}
+## ${t('prompt.principle')}: ${getDisplayName(principleData, lang)}
 
-${principleData.principle ? `**Principle Description:** ${principleData.principle.description_en || principleData.principle.description}\n` : ''}
+${principleData.principle ? `**${t('prompt.principleDescription')}:** ${principleData.principle.description_en || principleData.principle.description}\n` : ''}
 
-## Case: ${getDisplayCaseTitle(caseData, lang)}
+## ${t('prompt.case')}: ${getDisplayCaseTitle(caseData, lang)}
 
-### STAR Framework:
+### ${t('prompt.starFramework')}:
 
-**Situation:**
+**${t('situation')}:**
 ${caseContent.s || ''}
 
-**Task:**
+**${t('task')}:**
 ${caseContent.t || ''}
 
-**Action:**
+**${t('action')}:**
 ${caseContent.a || ''}
 
-**Result:**
+**${t('result')}:**
 ${caseContent.r || ''}
 
-**Learning:**
+**${t('learning')}:**
 ${caseContent.l || ''}
 `;
 
       if (fups.length > 0) {
-        prompt += `\n### Follow-up Questions (FUPs):\n\n`;
+        prompt += `\n### ${t('prompt.followupQuestions')}:\n\n`;
         fups.forEach((fup, idx) => {
           const question = fup.q_en || fup.q || '';
           const answer = fup.a_en || fup.a || '';
@@ -392,14 +358,12 @@ ${caseContent.l || ''}
 
       prompt += `\n---
 
-**INSTRUCTIONS:**
-I'm in an interview for Amazon and I've just shared the case above. In my next message, I'll send the question the interviewer asked me. Please help me craft a natural, authentic response that demonstrates Amazon's Leadership Principles, especially "${getDisplayName(principleData, lang)}".
-
-Respond as if you were me, maintaining consistency with the details from the case shared above. Be specific, use concrete examples, and demonstrate learning.`;
+**${t('prompt.instructions')}:**
+${t('prompt.instructionsText', { principleName: getDisplayName(principleData, lang) })}`;
     }
 
     return prompt;
-  }, [getDisplayCaseTitle]);
+  }, [getDisplayCaseTitle, t]);
 
   const copyPromptToClipboard = useCallback(async (caseData, principleData, caseIdentifier) => {
     const prompt = generatePrompt(caseData, principleData, language);
@@ -522,8 +486,8 @@ Respond as if you were me, maintaining consistency with the details from the cas
       {/* Cabeçalho Fixo */}
       <Header
         t={t}
-        language={language}
-        setLanguage={setLanguage}
+        language={i18n.language}
+        setLanguage={i18n.changeLanguage}
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
         questionSearch={questionSearch}
@@ -559,7 +523,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
       {/* Modal Icebreaker */}
       {showIcebreaker && (
         <IcebreakerModal
-          language={language}
+          language={i18n.language}
           onClose={() => setShowIcebreaker(false)}
           usedIcebreakers={usedIcebreakers}
           onToggleUsed={toggleUsedIcebreaker}
@@ -569,7 +533,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
       {/* Modal Minhas Perguntas */}
       {showMyQuestions && (
         <MyQuestionsModal
-          language={language}
+          language={i18n.language}
           onClose={() => setShowMyQuestions(false)}
           usedQuestions={usedQuestions}
           onToggleQuestion={toggleUsedQuestion}
@@ -581,7 +545,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
         <div className="grid grid-cols-12 gap-10">
           {/* Sidebar */}
           <Sidebar
-            language={language}
+            language={i18n.language}
             t={t}
             selectedPrinciple={selectedPrinciple}
             setSelectedPrinciple={setSelectedPrinciple}
@@ -600,7 +564,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
             isSearching={isSearching}
             filteredPrinciples={filteredPrinciples}
             getDisplayName={getDisplayName}
-            language={language}
+            language={i18n.language}
             typicalQuestions={typicalQuestions}
             usedQuestions={usedQuestions}
             highlightedTypicalQuestionId={highlightedTypicalQuestionId}

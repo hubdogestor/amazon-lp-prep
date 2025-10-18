@@ -1,5 +1,6 @@
 import { Search } from "lucide-react";
 import clsx from "clsx";
+import { useTranslation } from "react-i18next";
 import CaseSearchResults from "../search/CaseSearchResults.jsx";
 import FupSearchResults from "../search/FupSearchResults.jsx";
 import TypicalQuestionSearchResults from "../search/TypicalQuestionSearchResults.jsx";
@@ -7,7 +8,6 @@ import HeaderTimer from "./HeaderTimer.jsx";
 import { slugify } from "../../utils/textUtils.js";
 
 export default function Header({
-  t,
   language,
   setLanguage,
   searchTerm,
@@ -41,6 +41,7 @@ export default function Header({
   debouncedTypicalQuestionSearch,
   loopingGroups,
 }) {
+  const { t } = useTranslation();
   return (
     <header
       id="stickyHeader"
@@ -55,7 +56,7 @@ export default function Header({
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
               <input
                 type="search"
-                placeholder={t.kSearch}
+                placeholder={t('kSearch')}
                 value={searchTerm}
                 onChange={(e) => {
                   setSearchTerm(e.target.value);
@@ -70,7 +71,7 @@ export default function Header({
                   clearHighlights();
                 }}
                 className="w-full pl-10 pr-4 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
-                aria-label={t.kSearch}
+                aria-label={t('kSearch')}
                 aria-expanded={!!searchTerm && caseSearchResults.length > 0}
                 aria-controls="case-dropdown"
               />
@@ -102,7 +103,7 @@ export default function Header({
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
               <input
                 type="search"
-                placeholder={t.kFup}
+                placeholder={t('kFup')}
                 value={questionSearch}
                 onChange={(e) => setQuestionSearch(e.target.value)}
                 onFocus={() => {
@@ -111,7 +112,7 @@ export default function Header({
                   clearHighlights();
                 }}
                 className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
-                aria-label={t.kFup}
+                aria-label={t('kFup')}
                 aria-expanded={!!questionSearch}
                 aria-controls="fup-dropdown"
               />
@@ -122,18 +123,7 @@ export default function Header({
                   aria-live="polite"
                   className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
                 >
-                  {fupSearchResults.length > 0 ? (
-                    <FupSearchResults
-                      results={fupSearchResults}
-                      language={language}
-                      searchTerm={debouncedQuestionSearch}
-                      onSelect={handleFupSearchResultSelect}
-                      getDisplayName={getDisplayName}
-                      getDisplayCaseTitle={getDisplayCaseTitle}
-                    />
-                  ) : (
-                    <div className="px-3 py-2 text-slate-500 text-sm">{t.noResult}</div>
-                  )}
+                    <div className="px-3 py-2 text-slate-500 text-sm">{t('noResult')}</div>
                 </div>
               )}
             </div>
@@ -149,9 +139,9 @@ export default function Header({
                   onChange={(e) => setSelectedLooping(e.target.value || null)}
                   className="h-full px-2 py-3 text-sm border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white font-medium"
                   aria-label="Select looping group"
-                  title={language === "pt" ? "Filtrar perguntas por grupo de looping" : "Filter questions by looping group"}
+                  title={t('filterLoopingGroup')}
                 >
-                  <option value="">{language === "pt" ? "Todos" : "All"}</option>
+                  <option value="">{t('all')}</option>
                   {loopingGroups.map((group) => (
                     <option key={group.id} value={group.id}>
                       {group.label}
@@ -165,7 +155,7 @@ export default function Header({
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
                 <input
                   type="search"
-                  placeholder={t.kTypical}
+                  placeholder={t('kTypical')}
                   value={typicalQuestionSearch}
                   onChange={(e) => setTypicalQuestionSearch(e.target.value)}
                   onFocus={() => {
@@ -174,7 +164,7 @@ export default function Header({
                     clearHighlights();
                   }}
                   className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white text-center"
-                  aria-label={t.kTypical}
+                  aria-label={t('kTypical')}
                   aria-expanded={!!typicalQuestionSearch}
                   aria-controls="typical-dropdown"
                 />
@@ -196,7 +186,7 @@ export default function Header({
                         getDisplayName={getDisplayName}
                       />
                     ) : (
-                      <div className="px-3 py-2 text-slate-500 text-sm">{t.noResult}</div>
+                      <div className="px-3 py-2 text-slate-500 text-sm">{t('noResult')}</div>
                     )}
                   </div>
                 )}
@@ -223,11 +213,11 @@ export default function Header({
                 setSelectedPrinciple("all");
                 setShowTopCases((v) => !v);
               }}
-              aria-label={`${showTopCases ? 'Hide' : 'Show'} top cases`}
+              aria-label={showTopCases ? t('hideTopCases') : t('showTopCases')}
               aria-pressed={showTopCases}
-              title="Mostrar apenas Top Cases"
+              title={t('showOnlyTopCases')}
             >
-              🎯 {t.topCases}
+              🎯 {t('topCases')}
             </button>
           </div>
 
@@ -240,10 +230,10 @@ export default function Header({
                 e.stopPropagation();
                 setShowIcebreaker(true);
               }}
-              aria-label="Open Icebreaker questions"
-              title="Perguntas iniciais de rapport"
+              aria-label={t('openIcebreakerQuestions')}
+              title={t('icebreakerQuestionsTitle')}
             >
-              💬 {t.icebreaker}
+              💬 {t('icebreaker')}
             </button>
           </div>
 
@@ -256,10 +246,10 @@ export default function Header({
                 e.stopPropagation();
                 setShowMyQuestions(true);
               }}
-              aria-label="Open my questions for interviewer"
-              title="Perguntas para fazer ao entrevistador"
+              aria-label={t('openMyQuestions')}
+              title={t('myQuestionsTitle')}
             >
-              🤔 {t.myQuestions}
+              🤔 {t('myQuestions')}
             </button>
           </div>
 

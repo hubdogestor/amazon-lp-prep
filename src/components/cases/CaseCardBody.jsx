@@ -5,7 +5,6 @@ import FupSection from "./FupSection.jsx";
 export default function CaseCardBody({
   caseData,
   language,
-  texts,
   caseSearchKey,
   isStarSearchOpen,
   starSearchTerm,
@@ -28,7 +27,6 @@ export default function CaseCardBody({
       <StarSection
         caseData={caseData}
         language={language}
-        texts={texts}
         isStarSearchOpen={isStarSearchOpen}
         starSearchTerm={starSearchTerm}
         renderStarSearchStatus={renderStarSearchStatus}

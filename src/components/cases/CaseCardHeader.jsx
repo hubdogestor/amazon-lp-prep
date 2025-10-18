@@ -1,4 +1,5 @@
 import { Copy, Check, Circle, CheckCircle2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { HighlightableText } from "../HighlightableText.jsx";
 
 export default function CaseCardHeader({
@@ -13,13 +14,13 @@ export default function CaseCardHeader({
   copiedCaseId,
   caseSearchKey,
   toggleCaseTooltip,
-  texts,
   getDisplayCaseTitle,
   onToggleCase,
   onToggleUsedCase,
   onCopyPrompt,
   hasSearchTerm,
 }) {
+  const { t } = useTranslation();
   return (
     <header
       className={`flex items-center justify-between px-5 py-4 cursor-pointer ${
@@ -43,12 +44,12 @@ export default function CaseCardHeader({
       <div className="flex items-center gap-3">
         {isTop && (
           <span className="px-3 py-1 bg-[#FF9900] text-white text-[10px] font-bold rounded-full shadow-md animate-pulse">
-            TOP CASE
+            {t('topCaseLabel')}
           </span>
         )}
         {!isTop && caseData.isGoodCase && (
           <span className="px-2.5 py-0.5 bg-blue-500 text-white text-[10px] font-semibold rounded-full shadow-sm">
-            💡 GOOD CASE
+            {t('goodCaseLabel')}
           </span>
         )}
         {caseQuestions.length > 0 && (
@@ -56,7 +57,7 @@ export default function CaseCardHeader({
             className="px-2.5 py-0.5 bg-purple-500 text-white text-[10px] font-semibold rounded-full shadow-sm cursor-help"
             title={questionsTooltip}
           >
-            📝 {caseQuestions.length} {language === "pt" ? "Q" : "Q"}
+            📝 {caseQuestions.length} {t('questionAbbreviation')}
           </span>
         )}
         <h3 className={`text-lg font-bold ${isTop ? "text-[#232F3E]" : "text-slate-900"} ${isCaseUsed ? "text-slate-500" : ""}`}>
@@ -96,24 +97,24 @@ export default function CaseCardHeader({
                 ? "bg-green-50 border-green-300 text-green-700"
                 : "bg-white border-slate-300 text-slate-700 hover:bg-slate-50"
             }`}
-            title={language === "pt" ? "Copiar prompt para IA" : "Copy prompt for AI"}
-            aria-label={language === "pt" ? "Gerar e copiar prompt" : "Generate and copy prompt"}
+            title={t('copyPromptTitle')}
+            aria-label={t('generateCopyPromptLabel')}
           >
             {copiedCaseId === caseSearchKey ? (
               <>
                 <Check className="w-4 h-4" />
-                <span>{language === "pt" ? "Copiado!" : "Copied!"}</span>
+                <span>{t('copiedConfirmation')}</span>
               </>
             ) : (
               <>
                 <Copy className="w-4 h-4" />
-                <span>{language === "pt" ? "Gerar Prompt" : "Generate Prompt"}</span>
+                <span>{t('generatePromptButton')}</span>
               </>
             )}
           </button>
         )}
         <span className="text-sm text-amber-600 select-none">
-          {open ? texts.close : texts.viewDetails} {open ? "▲" : "▼"}
+          {open ? t('close') : t('viewDetails')} {open ? "▲" : "▼"}
         </span>
       </div>
     </header>

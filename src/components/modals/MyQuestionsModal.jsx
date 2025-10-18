@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { CheckCircle2, Circle } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import myQuestionsData from "../../data/myQuestions.js";
 import { slugify } from "../../utils/textUtils.js";
 
 export default function MyQuestionsModal({ language: initialLanguage, onClose, usedQuestions = {}, onToggleQuestion = () => {} }) {
+  const { t } = useTranslation();
   const [language, setLanguage] = useState(initialLanguage);
   const data = myQuestionsData[language];
   const [expandedCategories, setExpandedCategories] = useState({});
@@ -41,7 +43,7 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
               className="text-white hover:bg-white/20 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
               aria-label="Toggle language"
             >
-              🌐 {language === "pt" ? "EN" : "PT"}
+              🌐 {t('languageToggle')}
             </button>
             <button
               onClick={onClose}
@@ -77,8 +79,8 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
                     </h3>
                     <span className="text-sm text-purple-600 select-none">
                       {isExpanded
-                        ? (language === "pt" ? "Fechar ▲" : "Close ▲")
-                        : (language === "pt" ? "Ver perguntas ▼" : "View questions ▼")}
+                        ? t('closeCategory')
+                        : t('viewQuestions')}
                     </span>
                   </button>
 
@@ -89,8 +91,8 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
                           const questionStorageId = `my-${slugify(category.category)}-${qIdx}`;
                           const isQuestionUsed = !!usedQuestions[questionStorageId];
                           const toggleTooltip = isQuestionUsed
-                            ? (language === "pt" ? "Remover marca de pergunta usada" : "Unmark question as used")
-                            : (language === "pt" ? "Marcar pergunta como usada" : "Mark question as used");
+                            ? t('unmarkUsedQuestion')
+                            : t('markUsedQuestion');
 
                           return (
                             <div
@@ -136,7 +138,7 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
             onClick={onClose}
             className="px-6 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition font-medium"
           >
-            {language === "pt" ? "Fechar" : "Close"}
+            {t('close')}
           </button>
         </div>
       </div>

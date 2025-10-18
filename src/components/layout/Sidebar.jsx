@@ -1,8 +1,8 @@
 import clsx from "clsx";
+import { useTranslation } from "react-i18next";
 
 export default function Sidebar({
   language,
-  t,
   selectedPrinciple,
   setSelectedPrinciple,
   setShowTopCases,
@@ -14,12 +14,13 @@ export default function Sidebar({
   principlesData,
   getDisplayName,
 }) {
+  const { t } = useTranslation();
   return (
     <aside id="sidebar" className="col-span-12 xl:col-span-2" role="navigation" aria-label="Principles filter">
       {/* Header "Leadership Principles" */}
       <div className="mb-3 pb-2 border-b-2 border-[#FF9900]">
         <h2 className="text-sm font-bold text-[#232F3E] uppercase tracking-wider">
-          {language === "pt" ? "Leadership Principles" : "Leadership Principles"}
+          {t('leadershipPrinciplesTitle')}
         </h2>
       </div>
 
@@ -45,7 +46,7 @@ export default function Sidebar({
         aria-pressed={selectedPrinciple === "all"}
       >
         <span className="text-lg">🏠</span>
-        {t.filterAll}
+        {t('filterAll')}
       </button>
 
       {/* Botões dos 16 LPs - estilo Amazon com fundo */}
