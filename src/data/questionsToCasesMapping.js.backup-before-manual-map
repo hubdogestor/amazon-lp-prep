@@ -1,7 +1,7 @@
 // src/data/questionsToCasesMapping.js
 // Normalized question-to-case mapping. Primary option is listed first, followed by fallbacks.
 // Source data converted from legacy format via scripts/convertQuestionsMapping.mjs on 2025-10-12.
-// New LPs auto-mapped via scripts/auto-map-new-lps.mjs on 2025-10-17.
+// New LPs manually mapped via scripts/manual-map-new-lps.mjs on 2025-10-18.
 
 export const questionsToCasesMapping = {
   "customer_obsession": {
@@ -12,12 +12,12 @@ export const questionsToCasesMapping = {
           "score": 98
         },
         {
-          "caseId": "sicredi-small-business-survival",
-          "score": 90
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 98
         },
         {
-          "caseId": "sicredi-woop-segment-balance",
-          "score": 88
+          "caseId": "sicredi-small-business-survival",
+          "score": 95
         }
       ]
     },
@@ -25,6 +25,10 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-cancer-patient-journey",
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-small-business-survival",
           "score": 90
         }
       ]
@@ -33,15 +37,23 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-woop-segment-balance",
-          "score": 90
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-small-business-survival",
+          "score": 88
         }
       ]
     },
     "4": {
       "options": [
         {
-          "caseId": "sicredi-small-business-survival",
-          "score": 85
+          "caseId": "unimed-pet-anticipation",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-elderly-digital-inclusion",
+          "score": 90
         }
       ]
     },
@@ -49,7 +61,11 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "bradesco-elderly-digital-inclusion",
-          "score": 88
+          "score": 95
+        },
+        {
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 92
         }
       ]
     },
@@ -57,23 +73,31 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-pet-anticipation",
-          "score": 92
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-small-business-survival",
+          "score": 88
         }
       ]
     },
     "7": {
       "options": [
         {
-          "caseId": "unimed-cancer-patient-journey",
-          "score": 85
+          "caseId": "sicredi-woop-segment-balance",
+          "score": 98
         }
       ]
     },
     "8": {
       "options": [
         {
+          "caseId": "sicredi-woop-segment-balance",
+          "score": 88
+        },
+        {
           "caseId": "sicredi-small-business-survival",
-          "score": 90
+          "score": 82
         }
       ]
     },
@@ -81,31 +105,39 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-woop-segment-balance",
-          "score": 90
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-small-business-survival",
+          "score": 85
         }
       ]
     },
     "10": {
       "options": [
         {
-          "caseId": "bradesco-elderly-digital-inclusion",
-          "score": 85
-        }
-      ]
-    },
-    "11": {
-      "options": [
+          "caseId": "sicredi-small-business-survival",
+          "score": 92
+        },
         {
           "caseId": "unimed-cancer-patient-journey",
           "score": 90
         }
       ]
     },
+    "11": {
+      "options": [
+        {
+          "caseId": "sicredi-fraud-prevention-experience",
+          "score": 98
+        }
+      ]
+    },
     "12": {
       "options": [
         {
-          "caseId": "sicredi-small-business-survival",
-          "score": 85
+          "caseId": "sicredi-chargeback-proactive-resolution",
+          "score": 98
         }
       ]
     },
@@ -121,7 +153,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-pet-anticipation",
-          "score": 95
+          "score": 98
+        },
+        {
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-small-business-survival",
+          "score": 88
         }
       ]
     }
@@ -180,22 +220,38 @@ export const questionsToCasesMapping = {
         {
           "caseId": "bradesco-international-payments",
           "score": 92
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 90
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 88
+        },
+        {
+          "caseId": "long-term-tradeoff",
+          "score": 85
+        },
+        {
+          "caseId": "bradesco-next-delay",
+          "score": 82
         }
       ]
     },
     "3": {
       "options": [
         {
+          "caseId": "long-term-tradeoff",
+          "score": 98
+        },
+        {
           "caseId": "hsbc-migration-leadership",
           "score": 95
         },
         {
-          "caseId": "long-term-tradeoff",
-          "score": 95
-        },
-        {
           "caseId": "payment-incidents-prevention-mechanism",
-          "score": 88
+          "score": 90
         },
         {
           "caseId": "bradesco-next-delay",
@@ -207,6 +263,14 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 98
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 88
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
           "score": 85
         }
       ]
@@ -224,6 +288,10 @@ export const questionsToCasesMapping = {
         {
           "caseId": "bradesco-international-payments",
           "score": 90
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 85
         }
       ]
     },
@@ -232,6 +300,10 @@ export const questionsToCasesMapping = {
         {
           "caseId": "sefaz-emergency-rollback-no-approval",
           "score": 98
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 80
         }
       ]
     },
@@ -324,6 +396,14 @@ export const questionsToCasesMapping = {
         {
           "caseId": "hsbc-migration-leadership",
           "score": 92
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 82
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 80
         }
       ]
     },
@@ -332,6 +412,14 @@ export const questionsToCasesMapping = {
         {
           "caseId": "bradesco-international-payments",
           "score": 95
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 85
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 80
         }
       ]
     },
@@ -340,6 +428,14 @@ export const questionsToCasesMapping = {
         {
           "caseId": "hsbc-migration-leadership",
           "score": 95
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 88
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 85
         }
       ]
     }
@@ -1456,7 +1552,7 @@ export const questionsToCasesMapping = {
           "score": 98
         },
         {
-          "caseId": "disagreement-with-manager-sla",
+          "caseId": "bradesco-sla-director",
           "score": 90
         }
       ]
@@ -1496,7 +1592,7 @@ export const questionsToCasesMapping = {
     "5": {
       "options": [
         {
-          "caseId": "disagreement-with-manager-sla",
+          "caseId": "bradesco-sla-director",
           "score": 82
         }
       ]
@@ -1540,7 +1636,7 @@ export const questionsToCasesMapping = {
     "10": {
       "options": [
         {
-          "caseId": "disagreement-with-manager-sla",
+          "caseId": "bradesco-sla-director",
           "score": 88
         },
         {
@@ -1834,8 +1930,12 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
-          "caseId": "unimed-ebitda-growth",
-          "score": 92
+          "caseId": "huawei-world-cup-4g",
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-pix-deadline-miss-recovery",
+          "score": 95
         },
         {
           "caseId": "sefaz-ecage-portal",
@@ -1846,19 +1946,19 @@ export const questionsToCasesMapping = {
     "2": {
       "options": [
         {
-          "caseId": "huawei-world-cup-4g",
-          "score": 95
-        },
-        {
-          "caseId": "sicredi-fraud-reduction",
-          "score": 90
+          "caseId": "sicredi-pix-deadline-miss-recovery",
+          "score": 98
         }
       ]
     },
     "3": {
       "options": [
         {
-          "caseId": "huawei-world-cup-4g",
+          "caseId": "sicredi-fraud-reduction",
+          "score": 95
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
           "score": 90
         }
       ]
@@ -1866,21 +1966,33 @@ export const questionsToCasesMapping = {
     "4": {
       "options": [
         {
-          "caseId": "sicredi-fraud-reduction",
-          "score": 85
+          "caseId": "huawei-world-cup-4g",
+          "score": 95
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 92
         }
       ]
     },
     "5": {
       "options": [
         {
-          "caseId": "sicredi-pix-deadline-miss-recovery",
+          "caseId": "sefaz-ecage-portal",
           "score": 95
+        },
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 90
         }
       ]
     },
     "6": {
       "options": [
+        {
+          "caseId": "sicredi-pix-deadline-miss-recovery",
+          "score": 98
+        },
         {
           "caseId": "huawei-world-cup-4g",
           "score": 85
@@ -1890,37 +2002,9 @@ export const questionsToCasesMapping = {
     "7": {
       "options": [
         {
-          "caseId": "unimed-ebitda-growth",
-          "score": 88
+          "caseId": "unimed-vendor-termination",
+          "score": 98
         },
-        {
-          "caseId": "sefaz-ecage-portal",
-          "score": 85
-        }
-      ]
-    },
-    "8": {
-      "options": [
-        {
-          "caseId": "unimed-ebitda-growth",
-          "score": 90
-        },
-        {
-          "caseId": "sicredi-pix-deadline-miss-recovery",
-          "score": 85
-        }
-      ]
-    },
-    "9": {
-      "options": [
-        {
-          "caseId": "unimed-ebitda-growth",
-          "score": 80
-        }
-      ]
-    },
-    "10": {
-      "options": [
         {
           "caseId": "sicredi-pix-deadline-miss-recovery",
           "score": 92
@@ -1928,18 +2012,58 @@ export const questionsToCasesMapping = {
         {
           "caseId": "sefaz-ecage-portal",
           "score": 88
+        }
+      ]
+    },
+    "8": {
+      "options": [
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 95
+        },
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 90
+        }
+      ]
+    },
+    "9": {
+      "options": [
+        {
+          "caseId": "sicredi-pix-deadline-miss-recovery",
+          "score": 98
+        },
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 85
+        }
+      ]
+    },
+    "10": {
+      "options": [
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-pix-deadline-miss-recovery",
+          "score": 95
         },
         {
           "caseId": "sicredi-fraud-reduction",
-          "score": 85
+          "score": 92
         }
       ]
     },
     "11": {
       "options": [
         {
-          "caseId": "unimed-vendor-termination",
+          "caseId": "sicredi-fraud-reduction",
           "score": 98
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 95
         }
       ]
     },
@@ -1947,6 +2071,50 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sefaz-ecage-portal",
+          "score": 95
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 88
+        }
+      ]
+    },
+    "13": {
+      "options": [
+        {
+          "caseId": "sicredi-pix-deadline-miss-recovery",
+          "score": 98
+        },
+        {
+          "caseId": "unimed-vendor-termination",
+          "score": 85
+        }
+      ]
+    },
+    "14": {
+      "options": [
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 88
+        }
+      ]
+    },
+    "15": {
+      "options": [
+        {
+          "caseId": "unimed-vendor-termination",
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-pix-deadline-miss-recovery",
           "score": 95
         }
       ]
@@ -2116,10 +2284,798 @@ export const questionsToCasesMapping = {
       ]
     }
   },
-  "program_management": {},
-  "stakeholder_management": {},
-  "prioritizing_and_influence": {},
-  "deal_with_ambiguity": {}
+  "program_management": {
+    "1": {
+      "options": [
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 98
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 95
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 92
+        }
+      ]
+    },
+    "2": {
+      "options": [
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 98
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 95
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 90
+        }
+      ]
+    },
+    "3": {
+      "options": [
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 88
+        }
+      ]
+    },
+    "4": {
+      "options": [
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 98
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 90
+        }
+      ]
+    },
+    "5": {
+      "options": [
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 95
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 92
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 88
+        }
+      ]
+    },
+    "6": {
+      "options": [
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 98
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 85
+        }
+      ]
+    },
+    "7": {
+      "options": [
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 95
+        },
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 85
+        }
+      ]
+    },
+    "8": {
+      "options": [
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 98
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 95
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 90
+        }
+      ]
+    },
+    "9": {
+      "options": [
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 98
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 95
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 88
+        }
+      ]
+    },
+    "10": {
+      "options": [
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 98
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 90
+        }
+      ]
+    },
+    "11": {
+      "options": [
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 95
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 92
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 88
+        }
+      ]
+    },
+    "12": {
+      "options": [
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 98
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 92
+        }
+      ]
+    },
+    "13": {
+      "options": [
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 98
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 90
+        }
+      ]
+    }
+  },
+  "stakeholder_management": {
+    "1": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 98
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 95
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 92
+        }
+      ]
+    },
+    "2": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 98
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 95
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 90
+        }
+      ]
+    },
+    "3": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 98
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 95
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 88
+        }
+      ]
+    },
+    "4": {
+      "options": [
+        {
+          "caseId": "huawei-4g-copa-2014-stakeholder",
+          "score": 98
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 90
+        }
+      ]
+    },
+    "5": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 98
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 95
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 88
+        }
+      ]
+    },
+    "6": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 98
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 95
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 90
+        }
+      ]
+    },
+    "7": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 95
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 92
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 88
+        }
+      ]
+    },
+    "8": {
+      "options": [
+        {
+          "caseId": "huawei-4g-copa-2014-stakeholder",
+          "score": 98
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 92
+        }
+      ]
+    },
+    "9": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 98
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 95
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 90
+        }
+      ]
+    },
+    "10": {
+      "options": [
+        {
+          "caseId": "huawei-4g-copa-2014-stakeholder",
+          "score": 95
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 88
+        }
+      ]
+    },
+    "11": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 98
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 95
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 90
+        }
+      ]
+    },
+    "12": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 98
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 95
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 88
+        }
+      ]
+    }
+  },
+  "prioritizing_and_influence": {
+    "1": {
+      "options": [
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 92
+        }
+      ]
+    },
+    "2": {
+      "options": [
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 90
+        }
+      ]
+    },
+    "3": {
+      "options": [
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 88
+        }
+      ]
+    },
+    "4": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 98
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 85
+        }
+      ]
+    },
+    "5": {
+      "options": [
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 90
+        }
+      ]
+    },
+    "6": {
+      "options": [
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 90
+        }
+      ]
+    },
+    "7": {
+      "options": [
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 98
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 92
+        }
+      ]
+    },
+    "8": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 90
+        }
+      ]
+    },
+    "9": {
+      "options": [
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 88
+        }
+      ]
+    },
+    "10": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 88
+        }
+      ]
+    },
+    "11": {
+      "options": [
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 98
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 95
+        },
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 90
+        }
+      ]
+    },
+    "12": {
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 98
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 90
+        }
+      ]
+    }
+  },
+  "deal_with_ambiguity": {
+    "1": {
+      "options": [
+        {
+          "caseId": "unimed-innovation-ambiguity",
+          "score": 98
+        },
+        {
+          "caseId": "sefaz-digital-transformation-ambiguity",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 90
+        }
+      ]
+    },
+    "2": {
+      "options": [
+        {
+          "caseId": "unimed-innovation-ambiguity",
+          "score": 98
+        },
+        {
+          "caseId": "sefaz-digital-transformation-ambiguity",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 92
+        }
+      ]
+    },
+    "3": {
+      "options": [
+        {
+          "caseId": "sefaz-digital-transformation-ambiguity",
+          "score": 98
+        },
+        {
+          "caseId": "unimed-innovation-ambiguity",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 90
+        }
+      ]
+    },
+    "4": {
+      "options": [
+        {
+          "caseId": "unimed-pet-health-ambiguity",
+          "score": 98
+        },
+        {
+          "caseId": "unimed-innovation-ambiguity",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 92
+        }
+      ]
+    },
+    "5": {
+      "options": [
+        {
+          "caseId": "sefaz-digital-transformation-ambiguity",
+          "score": 98
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
+          "caseId": "unimed-innovation-ambiguity",
+          "score": 90
+        }
+      ]
+    },
+    "6": {
+      "options": [
+        {
+          "caseId": "unimed-innovation-ambiguity",
+          "score": 98
+        },
+        {
+          "caseId": "sefaz-digital-transformation-ambiguity",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 90
+        }
+      ]
+    },
+    "7": {
+      "options": [
+        {
+          "caseId": "sefaz-digital-transformation-ambiguity",
+          "score": 98
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
+          "caseId": "unimed-innovation-ambiguity",
+          "score": 90
+        }
+      ]
+    },
+    "8": {
+      "options": [
+        {
+          "caseId": "unimed-innovation-ambiguity",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-digital-transformation-ambiguity",
+          "score": 88
+        }
+      ]
+    },
+    "9": {
+      "options": [
+        {
+          "caseId": "unimed-pet-health-ambiguity",
+          "score": 98
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 95
+        },
+        {
+          "caseId": "unimed-innovation-ambiguity",
+          "score": 90
+        }
+      ]
+    },
+    "10": {
+      "options": [
+        {
+          "caseId": "sefaz-digital-transformation-ambiguity",
+          "score": 95
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 88
+        }
+      ]
+    },
+    "11": {
+      "options": [
+        {
+          "caseId": "unimed-pet-health-ambiguity",
+          "score": 98
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 95
+        },
+        {
+          "caseId": "unimed-innovation-ambiguity",
+          "score": 90
+        }
+      ]
+    },
+    "12": {
+      "options": [
+        {
+          "caseId": "unimed-innovation-ambiguity",
+          "score": 98
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 95
+        },
+        {
+          "caseId": "sefaz-digital-transformation-ambiguity",
+          "score": 92
+        }
+      ]
+    }
+  }
 };
 
 export default questionsToCasesMapping;
