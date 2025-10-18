@@ -50,35 +50,4 @@ export const getCaseFups = (c) => {
   return c.fups || c.fup || [];
 };
 
-/**
- * Get display name for principle based on language
- * @param {Object} p - Principle object
- * @param {string} lang - Language
- * @param {Object} PT_LABELS - Portuguese labels map
- * @param {Object} EN_LABELS_FROM_PT - English labels map
- * @returns {string} Display name
- */
-export const getDisplayName = (p, lang, PT_LABELS, EN_LABELS_FROM_PT) => {
-  const k = norm(p?.name);
-  if (lang === "pt") return PT_LABELS[k] || p.name;
-  return EN_LABELS_FROM_PT[k] || p.name;
-};
 
-/**
- * Sort principles according to language-specific order
- * @param {Array} arr - Array of principles
- * @param {string} lang - Language
- * @param {Array} ORDER_PT - Portuguese order
- * @param {Array} ORDER_EN - English order
- * @returns {Array} Sorted principles
- */
-export const sortPrinciples = (arr, lang, ORDER_PT, ORDER_EN) => {
-  const order = lang === "pt" ? ORDER_PT : ORDER_EN;
-  return [...arr].sort((a, b) => {
-    const ia = order.indexOf(norm(a.name));
-    const ib = order.indexOf(norm(b.name));
-    const va = ia === -1 ? 999 : ia;
-    const vb = ib === -1 ? 999 : ib;
-    return va - vb || (a.name || "").localeCompare(b.name || "");
-  });
-};

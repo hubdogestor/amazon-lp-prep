@@ -1,4 +1,4 @@
-import { getDisplayName as getDisplayNameUtil, sortPrinciples as sortPrinciplesUtil } from "./caseUtils.js";
+import { norm } from "./textUtils.js";
 
 export const PT_KEYS = [
   "inventar e simplificar",
@@ -62,8 +62,19 @@ export const EN_LABELS_FROM_PT = {
 export const ORDER_PT = PT_KEYS;
 export const ORDER_EN = PT_KEYS.map((key) => key);
 
-export const getDisplayName = (principle, lang) =>
-  getDisplayNameUtil(principle, lang, PT_LABELS, EN_LABELS_FROM_PT);
+export const getDisplayName = (p, lang) => {
+  const k = norm(p?.name);
+  if (lang === "pt") return PT_LABELS[k] || p.name;
+  return EN_LABELS_FROM_PT[k] || p.name;
+};
 
-export const sortPrinciples = (principles, lang) =>
-  sortPrinciplesUtil(principles, lang, ORDER_PT, ORDER_EN);
+export const sortPrinciples = (arr, lang) => {
+  const order = lang === "pt" ? ORDER_PT : ORDER_EN;
+  return [...arr].sort((a, b) => {
+    const ia = order.indexOf(norm(a.name));
+    const ib = order.indexOf(norm(b.name));
+    const va = ia === -1 ? 999 : ia;
+    const vb = ib === -1 ? 999 : ib;
+    return va - vb || (a.name || "").localeCompare(b.name || "");
+  });
+};
