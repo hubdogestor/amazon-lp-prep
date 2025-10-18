@@ -90,12 +90,6 @@ const case_1 = {
         "a_en": "The mentee promised 99.9% uptime without understanding 4G infrastructure technical limitations. First, I took public responsibility to the carrier. Then, in my 1-on-1 session, I used structured methodology: 'What happened? What data didn't you have? What questions should you have asked before committing?'. I created together a technical validation checklist that's now standard. The mentee learned that technical credibility is built with realistic promises, not optimistic ones."
     },
     {
-        "q": "Descreva um momento em que um mentee seu falhou e como você lidou com a situação.",
-        "a": "Um mentee falhou em uma negociação com um fornecedor. Minha primeira ação foi assumir a responsabilidade pública pela falha, pois fui eu quem o colocou na posição. Depois, na minha sessão 1-a-1, usei a estrutura 'O que aconteceu? O que você aprendeu? O que você fará diferente?'. Transformamos a falha em um aprendizado sobre preparação e escalonamento.",
-        "q_en": "Describe a moment when one of your mentees failed and how you handled the situation.",
-        "a_en": "A mentee failed in a supplier negotiation. My first action was to take public responsibility for the failure, as I was the one who put him in that position. Then, in my 1-on-1 session, I used the structure 'What happened? What did you learn? What will you do differently?'. I transformed the failure into learning about preparation and escalation."
-    },
-    {
         "q": "Como você equilibrava suas responsabilidades de entrega de projetos críticos 4G/5G com o tempo dedicado ao desenvolvimento da equipe?",
         "a": "Eu via o desenvolvimento como multiplicador de entrega, não competidor. Dedicava 4 horas semanais por mentee (20% do meu tempo total) porque sabia que cada PM bem desenvolvido me daria 10x mais capacidade de execução. Quando um mentee conseguia gerenciar autonomamente uma operadora crítica, eu podia focar em negociações mais estratégicas. O ROI foi claro: economia de R$ 8,4M em multas contratuais que antes aconteciam por falhas de execução.",
         "q_en": "How did you balance your critical 4G/5G project delivery responsibilities with time dedicated to team development?",

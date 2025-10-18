@@ -116,12 +116,6 @@ const case_1 = {
       a_en: "Direct feedback showed they felt part of the control room; three clients replicated the model internally."
     },
     {
-      q: "Que dados você usou e qual foi a racional de cálculo?",
-      a: "Tempo médio de liberação, volume travado e latência por lote; priorizei clientes de maior valor e impacto regulatório.",
-      q_en: "What data did you use and what was your calculation rationale?",
-      a_en: "Average release time, frozen volume, and latency per batch; prioritized high-value clients and regulatory exposure."
-    },
-    {
       q: "Como você manteve transparência sem comprometer a posição competitiva do Sicredi?",
       a: "Compartilhei dados de performance sem expor arquitetura técnica; defini limites claros entre transparência e sigilo estratégico.",
       q_en: "How did you maintain transparency without compromising Sicredi's competitive position?",

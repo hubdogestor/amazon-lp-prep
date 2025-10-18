@@ -34,12 +34,6 @@ const case_3 = {
 
   fups: [
     {
-      q: "Qual foi a sua maior falha ou erro nesse caso?",
-      a: "Meu erro inicial foi tentar ajustar o modelo antifraude existente em vez de reconstruí-lo. Perdi quase uma semana tentando calibrar regras que eram estruturalmente limitadas. Foi quando percebi que precisava começar do zero e confiar mais na minha intuição do que no algoritmo antigo.",
-      q_en: "What was your biggest failure or mistake in this case?",
-      a_en: "My initial mistake was trying to adjust the existing fraud detection model instead of rebuilding it. I lost almost a week trying to calibrate rules that were structurally limited. That's when I realized I needed to start from scratch and trust my intuition more than the old algorithm."
-    },
-    {
       q: "Qual foi o obstáculo mais difícil de superar durante a investigação?",
       a: "Convencer a diretoria médica a agir foi o principal desafio. Havia receio político de envolver uma rede parceira. Usei empatia e dados concretos para tornar a decisão segura, mostrando que a ação seria discreta e preservaria os clientes legítimos.",
       q_en: "What was the most difficult obstacle to overcome during the investigation?",
