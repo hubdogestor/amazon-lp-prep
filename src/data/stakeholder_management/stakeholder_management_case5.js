@@ -93,11 +93,26 @@ Ialsorealizedthatstronggovernanceisinvisiblewhenitworksitcreatesfluidity,prevent
   },
 
   fups: [
+    // 6 perguntas centrais obrigatórias (exatamente)
+    { q: "Qual foi o maior erro ou falha que você cometeu neste caso? Como isso impactou o projeto e o que você aprendeu?", a: "", q_en: "What was the biggest mistake or failure you made in this case? How did it impact the project and what did you learn?", a_en: "" },
+    { q: "O que você faria diferente hoje ao revisitar este caso? Cite ações concretas que mudaria e por quê.", a: "", q_en: "What would you do differently today if you revisited this case? Mention concrete actions you would change and why.", a_en: "" },
+    { q: "Qual foi o obstáculo mais difícil de superar durante o programa e como você o enfrentou na prática?", a: "", q_en: "What was the most difficult obstacle to overcome during the program and how did you address it in practice?", a_en: "" },
+    { q: "Quais foram os principais riscos identificados no projeto e como você projetou e aplicou as medidas de mitigação?", a: "", q_en: "What were the main risks identified in the project and how did you design and apply mitigation measures?", a_en: "" },
+    { q: "Quais dados você utilizou para tomar decisões críticas e qual foi a racional por trás dos seus cálculos/estimativas?", a: "", q_en: "What data did you use to make critical decisions and what was the rationale behind your calculations/estimates?", a_en: "" },
+    { q: "Como você reutilizou ou aplicou o aprendizado deste caso em projetos subsequentes ou em outras áreas da organização?", a: "", q_en: "How did you reuse or apply the learning from this case in subsequent projects or other areas of the organization?", a_en: "" },
+
+    // perguntas existentes do case original (preservadas)
     { q: "Como você adaptou sua abordagem de engajamento para diferentes stakeholders, como a FIFA e as operadoras, que tinham prioridades tão distintas?", a: "", q_en: "How did you adapt your engagement strategy for very different stakeholders, such as FIFA and carriers?", a_en: "" },
     { q: "Quais foram os maiores desafios ao implementar o modelo de governança em três níveis, e como você garantiu sua eficácia?", a: "", q_en: "What were the toughest challenges in implementing the three-tier governance model, and how did you ensure its effectiveness?", a_en: "" },
     { q: "Como o mapeamento de stakeholders guiou suas decisões práticas durante o programa? Pode citar um exemplo específico?", a: "", q_en: "How did the stakeholder mapping guide practical decisions during the program? Can you share a specific example?", a_en: "" },
     { q: "Após a aprovação da solução criativa em São Paulo, como você garantiu que a implementação fosse executada sem atrasos adicionais?", a: "", q_en: "After São Paulo’s solution was approved, how did you ensure implementation continued without new delays?", a_en: "" },
-    { q: "Que elementos do modelo de governança ou estratégia de engajamento você ajustaria se enfrentasse um projeto similar no futuro?", a: "", q_en: "Which elements of the governance or engagement strategy would you adjust if facing a similar project in the future?", a_en: "" }
+    { q: "Que elementos do modelo de governança ou estratégia de engajamento você ajustaria se enfrentasse um projeto similar no futuro?", a: "", q_en: "Which elements of the governance or engagement strategy would you adjust if facing a similar project in the future?", a_en: "" },
+
+    // perguntas novas adicionais para alcançar ~15 FUPs e cobrir técnicas/estratégicas/aprendizado
+    { q: "Como você negociou termos e SLAs com os fornecedores (20 vendors) para garantir prazos e qualidade? Dê exemplos de concessões e contrapartidas.", a: "", q_en: "How did you negotiate terms and SLAs with the vendors (20 vendors) to ensure timelines and quality? Give examples of concessions and trade-offs.", a_en: "" },
+    { q: "Que métricas e KPIs você monitorou durante a execução e como reagiu a desvios significativos? Cite um caso de ajuste baseado em KPI.", a: "", q_en: "Which metrics and KPIs did you monitor during execution and how did you respond to significant deviations? Cite one case of adjustment based on KPIs.", a_en: "" },
+    { q: "Houve conflitos entre stakeholders (por exemplo, operadoras vs prefeituras)? Como você mediou interesses conflitantes e decidiu prioridades?", a: "", q_en: "Were there conflicts between stakeholders (e.g., carriers vs city halls)? How did you mediate conflicting interests and decide priorities?", a_en: "" },
+    { q: "Como você garantiu a conformidade regulatória com a ANATEL ao mesmo tempo que mantinha velocidade de implementação? Descreva o processo de validação técnica.", a: "", q_en: "How did you ensure regulatory compliance with ANATEL while maintaining rollout speed? Describe the technical validation process.", a_en: "" }
   ]
 };
 
