@@ -93,11 +93,11 @@ Ialsorealizedthatstronggovernanceisinvisiblewhenitworksitcreatesfluidity,prevent
   },
 
   fups: [
-    { q: "Como voc adaptou sua abordagem de engajamento para diferentes stakeholders, como a FIFA e as operadoras, que tinham prioridades to distintas?", a: "", q_en: "How did you adapt your engagement strategy for very different stakeholders, such as FIFA and carriers?", a_en: "" },
-    { q: "Quais foram os maiores desafios ao implementar o modelo de governana em trs nveis, e como voc garantiu sua eficcia?", a: "", q_en: "What were the toughest challenges in implementing the three-tier governance model, and how did you ensure its effectiveness?", a_en: "" },
-    { q: "Como o mapeamento de stakeholders guiou suas decises prticas durante o programa? Pode citar um exemplo especfico?", a: "", q_en: "How did the stakeholder mapping guide practical decisions during the program? Can you share a specific example?", a_en: "" },
-    { q: "Aps a aprovao da soluo criativa em So Paulo, como voc garantiu que a implementao fosse executada sem atrasos adicionais?", a: "", q_en: "After SoPaulos solution was approved, how did you ensure implementation continued without new delays?", a_en: "" },
-    { q: "Que elementos do modelo de governana ou estratgia de engajamento voc ajustaria se enfrentasse um projeto similar no futuro?", a: "", q_en: "Which elements of the governance or engagement strategy would you adjust if facing a similar project in the future?", a_en: "" }
+    { q: "Como você adaptou sua abordagem de engajamento para diferentes stakeholders, como a FIFA e as operadoras, que tinham prioridades tão distintas?", a: "", q_en: "How did you adapt your engagement strategy for very different stakeholders, such as FIFA and carriers?", a_en: "" },
+    { q: "Quais foram os maiores desafios ao implementar o modelo de governança em três níveis, e como você garantiu sua eficácia?", a: "", q_en: "What were the toughest challenges in implementing the three-tier governance model, and how did you ensure its effectiveness?", a_en: "" },
+    { q: "Como o mapeamento de stakeholders guiou suas decisões práticas durante o programa? Pode citar um exemplo específico?", a: "", q_en: "How did the stakeholder mapping guide practical decisions during the program? Can you share a specific example?", a_en: "" },
+    { q: "Após a aprovação da solução criativa em São Paulo, como você garantiu que a implementação fosse executada sem atrasos adicionais?", a: "", q_en: "After São Paulo’s solution was approved, how did you ensure implementation continued without new delays?", a_en: "" },
+    { q: "Que elementos do modelo de governança ou estratégia de engajamento você ajustaria se enfrentasse um projeto similar no futuro?", a: "", q_en: "Which elements of the governance or engagement strategy would you adjust if facing a similar project in the future?", a_en: "" }
   ]
 };
 
