@@ -2688,16 +2688,16 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 98
+        },
+        {
           "caseId": "bradesco-next-mvp-prioritization",
           "score": 98
         },
         {
-          "caseId": "sicredi-woop-segment-prioritization",
-          "score": 95
-        },
-        {
           "caseId": "bradesco-covid-reprioritization",
-          "score": 92
+          "score": 98
         }
       ]
     },
@@ -2708,12 +2708,12 @@ export const questionsToCasesMapping = {
           "score": 98
         },
         {
-          "caseId": "sicredi-woop-segment-prioritization",
-          "score": 95
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 98
         },
         {
-          "caseId": "bradesco-covid-reprioritization",
-          "score": 90
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 95
         }
       ]
     },
@@ -2725,27 +2725,27 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "sicredi-woop-segment-prioritization",
-          "score": 95
+          "score": 98
         },
         {
-          "caseId": "bradesco-covid-reprioritization",
-          "score": 88
+          "caseId": "sefaz-framework-integrated-management",
+          "score": 95
         }
       ]
     },
     "4": {
       "options": [
         {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 98
+        },
+        {
           "caseId": "sicredi-woop-segment-prioritization",
           "score": 98
         },
         {
-          "caseId": "bradesco-next-mvp-prioritization",
+          "caseId": "sicredi-woop-delay",
           "score": 95
-        },
-        {
-          "caseId": "bradesco-covid-reprioritization",
-          "score": 85
         }
       ]
     },
@@ -2757,16 +2757,20 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "sicredi-woop-segment-prioritization",
-          "score": 95
+          "score": 98
         },
         {
-          "caseId": "bradesco-covid-reprioritization",
-          "score": 90
+          "caseId": "sicredi-woop-delay",
+          "score": 95
         }
       ]
     },
     "6": {
       "options": [
+        {
+          "caseId": "hdg-pivot-to-robotics",
+          "score": 98
+        },
         {
           "caseId": "bradesco-covid-reprioritization",
           "score": 98
@@ -2774,10 +2778,6 @@ export const questionsToCasesMapping = {
         {
           "caseId": "sicredi-woop-segment-prioritization",
           "score": 95
-        },
-        {
-          "caseId": "bradesco-next-mvp-prioritization",
-          "score": 90
         }
       ]
     },
@@ -2788,28 +2788,28 @@ export const questionsToCasesMapping = {
           "score": 98
         },
         {
-          "caseId": "bradesco-next-mvp-prioritization",
+          "caseId": "sicredi-woop-delay",
           "score": 95
         },
         {
-          "caseId": "sicredi-woop-segment-prioritization",
-          "score": 92
+          "caseId": "sefaz-framework-integrated-management",
+          "score": 95
         }
       ]
     },
     "8": {
       "options": [
         {
-          "caseId": "sicredi-woop-segment-prioritization",
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 98
+        },
+        {
+          "caseId": "sicredi-woop-delay",
           "score": 95
         },
         {
-          "caseId": "bradesco-next-mvp-prioritization",
-          "score": 92
-        },
-        {
-          "caseId": "bradesco-covid-reprioritization",
-          "score": 90
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 95
         }
       ]
     },
@@ -2821,27 +2821,27 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "sicredi-woop-segment-prioritization",
-          "score": 95
+          "score": 85
         },
         {
           "caseId": "bradesco-covid-reprioritization",
-          "score": 88
+          "score": 90
         }
       ]
     },
     "10": {
       "options": [
         {
-          "caseId": "sicredi-woop-segment-prioritization",
+          "caseId": "bradesco-next-mvp-prioritization",
           "score": 95
         },
         {
-          "caseId": "bradesco-next-mvp-prioritization",
-          "score": 92
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 95
         },
         {
-          "caseId": "bradesco-covid-reprioritization",
-          "score": 88
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 90
         }
       ]
     },
@@ -2852,12 +2852,12 @@ export const questionsToCasesMapping = {
           "score": 98
         },
         {
-          "caseId": "bradesco-next-mvp-prioritization",
-          "score": 95
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 80
         },
         {
-          "caseId": "sicredi-woop-segment-prioritization",
-          "score": 90
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 80
         }
       ]
     },
@@ -2869,11 +2869,11 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "bradesco-next-mvp-prioritization",
-          "score": 95
+          "score": 98
         },
         {
           "caseId": "bradesco-covid-reprioritization",
-          "score": 90
+          "score": 98
         }
       ]
     }

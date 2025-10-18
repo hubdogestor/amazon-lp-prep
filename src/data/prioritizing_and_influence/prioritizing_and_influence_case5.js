@@ -6,7 +6,7 @@ const case_5 = {
   title_en: "Communicated 3-Month Delay in Woop App Launch to the Board",
   company: "Sicredi",
   period: "06/2019 - 09/2019",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: true,
   pt: {
     s: "Em junho de 2019, como Product Strategist no Sicredi, o lançamento do app Woop enfrentou falhas de integração legada, projetando atraso de 3 meses. Board esperava setembro para 25% adocao, com R$ 10 milhoes comprometidos. Como lider, assumi comunicação de mas noticias para mitigar é manter confianca.",

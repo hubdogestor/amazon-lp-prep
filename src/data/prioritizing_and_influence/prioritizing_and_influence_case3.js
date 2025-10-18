@@ -6,7 +6,7 @@ const case_3 = {
   title_en: "Adjusted Roadmap to Adopt Integrated Management Framework at SEFAZ",
   company: "Secretaria da Fazenda do RS",
   period: "07/2024 - 12/2024",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: true,
   pt: {
     s: "Em julho de 2024, como Advisor na SEFAZ RS, gerenciando o portfolio do Profisco II, identifiquei que os projetos estrategicos estavam desconectados da cadeia de valor é operações (BAU), causando desvios de 23% é ineficiencias de R$ 8 milhoes anuais. Antes, tudo ficava solto, sem integração entre PMO, processos é monitoramento. Uma mudanca externa no orçamento do BID exigiu maior alinhamento, impactando 28 projetos com orçamento de R$ 45 milhoes.",
