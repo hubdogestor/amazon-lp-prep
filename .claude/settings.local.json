@@ -9,7 +9,10 @@
       "Bash(python analyze_project_state.py:*)",
       "Bash(python:*)",
       "Bash(npm run dev:*)",
-      "Bash(npm run deploy:*)"
+      "Bash(npm run deploy:*)",
+      "Bash(node scripts/lp-harmony-ai.mjs:*)",
+      "Bash(cat:*)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": []

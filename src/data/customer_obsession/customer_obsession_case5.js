@@ -8,8 +8,8 @@ const case_5 = {
   period: "03/2021-11/2021",
   role: "Product Strategist",
   context: "Digital Banking Platform",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: "Março de 2021. Eu atuava como Product Strategist na plataforma Woop Sicredi, responsável por proteger crescimento e rentabilidade em um ecossistema com milhões de usuários e centenas de cooperativas. O ambiente era tenso: de um lado, o diretor comercial me disse -- 'Leonardo, se o módulo de tesouraria não for entregue até junho, perdemos R$ 47 milhões em receita B2B'. No mesmo painel, outra métrica disparava: churn de 38% no onboarding B2C -- 156 mil pessoas abandonando a conta digital em sete dias. Um único squad, nove engenheiros, quatro meses de runway e duas crises simultâneas. Escolher um lado significava perder o outro. Minha experiência como Product Strategist, equilibrando analytics, priorização e narrativa de valor, se tornou essencial para transformar caos em plano de ação.",
     t: "Assumi ownership completo da decisão e usei tudo que sabia sobre gestão de portfólio e crise. Minha missão era reduzir o churn B2C de 38% para menos de 18% (atingindo meta interna de 20%) e, ao mesmo tempo, entregar o módulo de tesouraria B2B responsável por R$ 47 milhões de receita. Decidi começar pelo B2C porque era o problema com maior impacto imediato: cada semana de atraso custava R$ 2.8 milhões em churn, enquanto o B2B tinha janela de 4 meses para gerar receita. Resolver o lado de varejo garantiria fôlego financeiro e alinhava-se à missão cooperativa de inclusão.",

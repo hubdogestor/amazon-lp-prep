@@ -7,7 +7,7 @@ const case_6 = {
   company: "Bradesco Next",
   period: "07/2017-12/2017",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
   pt: {
     s: "Em julho de 2017, eu era o gerente responsável pela integração de pagamentos do banco digital Next, coordenando APIs, gateways e sistemas de processamento que sustentavam milhões de transações diárias. Naquele mês, recebi um alerta urgente do NOC: caso o tráfego chegasse a 8 mil TPS, o core legado atingiria 92% de CPU, colocando em risco 3,5 milhões de transações por dia. Enquanto investigava essa vulnerabilidade, o CPO anunciou em uma reunião executiva: “Vamos lançar todas as 14 features -- o marketing já prometeu para 1,2 milhão de clientes.” A fala soava ambiciosa, mas os dados técnicos contavam outra história -- latência média de 680 ms (45% acima do mês anterior), 27 incidentes P1 acumulados e chargebacks crescendo 19% ao mês. Lançar tudo nessas condições implicava risco sistêmico de R$ 24 milhões em possíveis perdas. O dilema era direto: seguir com o plano e arriscar um colapso, ou cortar escopo e enfrentar pressões políticas e comerciais intensas.",
     t: "Meu escopo formal se limitava às integrações externas, mas minha experiência em arquitetura distribuída e análise de performance me permitia identificar que o gargalo estava dentro do core. Mesmo além do meu mandato, assumi responsabilidade total pela decisão crítica do lançamento. Precisava decidir entre manter as 14 funcionalidades e expor 1,2 milhão de clientes, ou reduzir o escopo e sustentar um 'não' impopular -- mas tecnicamente necessário -- para garantir estabilidade durante a Black Friday.",

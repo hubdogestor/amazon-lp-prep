@@ -1,0 +1,2522 @@
+{
+  "customer_obsession__Q1__unimed-cancer-patient-journey": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Conceito central do case (antecipar necessidade oncológica não expressa) alinha PERFEITAMENTE com a pergunta. STAR-L excepcional com métricas concretas (12→1.8 dias, 340 enfermeiras, 156 casos salvos, R$47M economizados).",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q1__bradesco-elderly-digital-inclusion": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Antecipação perfeita de exclusão digital (necessidade não expressa por idosos que 'sofriam em silêncio'). STAR-L completo com métricas impressionantes (340K usuários, ROI 68:1, autonomia 23%→78%).",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q1__sicredi-small-business-survival": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "Case exemplifica perfeitamente ir além (criou ecossistema completo vs apenas crédito). STAR-L forte com métricas concretas (R$47M, 2.400 negócios, zero fechamentos), Learning profundo sobre expectativas.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q1__unimed-pet-anticipation": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "Antecipação perfeita (necessidade pet antes do mercado pedir). STAR-L completo com boas métricas (2.400 famílias, 94% satisfação, R$23M receita), aprendizado sobre 'sinais escondidos'.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q1__sicredi-woop-segment-balance": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 76,
+    "reasoning": "Case foca em equilibrar múltiplos clientes vs antecipar necessidades. Conceito presente mas não central. STAR-L bom com métricas fortes (churn 38%→16.2%, R$94M preservados).",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q1__sicredi-fraud-prevention-experience": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 84,
+    "reasoning": "Antecipou necessidade de segurança sem fricção (67% bloqueios eram falsos positivos). STAR-L completo com métricas excepcionais (fraude -73%, falsos positivos -82%, NPS 12→76).",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q1__sicredi-chargeback-proactive-resolution": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "Antecipou necessidade de resolução antes do chargeback (73% queriam apenas resolver). STAR-L forte com métricas concretas (1.8%→0.5%, 67% pré-resolvidos, NPS 74→81).",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q2__unimed-cancer-patient-journey": {
+    "relevance": 28,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "Cliente em primeiro lugar absoluto (pacientes oncológicos vs métricas internas). STAR-L excepcional, métricas concretas. Conceito muito forte mas pergunta é sobre 'colocar em 1º' vs 'antecipar'.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q2__bradesco-elderly-digital-inclusion": {
+    "relevance": 28,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "Idosos em 1º lugar (reconstruiu app do zero para eles vs empurrar todos para digital). STAR-L excepcional com ROI 68:1, 340K usuários. Priorização clara de inclusão.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q2__sicredi-small-business-survival": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Pequenos negócios em 1º lugar (assumiu sobrevivência deles como missão). STAR-L forte, métricas concretas (2.400 salvos, R$47M). Priorização clara mas não tão explícita quanto outros.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q2__unimed-pet-anticipation": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "Cliente (famílias com pets) em 1º lugar ao criar produto antes de pedir. STAR-L completo, boas métricas. Conceito presente mas foco é mais em inovação que priorização.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q2__sicredi-woop-segment-balance": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 80,
+    "reasoning": "B2C em 1º lugar (priorizou churn vs receita B2B). STAR-L bom com métricas fortes. Priorização clara mas o case enfatiza equilíbrio vs 'cliente em 1º'.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q2__sicredi-fraud-prevention-experience": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "Experiência do cliente em 1º lugar vs segurança (rejeitou premissa de time de segurança). STAR-L forte, métricas excepcionais. Priorização explícita e bem documentada.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q2__sicredi-chargeback-proactive-resolution": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Experiência (compradores + lojistas) em 1º vs métricas de chargeback. STAR-L forte com métricas concretas. Priorização de relacionamentos vs compliance.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q3__unimed-cancer-patient-journey": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Escolha entre pacientes vs métricas internas de autorização (12 dias era a norma). STAR-L excepcional. Conceito presente mas não é foco central do case.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q3__bradesco-elderly-digital-inclusion": {
+    "relevance": 28,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "Escolha entre inclusão de idosos vs métricas de adoção digital (fecharam 400 agências, empurravam digital). STAR-L excepcional, ROI 68:1. Trade-off explícito.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q3__sicredi-small-business-survival": {
+    "relevance": 22,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 80,
+    "reasoning": "Trade-off presente (investir R$3.2M sem retorno imediato). STAR-L forte com métricas. Conceito presente mas não é dilema central do case.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q3__unimed-pet-anticipation": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 74,
+    "reasoning": "Trade-off parcial (investir em produto novo vs portfólio existente). STAR-L completo. Conceito mencionado mas secundário no case.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q3__sicredi-woop-segment-balance": {
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Dilema CENTRAL do case: B2C churn vs B2B receita. STAR-L bom com métricas fortes. Escolha explícita e bem justificada (priorizou B2C).",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q3__sicredi-fraud-prevention-experience": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "Dilema PERFEITO: experiência vs segurança (falsos positivos 67%). STAR-L forte, métricas excepcionais. Escolha explícita e bem argumentada.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q3__sicredi-chargeback-proactive-resolution": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "Dilema CENTRAL: experiência vs compliance (chargeback 1.8%). STAR-L forte com métricas concretas. Escolha explícita (rejeitou 'apertar compliance').",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q4__unimed-cancer-patient-journey": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Método PERFEITO para entender necessidades: 3 semanas em hospitais, 47 consultas, 89 famílias. 'Ouvir antes de medir' é explícito. STAR-L excepcional, métricas concretas.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q4__bradesco-elderly-digital-inclusion": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Método EXEMPLAR: 4 semanas, 23 agências, 127 atendimentos, 89 visitas domiciliares. 'Troquei indicadores por vivência'. STAR-L excepcional, ROI 68:1.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q4__sicredi-small-business-survival": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 84,
+    "reasoning": "Método presente (ouviu Carlos, identificou necessidade real vs pedido). STAR-L forte. Conceito forte mas menos explícito que outros cases.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q4__unimed-pet-anticipation": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Método de descoberta: análise de prontuários, 1.200 entrevistas, identificação de padrões. STAR-L completo. 'Sinais escondidos' é conceito forte.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q4__sicredi-woop-segment-balance": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "Método data-driven: 2.3M eventos, 18 entrevistas. Criou 'Impacto por Sprint' para entender prioridades. STAR-L bom, conceito forte.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q4__sicredi-fraud-prevention-experience": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Método híbrido: 2.3M transações + 147 entrevistas + psicólogos comportamentais. 'Entender medo e confiança'. STAR-L forte, métricas excepcionais.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q4__sicredi-chargeback-proactive-resolution": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Método de descoberta: 47K disputas, 234 compradores, 89 lojistas. Identificou causa raiz (comunicação). STAR-L forte com métricas concretas.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q5__unimed-cancer-patient-journey": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Melhoria presente (12→1.8 dias). STAR-L excepcional. Conceito presente mas foco é antecipar vs melhorar experiência existente.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q5__bradesco-elderly-digital-inclusion": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Melhoria TRANSFORMACIONAL de experiência (autonomia 23%→78%, NPS +567%). STAR-L excepcional, ROI 68:1. Conceito central do case.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q5__sicredi-small-business-survival": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 76,
+    "reasoning": "Criou nova experiência vs melhorar existente. STAR-L forte. Conceito mencionado mas secundário.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q5__unimed-pet-anticipation": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 74,
+    "reasoning": "Criou experiência nova (produto pet) vs melhorar existente. STAR-L completo. Foco é inovação vs melhoria.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q5__sicredi-woop-segment-balance": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 80,
+    "reasoning": "Melhoria clara: OCR (churn 38%→16.2%), NPS 31→68. STAR-L bom. Conceito presente mas não central.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q5__sicredi-fraud-prevention-experience": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "Melhoria RADICAL de experiência (NPS 12→76, tempo 4.2h→38s). STAR-L forte, métricas excepcionais. Conceito central.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q5__sicredi-chargeback-proactive-resolution": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "Melhoria de experiência (resolução 23→2.8 dias, NPS 74→81). STAR-L forte. Conceito presente mas foco é resolver vs melhorar.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q6__unimed-cancer-patient-journey": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Feedback tangencial (ouviu famílias). STAR-L excepcional. Conceito indireto - case foca em antecipar vs reagir a feedback.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q6__bradesco-elderly-digital-inclusion": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Feedback tangencial (observou 127 atendimentos). STAR-L excepcional. Foco é observação direta vs feedback estruturado.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q6__sicredi-small-business-survival": {
+    "relevance": 12,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 70,
+    "reasoning": "Feedback tangencial (ligação do Carlos). STAR-L forte. Conceito indireto - case foca em ir além vs usar feedback.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q6__unimed-pet-anticipation": {
+    "relevance": 22,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 78,
+    "reasoning": "Feedback presente (1.200 entrevistas) mas não mudou estratégia - validou hipótese. STAR-L completo. Conceito presente mas não central.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q6__sicredi-woop-segment-balance": {
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 72,
+    "reasoning": "Feedback parcial (análise de eventos, entrevistas) mas não mudou estratégia completa. STAR-L bom. Conceito mencionado.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q6__sicredi-fraud-prevention-experience": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 76,
+    "reasoning": "Feedback presente (147 entrevistas, Dona Helena) mas não mudou estratégia - informou design. STAR-L forte. Conceito mencionado.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q6__sicredi-chargeback-proactive-resolution": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 74,
+    "reasoning": "Feedback presente (234 compradores, 89 lojistas) mas informou vs mudou. STAR-L forte. Conceito mencionado.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q7__unimed-cancer-patient-journey": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Múltiplos clientes tangencial (pacientes vs médicos). STAR-L excepcional. Conceito indireto.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q7__bradesco-elderly-digital-inclusion": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Múltiplos clientes tangencial (idosos vs millennials). STAR-L excepcional. Conceito indireto.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q7__sicredi-small-business-survival": {
+    "relevance": 12,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 70,
+    "reasoning": "Múltiplos clientes tangencial (2.400 negócios). STAR-L forte. Conceito indireto - não há conflito entre eles.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q7__unimed-pet-anticipation": {
+    "relevance": 12,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 68,
+    "reasoning": "Múltiplos clientes tangencial (famílias pet owners). STAR-L completo. Conceito indireto.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q7__sicredi-woop-segment-balance": {
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Múltiplos clientes PERFEITO: B2B (340 cooperativas) vs B2C (1.2M). STAR-L bom. Conceito CENTRAL do case.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q7__sicredi-fraud-prevention-experience": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 76,
+    "reasoning": "Múltiplos clientes parcial (4.2M cooperados vs diferentes perfis). STAR-L forte. Conceito mencionado mas não é conflito central.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q7__sicredi-chargeback-proactive-resolution": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "Múltiplos clientes PERFEITO: compradores vs lojistas (interesses opostos). STAR-L forte. Conceito CENTRAL - mediação entre partes.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q8__unimed-cancer-patient-journey": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Falha parcial (não atendeu em 12 dias). STAR-L excepcional. Conceito presente mas não é foco - case trata de antecipar.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q8__bradesco-elderly-digital-inclusion": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Falha BEM articulada (exclusão digital = falha da transformação). STAR-L excepcional. Learning sobre 'erro de medir sucesso por adesão'.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q8__sicredi-small-business-survival": {
+    "relevance": 12,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 70,
+    "reasoning": "Falha tangencial (demora de 3 semanas para envolver CFO). STAR-L forte. Conceito indireto.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q8__unimed-pet-anticipation": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 74,
+    "reasoning": "Falha presente (comunicou como automação vs cuidado). STAR-L completo. Learning sobre reframing.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q8__sicredi-woop-segment-balance": {
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 72,
+    "reasoning": "Falha presente (demora em traduzir estratégia técnica). STAR-L bom. Learning sobre comunicação executiva.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q8__sicredi-fraud-prevention-experience": {
+    "relevance": 22,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 80,
+    "reasoning": "Falha BEM articulada (tentou ajustar algoritmo vs redesenhar experiência, perdeu 3 semanas). STAR-L forte. Learning profundo sobre 'tecnologia sem empatia'.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q8__sicredi-chargeback-proactive-resolution": {
+    "relevance": 22,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 78,
+    "reasoning": "Falha BEM articulada (focou em tecnologia vs psicologia, perdeu 2 semanas). STAR-L forte. Learning sobre 'tecnologia sem empatia'.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q9__unimed-cancer-patient-journey": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Priorização tangencial (pacientes oncológicos urgentes). STAR-L excepcional. Conceito indireto.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q9__bradesco-elderly-digital-inclusion": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Priorização tangencial (idosos vs millennials). STAR-L excepcional. Conceito indireto.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q9__sicredi-small-business-survival": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 76,
+    "reasoning": "Priorização presente (criou fila prioritária, consultoria). STAR-L forte. Conceito mencionado mas não central.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q9__unimed-pet-anticipation": {
+    "relevance": 12,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 68,
+    "reasoning": "Priorização tangencial (pets vs humanos em recursos limitados). STAR-L completo. Conceito indireto.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q9__sicredi-woop-segment-balance": {
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Priorização PERFEITA com recursos limitados: 1 squad, B2C vs B2B. Criou 'Impacto por Sprint'. STAR-L bom. Conceito CENTRAL.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q9__sicredi-fraud-prevention-experience": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 76,
+    "reasoning": "Priorização presente (experiência vs segurança). STAR-L forte. Conceito mencionado mas não sobre recursos limitados.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q9__sicredi-chargeback-proactive-resolution": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 74,
+    "reasoning": "Priorização presente (compradores vs lojistas). STAR-L forte. Conceito mencionado mas não sobre recursos limitados.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q10__unimed-cancer-patient-journey": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Defendeu pacientes vs resistência médica (levou familiares ao conselho). STAR-L excepcional. Conceito BEM presente.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q10__bradesco-elderly-digital-inclusion": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Defendeu idosos vs board comercial ('custo sem retorno'). Levou 16 idosos para demo. STAR-L excepcional. Conceito FORTE.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q10__sicredi-small-business-survival": {
+    "relevance": 22,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 80,
+    "reasoning": "Defendeu pequenos negócios vs CFO ('custo sem retorno'). STAR-L forte. Conceito BEM presente.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q10__unimed-pet-anticipation": {
+    "relevance": 22,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 78,
+    "reasoning": "Defendeu produto pet vs diretoria cética. STAR-L completo. Conceito BEM presente.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q10__sicredi-woop-segment-balance": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 80,
+    "reasoning": "Defendeu B2C vs diretor comercial (escalou ao CEO). STAR-L bom. Conceito FORTE.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q10__sicredi-fraud-prevention-experience": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 84,
+    "reasoning": "Defendeu experiência vs time de segurança ('bloquear rápido é sempre melhor'). STAR-L forte. Conceito FORTE.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q10__sicredi-chargeback-proactive-resolution": {
+    "relevance": 22,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 78,
+    "reasoning": "Defendeu mediação vs jurídico (temiam assumir culpa). STAR-L forte. Conceito BEM presente.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q11__unimed-cancer-patient-journey": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Fraude tangencial (foco é saúde, não prevenção de fraude). STAR-L excepcional. Conceito não se aplica.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q11__bradesco-elderly-digital-inclusion": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Fraude BEM presente (tentativas -67%, dupla autenticação). STAR-L excepcional. Equilíbrio bem documentado.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q11__sicredi-small-business-survival": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 76,
+    "reasoning": "Fraude presente (score cooperativo, inadimplência 2.1%). STAR-L forte. Conceito mencionado mas não central.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q11__unimed-pet-anticipation": {
+    "relevance": 12,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 68,
+    "reasoning": "Fraude tangencial (risco atuarial, não fraude). STAR-L completo. Conceito não se aplica bem.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q11__sicredi-woop-segment-balance": {
+    "relevance": 12,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 66,
+    "reasoning": "Fraude tangencial (OCR não é prevenção de fraude). STAR-L bom. Conceito não se aplica.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q11__sicredi-fraud-prevention-experience": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "Fraude PERFEITA: conceito CENTRAL do case (fraude -73%, experiência +533% NPS). 'Segurança invisível'. STAR-L forte.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q11__sicredi-chargeback-proactive-resolution": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 74,
+    "reasoning": "Fraude parcial (chargeback não é exatamente fraude, mas risco). STAR-L forte. Conceito mencionado.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q12__unimed-cancer-patient-journey": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Chargeback não se aplica (saúde, não pagamentos). STAR-L excepcional. Conceito irrelevante.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q12__bradesco-elderly-digital-inclusion": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Chargeback não se aplica (digital banking, não e-commerce). STAR-L excepcional. Conceito irrelevante.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q12__sicredi-small-business-survival": {
+    "relevance": 12,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 70,
+    "reasoning": "Chargeback não se aplica (crédito, não pagamentos). STAR-L forte. Conceito irrelevante.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q12__unimed-pet-anticipation": {
+    "relevance": 12,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 68,
+    "reasoning": "Chargeback não se aplica (plano de saúde, não pagamentos). STAR-L completo. Conceito irrelevante.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q12__sicredi-woop-segment-balance": {
+    "relevance": 12,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 66,
+    "reasoning": "Chargeback não se aplica (onboarding, não pagamentos). STAR-L bom. Conceito irrelevante.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q12__sicredi-fraud-prevention-experience": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 76,
+    "reasoning": "Chargeback parcial (fraude em transações pode gerar chargebacks). STAR-L forte. Conceito mencionado tangencialmente.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q12__sicredi-chargeback-proactive-resolution": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "Chargeback PERFEITO: conceito CENTRAL (1.8%→0.5%, NPS 74→81). Resolução proativa mantendo satisfação. STAR-L forte.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q13__unimed-cancer-patient-journey": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Múltiplos segmentos tangencial (diferentes tipos de câncer). STAR-L excepcional. Conceito indireto.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q13__bradesco-elderly-digital-inclusion": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Segmentos presente (idosos vs outros clientes, exclusão). STAR-L excepcional. Conceito mencionado mas não é conflito central.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q13__sicredi-small-business-survival": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 76,
+    "reasoning": "Segmentos presente (2.400 pequenos negócios, diferentes setores). STAR-L forte. Conceito mencionado.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q13__unimed-pet-anticipation": {
+    "relevance": 12,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 68,
+    "reasoning": "Segmentos tangencial (famílias pet owners). STAR-L completo. Conceito indireto.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q13__sicredi-woop-segment-balance": {
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Segmentos PERFEITO: B2B vs B2C (título do case!). STAR-L bom. Conceito CENTRAL.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q13__sicredi-fraud-prevention-experience": {
+    "relevance": 18,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 76,
+    "reasoning": "Segmentos presente (4.2M cooperados, diferentes perfis). STAR-L forte. Conceito mencionado.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q13__sicredi-chargeback-proactive-resolution": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "Segmentos FORTE: compradores vs lojistas (interesses opostos). STAR-L forte. Conceito CENTRAL.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q14__unimed-cancer-patient-journey": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Educar presente (kit de direitos, 94% receberam automaticamente). STAR-L excepcional. Conceito BEM presente.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q14__bradesco-elderly-digital-inclusion": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Educar FORTE (tutorial gratuito, treinamentos, simulações físicas). STAR-L excepcional. Conceito FORTE.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q14__sicredi-small-business-survival": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 84,
+    "reasoning": "Educar FORTE (consultoria, educação financeira, webinars, planilhas). STAR-L forte. Conceito FORTE.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q14__unimed-pet-anticipation": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "Educar PERFEITO: criou produto que cliente não sabia que precisava (conceito da pergunta!). STAR-L completo. Conceito CENTRAL.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q14__sicredi-woop-segment-balance": {
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 72,
+    "reasoning": "Educar parcial (mostrou impacto de decisões). STAR-L bom. Conceito mencionado mas não central.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q14__sicredi-fraud-prevention-experience": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 84,
+    "reasoning": "Educar FORTE (sistema enviava orientação, educação sobre segurança). STAR-L forte. Conceito FORTE.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "customer_obsession__Q14__sicredi-chargeback-proactive-resolution": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "Educar FORTE (curso 'Como Resolver Conflitos', 12K lojistas completaram). STAR-L forte. Conceito FORTE.",
+    "analyzedAt": "2025-01-19T22:00:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q1__hsbc-migration-leadership": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Programa de US$5.2B com múltiplos times (Compliance, Tech, Ops) - conceito central perfeitamente alinha com complexidade e escopo. STAR-L excepcional com métricas completas (99.98% precisão, NPS 52→78, churn 0.3%).",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q1__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PMO zero-to-one com 28 projetos e múltiplos stakeholders BID/governo é essência de program management complexo. STAR-L completo com métricas concretas (desvio 23%→7.4%, R$2.3M recuperados).",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q1__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Portfolio de 12 projetos fiscais é programa relevante mas não tão complexo quanto outros. STAR-L bom com métricas (100% compliance, R$12M economia, desvio 23%→9%) mas menos detalhes de coordenação.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q1__unimed-cvc-cancellation": {
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Programa CVC existe mas foco está no cancelamento estratégico, não na complexidade de coordenação multi-times. Métricas presentes (R$20M, 12 startups) mas menos profundidade em execução de programa.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q1__sicredi-woop-delay-communication": {
+    "relevance": 18,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 62,
+    "reasoning": "Case é sobre comunicação de crise em projeto único, não programa multi-times. STAR-L tem boas métricas (R$10M budget, 25% adoção, R$50M receita) mas escopo de programa limitado.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q1__sefaz-profisco-ii-program": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Programa US$280M com 47 projetos simultâneos e governança híbrida é exemplo definitivo de complexidade máxima. STAR-L excepcional com profundidade em coordenação de múltiplos times e metodologias.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q2__hsbc-migration-leadership": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Migração com interdependências (compliance-tech-ops) e recursos críticos limitados por prazo. STAR-L excepcional mostra priorização (R$9.5M extras) e coordenação, mas não é foco central do case.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q2__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Consolidar 28 projetos em 11 sistemas com prazo 45 dias é essência de gerenciar interdependências com recursos limitados. Métricas concretas (100% duplicidades eliminadas, desvio 23%→7.4%).",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q2__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Realinhar 12 projetos interdependentes com recursos escassos (cancelou 2 features para liberar R$2M) é conceito perfeito. STAR-L bom mas poderia detalhar mais dependências entre projetos.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q2__unimed-cvc-cancellation": {
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Gerenciar pipeline de 12 startups mostra gestão de recursos limitados (R$20M) mas foco está em análise de desalinhamento estratégico, não coordenação de interdependências.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q2__sicredi-woop-delay-communication": {
+    "relevance": 18,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 62,
+    "reasoning": "Case menciona coordenar engineering e produto mas foco principal é comunicação de crise, não gestão de interdependências. Métricas de resultado (R$50M) presentes mas processo menos detalhado.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q2__sefaz-profisco-ii-program": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "47 projetos com interdependências complexas e recursos compartilhados é exemplo definitivo. STAR-L detalha matriz de dependências, gestão de riscos e ferramentas integradas (Jira + MS Project).",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q3__hsbc-migration-leadership": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Mudança externa foi deal em risco e prazo comprimido, requerendo ajuste de roadmap. STAR-L mostra adaptação completa mas mudança externa não é tão central quanto em outros cases.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q3__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Ofício BID (mudança externa) forçou ajuste completo do roadmap em 45 dias. STAR-L excepcional mas criação de PMO zero-to-one foi resposta, não apenas ajuste de roadmap existente.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q3__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Reforma Tributária (mudança regulatória externa) forçando realinhamento completo de 12 projetos é exemplo perfeito. STAR-L detalhado com matriz de impacto e métricas concretas (100% compliance, R$12M economia).",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q3__unimed-cvc-cancellation": {
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Troca de gestão (mudança externa) exigiu cancelamento do programa CVC. Conceito forte mas case foca mais em decisão de cancelar que em ajustar roadmap para continuar.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q3__sicredi-woop-delay-communication": {
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Falhas técnicas (mudança interna descoberta) forçaram ajuste de timeline. Relevante mas mudança foi descoberta interna não externa. STAR-L mostra ajuste de plano mas escopo limitado.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q3__sefaz-profisco-ii-program": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Programa menciona navegação de ambiguidade e mudanças mas não detalha mudança externa específica que forçou ajuste de roadmap. STAR-L excepcional em governança adaptativa.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q4__hsbc-migration-leadership": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Alinhar CFO, BACEN, Compliance, Tech e clientes premium com prioridades conflitantes (velocidade vs risco) é essência do case. STAR-L mostra modelagem de risco e comunicação semanal para alinhamento.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q4__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Alinhar BID, Secretário, 28 gestores de projeto e equipes técnicas com business case baseado em ROI. STAR-L excepcional mostra como evidência gerou alinhamento sem autoridade formal.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q4__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Negociar com Secretário cancelamento de features e realinhar BID com matriz de impacto. Conceito presente mas menos stakeholders conflitantes que outros cases. STAR-L bom com métricas.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q4__unimed-cvc-cancellation": {
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Alinhar nova gestão (risco aversão) com gestão anterior (inovação) usando matriz decisão e quantificação de desalinhamento 70%. Conceito perfeito, STAR-L poderia ter mais detalhes de negociação.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q4__sicredi-woop-delay-communication": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Alinhar board (expectativas de prazo) com engenharia (realidade técnica) através de apresentação transparente e plano de ação. Conceito relevante mas escopo menor que program management.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q4__sefaz-profisco-ii-program": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Alinhar 47 gestores de projeto, BID, Secretário da Fazenda, equipes ágeis e waterfall com prioridades divergentes. STAR-L detalha governança híbrida e rituais de alinhamento.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q5__hsbc-migration-leadership": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Escalou risco financeiro para CFO com modelagem de US$180M em sanções potenciais para obter R$9.5M extras. Escalação presente mas não é foco central do case.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q5__sefaz-pmo-creation": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case mostra assumir controle sem escalar formalmente - usou evidência para convencer ao invés de escalar problema. STAR-L excepcional mas conceito de escalação não é central.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q5__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Escalou impacto da Reforma Tributária para Secretário com matriz de impacto quantificada. Escalação presente através de negociação mas poderia detalhar mais critérios de decisão.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q5__unimed-cvc-cancellation": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Escalou desalinhamento estratégico 70% para novo presidente com business case quantificado. Escalação clara mas foco está na decisão de cancelar, não no processo de escalação.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q5__sicredi-woop-delay-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Caso perfeito de escalação de problema crítico (falhas de segurança) ao board com diagnóstico técnico, plano de ação e pedido de recursos. STAR-L detalha quando e como escalar.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q5__sefaz-profisco-ii-program": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Programa menciona reporte direto ao Secretário e BID mas não detalha situação específica de escalação de problema crítico. STAR-L excepcional em governança mas conceito não é central.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q6__hsbc-migration-leadership": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Mede sucesso por NPS (52→78), churn premium (0.3%), precisão (99.98%), Process Cycle Time (-94%) além de prazo/orçamento. STAR-L exemplar em múltiplas dimensões de sucesso.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q6__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Mede impacto cidadão (restituição ICMS 28→9 dias), duplicidades eliminadas (100%), desvio de prazo (23%→7.4%) além de budget. STAR-L mostra métricas business e cidadão.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q6__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Mede compliance (100%), economia (R$12M) e desvio médio (23%→9%) além de prazo. Métricas relevantes mas menos dimensões que outros cases.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q6__unimed-cvc-cancellation": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Mede perda evitada (R$8M), nova receita (R$16M) e EBITDA (+22%) além de ROI. Métricas de value delivery presentes mas case é sobre cancelamento, não programa completo.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q6__sicredi-woop-delay-communication": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Mede adoção (25%), churn (3%), receita incremental (R$50M) além de lançamento. Métricas business presentes mas case foca em comunicação não em program success holístico.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q6__sefaz-profisco-ii-program": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Mede coordenação (47 projetos), satisfação stakeholders, entrega de valor e adaptabilidade além de prazo/budget. STAR-L excepcional em múltiplas dimensões de program success.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q7__hsbc-migration-leadership": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case não é sobre cancelar/pivotar mas sim executar migração complexa. STAR-L excepcional em execução mas conceito de cancelamento/pivot não está presente.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q7__sefaz-pmo-creation": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case é sobre criar PMO do zero, não cancelar/pivotar programa existente. STAR-L excepcional mas conceito de cancelamento não se aplica.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q7__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Cancelou 2 features de baixo impacto para realocar R$2M - é pivot parcial do roadmap. Conceito presente mas escala menor que cancelamento de programa completo.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q7__unimed-cvc-cancellation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Cancelamento completo de programa CVC de R$20M devido a desalinhamento estratégico é exemplo perfeito. STAR-L detalha análise quantitativa (70% incompatibilidade) e decisão.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q7__sicredi-woop-delay-communication": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Pivotou de lançamento completo para MVP é relevante mas escala é projeto único não programa. STAR-L mostra decisão de descope mas profundidade moderada.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q7__sefaz-profisco-ii-program": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Programa menciona adaptabilidade mas não detalha cancelamento/pivot específico. STAR-L excepcional em governança adaptativa mas conceito de cancelamento ausente.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q8__hsbc-migration-leadership": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Coordenar Compliance, Tech, Ops sem controle direto através de visibilidade (dashboards) e comunicação semanal é essência do case. STAR-L mostra gestão de dependências críticas.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q8__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Liderar sem autoridade formal 28 gestores de projeto através de evidência (Power BI) e business case é exemplo perfeito. STAR-L excepcional em influência sem controle.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q8__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Coordenar 12 projetos com matriz de dependências. Conceito presente mas menos detalhes sobre gestão de times sem controle direto que outros cases.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q8__unimed-cvc-cancellation": {
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Case foca em decisão estratégica de cancelamento não em coordenação de dependências entre times. Conceito de gestão sem controle direto secundário.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q8__sicredi-woop-delay-communication": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Coordenou engenharia para root cause analysis mas foco está em comunicação ao board. Gestão de dependências presente mas não é conceito central.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q8__sefaz-profisco-ii-program": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Coordenar 47 projetos com times não controlados diretamente através de matriz de dependências e ferramentas integradas. STAR-L exemplar em gestão de interdependências.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q9__hsbc-migration-leadership": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Deal em risco às 6h da manhã com integração fora dos trilhos é recuperação de programa em crise. STAR-L mostra transformação completa de situação crítica para benchmark.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q9__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Programa com risco de perder US$12M do BID por falta de governança - recuperação em 45 dias. STAR-L excepcional mostra como estruturou programa em crise total.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q9__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Roadmap desalinhado com Reforma Tributária requer ajuste mas não estava completamente fora dos trilhos. Conceito de recuperação parcial, mais ajuste proativo.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q9__unimed-cvc-cancellation": {
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Programa CVC em risco por mudança de gestão mas decisão foi cancelar não recuperar. Conceito de recuperação não se aplica - foi descontinuação estratégica.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q9__sicredi-woop-delay-communication": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Projeto com falhas críticas 3 meses antes do lançamento requer recuperação através de MVP strategy. Conceito presente mas escala é projeto não programa.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q9__sefaz-profisco-ii-program": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Programa iniciou em caos estrutural mas não estava fora dos trilhos - foi estruturado desde início. STAR-L excepcional mas conceito de recuperação não é central.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q10__hsbc-migration-leadership": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Equilibrou controles rigorosos (99.98% precisão) com velocidade (6 meses, Process Cycle -94%). Conceito presente mas não é foco central do case.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q10__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Criou governança estruturada em 45 dias mantendo velocidade de entrega. Conceito presente através de PMO enxuto mas ágil, não é foco central.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q10__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Ajustou roadmap com compliance 100% mantendo progresso. Conceito presente mas case foca mais em adaptação regulatória que balanço governança-agilidade.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q10__unimed-cvc-cancellation": {
+    "relevance": 18,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 62,
+    "reasoning": "Case é sobre decisão de cancelamento não sobre equilibrar governança com velocidade. Conceito de balanço não é central.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q10__sicredi-woop-delay-communication": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Pivotou para MVP (agilidade) mantendo qualidade mínima (governança). Conceito presente mas escala é projeto com ajuste de escopo.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q10__sefaz-profisco-ii-program": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Governança híbrida waterfall-agile equilibrando controle BID com velocidade de 47 projetos é essência do case. STAR-L exemplar mostra estrutura adaptativa.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q11__hsbc-migration-leadership": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Comunicou risco de US$180M em sanções ao CFO com modelagem de cenários. Comunicação de más notícias presente mas não é foco central - case é sobre execução.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q11__sefaz-pmo-creation": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Comunicou situação crítica (risco de perder US$12M) mas com solução pronta. Conceito presente mas apresentação foi de solução não apenas más notícias.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q11__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Comunicou impacto da Reforma (necessidade de cancelar features) ao Secretário com matriz de impacto. Comunicação de trade-offs presente mas com mitigação.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q11__unimed-cvc-cancellation": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Recomendou cancelamento de programa R$20M ao novo presidente mostrando desalinhamento 70%. Comunicação de má notícia (cancelar programa) com alternativa.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q11__sicredi-woop-delay-communication": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Caso perfeito de comunicar atraso de 3 meses ao board assumindo responsabilidade total. STAR-L detalha como preparou apresentação com diagnóstico técnico e plano.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q11__sefaz-profisco-ii-program": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Programa menciona reporte ao BID e Secretário mas não detalha situação específica de comunicar más notícias. STAR-L excepcional mas conceito não é central.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q12__hsbc-migration-leadership": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Modelagem de risco financeiro (US$180M em sanções) e investimento em controles (R$9.5M para monitoramento) é identificação e mitigação exemplar. STAR-L detalhado.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q12__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Identificou risco de perder US$12M e mitigou com PMO estruturado. STAR-L excepcional mas foco está em criação de governança não em gestão contínua de riscos.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q12__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Matriz de impacto quantificando riscos regulatórios e realocação de R$2M para mitigações críticas. Conceito perfeito mas STAR-L poderia ter mais detalhes de mitigação.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q12__unimed-cvc-cancellation": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Identificou risco político (desalinhamento 70%) e mitigou cancelando programa para evitar R$8M em perdas. Conceito presente mas mitigação foi descontinuação.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q12__sicredi-woop-delay-communication": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Identificou falhas críticas e mitigou com MVP strategy. Conceito de risk management presente mas escala é projeto único com foco em comunicação.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q12__sefaz-profisco-ii-program": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Contratou especialista em gestão de riscos, implementou matriz de dependências e criou estrutura adaptativa para 47 projetos. STAR-L exemplar em risk management sistemático.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q13__hsbc-migration-leadership": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Dashboards tempo real para CFO, reuniões semanais para gestores, comunicação direta com clientes premium - comunicação multi-audiência exemplar. STAR-L detalhado.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q13__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Power BI para BID/Secretário mostrando impacto cidadão, métricas técnicas para gestores de projeto - comunicação adaptada por audiência. STAR-L exemplar.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q13__sefaz-roadmap-adjustment-reforma-tributária": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Apresentou matriz de impacto para Secretário e BID. Conceito presente mas menos detalhes sobre adaptação de mensagem por audiência que outros cases.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q13__unimed-cvc-cancellation": {
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Apresentou business case para novo presidente. Comunicação presente mas case foca em decisão de cancelamento não em progresso contínuo para múltiplas audiências.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q13__sicredi-woop-delay-communication": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Preparou apresentação técnica para board. Comunicação a executivos presente mas escala é projeto único e momento específico (crise) não progresso contínuo.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "program_management__Q13__sefaz-profisco-ii-program": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Ferramentas integradas comunicando progresso de 47 projetos para BID (waterfall metrics), Secretário (business value) e times (sprint velocity). STAR-L exemplar multi-audiência.",
+    "analyzedAt": "2025-01-19T22:30:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q1__hsbc-migration-leadership": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: assumiu liderança completa de migração crítica além do escopo PMO, com STAR-L completo e métricas concretas (99.98% precisão, NPS 52→78, churn 0.3%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q1__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: criou PMO institucional do zero além do contrato de consultoria, com STAR-L completo e métricas concretas (100% duplicidades eliminadas, desvio 23%→7.4%, R$2.3M recuperado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q1__bradesco-international-payments": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: liderou reversão completa integrando múltiplas áreas, com STAR-L completo e métricas concretas (custo -14%, SLA -38%, backlog -86%, NPS +26 pontos).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q1__hsbc-payment-reconciliation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: assumiu resolução completa de US$47M em pagamentos travados, com ação hands-on (scripts SQL próprios) e métricas concretas (100% backlog zerado, 40% acima do benchmark).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q1__payment-incidents-prevention-mechanism": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Case PERFEITAMENTE alinhado: transformou escopo de consultoria em mecanismo preventivo completo, com STAR-L detalhado e métricas sólidas (-58% incidentes, -34% MTTR, nenhum incidente classe A repetido).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q1__long-term-tradeoff": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case MUITO BEM alinhado: assumiu decisão sobre core banking além do escopo de integrações, priorizando robustez, com métricas excelentes (99.97% disponibilidade, -53% latência, incidentes P1 27→4).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q1__sefaz-emergency-rollback-no-approval": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: autorizou rollback crítico sem consultar gestor, assumindo responsabilidade total com controles e métricas concretas (1h10 restauração, R$8.2M evitado, 23.4k empresas protegidas).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q1__bradesco-next-delay": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case BEM alinhado: assumiu publicamente erro de estimativa e responsabilidade pela solução, com STAR-L bom e métricas sólidas (73k requisições/hora, 12.8k contas abertas, NPS 89).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q2__hsbc-migration-leadership": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: foi além da função de Head PMO para assumir liderança completa de migração crítica, com STAR-L completo e métricas concretas (99.98% precisão, NPS 52→78, churn 0.3%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q2__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: foi além do contrato de consultoria metodológica para criar PMO institucional completo, com STAR-L detalhado e métricas concretas (desvio 23%→7.4%, R$2.3M recuperado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q2__bradesco-international-payments": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: foi além da função para liderar reversão completa de crise operacional cross-funcional, com métricas excelentes (custo -14%, SLA -38%, NPS 48→74).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q2__hsbc-payment-reconciliation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: foi além da função para resolver pessoalmente crise de reconciliação, escrevendo scripts SQL e liderando tiger team, com métricas concretas (US$47M liberados, backlog zerado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q2__payment-incidents-prevention-mechanism": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Case PERFEITAMENTE alinhado: foi além do escopo de advisor de estratégia para construir mecanismo preventivo completo, com métricas sólidas (-58% incidentes, -34% MTTR, classe A zerado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q2__long-term-tradeoff": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case MUITO BEM alinhado: foi além do escopo de integrações externas para tomar decisão sobre core banking, priorizando estabilidade, com métricas excelentes (99.97% disponibilidade, -53% latência).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q2__sefaz-emergency-rollback-no-approval": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: foi além do mandato de advisor para autorizar rollback crítico sem aprovação, com controles estritos e métricas concretas (1h10 restauração, R$8.2M evitado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q2__bradesco-next-delay": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Case MUITO BEM alinhado: foi além da função de PM para assumir publicamente erro perante CEO/CTO e liderar solução completa, com boas métricas (73k req/h, NPS 89).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q3__hsbc-migration-leadership": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case BEM alinhado: decisão de investir R$9.5M em controles e automação foi escolha de longo prazo para qualidade sobre velocidade, com métricas excelentes (99.98% precisão, NPS 52→78).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q3__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: decisão de criar PMO institucional permanente versus solução pontual é claramente de longo prazo, com métricas concretas (desvio 23%→7.4%, R$2.3M recuperado anualmente).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q3__bradesco-international-payments": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case BEM alinhado: além de resolver crise, criou manual e template corporativo reutilizável de longo prazo, com métricas sólidas (custo -14%, R$4.8M/ano evitado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q3__hsbc-payment-reconciliation": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case PARCIALMENTE alinhado: focado em resolver crise imediata (38 dias), mas criou playbooks reutilizáveis, com métricas concretas (US$47M liberados, 40% melhor que benchmark).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q3__payment-incidents-prevention-mechanism": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Case PERFEITAMENTE alinhado: rejeitou soluções de curto prazo para construir capacidade interna permanente de prevenção, com métricas sólidas (-58% incidentes recorrentes, -34% MTTR).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q3__long-term-tradeoff": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: decisão explícita de reduzir escopo para priorizar robustez de longo prazo sobre volume de curto prazo, com métricas excelentes (99.97% disponibilidade, Black Friday sem incidentes).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q3__sefaz-emergency-rollback-no-approval": {
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 74,
+    "reasoning": "Case PARCIALMENTE alinhado: decisão foi emergencial e imediata, mas criou protocolo e precedente de longo prazo, com métricas concretas (1h10 restauração, R$8.2M evitado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q3__bradesco-next-delay": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case BEM alinhado: decisão de assumir erro e refazer corretamente versus empurrar problema gerou credibilidade de longo prazo, com boas métricas (73k req/h, NPS 89).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q4__hsbc-migration-leadership": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: migração crítica não era responsabilidade inicial do PMO de Operações, mas assumiu ownership completo, com métricas concretas (99.98% precisão, NPS 52→78, churn 0.3%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q4__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: criar PMO institucional não estava no escopo do contrato de consultoria, mas assumiu responsabilidade integral, com métricas concretas (desvio 23%→7.4%, R$2.3M recuperado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q4__bradesco-international-payments": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case BEM alinhado: crise abrangia Operações, Compliance, TI e Procurement além da sua área, mas assumiu liderança completa, com métricas excelentes (custo -14%, SLA -38%, NPS 48→74).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q4__hsbc-payment-reconciliation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: reconciliação de pagamentos atravessava Operações, TI, Compliance e Correspondentes, mas assumiu resolução pessoal, com métricas concretas (US$47M liberados, backlog zerado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q4__payment-incidents-prevention-mechanism": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Case PERFEITAMENTE alinhado: mecanismo de prevenção não estava no escopo de advisor de estratégia, mas assumiu construção completa, com métricas sólidas (-58% incidentes, -34% MTTR).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q4__long-term-tradeoff": {
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case PERFEITAMENTE alinhado: performance do core banking não era responsabilidade de integrações externas, mas assumiu decisão crítica, com métricas excelentes (99.97% disponibilidade, -53% latência).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q4__sefaz-emergency-rollback-no-approval": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: autorização de rollback não estava no mandato de advisor, mas agiu sem aprovação com controles estritos, com métricas concretas (1h10 restauração, R$8.2M evitado, 23.4k empresas).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q4__bradesco-next-delay": {
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 70,
+    "reasoning": "Case PARCIALMENTE alinhado: erro de estimativa foi na sua área de responsabilidade, mas assumiu publicamente perante CEO/CTO indo além, com boas métricas (73k req/h, NPS 89).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q5__hsbc-migration-leadership": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: trade-off de investir R$9.5M e tempo extra para qualidade versus velocidade mínima, priorizando longo prazo, com métricas concretas (99.98% precisão, churn 0.3%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q5__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: trade-off de construir capacidade interna permanente versus soluções rápidas externas, priorizando autonomia de longo prazo, com métricas concretas (desvio 23%→7.4%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q5__bradesco-international-payments": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case BEM alinhado: trade-off de pausar features novas para corrigir estrutura operacional, priorizando sustentabilidade, com métricas excelentes (custo -14%, R$4.8M/ano evitado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q5__hsbc-payment-reconciliation": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case PARCIALMENTE alinhado: focado em resolver crise imediata versus trade-offs de longo prazo, mas criou playbooks reutilizáveis, com métricas concretas (US$47M liberados).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q5__payment-incidents-prevention-mechanism": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Case PERFEITAMENTE alinhado: trade-off explícito entre ampliar suporte (rápido), terceirizar (caro) ou construir interno (sustentável), escolhendo longo prazo, com métricas sólidas (-58% incidentes).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q5__long-term-tradeoff": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: trade-off EXPLÍCITO de reduzir escopo para priorizar robustez de longo prazo, com métricas excelentes (99.97% disponibilidade, -53% latência, Black Friday sucesso).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q5__sefaz-emergency-rollback-no-approval": {
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 74,
+    "reasoning": "Case PARCIALMENTE alinhado: trade-off foi entre agir imediatamente vs esperar aprovação, criando precedente de longo prazo, com métricas concretas (1h10 restauração, R$8.2M evitado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q5__bradesco-next-delay": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Case MUITO BEM alinhado: trade-off de assumir erro publicamente (credibilidade longo prazo) versus justificar/esconder (imagem curto prazo), com boas métricas (73k req/h, NPS 89).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q6__hsbc-migration-leadership": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case PARCIALMENTE alinhado: apesar de liderar migração crítica, menciona apoio do CFO para obter R$9.5M, não foi decisão completamente sem consultar, com métricas concretas (99.98% precisão).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q6__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: trabalhou fim de semana inteiro extraindo dados e criando business case antes de apresentar, tomando iniciativa sem consulta prévia, com métricas concretas (desvio 23%→7.4%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q6__bradesco-international-payments": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case PARCIALMENTE alinhado: liderou força-tarefa e decisões, mas menciona apoio do CFO para orçamento R$120k, não totalmente independente, com métricas excelentes (custo -14%, SLA -38%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q6__hsbc-payment-reconciliation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: montou tiger team em 36h e instituiu cadência de guerra com decisões autônomas, análise pessoal de 300 transações, com métricas concretas (US$47M liberados).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q6__payment-incidents-prevention-mechanism": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Case MUITO BEM alinhado: avaliou três opções e escolheu construir capacidade interna, mapeando 62 incidentes e definindo estrutura, com métricas sólidas (-58% incidentes, -34% MTTR).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q6__long-term-tradeoff": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case BEM alinhado: em 48h organizou squad multifuncional e tomou decisão impopular de reduzir escopo, com métricas excelentes (99.97% disponibilidade, -53% latência).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q6__sefaz-emergency-rollback-no-approval": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: autorizou rollback crítico após 15min tentando contato, decidindo sozinho com controles estritos, com métricas concretas (1h10 restauração, R$8.2M evitado, 23.4k empresas).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q6__bradesco-next-delay": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case BEM alinhado: comunicou erro diretamente ao CEO e CTO em 24h sem intermediários, assumindo responsabilidade total, com boas métricas (73k req/h, NPS 89).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q7__hsbc-migration-leadership": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case BEM alinhado: identificou risco crítico de migração mal planejada e assumiu ownership completo da solução, com métricas concretas (99.98% precisão, NPS 52→78, Process Cycle Time -94%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q7__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: identificou ineficiência de 11 sistemas duplicados sem governança e assumiu criação de PMO unificado, com métricas concretas (100% duplicidades eliminadas, desvio 23%→7.4%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q7__bradesco-international-payments": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: identificou ineficiência estrutural causando custo +15% e SLA +60% e assumiu correção completa, com métricas excelentes (custo -14%, SLA -38%, backlog -86%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q7__hsbc-payment-reconciliation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: identificou proativamente US$47M em pagamentos travados em auditoria paralela e assumiu resolução total, com métricas concretas (2847→0 backlog, 40% melhor que benchmark).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q7__payment-incidents-prevention-mechanism": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Case PERFEITAMENTE alinhado: identificou padrão de incidentes reincidentes (3x em 6 semanas) e transformou em mecanismo preventivo, com métricas sólidas (-58% incidentes, -34% MTTR, classe A zerado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q7__long-term-tradeoff": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case MUITO BEM alinhado: identificou gargalo crítico de performance no core (8k TPS limite) e assumiu decisão de redesenho, com métricas excelentes (99.97% disponibilidade, -53% latência).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q7__sefaz-emergency-rollback-no-approval": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case BEM alinhado: identificou necessidade crítica de rollback e tomou ownership da decisão com controles, com métricas concretas (1h10 restauração, R$8.2M evitado, 23.4k empresas protegidas).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q7__bradesco-next-delay": {
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 70,
+    "reasoning": "Case PARCIALMENTE alinhado: identificou erro de estimativa próprio e assumiu correção transparente, não ineficiência sistêmica de outros, com boas métricas (73k req/h, NPS 89).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q8__hsbc-migration-leadership": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Case TANGENCIALMENTE alinhado: focado em sucesso de migração, não em falha pessoal assumida, apesar de métricas excelentes (99.98% precisão, NPS 52→78).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q8__sefaz-pmo-creation": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Case TANGENCIALMENTE alinhado: focado em resolver problema institucional existente, não em assumir falha pessoal, apesar de métricas concretas (desvio 23%→7.4%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q8__bradesco-international-payments": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Case TANGENCIALMENTE alinhado: herdou crise operacional e resolveu, não assumiu falha pessoal prévia, apesar de métricas excelentes (custo -14%, SLA -38%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q8__hsbc-payment-reconciliation": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Case TANGENCIALMENTE alinhado: identificou problema sistêmico proativamente e resolveu, não assumiu falha pessoal, apesar de métricas concretas (US$47M liberados).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q8__payment-incidents-prevention-mechanism": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 68,
+    "reasoning": "Case TANGENCIALMENTE alinhado: resolveu padrão de incidentes reincidentes, não assumiu falha pessoal específica, apesar de métricas sólidas (-58% incidentes).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q8__long-term-tradeoff": {
+    "relevance": 12,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 68,
+    "reasoning": "Case TANGENCIALMENTE alinhado: tomou decisão preventiva para evitar falha futura, não assumiu falha passada, apesar de métricas excelentes (99.97% disponibilidade).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q8__sefaz-emergency-rollback-no-approval": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Case TANGENCIALMENTE alinhado: respondeu a incidente causado por deploy de outros, não assumiu falha pessoal, apesar de métricas concretas (1h10 restauração, R$8.2M evitado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q8__bradesco-next-delay": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Case PERFEITAMENTE alinhado: falhou na estimativa de integração Serasa e assumiu publicamente ao CEO/CTO em 24h, com STAR-L completo e boas métricas (73k req/h, NPS 89, entregue no novo prazo).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q9__hsbc-migration-leadership": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: liderou migração completa de US$5.2B do início ao fim em 6 meses, com STAR-L completo e métricas concretas (99.98% precisão, NPS 52→78, churn 0.3%, Process Cycle Time -94%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q9__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: liderou criação de PMO institucional do zero ao fim em 90 dias, com STAR-L detalhado e métricas concretas (desvio 23%→7.4%, R$2.3M recuperado, tempo ICMS 28→9 dias).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q9__bradesco-international-payments": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: liderou reversão completa da crise do início ao fim em 74 dias, com STAR-L completo e métricas excelentes (custo -14%, SLA -38%, backlog -86%, NPS 48→74).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q9__hsbc-payment-reconciliation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: liderou resolução de US$47M do início ao fim em 38 dias, com STAR-L completo e métricas concretas (2847→0 backlog, 40% melhor que benchmark, R$12M multa evitada).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q9__payment-incidents-prevention-mechanism": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Case PERFEITAMENTE alinhado: liderou transformação de incidentes em mecanismo do início ao fim em 4 meses, com STAR-L detalhado e métricas sólidas (-58% incidentes, -34% MTTR, classe A zerado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q9__long-term-tradeoff": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case MUITO BEM alinhado: liderou redesenho de arquitetura do início ao fim em 28 dias, com métricas excelentes (99.97% disponibilidade, -53% latência, incidentes P1 27→4, Black Friday sucesso).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q9__sefaz-emergency-rollback-no-approval": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case BEM alinhado: liderou resposta emergencial completa do alerta ao pós-mortem em 1h10, com métricas concretas (R$8.2M evitado, 23.4k empresas protegidas, protocolo criado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q9__bradesco-next-delay": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Case MUITO BEM alinhado: liderou correção de integração do erro ao lançamento em 8 semanas, com boas métricas (73k req/h, 12.8k contas, NPS 89, tempo aprovação 3min47s).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q10__hsbc-migration-leadership": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case BEM alinhado: implementou monitoramento em tempo real e validação automatizada para prevenir erros em migração de contas, com métricas concretas (99.98% precisão, Process Cycle Time 72→4h).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q10__sefaz-pmo-creation": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case PARCIALMENTE alinhado: criou governança para prevenir atrasos em projetos (não específico de pagamentos), com métricas concretas (desvio 23%→7.4%, tempo restituição ICMS 28→9 dias).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q10__bradesco-international-payments": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: criou manual de 21 páginas e template corporativo para prevenir crises em pagamentos internacionais, com métricas excelentes (custo -14%, SLA -38%, R$4.8M/ano evitado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q10__hsbc-payment-reconciliation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: criou playbooks e automação para prevenir problemas de reconciliação de pagamentos, com métricas concretas (2847→0 backlog, 80% automatizado, 40% melhor que benchmark).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q10__payment-incidents-prevention-mechanism": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Case PERFEITAMENTE alinhado: criou mecanismo específico para prevenir incidentes recorrentes em pagamentos, com STAR-L completo e métricas sólidas (-58% incidentes, -34% MTTR, nenhum classe A repetido).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q10__long-term-tradeoff": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case BEM alinhado: implementou arquitetura resiliente para prevenir problemas de performance em processamento de pagamentos, com métricas excelentes (99.97% disponibilidade, -53% latência, Black Friday sem incidentes).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q10__sefaz-emergency-rollback-no-approval": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case BEM alinhado: criou protocolo emergencial e documentação de rollback para prevenir indisponibilidade de sistemas fiscais, com métricas concretas (1h10 restauração, 4x mais rápido que 2015).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q10__bradesco-next-delay": {
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 70,
+    "reasoning": "Case PARCIALMENTE alinhado: aprendizado sobre estimativas para prevenir atrasos futuros, mas não criou mecanismo sistêmico específico de pagamentos, com boas métricas (73k req/h, NPS 89).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q11__hsbc-migration-leadership": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: situação onde Compliance, TI ou Operações poderiam liderar, mas assumiu ownership como PMO, com métricas concretas (99.98% precisão, NPS 52→78, churn 0.3%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q11__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: situação onde múltiplas secretarias/diretorias poderiam criar PMO, mas assumiu como consultor, com métricas concretas (desvio 23%→7.4%, R$2.3M recuperado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q11__bradesco-international-payments": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: crise envolvia 7 áreas (Operações, Compliance, TI, Comercial, Procurement), qualquer uma poderia liderar, mas assumiu ownership, com métricas excelentes (custo -14%, SLA -38%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q11__hsbc-payment-reconciliation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: problema atravessava Operações, TI, Compliance, Correspondentes e Controladoria, mas assumiu resolução pessoal, com métricas concretas (US$47M liberados, backlog zerado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q11__payment-incidents-prevention-mechanism": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Case MUITO BEM alinhado: incidentes eram de infraestrutura, operações e desenvolvimento, mas assumiu construção de mecanismo preventivo, com métricas sólidas (-58% incidentes, -34% MTTR).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q11__long-term-tradeoff": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case BEM alinhado: problema de core poderia ser de SRE, Arquitetura ou Produto, mas assumiu decisão de reduzir escopo, com métricas excelentes (99.97% disponibilidade, -53% latência).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q11__sefaz-emergency-rollback-no-approval": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: rollback poderia ser autorizado por diretor, NOC ou DBA, mas assumiu decisão como advisor, com métricas concretas (1h10 restauração, R$8.2M evitado, 23.4k empresas).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q11__bradesco-next-delay": {
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 70,
+    "reasoning": "Case PARCIALMENTE alinhado: erro de integração poderia ser do time, Serasa ou arquitetura, mas assumiu publicamente como PM, com boas métricas (73k req/h, NPS 89).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q12__hsbc-migration-leadership": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: migração mal planejada era problema de múltiplas áreas, mas assumiu liderança completa da solução, com métricas concretas (99.98% precisão, NPS 52→78, churn 0.3%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q12__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case MUITO BEM alinhado: caos de 11 sistemas foi criado por gestões anteriores e múltiplas diretorias, mas assumiu criação de PMO unificado, com métricas concretas (desvio 23%→7.4%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q12__bradesco-international-payments": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: degradação operacional foi causada por múltiplos times nos 6 meses anteriores, mas assumiu reversão completa, com métricas excelentes (custo -14%, SLA -38%, NPS 48→74).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q12__hsbc-payment-reconciliation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: backlog de reconciliação foi criado por processos de Operações e TI anteriores, mas assumiu resolução completa, com métricas concretas (US$47M liberados, 2847→0 backlog).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q12__payment-incidents-prevention-mechanism": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Case PERFEITAMENTE alinhado: incidentes recorrentes foram causados por times de infraestrutura e desenvolvimento, mas assumiu construção de mecanismo preventivo, com métricas sólidas (-58% incidentes).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q12__long-term-tradeoff": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case BEM alinhado: limitação de core banking foi problema de arquitetura anterior, mas assumiu decisão de mitigação, com métricas excelentes (99.97% disponibilidade, -53% latência).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q12__sefaz-emergency-rollback-no-approval": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: deploy problemático foi feito por outro time, mas assumiu ownership do rollback emergencial, com métricas concretas (1h10 restauração, R$8.2M evitado, 23.4k empresas).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q12__bradesco-next-delay": {
+    "relevance": 12,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 64,
+    "reasoning": "Case TANGENCIALMENTE alinhado: erro de estimativa foi próprio, não de outro time, apesar de assumir publicamente, com boas métricas (73k req/h, NPS 89).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q13__hsbc-migration-leadership": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: gerenciou dependências entre Compliance, TI, Operações, Clientes e BACEN em migração crítica, com métricas concretas (99.98% precisão, NPS 52→78, Process Cycle Time -94%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q13__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: gerenciou dependências de 28 projetos através de 11 sistemas e múltiplas secretarias, com métricas concretas (100% duplicidades eliminadas, desvio 23%→7.4%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q13__bradesco-international-payments": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: gerenciou dependências entre 7 times (Operações, Compliance, TI, Comercial, Procurement, Correspondentes), com daily 30min e métricas excelentes (custo -14%, SLA -38%).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q13__hsbc-payment-reconciliation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: gerenciou tiger team com Operações, TI, Compliance, Correspondentes e Controladoria, daily 8h e review 18h, com métricas concretas (US$47M liberados, backlog zerado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q13__payment-incidents-prevention-mechanism": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Case MUITO BEM alinhado: gerenciou dependências entre Infraestrutura, Operações, Desenvolvimento e QA para mecanismo preventivo, com métricas sólidas (-58% incidentes, -34% MTTR).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q13__long-term-tradeoff": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case MUITO BEM alinhado: organizou squad multifuncional com SRE, Risco e Produto em 48h, gerenciando dependências críticas, com métricas excelentes (99.97% disponibilidade, -53% latência).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q13__sefaz-emergency-rollback-no-approval": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case BEM alinhado: coordenou call emergencial com NOC, DBA, Segurança, Rede e Compliance para rollback, com métricas concretas (1h10 restauração, R$8.2M evitado).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  },
+  "ownership__Q13__bradesco-next-delay": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case BEM alinhado: gerenciou dependências com Serasa, SPC, Times internos e Arquitetura para correção, com boas métricas (73k req/h, NPS 89, 3min47s aprovação).",
+    "analyzedAt": "2025-01-19T23:00:00Z",
+    "version": "3.0"
+  }
+}

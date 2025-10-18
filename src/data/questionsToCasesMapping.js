@@ -8,75 +8,151 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
-          "caseId": "sicredi-small-business-survival",
-          "score": 84
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 92
         },
         {
-          "caseId": "sicredi-woop-segment-balance",
-          "score": 81
+          "caseId": "sicredi-small-business-survival",
+          "score": 91
+        },
+        {
+          "caseId": "bradesco-elderly-digital-inclusion",
+          "score": 88
+        },
+        {
+          "caseId": "unimed-pet-anticipation",
+          "score": 87
         }
       ]
     },
     "2": {
       "options": [
         {
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 90
+        },
+        {
           "caseId": "sicredi-small-business-survival",
-          "score": 80
+          "score": 89
+        },
+        {
+          "caseId": "bradesco-elderly-digital-inclusion",
+          "score": 86
+        },
+        {
+          "caseId": "unimed-pet-anticipation",
+          "score": 83
+        },
+        {
+          "caseId": "sicredi-fraud-prevention-experience",
+          "score": 83
         },
         {
           "caseId": "sicredi-woop-segment-balance",
-          "score": 79
+          "score": 82
         }
       ]
     },
     "3": {
       "options": [
         {
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 88
+        },
+        {
+          "caseId": "bradesco-elderly-digital-inclusion",
+          "score": 86
+        },
+        {
           "caseId": "sicredi-woop-segment-balance",
-          "score": 85
+          "score": 86
+        },
+        {
+          "caseId": "sicredi-small-business-survival",
+          "score": 83
+        },
+        {
+          "caseId": "sicredi-fraud-prevention-experience",
+          "score": 83
+        },
+        {
+          "caseId": "sicredi-chargeback-proactive-resolution",
+          "score": 81
         }
       ]
     },
     "4": {
       "options": [
         {
-          "caseId": "sicredi-woop-segment-balance",
-          "score": 95
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-elderly-digital-inclusion",
+          "score": 88
         },
         {
           "caseId": "sicredi-small-business-survival",
-          "score": 80
+          "score": 87
+        },
+        {
+          "caseId": "unimed-pet-anticipation",
+          "score": 85
+        },
+        {
+          "caseId": "sicredi-woop-segment-balance",
+          "score": 84
+        },
+        {
+          "caseId": "sicredi-fraud-prevention-experience",
+          "score": 81
         }
       ]
     },
     "5": {
       "options": [
         {
-          "caseId": "sicredi-small-business-survival",
-          "score": 80
+          "caseId": "bradesco-elderly-digital-inclusion",
+          "score": 88
+        },
+        {
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 84
+        },
+        {
+          "caseId": "sicredi-fraud-prevention-experience",
+          "score": 83
         },
         {
           "caseId": "sicredi-woop-segment-balance",
-          "score": 79
+          "score": 82
         }
       ]
     },
     "6": {
-      "options": [
-        {
-          "caseId": "sicredi-small-business-survival",
-          "score": 80
-        }
-      ]
+      "options": []
     },
     "7": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-balance",
+          "score": 86
+        },
+        {
+          "caseId": "sicredi-chargeback-proactive-resolution",
+          "score": 81
+        }
+      ]
     },
     "8": {
       "options": [
         {
-          "caseId": "sicredi-small-business-survival",
-          "score": 84
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 80
+        },
+        {
+          "caseId": "bradesco-elderly-digital-inclusion",
+          "score": 80
         }
       ]
     },
@@ -84,22 +160,39 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-woop-segment-balance",
-          "score": 97
+          "score": 86
         }
       ]
     },
     "10": {
-      "options": []
+      "options": [
+        {
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 84
+        },
+        {
+          "caseId": "bradesco-elderly-digital-inclusion",
+          "score": 84
+        },
+        {
+          "caseId": "sicredi-small-business-survival",
+          "score": 83
+        },
+        {
+          "caseId": "sicredi-woop-segment-balance",
+          "score": 82
+        }
+      ]
     },
     "11": {
       "options": [
         {
-          "caseId": "sicredi-small-business-survival",
-          "score": 80
+          "caseId": "sicredi-fraud-prevention-experience",
+          "score": 83
         },
         {
-          "caseId": "sicredi-woop-segment-balance",
-          "score": 79
+          "caseId": "bradesco-elderly-digital-inclusion",
+          "score": 80
         }
       ]
     },
@@ -115,7 +208,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-woop-segment-balance",
-          "score": 95
+          "score": 86
         }
       ]
     },
@@ -123,11 +216,19 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-small-business-survival",
-          "score": 80
+          "score": 87
         },
         {
-          "caseId": "sicredi-woop-segment-balance",
-          "score": 79
+          "caseId": "unimed-pet-anticipation",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-cancer-patient-journey",
+          "score": 84
+        },
+        {
+          "caseId": "bradesco-elderly-digital-inclusion",
+          "score": 84
         }
       ]
     }
@@ -136,21 +237,187 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
+          "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
           "caseId": "hsbc-migration-leadership",
-          "score": 80
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-international-payments",
+          "score": 88
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 88
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 88
+        },
+        {
+          "caseId": "long-term-tradeoff",
+          "score": 84
         }
       ]
     },
     "2": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-international-payments",
+          "score": 88
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 88
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 88
+        },
+        {
+          "caseId": "long-term-tradeoff",
+          "score": 84
+        },
+        {
+          "caseId": "bradesco-next-delay",
+          "score": 80
+        }
+      ]
     },
     "3": {
-      "options": []
+      "options": [
+        {
+          "caseId": "long-term-tradeoff",
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 91
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 88
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 84
+        },
+        {
+          "caseId": "bradesco-international-payments",
+          "score": 80
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 80
+        }
+      ]
     },
     "4": {
       "options": [
         {
           "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 92
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 88
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 88
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 88
+        },
+        {
+          "caseId": "long-term-tradeoff",
+          "score": 88
+        },
+        {
+          "caseId": "bradesco-international-payments",
+          "score": 84
+        }
+      ]
+    },
+    "5": {
+      "options": [
+        {
+          "caseId": "long-term-tradeoff",
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 91
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 88
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 88
+        },
+        {
+          "caseId": "bradesco-international-payments",
+          "score": 80
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 80
+        },
+        {
+          "caseId": "bradesco-next-delay",
+          "score": 80
+        }
+      ]
+    },
+    "6": {
+      "options": [
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 91
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 88
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 84
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 80
+        },
+        {
+          "caseId": "bradesco-international-payments",
           "score": 80
         },
         {
@@ -159,41 +426,209 @@ export const questionsToCasesMapping = {
         }
       ]
     },
-    "5": {
-      "options": []
-    },
-    "6": {
-      "options": []
-    },
     "7": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
+          "caseId": "bradesco-international-payments",
+          "score": 92
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 92
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 88
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 84
+        },
+        {
+          "caseId": "long-term-tradeoff",
+          "score": 84
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 84
+        }
+      ]
     },
     "8": {
       "options": [
         {
           "caseId": "bradesco-next-delay",
-          "score": 81
-        },
-        {
-          "caseId": "sefaz-pmo-creation",
-          "score": 80
+          "score": 88
         }
       ]
     },
     "9": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-international-payments",
+          "score": 92
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 92
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 88
+        },
+        {
+          "caseId": "long-term-tradeoff",
+          "score": 84
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 84
+        },
+        {
+          "caseId": "bradesco-next-delay",
+          "score": 80
+        }
+      ]
     },
     "10": {
-      "options": []
+      "options": [
+        {
+          "caseId": "bradesco-international-payments",
+          "score": 88
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 88
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 88
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 84
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 84
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 83
+        },
+        {
+          "caseId": "long-term-tradeoff",
+          "score": 80
+        }
+      ]
     },
     "11": {
-      "options": []
+      "options": [
+        {
+          "caseId": "bradesco-international-payments",
+          "score": 92
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 91
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 88
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 84
+        },
+        {
+          "caseId": "long-term-tradeoff",
+          "score": 80
+        }
+      ]
     },
     "12": {
-      "options": []
+      "options": [
+        {
+          "caseId": "bradesco-international-payments",
+          "score": 92
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 92
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 91
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 88
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 88
+        },
+        {
+          "caseId": "long-term-tradeoff",
+          "score": 80
+        }
+      ]
     },
     "13": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 95
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-international-payments",
+          "score": 92
+        },
+        {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 92
+        },
+        {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 84
+        },
+        {
+          "caseId": "long-term-tradeoff",
+          "score": 84
+        },
+        {
+          "caseId": "sefaz-emergency-rollback-no-approval",
+          "score": 84
+        }
+      ]
     }
   },
   "invent_simplify": {
@@ -1556,20 +1991,36 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
+          "caseId": "hsbc-migration-leadership",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 87
+        },
+        {
           "caseId": "sefaz-profisco-ii-program",
-          "score": 89
+          "score": 85
         }
       ]
     },
     "2": {
       "options": [
         {
+          "caseId": "sefaz-pmo-creation",
+          "score": 87
+        },
+        {
           "caseId": "sefaz-profisco-ii-program",
           "score": 85
         },
         {
+          "caseId": "hsbc-migration-leadership",
+          "score": 83
+        },
+        {
           "caseId": "sefaz-roadmap-adjustment-reforma-tributária",
-          "score": 80
+          "score": 83
         }
       ]
     },
@@ -1577,57 +2028,103 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sefaz-roadmap-adjustment-reforma-tributária",
-          "score": 88
+          "score": 91
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 83
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 83
+        },
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 81
         }
       ]
     },
     "4": {
-      "options": []
+      "options": [
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 85
+        },
+        {
+          "caseId": "unimed-cvc-cancellation",
+          "score": 83
+        }
+      ]
     },
     "5": {
       "options": [
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 81
+          "caseId": "sicredi-woop-delay-communication",
+          "score": 91
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 83
         }
       ]
     },
     "6": {
       "options": [
         {
+          "caseId": "hsbc-migration-leadership",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 87
+        },
+        {
           "caseId": "sefaz-profisco-ii-program",
-          "score": 91
-        },
-        {
-          "caseId": "unimed-cvc-cancellation",
           "score": 85
-        },
-        {
-          "caseId": "sefaz-roadmap-adjustment-reforma-tributária",
-          "score": 82
         }
       ]
     },
     "7": {
-      "options": []
+      "options": [
+        {
+          "caseId": "unimed-cvc-cancellation",
+          "score": 91
+        }
+      ]
     },
     "8": {
       "options": [
         {
-          "caseId": "sefaz-roadmap-adjustment-reforma-tributária",
-          "score": 80
+          "caseId": "hsbc-migration-leadership",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 87
         },
         {
           "caseId": "sefaz-profisco-ii-program",
-          "score": 79
+          "score": 85
         }
       ]
     },
     "9": {
       "options": [
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 81
+          "caseId": "hsbc-migration-leadership",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 87
         }
       ]
     },
@@ -1636,22 +2133,59 @@ export const questionsToCasesMapping = {
         {
           "caseId": "sefaz-profisco-ii-program",
           "score": 85
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 83
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 83
         }
       ]
     },
     "11": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-woop-delay-communication",
+          "score": 91
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 83
+        }
+      ]
     },
     "12": {
       "options": [
         {
+          "caseId": "hsbc-migration-leadership",
+          "score": 87
+        },
+        {
           "caseId": "sefaz-profisco-ii-program",
-          "score": 81
+          "score": 85
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 83
+        },
+        {
+          "caseId": "sefaz-roadmap-adjustment-reforma-tributária",
+          "score": 83
         }
       ]
     },
     "13": {
       "options": [
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 87
+        },
         {
           "caseId": "sefaz-profisco-ii-program",
           "score": 85

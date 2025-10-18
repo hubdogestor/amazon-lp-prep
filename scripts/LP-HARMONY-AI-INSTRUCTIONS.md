@@ -28,9 +28,15 @@ O script vai:
 node scripts/lp-harmony-ai.mjs batch1
 ```
 
-### **PASSO 2: Copiar o prompt gerado**
+### **PASSO 2: Abrir o arquivo de prompt**
 
-O script vai gerar um prompt gigante como este:
+O script vai salvar o prompt em um arquivo:
+
+```
+✅ PROMPT SALVO EM: D:\github2\amazon-lp-prep\scripts\.prompt-customer_obsession.txt
+```
+
+Abra esse arquivo e você verá o prompt completo:
 
 ```
 # 🎯 TAREFA: Análise Semântica de Cases para Leadership Principle
@@ -54,9 +60,12 @@ Você é um especialista em Leadership Principles da Amazon...
 [... todas as combinações ...]
 ```
 
-### **PASSO 3: Colar no Claude e obter resposta**
+### **PASSO 3: Copiar e colar no Claude**
 
-Cole o prompt no Claude (você mesmo, nesta conversa ou em outra sessão).
+1. Abra o arquivo `.prompt-<principle>.txt`
+2. Selecione TODO o conteúdo (Ctrl+A)
+3. Copie (Ctrl+C)
+4. Cole no Claude (você mesmo, nesta conversa ou em outra sessão)
 
 Claude vai retornar algo assim:
 
@@ -291,6 +300,11 @@ echo '<seu-json>' | jq
 ---
 
 ## 🐛 **TROUBLESHOOTING**
+
+### **Não consigo ver o prompt completo no terminal**
+→ ✅ RESOLVIDO! O prompt agora é salvo em arquivo `.prompt-<principle>.txt`
+→ Abra o arquivo com seu editor favorito (VSCode, Notepad++, etc.)
+→ O terminal mostra apenas onde o arquivo foi salvo
 
 ### **Erro: "Resposta AI não contém JSON válido"**
 → Certifique-se de copiar o JSON completo entre ```json e ```

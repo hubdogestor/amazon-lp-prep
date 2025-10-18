@@ -670,21 +670,28 @@ Exemplo:
       } else {
         console.log(`\n🤖 AGUARDANDO ANÁLISE AI...`);
         console.log(`📊 ${combinations.length} combinações precisam ser analisadas\n`);
-        console.log('─'.repeat(70));
 
         const prompt = analyzer.generateAIPrompt(combinations, principleId);
 
-        console.log(prompt);
+        // Salvar prompt em arquivo
+        const promptFile = path.join(__dirname, `.prompt-${principleId}.txt`);
+        fs.writeFileSync(promptFile, prompt, 'utf-8');
 
         console.log('─'.repeat(70));
-        console.log('\n⏸️  PAUSADO: Cole a resposta JSON do Claude abaixo e pressione ENTER');
-        console.log('(ou Ctrl+C para cancelar)\n');
+        console.log(`✅ PROMPT SALVO EM: ${promptFile}`);
+        console.log('─'.repeat(70));
+        console.log('\n📋 PRÓXIMOS PASSOS:\n');
+        console.log(`1. Abra o arquivo: ${promptFile}`);
+        console.log(`2. Copie TODO o conteúdo`);
+        console.log(`3. Cole no Claude para análise`);
+        console.log(`4. Copie a resposta JSON do Claude`);
+        console.log(`5. Salve no cache: ${CACHE_FILE}`);
+        console.log(`6. Execute novamente: node scripts/lp-harmony-ai.mjs ${command}\n`);
+        console.log('─'.repeat(70));
 
-        // TODO: Aqui você poderia implementar readline para capturar a resposta
-        // Por agora, vou deixar um placeholder para você colar manualmente
+        console.log('\n⏸️  PAUSADO: Aguardando que você complete os passos acima');
+        console.log('(Ctrl+C para sair)\n');
 
-        console.log('⚠️  MODO INTERATIVO: Execute novamente após Claude responder');
-        console.log(`\n💾 Salve a resposta em: ${CACHE_FILE}`);
         process.exit(0);
       }
 

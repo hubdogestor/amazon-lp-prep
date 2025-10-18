@@ -6,7 +6,7 @@ const case_4 = {
   company: "HSBC",
   period: "03/2016-05/2016",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
 
   pt: {
     s: "Março de 2016. Faltavam 21 dias para o cutover Banquo → Bradesco quando minha rotina de auditoria paralela identificou um número alarmante no dashboard: 2.847 pagamentos não reconciliados, somando US$ 47 milhões. O risco era imediato -- o BACEN poderia aplicar multa de 0,5% dos ativos (≈ R$ 12 milhões), 18 clientes priority sofriam atrasos > 48h e o prazo do cutover era inegociável. Como PMO, eu já respondia pela governança da migração e conhecia em detalhe o fluxo de reconciliação e integração SWIFT. Percebi que ninguém tinha autoridade formal sobre o problema -- Operações, Compliance e TI se limitavam a suas fronteiras -- e decidi assumir a responsabilidade ponta a ponta, unindo planejamento, execução técnica e alinhamento regulatório.",

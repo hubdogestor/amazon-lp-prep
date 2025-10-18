@@ -5,8 +5,8 @@ const case_2 = {
   title_en: "Institutional PMO Structuring and PROFISCO II Governance from Scratch",
   company: "SEFAZ/RS",
   period: "08/2024-11/2025",
-  isTopCase: false,
-  isGoodCase: false,
+  isTopCase: true,
+  isGoodCase: true,
   pt: {
     s: "Agosto de 2024. Como consultor metodológico sênior na SEFAZ/RS, eu era responsável por integração de projetos e aplicação de boas práticas de governança, tendo liderado modelos semelhantes em outras secretarias. Na sexta-feira, às 17h30, chegou o ofício do BID: '45 dias ou congelamos US$ 12 milhões'. O PROFISCO II (R$ 180 milhões) precisava de um plano robusto de governança ou perderia o desembolso. Ao examinar o portfólio, encontrei 28 projetos sem integração, três duplicados consumindo R$ 4,2 milhões e 18 auditorias atrasadas. Os diretores se isometravam em silos, enquanto 42 mil contribuintes aguardavam serviços digitais que não avançavam. Como único profissional com visão metodológica transversal e histórico de projetos multissecretariais, assumi a liderança da estruturação do PMO institucional do zero, baseado em experiência e não no cargo.",
     t: "O impasse ameaçava o financiamento internacional e a credibilidade do governo. Decidi assumir responsabilidade integral por entregas e governança, indo além do contrato. Minha meta era criar um PMO institucional capaz de atender o BID, eliminar duplicidades, reduzir o desvio de prazo de 23% para menos de 8% e garantir mecanismos que persistissem após minha saída.",

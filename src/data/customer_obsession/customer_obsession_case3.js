@@ -7,7 +7,7 @@ const case_3 = {
   company: "Sicredi",
   period: "03/2020-12/2020",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
   pt: {
     s: `"Não aguento mais. Vou fechar a padaria." Carlos, dono de uma padaria há 23 anos, estava chorando no telefone comigo. Era março de 2020, primeiro mês da pandemia, eu atuava como Head de Produtos no Sicredi, e aquela ligação mudou tudo. Ele havia pedido um empréstimo emergencial de R$ 15 mil para pagar funcionários, mas nosso processo normal levaria 21 dias -- tempo que ele não tinha. Enquanto isso, 2.400 pequenos negócios cooperados enfrentavam a mesma agonia: faturamento zero, funcionários para pagar, e burocracia bancária que não entendia urgência. Eles não pediam milagres -- só queriam crédito rápido para sobreviver. Mas eu percebi que podia ir muito além: não apenas acelerar empréstimos, mas criar um ecossistema completo de sobrevivência que eles nem sabiam que precisavam. Era minha chance de transformar desespero em esperança.`,
     t: `Meu escopo como Head de Produtos cobria desenvolvimento de soluções, mas assumi responsabilidade total pela sobrevivência dos pequenos negócios cooperados. O desafio era ir muito além da expectativa de "crédito rápido" e criar um ecossistema completo de apoio que eles nem imaginavam ser possível. Estabeleci três compromissos audaciosos: (1) reduzir aprovação de crédito de 21 para 2 dias, (2) criar programa completo de apoio à gestão, (3) garantir que zero negócios cooperados fechassem por falta de suporte financeiro.`,
