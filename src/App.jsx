@@ -89,6 +89,26 @@ export default function App() {
     i18n.changeLanguage(language);
   }, [language, i18n]);
 
+  const rawPrinciplesData = usePrinciplesData();
+  const principlesData = useMemo(() => {
+    return sortPrinciples(rawPrinciplesData, language);
+  }, [rawPrinciplesData, language]);
+
+  const {
+    searchTerm,
+    setSearchTerm,
+    questionSearch,
+    setQuestionSearch,
+    typicalQuestionSearch,
+    setTypicalQuestionSearch,
+    debouncedSearchTerm,
+    debouncedQuestionSearch,
+    debouncedTypicalQuestionSearch,
+    fupSearchResults,
+    typicalQuestionSearchResults,
+    caseSearchResults,
+  } = useSearch(principlesData, language, selectedLooping);
+
   const clearExpanded = useCallback(() => {
     setExpandedCases({});
   }, []);
@@ -117,106 +137,6 @@ export default function App() {
       setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
     }
   }, [searchTerm, setHighlightCaseTerm, setSearchTerm, setQuestionSearch, setHighlightedCase]);
-
-  const handleSearchResultSelect = useCallback((type, payload, savedSearchWords) => {
-    const { principle, caseData, originalIdx, idx } = payload;
-    const p = principle || payload.p;
-    const c = caseData || payload.c;
-
-    setSelectedPrinciple(p.id);
-    setShowTopCases(false);
-    setSearchTerm("");
-    clearExpanded();
-    clearHighlights();
-
-    setTimeout(() => {
-      if (type === 'case' || type === 'fup') {
-        setExpandedCases({ [c.id || c.title]: true });
-      }
-
-      if (type === 'fup') {
-        setQuestionSearch("");
-      }
-
-      if (type === 'typical') {
-        setTypicalQuestionSearch("");
-      }
-
-      setHighlightCaseTerm(type === 'case' ? savedSearchWords.join(" ") : "");
-      setHighlightFupTerm(type === 'fup' ? savedSearchWords.join(" ") : "");
-      setHighlightTypicalTerm(type === 'typical' ? savedSearchWords.join(" ") : "");
-
-      if (type === 'case') {
-        const caseDomId = `case-${slugify(c.id || c.title)}`;
-        setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
-      } else if (type === 'fup') {
-        const anchorId = `fup-${p.id}-${slugify(c.id || c.title)}-${originalIdx}`;
-        setHighlightedFup(anchorId, FUP_SCROLL_DELAY);
-      } else if (type === 'typical') {
-        const anchorId = `typical-q-${p.id}-${idx}`;
-        setHighlightedTypicalQuestion(anchorId, 120);
-      }
-    }, 0);
-  }, [clearExpanded, clearHighlights, setExpandedCases, setHighlightCaseTerm, setHighlightFupTerm, setHighlightTypicalTerm, setHighlightedCase, setHighlightedFup, setHighlightedTypicalQuestion, setSelectedPrinciple, setShowTopCases, setSearchTerm, setQuestionSearch, setTypicalQuestionSearch]);
-
-  const handleCaseSearchResultSelect = useCallback((result, savedSearchWords) => {
-    handleSearchResultSelect('case', result, savedSearchWords);
-  }, [handleSearchResultSelect]);
-
-  const handleFupSearchResultSelect = useCallback((payload, savedSearchWords) => {
-    handleSearchResultSelect('fup', payload, savedSearchWords);
-  }, [handleSearchResultSelect]);
-
-  const handleTypicalSearchResultSelect = useCallback((payload, savedSearchWords) => {
-    handleSearchResultSelect('typical', payload, savedSearchWords);
-  }, [handleSearchResultSelect]);
-
-  const rawPrinciplesData = usePrinciplesData();
-  const principlesData = useMemo(() => {
-    return sortPrinciples(rawPrinciplesData, language);
-  }, [rawPrinciplesData, language]);
-
-  const [isSearching, setIsSearching] = useState(false);
-  const [copiedCaseId, setCopiedCaseId] = useState(null);
-  const [selectedLooping, setSelectedLooping] = useState(null);
-
-  const {
-    value: usedIcebreakers,
-    toggle: toggleUsedIcebreaker,
-  } = usePersistentFlagMap(STORAGE_KEYS.usedIcebreakers);
-
-  const {
-    searchTerm,
-    setSearchTerm,
-    questionSearch,
-    setQuestionSearch,
-    typicalQuestionSearch,
-    setTypicalQuestionSearch,
-    debouncedSearchTerm,
-    debouncedQuestionSearch,
-    debouncedTypicalQuestionSearch,
-    fupSearchResults,
-    typicalQuestionSearchResults,
-    caseSearchResults,
-  } = useSearch(principlesData, language, selectedLooping);
-
-  const {
-    getCaseBaseTitle,
-    getDisplayCaseTitle,
-    getBestCaseOption,
-    getCaseQuestions,
-  } = useCaseHelpers(principlesData, language);
-
-  // Show loading state when searching
-  useEffect(() => {
-    if (searchTerm || questionSearch) {
-      setIsSearching(true);
-      const timer = setTimeout(() => setIsSearching(false), DEBOUNCE_SEARCH_DELAY);
-      return () => clearTimeout(timer);
-    } else {
-      setIsSearching(false);
-    }
-  }, [searchTerm, questionSearch]);
 
   // Filtro principal - now properly memoized
   const filteredPrinciples = useMemo(() => {
