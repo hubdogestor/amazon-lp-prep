@@ -2289,15 +2289,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sefaz-profisco-ii-program",
-          "score": 98
+          "score": 93
         },
         {
           "caseId": "hsbc-migration-leadership",
-          "score": 95
+          "score": 90
         },
         {
           "caseId": "sefaz-pmo-creation",
-          "score": 92
+          "score": 87
         }
       ]
     },
@@ -2305,15 +2305,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sefaz-profisco-ii-program",
-          "score": 98
+          "score": 93
         },
         {
           "caseId": "hsbc-migration-leadership",
-          "score": 95
+          "score": 90
         },
         {
           "caseId": "sefaz-pmo-creation",
-          "score": 90
+          "score": 85
         }
       ]
     },
@@ -2321,11 +2321,11 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sefaz-roadmap-adjustment-reforma-tributária",
-          "score": 98
+          "score": 93
         },
         {
           "caseId": "sefaz-profisco-ii-program",
-          "score": 90
+          "score": 85
         }
       ]
     },
@@ -2333,31 +2333,31 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sefaz-profisco-ii-program",
-          "score": 98
+          "score": 93
         },
         {
           "caseId": "sefaz-pmo-creation",
-          "score": 95
+          "score": 90
         },
         {
           "caseId": "hsbc-migration-leadership",
-          "score": 90
+          "score": 85
         }
       ]
     },
     "5": {
       "options": [
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 95
+          "caseId": "sefaz-pmo-creation",
+          "score": 87
         },
         {
-          "caseId": "sefaz-pmo-creation",
-          "score": 92
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 90
         },
         {
           "caseId": "hsbc-migration-leadership",
-          "score": 88
+          "score": 83
         }
       ]
     },
@@ -2365,15 +2365,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sefaz-profisco-ii-program",
-          "score": 98
+          "score": 93
         },
         {
           "caseId": "sefaz-pmo-creation",
-          "score": 95
+          "score": 90
         },
         {
           "caseId": "hsbc-migration-leadership",
-          "score": 85
+          "score": 80
         }
       ]
     },
@@ -2381,75 +2381,59 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-cvc-cancellation",
-          "score": 98
+          "score": 93
         },
         {
           "caseId": "hsbc-migration-leadership",
-          "score": 95
+          "score": 90
         },
         {
           "caseId": "sefaz-profisco-ii-program",
-          "score": 92
+          "score": 87
         }
       ]
     },
     "8": {
       "options": [
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 98
+          "caseId": "hsbc-migration-leadership",
+          "score": 90
         },
         {
-          "caseId": "hsbc-migration-leadership",
-          "score": 95
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 93
         },
         {
           "caseId": "sefaz-pmo-creation",
-          "score": 90
+          "score": 85
         }
       ]
     },
     "9": {
       "options": [
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 98
+          "caseId": "hsbc-migration-leadership",
+          "score": 90
         },
         {
-          "caseId": "hsbc-migration-leadership",
-          "score": 95
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 93
         },
         {
           "caseId": "sefaz-pmo-creation",
-          "score": 88
+          "score": 83
         }
       ]
     },
     "10": {
       "options": [
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 98
-        },
-        {
           "caseId": "sefaz-pmo-creation",
-          "score": 95
-        },
-        {
-          "caseId": "hsbc-migration-leadership",
           "score": 90
-        }
-      ]
-    },
-    "11": {
-      "options": [
-        {
-          "caseId": "sicredi-woop-delay-communication",
-          "score": 98
         },
         {
           "caseId": "sefaz-profisco-ii-program",
-          "score": 90
+          "score": 93
         },
         {
           "caseId": "hsbc-migration-leadership",
@@ -2457,35 +2441,51 @@ export const questionsToCasesMapping = {
         }
       ]
     },
-    "12": {
+    "11": {
       "options": [
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 98
+          "caseId": "sicredi-woop-delay-communication",
+          "score": 93
         },
         {
-          "caseId": "sefaz-pmo-creation",
-          "score": 95
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 85
         },
         {
           "caseId": "hsbc-migration-leadership",
-          "score": 92
+          "score": 80
+        }
+      ]
+    },
+    "12": {
+      "options": [
+        {
+          "caseId": "sefaz-pmo-creation",
+          "score": 90
+        },
+        {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 93
+        },
+        {
+          "caseId": "hsbc-migration-leadership",
+          "score": 87
         }
       ]
     },
     "13": {
       "options": [
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 98
+          "caseId": "sefaz-pmo-creation",
+          "score": 90
         },
         {
-          "caseId": "sefaz-pmo-creation",
-          "score": 95
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 93
         },
         {
           "caseId": "hsbc-migration-leadership",
-          "score": 90
+          "score": 85
         }
       ]
     }

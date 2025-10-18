@@ -1,0 +1,95 @@
+{
+  "params": {
+    "N": 4,
+    "fupBonus": 3,
+    "similarityThreshold": 0.15
+  },
+  "proposedPrimaries": {
+    "1": {
+      "caseId": "sefaz-profisco-ii-program",
+      "base": 93,
+      "simSum": 1.231455862977602,
+      "effective": 96.6943675889328
+    },
+    "2": {
+      "caseId": "sefaz-profisco-ii-program",
+      "base": 93,
+      "simSum": 0.6162464985994397,
+      "effective": 94.84873949579831
+    },
+    "3": {
+      "caseId": "sefaz-roadmap-adjustment-reforma-tributária",
+      "base": 93,
+      "simSum": 0,
+      "effective": 93
+    },
+    "4": {
+      "caseId": "sefaz-profisco-ii-program",
+      "base": 93,
+      "simSum": 0.38888888888888884,
+      "effective": 94.16666666666667
+    },
+    "5": {
+      "caseId": "sefaz-pmo-creation",
+      "base": 87,
+      "simSum": 2.334009362707707,
+      "effective": 94.00202808812313
+    },
+    "6": {
+      "caseId": "sefaz-profisco-ii-program",
+      "base": 93,
+      "simSum": 1.2639705882352943,
+      "effective": 96.79191176470589
+    },
+    "7": {
+      "caseId": "unimed-cvc-cancellation",
+      "base": 93,
+      "simSum": 0,
+      "effective": 93
+    },
+    "8": {
+      "caseId": "hsbc-migration-leadership",
+      "base": 90,
+      "simSum": 0,
+      "effective": 90
+    },
+    "9": {
+      "caseId": "hsbc-migration-leadership",
+      "base": 90,
+      "simSum": 0,
+      "effective": 90
+    },
+    "10": {
+      "caseId": "sefaz-pmo-creation",
+      "base": 90,
+      "simSum": 0.8904411764705884,
+      "effective": 92.67132352941177
+    },
+    "11": {
+      "caseId": "sicredi-woop-delay-communication",
+      "base": 93,
+      "simSum": 0,
+      "effective": 93
+    },
+    "12": {
+      "caseId": "sefaz-pmo-creation",
+      "base": 90,
+      "simSum": 1.2706694621168304,
+      "effective": 93.81200838635048
+    },
+    "13": {
+      "caseId": "sefaz-pmo-creation",
+      "base": 90,
+      "simSum": 0.5205128205128206,
+      "effective": 91.56153846153846
+    }
+  },
+  "capCounts": {
+    "hsbc-migration-leadership": 2,
+    "sefaz-pmo-creation": 4,
+    "sefaz-roadmap-adjustment-reforma-tributária": 1,
+    "unimed-cvc-cancellation": 1,
+    "sicredi-woop-delay-communication": 1,
+    "sefaz-profisco-ii-program": 4
+  }
+}
