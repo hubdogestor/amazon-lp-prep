@@ -7,7 +7,7 @@ const case_2 = {
   company: "Bradesco",
   period: "03/2020",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
   pt: {
     s: "Sexta-feira, 13 de março de 2020, 11h30. Como Head de Produto Digital do Bradesco Next, eu liderava roadmap de 47 iniciativas distribuídas em 12 squads (184 pessoas) com budget anual de R$ 89 milhões. O CEO ligou: 'Leonardo, decreto de lockdown sai segunda. Nossas 2.340 agências vão fechar. Temos 72 horas para digitalizar operações críticas ou perdemos R$ 340 milhões por semana em transações não processadas.' O problema era brutal: nosso roadmap 2020 focava em crescimento (novos produtos, aquisição, experiência) - zero capacidade para operações emergenciais. Eu tinha 18 iniciativas em flight, 29 no backlog e pressão executiva para manter cronograma original. Mas os números não mentiam: se agências fechassem sem alternativa digital para 8,7 milhões de clientes que nunca usaram app, teríamos colapso operacional. Priorizar operações de emergência significava matar 100% do roadmap aprovado em janeiro, realocar 184 pessoas, renegociar vendors e desapontar stakeholders que esperavam há meses suas features. Não priorizar significava crise sistêmica.",
     t: "Meu mandato era roadmap e execução, mas decisão de matar 100% das iniciativas planejadas e reprovar roadmap inteiro em 72 horas exigia influência além da autoridade formal. Precisava convencer C-level, produto, engenharia e vendas a aceitar mudança radical sem precedentes. Meta: identificar top 10 operações críticas que digitalizariam 80% das transações de agência, realocar recursos em 72 horas, lançar MVP em 3 semanas e evitar colapso de R$ 340M/semana.",

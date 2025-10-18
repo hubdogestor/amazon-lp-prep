@@ -7,7 +7,7 @@ const case_5 = {
   company: "Sicredi",
   period: "08/2021",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
 
   pt: {
     s: "Em 14 de agosto de 2021, às 6h, eu atuava como Product Manager de Pagamentos no Sicredi quando o NOC disparou alerta crítico: transações Pix suspeitas haviam subido 340% em 90 minutos (de 45 para 198 por hora). O padrão era inédito -- contas abertas há menos de sete dias realizando Pix médios de R$ 800-1.200 para mais de 20 CPFs diferentes em sequência de poucos minutos. Havia R$ 2,3 milhões em risco até o fim do dia e o sistema de KYC estava fora do ar. O impacto não era apenas financeiro: a confiança dos cooperados e a reputação do Sicredi como instituição segura estavam ameaçadas. Precisava decidir em até quatro horas se bloqueava o fluxo -- sacrificando clientes legítimos -- ou assumia o risco e deixava as fraudes ocorrerem.",

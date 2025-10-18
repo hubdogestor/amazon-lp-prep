@@ -1624,16 +1624,32 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
-          "caseId": "sicredi-ml-credit-approval",
-          "score": 83
-        },
-        {
           "caseId": "bradesco-next-rapid-launch",
-          "score": 82
+          "score": 92
         },
         {
           "caseId": "calculated-risk-time-critical",
-          "score": 82
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-fraud-emergency-4h-decision",
+          "score": 91
+        },
+        {
+          "caseId": "sicredi-ml-credit-approval",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-emergency-tax-portal",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-project-pivot-70-percent",
+          "score": 84
+        },
+        {
+          "caseId": "hsbc-migration-against-experts",
+          "score": 80
         }
       ]
     },
@@ -1641,22 +1657,83 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "bradesco-next-rapid-launch",
-          "score": 89
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-ml-credit-approval",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-emergency-tax-portal",
+          "score": 88
+        },
+        {
+          "caseId": "calculated-risk-time-critical",
+          "score": 85
         },
         {
           "caseId": "sicredi-fraud-emergency-4h-decision",
-          "score": 81
+          "score": 84
         }
       ]
     },
     "3": {
-      "options": []
+      "options": [
+        {
+          "caseId": "bradesco-next-rapid-launch",
+          "score": 92
+        },
+        {
+          "caseId": "calculated-risk-time-critical",
+          "score": 89
+        },
+        {
+          "caseId": "sicredi-fraud-emergency-4h-decision",
+          "score": 89
+        },
+        {
+          "caseId": "sicredi-ml-credit-approval",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-emergency-tax-portal",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-project-pivot-70-percent",
+          "score": 82
+        }
+      ]
     },
     "4": {
       "options": [
         {
           "caseId": "bradesco-next-rapid-launch",
-          "score": 85
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-fraud-emergency-4h-decision",
+          "score": 91
+        },
+        {
+          "caseId": "calculated-risk-time-critical",
+          "score": 90
+        },
+        {
+          "caseId": "sicredi-ml-credit-approval",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-emergency-tax-portal",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-project-pivot-70-percent",
+          "score": 82
+        },
+        {
+          "caseId": "hsbc-migration-against-experts",
+          "score": 80
         }
       ]
     },
@@ -1664,18 +1741,75 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "bradesco-next-rapid-launch",
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-ml-credit-approval",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-emergency-tax-portal",
+          "score": 88
+        },
+        {
+          "caseId": "calculated-risk-time-critical",
+          "score": 85
+        },
+        {
+          "caseId": "sicredi-fraud-emergency-4h-decision",
           "score": 81
         }
       ]
     },
     "6": {
-      "options": []
+      "options": [
+        {
+          "caseId": "bradesco-next-rapid-launch",
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-ml-credit-approval",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-emergency-tax-portal",
+          "score": 88
+        },
+        {
+          "caseId": "calculated-risk-time-critical",
+          "score": 87
+        },
+        {
+          "caseId": "sicredi-fraud-emergency-4h-decision",
+          "score": 84
+        },
+        {
+          "caseId": "sefaz-project-pivot-70-percent",
+          "score": 82
+        }
+      ]
     },
     "7": {
       "options": [
         {
           "caseId": "bradesco-next-rapid-launch",
-          "score": 95
+          "score": 92
+        },
+        {
+          "caseId": "calculated-risk-time-critical",
+          "score": 90
+        },
+        {
+          "caseId": "sicredi-ml-credit-approval",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-emergency-tax-portal",
+          "score": 88
+        },
+        {
+          "caseId": "sicredi-fraud-emergency-4h-decision",
+          "score": 86
         }
       ]
     },
@@ -1683,22 +1817,79 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "bradesco-next-rapid-launch",
-          "score": 87
+          "score": 92
+        },
+        {
+          "caseId": "calculated-risk-time-critical",
+          "score": 92
         },
         {
           "caseId": "sicredi-fraud-emergency-4h-decision",
-          "score": 83
+          "score": 89
+        },
+        {
+          "caseId": "sicredi-ml-credit-approval",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-emergency-tax-portal",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-project-pivot-70-percent",
+          "score": 82
+        },
+        {
+          "caseId": "hsbc-migration-against-experts",
+          "score": 80
         }
       ]
     },
     "9": {
-      "options": []
+      "options": [
+        {
+          "caseId": "bradesco-next-rapid-launch",
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-fraud-emergency-4h-decision",
+          "score": 89
+        },
+        {
+          "caseId": "sicredi-ml-credit-approval",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-emergency-tax-portal",
+          "score": 88
+        },
+        {
+          "caseId": "calculated-risk-time-critical",
+          "score": 87
+        }
+      ]
     },
     "10": {
       "options": [
         {
           "caseId": "bradesco-next-rapid-launch",
-          "score": 81
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-ml-credit-approval",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-emergency-tax-portal",
+          "score": 88
+        },
+        {
+          "caseId": "sicredi-fraud-emergency-4h-decision",
+          "score": 83
+        },
+        {
+          "caseId": "calculated-risk-time-critical",
+          "score": 82
         }
       ]
     },
@@ -1706,12 +1897,53 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "bradesco-next-rapid-launch",
-          "score": 89
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-ml-credit-approval",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-emergency-tax-portal",
+          "score": 88
+        },
+        {
+          "caseId": "sicredi-fraud-emergency-4h-decision",
+          "score": 86
+        },
+        {
+          "caseId": "calculated-risk-time-critical",
+          "score": 84
         }
       ]
     },
     "12": {
-      "options": []
+      "options": [
+        {
+          "caseId": "bradesco-next-rapid-launch",
+          "score": 92
+        },
+        {
+          "caseId": "calculated-risk-time-critical",
+          "score": 90
+        },
+        {
+          "caseId": "sicredi-ml-credit-approval",
+          "score": 88
+        },
+        {
+          "caseId": "sefaz-emergency-tax-portal",
+          "score": 88
+        },
+        {
+          "caseId": "sicredi-fraud-emergency-4h-decision",
+          "score": 86
+        },
+        {
+          "caseId": "sefaz-project-pivot-70-percent",
+          "score": 82
+        }
+      ]
     }
   },
   "frugality": {
@@ -2996,40 +3228,192 @@ export const questionsToCasesMapping = {
   },
   "prioritizing_and_influence": {
     "1": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 84
+        }
+      ]
     },
     "2": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 84
+        }
+      ]
     },
     "3": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 84
+        }
+      ]
     },
     "4": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 84
+        }
+      ]
     },
     "5": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 84
+        }
+      ]
     },
     "6": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 88
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 88
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 80
+        }
+      ]
     },
     "7": {
-      "options": []
+      "options": [
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 88
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 84
+        }
+      ]
     },
     "8": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 88
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 88
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 80
+        }
+      ]
     },
     "9": {
-      "options": []
+      "options": [
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 88
+        },
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 84
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 80
+        }
+      ]
     },
     "10": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 88
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 84
+        }
+      ]
     },
     "11": {
-      "options": []
+      "options": [
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 92
+        },
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 80
+        }
+      ]
     },
     "12": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-woop-segment-prioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-covid-reprioritization",
+          "score": 92
+        },
+        {
+          "caseId": "bradesco-next-mvp-prioritization",
+          "score": 84
+        }
+      ]
     }
   },
   "deal_with_ambiguity": {

@@ -1,0 +1,1058 @@
+[
+  {
+    "cacheKey": "bias_for_action__Q1__bradesco-next-rapid-launch",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: risco calculado (SeDR 126 decisões reversíveis vs estruturais) em 11 meses críticos. STAR-L completo com framework de decisão. Métricas concretas: 27 dias→10min abertura, 38%→9% evasão, 1,2M clientes, R$310M saldos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q1__sicredi-ml-credit-approval",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: risco calculado (ML piloto 500 pedidos) com tempo crítico (backlog crescendo 8%/semana). STAR-L completo com validação progressiva. Métricas concretas: 11→1,8 dias análise, 18k→2,4k backlog, 31%→8% abandono, 1,9% inadimplência mantida."
+  },
+  {
+    "cacheKey": "bias_for_action__Q1__sefaz-emergency-tax-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: risco calculado (lançar portal em 18 dias após enchente) mitigado com MVP e validação incremental. STAR-L completo com urgência extrema. Métricas concretas: 18 dias entrega, 47.200 empresas cadastradas, R$89M crédito liberado, 91% satisfação."
+  },
+  {
+    "cacheKey": "bias_for_action__Q1__unimed-telemedicine-vendor-crisis",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: risco calculado (trocar fornecedor 8 anos) em prazo crítico (lançamento 18/set inamovível). STAR-L completo com decisão corajosa. Métricas concretas: 23 incidentes históricos, 87%→94,7% disponibilidade, 23.400 consultas em 90 dias, NPS 67."
+  },
+  {
+    "cacheKey": "bias_for_action__Q1__sicredi-pix-deadline-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: risco calculado (assumir publicamente fracasso e comprometer recuperação) em prazo regulatório crítico. STAR-L completo com ownership público. Métricas concretas: 120→520 TPS (+333%), 0 incidentes críticos, prazo renegociado cumprido."
+  },
+  {
+    "cacheKey": "bias_for_action__Q1__huawei-4g-world-cup",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: risco calculado (6 bloqueadores críticos) em deadline inamovível (Copa do Mundo). STAR-L completo com mecanismos de mitigação. Métricas concretas: 2.847 antenas, 99,8% disponibilidade, -71% lead time licenças, 10 dias antes do prazo."
+  },
+  {
+    "cacheKey": "bias_for_action__Q1__sicredi-fraud-real-time-response",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: risco calculado (não fazer lockdown total) em crise crítica (R$420k/mês fraude). STAR-L completo com decisão equilibrada. Métricas concretas: R$420k→R$226k perdas (-46%), 21 dias→18h resposta (-96%), -67% falsos positivos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q2__bradesco-next-rapid-launch",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão sem informação completa (SeDR com 79% reversíveis). STAR-L completo com framework de decisão sob incerteza. Métricas concretas: 126 decisões classificadas, 24h decisão, 7 meses antecipado, 1,2M clientes."
+  },
+  {
+    "cacheKey": "bias_for_action__Q2__sicredi-ml-credit-approval",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão sem consenso (piloto ML vs cultura 23 anos). STAR-L completo com ação apesar de resistência. Métricas concretas: 500 pedidos piloto, 11→1,8 dias, 73% automação atingida, inadimplência 1,9% controlada."
+  },
+  {
+    "cacheKey": "bias_for_action__Q2__sefaz-emergency-tax-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão rápida sem dados completos (18 dias pós-enchente, cenário caótico). STAR-L completo com ação em incerteza extrema. Métricas concretas: 18 dias, 47.200 empresas, R$89M, decisões diárias sob pressão."
+  },
+  {
+    "cacheKey": "bias_for_action__Q2__unimed-telemedicine-vendor-crisis",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão sem informação completa (auditoria forense revelou problemas, mas transição arriscada). STAR-L completo com coragem. Métricas concretas: 23 incidentes, R$3,2M perdas, decisão de trocar com prazo apertado."
+  },
+  {
+    "cacheKey": "bias_for_action__Q2__sicredi-pix-deadline-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão sem consenso (assumir fracasso publicamente). STAR-L completo com ownership sob incerteza. Métricas concretas: 120→520 TPS, decisão corajosa contra corrente de esconder problema."
+  },
+  {
+    "cacheKey": "bias_for_action__Q2__huawei-4g-world-cup",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão rápida sob incerteza (6 bloqueadores, prazo inamovível). STAR-L completo com mecanismos de decisão. Métricas concretas: VPI framework, 2.847 antenas, 99,8% disponibilidade, zero incidentes Copa."
+  },
+  {
+    "cacheKey": "bias_for_action__Q2__sicredi-fraud-real-time-response",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão sem informação completa (balancear segurança vs UX sem dados). STAR-L completo com experimentação. Métricas concretas: R$420k→R$226k, -96% tempo resposta, -67% falsos positivos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q3__bradesco-next-rapid-launch",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: agiu rapidamente apesar de risco (SeDR framework acelera 79% decisões). STAR-L completo com velocidade + controle. Métricas concretas: 24h decisão reversível, 7 meses antecipado, 27 dias→10min abertura conta."
+  },
+  {
+    "cacheKey": "bias_for_action__Q3__sicredi-ml-credit-approval",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: agiu rapidamente (piloto 500 pedidos imediato) apesar de resistência 23 anos. STAR-L completo com ação corajosa. Métricas concretas: 8 meses implementação, 11→1,8 dias, 18k→2,4k backlog."
+  },
+  {
+    "cacheKey": "bias_for_action__Q3__sefaz-emergency-tax-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: agiu rapidamente (18 dias) apesar de risco enorme (caos pós-enchente). STAR-L completo com urgência. Métricas concretas: 18 dias entrega, 47.200 empresas, R$89M crédito, 91% satisfação."
+  },
+  {
+    "cacheKey": "bias_for_action__Q3__unimed-telemedicine-vendor-crisis",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: agiu rapidamente (trocar fornecedor) apesar de risco político brutal. STAR-L completo com coragem. Métricas concretas: transição completa, 23.400 consultas, 94,7% disponibilidade, NPS 67."
+  },
+  {
+    "cacheKey": "bias_for_action__Q3__sicredi-pix-deadline-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: agiu rapidamente (assumir erro publicamente) apesar de risco reputacional. STAR-L completo com ownership. Métricas concretas: 120→520 TPS, 0 incidentes, prazo cumprido."
+  },
+  {
+    "cacheKey": "bias_for_action__Q3__huawei-4g-world-cup",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: agiu rapidamente (6 bloqueadores superados) com deadline crítico. STAR-L completo com execução. Métricas concretas: 10 dias antes prazo, 2.847 antenas, 99,8% disponibilidade, zero incidentes."
+  },
+  {
+    "cacheKey": "bias_for_action__Q3__sicredi-fraud-real-time-response",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: agiu rapidamente (war room + heurísticas) apesar de pressão lockdown. STAR-L completo com velocidade. Métricas concretas: 21 dias→18h resposta, R$420k→R$226k, -67% falsos positivos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q4__bradesco-next-rapid-launch",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão rápida melhor que perfeita (SeDR 79% reversíveis em 24h). STAR-L completo com pragmatismo. Métricas concretas: 126 decisões, 7 meses antecipado, 1,2M clientes, R$310M saldos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q4__sicredi-ml-credit-approval",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão rápida (piloto 500) melhor que análise perfeita infinita. STAR-L completo com ação vs paralisia. Métricas concretas: 8 meses vs anos debate, 11→1,8 dias, 73% automação."
+  },
+  {
+    "cacheKey": "bias_for_action__Q4__sefaz-emergency-tax-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão rápida (18 dias MVP) melhor que portal perfeito. STAR-L completo com pragmatismo extremo. Métricas concretas: 18 dias, 47.200 empresas, R$89M, 91% satisfação com MVP."
+  },
+  {
+    "cacheKey": "bias_for_action__Q4__unimed-telemedicine-vendor-crisis",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão rápida (trocar fornecedor) melhor que conviver com problema. STAR-L completo com coragem. Métricas concretas: 23.400 consultas, 94,7% disponibilidade, lançamento no prazo."
+  },
+  {
+    "cacheKey": "bias_for_action__Q4__sicredi-pix-deadline-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão rápida (assumir erro) melhor que esconder. STAR-L completo com ownership. Métricas concretas: 120→520 TPS, 0 incidentes, recuperação completa."
+  },
+  {
+    "cacheKey": "bias_for_action__Q4__huawei-4g-world-cup",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão rápida (VPI com workarounds) melhor que solução perfeita. STAR-L completo com pragmatismo. Métricas concretas: 2.847 antenas, 10 dias antecipado, 99,8% disponibilidade."
+  },
+  {
+    "cacheKey": "bias_for_action__Q4__sicredi-fraud-real-time-response",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão rápida (heurísticas iterativas) melhor que modelo perfeito. STAR-L completo com iteração. Métricas concretas: 21 dias→18h, R$420k→R$226k, -67% falsos positivos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q5__bradesco-next-rapid-launch",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: superou paralisia por análise (SeDR vs hierarquia). STAR-L completo com mecanismo anti-paralisia. Métricas concretas: 24h decisão vs semanas antes, 7 meses antecipado, 1,2M clientes."
+  },
+  {
+    "cacheKey": "bias_for_action__Q5__sicredi-ml-credit-approval",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: superou paralisia (debate 23 anos) com piloto 500. STAR-L completo com ação vs debate infinito. Métricas concretas: 8 meses implementação, 11→1,8 dias, 73% automação atingida."
+  },
+  {
+    "cacheKey": "bias_for_action__Q5__sefaz-emergency-tax-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: superou paralisia (caos pós-enchente) com MVP 18 dias. STAR-L completo com ação urgente. Métricas concretas: 18 dias vs meses planejamento, 47.200 empresas, R$89M crédito."
+  },
+  {
+    "cacheKey": "bias_for_action__Q5__unimed-telemedicine-vendor-crisis",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: superou paralisia (pressão política CEO) com auditoria + decisão. STAR-L completo com coragem. Métricas concretas: 23 incidentes documentados, 94,7% disponibilidade, 23.400 consultas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q5__sicredi-pix-deadline-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: superou paralisia (vergonha fracasso) assumindo erro publicamente. STAR-L completo com ownership. Métricas concretas: 120→520 TPS, 0 incidentes, recuperação completa."
+  },
+  {
+    "cacheKey": "bias_for_action__Q5__huawei-4g-world-cup",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: superou paralisia (6 bloqueadores) com VPI framework. STAR-L completo com metodologia. Métricas concretas: -71% lead time licenças, 2.847 antenas, 10 dias antecipado."
+  },
+  {
+    "cacheKey": "bias_for_action__Q5__sicredi-fraud-real-time-response",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: superou paralisia (pressão lockdown) com war room. STAR-L completo com decisão equilibrada. Métricas concretas: 21 dias→18h resposta, R$420k→R$226k, -67% falsos positivos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q6__bradesco-next-rapid-launch",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: trabalhou com informação imperfeita (SeDR 79% reversíveis). STAR-L completo com clareza sobre incerteza. Métricas concretas: 126 decisões, 24h deliberação, 7 meses antecipado."
+  },
+  {
+    "cacheKey": "bias_for_action__Q6__sicredi-ml-credit-approval",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: trabalhou com informação imperfeita (piloto 500 sem garantias). STAR-L completo com validação iterativa. Métricas concretas: dashboard tempo real, 73% automação, 1,9% inadimplência."
+  },
+  {
+    "cacheKey": "bias_for_action__Q6__sefaz-emergency-tax-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: trabalhou com informação imperfeita (caos pós-enchente). STAR-L completo com decisões sob incerteza. Métricas concretas: 18 dias, 47.200 empresas, 91% satisfação com MVP."
+  },
+  {
+    "cacheKey": "bias_for_action__Q6__unimed-telemedicine-vendor-crisis",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: trabalhou com informação imperfeita (auditoria revelou mas transição arriscada). STAR-L completo com análise + ação. Métricas concretas: 23 incidentes, 94,7% disponibilidade, NPS 67."
+  },
+  {
+    "cacheKey": "bias_for_action__Q6__sicredi-pix-deadline-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: trabalhou com informação imperfeita (assumir fracasso sem saber se recuperaria). STAR-L completo com coragem. Métricas concretas: 120→520 TPS, 0 incidentes, prazo cumprido."
+  },
+  {
+    "cacheKey": "bias_for_action__Q6__huawei-4g-world-cup",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: trabalhou com informação imperfeita (6 bloqueadores complexos). STAR-L completo com VPI framework. Métricas concretas: 2.847 antenas, 99,8% disponibilidade, zero incidentes."
+  },
+  {
+    "cacheKey": "bias_for_action__Q6__sicredi-fraud-real-time-response",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: trabalhou com informação imperfeita (balancear segurança vs UX sem dados). STAR-L completo com experimentação. Métricas concretas: R$420k→R$226k, 21 dias→18h, -67% falsos positivos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q7__bradesco-next-rapid-launch",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: velocidade gerou vantagem (7 meses antecipado vs concorrentes). STAR-L completo com timing estratégico. Métricas concretas: lançamento antes fintechs, 1,2M clientes ano 1, R$310M saldos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q7__sicredi-ml-credit-approval",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: velocidade gerou vantagem (backlog resolvido, cooperados retidos). STAR-L completo com timing crítico. Métricas concretas: 11→1,8 dias, R$46M perdas evitadas/trimestre, 31%→8% abandono."
+  },
+  {
+    "cacheKey": "bias_for_action__Q7__sefaz-emergency-tax-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: velocidade gerou vantagem (47.200 empresas salvas rapidamente). STAR-L completo com urgência. Métricas concretas: 18 dias, R$89M crédito liberado, 91% satisfação."
+  },
+  {
+    "cacheKey": "bias_for_action__Q7__unimed-telemedicine-vendor-crisis",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: velocidade gerou vantagem (lançamento no prazo salvou iniciativa). STAR-L completo com timing. Métricas concretas: lançamento 18/set cumprido, 23.400 consultas 90 dias, NPS 67."
+  },
+  {
+    "cacheKey": "bias_for_action__Q7__sicredi-pix-deadline-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: velocidade gerou vantagem (recuperação rápida salvou reputação). STAR-L completo com timing crítico. Métricas concretas: 120→520 TPS rapidamente, 0 incidentes, prazo renegociado cumprido."
+  },
+  {
+    "cacheKey": "bias_for_action__Q7__huawei-4g-world-cup",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: velocidade gerou vantagem (10 dias antes Copa, zero incidentes). STAR-L completo com timing perfeito. Métricas concretas: 2.847 antenas, 99,8% disponibilidade, entrega antecipada."
+  },
+  {
+    "cacheKey": "bias_for_action__Q7__sicredi-fraud-real-time-response",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: velocidade gerou vantagem (fraude contida rapidamente). STAR-L completo com resposta rápida. Métricas concretas: 21 dias→18h resposta (-96%), R$420k→R$226k, -67% falsos positivos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q8__bradesco-next-rapid-launch",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: acelerou implementação (SeDR 24h vs semanas). STAR-L completo com velocidade estruturada. Métricas concretas: 18→11 meses, 79% decisões em 24h, 1,2M clientes."
+  },
+  {
+    "cacheKey": "bias_for_action__Q8__sicredi-ml-credit-approval",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: acelerou implementação (8 meses vs anos debate). STAR-L completo com piloto rápido. Métricas concretas: 11→1,8 dias análise, 8 meses full rollout, 73% automação."
+  },
+  {
+    "cacheKey": "bias_for_action__Q8__sefaz-emergency-tax-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: acelerou implementação (18 dias vs meses). STAR-L completo com MVP urgente. Métricas concretas: 18 dias entrega, 47.200 empresas, R$89M crédito."
+  },
+  {
+    "cacheKey": "bias_for_action__Q8__unimed-telemedicine-vendor-crisis",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: acelerou implementação (troca fornecedor + lançamento no prazo). STAR-L completo com execução rápida. Métricas concretas: transição completa, lançamento 18/set, 23.400 consultas 90 dias."
+  },
+  {
+    "cacheKey": "bias_for_action__Q8__sicredi-pix-deadline-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: acelerou recuperação (120→520 TPS rapidamente). STAR-L completo com sprint intenso. Métricas concretas: recuperação rápida, 0 incidentes, prazo renegociado cumprido."
+  },
+  {
+    "cacheKey": "bias_for_action__Q8__huawei-4g-world-cup",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: acelerou implementação (VPI framework + workarounds). STAR-L completo com velocidade. Métricas concretas: 10 dias antecipado, 2.847 antenas, -71% lead time licenças."
+  },
+  {
+    "cacheKey": "bias_for_action__Q8__sicredi-fraud-real-time-response",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: acelerou resposta (war room + heurísticas rápidas). STAR-L completo com velocidade. Métricas concretas: 21 dias→18h resposta (-96%), R$420k→R$226k perdas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q9__bradesco-next-rapid-launch",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: iterou rapidamente (SeDR + painel telemetria). STAR-L completo com feedback loops. Métricas concretas: 126 decisões, 79% reversíveis ajustáveis, 7 meses antecipado."
+  },
+  {
+    "cacheKey": "bias_for_action__Q9__sicredi-ml-credit-approval",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: iterou rapidamente (piloto 500→expansão progressiva). STAR-L completo com validação iterativa. Métricas concretas: dashboard tempo real, ajustes contínuos, 73% automação atingida."
+  },
+  {
+    "cacheKey": "bias_for_action__Q9__sefaz-emergency-tax-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: iterou rapidamente (MVP 18 dias + ajustes). STAR-L completo com entrega incremental. Métricas concretas: 18 dias MVP, 47.200 empresas, 91% satisfação com iteração."
+  },
+  {
+    "cacheKey": "bias_for_action__Q9__unimed-telemedicine-vendor-crisis",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: iterou com auditoria + transição mas não menciona ciclos múltiplos. STAR-L completo com execução. Métricas concretas: 23.400 consultas, 94,7% disponibilidade, mas iteração não central."
+  },
+  {
+    "cacheKey": "bias_for_action__Q9__sicredi-pix-deadline-recovery",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: recuperação teve iteração mas foco é ownership não ciclos. STAR-L completo com sprint. Métricas concretas: 120→520 TPS, 0 incidentes, mas iteração não explícita."
+  },
+  {
+    "cacheKey": "bias_for_action__Q9__huawei-4g-world-cup",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: iterou rapidamente (VPI + checklist ANATEL ajustável). STAR-L completo com refinamento contínuo. Métricas concretas: -71% lead time, workarounds iterativos, 2.847 antenas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q9__sicredi-fraud-real-time-response",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: iterou rapidamente (heurísticas ajustadas continuamente). STAR-L completo com experimentação. Métricas concretas: ajustes semanais, -67% falsos positivos, R$420k→R$226k."
+  },
+  {
+    "cacheKey": "bias_for_action__Q10__bradesco-next-rapid-launch",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: enfrentou urgência (27 dias→10min, 38% evasão). STAR-L completo com pressão temporal. Métricas concretas: 18→11 meses, 7 meses antecipado, 1,2M clientes."
+  },
+  {
+    "cacheKey": "bias_for_action__Q10__sicredi-ml-credit-approval",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: enfrentou urgência (backlog +8%/semana, R$46M perdas). STAR-L completo com crise. Métricas concretas: 8 meses implementação, 11→1,8 dias, 18k→2,4k backlog."
+  },
+  {
+    "cacheKey": "bias_for_action__Q10__sefaz-emergency-tax-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: enfrentou urgência extrema (enchente, empresas falindo). STAR-L completo com emergência. Métricas concretas: 18 dias, 47.200 empresas, R$89M crédito liberado rapidamente."
+  },
+  {
+    "cacheKey": "bias_for_action__Q10__unimed-telemedicine-vendor-crisis",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: enfrentou urgência (lançamento 18/set inamovível). STAR-L completo com deadline crítico. Métricas concretas: prazo cumprido, 23.400 consultas 90 dias, 94,7% disponibilidade."
+  },
+  {
+    "cacheKey": "bias_for_action__Q10__sicredi-pix-deadline-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: enfrentou urgência (prazo regulatório Bacen). STAR-L completo com pressão extrema. Métricas concretas: 120→520 TPS rapidamente, 0 incidentes, prazo renegociado cumprido."
+  },
+  {
+    "cacheKey": "bias_for_action__Q10__huawei-4g-world-cup",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: enfrentou urgência (Copa do Mundo deadline inamovível). STAR-L completo com prazo fixo. Métricas concretas: 10 dias antecipado, 2.847 antenas, 99,8% disponibilidade."
+  },
+  {
+    "cacheKey": "bias_for_action__Q10__sicredi-fraud-real-time-response",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: enfrentou urgência (R$420k/mês perdas crescentes). STAR-L completo com crise. Métricas concretas: 21 dias→18h resposta, R$420k→R$226k, -67% falsos positivos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q11__bradesco-next-rapid-launch",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: simplificou decisão (SeDR reversível vs estrutural). STAR-L completo com framework claro. Métricas concretas: 126 decisões classificadas, 79% em 24h, 7 meses antecipado."
+  },
+  {
+    "cacheKey": "bias_for_action__Q11__sicredi-ml-credit-approval",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: simplificou processo (piloto 500 vs consenso geral). STAR-L completo com pragmatismo. Métricas concretas: piloto pequeno, expansão progressiva, 11→1,8 dias."
+  },
+  {
+    "cacheKey": "bias_for_action__Q11__sefaz-emergency-tax-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: simplificou solução (MVP 18 dias vs portal completo). STAR-L completo com essencialização. Métricas concretas: MVP funcional, 47.200 empresas, 91% satisfação."
+  },
+  {
+    "cacheKey": "bias_for_action__Q11__unimed-telemedicine-vendor-crisis",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: decisão direta (trocar fornecedor) mas não menciona simplificação de processo. STAR-L completo com coragem. Métricas concretas: 23.400 consultas, 94,7% disponibilidade, mas simplificação não central."
+  },
+  {
+    "cacheKey": "bias_for_action__Q11__sicredi-pix-deadline-recovery",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: decisão direta (assumir erro) mas não menciona simplificação. STAR-L completo com ownership. Métricas concretas: 120→520 TPS, 0 incidentes, mas simplificação não explícita."
+  },
+  {
+    "cacheKey": "bias_for_action__Q11__huawei-4g-world-cup",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: simplificou processo (VPI framework estruturado). STAR-L completo com metodologia. Métricas concretas: -71% lead time licenças, 2.847 antenas, checklist simplificado."
+  },
+  {
+    "cacheKey": "bias_for_action__Q11__sicredi-fraud-real-time-response",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: simplificou abordagem (heurísticas vs modelo complexo). STAR-L completo com pragmatismo. Métricas concretas: war room, decisões rápidas, 21 dias→18h resposta."
+  },
+  {
+    "cacheKey": "bias_for_action__Q12__bradesco-next-rapid-launch",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: experimentou rápido (SeDR 79% reversíveis). STAR-L completo com experimentação estruturada. Métricas concretas: 126 decisões, painel telemetria, ajustes rápidos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q12__sicredi-ml-credit-approval",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: experimentou rápido (piloto 500 pedidos). STAR-L completo com validação incremental. Métricas concretas: dashboard tempo real, expansão baseada em resultados, 73% automação."
+  },
+  {
+    "cacheKey": "bias_for_action__Q12__sefaz-emergency-tax-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: experimentou rápido (MVP 18 dias + ajustes). STAR-L completo com iteração. Métricas concretas: lançamento incremental, 47.200 empresas, 91% satisfação."
+  },
+  {
+    "cacheKey": "bias_for_action__Q12__unimed-telemedicine-vendor-crisis",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: transição teve validação mas não menciona experimentação explícita. STAR-L completo com execução. Métricas concretas: 23.400 consultas, 94,7% disponibilidade, mas experimentação não central."
+  },
+  {
+    "cacheKey": "bias_for_action__Q12__sicredi-pix-deadline-recovery",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: recuperação teve validação mas não menciona experimentação. STAR-L completo com sprint. Métricas concretas: 120→520 TPS, 0 incidentes, mas experimentação não explícita."
+  },
+  {
+    "cacheKey": "bias_for_action__Q12__huawei-4g-world-cup",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: VPI com workarounds teve experimentação mas não central. STAR-L completo com pragmatismo. Métricas concretas: soluções iterativas, 2.847 antenas, mas experimentação não explícita."
+  },
+  {
+    "cacheKey": "bias_for_action__Q12__sicredi-fraud-real-time-response",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: experimentou rápido (heurísticas iterativas + A/B). STAR-L completo com experimentação explícita. Métricas concretas: ajustes semanais, -67% falsos positivos, validação contínua."
+  },
+  {
+    "cacheKey": "bias_for_action__Q1__calculated-risk-time-critical",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão sob risco calculado (restaurar em zonas) com métricas de impacto e velocidade. STAR-L completo: 61h restauração, 83% capacidade, R$5.8M economizados."
+  },
+  {
+    "cacheKey": "bias_for_action__Q2__calculated-risk-time-critical",
+    "relevance": 27,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 83,
+    "reasoning": "Responde BEM: liderança na arquitetura de mitigação por zonas. Métricas: rollback seletivo, 83% capacidade. Faltam detalhes de como mobilizou time crítico."
+  },
+  {
+    "cacheKey": "bias_for_action__Q3__calculated-risk-time-critical",
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 29,
+    "scoreBase": 87,
+    "reasoning": "Responde MUITO BEM: implementou mudanças importantes (restauração zonal + rollback) com velocidade. Métricas: 61h vs 10+ dias. Leve gap em detalhamento de stakeholders."
+  },
+  {
+    "cacheKey": "bias_for_action__Q4__calculated-risk-time-critical",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: decisão em 72h críticas sem análise completa. Calculou risco (zona 1 isolada). Métricas: 97% SLA, R$5.8M economizados. Pequeno gap em dados de forecast."
+  },
+  {
+    "cacheKey": "bias_for_action__Q5__calculated-risk-time-critical",
+    "relevance": 28,
+    "depth": 27,
+    "evidence": 28,
+    "scoreBase": 83,
+    "reasoning": "Responde BEM: contexto competitivo (healthcare crítico). Foco em velocidade (61h). Faltam detalhes de trade-offs com qualidade e pressões externas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q6__calculated-risk-time-critical",
+    "relevance": 29,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 85,
+    "reasoning": "Responde MUITO BEM: mudou abordagem (restauração zonal vs reativação completa) após teste zona 1. Velocidade: 61h. Leve gap em análise de alternativas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q7__calculated-risk-time-critical",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: múltiplas iterações (teste zona 1 → 6 → 10) com ajustes. Métricas: 83% capacidade progressiva, 97% SLA. Pequeno gap em detalhamento de insights por iteração."
+  },
+  {
+    "cacheKey": "bias_for_action__Q8__calculated-risk-time-critical",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: atuou sem dados completos (causa raiz desconhecida). Decisão: restaurar mesmo sem diagnóstico. Métricas: 61h vs 10+ dias. STAR-L completo com risco calculado."
+  },
+  {
+    "cacheKey": "bias_for_action__Q9__calculated-risk-time-critical",
+    "relevance": 29,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 85,
+    "reasoning": "Responde MUITO BEM: balanceou velocidade (61h) com qualidade (rollback seletivo, 97% SLA). Métricas de impacto: R$5.8M. Leve gap em trade-offs específicos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q10__calculated-risk-time-critical",
+    "relevance": 27,
+    "depth": 26,
+    "evidence": 27,
+    "scoreBase": 80,
+    "reasoning": "Responde ADEQUADAMENTE: teste zona 1 gerou insight para escalar. Velocidade: 61h total. Faltam detalhes de pivots explícitos e análise de alternativas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q11__calculated-risk-time-critical",
+    "relevance": 28,
+    "depth": 27,
+    "evidence": 27,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: aceitou risco de restaurar sem diagnóstico. Métricas: 83% capacidade, R$5.8M economizados. Faltam detalhes de consequências negativas ou problemas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q12__calculated-risk-time-critical",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: identificou oportunidade de restauração zonal + rollback. Velocidade: 61h vs 10+ dias. Métricas: R$5.8M economizados. Leve gap em detalhamento de insight original."
+  },
+  {
+    "cacheKey": "bias_for_action__Q1__sicredi-fraud-emergency-4h-decision",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão de bloqueio massivo em 4h sob fraude crítica. Risco calculado: 89% fraudes contidas, R$2.05M salvos. STAR-L completo com velocidade extrema."
+  },
+  {
+    "cacheKey": "bias_for_action__Q2__sicredi-fraud-emergency-4h-decision",
+    "relevance": 28,
+    "depth": 27,
+    "evidence": 28,
+    "scoreBase": 83,
+    "reasoning": "Responde BEM: liderou decisão de bloqueio + whitelist em 4h. Métricas: 89% efetividade. Faltam detalhes de como coordenou times em emergência."
+  },
+  {
+    "cacheKey": "bias_for_action__Q3__sicredi-fraud-emergency-4h-decision",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: implementou bloqueio massivo em 4h (mudança crítica). Velocidade extrema. Métricas: R$2.05M salvos, 89% fraudes. Leve gap em detalhamento de stakeholders."
+  },
+  {
+    "cacheKey": "bias_for_action__Q4__sicredi-fraud-emergency-4h-decision",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão em 4h sem análise completa. Risco calculado: 4% falsos positivos vs perda total. Métricas: R$2.05M salvos, 89% efetividade. STAR-L impecável."
+  },
+  {
+    "cacheKey": "bias_for_action__Q5__sicredi-fraud-emergency-4h-decision",
+    "relevance": 27,
+    "depth": 26,
+    "evidence": 27,
+    "scoreBase": 80,
+    "reasoning": "Responde ADEQUADAMENTE: contexto de ataque ativo (fraude massiva). Urgência: 4h. Faltam detalhes de pressões competitivas específicas e prazos externos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q6__sicredi-fraud-emergency-4h-decision",
+    "relevance": 28,
+    "depth": 27,
+    "evidence": 28,
+    "scoreBase": 83,
+    "reasoning": "Responde BEM: mudou de análise para bloqueio imediato após fraude ativa. Velocidade: 4h. Faltam detalhes de alternativas consideradas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q7__sicredi-fraud-emergency-4h-decision",
+    "relevance": 29,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 85,
+    "reasoning": "Responde MUITO BEM: ajustou whitelist incrementalmente em 48h. Métricas: -4% → 0.8% falsos positivos. Leve gap em número de iterações e insights específicos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q8__sicredi-fraud-emergency-4h-decision",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: agiu em 4h sem padrão completo de fraude. Decisão: bloquear mesmo com risco. Métricas: 89% efetividade. Pequeno gap em quantificação de incerteza."
+  },
+  {
+    "cacheKey": "bias_for_action__Q9__sicredi-fraud-emergency-4h-decision",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: balanceou velocidade (4h) com qualidade (whitelist + ajuste 48h). Trade-off: 4% falsos positivos vs R$2.3M risco. Leve gap em detalhamento."
+  },
+  {
+    "cacheKey": "bias_for_action__Q10__sicredi-fraud-emergency-4h-decision",
+    "relevance": 28,
+    "depth": 27,
+    "evidence": 27,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: ajuste whitelist 48h gerou insight de redução falsos positivos. Velocidade: 4h decisão inicial. Faltam detalhes de pivots ou mudanças de rota."
+  },
+  {
+    "cacheKey": "bias_for_action__Q11__sicredi-fraud-emergency-4h-decision",
+    "relevance": 29,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 85,
+    "reasoning": "Responde MUITO BEM: aceitou risco de 4% falsos positivos. Métricas: R$2.05M salvos vs desconforto clientes. Leve gap em consequências negativas detalhadas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q12__sicredi-fraud-emergency-4h-decision",
+    "relevance": 29,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 85,
+    "reasoning": "Responde MUITO BEM: identificou oportunidade de bloqueio preventivo em 4h. Velocidade extrema. Métricas: R$2.05M salvos. Leve gap em detalhamento de insight original."
+  },
+  {
+    "cacheKey": "bias_for_action__Q1__sefaz-project-pivot-70-percent",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão de pivotar projeto 70% completo após Reforma Tributária. Risco calculado: reuso 60% código. Métricas: R$800k salvos, -78% tempo emissão. STAR-L completo."
+  },
+  {
+    "cacheKey": "bias_for_action__Q2__sefaz-project-pivot-70-percent",
+    "relevance": 27,
+    "depth": 26,
+    "evidence": 27,
+    "scoreBase": 80,
+    "reasoning": "Responde ADEQUADAMENTE: liderou decisão de pivot técnico. Métricas: 60% reuso, R$800k. Faltam detalhes de como mobilizou time e stakeholders durante pivot."
+  },
+  {
+    "cacheKey": "bias_for_action__Q3__sefaz-project-pivot-70-percent",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: pivotou projeto 70% completo (mudança crítica). Velocidade: R$800k salvos. Métricas: -78% tempo emissão. Leve gap em detalhamento de stakeholders."
+  },
+  {
+    "cacheKey": "bias_for_action__Q4__sefaz-project-pivot-70-percent",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: decidiu pivotar sem análise completa de viabilidade. Risco: abandonar 70% trabalho. Métricas: 60% reuso, R$800k salvos. Pequeno gap em quantificação de risco."
+  },
+  {
+    "cacheKey": "bias_for_action__Q5__sefaz-project-pivot-70-percent",
+    "relevance": 28,
+    "depth": 27,
+    "evidence": 28,
+    "scoreBase": 83,
+    "reasoning": "Responde BEM: contexto regulatório (Reforma Tributária externa). Urgência: projeto obsoleto. Faltam detalhes de pressões competitivas específicas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q6__sefaz-project-pivot-70-percent",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: mudou de modelo XML→JSON após Reforma Tributária. Velocidade: decisão em pivot completo. Métricas: 60% reuso. Leve gap em análise de alternativas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q7__sefaz-project-pivot-70-percent",
+    "relevance": 28,
+    "depth": 27,
+    "evidence": 27,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: ajustou arquitetura modular para reuso. Métricas: 60% código mantido. Faltam detalhes de iterações e insights específicos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q8__sefaz-project-pivot-70-percent",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: pivotou sem validação completa (regras finais não publicadas). Decisão: antecipar com base em minuta. Métricas: -78% tempo. Pequeno gap em incerteza."
+  },
+  {
+    "cacheKey": "bias_for_action__Q9__sefaz-project-pivot-70-percent",
+    "relevance": 29,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 85,
+    "reasoning": "Responde MUITO BEM: balanceou velocidade (R$800k salvos) com qualidade (60% reuso, -78% tempo). Trade-off: abandonar 70% vs obsolescência. Leve gap em detalhamento."
+  },
+  {
+    "cacheKey": "bias_for_action__Q10__sefaz-project-pivot-70-percent",
+    "relevance": 29,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 85,
+    "reasoning": "Responde MUITO BEM: pivot gerou insight de arquitetura modular. Velocidade: decisão crítica. Métricas: 60% reuso. Leve gap em alternativas consideradas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q11__sefaz-project-pivot-70-percent",
+    "relevance": 28,
+    "depth": 27,
+    "evidence": 27,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: aceitou risco de abandonar 70% trabalho. Métricas: R$800k salvos vs projeto obsoleto. Faltam detalhes de consequências negativas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q12__sefaz-project-pivot-70-percent",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: identificou oportunidade de pivot modular vs recomeçar. Velocidade: decisão crítica. Métricas: 60% reuso, R$800k salvos. Leve gap em detalhamento de insight."
+  },
+  {
+    "cacheKey": "bias_for_action__Q1__hsbc-migration-against-experts",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decisão de manter go-live contra recomendação de adiar 3 meses. Risco calculado: plano de contingência. Métricas: USD 5.2B, 0 incidentes, R$310M perdas evitadas. STAR-L completo."
+  },
+  {
+    "cacheKey": "bias_for_action__Q2__hsbc-migration-against-experts",
+    "relevance": 29,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 85,
+    "reasoning": "Responde MUITO BEM: liderou decisão contra especialistas. Métricas: USD 5.2B migrados, 0 incidentes. Leve gap em detalhamento de coordenação de times."
+  },
+  {
+    "cacheKey": "bias_for_action__Q3__hsbc-migration-against-experts",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: manteve go-live crítico contra recomendação (mudança importante). Velocidade: evitou 3 meses atraso. Métricas: R$310M perdas evitadas. Leve gap em stakeholders."
+  },
+  {
+    "cacheKey": "bias_for_action__Q4__hsbc-migration-against-experts",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: decidiu contra especialistas sem consenso. Risco: USD 5.2B expostos. Calculou: plano contingência + rollback. Métricas: 0 incidentes, R$310M salvos. STAR-L impecável."
+  },
+  {
+    "cacheKey": "bias_for_action__Q5__hsbc-migration-against-experts",
+    "relevance": 29,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 85,
+    "reasoning": "Responde MUITO BEM: contexto de fusão crítica (HSBC→Bradesco). Urgência: R$310M perdas por atraso. Leve gap em pressões competitivas específicas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q6__hsbc-migration-against-experts",
+    "relevance": 27,
+    "depth": 26,
+    "evidence": 27,
+    "scoreBase": 80,
+    "reasoning": "Responde ADEQUADAMENTE: mudou de adiar para manter após análise contingência. Velocidade: decisão contra especialistas. Faltam detalhes de alternativas consideradas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q7__hsbc-migration-against-experts",
+    "relevance": 28,
+    "depth": 27,
+    "evidence": 27,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: ajustes de plano contingência iterativos. Métricas: 0 incidentes. Faltam detalhes de número de iterações e insights específicos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q8__hsbc-migration-against-experts",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: agiu contra especialistas sem validação completa. Decisão: manter go-live com USD 5.2B expostos. Métricas: 0 incidentes, R$310M salvos. STAR-L completo com coragem."
+  },
+  {
+    "cacheKey": "bias_for_action__Q9__hsbc-migration-against-experts",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: balanceou velocidade (go-live mantido) com qualidade (plano contingência + 0 incidentes). Trade-off: risco USD 5.2B vs R$310M perdas. Leve gap em detalhamento."
+  },
+  {
+    "cacheKey": "bias_for_action__Q10__hsbc-migration-against-experts",
+    "relevance": 28,
+    "depth": 27,
+    "evidence": 27,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: decisão contra especialistas gerou insight de contingência robusta. Velocidade: go-live mantido. Faltam detalhes de pivots específicos."
+  },
+  {
+    "cacheKey": "bias_for_action__Q11__hsbc-migration-against-experts",
+    "relevance": 30,
+    "depth": 29,
+    "evidence": 29,
+    "scoreBase": 88,
+    "reasoning": "Responde MUITO BEM: aceitou risco de USD 5.2B contra recomendação. Métricas: 0 incidentes, R$310M salvos. Leve gap em consequências negativas detalhadas."
+  },
+  {
+    "cacheKey": "bias_for_action__Q12__hsbc-migration-against-experts",
+    "relevance": 29,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 85,
+    "reasoning": "Responde MUITO BEM: identificou oportunidade de manter go-live com contingência vs adiar. Velocidade: decisão contra expertise. Métricas: R$310M salvos. Leve gap em insight original."
+  }
+]

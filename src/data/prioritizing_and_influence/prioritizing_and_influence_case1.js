@@ -7,7 +7,7 @@ const case_1 = {
   company: "Sicredi",
   period: "03/2022-09/2023",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
   pt: {
     s: "Março de 2022. Como Head de Produto Digital do Sicredi Woop (conta digital cooperativista), eu liderava a estratégia de crescimento do produto em 340 cooperativas com 1,2 milhão de correntistas B2C e 47 mil empresas B2B. Durante reunião estratégica do conselho, o VP Comercial apresentou proposta agressiva: priorizar totalmente o B2B (empresas) nos próximos 18 meses, argumentando que 'LTV de empresa é 8x maior que pessoa física'. A proposta tinha apoio de 89% das cooperativas e do CFO, que via margem maior. Meu dashboard mostrava realidade diferente: B2C tinha CAC 73% menor, viralidade orgânica 12x superior e CLTV composto (PIX + crédito + investimentos) projetado em R$ 4.200 vs R$ 3.100 do B2B. Mais crítico: B2C tinha 340 mil usuários inativos vs 12 mil B2B, representando R$ 1,4 bilhão em potencial não explorado. Discordar publicamente do VP e de 340 cooperativas era risco de carreira, mas os dados mostravam que priorizar B2B seria deixar R$ 87 milhões na mesa.",
     t: "Meu papel formal incluía roadmap e priorização, mas influenciar decisão estratégica contra maioria executiva e cooperativas exigia ir além. Precisava defender priorização controversa usando dados, não política. Meta: convencer conselho a inverter 70% dos recursos para B2C, mantendo 30% em B2B essencial, projetando R$ 50M+ em receita incremental em 18 meses.",

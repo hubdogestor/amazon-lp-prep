@@ -1,0 +1,578 @@
+[
+  {
+    "cacheKey": "prioritizing_and_influence__Q1__sicredi-woop-segment-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case responde perfeitamente à pergunta sobre decisão difícil de priorização entre múltiplas iniciativas (B2C vs B2B). STAR-L completo com modelagem de cenários, métricas concretas (R$ 87M vs R$ 42M, payback 11 vs 19 meses) e ROI 1.240%."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q1__bradesco-covid-reprioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case exemplar de decisão difícil de priorização: matar 100% do roadmap (47 iniciativas) em 72h durante COVID. STAR-L completo com métricas precisas (R$ 2,72 bilhões salvos, 127 operações mapeadas, 10 digitalizadas em 23 dias)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q1__sefaz-framework-integrated-management",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case responde bem com ajuste de roadmap para framework integrado, mas foco é mais estrutural que escolha entre iniciativas críticas. STAR presente mas genérico, métricas existem (R$ 12 milhões savings, 23% para 7% desvio) porém menos detalhadas."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q1__hdg-pivot-to-robotics",
+    "relevance": 26,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 62,
+    "reasoning": "Case mostra decisão de pivotar entre consultoria e robotização, conceito relacionado mas contexto de startup bootstrap difere de múltiplas iniciativas críticas. STAR genérico com métricas vagas (45% mais leads, potencial 3x maior)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q1__sicredi-woop-delay",
+    "relevance": 18,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 62,
+    "reasoning": "Case foca em comunicação de atraso e replanejamento, não tanto em escolher entre múltiplas iniciativas críticas. STAR bom com métricas (R$ 2 milhões adicionais, 25% adoção, 3% churn) mas conceito parcialmente alinhado."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q1__bradesco-next-mvp-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito: decisão de priorizar 6 funcionalidades essenciais dentre 47 planejadas. STAR-L completo com benchmark de mercado, pesquisa 1.200 clientes, métricas concretas (420 mil clientes, R$ 220M receita, 4 meses antes do prazo)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q2__sicredi-woop-segment-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case exemplar de decidir o que NÃO fazer: recusou B2B urgente das cooperativas para focar B2C. Framework de decisão com 3 cenários, análise de coorte, métricas financeiras detalhadas (CAC R$ 67 vs R$ 1.180)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q2__bradesco-covid-reprioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito sobre decidir o que NÃO fazer: matou 100% roadmap (47 iniciativas) para focar 10 operações críticas. Framework de 3 perguntas, métricas precisas (83% volume em top 10, R$ 340M/semana perdas evitadas)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q2__sefaz-framework-integrated-management",
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Case mostra decisão de pausar 4 projetos para foco em integração, conceito presente mas não central. STAR bom com algumas métricas (R$ 8 milhões ineficiências, 4 projetos pausados, NPS 82) mas menos detalhado."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q2__hdg-pivot-to-robotics",
+    "relevance": 26,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 62,
+    "reasoning": "Case mostra decisão de pausar consultoria para focar robotização quando tudo parecia urgente. STAR presente mas genérico, métricas vagas (45% mais leads, conversão 12%) sem comparações before/after robustas."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q2__sicredi-woop-delay",
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Case menciona decisão de MVP com 70% features (cortar 30%), conceito relacionado mas não central na narrativa. STAR bom com métricas (R$ 10 milhões comprometidos, 3% churn) mas foco é comunicação de crise."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q2__bradesco-next-mvp-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito: decidiu NÃO fazer 41 das 47 features planejadas para focar nas 6 essenciais. Framework de decisão estruturado, pesquisa 1.200 clientes, métricas comparativas (80% adoção vem de 6 funcionalidades core)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q3__sicredi-woop-segment-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case exemplar de influência sem autoridade: Head de Produto contrariou VP Comercial e 340 cooperativas. Quatro camadas de influência baseada em dados, modelagem de cenários, análise de coorte, ROI comparativo detalhado."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q3__bradesco-covid-reprioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito: influenciou C-level a matar roadmap inteiro sem autoridade hierárquica direta. War room com CFO/VP, framework de priorização, métricas de impacto financeiro (R$ 340M/semana), 5 movimentos coordenados."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q3__sefaz-framework-integrated-management",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case mostra influência do Advisor para ajustar roadmap negociando com Secretário, conceito presente. STAR bom mas genérico, métricas existem (R$ 3 milhões realocados, NPS 82) mas menos evidências de influência complexa."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q3__hdg-pivot-to-robotics",
+    "relevance": 12,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 48,
+    "reasoning": "Case de dono da empresa decidindo pivot, não demonstra influência sem autoridade formal (ele TEM autoridade). STAR genérico com métricas vagas (45% leads, potencial 3x) mas conceito não alinhado."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q3__sicredi-woop-delay",
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Case mostra influência ao comunicar atraso ao board e obter aprovação de recursos, conceito relacionado. STAR bom com métricas (R$ 2 milhões aprovados, ROI 20%) mas foco principal é transparência, não influência estratégica."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q3__bradesco-next-mvp-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case exemplar: PM influenciou diretoria a cortar 87% do escopo sem autoridade formal. Três pilares estruturados (dados mercado, clientes, business case), métricas robustas (420 mil clientes, R$ 220M receita, 4 meses antes)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q4__sicredi-woop-segment-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito: usou dados para influenciar contra intuição de VP e cooperativas. Quatro camadas de dados: cenários financeiros, coorte, segmentação comportamental, e pilots. Métricas concretas em cada camada (payback, LTV, taxa ativação)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q4__bradesco-covid-reprioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case exemplar: usou dados de volume/transação e impacto financeiro para mapear 127 operações e priorizar top 10 (83% volume). Métricas precisas (R$ 340M/semana perdas, 1.240% crescimento PJ) contra pressão intuitiva."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q4__sefaz-framework-integrated-management",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case mostra uso de dados (análise 11 sistemas, perdas evitadas) para mitigar resistência à mudança. STAR bom com métricas (23% desvio, R$ 8 milhões ineficiências) mas menos detalhes sobre contraposição a intuição."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q4__hdg-pivot-to-robotics",
+    "relevance": 22,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 58,
+    "reasoning": "Case menciona análise de leads e custos para decisão de pivot, conceito relacionado. STAR genérico com métricas vagas (potencial 3x maior, conversão 12%) e pouca evidência de contraposição a opiniões intuitivas."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q4__sicredi-woop-delay",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case mostra uso de dados (análise logs, projeção impactos) para comunicar atraso ao board e obter aprovação. STAR bom com métricas (R$ 2 milhões adicionais, ROI 20%) mas foco é transparência mais que influência contra intuição."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q4__bradesco-next-mvp-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito: usou dados (benchmark mercado, pesquisa 1.200 clientes, business case) para contraariar intuição da diretoria que queria 47 features. Três níveis estruturados, métricas comparativas (80% adoção com 6 features)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q5__sicredi-woop-segment-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case exemplar: defendeu priorização B2C controversa contra VP Comercial e 340 cooperativas em reunião de conselho. Quatro camadas de defesa estruturada, métricas financeiras precisas (R$ 87M vs R$ 42M, payback 11 vs 19 meses)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q5__bradesco-covid-reprioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito: defendeu decisão controversa de matar 100% roadmap para C-level em contexto de crise. War room estruturada, framework de 3 perguntas, métricas de impacto (R$ 2,72 bilhões salvos em 8 semanas)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q5__sefaz-framework-integrated-management",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case mostra defesa de framework integrado com negociação ao Secretário, conceito presente. STAR bom mas genérico, métricas existem (R$ 3 milhões realocados, pausar 4 projetos) mas menos detalhes de resistência executiva."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q5__hdg-pivot-to-robotics",
+    "relevance": 12,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 48,
+    "reasoning": "Case de dono decidindo pivot unilateralmente, não demonstra defesa a executivos seniores (ele É o executivo). STAR genérico com métricas vagas (45% leads, potencial 3x) e conceito não alinhado."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q5__sicredi-woop-delay",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case mostra defesa de plano de mitigação ao board após atraso, conceito relacionado. STAR bom com métricas (R$ 2 milhões adicionais, ROI 20%, 3% churn) mas foco é comunicação de crise mais que priorização controversa."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q5__bradesco-next-mvp-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case exemplar: defendeu corte de 87% do escopo (6 de 47 features) para diretoria acostumada a projetos longos. Três pilares estruturados, business case com margem e market share, métricas comparativas (420 mil clientes vs 270 mil Neon)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q6__sicredi-woop-segment-prioritization",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case mostra equilíbrio entre reativação B2C (curto prazo, payback 11 meses) e construção de base sustentável (longo prazo, R$ 87M em 18 meses). Métricas robustas mas conceito não é central na narrativa."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q6__bradesco-covid-reprioritization",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case exemplifica trade-off curto vs longo: priorizou digitalizações urgentes (curto, 23 dias) sacrificando iniciativas estratégicas do roadmap anual. Métricas precisas (R$ 2,72 bilhões salvos) mas foco é crise emergencial."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q6__sefaz-framework-integrated-management",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case mostra trade-off: pausar 4 projetos curto prazo para investir em framework integrado de longo prazo. STAR bom com métricas (R$ 12 milhões savings, padrão sustentável Profisco III) mas conceito secundário."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q6__hdg-pivot-to-robotics",
+    "relevance": 26,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 62,
+    "reasoning": "Case mostra trade-off: pausar receita de consultoria (curto prazo) para construir robotização (longo prazo). STAR genérico com métricas vagas (45% leads, base escalável) mas conceito presente."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q6__sicredi-woop-delay",
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Case menciona trade-off: aprovar R$ 2 milhões adicionais (curto prazo) para garantir R$ 50 milhões longo prazo. STAR bom com métricas mas conceito não é central, foco é comunicação de atraso."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q6__bradesco-next-mvp-prioritization",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case mostra equilíbrio: lançar MVP rápido (curto, 6 meses) vs perfeição longa (10 meses, 47 features). Métricas robustas (420 mil clientes ano 1, 4 meses antes do prazo) mas conceito secundário na narrativa."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q7__sicredi-woop-segment-prioritization",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case mostra mudança de priorização baseada em análise de coorte e segmentação comportamental (novas informações). Métricas robustas (78% inativos com R$ 847 saldo) mas foco principal é influência, não mudança per se."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q7__bradesco-covid-reprioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito: mudou 100% roadmap baseado em nova informação (decreto lockdown COVID). Reprioritização completa em 72h, mapeamento 127 operações, framework estruturado, métricas precisas (83% volume em top 10)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q7__sefaz-framework-integrated-management",
+    "relevance": 30,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 74,
+    "reasoning": "Case exemplifica mudança de roadmap baseada em identificação de desconexões (nova informação sobre ineficiências). STAR bom com métricas (23% desvio, R$ 8 milhões ineficiências) mas detalhes genéricos do processo."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q7__hdg-pivot-to-robotics",
+    "relevance": 30,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 66,
+    "reasoning": "Case exemplifica pivot de roadmap baseado em análise de leads e mercado (novas informações). STAR genérico com métricas vagas (12% conversão consultoria, potencial 3x robotização) mas conceito central."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q7__sicredi-woop-delay",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case mostra mudança para lançamento parcial MVP baseado em falhas de integração (nova informação). STAR bom com métricas (70% features, 25% adoção, 3% churn) mas conceito secundário, foco é comunicação."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q7__bradesco-next-mvp-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito: mudou roadmap de 47 para 6 features baseado em benchmark mercado e pesquisa 1.200 clientes (novas informações). Três níveis estruturados de análise, métricas comparativas detalhadas (80% adoção com 6 features)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q8__sicredi-woop-segment-prioritization",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case mostra transparência: apresentou 3 cenários com projeções financeiras detalhadas ao conselho. Métricas robustas (payback, ROI, LTV) mas foco principal é influência baseada em dados, não processo de transparência."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q8__bradesco-covid-reprioritization",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case demonstra transparência: war room com CFO/VP, framework de 3 perguntas claro, comunicação estruturada em 5 movimentos. Métricas precisas (127 operações, top 10 com 83% volume) mas foco é velocidade de decisão."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q8__sefaz-framework-integrated-management",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case mostra transparência: workshops para feedback, dashboards unificados, dados de perdas evitadas. STAR bom com métricas (NPS 82, R$ 12 milhões savings) mas detalhes do processo de comunicação são genéricos."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q8__hdg-pivot-to-robotics",
+    "relevance": 18,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 54,
+    "reasoning": "Case menciona feedback de 50 usuários e negociação com dev, conceito parcialmente presente. STAR genérico com métricas vagas (45% leads) e pouca evidência de processo estruturado de transparência."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q8__sicredi-woop-delay",
+    "relevance": 30,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 74,
+    "reasoning": "Case exemplifica transparência: comunicou atraso proativamente reconhecendo erro, apresentou plano detalhado, Q&A para dúvidas. STAR bom com métricas (R$ 2 milhões adicionais, ROI 20%) e conceito central na narrativa."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q8__bradesco-next-mvp-prioritization",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case mostra transparência: estrutura de decisão em 3 níveis clara, benchmark público, pesquisa clientes compartilhada. Métricas robustas (1.200 clientes pesquisados, 73% citaram 6 features) mas foco é influência estruturada."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q9__sicredi-woop-segment-prioritization",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case mostra influência em decisão de negócio (B2C vs B2B) com dados técnicos (análise coorte, segmentação). Métricas robustas mas conceito não é decisão técnica pura, é estratégica de produto."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q9__bradesco-covid-reprioritization",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case mostra influência técnica (digitalizar 10 operações em 23 dias) com impacto de negócio (R$ 2,72 bilhões salvos). Métricas precisas mas foco é priorização estratégica em crise, não decisão técnica per se."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q9__sefaz-framework-integrated-management",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case mostra decisão técnica (adotar framework integrado, análise 11 sistemas) com impacto de negócio (R$ 12 milhões savings). STAR bom mas detalhes técnicos são genéricos, foco é gestão de portfólio."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q9__hdg-pivot-to-robotics",
+    "relevance": 26,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 62,
+    "reasoning": "Case mostra decisão técnica (pivotar para robots n8n) com impacto de negócio (45% mais leads). STAR genérico com métricas vagas e pouca evidência de influência complexa sobre decisão técnica."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q9__sicredi-woop-delay",
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Case menciona decisão técnica (fixes de integração legada, testes automatizados) ligada a impacto (R$ 50 milhões). STAR bom mas foco é comunicação de atraso, não influência em decisão técnica específica."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q9__bradesco-next-mvp-prioritization",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case mostra influência em decisão de escopo técnico (6 vs 47 features) com impacto de negócio (420 mil clientes, R$ 220M). Métricas robustas mas conceito não é decisão técnica pura, é priorização de produto."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q10__sicredi-woop-segment-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito: resistiu à pressão do VP Comercial e 340 cooperativas que queriam B2B (iniciativa errada). Quatro camadas de defesa estruturada, métricas financeiras precisas provando B2C era correto (R$ 87M vs R$ 42M)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q10__bradesco-covid-reprioritization",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case mostra resistência à pressão implícita de manter roadmap planejado, matando 100% para focar crise. Métricas robustas (R$ 2,72 bilhões salvos) mas contexto é crise emergencial, não pressão por iniciativa errada per se."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q10__sefaz-framework-integrated-management",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case mostra mitigação de resistência à mudança para framework integrado usando dados de perdas evitadas. STAR bom com métricas (R$ 8 milhões ineficiências) mas menos evidência de pressão ativa por iniciativas erradas."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q10__hdg-pivot-to-robotics",
+    "relevance": 22,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 58,
+    "reasoning": "Case mostra decisão de pivotar apesar de mercado saturado em consultoria (pressão para continuar). STAR genérico com métricas vagas (conversão 12%) e pouca evidência de pressão externa ativa."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q10__sicredi-woop-delay",
+    "relevance": 18,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 62,
+    "reasoning": "Case menciona pressão do board por lançamento em setembro (manter prazo), decidiu atrasar 3 meses. STAR bom com métricas (R$ 2 milhões adicionais, 3% churn) mas conceito parcial, foco é transparência."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q10__bradesco-next-mvp-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case exemplar: resistiu à pressão da diretoria por 47 features (paridade Nubank + diferenciais), defendeu apenas 6 essenciais. Três pilares estruturados, métricas comparativas (420 mil clientes vs 270 mil Neon no período)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q11__sicredi-woop-segment-prioritization",
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case não descreve crise explícita, mas competição B2C vs B2B em contexto estratégico. STAR-L completo com métricas robustas (R$ 87M, ROI 1.240%) mas conceito de repriorização em crise não é central."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q11__bradesco-covid-reprioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito: repriorizou 100% recursos em 72h durante crise COVID (lockdown iminente). Mapeamento 127 operações, framework estruturado, métricas precisas (R$ 2,72 bilhões salvos em 8 semanas de crise)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q11__sefaz-framework-integrated-management",
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Case menciona crise de ineficiências (23% desvio, R$ 8 milhões perdas) que motivou repriorização. STAR bom mas não é crise aguda, é situação crônica. Métricas existem mas conceito parcialmente alinhado."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q11__hdg-pivot-to-robotics",
+    "relevance": 26,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 62,
+    "reasoning": "Case descreve crise de recursos (bootstrap, sem funding, mercado saturado) que forçou pivot. STAR genérico com métricas vagas (conversão 12%, potencial 3x) mas conceito de crise presente."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q11__sicredi-woop-delay",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case descreve crise de atraso (3 meses, falhas integração) que exigiu repriorização para MVP reduzido. STAR bom com métricas (70% features, R$ 2 milhões adicionais) e conceito de crise presente."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q11__bradesco-next-mvp-prioritization",
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case não descreve crise explícita, mas contexto competitivo (competir com Nubank). STAR-L completo com métricas robustas (420 mil clientes, 4 meses antes) mas conceito de repriorização em crise não é central."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q12__sicredi-woop-segment-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case exemplar: mediu impacto com métricas antes/depois comparando projeção vs real (R$ 91M real vs R$ 87M projetado). Múltiplas métricas rastreadas: usuários ativos (+56%), ROI reativação (1.240%), CAC, LTV."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q12__bradesco-covid-reprioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito: mediu impacto com métricas concretas de perdas evitadas (R$ 2,72 bilhões em 8 semanas), crescimento operações (1.240% PJ, 890% portabilidade), velocidade entrega (23 dias para 10 operações)."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q12__sefaz-framework-integrated-management",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case mostra medição de impacto: desvio 23% para 7%, R$ 12 milhões savings, NPS interno 82. STAR bom mas métricas menos detalhadas sobre processo de acompanhamento contínuo, mais resultado final."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q12__hdg-pivot-to-robotics",
+    "relevance": 26,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 62,
+    "reasoning": "Case menciona medição: 45% mais leads qualificados após pivot, protótipos robots prontos. STAR genérico com métricas vagas (não compara antes/depois com números absolutos) e pouca evidência de framework de medição."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q12__sicredi-woop-delay",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case mostra medição de impacto: 25% adoção atingida, 3% churn (meta <5%), R$ 50 milhões gerados, NPS 78. STAR bom mas foco é resultado final, menos sobre processo contínuo de medição."
+  },
+  {
+    "cacheKey": "prioritizing_and_influence__Q12__bradesco-next-mvp-prioritization",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case exemplar: mediu impacto comparando real vs projeção e vs concorrentes (420 mil clientes vs 270 mil Neon, R$ 220M receita 22% acima planejado, 4 meses antes do prazo). Múltiplas métricas rastreadas."
+  }
+]

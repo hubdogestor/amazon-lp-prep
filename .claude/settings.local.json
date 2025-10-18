@@ -12,7 +12,8 @@
       "Bash(npm run deploy:*)",
       "Bash(node scripts/lp-harmony-ai.mjs:*)",
       "Bash(cat:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(grep:*)"
     ],
     "deny": [],
     "ask": []
