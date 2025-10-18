@@ -932,61 +932,363 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "stay-updated-payments-fintech",
-          "score": 88
+          "score": 95
+        },
+        {
+          "caseId": "olibano-blockchain-exploration",
+          "score": 92
+        },
+        {
+          "caseId": "unimed-harvard-healthcare-innovation",
+          "score": 86
+        },
+        {
+          "caseId": "bradesco-safe-agile-framework",
+          "score": 86
+        },
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 84
+        },
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 80
         }
       ]
     },
     "2": {
-      "options": []
+      "options": [
+        {
+          "caseId": "olibano-blockchain-exploration",
+          "score": 92
+        },
+        {
+          "caseId": "stay-updated-payments-fintech",
+          "score": 91
+        },
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 88
+        },
+        {
+          "caseId": "unimed-harvard-healthcare-innovation",
+          "score": 86
+        },
+        {
+          "caseId": "bradesco-safe-agile-framework",
+          "score": 86
+        },
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 80
+        }
+      ]
     },
     "3": {
       "options": [
         {
           "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 92
+        },
+        {
+          "caseId": "olibano-blockchain-exploration",
           "score": 88
+        },
+        {
+          "caseId": "stay-updated-payments-fintech",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 84
+        },
+        {
+          "caseId": "unimed-harvard-healthcare-innovation",
+          "score": 82
+        },
+        {
+          "caseId": "bradesco-safe-agile-framework",
+          "score": 82
         }
       ]
     },
     "4": {
-      "options": []
+      "options": [
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 92
+        },
+        {
+          "caseId": "stay-updated-payments-fintech",
+          "score": 87
+        },
+        {
+          "caseId": "olibano-blockchain-exploration",
+          "score": 84
+        },
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 84
+        },
+        {
+          "caseId": "unimed-harvard-healthcare-innovation",
+          "score": 82
+        },
+        {
+          "caseId": "bradesco-safe-agile-framework",
+          "score": 82
+        }
+      ]
     },
     "5": {
-      "options": []
+      "options": [
+        {
+          "caseId": "stay-updated-payments-fintech",
+          "score": 95
+        },
+        {
+          "caseId": "olibano-blockchain-exploration",
+          "score": 92
+        },
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 88
+        },
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 88
+        },
+        {
+          "caseId": "unimed-harvard-healthcare-innovation",
+          "score": 86
+        },
+        {
+          "caseId": "bradesco-safe-agile-framework",
+          "score": 86
+        }
+      ]
     },
     "6": {
-      "options": []
+      "options": [
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 88
+        },
+        {
+          "caseId": "stay-updated-payments-fintech",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 84
+        },
+        {
+          "caseId": "bradesco-safe-agile-framework",
+          "score": 82
+        },
+        {
+          "caseId": "olibano-blockchain-exploration",
+          "score": 80
+        }
+      ]
     },
     "7": {
-      "options": []
+      "options": [
+        {
+          "caseId": "stay-updated-payments-fintech",
+          "score": 95
+        },
+        {
+          "caseId": "olibano-blockchain-exploration",
+          "score": 92
+        },
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 92
+        },
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 88
+        },
+        {
+          "caseId": "unimed-harvard-healthcare-innovation",
+          "score": 86
+        },
+        {
+          "caseId": "bradesco-safe-agile-framework",
+          "score": 86
+        }
+      ]
     },
     "8": {
-      "options": []
+      "options": [
+        {
+          "caseId": "stay-updated-payments-fintech",
+          "score": 95
+        },
+        {
+          "caseId": "olibano-blockchain-exploration",
+          "score": 92
+        },
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 92
+        },
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 88
+        },
+        {
+          "caseId": "unimed-harvard-healthcare-innovation",
+          "score": 86
+        },
+        {
+          "caseId": "bradesco-safe-agile-framework",
+          "score": 86
+        }
+      ]
     },
     "9": {
-      "options": []
+      "options": [
+        {
+          "caseId": "stay-updated-payments-fintech",
+          "score": 95
+        },
+        {
+          "caseId": "olibano-blockchain-exploration",
+          "score": 84
+        },
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 84
+        },
+        {
+          "caseId": "unimed-harvard-healthcare-innovation",
+          "score": 82
+        },
+        {
+          "caseId": "bradesco-safe-agile-framework",
+          "score": 82
+        },
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 80
+        }
+      ]
     },
     "10": {
-      "options": []
+      "options": [
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 92
+        },
+        {
+          "caseId": "olibano-blockchain-exploration",
+          "score": 88
+        },
+        {
+          "caseId": "stay-updated-payments-fintech",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-harvard-healthcare-innovation",
+          "score": 86
+        },
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 84
+        },
+        {
+          "caseId": "bradesco-safe-agile-framework",
+          "score": 82
+        }
+      ]
     },
     "11": {
       "options": [
         {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 88
+        },
+        {
           "caseId": "stay-updated-payments-fintech",
+          "score": 83
+        },
+        {
+          "caseId": "olibano-blockchain-exploration",
           "score": 80
         }
       ]
     },
     "12": {
-      "options": []
+      "options": [
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 88
+        },
+        {
+          "caseId": "stay-updated-payments-fintech",
+          "score": 87
+        },
+        {
+          "caseId": "olibano-blockchain-exploration",
+          "score": 80
+        },
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 80
+        }
+      ]
     },
     "13": {
-      "options": []
+      "options": [
+        {
+          "caseId": "olibano-blockchain-exploration",
+          "score": 88
+        },
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 88
+        },
+        {
+          "caseId": "stay-updated-payments-fintech",
+          "score": 87
+        },
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 84
+        },
+        {
+          "caseId": "bradesco-safe-agile-framework",
+          "score": 82
+        }
+      ]
     },
     "14": {
       "options": [
         {
+          "caseId": "olibano-blockchain-exploration",
+          "score": 92
+        },
+        {
           "caseId": "stay-updated-payments-fintech",
-          "score": 80
+          "score": 91
+        },
+        {
+          "caseId": "unimed-cvc-failure-learning",
+          "score": 88
+        },
+        {
+          "caseId": "unimed-harvard-healthcare-innovation",
+          "score": 86
+        },
+        {
+          "caseId": "bradesco-safe-agile-framework",
+          "score": 86
+        },
+        {
+          "caseId": "out-of-comfort-zone-transparency-portal",
+          "score": 84
         }
       ]
     }

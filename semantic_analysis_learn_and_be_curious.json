@@ -1,0 +1,674 @@
+[
+  {
+    "cacheKey": "learn_and_be_curious__Q1__unimed-harvard-healthcare-innovation",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: case central é sobre buscar atualização através de curso Harvard. STAR-L completo com aplicação imediata. Métricas concretas: 20.000 beneficiários, -15% custos hospitalares (R$4M economia), 68% internações evitáveis identificadas."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q1__bradesco-safe-agile-framework",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: mergulho de 3 meses em frameworks SAFe/LeSS/Nexus para se manter atualizado. STAR-L completo com comparação estruturada. Métricas concretas: 6 meses antes do prazo, R$2,4M economizados, -45% tempo reunião, zero atrasos por dependências."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q1__olibano-blockchain-exploration",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exploração de blockchain via curso MIT (8 semanas/40h). STAR-L completo com validação técnica rigorosa. Métricas concretas: R$800k capital preservado, 12 whitepapers analisados, 18 páginas de whitepaper, 90 dias de investigação estruturada."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q1__stay-updated-payments-fintech",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: sistema estruturado de aprendizado contínuo com pipeline de conhecimento. STAR-L completo com método replicável. Métricas concretas: 26 PoCs em 3 anos, -53% ramp-up (6→2,8 semanas), 78% taxa de aplicação, 12 cooperados entrevistados."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q1__out-of-comfort-zone-transparency-portal",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Responde MUITO BEM: aprendizado acelerado em área nova (transparência pública). STAR-L completo mas foco maior em entrega que em manter-se atualizado. Métricas concretas: 18 jornalistas + 12 auditores entrevistados, -67% solicitações LAI, 14.200 acessos mensais."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q1__unimed-cvc-failure-learning",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Responde MUITO BEM: aprendizado de DMAIC após fracasso. STAR-L completo com transformação profunda. Métricas concretas: 7 startups aceleradas, R$12M inovações, tempo contratação 21→8 dias, mas foco em aprender com erro, não manter-se atualizado."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q2__unimed-harvard-healthcare-innovation",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: Value-Based Healthcare de Harvard foi a última coisa nova aprendida. STAR-L completo com aplicação direta. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), superou projeções Harvard em 2 pontos percentuais."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q2__bradesco-safe-agile-framework",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: SAFe foi a última coisa nova aprendida (3 meses de estudo). STAR-L completo com transformação cultural. Métricas concretas: 6 meses antes do prazo, R$2,4M economizados, -45% tempo reunião, 100% eliminação atrasos."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q2__olibano-blockchain-exploration",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: blockchain via MIT foi a última coisa nova (8 semanas). STAR-L completo com decisão baseada em evidência. Métricas concretas: R$800k preservados, 12 whitepapers, 18 clientes entrevistados, protótipo funcional em 90 dias."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q2__stay-updated-payments-fintech",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: sistema de aprendizado contínuo (não uma coisa específica recente). STAR-L completo com resultados excepcionais. Métricas concretas: 26 PoCs, -53% ramp-up, 78% aplicação, 3,2 semanas antecipação média."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q2__out-of-comfort-zone-transparency-portal",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Responde MUITO BEM: aprendizado de transparência pública e frameworks de dados abertos. STAR-L completo mas não especifica exatamente o que foi a última coisa. Métricas concretas: 240 solicitações analisadas, -67% LAI, 14.200 acessos, 5% antes prazo."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q2__unimed-cvc-failure-learning",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: DMAIC foi a última coisa nova aprendida (após falha do CVC). STAR-L completo com método estruturado. Métricas concretas: 7 startups, R$12M, tempo 21→8 dias, mas Learning genérico sobre estrutura vs entusiasmo."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q3__unimed-harvard-healthcare-innovation",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: sair da zona de conforto ao fazer curso Harvard fora da área técnica. STAR-L completo com impacto significativo. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), 68% internações evitáveis, mas foco é aprendizado não desconforto."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q3__bradesco-safe-agile-framework",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: sair da zona de conforto ao implementar SAFe em banco tradicional. STAR-L completo com quebra de ceticismo. Métricas concretas: 6 meses antecipado, R$2,4M, -45% tempo reunião, mas foco é transformação não desconforto pessoal."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q3__olibano-blockchain-exploration",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: sair da zona de conforto ao investigar blockchain (área nova). STAR-L completo com coragem de dizer 'não'. Métricas concretas: R$800k preservados, 90 dias investigação, R$2.400 investimento próprio, 12 whitepapers analisados."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q3__stay-updated-payments-fintech",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: criar sistema de PoCs foi parcialmente sair da zona de conforto. STAR-L completo com resultados sólidos. Métricas concretas: 26 PoCs, -53% ramp-up, 78% aplicação, mas foco é estruturar aprendizado não desconforto."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q3__out-of-comfort-zone-transparency-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: título explícito 'Fora da Zona de Conforto'. STAR-L completo com área totalmente nova (políticas públicas). Métricas concretas: 18 jornalistas + 12 auditores entrevistados, -67% LAI, 14.200 acessos, 36% antes previsão técnica."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q3__unimed-cvc-failure-learning",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Responde MUITO BEM: sair da zona de conforto ao assumir falha e aprender DMAIC. STAR-L completo com humildade. Métricas concretas: 7 startups, R$12M, 21→8 dias, mas foco maior em aprender com erro que desconforto inicial."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q4__unimed-harvard-healthcare-innovation",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: aprendizado acelerado de VBHC mas não especifica urgência temporal explícita. STAR-L completo com aplicação direta. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), curso concluído mas prazo não mencionado."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q4__bradesco-safe-agile-framework",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: 3 meses para dominar SAFe/LeSS/Nexus (relativamente rápido). STAR-L completo com urgência implícita. Métricas concretas: 6 meses antes prazo, R$2,4M economizados, -45% tempo reunião, mas 3 meses não é 'rapidamente'."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q4__olibano-blockchain-exploration",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: 90 dias de investigação estruturada (não é extremamente rápido). STAR-L completo com rigor técnico. Métricas concretas: R$800k preservados, 8 semanas curso, 12 whitepapers, mas prazo foi confortável não urgente."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q4__stay-updated-payments-fintech",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: sistema de aprendizado ao longo de 3 anos (não rápido). STAR-L completo com consistência. Métricas concretas: 26 PoCs, -53% ramp-up, mas processo é incremental não acelerado."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q4__out-of-comfort-zone-transparency-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: 4 meses para dominar área completamente nova (políticas públicas + dados abertos). STAR-L completo com aprendizado acelerado explícito. Métricas concretas: 240 solicitações analisadas, 18 jornalistas + 12 auditores, entrega 36% antes da previsão."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q4__unimed-cvc-failure-learning",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Responde MUITO BEM: aprendizado de DMAIC após fracasso mas timeline não especificada. STAR-L completo com transformação. Métricas concretas: 7 startups, R$12M, 21→8 dias, mas não menciona se foi aprendizado rápido."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q5__unimed-harvard-healthcare-innovation",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (curso Harvard) levou a produto APS com impacto direto. STAR-L completo com causalidade clara. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M economia), 68% internações evitáveis identificadas."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q5__bradesco-safe-agile-framework",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (estudar SAFe) levou a lançamento 6 meses antecipado. STAR-L completo com link direto aprendizado→resultado. Métricas concretas: 6 meses antecipado, R$2,4M, -45% tempo reunião, zero atrasos por dependências."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q5__olibano-blockchain-exploration",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (investigar blockchain) evitou perda de R$800k. STAR-L completo com decisão baseada em evidência. Métricas concretas: R$800k preservados, 90 dias investigação, ROI 7:1 estimado evitado, decisão data-driven."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q5__stay-updated-payments-fintech",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade estruturada (sistema PoCs) levou a -53% ramp-up. STAR-L completo com método escalável. Métricas concretas: 26 PoCs, -53% ramp-up (6→2,8 sem), 78% aplicação, 3,2 semanas antecipação média."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q5__out-of-comfort-zone-transparency-portal",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: aprendizado acelerado levou a portal 36% antes da previsão. STAR-L completo mas foco maior em execução que curiosidade inicial. Métricas concretas: 14.200 acessos, -67% LAI, 36% antecipação, mas motivação era mandato não curiosidade."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q5__unimed-cvc-failure-learning",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (investigar causa raiz com DMAIC) levou a Vibee. STAR-L completo com transformação após fracasso. Métricas concretas: 7 startups, R$12M, 21→8 dias, mas Learning genérico sobre método vs entusiasmo."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q6__unimed-harvard-healthcare-innovation",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: criar produto APS parecia desafiador mas não há menção explícita de inviabilidade inicial. STAR-L completo com resultados excepcionais. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), mas foco é aprendizado não inviabilidade."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q6__bradesco-safe-agile-framework",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: transformar Bradesco em ágil parecia inviável (ceticismo explícito). STAR-L completo com menção a dúvidas. Métricas concretas: 6 meses antecipado, R$2,4M, 'agilidade não funciona aqui', mas não diz que ele achava inviável."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q6__olibano-blockchain-exploration",
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: não há indicação que achava inviável, foi investigação estruturada. STAR-L completo mas sem ceticismo inicial. Métricas concretas: R$800k preservados, 90 dias, mas abordagem foi confiante desde início."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q6__stay-updated-payments-fintech",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: criar sistema de aprendizado tinha desafio (8 semanas atraso) mas não inviabilidade. STAR-L completo com resgate. Métricas concretas: 26 PoCs, -53% ramp-up, mas não menciona dúvida sobre alcançabilidade."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q6__out-of-comfort-zone-transparency-portal",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: portal derrotou dois grupos anteriores (sugere inviabilidade percebida). STAR-L completo com menção a previsão técnica. Métricas concretas: 36% antes da previsão, 14.200 acessos, 'ditada mais pela urgência que viabilidade técnica'."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q6__unimed-cvc-failure-learning",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Responde MUITO BEM: recuperar após fracasso CVC parecia inviável (startups desistindo). STAR-L completo com reversão. Métricas concretas: 7 startups, R$12M, zero desistências no Vibee, mas não explicita 'não achava alcançável' inicialmente."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q7__unimed-harvard-healthcare-innovation",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: VBHC de Harvard melhorou capacidade de criar produtos. STAR-L completo com aprendizado transformador. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), Learning explícito sobre curiosidade estruturada."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q7__bradesco-safe-agile-framework",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: SAFe melhorou capacidade de liderar transformações. STAR-L completo com aprendizado aplicado. Métricas concretas: 6 meses antecipado, R$2,4M, Learning sobre curiosidade como arma estratégica."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q7__olibano-blockchain-exploration",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: blockchain ensinou a dizer 'não ainda' com evidências. STAR-L completo com aprendizado sobre rigor técnico. Métricas concretas: R$800k preservados, Learning sobre curiosidade genuína vs descoberta do novo."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q7__stay-updated-payments-fintech",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: sistema de PoCs melhorou capacidade de inovar com velocidade. STAR-L completo com método replicável. Métricas concretas: 26 PoCs, -53% ramp-up, Learning sobre curiosidade estruturada criando tração sustentável."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q7__out-of-comfort-zone-transparency-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: aprender políticas públicas melhorou capacidade de navegar complexidade. STAR-L completo com transformação. Métricas concretas: 36% antecipação, -67% LAI, Learning sobre conhecimento aplicado gerando segurança."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q7__unimed-cvc-failure-learning",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: DMAIC melhorou capacidade de estruturar inovação. STAR-L completo com método aplicado. Métricas concretas: 7 startups, R$12M, 21→8 dias, Learning sobre curiosidade organizada em método."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q8__unimed-harvard-healthcare-innovation",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: identificou lacuna em VBHC e preencheu com Harvard. STAR-L completo com diagnóstico + solução. Métricas concretas: curso específico, 20.000 beneficiários, -15% custos, gap explícito identificado."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q8__bradesco-safe-agile-framework",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: identificou lacuna em agilidade em escala e preencheu com SAFe. STAR-L completo com gap analysis. Métricas concretas: 3 frameworks comparados, 6 meses antecipado, R$2,4M, necessidade explícita de estrutura."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q8__olibano-blockchain-exploration",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: identificou lacuna em blockchain e preencheu com MIT + protótipo. STAR-L completo com investigação sistemática. Métricas concretas: 8 semanas curso, 12 whitepapers, 18 clientes, gap técnico explicitado."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q8__stay-updated-payments-fintech",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: identificou lacuna (8 semanas atraso) e preencheu com sistema PoCs. STAR-L completo com diagnóstico inicial. Métricas concretas: 26 PoCs, -53% ramp-up, 78% aplicação, gap de velocidade explícito."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q8__out-of-comfort-zone-transparency-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: identificou lacuna em políticas públicas/dados abertos e preencheu aceleradamente. STAR-L completo com aprendizado direcionado. Métricas concretas: 240 solicitações analisadas, 18 jornalistas + 12 auditores, área totalmente nova dominada."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q8__unimed-cvc-failure-learning",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: identificou lacuna em gestão de inovação e preencheu com DMAIC. STAR-L completo com causa raiz. Métricas concretas: 8 stakeholders mapeados, 21→8 dias, mas Learning genérico sobre estrutura."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q9__unimed-harvard-healthcare-innovation",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: fez curso Harvard enquanto Head (ocupado). STAR-L completo mas não explicita tensão dia-a-dia vs exploração. Métricas concretas: 20.000 beneficiários, -15% custos, mas não menciona como equilibrou tempo."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q9__bradesco-safe-agile-framework",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: estudou 3 frameworks durante projeto Next. STAR-L completo mas não explicita como conciliou. Métricas concretas: 6 meses antecipado, R$2,4M, mas foco é estudo não balanço tempo."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q9__olibano-blockchain-exploration",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: explorou blockchain mas como sócio-investidor (não operacional ocupado). STAR-L completo mas contexto não é dia-a-dia operacional. Métricas concretas: R$800k preservados, 90 dias dedicados, mas teve tempo estruturado."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q9__stay-updated-payments-fintech",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: criou sistema de PoCs justamente para explorar enquanto ocupado com roadmap. STAR-L completo com método para balanço. Métricas concretas: 26 PoCs ao longo de 3 anos, 8-10/ano, estrutura para não parar de explorar."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q9__out-of-comfort-zone-transparency-portal",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: aprendeu rápido durante projeto mas não menciona exploração contínua além do mandato. STAR-L completo mas foco é entrega não exploração paralela. Métricas concretas: 4 meses, 36% antecipação, mas não explora 'além do dia-a-dia'."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q9__unimed-cvc-failure-learning",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Responde BEM: aprendeu DMAIC após fracasso mas não menciona como explorou enquanto ocupado. STAR-L completo mas contexto é reação não exploração proativa. Métricas concretas: 7 startups, R$12M, mas não aborda balanço tempo."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q10__unimed-harvard-healthcare-innovation",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: aplicou VBHC (área saúde acadêmica) a produto digital (tech). STAR-L completo com cross-domain explícito. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), conceitos Harvard aplicados a produto."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q10__bradesco-safe-agile-framework",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: aplicou SAFe (framework genérico) a banco tradicional (contexto específico). STAR-L completo com adaptação. Métricas concretas: 6 meses antecipado, R$2,4M, mas SAFe já era área adjacente não completamente diferente."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q10__olibano-blockchain-exploration",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: aplicou blockchain (cripto) a pagamentos tradicionais. STAR-L completo com avaliação cross-domain. Métricas concretas: R$800k preservados, mas blockchain e pagamentos são áreas adjacentes não completamente diferentes."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q10__stay-updated-payments-fintech",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: sistema de PoCs aplicado a fintech mas não menciona área completamente diferente. STAR-L completo mas aprendizados são da mesma área. Métricas concretas: 26 PoCs, -53% ramp-up, mas todos em payments/fintech."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q10__out-of-comfort-zone-transparency-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: aplicou conhecimento tech a políticas públicas (área completamente diferente). STAR-L completo com cross-domain explícito. Métricas concretas: tech person em governo, 14.200 acessos, -67% LAI, área pública totalmente nova."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q10__unimed-cvc-failure-learning",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Responde MUITO BEM: aplicou DMAIC (Six Sigma) a CVC/inovação. STAR-L completo com método de outra área. Métricas concretas: 7 startups, R$12M, mas DMAIC já é ferramenta de gestão adjacente."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q11__unimed-harvard-healthcare-innovation",
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Responde TANGENCIALMENTE: case é sucesso não fracasso. STAR-L completo mas não aborda falha. Métricas concretas: 20.000 beneficiários, -15% custos, resultado positivo não negativo."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q11__bradesco-safe-agile-framework",
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Responde TANGENCIALMENTE: case é sucesso não fracasso. STAR-L completo mas não aborda falha. Métricas concretas: 6 meses antecipado, R$2,4M economizados, resultado positivo não negativo."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q11__olibano-blockchain-exploration",
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: não investir em blockchain poderia ser visto como 'falha' de não inovar mas foi decisão correta. STAR-L completo mas não é fracasso tradicional. Métricas concretas: R$800k preservados, decisão acertada não erro."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q11__stay-updated-payments-fintech",
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: menciona 8 semanas de atraso inicial mas foco é recuperação. STAR-L completo mas não aprofunda falha. Métricas concretas: 26 PoCs entregues depois, -53% ramp-up, resultado final positivo."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q11__out-of-comfort-zone-transparency-portal",
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Responde TANGENCIALMENTE: menciona dois grupos anteriores falharam mas case pessoal é sucesso. STAR-L completo mas não é falha própria. Métricas concretas: 36% antecipação, resultado positivo não negativo."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q11__unimed-cvc-failure-learning",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: título explícito 'Falhei no lançamento do CVC'. STAR-L completo com ownership do fracasso. Métricas concretas: 4 meses perdidos, R$340k desperdiçados, startups desistindo, mas recuperação posterior."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q12__unimed-harvard-healthcare-innovation",
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: case não menciona erro específico. STAR-L completo mas foco é aprendizado proativo não com erros. Métricas concretas: 20.000 beneficiários, -15% custos, mas não identifica erro que gerou aprendizado."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q12__bradesco-safe-agile-framework",
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: case não menciona erro específico. STAR-L completo mas foco é aprendizado proativo. Métricas concretas: 6 meses antecipado, R$2,4M, mas não identifica erro que gerou aprendizado."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q12__olibano-blockchain-exploration",
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: aprendizado foi 'não investir' mas não foi erro próprio. STAR-L completo mas aprendizado é preventivo. Métricas concretas: R$800k preservados, evitou erro futuro não corrigiu erro passado."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q12__stay-updated-payments-fintech",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: menciona 8 semanas de atraso (erro) e aprendizado com sistema PoCs. STAR-L completo com correção. Métricas concretas: 26 PoCs, -53% ramp-up, mas não aprofunda o erro inicial."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q12__out-of-comfort-zone-transparency-portal",
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: menciona grupos anteriores erraram mas não erro pessoal. STAR-L completo mas foco é execução correta. Métricas concretas: 36% antecipação, -67% LAI, mas não identifica erro próprio."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q12__unimed-cvc-failure-learning",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: falha CVC explícita + aprendizado DMAIC aplicado. STAR-L completo com erro→método. Métricas concretas: R$340k desperdiçados, 4 meses perdidos, mas recuperação com 7 startups + R$12M."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q13__unimed-harvard-healthcare-innovation",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: aprender VBHC implica desaprender modelo fee-for-service mas não explicitado. STAR-L completo mas foco é aprender não desaprender. Métricas concretas: 20.000 beneficiários, -15% custos, mudança de paradigma implícita."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q13__bradesco-safe-agile-framework",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: SAFe requer desaprender waterfall (mencionado ceticismo de líderes). STAR-L completo com mudança cultural. Métricas concretas: 6 meses antecipado, -45% reuniões, quebra de controle centralizado sugere desaprendizado."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q13__olibano-blockchain-exploration",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: investigação blockchain desaprende hype (decidiu não investir). STAR-L completo com questionamento de moda. Métricas concretas: R$800k preservados, Learning sobre não seguir moda cegamente."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q13__stay-updated-payments-fintech",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: sistema PoCs implica desaprender abordagem ad-hoc mas não explicitado. STAR-L completo mas foco é estruturar não desaprender. Métricas concretas: 26 PoCs, -53% ramp-up, mudança de método implícita."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q13__out-of-comfort-zone-transparency-portal",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: área nova requer desaprender mas não explícito como identificou necessidade. STAR-L completo mas foco é aprender rápido. Métricas concretas: 36% antecipação, -67% LAI, mas não aborda desaprendizado."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q13__unimed-cvc-failure-learning",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: DMAIC ensinou a desaprender 'entusiasmo sem estrutura' (Learning explícito). STAR-L completo com identificação clara. Métricas concretas: 7 startups, R$12M, Learning sobre arrogância vs método."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q14__unimed-harvard-healthcare-innovation",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (Harvard) questionou modelo fee-for-service estabelecido. STAR-L completo com mudança de paradigma. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), VBHC vs modelo tradicional."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q14__bradesco-safe-agile-framework",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (SAFe) questionou waterfall/controle centralizado estabelecido. STAR-L completo com quebra de ceticismo. Métricas concretas: 6 meses antecipado, R$2,4M, -45% reuniões, 'agilidade não funciona aqui' contestado."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q14__olibano-blockchain-exploration",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade questionou hype blockchain estabelecido (moda do mercado). STAR-L completo com coragem de contrariar. Métricas concretas: R$800k preservados, decisão contra corrente, 'moda tecnológica vs análise racional'."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q14__stay-updated-payments-fintech",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: curiosidade estruturada questionou abordagem ad-hoc. STAR-L completo com sistematização. Métricas concretas: 26 PoCs, -53% ramp-up, mas não explicita confronto com prática estabelecida anterior."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q14__out-of-comfort-zone-transparency-portal",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: questionou portal obsoleto mas motivação era mandato não curiosidade. STAR-L completo com renovação. Métricas concretas: 14.200 acessos, -67% LAI, mas foco é entrega não questionamento por curiosidade."
+  },
+  {
+    "cacheKey": "learn_and_be_curious__Q14__unimed-cvc-failure-learning",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (DMAIC) questionou 'entusiasmo como método' estabelecido. STAR-L completo com mudança profunda. Métricas concretas: 7 startups, R$12M, Learning sobre questionar própria arrogância."
+  }
+]

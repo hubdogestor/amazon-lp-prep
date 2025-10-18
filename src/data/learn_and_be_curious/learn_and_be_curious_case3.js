@@ -7,7 +7,7 @@ const case_3 = {
   company: "OLÍBANO",
   period: "03/2024-08/2024",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
   pt: {
     s: "Como sócio-investidor na OLÍBANO, empresa de inovação em pagamentos, vivi um momento em que curiosidade e responsabilidade estratégica precisavam andar juntas. Durante reuniões de conselho, o debate sobre blockchain crescia, enquanto nossos clientes -- PMEs brasileiras que faziam remessas internacionais -- enfrentavam custos altos (3-8%), pouca transparência e prazos longos (3-5 dias úteis). Em outubro/2023, dois sócios defenderam investir R$ 800 mil em uma solução blockchain, argumentando que competidores estavam ganhando vantagem. O problema era real, mas a decisão exigia mais que entusiasmo tecnológico: precisávamos saber se nossos clientes realmente adotariam stablecoins ou carteiras digitais. Faltava evidência e abundava ruído. Percebi que o caminho certo era aprender a fundo -- não delegar conhecimento -- e usar a curiosidade como ferramenta de decisão racional, não como impulso de moda.",
     t: "Diante da tensão entre moda tecnológica e análise racional, decidi assumir pessoalmente a investigação. Solicitei 90 dias para liderar um processo end-to-end de due diligence técnica e de mercado antes de qualquer investimento. Meu papel seria único: atuar como owner total, definir escopo, decisões críticas e garantir que os R$ 800 mil fossem aplicados com base em entendimento real. Tinha um propósito duplo -- adquirir conhecimento técnico suficiente para filtrar hype e transformar esse aprendizado em ferramenta de tomada de decisão prática. A curiosidade aqui não era teórica: era um instrumento direto de governança e responsabilidade financeira.",

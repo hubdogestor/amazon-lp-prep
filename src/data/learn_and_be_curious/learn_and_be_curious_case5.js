@@ -6,7 +6,7 @@ const case_5 = {
   company: "SEFAZ/RS",
   period: "08/2024-11/2024",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
 
   pt: {
     s: "Em agosto de 2024, como Consultor da SEFAZ/RS fui chamado à CAGE para herdar um problema que já tinha derrotado dois grupos anteriores. O Portal da Transparência estava cinco anos defasado e havia se tornado símbolo de opacidade. Essa obsolescência corroía a confiança pública e tensionava as relações institucionais: cidadãos ajuizavam em média 340 processos anuais questionando o uso de recursos; o Ministério Público cobrava explicações semanais; e o Tribunal de Contas pressionava por modernização sob risco de intervenção. Internamente, o portal havia se tornado sinônimo de risco jurídico -- qualquer erro de cálculo ou vazamento de CPF geraria manchete negativa e processo administrativo imediato. Assumir significava colocar minha reputação pessoal na linha, em uma área que eu nunca havia tocado: dados governamentais, LGPD pública e auditoria sob escrutínio de TCE e MP. Por alguns dias hesitei, mas percebi que escapar não resolveria o impasse. Então decidi usar curiosidade com método -- o princípio Learn and Be Curious em sua forma mais prática -- para dominar rapidamente o que eu não sabia. Essa escolha marcou o ponto de virada do projeto e da minha trajetória.",

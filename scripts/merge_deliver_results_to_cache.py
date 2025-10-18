@@ -23,7 +23,8 @@ total_count = 0
 # Lista de arquivos JSON para mesclar
 json_files = [
     'semantic_analysis_deliver_results.json',
-    'semantic_analysis_stakeholder_management.json'
+    'semantic_analysis_stakeholder_management.json',
+    'semantic_analysis_learn_and_be_curious.json'
 ]
 
 # Converter e mesclar cada arquivo

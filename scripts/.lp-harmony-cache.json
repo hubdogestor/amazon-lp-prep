@@ -4325,7 +4325,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: case demonstra projeto desafiador (infraestrutura 4G da Copa) com obstáculos significativos (6 bloqueadores críticos, caos inicial) superados sistematicamente. STAR-L completo com mecanismos escaláveis (VPI, checklist ANATEL). Métricas concretas: 99.8% disponibilidade, -71% lead time licenças, entrega 10 dias antes do prazo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q1__unimed-ebitda-growth": {
@@ -4334,7 +4334,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: projeto desafiador (virada de EBITDA estagnado) com obstáculos significativos (crise cooperativa 80 anos, resistência cultural). STAR-L completo com 3 streams autônomos e OKRs. Métricas concretas: +22% EBITDA (R$320M→R$391M), R$21M economizados, +34M receita retida, comparação antes/depois.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q1__sicredi-fraud-reduction": {
@@ -4343,7 +4343,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: projeto desafiador (fraude crítica R$420k/mês) com obstáculos significativos (pressão para lockdown total, risco ao negócio). STAR-L completo com mecanismos sistêmicos (heurísticas, war room). Métricas concretas: -46% perdas (R$420k→R$226k), -96% tempo resposta (21 dias→18h), -67% falsos positivos.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q1__sefaz-ecage-portal": {
@@ -4352,7 +4352,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: projeto desafiador (sistema colapsado CAGE) com obstáculos significativos (R$4.6M retidos, 47 mil crianças sem merenda, resistência política). STAR-L completo com tripé (escuta, decisões, demonstração valor). Métricas concretas: 100% adoção, -47% tempo aprovação (15→8 dias), SLA 66%→94%.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q1__sicredi-pix-deadline-miss-recovery": {
@@ -4361,7 +4361,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: projeto desafiador (recuperação após falha regulatória) com obstáculos EXTREMOS (deadline perdido, 120 TPS vs 500 necessários). STAR-L completo com ownership público do fracasso e recuperação sistemática. Métricas concretas: 520 TPS entregue (+16% vs mínimo), 0 incidentes críticos, prazo renegociado cumprido.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q1__unimed-vendor-termination": {
@@ -4370,7 +4370,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: projeto desafiador (lançamento telemedicina) com obstáculo significativo (fornecedor estratégico 8 anos falhando, pressão política brutal). STAR-L completo com auditoria forense e transição. Métricas concretas: 23.400 consultas em 90 dias, 94.7% disponibilidade, NPS 67, lançamento no prazo 18/set.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q2__huawei-world-cup-4g": {
@@ -4379,7 +4379,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: entrega sob pressão extrema (Copa do Mundo, deadline não negociável, visibilidade global). STAR-L completo com execução simultânea 6 bloqueadores. Métricas concretas: 99.8% disponibilidade, 124 Mbps throughput, 8.6M transações, entrega 10 dias antes.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q2__unimed-ebitda-growth": {
@@ -4388,7 +4388,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Responde MUITO BEM: entrega sob pressão (ultimato de virada ou intervenção), mas pressão é mais de prazo longo (24 meses) que curto prazo imediato. STAR-L completo com streams autônomos. Métricas concretas: +22% EBITDA, R$71M impacto total, NPS 29→68.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q2__sicredi-fraud-reduction": {
@@ -4397,7 +4397,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: entrega sob pressão EXTREMA (sangramento R$420k/mês, pressão para lockdown que paralisaria negócio, crise imediata). STAR-L completo com 72h diretas SQL. Métricas concretas: -46% perdas em 5 meses, -96% tempo resposta, NPS 29→64.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q2__sefaz-ecage-portal": {
@@ -4406,7 +4406,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Responde MUITO BEM: entrega sob pressão (R$4.6M retidos, impacto social 47 mil crianças), mas pressão é mais contextual que deadline imediato. STAR-L completo com tripé político. Métricas concretas: 6 meses entrega, 100% adoção 60 dias, SLA 66%→94%.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q2__sicredi-pix-deadline-miss-recovery": {
@@ -4415,7 +4415,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: entrega sob pressão MÁXIMA (deadline regulatório BCB perdido, risco multas, 4.5M cooperados sem Pix). STAR-L completo com ownership público fracasso e recuperação 60 dias. Métricas concretas: 520 TPS, 0 incidentes, prazo renegociado cumprido.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q2__unimed-vendor-termination": {
@@ -4424,7 +4424,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: entrega sob pressão extrema (47 dias para lançamento, código 67% defeituoso, pressão política 8 anos parceria). STAR-L completo com auditoria forense 48h e transição. Métricas concretas: lançamento no prazo, 23.400 consultas 90 dias, 94.7% disponibilidade.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q3__huawei-world-cup-4g": {
@@ -4433,7 +4433,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: demonstra COMO lidar com prazo apertado (Copa do Mundo não negociável) através de mecanismos escaláveis e execução simultânea 6 frentes. STAR-L completo. Métricas concretas: -71% lead time licenças, VPI governance, entrega 10 dias antes.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q3__unimed-ebitda-growth": {
@@ -4442,7 +4442,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Responde BEM: demonstra gestão de prazo através de inputs controláveis e OKRs trimestrais, mas prazo é de 24 meses (não apertado). STAR-L completo com streams. Métricas concretas: +22% EBITDA, ritmos quinzenais, 3 alavancas 80% impacto.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q3__sicredi-fraud-reduction": {
@@ -4451,7 +4451,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: demonstra COMO lidar com prazo apertado (crise imediata, 5 meses para reverter sangramento) através de mecanismos sistêmicos. STAR-L completo. Métricas concretas: 72h SQL, -46% perdas 5 meses, war room 18h resposta.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q3__sefaz-ecage-portal": {
@@ -4460,7 +4460,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Responde MUITO BEM: demonstra gestão de prazo (6 meses entrega portal) através de tripé decisão pragmática. Prazo existe mas não é extremamente apertado. STAR-L completo. Métricas concretas: 6 meses entrega, 60 dias migração 100%, SLA 66%→94%.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q3__sicredi-pix-deadline-miss-recovery": {
@@ -4469,7 +4469,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: demonstra COMO lidar com prazo apertado (60 dias recuperação após falha, deadline regulatório BCB) através de repriorização radical. STAR-L completo. Métricas concretas: 520 TPS, sprint gates diários, 16 de novembro cumprido.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q3__unimed-vendor-termination": {
@@ -4478,7 +4478,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: demonstra COMO lidar com prazo apertado (47 dias para lançamento, transição vendor em paralelo) através de decisão corajosa e execução impecável. STAR-L completo. Métricas concretas: auditoria 48h, 11 dias transição, 18/set prazo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q4__huawei-world-cup-4g": {
@@ -4487,7 +4487,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de priorização para entregar prazo (6 bloqueadores críticos priorizados simultaneamente, Copa do Mundo deadline). STAR-L completo. Métricas concretas: licenças -71% lead time, VPI governance, entrega 10 dias antes.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q4__unimed-ebitda-growth": {
@@ -4496,7 +4496,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de priorização para entregar (3 alavancas 80% impacto escolhidas dentre múltiplas opções, foco pacientes crônicos). STAR-L completo. Métricas concretas: 35% gasto crônicos, R$21M economia, 3 streams OKRs.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q4__sicredi-fraud-reduction": {
@@ -4505,7 +4505,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de priorização para entregar prazo (2 inputs críticos priorizados: heurísticas + war room, rejeitou lockdown). STAR-L completo. Métricas concretas: 67% documentos sintéticos, -46% perdas 5 meses, -96% tempo resposta.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q4__sefaz-ecage-portal": {
@@ -4514,7 +4514,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de priorização para entregar prazo (escolheu Dynamics vs Salesforce/custom, 3 frentes principais focadas). STAR-L completo. Métricas concretas: Salesforce 12 meses vs Dynamics 6 meses, 100% adoção 60 dias.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q4__sicredi-pix-deadline-miss-recovery": {
@@ -4523,7 +4523,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo EXPLÍCITO de má priorização inicial (UI vs infraestrutura) seguido de repriorização radical para entregar. STAR-L completo com lição. Métricas concretas: 120→520 TPS, infraestrutura first, 16/nov deadline.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q4__unimed-vendor-termination": {
@@ -4532,7 +4532,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de priorização para entregar prazo (cliente final > relacionamento 8 anos, cortar vendor para salvar lançamento). STAR-L completo. Métricas concretas: auditoria 48h, 67% código defeituoso, transição 11 dias, prazo 18/set.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q5__huawei-world-cup-4g": {
@@ -4541,7 +4541,7 @@
     "evidence": 0,
     "scoreBase": 0,
     "reasoning": "NÃO responde: pergunta pede exemplo de FALHA em gerenciar prioridades e perda de deadline. Case mostra SUCESSO na gestão de prioridades com entrega 10 dias ANTES do prazo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q5__unimed-ebitda-growth": {
@@ -4550,7 +4550,7 @@
     "evidence": 0,
     "scoreBase": 0,
     "reasoning": "NÃO responde: pergunta pede exemplo de FALHA em gerenciar prioridades. Case mostra SUCESSO na gestão de prioridades com EBITDA +22% e entrega de resultados históricos.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q5__sicredi-fraud-reduction": {
@@ -4559,7 +4559,7 @@
     "evidence": 0,
     "scoreBase": 0,
     "reasoning": "NÃO responde: pergunta pede exemplo de FALHA na gestão de prioridades. Case mostra SUCESSO na priorização (2 inputs críticos) com redução -46% perdas em 5 meses.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q5__sefaz-ecage-portal": {
@@ -4568,7 +4568,7 @@
     "evidence": 0,
     "scoreBase": 0,
     "reasoning": "NÃO responde: pergunta pede exemplo de FALHA na gestão de prioridades. Case mostra SUCESSO na priorização com entrega portal em 6 meses e 100% adoção.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q5__sicredi-pix-deadline-miss-recovery": {
@@ -4577,7 +4577,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo EXPLÍCITO de falha em gerenciar prioridades (UI app > infraestrutura crítica) resultando em perda de deadline (16/nov). STAR-L completo com ownership do fracasso, análise raiz e recuperação. Métricas concretas: 120 TPS vs 500 necessários, 23 dependências não mapeadas.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q5__unimed-vendor-termination": {
@@ -4586,7 +4586,7 @@
     "evidence": 26,
     "scoreBase": 70,
     "reasoning": "Responde PARCIALMENTE: mostra priorização difícil (cliente final > relacionamento vendor) mas não é exemplo de FALHA na gestão de prioridades - é correção de falha do vendor. Learning menciona 'demora em reconhecer sinais', mas foco é decisão correta.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q6__huawei-world-cup-4g": {
@@ -4595,7 +4595,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de pivô estratégico (criar VPI governance para integradores, reprojetar dossiê técnico ANATEL, sprint gates diários). STAR-L completo com mecanismos escaláveis. Métricas concretas: -71% lead time licenças, VPI 0-100, entrega 10 dias antes.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q6__unimed-ebitda-growth": {
@@ -4604,7 +4604,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Responde MUITO BEM: mostra adaptação estratégica (3 alavancas vs cortes lineares, streams autônomos) mas não é pivô drástico durante execução. STAR-L completo. Métricas concretas: 35% custo crônicos, R$21M economia, OKRs trimestrais ajustados.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q6__sicredi-fraud-reduction": {
@@ -4613,7 +4613,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Responde MUITO BEM: mostra pivô significativo (rejeitar lockdown total, criar mecanismos sistêmicos vs solução pontual). STAR-L completo. Métricas concretas: 67% documentos sintéticos descobertos, -46% perdas, 21 dias→18h resposta.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q6__sefaz-ecage-portal": {
@@ -4622,7 +4622,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Responde MUITO BEM: mostra pivô estratégico (Dynamics vs Salesforce/custom, portal digital vs planilha) mas decisão única vs múltiplos pivôs. STAR-L completo. Métricas concretas: 12 meses→6 meses, R$320k saving, 100% adoção.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q6__sicredi-pix-deadline-miss-recovery": {
@@ -4631,7 +4631,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de pivô radical no meio do caminho (UI features→infraestrutura crítica, squad gates diários, 23 dependências mapeadas). STAR-L completo com ownership. Métricas concretas: 120→520 TPS, repriorização total, 16/nov deadline.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q6__unimed-vendor-termination": {
@@ -4640,7 +4640,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de pivô radical no meio do caminho (cortar vendor estratégico 8 anos, transição completa em 11 dias). STAR-L completo com auditoria forense. Métricas concretas: 67% código defeituoso, 847 testes, transição CloudWave, prazo 18/set.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q7__huawei-world-cup-4g": {
@@ -4649,7 +4649,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de métricas rigorosas para accountability (VPI 0-100 com 5 dimensões, throughput 124 Mbps +13% vs meta, 99.8% disponibilidade). STAR-L completo. Comparações antes/depois: lead time 168→49 dias, entrega 10 dias antes prazo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q7__unimed-ebitda-growth": {
@@ -4658,7 +4658,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de métricas rigorosas para accountability (EBITDA +22% vs 9% setor, R$71M impacto total quantificado, NPS 29→68). STAR-L completo com OKRs trimestrais. Comparações: 35% custo crônicos, R$21M economia APS 360.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q7__sicredi-fraud-reduction": {
@@ -4667,7 +4667,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de métricas rigorosas para accountability (perdas -46% R$420k→R$226k, tempo resposta -96% 21 dias→18h, NPS 29→64). STAR-L completo. Comparações: 67% documentos sintéticos, 217% acima média, -67% falsos positivos.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q7__sefaz-ecage-portal": {
@@ -4676,7 +4676,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de métricas rigorosas para accountability (SLA 66%→94%, tempo aprovação -47% 15→8 dias, 100% adoção 60 dias). STAR-L completo. Comparações: benchmark nacional 78% vs 94%, R$4.6M desbloqueados.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q7__sicredi-pix-deadline-miss-recovery": {
@@ -4685,7 +4685,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de métricas rigorosas para accountability (120→520 TPS +16% vs mínimo, 0 incidentes críticos, 23 dependências mapeadas). STAR-L completo com ownership público fracasso. Comparações antes/depois claras.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q7__unimed-vendor-termination": {
@@ -4694,7 +4694,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de métricas rigorosas para accountability (67% código defeituoso, 847 testes validados, 94.7% disponibilidade vs 85% TechMed). STAR-L completo com auditoria forense 48h. Comparações: 23.400 consultas 90 dias, NPS 67.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q8__huawei-world-cup-4g": {
@@ -4703,7 +4703,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de comprometer qualidade para prazo (entrega 10 dias ANTES mantendo 99.8% disponibilidade, throughput +13% vs meta). STAR-L completo demonstra qualidade NÃO foi comprometida. Métricas: 124 Mbps, 8.6M transações, 40% acima setor.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q8__unimed-ebitda-growth": {
@@ -4712,7 +4712,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de comprometer qualidade para prazo (crescimento +22% MANTENDO NPS 29→68, experiência cliente melhorou). STAR-L completo demonstra qualidade NÃO foi comprometida. Métricas: APS 360 economia R$21M, churn -4.2pp.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q8__sicredi-fraud-reduction": {
@@ -4721,7 +4721,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de comprometer qualidade para prazo (redução perdas -46% em 5 meses MANTENDO experiência: NPS 29→64, falsos positivos -67%). STAR-L completo demonstra qualidade NÃO foi comprometida, salvou negócio SEM destruir experiência.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q8__sefaz-ecage-portal": {
@@ -4730,7 +4730,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de comprometer qualidade para prazo (entrega 6 meses MANTENDO 95% estabilidade, SLA 94%, NPS 42→78). STAR-L completo demonstra qualidade NÃO foi comprometida. Métricas: 100% adoção, impacto social 47 mil crianças.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q8__sicredi-pix-deadline-miss-recovery": {
@@ -4739,7 +4739,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Responde BEM: mostra CORREÇÃO de priorização (infraestrutura first após falha) e entrega com qualidade (520 TPS +16%, 0 incidentes). Não é exemplo de COMPROMETER qualidade, é exemplo de PRIORIZAR qualidade após aprender com erro. STAR-L completo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q8__unimed-vendor-termination": {
@@ -4748,7 +4748,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: exemplo de comprometer qualidade para prazo (cortar vendor para prazo mas MANTEVE qualidade: 94.7% disponibilidade, NPS 67). STAR-L completo demonstra qualidade NÃO foi comprometida através de transição impecável. Métricas: 23.400 consultas, 11 dias transição.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q9__huawei-world-cup-4g": {
@@ -4757,7 +4757,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Responde MUITO BEM: conflito implícito entre escopo (cobertura total) e prazo (Copa do Mundo não negociável), resolvido através de execução simultânea 6 frentes. STAR-L completo. Métricas concretas: 99.8% disponibilidade, 10 dias antes prazo, sem redução escopo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q9__unimed-ebitda-growth": {
@@ -4766,7 +4766,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Responde MUITO BEM: conflito entre escopo ambicioso (virada EBITDA sistêmica) e expectativa prazo (pressão cooperativas), resolvido através de 3 alavancas focadas. STAR-L completo. Métricas: +22% EBITDA 24 meses, R$71M impacto, vs 9% setor.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q9__sicredi-fraud-reduction": {
@@ -4775,7 +4775,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: conflito EXPLÍCITO entre escopo/prazo (lockdown total imediato vs solução sustentável 5 meses). Escolheu qualidade vs velocidade. STAR-L completo. Métricas: -46% perdas 5 meses, -67% falsos positivos (experiência), NPS 29→64.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q9__sefaz-ecage-portal": {
@@ -4784,7 +4784,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Responde MUITO BEM: conflito entre escopo (portal completo 15 órgãos) e prazo (6 meses), resolvido através de Dynamics vs Salesforce. STAR-L completo. Métricas: Salesforce 12 meses vs Dynamics 6 meses, 100% adoção, sem redução funcionalidades.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q9__sicredi-pix-deadline-miss-recovery": {
@@ -4793,7 +4793,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: conflito EXPLÍCITO entre escopo/prazo (UI app completa vs infraestrutura core Pix). Falhou na primeira vez priorizando escopo errado, aprendeu e reprorizou infraestrutura. STAR-L completo com ownership. Métricas: 120→520 TPS, 16/nov deadline.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q9__unimed-vendor-termination": {
@@ -4802,7 +4802,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: conflito EXPLÍCITO entre escopo/prazo (manter vendor e atrasar vs cortar e entregar no prazo). Escolheu prazo mantendo qualidade através de transição impecável. STAR-L completo. Métricas: 67% código defeituoso, transição 11 dias, prazo 18/set.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q10__huawei-world-cup-4g": {
@@ -4811,7 +4811,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: resultado concreto (rede 4G Copa do Mundo 99.8% disponibilidade) com impacto business quantificado (8.6M transações, throughput +40% vs setor, contrato renovado R$2.1B). STAR-L completo. Métricas: 124 Mbps, 0 incidentes críticos, 10 dias antes prazo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q10__unimed-ebitda-growth": {
@@ -4820,7 +4820,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: resultado concreto (virada EBITDA +22%) com impacto business quantificado (R$320M→R$391M, vs 9% setor). STAR-L completo. Métricas detalhadas: R$21M economia APS, R$34M receita retida churn, R$16M novos produtos, NPS 29→68.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q10__sicredi-fraud-reduction": {
@@ -4829,7 +4829,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: resultado concreto (redução fraude -46%) com impacto business quantificado (economia R$2.3M anual, NPS 29→64, crescimento sustentável). STAR-L completo. Métricas: R$420k→R$226k perdas, -96% tempo resposta, -67% falsos positivos.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q10__sefaz-ecage-portal": {
@@ -4838,7 +4838,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: resultado concreto (Portal e-CAGE SLA 94%) com impacto social/business quantificado (R$4.6M desbloqueados, 47 mil crianças beneficiadas). STAR-L completo. Métricas: 15→8 dias aprovação, 100% adoção 60 dias, NPS 42→78, R$320k saving.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q10__sicredi-pix-deadline-miss-recovery": {
@@ -4847,7 +4847,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: resultado concreto (recuperação Pix 520 TPS) com impacto business quantificado (4.5M cooperados com acesso, 0 incidentes críticos, conformidade BCB). STAR-L completo. Métricas: 120→520 TPS +16%, prazo 16/nov cumprido, credibilidade recuperada.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q10__unimed-vendor-termination": {
@@ -4856,7 +4856,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: resultado concreto (lançamento telemedicina prazo) com impacto business quantificado (23.400 consultas 90 dias, 94.7% disponibilidade, NPS 67). STAR-L completo. Métricas: transição 11 dias, R$4.2M investimento salvaguardado, escalou 340 médicos.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q11__huawei-world-cup-4g": {
@@ -4865,7 +4865,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: sacrifício pessoal documentado (assumir programa caótico madrugada, risco reputacional enorme, execução 10 meses sob pressão extrema). STAR-L completo com ownership total. Métricas: 99.8% disponibilidade, 10 dias antes prazo, sem precedentes Huawei Latam.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q11__unimed-ebitda-growth": {
@@ -4874,7 +4874,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Responde MUITO BEM: sacrifício pessoal implícito (24 meses liderando virada sistema cooperativo 80 anos, pressão intervenção), mas não detalha sacrifícios específicos. STAR-L completo. Métricas: +22% EBITDA, R$71M impacto, vs 9% setor, NPS 29→68.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q11__sicredi-fraud-reduction": {
@@ -4883,7 +4883,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: sacrifício pessoal documentado (72 horas diretas SQL, sala de crise 7h43, atacar problema raiz sem esperar milagres). STAR-L completo com ownership. Métricas: -46% perdas 5 meses, -96% tempo resposta 21 dias→18h, NPS 29→64.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q11__sefaz-ecage-portal": {
@@ -4892,7 +4892,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Responde BEM: sacrifício pessoal implícito (liderar transformação setor público com resistência política, 25 entrevistas stakeholders), mas não detalha sacrifícios pessoais profundos. STAR-L completo. Métricas: SLA 66%→94%, 6 meses entrega, R$4.6M desbloqueados.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q11__sicredi-pix-deadline-miss-recovery": {
@@ -4901,7 +4901,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: sacrifício pessoal documentado (assumir fracasso público C-level, ownership total, recuperação disciplinada 60 dias sob pressão regulatória). STAR-L completo. Métricas: 120→520 TPS, 16/nov deadline cumprido, credibilidade recuperada através de execução.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q11__unimed-vendor-termination": {
@@ -4910,7 +4910,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: sacrifício pessoal documentado (decisão politicamente custosa cortar vendor 8 anos, assumir risco reputacional enorme, pressão diretor TI). STAR-L completo com coragem. Métricas: auditoria forense 48h, transição 11 dias, prazo 18/set cumprido.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q12__huawei-world-cup-4g": {
@@ -4919,7 +4919,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: equipe executou através de mecanismos escaláveis (VPI governance integradores, checklist ANATEL, sprint gates diários) que funcionaram mesmo com time disperso. STAR-L completo. Métricas: 6 bloqueadores resolvidos simultaneamente, 99.8% disponibilidade, 10 dias antes prazo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q12__unimed-ebitda-growth": {
@@ -4928,7 +4928,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: equipe executou através de 3 streams autônomos com OKRs, owners e rituais quinzenais que garantiram accountability distribuída. STAR-L completo. Métricas: 17 cooperativas coordenadas, +22% EBITDA, R$71M impacto total, cada stream com metricas próprias.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q12__sicredi-fraud-reduction": {
@@ -4937,7 +4937,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Responde MUITO BEM: equipe executou através de war room cross-funcional (produto, risco, dados, CX) com rituais definidos. STAR-L completo. Métricas: -46% perdas 5 meses, -96% tempo resposta 21 dias→18h. Menos ênfase em execução time vs individual.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q12__sefaz-ecage-portal": {
@@ -4946,7 +4946,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Responde MUITO BEM: equipe executou através de coordenação 15 órgãos, 8 secretarias, 500 gestores com demonstração pública valor. STAR-L completo. Métricas: 100% adoção 60 dias, SLA 66%→94%. Menos ênfase em estrutura time vs coordenação stakeholders.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q12__sicredi-pix-deadline-miss-recovery": {
@@ -4955,7 +4955,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: equipe executou através de 5 squads coordenados com sprint gates diários e repriorização radical para infraestrutura. STAR-L completo. Métricas: 5 squads sincronizados, 120→520 TPS, 23 dependências mapeadas, 16/nov deadline cumprido.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "deliver_results__Q12__unimed-vendor-termination": {
@@ -4964,7 +4964,7 @@
     "evidence": 30,
     "scoreBase": 90,
     "reasoning": "Responde PERFEITAMENTE: equipe executou através de squad 3 arquitetos independentes (auditoria forense), time CloudWave transição, coordenação TI/jurídico/C-level. STAR-L completo. Métricas: auditoria 48h, 2.3M linhas código, 847 testes, transição 11 dias, prazo 18/set.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q1__huawei-global-rollout": {
@@ -4973,7 +4973,7 @@
     "evidence": 26,
     "scoreBase": 78,
     "reasoning": "Case aborda influência sem autoridade formal ao convencer VP LatAm cético com business case de R$480M. STAR-L completo com métricas robustas (-84% lead time, 1.136 sites, R$1,1B).",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q1__stakeholder-management-case-2": {
@@ -4982,7 +4982,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case foca em transformação de EBITDA, não especificamente influência sem autoridade. STAR-L robusto com métricas excelentes (22% crescimento EBITDA, R$320M→R$391M, NPS 68).",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q1__unimed-vendor-termination-trust": {
@@ -4991,7 +4991,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Case perfeito - confrontou CEO sem autoridade formal com dados irrefutáveis. STAR-L completo com evidências concretas (23 incidentes, R$3,2M perdas, SLA 99,82% vs 87%).",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q1__stakeholder-management-case-4": {
@@ -5000,7 +5000,7 @@
     "evidence": 22,
     "scoreBase": 74,
     "reasoning": "Case central é influenciar stakeholders seniores sem mandato direto. STAR presente mas Learning genérico. Métricas boas (R$8M perdas, R$12M economias, NPS 82).",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q1__huawei-4g-copa-2014-stakeholder": {
@@ -5009,7 +5009,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Case foca stakeholder management mas como Program Manager formal. STAR-L detalhado. Métricas excepcionais (2.847 antenas, 98,7% cobertura, zero incidentes em 64 jogos).",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q1__sicredi-woop-stakeholder-management": {
@@ -5018,7 +5018,7 @@
     "evidence": 26,
     "scoreBase": 78,
     "reasoning": "Case aborda engajamento de stakeholders em estrutura cooperativista sem autoridade direta. STAR-L completo com métricas sólidas (25% adoção, R$50M receita, 15+ versões).",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q2__huawei-global-rollout": {
@@ -5027,7 +5027,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona gestão de expectativas indiretamente (VP queria foco local, entregou global). STAR-L robusto com métricas fortes mas pergunta não é central.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q2__stakeholder-management-case-2": {
@@ -5036,7 +5036,7 @@
     "evidence": 26,
     "scoreBase": 70,
     "reasoning": "Case não aborda diretamente gerenciar expectativas quando não pode entregar tudo. Foco em transformação EBITDA. STAR-L bom mas relevância limitada.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q2__unimed-vendor-termination-trust": {
@@ -5045,7 +5045,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Case aborda bem gerenciar expectativas ao negar pedido do CEO. Explicou trade-offs e alternativas. STAR-L completo com evidências concretas.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q2__stakeholder-management-case-4": {
@@ -5054,7 +5054,7 @@
     "evidence": 22,
     "scoreBase": 62,
     "reasoning": "Case não foca em gerenciar expectativas quando limitado. STAR presente mas genérico para essa pergunta específica.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q2__huawei-4g-copa-2014-stakeholder": {
@@ -5063,7 +5063,7 @@
     "evidence": 30,
     "scoreBase": 78,
     "reasoning": "Case menciona conciliar exigências de múltiplos stakeholders mas não foca em limitações. STAR-L detalhado com métricas excepcionais.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q2__sicredi-woop-stakeholder-management": {
@@ -5072,7 +5072,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case aborda gestão de resistência e expectativas em cooperativas mas não foca limitações explícitas. STAR-L completo com boas métricas.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q3__huawei-global-rollout": {
@@ -5081,7 +5081,7 @@
     "evidence": 26,
     "scoreBase": 78,
     "reasoning": "Case mostra construir consenso entre diretores locais (visão incremental) vs global (transformação). STAR-L robusto com métricas fortes.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q3__stakeholder-management-case-2": {
@@ -5090,7 +5090,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona unificar áreas diversas mas não detalha visões opostas específicas. STAR-L completo com métricas robustas.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q3__unimed-vendor-termination-trust": {
@@ -5099,7 +5099,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Case mostra consenso após visões opostas (CEO queria manter vendor, candidato propôs mudança). STAR-L detalhado com evidências concretas.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q3__stakeholder-management-case-4": {
@@ -5108,7 +5108,7 @@
     "evidence": 22,
     "scoreBase": 70,
     "reasoning": "Case aborda alinhar 8 secretários com visões em silos. STAR presente mas Learning superficial para construção de consenso.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q3__huawei-4g-copa-2014-stakeholder": {
@@ -5117,7 +5117,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Case perfeito - coordenou 20 fornecedores, ANATEL, prefeituras e FIFA com interesses diversos. STAR-L detalhado com métricas excepcionais.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q3__sicredi-woop-stakeholder-management": {
@@ -5126,7 +5126,7 @@
     "evidence": 26,
     "scoreBase": 82,
     "reasoning": "Case central é construir consenso em 112 cooperativas com resistência à transformação digital. STAR-L completo com boas métricas.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q4__huawei-global-rollout": {
@@ -5135,7 +5135,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona identificar gargalos mas não detalha processo de identificação/engajamento de stakeholders. STAR-L robusto mas relevância moderada.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q4__stakeholder-management-case-2": {
@@ -5144,7 +5144,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona identificar três alavancas mas não foca em identificar stakeholders críticos. STAR-L completo com métricas fortes.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q4__unimed-vendor-termination-trust": {
@@ -5153,7 +5153,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Case mostra identificação de stakeholder crítico (CEO) e estratégia de engajamento com dados. STAR-L detalhado com evidências concretas.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q4__stakeholder-management-case-4": {
@@ -5162,7 +5162,7 @@
     "evidence": 22,
     "scoreBase": 74,
     "reasoning": "Case central é identificar e engajar 8 secretários, BID e Tribunal de Contas via 1:1s. STAR presente mas Learning genérico.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q4__huawei-4g-copa-2014-stakeholder": {
@@ -5171,7 +5171,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Case perfeito - mapeamento minucioso usando matriz Poder x Interesse para identificar stakeholders críticos. STAR-L detalhado com métricas excepcionais.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q4__sicredi-woop-stakeholder-management": {
@@ -5180,7 +5180,7 @@
     "evidence": 26,
     "scoreBase": 82,
     "reasoning": "Case central é identificar e engajar 112 cooperativas via Programa de Embaixadores Digitais. STAR-L completo com boas métricas.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q5__huawei-global-rollout": {
@@ -5189,7 +5189,7 @@
     "evidence": 26,
     "scoreBase": 78,
     "reasoning": "Case mostra dizer 'não' ao VP LatAm que pediu foco local, propondo visão global. STAR-L robusto com métricas fortes.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q5__stakeholder-management-case-2": {
@@ -5198,7 +5198,7 @@
     "evidence": 26,
     "scoreBase": 70,
     "reasoning": "Case não aborda diretamente dizer 'não' a stakeholder poderoso. Foco em transformação. STAR-L completo mas relevância limitada.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q5__unimed-vendor-termination-trust": {
@@ -5207,7 +5207,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Case perfeito - título literal é 'Disse Não ao CEO'. STAR-L detalhado com evidências concretas de como abordou.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q5__stakeholder-management-case-4": {
@@ -5216,7 +5216,7 @@
     "evidence": 22,
     "scoreBase": 62,
     "reasoning": "Case não foca em dizer 'não', mas em influenciar positivamente. STAR presente mas não alinha com pergunta.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q5__huawei-4g-copa-2014-stakeholder": {
@@ -5225,7 +5225,7 @@
     "evidence": 30,
     "scoreBase": 74,
     "reasoning": "Case não menciona dizer 'não' explicitamente, foco em coordenação. STAR-L detalhado com métricas excepcionais mas pergunta não é central.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q5__sicredi-woop-stakeholder-management": {
@@ -5234,7 +5234,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona resistência mas não foco em dizer 'não' explícito. STAR-L completo com boas métricas.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q6__huawei-global-rollout": {
@@ -5243,7 +5243,7 @@
     "evidence": 26,
     "scoreBase": 78,
     "reasoning": "Programa de 18 meses mostra engajamento longo prazo com piloto e Rollout Excellence Framework. STAR-L robusto com métricas fortes.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q6__stakeholder-management-case-2": {
@@ -5252,7 +5252,7 @@
     "evidence": 26,
     "scoreBase": 78,
     "reasoning": "Programa de 24 meses com rituais quinzenais e OKRs trimestrais para manter engajamento. STAR-L completo com métricas robustas.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q6__unimed-vendor-termination-trust": {
@@ -5261,7 +5261,7 @@
     "evidence": 30,
     "scoreBase": 78,
     "reasoning": "Case de 6 meses com fase de reconstrução de confiança mas não programa longo prazo. STAR-L detalhado com evidências concretas.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q6__stakeholder-management-case-4": {
@@ -5270,7 +5270,7 @@
     "evidence": 22,
     "scoreBase": 66,
     "reasoning": "Case menciona dashboard e rituais mas não detalha mecanismos de engajamento longo prazo. STAR presente mas genérico.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q6__huawei-4g-copa-2014-stakeholder": {
@@ -5279,7 +5279,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Programa de 18 meses com rituais de comunicação e transparência contínua. STAR-L detalhado com métricas excepcionais.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q6__sicredi-woop-stakeholder-management": {
@@ -5288,7 +5288,7 @@
     "evidence": 26,
     "scoreBase": 82,
     "reasoning": "Programa de 36 meses com Embaixadores Digitais e mecanismos contínuos. Case perfeito para engajamento longo prazo. STAR-L completo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q7__huawei-global-rollout": {
@@ -5297,7 +5297,7 @@
     "evidence": 26,
     "scoreBase": 70,
     "reasoning": "Case não menciona problema ou reconstrução de confiança explicitamente. STAR-L robusto mas relevância limitada.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q7__stakeholder-management-case-2": {
@@ -5306,7 +5306,7 @@
     "evidence": 26,
     "scoreBase": 70,
     "reasoning": "Case não aborda reconstrução de confiança após problema. Foco em transformação. STAR-L completo mas não alinha.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q7__unimed-vendor-termination-trust": {
@@ -5315,7 +5315,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Case perfeito - título menciona reconstruir confiança. Fase 3 específica de reconstrução após confronto. STAR-L detalhado com evidências.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q7__stakeholder-management-case-4": {
@@ -5324,7 +5324,7 @@
     "evidence": 22,
     "scoreBase": 62,
     "reasoning": "Case não menciona problema ou reconstrução de confiança. STAR presente mas não relevante para pergunta.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q7__huawei-4g-copa-2014-stakeholder": {
@@ -5333,7 +5333,7 @@
     "evidence": 30,
     "scoreBase": 74,
     "reasoning": "Case não menciona problema ou reconstrução. Foco em coordenação preventiva. STAR-L detalhado mas pergunta não alinha.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q7__sicredi-woop-stakeholder-management": {
@@ -5342,7 +5342,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona transformar resistência mas não problema específico com reconstrução. STAR-L completo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q8__huawei-global-rollout": {
@@ -5351,7 +5351,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona business case para VP mas não detalha adaptação de comunicação técnicos vs executivos. STAR-L robusto.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q8__stakeholder-management-case-2": {
@@ -5360,7 +5360,7 @@
     "evidence": 26,
     "scoreBase": 70,
     "reasoning": "Case não aborda adaptação de comunicação por audiência. STAR-L completo mas relevância limitada.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q8__unimed-vendor-termination-trust": {
@@ -5369,7 +5369,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Case mostra business case técnico vs comunicação executiva com CEO. Adaptação clara de mensagens. STAR-L detalhado.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q8__stakeholder-management-case-4": {
@@ -5378,7 +5378,7 @@
     "evidence": 22,
     "scoreBase": 70,
     "reasoning": "Case menciona relatórios personalizados para 8 secretários mas não detalha técnicos vs executivos. STAR presente.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q8__huawei-4g-copa-2014-stakeholder": {
@@ -5387,7 +5387,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Case menciona comunicação adaptada (ANATEL técnico, FIFA/prefeituras política, fornecedores operacional). STAR-L detalhado.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q8__sicredi-woop-stakeholder-management": {
@@ -5396,7 +5396,7 @@
     "evidence": 26,
     "scoreBase": 78,
     "reasoning": "Case mostra imersões técnicas para presidentes vs métricas financeiras para conselho. Adaptação presente. STAR-L completo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q9__huawei-global-rollout": {
@@ -5405,7 +5405,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona ceticismo de áreas mas não detalha conflito explícito entre áreas. STAR-L robusto.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q9__stakeholder-management-case-2": {
@@ -5414,7 +5414,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona integrar produto, operações e digital mas não detalha conflitos específicos. STAR-L completo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q9__unimed-vendor-termination-trust": {
@@ -5423,7 +5423,7 @@
     "evidence": 30,
     "scoreBase": 78,
     "reasoning": "Case mostra conflito implícito (CEO vs performance técnica) mas não entre áreas. STAR-L detalhado com evidências.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q9__stakeholder-management-case-4": {
@@ -5432,7 +5432,7 @@
     "evidence": 22,
     "scoreBase": 66,
     "reasoning": "Case menciona 190 projetos em silos mas não detalha gestão de conflitos entre áreas. STAR presente.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q9__huawei-4g-copa-2014-stakeholder": {
@@ -5441,7 +5441,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Case mostra coordenação de 20 fornecedores e múltiplas entidades com interesses conflitantes. STAR-L detalhado.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q9__sicredi-woop-stakeholder-management": {
@@ -5450,7 +5450,7 @@
     "evidence": 26,
     "scoreBase": 78,
     "reasoning": "Case menciona 112 cooperativas com visões diversas e resistência. Gestão de conflito presente. STAR-L completo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q10__huawei-global-rollout": {
@@ -5459,7 +5459,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona Rollout Excellence Framework mas não detalha comunicação sem sobrecarga. STAR-L robusto.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q10__stakeholder-management-case-2": {
@@ -5468,7 +5468,7 @@
     "evidence": 26,
     "scoreBase": 78,
     "reasoning": "Case menciona rituais quinzenais e OKRs trimestrais para informar sem sobrecarga. Relevância boa. STAR-L completo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q10__unimed-vendor-termination-trust": {
@@ -5477,7 +5477,7 @@
     "evidence": 30,
     "scoreBase": 78,
     "reasoning": "Case menciona transparência mas não foco específico em evitar sobrecarga. STAR-L detalhado.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q10__stakeholder-management-case-4": {
@@ -5486,7 +5486,7 @@
     "evidence": 22,
     "scoreBase": 70,
     "reasoning": "Case menciona dashboard unificado para informar stakeholders mas não detalha evitar sobrecarga. STAR presente.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q10__huawei-4g-copa-2014-stakeholder": {
@@ -5495,7 +5495,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Case menciona comunicação estratificada por nível de stakeholder. Aborda informar sem sobrecarregar. STAR-L detalhado.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q10__sicredi-woop-stakeholder-management": {
@@ -5504,7 +5504,7 @@
     "evidence": 26,
     "scoreBase": 78,
     "reasoning": "Case menciona imersões técnicas segmentadas e comunicação direcionada. Relevância boa. STAR-L completo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q11__huawei-global-rollout": {
@@ -5513,7 +5513,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona priorizar 19 de 127 gargalos mas não detalha negociação de trade-offs com stakeholders. STAR-L robusto.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q11__stakeholder-management-case-2": {
@@ -5522,7 +5522,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona focar 3 alavancas mas não detalha negociação de trade-offs com múltiplos stakeholders. STAR-L completo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q11__unimed-vendor-termination-trust": {
@@ -5531,7 +5531,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Case mostra trade-off explícito (relacionamento de 8 anos vs performance) negociado com CEO. STAR-L detalhado.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q11__stakeholder-management-case-4": {
@@ -5540,7 +5540,7 @@
     "evidence": 22,
     "scoreBase": 66,
     "reasoning": "Case menciona tempo investido como trade-off mas não detalha negociação difícil. STAR presente.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q11__huawei-4g-copa-2014-stakeholder": {
@@ -5549,7 +5549,7 @@
     "evidence": 30,
     "scoreBase": 82,
     "reasoning": "Case mostra trade-offs entre prazo, custo e qualidade negociados com múltiplos stakeholders. STAR-L detalhado.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q11__sicredi-woop-stakeholder-management": {
@@ -5558,7 +5558,7 @@
     "evidence": 26,
     "scoreBase": 78,
     "reasoning": "Case mostra negociação entre inovação digital vs tradição cooperativista. Trade-offs presentes. STAR-L completo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q12__huawei-global-rollout": {
@@ -5567,7 +5567,7 @@
     "evidence": 26,
     "scoreBase": 82,
     "reasoning": "Case central é vencer resistência de diretores conformados com status quo. Usou dados e piloto. STAR-L robusto.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q12__stakeholder-management-case-2": {
@@ -5576,7 +5576,7 @@
     "evidence": 26,
     "scoreBase": 74,
     "reasoning": "Case menciona crise e necessidade de mudança mas não foca em resistência específica. STAR-L completo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q12__unimed-vendor-termination-trust": {
@@ -5585,7 +5585,7 @@
     "evidence": 30,
     "scoreBase": 86,
     "reasoning": "Case perfeito - CEO resistia mudança de vendor de 8 anos. Usou dados irrefutáveis para vencer resistência. STAR-L detalhado.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q12__stakeholder-management-case-4": {
@@ -5594,7 +5594,7 @@
     "evidence": 22,
     "scoreBase": 66,
     "reasoning": "Case menciona fragmentação mas não detalha como lidou com resistência específica. STAR presente.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q12__huawei-4g-copa-2014-stakeholder": {
@@ -5603,7 +5603,7 @@
     "evidence": 30,
     "scoreBase": 78,
     "reasoning": "Case menciona coordenação mas não foca em resistência a mudanças. STAR-L detalhado com métricas excepcionais.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
     "version": "3.0"
   },
   "stakeholder_management__Q12__sicredi-woop-stakeholder-management": {
@@ -5612,7 +5612,763 @@
     "evidence": 26,
     "scoreBase": 82,
     "reasoning": "Case perfeito - transformou resistência à transformação digital em adesão massiva. Usou Embaixadores Digitais. STAR-L completo.",
-    "analyzedAt": "2025-10-18T19:47:21.463213Z",
+    "analyzedAt": "2025-10-18T19:59:38.968847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q1__unimed-harvard-healthcare-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: case central é sobre buscar atualização através de curso Harvard. STAR-L completo com aplicação imediata. Métricas concretas: 20.000 beneficiários, -15% custos hospitalares (R$4M economia), 68% internações evitáveis identificadas.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q1__bradesco-safe-agile-framework": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: mergulho de 3 meses em frameworks SAFe/LeSS/Nexus para se manter atualizado. STAR-L completo com comparação estruturada. Métricas concretas: 6 meses antes do prazo, R$2,4M economizados, -45% tempo reunião, zero atrasos por dependências.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q1__olibano-blockchain-exploration": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exploração de blockchain via curso MIT (8 semanas/40h). STAR-L completo com validação técnica rigorosa. Métricas concretas: R$800k capital preservado, 12 whitepapers analisados, 18 páginas de whitepaper, 90 dias de investigação estruturada.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q1__stay-updated-payments-fintech": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: sistema estruturado de aprendizado contínuo com pipeline de conhecimento. STAR-L completo com método replicável. Métricas concretas: 26 PoCs em 3 anos, -53% ramp-up (6→2,8 semanas), 78% taxa de aplicação, 12 cooperados entrevistados.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q1__out-of-comfort-zone-transparency-portal": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Responde MUITO BEM: aprendizado acelerado em área nova (transparência pública). STAR-L completo mas foco maior em entrega que em manter-se atualizado. Métricas concretas: 18 jornalistas + 12 auditores entrevistados, -67% solicitações LAI, 14.200 acessos mensais.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q1__unimed-cvc-failure-learning": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Responde MUITO BEM: aprendizado de DMAIC após fracasso. STAR-L completo com transformação profunda. Métricas concretas: 7 startups aceleradas, R$12M inovações, tempo contratação 21→8 dias, mas foco em aprender com erro, não manter-se atualizado.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q2__unimed-harvard-healthcare-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: Value-Based Healthcare de Harvard foi a última coisa nova aprendida. STAR-L completo com aplicação direta. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), superou projeções Harvard em 2 pontos percentuais.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q2__bradesco-safe-agile-framework": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: SAFe foi a última coisa nova aprendida (3 meses de estudo). STAR-L completo com transformação cultural. Métricas concretas: 6 meses antes do prazo, R$2,4M economizados, -45% tempo reunião, 100% eliminação atrasos.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q2__olibano-blockchain-exploration": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: blockchain via MIT foi a última coisa nova (8 semanas). STAR-L completo com decisão baseada em evidência. Métricas concretas: R$800k preservados, 12 whitepapers, 18 clientes entrevistados, protótipo funcional em 90 dias.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q2__stay-updated-payments-fintech": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: sistema de aprendizado contínuo (não uma coisa específica recente). STAR-L completo com resultados excepcionais. Métricas concretas: 26 PoCs, -53% ramp-up, 78% aplicação, 3,2 semanas antecipação média.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q2__out-of-comfort-zone-transparency-portal": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Responde MUITO BEM: aprendizado de transparência pública e frameworks de dados abertos. STAR-L completo mas não especifica exatamente o que foi a última coisa. Métricas concretas: 240 solicitações analisadas, -67% LAI, 14.200 acessos, 5% antes prazo.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q2__unimed-cvc-failure-learning": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: DMAIC foi a última coisa nova aprendida (após falha do CVC). STAR-L completo com método estruturado. Métricas concretas: 7 startups, R$12M, tempo 21→8 dias, mas Learning genérico sobre estrutura vs entusiasmo.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q3__unimed-harvard-healthcare-innovation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: sair da zona de conforto ao fazer curso Harvard fora da área técnica. STAR-L completo com impacto significativo. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), 68% internações evitáveis, mas foco é aprendizado não desconforto.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q3__bradesco-safe-agile-framework": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: sair da zona de conforto ao implementar SAFe em banco tradicional. STAR-L completo com quebra de ceticismo. Métricas concretas: 6 meses antecipado, R$2,4M, -45% tempo reunião, mas foco é transformação não desconforto pessoal.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q3__olibano-blockchain-exploration": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: sair da zona de conforto ao investigar blockchain (área nova). STAR-L completo com coragem de dizer 'não'. Métricas concretas: R$800k preservados, 90 dias investigação, R$2.400 investimento próprio, 12 whitepapers analisados.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q3__stay-updated-payments-fintech": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: criar sistema de PoCs foi parcialmente sair da zona de conforto. STAR-L completo com resultados sólidos. Métricas concretas: 26 PoCs, -53% ramp-up, 78% aplicação, mas foco é estruturar aprendizado não desconforto.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q3__out-of-comfort-zone-transparency-portal": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: título explícito 'Fora da Zona de Conforto'. STAR-L completo com área totalmente nova (políticas públicas). Métricas concretas: 18 jornalistas + 12 auditores entrevistados, -67% LAI, 14.200 acessos, 36% antes previsão técnica.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q3__unimed-cvc-failure-learning": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Responde MUITO BEM: sair da zona de conforto ao assumir falha e aprender DMAIC. STAR-L completo com humildade. Métricas concretas: 7 startups, R$12M, 21→8 dias, mas foco maior em aprender com erro que desconforto inicial.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q4__unimed-harvard-healthcare-innovation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: aprendizado acelerado de VBHC mas não especifica urgência temporal explícita. STAR-L completo com aplicação direta. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), curso concluído mas prazo não mencionado.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q4__bradesco-safe-agile-framework": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: 3 meses para dominar SAFe/LeSS/Nexus (relativamente rápido). STAR-L completo com urgência implícita. Métricas concretas: 6 meses antes prazo, R$2,4M economizados, -45% tempo reunião, mas 3 meses não é 'rapidamente'.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q4__olibano-blockchain-exploration": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: 90 dias de investigação estruturada (não é extremamente rápido). STAR-L completo com rigor técnico. Métricas concretas: R$800k preservados, 8 semanas curso, 12 whitepapers, mas prazo foi confortável não urgente.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q4__stay-updated-payments-fintech": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: sistema de aprendizado ao longo de 3 anos (não rápido). STAR-L completo com consistência. Métricas concretas: 26 PoCs, -53% ramp-up, mas processo é incremental não acelerado.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q4__out-of-comfort-zone-transparency-portal": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: 4 meses para dominar área completamente nova (políticas públicas + dados abertos). STAR-L completo com aprendizado acelerado explícito. Métricas concretas: 240 solicitações analisadas, 18 jornalistas + 12 auditores, entrega 36% antes da previsão.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q4__unimed-cvc-failure-learning": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Responde MUITO BEM: aprendizado de DMAIC após fracasso mas timeline não especificada. STAR-L completo com transformação. Métricas concretas: 7 startups, R$12M, 21→8 dias, mas não menciona se foi aprendizado rápido.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q5__unimed-harvard-healthcare-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (curso Harvard) levou a produto APS com impacto direto. STAR-L completo com causalidade clara. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M economia), 68% internações evitáveis identificadas.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q5__bradesco-safe-agile-framework": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (estudar SAFe) levou a lançamento 6 meses antecipado. STAR-L completo com link direto aprendizado→resultado. Métricas concretas: 6 meses antecipado, R$2,4M, -45% tempo reunião, zero atrasos por dependências.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q5__olibano-blockchain-exploration": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (investigar blockchain) evitou perda de R$800k. STAR-L completo com decisão baseada em evidência. Métricas concretas: R$800k preservados, 90 dias investigação, ROI 7:1 estimado evitado, decisão data-driven.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q5__stay-updated-payments-fintech": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade estruturada (sistema PoCs) levou a -53% ramp-up. STAR-L completo com método escalável. Métricas concretas: 26 PoCs, -53% ramp-up (6→2,8 sem), 78% aplicação, 3,2 semanas antecipação média.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q5__out-of-comfort-zone-transparency-portal": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: aprendizado acelerado levou a portal 36% antes da previsão. STAR-L completo mas foco maior em execução que curiosidade inicial. Métricas concretas: 14.200 acessos, -67% LAI, 36% antecipação, mas motivação era mandato não curiosidade.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q5__unimed-cvc-failure-learning": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (investigar causa raiz com DMAIC) levou a Vibee. STAR-L completo com transformação após fracasso. Métricas concretas: 7 startups, R$12M, 21→8 dias, mas Learning genérico sobre método vs entusiasmo.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q6__unimed-harvard-healthcare-innovation": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: criar produto APS parecia desafiador mas não há menção explícita de inviabilidade inicial. STAR-L completo com resultados excepcionais. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), mas foco é aprendizado não inviabilidade.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q6__bradesco-safe-agile-framework": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: transformar Bradesco em ágil parecia inviável (ceticismo explícito). STAR-L completo com menção a dúvidas. Métricas concretas: 6 meses antecipado, R$2,4M, 'agilidade não funciona aqui', mas não diz que ele achava inviável.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q6__olibano-blockchain-exploration": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: não há indicação que achava inviável, foi investigação estruturada. STAR-L completo mas sem ceticismo inicial. Métricas concretas: R$800k preservados, 90 dias, mas abordagem foi confiante desde início.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q6__stay-updated-payments-fintech": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: criar sistema de aprendizado tinha desafio (8 semanas atraso) mas não inviabilidade. STAR-L completo com resgate. Métricas concretas: 26 PoCs, -53% ramp-up, mas não menciona dúvida sobre alcançabilidade.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q6__out-of-comfort-zone-transparency-portal": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: portal derrotou dois grupos anteriores (sugere inviabilidade percebida). STAR-L completo com menção a previsão técnica. Métricas concretas: 36% antes da previsão, 14.200 acessos, 'ditada mais pela urgência que viabilidade técnica'.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q6__unimed-cvc-failure-learning": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Responde MUITO BEM: recuperar após fracasso CVC parecia inviável (startups desistindo). STAR-L completo com reversão. Métricas concretas: 7 startups, R$12M, zero desistências no Vibee, mas não explicita 'não achava alcançável' inicialmente.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q7__unimed-harvard-healthcare-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: VBHC de Harvard melhorou capacidade de criar produtos. STAR-L completo com aprendizado transformador. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), Learning explícito sobre curiosidade estruturada.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q7__bradesco-safe-agile-framework": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: SAFe melhorou capacidade de liderar transformações. STAR-L completo com aprendizado aplicado. Métricas concretas: 6 meses antecipado, R$2,4M, Learning sobre curiosidade como arma estratégica.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q7__olibano-blockchain-exploration": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: blockchain ensinou a dizer 'não ainda' com evidências. STAR-L completo com aprendizado sobre rigor técnico. Métricas concretas: R$800k preservados, Learning sobre curiosidade genuína vs descoberta do novo.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q7__stay-updated-payments-fintech": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: sistema de PoCs melhorou capacidade de inovar com velocidade. STAR-L completo com método replicável. Métricas concretas: 26 PoCs, -53% ramp-up, Learning sobre curiosidade estruturada criando tração sustentável.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q7__out-of-comfort-zone-transparency-portal": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: aprender políticas públicas melhorou capacidade de navegar complexidade. STAR-L completo com transformação. Métricas concretas: 36% antecipação, -67% LAI, Learning sobre conhecimento aplicado gerando segurança.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q7__unimed-cvc-failure-learning": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: DMAIC melhorou capacidade de estruturar inovação. STAR-L completo com método aplicado. Métricas concretas: 7 startups, R$12M, 21→8 dias, Learning sobre curiosidade organizada em método.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q8__unimed-harvard-healthcare-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: identificou lacuna em VBHC e preencheu com Harvard. STAR-L completo com diagnóstico + solução. Métricas concretas: curso específico, 20.000 beneficiários, -15% custos, gap explícito identificado.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q8__bradesco-safe-agile-framework": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: identificou lacuna em agilidade em escala e preencheu com SAFe. STAR-L completo com gap analysis. Métricas concretas: 3 frameworks comparados, 6 meses antecipado, R$2,4M, necessidade explícita de estrutura.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q8__olibano-blockchain-exploration": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: identificou lacuna em blockchain e preencheu com MIT + protótipo. STAR-L completo com investigação sistemática. Métricas concretas: 8 semanas curso, 12 whitepapers, 18 clientes, gap técnico explicitado.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q8__stay-updated-payments-fintech": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: identificou lacuna (8 semanas atraso) e preencheu com sistema PoCs. STAR-L completo com diagnóstico inicial. Métricas concretas: 26 PoCs, -53% ramp-up, 78% aplicação, gap de velocidade explícito.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q8__out-of-comfort-zone-transparency-portal": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: identificou lacuna em políticas públicas/dados abertos e preencheu aceleradamente. STAR-L completo com aprendizado direcionado. Métricas concretas: 240 solicitações analisadas, 18 jornalistas + 12 auditores, área totalmente nova dominada.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q8__unimed-cvc-failure-learning": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: identificou lacuna em gestão de inovação e preencheu com DMAIC. STAR-L completo com causa raiz. Métricas concretas: 8 stakeholders mapeados, 21→8 dias, mas Learning genérico sobre estrutura.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q9__unimed-harvard-healthcare-innovation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: fez curso Harvard enquanto Head (ocupado). STAR-L completo mas não explicita tensão dia-a-dia vs exploração. Métricas concretas: 20.000 beneficiários, -15% custos, mas não menciona como equilibrou tempo.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q9__bradesco-safe-agile-framework": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: estudou 3 frameworks durante projeto Next. STAR-L completo mas não explicita como conciliou. Métricas concretas: 6 meses antecipado, R$2,4M, mas foco é estudo não balanço tempo.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q9__olibano-blockchain-exploration": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: explorou blockchain mas como sócio-investidor (não operacional ocupado). STAR-L completo mas contexto não é dia-a-dia operacional. Métricas concretas: R$800k preservados, 90 dias dedicados, mas teve tempo estruturado.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q9__stay-updated-payments-fintech": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: criou sistema de PoCs justamente para explorar enquanto ocupado com roadmap. STAR-L completo com método para balanço. Métricas concretas: 26 PoCs ao longo de 3 anos, 8-10/ano, estrutura para não parar de explorar.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q9__out-of-comfort-zone-transparency-portal": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: aprendeu rápido durante projeto mas não menciona exploração contínua além do mandato. STAR-L completo mas foco é entrega não exploração paralela. Métricas concretas: 4 meses, 36% antecipação, mas não explora 'além do dia-a-dia'.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q9__unimed-cvc-failure-learning": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Responde BEM: aprendeu DMAIC após fracasso mas não menciona como explorou enquanto ocupado. STAR-L completo mas contexto é reação não exploração proativa. Métricas concretas: 7 startups, R$12M, mas não aborda balanço tempo.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q10__unimed-harvard-healthcare-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: aplicou VBHC (área saúde acadêmica) a produto digital (tech). STAR-L completo com cross-domain explícito. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), conceitos Harvard aplicados a produto.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q10__bradesco-safe-agile-framework": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: aplicou SAFe (framework genérico) a banco tradicional (contexto específico). STAR-L completo com adaptação. Métricas concretas: 6 meses antecipado, R$2,4M, mas SAFe já era área adjacente não completamente diferente.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q10__olibano-blockchain-exploration": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: aplicou blockchain (cripto) a pagamentos tradicionais. STAR-L completo com avaliação cross-domain. Métricas concretas: R$800k preservados, mas blockchain e pagamentos são áreas adjacentes não completamente diferentes.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q10__stay-updated-payments-fintech": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: sistema de PoCs aplicado a fintech mas não menciona área completamente diferente. STAR-L completo mas aprendizados são da mesma área. Métricas concretas: 26 PoCs, -53% ramp-up, mas todos em payments/fintech.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q10__out-of-comfort-zone-transparency-portal": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: aplicou conhecimento tech a políticas públicas (área completamente diferente). STAR-L completo com cross-domain explícito. Métricas concretas: tech person em governo, 14.200 acessos, -67% LAI, área pública totalmente nova.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q10__unimed-cvc-failure-learning": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Responde MUITO BEM: aplicou DMAIC (Six Sigma) a CVC/inovação. STAR-L completo com método de outra área. Métricas concretas: 7 startups, R$12M, mas DMAIC já é ferramenta de gestão adjacente.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q11__unimed-harvard-healthcare-innovation": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Responde TANGENCIALMENTE: case é sucesso não fracasso. STAR-L completo mas não aborda falha. Métricas concretas: 20.000 beneficiários, -15% custos, resultado positivo não negativo.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q11__bradesco-safe-agile-framework": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Responde TANGENCIALMENTE: case é sucesso não fracasso. STAR-L completo mas não aborda falha. Métricas concretas: 6 meses antecipado, R$2,4M economizados, resultado positivo não negativo.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q11__olibano-blockchain-exploration": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: não investir em blockchain poderia ser visto como 'falha' de não inovar mas foi decisão correta. STAR-L completo mas não é fracasso tradicional. Métricas concretas: R$800k preservados, decisão acertada não erro.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q11__stay-updated-payments-fintech": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: menciona 8 semanas de atraso inicial mas foco é recuperação. STAR-L completo mas não aprofunda falha. Métricas concretas: 26 PoCs entregues depois, -53% ramp-up, resultado final positivo.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q11__out-of-comfort-zone-transparency-portal": {
+    "relevance": 12,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 72,
+    "reasoning": "Responde TANGENCIALMENTE: menciona dois grupos anteriores falharam mas case pessoal é sucesso. STAR-L completo mas não é falha própria. Métricas concretas: 36% antecipação, resultado positivo não negativo.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q11__unimed-cvc-failure-learning": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: título explícito 'Falhei no lançamento do CVC'. STAR-L completo com ownership do fracasso. Métricas concretas: 4 meses perdidos, R$340k desperdiçados, startups desistindo, mas recuperação posterior.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q12__unimed-harvard-healthcare-innovation": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: case não menciona erro específico. STAR-L completo mas foco é aprendizado proativo não com erros. Métricas concretas: 20.000 beneficiários, -15% custos, mas não identifica erro que gerou aprendizado.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q12__bradesco-safe-agile-framework": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: case não menciona erro específico. STAR-L completo mas foco é aprendizado proativo. Métricas concretas: 6 meses antecipado, R$2,4M, mas não identifica erro que gerou aprendizado.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q12__olibano-blockchain-exploration": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: aprendizado foi 'não investir' mas não foi erro próprio. STAR-L completo mas aprendizado é preventivo. Métricas concretas: R$800k preservados, evitou erro futuro não corrigiu erro passado.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q12__stay-updated-payments-fintech": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: menciona 8 semanas de atraso (erro) e aprendizado com sistema PoCs. STAR-L completo com correção. Métricas concretas: 26 PoCs, -53% ramp-up, mas não aprofunda o erro inicial.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q12__out-of-comfort-zone-transparency-portal": {
+    "relevance": 18,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Responde PARCIALMENTE: menciona grupos anteriores erraram mas não erro pessoal. STAR-L completo mas foco é execução correta. Métricas concretas: 36% antecipação, -67% LAI, mas não identifica erro próprio.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q12__unimed-cvc-failure-learning": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: falha CVC explícita + aprendizado DMAIC aplicado. STAR-L completo com erro→método. Métricas concretas: R$340k desperdiçados, 4 meses perdidos, mas recuperação com 7 startups + R$12M.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q13__unimed-harvard-healthcare-innovation": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: aprender VBHC implica desaprender modelo fee-for-service mas não explicitado. STAR-L completo mas foco é aprender não desaprender. Métricas concretas: 20.000 beneficiários, -15% custos, mudança de paradigma implícita.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q13__bradesco-safe-agile-framework": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: SAFe requer desaprender waterfall (mencionado ceticismo de líderes). STAR-L completo com mudança cultural. Métricas concretas: 6 meses antecipado, -45% reuniões, quebra de controle centralizado sugere desaprendizado.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q13__olibano-blockchain-exploration": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: investigação blockchain desaprende hype (decidiu não investir). STAR-L completo com questionamento de moda. Métricas concretas: R$800k preservados, Learning sobre não seguir moda cegamente.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q13__stay-updated-payments-fintech": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: sistema PoCs implica desaprender abordagem ad-hoc mas não explicitado. STAR-L completo mas foco é estruturar não desaprender. Métricas concretas: 26 PoCs, -53% ramp-up, mudança de método implícita.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q13__out-of-comfort-zone-transparency-portal": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: área nova requer desaprender mas não explícito como identificou necessidade. STAR-L completo mas foco é aprender rápido. Métricas concretas: 36% antecipação, -67% LAI, mas não aborda desaprendizado.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q13__unimed-cvc-failure-learning": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: DMAIC ensinou a desaprender 'entusiasmo sem estrutura' (Learning explícito). STAR-L completo com identificação clara. Métricas concretas: 7 startups, R$12M, Learning sobre arrogância vs método.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q14__unimed-harvard-healthcare-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (Harvard) questionou modelo fee-for-service estabelecido. STAR-L completo com mudança de paradigma. Métricas concretas: 20.000 beneficiários, -15% custos (R$4M), VBHC vs modelo tradicional.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q14__bradesco-safe-agile-framework": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (SAFe) questionou waterfall/controle centralizado estabelecido. STAR-L completo com quebra de ceticismo. Métricas concretas: 6 meses antecipado, R$2,4M, -45% reuniões, 'agilidade não funciona aqui' contestado.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q14__olibano-blockchain-exploration": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade questionou hype blockchain estabelecido (moda do mercado). STAR-L completo com coragem de contrariar. Métricas concretas: R$800k preservados, decisão contra corrente, 'moda tecnológica vs análise racional'.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q14__stay-updated-payments-fintech": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: curiosidade estruturada questionou abordagem ad-hoc. STAR-L completo com sistematização. Métricas concretas: 26 PoCs, -53% ramp-up, mas não explicita confronto com prática estabelecida anterior.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q14__out-of-comfort-zone-transparency-portal": {
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: questionou portal obsoleto mas motivação era mandato não curiosidade. STAR-L completo com renovação. Métricas concretas: 14.200 acessos, -67% LAI, mas foco é entrega não questionamento por curiosidade.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
+    "version": "3.0"
+  },
+  "learn_and_be_curious__Q14__unimed-cvc-failure-learning": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 26,
+    "scoreBase": 86,
+    "reasoning": "Responde PERFEITAMENTE: curiosidade (DMAIC) questionou 'entusiasmo como método' estabelecido. STAR-L completo com mudança profunda. Métricas concretas: 7 startups, R$12M, Learning sobre questionar própria arrogância.",
+    "analyzedAt": "2025-10-18T19:59:38.969847Z",
     "version": "3.0"
   }
 }
