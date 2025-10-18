@@ -8,7 +8,7 @@ const case_4 = {
   period: "07/2016-05/2018",
   role: "Program Manager / Agile Leader",
   context: "Post-acquisition Integration",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: true,
   pt: {
     s: "Em julho de 2016, logo após o Bradesco adquirir o HSBC Brasil por US$ 5,2 bilhões, fui nomeado Program Manager para liderar a workstream de Global Markets na integração. O cenário era de extrema ambiguidade.Tecnicamente, os requisitos de migração de dados mudavam quase semanalmente devido a novas descobertas em auditorias de compliance (FATCA). Pior ainda, havia uma enorme barreira cultural. A equipe legada do HSBC, acostumada a processos globais, reportando em inglês e a uma cultura de planejamento detalhado, agora respondia ao Bradesco, com uma cultura mais direta, focada na execução rápida e com comunicação em português. A incerteza estava em toda parte: qual processo seguir, a quem reportar, qual seria o 'novo normal'.",t: "Minha tarefa era dupla e complexa: garantir a migração técnica de um portfólio de R$ 3 bilhões com zero perda de dados, ao mesmo tempo em que integrava duas equipes com culturas de trabalho antagônicas, evitando a perda de talentos e o colapso da produtividade. Eu precisava criar uma ponte entre esses dois mundos e estabelecer um novo modelo operacional que respondesse às mudanças constantes de direção, tanto técnicas quanto culturais.",

@@ -2882,15 +2882,15 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
-          "caseId": "unimed-innovation-ambiguity",
+          "caseId": "bradesco-open-banking-vision",
           "score": 98
         },
         {
-          "caseId": "sefaz-digital-transformation-ambiguity",
+          "caseId": "sefaz-pmo-creation",
           "score": 95
         },
         {
-          "caseId": "bradesco-open-banking-vision",
+          "caseId": "huawei-worldcup-war-room",
           "score": 90
         }
       ]
@@ -2898,16 +2898,16 @@ export const questionsToCasesMapping = {
     "2": {
       "options": [
         {
-          "caseId": "unimed-innovation-ambiguity",
+          "caseId": "bradesco-open-banking-vision",
           "score": 98
         },
         {
-          "caseId": "sefaz-digital-transformation-ambiguity",
+          "caseId": "sefaz-pmo-creation",
           "score": 95
         },
         {
-          "caseId": "bradesco-open-banking-vision",
-          "score": 92
+          "caseId": "huawei-worldcup-war-room",
+          "score": 90
         }
       ]
     },
