@@ -238,7 +238,6 @@ export default function App() {
     getDisplayCaseTitle,
     getBestCaseOption,
     getCaseQuestions,
-    casesByPrinciple,
   } = useCaseHelpers(principlesData, language);
 
   // Show loading state when searching
