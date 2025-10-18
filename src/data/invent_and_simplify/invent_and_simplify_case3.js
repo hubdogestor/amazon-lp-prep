@@ -5,7 +5,7 @@ const case_3 = {
   company: "Unimed",
   period: "01/2023-10/2023",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
   pt: {
     s: `Em 2023, eu atuava como Advisor de Estratégia e Gestão na Unimed, acompanhando indicadores de atendimento quando recebi um alerta do Head de Customer Service: a fila de autorização médica tinha virado um colapso humanitário. Era comum ouvir frases como “meu pai vai morrer esperando autorização”.  
     Investiguei os dados e descobri que levávamos 5,1 dias em média para aprovar um procedimento. O NPS havia caído para 19, a mídia regional fazia reportagens negativas, e hospitais parceiros ameaçavam interromper atendimentos por falta de confiança.  

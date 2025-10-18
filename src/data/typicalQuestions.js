@@ -68,7 +68,7 @@ const typicalQuestions = {
       "How do you manage dependencies between multiple teams?"
     ]
   },
-  "invent_simplify": {
+  "invent_and_simplify": {
     pt: [
       "Conte sobre uma inovação que você implementou que simplificou um processo (que era complexo)?",
       "Me fale sobre uma solução criativa que você desenvolveu",

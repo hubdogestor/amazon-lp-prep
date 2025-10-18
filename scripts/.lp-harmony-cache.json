@@ -2950,5 +2950,653 @@
     "reasoning": "Caso PERFEITAMENTE alinhado: análise revelou inesperado - times culpavam API/banco mas era fila sequencial interna (65% tempo). STAR-L completo.",
     "analyzedAt": "2025-01-19T23:30:00Z",
     "version": "3.0"
+  },
+  "invent_and_simplify__Q1__huawei-six-sigma-optimization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: criou indicador 'tempo de dor do cliente' e Command Center que simplificaram processo 5G de 214 para 58 dias (-73%), com métricas concretas de impacto (R$10,8M economia, NPS 17→56).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q1__bradesco-next-compliance-simplification": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: inventou trilha KYC one-click automatizando 47 regras BACEN, simplificando onboarding de 32h para 6h (-81%), com métricas robustas (NPS 68, 74% menos retrabalho, R$28M economia).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q1__unimed-ai-authorization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: inventou IA que simplificou autorização médica de 5 dias para 9h (-96%), com 82% automação, métricas excepcionais (índice 'tempo de angústia' -89%, 2.800 pacientes oncológicos atendidos).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q1__unimed-open-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: inventou plataforma SaaS e Fast-Track que simplificou ciclo de inovação de 21 para 6,7 meses (-68%), com métricas sólidas (custos -44%, R$36M em eficiência, 96 startups atraídas).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q1__sefarz-pix-reconciliation-automation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: inventou motor PIX que simplificou conciliação de 72h para <5h (-93%) em 45 dias, com evidências concretas (R$27M liberados, R$4,6M multas evitadas, NPS 18→61, 146 municípios aderiram).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q1__payment-simplification-high-impact": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case PERFEITAMENTE alinhado: inventou Settlement Graph que simplificou liquidez de D+3 para D+0 em 82% do volume, com métricas robustas (NPS 29→71, churn -4,5pp, R$2,4B TPV retidos, R$19M receita incremental).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q2__huawei-six-sigma-optimization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Solução ALTAMENTE criativa: indicador 'tempo de dor do cliente' + Command Center com DMAIC Six Sigma reverteram crise de multas R$2,7M/trimestre, com resultados quantificados (214→58 dias, NPS 17→56, replicado em 8 países).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q2__bradesco-next-compliance-simplification": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Solução ALTAMENTE criativa: árvores de decisão em Python automatizando 47 regras BACEN + framework 'Simplify Compliance', eliminando 11 de 14 passos manuais, com impacto massivo (32h→6h, abandono 4%, 2,1M contas).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q2__unimed-ai-authorization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Solução ALTAMENTE criativa: IA médica + indicador 'tempo de angústia' com criticidade ponderada, automatizando 82% das 49 etapas sem erro clínico, com resultados humanitários mensuráveis (5 dias→9h, 2.800 oncológicos salvos).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q2__unimed-open-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Solução ALTAMENTE criativa: plataforma aberta + Fast-Track Klin removendo 4 níveis redundantes de validação sem perder compliance, transformando ciclo de inovação (21→6,7 meses, 96 startups, R$36M eficiência).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q2__sefarz-pix-reconciliation-automation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Solução ALTAMENTE criativa: motor Python + indicador 'horas sem lastro' criado em 45 dias sem verba adicional, resolvendo crise fiscal de 184 municípios (72h→5h, R$847M desbloqueados, NPS 18→61).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q2__payment-simplification-high-impact": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Solução ALTAMENTE criativa: Settlement Graph com machine learning classificando 2M+ transações em tempo real, viabilizando D+0 para 73% do volume sem elevar risco (NPS 29→71, R$2,4B retidos, chargeback estável).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q3__huawei-six-sigma-optimization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Demonstra PERFEITAMENTE método de simplificação: DMAIC Six Sigma + observação em campo + indicador quantitativo 'tempo de dor', organizando complexidade 5G em fluxo visível (214→58 dias, R$10,8M economia).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q3__bradesco-next-compliance-simplification": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Demonstra PERFEITAMENTE método de simplificação: decomposição linha a linha de 47 regras BACEN em padrões automatizáveis, eliminando 11/14 passos manuais com 100% compliance (32h→6h, abandono -96%).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q3__unimed-ai-authorization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Demonstra PERFEITAMENTE método de simplificação: redesenho de 49 etapas + indicador 'tempo de angústia' ponderado por criticidade médica, automatizando 82% sem risco clínico (5 dias→9h, índice -89%).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q3__unimed-open-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Demonstra PERFEITAMENTE método de simplificação: análise de 27 projetos + mapeamento de fluxos + remoção validada de 4 níveis redundantes mantendo 100% compliance (21→6,7 meses, custos -44%).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q3__sefarz-pix-reconciliation-automation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Demonstra PERFEITAMENTE método de simplificação: mapeamento de ciclo + indicador 'horas sem lastro' expondo ineficiência + motor Python automatizando processo centenário (72h→5h, 93% menos retrabalho).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q3__payment-simplification-high-impact": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Demonstra PERFEITAMENTE método de simplificação: transformar dor de caixa em engenharia de risco com Settlement Graph, classificando 2M+ transações para liberar 73% em D+0 sem elevar perdas (NPS 29→71).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q4__huawei-six-sigma-optimization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: desafiou status quo de não medir impacto no cliente criando indicador 'tempo de dor' + Command Center vs. processo tradicional caótico (multas R$2,7M→zero, NPS 17→56, replicado 8 países).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q4__bradesco-next-compliance-simplification": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: desafiou dogma de que compliance deve ser manual, automatizando 47 regras BACEN com árvores de decisão vs. resistência regulatória (32h→6h, abandono 4%, R$28M economia).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q4__unimed-ai-authorization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: desafiou paradigma de autorização manual em saúde com IA 82% automatizada + indicador humanizado 'tempo de angústia', vencendo resistência médica (5 dias→9h, zero erro clínico).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q4__unimed-open-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: desafiou modelo corporativo tradicional de inovação fechada com plataforma aberta + Fast-Track removendo 4 níveis redundantes vs. burocracia (21→6,7 meses, 96 startups, R$36M).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q4__sefarz-pix-reconciliation-automation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: desafiou processo burocrático centenário do setor público com automação PIX em 45 dias sem verba vs. inércia institucional (72h→5h, R$847M desbloqueados, 146 municípios voluntários).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q4__payment-simplification-high-impact": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: desafiou paradigma conservador bancário D+3 vs. fintechs D+0, criando Settlement Graph com ML que viabilizou 82% D+0 sem elevar risco (churn -4,5pp, R$2,4B retidos).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q5__huawei-six-sigma-optimization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Command Center + indicador 'tempo de dor' simplificaram processo 5G com GRANDE impacto (214→58 dias -73%, multas R$2,7M→zero, R$10,8M economia anual, replicado 8 países).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q5__bradesco-next-compliance-simplification": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: trilha KYC one-click simplificou onboarding com GRANDE impacto (32h→6h -81%, abandono -96%, 2,1M contas em 18 meses, R$28M economia, NPS 68, viabilizou lançamento Next).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q5__unimed-ai-authorization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: IA médica + indicador 'tempo de angústia' simplificaram autorização com GRANDE impacto HUMANITÁRIO (5 dias→9h -96%, 2.800 oncológicos salvos, NPS 67, índice angústia -89%).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q5__unimed-open-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Fast-Track + plataforma SaaS simplificaram inovação com GRANDE impacto (21→6,7 meses -68%, custos -44%, R$36M eficiência, 96 startups, 2x velocidade vs. benchmark setor).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q5__sefarz-pix-reconciliation-automation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: motor PIX simplificou conciliação municipal com GRANDE impacto SOCIAL (72h→5h -93%, R$847M desbloqueados, R$27M educação liberados, 184 municípios atendidos, NPS 18→61).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q5__payment-simplification-high-impact": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Settlement Graph simplificou liquidez com GRANDE impacto COMPETITIVO (D+3→D+0 para 82% volume, NPS 29→71, R$2,4B TPV retidos, churn -4,5pp, R$19M receita incremental).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q6__huawei-six-sigma-optimization": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Plano Command Center + DMAIC enfrentou obstáculo de resistência interna e falta de métricas confiáveis, pivotando para indicador 'tempo de dor' que uniu stakeholders (214→58 dias, R$10,8M economia).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q6__bradesco-next-compliance-simplification": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Plano KYC automatizado enfrentou obstáculo regulatório BACEN, pivotando para matriz decisória com auditoria independente que validou 100% compliance mantendo automação (32h→6h, abandono 4%).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q6__unimed-ai-authorization": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Plano IA médica enfrentou obstáculo de resistência da auditoria clínica, pivotando para modelo híbrido com médicos revisando casos complexos mantendo 82% automação sem erro clínico (5 dias→9h).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q6__unimed-open-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: plano plataforma aberta enfrentou obstáculo de 4 níveis redundantes de validação, pivotando para Fast-Track com auditoria independente que manteve compliance (21→6,7 meses).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q6__sefarz-pix-reconciliation-automation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Plano automação PIX enfrentou obstáculo de prazo 45 dias sem verba, pivotando para motor Python com indicador 'horas sem lastro' que priorizou criticidade fiscal (72h→5h, R$847M desbloqueados).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q6__payment-simplification-high-impact": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Plano D+0 universal enfrentou obstáculo de risco elevado, pivotando para Settlement Graph que classificou 2M+ transações permitindo D+0 para 73% do volume sem elevar chargeback (NPS 29→71).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q7__huawei-six-sigma-optimization": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Equilibrou inovação (Command Center + indicador 'tempo de dor') com risco operacional de ativação 5G, validando em field trials antes de escalar (214→58 dias, zero aumento de falhas críticas).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q7__bradesco-next-compliance-simplification": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: equilibrou inovação (automação KYC) com risco regulatório, usando auditoria independente + teste piloto que validou 100% compliance antes de escalar (32h→6h, 2,1M contas).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q7__unimed-ai-authorization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: equilibrou inovação (IA 82% automatizada) com risco CLÍNICO, usando modelo híbrido + revisão médica de casos complexos que manteve ZERO erro clínico (5 dias→9h, 2.800 salvos).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q7__unimed-open-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: equilibrou inovação (plataforma aberta com startups) com risco corporativo, usando Fast-Track validado em 3 projetos-piloto com auditoria que manteve 100% compliance (21→6,7 meses).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q7__sefarz-pix-reconciliation-automation": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Equilibrou inovação (motor PIX em 45 dias) com risco fiscal de R$847M congelados, validando em ambiente controlado antes de liberar para 184 municípios (72h→5h, zero erro contábil).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q7__payment-simplification-high-impact": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: equilibrou inovação (D+0 para 82% volume) com risco de chargeback, usando Settlement Graph + ML testado em 2M+ transações que manteve perdas estáveis <0,35% (NPS 29→71).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q8__huawei-six-sigma-optimization": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Decisão build (Command Center interno com DMAIC) vs. buy (consultoria externa) baseada em necessidade de customização para operadoras LATAM e ownership de metodologia (214→58 dias, replicado 8 países).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q8__bradesco-next-compliance-simplification": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Decisão build (árvores de decisão Python próprias) vs. adapt (soluções KYC existentes) baseada em necessidade de compliance específico BACEN + integração legada Bradesco (32h→6h, 100% compliance).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q8__unimed-ai-authorization": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Decisão build (IA médica proprietária) vs. adapt (soluções SaaS de healthtech) baseada em necessidade de integração com sistemas legados Unimed + critérios clínicos específicos (82% automação, zero erro).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q8__unimed-open-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: decisão adapt (plataforma aberta com 96 startups) vs. build (desenvolver tudo internamente) baseada em velocidade + custo, validando em 3 pilotos (21→6,7 meses, custos -44%).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q8__sefarz-pix-reconciliation-automation": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Decisão build (motor Python próprio) vs. adapt (soluções de conciliação existentes) baseada em zero verba adicional + integração específica com sistemas municipais do RS (72h→5h em 45 dias).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q8__payment-simplification-high-impact": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Decisão build (Settlement Graph proprietário com ML) vs. adapt (soluções D+0 de fintechs) baseada em necessidade de integração com core bancário Bradesco + perfil de risco específico (82% D+0).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q9__huawei-six-sigma-optimization": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Uso não-convencional de Six Sigma (metodologia manufatura) em telecomunicações 5G criando indicador 'tempo de dor do cliente' que expôs inércia operacional (214→58 dias, multas R$2,7M→zero).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q9__bradesco-next-compliance-simplification": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Uso não-convencional de árvores de decisão (ferramenta ML) para automatizar interpretação de 47 regras BACEN em tempo real, eliminando 11/14 passos manuais mantendo 100% compliance (32h→6h).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q9__unimed-ai-authorization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: uso não-convencional de IA (tecnologia tech) em decisões médicas críticas com indicador humanizado 'tempo de angústia', automatizando 82% sem erro clínico (5 dias→9h, 2.800 salvos).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q9__unimed-open-innovation": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Uso não-convencional de plataforma SaaS aberta (modelo startup) em corporação conservadora de saúde cooperativa, removendo 4 níveis de validação redundantes (21→6,7 meses, 96 startups integradas).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q9__sefarz-pix-reconciliation-automation": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Uso não-convencional de automação Python (ferramenta privada) em setor público municipal, criando indicador 'horas sem lastro' que priorizou criticidade fiscal (72h→5h, R$847M desbloqueados).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q9__payment-simplification-high-impact": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: uso não-convencional de ML em tempo real (Settlement Graph) para decisões de risco de crédito instantâneas em marketplace, testando 2M+ transações (D+3→D+0 para 82% volume).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q10__huawei-six-sigma-optimization": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Otimizou processo 5G (payment operations indireto como operadora de rede) usando Command Center + DMAIC que reduziu tempo de ativação de 214→58 dias (-73%), impactando faturamento operadoras.",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q10__bradesco-next-compliance-simplification": {
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 74,
+    "reasoning": "Otimizou onboarding digital bancário (payment operations tangencial) automatizando KYC que reduziu 32h→6h, viabilizando abertura de contas digitais Next para transações financeiras.",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q10__unimed-ai-authorization": {
+    "relevance": 12,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 68,
+    "reasoning": "Otimizou autorização médica (saúde, não payment operations) com IA reduzindo 5 dias→9h. Impacto em pagamentos é indireto via liberação de procedimentos que geram faturamento hospitalar.",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q10__unimed-open-innovation": {
+    "relevance": 12,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 68,
+    "reasoning": "Otimizou ciclo de inovação em saúde (não payment operations) com plataforma SaaS reduzindo 21→6,7 meses. Impacto em pagamentos é indireto via eficiência operacional R$36M.",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q10__sefarz-pix-reconciliation-automation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: otimizou DIRETAMENTE payment operations PIX municipal automatizando conciliação de 72h→5h, desbloqueando R$847M em repasses e evitando R$4,6M em multas (93% menos retrabalho).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q10__payment-simplification-high-impact": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: otimizou DIRETAMENTE payment operations de liquidez marketplace com Settlement Graph que automatizou D+0 para 82% volume, reduzindo 48% ocorrências de settlement (R$2,4B retidos).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q11__huawei-six-sigma-optimization": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Convenceu stakeholders céticos (5 operadoras cogitando rescindir contratos) sobre Command Center + DMAIC usando indicador 'tempo de dor do cliente' que quantificou impacto (multas R$2,7M→zero, NPS 17→56).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q11__bradesco-next-compliance-simplification": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: convenceu stakeholders céticos BACEN sobre automação KYC disruptiva usando auditoria independente + piloto que validou 100% compliance mantendo segurança (32h→6h, 2,1M contas).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q11__unimed-ai-authorization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: convenceu stakeholders médicos céticos sobre IA disruptiva em decisões clínicas usando modelo híbrido + zero erro clínico que manteve segurança paciente (5 dias→9h, 2.800 salvos).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q11__unimed-open-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: convenceu stakeholders conservadores céticos sobre plataforma aberta disruptiva com startups usando validação progressiva + auditoria independente que manteve compliance (21→6,7 meses).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q11__sefarz-pix-reconciliation-automation": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Convenceu 184 prefeitos céticos sobre automação PIX disruptiva no setor público usando indicador 'horas sem lastro' + prazo 45 dias que desbloqueou R$847M (146 municípios aderiram voluntariamente).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q11__payment-simplification-high-impact": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: convenceu stakeholders bancários céticos sobre D+0 disruptivo usando Settlement Graph + ML testado em 2M+ transações que manteve chargeback <0,35% (NPS 29→71, R$2,4B retidos).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q12__huawei-six-sigma-optimization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: simplificou processo 5G que todos achavam precisar ser complexo (214 dias com 5 operadoras) usando indicador 'tempo de dor' + Command Center que organizou caos (58 dias, replicado 8 países).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q12__bradesco-next-compliance-simplification": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: simplificou compliance KYC que todos achavam precisar ser manual (47 regras BACEN complexas) usando árvores de decisão que automatizaram 11/14 passos (32h→6h, 100% compliance).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q12__unimed-ai-authorization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: simplificou autorização médica que todos achavam precisar ser manual (49 etapas com auditoria humana) usando IA 82% automatizada mantendo zero erro clínico (5 dias→9h, 2.800 salvos).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q12__unimed-open-innovation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: simplificou inovação corporativa que todos achavam precisar ser controlada (21 meses, 4 níveis validação) usando Fast-Track aberto com startups que manteve compliance (6,7 meses).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q12__sefarz-pix-reconciliation-automation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: simplificou conciliação PIX que todos achavam precisar ser burocrática (processo centenário, 72h manual em 184 municípios) usando motor Python em 45 dias (5h, R$847M desbloqueados).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
+  },
+  "invent_and_simplify__Q12__payment-simplification-high-impact": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: simplificou liquidez que todos achavam precisar ser D+3 para segurança (paradigma bancário conservador) usando Settlement Graph + ML que viabilizou D+0 sem elevar risco (82% volume).",
+    "analyzedAt": "2025-01-19T23:45:00Z",
+    "version": "3.0"
   }
 }

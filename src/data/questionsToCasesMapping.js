@@ -1653,19 +1653,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 90
+          "score": 85
         },
         {
           "caseId": "unimed-fraud-investigation",
-          "score": 86
-        },
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "score": 82
+          "score": 81
         },
         {
           "caseId": "sicredi-pix-settlement",
-          "score": 82
+          "score": 80
         }
       ]
     },
@@ -1673,19 +1669,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 90
+          "score": 85
         },
         {
           "caseId": "unimed-fraud-investigation",
-          "score": 86
-        },
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "score": 82
+          "score": 81
         },
         {
           "caseId": "sicredi-pix-settlement",
-          "score": 82
+          "score": 80
         }
       ]
     },
@@ -1693,15 +1685,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 86
-        },
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "score": 82
-        },
-        {
-          "caseId": "unimed-fraud-investigation",
-          "score": 82
+          "score": 81
         }
       ]
     },
@@ -1709,19 +1693,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 90
+          "score": 85
         },
         {
           "caseId": "unimed-fraud-investigation",
-          "score": 86
-        },
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "score": 82
+          "score": 81
         },
         {
           "caseId": "sicredi-pix-settlement",
-          "score": 82
+          "score": 80
         }
       ]
     },
@@ -1729,19 +1709,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 90
+          "score": 85
         },
         {
           "caseId": "unimed-fraud-investigation",
-          "score": 86
-        },
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "score": 82
+          "score": 81
         },
         {
           "caseId": "sicredi-pix-settlement",
-          "score": 82
+          "score": 80
         }
       ]
     },
@@ -1749,19 +1725,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 90
+          "score": 85
         },
         {
           "caseId": "unimed-fraud-investigation",
-          "score": 86
-        },
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "score": 82
+          "score": 81
         },
         {
           "caseId": "sicredi-pix-settlement",
-          "score": 82
+          "score": 80
         }
       ]
     },
@@ -1769,19 +1741,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 90
+          "score": 85
         },
         {
           "caseId": "unimed-fraud-investigation",
-          "score": 86
-        },
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "score": 82
+          "score": 81
         },
         {
           "caseId": "sicredi-pix-settlement",
-          "score": 82
+          "score": 80
         }
       ]
     },
@@ -1789,19 +1757,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 90
+          "score": 85
         },
         {
           "caseId": "unimed-fraud-investigation",
-          "score": 86
-        },
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "score": 82
+          "score": 81
         },
         {
           "caseId": "sicredi-pix-settlement",
-          "score": 82
+          "score": 80
         }
       ]
     },
@@ -1809,19 +1773,11 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 90
-        },
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "score": 82
-        },
-        {
-          "caseId": "unimed-fraud-investigation",
-          "score": 82
+          "score": 85
         },
         {
           "caseId": "sicredi-pix-settlement",
-          "score": 82
+          "score": 80
         }
       ]
     },
@@ -1829,15 +1785,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-fraud-investigation",
-          "score": 86
-        },
-        {
-          "caseId": "sicredi-churn-analysis",
-          "score": 82
-        },
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "score": 82
+          "score": 81
         }
       ]
     },
@@ -1845,11 +1793,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 86
-        },
-        {
-          "caseId": "unimed-fraud-investigation",
-          "score": 82
+          "score": 81
         }
       ]
     },
@@ -1857,19 +1801,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 90
+          "score": 85
         },
         {
           "caseId": "unimed-fraud-investigation",
-          "score": 86
-        },
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "score": 82
+          "score": 81
         },
         {
           "caseId": "sicredi-pix-settlement",
-          "score": 82
+          "score": 80
         }
       ]
     }

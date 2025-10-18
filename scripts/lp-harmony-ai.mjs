@@ -49,7 +49,7 @@ const CONFIG = {
 // Batches pré-definidos
 const BATCHES = {
   batch1: ['customer_obsession', 'program_management', 'ownership'],
-  batch2: ['dive_deep', 'invent_simplify'],
+  batch2: ['dive_deep', 'invent_and_simplify'],
   batch3: ['earn_trust', 'deliver_results', 'stakeholder_management'],
   batch4: ['learn_and_be_curious', 'bias_for_action', 'prioritizing_and_influence'],
   batch5: ['deal_with_ambiguity', 'disagree_and_commit', 'insist_on_highest_standards']
