@@ -7,7 +7,7 @@ const case_1 = {
   company: "HSBC",
   period: "05/2015-06/2016",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: "Maio de 2015. Como Head do PMO de Operações, eu era responsável por coordenar todas as integrações críticas de portfólio e gestão de risco do Private Banking do HSBC, o que me dava visão completa de compliance, tecnologia e clientes. Às 6 da manhã, recebi do CFO um e-mail com o assunto 'Deal em risco'. Ao abrir o dashboard que meu time montou, percebi a gravidade: US$ 5,2 bilhões em ativos estavam em colapso. Havia 94 mil contas órfãs, NPS em 52 e 60% dos clientes premium ameaçando sair. Sem rastreabilidade, o processo de validação demorava 72 horas quando a meta era 4. Como responsável técnico pelo PMO, sabia que ninguém tinha a mesma visão dos riscos cruzados. Assumi a liderança total da migração mesmo sem mandato formal porque era a única pessoa com autoridade operacional para reverter a crise.",
     t: "A situação ameaçava a reputação do banco e bilhões em ativos. Decidi transformar a crise em benchmark de integração. Minha meta era migrar 100% das contas sem perda de dados, manter churn premium abaixo de 0,5% e recuperar NPS para acima de 70. Usei minha experiência em fusões e modelagem de risco para me posicionar como responsável único pelos resultados, capaz de tomar decisões rápidas e fundamentadas em dados.",
