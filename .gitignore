@@ -41,3 +41,6 @@ archives/
 # Temporary files
 nul
 *.tmp
+
+.gemini/
+gha-creds-*.json
