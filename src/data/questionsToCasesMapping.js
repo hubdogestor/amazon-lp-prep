@@ -2498,12 +2498,12 @@ export const questionsToCasesMapping = {
           "score": 98
         },
         {
-          "caseId": "unimed-ebitda-growth",
+          "caseId": "sefaz-integrated-management-framework",
           "score": 95
         },
         {
           "caseId": "huawei-global-rollout",
-          "score": 92
+          "score": 95
         }
       ]
     },
@@ -2514,39 +2514,39 @@ export const questionsToCasesMapping = {
           "score": 98
         },
         {
-          "caseId": "unimed-ebitda-growth",
-          "score": 95
+          "caseId": "sefaz-integrated-management-framework",
+          "score": 98
         },
         {
-          "caseId": "huawei-global-rollout",
-          "score": 90
+          "caseId": "huawei-4g-copa-2014-stakeholder",
+          "score": 95
         }
       ]
     },
     "3": {
       "options": [
         {
-          "caseId": "sicredi-woop-stakeholder-management",
+          "caseId": "unimed-vendor-termination-trust",
           "score": 98
         },
         {
-          "caseId": "unimed-ebitda-growth",
+          "caseId": "sicredi-woop-stakeholder-management",
           "score": 95
         },
         {
           "caseId": "huawei-global-rollout",
-          "score": 88
+          "score": 95
         }
       ]
     },
     "4": {
       "options": [
         {
-          "caseId": "huawei-4g-copa-2014-stakeholder",
+          "caseId": "unimed-vendor-termination-trust",
           "score": 98
         },
         {
-          "caseId": "huawei-global-rollout",
+          "caseId": "huawei-4g-copa-2014-stakeholder",
           "score": 95
         },
         {
@@ -2559,7 +2559,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-woop-stakeholder-management",
-          "score": 98
+          "score": 95
         },
         {
           "caseId": "unimed-ebitda-growth",
@@ -2567,7 +2567,7 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "huawei-global-rollout",
-          "score": 88
+          "score": 90
         }
       ]
     },
@@ -2582,8 +2582,8 @@ export const questionsToCasesMapping = {
           "score": 95
         },
         {
-          "caseId": "unimed-ebitda-growth",
-          "score": 90
+          "caseId": "huawei-4g-copa-2014-stakeholder",
+          "score": 92
         }
       ]
     },
@@ -2591,15 +2591,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-woop-stakeholder-management",
-          "score": 95
-        },
-        {
-          "caseId": "unimed-ebitda-growth",
-          "score": 92
+          "score": 98
         },
         {
           "caseId": "huawei-global-rollout",
-          "score": 88
+          "score": 95
+        },
+        {
+          "caseId": "unimed-vendor-termination-trust",
+          "score": 95
         }
       ]
     },
@@ -2610,12 +2610,12 @@ export const questionsToCasesMapping = {
           "score": 98
         },
         {
-          "caseId": "huawei-global-rollout",
+          "caseId": "sicredi-woop-stakeholder-management",
           "score": 95
         },
         {
-          "caseId": "sicredi-woop-stakeholder-management",
-          "score": 92
+          "caseId": "unimed-ebitda-growth",
+          "score": 95
         }
       ]
     },
@@ -2638,16 +2638,16 @@ export const questionsToCasesMapping = {
     "10": {
       "options": [
         {
-          "caseId": "huawei-4g-copa-2014-stakeholder",
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 98
+        },
+        {
+          "caseId": "sefaz-integrated-management-framework",
           "score": 95
         },
         {
-          "caseId": "huawei-global-rollout",
-          "score": 92
-        },
-        {
-          "caseId": "sicredi-woop-stakeholder-management",
-          "score": 88
+          "caseId": "unimed-vendor-termination-trust",
+          "score": 95
         }
       ]
     },
