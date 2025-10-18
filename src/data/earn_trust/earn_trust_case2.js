@@ -5,8 +5,8 @@ const case_2 = {
   title_en: "Transformed Central Bank relationship with 48-hour executive briefings",
   company: "HSBC Brasil",
   period: "07/2015-03/2016",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
 
   pt: {
     s: `Em julho de 2022, como Program Manager responsável por entregas regulatórias e pelo relacionamento com o Banco Central no HSBC Brasil, enfrentei a maior crise de conformidade da unidade. O Bacen apontou falhas recorrentes nas integrações de PLD: discrepâncias de R$ 1,1 bilhão na posição diária causadas por conciliações manuais dispersas em cinco sistemas. Doze áreas - risco, tecnologia, contabilidade, tesouraria, operações, compliance e produto - entraram em modo de crise. O relacionamento com o regulador despencou para 43/100 e, só naquele mês, recebemos 18 ofícios formais. O CFO foi direto: “Você já reconstruiu pontes, mas agora não há margem para erro.”`,

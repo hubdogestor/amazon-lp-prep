@@ -8,8 +8,8 @@ const case_7 = {
   period: "09/2016-11/2016",
   role: "Program Manager",
   context: "HSBC→Bradesco Migration - USD 5.2 B Assets",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
 
   pt: {
     s: "“Leonardo, como Program Manager responsável, precisamos adiar o go-live em três meses. Há 47 vulnerabilidades críticas.” A recomendação formal do CISO ecoou na sala de crise. Faltavam 56 dias para o go-live de 16 de novembro de 2016 -- data oficializada ao Banco Central, FEBRABAN, clientes e mercado. Adiar significava multa regulatória de R$ 18 mi, fuga de 340 mil clientes e sinal público de instabilidade institucional. O adiamento também ameaçaria a credibilidade perante reguladores e investidores internacionais que acompanhavam a fusão com atenção. Porém, os dados de segurança eram sérios: 12 falhas críticas, 23 altas, 12 médias. O protocolo do Bradesco exigia zero críticas e menos de cinco altas para qualquer go-live. Cumpri-lo significava adiar. Mas experiências anteriores me indicavam que grande parte era teórica ou tinha controles viáveis em quatro semanas. A decisão era: seguir a recomendação segura ou agir rapidamente para entregar com risco controlado.",

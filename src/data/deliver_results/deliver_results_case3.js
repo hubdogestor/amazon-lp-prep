@@ -6,8 +6,8 @@ const case_3 = {
   title_en: "Built the Anti-Fraud Mechanism that Cut Losses 46% in 5 Months",
   company: "Sicredi Woop",
   period: "01/2020-05/2020",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: `"R$ 420 mil em perdas. 217% acima da média. Lockdown total." O número piscava vermelho no dashboard quando entrei na sala de crise às 7h43 daquela segunda de dezembro de 2019. O Woop estava sangrando: R$ 420k mensais em fraudes de onboarding, NPS despencou para 29, 3.200 clientes legítimos bloqueados por engano martelando o SAC. A diretoria jurídica exigia parar todas as aprovações até a chegada de um modelo de IA que levaria seis meses. Seis meses significava R$ 2,5M queimados e o negócio estrangulado. Cinco analistas reagiam manualmente como bombeiros apagando incêndios, sem priorização, sem mecanismo, sob pressão crescente para fechar as torneiras e matar o crescimento.`,
     t: `Diante desse sangramento financeiro e da pressão para lockdown total que paralisaria o negócio, eu decidi ser a pessoa que atacaria o problema na raiz sem esperar soluções milagrosas. Meu desafio era cortar perdas de fraude drasticamente mantendo a experiência do cliente intacta, algo que parecia impossível com os recursos disponíveis. Assumi ownership integral da crise e prometi publicamente ao CEO reduzir perdas em pelo menos 30% em 5 meses, manter falsos positivos abaixo de 2% e reconquistar NPS de onboarding acima de 55.`,

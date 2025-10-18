@@ -6,8 +6,8 @@ const case_1 = {
   title_en: "Anticipated cancer patients' needs and created journey that saved lives",
   company: "Unimed Nacional",
   period: "03/2023-12/2023",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: "Em março de 2023, eu atuava como Strategy Advisor na Unimed Nacional, responsável por inteligência de mercado e redesenho de jornadas de cuidado. Numa tarde silenciosa, atendi uma ligação que mudou meu jeito de enxergar clientes: 'Meu pai vai morrer esperando autorização', disse Mariana, filha de um paciente com câncer de pâncreas. Ela tinha conseguido meu contato por acaso. O exame custava R$ 340, mas o pedido estava parado há 12 dias. Quando desliguei, percebi que a falha não era operacional, era humana. Pacientes em tratamento oncológico enfrentavam a mesma burocracia que quem marcava uma consulta de rotina. E ninguém reclamava -- porque estavam tentando sobreviver.",
     t: "Mesmo com o escopo voltado para o planejamento estratégico, decidi assumir o problema. O desafio era criar uma jornada que antecipasse as necessidades dos pacientes antes que pedissem ajuda. Avaliei três alternativas: seguir os fluxos existentes, abrir um grupo de trabalho interáreas ou construir uma solução independente. Escolhi a última. Tracei metas objetivas: mapear completamente a jornada em 30 dias, criar um protocolo automático de priorização de casos críticos e reduzir o tempo médio de autorização de 12 para 2 dias úteis em até seis meses.",

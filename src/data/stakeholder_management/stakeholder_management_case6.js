@@ -4,7 +4,7 @@ const case_6 = {
   company: "Sicredi",
   period: "2018-2021",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
 
   pt: {
     s: `Em 2018, assumi como Product Strategist no Sicredi, a primeira instituio financeira cooperativa do Brasil, com 6,4 milhes de membros e R$ 263 bilhes em ativos. 

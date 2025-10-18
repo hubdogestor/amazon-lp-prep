@@ -5,7 +5,7 @@ const case_1 = {
   title_en: "Rebuilt trust after Pix outage through daily transparency rituals",
   company: "Sicredi Woop",
   period: "02/2020-06/2020",
-  isTopCase: true,
+  isTopCase: false,
   isGoodCase: true,
 
   pt: {

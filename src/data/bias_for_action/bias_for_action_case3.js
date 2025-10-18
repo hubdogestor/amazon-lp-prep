@@ -6,8 +6,8 @@ const case_3 = {
   title_en: "Launched Volta por Cima RS tax relief portal in 18 days after Taquari floods",
   company: "SEFAZ/RS",
   period: "09/2024-10/2024",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
 
   pt: {
     s: "Em setembro de 2024, o Vale do Taquari viveu a pior enchente em um século, paralisando mais de 30 mil contribuintes e afetando 15 municípios. Eu atuava como advisor do gabinete da CAGE, responsável por coordenar as frentes de tecnologia, fiscalização e atendimento da SEFAZ na resposta à calamidade. O governador decretou estado de emergência e exigiu que a Secretaria aliviasse a cobrança de tributos em 72 horas. O fluxo manual levaria quatro meses e causaria perda estimada de R$ 180 milhões em arrecadação, além do colapso de milhares de microempresas. Essa perda não era apenas financeira -- ameaçava a economia regional, a confiança dos contribuintes no Estado e a imagem do governo como capaz de reagir sob crise. Cada dia de atraso significava R$ 6,3 milhões em prejuízo e novas falências. Nesse cenário, meu papel era propor solução operacional em tempo recorde para evitar um colapso econômico local e político nacional.",

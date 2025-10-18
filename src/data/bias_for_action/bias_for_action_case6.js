@@ -6,8 +6,8 @@ const case_6 = {
   title_en: "Pivoted a 70%-complete SEFAZ project after Tax Reform and ensured sustainable delivery before 2025 transition",
   company: "SEFAZ/RS",
   period: "07/2024-03/2025",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
 
   pt: {
     s: "“Temos 72 horas para definir o rumo -- R$ 2,1 milhões já investidos estão em risco,” disse o secretário numa sexta-feira de julho de 2024, logo após sermos notificados pelos órgãos nacionais de que a Reforma Tributária, promulgada em dezembro de 2023, entraria em fase de transição em 2025 e vigência plena em 2026. Eu atuava como Advisor de Transformação Digital na SEFAZ/RS e acabara de assumir a governança do projeto de modernização do sistema de notas fiscais eletrônicas (NF-e). O projeto já estava 70 % concluído -- APIs estáveis, autenticação refatorada, e 60 % dos módulos de cálculo de ICMS migrados. A entrega pública estava prometida para dezembro, como vitrine da transformação digital do governo. O problema: as novas regras introduziriam IBS e CBS em substituição ao ICMS e ISS, tornando 40 % do código atual inviável. Paralisar significava perder investimentos; seguir sem adaptação geraria um sistema obsoleto antes de entrar em produção. A pressão era política, técnica e reputacional: cumprir prazos sem comprometer a credibilidade do Estado.",

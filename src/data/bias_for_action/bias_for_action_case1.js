@@ -6,7 +6,7 @@ const case_1 = {
   title_en: "Classified 126 Decisions as Reversible / Structural and Launched Digital Bank in 11 Months",
   company: "Bradesco Next",
   period: "07/2016-11/2017",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: true,
 
   pt: {

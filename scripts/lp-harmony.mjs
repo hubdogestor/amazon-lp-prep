@@ -67,6 +67,8 @@ class LPHarmonyAnalyzer {
       scores: {},
       rebalancing: []
     };
+    this.scoreCache = {}; // Cache para evitar recursão infinita
+    this.isCalculatingVersatility = false; // Flag para evitar recursão
   }
 
   // ═══════════════════════════════════════════════════════════════
@@ -141,9 +143,11 @@ class LPHarmonyAnalyzer {
      * A. RELEVÂNCIA CONCEITUAL (0-30 pontos)
      * Avalia se o case responde PERFEITAMENTE a pergunta
      */
-    const questionLower = question.q_pt.toLowerCase();
-    const caseTitleLower = caseData.title_pt.toLowerCase();
-    const caseStory = `${caseData.pt.s} ${caseData.pt.t} ${caseData.pt.a}`.toLowerCase();
+    // Suportar tanto objetos {q_pt, q_en} quanto strings simples
+    const questionText = typeof question === 'string' ? question : (question.q_pt || question);
+    const questionLower = questionText.toLowerCase();
+    const caseTitleLower = (caseData.title_pt || caseData.title || '').toLowerCase();
+    const caseStory = `${caseData.pt?.s || ''} ${caseData.pt?.t || ''} ${caseData.pt?.a || ''}`.toLowerCase();
 
     // Extrair palavras-chave da pergunta
     const keywords = this.extractKeywords(questionLower);
@@ -250,7 +254,8 @@ class LPHarmonyAnalyzer {
 
     let relevantCount = 0;
     let detailedCount = 0;
-    const questionKeywords = this.extractKeywords(question.q_pt.toLowerCase());
+    const questionText = typeof question === 'string' ? question : (question.q_pt || question);
+    const questionKeywords = this.extractKeywords(questionText.toLowerCase());
 
     for (const fup of fups) {
       const fupQuestion = fup.q.toLowerCase();
@@ -298,6 +303,12 @@ class LPHarmonyAnalyzer {
   // ═══════════════════════════════════════════════════════════════
 
   calculateVersatilityBonus(caseData) {
+    // Durante primeira passagem, usar estimativa baseada em mapping atual
+    // Isso evita recursão infinita
+    if (this.isCalculatingVersatility) {
+      return 0; // Retorna neutro durante recursão
+    }
+
     // Contar quantas perguntas esse case responde no LP
     const questionsAnswered = this.countQuestionsAnsweredByCase(caseData.id);
 
@@ -310,17 +321,13 @@ class LPHarmonyAnalyzer {
   }
 
   countQuestionsAnsweredByCase(caseId) {
+    // Usar mapping atual como base para evitar recursão
     let count = 0;
-    for (let i = 0; i < this.questions.length; i++) {
-      const question = this.questions[i];
-      const scoreData = this.calculateFinalScore(
-        this.cases.find(c => c.id === caseId),
-        question,
-        i + 1
+    for (const [qIndex, data] of Object.entries(this.currentMapping)) {
+      const hasCase = data.options?.some(opt =>
+        opt.caseId === caseId && opt.score >= CONFIG.ACCEPTABLE_THRESHOLD
       );
-      if (scoreData.final >= CONFIG.ACCEPTABLE_THRESHOLD) {
-        count++;
-      }
+      if (hasCase) count++;
     }
     return count;
   }

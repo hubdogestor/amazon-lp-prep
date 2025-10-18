@@ -6,8 +6,8 @@ const case_7 = {
   title_en: "Reduced chargebacks from 1.8% to 0.5% maintaining NPS at 81 with proactive resolution",
   company: "Sicredi",
   period: "02/2020-11/2020",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: "Fevereiro de 2020. Eu atuava como Head de Produtos Digitais no Sicredi, responsavel por plataforma de pagamentos que processava R$ 2.4 bilhoes mensais para 340 mil lojistas cooperados. Numa segunda-feira, CFO me convocou: 'Leonardo, nossa taxa de chargeback esta em 1.8% -- acima do limite de 1.5% das bandeiras. Se nao reduzir em 6 meses, perdemos credenciamento e R$ 340 milhoes em receita'. O problema era mais profundo que numeros. Analisei 6 meses de dados e descobri padrao preocupante: 73% dos chargebacks eram disputas legitimas de clientes insatisfeitos que nao conseguiram resolver com lojista. Nosso processo era reativo -- cliente insatisfeito ligava para banco, abria disputa, lojista perdia venda e pagava multa, relacionamento destruido. Cada chargeback custava em media R$ 340 em taxas + R$ 890 em venda perdida + dano reputacional incalculavel. Mais grave: 84% dos clientes que abriam chargeback nunca mais compravam do mesmo lojista. Estavam perdendo clientes por falta de dialogo, nao por fraude. Percebi que o problema nao era tecnico -- era humano. Precisavamos criar pontes antes que relacionamentos virassem disputas.",
     t: "Meu escopo cobria toda operacao de pagamentos, incluindo gestao de risco e experiencia de lojistas. Assumi ownership total porque vi que otimizar apenas para reduzir chargebacks via bloqueios criaria atrito com clientes -- e cliente satisfeito e ativo de longo prazo. O desafio era complexo: reduzir chargebacks de 1.8% para abaixo de 1% mantendo ou melhorando satisfacao tanto de compradores quanto de lojistas. Estabeleci 4 objetivos interligados: reduzir chargeback de 1.8% para <1% em 9 meses, manter NPS de compradores acima de 75, aumentar taxa de resolucao pre-chargeback de 12% para acima de 60%, e economizar minimo R$ 8M ao ano em custos operacionais. O prazo era critico -- 6 meses para mostrar resultados ou perderiamos credenciamento.",

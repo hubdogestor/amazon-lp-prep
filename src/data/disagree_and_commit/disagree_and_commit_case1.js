@@ -6,7 +6,7 @@ const case_1 = {
   company: "Unimed",
   period: "02/2023 - 10/2023",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: "No início de 2023, como Head de Inovação da Unimed, enfrentei um conflito estratégico. Estávamos 18% abaixo da meta de aquisição de clientes, e a diretoria comercial pressionava para dobrar o orçamento de marketing com uma campanha de cashback agressiva. Minha análise, no entanto, apontava para um problema mais grave: o churn mensal de clientes com mais de 24 meses havia subido para 3,6%, e nosso SAC registrava 41 mil reclamações sobre a falta de suporte digital. O impasse era claro: ceder à pressão por resultados de curto prazo ou defender, com base em dados, que cada ponto percentual de churn nos custava R$ 42 milhões em receita anualizada.",
     t: "Minha tarefa era resolver essa divergência de forma construtiva e baseada em fatos. Eu precisava demonstrar matematicamente o impacto financeiro do churn para a liderança, forçar uma decisão clara e bem fundamentada, e me comprometer a executar o plano decidido com excelência, independentemente de qual fosse. Assumi a responsabilidade total pelo resultado, fosse ele focado em aquisição, retenção ou um modelo híbrido.",

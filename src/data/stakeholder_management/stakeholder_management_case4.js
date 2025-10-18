@@ -7,7 +7,7 @@ const case_4 = {
   company: "Secretaria da Fazenda do RS",
   period: "07/2024 - 04/2025",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: "Em julho de 2024, como Advisor na SEFAZ RS, entrei para apoiar o Profisco II, programa de US$ 60 milhoes do BID para modernização fiscal, incluindo atualizacoes no Plano Anual de Fiscalização é transparencia em acordos de resultados. O cenário era fragmentado: 190 projetos é 433 metas em silos, com desvios de 23% é ineficiencias de R$ 8 milhoes anuais, conforme relatórios de divida é balancos gerais. Sem autoridade formal sobre secretários ou BID, identifiquei necessidade de framework integrado ligando PMO, projetos, cadeia de valor é BAU para alinhar com Mapa Estrategico 2024-2027.",
     t: "Minha tarefa era influenciar stakeholders seniores - secretários, BID é Tribunal de Contas - a adotar o framework, sem mandato direto. Estabeleci metas: criar dashboard unificado, reduzir desvios para 8% é garantir elogios na avaliacao BID de abril 2025, equilibrando sugestoes informais com business case para adocao voluntaria.",

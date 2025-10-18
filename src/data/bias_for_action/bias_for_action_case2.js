@@ -6,8 +6,8 @@ const case_2 = {
   title_en: "Broke 23-year cultural resistance and implemented ML in credit with 30% fewer rejections",
   company: "Sicredi",
   period: "03/2021-11/2021",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
 
   pt: {
     s: "Em março de 2021, atuando como Head de Produto Digital no Sicredi, enfrentei uma crise operacional e de reputação. O sistema de crédito rural acumulava 18 mil pedidos em backlog, perda de R$46 milhões por trimestre e taxa de abandono de 31%. O impacto ia além dos números: cooperados migravam para bancos digitais, e o mercado questionava a capacidade tecnológica do Sicredi. Internamente, o ambiente era de ceticismo -- 'crédito rural depende de relacionamento' era o mantra que sustentava 23 anos de operação manual. O diretor de risco, com três décadas de casa, alertou que barraria qualquer automação por medo de inadimplência. Eu era o responsável por destravar essa resistência, preservar segurança financeira e recuperar a imagem de modernidade do banco cooperativo.",

@@ -5,7 +5,7 @@ const case_1 = {
   title_en: "Invented 5G mechanism with Six Sigma playbook that reversed client-facing penalties",
   company: "Huawei LATAM",
   period: "03/2013-09/2014",
-  isTopCase: true,
+  isTopCase: false,
   isGoodCase: false,
   pt: {
     s: `Em 2013, eu era Product Manager de Network Optimization na Huawei LATAM, responsável pelo desempenho do rollout 4G em um dos contratos mais críticos da região. O cenário era grave: multas de R$ 2,7 milhões por trimestre, NPS de 51 caindo para 17 e cinco operadoras cogitando rescindir contratos.  

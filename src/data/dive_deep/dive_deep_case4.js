@@ -5,8 +5,8 @@ const case_4 = {
   title_en: "47% Reduction in PIX Payment Settlement Time",
   company: "Sicredi",
   period: "03/2020-08/2020",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
 
   pt: {
     s: `Quando assumi como Product Strategist de Pagamentos Digitais no Sicredi, o PIX estava prestes a ser lançado e um alerta urgente surgia: a liquidação média de pagamentos havia explodido para 4,2 horas - 40% acima do limite regulatório de 3 horas definido pelo Banco Central. Às 14h37 de uma terça-feira, recebi a ligação que todo PM teme: nosso maior merchant, responsável por R$2 milhões/mês, anunciou publicamente que deixaria a plataforma. O NPS havia despencado para 32 e a cooperativa tinha 60 dias para resolver o problema ou enfrentar multas pesadas e dano irreversível à reputação. O clima interno era de crise - engenharia e fraude se culpavam mutuamente, e ninguém possuía um mapa da latência de ponta a ponta.`,

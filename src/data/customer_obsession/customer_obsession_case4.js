@@ -6,8 +6,8 @@ const case_4 = {
   title_en: "Anticipated pet health need and created product before market expressed it",
   company: "Unimed Nacional",
   period: "01/2022-10/2022",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: "Lembro perfeitamente daquele dia. Era o início de 2022, eu atuava como Strategy Advisor na Unimed Nacional, responsável por inovação e criação de novos produtos. Em meio a relatórios extensos de sinistralidade, uma curiosidade me fez parar. Reparei que muitos beneficiários mencionavam seus animais de estimação durante consultas médicas ou psicológicas. Parecia irrelevante -- até eu ler expressões como 'meu cachorro está doente e não sei como pagar o veterinário' ou 'sinto tristeza desde que perdi meu gato'. Havia algo ali. Comecei a investigar. Nas bases de dados, um padrão invisível surgiu: famílias com pets tinham menos depressão e ansiedade, mas muito mais gastos emergenciais veterinários. Aquele era um ponto cego da saúde suplementar. O mercado ainda não percebia o problema. Eu sabia que estávamos prestes a abrir uma nova categoria antes mesmo de alguém pedir.",
     t: "Meu escopo envolvia inovação e análise de portfólio de produtos. Essa função me dava acesso direto às áreas de dados, precificação e parcerias. Ao confirmar o padrão, vi que adaptar planos humanos não resolveria o desafio: os modelos de risco eram distintos, as normas da ANS não cobriam veterinária, e a experiência de uso seria confusa. Concluir que precisávamos começar do zero foi natural. O desafio agora era provar que isso fazia sentido -- validar em 90 dias a hipótese de saúde integrada humano-pet, construir um MVP em seis meses e demonstrar ao conselho uma redução mensurável na sinistralidade humana.",

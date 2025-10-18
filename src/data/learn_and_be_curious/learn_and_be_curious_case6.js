@@ -5,8 +5,8 @@ const case_failure = {
   title_en: "Failed CVC launch, learned through DMAIC and created Vibee Unimed",
   company: "Unimed Nacional / Laçador Participações",
   period: "02/2023-12/2023",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
 
   pt: {
     s: "“Vocês nos fizeram perder dois meses. Estamos fora.” Esse e-mail, enviado por uma CEO de healthtech que eu havia selecionado pessoalmente, marcou minha primeira grande queda dentro da Unimed Nacional. Era julho de 2023. Eu havia convencido a diretoria a criar um Corporate Venture Capital (CVC) usando a holding Laçador Participações, acreditando que isso seria a ponte para inovação rápida e independente da burocracia cooperativista. O plano parecia impecável: realizar pitch days, conversar com 47 startups, selecionar três para pilotos e provar que a inovação podia acontecer com velocidade. Inicialmente tudo fluía, até que o fluxo travou completamente -- due diligence, NDAs e aprovações jurídicas que deveriam levar semanas se expandiram por meses. As três startups cancelaram sua participação. O impacto foi imediato: perdemos reputação como parceiro confiável, o ecossistema de startups passou a nos ver com desconfiança, e internamente minha credibilidade desabou. Descobri na prática que o tempo de uma startup não obedece à lógica do cooperativismo e que entusiasmo, sem estrutura e governança, gera frustração coletiva.",

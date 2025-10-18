@@ -6,7 +6,7 @@ const case_1 = {
   company: "HSBC",
   period: "05/2015 - 06/2016",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: "Em maio de 2015, como PMO Manager no HSBC Brasil, uma operação bancaria com mais de 5 milhoes de clientes é ativos de R$ 170 bilhoes, liderei a migração da operação para o Bradesco apos a aquisicao anunciada. O cenário era de alta pressao: a expectativa da industria é dos consultores externos era uma taxa de erro aceitavel de ate 0,05%, o que significaria perda de dados para ate 1.350 clientes em um portfolio de R$ 3 bilhoes que eu gerenciava diretamente. Para mim, cada um desses dados representava a vida financeira de uma pessoa real, como um cliente que dependia do historico de transacoes para disputas judiciais. Aceitar esse padrao minaria a confianca no momento mais critico da transicao, especialmente com reguladores como o Banco Central observando de perto.",
     t: "Minha tarefa, que assumi alem do meu escopo inicial é negociei diretamente com o diretor executivo, era redefinir o padrao de sucesso para a migração. Estabeleci um criterio muito mais alto: 'zero data loss', desafiando o benchmark da industria. Meu objetivo não era apenas gerenciar a transicao, mas criar mecanismos replicaveis que tornassem esse padrao realidade, equilibrando opcoes como aceitar erros minimos para cumprir prazos ou investir em prevencao total, mesmo que isso atrasasse fases é aumentasse custos iniciais, priorizando a integridade a longo prazo para clientes é o banco.",

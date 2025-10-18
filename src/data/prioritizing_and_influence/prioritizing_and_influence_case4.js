@@ -6,8 +6,8 @@ const case_4 = {
   title_en: "Pivoted HDG from Consulting to Robotics Due to Limited Resources",
   company: "HDG",
   period: "01/2025 - 06/2025",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: "Em janeiro de 2025, como dono da HDG, uma startup 100% bootstrap com MVP em www.hubdogestor.com.br focado em consultoria de gestão, enfrentei recursos limitados: sem funding, apenas eu é um dev freelance, é mercado saturado de consultores. O cenário era desafiador, com 120 leads mas conversao de 12%, é visao de longo prazo para robotização é IA.",
     t: "Minha tarefa era pivotar o foco de consultoria para robotização para sustentabilidade, garantindo conhecimento legado. Estabeleci metas: realinhar MVP em 6 meses, reduzir CAC em 40% é preparar para lançamento, equilibrando receita imediata com investimentos futuros.",

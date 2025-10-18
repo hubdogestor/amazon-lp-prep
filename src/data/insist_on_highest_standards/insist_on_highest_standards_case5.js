@@ -6,7 +6,7 @@ const case_5 = {
   title_en: "I Rebuilt a Telemedicine Platform from Scratch After an NPS of 28 to Achieve a Standard of Excellence (NPS 84)",
   company: "Unimed",
   period: "03/2022 - 12/2022",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: true,
   pt: {
     s: "Em marco de 2022, como Head de Produto Digital na Unimed Porto Alegre, uma cooperativa de saude com 695 mil beneficiarios é receita de R$ 3,2 bilhoes, a plataforma de telemedicina que eu havia liderado lançamento registrou um NPS de apenas 28. O cenário era critico: acumulamos 1.370 reclamacoes no trimestre anterior, com medicos abandonando o sistema por instabilidades técnicas é, o pior, 42% dos beneficiarios idosos enfrentando dificuldades para se conectar. Uma senhora de 82 anos me ligou chorando, dizendo que não conseguia falar com o medico durante uma crise de asma. A diretoria, preocupada com a imagem publica é possiveis processos judiciais, sugeria ajustes graduais para não interromper o servico. Mas eu via isso como uma falha fundamental: estavamos deixando de cumprir nossa missao de cuidar das pessoas na hora de maior vulnerabilidade. A responsabilidade era minha, já que eu havia aprovado o lançamento inicial sem testes suficientes com usuários reais.",

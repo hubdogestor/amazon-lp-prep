@@ -5,7 +5,7 @@ const case_2 = {
   title_en: "I raised the SEFAZ governance standard, shifting the focus from deliverables to citizen value",
   company: "Secretaria da Fazenda do RS",
   period: "07/2024 - 05/2025",
-  isTopCase: true,
+  isTopCase: false,
   isGoodCase: false,
   pt: {
     s: "Em julho de 2024, como Advisor para o Gabinete Executivo da SEFAZ RS, uma secretaria responsável pela gestão fiscal é arrecadacao de um estado com orçamento anual de R$ 50-100 milhoes em projetos de TI, assumi em meio a uma crise de governanca no programa Profisco II, financiado pelo BID. Encontrei um portfolio de 74 projetos com 63% de desvio orcamentario é atrasos medios de seis meses, onde o padrao de sucesso era apenas entregar software, mesmo sem gerar valor real, como certidoes fiscais que ainda levavam 10 dias para emissao, impactando cidadaos é empresas. Apos analisar 12 auditorias do BID, quantifiquei uma perda anual de R$ 38 milhoes por ma governanca, incluindo ineficiencias operacionais é overruns. Esse padrao era visto como normal no setor publico, mas para mim, era inaceitavel, já que falhava em cumprir a missao de sustentabilidade fiscal é transparencia.",

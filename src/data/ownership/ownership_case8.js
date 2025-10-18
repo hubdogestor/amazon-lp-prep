@@ -6,7 +6,7 @@ const case_8 = {
   company: "Bradesco",
   period: "Q2 2018",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: "Março de 2018, a contagem regressiva para o lançamento do Bradesco Next havia começado. Eu atuava como Product Manager responsável pelas integrações de pagamento -- a frente que conectava o novo banco digital ao Serasa, SPC e instituições parceiras. O contexto era de alta visibilidade: o CEO havia prometido à imprensa um lançamento no dia 28 de abril, e a concorrência, liderada pelo Nubank (NPS 92), pressionava por velocidade. Três semanas antes do code freeze, meu time me informou que o módulo da Serasa estava apenas 60 % concluído, quando eu já havia comunicado 85 % ao board. Em uma reunião executiva, o CTO foi direto: “Leonardo, você garantiu que abril era viável. O CEO já anunciou o prazo. Onde você errou?” A resposta estava na projeção: eu havia subestimado o impacto do mutual TLS, dos retries assíncronos e da burocracia para homologação regulatória da Serasa.",
     t: "Meu escopo formal incluía planejamento e priorização técnica de integrações de pagamento, mas, diante de um erro de estimativa que ameaçava um lançamento estratégico, precisei assumir publicamente a responsabilidade e restaurar a confiança do C-level. Meu objetivo deixou de ser cumprir um prazo e passou a ser restabelecer credibilidade e criar um mecanismo que protegesse projetos futuros contra erros similares.",

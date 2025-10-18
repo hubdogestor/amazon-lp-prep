@@ -7,7 +7,7 @@ const case_2 = {
   company: "Unimed",
   period: "08/2021-12/2023",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: "Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações é transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presidente do conselho foi direto: “Mais dois anos assim é teremos que fechar cooperativas”. O EBITDA estava estagnado em R$ 320 milhões há dois anos, a sinistralidade em 83 %, o churn digital em 40 %, é 17 iniciativas desconectadas sem dono único. O prazo: 24 meses para reverter o cenário ou ver até cinco cooperativas fecharem -- colocando 12 mil vidas é a história da organização em risco.",
     t: "Diante desse ultimato é da responsabilidade de unificar áreas diversas, assumi a virada como missão pessoal é profissional. Decidi que não atacaria sintomas com cortes lineares, mas interviria nos verdadeiros drivers do EBITDA. Meu papel era liderar múltiplos workstreams com times médicos, financeiros é digitais, traduzindo métricas em decisões de produto é operação. O objetivo: transformar EBITDA estagnado em crescimento sustentável, construindo sistemas que sustentassem resultados mesmo sem a minha presença.",

@@ -6,8 +6,8 @@ const case_6 = {
   title_en: "Balanced fraud prevention with customer experience reducing false positives by 78%",
   company: "Sicredi",
   period: "08/2019-05/2020",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: "Agosto de 2019. Eu atuava como Head de Produtos Digitais no Sicredi, responsavel por estrategia, seguranca e experiencia de mais de 4.2 milhoes de cooperados. Uma manha recebi ligacao furiosa de Dona Helena, 67 anos, cooperada ha 34 anos: 'Bloquearam minha conta enquanto eu estava no supermercado. Passei vergonha na fila. Depois de 34 anos, voces acham que eu sou ladrao?' O bloqueio foi automatico -- nosso sistema anti-fraude detectou transacao de R$ 340 em horario atipico e travou tudo. Era uma compra legitima. Essa ligacao me fez mergulhar nos dados. Descobri que nosso sistema anti-fraude bloqueava 42% das transacoes suspeitas, mas 67% desses bloqueios eram falsos positivos -- clientes reais tratados como criminosos. Cada bloqueio indevido gerava em media 8 tentativas de contato, 3.2 horas de frustracao e 23% de chance de churn nos proximos 90 dias. Enquanto isso, fraude real custava R$ 18 milhoes por ano. O desafio era claro: proteger cooperados sem trata-los como suspeitos. Precisavamos equilibrar seguranca e dignidade.",
     t: "Meu escopo como Head de Produtos cobria toda a plataforma digital, incluindo seguranca e experiencia. Assumi ownership total do problema porque percebi que otimizar apenas para seguranca estava destruindo confianca -- e confianca e o fundamento de uma cooperativa. O desafio era redesenhar o sistema anti-fraude para reduzir fraude real mantendo experiencia dos cooperados legitimos. Estabeleci tres objetivos audaciosos: reduzir fraude de R$ 18M para menos de R$ 6M ao ano, reduzir falsos positivos de 67% para menos de 15%, e aumentar NPS de cooperados afetados por bloqueios de 12 para acima de 70. Tinha 9 meses para entregar.",

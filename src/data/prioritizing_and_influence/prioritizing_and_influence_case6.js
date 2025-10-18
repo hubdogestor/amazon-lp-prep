@@ -5,7 +5,7 @@ const case_6 = {
   company: "Bradesco / Banco Next",
   period: "09/2017-03/2018",
   role: "Product Manager / MVP Lead",
-  isTopCase: true,
+  isTopCase: false,
   pt: {
     s: "Em setembro de 2017, assumi como Product Manager e líder de MVP do Bradesco Next, banco digital do grupo. A diretoria planejava um lançamento com 47 funcionalidades — “paridade com Nubank e diferenciais Bradesco” — para ser concluído em 10 meses. Ao reavaliar o escopo, percebi que as 47 features levariam 14 meses e que 28 delas (60%) tinham impacto mínimo na adoção. O cenário era ambíguo: C‑level pressionava por completude, não havia benchmark interno e a cultura associava “menos escopo” a “menor qualidade”. Identifiquei que para influenciar sem autoridade formal eu precisaria equilibrar três frentes — evidências de mercado, voz do cliente e esforço técnico — traduzi-las em valor de negócio e conectar tudo à urgência competitiva do Nubank.",
     t: "Meu desafio era transformar essa ambiguidade em decisão estratégica tangível. Precisava priorizar o essencial e influenciar stakeholders acostumados a projetos longos e detalhados. Decidi estruturá‑la em torno de duas perguntas: quais funcionalidades realmente movem adoção e qual custo financeiro o atraso traria. O objetivo era mudar a conversa de 'escopo completo' para 'crescimento acelerado'.",

@@ -8,8 +8,8 @@ const case_3 = {
   period: "01/2014-07/2014",
   role: "Program & PMO Manager",
   context: "FIFA World Cup 2014 Telecom Rollout",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: "Em janeiro de 2014, seis meses antes da Copa do Mundo no Brasil, a situação era crítica. Como Program Manager na Huawei, eu liderava a 'War Room' do PMO, responsável por entregar a infraestrutura completa de telecom para os 12 estádios. O ambiente era de máxima incerteza: tínhamos 30 gerentes de projeto e mais de 20 fornecedores em campo, mas enfrentávamos diariamente problemas logísticos, técnicos e regulatórios que surgiam de forma imprevisível em 12 cidades simultaneamente. A equipe estava sob imensa pressão, com moral em queda, pois o cronograma parecia impossível de cumprir. A ambiguidade não era sobre 'o que' fazer, mas 'como' executar em meio ao caos sem paralisar o time com a ansiedade.",
     t: "Minha tarefa ia além de gerenciar o cronograma; eu precisava criar um ecossistema de alta performance que transformasse a incerteza de obstáculo em combustível para a ação. Meu objetivo era claro: blindar a equipe da paralisia, manter todos focados e produtivos e garantir 100% de conectividade nos estádios no dia de abertura, um prazo absolutamente inegociável. A falha não era uma opção, pois impactaria a imagem da Huawei e do próprio país.",
