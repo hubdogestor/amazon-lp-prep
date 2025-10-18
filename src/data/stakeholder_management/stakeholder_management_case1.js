@@ -1,18 +1,18 @@
 // Case 1 - think_big
 const case_1 = {
   id: "huawei-global-rollout",
-  title_pt: "Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Huawei",
+  title_pt: "Transformação do Modelo de Rollout no Brasil que se Tornou Padrão Global na Huawei",
   title_en: "Global Rollout Model Transformation at Huawei - From Brazil to Worldwide Standard",
   company: "Huawei",
   period: "01/2012--06/2023",
   isTopCase: false,
   isGoodCase: false,
   pt: {
-    s: "O desafio começou quando situação — Em 2012, eu recebi a missão de normalizar o rollout de sites 4G da Huawei no Brasil. O SLA era de 382 dias por site, 4x pior que a meta global, e os diretores locais estavam conformados em buscar apenas um ajuste marginal de 10%. Esse pensamento pequeno condenaria a operação brasileira a atrasar o lançamento de R$1,9B em receitas contratadas e, pior, mantinha 14 países presos a soluções manuais semelhantes.",
-    t: "Tarefa — Oficialmente, eu deveria entregar um plano incremental para o Brasil. Eu me auto-impus um desafio maior: redesenhar um motor de rollout replicável globalmente que reduzisse o prazo em 70% e criasse novos mecanismos de governança que qualquer região pudesse operar. Para conseguir aprovação, eu precisava provar que o Brasil podia ser laboratório de uma transformação mundial sem comprometer compliance regulatório e margem.",
-    a: "Ação — Eu atuei como owner único ao longo de 18 meses. Primeiro, estruturei um piloto agressivo em São Paulo, mapeando 127 gargalos e priorizando 19 alavancas que somavam 220 dias de desperdício. Para vencer o ceticismo do VP LatAm (que pediu \"foco local\"), eu construí um business case que mostrava R$480M de valor presente líquido se o modelo virasse padrão global. Em seguida, criei o Rollout Excellence Playbook (52 páginas) com módulos universais e checklists de localização por país. Para acelerar execução, implantei o Vendor Performance Index: fornecedores com eficiência >95% recebiam 30% mais volume; os que ficavam abaixo tinham coaching forçado. Para sustentar visibilidade, codifiquei o war room global com dashboards diários (Power BI + SMS) que enviavam alertas quando um site ficava 12 horas fora do plano. Quando o CFO Ásia resistiu a congelar US$6M para replicação, eu trouxe um case comparativo: mostrei que cada mês de atraso em território norte-americano custaria US$18M em atraso de revenue recognition. O argumento econômico derrubou a objeção.",
-    r: "Resultado — No Brasil, o lead time caiu de 382 para 62 dias (-84%), liberando 1.136 sites em 2014 e antecipando R$1,1B em receita. O modelo provou escalabilidade: em 2015-2016 foi implantado em 12 países e, após minha apresentação no Global PMO Summit de 2017, virou padrão em 54 operações. Em 2023, a controladoria confirmou que o mecanismo continua ativo: média global de rollout estabilizada em 58 dias, saving acumulado de US$120M (US$80M em revenue antecipado, US$25M em renegociação com fornecedores, US$15M em rework evitado). O Net Promoter interno com operadoras subiu de 41 para 68 e o índice de SLA crítico (<72h para correção de falhas) saltou de 42% para 91%.",
-    l: "Lição — Pensar grande significou desenhar mecanismos globais desde o primeiro piloto, não apenas um remendo local. Aprendi que toda vez que eu recuso soluções \"pequenas\" e conecto uma dor específica a um sistema escalável, eu multiplico impacto e crio padrões que sobrevivem à minha presença. Hoje, toda transformação que lidero começa perguntando: \"qual versão global e duradoura dessa solução eu posso construir já no MVP?\"."
+    s: "Em 2012, recebi a missão de normalizar o rollout de sites 4G da Huawei no Brasil. O SLA era de 382 dias por site, 4x pior que a meta global, e os diretores locais estavam conformados em buscar apenas um ajuste marginal de 10%. Esse pensamento pequeno condenaria a operação brasileira a atrasar o lançamento de R$1,9B em receitas contratadas e, pior, mantinha 14 países presos a soluções manuais semelhantes.",
+    t: "Oficialmente, eu deveria entregar um plano incremental para o Brasil. Eu me auto-impus um desafio maior: redesenhar um motor de rollout replicável globalmente que reduzisse o prazo em 70% e criasse novos mecanismos de governança que qualquer região pudesse operar. Para conseguir aprovação, eu precisava provar que o Brasil podia ser o laboratório de uma transformação mundial sem comprometer o compliance regulatório e a margem.",
+    a: "Eu atuei como owner único ao longo de 18 meses. Primeiro, estruturei um piloto agressivo em São Paulo, mapeando 127 gargalos e priorizando 19 alavancas que somavam 220 dias de desperdício. Para vencer o ceticismo do VP LatAm (que pediu \"foco local\"), eu construí um business case que mostrava R$480M de valor presente líquido se o modelo virasse padrão global. Em seguida, criei o Rollout Excellence Playbook (52 páginas) com módulos universais e checklists de localização por país. Para acelerar a execução, implantei o Vendor Performance Index: fornecedores com eficiência >95% recebiam 30% mais volume, enquanto os que ficavam abaixo tinham coaching forçado. Para sustentar a visibilidade, codifiquei o war room global com dashboards diários (Power BI + SMS) que enviavam alertas quando um site ficava 12 horas fora do plano. Quando o CFO da Ásia resistiu a congelar US$6M para a replicação, eu trouxe um case comparativo: mostrei que cada mês de atraso em território norte-americano custaria US$18M em atraso de revenue recognition. O argumento econômico derrubou a objeção.",
+    r: "No Brasil, o lead time caiu de 382 para 62 dias (-84%), liberando 1.136 sites em 2014 e antecipando R$1,1B em receita. O modelo provou sua escalabilidade: em 2015-2016 foi implantado em 12 países e, após minha apresentação no Global PMO Summit de 2017, virou padrão em 54 operações. Em 2023, a controladoria confirmou que o mecanismo continua ativo: média global de rollout estabilizada em 58 dias, saving acumulado de US$120M (US$80M em receita antecipada, US$25M em renegociação com fornecedores, US$15M em rework evitado). O Net Promoter Score interno com operadoras subiu de 41 para 68 e o índice de SLA crítico (<72h para correção de falhas) saltou de 42% para 91%.",
+    l: "Pensar grande significou desenhar mecanismos globais desde o primeiro piloto, não apenas um remendo local. Aprendi que toda vez que eu recuso soluções \"pequenas\" e conecto uma dor específica a um sistema escalável, eu multiplico o impacto e crio padrões que sobrevivem à minha presença. Hoje, toda transformação que lidero começa com a pergunta: \"qual versão global e duradoura dessa solução eu posso construir já no MVP?\"."
   },
   en: {
     s: "The challenge began when situation — In 2012 I was tasked with normalizing Huawei's 4G rollout in Brazil. SLA sat at 382 days per site, 4x worse than the global goal, and local directors were satisfied with a modest 10% improvement. That small thinking would postpone BRL 1.9B in contracted revenue and keep 14 countries locked into similar manual bottlenecks.",
@@ -25,38 +25,38 @@ const case_1 = {
     // --- 6 PERGUNTAS OBRIGATÓRIAS ---
     {
       q: "Qual foi seu maior erro ou falha neste caso?",
-      a: "Subestimei a resistência política inicial dos diretores locais que estavam confortáveis com metas incrementais. Perdi 6 semanas convencendo quando deveria ter envolvido o VP Global desde o início para criar pressão top-down. Isso atrasou o piloto e quase comprometeu o business case.",
+      a: "Meu maior erro foi subestimar a resistência política inicial dos diretores locais, que estavam confortáveis com metas incrementais. Perdi 6 semanas tentando convencê-los, quando deveria ter envolvido o VP Global desde o início para criar pressão top-down. Isso atrasou o piloto e quase comprometeu o business case.",
       q_en: "What was your biggest mistake or failure in this case?",
-      a_en: "I underestimated initial political resistance from local directors comfortable with incremental goals. Lost 6 weeks convincing when I should have involved Global VP early to create top-down pressure. This delayed pilot and nearly compromised business case."
+      a_en: "My biggest mistake was underestimating the initial political resistance from local directors comfortable with incremental goals. I lost 6 weeks convincing them when I should have involved the Global VP early to create top-down pressure. This delayed the pilot and nearly compromised the business case."
     },
     {
       q: "O que você faria diferente hoje?",
-      a: "Construiria coalizão executiva global desde o dia 1, não após o piloto. Envolveria CFO, VP Global e leads de 3 regiões-chave no workshop inicial de design, criando ownership compartilhado e acelerando aprovação de CAPEX em pelo menos 2 meses.",
+      a: "Hoje, eu construiria uma coalizão executiva global desde o dia 1, não após o piloto. Envolveria o CFO, o VP Global e líderes de 3 regiões-chave no workshop inicial de design, criando ownership compartilhado e acelerando a aprovação de CAPEX em pelo menos 2 meses.",
       q_en: "What would you do differently today?",
       a_en: "Would build global executive coalition from day 1, not after pilot. Would involve CFO, Global VP and leads from 3 key regions in initial design workshop, creating shared ownership and accelerating CAPEX approval by at least 2 months."
     },
     {
-      q: "Qual foi o obstáculo mais difícil de superar?",
+      q: "Qual foi o obstáculo mais difícil de superar que você enfrentou?",
       a: "Convencer o CFO Ásia a congelar US$6M para replicação quando ele priorizava 5G. Precisei apresentar análise de sensibilidade mostrando US$18M/mês de receita perdida em atraso 4G e trazer testemunho do CEO LatAm sobre perda de market share. Levou 3 semanas de negociação intensa.",
-      q_en: "What was the hardest obstacle to overcome?",
+      q_en: "What was the hardest obstacle to overcome that you faced?",
       a_en: "Convincing Asia CFO to freeze US$6M for replication when he prioritized 5G. Had to present sensitivity analysis showing US$18M/month revenue loss from 4G delays and bring LatAm CEO testimony on market share loss. Took 3 weeks of intense negotiation."
     },
     {
       q: "Quais foram os principais riscos e como você os mitigou?",
-      a: "1) Congelamento de 48 projetos críticos: criei buffers contratuais com operadoras; 2) Sobrecarga de CAPEX: estruturei co-investimento 40/60 com regiões; 3) Resistência dos fornecedores: lancei Vendor Performance Index com incentivo econômico (+30% volume para top performers); 4) Perda de compliance: matriz de 86 requisitos regulatórios com trilha de auditoria digital.",
+      a: "Os principais riscos eram: 1) Congelamento de 48 projetos críticos, que mitiguei com buffers contratuais; 2) Sobrecarga de CAPEX, resolvida com um modelo de co-investimento 40/60 com as regiões; 3) Resistência dos fornecedores, superada com o Vendor Performance Index; 4) Risco de compliance, gerenciado com uma matriz de 86 requisitos regulatórios e auditoria digital.",
       q_en: "What were the main risks and how did you mitigate them?",
       a_en: "1) Freezing 48 critical projects: created contractual buffers with carriers; 2) CAPEX overload: structured 40/60 co-investment with regions; 3) Vendor pushback: launched Vendor Performance Index with economic incentive (+30% volume for top); 4) Compliance loss: 86-requirement regulatory matrix with digital audit trail."
     },
     {
       q: "Que dados você usou e qual foi a racional de cálculo?",
-      a: "Mapeei 127 gargalos no piloto São Paulo e priorizei 19 alavancas que somavam 220 dias de desperdício. Comparei 12 indicadores before/after (lead time, aprovação 1ª inspeção, custo/torre, backlog licenças, NPS operadora). Calculei NPV de BRL 480M para rollout global vs local, com payback de 11 meses. ROI final: US$120M acumulado (2014-2023).",
+      a: "Mapeei 127 gargalos no piloto de São Paulo e priorizei 19 alavancas que somavam 220 dias de desperdício. Comparei 12 indicadores antes e depois (lead time, aprovação na 1ª inspeção, custo/torre, etc.). Calculei um NPV de R$480M para o rollout global vs. local, com payback de 11 meses. O ROI final acumulado foi de US$120M.",
       q_en: "What data did you use and what was your calculation rationale?",
       a_en: "Mapped 127 bottlenecks in São Paulo pilot and prioritized 19 levers worth 220 wasted days. Compared 12 before/after indicators (lead time, first-pass approval, cost/tower, license backlog, carrier NPS). Calculated BRL 480M NPV for global vs local rollout, 11-month payback. Final ROI: US$120M cumulative (2014-2023)."
     },
     {
-      q: "Como você usou o aprendizado deste caso em outros contextos?",
+      q: "Como você usou o aprendizado desse caso em outras frentes / trabalhos?",
       a: "O Rollout Excellence Playbook virou padrão em 54 operações Huawei globalmente. Repliquei a lógica de co-investimento regional em 3 programas de transformação digital (pagamentos, CRM, supply chain), sempre ancorando sustentabilidade em auditorias semestrais + comunidade de práticas. Redução média de cycle time de 40% nesses programas.",
-      q_en: "How did you use the learning from this case in other contexts?",
+      q_en: "How did you use the learning from this case in other fronts / works?",
       a_en: "Rollout Excellence Playbook became standard across 54 Huawei operations globally. Replicated regional co-investment logic in 3 digital transformation programs (payments, CRM, supply chain), always anchoring sustainability in semiannual audits + community of practice. Average 40% cycle time reduction in those programs."
     },
     // --- FUPs COMPLEMENTARES ---
@@ -91,12 +91,6 @@ const case_1 = {
       a_en: "I structured co-investment: regions funded 40% of CAPEX and HQ matched 60% contingent on adoption targets. It released US$6M without breaking local budgets and locked in subsidiary commitment."
     },
     {
-      q: "Que tipo de conflito você teve com o CFO Ásia e como venceu?",
-      a: "Ele bloqueou o CAPEX de replicação alegando prioridade 5G. Eu rodei análise de sensibilidade mostrando que atrasar rollout 4G em mercados maduros custaria US$18M/mês em receita. Também trouxe depoimento do CEO LatAm relatando perda de market share. O CFO liberou verba em 48h.",
-      q_en: "What conflict did you face with the Asia CFO and how did you win it?",
-      a_en: "He froze replication CAPEX citing 5G priorities. I ran sensitivity showing each month of 4G delay in mature markets burned US$18M revenue, plus a testimonial from the LatAm CEO about market share loss. He released the funds within 48 hours."
-    },
-    {
       q: "Como você garantiu compliance simultâneo em 14 países diferentes?",
       a: "Eu criei uma matriz de 86 requisitos regulatórios por região, contratei escritórios locais por sprint crítica e estabeleci trilha de auditoria digital assinada pelo jurídico. Resultado: zero não conformidades nas inspeções de 2014-2023.",
       q_en: "How did you ensure compliance across 14 different countries?",
@@ -113,12 +107,6 @@ const case_1 = {
       a: "Eu formei quatro líderes regionais, cada um com OKR de replicar o playbook em dois novos países por semestre. Também criei academy virtual com 12 módulos microlearning. Mesmo após minha saída em 2018, a cadência de rollout seguiu dentro do target de 60 dias.",
       q_en: "How did you prepare succession so the model kept running without you?",
       a_en: "I trained four regional leads, each with an OKR to replicate the playbook in two new countries per semester. I also launched a 12-module microlearning academy. After I left in 2018, rollout cadence stayed within the 60-day target."
-    },
-    {
-      q: "Qual foi o maior risco que você assumiu e como mitigou?",
-      a: "Eu pautei o congelamento temporário de 48 projetos críticos para redesenhar fluxos, o que poderia atrasar receitas. Para mitigar, criei buffers contratuais com as operadoras e garanti que qualquer atraso acima de 7 dias geraria crédito automático. Nenhuma multa foi aplicada.",
-      q_en: "What was the biggest risk you took and how did you mitigate it?",
-      a_en: "I froze 48 critical projects to redesign flows, risking revenue delays. To mitigate I negotiated contractual buffers with carriers and ensured any delay beyond 7 days triggered automatic credits. No penalties were applied."
     }
   ]
 };
