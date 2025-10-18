@@ -7,7 +7,8 @@
       "Bash(do echo \"=== $dir ===\")",
       "Bash(ls:*)",
       "Bash(python analyze_project_state.py:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(npm run dev:*)"
     ],
     "deny": [],
     "ask": []
