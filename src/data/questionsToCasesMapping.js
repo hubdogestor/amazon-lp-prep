@@ -2320,16 +2320,12 @@ export const questionsToCasesMapping = {
     "3": {
       "options": [
         {
+          "caseId": "sefaz-roadmap-adjustment-reforma-tributária",
+          "score": 98
+        },
+        {
           "caseId": "sefaz-profisco-ii-program",
-          "score": 95
-        },
-        {
-          "caseId": "hsbc-migration-leadership",
-          "score": 92
-        },
-        {
-          "caseId": "sefaz-pmo-creation",
-          "score": 88
+          "score": 90
         }
       ]
     },
@@ -2384,16 +2380,16 @@ export const questionsToCasesMapping = {
     "7": {
       "options": [
         {
+          "caseId": "unimed-cvc-cancellation",
+          "score": 98
+        },
+        {
           "caseId": "hsbc-migration-leadership",
           "score": 95
         },
         {
           "caseId": "sefaz-profisco-ii-program",
           "score": 92
-        },
-        {
-          "caseId": "sefaz-pmo-creation",
-          "score": 85
         }
       ]
     },
@@ -2448,16 +2444,16 @@ export const questionsToCasesMapping = {
     "11": {
       "options": [
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 95
+          "caseId": "sicredi-woop-delay-communication",
+          "score": 98
         },
         {
-          "caseId": "sefaz-pmo-creation",
-          "score": 92
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 90
         },
         {
           "caseId": "hsbc-migration-leadership",
-          "score": 88
+          "score": 85
         }
       ]
     },

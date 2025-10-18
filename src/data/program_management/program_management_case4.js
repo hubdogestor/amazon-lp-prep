@@ -6,7 +6,7 @@ const case_4 = {
   title_en: "Canceled the CVC Program at Lacador Participações Due to Management Change",
   company: "Unimed",
   period: "01/2022 - 06/2022",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: true,
   pt: {
     s: "Em janeiro de 2022, como Group Product Manager na Unimed, eu liderei a estruturacao de um programa de Corporate Venture Capital (CVC) na holding Lacador Participações. O objetivo era investir em healthtechs para acelerar a inovacao, com um orçamento aprovado de R$ 20 milhoes. O cenário era complexo devido ao modelo de governanca da cooperativa, com mandatos de gestão pre-determinados de 4 anos. Aprovamos o programa sob uma gestão, mas uma troca iminente no conselho representava um risco significativo, pois novos membros poderiam ter prioridades diferentes, ameacando a continuidade da iniciativa.",
