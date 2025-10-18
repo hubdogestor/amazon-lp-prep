@@ -82,10 +82,10 @@ Thisshiftfromdatatomeaningprovedhowbridginginnovationlanguagewithtangibleimpactc
       a_en: "I would establish a council of elders from the start, leveraging their moral authority to accelerate acceptance."
     },
     {
-      q: "Qual foi o obstculo mais difcil de superar?",
-      a: "A falta de autoridade formal sobre as cooperativas regionais  precisei construir influncia com base em relacionamento e resultados comprovados.",
+      q: "Qual foi o obstáculo mais difícil de superar?",
+      a: "A falta de autoridade formal sobre as cooperativas regionais — precisei construir influência com base em relacionamento e resultados comprovados.",
       q_en: "What was the most difficult obstacle to overcome?",
-      a_en: "The absence of formal authority over regional cooperatives  I built influence through trust and demonstrable results."
+      a_en: "The absence of formal authority over regional cooperatives — I built influence through trust and demonstrable results."
     },
     {
       q: "Quais foram os principais riscos e como voc os mitigou?",
@@ -94,8 +94,8 @@ Thisshiftfromdatatomeaningprovedhowbridginginnovationlanguagewithtangibleimpactc
       a_en: "Risks of fragmentation and passive resistance were mitigated through radical transparency, public recognition, and healthy competition."
     },
     {
-      q: "Que dados voc usou e qual foi a racional de clculo?",
-      a: "Usei dados de adoo, NPS segmentado e ROI por feature, quantificando ganhos por reduo de custos operacionais e aumento de receita entre membros digitais.",
+      q: "Que dados você usou e qual foi a racional de cálculo?",
+      a: "Usei dados de adoção, NPS segmentado e ROI por feature, quantificando ganhos por redução de custos operacionais e aumento de receita entre membros digitais.",
       q_en: "What data did you use and what was the calculation rationale?",
       a_en: "I combined adoption, segmented NPS, and ROI per feature, quantifying benefits via reduced operational costs and revenue growth per digital member."
     },
