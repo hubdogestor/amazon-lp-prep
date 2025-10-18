@@ -6,7 +6,7 @@ const case_4 = {
   title_en: "Turned e-CAGE into a Portal with 94% SLA Compliance and 100% Adoption",
   company: "SEFAZ/RS",
   period: "08/2024-11/2024",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: true,
   pt: {
     s: "Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secretarias caíra para 30, e a opinião pública pressionava por transparência. Precisávamos recuperar governança sem interromper o serviço público.",

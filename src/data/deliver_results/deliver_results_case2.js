@@ -6,7 +6,7 @@ const case_2 = {
   title_en: "Transformed Stagnant EBITDA into 22% Growth by Attacking Three Key Inputs",
   company: "Unimed",
   period: "08/2021-12/2023",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: true,
   pt: {
     s: "Agosto de 2021. Eu havia acabado de assumir como Group Product Manager responsável pela integração entre produto, operações e transformação digital em toda a Unimed. Entrei no meio de uma crise que ameaçava o sistema cooperativo após 80 anos de existência. Durante uma reunião de emergência, o presidente do conselho foi direto: “Mais dois anos assim e teremos que fechar cooperativas”. O EBITDA estava estagnado em R$ 320 milhões há dois anos, a sinistralidade em 83 %, o churn digital em 40 %, e 17 iniciativas desconectadas sem dono único. O prazo: 24 meses para reverter o cenário ou ver até cinco cooperativas fecharem -- colocando 12 mil vidas e a história da organização em risco.",

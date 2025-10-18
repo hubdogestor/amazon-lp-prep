@@ -5,7 +5,7 @@ const case_5 = {
   title_en: "Missed Pix Deadline Due to Poor Priority Management: Owned It, Learned, and Recovered in 60 Days",
   company: "Sicredi",
   period: "03/2020-09/2020",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: true,
   pt: {
     s: `"Não vamos conseguir entregar." A frase que pronunciei em setembro de 2020 congelou a sala de diretoria do Sicredi. Como Product Owner responsável por coordenar 5 squads e entregar o Pix até 16 de novembro, eu havia falhado. Testes de carga revelaram que o sistema suportava apenas 120 TPS contra os 450 TPS exigidos pelo Banco Central, tínhamos 17 casos de borda de fraude sem tratamento e perderiamos o deadline por 3 semanas. O Pix representava revolução na experiência de pagamento para 4,5 milhões de cooperados: transferências instantâneas 24/7 gratuitas vs. TED/DOC que custavam R$ 15-25 e levavam 24-48h. Enquanto isso, concorrentes como Nubank, Inter e Banco do Brasil já ofereciam o serviço. Eu havia subestimado a complexidade das integrações e confiado demais nas estimativas otimistas das squads.`,
