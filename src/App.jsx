@@ -171,7 +171,6 @@ export default function App() {
     handleSearchResultSelect('typical', payload, savedSearchWords);
   }, [handleSearchResultSelect]);
 
-  const t = TEXTS[language];
   const rawPrinciplesData = usePrinciplesData();
   const principlesData = useMemo(() => {
     return sortPrinciples(rawPrinciplesData, language);
@@ -484,7 +483,6 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Cabeçalho Fixo */}
       <Header
-        t={t}
         language={i18n.language}
         setLanguage={i18n.changeLanguage}
         searchTerm={searchTerm}
