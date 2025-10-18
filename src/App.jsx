@@ -32,6 +32,7 @@ import CaseSearchResults from "./components/search/CaseSearchResults.jsx";
 import FupSearchResults from "./components/search/FupSearchResults.jsx";
 import TypicalQuestionSearchResults from "./components/search/TypicalQuestionSearchResults.jsx";
 import HeaderTimer from "./components/layout/HeaderTimer.jsx";
+import { loopingGroups, getPrinciplesForLooping } from "./config/loopingGroups.js";
 
 // ---------- Labels & Ordem ----------
 const getDisplayName = getPrincipleDisplayName;
@@ -96,6 +97,7 @@ export default function App() {
   const [language, setLanguage] = useState("pt");
   const [isSearching, setIsSearching] = useState(false);
   const [copiedCaseId, setCopiedCaseId] = useState(null);
+  const [selectedLooping, setSelectedLooping] = useState(null); // null = "All"
 
   // Use debounced search for better performance
   const debouncedSearchTerm = useDebounce(searchTerm, DEBOUNCE_SEARCH_DELAY);
@@ -539,7 +541,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
       );
   }, [principlesData, debouncedQuestionSearch, language]);
 
-  // Typical question search results - memoized
+  // Typical question search results - memoized with looping filter
   const typicalQuestionSearchResults = useMemo(() => {
     if (!debouncedTypicalQuestionSearch) return [];
 
@@ -547,7 +549,17 @@ Respond as if you were me, maintaining consistency with the details from the cas
     const searchWords = debouncedTypicalQuestionSearch.trim().split(/\s+/).filter(w => w.length > 0);
     const searchWordsNorm = searchWords.map(w => norm(w));
 
+    // Get principles to filter by looping group if selected
+    const loopingPrinciples = selectedLooping ? getPrinciplesForLooping(selectedLooping) : null;
+
     return (principlesData || [])
+      .filter((p) => {
+        // If a looping is selected, only include principles from that looping
+        if (loopingPrinciples) {
+          return loopingPrinciples.includes(p.id);
+        }
+        return true;
+      })
       .flatMap((p) => {
         const questions = typicalQuestions[p.id];
         if (!questions) return [];
@@ -560,7 +572,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
             return searchWordsNorm.every(word => qNorm.includes(word));
           });
       });
-  }, [principlesData, debouncedTypicalQuestionSearch, language]);
+  }, [principlesData, debouncedTypicalQuestionSearch, language, selectedLooping]);
 
   // Case search results with context - memoized (multi-word support)
   const caseSearchResults = useMemo(() => {
@@ -733,49 +745,70 @@ Respond as if you were me, maintaining consistency with the details from the cas
               </div>
             </div>
 
-            {/* Busca por Perguntas Típicas (col-span-2) */}
+            {/* Busca por Perguntas Típicas + Looping Selector (col-span-2) */}
             <div className="col-span-2">
-              <div id="kTypical" className="relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
-                <input
-                  type="search"
-                  placeholder={t.kTypical}
-                  value={typicalQuestionSearch}
-                  onChange={(e) => setTypicalQuestionSearch(e.target.value)}
-                  onFocus={() => {
-                    setSearchTerm("");
-                    setQuestionSearch("");
-                    setHighlightCaseTerm("");
-                    setHighlightFupTerm("");
-                    setHighlightTypicalTerm("");
-                    clearHighlights();
-                  }}
-                  className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white text-center"
-                  aria-label={t.kTypical}
-                  aria-expanded={!!typicalQuestionSearch}
-                  aria-controls="typical-dropdown"
-                />
-                {typicalQuestionSearch && (
-                  <div
-                    id="typical-dropdown"
-                    role="listbox"
-                    className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
+              <div className="flex gap-2">
+                {/* Looping Selector */}
+                <div className="relative">
+                  <select
+                    value={selectedLooping || ""}
+                    onChange={(e) => setSelectedLooping(e.target.value || null)}
+                    className="h-full px-2 py-3 text-sm border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white font-medium"
+                    aria-label="Select looping group"
+                    title={language === "pt" ? "Filtrar perguntas por grupo de looping" : "Filter questions by looping group"}
                   >
-                    {typicalQuestionSearchResults.length > 0 ? (
-                      <TypicalQuestionSearchResults
-                        results={typicalQuestionSearchResults}
-                        language={language}
-                        searchTerm={debouncedTypicalQuestionSearch}
-                        onSelect={handleTypicalSearchResultSelect}
-                        isQuestionUsed={(id) => !!usedQuestions[id]}
-                        onToggleQuestion={toggleUsedQuestion}
-                        getDisplayName={getDisplayName}
-                      />
-                    ) : (
-                      <div className="px-3 py-2 text-slate-500 text-sm">{t.noResult}</div>
-                    )}
-                  </div>
-                )}
+                    <option value="">{language === "pt" ? "Todos" : "All"}</option>
+                    {loopingGroups.map((group) => (
+                      <option key={group.id} value={group.id}>
+                        {group.label}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                {/* Search Box */}
+                <div id="kTypical" className="relative flex-1">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
+                  <input
+                    type="search"
+                    placeholder={t.kTypical}
+                    value={typicalQuestionSearch}
+                    onChange={(e) => setTypicalQuestionSearch(e.target.value)}
+                    onFocus={() => {
+                      setSearchTerm("");
+                      setQuestionSearch("");
+                      setHighlightCaseTerm("");
+                      setHighlightFupTerm("");
+                      setHighlightTypicalTerm("");
+                      clearHighlights();
+                    }}
+                    className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white text-center"
+                    aria-label={t.kTypical}
+                    aria-expanded={!!typicalQuestionSearch}
+                    aria-controls="typical-dropdown"
+                  />
+                  {typicalQuestionSearch && (
+                    <div
+                      id="typical-dropdown"
+                      role="listbox"
+                      className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
+                    >
+                      {typicalQuestionSearchResults.length > 0 ? (
+                        <TypicalQuestionSearchResults
+                          results={typicalQuestionSearchResults}
+                          language={language}
+                          searchTerm={debouncedTypicalQuestionSearch}
+                          onSelect={handleTypicalSearchResultSelect}
+                          isQuestionUsed={(id) => !!usedQuestions[id]}
+                          onToggleQuestion={toggleUsedQuestion}
+                          getDisplayName={getDisplayName}
+                        />
+                      ) : (
+                        <div className="px-3 py-2 text-slate-500 text-sm">{t.noResult}</div>
+                      )}
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
 
