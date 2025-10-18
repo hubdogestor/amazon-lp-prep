@@ -5,8 +5,8 @@ const case_3 = {
   title_en: "Won back key partner with 30-day guaranteed settlement plan",
   company: "Bradesco Payments",
   period: "09/2017-01/2018",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
 
   pt: {
     s: `Em setembro de 2017, como Program Manager de pagamentos B2B no Bradesco, vi nosso marketplace mais relevante - responsável por 18% do TPV - suspender operações após três ciclos de atraso na liquidação D+1. R$ 420 milhões ficaram bloqueados, 8.700 sellers protestaram publicamente e o parceiro anunciou migração para a concorrência. Internamente, o CFO culpava o comercial por prometer prazos irreais; o comercial responsabilizava a tesouraria. A ruptura interna paralisou a resposta imediata, colocando em risco R$ 52 milhões anuais e a reputação de principal provedor de liquidez. O CEO me designou para restaurar estabilidade e reconquistar o parceiro em até 30 dias.`,

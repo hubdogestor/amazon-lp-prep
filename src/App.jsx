@@ -3,7 +3,7 @@ import { Search, Circle, CheckCircle2 } from "lucide-react";
 import typicalQuestions from "./data/typicalQuestions.js";
 import { usePrinciplesData } from "./hooks/usePrinciplesData.js";
 import { HighlightableText } from "./components/HighlightableText.jsx";
-import { useDebounce } from "./hooks/useDebounce.js";
+import { useSearch } from "./hooks/useSearch.js";
 import { useCaseHelpers } from "./hooks/useCaseHelpers.js";
 import { useHighlight } from "./hooks/useHighlight.js";
 import {
@@ -88,21 +88,7 @@ const TEXTS = {
 export default function App() {
   const [selectedPrinciple, setSelectedPrinciple] = useState("all");
   const [expandedCases, setExpandedCases] = useState({});
-  const [searchTerm, setSearchTerm] = useState("");
-  const [questionSearch, setQuestionSearch] = useState("");
-  const [typicalQuestionSearch, setTypicalQuestionSearch] = useState("");
-  const [showTopCases, setShowTopCases] = useState(false);
-  const [showIcebreaker, setShowIcebreaker] = useState(false);
-  const [showMyQuestions, setShowMyQuestions] = useState(false);
-  const [language, setLanguage] = useState("pt");
-  const [isSearching, setIsSearching] = useState(false);
-  const [copiedCaseId, setCopiedCaseId] = useState(null);
-  const [selectedLooping, setSelectedLooping] = useState(null); // null = "All"
 
-  // Use debounced search for better performance
-  const debouncedSearchTerm = useDebounce(searchTerm, DEBOUNCE_SEARCH_DELAY);
-  const debouncedQuestionSearch = useDebounce(questionSearch, DEBOUNCE_SEARCH_DELAY);
-  const debouncedTypicalQuestionSearch = useDebounce(typicalQuestionSearch, DEBOUNCE_SEARCH_DELAY);
 
   // Use highlight hook instead of DOM manipulation
   const {
@@ -135,10 +121,10 @@ export default function App() {
     value: usedQuestions,
     toggle: toggleUsedQuestion,
   } = usePersistentFlagMap(STORAGE_KEYS.usedQuestions);
-  const {
-    value: usedIcebreakers,
-    toggle: toggleUsedIcebreaker,
-  } = usePersistentFlagMap(STORAGE_KEYS.usedIcebreakers);
+  const [showTopCases, setShowTopCases] = useState(false);
+  const [showIcebreaker, setShowIcebreaker] = useState(false);
+  const [showMyQuestions, setShowMyQuestions] = useState(false);
+  const [language, setLanguage] = useState(
 
   const toggleCase = useCallback((caseId, principleId, preserveSearchTerm = false) => {
     if (preserveSearchTerm && searchTerm) {
@@ -402,12 +388,12 @@ Respond as if you were me, maintaining consistency with the details from the cas
     return prompt;
   }, [getDisplayCaseTitle]);
 
-  const copyPromptToClipboard = useCallback(async (caseData, principleData, caseKey) => {
+  const copyPromptToClipboard = useCallback(async (caseData, principleData, caseIdentifier) => {
     const prompt = generatePrompt(caseData, principleData, language);
 
     try {
       await navigator.clipboard.writeText(prompt);
-      setCopiedCaseId(caseKey);
+      setCopiedCaseId(caseIdentifier);
       setTimeout(() => setCopiedCaseId(null), 2000);
     } catch (err) {
       console.error('Falha ao copiar:', err);
@@ -517,129 +503,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
     );
   }, []);
 
-  // FUP search results - memoized (multi-word support)
-  const fupSearchResults = useMemo(() => {
-    if (!debouncedQuestionSearch) return [];
 
-    // Split search into multiple words
-    const searchWords = debouncedQuestionSearch.trim().split(/\s+/).filter(w => w.length > 0);
-    const searchWordsNorm = searchWords.map(w => norm(w));
-
-    return (principlesData || [])
-      .flatMap((p) =>
-        (p.cases || []).flatMap((c) => {
-          const fups = getCaseFups(c);
-          return fups
-            .map((f, originalIdx) => ({ p, c, f, originalIdx }))
-            .filter(({ f }) => {
-              const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
-              const qTxtNorm = norm(qTxt);
-              // Check if ALL words are present
-              return searchWordsNorm.every(word => qTxtNorm.includes(word));
-            });
-        })
-      );
-  }, [principlesData, debouncedQuestionSearch, language]);
-
-  // Typical question search results - memoized with looping filter
-  const typicalQuestionSearchResults = useMemo(() => {
-    if (!debouncedTypicalQuestionSearch) return [];
-
-    // Split search into multiple words
-    const searchWords = debouncedTypicalQuestionSearch.trim().split(/\s+/).filter(w => w.length > 0);
-    const searchWordsNorm = searchWords.map(w => norm(w));
-
-    // Get principles to filter by looping group if selected
-    const loopingPrinciples = selectedLooping ? getPrinciplesForLooping(selectedLooping) : null;
-
-    return (principlesData || [])
-      .filter((p) => {
-        // If a looping is selected, only include principles from that looping
-        if (loopingPrinciples) {
-          return loopingPrinciples.includes(p.id);
-        }
-        return true;
-      })
-      .flatMap((p) => {
-        const questions = typicalQuestions[p.id];
-        if (!questions) return [];
-
-        const questionsList = language === "en" ? questions.en : questions.pt;
-        return questionsList
-          .map((q, idx) => ({ p, q, idx }))
-          .filter(({ q }) => {
-            const qNorm = norm(q);
-            return searchWordsNorm.every(word => qNorm.includes(word));
-          });
-      });
-  }, [principlesData, debouncedTypicalQuestionSearch, language, selectedLooping]);
-
-  // Case search results with context - memoized (multi-word support)
-  const caseSearchResults = useMemo(() => {
-    if (!debouncedSearchTerm || debouncedSearchTerm.length < 2) return [];
-
-    const results = [];
-    // Split search into multiple words
-    const searchWords = debouncedSearchTerm.trim().split(/\s+/).filter(w => w.length > 0);
-    const searchWordsNorm = searchWords.map(w => norm(w));
-
-    (principlesData || []).forEach((p) => {
-      (p.cases || []).forEach((c) => {
-        const caseContent = language === "en" ? c.en : c.pt;
-        if (!caseContent) return;
-
-        // Search in all STAR fields
-        const fields = ['s', 't', 'a', 'r', 'l'];
-        fields.forEach(field => {
-          const text = caseContent[field] || '';
-          const textNorm = norm(text);
-
-          // Check if ALL words are present
-          const allWordsPresent = searchWordsNorm.every(word => textNorm.includes(word));
-          if (!allWordsPresent) return;
-
-          // Find positions of all words
-          const wordPositions = searchWordsNorm.map(word => ({
-            word,
-            index: textNorm.indexOf(word)
-          })).filter(wp => wp.index !== -1);
-
-          if (wordPositions.length === 0) return;
-
-          // Find first match position for snippet context
-          const firstMatch = Math.min(...wordPositions.map(wp => wp.index));
-
-          // Extract snippet with context (80 chars before/after first match)
-          const start = Math.max(0, firstMatch - 80);
-          const end = Math.min(text.length, firstMatch + 150);
-          let snippet = text.substring(start, end);
-
-          // Add ellipsis
-          if (start > 0) snippet = '...' + snippet;
-          if (end < text.length) snippet = snippet + '...';
-
-          // Calculate match positions in snippet
-          const snippetOffset = start > 0 ? 3 : 0; // Ellipsis offset
-          const matches = wordPositions.map(wp => ({
-            start: wp.index - start + snippetOffset,
-            length: wp.word.length,
-            word: wp.word
-          }));
-
-          results.push({
-            p,
-            c,
-            snippet,
-            field,
-            matches,
-            searchWords
-          });
-        });
-      });
-    });
-
-    return results; // No limit - show all results
-  }, [principlesData, debouncedSearchTerm, language]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
@@ -1102,7 +966,6 @@ Respond as if you were me, maintaining consistency with the details from the cas
                 </div>
 
                 {((principle && principle.cases) || []).map((c, idx) => {
-                  const caseKey = `${principle.id}-${idx}`;
                   const caseId = c.id || c.title;
                   const caseSlug = slugify(caseId);
                   const caseDomId = `case-${caseSlug}`;
@@ -1129,39 +992,11 @@ Respond as if you were me, maintaining consistency with the details from the cas
                     : (language === 'pt' ? 'Marcar case como usado' : 'Mark case as used');
 
                   return (
-                    // TODO: Ajustar a prop "key" dentro de CaseCard.jsx se o aviso persistir.
                     <CaseCard
-                      key={caseKey}
+                      key={caseId}
                       caseData={c}
                       principle={principle}
-                      caseKey={caseKey}
-                      caseDomId={caseDomId}
-                      caseSlug={caseSlug}
-                      caseSearchKey={caseSearchKey}
-                      isTop={isTop}
-                      isHighlighted={isHighlighted}
-                      open={open}
-                      isCaseUsed={isCaseUsed}
-                      language={language}
-                      caseQuestions={caseQuestions}
-                      questionsTooltip={questionsTooltip}
-                      highlightCaseTerm={highlightCaseTerm}
-                      highlightFupTerm={highlightFupTerm}
-                      highlightedFupId={highlightedFupId}
-                      caseStarSearchOpen={caseStarSearchOpen}
-                      caseStarSearchTerms={caseStarSearchTerms}
-                      caseFupSearchOpen={caseFupSearchOpen}
-                      caseFupSearchTerms={caseFupSearchTerms}
-                      copiedCaseId={copiedCaseId}
-                      toggleCaseTooltip={toggleCaseTooltip}
-                      texts={t}
-                      getDisplayCaseTitle={getDisplayCaseTitle}
-                      getCaseFups={getCaseFups}
-                      filterCaseFups={filterCaseFups}
-                      starSectionMatchesTerm={starSectionMatchesTerm}
-                      onToggleCase={(hasSearchTerm) => handleCaseHeaderToggle(caseId, principle.id, caseDomId, hasSearchTerm)}
-                      onToggleUsedCase={() => toggleUsedCase(caseStorageId)}
-                      onCopyPrompt={() => copyPromptToClipboard(c, principle, caseKey)}
+                      onCopyPrompt={() => copyPromptToClipboard(c, principle, caseSearchKey)}
                       onToggleCaseStarSearch={() => toggleCaseStarSearch(caseSearchKey)}
                       onUpdateCaseStarSearchTerm={(value) => updateCaseStarSearchTerm(caseSearchKey, value)}
                       onToggleCaseFupSearch={() => toggleCaseFupSearch(caseSearchKey)}

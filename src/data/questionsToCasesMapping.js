@@ -1523,143 +1523,135 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 93
+          "score": 87
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 92
-        },
-        {
-          "caseId": "bradesco-partner-recovery",
-          "score": 91
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 91
+          "score": 87
         },
         {
           "caseId": "hsbc-bacen-communication",
-          "score": 89
+          "score": 83
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 83
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 83
         }
       ]
     },
     "2": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 95
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 95
-        },
-        {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 93
+          "score": 87
         },
         {
           "caseId": "hsbc-bacen-communication",
-          "score": 93
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 87
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 92
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 87
         }
       ]
     },
     "3": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 95
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 95
-        },
-        {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 93
+          "score": 87
         },
         {
           "caseId": "hsbc-bacen-communication",
-          "score": 93
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 87
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 92
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 87
         }
       ]
     },
     "4": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 91
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 91
-        },
-        {
           "caseId": "hsbc-bacen-communication",
-          "score": 89
+          "score": 83
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 83
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 88
+          "score": 83
         },
         {
-          "caseId": "sicredi-post-mortem-transparency",
-          "score": 81
+          "caseId": "bradesco-sla-director",
+          "score": 83
         }
       ]
     },
     "5": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 95
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 95
-        },
-        {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 93
+          "score": 87
         },
         {
           "caseId": "hsbc-bacen-communication",
-          "score": 93
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 87
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 92
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 87
         }
       ]
     },
     "6": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 95
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 95
-        },
-        {
           "caseId": "hsbc-bacen-communication",
-          "score": 93
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 87
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 92
+          "score": 87
         },
         {
-          "caseId": "sicredi-post-mortem-transparency",
-          "score": 81
+          "caseId": "bradesco-sla-director",
+          "score": 87
         }
       ]
     },
@@ -1667,95 +1659,91 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 92
-        },
-        {
-          "caseId": "bradesco-partner-recovery",
-          "score": 91
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 91
+          "score": 87
         },
         {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 89
+          "score": 83
         },
         {
           "caseId": "hsbc-bacen-communication",
-          "score": 89
+          "score": 83
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 83
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 83
         }
       ]
     },
     "8": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 95
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 95
-        },
-        {
           "caseId": "hsbc-bacen-communication",
-          "score": 93
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 87
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 92
+          "score": 87
         },
         {
-          "caseId": "sicredi-post-mortem-transparency",
-          "score": 81
+          "caseId": "bradesco-sla-director",
+          "score": 87
         }
       ]
     },
     "9": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 95
-        },
-        {
           "caseId": "hsbc-bacen-communication",
-          "score": 93
+          "score": 87
         },
         {
-          "caseId": "bradesco-sla-director",
-          "score": 91
+          "caseId": "bradesco-partner-recovery",
+          "score": 87
         },
         {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 89
+          "score": 83
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 88
+          "score": 83
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 83
         }
       ]
     },
     "10": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 95
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 95
-        },
-        {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 93
+          "score": 87
         },
         {
           "caseId": "hsbc-bacen-communication",
-          "score": 93
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 87
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 92
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 87
         }
       ]
     },
@@ -1763,127 +1751,119 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "bradesco-partner-recovery",
-          "score": 91
+          "score": 83
         }
       ]
     },
     "12": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 95
-        },
-        {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 93
+          "score": 87
         },
         {
           "caseId": "hsbc-bacen-communication",
-          "score": 93
+          "score": 87
         },
         {
-          "caseId": "bradesco-sla-director",
-          "score": 91
+          "caseId": "bradesco-partner-recovery",
+          "score": 87
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 88
+          "score": 83
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 83
         }
       ]
     },
     "13": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 95
+          "caseId": "hsbc-bacen-communication",
+          "score": 87
         },
         {
-          "caseId": "hsbc-bacen-communication",
-          "score": 93
+          "caseId": "bradesco-partner-recovery",
+          "score": 87
         },
         {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 89
-        },
-        {
-          "caseId": "bradesco-sla-director",
           "score": 83
-        },
-        {
-          "caseId": "hard-feedback-leadership-style",
-          "score": 80
         }
       ]
     },
     "14": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 95
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 95
-        },
-        {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 93
+          "score": 87
         },
         {
           "caseId": "hsbc-bacen-communication",
-          "score": 93
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 87
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 92
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 87
         }
       ]
     },
     "15": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 95
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 95
-        },
-        {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 93
+          "score": 87
         },
         {
           "caseId": "hsbc-bacen-communication",
-          "score": 93
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 87
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 92
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 87
         }
       ]
     },
     "16": {
       "options": [
         {
-          "caseId": "bradesco-partner-recovery",
-          "score": 95
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 95
-        },
-        {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 93
+          "score": 87
         },
         {
           "caseId": "hsbc-bacen-communication",
-          "score": 93
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-partner-recovery",
+          "score": 87
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 92
+          "score": 87
+        },
+        {
+          "caseId": "bradesco-sla-director",
+          "score": 87
         }
       ]
     }
@@ -2127,12 +2107,6 @@ export const questionsToCasesMapping = {
   },
   "deliver_results": {
     "1": {
-      "options": []
-    },
-    "2": {
-      "options": []
-    },
-    "3": {
       "options": [
         {
           "caseId": "huawei-world-cup-4g",
@@ -2141,47 +2115,209 @@ export const questionsToCasesMapping = {
         {
           "caseId": "unimed-ebitda-growth",
           "score": 87
+        },
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 87
+        }
+      ]
+    },
+    "2": {
+      "options": [
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 87
+        },
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 83
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 83
+        }
+      ]
+    },
+    "3": {
+      "options": [
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 87
+        },
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 83
         }
       ]
     },
     "4": {
-      "options": []
+      "options": [
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 87
+        },
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 87
+        }
+      ]
     },
     "5": {
       "options": []
     },
     "6": {
-      "options": []
-    },
-    "7": {
-      "options": []
-    },
-    "8": {
       "options": [
         {
-          "caseId": "unimed-ebitda-growth",
-          "score": 95
-        }
-      ]
-    },
-    "9": {
-      "options": []
-    },
-    "10": {
-      "options": []
-    },
-    "11": {
-      "options": []
-    },
-    "12": {
-      "options": [
+          "caseId": "huawei-world-cup-4g",
+          "score": 87
+        },
         {
           "caseId": "unimed-ebitda-growth",
           "score": 83
         },
         {
           "caseId": "sicredi-fraud-reduction",
-          "score": 82
+          "score": 83
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 83
+        }
+      ]
+    },
+    "7": {
+      "options": [
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 87
+        },
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 87
+        }
+      ]
+    },
+    "8": {
+      "options": [
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 87
+        },
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 87
+        }
+      ]
+    },
+    "9": {
+      "options": [
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "score": 87
+        },
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 83
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 83
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 83
+        }
+      ]
+    },
+    "10": {
+      "options": [
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 87
+        },
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "score": 87
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 87
+        }
+      ]
+    },
+    "11": {
+      "options": [
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 87
+        },
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 83
+        }
+      ]
+    },
+    "12": {
+      "options": [
+        {
+          "caseId": "huawei-world-cup-4g",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ebitda-growth",
+          "score": 87
+        },
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "score": 83
+        },
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 83
         }
       ]
     }

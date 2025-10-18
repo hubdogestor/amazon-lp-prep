@@ -4,7 +4,7 @@ import { HighlightableText } from "../HighlightableText.jsx";
 export default function CaseCard({
   caseData,
   principle,
-  caseKey,
+
   caseDomId,
   caseSlug,
   caseSearchKey,
@@ -95,7 +95,7 @@ export default function CaseCard({
                 .replace(/[^a-zA-Z0-9-_]/g, '-')
                 .replace(/-+/g, '-')
                 .replace(/^-|-$/g, '') || `${fIdx}`;
-              const keyPrefix = (caseSlug || caseKey || `case-${principle.id || 'case'}`);
+              const keyPrefix = (caseSlug || `case-${principle.id || 'case'}`);
               const fKey = `${keyPrefix}-${sanitizedKey}`;
               const isFupHighlighted = highlightedFupId === fupId;
 
@@ -166,7 +166,7 @@ export default function CaseCard({
         role="button"
         tabIndex={0}
         aria-expanded={open}
-        aria-controls={`case-content-${caseKey}`}
+        aria-controls={`case-content-${caseSearchKey}`}
         onKeyDown={(event) => {
           if (event.key === "Enter" || event.key === " ") {
             event.preventDefault();
@@ -226,14 +226,14 @@ export default function CaseCard({
                 onCopyPrompt();
               }}
               className={`flex items-center gap-2 px-3 py-1.5 text-sm rounded-lg border transition-all ${
-                copiedCaseId === caseKey
+copiedCaseId === caseSearchKey
                   ? "bg-green-50 border-green-300 text-green-700"
                   : "bg-white border-slate-300 text-slate-700 hover:bg-slate-50"
               }`}
               title={language === "pt" ? "Copiar prompt para IA" : "Copy prompt for AI"}
               aria-label={language === "pt" ? "Gerar e copiar prompt" : "Generate and copy prompt"}
             >
-              {copiedCaseId === caseKey ? (
+              {copiedCaseId === caseSearchKey ? (
                 <>
                   <Check className="w-4 h-4" />
                   <span>{language === "pt" ? "Copiado!" : "Copied!"}</span>
@@ -254,7 +254,7 @@ export default function CaseCard({
 
       {open && (
         <div
-          id={`case-content-${caseKey}`}
+          id={`case-content-${caseSearchKey}`}
           className="px-6 pb-6 pt-2 grid grid-cols-1 lg:grid-cols-2 gap-8 text-slate-700 bg-white/40 backdrop-blur-sm"
         >
           <div className="space-y-3">
@@ -372,4 +372,3 @@ export default function CaseCard({
     </article>
   );
 }
-

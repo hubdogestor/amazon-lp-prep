@@ -5,7 +5,7 @@ const case_5 = {
   company: "Huawei",
   period: "01/2013-07/2014",
   role: "Program Manager / Stakeholder Lead",
-  isTopCase: true,
+  isTopCase: false,
 
   pt: {
     s: `Em janeiro de 2013, a Huawei me designou para liderar o programa de lançamento do 4G nas 12 cidades-sede da Copa do Mundo de 2014.

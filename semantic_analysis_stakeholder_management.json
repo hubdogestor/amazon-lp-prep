@@ -1,0 +1,578 @@
+[
+  {
+    "cacheKey": "stakeholder_management__Q1__huawei-global-rollout",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Case aborda influência sem autoridade formal ao convencer VP LatAm cético com business case de R$480M. STAR-L completo com métricas robustas (-84% lead time, 1.136 sites, R$1,1B)."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q1__stakeholder-management-case-2",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case foca em transformação de EBITDA, não especificamente influência sem autoridade. STAR-L robusto com métricas excelentes (22% crescimento EBITDA, R$320M→R$391M, NPS 68)."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q1__unimed-vendor-termination-trust",
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case perfeito - confrontou CEO sem autoridade formal com dados irrefutáveis. STAR-L completo com evidências concretas (23 incidentes, R$3,2M perdas, SLA 99,82% vs 87%)."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q1__stakeholder-management-case-4",
+    "relevance": 30,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 74,
+    "reasoning": "Case central é influenciar stakeholders seniores sem mandato direto. STAR presente mas Learning genérico. Métricas boas (R$8M perdas, R$12M economias, NPS 82)."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q1__huawei-4g-copa-2014-stakeholder",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case foca stakeholder management mas como Program Manager formal. STAR-L detalhado. Métricas excepcionais (2.847 antenas, 98,7% cobertura, zero incidentes em 64 jogos)."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q1__sicredi-woop-stakeholder-management",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Case aborda engajamento de stakeholders em estrutura cooperativista sem autoridade direta. STAR-L completo com métricas sólidas (25% adoção, R$50M receita, 15+ versões)."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q2__huawei-global-rollout",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona gestão de expectativas indiretamente (VP queria foco local, entregou global). STAR-L robusto com métricas fortes mas pergunta não é central."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q2__stakeholder-management-case-2",
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 70,
+    "reasoning": "Case não aborda diretamente gerenciar expectativas quando não pode entregar tudo. Foco em transformação EBITDA. STAR-L bom mas relevância limitada."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q2__unimed-vendor-termination-trust",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case aborda bem gerenciar expectativas ao negar pedido do CEO. Explicou trade-offs e alternativas. STAR-L completo com evidências concretas."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q2__stakeholder-management-case-4",
+    "relevance": 18,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 62,
+    "reasoning": "Case não foca em gerenciar expectativas quando limitado. STAR presente mas genérico para essa pergunta específica."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q2__huawei-4g-copa-2014-stakeholder",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case menciona conciliar exigências de múltiplos stakeholders mas não foca em limitações. STAR-L detalhado com métricas excepcionais."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q2__sicredi-woop-stakeholder-management",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case aborda gestão de resistência e expectativas em cooperativas mas não foca limitações explícitas. STAR-L completo com boas métricas."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q3__huawei-global-rollout",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Case mostra construir consenso entre diretores locais (visão incremental) vs global (transformação). STAR-L robusto com métricas fortes."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q3__stakeholder-management-case-2",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona unificar áreas diversas mas não detalha visões opostas específicas. STAR-L completo com métricas robustas."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q3__unimed-vendor-termination-trust",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case mostra consenso após visões opostas (CEO queria manter vendor, candidato propôs mudança). STAR-L detalhado com evidências concretas."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q3__stakeholder-management-case-4",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case aborda alinhar 8 secretários com visões em silos. STAR presente mas Learning superficial para construção de consenso."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q3__huawei-4g-copa-2014-stakeholder",
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case perfeito - coordenou 20 fornecedores, ANATEL, prefeituras e FIFA com interesses diversos. STAR-L detalhado com métricas excepcionais."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q3__sicredi-woop-stakeholder-management",
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Case central é construir consenso em 112 cooperativas com resistência à transformação digital. STAR-L completo com boas métricas."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q4__huawei-global-rollout",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona identificar gargalos mas não detalha processo de identificação/engajamento de stakeholders. STAR-L robusto mas relevância moderada."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q4__stakeholder-management-case-2",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona identificar três alavancas mas não foca em identificar stakeholders críticos. STAR-L completo com métricas fortes."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q4__unimed-vendor-termination-trust",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case mostra identificação de stakeholder crítico (CEO) e estratégia de engajamento com dados. STAR-L detalhado com evidências concretas."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q4__stakeholder-management-case-4",
+    "relevance": 30,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 74,
+    "reasoning": "Case central é identificar e engajar 8 secretários, BID e Tribunal de Contas via 1:1s. STAR presente mas Learning genérico."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q4__huawei-4g-copa-2014-stakeholder",
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case perfeito - mapeamento minucioso usando matriz Poder x Interesse para identificar stakeholders críticos. STAR-L detalhado com métricas excepcionais."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q4__sicredi-woop-stakeholder-management",
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Case central é identificar e engajar 112 cooperativas via Programa de Embaixadores Digitais. STAR-L completo com boas métricas."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q5__huawei-global-rollout",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Case mostra dizer 'não' ao VP LatAm que pediu foco local, propondo visão global. STAR-L robusto com métricas fortes."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q5__stakeholder-management-case-2",
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 70,
+    "reasoning": "Case não aborda diretamente dizer 'não' a stakeholder poderoso. Foco em transformação. STAR-L completo mas relevância limitada."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q5__unimed-vendor-termination-trust",
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case perfeito - título literal é 'Disse Não ao CEO'. STAR-L detalhado com evidências concretas de como abordou."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q5__stakeholder-management-case-4",
+    "relevance": 18,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 62,
+    "reasoning": "Case não foca em dizer 'não', mas em influenciar positivamente. STAR presente mas não alinha com pergunta."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q5__huawei-4g-copa-2014-stakeholder",
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 74,
+    "reasoning": "Case não menciona dizer 'não' explicitamente, foco em coordenação. STAR-L detalhado com métricas excepcionais mas pergunta não é central."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q5__sicredi-woop-stakeholder-management",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona resistência mas não foco em dizer 'não' explícito. STAR-L completo com boas métricas."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q6__huawei-global-rollout",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Programa de 18 meses mostra engajamento longo prazo com piloto e Rollout Excellence Framework. STAR-L robusto com métricas fortes."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q6__stakeholder-management-case-2",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Programa de 24 meses com rituais quinzenais e OKRs trimestrais para manter engajamento. STAR-L completo com métricas robustas."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q6__unimed-vendor-termination-trust",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case de 6 meses com fase de reconstrução de confiança mas não programa longo prazo. STAR-L detalhado com evidências concretas."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q6__stakeholder-management-case-4",
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Case menciona dashboard e rituais mas não detalha mecanismos de engajamento longo prazo. STAR presente mas genérico."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q6__huawei-4g-copa-2014-stakeholder",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Programa de 18 meses com rituais de comunicação e transparência contínua. STAR-L detalhado com métricas excepcionais."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q6__sicredi-woop-stakeholder-management",
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Programa de 36 meses com Embaixadores Digitais e mecanismos contínuos. Case perfeito para engajamento longo prazo. STAR-L completo."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q7__huawei-global-rollout",
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 70,
+    "reasoning": "Case não menciona problema ou reconstrução de confiança explicitamente. STAR-L robusto mas relevância limitada."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q7__stakeholder-management-case-2",
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 70,
+    "reasoning": "Case não aborda reconstrução de confiança após problema. Foco em transformação. STAR-L completo mas não alinha."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q7__unimed-vendor-termination-trust",
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case perfeito - título menciona reconstruir confiança. Fase 3 específica de reconstrução após confronto. STAR-L detalhado com evidências."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q7__stakeholder-management-case-4",
+    "relevance": 18,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 62,
+    "reasoning": "Case não menciona problema ou reconstrução de confiança. STAR presente mas não relevante para pergunta."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q7__huawei-4g-copa-2014-stakeholder",
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 74,
+    "reasoning": "Case não menciona problema ou reconstrução. Foco em coordenação preventiva. STAR-L detalhado mas pergunta não alinha."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q7__sicredi-woop-stakeholder-management",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona transformar resistência mas não problema específico com reconstrução. STAR-L completo."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q8__huawei-global-rollout",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona business case para VP mas não detalha adaptação de comunicação técnicos vs executivos. STAR-L robusto."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q8__stakeholder-management-case-2",
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 70,
+    "reasoning": "Case não aborda adaptação de comunicação por audiência. STAR-L completo mas relevância limitada."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q8__unimed-vendor-termination-trust",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case mostra business case técnico vs comunicação executiva com CEO. Adaptação clara de mensagens. STAR-L detalhado."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q8__stakeholder-management-case-4",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case menciona relatórios personalizados para 8 secretários mas não detalha técnicos vs executivos. STAR presente."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q8__huawei-4g-copa-2014-stakeholder",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case menciona comunicação adaptada (ANATEL técnico, FIFA/prefeituras política, fornecedores operacional). STAR-L detalhado."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q8__sicredi-woop-stakeholder-management",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Case mostra imersões técnicas para presidentes vs métricas financeiras para conselho. Adaptação presente. STAR-L completo."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q9__huawei-global-rollout",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona ceticismo de áreas mas não detalha conflito explícito entre áreas. STAR-L robusto."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q9__stakeholder-management-case-2",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona integrar produto, operações e digital mas não detalha conflitos específicos. STAR-L completo."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q9__unimed-vendor-termination-trust",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case mostra conflito implícito (CEO vs performance técnica) mas não entre áreas. STAR-L detalhado com evidências."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q9__stakeholder-management-case-4",
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Case menciona 190 projetos em silos mas não detalha gestão de conflitos entre áreas. STAR presente."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q9__huawei-4g-copa-2014-stakeholder",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case mostra coordenação de 20 fornecedores e múltiplas entidades com interesses conflitantes. STAR-L detalhado."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q9__sicredi-woop-stakeholder-management",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Case menciona 112 cooperativas com visões diversas e resistência. Gestão de conflito presente. STAR-L completo."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q10__huawei-global-rollout",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona Rollout Excellence Framework mas não detalha comunicação sem sobrecarga. STAR-L robusto."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q10__stakeholder-management-case-2",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Case menciona rituais quinzenais e OKRs trimestrais para informar sem sobrecarga. Relevância boa. STAR-L completo."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q10__unimed-vendor-termination-trust",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case menciona transparência mas não foco específico em evitar sobrecarga. STAR-L detalhado."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q10__stakeholder-management-case-4",
+    "relevance": 26,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 70,
+    "reasoning": "Case menciona dashboard unificado para informar stakeholders mas não detalha evitar sobrecarga. STAR presente."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q10__huawei-4g-copa-2014-stakeholder",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case menciona comunicação estratificada por nível de stakeholder. Aborda informar sem sobrecarregar. STAR-L detalhado."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q10__sicredi-woop-stakeholder-management",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Case menciona imersões técnicas segmentadas e comunicação direcionada. Relevância boa. STAR-L completo."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q11__huawei-global-rollout",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona priorizar 19 de 127 gargalos mas não detalha negociação de trade-offs com stakeholders. STAR-L robusto."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q11__stakeholder-management-case-2",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona focar 3 alavancas mas não detalha negociação de trade-offs com múltiplos stakeholders. STAR-L completo."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q11__unimed-vendor-termination-trust",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case mostra trade-off explícito (relacionamento de 8 anos vs performance) negociado com CEO. STAR-L detalhado."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q11__stakeholder-management-case-4",
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Case menciona tempo investido como trade-off mas não detalha negociação difícil. STAR presente."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q11__huawei-4g-copa-2014-stakeholder",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Case mostra trade-offs entre prazo, custo e qualidade negociados com múltiplos stakeholders. STAR-L detalhado."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q11__sicredi-woop-stakeholder-management",
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Case mostra negociação entre inovação digital vs tradição cooperativista. Trade-offs presentes. STAR-L completo."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q12__huawei-global-rollout",
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Case central é vencer resistência de diretores conformados com status quo. Usou dados e piloto. STAR-L robusto."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q12__stakeholder-management-case-2",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Case menciona crise e necessidade de mudança mas não foca em resistência específica. STAR-L completo."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q12__unimed-vendor-termination-trust",
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Case perfeito - CEO resistia mudança de vendor de 8 anos. Usou dados irrefutáveis para vencer resistência. STAR-L detalhado."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q12__stakeholder-management-case-4",
+    "relevance": 22,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 66,
+    "reasoning": "Case menciona fragmentação mas não detalha como lidou com resistência específica. STAR presente."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q12__huawei-4g-copa-2014-stakeholder",
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 30,
+    "scoreBase": 78,
+    "reasoning": "Case menciona coordenação mas não foca em resistência a mudanças. STAR-L detalhado com métricas excepcionais."
+  },
+  {
+    "cacheKey": "stakeholder_management__Q12__sicredi-woop-stakeholder-management",
+    "relevance": 30,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Case perfeito - transformou resistência à transformação digital em adesão massiva. Usou Embaixadores Digitais. STAR-L completo."
+  }
+]

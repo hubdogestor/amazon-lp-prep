@@ -6,7 +6,7 @@ const case_1 = {
   company: "Sicredi Woop",
   period: "02/2020-06/2020",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
 
   pt: {
     s: `Em fevereiro de 2023, como gerente de produtos no Sicredi Woop, liberei uma nova chave de rate limiting no core Pix antes de concluir o teste de carga trifásico. Em 12 horas, 62.400 transferências ficaram travadas, R$ 14,8 milhões retidos e o NPS despencou de 62 para 21. O Banco Central recebeu 312 reclamações formais e solicitou esclarecimentos sobre resiliência técnica. Um diretor me confrontou em reunião executiva: "Você quebrou nossa palavra." A frase não atingiu apenas minha imagem profissional - ela expôs a perda de credibilidade institucional diante dos clientes e do regulador. Nosso histórico de confiabilidade Pix construído em três anos ficou sob ameaça e a relação com o Banco Central passou a ser de suspeita em vez de cooperação.`,

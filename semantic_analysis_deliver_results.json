@@ -1,0 +1,578 @@
+[
+  {
+    "cacheKey": "deliver_results__Q1__huawei-world-cup-4g",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: case demonstra projeto desafiador (infraestrutura 4G da Copa) com obstáculos significativos (6 bloqueadores críticos, caos inicial) superados sistematicamente. STAR-L completo com mecanismos escaláveis (VPI, checklist ANATEL). Métricas concretas: 99.8% disponibilidade, -71% lead time licenças, entrega 10 dias antes do prazo."
+  },
+  {
+    "cacheKey": "deliver_results__Q1__unimed-ebitda-growth",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: projeto desafiador (virada de EBITDA estagnado) com obstáculos significativos (crise cooperativa 80 anos, resistência cultural). STAR-L completo com 3 streams autônomos e OKRs. Métricas concretas: +22% EBITDA (R$320M→R$391M), R$21M economizados, +34M receita retida, comparação antes/depois."
+  },
+  {
+    "cacheKey": "deliver_results__Q1__sicredi-fraud-reduction",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: projeto desafiador (fraude crítica R$420k/mês) com obstáculos significativos (pressão para lockdown total, risco ao negócio). STAR-L completo com mecanismos sistêmicos (heurísticas, war room). Métricas concretas: -46% perdas (R$420k→R$226k), -96% tempo resposta (21 dias→18h), -67% falsos positivos."
+  },
+  {
+    "cacheKey": "deliver_results__Q1__sefaz-ecage-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: projeto desafiador (sistema colapsado CAGE) com obstáculos significativos (R$4.6M retidos, 47 mil crianças sem merenda, resistência política). STAR-L completo com tripé (escuta, decisões, demonstração valor). Métricas concretas: 100% adoção, -47% tempo aprovação (15→8 dias), SLA 66%→94%."
+  },
+  {
+    "cacheKey": "deliver_results__Q1__sicredi-pix-deadline-miss-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: projeto desafiador (recuperação após falha regulatória) com obstáculos EXTREMOS (deadline perdido, 120 TPS vs 500 necessários). STAR-L completo com ownership público do fracasso e recuperação sistemática. Métricas concretas: 520 TPS entregue (+16% vs mínimo), 0 incidentes críticos, prazo renegociado cumprido."
+  },
+  {
+    "cacheKey": "deliver_results__Q1__unimed-vendor-termination",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: projeto desafiador (lançamento telemedicina) com obstáculo significativo (fornecedor estratégico 8 anos falhando, pressão política brutal). STAR-L completo com auditoria forense e transição. Métricas concretas: 23.400 consultas em 90 dias, 94.7% disponibilidade, NPS 67, lançamento no prazo 18/set."
+  },
+  {
+    "cacheKey": "deliver_results__Q2__huawei-world-cup-4g",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: entrega sob pressão extrema (Copa do Mundo, deadline não negociável, visibilidade global). STAR-L completo com execução simultânea 6 bloqueadores. Métricas concretas: 99.8% disponibilidade, 124 Mbps throughput, 8.6M transações, entrega 10 dias antes."
+  },
+  {
+    "cacheKey": "deliver_results__Q2__unimed-ebitda-growth",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: entrega sob pressão (ultimato de virada ou intervenção), mas pressão é mais de prazo longo (24 meses) que curto prazo imediato. STAR-L completo com streams autônomos. Métricas concretas: +22% EBITDA, R$71M impacto total, NPS 29→68."
+  },
+  {
+    "cacheKey": "deliver_results__Q2__sicredi-fraud-reduction",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: entrega sob pressão EXTREMA (sangramento R$420k/mês, pressão para lockdown que paralisaria negócio, crise imediata). STAR-L completo com 72h diretas SQL. Métricas concretas: -46% perdas em 5 meses, -96% tempo resposta, NPS 29→64."
+  },
+  {
+    "cacheKey": "deliver_results__Q2__sefaz-ecage-portal",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: entrega sob pressão (R$4.6M retidos, impacto social 47 mil crianças), mas pressão é mais contextual que deadline imediato. STAR-L completo com tripé político. Métricas concretas: 6 meses entrega, 100% adoção 60 dias, SLA 66%→94%."
+  },
+  {
+    "cacheKey": "deliver_results__Q2__sicredi-pix-deadline-miss-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: entrega sob pressão MÁXIMA (deadline regulatório BCB perdido, risco multas, 4.5M cooperados sem Pix). STAR-L completo com ownership público fracasso e recuperação 60 dias. Métricas concretas: 520 TPS, 0 incidentes, prazo renegociado cumprido."
+  },
+  {
+    "cacheKey": "deliver_results__Q2__unimed-vendor-termination",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: entrega sob pressão extrema (47 dias para lançamento, código 67% defeituoso, pressão política 8 anos parceria). STAR-L completo com auditoria forense 48h e transição. Métricas concretas: lançamento no prazo, 23.400 consultas 90 dias, 94.7% disponibilidade."
+  },
+  {
+    "cacheKey": "deliver_results__Q3__huawei-world-cup-4g",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: demonstra COMO lidar com prazo apertado (Copa do Mundo não negociável) através de mecanismos escaláveis e execução simultânea 6 frentes. STAR-L completo. Métricas concretas: -71% lead time licenças, VPI governance, entrega 10 dias antes."
+  },
+  {
+    "cacheKey": "deliver_results__Q3__unimed-ebitda-growth",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: demonstra gestão de prazo através de inputs controláveis e OKRs trimestrais, mas prazo é de 24 meses (não apertado). STAR-L completo com streams. Métricas concretas: +22% EBITDA, ritmos quinzenais, 3 alavancas 80% impacto."
+  },
+  {
+    "cacheKey": "deliver_results__Q3__sicredi-fraud-reduction",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: demonstra COMO lidar com prazo apertado (crise imediata, 5 meses para reverter sangramento) através de mecanismos sistêmicos. STAR-L completo. Métricas concretas: 72h SQL, -46% perdas 5 meses, war room 18h resposta."
+  },
+  {
+    "cacheKey": "deliver_results__Q3__sefaz-ecage-portal",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: demonstra gestão de prazo (6 meses entrega portal) através de tripé decisão pragmática. Prazo existe mas não é extremamente apertado. STAR-L completo. Métricas concretas: 6 meses entrega, 60 dias migração 100%, SLA 66%→94%."
+  },
+  {
+    "cacheKey": "deliver_results__Q3__sicredi-pix-deadline-miss-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: demonstra COMO lidar com prazo apertado (60 dias recuperação após falha, deadline regulatório BCB) através de repriorização radical. STAR-L completo. Métricas concretas: 520 TPS, sprint gates diários, 16 de novembro cumprido."
+  },
+  {
+    "cacheKey": "deliver_results__Q3__unimed-vendor-termination",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: demonstra COMO lidar com prazo apertado (47 dias para lançamento, transição vendor em paralelo) através de decisão corajosa e execução impecável. STAR-L completo. Métricas concretas: auditoria 48h, 11 dias transição, 18/set prazo."
+  },
+  {
+    "cacheKey": "deliver_results__Q4__huawei-world-cup-4g",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de priorização para entregar prazo (6 bloqueadores críticos priorizados simultaneamente, Copa do Mundo deadline). STAR-L completo. Métricas concretas: licenças -71% lead time, VPI governance, entrega 10 dias antes."
+  },
+  {
+    "cacheKey": "deliver_results__Q4__unimed-ebitda-growth",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de priorização para entregar (3 alavancas 80% impacto escolhidas dentre múltiplas opções, foco pacientes crônicos). STAR-L completo. Métricas concretas: 35% gasto crônicos, R$21M economia, 3 streams OKRs."
+  },
+  {
+    "cacheKey": "deliver_results__Q4__sicredi-fraud-reduction",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de priorização para entregar prazo (2 inputs críticos priorizados: heurísticas + war room, rejeitou lockdown). STAR-L completo. Métricas concretas: 67% documentos sintéticos, -46% perdas 5 meses, -96% tempo resposta."
+  },
+  {
+    "cacheKey": "deliver_results__Q4__sefaz-ecage-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de priorização para entregar prazo (escolheu Dynamics vs Salesforce/custom, 3 frentes principais focadas). STAR-L completo. Métricas concretas: Salesforce 12 meses vs Dynamics 6 meses, 100% adoção 60 dias."
+  },
+  {
+    "cacheKey": "deliver_results__Q4__sicredi-pix-deadline-miss-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo EXPLÍCITO de má priorização inicial (UI vs infraestrutura) seguido de repriorização radical para entregar. STAR-L completo com lição. Métricas concretas: 120→520 TPS, infraestrutura first, 16/nov deadline."
+  },
+  {
+    "cacheKey": "deliver_results__Q4__unimed-vendor-termination",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de priorização para entregar prazo (cliente final > relacionamento 8 anos, cortar vendor para salvar lançamento). STAR-L completo. Métricas concretas: auditoria 48h, 67% código defeituoso, transição 11 dias, prazo 18/set."
+  },
+  {
+    "cacheKey": "deliver_results__Q5__huawei-world-cup-4g",
+    "relevance": 0,
+    "depth": 0,
+    "evidence": 0,
+    "scoreBase": 0,
+    "reasoning": "NÃO responde: pergunta pede exemplo de FALHA em gerenciar prioridades e perda de deadline. Case mostra SUCESSO na gestão de prioridades com entrega 10 dias ANTES do prazo."
+  },
+  {
+    "cacheKey": "deliver_results__Q5__unimed-ebitda-growth",
+    "relevance": 0,
+    "depth": 0,
+    "evidence": 0,
+    "scoreBase": 0,
+    "reasoning": "NÃO responde: pergunta pede exemplo de FALHA em gerenciar prioridades. Case mostra SUCESSO na gestão de prioridades com EBITDA +22% e entrega de resultados históricos."
+  },
+  {
+    "cacheKey": "deliver_results__Q5__sicredi-fraud-reduction",
+    "relevance": 0,
+    "depth": 0,
+    "evidence": 0,
+    "scoreBase": 0,
+    "reasoning": "NÃO responde: pergunta pede exemplo de FALHA na gestão de prioridades. Case mostra SUCESSO na priorização (2 inputs críticos) com redução -46% perdas em 5 meses."
+  },
+  {
+    "cacheKey": "deliver_results__Q5__sefaz-ecage-portal",
+    "relevance": 0,
+    "depth": 0,
+    "evidence": 0,
+    "scoreBase": 0,
+    "reasoning": "NÃO responde: pergunta pede exemplo de FALHA na gestão de prioridades. Case mostra SUCESSO na priorização com entrega portal em 6 meses e 100% adoção."
+  },
+  {
+    "cacheKey": "deliver_results__Q5__sicredi-pix-deadline-miss-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo EXPLÍCITO de falha em gerenciar prioridades (UI app > infraestrutura crítica) resultando em perda de deadline (16/nov). STAR-L completo com ownership do fracasso, análise raiz e recuperação. Métricas concretas: 120 TPS vs 500 necessários, 23 dependências não mapeadas."
+  },
+  {
+    "cacheKey": "deliver_results__Q5__unimed-vendor-termination",
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 70,
+    "reasoning": "Responde PARCIALMENTE: mostra priorização difícil (cliente final > relacionamento vendor) mas não é exemplo de FALHA na gestão de prioridades - é correção de falha do vendor. Learning menciona 'demora em reconhecer sinais', mas foco é decisão correta."
+  },
+  {
+    "cacheKey": "deliver_results__Q6__huawei-world-cup-4g",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de pivô estratégico (criar VPI governance para integradores, reprojetar dossiê técnico ANATEL, sprint gates diários). STAR-L completo com mecanismos escaláveis. Métricas concretas: -71% lead time licenças, VPI 0-100, entrega 10 dias antes."
+  },
+  {
+    "cacheKey": "deliver_results__Q6__unimed-ebitda-growth",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: mostra adaptação estratégica (3 alavancas vs cortes lineares, streams autônomos) mas não é pivô drástico durante execução. STAR-L completo. Métricas concretas: 35% custo crônicos, R$21M economia, OKRs trimestrais ajustados."
+  },
+  {
+    "cacheKey": "deliver_results__Q6__sicredi-fraud-reduction",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: mostra pivô significativo (rejeitar lockdown total, criar mecanismos sistêmicos vs solução pontual). STAR-L completo. Métricas concretas: 67% documentos sintéticos descobertos, -46% perdas, 21 dias→18h resposta."
+  },
+  {
+    "cacheKey": "deliver_results__Q6__sefaz-ecage-portal",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: mostra pivô estratégico (Dynamics vs Salesforce/custom, portal digital vs planilha) mas decisão única vs múltiplos pivôs. STAR-L completo. Métricas concretas: 12 meses→6 meses, R$320k saving, 100% adoção."
+  },
+  {
+    "cacheKey": "deliver_results__Q6__sicredi-pix-deadline-miss-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de pivô radical no meio do caminho (UI features→infraestrutura crítica, squad gates diários, 23 dependências mapeadas). STAR-L completo com ownership. Métricas concretas: 120→520 TPS, repriorização total, 16/nov deadline."
+  },
+  {
+    "cacheKey": "deliver_results__Q6__unimed-vendor-termination",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de pivô radical no meio do caminho (cortar vendor estratégico 8 anos, transição completa em 11 dias). STAR-L completo com auditoria forense. Métricas concretas: 67% código defeituoso, 847 testes, transição CloudWave, prazo 18/set."
+  },
+  {
+    "cacheKey": "deliver_results__Q7__huawei-world-cup-4g",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de métricas rigorosas para accountability (VPI 0-100 com 5 dimensões, throughput 124 Mbps +13% vs meta, 99.8% disponibilidade). STAR-L completo. Comparações antes/depois: lead time 168→49 dias, entrega 10 dias antes prazo."
+  },
+  {
+    "cacheKey": "deliver_results__Q7__unimed-ebitda-growth",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de métricas rigorosas para accountability (EBITDA +22% vs 9% setor, R$71M impacto total quantificado, NPS 29→68). STAR-L completo com OKRs trimestrais. Comparações: 35% custo crônicos, R$21M economia APS 360."
+  },
+  {
+    "cacheKey": "deliver_results__Q7__sicredi-fraud-reduction",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de métricas rigorosas para accountability (perdas -46% R$420k→R$226k, tempo resposta -96% 21 dias→18h, NPS 29→64). STAR-L completo. Comparações: 67% documentos sintéticos, 217% acima média, -67% falsos positivos."
+  },
+  {
+    "cacheKey": "deliver_results__Q7__sefaz-ecage-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de métricas rigorosas para accountability (SLA 66%→94%, tempo aprovação -47% 15→8 dias, 100% adoção 60 dias). STAR-L completo. Comparações: benchmark nacional 78% vs 94%, R$4.6M desbloqueados."
+  },
+  {
+    "cacheKey": "deliver_results__Q7__sicredi-pix-deadline-miss-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de métricas rigorosas para accountability (120→520 TPS +16% vs mínimo, 0 incidentes críticos, 23 dependências mapeadas). STAR-L completo com ownership público fracasso. Comparações antes/depois claras."
+  },
+  {
+    "cacheKey": "deliver_results__Q7__unimed-vendor-termination",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de métricas rigorosas para accountability (67% código defeituoso, 847 testes validados, 94.7% disponibilidade vs 85% TechMed). STAR-L completo com auditoria forense 48h. Comparações: 23.400 consultas 90 dias, NPS 67."
+  },
+  {
+    "cacheKey": "deliver_results__Q8__huawei-world-cup-4g",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de comprometer qualidade para prazo (entrega 10 dias ANTES mantendo 99.8% disponibilidade, throughput +13% vs meta). STAR-L completo demonstra qualidade NÃO foi comprometida. Métricas: 124 Mbps, 8.6M transações, 40% acima setor."
+  },
+  {
+    "cacheKey": "deliver_results__Q8__unimed-ebitda-growth",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de comprometer qualidade para prazo (crescimento +22% MANTENDO NPS 29→68, experiência cliente melhorou). STAR-L completo demonstra qualidade NÃO foi comprometida. Métricas: APS 360 economia R$21M, churn -4.2pp."
+  },
+  {
+    "cacheKey": "deliver_results__Q8__sicredi-fraud-reduction",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de comprometer qualidade para prazo (redução perdas -46% em 5 meses MANTENDO experiência: NPS 29→64, falsos positivos -67%). STAR-L completo demonstra qualidade NÃO foi comprometida, salvou negócio SEM destruir experiência."
+  },
+  {
+    "cacheKey": "deliver_results__Q8__sefaz-ecage-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de comprometer qualidade para prazo (entrega 6 meses MANTENDO 95% estabilidade, SLA 94%, NPS 42→78). STAR-L completo demonstra qualidade NÃO foi comprometida. Métricas: 100% adoção, impacto social 47 mil crianças."
+  },
+  {
+    "cacheKey": "deliver_results__Q8__sicredi-pix-deadline-miss-recovery",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: mostra CORREÇÃO de priorização (infraestrutura first após falha) e entrega com qualidade (520 TPS +16%, 0 incidentes). Não é exemplo de COMPROMETER qualidade, é exemplo de PRIORIZAR qualidade após aprender com erro. STAR-L completo."
+  },
+  {
+    "cacheKey": "deliver_results__Q8__unimed-vendor-termination",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: exemplo de comprometer qualidade para prazo (cortar vendor para prazo mas MANTEVE qualidade: 94.7% disponibilidade, NPS 67). STAR-L completo demonstra qualidade NÃO foi comprometida através de transição impecável. Métricas: 23.400 consultas, 11 dias transição."
+  },
+  {
+    "cacheKey": "deliver_results__Q9__huawei-world-cup-4g",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: conflito implícito entre escopo (cobertura total) e prazo (Copa do Mundo não negociável), resolvido através de execução simultânea 6 frentes. STAR-L completo. Métricas concretas: 99.8% disponibilidade, 10 dias antes prazo, sem redução escopo."
+  },
+  {
+    "cacheKey": "deliver_results__Q9__unimed-ebitda-growth",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: conflito entre escopo ambicioso (virada EBITDA sistêmica) e expectativa prazo (pressão cooperativas), resolvido através de 3 alavancas focadas. STAR-L completo. Métricas: +22% EBITDA 24 meses, R$71M impacto, vs 9% setor."
+  },
+  {
+    "cacheKey": "deliver_results__Q9__sicredi-fraud-reduction",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: conflito EXPLÍCITO entre escopo/prazo (lockdown total imediato vs solução sustentável 5 meses). Escolheu qualidade vs velocidade. STAR-L completo. Métricas: -46% perdas 5 meses, -67% falsos positivos (experiência), NPS 29→64."
+  },
+  {
+    "cacheKey": "deliver_results__Q9__sefaz-ecage-portal",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: conflito entre escopo (portal completo 15 órgãos) e prazo (6 meses), resolvido através de Dynamics vs Salesforce. STAR-L completo. Métricas: Salesforce 12 meses vs Dynamics 6 meses, 100% adoção, sem redução funcionalidades."
+  },
+  {
+    "cacheKey": "deliver_results__Q9__sicredi-pix-deadline-miss-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: conflito EXPLÍCITO entre escopo/prazo (UI app completa vs infraestrutura core Pix). Falhou na primeira vez priorizando escopo errado, aprendeu e reprorizou infraestrutura. STAR-L completo com ownership. Métricas: 120→520 TPS, 16/nov deadline."
+  },
+  {
+    "cacheKey": "deliver_results__Q9__unimed-vendor-termination",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: conflito EXPLÍCITO entre escopo/prazo (manter vendor e atrasar vs cortar e entregar no prazo). Escolheu prazo mantendo qualidade através de transição impecável. STAR-L completo. Métricas: 67% código defeituoso, transição 11 dias, prazo 18/set."
+  },
+  {
+    "cacheKey": "deliver_results__Q10__huawei-world-cup-4g",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: resultado concreto (rede 4G Copa do Mundo 99.8% disponibilidade) com impacto business quantificado (8.6M transações, throughput +40% vs setor, contrato renovado R$2.1B). STAR-L completo. Métricas: 124 Mbps, 0 incidentes críticos, 10 dias antes prazo."
+  },
+  {
+    "cacheKey": "deliver_results__Q10__unimed-ebitda-growth",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: resultado concreto (virada EBITDA +22%) com impacto business quantificado (R$320M→R$391M, vs 9% setor). STAR-L completo. Métricas detalhadas: R$21M economia APS, R$34M receita retida churn, R$16M novos produtos, NPS 29→68."
+  },
+  {
+    "cacheKey": "deliver_results__Q10__sicredi-fraud-reduction",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: resultado concreto (redução fraude -46%) com impacto business quantificado (economia R$2.3M anual, NPS 29→64, crescimento sustentável). STAR-L completo. Métricas: R$420k→R$226k perdas, -96% tempo resposta, -67% falsos positivos."
+  },
+  {
+    "cacheKey": "deliver_results__Q10__sefaz-ecage-portal",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: resultado concreto (Portal e-CAGE SLA 94%) com impacto social/business quantificado (R$4.6M desbloqueados, 47 mil crianças beneficiadas). STAR-L completo. Métricas: 15→8 dias aprovação, 100% adoção 60 dias, NPS 42→78, R$320k saving."
+  },
+  {
+    "cacheKey": "deliver_results__Q10__sicredi-pix-deadline-miss-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: resultado concreto (recuperação Pix 520 TPS) com impacto business quantificado (4.5M cooperados com acesso, 0 incidentes críticos, conformidade BCB). STAR-L completo. Métricas: 120→520 TPS +16%, prazo 16/nov cumprido, credibilidade recuperada."
+  },
+  {
+    "cacheKey": "deliver_results__Q10__unimed-vendor-termination",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: resultado concreto (lançamento telemedicina prazo) com impacto business quantificado (23.400 consultas 90 dias, 94.7% disponibilidade, NPS 67). STAR-L completo. Métricas: transição 11 dias, R$4.2M investimento salvaguardado, escalou 340 médicos."
+  },
+  {
+    "cacheKey": "deliver_results__Q11__huawei-world-cup-4g",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: sacrifício pessoal documentado (assumir programa caótico madrugada, risco reputacional enorme, execução 10 meses sob pressão extrema). STAR-L completo com ownership total. Métricas: 99.8% disponibilidade, 10 dias antes prazo, sem precedentes Huawei Latam."
+  },
+  {
+    "cacheKey": "deliver_results__Q11__unimed-ebitda-growth",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: sacrifício pessoal implícito (24 meses liderando virada sistema cooperativo 80 anos, pressão intervenção), mas não detalha sacrifícios específicos. STAR-L completo. Métricas: +22% EBITDA, R$71M impacto, vs 9% setor, NPS 29→68."
+  },
+  {
+    "cacheKey": "deliver_results__Q11__sicredi-fraud-reduction",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: sacrifício pessoal documentado (72 horas diretas SQL, sala de crise 7h43, atacar problema raiz sem esperar milagres). STAR-L completo com ownership. Métricas: -46% perdas 5 meses, -96% tempo resposta 21 dias→18h, NPS 29→64."
+  },
+  {
+    "cacheKey": "deliver_results__Q11__sefaz-ecage-portal",
+    "relevance": 22,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 82,
+    "reasoning": "Responde BEM: sacrifício pessoal implícito (liderar transformação setor público com resistência política, 25 entrevistas stakeholders), mas não detalha sacrifícios pessoais profundos. STAR-L completo. Métricas: SLA 66%→94%, 6 meses entrega, R$4.6M desbloqueados."
+  },
+  {
+    "cacheKey": "deliver_results__Q11__sicredi-pix-deadline-miss-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: sacrifício pessoal documentado (assumir fracasso público C-level, ownership total, recuperação disciplinada 60 dias sob pressão regulatória). STAR-L completo. Métricas: 120→520 TPS, 16/nov deadline cumprido, credibilidade recuperada através de execução."
+  },
+  {
+    "cacheKey": "deliver_results__Q11__unimed-vendor-termination",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: sacrifício pessoal documentado (decisão politicamente custosa cortar vendor 8 anos, assumir risco reputacional enorme, pressão diretor TI). STAR-L completo com coragem. Métricas: auditoria forense 48h, transição 11 dias, prazo 18/set cumprido."
+  },
+  {
+    "cacheKey": "deliver_results__Q12__huawei-world-cup-4g",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: equipe executou através de mecanismos escaláveis (VPI governance integradores, checklist ANATEL, sprint gates diários) que funcionaram mesmo com time disperso. STAR-L completo. Métricas: 6 bloqueadores resolvidos simultaneamente, 99.8% disponibilidade, 10 dias antes prazo."
+  },
+  {
+    "cacheKey": "deliver_results__Q12__unimed-ebitda-growth",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: equipe executou através de 3 streams autônomos com OKRs, owners e rituais quinzenais que garantiram accountability distribuída. STAR-L completo. Métricas: 17 cooperativas coordenadas, +22% EBITDA, R$71M impacto total, cada stream com metricas próprias."
+  },
+  {
+    "cacheKey": "deliver_results__Q12__sicredi-fraud-reduction",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: equipe executou através de war room cross-funcional (produto, risco, dados, CX) com rituais definidos. STAR-L completo. Métricas: -46% perdas 5 meses, -96% tempo resposta 21 dias→18h. Menos ênfase em execução time vs individual."
+  },
+  {
+    "cacheKey": "deliver_results__Q12__sefaz-ecage-portal",
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "Responde MUITO BEM: equipe executou através de coordenação 15 órgãos, 8 secretarias, 500 gestores com demonstração pública valor. STAR-L completo. Métricas: 100% adoção 60 dias, SLA 66%→94%. Menos ênfase em estrutura time vs coordenação stakeholders."
+  },
+  {
+    "cacheKey": "deliver_results__Q12__sicredi-pix-deadline-miss-recovery",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: equipe executou através de 5 squads coordenados com sprint gates diários e repriorização radical para infraestrutura. STAR-L completo. Métricas: 5 squads sincronizados, 120→520 TPS, 23 dependências mapeadas, 16/nov deadline cumprido."
+  },
+  {
+    "cacheKey": "deliver_results__Q12__unimed-vendor-termination",
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Responde PERFEITAMENTE: equipe executou através de squad 3 arquitetos independentes (auditoria forense), time CloudWave transição, coordenação TI/jurídico/C-level. STAR-L completo. Métricas: auditoria 48h, 2.3M linhas código, 847 testes, transição 11 dias, prazo 18/set."
+  }
+]

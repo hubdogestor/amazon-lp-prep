@@ -6,7 +6,7 @@ const case_4 = {
   company: "Sicredi Digital",
   period: "01/2024-04/2024",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
 
   pt: {
     s: `Janeiro de 2024, reunião do board do Sicredi Digital. Eu apresentava resultados quando a diretora de risco me interrompeu: “Eu não confio em você porque você só aparece quando o número melhora.” Diante de oito executivos, minha credibilidade foi ao chão. A ausência em momentos críticos havia corroído a confiança entre áreas: 19 iniciativas - 22% do backlog - estavam paralisadas; R$ 3,4 milhões em receita estavam em risco; chargeback estava em 0,62% contra meta de 0,45%; reembolsos levavam 11 horas. A crise era menos técnica e mais institucional.`,

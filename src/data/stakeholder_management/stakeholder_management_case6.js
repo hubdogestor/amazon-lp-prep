@@ -4,7 +4,7 @@ const case_6 = {
   title_en: "Aligned 112 Autonomous Cooperatives to Drive Digital Transformation for 6.4M Members",
   company: "Sicredi",
   period: "2018-2021",
-  isTopCase: true,
+  isTopCase: false,
 
   pt: {
     s: `Em 2018, como Product Strategist no Sicredi, a primeira instituição financeira cooperativa do Brasil, com 6,4 milhões de membros e R$ 263 bilhões em ativos, enfrentei um desafio único. A missão era liderar a transformação digital do Woop Sicredi, mas o cenário era de alta complexidade: 112 cooperativas regionais autônomas, cada uma com seu próprio conselho, cultura e um profundo apego ao modelo relacional. A resistência era palpável. Presidentes regionais viam o app como uma ameaça ao contato humano, e o conselho nacional temia que a digitalização nos transformasse em "apenas mais uma fintech", diluindo a identidade que sustentou o Sicredi por 120 anos. A ambiguidade era clara: como inovar em escala nacional sem desrespeitar a autonomia e a cultura de cada cooperativa?`,

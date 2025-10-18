@@ -5,8 +5,8 @@ const case_5 = {
   title_en: "Redefined critical SLA with director to restore operational credibility",
   company: "Bradesco Payments",
   period: "03/2018-07/2018",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
 
   pt: {
     s: `Em março de 2018, como Product Manager na operação de pagamentos do Bradesco, respondi pela liquidação de grandes varejistas. No fechamento do trimestre, o diretor da divisão - ex-presidente de uma adquirente concorrente - destacou que a liquidação média atrasou 29% e R$ 480 milhões estavam fora do prazo. Cada dia de atraso elevava o custo de capital em 0,4 p.p. e gerava penalidades contratuais; três clientes ameaçavam encerrar contrato por quebra de confiança. O diretor foi direto: se o SLA D+1 não voltasse ao normal em 60 dias, ele entregaria a operação a outro gestor.`,
