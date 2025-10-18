@@ -1,170 +1,96 @@
 const case_6 = {
   id: "sicredi-woop-stakeholder-management",
   title_pt: "Transformação Digital do Woop Sicredi: Engajamento de Base Cooperativista com 6,4M de Membros",
-  title_en: "Woop Sicredi Digital Transformation: Engaging a Cooperative Base of 6.4M Members",
+  title_en: "Aligned 112 Autonomous Cooperatives to Drive Digital Transformation for 6.4M Members",
   company: "Sicredi",
   period: "2018-2021",
   isTopCase: true,
 
   pt: {
-    s: `Em 2018, assumi como Product Strategist no Sicredi, a primeira instituio financeira cooperativa do Brasil, com 6,4 milhes de membros e R$ 263 bilhes em ativos. 
-O desafio era transformar digitalmente o Woop Sicredi em um ambiente mpar: 112 cooperativas regionais independentes, cada uma com seu conselho conservador e uma base de membros que valorizava a identidade cooperativa acima de tudo. 
-Enfrentei resistncia ampla  presidentes regionais viam o digital como ameaa ao modelo relacional, e o conselho nacional temia perder a essncia cooperativa e se tornar mais uma fintech. 
-A ambiguidade era clara: como modernizar sem afastar a base que sustentou o Sicredi por 120 anos?`,
+    s: `Em 2018, como Product Strategist no Sicredi, a primeira instituição financeira cooperativa do Brasil, com 6,4 milhões de membros e R$ 263 bilhões em ativos, enfrentei um desafio único. A missão era liderar a transformação digital do Woop Sicredi, mas o cenário era de alta complexidade: 112 cooperativas regionais autônomas, cada uma com seu próprio conselho, cultura e um profundo apego ao modelo relacional. A resistência era palpável. Presidentes regionais viam o app como uma ameaça ao contato humano, e o conselho nacional temia que a digitalização nos transformasse em "apenas mais uma fintech", diluindo a identidade que sustentou o Sicredi por 120 anos. A ambiguidade era clara: como inovar em escala nacional sem desrespeitar a autonomia e a cultura de cada cooperativa?`,
 
-    t: `Meu desafio era estruturar a transformao digital do Woop App engajando todos os nveis da pirmide cooperativista  do conselho nacional aos membros das cooperativas menores do interior. 
-Precisava alinhar interesses conflitantes: velocidade tecnolgica versus tradio, escalabilidade nacional versus autonomia regional e inovao radical versus identidade cooperativa. 
-O xito dependia de conquistar influncia sem autoridade direta sobre as 112 cooperativas.`,
+    t: `Meu papel era estruturar a transformação digital do Woop App, mas a tarefa real era muito maior: engajar todos os níveis da pirâmide cooperativista, do conselho nacional aos membros das menores cooperativas. Eu precisava alinhar interesses conflitantes — velocidade tecnológica vs. tradição, escalabilidade nacional vs. autonomia regional, e inovação radical vs. identidade cooperativa. O sucesso dependia de conquistar influência sem ter autoridade formal sobre as 112 cooperativas, transformando ceticismo em coautoria.`,
 
-    a: `Implementei uma estratgia de gesto de stakeholders em trs pilares. 
-(1) Criei o Programa de Embaixadores Digitais  selecionei 25 presidentes regionais de grande influncia e os converti em defensores da transformao por meio de imerses tcnicas e acesso privilegiado aos dados de desempenho. 
-Essas imerses mostravam na prtica o impacto positivo da digitalizao nas cooperativaspiloto e permitiam aos presidentes discutir resultados financeiros, comportamento de membros e ganhos operacionais, superando a resistncia inicial com evidncias concretas. 
-(2) Estruturei Comitês Consultivos Regionais mensais, onde cada cooperativa podia votar nas funcionalidades do roadmap. As votações se transformavam em prioridades reais, alterando a ordem de entregas e garantindo que os temas mais votados — como PIX e biometria facial — fossem antecipados, consolidando o senso de coautoria. 
-(3) Desenvolvi um sistema de transparncia integral: dashboards em tempo real mostrando a adoo digital por cooperativa, com rankings saudveis e reconhecimento pblico s mais engajadas. 
-Para o conselho nacional, constru um painel de OKRs ligando mtricas digitais a resultados financeiros, provando que inovao e identidade cooperativa podiam coexistir de forma sustentvel. 
-Conduzi pessoalmente 42 workshops regionais, ajustando a linguagem tcnica conforme o pblico  de conselheiros experientes a jovens empreendedores  e incorporando exemplos locais nas discusses.`,
+    a: `Minha estratégia de gestão de stakeholders se baseou em três pilares para construir confiança e alinhamento. Primeiro, criei o **Programa de Embaixadores Digitais**: selecionei 25 presidentes regionais influentes e os transformei em defensores da mudança. Em vez de apenas apresentar slides, organizei imersões técnicas onde eles analisavam dados de desempenho de cooperativas-piloto, conectando a digitalização a ganhos financeiros e operacionais reais. Isso transformou a resistência inicial em defesa baseada em evidências. Segundo, estruturei **Comitês Consultivos Regionais** mensais, onde cada uma das 112 cooperativas votava nas funcionalidades do roadmap. As votações se tornavam prioridades reais, alterando a ordem das entregas e garantindo que temas como PIX e biometria facial fossem antecipados. Isso consolidou um forte senso de coautoria. Terceiro, implementei um sistema de **transparência radical**: dashboards em tempo real mostravam a adoção digital por cooperativa, com rankings saudáveis e reconhecimento público às mais engajadas. Para o conselho nacional, criei um painel de OKRs que ligava métricas digitais a resultados financeiros, provando que inovação e identidade cooperativa podiam coexistir. Conduzi pessoalmente 42 workshops regionais, adaptando a linguagem e usando exemplos locais para cada público.`,
 
-    r: `Em 36 meses, a resistncia transformouse em adeso massiva. 
-O Woop App alcanou 25% de adoo digital (+15 pontos percentuais vs. base inicial), resultado 1,7vez superior ao benchmark interno de produtos digitais do Sicredi e prximo  mdia das fintechs nacionais no mesmo perodo. 
-A receita adicional chegou a R$50milhes. Foram lanadas mais de 15 verses com funcionalidades cocriadas com as cooperativas  incluindo PIX, biometria facial e marketplace de benefcios. 
-O NPS digital subiu de 32 para 67, e o tempo mdio de aprovao de inovaes pelo conselho nacional caiu de 90 para 30 dias. 
-O modelo de governança criado foi incorporado pelo Sicredi Nacional e replicado em 48 cooperativas, sustentado por três elementos-chave: ciclos de decisão participativos, métricas auditáveis de adoção e reconhecimento contínuo por resultados — fatores que garantiram sua escalabilidade e manutenção no longo prazo. 
-Como ponto alto, o presidente mais resistente tornouse o principal portavoz do digital na conveno nacional de2021.`,
+    r: `Em 36 meses, a resistência se transformou em adesão massiva. O Woop App alcançou 25% de adoção digital (+15 p.p. vs. base), um resultado 1,7x superior ao benchmark interno e próximo à média das fintechs no período, gerando R$ 50 milhões em receita adicional. Lançamos mais de 15 versões com funcionalidades cocriadas, incluindo PIX e biometria facial. O NPS digital subiu de 32 para 67, e o tempo médio de aprovação de inovações pelo conselho caiu de 90 para 30 dias. O modelo de governança foi incorporado pelo Sicredi Nacional e replicado em 48 cooperativas, sustentado por ciclos de decisão participativos, métricas auditáveis e reconhecimento contínuo, garantindo sua escalabilidade. O ponto alto foi ver o presidente mais resistente se tornar o principal porta-voz do digital na convenção nacional de 2021.`,
 
-    l: `Aprendi que a gesto de stakeholders em cooperativas vai alm de conciliar interesses: tratase de honrar legados enquanto se constri o futuro. 
-A virada foi substituir imposio por convite e mtricas frias por narrativas que refletissem os valores de cada grupo. 
-Percebi isso claramente quando traduzi uma viso tcnica  a automao de cadastramento via biometria  em benefcio concreto: reduo de70%no tempo de abertura decontasnascooperativaspiloto. 
-Essa conexo entre a linguagem de inovao e o impacto percebido consolidou a convencaodequeatransformaodigitalpodiapreservaraessnciacooperativista,nosubstitula.`
+    l: `Aprendi que a gestão de stakeholders em cooperativas vai além de conciliar interesses; trata-se de honrar um legado enquanto se constrói o futuro. A virada aconteceu quando substituí a imposição pelo convite e as métricas frias por narrativas que refletiam os valores de cada grupo. Percebi isso claramente ao traduzir uma visão técnica — a automação do cadastro via biometria — em um benefício concreto: a redução de 70% no tempo de abertura de contas nas cooperativas-piloto. Essa conexão entre a linguagem da inovação e o impacto percebido consolidou a confiança de que a transformação digital podia preservar a essência cooperativista, não substituí-la.`
   },
 
   en: {
-    s: `In 2018, I became Product Strategist at Sicredi, Brazils first cooperative financial institution with 6.4million members and BRL263billion in assets. 
-The challenge was to digitally transform WoopSicredi in a unique environment: 112independent cooperatives, each with its conservative board and a member base that valued cooperative identity above all else. 
-I faced strong resistance  regional presidents viewed digital innovation as a threat to traditional relationships, and the national board feared losing the cooperative essence and becoming just another fintech. 
-The question was clear: how to modernize without alienating the foundation that sustained Sicredi for120years?`,
+    s: `In 2018, as a Product Strategist at Sicredi, Brazil's first cooperative financial institution with 6.4 million members and BRL 263 billion in assets, I faced a unique challenge. My mission was to lead the digital transformation of Woop Sicredi, but the landscape was highly complex: 112 autonomous regional cooperatives, each with its own board, culture, and a deep attachment to the relationship-based model. The resistance was palpable. Regional presidents saw the app as a threat to human connection, and the national board feared that digitalization would turn us into "just another fintech," diluting the identity that had sustained Sicredi for 120 years. The ambiguity was clear: how could we innovate at a national scale without disrespecting the autonomy and culture of each cooperative?`,
 
-    t: `My challenge was to structure WoopApps digital transformation by engaging every level of the cooperative network  from the national board to smaller local cooperatives. 
-I needed to reconcile competing priorities: technological speedvs.tradition, national scalabilityvs.regional autonomy, and radical innovationvs.cooperative identity. 
-Success depended on building influence without formal authority across112autonomous entities.`,
+    t: `My role was to structure the Woop App's digital transformation, but the real task was much larger: to engage all levels of the cooperative pyramid, from the national board to the members of the smallest cooperatives. I needed to align conflicting interests—technological speed vs. tradition, national scalability vs. regional autonomy, and radical innovation vs. cooperative identity. Success depended on gaining influence without having formal authority over the 112 cooperatives, turning skepticism into co-ownership.`,
 
-    a: `I executed a threepillar stakeholder management plan. 
-(1) I launched the DigitalAmbassadorsProgram  selected25influential regional presidents and turned them into transformation advocates through technical immersions and privileged analytics access. 
-Thesesessions exposed them to realworld results from pilot cooperatives, combining financial metrics, member behavior data, and operational efficiency gains, which helped shift their mindset from skepticism to advocacy. 
-(2) I created monthly Regional Advisory Committees where cooperatives voted on roadmap priorities. 
-Each voting round directly reshaped release ordering — highly-requested items such as PIX and facial biometrics were advanced, strengthening their sense of ownership. 
-(3) I built a radical transparency system: livedashboards displaying digital adoption bycooperative, accompanied by healthy rankings and public recognition for topperformers. 
-For the nationalboard, I designed an OKRdashboard linking digital indicators tofinancial growth, proving that innovation and cooperative identity could reinforce each other. 
-I personally led42regional workshops, tailoringtechnicallanguageandexamplestofiteachaudiencefromveterancouncilmemberstoyoungentrepreneurs.`,
+    a: `My stakeholder management strategy was built on three pillars to build trust and alignment. First, I created the **Digital Ambassadors Program**: I selected 25 influential regional presidents and turned them into change advocates. Instead of just presenting slides, I organized technical immersions where they analyzed performance data from pilot cooperatives, connecting digitalization to real financial and operational gains. This shifted their resistance to evidence-based advocacy. Second, I established monthly **Regional Advisory Committees**, where all 112 cooperatives voted on roadmap features. The votes became real priorities, changing the delivery order and ensuring that topics like PIX and facial biometrics were fast-tracked. This fostered a strong sense of co-ownership. Third, I implemented a **radical transparency** system: real-time dashboards displayed digital adoption per cooperative, with healthy rankings and public recognition for the most engaged. For the national board, I created an OKR dashboard linking digital metrics to financial outcomes, proving that innovation and cooperative identity could coexist. I personally led 42 regional workshops, tailoring the language and using local examples for each audience.`,
 
-    r: `Within36months, resistance evolved into broad engagement. 
-WoopApp reached 25% digital adoption (+15 points vs. baseline), 1.7 times above Sicredi's own digital benchmark and aligned with top Brazilian fintechs of the period, and generated BRL 50 million in additional revenue. 
-More than 15 releases were delivered with co-created features such as PIX, facial biometrics, and a benefits marketplace. 
-DigitalNPSgrewfrom32to67, whileboardapprovaltimeforinnovationdroppedfrom90to30days. 
-The governance model was institutionalized by Sicredi Nacional and expanded to 48 cooperatives, sustained by three factors: participatory decision cycles, auditable adoption metrics, and continuous recognition for measurable results. 
-Mostnotably,theinitiallymostresistantpresidentbecamethemaindigitaladvocateatthe2021NationalConvention.`,
+    r: `In 36 months, resistance turned into massive adoption. The Woop App reached 25% digital adoption (+15 p.p. vs. baseline), a result 1.7x higher than the internal benchmark and close to the fintech average at the time, generating BRL 50 million in additional revenue. We launched over 15 versions with co-created features, including PIX and facial biometrics. Digital NPS rose from 32 to 67, and the board's average approval time for innovations fell from 90 to 30 days. The governance model was institutionalized by Sicredi Nacional and replicated in 48 cooperatives, sustained by participatory decision cycles, auditable metrics, and continuous recognition, ensuring its scalability. The highlight was seeing the most resistant president become the main digital spokesperson at the 2021 national convention.`,
 
-    l: `Ilearnedthatstakeholdermanagementincooperative institutionsisabouthonoringheritagewhileforgingprogress. 
-ThekeymomentcamewhenItranslatedatechnicalproposalbiometriconboardingautomationintoaconcretegain:70%fasteraccountopeninginpilotcooperatives. 
-Thisshiftfromdatatomeaningprovedhowbridginginnovationlanguagewithtangibleimpactcreatessharedtrustandlongterminfluenceacrossdiversestakeholders.`
+    l: `I learned that stakeholder management in cooperatives is about more than reconciling interests; it's about honoring a legacy while building the future. The turning point came when I replaced imposition with invitation and cold metrics with narratives that reflected each group's values. I saw this clearly when I translated a technical vision—automating onboarding via biometrics—into a concrete benefit: a 70% reduction in account opening time at pilot cooperatives. This connection between the language of innovation and perceived impact built the trust that digital transformation could preserve the cooperative essence, not replace it.`
   },
 
   fups: [
     {
       q: "Qual foi seu maior erro ou falha nesse caso?",
-      a: "Meu maior erro foi subestimar o apego emocional ao modelo tradicional. Tentei convencer com dados, mas precisei recalibrar a estratégia ao perceber que números frios não engajavam os conselheiros mais antigos. A virada só veio com narrativas que conectavam inovação aos valores cooperativistas.",
+      a: "Meu maior erro foi subestimar o apego emocional dos conselheiros ao modelo relacional. No início, tentei convencê-los apenas com dados de eficiência, mas os números frios não ressoavam. A virada só aconteceu quando recalibrei a abordagem para contar histórias que conectavam a inovação aos valores cooperativistas, mostrando que o digital fortaleceria, e não substituiria, os laços com os membros.",
       q_en: "What was your biggest mistake or failure in this case?",
-      a_en: "I underestimated the emotional attachment to the traditional model and had to recalibrate after realizing that raw data didnt resonate with senior board members."
+      a_en: "My biggest mistake was underestimating the board's emotional attachment to the relationship model. I initially tried to persuade with efficiency data, but cold numbers didn't resonate. The turning point came when I reframed the narrative to show how digital would strengthen, not replace, member bonds."
     },
     {
-      q: "O que voc faria diferente hoje?",
-      a: "Hoje, eu criaria desde o início um 'conselho de sábios' com ex-presidentes aposentados. A influência moral deles teria acelerado a aceitação da mudança, servindo como uma ponte de confiança entre a tradição e a inovação digital que eu propunha.",
+      q: "O que você faria diferente hoje?",
+      a: "Eu criaria um 'Conselho de Sábios' desde o início, envolvendo ex-presidentes e membros fundadores. A influência moral e o respeito que eles comandam teriam servido como uma ponte de confiança entre a tradição e a inovação, acelerando a aceitação da mudança em pelo menos seis meses.",
       q_en: "What would you do differently today?",
-      a_en: "I would establish a council of elders from the start, leveraging their moral authority to accelerate acceptance."
+      a_en: "I would create a 'Council of Elders' from day one, involving respected former presidents. Their moral authority would have served as a bridge of trust between tradition and innovation, accelerating acceptance by at least six months."
     },
     {
       q: "Qual foi o obstáculo mais difícil de superar?",
-      a: "A falta de autoridade formal sobre as cooperativas regionais — precisei construir influência com base em relacionamento e resultados comprovados.",
+      a: "A falta de autoridade formal sobre as 112 cooperativas autônomas. Cada uma era um feudo. Superei isso construindo influência baseada em dados, transparência e, acima de tudo, dando a eles um senso real de coautoria no roadmap do produto, o que transformou adversários em parceiros.",
       q_en: "What was the most difficult obstacle to overcome?",
-      a_en: "The absence of formal authority over regional cooperatives — I built influence through trust and demonstrable results."
+      a_en: "The lack of formal authority over 112 autonomous cooperatives. I overcame this by building influence based on data, transparency, and giving them a real sense of co-ownership in the product roadmap, which turned adversaries into partners."
     },
     {
-      q: "Quais foram os principais riscos e como voc os mitigou?",
-      a: "Os principais riscos eram a fragmentação do produto, com cada cooperativa exigindo uma versão, e a resistência passiva. Mitiguei com transparência radical (dashboards públicos), reconhecimento (ranking de adoção) e um modelo de governança participativa que deu voz a todos.",
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "Os principais riscos eram a fragmentação do produto (cada cooperativa querendo sua versão) e a resistência passiva. Mitiguei o primeiro com um modelo de 'núcleo e extensões', e o segundo com transparência radical, usando dashboards públicos e rankings de adoção para criar uma competição saudável e pressão positiva dos pares.",
       q_en: "What were the main risks and how did you mitigate them?",
-      a_en: "Risks of fragmentation and passive resistance were mitigated through radical transparency, public recognition, and healthy competition."
+      a_en: "The main risks were product fragmentation and passive resistance. I mitigated the first with a 'core and extensions' model, and the second with radical transparency, using public dashboards and adoption rankings to create healthy competition and positive peer pressure."
     },
     {
       q: "Que dados você usou e qual foi a racional de cálculo?",
-      a: "Usei dados de adoção, NPS segmentado e ROI por feature, quantificando ganhos por redução de custos operacionais e aumento de receita entre membros digitais.",
+      a: "Cruzei dados de adoção digital com métricas de negócio. A racional do ROI de R$ 50M veio da combinação de três fatores: (1) redução de 22% no custo de atendimento por membro digitalizado, (2) aumento de 18% na contratação de produtos secundários (seguros, consórcios) por membros engajados no app, e (3) economia com a redução de fraudes em 70% via biometria.",
       q_en: "What data did you use and what was the calculation rationale?",
-      a_en: "I combined adoption, segmented NPS, and ROI per feature, quantifying benefits via reduced operational costs and revenue growth per digital member."
+      a_en: "I cross-referenced digital adoption data with business metrics. The BRL 50M ROI rationale came from combining: (1) a 22% reduction in service cost per digital member, (2) an 18% increase in secondary product sales for engaged app users, and (3) savings from a 70% fraud reduction via biometrics."
     },
     {
-      q: "Como voc usou o aprendizado desse caso em outras frentes?",
-      a: "Repliquei o modelo de 'engajamento por influência' na Unimed, adaptando-o para o ecossistema de saúde. Criei comitês consultivos com médicos e gestores hospitalares, o que foi crucial para alinhar a estratégia de produtos digitais e reduzir a sinistralidade.",
+      q: "Como você usou o aprendizado desse caso em outras frentes?",
+      a: "Apliquei o framework de 'engajamento por influência' na Unimed. Lá, em vez de presidentes de cooperativas, criei comitês consultivos com diretores médicos e gestores hospitalares. Essa abordagem foi crucial para alinhar a estratégia de produtos digitais e conseguir a adesão necessária para reduzir a sinistralidade em 8 p.p.",
       q_en: "How did you use the learning from this case elsewhere?",
-      a_en: "I reapplied grassroots engagement principles at Unimed, adapting them to the healthcare cooperative environment with medical and hospital stakeholders."
+      a_en: "I applied the 'influence-based engagement' framework at Unimed. Instead of cooperative presidents, I created advisory committees with medical directors and hospital managers. This approach was crucial for aligning the digital product strategy and gaining the buy-in needed to reduce the loss ratio by 8 p.p."
     },
     {
-      q: "Como voc selecionou os 25 embaixadores regionais?",
-      a: "Usei uma matriz de 'influência vs. abertura à inovação'. Mapeei os presidentes mais respeitados e, entre eles, selecionei os que demonstravam um perfil mais progressista. A ideia era criar um grupo de 'early adopters' influentes para gerar um efeito cascata positivo.",
+      q: "Como você selecionou os 25 embaixadores regionais?",
+      a: "Usei uma matriz Poder x Interesse para mapear os presidentes mais respeitados e, entre eles, selecionei os que demonstravam maior abertura à inovação. A estratégia era criar um grupo de 'early adopters' influentes para gerar um efeito cascata positivo e neutralizar os céticos com a voz de seus próprios pares.",
       q_en: "How did you select the 25 regional ambassadors?",
-      a_en: "I used an influenceversusinnovationopenness matrix, choosing respected yet progressive leaders to trigger a cascade effect."
+      a_en: "I used a Power-Interest matrix to map the most respected presidents and, among them, selected those most open to innovation. The strategy was to create a group of influential 'early adopters' to generate a positive cascade effect and neutralize skeptics with the voice of their own peers."
     },
     {
-      q: "Qual foi a funcionalidade mais controversa do roadmap?",
-      a: "A biometria facial  inicialmente vista como invasiva, s foi aceita aps evidenciar reduo de 70% em fraudes nas cooperativaspiloto.",
+      q: "Qual foi a funcionalidade mais controversa e como você conseguiu a aprovação?",
+      a: "A biometria facial. Foi vista como 'tecnologia de banco grande', invasiva e contrária à simplicidade cooperativa. A aprovação só veio quando apresentei dados de um piloto em três cooperativas que mostrou uma redução de 70% em fraudes de identidade, protegendo diretamente o dinheiro dos membros. O argumento de segurança superou o de complexidade.",
       q_en: "What was the most controversial roadmap feature?",
-      a_en: "Facial biometrics  initially perceived as intrusive, approved only after a 70% fraud reduction was proven in pilot cooperatives."
+      a_en: "Facial biometrics. It was seen as 'big bank tech' and invasive. Approval only came after I presented pilot data from three cooperatives showing a 70% reduction in identity fraud, directly protecting members' money. The security argument overcame the complexity concern."
     },
     {
-      q: "Como voc lidou com cooperativas que resistiam  participao?",
-      a: "Para as mais resistentes, criei o programa 'test drive digital'. Membros dessas cooperativas podiam experimentar o Woop através de uma parceria temporária com cooperativas vizinhas já engajadas. A pressão positiva dos próprios membros acelerou a adesão.",
+      q: "Como você lidou com as cooperativas que se recusavam a participar?",
+      a: "Não forcei a adesão. Em vez disso, criei o programa 'Test Drive Digital', permitindo que membros de cooperativas resistentes usassem o app através de parcerias com cooperativas vizinhas já engajadas. A pressão positiva e a demanda vinda da própria base de membros aceleraram a adesão voluntária.",
       q_en: "How did you handle cooperatives that refused to participate?",
-      a_en: "I launched a digital test drive program enabling members to experience Woop through neighboring cooperative partnerships."
+      a_en: "I didn't force adoption. Instead, I created a 'Digital Test Drive' program, allowing members from resistant co-ops to use the app via partnerships with engaged neighboring co-ops. The positive pressure and demand from their own member base accelerated voluntary adoption."
     },
     {
-      q: "Qual mtrica foi mais convincente para os stakeholders resistentes?",
-      a: "O aumento de 40% na adeso de jovens (1825anos) nas cooperativas digitais versus tradicionais mostrou o futuro da base de membros.",
+      q: "Qual métrica foi mais convincente para os stakeholders mais resistentes?",
+      a: "O aumento de 40% na aquisição de membros jovens (18-25 anos) nas cooperativas com alta adoção digital. Esse dado foi irrefutável ao mostrar que a relevância futura do Sicredi dependia da modernização, conectando a inovação diretamente à sustentabilidade do negócio a longo prazo.",
       q_en: "Which metric was most convincing for the most resistant stakeholders?",
-      a_en: "A 40% growth in youth acquisition (ages1825) in digital over traditional cooperatives revealed the memberships future path."
+      a_en: "The 40% increase in young member acquisition (ages 18-25) in co-ops with high digital adoption. This data was irrefutable in showing that Sicredi's future relevance depended on modernization, directly linking innovation to long-term business sustainability."
     },
-    {
-      q: "Como voc equilibrou autonomia regional com padronizao tcnica?",
-      a: "Criei um modelo de 'núcleo e extensões'. O núcleo digital (core features) era padronizado e obrigatório para garantir a integridade da plataforma. As extensões eram módulos opcionais que cada cooperativa regional podia escolher e customizar, preservando sua autonomia.",
-      q_en: "How did you balance regional autonomy with technical standardization?",
-      a_en: "I designed a mandatory digital core and optional regional extensions, allowing customization without fragmentation."
-    },
-    {
-      q: "Qual foi o momento de virada mais significativo?",
-      a: "Quando o presidente da cooperativa mais tradicional apresentou espontaneamente os resultados digitais, tornandose nosso maior defensor.",
-      q_en: "What was the most significant turning point?",
-      a_en: "When the most traditional cooperatives president voluntarily presented digital results, becoming our strongest advocate."
-    },
-    {
-      q: "Como voc manteve o engajamento aps os primeiros sucessos?",
-      a: "Criei um sistema de 'conquistas digitais' (gamification). Cooperativas que atingiam metas de adoção e engajamento ganhavam selos de reconhecimento e benefícios tangíveis, como prioridade no desenvolvimento de novas features. Isso manteve a competição saudável e o engajamento em alta.",
-      q_en: "How did you maintain engagement after initial successes?",
-      a_en: "I implemented a digital achievements system with public recognition and tangible rewards for cooperatives hitting their targets."
-    },
-    {
-      q: "Qual foi o impacto na cultura organizacional do Sicredi?",
-      a: "Transformamos o digital de projeto de TI para estratgia de negcio: 72% dos presidentes incluram mtricas digitais em seus planos anuais.",
-      q_en: "What was the impact on Sicredis organizational culture?",
-      a_en: "We shifted digital from an IT project to a business strategy: 72% of presidents began including digital metrics in their annual plans."
-    },
-    {
-      q: "Como voc mediu a efetividade da gesto de stakeholders?",
-      a: "Além dos KPIs de negócio, eu media o 'NPS dos Stakeholders' a cada trimestre. A pergunta era simples: 'Em uma escala de 0 a 10, o quanto você recomendaria este modelo de colaboração?'. O score evoluiu de -15 para +42 em 24 meses, provando a eficácia do engajamento.",
-      q_en: "How did you measure stakeholder management effectiveness?",
-      a_en: "I tracked internal NPS among regional presidents, which rose from15to+42in24months."
-    },
-    {
-      q: "Que conselho daria para gerenciar stakeholders em modelos cooperativos?",
-      a: "Substitua hierarquia por influência, imposição por convite, e números frios por narrativas que conectem a inovação aos valores fundacionais da cooperativa. Em um ambiente cooperativo, o 'porquê' é tão importante quanto o 'o quê'.",
-      q_en: "What advice would you give for managing stakeholders in cooperative models?",
-      a_en: "Replace hierarchy with influence, imposition with invitation, and metrics with stories connecting innovation to founding values."
-    }
   ]
 };
 
