@@ -19,3 +19,5 @@ FUP 6. Uso posterior do aprendizado. (Ex: Como voce usou o aprendizado desse cas
 3 - adicionar perguntas novas (diferentes de todas as criadas até então) - aqui sim voce pode usar o critério que melhor entender.
 
 Importante: para todas, manter o padrão " q / a / q_en / a_en ".
+
+As respostas dos fups devem ter entre 2 a 4 linhas, tom executivo, rico em detalhes, e ajudando a responder as perguntas do bar raiser e se aprofundar nos detalhes dos cases.
