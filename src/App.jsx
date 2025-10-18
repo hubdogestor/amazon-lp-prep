@@ -84,7 +84,7 @@ export default function App() {
   const [showTopCases, setShowTopCases] = useState(false);
   const [showIcebreaker, setShowIcebreaker] = useState(false);
   const [showMyQuestions, setShowMyQuestions] = useState(false);
-  const [language, setLanguage] = useState(i18n.language);
+  const [language, setLanguage] = useState('pt');
 
   useEffect(() => {
     i18n.changeLanguage(language);
