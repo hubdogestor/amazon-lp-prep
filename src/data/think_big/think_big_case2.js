@@ -23,6 +23,42 @@ const case_2 = {
     l: `I learned that ambitious vision only works when each stakeholder sees clear individual benefit within the collective goal. When I design solutions that strengthen parts and whole simultaneously, I can align conflicting interests and generate exponential results. Scale isn't about size — it's about creating value that multiplies. Today, whenever I face systemic challenges, I apply the same principle: find the point where individual ambition meets collective benefit.`
   },
   fups: [
+    {
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Meu maior erro foi subestimar a complexidade política para alinhar as 347 cooperativas. Inicialmente, foquei apenas na solução técnica, mas perdi três meses em debates infrutíferos. Aprendi que em um sistema federativo, a governança e os incentivos individuais são tão críticos quanto a arquitetura da plataforma. A solução só avançou quando criei o modelo que preservava a autonomia local.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "My biggest mistake was underestimating the political complexity of aligning the 347 cooperatives. Initially, I focused only on the technical solution, but I wasted three months in fruitless debates. I learned that in a federated system, governance and individual incentives are as critical as the platform's architecture. The solution only moved forward when I created the model that preserved local autonomy."
+    },
+    {
+      q: "O que você faria diferente hoje?",
+      a: "Hoje, eu começaria pelo modelo de governança federativa antes de desenhar uma linha de código. Apresentaria primeiro o business case individual para os 12 presidentes regionais mais resistentes, mostrando a economia de R$ 18M por cooperativa. Só depois de garantir o alinhamento político e de incentivos é que eu detalharia a plataforma tecnológica, invertendo a ordem que segui originalmente.",
+      q_en: "What would you do differently today?",
+      a_en: "Today, I would start with the federated governance model before writing a single line of code. I would first present the individual business case to the 12 most resistant regional presidents, showing the BRL 18M savings per cooperative. Only after securing political and incentive alignment would I detail the technological platform, reversing the order I originally followed."
+    },
+    {
+      q: "Qual foi o obstáculo mais difícil de superar que você enfrentou?",
+      a: "O obstáculo mais difícil foi a resistência dos 12 presidentes regionais, que viam a plataforma centralizada como uma ameaça à sua autonomia. Superei isso provando com dados que o modelo federativo não só preservava a marca e a gestão local, mas também gerava uma economia de 34% em TI e aumentava a margem em R$ 18M anuais para cada um. Foi uma batalha de dados contra política.",
+      q_en: "What was the hardest obstacle to overcome that you faced?",
+      a_en: "The hardest obstacle was the resistance from the 12 regional presidents, who saw the centralized platform as a threat to their autonomy. I overcame this by proving with data that the federative model not only preserved the local brand and management but also generated 34% in IT savings and increased the margin by BRL 18M annually for each of them. It was a battle of data against politics."
+    },
+    {
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "O principal risco era um 'fork' do sistema, com cooperativas criando soluções paralelas e fragmentando ainda mais o ecossistema. Mitiguei isso com um modelo de incentivos financeiros (R$ 50k por adoção) e, mais importante, garantindo que a plataforma central oferecesse uma economia de escala (34% de redução de custos de TI) que nenhuma solução individual poderia alcançar.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "The main risk was a system 'fork,' with cooperatives creating parallel solutions and further fragmenting the ecosystem. I mitigated this with a financial incentive model (BRL 50k per adoption) and, more importantly, by ensuring the central platform offered economies of scale (34% IT cost reduction) that no individual solution could match."
+    },
+    {
+      q: "Que dados você usou e qual foi a racional de cálculo?",
+      a: "Usei dados de mercado para mostrar a perda de R$ 1,2B em receita e a queda do NPS de 67 para 41. Para o ROI, comparei o custo do projeto com a nova receita de R$ 312M do marketplace e a economia de R$ 89M em TI. A economia de R$ 18M por cooperativa foi calculada com base na redução de 34% dos custos de TI locais, validados com 15 cooperativas-piloto.",
+      q_en: "What data did you use and what was your calculation rationale?",
+      a_en: "I used market data to show the BRL 1.2B revenue loss and the NPS drop from 67 to 41. For the ROI, I compared the project cost with the BRL 312M in new marketplace revenue and the BRL 89M in IT savings. The BRL 18M savings per cooperative was calculated based on a 34% reduction in local IT costs, validated with 15 pilot cooperatives."
+    },
+    {
+      q: "Como você usou o aprendizado desse caso em outras frentes / trabalhos?",
+      a: "Apliquei o conceito de 'plataforma de ecossistema com governança federada' em um projeto para a SEFAZ-RS, onde precisei alinhar 18 secretarias com interesses distintos. A lição de que é preciso criar valor individual claro para viabilizar um ganho coletivo se tornou um pilar na minha forma de abordar transformações complexas e multi-stakeholder.",
+      q_en: "How did you use the learning from this case in other fronts / works?",
+      a_en: "I applied the concept of an 'ecosystem platform with federated governance' in a project for SEFAZ-RS, where I needed to align 18 secretariats with distinct interests. The lesson that you need to create clear individual value to enable a collective gain has become a pillar in my approach to complex, multi-stakeholder transformations."
+    },
     { q: "Como você mapeou os 847 processos fragmentados?", a: "Auditoria em 15 cooperativas-piloto, entrevistas com 120 stakeholders e análise de jornada end-to-end de 8 personas diferentes de beneficiários.", q_en: "How did you map the 847 fragmented processes?", a_en: "Audit across 15 pilot cooperatives, interviews with 120 stakeholders, and end-to-end journey analysis of 8 different beneficiary personas." },
     { q: "Quais foram as 23 integrações críticas identificadas?", a: "Agendamento, prontuário, autorização, faturamento, reembolso, farmácia, telemedicina, e 16 APIs de fornecedores externos que impactavam jornada.", q_en: "What were the 23 critical integrations identified?", a_en: "Scheduling, medical records, authorization, billing, reimbursement, pharmacy, telemedicine, and 16 external supplier APIs impacting journey." },
     { q: "Como você convenceu 12 presidentes regionais resistentes?", a: "Mostrei que modelo federativo preservava autonomia local mas gerava economia de R$ 18M por cooperativa. Dados > política.", q_en: "How did you convince 12 resistant regional presidents?", a_en: "Showed federative model preserved local autonomy but generated BRL 18M savings per cooperative. Data > politics." },

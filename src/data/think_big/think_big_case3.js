@@ -24,6 +24,42 @@ const case_3 = {
   },
   fups: [
     {
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Meu maior erro foi subestimar o ceticismo do CFO sobre a canibalização da receita. Inicialmente, apresentei a visão estratégica, mas não um modelo financeiro robusto. Perdi um ciclo de aprovação. Aprendi que uma visão 'think big' precisa ser acompanhada de uma planilha 'dive deep' que prove o valor e mitigue os medos financeiros da liderança sênior.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "My biggest mistake was underestimating the CFO's skepticism about revenue cannibalization. Initially, I presented the strategic vision but not a robust financial model. I missed an approval cycle. I learned that a 'think big' vision must be accompanied by a 'dive deep' spreadsheet that proves the value and mitigates the senior leadership's financial fears."
+    },
+    {
+      q: "O que você faria diferente hoje?",
+      a: "Hoje, eu começaria pelo sandbox e pelo portal de desenvolvedores. Em vez de gastar tempo em apresentações, eu demonstraria o onboarding de 6 minutos ao vivo para o CFO e o CTO desde o primeiro dia. Uma demonstração funcional que prova a simplicidade e o valor para o cliente final é mais poderosa do que qualquer slide para vencer o ceticismo inicial.",
+      q_en: "What would you do differently today?",
+      a_en: "Today, I would start with the sandbox and the developer portal. Instead of spending time on presentations, I would demonstrate the 6-minute onboarding live to the CFO and CTO from day one. A functional demo that proves the simplicity and value for the end customer is more powerful than any slide to overcome initial skepticism."
+    },
+    {
+      q: "Qual foi o obstáculo mais difícil de superar que você enfrentou?",
+      a: "O obstáculo mais difícil foi o conflito com a área de TI legada, que via meu projeto como uma distração do backlog interno. Superei isso provando com dados que expor as APIs como um produto reduziria em 18% as requisições repetitivas que eles recebiam, liberando tempo da equipe deles. Além disso, consegui um orçamento de inovação para financiar squads híbridos, mostrando que era uma iniciativa de receita, não de custo.",
+      q_en: "What was the hardest obstacle to overcome that you faced?",
+      a_en: "The hardest obstacle was the conflict with the legacy IT area, which saw my project as a distraction from the internal backlog. I overcame this by proving with data that exposing the APIs as a product would reduce by 18% the repetitive requests they received, freeing up their team's time. Additionally, I secured an innovation budget to fund hybrid squads, showing it was a revenue initiative, not a cost one."
+    },
+    {
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "O principal risco era regulatório, especificamente a mistura de dados de clientes em uma arquitetura multi-tenant. Mitiguei isso desenhando uma segregação lógica por tenant e obtendo um parecer formal do BACEN em 45 dias, antes de escrever o código. Outro risco era a performance; garanti que as novas APIs não impactassem o B2C com quotas de capacidade e throttling automático a 80% do consumo.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "The main risk was regulatory, specifically the mixing of customer data in a multi-tenant architecture. I mitigated this by designing logical segregation per tenant and obtaining a formal opinion from BACEN in 45 days, before writing the code. Another risk was performance; I ensured the new APIs wouldn't impact the B2C with capacity quotas and automatic throttling at 80% consumption."
+    },
+    {
+      q: "Que dados você usou e qual foi a racional de cálculo para o payback de 21 meses?",
+      a: "Usei a receita anualizada dos pilotos (R$18,4M) com 58% de margem bruta, resultando em um lucro bruto de R$10,67M/ano. O investimento total no projeto (desenvolvimento, infra, time) foi de R$18,7M. O payback foi calculado como Investimento / Lucro Bruto Anual, ou seja, R$18,7M / R$10,67M = 1,75 anos, o que equivale a aproximadamente 21 meses.",
+      q_en: "What data did you use and what was your calculation rationale for the 21-month payback?",
+      a_en: "I used the annualized revenue from the pilots (BRL 18.4M) with a 58% gross margin, resulting in a gross profit of BRL 10.67M/year. The total project investment (development, infrastructure, team) was BRL 18.7M. The payback was calculated as Investment / Annual Gross Profit, i.e., BRL 18.7M / BRL 10.67M = 1.75 years, which is approximately 21 months."
+    },
+    {
+      q: "Como você usou o aprendizado desse caso em outras frentes / trabalhos?",
+      a: "Esse caso criou meu playbook para 'monetizar ativos internos'. Na Unimed, usei a mesma lógica para transformar a rede de médicos em uma plataforma de telemedicina aberta, gerando uma nova linha de receita. A lição de que um protótipo funcional e um business case robusto vencem objeções internas foi fundamental para destravar inovações em ambientes corporativos tradicionais.",
+      q_en: "How did you use the learning from this case in other fronts / works?",
+      a_en: "This case created my playbook for 'monetizing internal assets.' At Unimed, I used the same logic to transform the network of doctors into an open telemedicine platform, generating a new revenue stream. The lesson that a functional prototype and a robust business case overcome internal objections was fundamental to unlocking innovations in traditional corporate environments."
+    },
+    {
       q: "Como priorizou quais APIs expor primeiro focando no impacto real nos consumidores finais?",
       a: "Entrevistei 340 comerciantes parceiros do Next e 42 consumidores finais em México e Colômbia. Descobri que 73% dos consumidores abandonavam checkouts por latência >3 segundos. Criei matriz valor vs. risco com 3 dimensões: (1) experiência do usuário final (tempo de checkout, taxa de aprovação, latência percebida), (2) volume interno de transações, (3) risco regulatório. Das 214 APIs inventariadas, priorizei 47 que entregavam <800ms de latência, cobriam 85% do valor percebido pelos consumidores finais, e tinham baixo risco regulatório. Rejeitei APIs de relatórios que fintechs queriam mas não impactavam experiência do end-user.",
       q_en: "How did you prioritize which APIs to expose first focusing on real end-consumer impact?",
@@ -40,12 +76,6 @@ const case_3 = {
       a: "Comparei benchmarks (Stripe 2,9%, dLocal 3,2%), defini faixa de 2,3%-2,7%, criei tiers variáveis e rebates progressivos para incentivar volume.",
       q_en: "How did you set PaaS pricing?",
       a_en: "I benchmarked Stripe at 2.9% and dLocal at 3.2%, set a 2.3%-2.7% band, built variable tiers, and tied progressive rebates to volume."
-    },
-    {
-      q: "Que conflito apareceu com a TI legada?",
-      a: "TI queria priorizar backlog interno. Eu provei que expor APIs reduziria 18% das requisições repetitivas e financiei squads híbridos via orçamento de inovação.",
-      q_en: "What conflict arose with legacy IT?",
-      a_en: "Legacy IT wanted to focus on internal backlog. I showed exposing APIs would cut 18% of repetitive requests and funded hybrid squads with the innovation budget."
     },
     {
       q: "Como demonstrou demanda real focando no valor para consumidores finais, não apenas fintechs?",

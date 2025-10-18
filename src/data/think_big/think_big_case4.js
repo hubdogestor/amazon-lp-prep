@@ -24,6 +24,42 @@ const case_4 = {
   },
   fups: [
     {
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Meu maior erro foi subestimar a resistência do Secretário de Obras. Tentei convencê-lo em reuniões 1:1, mas ele via o simulador como uma perda de poder. Só venci o impasse quando escalei a decisão para o comitê de governança, usando dados do DNIT para mostrar o custo da inação (R$110M/ano). Aprendi que, no setor público, a transparência e a governança colegiada são as melhores ferramentas contra a resistência política individual.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "My biggest mistake was underestimating the resistance from the Secretary of Public Works. I tried to convince him in 1:1 meetings, but he saw the simulator as a loss of power. I only broke the impasse when I escalated the decision to the governance committee, using DNIT data to show the cost of inaction (BRL 110M/year). I learned that in the public sector, transparency and collegiate governance are the best tools against individual political resistance."
+    },
+    {
+      q: "O que você faria diferente hoje?",
+      a: "Hoje, eu começaria pelas audiências públicas. Em vez de construir o modelo e depois validá-lo, eu co-criaria as métricas de ROI social com os 1.840 cidadãos desde o início. Usar a voz do cidadão para definir as prioridades do digital twin desde o dia zero teria dado ao projeto uma legitimidade inquestionável, neutralizando resistências políticas antes mesmo que elas surgissem.",
+      q_en: "What would you do differently today?",
+      a_en: "Today, I would start with the public hearings. Instead of building the model and then validating it, I would co-create the social ROI metrics with the 1,840 citizens from the beginning. Using the citizens' voice to define the digital twin's priorities from day zero would have given the project unquestionable legitimacy, neutralizing political resistance before it even emerged."
+    },
+    {
+      q: "Qual foi o obstáculo mais difícil de superar que você enfrentou?",
+      a: "O obstáculo mais difícil foi convencer 18 secretarias a compartilharem dados, quebrando uma cultura de silos. Superei isso entregando valor rapidamente: em 30 dias, forneci a cada secretaria um dashboard exclusivo com insights que eles não tinham, como a correlação entre a qualidade de uma estrada e a arrecadação de ICMS na região. Ao provar que compartilhar dados gerava ganhos individuais, transformei resistência em colaboração.",
+      q_en: "What was the hardest obstacle to overcome that you faced?",
+      a_en: "The hardest obstacle was convincing 18 secretariats to share data, breaking a culture of silos. I overcame this by delivering value quickly: within 30 days, I provided each secretariat with an exclusive dashboard with insights they didn't have, such as the correlation between a road's quality and the ICMS revenue in the region. By proving that sharing data generated individual gains, I turned resistance into collaboration."
+    },
+    {
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "O principal risco era a captura política do simulador, com decisões sendo revertidas por interesses partidários. Mitiguei isso com três mecanismos: (1) tornando os rankings de projetos públicos, (2) implementando travas automáticas que exigiam revisão do Tribunal de Contas para projetos com ROI < 12%, e (3) transformando o programa em decreto com funding plurianual, desvinculando-o de mandatos políticos.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "The main risk was the political capture of the simulator, with decisions being reversed for partisan interests. I mitigated this with three mechanisms: (1) making the project rankings public, (2) implementing automatic locks that required review by the Court of Auditors for projects with ROI < 12%, and (3) turning the program into a decree with multi-year funding, decoupling it from political terms."
+    },
+    {
+      q: "Que dados você usou e qual foi a racional de cálculo do ROI social?",
+      a: "Usei 2.300 variáveis, incluindo arrecadação, dados de mobilidade do Waze, IDH, e dados climáticos. O ROI social não era apenas financeiro; era um score ponderado com 5 dimensões, incluindo redução no tempo de deslocamento e acesso a serviços. Os pesos foram validados com 1.840 cidadãos em audiências públicas, garantindo que o 'retorno' refletisse o que a população mais valorizava.",
+      q_en: "What data did you use and what was your calculation rationale for the social ROI?",
+      a_en: "I used 2,300 variables, including tax revenue, Waze mobility data, HDI, and climate data. The social ROI was not just financial; it was a weighted score with 5 dimensions, including reduction in commute time and access to services. The weights were validated with 1,840 citizens in public hearings, ensuring the 'return' reflected what the population valued most."
+    },
+    {
+      q: "Como você usou o aprendizado desse caso em outras frentes / trabalhos?",
+      a: "Esse caso me ensinou a usar a 'transparência como ferramenta de alinhamento'. Repliquei o modelo de governança com rituais STAR e dashboards públicos em um projeto na Unimed, para alinhar 347 cooperativas. A lição de que dados abertos e uma cadência disciplinada de comunicação podem quebrar silos e alinhar stakeholders complexos se tornou central na minha abordagem de gestão.",
+      q_en: "How did you use the learning from this case in other fronts / works?",
+      a_en: "This case taught me to use 'transparency as an alignment tool.' I replicated the governance model with STAR rituals and public dashboards in a project at Unimed to align 347 cooperatives. The lesson that open data and a disciplined communication cadence can break down silos and align complex stakeholders has become central to my management approach."
+    },
+    {
       q: "Como você convenceu 18 secretarias a compartilhar dados sensíveis?",
       a: "Eu formalizei SLAs cruzados, garanti tokenização irreversível e entreguei painéis exclusivos por secretaria com ganhos mensuráveis em 30 dias, acelerando a adesão.",
       q_en: "How did you convince 18 departments to share sensitive data?",
@@ -40,12 +76,6 @@ const case_4 = {
       a: "Mapeei corredores logísticos de alto ROI, priorizei 11 obras que reduziram tempo de escoamento em 34% e recalibrei incentivos fiscais, antecipando R$620M em ICMS em dois exercícios.",
       q_en: "How did the digital twin impact actual revenue?",
       a_en: "I mapped high-ROI logistics corridors, prioritized 11 works cutting flow time 34%, and recalibrated tax incentives, accelerating BRL 620M in ICMS over two fiscal years."
-    },
-    {
-      q: "Qual foi o conflito político mais difícil?",
-      a: "O secretário de Obras resistiu a submeter R$1,2B ao simulador. Usei dados do DNIT mostrando perdas de R$110M/ano e propus cláusula de ROI mínimo; o governador apoiou e o secretário recuou.",
-      q_en: "What was the toughest political conflict?",
-      a_en: "The Public Works secretary resisted sending BRL 1.2B to the simulator. I used DNIT data showing BRL 110M yearly losses and proposed a minimum ROI clause; the governor backed it and the secretary conceded."
     },
     {
       q: "Como garantiu que o programa sobreviveria a mudanças de governo?",
