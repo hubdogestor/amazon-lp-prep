@@ -1,8 +1,6 @@
 import { useMemo, useState, useEffect, useCallback } from "react";
-import { Search, Circle, CheckCircle2 } from "lucide-react";
 import typicalQuestions from "./data/typicalQuestions.js";
 import { usePrinciplesData } from "./hooks/usePrinciplesData.js";
-import { HighlightableText } from "./components/HighlightableText.jsx";
 import { useSearch } from "./hooks/useSearch.js";
 import { useCaseHelpers } from "./hooks/useCaseHelpers.js";
 import { useHighlight } from "./hooks/useHighlight.js";
@@ -27,12 +25,10 @@ import "./App.css";
 import IcebreakerModal from "./components/modals/IcebreakerModal.jsx";
 import MyQuestionsModal from "./components/modals/MyQuestionsModal.jsx";
 import { usePersistentFlagMap } from "./hooks/usePersistentFlagMap.js";
-import CaseCard from "./components/cases/CaseCard.jsx";
-import CaseSearchResults from "./components/search/CaseSearchResults.jsx";
-import FupSearchResults from "./components/search/FupSearchResults.jsx";
-import TypicalQuestionSearchResults from "./components/search/TypicalQuestionSearchResults.jsx";
-import HeaderTimer from "./components/layout/HeaderTimer.jsx";
-import { loopingGroups, getPrinciplesForLooping } from "./config/loopingGroups.js";
+import Header from "./components/layout/Header.jsx";
+import Sidebar from "./components/layout/Sidebar.jsx";
+import MainContent from "./components/layout/MainContent.jsx";
+import { loopingGroups } from "./config/loopingGroups.js";
 
 // ---------- Labels & Ordem ----------
 const getDisplayName = getPrincipleDisplayName;
@@ -124,14 +120,18 @@ export default function App() {
   const [showTopCases, setShowTopCases] = useState(false);
   const [showIcebreaker, setShowIcebreaker] = useState(false);
   const [showMyQuestions, setShowMyQuestions] = useState(false);
-  const [language, setLanguage] = useState(
+  const [language, setLanguage] = useState("pt");
 
-  const toggleCase = useCallback((caseId, principleId, preserveSearchTerm = false) => {
-    if (preserveSearchTerm && searchTerm) {
+  const clearExpanded = useCallback(() => {
+    setExpandedCases({});
+  }, []);
+
+  const handleCaseHeaderToggle = useCallback((caseId, principleId, caseDomId, hasSearchTerm) => {
+    if (hasSearchTerm && searchTerm) {
       setHighlightCaseTerm(searchTerm);
     }
 
-    if (!preserveSearchTerm) {
+    if (!hasSearchTerm) {
       setSearchTerm("");
       setHighlightCaseTerm("");
     } else {
@@ -145,81 +145,94 @@ export default function App() {
       return next;
     });
     setSelectedPrinciple(principleId);
-  }, [searchTerm]);
 
-  const clearExpanded = useCallback(() => {
-    setExpandedCases({});
-  }, []);
-
-  const handleCaseHeaderToggle = useCallback((caseId, principleId, caseDomId, hasSearchTerm) => {
-    toggleCase(caseId, principleId, hasSearchTerm);
     if (hasSearchTerm) {
       setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
     }
-  }, [toggleCase, setHighlightedCase]);
+  }, [searchTerm, setHighlightCaseTerm, setSearchTerm, setQuestionSearch, setHighlightedCase]);
+
+  const handleSearchResultSelect = useCallback((type, payload, savedSearchWords) => {
+    const { principle, caseData, originalIdx, idx } = payload;
+    const p = principle || payload.p;
+    const c = caseData || payload.c;
+
+    setSelectedPrinciple(p.id);
+    setShowTopCases(false);
+    setSearchTerm("");
+    clearExpanded();
+    clearHighlights();
+
+    setTimeout(() => {
+      if (type === 'case' || type === 'fup') {
+        setExpandedCases({ [c.id || c.title]: true });
+      }
+
+      if (type === 'fup') {
+        setQuestionSearch("");
+      }
+
+      if (type === 'typical') {
+        setTypicalQuestionSearch("");
+      }
+
+      setHighlightCaseTerm(type === 'case' ? savedSearchWords.join(" ") : "");
+      setHighlightFupTerm(type === 'fup' ? savedSearchWords.join(" ") : "");
+      setHighlightTypicalTerm(type === 'typical' ? savedSearchWords.join(" ") : "");
+
+      if (type === 'case') {
+        const caseDomId = `case-${slugify(c.id || c.title)}`;
+        setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
+      } else if (type === 'fup') {
+        const anchorId = `fup-${p.id}-${slugify(c.id || c.title)}-${originalIdx}`;
+        setHighlightedFup(anchorId, FUP_SCROLL_DELAY);
+      } else if (type === 'typical') {
+        const anchorId = `typical-q-${p.id}-${idx}`;
+        setHighlightedTypicalQuestion(anchorId, 120);
+      }
+    }, 0);
+  }, [clearExpanded, clearHighlights, setExpandedCases, setHighlightCaseTerm, setHighlightFupTerm, setHighlightTypicalTerm, setHighlightedCase, setHighlightedFup, setHighlightedTypicalQuestion, setSelectedPrinciple, setShowTopCases, setSearchTerm, setQuestionSearch, setTypicalQuestionSearch]);
 
   const handleCaseSearchResultSelect = useCallback((result, savedSearchWords) => {
-    const { p, c } = result;
-    setSelectedPrinciple(p.id);
-    setShowTopCases(false);
-    setSearchTerm("");
-    clearExpanded();
-    clearHighlights();
-
-    setTimeout(() => {
-      setExpandedCases({ [c.id || c.title]: true });
-      setHighlightCaseTerm(savedSearchWords.join(" "));
-      setHighlightFupTerm("");
-      setHighlightTypicalTerm("");
-
-      const caseDomId = `case-${slugify(c.id || c.title)}`;
-      setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
-    }, 0);
-  }, [clearExpanded, clearHighlights, setExpandedCases, setHighlightCaseTerm, setHighlightFupTerm, setHighlightTypicalTerm, setHighlightedCase, setSelectedPrinciple, setShowTopCases, setSearchTerm]);
+    handleSearchResultSelect('case', result, savedSearchWords);
+  }, [handleSearchResultSelect]);
 
   const handleFupSearchResultSelect = useCallback((payload, savedSearchWords) => {
-    const { principle: p, caseData: c, originalIdx } = payload;
-    setSelectedPrinciple(p.id);
-    setShowTopCases(false);
-    setSearchTerm("");
-    clearExpanded();
-    clearHighlights();
-
-    setTimeout(() => {
-      setExpandedCases({ [c.id || c.title]: true });
-      setQuestionSearch("");
-      setHighlightCaseTerm("");
-      setHighlightFupTerm(savedSearchWords.join(" "));
-      setHighlightTypicalTerm("");
-
-      const anchorId = `fup-${p.id}-${slugify(c.id || c.title)}-${originalIdx}`;
-      setHighlightedFup(anchorId, FUP_SCROLL_DELAY);
-    }, 0);
-  }, [clearExpanded, clearHighlights, setExpandedCases, setHighlightCaseTerm, setHighlightFupTerm, setHighlightTypicalTerm, setHighlightedFup, setQuestionSearch, setSearchTerm, setSelectedPrinciple, setShowTopCases]);
+    handleSearchResultSelect('fup', payload, savedSearchWords);
+  }, [handleSearchResultSelect]);
 
   const handleTypicalSearchResultSelect = useCallback((payload, savedSearchWords) => {
-    const { principle: p, idx } = payload;
-    setSelectedPrinciple(p.id);
-    setShowTopCases(false);
-    setSearchTerm("");
-    clearExpanded();
-    clearHighlights();
-
-    setTimeout(() => {
-      setTypicalQuestionSearch("");
-      setHighlightCaseTerm("");
-      setHighlightFupTerm("");
-      setHighlightTypicalTerm(savedSearchWords.join(" "));
-      const anchorId = `typical-q-${p.id}-${idx}`;
-      setHighlightedTypicalQuestion(anchorId, 120);
-    }, 0);
-  }, [clearExpanded, clearHighlights, setHighlightCaseTerm, setHighlightFupTerm, setHighlightTypicalTerm, setHighlightedTypicalQuestion, setSearchTerm, setSelectedPrinciple, setShowTopCases, setTypicalQuestionSearch]);
+    handleSearchResultSelect('typical', payload, savedSearchWords);
+  }, [handleSearchResultSelect]);
 
   const t = TEXTS[language];
   const rawPrinciplesData = usePrinciplesData();
   const principlesData = useMemo(() => {
     return sortPrinciples(rawPrinciplesData, language);
   }, [rawPrinciplesData, language]);
+
+  const [isSearching, setIsSearching] = useState(false);
+  const [copiedCaseId, setCopiedCaseId] = useState(null);
+  const [selectedLooping, setSelectedLooping] = useState(null);
+
+  const {
+    value: usedIcebreakers,
+    toggle: toggleUsedIcebreaker,
+  } = usePersistentFlagMap(STORAGE_KEYS.usedIcebreakers);
+
+  const {
+    searchTerm,
+    setSearchTerm,
+    questionSearch,
+    setQuestionSearch,
+    typicalQuestionSearch,
+    setTypicalQuestionSearch,
+    debouncedSearchTerm,
+    debouncedQuestionSearch,
+    debouncedTypicalQuestionSearch,
+    fupSearchResults,
+    typicalQuestionSearchResults,
+    caseSearchResults,
+  } = useSearch(principlesData, language, selectedLooping);
 
   const {
     getCaseBaseTitle,
@@ -487,6 +500,7 @@ Respond as if you were me, maintaining consistency with the details from the cas
     }));
   }, []);
 
+
   // Verifica se termo de busca STAR existe em alguma seção do STAR(L)
   const starSectionMatchesTerm = useCallback((caseObj, lang, term) => {
     if (!term || !caseObj || !caseObj[lang]) return true;
@@ -503,275 +517,44 @@ Respond as if you were me, maintaining consistency with the details from the cas
     );
   }, []);
 
-
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Cabeçalho Fixo */}
-      <header
-        id="stickyHeader"
-        className="sticky top-0 z-30 border-b border-slate-200 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60"
-        role="banner"
-      >
-        <div className="max-w-[1600px] mx-auto px-6 py-3">
-          <div className="grid grid-cols-12 gap-3 items-center">
-            {/* Busca por palavras (col-span-2) */}
-            <div className="col-span-2">
-              <div id="kSearch" className="relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
-                <input
-                  type="search"
-                  placeholder={t.kSearch}
-                  value={searchTerm}
-                  onChange={(e) => {
-                    setSearchTerm(e.target.value);
-                    if (e.target.value) {
-                      setShowTopCases(false);
-                      clearExpanded();
-                    }
-                  }}
-                  onFocus={() => {
-                    setQuestionSearch("");
-                    setTypicalQuestionSearch("");
-                    setHighlightCaseTerm("");
-                    setHighlightFupTerm("");
-                    setHighlightTypicalTerm("");
-                    clearHighlights();
-                  }}
-                  className="w-full pl-10 pr-4 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
-                  aria-label={t.kSearch}
-                  aria-expanded={!!searchTerm && caseSearchResults.length > 0}
-                  aria-controls="case-dropdown"
-                />
-                {searchTerm && caseSearchResults.length > 0 && (
-                  <div
-                    id="case-dropdown"
-                    role="listbox"
-                    className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-96 overflow-auto"
-                  >
-                    <CaseSearchResults
-                      results={caseSearchResults}
-                      language={language}
-                      onSelect={handleCaseSearchResultSelect}
-                      onToggleUsed={(id) => toggleUsedCase(id)}
-                      isCaseUsed={(id) => !!usedCases[id]}
-                      getDisplayCaseTitle={getDisplayCaseTitle}
-                      getDisplayName={getDisplayName}
-                      getCaseStorageId={(caseItem) => caseItem.id || slugify(caseItem.title || "")}
-                    />
-                  </div>
-                )}
-              </div>
-            </div>
-
-            {/* Busca por FUPs (col-span-2) */}
-            <div className="col-span-2">
-              <div id="kFup" className="relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
-                <input
-                  type="search"
-                  placeholder={t.kFup}
-                  value={questionSearch}
-                  onChange={(e) => setQuestionSearch(e.target.value)}
-                  onFocus={() => {
-                    setSearchTerm("");
-                    setTypicalQuestionSearch("");
-                    setHighlightCaseTerm("");
-                    setHighlightFupTerm("");
-                    setHighlightTypicalTerm("");
-                    clearHighlights();
-                  }}
-                  className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
-                  aria-label={t.kFup}
-                  aria-expanded={!!questionSearch}
-                  aria-controls="fup-dropdown"
-                />
-                {questionSearch && (
-                  <div
-                    id="fup-dropdown"
-                    role="listbox"
-                    className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
-                  >
-                    {fupSearchResults.length > 0 ? (
-                      <FupSearchResults
-                        results={fupSearchResults}
-                        language={language}
-                        searchTerm={debouncedQuestionSearch}
-                        onSelect={handleFupSearchResultSelect}
-                        getDisplayName={getDisplayName}
-                        getDisplayCaseTitle={getDisplayCaseTitle}
-                      />
-                    ) : (
-                      <div className="px-3 py-2 text-slate-500 text-sm">{t.noResult}</div>
-                    )}
-                  </div>
-                )}
-              </div>
-            </div>
-
-            {/* Busca por Perguntas Típicas + Looping Selector (col-span-2) */}
-            <div className="col-span-2">
-              <div className="flex gap-2">
-                {/* Looping Selector */}
-                <div className="relative">
-                  <select
-                    value={selectedLooping || ""}
-                    onChange={(e) => setSelectedLooping(e.target.value || null)}
-                    className="h-full px-2 py-3 text-sm border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white font-medium"
-                    aria-label="Select looping group"
-                    title={language === "pt" ? "Filtrar perguntas por grupo de looping" : "Filter questions by looping group"}
-                  >
-                    <option value="">{language === "pt" ? "Todos" : "All"}</option>
-                    {loopingGroups.map((group) => (
-                      <option key={group.id} value={group.id}>
-                        {group.label}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-
-                {/* Search Box */}
-                <div id="kTypical" className="relative flex-1">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
-                  <input
-                    type="search"
-                    placeholder={t.kTypical}
-                    value={typicalQuestionSearch}
-                    onChange={(e) => setTypicalQuestionSearch(e.target.value)}
-                    onFocus={() => {
-                      setSearchTerm("");
-                      setQuestionSearch("");
-                      setHighlightCaseTerm("");
-                      setHighlightFupTerm("");
-                      setHighlightTypicalTerm("");
-                      clearHighlights();
-                    }}
-                    className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white text-center"
-                    aria-label={t.kTypical}
-                    aria-expanded={!!typicalQuestionSearch}
-                    aria-controls="typical-dropdown"
-                  />
-                  {typicalQuestionSearch && (
-                    <div
-                      id="typical-dropdown"
-                      role="listbox"
-                      className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
-                    >
-                      {typicalQuestionSearchResults.length > 0 ? (
-                        <TypicalQuestionSearchResults
-                          results={typicalQuestionSearchResults}
-                          language={language}
-                          searchTerm={debouncedTypicalQuestionSearch}
-                          onSelect={handleTypicalSearchResultSelect}
-                          isQuestionUsed={(id) => !!usedQuestions[id]}
-                          onToggleQuestion={toggleUsedQuestion}
-                          getDisplayName={getDisplayName}
-                        />
-                      ) : (
-                        <div className="px-3 py-2 text-slate-500 text-sm">{t.noResult}</div>
-                      )}
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-
-            {/* Top Cases (col-span-1) */}
-            <div className="col-span-1">
-              <button
-                id="topCasesBtn"
-                className={`w-full px-3 py-3 text-base rounded-lg border transition ${
-                  showTopCases
-                    ? "bg-yellow-100 border-yellow-300 text-yellow-800"
-                    : "bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
-                }`}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  clearExpanded();
-                  clearHighlights();
-                  setSearchTerm("");
-                  setSelectedPrinciple("all");
-                  setShowTopCases((v) => !v);
-                }}
-                aria-label={`${showTopCases ? 'Hide' : 'Show'} top cases`}
-                aria-pressed={showTopCases}
-                title="Mostrar apenas Top Cases"
-              >
-                🎯 {t.topCases}
-              </button>
-            </div>
-
-            {/* Icebreaker (col-span-1) */}
-            <div className="col-span-1">
-              <button
-                id="icebreakerBtn"
-                className="w-full px-3 py-3 text-base rounded-lg border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setShowIcebreaker(true);
-                }}
-                aria-label="Open Icebreaker questions"
-                title="Perguntas iniciais de rapport"
-              >
-                💬 {t.icebreaker}
-              </button>
-            </div>
-
-            {/* Minhas Perguntas (col-span-1) */}
-            <div className="col-span-1">
-              <button
-                id="myQuestionsBtn"
-                className="w-full px-3 py-3 text-base rounded-lg border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setShowMyQuestions(true);
-                }}
-                aria-label="Open my questions for interviewer"
-                title="Perguntas para fazer ao entrevistador"
-              >
-                🤔 {t.myQuestions}
-              </button>
-            </div>
-
-            {/* Timer (col-span-2) */}
-            <div className="col-span-2">
-              <HeaderTimer t={t} />
-            </div>
-
-            {/* Idioma (col-span-1) */}
-            <div className="col-span-1">
-              <div id="langBox" className="w-full flex gap-2" role="group" aria-label="Language selection">
-                <button
-                  className={`flex-1 px-3 py-3 text-base rounded-lg border ${
-                    language === "pt" ? "bg-slate-900 text-white" : "bg-white text-slate-700"
-                  }`}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setLanguage("pt");
-                  }}
-                  aria-label="Portuguese"
-                  aria-pressed={language === "pt"}
-                >
-                  PT
-                </button>
-                <button
-                  className={`flex-1 px-3 py-3 text-base rounded-lg border ${
-                    language === "en" ? "bg-slate-900 text-white" : "bg-white text-slate-700"
-                  }`}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setLanguage("en");
-                  }}
-                  aria-label="English"
-                  aria-pressed={language === "en"}
-                >
-                  EN
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
+      <Header
+        t={t}
+        language={language}
+        setLanguage={setLanguage}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        questionSearch={questionSearch}
+        setQuestionSearch={setQuestionSearch}
+        typicalQuestionSearch={typicalQuestionSearch}
+        setTypicalQuestionSearch={setTypicalQuestionSearch}
+        showTopCases={showTopCases}
+        setShowTopCases={setShowTopCases}
+        setShowIcebreaker={setShowIcebreaker}
+        setShowMyQuestions={setShowMyQuestions}
+        selectedLooping={selectedLooping}
+        setSelectedLooping={setSelectedLooping}
+        caseSearchResults={caseSearchResults}
+        fupSearchResults={fupSearchResults}
+        typicalQuestionSearchResults={typicalQuestionSearchResults}
+        handleCaseSearchResultSelect={handleCaseSearchResultSelect}
+        handleFupSearchResultSelect={handleFupSearchResultSelect}
+        handleTypicalSearchResultSelect={handleTypicalSearchResultSelect}
+        toggleUsedCase={toggleUsedCase}
+        usedCases={usedCases}
+        toggleUsedQuestion={toggleUsedQuestion}
+        usedQuestions={usedQuestions}
+        getDisplayCaseTitle={getDisplayCaseTitle}
+        getDisplayName={getDisplayName}
+        clearExpanded={clearExpanded}
+        clearHighlights={clearHighlights}
+        setSelectedPrinciple={setSelectedPrinciple}
+        debouncedQuestionSearch={debouncedQuestionSearch}
+        debouncedTypicalQuestionSearch={debouncedTypicalQuestionSearch}
+        loopingGroups={loopingGroups}
+      />
 
       {/* Modal Icebreaker */}
       {showIcebreaker && (
@@ -797,217 +580,61 @@ Respond as if you were me, maintaining consistency with the details from the cas
       <div className="max-w-[2400px] mx-auto px-8 pt-6">
         <div className="grid grid-cols-12 gap-10">
           {/* Sidebar */}
-          <aside id="sidebar" className="col-span-12 xl:col-span-2" role="navigation" aria-label="Principles filter">
-            {/* Header "Leadership Principles" */}
-            <div className="mb-3 pb-2 border-b-2 border-[#FF9900]">
-              <h2 className="text-sm font-bold text-[#232F3E] uppercase tracking-wider">
-                {language === "pt" ? "Leadership Principles" : "Leadership Principles"}
-              </h2>
-            </div>
-
-            {/* Botão "Todos os Princípios" - estilo título clicável */}
-            <button
-              className={`w-full mb-4 px-3 py-2.5 rounded text-base text-left font-bold uppercase tracking-wide transition-all flex items-center gap-2 ${
-                selectedPrinciple === "all"
-                  ? "bg-[#232F3E] text-white shadow-lg"
-                  : "bg-slate-100 text-[#232F3E] hover:bg-slate-200"
-              }`}
-              onClick={(e) => {
-                e.stopPropagation();
-                setSelectedPrinciple("all");
-                setShowTopCases(false);
-                setSearchTerm("");
-                setQuestionSearch("");
-                setTypicalQuestionSearch("");
-                setHighlightCaseTerm("");
-                setHighlightFupTerm("");
-                setHighlightTypicalTerm("");
-                clearHighlights();
-                clearExpanded();
-              }}
-              aria-pressed={selectedPrinciple === "all"}
-            >
-              <span className="text-lg">🏠</span>
-              {t.filterAll}
-            </button>
-
-            {/* Botões dos 16 LPs - estilo Amazon com fundo */}
-            {(principlesData || []).map((p) => (
-              <button
-                key={`side-${p.id}`}
-                className={`w-full mb-2 px-4 py-2.5 rounded-md text-sm text-left font-medium transition-all shadow-sm ${
-                  selectedPrinciple === p.id
-                    ? "bg-[#FF9900] text-white shadow-md scale-[1.02]"
-                    : "bg-gradient-to-r from-white to-slate-50 border border-slate-200 text-[#232F3E] hover:border-[#FF9900] hover:shadow-md hover:scale-[1.01]"
-                }`}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setSelectedPrinciple(p.id);
-                  setShowTopCases(false);
-                  setSearchTerm("");
-                  setQuestionSearch(""); // Clear FUP search
-                  setTypicalQuestionSearch(""); // Clear Typical Questions search
-                  setHighlightCaseTerm("");
-                  setHighlightFupTerm("");
-                  setHighlightTypicalTerm("");
-                  clearHighlights();
-                  clearExpanded();
-                }}
-                aria-pressed={selectedPrinciple === p.id}
-              >
-                {getDisplayName(p, language)}
-              </button>
-            ))}
-          </aside>
+          <Sidebar
+            language={language}
+            t={t}
+            selectedPrinciple={selectedPrinciple}
+            setSelectedPrinciple={setSelectedPrinciple}
+            setShowTopCases={setShowTopCases}
+            setSearchTerm={setSearchTerm}
+            setQuestionSearch={setQuestionSearch}
+            setTypicalQuestionSearch={setTypicalQuestionSearch}
+            clearHighlights={clearHighlights}
+            clearExpanded={clearExpanded}
+            principlesData={principlesData}
+            getDisplayName={getDisplayName}
+          />
 
           {/* Main */}
-          <main className="col-span-12 xl:col-span-10 space-y-6" role="main">
-            {isSearching && (
-              <div className="text-center py-4 text-slate-500" role="status" aria-live="polite">
-                Buscando...
-              </div>
-            )}
-            {(filteredPrinciples || []).map((principle) => (
-              <section key={principle.id} className="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
-                <div className="mb-6">
-                  <h2 className="text-2xl font-bold mb-3 text-slate-900">{getDisplayName(principle, language)}</h2>
-                  {principle.principle && (
-                    <p className="text-slate-600 italic leading-relaxed">
-                      {language === "en" ? (principle.principle.description_en || principle.principle.description) : principle.principle.description}
-                    </p>
-                  )}
-
-                  {/* Perguntas Típicas - Amazon Style (azul) - Layout tipo tabela */}
-                  {typicalQuestions[principle.id] && (
-                    <div className="mt-4 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 rounded-lg p-4 shadow-sm">
-                      <h3 className="text-sm font-bold text-[#232F3E] mb-3 uppercase tracking-wide flex items-center gap-2">
-                        💭 {language === "pt" ? "Perguntas Típicas do Entrevistador" : "Typical Interviewer Questions"}
-                        <span className="text-xs font-normal text-gray-500 ml-2">
-                          ({language === "pt" ? "Clique para ver o case que responde" : "Click to see the case that answers"})
-                        </span>
-                      </h3>
-                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
-                        {(language === "en" ? typicalQuestions[principle.id].en : typicalQuestions[principle.id].pt).map((q, qIdx) => {
-                          const questionId = `typical-q-${principle.id}-${qIdx}`;
-                          const questionStorageId = `${principle.id}-${qIdx}`;
-                          const isQuestionUsed = !!usedQuestions[questionStorageId];
-                          const isHighlighted = highlightedTypicalQuestionId === questionId;
-                          const bestOption = getBestCaseOption(principle.id, qIdx + 1);
-                          const hasCase = Boolean(bestOption);
-                          const caseScore = bestOption?.score ?? 0;
-                          const mappedCaseTitle = bestOption?.caseData
-                            ? getDisplayCaseTitle(bestOption.caseData, language)
-                            : "";
-                          const tooltip = (() => {
-                            if (!hasCase) {
-                              return language === "pt" ? "Sem case mapeado" : "No case mapped";
-                            }
-                            const actionLabel = language === "pt" ? "Clique para ver o case" : "Click to see case";
-                            if (mappedCaseTitle) {
-                              return `${actionLabel} (${mappedCaseTitle} - score: ${caseScore})`;
-                            }
-                            return `${actionLabel} (score: ${caseScore})`;
-                          })();
-                          const toggleTooltip = isQuestionUsed
-                            ? (language === 'pt' ? 'Remover marca de pergunta usada' : 'Unmark question as used')
-                            : (language === 'pt' ? 'Marcar pergunta como usada' : 'Mark question as used');
-
-                          return (
-                            <div key={qIdx} className="relative">
-                              <button
-                                id={questionId}
-                                onClick={() => {
-                                  if (hasCase) {
-                                    navigateToMappedCase(principle.id, qIdx);
-                                  }
-                                }}
-                                disabled={!hasCase}
-                                className={`w-full px-3 py-2 border rounded text-xs transition-all duration-300 flex items-center justify-center text-center min-h-[60px] ${
-                                  hasCase
-                                    ? 'bg-white/80 border-blue-200 text-[#232F3E] hover:bg-blue-50 hover:shadow-md hover:scale-105 cursor-pointer'
-                                    : 'bg-gray-100 border-gray-300 text-gray-400 cursor-not-allowed'
-                                } ${
-                                  isHighlighted ? 'bg-yellow-200 font-bold shadow-md ring-2 ring-yellow-400' : ''
-                                } ${isQuestionUsed ? 'opacity-80' : ''}`}
-                                title={tooltip}
-                              >
-                                <span className="flex items-center gap-1">
-                                  {hasCase && <span className="text-green-600 font-bold">V</span>}
-                                  <HighlightableText
-                                    text={q}
-                                    searchTerm={highlightTypicalTerm}
-                                    className={isQuestionUsed ? 'line-through decoration-slate-400 decoration-2 text-slate-500' : ''}
-                                  />
-                                </span>
-                              </button>
-                              <button
-                                type="button"
-                                onClick={(event) => {
-                                  event.stopPropagation();
-                                  toggleUsedQuestion(questionStorageId);
-                                }}
-                                className={`absolute -top-2 -right-2 inline-flex h-7 w-7 items-center justify-center rounded-full border text-slate-500 shadow-sm transition ${
-                                  isQuestionUsed
-                                    ? 'border-green-300 bg-green-50 text-green-600'
-                                    : 'border-slate-200 bg-white hover:bg-slate-50'
-                                }`}
-                                title={toggleTooltip}
-                                aria-label={toggleTooltip}
-                                aria-pressed={isQuestionUsed}
-                              >
-                                {isQuestionUsed ? <CheckCircle2 className="w-4 h-4" /> : <Circle className="w-4 h-4" />}
-                              </button>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  )}
-                </div>
-
-                {((principle && principle.cases) || []).map((c, idx) => {
-                  const caseId = c.id || c.title;
-                  const caseSlug = slugify(caseId);
-                  const caseDomId = `case-${caseSlug}`;
-                  const caseSearchKey = c.id || caseSlug;
-                  const open = !!expandedCases[caseId];
-                  const isHighlighted = highlightedCaseId === caseDomId;
-                  const isTop = isTopCase(c);
-                  const caseStorageId = c.id || caseSlug;
-                  const isCaseUsed = !!usedCases[caseStorageId];
-                  const caseQuestions = getCaseQuestions(c.id, principle.id);
-                  const questionSummaryLabel = language === 'pt' ? 'Responde' : 'Answers';
-                  const questionCountLabel = language === 'pt' ? 'pergunta(s)' : 'question(s)';
-                  const questionIdList = caseQuestions.map((q) => `Q${q.number}`).join(', ');
-                  const questionDetails = caseQuestions.slice(0, 3).map((q) => {
-                    const preview = (q.text || '').substring(0, 80);
-                    const scoreLabel = q.score != null ? ` (score: ${q.score})` : '';
-                    return `Q${q.number}${scoreLabel}: ${preview}...`;
-                  }).join('\n');
-                  const questionsTooltip = caseQuestions.length > 0
-                    ? `${questionSummaryLabel} ${caseQuestions.length} ${questionCountLabel}: ${questionIdList}\n\n${questionDetails}`
-                    : language === 'pt' ? 'Nenhuma pergunta mapeada' : 'No questions mapped';
-                  const toggleCaseTooltip = isCaseUsed
-                    ? (language === 'pt' ? 'Remover marca de case usado' : 'Unmark case as used')
-                    : (language === 'pt' ? 'Marcar case como usado' : 'Mark case as used');
-
-                  return (
-                    <CaseCard
-                      key={caseId}
-                      caseData={c}
-                      principle={principle}
-                      onCopyPrompt={() => copyPromptToClipboard(c, principle, caseSearchKey)}
-                      onToggleCaseStarSearch={() => toggleCaseStarSearch(caseSearchKey)}
-                      onUpdateCaseStarSearchTerm={(value) => updateCaseStarSearchTerm(caseSearchKey, value)}
-                      onToggleCaseFupSearch={() => toggleCaseFupSearch(caseSearchKey)}
-                      onUpdateCaseFupSearchTerm={(value) => updateCaseFupSearchTerm(caseSearchKey, value)}
-                      searchTerm={searchTerm}
-                    />
-                  );
-                })}
-              </section>
-            ))}
-          </main>
+          <MainContent
+            isSearching={isSearching}
+            filteredPrinciples={filteredPrinciples}
+            getDisplayName={getDisplayName}
+            language={language}
+            typicalQuestions={typicalQuestions}
+            usedQuestions={usedQuestions}
+            highlightedTypicalQuestionId={highlightedTypicalQuestionId}
+            getBestCaseOption={getBestCaseOption}
+            getDisplayCaseTitle={getDisplayCaseTitle}
+            navigateToMappedCase={navigateToMappedCase}
+            highlightTypicalTerm={highlightTypicalTerm}
+            toggleUsedQuestion={toggleUsedQuestion}
+            expandedCases={expandedCases}
+            highlightedCaseId={highlightedCaseId}
+            isTopCase={isTopCase}
+            usedCases={usedCases}
+            getCaseQuestions={getCaseQuestions}
+            copyPromptToClipboard={copyPromptToClipboard}
+            toggleCaseStarSearch={toggleCaseStarSearch}
+            updateCaseStarSearchTerm={updateCaseStarSearchTerm}
+            toggleCaseFupSearch={toggleCaseFupSearch}
+            updateCaseFupSearchTerm={updateCaseFupSearchTerm}
+            searchTerm={searchTerm}
+            caseStarSearchOpen={caseStarSearchOpen}
+            caseFupSearchOpen={caseFupSearchOpen}
+            caseFupSearchTerms={caseFupSearchTerms}
+            caseStarSearchTerms={caseStarSearchTerms}
+            highlightCaseTerm={highlightCaseTerm}
+            highlightFupTerm={highlightFupTerm}
+            highlightedFupId={highlightedFupId}
+            copiedCaseId={copiedCaseId}
+            toggleUsedCase={toggleUsedCase}
+            handleCaseHeaderToggle={handleCaseHeaderToggle}
+            t={t}
+            getCaseFups={getCaseFups}
+            filterCaseFups={filterCaseFups}
+            starSectionMatchesTerm={starSectionMatchesTerm}
+          />
         </div>
       </div>
     </div>
