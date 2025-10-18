@@ -1,0 +1,88 @@
+{
+  "params": {
+    "fupBonus": 3,
+    "threshold": 0.15,
+    "N": 4
+  },
+  "proposedPrimaries": {
+    "1": {
+      "caseId": "sicredi-woop-stakeholder-management",
+      "base": 98,
+      "simSum": 0,
+      "effective": 98
+    },
+    "2": {
+      "caseId": "sicredi-woop-stakeholder-management",
+      "base": 98,
+      "simSum": 0,
+      "effective": 98
+    },
+    "3": {
+      "caseId": "unimed-vendor-termination-trust",
+      "base": 98,
+      "simSum": 0,
+      "effective": 98
+    },
+    "4": {
+      "caseId": "unimed-vendor-termination-trust",
+      "base": 98,
+      "simSum": 0,
+      "effective": 98
+    },
+    "5": {
+      "caseId": "unimed-ebitda-growth",
+      "base": 95,
+      "simSum": 0,
+      "effective": 95
+    },
+    "6": {
+      "caseId": "sicredi-woop-stakeholder-management",
+      "base": 98,
+      "simSum": 0,
+      "effective": 98
+    },
+    "7": {
+      "caseId": "sicredi-woop-stakeholder-management",
+      "base": 98,
+      "simSum": 0,
+      "effective": 98
+    },
+    "8": {
+      "caseId": "huawei-4g-copa-2014-stakeholder",
+      "base": 98,
+      "simSum": 0,
+      "effective": 98
+    },
+    "9": {
+      "caseId": "unimed-ebitda-growth",
+      "base": 95,
+      "simSum": 0,
+      "effective": 95
+    },
+    "10": {
+      "caseId": "sefaz-integrated-management-framework",
+      "base": 95,
+      "simSum": 0,
+      "effective": 95
+    },
+    "11": {
+      "caseId": "unimed-ebitda-growth",
+      "base": 95,
+      "simSum": 0,
+      "effective": 95
+    },
+    "12": {
+      "caseId": "unimed-ebitda-growth",
+      "base": 95,
+      "simSum": 0,
+      "effective": 95
+    }
+  },
+  "counts": {
+    "sicredi-woop-stakeholder-management": 4,
+    "unimed-vendor-termination-trust": 2,
+    "huawei-4g-copa-2014-stakeholder": 1,
+    "unimed-ebitda-growth": 4,
+    "sefaz-integrated-management-framework": 1
+  }
+}

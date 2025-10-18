@@ -3,7 +3,7 @@ const case_6 = {
   title: "Transformao Digital do Woop Sicredi: Engajamento de Base Cooperativista com 6,4M de Membros",
   company: "Sicredi",
   period: "2018-2021",
-  isTopCase: true,
+  isTopCase: false,
   isGoodCase: true,
 
   pt: {

@@ -6,7 +6,7 @@ const case_3 = {
   title_en: "Said 'No' to CEO and Terminated 8-Year Vendor - Then Rebuilt Trust with Transparency",
   company: "Unimed",
   period: "09/2022-03/2023",
-  isTopCase: true,
+  isTopCase: false,
   isGoodCase: true,
   pt: {
     s: "Setembro de 2022. Como Group Product Manager responsável por transformação digital na Unimed, eu supervisionava contratos de tecnologia que somavam R$ 47 milhões anuais. Durante auditoria trimestral de performance de vendors, descobri padrão alarmante: a ServiceIT, fornecedor de infraestrutura cloud há 8 anos e parceiro pessoal do CEO, estava entregando SLA de 87% quando o contrato garantia 99,5%. Pior: análise de logs revelou 23 incidentes críticos em 6 meses (vs 2 tolerados), causando R$ 3,2 milhões em perdas operacionais. Quando escalei ao Diretor de TI, ele foi direto: 'Leonardo, ServiceIT é parceiro estratégico do CEO há 8 anos. Ele não vai aceitar mudança. Adapte o SLA.' Eu tinha duas opções: (1) aceitar a orientação política e ajustar expectativas para proteger o fornecedor, ou (2) dizer 'não' ao CEO, apresentar dados irrefutáveis e recomendar desligamento do vendor - arriscando capital político e relacionamento com liderança sênior. Os números não permitiam meio-termo: continuar custaria R$ 6,4M/ano em perdas vs R$ 1,8M de custo de troca.",
