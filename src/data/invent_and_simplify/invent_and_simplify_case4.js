@@ -6,7 +6,7 @@ const case_4 = {
   company: "Unimed",
   period: "02/2022-12/2023",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
 
   pt: {
     s: `Em 2022, como Gerente de Transformação Digital na Unimed, recebi um relatório do conselho que escancarou a crise de inovação: “21 meses para um MVP, R$ 2,1 milhões por projeto, nenhuma solução entregue.” Enquanto startups lançavam aplicativos de saúde em semanas, nós levávamos quase dois anos para aprovar qualquer integração. Essa lentidão nos fez perder duas parcerias estratégicas para concorrentes digitais, custou R$ 5,4 milhões em oportunidades não convertidas e aumentou em 13% a taxa de churn de clientes corporativos. Além do impacto financeiro, nossa marca passou a ser percebida como lenta e pouco inovadora, abrindo espaço para clínicas digitais em crescimento como Dr. Consulta e Alice Health.`,

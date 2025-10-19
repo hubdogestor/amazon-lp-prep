@@ -6,7 +6,7 @@ const case_3 = {
   company: "Sicredi",
   period: "02/2019 - 11/2019",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: "Em fevereiro de 2019, atuando como Product Strategist no Sicredi, uma instituicao financeira cooperativa com 6,4 milhoes de associados é R$ 263 bilhoes em ativos, uma falha de 14 minutos no gateway de pagamentos causou o cancelamento de 23 cirurgias em um hospital parceiro. Pacientes estavam anestesiados, equipes medicas posicionadas, é nenhuma autorizacao de pagamento passava devido a uma instabilidade no sistema legado. O SLA vigente era de 99,5%, o que permitia ate 43 horas de indisponibilidade anual, padrao aceitavel no mercado mas insuficiente para servicos criticos como saude, onde segundos importam. Como responsável pela experiencia de pagamentos, assumi que o padrao da industria não bastava; precisava elevar para 99,99% para proteger vidas é negocios dependentes de transacoes em tempo real.",
     t: "Minha tarefa, que propus é negociei diretamente com o diretor executivo, era elevar o padrao de disponibilidade do gateway de 99,5% para 99,99%, os 'quatro noves', reduzindo indisponibilidade anual de 43 horas para menos de 52 minutos. Isso exigia repensar arquitetura, processos é cultura de confiabilidade, equilibrando opcoes como patches rapidos no sistema legado ou investimento em redesign total, optando pela segunda para sustentabilidade, mesmo com aumento de 40% nos custos iniciais, priorizando valor de longo prazo para clientes é instituicao.",

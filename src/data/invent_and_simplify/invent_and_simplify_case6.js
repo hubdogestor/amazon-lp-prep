@@ -6,7 +6,7 @@ const case_6 = {
   company: "Bradesco Fintech Hub",
   period: "04/2017-12/2017",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
 
   pt: {
     s: `Em 2017, como Product Owner de Liquidez no Bradesco Fintech Hub, recebi um alerta crítico do nosso maior cliente: “Vou migrar para a Stone, eles pagam no mesmo dia.” Nossa liquidação ocorria em D+3, enquanto concorrentes como Stone e PagSeguro já operavam com D+0. O efeito foi imediato - perdíamos 23 % dos clientes por trimestre, o NPS despencou para 29 e R$ 2,4 bilhões em TPV estavam em risco. Mantida a tendência, em seis meses nosso marketplace ficaria insustentável. Priorizei esse problema porque ameaçava o core da unidade de negócio - sem corrigir a liquidez, perderíamos a base de receita recorrente e comprometeríamos a estratégia de crescimento do hub como provedor de soluções instantâneas.`,

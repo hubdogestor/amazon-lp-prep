@@ -7,7 +7,7 @@ const case_4 = {
   company: "SEFAZ/RS",
   period: "08/2024-11/2024",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
   pt: {
     s: "Agosto de 2024. Como Advisor da transformação digital na SEFAZ/RS, assumi um sistema colapsado: R$ 4,6 milhões em repasses retidos, 47 mil crianças sem merenda e a CAGE operando por e-mail e planilha. Eram 500 gestores, 1.200 demandas mensais e 34 % fora do SLA regulatório de 15 dias. NPS das secretarias caíra para 30, e a opinião pública pressionava por transparência. Precisávamos recuperar governança sem interromper o serviço público.",
     t: "Diante desse cenário crítico, decidi unificar tecnologia, processo e política pública em um único mecanismo que garantisse eficiência e impacto real. Minha missão era transformar o e-CAGE em portal digital unificado, com adoção integral, SLA médio inferior a nove dias e NPS acima de 60. Para isso, ampliei o escopo de liderança: dirigi diretamente 42 profissionais de TI, auditoria e finanças, alinhando-os diariamente com oito secretarias de Estado com prioridades distintas e ciclos regulatórios diferentes. Essa governança multilateral exigia habilidade política e comunicação constante para equilibrar compliance e agilidade.",

@@ -7,7 +7,7 @@ const case_1 = {
   company: "Bradesco Next",
   period: "07/2016-11/2017",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
 
   pt: {
     s: "Em janeiro de 2016, quando atuava como coordenador de transformação digital do Bradesco Next, recebi um alerta que colocava em risco o futuro do programa: enquanto bancos digitais captavam clientes em dez minutos, nosso processo de abertura de conta levava 27 dias. Esse atraso causava evasão de 38% dos leads e ameaçava 420 mil clientes potenciais, equivalentes a cerca de R$310 milhões em saldo projetado. A mídia já questionava nossa competitividade, e a diretoria temia perda de relevância entre o público mais jovem. Com prazos críticos e a estratégia em risco, minha responsabilidade era conduzir a virada operacional e cultural que devolveria velocidade e credibilidade ao banco.",

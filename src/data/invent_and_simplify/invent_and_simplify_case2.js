@@ -6,7 +6,7 @@ const case_2 = {
   company: "Bradesco",
   period: "08/2016-05/2017",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: `Em 2016, eu atuava como Product Owner de Onboarding Digital no Bradesco Next, durante a fase beta do projeto. Havia um consenso incômodo: a experiência do cliente simplesmente não funcionava. Um e-mail que recebi de um usuário resumiu a situação - “mandei o mesmo documento cinco vezes e ainda não foi aprovado”.  
     O tempo médio de abertura de conta chegava a 32 horas, a taxa de abandono atingia 18% e o NPS despencava para 22. Cada novo cliente frustrado significava R$ 1.200 em CAC desperdiçado e cerca de 2.400 prospects perdidos por semana. O núcleo do problema estava nas 47 regras regulatórias do BACEN, interpretadas por 12 analistas diferentes, criando um labirinto burocrático que ninguém conseguia explicar direito.`,

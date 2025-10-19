@@ -1,7 +1,21 @@
 {
   "permissions": {
     "allow": [
-      "Bash(for file in insist_on_highest_standards_case*.js)"
+      "Bash(node scripts/lp-harmony-ai.mjs)",
+      "Bash(node scripts/lp-harmony-ai.mjs batch1)",
+      "Bash(node scripts/lp-harmony-ai.mjs batch2)",
+      "Bash(node scripts/lp-harmony-ai.mjs batch3)",
+      "Bash(node scripts/lp-harmony-ai.mjs batch4)",
+      "Bash(node scripts/lp-harmony-ai.mjs batch5)",
+      "Bash(node scripts/lp-harmony-ai.mjs analyze stakeholder_management)",
+      "Bash(node -e \"const mapping = {}; mapping[''stakeholder_management''] = {''1'': {options: [{caseId: ''test'', score: 85}]}}; console.log(JSON.stringify(mapping, null, 2))\")",
+      "Read(//d//**)",
+      "Bash(node -e \"\nconst content = ''test\\n};\\n\\nexport default questionsToCasesMapping;\\n'';\nconst regex = /\\n\\};(\\n\\nexport default questionsToCasesMapping;)?$/;\nconsole.log(''Match:'', regex.test(content));\nconsole.log(''Replace:'', content.replace(regex, '',\\n  \"\"stakeholder_management\"\": {}\\n};$1''));\n\")",
+      "Bash(for batch in batch1 batch2 batch3 batch4 batch5)",
+      "Bash(do echo \"=== $batch ===\")",
+      "Bash(node scripts/lp-harmony-ai.mjs $batch)",
+      "Bash(done)",
+      "Bash(node -c src/data/questionsToCasesMapping.js)"
     ],
     "deny": [],
     "ask": []

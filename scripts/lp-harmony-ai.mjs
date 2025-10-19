@@ -545,18 +545,29 @@ Agora analise as ${combinations.length} combinações acima e retorne o array JS
       };
     }
 
-    // Substituir seção do LP
-    const lpRegex = new RegExp(
-      `"${principleId}":\\s*\\{[\\s\\S]*?\\n  \\}(?=,\\n  "|\\n\\};)`,
-      'g'
-    );
+    // Verificar se o LP já existe no arquivo
+    const lpExistsRegex = new RegExp(`"${principleId}":\\s*\\{`, 'g');
+    const lpExists = lpExistsRegex.test(content);
 
     const newLPSection = `"${principleId}": ${JSON.stringify(cleanMapping, null, 2)
       .split('\n')
       .map((line, idx) => idx === 0 ? line : '  ' + line)
       .join('\n')}`;
 
-    content = content.replace(lpRegex, newLPSection);
+    if (lpExists) {
+      // Substituir seção existente do LP
+      const lpRegex = new RegExp(
+        `"${principleId}":\\s*\\{[\\s\\S]*?\\n  \\}(?=,\\n  "|\\n\\};)`,
+        'g'
+      );
+      content = content.replace(lpRegex, newLPSection);
+    } else {
+      // Adicionar novo LP antes do fechamento };
+      // Precisa adicionar antes da linha "  }" (com espaços) que fecha o objeto principal
+      const closingRegex = /(\n  \})\n\};\n\nexport default questionsToCasesMapping;\n$/;
+      content = content.replace(closingRegex, `,\n  ${newLPSection}$1\n};\n\nexport default questionsToCasesMapping;\n`);
+    }
+
     fs.writeFileSync(mappingPath, content, 'utf-8');
   }
 
