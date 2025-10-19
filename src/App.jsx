@@ -85,6 +85,14 @@ export default function App() {
   const [showIcebreaker, setShowIcebreaker] = useState(false);
   const [showMyQuestions, setShowMyQuestions] = useState(false);
   const [language, setLanguage] = useState('pt');
+  const [isSearching, setIsSearching] = useState(false);
+  const [copiedCaseId, setCopiedCaseId] = useState(null);
+
+  // Icebreakers
+  const {
+    value: usedIcebreakers,
+    toggle: toggleUsedIcebreaker,
+  } = usePersistentFlagMap(STORAGE_KEYS.usedIcebreakers);
 
   useEffect(() => {
     i18n.changeLanguage(language);
@@ -94,6 +102,14 @@ export default function App() {
   const principlesData = useMemo(() => {
     return sortPrinciples(rawPrinciplesData, language);
   }, [rawPrinciplesData, language]);
+
+  // Hook para funções de casos
+  const {
+    getCaseBaseTitle,
+    getDisplayCaseTitle,
+    getBestCaseOption,
+    getCaseQuestions,
+  } = useCaseHelpers(principlesData, language);
 
   const {
     searchTerm,
@@ -387,10 +403,10 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
   // Verifica se termo de busca STAR existe em alguma seção do STAR(L)
   const starSectionMatchesTerm = useCallback((caseObj, lang, term) => {
     if (!term || !caseObj || !caseObj[lang]) return true;
-    
+
     const termLower = term.toLowerCase().trim();
     const starData = caseObj[lang];
-    
+
     return (
       starData.s?.toLowerCase().includes(termLower) ||
       starData.t?.toLowerCase().includes(termLower) ||
@@ -399,6 +415,75 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
       starData.l?.toLowerCase().includes(termLower)
     );
   }, []);
+
+  // Handler para seleção de resultado de busca de cases
+  const handleCaseSearchResultSelect = useCallback((result, savedSearchWords) => {
+    const { p, c } = result;
+    const caseId = c.id || c.title;
+
+    setSelectedPrinciple(p.id);
+    setShowTopCases(false);
+    setQuestionSearch("");
+    setTypicalQuestionSearch("");
+    clearExpanded();
+    clearHighlights();
+
+    setTimeout(() => {
+      setExpandedCases({ [caseId]: true });
+      setSearchTerm("");
+
+      const caseDomId = `case-${slugify(caseId)}`;
+      const elem = document.getElementById(caseDomId);
+      if (elem) {
+        elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
+      }
+    }, 0);
+  }, [setHighlightedCase, clearExpanded, clearHighlights]);
+
+  // Handler para seleção de resultado de busca de FUPs
+  const handleFupSearchResultSelect = useCallback((result) => {
+    const { p, c, originalIdx } = result;
+    const caseId = c.id || c.title;
+
+    setSelectedPrinciple(p.id);
+    setShowTopCases(false);
+    setSearchTerm("");
+    setTypicalQuestionSearch("");
+    clearExpanded();
+    clearHighlights();
+
+    setTimeout(() => {
+      setExpandedCases({ [caseId]: true });
+      setQuestionSearch("");
+
+      const anchorId = `fup-${p.id}-${slugify(caseId)}-${originalIdx}`;
+      setHighlightedFup(anchorId, FUP_SCROLL_DELAY);
+    }, 0);
+  }, [setHighlightedFup, clearExpanded, clearHighlights]);
+
+  // Handler para seleção de resultado de busca de perguntas típicas
+  const handleTypicalSearchResultSelect = useCallback((result) => {
+    const { p, idx } = result;
+
+    setSelectedPrinciple(p.id);
+    setShowTopCases(false);
+    setSearchTerm("");
+    setQuestionSearch("");
+    clearExpanded();
+    clearHighlights();
+
+    setTimeout(() => {
+      setTypicalQuestionSearch("");
+
+      const typicalQuestionId = `typical-${p.id}-${idx}`;
+      const elem = document.getElementById(typicalQuestionId);
+      if (elem) {
+        elem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setHighlightedTypicalQuestion(typicalQuestionId, 2000);
+      }
+    }, 100);
+  }, [setHighlightedTypicalQuestion, clearExpanded, clearHighlights]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
