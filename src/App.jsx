@@ -428,9 +428,13 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     clearExpanded();
     clearHighlights();
 
+    // Preserve the search term for highlighting
+    const currentSearchTerm = searchTerm;
+
     setTimeout(() => {
       setExpandedCases({ [caseId]: true });
       setSearchTerm("");
+      setHighlightCaseTerm(currentSearchTerm);
 
       const caseDomId = `case-${slugify(caseId)}`;
       const elem = document.getElementById(caseDomId);
@@ -439,10 +443,10 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
         setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
       }
     }, 0);
-  }, [setHighlightedCase, clearExpanded, clearHighlights]);
+  }, [searchTerm, setHighlightedCase, clearExpanded, clearHighlights]);
 
   // Handler para seleção de resultado de busca de FUPs
-  const handleFupSearchResultSelect = useCallback((result) => {
+  const handleFupSearchResultSelect = useCallback((result, savedSearchWords) => {
     const { p, c, originalIdx } = result;
     const caseId = c.id || c.title;
 
@@ -453,17 +457,21 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     clearExpanded();
     clearHighlights();
 
+    // Preserve the search term for highlighting
+    const currentSearchTerm = questionSearch;
+
     setTimeout(() => {
       setExpandedCases({ [caseId]: true });
       setQuestionSearch("");
+      setHighlightFupTerm(currentSearchTerm);
 
       const anchorId = `fup-${p.id}-${slugify(caseId)}-${originalIdx}`;
       setHighlightedFup(anchorId, FUP_SCROLL_DELAY);
     }, 0);
-  }, [setHighlightedFup, clearExpanded, clearHighlights]);
+  }, [questionSearch, setHighlightedFup, clearExpanded, clearHighlights]);
 
   // Handler para seleção de resultado de busca de perguntas típicas
-  const handleTypicalSearchResultSelect = useCallback((result) => {
+  const handleTypicalSearchResultSelect = useCallback((result, savedSearchWords) => {
     const { p, idx } = result;
 
     setSelectedPrinciple(p.id);
@@ -473,8 +481,12 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     clearExpanded();
     clearHighlights();
 
+    // Preserve the search term for highlighting
+    const currentSearchTerm = typicalQuestionSearch;
+
     setTimeout(() => {
       setTypicalQuestionSearch("");
+      setHighlightTypicalTerm(currentSearchTerm);
 
       const typicalQuestionId = `typical-${p.id}-${idx}`;
       const elem = document.getElementById(typicalQuestionId);
@@ -483,7 +495,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
         setHighlightedTypicalQuestion(typicalQuestionId, 2000);
       }
     }, 100);
-  }, [setHighlightedTypicalQuestion, clearExpanded, clearHighlights]);
+  }, [typicalQuestionSearch, setHighlightedTypicalQuestion, clearExpanded, clearHighlights]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
