@@ -4,7 +4,7 @@ const case_7 = {
   company: "Unimed Porto Alegre",
   period: "2022-2023",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
   pt: {
     s: "Em 2022, atuei como Group Product Manager na Unimed Porto Alegre, liderando a concepção e o lançamento de novos produtos digitais. A organização enfrentava saturação no mercado principal de saúde, crescendo apenas 3% ao ano, e buscava alternativas de receita. Propus explorar o mercado pet, que expandia 25% ao ano no Brasil — mas o contexto era de ambiguidade total. A incerteza surgia em três frentes: regulatória (sem diretrizes da ANS), técnica (ausência de dados atuariais ou históricos de sinistralidade) e de mercado (nenhum benchmark de operadora de saúde atuando nesse segmento). Além disso, o board aprovou o projeto com orçamento restrito e a exigência de que a nova linha não colocasse em risco a reputação da marca principal. Minha responsabilidade era transformar esse ambiente difuso em uma iniciativa concreta, viável e sustentável dentro de seis meses.",
     t: "Meu desafio era lançar o primeiro produto de saúde pet da Unimed em seis meses, transformando a ambiguidade em plano concreto. Estruturei a incerteza em três dimensões: aprendizado acelerado (para gerar dados e testar hipóteses), construção de rede (para viabilizar o ecossistema de clínicas) e modelagem atuarial (para definir viabilidade financeira). Essas três frentes me permitiram converter o que era difuso em etapas mensuráveis — quem era o público, qual valor percebido e o que tornaria o produto sustentável.",

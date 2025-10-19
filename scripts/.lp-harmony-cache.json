@@ -8206,5 +8206,1778 @@
     "reasoning": "Case exemplar: mediu impacto comparando real vs projeção e vs concorrentes (420 mil clientes vs 270 mil Neon, R$ 220M receita 22% acima planejado, 4 meses antes do prazo). Múltiplas métricas rastreadas.",
     "analyzedAt": "2025-10-18T20:25:34.979929Z",
     "version": "3.0"
+  },
+  "deal_with_ambiguity__Q1__bradesco-open-banking-vision": {
+    "relevance": 22,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 78,
+    "reasoning": "Case demonstra decisão estratégica audaciosa (defender APIs abertas em 2018) mas informação não era incompleta - havia exemplos globais (Stripe, Plaid). Profundidade excelente com estudos sistemáticos e métricas sólidas.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q1__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: decisão crítica em 45 dias com info fragmentada (11 sistemas, dados conflitantes). Assumiu controle sem autoridade formal. Métricas excepcionais (US$12M aprovados, desvio 23%→7.4%).",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q1__hsbc-bradesco-cultural-migration": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "PERFEITAMENTE alinhado: requisitos mudavam semanalmente, migração R$3B com zero perda. Sprints quinzenais para adaptar. Métricas sólidas (100% conformidade, turnover 24%→8%).",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q1__huawei-worldcup-war-room": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "PERFEITAMENTE alinhado: 30 gerentes, requisitos mutáveis diariamente, ambiente de máxima incerteza. Criou rituais de foco e clareza. Produtividade +40%, SLA desvio 23%→5%.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q1__unimed-innovation-ambiguity": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: ambiguidade regulatória da ANS sem precedentes, zero estrutura de inovação. Criou framework híbrido Stage-Gate + Lean. Métricas robustas (PAS 20K vidas em 12m, Pet +18%, APS R$4.6M economia).",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q1__sefaz-digital-transformation-ambiguity": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "PERFEITAMENTE alinhado: cenário político conturbado, sistemas legados 1990, resistência cultural. Estratégia de descoberta progressiva com pilotos de 90 dias. Arrecadação +12% (R$480M), fraudes -30%.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q1__unimed-pet-health-ambiguity": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: zero histórico pet health, ambiguidade total em precificação e risco. Framework de aprendizado rápido com hipóteses testáveis. Lançamento em 5m (-30% prazo), adesão 18% (+50% meta), R$8.2M receita.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q2__bradesco-open-banking-vision": {
+    "relevance": 26,
+    "depth": 30,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Estruturação boa: estudou 12 plataformas globais, criou protótipo Bootstrap, evangelização de 3 anos. Conceito presente mas havia precedentes internacionais. Learning profundo sobre paciência estratégica.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q2__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: zero precedente de PMO na SEFAZ-RS. Estruturou do zero com Python/Pandas, Power BI, análise de cenários ROI. Business case detalhado convenceu BID sem condições extras.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q2__hsbc-bradesco-cultural-migration": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 26,
+    "scoreBase": 84,
+    "reasoning": "PERFEITAMENTE alinhado: abandonou cascata, criou Sprints Quinzenais + RAID logs/heatmaps para estruturar problema sem playbook. Imersão cultural HSBC UK. Métodos adaptativos exemplares.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q2__huawei-worldcup-war-room": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "PERFEITAMENTE alinhado: criou estrutura de governança com 3 pilares (Rituais de Foco, Clareza de Impacto, Controle de Ruído). Transformou incerteza em sistema que gera clareza. Produtividade +40%.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q2__unimed-innovation-ambiguity": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: estruturou framework híbrido Stage-Gate + Lean Startup sem precedente na cooperativa. Comitê com 3 pilares (potencial regulatório, viabilidade técnica, fit estratégico). Metodologia exemplar.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q2__sefaz-digital-transformation-ambiguity": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "PERFEITAMENTE alinhado: estratégia de descoberta progressiva, mapeou 15 processos, 3 alavancas de transformação. Pilotos de 90 dias gerando aprendizado mensurável. Framework PMI + Balanced Scorecard adaptados.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q2__unimed-pet-health-ambiguity": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: framework de aprendizado rápido em 4 movimentos (120 entrevistas, modelo atuarial próprio, 3 cenários de sinistralidade, pilotos com 200 usuários). Metodologia exemplar para mercado novo.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q3__bradesco-open-banking-vision": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "Projeto sem patrocínio executivo, sem escopo formal. Evangelização subterrânea de 3 anos. Escopo emergiu iterativamente. Boas métricas finais mas requisitos foram definindo-se ao longo do tempo.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q3__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: zero escopo claro do BID, apenas prazo de 45 dias. Definiu próprio escopo extraindo dados de 11 sistemas, criou business case que virou modelo nacional.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q3__hsbc-bradesco-cultural-migration": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "PERFEITAMENTE alinhado: requisitos mudavam semanalmente, escopo em constante evolução. Sprints quinzenais transformaram mudança em rotina vs crise. R$3B migrados com zero perda.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q3__huawei-worldcup-war-room": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "PERFEITAMENTE alinhado: 30 PMs, requisitos de 12 estádios mutáveis diariamente. Criou sistema de prioridades diárias + rituais de foco. Entregue 100% no prazo da Copa.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q3__unimed-innovation-ambiguity": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: CEO pediu 'estruture inovação' sem escopo definido. Criou framework do zero, adaptou Stage-Gate + Lean. Definiu próprios requisitos (4 produtos em 18m). Sucesso total nos 4 lançamentos.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q3__sefaz-digital-transformation-ambiguity": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "PERFEITAMENTE alinhado: 'estruture o PMO e transforme a SEFAZ' sem requisitos claros. Descoberta progressiva com pilotos de 90 dias. 50 projetos estruturados em 6m, arrecadação +12%.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q3__unimed-pet-health-ambiguity": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: 'lance produto pet em 6 meses' sem requisitos, zero histórico. Framework de aprendizado rápido definiu escopo iterativamente. Entregue em 5m com todas métricas superadas.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q4__bradesco-open-banking-vision": {
+    "relevance": 22,
+    "depth": 28,
+    "evidence": 26,
+    "scoreBase": 76,
+    "reasoning": "Case mostra paciência de 3 anos vs decisão rápida. Coletou muitos dados (12 plataformas, protótipo, feedback loops) antes de defender novamente. Conceito secundário para a pergunta.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q4__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: decisão em 1 fim de semana (extrair 11 sistemas, Python/Pandas, Power BI) vs esperar mais dados. Prazo de 45 dias forçou ação. Business case com cenários mostrou suficiência.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q4__hsbc-bradesco-cultural-migration": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Sprints quinzenais = ciclos frequentes de decisão com dados limitados. RAID logs ajudavam priorizar. Bom exemplo mas não central no case. Métricas sólidas mas conceito tangencial.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q4__huawei-worldcup-war-room": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Rituais diários de 15min decidiam bloqueadores top 3 com info disponível. Sistema de prioridade clara permitia ação rápida. Bom exemplo de cadência decisória em ambiente volátil.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q4__unimed-innovation-ambiguity": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Comitê mensal avaliava projetos com 3 pilares (regulatório, técnico, estratégico) decidindo go/no-go. Ciclos Lean Startup = testar rápido com dados mínimos. Boa cadência decisória.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q4__sefaz-digital-transformation-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Pilotos de 90 dias = ciclos de aprendizado antes de decisões maiores. Descoberta progressiva balanceou ação vs análise. Conceito presente mas não central.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q4__unimed-pet-health-ambiguity": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: 120 entrevistas + 3 cenários atuariais definiu suficiência para lançar piloto com 200 usuários. Ajustou preço semanalmente baseado em dados reais. Framework exemplar de decisão iterativa.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q5__bradesco-open-banking-vision": {
+    "relevance": 18,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 70,
+    "reasoning": "Case mostra adaptação estratégica (evangelização subterrânea quando rejeitado) mas não foca em mudança de direção por feedback do mercado. Conceito tangencial.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q5__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "Adaptou plano quando descobriu dados conflitantes nos 11 sistemas. Business case revisado após feedback BID. Bom exemplo mas não central no narrative.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q5__hsbc-bradesco-cultural-migration": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "PERFEITAMENTE alinhado: requisitos mudavam semanalmente, cada sprint quinzenal reavaliava e repriorizava baseado em novos dados. Mudança de direção = rotina vs crise. Exemplar.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q5__huawei-worldcup-war-room": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Rituais diários de bloqueadores forçavam repriorização constante. Heatmaps de risco ajustavam recursos. Boa adaptação mas não é foco central do case.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q5__unimed-innovation-ambiguity": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Ciclos Lean Startup = pivotar baseado em aprendizado. Exemplo: ajustou PAS após feedback ANS. Framework permitia mudança de direção estruturada.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q5__sefaz-digital-transformation-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Pilotos de 90 dias geravam feedback que ajustava próxima onda. Descoberta progressiva = aprendizado iterativo. Conceito presente mas secundário.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q5__unimed-pet-health-ambiguity": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: ajustou preço semanalmente baseado em dados de sinistralidade real. Modelo atuarial com 3 cenários permitiu pivotar rápido. Dados reais vs projeção guiaram ajustes.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q6__bradesco-open-banking-vision": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Resistência executiva = conflito institucional. Learning sobre paciência estratégica. Conceito presente mas case foca mais em visão de longo prazo que resolução de conflito.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q6__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "Negociação com BID (plano interno vs contratações) = mediação de interesses conflitantes. Business case resolveu com dados. Bom exemplo mas não central.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q6__hsbc-bradesco-cultural-migration": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "Culturas HSBC (colaborativa) vs Bradesco (hierárquica) = conflito cultural direto. Imersão UK + rituais cross-cultural mediaram bem. Turnover 24%→8% mostra sucesso.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q6__huawei-worldcup-war-room": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "30 PMs com prioridades conflitantes. Rituais de foco + clareza de impacto alinharam. Conceito presente mas case foca mais em governança que mediação.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q6__unimed-innovation-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Comitê executivo com múltiplos stakeholders (médicos, compliance, TI) tinha prioridades conflitantes. Framework com 3 pilares mediou decisões.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q6__sefaz-digital-transformation-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Sindicato vs automação = conflito direto. Episódio de reação negativa resolvido com dados de impacto. Conceito presente mas não central.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q6__unimed-pet-health-ambiguity": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Stakeholders (médicos, compliance) questionavam viabilidade pet. Piloto com dados reais resolveu. Conflito implícito mas não desenvolvido profundamente.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q7__bradesco-open-banking-vision": {
+    "relevance": 18,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 66,
+    "reasoning": "Case mostra risco de 3 anos sem patrocínio executivo. Learning sobre coragem mas não desenvolve análise de risco/mitigação profundamente. Conceito tangencial.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q7__sefaz-pmo-creation": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Risco de US$12M congelados vs risco de plano interno falhar. Análise de cenários ROI comparou alternativas. Mitigação com pilotos rápidos. Bom exemplo.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q7__hsbc-bradesco-cultural-migration": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "RAID logs e heatmaps de risco = gestão estruturada. Sprints quinzenais reavaliavam riscos. Conceito presente mas não detalhado profundamente.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q7__huawei-worldcup-war-room": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Heatmaps de risco diários priorizavam mitigação. Sistema de bloqueadores = gestão de risco proativa. SLA desvio 23%→5% mostra eficácia.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q7__unimed-innovation-ambiguity": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Risco regulatório ANS = central. Comitê avaliava potencial regulatório explicitamente. Lean Startup mitigava risco técnico com pilotos. Boa gestão de risco.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q7__sefaz-digital-transformation-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Pilotos de 90 dias = mitigação de risco incremental. Cenário político conturbado exigia cautela. Conceito presente mas não desenvolvido profundamente.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q7__unimed-pet-health-ambiguity": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "Risco atuarial = central. 3 cenários de sinistralidade modelaram risco. Piloto com 200 usuários mitigou antes de escalar. Modelo de risco exemplar.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q8__bradesco-open-banking-vision": {
+    "relevance": 18,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 66,
+    "reasoning": "Learning sobre paciência e visão de longo prazo. Não detalha processo de learning ou ajustes baseados em experimentos. Conceito tangencial.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q8__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Learning sobre governança gerar valor, liderança sem autoridade formal. Conceito presente no L do STAR-L mas não desenvolve iterações de aprendizado.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q8__hsbc-bradesco-cultural-migration": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 24,
+    "scoreBase": 76,
+    "reasoning": "Learning sobre integração cultural > integração técnica. Sprints = ciclos de aprendizado mas não detalhados como experimentação consciente.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q8__huawei-worldcup-war-room": {
+    "relevance": 24,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 72,
+    "reasoning": "Learning sobre clareza como ferramenta de liderança. Rituais = framework mas não desenvolve iterações de aprendizado. Conceito secundário.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q8__unimed-innovation-ambiguity": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Learning sobre ambiguidade regulatória como catalisadora. Lean Startup = ciclos explícitos de aprendizado. Transformar interações ANS de barreira em aprendizado. Bom exemplo.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q8__sefaz-digital-transformation-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Pilotos de 90 dias = aprendizado mensurável. Learning sobre empatia política + evidências. Descoberta progressiva = experimentação estruturada.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q8__unimed-pet-health-ambiguity": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: ambiguidade produtiva transformada em hipóteses testáveis. 3 faixas de preço ajustadas semanalmente = experimentação contínua. Aprendizado atuarial iterativo exemplar.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q9__bradesco-open-banking-vision": {
+    "relevance": 22,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 74,
+    "reasoning": "Protótipo Bootstrap + feedback loops = experimentos. Mas não detalha hipóteses específicas testadas. Conceito presente mas não central.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q9__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Business case com 3 cenários = análise de alternativas. Mas não desenvolve múltiplas iterações experimentais. Conceito presente.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q9__hsbc-bradesco-cultural-migration": {
+    "relevance": 24,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 72,
+    "reasoning": "Sprints quinzenais testavam abordagens iterativamente. Imersão UK = hipótese sobre cultura. Conceito implícito mas não detalhado.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q9__huawei-worldcup-war-room": {
+    "relevance": 22,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 70,
+    "reasoning": "Rituais de foco = framework fixo vs experimentação de múltiplas abordagens. Não desenvolve teste de alternativas. Conceito tangencial.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q9__unimed-innovation-ambiguity": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "Lean Startup = testar múltiplas hipóteses em ciclos rápidos. Comparou Stage-Gate vs Lean antes de escolher híbrido. Experimentação estruturada.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q9__sefaz-digital-transformation-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Pilotos de 90 dias = experimentos controlados. 3 alavancas (arrecadação, integração, custos) testadas em paralelo. Descoberta progressiva exemplar.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q9__unimed-pet-health-ambiguity": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: testou 3 cenários atuariais, 3 faixas de preço, piloto com 200 usuários antes de escalar. Entrevistas (120+40) = discovery. Experimentação exemplar.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q10__bradesco-open-banking-vision": {
+    "relevance": 18,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 66,
+    "reasoning": "Evangelização de 3 anos sem sucesso inicial mas persistiu. Learning sobre paciência. Não desenvolve mindset growth explicitamente. Conceito tangencial.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q10__sefaz-pmo-creation": {
+    "relevance": 22,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 70,
+    "reasoning": "Learning sobre liderança sem autoridade formal. Conceito de growth implícito mas não desenvolvido profundamente. Foco mais em execução que mindset.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q10__hsbc-bradesco-cultural-migration": {
+    "relevance": 22,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 70,
+    "reasoning": "Learning sobre pessoas > sistemas. Imersão UK = abertura para aprender. Mas não desenvolve mindset growth como tema central.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q10__huawei-worldcup-war-room": {
+    "relevance": 18,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 62,
+    "reasoning": "Learning sobre clareza como ferramenta. Não desenvolve erro ou falha transformadores. Conceito muito tangencial.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q10__unimed-innovation-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Learning sobre ambiguidade regulatória como catalisadora. Transformar interações ANS de barreira em aprendizado = growth mindset. Bom exemplo mas não central.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q10__sefaz-digital-transformation-ambiguity": {
+    "relevance": 24,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 72,
+    "reasoning": "Learning sobre empatia política + evidências. Episódio de resistência sindical transformado em aprendizado. Growth implícito mas não desenvolvido.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q10__unimed-pet-health-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Learning sobre ambiguidade produtiva. Ajustes semanais = aprendizado contínuo. Transformar incerteza em hipóteses testáveis = growth mindset.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q11__bradesco-open-banking-vision": {
+    "relevance": 18,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 66,
+    "reasoning": "Resistência executiva = barreira organizacional. Evangelização subterrânea superou. Conceito presente mas não desenvolve superação de obstáculo detalhadamente.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q11__sefaz-pmo-creation": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Obstáculo: dados fragmentados em 11 sistemas, resistência política. Superou com Python/Pandas + business case convincente. Bom exemplo.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q11__hsbc-bradesco-cultural-migration": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 24,
+    "scoreBase": 76,
+    "reasoning": "Obstáculo: choque cultural HSBC vs Bradesco. Superou com imersão UK + rituais cross-cultural. Turnover 24%→8% mostra eficácia.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q11__huawei-worldcup-war-room": {
+    "relevance": 24,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 72,
+    "reasoning": "Obstáculo: 30 PMs ansiosos, requisitos mutáveis. Superou com rituais de foco. Conceito presente mas não desenvolvido profundamente.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q11__unimed-innovation-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Obstáculo: ambiguidade regulatória ANS. Superou transformando incerteza em framework estruturado Stage-Gate + Lean. 4 produtos lançados com sucesso.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q11__sefaz-digital-transformation-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Obstáculo: resistência sindical, sistemas legados 1990. Superou com dados de impacto + pilotos incrementais. Arrecadação +12%.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q11__unimed-pet-health-ambiguity": {
+    "relevance": 24,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 76,
+    "reasoning": "Obstáculo: zero histórico pet, stakeholders céticos. Superou com piloto de 200 usuários + dados reais. Conceito presente.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q12__bradesco-open-banking-vision": {
+    "relevance": 18,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 62,
+    "reasoning": "Dados: estudos de 12 plataformas globais, protótipo, feedback loops. Mas não central no narrative. Conceito tangencial.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q12__sefaz-pmo-creation": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "PERFEITAMENTE alinhado: extraiu 11 sistemas (S2GPR, FPE, SEI, e-Social), Python/Pandas, Power BI. Análise de cenários ROI. Business case baseado em dados quantitativos.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q12__hsbc-bradesco-cultural-migration": {
+    "relevance": 22,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 70,
+    "reasoning": "RAID logs e heatmaps = dados estruturados. Mas não desenvolve quais dados específicos informaram decisões. Conceito presente.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q12__huawei-worldcup-war-room": {
+    "relevance": 24,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 72,
+    "reasoning": "Heatmaps de risco, burn rate de cronograma, SLA de sites. Dados operacionais guiaram priorização. Conceito presente mas não central.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q12__unimed-innovation-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Dados: comparação de metodologias (Stage-Gate vs Lean), benchmarks de outras cooperativas. Comitê avaliava potencial regulatório, viabilidade técnica com dados.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q12__sefaz-digital-transformation-ambiguity": {
+    "relevance": 26,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 78,
+    "reasoning": "Dados: mapeamento de 15 processos, análise de custo-benefício. Balanced Scorecard com KPIs. Pilotos geravam dados mensuráveis em 90 dias.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "deal_with_ambiguity__Q12__unimed-pet-health-ambiguity": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: 120 entrevistas, 40 clínicas, dados públicos de sinistralidade, benchmarks internacionais. 3 cenários modelados, piloto 200 usuários gerando dados reais. Uso exemplar de dados.",
+    "analyzedAt": "2025-10-18T21:00:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q1__unimed-retention-strategy": {
+    "relevance": 24,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 68,
+    "reasoning": "O case mostra defesa de posição (retenção vs aquisição), mas não exemplifica defender posição com a qual não concorda pessoalmente - defendeu sua própria posição.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q1__huawei-world-cup-timeline": {
+    "relevance": 22,
+    "depth": 20,
+    "evidence": 20,
+    "scoreBase": 62,
+    "reasoning": "Defendeu sua posição técnica sobre riscos, mas não há exemplo de defender posição contrária à própria opinião. Mais sobre discordar que defender algo com que não concorda.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q1__bradesco-mvp-feature-prioritization": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Precisou defender o feed social (decisão do CEO) com a qual discordava pessoalmente (preferia motor de recomendação). Liderou execução do feed com total comprometimento.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q1__commit-on-disagreement-product-strategy": {
+    "relevance": 20,
+    "depth": 18,
+    "evidence": 18,
+    "scoreBase": 56,
+    "reasoning": "Defendeu própria posição (pricing seletivo vs linear), não posição contrária. Questão pede defender o que não concorda, não defender o que concorda.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q2__unimed-retention-strategy": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "EXCELENTE: CEO decidiu plano híbrido 60/40 (retenção/aquisição) vs 100% retenção preferida. Aceitou, liderou execução. 'Entendido. A partir de agora, lidero execução e sou totalmente responsável'.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q2__huawei-world-cup-timeline": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: VP decidiu corte de 15 dias (meio-termo vs 0 preferido). 'Registrado meu desacordo com os dados, mas a partir de agora, sou 100% responsável'. War room 24/7, execução exemplar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q2__bradesco-mvp-feature-prioritization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Comitê votou feed vs motor recomendação. Teste A/B mostrou motor superior, mas aceitou decisão. 'Estou 100% comprometido'. 78 páginas specs, 300 pull requests. Exemplo perfeito.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q2__commit-on-disagreement-product-strategy": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "EXCELENTE: CEO escolheu piloto seletivo (não 100% sua proposta, mas melhor que corte linear). 'Estou pronto para executar qualquer decisão'. Dashboard real-time, disciplina de execução.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q3__unimed-retention-strategy": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "EXCELENTE: Discordava do plano híbrido (queria 100% retenção). Implementou 60/40 com excelência. Squad multifuncional, alertas para 520k pacientes, cashback escalonado. Resultados superaram expectativas.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q3__huawei-world-cup-timeline": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Discordava do corte de 15 dias (preferia cronograma original). Implementou com war room 24/7, playbook decisão rápida, viajou com VP à FIFA. Entrega 12 dias antecipada. Exemplar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q3__bradesco-mvp-feature-prioritization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Discordava do feed social (queria motor recomendação). Implementou feed: 78 páginas specs, 300 PRs revisados, entrega 8 dias antecipada. Motor lite em paralelo. Caso exemplar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q3__commit-on-disagreement-product-strategy": {
+    "relevance": 26,
+    "depth": 24,
+    "evidence": 26,
+    "scoreBase": 76,
+    "reasoning": "BOM: Proposta foi aceita (piloto seletivo), então não implementou estratégia com que discordava inicialmente. Implementou sua própria proposta aprovada pelo CEO.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q4__unimed-retention-strategy": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 80,
+    "reasoning": "EXCELENTE: Apoiou publicamente plano híbrido perante equipe (squad multifuncional) apesar de preferir 100% retenção. Reuniões semanais com diretor comercial reafirmando compromisso.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q4__huawei-world-cup-timeline": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Apoiou publicamente cronograma revisado perante FIFA, operadora, equipes. Viajou com VP para apresentar plano de mitigação aos executivos da FIFA. Apoio público exemplar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q4__bradesco-mvp-feature-prioritization": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Apoiou publicamente feed perante squad, marketing (negociou criativos), time técnico. Liderou execução mesmo tendo defendido motor de recomendação no comitê.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q4__commit-on-disagreement-product-strategy": {
+    "relevance": 24,
+    "depth": 22,
+    "evidence": 22,
+    "scoreBase": 68,
+    "reasoning": "Proposta foi aceita pelo CEO, então não há exemplo de apoiar publicamente decisão com a qual discordava. Apoiou própria proposta aprovada.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q5__unimed-retention-strategy": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Squad multifuncional para ambas frentes, negociação com TI (APIs 4 semanas), reuniões semanais com diretor comercial. Alinhamento através de governança e entregas rápidas.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q5__huawei-world-cup-timeline": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: War room 24/7, dashboard 48 indicadores, playbook decisão rápida, força-tarefa multifuncional. Alinhamento exemplar em decisão controversa (corte de cronograma).",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q5__bradesco-mvp-feature-prioritization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Liderou squad, negociou cronograma marketing, treinou equipe, 78 páginas specs, 300 PRs revisados. Alinhamento total em decisão controversa (feed vs motor).",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q5__commit-on-disagreement-product-strategy": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "EXCELENTE: Negociou scorecards com Risco, treinou 120 vendedores, coordenou TI (motor pricing 10 dias), dashboard real-time. Alinhamento estruturado e executado.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q6__unimed-retention-strategy": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "EXCELENTE: Seguir plano híbrido (vs 100% retenção) gerou R$ 96M economia + 18k novos clientes. CFO validou, CEO reconheceu, diretor comercial o convidou para liderar fidelidade 2024.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q6__huawei-world-cup-timeline": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Seguir corte de 15 dias evitou US$ 11.3M multas, entrega 12 dias antecipada, 99.94% disponibilidade. VP reconheceu 'discordou com dados, executou com rigor'. Indicado para próximo evento global.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q6__bradesco-mvp-feature-prioritization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Seguir feed (vs motor) gerou +27% engajamento, NPS 72, motor lite reduziu churn 2.4pp. CEO aprovou R$ 8M para motor completo. Caso exemplar de aprendizado.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q6__commit-on-disagreement-product-strategy": {
+    "relevance": 26,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 74,
+    "reasoning": "Impacto positivo (17% volume, ROI 340%), mas seguiu sua própria proposta aprovada, não direção com que discordava. Questão não perfeitamente alinhada.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q7__unimed-retention-strategy": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Monte Carlo ROI negativo, apresentou CFO e comitê executivo. 'Discordo de desviar orçamento para aquisição e tenho os dados'. Comunicação exemplar antes de aceitar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q7__huawei-world-cup-timeline": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Monte Carlo 67% risco, apresentou VP e CEO operadora. 'Eu discordo do corte, mas seguirei a decisão final que tomarmos aqui'. Comunicação clara e baseada em dados.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q7__bradesco-mvp-feature-prioritization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Teste A/B 40k clientes, apresentou comitê executivo. 'Com base nestes dados, recomendo motor, mas estou preparado para liderar feed se for a decisão'. Comunicação exemplar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q7__commit-on-disagreement-product-strategy": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Regressão logística 120k contratos, ECL 6.3% vs 4.1%. Apresentou CEO e CRO. 'Discordo do corte linear, mas estou pronto para executar qualquer decisão'. Comunicação exemplar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q8__unimed-retention-strategy": {
+    "relevance": 26,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 74,
+    "reasoning": "Plano híbrido com aquisição ia contra intuição de 100% retenção. Executou com cashback (R$ 20/45/80) e campanha jovem 18-25. Mas não é foco central do case.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q8__huawei-world-cup-timeline": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "EXCELENTE: Corte de 15 dias ia contra intuição de cronograma original seguro. Executou com war room 24/7, playbook decisão 8h. Intuição vs execução disciplinada.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q8__bradesco-mvp-feature-prioritization": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Feed social ia contra intuição técnica de motor recomendação (dados A/B provavam motor superior). Executou feed com excelência, motor lite em paralelo mostrou intuição correta.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q8__commit-on-disagreement-product-strategy": {
+    "relevance": 22,
+    "depth": 20,
+    "evidence": 20,
+    "scoreBase": 62,
+    "reasoning": "Proposta aprovada foi sua própria (pricing seletivo), então não executou contra intuição. Executou o que intuição e dados indicavam.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q9__unimed-retention-strategy": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "EXCELENTE: APIs prontuário em 4 semanas exigiu negociação intensa com TI. Reuniões semanais com diretor comercial (antes opunha) reafirmando compromisso. Manteve disciplina apesar de dificuldades.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q9__huawei-world-cup-timeline": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Licenças 9 cidades, backlog 18 dias fornecedores. War room 24/7, playbook decisão rápida (autorização horas extras/realocação se > 8h atraso). Viajou com VP à FIFA. Compromisso exemplar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q9__bradesco-mvp-feature-prioritization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Dúvidas do time técnico sobre prazo. Assumiu responsabilidade direta, revisou 300 PRs pessoalmente. Entrega 8 dias antecipada (82 dias vs 90). Compromisso exemplar sob pressão.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q9__commit-on-disagreement-product-strategy": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "EXCELENTE: CRO sugeriu expandir antes de 45 dias. Manteve disciplina do plano, reforçou compromisso com gatilhos pré-estabelecidos. Dashboard real-time para monitorar KPIs. Disciplina sob pressão.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q10__unimed-retention-strategy": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "EXCELENTE: Convenceu squad multifuncional e diretor comercial (antes opunha) a seguir plano híbrido. Reuniões semanais reafirmando compromisso com metas combinadas. Convencimento sustentado.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q10__huawei-world-cup-timeline": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Convenceu força-tarefa, prefeituras, fornecedores, FIFA a seguir cronograma revisado. War room, playbook, viagem com VP. Convencimento em múltiplas frentes. Exemplar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q10__bradesco-mvp-feature-prioritization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Convenceu squad, marketing, time técnico a seguir decisão do feed (apesar do teste A/B mostrar motor superior). 78 páginas specs, 300 PRs. Convencimento exemplar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q10__commit-on-disagreement-product-strategy": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "EXCELENTE: Convenceu Risco (scorecards), 120 vendedores (treinamento), TI (motor pricing 10 dias) a seguir piloto seletivo. Dashboard real-time para alinhamento. Convencimento multi-stakeholder.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q11__unimed-retention-strategy": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Expressou opinião (Monte Carlo, CFO, comitê 'discordo de desviar orçamento'). Aceitou híbrido: 'Entendido. A partir de agora, lidero execução'. Equilíbrio exemplar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q11__huawei-world-cup-timeline": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Expressou opinião (Monte Carlo 67% risco, 'discordo do corte'). Aceitou meio-termo: 'Registrado desacordo, mas 100% responsável'. Equilíbrio exemplar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q11__bradesco-mvp-feature-prioritization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Expressou opinião (A/B test, 'recomendo motor'). Aceitou decisão: 'estou 100% comprometido'. 78 páginas specs, 300 PRs. Equilíbrio perfeito entre voz e compromisso.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q11__commit-on-disagreement-product-strategy": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Expressou opinião (regressão 120k contratos, 'discordo do corte linear'). Aceitou decisão: 'pronto para executar qualquer decisão'. Equilíbrio exemplar.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q12__unimed-retention-strategy": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Aprendizado explícito: 'objetivo não é vencer debate, mas melhor decisão baseada em dados'. Plano híbrido trouxe R$ 96M + 18k clientes. Aprendizado articulado.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q12__huawei-world-cup-timeline": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Aprendizado explícito: 'execução impecável de decisão com a qual discordou é forma mais poderosa de ganhar influência'. Meio-termo funcionou. Aprendizado rico.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q12__bradesco-mvp-feature-prioritization": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Aprendizado explícito: 'compromisso inabalável mesmo quando decisão não é sua. Execução exemplar abre portas que discordância não consegue'. Feed + motor lite. Aprendizado profundo.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "disagree_and_commit__Q12__commit-on-disagreement-product-strategy": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Aprendizado explícito: 'demonstrar compromisso inabalável com execução. Objetivo final é sucesso da empresa, não estar certo'. ROI 340%, promoção para internacional. Aprendizado claro.",
+    "analyzedAt": "2025-10-18T21:30:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q1__hsbc-zero-defects": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: 'Stop the line' permitia qualquer membro pausar migração. Auditoria pessoal 500 contas, reescrita completa módulo vs patch rápido. Padrões mantidos sob pressão extrema.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q1__sefaz-pmo-governance": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "EXCELENTE: Mudou foco de entregas para valor cidadão apesar de pressão. Diagnostico 48h, workshops, playbooks. Manteve padrões governança mesmo com resistência cultural.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q1__sicredi-payment-sla": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Error budget mensal congelava features se excedido. CI/CD bloqueava deploys falhos em 1.240 cenários. Padrões 99.99% mantidos automaticamente.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q1__reject-mediocre-work-procergs": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 80,
+    "reasoning": "EXCELENTE: Rejeitou trabalho medíocre sob pressão. Manteve padrões de qualidade mesmo com resistência. Mecanismos de revisão rigorosa.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q1__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Refez telemedicina para excelência apesar de prazo. Elevou padrões de qualidade técnica e experiência. Resultados validaram decisão.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q2__hsbc-zero-defects": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Rejeitou padrão industria 0.05% erro, criou Zero Data Loss. Rejeitou patch rápido, optou por reescrita completa módulo para 12k clientes.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q2__sefaz-pmo-governance": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 84,
+    "reasoning": "EXCELENTE: Rejeitou governança focada apenas em entregas. 28 de 74 projetos redesenhados para outcomes. Rejeitou mediocridade de desvio 63%.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q2__sicredi-payment-sla": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Rejeitou SLA 99.5% (padrão mercado), exigiu 99.99%. Rejeitou patches rápidos, optou por redesign total apesar de custo 40% maior.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q2__reject-mediocre-work-procergs": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado pelo título. Case específico sobre rejeitar trabalho medíocre. Provavelmente TopCase para esta questão.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q2__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado pelo título 'redo for excellence'. Rejeitou primeira versão telemedicina, refez para atender padrão superior.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q3__hsbc-zero-defects": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Elevou padrão de 0.05% erro (expectativa) para Zero Data Loss. Auditoria liderança, playbook 'stop the line', engajamento global. R$ 15M economizados.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q3__sefaz-pmo-governance": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Elevou governança de desvio 63% para 6.8%. ROI R$ 57M (triplo média). Mudou foco de entregas para valor cidadão.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q3__sicredi-payment-sla": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Elevou disponibilidade de 99.5% (43h downtime/ano) para 99.992% (4.2min em 9 meses). Reliability 4x9, error budget, Game Days.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q3__reject-mediocre-work-procergs": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 80,
+    "reasoning": "BOM: Provavelmente elevou qualidade após rejeitar trabalho medíocre. Detalhes específicos de elevação precisam ser verificados no case completo.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q3__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 28,
+    "scoreBase": 88,
+    "reasoning": "EXCELENTE: Refez telemedicina que estava abaixo do esperado. Elevou para excelência através de redesign completo. Título indica fit perfeito.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q4__hsbc-zero-defects": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Pausou migração 22h terça-feira, aceitou atraso 2 dias vs erro 10x mais caro. Reescrita completa vs patch rápido. Qualidade > velocidade exemplar.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q4__sefaz-pmo-governance": {
+    "relevance": 26,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 74,
+    "reasoning": "BOM: Redesenhou 28 projetos para outcomes vs continuar entregas rápidas sem valor. Mas foco maior em governança que trade-off qualidade/velocidade.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q4__sicredi-payment-sla": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Redesign total vs patches rápidos, custo 40% maior, payback 9 meses. Error budget congelava features. Qualidade > velocidade sistemático.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q4__reject-mediocre-work-procergs": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 80,
+    "reasoning": "EXCELENTE: Rejeitar trabalho medíocre implica escolher refazer (qualidade) vs aceitar rápido (velocidade). Trade-off provavelmente presente.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q4__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 28,
+    "scoreBase": 88,
+    "reasoning": "EXCELENTE: 'Redo for excellence' = escolheu refazer (qualidade) vs lançar rápido. Trade-off explícito no título do case.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q5__hsbc-zero-defects": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Estabeleceu 'Zero Data Loss' vs 0.05% industria. 15 campos críticos, 500 contas auditoria, playbook 'stop the line'. Critérios exemplares.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q5__sefaz-pmo-governance": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Estabeleceu novo padrão governança: foco em valor cidadão, outcomes vs entregas. Metas de desvio <10%, ROI >média histórica.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q5__sicredi-payment-sla": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Estabeleceu 28 SLOs claros, error budget mensal, 1.240 cenários CI/CD. Critérios 99.99% detalhados e mensuráveis.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q5__reject-mediocre-work-procergs": {
+    "relevance": 26,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 74,
+    "reasoning": "BOM: Provavelmente estabeleceu critérios após rejeitar trabalho medíocre. Foco mais em rejeição que estabelecimento proativo.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q5__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "EXCELENTE: Estabeleceu critérios excelência para redesign telemedicina. Provavelmente métricas UX, performance, qualidade técnica.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q6__hsbc-zero-defects": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Convenceu diretor executivo sobre Zero Data Loss vs 0.05%. Times globais India/Polonia/China. Histórias reais clientes humanizaram impacto.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q6__sefaz-pmo-governance": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Convenceu Secretário sobre valor cidadão vs entregas. R$ 38M perdas apresentado. Workshops para vencer resistência gerentes médios.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q6__sicredi-payment-sla": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Convenceu diretor executivo sobre 99.99% vs 99.5%. Business case R$ 187k/hora. Comitê executivo, payback 9 meses.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q6__reject-mediocre-work-procergs": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 80,
+    "reasoning": "EXCELENTE: Rejeitar trabalho medíocre requer convencer equipe sobre padrões. Provavelmente enfrentou resistência.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q6__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 80,
+    "reasoning": "EXCELENTE: Refazer para excelência requer convencer stakeholders. Provavelmente business case sobre benefícios long-term.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q7__hsbc-zero-defects": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Auditoria pessoal 500 contas, 15 campos críticos. Dashboards integridade reduzir 72h para 12h detecção. Metricas zero data loss.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q7__sefaz-pmo-governance": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "EXCELENTE: Desvio orçamentário 63% para 6.8%. ROI R$ 57M medido. 28 projetos redesenhados rastreados. Dashboards governança.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q7__sicredi-payment-sla": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: 28 SLOs, error budget mensal, CI/CD 1.240 cenários. 99.992% disponibilidade, 4.2min downtime 9 meses. Métricas exemplares.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q7__reject-mediocre-work-procergs": {
+    "relevance": 26,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 74,
+    "reasoning": "BOM: Provavelmente estabeleceu métricas qualidade após rejeitar mediocridade. Detalhes específicos precisam verificação.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q7__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 80,
+    "reasoning": "EXCELENTE: Redesign para excelência implica métricas UX, performance. Provavelmente NPS, tempo resposta, qualidade técnica.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q8__hsbc-zero-defects": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Não aceitou 0.05% erro 'good enough' indústria. Exigiu Zero Data Loss. Pausou migração 22h para evitar erro. Reescrita vs patch.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q8__sefaz-pmo-governance": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Não aceitou entregas sem valor como 'good enough'. Redesenhou 28 projetos para outcomes. Desvio 63% inaceitável.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q8__sicredi-payment-sla": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Não aceitou 99.5% SLA 'good enough' mercado. Exigiu 99.99%. Redesign total vs patches. Custo 40% maior justificado.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q8__reject-mediocre-work-procergs": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado pelo título 'reject mediocre work'. Case específico sobre não aceitar good enough. Provavelmente TopCase.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q8__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Não aceitou primeira versão telemedicina como 'good enough'. Refez para excelência. Título explicita rejeição mediocridade.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q9__hsbc-zero-defects": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Resistência cultural times globais. Workshops engajamento, histórias reais clientes. Transformou 'impossível' em meta compartilhada.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q9__sefaz-pmo-governance": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 28,
+    "scoreBase": 88,
+    "reasoning": "EXCELENTE: Resistência gerentes médios subestimada. Pivotou com workshops iniciais. Superou resistência cultural com dados R$ 38M + mandato Secretário.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q9__sicredi-payment-sla": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 28,
+    "scoreBase": 82,
+    "reasoning": "EXCELENTE: Diretor engenharia questionou custo 40%. Apresentou comitê executivo, payback 9 meses. Game Days e post-mortems sem culpa construíram cultura.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q9__reject-mediocre-work-procergs": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 26,
+    "scoreBase": 84,
+    "reasoning": "EXCELENTE: Rejeitar trabalho medíocre gera resistência natural. Case provavelmente central sobre lidar com resistência ao elevar padrões.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q9__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 80,
+    "reasoning": "EXCELENTE: Refazer sistema gera resistência de equipe/stakeholders. Provavelmente superou com business case e envolvimento.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q10__hsbc-zero-defects": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Zero data loss vs 1.350 clientes afetados. R$ 15M economizados, NPS +15%, playbook adotado globalmente. Impacto mensurável e sustentável.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q10__sefaz-pmo-governance": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Desvio 63% para 6.8%, R$ 57M ROI (triplo), R$ 1.4M economias. Digitalizacao certidoes -42 dias. Impacto transformacional.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q10__sicredi-payment-sla": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: 99.992% disponibilidade, R$ 1.8M perdas evitadas, R$ 3.8M novas receitas, NPS 72→91. Payback 7 meses. Impacto quantificado.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q10__reject-mediocre-work-procergs": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 80,
+    "reasoning": "EXCELENTE: Rejeitar mediocridade gera impacto em qualidade, confiança, resultados. Provavelmente métricas específicas no case completo.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q10__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Redesign para excelência provavelmente gerou impacto em adoção, NPS, eficiência. Título sugere resultados superiores.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q11__hsbc-zero-defects": {
+    "relevance": 28,
+    "depth": 28,
+    "evidence": 26,
+    "scoreBase": 82,
+    "reasoning": "EXCELENTE: 'Stop the line' empoderou qualquer membro. Workshops semanais feedback. Playbook Zero Data Loss adotado sem intervenção direta. Desenvolveu cultura.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q11__sefaz-pmo-governance": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 80,
+    "reasoning": "EXCELENTE: Workshops iniciais para alinhar. Playbooks governança. Transformou foco de gerentes de entregas para outcomes.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q11__sicredi-payment-sla": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Game Days mensais, post-mortems sem culpa 24h. Reliability 4x9 Playbook adotado para todos gateways. Cultura SRE desenvolvida.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q11__reject-mediocre-work-procergs": {
+    "relevance": 26,
+    "depth": 24,
+    "evidence": 22,
+    "scoreBase": 72,
+    "reasoning": "BOM: Rejeitar trabalho medíocre ensina padrões, mas questão pede desenvolvimento ativo. Provavelmente presente mas não central.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q11__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 26,
+    "depth": 24,
+    "evidence": 24,
+    "scoreBase": 74,
+    "reasoning": "BOM: Redesign para excelência provavelmente envolveu upskilling equipe. Detalhes sobre treinamento precisam verificação.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q12__hsbc-zero-defects": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Pausou migração 22h, 2 dias atraso vs pressão continuar. Reescrita módulo vs patch. Trade-offs difíceis bem documentados.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q12__sefaz-pmo-governance": {
+    "relevance": 28,
+    "depth": 26,
+    "evidence": 26,
+    "scoreBase": 80,
+    "reasoning": "EXCELENTE: Redesenhar 28 de 74 projetos (38%) vs continuar entregas. Decisão difícil que gerou resistência mas triplo ROI.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q12__sicredi-payment-sla": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Redesign total vs patches, custo 40% maior. Error budget congelava features. Decisões difíceis com trade-offs claros.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q12__reject-mediocre-work-procergs": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 28,
+    "scoreBase": 88,
+    "reasoning": "EXCELENTE: Rejeitar trabalho medíocre é decisão difícil (conflito, atraso, custo). Case provavelmente central sobre decisão difícil para qualidade.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q12__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 28,
+    "scoreBase": 88,
+    "reasoning": "EXCELENTE: Refazer sistema é decisão difícil (custo, prazo, risco). 'Redo for excellence' indica trade-off explícito qualidade vs outras pressões.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q13__hsbc-zero-defects": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Auditoria 500 contas identificou falha caracteres especiais (12k clientes). Dashboards reduzir detecção 72h→12h. Identificação e correção sistemática.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q13__sefaz-pmo-governance": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "EXCELENTE: Diagnostico 48h identificou R$ 38M perdas, desvio 63%. Correção: redesenhar 28 projetos, novos playbooks. Identificação e correção exemplar.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q13__sicredi-payment-sla": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "PERFEITAMENTE alinhado: Auditoria 18 meses incidentes identificou SLA 99.5% insuficiente. 28 SLOs, CI/CD 1.240 cenários. Identificação gap e correção sistemática.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q13__reject-mediocre-work-procergs": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 26,
+    "scoreBase": 84,
+    "reasoning": "EXCELENTE: Rejeitar trabalho medíocre = identificar lacuna. Correção provavelmente envolveu refazer. Case central para identificação gaps.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
+  },
+  "insist_on_highest_standards__Q13__unimed-telemedicine-redo-for-excellence": {
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 86,
+    "reasoning": "EXCELENTE: Identificou lacunas em primeira versão telemedicina. Corrigiu com redesign completo. 'Redo for excellence' = identificar e corrigir.",
+    "analyzedAt": "2025-10-18T21:45:00Z",
+    "version": "3.0"
   }
 }

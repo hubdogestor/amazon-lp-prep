@@ -5,8 +5,8 @@ const case_5 = {
   title_en: "I Rebuilt a Telemedicine Platform from Scratch After an NPS of 28 to Achieve a Standard of Excellence (NPS 84)",
   company: "Unimed",
   period: "03/2022 - 12/2022",
-  isTopCase: true,
-  isGoodCase: true,
+  isTopCase: false,
+  isGoodCase: false,
   pt: {
     s: "Em marco de 2022, como Head de Produto Digital na Unimed Porto Alegre, uma cooperativa de saude com 695 mil beneficiarios é receita de R$ 3,2 bilhoes, a plataforma de telemedicina que eu havia liderado lançamento registrou um NPS de apenas 28. O cenário era critico: acumulamos 1.370 reclamacoes no trimestre anterior, com medicos abandonando o sistema por instabilidades técnicas é, o pior, 42% dos beneficiarios idosos enfrentando dificuldades para se conectar. Uma senhora de 82 anos me ligou chorando, dizendo que não conseguia falar com o medico durante uma crise de asma. A diretoria, preocupada com a imagem publica é possiveis processos judiciais, sugeria ajustes graduais para não interromper o servico. Mas eu via isso como uma falha fundamental: estavamos deixando de cumprir nossa missao de cuidar das pessoas na hora de maior vulnerabilidade. A responsabilidade era minha, já que eu havia aprovado o lançamento inicial sem testes suficientes com usuários reais.",
     t: "Minha tarefa, que eu mesmo propus é negociei diretamente com o CEO, era redefinir o padrao de excelencia para o produto. Estabeleci compromissos claros: pausar o servico por 15 dias para evitar mais danos, admitir publicamente a falha via comunicado oficial é reconstruir a plataforma do zero. A meta era ambiciosa: alcancar um NPS acima de 75 em 90 dias, com o compromisso pessoal de que, se não atingisse, eu pediria demissao. Nao se tratava apenas de consertar um app, mas de resgatar a confianca dos beneficiarios, medicos é da propria equipe interna, que estava desmotivada com o fracasso inicial. Eu precisava equilibrar opcoes como manter o sistema antigo com patches rapidos ou investir em uma reconstrucao total, optando pela segunda para garantir sustentabilidade a longo prazo.",
