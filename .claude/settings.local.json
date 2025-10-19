@@ -16,7 +16,10 @@
       "Bash(node scripts/lp-harmony-ai.mjs $batch)",
       "Bash(done)",
       "Bash(node -c src/data/questionsToCasesMapping.js)",
-      "Bash(node scripts/generate-coverage-report.mjs)"
+      "Bash(node scripts/generate-coverage-report.mjs)",
+      "Bash(npm run lint)",
+      "Bash(npm test)",
+      "Bash(git add -A)"
     ],
     "deny": [],
     "ask": []
