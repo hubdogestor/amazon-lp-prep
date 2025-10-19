@@ -1,4 +1,4 @@
-import { Search } from "lucide-react";
+import { Search, Home } from "lucide-react";
 import clsx from "clsx";
 import { useTranslation } from "react-i18next";
 import CaseSearchResults from "../search/CaseSearchResults.jsx";
@@ -40,6 +40,7 @@ export default function Header({
   debouncedQuestionSearch,
   debouncedTypicalQuestionSearch,
   loopingGroups,
+  onHomeClick,
 }) {
   const { t } = useTranslation();
   return (
@@ -49,9 +50,19 @@ export default function Header({
       role="banner"
     >
       <div className="max-w-[1600px] mx-auto px-6 py-3">
-        <div className="grid grid-cols-12 gap-3 items-center">
-          {/* Busca por palavras (col-span-2) */}
-          <div className="col-span-2">
+        <div className="flex gap-3 items-center">
+          {/* Home Button */}
+          <button
+            onClick={onHomeClick}
+            className="p-3 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 transition-colors flex-shrink-0"
+            aria-label="Home"
+            title="Voltar ao início"
+          >
+            <Home className="w-5 h-5 text-slate-700" />
+          </button>
+
+          {/* Busca por palavras */}
+          <div className="flex-1 min-w-0">
             <div id="kSearch" className="relative">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
               <input
@@ -97,8 +108,8 @@ export default function Header({
             </div>
           </div>
 
-          {/* Busca por FUPs (col-span-2) */}
-          <div className="col-span-2">
+          {/* Busca por FUPs */}
+          <div className="flex-1 min-w-0">
             <div id="kFup" className="relative">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5 z-10" aria-hidden="true" />
               <input
@@ -123,14 +134,25 @@ export default function Header({
                   aria-live="polite"
                   className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
                 >
+                  {fupSearchResults.length > 0 ? (
+                    <FupSearchResults
+                      results={fupSearchResults}
+                      language={language}
+                      searchTerm={debouncedQuestionSearch}
+                      onSelect={handleFupSearchResultSelect}
+                      getDisplayName={getDisplayName}
+                      getDisplayCaseTitle={getDisplayCaseTitle}
+                    />
+                  ) : (
                     <div className="px-3 py-2 text-slate-500 text-sm">{t('noResult')}</div>
+                  )}
                 </div>
               )}
             </div>
           </div>
 
-          {/* Busca por Perguntas Típicas + Looping Selector (col-span-2) */}
-          <div className="col-span-2">
+          {/* Busca por Perguntas Típicas + Looping Selector */}
+          <div className="flex-1 min-w-0">
             <div className="flex gap-2">
               {/* Looping Selector */}
               <div className="relative">
@@ -194,8 +216,8 @@ export default function Header({
             </div>
           </div>
 
-          {/* Top Cases (col-span-1) */}
-          <div className="col-span-1">
+          {/* Top Cases */}
+          <div className="flex-shrink-0">
             <button
               id="topCasesBtn"
               className={clsx(
@@ -221,8 +243,8 @@ export default function Header({
             </button>
           </div>
 
-          {/* Icebreaker (col-span-1) */}
-          <div className="col-span-1">
+          {/* Icebreaker */}
+          <div className="flex-shrink-0">
             <button
               id="icebreakerBtn"
               className="w-full px-3 py-3 text-base rounded-lg border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
@@ -237,8 +259,8 @@ export default function Header({
             </button>
           </div>
 
-          {/* Minhas Perguntas (col-span-1) */}
-          <div className="col-span-1">
+          {/* Minhas Perguntas */}
+          <div className="flex-shrink-0">
             <button
               id="myQuestionsBtn"
               className="w-full px-3 py-3 text-base rounded-lg border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
@@ -253,13 +275,13 @@ export default function Header({
             </button>
           </div>
 
-          {/* Timer (col-span-2) */}
-          <div className="col-span-2">
+          {/* Timer */}
+          <div className="flex-shrink-0 min-w-[180px]">
             <HeaderTimer t={t} />
           </div>
 
-          {/* Idioma (col-span-1) */}
-          <div className="col-span-1">
+          {/* Idioma */}
+          <div className="flex-shrink-0">
             <div id="langBox" className="w-full flex gap-2" role="group" aria-label="Language selection">
               <button
                 className={clsx(

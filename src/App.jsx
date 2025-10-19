@@ -98,6 +98,43 @@ export default function App() {
     i18n.changeLanguage(language);
   }, [language, i18n]);
 
+  // Clear searches on ESC key
+  useEffect(() => {
+    const handleEscape = (e) => {
+      if (e.key === 'Escape') {
+        setSearchTerm("");
+        setQuestionSearch("");
+        setTypicalQuestionSearch("");
+        setHighlightCaseTerm("");
+        setHighlightFupTerm("");
+        setHighlightTypicalTerm("");
+        clearHighlights();
+        setShowTopCases(false);
+        setSelectedLooping(null);
+      }
+    };
+
+    document.addEventListener('keydown', handleEscape);
+    return () => document.removeEventListener('keydown', handleEscape);
+  }, [clearHighlights]);
+
+  // Clear searches on click outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      // Check if click is outside search dropdowns and input fields
+      const isInsideSearch = e.target.closest('#kSearch, #kFup, #kTypical, #case-dropdown, #fup-dropdown, #typical-dropdown');
+
+      if (!isInsideSearch) {
+        setSearchTerm("");
+        setQuestionSearch("");
+        setTypicalQuestionSearch("");
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
+
   const rawPrinciplesData = usePrinciplesData();
   const principlesData = useMemo(() => {
     return sortPrinciples(rawPrinciplesData, language);
@@ -431,18 +468,20 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     // Preserve the search term for highlighting
     const currentSearchTerm = searchTerm;
 
-    setTimeout(() => {
-      setExpandedCases({ [caseId]: true });
-      setSearchTerm("");
-      setHighlightCaseTerm(currentSearchTerm);
+    // First expand the case
+    setExpandedCases({ [caseId]: true });
+    setSearchTerm("");
+    setHighlightCaseTerm(currentSearchTerm);
 
+    // Wait for expansion animation and then scroll
+    setTimeout(() => {
       const caseDomId = `case-${slugify(caseId)}`;
       const elem = document.getElementById(caseDomId);
       if (elem) {
         elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
         setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
       }
-    }, 0);
+    }, 150);
   }, [searchTerm, setHighlightedCase, clearExpanded, clearHighlights]);
 
   // Handler para seleção de resultado de busca de FUPs
@@ -483,19 +522,37 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
 
     // Preserve the search term for highlighting
     const currentSearchTerm = typicalQuestionSearch;
+    setTypicalQuestionSearch("");
+    setHighlightTypicalTerm(currentSearchTerm);
 
+    // Wait a bit to ensure DOM is ready, then scroll
     setTimeout(() => {
-      setTypicalQuestionSearch("");
-      setHighlightTypicalTerm(currentSearchTerm);
-
       const typicalQuestionId = `typical-${p.id}-${idx}`;
       const elem = document.getElementById(typicalQuestionId);
       if (elem) {
         elem.scrollIntoView({ behavior: 'smooth', block: 'center' });
         setHighlightedTypicalQuestion(typicalQuestionId, 2000);
       }
-    }, 100);
+    }, 150);
   }, [typicalQuestionSearch, setHighlightedTypicalQuestion, clearExpanded, clearHighlights]);
+
+  // Handler para botão Home
+  const handleHomeClick = useCallback(() => {
+    setSearchTerm("");
+    setQuestionSearch("");
+    setTypicalQuestionSearch("");
+    setHighlightCaseTerm("");
+    setHighlightFupTerm("");
+    setHighlightTypicalTerm("");
+    setSelectedPrinciple("all");
+    setShowTopCases(false);
+    setSelectedLooping(null);
+    clearExpanded();
+    clearHighlights();
+
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [clearExpanded, clearHighlights]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
@@ -533,6 +590,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
         debouncedQuestionSearch={debouncedQuestionSearch}
         debouncedTypicalQuestionSearch={debouncedTypicalQuestionSearch}
         loopingGroups={loopingGroups}
+        onHomeClick={handleHomeClick}
       />
 
       {/* Modal Icebreaker */}
