@@ -24,11 +24,19 @@ export default function TypicalQuestionSearchResults({
     return (
       <div
         key={`${p.id}-typical-${idx}-${index}`}
+        id={`search-result-${p.id}-${idx}`}
         role="option"
         tabIndex={0}
         className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
         onClick={() => {
-          onSelect({ principle: p, question: q, idx }, (searchWords || []).filter((word) => word.length >= 3));
+          const questionId = `question-${p.id}-${idx}`;
+          onSelect({ principle: p, question: q, idx, questionId }, (searchWords || []).filter((word) => word.length >= 3));
+          setTimeout(() => {
+            const targetElement = document.getElementById(questionId);
+            if (targetElement) {
+              targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }, 0);
         }}
         onKeyDown={(event) => {
           if (event.key === "Enter" || event.key === " ") {
