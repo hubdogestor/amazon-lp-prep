@@ -15,6 +15,10 @@ export default function TypicalQuestionSearchResults({
   }
 
   return results.map(({ p, q, idx, searchWords }, index) => {
+    if (!p || !p.id) {
+      console.error("Principle (p) or principle ID (p.id) is undefined for a search result.", { p, q, idx, searchWords });
+      return null; // Skip rendering this result if essential data is missing
+    }
     const questionStorageId = `${p.id}-${idx}`;
     const used = isQuestionUsed(questionStorageId);
     const toggleTooltip = used
@@ -25,6 +29,7 @@ export default function TypicalQuestionSearchResults({
       <div
         key={`${p.id}-typical-${idx}-${index}`}
         id={`search-result-${p.id}-${idx}`}
+
         role="option"
         tabIndex={0}
         className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"

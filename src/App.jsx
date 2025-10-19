@@ -359,8 +359,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     }
   }, [generatePrompt, i18n.language, t]);
 
-  // Navegar para o case mapeado a partir de uma pergunta típica
-  const navigateToMappedCase = useCallback((lpId, questionIndex) => {
+  // Navegar para o case mapeado a partir de uma pergunta típica  const navigateToMappedCase = useCallback((lpId, questionIndex, questionId = null) => {
     const option = getBestCaseOption(lpId, questionIndex + 1);
     if (!option || !option.caseData) {
       return;
@@ -370,6 +369,10 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
 
     setExpandedCases({ [caseId]: true });
     setSelectedPrinciple(lpId);
+
+    if (questionId) {
+      scrollToElementWhenReady(questionId, { block: 'start', highlightSetter: setHighlightedTypicalQuestion });
+    }
 
     setTimeout(() => {
       const caseDomId = `case-${slugify(caseId)}`;
@@ -508,7 +511,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     const { p, idx } = result;
 
     // Navega para o case mapeado
-    navigateToMappedCase(p.id, idx);
+    navigateToMappedCase(p.id, idx, result.questionId);
 
     // Limpa o estado da busca
     setTypicalQuestionSearch("");

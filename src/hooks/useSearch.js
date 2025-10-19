@@ -115,6 +115,7 @@ export function useSearch(principlesData, language, selectedLooping) {
         const questionsList = language === "en" ? questions.en : questions.pt;
         return questionsList
           .map((q, idx) => ({ p, q, idx }))
+          .filter(({ p }) => p && p.id) // Ensure p and p.id exist before proceeding
           .filter(({ q }) => {
             const qNorm = norm(q);
             return searchWordsNorm.every(word => qNorm.includes(word));
