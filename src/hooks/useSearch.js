@@ -21,28 +21,71 @@ export function useSearch(principlesData, language, selectedLooping) {
   const fupSearchResults = useMemo(() => {
     if (!debouncedQuestionSearch) return [];
 
-    // Split search into multiple words
     const searchWords = debouncedQuestionSearch.trim().split(/\s+/).filter(w => w.length > 0);
+    if (searchWords.length === 0) return [];
     const searchWordsNorm = searchWords.map(w => norm(w));
 
-    return (principlesData || [])
-      .flatMap((p) =>
-        (p.cases || []).flatMap((c) => {
-          const fups = getCaseFups(c);
-          return fups
-            .map((f, originalIdx) => ({ p, c, f, originalIdx }))
-            .filter(({ f }) => {
-              // Search in both question AND answer
-              const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
-              const aTxt = language === "en" ? (f.a_en || f.a || "") : (f.a || "");
-              const qTxtNorm = norm(qTxt);
-              const aTxtNorm = norm(aTxt);
-              const combinedText = qTxtNorm + " " + aTxtNorm;
-              // Check if ALL words are present in either question or answer
-              return searchWordsNorm.every(word => combinedText.includes(word));
-            });
-        })
-      );
+    const results = [];
+
+    (principlesData || []).forEach(p => {
+      (p.cases || []).forEach(c => {
+        const fups = getCaseFups(c);
+        fups.forEach((f, originalIdx) => {
+          const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
+          const aTxt = language === "en" ? (f.a_en || f.a || "") : (f.a || "");
+          
+          const textsToSearch = [
+            { text: qTxt, type: 'q' },
+            { text: aTxt, type: 'a' }
+          ];
+
+          for (const { text, type } of textsToSearch) {
+            if (!text) continue;
+
+            const textNorm = norm(text);
+            const allWordsPresent = searchWordsNorm.every(word => textNorm.includes(word));
+
+            if (allWordsPresent) {
+              const wordPositions = searchWordsNorm.map(word => ({
+                word,
+                index: textNorm.indexOf(word)
+              })).filter(wp => wp.index !== -1);
+
+              if (wordPositions.length > 0) {
+                const firstMatch = Math.min(...wordPositions.map(wp => wp.index));
+                const start = Math.max(0, firstMatch - 60);
+                const end = Math.min(text.length, firstMatch + 100);
+                let snippet = text.substring(start, end);
+
+                if (start > 0) snippet = '...' + snippet;
+                if (end < text.length) snippet = snippet + '...';
+
+                const snippetOffset = start > 0 ? 3 : 0;
+                const matches = wordPositions.map(wp => ({
+                  start: wp.index - start + snippetOffset,
+                  length: wp.word.length,
+                }));
+
+                results.push({
+                  p,
+                  c,
+                  f,
+                  originalIdx,
+                  snippet,
+                  matches,
+                  searchWords,
+                  matchType: type // 'q' or 'a'
+                });
+                // Found a match in this FUP, break from inner loop to not add it twice
+                break; 
+              }
+            }
+          }
+        });
+      });
+    });
+
+    return results;
   }, [principlesData, debouncedQuestionSearch, language]);
 
   // Typical question search results - memoized with looping filter
