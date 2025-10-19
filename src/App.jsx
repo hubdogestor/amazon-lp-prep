@@ -481,7 +481,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
         elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
         setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
       }
-    }, 300);
+    }, 350);
   }, [searchTerm, setHighlightedCase, clearExpanded, clearHighlights]);
 
   // Handler para seleção de resultado de busca de FUPs
@@ -540,7 +540,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
         elem.scrollIntoView({ behavior: 'smooth', block: 'center' });
         setHighlightedTypicalQuestion(typicalQuestionId, 2000);
       }
-    }, 150);
+    }, 350);
   }, [typicalQuestionSearch, setHighlightedTypicalQuestion, clearExpanded, clearHighlights]);
 
   // Handler para botão Home

@@ -121,7 +121,8 @@ export default function CaseCard({
                   )}
                   <ul className="list-disc pl-5 space-y-2 text-sm">
                     {fups.map((f, fIdx) => {
-                      const fupId = `fup-${principle.id}-${caseSlug}-${fIdx}`;
+                      const originalFupIndex = allFups.indexOf(f);
+                      const fupId = `fup-${principle.id}-${caseSlug}-${originalFupIndex}`;
                       const question = language === "en" ? (f.q_en || f.q) : f.q;
                       const answer = language === "en" ? (f.a_en || f.a) : f.a;
                       const questionForKey = question || "";
