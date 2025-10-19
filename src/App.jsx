@@ -473,7 +473,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     setSearchTerm("");
     setHighlightCaseTerm(currentSearchTerm);
 
-    // Wait for expansion animation and then scroll
+    // Wait for expansion animation and then scroll - increased timeout for reliable scrolling
     setTimeout(() => {
       const caseDomId = `case-${slugify(caseId)}`;
       const elem = document.getElementById(caseDomId);
@@ -481,7 +481,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
         elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
         setHighlightedCase(caseDomId, CASE_EXPAND_DELAY);
       }
-    }, 150);
+    }, 300);
   }, [searchTerm, setHighlightedCase, clearExpanded, clearHighlights]);
 
   // Handler para seleção de resultado de busca de FUPs
@@ -499,14 +499,20 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     // Preserve the search term for highlighting
     const currentSearchTerm = questionSearch;
 
-    setTimeout(() => {
-      setExpandedCases({ [caseId]: true });
-      setQuestionSearch("");
-      setHighlightFupTerm(currentSearchTerm);
+    // First expand the case
+    setExpandedCases({ [caseId]: true });
+    setQuestionSearch("");
+    setHighlightFupTerm(currentSearchTerm);
 
+    // Wait for case to expand, then scroll to FUP
+    setTimeout(() => {
       const anchorId = `fup-${p.id}-${slugify(caseId)}-${originalIdx}`;
-      setHighlightedFup(anchorId, FUP_SCROLL_DELAY);
-    }, 0);
+      const elem = document.getElementById(anchorId);
+      if (elem) {
+        elem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setHighlightedFup(anchorId, FUP_SCROLL_DELAY);
+      }
+    }, 300);
   }, [questionSearch, setHighlightedFup, clearExpanded, clearHighlights]);
 
   // Handler para seleção de resultado de busca de perguntas típicas
@@ -527,7 +533,8 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
 
     // Wait a bit to ensure DOM is ready, then scroll
     setTimeout(() => {
-      const typicalQuestionId = `typical-${p.id}-${idx}`;
+      // IMPORTANT: The ID in MainContent is 'typical-q-{principleId}-{idx}', not 'typical-{principleId}-{idx}'
+      const typicalQuestionId = `typical-q-${p.id}-${idx}`;
       const elem = document.getElementById(typicalQuestionId);
       if (elem) {
         elem.scrollIntoView({ behavior: 'smooth', block: 'center' });

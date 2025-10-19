@@ -32,10 +32,14 @@ export function useSearch(principlesData, language, selectedLooping) {
           return fups
             .map((f, originalIdx) => ({ p, c, f, originalIdx }))
             .filter(({ f }) => {
+              // Search in both question AND answer
               const qTxt = language === "en" ? (f.q_en || f.q || "") : (f.q || "");
+              const aTxt = language === "en" ? (f.a_en || f.a || "") : (f.a || "");
               const qTxtNorm = norm(qTxt);
-              // Check if ALL words are present
-              return searchWordsNorm.every(word => qTxtNorm.includes(word));
+              const aTxtNorm = norm(aTxt);
+              const combinedText = qTxtNorm + " " + aTxtNorm;
+              // Check if ALL words are present in either question or answer
+              return searchWordsNorm.every(word => combinedText.includes(word));
             });
         })
       );
