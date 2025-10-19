@@ -118,7 +118,11 @@ export function useSearch(principlesData, language, selectedLooping) {
           .filter(({ q }) => {
             const qNorm = norm(q);
             return searchWordsNorm.every(word => qNorm.includes(word));
-          });
+          })
+          .map(item => ({
+            ...item,
+            searchWords // Add searchWords to the result for consistent API
+          }));
       });
   }, [principlesData, debouncedTypicalQuestionSearch, language, selectedLooping]);
 

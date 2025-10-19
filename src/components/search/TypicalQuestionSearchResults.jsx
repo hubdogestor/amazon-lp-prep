@@ -14,7 +14,7 @@ export default function TypicalQuestionSearchResults({
     return null;
   }
 
-  return results.map(({ p, q, idx }, index) => {
+  return results.map(({ p, q, idx, searchWords }, index) => {
     const questionStorageId = `${p.id}-${idx}`;
     const used = isQuestionUsed(questionStorageId);
     const toggleTooltip = used
@@ -28,8 +28,7 @@ export default function TypicalQuestionSearchResults({
         tabIndex={0}
         className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
         onClick={() => {
-          const searchWords = (searchTerm || "").trim().split(/\s+/).filter((word) => word.length >= 3);
-          onSelect({ principle: p, question: q, idx }, searchWords);
+          onSelect({ principle: p, question: q, idx }, (searchWords || []).filter((word) => word.length >= 3));
         }}
         onKeyDown={(event) => {
           if (event.key === "Enter" || event.key === " ") {
