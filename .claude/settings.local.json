@@ -15,7 +15,8 @@
       "Bash(do echo \"=== $batch ===\")",
       "Bash(node scripts/lp-harmony-ai.mjs $batch)",
       "Bash(done)",
-      "Bash(node -c src/data/questionsToCasesMapping.js)"
+      "Bash(node -c src/data/questionsToCasesMapping.js)",
+      "Bash(node scripts/generate-coverage-report.mjs)"
     ],
     "deny": [],
     "ask": []

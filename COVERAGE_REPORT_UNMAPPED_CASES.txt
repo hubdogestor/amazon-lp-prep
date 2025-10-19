@@ -1,0 +1,50 @@
+
+╔═══════════════════════════════════════════════════════════════╗
+║     RELATÓRIO - CASES NÃO VINCULADOS A PERGUNTAS             ║
+╚═══════════════════════════════════════════════════════════════╝
+
+
+══════════════════════════════════════════════════════════════════════
+  DIVE DEEP
+══════════════════════════════════════════════════════════════════════
+
+❌ hsbc-data-validation-audit
+   "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
+   Arquivo: dive_deep_case2.js
+
+
+══════════════════════════════════════════════════════════════════════
+  STAKEHOLDER MANAGEMENT
+══════════════════════════════════════════════════════════════════════
+
+❌ stakeholder-management-case-4
+   "stakeholder-management-case-4"
+   Arquivo: stakeholder_management_case4.js
+
+
+══════════════════════════════════════════════════════════════════════
+  PRIORITIZING AND INFLUENCE
+══════════════════════════════════════════════════════════════════════
+
+❌ sefaz-framework-integrated-management
+   "Ajustei o Roadmap para Adotar Framework Integrado de Gestão na SEFAZ"
+   Arquivo: prioritizing_and_influence_case3.js
+
+❌ hdg-pivot-to-robotics
+   "Pivotei HDG de Consultoria para Robotização Devido a Recursos Limitados"
+   Arquivo: prioritizing_and_influence_case4.js
+
+❌ sicredi-woop-delay
+   "Comuniquei Atraso de 3 Meses no Lançamento do App Woop ao Board"
+   Arquivo: prioritizing_and_influence_case5.js
+
+
+══════════════════════════════════════════════════════════════════════
+  RESUMO
+══════════════════════════════════════════════════════════════════════
+
+Total de cases não vinculados: 5
+Total de cases nos batches 1-5: 78
+Cases vinculados: 96
+Taxa de utilização: 123.1%
+

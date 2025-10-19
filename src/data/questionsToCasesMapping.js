@@ -130,7 +130,12 @@ export const questionsToCasesMapping = {
       ]
     },
     "6": {
-      "options": []
+      "options": [
+        {
+          "caseId": "sicredi-small-business-survival",
+          "score": 80
+        }
+      ]
     },
     "7": {
       "options": [
@@ -1689,7 +1694,12 @@ export const questionsToCasesMapping = {
       ]
     },
     "11": {
-      "options": []
+      "options": [
+        {
+          "caseId": "hsbc-zero-defects",
+          "score": 80
+        }
+      ]
     },
     "12": {
       "options": [
@@ -2808,7 +2818,12 @@ export const questionsToCasesMapping = {
   },
   "disagree_and_commit": {
     "1": {
-      "options": []
+      "options": [
+        {
+          "caseId": "unimed-retention-strategy",
+          "score": 80
+        }
+      ]
     },
     "2": {
       "options": [
@@ -2899,7 +2914,12 @@ export const questionsToCasesMapping = {
       ]
     },
     "8": {
-      "options": []
+      "options": [
+        {
+          "caseId": "commit-on-disagreement-product-strategy",
+          "score": 80
+        }
+      ]
     },
     "9": {
       "options": [
