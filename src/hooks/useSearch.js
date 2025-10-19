@@ -74,7 +74,8 @@ export function useSearch(principlesData, language, selectedLooping) {
                   snippet,
                   matches,
                   searchWords,
-                  matchType: type // 'q' or 'a'
+                  matchType: type, // 'q' or 'a'
+                  questionText: type === 'a' ? qTxt : null
                 });
                 // Found a match in this FUP, break from inner loop to not add it twice
                 break; 

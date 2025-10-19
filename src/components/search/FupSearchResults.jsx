@@ -43,7 +43,7 @@ export default function FupSearchResults({
   };
 
   return results.map((result, index) => {
-    const { p, c, f, originalIdx, snippet, matches, searchWords } = result;
+    const { p, c, f, originalIdx, snippet, matches, searchWords, questionText } = result;
 
     return (
       <div
@@ -61,6 +61,11 @@ export default function FupSearchResults({
           }
         }}
       >
+        {questionText && (
+          <div className="text-xs text-slate-500 mb-1 italic">
+            Re: "{questionText}"
+          </div>
+        )}
         <div className="text-sm mb-1 text-slate-600">{renderSnippet(snippet, matches)}</div>
         <div className="text-xs text-slate-500 mt-1">
             <span className="font-medium text-slate-700">

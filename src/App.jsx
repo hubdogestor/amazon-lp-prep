@@ -87,6 +87,7 @@ export default function App() {
   const [language, setLanguage] = useState('pt');
   const [isSearching, setIsSearching] = useState(false);
   const [copiedCaseId, setCopiedCaseId] = useState(null);
+  const [scrollTarget, setScrollTarget] = useState(null); // New state for robust scrolling
 
   // Icebreakers
   const {
@@ -97,6 +98,34 @@ export default function App() {
   useEffect(() => {
     i18n.changeLanguage(language);
   }, [language, i18n]);
+
+  // Robust scrolling and highlighting effect
+  useEffect(() => {
+    if (scrollTarget && scrollTarget.id) {
+      const timer = setTimeout(() => {
+        const elem = document.getElementById(scrollTarget.id);
+        if (elem) {
+          elem.scrollIntoView({
+            behavior: 'smooth',
+            block: scrollTarget.block || 'center',
+          });
+
+          // Apply highlight after scrolling
+          if (scrollTarget.highlightType === 'case') {
+            setHighlightedCase(scrollTarget.id);
+          } else if (scrollTarget.highlightType === 'fup') {
+            setHighlightedFup(scrollTarget.id);
+          } else if (scrollTarget.highlightType === 'typical') {
+            setHighlightedTypicalQuestion(scrollTarget.id);
+          }
+        }
+        setScrollTarget(null); // Reset after scrolling attempt
+      }, 400); // Wait for UI updates and animations to finish
+
+      return () => clearTimeout(timer);
+    }
+  }, [scrollTarget, setHighlightedCase, setHighlightedFup, setHighlightedTypicalQuestion]);
+
 
   // Clear searches on ESC key
   useEffect(() => {
@@ -458,74 +487,61 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     const { p, c } = result;
     const caseId = c.id || c.title;
 
+    // Set state
     setSelectedPrinciple(p.id);
     setShowTopCases(false);
     setQuestionSearch("");
     setTypicalQuestionSearch("");
     clearExpanded();
-    clearHighlights();
-
-    // Preserve the search term for highlighting
-    const currentSearchTerm = searchTerm;
-
-    // First expand the case
     setExpandedCases({ [caseId]: true });
+    setHighlightCaseTerm(searchTerm);
     setSearchTerm("");
-    setHighlightCaseTerm(currentSearchTerm);
 
+    // Set scroll target
     const caseDomId = `case-${slugify(caseId)}`;
-    // Let the hook handle scrolling
-    setHighlightedCase(caseDomId, 350);
+    setScrollTarget({ id: caseDomId, highlightType: 'case', block: 'start' });
 
-  }, [searchTerm, setHighlightedCase, clearExpanded, clearHighlights]);
+  }, [searchTerm, clearExpanded]);
 
   // Handler para seleção de resultado de busca de FUPs
   const handleFupSearchResultSelect = useCallback((result, savedSearchWords) => {
     const { p, c, originalIdx } = result;
     const caseId = c.id || c.title;
 
+    // Set state
     setSelectedPrinciple(p.id);
     setShowTopCases(false);
     setSearchTerm("");
     setTypicalQuestionSearch("");
     clearExpanded();
-    clearHighlights();
-
-    // Preserve the search term for highlighting
-    const currentSearchTerm = questionSearch;
-
-    // First expand the case
     setExpandedCases({ [caseId]: true });
+    setHighlightFupTerm(questionSearch);
     setQuestionSearch("");
-    setHighlightFupTerm(currentSearchTerm);
 
+    // Set scroll target
     const anchorId = `fup-${p.id}-${slugify(caseId)}-${originalIdx}`;
-    // Let the hook handle scrolling
-    setHighlightedFup(anchorId, 350);
+    setScrollTarget({ id: anchorId, highlightType: 'fup' });
 
-  }, [questionSearch, setHighlightedFup, clearExpanded, clearHighlights]);
+  }, [questionSearch, clearExpanded]);
 
   // Handler para seleção de resultado de busca de perguntas típicas
   const handleTypicalSearchResultSelect = useCallback((result, savedSearchWords) => {
     const { p, idx } = result;
 
+    // Set state
     setSelectedPrinciple(p.id);
     setShowTopCases(false);
     setSearchTerm("");
     setQuestionSearch("");
     clearExpanded();
-    clearHighlights();
-
-    // Preserve the search term for highlighting
-    const currentSearchTerm = typicalQuestionSearch;
+    setHighlightTypicalTerm(typicalQuestionSearch);
     setTypicalQuestionSearch("");
-    setHighlightTypicalTerm(currentSearchTerm);
 
+    // Set scroll target
     const typicalQuestionId = `typical-q-${p.id}-${idx}`;
-    // Let the hook handle the scroll after a delay to allow for re-rendering
-    setHighlightedTypicalQuestion(typicalQuestionId, 350);
+    setScrollTarget({ id: typicalQuestionId, highlightType: 'typical' });
 
-  }, [typicalQuestionSearch, setHighlightedTypicalQuestion, clearExpanded, clearHighlights]);
+  }, [typicalQuestionSearch, clearExpanded]);
 
   // Handler para botão Home
   const handleHomeClick = useCallback(() => {

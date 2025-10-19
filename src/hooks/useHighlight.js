@@ -40,72 +40,30 @@ export function useHighlight() {
   }, []);
 
   /**
-   * Set highlighted FUP with safe scroll
+   * Set highlighted FUP
    * @param {string} fupId - FUP element ID
-   * @param {number} delay - Delay before scroll
    */
-  const setHighlightedFup = useCallback((fupId, delay = 120) => {
-    // Cancel any pending scroll
-    if (pendingScrollRef.current) {
-      clearTimeout(pendingScrollRef.current);
-    }
-
+  const setHighlightedFup = useCallback((fupId) => {
     clearHighlights();
     setHighlightedFupId(fupId);
-
-    pendingScrollRef.current = setTimeout(() => {
-      const el = document.getElementById(fupId);
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth", block: "center" });
-      }
-      pendingScrollRef.current = null;
-    }, delay);
   }, [clearHighlights]);
 
   /**
-   * Set highlighted case with safe scroll
+   * Set highlighted case
    * @param {string} caseId - Case element ID
-   * @param {number} delay - Delay before scroll
    */
-  const setHighlightedCase = useCallback((caseId, delay = 80) => {
-    // Cancel any pending scroll
-    if (pendingScrollRef.current) {
-      clearTimeout(pendingScrollRef.current);
-    }
-
+  const setHighlightedCase = useCallback((caseId) => {
     clearHighlights();
     setHighlightedCaseId(caseId);
-
-    pendingScrollRef.current = setTimeout(() => {
-      const el = document.getElementById(caseId);
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-      pendingScrollRef.current = null;
-    }, delay);
   }, [clearHighlights]);
 
   /**
-   * Set highlighted typical question with safe scroll
+   * Set highlighted typical question
    * @param {string} questionId - Typical question element ID
-   * @param {number} delay - Delay before scroll
    */
-  const setHighlightedTypicalQuestion = useCallback((questionId, delay = 120) => {
-    // Cancel any pending scroll
-    if (pendingScrollRef.current) {
-      clearTimeout(pendingScrollRef.current);
-    }
-
+  const setHighlightedTypicalQuestion = useCallback((questionId) => {
     clearHighlights();
     setHighlightedTypicalQuestionId(questionId);
-
-    pendingScrollRef.current = setTimeout(() => {
-      const el = document.getElementById(questionId);
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth", block: "center" });
-      }
-      pendingScrollRef.current = null;
-    }, delay);
   }, [clearHighlights]);
 
   return {
