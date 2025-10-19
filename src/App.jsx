@@ -47,6 +47,7 @@ export default function App() {
   const { t, i18n } = useTranslation();
   const [selectedPrinciple, setSelectedPrinciple] = useState("all");
   const [expandedCases, setExpandedCases] = useState({});
+  const [selectedLooping, setSelectedLooping] = useState(null);
 
 
   // Use highlight hook instead of DOM manipulation
