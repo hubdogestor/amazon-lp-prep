@@ -507,19 +507,16 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
   const handleTypicalSearchResultSelect = useCallback((result, savedSearchWords) => {
     const { p, idx } = result;
 
-    setSelectedPrinciple(p.id);
-    setShowTopCases(false);
+    // Navega para o case mapeado
+    navigateToMappedCase(p.id, idx);
+
+    // Limpa o estado da busca
+    setTypicalQuestionSearch("");
     setSearchTerm("");
     setQuestionSearch("");
-    clearExpanded();
-    setHighlightTypicalTerm(typicalQuestionSearch);
-    setTypicalQuestionSearch("");
-
-    const typicalQuestionId = `typical-q-${p.id}-${idx}`;
-    scrollToElementWhenReady(typicalQuestionId, {
-      highlightSetter: setHighlightedTypicalQuestion
-    });
-  }, [typicalQuestionSearch, clearExpanded, setHighlightedTypicalQuestion, setHighlightTypicalTerm, setTypicalQuestionSearch, setSearchTerm, setQuestionSearch, setSelectedPrinciple, setShowTopCases]);
+    setShowTopCases(false);
+    
+  }, [navigateToMappedCase, setTypicalQuestionSearch, setSearchTerm, setQuestionSearch, setShowTopCases]);
 
   // Handler para botão Home
   const handleHomeClick = useCallback(() => {
