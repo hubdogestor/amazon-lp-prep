@@ -486,8 +486,6 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
   const handleCaseSearchResultSelect = useCallback((result, savedSearchWords) => {
     const { p, c } = result;
     const caseId = c.id || c.title;
-
-    // Set state
     setSelectedPrinciple(p.id);
     setShowTopCases(false);
     setQuestionSearch("");
@@ -496,19 +494,14 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     setExpandedCases({ [caseId]: true });
     setHighlightCaseTerm(searchTerm);
     setSearchTerm("");
-
-    // Set scroll target
     const caseDomId = `case-${slugify(caseId)}`;
     setScrollTarget({ id: caseDomId, highlightType: 'case', block: 'start' });
-
-  }, [searchTerm, clearExpanded]);
+  }, [searchTerm, clearExpanded, setScrollTarget, setHighlightCaseTerm, setSearchTerm, setQuestionSearch, setTypicalQuestionSearch, setSelectedPrinciple, setShowTopCases, setExpandedCases]);
 
   // Handler para seleção de resultado de busca de FUPs
   const handleFupSearchResultSelect = useCallback((result, savedSearchWords) => {
     const { p, c, originalIdx } = result;
     const caseId = c.id || c.title;
-
-    // Set state
     setSelectedPrinciple(p.id);
     setShowTopCases(false);
     setSearchTerm("");
@@ -517,18 +510,13 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     setExpandedCases({ [caseId]: true });
     setHighlightFupTerm(questionSearch);
     setQuestionSearch("");
-
-    // Set scroll target
     const anchorId = `fup-${p.id}-${slugify(caseId)}-${originalIdx}`;
     setScrollTarget({ id: anchorId, highlightType: 'fup' });
-
-  }, [questionSearch, clearExpanded]);
+  }, [questionSearch, clearExpanded, setScrollTarget, setHighlightFupTerm, setQuestionSearch, setSearchTerm, setTypicalQuestionSearch, setSelectedPrinciple, setShowTopCases, setExpandedCases]);
 
   // Handler para seleção de resultado de busca de perguntas típicas
   const handleTypicalSearchResultSelect = useCallback((result, savedSearchWords) => {
     const { p, idx } = result;
-
-    // Set state
     setSelectedPrinciple(p.id);
     setShowTopCases(false);
     setSearchTerm("");
@@ -536,12 +524,9 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     clearExpanded();
     setHighlightTypicalTerm(typicalQuestionSearch);
     setTypicalQuestionSearch("");
-
-    // Set scroll target
     const typicalQuestionId = `typical-q-${p.id}-${idx}`;
     setScrollTarget({ id: typicalQuestionId, highlightType: 'typical' });
-
-  }, [typicalQuestionSearch, clearExpanded]);
+  }, [typicalQuestionSearch, clearExpanded, setScrollTarget, setHighlightTypicalTerm, setTypicalQuestionSearch, setSearchTerm, setQuestionSearch, setSelectedPrinciple, setShowTopCases]);
 
   // Handler para botão Home
   const handleHomeClick = useCallback(() => {
