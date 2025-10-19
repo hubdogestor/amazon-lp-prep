@@ -65,14 +65,14 @@ Para atingir **100% de cobertura**, os seguintes mapeamentos foram adicionados m
 ## 📊 DISTRIBUIÇÃO DE SCORES
 
 ### Por Categoria
-- **TopCase (95-100):** 0 mapeamentos
-- **GoodCase (90-94):** ~120 mapeamentos
-- **Acceptable (80-89):** ~617 mapeamentos
+- **TopCase (95-100):** 2 mapeamentos (1 case único: `long-term-tradeoff`)
+- **GoodCase (90-94):** 84 mapeamentos
+- **Acceptable (80-89):** 651 mapeamentos
 
 ### Observações
-- Nenhum case atingiu o threshold de **TopCase (95-100)**, sugerindo critérios rigorosos de avaliação
-- A maioria dos mapeamentos está na faixa **Acceptable (80-89)**, indicando qualidade sólida mas com espaço para melhorias
-- Aproximadamente **16% dos mapeamentos** atingiram **GoodCase (90-94)**
+- **1 case único** atingiu **TopCase (95-100)**: `long-term-tradeoff` (Ownership, score 95 em Q3 e Q5)
+- Aproximadamente **11% dos mapeamentos** atingiram **GoodCase (90-94)**
+- A maioria (88%) está na faixa **Acceptable (80-89)**, indicando qualidade sólida e consistente
 
 ---
 
