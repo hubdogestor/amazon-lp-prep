@@ -631,7 +631,7 @@ export const questionsToCasesMapping = {
       ]
     }
   },
-  "invent_simplify": {
+  "invent_and_simplify": {
     "1": {
       "options": [
         {
