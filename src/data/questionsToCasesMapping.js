@@ -2455,7 +2455,12 @@ export const questionsToCasesMapping = {
       ]
     },
     "12": {
-      "options": []
+      "options": [
+        {
+          "caseId": "1",
+          "score": 100
+        }
+      ]
     },
     "13": {
       "options": [
@@ -3752,7 +3757,7 @@ export const questionsToCasesMapping = {
           "score": 83
         },
         {
-          "caseId": "sefaz-roadmap-adjustment-reforma-tributária",
+          "caseId": "sefaz-roadmap-adjustment-reforma-tribut\u00e1ria",
           "score": 83
         }
       ]
@@ -3760,7 +3765,7 @@ export const questionsToCasesMapping = {
     "3": {
       "options": [
         {
-          "caseId": "sefaz-roadmap-adjustment-reforma-tributária",
+          "caseId": "sefaz-roadmap-adjustment-reforma-tribut\u00e1ria",
           "score": 91
         },
         {
@@ -3924,7 +3929,7 @@ export const questionsToCasesMapping = {
           "score": 86
         },
         {
-          "caseId": "sefaz-roadmap-adjustment-reforma-tributária",
+          "caseId": "sefaz-roadmap-adjustment-reforma-tribut\u00e1ria",
           "score": 83
         }
       ]
