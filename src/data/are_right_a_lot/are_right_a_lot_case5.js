@@ -26,6 +26,42 @@ const case_5 = {
   },
   fups: [
     {
+      "q": "Qual foi o maior erro que você cometeu ao confiar excessivamente na sua experiência prévia?",
+      "a": "Acreditei que minha experiência de 15 anos em telecom e banking se aplicava diretamente ao setor público brasileiro, ignorando dados que mostravam 34% de retrabalho em projetos waterfall vs 9% esperado. Esse erro quase fez implementar governança rígida que custaria R$ 18 milhões em retrabalho evitado, afetando 11,4 milhões de cidadãos com atrasos em sistemas fiscais críticos.",
+      "q_en": "What was the biggest mistake you made by trusting your prior experience too much?",
+      "a_en": "I believed my 15 years experience in telecom and banking applied directly to Brazilian public sector, ignoring data showing 34% rework in waterfall projects vs 9% expected. This mistake almost implemented rigid governance that would cost BRL 18 million in avoided rework, affecting 11.4 million citizens with delays in critical tax systems."
+    },
+    {
+      "q": "O que você faria diferente hoje se dados contradissessem sua experiência em um projeto?",
+      "a": "Hoje aplicaria meu framework 'Intuição Calibrada': quando experiência sugere solução, busco ativamente dados que contradigam antes de decidir. Se dados e intuição convergem, avanço confiante; se divergem, investigaria profundamente até entender diferença de contexto. Também documentaria publicamente a mudança de opinião para criar cultura de aprendizado.",
+      "q_en": "What would you do differently today if data contradicted your experience in a project?",
+      "a_en": "Today I would apply my 'Calibrated Intuition' framework: when experience suggests solution, I actively seek contradicting data before deciding. If data and intuition converge, I advance confidently; if they diverge, I would investigate deeply until understanding context difference. I would also publicly document the opinion change to create learning culture."
+    },
+    {
+      "q": "Qual foi o maior obstáculo que você enfrentou ao questionar sua própria experiência?",
+      "a": "O obstáculo principal foi o desconforto emocional de questionar 15 anos de sucesso profissional, com medo de perder credibilidade perante stakeholders que me contrataram pela experiência. Superei reframendo mentalmente: não estava questionando minha competência, mas reconhecendo que contextos diferentes (setor público vs privado) exigem soluções diferentes, focando em servir cidadãos.",
+      "q_en": "What was the biggest obstacle you faced when questioning your own experience?",
+      "a_en": "The main obstacle was emotional discomfort of questioning 15 years of professional success, fearing loss of credibility with stakeholders who hired me for experience. I overcame it by mentally reframing: I wasn't questioning my competence, but recognizing different contexts (public vs private sector) require different solutions, focusing on serving citizens."
+    },
+    {
+      "q": "Quais foram os principais riscos de admitir publicamente que sua intuição estava errada e como mitigou?",
+      "a": "Riscos principais: (1) perda de credibilidade com BID e SEFAZ, (2) resistência cultural dos gerentes waterfall, (3) dúvidas sobre minha competência. Mitiguei com: (1) transparência radical no relatório BID, (2) dados empíricos dos 3 projetos piloto, (3) foco em resultados (R$ 18M economia) em vez de defender ego.",
+      "q_en": "What were the main risks of publicly admitting your intuition was wrong and how did you mitigate them?",
+      "a_en": "Main risks: (1) loss of credibility with IDB and SEFAZ, (2) cultural resistance from waterfall managers, (3) doubts about my competence. I mitigated with: (1) radical transparency in IDB report, (2) empirical data from 3 pilot projects, (3) focus on results (BRL 18M savings) instead of defending ego."
+    },
+    {
+      "q": "Quais dados e racional você usou para convencer stakeholders sobre a mudança de abordagem?",
+      "a": "Usei dados dos 3 projetos piloto vs 44 controle mostrando 87% vs 62% entrega no prazo e 8% vs 38% desvio, métricas de aderência a auditorias (100% aprovação), e cálculo de economia de R$ 18M em retrabalho. O racional foi: experiência gera hipóteses, mas dados validam; quando divergem, dados vencem para evitar desperdício em projetos públicos.",
+      "q_en": "What data and rationale did you use to convince stakeholders about the approach change?",
+      "a_en": "I used data from 3 pilot vs 44 control projects showing 87% vs 62% on-time delivery and 8% vs 38% deviation, audit adherence metrics (100% approval), and BRL 18M rework savings calculation. The rationale was: experience generates hypotheses, but data validates; when they diverge, data wins to avoid waste in public projects."
+    },
+    {
+      "q": "Como você aplicou o aprendizado dessa experiência em decisões futuras?",
+      "a": "Criei framework 'Intuição Calibrada' aplicado em decisões de pagamentos e telemedicine, treinando 8 líderes no método. Em Unimed questionei intuição sobre precificação telemedicine (dados mostraram elasticidade diferente), resultando em 23% aumento receita. Hoje busco ativamente dados contraditórios antes de decisões arquiteturais.",
+      "q_en": "How did you apply the learning from this experience in future decisions?",
+      "a_en": "I created 'Calibrated Intuition' framework applied in payment and telemedicine decisions, training 8 leaders in the method. At Unimed I questioned intuition about telemedicine pricing (data showed different elasticity), resulting in 23% revenue increase. Today I actively seek contradictory data before architectural decisions."
+    },
+    {
       q: "Como você superou o desconforto emocional de questionar 15 anos de experiência bem-sucedida?",
       a: "Reframeei mentalmente: não estava questionando minha competência, mas reconhecendo que contextos diferentes exigem soluções diferentes. Telecom e banking tinham requisitos estáveis; setor público brasileiro tem volatilidade regulatória. Foquei em servir os 11.4M de cidadãos, não em defender meu ego.",
       q_en: "How did you overcome the emotional discomfort of questioning 15 years of successful experience?",
@@ -42,12 +78,6 @@ const case_5 = {
       a: "Selecionei 3 projetos piloto com perfil similar aos 44 de controle (tamanho, complexidade, stakeholders), defini métricas objetivas antes do início (desvio cronograma, retrabalho, NPS), e documentei todas as variáveis de confusão. Usei teste t de Student para validar significância estatística dos resultados.",
       q_en: "How did you ensure the controlled experiment was methodologically valid?",
       a_en: "I selected 3 pilot projects with similar profile to the 44 control (size, complexity, stakeholders), defined objective metrics before start (schedule deviation, rework, NPS), and documented all confounding variables. I used Student's t-test to validate statistical significance of results."
-    },
-    {
-      q: "Qual foi o maior risco de admitir publicamente que sua intuição estava errada?",
-      a: "O risco era perder credibilidade com stakeholders que me contrataram pela experiência de 15 anos. Mitigei com transparência radical: documentei no relatório BID que 'análise empírica contrariou experiência prévia', mostrando que priorizo verdade sobre ego. Isso paradoxalmente aumentou minha credibilidade.",
-      q_en: "What was the biggest risk of publicly admitting your intuition was wrong?",
-      a_en: "The risk was losing credibility with stakeholders who hired me for 15 years of experience. I mitigated with radical transparency: documented in IDB report that 'empirical analysis contradicted prior experience', showing I prioritize truth over ego. This paradoxically increased my credibility."
     },
     {
       q: "Como você lidou com gerentes de projeto que resistiram ao modelo híbrido?",

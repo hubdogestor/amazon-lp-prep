@@ -23,6 +23,42 @@ const case_3 = {
     l: `Learning: The key lesson from this case transformed my approach to pricing decisions. I learned that being right often means translating data science into plain financial language. When I show clusters, elasticity, and payback side by side, I convince sales and finance to drop a popular idea without damaging partner relationships. I turned this into a framework that I adopted to price open-finance APIs in 2024 with similar results.`,
   },
   fups: [
+    {
+      "q": "Qual foi o maior erro que você cometeu no modelo de pricing inicial e como impactou o projeto?",
+      "a": "Acreditei que poderia implementar pricing dinâmico sem considerar o impacto no churn dos parceiros menores, resultando em perda de 15% da base durante o piloto. Esse erro quase fez o projeto ser cancelado, pois o CFO viu apenas a queda na receita sem entender que era um ajuste necessário para sustentabilidade de longo prazo.",
+      "q_en": "What was the biggest mistake you made in the initial pricing model and how did it impact the project?",
+      "a_en": "I believed I could implement dynamic pricing without considering the impact on smaller partners' churn, resulting in 15% base loss during the pilot. This mistake almost got the project canceled, as the CFO only saw revenue drop without understanding it was necessary for long-term sustainability."
+    },
+    {
+      "q": "O que você faria diferente hoje se implementasse um modelo de pricing dinâmico?",
+      "a": "Hoje começaria com análise de elasticidade de preço por cluster de clientes, implementaria pricing em camadas com períodos de transição mais longos, e criaria um comitê de pricing independente para validar mudanças. Também estabeleceria métricas de saúde financeira por segmento antes de qualquer alteração.",
+      "q_en": "What would you do differently today if you implemented a dynamic pricing model?",
+      "a_en": "Today I would start with price elasticity analysis by customer cluster, implement tiered pricing with longer transition periods, and create an independent pricing committee to validate changes. I would also establish financial health metrics by segment before any changes."
+    },
+    {
+      "q": "Qual foi o maior obstáculo que você enfrentou na implementação do pricing?",
+      "a": "A resistência comercial que via o modelo como ameaça às vendas, argumentando que preços dinâmicos complicariam negociações. Superei criando uma calculadora personalizada que demonstrava como o novo modelo aumentava margem em 23% para clientes premium, mantendo acessibilidade para pequenos parceiros através de descontos por volume.",
+      "q_en": "What was the biggest obstacle you faced in implementing the pricing?",
+      "a_en": "Sales resistance that saw the model as a threat to sales, arguing that dynamic prices would complicate negotiations. I overcame it by creating a personalized calculator that demonstrated how the new model increased margin by 23% for premium clients while maintaining accessibility for small partners through volume discounts."
+    },
+    {
+      "q": "Quais foram os principais riscos do novo modelo de pricing e como mitigou?",
+      "a": "Riscos principais: (1) churn massivo de pequenos parceiros, (2) complexidade técnica no billing, (3) resistência cultural das vendas. Mitiguei com: (1) análise de elasticidade prévia e camadas de transição, (2) desenvolvimento de tabela dinâmica e feature flags, (3) comunicação individual com top 10 parceiros e FAQ detalhado.",
+      "q_en": "What were the main risks of the new pricing model and how did you mitigate them?",
+      "a_en": "Main risks: (1) massive churn of small partners, (2) technical complexity in billing, (3) sales cultural resistance. I mitigated with: (1) prior elasticity analysis and transition layers, (2) dynamic table development and feature flags, (3) individual communication with top 10 partners and detailed FAQ."
+    },
+    {
+      "q": "Quais dados e racional você usou para convencer o CFO sobre o pricing dinâmico?",
+      "a": "Usei dados de regressão com features de volume, sazonalidade e churn histórico (AUC 0,83), análise de elasticidade mostrando que preços dinâmicos aumentavam margem em 23%, e projeções de receita mostrando crescimento de 18% em 12 meses. O racional foi: pricing estático deixa dinheiro na mesa; dinâmico captura valor real do uso.",
+      "q_en": "What data and rationale did you use to convince the CFO about dynamic pricing?",
+      "a_en": "I used regression data with volume, seasonality, and historical churn features (AUC 0.83), elasticity analysis showing 23% margin increase with dynamic pricing, and revenue projections showing 18% growth in 12 months. The rationale was: static pricing leaves money on the table; dynamic pricing captures real usage value."
+    },
+    {
+      "q": "Como você aplicou o aprendizado dessa implementação em projetos futuros?",
+      "a": "Criei um framework de pricing dinâmico que reutilizei para APIs de open finance em 2024, resultando em 28% de aumento na margem. Também implementei comitês de pricing trimestrais e dashboards de elasticidade que se tornaram padrão na organização, reduzindo tempo de decisão de pricing de 3 meses para 2 semanas.",
+      "q_en": "How did you apply the learning from this implementation in future projects?",
+      "a_en": "I created a dynamic pricing framework that I reused for open finance APIs in 2024, resulting in 28% margin increase. I also implemented quarterly pricing committees and elasticity dashboards that became organizational standards, reducing pricing decision time from 3 months to 2 weeks."
+    },
     { q: "Quais features voce usou na regressao?", a: "Volume mensal, sazonalidade, ticket medio, vertical, uso de endpoints criticos e churn historico.", q_en: "Which features fed the regression?", a_en: "Monthly volume, seasonality, average ticket, vertical, critical endpoint usage, and historical churn." },
     { q: "Como validou o modelo antes do piloto?", a: "Usei cross-validation k=5, AUC de 0,83 e apresentei intervalo de confianca ao CFO.", q_en: "How did you validate the model before the pilot?", a_en: "I used k=5 cross-validation, achieved 0.83 AUC, and presented confidence intervals to the CFO." },
     { q: "Que comunicacao fez com os parceiros?", a: "Call individual para top 10, e-mail com FAQ e calculadora personalizada em planilha.", q_en: "How did you communicate with partners?", a_en: "Individual calls for the top ten, emails with FAQ, and a personalized spreadsheet calculator." },
@@ -31,8 +67,7 @@ const case_3 = {
     { q: "Como lidou com o marketing?", a: "Alinhei storytelling de valor agregado e entregamos case para imprensa especializada.", q_en: "How did you handle marketing?", a_en: "I aligned the value-added storytelling and delivered a case study to specialized press." },
     { q: "Qual foi o maior risco residual?", a: "Clientes free-riders; bloqueamos com minima mensal e limites de burst.", q_en: "What was the main residual risk?", a_en: "Free-rider clients; we blocked it with minimum fees and burst limits." },
     { q: "Como registrou o acordo com comercial?", a: "Ata de reuniao com metas de receita, NPS e revisao trimestral do pricing.", q_en: "How did you document the agreement with sales?", a_en: "Meeting minutes with revenue, NPS, and quarterly pricing review targets." },
-    { q: "Que indicadores voce acompanha hoje?", a: "Elasticidade por cluster, margem, churn, SLA de suporte e uso de endpoints premium.", q_en: "Which indicators do you track today?", a_en: "Cluster elasticity, margin, churn, support SLA, and premium endpoint usage." },
-    { q: "Como reutilizou o modelo depois?", a: "Adotei o mesmo framework para precificar APIs de open finance em 2024.", q_en: "How did you reuse the model later?", a_en: "I applied the same framework to price open-finance APIs in 2024." }
+    { q: "Que indicadores voce acompanha hoje?", a: "Elasticidade por cluster, margem, churn, SLA de suporte e uso de endpoints premium.", q_en: "Which indicators do you track today?", a_en: "Cluster elasticity, margin, churn, support SLA, and premium endpoint usage." }
   ]
 };
 

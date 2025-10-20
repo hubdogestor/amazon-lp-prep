@@ -23,6 +23,42 @@ const case_2 = {
     l: "Learning: The key lesson from this case transformed my approach to architecture decisions under pressure. I learned that being right a lot means turning intuition into repeatable simulation. When I back my position with models and financial impact, I can pivot a complex architecture without losing credibility with engineering or the client. I turned this into a whitepaper on active antennas in temporary structures, presented it to the global committee, and we are applying the same model to Los Angeles 2026 and CONMEBOL events."
   },
   fups: [
+    {
+      "q": "Qual foi o maior erro técnico que você cometeu no planejamento inicial e como impactou o projeto?",
+      "a": "Subestimei o impacto do vento lateral nas estruturas temporárias, acreditando que as antenas passivas seriam suficientes baseado em testes indoor. Esse erro quase causou perda de 23% no throughput durante a Fan Fest, potencialmente gerando US$ 9 milhões em multas de patrocínio e comprometendo a credibilidade da Huawei perante a FIFA e operadoras.",
+      "q_en": "What was the biggest technical mistake you made in the initial planning and how did it impact the project?",
+      "a_en": "I underestimated the impact of lateral wind on temporary structures, believing passive antennas would be sufficient based on indoor tests. This mistake almost caused 23% throughput loss during the Fan Fest, potentially generating US$ 9 million in sponsorship penalties and compromising Huawei's credibility with FIFA and carriers."
+    },
+    {
+      "q": "O que você faria diferente hoje se enfrentasse um desafio similar de arquitetura em rollout?",
+      "a": "Hoje começaria com testes de campo em condições reais desde o primeiro dia, implementaria sensores IoT para monitoramento contínuo de variáveis ambientais, e criaria um comitê técnico independente para validar decisões críticas. Também estabeleceria 'kill switches' automáticos baseados em thresholds de performance para evitar decisões tardias.",
+      "q_en": "What would you do differently today if you faced a similar architecture challenge in a rollout?",
+      "a_en": "Today I would start with real-world field tests from day one, implement IoT sensors for continuous environmental monitoring, and create an independent technical committee to validate critical decisions. I would also establish automatic 'kill switches' based on performance thresholds to avoid late decisions."
+    },
+    {
+      "q": "Qual foi o maior obstáculo que você enfrentou durante a mudança de arquitetura?",
+      "a": "A resistência financeira do VP regional que via o capex adicional de US$ 3,2 milhões como ameaça ao orçamento. Superei criando uma análise de payback detalhada mostrando que as multas evitadas pagariam o investimento em 3,5 meses, e demonstrando que o plano original falhava em 67% dos cenários simulados.",
+      "q_en": "What was the biggest obstacle you faced during the architecture change?",
+      "a_en": "The regional VP's financial resistance who saw the additional US$ 3.2 million capex as a budget threat. I overcame it by creating a detailed payback analysis showing that avoided penalties would pay for the investment in 3.5 months, and demonstrating that the original plan failed in 67% of simulated scenarios."
+    },
+    {
+      "q": "Quais foram os principais riscos identificados e como você os mitigou?",
+      "a": "Riscos principais: (1) atraso na entrega de antenas ativas, (2) complicações logísticas em quatro países, (3) resistência técnica à mudança arquitetural. Mitiguei com: (1) negociação com fornecedores mexicanos garantindo entrega em 12 dias, (2) squad multinacional com expertise local, (3) dados de simulação provando superioridade técnica da solução proposta.",
+      "q_en": "What were the main risks identified and how did you mitigate them?",
+      "a_en": "Main risks: (1) delay in active antenna delivery, (2) logistical complications across four countries, (3) technical resistance to architectural change. I mitigated with: (1) negotiation with Mexican suppliers guaranteeing 12-day delivery, (2) multinational squad with local expertise, (3) simulation data proving technical superiority of the proposed solution."
+    },
+    {
+      "q": "Quais dados e racional você usou para convencer o VP a aprovar a mudança?",
+      "a": "Usei dados de drive-test mostrando perda de 4,7 dBi por vento lateral, simulações Monte Carlo com 10 mil cenários (67% de falha no plano original), e análise financeira comparando US$ 3,2M de investimento vs US$ 9M de multas potenciais. O racional foi: melhor perder dinheiro em capex do que em multas e reputação.",
+      "q_en": "What data and rationale did you use to convince the VP to approve the change?",
+      "a_en": "I used drive-test data showing 4.7 dBi loss from lateral wind, Monte Carlo simulations with 10,000 scenarios (67% failure rate in original plan), and financial analysis comparing US$ 3.2M investment vs US$ 9M potential penalties. The rationale was: better to lose money on capex than on penalties and reputation."
+    },
+    {
+      "q": "Como você aplicou o aprendizado dessa experiência em projetos futuros?",
+      "a": "Transformei a experiência em whitepaper sobre antenas ativas em estruturas temporárias, criei o framework 'Risk Twin' para simulações em tempo real, e implementei painéis de controle automatizados. Estamos aplicando o mesmo modelo em Los Angeles 2026 e eventos CONMEBOL, reduzindo tempo de decisão crítica de 48 horas para 4 horas.",
+      "q_en": "How did you apply the learning from this experience in future projects?",
+      "a_en": "I transformed the experience into a whitepaper on active antennas in temporary structures, created the 'Risk Twin' framework for real-time simulations, and implemented automated control panels. We are applying the same model to Los Angeles 2026 and CONMEBOL events, reducing critical decision time from 48 hours to 4 hours."
+    },
     { q: "Quais dados alimentaram o gemelo digital?", a: "Drive-test, sensores de vento, densidade de publico, inventario de antenas e topologia de fibra.", q_en: "Which data fed the digital twin?", a_en: "Drive tests, wind sensors, crowd density, antenna inventory, and fiber topology." },
     { q: "Como voce validou o modelo de vento?", a: "Usei sensores instalados em duas estruturas piloto por 72 horas e comparei com o simulador.", q_en: "How did you validate the wind model?", a_en: "I installed sensors on two pilot structures for 72 hours and compared them to the simulator." },
     { q: "Qual foi o plano financeiro apresentado?", a: "Tabela com capex incremental de US$ 3,2M, multas potenciais de US$ 9M e payback em 3,5 meses.", q_en: "What financial plan did you present?", a_en: "A table showing US$ 3.2M incremental capex, US$ 9M potential penalties, and a 3.5-month payback." },
@@ -30,9 +66,7 @@ const case_2 = {
     { q: "Que indicadores monitorou no painel em tempo real?", a: "P95 de throughput, tilt, potencia, latencia e disponibilidade por venue.", q_en: "Which indicators did you monitor in real time?", a_en: "P95 throughput, tilt, power, latency, and per-venue availability." },
     { q: "Como garantiu alinhamento com os clientes?", a: "Fiz calls diarias com operadoras e FIFA enviando relatorio de risco e status.", q_en: "How did you keep customers aligned?", a_en: "I held daily calls with carriers and FIFA, sending risk and status reports." },
     { q: "Qual foi o maior risco apos a mudanca?", a: "Atraso de fibra; mitiguei com equipes redundantes e rotas alternativas.", q_en: "What was the biggest residual risk?", a_en: "Fiber delays; I mitigated with redundant crews and alternate routes." },
-    { q: "Como registou a decisao do VP?", a: "Ata assinada com condicao de manter cronograma e registrar custo extra por site.", q_en: "How did you record the VP's decision?", a_en: "A signed memo conditioning schedule adherence and tracking extra cost per site." },
-    { q: "Que liao voce compartilhou apos o evento?", a: "Escrevi whitepaper sobre antenas ativas em estruturas temporarias e apresentei no comite global.", q_en: "What lesson did you share after the event?", a_en: "I wrote a whitepaper on active antennas in temporary structures and presented it to the global committee." },
-    { q: "Como esse playbook sera reutilizado?", a: "Estamos aplicando o mesmo modelo em Los Angeles 2026 e eventos da CONMEBOL.", q_en: "How will this playbook be reused?", a_en: "We are applying the same model to Los Angeles 2026 and CONMEBOL events." }
+    { q: "Como registou a decisao do VP?", a: "Ata assinada com condicao de manter cronograma e registrar custo extra por site.", q_en: "How did you record the VP's decision?", a_en: "A signed memo conditioning schedule adherence and tracking extra cost per site." }
   ]
 };
 

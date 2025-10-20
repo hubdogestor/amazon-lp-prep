@@ -24,6 +24,42 @@ const case_1 = {
   },
   "fups": [
     {
+      "q": "Qual foi o maior erro que você cometeu nessa decisão e como impactou o projeto?",
+      "a": "Inicialmente acreditei que poderia equilibrar todos os stakeholders sem uma análise de custo rigorosa, o que quase levou a um roadmap inflado com 15 funcionalidades conflitantes. Esse erro custou duas semanas de atraso e quase fez o projeto perder credibilidade junto ao CEO, pois o business case inicial subestimava os riscos de autenticação em R$ 12 milhões.",
+      "q_en": "What was the biggest mistake you made in this decision and how did it impact the project?",
+      "a_en": "Initially I believed I could balance all stakeholders without rigorous cost analysis, which almost led to an inflated roadmap with 15 conflicting features. This mistake cost two weeks of delay and almost made the project lose credibility with the CEO, as the initial business case underestimated authentication risks by BRL 12 million."
+    },
+    {
+      "q": "O que você faria diferente hoje se enfrentasse situação similar?",
+      "a": "Hoje começaria com análise de custo de falha antes mesmo de mapear stakeholders, aplicaria framework de decisão estruturado desde o primeiro dia, e estabeleceria 'data gates' obrigatórios em cada milestone. Também criaria um comitê executivo mais enxuto com poder de veto, evitando diluir responsabilidade entre oito patrocinadores.",
+      "q_en": "What would you do differently today if you faced a similar situation?",
+      "a_en": "Today I would start with failure cost analysis before even mapping stakeholders, apply structured decision framework from day one, and establish mandatory 'data gates' at each milestone. I would also create a leaner executive committee with veto power, avoiding diluted responsibility among eight sponsors."
+    },
+    {
+      "q": "Qual foi o maior obstáculo que você enfrentou e como superou?",
+      "a": "O maior obstáculo foi a pressão política dos stakeholders regionais que exigiam funcionalidades específicas para agronegócio, ameaçando bloquear o projeto se não fossem atendidos. Superei criando um mecanismo de priorização baseado em dados objetivos, demonstrando que suas funcionalidades gerariam apenas 8% do impacto esperado, enquanto hardening de autenticação geraria 42%.",
+      "q_en": "What was the biggest obstacle you faced and how did you overcome it?",
+      "a_en": "The biggest obstacle was political pressure from regional stakeholders demanding specific agribusiness features, threatening to block the project if not addressed. I overcame it by creating a data-driven prioritization mechanism, demonstrating that their features would generate only 8% of expected impact, while authentication hardening would generate 42%."
+    },
+    {
+      "q": "Quais foram os principais riscos que você identificou e como mitigou?",
+      "a": "Riscos principais eram: (1) falha em autenticação causando churn massivo, (2) pressão política bloqueando decisão, (3) sobrecarga de TI atrasando releases. Mitiguei com: (1) SLA de 300ms e monitoramento 24/7, (2) business case com ROI claro para cada stakeholder, (3) squad dedicada e feature flags para releases independentes.",
+      "q_en": "What were the main risks you identified and how did you mitigate them?",
+      "a_en": "Main risks were: (1) authentication failure causing massive churn, (2) political pressure blocking decision, (3) IT overload delaying releases. I mitigated with: (1) 300ms SLA and 24/7 monitoring, (2) business case with clear ROI for each stakeholder, (3) dedicated squad and feature flags for independent releases."
+    },
+    {
+      "q": "Quais dados e racional você usou para convencer os stakeholders?",
+      "a": "Usei dados de 18 meses mostrando que cada 0,1% de erro em autenticação destruía R$ 6,3M em margem anual, cruzei com reclamações da ouvidoria (48% relacionadas a login) e ARPU por segmento. O racional foi: estabilidade primeiro gera confiança, confiança aumenta engajamento, engajamento eleva receita. Marketing reconheceu que feed sem base sólida aumentaria churn em 15%.",
+      "q_en": "What data and rationale did you use to convince stakeholders?",
+      "a_en": "I used 18 months of data showing that every 0.1% authentication error destroyed BRL 6.3M in annual margin, crossed with ombudsman complaints (48% login-related) and segment ARPU. The rationale was: stability first builds trust, trust increases engagement, engagement raises revenue. Marketing admitted that feed without solid foundation would increase churn by 15%."
+    },
+    {
+      "q": "Como você aplicou o aprendizado dessa experiência em projetos futuros?",
+      "a": "Apliquei o framework 'Data Gate' em decisão de Open Finance em 2025, reduzindo discussões políticas em 70% e acelerando aprovação em 3 meses. Também criei playbook de stakeholder management que foi replicado em roadmap de pagamentos, garantindo decisões baseadas em fatos e não em influência política.",
+      "q_en": "How did you apply the learning from this experience in future projects?",
+      "a_en": "I applied the 'Data Gate' framework in Open Finance decision in 2025, reducing political discussions by 70% and accelerating approval by 3 months. I also created stakeholder management playbook replicated in payments roadmap, ensuring fact-based decisions rather than influence-based politics."
+    },
+    {
       "q": "Como você aplicou especificamente a metodologia DMAIC?",
       "a": "Define: mapeei 8 stakeholders e métricas. Measure: coletei 18 meses de dados. Analyze: modelei custo de falhas. Improve: criei Data Gate. Control: estabeleci governança sustentável.",
       "q_en": "How did you specifically apply DMAIC methodology?",
@@ -76,12 +112,6 @@ const case_1 = {
       "a": "Carta semanal com variações de NPS, margem, backlog burndown, próxima entrega e riscos identificados. Transparência total.",
       "q_en": "How did you report progress to CEO during execution?",
       "a_en": "Weekly letter with NPS variations, margin, backlog burndown, next delivery, and identified risks. Total transparency."
-    },
-    {
-      "q": "Como você reutilizou esse playbook depois?",
-      "a": "Apliquei a mesma metodologia 'Data Gate' para priorizar Open Finance em 2025, reduzindo discussão política em 70% e acelerando decisão.",
-      "q_en": "How did you reuse this playbook later?",
-      "a_en": "I applied the same 'Data Gate' methodology to prioritize Open Finance in 2025, reducing political discussion by 70% and accelerating decision."
     }
   ]
 };

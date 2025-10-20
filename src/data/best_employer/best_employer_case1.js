@@ -23,6 +23,42 @@ const case_1 = {
   },
   "fups": [
     {
+      "q": "Qual foi o maior erro que você cometeu na implementação da comunidade ágil?",
+      "a": "Subestimei a resistência cultural dos gerentes seniores que viam a guilda como ameaça à autoridade hierárquica, resultando em sabotagem passiva nos primeiros 3 meses. Esse erro quase fez o projeto falhar, custando tempo valioso e confiança da equipe, mas me ensinou a importância de engajar líderes desde o início.",
+      "q_en": "What was the biggest mistake you made in implementing the agile community?",
+      "a_en": "I underestimated senior managers' cultural resistance who saw the guild as a threat to hierarchical authority, resulting in passive sabotage in the first 3 months. This mistake almost made the project fail, costing valuable time and team trust, but taught me the importance of engaging leaders from the start."
+    },
+    {
+      "q": "O que você faria diferente hoje se implementasse uma comunidade ágil em uma organização tradicional?",
+      "a": "Hoje começaria com diagnóstico cultural detalhado, envolveria líderes seniores como co-patrocinadores desde o primeiro dia, e criaria 'pilotos de influência' com gerentes respeitados. Também estabeleceria métricas de sucesso compartilhadas e faria comunicação frequente sobre benefícios para todos os níveis hierárquicos.",
+      "q_en": "What would you do differently today if you implemented an agile community in a traditional organization?",
+      "a_en": "Today I would start with detailed cultural diagnosis, involve senior leaders as co-sponsors from day one, and create 'influence pilots' with respected managers. I would also establish shared success metrics and communicate frequently about benefits for all hierarchical levels."
+    },
+    {
+      "q": "Qual foi o maior obstáculo que você enfrentou na criação da comunidade ágil?",
+      "a": "A resistência cultural dos gerentes seniores que viam a guilda como competição à autoridade formal, resultando em sabotagem passiva e falta de apoio. Superei criando 'pilotos de influência' com 3 gerentes respeitados que se tornaram evangelistas, demonstrando valor através de resultados mensuráveis antes de expandir para toda a organização.",
+      "q_en": "What was the biggest obstacle you faced in creating the agile community?",
+      "a_en": "Cultural resistance from senior managers who saw the guild as competition to formal authority, resulting in passive sabotage and lack of support. I overcame it by creating 'influence pilots' with 3 respected managers who became evangelists, demonstrating value through measurable results before expanding to the entire organization."
+    },
+    {
+      "q": "Quais foram os principais riscos da implementação da comunidade ágil e como mitigou?",
+      "a": "Riscos principais: (1) resistência cultural e sabotagem, (2) falta de engajamento dos líderes seniores, (3) conflito com estruturas hierárquicas existentes. Mitiguei com: (1) pilotos de influência e métricas claras, (2) envolvimento da diretoria como patrocinadores, (3) foco em benefícios complementares à hierarquia formal.",
+      "q_en": "What were the main risks of implementing the agile community and how did you mitigate them?",
+      "a_en": "Main risks: (1) cultural resistance and sabotage, (2) lack of senior leader engagement, (3) conflict with existing hierarchical structures. I mitigated with: (1) influence pilots and clear metrics, (2) executive involvement as sponsors, (3) focus on benefits complementary to formal hierarchy."
+    },
+    {
+      "q": "Quais dados e racional você usou para convencer a diretoria sobre a comunidade ágil?",
+      "a": "Usei dados de redução de churn de 23% para 8%, economia de R$ 6,4M em custos de reposição, e aumento de 34% na produtividade medida por velocity das squads. O racional foi: comunidade ágil não substitui hierarquia, mas acelera execução através de colaboração horizontal, gerando ROI comprovado em retenção e produtividade.",
+      "q_en": "What data and rationale did you use to convince the board about the agile community?",
+      "a_en": "I used data of churn reduction from 23% to 8%, BRL 6.4M savings in replacement costs, and 34% increase in productivity measured by squad velocity. The rationale was: agile community doesn't replace hierarchy, but accelerates execution through horizontal collaboration, generating proven ROI in retention and productivity."
+    },
+    {
+      "q": "Como você aplicou o aprendizado da comunidade ágil em projetos futuros?",
+      "a": "Apliquei o framework 'Growth Engine' na criação da academia de compliance de pagamentos na Unimed em 2024, resultando em 40% redução no tempo de onboarding e melhoria de 28% nos índices de conformidade. Também criei 'pilotos de influência' como padrão para adoção de novas práticas culturais.",
+      "q_en": "How did you apply the learning from the agile community in future projects?",
+      "a_en": "I applied the 'Growth Engine' framework in creating the payments compliance academy at Unimed in 2024, resulting in 40% reduction in onboarding time and 28% improvement in compliance indexes. I also created 'influence pilots' as standard for adopting new cultural practices."
+    },
+    {
       "q": "Como voce calculou os R$ 6,4M de economia?",
       "a": "Somei custo de reposicao, recrutamento e perda de produtividade versus o churn historico antes da guilda.",
       "q_en": "How did you compute the BRL 6.4M savings?",

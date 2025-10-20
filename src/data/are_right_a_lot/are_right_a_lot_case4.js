@@ -24,6 +24,42 @@ const case_4 = {
   },
   fups: [
     {
+      "q": "Qual foi o maior erro que você cometeu no desenvolvimento do modelo de fraude e como impactou o projeto?",
+      "a": "Subestimei o padrão de uso do Pix durante madrugada, acreditando que seria similar ao horário comercial (3% vs 67% de diferença real). Esse erro fez o modelo ter 23% de falsos positivos, custando R$ 180 mil em desenvolvimento desnecessário e quase implementando uma solução ineficaz que geraria R$ 600 mil adicionais em fraudes não detectadas nos próximos 2 meses.",
+      "q_en": "What was the biggest mistake you made in the fraud model development and how did it impact the project?",
+      "a_en": "I underestimated Pix usage patterns during nighttime, believing it would be similar to business hours (3% vs 67% real difference). This mistake made the model have 23% false positives, costing BRL 180 thousand in unnecessary development and almost implementing an ineffective solution that would generate additional BRL 600 thousand in undetected frauds over the next 2 months."
+    },
+    {
+      "q": "O que você faria diferente hoje se uma pessoa mais júnior contradissesse sua decisão técnica?",
+      "a": "Hoje criaria um ambiente onde dados vencem hierarquia desde o início, implementaria 'challenge sessions' obrigatórias antes de decisões críticas, e estabeleceria métricas claras de validação. Também promoveria imediatamente quem provar estar certo com dados, independente de senioridade, sinalizando que competência técnica supera tempo de casa.",
+      "q_en": "What would you do differently today if a more junior person contradicted your technical decision?",
+      "a_en": "Today I would create an environment where data beats hierarchy from the beginning, implement mandatory 'challenge sessions' before critical decisions, and establish clear validation metrics. I would also immediately promote whoever proves to be right with data, regardless of seniority, signaling that technical competence surpasses tenure."
+    },
+    {
+      "q": "Qual foi o maior obstáculo que você enfrentou ao admitir publicamente que estava errado?",
+      "a": "O obstáculo principal foi o medo de perder credibilidade perante diretores e equipe após 15 anos de experiência. Superei mostrando dados objetivos: pausar o projeto errado custou R$ 180k mas evitou R$ 600k em perdas futuras, demonstrando que admitir erro rápido é mais barato que proteger ego lentamente. O apoio público do CTO foi crucial.",
+      "q_en": "What was the biggest obstacle you faced when publicly admitting you were wrong?",
+      "a_en": "The main obstacle was fear of losing credibility with directors and team after 15 years of experience. I overcame it by showing objective data: pausing the wrong project cost BRL 180k but avoided BRL 600k in future losses, demonstrating that admitting error quickly is cheaper than slowly protecting ego. The CTO's public support was crucial."
+    },
+    {
+      "q": "Quais foram os principais riscos de promover uma pessoa mais júnior para co-lead e como mitigou?",
+      "a": "Riscos principais: (1) resistência cultural da equipe, (2) dúvidas sobre competência técnica de Marina, (3) possíveis conflitos de autoridade. Mitiguei com: (1) comunicação clara sobre decisão baseada em dados, (2) autonomia real (ela definia roadmap, eu executava), (3) apoio público do CTO e demonstração prática de que ela estava certa.",
+      "q_en": "What were the main risks of promoting a more junior person to co-lead and how did you mitigate them?",
+      "a_en": "Main risks: (1) team cultural resistance, (2) doubts about Marina's technical competence, (3) possible authority conflicts. I mitigated with: (1) clear communication about data-based decision, (2) real autonomy (she defined roadmap, I executed), (3) CTO's public support and practical demonstration that she was right."
+    },
+    {
+      "q": "Quais dados e racional você usou para convencer os diretores sobre a mudança de abordagem?",
+      "a": "Usei dados de análise comportamental mostrando 67% vs 3% de uso do Pix na madrugada, métricas de falsos positivos (23% vs 8% esperado), e cálculo de ROI comparando R$ 180k em custos imediatos vs R$ 600k em fraudes evitadas. O racional foi: melhor perder dinheiro em desenvolvimento errado do que implementar solução ineficaz que custa mais caro no longo prazo.",
+      "q_en": "What data and rationale did you use to convince directors about the approach change?",
+      "a_en": "I used behavioral analysis data showing 67% vs 3% Pix usage at dawn, false positive metrics (23% vs 8% expected), and ROI calculation comparing BRL 180k in immediate costs vs BRL 600k in avoided frauds. The rationale was: better to lose money on wrong development than implement ineffective solution that costs more expensive in the long term."
+    },
+    {
+      "q": "Como você aplicou o aprendizado de admitir erros publicamente em projetos futuros?",
+      "a": "Instituí 'challenge sessions' onde qualquer nível pode questionar decisões técnicas com dados, criei cultura de post-mortems públicos das minhas decisões erradas (fiz 4 tech talks), e promovi 3 pessoas mais jovens baseadas em dados técnicos. Isso resultou em 2 engenheiros juniores questionando decisões arquiteturais corretamente, melhorando qualidade técnica geral.",
+      "q_en": "How did you apply the learning of publicly admitting mistakes in future projects?",
+      "a_en": "I instituted 'challenge sessions' where any level can question technical decisions with data, created culture of public post-mortems of my wrong decisions (did 4 tech talks), and promoted 3 younger people based on technical data. This resulted in 2 junior engineers correctly questioning architectural decisions, improving overall technical quality."
+    },
+    {
       q: "Como voce se sentiu quando Marina contradisse sua abordagem publicamente?",
       a: "Honestamente minha primeira reacao foi defensiva: eu tinha 15 anos de experiencia e ela 9 meses. Mas em 30 segundos eu olhei os dados que ela mostrou (3% vs 67% uso de Pix madrugada) e percebi: ela estava certa e eu estava protegendo ego. Escolhi dados sobre ego.",
       q_en: "How did you feel when Marina publicly contradicted your approach?",

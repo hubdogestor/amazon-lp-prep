@@ -24,6 +24,42 @@ const case_3 = {
     },
     "fups": [
       {
+        "q": "Qual foi seu maior erro ou falha nesse caso?",
+        "a": "Meu maior erro foi subestimar o tempo necessário para reconstruir confiança entre gerações hostis, acreditando que workshops iniciais seriam suficientes. Inicialmente foquei demais em métricas e processos sem endereçar as emoções profundas e ressentimentos acumulados de décadas. Isso quase fez o programa fracassar nas primeiras semanas, com apenas 40% de adesão inicial dos veteranos.",
+        "q_en": "What was your biggest mistake or failure in this case?",
+        "a_en": "My biggest mistake was underestimating the time needed to rebuild trust between hostile generations, believing initial workshops would be enough. I initially focused too much on metrics and processes without addressing the deep emotions and accumulated resentments from decades. This almost made the program fail in the first weeks, with only 40% initial adherence from veterans."
+      },
+      {
+        "q": "O que você faria diferente hoje?",
+        "a": "Hoje eu começaria com sessões individuais de mediação entre pares antagônicos antes de formar as duplas, criando espaço seguro para expressar dores e medos. Também implementaria um período de observação de 30 dias antes de lançar o DuoLab, coletando feedback qualitativo sobre resistências culturais. Por fim, envolveria facilitadores externos neutros para mediar conflitos iniciais entre gerações.",
+        "q_en": "What would you do differently today?",
+        "a_en": "Today I would start with individual mediation sessions between antagonistic pairs before forming the duos, creating a safe space to express pains and fears. I would also implement a 30-day observation period before launching DuoLab, collecting qualitative feedback on cultural resistances. Finally, I would involve neutral external facilitators to mediate initial generational conflicts."
+      },
+      {
+        "q": "Qual foi o obstáculo mais difícil de superar?",
+        "a": "O obstáculo mais difícil foi quebrar o ciclo vicioso de acusações mútuas entre gerações que havia se institucionalizado na cultura organizacional. Veteranos viam jovens como ameaças à estabilidade, enquanto jovens viam veteranos como obstáculos à inovação. Precisei conduzir 25 sessões individuais de coaching para reconstruir pontes, mostrando vulnerabilidade ao compartilhar meus próprios conflitos geracionais em experiências passadas.",
+        "q_en": "What was the most difficult obstacle to overcome?",
+        "a_en": "The most difficult obstacle was breaking the vicious cycle of mutual accusations between generations that had become institutionalized in the organizational culture. Veterans saw young people as threats to stability, while young people saw veterans as obstacles to innovation. I had to conduct 25 individual coaching sessions to rebuild bridges, showing vulnerability by sharing my own generational conflicts from past experiences."
+      },
+      {
+        "q": "Quais foram os principais riscos e como você os mitigou?",
+        "a": "Os principais riscos eram conflitos abertos durante sessões de mentoring que poderiam agravar divisões, resistência passiva dos veteranos que controlavam recursos, e fracasso do programa gerando descrédito ainda maior. Mitiguei com protocolos claros de mediação, envolvimento do RH como facilitador neutro, comunicação transparente sobre propósitos, e medição objetiva de resultados para validar o ROI antes de expandir.",
+        "q_en": "What were the main risks and how did you mitigate them?",
+        "a_en": "The main risks were open conflicts during mentoring sessions that could worsen divisions, passive resistance from veterans who controlled resources, and program failure generating even greater discredit. I mitigated with clear mediation protocols, HR involvement as neutral facilitator, transparent communication about purposes, and objective measurement of results to validate ROI before expanding."
+      },
+      {
+        "q": "Que dados você usou e qual foi a racional de cálculo?",
+        "a": "Usei dados do eNPS (48 pontos iniciais), pedidos de transferência (47 por trimestre), queixas de atraso (1.200 mensais), e tempo de resposta rural (14 dias). A racional foi baseada em custo de rotatividade: cada transferência evitada economizava R$180k (recrutamento + treinamento), e melhoria de 1 ponto no eNPS correlacionava com 3% de redução na rotatividade segundo benchmarks do setor público.",
+        "q_en": "What data did you use and what was the calculation rationale?",
+        "a_en": "I used eNPS data (48 initial points), transfer requests (47 per quarter), delay complaints (1,200 monthly), and rural response time (14 days). The rationale was based on turnover cost: each avoided transfer saved BRL 180k (recruitment + training), and each 1-point eNPS improvement correlated with 3% turnover reduction according to public sector benchmarks."
+      },
+      {
+        "q": "Como você usou o aprendizado desse caso em outras frentes?",
+        "a": "Apliquei o conceito de propósito compartilhado no DuoLab na Unimed para resolver conflitos entre clínicos e administrativos, adaptando com foco no paciente. Na Bradesco Next, usei o mecanismo de reconhecimento formal para unir equipes técnicas e negócios. Atualmente replico o Insight Hub em todas as organizações com conflitos geracionais, sempre começando com as 3 perguntas individuais sobre o que impede as pessoas de quererem trabalhar ali.",
+        "q_en": "How did you apply the learning from this case in other areas?",
+        "a_en": "I applied the shared purpose concept from DuoLab at Unimed to resolve conflicts between clinicians and administrators, adapting with patient focus. At Bradesco Next, I used the formal recognition mechanism to unite technical and business teams. Currently I replicate the Insight Hub in all organizations with generational conflicts, always starting with the 3 individual questions about what prevents people from wanting to work there."
+      },
+      {
         "q": "Como voce montou as duplas do DuoLab?",
         "a": "Cruzei senioridade, habilidades e dores de contribuinte usando algoritmo simples no Excel.",
         "q_en": "How did you match DuoLab pairs?",
