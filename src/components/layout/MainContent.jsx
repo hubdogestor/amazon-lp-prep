@@ -148,14 +148,14 @@ export default function MainContent({
 
             {/* Perguntas Típicas - Amazon Style (azul) - Layout tipo tabela */}
             {typicalQuestions[principle.id] && (
-              <div className="mt-4 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 rounded-lg p-4 shadow-sm dark:from-slate-900 dark:to-slate-950 dark:border-slate-700">
-                <h3 className="text-sm font-bold text-[#232F3E] dark:text-slate-100 mb-3 uppercase tracking-wide flex items-center gap-2">
+              <div className="mt-3 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 rounded-lg p-3 shadow-sm dark:from-slate-900 dark:to-slate-950 dark:border-slate-700">
+                <h3 className="text-xs font-bold text-[#232F3E] dark:text-slate-100 mb-2 uppercase tracking-wide flex items-center gap-2">
                   💭 {language === "pt" ? "Perguntas Típicas do Entrevistador" : "Typical Interviewer Questions"}
-                  <span className="text-xs font-normal text-gray-500 ml-2">
+                  <span className="text-[10px] font-normal text-gray-500 dark:text-gray-400 ml-1">
                     ({language === "pt" ? "Clique para ver o case que responde" : "Click to see the case that answers"})
                   </span>
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0.5">
                   {(language === "en" ? typicalQuestions[principle.id].en : typicalQuestions[principle.id].pt).map((q, qIdx) => {
                     const questionId = `typical-q-${principle.id}-${qIdx}`;
                     const questionStorageId = `${principle.id}-${qIdx}`;

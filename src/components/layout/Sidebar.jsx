@@ -17,7 +17,7 @@ export default function Sidebar({
 }) {
   const { t } = useTranslation();
   return (
-    <aside id="sidebar" className="col-span-12 xl:col-span-2 xl:fixed xl:top-[72px] xl:left-4 xl:w-[16.666667%] xl:max-h-[calc(100vh-88px)] xl:overflow-hidden" role="complementary" aria-label="Principles filter">
+    <aside id="sidebar" className="col-span-12 xl:col-span-2 xl:fixed xl:top-[85px] xl:left-4 xl:w-[16.666667%] xl:max-h-[calc(100vh-96px)] xl:overflow-hidden" role="complementary" aria-label="Principles filter">
       {/* Header "Leadership Principles" */}
       <div className="mb-2 pb-1.5 border-b-2 border-[#FF9900]">
         <h2 className="text-xs font-bold text-[#232F3E] dark:text-slate-100 uppercase tracking-wider">
@@ -61,7 +61,7 @@ export default function Sidebar({
               )}></span>
             </button>
             {shouldShowDivider && (
-              <div className="my-1.5 border-t border-slate-300 dark:border-slate-600" />
+              <div className="my-1 border-t-2 border-slate-300 dark:border-slate-600" />
             )}
           </div>
         );

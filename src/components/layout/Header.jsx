@@ -53,8 +53,8 @@ export default function Header({
       className="sticky top-0 z-30 border-b border-slate-200 bg-gradient-to-r from-white to-slate-50 backdrop-blur supports-[backdrop-filter]:bg-white/80 dark:from-slate-800 dark:to-slate-700 dark:border-slate-700"
       role="banner"
     >
-      <div className="max-w-[1600px] mx-auto px-6 py-3">
-        <div className="flex gap-3 items-center">
+      <div className="max-w-full mx-auto px-6 py-3">
+        <div className="flex gap-3 items-center justify-between">
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileDrawerOpen(!isMobileDrawerOpen)}

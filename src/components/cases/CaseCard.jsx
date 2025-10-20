@@ -50,7 +50,7 @@ const CaseCard = memo(function CaseCard({
   return (
     <article
       id={caseDomId}
-      className={`bg-gradient-to-br rounded-2xl p-0 mb-6 overflow-hidden transition-all duration-300 animate-in fade-in slide-in-from-bottom-4 ${
+      className={`bg-gradient-to-br rounded-2xl p-0 mb-2 overflow-hidden transition-all duration-300 animate-in fade-in slide-in-from-bottom-4 ${
         isTop
           ? "from-orange-50 via-amber-50 to-yellow-50 border-4 border-[#FF9900] shadow-xl shadow-orange-300/60 hover:shadow-2xl hover:shadow-orange-400/70 hover:scale-[1.01] dark:from-orange-950 dark:via-amber-950 dark:to-yellow-950 dark:border-orange-500 dark:shadow-orange-900/60"
           : "from-blue-50 via-sky-50 to-cyan-50 border-2 border-blue-400 shadow-lg shadow-blue-200/50 hover:shadow-xl hover:shadow-blue-300/60 hover:border-blue-500 hover:scale-[1.005] dark:from-slate-900 dark:via-blue-950 dark:to-slate-900 dark:border-blue-700 dark:shadow-blue-900/50"

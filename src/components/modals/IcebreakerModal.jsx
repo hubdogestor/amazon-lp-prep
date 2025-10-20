@@ -233,7 +233,7 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
               className="shrink-0 bg-white/20 text-white hover:bg-white/30 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
               aria-label="Toggle language"
             >
-              {language === 'pt' ? '🇧🇷 PT / EN' : '🇺🇸 EN / PT'}
+              {(/pt/i.test(language) ? 'PT 🇧🇷' : 'EN 🇺🇸')}
             </button>
 
             <button
