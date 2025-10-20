@@ -12,6 +12,5 @@ import case8 from './ownership_case8.js';
 export default {
   principle: config.principle,
   id: config.id,
-  name: config.name,
   cases: [case1, case2, case3, case4, case5, case6, case7, case8]
 };

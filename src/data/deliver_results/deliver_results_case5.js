@@ -23,66 +23,64 @@ const case_5 = {
   },
   fups: [
     {
-      "q": "Por que voce decidiu assumir publicamente o fracasso em vez de culpar as squads?",
-      "a": "Porque eu era o Product Owner end-to-end, responsavel por coordenar as 5 squads e gerenciar dependencias. O fracasso foi meu: subestimei riscos, nao criei gates de qualidade e confiei demais em estimativas otimistas. Assumir ownership publico foi prerequisito para recuperar credibilidade e liderar a recuperacao.",
+      "q": "Qual foi seu maior erro ou falha nesse caso?",
+      "a": "Meu maior erro foi ter subestimado a complexidade das integrações e ter confiado demais nas estimativas otimistas das squads. Eu priorizei features visíveis, como a interface do aplicativo, em detrimento da infraestrutura crítica, como capacidade e resiliência. Essa falha de planejamento foi a causa raiz do atraso e da crise que se seguiu.",
+      "q_en": "What was your biggest mistake or failure in this case?",
+      "a_en": "My biggest mistake was underestimating the complexity of the integrations and trusting too much in the squads' optimistic estimates. I prioritized visible features, such as the application interface, to the detriment of critical infrastructure, such as capacity and resilience. This planning failure was the root cause of the delay and the crisis that followed."
+    },
+    {
+      "q": "O que você faria diferente hoje?",
+      "a": "Hoje, eu nunca mais começaria um projeto crítico sem um mapa de dependências em rede, e faria um pré-mortem obrigatório no kick-off para identificar os riscos. Além disso, implementaria gates de qualidade objetivos, como testes de carga, desde o primeiro sprint, em vez de deixá-los para o final. A prevenção é sempre mais barata e eficiente que a remediação.",
+      "q_en": "What would you do differently today?",
+      "a_en": "Today, I would never start a critical project without a network dependency map, and I would do a mandatory pre-mortem at the kick-off to identify the risks. In addition, I would implement objective quality gates, such as load tests, from the first sprint, instead of leaving them for the end. Prevention is always cheaper and more efficient than remediation."
+    },
+    {
+      "q": "Qual foi o obstáculo mais difícil de superar?",
+      "a": "O obstáculo mais difícil foi recuperar a confiança das 5 squads depois de ter assumido publicamente que eu havia falhado como coordenador. Precisei provar que os novos mecanismos, como a matriz RACI e os gates de qualidade, realmente funcionavam e que eu estava no controle da situação. Levei 3 semanas para que as equipes voltassem a confiar na minha liderança e se engajassem totalmente na recuperação.",
+      "q_en": "What was the most difficult obstacle to overcome?",
+      "a_en": "The most difficult obstacle was regaining the trust of the 5 squads after publicly admitting that I had failed as a coordinator. I had to prove that the new mechanisms, such as the RACI matrix and the quality gates, really worked and that I was in control of the situation. It took me 3 weeks for the teams to trust my leadership again and fully engage in the recovery."
+    },
+    {
+      "q": "Quais foram os principais riscos e como você os mitigou?",
+      "a": "Os principais riscos eram a multa regulatória do Banco Central, a perda de 4,5 milhões de cooperados para a concorrência e o dano à reputação do Sicredi. Mitiguei esses riscos renegociando o prazo com o BCB com base em dados técnicos, cortando 40% do escopo para focar no essencial, e implementando um controle tático diário para garantir a execução. A transparência radical com a diretoria também foi crucial para manter o apoio.",
+      "q_en": "What were the main risks and how did you mitigate them?",
+      "a_en": "The main risks were the regulatory fine from the Central Bank, the loss of 4.5 million cooperative members to the competition, and the damage to Sicredi's reputation. I mitigated these risks by renegotiating the deadline with the BCB based on technical data, cutting 40% of the scope to focus on the essentials, and implementing daily tactical control to ensure execution. Radical transparency with the board was also crucial to maintain support."
+    },
+    {
+      "q": "Que dados você usou para renegociar o prazo com o Banco Central?",
+      "a": "Apresentei dados técnicos sólidos e um plano de ação concreto. Mostrei que a capacidade de 120 TPS contra os 450 TPS exigidos era uma lacuna mensurável, mapeei as 17 lacunas de fraude específicas que ainda não havíamos tratado, e propus uma entrega faseada, com os fluxos principais em novembro. O BCB aceitou porque viu um plano baseado em fatos, não em desculpas vagas.",
+      "q_en": "What data did you use to renegotiate the deadline with the Central Bank?",
+      "a_en": "I presented solid technical data and a concrete action plan. I showed that the capacity of 120 TPS versus the required 450 TPS was a measurable gap, I mapped the 17 specific fraud gaps that we had not yet addressed, and I proposed a phased delivery, with the main flows in November. The BCB accepted because it saw a plan based on facts, not on vague excuses."
+    },
+    {
+      "q": "Como você usou o aprendizado desse caso em outras frentes?",
+      "a": "O playbook de recuperação que criei se tornou um mecanismo replicável. Usei-o na Unimed para lançar uma IA de autorização médica, e entregamos 2 semanas antes do prazo. O erro no Pix me ensinou que a verdadeira ownership não é nunca falhar, mas assumir os fracassos rapidamente, aprender com transparência brutal e entregar uma recuperação que supera as expectativas originais.",
+      "q_en": "How did you use the learning from this case in other areas?",
+      "a_en": "The recovery playbook I created became a replicable mechanism. I used it at Unimed to launch a medical authorization AI, and we delivered 2 weeks ahead of schedule. The mistake with Pix taught me that true ownership is not about never failing, but about owning failures quickly, learning with brutal transparency, and delivering a recovery that exceeds original expectations."
+    },
+    {
+      "q": "Por que você decidiu assumir publicamente o fracasso em vez de culpar as squads?",
+      "a": "Porque eu era o Product Owner de ponta a ponta, responsável por coordenar as 5 equipes e gerenciar as dependências. A falha foi minha: subestimei os riscos, não criei gates de qualidade e confiei demais em estimativas otimistas. Assumir a responsabilidade publicamente foi um pré-requisito para recuperar a credibilidade e liderar a recuperação com integridade.",
       "q_en": "Why did you decide to publicly own the failure instead of blaming the squads?",
-      "a_en": "Because I was the end-to-end Product Owner, responsible for coordinating the 5 squads and managing dependencies. The failure was mine: I underestimated risks, didn't create quality gates, and trusted too much in optimistic estimates. Public ownership was prerequisite to recover credibility and lead the recovery."
+      "a_en": "Because I was the end-to-end Product Owner, responsible for coordinating the 5 teams and managing the dependencies. The failure was mine: I underestimated the risks, didn't create quality gates, and relied too much on optimistic estimates. Taking public responsibility was a prerequisite to regain credibility and lead the recovery with integrity."
     },
     {
-      "q": "Como voce conseguiu renegociar o prazo com o Banco Central?",
-      "a": "Apresentei dados tecnicos solidos: mostrei que 120 TPS vs 450 TPS exigidos era gap mensuravel, mapeei as 17 lacunas de fraude especificas e propus entrega faseada com core flows em novembro. BCB aceitou porque viu plano concreto, nao desculpas vagas.",
-      "q_en": "How did you manage to renegotiate the deadline with the Central Bank?",
-      "a_en": "I presented solid technical data: showed that 120 TPS vs required 450 TPS was measurable gap, mapped the 17 specific fraud gaps, and proposed phased delivery with core flows in November. BCB accepted because they saw concrete plan, not vague excuses."
+      "q": "Qual foi o momento mais crítico da recuperação e como você o superou?",
+      "a": "Na segunda semana da recuperação, descobri que uma das 9 dependências críticas, a integração com o SPI do BCB, havia sido subestimada em 40%. Cancelei minhas férias, passei 3 dias imerso com a equipe de infraestrutura reescrevendo a arquitetura, e conseguimos recuperar o atraso. Foi um momento de liderança prática e intensa, que uniu a equipe em torno do objetivo.",
+      "q_en": "What was the most critical moment of the recovery and how did you overcome it?",
+      "a_en": "In the second week of the recovery, I discovered that one of the 9 critical dependencies, the integration with the BCB's SPI, had been underestimated by 40%. I canceled my vacation, spent 3 days immersed with the infrastructure team rewriting the architecture, and we managed to catch up. It was a moment of practical and intense leadership, which united the team around the goal."
     },
     {
-      "q": "Qual foi o maior desafio na recuperacao do projeto?",
-      "a": "Recuperar a confianca das 5 squads apos assumir publicamente que havia falhado como coordenador. Eu precisei provar que os novos mecanismos (matriz RACI, gates de qualidade, daily command) realmente funcionavam. Levou 3 semanas para as squads voltarem a confiar na minha lideranca.",
-      "q_en": "What was the biggest challenge in project recovery?",
-      "a_en": "Recovering trust from the 5 squads after publicly owning that I had failed as coordinator. I needed to prove the new mechanisms (RACI matrix, quality gates, daily command) actually worked. It took 3 weeks for squads to trust my leadership again."
-    },
-    {
-      "q": "Como voce garantiu que os gates de qualidade fossem seguidos rigorosamente?",
-      "a": "Eu assumi comando tatico diario: checava painel de TPS/latencia 6 vezes por dia, participava pessoalmente dos testes de carga a cada 3 dias e tinha autoridade para bloquear deploy se qualquer gate falhasse. Sem excecoes, sem negociacoes.",
-      "q_en": "How did you ensure quality gates were followed rigorously?",
-      "a_en": "I took daily tactical command: checked TPS/latency dashboard 6 times per day, personally participated in load tests every 3 days, and had authority to block deployment if any gate failed. No exceptions, no negotiations."
-    },
-    {
-      "q": "Qual foi o momento mais critico da recuperacao?",
-      "a": "Semana 2 da recuperacao, quando descobri que uma das 9 dependencias criticas (integracao com SPI do BCB) tinha sido subestimada em 40%. Cancelei ferias, passei 3 dias com a squad de infra reescrevendo a arquitetura e conseguimos recuperar o atraso.",
-      "q_en": "What was the most critical moment of the recovery?",
-      "a_en": "Week 2 of recovery, when I discovered one of the 9 critical dependencies (BCB SPI integration) had been underestimated by 40%. I canceled vacation, spent 3 days with infra squad rewriting architecture, and we managed to recover the delay."
-    },
-    {
-      "q": "Como voce mediu o sucesso da recuperacao alem das metricas tecnicas?",
-      "a": "NPS do Pix (45→68), satisfacao dos cooperados (87% preferindo Pix a TED/DOC), economia media por cooperado (R$ 180/ano em tarifas evitadas) e, mais importante, confianca da lideranca: fui promovido a Head of Payments em janeiro.",
-      "q_en": "How did you measure recovery success beyond technical metrics?",
-      "a_en": "Pix NPS (45→68), member satisfaction (87% preferring Pix to TED/DOC), average savings per member (R$180/year in avoided fees), and most importantly, leadership trust: I was promoted to Head of Payments in January."
-    },
-    {
-      "q": "Que aprendizado voce aplicou em projetos posteriores?",
-      "a": "O playbook de recuperacao: pre-mortem obrigatório no kick-off, mapa de dependencias em rede (nao linear), gates objetivos desde sprint 1 e ritual de 'reality check' toda sexta. Usei na Unimed para IA de autorizacao medica: entreguei 2 semanas antes do prazo.",
-      "q_en": "What learning did you apply to subsequent projects?",
-      "a_en": "The recovery playbook: mandatory pre-mortem at kick-off, network dependency map (not linear), objective gates from sprint 1, and 'reality check' ritual every Friday. I used it at Unimed for medical authorization AI: delivered 2 weeks ahead of schedule."
-    },
-    {
-      "q": "Como voce lidou com a pressao da diretoria durante a crise?",
-      "a": "Transparencia radical: updates diarios por email com metricas objetivas (TPS, casos de fraude resolvidos, dependencias desbloqueadas), sem sugar-coating. Diretoria parou de pressionar quando viu que eu tinha controle real da situacao.",
-      "q_en": "How did you handle board pressure during the crisis?",
-      "a_en": "Radical transparency: daily email updates with objective metrics (TPS, fraud cases resolved, dependencies unblocked), no sugar-coating. Board stopped pressuring when they saw I had real control of the situation."
+      "q": "Como você lidou com a pressão da diretoria durante a crise?",
+      "a": "Com transparência radical e dados. Enviei atualizações diárias por e-mail com métricas objetivas, como TPS, casos de fraude resolvidos e dependências desbloqueadas, sem tentar amenizar a situação. A diretoria parou de pressionar quando viu que eu tinha o controle real da situação e um plano claro para a recuperação.",
+      "q_en": "How did you handle the pressure from the board during the crisis?",
+      "a_en": "With radical transparency and data. I sent daily email updates with objective metrics, such as TPS, resolved fraud cases, and unblocked dependencies, without trying to sugarcoat the situation. The board stopped pressuring when they saw that I had real control of the situation and a clear plan for recovery."
     },
     {
       "q": "Qual foi o impacto financeiro real do atraso de 3 semanas?",
-      "a": "Custo de oportunidade: R$ 2.3M em receita de interchange perdida (estimativa de transacoes que processariamos em 3 semanas). Mas evitamos multa regulatoria do BCB (estimada em R$ 15M) entregando dentro do prazo renegociado.",
+      "a": "O custo de oportunidade foi de R$ 2,3 milhões em receita de interchange perdida, com base na estimativa de transações que poderíamos ter processado. No entanto, ao entregar dentro do prazo renegociado, evitamos uma multa regulatória do BCB estimada em R$ 15 milhões, o que tornou a decisão de renegociar extremamente acertada do ponto de vista financeiro.",
       "q_en": "What was the real financial impact of the 3-week delay?",
-      "a_en": "Opportunity cost: R$2.3M in lost interchange revenue (estimate of transactions we would have processed in 3 weeks). But we avoided BCB regulatory fine (estimated at R$15M) by delivering within renegotiated deadline."
-    },
-    {
-      "q": "Como voce garantiu que esse tipo de falha nao se repetisse?",
-      "a": "Institucionalizei os mecanismos: matriz de dependencias e gates de qualidade viraram padrao para todos os projetos regulatorios do Sicredi acima de 50 pessoas. Tambem criei ritual de pre-mortem obrigatorio em todo kick-off que lidero.",
-      "q_en": "How did you ensure this type of failure wouldn't repeat?",
-      "a_en": "I institutionalized the mechanisms: dependency matrix and quality gates became standard for all Sicredi regulatory projects above 50 people. I also created mandatory pre-mortem ritual in every kick-off I lead."
-
-
+      "a_en": "The opportunity cost was BRL 2.3 million in lost interchange revenue, based on the estimate of transactions we could have processed. However, by delivering within the renegotiated deadline, we avoided a regulatory fine from the BCB estimated at BRL 15 million, which made the decision to renegotiate extremely wise from a financial point of view."
     }
   ]
 };

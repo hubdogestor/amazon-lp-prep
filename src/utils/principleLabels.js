@@ -81,10 +81,10 @@ export const getDisplayName = (p, lang) => {
 export const sortPrinciples = (arr, lang) => {
   const order = lang === "pt" ? ORDER_PT : ORDER_EN;
   return [...arr].sort((a, b) => {
-    const ia = order.indexOf(norm(a.name));
-    const ib = order.indexOf(norm(b.name));
+    const ia = order.indexOf(a.id);
+    const ib = order.indexOf(b.id);
     const va = ia === -1 ? 999 : ia;
     const vb = ib === -1 ? 999 : ib;
-    return va - vb || (a.name || "").localeCompare(b.name || "");
+    return va - vb || (a.id || "").localeCompare(b.id || "");
   });
 };

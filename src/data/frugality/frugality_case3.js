@@ -24,64 +24,64 @@ const case_3 = {
   },
   fups: [
     {
-        "q": "Como você avaliou e comparou o n8n com outras ferramentas disponíveis antes de tomar a decisão de implementá-lo?",
-        "a": "Eu criei uma pequena matriz de decisão com os critérios que defini: Custo, Controle/Segurança e Curva de Aprendizagem. Comparei o n8n com o Zapier (pago e na nuvem) e com uma solução de RPA tradicional (cara e complexa). O n8n foi o claro vencedor por atender aos três critérios de forma equilibrada para o meu contexto específico.",
-        "q_en": "How did you evaluate and compare n8n with other available tools before deciding to implement it?",
-        "a_en": "I created a small decision matrix with the criteria I defined: Cost, Control/Security and Learning Curve. I compared n8n with Zapier (paid and cloud-based) and with a traditional RPA solution (expensive and complex). n8n was the clear winner for meeting all three criteria in a balanced way for my specific context."
+        q: "Qual foi seu maior erro ou falha neste caso?",
+        a: "Meu maior erro foi não ter envolvido a equipe de TI desde o início. Tentei provar o conceito de forma isolada para ganhar velocidade, mas isso gerou preocupações de segurança e sustentabilidade que poderiam ter sido resolvidas mais cedo. Aprendi que a frugalidade não pode ser uma desculpa para contornar a governança de TI.",
+        q_en: "What was your biggest mistake or failure in this case?",
+        a_en: "My biggest mistake was not involving the IT team from the beginning. I tried to prove the concept in isolation to gain speed, but this generated security and sustainability concerns that could have been resolved earlier. I learned that frugality cannot be an excuse to bypass IT governance."
     },
     {
-        "q": "Quais foram os maiores desafios ao treinar o 'campeão interno' e como você garantiu que ele tivesse sucesso em liderar a automação?",
-        "a": "O maior desafio foi a barreira conceitual inicial com APIs e a estrutura de dados JSON. Garanti seu sucesso usando a técnica de 'pair programming': construímos o primeiro fluxo juntos. Depois, dei a ele um projeto pequeno, mas de ponta a ponta, para que ele ganhasse confiança. O sucesso veio ao combinar ensino, prática supervisionada e, finalmente, autonomia total.",
-        "q_en": "What were the biggest challenges in training the 'internal champion' and how did you ensure he succeeded in leading automation?",
-        "a_en": "The biggest challenge was the initial conceptual barrier with APIs and JSON data structure. I ensured his success using 'pair programming' technique: I built the first flow together. Then, I gave him a small but end-to-end project so he could gain confidence. Success came from combining teaching, supervised practice and, finally, total autonomy."
+        q: "O que você faria de diferente hoje?",
+        a: "Hoje, eu apresentaria o projeto para a equipe de TI como um ‘experimento de inovação controlado’. Proporia uma arquitetura isolada e segura para o piloto e os convidaria a serem parceiros na avaliação da ferramenta. Isso teria transformado a TI de um potencial bloqueador em um aliado estratégico desde o primeiro dia.",
+        q_en: "What would you do differently today?",
+        a_en: "Today, I would present the project to the IT team as a 'controlled innovation experiment.' I would propose an isolated and secure architecture for the pilot and invite them to be partners in evaluating the tool. This would have turned IT from a potential blocker into a strategic ally from day one."
     },
     {
-        "q": "Como você monitorou e mediu o impacto da automação nos processos financeiros, além da liberação de horas de trabalho?",
-        "a": "Além das horas, medimos o 'Índice de Erros de Reconciliação'. Antes, tínhamos uma média de 5-7 erros manuais por mês que exigiam investigação. Após a automação, esse índice caiu para zero, o que representou uma economia de custos indiretos e uma melhoria na qualidade e confiabilidade dos meu dados financeiros.",
-        "q_en": "How did you monitor and measure automation impact on financial processes, beyond freeing work hours?",
-        "a_en": "Besides hours, I measured the 'Reconciliation Error Index'. Before, I had an average of 5-7 manual errors per month requiring investigation. After automation, this index dropped to zero, representing indirect cost savings and improvement in quality and reliability of my financial data."
+        q: "Qual foi o obstáculo mais difícil de superar?",
+        a: "O obstáculo mais difícil foi a barreira conceitual inicial do analista financeiro com APIs e a estrutura de dados JSON. Para superar isso, usei a técnica de ‘pair programming’, construindo o primeiro fluxo lado a lado com ele. Depois, dei a ele um projeto pequeno, mas de ponta a ponta, para que ele ganhasse confiança e autonomia. A combinação de ensino, prática supervisionada e autonomia foi a chave para o sucesso.",
+        q_en: "What was the most difficult obstacle to overcome?",
+        a_en: "The most difficult obstacle was the financial analyst's initial conceptual barrier with APIs and the JSON data structure. To overcome this, I used the 'pair programming' technique, building the first flow side-by-side with him. Then, I gave him a small, but end-to-end project so he could gain confidence and autonomy. The combination of teaching, supervised practice, and autonomy was the key to success."
     },
     {
-        "q": "Houve alguma resistência inicial da equipe ou da liderança em adotar a solução open-source? Como você lidou com isso?",
-        "a": "Sim, a equipe de TI inicialmente tinha preocupações com a segurança e a sustentabilidade de uma ferramenta open-source. Eu lidei com isso envolvendo-os desde o início. Apresentei a documentação de segurança, propus uma arquitetura isolada e, o mais importante, posicionei o piloto como um experimento. O sucesso do piloto e a ausência de problemas de segurança os convenceram da viabilidade da solução.",
-        "q_en": "Was there any initial resistance from team or leadership in adopting the open-source solution? How did you handle it?",
-        "a_en": "Yes, the IT team initially had concerns about security and sustainability of an open-source tool. I handled this by involving them from the beginning. I presented security documentation, proposed an isolated architecture and, most importantly, positioned the pilot as an experiment. The pilot's success and absence of security issues convinced them of the solution's viability."
+        q: "Quais foram os principais riscos da sua abordagem e como você os mitigou?",
+        a: "O principal risco era a segurança dos dados financeiros sensíveis em uma ferramenta open-source. Mitiguei isso com uma arquitetura auto-hospedada em um servidor isolado, controle de acesso rigoroso e envolvendo a equipe de segurança de TI na validação da solução. Outro risco era a falta de suporte; mitiguei isso capacitando um ‘campeão interno’ e criando uma comunidade de prática para compartilhar o conhecimento.",
+        q_en: "What were the main risks of your approach and how did you mitigate them?",
+        a_en: "The main risk was the security of sensitive financial data in an open-source tool. I mitigated this with a self-hosted architecture on an isolated server, strict access control, and involving the IT security team in validating the solution. Another risk was the lack of support; I mitigated this by empowering an 'internal champion' and creating a community of practice to share knowledge."
     },
     {
-        "q": "Após o sucesso dessa iniciativa, como você garantiu que a capacidade interna de automação fosse mantida e ampliada para outras áreas?",
-        "a": "Formalizamos o 'núcleo de automação' que surgiu organicamente. O 'campeão' original passou a dedicar 50% do seu tempo a mentorar outros e a realizar workshops para outras áreas. Criamos um canal no Teams onde as pessoas podiam compartilhar seus fluxos de automação, criando uma biblioteca de conhecimento e incentivando a replicação da prática em toda a empresa.",
-        "q_en": "After this initiative's success, how did you ensure internal automation capability was maintained and expanded to other areas?",
-        "a_en": "I formalized the 'automation nucleus' that emerged organically. The original 'champion' began dedicating 50% of his time to mentoring others and conducting workshops for other areas. I created a Teams channel where people could share their automation flows, creating a knowledge library and encouraging practice replication throughout the company."
+        q: "Que dados você usou para provar o ROI da sua solução frugal?",
+        a: "Usei uma combinação de dados quantitativos e qualitativos. Quantitativamente, a economia de R$ 295.200 no orçamento, a redução de 95% no tempo de geração de relatórios e a eliminação de 100% dos erros manuais foram os dados mais fortes. Qualitativamente, o feedback dos analistas, que relataram uma redução de 79% no tempo gasto em trabalho repetitivo, provou o impacto na produtividade e na satisfação da equipe.",
+        q_en: "What data did you use to prove the ROI of your frugal solution?",
+        a_en: "I used a combination of quantitative and qualitative data. Quantitatively, the BRL 295,200 savings in the budget, the 95% reduction in report generation time, and the 100% elimination of manual errors were the strongest data. Qualitatively, the feedback from the analysts, who reported a 79% reduction in time spent on repetitive work, proved the impact on productivity and team satisfaction."
     },
     {
-        "q": "E se o piloto tivesse falhado? Qual era o risco?",
-        "a": "O risco era mínimo. O custo total do piloto foi o meu tempo e 20% do tempo de um analista por um mês. O 'pior cenário' seria aprendermos que a ferramenta não era adequada, um aprendizado que teria custado muito pouco e ainda nos pouparia de um investimento muito maior. Essa abordagem de 'fail fast, fail cheap' é essencial na frugalidade.",
-        "q_en": "What if the pilot had failed? What was the risk?",
-        "a_en": "The risk was minimal. The pilot's total cost was my time and 20% of an analyst's time for a month. The 'worst case' would be learning that the tool wasn't suitable, a learning that would have cost very little and still saved us from a much larger investment. This 'fail fast, fail cheap' approach is essential in frugality."
+        q: "Como você aplicou o aprendizado deste caso em outras frentes?",
+        a: "A abordagem de capacitar ‘campeões internos’ com ferramentas low-code se tornou meu método preferido para escalar a inovação de forma frugal. Aplico isso hoje ao ensinar pequenos empresários a automatizarem seus próprios processos, e na minha startup, onde cada membro da equipe é incentivado a se tornar um ‘campeão’ de automação em sua própria área. É uma forma poderosa de criar uma cultura de eficiência e autonomia.",
+        q_en: "How did you apply the learning from this case in other areas?",
+        a_en: "The approach of empowering 'internal champions' with low-code tools has become my preferred method for scaling innovation frugally. I apply this today when teaching small business owners to automate their own processes, and in my startup, where each team member is encouraged to become an automation 'champion' in their own area. It is a powerful way to create a culture of efficiency and autonomy."
     },
     {
-        "q": "Por que a equipe de finanças não encontrou essa solução sozinha?",
-        "a": "Porque eles estavam focados no problema deles e buscaram a solução que o mercado 'vende' (softwares empresariais). Meu papel, vindo de fora, foi conectar a dor deles com uma solução de outro domínio (automação low-code), que eles não conheciam. Frugalidade muitas vezes vem da polinização cruzada de ideias entre diferentes áreas e domínios.",
-        "q_en": "Why didn't the finance team find this solution on their own?",
-        "a_en": "Because they were focused on their problem and sought the solution the market 'sells' (enterprise software). My role, coming from outside, was to connect their pain with a solution from another domain (low-code automation), which they didn't know. Frugality often comes from cross-pollination of ideas between different areas and domains."
+        q: "Como você avaliou e comparou o n8n com outras ferramentas disponíveis antes de tomar a decisão?",
+        a: "Criei uma matriz de decisão com três critérios claros: Custo, Controle/Segurança e Curva de Aprendizagem. Comparei o n8n com o Zapier, que era pago e na nuvem, e com uma solução de RPA tradicional, que era cara e complexa. O n8n foi o claro vencedor por atender aos três critérios de forma equilibrada para o nosso contexto específico, oferecendo o melhor custo-benefício.",
+        q_en: "How did you evaluate and compare n8n with other available tools before making the decision?",
+        a_en: "I created a decision matrix with three clear criteria: Cost, Control/Security, and Learning Curve. I compared n8n with Zapier, which was paid and cloud-based, and with a traditional RPA solution, which was expensive and complex. n8n was the clear winner for meeting all three criteria in a balanced way for our specific context, offering the best cost-benefit."
     },
     {
-        "q": "A solução com n8n era tão robusta quanto a ferramenta empresarial? Quais foram os trade-offs?",
-        "a": "Ela não tinha todas as funcionalidades, como dashboards de governança complexos. Esse foi o trade-off. No entanto, ela era 100% eficaz na tarefa principal (automatizar os relatórios) e nos dava uma flexibilidade de customização que a ferramenta empresarial não oferecia. Aceitamos o trade-off de menos 'sinos e assobios' por mais economia e flexibilidade.",
-        "q_en": "Was the n8n solution as robust as the enterprise tool? What were the trade-offs?",
-        "a_en": "It didn't have all functionalities, like complex governance dashboards. That was the trade-off. However, it was 100% effective at the main task (automating reports) and gave us customization flexibility that the enterprise tool didn't offer. I accepted the trade-off of fewer 'bells and whistles' for more savings and flexibility."
+        q: "A solução com n8n era tão robusta quanto a ferramenta empresarial? Quais foram os trade-offs?",
+        a: "Ela não tinha todas as funcionalidades, como dashboards de governança complexos, e esse foi o trade-off. No entanto, ela era 100% eficaz na tarefa principal de automatizar os relatórios e nos dava uma flexibilidade de customização que a ferramenta empresarial não oferecia. Aceitamos o trade-off de menos ‘sinos e assobios’ por mais economia, controle e flexibilidade, o que era a escolha certa para nós.",
+        q_en: "Was the n8n solution as robust as the enterprise tool? What were the trade-offs?",
+        a_en: "It didn't have all the features, like complex governance dashboards, and that was the trade-off. However, it was 100% effective at the main task of automating reports and gave us a customization flexibility that the enterprise tool didn't offer. We accepted the trade-off of fewer 'bells and whistles' for more savings, control, and flexibility, which was the right choice for us."
     },
     {
-        "q": "Qual foi a parte mais difícil de aprender no n8n para alguém sem fundo técnico?",
-        "a": "A parte mais difícil foi entender o conceito de APIs e a estrutura de dados JSON. Eu passei algumas horas com o analista desenhando em um quadro branco como as APIs funcionam, usando analogias simples. Uma vez que ele superou essa barreira conceitual, a construção dos fluxos se tornou muito intuitiva graças à interface visual da ferramenta.",
-        "q_en": "What was the hardest part to learn in n8n for someone without technical background?",
-        "a_en": "The hardest part was understanding the concept of APIs and JSON data structure. I spent a few hours with the analyst drawing on a whiteboard how APIs work, using simple analogies. Once he overcame this conceptual barrier, building flows became very intuitive thanks to the tool's visual interface."
+        q: "Por que a equipe de finanças não encontrou essa solução sozinha?",
+        a: "Porque eles estavam focados no problema deles e buscaram a solução que o mercado ‘vende’, que são os softwares empresariais caros. Meu papel, vindo de fora com uma perspectiva de inovação, foi conectar a dor deles com uma solução de outro domínio, a automação low-code, que eles não conheciam. A frugalidade muitas vezes vem da polinização cruzada de ideias entre diferentes áreas e domínios.",
+        q_en: "Why didn't the finance team find this solution on their own?",
+        a_en: "Because they were focused on their problem and sought the solution that the market 'sells,' which are expensive enterprise software. My role, coming from the outside with an innovation perspective, was to connect their pain with a solution from another domain, low-code automation, which they didn't know. Frugality often comes from the cross-pollination of ideas between different areas and domains."
     },
     {
-        "q": "Que conselho você daria para outra equipe que quer ser mais frugal?",
-        "a": "Comece mapeando o tempo. Peça para cada pessoa estimar quantas horas são gastas em tarefas manuais e repetitivas. Essa lista de 'desperdiçadores de tempo' é o seu mapa do tesouro para encontrar as primeiras e mais impactantes oportunidades de automação frugal. Foque primeiro no que consome mais tempo e é mais simples de automatizar.",
-        "q_en": "What advice would you give to another team that wants to be more frugal?",
-        "a_en": "Start by mapping time. Ask each person to estimate how many hours are spent on manual and repetitive tasks. This list of 'time wasters' is your treasure map to find the first and most impactful frugal automation opportunities. Focus first on what consumes most time and is simplest to automate."
+        q: "Que conselho você daria para outra equipe que quer ser mais frugal e eficiente?",
+        a: "Comece mapeando o tempo. Peça para cada pessoa estimar quantas horas são gastas em tarefas manuais e repetitivas. Essa lista de ‘desperdiçadores de tempo’ é o seu mapa do tesouro para encontrar as primeiras e mais impactantes oportunidades de automação frugal. Foque primeiro no que consome mais tempo e é mais simples de automatizar para gerar vitórias rápidas.",
+        q_en: "What advice would you give to another team that wants to be more frugal and efficient?",
+        a_en: "Start by mapping the time. Ask each person to estimate how many hours are spent on manual and repetitive tasks. This list of 'time wasters' is your treasure map to find the first and most impactful opportunities for frugal automation. Focus first on what consumes the most time and is the simplest to automate to generate quick wins."
     }
 ]
 };

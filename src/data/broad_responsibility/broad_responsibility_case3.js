@@ -24,64 +24,64 @@ const case_3 = {
   },
   fups: [
     {
-        "q": "Quais foram os principais desafios ao implementar a Política de IA Responsável e como você os superou?",
-        "a": "O maior desafio foi a resistência do VP Comercial que argumentou que 'auditorias éticas atrasariam lançamentos' e que 'concorrentes não fazem isso'. Superei isso demonstrando com dados que modelos enviesados custaram à concorrência milhões em multas e reputação. Mostrei que IA Responsável não era 'freio', mas 'guard-rail' que acelerava go-to-market ao evitar retrabalho. Argumentei que construir certo desde o início era mais rápido que gerenciar crise depois.",
-        "q_en": "What were the main challenges implementing the Responsible AI Policy and how did you overcome them?",
-        "a_en": "The biggest challenge was resistance from Commercial VP who argued that 'ethical audits would delay launches' and 'competitors don't do this'. I overcame this by demonstrating with data that biased models cost competitors millions in fines and reputation. I showed Responsible AI wasn't a 'brake' but a 'guard-rail' that accelerated go-to-market by avoiding rework. I argued building right from start was faster than managing crisis later."
+        "q": "Qual foi seu maior erro ou falha nesse caso?",
+        "a": "Meu maior erro foi subestimar a resistência inicial do VP Comercial. Acreditei que os dados sobre os riscos reputacionais e financeiros seriam suficientes para convencê-lo, mas a pressão por resultados de curto prazo era imensa. Tive que investir um tempo considerável em negociações e na construção de um business case sólido para conseguir o apoio necessário, o que atrasou o início do projeto em duas semanas.",
+        "q_en": "What was your biggest mistake or failure in this case?",
+        "a_en": "My biggest mistake was underestimating the initial resistance from the Commercial VP. I believed that the data on reputational and financial risks would be enough to convince him, but the pressure for short-term results was immense. I had to invest considerable time in negotiations and in building a solid business case to get the necessary support, which delayed the start of the project by two weeks."
     },
     {
-        "q": "Como você monitorou os resultados após corrigir o viés no modelo? Houve melhorias específicas para os trabalhadores autônomos ou outros grupos?",
-        "a": "Eu criamos um 'dashboard de equidade' que monitorava continuamente a taxa de aprovação do modelo entre diferentes segmentos demográficos. Após a correção, vimos a taxa de aprovação para autônomos qualificados aumentar em 15%, alinhando-se com a dos trabalhadores formais com perfil de risco similar, provando que havíamos corrigido a distorção.",
-        "q_en": "How did you monitor results after correcting model bias? Were there specific improvements for freelance workers or other groups?",
-        "a_en": "I created an 'equity dashboard' that continuously monitored the model's approval rate among different demographic segments. After correction, I saw approval rate for qualified freelancers increase by 15%, aligning with formal workers with similar risk profile, proving I had corrected the distortion."
+        "q": "O que você faria diferente hoje?",
+        "a": "Hoje, eu envolveria o VP Comercial desde o início, posicionando a IA Responsável não como um obstáculo, mas como uma vantagem competitiva e uma ferramenta de gestão de risco. Em vez de apresentar o problema, eu o convidaria a co-criar a solução, transformando-o em um patrocinador do projeto desde o primeiro dia. Isso teria acelerado a adesão e evitado o desgaste inicial.",
+        "q_en": "What would you do differently today?",
+        "a_en": "Today, I would involve the Commercial VP from the beginning, positioning Responsible AI not as an obstacle, but as a competitive advantage and a risk management tool. Instead of presenting the problem, I would invite him to co-create the solution, turning him into a sponsor of the project from day one. This would have accelerated buy-in and avoided the initial friction."
     },
     {
-        "q": "Como o Comitê de Ética em IA operava na prática? Quais eram os critérios para revisar e aprovar novos modelos?",
-        "a": "O comitê se reunia mensalmente. Os critérios de aprovação eram baseados em um checklist que criei, cobrindo: 1) Validação do caso de uso e seu impacto social. 2) Resultados dos testes de viés. 3) Nível de interpretabilidade do modelo. 4) Plano de monitoramento contínuo. Nenhum modelo entrava em produção sem a aprovação formal do comitê.",
-        "q_en": "How did the AI Ethics Committee operate in practice? What were the criteria for reviewing and approving new models?",
-        "a_en": "The committee met monthly. Approval criteria were based on a checklist I created, covering: 1) Use case validation and its social impact. 2) Bias test results. 3) Model interpretability level. 4) Continuous monitoring plan. No model went into production without formal committee approval."
+        "q": "Qual foi o obstáculo mais difícil de superar?",
+        "a": "O obstáculo mais difícil foi a resistência da equipe de dados em relação à complexidade técnica da ‘explicabilidade’ dos modelos. Eles estavam focados na acurácia e viam a interpretabilidade como um luxo. Para superar isso, posicionei o desafio como uma oportunidade de inovação em engenharia e investi em ferramentas como SHAP, que facilitaram o processo e mostraram que era possível alcançar ambos os objetivos.",
+        "q_en": "What was the most difficult obstacle to overcome?",
+        "a_en": "The most difficult obstacle was the resistance from the data team regarding the technical complexity of the models' 'explainability.' They were focused on accuracy and saw interpretability as a luxury. To overcome this, I positioned the challenge as an opportunity for engineering innovation and invested in tools like SHAP, which facilitated the process and showed that it was possible to achieve both goals."
     },
     {
-        "q": "Houve resistência interna ou externa à ideia de tornar as decisões da IA explicáveis? Como você lidou com isso?",
-        "a": "A resistência interna veio da equipe de dados, preocupada com a complexidade técnica. Lidei com isso posicionando a 'explicabilidade' como um desafio de engenharia interessante e investindo em ferramentas (como SHAP) que facilitavam o processo. Externamente, a resposta foi extremamente positiva, especialmente dos clientes que valorizaram a transparência.",
-        "q_en": "Was there internal or external resistance to making AI decisions explainable? How did you handle it?",
-        "a_en": "Internal resistance came from the data team, worried about technical complexity. I handled this by positioning 'explainability' as an interesting engineering challenge and investing in tools (like SHAP) that facilitated the process. Externally, response was extremely positive, especially from customers who valued transparency."
+        "q": "Quais foram os principais riscos e como você os mitigou?",
+        "a": "Os principais riscos eram a perpetuação de vieses contra trabalhadores autônomos, o que poderia levar a multas regulatórias e danos à reputação, e a exclusão financeira de milhares de cooperados. Mitiguei esses riscos com a criação da Política de IA Responsável, que incluía testes de viés obrigatórios, o Comitê de Ética para governança, e um sistema de ‘explicabilidade’ para garantir a transparência das decisões.",
+        "q_en": "What were the main risks and how did you mitigate them?",
+        "a_en": "The main risks were the perpetuation of biases against freelance workers, which could lead to regulatory fines and reputational damage, and the financial exclusion of thousands of cooperative members. I mitigated these risks by creating the Responsible AI Policy, which included mandatory bias testing, the Ethics Committee for governance, and an 'explainability' system to ensure the transparency of decisions."
     },
     {
-        "q": "Após o sucesso dessa iniciativa, como você garantiu que a política fosse continuamente aprimorada e mantida em novos projetos?",
-        "a": "A política foi integrada ao meu processo de desenvolvimento de produtos. A revisão pelo Comitê de Ética se tornou um 'quality gate' obrigatório. Além disso, criamos um treinamento anual obrigatório sobre IA Responsável para todos os funcionários das áreas de dados e produto, garantindo que o conhecimento fosse constantemente renovado.",
-        "q_en": "After this initiative's success, how did you ensure the policy was continuously improved and maintained in new projects?",
-        "a_en": "The policy was integrated into my product development process. Ethics Committee review became a mandatory 'quality gate'. Additionally, I created mandatory annual training on Responsible AI for all data and product area employees, ensuring knowledge was constantly renewed."
+        "q": "Que dados você usou para identificar o viés no modelo?",
+        "a": "Usei uma técnica chamada ‘justiça contrafactual’, que aprendi no workshop com os especialistas da UFRGS. Em vez de apenas comparar dados demográficos, criei cenários hipotéticos para testar como o modelo se comportaria com perfis de risco idênticos, mas com diferentes tipos de vínculo empregatício. Foi essa análise que revelou a taxa de aprovação 23% menor para autônomos e nos permitiu corrigir o modelo.",
+        "q_en": "What data did you use to identify the bias in the model?",
+        "a_en": "I used a technique called 'counterfactual fairness,' which I learned in the workshop with the experts from UFRGS. Instead of just comparing demographic data, I created hypothetical scenarios to test how the model would behave with identical risk profiles, but with different types of employment relationships. It was this analysis that revealed the 23% lower approval rate for freelancers and allowed us to correct the model."
+    },
+    {
+        "q": "Como você usou o aprendizado desse caso em outras frentes?",
+        "a": "O framework de IA Responsável que criei foi replicado por outras três cooperativas, impactando mais de 600 mil membros. Além disso, a metodologia de mapear stakeholders secundários e antecipar efeitos não intencionais se tornou um padrão em todos os meus projetos. Antes de qualquer iniciativa de tecnologia que lidero, a pergunta ‘Quem mais isso afeta além do usuário direto?’ é o ponto de partida.",
+        "q_en": "How did you use the learning from this case in other areas?",
+        "a_en": "The Responsible AI framework I created was replicated by three other cooperatives, impacting more than 600,000 members. In addition, the methodology of mapping secondary stakeholders and anticipating unintended effects has become a standard in all my projects. Before any technology initiative I lead, the question 'Who else does this affect besides the direct user?' is the starting point."
+    },
+    {
+        "q": "Como o Comitê de Ética em IA operava na prática?",
+        "a": "O comitê se reunia mensalmente e funcionava como um ‘quality gate’. Nenhum modelo de IA entrava em produção sem a sua aprovação formal. Os critérios de aprovação eram baseados em um checklist que criei, cobrindo o impacto social do caso de uso, os resultados dos testes de viés, o nível de interpretabilidade do modelo e o plano de monitoramento contínuo.",
+        "q_en": "How did the AI Ethics Committee operate in practice?",
+        "a_en": "The committee met monthly and functioned as a 'quality gate.' No AI model went into production without its formal approval. The approval criteria were based on a checklist I created, covering the social impact of the use case, the results of the bias tests, the level of interpretability of the model, and the continuous monitoring plan."
     },
     {
         "q": "Como você se mantém atualizado sobre um campo que evolui tão rápido como a ética em IA?",
-        "a": "Eu sigo ativamente o trabalho de pesquisadores e instituições líderes na área, como o 'AI Now Institute' e o 'Partnership on AI'. Leio os artigos, acompanho os debates e participo de webinars. É uma responsabilidade contínua de aprendizado. Também mantenho uma rede de contatos com outros profissionais que enfrentam desafios similares.",
+        "a": "Eu mantenho uma rotina de aprendizado contínuo. Sigo ativamente o trabalho de pesquisadores e instituições como o ‘AI Now Institute’ e o ‘Partnership on AI’, leio artigos científicos e participo de webinars. Além disso, mantenho uma rede de contatos com outros profissionais da área para trocar experiências e desafios, o que é fundamental para me manter na vanguarda.",
         "q_en": "How do you stay updated on a field that evolves as fast as AI ethics?",
-        "a_en": "I actively follow the work of leading researchers and institutions in the area, like the 'AI Now Institute' and 'Partnership on AI'. I read articles, follow debates and participate in webinars. It's a continuous learning responsibility. I also maintain a network of contacts with other professionals facing similar challenges."
+        "a_en": "I maintain a routine of continuous learning. I actively follow the work of researchers and institutions like the 'AI Now Institute' and the 'Partnership on AI,' read scientific articles, and participate in webinars. In addition, I maintain a network of contacts with other professionals in the field to exchange experiences and challenges, which is essential to keep me at the forefront."
     },
     {
-        "q": "O que significa ser 'humilde e ponderado' ao lidar com IA?",
-        "a": "Significa reconhecer que os dados não são a verdade absoluta; eles são um reflexo do mundo, com todos os seus vieses. Significa ter a humildade de saber que meu modelo pode estar errado ou ser injusto, e a ponderação de criar sistemas robustos para auditar, monitorar e corrigir esses erros continuamente.",
-        "q_en": "What does being 'humble and thoughtful' mean when dealing with AI?",
-        "a_en": "It means recognizing that data isn't absolute truth; it's a reflection of the world, with all its biases. It means having the humility to know my model can be wrong or unfair, and the thoughtfulness to create robust systems to audit, monitor and continuously correct these errors."
+        "q": "O que significa ser ‘humilde e ponderado’ ao lidar com IA na prática?",
+        "a": "Significa reconhecer que os dados são um reflexo do mundo, com todos os seus vieses, e não a verdade absoluta. É ter a humildade de saber que meu modelo pode estar errado ou ser injusto, e a ponderação de criar sistemas robustos para auditar, monitorar e corrigir esses erros continuamente, em vez de confiar cegamente na tecnologia.",
+        "q_en": "What does being 'humble and thoughtful' when dealing with AI in practice mean?",
+        "a_en": "It means recognizing that data is a reflection of the world, with all its biases, and not the absolute truth. It is having the humility to know that my model may be wrong or unfair, and the thoughtfulness to create robust systems to audit, monitor, and continuously correct these errors, rather than blindly trusting the technology."
     },
     {
-        "q": "Como essa iniciativa de responsabilidade deixou as coisas 'melhores do que você as encontrou'?",
-        "a": "Antes, o processo de crédito era uma caixa-preta. Deixamos um processo mais justo e transparente. Criamos uma consciência sobre a responsabilidade ética do uso de dados que não existia e que passou a influenciar todos os outros projetos de tecnologia. Estabelecemos um precedente de que inovação e responsabilidade social andam juntas.",
-        "q_en": "How did this responsibility initiative leave things 'better than you found them'?",
-        "a_en": "Before, the credit process was a black box. I left a fairer and more transparent process. I created awareness about ethical responsibility in data use that didn't exist and began influencing all other technology projects. I established a precedent that innovation and social responsibility go together."
-    },
-    {
-        "q": "Qual é a sua maior preocupação sobre o futuro da IA e qual é a sua responsabilidade como líder para mitigá-la?",
-        "a": "Minha maior preocupação é a automação da tomada de decisões em escala sem a devida governança ética, levando a consequências não intencionais de discriminação. Minha responsabilidade como líder é ser um defensor incansável da IA Responsável, garantindo que, para cada avanço técnico, tenhamos um avanço correspondente em meu mecanismos de controle e transparência.",
-        "q_en": "What's your biggest concern about AI's future and what's your responsibility as a leader to mitigate it?",
-        "a_en": "My biggest concern is automation of decision-making at scale without proper ethical governance, leading to unintended discrimination consequences. My responsibility as a leader is to be a tireless advocate for Responsible AI, ensuring that for each technical advance, I have a corresponding advance in my control and transparency mechanisms."
-    },
-    {
-        "q": "Quem fazia parte do 'Comitê de Ética em IA' e por que você escolheu essa composição?",
-        "a": "Era um grupo multidisciplinar. Incluía cientistas de dados, líderes de negócio, representantes da área jurídica, compliance, auditoria e, crucialmente, um membro do comitê de relacionamento com o cooperado, que trazia a voz do cliente para a discussão. Essa diversidade garantia que considerássemos o impacto de múltiplas perspectivas.",
+        "q": "Quem fazia parte do ‘Comitê de Ética em IA’ e por que você escolheu essa composição?",
+        "a": "Era um grupo multidisciplinar que eu fiz questão de montar. Incluía cientistas de dados, líderes de negócio, representantes da área jurídica, compliance, auditoria e, o mais importante, um membro do comitê de relacionamento com o cooperado, que trazia a voz do cliente para a discussão. Essa diversidade garantia que considerássemos o impacto de múltiplas perspectivas e evitássemos pontos cegos.",
         "q_en": "Who was part of the 'AI Ethics Committee' and why did you choose this composition?",
-        "a_en": "It was a multidisciplinary group. It included data scientists, business leaders, legal area representatives, compliance, audit and, crucially, a member of the member relationship committee, who brought the customer voice to the discussion. This diversity ensured I considered impact from multiple perspectives."
+        "a_en": "It was a multidisciplinary group that I made a point of assembling. It included data scientists, business leaders, representatives from the legal, compliance, and audit areas, and, most importantly, a member of the cooperative member relations committee, who brought the customer's voice to the discussion. This diversity ensured that we considered the impact from multiple perspectives and avoided blind spots."
     }
 ]
 };

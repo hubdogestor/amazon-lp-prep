@@ -9,6 +9,5 @@ import case5 from './insist_on_highest_standards_case5.js';
 export default {
   principle: config.principle,
   id: config.id,
-  name: config.name,
   cases: [case1, case2, case3, case4, case5]
 };

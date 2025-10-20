@@ -7,6 +7,5 @@ import case3 from './broad_responsibility_case3.js';
 export default {
   principle: config.principle,
   id: config.id,
-  name: config.name,
   cases: [case1, case2, case3]
 };

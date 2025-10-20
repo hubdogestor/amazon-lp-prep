@@ -24,64 +24,64 @@ const case_2 = {
   },
   fups: [
     {
-        "q": "Como você garantiu que a força-tarefa de especialistas trabalhasse de forma colaborativa e eficiente, considerando o nível de especialização envolvido?",
-        "a": "Eu estabeleci um objetivo comum claro e papéis bem definidos. Usei a metodologia RACI (Responsible, Accountable, Consulted, Informed) para mapear as responsabilidades. Além disso, facilitei as reuniões focando em decisões e ações, evitando debates puramente teóricos. Minha função era ser o 'tradutor' entre o jurídico, o compliance e a operação.",
-        "q_en": "How did you ensure the specialist task force worked collaboratively and efficiently, considering the level of expertise involved?",
-        "a_en": "I established a clear common objective and well-defined roles. I used RACI methodology (Responsible, Accountable, Consulted, Informed) to map responsibilities. Additionally, I facilitated meetings focusing on decisions and actions, avoiding purely theoretical debates. My role was to be the 'translator' between legal, compliance and operations."
+        "q": "Qual foi seu maior erro ou falha nesse caso?",
+        "a": "Meu maior erro foi não ter antecipado a complexidade dos ‘falsos positivos’ — clientes que o sistema sinalizava como americanos, mas não eram. Inicialmente, focamos apenas em encontrar os verdadeiros positivos, mas o processo de verificação gerou atrito desnecessário para clientes inocentes. Tive que criar um processo de ‘due diligence aprimorada’ no meio do caminho para corrigir isso, o que consumiu tempo e recursos não planejados.",
+        "q_en": "What was your biggest mistake or failure in this case?",
+        "a_en": "My biggest mistake was not anticipating the complexity of 'false positives' — customers the system flagged as American, but weren't. Initially, we focused only on finding the true positives, but the verification process created unnecessary friction for innocent customers. I had to create an 'enhanced due diligence' process midway to correct this, which consumed unplanned time and resources."
     },
     {
-        "q": "Quais foram os maiores desafios ao implementar o processo de 'due diligence aprimorada' e como você os superou?",
-        "a": "O maior desafio foi o custo e o tempo adicionais do processo manual. Superei isso apresentando um business case baseado em risco. Mostrei que o custo da revisão manual de 1.000 contas era inferior a 1% do valor de uma única multa potencial do IRS por uma falha de reporte, tornando o ROI da precaução evidente.",
-        "q_en": "What were the biggest challenges implementing the 'enhanced due diligence' process and how did you overcome them?",
-        "a_en": "The biggest challenge was the additional cost and time of the manual process. I overcame this by presenting a risk-based business case. I showed that the cost of manually reviewing 1,000 accounts was less than 1% of the value of a single potential IRS fine for a reporting failure, making the ROI of precaution evident."
+        "q": "O que você faria diferente hoje?",
+        "a": "Hoje, eu incorporaria a análise de ‘falsos positivos’ desde o início do planejamento. Criaria um workflow específico para esses casos, com uma equipe dedicada a resolvê-los internamente antes de qualquer contato com o cliente. Isso minimizaria o impacto no cliente e tornaria o processo mais eficiente, evitando o retrabalho que tivemos que fazer.",
+        "q_en": "What would you do differently today?",
+        "a_en": "Today, I would incorporate the analysis of 'false positives' from the beginning of the planning. I would create a specific workflow for these cases, with a dedicated team to resolve them internally before any customer contact. This would minimize the impact on the customer and make the process more efficient, avoiding the rework we had to do."
     },
     {
-        "q": "Como você mediu o impacto da abordagem centrada no cliente na experiência durante a migração? Houve feedback direto dos clientes?",
-        "a": "Medimos principalmente pela 'taxa de resposta positiva' e pelo 'tempo para obter a documentação'. A abordagem empática reduziu o atrito e acelerou o processo. Sim, recebemos feedbacks diretos através dos gerentes de relacionamento, com clientes elogiando a clareza da comunicação em um momento de incerteza.",
-        "q_en": "How did you measure the customer-centric approach's impact on migration experience? Was there direct customer feedback?",
-        "a_en": "I measured mainly through 'positive response rate' and 'time to obtain documentation'. The empathetic approach reduced friction and accelerated the process. Yes, I received direct feedback through relationship managers, with customers praising communication clarity during an uncertain time."
+        "q": "Qual foi o obstáculo mais difícil de superar?",
+        "a": "O obstáculo mais difícil foi convencer a liderança a investir em um processo de ‘due diligence aprimorada’ que era mais caro e demorado que o padrão. Apresentei um business case baseado em risco, mostrando que o custo da revisão manual de 1.000 contas era inferior a 1% do valor de uma única multa potencial do IRS. O ROI da precaução era evidente, mas a batalha para conseguir o orçamento foi intensa.",
+        "q_en": "What was the most difficult obstacle to overcome?",
+        "a_en": "The most difficult obstacle was convincing the leadership to invest in an 'enhanced due diligence' process that was more expensive and time-consuming than the standard. I presented a risk-based business case, showing that the cost of manually reviewing 1,000 accounts was less than 1% of the value of a single potential IRS fine. The ROI of precaution was evident, but the battle to get the budget was intense."
     },
     {
-        "q": "Quais foram os principais critérios e decisões documentados no playbook de conformidade, e como eles diferem de processos anteriores?",
-        "a": "A principal diferença foi o foco na 'gestão proativa de risco'. O playbook incluía checklists detalhados para identificar contas complexas, roteiros de comunicação com clientes e um fluxograma de escalonamento para casos atípicos. Processos anteriores eram reativos; o meu era preventivo.",
-        "q_en": "What were the main criteria and decisions documented in the compliance playbook, and how do they differ from previous processes?",
-        "a_en": "The main difference was focus on 'proactive risk management'. The playbook included detailed checklists for identifying complex accounts, customer communication scripts and an escalation flowchart for atypical cases. Previous processes were reactive; mine was preventive."
+        "q": "Quais foram os principais riscos e como você os mitigou?",
+        "a": "Os principais riscos eram as multas multimilionárias por falhas de conformidade com FATCA e AML, e o dano reputacional ao banco. Mitiguei esses riscos com uma abordagem de ‘defesa em profundidade’: a força-tarefa multidisciplinar, a ‘due diligence aprimorada’ para casos de alto risco, e o ‘Playbook de Conformidade’ para padronizar as melhores práticas. Essa combinação de medidas reduziu o risco a um nível residual aceitável.",
+        "q_en": "What were the main risks and how did you mitigate them?",
+        "a_en": "The main risks were the multimillion-dollar fines for non-compliance with FATCA and AML, and the reputational damage to the bank. I mitigated these risks with a 'defense in depth' approach: the multidisciplinary task force, the 'enhanced due diligence' for high-risk cases, and the 'Compliance Playbook' to standardize best practices. This combination of measures reduced the risk to an acceptable residual level."
     },
     {
-        "q": "Após concluir a migração, houve algum processo de revisão ou auditoria que validou os resultados e identificou oportunidades de melhoria?",
-        "a": "Sim, a migração passou por uma auditoria interna rigorosa e, posteriormente, pela auditoria externa anual. Os resultados 'sem ressalvas' validaram meu sucesso. Uma oportunidade de melhoria identificada foi a necessidade de automatizar parte da 'due diligence aprimorada', o que levou a um novo projeto para desenvolver ferramentas de IA para triagem de risco.",
-        "q_en": "After completing migration, was there any review or audit process that validated results and identified improvement opportunities?",
-        "a_en": "Yes, the migration underwent rigorous internal audit and, subsequently, annual external audit. The 'without exceptions' results validated my success. An identified improvement opportunity was the need to automate part of 'enhanced due diligence', which led to a new project to develop AI tools for risk screening."
+        "q": "Que dados você usou para justificar a criação da ‘due diligence aprimorada’?",
+        "a": "Usei dados da indústria que mostravam que 90% dos erros de conformidade em wealth management vinham de falsos positivos ou negativos em triagens automatizadas. Calculei que o custo da revisão manual era de R$50k, enquanto uma única multa poderia exceder R$50M. A análise de custo-benefício era clara e irrefutável, o que me ajudou a conseguir a aprovação para o processo.",
+        "q_en": "What data did you use to justify the creation of the 'enhanced due diligence'?",
+        "a_en": "I used industry data that showed that 90% of compliance errors in wealth management came from false positives or negatives in automated screenings. I calculated that the cost of manual review was BRL 50k, while a single fine could exceed BRL 50M. The cost-benefit analysis was clear and irrefutable, which helped me get approval for the process."
     },
     {
-        "q": "Qual foi o 'efeito secundário' mais complexo que você teve que gerenciar neste projeto?",
-        "a": "Foi o impacto nos clientes 'falsos positivos' -- clientes que o sistema sinalizava como americanos, mas não eram. O processo de 'due diligence aprimorada' que criei tinha uma etapa para resolver esses casos internamente sempre que possível, minimizando o impacto em clientes inocentes.",
-        "q_en": "What was the most complex 'secondary effect' you had to manage in this project?",
-        "a_en": "It was the impact on 'false positive' customers -- customers the system flagged as American, but weren't. The 'enhanced due diligence' process I created had a step to resolve these cases internally whenever possible, minimizing impact on innocent customers."
+        "q": "Como você usou o aprendizado desse caso em outras frentes?",
+        "a": "O ‘Playbook de Conformidade em Migrações’ que criei foi adotado como melhor prática pelo PMO global do HSBC, beneficiando futuras migrações em 12 países e economizando meses de trabalho. Além disso, a experiência com controles AML/FATCA me preparou diretamente para os desafios de operações de pagamento na Amazon, onde a integridade transacional em escala global exige o mesmo nível de rigor e pensamento sistêmico.",
+        "q_en": "How did you use the learning from this case in other areas?",
+        "a_en": "The 'Migration Compliance Playbook' I created was adopted as a best practice by HSBC's global PMO, benefiting future migrations in 12 countries and saving months of work. In addition, the experience with AML/FATCA controls prepared me directly for the challenges of payment operations at Amazon, where transactional integrity on a global scale requires the same level of rigor and systemic thinking."
     },
     {
-        "q": "O que significa ser 'humilde e ponderado' na prática em uma situação de alta pressão?",
-        "a": "Significa admitir o que você não sabe e buscar ativamente a ajuda dos especialistas. Significa ouvir todas as perspectivas antes de tomar uma decisão. E significa considerar cuidadosamente o impacto das suas decisões em todos os stakeholders, incluindo aqueles que você nunca conhecerá pessoalmente.",
-        "q_en": "What does being 'humble and thoughtful' mean in practice in a high-pressure situation?",
-        "a_en": "It means admitting what you don't know and actively seeking help from specialists. It means listening to all perspectives before making a decision. And it means carefully considering the impact of your decisions on all stakeholders, including those you'll never meet personally."
+        "q": "Como você garantiu que a força-tarefa de especialistas trabalhasse de forma colaborativa e eficiente?",
+        "a": "Estabeleci um objetivo comum claro: 100% de conformidade com zero impacto negativo no cliente. Usei a metodologia RACI para definir papéis e responsabilidades, e facilitei as reuniões focando em decisões e ações, não em debates teóricos. Meu papel era ser o ‘tradutor’ entre as linguagens do jurídico, do compliance e da operação, garantindo que todos estivessem na mesma página.",
+        "q_en": "How did you ensure the specialist task force worked collaboratively and efficiently?",
+        "a_en": "I established a clear common goal: 100% compliance with zero negative impact on the customer. I used the RACI methodology to define roles and responsibilities, and I facilitated the meetings focusing on decisions and actions, not on theoretical debates. My role was to be the 'translator' between the languages of legal, compliance, and operations, ensuring that everyone was on the same page."
     },
     {
-        "q": "Como você garante que sua equipe esteja sempre pensando nessas responsabilidades mais amplas?",
-        "a": "Eu começo conectando o trabalho diário a um propósito maior. A equipe não estava 'verificando formulários'; ela estava 'protegendo a integridade do sistema financeiro'. Regularmente, eu lembrava a eles de que meu trabalho impactava não apenas o banco, mas a confiança de milhares de clientes e a estabilidade do sistema.",
-        "q_en": "How do you ensure your team is always thinking about these broader responsibilities?",
-        "a_en": "I start by connecting daily work to a bigger purpose. The team wasn't 'checking forms'; they were 'protecting financial system integrity'. Regularly, I reminded them that my work impacted not just the bank, but thousands of customers' trust and system stability."
+        "q": "Como você mediu o impacto da abordagem centrada no cliente durante a migração?",
+        "a": "Medimos o impacto através de duas métricas principais: a ‘taxa de resposta positiva’ dos clientes, que aumentou em 40% em comparação com comunicações anteriores, e o ‘tempo para obter a documentação necessária’, que foi reduzido em 25%. Além disso, recebemos feedbacks diretos através dos gerentes de relacionamento, com clientes elogiando a clareza e a empatia da nossa comunicação.",
+        "q_en": "How did you measure the impact of the customer-centric approach during the migration?",
+        "a_en": "We measured the impact through two main metrics: the 'positive response rate' from customers, which increased by 40% compared to previous communications, and the 'time to obtain the necessary documentation,' which was reduced by 25%. In addition, we received direct feedback through the relationship managers, with customers praising the clarity and empathy of our communication."
     },
     {
-        "q": "Qual foi a sua reação quando um membro da sua equipe cometeu um erro no processo de compliance?",
-        "a": "Minha primeira reação foi de apoio: 'Ok, vamos entender o que aconteceu e como podemos consertar. O que o processo permitiu que esse erro acontecesse?'. Depois que resolvemos, a conversa se tornou sobre aprendizado. A responsabilidade é sobre corrigir o sistema, não sobre culpar o indivíduo.",
-        "q_en": "What was your reaction when a team member made a compliance process error?",
-        "a_en": "My first reaction was supportive: 'OK, let's understand what happened and how I can fix it. What did the process allow for this error to happen?' After I resolved it, the conversation became about learning. Responsibility is about fixing the system, not blaming the individual."
+        "q": "Qual foi a reação de um membro da sua equipe quando cometeu um erro no processo de compliance?",
+        "a": "Minha primeira reação foi de apoio incondicional. Eu disse: ‘Ok, vamos entender o que aconteceu e como podemos consertar o processo para que isso não aconteça novamente.’ Depois que resolvemos o problema, a conversa se tornou sobre aprendizado e melhoria contínua. A responsabilidade é sobre corrigir o sistema, não sobre culpar o indivíduo, e essa abordagem fortaleceu a confiança e a segurança psicológica da equipe.",
+        "q_en": "What was the reaction of a member of your team when they made a mistake in the compliance process?",
+        "a_en": "My first reaction was one of unconditional support. I said, 'Ok, let's understand what happened and how we can fix the process so this doesn't happen again.' After we solved the problem, the conversation became about learning and continuous improvement. The responsibility is about fixing the system, not about blaming the individual, and this approach strengthened the team's trust and psychological safety."
     },
     {
-        "q": "Como essa experiência se conecta à sua responsabilidade com as 'futuras gerações'?",
-        "a": "A conexão é a integridade do sistema. Ao garantir a conformidade com leis anti-lavagem de dinheiro, estamos fazendo uma pequena parte para tornar o sistema financeiro global mais seguro e transparente. Deixar um sistema mais íntegro do que o encontramos é uma responsabilidade com as futuras gerações que dependerão desse sistema.",
+        "q": "Como essa experiência se conecta à sua responsabilidade com as ‘futuras gerações’?",
+        "a": "A conexão está na integridade do sistema financeiro. Ao garantir a conformidade com leis anti-lavagem de dinheiro, estamos fazendo a nossa parte para tornar o sistema mais seguro e transparente para todos. Deixar um sistema mais íntegro do que o encontramos é uma responsabilidade com as futuras gerações que dependerão desse sistema para suas próprias transações e investimentos.",
         "q_en": "How does this experience connect to your responsibility to 'future generations'?",
-        "a_en": "The connection is system integrity. By ensuring compliance with anti-money laundering laws, I're doing a small part to make the global financial system safer and more transparent. Leaving a more integral system than I found is a responsibility to future generations who will depend on this system."
+        "a_en": "The connection is in the integrity of the financial system. By ensuring compliance with anti-money laundering laws, we are doing our part to make the system safer and more transparent for everyone. Leaving a more integral system than we found it is a responsibility to the future generations who will depend on this system for their own transactions and investments."
     }
 ]
 };

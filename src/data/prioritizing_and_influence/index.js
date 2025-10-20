@@ -10,6 +10,5 @@ import case6 from './prioritizing_and_influence_case6.js';
 export default {
   principle: config.principle,
   id: config.id,
-  name: config.name,
   cases: [case1, case2, case3, case4, case5, case6]
 };

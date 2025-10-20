@@ -8,6 +8,5 @@ import case4 from './hire_and_develop_the_best_case4.js';
 export default {
   principle: config.principle,
   id: config.id,
-  name: config.name,
   cases: [case1, case2, case3, case4]
 };

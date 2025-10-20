@@ -10,6 +10,5 @@ import case6 from './learn_and_be_curious_case6.js';
 export default {
   principle: config.principle,
   id: config.id,
-  name: config.name,
   cases: [case1, case2, case3, case4, case5, case6]
 };

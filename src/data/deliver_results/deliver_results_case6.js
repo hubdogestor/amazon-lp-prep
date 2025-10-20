@@ -25,64 +25,64 @@ const case_6 = {
   },
   fups: [
     {
-      q: "Como você superou o desconforto emocional de cortar fornecedor com 8 anos de relacionamento?",
-      a: "Reframeei mentalmente: não estava destruindo relacionamento, mas reposicionando-o. TechMed continuaria nos 4 sistemas core onde tinha expertise. Também me apoiei nos dados da auditoria técnica - não era opinião, era fato objetivo que eles não tinham capacidade. Meu trabalho era servir 695 mil beneficiários, não preservar relacionamento por lealdade cega.",
-      q_en: "How did you overcome emotional discomfort of cutting vendor with 8-year relationship?",
-      a_en: "I mentally reframed: I wasn't destroying relationship, but repositioning it. TechMed would continue in 4 core systems where they had expertise. I also relied on technical audit data - it wasn't opinion, it was objective fact they lacked capacity. My job was serving 695 thousand beneficiaries, not preserving relationship through blind loyalty."
+      q: "Qual foi seu maior erro ou falha nesse caso?",
+      a: "Meu maior erro foi não ter agido mais cedo. Eu vi os sinais de alerta da TechMed por três sprints consecutivos, mas hesitei em tomar uma atitude drástica por causa do relacionamento de 8 anos. Essa hesitação custou 3 semanas preciosas e quase inviabilizou o lançamento. Aprendi que a lealdade a um parceiro não pode superar a responsabilidade com o cliente.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "My biggest mistake was not acting sooner. I saw the warning signs from TechMed for three consecutive sprints, but I hesitated to take drastic action because of the 8-year relationship. This hesitation cost us 3 precious weeks and almost made the launch unfeasible. I learned that loyalty to a partner cannot overcome the responsibility to the customer."
+    },
+    {
+      q: "O que você faria diferente hoje?",
+      a: "Hoje, eu teria um plano de contingência para fornecedores estratégicos desde o início do projeto. Teria mapeado fornecedores alternativos e definido gatilhos claros para iniciar uma transição. Não esperaria três sprints de falhas para agir; no primeiro sinal de que um parceiro não pode entregar, eu iniciaria uma avaliação paralela para garantir que o projeto não seja comprometido.",
+      q_en: "What would you do differently today?",
+      a_en: "Today, I would have a contingency plan for strategic suppliers from the beginning of the project. I would have mapped out alternative suppliers and defined clear triggers to initiate a transition. I would not wait for three sprints of failures to act; at the first sign that a partner cannot deliver, I would initiate a parallel evaluation to ensure that the project is not compromised."
+    },
+    {
+      q: "Qual foi o obstáculo mais difícil de superar?",
+      a: "O obstáculo mais difícil foi o custo político de romper uma parceria de 8 anos com um fornecedor que tinha um relacionamento pessoal com o CEO. Para superar isso, precisei me apoiar em dados irrefutáveis da auditoria técnica e assumir a responsabilidade total pela decisão. A transparência e a coragem de colocar o cliente em primeiro lugar foram cruciais para convencer a liderança.",
+      q_en: "What was the most difficult obstacle to overcome?",
+      a_en: "The most difficult obstacle was the political cost of breaking an 8-year partnership with a supplier who had a personal relationship with the CEO. To overcome this, I had to rely on irrefutable data from the technical audit and take full responsibility for the decision. Transparency and the courage to put the customer first were crucial to convincing the leadership."
+    },
+    {
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "Os principais riscos eram falhar no lançamento da plataforma de telemedicina, o que decepcionaria 695 mil beneficiários, e comprometer os 4 sistemas core mantidos pela TechMed. Mitiguei o primeiro risco com uma transição rápida para um novo fornecedor e o segundo com uma transição colaborativa, que incluía documentação completa, treinamento e um SLA rigoroso com penalidades financeiras.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "The main risks were failing to launch the telemedicine platform, which would disappoint 695,000 beneficiaries, and compromising the 4 core systems maintained by TechMed. I mitigated the first risk with a rapid transition to a new supplier and the second with a collaborative transition, which included complete documentation, training, and a strict SLA with financial penalties."
+    },
+    {
+      q: "Que dados você usou para justificar a decisão de cortar a TechMed?",
+      a: "Usei uma combinação de dados técnicos e financeiros. A auditoria técnica revelou 41% de débito técnico crítico, latência de 2.8s e uma taxa de falha de 23%. Financeiramente, o custo de adiar o lançamento era de R$ 8,4 milhões em receita perdida, enquanto o custo da transição era de apenas R$ 1,8 milhão. Os dados tornaram a decisão óbvia e irrefutável.",
+      q_en: "What data did you use to justify the decision to cut TechMed?",
+      a_en: "I used a combination of technical and financial data. The technical audit revealed 41% critical technical debt, 2.8s latency, and a 23% failure rate. Financially, the cost of postponing the launch was BRL 8.4 million in lost revenue, while the cost of the transition was only BRL 1.8 million. The data made the decision obvious and irrefutable."
+    },
+    {
+      q: "Como você usou o aprendizado desse caso em outras frentes?",
+      a: "O framework que criei para cortar fornecedores se tornou meu padrão. Apliquei-o na SEFAZ-RS para cortar uma consultoria de governança que não entregava valor, e hoje o uso em decisões de parceiros de processamento de pagamentos. O princípio é o mesmo: priorizar a experiência do cliente, mas executar transições com integridade e transparência, preservando o relacionamento sempre que possível.",
+      q_en: "How did you use the learning from this case in other areas?",
+      a_en: "The framework I created for cutting suppliers has become my standard. I applied it at SEFAZ-RS to cut a governance consultancy that was not delivering value, and today I use it in decisions about payment processing partners. The principle is the same: prioritize the customer experience, but execute transitions with integrity and transparency, preserving the relationship whenever possible."
+    },
+    {
+      q: "Como você superou o desconforto emocional de cortar um fornecedor com um relacionamento de 8 anos?",
+      a: "Eu reestruturei mentalmente a situação: não estava destruindo um relacionamento, mas reposicionando-o para onde ele agregava mais valor. A TechMed continuaria a nos apoiar nos 4 sistemas core onde eles tinham expertise. Além disso, me apoiei nos dados da auditoria técnica; não era uma opinião, era um fato objetivo que eles não tinham a capacidade de entregar o que precisávamos.",
+      q_en: "How did you overcome the emotional discomfort of cutting a supplier with an 8-year relationship?",
+      a_en: "I mentally reframed the situation: I was not destroying a relationship, but repositioning it to where it added the most value. TechMed would continue to support us on the 4 core systems where they had expertise. In addition, I relied on the data from the technical audit; it was not an opinion, it was an objective fact that they did not have the ability to deliver what we needed."
     },
     {
       q: "Qual foi a reação do diretor de TI quando você apresentou a recomendação de cortar a TechMed?",
-      a: "Ele ficou visivelmente desconfortável porque tinha relacionamento pessoal com o fundador da TechMed. Mas quando mostrei os dados da auditoria técnica (41% de débito técnico crítico, latência 2.8s, taxa de falha 23%) e o plano de transição preservando os 4 sistemas core, ele aceitou. A chave foi mostrar que não era decisão política, mas técnica e financeira.",
-      q_en: "What was IT director's reaction when you presented recommendation to cut TechMed?",
-      a_en: "He was visibly uncomfortable because he had personal relationship with TechMed founder. But when I showed technical audit data (41% critical technical debt, 2.8s latency, 23% failure rate) and transition plan preserving 4 core systems, he accepted. Key was showing it wasn't political decision, but technical and financial."
+      a: "Ele ficou visivelmente desconfortável, pois tinha um relacionamento pessoal com o fundador da TechMed. No entanto, quando mostrei os dados da auditoria técnica e o plano de transição que preservava os 4 sistemas core, ele aceitou a decisão. A chave foi mostrar que não era uma decisão política, mas uma decisão técnica e financeira baseada em fatos.",
+      q_en: "What was the IT director's reaction when you presented the recommendation to cut TechMed?",
+      a_en: "He was visibly uncomfortable, as he had a personal relationship with the founder of TechMed. However, when I showed him the data from the technical audit and the transition plan that preserved the 4 core systems, he accepted the decision. The key was to show that it was not a political decision, but a technical and financial decision based on facts."
     },
     {
-      q: "Como você garantiu que a transição não comprometesse os 4 sistemas core mantidos pela TechMed?",
-      a: "Negociei com TechMed transição colaborativa: (1) Eles documentaram todas as APIs dos 4 sistemas, (2) Treinaram time interno da Unimed em 2 semanas, (3) Mantiveram suporte por 90 dias sem custo adicional, (4) Estabeleci SLA de 99.7% com penalidades financeiras. Também identifiquei 3 fornecedores backup caso TechMed sabotasse, mas eles foram profissionais.",
-      q_en: "How did you ensure transition didn't compromise 4 core systems maintained by TechMed?",
-      a_en: "I negotiated collaborative transition with TechMed: (1) They documented all 4 system APIs, (2) Trained Unimed internal team in 2 weeks, (3) Maintained support for 90 days at no additional cost, (4) Established 99.7% SLA with financial penalties. I also identified 3 backup vendors in case TechMed sabotaged, but they were professional."
+      q: "Como você selecionou a VideoHealth como fornecedor substituto em apenas 72 horas?",
+      a: "Eu já havia mapeado 5 fornecedores especializados em telemedicina como parte do meu plano de contingência. Avaliei os três principais com base em critérios claros: cases comprovados em operadoras de saúde, capacidade de entrega em 42 dias e qualidade técnica. A VideoHealth pontuou melhor em todos os três, e eu ainda negociei uma cláusula de penalidade de 50% se eles não entregassem no prazo.",
+      q_en: "How did you select VideoHealth as a substitute supplier in just 72 hours?",
+      a_en: "I had already mapped 5 specialized telemedicine suppliers as part of my contingency plan. I evaluated the top three based on clear criteria: proven cases in health insurance companies, ability to deliver in 42 days, and technical quality. VideoHealth scored best on all three, and I even negotiated a 50% penalty clause if they did not deliver on time."
     },
     {
-      q: "Como você selecionou a VideoHealth como fornecedor substituto em 72 horas?",
-      a: "Já tinha mapeado 5 fornecedores especializados em telemedicina como contingência. Avaliei 3 critérios: (1) Cases comprovados em operadoras de saúde (VideoHealth tinha 8), (2) Capacidade de entregar em 42 dias (validei com referências), (3) Qualidade técnica (latência <800ms, taxa de falha <2%). VideoHealth pontuou melhor nos 3. Também negociei cláusula de penalidade de 50% se não entregassem.",
-      q_en: "How did you select VideoHealth as replacement vendor in 72 hours?",
-      a_en: "I had already mapped 5 telemedicine-specialized vendors as contingency. I evaluated 3 criteria: (1) Proven cases in health operators (VideoHealth had 8), (2) Capacity to deliver in 42 days (validated with references), (3) Technical quality (latency <800ms, failure rate <2%). VideoHealth scored best on all 3. I also negotiated 50% penalty clause if they didn't deliver."
-    },
-    {
-      q: "Qual foi o maior risco de executar a transição em apenas 6 semanas?",
-      a: "O maior risco era a VideoHealth falhar na entrega e ficarmos sem módulo de videochamada no lançamento. Mitigei com 4 ações: (1) Cláusula de penalidade de 50%, (2) Squad híbrido com engenheiros da Unimed para transfer de conhecimento, (3) Code review rigoroso com gates de qualidade, (4) Plano B de adiar lançamento em 2 semanas se necessário (não precisou).",
-      q_en: "What was biggest risk of executing transition in only 6 weeks?",
-      a_en: "Biggest risk was VideoHealth failing delivery and us having no video call module at launch. I mitigated with 4 actions: (1) 50% penalty clause, (2) Hybrid squad with Unimed engineers for knowledge transfer, (3) Rigorous code review with quality gates, (4) Plan B to postpone launch 2 weeks if needed (wasn't needed)."
-    },
-    {
-      q: "Como você mediu que a qualidade da VideoHealth era superior à TechMed?",
-      a: "Comparei métricas objetivas: latência (420ms vs 2.8s = -85%), taxa de falha (0.8% vs 23% = -96%), suporte a chamadas simultâneas (800 vs 500 = +60%), cobertura de testes (92% vs 34%), débito técnico (3% vs 41%). Também rodei testes de carga simulando 1000 consultas simultâneas - VideoHealth manteve performance, TechMed colapsou em 200.",
-      q_en: "How did you measure VideoHealth quality was superior to TechMed?",
-      a_en: "I compared objective metrics: latency (420ms vs 2.8s = -85%), failure rate (0.8% vs 23% = -96%), simultaneous call support (800 vs 500 = +60%), test coverage (92% vs 34%), technical debt (3% vs 41%). I also ran load tests simulating 1000 simultaneous consultations - VideoHealth maintained performance, TechMed collapsed at 200."
-    },
-    {
-      q: "Qual foi o feedback do fundador da TechMed 3 meses depois?",
-      a: "Ele me enviou mensagem dizendo: 'Você teve coragem de fazer a escolha certa. Aprendi que devemos focar em nossa expertise e recusar projetos fora dela. Obrigado pela honestidade.' Isso validou que relacionamentos estratégicos sobrevivem a decisões difíceis quando são baseados em transparência e dados objetivos.",
-      q_en: "What was TechMed founder's feedback 3 months later?",
-      a_en: "He sent me message saying: 'You had courage to make right choice. I learned we should focus on our expertise and refuse projects outside it. Thank you for honesty.' This validated that strategic relationships survive difficult decisions when based on transparency and objective data."
-    },
-    {
-      q: "Como você calculou o ROI de R$ 11.2M em receita nos primeiros 4 meses?",
-      a: "Multipliquei 23.400 consultas realizadas pelo ticket médio de R$ 180 (consulta de telemedicina), considerei margem de 42%, e extrapolei para 4 meses. Também considerei que CAC de telemedicina (R$ 23) era 66% menor que consultas presenciais (R$ 67), aumentando margem líquida. CFO da Unimed validou a metodologia.",
-      q_en: "How did you calculate BRL 11.2M revenue ROI in first 4 months?",
-      a_en: "I multiplied 23,400 completed consultations by BRL 180 average ticket (telemedicine consultation), considered 42% margin, and extrapolated to 4 months. I also considered telemedicine CAC (BRL 23) was 66% lower than in-person consultations (BRL 67), increasing net margin. Unimed CFO validated methodology."
-    },
-    {
-      q: "Como você expandiu telemedicina para 4 novas especialidades nos 6 meses seguintes?",
-      a: "Usei o sucesso do lançamento inicial (NPS 78, 23.4k consultas) como prova de conceito. Propus ao CEO expandir para cardiologia, dermatologia, psiquiatria e pediatria. A VideoHealth já tinha módulos prontos para essas especialidades, reduzindo time-to-market para 8 semanas por especialidade. Pipeline projetado foi R$ 34M em 12 meses.",
-      q_en: "How did you expand telemedicine to 4 new specialties in following 6 months?",
-      a_en: "I used initial launch success (NPS 78, 23.4k consultations) as proof of concept. I proposed to CEO expanding to cardiology, dermatology, psychiatry, and pediatrics. VideoHealth already had ready modules for these specialties, reducing time-to-market to 8 weeks per specialty. Projected pipeline was BRL 34M in 12 months."
-    },
-    {
-      q: "Como você aplica esse framework de cortar fornecedor hoje em decisões de pagamentos?",
-      a: "Sempre que parceiro de processamento não entrega qualidade esperada, faço: (1) Auditoria técnica objetiva (latência, taxa de falha, uptime), (2) Análise de risco de continuidade, (3) Conversa transparente buscando honestidade sobre capacidade, (4) Decisão baseada em dados priorizando merchant, (5) Transição colaborativa preservando relacionamento onde faz sentido. Priorizo sempre experiência do merchant sobre política interna.",
-      q_en: "How do you apply this vendor-cutting framework today in payment decisions?",
-      a_en: "Whenever processing partner doesn't deliver expected quality, I do: (1) Objective technical audit (latency, failure rate, uptime), (2) Continuity risk analysis, (3) Transparent conversation seeking honesty about capacity, (4) Data-driven decision prioritizing merchant, (5) Collaborative transition preserving relationship where it makes sense. I always prioritize merchant experience over internal politics."
+      q: "Qual foi o feedback do fundador da TechMed 3 meses depois da transição?",
+      a: "Ele me enviou uma mensagem agradecendo pela honestidade e dizendo que eu tive a coragem de fazer a escolha certa. Ele aprendeu que a empresa deveria focar em sua expertise e recusar projetos fora dela. Isso validou que relacionamentos estratégicos podem sobreviver a decisões difíceis quando são baseados em transparência e dados objetivos.",
+      q_en: "What was the feedback from the founder of TechMed 3 months after the transition?",
+      a_en: "He sent me a message thanking me for my honesty and saying that I had the courage to make the right choice. He learned that the company should focus on its expertise and refuse projects outside of it. This validated that strategic relationships can survive difficult decisions when they are based on transparency and objective data."
     }
   ]
 };

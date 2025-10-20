@@ -24,64 +24,64 @@ const case_1 = {
   },
   fups: [
     {
-        "q": "Como você mediu os ganhos de eficiência estimados em $1.4 milhão? Quais foram os principais indicadores utilizados?",
-        "a": "O cálculo foi baseado em dois indicadores principais. Primeiro, a redução do desvio médio de orçamento e prazo dos projetos, que historicamente era de 18% e caiu para 6% com a nova governança. Segundo, a otimização de horas de trabalho dos gestores, principalmente pela automação de relatórios, que liberou aproximadamente 200 horas anuais para atividades estratégicas. Esses dois fatores, aplicados ao portfólio de projetos, resultaram na estimativa de ~$1.4M.",
-        "q_en": "How did you measure the estimated $1.4 million efficiency gains? What were the main indicators used?",
-        "a_en": "The calculation was based on two main indicators. First, reduction in average project budget and timeline deviation, which historically was 18% and dropped to 6% with new governance. Second, optimization of manager work hours, mainly through report automation, which freed approximately 200 annual hours for strategic activities. These two factors, applied to the project portfolio, resulted in the ~$1.4M estimate."
+        q: "Qual foi seu maior erro ou falha neste caso?",
+        a: "Meu maior erro foi não ter comunicado o progresso de forma mais visual e frequente no início. O ceticismo da liderança era alto, e eu deveria ter criado um protótipo do dashboard em Power BI na primeira semana para mostrar o potencial da abordagem frugal, em vez de esperar para apresentar os manuais prontos. Uma demonstração prática teria quebrado a resistência muito mais rápido.",
+        q_en: "What was your biggest mistake or failure in this case?",
+        a_en: "My biggest mistake was not communicating the progress more visually and frequently at the beginning. The leadership's skepticism was high, and I should have created a prototype of the Power BI dashboard in the first week to show the potential of the frugal approach, instead of waiting to present the finished manuals. A practical demonstration would have broken the resistance much faster."
     },
     {
-        "q": "Houve resistência interna ao usar ferramentas existentes, como SharePoint e Power BI, em vez de adquirir novas soluções? Como você lidou com isso?",
-        "a": "Sim, houve ceticismo inicial, pois a percepção era de que as ferramentas existentes eram 'limitadas'. Eu lidei com isso criando um protótipo funcional do dashboard em Power BI em apenas uma semana. Ao demonstrar na prática que a ferramenta era capaz de entregar 90% do valor de uma solução cara, com custo zero e implementação imediata, a resistência se transformou em entusiasmo.",
-        "q_en": "Was there internal resistance to using existing tools like SharePoint and Power BI instead of acquiring new solutions? How did you handle it?",
-        "a_en": "Yes, there was initial skepticism, as the perception was that existing tools were 'limited'. I handled this by creating a functional Power BI dashboard prototype in just one week. By demonstrating in practice that the tool could deliver 90% of an expensive solution's value, with zero cost and immediate implementation, resistance turned into enthusiasm."
+        q: "O que você faria de diferente hoje?",
+        a: "Hoje, eu começaria o projeto com um ‘roadshow’ de uma semana, apresentando o protótipo do PMO frugal para cada um dos stakeholders-chave individualmente. Coletaria o feedback deles e os convidaria a se tornarem ‘padrinhos’ do projeto. Essa abordagem de co-criação desde o início teria transformado os céticos em defensores e acelerado a adoção.",
+        q_en: "What would you do differently today?",
+        a_en: "Today, I would start the project with a one-week 'roadshow,' presenting the prototype of the frugal PMO to each of the key stakeholders individually. I would collect their feedback and invite them to become 'sponsors' of the project. This co-creation approach from the beginning would have turned the skeptics into advocates and accelerated adoption."
     },
     {
-        "q": "Quais foram os maiores desafios ao criar os manuais internamente e como você garantiu que fossem bem recebidos e utilizados pela equipe?",
-        "a": "O maior desafio foi garantir que os manuais não fossem vistos como 'mais burocracia'. Para garantir a adesão, eu criei um 'conselho editorial' com gestores de projeto experientes. Eles revisaram e co-criaram o conteúdo, o que gerou um senso de propriedade. Além disso, criei versões resumidas (checklists e infográficos) para o uso no dia a dia.",
-        "q_en": "What were the biggest challenges in creating manuals internally and how did you ensure they were well received and used by the team?",
-        "a_en": "The biggest challenge was ensuring manuals weren't seen as 'more bureaucracy'. To ensure adoption, I created an 'editorial board' with experienced project managers. They reviewed and co-created content, which generated ownership sense. Additionally, I created summarized versions (checklists and infographics) for daily use."
+        q: "Qual foi o obstáculo mais difícil de superar?",
+        a: "O obstáculo mais difícil foi a crença cultural de que ‘qualidade exige investimento caro’. Para superar isso, eu não discuti, eu mostrei. Ao entregar o ‘Project Canvas’ de uma página e reduzir o tempo de aprovação de 30 para 10 dias, provei que a simplicidade e a agilidade poderiam gerar mais valor do que um processo burocrático caro. Os resultados falaram mais alto que as opiniões.",
+        q_en: "What was the most difficult obstacle to overcome?",
+        a_en: "The most difficult obstacle was the cultural belief that 'quality requires expensive investment.' To overcome this, I didn't argue, I showed. By delivering the one-page 'Project Canvas' and reducing the approval time from 30 to 10 days, I proved that simplicity and agility could generate more value than an expensive bureaucratic process. The results spoke louder than opinions."
     },
     {
-        "q": "Como os workshops e treinamentos curtos, como os 'Drops de Risco', impactaram a capacitação e o engajamento da equipe?",
-        "a": "O impacto foi enorme. O formato curto e prático teve uma taxa de adesão 80% maior do que os treinamentos tradicionais de longa duração. O engajamento aumentou porque as equipes sentiam que estavam aprendendo algo que poderiam aplicar imediatamente em seus projetos. Isso criou uma cultura de aprendizado contínuo e prático.",
-        "q_en": "How did short workshops and training like 'Risk Drops' impact team training and engagement?",
-        "a_en": "The impact was huge. The short, practical format had 80% higher adoption rate than traditional long-duration training. Engagement increased because teams felt they were learning something they could immediately apply to their projects. This created a culture of continuous and practical learning."
+        q: "Quais foram os principais riscos da sua abordagem e como você os mitigou?",
+        a: "O principal risco era que a solução ‘caseira’ não fosse robusta o suficiente e falhasse em escala. Mitiguei isso usando ferramentas corporativas testadas e aprovadas (SharePoint, Power BI) e envolvendo os gestores mais experientes na validação dos processos. Outro risco era a falta de adesão; mitiguei isso com os ‘Drops de Risco’, que eram treinamentos curtos, práticos e de alto impacto.",
+        q_en: "What were the main risks of your approach and how did you mitigate them?",
+        a_en: "The main risk was that the 'homemade' solution would not be robust enough and would fail at scale. I mitigated this by using tested and approved corporate tools (SharePoint, Power BI) and involving the most experienced managers in the validation of the processes. Another risk was the lack of adoption; I mitigated this with the 'Risk Drops,' which were short, practical, and high-impact training sessions."
     },
     {
-        "q": "Após o sucesso do PMO frugal, houve alguma tentativa de replicar ou escalar essa abordagem em outras áreas da SEFAZ?",
-        "a": "Sim. O sucesso do meu modelo gerou interesse de outras duas subsecretarias. Eu apresentei o case para seus líderes e compartilhei todos os meu templates e manuais. A Subsecretaria da Receita Estadual iniciou um projeto piloto para adaptar meu modelo de dashboards em Power BI para o monitoramento de suas próprias metas de arrecadação.",
-        "q_en": "After the frugal PMO's success, were there any attempts to replicate or scale this approach in other SEFAZ areas?",
-        "a_en": "Yes. Our model's success generated interest from two other sub-secretariats. I presented the case to their leaders and shared all my templates and manuals. The State Revenue Sub-secretariat started a pilot project to adapt my Power BI dashboard model for monitoring their own collection targets."
+        q: "Que dados você usou para provar o sucesso do PMO frugal?",
+        a: "Usei uma combinação de métricas operacionais e de satisfação. Operacionalmente, a redução de 70% no tempo de aprovação e a queda de 67% nos desvios de prazo e orçamento foram os dados mais fortes. Em termos de satisfação, o aumento de 55 pontos percentuais na satisfação dos gestores (de 40% para 95%) provou que a solução era não apenas eficiente, mas também bem recebida.",
+        q_en: "What data did you use to prove the success of the frugal PMO?",
+        a_en: "I used a combination of operational and satisfaction metrics. Operationally, the 70% reduction in approval time and the 67% drop in timeline and budget deviations were the strongest data. In terms of satisfaction, the 55 percentage point increase in manager satisfaction (from 40% to 95%) proved that the solution was not only efficient, but also well-received."
     },
     {
-        "q": "Qual foi a funcionalidade mais importante que um software de PMO caro teria e que você conseguiu replicar de forma frugal?",
-        "a": "A funcionalidade de 'visão de portfólio' com status agregado. Softwares caros fazem isso de forma nativa. Eu repliquei isso criando uma lista mestra no SharePoint onde os gestores atualizavam o status de seus projetos, e conectei essa lista a um dashboard em Power BI. Entregamos 90% do valor com 0% do custo de software.",
-        "q_en": "What was the most important functionality that expensive PMO software would have that you managed to replicate frugally?",
-        "a_en": "The 'portfolio view' functionality with aggregated status. Expensive software does this natively. I replicated this by creating a master list in SharePoint where managers updated their project status, and connected this list to a Power BI dashboard. I delivered 90% of the value with 0% of the software cost."
+        q: "Como você aplicou o aprendizado deste caso em outras frentes?",
+        a: "Essa experiência influenciou diretamente a fundação da minha startup, o Hub do Gestor, que foi iniciada de forma totalmente ‘bootstrapped’, usando ferramentas open-source e focando em um MVP enxuto. A mentalidade frugal que desenvolvi na SEFAZ é hoje um pilar da minha abordagem em operações de pagamento, onde a otimização de custos e a automação inteligente são cruciais para a escalabilidade.",
+        q_en: "How did you apply the learning from this case in other areas?",
+        a_en: "This experience directly influenced the founding of my startup, Hub do Gestor, which was started completely 'bootstrapped,' using open-source tools and focusing on a lean MVP. The frugal mindset I developed at SEFAZ is now a pillar of my approach in payment operations, where cost optimization and intelligent automation are crucial for scalability."
     },
     {
-        "q": "'Frugalidade' pode ser confundida com 'baixa qualidade'. Como você garantiu que seus manuais e processos tivessem um alto padrão?",
-        "a": "Eu usei benchmarks de classe mundial, como os padrões do PMI, como base para os manuais. A frugalidade estava na produção (feita por mim), não no padrão do conteúdo. Além disso, submeti os manuais a um ciclo de revisão com gestores experientes para garantir a qualidade e aplicabilidade prática.",
-        "q_en": "Frugality can be confused with 'low quality'. How did you ensure your manuals and processes had high standards?",
-        "a_en": "I used world-class benchmarks, like PMI standards, as the foundation for manuals. Frugality was in production (done by me), not in content standards. Additionally, I submitted manuals to a review cycle with experienced managers to ensure quality and practical applicability."
+        q: "Como você mediu os ganhos de eficiência estimados em $1.4 milhão?",
+        a: "O cálculo foi baseado em dois indicadores principais: a redução do desvio médio de orçamento e prazo dos projetos, que caiu de 18% para 6%, e a otimização de horas de trabalho dos gestores, principalmente pela automação de relatórios, que liberou cerca de 200 horas anuais. Aplicados ao portfólio de projetos, esses fatores resultaram na estimativa de ~$1.4M em ganhos de eficiência.",
+        q_en: "How did you measure the estimated $1.4 million efficiency gains?",
+        a_en: "The calculation was based on two main indicators: the reduction in the average deviation of project budget and timeline, which dropped from 18% to 6%, and the optimization of managers' work hours, mainly through report automation, which freed up about 200 annual hours. Applied to the project portfolio, these factors resulted in the estimate of ~$1.4M in efficiency gains."
     },
     {
-        "q": "Se, no meio do projeto, você recebesse um grande orçamento, o que teria feito de diferente?",
-        "a": "Eu não teria comprado um software de PMO. Eu teria investido 100% do orçamento em capacitação avançada para a equipe, como certificações em análise de dados e gestão de valor, e talvez contratado um especialista em UI/UX para melhorar ainda mais a usabilidade dos dashboards. Teria investido em pessoas, não em ferramentas.",
-        "q_en": "If, in the middle of the project, you received a large budget, what would you have done differently?",
-        "a_en": "I wouldn't have bought PMO software. I would have invested 100% of the budget in advanced team training, like certifications in data analysis and value management, and maybe hired a UI/UX specialist to further improve dashboard usability. I would have invested in people, not tools."
+        q: "Qual foi a funcionalidade mais importante que um software de PMO caro teria e que você conseguiu replicar de forma frugal?",
+        a: "A funcionalidade de ‘visão de portfólio’ com status agregado. Softwares caros fazem isso de forma nativa, mas eu repliquei criando uma lista mestra no SharePoint onde os gestores atualizavam o status de seus projetos, e conectei essa lista a um dashboard em Power BI. Entregamos 90% do valor com 0% do custo de software, provando o poder da frugalidade.",
+        q_en: "What was the most important functionality that expensive PMO software would have that you managed to replicate frugally?",
+        a_en: "The 'portfolio view' functionality with aggregated status. Expensive software does this natively, but I replicated it by creating a master list in SharePoint where managers updated the status of their projects, and connected this list to a Power BI dashboard. We delivered 90% of the value with 0% of the software cost, proving the power of frugality."
     },
     {
-        "q": "O que significa 'realizar mais com menos' para você no dia a dia?",
-        "a": "Significa focar implacavelmente na eliminação de desperdício. Desperdício de tempo em reuniões improdutivas, desperdício de recursos em projetos que não agregam valor, desperdício de talento em tarefas que podem ser automatizadas. Frugalidade é uma mentalidade de otimização contínua focada no que realmente gera valor para o cliente final.",
-        "q_en": "What does 'accomplish more with less' mean to you in daily work?",
-        "a_en": "It means relentlessly focusing on waste elimination. Waste of time in unproductive meetings, waste of resources on projects that don't add value, waste of talent on tasks that can be automated. Frugality is a continuous optimization mindset focused on what truly generates value for the end customer."
+        q: "Se, no meio do projeto, você recebesse um grande orçamento, o que teria feito de diferente?",
+        a: "Eu não teria comprado um software de PMO. Teria investido 100% do orçamento em capacitação avançada para a equipe, como certificações em análise de dados e gestão de valor, e talvez contratado um especialista em UI/UX para melhorar ainda mais a usabilidade dos dashboards. Meu foco seria em investir em pessoas e conhecimento, não em ferramentas caras.",
+        q_en: "If, in the middle of the project, you received a large budget, what would you have done differently?",
+        a_en: "I would not have bought PMO software. I would have invested 100% of the budget in advanced training for the team, such as certifications in data analysis and value management, and perhaps hired a UI/UX specialist to further improve the usability of the dashboards. My focus would be on investing in people and knowledge, not in expensive tools."
     },
     {
-        "q": "Como você aplicaria o princípio da frugalidade em uma empresa como a Amazon, que tem recursos quase ilimitados?",
-        "a": "A frugalidade na Amazon, pelo que entendo, não é sobre falta de dinheiro, mas sobre disciplina. Eu a aplicaria desafiando o crescimento do headcount como solução padrão, questionando a necessidade de orçamentos inflados e focando em como podemos usar a tecnologia para automatizar e escalar de forma mais inteligente, garantindo que cada dólar e cada pessoa contratada gerem o máximo de impacto para o cliente.",
-        "q_en": "How would you apply the frugality principle in a company like Amazon, which has almost unlimited resources?",
-        "a_en": "Frugality at Amazon, from what I understand, isn't about lack of money, but about discipline. I would apply it by challenging headcount growth as the default solution, questioning the need for inflated budgets and focusing on how I can use technology to automate and scale more intelligently, ensuring every dollar and every person hired generates maximum impact for the customer."
+        q: "Como você aplicaria o princípio da frugalidade em uma empresa como a Amazon, que tem recursos quase ilimitados?",
+        a: "A frugalidade na Amazon, pelo que entendo, não é sobre falta de dinheiro, mas sobre disciplina e eficiência. Eu a aplicaria desafiando o crescimento do headcount como solução padrão, questionando a necessidade de orçamentos inflados e focando em como podemos usar a tecnologia para automatizar e escalar de forma mais inteligente, garantindo que cada dólar e cada pessoa contratada gerem o máximo de impacto para o cliente.",
+        q_en: "How would you apply the frugality principle in a company like Amazon, which has almost unlimited resources?",
+        a_en: "Frugality at Amazon, from what I understand, is not about a lack of money, but about discipline and efficiency. I would apply it by challenging headcount growth as the default solution, questioning the need for inflated budgets, and focusing on how we can use technology to automate and scale more intelligently, ensuring that every dollar and every person hired generates the maximum impact for the customer."
     }
 ]
 };

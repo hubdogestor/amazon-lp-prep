@@ -11,6 +11,5 @@ import case7 from './deal_with_ambiguity_case7.js';
 export default {
   principle: config.principle,
   id: config.id,
-  name: config.name,
   cases: [case1, case2, case3, case4, case5, case6, case7]
 };

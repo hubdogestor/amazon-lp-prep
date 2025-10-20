@@ -22,102 +22,102 @@ const case_3 = {
       "r": "Result: The measurable impact of this coordinated effort was creating one of the best work environments in the state's public sector, reflected in compelling numbers. In ten months eNPS jumped from 48 to 82 points (+34 points, +71%), reaching top 5% of state public sector. Transfer requests plummeted 57%, dropping from 47 to 20 requests per quarter - employees stopped fleeing and started recommending the department as a growth place. In quarterly surveys 73% of civil servants reported significant improvement in cross-generation collaboration, citing mutual respect and bilateral learning. Most important for the organization's future: 19 new leaders emerged naturally from the program (vs. only 3 in previous year without DuoLab), with 6 taking coordination of priority department initiatives without hierarchical imposition. Veterans stopped complaining that 'nobody respects experience' and young employees stopped requesting transfers saying 'here I finally grow and am heard'. The 118 active pairs delivered 142 concrete projects: real-time tax revenue dashboard, tax notice automation, optimized rural service routes, digital exemptions. Average rural customer taxpayer response time plummeted from 14 to 6 days (-57%), 1,800 farmers migrated to digital channels reducing in-person pressure, and we recorded BRL 8.1M in operational process efficiency.",
       "l": "Learning: The main lesson from this case transformed my approach to toxic or fragmented work environments in public sector. I learned that creating better work environment requires 3 operationally structured pillars, not just good intention or motivational workshop: (1) Measurable shared purpose - put customer taxpayer at center of each DuoLab interaction (always attack real farmer or business pain), never internal politics, vanity or generational ego; (2) Visible growth in short cycles - 'Impact in 30 Days' mechanism shows concrete evolution each cycle (functional dashboard, delivered automation, calculated ROI), not vague 'personal development' or 'networking' promises; (3) Formally structured recognition - official career progression (HR + union + career track), not just empty praise, coffee or pretty certificate without practical consequence. When I build cross-generational bridges with crystal-clear purpose - DuoLab unites veteran tax legislation knowledge + young digital and analytics skills = concrete solution that improves taxpayer's life - mentoring stops being bureaucratic obligation and becomes self-sustaining engine of innovation, healthy environment and genuine public service loyalty. Today, whenever I take over new team with low eNPS, high turnover or generational conflict, I first ask 3 questions to everyone individually: 'What prevents you from wanting to work here tomorrow? What would make you recommend this place to someone you admire? What would make you stay 5+ years investing your best talent?' - and then build mentoring, recognition and growth mechanisms based on people's real answers, never on assumptions or generic benchmarks copied from other organizations."
     },
-    "fups": [
+fups: [
       {
         "q": "Qual foi seu maior erro ou falha nesse caso?",
-        "a": "Meu maior erro foi subestimar o tempo necessário para reconstruir confiança entre gerações hostis, acreditando que workshops iniciais seriam suficientes. Inicialmente foquei demais em métricas e processos sem endereçar as emoções profundas e ressentimentos acumulados de décadas. Isso quase fez o programa fracassar nas primeiras semanas, com apenas 40% de adesão inicial dos veteranos.",
+        "a": "Meu maior erro foi subestimar o tempo necessário para reconstruir a confiança entre gerações que estavam em conflito há anos. Acreditei que apenas a estrutura do programa DuoLab seria suficiente, mas a desconfiança inicial era tão profunda que precisei intervir pessoalmente em mais de 25 sessões de mediação. Isso atrasou o cronograma em três semanas e quase comprometeu a adesão dos servidores mais antigos.",
         "q_en": "What was your biggest mistake or failure in this case?",
-        "a_en": "My biggest mistake was underestimating the time needed to rebuild trust between hostile generations, believing initial workshops would be enough. I initially focused too much on metrics and processes without addressing the deep emotions and accumulated resentments from decades. This almost made the program fail in the first weeks, with only 40% initial adherence from veterans."
+        "a_en": "My biggest mistake was underestimating the time needed to rebuild trust between generations that had been in conflict for years. I believed that the structure of the DuoLab program alone would be sufficient, but the initial distrust was so deep that I had to personally intervene in more than 25 mediation sessions. This delayed the schedule by three weeks and almost compromised the adherence of the older civil servants."
       },
       {
         "q": "O que você faria diferente hoje?",
-        "a": "Hoje eu começaria com sessões individuais de mediação entre pares antagônicos antes de formar as duplas, criando espaço seguro para expressar dores e medos. Também implementaria um período de observação de 30 dias antes de lançar o DuoLab, coletando feedback qualitativo sobre resistências culturais. Por fim, envolveria facilitadores externos neutros para mediar conflitos iniciais entre gerações.",
+        "a": "Hoje, eu iniciaria com um ‘período de armistício’ de 30 dias, com sessões de escuta ativa e mediação de conflitos conduzidas por facilitadores externos e neutros, antes mesmo de apresentar o DuoLab. Isso criaria um terreno mais fértil para a colaboração, tratando as feridas emocionais antes de introduzir a nova ferramenta. Apenas com a confiança minimamente restabelecida eu lançaria o programa de mentoria reversa.",
         "q_en": "What would you do differently today?",
-        "a_en": "Today I would start with individual mediation sessions between antagonistic pairs before forming the duos, creating a safe space to express pains and fears. I would also implement a 30-day observation period before launching DuoLab, collecting qualitative feedback on cultural resistances. Finally, I would involve neutral external facilitators to mediate initial generational conflicts."
+        "a_en": "Today, I would start with a 30-day 'armistice period,' with active listening and conflict mediation sessions led by external and neutral facilitators, even before introducing DuoLab. This would create more fertile ground for collaboration, addressing emotional wounds before introducing the new tool. Only with trust minimally restored would I launch the reverse mentoring program."
       },
       {
         "q": "Qual foi o obstáculo mais difícil de superar?",
-        "a": "O obstáculo mais difícil foi quebrar o ciclo vicioso de acusações mútuas entre gerações que havia se institucionalizado na cultura organizacional. Veteranos viam jovens como ameaças à estabilidade, enquanto jovens viam veteranos como obstáculos à inovação. Precisei conduzir 25 sessões individuais de coaching para reconstruir pontes, mostrando vulnerabilidade ao compartilhar meus próprios conflitos geracionais em experiências passadas.",
+        "a": "O obstáculo mais difícil foi quebrar o ciclo vicioso de acusações mútuas que estava institucionalizado na cultura da SEFAZ. Os veteranos viam os jovens como uma ameaça à estabilidade e ao conhecimento adquirido, enquanto os jovens viam os veteranos como uma barreira à inovação. Para superar isso, precisei mostrar vulnerabilidade, compartilhando meus próprios conflitos geracionais de experiências passadas e criando um espaço seguro para que ambos os lados se sentissem ouvidos e respeitados.",
         "q_en": "What was the most difficult obstacle to overcome?",
-        "a_en": "The most difficult obstacle was breaking the vicious cycle of mutual accusations between generations that had become institutionalized in the organizational culture. Veterans saw young people as threats to stability, while young people saw veterans as obstacles to innovation. I had to conduct 25 individual coaching sessions to rebuild bridges, showing vulnerability by sharing my own generational conflicts from past experiences."
+        "a_en": "The most difficult obstacle was breaking the vicious cycle of mutual accusations that was institutionalized in SEFAZ's culture. The veterans saw the young people as a threat to stability and acquired knowledge, while the young people saw the veterans as a barrier to innovation. To overcome this, I had to show vulnerability, sharing my own generational conflicts from past experiences and creating a safe space for both sides to feel heard and respected."
       },
       {
         "q": "Quais foram os principais riscos e como você os mitigou?",
-        "a": "Os principais riscos eram conflitos abertos durante sessões de mentoring que poderiam agravar divisões, resistência passiva dos veteranos que controlavam recursos, e fracasso do programa gerando descrédito ainda maior. Mitiguei com protocolos claros de mediação, envolvimento do RH como facilitador neutro, comunicação transparente sobre propósitos, e medição objetiva de resultados para validar o ROI antes de expandir.",
+        "a": "Os principais riscos eram a possibilidade de conflitos abertos durante as sessões de mentoria, o que poderia agravar ainda mais as divisões; a resistência passiva dos veteranos, que controlavam recursos e conhecimento; e o fracasso do programa, o que geraria um descrédito ainda maior na gestão. Mitiguei esses riscos com protocolos claros de mediação, o envolvimento do RH como um facilitador neutro, e uma comunicação transparente sobre os objetivos, sempre focando no ROI para validar o programa antes de expandi-lo.",
         "q_en": "What were the main risks and how did you mitigate them?",
-        "a_en": "The main risks were open conflicts during mentoring sessions that could worsen divisions, passive resistance from veterans who controlled resources, and program failure generating even greater discredit. I mitigated with clear mediation protocols, HR involvement as neutral facilitator, transparent communication about purposes, and objective measurement of results to validate ROI before expanding."
+        "a_en": "The main risks were the possibility of open conflicts during the mentoring sessions, which could further aggravate the divisions; the passive resistance of the veterans, who controlled resources and knowledge; and the failure of the program, which would generate even greater discredit in management. I mitigated these risks with clear mediation protocols, the involvement of HR as a neutral facilitator, and transparent communication about the objectives, always focusing on the ROI to validate the program before expanding it."
       },
       {
-        "q": "Que dados você usou e qual foi a racional de cálculo?",
-        "a": "Usei dados do eNPS (48 pontos iniciais), pedidos de transferência (47 por trimestre), queixas de atraso (1.200 mensais), e tempo de resposta rural (14 dias). A racional foi baseada em custo de rotatividade: cada transferência evitada economizava R$180k (recrutamento + treinamento), e melhoria de 1 ponto no eNPS correlacionava com 3% de redução na rotatividade segundo benchmarks do setor público.",
-        "q_en": "What data did you use and what was the calculation rationale?",
-        "a_en": "I used eNPS data (48 initial points), transfer requests (47 per quarter), delay complaints (1,200 monthly), and rural response time (14 days). The rationale was based on turnover cost: each avoided transfer saved BRL 180k (recruitment + training), and each 1-point eNPS improvement correlated with 3% turnover reduction according to public sector benchmarks."
+        "q": "Que dados você usou para justificar o programa?",
+        "a": "Usei uma combinação de dados quantitativos e qualitativos. Os dados quantitativos incluíam o eNPS de 48 pontos, o aumento de 35% nos pedidos de transferência, as 1.200 queixas mensais na ouvidoria e o tempo de resposta ao contribuinte rural, que dobrou para 14 dias. Qualitativamente, usei as 40 entrevistas que conduziram para mapear as dores e frustrações de ambos os lados, o que me deu a base para o design do DuoLab.",
+        "q_en": "What data did you use to justify the program?",
+        "a_en": "I used a combination of quantitative and qualitative data. The quantitative data included the eNPS of 48 points, the 35% increase in transfer requests, the 1,200 monthly complaints to the ombudsman, and the response time to rural taxpayers, which had doubled to 14 days. Qualitatively, I used the 40 interviews I conducted to map the pains and frustrations of both sides, which gave me the basis for the DuoLab design."
       },
       {
-        "q": "Como você usou o aprendizado desse caso em outras frentes?",
-        "a": "Apliquei o conceito de propósito compartilhado no DuoLab na Unimed para resolver conflitos entre clínicos e administrativos, adaptando com foco no paciente. Na Bradesco Next, usei o mecanismo de reconhecimento formal para unir equipes técnicas e negócios. Atualmente replico o Insight Hub em todas as organizações com conflitos geracionais, sempre começando com as 3 perguntas individuais sobre o que impede as pessoas de quererem trabalhar ali.",
-        "q_en": "How did you apply the learning from this case in other areas?",
-        "a_en": "I applied the shared purpose concept from DuoLab at Unimed to resolve conflicts between clinicians and administrators, adapting with patient focus. At Bradesco Next, I used the formal recognition mechanism to unite technical and business teams. Currently I replicate the Insight Hub in all organizations with generational conflicts, always starting with the 3 individual questions about what prevents people from wanting to work there."
+        "q": "Como você aplicou o aprendizado deste caso em outras situações?",
+        "a": "Aprendi que a união de propósito compartilhado, crescimento visível e reconhecimento formal é a chave para resolver conflitos geracionais. Apliquei esse framework na Unimed, focando no paciente para unir clínicos e administrativos, e na Bradesco Next, usando o reconhecimento para alinhar equipes de tecnologia e negócios. Hoje, sempre começo qualquer transformação cultural com as três perguntas sobre o que impede, o que atrai e o que retém talentos.",
+        "q_en": "How did you apply the learning from this case in other situations?",
+        "a_en": "I learned that the combination of shared purpose, visible growth, and formal recognition is the key to resolving generational conflicts. I applied this framework at Unimed, focusing on the patient to unite clinicians and administrators, and at Bradesco Next, using recognition to align technology and business teams. Today, I always start any cultural transformation with the three questions about what prevents, what attracts, and what retains talent."
       },
       {
-        "q": "Como voce montou as duplas do DuoLab?",
-        "a": "Cruzei senioridade, habilidades e dores de contribuinte usando algoritmo simples no Excel.",
-        "q_en": "How did you match DuoLab pairs?",
-        "a_en": "I crossed seniority, skills, and taxpayer pain points with a simple Excel algorithm."
+        "q": "Como você montou as duplas do DuoLab de forma eficaz?",
+        "a": "Usei um algoritmo simples no Excel que cruzava três variáveis: senioridade, um mapa de habilidades complementares que construí, e as ‘dores’ específicas de cada contribuinte que a dupla iria resolver. Isso garantiu que cada par tivesse um propósito claro e as ferramentas necessárias para ter sucesso, transformando a mentoria em uma missão prática e não apenas um encontro para conversar.",
+        "q_en": "How did you match DuoLab pairs effectively?",
+        "a_en": "I used a simple Excel algorithm that crossed three variables: seniority, a map of complementary skills that I built, and the specific 'pains' of each taxpayer that the pair would solve. This ensured that each pair had a clear purpose and the necessary tools to succeed, turning mentoring into a practical mission and not just a meeting to talk."
       },
       {
-        "q": "Que indicadores eram acompanhados no Insight Hub?",
-        "a": "Metas SMART, horas investidas, status de entregaveis e impacto em NPS ou tempo de processo.",
-        "q_en": "Which metrics did Insight Hub track?",
-        "a_en": "SMART goals, hours invested, deliverable status, and impact on NPS or processing time."
+        "q": "Que indicadores-chave eram acompanhados no Insight Hub?",
+        "a": "O Insight Hub monitorava quatro indicadores principais: o progresso em relação às metas SMART de cada dupla, as horas de mentoria investidas, o status dos entregáveis de cada ‘Impacto em 30 Dias’, e o impacto real medido em NPS do contribuinte ou no tempo de redução de processos. Isso nos deu uma visão em tempo real da saúde e do ROI do programa.",
+        "q_en": "What key indicators were tracked in the Insight Hub?",
+        "a_en": "The Insight Hub monitored four main indicators: progress against each pair's SMART goals, the mentoring hours invested, the status of the deliverables for each 'Impact in 30 Days,' and the real impact measured in taxpayer NPS or process reduction time. This gave us a real-time view of the program's health and ROI."
       },
       {
-        "q": "Como garantiu adesao dos veteranos?",
-        "a": "Dei palco no Impacto em 30 Dias para eles apresentarem know-how e reconheci publicamente cada contribuicao.",
-        "q_en": "How did you keep veterans engaged?",
-        "a_en": "I let them headline Impact in 30 Days to showcase expertise and publicly acknowledged each contribution."
+        "q": "Como você garantiu a adesão dos veteranos, que eram os mais resistentes?",
+        "a": "Criei o ‘Palco do Especialista’ no evento ‘Impacto em 30 Dias’, onde os veteranos apresentavam o conhecimento técnico que foi crucial para a solução. Além disso, reconheci publicamente cada contribuição, mostrando que a experiência deles era o pilar do sucesso do programa. Isso mudou a percepção de que estavam sendo substituídos para a de que estavam sendo valorizados.",
+        "q_en": "How did you ensure the adherence of the veterans, who were the most resistant?",
+        "a_en": "I created the 'Expert Stage' at the 'Impact in 30 Days' event, where the veterans presented the technical knowledge that was crucial for the solution. In addition, I publicly recognized each contribution, showing that their experience was the pillar of the program's success. This changed the perception that they were being replaced to that of being valued."
       },
       {
-        "q": "Como mensurou a reducao de pedidos de transferencia?",
-        "a": "Comparei media trimestral antes e depois do DuoLab com dados do RH.",
-        "q_en": "How did you measure the drop in transfer requests?",
-        "a_en": "I compared quarterly averages before and after DuoLab using HR data."
+        "q": "Como você mensurou a redução de pedidos de transferência de forma precisa?",
+        "a": "Fiz uma análise de série temporal, comparando a média trimestral de pedidos de transferência nos 12 meses anteriores ao DuoLab com os 12 meses posteriores. Usei dados oficiais do sistema de RH, ajustados por sazonalidade, para garantir que a queda de 57% era estatisticamente significativa e diretamente correlacionada ao aumento do eNPS.",
+        "q_en": "How did you measure the reduction in transfer requests accurately?",
+        "a_en": "I did a time series analysis, comparing the quarterly average of transfer requests in the 12 months before DuoLab with the 12 months after. I used official data from the HR system, adjusted for seasonality, to ensure that the 57% drop was statistically significant and directly correlated with the increase in eNPS."
       },
       {
-        "q": "Qual projeto gerou maior ROI?",
-        "a": "Automaao de notificacao fiscal que economizou R$ 2,3M e reduziu emissao de 5 para 2 dias.",
-        "q_en": "Which project delivered the biggest ROI?",
-        "a_en": "Tax-notice automation saving BRL 2.3M and cutting issuance from five to two days."
+        "q": "Qual projeto específico gerou o maior ROI e por quê?",
+        "a": "O projeto de automação da notificação fiscal, liderado por uma dupla de um veterano especialista em legislação e um jovem analista de dados. Ele economizou R$ 2,3 milhões em custos de impressão e envio, e reduziu o tempo de emissão de 5 dias para 2 horas. O ROI foi massivo porque atacou um processo antigo, caro e ineficiente com uma solução tecnológica simples, mas poderosa.",
+        "q_en": "Which specific project generated the biggest ROI and why?",
+        "a_en": "The tax notification automation project, led by a pair of a veteran legislation expert and a young data analyst. It saved BRL 2.3 million in printing and mailing costs, and reduced the issuance time from 5 days to 2 hours. The ROI was massive because it attacked an old, expensive, and inefficient process with a simple but powerful technological solution."
       },
       {
-        "q": "Como lidou com duplas que nao entregavam?",
-        "a": "Ofereci coaching, troquei combinacoes quando necessario e associei reconhecimento a entregas concretas.",
-        "q_en": "How did you handle underperforming pairs?",
-        "a_en": "I offered coaching, rematched pairs when needed, and linked recognition to tangible outcomes."
+        "q": "Como você lidou com as duplas que não estavam entregando resultados?",
+        "a": "Criei um ‘plano de recuperação’ de 2 semanas, onde eu pessoalmente oferecia coaching para a dupla, ajudando a redefinir o escopo e a quebrar as barreiras. Se ainda assim não funcionasse, eu trocava as combinações, entendendo que a falta de química poderia ser o problema. Associei o reconhecimento público e as oportunidades de carreira às entregas concretas, criando um incentivo positivo para o desempenho.",
+        "q_en": "How did you handle the pairs that were not delivering results?",
+        "a_en": "I created a 2-week 'recovery plan,' where I personally offered coaching to the pair, helping to redefine the scope and break down barriers. If it still didn't work, I would swap the combinations, understanding that a lack of chemistry could be the problem. I linked public recognition and career opportunities to concrete deliverables, creating a positive incentive for performance."
       },
       {
-        "q": "Como mediu satisfacao do contribuinte?",
-        "a": "Usei NPS por canal e taxa de reabertura de chamado rural, ambos revisados mensalmente.",
-        "q_en": "How did you gauge taxpayer satisfaction?",
-        "a_en": "I tracked NPS per channel and rural ticket reopen rate, reviewed monthly."
+        "q": "Como você mediu a satisfação do contribuinte de forma contínua?",
+        "a": "Implementei um NPS transacional em todos os canais de atendimento digital, disparado 24 horas após a resolução do chamado. Além disso, monitorava a taxa de reabertura de chamados rurais, que era um indicador claro de que a solução inicial não havia sido eficaz. Esses dois KPIs eram revisados mensalmente pelo comitê de gestão.",
+        "q_en": "How did you measure taxpayer satisfaction continuously?",
+        "a_en": "I implemented a transactional NPS in all digital service channels, triggered 24 hours after the call was resolved. In addition, I monitored the rural call reopening rate, which was a clear indicator that the initial solution had not been effective. These two KPIs were reviewed monthly by the management committee."
       },
       {
-        "q": "Que papel teve o secretario?",
-        "a": "Validou ROI a cada bimestre e anunciou publicamente as duplas destaque, reforcando patrocinio.",
-        "q_en": "What role did the secretary play?",
-        "a_en": "He validated ROI every two months and publicly celebrated top pairs, reinforcing sponsorship."
+        "q": "Qual foi o papel do Secretário da Fazenda em todo o processo?",
+        "a": "O Secretário foi o meu principal patrocinador. Ele validava o ROI do programa a cada bimestre em reuniões de diretoria e anunciava publicamente as duplas de destaque em eventos da secretaria. Ter o apoio explícito do mais alto nível de liderança foi fundamental para reforçar a importância estratégica do DuoLab e vencer as resistências iniciais.",
+        "q_en": "What was the role of the Secretary of the Treasury in the whole process?",
+        "a_en": "The Secretary was my main sponsor. He validated the program's ROI every two months in board meetings and publicly announced the outstanding pairs at department events. Having the explicit support of the highest level of leadership was fundamental to reinforcing the strategic importance of DuoLab and overcoming initial resistance."
       },
       {
-        "q": "Qual foi o investimento do programa?",
-        "a": "R$ 420 mil entre plataforma, treinamento e horas liberadas; payback em dois meses.",
-        "q_en": "What was the program cost?",
-        "a_en": "BRL 420K in platform, training, and freed hours; payback in two months."
+        "q": "Qual foi o investimento total do programa e em quanto tempo ele se pagou?",
+        "a": "O investimento total foi de R$ 420 mil, incluindo os custos da plataforma Qualtrics, o treinamento dos facilitadores e as horas dos servidores liberadas para o programa. Com a economia gerada pela redução de transferências e a otimização de processos, o programa teve um payback de apenas dois meses, o que surpreendeu até os mais céticos.",
+        "q_en": "What was the total investment of the program and how long did it take to pay for itself?",
+        "a_en": "The total investment was BRL 420,000, including the costs of the Qualtrics platform, the training of the facilitators, and the hours of the civil servants released for the program. With the savings generated by the reduction in transfers and the optimization of processes, the program had a payback of just two months, which surprised even the most skeptical."
       },
       {
-        "q": "Como pretende escalar o DuoLab?",
-        "a": "Documentei o playbook e iniciei piloto na Secretaria da Fazenda do Ceara com adaptacoes locais.",
-        "q_en": "How will you scale DuoLab?",
-        "a_en": "I documented the playbook and started a pilot at Ceara's treasury with local adaptations."
+        "q": "Como você planeja escalar o DuoLab para outras áreas ou secretarias?",
+        "a": "Documentei todo o processo em um playbook detalhado, com os templates, os algoritmos de combinação e os roteiros de mediação. Já iniciei um projeto piloto na Secretaria da Fazenda do Ceará, com as devidas adaptações culturais e de processo. O objetivo é transformar o DuoLab em uma política pública de gestão de pessoas para todo o setor público gaúcho.",
+        "q_en": "How do you plan to scale DuoLab to other areas or departments?",
+        "a_en": "I documented the entire process in a detailed playbook, with the templates, the matching algorithms, and the mediation scripts. I have already started a pilot project in the Ceará State Treasury, with the necessary cultural and process adaptations. The goal is to transform DuoLab into a public policy for people management for the entire public sector of Rio Grande do Sul."
       }
     ]
   };

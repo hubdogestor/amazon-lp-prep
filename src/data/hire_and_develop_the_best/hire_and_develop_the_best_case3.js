@@ -44,64 +44,64 @@ I learned that poor performance is often not an individual failure, but a misali
   },
   fups: [
     {
-        "q": "Como você determinou que o desalinhamento de perfil era a causa principal do baixo desempenho e não outros fatores?",
-        "a": "Através do diagnóstico na conversa 1-a-1 e da observação. Eu descartei outros fatores: a habilidade técnica dele era alta (ele era ótimo com dados) e a clareza da tarefa não era o problema. O ponto chave foi quando ele descreveu o 'sentimento de pânico' ao ter que tomar uma decisão de fraude em segundos. Ficou claro que era um desalinhamento entre seu estilo metódico e a necessidade da função.",
-        "q_en": "How did you determine that profile misalignment was the main cause of poor performance and not other factors?",
-        "a_en": "Through diagnosis in the 1-on-1 conversation and observation. I ruled out other factors: his technical skill was high (he was great with data) and task clarity wasn't the problem. The key point was when he described the 'panic feeling' when having to make a fraud decision in seconds. It became clear it was a misalignment between his methodical style and the function's needs."
+        q: "Qual foi seu maior erro ou falha neste caso?",
+        a: "Meu maior erro foi não ter diagnosticado o desalinhamento de perfil mais cedo. O analista já estava na função há três meses, e eu deveria ter percebido os sinais de desmotivação e baixa produtividade antes. A demora em agir prolongou o gargalo que impactava 250 mil beneficiários e aumentou o risco de perdermos um talento com grande potencial.",
+        q_en: "What was your biggest mistake or failure in this case?",
+        a_en: "My biggest mistake was not diagnosing the profile misalignment sooner. The analyst had been in the role for three months, and I should have noticed the signs of demotivation and low productivity earlier. The delay in acting prolonged the bottleneck that impacted 250,000 beneficiaries and increased the risk of us losing a talent with great potential."
     },
     {
-        "q": "Quais métricas ou indicadores você monitorou para avaliar o impacto da realocação e do projeto de automação no desempenho do analista?",
-        "a": "Monitoramos três coisas: 1) Métricas de Produtividade: na nova função, a precisão das reconciliações dele atingiu 99.8%, a mais alta da equipe. 2) Feedback 360°: o feedback dos seus novos pares e do gestor foi excepcionalmente positivo. 3) Engajamento: ele passou de um funcionário reativo para alguém que proativamente sugeria melhorias, um claro indicador de motivação.",
-        "q_en": "What metrics or indicators did you monitor to evaluate the impact of reallocation and automation project on the analyst's performance?",
-        "a_en": "I monitored three things: 1) Productivity Metrics: in the new function, his reconciliation accuracy reached 99.8%, the highest on the team. 2) 360° Feedback: feedback from his new peers and manager was exceptionally positive. 3) Engagement: he went from a reactive employee to someone who proactively suggested improvements, a clear motivation indicator."
+        q: "O que você faria de diferente hoje?",
+        a: "Hoje, eu implementaria uma ‘sessão de alinhamento de perfil’ no primeiro mês de um novo contratado. Nessa sessão, eu sentaria com o novo funcionário e seu gestor para discutir abertamente seu estilo de trabalho, suas forças e preferências. Isso nos permitiria fazer pequenos ajustes de rota muito mais cedo e garantir que o talento certo esteja no lugar certo desde o início.",
+        q_en: "What would you do differently today?",
+        a_en: "Today, I would implement a 'profile alignment session' in a new hire's first month. In this session, I would sit down with the new employee and their manager to openly discuss their work style, their strengths, and their preferences. This would allow us to make small course corrections much earlier and ensure that the right talent is in the right place from the start."
     },
     {
-        "q": "Durante a mentoria para o uso da ferramenta n8n, houve resistência ou dificuldades? Como você ajudou o analista a superá-las?",
-        "a": "A principal dificuldade foi o medo inicial de 'quebrar' algo, pois ele nunca havia trabalhado com automação. Eu o ajudei a superar isso criando um 'ambiente seguro' (sandbox) para ele experimentar sem riscos. Também usei a técnica de 'pair programming', onde construímos o primeiro fluxo juntos. Isso diminuiu a barreira inicial e deu a ele a confiança para continuar sozinho.",
-        "q_en": "During mentoring for n8n tool usage, was there resistance or difficulties? How did you help the analyst overcome them?",
-        "a_en": "The main difficulty was initial fear of 'breaking' something, as he had never worked with automation. I helped him overcome this by creating a 'safe environment' (sandbox) for him to experiment without risks. I also used 'pair programming' technique, where I built the first flow together. This lowered the initial barrier and gave him confidence to continue alone."
+        q: "Qual foi o obstáculo mais difícil de superar?",
+        a: "O obstáculo mais difícil foi convencer a liderança a investir tempo e recursos em um funcionário com baixo desempenho, em vez de simplesmente substituí-lo. Apresentei meu diagnóstico e o plano de realocação como um ‘experimento de baixo custo’ com um potencial de retorno alto. O sucesso espetacular do analista na nova função provou o valor da abordagem e fortaleceu a cultura de desenvolvimento que eu estava tentando construir.",
+        q_en: "What was the most difficult obstacle to overcome?",
+        a_en: "The most difficult obstacle was convincing the leadership to invest time and resources in an underperforming employee, rather than simply replacing them. I presented my diagnosis and the reallocation plan as a 'low-cost experiment' with a high potential return. The analyst's spectacular success in the new role proved the value of the approach and strengthened the development culture I was trying to build."
     },
     {
-        "q": "Como você garantiu que o sucesso desse analista fosse comunicado e reconhecido dentro da empresa para reforçar a cultura de desenvolvimento?",
-        "a": "A comunicação foi uma parte chave da estratégia. Primeiro, garanti que ele apresentasse seu projeto para a diretoria, dando-lhe a visibilidade direta. Segundo, trabalhei com a equipe de comunicação interna para escrever um artigo sobre o caso dele para a newsletter da empresa, enquadrando-o como um exemplo da minha cultura de 'encontrar o lugar certo para o talento certo'.",
-        "q_en": "How did you ensure this analyst's success was communicated and recognized within the company to reinforce development culture?",
-        "a_en": "Communication was a key part of the strategy. First, I ensured he presented his project to the board, giving him direct visibility. Second, I worked with the internal communication team to write an article about his case for the company newsletter, framing it as an example of my culture of 'finding the right place for the right talent'."
+        q: "Quais foram os principais riscos da sua abordagem e como você os mitigou?",
+        a: "O principal risco era que, mesmo após a realocação, o desempenho do analista não melhorasse, o que prolongaria o problema. Mitiguei isso com um plano de desenvolvimento claro, com metas semanais e mentoria próxima. Se o desempenho não melhorasse em 30 dias, o plano B era iniciar um processo de PIP formal, garantindo que teríamos um caminho claro para a resolução, fosse ela qual fosse.",
+        q_en: "What were the main risks of your approach and how did you mitigate them?",
+        a_en: "The main risk was that, even after the reallocation, the analyst's performance would not improve, which would prolong the problem. I mitigated this with a clear development plan, with weekly goals and close mentoring. If performance did not improve in 30 days, Plan B was to initiate a formal PIP process, ensuring that we had a clear path to resolution, whatever it might be."
     },
     {
-        "q": "Após esse caso, você implementou mudanças ou melhorias no programa de desenvolvimento para evitar futuros casos de desalinhamento de perfil?",
-        "a": "Sim. A maior mudança foi a implementação de uma 'sessão de alinhamento de perfil' no primeiro mês de um novo contratado. Nela, sentamos com o novo funcionário e seu gestor para discutir abertamente seu estilo de trabalho, suas forças e preferências, e como elas se alinham com as demandas da função. Isso nos permite fazer pequenos ajustes de rota muito mais cedo.",
-        "q_en": "After this case, did you implement changes or improvements in the development program to avoid future profile misalignment cases?",
-        "a_en": "Yes. The biggest change was implementing a 'profile alignment session' in a new hire's first month. In it, I sit with the new employee and their manager to openly discuss their work style, strengths and preferences, and how they align with the function's demands. This allows us to make small course corrections much earlier."
+        q: "Que dados você usou para provar que a realocação foi a decisão certa?",
+        a: "Usei uma combinação de métricas de produtividade e de engajamento. Na nova função, a precisão das reconciliações do analista atingiu 99.8%, a mais alta da equipe. Além disso, o feedback 360° dos seus novos pares e do gestor foi excepcionalmente positivo, e ele passou de um funcionário reativo para alguém que proativamente sugeria melhorias, um claro indicador de motivação e sucesso.",
+        q_en: "What data did you use to prove that the reallocation was the right decision?",
+        a_en: "I used a combination of productivity and engagement metrics. In the new role, the analyst's reconciliation accuracy reached 99.8%, the highest on the team. In addition, the 360° feedback from his new peers and manager was exceptionally positive, and he went from a reactive employee to someone who proactively suggested improvements, a clear indicator of motivation and success."
     },
     {
-        "q": "Como a liderança reagiu à sua decisão de 'investir' em um funcionário com baixo desempenho em vez de substituí-lo?",
-        "a": "Inicialmente, com ceticismo. No entanto, apresentei meu diagnóstico e o plano de realocação como um 'experimento de baixo custo' com um potencial de retorno alto. O sucesso espetacular do analista na nova função provou o valor da abordagem e fortaleceu a cultura de desenvolvimento que eu estava tentando construir.",
-        "q_en": "How did leadership react to your decision to 'invest' in an underperforming employee instead of replacing him?",
-        "a_en": "Initially, with skepticism. However, I presented my diagnosis and reallocation plan as a 'low-cost experiment' with high return potential. The analyst's spectacular success in the new function proved the approach's value and strengthened the development culture I was trying to build."
+        q: "Como você aplicou o aprendizado deste caso em outras frentes?",
+        a: "A lição de que ‘baixo desempenho raramente é falha individual, mas sim um desalinhamento de perfil’ transformou minha abordagem de gestão de talentos. Passei a incluir uma avaliação de perfil comportamental em nosso processo de onboarding para garantir que os novos talentos sejam alocados nas áreas onde suas forças naturais possam brilhar desde o primeiro dia. Isso reduziu o turnover e aumentou a produtividade da equipe como um todo.",
+        q_en: "How did you apply the learning from this case in other areas?",
+        a_en: "The lesson that 'poor performance is rarely an individual failure, but rather a profile misalignment' transformed my talent management approach. I began to include a behavioral profile assessment in our onboarding process to ensure that new talents are allocated to areas where their natural strengths can shine from day one. This reduced turnover and increased overall team productivity."
     },
     {
-        "q": "E se, mesmo após a realocação, o desempenho do analista não tivesse melhorado?",
-        "a": "Nesse caso, o processo teria sido de transparência total. Eu teria um plano de melhoria de performance (PIP) formal, com metas claras e suporte adicional. O objetivo seria dar a ele todas as chances de sucesso. Se, mesmo assim, o desempenho não atingisse o padrão, eu conduziria o processo de desligamento de forma respeitosa, sabendo que fizemos tudo o que era possível.",
-        "q_en": "What if, even after reallocation, the analyst's performance hadn't improved?",
-        "a_en": "In that case, the process would have been one of total transparency. I would have a formal performance improvement plan (PIP), with clear goals and additional support. The objective would be to give him every chance for success. If, even so, performance didn't meet standards, I would conduct the termination process respectfully, knowing I did everything possible."
+        q: "Como você determinou que o desalinhamento de perfil era a causa principal do baixo desempenho?",
+        a: "Através de uma conversa 1-a-1 focada em diagnóstico, não em acusação. Descartei outros fatores, pois a habilidade técnica dele era alta e a clareza da tarefa não era o problema. O ponto chave foi quando ele descreveu o ‘sentimento de pânico’ ao ter que tomar uma decisão de fraude em segundos. Ficou claro que era um desalinhamento entre seu estilo metódico e a necessidade da função.",
+        q_en: "How did you determine that profile misalignment was the main cause of the poor performance?",
+        a_en: "Through a 1-on-1 conversation focused on diagnosis, not accusation. I ruled out other factors, as his technical ability was high and the clarity of the task was not the issue. The key point was when he described the 'feeling of panic' at having to make a fraud decision in seconds. It became clear that it was a misalignment between his methodical style and the needs of the role."
     },
     {
-        "q": "Como essa experiência influenciou sua forma de contratar?",
-        "a": "Reforçou minha convicção de contratar por 'potencial e habilidades transferíveis' em vez de 'experiência específica'. E me ensinou a ser ainda mais deliberado durante a entrevista para avaliar não apenas as competências, mas também o perfil comportamental, para garantir um melhor alinhamento com a função desde o início.",
-        "q_en": "How did this experience influence your hiring approach?",
-        "a_en": "It reinforced my conviction to hire for 'potential and transferable skills' instead of 'specific experience'. And it taught me to be even more deliberate during interviews to evaluate not just competencies, but also behavioral profile, to ensure better alignment with the function from the start."
+        q: "Durante a mentoria para o uso da ferramenta n8n, como você ajudou o analista a superar as dificuldades?",
+        a: "A principal dificuldade foi o medo inicial de ‘quebrar’ algo, pois ele nunca havia trabalhado com automação. Eu o ajudei a superar isso criando um ‘ambiente seguro’ (sandbox) para ele experimentar sem riscos. Também usei a técnica de ‘pair programming’, onde construímos o primeiro fluxo juntos, o que diminuiu a barreira inicial e deu a ele a confiança para continuar sozinho.",
+        q_en: "During the mentoring for the use of the n8n tool, how did you help the analyst overcome the difficulties?",
+        a_en: "The main difficulty was the initial fear of 'breaking' something, as he had never worked with automation. I helped him overcome this by creating a 'safe environment' (sandbox) for him to experiment without risks. I also used the 'pair programming' technique, where we built the first flow together, which lowered the initial barrier and gave him the confidence to continue on his own."
     },
     {
-        "q": "O que essa história diz sobre a sua filosofia de liderança?",
-        "a": "Diz que eu acredito que as pessoas são o maior ativo e que meu papel é atuar como um 'multiplicador de talentos'. Isso significa não apenas contratar os melhores, mas também ter a capacidade de enxergar o potencial onde outros veem um problema, e criar o ambiente certo para que esse potencial se transforme em alta performance.",
-        "q_en": "What does this story say about your leadership philosophy?",
-        "a_en": "It says I believe people are the greatest asset and that my role is to act as a 'talent multiplier'. This means not just hiring the best, but also having the ability to see potential where others see a problem, and creating the right environment for that potential to transform into high performance."
+        q: "Como você garantiu que o sucesso desse analista fosse reconhecido dentro da empresa?",
+        a: "A comunicação foi uma parte chave da estratégia. Garanti que ele apresentasse seu projeto de automação para a diretoria, dando-lhe a visibilidade direta. Além disso, trabalhei com a equipe de comunicação interna para escrever um artigo sobre o caso dele para a newsletter da empresa, enquadrando-o como um exemplo da minha cultura de ‘encontrar o lugar certo para o talento certo’.",
+        q_en: "How did you ensure that this analyst's success was recognized within the company?",
+        a_en: "Communication was a key part of the strategy. I made sure he presented his automation project to the board, giving him direct visibility. In addition, I worked with the internal communication team to write an article about his case for the company newsletter, framing it as an example of my culture of 'finding the right place for the right talent'."
     },
     {
-        "q": "Qual o seu papel quando um funcionário talentoso expressa o desejo de sair da empresa para buscar crescimento em outro lugar?",
-        "a": "Meu papel é ser um mentor de carreira, não um gerente possessivo. Eu teria uma conversa honesta para entender suas aspirações. Se a oportunidade externa for genuinamente a melhor para o crescimento dele, eu o apoiaria 100% e o ajudaria a se preparar, mantendo a porta aberta para o futuro. O sucesso pessoal dele é a meta, não a retenção a qualquer custo.",
-        "q_en": "What's your role when a talented employee expresses desire to leave the company to seek growth elsewhere?",
-        "a_en": "My role is to be a career mentor, not a possessive manager. I would have an honest conversation to understand their aspirations. If the external opportunity is genuinely best for their growth, I would support them 100% and help them prepare, keeping the door open for the future. Their personal success is the goal, not retention at any cost."
+        q: "O que essa história diz sobre a sua filosofia de liderança?",
+        a: "Diz que eu acredito que as pessoas são o maior ativo de uma empresa e que meu papel como líder é atuar como um ‘multiplicador de talentos’. Isso significa não apenas contratar os melhores, mas também ter a capacidade de enxergar o potencial onde outros veem um problema, e criar o ambiente certo para que esse potencial se transforme em alta performance e gere valor para o negócio.",
+        q_en: "What does this story say about your leadership philosophy?",
+        a_en: "It says that I believe that people are a company's greatest asset and that my role as a leader is to act as a 'talent multiplier.' This means not only hiring the best, but also having the ability to see potential where others see a problem, and creating the right environment for that potential to transform into high performance and generate value for the business."
     }
 ]
 };

@@ -34,95 +34,64 @@ const case_3 = {
 
   fups: [
     {
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Meu erro inicial foi tentar ajustar o modelo antifraude existente em vez de reconstruí-lo do zero. Perdi quase uma semana tentando calibrar regras que eram estruturalmente limitadas para detectar fraudes em rede. Aprendi que, ao lidar com anomalias complexas, é mais eficiente começar do zero e confiar na análise de dados brutos do que tentar consertar um sistema que não foi projetado para aquele tipo de problema.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "My initial mistake was trying to adjust the existing fraud model instead of rebuilding it from scratch. I lost almost a week calibrating rules that were structurally limited to detect network fraud. I learned that when dealing with complex anomalies, it's more efficient to start from scratch and trust raw data analysis than to try to fix a system that wasn't designed for that type of problem."
+    },
+    {
+      q: "O que você faria diferente hoje?",
+      a: "Hoje, eu começaria a investigação com uma mentalidade de ‘sistemas, não sintomas’. Em vez de focar nas transações individuais, eu mapearia todo o ecossistema de pagamentos primeiro, procurando por pontos de conexão e vulnerabilidades sistêmicas. Essa abordagem teria me levado à análise de rede mais rapidamente, economizando tempo e recursos preciosos.",
+      q_en: "What would you do differently today?",
+      a_en: "Today, I would start the investigation with a 'systems, not symptoms' mindset. Instead of focusing on individual transactions, I would map the entire payment ecosystem first, looking for connection points and systemic vulnerabilities. This approach would have led me to the network analysis faster, saving precious time and resources."
+    },
+    {
       q: "Qual foi o obstáculo mais difícil de superar durante a investigação?",
-      a: "Convencer a diretoria médica a agir foi o principal desafio. Havia receio político de envolver uma rede parceira. Usei empatia e dados concretos para tornar a decisão segura, mostrando que a ação seria discreta e preservaria os clientes legítimos.",
+      a: "O obstáculo mais difícil foi convencer a diretoria médica a agir contra uma rede de psicólogos parceira. Havia um receio político de criar um conflito com profissionais importantes. Para superar isso, usei uma combinação de dados concretos, mostrando o impacto financeiro de R$4,8 milhões, e empatia, garantindo que a ação seria discreta e preservaria os clientes legítimos, o que tornou a decisão mais segura para eles.",
       q_en: "What was the most difficult obstacle to overcome during the investigation?",
-      a_en: "Convincing the medical board to act was the main challenge. There was political fear of involving a partner network. I used empathy and concrete data to make the decision safe, showing that the action would be discreet and preserve legitimate customers."
+      a_en: "The most difficult obstacle was convincing the medical board to act against a partner network of psychologists. There was a political fear of creating a conflict with important professionals. To overcome this, I used a combination of concrete data, showing the financial impact of BRL 4.8 million, and empathy, ensuring that the action would be discreet and preserve legitimate customers, which made the decision safer for them."
     },
     {
-      q: "Quais foram os principais riscos do projeto e como você mitigou cada um?",
-      a: "Os riscos eram três: bloquear clientes reais, gerar ruído regulatório e comprometer a confiança dos médicos. Mitiguei incluindo compliance e jurídico desde o início, criando revisões manuais de 24h e comunicando cada passo com mensagens internas controladas.",
+      q: "Quais foram os principais riscos do projeto e como você os mitigou?",
+      a: "Os principais riscos eram três: bloquear clientes reais e gerar insatisfação, criar ruído regulatório com a ANS, e comprometer a confiança dos médicos parceiros. Mitiguei esses riscos incluindo as áreas de compliance e jurídico desde o início, criando um processo de revisão manual de 24 horas para casos suspeitos, e comunicando cada passo com mensagens internas controladas para evitar pânico.",
       q_en: "What were the main project risks and how did you mitigate each one?",
-      a_en: "There were three risks: blocking real customers, generating regulatory noise, and compromising doctor trust. I mitigated by including compliance and legal from the start, creating 24-hour manual reviews, and communicating each step with controlled internal messages."
+      a_en: "The main risks were three: blocking real customers and generating dissatisfaction, creating regulatory noise with the ANS, and compromising the trust of partner doctors. I mitigated these risks by including the compliance and legal areas from the beginning, creating a 24-hour manual review process for suspicious cases, and communicating each step with controlled internal messages to avoid panic."
     },
     {
-      q: "Como você calculou a perda potencial de R$4,8 milhões?",
-      a: "Projetei a média de transações diárias suspeitas, multipliquei pelo ticket médio de R$150 e pela taxa de reincidência semanal. Cruzei os resultados com logs históricos e validações amostrais no banco de dados transacional.",
-      q_en: "How did you calculate the potential loss of BRL 4.8 million?",
-      a_en: "I projected the average daily suspicious transactions, multiplied by the average ticket of BRL 150 and the weekly recurrence rate. I cross-referenced the results with historical logs and sample validations in the transactional database."
+      q: "Que dados você usou para provar a fraude e qual foi a lógica da sua análise?",
+      a: "A lógica foi conectar sinais fracos que, isoladamente, não significavam nada. Usei scripts em Python para correlacionar CPF, geolocalização de IP e o hash do dispositivo em 28 milhões de transações. O cruzamento do hash do dispositivo com o CPF foi o ponto de virada, revelando que apenas três dispositivos controlavam todos os CPFs suspeitos, o que provou a existência de uma rede organizada.",
+      q_en: "What data did you use to prove the fraud and what was the logic of your analysis?",
+      a_en: "The logic was to connect weak signals that, in isolation, meant nothing. I used Python scripts to correlate CPF, IP geolocation, and the device hash in 28 million transactions. The cross-referencing of the device hash with the CPF was the turning point, revealing that only three devices controlled all the suspicious CPFs, which proved the existence of an organized network."
     },
     {
-      q: "Qual insight técnico foi o ponto de virada na descoberta da fraude?",
-      a: "O cruzamento de device hash com CPF. Quando percebi que três devices controlavam todos os CPFs suspeitos, a rede apareceu claramente. A visualização em grafo consolidou a prova definitiva.",
-      q_en: "What technical insight was the turning point in discovering the fraud?",
-      a_en: "The cross-referencing of device hash with CPF. When I realized three devices controlled all suspicious CPFs, the network appeared clearly. The graph visualization consolidated the definitive proof."
+      q: "Como você usou o aprendizado desse caso em outras frentes?",
+      a: "O mapa de correlação que criei virou um mecanismo permanente e foi compartilhado com 14 outras cooperativas, protegendo R$67 milhões adicionais. A metodologia foi posteriormente aplicada no Sicredi para reduzir fraudes via PIX em 45%, evitando R$23 milhões em perdas no primeiro ano. O aprendizado de conectar sinais fracos se tornou um pilar da minha abordagem de gestão de risco.",
+      q_en: "How did you use the learning from this case in other areas?",
+      a_en: "The correlation map I created became a permanent mechanism and was shared with 14 other cooperatives, protecting an additional BRL 67 million. The methodology was later applied at Sicredi to reduce PIX fraud by 45%, avoiding BRL 23 million in losses in the first year. The learning of connecting weak signals has become a pillar of my risk management approach."
     },
     {
       q: "Como garantiu que o bloqueio preventivo não afetasse clientes genuínos?",
-      a: "Implementei bloqueios temporários apenas acima do percentil 99 de frequência e valor, com revisão manual em até 24 horas. Isso reduziu falsos positivos e manteve o índice de reclamações em zero.",
-      q_en: "How did you ensure preventive blocking didn't affect genuine customers?",
-      a_en: "I implemented temporary blocks only above the 99th percentile of frequency and value, with manual review within 24 hours. This reduced false positives and kept the complaint rate at zero."
+      a: "Implementei bloqueios temporários apenas para transações que estivessem acima do percentil 99 de frequência e valor, e criei um processo de revisão manual em até 24 horas para esses casos. Isso reduziu os falsos positivos a quase zero e manteve o índice de reclamações de clientes legítimos em zero, garantindo uma experiência positiva para eles.",
+      q_en: "How did you ensure that the preventive blocking did not affect genuine customers?",
+      a_en: "I implemented temporary blocks only for transactions that were above the 99th percentile of frequency and value, and I created a manual review process within 24 hours for these cases. This reduced false positives to almost zero and kept the complaint rate from legitimate customers at zero, ensuring a positive experience for them."
     },
     {
-      q: "Qual foi a reação dos times de jurídico e compliance à sua abordagem?",
-      a: "Inicialmente, cautelosa. Eles temiam exposição pública. Mostrei que o plano era técnico e confidencial, não punitivo - e convidei ambos para coproduzir o protocolo final. Isso mudou o papel deles de barreira para aliados.",
-      q_en: "What was the legal and compliance teams' reaction to your approach?",
-      a_en: "Initially cautious. They feared public exposure. I showed that the plan was technical and confidential, not punitive - and invited both to co-produce the final protocol. This changed their role from barrier to allies."
+      q: "Qual foi a reação das equipes de jurídico e compliance à sua abordagem proativa?",
+      a: "Inicialmente, eles foram cautelosos, pois temiam a exposição pública e os riscos legais. No entanto, quando mostrei que o plano era técnico, confidencial e focado em prevenção, não em punição, e os convidei para co-produzir o protocolo final, eles se tornaram meus maiores aliados. A colaboração transformou o papel deles de uma barreira para uma força de apoio.",
+      q_en: "What was the reaction of the legal and compliance teams to your proactive approach?",
+      a_en: "Initially, they were cautious, as they feared public exposure and legal risks. However, when I showed them that the plan was technical, confidential, and focused on prevention, not punishment, and invited them to co-produce the final protocol, they became my biggest allies. The collaboration transformed their role from a barrier to a support force."
     },
     {
-      q: "Como você mediu o sucesso do novo modelo antifraude?",
-      a: "Usei três métricas: aumento de precisão (+31%), redução de falsos positivos (-42%) e tempo médio de revisão (25→11 minutos). Além disso, o volume de fraudes detectadas caiu 60% nos três meses seguintes.",
-      q_en: "How did you measure the success of the new fraud detection model?",
-      a_en: "I used three metrics: precision increase (+31%), false positive reduction (-42%), and average review time (25→11 minutes). Additionally, the volume of detected fraud dropped 60% in the following three months."
-    },
-    {
-      q: "Qual foi o impacto organizacional da sua abordagem?",
-      a: "Mudou o mindset de todo o time. A partir dali, os analistas passaram a propor hipóteses e scripts próprios. A cultura saiu do modo reativo para um modelo preditivo e colaborativo.",
-      q_en: "What was the organizational impact of your approach?",
-      a_en: "It changed the entire team's mindset. From then on, analysts began proposing their own hypotheses and scripts. The culture shifted from reactive mode to a predictive and collaborative model."
-    },
-    {
-      q: "Como você aplicou o aprendizado desse caso em outras empresas?",
-      a: "Criei uma versão simplificada do mesmo modelo e apliquei no Sicredi. Adaptando as features, reduzi fraudes em PIX em 45%. A base do raciocínio foi idêntica: conectar sinais fracos que ninguém mais estava cruzando.",
-      q_en: "How did you apply the learning from this case to other companies?",
-      a_en: "I created a simplified version of the same model and applied it at Sicredi. By adapting the features, I reduced PIX fraud by 45%. The reasoning base was identical: connecting weak signals that no one else was cross-referencing."
-    },
-    {
-      q: "Como lidou com o volume massivo de dados (28 milhões de transações)?",
-      a: "Utilizei amostragem estratificada, filtrando transações por intensidade de IP e frequência de CPF. Rodei os scripts em lotes distribuídos no Spark local e validei incremento a incremento para garantir performance.",
-      q_en: "How did you handle the massive data volume (28 million transactions)?",
-      a_en: "I used stratified sampling, filtering transactions by IP intensity and CPF frequency. I ran the scripts in distributed batches on local Spark and validated incrementally to ensure performance."
+      q: "Como você mediu o sucesso do novo modelo antifraude em termos de eficiência operacional?",
+      a: "Além do aumento de 31% na precisão e da redução de 42% nos falsos positivos, o tempo médio de revisão de alertas caiu de 25 para 11 minutos. Isso liberou 56% do tempo da equipe de analistas, que pôde ser realocado para investigações mais estratégicas e complexas, aumentando a eficiência geral da área.",
+      q_en: "How did you measure the success of the new anti-fraud model in terms of operational efficiency?",
+      a_en: "In addition to the 31% increase in accuracy and the 42% reduction in false positives, the average alert review time dropped from 25 to 11 minutes. This freed up 56% of the analysts' team time, which could be reallocated to more strategic and complex investigations, increasing the overall efficiency of the area."
     },
     {
       q: "Como você reconheceu o papel da analista que levantou o alerta inicial?",
-      a: "Mencionei o nome dela pessoalmente no comitê executivo e a incluí no grupo de inovação antifraude. Isso reforçou o valor da voz técnica e gerou efeito de segurança psicológica no time.",
-      q_en: "How did you recognize the analyst who raised the initial alert?",
-      a_en: "I personally mentioned her name in the executive committee and included her in the fraud innovation group. This reinforced the value of technical voice and created a psychological safety effect on the team."
-    },
-    {
-      q: "Como garantiu governança e compliance com a ANS ao alterar processos de reembolso?",
-      a: "Formalizamos um documento conjunto entre jurídico, risco e compliance detalhando cada exceção e incluímos um painel de rastreabilidade via CRM. A ANS validou o fluxo em auditoria trimestral.",
-      q_en: "How did you ensure governance and ANS compliance when changing reimbursement processes?",
-      a_en: "We formalized a joint document between legal, risk, and compliance detailing each exception and included a traceability panel via CRM. ANS validated the flow in quarterly audit."
-    },
-    {
-      q: "Qual foi o momento em que você percebeu que estava certo sobre a fraude?",
-      a: "Quando desenhei o grafo e vi as 12 clínicas se conectando aos mesmos 3 devices. Foi o 'aha moment' - a anomalia virou uma rede visível. Naquele instante, eu sabia que era fraude sistêmica.",
-      q_en: "What was the moment you realized you were right about the fraud?",
-      a_en: "When I drew the graph and saw the 12 clinics connecting to the same 3 devices. It was the 'aha moment' - the anomaly became a visible network. At that instant, I knew it was systemic fraud."
-    },
-    {
-      q: "O que esse caso demonstra sobre o princípio 'Dive Deep' na prática?",
-      a: "Significa que eu não delego a curiosidade - mergulho pessoalmente no dado cru, entendendo a jornada, o risco e o contexto. Mergulhar fundo é não aceitar um 'dashboard verde' sem entender suas entrelinhas.",
-      q_en: "What does this case demonstrate about the 'Dive Deep' principle in practice?",
-      a_en: "It means I don't delegate curiosity - I personally dive into raw data, understanding the journey, risk, and context. Diving deep means not accepting a 'green dashboard' without understanding what lies beneath."
-    }
-    ,
-    {
-      q: "Qual foi seu maior erro ou falha neste caso?",
-      a: "Meu erro inicial foi tentar ajustar o modelo antifraude existente em vez de reconstruí-lo. Perdi quase uma semana tentando calibrar regras que eram estruturalmente limitadas. Aprendi que, ao lidar com anomalias complexas, é mais eficiente começar do zero e confiar na análise de dados brutos do que tentar consertar um sistema falho.",
-      q_en: "What was your biggest mistake or failure in this case?",
-      a_en: "My initial mistake was trying to adjust the existing fraud model instead of rebuilding it. I lost almost a week calibrating rules that were structurally limited. I learned that when dealing with complex anomalies, it's more efficient to start from scratch and trust raw data analysis than to try to fix a flawed system."
+      a: "Fiz questão de mencionar o nome dela pessoalmente no comitê executivo como a origem da investigação e a incluí no grupo de inovação antifraude que criei. Isso reforçou o valor da voz técnica na linha de frente e gerou um efeito de segurança psicológica em toda a equipe, incentivando outros a levantarem alertas.",
+      q_en: "How did you recognize the role of the analyst who raised the initial alert?",
+      a_en: "I made a point of personally mentioning her name in the executive committee as the origin of the investigation and included her in the anti-fraud innovation group I created. This reinforced the value of the technical voice on the front line and generated a psychological safety effect throughout the team, encouraging others to raise alerts."
     }
   ]
 };

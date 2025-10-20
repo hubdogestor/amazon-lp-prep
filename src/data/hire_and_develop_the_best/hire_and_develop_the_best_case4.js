@@ -24,66 +24,66 @@ const case_4 = {
     r: `Results painfully validated that raising the bar requires courage to face internal resistance when data points the right way. In Júlia's first 90 days as coordinator, she exceeded all 3 targets: launched new digital prescription module with NPS of 74 (target was 65), delivered in 6.5 weeks (target was 8), and achieved 78% adoption among cooperative doctors (target was 70%). More importantly: under her leadership, average digital product NPS jumped from 48 to 69 in 6 months, team average delivery speed fell from 11 to 7 weeks (-36%), and digital product revenue grew BRL 5.1M - 21% above the BRL 4.2M projection I used in business case. Cultural impact was even deeper: of 3 seniors, 2 embraced development plan and significantly improved in customer obsession - one was promoted 8 months later to lead another area. The third resigned as threatened, but 3 weeks later sent me message acknowledging "the decision was right, I was focused on seniority instead of impact." Júlia became mentor to 4 analysts, implemented "customer immersion" ritual where entire team spends 1 day per month serving beneficiaries, and created beneficiary-impact prioritization framework adopted in other Unimed areas. CEO told me personally: "You had courage to make the right choice even knowing it would generate conflict. That's raising the bar." Team voluntary turnover rate fell from 18% to 6% in following 12 months, and I received 7 internal applications from other areas wanting to work in digital products team - unprecedented.`,
     l: `Retrospectively, this case redefined my understanding of hire and develop the best - it's not about promoting who is most technically prepared today, but who has greatest potential to raise leadership standard and customer impact. I learned raising the bar always generates resistance, and that objective data + radical transparency are the only weapons to transform resistance into acceptance. The 360 evaluation framework with 6 leadership dimensions became my standard for any promotion decision - I later used it at SEFAZ-RS to promote junior public servant who demonstrated exceptional ownership, generating similar resistance but equally transformative results. The deepest learning was that leadership courage isn't about avoiding conflict, but about making the right choice even knowing there will be conflict. When you combine objective criteria + performance data + process transparency, even resisters eventually recognize the decision was right. Today, in payments, I apply the same principle: I promote who demonstrates exceptional customer obsession and ownership, not who has most years of technical experience. And I always offer clear development plan for who wasn't promoted, transforming frustration into growth opportunity.`,
   },
-  fups: [
+fups: [
     {
-      q: "Como você garantiu que os critérios de avaliação não fossem enviesados a favor de Júlia?",
-      a: "Defini os 6 critérios de liderança ANTES de avaliar qualquer candidato, baseando-me nos valores cooperativistas da Unimed e nas competências críticas para produtos digitais. Só depois apliquei a avaliação 360 com 12 stakeholders independentes. O viés seria definir critérios depois de conhecer os candidatos.",
-      q_en: "How did you ensure evaluation criteria weren't biased toward Júlia?",
-      a_en: "I defined the 6 leadership criteria BEFORE evaluating any candidate, basing them on Unimed's cooperative values and critical competencies for digital products. Only then did I apply 360 evaluation with 12 independent stakeholders. Bias would be defining criteria after knowing candidates."
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Meu maior erro foi não ter antecipado a intensidade da reação dos analistas seniores. Eu subestimei o impacto emocional que a promoção de alguém com menos tempo de casa teria sobre eles. Deveria ter preparado o terreno com conversas individuais antes mesmo de iniciar o processo de avaliação, para gerenciar as expectativas e o sentimento de injustiça.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "My biggest mistake was not anticipating the intensity of the senior analysts' reaction. I underestimated the emotional impact that promoting someone with less tenure would have on them. I should have prepared the ground with individual conversations even before starting the evaluation process, to manage expectations and the feeling of injustice."
     },
     {
-      q: "Qual foi a reação do CEO e CHRO quando você apresentou o business case?",
-      a: "CEO apoiou imediatamente porque viu dados objetivos e potencial de R$ 4.2M. CHRO ficou preocupada com risco de turnover dos seniores, mas quando mostrei plano de desenvolvimento personalizado para cada um e compromisso de mentoria trimestral, ela aprovou. A chave foi demonstrar que não estava apenas promovendo, mas desenvolvendo todos.",
-      q_en: "What was CEO and CHRO reaction when you presented business case?",
-      a_en: "CEO supported immediately because he saw objective data and BRL 4.2M potential. CHRO was concerned about senior turnover risk, but when I showed personalized development plan for each and quarterly mentoring commitment, she approved. Key was demonstrating I wasn't just promoting, but developing everyone."
+      q: "O que você faria de diferente hoje?",
+      a: "Hoje, eu envolveria os três seniores no processo de definição dos critérios de liderança, tornando-os co-criadores do framework de avaliação. Isso não mudaria o resultado, pois os critérios seriam os mesmos, mas lhes daria um senso de propriedade sobre o processo. A decisão final ainda seria baseada em dados, mas o caminho até ela seria mais colaborativo.",
+      q_en: "What would you do differently today?",
+      a_en: "Today, I would involve the three seniors in the process of defining the leadership criteria, making them co-creators of the evaluation framework. This would not change the outcome, as the criteria would be the same, but it would give them a sense of ownership over the process. The final decision would still be based on data, but the path to it would be more collaborative."
     },
     {
-      q: "Como você lidou emocionalmente com a ameaça de demissão do sênior?",
-      a: "Foi difícil, mas reframeei mentalmente: meu trabalho não é manter todos felizes, é servir os 695 mil beneficiários. Se eu cedesse à pressão política, estaria traindo minha responsabilidade de elevar a barra. Também confiei nos dados - a avaliação 360 era irrefutável. Quando você tem dados objetivos, decisões difíceis ficam mais claras.",
-      q_en: "How did you handle emotionally the senior's resignation threat?",
-      a_en: "It was hard, but I mentally reframed: my job isn't keeping everyone happy, it's serving 695 thousand beneficiaries. If I yielded to political pressure, I'd be betraying my responsibility to raise the bar. I also trusted data - 360 evaluation was irrefutable. When you have objective data, difficult decisions become clearer."
+      q: "Qual foi o obstáculo mais difícil de superar?",
+      a: "O obstáculo mais difícil foi lidar com a ameaça de demissão e o risco de um ‘motim’ interno. Para superar isso, mantive a calma, confiei nos dados da avaliação 360 e na minha convicção de que estava fazendo o melhor para os clientes. A conversa individual com cada sênior, onde apresentei os dados e um plano de desenvolvimento, foi crucial para desarmar a situação e mostrar que a decisão não era pessoal.",
+      q_en: "What was the most difficult obstacle to overcome?",
+      a_en: "The most difficult obstacle was dealing with the threat of resignation and the risk of an internal 'mutiny.' To overcome this, I remained calm, trusted the data from the 360 evaluation, and my conviction that I was doing what was best for the customers. The individual conversation with each senior, where I presented the data and a development plan, was crucial to defuse the situation and show that the decision was not personal."
     },
     {
-      q: "Qual foi o maior risco dessa decisão e como você mitigou?",
-      a: "O maior risco era Júlia falhar nos primeiros 90 dias, validando os críticos e destruindo minha credibilidade. Mitigei com 3 ações: (1) defini metas claras e públicas com accountability transparente, (2) me comprometi a mentorar Júlia semanalmente nos primeiros 3 meses, (3) assumi publicamente que se ela falhasse, a responsabilidade seria minha, não dela.",
-      q_en: "What was the biggest risk of this decision and how did you mitigate it?",
-      a_en: "Biggest risk was Júlia failing in first 90 days, validating critics and destroying my credibility. I mitigated with 3 actions: (1) defined clear public targets with transparent accountability, (2) committed to mentor Júlia weekly in first 3 months, (3) publicly assumed that if she failed, responsibility would be mine, not hers."
+      q: "Quais foram os principais riscos da sua decisão e como você os mitigou?",
+      a: "O maior risco era Júlia falhar nos primeiros 90 dias, o que validaria os críticos e destruiria minha credibilidade. Mitiguei isso com três ações: defini metas claras e públicas com accountability transparente; me comprometi a mentorá-la semanalmente nos primeiros 3 meses; e assumi publicamente que, se ela falhasse, a responsabilidade seria minha, não dela. Isso criou uma rede de segurança para ela e para mim.",
+      q_en: "What were the main risks of your decision and how did you mitigate them?",
+      a_en: "The biggest risk was Júlia failing in the first 90 days, which would validate the critics and destroy my credibility. I mitigated this with three actions: I defined clear and public goals with transparent accountability; I committed to mentoring her weekly for the first 3 months; and I publicly assumed that if she failed, the responsibility would be mine, not hers. This created a safety net for her and for me."
+    },
+    {
+      q: "Que dados você usou para provar que Júlia era a melhor escolha?",
+      a: "Usei uma combinação de dados qualitativos e quantitativos. Qualitativamente, o feedback dos 12 stakeholders na avaliação 360 foi esmagadoramente a favor dela. Quantitativamente, os projetos que ela liderou tinham um NPS médio de 68, contra 42 dos seniores, uma velocidade de entrega 2.3x maior e uma taxa de adoção 34% superior. Os dados tornaram a decisão objetiva e defensável.",
+      q_en: "What data did you use to prove that Júlia was the best choice?",
+      a_en: "I used a combination of qualitative and quantitative data. Qualitatively, the feedback from the 12 stakeholders in the 360 evaluation was overwhelmingly in her favor. Quantitatively, the projects she led had an average NPS of 68, compared to 42 for the seniors, a 2.3x faster delivery speed, and a 34% higher adoption rate. The data made the decision objective and defensible."
+    },
+    {
+      q: "Como você aplicou o aprendizado deste caso em outras frentes?",
+      a: "O framework de avaliação 360 com as 6 dimensões de liderança se tornou meu padrão para qualquer decisão de promoção. Usei-o na SEFAZ-RS para promover um servidor público júnior que demonstrou um ownership excepcional, o que gerou uma resistência similar, mas resultados igualmente transformadores. A lição de que a coragem de liderança é fazer a escolha certa, mesmo sabendo que haverá conflito, me guia até hoje.",
+      q_en: "How did you apply the learning from this case in other areas?",
+      a_en: "The 360 evaluation framework with the 6 leadership dimensions has become my standard for any promotion decision. I used it at SEFAZ-RS to promote a junior public servant who demonstrated exceptional ownership, which generated similar resistance but equally transformative results. The lesson that leadership courage is about making the right choice, even knowing there will be conflict, guides me to this day."
     },
     {
       q: "Como você estruturou o plano de desenvolvimento dos 3 seniores?",
-      a: "Criei plano personalizado para cada um focando em gaps específicos da avaliação 360. Para customer obsession, estabeleci ritual de ligar para 5 beneficiários por mês e apresentar learnings. Para bias for action, defini meta de reduzir tempo de decisão em 40%. Para ownership, pedi que assumissem projetos além do escopo. Mentoria trimestral de 1h com cada um para revisar progresso.",
-      q_en: "How did you structure development plan for 3 seniors?",
-      a_en: "I created personalized plan for each focusing on specific 360 evaluation gaps. For customer obsession, established ritual of calling 5 beneficiaries per month and presenting learnings. For bias for action, set target to reduce decision time by 40%. For ownership, asked them to own projects beyond scope. Quarterly 1-hour mentoring with each to review progress."
+      a: "Criei um plano personalizado para cada um, focando nos gaps específicos da avaliação 360. Para o gap de ‘customer obsession’, estabeleci um ritual de ligar para 5 beneficiários por mês e apresentar os aprendizados. Para ‘bias for action’, defini uma meta de reduzir o tempo de decisão em 40%. E para ‘ownership’, pedi que assumissem projetos desafiadores além do seu escopo. A mentoria trimestral garantia o acompanhamento.",
+      q_en: "How did you structure the development plan for the 3 seniors?",
+      a_en: "I created a personalized plan for each one, focusing on the specific gaps from the 360 evaluation. For the 'customer obsession' gap, I established a ritual of calling 5 beneficiaries per month and presenting the learnings. For 'bias for action,' I set a goal to reduce decision time by 40%. And for 'ownership,' I asked them to take on challenging projects beyond their scope. The quarterly mentoring ensured follow-up."
     },
     {
-      q: "Qual foi o feedback dos 12 stakeholders sobre a avaliação 360?",
-      a: "Todos elogiaram a transparência e objetividade do processo. Médicos cooperados destacaram que Júlia era a única que realmente ouvia feedback deles e agia rapidamente. Beneficiários mencionaram que ela ligava pessoalmente quando havia problemas. Time de TI disse que ela era a mais colaborativa e focada em soluções, não em culpar.",
-      q_en: "What was feedback from 12 stakeholders about 360 evaluation?",
-      a_en: "All praised process transparency and objectivity. Cooperative doctors highlighted Júlia was the only one who truly listened to their feedback and acted quickly. Beneficiaries mentioned she personally called when there were problems. IT team said she was most collaborative and solution-focused, not blame-focused."
+      q: "Qual foi a reação do CEO e do CHRO quando você apresentou o business case?",
+      a: "O CEO apoiou imediatamente porque viu os dados objetivos e o potencial de R$ 4,2 milhões em receita. O CHRO ficou preocupado com o risco de turnover dos seniores, mas quando mostrei o plano de desenvolvimento personalizado para cada um e meu compromisso de mentoria trimestral, ela aprovou. A chave foi demonstrar que eu não estava apenas promovendo um, mas desenvolvendo todos.",
+      q_en: "What was the reaction of the CEO and CHRO when you presented the business case?",
+      a_en: "The CEO supported it immediately because he saw the objective data and the potential of BRL 4.2 million in revenue. The CHRO was concerned about the risk of turnover of the seniors, but when I showed the personalized development plan for each one and my commitment to quarterly mentoring, she approved. The key was to demonstrate that I was not just promoting one, but developing everyone."
     },
     {
-      q: "Como você mediu o impacto de R$ 5.1M em receita de produtos digitais?",
-      a: "Calculei receita incremental de novos produtos lançados sob liderança de Júlia (prescrição digital, telemedicina expandida) multiplicando base de usuários ativos pelo ticket médio mensal. Também considerei aumento de conversão e redução de churn. CFO da Unimed validou a metodologia e os números.",
-      q_en: "How did you measure BRL 5.1M impact in digital product revenue?",
-      a_en: "I calculated incremental revenue from new products launched under Júlia's leadership (digital prescription, expanded telemedicine) multiplying active user base by average monthly ticket. Also considered increased conversion and reduced churn. Unimed CFO validated methodology and numbers."
-    },
-    {
-      q: "O que você faria diferente se pudesse voltar no tempo?",
-      a: "Eu teria envolvido os 3 seniores mais cedo no processo de definição dos critérios de liderança, tornando-os co-criadores ao invés de apenas avaliados. Isso poderia ter reduzido resistência inicial. Mas manteria a decisão final baseada em dados objetivos, não em consenso político.",
-      q_en: "What would you do differently if you could go back?",
-      a_en: "I would have involved 3 seniors earlier in defining leadership criteria, making them co-creators instead of just evaluated. This could have reduced initial resistance. But I'd maintain final decision based on objective data, not political consensus."
-    },
-    {
-      q: "Como o ritual de 'customer immersion' criado por Júlia funciona?",
-      a: "Todo membro do time de produtos digitais passa 1 dia por mês atendendo beneficiários (call center, presencial em unidades, acompanhando consultas). Depois, cada um apresenta 3 learnings em retrospectiva mensal. Isso mantém customer obsession viva e gera insights para priorização de roadmap. Virou padrão em outras áreas da Unimed.",
-      q_en: "How does the 'customer immersion' ritual created by Júlia work?",
-      a_en: "Every digital products team member spends 1 day per month serving beneficiaries (call center, in-person at units, shadowing consultations). Then, each presents 3 learnings in monthly retrospective. This keeps customer obsession alive and generates insights for roadmap prioritization. Became standard in other Unimed areas."
+      q: "Como o ritual de ‘customer immersion’ criado por Júlia funciona na prática?",
+      a: "Todo membro do time de produtos digitais passa um dia por mês atendendo beneficiários, seja no call center, em unidades presenciais ou acompanhando consultas. Depois, cada um apresenta três aprendizados em uma retrospectiva mensal. Isso mantém a ‘customer obsession’ viva e gera insights valiosos para a priorização do roadmap, uma prática que virou padrão em outras áreas da Unimed.",
+      q_en: "How does the 'customer immersion' ritual created by Júlia work in practice?",
+      a_en: "Every member of the digital products team spends one day a month serving beneficiaries, whether in the call center, in person at units, or accompanying consultations. Afterward, each one presents three learnings in a monthly retrospective. This keeps 'customer obsession' alive and generates valuable insights for roadmap prioritization, a practice that has become standard in other areas of Unimed."
     },
     {
       q: "Como você aplica esse framework de promoção hoje em contextos de pagamentos?",
-      a: "Uso os mesmos 6 critérios de liderança (customer obsession, ownership, bias for action, earn trust, deliver results, hire and develop) adaptados para merchants. Sempre faço avaliação 360 com stakeholders internos e externos, priorizo quem demonstra obsessão pelo merchant vs quem tem mais experiência técnica, e ofereço plano de desenvolvimento claro para não promovidos.",
-      q_en: "How do you apply this promotion framework today in payments contexts?",
-      a_en: "I use same 6 leadership criteria (customer obsession, ownership, bias for action, earn trust, deliver results, hire and develop) adapted for merchants. Always do 360 evaluation with internal and external stakeholders, prioritize who demonstrates merchant obsession vs who has most technical experience, and offer clear development plan for non-promoted."
+      a: "Uso os mesmos 6 critérios de liderança, adaptados para o contexto de merchants. Sempre faço uma avaliação 360 com stakeholders internos e externos, priorizo quem demonstra uma obsessão pelo merchant em vez de quem tem mais anos de experiência técnica, e ofereço um plano de desenvolvimento claro para os não promovidos, transformando a frustração em uma oportunidade de crescimento.",
+      q_en: "How do you apply this promotion framework today in payment contexts?",
+      a_en: "I use the same 6 leadership criteria, adapted for the context of merchants. I always do a 360 evaluation with internal and external stakeholders, I prioritize those who demonstrate an obsession with the merchant rather than those who have more years of technical experience, and I offer a clear development plan for those not promoted, turning frustration into a growth opportunity."
     }
   ]
 };
