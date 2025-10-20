@@ -120,7 +120,7 @@ const CaseCard = memo(function CaseCard({
                       ✅ {fups.length} de {allFups.length} pergunta(s) encontrada(s)
                     </p>
                   )}
-                  <ul className="list-disc pl-5 space-y-2 text-sm">
+                  <div className="grid gap-4">
                     {fups.map((f, fIdx) => {
                       const originalFupIndex = allFups.indexOf(f);
                       const fupId = `fup-${principle.id}-${caseSlug}-${originalFupIndex}`;
@@ -140,33 +140,38 @@ const CaseCard = memo(function CaseCard({
                       const isFupHighlighted = highlightedFupId === fupId;
 
                       return (
-                        <li
+                        <div
                           key={fKey}
                           id={fupId}
-                          className={`flex flex-col gap-1 transition-all ${
-                            isFupHighlighted ? "ring-2 ring-amber-300 rounded-md bg-amber-50 p-2" : ""
+                          className={`bg-white dark:bg-slate-800 rounded-lg p-4 border-l-4 border-purple-500 shadow-sm hover:shadow-md transition-shadow ${
+                            isFupHighlighted ? "ring-4 ring-amber-400 ring-offset-2" : ""
                           }`}
                         >
-                          <div className={`font-medium ${isFupHighlighted ? "bg-amber-100 px-2 py-1 rounded" : ""}`}>
-                            <HighlightableText
-                              text={question}
-                              searchTerm={fupSearchTerm || highlightFupTerm}
-                              className={isCaseUsed ? "line-through decoration-slate-400 decoration-2 text-slate-500" : "text-slate-800"}
-                            />
-                          </div>
-                          {answer && (
-                            <div className={`${isCaseUsed ? "line-through decoration-slate-300 decoration-2 text-slate-500" : "text-slate-600"} whitespace-pre-line`}>
-                              <HighlightableText
-                                text={answer}
-                                searchTerm={fupSearchTerm || highlightFupTerm}
-                                className={isCaseUsed ? "line-through decoration-slate-300 decoration-2 text-slate-500" : "text-slate-600"}
-                              />
+                          <div className="flex items-start gap-3">
+                            <span className="text-xl flex-shrink-0">❓</span>
+                            <div className="flex-1 min-w-0 space-y-2">
+                              <div className="font-semibold text-sm uppercase tracking-wide text-purple-700 dark:text-purple-400">
+                                <HighlightableText
+                                  text={question}
+                                  searchTerm={fupSearchTerm || highlightFupTerm}
+                                  className={isCaseUsed ? "line-through decoration-slate-400 decoration-2 text-slate-500" : ""}
+                                />
+                              </div>
+                              {answer && (
+                                <div className={`text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line`}>
+                                  <HighlightableText
+                                    text={answer}
+                                    searchTerm={fupSearchTerm || highlightFupTerm}
+                                    className={isCaseUsed ? "line-through decoration-slate-300 decoration-2 text-slate-500" : ""}
+                                  />
+                                </div>
+                              )}
                             </div>
-                          )}
-                        </li>
+                          </div>
+                        </div>
                       );
                     })}
-                  </ul>
+                  </div>
                 </div>
               );
             }
