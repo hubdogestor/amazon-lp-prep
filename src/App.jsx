@@ -666,17 +666,17 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
 
         {/* Mobile Drawer */}
         <div
-          className={`fixed top-0 left-0 h-full w-80 bg-white shadow-lg z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
+          className={`fixed top-0 left-0 h-full w-80 bg-white dark:bg-slate-900 shadow-lg z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
             isMobileDrawerOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
         >
-          <div className="p-4 border-b border-slate-200">
+          <div className="p-4 border-b border-slate-200 dark:border-slate-700">
             <button
               onClick={() => setIsMobileDrawerOpen(false)}
-              className="p-2 rounded-lg hover:bg-slate-100 transition-colors"
+              className="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
               aria-label="Fechar menu"
             >
-              <X className="w-5 h-5 text-slate-700" />
+              <X className="w-5 h-5 text-slate-700 dark:text-slate-300" />
             </button>
           </div>
           <div className="p-4">

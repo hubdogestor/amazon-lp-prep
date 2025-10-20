@@ -115,7 +115,7 @@ export default function Header({
                     id="case-dropdown"
                     role="listbox"
                     aria-live="polite"
-                    className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-96 overflow-auto"
+                    className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white dark:bg-slate-800 shadow-lg border border-slate-200 dark:border-slate-700 rounded-lg max-h-96 overflow-auto"
                   >
                     <CaseSearchResults
                       results={caseSearchResults}
@@ -156,7 +156,7 @@ export default function Header({
                     id="fup-dropdown"
                     role="listbox"
                     aria-live="polite"
-                    className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
+                    className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white dark:bg-slate-800 shadow-lg border border-slate-200 dark:border-slate-700 rounded-lg max-h-72 overflow-auto"
                   >
                     {fupSearchResults.length > 0 ? (
                       <FupSearchResults
@@ -168,7 +168,7 @@ export default function Header({
                         getDisplayCaseTitle={getDisplayCaseTitle}
                       />
                     ) : (
-                      <div className="px-3 py-2 text-slate-500 text-sm">{t('noResult')}</div>
+                      <div className="px-3 py-2 text-slate-500 dark:text-slate-400 text-sm">{t('noResult')}</div>
                     )}
                   </div>
                 )}
@@ -219,7 +219,7 @@ export default function Header({
                       id="typical-dropdown"
                       role="listbox"
                       aria-live="polite"
-                      className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white shadow-lg border border-slate-200 rounded-lg max-h-72 overflow-auto"
+                      className="absolute z-20 mt-2 left-0 right-0 min-w-[800px] bg-white dark:bg-slate-800 shadow-lg border border-slate-200 dark:border-slate-700 rounded-lg max-h-72 overflow-auto"
                     >
                       {typicalQuestionSearchResults.length > 0 ? (
                         <TypicalQuestionSearchResults
@@ -232,7 +232,7 @@ export default function Header({
                           getDisplayName={getDisplayName}
                         />
                       ) : (
-                        <div className="px-3 py-2 text-slate-500 text-sm">{t('noResult')}</div>
+                        <div className="px-3 py-2 text-slate-500 dark:text-slate-400 text-sm">{t('noResult')}</div>
                       )}
                     </div>
                   )}

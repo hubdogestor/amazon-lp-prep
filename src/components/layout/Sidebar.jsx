@@ -20,7 +20,7 @@ export default function Sidebar({
     <aside id="sidebar" className="col-span-12 xl:col-span-2 sticky top-4 h-fit" role="complementary" aria-label="Principles filter">
       {/* Header "Leadership Principles" */}
       <div className="mb-3 pb-2 border-b-2 border-[#FF9900]">
-        <h2 className="text-sm font-bold text-[#232F3E] uppercase tracking-wider">
+        <h2 className="text-sm font-bold text-[#232F3E] dark:text-slate-100 uppercase tracking-wider">
           {t('leadershipPrinciplesTitle')}
         </h2>
       </div>

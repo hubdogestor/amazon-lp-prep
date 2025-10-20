@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Dark Mode Enhancements */
+@layer base {
+  /* Smooth transitions for dark mode */
+  html {
+    transition: background-color 0.2s, color 0.2s;
+  }
+
+  /* Custom scrollbar for dark mode */
+  .dark ::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .dark ::-webkit-scrollbar-track {
+    background-color: rgb(30 41 59);
+  }
+
+  .dark ::-webkit-scrollbar-thumb {
+    background-color: rgb(71 85 105);
+    border-radius: 9999px;
+  }
+
+  .dark ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(100 116 139);
+  }
+}
