@@ -7,7 +7,7 @@ const case_4 = {
   company: "Unimed Porto Alegre",
   period: "03/2023-05/2023",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
 
   pt: {
     s: "Às 6h37 de uma sexta-feira, como Head de Transformação Digital e owner do produto de telemedicina da Unimed Porto Alegre, recebi o alerta de que um ataque de ransomware derrubara completamente a plataforma de consultas online. O impacto foi imediato: 38 mil atendimentos interrompidos, R$ 1,2 milhão de perdas por dia, e a confiança dos pacientes abalada. A infraestrutura seguia protocolo de rebuild de duas semanas, mas isso deixaria pacientes críticos sem assistência e exporia a marca a crise reputacional. Assumi a responsabilidade direta pela decisão de restaurar rápido com riscos controlados, pois cada hora de parada representava vidas, recursos e credibilidade em jogo.",

@@ -7,7 +7,7 @@ const case_4 = {
   company: "Sicredi",
   period: "05/2018-05/2021",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
 
   pt: {
     s: "O episódio começou com uma ligação curta, mas direta: 'Vocês estão oito semanas atrasados para avaliar viabilidade. Nubank já lançou.' A frase, dita por um dos cooperados corporativos mais relevantes -- responsável por 38% da nossa receita digital -- funcionou como alerta. O Gerente de Ouvidoria me procurou diretamente, pois eu era o Estrategista Digital do Banco, e ao ouvir esse relato, para mim ficou claro que não era apenas um atraso operacional: era um risco estratégico. A cada nova regulação do BACEN, o Sicredi reagia tardiamente, perdendo espaço para fintechs mais ágeis e expondo 6,4 milhões de cooperados a falhas de conformidade e multas que podiam chegar a R$ 35 mil por semana. Ao revisar os últimos três anos, descobri que 73% dos incidentes de integração vinham do mesmo ponto cego: desconhecimento técnico sobre novos padrões como open banking, ISO 20022 e PCI-DSS. As tentativas anteriores para contornar isso -- como tech talks mensais -- tinham resultado pífio: 22% de presença e nenhuma aplicação prática. A cada atraso, aumentava a frustração dos cooperados e a percepção de lentidão de um banco que precisava competir com startups altamente informadas. Naquele momento, percebi que curiosidade, sozinha, não era suficiente. Precisávamos transformá-la em um sistema vivo de aprendizado constante, capaz de gerar retorno direto em velocidade, qualidade e confiança.",

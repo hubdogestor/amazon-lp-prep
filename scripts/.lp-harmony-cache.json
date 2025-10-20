@@ -333,13 +333,14 @@
     "version": "3.0"
   },
   "customer_obsession__Q6__sicredi-small-business-survival": {
-    "relevance": 12,
+    "relevance": 24,
     "depth": 28,
-    "evidence": 30,
-    "scoreBase": 70,
-    "reasoning": "Feedback tangencial (ligação do Carlos). STAR-L forte. Conceito indireto - case foca em ir além vs usar feedback.",
-    "analyzedAt": "2025-01-19T22:00:00Z",
-    "version": "3.0"
+    "evidence": 28,
+    "scoreBase": 80,
+    "reasoning": "O case demonstra uso de feedback de clientes (empresários locais) para mudar estratégia de produto/serviço, priorizando sobrevivência de pequenos negócios durante crise.",
+    "analyzedAt": "2025-10-20T02:52:38.898Z",
+    "version": "3.0",
+    "key": "customer_obsession__Q6__sicredi-small-business-survival"
   },
   "customer_obsession__Q6__unimed-pet-anticipation": {
     "relevance": 22,
@@ -8811,13 +8812,14 @@
     "version": "3.0"
   },
   "deal_with_ambiguity__Q10__unimed-innovation-ambiguity": {
-    "relevance": 26,
-    "depth": 26,
-    "evidence": 26,
-    "scoreBase": 78,
-    "reasoning": "Learning sobre ambiguidade regulatória como catalisadora. Transformar interações ANS de barreira em aprendizado = growth mindset. Bom exemplo mas não central.",
-    "analyzedAt": "2025-10-18T21:00:00Z",
-    "version": "3.0"
+    "relevance": 24,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 80,
+    "reasoning": "Comunicação frequente de progresso em ambiente de inovação com objetivos fluidos, mantendo stakeholders informados sobre avanços e ajustes necessários.",
+    "analyzedAt": "2025-10-20T02:54:45.737Z",
+    "version": "3.0",
+    "key": "deal_with_ambiguity__Q10__unimed-innovation-ambiguity"
   },
   "deal_with_ambiguity__Q10__sefaz-digital-transformation-ambiguity": {
     "relevance": 24,
@@ -8847,13 +8849,14 @@
     "version": "3.0"
   },
   "deal_with_ambiguity__Q11__sefaz-pmo-creation": {
-    "relevance": 26,
-    "depth": 26,
-    "evidence": 26,
-    "scoreBase": 78,
-    "reasoning": "Obstáculo: dados fragmentados em 11 sistemas, resistência política. Superou com Python/Pandas + business case convincente. Bom exemplo.",
-    "analyzedAt": "2025-10-18T21:00:00Z",
-    "version": "3.0"
+    "relevance": 24,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 80,
+    "reasoning": "Abordagem experimental na criação do PMO, testando diferentes modelos organizacionais até encontrar a estrutura ideal para o contexto da SEFAZ.",
+    "analyzedAt": "2025-10-20T02:54:45.742Z",
+    "version": "3.0",
+    "key": "deal_with_ambiguity__Q11__sefaz-pmo-creation"
   },
   "deal_with_ambiguity__Q11__hsbc-bradesco-cultural-migration": {
     "relevance": 26,
@@ -8965,12 +8968,13 @@
   },
   "disagree_and_commit__Q1__unimed-retention-strategy": {
     "relevance": 24,
-    "depth": 22,
-    "evidence": 22,
-    "scoreBase": 68,
-    "reasoning": "O case mostra defesa de posição (retenção vs aquisição), mas não exemplifica defender posição com a qual não concorda pessoalmente - defendeu sua própria posição.",
-    "analyzedAt": "2025-10-18T21:30:00Z",
-    "version": "3.0"
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 80,
+    "reasoning": "O case mostra discordância com supervisor sobre estratégia, mas compromisso com decisão final e entrega bem-sucedida da solução híbrida.",
+    "analyzedAt": "2025-10-20T02:52:38.903Z",
+    "version": "3.0",
+    "key": "disagree_and_commit__Q1__unimed-retention-strategy"
   },
   "disagree_and_commit__Q1__huawei-world-cup-timeline": {
     "relevance": 22,
@@ -8985,7 +8989,7 @@
     "relevance": 30,
     "depth": 28,
     "evidence": 28,
-    "scoreBase": 86,
+    "scoreBase": 90,
     "reasoning": "EXCELENTE: Precisou defender o feed social (decisão do CEO) com a qual discordava pessoalmente (preferia motor de recomendação). Liderou execução do feed com total comprometimento.",
     "analyzedAt": "2025-10-18T21:30:00Z",
     "version": "3.0"
@@ -9228,7 +9232,7 @@
     "relevance": 28,
     "depth": 26,
     "evidence": 28,
-    "scoreBase": 82,
+    "scoreBase": 85,
     "reasoning": "EXCELENTE: Corte de 15 dias ia contra intuição de cronograma original seguro. Executou com war room 24/7, playbook decisão 8h. Intuição vs execução disciplinada.",
     "analyzedAt": "2025-10-18T21:30:00Z",
     "version": "3.0"
@@ -9237,19 +9241,20 @@
     "relevance": 30,
     "depth": 28,
     "evidence": 28,
-    "scoreBase": 86,
+    "scoreBase": 90,
     "reasoning": "EXCELENTE: Feed social ia contra intuição técnica de motor recomendação (dados A/B provavam motor superior). Executou feed com excelência, motor lite em paralelo mostrou intuição correta.",
     "analyzedAt": "2025-10-18T21:30:00Z",
     "version": "3.0"
   },
   "disagree_and_commit__Q8__commit-on-disagreement-product-strategy": {
-    "relevance": 22,
-    "depth": 20,
-    "evidence": 20,
-    "scoreBase": 62,
-    "reasoning": "Proposta aprovada foi sua própria (pricing seletivo), então não executou contra intuição. Executou o que intuição e dados indicavam.",
-    "analyzedAt": "2025-10-18T21:30:00Z",
-    "version": "3.0"
+    "relevance": 24,
+    "depth": 28,
+    "evidence": 28,
+    "scoreBase": 80,
+    "reasoning": "Ideia não aceita inicialmente, mas reação profissional com compromisso e entrega bem-sucedida da estratégia de produto.",
+    "analyzedAt": "2025-10-20T02:52:38.903Z",
+    "version": "3.0",
+    "key": "disagree_and_commit__Q8__commit-on-disagreement-product-strategy"
   },
   "disagree_and_commit__Q9__unimed-retention-strategy": {
     "relevance": 28,
@@ -9846,13 +9851,14 @@
     "version": "3.0"
   },
   "insist_on_highest_standards__Q11__hsbc-zero-defects": {
-    "relevance": 28,
+    "relevance": 24,
     "depth": 28,
-    "evidence": 26,
-    "scoreBase": 82,
-    "reasoning": "EXCELENTE: 'Stop the line' empoderou qualquer membro. Workshops semanais feedback. Playbook Zero Data Loss adotado sem intervenção direta. Desenvolveu cultura.",
-    "analyzedAt": "2025-10-18T21:45:00Z",
-    "version": "3.0"
+    "evidence": 28,
+    "scoreBase": 80,
+    "reasoning": "Estabeleceu padrão \"Zero Data Loss\" considerado impossível pelos pares, mas alcançado através de rigorosos controles de qualidade.",
+    "analyzedAt": "2025-10-20T02:52:38.903Z",
+    "version": "3.0",
+    "key": "insist_on_highest_standards__Q11__hsbc-zero-defects"
   },
   "insist_on_highest_standards__Q11__sefaz-pmo-governance": {
     "relevance": 28,
@@ -12507,6 +12513,15 @@
     "scoreBase": 72,
     "reasoning": "A visão foi inspirada em plataformas globais, mas a implementação e o case são focados no Brasil. A conexão com 'lançamento global' é apenas tangencial.",
     "analyzedAt": "2025-10-20T02:49:49.891Z",
+    "version": "3.0"
+  },
+  "best_employer__Q11__hsbc-zero-defects-best-employer": {
+    "relevance": 30,
+    "depth": 30,
+    "evidence": 30,
+    "scoreBase": 90,
+    "reasoning": "Case perfeito sobre estabelecer novo padrão Zero Data Loss que outros achavam impossível. STAR-L completo com métricas impressionantes (R migrados sem erros vs expectativa de 0,05% de erro).",
+    "analyzedAt": "2025-01-19T22:00:00Z",
     "version": "3.0"
   }
 }

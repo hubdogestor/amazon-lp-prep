@@ -5,15 +5,6 @@
 
 
 ══════════════════════════════════════════════════════════════════════
-  DIVE DEEP
-══════════════════════════════════════════════════════════════════════
-
-❌ hsbc-data-validation-audit
-   "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
-   Arquivo: dive_deep_case2.js
-
-
-══════════════════════════════════════════════════════════════════════
   STAKEHOLDER MANAGEMENT
 ══════════════════════════════════════════════════════════════════════
 
@@ -38,6 +29,10 @@
    "Comuniquei Atraso de 3 Meses no Lançamento do App Woop ao Board"
    Arquivo: prioritizing_and_influence_case5.js
 
+❌ bradesco-next-mvp-prioritization
+   "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lançar 4 meses antes"
+   Arquivo: prioritizing_and_influence_case6.js
+
 
 ══════════════════════════════════════════════════════════════════════
   RESUMO
@@ -45,6 +40,6 @@
 
 Total de cases não vinculados: 5
 Total de cases nos batches 1-5: 78
-Cases vinculados: 81
-Taxa de utilização: 103.8%
+Cases vinculados: 92
+Taxa de utilização: 117.9%
 

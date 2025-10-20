@@ -5,7 +5,7 @@ const case_5 = {
   company: "Unimed Porto Alegre",
   period: "2021-2024",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: "Em 2021, assumi como Head de Inovação & Produto Digital na Unimed Porto Alegre, a maior cooperativa de saúde do sul do Brasil, com receita de US$ 3,2 bilhões. A cooperativa enfrentava pressão crescente de healthtechs e queda de rentabilidade, mas não possuía estrutura formal de inovação. O CEO me desafiou a criar uma área do zero, com um mandato ambíguo: 'inovação em saúde, mas dentro dos limites da ANS'. Não havia orçamento definido, processos aprovados ou métricas claras — apenas a urgência de entregar resultados em 18 meses.",
     t: "Meu desafio era estruturar um framework de inovação que convertesse a ambiguidade regulatória em oportunidade prática para diferenciar a cooperativa. Percebi que as incertezas da ANS revelavam lacunas de mercado e espaço para proposta de valor em compliance. A partir disso, defini como atuar em três frentes: (1) organizar a governança de inovação alinhada ao jurídico e compliance, (2) criar critérios de investimento que contemplassem risco regulatório e impacto comercial, e (3) lançar produtos que mostrassem rápida geração de valor ao cliente final.",

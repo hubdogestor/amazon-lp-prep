@@ -6,7 +6,7 @@ const case_5 = {
   company: "SEFAZ RS",
   period: "08/2024-01/2025",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
 
   pt: {
     s: `Em agosto de 2024, como Advisor de Estratégia e PMO na Secretaria da Fazenda do RS, fui acionado pelo prefeito de Canoas com um pedido de emergência: “Não conseguimos fechar a prestação de contas. Os repasses estão suspensos.” A falha na conciliação PIX afetava 184 municípios e congelava R$ 847 milhões em repasses federais - Enquanto em estados vizinhos, como SC e PR, o processo levava menos de 24 horas. Cada hora de atraso interrompia alimentação escolar, pagamento de médicos e fornecimento de merenda. Como responsável pela priorização de projetos estratégicos, coloquei essa crise no topo do pipeline por ser a única iniciativa com risco imediato de intervenção federal e impacto direto na vida de crianças e pacientes.`,

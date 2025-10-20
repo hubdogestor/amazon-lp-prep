@@ -14,25 +14,27 @@ Q1: Conte uma situação onde você foi além da expectativa do cliente ou antec
         "Antecipei necessidade de pacientes oncológicos e criei jornada que salvou vidas"
       • sicredi-small-business-survival (score: 91)
         "Fui além da expectativa e salvei 2.400 pequenos negócios durante a pandemia"
+      • unimed-pet-anticipation (score: 89)
+        "Antecipei necessidade de saúde pet e criei produto antes do mercado expressar"
       • bradesco-elderly-digital-inclusion (score: 88)
         "Antecipei exclusão digital de idosos e criei jornada que devolveu dignidade"
-      • unimed-pet-anticipation (score: 87)
-        "Antecipei necessidade de saúde pet e criei produto antes do mercado expressar"
 
 Q2: Me fale sobre uma vez que você colocou o cliente em primeiro lugar
-   ✅ 6 case(s):
+   ✅ 7 case(s):
       • unimed-cancer-patient-journey (score: 90)
         "Antecipei necessidade de pacientes oncológicos e criei jornada que salvou vidas"
       • sicredi-small-business-survival (score: 89)
         "Fui além da expectativa e salvei 2.400 pequenos negócios durante a pandemia"
       • bradesco-elderly-digital-inclusion (score: 86)
         "Antecipei exclusão digital de idosos e criei jornada que devolveu dignidade"
-      • unimed-pet-anticipation (score: 83)
+      • unimed-pet-anticipation (score: 85)
         "Antecipei necessidade de saúde pet e criei produto antes do mercado expressar"
       • sicredi-fraud-prevention-experience (score: 83)
         "Equilibrei prevencao de fraude com experiencia do cliente reduzindo bloqueios in..."
       • sicredi-woop-segment-balance (score: 82)
         "Equilibrei necessidades de 340 cooperativas B2B e 1.2M pessoas físicas B2C com r..."
+      • sicredi-chargeback-proactive-resolution (score: 81)
+        "Reduzi chargebacks de 1.8% para 0.5% mantendo NPS em 81 com resolucao proativa"
 
 Q3: Conte sobre quando você teve que escolher entre cliente e métricas internas
    ✅ 6 case(s):
@@ -46,23 +48,25 @@ Q3: Conte sobre quando você teve que escolher entre cliente e métricas interna
         "Fui além da expectativa e salvei 2.400 pequenos negócios durante a pandemia"
       • sicredi-fraud-prevention-experience (score: 83)
         "Equilibrei prevencao de fraude com experiencia do cliente reduzindo bloqueios in..."
-      • sicredi-chargeback-proactive-resolution (score: 81)
+      • sicredi-chargeback-proactive-resolution (score: 83)
         "Reduzi chargebacks de 1.8% para 0.5% mantendo NPS em 81 com resolucao proativa"
 
 Q4: Como você entende as necessidades dos clientes?
-   ✅ 6 case(s):
+   ✅ 7 case(s):
       • unimed-cancer-patient-journey (score: 92)
         "Antecipei necessidade de pacientes oncológicos e criei jornada que salvou vidas"
       • bradesco-elderly-digital-inclusion (score: 88)
         "Antecipei exclusão digital de idosos e criei jornada que devolveu dignidade"
       • sicredi-small-business-survival (score: 87)
         "Fui além da expectativa e salvei 2.400 pequenos negócios durante a pandemia"
-      • unimed-pet-anticipation (score: 85)
+      • unimed-pet-anticipation (score: 87)
         "Antecipei necessidade de saúde pet e criei produto antes do mercado expressar"
       • sicredi-woop-segment-balance (score: 84)
         "Equilibrei necessidades de 340 cooperativas B2B e 1.2M pessoas físicas B2C com r..."
       • sicredi-fraud-prevention-experience (score: 81)
         "Equilibrei prevencao de fraude com experiencia do cliente reduzindo bloqueios in..."
+      • sicredi-chargeback-proactive-resolution (score: 81)
+        "Reduzi chargebacks de 1.8% para 0.5% mantendo NPS em 81 com resolucao proativa"
 
 Q5: Descreva uma situação onde você melhorou a experiência do cliente
    ✅ 4 case(s):
@@ -76,13 +80,17 @@ Q5: Descreva uma situação onde você melhorou a experiência do cliente
         "Equilibrei necessidades de 340 cooperativas B2B e 1.2M pessoas físicas B2C com r..."
 
 Q6: Conte sobre uma vez que você usou feedback de clientes para mudar completamente uma estratégia de produto
-   ❌ SEM COBERTURA
+   ✅ 2 case(s):
+      • sicredi-small-business-survival (score: 83)
+        "Fui além da expectativa e salvei 2.400 pequenos negócios durante a pandemia"
+      • unimed-pet-anticipation (score: 81)
+        "Antecipei necessidade de saúde pet e criei produto antes do mercado expressar"
 
 Q7: Descreva uma situação onde você teve que equilibrar demandas competitivas de múltiplos clientes
    ✅ 2 case(s):
       • sicredi-woop-segment-balance (score: 86)
         "Equilibrei necessidades de 340 cooperativas B2B e 1.2M pessoas físicas B2C com r..."
-      • sicredi-chargeback-proactive-resolution (score: 81)
+      • sicredi-chargeback-proactive-resolution (score: 83)
         "Reduzi chargebacks de 1.8% para 0.5% mantendo NPS em 81 com resolucao proativa"
 
 Q8: Me fale sobre quando você não conseguiu atender a expectativa de um cliente - o que você aprendeu?
@@ -98,7 +106,7 @@ Q9: Como você prioriza necessidades de clientes quando recursos são limitados?
         "Equilibrei necessidades de 340 cooperativas B2B e 1.2M pessoas físicas B2C com r..."
 
 Q10: Conte sobre uma vez que você defendeu um cliente mesmo quando isso não era popular internamente
-   ✅ 4 case(s):
+   ✅ 5 case(s):
       • unimed-cancer-patient-journey (score: 84)
         "Antecipei necessidade de pacientes oncológicos e criei jornada que salvou vidas"
       • bradesco-elderly-digital-inclusion (score: 84)
@@ -107,6 +115,8 @@ Q10: Conte sobre uma vez que você defendeu um cliente mesmo quando isso não er
         "Fui além da expectativa e salvei 2.400 pequenos negócios durante a pandemia"
       • sicredi-woop-segment-balance (score: 82)
         "Equilibrei necessidades de 340 cooperativas B2B e 1.2M pessoas físicas B2C com r..."
+      • unimed-pet-anticipation (score: 81)
+        "Antecipei necessidade de saúde pet e criei produto antes do mercado expressar"
 
 Q11: Como você equilibra prevenção de fraude com experiência do cliente?
    ✅ 2 case(s):
@@ -117,7 +127,7 @@ Q11: Como você equilibra prevenção de fraude com experiência do cliente?
 
 Q12: Como você reduziu chargebacks/disputas mantendo satisfação do cliente?
    ✅ 1 case(s):
-      • sicredi-chargeback-proactive-resolution (score: 81)
+      • sicredi-chargeback-proactive-resolution (score: 83)
         "Reduzi chargebacks de 1.8% para 0.5% mantendo NPS em 81 com resolucao proativa"
 
 Q13: Como você equilibra necessidades de diferentes segmentos de clientes?
@@ -127,10 +137,10 @@ Q13: Como você equilibra necessidades de diferentes segmentos de clientes?
 
 Q14: Conte sobre quando você teve que educar um cliente sobre algo que ele não sabia que precisava
    ✅ 4 case(s):
+      • unimed-pet-anticipation (score: 89)
+        "Antecipei necessidade de saúde pet e criei produto antes do mercado expressar"
       • sicredi-small-business-survival (score: 87)
         "Fui além da expectativa e salvei 2.400 pequenos negócios durante a pandemia"
-      • unimed-pet-anticipation (score: 87)
-        "Antecipei necessidade de saúde pet e criei produto antes do mercado expressar"
       • unimed-cancer-patient-journey (score: 84)
         "Antecipei necessidade de pacientes oncológicos e criei jornada que salvou vidas"
       • bradesco-elderly-digital-inclusion (score: 84)
@@ -143,18 +153,18 @@ Q14: Conte sobre quando você teve que educar um cliente sobre algo que ele não
 
 Q1: Conte sobre o programa mais complexo que você liderou - qual era o escopo, quantos times envolvidos e qual foi o resultado?
    ✅ 3 case(s):
+      • sefaz-pmo-creation (score: 90)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • sefaz-profisco-ii-program (score: 88)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
       • hsbc-migration-leadership (score: 87)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • sefaz-pmo-creation (score: 87)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • sefaz-profisco-ii-program (score: 85)
-        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
 
 Q2: Como você gerencia múltiplos projetos interdependentes com recursos limitados?
    ✅ 4 case(s):
-      • sefaz-pmo-creation (score: 87)
+      • sefaz-pmo-creation (score: 90)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • sefaz-profisco-ii-program (score: 85)
+      • sefaz-profisco-ii-program (score: 88)
         "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
       • hsbc-migration-leadership (score: 83)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
@@ -165,39 +175,43 @@ Q3: Descreva uma situação onde você teve que ajustar o roadmap de um programa
    ✅ 4 case(s):
       • sefaz-roadmap-adjustment-reforma-tributária (score: 91)
         "Ajustei o Roadmap de Projetos Fiscais na SEFAZ Devido a Reforma Tributária"
+      • sefaz-pmo-creation (score: 86)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • sefaz-profisco-ii-program (score: 84)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
       • hsbc-migration-leadership (score: 83)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • sefaz-pmo-creation (score: 83)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • sefaz-profisco-ii-program (score: 81)
-        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
 
 Q4: Como você garante alinhamento entre múltiplos stakeholders com prioridades conflitantes?
    ✅ 4 case(s):
+      • sefaz-pmo-creation (score: 90)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • sefaz-profisco-ii-program (score: 88)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
       • hsbc-migration-leadership (score: 87)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • sefaz-pmo-creation (score: 87)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • sefaz-profisco-ii-program (score: 85)
-        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
       • unimed-cvc-cancellation (score: 83)
         "Cancelei o Programa de CVC na Lacador Participações Devido a Troca de Gestão"
 
 Q5: Conte sobre quando você teve que escalar um problema crítico em um programa - como você decidiu quando e para quem escalar?
-   ✅ 2 case(s):
+   ✅ 4 case(s):
       • sicredi-woop-delay-communication (score: 91)
         "Comuniquei Atraso de 3 Meses no Lançamento do App Woop ao Board"
       • hsbc-migration-leadership (score: 83)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
+      • sefaz-pmo-creation (score: 82)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • sefaz-profisco-ii-program (score: 82)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
 
 Q6: Como você mede sucesso de um programa além de prazo e orçamento?
    ✅ 3 case(s):
+      • sefaz-pmo-creation (score: 90)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • sefaz-profisco-ii-program (score: 88)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
       • hsbc-migration-leadership (score: 87)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • sefaz-pmo-creation (score: 87)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • sefaz-profisco-ii-program (score: 85)
-        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
 
 Q7: Descreva uma situação onde você teve que cancelar ou pivotar um programa em andamento
    ✅ 1 case(s):
@@ -206,55 +220,61 @@ Q7: Descreva uma situação onde você teve que cancelar ou pivotar um programa 
 
 Q8: Como você gerencia dependências críticas entre times que você não controla diretamente?
    ✅ 3 case(s):
+      • sefaz-pmo-creation (score: 90)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • sefaz-profisco-ii-program (score: 88)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
       • hsbc-migration-leadership (score: 87)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • sefaz-pmo-creation (score: 87)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • sefaz-profisco-ii-program (score: 85)
-        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
 
 Q9: Conte sobre quando você teve que recuperar um programa que estava fora dos trilhos
-   ✅ 2 case(s):
+   ✅ 3 case(s):
+      • sefaz-pmo-creation (score: 90)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
       • hsbc-migration-leadership (score: 87)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • sefaz-pmo-creation (score: 87)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • sefaz-profisco-ii-program (score: 80)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
 
 Q10: Como você equilibra governança rigorosa com agilidade e velocidade de execução?
    ✅ 3 case(s):
-      • sefaz-profisco-ii-program (score: 85)
+      • sefaz-profisco-ii-program (score: 88)
         "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
+      • sefaz-pmo-creation (score: 86)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
       • hsbc-migration-leadership (score: 83)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • sefaz-pmo-creation (score: 83)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
 
 Q11: Descreva uma situação onde você teve que comunicar más notícias sobre um programa para executivos seniores
-   ✅ 2 case(s):
+   ✅ 4 case(s):
       • sicredi-woop-delay-communication (score: 91)
         "Comuniquei Atraso de 3 Meses no Lançamento do App Woop ao Board"
       • hsbc-migration-leadership (score: 83)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
+      • sefaz-pmo-creation (score: 82)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • sefaz-profisco-ii-program (score: 80)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
 
 Q12: Como você identifica e mitiga riscos em programas de larga escala?
    ✅ 4 case(s):
+      • sefaz-profisco-ii-program (score: 88)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
       • hsbc-migration-leadership (score: 87)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • sefaz-profisco-ii-program (score: 85)
-        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
-      • sefaz-pmo-creation (score: 83)
+      • sefaz-pmo-creation (score: 86)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
       • sefaz-roadmap-adjustment-reforma-tributária (score: 83)
         "Ajustei o Roadmap de Projetos Fiscais na SEFAZ Devido a Reforma Tributária"
 
 Q13: Como você comunica progresso de programas complexos para diferentes audiências?
    ✅ 3 case(s):
+      • sefaz-pmo-creation (score: 90)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • sefaz-profisco-ii-program (score: 88)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
       • hsbc-migration-leadership (score: 87)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • sefaz-pmo-creation (score: 87)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • sefaz-profisco-ii-program (score: 85)
-        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
 
 
 ══════════════════════════════════════════════════════════════════════
@@ -262,117 +282,93 @@ Q13: Como você comunica progresso de programas complexos para diferentes audiê
 ══════════════════════════════════════════════════════════════════════
 
 Q1: Nos conte uma situação onde você assumiu responsabilidade além do seu escopo de trabalho e área de conhecimento - como lidou com isso, equilibrando as tarefas atuais/normais com essas outras (novas)?
-   ✅ 7 case(s):
-      • hsbc-migration-leadership (score: 92)
-        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
+   ✅ 6 case(s):
       • sefaz-emergency-rollback-no-approval (score: 90)
         "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
-      • bradesco-international-payments (score: 88)
-        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+      • hsbc-migration-leadership (score: 87)
+        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
       • sefaz-pmo-creation (score: 87)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • long-term-tradeoff (score: 87)
-        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
       • hsbc-payment-reconciliation (score: 86)
         "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
-      • payment-incidents-prevention-mechanism (score: 86)
+      • bradesco-international-payments (score: 83)
+        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+      • payment-incidents-prevention-mechanism (score: 83)
         "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
 
 Q2: Me dê um exemplo de quando você foi além da sua função
-   ✅ 8 case(s):
-      • hsbc-migration-leadership (score: 92)
-        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
+   ✅ 7 case(s):
       • sefaz-emergency-rollback-no-approval (score: 90)
         "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
-      • bradesco-international-payments (score: 88)
-        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+      • hsbc-migration-leadership (score: 87)
+        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
       • sefaz-pmo-creation (score: 87)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • long-term-tradeoff (score: 87)
-        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
       • hsbc-payment-reconciliation (score: 86)
         "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
-      • payment-incidents-prevention-mechanism (score: 86)
+      • bradesco-international-payments (score: 83)
+        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+      • payment-incidents-prevention-mechanism (score: 83)
         "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
       • bradesco-next-delay (score: 83)
         "Erro de Estimativa no Lançamento Bradesco Next"
 
 Q3: Conte sobre uma decisão de longo prazo que você tomou
-   ✅ 5 case(s):
-      • long-term-tradeoff (score: 95)
+   ✅ 3 case(s):
+      • long-term-tradeoff (score: 87)
         "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
-      • payment-incidents-prevention-mechanism (score: 86)
-        "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
-      • hsbc-migration-leadership (score: 84)
-        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
       • sefaz-pmo-creation (score: 83)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • bradesco-international-payments (score: 80)
-        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+      • payment-incidents-prevention-mechanism (score: 83)
+        "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
 
 Q4: Como você age quando algo não é sua responsabilidade?
-   ✅ 7 case(s):
-      • long-term-tradeoff (score: 91)
-        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
+   ✅ 6 case(s):
       • sefaz-emergency-rollback-no-approval (score: 90)
         "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
-      • hsbc-migration-leadership (score: 88)
-        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
       • sefaz-pmo-creation (score: 87)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
       • hsbc-payment-reconciliation (score: 86)
         "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
-      • payment-incidents-prevention-mechanism (score: 86)
+      • hsbc-migration-leadership (score: 83)
+        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
+      • payment-incidents-prevention-mechanism (score: 83)
         "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
-      • bradesco-international-payments (score: 84)
-        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+      • long-term-tradeoff (score: 83)
+        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
 
 Q5: Me fale sobre um trade-off difícil que você fez pensando no longo prazo
-   ✅ 6 case(s):
-      • long-term-tradeoff (score: 95)
+   ✅ 5 case(s):
+      • long-term-tradeoff (score: 87)
         "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
-      • hsbc-migration-leadership (score: 88)
+      • hsbc-migration-leadership (score: 83)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • payment-incidents-prevention-mechanism (score: 86)
-        "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
       • sefaz-pmo-creation (score: 83)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • payment-incidents-prevention-mechanism (score: 83)
+        "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
       • bradesco-next-delay (score: 83)
         "Erro de Estimativa no Lançamento Bradesco Next"
-      • bradesco-international-payments (score: 80)
-        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
 
 Q6: Descreva uma situação onde você tomou uma decisão importante de negócio sem consultar seu gestor
-   ✅ 7 case(s):
+   ✅ 3 case(s):
       • sefaz-emergency-rollback-no-approval (score: 90)
         "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
       • hsbc-payment-reconciliation (score: 86)
         "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
       • sefaz-pmo-creation (score: 83)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • long-term-tradeoff (score: 83)
-        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
-      • payment-incidents-prevention-mechanism (score: 82)
-        "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
-      • hsbc-migration-leadership (score: 80)
-        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • bradesco-international-payments (score: 80)
-        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
 
 Q7: Me fale sobre quando você identificou uma ineficiência e tomou ownership para melhorar
-   ✅ 7 case(s):
-      • bradesco-international-payments (score: 92)
-        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+   ✅ 5 case(s):
       • hsbc-payment-reconciliation (score: 90)
         "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
       • sefaz-pmo-creation (score: 87)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • long-term-tradeoff (score: 87)
-        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
-      • payment-incidents-prevention-mechanism (score: 86)
+      • bradesco-international-payments (score: 87)
+        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+      • payment-incidents-prevention-mechanism (score: 83)
         "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
-      • hsbc-migration-leadership (score: 84)
-        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
       • sefaz-emergency-rollback-no-approval (score: 82)
         "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
 
@@ -382,18 +378,16 @@ Q8: Como você lida com situações onde precisa assumir responsabilidade por er
         "Erro de Estimativa no Lançamento Bradesco Next"
 
 Q9: Descreva um projeto que você liderou do início ao fim - como garantiu o sucesso?
-   ✅ 8 case(s):
-      • hsbc-migration-leadership (score: 92)
-        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • bradesco-international-payments (score: 92)
-        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+   ✅ 7 case(s):
       • hsbc-payment-reconciliation (score: 90)
         "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
+      • hsbc-migration-leadership (score: 87)
+        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
       • sefaz-pmo-creation (score: 87)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • long-term-tradeoff (score: 87)
-        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
-      • payment-incidents-prevention-mechanism (score: 86)
+      • bradesco-international-payments (score: 87)
+        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+      • payment-incidents-prevention-mechanism (score: 83)
         "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
       • bradesco-next-delay (score: 83)
         "Erro de Estimativa no Lançamento Bradesco Next"
@@ -401,68 +395,54 @@ Q9: Descreva um projeto que você liderou do início ao fim - como garantiu o su
         "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
 
 Q10: Descreva quando você criou um mecanismo para prevenir problemas recorrentes em pagamentos
-   ✅ 6 case(s):
-      • bradesco-international-payments (score: 88)
-        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+   ✅ 4 case(s):
       • hsbc-payment-reconciliation (score: 86)
         "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
-      • payment-incidents-prevention-mechanism (score: 86)
+      • bradesco-international-payments (score: 83)
+        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+      • payment-incidents-prevention-mechanism (score: 83)
         "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
-      • hsbc-migration-leadership (score: 84)
-        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • long-term-tradeoff (score: 83)
-        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
       • sefaz-emergency-rollback-no-approval (score: 82)
         "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
 
 Q11: Como você lida com situações onde múltiplas pessoas poderiam assumir ownership?
-   ✅ 7 case(s):
-      • bradesco-international-payments (score: 92)
-        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+   ✅ 5 case(s):
       • hsbc-payment-reconciliation (score: 90)
         "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
       • sefaz-emergency-rollback-no-approval (score: 90)
         "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
-      • hsbc-migration-leadership (score: 88)
+      • bradesco-international-payments (score: 87)
+        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+      • hsbc-migration-leadership (score: 83)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
       • sefaz-pmo-creation (score: 83)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • long-term-tradeoff (score: 83)
-        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
-      • payment-incidents-prevention-mechanism (score: 82)
-        "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
 
 Q12: Conte sobre quando você teve que assumir ownership de um problema criado por outro time
-   ✅ 7 case(s):
-      • bradesco-international-payments (score: 92)
-        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+   ✅ 6 case(s):
       • hsbc-payment-reconciliation (score: 90)
         "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
       • sefaz-emergency-rollback-no-approval (score: 90)
         "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
-      • hsbc-migration-leadership (score: 88)
+      • bradesco-international-payments (score: 87)
+        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+      • hsbc-migration-leadership (score: 83)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • payment-incidents-prevention-mechanism (score: 86)
-        "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
       • sefaz-pmo-creation (score: 83)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • long-term-tradeoff (score: 83)
-        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
+      • payment-incidents-prevention-mechanism (score: 83)
+        "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
 
 Q13: Como você gerencia dependências entre múltiplos times?
-   ✅ 7 case(s):
-      • hsbc-migration-leadership (score: 92)
-        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
-      • bradesco-international-payments (score: 92)
-        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+   ✅ 5 case(s):
       • hsbc-payment-reconciliation (score: 90)
         "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
+      • hsbc-migration-leadership (score: 87)
+        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
       • sefaz-pmo-creation (score: 87)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • long-term-tradeoff (score: 87)
-        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
-      • payment-incidents-prevention-mechanism (score: 82)
-        "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
+      • bradesco-international-payments (score: 87)
+        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
       • sefaz-emergency-rollback-no-approval (score: 82)
         "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
 
@@ -472,96 +452,124 @@ Q13: Como você gerencia dependências entre múltiplos times?
 ══════════════════════════════════════════════════════════════════════
 
 Q1: Conte uma situação onde você precisou entender a causa raiz para resolver um problema complexo
-   ✅ 3 case(s):
+   ✅ 4 case(s):
       • sicredi-churn-analysis (score: 85)
         "Análise de Dados para Identificar os Principais Drivers de Churn no App"
-      • unimed-fraud-investigation (score: 81)
+      • unimed-fraud-investigation (score: 84)
         "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
+      • hsbc-data-validation-audit (score: 82)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
       • sicredi-pix-settlement (score: 80)
         "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
 
 Q2: Me fale sobre quando você teve que investigar um problema complexo
-   ✅ 3 case(s):
+   ✅ 4 case(s):
       • sicredi-churn-analysis (score: 85)
         "Análise de Dados para Identificar os Principais Drivers de Churn no App"
-      • unimed-fraud-investigation (score: 81)
+      • unimed-fraud-investigation (score: 84)
         "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
+      • hsbc-data-validation-audit (score: 82)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
       • sicredi-pix-settlement (score: 80)
         "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
 
 Q3: Como você garante qualidade nos detalhes?
-   ✅ 1 case(s):
+   ✅ 3 case(s):
+      • hsbc-data-validation-audit (score: 82)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
       • sicredi-churn-analysis (score: 81)
         "Análise de Dados para Identificar os Principais Drivers de Churn no App"
+      • unimed-fraud-investigation (score: 80)
+        "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
 
 Q4: Descreva uma situação onde dados superficiais não eram suficientes
-   ✅ 3 case(s):
+   ✅ 4 case(s):
       • sicredi-churn-analysis (score: 85)
         "Análise de Dados para Identificar os Principais Drivers de Churn no App"
-      • unimed-fraud-investigation (score: 81)
+      • unimed-fraud-investigation (score: 84)
         "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
+      • hsbc-data-validation-audit (score: 82)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
       • sicredi-pix-settlement (score: 80)
         "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
 
 Q5: Conte sobre o problema mais complicado que você teve que lidar - como você investigou?
-   ✅ 3 case(s):
+   ✅ 4 case(s):
       • sicredi-churn-analysis (score: 85)
         "Análise de Dados para Identificar os Principais Drivers de Churn no App"
-      • unimed-fraud-investigation (score: 81)
+      • unimed-fraud-investigation (score: 84)
         "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
+      • hsbc-data-validation-audit (score: 82)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
       • sicredi-pix-settlement (score: 80)
         "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
 
 Q6: Me dê um exemplo de quando você usou dados em profundidade para desenvolver uma solução
-   ✅ 3 case(s):
+   ✅ 4 case(s):
       • sicredi-churn-analysis (score: 85)
         "Análise de Dados para Identificar os Principais Drivers de Churn no App"
-      • unimed-fraud-investigation (score: 81)
+      • unimed-fraud-investigation (score: 84)
         "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
+      • hsbc-data-validation-audit (score: 82)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
       • sicredi-pix-settlement (score: 80)
         "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
 
 Q7: Descreva uma vez que alguém te deu uma explicação mas você não acreditou e investigou - qual foi a verdade?
-   ✅ 3 case(s):
+   ✅ 4 case(s):
       • sicredi-churn-analysis (score: 85)
         "Análise de Dados para Identificar os Principais Drivers de Churn no App"
-      • unimed-fraud-investigation (score: 81)
+      • unimed-fraud-investigation (score: 84)
         "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
+      • hsbc-data-validation-audit (score: 82)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
       • sicredi-pix-settlement (score: 80)
         "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
 
 Q8: Como você usa '5 Whys' ou análise de causa raiz para chegar ao fundo de problemas?
-   ✅ 3 case(s):
+   ✅ 4 case(s):
       • sicredi-churn-analysis (score: 85)
         "Análise de Dados para Identificar os Principais Drivers de Churn no App"
-      • unimed-fraud-investigation (score: 81)
+      • unimed-fraud-investigation (score: 84)
         "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
+      • hsbc-data-validation-audit (score: 82)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
       • sicredi-pix-settlement (score: 80)
         "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
 
 Q9: Conte sobre quando métricas e anedotas diferiam - como você descobriu a verdade?
-   ✅ 2 case(s):
+   ✅ 4 case(s):
       • sicredi-churn-analysis (score: 85)
         "Análise de Dados para Identificar os Principais Drivers de Churn no App"
+      • hsbc-data-validation-audit (score: 82)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
+      • unimed-fraud-investigation (score: 80)
+        "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
       • sicredi-pix-settlement (score: 80)
         "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
 
 Q10: Conte sobre uma vez que você identificou um padrão de fraude ou risco que outros não viram
-   ✅ 1 case(s):
-      • unimed-fraud-investigation (score: 81)
+   ✅ 2 case(s):
+      • unimed-fraud-investigation (score: 84)
         "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
+      • hsbc-data-validation-audit (score: 82)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
 
 Q11: Como você sabe quando parar de analisar e começar a agir?
-   ✅ 1 case(s):
+   ✅ 2 case(s):
       • sicredi-churn-analysis (score: 81)
         "Análise de Dados para Identificar os Principais Drivers de Churn no App"
+      • unimed-fraud-investigation (score: 80)
+        "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
 
 Q12: Conte sobre quando sua análise profunda revelou algo que ninguém esperava
-   ✅ 3 case(s):
+   ✅ 4 case(s):
       • sicredi-churn-analysis (score: 85)
         "Análise de Dados para Identificar os Principais Drivers de Churn no App"
-      • unimed-fraud-investigation (score: 81)
+      • unimed-fraud-investigation (score: 84)
         "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
+      • hsbc-data-validation-audit (score: 82)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
       • sicredi-pix-settlement (score: 80)
         "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
 
@@ -574,14 +582,14 @@ Q1: Conte sobre uma inovação que você implementou que simplificou um processo
    ✅ 6 case(s):
       • huawei-six-sigma-optimization (score: 90)
         "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing"
+      • unimed-open-innovation (score: 90)
+        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
+      • sefarz-pix-reconciliation-automation (score: 90)
+        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • bradesco-next-compliance-simplification (score: 87)
         "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
       • unimed-ai-authorization (score: 87)
         "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
-      • unimed-open-innovation (score: 87)
-        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
-      • sefarz-pix-reconciliation-automation (score: 87)
-        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • payment-simplification-high-impact (score: 87)
         "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
 
@@ -589,14 +597,14 @@ Q2: Me fale sobre uma solução criativa que você desenvolveu
    ✅ 6 case(s):
       • huawei-six-sigma-optimization (score: 90)
         "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing"
+      • unimed-open-innovation (score: 90)
+        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
+      • sefarz-pix-reconciliation-automation (score: 90)
+        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • bradesco-next-compliance-simplification (score: 87)
         "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
       • unimed-ai-authorization (score: 87)
         "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
-      • unimed-open-innovation (score: 87)
-        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
-      • sefarz-pix-reconciliation-automation (score: 87)
-        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • payment-simplification-high-impact (score: 87)
         "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
 
@@ -604,14 +612,14 @@ Q3: Como você simplifica processos complexos?
    ✅ 6 case(s):
       • huawei-six-sigma-optimization (score: 90)
         "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing"
+      • unimed-open-innovation (score: 90)
+        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
+      • sefarz-pix-reconciliation-automation (score: 90)
+        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • bradesco-next-compliance-simplification (score: 87)
         "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
       • unimed-ai-authorization (score: 87)
         "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
-      • unimed-open-innovation (score: 87)
-        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
-      • sefarz-pix-reconciliation-automation (score: 87)
-        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • payment-simplification-high-impact (score: 87)
         "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
 
@@ -619,14 +627,14 @@ Q4: Descreva uma situação onde você desafiou o status quo
    ✅ 6 case(s):
       • huawei-six-sigma-optimization (score: 90)
         "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing"
+      • unimed-open-innovation (score: 90)
+        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
+      • sefarz-pix-reconciliation-automation (score: 90)
+        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • bradesco-next-compliance-simplification (score: 87)
         "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
       • unimed-ai-authorization (score: 87)
         "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
-      • unimed-open-innovation (score: 87)
-        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
-      • sefarz-pix-reconciliation-automation (score: 87)
-        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • payment-simplification-high-impact (score: 87)
         "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
 
@@ -634,48 +642,50 @@ Q5: Me fale sobre uma vez que você criou um processo mais simples que teve gran
    ✅ 6 case(s):
       • huawei-six-sigma-optimization (score: 90)
         "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing"
+      • unimed-open-innovation (score: 90)
+        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
+      • sefarz-pix-reconciliation-automation (score: 90)
+        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • bradesco-next-compliance-simplification (score: 87)
         "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
       • unimed-ai-authorization (score: 87)
         "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
-      • unimed-open-innovation (score: 87)
-        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
-      • sefarz-pix-reconciliation-automation (score: 87)
-        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • payment-simplification-high-impact (score: 87)
         "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
 
 Q6: Conte sobre quando você teve um plano mas encontrou obstáculos - como você pivotou?
    ✅ 6 case(s):
-      • unimed-open-innovation (score: 87)
+      • unimed-open-innovation (score: 90)
         "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
       • huawei-six-sigma-optimization (score: 86)
         "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing"
+      • sefarz-pix-reconciliation-automation (score: 86)
+        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • bradesco-next-compliance-simplification (score: 83)
         "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
       • unimed-ai-authorization (score: 83)
         "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
-      • sefarz-pix-reconciliation-automation (score: 83)
-        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • payment-simplification-high-impact (score: 83)
         "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
 
 Q7: Descreva uma situação onde você equilibrou inovação com risco
-   ✅ 5 case(s):
+   ✅ 6 case(s):
+      • unimed-open-innovation (score: 90)
+        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
       • bradesco-next-compliance-simplification (score: 87)
         "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
       • unimed-ai-authorization (score: 87)
         "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
-      • unimed-open-innovation (score: 87)
-        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
       • payment-simplification-high-impact (score: 87)
         "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
       • huawei-six-sigma-optimization (score: 82)
         "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing"
+      • sefarz-pix-reconciliation-automation (score: 82)
+        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
 
 Q8: Como você decidiu entre construir uma solução própria vs. adaptar algo existente?
-   ✅ 4 case(s):
-      • unimed-open-innovation (score: 87)
+   ✅ 5 case(s):
+      • unimed-open-innovation (score: 90)
         "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
       • bradesco-next-compliance-simplification (score: 83)
         "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
@@ -683,9 +693,11 @@ Q8: Como você decidiu entre construir uma solução própria vs. adaptar algo e
         "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
       • payment-simplification-high-impact (score: 83)
         "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
+      • sefarz-pix-reconciliation-automation (score: 82)
+        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
 
 Q9: Me dê um exemplo de quando você usou tecnologia/ferramenta de forma não-convencional para resolver um problema
-   ✅ 4 case(s):
+   ✅ 6 case(s):
       • unimed-ai-authorization (score: 87)
         "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
       • payment-simplification-high-impact (score: 87)
@@ -694,41 +706,45 @@ Q9: Me dê um exemplo de quando você usou tecnologia/ferramenta de forma não-c
         "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing"
       • bradesco-next-compliance-simplification (score: 83)
         "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
+      • unimed-open-innovation (score: 82)
+        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
+      • sefarz-pix-reconciliation-automation (score: 82)
+        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
 
 Q10: Conte sobre um processo de payment operations que você automatizou ou otimizou
    ✅ 2 case(s):
-      • sefarz-pix-reconciliation-automation (score: 87)
+      • sefarz-pix-reconciliation-automation (score: 90)
         "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • payment-simplification-high-impact (score: 87)
         "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
 
 Q11: Como você convence stakeholders céticos sobre uma inovação disruptiva?
    ✅ 6 case(s):
+      • unimed-open-innovation (score: 90)
+        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
       • bradesco-next-compliance-simplification (score: 87)
         "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
       • unimed-ai-authorization (score: 87)
         "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
-      • unimed-open-innovation (score: 87)
-        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
       • payment-simplification-high-impact (score: 87)
         "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
       • huawei-six-sigma-optimization (score: 86)
         "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing"
-      • sefarz-pix-reconciliation-automation (score: 83)
+      • sefarz-pix-reconciliation-automation (score: 86)
         "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
 
 Q12: Conte sobre quando você simplificou algo que todos achavam que precisava ser complexo
    ✅ 6 case(s):
       • huawei-six-sigma-optimization (score: 90)
         "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing"
+      • unimed-open-innovation (score: 90)
+        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
+      • sefarz-pix-reconciliation-automation (score: 90)
+        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • bradesco-next-compliance-simplification (score: 87)
         "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
       • unimed-ai-authorization (score: 87)
         "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
-      • unimed-open-innovation (score: 87)
-        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
-      • sefarz-pix-reconciliation-automation (score: 87)
-        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
       • payment-simplification-high-impact (score: 87)
         "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
 
@@ -1207,194 +1223,140 @@ Q12: Como você lida com stakeholders que resistem a mudanças necessárias?
 ══════════════════════════════════════════════════════════════════════
 
 Q1: Como você se mantém atualizado na sua área de expertise e como explora novas áreas de conhecimento?
-   ✅ 6 case(s):
-      • stay-updated-payments-fintech (score: 92)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • olibano-blockchain-exploration (score: 90)
+   ✅ 4 case(s):
+      • olibano-blockchain-exploration (score: 87)
         "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
-      • bradesco-safe-agile-framework (score: 87)
-        "Implementação de Framework Ágil em Escala para Banco Digital"
+      • stay-updated-payments-fintech (score: 87)
+        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
       • unimed-harvard-healthcare-innovation (score: 84)
         "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
-      • unimed-cvc-failure-learning (score: 84)
-        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • out-of-comfort-zone-transparency-portal (score: 80)
-        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
+      • bradesco-safe-agile-framework (score: 81)
+        "Implementação de Framework Ágil em Escala para Banco Digital"
 
 Q2: Me fale sobre a última coisa nova que você aprendeu
-   ✅ 6 case(s):
-      • olibano-blockchain-exploration (score: 90)
+   ✅ 5 case(s):
+      • olibano-blockchain-exploration (score: 87)
         "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
-      • stay-updated-payments-fintech (score: 88)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • unimed-cvc-failure-learning (score: 88)
-        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • bradesco-safe-agile-framework (score: 87)
-        "Implementação de Framework Ágil em Escala para Banco Digital"
       • unimed-harvard-healthcare-innovation (score: 84)
         "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
-      • out-of-comfort-zone-transparency-portal (score: 80)
-        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
+      • stay-updated-payments-fintech (score: 83)
+        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
+      • unimed-cvc-failure-learning (score: 83)
+        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
+      • bradesco-safe-agile-framework (score: 81)
+        "Implementação de Framework Ágil em Escala para Banco Digital"
 
 Q3: Conte sobre uma vez que você saiu da sua zona de conforto
-   ✅ 6 case(s):
-      • out-of-comfort-zone-transparency-portal (score: 92)
+   ✅ 3 case(s):
+      • out-of-comfort-zone-transparency-portal (score: 87)
         "Liderei o Portal da Transparência: Fora da Zona de Conforto"
-      • olibano-blockchain-exploration (score: 86)
+      • olibano-blockchain-exploration (score: 83)
         "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
-      • stay-updated-payments-fintech (score: 84)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • unimed-cvc-failure-learning (score: 84)
-        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • bradesco-safe-agile-framework (score: 83)
-        "Implementação de Framework Ágil em Escala para Banco Digital"
       • unimed-harvard-healthcare-innovation (score: 80)
         "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
 
 Q4: Descreva uma situação onde você teve que aprender algo rapidamente
-   ✅ 6 case(s):
-      • out-of-comfort-zone-transparency-portal (score: 92)
+   ✅ 2 case(s):
+      • out-of-comfort-zone-transparency-portal (score: 87)
         "Liderei o Portal da Transparência: Fora da Zona de Conforto"
-      • stay-updated-payments-fintech (score: 84)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • unimed-cvc-failure-learning (score: 84)
-        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • bradesco-safe-agile-framework (score: 83)
-        "Implementação de Framework Ágil em Escala para Banco Digital"
-      • olibano-blockchain-exploration (score: 82)
-        "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
       • unimed-harvard-healthcare-innovation (score: 80)
         "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
 
 Q5: Me dê um exemplo de quando sua curiosidade levou a uma melhoria
    ✅ 6 case(s):
-      • stay-updated-payments-fintech (score: 92)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • olibano-blockchain-exploration (score: 90)
+      • olibano-blockchain-exploration (score: 87)
         "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
-      • out-of-comfort-zone-transparency-portal (score: 88)
-        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
-      • unimed-cvc-failure-learning (score: 88)
-        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • bradesco-safe-agile-framework (score: 87)
-        "Implementação de Framework Ágil em Escala para Banco Digital"
+      • stay-updated-payments-fintech (score: 87)
+        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
       • unimed-harvard-healthcare-innovation (score: 84)
         "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
+      • out-of-comfort-zone-transparency-portal (score: 83)
+        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
+      • unimed-cvc-failure-learning (score: 83)
+        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
+      • bradesco-safe-agile-framework (score: 81)
+        "Implementação de Framework Ágil em Escala para Banco Digital"
 
 Q6: Conte sobre uma missão ou objetivo que você não achava que era alcançável - como você abordou?
-   ✅ 4 case(s):
-      • out-of-comfort-zone-transparency-portal (score: 88)
+   ✅ 1 case(s):
+      • out-of-comfort-zone-transparency-portal (score: 83)
         "Liderei o Portal da Transparência: Fora da Zona de Conforto"
-      • stay-updated-payments-fintech (score: 84)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • unimed-cvc-failure-learning (score: 84)
-        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • bradesco-safe-agile-framework (score: 83)
-        "Implementação de Framework Ágil em Escala para Banco Digital"
 
 Q7: Me fale sobre algo que você aprendeu que te tornou melhor no seu trabalho
    ✅ 6 case(s):
-      • stay-updated-payments-fintech (score: 92)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • out-of-comfort-zone-transparency-portal (score: 92)
-        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
-      • olibano-blockchain-exploration (score: 90)
+      • olibano-blockchain-exploration (score: 87)
         "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
-      • unimed-cvc-failure-learning (score: 88)
-        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • bradesco-safe-agile-framework (score: 87)
-        "Implementação de Framework Ágil em Escala para Banco Digital"
+      • stay-updated-payments-fintech (score: 87)
+        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
+      • out-of-comfort-zone-transparency-portal (score: 87)
+        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
       • unimed-harvard-healthcare-innovation (score: 84)
         "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
+      • unimed-cvc-failure-learning (score: 83)
+        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
+      • bradesco-safe-agile-framework (score: 81)
+        "Implementação de Framework Ágil em Escala para Banco Digital"
 
 Q8: Descreva uma área onde você identificou uma lacuna de conhecimento e como você a preencheu
    ✅ 6 case(s):
-      • stay-updated-payments-fintech (score: 92)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • out-of-comfort-zone-transparency-portal (score: 92)
-        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
-      • olibano-blockchain-exploration (score: 90)
+      • olibano-blockchain-exploration (score: 87)
         "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
-      • unimed-cvc-failure-learning (score: 88)
-        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • bradesco-safe-agile-framework (score: 87)
-        "Implementação de Framework Ágil em Escala para Banco Digital"
+      • stay-updated-payments-fintech (score: 87)
+        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
+      • out-of-comfort-zone-transparency-portal (score: 87)
+        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
       • unimed-harvard-healthcare-innovation (score: 84)
         "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
+      • unimed-cvc-failure-learning (score: 83)
+        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
+      • bradesco-safe-agile-framework (score: 81)
+        "Implementação de Framework Ágil em Escala para Banco Digital"
 
 Q9: Como você explora novas possibilidades mesmo quando está ocupado com o dia a dia?
-   ✅ 6 case(s):
-      • stay-updated-payments-fintech (score: 92)
+   ✅ 2 case(s):
+      • stay-updated-payments-fintech (score: 87)
         "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • out-of-comfort-zone-transparency-portal (score: 84)
-        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
-      • bradesco-safe-agile-framework (score: 83)
-        "Implementação de Framework Ágil em Escala para Banco Digital"
-      • olibano-blockchain-exploration (score: 82)
-        "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
       • unimed-harvard-healthcare-innovation (score: 80)
         "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
-      • unimed-cvc-failure-learning (score: 80)
-        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
 
 Q10: Conte sobre quando você aplicou aprendizados de uma área completamente diferente ao seu trabalho
-   ✅ 6 case(s):
-      • out-of-comfort-zone-transparency-portal (score: 92)
+   ✅ 3 case(s):
+      • out-of-comfort-zone-transparency-portal (score: 87)
         "Liderei o Portal da Transparência: Fora da Zona de Conforto"
-      • olibano-blockchain-exploration (score: 86)
-        "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
       • unimed-harvard-healthcare-innovation (score: 84)
         "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
-      • stay-updated-payments-fintech (score: 84)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • unimed-cvc-failure-learning (score: 84)
-        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • bradesco-safe-agile-framework (score: 83)
-        "Implementação de Framework Ágil em Escala para Banco Digital"
+      • olibano-blockchain-exploration (score: 83)
+        "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
 
 Q11: Conte sobre um projeto que não deu certo / que você falhou
-   ✅ 2 case(s):
-      • unimed-cvc-failure-learning (score: 88)
+   ✅ 1 case(s):
+      • unimed-cvc-failure-learning (score: 83)
         "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • stay-updated-payments-fintech (score: 80)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
 
 Q12: Conte sobre uma situação onde você aprendeu com erros
-   ✅ 3 case(s):
-      • unimed-cvc-failure-learning (score: 88)
+   ✅ 1 case(s):
+      • unimed-cvc-failure-learning (score: 83)
         "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • stay-updated-payments-fintech (score: 84)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • out-of-comfort-zone-transparency-portal (score: 80)
-        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
 
 Q13: Como você identifica quando precisa desaprender algo que sabia?
-   ✅ 5 case(s):
-      • unimed-cvc-failure-learning (score: 88)
-        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • olibano-blockchain-exploration (score: 86)
+   ✅ 2 case(s):
+      • olibano-blockchain-exploration (score: 83)
         "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
-      • stay-updated-payments-fintech (score: 84)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • out-of-comfort-zone-transparency-portal (score: 84)
-        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
-      • bradesco-safe-agile-framework (score: 83)
-        "Implementação de Framework Ágil em Escala para Banco Digital"
+      • unimed-cvc-failure-learning (score: 83)
+        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
 
 Q14: Conte sobre quando sua curiosidade te levou a questionar uma prática estabelecida
-   ✅ 6 case(s):
-      • olibano-blockchain-exploration (score: 90)
+   ✅ 5 case(s):
+      • olibano-blockchain-exploration (score: 87)
         "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
-      • stay-updated-payments-fintech (score: 88)
-        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
-      • unimed-cvc-failure-learning (score: 88)
-        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
-      • bradesco-safe-agile-framework (score: 87)
-        "Implementação de Framework Ágil em Escala para Banco Digital"
       • unimed-harvard-healthcare-innovation (score: 84)
         "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
-      • out-of-comfort-zone-transparency-portal (score: 84)
-        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
+      • stay-updated-payments-fintech (score: 83)
+        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
+      • unimed-cvc-failure-learning (score: 83)
+        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
+      • bradesco-safe-agile-framework (score: 81)
+        "Implementação de Framework Ágil em Escala para Banco Digital"
 
 
 ══════════════════════════════════════════════════════════════════════
@@ -1403,64 +1365,64 @@ Q14: Conte sobre quando sua curiosidade te levou a questionar uma prática estab
 
 Q1: Nos dê um exemplo de risco calculado que você tomou quando o tempo era crítico, e como você mitigou esse risco?
    ✅ 7 case(s):
-      • calculated-risk-time-critical (score: 90)
-        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
-      • sicredi-fraud-emergency-4h-decision (score: 89)
-        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
-      • bradesco-next-rapid-launch (score: 87)
-        "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
-      • sefaz-project-pivot-70-percent (score: 84)
-        "Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sus..."
-      • sicredi-ml-credit-approval (score: 83)
-        "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
-      • sefaz-emergency-tax-portal (score: 83)
-        "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
-      • hsbc-migration-against-experts (score: 81)
-        "Mantive go-live da migração HSBC→Bradesco contrariando recomendação de adiar 3 m..."
-
-Q2: Me fale sobre uma decisão que você tomou com informação limitada
-   ✅ 5 case(s):
-      • bradesco-next-rapid-launch (score: 87)
-        "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
-      • sicredi-ml-credit-approval (score: 83)
-        "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
-      • sefaz-emergency-tax-portal (score: 83)
-        "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
-      • calculated-risk-time-critical (score: 83)
-        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
-      • sicredi-fraud-emergency-4h-decision (score: 82)
-        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
-
-Q3: Conte sobre uma vez que você agiu rapidamente
-   ✅ 6 case(s):
       • bradesco-next-rapid-launch (score: 87)
         "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
       • calculated-risk-time-critical (score: 87)
         "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
-      • sicredi-fraud-emergency-4h-decision (score: 87)
-        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
+      • sefaz-project-pivot-70-percent (score: 85)
+        "Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sus..."
       • sicredi-ml-credit-approval (score: 83)
         "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
       • sefaz-emergency-tax-portal (score: 83)
         "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
-      • sefaz-project-pivot-70-percent (score: 82)
-        "Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sus..."
-
-Q4: Como você decide quando é hora de agir vs. analisar mais?
-   ✅ 7 case(s):
-      • sicredi-fraud-emergency-4h-decision (score: 89)
+      • sicredi-fraud-emergency-4h-decision (score: 83)
         "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
-      • calculated-risk-time-critical (score: 88)
-        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
+      • hsbc-migration-against-experts (score: 83)
+        "Mantive go-live da migração HSBC→Bradesco contrariando recomendação de adiar 3 m..."
+
+Q2: Me fale sobre uma decisão que você tomou com informação limitada
+   ✅ 4 case(s):
       • bradesco-next-rapid-launch (score: 87)
         "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
       • sicredi-ml-credit-approval (score: 83)
         "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
       • sefaz-emergency-tax-portal (score: 83)
         "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
-      • sefaz-project-pivot-70-percent (score: 82)
+      • calculated-risk-time-critical (score: 80)
+        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
+
+Q3: Conte sobre uma vez que você agiu rapidamente
+   ✅ 7 case(s):
+      • bradesco-next-rapid-launch (score: 87)
+        "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
+      • calculated-risk-time-critical (score: 84)
+        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
+      • sicredi-ml-credit-approval (score: 83)
+        "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
+      • sefaz-emergency-tax-portal (score: 83)
+        "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
+      • sefaz-project-pivot-70-percent (score: 83)
         "Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sus..."
+      • sicredi-fraud-emergency-4h-decision (score: 81)
+        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
       • hsbc-migration-against-experts (score: 81)
+        "Mantive go-live da migração HSBC→Bradesco contrariando recomendação de adiar 3 m..."
+
+Q4: Como você decide quando é hora de agir vs. analisar mais?
+   ✅ 7 case(s):
+      • bradesco-next-rapid-launch (score: 87)
+        "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
+      • calculated-risk-time-critical (score: 85)
+        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
+      • sicredi-ml-credit-approval (score: 83)
+        "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
+      • sefaz-emergency-tax-portal (score: 83)
+        "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
+      • sicredi-fraud-emergency-4h-decision (score: 83)
+        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
+      • sefaz-project-pivot-70-percent (score: 83)
+        "Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sus..."
+      • hsbc-migration-against-experts (score: 83)
         "Mantive go-live da migração HSBC→Bradesco contrariando recomendação de adiar 3 m..."
 
 Q5: Descreva uma situação onde velocidade era crítica
@@ -1471,32 +1433,28 @@ Q5: Descreva uma situação onde velocidade era crítica
         "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
       • sefaz-emergency-tax-portal (score: 83)
         "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
-      • calculated-risk-time-critical (score: 83)
+      • calculated-risk-time-critical (score: 80)
         "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
 
 Q6: Me fale sobre quando você foi o primeiro a agir em algo
-   ✅ 6 case(s):
+   ✅ 5 case(s):
       • bradesco-next-rapid-launch (score: 87)
         "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
-      • calculated-risk-time-critical (score: 85)
-        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
       • sicredi-ml-credit-approval (score: 83)
         "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
       • sefaz-emergency-tax-portal (score: 83)
         "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
-      • sicredi-fraud-emergency-4h-decision (score: 82)
-        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
-      • sefaz-project-pivot-70-percent (score: 82)
+      • sefaz-project-pivot-70-percent (score: 83)
         "Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sus..."
+      • calculated-risk-time-critical (score: 82)
+        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
 
 Q7: Descreva uma vez que você teve que tomar decisão reversível rapidamente vs. irreversível com mais análise
-   ✅ 5 case(s):
-      • calculated-risk-time-critical (score: 88)
-        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
+   ✅ 4 case(s):
       • bradesco-next-rapid-launch (score: 87)
         "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
-      • sicredi-fraud-emergency-4h-decision (score: 84)
-        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
+      • calculated-risk-time-critical (score: 85)
+        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
       • sicredi-ml-credit-approval (score: 83)
         "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
       • sefaz-emergency-tax-portal (score: 83)
@@ -1504,73 +1462,71 @@ Q7: Descreva uma vez que você teve que tomar decisão reversível rapidamente v
 
 Q8: Como você equilibra necessidade de dados com necessidade de agir?
    ✅ 7 case(s):
-      • calculated-risk-time-critical (score: 90)
-        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
       • bradesco-next-rapid-launch (score: 87)
         "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
-      • sicredi-fraud-emergency-4h-decision (score: 87)
-        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
+      • calculated-risk-time-critical (score: 87)
+        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
       • sicredi-ml-credit-approval (score: 83)
         "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
       • sefaz-emergency-tax-portal (score: 83)
         "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
-      • sefaz-project-pivot-70-percent (score: 82)
+      • sefaz-project-pivot-70-percent (score: 83)
         "Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sus..."
-      • hsbc-migration-against-experts (score: 81)
+      • hsbc-migration-against-experts (score: 83)
         "Mantive go-live da migração HSBC→Bradesco contrariando recomendação de adiar 3 m..."
-
-Q9: Conte sobre quando você teve que mudar curso/direção de um projeto quando estava 70% completo
-   ✅ 5 case(s):
-      • bradesco-next-rapid-launch (score: 87)
-        "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
-      • sicredi-fraud-emergency-4h-decision (score: 87)
-        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
-      • calculated-risk-time-critical (score: 85)
-        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
-      • sicredi-ml-credit-approval (score: 83)
-        "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
-      • sefaz-emergency-tax-portal (score: 83)
-        "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
-
-Q10: Descreva uma situação onde você teve que tomar decisão rápida sobre transação suspeita
-   ✅ 5 case(s):
-      • bradesco-next-rapid-launch (score: 87)
-        "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
-      • sicredi-ml-credit-approval (score: 83)
-        "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
-      • sefaz-emergency-tax-portal (score: 83)
-        "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
       • sicredi-fraud-emergency-4h-decision (score: 81)
         "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
-      • calculated-risk-time-critical (score: 80)
-        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
 
-Q11: Como você comunica decisões rápidas para stakeholders que preferem mais análise?
-   ✅ 5 case(s):
+Q9: Conte sobre quando você teve que mudar curso/direção de um projeto quando estava 70% completo
+   ✅ 7 case(s):
       • bradesco-next-rapid-launch (score: 87)
         "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
-      • sicredi-fraud-emergency-4h-decision (score: 84)
-        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
       • sicredi-ml-credit-approval (score: 83)
         "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
       • sefaz-emergency-tax-portal (score: 83)
         "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
       • calculated-risk-time-critical (score: 82)
         "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
+      • sicredi-fraud-emergency-4h-decision (score: 81)
+        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
+      • hsbc-migration-against-experts (score: 81)
+        "Mantive go-live da migração HSBC→Bradesco contrariando recomendação de adiar 3 m..."
+      • sefaz-project-pivot-70-percent (score: 80)
+        "Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sus..."
 
-Q12: Conte sobre quando você teve que agir contra o conselho de especialistas
-   ✅ 6 case(s):
-      • calculated-risk-time-critical (score: 88)
-        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
+Q10: Descreva uma situação onde você teve que tomar decisão rápida sobre transação suspeita
+   ✅ 4 case(s):
       • bradesco-next-rapid-launch (score: 87)
         "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
-      • sicredi-fraud-emergency-4h-decision (score: 84)
-        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
       • sicredi-ml-credit-approval (score: 83)
         "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
       • sefaz-emergency-tax-portal (score: 83)
         "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
-      • sefaz-project-pivot-70-percent (score: 82)
+      • sefaz-project-pivot-70-percent (score: 80)
+        "Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sus..."
+
+Q11: Como você comunica decisões rápidas para stakeholders que preferem mais análise?
+   ✅ 4 case(s):
+      • bradesco-next-rapid-launch (score: 87)
+        "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
+      • sicredi-ml-credit-approval (score: 83)
+        "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
+      • sefaz-emergency-tax-portal (score: 83)
+        "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
+      • hsbc-migration-against-experts (score: 81)
+        "Mantive go-live da migração HSBC→Bradesco contrariando recomendação de adiar 3 m..."
+
+Q12: Conte sobre quando você teve que agir contra o conselho de especialistas
+   ✅ 5 case(s):
+      • bradesco-next-rapid-launch (score: 87)
+        "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
+      • calculated-risk-time-critical (score: 85)
+        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
+      • sicredi-ml-credit-approval (score: 83)
+        "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
+      • sefaz-emergency-tax-portal (score: 83)
+        "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
+      • sefaz-project-pivot-70-percent (score: 83)
         "Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sus..."
 
 
@@ -1579,92 +1535,70 @@ Q12: Conte sobre quando você teve que agir contra o conselho de especialistas
 ══════════════════════════════════════════════════════════════════════
 
 Q1: Conte sobre uma decisão difícil de priorização onde você teve que escolher entre múltiplas iniciativas críticas
-   ✅ 3 case(s):
-      • sicredi-woop-segment-prioritization (score: 90)
+   ✅ 2 case(s):
+      • sicredi-woop-segment-prioritization (score: 87)
         "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
       • bradesco-covid-reprioritization (score: 87)
         "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
-      • bradesco-next-mvp-prioritization (score: 84)
-        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
 
 Q2: Como você decide o que NÃO fazer quando tudo parece urgente?
-   ✅ 3 case(s):
-      • sicredi-woop-segment-prioritization (score: 90)
+   ✅ 2 case(s):
+      • sicredi-woop-segment-prioritization (score: 87)
         "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
       • bradesco-covid-reprioritization (score: 87)
         "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
-      • bradesco-next-mvp-prioritization (score: 84)
-        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
 
 Q3: Descreva uma situação onde você influenciou uma decisão estratégica importante sem ter autoridade formal
-   ✅ 3 case(s):
-      • sicredi-woop-segment-prioritization (score: 90)
+   ✅ 2 case(s):
+      • sicredi-woop-segment-prioritization (score: 87)
         "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
       • bradesco-covid-reprioritization (score: 87)
         "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
-      • bradesco-next-mvp-prioritization (score: 84)
-        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
 
 Q4: Como você usa dados para influenciar decisões quando stakeholders têm opiniões baseadas em intuição?
-   ✅ 3 case(s):
-      • sicredi-woop-segment-prioritization (score: 90)
+   ✅ 2 case(s):
+      • sicredi-woop-segment-prioritization (score: 87)
         "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
       • bradesco-covid-reprioritization (score: 87)
         "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
-      • bradesco-next-mvp-prioritization (score: 84)
-        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
 
 Q5: Conte sobre quando você teve que defender uma priorização controversa para executivos seniores
-   ✅ 3 case(s):
-      • sicredi-woop-segment-prioritization (score: 90)
+   ✅ 2 case(s):
+      • sicredi-woop-segment-prioritization (score: 87)
         "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
       • bradesco-covid-reprioritization (score: 87)
         "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
-      • bradesco-next-mvp-prioritization (score: 84)
-        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
 
 Q6: Como você equilibra necessidades de curto prazo vs investimentos de longo prazo?
-   ✅ 3 case(s):
-      • sicredi-woop-segment-prioritization (score: 86)
+   ✅ 2 case(s):
+      • sicredi-woop-segment-prioritization (score: 83)
         "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
       • bradesco-covid-reprioritization (score: 83)
         "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
-      • bradesco-next-mvp-prioritization (score: 80)
-        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
 
 Q7: Descreva uma situação onde você mudou a priorização de um roadmap baseado em novas informações
-   ✅ 3 case(s):
+   ✅ 2 case(s):
       • bradesco-covid-reprioritization (score: 87)
         "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
-      • sicredi-woop-segment-prioritization (score: 86)
+      • sicredi-woop-segment-prioritization (score: 83)
         "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
-      • bradesco-next-mvp-prioritization (score: 84)
-        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
 
 Q8: Como você garante que decisões de priorização sejam transparentes e compreendidas por todos?
-   ✅ 3 case(s):
-      • sicredi-woop-segment-prioritization (score: 86)
+   ✅ 2 case(s):
+      • sicredi-woop-segment-prioritization (score: 83)
         "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
       • bradesco-covid-reprioritization (score: 83)
         "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
-      • bradesco-next-mvp-prioritization (score: 80)
-        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
 
 Q9: Conte sobre quando você teve que influenciar uma decisão técnica importante com impacto de negócio
-   ✅ 3 case(s):
+   ✅ 1 case(s):
       • bradesco-covid-reprioritization (score: 83)
         "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
-      • sicredi-woop-segment-prioritization (score: 82)
-        "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
-      • bradesco-next-mvp-prioritization (score: 80)
-        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
 
 Q10: Como você lida com pressão para priorizar iniciativas que você acredita serem erradas?
-   ✅ 3 case(s):
-      • sicredi-woop-segment-prioritization (score: 90)
+   ✅ 2 case(s):
+      • sicredi-woop-segment-prioritization (score: 87)
         "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
-      • bradesco-next-mvp-prioritization (score: 84)
-        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
       • bradesco-covid-reprioritization (score: 83)
         "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
 
@@ -1674,13 +1608,11 @@ Q11: Descreva uma situação onde você teve que repriorizar recursos em meio a 
         "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
 
 Q12: Como você mede se suas decisões de priorização estão gerando o impacto esperado?
-   ✅ 3 case(s):
-      • sicredi-woop-segment-prioritization (score: 90)
+   ✅ 2 case(s):
+      • sicredi-woop-segment-prioritization (score: 87)
         "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
       • bradesco-covid-reprioritization (score: 87)
         "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
-      • bradesco-next-mvp-prioritization (score: 84)
-        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
 
 
 ══════════════════════════════════════════════════════════════════════
@@ -1689,155 +1621,121 @@ Q12: Como você mede se suas decisões de priorização estão gerando o impacto
 
 Q1: Conte sobre uma situação onde você teve que tomar decisões críticas com informação incompleta
    ✅ 7 case(s):
-      • sefaz-pmo-creation (score: 93)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • sefaz-digital-transformation-ambiguity (score: 93)
-        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
-      • unimed-innovation-ambiguity (score: 92)
-        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
       • unimed-pet-health-ambiguity (score: 90)
         "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
+      • sefaz-pmo-creation (score: 87)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
       • hsbc-bradesco-cultural-migration (score: 87)
         "Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturai..."
+      • unimed-innovation-ambiguity (score: 87)
+        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
       • huawei-worldcup-war-room (score: 85)
         "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Amb..."
+      • sefaz-digital-transformation-ambiguity (score: 85)
+        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
       • bradesco-open-banking-vision (score: 83)
         "Defendi APIs abertas em 2018 quando diretoria via como 'entregar ouro ao inimigo..."
 
 Q2: Como você estrutura problemas quando não há precedentes ou playbook para seguir?
    ✅ 7 case(s):
-      • sefaz-pmo-creation (score: 93)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • unimed-innovation-ambiguity (score: 92)
-        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
-      • sefaz-digital-transformation-ambiguity (score: 91)
-        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
       • unimed-pet-health-ambiguity (score: 90)
         "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
       • bradesco-open-banking-vision (score: 89)
         "Defendi APIs abertas em 2018 quando diretoria via como 'entregar ouro ao inimigo..."
+      • sefaz-pmo-creation (score: 87)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • unimed-innovation-ambiguity (score: 87)
+        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
       • hsbc-bradesco-cultural-migration (score: 85)
         "Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturai..."
       • huawei-worldcup-war-room (score: 85)
         "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Amb..."
+      • sefaz-digital-transformation-ambiguity (score: 83)
+        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
 
 Q3: Descreva uma situação onde você teve que liderar um projeto sem escopo claro ou requisitos definidos
    ✅ 7 case(s):
-      • sefaz-pmo-creation (score: 93)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • unimed-innovation-ambiguity (score: 92)
-        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
-      • sefaz-digital-transformation-ambiguity (score: 91)
-        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
       • unimed-pet-health-ambiguity (score: 90)
         "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
       • bradesco-open-banking-vision (score: 87)
         "Defendi APIs abertas em 2018 quando diretoria via como 'entregar ouro ao inimigo..."
-      • hsbc-bradesco-cultural-migration (score: 87)
-        "Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturai..."
-      • huawei-worldcup-war-room (score: 85)
-        "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Amb..."
-
-Q4: Como você decide quando você tem informação suficiente para agir vs quando precisa de mais dados?
-   ✅ 6 case(s):
-      • sefaz-pmo-creation (score: 93)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • unimed-pet-health-ambiguity (score: 90)
-        "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
-      • unimed-innovation-ambiguity (score: 86)
-        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
-      • huawei-worldcup-war-room (score: 83)
-        "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Amb..."
-      • sefaz-digital-transformation-ambiguity (score: 83)
-        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
-      • bradesco-open-banking-vision (score: 81)
-        "Defendi APIs abertas em 2018 quando diretoria via como 'entregar ouro ao inimigo..."
-
-Q5: Conte sobre quando você teve que navegar ambiguidade organizacional (mudanças de estrutura, fusões, etc.)
-   ✅ 6 case(s):
-      • unimed-pet-health-ambiguity (score: 90)
-        "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
-      • hsbc-bradesco-cultural-migration (score: 87)
-        "Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturai..."
-      • unimed-innovation-ambiguity (score: 86)
-        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
-      • sefaz-pmo-creation (score: 85)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • huawei-worldcup-war-room (score: 83)
-        "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Amb..."
-      • sefaz-digital-transformation-ambiguity (score: 83)
-        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
-
-Q6: Como você mantém seu time focado e produtivo em ambientes de alta incerteza?
-   ✅ 4 case(s):
-      • sefaz-pmo-creation (score: 85)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • hsbc-bradesco-cultural-migration (score: 83)
-        "Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturai..."
-      • sefaz-digital-transformation-ambiguity (score: 83)
-        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
-      • unimed-innovation-ambiguity (score: 80)
-        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
-
-Q7: Descreva uma situação onde você teve que criar estrutura e processos do zero
-   ✅ 5 case(s):
       • sefaz-pmo-creation (score: 87)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • unimed-innovation-ambiguity (score: 86)
+      • hsbc-bradesco-cultural-migration (score: 87)
+        "Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturai..."
+      • unimed-innovation-ambiguity (score: 87)
         "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
+      • huawei-worldcup-war-room (score: 85)
+        "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Amb..."
+      • sefaz-digital-transformation-ambiguity (score: 83)
+        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
+
+Q4: Como você decide quando você tem informação suficiente para agir vs quando precisa de mais dados?
+   ✅ 5 case(s):
+      • unimed-pet-health-ambiguity (score: 90)
+        "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
+      • sefaz-pmo-creation (score: 87)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • huawei-worldcup-war-room (score: 83)
+        "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Amb..."
+      • bradesco-open-banking-vision (score: 81)
+        "Defendi APIs abertas em 2018 quando diretoria via como 'entregar ouro ao inimigo..."
+      • unimed-innovation-ambiguity (score: 81)
+        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
+
+Q5: Conte sobre quando você teve que navegar ambiguidade organizacional (mudanças de estrutura, fusões, etc.)
+   ✅ 4 case(s):
+      • unimed-pet-health-ambiguity (score: 90)
+        "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
+      • hsbc-bradesco-cultural-migration (score: 87)
+        "Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturai..."
+      • huawei-worldcup-war-room (score: 83)
+        "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Amb..."
+      • unimed-innovation-ambiguity (score: 81)
+        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
+
+Q6: Como você mantém seu time focado e produtivo em ambientes de alta incerteza?
+   ✅ 1 case(s):
+      • hsbc-bradesco-cultural-migration (score: 83)
+        "Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturai..."
+
+Q7: Descreva uma situação onde você teve que criar estrutura e processos do zero
+   ✅ 4 case(s):
       • unimed-pet-health-ambiguity (score: 86)
         "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
       • huawei-worldcup-war-room (score: 83)
         "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Amb..."
-      • sefaz-digital-transformation-ambiguity (score: 83)
-        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
+      • sefaz-pmo-creation (score: 81)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+      • unimed-innovation-ambiguity (score: 81)
+        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
 
 Q8: Como você lida com mudanças frequentes de direção ou prioridades?
-   ✅ 4 case(s):
+   ✅ 2 case(s):
       • unimed-pet-health-ambiguity (score: 90)
         "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
-      • unimed-innovation-ambiguity (score: 86)
+      • unimed-innovation-ambiguity (score: 81)
         "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
-      • sefaz-digital-transformation-ambiguity (score: 83)
-        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
-      • sefaz-pmo-creation (score: 81)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
 
 Q9: Conte sobre quando você teve que fazer trade-offs difíceis sem orientação clara da liderança
-   ✅ 4 case(s):
+   ✅ 2 case(s):
       • unimed-pet-health-ambiguity (score: 90)
         "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
-      • unimed-innovation-ambiguity (score: 86)
+      • unimed-innovation-ambiguity (score: 81)
         "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
-      • sefaz-digital-transformation-ambiguity (score: 83)
-        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
-      • sefaz-pmo-creation (score: 81)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
 
 Q10: Como você comunica progresso quando os objetivos ainda estão sendo definidos?
-   ✅ 1 case(s):
-      • unimed-innovation-ambiguity (score: 80)
-        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
+   ❌ SEM COBERTURA
 
 Q11: Descreva uma situação onde você teve que experimentar e iterar para encontrar a solução certa
-   ✅ 3 case(s):
-      • sefaz-digital-transformation-ambiguity (score: 83)
-        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
-      • sefaz-pmo-creation (score: 81)
-        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • unimed-innovation-ambiguity (score: 80)
-        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
+   ❌ SEM COBERTURA
 
 Q12: Como você equilibra planejamento vs execução quando o futuro é incerto?
-   ✅ 4 case(s):
+   ✅ 2 case(s):
       • unimed-pet-health-ambiguity (score: 90)
         "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
-      • sefaz-pmo-creation (score: 89)
+      • sefaz-pmo-creation (score: 83)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
-      • sefaz-digital-transformation-ambiguity (score: 83)
-        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
-      • unimed-innovation-ambiguity (score: 80)
-        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
 
 
 ══════════════════════════════════════════════════════════════════════
@@ -1845,102 +1743,112 @@ Q12: Como você equilibra planejamento vs execução quando o futuro é incerto?
 ══════════════════════════════════════════════════════════════════════
 
 Q1: Conte sobre uma situação onde você discordou do supervisor/manager, mas ainda assim se comprometeu com a decisão final (e com a entrega)
-   ❌ SEM COBERTURA
+   ✅ 1 case(s):
+      • bradesco-mvp-feature-prioritization (score: 84)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
 
 Q2: Conte sobre uma vez que você discordou fortemente de uma decisão
    ✅ 2 case(s):
-      • unimed-retention-strategy (score: 84)
+      • unimed-retention-strategy (score: 86)
         "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
-      • bradesco-mvp-feature-prioritization (score: 81)
+      • bradesco-mvp-feature-prioritization (score: 84)
         "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
 
 Q3: Me fale sobre quando você teve que se comprometer com algo que não concordava
+   ✅ 3 case(s):
+      • bradesco-mvp-feature-prioritization (score: 84)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
+      • huawei-world-cup-timeline (score: 82)
+        "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
+      • unimed-retention-strategy (score: 80)
+        "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
+
+Q4: Como você lida com disagreements na equipe?
    ✅ 2 case(s):
       • huawei-world-cup-timeline (score: 82)
         "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
-      • bradesco-mvp-feature-prioritization (score: 81)
+      • bradesco-mvp-feature-prioritization (score: 80)
         "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
-
-Q4: Como você lida com disagreements na equipe?
-   ✅ 1 case(s):
-      • huawei-world-cup-timeline (score: 82)
-        "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
 
 Q5: Me dê um exemplo de quando você defendeu uma posição impopular
    ✅ 4 case(s):
-      • unimed-retention-strategy (score: 82)
+      • unimed-retention-strategy (score: 84)
         "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
+      • bradesco-mvp-feature-prioritization (score: 84)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
       • huawei-world-cup-timeline (score: 82)
         "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
-      • bradesco-mvp-feature-prioritization (score: 81)
-        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
       • commit-on-disagreement-product-strategy (score: 81)
         "Discordei de uma estratégia de pricing, provei meu ponto com dados e liderei o p..."
 
 Q6: Me dê um exemplo de quando você se comprometeu com uma decisão de grupo mesmo discordando
    ✅ 3 case(s):
-      • unimed-retention-strategy (score: 84)
+      • unimed-retention-strategy (score: 86)
         "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
+      • bradesco-mvp-feature-prioritization (score: 84)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
       • huawei-world-cup-timeline (score: 82)
         "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
-      • bradesco-mvp-feature-prioritization (score: 81)
-        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
 
 Q7: Conte sobre quando você discordou de um colega/PM/gestor porque achava que estava errado para o cliente
    ✅ 4 case(s):
+      • unimed-retention-strategy (score: 88)
+        "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
       • commit-on-disagreement-product-strategy (score: 87)
         "Discordei de uma estratégia de pricing, provei meu ponto com dados e liderei o p..."
-      • unimed-retention-strategy (score: 86)
-        "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
+      • bradesco-mvp-feature-prioritization (score: 84)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
       • huawei-world-cup-timeline (score: 82)
         "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
-      • bradesco-mvp-feature-prioritization (score: 81)
-        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
 
 Q8: Descreva uma vez que você teve uma ideia que não foi aceita - como você reagiu?
-   ❌ SEM COBERTURA
+   ✅ 1 case(s):
+      • bradesco-mvp-feature-prioritization (score: 84)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
 
 Q9: Me fale sobre um conflito que você resolveu - qual foi o processo?
    ✅ 4 case(s):
+      • bradesco-mvp-feature-prioritization (score: 84)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
+      • unimed-retention-strategy (score: 82)
+        "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
       • huawei-world-cup-timeline (score: 82)
         "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
-      • bradesco-mvp-feature-prioritization (score: 81)
+      • commit-on-disagreement-product-strategy (score: 81)
+        "Discordei de uma estratégia de pricing, provei meu ponto com dados e liderei o p..."
+
+Q10: Como você desafia respeitosamente decisões mas depois se compromete totalmente?
+   ✅ 4 case(s):
+      • bradesco-mvp-feature-prioritization (score: 84)
         "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
+      • huawei-world-cup-timeline (score: 82)
+        "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
       • commit-on-disagreement-product-strategy (score: 81)
         "Discordei de uma estratégia de pricing, provei meu ponto com dados e liderei o p..."
       • unimed-retention-strategy (score: 80)
         "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
 
-Q10: Como você desafia respeitosamente decisões mas depois se compromete totalmente?
-   ✅ 3 case(s):
-      • huawei-world-cup-timeline (score: 82)
-        "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
-      • bradesco-mvp-feature-prioritization (score: 81)
-        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
-      • commit-on-disagreement-product-strategy (score: 81)
-        "Discordei de uma estratégia de pricing, provei meu ponto com dados e liderei o p..."
-
 Q11: Como você mantém sua equipe motivada quando você mesmo discordou da decisão?
    ✅ 4 case(s):
+      • unimed-retention-strategy (score: 88)
+        "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
       • commit-on-disagreement-product-strategy (score: 87)
         "Discordei de uma estratégia de pricing, provei meu ponto com dados e liderei o p..."
-      • unimed-retention-strategy (score: 86)
-        "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
+      • bradesco-mvp-feature-prioritization (score: 84)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
       • huawei-world-cup-timeline (score: 82)
         "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
-      • bradesco-mvp-feature-prioritization (score: 81)
-        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
 
 Q12: Conte sobre quando você teve que defender publicamente uma decisão que contestou internamente
    ✅ 4 case(s):
+      • unimed-retention-strategy (score: 84)
+        "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
+      • bradesco-mvp-feature-prioritization (score: 84)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
       • commit-on-disagreement-product-strategy (score: 83)
         "Discordei de uma estratégia de pricing, provei meu ponto com dados e liderei o p..."
-      • unimed-retention-strategy (score: 82)
-        "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
       • huawei-world-cup-timeline (score: 82)
         "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
-      • bradesco-mvp-feature-prioritization (score: 81)
-        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
 
 
 ══════════════════════════════════════════════════════════════════════
@@ -1949,12 +1857,12 @@ Q12: Conte sobre quando você teve que defender publicamente uma decisão que co
 
 Q1: Como você garante que a equipe mantenha padrões elevados mesmo com prazo apertado?
    ✅ 4 case(s):
-      • unimed-telemedicine-redo-for-excellence (score: 84)
-        "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
       • hsbc-zero-defects (score: 83)
         "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R..."
       • sicredi-payment-sla (score: 83)
         "Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apo..."
+      • unimed-telemedicine-redo-for-excellence (score: 82)
+        "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
       • sefaz-pmo-governance (score: 80)
         "Elevei o padrao de governanca da SEFAZ, transformando o foco de entregas para va..."
 
@@ -1962,7 +1870,7 @@ Q2: Conte sobre uma vez que você elevou a barra de qualidade
    ✅ 5 case(s):
       • reject-mediocre-work-procergs (score: 89)
         "Rejeitei uma entrega de software de R$ 1,3M é criei um quality gate que se torno..."
-      • unimed-telemedicine-redo-for-excellence (score: 88)
+      • unimed-telemedicine-redo-for-excellence (score: 86)
         "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
       • hsbc-zero-defects (score: 83)
         "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R..."
@@ -1975,7 +1883,7 @@ Q3: Me fale sobre quando você não aceitou um trabalho medíocre
    ✅ 4 case(s):
       • sefaz-pmo-governance (score: 86)
         "Elevei o padrao de governanca da SEFAZ, transformando o foco de entregas para va..."
-      • unimed-telemedicine-redo-for-excellence (score: 86)
+      • unimed-telemedicine-redo-for-excellence (score: 84)
         "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
       • hsbc-zero-defects (score: 83)
         "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R..."
@@ -1984,7 +1892,7 @@ Q3: Me fale sobre quando você não aceitou um trabalho medíocre
 
 Q4: Como você define padrões para sua equipe?
    ✅ 3 case(s):
-      • unimed-telemedicine-redo-for-excellence (score: 86)
+      • unimed-telemedicine-redo-for-excellence (score: 84)
         "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
       • hsbc-zero-defects (score: 83)
         "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R..."
@@ -1992,15 +1900,13 @@ Q4: Como você define padrões para sua equipe?
         "Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apo..."
 
 Q5: Descreva uma situação onde você teve que refazer algo para atingir excelência
-   ✅ 4 case(s):
+   ✅ 3 case(s):
       • hsbc-zero-defects (score: 83)
         "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R..."
       • sicredi-payment-sla (score: 83)
         "Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apo..."
       • sefaz-pmo-governance (score: 82)
         "Elevei o padrao de governanca da SEFAZ, transformando o foco de entregas para va..."
-      • unimed-telemedicine-redo-for-excellence (score: 80)
-        "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
 
 Q6: Me dê um exemplo de quando você implementou um processo de qualidade
    ✅ 3 case(s):
@@ -2024,7 +1930,7 @@ Q8: Descreva um projeto que você gostaria de ter feito melhor - o que faria dif
    ✅ 5 case(s):
       • reject-mediocre-work-procergs (score: 89)
         "Rejeitei uma entrega de software de R$ 1,3M é criei um quality gate que se torno..."
-      • unimed-telemedicine-redo-for-excellence (score: 88)
+      • unimed-telemedicine-redo-for-excellence (score: 86)
         "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
       • hsbc-zero-defects (score: 83)
         "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R..."
@@ -2044,12 +1950,12 @@ Q10: Como você garante que defeitos não passam para frente e problemas ficam r
    ✅ 4 case(s):
       • sefaz-pmo-governance (score: 86)
         "Elevei o padrao de governanca da SEFAZ, transformando o foco de entregas para va..."
-      • unimed-telemedicine-redo-for-excellence (score: 84)
-        "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
       • hsbc-zero-defects (score: 83)
         "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R..."
       • sicredi-payment-sla (score: 83)
         "Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apo..."
+      • unimed-telemedicine-redo-for-excellence (score: 82)
+        "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
 
 Q11: Conte sobre quando você estabeleceu um novo padrão que outros achavam impossível de atingir
    ❌ SEM COBERTURA
@@ -2058,7 +1964,7 @@ Q12: Como você define 'qualidade suficiente' vs 'perfeição paralisante'?
    ✅ 4 case(s):
       • reject-mediocre-work-procergs (score: 87)
         "Rejeitei uma entrega de software de R$ 1,3M é criei um quality gate que se torno..."
-      • unimed-telemedicine-redo-for-excellence (score: 86)
+      • unimed-telemedicine-redo-for-excellence (score: 84)
         "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
       • hsbc-zero-defects (score: 83)
         "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R..."
@@ -2069,14 +1975,14 @@ Q13: Conte sobre quando você teve que recusar entregar algo por não atingir se
    ✅ 5 case(s):
       • sefaz-pmo-governance (score: 84)
         "Elevei o padrao de governanca da SEFAZ, transformando o foco de entregas para va..."
-      • unimed-telemedicine-redo-for-excellence (score: 84)
-        "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
       • hsbc-zero-defects (score: 83)
         "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R..."
       • sicredi-payment-sla (score: 83)
         "Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apo..."
       • reject-mediocre-work-procergs (score: 83)
         "Rejeitei uma entrega de software de R$ 1,3M é criei um quality gate que se torno..."
+      • unimed-telemedicine-redo-for-excellence (score: 82)
+        "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
 
 
 ══════════════════════════════════════════════════════════════════════
@@ -2084,7 +1990,7 @@ Q13: Conte sobre quando você teve que recusar entregar algo por não atingir se
 ══════════════════════════════════════════════════════════════════════
 
 Total de perguntas: 179
-Perguntas cobertas: 175 (97.8%)
-Total de mapeamentos: 734
-Média de cases por pergunta: 4.1
+Perguntas cobertas: 176 (98.3%)
+Total de mapeamentos: 687
+Média de cases por pergunta: 3.8
 

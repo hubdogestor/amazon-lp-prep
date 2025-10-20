@@ -455,10 +455,7 @@
       "scoreBase": 86,
       "reasoning": "O protagonista estava certo (híbrido era melhor), e a dificuldade foi convencer a si mesmo e ao Secretário, que esperava uma resposta baseada na intuição. O 'outro' a ser convencido era a própria experiência."
     }
-  }
-}
-
-{
+  },
   "best_employer": {
     "best_employer__Q1__bradesco-agile-community-creation": {
       "relevance": 30,
@@ -600,10 +597,7 @@
       "scoreBase": 90,
       "reasoning": "A decisão de construir um sistema focado em desenvolvimento e feedback justo, em vez de apenas manter um ciclo de avaliação genérico, é uma escolha clara pelo que é melhor para as pessoas."
     }
-  }
-}
-
-{
+  },
   "broad_responsibility": {
     "broad_responsibility__Q1__unimed-lgpd-compliance": {
       "relevance": 30,
@@ -815,10 +809,7 @@
       "scoreBase": 90,
       "reasoning": "A decisão de atrasar o lançamento de um modelo de ML já 'aprovado' para corrigir um viés ético é um exemplo perfeito de escolher fazer o certo em detrimento de um resultado de curto prazo (cumprir o prazo)."
     }
-  }
-}
-
-{
+  },
   "frugality": {
     "frugality__Q1__sefaz-zero-budget-pmo": {
       "relevance": 30,
@@ -1093,10 +1084,7 @@
       "scoreBase": 90,
       "reasoning": "Este case é a personificação da pergunta, trocando uma solução de R$120k (RPA) por uma de custo quase zero (n8n), resolvendo o problema de forma mais inteligente e barata."
     }
-  }
-}
-
-{
+  },
   "hire_and_develop_the_best": {
     "hire_and_develop_the_best__Q1__huawei-project-managers-mentoring": {
       "relevance": 26,
@@ -1462,10 +1450,7 @@
       "scoreBase": 86,
       "reasoning": "Este é o case definitivo para esta pergunta. O título e a situação descrevem exatamente uma promoção controversa, e a narrativa detalha como a situação foi gerenciada."
     }
-  }
-}
-
-{
+  },
   "think_big": {
     "think_big__Q1__huawei-global-rollout": {
       "relevance": 30,

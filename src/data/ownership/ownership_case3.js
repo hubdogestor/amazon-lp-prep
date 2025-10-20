@@ -6,7 +6,7 @@ const case_3 = {
   company: "Bradesco",
   period: "01/2017-06/2017",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
 
   pt: {
     s: "Janeiro de 2017. A reunião de resultados da área internacional começou tensa. No telão, o relatório mostrava uma curva crescente que ninguém conseguiu explicar. O custo médio por transação de pagamentos internacionais havia subido de R$ 47 para R$ 54 em seis meses (+15%), e o SLA médio passara de 2h50 para 4h10 -- um atraso que impactava clientes premium de custódia internacional, especialmente nas Cayman Islands. O NPS desses clientes despencou de 66 para 48, e três deles -- responsáveis por quase 40% das receitas da unidade offshore -- ameaçavam sair. O CFO interrompeu a discussão: “90 dias ou corto o headcount”. O prazo era para estabilizar custos, SLAs e risco de compliance. Embora eu fosse coordenador de Transformação Digital, alocado na workstream de Asset Management sob Estratégia Corporativa, eu dominava fluxos SWIFT, correspondentes e controles BACEN. Decidi assumir ownership total da virada.",

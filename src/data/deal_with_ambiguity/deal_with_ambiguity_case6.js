@@ -4,7 +4,7 @@ const case_6 = {
   company: "Secretaria da Fazenda do RS",
   period: "Julho 2024 - Dezembro 2024",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: "Em julho de 2024, atuei como Advisor de PMO na Secretaria da Fazenda do Rio Grande do Sul, uma instituição historicamente marcada por déficits orçamentários, sistemas legados da década de 1990 e resistência significativa entre servidores. O estado enfrentava um cenário político conturbado e uma arrecadação estagnada havia cinco anos, enquanto a inadimplência tributária atingia 18%. O Secretário me encarregou de modernizar a gestão fiscal em meio à falta de orçamento, sem apoio político estável e com alta desconfiança interna. O desafio era implantar inovação e governança onde não havia sequer consenso sobre o que significava ‘progresso’.",
     t: "Meu desafio era estruturar o primeiro PMO da SEFAZ-RS e transformar a ambiguidade política, técnica e cultural em um plano de ação estruturado. Comecei identificando as áreas que mais impactavam a arrecadação e o controle de custos, definindo prioridades entre mais de 50 projetos possíveis. Para converter incerteza em clareza, categorizei os projetos por criticidade fiscal, dependência tecnológica e visibilidade política. Estabeleci métricas que equilibravam eficiência operacional e aceitação política — uma forma de alinhar governança, resultados e sustentabilidade.",
