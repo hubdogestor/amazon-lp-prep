@@ -50,11 +50,11 @@ const CaseCard = memo(function CaseCard({
   return (
     <article
       id={caseDomId}
-      className={`bg-gradient-to-br rounded-xl p-0 mb-6 overflow-hidden transition-all duration-300 animate-in fade-in slide-in-from-bottom-4 ${
+      className={`bg-gradient-to-br rounded-2xl p-0 mb-6 overflow-hidden transition-all duration-300 animate-in fade-in slide-in-from-bottom-4 ${
         isTop
-          ? "from-orange-50 to-amber-50 border-4 border-[#FF9900] shadow-lg shadow-orange-200/50 hover:shadow-xl hover:shadow-orange-300/50 dark:from-orange-900 dark:to-amber-900 dark:border-orange-600 dark:shadow-orange-900/50 dark:hover:shadow-orange-900/50"
-          : "from-blue-50 to-sky-50 border-2 border-blue-300 hover:shadow-lg hover:shadow-blue-200/50 hover:border-blue-400 dark:from-blue-900 dark:to-sky-900 dark:border-blue-600 dark:hover:shadow-blue-900/50 dark:hover:border-blue-500"
-      } ${isHighlighted ? "ring-2 ring-amber-400 dark:ring-amber-500" : ""} ${isCaseUsed ? "opacity-80" : ""}`}
+          ? "from-orange-50 via-amber-50 to-yellow-50 border-4 border-[#FF9900] shadow-xl shadow-orange-300/60 hover:shadow-2xl hover:shadow-orange-400/70 hover:scale-[1.01] dark:from-orange-950 dark:via-amber-950 dark:to-yellow-950 dark:border-orange-500 dark:shadow-orange-900/60"
+          : "from-blue-50 via-sky-50 to-cyan-50 border-2 border-blue-400 shadow-lg shadow-blue-200/50 hover:shadow-xl hover:shadow-blue-300/60 hover:border-blue-500 hover:scale-[1.005] dark:from-slate-900 dark:via-blue-950 dark:to-slate-900 dark:border-blue-700 dark:shadow-blue-900/50"
+      } ${isHighlighted ? "ring-4 ring-amber-400 ring-offset-2 dark:ring-amber-500" : ""} ${isCaseUsed ? "opacity-75" : ""}`}
       title={questionsTooltip}
     >
       <CaseCardHeader

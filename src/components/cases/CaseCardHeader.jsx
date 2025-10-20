@@ -23,9 +23,9 @@ export default function CaseCardHeader({
   const { t } = useTranslation();
   return (
     <header
-      className={`flex items-center justify-between px-5 py-4 cursor-pointer ${
-        open ? "bg-white/80" : "bg-white/60"
-      } hover:bg-white/90 backdrop-blur-sm`}
+      className={`flex items-center justify-between px-6 py-5 cursor-pointer transition-all duration-200 ${
+        open ? "bg-white/90 dark:bg-slate-800/90" : "bg-white/70 dark:bg-slate-800/70"
+      } hover:bg-white dark:hover:bg-slate-800 backdrop-blur-sm`}
       onClick={(event) => {
         event.stopPropagation();
         onToggleCase(hasSearchTerm);
@@ -41,24 +41,47 @@ export default function CaseCardHeader({
         }
       }}
     >
-      <div className="flex items-center gap-3">
+      <div className="flex items-start gap-3">
         {isTop && (
-          <span className="px-3 py-1 bg-[#FF9900] text-white text-[10px] font-bold rounded-full shadow-md animate-pulse">
+          <span className="px-3 py-1.5 bg-gradient-to-r from-[#FF9900] to-[#FF6B00] text-white text-xs font-bold rounded-full shadow-lg animate-pulse flex-shrink-0 mt-1">
             {t('topCaseLabel')}
           </span>
         )}
         {!isTop && caseData.isGoodCase && (
-          <span className="px-2.5 py-0.5 bg-blue-500 text-white text-[10px] font-semibold rounded-full shadow-sm">
+          <span className="px-3 py-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs font-semibold rounded-full shadow-md flex-shrink-0 mt-1">
             {t('goodCaseLabel')}
           </span>
         )}
-        <h3 className={`text-lg font-bold ${isTop ? "text-[#232F3E]" : "text-slate-900"} ${isCaseUsed ? "text-slate-500" : ""}`}>
-          <HighlightableText
-            text={getDisplayCaseTitle(caseData, language)}
-            searchTerm={highlightCaseTerm}
-            className={isCaseUsed ? "line-through decoration-2 decoration-slate-500" : ""}
-          />
-        </h3>
+        <div className="flex flex-col gap-1">
+          <h3 className={`text-xl font-bold tracking-tight leading-tight ${isTop ? "text-[#232F3E] dark:text-orange-400" : "text-slate-900 dark:text-slate-100"} ${isCaseUsed ? "text-slate-500 dark:text-slate-600" : ""}`}>
+            <HighlightableText
+              text={language === "en" ? (caseData.title_en || caseData.title_pt || caseData.title) : (caseData.title_pt || caseData.title)}
+              searchTerm={highlightCaseTerm}
+              className={isCaseUsed ? "line-through decoration-2 decoration-slate-500" : ""}
+            />
+          </h3>
+          <div className={`text-sm flex items-center gap-2 ${isCaseUsed ? "text-slate-400 dark:text-slate-600" : "text-slate-600 dark:text-slate-400"}`}>
+            {caseData.company && (
+              <span className="font-medium">
+                <HighlightableText
+                  text={caseData.company}
+                  searchTerm={highlightCaseTerm}
+                  className={isCaseUsed ? "line-through decoration-2 decoration-slate-400" : ""}
+                />
+              </span>
+            )}
+            {caseData.period && (
+              <span className={isCaseUsed ? "text-slate-400 dark:text-slate-600" : ""}>
+                <HighlightableText
+                  text={caseData.period}
+                  searchTerm={highlightCaseTerm}
+                  className={isCaseUsed ? "line-through decoration-2 decoration-slate-400" : ""}
+                />
+              </span>
+            )}
+            {caseData.isTopCase && <span className="text-lg">🎯</span>}
+          </div>
+        </div>
       </div>
       <div className="flex items-center gap-3">
         <button
@@ -67,10 +90,10 @@ export default function CaseCardHeader({
             event.stopPropagation();
             onToggleUsedCase();
           }}
-          className={`inline-flex h-9 w-9 items-center justify-center rounded-lg border transition-all duration-200 hover:scale-110 active:scale-95 ${
+          className={`inline-flex h-10 w-10 items-center justify-center rounded-xl border-2 transition-all duration-300 hover:scale-110 active:scale-95 hover:shadow-lg ${
             isCaseUsed
-              ? "bg-green-50 border-green-300 text-green-700 dark:bg-green-900 dark:border-green-600 dark:text-green-400"
-              : "bg-white border-slate-300 text-slate-600 hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-400 dark:hover:bg-slate-700"
+              ? "bg-gradient-to-br from-green-50 to-green-100 border-green-400 text-green-700 shadow-green-200/50 dark:from-green-900 dark:to-green-800 dark:border-green-500 dark:text-green-300"
+              : "bg-white border-slate-300 text-slate-600 hover:bg-slate-50 hover:border-slate-400 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-400 dark:hover:bg-slate-700 dark:hover:border-slate-500"
           }`}
           title={toggleCaseTooltip}
           aria-label={toggleCaseTooltip}
@@ -84,10 +107,10 @@ export default function CaseCardHeader({
               event.stopPropagation();
               onCopyPrompt();
             }}
-            className={`flex items-center gap-2 px-3 py-1.5 text-sm rounded-lg border transition-all duration-200 hover:scale-105 active:scale-95 ${
+            className={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-xl border-2 transition-all duration-300 hover:scale-105 active:scale-95 hover:shadow-lg ${
               copiedCaseId === caseSearchKey
-                ? "bg-green-50 border-green-300 text-green-700 dark:bg-green-900 dark:border-green-600 dark:text-green-400"
-                : "bg-white border-slate-300 text-slate-700 hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-700"
+                ? "bg-gradient-to-br from-green-50 to-green-100 border-green-400 text-green-700 shadow-green-200/50 dark:from-green-900 dark:to-green-800 dark:border-green-500 dark:text-green-300"
+                : "bg-white border-blue-300 text-blue-700 hover:bg-blue-50 hover:border-blue-400 shadow-blue-200/50 dark:bg-slate-800 dark:border-blue-600 dark:text-blue-300 dark:hover:bg-slate-700 dark:hover:border-blue-500"
             }`}
             title={t('copyPromptTitle')}
             aria-label={t('generateCopyPromptLabel')}
@@ -105,7 +128,7 @@ export default function CaseCardHeader({
             )}
           </button>
         )}
-        <span className="text-sm text-amber-600 select-none">
+        <span className="text-sm font-semibold text-blue-600 dark:text-blue-400 select-none transition-colors">
           {open ? t('close') : t('viewDetails')} {open ? "▲" : "▼"}
         </span>
       </div>

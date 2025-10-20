@@ -25,37 +25,47 @@ export default function Sidebar({
         </h2>
       </div>
 
-      {/* Botões dos 16 LPs - estilo Amazon com fundo */}
-      {(principlesData || []).map((p) => (
-        <button
-          key={`side-${p.id}`}
-          className={clsx(
-            "w-full mb-2 px-4 py-2.5 rounded-md text-sm text-left font-medium transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm relative overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-slate-800",
-            {
-              "bg-[#FF9900] text-white shadow-md scale-[1.02] dark:bg-orange-600": selectedPrinciple === p.id,
-              "bg-gradient-to-r from-white to-slate-50 border border-slate-200 text-[#232F3E] hover:border-[#FF9900] hover:shadow-md dark:from-slate-800 dark:to-slate-700 dark:border-slate-600 dark:text-slate-100 dark:hover:border-orange-500": selectedPrinciple !== p.id,
-            }
-          )}
-          onClick={(e) => {
-            e.stopPropagation();
-            setSelectedPrinciple(p.id);
-            setShowTopCases(false);
-            setSearchTerm("");
-            setQuestionSearch(""); // Clear FUP search
-            setTypicalQuestionSearch(""); // Clear Typical Questions search
-            clearHighlights();
-            clearExpanded();
-            onCloseMobileDrawer?.();
-          }}
-          aria-pressed={selectedPrinciple === p.id}
-        >
-          <span className="relative z-10">{getDisplayName(p, language)}</span>
-          <span className={clsx(
-            "absolute inset-0 rounded-md opacity-0 transition-opacity duration-200",
-            selectedPrinciple === p.id ? "bg-white/20" : "hover:bg-[#FF9900]/10 dark:hover:bg-orange-500/20"
-          )}></span>
-        </button>
-      ))}
+      {/* Botões dos LPs - estilo Amazon com fundo e divisores */}
+      {(principlesData || []).map((p, index) => {
+        // IDs após os quais deve aparecer um divisor
+        const dividersAfter = ['program_management', 'invent_and_simplify', 'stakeholder_management', 'prioritizing_and_influence', 'deal_with_ambiguity'];
+        const shouldShowDivider = dividersAfter.includes(p.id);
+
+        return (
+          <div key={`side-wrapper-${p.id}`}>
+            <button
+              className={clsx(
+                "w-full mb-2 px-4 py-2.5 rounded-md text-sm text-left font-medium transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm relative overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-slate-800",
+                {
+                  "bg-[#FF9900] text-white shadow-md scale-[1.02] dark:bg-orange-600": selectedPrinciple === p.id,
+                  "bg-gradient-to-r from-white to-slate-50 border border-slate-200 text-[#232F3E] hover:border-[#FF9900] hover:shadow-md dark:from-slate-800 dark:to-slate-700 dark:border-slate-600 dark:text-slate-100 dark:hover:border-orange-500": selectedPrinciple !== p.id,
+                }
+              )}
+              onClick={(e) => {
+                e.stopPropagation();
+                setSelectedPrinciple(p.id);
+                setShowTopCases(false);
+                setSearchTerm("");
+                setQuestionSearch(""); // Clear FUP search
+                setTypicalQuestionSearch(""); // Clear Typical Questions search
+                clearHighlights();
+                clearExpanded();
+                onCloseMobileDrawer?.();
+              }}
+              aria-pressed={selectedPrinciple === p.id}
+            >
+              <span className="relative z-10">{getDisplayName(p, language)}</span>
+              <span className={clsx(
+                "absolute inset-0 rounded-md opacity-0 transition-opacity duration-200",
+                selectedPrinciple === p.id ? "bg-white/20" : "hover:bg-[#FF9900]/10 dark:hover:bg-orange-500/20"
+              )}></span>
+            </button>
+            {shouldShowDivider && (
+              <div className="my-2 border-t border-slate-300 dark:border-slate-600" />
+            )}
+          </div>
+        );
+      })}
     </aside>
   );
 }

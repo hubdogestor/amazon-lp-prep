@@ -22,7 +22,7 @@ export function useHighlight() {
     };
   }, []);
 
-  // Clear typical question highlight when clicking outside
+  // Clear typical question highlight when clicking outside or pressing ESC
   useEffect(() => {
     const handleClickOutside = (event) => {
       // Only clear if there's a highlighted typical question
@@ -30,7 +30,7 @@ export function useHighlight() {
         // Check if the click was on a typical question button
         const target = event.target;
         const isTypicalQuestionClick = target.closest('[id^="typical-q-"]');
-        
+
         // If not clicking on a typical question, clear the highlight
         if (!isTypicalQuestionClick) {
           setHighlightedTypicalQuestionId(null);
@@ -38,9 +38,19 @@ export function useHighlight() {
       }
     };
 
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        clearHighlights();
+      }
+    };
+
     document.addEventListener('click', handleClickOutside);
-    return () => document.removeEventListener('click', handleClickOutside);
-  }, [highlightedTypicalQuestionId]);
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [highlightedTypicalQuestionId, clearHighlights]);
 
   /**
    * Clear all highlights (including search term)

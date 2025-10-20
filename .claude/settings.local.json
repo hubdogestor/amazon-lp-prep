@@ -32,7 +32,14 @@
       "Bash(gh pr close:*)",
       "Bash(gh workflow:*)",
       "Bash(rm:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(python apply_dark_mode.py:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: Implementar Dark Mode completo e profissional\n\nMelhorias implementadas:\n- Adicionado scrollbar customizada para dark mode\n- Suporte dark mode em todos os dropdowns de busca\n- Mobile drawer com suporte dark mode completo\n- Sidebar com título escuro\n- Transições suaves entre temas\n- Paleta de cores consistente (slate-900, slate-800, slate-700)\n\nComponentes atualizados:\n- src/index.css: Scrollbar customizada e transições\n- src/App.jsx: Mobile drawer com dark mode\n- src/components/layout/Header.jsx: Dropdowns com dark mode\n- src/components/layout/Sidebar.jsx: Título com dark mode\n\nTodos os elementos agora suportam modo claro e escuro\ncom contraste adequado e UX consistente.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(npm run deploy:*)",
+      "Bash(pkill:*)",
+      "Bash(python fix_dark_mode_contrast.py:*)"
     ],
     "deny": [],
     "ask": []

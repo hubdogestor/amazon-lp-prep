@@ -26,7 +26,7 @@ const TypicalQuestionItem = memo(({
       onClick={onClick}
       disabled={!hasCase}
       className={clsx(
-        "w-full px-4 py-3 border rounded-lg text-sm transition-all duration-300 flex items-center justify-center text-center min-h-[70px] font-medium focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-slate-800",
+        "w-full px-3 py-2.5 border rounded-lg text-xs transition-all duration-300 flex items-center justify-center text-center min-h-[60px] font-medium leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-slate-800",
         {
           "bg-white/90 border-blue-200 text-[#232F3E] hover:bg-blue-50 hover:shadow-md hover:scale-105 cursor-pointer dark:bg-slate-800 dark:border-blue-600 dark:text-slate-100 dark:hover:bg-blue-900": hasCase,
           "bg-gray-100 border-gray-300 text-gray-400 cursor-not-allowed dark:bg-slate-700 dark:border-slate-600 dark:text-slate-500": !hasCase,
@@ -36,8 +36,8 @@ const TypicalQuestionItem = memo(({
       )}
       title={tooltip}
     >
-      <span className="flex items-center gap-2">
-        {hasCase && <span className="text-green-600 font-bold text-lg">✓</span>}
+      <span className="flex items-center gap-1.5">
+        {hasCase && <span className="text-green-600 font-bold text-base flex-shrink-0">✓</span>}
         <HighlightableText
           text={q}
           searchTerm={highlightTypicalTerm}

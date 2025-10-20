@@ -28,19 +28,24 @@ import deal_with_ambiguity from './deal_with_ambiguity/index.js';
 // Array consolidado na ordem desejada
 const consolidatedPrinciples = [
   customer_obsession,
-  program_management,
   ownership,
+  program_management,
+  // --- divider ---
   dive_deep,
   invent_and_simplify,
+  // --- divider ---
   earn_trust,
   deliver_results,
   stakeholder_management,
+  // --- divider ---
   learn_and_be_curious,
   bias_for_action,
   prioritizing_and_influence,
-  deal_with_ambiguity,
+  // --- divider ---
   disagree_and_commit,
   insist_on_highest_standards,
+  deal_with_ambiguity,
+  // --- divider ---
   are_right_a_lot,
   think_big,
   hire_and_develop_the_best,
