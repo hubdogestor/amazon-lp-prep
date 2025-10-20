@@ -101,6 +101,10 @@ export default function App() {
     value: usedQuestions,
     toggle: toggleUsedQuestion,
   } = usePersistentFlagMap(STORAGE_KEYS.usedQuestions);
+  const {
+    value: usedIcebreakers,
+    toggle: toggleUsedIcebreaker,
+  } = usePersistentFlagMap(STORAGE_KEYS.usedIcebreakers);
   const [showTopCases, setShowTopCases] = useState(false);
   const [showIcebreaker, setShowIcebreaker] = useState(false);
   const [showMyQuestions, setShowMyQuestions] = useState(false);
@@ -359,7 +363,8 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     }
   }, [generatePrompt, i18n.language, t]);
 
-  // Navegar para o case mapeado a partir de uma pergunta típica  const navigateToMappedCase = useCallback((lpId, questionIndex, questionId = null) => {
+  // Navegar para o case mapeado a partir de uma pergunta típica
+  const navigateToMappedCase = useCallback((lpId, questionIndex, questionId = null) => {
     const option = getBestCaseOption(lpId, questionIndex + 1);
     if (!option || !option.caseData) {
       return;
@@ -382,7 +387,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
         setHighlightedCase(caseDomId, 2000);
       }
     }, 100);
-  }, [getBestCaseOption, setHighlightedCase]);
+  }, [getBestCaseOption, setExpandedCases, setSelectedPrinciple, scrollToElementWhenReady, setHighlightedTypicalQuestion, slugify, setHighlightedCase]);
 
   // Toggle busca local de FUPs para um case específico
   const toggleCaseFupSearch = useCallback((caseId) => {
