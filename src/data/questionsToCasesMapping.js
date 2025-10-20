@@ -130,12 +130,7 @@ export const questionsToCasesMapping = {
       ]
     },
     "6": {
-      "options": [
-        {
-          "caseId": "sicredi-small-business-survival",
-          "score": 80
-        }
-      ]
+      "options": []
     },
     "7": {
       "options": [
@@ -629,7 +624,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "huawei-six-sigma-optimization",
-          "score": 87
+          "score": 90
         },
         {
           "caseId": "bradesco-next-compliance-simplification",
@@ -657,7 +652,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "huawei-six-sigma-optimization",
-          "score": 87
+          "score": 90
         },
         {
           "caseId": "bradesco-next-compliance-simplification",
@@ -685,7 +680,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "huawei-six-sigma-optimization",
-          "score": 87
+          "score": 90
         },
         {
           "caseId": "bradesco-next-compliance-simplification",
@@ -713,7 +708,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "huawei-six-sigma-optimization",
-          "score": 87
+          "score": 90
         },
         {
           "caseId": "bradesco-next-compliance-simplification",
@@ -741,7 +736,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "huawei-six-sigma-optimization",
-          "score": 87
+          "score": 90
         },
         {
           "caseId": "bradesco-next-compliance-simplification",
@@ -773,7 +768,7 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "huawei-six-sigma-optimization",
-          "score": 83
+          "score": 86
         },
         {
           "caseId": "bradesco-next-compliance-simplification",
@@ -810,6 +805,10 @@ export const questionsToCasesMapping = {
         {
           "caseId": "payment-simplification-high-impact",
           "score": 87
+        },
+        {
+          "caseId": "huawei-six-sigma-optimization",
+          "score": 82
         }
       ]
     },
@@ -845,7 +844,7 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "huawei-six-sigma-optimization",
-          "score": 83
+          "score": 86
         },
         {
           "caseId": "bradesco-next-compliance-simplification",
@@ -885,7 +884,7 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "huawei-six-sigma-optimization",
-          "score": 83
+          "score": 86
         },
         {
           "caseId": "sefarz-pix-reconciliation-automation",
@@ -897,7 +896,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "huawei-six-sigma-optimization",
-          "score": 87
+          "score": 90
         },
         {
           "caseId": "bradesco-next-compliance-simplification",
@@ -924,120 +923,43 @@ export const questionsToCasesMapping = {
   },
   "are_right_a_lot": {
     "1": {
-      "options": [
-        {
-          "caseId": "sicredi-mobile-first-strategy",
-          "score": 95
-        },
-        {
-          "caseId": "sicredi-wrong-fraud-model-pivot",
-          "score": 90
-        }
-      ]
+      "options": []
     },
     "2": {
-      "options": [
-        {
-          "caseId": "sicredi-mobile-first-strategy",
-          "score": 92
-        },
-        {
-          "caseId": "sicredi-api-pricing-model",
-          "score": 88
-        }
-      ]
+      "options": []
     },
     "3": {
-      "options": [
-        {
-          "caseId": "huawei-4g-rollout-analysis",
-          "score": 85
-        }
-      ]
+      "options": []
     },
     "4": {
-      "options": [
-        {
-          "caseId": "sicredi-wrong-fraud-model-pivot",
-          "score": 85
-        }
-      ]
+      "options": []
     },
     "5": {
-      "options": [
-        {
-          "caseId": "huawei-4g-rollout-analysis",
-          "score": 90
-        }
-      ]
+      "options": []
     },
     "6": {
-      "options": [
-        {
-          "caseId": "sicredi-api-pricing-model",
-          "score": 90
-        }
-      ]
+      "options": []
     },
     "7": {
-      "options": [
-        {
-          "caseId": "sicredi-wrong-fraud-model-pivot",
-          "score": 95
-        }
-      ]
+      "options": []
     },
     "8": {
-      "options": [
-        {
-          "caseId": "sicredi-mobile-first-strategy",
-          "score": 88
-        }
-      ]
+      "options": []
     },
     "9": {
-      "options": [
-        {
-          "caseId": "sicredi-mobile-first-strategy",
-          "score": 95
-        }
-      ]
+      "options": []
     },
     "10": {
-      "options": [
-        {
-          "caseId": "huawei-4g-rollout-analysis",
-          "score": 90
-        }
-      ]
+      "options": []
     },
     "11": {
-      "options": [
-        {
-          "caseId": "sicredi-api-pricing-model",
-          "score": 90
-        }
-      ]
+      "options": []
     },
     "12": {
-      "options": [
-        {
-          "caseId": "sefaz-data-vs-intuition",
-          "score": 98
-        },
-        {
-          "caseId": "sicredi-mobile-first-strategy",
-          "score": 88
-        }
-      ]
+      "options": []
     },
     "13": {
-      "options": [
-        {
-          "caseId": "sicredi-api-pricing-model",
-          "score": 92
-        }
-      ]
+      "options": []
     }
   },
   "learn_and_be_curious": {
@@ -1398,28 +1320,36 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
-          "caseId": "unimed-underperformer-development",
-          "score": 98
+          "caseId": "huawei-project-managers-mentoring",
+          "score": 91
         },
         {
-          "caseId": "huawei-project-managers-mentoring",
-          "score": 90
+          "caseId": "unimed-underperformer-development",
+          "score": 80
         }
       ]
     },
     "2": {
       "options": [
         {
+          "caseId": "huawei-project-managers-mentoring",
+          "score": 91
+        },
+        {
           "caseId": "unimed-underperformer-development",
-          "score": 95
+          "score": 80
         }
       ]
     },
     "3": {
       "options": [
         {
-          "caseId": "bradesco-talent-pipeline-creation",
-          "score": 88
+          "caseId": "huawei-project-managers-mentoring",
+          "score": 91
+        },
+        {
+          "caseId": "unimed-underperformer-development",
+          "score": 80
         }
       ]
     },
@@ -1427,31 +1357,47 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "huawei-project-managers-mentoring",
-          "score": 90
+          "score": 91
+        },
+        {
+          "caseId": "unimed-underperformer-development",
+          "score": 80
         }
       ]
     },
     "5": {
       "options": [
         {
+          "caseId": "huawei-project-managers-mentoring",
+          "score": 91
+        },
+        {
           "caseId": "unimed-underperformer-development",
-          "score": 95
+          "score": 80
         }
       ]
     },
     "6": {
       "options": [
         {
+          "caseId": "huawei-project-managers-mentoring",
+          "score": 91
+        },
+        {
           "caseId": "unimed-underperformer-development",
-          "score": 85
+          "score": 80
         }
       ]
     },
     "7": {
       "options": [
         {
-          "caseId": "bradesco-talent-pipeline-creation",
-          "score": 90
+          "caseId": "huawei-project-managers-mentoring",
+          "score": 93
+        },
+        {
+          "caseId": "unimed-underperformer-development",
+          "score": 80
         }
       ]
     },
@@ -1459,47 +1405,71 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "huawei-project-managers-mentoring",
-          "score": 88
+          "score": 91
+        },
+        {
+          "caseId": "unimed-underperformer-development",
+          "score": 80
         }
       ]
     },
     "9": {
       "options": [
         {
+          "caseId": "huawei-project-managers-mentoring",
+          "score": 91
+        },
+        {
           "caseId": "unimed-underperformer-development",
-          "score": 92
+          "score": 80
         }
       ]
     },
     "10": {
       "options": [
         {
-          "caseId": "bradesco-talent-pipeline-creation",
-          "score": 85
+          "caseId": "huawei-project-managers-mentoring",
+          "score": 91
+        },
+        {
+          "caseId": "unimed-underperformer-development",
+          "score": 80
         }
       ]
     },
     "11": {
       "options": [
         {
+          "caseId": "huawei-project-managers-mentoring",
+          "score": 95
+        },
+        {
           "caseId": "unimed-underperformer-development",
-          "score": 98
+          "score": 80
         }
       ]
     },
     "12": {
       "options": [
         {
-          "caseId": "unimed-controversial-promotion",
-          "score": 98
+          "caseId": "huawei-project-managers-mentoring",
+          "score": 91
+        },
+        {
+          "caseId": "unimed-underperformer-development",
+          "score": 80
         }
       ]
     },
     "13": {
       "options": [
         {
+          "caseId": "huawei-project-managers-mentoring",
+          "score": 93
+        },
+        {
           "caseId": "unimed-underperformer-development",
-          "score": 95
+          "score": 80
         }
       ]
     }
@@ -1694,12 +1664,7 @@ export const questionsToCasesMapping = {
       ]
     },
     "11": {
-      "options": [
-        {
-          "caseId": "hsbc-zero-defects",
-          "score": 80
-        }
-      ]
+      "options": []
     },
     "12": {
       "options": [
@@ -1750,36 +1715,96 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
-          "caseId": "unimed-ecosystem-transformation",
-          "score": 98
+          "caseId": "bradesco-paas-latam",
+          "score": 91
         },
         {
           "caseId": "huawei-global-rollout",
-          "score": 90
+          "score": 87
+        },
+        {
+          "caseId": "game-changing-program",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ecosystem-transformation",
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
     "2": {
       "options": [
         {
+          "caseId": "bradesco-paas-latam",
+          "score": 91
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 87
+        },
+        {
+          "caseId": "game-changing-program",
+          "score": 87
+        },
+        {
           "caseId": "unimed-ecosystem-transformation",
-          "score": 95
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
     "3": {
       "options": [
         {
+          "caseId": "bradesco-paas-latam",
+          "score": 91
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 87
+        },
+        {
+          "caseId": "game-changing-program",
+          "score": 87
+        },
+        {
           "caseId": "unimed-ecosystem-transformation",
-          "score": 98
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
     "4": {
       "options": [
         {
+          "caseId": "bradesco-paas-latam",
+          "score": 91
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 87
+        },
+        {
           "caseId": "game-changing-program",
-          "score": 88
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ecosystem-transformation",
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
@@ -1787,31 +1812,95 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "bradesco-paas-latam",
-          "score": 85
+          "score": 91
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 87
+        },
+        {
+          "caseId": "game-changing-program",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ecosystem-transformation",
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
     "6": {
       "options": [
         {
+          "caseId": "bradesco-paas-latam",
+          "score": 91
+        },
+        {
           "caseId": "huawei-global-rollout",
-          "score": 88
+          "score": 87
+        },
+        {
+          "caseId": "game-changing-program",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ecosystem-transformation",
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
     "7": {
       "options": [
         {
+          "caseId": "bradesco-paas-latam",
+          "score": 91
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 87
+        },
+        {
+          "caseId": "game-changing-program",
+          "score": 87
+        },
+        {
           "caseId": "unimed-ecosystem-transformation",
-          "score": 92
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
     "8": {
       "options": [
         {
+          "caseId": "bradesco-paas-latam",
+          "score": 91
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 87
+        },
+        {
           "caseId": "game-changing-program",
-          "score": 90
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ecosystem-transformation",
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
@@ -1819,7 +1908,23 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "bradesco-paas-latam",
-          "score": 85
+          "score": 91
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 87
+        },
+        {
+          "caseId": "game-changing-program",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ecosystem-transformation",
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
@@ -1827,47 +1932,143 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "bradesco-paas-latam",
-          "score": 82
+          "score": 91
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 87
+        },
+        {
+          "caseId": "game-changing-program",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ecosystem-transformation",
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
     "11": {
       "options": [
         {
+          "caseId": "bradesco-paas-latam",
+          "score": 91
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 87
+        },
+        {
           "caseId": "game-changing-program",
-          "score": 92
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ecosystem-transformation",
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
     "12": {
       "options": [
         {
+          "caseId": "bradesco-paas-latam",
+          "score": 91
+        },
+        {
           "caseId": "huawei-global-rollout",
-          "score": 90
+          "score": 87
+        },
+        {
+          "caseId": "game-changing-program",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ecosystem-transformation",
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
     "13": {
       "options": [
         {
+          "caseId": "bradesco-paas-latam",
+          "score": 91
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 87
+        },
+        {
+          "caseId": "game-changing-program",
+          "score": 87
+        },
+        {
           "caseId": "unimed-ecosystem-transformation",
-          "score": 92
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     },
     "14": {
       "options": [
         {
+          "caseId": "bradesco-paas-latam",
+          "score": 91
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 87
+        },
+        {
+          "caseId": "game-changing-program",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ecosystem-transformation",
+          "score": 81
+        },
+        {
           "caseId": "bradesco-open-banking-vision",
-          "score": 98
+          "score": 80
         }
       ]
     },
     "15": {
       "options": [
         {
+          "caseId": "bradesco-paas-latam",
+          "score": 91
+        },
+        {
           "caseId": "huawei-global-rollout",
-          "score": 95
+          "score": 87
+        },
+        {
+          "caseId": "game-changing-program",
+          "score": 87
+        },
+        {
+          "caseId": "unimed-ecosystem-transformation",
+          "score": 81
+        },
+        {
+          "caseId": "bradesco-open-banking-vision",
+          "score": 80
         }
       ]
     }
@@ -2196,108 +2397,43 @@ export const questionsToCasesMapping = {
   },
   "frugality": {
     "1": {
-      "options": [
-        {
-          "caseId": "huawei-resource-optimization",
-          "score": 95
-        }
-      ]
+      "options": []
     },
     "2": {
-      "options": [
-        {
-          "caseId": "sefaz-zero-budget-pmo",
-          "score": 92
-        }
-      ]
+      "options": []
     },
     "3": {
-      "options": [
-        {
-          "caseId": "huawei-resource-optimization",
-          "score": 90
-        }
-      ]
+      "options": []
     },
     "4": {
-      "options": [
-        {
-          "caseId": "sefaz-zero-budget-pmo",
-          "score": 95
-        }
-      ]
+      "options": []
     },
     "5": {
-      "options": [
-        {
-          "caseId": "huawei-resource-optimization",
-          "score": 95
-        }
-      ]
+      "options": []
     },
     "6": {
-      "options": [
-        {
-          "caseId": "sefaz-zero-budget-pmo",
-          "score": 88
-        }
-      ]
+      "options": []
     },
     "7": {
-      "options": [
-        {
-          "caseId": "unimed-automation-n8n",
-          "score": 85
-        }
-      ]
+      "options": []
     },
     "8": {
-      "options": [
-        {
-          "caseId": "huawei-resource-optimization",
-          "score": 92
-        }
-      ]
+      "options": []
     },
     "9": {
-      "options": [
-        {
-          "caseId": "unimed-automation-n8n",
-          "score": 93
-        }
-      ]
+      "options": []
     },
     "10": {
-      "options": [
-        {
-          "caseId": "huawei-resource-optimization",
-          "score": 88
-        }
-      ]
+      "options": []
     },
     "11": {
-      "options": [
-        {
-          "caseId": "unimed-automation-n8n",
-          "score": 85
-        }
-      ]
+      "options": []
     },
     "12": {
-      "options": [
-        {
-          "caseId": "huawei-resource-optimization",
-          "score": 95
-        }
-      ]
+      "options": []
     },
     "13": {
-      "options": [
-        {
-          "caseId": "unimed-automation-n8n",
-          "score": 98
-        }
-      ]
+      "options": []
     }
   },
   "earn_trust": {
@@ -2818,12 +2954,7 @@ export const questionsToCasesMapping = {
   },
   "disagree_and_commit": {
     "1": {
-      "options": [
-        {
-          "caseId": "unimed-retention-strategy",
-          "score": 80
-        }
-      ]
+      "options": []
     },
     "2": {
       "options": [
@@ -2914,12 +3045,7 @@ export const questionsToCasesMapping = {
       ]
     },
     "8": {
-      "options": [
-        {
-          "caseId": "commit-on-disagreement-product-strategy",
-          "score": 80
-        }
-      ]
+      "options": []
     },
     "9": {
       "options": [
@@ -3316,16 +3442,16 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
-          "caseId": "sefaz-reverse-mentoring-program",
-          "score": 92
+          "caseId": "sicredi-360-feedback-system",
+          "score": 83
         }
       ]
     },
     "2": {
       "options": [
         {
-          "caseId": "bradesco-agile-community-creation",
-          "score": 88
+          "caseId": "sicredi-360-feedback-system",
+          "score": 83
         }
       ]
     },
@@ -3333,23 +3459,23 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-360-feedback-system",
-          "score": 85
+          "score": 83
         }
       ]
     },
     "4": {
       "options": [
         {
-          "caseId": "bradesco-agile-community-creation",
-          "score": 90
+          "caseId": "sicredi-360-feedback-system",
+          "score": 83
         }
       ]
     },
     "5": {
       "options": [
         {
-          "caseId": "sefaz-reverse-mentoring-program",
-          "score": 88
+          "caseId": "sicredi-360-feedback-system",
+          "score": 83
         }
       ]
     },
@@ -3357,23 +3483,23 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-360-feedback-system",
-          "score": 82
+          "score": 83
         }
       ]
     },
     "7": {
       "options": [
         {
-          "caseId": "bradesco-agile-community-creation",
-          "score": 85
+          "caseId": "sicredi-360-feedback-system",
+          "score": 83
         }
       ]
     },
     "8": {
       "options": [
         {
-          "caseId": "sefaz-reverse-mentoring-program",
-          "score": 90
+          "caseId": "sicredi-360-feedback-system",
+          "score": 83
         }
       ]
     },
@@ -3381,99 +3507,49 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-360-feedback-system",
-          "score": 85
+          "score": 83
         }
       ]
     },
     "10": {
       "options": [
         {
-          "caseId": "sefaz-reverse-mentoring-program",
-          "score": 90
+          "caseId": "sicredi-360-feedback-system",
+          "score": 83
         }
       ]
     }
   },
   "broad_responsibility": {
     "1": {
-      "options": [
-        {
-          "caseId": "sicredi-responsible-ai-policy",
-          "score": 100
-        }
-      ]
+      "options": []
     },
     "2": {
-      "options": [
-        {
-          "caseId": "unimed-lgpd-compliance",
-          "score": 88
-        }
-      ]
+      "options": []
     },
     "3": {
-      "options": [
-        {
-          "caseId": "sicredi-responsible-ai-policy",
-          "score": 100
-        }
-      ]
+      "options": []
     },
     "4": {
-      "options": [
-        {
-          "caseId": "hsbc-fatca-aml-migration",
-          "score": 90
-        }
-      ]
+      "options": []
     },
     "5": {
-      "options": [
-        {
-          "caseId": "sicredi-responsible-ai-policy",
-          "score": 85
-        }
-      ]
+      "options": []
     },
     "6": {
-      "options": [
-        {
-          "caseId": "unimed-lgpd-compliance",
-          "score": 85
-        }
-      ]
+      "options": []
     },
     "7": {
-      "options": [
-        {
-          "caseId": "hsbc-fatca-aml-migration",
-          "score": 88
-        }
-      ]
+      "options": []
     },
     "8": {
-      "options": [
-        {
-          "caseId": "sicredi-responsible-ai-policy",
-          "score": 82
-        }
-      ]
+      "options": []
     },
     "9": {
-      "options": [
-        {
-          "caseId": "unimed-lgpd-compliance",
-          "score": 90
-        }
-      ]
+      "options": []
     },
     "10": {
-      "options": [
-        {
-          "caseId": "hsbc-fatca-aml-migration",
-          "score": 92
-        }
-      ]
+      "options": []
     }
   },
   "program_management": {
@@ -4155,15 +4231,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 88
-        },
-        {
-          "caseId": "huawei-global-rollout",
-          "score": 80
+          "score": 91
         },
         {
           "caseId": "sicredi-woop-stakeholder-management",
-          "score": 80
+          "score": 83
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 81
         }
       ]
     },
@@ -4171,7 +4247,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 84
+          "score": 87
         }
       ]
     },
@@ -4179,11 +4255,11 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 84
+          "score": 87
         },
         {
           "caseId": "sicredi-woop-stakeholder-management",
-          "score": 84
+          "score": 87
         },
         {
           "caseId": "huawei-4g-copa-2014-stakeholder",
@@ -4191,7 +4267,7 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "huawei-global-rollout",
-          "score": 80
+          "score": 81
         }
       ]
     },
@@ -4199,11 +4275,11 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 84
+          "score": 87
         },
         {
           "caseId": "sicredi-woop-stakeholder-management",
-          "score": 84
+          "score": 87
         },
         {
           "caseId": "huawei-4g-copa-2014-stakeholder",
@@ -4215,11 +4291,11 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 88
+          "score": 91
         },
         {
           "caseId": "huawei-global-rollout",
-          "score": 80
+          "score": 81
         }
       ]
     },
@@ -4227,19 +4303,19 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-woop-stakeholder-management",
-          "score": 84
-        },
-        {
-          "caseId": "huawei-global-rollout",
-          "score": 80
+          "score": 87
         },
         {
           "caseId": "stakeholder-management-case-2",
-          "score": 80
+          "score": 83
         },
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 80
+          "score": 83
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 81
         }
       ]
     },
@@ -4247,7 +4323,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 88
+          "score": 91
         }
       ]
     },
@@ -4255,11 +4331,11 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 84
+          "score": 87
         },
         {
           "caseId": "sicredi-woop-stakeholder-management",
-          "score": 80
+          "score": 83
         }
       ]
     },
@@ -4267,11 +4343,11 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 80
+          "score": 83
         },
         {
           "caseId": "sicredi-woop-stakeholder-management",
-          "score": 80
+          "score": 83
         }
       ]
     },
@@ -4279,15 +4355,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "stakeholder-management-case-2",
-          "score": 80
+          "score": 83
         },
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 80
+          "score": 83
         },
         {
           "caseId": "sicredi-woop-stakeholder-management",
-          "score": 80
+          "score": 83
         }
       ]
     },
@@ -4295,11 +4371,11 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 84
+          "score": 87
         },
         {
           "caseId": "sicredi-woop-stakeholder-management",
-          "score": 80
+          "score": 83
         }
       ]
     },
@@ -4307,15 +4383,15 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 88
-        },
-        {
-          "caseId": "huawei-global-rollout",
-          "score": 84
+          "score": 91
         },
         {
           "caseId": "sicredi-woop-stakeholder-management",
-          "score": 84
+          "score": 87
+        },
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 85
         }
       ]
     }

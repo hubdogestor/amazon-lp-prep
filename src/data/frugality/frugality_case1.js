@@ -7,7 +7,7 @@ const case_1 = {
   company: "SEFAZ/RS",
   period: "08/2024-11/2025",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: `Na SEFAZ/RS, os 8 milhões de contribuintes gaúchos sofriam com atrasos crônicos: restituições de impostos atrasadas, processos de certidão negativa demorados, sistemas tributários lentos. Cada projeto digital atrasado significava mais uma semana de frustração para o cidadão esperando seus serviços. A CAGE precisava modernizar a gestão de projetos para PROFISCO II, mas cada real gasto em consultorias caras (R$700k+) era um real a menos para melhorar diretamente a experiência dos contribuintes. Eu vi claramente o dilema: gastar fortunas em consultorias externas ou usar abordagem frugal para entregar valor máximo aos cidadãos que pagam nossos salários com seus impostos e merecem excelência em troca.`,
     t: `Meu papel individual: liderei end-to-end, defini escopo e decisões críticas, atuando como owner único. Quando propus implementar um PMO de classe mundial com orçamento zero, enfrentei ceticismo da liderança: "sem ferramentas adequadas, não funcionará" e "investimento em consultoria é necessário para qualidade". Minha responsabilidade era provar que a frugalidade bem aplicada poderia entregar o mesmo valor, priorizando sempre o melhor uso do dinheiro público em benefício dos contribuintes. Escolhi a restrição orçamentária como vantagem estratégica para ganhar agilidade, evitar burocracia e demonstrar que excelência não requer gastos elevados.`,

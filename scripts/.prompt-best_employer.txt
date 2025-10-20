@@ -1,0 +1,439 @@
+
+# 🎯 TAREFA: Análise Semântica de Cases para Leadership Principle
+
+Você é um especialista em Leadership Principles da Amazon e vai analisar a qualidade do fit entre perguntas e cases de entrevista comportamental.
+
+## 📋 LEADERSHIP PRINCIPLE: BEST EMPLOYER
+
+## 🎯 CRITÉRIOS DE AVALIAÇÃO
+
+Para cada combinação Question × Case, você deve avaliar 3 componentes:
+
+### A. RELEVÂNCIA CONCEITUAL (0-30 pontos)
+- **30 pontos**: Case responde PERFEITAMENTE a pergunta (conceito central do case = pergunta)
+- **26 pontos**: Case responde MUITO BEM (conceito central fortemente relacionado)
+- **22 pontos**: Case responde BEM (conceito presente mas não é central)
+- **18 pontos**: Case responde PARCIALMENTE (conceito mencionado mas secundário)
+- **12 pontos**: Case responde TANGENCIALMENTE (conceito indireto)
+- **0 pontos**: Case NÃO responde a pergunta
+
+### B. PROFUNDIDADE DA RESPOSTA (0-30 pontos)
+- **30 pontos**: STAR-L completo com exemplos concretos + métricas + aprendizados profundos
+- **26 pontos**: STAR-L completo com bons exemplos + algumas métricas
+- **22 pontos**: STAR bom mas Learning superficial ou métricas vagas
+- **18 pontos**: STAR presente mas genérico, faltam detalhes
+- **12 pontos**: STAR incompleto ou muito superficial
+- **0 pontos**: Não fornece resposta adequada
+
+### C. EVIDÊNCIAS E MÉTRICAS (0-30 pontos)
+- **30 pontos**: Métricas CONCRETAS + impacto quantificado + comparações (antes/depois)
+- **26 pontos**: Métricas concretas + impacto quantificado
+- **22 pontos**: Algumas métricas + impacto descrito
+- **18 pontos**: Métricas vagas ou impacto não quantificado
+- **12 pontos**: Pouquíssimas evidências numéricas
+- **0 pontos**: Sem evidências ou métricas
+
+## 📊 FORMATO DE RESPOSTA
+
+Para cada combinação, retorne EXATAMENTE neste formato JSON:
+
+```json
+{
+  "cacheKey": "<cacheKey fornecido>",
+  "relevance": <0-30>,
+  "depth": <0-30>,
+  "evidence": <0-30>,
+  "scoreBase": <soma dos 3>,
+  "reasoning": "<1-2 frases explicando a avaliação>"
+}
+```
+
+## 🎯 COMBINAÇÕES PARA ANÁLISE
+
+
+---
+### COMBINAÇÃO 1/20
+
+**CacheKey**: `best_employer__Q1__bradesco-agile-community-creation`
+
+**Pergunta Q1**: "Conte sobre como você cria um ambiente de trabalho melhor"
+
+**Case**: bradesco-agile-community-creation
+**Título**: Escalei a guilda de produto e promovi 18 lideres em seis meses
+
+**STAR-L Resumido**:
+- **S**: 18% de rotatividade. 47% sem enxergar carreira. eNPS despencando 12 pontos em três meses. Os números piscavam vermelho no meu dashboard quando assumi o portfólio de produto no Bradesco Next como Head, fevereiro de 2017. Eu tinha acabado de liderar a migração de 65 squads para modelo remoto, mas o se...
+- **T**: Diante do risco iminente de perder talentos-chave que eu havia recrutado pessoalmente, eu defini como minha missão redesenhar a guilda de produto em oito semanas. O desafio que eu assumi era criar uma...
+- **A**: Para transformar essa crise em oportunidade, minha primeira ação foi eu coletar pessoalmente dados de rotatividade, performance e clima para construir o 'Growth Engine', um painel que eu desenhei e que correlacionava competências com impacto no negócio. Ao apresentar os trade-offs claros aos patrocinadores, eu estabeleci que apenas conteúdos que se provassem eficazes no Growth Engine seriam aprova...
+- **R**: Os resultados que eu entreguei foram transformadores e superaram todas as metas que eu havia estabelecido. Em seis meses, 94% dos PMs completaram ao menos três trilhas, o eNPS saltou de 42 para 69 (+27 pontos - superando minha meta de +20), e a rotatividade despencou de 18% para 6%, o que, segundo o...
+- **L**: A grande lição que eu aprendi foi que para ser o melhor empregador, eu preciso tratar o desenvolvimento de talentos como um produto: com foco no cliente (o colaborador), orientado por dados e com entr...
+
+
+---
+### COMBINAÇÃO 2/20
+
+**CacheKey**: `best_employer__Q1__sicredi-360-feedback-system`
+
+**Pergunta Q1**: "Conte sobre como você cria um ambiente de trabalho melhor"
+
+**Case**: sicredi-360-feedback-system
+**Título**: Transformei o feedback 360 em pipeline de sucessao para todos os PMs
+
+**STAR-L Resumido**:
+- **S**: O desafio começou quando assumi a liderança da plataforma de APIs do Sicredi em março de 2024 e notei que 38 Product Managers — os responsáveis por produtos digitais que atendiam toda a cooperativa — trabalhavam em silos organizacionais. O ciclo de desempenho anual gerava apenas notas genéricas sem ...
+- **T**: Eu me comprometi publicamente com o comitê executivo a construir, em noventa dias, um mecanismo de feedback 360 graus que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de s...
+- **A**: Eu executei uma ofensiva em quatro frentes coordenadas. Primeiro, entrevistei pessoalmente 60 PMs e stakeholders chave (tech leads, diretores de produto, líderes de negócio) ao longo de 3 semanas para entender as lacunas atuais e co-desenhar o mecanismo que chamei de Pulse360 — uma combinação de survey anônimo estruturado, feedback narrativo qualitativo e analytics preditivo. Eu estruturei 18 comp...
+- **R**: Em seis meses o impacto nos 38 PMs — meus clientes internos diretos — foi transformador e mensurável. Confiança no processo de feedback subiu de 48% para 89%, um aumento de 41 pontos percentuais equivalente a +85% de melhoria. Trinta e quatro PMs (89%) receberam PDIs customizados com roadmap concret...
+- **L**: Aprendi que ser o melhor empregador não é sobre benefícios corporativos genéricos, mas sobre entregar feedback acionável com clareza de futuro e oportunidades concretas de crescimento. Quando eu conec...
+
+
+---
+### COMBINAÇÃO 3/20
+
+**CacheKey**: `best_employer__Q2__bradesco-agile-community-creation`
+
+**Pergunta Q2**: "Me fale sobre quando você priorizou o bem-estar da equipe"
+
+**Case**: bradesco-agile-community-creation
+**Título**: Escalei a guilda de produto e promovi 18 lideres em seis meses
+
+**STAR-L Resumido**:
+- **S**: 18% de rotatividade. 47% sem enxergar carreira. eNPS despencando 12 pontos em três meses. Os números piscavam vermelho no meu dashboard quando assumi o portfólio de produto no Bradesco Next como Head, fevereiro de 2017. Eu tinha acabado de liderar a migração de 65 squads para modelo remoto, mas o se...
+- **T**: Diante do risco iminente de perder talentos-chave que eu havia recrutado pessoalmente, eu defini como minha missão redesenhar a guilda de produto em oito semanas. O desafio que eu assumi era criar uma...
+- **A**: Para transformar essa crise em oportunidade, minha primeira ação foi eu coletar pessoalmente dados de rotatividade, performance e clima para construir o 'Growth Engine', um painel que eu desenhei e que correlacionava competências com impacto no negócio. Ao apresentar os trade-offs claros aos patrocinadores, eu estabeleci que apenas conteúdos que se provassem eficazes no Growth Engine seriam aprova...
+- **R**: Os resultados que eu entreguei foram transformadores e superaram todas as metas que eu havia estabelecido. Em seis meses, 94% dos PMs completaram ao menos três trilhas, o eNPS saltou de 42 para 69 (+27 pontos - superando minha meta de +20), e a rotatividade despencou de 18% para 6%, o que, segundo o...
+- **L**: A grande lição que eu aprendi foi que para ser o melhor empregador, eu preciso tratar o desenvolvimento de talentos como um produto: com foco no cliente (o colaborador), orientado por dados e com entr...
+
+
+---
+### COMBINAÇÃO 4/20
+
+**CacheKey**: `best_employer__Q2__sicredi-360-feedback-system`
+
+**Pergunta Q2**: "Me fale sobre quando você priorizou o bem-estar da equipe"
+
+**Case**: sicredi-360-feedback-system
+**Título**: Transformei o feedback 360 em pipeline de sucessao para todos os PMs
+
+**STAR-L Resumido**:
+- **S**: O desafio começou quando assumi a liderança da plataforma de APIs do Sicredi em março de 2024 e notei que 38 Product Managers — os responsáveis por produtos digitais que atendiam toda a cooperativa — trabalhavam em silos organizacionais. O ciclo de desempenho anual gerava apenas notas genéricas sem ...
+- **T**: Eu me comprometi publicamente com o comitê executivo a construir, em noventa dias, um mecanismo de feedback 360 graus que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de s...
+- **A**: Eu executei uma ofensiva em quatro frentes coordenadas. Primeiro, entrevistei pessoalmente 60 PMs e stakeholders chave (tech leads, diretores de produto, líderes de negócio) ao longo de 3 semanas para entender as lacunas atuais e co-desenhar o mecanismo que chamei de Pulse360 — uma combinação de survey anônimo estruturado, feedback narrativo qualitativo e analytics preditivo. Eu estruturei 18 comp...
+- **R**: Em seis meses o impacto nos 38 PMs — meus clientes internos diretos — foi transformador e mensurável. Confiança no processo de feedback subiu de 48% para 89%, um aumento de 41 pontos percentuais equivalente a +85% de melhoria. Trinta e quatro PMs (89%) receberam PDIs customizados com roadmap concret...
+- **L**: Aprendi que ser o melhor empregador não é sobre benefícios corporativos genéricos, mas sobre entregar feedback acionável com clareza de futuro e oportunidades concretas de crescimento. Quando eu conec...
+
+
+---
+### COMBINAÇÃO 5/20
+
+**CacheKey**: `best_employer__Q3__bradesco-agile-community-creation`
+
+**Pergunta Q3**: "Como você promove diversidade e inclusão?"
+
+**Case**: bradesco-agile-community-creation
+**Título**: Escalei a guilda de produto e promovi 18 lideres em seis meses
+
+**STAR-L Resumido**:
+- **S**: 18% de rotatividade. 47% sem enxergar carreira. eNPS despencando 12 pontos em três meses. Os números piscavam vermelho no meu dashboard quando assumi o portfólio de produto no Bradesco Next como Head, fevereiro de 2017. Eu tinha acabado de liderar a migração de 65 squads para modelo remoto, mas o se...
+- **T**: Diante do risco iminente de perder talentos-chave que eu havia recrutado pessoalmente, eu defini como minha missão redesenhar a guilda de produto em oito semanas. O desafio que eu assumi era criar uma...
+- **A**: Para transformar essa crise em oportunidade, minha primeira ação foi eu coletar pessoalmente dados de rotatividade, performance e clima para construir o 'Growth Engine', um painel que eu desenhei e que correlacionava competências com impacto no negócio. Ao apresentar os trade-offs claros aos patrocinadores, eu estabeleci que apenas conteúdos que se provassem eficazes no Growth Engine seriam aprova...
+- **R**: Os resultados que eu entreguei foram transformadores e superaram todas as metas que eu havia estabelecido. Em seis meses, 94% dos PMs completaram ao menos três trilhas, o eNPS saltou de 42 para 69 (+27 pontos - superando minha meta de +20), e a rotatividade despencou de 18% para 6%, o que, segundo o...
+- **L**: A grande lição que eu aprendi foi que para ser o melhor empregador, eu preciso tratar o desenvolvimento de talentos como um produto: com foco no cliente (o colaborador), orientado por dados e com entr...
+
+
+---
+### COMBINAÇÃO 6/20
+
+**CacheKey**: `best_employer__Q3__sicredi-360-feedback-system`
+
+**Pergunta Q3**: "Como você promove diversidade e inclusão?"
+
+**Case**: sicredi-360-feedback-system
+**Título**: Transformei o feedback 360 em pipeline de sucessao para todos os PMs
+
+**STAR-L Resumido**:
+- **S**: O desafio começou quando assumi a liderança da plataforma de APIs do Sicredi em março de 2024 e notei que 38 Product Managers — os responsáveis por produtos digitais que atendiam toda a cooperativa — trabalhavam em silos organizacionais. O ciclo de desempenho anual gerava apenas notas genéricas sem ...
+- **T**: Eu me comprometi publicamente com o comitê executivo a construir, em noventa dias, um mecanismo de feedback 360 graus que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de s...
+- **A**: Eu executei uma ofensiva em quatro frentes coordenadas. Primeiro, entrevistei pessoalmente 60 PMs e stakeholders chave (tech leads, diretores de produto, líderes de negócio) ao longo de 3 semanas para entender as lacunas atuais e co-desenhar o mecanismo que chamei de Pulse360 — uma combinação de survey anônimo estruturado, feedback narrativo qualitativo e analytics preditivo. Eu estruturei 18 comp...
+- **R**: Em seis meses o impacto nos 38 PMs — meus clientes internos diretos — foi transformador e mensurável. Confiança no processo de feedback subiu de 48% para 89%, um aumento de 41 pontos percentuais equivalente a +85% de melhoria. Trinta e quatro PMs (89%) receberam PDIs customizados com roadmap concret...
+- **L**: Aprendi que ser o melhor empregador não é sobre benefícios corporativos genéricos, mas sobre entregar feedback acionável com clareza de futuro e oportunidades concretas de crescimento. Quando eu conec...
+
+
+---
+### COMBINAÇÃO 7/20
+
+**CacheKey**: `best_employer__Q4__bradesco-agile-community-creation`
+
+**Pergunta Q4**: "Descreva uma situação onde você defendeu sua equipe"
+
+**Case**: bradesco-agile-community-creation
+**Título**: Escalei a guilda de produto e promovi 18 lideres em seis meses
+
+**STAR-L Resumido**:
+- **S**: 18% de rotatividade. 47% sem enxergar carreira. eNPS despencando 12 pontos em três meses. Os números piscavam vermelho no meu dashboard quando assumi o portfólio de produto no Bradesco Next como Head, fevereiro de 2017. Eu tinha acabado de liderar a migração de 65 squads para modelo remoto, mas o se...
+- **T**: Diante do risco iminente de perder talentos-chave que eu havia recrutado pessoalmente, eu defini como minha missão redesenhar a guilda de produto em oito semanas. O desafio que eu assumi era criar uma...
+- **A**: Para transformar essa crise em oportunidade, minha primeira ação foi eu coletar pessoalmente dados de rotatividade, performance e clima para construir o 'Growth Engine', um painel que eu desenhei e que correlacionava competências com impacto no negócio. Ao apresentar os trade-offs claros aos patrocinadores, eu estabeleci que apenas conteúdos que se provassem eficazes no Growth Engine seriam aprova...
+- **R**: Os resultados que eu entreguei foram transformadores e superaram todas as metas que eu havia estabelecido. Em seis meses, 94% dos PMs completaram ao menos três trilhas, o eNPS saltou de 42 para 69 (+27 pontos - superando minha meta de +20), e a rotatividade despencou de 18% para 6%, o que, segundo o...
+- **L**: A grande lição que eu aprendi foi que para ser o melhor empregador, eu preciso tratar o desenvolvimento de talentos como um produto: com foco no cliente (o colaborador), orientado por dados e com entr...
+
+
+---
+### COMBINAÇÃO 8/20
+
+**CacheKey**: `best_employer__Q4__sicredi-360-feedback-system`
+
+**Pergunta Q4**: "Descreva uma situação onde você defendeu sua equipe"
+
+**Case**: sicredi-360-feedback-system
+**Título**: Transformei o feedback 360 em pipeline de sucessao para todos os PMs
+
+**STAR-L Resumido**:
+- **S**: O desafio começou quando assumi a liderança da plataforma de APIs do Sicredi em março de 2024 e notei que 38 Product Managers — os responsáveis por produtos digitais que atendiam toda a cooperativa — trabalhavam em silos organizacionais. O ciclo de desempenho anual gerava apenas notas genéricas sem ...
+- **T**: Eu me comprometi publicamente com o comitê executivo a construir, em noventa dias, um mecanismo de feedback 360 graus que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de s...
+- **A**: Eu executei uma ofensiva em quatro frentes coordenadas. Primeiro, entrevistei pessoalmente 60 PMs e stakeholders chave (tech leads, diretores de produto, líderes de negócio) ao longo de 3 semanas para entender as lacunas atuais e co-desenhar o mecanismo que chamei de Pulse360 — uma combinação de survey anônimo estruturado, feedback narrativo qualitativo e analytics preditivo. Eu estruturei 18 comp...
+- **R**: Em seis meses o impacto nos 38 PMs — meus clientes internos diretos — foi transformador e mensurável. Confiança no processo de feedback subiu de 48% para 89%, um aumento de 41 pontos percentuais equivalente a +85% de melhoria. Trinta e quatro PMs (89%) receberam PDIs customizados com roadmap concret...
+- **L**: Aprendi que ser o melhor empregador não é sobre benefícios corporativos genéricos, mas sobre entregar feedback acionável com clareza de futuro e oportunidades concretas de crescimento. Quando eu conec...
+
+
+---
+### COMBINAÇÃO 9/20
+
+**CacheKey**: `best_employer__Q5__bradesco-agile-community-creation`
+
+**Pergunta Q5**: "Me dê um exemplo de quando você investiu no crescimento de alguém"
+
+**Case**: bradesco-agile-community-creation
+**Título**: Escalei a guilda de produto e promovi 18 lideres em seis meses
+
+**STAR-L Resumido**:
+- **S**: 18% de rotatividade. 47% sem enxergar carreira. eNPS despencando 12 pontos em três meses. Os números piscavam vermelho no meu dashboard quando assumi o portfólio de produto no Bradesco Next como Head, fevereiro de 2017. Eu tinha acabado de liderar a migração de 65 squads para modelo remoto, mas o se...
+- **T**: Diante do risco iminente de perder talentos-chave que eu havia recrutado pessoalmente, eu defini como minha missão redesenhar a guilda de produto em oito semanas. O desafio que eu assumi era criar uma...
+- **A**: Para transformar essa crise em oportunidade, minha primeira ação foi eu coletar pessoalmente dados de rotatividade, performance e clima para construir o 'Growth Engine', um painel que eu desenhei e que correlacionava competências com impacto no negócio. Ao apresentar os trade-offs claros aos patrocinadores, eu estabeleci que apenas conteúdos que se provassem eficazes no Growth Engine seriam aprova...
+- **R**: Os resultados que eu entreguei foram transformadores e superaram todas as metas que eu havia estabelecido. Em seis meses, 94% dos PMs completaram ao menos três trilhas, o eNPS saltou de 42 para 69 (+27 pontos - superando minha meta de +20), e a rotatividade despencou de 18% para 6%, o que, segundo o...
+- **L**: A grande lição que eu aprendi foi que para ser o melhor empregador, eu preciso tratar o desenvolvimento de talentos como um produto: com foco no cliente (o colaborador), orientado por dados e com entr...
+
+
+---
+### COMBINAÇÃO 10/20
+
+**CacheKey**: `best_employer__Q5__sicredi-360-feedback-system`
+
+**Pergunta Q5**: "Me dê um exemplo de quando você investiu no crescimento de alguém"
+
+**Case**: sicredi-360-feedback-system
+**Título**: Transformei o feedback 360 em pipeline de sucessao para todos os PMs
+
+**STAR-L Resumido**:
+- **S**: O desafio começou quando assumi a liderança da plataforma de APIs do Sicredi em março de 2024 e notei que 38 Product Managers — os responsáveis por produtos digitais que atendiam toda a cooperativa — trabalhavam em silos organizacionais. O ciclo de desempenho anual gerava apenas notas genéricas sem ...
+- **T**: Eu me comprometi publicamente com o comitê executivo a construir, em noventa dias, um mecanismo de feedback 360 graus que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de s...
+- **A**: Eu executei uma ofensiva em quatro frentes coordenadas. Primeiro, entrevistei pessoalmente 60 PMs e stakeholders chave (tech leads, diretores de produto, líderes de negócio) ao longo de 3 semanas para entender as lacunas atuais e co-desenhar o mecanismo que chamei de Pulse360 — uma combinação de survey anônimo estruturado, feedback narrativo qualitativo e analytics preditivo. Eu estruturei 18 comp...
+- **R**: Em seis meses o impacto nos 38 PMs — meus clientes internos diretos — foi transformador e mensurável. Confiança no processo de feedback subiu de 48% para 89%, um aumento de 41 pontos percentuais equivalente a +85% de melhoria. Trinta e quatro PMs (89%) receberam PDIs customizados com roadmap concret...
+- **L**: Aprendi que ser o melhor empregador não é sobre benefícios corporativos genéricos, mas sobre entregar feedback acionável com clareza de futuro e oportunidades concretas de crescimento. Quando eu conec...
+
+
+---
+### COMBINAÇÃO 11/20
+
+**CacheKey**: `best_employer__Q6__bradesco-agile-community-creation`
+
+**Pergunta Q6**: "Conte sobre uma vez que você fez seu ambiente de trabalho mais seguro, inclusivo ou divertido"
+
+**Case**: bradesco-agile-community-creation
+**Título**: Escalei a guilda de produto e promovi 18 lideres em seis meses
+
+**STAR-L Resumido**:
+- **S**: 18% de rotatividade. 47% sem enxergar carreira. eNPS despencando 12 pontos em três meses. Os números piscavam vermelho no meu dashboard quando assumi o portfólio de produto no Bradesco Next como Head, fevereiro de 2017. Eu tinha acabado de liderar a migração de 65 squads para modelo remoto, mas o se...
+- **T**: Diante do risco iminente de perder talentos-chave que eu havia recrutado pessoalmente, eu defini como minha missão redesenhar a guilda de produto em oito semanas. O desafio que eu assumi era criar uma...
+- **A**: Para transformar essa crise em oportunidade, minha primeira ação foi eu coletar pessoalmente dados de rotatividade, performance e clima para construir o 'Growth Engine', um painel que eu desenhei e que correlacionava competências com impacto no negócio. Ao apresentar os trade-offs claros aos patrocinadores, eu estabeleci que apenas conteúdos que se provassem eficazes no Growth Engine seriam aprova...
+- **R**: Os resultados que eu entreguei foram transformadores e superaram todas as metas que eu havia estabelecido. Em seis meses, 94% dos PMs completaram ao menos três trilhas, o eNPS saltou de 42 para 69 (+27 pontos - superando minha meta de +20), e a rotatividade despencou de 18% para 6%, o que, segundo o...
+- **L**: A grande lição que eu aprendi foi que para ser o melhor empregador, eu preciso tratar o desenvolvimento de talentos como um produto: com foco no cliente (o colaborador), orientado por dados e com entr...
+
+
+---
+### COMBINAÇÃO 12/20
+
+**CacheKey**: `best_employer__Q6__sicredi-360-feedback-system`
+
+**Pergunta Q6**: "Conte sobre uma vez que você fez seu ambiente de trabalho mais seguro, inclusivo ou divertido"
+
+**Case**: sicredi-360-feedback-system
+**Título**: Transformei o feedback 360 em pipeline de sucessao para todos os PMs
+
+**STAR-L Resumido**:
+- **S**: O desafio começou quando assumi a liderança da plataforma de APIs do Sicredi em março de 2024 e notei que 38 Product Managers — os responsáveis por produtos digitais que atendiam toda a cooperativa — trabalhavam em silos organizacionais. O ciclo de desempenho anual gerava apenas notas genéricas sem ...
+- **T**: Eu me comprometi publicamente com o comitê executivo a construir, em noventa dias, um mecanismo de feedback 360 graus que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de s...
+- **A**: Eu executei uma ofensiva em quatro frentes coordenadas. Primeiro, entrevistei pessoalmente 60 PMs e stakeholders chave (tech leads, diretores de produto, líderes de negócio) ao longo de 3 semanas para entender as lacunas atuais e co-desenhar o mecanismo que chamei de Pulse360 — uma combinação de survey anônimo estruturado, feedback narrativo qualitativo e analytics preditivo. Eu estruturei 18 comp...
+- **R**: Em seis meses o impacto nos 38 PMs — meus clientes internos diretos — foi transformador e mensurável. Confiança no processo de feedback subiu de 48% para 89%, um aumento de 41 pontos percentuais equivalente a +85% de melhoria. Trinta e quatro PMs (89%) receberam PDIs customizados com roadmap concret...
+- **L**: Aprendi que ser o melhor empregador não é sobre benefícios corporativos genéricos, mas sobre entregar feedback acionável com clareza de futuro e oportunidades concretas de crescimento. Quando eu conec...
+
+
+---
+### COMBINAÇÃO 13/20
+
+**CacheKey**: `best_employer__Q7__bradesco-agile-community-creation`
+
+**Pergunta Q7**: "Me fale sobre quando você teve que equilibrar produtividade com bem-estar da equipe"
+
+**Case**: bradesco-agile-community-creation
+**Título**: Escalei a guilda de produto e promovi 18 lideres em seis meses
+
+**STAR-L Resumido**:
+- **S**: 18% de rotatividade. 47% sem enxergar carreira. eNPS despencando 12 pontos em três meses. Os números piscavam vermelho no meu dashboard quando assumi o portfólio de produto no Bradesco Next como Head, fevereiro de 2017. Eu tinha acabado de liderar a migração de 65 squads para modelo remoto, mas o se...
+- **T**: Diante do risco iminente de perder talentos-chave que eu havia recrutado pessoalmente, eu defini como minha missão redesenhar a guilda de produto em oito semanas. O desafio que eu assumi era criar uma...
+- **A**: Para transformar essa crise em oportunidade, minha primeira ação foi eu coletar pessoalmente dados de rotatividade, performance e clima para construir o 'Growth Engine', um painel que eu desenhei e que correlacionava competências com impacto no negócio. Ao apresentar os trade-offs claros aos patrocinadores, eu estabeleci que apenas conteúdos que se provassem eficazes no Growth Engine seriam aprova...
+- **R**: Os resultados que eu entreguei foram transformadores e superaram todas as metas que eu havia estabelecido. Em seis meses, 94% dos PMs completaram ao menos três trilhas, o eNPS saltou de 42 para 69 (+27 pontos - superando minha meta de +20), e a rotatividade despencou de 18% para 6%, o que, segundo o...
+- **L**: A grande lição que eu aprendi foi que para ser o melhor empregador, eu preciso tratar o desenvolvimento de talentos como um produto: com foco no cliente (o colaborador), orientado por dados e com entr...
+
+
+---
+### COMBINAÇÃO 14/20
+
+**CacheKey**: `best_employer__Q7__sicredi-360-feedback-system`
+
+**Pergunta Q7**: "Me fale sobre quando você teve que equilibrar produtividade com bem-estar da equipe"
+
+**Case**: sicredi-360-feedback-system
+**Título**: Transformei o feedback 360 em pipeline de sucessao para todos os PMs
+
+**STAR-L Resumido**:
+- **S**: O desafio começou quando assumi a liderança da plataforma de APIs do Sicredi em março de 2024 e notei que 38 Product Managers — os responsáveis por produtos digitais que atendiam toda a cooperativa — trabalhavam em silos organizacionais. O ciclo de desempenho anual gerava apenas notas genéricas sem ...
+- **T**: Eu me comprometi publicamente com o comitê executivo a construir, em noventa dias, um mecanismo de feedback 360 graus que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de s...
+- **A**: Eu executei uma ofensiva em quatro frentes coordenadas. Primeiro, entrevistei pessoalmente 60 PMs e stakeholders chave (tech leads, diretores de produto, líderes de negócio) ao longo de 3 semanas para entender as lacunas atuais e co-desenhar o mecanismo que chamei de Pulse360 — uma combinação de survey anônimo estruturado, feedback narrativo qualitativo e analytics preditivo. Eu estruturei 18 comp...
+- **R**: Em seis meses o impacto nos 38 PMs — meus clientes internos diretos — foi transformador e mensurável. Confiança no processo de feedback subiu de 48% para 89%, um aumento de 41 pontos percentuais equivalente a +85% de melhoria. Trinta e quatro PMs (89%) receberam PDIs customizados com roadmap concret...
+- **L**: Aprendi que ser o melhor empregador não é sobre benefícios corporativos genéricos, mas sobre entregar feedback acionável com clareza de futuro e oportunidades concretas de crescimento. Quando eu conec...
+
+
+---
+### COMBINAÇÃO 15/20
+
+**CacheKey**: `best_employer__Q8__bradesco-agile-community-creation`
+
+**Pergunta Q8**: "Descreva uma situação onde você criou oportunidade de crescimento para alguém"
+
+**Case**: bradesco-agile-community-creation
+**Título**: Escalei a guilda de produto e promovi 18 lideres em seis meses
+
+**STAR-L Resumido**:
+- **S**: 18% de rotatividade. 47% sem enxergar carreira. eNPS despencando 12 pontos em três meses. Os números piscavam vermelho no meu dashboard quando assumi o portfólio de produto no Bradesco Next como Head, fevereiro de 2017. Eu tinha acabado de liderar a migração de 65 squads para modelo remoto, mas o se...
+- **T**: Diante do risco iminente de perder talentos-chave que eu havia recrutado pessoalmente, eu defini como minha missão redesenhar a guilda de produto em oito semanas. O desafio que eu assumi era criar uma...
+- **A**: Para transformar essa crise em oportunidade, minha primeira ação foi eu coletar pessoalmente dados de rotatividade, performance e clima para construir o 'Growth Engine', um painel que eu desenhei e que correlacionava competências com impacto no negócio. Ao apresentar os trade-offs claros aos patrocinadores, eu estabeleci que apenas conteúdos que se provassem eficazes no Growth Engine seriam aprova...
+- **R**: Os resultados que eu entreguei foram transformadores e superaram todas as metas que eu havia estabelecido. Em seis meses, 94% dos PMs completaram ao menos três trilhas, o eNPS saltou de 42 para 69 (+27 pontos - superando minha meta de +20), e a rotatividade despencou de 18% para 6%, o que, segundo o...
+- **L**: A grande lição que eu aprendi foi que para ser o melhor empregador, eu preciso tratar o desenvolvimento de talentos como um produto: com foco no cliente (o colaborador), orientado por dados e com entr...
+
+
+---
+### COMBINAÇÃO 16/20
+
+**CacheKey**: `best_employer__Q8__sicredi-360-feedback-system`
+
+**Pergunta Q8**: "Descreva uma situação onde você criou oportunidade de crescimento para alguém"
+
+**Case**: sicredi-360-feedback-system
+**Título**: Transformei o feedback 360 em pipeline de sucessao para todos os PMs
+
+**STAR-L Resumido**:
+- **S**: O desafio começou quando assumi a liderança da plataforma de APIs do Sicredi em março de 2024 e notei que 38 Product Managers — os responsáveis por produtos digitais que atendiam toda a cooperativa — trabalhavam em silos organizacionais. O ciclo de desempenho anual gerava apenas notas genéricas sem ...
+- **T**: Eu me comprometi publicamente com o comitê executivo a construir, em noventa dias, um mecanismo de feedback 360 graus que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de s...
+- **A**: Eu executei uma ofensiva em quatro frentes coordenadas. Primeiro, entrevistei pessoalmente 60 PMs e stakeholders chave (tech leads, diretores de produto, líderes de negócio) ao longo de 3 semanas para entender as lacunas atuais e co-desenhar o mecanismo que chamei de Pulse360 — uma combinação de survey anônimo estruturado, feedback narrativo qualitativo e analytics preditivo. Eu estruturei 18 comp...
+- **R**: Em seis meses o impacto nos 38 PMs — meus clientes internos diretos — foi transformador e mensurável. Confiança no processo de feedback subiu de 48% para 89%, um aumento de 41 pontos percentuais equivalente a +85% de melhoria. Trinta e quatro PMs (89%) receberam PDIs customizados com roadmap concret...
+- **L**: Aprendi que ser o melhor empregador não é sobre benefícios corporativos genéricos, mas sobre entregar feedback acionável com clareza de futuro e oportunidades concretas de crescimento. Quando eu conec...
+
+
+---
+### COMBINAÇÃO 17/20
+
+**CacheKey**: `best_employer__Q9__bradesco-agile-community-creation`
+
+**Pergunta Q9**: "Como você garante que diferentes perspectivas e backgrounds são valorizados?"
+
+**Case**: bradesco-agile-community-creation
+**Título**: Escalei a guilda de produto e promovi 18 lideres em seis meses
+
+**STAR-L Resumido**:
+- **S**: 18% de rotatividade. 47% sem enxergar carreira. eNPS despencando 12 pontos em três meses. Os números piscavam vermelho no meu dashboard quando assumi o portfólio de produto no Bradesco Next como Head, fevereiro de 2017. Eu tinha acabado de liderar a migração de 65 squads para modelo remoto, mas o se...
+- **T**: Diante do risco iminente de perder talentos-chave que eu havia recrutado pessoalmente, eu defini como minha missão redesenhar a guilda de produto em oito semanas. O desafio que eu assumi era criar uma...
+- **A**: Para transformar essa crise em oportunidade, minha primeira ação foi eu coletar pessoalmente dados de rotatividade, performance e clima para construir o 'Growth Engine', um painel que eu desenhei e que correlacionava competências com impacto no negócio. Ao apresentar os trade-offs claros aos patrocinadores, eu estabeleci que apenas conteúdos que se provassem eficazes no Growth Engine seriam aprova...
+- **R**: Os resultados que eu entreguei foram transformadores e superaram todas as metas que eu havia estabelecido. Em seis meses, 94% dos PMs completaram ao menos três trilhas, o eNPS saltou de 42 para 69 (+27 pontos - superando minha meta de +20), e a rotatividade despencou de 18% para 6%, o que, segundo o...
+- **L**: A grande lição que eu aprendi foi que para ser o melhor empregador, eu preciso tratar o desenvolvimento de talentos como um produto: com foco no cliente (o colaborador), orientado por dados e com entr...
+
+
+---
+### COMBINAÇÃO 18/20
+
+**CacheKey**: `best_employer__Q9__sicredi-360-feedback-system`
+
+**Pergunta Q9**: "Como você garante que diferentes perspectivas e backgrounds são valorizados?"
+
+**Case**: sicredi-360-feedback-system
+**Título**: Transformei o feedback 360 em pipeline de sucessao para todos os PMs
+
+**STAR-L Resumido**:
+- **S**: O desafio começou quando assumi a liderança da plataforma de APIs do Sicredi em março de 2024 e notei que 38 Product Managers — os responsáveis por produtos digitais que atendiam toda a cooperativa — trabalhavam em silos organizacionais. O ciclo de desempenho anual gerava apenas notas genéricas sem ...
+- **T**: Eu me comprometi publicamente com o comitê executivo a construir, em noventa dias, um mecanismo de feedback 360 graus que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de s...
+- **A**: Eu executei uma ofensiva em quatro frentes coordenadas. Primeiro, entrevistei pessoalmente 60 PMs e stakeholders chave (tech leads, diretores de produto, líderes de negócio) ao longo de 3 semanas para entender as lacunas atuais e co-desenhar o mecanismo que chamei de Pulse360 — uma combinação de survey anônimo estruturado, feedback narrativo qualitativo e analytics preditivo. Eu estruturei 18 comp...
+- **R**: Em seis meses o impacto nos 38 PMs — meus clientes internos diretos — foi transformador e mensurável. Confiança no processo de feedback subiu de 48% para 89%, um aumento de 41 pontos percentuais equivalente a +85% de melhoria. Trinta e quatro PMs (89%) receberam PDIs customizados com roadmap concret...
+- **L**: Aprendi que ser o melhor empregador não é sobre benefícios corporativos genéricos, mas sobre entregar feedback acionável com clareza de futuro e oportunidades concretas de crescimento. Quando eu conec...
+
+
+---
+### COMBINAÇÃO 19/20
+
+**CacheKey**: `best_employer__Q10__bradesco-agile-community-creation`
+
+**Pergunta Q10**: "Conte sobre quando você teve que tomar uma decisão pensando no que é melhor para as pessoas, não só nos resultados"
+
+**Case**: bradesco-agile-community-creation
+**Título**: Escalei a guilda de produto e promovi 18 lideres em seis meses
+
+**STAR-L Resumido**:
+- **S**: 18% de rotatividade. 47% sem enxergar carreira. eNPS despencando 12 pontos em três meses. Os números piscavam vermelho no meu dashboard quando assumi o portfólio de produto no Bradesco Next como Head, fevereiro de 2017. Eu tinha acabado de liderar a migração de 65 squads para modelo remoto, mas o se...
+- **T**: Diante do risco iminente de perder talentos-chave que eu havia recrutado pessoalmente, eu defini como minha missão redesenhar a guilda de produto em oito semanas. O desafio que eu assumi era criar uma...
+- **A**: Para transformar essa crise em oportunidade, minha primeira ação foi eu coletar pessoalmente dados de rotatividade, performance e clima para construir o 'Growth Engine', um painel que eu desenhei e que correlacionava competências com impacto no negócio. Ao apresentar os trade-offs claros aos patrocinadores, eu estabeleci que apenas conteúdos que se provassem eficazes no Growth Engine seriam aprova...
+- **R**: Os resultados que eu entreguei foram transformadores e superaram todas as metas que eu havia estabelecido. Em seis meses, 94% dos PMs completaram ao menos três trilhas, o eNPS saltou de 42 para 69 (+27 pontos - superando minha meta de +20), e a rotatividade despencou de 18% para 6%, o que, segundo o...
+- **L**: A grande lição que eu aprendi foi que para ser o melhor empregador, eu preciso tratar o desenvolvimento de talentos como um produto: com foco no cliente (o colaborador), orientado por dados e com entr...
+
+
+---
+### COMBINAÇÃO 20/20
+
+**CacheKey**: `best_employer__Q10__sicredi-360-feedback-system`
+
+**Pergunta Q10**: "Conte sobre quando você teve que tomar uma decisão pensando no que é melhor para as pessoas, não só nos resultados"
+
+**Case**: sicredi-360-feedback-system
+**Título**: Transformei o feedback 360 em pipeline de sucessao para todos os PMs
+
+**STAR-L Resumido**:
+- **S**: O desafio começou quando assumi a liderança da plataforma de APIs do Sicredi em março de 2024 e notei que 38 Product Managers — os responsáveis por produtos digitais que atendiam toda a cooperativa — trabalhavam em silos organizacionais. O ciclo de desempenho anual gerava apenas notas genéricas sem ...
+- **T**: Eu me comprometi publicamente com o comitê executivo a construir, em noventa dias, um mecanismo de feedback 360 graus que produzisse planos de desenvolvimento personalizados e abastecesse um mapa de s...
+- **A**: Eu executei uma ofensiva em quatro frentes coordenadas. Primeiro, entrevistei pessoalmente 60 PMs e stakeholders chave (tech leads, diretores de produto, líderes de negócio) ao longo de 3 semanas para entender as lacunas atuais e co-desenhar o mecanismo que chamei de Pulse360 — uma combinação de survey anônimo estruturado, feedback narrativo qualitativo e analytics preditivo. Eu estruturei 18 comp...
+- **R**: Em seis meses o impacto nos 38 PMs — meus clientes internos diretos — foi transformador e mensurável. Confiança no processo de feedback subiu de 48% para 89%, um aumento de 41 pontos percentuais equivalente a +85% de melhoria. Trinta e quatro PMs (89%) receberam PDIs customizados com roadmap concret...
+- **L**: Aprendi que ser o melhor empregador não é sobre benefícios corporativos genéricos, mas sobre entregar feedback acionável com clareza de futuro e oportunidades concretas de crescimento. Quando eu conec...
+
+
+---
+
+## ⚠️ IMPORTANTE
+
+1. Retorne APENAS um array JSON com todas as análises
+2. Use o formato exato especificado
+3. Seja RIGOROSO na avaliação - apenas casos excepcionais devem ter 30/30
+4. O scoreBase deve ser a SOMA exata de relevance + depth + evidence
+5. Não invente informações - se o case não menciona algo, penalize
+
+## 📝 EXEMPLO DE RESPOSTA
+
+```json
+[
+  {
+    "cacheKey": "ownership__Q1__hsbc-migration-leadership",
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "Conceito central (assumir migração além do escopo) alinha perfeitamente com a pergunta. STAR-L completo com métricas concretas (400 servidores, R$47M, -67% latência)."
+  }
+]
+```
+
+Agora analise as 20 combinações acima e retorne o array JSON.

@@ -6,7 +6,7 @@ const case_2 = {
   title_en: "Transformed BRL 1.2B threat into sustainable BRL 312M ecosystem",
   company: "Unimed Nacional",
   period: "08/2022-12/2023",
-  isTopCase: true,
+  isTopCase: false,
   isGoodCase: false,
   pt: {
     s: `"Clientes multicanal migram 2,4x mais para healthtechs full service." O relatório que apresentei ao conselho da Unimed Nacional em agosto de 2022 revelava uma ameaça existencial. Era eu, como Strategy Advisor, mostrando dados brutais: perdemos 340 mil beneficiários em 18 meses, receita despencou R$ 1,2 bilhão, e NPS caiu de 67 para 41. Simultaneamente, Alice, Docway e SulAmérica Saúde cresciam 180% oferecendo jornada integrada que nós fragmentávamos em 47 touchpoints diferentes. O presidente foi direto: "Temos seis meses para reverter ou vamos perder liderança de 50 anos." A pressão era brutal: 18 milhões de beneficiários esperando inovação, mas qualquer mudança estrutural custaria centenas de milhões.`,

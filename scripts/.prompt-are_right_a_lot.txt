@@ -1,0 +1,1249 @@
+
+# 🎯 TAREFA: Análise Semântica de Cases para Leadership Principle
+
+Você é um especialista em Leadership Principles da Amazon e vai analisar a qualidade do fit entre perguntas e cases de entrevista comportamental.
+
+## 📋 LEADERSHIP PRINCIPLE: ARE RIGHT A LOT
+
+## 🎯 CRITÉRIOS DE AVALIAÇÃO
+
+Para cada combinação Question × Case, você deve avaliar 3 componentes:
+
+### A. RELEVÂNCIA CONCEITUAL (0-30 pontos)
+- **30 pontos**: Case responde PERFEITAMENTE a pergunta (conceito central do case = pergunta)
+- **26 pontos**: Case responde MUITO BEM (conceito central fortemente relacionado)
+- **22 pontos**: Case responde BEM (conceito presente mas não é central)
+- **18 pontos**: Case responde PARCIALMENTE (conceito mencionado mas secundário)
+- **12 pontos**: Case responde TANGENCIALMENTE (conceito indireto)
+- **0 pontos**: Case NÃO responde a pergunta
+
+### B. PROFUNDIDADE DA RESPOSTA (0-30 pontos)
+- **30 pontos**: STAR-L completo com exemplos concretos + métricas + aprendizados profundos
+- **26 pontos**: STAR-L completo com bons exemplos + algumas métricas
+- **22 pontos**: STAR bom mas Learning superficial ou métricas vagas
+- **18 pontos**: STAR presente mas genérico, faltam detalhes
+- **12 pontos**: STAR incompleto ou muito superficial
+- **0 pontos**: Não fornece resposta adequada
+
+### C. EVIDÊNCIAS E MÉTRICAS (0-30 pontos)
+- **30 pontos**: Métricas CONCRETAS + impacto quantificado + comparações (antes/depois)
+- **26 pontos**: Métricas concretas + impacto quantificado
+- **22 pontos**: Algumas métricas + impacto descrito
+- **18 pontos**: Métricas vagas ou impacto não quantificado
+- **12 pontos**: Pouquíssimas evidências numéricas
+- **0 pontos**: Sem evidências ou métricas
+
+## 📊 FORMATO DE RESPOSTA
+
+Para cada combinação, retorne EXATAMENTE neste formato JSON:
+
+```json
+{
+  "cacheKey": "<cacheKey fornecido>",
+  "relevance": <0-30>,
+  "depth": <0-30>,
+  "evidence": <0-30>,
+  "scoreBase": <soma dos 3>,
+  "reasoning": "<1-2 frases explicando a avaliação>"
+}
+```
+
+## 🎯 COMBINAÇÕES PARA ANÁLISE
+
+
+---
+### COMBINAÇÃO 1/65
+
+**CacheKey**: `are_right_a_lot__Q1__sicredi-mobile-first-strategy`
+
+**Pergunta Q1**: "Conte sobre uma situação onde você tomou uma decisão difícil com input de diferentes stakeholders"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 2/65
+
+**CacheKey**: `are_right_a_lot__Q1__huawei-4g-rollout-analysis`
+
+**Pergunta Q1**: "Conte sobre uma situação onde você tomou uma decisão difícil com input de diferentes stakeholders"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 3/65
+
+**CacheKey**: `are_right_a_lot__Q1__sicredi-api-pricing-model`
+
+**Pergunta Q1**: "Conte sobre uma situação onde você tomou uma decisão difícil com input de diferentes stakeholders"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 4/65
+
+**CacheKey**: `are_right_a_lot__Q1__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q1**: "Conte sobre uma situação onde você tomou uma decisão difícil com input de diferentes stakeholders"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 5/65
+
+**CacheKey**: `are_right_a_lot__Q1__sefaz-data-vs-intuition`
+
+**Pergunta Q1**: "Conte sobre uma situação onde você tomou uma decisão difícil com input de diferentes stakeholders"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+### COMBINAÇÃO 6/65
+
+**CacheKey**: `are_right_a_lot__Q2__sicredi-mobile-first-strategy`
+
+**Pergunta Q2**: "Me fale sobre quando você mudou de opinião baseado em novos dados"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 7/65
+
+**CacheKey**: `are_right_a_lot__Q2__huawei-4g-rollout-analysis`
+
+**Pergunta Q2**: "Me fale sobre quando você mudou de opinião baseado em novos dados"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 8/65
+
+**CacheKey**: `are_right_a_lot__Q2__sicredi-api-pricing-model`
+
+**Pergunta Q2**: "Me fale sobre quando você mudou de opinião baseado em novos dados"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 9/65
+
+**CacheKey**: `are_right_a_lot__Q2__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q2**: "Me fale sobre quando você mudou de opinião baseado em novos dados"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 10/65
+
+**CacheKey**: `are_right_a_lot__Q2__sefaz-data-vs-intuition`
+
+**Pergunta Q2**: "Me fale sobre quando você mudou de opinião baseado em novos dados"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+### COMBINAÇÃO 11/65
+
+**CacheKey**: `are_right_a_lot__Q3__sicredi-mobile-first-strategy`
+
+**Pergunta Q3**: "Como você toma decisões com informação incompleta?"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 12/65
+
+**CacheKey**: `are_right_a_lot__Q3__huawei-4g-rollout-analysis`
+
+**Pergunta Q3**: "Como você toma decisões com informação incompleta?"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 13/65
+
+**CacheKey**: `are_right_a_lot__Q3__sicredi-api-pricing-model`
+
+**Pergunta Q3**: "Como você toma decisões com informação incompleta?"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 14/65
+
+**CacheKey**: `are_right_a_lot__Q3__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q3**: "Como você toma decisões com informação incompleta?"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 15/65
+
+**CacheKey**: `are_right_a_lot__Q3__sefaz-data-vs-intuition`
+
+**Pergunta Q3**: "Como você toma decisões com informação incompleta?"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+### COMBINAÇÃO 16/65
+
+**CacheKey**: `are_right_a_lot__Q4__sicredi-mobile-first-strategy`
+
+**Pergunta Q4**: "Descreva uma situação onde seu julgamento foi crucial"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 17/65
+
+**CacheKey**: `are_right_a_lot__Q4__huawei-4g-rollout-analysis`
+
+**Pergunta Q4**: "Descreva uma situação onde seu julgamento foi crucial"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 18/65
+
+**CacheKey**: `are_right_a_lot__Q4__sicredi-api-pricing-model`
+
+**Pergunta Q4**: "Descreva uma situação onde seu julgamento foi crucial"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 19/65
+
+**CacheKey**: `are_right_a_lot__Q4__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q4**: "Descreva uma situação onde seu julgamento foi crucial"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 20/65
+
+**CacheKey**: `are_right_a_lot__Q4__sefaz-data-vs-intuition`
+
+**Pergunta Q4**: "Descreva uma situação onde seu julgamento foi crucial"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+### COMBINAÇÃO 21/65
+
+**CacheKey**: `are_right_a_lot__Q5__sicredi-mobile-first-strategy`
+
+**Pergunta Q5**: "Me dê um exemplo de quando você desafiou uma decisão que achava errada"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 22/65
+
+**CacheKey**: `are_right_a_lot__Q5__huawei-4g-rollout-analysis`
+
+**Pergunta Q5**: "Me dê um exemplo de quando você desafiou uma decisão que achava errada"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 23/65
+
+**CacheKey**: `are_right_a_lot__Q5__sicredi-api-pricing-model`
+
+**Pergunta Q5**: "Me dê um exemplo de quando você desafiou uma decisão que achava errada"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 24/65
+
+**CacheKey**: `are_right_a_lot__Q5__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q5**: "Me dê um exemplo de quando você desafiou uma decisão que achava errada"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 25/65
+
+**CacheKey**: `are_right_a_lot__Q5__sefaz-data-vs-intuition`
+
+**Pergunta Q5**: "Me dê um exemplo de quando você desafiou uma decisão que achava errada"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+### COMBINAÇÃO 26/65
+
+**CacheKey**: `are_right_a_lot__Q6__sicredi-mobile-first-strategy`
+
+**Pergunta Q6**: "Conte sobre uma vez que você teve uma opinião impopular mas correta"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 27/65
+
+**CacheKey**: `are_right_a_lot__Q6__huawei-4g-rollout-analysis`
+
+**Pergunta Q6**: "Conte sobre uma vez que você teve uma opinião impopular mas correta"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 28/65
+
+**CacheKey**: `are_right_a_lot__Q6__sicredi-api-pricing-model`
+
+**Pergunta Q6**: "Conte sobre uma vez que você teve uma opinião impopular mas correta"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 29/65
+
+**CacheKey**: `are_right_a_lot__Q6__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q6**: "Conte sobre uma vez que você teve uma opinião impopular mas correta"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 30/65
+
+**CacheKey**: `are_right_a_lot__Q6__sefaz-data-vs-intuition`
+
+**Pergunta Q6**: "Conte sobre uma vez que você teve uma opinião impopular mas correta"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+### COMBINAÇÃO 31/65
+
+**CacheKey**: `are_right_a_lot__Q7__sicredi-mobile-first-strategy`
+
+**Pergunta Q7**: "Me fale sobre quando você estava errado - como você lidou com isso?"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 32/65
+
+**CacheKey**: `are_right_a_lot__Q7__huawei-4g-rollout-analysis`
+
+**Pergunta Q7**: "Me fale sobre quando você estava errado - como você lidou com isso?"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 33/65
+
+**CacheKey**: `are_right_a_lot__Q7__sicredi-api-pricing-model`
+
+**Pergunta Q7**: "Me fale sobre quando você estava errado - como você lidou com isso?"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 34/65
+
+**CacheKey**: `are_right_a_lot__Q7__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q7**: "Me fale sobre quando você estava errado - como você lidou com isso?"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 35/65
+
+**CacheKey**: `are_right_a_lot__Q7__sefaz-data-vs-intuition`
+
+**Pergunta Q7**: "Me fale sobre quando você estava errado - como você lidou com isso?"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+### COMBINAÇÃO 36/65
+
+**CacheKey**: `are_right_a_lot__Q8__sicredi-mobile-first-strategy`
+
+**Pergunta Q8**: "Descreva uma vez que você buscou perspectivas diversas para desafiar suas próprias crenças"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 37/65
+
+**CacheKey**: `are_right_a_lot__Q8__huawei-4g-rollout-analysis`
+
+**Pergunta Q8**: "Descreva uma vez que você buscou perspectivas diversas para desafiar suas próprias crenças"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 38/65
+
+**CacheKey**: `are_right_a_lot__Q8__sicredi-api-pricing-model`
+
+**Pergunta Q8**: "Descreva uma vez que você buscou perspectivas diversas para desafiar suas próprias crenças"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 39/65
+
+**CacheKey**: `are_right_a_lot__Q8__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q8**: "Descreva uma vez que você buscou perspectivas diversas para desafiar suas próprias crenças"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 40/65
+
+**CacheKey**: `are_right_a_lot__Q8__sefaz-data-vs-intuition`
+
+**Pergunta Q8**: "Descreva uma vez que você buscou perspectivas diversas para desafiar suas próprias crenças"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+### COMBINAÇÃO 41/65
+
+**CacheKey**: `are_right_a_lot__Q9__sicredi-mobile-first-strategy`
+
+**Pergunta Q9**: "Como você garante que está fazendo as perguntas certas antes de tomar decisões?"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 42/65
+
+**CacheKey**: `are_right_a_lot__Q9__huawei-4g-rollout-analysis`
+
+**Pergunta Q9**: "Como você garante que está fazendo as perguntas certas antes de tomar decisões?"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 43/65
+
+**CacheKey**: `are_right_a_lot__Q9__sicredi-api-pricing-model`
+
+**Pergunta Q9**: "Como você garante que está fazendo as perguntas certas antes de tomar decisões?"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 44/65
+
+**CacheKey**: `are_right_a_lot__Q9__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q9**: "Como você garante que está fazendo as perguntas certas antes de tomar decisões?"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 45/65
+
+**CacheKey**: `are_right_a_lot__Q9__sefaz-data-vs-intuition`
+
+**Pergunta Q9**: "Como você garante que está fazendo as perguntas certas antes de tomar decisões?"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+### COMBINAÇÃO 46/65
+
+**CacheKey**: `are_right_a_lot__Q10__sicredi-mobile-first-strategy`
+
+**Pergunta Q10**: "Conte sobre quando você teve que tomar uma decisão rápida sob pressão - você estava certo?"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 47/65
+
+**CacheKey**: `are_right_a_lot__Q10__huawei-4g-rollout-analysis`
+
+**Pergunta Q10**: "Conte sobre quando você teve que tomar uma decisão rápida sob pressão - você estava certo?"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 48/65
+
+**CacheKey**: `are_right_a_lot__Q10__sicredi-api-pricing-model`
+
+**Pergunta Q10**: "Conte sobre quando você teve que tomar uma decisão rápida sob pressão - você estava certo?"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 49/65
+
+**CacheKey**: `are_right_a_lot__Q10__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q10**: "Conte sobre quando você teve que tomar uma decisão rápida sob pressão - você estava certo?"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 50/65
+
+**CacheKey**: `are_right_a_lot__Q10__sefaz-data-vs-intuition`
+
+**Pergunta Q10**: "Conte sobre quando você teve que tomar uma decisão rápida sob pressão - você estava certo?"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+### COMBINAÇÃO 51/65
+
+**CacheKey**: `are_right_a_lot__Q11__sicredi-mobile-first-strategy`
+
+**Pergunta Q11**: "Me dê exemplo de quando você usou dados de pagamento para impactar decisões comerciais"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 52/65
+
+**CacheKey**: `are_right_a_lot__Q11__huawei-4g-rollout-analysis`
+
+**Pergunta Q11**: "Me dê exemplo de quando você usou dados de pagamento para impactar decisões comerciais"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 53/65
+
+**CacheKey**: `are_right_a_lot__Q11__sicredi-api-pricing-model`
+
+**Pergunta Q11**: "Me dê exemplo de quando você usou dados de pagamento para impactar decisões comerciais"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 54/65
+
+**CacheKey**: `are_right_a_lot__Q11__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q11**: "Me dê exemplo de quando você usou dados de pagamento para impactar decisões comerciais"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 55/65
+
+**CacheKey**: `are_right_a_lot__Q11__sefaz-data-vs-intuition`
+
+**Pergunta Q11**: "Me dê exemplo de quando você usou dados de pagamento para impactar decisões comerciais"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+### COMBINAÇÃO 56/65
+
+**CacheKey**: `are_right_a_lot__Q12__sicredi-mobile-first-strategy`
+
+**Pergunta Q12**: "Como você lida com situações onde dados conflitam com sua intuição?"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 57/65
+
+**CacheKey**: `are_right_a_lot__Q12__huawei-4g-rollout-analysis`
+
+**Pergunta Q12**: "Como você lida com situações onde dados conflitam com sua intuição?"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 58/65
+
+**CacheKey**: `are_right_a_lot__Q12__sicredi-api-pricing-model`
+
+**Pergunta Q12**: "Como você lida com situações onde dados conflitam com sua intuição?"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 59/65
+
+**CacheKey**: `are_right_a_lot__Q12__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q12**: "Como você lida com situações onde dados conflitam com sua intuição?"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 60/65
+
+**CacheKey**: `are_right_a_lot__Q12__sefaz-data-vs-intuition`
+
+**Pergunta Q12**: "Como você lida com situações onde dados conflitam com sua intuição?"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+### COMBINAÇÃO 61/65
+
+**CacheKey**: `are_right_a_lot__Q13__sicredi-mobile-first-strategy`
+
+**Pergunta Q13**: "Conte sobre uma decisão onde você estava certo mas não conseguiu convencer outros inicialmente"
+
+**Case**: sicredi-mobile-first-strategy
+**Título**: Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime
+
+**STAR-L Resumido**:
+- **S**: "Precisamos de um super app com feed social em 90 dias. Os concorrentes estão viralizando e estamos ficando para trás." Marketing já havia mostrado mockups ao CEO quando, simultaneamente, risco alertou: "48% das reclamações vêm de falhas em autenticação. Lançamento prematuro vai destruir NPS." Era j...
+- **T**: Meu escopo como Product Strategist cobria roadmap digital, mas eu precisava resolver completamente essa decisão. O desafio crítico era separar opinião de fato e construir um roadmap que preservasse re...
+- **A**: Minha abordagem foi construir uma decisão baseada em fatos que sobrevivesse ao escrutínio de todos os lados. Apliquei metodologia DMAIC para estruturar a análise: **Define** - mapeei os oito stakeholders e suas métricas de sucesso; **Measure** - coletei 18 meses de dados: NPS, funil de autenticação, ARPU e churn; **Analyze** - modelei o custo de cada ponto de falha, descobrindo que cada 0,1% de er...
+- **R**: Em seis sprints, reduzi erros de autenticação de 1,8% para 0,4%, NPS subiu de 54 para 71, e economizamos R$ 19M em perdas evitadas. O módulo agro entrou no ar em 104 dias, gerou aumento de 22% no ticket médio das cooperativas do Centro-Oeste e cortou em 37% as ligações sobre créditos rurais. Quando ...
+- **L**: Aprendi que tomar decisões corretas consistentemente não significa vencer discussões, mas construir um ponto de vista que aguenta pressão de todos os lados. Quando chego com dados, experimentos e plan...
+
+
+---
+### COMBINAÇÃO 62/65
+
+**CacheKey**: `are_right_a_lot__Q13__huawei-4g-rollout-analysis`
+
+**Pergunta Q13**: "Conte sobre uma decisão onde você estava certo mas não conseguiu convencer outros inicialmente"
+
+**Case**: huawei-4g-rollout-analysis
+**Título**: Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest
+
+**STAR-L Resumido**:
+- **S**: Situacao: "23% de perda no throughput. Se isso acontecer na Fan Fest com 140 mil torcedores, perdemos US$ 9M em multas de patrocinio." Eu tinha 42 sites em quatro paises no rollout 5G da Huawei para a Copa Feminina 2023. Dois meses antes do evento, os testes de campo mostraram que as antenas passiva...
+- **T**: Task: O desafio critico que enfrentei foi descobrir rapidamente a causa raiz, provar com dados e ajustar a arquitetura sem quebrar o cronograma nem a confianca de engenharia e cliente. Minhas metas: (...
+- **A**: Action: Minha abordagem foi transformar intuicao tecnica em simulacao replicavel e prova financeira. Primeiro capturei logs de drive-test, inseri modelos de propagacao e usei simulacao tipo Monte Carlo para 10 mil cenarios. Descobri que o vento lateral nas estruturas abertas reduzia ganho de antena em 4,7 dBi. Levei os graficos com o mecanismo "Risk Twin" que criei para simular a rede ao VP afirma...
+- **R**: Result: O impacto mensuravel dessa decisao baseada em dados foi completo. Instalamos as antenas ativas em 14 dias, mantivemos o cronograma e entregamos 1,42 Gbps medio durante a fase de grupos. O NPS dos patrocinadores subiu para 86 pontos, zero queda de SLA, e a FIFA enviou carta reconhecendo "qual...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de arquitetura sob pressao. Aprendi que are right a lot exige transformar intuicao em simulacao replicavel. Quando eu p...
+
+
+---
+### COMBINAÇÃO 63/65
+
+**CacheKey**: `are_right_a_lot__Q13__sicredi-api-pricing-model`
+
+**Pergunta Q13**: "Conte sobre uma decisão onde você estava certo mas não conseguiu convencer outros inicialmente"
+
+**Case**: sicredi-api-pricing-model
+**Título**: Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias
+
+**STAR-L Resumido**:
+- **S**: Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicia...
+- **T**: Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. M...
+- **A**: Action: Minha abordagem foi traduzir ciencia de dados em linguagem financeira que comercial e finansas entendessem. Primeiro extraI 18 meses de logs de uso, apliquei clusterizacao K-means para segmentar parceiros por volume e usei regressao logistica para estimar churn em funcao de preco. O modelo mostrava que o grupo premium teria queda de 22% no volume e geraria perda de R$ 14M ao ano. Em seguid...
+- **R**: Result: O impacto mensuravel desse modelo data-driven foi imediato. O piloto com seis parceiros representando 58% do volume ocorreu entre agosto e setembro. As receitas subiram 8,7%, o churn ficou em 0,6% (vs. 2,1% projetado no modelo antigo) e o NPS de plataforma cresceu de 63 para 74. Por fim o CF...
+- **L**: Learning: A licao principal desse caso transformou minha abordagem para decisoes de pricing. Aprendi que estar certo muitas vezes depende de traduzir ciencia de dados em linguagem financeira simples. ...
+
+
+---
+### COMBINAÇÃO 64/65
+
+**CacheKey**: `are_right_a_lot__Q13__sicredi-wrong-fraud-model-pivot`
+
+**Pergunta Q13**: "Conte sobre uma decisão onde você estava certo mas não conseguiu convencer outros inicialmente"
+
+**Case**: sicredi-wrong-fraud-model-pivot
+**Título**: Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior
+
+**STAR-L Resumido**:
+- **S**: Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errad...
+- **T**: Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando m...
+- **A**: No dia 11 de producao eu convoquei post-mortem de emergencia com o time de 8 pessoas. Marina, analista junior de dados com 9 meses de Sicredi, apresentou analise que contradzia minha hipotese: ela mostrou que 78% das fraudes reais tinham VALORES BAIXOS (R$ 200-800) em HORARIOS ESPECIFICOS (madrugada, 2am-5am) para CPFs COM RELACIONAMENTO RECENTE (< 15 dias). Meu modelo estava focando nas variaveis...
+- **R**: O novo modelo entrou em producao em maio com resultados opostos: taxa de falsos positivos caiu de 23% para 4.2% e deteccao de fraudes reais subiu de 66% para 91%. Economizamos R$ 1.8M em fraudes evitadas nos primeiros 30 dias versus R$ 890k do modelo antigo (2x melhor). NPS de clientes que tinham si...
+- **L**: Aprendi que 'are right a lot' nao significa nunca estar errado, significa: (1) reconhecer rapidamente quando esta errado sem proteger ego; (2) promover quem tem razao independente de senioridade e dar...
+
+
+---
+### COMBINAÇÃO 65/65
+
+**CacheKey**: `are_right_a_lot__Q13__sefaz-data-vs-intuition`
+
+**Pergunta Q13**: "Conte sobre uma decisão onde você estava certo mas não conseguiu convencer outros inicialmente"
+
+**Case**: sefaz-data-vs-intuition
+**Título**: Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho
+
+**STAR-L Resumido**:
+- **S**: "Leonardo, você tem 15 anos de experiência em PMO de programas bilionários. Qual modelo de governança recomenda para o PROFISCO II?" A pergunta do Secretário da Fazenda ecoou na sala de reuniões enquanto eu segurava nas mãos o termo de referência do programa de US$ 280 milhões financiado pelo BID (B...
+- **T**: Diante desse conflito visceral entre intuição consolidada e dados emergentes, assumi o compromisso intelectual de investigar a verdade antes de recomendar qualquer modelo ao Secretário. Minha missão e...
+- **A**: Executei uma investigação forense de governança em cinco movimentos coordenados, cada um desafiando progressivamente minhas convicções. Primeiro, mergulhei nos dados históricos dos 47 projetos ativos na SEFAZ-RS. Extraí 2.8 milhões de registros de Jira, MS Project e sistemas legados, e construí um modelo de regressão logística para identificar preditores de atraso. A descoberta foi chocante: proje...
+- **R**: Os resultados validaram dolorosamente que estar certo significa questionar suas próprias convicções quando dados apontam direção diferente. Após 6 meses de governança híbrida no PROFISCO II, a taxa de entrega no prazo subiu de 32% para 76% (+44 pontos percentuais), o desvio médio de cronograma caiu ...
+- **L**: Retrospectivamente, esse caso foi o mais transformador da minha carreira porque destruiu uma ilusão perigosa: a de que experiência acumulada é sempre superior a dados emergentes. Aprendi que estar cer...
+
+
+---
+
+## ⚠️ IMPORTANTE
+
+1. Retorne APENAS um array JSON com todas as análises
+2. Use o formato exato especificado
+3. Seja RIGOROSO na avaliação - apenas casos excepcionais devem ter 30/30
+4. O scoreBase deve ser a SOMA exata de relevance + depth + evidence
+5. Não invente informações - se o case não menciona algo, penalize
+
+## 📝 EXEMPLO DE RESPOSTA
+
+```json
+[
+  {
+    "cacheKey": "ownership__Q1__hsbc-migration-leadership",
+    "relevance": 30,
+    "depth": 28,
+    "evidence": 30,
+    "scoreBase": 88,
+    "reasoning": "Conceito central (assumir migração além do escopo) alinha perfeitamente com a pergunta. STAR-L completo com métricas concretas (400 servidores, R$47M, -67% latência)."
+  }
+]
+```
+
+Agora analise as 65 combinações acima e retorne o array JSON.

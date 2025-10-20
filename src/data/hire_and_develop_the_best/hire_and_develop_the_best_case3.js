@@ -6,7 +6,7 @@ const case_3 = {
   title_en: "Underperforming Analyst Development Through Reallocation and Ownership",
   company: "Unimed",
   period: "01/2023--12/2023",
-  isTopCase: true,
+  isTopCase: false,
   isGoodCase: false,
   pt: {
     s: `"Seus atrasos na análise de fraude estão impactando 250K beneficiários por mês." A frase que abriu minha conversa 1-on-1 com o analista de baixo desempenho não era acusação — era diagnóstico centrado no cliente. Stakes: 40% de turnover na equipe, 34% dos 18 milhões de beneficiários reclamando de lentidão (12 dias de reembolso vs. 5 dias na concorrência), e decisão iminente da diretoria de desligar o analista que estava 30% abaixo da produtividade. Dilema: desligamento rápido agravaria gargalo para 250K beneficiários/mês; desenvolvimento arriscado poderia fracassar e prolongar o problema. Escolha: investir em diagnóstico profundo e realocação estratégica ou tomar atalho que prejudicaria ainda mais nossos clientes.

@@ -7,7 +7,7 @@ const case_3 = {
   company: "Sicredi Plataforma",
   period: "06/2020-12/2020",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: `Situacao: "Essa tabela fixa vai reduzir receitas em 11%. Os quatro parceiros gigantes representam 63% das chamadas e vao pivotar para concorrentes." Eu era PM de plataforma no Sicredi quando o comite aprovou precificacao fixa de R$ 2,90 por chamada de API para parceiros fintech. Minha analise inicial mostrava o risco, mas o diretor comercial estava convencido de que o volume compensaria. O time de vendas ja tinha comunicado a mudanca a 23 parceiros e o CFO queria ver numeros em menos de uma semana.`,
     t: `Task: O desafio critico que enfrentei foi demonstrar matematicamente se a proposta se sustentava e, caso nao, propor um modelo robusto o suficiente para manter a confianca do comite e dos parceiros. Minhas metas: (1) construir um modelo de elasticidade e custo em cinco dias, (2) apresentar um plano alternativo com unit economics positivos, (3) negociar com comercial e parceiros um piloto que preservasse receita e experiencia.`,

@@ -6,7 +6,7 @@ const case_3 = {
   title_en: "Broader Impact of Decisions: Responsible AI Policy with Social Responsibility, Equity and Transparency",
   company: "Sicredi",
   period: "01/2020-12/2020",
-  isTopCase: true,
+  isTopCase: false,
   isGoodCase: false,
   pt: {
     s: `"120 mil vidas financeiras. Modelo aprovado. Taxa de aprovação para autônomos: 23% menor. Viés confirmado antes do deploy." No Sicredi, ao introduzirmos o primeiro modelo de ML para pré-aprovação de crédito, o sucesso trouxe uma nova e complexa responsabilidade. A escala do negócio significava que as decisões do algoritmo impactariam a vida financeira de 120 mil+ cooperados. Antes de implementar, analisei impactos em 3 dimensões: (1) cooperados (120k pessoas, 28% autônomos historicamente sub-representados em crédito), (2) reguladores (BACEN com foco crescente em equidade algorítmica), (3) sociedade (risco de perpetuar vieses contra trabalhadores autônomos e minorias). Quando propus uma "Política de IA Responsável", enfrentei resistência imediata: o VP Comercial argumentou que "auditorias éticas atrasariam lançamentos" e que "concorrentes não fazem isso". Mas o impacto amplo de decisões erradas - multas, reputação, exclusão financeira de milhares - era uma responsabilidade que eu precisava endereçar, mesmo contra a resistência interna.`,

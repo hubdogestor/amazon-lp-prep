@@ -7,7 +7,7 @@ const case_4 = {
   company: "Sicredi",
   period: "02/2021-05/2021",
   isTopCase: false,
-  isGoodCase: true,
+  isGoodCase: false,
   pt: {
     s: `Falsos positivos: 23%. Fraudes escapando: 34%. O dashboard piscava vermelho no décimo dia de produção, março de 2021, e o número me socava no estômago. Eu tinha 15 anos de experiência em payments, tinha usado essa abordagem com sucesso no Bradesco, estava 95% confiante — e estava completamente errado. Seis semanas de desenvolvimento, R$ 180 mil investidos, um modelo de detecção de fraude em Pix baseado em VALOR e FREQUÊNCIA que eu tinha arquitetado pessoalmente estava falhando de forma espetacular: bloqueando clientes legítimos em massa (23% de falso positivo quando esperávamos 8%) enquanto deixava um terço das fraudes reais passarem despercebidas. Clientes furiosos bombardeavam o SAC, fraudadores riam na nossa cara, e meu ego sangrava junto com os R$ 180k queimados. Pior: Marina, analista júnior com nove meses de Sicredi, tinha dados provando que eu estava focando nas variáveis erradas — e minha primeira reação foi defensiva. Eu estava errado, ela estava certa, e eu precisava decidir: proteger meu ego de 15 anos ou salvar o Sicredi de mais R$ 600k em perdas nos próximos dois meses.`,
     t: `Como Head of Payments eu era responsavel por entregar modelo de fraude eficaz que protegesse o Sicredi sem prejudicar experiencia do cliente. Minha responsabilidade era reconhecer rapidamente quando minha abordagem estava falhando e pivotar para solucao melhor, mesmo que isso significasse admitir publicamente que eu estava errado depois de 15 anos de experiencia e R$ 180k investidos.`,
