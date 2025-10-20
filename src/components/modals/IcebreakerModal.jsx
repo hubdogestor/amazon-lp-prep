@@ -230,18 +230,18 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
             </div>
             <button
               onClick={toggleLanguage}
-              className="shrink-0 text-white hover:bg-orange-600 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
+              className="shrink-0 bg-white/20 text-white hover:bg-white/30 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
               aria-label="Toggle language"
             >
-              🌐 {t('languageToggle')}
+              {language === 'pt' ? '🇧🇷 PT / EN' : '🇺🇸 EN / PT'}
             </button>
 
             <button
               onClick={handleClose}
-              className="shrink-0 text-white hover:bg-orange-600 rounded-lg px-3 py-2 transition text-xl"
+              className="shrink-0 text-white hover:bg-orange-600 rounded-lg px-3 py-2 transition text-xl font-bold"
               aria-label="Close icebreaker modal"
             >
-              ?
+              ✕
             </button>
           </div>
         </div>

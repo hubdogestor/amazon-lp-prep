@@ -52,17 +52,17 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
           <div className="flex items-center gap-3">
             <button
               onClick={toggleLanguage}
-              className="text-white hover:bg-white/20 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
+              className="bg-white/20 text-white hover:bg-white/30 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
               aria-label="Toggle language"
             >
-              🌐 {t('languageToggle')}
+              {language === 'pt' ? '🇧🇷 PT / EN' : '🇺🇸 EN / PT'}
             </button>
             <button
               onClick={onClose}
-              className="text-white hover:bg-white/20 rounded-lg px-3 py-2 transition text-xl"
+              className="text-white hover:bg-white/20 rounded-lg px-3 py-2 transition text-xl font-bold"
               aria-label="Close my questions modal"
             >
-              ×
+              ✕
             </button>
           </div>
         </div>

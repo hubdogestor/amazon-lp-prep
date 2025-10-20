@@ -148,7 +148,7 @@ export default function MainContent({
 
             {/* Perguntas Típicas - Amazon Style (azul) - Layout tipo tabela */}
             {typicalQuestions[principle.id] && (
-              <div className="mt-4 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 rounded-lg p-4 shadow-sm dark:from-blue-900 dark:to-indigo-900 dark:border-blue-600">
+              <div className="mt-4 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 rounded-lg p-4 shadow-sm dark:from-slate-900 dark:to-slate-950 dark:border-slate-700">
                 <h3 className="text-sm font-bold text-[#232F3E] dark:text-slate-100 mb-3 uppercase tracking-wide flex items-center gap-2">
                   💭 {language === "pt" ? "Perguntas Típicas do Entrevistador" : "Typical Interviewer Questions"}
                   <span className="text-xs font-normal text-gray-500 ml-2">

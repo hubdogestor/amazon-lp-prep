@@ -17,7 +17,7 @@ export default function Sidebar({
 }) {
   const { t } = useTranslation();
   return (
-    <aside id="sidebar" className="col-span-12 xl:col-span-2 sticky top-4 h-fit" role="complementary" aria-label="Principles filter">
+    <aside id="sidebar" className="col-span-12 xl:col-span-2 xl:fixed xl:top-4 xl:left-4 xl:w-[16.666667%] xl:max-h-[calc(100vh-2rem)] xl:overflow-y-auto" role="complementary" aria-label="Principles filter">
       {/* Header "Leadership Principles" */}
       <div className="mb-3 pb-2 border-b-2 border-[#FF9900]">
         <h2 className="text-sm font-bold text-[#232F3E] dark:text-slate-100 uppercase tracking-wider">
