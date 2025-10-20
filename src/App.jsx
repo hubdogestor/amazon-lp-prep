@@ -86,6 +86,14 @@ export default function App() {
   const [highlightFupTerm, setHighlightFupTerm] = useState("");
   const [highlightTypicalTerm, setHighlightTypicalTerm] = useState("");
 
+  // Function to clear all highlights and search terms
+  const clearAllHighlights = useCallback(() => {
+    clearHighlights();
+    setHighlightCaseTerm("");
+    setHighlightFupTerm("");
+    setHighlightTypicalTerm("");
+  }, [clearHighlights, setHighlightCaseTerm, setHighlightFupTerm, setHighlightTypicalTerm]);
+
   // Local FUP search per case (formato: { "caseId": "searchTerm" })
   const [caseFupSearchTerms, setCaseFupSearchTerms] = useState({});
   const [caseFupSearchOpen, setCaseFupSearchOpen] = useState({}); // controla visibilidade da busca
@@ -111,42 +119,6 @@ export default function App() {
   const [language, setLanguage] = useState('pt');
   const [isSearching, setIsSearching] = useState(false);
   const [copiedCaseId, setCopiedCaseId] = useState(null);
-
-  useEffect(() => {
-    const handleEscape = (e) => {
-      if (e.key === 'Escape') {
-        setSearchTerm("");
-        setQuestionSearch("");
-        setTypicalQuestionSearch("");
-        setHighlightCaseTerm("");
-        setHighlightFupTerm("");
-        setHighlightTypicalTerm("");
-        clearHighlights();
-        setShowTopCases(false);
-        setSelectedLooping(null);
-      }
-    };
-
-    document.addEventListener('keydown', handleEscape);
-    return () => document.removeEventListener('keydown', handleEscape);
-  }, [clearHighlights]);
-
-  // Clear searches on click outside
-  useEffect(() => {
-    const handleClickOutside = (e) => {
-      // Check if click is outside search dropdowns and input fields
-      const isInsideSearch = e.target.closest('#kSearch, #kFup, #kTypical, #case-dropdown, #fup-dropdown, #typical-dropdown');
-
-      if (!isInsideSearch) {
-        setSearchTerm("");
-        setQuestionSearch("");
-        setTypicalQuestionSearch("");
-      }
-    };
-
-    document.addEventListener('click', handleClickOutside);
-    return () => document.removeEventListener('click', handleClickOutside);
-  }, []);
 
   const rawPrinciplesData = usePrinciplesData();
   const principlesData = useMemo(() => {
@@ -175,6 +147,40 @@ export default function App() {
     typicalQuestionSearchResults,
     caseSearchResults,
   } = useSearch(principlesData, language, selectedLooping);
+
+  useEffect(() => {
+    const handleEscape = (e) => {
+      if (e.key === 'Escape') {
+        setSearchTerm("");
+        setQuestionSearch("");
+        setTypicalQuestionSearch("");
+        clearAllHighlights();
+        setShowTopCases(false);
+        setSelectedLooping(null);
+      }
+    };
+
+    document.addEventListener('keydown', handleEscape);
+    return () => document.removeEventListener('keydown', handleEscape);
+  }, [clearAllHighlights, setSearchTerm, setQuestionSearch, setTypicalQuestionSearch, setShowTopCases, setSelectedLooping]);
+
+  // Clear searches on click outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      // Check if click is outside search dropdowns and input fields
+      const isInsideSearch = e.target.closest('#kSearch, #kFup, #kTypical, #case-dropdown, #fup-dropdown, #typical-dropdown');
+
+      if (!isInsideSearch) {
+        setSearchTerm("");
+        setQuestionSearch("");
+        setTypicalQuestionSearch("");
+        clearAllHighlights();
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, [clearAllHighlights, setSearchTerm, setQuestionSearch, setTypicalQuestionSearch]);
 
   const clearExpanded = useCallback(() => {
     setExpandedCases({});
@@ -515,16 +521,26 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
   const handleTypicalSearchResultSelect = useCallback((result, savedSearchWords) => {
     const { principle, idx } = result;
 
-    // Navega para o case mapeado
-    navigateToMappedCase(principle.id, idx, result.questionId);
+    // Define o termo de highlight com as palavras pesquisadas
+    setHighlightTypicalTerm(savedSearchWords.join(' '));
+
+    // Navega para a pergunta sem expandir o case
+    setSelectedPrinciple(principle.id);
+    setShowTopCases(false);
+
+    // Scroll para a pergunta
+    const questionId = `typical-q-${principle.id}-${idx}`;
+    scrollToElementWhenReady(questionId, { 
+      block: 'start', 
+      highlightSetter: () => setHighlightedTypicalQuestion(questionId)
+    });
 
     // Limpa o estado da busca
     setTypicalQuestionSearch("");
     setSearchTerm("");
     setQuestionSearch("");
-    setShowTopCases(false);
     
-  }, [navigateToMappedCase, setTypicalQuestionSearch, setSearchTerm, setQuestionSearch, setShowTopCases]);
+  }, [setHighlightTypicalTerm, setSelectedPrinciple, setShowTopCases, scrollToElementWhenReady, setHighlightedTypicalQuestion, setTypicalQuestionSearch, setSearchTerm, setQuestionSearch]);
 
   // Handler para botão Home
   const handleHomeClick = useCallback(() => {
