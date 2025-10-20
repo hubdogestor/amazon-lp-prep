@@ -70,6 +70,16 @@ export default function App() {
   const [expandedCases, setExpandedCases] = useState({});
   const [selectedLooping, setSelectedLooping] = useState(null);
   const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  // Aplicar tema escuro/claro
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [isDarkMode]);
 
 
   // Use highlight hook instead of DOM manipulation
@@ -563,7 +573,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
   }, [clearExpanded, clearHighlights]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
       {/* Cabeçalho Fixo */}
       <Header
         language={i18n.language}
@@ -601,6 +611,8 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
         onHomeClick={handleHomeClick}
         isMobileDrawerOpen={isMobileDrawerOpen}
         setIsMobileDrawerOpen={setIsMobileDrawerOpen}
+        isDarkMode={isDarkMode}
+        setIsDarkMode={setIsDarkMode}
       />
 
       {/* Modal Icebreaker */}

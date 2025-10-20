@@ -1,4 +1,4 @@
-import { Search, Home, Menu, X } from "lucide-react";
+import { Search, Home, Menu, X, Sun, Moon } from "lucide-react";
 import clsx from "clsx";
 import { useTranslation } from "react-i18next";
 import CaseSearchResults from "../search/CaseSearchResults.jsx";
@@ -43,12 +43,14 @@ export default function Header({
   onHomeClick,
   isMobileDrawerOpen,
   setIsMobileDrawerOpen,
+  isDarkMode,
+  setIsDarkMode,
 }) {
   const { t } = useTranslation();
   return (
     <header
       id="stickyHeader"
-      className="sticky top-0 z-30 border-b border-slate-200 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60"
+      className="sticky top-0 z-30 border-b border-slate-200 bg-gradient-to-r from-white to-slate-50 backdrop-blur supports-[backdrop-filter]:bg-white/80 dark:from-slate-800 dark:to-slate-700 dark:border-slate-700"
       role="banner"
     >
       <div className="max-w-[1600px] mx-auto px-6 py-3">
@@ -56,25 +58,25 @@ export default function Header({
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileDrawerOpen(!isMobileDrawerOpen)}
-            className="md:hidden p-3 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 transition-colors flex-shrink-0"
+            className="md:hidden p-3 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:hover:bg-slate-700 transition-colors flex-shrink-0"
             aria-label={isMobileDrawerOpen ? "Fechar menu" : "Abrir menu"}
             title={isMobileDrawerOpen ? "Fechar menu lateral" : "Abrir menu lateral"}
           >
             {isMobileDrawerOpen ? (
-              <X className="w-5 h-5 text-slate-700" />
+              <X className="w-5 h-5 text-slate-700 dark:text-slate-300" />
             ) : (
-              <Menu className="w-5 h-5 text-slate-700" />
+              <Menu className="w-5 h-5 text-slate-700 dark:text-slate-300" />
             )}
           </button>
 
           {/* Home Button */}
           <button
             onClick={onHomeClick}
-            className="p-3 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 transition-colors flex-shrink-0"
+            className="p-3 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:hover:bg-slate-700 transition-colors flex-shrink-0"
             aria-label="Home"
             title="Voltar ao início"
           >
-            <Home className="w-5 h-5 text-slate-700" />
+            <Home className="w-5 h-5 text-slate-700 dark:text-slate-300" />
           </button>
 
           {/* Busca por palavras */}
@@ -97,7 +99,7 @@ export default function Header({
                   setTypicalQuestionSearch("");
                   clearHighlights();
                 }}
-                className="w-full pl-10 pr-4 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
+                className="w-full pl-10 pr-4 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white dark:bg-slate-800 dark:border-slate-600 dark:text-slate-100 text-center"
                 aria-label={t('kSearch')}
                 aria-expanded={!!searchTerm && caseSearchResults.length > 0}
                 aria-controls="case-dropdown"
@@ -138,7 +140,7 @@ export default function Header({
                   setTypicalQuestionSearch("");
                   clearHighlights();
                 }}
-                className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white text-center"
+                className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300 bg-white dark:bg-slate-800 dark:border-slate-600 dark:text-slate-100 text-center"
                 aria-label={t('kFup')}
                 aria-expanded={!!questionSearch}
                 aria-controls="fup-dropdown"
@@ -175,7 +177,7 @@ export default function Header({
                 <select
                   value={selectedLooping || ""}
                   onChange={(e) => setSelectedLooping(e.target.value || null)}
-                  className="h-full px-2 py-3 text-sm border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white font-medium"
+                  className="h-full px-2 py-3 text-sm border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white dark:bg-slate-800 dark:border-slate-600 dark:text-slate-100 font-medium"
                   aria-label="Select looping group"
                   title={t('filterLoopingGroup')}
                 >
@@ -201,7 +203,7 @@ export default function Header({
                     setQuestionSearch("");
                     clearHighlights();
                   }}
-                  className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white text-center"
+                  className="w-full pl-10 pr-3 py-3 text-base border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white dark:bg-slate-800 dark:border-slate-600 dark:text-slate-100 text-center"
                   aria-label={t('kTypical')}
                   aria-expanded={!!typicalQuestionSearch}
                   aria-controls="typical-dropdown"
@@ -239,8 +241,8 @@ export default function Header({
               className={clsx(
                 "w-full px-3 py-3 text-base rounded-lg border transition",
                 {
-                  "bg-yellow-100 border-yellow-300 text-yellow-800": showTopCases,
-                  "bg-white border-slate-200 text-slate-700 hover:bg-slate-50": !showTopCases,
+                  "bg-yellow-100 border-yellow-300 text-yellow-800 dark:bg-yellow-900 dark:border-yellow-600 dark:text-yellow-200": showTopCases,
+                  "bg-white border-slate-200 text-slate-700 hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-700": !showTopCases,
                 }
               )}
               onClick={(e) => {
@@ -263,7 +265,7 @@ export default function Header({
           <div className="flex-shrink-0">
             <button
               id="icebreakerBtn"
-              className="w-full px-3 py-3 text-base rounded-lg border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
+              className="w-full px-3 py-3 text-base rounded-lg border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-700"
               onClick={(e) => {
                 e.stopPropagation();
                 setShowIcebreaker(true);
@@ -279,7 +281,7 @@ export default function Header({
           <div className="flex-shrink-0">
             <button
               id="myQuestionsBtn"
-              className="w-full px-3 py-3 text-base rounded-lg border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
+              className="w-full px-3 py-3 text-base rounded-lg border transition bg-white border-slate-200 text-slate-700 hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-700"
               onClick={(e) => {
                 e.stopPropagation();
                 setShowMyQuestions(true);
@@ -303,8 +305,8 @@ export default function Header({
                 className={clsx(
                   "flex-1 px-3 py-3 text-base rounded-lg border",
                   {
-                    "bg-slate-900 text-white": language === "pt",
-                    "bg-white text-slate-700": language !== "pt",
+                    "bg-slate-900 text-white dark:bg-slate-700 dark:text-slate-100": language === "pt",
+                    "bg-white text-slate-700 dark:bg-slate-800 dark:text-slate-300": language !== "pt",
                   }
                 )}
                 onClick={(e) => {
@@ -320,8 +322,8 @@ export default function Header({
                 className={clsx(
                   "flex-1 px-3 py-3 text-base rounded-lg border",
                   {
-                    "bg-slate-900 text-white": language === "en",
-                    "bg-white text-slate-700": language !== "en",
+                    "bg-slate-900 text-white dark:bg-slate-700 dark:text-slate-100": language === "en",
+                    "bg-white text-slate-700 dark:bg-slate-800 dark:text-slate-300": language !== "en",
                   }
                 )}
                 onClick={(e) => {
@@ -334,6 +336,22 @@ export default function Header({
                 EN
               </button>
             </div>
+          </div>
+
+          {/* Tema */}
+          <div className="flex-shrink-0">
+            <button
+              onClick={() => setIsDarkMode(!isDarkMode)}
+              className="p-3 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:hover:bg-slate-700 transition-colors"
+              aria-label={isDarkMode ? "Mudar para modo claro" : "Mudar para modo escuro"}
+              title={isDarkMode ? "Modo claro" : "Modo escuro"}
+            >
+              {isDarkMode ? (
+                <Sun className="w-5 h-5 text-yellow-500" />
+              ) : (
+                <Moon className="w-5 h-5 text-slate-700 dark:text-slate-300" />
+              )}
+            </button>
           </div>
         </div>
       </div>
