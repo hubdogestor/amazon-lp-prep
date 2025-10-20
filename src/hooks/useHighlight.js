@@ -22,6 +22,22 @@ export function useHighlight() {
     };
   }, []);
 
+  /**
+   * Clear all highlights (including search term)
+   */
+  const clearHighlights = useCallback(() => {
+    // Cancel any pending scroll operations
+    if (pendingScrollRef.current) {
+      clearTimeout(pendingScrollRef.current);
+      pendingScrollRef.current = null;
+    }
+
+    setHighlightedFupId(null);
+    setHighlightedCaseId(null);
+    setHighlightedTypicalQuestionId(null);
+    setHighlightSearchTerm(""); // Clear search term highlights too
+  }, []);
+
   // Clear typical question highlight when clicking outside or pressing ESC
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -51,22 +67,6 @@ export function useHighlight() {
       document.removeEventListener('keydown', handleKeyDown);
     };
   }, [highlightedTypicalQuestionId, clearHighlights]);
-
-  /**
-   * Clear all highlights (including search term)
-   */
-  const clearHighlights = useCallback(() => {
-    // Cancel any pending scroll operations
-    if (pendingScrollRef.current) {
-      clearTimeout(pendingScrollRef.current);
-      pendingScrollRef.current = null;
-    }
-
-    setHighlightedFupId(null);
-    setHighlightedCaseId(null);
-    setHighlightedTypicalQuestionId(null);
-    setHighlightSearchTerm(""); // Clear search term highlights too
-  }, []);
 
   /**
    * Set highlighted FUP
