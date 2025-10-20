@@ -17,10 +17,10 @@ export default function Sidebar({
 }) {
   const { t } = useTranslation();
   return (
-    <aside id="sidebar" className="col-span-12 xl:col-span-2 xl:fixed xl:top-4 xl:left-4 xl:w-[16.666667%] xl:max-h-[calc(100vh-2rem)] xl:overflow-y-auto" role="complementary" aria-label="Principles filter">
+    <aside id="sidebar" className="col-span-12 xl:col-span-2 xl:fixed xl:top-[72px] xl:left-4 xl:w-[16.666667%] xl:max-h-[calc(100vh-88px)] xl:overflow-hidden" role="complementary" aria-label="Principles filter">
       {/* Header "Leadership Principles" */}
-      <div className="mb-3 pb-2 border-b-2 border-[#FF9900]">
-        <h2 className="text-sm font-bold text-[#232F3E] dark:text-slate-100 uppercase tracking-wider">
+      <div className="mb-2 pb-1.5 border-b-2 border-[#FF9900]">
+        <h2 className="text-xs font-bold text-[#232F3E] dark:text-slate-100 uppercase tracking-wider">
           {t('leadershipPrinciplesTitle')}
         </h2>
       </div>
@@ -35,7 +35,7 @@ export default function Sidebar({
           <div key={`side-wrapper-${p.id}`}>
             <button
               className={clsx(
-                "w-full mb-2 px-4 py-2.5 rounded-md text-sm text-left font-medium transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm relative overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-slate-800",
+                "w-full mb-1.5 px-3 py-2 rounded-md text-xs text-left font-medium transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm relative overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-slate-800",
                 {
                   "bg-[#FF9900] text-white shadow-md scale-[1.02] dark:bg-orange-600": selectedPrinciple === p.id,
                   "bg-gradient-to-r from-white to-slate-50 border border-slate-200 text-[#232F3E] hover:border-[#FF9900] hover:shadow-md dark:from-slate-800 dark:to-slate-700 dark:border-slate-600 dark:text-slate-100 dark:hover:border-orange-500": selectedPrinciple !== p.id,
@@ -61,7 +61,7 @@ export default function Sidebar({
               )}></span>
             </button>
             {shouldShowDivider && (
-              <div className="my-2 border-t border-slate-300 dark:border-slate-600" />
+              <div className="my-1.5 border-t border-slate-300 dark:border-slate-600" />
             )}
           </div>
         );
