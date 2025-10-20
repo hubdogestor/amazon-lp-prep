@@ -1,4 +1,4 @@
-import { Search, Home } from "lucide-react";
+import { Search, Home, Menu, X } from "lucide-react";
 import clsx from "clsx";
 import { useTranslation } from "react-i18next";
 import CaseSearchResults from "../search/CaseSearchResults.jsx";
@@ -41,6 +41,8 @@ export default function Header({
   debouncedTypicalQuestionSearch,
   loopingGroups,
   onHomeClick,
+  isMobileDrawerOpen,
+  setIsMobileDrawerOpen,
 }) {
   const { t } = useTranslation();
   return (
@@ -51,6 +53,20 @@ export default function Header({
     >
       <div className="max-w-[1600px] mx-auto px-6 py-3">
         <div className="flex gap-3 items-center">
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setIsMobileDrawerOpen(!isMobileDrawerOpen)}
+            className="md:hidden p-3 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 transition-colors flex-shrink-0"
+            aria-label={isMobileDrawerOpen ? "Fechar menu" : "Abrir menu"}
+            title={isMobileDrawerOpen ? "Fechar menu lateral" : "Abrir menu lateral"}
+          >
+            {isMobileDrawerOpen ? (
+              <X className="w-5 h-5 text-slate-700" />
+            ) : (
+              <Menu className="w-5 h-5 text-slate-700" />
+            )}
+          </button>
+
           {/* Home Button */}
           <button
             onClick={onHomeClick}

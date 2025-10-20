@@ -13,6 +13,7 @@ export default function Sidebar({
   clearExpanded,
   principlesData,
   getDisplayName,
+  onCloseMobileDrawer,
 }) {
   const { t } = useTranslation();
   return (
@@ -42,6 +43,7 @@ export default function Sidebar({
           setTypicalQuestionSearch("");
           clearHighlights();
           clearExpanded();
+          onCloseMobileDrawer?.();
         }}
         aria-pressed={selectedPrinciple === "all"}
       >
@@ -69,6 +71,7 @@ export default function Sidebar({
             setTypicalQuestionSearch(""); // Clear Typical Questions search
             clearHighlights();
             clearExpanded();
+            onCloseMobileDrawer?.();
           }}
           aria-pressed={selectedPrinciple === p.id}
         >

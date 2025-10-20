@@ -23,6 +23,7 @@ import {
   DEBOUNCE_SEARCH_DELAY,
 } from "./constants.js";
 import "./App.css";
+import { X } from "lucide-react";
 import IcebreakerModal from "./components/modals/IcebreakerModal.jsx";
 import MyQuestionsModal from "./components/modals/MyQuestionsModal.jsx";
 import { usePersistentFlagMap } from "./hooks/usePersistentFlagMap.js";
@@ -68,6 +69,7 @@ export default function App() {
   const [selectedPrinciple, setSelectedPrinciple] = useState("all");
   const [expandedCases, setExpandedCases] = useState({});
   const [selectedLooping, setSelectedLooping] = useState(null);
+  const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false);
 
 
   // Use highlight hook instead of DOM manipulation
@@ -597,6 +599,8 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
         debouncedTypicalQuestionSearch={debouncedTypicalQuestionSearch}
         loopingGroups={loopingGroups}
         onHomeClick={handleHomeClick}
+        isMobileDrawerOpen={isMobileDrawerOpen}
+        setIsMobileDrawerOpen={setIsMobileDrawerOpen}
       />
 
       {/* Modal Icebreaker */}
@@ -621,63 +625,108 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
 
       {/* Conteúdo - Otimizado para widescreen */}
       <div className="max-w-[2400px] mx-auto px-8 pt-6">
-        <div className="grid grid-cols-12 gap-10">
-          {/* Sidebar */}
-          <Sidebar
-            language={i18n.language}
-            t={t}
-            selectedPrinciple={selectedPrinciple}
-            setSelectedPrinciple={setSelectedPrinciple}
-            setShowTopCases={setShowTopCases}
-            setSearchTerm={setSearchTerm}
-            setQuestionSearch={setQuestionSearch}
-            setTypicalQuestionSearch={setTypicalQuestionSearch}
-            clearHighlights={clearHighlights}
-            clearExpanded={clearExpanded}
-            principlesData={principlesData}
-            getDisplayName={getDisplayName}
+        {/* Mobile Drawer Overlay */}
+        {isMobileDrawerOpen && (
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden"
+            onClick={() => setIsMobileDrawerOpen(false)}
           />
+        )}
+
+        {/* Mobile Drawer */}
+        <div
+          className={`fixed top-0 left-0 h-full w-80 bg-white shadow-lg z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
+            isMobileDrawerOpen ? 'translate-x-0' : '-translate-x-full'
+          }`}
+        >
+          <div className="p-4 border-b border-slate-200">
+            <button
+              onClick={() => setIsMobileDrawerOpen(false)}
+              className="p-2 rounded-lg hover:bg-slate-100 transition-colors"
+              aria-label="Fechar menu"
+            >
+              <X className="w-5 h-5 text-slate-700" />
+            </button>
+          </div>
+          <div className="p-4">
+            <Sidebar
+              language={i18n.language}
+              t={t}
+              selectedPrinciple={selectedPrinciple}
+              setSelectedPrinciple={setSelectedPrinciple}
+              setShowTopCases={setShowTopCases}
+              setSearchTerm={setSearchTerm}
+              setQuestionSearch={setQuestionSearch}
+              setTypicalQuestionSearch={setTypicalQuestionSearch}
+              clearHighlights={clearHighlights}
+              clearExpanded={clearExpanded}
+              principlesData={principlesData}
+              getDisplayName={getDisplayName}
+              onCloseMobileDrawer={() => setIsMobileDrawerOpen(false)}
+            />
+          </div>
+        </div>
+
+        <div className="grid grid-cols-12 gap-10">
+          <div className="hidden md:block md:col-span-2">
+            <Sidebar
+              language={i18n.language}
+              t={t}
+              selectedPrinciple={selectedPrinciple}
+              setSelectedPrinciple={setSelectedPrinciple}
+              setShowTopCases={setShowTopCases}
+              setSearchTerm={setSearchTerm}
+              setQuestionSearch={setQuestionSearch}
+              setTypicalQuestionSearch={setTypicalQuestionSearch}
+              clearHighlights={clearHighlights}
+              clearExpanded={clearExpanded}
+              principlesData={principlesData}
+              getDisplayName={getDisplayName}
+            />
+          </div>
 
           {/* Main */}
-          <MainContent
-            isSearching={isSearching}
-            filteredPrinciples={filteredPrinciples}
-            getDisplayName={getDisplayName}
-            language={i18n.language}
-            typicalQuestions={typicalQuestions}
-            usedQuestions={usedQuestions}
-            highlightedTypicalQuestionId={highlightedTypicalQuestionId}
-            getBestCaseOption={getBestCaseOption}
-            getDisplayCaseTitle={getDisplayCaseTitle}
-            navigateToMappedCase={navigateToMappedCase}
-            highlightTypicalTerm={highlightTypicalTerm}
-            toggleUsedQuestion={toggleUsedQuestion}
-            expandedCases={expandedCases}
-            highlightedCaseId={highlightedCaseId}
-            isTopCase={isTopCase}
-            usedCases={usedCases}
-            getCaseQuestions={getCaseQuestions}
-            copyPromptToClipboard={copyPromptToClipboard}
-            toggleCaseStarSearch={toggleCaseStarSearch}
-            updateCaseStarSearchTerm={updateCaseStarSearchTerm}
-            toggleCaseFupSearch={toggleCaseFupSearch}
-            updateCaseFupSearchTerm={updateCaseFupSearchTerm}
-            searchTerm={searchTerm}
-            caseStarSearchOpen={caseStarSearchOpen}
-            caseFupSearchOpen={caseFupSearchOpen}
-            caseFupSearchTerms={caseFupSearchTerms}
-            caseStarSearchTerms={caseStarSearchTerms}
-            highlightCaseTerm={highlightCaseTerm}
-            highlightFupTerm={highlightFupTerm}
-            highlightedFupId={highlightedFupId}
-            copiedCaseId={copiedCaseId}
-            toggleUsedCase={toggleUsedCase}
-            handleCaseHeaderToggle={handleCaseHeaderToggle}
-            t={t}
-            getCaseFups={getCaseFups}
-            filterCaseFups={filterCaseFups}
-            starSectionMatchesTerm={starSectionMatchesTerm}
-          />
+          <div className="col-span-12 md:col-span-10">
+            <MainContent
+              isSearching={isSearching}
+              filteredPrinciples={filteredPrinciples}
+              getDisplayName={getDisplayName}
+              language={i18n.language}
+              typicalQuestions={typicalQuestions}
+              usedQuestions={usedQuestions}
+              highlightedTypicalQuestionId={highlightedTypicalQuestionId}
+              getBestCaseOption={getBestCaseOption}
+              getDisplayCaseTitle={getDisplayCaseTitle}
+              navigateToMappedCase={navigateToMappedCase}
+              highlightTypicalTerm={highlightTypicalTerm}
+              toggleUsedQuestion={toggleUsedQuestion}
+              expandedCases={expandedCases}
+              highlightedCaseId={highlightedCaseId}
+              isTopCase={isTopCase}
+              usedCases={usedCases}
+              getCaseQuestions={getCaseQuestions}
+              copyPromptToClipboard={copyPromptToClipboard}
+              toggleCaseStarSearch={toggleCaseStarSearch}
+              updateCaseStarSearchTerm={updateCaseStarSearchTerm}
+              toggleCaseFupSearch={toggleCaseFupSearch}
+              updateCaseFupSearchTerm={updateCaseFupSearchTerm}
+              searchTerm={searchTerm}
+              caseStarSearchOpen={caseStarSearchOpen}
+              caseFupSearchOpen={caseFupSearchOpen}
+              caseFupSearchTerms={caseFupSearchTerms}
+              caseStarSearchTerms={caseStarSearchTerms}
+              highlightCaseTerm={highlightCaseTerm}
+              highlightFupTerm={highlightFupTerm}
+              highlightedFupId={highlightedFupId}
+              copiedCaseId={copiedCaseId}
+              toggleUsedCase={toggleUsedCase}
+              handleCaseHeaderToggle={handleCaseHeaderToggle}
+              t={t}
+              getCaseFups={getCaseFups}
+              filterCaseFups={filterCaseFups}
+              starSectionMatchesTerm={starSectionMatchesTerm}
+            />
+          </div>
         </div>
       </div>
     </div>
