@@ -27,27 +27,26 @@ import deal_with_ambiguity from './deal_with_ambiguity/index.js';
 
 // Array consolidado na ordem desejada
 const consolidatedPrinciples = [
-  invent_and_simplify,
+  customer_obsession,
+  program_management,
   ownership,
   dive_deep,
-  deliver_results,
+  invent_and_simplify,
   earn_trust,
-  customer_obsession,
+  deliver_results,
+  stakeholder_management,
   learn_and_be_curious,
+  bias_for_action,
+  prioritizing_and_influence,
+  deal_with_ambiguity,
+  disagree_and_commit,
   insist_on_highest_standards,
   are_right_a_lot,
-  bias_for_action,
   think_big,
-  disagree_and_commit,
   hire_and_develop_the_best,
   frugality,
   broad_responsibility,
-  best_employer,
-  // LPs Extras
-  program_management,
-  stakeholder_management,
-  prioritizing_and_influence,
-  deal_with_ambiguity
+  best_employer
 ];
 
 export default consolidatedPrinciples;
