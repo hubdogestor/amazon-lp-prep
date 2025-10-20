@@ -34,7 +34,7 @@ export default function TypicalQuestionSearchResults({
         tabIndex={0}
         className="px-3 py-2 hover:bg-slate-50 cursor-pointer text-sm focus:bg-slate-100 focus:outline-none"
         onClick={() => {
-          const questionId = `question-${p.id}-${idx}`;
+          const questionId = `typical-q-${p.id}-${idx}`;
           onSelect({ principle: p, question: q, idx, questionId }, (searchWords || []).filter((word) => word.length >= 3));
           setTimeout(() => {
             const targetElement = document.getElementById(questionId);
