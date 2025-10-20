@@ -8,7 +8,7 @@ const icebreakerData = {
     
     // PERGUNTA PRINCIPAL: "FALE SOBRE VOCÊ"
     fale_sobre_voce: {
-      question: "Fale sobre você / Me conte sobre você / Tell me about yourself",
+      question: "Fale sobre você / Me conte sobre você",
       category: "Apresentação Pessoal",
       versions: [
         {
@@ -229,7 +229,7 @@ Quero ajudar a Amazon a crescer sem perder a essência: times empoderados, diver
     },
     // PERGUNTA: "POR QUE ESTA VAGA?"
     por_que_esta_vaga: {
-      question: "Por que esta vaga específica? / Why this role?",
+      question: "Por que esta vaga específica?",
       category: "Fit com a Posição",
       versions: [
         {
@@ -286,7 +286,7 @@ Quero aplicar o mesmo rigor aqui: estabelecer readiness reviews periódicos, tes
     },
     // PERGUNTA: "PONTOS FORTES"
     pontos_fortes: {
-      question: "Quais são seus principais pontos fortes? / What are your strengths?",
+      question: "Quais são seus principais pontos fortes?",
       category: "Autoconhecimento",
       versions: [
         {
@@ -395,7 +395,7 @@ Essa postura garante que os times elevem a barra juntos, reduz erros repetidos e
     },
     // PERGUNTA: "ÁREAS DE DESENVOLVIMENTO"
     areas_desenvolvimento: {
-      question: "Quais são suas áreas de desenvolvimento? / What are your weaknesses?",
+      question: "Quais são suas áreas de desenvolvimento?",
       category: "Autoconhecimento",
       versions: [
         {
@@ -475,8 +475,8 @@ Essa musculatura trouxe previsibilidade ao roadmap, preservou energia do time e 
           mic_drop: "Foco preservado = entregas consistentes sem heróis de última hora"
         }
       ]
-    },
-  },
+    },
+  },
   en: {
     title: "Amazon Strategic Icebreaker",
     subtitle: "Differentiated positioning from the first seconds",
