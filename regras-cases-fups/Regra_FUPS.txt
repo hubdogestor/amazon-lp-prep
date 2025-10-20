@@ -1,0 +1,21 @@
+# Target para FUPs:
+
+✅ Mínimo: 12 perguntas (6 obrigatórias + atuais válidas + complementares).
+💡 Ideal: cerca de 15 FUPs bem distribuídas (técnicas, estratégicas e de aprendizado).
+🚫 Sem limite máximo, desde que todas agreguem valor real e mantenham densidade narrativa.
+
+a regra de construção é:
+
+1 - adicionar EXATAMENTE as 6 PERGUNTAS CENTRAIS OBRIGATÓRIAS
+FUP 1. Erro / falha. (Ex: Qual foi seu maior erro / falha nesse caso?)
+FUP 2. O que faria diferente. (Ex: O que você faria diferente hoje?)
+FUP 3. Obstáculo mais difícil. (Ex: Qual foi o obstaculo mais dificil de superar que voce enfrentou?)
+FUP 4. Principais riscos e mitigação. (Ex: Quais foram os principais riscos e como voce os mitigou?)
+FUP 5. Dados usados e racional de cálculo. (Ex: Que dados você usou, qual foi a racional de cálculo ?)
+FUP 6. Uso posterior do aprendizado. (Ex: Como voce usou o aprendizado desse caso em outras frentes / trabalhos?)
+
+2 - adicionar as perguntas existentes do case original (caso já não sejam cobertas pelas 6 acima)
+
+3 - adicionar perguntas novas (diferentes de todas as criadas até então) - aqui sim voce pode usar o critério que melhor entender.
+
+Importante: para todas, manter o padrão " q / a / q_en / a_en ".
