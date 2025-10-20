@@ -549,14 +549,18 @@ Q9: Conte sobre quando métricas e anedotas diferiam - como você descobriu a ve
         "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
 
 Q10: Conte sobre uma vez que você identificou um padrão de fraude ou risco que outros não viram
-   ✅ 2 case(s):
+   ✅ 3 case(s):
+      • unimed-agile-transformation-communication (score: 90)
+        "Comunicação de Progresso em Transformação Ágil com Objetivos Fluidos"
       • unimed-fraud-investigation (score: 84)
         "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
       • hsbc-data-validation-audit (score: 82)
         "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
 
 Q11: Como você sabe quando parar de analisar e começar a agir?
-   ✅ 2 case(s):
+   ✅ 3 case(s):
+      • sicredi-payment-experimentation (score: 90)
+        "Experimentação Sistemática em Plataforma de Pagamentos para Encontrar Modelo de ..."
       • sicredi-churn-analysis (score: 81)
         "Análise de Dados para Identificar os Principais Drivers de Churn no App"
       • unimed-fraud-investigation (score: 80)
@@ -1087,7 +1091,9 @@ Q10: Conte sobre uma meta desafiadora que você alcançou
         "Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de teleme..."
 
 Q11: Como você lida com situações onde entregar o resultado pode comprometer relacionamentos?
-   ✅ 6 case(s):
+   ✅ 7 case(s):
+      • unimed-99-99-uptime-standard (score: 95)
+        "Estabelecimento de Novo Padrão de Disponibilidade 99.99% Considerado Impossível ..."
       • huawei-world-cup-4g (score: 87)
         "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidad..."
       • sicredi-fraud-reduction (score: 87)
@@ -1320,7 +1326,9 @@ Q9: Como você explora novas possibilidades mesmo quando está ocupado com o dia
         "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
 
 Q10: Conte sobre quando você aplicou aprendizados de uma área completamente diferente ao seu trabalho
-   ✅ 3 case(s):
+   ✅ 4 case(s):
+      • unimed-agile-transformation-communication (score: 92)
+        "Comunicação de Progresso em Transformação Ágil com Objetivos Fluidos"
       • out-of-comfort-zone-transparency-portal (score: 87)
         "Liderei o Portal da Transparência: Fora da Zona de Conforto"
       • unimed-harvard-healthcare-innovation (score: 84)
@@ -1329,7 +1337,9 @@ Q10: Conte sobre quando você aplicou aprendizados de uma área completamente di
         "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
 
 Q11: Conte sobre um projeto que não deu certo / que você falhou
-   ✅ 1 case(s):
+   ✅ 2 case(s):
+      • sicredi-payment-experimentation (score: 92)
+        "Experimentação Sistemática em Plataforma de Pagamentos para Encontrar Modelo de ..."
       • unimed-cvc-failure-learning (score: 83)
         "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
 
@@ -1991,6 +2001,6 @@ Q13: Conte sobre quando você teve que recusar entregar algo por não atingir se
 
 Total de perguntas: 179
 Perguntas cobertas: 176 (98.3%)
-Total de mapeamentos: 687
-Média de cases por pergunta: 3.8
+Total de mapeamentos: 692
+Média de cases por pergunta: 3.9
 

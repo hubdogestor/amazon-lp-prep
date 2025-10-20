@@ -6,10 +6,11 @@ import case3 from './deliver_results_case3.js';
 import case4 from './deliver_results_case4.js';
 import case5 from './deliver_results_case5.js';
 import case6 from './deliver_results_case6.js';
+import case7 from './deliver_results_case7.js';
 
 export default {
   principle: config.principle,
   id: config.id,
   name: config.name,
-  cases: [case1, case2, case3, case4, case5, case6]
+  cases: [case1, case2, case3, case4, case5, case6, case7]
 };

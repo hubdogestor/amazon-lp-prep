@@ -39,7 +39,7 @@
 ══════════════════════════════════════════════════════════════════════
 
 Total de cases não vinculados: 5
-Total de cases nos batches 1-5: 78
-Cases vinculados: 92
-Taxa de utilização: 117.9%
+Total de cases nos batches 1-5: 81
+Cases vinculados: 95
+Taxa de utilização: 117.3%
 

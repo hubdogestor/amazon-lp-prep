@@ -1264,6 +1264,10 @@ export const questionsToCasesMapping = {
     "10": {
       "options": [
         {
+          "caseId": "unimed-agile-transformation-communication",
+          "score": 92
+        },
+        {
           "caseId": "out-of-comfort-zone-transparency-portal",
           "score": 87
         },
@@ -1279,6 +1283,10 @@ export const questionsToCasesMapping = {
     },
     "11": {
       "options": [
+        {
+          "caseId": "sicredi-payment-experimentation",
+          "score": 92
+        },
         {
           "caseId": "unimed-cvc-failure-learning",
           "score": 83
@@ -2992,6 +3000,10 @@ export const questionsToCasesMapping = {
     "10": {
       "options": [
         {
+          "caseId": "unimed-agile-transformation-communication",
+          "score": 90
+        },
+        {
           "caseId": "unimed-fraud-investigation",
           "score": 84
         },
@@ -3003,6 +3015,10 @@ export const questionsToCasesMapping = {
     },
     "11": {
       "options": [
+        {
+          "caseId": "sicredi-payment-experimentation",
+          "score": 90
+        },
         {
           "caseId": "sicredi-churn-analysis",
           "score": 81
@@ -3487,6 +3503,10 @@ export const questionsToCasesMapping = {
     },
     "11": {
       "options": [
+        {
+          "caseId": "unimed-99-99-uptime-standard",
+          "score": 95
+        },
         {
           "caseId": "huawei-world-cup-4g",
           "score": 87
