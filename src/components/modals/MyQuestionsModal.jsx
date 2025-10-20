@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { CheckCircle2, Circle } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import myQuestionsData from "../../data/myQuestions.js";
@@ -9,6 +9,18 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
   const [language, setLanguage] = useState(initialLanguage);
   const data = myQuestionsData[language];
   const [expandedCategories, setExpandedCategories] = useState({});
+
+  // ESC key listener to close modal
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        onClose();
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [onClose]);
 
   const toggleCategory = (idx) => {
     setExpandedCategories((prev) => ({

@@ -86,7 +86,7 @@ export default function Header({
           {/* Search Group */}
           <div className="flex gap-2 items-center flex-1 min-w-0">
             {/* Busca por palavras */}
-            <div className="flex-1 min-w-0 max-w-xs">
+            <div className="flex-1 min-w-0 max-w-[140px]">
               <div id="kSearch" className="relative">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-4 h-4 z-10" aria-hidden="true" />
                 <input
@@ -133,7 +133,7 @@ export default function Header({
             </div>
 
             {/* Busca por FUPs */}
-            <div className="flex-1 min-w-0 max-w-xs">
+            <div className="flex-1 min-w-0 max-w-[140px]">
               <div id="kFup" className="relative">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-4 h-4 z-10" aria-hidden="true" />
                 <input

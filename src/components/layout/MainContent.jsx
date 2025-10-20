@@ -198,12 +198,8 @@ export default function MainContent({
                           if (hasCase) {
                             navigateToMappedCase(principle.id, qIdx);
                           }
-                          // Destacar a pergunta clicada
-                          if (highlightedTypicalQuestionId === questionId) {
-                            setHighlightedTypicalQuestion(null); // Remove highlight se já estiver destacado
-                          } else {
-                            setHighlightedTypicalQuestion(questionId); // Destaca a pergunta
-                          }
+                          // Destacar a pergunta clicada permanentemente
+                          setHighlightedTypicalQuestion(questionId);
                         }}
                         onToggleUsed={(event) => {
                           event.stopPropagation();

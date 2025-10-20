@@ -7,8 +7,8 @@ export default function CaseCardHeader({
   isTop,
   isCaseUsed,
   language,
-  caseQuestions,
-  questionsTooltip,
+  caseQuestions: _caseQuestions,
+  questionsTooltip: _questionsTooltip,
   highlightCaseTerm,
   open,
   copiedCaseId,
@@ -50,14 +50,6 @@ export default function CaseCardHeader({
         {!isTop && caseData.isGoodCase && (
           <span className="px-2.5 py-0.5 bg-blue-500 text-white text-[10px] font-semibold rounded-full shadow-sm">
             {t('goodCaseLabel')}
-          </span>
-        )}
-        {caseQuestions.length > 0 && (
-          <span
-            className="px-2.5 py-0.5 bg-purple-500 text-white text-[10px] font-semibold rounded-full shadow-sm cursor-help"
-            title={questionsTooltip}
-          >
-            📝 {caseQuestions.length} {t('questionAbbreviation')}
           </span>
         )}
         <h3 className={`text-lg font-bold ${isTop ? "text-[#232F3E]" : "text-slate-900"} ${isCaseUsed ? "text-slate-500" : ""}`}>

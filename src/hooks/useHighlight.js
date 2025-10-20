@@ -22,6 +22,26 @@ export function useHighlight() {
     };
   }, []);
 
+  // Clear typical question highlight when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // Only clear if there's a highlighted typical question
+      if (highlightedTypicalQuestionId) {
+        // Check if the click was on a typical question button
+        const target = event.target;
+        const isTypicalQuestionClick = target.closest('[id^="typical-q-"]');
+        
+        // If not clicking on a typical question, clear the highlight
+        if (!isTypicalQuestionClick) {
+          setHighlightedTypicalQuestionId(null);
+        }
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, [highlightedTypicalQuestionId]);
+
   /**
    * Clear all highlights (including search term)
    */
