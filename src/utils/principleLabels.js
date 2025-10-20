@@ -79,8 +79,11 @@ export const ORDER_EN = PT_KEYS.map((key) => key);
 
 export const getDisplayName = (p, lang) => {
   const k = p?.id;
-  if (lang === "pt") return PT_LABELS[k] || p.name;
-  return EN_LABELS_FROM_PT[k] || p.name;
+  if (lang === "pt") {
+    return PT_LABELS[k] || p.name;
+  }
+  // Para 'en', a nova lógica em usePrinciplesData já define 'name' e 'name_en'
+  return p?.principle?.name_en || EN_LABELS_FROM_PT[k] || p.name;
 };
 
 export const sortPrinciples = (arr, lang) => {
