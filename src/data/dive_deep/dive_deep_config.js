@@ -3,9 +3,9 @@ const dive_deep_config = {
   principle: {
     title: "Mergulhar Fundo",
     title_en: "Dive Deep",
-    description: `Os líderes operam em todos os níveis, mantêm-se conectados aos detalhes, auditam frequentemente e são céticos quando as métricas e as evidências diferem. Nenhuma tarefa está abaixo deles.`,
-    description_en: `Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and evidences differ. No task is beneath them.`,
-    icon: ""
+    description: `Líderes operam em todos os níveis, mantendo-se conectados aos detalhes e auditando com frequência. Nenhuma tarefa está abaixo deles; eles desconfiam quando métricas e dados divergem.`,
+    description_en: `Leaders operate at all levels, staying connected to the details and auditing frequently. No task is beneath them; they are skeptical when metrics and anecdotes differ.`,
+    icon: "🤿"
   },
   id: "dive_deep"
 };

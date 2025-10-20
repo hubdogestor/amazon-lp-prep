@@ -3,8 +3,8 @@ const disagree_and_commit_config = {
   principle: {
     title: "Ser firme, discordar e se comprometer",
     title_en: "Have Backbone; Disagree and Commit",
-    description: `Os líderes têm a obrigação de discordar respeitosamente quando discordam, mesmo quando isso é desconfortável ou exaustivo. Os líderes têm convicção e são tenazes. Eles não fazem concessões para coesão social. Uma vez que uma decisão é determinada, eles se comprometem completamente.`,
-    description_en: `Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly.`,
+    description: `Líderes são obrigados a desafiar respeitosamente as decisões com as quais discordam. Uma vez que uma decisão é tomada, eles se comprometem totalmente a apoiá-la e entregar o resultado.`,
+    description_en: `Leaders are obligated to respectfully challenge decisions when they disagree. Once a decision is determined, they commit wholly to support it and deliver the outcome.`,
     icon: "💪"
   },
   id: "disagree_and_commit"

@@ -138,10 +138,10 @@ export default function MainContent({
       ) : (
         (filteredPrinciples || []).map((principle) => (
         <section key={principle.id} className="bg-white dark:bg-slate-800 rounded-xl p-4 shadow-sm border border-slate-200 dark:border-slate-700">
-          <div className="mb-6">
-            <h2 className="text-2xl font-bold mb-3 text-slate-900 dark:text-slate-100">{getDisplayName(principle, language)}</h2>
+          <div className="mb-4">
+            <h2 className="text-2xl font-bold mb-0.1 text-slate-900 dark:text-slate-100">{getDisplayName(principle, language)}</h2>
             {principle.principle && (
-              <p className="text-slate-600 dark:text-slate-300 italic leading-relaxed">
+              <p className="text-sm text-slate-600 dark:text-slate-300 italic leading-relaxed">
                 {language === "en" ? (principle.principle.description_en || principle.principle.description) : principle.principle.description}
               </p>
             )}

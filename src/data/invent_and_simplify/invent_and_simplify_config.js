@@ -3,8 +3,8 @@ const invent_simplify_config = {
   principle: {
     title: "Inventar e Simplificar",
     title_en: "Invent and Simplify",
-    description: `Os líderes esperam e exigem inovação e invenção de suas equipes e sempre encontram maneiras de simplificar. Eles estão cientes do que acontece externamente, procuram ideias em todos os lugares e não se limitam pelo 'não foi inventado aqui'. Quando fazemos coisas novas, aceitamos que podemos ser mal compreendidos por longos períodos de tempo.`,
-    description_en: `Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by 'not invented here.' When we do new things, we accept that we may be misunderstood for long periods of time.`,
+    description: `Líderes esperam e exigem inovação de suas equipes, buscando sempre simplificar. Eles estão cientes de que podem ser incompreendidos por um tempo, mas não desistem.`,
+    description_en: `Leaders expect and require innovation from their teams, always finding ways to simplify. They are externally aware and accept that they may be misunderstood for long periods of time.`,
     icon: "💡"
   },
   id: "invent_and_simplify"

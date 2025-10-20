@@ -3,8 +3,8 @@ const hire_and_develop_the_best_config = {
   principle: {
     title: "Contratar e Desenvolver os Melhores",
     title_en: "Hire and Develop the Best",
-    description: `Os líderes elevam a barra de desempenho a cada contratação e promoção. Eles reconhecem talentos excepcionais e os movem voluntariamente por toda a organização.`,
-    description_en: `Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization.`,
+    description: `Líderes reconhecem e desenvolvem talentos excepcionais, atuando como mentores. Eles se questionam: essa pessoa elevará o padrão? O que ela aprenderá e como crescerá?`,
+    description_en: `Leaders recognize and develop exceptional talent, acting as mentors. They ask themselves: will this person raise the bar? What will they learn and how will they grow?`,
     icon: "🌟"
   },
   id: "hire_and_develop_the_best"

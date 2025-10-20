@@ -3,8 +3,8 @@ const are_right_a_lot_config = {
   principle: {
     title: "Estar Certo, e muito",
     title_en: "Are Right, A Lot",
-    description: `Os líderes estão certos na maioria das vezes. Eles têm bom julgamento e bons instintos. Eles buscam perspectivas diversas e trabalham para refutar suas próprias crenças.`,
-    description_en: `Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.`,
+    description: `Líderes estão certos com frequência. Eles possuem forte julgamento e bons instintos, buscando perspectivas diversas e trabalhando para desconfirmar suas próprias crenças.`,
+    description_en: `Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their own beliefs.`,
     icon: "🎯"
   },
   id: "are_right_a_lot"
