@@ -2457,6 +2457,10 @@ export const questionsToCasesMapping = {
     "12": {
       "options": [
         {
+          "caseId": "sefaz-zero-budget-pmo",
+          "score": 100
+        },
+        {
           "caseId": "1",
           "score": 100
         }
