@@ -41,28 +41,34 @@ export default function CaseCardHeader({
         }
       }}
     >
-      <div className="flex items-start gap-3">
-        {isTop && (
-          <span className="px-3 py-1.5 bg-gradient-to-r from-[#FF9900] to-[#FF6B00] text-white text-xs font-bold rounded-full shadow-lg animate-pulse flex-shrink-0 mt-1">
-            {t('topCaseLabel')}
-          </span>
-        )}
-        {!isTop && caseData.isGoodCase && (
-          <span className="px-3 py-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs font-semibold rounded-full shadow-md flex-shrink-0 mt-1">
-            {t('goodCaseLabel')}
-          </span>
-        )}
-        <div className="flex flex-col gap-1">
-          <h3 className={`text-xl font-bold tracking-tight leading-tight ${isTop ? "text-[#232F3E] dark:text-orange-400" : "text-slate-900 dark:text-slate-100"} ${isCaseUsed ? "text-slate-500 dark:text-slate-600" : ""}`}>
+      {/* Left & Center Combined */}
+      <div className="flex flex-1 items-center gap-4">
+        {/* Gutter / Badge Container */}
+        <div className="w-36 flex-shrink-0">
+          {isTop && (
+            <span className="px-3 py-1.5 bg-gradient-to-r from-[#FF9900] to-[#FF6B00] text-white text-xs font-bold rounded-full shadow-lg animate-pulse">
+              {t('topCaseLabel')}
+            </span>
+          )}
+          {!isTop && caseData.isGoodCase && (
+            <span className="px-3 py-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs font-semibold rounded-full shadow-md">
+              {t('goodCaseLabel')}
+            </span>
+          )}
+        </div>
+
+        {/* Title & Subtitle */}
+        <div className="flex flex-col">
+          <h3 className={`text-xl font-bold tracking-tight leading-tight text-left ${isTop ? "text-[#232F3E] dark:text-orange-400" : "text-slate-900 dark:text-slate-100"} ${isCaseUsed ? "text-slate-500 dark:text-slate-600" : ""}`}>
             <HighlightableText
               text={language === "en" ? (caseData.title_en || caseData.title_pt || caseData.title) : (caseData.title_pt || caseData.title)}
               searchTerm={highlightCaseTerm}
               className={isCaseUsed ? "line-through decoration-2 decoration-slate-500" : ""}
             />
           </h3>
-          <div className={`text-sm flex items-center gap-2 ${isCaseUsed ? "text-slate-400 dark:text-slate-600" : "text-slate-600 dark:text-slate-400"}`}>
+          <div className={`text-sm flex items-center gap-2 mt-1 text-left ${isCaseUsed ? "text-slate-400 dark:text-slate-600" : "text-slate-600 dark:text-slate-400"}`}>
             {caseData.company && (
-              <span className="font-medium">
+              <span className="font-bold">
                 <HighlightableText
                   text={caseData.company}
                   searchTerm={highlightCaseTerm}
@@ -83,7 +89,9 @@ export default function CaseCardHeader({
           </div>
         </div>
       </div>
-      <div className="flex items-center gap-3">
+
+      {/* Right Column (Buttons) */}
+      <div className="flex items-center justify-end gap-3">
         <button
           type="button"
           onClick={(event) => {
