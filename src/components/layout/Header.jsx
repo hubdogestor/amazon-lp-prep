@@ -7,6 +7,43 @@ import TypicalQuestionSearchResults from "../search/TypicalQuestionSearchResults
 import HeaderTimer from "./HeaderTimer.jsx";
 import { slugify } from "../../utils/textUtils.js";
 
+const BrazilFlagIcon = () => (
+  <svg width="24" height="17" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" width="1000" height="700" fill="#009246" />
+    <polygon points="500,119 830,350 500,581 170,350" fill="#FEE100" />
+    <circle cx="500" cy="350" r="175" fill="#012169" />
+  </svg>
+);
+
+const UsaFlagIcon = () => (
+  <svg width="24" height="17" viewBox="0 0 1235 650" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#FFF" d="M0 0h1235v650H0"/>
+    <path stroke="#B22234" strokeDasharray="50" strokeWidth="2470" d="M0 0v651"/>
+    <path fill="#3C3B6E" d="M0 0h494v350H0"/>
+    <g fill="#FFF">
+      <g id="e">
+        <g id="d">
+          <g id="f">
+            <g id="c">
+              <g id="b">
+                <path id="a" d="m30 50.6 12-36 12 36-30.8-22H61"/>
+                <use href="#a" x="82"/>
+              </g>
+              <use href="#b" x="164"/>
+              <use href="#a" x="328"/>
+            </g>
+            <use href="#a" x="410"/>
+          </g>
+          <use href="#c" x="41" y="35"/>
+        </g>
+        <use href="#d" y="70"/>
+      </g>
+      <use href="#e" y="140"/>
+      <use href="#f" y="280"/>
+    </g>
+  </svg>
+);
+
 export default function Header({
   language,
   setLanguage,
@@ -47,6 +84,11 @@ export default function Header({
   setIsDarkMode,
 }) {
   const { t } = useTranslation();
+
+  const toggleLanguage = () => {
+    setLanguage(language === 'pt' ? 'en' : 'pt');
+  };
+
   return (
     <header
       id="stickyHeader"
@@ -311,42 +353,17 @@ export default function Header({
             </div>
 
             {/* Idioma */}
-            <div id="langBox" className="flex gap-1" role="group" aria-label="Language selection">
-              <button
-                className={clsx(
-                  "px-2 py-2 text-sm rounded-lg border",
-                  {
-                    "bg-slate-900 text-white dark:bg-slate-700 dark:text-slate-100": language === "pt",
-                    "bg-white text-slate-700 dark:bg-slate-800 dark:text-slate-300": language !== "pt",
-                  }
-                )}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setLanguage("pt");
-                }}
-                aria-label="Portuguese"
-                aria-pressed={language === "pt"}
-              >
-                PT
-              </button>
-              <button
-                className={clsx(
-                  "px-2 py-2 text-sm rounded-lg border",
-                  {
-                    "bg-slate-900 text-white dark:bg-slate-700 dark:text-slate-100": language === "en",
-                    "bg-white text-slate-700 dark:bg-slate-800 dark:text-slate-300": language !== "en",
-                  }
-                )}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setLanguage("en");
-                }}
-                aria-label="English"
-                aria-pressed={language === "en"}
-              >
-                EN
-              </button>
-            </div>
+            <button
+              onClick={toggleLanguage}
+              className="px-3 py-2 text-sm rounded-lg border border-slate-300 bg-white hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:hover:bg-slate-700 transition-colors flex items-center gap-2 font-medium text-slate-700 dark:text-slate-300"
+              aria-label="Toggle language"
+            >
+              {language === 'pt' ? (
+                <>PT <BrazilFlagIcon /></>
+              ) : (
+                <>EN <UsaFlagIcon /></>
+              )}
+            </button>
 
             {/* Tema */}
             <button

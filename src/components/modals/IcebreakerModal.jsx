@@ -5,6 +5,43 @@ import icebreakerData from "../../data/icebreaker.js";
 import { HighlightableText } from "../HighlightableText.jsx";
 import NarrativeModal from "./NarrativeModal.jsx";
 
+const BrazilFlagIcon = () => (
+  <svg width="24" height="17" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" width="1000" height="700" fill="#009246" />
+    <polygon points="500,119 830,350 500,581 170,350" fill="#FEE100" />
+    <circle cx="500" cy="350" r="175" fill="#012169" />
+  </svg>
+);
+
+const UsaFlagIcon = () => (
+  <svg width="24" height="17" viewBox="0 0 1235 650" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#FFF" d="M0 0h1235v650H0"/>
+    <path stroke="#B22234" strokeDasharray="50" strokeWidth="2470" d="M0 0v651"/>
+    <path fill="#3C3B6E" d="M0 0h494v350H0"/>
+    <g fill="#FFF">
+      <g id="e">
+        <g id="d">
+          <g id="f">
+            <g id="c">
+              <g id="b">
+                <path id="a" d="m30 50.6 12-36 12 36-30.8-22H61"/>
+                <use href="#a" x="82"/>
+              </g>
+              <use href="#b" x="164"/>
+              <use href="#a" x="328"/>
+            </g>
+            <use href="#a" x="410"/>
+          </g>
+          <use href="#c" x="41" y="35"/>
+        </g>
+        <use href="#d" y="70"/>
+      </g>
+      <use href="#e" y="140"/>
+      <use href="#f" y="280"/>
+    </g>
+  </svg>
+);
+
 export default function IcebreakerModal({ language: initialLanguage, onClose, usedIcebreakers = {}, onToggleUsed = () => {} }) {
   const { t } = useTranslation();
   const [language, setLanguage] = useState(initialLanguage);
@@ -233,7 +270,11 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
               className="shrink-0 bg-white/20 text-white hover:bg-white/30 rounded-lg px-4 py-2 transition font-semibold flex items-center gap-2"
               aria-label="Toggle language"
             >
-              {(/pt/i.test(language) ? 'PT 🇧🇷' : 'EN 🇺🇸')}
+              {/pt/i.test(language) ? (
+                <>PT <BrazilFlagIcon /></>
+              ) : (
+                <>EN <UsaFlagIcon /></>
+              )}
             </button>
 
             <button
@@ -432,4 +473,3 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
     </div>
   );
 }
-
