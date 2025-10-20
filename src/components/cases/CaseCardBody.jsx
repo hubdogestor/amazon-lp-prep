@@ -22,7 +22,7 @@ export default function CaseCardBody({
   return (
     <div
       id={`case-content-${caseSearchKey}`}
-      className="px-6 pb-6 pt-2 grid grid-cols-1 lg:grid-cols-2 gap-8 text-slate-700 bg-white/40 backdrop-blur-sm"
+      className="px-6 pb-6 pt-2 grid grid-cols-1 lg:grid-cols-2 gap-8 text-slate-700 dark:text-slate-200 bg-white/40 backdrop-blur-sm"
     >
       <StarSection
         caseData={caseData}

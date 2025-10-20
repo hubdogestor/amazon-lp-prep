@@ -137,11 +137,11 @@ export default function MainContent({
         </div>
       ) : (
         (filteredPrinciples || []).map((principle) => (
-        <section key={principle.id} className="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
+        <section key={principle.id} className="bg-white dark:bg-slate-800 rounded-xl p-4 shadow-sm border border-slate-200 dark:border-slate-700">
           <div className="mb-6">
-            <h2 className="text-2xl font-bold mb-3 text-slate-900">{getDisplayName(principle, language)}</h2>
+            <h2 className="text-2xl font-bold mb-3 text-slate-900 dark:text-slate-100">{getDisplayName(principle, language)}</h2>
             {principle.principle && (
-              <p className="text-slate-600 italic leading-relaxed">
+              <p className="text-slate-600 dark:text-slate-300 italic leading-relaxed">
                 {language === "en" ? (principle.principle.description_en || principle.principle.description) : principle.principle.description}
               </p>
             )}
@@ -149,7 +149,7 @@ export default function MainContent({
             {/* Perguntas Típicas - Amazon Style (azul) - Layout tipo tabela */}
             {typicalQuestions[principle.id] && (
               <div className="mt-4 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 rounded-lg p-4 shadow-sm dark:from-blue-900 dark:to-indigo-900 dark:border-blue-600">
-                <h3 className="text-sm font-bold text-[#232F3E] mb-3 uppercase tracking-wide flex items-center gap-2">
+                <h3 className="text-sm font-bold text-[#232F3E] dark:text-slate-100 mb-3 uppercase tracking-wide flex items-center gap-2">
                   💭 {language === "pt" ? "Perguntas Típicas do Entrevistador" : "Typical Interviewer Questions"}
                   <span className="text-xs font-normal text-gray-500 ml-2">
                     ({language === "pt" ? "Clique para ver o case que responde" : "Click to see the case that answers"})
