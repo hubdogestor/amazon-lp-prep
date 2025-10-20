@@ -706,8 +706,9 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
               language={i18n.language}
               typicalQuestions={typicalQuestions}
               usedQuestions={usedQuestions}
-              highlightedTypicalQuestionId={highlightedTypicalQuestionId}
-              getBestCaseOption={getBestCaseOption}
+            highlightedTypicalQuestionId={highlightedTypicalQuestionId}
+            setHighlightedTypicalQuestion={setHighlightedTypicalQuestion}
+            getBestCaseOption={getBestCaseOption}
               getDisplayCaseTitle={getDisplayCaseTitle}
               navigateToMappedCase={navigateToMappedCase}
               highlightTypicalTerm={highlightTypicalTerm}

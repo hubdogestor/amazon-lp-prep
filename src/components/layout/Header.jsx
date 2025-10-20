@@ -72,11 +72,12 @@ export default function Header({
           {/* Home Button */}
           <button
             onClick={onHomeClick}
-            className="p-3 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:hover:bg-slate-700 transition-colors flex-shrink-0"
+            className="p-3 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:hover:bg-slate-700 transition-all duration-200 hover:scale-105 active:scale-95 relative overflow-hidden"
             aria-label="Home"
             title="Voltar ao início"
           >
             <Home className="w-5 h-5 text-slate-700 dark:text-slate-300" />
+            <span className="absolute inset-0 bg-white/20 dark:bg-white/10 rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-200"></span>
           </button>
 
           {/* Busca por palavras */}

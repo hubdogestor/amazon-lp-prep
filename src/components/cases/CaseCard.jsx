@@ -49,11 +49,11 @@ export default function CaseCard({
   return (
     <article
       id={caseDomId}
-      className={`bg-gradient-to-br rounded-xl p-0 mb-6 overflow-hidden transition-all duration-300 ${
+      className={`bg-gradient-to-br rounded-xl p-0 mb-6 overflow-hidden transition-all duration-300 animate-in fade-in slide-in-from-bottom-4 ${
         isTop
-          ? "from-orange-50 to-amber-50 border-4 border-[#FF9900] shadow-lg shadow-orange-200/50 hover:shadow-xl hover:shadow-orange-300/50"
-          : "from-blue-50 to-sky-50 border-2 border-blue-300 hover:shadow-lg hover:shadow-blue-200/50 hover:border-blue-400"
-      } ${isHighlighted ? "ring-2 ring-amber-400" : ""} ${isCaseUsed ? "opacity-80" : ""}`}
+          ? "from-orange-50 to-amber-50 border-4 border-[#FF9900] shadow-lg shadow-orange-200/50 hover:shadow-xl hover:shadow-orange-300/50 dark:from-orange-900 dark:to-amber-900 dark:border-orange-600 dark:shadow-orange-900/50 dark:hover:shadow-orange-900/50"
+          : "from-blue-50 to-sky-50 border-2 border-blue-300 hover:shadow-lg hover:shadow-blue-200/50 hover:border-blue-400 dark:from-blue-900 dark:to-sky-900 dark:border-blue-600 dark:hover:shadow-blue-900/50 dark:hover:border-blue-500"
+      } ${isHighlighted ? "ring-2 ring-amber-400 dark:ring-amber-500" : ""} ${isCaseUsed ? "opacity-80" : ""}`}
       title={questionsTooltip}
     >
       <CaseCardHeader

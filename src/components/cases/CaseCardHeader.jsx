@@ -75,10 +75,10 @@ export default function CaseCardHeader({
             event.stopPropagation();
             onToggleUsedCase();
           }}
-          className={`inline-flex h-9 w-9 items-center justify-center rounded-lg border transition-all ${
+          className={`inline-flex h-9 w-9 items-center justify-center rounded-lg border transition-all duration-200 hover:scale-110 active:scale-95 ${
             isCaseUsed
-              ? "bg-green-50 border-green-300 text-green-700"
-              : "bg-white border-slate-300 text-slate-600 hover:bg-slate-50"
+              ? "bg-green-50 border-green-300 text-green-700 dark:bg-green-900 dark:border-green-600 dark:text-green-400"
+              : "bg-white border-slate-300 text-slate-600 hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-400 dark:hover:bg-slate-700"
           }`}
           title={toggleCaseTooltip}
           aria-label={toggleCaseTooltip}
@@ -92,10 +92,10 @@ export default function CaseCardHeader({
               event.stopPropagation();
               onCopyPrompt();
             }}
-            className={`flex items-center gap-2 px-3 py-1.5 text-sm rounded-lg border transition-all ${
+            className={`flex items-center gap-2 px-3 py-1.5 text-sm rounded-lg border transition-all duration-200 hover:scale-105 active:scale-95 ${
               copiedCaseId === caseSearchKey
-                ? "bg-green-50 border-green-300 text-green-700"
-                : "bg-white border-slate-300 text-slate-700 hover:bg-slate-50"
+                ? "bg-green-50 border-green-300 text-green-700 dark:bg-green-900 dark:border-green-600 dark:text-green-400"
+                : "bg-white border-slate-300 text-slate-700 hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-700"
             }`}
             title={t('copyPromptTitle')}
             aria-label={t('generateCopyPromptLabel')}

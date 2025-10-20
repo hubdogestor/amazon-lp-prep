@@ -12,6 +12,7 @@ export default function MainContent({
   typicalQuestions,
   usedQuestions,
   highlightedTypicalQuestionId,
+  setHighlightedTypicalQuestion,
   getBestCaseOption,
   getDisplayCaseTitle,
   navigateToMappedCase,
@@ -43,14 +44,35 @@ export default function MainContent({
   filterCaseFups,
   starSectionMatchesTerm,
 }) {
+  // Skeleton component for loading states
+  const SkeletonCard = () => (
+    <div className="bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-700 rounded-xl p-6 mb-6 animate-pulse border border-slate-200 dark:border-slate-600">
+      <div className="h-6 bg-gray-300 dark:bg-gray-600 rounded mb-4 w-3/4"></div>
+      <div className="space-y-3">
+        <div className="h-4 bg-gray-300 dark:bg-gray-600 rounded w-full"></div>
+        <div className="h-4 bg-gray-300 dark:bg-gray-600 rounded w-5/6"></div>
+        <div className="h-4 bg-gray-300 dark:bg-gray-600 rounded w-4/6"></div>
+      </div>
+    </div>
+  );
+
   return (
     <main className="col-span-12 xl:col-span-10 space-y-6" role="main">
       {isSearching && (
-        <div className="text-center py-4 text-slate-500" role="status" aria-live="polite">
+        <div className="text-center py-4 text-slate-500 dark:text-slate-400" role="status" aria-live="polite">
           Buscando...
         </div>
       )}
-      {(filteredPrinciples || []).map((principle) => (
+
+      {!filteredPrinciples || filteredPrinciples.length === 0 ? (
+        // Show skeletons when loading
+        <div className="space-y-6">
+          <SkeletonCard />
+          <SkeletonCard />
+          <SkeletonCard />
+        </div>
+      ) : (
+        (filteredPrinciples || []).map((principle) => (
         <section key={principle.id} className="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
           <div className="mb-6">
             <h2 className="text-2xl font-bold mb-3 text-slate-900">{getDisplayName(principle, language)}</h2>
@@ -62,7 +84,7 @@ export default function MainContent({
 
             {/* Perguntas Típicas - Amazon Style (azul) - Layout tipo tabela */}
             {typicalQuestions[principle.id] && (
-              <div className="mt-4 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 rounded-lg p-4 shadow-sm">
+              <div className="mt-4 bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 rounded-lg p-4 shadow-sm dark:from-blue-900 dark:to-indigo-900 dark:border-blue-600">
                 <h3 className="text-sm font-bold text-[#232F3E] mb-3 uppercase tracking-wide flex items-center gap-2">
                   💭 {language === "pt" ? "Perguntas Típicas do Entrevistador" : "Typical Interviewer Questions"}
                   <span className="text-xs font-normal text-gray-500 ml-2">
@@ -103,14 +125,20 @@ export default function MainContent({
                             if (hasCase) {
                               navigateToMappedCase(principle.id, qIdx);
                             }
+                            // Destacar a pergunta clicada
+                            if (highlightedTypicalQuestionId === questionId) {
+                              setHighlightedTypicalQuestion(null); // Remove highlight se já estiver destacado
+                            } else {
+                              setHighlightedTypicalQuestion(questionId); // Destaca a pergunta
+                            }
                           }}
                           disabled={!hasCase}
                           className={clsx(
                             "w-full px-3 py-2 border rounded text-xs transition-all duration-300 flex items-center justify-center text-center min-h-[60px]",
                             {
-                              "bg-white/80 border-blue-200 text-[#232F3E] hover:bg-blue-50 hover:shadow-md hover:scale-105 cursor-pointer": hasCase,
-                              "bg-gray-100 border-gray-300 text-gray-400 cursor-not-allowed": !hasCase,
-                              "bg-yellow-200 font-bold shadow-md ring-2 ring-yellow-400": isHighlighted,
+                              "bg-white/80 border-blue-200 text-[#232F3E] hover:bg-blue-50 hover:shadow-md hover:scale-105 cursor-pointer dark:bg-slate-800 dark:border-blue-600 dark:text-slate-100 dark:hover:bg-blue-900": hasCase,
+                              "bg-gray-100 border-gray-300 text-gray-400 cursor-not-allowed dark:bg-slate-700 dark:border-slate-600 dark:text-slate-500": !hasCase,
+                              "bg-yellow-200 font-bold shadow-md ring-2 ring-yellow-400 dark:bg-yellow-800 dark:ring-yellow-500": isHighlighted,
                               "opacity-80": isQuestionUsed,
                             }
                           )}
@@ -132,16 +160,15 @@ export default function MainContent({
                             toggleUsedQuestion(questionStorageId);
                           }}
                           className={clsx(
-                            "absolute -top-2 -right-2 inline-flex h-7 w-7 items-center justify-center rounded-full border text-slate-500 shadow-sm transition",
+                            "absolute -top-2 -right-2 inline-flex h-7 w-7 items-center justify-center rounded-full border text-slate-500 shadow-sm transition-all duration-200 hover:scale-110 active:scale-95",
                             {
-                              "border-green-300 bg-green-50 text-green-600": isQuestionUsed,
-                              "border-slate-200 bg-white hover:bg-slate-50": !isQuestionUsed,
+                              "border-green-300 bg-green-50 text-green-600 dark:border-green-600 dark:bg-green-900 dark:text-green-400": isQuestionUsed,
+                              "border-slate-200 bg-white hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-400": !isQuestionUsed,
                             }
                           )}
-                          title={toggleTooltip}
-                          aria-label={toggleTooltip}
-                          aria-pressed={isQuestionUsed}
+                          title={isQuestionUsed ? "Marcar como não usada" : "Marcar como usada"}
                         >
+                          <span className="sr-only">{toggleTooltip}</span>
                           {isQuestionUsed ? <CheckCircle2 className="w-4 h-4" /> : <Circle className="w-4 h-4" />}
                         </button>
                       </div>
@@ -219,7 +246,8 @@ export default function MainContent({
             );
           })}
         </section>
-      ))}
+      ))
+      )}
     </main>
   );
 }

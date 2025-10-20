@@ -17,7 +17,7 @@ export default function Sidebar({
 }) {
   const { t } = useTranslation();
   return (
-    <aside id="sidebar" className="col-span-12 xl:col-span-2" role="navigation" aria-label="Principles filter">
+    <aside id="sidebar" className="col-span-12 xl:col-span-2 sticky top-4 h-fit" role="navigation" aria-label="Principles filter">
       {/* Header "Leadership Principles" */}
       <div className="mb-3 pb-2 border-b-2 border-[#FF9900]">
         <h2 className="text-sm font-bold text-[#232F3E] uppercase tracking-wider">
@@ -25,41 +25,15 @@ export default function Sidebar({
         </h2>
       </div>
 
-      {/* Botão "Todos os Princípios" - estilo título clicável */}
-      <button
-        className={clsx(
-          "w-full mb-4 px-3 py-2.5 rounded text-base text-left font-bold uppercase tracking-wide transition-all flex items-center gap-2",
-          {
-            "bg-[#232F3E] text-white shadow-lg": selectedPrinciple === "all",
-            "bg-slate-100 text-[#232F3E] hover:bg-slate-200": selectedPrinciple !== "all",
-          }
-        )}
-        onClick={(e) => {
-          e.stopPropagation();
-          setSelectedPrinciple("all");
-          setShowTopCases(false);
-          setSearchTerm("");
-          setQuestionSearch("");
-          setTypicalQuestionSearch("");
-          clearHighlights();
-          clearExpanded();
-          onCloseMobileDrawer?.();
-        }}
-        aria-pressed={selectedPrinciple === "all"}
-      >
-        <span className="text-lg">🏠</span>
-        {t('filterAll')}
-      </button>
-
       {/* Botões dos 16 LPs - estilo Amazon com fundo */}
       {(principlesData || []).map((p) => (
         <button
           key={`side-${p.id}`}
           className={clsx(
-            "w-full mb-2 px-4 py-2.5 rounded-md text-sm text-left font-medium transition-all shadow-sm",
+            "w-full mb-2 px-4 py-2.5 rounded-md text-sm text-left font-medium transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm relative overflow-hidden",
             {
-              "bg-[#FF9900] text-white shadow-md scale-[1.02]": selectedPrinciple === p.id,
-              "bg-gradient-to-r from-white to-slate-50 border border-slate-200 text-[#232F3E] hover:border-[#FF9900] hover:shadow-md hover:scale-[1.01]": selectedPrinciple !== p.id,
+              "bg-[#FF9900] text-white shadow-md scale-[1.02] dark:bg-orange-600": selectedPrinciple === p.id,
+              "bg-gradient-to-r from-white to-slate-50 border border-slate-200 text-[#232F3E] hover:border-[#FF9900] hover:shadow-md dark:from-slate-800 dark:to-slate-700 dark:border-slate-600 dark:text-slate-100 dark:hover:border-orange-500": selectedPrinciple !== p.id,
             }
           )}
           onClick={(e) => {
@@ -75,7 +49,11 @@ export default function Sidebar({
           }}
           aria-pressed={selectedPrinciple === p.id}
         >
-          {getDisplayName(p, language)}
+          <span className="relative z-10">{getDisplayName(p, language)}</span>
+          <span className={clsx(
+            "absolute inset-0 rounded-md opacity-0 transition-opacity duration-200",
+            selectedPrinciple === p.id ? "bg-white/20" : "hover:bg-[#FF9900]/10 dark:hover:bg-orange-500/20"
+          )}></span>
         </button>
       ))}
     </aside>
