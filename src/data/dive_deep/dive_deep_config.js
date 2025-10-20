@@ -7,8 +7,7 @@ const dive_deep_config = {
     description_en: `Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and evidences differ. No task is beneath them.`,
     icon: ""
   },
-  id: "dive_deep",
-  name: "Mergulhar Fundo"
+  id: "dive_deep"
 };
 
 export default dive_deep_config;

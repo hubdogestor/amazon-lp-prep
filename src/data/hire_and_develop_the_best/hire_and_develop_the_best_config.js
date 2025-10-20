@@ -7,8 +7,7 @@ const hire_and_develop_the_best_config = {
     description_en: `Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization.`,
     icon: "🌟"
   },
-  id: "hire_and_develop_the_best",
-  name: "Contratar e Desenvolver os Melhores"
+  id: "hire_and_develop_the_best"
 };
 
 export default hire_and_develop_the_best_config;

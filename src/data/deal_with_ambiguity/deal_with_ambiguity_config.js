@@ -7,8 +7,7 @@ const deal_with_ambiguity_config = {
     description_en: `Leaders make critical decisions with incomplete information and navigate organizational ambiguity (structure changes, mergers, uncertain regulations) with confidence and clarity. They structure unprecedented problems without playbook, create structure and processes from scratch, and keep teams focused and productive in high-uncertainty environments. They decide when they have enough information to act vs when they need more data, handle frequent direction changes, communicate progress when objectives are still being defined, and balance planning with execution when the future is uncertain.`,
     icon: "🌫️"
   },
-  id: "deal_with_ambiguity",
-  name: "Lidar com Ambiguidade"
+  id: "deal_with_ambiguity"
 };
 
 export default deal_with_ambiguity_config;

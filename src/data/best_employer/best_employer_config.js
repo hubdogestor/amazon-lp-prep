@@ -7,8 +7,7 @@ const best_employer_config = {
     description_en: `Leaders work every day to create a safer, more productive, higher performing, more diverse, and more just work environment.`,
     icon: "🌟"
   },
-  id: "best_employer",
-  name: "Empenhar-se para ser a melhor empregadora do mundo"
+  id: "best_employer"
 };
 
 export default best_employer_config;

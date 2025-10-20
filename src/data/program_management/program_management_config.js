@@ -7,8 +7,7 @@ const program_management_config = {
     description_en: `Effective leaders manage complex programs involving multiple teams, critical dependencies, and diverse stakeholders. They ensure strategic alignment, proactively manage risks, and deliver measurable results even when facing uncertainty and change. They balance rigorous governance with execution agility, communicate progress transparently, and escalate problems at the right time. They measure success beyond schedule and budget, focusing on business impact and value delivered.`,
     icon: "📊"
   },
-  id: "program_management",
-  name: "Gestão de Programas"
+  id: "program_management"
 };
 
 export default program_management_config;

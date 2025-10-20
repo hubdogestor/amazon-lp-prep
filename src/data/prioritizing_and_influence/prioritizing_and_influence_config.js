@@ -7,8 +7,7 @@ const prioritizing_and_influence_config = {
     description_en: `Leaders make difficult prioritization decisions choosing between multiple critical initiatives and influence strategic decisions with data, clarity, and business impact. They know what NOT to do when everything seems urgent, balance short-term needs with long-term investments, and defend their choices transparently even under pressure. They use data to influence when stakeholders have intuition-based opinions, rapidly reprioritize resources during crises, and measure whether their decisions are generating expected impact.`,
     icon: "⚖️"
   },
-  id: "prioritizing_and_influence",
-  name: "Priorização e Influência de Decisões"
+  id: "prioritizing_and_influence"
 };
 
 export default prioritizing_and_influence_config;

@@ -7,8 +7,7 @@ const think_big_config = {
     description_en: `Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.`,
     icon: "🚀"
   },
-  id: "think_big",
-  name: "Pensar Grande"
+  id: "think_big"
 };
 
 export default think_big_config;

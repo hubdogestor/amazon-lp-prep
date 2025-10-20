@@ -7,8 +7,7 @@ const stakeholder_management_config = {
     description_en: `Leaders build and maintain effective relationships with stakeholders at all organizational levels. They influence without formal authority, proactively manage expectations, and negotiate difficult trade-offs with transparency. They identify and engage critical stakeholders, adapt their communication for different audiences (technical vs executive), and rebuild trust after setbacks. They know when to say "no" constructively, handle resistance to change, and keep stakeholders engaged in long-term programs.`,
     icon: "🤝"
   },
-  id: "stakeholder_management",
-  name: "Gestão de Stakeholders"
+  id: "stakeholder_management"
 };
 
 export default stakeholder_management_config;

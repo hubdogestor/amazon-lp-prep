@@ -7,8 +7,7 @@ const earn_trust_config = {
     description_en: `Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. They benchmark themselves and their teams against the best.`,
     icon: "🤝"
   },
-  id: "earn_trust",
-  name: "Ganhar a confiança"
+  id: "earn_trust"
 };
 
 export default earn_trust_config;

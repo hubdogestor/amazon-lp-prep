@@ -7,8 +7,7 @@ const broad_responsibility_config = {
     description_en: `Leaders are conscious that we can do amazing things together when we look beyond the boundary of our own accountability. They help others, take on broader responsibilities, and consider the impact of their decisions on the broader community.`,
     icon: "🌍"
   },
-  id: "broad_responsibility",
-  name: "Sucesso e crescimento trazem maior responsabilidade"
+  id: "broad_responsibility"
 };
 
 export default broad_responsibility_config;

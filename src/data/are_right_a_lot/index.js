@@ -9,6 +9,5 @@ import case5 from './are_right_a_lot_case5.js';
 export default {
   principle: config.principle,
   id: config.id,
-  name: config.name,
-  cases: [case1, case2, case3, case4, case5]
+  cases: [case1, case2]
 };

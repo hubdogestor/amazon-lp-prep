@@ -7,8 +7,7 @@ const are_right_a_lot_config = {
     description_en: `Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.`,
     icon: "🎯"
   },
-  id: "are_right_a_lot",
-  name: "Estar Certo, e muito"
+  id: "are_right_a_lot"
 };
 
 export default are_right_a_lot_config;

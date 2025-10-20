@@ -7,8 +7,7 @@ const bias_for_action_config = {
     description_en: `Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking.`,
     icon: ""
   },
-  id: "bias_for_action",
-  name: "Ter Iniciativa"
+  id: "bias_for_action"
 };
 
 export default bias_for_action_config;

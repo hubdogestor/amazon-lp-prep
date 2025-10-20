@@ -7,8 +7,7 @@ const customer_obsession_config = {
     description_en: `Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.`,
     icon: "❤️"
   },
-  id: "customer_obsession",
-  name: "Obsessão pelo Cliente"
+  id: "customer_obsession"
 };
 
 export default customer_obsession_config;

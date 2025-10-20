@@ -7,8 +7,7 @@ const frugality_config = {
     description_en: `Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expenses.`,
     icon: "💡"
   },
-  id: "frugality",
-  name: "Frugalidade"
+  id: "frugality"
 };
 
 export default frugality_config;

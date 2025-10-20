@@ -7,8 +7,7 @@ const invent_simplify_config = {
     description_en: `Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by 'not invented here.' When we do new things, we accept that we may be misunderstood for long periods of time.`,
     icon: "💡"
   },
-  id: "invent_and_simplify",
-  name: "Inventar e Simplificar"
+  id: "invent_and_simplify"
 };
 
 export default invent_simplify_config;

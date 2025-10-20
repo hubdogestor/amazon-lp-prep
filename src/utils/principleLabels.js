@@ -24,56 +24,56 @@ export const PT_KEYS = [
 ];
 
 export const PT_LABELS = {
-  "customer_obsession": "Obsessão pelo cliente",
+  "customer_obsession": "Obsessão pelo Cliente",
   "program_management": "Gestão de Programas",
-  "ownership": "Mentalidade de dono",
-  "dive_deep": "Mergulhar fundo",
-  "invent_and_simplify": "Inventar e simplificar",
-  "earn_trust": "Ganhar a confiança",
-  "deliver_results": "Entregar resultados",
+  "ownership": "Ownership",
+  "dive_deep": "Dive Deep",
+  "invent_and_simplify": "Inventar e Simplificar",
+  "earn_trust": "Ganhar Confiança",
+  "deliver_results": "Entregar Resultados",
   "stakeholder_management": "Gestão de Stakeholders",
-  "learn_and_be_curious": "Aprender e ser curioso",
-  "bias_for_action": "Ter iniciativa",
+  "learn_and_be_curious": "Aprender e Ser Curioso",
+  "bias_for_action": "Bias for Action",
   "prioritizing_and_influence": "Priorizar e Influenciar",
   "deal_with_ambiguity": "Lidar com Ambiguidade",
-  "disagree_and_commit": "Ser firme, discordar e se comprometer",
-  "insist_on_highest_standards": "Insistir nos mais altos padrões",
-  "are_right_a_lot": "Estar certo, e muito",
-  "think_big": "Pensar grande",
-  "hire_and_develop_the_best": "Contratar e desenvolver os melhores",
+  "disagree_and_commit": "Disagree and Commit",
+  "insist_on_highest_standards": "Insistir nos Mais Altos Padrões",
+  "are_right_a_lot": "Are Right, A Lot",
+  "think_big": "Pensar Grande",
+  "hire_and_develop_the_best": "Contratar e Desenvolver os Melhores",
   "frugality": "Frugalidade",
-  "broad_responsibility": "Sucesso e crescimento trazem maior responsabilidade",
-  "best_employer": "Empenhar-se para ser a melhor empregadora do mundo",
+  "broad_responsibility": "Success and Scale Bring Broad Responsibility",
+  "best_employer": "Strive to be Earth's Best Employer",
 };
 
 export const EN_LABELS_FROM_PT = {
-  [PT_KEYS[0]]: "Customer Obsession",
-  [PT_KEYS[1]]: "Program Management",
-  [PT_KEYS[2]]: "Ownership",
-  [PT_KEYS[3]]: "Dive Deep",
-  [PT_KEYS[4]]: "Invent and Simplify",
-  [PT_KEYS[5]]: "Earn Trust",
-  [PT_KEYS[6]]: "Deliver Results",
-  [PT_KEYS[7]]: "Stakeholder Management",
-  [PT_KEYS[8]]: "Learn and Be Curious",
-  [PT_KEYS[9]]: "Bias for Action",
-  [PT_KEYS[10]]: "Prioritizing and Influence",
-  [PT_KEYS[11]]: "Deal with Ambiguity",
-  [PT_KEYS[12]]: "Have Backbone; Disagree and Commit",
-  [PT_KEYS[13]]: "Insist on the Highest Standards",
-  [PT_KEYS[14]]: "Are Right, A Lot",
-  [PT_KEYS[15]]: "Think Big",
-  [PT_KEYS[16]]: "Hire and Develop the Best",
-  [PT_KEYS[17]]: "Frugality",
-  [PT_KEYS[18]]: "Success and Scale Bring Broad Responsibility",
-  [PT_KEYS[19]]: "Strive to be Earth's Best Employer",
+  "customer_obsession": "Customer Obsession",
+  "program_management": "Program Management",
+  "ownership": "Ownership",
+  "dive_deep": "Dive Deep",
+  "invent_and_simplify": "Invent and Simplify",
+  "earn_trust": "Earn Trust",
+  "deliver_results": "Deliver Results",
+  "stakeholder_management": "Stakeholder Management",
+  "learn_and_be_curious": "Learn and Be Curious",
+  "bias_for_action": "Bias for Action",
+  "prioritizing_and_influence": "Prioritizing and Influence",
+  "deal_with_ambiguity": "Deal with Ambiguity",
+  "disagree_and_commit": "Have Backbone; Disagree and Commit",
+  "insist_on_highest_standards": "Insist on the Highest Standards",
+  "are_right_a_lot": "Are Right, A Lot",
+  "think_big": "Think Big",
+  "hire_and_develop_the_best": "Hire and Develop the Best",
+  "frugality": "Frugality",
+  "broad_responsibility": "Success and Scale Bring Broad Responsibility",
+  "best_employer": "Strive to be Earth's Best Employer",
 };
 
 export const ORDER_PT = PT_KEYS;
 export const ORDER_EN = PT_KEYS.map((key) => key);
 
 export const getDisplayName = (p, lang) => {
-  const k = norm(p?.name);
+  const k = p?.id;
   if (lang === "pt") return PT_LABELS[k] || p.name;
   return EN_LABELS_FROM_PT[k] || p.name;
 };
