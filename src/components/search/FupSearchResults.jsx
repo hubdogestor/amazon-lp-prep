@@ -51,7 +51,9 @@ export default function FupSearchResults({
         role="option"
         tabIndex={0}
         className="px-4 py-3 hover:bg-slate-50 cursor-pointer border-b border-slate-100 last:border-0 focus:bg-slate-100 focus:outline-none"
-        onClick={() => {
+        onClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
           onSelect({ principle: p, caseData: c, followUp: f, originalIdx }, searchWords);
         }}
         onKeyDown={(event) => {

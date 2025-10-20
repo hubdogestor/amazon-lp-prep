@@ -493,10 +493,10 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
 
   // Handler para seleção de resultado de busca de FUPs
   const handleFupSearchResultSelect = useCallback((result, savedSearchWords) => {
-    const { p, c, originalIdx } = result;
-    const caseId = c.id || c.title;
+    const { principle, caseData, originalIdx } = result;
+    const caseId = caseData.id || caseData.title;
 
-    setSelectedPrinciple(p.id);
+    setSelectedPrinciple(principle.id);
     setShowTopCases(false);
     setSearchTerm("");
     setTypicalQuestionSearch("");
@@ -505,7 +505,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     setHighlightFupTerm(questionSearch);
     setQuestionSearch("");
 
-    const anchorId = `fup-${p.id}-${slugify(caseId)}-${originalIdx}`;
+    const anchorId = `fup-${principle.id}-${slugify(caseId)}-${originalIdx}`;
     scrollToElementWhenReady(anchorId, {
       highlightSetter: setHighlightedFup
     });
@@ -513,10 +513,10 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
 
   // Handler para seleção de resultado de busca de perguntas típicas
   const handleTypicalSearchResultSelect = useCallback((result, savedSearchWords) => {
-    const { p, idx } = result;
+    const { principle, idx } = result;
 
     // Navega para o case mapeado
-    navigateToMappedCase(p.id, idx, result.questionId);
+    navigateToMappedCase(principle.id, idx, result.questionId);
 
     // Limpa o estado da busca
     setTypicalQuestionSearch("");
