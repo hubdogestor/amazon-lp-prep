@@ -1,8 +1,9 @@
+import { memo } from "react";
 import CaseCardHeader from "./CaseCardHeader.jsx";
 import CaseCardBody from "./CaseCardBody.jsx";
 import { HighlightableText } from "../HighlightableText.jsx";
 
-export default function CaseCard({
+const CaseCard = memo(function CaseCard({
   caseData,
   principle,
 
@@ -193,4 +194,8 @@ export default function CaseCard({
       )}
     </article>
   );
-}
+});
+
+CaseCard.displayName = 'CaseCard';
+
+export default CaseCard;

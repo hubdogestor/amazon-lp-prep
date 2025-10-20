@@ -29,27 +29,29 @@ export default function HeaderTimer({ t }) {
   };
 
   return (
-    <div className="bg-white rounded-lg border border-slate-200 shadow-sm px-4 py-3 flex items-center justify-between">
+    <div className="bg-white rounded-lg border border-slate-200 shadow-sm px-3 py-2 flex items-center justify-between dark:bg-slate-800 dark:border-slate-600">
       <div>
-        <p className="text-sm text-slate-500">{t.timer}</p>
-        <p className={`font-mono text-2xl tracking-wider ${isTimeUp ? "text-rose-600" : isLastMinute ? "text-amber-600" : "text-slate-900"}`}>
+        <p className="text-xs text-slate-500 dark:text-slate-400">{t.timer}</p>
+        <p className={`font-mono text-lg tracking-wider ${isTimeUp ? "text-rose-600 dark:text-rose-400" : isLastMinute ? "text-amber-600 dark:text-amber-400" : "text-slate-900 dark:text-slate-100"}`}>
           {timeDisplay}
         </p>
       </div>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-1">
         <button
           type="button"
-          className="px-3 py-1 text-sm rounded-md border border-slate-300 hover:bg-slate-100"
+          className="p-1.5 text-sm rounded-md border border-slate-300 hover:bg-slate-100 dark:border-slate-600 dark:hover:bg-slate-700 transition-colors"
           onClick={() => setRunning((state) => !state)}
+          title={running ? "Pausar" : "Iniciar"}
         >
-          {running ? "Pause" : "Start"}
+          {running ? "⏸️" : "▶️"}
         </button>
         <button
           type="button"
-          className="px-3 py-1 text-sm rounded-md border border-slate-300 hover:bg-slate-100"
+          className="p-1.5 text-sm rounded-md border border-slate-300 hover:bg-slate-100 dark:border-slate-600 dark:hover:bg-slate-700 transition-colors"
           onClick={resetTimer}
+          title="Reiniciar"
         >
-          Reset
+          🔄
         </button>
       </div>
     </div>

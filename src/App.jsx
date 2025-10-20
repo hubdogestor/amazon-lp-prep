@@ -1,5 +1,6 @@
 import { useMemo, useState, useEffect, useCallback } from "react";
 import { useTranslation } from "react-i18next";
+import { lazy, Suspense } from "react";
 import typicalQuestions from "./data/typicalQuestions.js";
 import { usePrinciplesData } from "./hooks/usePrinciplesData.js";
 import { useSearch } from "./hooks/useSearch.js";
@@ -24,8 +25,8 @@ import {
 } from "./constants.js";
 import "./App.css";
 import { X } from "lucide-react";
-import IcebreakerModal from "./components/modals/IcebreakerModal.jsx";
-import MyQuestionsModal from "./components/modals/MyQuestionsModal.jsx";
+const IcebreakerModal = lazy(() => import("./components/modals/IcebreakerModal.jsx"));
+const MyQuestionsModal = lazy(() => import("./components/modals/MyQuestionsModal.jsx"));
 import { usePersistentFlagMap } from "./hooks/usePersistentFlagMap.js";
 import Header from "./components/layout/Header.jsx";
 import Sidebar from "./components/layout/Sidebar.jsx";
@@ -574,6 +575,20 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+      {/* Skip Links for Accessibility */}
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded z-50"
+      >
+        Pular para conteúdo principal
+      </a>
+      <a
+        href="#sidebar"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-48 bg-blue-600 text-white px-4 py-2 rounded z-50"
+      >
+        Pular para navegação
+      </a>
+
       {/* Cabeçalho Fixo */}
       <Header
         language={i18n.language}
@@ -617,22 +632,26 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
 
       {/* Modal Icebreaker */}
       {showIcebreaker && (
-        <IcebreakerModal
-          language={i18n.language}
-          onClose={() => setShowIcebreaker(false)}
-          usedIcebreakers={usedIcebreakers}
-          onToggleUsed={toggleUsedIcebreaker}
-        />
+        <Suspense fallback={<div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"><div className="text-white">Carregando...</div></div>}>
+          <IcebreakerModal
+            language={i18n.language}
+            onClose={() => setShowIcebreaker(false)}
+            usedIcebreakers={usedIcebreakers}
+            onToggleUsed={toggleUsedIcebreaker}
+          />
+        </Suspense>
       )}
 
       {/* Modal Minhas Perguntas */}
       {showMyQuestions && (
-        <MyQuestionsModal
-          language={i18n.language}
-          onClose={() => setShowMyQuestions(false)}
-          usedQuestions={usedQuestions}
-          onToggleQuestion={toggleUsedQuestion}
-        />
+        <Suspense fallback={<div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"><div className="text-white">Carregando...</div></div>}>
+          <MyQuestionsModal
+            language={i18n.language}
+            onClose={() => setShowMyQuestions(false)}
+            usedQuestions={usedQuestions}
+            onToggleQuestion={toggleUsedQuestion}
+          />
+        </Suspense>
       )}
 
       {/* Conteúdo - Otimizado para widescreen */}

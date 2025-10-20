@@ -17,7 +17,7 @@ export default function Sidebar({
 }) {
   const { t } = useTranslation();
   return (
-    <aside id="sidebar" className="col-span-12 xl:col-span-2 sticky top-4 h-fit" role="navigation" aria-label="Principles filter">
+    <aside id="sidebar" className="col-span-12 xl:col-span-2 sticky top-4 h-fit" role="complementary" aria-label="Principles filter">
       {/* Header "Leadership Principles" */}
       <div className="mb-3 pb-2 border-b-2 border-[#FF9900]">
         <h2 className="text-sm font-bold text-[#232F3E] uppercase tracking-wider">
@@ -30,7 +30,7 @@ export default function Sidebar({
         <button
           key={`side-${p.id}`}
           className={clsx(
-            "w-full mb-2 px-4 py-2.5 rounded-md text-sm text-left font-medium transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm relative overflow-hidden",
+            "w-full mb-2 px-4 py-2.5 rounded-md text-sm text-left font-medium transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm relative overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-slate-800",
             {
               "bg-[#FF9900] text-white shadow-md scale-[1.02] dark:bg-orange-600": selectedPrinciple === p.id,
               "bg-gradient-to-r from-white to-slate-50 border border-slate-200 text-[#232F3E] hover:border-[#FF9900] hover:shadow-md dark:from-slate-800 dark:to-slate-700 dark:border-slate-600 dark:text-slate-100 dark:hover:border-orange-500": selectedPrinciple !== p.id,

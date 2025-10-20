@@ -1,8 +1,69 @@
 import { Circle, CheckCircle2 } from "lucide-react";
 import clsx from "clsx";
+import { memo } from "react";
 import { HighlightableText } from "../HighlightableText.jsx";
 import CaseCard from "../cases/CaseCard.jsx";
 import { slugify } from "../../utils/textUtils.js";
+
+// Memoized component for typical questions
+const TypicalQuestionItem = memo(({
+  q,
+  qIdx,
+  principle,
+  isQuestionUsed,
+  isHighlighted,
+  hasCase,
+  tooltip,
+  toggleTooltip,
+  onClick,
+  onToggleUsed,
+  highlightTypicalTerm,
+  language
+}) => (
+  <div key={qIdx} className="relative">
+    <button
+      id={`typical-q-${principle.id}-${qIdx}`}
+      onClick={onClick}
+      disabled={!hasCase}
+      className={clsx(
+        "w-full px-4 py-3 border rounded-lg text-sm transition-all duration-300 flex items-center justify-center text-center min-h-[70px] font-medium focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-slate-800",
+        {
+          "bg-white/90 border-blue-200 text-[#232F3E] hover:bg-blue-50 hover:shadow-md hover:scale-105 cursor-pointer dark:bg-slate-800 dark:border-blue-600 dark:text-slate-100 dark:hover:bg-blue-900": hasCase,
+          "bg-gray-100 border-gray-300 text-gray-400 cursor-not-allowed dark:bg-slate-700 dark:border-slate-600 dark:text-slate-500": !hasCase,
+          "bg-yellow-200 font-bold shadow-md ring-2 ring-yellow-400 dark:bg-yellow-800 dark:ring-yellow-500": isHighlighted,
+          "opacity-80": isQuestionUsed,
+        }
+      )}
+      title={tooltip}
+    >
+      <span className="flex items-center gap-2">
+        {hasCase && <span className="text-green-600 font-bold text-lg">✓</span>}
+        <HighlightableText
+          text={q}
+          searchTerm={highlightTypicalTerm}
+          className={isQuestionUsed ? 'line-through decoration-slate-400 decoration-2 text-slate-500' : ''}
+        />
+      </span>
+    </button>
+    <button
+      type="button"
+      onClick={onToggleUsed}
+      className={clsx(
+        "absolute -top-2 -right-2 inline-flex h-8 w-8 items-center justify-center rounded-full border text-slate-500 shadow-sm transition-all duration-200 hover:scale-110 active:scale-95 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 dark:focus:ring-offset-slate-800",
+        {
+          "border-green-300 bg-green-50 text-green-600 dark:border-green-600 dark:bg-green-900 dark:text-green-400": isQuestionUsed,
+          "border-slate-200 bg-white hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-400": !isQuestionUsed,
+        }
+      )}
+      title={isQuestionUsed ? (language === 'pt' ? 'Remover marca de pergunta usada' : 'Unmark question as used') : (language === 'pt' ? 'Marcar pergunta como usada' : 'Mark question as used')}
+    >
+      <span className="sr-only">{toggleTooltip}</span>
+      {isQuestionUsed ? <CheckCircle2 className="w-5 h-5" /> : <Circle className="w-5 h-5" />}
+    </button>
+  </div>
+));
+
+TypicalQuestionItem.displayName = 'TypicalQuestionItem';
 
 export default function MainContent({
   isSearching,
@@ -57,7 +118,10 @@ export default function MainContent({
   );
 
   return (
-    <main className="col-span-12 xl:col-span-10 space-y-6" role="main">
+    <main id="main-content" className="col-span-12 xl:col-span-10 space-y-6" role="main">
+      {/* Hidden h1 for screen readers */}
+      <h1 className="sr-only">Amazon Leadership Principles Preparation Tool</h1>
+
       {isSearching && (
         <div className="text-center py-4 text-slate-500 dark:text-slate-400" role="status" aria-live="polite">
           Buscando...
@@ -91,7 +155,7 @@ export default function MainContent({
                     ({language === "pt" ? "Clique para ver o case que responde" : "Click to see the case that answers"})
                   </span>
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                   {(language === "en" ? typicalQuestions[principle.id].en : typicalQuestions[principle.id].pt).map((q, qIdx) => {
                     const questionId = `typical-q-${principle.id}-${qIdx}`;
                     const questionStorageId = `${principle.id}-${qIdx}`;
@@ -118,60 +182,34 @@ export default function MainContent({
                       : (language === 'pt' ? 'Marcar pergunta como usada' : 'Mark question as used');
 
                     return (
-                      <div key={qIdx} className="relative">
-                        <button
-                          id={questionId}
-                          onClick={() => {
-                            if (hasCase) {
-                              navigateToMappedCase(principle.id, qIdx);
-                            }
-                            // Destacar a pergunta clicada
-                            if (highlightedTypicalQuestionId === questionId) {
-                              setHighlightedTypicalQuestion(null); // Remove highlight se já estiver destacado
-                            } else {
-                              setHighlightedTypicalQuestion(questionId); // Destaca a pergunta
-                            }
-                          }}
-                          disabled={!hasCase}
-                          className={clsx(
-                            "w-full px-3 py-2 border rounded text-xs transition-all duration-300 flex items-center justify-center text-center min-h-[60px]",
-                            {
-                              "bg-white/80 border-blue-200 text-[#232F3E] hover:bg-blue-50 hover:shadow-md hover:scale-105 cursor-pointer dark:bg-slate-800 dark:border-blue-600 dark:text-slate-100 dark:hover:bg-blue-900": hasCase,
-                              "bg-gray-100 border-gray-300 text-gray-400 cursor-not-allowed dark:bg-slate-700 dark:border-slate-600 dark:text-slate-500": !hasCase,
-                              "bg-yellow-200 font-bold shadow-md ring-2 ring-yellow-400 dark:bg-yellow-800 dark:ring-yellow-500": isHighlighted,
-                              "opacity-80": isQuestionUsed,
-                            }
-                          )}
-                          title={tooltip}
-                        >
-                          <span className="flex items-center gap-1">
-                            {hasCase && <span className="text-green-600 font-bold">V</span>}
-                            <HighlightableText
-                              text={q}
-                              searchTerm={highlightTypicalTerm}
-                              className={isQuestionUsed ? 'line-through decoration-slate-400 decoration-2 text-slate-500' : ''}
-                            />
-                          </span>
-                        </button>
-                        <button
-                          type="button"
-                          onClick={(event) => {
-                            event.stopPropagation();
-                            toggleUsedQuestion(questionStorageId);
-                          }}
-                          className={clsx(
-                            "absolute -top-2 -right-2 inline-flex h-7 w-7 items-center justify-center rounded-full border text-slate-500 shadow-sm transition-all duration-200 hover:scale-110 active:scale-95",
-                            {
-                              "border-green-300 bg-green-50 text-green-600 dark:border-green-600 dark:bg-green-900 dark:text-green-400": isQuestionUsed,
-                              "border-slate-200 bg-white hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-400": !isQuestionUsed,
-                            }
-                          )}
-                          title={isQuestionUsed ? "Marcar como não usada" : "Marcar como usada"}
-                        >
-                          <span className="sr-only">{toggleTooltip}</span>
-                          {isQuestionUsed ? <CheckCircle2 className="w-4 h-4" /> : <Circle className="w-4 h-4" />}
-                        </button>
-                      </div>
+                      <TypicalQuestionItem
+                        key={qIdx}
+                        q={q}
+                        qIdx={qIdx}
+                        principle={principle}
+                        isQuestionUsed={isQuestionUsed}
+                        isHighlighted={isHighlighted}
+                        hasCase={hasCase}
+                        tooltip={tooltip}
+                        toggleTooltip={toggleTooltip}
+                        highlightTypicalTerm={highlightTypicalTerm}
+                        language={language}
+                        onClick={() => {
+                          if (hasCase) {
+                            navigateToMappedCase(principle.id, qIdx);
+                          }
+                          // Destacar a pergunta clicada
+                          if (highlightedTypicalQuestionId === questionId) {
+                            setHighlightedTypicalQuestion(null); // Remove highlight se já estiver destacado
+                          } else {
+                            setHighlightedTypicalQuestion(questionId); // Destaca a pergunta
+                          }
+                        }}
+                        onToggleUsed={(event) => {
+                          event.stopPropagation();
+                          toggleUsedQuestion(questionStorageId);
+                        }}
+                      />
                     );
                   })}
                 </div>
