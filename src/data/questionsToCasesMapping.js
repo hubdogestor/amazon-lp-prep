@@ -90,7 +90,7 @@ export const questionsToCasesMapping = {
     "8": { "options": [{ "caseId": "huawei-project-managers-mentoring", "score": 100 }] },
     "9": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
     "10": { "options": [{ "caseId": "unimed-underperformer-development", "score": 100 }] },
-    "11": { "options": [{ "caseId": "unimed-underperformer-development", "score": 100 }] },
+    "11": { "options": [{ "caseId": "unimed-toxic-genius-removal", "score": 100 }] },
     "12": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] }
   },
   "insist_on_highest_standards": {
