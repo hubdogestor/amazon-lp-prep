@@ -108,7 +108,11 @@ export function useCaseHelpers(principlesData, language) {
 
     const entry = Object.entries(principleMapping)
       .map(([questionIndex, data]) => ({ questionIndex: Number(questionIndex), data }))
-      .filter(({ data }) => Array.isArray(data.options) && data.options.some((option) => option.caseId === caseId));
+      .filter(({ data }) =>
+        Array.isArray(data.options) &&
+        data.options.length > 0 &&
+        data.options[0].caseId === caseId
+      );
 
     return entry.map(({ questionIndex, data }) => ({
       number: questionIndex,
