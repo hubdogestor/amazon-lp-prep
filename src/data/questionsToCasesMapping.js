@@ -568,6 +568,10 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
+          "caseId": "unimed-ai-authorization",
+          "score": 100
+        },
+        {
           "caseId": "huawei-six-sigma-optimization",
           "score": 90
         },
@@ -584,10 +588,6 @@ export const questionsToCasesMapping = {
           "score": 87
         },
         {
-          "caseId": "unimed-ai-authorization",
-          "score": 87
-        },
-        {
           "caseId": "payment-simplification-high-impact",
           "score": 87
         }
@@ -597,7 +597,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "huawei-six-sigma-optimization",
-          "score": 90
+          "score": 100
         },
         {
           "caseId": "unimed-open-innovation",
@@ -625,7 +625,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "huawei-six-sigma-optimization",
-          "score": 90
+          "score": 100
         },
         {
           "caseId": "unimed-open-innovation",
@@ -652,11 +652,11 @@ export const questionsToCasesMapping = {
     "4": {
       "options": [
         {
-          "caseId": "huawei-six-sigma-optimization",
-          "score": 90
+          "caseId": "unimed-open-innovation",
+          "score": 100
         },
         {
-          "caseId": "unimed-open-innovation",
+          "caseId": "huawei-six-sigma-optimization",
           "score": 90
         },
         {
@@ -680,15 +680,15 @@ export const questionsToCasesMapping = {
     "5": {
       "options": [
         {
+          "caseId": "sefarz-pix-reconciliation-automation",
+          "score": 100
+        },
+        {
           "caseId": "huawei-six-sigma-optimization",
           "score": 90
         },
         {
           "caseId": "unimed-open-innovation",
-          "score": 90
-        },
-        {
-          "caseId": "sefarz-pix-reconciliation-automation",
           "score": 90
         },
         {
@@ -708,6 +708,10 @@ export const questionsToCasesMapping = {
     "6": {
       "options": [
         {
+          "caseId": "payment-simplification-high-impact",
+          "score": 100
+        },
+        {
           "caseId": "unimed-open-innovation",
           "score": 90
         },
@@ -726,22 +730,18 @@ export const questionsToCasesMapping = {
         {
           "caseId": "unimed-ai-authorization",
           "score": 83
-        },
-        {
-          "caseId": "payment-simplification-high-impact",
-          "score": 83
         }
       ]
     },
     "7": {
       "options": [
         {
-          "caseId": "unimed-open-innovation",
-          "score": 90
+          "caseId": "bradesco-next-compliance-simplification",
+          "score": 100
         },
         {
-          "caseId": "bradesco-next-compliance-simplification",
-          "score": 87
+          "caseId": "unimed-open-innovation",
+          "score": 90
         },
         {
           "caseId": "unimed-ai-authorization",
@@ -764,6 +764,10 @@ export const questionsToCasesMapping = {
     "8": {
       "options": [
         {
+          "caseId": "sefarz-pix-reconciliation-automation",
+          "score": 100
+        },
+        {
           "caseId": "unimed-open-innovation",
           "score": 90
         },
@@ -778,15 +782,15 @@ export const questionsToCasesMapping = {
         {
           "caseId": "payment-simplification-high-impact",
           "score": 83
-        },
-        {
-          "caseId": "sefarz-pix-reconciliation-automation",
-          "score": 82
         }
       ]
     },
     "9": {
       "options": [
+        {
+          "caseId": "unimed-open-innovation",
+          "score": 100
+        },
         {
           "caseId": "unimed-ai-authorization",
           "score": 87
@@ -804,10 +808,6 @@ export const questionsToCasesMapping = {
           "score": 83
         },
         {
-          "caseId": "unimed-open-innovation",
-          "score": 82
-        },
-        {
           "caseId": "sefarz-pix-reconciliation-automation",
           "score": 82
         }
@@ -816,27 +816,27 @@ export const questionsToCasesMapping = {
     "10": {
       "options": [
         {
-          "caseId": "sefarz-pix-reconciliation-automation",
-          "score": 90
+          "caseId": "payment-simplification-high-impact",
+          "score": 100
         },
         {
-          "caseId": "payment-simplification-high-impact",
-          "score": 87
+          "caseId": "sefarz-pix-reconciliation-automation",
+          "score": 90
         }
       ]
     },
     "11": {
       "options": [
         {
+          "caseId": "unimed-ai-authorization",
+          "score": 100
+        },
+        {
           "caseId": "unimed-open-innovation",
           "score": 90
         },
         {
           "caseId": "bradesco-next-compliance-simplification",
-          "score": 87
-        },
-        {
-          "caseId": "unimed-ai-authorization",
           "score": 87
         },
         {
@@ -856,6 +856,10 @@ export const questionsToCasesMapping = {
     "12": {
       "options": [
         {
+          "caseId": "bradesco-next-compliance-simplification",
+          "score": 100
+        },
+        {
           "caseId": "huawei-six-sigma-optimization",
           "score": 90
         },
@@ -866,10 +870,6 @@ export const questionsToCasesMapping = {
         {
           "caseId": "sefarz-pix-reconciliation-automation",
           "score": 90
-        },
-        {
-          "caseId": "bradesco-next-compliance-simplification",
-          "score": 87
         },
         {
           "caseId": "unimed-ai-authorization",
