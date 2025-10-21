@@ -27,7 +27,7 @@ const case_1 = {
     
     a: "I first mapped the potential causes: was cashback really the lever, or were support and UX failures to blame? After testing these hypotheses, only one stood out - customers dropping off early in onboarding. I requested direct access to Redshift, wrote 47 SQL queries, and cross-referenced five datasets to rebuild a complete funnel of 2.3 million records. The data spoke clearly: 54% of cancellations occurred within the first seven days, and 40% abandoned during document upload. To validate the insights, I read 500 support tickets, reviewed app-store feedback, and personally called three former users. Each pointed to the same issue: confusing error messages and delayed verification. Armed with this, I scheduled a 1:1 with the commercial director. I walked him through the funnel, a comparative business case, and three options - cashback (BRL 400k, uncertain outcome), a new feature (BRL 650k, six months), and fixing onboarding (BRL 180k, two months, 3x ROI). The evidence was clear enough that he paused, nodded, and approved the plan. I then launched a daily war room, aligned metrics with engineering and QA (upload >95%, time <30s, false positives <2%), and built a live onboarding health dashboard with automatic alerts. Eventually, this evolved into a recurring mechanism: every new feature now required an onboarding health check before going live, preventing regressions and protecting the customer experience.",
     
-    r: "Within nine months, churn dropped from 40% to 32.8%, an 18% reduction, meaning 32,000 customers retained - BRL 5.4 million in preserved annual revenue. Onboarding completion rose 20 percentage points, active users grew 25%, and the company hit its 150% growth target without spending on cashback. The war room became a biweekly mechanism, cutting incident response times by 35%.",
+    r: "Within nine months, churn dropped from 40% to 32.8%, an 18% reduction, meaning 32,000 customers retained - BRL 5.4 million in preserved annual revenue. Onboarding completion rose 20 percentage points, active users grew 25%, and the company hit its 150% growth target without spending on cashback. The war room became a biweekly mechanism, cutting incident response times by 35.",
     
     l: "This experience changed how I approach data-driven leadership. Before this project, I believed financial incentives were the quickest route to customer retention. It taught me that real retention comes from eliminating hidden friction and understanding the moments when customers disengage. It also taught me to respectfully disagree and back decisions with data. Since then, I’ve turned my Evidence Triangulation method - combining quantitative, qualitative, and operational insights - into a habit. I’ve applied it in five subsequent cross-functional projects, saving over BRL 12.8 million. My key takeaway: great leadership means diving as deep as necessary to let data and customers guide the truth."
   },
@@ -60,38 +60,38 @@ const case_1 = {
     {
       q: "Que dados você usou e qual foi a racional de cálculo?",
       a: "Cruzei dados de base de usuários, logs do app, taxas de upload e churn cohorts. Calculei o ROI comparando o custo do onboarding (R$180k) com a receita preservada (R$5,4M) e usei análise de coorte para validar o timing do abandono.",
-      q_en: "What data did you use and what was the calculation rationale?",
-      a_en": "I cross-referenced user base data, app logs, upload rates, and churn cohorts. I calculated the ROI by comparing the onboarding cost (BRL 180k) with the preserved revenue (BRL 5.4M) and used cohort analysis to validate the timing of abandonment."
+      "q_en": "What data did you use and what was the calculation rationale?",
+      "a_en": "I cross-referenced user base data, app logs, upload rates, and churn cohorts. I calculated the ROI by comparing the onboarding cost (BRL 180k) with the preserved revenue (BRL 5.4M) and used cohort analysis to validate the timing of abandonment."
     },
     {
       q: "Qual aprendizado desse caso você aplicou em outros projetos?",
       a: "Apliquei o mesmo modelo de Triangulação de Evidências em projetos de crédito e cartões. Em ambos, medir simultaneamente dados, jornada e feedback do cliente garantiu decisões mais assertivas e economias combinadas de R$12,8M.",
-      q_en": "What learning from this case did you apply to other projects?",
-      a_en": "I applied the same Evidence Triangulation model to credit and card projects. In both, simultaneously measuring data, journey, and customer feedback ensured more assertive decisions and combined savings of BRL 12.8M."
+      "q_en": "What learning from this case did you apply to other projects?",
+      "a_en": "I applied the same Evidence Triangulation model to credit and card projects. In both, simultaneously measuring data, journey, and customer feedback ensured more assertive decisions and combined savings of BRL 12.8M."
     },
     {
       q: "Como você mediu o impacto do novo mecanismo criado?",
       a: "Defini métricas automatizadas no dashboard de onboarding - tempo médio, taxa de falhas e volume de alertas. A queda sustentada de incidentes em mais de 30% após seis meses provou a eficácia do mecanismo.",
-      q_en": "How did you measure the impact of the new mechanism created?",
-      a_en": "I defined automated metrics in the onboarding dashboard - average time, failure rate, and alert volume. The sustained drop in incidents by over 30% after six months proved the mechanism's effectiveness."
+      "q_en": "How did you measure the impact of the new mechanism created?",
+      "a_en": "I defined automated metrics in the onboarding dashboard - average time, failure rate, and alert volume. The sustained drop in incidents by over 30% after six months proved the mechanism's effectiveness."
     },
     {
       q: "Como garantiu engajamento do time durante um processo de mudança desafiador?",
       a: "Criei um war room colaborativo que concentrava engenheiros, QA e atendimento. Cada pessoa via, diariamente, o progresso em tempo real. Isso criou senso de propósito coletivo, reduzindo atrito e acelerando resultado.",
-      q_en": "How did you ensure team engagement during a challenging change process?",
-      a_en": "I created a collaborative war room that brought together engineers, QA, and support. Each person saw daily progress in real time. This created a sense of collective purpose, reducing friction and accelerating results."
+      "q_en": "How did you ensure team engagement during a challenging change process?",
+      "a_en": "I created a collaborative war room that brought together engineers, QA, and support. Each person saw daily progress in real time. This created a sense of collective purpose, reducing friction and accelerating results."
     },
     {
       q: "Houve algum momento em que você percebeu que poderia estar errado?",
       a: "Sim. Inicialmente imaginei que o problema fosse apenas técnico. Ao ouvir clientes que desistiram, percebi que a frustração era emocional - falta de clareza nas mensagens. Esse insight mudou totalmente minha abordagem.",
-      q_en": "Was there any moment when you realized you might be wrong?",
-      a_en": "Yes. Initially I thought the problem was purely technical. When listening to customers who gave up, I realized the frustration was emotional - lack of clarity in the messages. This insight completely changed my approach."
+      "q_en": "Was there any moment when you realized you might be wrong?",
+      "a_en": "Yes. Initially I thought the problem was purely technical. When listening to customers who gave up, I realized the frustration was emotional - lack of clarity in the messages. This insight completely changed my approach."
     },
     {
-      q: "De que forma esse case demonstra o princípio de 'Dive Deep'?",
+      q: "De que forma esse case demonstra o princípio de 'Dive Deep'",
       a: "Não parei na superfície dos números; investiguei as origens dos comportamentos, combinei quanti com feedback real e refinei o funil até entender exatamente onde o cliente desistia e por quê. Esse mergulho revelou a causa e guiou a solução.",
-      q_en": "How does this case demonstrate the 'Dive Deep' principle?",
-      a_en": "I didn't stop at the surface of the numbers; I investigated the origins of behaviors, combined quantitative data with real feedback, and refined the funnel until I understood exactly where customers dropped off and why. This deep dive revealed the cause and guided the solution."
+      "q_en": "How does this case demonstrate the 'Dive Deep' principle?",
+      "a_en": "I didn't stop at the surface of the numbers; I investigated the origins of behaviors, combined quantitative data with real feedback, and refined the funnel until I understood exactly where customers dropped off and why. This deep dive revealed the cause and guided the solution."
     }
   ]
 };

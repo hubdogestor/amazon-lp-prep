@@ -1,12 +1,12 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import MainContent from '../MainContent.jsx';
-import * as CaseCard from '../../cases/CaseCard.jsx';
+
+vi.mock('../../cases/CaseCard.jsx', () => ({
+  default: () => <div data-testid="case-card"></div>,
+}));
 
 describe('MainContent', () => {
-  beforeEach(() => {
-    vi.spyOn(CaseCard, 'default').mockImplementation(() => <div data-testid="case-card"></div>);
-  });
   const mockT = {
     filterAll: 'All Principles',
   };

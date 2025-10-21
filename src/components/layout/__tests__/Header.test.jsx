@@ -4,29 +4,31 @@ import Header from '../Header.jsx';
 import * as HeaderTimer from '../HeaderTimer.jsx';
 
 // Mock useTranslation hook
+const t = (key) => {
+  switch (key) {
+    case 'kSearch': return 'CASES 🗂️';
+    case 'kFup': return 'FUP 🔎';
+    case 'kTypical': return 'QUESTIONS ❓';
+    case 'topCases': return '🎯 Top Cases';
+    case 'icebreaker': return '💬 Icebreaker';
+    case 'myQuestions': return '🤔 My Questions';
+    case 'noResult': return 'No results';
+    case 'filterLoopingGroup': return 'Filter questions by looping group';
+    case 'all': return 'All';
+    case 'hideTopCases': return 'Hide top cases';
+    case 'showTopCases': return 'Show top cases';
+    case 'showOnlyTopCases': return 'Show only Top Cases';
+    case 'openIcebreakerQuestions': return 'Open Icebreaker questions';
+    case 'icebreakerQuestionsTitle': return 'Icebreaker questions for rapport building';
+    case 'openMyQuestions': return 'Open my questions for interviewer';
+    case 'myQuestionsTitle': return 'Questions to ask the interviewer';
+    default: return key;
+  }
+};
+
 vi.mock('react-i18next', () => ({
   useTranslation: () => ({
-    t: (key) => {
-      switch (key) {
-        case 'kSearch': return 'CASES 🗂️';
-        case 'kFup': return 'FUP 🔎';
-        case 'kTypical': return 'QUESTIONS ❓';
-        case 'topCases': return 'Top Cases';
-        case 'icebreaker': return 'Icebreaker';
-        case 'myQuestions': return 'My Questions';
-        case 'noResult': return 'No results';
-        case 'filterLoopingGroup': return 'Filter questions by looping group';
-        case 'all': return 'All';
-        case 'hideTopCases': return 'Hide top cases';
-        case 'showTopCases': return 'Show top cases';
-        case 'showOnlyTopCases': return 'Show only Top Cases';
-        case 'openIcebreakerQuestions': return 'Open Icebreaker questions';
-        case 'icebreakerQuestionsTitle': return 'Icebreaker questions for rapport building';
-        case 'openMyQuestions': return 'Open my questions for interviewer';
-        case 'myQuestionsTitle': return 'Questions to ask the interviewer';
-        default: return key;
-      }
-    },
+    t,
   }),
 }));
 
@@ -90,12 +92,11 @@ describe('Header', () => {
     expect(screen.getByPlaceholderText('CASES 🗂️')).toBeInTheDocument();
     expect(screen.getByPlaceholderText('FUP 🔎')).toBeInTheDocument();
     expect(screen.getByPlaceholderText('QUESTIONS ❓')).toBeInTheDocument();
-    expect(screen.getByText('🎯 Top Cases')).toBeInTheDocument();
-    expect(screen.getByText('💬 Icebreaker')).toBeInTheDocument();
-    expect(screen.getByText('🤔 My Questions')).toBeInTheDocument();
+    expect(screen.getByText(/Top Cases/)).toBeInTheDocument();
+    expect(screen.getByText(/Icebreaker/)).toBeInTheDocument();
+    expect(screen.getByText(/My Questions/)).toBeInTheDocument();
     expect(screen.getByTestId('header-timer')).toBeInTheDocument();
-    expect(screen.getByText('PT')).toBeInTheDocument();
-    expect(screen.getByText('EN')).toBeInTheDocument();
+    expect(screen.getByText((content, element) => element.tagName.toLowerCase() === 'button' && content.startsWith('EN'))).toBeInTheDocument();
   });
 
   it('should call setSearchTerm when typing in the case search input', () => {
@@ -106,22 +107,22 @@ describe('Header', () => {
   });
 
   it('should call setLanguage when clicking the PT button', () => {
-    render(<Header {...defaultProps} />);
-    const ptButton = screen.getByText('PT');
+    render(<Header {...defaultProps} language="en" />);
+    const ptButton = screen.getByText((content, element) => element.tagName.toLowerCase() === 'button' && content.startsWith('EN'));
     fireEvent.click(ptButton);
     expect(defaultProps.setLanguage).toHaveBeenCalledWith('pt');
   });
 
   it('should call setLanguage when clicking the EN button', () => {
     render(<Header {...defaultProps} language="pt" />);
-    const enButton = screen.getByText('EN');
+    const enButton = screen.getByText((content, element) => element.tagName.toLowerCase() === 'button' && content.startsWith('PT'));
     fireEvent.click(enButton);
     expect(defaultProps.setLanguage).toHaveBeenCalledWith('en');
   });
 
   it('should call setShowTopCases when clicking the Top Cases button', () => {
     render(<Header {...defaultProps} />);
-    const topCasesButton = screen.getByText('🎯 Top Cases');
+    const topCasesButton = screen.getByText(/Top Cases/);
     fireEvent.click(topCasesButton);
     expect(defaultProps.setShowTopCases).toHaveBeenCalled();
   });

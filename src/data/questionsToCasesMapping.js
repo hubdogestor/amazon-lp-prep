@@ -2933,6 +2933,10 @@ export const questionsToCasesMapping = {
     "6": {
       "options": [
         {
+          "caseId": "sicredi-payment-experimentation",
+          "score": 100
+        },
+        {
           "caseId": "sicredi-churn-analysis",
           "score": 85
         },
@@ -3029,8 +3033,12 @@ export const questionsToCasesMapping = {
     "11": {
       "options": [
         {
-          "caseId": "sicredi-payment-experimentation",
+          "caseId": "unimed-agile-transformation-communication",
           "score": 100
+        },
+        {
+          "caseId": "sicredi-payment-experimentation",
+          "score": 95
         },
         {
           "caseId": "sicredi-churn-analysis",

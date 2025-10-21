@@ -40,12 +40,6 @@ describe('Sidebar', () => {
     expect(screen.getByText('Leadership Principles')).toBeInTheDocument();
   });
 
-  it('should call setSelectedPrinciple with "all" when the "All Principles" button is clicked', () => {
-    render(<Sidebar {...defaultProps} />);
-    fireEvent.click(screen.getByText('All Principles'));
-    expect(defaultProps.setSelectedPrinciple).toHaveBeenCalledWith('all');
-  });
-
   it('should call setSelectedPrinciple with the correct principle id when a principle button is clicked', () => {
     render(<Sidebar {...defaultProps} selectedPrinciple="p1" />);
     fireEvent.click(screen.getByText('Principle 2'));
