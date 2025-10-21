@@ -1,3 +1,4 @@
+// Case 1 - best_employer
 const case_1 = {
   id: "bradesco-agile-community-creation",
   title: "Escalei a guilda de produto e promovi 18 lideres em seis meses",
@@ -8,115 +9,73 @@ const case_1 = {
   isTopCase: false,
   isGoodCase: true,
   pt: {
-    s: `"18% de rotatividade. 47% sem enxergar carreira. eNPS despencando 12 pontos em três meses. Os números piscavam vermelho no meu dashboard quando assumi o portfólio de produto no Bradesco Next como Head, fevereiro de 2017. Eu tinha acabado de liderar a migração de 65 squads para modelo remoto, mas o senso de pertencimento da minha equipe de 120 PMs estava desmoronando — e pior, eu descobri através de pesquisa que conduzi pessoalmente que quase metade não via futuro ali. A rotatividade de 18% significava perder um PM a cada cinco, incluindo talentos-chave que eu havia recrutado pessoalmente e investido meses treinando. E o campo minado de stakeholders tornava qualquer avanço impossível: marketing exigia treinamento em growth, compliance impunha trilhas regulatórias obrigatórias, TI demandava conteúdo técnico profundo — cada um bloqueando o outro, paralisando qualquer decisão que eu tentasse tomar. Se eu não virasse esse jogo em oito semanas, ia assistir meu time desmanchar e o Next perder a guerra por talentos contra Nubank e Stone."`,
-    t: "Diante do risco iminente de perder talentos-chave que eu havia recrutado pessoalmente, eu defini como minha missão redesenhar a guilda de produto em oito semanas. O desafio que eu assumi era criar uma experiência de desenvolvimento que não apenas alinhasse as expectativas conflitantes dos stakeholders, mas que também aumentasse o eNPS em 20 pontos, formasse uma linha de sucessão para posições críticas e comprovasse o ROI do investimento através da redução do churn de talentos. Eu declarei publicamente ao board que entregaria esses resultados ou assumiria a responsabilidade pelo fracasso.",
-    a: "Para transformar essa crise em oportunidade, minha primeira ação foi eu coletar pessoalmente dados de rotatividade, performance e clima para construir o 'Growth Engine', um painel que eu desenhei e que correlacionava competências com impacto no negócio. Ao apresentar os trade-offs claros aos patrocinadores, eu estabeleci que apenas conteúdos que se provassem eficazes no Growth Engine seriam aprovados - uma decisão que gerou resistência mas que eu mantive firme. Em seguida, eu co-criei com os 120 PMs o 'Career Canvas', facilitando pessoalmente 12 workshops onde eu mapeei 23 competências em quatro jornadas e eu construí seis trilhas de desenvolvimento a partir de 640 histórias reais que compilei. Para mitigar o conflito com compliance, eu envolvi um gerente jurídico no processo que eu havia desenhado, dando-lhe poder de veto apenas sobre conteúdo sensível - uma negociação que eu conduzi diretamente. Quando o gerente de compliance exigiu veto total, eu escalei ao CPO defendendo minha abordagem com dados de ROI. Finalmente, para garantir a aplicação prática, eu implementei um sistema de badges atrelado a projetos reais que eu criei, onde cada PM precisava aplicar o conhecimento em um produto ativo e apresentar os resultados para mim pessoalmente, o que gerou um ciclo virtuoso de aprendizado e visibilidade que eu acompanhava semanalmente.",
-    r: "Os resultados que eu entreguei foram transformadores e superaram todas as metas que eu havia estabelecido. Em seis meses, 94% dos PMs completaram ao menos três trilhas, o eNPS saltou de 42 para 69 (+27 pontos - superando minha meta de +20), e a rotatividade despencou de 18% para 6%, o que, segundo o CFO, evitou R$ 6,4 milhões em custos de substituição. Mais do que números, eu formei um pipeline de liderança, promovendo pessoalmente 18 PMs que eu havia mentorado e reduzindo o tempo de preenchimento de vagas sênior em 60%. O impacto chegou ao cliente final, com um aumento de 11% no NPS e R$ 12,8 milhões em receita incremental gerada por projetos guiados pelo novo modelo que eu havia criado. Durante o town hall trimestral, o CEO reconheceu publicamente: 'Leonardo transformou desenvolvimento de talentos em vantagem competitiva'.",
-    l: "A grande lição que eu aprendi foi que para ser o melhor empregador, eu preciso tratar o desenvolvimento de talentos como um produto: com foco no cliente (o colaborador), orientado por dados e com entregas de valor rápidas. Essa experiência me ensinou que um 'Growth Engine' e um 'Career Canvas' co-criados são ferramentas poderosas para alinhar desenvolvimento individual com impacto no negócio. Hoje, eu aplico esse playbook em todas as equipes que lidero, pois eu entendi que dados e autonomia só geram valor quando direcionam o crescimento do talento. Eu repliquei esse modelo na Unimed em 2024, criando a academia de compliance de pagamentos."
+    s: "Quando assumi como Head de Produto no Bradesco Next, encontrei uma equipe de 120 PMs desmotivada, com 18% de rotatividade e um eNPS em queda livre. Quase metade do time não via futuro na empresa, e stakeholders de marketing, compliance e TI paralisavam qualquer iniciativa de desenvolvimento com demandas conflitantes. Eu sabia que, para entregar valor aos nossos clientes, eu precisava primeiro transformar o ambiente de trabalho da minha equipe.",
+    t: "Minha missão era redesenhar a guilda de produto em oito semanas para transformá-la em um motor de crescimento e retenção. Eu me comprometi publicamente com o board a aumentar o eNPS em 20 pontos, criar uma linha de sucessão clara e provar o ROI do investimento. Para mim, ser o melhor empregador significava tratar o desenvolvimento de talentos como um produto, com o colaborador como cliente.",
+    a: "Minha primeira ação foi criar o 'Growth Engine', um painel que correlacionava competências com impacto no negócio, para tomar decisões de desenvolvimento baseadas em dados. Em seguida, co-criei com os 120 PMs o 'Career Canvas', mapeando competências e trilhas de carreira claras. Para resolver o conflito com compliance, negociei diretamente com o jurídico, dando-lhes poder de veto apenas sobre conteúdo sensível. Por fim, implementei um sistema de badges atrelado a projetos reais, onde cada PM precisava aplicar o conhecimento e apresentar os resultados para mim, criando um ciclo de aprendizado e visibilidade.",
+    r: "Em seis meses, o eNPS saltou de 42 para 69 (+27 pontos), superando a meta, e a rotatividade caiu de 18% para 6%, evitando R$ 6,4 milhões em custos de substituição. Promovi pessoalmente 18 PMs que mentorei, criando um pipeline de liderança que reduziu o tempo de preenchimento de vagas sênior em 60%. O impacto chegou ao cliente final, com um aumento de 11% no NPS e R$ 12,8 milhões em receita incremental gerada por projetos do novo modelo.",
+    l: "Aprendi que ser o melhor empregador é tratar o desenvolvimento de talentos como um produto: focado no colaborador, orientado por dados e com entregas de valor rápidas. Um 'Career Canvas' co-criado e um 'Growth Engine' são ferramentas poderosas para alinhar o crescimento individual com o impacto no negócio. Hoje, aplico esse playbook em todas as equipes que lidero, pois entendi que um time engajado e com clareza de futuro é o que, no fim, entrega os melhores resultados para o cliente."
   },
   en: {
-    s: "When I took over the product portfolio at Bradesco Next as Head of Product, I led the migration of 65 squads to a remote model, but the sense of belonging of my team of 120 PMs that I managed dropped 12 points and I discovered through a survey I conducted that 47% saw no clear career path, resulting in an 18% turnover rate that directly concerned me. The situation I faced was a stakeholder minefield: marketing demanded growth training, compliance imposed regulatory tracks, and IT required technical content, paralyzing any progress I tried to make.",
-    t: "Facing the imminent risk of losing key talent that I had personally recruited, I defined as my mission to redesign the product guild in eight weeks. The challenge I assumed was to create a development experience that not only aligned conflicting stakeholder expectations but also increased eNPS by 20 points, built a succession pipeline for critical positions, and proved the ROI of the investment by reducing talent churn. I publicly declared to the board that I would deliver these results or take responsibility for the failure.",
-    a: "To turn this crisis into an opportunity, my first action was for me to personally collect turnover, performance, and climate data to build the 'Growth Engine,' a dashboard that I designed that correlated competencies with business impact. By presenting clear trade-offs to the sponsors, I established that only content proven effective in the Growth Engine would be approved - a decision that generated resistance but that I maintained firmly. Next, I co-created the 'Career Canvas' with the 120 PMs, personally facilitating 12 workshops where I mapped 23 competencies into four journeys and I built six development tracks from 640 real stories that I compiled. To mitigate conflict with compliance, I involved a legal manager in the process that I had designed, giving them veto power only over sensitive content - a negotiation I conducted directly. When the compliance manager demanded total veto, I escalated to the CPO defending my approach with ROI data. Finally, to ensure practical application, I implemented a badge system tied to real projects that I created, where each PM had to apply their knowledge to an active product and present the results to me personally, creating a virtuous cycle of learning and visibility that I monitored weekly.",
-    r: "The results I delivered were transformative and exceeded all the goals I had set. In six months, 94% of PMs completed at least three tracks, the eNPS jumped from 42 to 69 (+27 points - exceeding my goal of +20), and turnover plummeted from 18% to 6%, which, according to the CFO, avoided BRL 6.4 million in replacement costs. More than just numbers, I built a leadership pipeline, personally promoting 18 PMs that I had mentored and reducing the time to fill senior positions by 60%. The impact reached the end customer, with an 11% increase in NPS and BRL 12.8 million in incremental revenue generated by projects guided by the new model I had created. During the quarterly town hall, the CEO publicly recognized: 'Leonardo transformed talent development into competitive advantage.'",
-    l: "The great lesson I learned was that to be the best employer, I must treat talent development as a product: with a focus on the customer (the employee), data-driven, and with rapid value deliveries. This experience taught me that a co-created 'Growth Engine' and 'Career Canvas' are powerful tools for aligning individual development with business impact. Today, I apply this playbook to all the teams I lead, as I understood that data and autonomy only create value when they guide talent growth. I replicated this model at Unimed in 2024, creating the payments compliance academy."
+    s: "When I took over as Head of Product at Bradesco Next, I found a demotivated team of 120 PMs with 18% turnover and a plummeting eNPS. Almost half the team saw no future in the company, and stakeholders from marketing, compliance, and IT paralyzed any development initiative with conflicting demands. I knew that to deliver value to our customers, I first had to transform my team's work environment.",
+    t: "My mission was to redesign the product guild in eight weeks to turn it into a growth and retention engine. I publicly committed to the board to increase eNPS by 20 points, create a clear succession pipeline, and prove the ROI of the investment. For me, being the best employer meant treating talent development as a product, with the employee as the customer.",
+    a: "My first action was to create the 'Growth Engine,' a dashboard that correlated competencies with business impact, to make data-driven development decisions. Then, I co-created the 'Career Canvas' with the 120 PMs, mapping competencies and clear career paths. To resolve the conflict with compliance, I negotiated directly with the legal department, giving them veto power only over sensitive content. Finally, I implemented a badge system tied to real projects, where each PM had to apply their knowledge and present the results to me, creating a cycle of learning and visibility.",
+    r: "In six months, the eNPS jumped from 42 to 69 (+27 points), exceeding the goal, and turnover plummeted from 18% to 6%, avoiding BRL 6.4 million in replacement costs. I personally promoted 18 PMs I mentored, creating a leadership pipeline that reduced the time to fill senior positions by 60%. The impact reached the end customer, with an 11% increase in NPS and BRL 12.8 million in incremental revenue generated by projects from the new model.",
+    l: "I learned that being the best employer is about treating talent development as a product: focused on the employee, data-driven, and with rapid value deliveries. A co-created 'Career Canvas' and a 'Growth Engine' are powerful tools for aligning individual growth with business impact. Today, I apply this playbook to all the teams I lead, as I understood that an engaged team with a clear future is what ultimately delivers the best results for the customer."
   },
   fups: [
     {
-      q: "Qual foi o maior erro que você cometeu na implementação da comunidade ágil?",
-      a: "Subestimei a resistência cultural dos gerentes seniores que viam a guilda como ameaça à autoridade hierárquica, resultando em sabotagem passiva nos primeiros 3 meses. Esse erro quase fez o projeto falhar, custando tempo valioso e confiança da equipe, mas me ensinou a importância de engajar líderes desde o início.",
-      "q_en": "What was the biggest mistake you made in implementing the agile community?",
-      "a_en": "I underestimated senior managers' cultural resistance who saw the guild as a threat to hierarchical authority, resulting in passive sabotage in the first 3 months. This mistake almost made the project fail, costing valuable time and team trust, but taught me the importance of engaging leaders from the start."
+      q: "Qual foi seu maior erro ou falha neste caso?",
+      a: "Meu maior erro foi subestimar a resistência cultural dos gerentes seniores, que viam a guilda como uma ameaça. Isso resultou em sabotagem passiva no início. Aprendi que, para criar um ambiente melhor, preciso engajar todas as camadas de liderança desde o primeiro dia, mostrando como a iniciativa beneficia a todos.",
+      q_en: "What was your biggest mistake or failure in this case?",
+      a_en: "My biggest mistake was underestimating the cultural resistance from senior managers, who saw the guild as a threat. This resulted in passive sabotage at the beginning. I learned that to create a better environment, I need to engage all layers of leadership from day one, showing how the initiative benefits everyone."
     },
     {
-      q: "O que você faria diferente hoje se implementasse uma comunidade ágil em uma organização tradicional?",
-      a: "Hoje começaria com diagnóstico cultural detalhado, envolveria líderes seniores como co-patrocinadores desde o primeiro dia, e criaria 'pilotos de influência' com gerentes respeitados. Também estabeleceria métricas de sucesso compartilhadas e faria comunicação frequente sobre benefícios para todos os níveis hierárquicos.",
-      "q_en": "What would you do differently today if you implemented an agile community in a traditional organization?",
-      "a_en": "Today I would start with detailed cultural diagnosis, involve senior leaders as co-sponsors from day one, and create 'influence pilots' with respected managers. I would also establish shared success metrics and communicate frequently about benefits for all hierarchical levels."
+      q: "O que você faria diferente hoje?",
+      a: "Hoje, eu começaria com um diagnóstico cultural e envolveria os líderes seniores como co-patrocinadores desde o início. Também criaria ‘pilotos de influência’ com gerentes respeitados para que eles se tornassem os evangelistas da mudança, em vez de eu ser o único a empurrar a iniciativa.",
+      q_en: "What would you do differently today?",
+      a_en: "Today, I would start with a cultural diagnosis and involve senior leaders as co-sponsors from the beginning. I would also create 'influence pilots' with respected managers so they could become the evangelists for the change, instead of me being the only one pushing the initiative."
     },
     {
-      q: "Qual foi o maior obstáculo que você enfrentou na criação da comunidade ágil?",
-      a: "A resistência cultural dos gerentes seniores que viam a guilda como competição à autoridade formal, resultando em sabotagem passiva e falta de apoio. Superei criando 'pilotos de influência' com 3 gerentes respeitados que se tornaram evangelistas, demonstrando valor através de resultados mensuráveis antes de expandir para toda a organização.",
-      "q_en": "What was the biggest obstacle you faced in creating the agile community?",
-      "a_en": "Cultural resistance from senior managers who saw the guild as competition to formal authority, resulting in passive sabotage and lack of support. I overcame it by creating 'influence pilots' with 3 respected managers who became evangelists, demonstrating value through measurable results before expanding to the entire organization."
+      q: "Qual foi o obstáculo mais difícil que você enfrentou?",
+      a: "O obstáculo mais difícil foi a resistência cultural dos gerentes que viam a guilda como uma competição à autoridade formal. Superei isso criando os ‘pilotos de influência’ com gerentes respeitados, que demonstraram o valor da colaboração horizontal através de resultados mensuráveis, antes de expandir para toda a organização.",
+      q_en: "What was the most difficult obstacle you faced?",
+      a_en: "The most difficult obstacle was the cultural resistance from managers who saw the guild as a competition to formal authority. I overcame this by creating 'influence pilots' with respected managers, who demonstrated the value of horizontal collaboration through measurable results, before expanding to the entire organization."
     },
     {
-      q: "Quais foram os principais riscos da implementação da comunidade ágil e como mitigou?",
-      a: "Riscos principais: (1) resistência cultural e sabotagem, (2) falta de engajamento dos líderes seniores, (3) conflito com estruturas hierárquicas existentes. Mitiguei com: (1) pilotos de influência e métricas claras, (2) envolvimento da diretoria como patrocinadores, (3) foco em benefícios complementares à hierarquia formal.",
-      "q_en": "What were the main risks of implementing the agile community and how did you mitigate them?",
-      "a_en": "Main risks: (1) cultural resistance and sabotage, (2) lack of senior leader engagement, (3) conflict with existing hierarchical structures. I mitigated with: (1) influence pilots and clear metrics, (2) executive involvement as sponsors, (3) focus on benefits complementary to formal hierarchy."
+      q: "Quais foram os principais riscos e como você os mitigou?",
+      a: "Os principais riscos eram a sabotagem cultural e a falta de engajamento dos líderes. Mitiguei isso com os pilotos de influência, métricas claras de sucesso e o envolvimento da diretoria como patrocinadora, focando nos benefícios que a guilda traria para a hierarquia formal, como a aceleração da execução.",
+      q_en: "What were the main risks and how did you mitigate them?",
+      a_en: "The main risks were cultural sabotage and lack of leadership engagement. I mitigated this with influence pilots, clear success metrics, and executive involvement as sponsors, focusing on the benefits the guild would bring to the formal hierarchy, such as accelerating execution."
     },
     {
-      q: "Quais dados e racional você usou para convencer a diretoria sobre a comunidade ágil?",
-      a: "Usei dados de redução de churn de 23% para 8%, economia de R$ 6,4M em custos de reposição, e aumento de 34% na produtividade medida por velocity das squads. O racional foi: comunidade ágil não substitui hierarquia, mas acelera execução através de colaboração horizontal, gerando ROI comprovado em retenção e produtividade.",
-      "q_en": "What data and rationale did you use to convince the board about the agile community?",
-      "a_en": "I used data of churn reduction from 23% to 8%, BRL 6.4M savings in replacement costs, and 34% increase in productivity measured by squad velocity. The rationale was: agile community doesn't replace hierarchy, but accelerates execution through horizontal collaboration, generating proven ROI in retention and productivity."
+      q: "Que dados você usou e qual foi a racional de cálculo?",
+      a: "Usei a redução do churn de 18% para 6%, o que representou uma economia de R$ 6,4M em custos de reposição. O racional foi que a guilda, ao criar um ambiente de crescimento, não era um custo, mas um investimento com ROI comprovado em retenção, produtividade e, finalmente, na satisfação do cliente final.",
+      q_en: "What data did you use and what was the calculation rationale?",
+      a_en: "I used the churn reduction from 18% to 6%, which represented a BRL 6.4M saving in replacement costs. The rationale was that the guild, by creating a growth environment, was not a cost but an investment with a proven ROI in retention, productivity, and ultimately, end-customer satisfaction."
     },
     {
-      q: "Como você aplicou o aprendizado da comunidade ágil em projetos futuros?",
-      a: "Apliquei o framework 'Growth Engine' na criação da academia de compliance de pagamentos na Unimed em 2024, resultando em 40% redução no tempo de onboarding e melhoria de 28% nos índices de conformidade. Também criei 'pilotos de influência' como padrão para adoção de novas práticas culturais.",
-      "q_en": "How did you apply the learning from the agile community in future projects?",
-      "a_en": "I applied the 'Growth Engine' framework in creating the payments compliance academy at Unimed in 2024, resulting in 40% reduction in onboarding time and 28% improvement in compliance indexes. I also created 'influence pilots' as standard for adopting new cultural practices."
+      q: "Como você usou o aprendizado desse caso em outras frentes?",
+      a: "Apliquei o framework 'Growth Engine' na criação da academia de compliance de pagamentos na Unimed em 2024, o que resultou em uma redução de 40% no tempo de onboarding. A lição de tratar o desenvolvimento como um produto se tornou um pilar da minha filosofia de liderança.",
+      q_en: "How did you use the learning from this case in other areas?",
+      a_en: "I applied the 'Growth Engine' framework to create the payments compliance academy at Unimed in 2024, which resulted in a 40% reduction in onboarding time. The lesson of treating development as a product has become a pillar of my leadership philosophy."
     },
     {
-      q: "Como voce calculou os R$ 6,4M de economia?",
-      a: "Somei custo de reposicao, recrutamento e perda de produtividade versus o churn historico antes da guilda.",
-      "q_en": "How did you compute the BRL 6.4M savings?",
-      "a_en": "I summed replacement, recruiting, and productivity loss against historical churn before the guild."
+      q: "Como você equilibra a felicidade da equipe com metas de negócio exigentes?",
+      a: "Eu não vejo como um equilíbrio, mas como uma relação de causa e efeito. Uma equipe feliz e engajada, com clareza de propósito e oportunidades de crescimento, é uma equipe de alta performance. O 'Growth Engine' provou isso: o aumento de 27 pontos no eNPS veio junto com um aumento de 11% no NPS do cliente e R$ 12,8M em receita incremental.",
+      q_en: "How do you balance team happiness with demanding business goals?",
+      a_en: "I don't see it as a balance, but as a cause-and-effect relationship. A happy and engaged team, with clarity of purpose and growth opportunities, is a high-performing team. The 'Growth Engine' proved this: the 27-point increase in eNPS came along with an 11% increase in customer NPS and BRL 12.8 million in incremental revenue."
     },
     {
-      q: "Que dados abasteceram o Growth Engine?",
-      a: "Clima, avaliacao de performance, NPS de cliente, churn de produto e custos de treinamento.",
-      "q_en": "Which data fed the Growth Engine?",
-      "a_en": "Engagement, performance reviews, customer NPS, product churn, and training costs."
+      q: "Como o 'Career Canvas' funciona na prática?",
+      a: "É um mapa visual que co-criamos com os 120 PMs. Ele define 23 competências em 4 jornadas (technical, execution, influence, strategy) e mostra, para cada nível de senioridade, quais são os comportamentos esperados. Isso dá ao colaborador uma clareza total sobre o que ele precisa desenvolver para crescer, eliminando a subjetividade das avaliações.",
+      q_en: "How does the 'Career Canvas' work in practice?",
+      a_en: "It's a visual map that we co-created with the 120 PMs. It defines 23 competencies across 4 journeys (technical, execution, influence, strategy) and shows, for each seniority level, what the expected behaviors are. This gives the employee total clarity on what they need to develop to grow, eliminating the subjectivity of evaluations."
     },
     {
-      q: "Como voce escolheu os multiplicadores?",
-      a: "Analisei engajamento, feedback 360 e resultados de produto para eleger 18 PMs.",
-      "q_en": "How did you select the multipliers?",
-      "a_en": "I looked at engagement, 360 feedback, and product outcomes to pick eighteen PMs."
-    },
-    {
-      q: "Como garantiu adesao do marketing?",
-      a: "Inclui dois modulos de growth com estudos de caso reais e convidei o CMO para abrir a trilha.",
-      "q_en": "How did you secure marketing buy-in?",
-      "a_en": "I added two growth modules with live case studies and had the CMO kick off the track."
-    },
-    {
-      q: "Qual foi o maior conflito com compliance?",
-      a: "Eles queriam aprovar todo conteudo; restringi o veto a temas regulados e dei visibilidade ao restante.",
-      "q_en": "What was the biggest compliance conflict?",
-      "a_en": "They wanted to approve every module; I limited veto power to regulated topics and made the rest visible."
-    },
-    {
-      q: "O que o Career Canvas mede?",
-      a: "Nove competencias tecnicas, sete humanas, quatro de negocio e tres de lideranca com niveis de senioridade.",
-      "q_en": "What does the Career Canvas measure?",
-      "a_en": "Nine technical, seven human, four business, and three leadership competencies with seniority levels."
-    },
-    {
-      q: "Como voce acompanhou promocao e sucessao?",
-      a: "Criei pipeline trimestral por senioridade e discutia com o RH os candidatos prontos em 90 dias.",
-      "q_en": "How did you track promotion and succession?",
-      "a_en": "I ran a quarterly pipeline by seniority and met HR to review candidates ready within ninety days."
-    },
-    {
-      q: "Qual foi o indicador de ROI?",
-      a: "Comparei churn projetado sem a guilda versus churn real, multiplicado pelo custo total de substituicao.",
-      "q_en": "What ROI metric did you use?",
-      "a_en": "Projected churn without the guild versus actual churn, multiplied by total replacement cost."
-    },
-    {
-      q: "Como voce deu visibilidade aos resultados?",
-      a: "Publiquei placar quinzenal com badges, promocoes e cases, compartilhado com diretoria.",
-      "q_en": "How did you give visibility to results?",
-      "a_en": "I issued a biweekly scoreboard with badges, promotions, and case studies shared with executives."
-    },
-    {
-      q: "Como reaplicou o modelo depois?",
-      a: "Usei o Growth Engine para criar a academia de compliance de pagamentos na Unimed em 2024.",
-      "q_en": "How did you reuse the model later?",
-      "a_en": "I reused the Growth Engine to build the payments compliance academy at Unimed in 2024."
+      q: "Como você garante que o desenvolvimento de talentos não seja apenas teórico?",
+      a: "Através do sistema de badges. Para ganhar um badge em uma competência, o PM precisava aplicar o conhecimento em um projeto real e apresentar os resultados para mim e para a guilda. Isso garantia que o aprendizado fosse imediatamente aplicado para gerar valor para o cliente, criando um ciclo virtuoso.",
+      q_en: "How do you ensure that talent development is not just theoretical?",
+      a_en: "Through the badge system. To earn a badge in a competency, the PM had to apply the knowledge in a real project and present the results to me and the guild. This ensured that the learning was immediately applied to generate value for the customer, creating a virtuous cycle."
     }
   ]
 };
