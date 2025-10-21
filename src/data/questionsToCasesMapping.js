@@ -1,6 +1,6 @@
 // src/data/questionsToCasesMapping.js
 // NOTICE: This file was regenerated to merge new mappings for 6 LPs
-// with the existing data, correcting a previous structural error.
+// with the existing data, correcting a previous structural and logical error.
 
 export const questionsToCasesMapping = {
   "customer_obsession": {
@@ -233,9 +233,9 @@ export const questionsToCasesMapping = {
     "5": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
     "6": { "options": [{ "caseId": "sefaz-reverse-mentoring-program", "score": 100 }] },
     "7": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
-    "8": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
+    "8": { "options": [{ "caseId": "sicredi-360-feedback-system", "score": 100 }] },
     "9": { "options": [] },
-    "10": { "options": [{ "caseId": "hsbc-zero-defects-best-employer", "score": 100 }] }
+    "10": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] }
   },
   "program_management": {
     "1": { "options": [{ "caseId": "sefaz-profisco-ii-program", "score": 100 }] },
