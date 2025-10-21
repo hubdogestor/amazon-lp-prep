@@ -88,6 +88,10 @@ export const questionsToCasesMapping = {
     "4": {
       "options": [
         {
+          "caseId": "unimed-pet-anticipation",
+          "score": 100
+        },
+        {
           "caseId": "unimed-cancer-patient-journey",
           "score": 92
         },
@@ -97,10 +101,6 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "sicredi-small-business-survival",
-          "score": 87
-        },
-        {
-          "caseId": "unimed-pet-anticipation",
           "score": 87
         },
         {
