@@ -3737,12 +3737,12 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
-          "caseId": "sefaz-pmo-creation",
-          "score": 90
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 100
         },
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 88
+          "caseId": "sefaz-pmo-creation",
+          "score": 90
         },
         {
           "caseId": "hsbc-migration-leadership",
@@ -3753,12 +3753,12 @@ export const questionsToCasesMapping = {
     "2": {
       "options": [
         {
-          "caseId": "sefaz-pmo-creation",
-          "score": 90
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 100
         },
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 88
+          "caseId": "sefaz-pmo-creation",
+          "score": 90
         },
         {
           "caseId": "hsbc-migration-leadership",
@@ -3813,6 +3813,10 @@ export const questionsToCasesMapping = {
     "5": {
       "options": [
         {
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 100
+        },
+        {
           "caseId": "sicredi-woop-delay-communication",
           "score": 91
         },
@@ -3822,10 +3826,6 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "sefaz-pmo-creation",
-          "score": 82
-        },
-        {
-          "caseId": "sefaz-profisco-ii-program",
           "score": 82
         }
       ]
@@ -3857,12 +3857,12 @@ export const questionsToCasesMapping = {
     "8": {
       "options": [
         {
-          "caseId": "sefaz-pmo-creation",
-          "score": 90
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 100
         },
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 88
+          "caseId": "sefaz-pmo-creation",
+          "score": 90
         },
         {
           "caseId": "hsbc-migration-leadership",
@@ -3872,6 +3872,10 @@ export const questionsToCasesMapping = {
     },
     "9": {
       "options": [
+        {
+          "caseId": "sicredi-woop-delay-communication",
+          "score": 100
+        },
         {
           "caseId": "sefaz-pmo-creation",
           "score": 90
@@ -3889,12 +3893,12 @@ export const questionsToCasesMapping = {
     "10": {
       "options": [
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 88
+          "caseId": "sefaz-pmo-creation",
+          "score": 100
         },
         {
-          "caseId": "sefaz-pmo-creation",
-          "score": 86
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 88
         },
         {
           "caseId": "hsbc-migration-leadership",
@@ -3925,12 +3929,12 @@ export const questionsToCasesMapping = {
     "12": {
       "options": [
         {
-          "caseId": "sefaz-profisco-ii-program",
-          "score": 88
+          "caseId": "hsbc-migration-leadership",
+          "score": 100
         },
         {
-          "caseId": "hsbc-migration-leadership",
-          "score": 87
+          "caseId": "sefaz-profisco-ii-program",
+          "score": 88
         },
         {
           "caseId": "sefaz-pmo-creation",
