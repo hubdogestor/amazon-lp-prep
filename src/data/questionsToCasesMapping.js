@@ -60,6 +60,10 @@ export const questionsToCasesMapping = {
     "3": {
       "options": [
         {
+          "caseId": "sicredi-fraud-prevention-experience",
+          "score": 99.9
+        },
+        {
           "caseId": "unimed-cancer-patient-journey",
           "score": 88
         },
@@ -73,10 +77,6 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "sicredi-small-business-survival",
-          "score": 83
-        },
-        {
-          "caseId": "sicredi-fraud-prevention-experience",
           "score": 83
         },
         {
@@ -2458,7 +2458,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sefaz-zero-budget-pmo",
-          "score": 100
+          "score": 99.9
         },
         {
           "caseId": "1",

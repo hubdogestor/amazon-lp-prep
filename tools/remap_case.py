@@ -98,7 +98,7 @@ def main():
             print(f"Aviso: Pergunta '{question_number}' não encontrada para o LP '{lp_name}'. Uma nova entrada será criada.")
             data[lp_name][question_number] = {"options": []}
 
-        new_option = {"caseId": selected_case_id, "score": 100}
+        new_option = {"caseId": selected_case_id, "score": 99.9}
         
         options = data[lp_name][question_number].get("options", [])
         # Remove qualquer mapeamento anterior com o mesmo caseId para evitar duplicatas
