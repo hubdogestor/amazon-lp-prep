@@ -5,7 +5,7 @@ const case_4 = {
   title_en: "Influenced Secretaries to Adopt Integrated Management Framework for Profisco II Without Formal Authority",
   company: "Secretaria da Fazenda do RS",
   period: "07/2024 - 04/2025",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: false,
   pt: {
     s: "Em julho de 2024, como Advisor na SEFAZ RS, entrei para apoiar o Profisco II, um programa de US$ 60 milhões do BID para modernização fiscal, incluindo atualizações no Plano Anual de Fiscalização e transparência em acordos de resultados. O cenário era fragmentado: 190 projetos e 433 metas em silos, com desvios de 23% e ineficiências de R$ 8 milhões anuais, conforme relatórios de dívida e balanços gerais. Sem autoridade formal sobre os secretários ou o BID, identifiquei a necessidade de um framework integrado ligando PMO, projetos, cadeia de valor e BAU para alinhar com o Mapa Estratégico 2024-2027.",

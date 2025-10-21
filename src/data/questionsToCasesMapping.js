@@ -4353,6 +4353,10 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
+          "caseId": "stakeholder-management-case-4",
+          "score": 100
+        },
+        {
           "caseId": "unimed-vendor-termination-trust",
           "score": 91
         },
@@ -4369,6 +4373,10 @@ export const questionsToCasesMapping = {
     "2": {
       "options": [
         {
+          "caseId": "huawei-4g-copa-2014-stakeholder",
+          "score": 100
+        },
+        {
           "caseId": "unimed-vendor-termination-trust",
           "score": 87
         }
@@ -4377,11 +4385,11 @@ export const questionsToCasesMapping = {
     "3": {
       "options": [
         {
-          "caseId": "unimed-vendor-termination-trust",
-          "score": 87
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 100
         },
         {
-          "caseId": "sicredi-woop-stakeholder-management",
+          "caseId": "unimed-vendor-termination-trust",
           "score": 87
         },
         {
@@ -4397,16 +4405,16 @@ export const questionsToCasesMapping = {
     "4": {
       "options": [
         {
+          "caseId": "huawei-4g-copa-2014-stakeholder",
+          "score": 100
+        },
+        {
           "caseId": "unimed-vendor-termination-trust",
           "score": 87
         },
         {
           "caseId": "sicredi-woop-stakeholder-management",
           "score": 87
-        },
-        {
-          "caseId": "huawei-4g-copa-2014-stakeholder",
-          "score": 82
         }
       ]
     },
@@ -4414,7 +4422,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 91
+          "score": 100
         },
         {
           "caseId": "huawei-global-rollout",
@@ -4424,6 +4432,10 @@ export const questionsToCasesMapping = {
     },
     "6": {
       "options": [
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 100
+        },
         {
           "caseId": "sicredi-woop-stakeholder-management",
           "score": 87
@@ -4435,10 +4447,6 @@ export const questionsToCasesMapping = {
         {
           "caseId": "unimed-vendor-termination-trust",
           "score": 83
-        },
-        {
-          "caseId": "huawei-global-rollout",
-          "score": 81
         }
       ]
     },
@@ -4446,12 +4454,16 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-vendor-termination-trust",
-          "score": 91
+          "score": 100
         }
       ]
     },
     "8": {
       "options": [
+        {
+          "caseId": "stakeholder-management-case-4",
+          "score": 100
+        },
         {
           "caseId": "unimed-vendor-termination-trust",
           "score": 87
@@ -4465,6 +4477,10 @@ export const questionsToCasesMapping = {
     "9": {
       "options": [
         {
+          "caseId": "stakeholder-management-case-2",
+          "score": 100
+        },
+        {
           "caseId": "unimed-vendor-termination-trust",
           "score": 83
         },
@@ -4476,6 +4492,10 @@ export const questionsToCasesMapping = {
     },
     "10": {
       "options": [
+        {
+          "caseId": "huawei-global-rollout",
+          "score": 100
+        },
         {
           "caseId": "stakeholder-management-case-2",
           "score": 83
@@ -4493,6 +4513,10 @@ export const questionsToCasesMapping = {
     "11": {
       "options": [
         {
+          "caseId": "stakeholder-management-case-2",
+          "score": 100
+        },
+        {
           "caseId": "unimed-vendor-termination-trust",
           "score": 87
         },
@@ -4505,12 +4529,12 @@ export const questionsToCasesMapping = {
     "12": {
       "options": [
         {
-          "caseId": "unimed-vendor-termination-trust",
-          "score": 91
+          "caseId": "sicredi-woop-stakeholder-management",
+          "score": 100
         },
         {
-          "caseId": "sicredi-woop-stakeholder-management",
-          "score": 87
+          "caseId": "unimed-vendor-termination-trust",
+          "score": 91
         },
         {
           "caseId": "huawei-global-rollout",
