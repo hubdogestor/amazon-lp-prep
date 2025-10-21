@@ -6,8 +6,8 @@ const case_7 = {
   title_en: "Authorized Critical System Rollback at 6pm Friday Without Manager Approval and Saved 23k Companies",
   company: "SEFAZ/RS",
   period: "09/2024",
-  isTopCase: false,
-  isGoodCase: true,
+  isTopCase: true,
+  isGoodCase: false,
   pt: {
     s: "Sexta-feira, 27 de setembro de 2024, 18h05. Eu era Advisor de Infraestrutura e Confiabilidade na SEFAZ/RS, responsável por acompanhar criticamente a disponibilidade dos sistemas fiscais que sustentam a arrecadação estadual. Encerrava o dia quando o NOC disparou um alerta crítico: 'NFCE down. Zero notas emitidas desde 17h30.' Em segundos percebi a gravidade -- o sistema de nota fiscal do consumidor, usado por 23.400 empresas, havia parado completamente. Supermercados, postos e restaurantes não conseguiam vender. Diagnosticamos a causa rapidamente: patch de segurança incompatível com a versão de Java do core fiscal. A ação correta era clara -- rollback imediato --, mas a norma exigia autorização formal do Diretor de TI. Meu gestor estava em um evento, com o telefone desligado. Eu tinha duas opções: seguir o processo e permitir que milhares de empresas ficassem paradas até segunda-feira ou agir sem aprovação formal, assumindo o risco pessoal para proteger a continuidade do serviço.",
     t: "Meu mandato formal cobria a orientação técnica e governança de infraestrutura, mas meu histórico em arquitetura distribuída e recuperação de sistemas críticos me tornava a pessoa mais preparada para decidir sob pressão. Cada hora sem emissão fiscal representava mais de R$ 340 mil em perdas coletivas e risco de exposição pública. Eu precisava equilibrar respeito à hierarquia com o dever de evitar colapso operacional. Percebi que não agir seria mais arriscado do que qualquer consequência pessoal.",

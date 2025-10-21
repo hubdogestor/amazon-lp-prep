@@ -5,7 +5,7 @@ const case_5 = {
   title_en: "Turned Recurring Payment Incidents into a Reliability Mechanism",
   company: "SEFAZ/RS",
   period: "08/2024-11/2024",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: false,
   pt: {
     s: "Agosto de 2024. O grito do diretor de Arrecadação -- 'de novo não!' -- ecoou quando o sistema de pagamentos travou pela terceira vez em seis semanas. Eu era advisor sênior de estratégia e processos da SEFAZ/RS, responsável por apoiar a confiabilidade operacional e o fluxo de arrecadação estadual. Detectei um padrão recorrente e perigoso: timeouts de gateway, divergências de status e falhas de liquidação se repetiam ciclicamente. R$ 18 milhões de arrecadação diária ficaram bloqueados; 4.500 chamados de contribuintes foram abertos em 24 horas e o NPS despencou de 63 para 41. Comunicação, TI, Arrecadação e bancos parceiros atuavam isoladamente -- cada um apagando seu incêndio. Ninguém possuía dono do ciclo completo, e decidi que esse dono seria eu.",

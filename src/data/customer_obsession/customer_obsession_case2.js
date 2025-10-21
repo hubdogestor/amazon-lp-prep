@@ -6,7 +6,7 @@ const case_2 = {
   title_en: "Anticipated elderly digital exclusion and created journey that restored dignity",
   company: "Bradesco",
   period: "08/2018-06/2019",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: false,
   pt: {
     s: "Era agosto de 2018, eu atuava como Head de Produto Digital no Bradesco -- responsável por estratégia, jornada de experiência e performance de mais de 9 milhões de usuários. Em uma visita à agência da Paulista, vi Dona Maria, 73 anos, chorando na fila: 'Eu não consigo mais ir ao banco, mas também não consigo usar o aplicativo.' Ela tinha artrite, dificuldade de ler letras pequenas e medo de 'quebrar' o celular. Aquela cena me fez entender que, enquanto acelerávamos a digitalização, estávamos empurrando uma geração inteira para fora do sistema financeiro. Em dois anos, o banco havia fechado 400 agências e reduzido atendimento presencial, mas esquecemos de olhar para os 2,3 milhões de clientes acima de 65 anos, que sofriam em silêncio. A exclusão não era visível em métricas -- era humana. Eu precisava devolver autonomia a quem estava perdendo dignidade.",

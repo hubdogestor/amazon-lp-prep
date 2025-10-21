@@ -1,3 +1,4 @@
+import { caseIdToVarName } from "../../data/caseIdToVarName.js";
 import { Circle, CheckCircle2 } from "lucide-react";
 import clsx from "clsx";
 import { memo } from "react";
@@ -171,9 +172,11 @@ export default function MainContent({
                       if (!hasCase) {
                         return language === "pt" ? "Sem case mapeado" : "No case mapped";
                       }
-                      const actionLabel = language === "pt" ? "Clique para ver o case" : "Click to see case";
+                      const caseId = bestOption.caseData.id;
+                      const varName = caseIdToVarName[caseId] || "case";
+                      const actionLabel = language === "pt" ? "Clique para ver:" : "Click to see:";
                       if (mappedCaseTitle) {
-                        return `${actionLabel} (${mappedCaseTitle} - score: ${caseScore})`;
+                        return `${actionLabel}\n${varName} - ${mappedCaseTitle} (score: ${caseScore})`;
                       }
                       return `${actionLabel} (score: ${caseScore})`;
                     })();
