@@ -1,6 +1,6 @@
 // src/data/questionsToCasesMapping.js
 // NOTICE: This file was regenerated to merge new mappings for 6 LPs
-// with the existing data, correcting a previous overwrite error.
+// with the existing data, correcting a previous structural error.
 
 export const questionsToCasesMapping = {
   "customer_obsession": {
@@ -49,19 +49,19 @@ export const questionsToCasesMapping = {
     "12": { "options": [{ "caseId": "bradesco-next-compliance-simplification", "score": 100 }] }
   },
   "are_right_a_lot": {
-    "Conte sobre uma situação onde você tomou uma decisão difícil com input de diferentes stakeholders": "sicredi-mobile-first-strategy",
-    "Me fale sobre quando você mudou de opinião baseado em novos dados": "sicredi-wrong-fraud-model-pivot",
-    "Como você toma decisões com informação incompleta?": "huawei-4g-rollout-analysis",
-    "Descreva uma situação onde seu julgamento foi crucial": "sefaz-data-vs-intuition",
-    "Me dê um exemplo de quando você desafiou uma decisão que achava errada": "sicredi-api-pricing-model",
-    "Conte sobre uma vez que você teve uma opinião impopular mas correta": "sicredi-api-pricing-model",
-    "Me fale sobre quando você estava errado - como você lidou com isso?": "sicredi-wrong-fraud-model-pivot",
-    "Descreva uma vez que você buscou perspectivas diversas para desafiar suas próprias crenças": "sefaz-data-vs-intuition",
-    "Como você garante que está fazendo as perguntas certas antes de tomar decisões?": "sicredi-mobile-first-strategy",
-    "Conte sobre quando você teve que tomar uma decisão rápida sob pressão - você estava certo?": "huawei-4g-rollout-analysis",
-    "Me dê exemplo de quando você usou dados de pagamento para impactar decisões comerciais": "sicredi-api-pricing-model",
-    "Como você lida com situações onde dados conflitam com sua intuição?": "sefaz-data-vs-intuition",
-    "Conte sobre uma decisão onde você estava certo mas não conseguiu convencer outros inicialmente": "sicredi-api-pricing-model"
+    "1": { "options": [{ "caseId": "sicredi-mobile-first-strategy", "score": 100 }] },
+    "2": { "options": [{ "caseId": "sicredi-wrong-fraud-model-pivot", "score": 100 }] },
+    "3": { "options": [{ "caseId": "huawei-4g-rollout-analysis", "score": 100 }] },
+    "4": { "options": [{ "caseId": "sefaz-data-vs-intuition", "score": 100 }] },
+    "5": { "options": [{ "caseId": "sicredi-api-pricing-model", "score": 100 }] },
+    "6": { "options": [{ "caseId": "sicredi-api-pricing-model", "score": 100 }] },
+    "7": { "options": [{ "caseId": "sicredi-wrong-fraud-model-pivot", "score": 100 }] },
+    "8": { "options": [{ "caseId": "sefaz-data-vs-intuition", "score": 100 }] },
+    "9": { "options": [{ "caseId": "sicredi-mobile-first-strategy", "score": 100 }] },
+    "10": { "options": [{ "caseId": "huawei-4g-rollout-analysis", "score": 100 }] },
+    "11": { "options": [{ "caseId": "sicredi-api-pricing-model", "score": 100 }] },
+    "12": { "options": [{ "caseId": "sefaz-data-vs-intuition", "score": 100 }] },
+    "13": { "options": [{ "caseId": "sicredi-api-pricing-model", "score": 100 }] }
   },
   "learn_and_be_curious": {
     "1": { "options": [{ "caseId": "olibano-blockchain-exploration", "score": 87 }] },
@@ -80,18 +80,18 @@ export const questionsToCasesMapping = {
     "14": { "options": [{ "caseId": "olibano-blockchain-exploration", "score": 87 }] }
   },
   "hire_and_develop_the_best": {
-    "Como você abordou o desenvolvimento de um membro da equipe que estava com baixo desempenho?": "unimed-underperformer-development",
-    "Me fale sobre como você desenvolve pessoas": "huawei-project-managers-mentoring",
-    "Conte sobre uma contratação excepcional que você fez": "bradesco-agile-community-creation",
-    "Como você identifica talentos?": "bradesco-agile-community-creation",
-    "Descreva uma situação onde você ajudou alguém a crescer": "unimed-underperformer-development",
-    "Me dê um exemplo de quando você teve que dar feedback difícil": "unimed-controversial-promotion",
-    "Descreva uma vez que você melhorou moral e produtividade da sua equipe": "bradesco-agile-community-creation",
-    "Me fale sobre alguém que você mentorou - qual foi o impacto?": "huawei-project-managers-mentoring",
-    "Como você reconhece talento excepcional e os move pela organização?": "unimed-controversial-promotion",
-    "Conte sobre quando você teve que tomar uma decisão difícil sobre performance de alguém": "unimed-underperformer-development",
-    "Como você identifica potencial em pessoas que outros não veem?": "unimed-underperformer-development",
-    "Conte sobre quando você teve que fazer uma promoção controversa": "unimed-controversial-promotion"
+    "1": { "options": [{ "caseId": "unimed-underperformer-development", "score": 100 }] },
+    "2": { "options": [{ "caseId": "huawei-project-managers-mentoring", "score": 100 }] },
+    "3": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
+    "4": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
+    "5": { "options": [{ "caseId": "unimed-underperformer-development", "score": 100 }] },
+    "6": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
+    "7": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
+    "8": { "options": [{ "caseId": "huawei-project-managers-mentoring", "score": 100 }] },
+    "9": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
+    "10": { "options": [{ "caseId": "unimed-underperformer-development", "score": 100 }] },
+    "11": { "options": [{ "caseId": "unimed-underperformer-development", "score": 100 }] },
+    "12": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] }
   },
   "insist_on_highest_standards": {
     "1": { "options": [{ "caseId": "hsbc-zero-defects", "score": 83 }] },
@@ -109,21 +109,21 @@ export const questionsToCasesMapping = {
     "13": { "options": [{ "caseId": "sefaz-pmo-governance", "score": 84 }] }
   },
   "think_big": {
-    "Conte sobre um momento onde você propôs uma ideia ousada mas que trouxe grandes resultados": "huawei-global-rollout",
-    "Conte sobre uma visão ambiciosa que você teve": "bradesco-open-banking-vision",
-    "Me fale sobre um projeto que mudou o jogo": "game-changing-program",
-    "Como você inspira outros com ideias grandes?": "unimed-ecosystem-transformation",
-    "Descreva uma situação onde você pensou além do óbvio": "bradesco-paas-latam",
-    "Me dê um exemplo de quando você propôs algo que parecia impossível": "huawei-global-rollout",
-    "Conte sobre sua maior conquista profissional - por que ela foi significativa?": "game-changing-program",
-    "Descreva uma vez que você propôs uma solução não-intuitiva para um problema": "unimed-ecosystem-transformation",
-    "Me fale sobre quando você teve que vender uma ideia ousada para liderança sênior": "bradesco-open-banking-vision",
-    "Como você cria e comunica uma direção ousada que inspira resultados?": "huawei-global-rollout",
-    "Conte sobre quando você pensou grande mas teve que adaptar a escala - como você fez?": "bradesco-paas-latam",
-    "Descreva uma vez que você identificou oportunidade de receita em operações de pagamento": "bradesco-paas-latam",
-    "Como você equilibra pensar grande com ser realista sobre recursos?": "unimed-ecosystem-transformation",
-    "Conte sobre uma visão sua que levou anos para ser compreendida": "bradesco-open-banking-vision",
-    "Conte sobre quando você teve que coordenar lançamento global": "huawei-global-rollout"
+    "1": { "options": [{ "caseId": "huawei-global-rollout", "score": 100 }] },
+    "2": { "options": [{ "caseId": "bradesco-open-banking-vision", "score": 100 }] },
+    "3": { "options": [{ "caseId": "game-changing-program", "score": 100 }] },
+    "4": { "options": [{ "caseId": "unimed-ecosystem-transformation", "score": 100 }] },
+    "5": { "options": [{ "caseId": "bradesco-paas-latam", "score": 100 }] },
+    "6": { "options": [{ "caseId": "huawei-global-rollout", "score": 100 }] },
+    "7": { "options": [{ "caseId": "game-changing-program", "score": 100 }] },
+    "8": { "options": [{ "caseId": "unimed-ecosystem-transformation", "score": 100 }] },
+    "9": { "options": [{ "caseId": "bradesco-open-banking-vision", "score": 100 }] },
+    "10": { "options": [{ "caseId": "huawei-global-rollout", "score": 100 }] },
+    "11": { "options": [{ "caseId": "bradesco-paas-latam", "score": 100 }] },
+    "12": { "options": [{ "caseId": "bradesco-paas-latam", "score": 100 }] },
+    "13": { "options": [{ "caseId": "unimed-ecosystem-transformation", "score": 100 }] },
+    "14": { "options": [{ "caseId": "bradesco-open-banking-vision", "score": 100 }] },
+    "15": { "options": [{ "caseId": "huawei-global-rollout", "score": 100 }] }
   },
   "bias_for_action": {
     "1": { "options": [{ "caseId": "sefaz-emergency-rollback-no-approval", "score": 92 }] },
@@ -140,16 +140,16 @@ export const questionsToCasesMapping = {
     "12": { "options": [{ "caseId": "unimed-emergency-feature-launch", "score": 81 }] }
   },
   "frugality": {
-    "Conte sobre uma vez que você fez mais com menos": "sefaz-zero-budget-pmo",
-    "Me fale sobre quando você otimizou custos": "huawei-resource-optimization",
-    "Como você prioriza recursos limitados?": "huawei-resource-optimization",
-    "Descreva uma situação onde você foi criativo com restrições": "sefaz-zero-budget-pmo",
-    "Me dê um exemplo de quando você eliminou desperdícios": "huawei-resource-optimization",
-    "Conte sobre uma ideia nova que você teve para economizar dinheiro da empresa": "unimed-automation-n8n",
-    "Me fale sobre quando você entregou um projeto com orçamento ou recursos limitados": "sefaz-zero-budget-pmo",
-    "Como você gerenciaria projetos sem orçamento e sem recursos?": "sefaz-zero-budget-pmo",
-    "Conte sobre quando você teve que gerenciar orçamento - como você extraiu mais valor com menos?": "huawei-resource-optimization",
-    "Conte sobre quando você encontrou uma solução de R$ 10 para um problema de R$ 100K": "unimed-automation-n8n"
+    "1": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
+    "2": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
+    "3": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
+    "4": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
+    "5": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
+    "6": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] },
+    "7": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
+    "8": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
+    "9": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
+    "10": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] }
   },
   "earn_trust": {
     "1": { "options": [{ "caseId": "unimed-vendor-termination-trust", "score": 92 }] },
@@ -214,16 +214,28 @@ export const questionsToCasesMapping = {
     "14": { "options": [{ "caseId": "sefaz-ecage-portal", "score": 100 }] }
   },
   "broad_responsibility": {
-    "Me fale sobre como você considera impacto mais amplo das suas decisões": "sicredi-responsible-ai-policy",
-    "Conte sobre uma vez que você agiu pensando na comunidade": "sicredi-responsible-ai-policy",
-    "Como você equilibra resultados com responsabilidade social?": "unimed-lgpd-compliance",
-    "Descreva uma situação onde você tomou a decisão certa, não a fácil": "unimed-lgpd-compliance",
-    "Me dê um exemplo de quando você considerou stakeholders além dos óbvios": "sicredi-responsible-ai-policy",
-    "Conte sobre quando você deixou algo melhor do que encontrou": "hsbc-fatca-aml-migration",
-    "Me fale sobre uma decisão moral ou ética que você enfrentou no trabalho - como lidou?": "sicredi-responsible-ai-policy",
-    "Descreva uma vez que você considerou impactos de segunda ordem das suas ações": "unimed-lgpd-compliance",
-    "Como você pensa sobre comunidades locais, planeta e futuras gerações nas suas decisões?": "hsbc-fatca-aml-migration",
-    "Conte sobre quando você escolheu fazer o certo mesmo custando resultados de curto prazo": "unimed-lgpd-compliance"
+    "1": { "options": [{ "caseId": "sicredi-responsible-ai-policy", "score": 100 }] },
+    "2": { "options": [{ "caseId": "sicredi-responsible-ai-policy", "score": 100 }] },
+    "3": { "options": [{ "caseId": "unimed-lgpd-compliance", "score": 100 }] },
+    "4": { "options": [{ "caseId": "unimed-lgpd-compliance", "score": 100 }] },
+    "5": { "options": [{ "caseId": "sicredi-responsible-ai-policy", "score": 100 }] },
+    "6": { "options": [{ "caseId": "hsbc-fatca-aml-migration", "score": 100 }] },
+    "7": { "options": [{ "caseId": "sicredi-responsible-ai-policy", "score": 100 }] },
+    "8": { "options": [{ "caseId": "unimed-lgpd-compliance", "score": 100 }] },
+    "9": { "options": [{ "caseId": "hsbc-fatca-aml-migration", "score": 100 }] },
+    "10": { "options": [{ "caseId": "unimed-lgpd-compliance", "score": 100 }] }
+  },
+  "best_employer": {
+    "1": { "options": [{ "caseId": "sefaz-reverse-mentoring-program", "score": 100 }] },
+    "2": { "options": [{ "caseId": "sefaz-reverse-mentoring-program", "score": 100 }] },
+    "3": { "options": [] },
+    "4": { "options": [{ "caseId": "hsbc-zero-defects-best-employer", "score": 100 }] },
+    "5": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
+    "6": { "options": [{ "caseId": "sefaz-reverse-mentoring-program", "score": 100 }] },
+    "7": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
+    "8": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
+    "9": { "options": [] },
+    "10": { "options": [{ "caseId": "hsbc-zero-defects-best-employer", "score": 100 }] }
   },
   "program_management": {
     "1": { "options": [{ "caseId": "sefaz-profisco-ii-program", "score": 100 }] },
