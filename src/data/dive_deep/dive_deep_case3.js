@@ -5,7 +5,7 @@ const case_3 = {
   title_en: "Manual Investigation of Reimbursement Anomalies to Uncover Network Fraud",
   company: "Unimed",
   period: "06/2022-12/2022",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: false,
 
   pt: {

@@ -2837,6 +2837,10 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
+          "caseId": "sicredi-pix-settlement",
+          "score": 100
+        },
+        {
           "caseId": "sicredi-churn-analysis",
           "score": 85
         },
@@ -2847,10 +2851,6 @@ export const questionsToCasesMapping = {
         {
           "caseId": "hsbc-data-validation-audit",
           "score": 82
-        },
-        {
-          "caseId": "sicredi-pix-settlement",
-          "score": 80
         }
       ]
     },
@@ -2858,7 +2858,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 85
+          "score": 100
         },
         {
           "caseId": "unimed-fraud-investigation",
@@ -2878,7 +2878,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "hsbc-data-validation-audit",
-          "score": 82
+          "score": 100
         },
         {
           "caseId": "sicredi-churn-analysis",
@@ -2893,12 +2893,12 @@ export const questionsToCasesMapping = {
     "4": {
       "options": [
         {
-          "caseId": "sicredi-churn-analysis",
-          "score": 85
+          "caseId": "unimed-fraud-investigation",
+          "score": 100
         },
         {
-          "caseId": "unimed-fraud-investigation",
-          "score": 84
+          "caseId": "sicredi-churn-analysis",
+          "score": 85
         },
         {
           "caseId": "hsbc-data-validation-audit",
@@ -2913,6 +2913,10 @@ export const questionsToCasesMapping = {
     "5": {
       "options": [
         {
+          "caseId": "sicredi-pix-settlement",
+          "score": 100
+        },
+        {
           "caseId": "sicredi-churn-analysis",
           "score": 85
         },
@@ -2923,10 +2927,6 @@ export const questionsToCasesMapping = {
         {
           "caseId": "hsbc-data-validation-audit",
           "score": 82
-        },
-        {
-          "caseId": "sicredi-pix-settlement",
-          "score": 80
         }
       ]
     },
@@ -2953,16 +2953,16 @@ export const questionsToCasesMapping = {
     "7": {
       "options": [
         {
+          "caseId": "hsbc-data-validation-audit",
+          "score": 100
+        },
+        {
           "caseId": "sicredi-churn-analysis",
           "score": 85
         },
         {
           "caseId": "unimed-fraud-investigation",
           "score": 84
-        },
-        {
-          "caseId": "hsbc-data-validation-audit",
-          "score": 82
         },
         {
           "caseId": "sicredi-pix-settlement",
@@ -2974,7 +2974,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 85
+          "score": 100
         },
         {
           "caseId": "unimed-fraud-investigation",
@@ -2994,7 +2994,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-churn-analysis",
-          "score": 85
+          "score": 100
         },
         {
           "caseId": "hsbc-data-validation-audit",
@@ -3013,12 +3013,12 @@ export const questionsToCasesMapping = {
     "10": {
       "options": [
         {
-          "caseId": "unimed-agile-transformation-communication",
-          "score": 90
+          "caseId": "unimed-fraud-investigation",
+          "score": 100
         },
         {
-          "caseId": "unimed-fraud-investigation",
-          "score": 84
+          "caseId": "unimed-agile-transformation-communication",
+          "score": 90
         },
         {
           "caseId": "hsbc-data-validation-audit",
@@ -3030,7 +3030,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-payment-experimentation",
-          "score": 90
+          "score": 100
         },
         {
           "caseId": "sicredi-churn-analysis",
@@ -3045,12 +3045,12 @@ export const questionsToCasesMapping = {
     "12": {
       "options": [
         {
-          "caseId": "sicredi-churn-analysis",
-          "score": 85
+          "caseId": "unimed-fraud-investigation",
+          "score": 100
         },
         {
-          "caseId": "unimed-fraud-investigation",
-          "score": 84
+          "caseId": "sicredi-churn-analysis",
+          "score": 85
         },
         {
           "caseId": "hsbc-data-validation-audit",

@@ -6,7 +6,7 @@ const case_2 = {
   company: "HSBC",
   period: "05/2015-06/2016",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
 
   pt: {
     s: `Em 2015, eu atuava como Program Manager no Retail Banking & Wealth Management (RBWM) do HSBC. Estávamos conduzindo a migração de um portfólio de clientes de alta renda entre sistemas globais - uma operação de US$ 5,2 bilhões em ativos. Um dashboard mostrava 99,8% de sucesso, o que parecia uma vitória. Mas, ao analisar o 0,2% restante, percebi uma bomba-relógio prestes a explodir: nomes como “João” viravam “Jo?o”. Pequenos erros de codificação impediam acessos a contas, bloqueavam carteiras de investimento e poderiam afetar a credibilidade junto a 280 mil clientes de alta renda. O fornecedor global garantia que tudo estava sob controle, mas eu sabia que a confiança dos nossos clientes mais valiosos estava em risco.`,
