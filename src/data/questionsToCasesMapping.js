@@ -262,6 +262,10 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 100
+        },
+        {
           "caseId": "sefaz-emergency-rollback-no-approval",
           "score": 90
         },
@@ -272,10 +276,6 @@ export const questionsToCasesMapping = {
         {
           "caseId": "sefaz-pmo-creation",
           "score": 87
-        },
-        {
-          "caseId": "hsbc-payment-reconciliation",
-          "score": 86
         },
         {
           "caseId": "bradesco-international-payments",
@@ -290,15 +290,15 @@ export const questionsToCasesMapping = {
     "2": {
       "options": [
         {
+          "caseId": "sefaz-pmo-creation",
+          "score": 100
+        },
+        {
           "caseId": "sefaz-emergency-rollback-no-approval",
           "score": 90
         },
         {
           "caseId": "hsbc-migration-leadership",
-          "score": 87
-        },
-        {
-          "caseId": "sefaz-pmo-creation",
           "score": 87
         },
         {
@@ -323,7 +323,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "long-term-tradeoff",
-          "score": 87
+          "score": 100
         },
         {
           "caseId": "sefaz-pmo-creation",
@@ -338,16 +338,16 @@ export const questionsToCasesMapping = {
     "4": {
       "options": [
         {
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 100
+        },
+        {
           "caseId": "sefaz-emergency-rollback-no-approval",
           "score": 90
         },
         {
           "caseId": "sefaz-pmo-creation",
           "score": 87
-        },
-        {
-          "caseId": "hsbc-payment-reconciliation",
-          "score": 86
         },
         {
           "caseId": "hsbc-migration-leadership",
@@ -366,6 +366,10 @@ export const questionsToCasesMapping = {
     "5": {
       "options": [
         {
+          "caseId": "bradesco-next-delay",
+          "score": 100
+        },
+        {
           "caseId": "long-term-tradeoff",
           "score": 87
         },
@@ -380,10 +384,6 @@ export const questionsToCasesMapping = {
         {
           "caseId": "payment-incidents-prevention-mechanism",
           "score": 83
-        },
-        {
-          "caseId": "bradesco-next-delay",
-          "score": 83
         }
       ]
     },
@@ -391,7 +391,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sefaz-emergency-rollback-no-approval",
-          "score": 90
+          "score": 100
         },
         {
           "caseId": "hsbc-payment-reconciliation",
@@ -406,6 +406,10 @@ export const questionsToCasesMapping = {
     "7": {
       "options": [
         {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 100
+        },
+        {
           "caseId": "hsbc-payment-reconciliation",
           "score": 90
         },
@@ -418,10 +422,6 @@ export const questionsToCasesMapping = {
           "score": 87
         },
         {
-          "caseId": "payment-incidents-prevention-mechanism",
-          "score": 83
-        },
-        {
           "caseId": "sefaz-emergency-rollback-no-approval",
           "score": 82
         }
@@ -431,19 +431,19 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "bradesco-next-delay",
-          "score": 91
+          "score": 100
         }
       ]
     },
     "9": {
       "options": [
         {
-          "caseId": "hsbc-payment-reconciliation",
-          "score": 90
+          "caseId": "hsbc-migration-leadership",
+          "score": 100
         },
         {
-          "caseId": "hsbc-migration-leadership",
-          "score": 87
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 90
         },
         {
           "caseId": "sefaz-pmo-creation",
@@ -470,15 +470,15 @@ export const questionsToCasesMapping = {
     "10": {
       "options": [
         {
+          "caseId": "payment-incidents-prevention-mechanism",
+          "score": 100
+        },
+        {
           "caseId": "hsbc-payment-reconciliation",
           "score": 86
         },
         {
           "caseId": "bradesco-international-payments",
-          "score": 83
-        },
-        {
-          "caseId": "payment-incidents-prevention-mechanism",
           "score": 83
         },
         {
@@ -491,7 +491,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "hsbc-payment-reconciliation",
-          "score": 90
+          "score": 100
         },
         {
           "caseId": "sefaz-emergency-rollback-no-approval",
@@ -514,16 +514,16 @@ export const questionsToCasesMapping = {
     "12": {
       "options": [
         {
+          "caseId": "bradesco-international-payments",
+          "score": 100
+        },
+        {
           "caseId": "hsbc-payment-reconciliation",
           "score": 90
         },
         {
           "caseId": "sefaz-emergency-rollback-no-approval",
           "score": 90
-        },
-        {
-          "caseId": "bradesco-international-payments",
-          "score": 87
         },
         {
           "caseId": "hsbc-migration-leadership",
@@ -542,12 +542,12 @@ export const questionsToCasesMapping = {
     "13": {
       "options": [
         {
-          "caseId": "hsbc-payment-reconciliation",
-          "score": 90
+          "caseId": "hsbc-migration-leadership",
+          "score": 100
         },
         {
-          "caseId": "hsbc-migration-leadership",
-          "score": 87
+          "caseId": "hsbc-payment-reconciliation",
+          "score": 90
         },
         {
           "caseId": "sefaz-pmo-creation",
