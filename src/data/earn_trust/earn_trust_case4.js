@@ -5,7 +5,7 @@ const case_4 = {
   title_en: "Turned devastating feedback into radical transparency pact",
   company: "Sicredi Digital",
   period: "01/2024-04/2024",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: false,
 
   pt: {

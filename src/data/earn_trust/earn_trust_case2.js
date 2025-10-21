@@ -5,7 +5,7 @@ const case_2 = {
   title_en: "Transformed Central Bank relationship with 48-hour executive briefings",
   company: "HSBC Brasil",
   period: "07/2015-03/2016",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: false,
 
   pt: {

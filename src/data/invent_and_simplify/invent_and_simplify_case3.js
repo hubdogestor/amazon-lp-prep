@@ -4,7 +4,7 @@ const case_3 = {
   title_en: "Invented Medical Authorization AI that Simplified 5-Day Process to 9 Hours (82% Automation)",
   company: "Unimed",
   period: "01/2023-10/2023",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: false,
   pt: {
     s: `Em 2023, eu atuava como Advisor de Estratégia e Gestão na Unimed, acompanhando indicadores de atendimento quando recebi um alerta do Head de Customer Service: a fila de autorização médica tinha virado um colapso humanitário. Era comum ouvir frases como “meu pai vai morrer esperando autorização”.  

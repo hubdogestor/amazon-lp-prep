@@ -2487,11 +2487,11 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
-          "caseId": "sicredi-post-mortem-transparency",
-          "score": 87
+          "caseId": "hard-feedback-leadership-style",
+          "score": 100
         },
         {
-          "caseId": "hard-feedback-leadership-style",
+          "caseId": "sicredi-post-mortem-transparency",
           "score": 87
         },
         {
@@ -2512,7 +2512,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 87
+          "score": 100
         },
         {
           "caseId": "hsbc-bacen-communication",
@@ -2535,11 +2535,11 @@ export const questionsToCasesMapping = {
     "3": {
       "options": [
         {
-          "caseId": "sicredi-post-mortem-transparency",
-          "score": 87
+          "caseId": "hsbc-bacen-communication",
+          "score": 100
         },
         {
-          "caseId": "hsbc-bacen-communication",
+          "caseId": "sicredi-post-mortem-transparency",
           "score": 87
         },
         {
@@ -2559,6 +2559,10 @@ export const questionsToCasesMapping = {
     "4": {
       "options": [
         {
+          "caseId": "bradesco-sla-director",
+          "score": 100
+        },
+        {
           "caseId": "hsbc-bacen-communication",
           "score": 83
         },
@@ -2569,10 +2573,6 @@ export const questionsToCasesMapping = {
         {
           "caseId": "hard-feedback-leadership-style",
           "score": 83
-        },
-        {
-          "caseId": "bradesco-sla-director",
-          "score": 83
         }
       ]
     },
@@ -2580,7 +2580,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-post-mortem-transparency",
-          "score": 87
+          "score": 100
         },
         {
           "caseId": "hsbc-bacen-communication",
@@ -2603,6 +2603,10 @@ export const questionsToCasesMapping = {
     "6": {
       "options": [
         {
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 100
+        },
+        {
           "caseId": "hsbc-bacen-communication",
           "score": 87
         },
@@ -2623,12 +2627,12 @@ export const questionsToCasesMapping = {
     "7": {
       "options": [
         {
-          "caseId": "hard-feedback-leadership-style",
-          "score": 87
+          "caseId": "sicredi-post-mortem-transparency",
+          "score": 100
         },
         {
-          "caseId": "sicredi-post-mortem-transparency",
-          "score": 83
+          "caseId": "hard-feedback-leadership-style",
+          "score": 87
         },
         {
           "caseId": "hsbc-bacen-communication",
@@ -2648,7 +2652,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "hsbc-bacen-communication",
-          "score": 87
+          "score": 100
         },
         {
           "caseId": "bradesco-partner-recovery",
@@ -2667,11 +2671,11 @@ export const questionsToCasesMapping = {
     "9": {
       "options": [
         {
-          "caseId": "hsbc-bacen-communication",
-          "score": 87
+          "caseId": "bradesco-partner-recovery",
+          "score": 100
         },
         {
-          "caseId": "bradesco-partner-recovery",
+          "caseId": "hsbc-bacen-communication",
           "score": 87
         },
         {
@@ -2691,6 +2695,10 @@ export const questionsToCasesMapping = {
     "10": {
       "options": [
         {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 100
+        },
+        {
           "caseId": "sicredi-post-mortem-transparency",
           "score": 87
         },
@@ -2700,10 +2708,6 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "bradesco-partner-recovery",
-          "score": 87
-        },
-        {
-          "caseId": "hard-feedback-leadership-style",
           "score": 87
         },
         {
@@ -2716,18 +2720,18 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "bradesco-partner-recovery",
-          "score": 83
+          "score": 100
         }
       ]
     },
     "12": {
       "options": [
         {
-          "caseId": "sicredi-post-mortem-transparency",
-          "score": 87
+          "caseId": "hsbc-bacen-communication",
+          "score": 100
         },
         {
-          "caseId": "hsbc-bacen-communication",
+          "caseId": "sicredi-post-mortem-transparency",
           "score": 87
         },
         {
@@ -2747,11 +2751,11 @@ export const questionsToCasesMapping = {
     "13": {
       "options": [
         {
-          "caseId": "hsbc-bacen-communication",
-          "score": 87
+          "caseId": "bradesco-partner-recovery",
+          "score": 100
         },
         {
-          "caseId": "bradesco-partner-recovery",
+          "caseId": "hsbc-bacen-communication",
           "score": 87
         },
         {
@@ -2763,6 +2767,10 @@ export const questionsToCasesMapping = {
     "14": {
       "options": [
         {
+          "caseId": "bradesco-sla-director",
+          "score": 100
+        },
+        {
           "caseId": "sicredi-post-mortem-transparency",
           "score": 87
         },
@@ -2776,10 +2784,6 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 87
-        },
-        {
-          "caseId": "bradesco-sla-director",
           "score": 87
         }
       ]
@@ -2787,6 +2791,10 @@ export const questionsToCasesMapping = {
     "15": {
       "options": [
         {
+          "caseId": "hard-feedback-leadership-style",
+          "score": 100
+        },
+        {
           "caseId": "sicredi-post-mortem-transparency",
           "score": 87
         },
@@ -2796,10 +2804,6 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "bradesco-partner-recovery",
-          "score": 87
-        },
-        {
-          "caseId": "hard-feedback-leadership-style",
           "score": 87
         },
         {
@@ -2811,6 +2815,10 @@ export const questionsToCasesMapping = {
     "16": {
       "options": [
         {
+          "caseId": "bradesco-sla-director",
+          "score": 100
+        },
+        {
           "caseId": "sicredi-post-mortem-transparency",
           "score": 87
         },
@@ -2824,10 +2832,6 @@ export const questionsToCasesMapping = {
         },
         {
           "caseId": "hard-feedback-leadership-style",
-          "score": 87
-        },
-        {
-          "caseId": "bradesco-sla-director",
           "score": 87
         }
       ]
