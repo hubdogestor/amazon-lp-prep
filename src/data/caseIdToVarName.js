@@ -54,7 +54,7 @@ export const caseIdToVarName = {
   "sefaz-framework-integrated-management": "case_3",
   "sefaz-pmo-creation": "case_2",
   "sefaz-pmo-governance": "case_2",
-  "sefaz-profisco-ii-program": "case_7",
+  "sefaz-profisco-ii-program": "case_6",
   "sefaz-project-pivot-70-percent": "case_6",
   "sefaz-roadmap-adjustment-reforma-tributária": "case_3",
   "sefaz-zero-budget-pmo": "case_1",

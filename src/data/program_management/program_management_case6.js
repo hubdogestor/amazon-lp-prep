@@ -1,4 +1,4 @@
-const case_7 = {
+const case_6 = {
   id: "sefaz-profisco-ii-program",
   title_pt: "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança híbrida waterfall-agile",
   title_en: "I led BID program of US$ 280M coordinating 47 tax projects with hybrid waterfall-agile governance",
@@ -98,4 +98,4 @@ const case_7 = {
   ]
 };
 
-export default case_7;
+export default case_6;
