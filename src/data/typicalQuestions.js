@@ -437,7 +437,9 @@ const typicalQuestions = {
       "Conte sobre quando você se recusou a baixar padrões apesar de pressão por deadlines",
       "Conte sobre uma meta desafiadora que você alcançou",
       "Como você lida com situações onde entregar o resultado pode comprometer relacionamentos?",
-      "Conte sobre quando você teve que escolher entre resultado perfeito e prazo crítico"
+      "Conte sobre quando você teve que escolher entre resultado perfeito e prazo crítico",
+      "Conte-me sobre um momento em que você teve que agir com extrema velocidade para reverter uma crise ou um 'sangramento' financeiro. Como você identificou os inputs corretos para focar sob essa pressão?",
+      "Fale sobre uma situação em que você teve que entregar um resultado ambicioso com recursos limitados ou restrições severas. Como você fez trade-offs para garantir a entrega sem comprometer os padrões essenciais?"
     ],
     en: [
       "Tell me about a challenging project delivered successfully overcoming significant obstacles",
@@ -451,7 +453,9 @@ const typicalQuestions = {
       "Tell me about when you refused to lower standards despite deadline pressure",
       "Tell me about a challenging goal you achieved",
       "How do you handle situations where delivering the result may compromise relationships?",
-      "Tell me about when you had to choose between perfect result and critical deadline"
+      "Tell me about when you had to choose between perfect result and critical deadline",
+      "Tell me about a time you had to act with extreme speed to reverse a crisis or financial 'bleeding'. How did you identify the right inputs to focus on under that pressure?",
+      "Tell me about a situation where you had to deliver an ambitious result with limited resources or severe constraints. How did you make trade-offs to ensure delivery without compromising essential standards?"
     ]
   },
   "best_employer": {

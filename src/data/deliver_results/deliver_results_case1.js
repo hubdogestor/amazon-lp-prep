@@ -5,7 +5,7 @@ const case_1 = {
   title_en: "Led the 4G/5G Upgrade for 2014 FIFA World Cup with 99.8% Availability",
   company: "Huawei",
   period: "08/2013-07/2014",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: false,
   pt: {
     s: "Agosto de 2013. A Copa do Mundo se aproximava e a Huawei havia acabado de assumir o compromisso de entregar a nova infraestrutura 4G para todas as operadoras do país. Eu atuava como gerente geral de integração de rede, responsável por garantir que cada site estivesse operacional e certificado antes do apito inicial. Às duas da manhã, recebi uma ligação de emergência de quatro CTOs das operadoras: 'Leonardo, está tecnicamente impossível continuar'. Em jogo estavam US$ 38 milhões em multas contratuais da FIFA, 86 sites 4G a entregar em apenas 11 meses e seis bloqueadores críticos acontecendo ao mesmo tempo. Licenças da ANATEL paradas há 168 dias, integradores com performance de 61 %, 280 toneladas de equipamentos retidas na alfândega, quatro operadoras desalinhadas, orçamento rigidamente limitado a US$ 140 milhões e protestos que ameaçavam interromper obras. O fracasso significaria colapso nas transações para 3,4 milhões de torcedores e um golpe na reputação da Huawei Latam.",

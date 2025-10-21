@@ -3273,16 +3273,16 @@ export const questionsToCasesMapping = {
     "1": {
       "options": [
         {
+          "caseId": "huawei-world-cup-4g",
+          "score": 100
+        },
+        {
           "caseId": "unimed-ebitda-growth",
           "score": 90
         },
         {
           "caseId": "sefaz-ecage-portal",
           "score": 90
-        },
-        {
-          "caseId": "huawei-world-cup-4g",
-          "score": 87
         },
         {
           "caseId": "sicredi-fraud-reduction",
@@ -3301,11 +3301,11 @@ export const questionsToCasesMapping = {
     "2": {
       "options": [
         {
-          "caseId": "huawei-world-cup-4g",
-          "score": 87
+          "caseId": "sicredi-fraud-reduction",
+          "score": 100
         },
         {
-          "caseId": "sicredi-fraud-reduction",
+          "caseId": "huawei-world-cup-4g",
           "score": 87
         },
         {
@@ -3329,6 +3329,10 @@ export const questionsToCasesMapping = {
     "3": {
       "options": [
         {
+          "caseId": "unimed-vendor-termination",
+          "score": 100
+        },
+        {
           "caseId": "huawei-world-cup-4g",
           "score": 87
         },
@@ -3347,10 +3351,6 @@ export const questionsToCasesMapping = {
         {
           "caseId": "sicredi-pix-deadline-miss-recovery",
           "score": 80
-        },
-        {
-          "caseId": "unimed-vendor-termination",
-          "score": 80
         }
       ]
     },
@@ -3358,7 +3358,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-ebitda-growth",
-          "score": 90
+          "score": 100
         },
         {
           "caseId": "sefaz-ecage-portal",
@@ -3386,7 +3386,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "sicredi-pix-deadline-miss-recovery",
-          "score": 80
+          "score": 100
         }
       ]
     },
@@ -3394,7 +3394,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "huawei-world-cup-4g",
-          "score": 87
+          "score": 100
         },
         {
           "caseId": "unimed-ebitda-growth",
@@ -3421,11 +3421,11 @@ export const questionsToCasesMapping = {
     "7": {
       "options": [
         {
-          "caseId": "unimed-ebitda-growth",
-          "score": 90
+          "caseId": "sefaz-ecage-portal",
+          "score": 100
         },
         {
-          "caseId": "sefaz-ecage-portal",
+          "caseId": "unimed-ebitda-growth",
           "score": 90
         },
         {
@@ -3450,7 +3450,7 @@ export const questionsToCasesMapping = {
       "options": [
         {
           "caseId": "unimed-ebitda-growth",
-          "score": 90
+          "score": 100
         },
         {
           "caseId": "sefaz-ecage-portal",
@@ -3472,6 +3472,10 @@ export const questionsToCasesMapping = {
     },
     "9": {
       "options": [
+        {
+          "caseId": "unimed-99-99-uptime-standard",
+          "score": 100
+        },
         {
           "caseId": "sicredi-fraud-reduction",
           "score": 87
@@ -3501,6 +3505,10 @@ export const questionsToCasesMapping = {
     "10": {
       "options": [
         {
+          "caseId": "unimed-99-99-uptime-standard",
+          "score": 100
+        },
+        {
           "caseId": "unimed-ebitda-growth",
           "score": 90
         },
@@ -3529,6 +3537,10 @@ export const questionsToCasesMapping = {
     "11": {
       "options": [
         {
+          "caseId": "unimed-vendor-termination",
+          "score": 100
+        },
+        {
           "caseId": "unimed-99-99-uptime-standard",
           "score": 95
         },
@@ -3551,15 +3563,15 @@ export const questionsToCasesMapping = {
         {
           "caseId": "sicredi-pix-deadline-miss-recovery",
           "score": 80
-        },
-        {
-          "caseId": "unimed-vendor-termination",
-          "score": 80
         }
       ]
     },
     "12": {
       "options": [
+        {
+          "caseId": "sicredi-pix-deadline-miss-recovery",
+          "score": 100
+        },
         {
           "caseId": "unimed-ebitda-growth",
           "score": 90
@@ -3577,12 +3589,24 @@ export const questionsToCasesMapping = {
           "score": 83
         },
         {
-          "caseId": "sicredi-pix-deadline-miss-recovery",
-          "score": 80
-        },
-        {
           "caseId": "unimed-vendor-termination",
           "score": 80
+        }
+      ]
+    },
+    "13": {
+      "options": [
+        {
+          "caseId": "sicredi-fraud-reduction",
+          "score": 100
+        }
+      ]
+    },
+    "14": {
+      "options": [
+        {
+          "caseId": "sefaz-ecage-portal",
+          "score": 100
         }
       ]
     }
