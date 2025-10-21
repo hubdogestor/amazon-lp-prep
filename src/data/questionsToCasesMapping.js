@@ -228,6 +228,10 @@ export const questionsToCasesMapping = {
     "13": {
       "options": [
         {
+          "caseId": "sicredi-chargeback-proactive-resolution",
+          "score": 99.9
+        },
+        {
           "caseId": "sicredi-woop-segment-balance",
           "score": 86
         }
