@@ -60,4 +60,4 @@ const case_failure = {
   ]
 };
 
-export default case_failure;
+export default case_6;

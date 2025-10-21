@@ -5,29 +5,29 @@ import re
 def get_absolute_path(relative_path):
     """Converte um caminho relativo da raiz do projeto para um caminho absoluto."""
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-    return os.path.join(base_dir, relative_path)
+    return os.path.join(base_dir, *relative_path.replace('\\', '/').split('/'))
 
 def get_cases_for_lp(lp_name):
     """
     Carrega os cases de um LP, extraindo ID, título e nome da variável de exportação.
     Retorna uma lista de dicionários, ordenada numericamente pelo nome da variável.
     """
-    lp_dir_path_rel = f"src/data/{lp_name}"
-    lp_dir_path_abs = get_absolute_path(lp_dir_path_rel)
+    lp_dir_path_abs = get_absolute_path(f"src/data/{lp_name}")
 
     if not os.path.isdir(lp_dir_path_abs):
         raise FileNotFoundError(f"O diretório para o LP '{lp_name}' não foi encontrado em '{lp_dir_path_abs}'")
 
     cases = []
     for filename in os.listdir(lp_dir_path_abs):
-        if filename.endswith('.js') and 'case' in filename:
+        # Lógica robusta: considera qualquer .js que não seja config ou index
+        if filename.endswith('.js') and 'config' not in filename and 'index' not in filename:
             file_path = os.path.join(lp_dir_path_abs, filename)
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
                 
-                id_pattern = r'id:\s*["\'`](.*?)["\'`]'
-                title_pattern = r'title:\s*["\'`](.*?)["\'`]'
-                var_pattern = r'export default (case_\d+);'
+                id_pattern = r'id:\s*["\'"](.*?)["\'"]'
+                title_pattern = r'title(?:_pt)?:\s*["\'"](.*?)["\'"]'
+                var_pattern = r'export default (case_?\d+);'
 
                 id_match = re.search(id_pattern, content)
                 title_match = re.search(title_pattern, content)
@@ -40,20 +40,16 @@ def get_cases_for_lp(lp_name):
                         'var_name': var_match.group(1)
                     })
     
-    cases.sort(key=lambda x: int(x['var_name'].split('_')[1]))
+    # Ordena os cases pelo número extraído do nome da variável
+    cases.sort(key=lambda x: int(re.search(r'\d+', x['var_name']).group()))
     return cases
 
 def calculate_and_display_counts(lp_name, mapping_data):
-    """
-    Calcula e exibe a contagem de perguntas para cada case do LP,
-    ordenado por case (case_1, case_2, etc.) e no formato desejado.
-    """
+    """Calcula e exibe a contagem de perguntas para cada case do LP."""
     print(f"\n--- Contagem de Perguntas Atualizada para '{lp_name}' ---")
     
     try:
-        # A função já retorna os casos ordenados por var_name (case_1, case_2, ...)
         all_lp_cases = get_cases_for_lp(lp_name)
-        
         if not all_lp_cases:
             print("Nenhum case encontrado para este LP.")
             return
@@ -68,7 +64,6 @@ def calculate_and_display_counts(lp_name, mapping_data):
                 if primary_case_id in case_counts:
                     case_counts[primary_case_id] = case_counts.get(primary_case_id, 0) + 1
         
-        # Itera sobre a lista já ordenada para exibir no formato correto
         for case_info in all_lp_cases:
             case_id = case_info['id']
             var_name = case_info['var_name']
@@ -80,7 +75,6 @@ def calculate_and_display_counts(lp_name, mapping_data):
         print(f"Não foi possível encontrar os arquivos de case para '{lp_name}' para gerar a contagem.")
     
     print("----------------------------------------------------")
-
 
 def main():
     print("\n=== Ferramenta de Remapeamento de Cases ===")

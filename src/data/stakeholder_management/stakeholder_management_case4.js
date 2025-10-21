@@ -1,6 +1,7 @@
 // stakeholder_management_case4.js
 const case_4 = {
   id: "stakeholder-management-case-4",
+  title_pt: "Influência sem Autoridade: Como Convenci Secretarias a Adotar um Framework Integrado no Profisco II",
   title_en: "Influenced Secretaries to Adopt Integrated Management Framework for Profisco II Without Formal Authority",
   company: "Secretaria da Fazenda do RS",
   period: "07/2024 - 04/2025",
