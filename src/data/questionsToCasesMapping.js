@@ -189,7 +189,9 @@ export const questionsToCasesMapping = {
     "13": { "options": [{ "caseId": "bradesco-partner-recovery", "score": 100 }] },
     "14": { "options": [{ "caseId": "bradesco-sla-director", "score": 100 }] },
     "15": { "options": [{ "caseId": "hard-feedback-leadership-style", "score": 100 }] },
-    "16": { "options": [{ "caseId": "bradesco-sla-director", "score": 100 }] }
+    "16": { "options": [{ "caseId": "bradesco-sla-director", "score": 100 }] },
+    "17": { "options": [{ "caseId": "sefaz-difficult-feedback-vmo", "score": 100 }] },
+    "18": { "options": [{ "caseId": "bradesco-partner-recovery", "score": 100 }] }
   },
   "dive_deep": {
     "1": { "options": [{ "caseId": "sicredi-pix-settlement", "score": 100 }] },
@@ -236,7 +238,8 @@ export const questionsToCasesMapping = {
     "11": { "options": [{ "caseId": "unimed-vendor-termination", "score": 100 }] },
     "12": { "options": [{ "caseId": "sicredi-pix-deadline-miss-recovery", "score": 100 }] },
     "13": { "options": [{ "caseId": "sicredi-fraud-reduction", "score": 100 }] },
-    "14": { "options": [{ "caseId": "sefaz-ecage-portal", "score": 100 }] }
+    "14": { "options": [{ "caseId": "sefaz-ecage-portal", "score": 100 }] },
+    "15": { "options": [{ "caseId": "unimed-vendor-termination", "score": 100 }] }
   },
   "broad_responsibility": {
     "1": { "options": [{ "caseId": "hsbc-fatca-aml-migration", "score": 100 }] },
@@ -329,6 +332,9 @@ export const questionsToCasesMapping = {
     "9": { "options": [{ "caseId": "stakeholder-management-case-2", "score": 100 }] },
     "10": { "options": [{ "caseId": "huawei-global-rollout", "score": 100 }] },
     "11": { "options": [{ "caseId": "stakeholder-management-case-2", "score": 100 }] },
-    "12": { "options": [{ "caseId": "sicredi-woop-stakeholder-management", "score": 100 }] }
+    "12": { "options": [{ "caseId": "sicredi-woop-stakeholder-management", "score": 100 }] },
+    "13": { "options": [{ "caseId": "huawei-4g-copa-2014-stakeholder", "score": 100 }] },
+    "14": { "options": [{ "caseId": "sicredi-woop-stakeholder-management", "score": 100 }] },
+    "15": { "options": [{ "caseId": "sicredi-pix-deadline-miss-recovery", "score": 100 }] }
   }
 };

@@ -1056,6 +1056,262 @@ const extrasByFile = {
       "I explained the phased roadmap reduced risk and became standard for future digital programs.",
       "I cited the CEO highlighting the case in a town hall as the agile execution benchmark."
     ]
+  },
+  "disagree_and_commit/disagree_and_commit_case1.js": {
+    extrasPt: [
+      "Mostrei que a queda de churn de 3,6% para 2,1% preservou R$ 96 milhões em receita anualizada em 75 dias.",
+      "Detalhei que o fluxo de alertas cobre 520 mil pacientes crônicos com 12 sinais clínicos e SLA de 4 horas.",
+      "Reforcei que a campanha de cashback trouxe 18 mil clientes 18-25 anos mantendo o CAC dentro do orçamento original.",
+      "Expliquei que o uso de telemedicina subiu 52% e o NPS do app avançou de 48 para 67 após o plano híbrido.",
+      "Citei que o CFO registrou em ata a economia e que o CEO me deu o portfólio de fidelidade de 2024 como reconhecimento."
+    ],
+    extrasEn: [
+      "I showed churn dropping from 3.6% to 2.1%, preserving BRL 96M in annualized revenue within 75 days.",
+      "I detailed the alert flow covering 520K chronic patients with 12 clinical signals and a four-hour SLA.",
+      "I reinforced the cashback campaign adding 18K 18-25 customers while keeping CAC on the original budget.",
+      "I explained telemedicine usage climbing 52% and app NPS moving from 48 to 67 after the hybrid plan.",
+      "I cited the CFO recording the savings and the CEO handing me the 2024 loyalty portfolio as recognition."
+    ]
+  },
+  "disagree_and_commit/disagree_and_commit_case2.js": {
+    extrasPt: [
+      "Mostrei que a simulação de Monte Carlo apontava 67% de risco se cortássemos 30 dias, o que forçou o VP a renegociar.",
+      "Detalhei que reduzimos o backlog de fibra de 18 para 4 dias ao negociar com três prefeituras e contratar 12 equipes extras.",
+      "Reforcei que as licenças nas 9 cidades saíram em 7 dias, três antes da meta pactuada de 10.",
+      "Expliquei que o war room 24/7 monitorava 48 indicadores e garantia respostas de escalonamento em até 30 minutos.",
+      "Citei que entregamos 12 dias antes, mantivemos 99,94% de disponibilidade e evitamos US$ 11,3 milhões em multas."
+    ],
+    extrasEn: [
+      "I showed the Monte Carlo simulation putting the 30-day cut at a 67% delay risk, which pushed the VP to renegotiate.",
+      "I detailed shrinking the fiber backlog from 18 to 4 days by negotiating with three city halls and hiring 12 extra crews.",
+      "I reinforced that permits across the nine cities cleared in seven days, three ahead of the 10-day target.",
+      "I explained the 24/7 war room tracked 48 indicators and guaranteed escalations answered within 30 minutes.",
+      "I cited delivering 12 days early, sustaining 99.94% availability, and avoiding US$11.3M in penalties."
+    ]
+  },
+  "disagree_and_commit/disagree_and_commit_case3.js": {
+    extrasPt: [
+      "Mostrei no teste A/B com 40 mil clientes que o feed elevava o tempo de tela em 18% e que o motor reduzia a intenção de cancelamento em 36%.",
+      "Detalhei que entregamos o MVP em 82 dias, oito antes do prazo de 90 dias imposto pelo CEO.",
+      "Reforcei que o NPS do app chegou a 72 e a intenção de cancelamento caiu 19% mesmo executando a decisão com a qual discordei.",
+      "Expliquei que revisei mais de 300 pull requests e escrevi 78 páginas de especificações para manter o padrão de qualidade.",
+      "Citei que o motor lite reduziu churn em 2,4 pontos e destravou um investimento de R$ 8 milhões no trimestre seguinte."
+    ],
+    extrasEn: [
+      "I showed the 40K-customer A/B test proved the feed lifted screen time 18% while the engine cut cancellation intent 36%.",
+      "I detailed delivering the MVP in 82 days, eight ahead of the 90-day deadline set by the CEO.",
+      "I reinforced app NPS hitting 72 with cancellation intent down 19% even while executing the decision I had opposed.",
+      "I explained reviewing 300+ pull requests and writing 78 pages of specs to keep the execution standard.",
+      "I cited the lite engine trimming churn by 2.4 points and unlocking a BRL 8M investment the very next quarter."
+    ]
+  },
+  "disagree_and_commit/disagree_and_commit_case4.js": {
+    extrasPt: [
+      "Mostrei com regressão em 120 mil contratos que o corte linear levaria o ECL de 4,1% para 6,3%, um impacto de R$ 15 milhões.",
+      "Detalhei que o piloto seletivo cobriu 8 mil clientes com score acima de 760 e treinou 120 vendedores em dez dias.",
+      "Reforcei que o volume financiado cresceu 17% mantendo margem em 1,7% e churn caiu 9% na base piloto.",
+      "Expliquei que o dashboard em tempo real garantiu disciplina e impediu antecipar expansão antes dos gatilhos acordados.",
+      "Citei que o ROI chegou a 340% com payback em 52 dias e que fui promovido para liderar a carteira internacional."
+    ],
+    extrasEn: [
+      "I showed with regression over 120K contracts that the linear cut would push ECL from 4.1% to 6.3%, a BRL 15M hit.",
+      "I detailed the selective pilot covering 8K clients above a 760 score while 120 sellers were trained in ten days.",
+      "I reinforced financed volume rising 17% with margin steady at 1.7% and churn dropping 9% in the pilot base.",
+      "I explained the real-time dashboard enforced discipline and blocked early expansion before the agreed triggers.",
+      "I cited ROI reaching 340% with a 52-day payback and my promotion to lead the international portfolio."
+    ]
+  },
+  "insist_on_highest_standards/insist_on_highest_standards_case1.js": {
+    extrasPt: [
+      "Mostrei que a meta 'zero data loss' evitou a perda potencial de dados de 1.350 clientes em um portfólio de R$ 3 bilhões.",
+      "Detalhei que auditei pessoalmente 500 contas por ciclo e identifiquei o bug de caracteres que atingiria 12 mil clientes.",
+      "Reforcei que o mecanismo 'stop the line' segurou a migração por 48 horas e evitou um erro que custaria 10 vezes mais.",
+      "Expliquei que os dashboards reduziram a detecção de anomalias de 72 para menos de 12 horas com equipes na Índia, Polônia e China.",
+      "Citei que o playbook virou padrão global e elevou o NPS pós-migração em 15% acima do projetado."
+    ],
+    extrasEn: [
+      "I showed the 'zero data loss' bar prevented losing up to 1,350 customer records in the BRL 3B portfolio.",
+      "I detailed personally auditing 500 accounts per cycle and catching the character-conversion bug that would hit 12K clients.",
+      "I reinforced the 'stop the line' hold that paused migration for 48 hours and avoided a defect worth ten times the delay cost.",
+      "I explained dashboards cut anomaly detection from 72 down to under 12 hours while coordinating teams in India, Poland, and China.",
+      "I cited the playbook becoming the global standard and pushing post-migration NPS 15% above forecast."
+    ]
+  },
+  "insist_on_highest_standards/insist_on_highest_standards_case2.js": {
+    extrasPt: [
+      "Mostrei que expor a perda de R$ 38 milhões convenceu o secretário a apoiar a mudança em 48 horas.",
+      "Detalhei o cancelamento de 11 projetos de baixo impacto que consumiam 20% do orçamento de TI.",
+      "Reforcei que o desvio orçamentário caiu de 63% para 6,8%, liberando R$ 1,4 milhão em eficiência.",
+      "Expliquei que a emissão de certidões passou de 10 dias para 22 horas e gerou ROI de R$ 57 milhões.",
+      "Citei que o portal de transparência foi elogiado pelo BID e pelo TCE e virou padrão estadual."
+    ],
+    extrasEn: [
+      "I showed the BRL 38M loss analysis, which secured the Secretary mandate within 48 hours.",
+      "I detailed canceling 11 low-impact projects that consumed 20% of the IT budget.",
+      "I reinforced budget deviation dropping from 63% to 6.8%, freeing BRL 1.4M in efficiency.",
+      "I explained certificate issuance falling from 10 days to 22 hours and delivering BRL 57M ROI.",
+      "I cited the transparency portal praised by the IDB and the state audit court and adopted statewide."
+    ]
+  },
+  "insist_on_highest_standards/insist_on_highest_standards_case3.js": {
+    extrasPt: [
+      "Mostrei que cada hora de indisponibilidade custava R$ 187 mil, justificando investir 40% a mais no redesign.",
+      "Detalhei os 28 SLOs, o error budget e os 1.240 cenários automatizados que travavam deploy com risco.",
+      "Reforcei que a arquitetura ativo-ativo e os health checks a cada 15 segundos sustentaram 99,992% de disponibilidade.",
+      "Expliquei que o programa evitou R$ 1,8 milhão em perdas e gerou R$ 3,8 milhões extras em receita hospitalar.",
+      "Citei que o NPS dos parceiros subiu de 72 para 91 e que o playbook virou padrão nos demais gateways."
+    ],
+    extrasEn: [
+      "I showed each hour of downtime cost BRL 187K, which justified investing 40% more in the redesign.",
+      "I detailed the 28 SLOs, the error budget, and the 1,240 automated scenarios that blocked risky deploys.",
+      "I reinforced the active-active setup and 15-second health checks sustaining 99.992% availability.",
+      "I explained the program avoided BRL 1.8M in losses and generated BRL 3.8M in extra hospital revenue.",
+      "I cited partner NPS climbing from 72 to 91 and the playbook becoming the standard for every gateway."
+    ]
+  },
+  "insist_on_highest_standards/insist_on_highest_standards_case4.js": {
+    extrasPt: [
+      "Mostrei o laudo com 74 defeitos críticos e negociei suspender a multa de R$ 1,3 milhão até a correção.",
+      "Detalhei que o 'Phoenix Gate' consolidou 32 critérios objetivos e elevou a cobertura de testes de 90% para 95%.",
+      "Reforcei que homologamos a nova versão em 28 dias, cortando o tempo de processamento fiscal de 45 para 18 minutos.",
+      "Expliquei que o NPS dos contribuintes saltou de 58 para 82 com 1.200 respostas validadas.",
+      "Citei que o gate virou cláusula obrigatória, evitou R$ 800 mil em perdas em outra secretaria e impulsionou promoções na equipe."
+    ],
+    extrasEn: [
+      "I showed the technical report listing 74 critical defects and negotiated suspending the BRL 1.3M fine until the fixes landed.",
+      "I detailed 'Phoenix Gate' bundling 32 objective criteria and lifting test coverage from 90% to 95%.",
+      "I reinforced recertifying the release in 28 days and cutting fiscal processing from 45 down to 18 minutes.",
+      "I explained taxpayer NPS jumping from 58 to 82 based on 1,200 survey responses.",
+      "I cited the gate becoming a mandatory clause, preventing BRL 800K losses elsewhere, and unlocking promotions for the task force."
+    ]
+  },
+  "insist_on_highest_standards/insist_on_highest_standards_case5.js": {
+    extrasPt: [
+      "Mostrei que pausar o serviço por 15 dias e investir R$ 680 mil evitou o churn projetado de R$ 1,2 milhão.",
+      "Detalhei que liguei para 87 médicos e 340 pacientes e usei os 120 testes domiciliares para redesenhar o fluxo.",
+      "Reforcei que o relançamento levou o NPS de 28 para 84, reduziu o setup para 2m20s e triplicou as consultas para 3.600 por mês.",
+      "Expliquei que a satisfação médica subiu de 45% para 89% e o abandono caiu de 22% para 3%.",
+      "Citei que o 'Excellence Gate' barrou um app com NPS 55 e virou mecanismo corporativo em seis meses."
+    ],
+    extrasEn: [
+      "I showed pausing the service for 15 days and investing BRL 680K prevented the projected BRL 1.2M churn.",
+      "I detailed calling 87 doctors and 340 patients and using 120 at-home tests to redesign the flow.",
+      "I reinforced the relaunch taking NPS from 28 to 84, cutting setup to 2m20s, and tripling visits to 3,600 per month.",
+      "I explained doctor satisfaction rising from 45% to 89% with attrition dropping from 22% to 3%.",
+      "I cited the 'Excellence Gate' blocking a 55-NPS app and becoming a corporate mechanism within six months."
+    ]
+  },
+  "deal_with_ambiguity/deal_with_ambiguity_case1.js": {
+    extrasPt: [
+      "Mostrei que em 2021 já tínhamos 127 fintechs integradas e 340 mil clientes indiretos gerando R$ 47 milhões anuais.",
+      "Detalhei que o CAC indireto ficou em R$ 42, 73% abaixo do CAC direto de R$ 156 no app.",
+      "Reforcei que antecipamos o Open Banking e economizamos R$ 18,2 milhões versus o gasto médio de R$ 23 milhões do mercado.",
+      "Expliquei que o ROI acumulado chegou a 9,8x em três anos com pipeline adicional de R$ 180 milhões.",
+      "Citei que o Banco Central nos reconheceu como benchmark e que apresentei o case em quatro conferências internacionais."
+    ],
+    extrasEn: [
+      "I showed that by 2021 we had 127 fintech partners live and 340K indirect customers generating BRL 47M a year.",
+      "I detailed indirect CAC at BRL 42, which is 73% below the BRL 156 direct app CAC.",
+      "I reinforced we pre-built Open Banking, saving BRL 18.2M versus the BRL 23M market average.",
+      "I explained the vision delivered a 9.8x ROI in three years with a BRL 180M expansion pipeline.",
+      "I cited the Central Bank naming us a benchmark and my presenting the case at four international conferences."
+    ]
+  },
+  "deal_with_ambiguity/deal_with_ambiguity_case2.js": {
+    extrasPt: [
+      "Mostrei que limpar as duplicidades fez o BID liberar US$ 12 milhões em 90 dias.",
+      "Detalhei que o desvio de prazo caiu de 23% para 7,4% e recuperamos R$ 2,3 milhões no orçamento.",
+      "Reforcei que o tempo de restituição de ICMS caiu de 28 para 9 dias e o NPS digital subiu de 52 para 76.",
+      "Expliquei que automatizar 72% dos relatórios devolveu 1.520 horas anuais para análise estratégica.",
+      "Citei que oito servidores tiraram PMI e replicaram o modelo no Paraná e na Bahia com apoio do BID."
+    ],
+    extrasEn: [
+      "I showed that removing the duplicate scope led the IDB to release US$12M within 90 days.",
+      "I detailed schedule deviation shrinking from 23% to 7.4% while recovering BRL 2.3M in budget.",
+      "I reinforced priority ICMS refunds dropping from 28 to 9 days and digital NPS climbing from 52 to 76.",
+      "I explained automating 72% of dashboards freed 1,520 hours a year for strategic analysis.",
+      "I cited eight officers earning PMI certifications and scaling the model to Paraná and Bahia with IDB sponsorship."
+    ]
+  },
+  "deal_with_ambiguity/deal_with_ambiguity_case3.js": {
+    extrasPt: [
+      "Mostrei que o modelo de sprints quinzenais manteve zero perda de dados na migração dos R$ 3 bilhões.",
+      "Detalhei que os fóruns bilíngues reduziram o turnover em 40% frente às demais workstreams.",
+      "Reforcei que defendemos os controles FATCA sob pressão e evitamos multas milionárias.",
+      "Expliquei que a carteira de private banking cresceu 30% durante a transição graças ao time engajado.",
+      "Citei que o formato de sprints e fóruns culturais foi replicado por outras duas frentes da integração."
+    ],
+    extrasEn: [
+      "I showed the bi-weekly sprint model kept the BRL 3B migration at zero data loss.",
+      "I detailed the bilingual forums cutting attrition 40% below the other workstreams.",
+      "I reinforced holding the FATCA controls under pressure and avoiding multi-million penalties.",
+      "I explained the private banking portfolio grew 30% during the transition because the team stayed engaged.",
+      "I cited the sprint cadence and cultural forums being adopted by two other integration fronts."
+    ]
+  },
+  "deal_with_ambiguity/deal_with_ambiguity_case4.js": {
+    extrasPt: [
+      "Mostrei que os rituais diários elevaram a produtividade em 40% nas seis primeiras semanas.",
+      "Detalhei que o desvio de SLA caiu de 23% para menos de 5% com o painel único de bloqueadores.",
+      "Reforcei que entregamos os 12 estádios 100% operacionais antes do prazo final da FIFA.",
+      "Expliquei que os dashboards de Primavera e SAP conectavam cada tarefa ao prazo global e zeravam bloqueadores críticos.",
+      "Citei que o modelo de war room virou case global na Huawei para projetos de alta complexidade."
+    ],
+    extrasEn: [
+      "I showed the daily rituals lifting productivity 40% in the first six weeks.",
+      "I detailed SLA deviation dropping from 23% to under 5% once the single blocker dashboard was in place.",
+      "I reinforced delivering all 12 stadiums fully operational before the final FIFA deadline.",
+      "I explained Primavera and SAP dashboards linked every task to the master schedule and cleared critical blockers.",
+      "I cited the war room model becoming a Huawei global case for high-complexity programs."
+    ]
+  },
+  "deal_with_ambiguity/deal_with_ambiguity_case5.js": {
+    extrasPt: [
+      "Mostrei que os quatro produtos adicionaram US$ 16 milhões (5% da receita) e elevaram o EBITDA em 22%.",
+      "Detalhei que o PAS captou 20 mil vidas em 12 meses, triplicando a média histórica de novos contratos.",
+      "Reforcei que o Pet Saúde superou a meta em 50%, com adesão de 18% entre famílias jovens.",
+      "Expliquei que o churn corporativo caiu 15% e o NPS subiu 6 pontos com o novo portfólio.",
+      "Citei que o framework virou padrão na Unimed Brasil e foi replicado em seis cooperativas."
+    ],
+    extrasEn: [
+      "I showed the four products adding US$16M (5% of revenue) and lifting EBITDA 22%.",
+      "I detailed PAS capturing 20K lives in 12 months, tripling the historical run rate.",
+      "I reinforced Pet Saúde beating the goal by 50% with 18% adoption among young families.",
+      "I explained corporate churn dropping 15% and NPS climbing six points with the new portfolio.",
+      "I cited the framework becoming the Unimed Brasil standard and scaling to six cooperatives."
+    ]
+  },
+  "deal_with_ambiguity/deal_with_ambiguity_case6.js": {
+    extrasPt: [
+      "Mostrei que o PMO passou a coordenar 50 projetos com rastreabilidade total em seis meses.",
+      "Detalhei que a arrecadação cresceu 12% (R$ 480 milhões ao ano), o dobro da meta inicial.",
+      "Reforcei que as fraudes caíram 30% após digitalizarmos processos e que certidões passaram a sair em duas horas.",
+      "Expliquei que a eficiência orçamentária gerou economia de R$ 45 milhões anuais com o modelo padronizado.",
+      "Citei que o framework virou manual institucional replicado por outras secretarias com uma equipe certificada."
+    ],
+    extrasEn: [
+      "I showed the PMO coordinating 50 projects with full traceability within six months.",
+      "I detailed revenue growing 12% (BRL 480M per year), twice the initial target.",
+      "I reinforced fraud dropping 30% after digitization and certificates being issued in two hours.",
+      "I explained standardized governance yielding BRL 45M in annual savings.",
+      "I cited the framework becoming an institutional handbook replicated across other secretariats with a certified team."
+    ]
+  },
+  "deal_with_ambiguity/deal_with_ambiguity_case7.js": {
+    extrasPt: [
+      "Mostrei que lançamos em cinco meses, 30% mais rápido que a média e um mês antes do plano.",
+      "Detalhei que a adesão de famílias jovens chegou a 18%, superando em 50% a meta de 12%.",
+      "Reforcei que a receita incremental foi de R$ 8,2 milhões com EBITDA de 22% e CAC 25% menor.",
+      "Expliquei que o NPS ficou em 68 e a retenção em 84%, nove pontos acima do previsto.",
+      "Citei que o playbook reduziu o rollout de seis para dois meses e permitiu adoção em 12 cooperativas."
+    ],
+    extrasEn: [
+      "I showed we launched in five months, 30% faster than average and a month ahead of plan.",
+      "I detailed young-family adoption hitting 18%, beating the 12% goal by 50%.",
+      "I reinforced incremental revenue of BRL 8.2M with a 22% EBITDA margin and CAC 25% lower.",
+      "I explained NPS landing at 68 and retention at 84%, nine points above forecast.",
+      "I cited the playbook cutting rollout time from six to two months and enabling adoption in 12 cooperatives."
+    ]
   }
 };
 

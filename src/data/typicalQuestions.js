@@ -379,7 +379,9 @@ const typicalQuestions = {
       "Conte sobre quando você teve que influenciar parceiros externos sem autoridade direta",
       "Como você reconstrói confiança após um erro que afetou a equipe?",
       "Conte sobre quando você teve que ser transparente sobre algo que te prejudicaria",
-      "Como você comunica status para executivos sêniores?"
+      "Como você comunica status para executivos sêniores?",
+      "Descreva uma situação em que você teve que dar feedback difícil a um colega ou stakeholder importante. Como você abordou a conversa e qual foi o resultado?",
+      "Conte sobre uma vez que a confiança com um parceiro externo ou cliente foi quebrada por uma falha da sua equipe ou empresa. Que passos você deu para reconstruir essa relação?"
     ],
     en: [
       "What was the most difficult, negative, or surprising feedback you received? How did you handle it and what changed as a result?",
@@ -397,7 +399,9 @@ const typicalQuestions = {
       "Tell me about when you had to influence external partners without direct authority",
       "How do you rebuild trust after a mistake that affected the team?",
       "Tell me about when you had to be transparent about something that would hurt you",
-      "How do you communicate status to senior executives?"
+      "How do you communicate status to senior executives?",
+      "Describe a situation where you had to give difficult feedback to a peer or an important stakeholder. How did you approach the conversation, and what was the outcome?",
+      "Tell me about a time when trust with an external partner or client was broken due to a failure by your team or company. What steps did you take to rebuild that relationship?"
     ]
   },
   "dive_deep": {
@@ -481,7 +485,8 @@ const typicalQuestions = {
       "Como você lida com situações onde entregar o resultado pode comprometer relacionamentos?",
       "Conte sobre quando você teve que escolher entre resultado perfeito e prazo crítico",
       "Conte-me sobre um momento em que você teve que agir com extrema velocidade para reverter uma crise ou um 'sangramento' financeiro. Como você identificou os inputs corretos para focar sob essa pressão?",
-      "Fale sobre uma situação em que você teve que entregar um resultado ambicioso com recursos limitados ou restrições severas. Como você fez trade-offs para garantir a entrega sem comprometer os padrões essenciais?"
+      "Fale sobre uma situação em que você teve que entregar um resultado ambicioso com recursos limitados ou restrições severas. Como você fez trade-offs para garantir a entrega sem comprometer os padrões essenciais?",
+      "Conte sobre uma vez que você teve que tomar uma decisão impopular, como cortar um fornecedor ou reduzir o escopo, para garantir a entrega de um resultado crítico. Como você gerenciou as consequências dessa decisão?"
     ],
     en: [
       "Tell me about a challenging project delivered successfully overcoming significant obstacles",
@@ -497,7 +502,8 @@ const typicalQuestions = {
       "How do you handle situations where delivering the result may compromise relationships?",
       "Tell me about when you had to choose between perfect result and critical deadline",
       "Tell me about a time you had to act with extreme speed to reverse a crisis or financial 'bleeding'. How did you identify the right inputs to focus on under that pressure?",
-      "Tell me about a situation where you had to deliver an ambitious result with limited resources or severe constraints. How did you make trade-offs to ensure delivery without compromising essential standards?"
+      "Tell me about a situation where you had to deliver an ambitious result with limited resources or severe constraints. How did you make trade-offs to ensure delivery without compromising essential standards?",
+      "Tell me about a time you had to make an unpopular decision, like cutting a vendor or reducing scope, to ensure the delivery of a critical result. How did you manage the fallout from that decision?"
     ]
   },
   "best_employer": {
@@ -611,7 +617,10 @@ const typicalQuestions = {
       "Conte sobre quando você teve que gerenciar conflito entre stakeholders de diferentes áreas",
       "Como você garante que stakeholders críticos estejam informados sem sobrecarregá-los?",
       "Descreva uma situação onde você teve que negociar trade-offs difíceis com múltiplos stakeholders",
-      "Como você lida com stakeholders que resistem a mudanças necessárias?"
+      "Como você lida com stakeholders que resistem a mudanças necessárias?",
+      "Descreva uma situação em que você teve que alinhar múltiplos stakeholders com prioridades conflitantes em um programa de alta complexidade. Como você construiu o consenso?",
+      "Conte sobre uma vez que você teve que influenciar uma decisão estratégica importante sem ter autoridade formal sobre os decisores. Qual foi sua abordagem?",
+      "Descreva uma vez que você teve que comunicar más notícias ou um atraso significativo a stakeholders seniores. Como você preparou e conduziu essa comunicação para manter a confiança?"
     ],
     en: [
       "Tell me about a situation where you had to influence senior stakeholders without formal authority",
@@ -625,7 +634,10 @@ const typicalQuestions = {
       "Tell me about when you had to manage conflict between stakeholders from different areas",
       "How do you ensure critical stakeholders are informed without overwhelming them?",
       "Describe a situation where you had to negotiate difficult trade-offs with multiple stakeholders",
-      "How do you handle stakeholders who resist necessary changes?"
+      "How do you handle stakeholders who resist necessary changes?",
+      "Describe a situation where you had to align multiple stakeholders with conflicting priorities on a highly complex program. How did you build consensus?",
+      "Tell me about a time you had to influence a major strategic decision without having formal authority over the decision-makers. What was your approach?",
+      "Describe a time you had to communicate bad news or a significant delay to senior stakeholders. How did you prepare and conduct that communication to maintain trust?"
     ]
   },
   "prioritizing_and_influence": {
