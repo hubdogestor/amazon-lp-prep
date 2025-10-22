@@ -1,6 +1,6 @@
 // Case 3 - broad_responsibility
 const case_3 = {
-  id: "hsbc-fatca-aml-migration",
+  id: "hsbc-fatca-aml-compliance-over-cost",
   title: "Garantindo a Conformidade Global (FATCA/AML) Acima dos Custos de Curto Prazo",
   title_pt: "Garantindo a Conformidade Global (FATCA/AML) Acima dos Custos de Curto Prazo",
   title_en: "Ensuring Global Compliance (FATCA/AML) Over Short-Term Costs",

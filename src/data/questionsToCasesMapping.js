@@ -95,7 +95,8 @@ export const questionsToCasesMapping = {
     "9": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
     "10": { "options": [{ "caseId": "unimed-underperformer-development", "score": 100 }] },
     "11": { "options": [{ "caseId": "unimed-toxic-genius-removal", "score": 100 }] },
-    "12": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] }
+    "12": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
+    "13": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] }
   },
   "insist_on_highest_standards": {
     "1": { "options": [{ "caseId": "reject-mediocre-work-procergs", "score": 100 }] },
@@ -156,7 +157,10 @@ export const questionsToCasesMapping = {
     "7": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] },
     "8": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
     "9": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
-    "10": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] }
+    "10": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] },
+    "11": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] },
+    "12": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
+    "13": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] }
   },
   "earn_trust": {
     "1": { "options": [{ "caseId": "hard-feedback-leadership-style", "score": 100 }] },
@@ -223,13 +227,13 @@ export const questionsToCasesMapping = {
     "14": { "options": [{ "caseId": "sefaz-ecage-portal", "score": 100 }] }
   },
   "broad_responsibility": {
-    "1": { "options": [{ "caseId": "sicredi-responsible-ai-policy", "score": 100 }] },
-    "2": { "options": [{ "caseId": "sicredi-responsible-ai-policy", "score": 100 }] },
+    "1": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
+    "2": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
     "3": { "options": [{ "caseId": "unimed-lgpd-compliance", "score": 100 }] },
     "4": { "options": [{ "caseId": "hsbc-fatca-aml-migration", "score": 100 }] },
     "5": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
     "6": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
-    "7": { "options": [{ "caseId": "sicredi-responsible-ai-policy", "score": 100 }] },
+    "7": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
     "8": { "options": [{ "caseId": "unimed-lgpd-compliance", "score": 100 }] },
     "9": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
     "10": { "options": [{ "caseId": "hsbc-fatca-aml-migration", "score": 100 }] }
