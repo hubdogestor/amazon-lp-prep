@@ -22,8 +22,8 @@ const myQuestionsData = {
             level: "Tactical"
           },
           {
-            q: "Como vocês medem o sucesso de uma transformação operacional em pagamentos? Quais métricas além de Payment Success Rate e Authorization Rate são críticas para o negócio?",
-            note: "Revela conhecimento de métricas específicas de pagamentos",
+            q: "Como vocês medem o sucesso de uma transformação operacional em pagamentos? Além de Payment Success Rate e Authorization Rate, quais métricas de eficiência (por exemplo, Custo Operacional por Transação e Tempo de Processamento) e de experiência do cliente (como NPS) são críticas para o negócio?",
+            note: "Revela conhecimento de métricas de eficiência e experiência do cliente em pagamentos",
             level: "Operational"
           },
           {
@@ -168,33 +168,7 @@ const myQuestionsData = {
           }
         ]
       },
-      {
-        category: "Sugestões Glassdoor",
-        icon: "📝",
-        description: "Perguntas inspiradas em relatos recentes do Glassdoor",
-        questions: [
-          {
-            q: "Vi no Glassdoor que entrevistas recentes destacam liderança inclusiva. Quais comportamentos vocês avaliam como diferenciais hoje?",
-            note: "Mostra que você conecta pesquisa externa com expectativas internas",
-            level: "Leadership"
-          },
-          {
-            q: "Relatos no Glassdoor mencionam desafios de integração entre tecnologia e operações. Quais aprendizados desses casos orientam o roadmap atual?",
-            note: "Demonstra que você transforma feedback público em ações estruturadas",
-            level: "Strategic"
-          },
-          {
-            q: "Muitos candidatos citam a etapa com o bar raiser. Que padrões de reprovação vocês identificaram e como ajustaram o coaching dos times?",
-            note: "Evidencia foco em melhoria contínua do processo seletivo",
-            level: "Operational"
-          },
-          {
-            q: "Glassdoor mostra que candidatos valorizam clareza sobre sucesso nos primeiros 90 dias. Como vocês estruturam o onboarding para garantir resultados rápidos?",
-            note: "Mostra preocupação em entregar impacto logo no início",
-            level: "Execution"
-          }
-        ]
-      },
+      // A categoria de sugestões do Glassdoor foi removida para focar em perguntas personalizadas para cada entrevistador e nos objetivos da vaga.
       {
         category: "Perguntas de Fechamento Estratégico",
         icon: "🚀",
@@ -224,7 +198,7 @@ const myQuestionsData = {
       },
       // Categorias personalizadas para cada entrevistador
       {
-        category: "Modelagem e Ciência de Dados em Pagamentos",
+        category: "<strong>Heleno P.</strong> <small>(Modelagem e Ciência de Dados em Pagamentos)</small>",
         icon: "🧠",
         description: "Perguntas alinhadas à experiência do entrevistador em ciência de dados e precificação",
         questions: [
@@ -251,7 +225,7 @@ const myQuestionsData = {
         ]
       },
       {
-        category: "Programas de Pagamentos e Expansão Internacional",
+        category: "<strong>Sujash B.</strong> <small>(Programas de Pagamentos e Expansão Internacional)</small>",
         icon: "🌎",
         description: "Perguntas que exploram a experiência do entrevistador em gerir programas de pagamento e parcerias globais",
         questions: [
@@ -278,7 +252,7 @@ const myQuestionsData = {
         ]
       },
       {
-        category: "Excelência Operacional e Melhoria Contínua em Pagamentos",
+        category: "<strong>Andreia G.</strong> <small>(Excelência Operacional e Melhoria Contínua em Pagamentos)</small>",
         icon: "⚙️",
         description: "Perguntas focadas em processos, Lean e melhoria contínua nas operações de pagamento",
         questions: [
@@ -305,7 +279,7 @@ const myQuestionsData = {
         ]
       },
       {
-        category: "Estratégia Financeira e Parcerias de Alto Impacto",
+        category: "<strong>Eduardo L.</strong> <small>(Estratégia Financeira e Parcerias de Alto Impacto)</small>",
         icon: "💼",
         description: "Perguntas que cruzam finanças, M&A e decisões estratégicas em pagamentos",
         questions: [
@@ -332,7 +306,7 @@ const myQuestionsData = {
         ]
       },
       {
-        category: "Business Intelligence e Métricas de Sucesso em Pagamentos",
+        category: "<strong>Gabriela B.</strong> <small>(Business Intelligence e Métricas de Sucesso em Pagamentos)</small>",
         icon: "📊",
         description: "Perguntas dirigidas a profissionais de BI/Data Analysis para impulsionar decisões em pagamentos",
         questions: [
@@ -380,8 +354,8 @@ const myQuestionsData = {
             level: "Tactical"
           },
           {
-            q: "How do you measure success of operational transformation in payments? Which metrics beyond Payment Success Rate and Authorization Rate are critical for business?",
-            note: "Reveals knowledge of specific payment metrics",
+            q: "How do you measure success of a payments operations transformation? Beyond Payment Success Rate and Authorization Rate, which efficiency metrics (e.g., Operational Cost per Transaction and Processing Time) and customer experience metrics (such as NPS) are critical for the business?",
+            note: "Reveals knowledge of both efficiency and customer experience metrics in payments",
             level: "Operational"
           },
           {
@@ -393,7 +367,7 @@ const myQuestionsData = {
       },
       // New custom categories tailored to each interviewer
       {
-        category: "Modeling & Data Science in Payments",
+        category: "<strong>Heleno P.</strong> <small>(Modeling & Data Science in Payments)</small>",
         icon: "🧠",
         description: "Questions aligned with the interviewer's expertise in data science and pricing",
         questions: [
@@ -420,7 +394,7 @@ const myQuestionsData = {
         ]
       },
       {
-        category: "Payments Programs & International Expansion",
+        category: "<strong>Sujash B.</strong> <small>(Payments Programs & International Expansion)</small>",
         icon: "🌎",
         description: "Questions exploring the interviewer's experience managing payment programs and global partnerships",
         questions: [
@@ -447,7 +421,7 @@ const myQuestionsData = {
         ]
       },
       {
-        category: "Operational Excellence & Continuous Improvement in Payments",
+        category: "<strong>Andreia G.</strong> <small>(Operational Excellence & Continuous Improvement in Payments)</small>",
         icon: "⚙️",
         description: "Questions focused on processes, Lean and continuous improvement in payment operations",
         questions: [
@@ -474,7 +448,7 @@ const myQuestionsData = {
         ]
       },
       {
-        category: "Financial Strategy & High‑Impact Partnerships",
+        category: "<strong>Eduardo L.</strong> <small>(Financial Strategy & High‑Impact Partnerships)</small>",
         icon: "💼",
         description: "Questions crossing finance, M&A and strategic decisions in payments",
         questions: [
@@ -501,7 +475,7 @@ const myQuestionsData = {
         ]
       },
       {
-        category: "Business Intelligence & Success Metrics in Payments",
+        category: "<strong>Gabriela B.</strong> <small>(Business Intelligence & Success Metrics in Payments)</small>",
         icon: "📊",
         description: "Questions directed at BI/Data Analysis professionals to drive decisions in payments",
         questions: [
@@ -662,33 +636,7 @@ const myQuestionsData = {
           }
         ]
       },
-      {
-        category: "Glassdoor Suggestions",
-        icon: "📝",
-        description: "Questions inspired by recent interview stories shared on Glassdoor",
-        questions: [
-          {
-            q: "Glassdoor reviews highlight inclusive leadership as a differentiator. Which behaviors do you prioritize when evaluating senior Program Managers?",
-            note: "Shows you connect external research with Amazon expectations",
-            level: "Leadership"
-          },
-          {
-            q: "Several candidates mention integration challenges between tech and operations. What lessons from those cases still guide the roadmap today?",
-            note: "Signals you convert public feedback into structured improvements",
-            level: "Strategic"
-          },
-          {
-            q: "Many reviews reference the bar raiser round. What recurring rejection patterns have you identified and how did you evolve interviewer coaching?",
-            note: "Reinforces focus on continuously improving the hiring journey",
-            level: "Operational"
-          },
-          {
-            q: "Candidates appreciate clarity on success within the first 90 days. How do you design onboarding so new PMs can deliver fast impact?",
-            note: "Emphasizes commitment to early wins and measurable outcomes",
-            level: "Execution"
-          }
-        ]
-      },
+      // The Glassdoor-based category was removed to emphasize questions tailored to each interviewer and the role requirements.
       {
         category: "Strategic Closing Questions",
         icon: "🚀",
