@@ -1,0 +1,1075 @@
+
+╔═══════════════════════════════════════════════════════════════╗
+║     RELATÓRIO DE COBERTURA - PERGUNTAS × CASES                ║
+╚═══════════════════════════════════════════════════════════════╝
+
+
+══════════════════════════════════════════════════════════════════════
+  CUSTOMER OBSESSION
+══════════════════════════════════════════════════════════════════════
+
+Q1: Conte uma situação onde você foi além da expectativa do cliente ou antecipou uma necessidade não expressa
+   ✅ 1 case(s):
+      • sicredi-small-business-survival (score: 100)
+        "Fui alem da expectativa e salvei 2.400 pequenos negocios durante a pandemia"
+
+Q2: Me fale sobre uma vez que você colocou o cliente em primeiro lugar
+   ✅ 1 case(s):
+      • bradesco-elderly-digital-inclusion (score: 100)
+        "Antecipei exclusão digital de idosos e criei jornada que devolveu dignidade"
+
+Q3: Conte sobre quando você teve que escolher entre cliente e métricas internas
+   ✅ 1 case(s):
+      • sicredi-woop-segment-balance (score: 100)
+        "Equilibrei necessidades de 340 cooperativas B2B e 1,2M pessoas B2C com um único ..."
+
+Q4: Como você entende as necessidades dos clientes?
+   ✅ 1 case(s):
+      • unimed-pet-anticipation (score: 100)
+        "Antecipei necessidade de saúde pet e criei produto antes do mercado expressar"
+
+Q5: Descreva uma situação onde você melhorou a experiência do cliente
+   ✅ 1 case(s):
+      • unimed-cancer-patient-journey (score: 100)
+        "Antecipei necessidade de pacientes oncológicos e criei jornada que salvou vidas"
+
+Q6: Conte sobre uma vez que você usou feedback de clientes para mudar completamente uma estratégia de produto
+   ✅ 1 case(s):
+      • sicredi-fraud-prevention-experience (score: 100)
+        "Equilibrei prevencao de fraude com experiencia do cliente reduzindo bloqueios in..."
+
+Q7: Descreva uma situação onde você teve que equilibrar demandas competitivas de múltiplos clientes
+   ✅ 1 case(s):
+      • sicredi-chargeback-proactive-resolution (score: 100)
+        "Reduzi chargebacks de 1.8% para 0.5% mantendo NPS em 81 com resolucao proativa"
+
+Q8: Me fale sobre quando você não conseguiu atender a expectativa de um cliente - o que você aprendeu?
+   ✅ 1 case(s):
+      • sicredi-premium-recovery (score: 100)
+        "Falhei com cliente premium e reconquistei confiança em 72 horas"
+
+Q9: Como você prioriza necessidades de clientes quando recursos são limitados?
+   ✅ 1 case(s):
+      • sicredi-woop-segment-balance (score: 100)
+        "Equilibrei necessidades de 340 cooperativas B2B e 1,2M pessoas B2C com um único ..."
+
+Q10: Conte sobre uma vez que você defendeu um cliente mesmo quando isso não era popular internamente
+   ✅ 1 case(s):
+      • bradesco-elderly-digital-inclusion (score: 100)
+        "Antecipei exclusão digital de idosos e criei jornada que devolveu dignidade"
+
+Q11: Como você equilibra prevenção de fraude com experiência do cliente?
+   ✅ 1 case(s):
+      • sicredi-fraud-prevention-experience (score: 100)
+        "Equilibrei prevencao de fraude com experiencia do cliente reduzindo bloqueios in..."
+
+Q12: Como você reduziu chargebacks/disputas mantendo satisfação do cliente?
+   ✅ 1 case(s):
+      • sicredi-chargeback-proactive-resolution (score: 100)
+        "Reduzi chargebacks de 1.8% para 0.5% mantendo NPS em 81 com resolucao proativa"
+
+Q13: Como você equilibra necessidades de diferentes segmentos de clientes?
+   ✅ 1 case(s):
+      • sicredi-woop-segment-balance (score: 100)
+        "Equilibrei necessidades de 340 cooperativas B2B e 1,2M pessoas B2C com um único ..."
+
+Q14: Conte sobre quando você teve que educar um cliente sobre algo que ele não sabia que precisava
+   ✅ 1 case(s):
+      • sicredi-small-business-survival (score: 100)
+        "Fui alem da expectativa e salvei 2.400 pequenos negocios durante a pandemia"
+
+
+══════════════════════════════════════════════════════════════════════
+  PROGRAM MANAGEMENT
+══════════════════════════════════════════════════════════════════════
+
+Q1: Conte sobre o programa mais complexo que você liderou - qual era o escopo, quantos times envolvidos e qual foi o resultado?
+   ✅ 1 case(s):
+      • sefaz-profisco-ii-program (score: 100)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
+
+Q2: Como você gerencia múltiplos projetos interdependentes com recursos limitados?
+   ✅ 1 case(s):
+      • sefaz-profisco-ii-program (score: 100)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
+
+Q3: Descreva uma situação onde você teve que ajustar o roadmap de um programa devido a mudanças externas
+   ✅ 1 case(s):
+      • sefaz-roadmap-adjustment-reforma-tributária (score: 100)
+        "Ajustei o Roadmap de Projetos Fiscais na SEFAZ Devido a Reforma Tributária"
+
+Q4: Como você garante alinhamento entre múltiplos stakeholders com prioridades conflitantes?
+   ✅ 1 case(s):
+      • sefaz-pmo-creation (score: 100)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+
+Q5: Conte sobre quando você teve que escalar um problema crítico em um programa - como você decidiu quando e para quem escalar?
+   ✅ 1 case(s):
+      • sefaz-profisco-ii-program (score: 100)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
+
+Q6: Como você mede sucesso de um programa além de prazo e orçamento?
+   ✅ 1 case(s):
+      • sefaz-pmo-creation (score: 100)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+
+Q7: Descreva uma situação onde você teve que cancelar ou pivotar um programa em andamento
+   ✅ 1 case(s):
+      • unimed-cvc-cancellation (score: 100)
+        "Cancelei o Programa de CVC na Lacador Participações Devido a Troca de Gestão"
+
+Q8: Como você gerencia dependências críticas entre times que você não controla diretamente?
+   ✅ 1 case(s):
+      • sefaz-profisco-ii-program (score: 100)
+        "Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança ..."
+
+Q9: Conte sobre quando você teve que recuperar um programa que estava fora dos trilhos
+   ✅ 1 case(s):
+      • sicredi-woop-delay-communication (score: 100)
+        "Comuniquei Atraso de 3 Meses no Lançamento do App Woop ao Board"
+
+Q10: Como você equilibra governança rigorosa com agilidade e velocidade de execução?
+   ✅ 1 case(s):
+      • sefaz-pmo-creation (score: 100)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+
+Q11: Descreva uma situação onde você teve que comunicar más notícias sobre um programa para executivos seniores
+   ✅ 1 case(s):
+      • sicredi-woop-delay-communication (score: 100)
+        "Comuniquei Atraso de 3 Meses no Lançamento do App Woop ao Board"
+
+Q12: Como você identifica e mitiga riscos em programas de larga escala?
+   ✅ 1 case(s):
+      • hsbc-migration-leadership (score: 100)
+        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
+
+Q13: Como você comunica progresso de programas complexos para diferentes audiências?
+   ✅ 1 case(s):
+      • sefaz-pmo-creation (score: 100)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+
+Q14: Me fale sobre um programa extremamente crítico onde você teve que coordenar múltiplas áreas sob alta pressão – como garantiu controle, visibilidade e confiança executiva durante a execução?
+   ✅ 1 case(s):
+      • hsbc-migration-leadership (score: 100)
+        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
+
+Q15: Conte sobre uma vez em que você precisou replanejar completamente um programa em andamento devido a mudanças externas – como reavaliou prioridades e gerenciou riscos sem perder o controle?
+   ✅ 1 case(s):
+      • sefaz-roadmap-adjustment-reforma-tributária (score: 100)
+        "Ajustei o Roadmap de Projetos Fiscais na SEFAZ Devido a Reforma Tributária"
+
+Q16: Descreva uma situação em que tomar uma decisão impopular – como encerrar um programa ou realocar recursos – foi essencial para proteger objetivos estratégicos da organização.
+   ✅ 1 case(s):
+      • unimed-cvc-cancellation (score: 100)
+        "Cancelei o Programa de CVC na Lacador Participações Devido a Troca de Gestão"
+
+
+══════════════════════════════════════════════════════════════════════
+  OWNERSHIP
+══════════════════════════════════════════════════════════════════════
+
+Q1: Nos conte uma situação onde você assumiu responsabilidade além do seu escopo de trabalho e área de conhecimento - como lidou com isso, equilibrando as tarefas atuais/normais com essas outras (novas)?
+   ✅ 1 case(s):
+      • hsbc-migration-leadership (score: 100)
+        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
+
+Q2: Me dê um exemplo de quando você foi além da sua função
+   ✅ 1 case(s):
+      • sefaz-pmo-creation (score: 100)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+
+Q3: Conte sobre uma decisão de longo prazo que você tomou
+   ✅ 1 case(s):
+      • long-term-tradeoff (score: 100)
+        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
+
+Q4: Como você age quando algo não é sua responsabilidade?
+   ✅ 1 case(s):
+      • hsbc-payment-reconciliation (score: 100)
+        "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
+
+Q5: Me fale sobre um trade-off difícil que você fez pensando no longo prazo
+   ✅ 1 case(s):
+      • bradesco-next-delay (score: 100)
+        "Erro de Estimativa no Lançamento Bradesco Next"
+
+Q6: Descreva uma situação onde você tomou uma decisão importante de negócio sem consultar seu gestor
+   ✅ 1 case(s):
+      • sefaz-emergency-rollback-no-approval (score: 100)
+        "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
+
+Q7: Me fale sobre quando você identificou uma ineficiência e tomou ownership para melhorar
+   ✅ 1 case(s):
+      • payment-incidents-prevention-mechanism (score: 100)
+        "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
+
+Q8: Como você lida com situações onde precisa assumir responsabilidade por erros?
+   ✅ 1 case(s):
+      • bradesco-next-delay (score: 100)
+        "Erro de Estimativa no Lançamento Bradesco Next"
+
+Q9: Descreva um projeto que você liderou do início ao fim - como garantiu o sucesso?
+   ✅ 1 case(s):
+      • hsbc-migration-leadership (score: 100)
+        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
+
+Q10: Descreva quando você criou um mecanismo para prevenir problemas recorrentes em pagamentos
+   ✅ 1 case(s):
+      • payment-incidents-prevention-mechanism (score: 100)
+        "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
+
+Q11: Como você lida com situações onde múltiplas pessoas poderiam assumir ownership?
+   ✅ 1 case(s):
+      • hsbc-payment-reconciliation (score: 100)
+        "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
+
+Q12: Conte sobre quando você teve que assumir ownership de um problema criado por outro time
+   ✅ 1 case(s):
+      • bradesco-international-payments (score: 100)
+        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+
+Q13: Como você gerencia dependências entre múltiplos times?
+   ✅ 1 case(s):
+      • hsbc-migration-leadership (score: 100)
+        "Liderança da Migração de US$ 5.2B de Ativos e Contas"
+
+Q14: Conte sobre uma vez em que você percebeu que os dados ou métricas estavam cegando a empresa para a realidade dos clientes – como você identificou e corrigiu isso?
+   ✅ 1 case(s):
+      • sefaz-pmo-creation (score: 100)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+
+Q15: Descreva uma situação em que você percebeu que a solução solicitada pelo cliente não resolveria a necessidade real. Como identificou e abordou a causa raiz?.
+   ✅ 1 case(s):
+      • bradesco-international-payments (score: 100)
+        "Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias"
+
+Q16: Conte sobre uma situação em que a política de segurança ou compliance da empresa estava prejudicando a experiência dos clientes. O que você fez para reequilibrar os dois lados?
+   ✅ 1 case(s):
+      • hsbc-payment-reconciliation (score: 100)
+        "Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover"
+
+Q17: Fale sobre uma vez em que você transformou um processo de conflito ou reclamação de clientes em uma oportunidade de fidelização.
+   ✅ 1 case(s):
+      • payment-incidents-prevention-mechanism (score: 100)
+        "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
+
+
+══════════════════════════════════════════════════════════════════════
+  DIVE DEEP
+══════════════════════════════════════════════════════════════════════
+
+Q1: Conte uma situação onde você precisou entender a causa raiz para resolver um problema complexo
+   ✅ 1 case(s):
+      • sicredi-pix-settlement (score: 100)
+        "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
+
+Q2: Me fale sobre quando você teve que investigar um problema complexo
+   ✅ 1 case(s):
+      • sicredi-churn-analysis (score: 100)
+        "Análise de Dados para Identificar os Principais Drivers de Churn no App"
+
+Q3: Como você garante qualidade nos detalhes?
+   ✅ 1 case(s):
+      • hsbc-data-validation-audit (score: 100)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
+
+Q4: Descreva uma situação onde dados superficiais não eram suficientes
+   ✅ 1 case(s):
+      • unimed-fraud-investigation (score: 100)
+        "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
+
+Q5: Conte sobre o problema mais complicado que você teve que lidar - como você investigou?
+   ✅ 1 case(s):
+      • sicredi-pix-settlement (score: 100)
+        "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
+
+Q6: Me dê um exemplo de quando você usou dados em profundidade para desenvolver uma solução
+   ✅ 1 case(s):
+      • sicredi-payment-experimentation (score: 100)
+        "Experimentação Sistemática em Plataforma de Pagamentos para Encontrar Modelo de ..."
+
+Q7: Descreva uma vez que alguém te deu uma explicação mas você não acreditou e investigou - qual foi a verdade?
+   ✅ 1 case(s):
+      • hsbc-data-validation-audit (score: 100)
+        "Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países"
+
+Q8: Como você usa '5 Whys' ou análise de causa raiz para chegar ao fundo de problemas?
+   ✅ 1 case(s):
+      • sicredi-churn-analysis (score: 100)
+        "Análise de Dados para Identificar os Principais Drivers de Churn no App"
+
+Q9: Conte sobre quando métricas e anedotas diferiam - como você descobriu a verdade?
+   ✅ 1 case(s):
+      • sicredi-churn-analysis (score: 100)
+        "Análise de Dados para Identificar os Principais Drivers de Churn no App"
+
+Q10: Conte sobre uma vez que você identificou um padrão de fraude ou risco que outros não viram
+   ✅ 1 case(s):
+      • unimed-fraud-investigation (score: 100)
+        "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
+
+Q11: Como você sabe quando parar de analisar e começar a agir?
+   ✅ 1 case(s):
+      • unimed-agile-transformation-communication (score: 100)
+        "Comunicação de Progresso em Transformação Ágil com Objetivos Fluidos"
+
+Q12: Conte sobre quando sua análise profunda revelou algo que ninguém esperava
+   ✅ 1 case(s):
+      • unimed-fraud-investigation (score: 100)
+        "Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede"
+
+Q13: Conte sobre uma vez em que você precisou mergulhar fundo para entender por que a comunicação tradicional estava falhando em um projeto complexo – o que descobriu e como solucionou?
+   ✅ 1 case(s):
+      • unimed-agile-transformation-communication (score: 100)
+        "Comunicação de Progresso em Transformação Ágil com Objetivos Fluidos"
+
+Q14: Descreva uma situação em que somente uma análise detalhada ou experimentação controlada permitiu chegar à resposta certa, enquanto decisões rápidas baseadas em intuição teriam falhado.
+   ✅ 1 case(s):
+      • sicredi-payment-experimentation (score: 100)
+        "Experimentação Sistemática em Plataforma de Pagamentos para Encontrar Modelo de ..."
+
+
+══════════════════════════════════════════════════════════════════════
+  INVENT AND SIMPLIFY
+══════════════════════════════════════════════════════════════════════
+
+Q1: Conte sobre uma inovação que você implementou que simplificou um processo (que era complexo)?
+   ✅ 1 case(s):
+      • unimed-ai-authorization (score: 100)
+        "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
+
+Q2: Me fale sobre uma solução criativa que você desenvolveu
+   ✅ 1 case(s):
+      • huawei-six-sigma-optimization (score: 100)
+        "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing"
+
+Q3: Como você simplifica processos complexos?
+   ✅ 1 case(s):
+      • huawei-six-sigma-optimization (score: 100)
+        "Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing"
+
+Q4: Descreva uma situação onde você desafiou o status quo
+   ✅ 1 case(s):
+      • unimed-open-innovation (score: 100)
+        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
+
+Q5: Me fale sobre uma vez que você criou um processo mais simples que teve grande impacto
+   ✅ 1 case(s):
+      • sefarz-pix-reconciliation-automation (score: 100)
+        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
+
+Q6: Conte sobre quando você teve um plano mas encontrou obstáculos - como você pivotou?
+   ✅ 1 case(s):
+      • payment-simplification-high-impact (score: 100)
+        "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
+
+Q7: Descreva uma situação onde você equilibrou inovação com risco
+   ✅ 1 case(s):
+      • bradesco-next-compliance-simplification (score: 100)
+        "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
+
+Q8: Como você decidiu entre construir uma solução própria vs. adaptar algo existente?
+   ✅ 1 case(s):
+      • sefarz-pix-reconciliation-automation (score: 100)
+        "Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fisca..."
+
+Q9: Me dê um exemplo de quando você usou tecnologia/ferramenta de forma não-convencional para resolver um problema
+   ✅ 1 case(s):
+      • unimed-open-innovation (score: 100)
+        "Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%"
+
+Q10: Conte sobre um processo de payment operations que você automatizou ou otimizou
+   ✅ 1 case(s):
+      • payment-simplification-high-impact (score: 100)
+        "Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketpl..."
+
+Q11: Como você convence stakeholders céticos sobre uma inovação disruptiva?
+   ✅ 1 case(s):
+      • unimed-ai-authorization (score: 100)
+        "Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Hora..."
+
+Q12: Conte sobre quando você simplificou algo que todos achavam que precisava ser complexo
+   ✅ 1 case(s):
+      • bradesco-next-compliance-simplification (score: 100)
+        "Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas"
+
+
+══════════════════════════════════════════════════════════════════════
+  EARN TRUST
+══════════════════════════════════════════════════════════════════════
+
+Q1: Qual foi o feedback mais difícil que você já recebeu? E como lidou com isso? / Me conte sobre um feedback negativo que você recebeu
+   ✅ 1 case(s):
+      • hard-feedback-leadership-style (score: 100)
+        "Transformei feedback devastador em pacto de transparência radical"
+
+Q2: Conte sobre uma vez que você admitiu um erro
+   ✅ 1 case(s):
+      • sicredi-post-mortem-transparency (score: 100)
+        "Reconstruí confiança após bug Pix com ritual de transparências diárias"
+
+Q3: Me fale sobre quando você teve que reconstruir confiança
+   ✅ 1 case(s):
+      • hsbc-bacen-communication (score: 100)
+        "Transformei relacionamento com Bacen com briefings executivos em 48h"
+
+Q4: Como você lida com conflitos em equipe?
+   ✅ 1 case(s):
+      • bradesco-sla-director (score: 100)
+        "Redefini SLA crítico com diretor para recuperar credibilidade operacional"
+
+Q5: Descreva uma situação onde você foi transparente mesmo sendo desconfortável
+   ✅ 1 case(s):
+      • sicredi-post-mortem-transparency (score: 100)
+        "Reconstruí confiança após bug Pix com ritual de transparências diárias"
+
+Q6: Conte sobre um desacordo com um colega/gestor - como você resolveu?
+   ✅ 1 case(s):
+      • sicredi-post-mortem-transparency (score: 100)
+        "Reconstruí confiança após bug Pix com ritual de transparências diárias"
+
+Q7: Me fale sobre quando você teve que falar uma verdade dura para alguém
+   ✅ 1 case(s):
+      • sicredi-post-mortem-transparency (score: 100)
+        "Reconstruí confiança após bug Pix com ritual de transparências diárias"
+
+Q8: Descreva uma vez que você teve que influenciar um peer que tinha opinião diferente sobre um objetivo compartilhado
+   ✅ 1 case(s):
+      • hsbc-bacen-communication (score: 100)
+        "Transformei relacionamento com Bacen com briefings executivos em 48h"
+
+Q9: Como você constrói confiança com stakeholders que você não conhece?
+   ✅ 1 case(s):
+      • bradesco-partner-recovery (score: 100)
+        "Reconquistei parceiro chave com plano de saldo garantido em 30 dias"
+
+Q10: Conte sobre quando você foi vocalmente auto-crítico mesmo sendo constrangedor
+   ✅ 1 case(s):
+      • hard-feedback-leadership-style (score: 100)
+        "Transformei feedback devastador em pacto de transparência radical"
+
+Q11: Me fale sobre uma parceria complexa que você negociou com processadores de pagamento
+   ✅ 1 case(s):
+      • bradesco-partner-recovery (score: 100)
+        "Reconquistei parceiro chave com plano de saldo garantido em 30 dias"
+
+Q12: Como você gerencia relacionamentos com múltiplos stakeholders (bancos, gateways, reguladores)?
+   ✅ 1 case(s):
+      • hsbc-bacen-communication (score: 100)
+        "Transformei relacionamento com Bacen com briefings executivos em 48h"
+
+Q13: Conte sobre quando você teve que influenciar parceiros externos sem autoridade direta
+   ✅ 1 case(s):
+      • bradesco-partner-recovery (score: 100)
+        "Reconquistei parceiro chave com plano de saldo garantido em 30 dias"
+
+Q14: Como você reconstrói confiança após um erro que afetou a equipe?
+   ✅ 1 case(s):
+      • bradesco-sla-director (score: 100)
+        "Redefini SLA crítico com diretor para recuperar credibilidade operacional"
+
+Q15: Conte sobre quando você teve que ser transparente sobre algo que te prejudicaria
+   ✅ 1 case(s):
+      • hard-feedback-leadership-style (score: 100)
+        "Transformei feedback devastador em pacto de transparência radical"
+
+Q16: Como você comunica status para executivos sêniores?
+   ✅ 1 case(s):
+      • bradesco-sla-director (score: 100)
+        "Redefini SLA crítico com diretor para recuperar credibilidade operacional"
+
+
+══════════════════════════════════════════════════════════════════════
+  DELIVER RESULTS
+══════════════════════════════════════════════════════════════════════
+
+Q1: Conte sobre um projeto desafiador entregue com sucesso superando obstáculos significativos
+   ✅ 1 case(s):
+      • huawei-world-cup-4g (score: 100)
+        "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidad..."
+
+Q2: Me fale sobre uma vez que você entregou sob pressão
+   ✅ 1 case(s):
+      • sicredi-fraud-reduction (score: 100)
+        "Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses"
+
+Q3: Como você lida com prazos apertados?
+   ✅ 1 case(s):
+      • unimed-vendor-termination (score: 100)
+        "Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de teleme..."
+
+Q4: Me dê um exemplo de quando você teve que priorizar para entregar no prazo
+   ✅ 1 case(s):
+      • unimed-ebitda-growth (score: 100)
+        "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave"
+
+Q5: Conte sobre quando você não gerenciou prioridades efetivamente e algo não foi entregue no prazo
+   ✅ 1 case(s):
+      • sicredi-pix-deadline-miss-recovery (score: 100)
+        "Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei ..."
+
+Q6: Me fale sobre quando você teve dois deadlines ao mesmo tempo - como gerenciou?
+   ✅ 1 case(s):
+      • huawei-world-cup-4g (score: 100)
+        "Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidad..."
+
+Q7: Descreva uma vez que você teve que entregar resultados diante de desafios significativos
+   ✅ 1 case(s):
+      • sefaz-ecage-portal (score: 100)
+        "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção"
+
+Q8: Como você foca nos inputs-chave do negócio e os entrega com qualidade no prazo?
+   ✅ 1 case(s):
+      • unimed-ebitda-growth (score: 100)
+        "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave"
+
+Q9: Conte sobre quando você se recusou a baixar padrões apesar de pressão por deadlines
+   ✅ 1 case(s):
+      • unimed-99-99-uptime-standard (score: 100)
+        "Estabelecimento de Novo Padrão de Disponibilidade 99.99% Considerado Impossível ..."
+
+Q10: Conte sobre uma meta desafiadora que você alcançou
+   ✅ 1 case(s):
+      • unimed-99-99-uptime-standard (score: 100)
+        "Estabelecimento de Novo Padrão de Disponibilidade 99.99% Considerado Impossível ..."
+
+Q11: Como você lida com situações onde entregar o resultado pode comprometer relacionamentos?
+   ✅ 1 case(s):
+      • unimed-vendor-termination (score: 100)
+        "Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de teleme..."
+
+Q12: Conte sobre quando você teve que escolher entre resultado perfeito e prazo crítico
+   ✅ 1 case(s):
+      • sicredi-pix-deadline-miss-recovery (score: 100)
+        "Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei ..."
+
+Q13: Conte-me sobre um momento em que você teve que agir com extrema velocidade para reverter uma crise ou um 'sangramento' financeiro. Como você identificou os inputs corretos para focar sob essa pressão?
+   ✅ 1 case(s):
+      • sicredi-fraud-reduction (score: 100)
+        "Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses"
+
+Q14: Fale sobre uma situação em que você teve que entregar um resultado ambicioso com recursos limitados ou restrições severas. Como você fez trade-offs para garantir a entrega sem comprometer os padrões essenciais?
+   ✅ 1 case(s):
+      • sefaz-ecage-portal (score: 100)
+        "Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção"
+
+
+══════════════════════════════════════════════════════════════════════
+  STAKEHOLDER MANAGEMENT
+══════════════════════════════════════════════════════════════════════
+
+Q1: Conte sobre uma situação onde você teve que influenciar stakeholders seniores sem autoridade formal
+   ✅ 1 case(s):
+      • stakeholder-management-case-4 (score: 100)
+        "Influência sem Autoridade: Como Convenci Secretarias a Adotar um Framework Integ..."
+
+Q2: Como você gerencia expectativas de stakeholders quando não pode entregar tudo que eles querem?
+   ✅ 1 case(s):
+      • huawei-4g-copa-2014-stakeholder (score: 100)
+        "Coordenei lançamento 4G em 12 cidades da Copa 2014 negociando com 20 fornecedore..."
+
+Q3: Descreva uma situação onde você teve que construir consenso entre stakeholders com visões opostas
+   ✅ 1 case(s):
+      • sicredi-woop-stakeholder-management (score: 100)
+        "Transformação Digital do Woop Sicredi: Engajamento de Base Cooperativista com 6,..."
+
+Q4: Como você identifica e engaja stakeholders críticos em um projeto complexo?
+   ✅ 1 case(s):
+      • huawei-4g-copa-2014-stakeholder (score: 100)
+        "Coordenei lançamento 4G em 12 cidades da Copa 2014 negociando com 20 fornecedore..."
+
+Q5: Conte sobre quando você teve que dizer 'não' para um stakeholder poderoso - como você abordou?
+   ✅ 1 case(s):
+      • unimed-vendor-termination-trust (score: 100)
+        "Disse 'Não' ao CEO e Desliguei Fornecedor de 8 Anos - Depois Reconstruí Confianç..."
+
+Q6: Como você mantém stakeholders engajados em programas de longo prazo?
+   ✅ 1 case(s):
+      • huawei-global-rollout (score: 100)
+        "Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Hu..."
+
+Q7: Descreva uma situação onde você teve que reconstruir confiança com um stakeholder após um problema
+   ✅ 1 case(s):
+      • unimed-vendor-termination-trust (score: 100)
+        "Disse 'Não' ao CEO e Desliguei Fornecedor de 8 Anos - Depois Reconstruí Confianç..."
+
+Q8: Como você adapta sua comunicação para diferentes tipos de stakeholders (técnicos vs executivos)?
+   ✅ 1 case(s):
+      • stakeholder-management-case-4 (score: 100)
+        "Influência sem Autoridade: Como Convenci Secretarias a Adotar um Framework Integ..."
+
+Q9: Conte sobre quando você teve que gerenciar conflito entre stakeholders de diferentes áreas
+   ✅ 1 case(s):
+      • stakeholder-management-case-2 (score: 100)
+        "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave"
+
+Q10: Como você garante que stakeholders críticos estejam informados sem sobrecarregá-los?
+   ✅ 1 case(s):
+      • huawei-global-rollout (score: 100)
+        "Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Hu..."
+
+Q11: Descreva uma situação onde você teve que negociar trade-offs difíceis com múltiplos stakeholders
+   ✅ 1 case(s):
+      • stakeholder-management-case-2 (score: 100)
+        "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave"
+
+Q12: Como você lida com stakeholders que resistem a mudanças necessárias?
+   ✅ 1 case(s):
+      • sicredi-woop-stakeholder-management (score: 100)
+        "Transformação Digital do Woop Sicredi: Engajamento de Base Cooperativista com 6,..."
+
+
+══════════════════════════════════════════════════════════════════════
+  LEARN AND BE CURIOUS
+══════════════════════════════════════════════════════════════════════
+
+Q1: Como você se mantém atualizado na sua área de expertise e como explora novas áreas de conhecimento?
+   ✅ 1 case(s):
+      • stay-updated-payments-fintech (score: 100)
+        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
+
+Q2: Me fale sobre a última coisa nova que você aprendeu
+   ✅ 1 case(s):
+      • olibano-blockchain-exploration (score: 100)
+        "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
+
+Q3: Conte sobre uma vez que você saiu da sua zona de conforto
+   ✅ 1 case(s):
+      • out-of-comfort-zone-transparency-portal (score: 100)
+        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
+
+Q4: Descreva uma situação onde você teve que aprender algo rapidamente
+   ✅ 1 case(s):
+      • out-of-comfort-zone-transparency-portal (score: 100)
+        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
+
+Q5: Me dê um exemplo de quando sua curiosidade levou a uma melhoria
+   ✅ 1 case(s):
+      • bradesco-safe-agile-framework (score: 100)
+        "Implementação de Framework Ágil em Escala para Banco Digital"
+
+Q6: Conte sobre uma missão ou objetivo que você não achava que era alcançável - como você abordou?
+   ✅ 1 case(s):
+      • out-of-comfort-zone-transparency-portal (score: 100)
+        "Liderei o Portal da Transparência: Fora da Zona de Conforto"
+
+Q7: Me fale sobre algo que você aprendeu que te tornou melhor no seu trabalho
+   ✅ 1 case(s):
+      • unimed-harvard-healthcare-innovation (score: 100)
+        "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
+
+Q8: Descreva uma área onde você identificou uma lacuna de conhecimento e como você a preencheu
+   ✅ 1 case(s):
+      • unimed-harvard-healthcare-innovation (score: 100)
+        "Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do P..."
+
+Q9: Como você explora novas possibilidades mesmo quando está ocupado com o dia a dia?
+   ✅ 1 case(s):
+      • stay-updated-payments-fintech (score: 100)
+        "Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendiza..."
+
+Q10: Conte sobre quando você aplicou aprendizados de uma área completamente diferente ao seu trabalho
+   ✅ 1 case(s):
+      • unimed-cvc-failure-learning (score: 100)
+        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
+
+Q11: Conte sobre um projeto que não deu certo / que você falhou
+   ✅ 1 case(s):
+      • unimed-cvc-failure-learning (score: 100)
+        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
+
+Q12: Conte sobre uma situação onde você aprendeu com erros
+   ✅ 1 case(s):
+      • unimed-cvc-failure-learning (score: 100)
+        "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
+
+Q13: Como você identifica quando precisa desaprender algo que sabia?
+   ✅ 1 case(s):
+      • bradesco-safe-agile-framework (score: 100)
+        "Implementação de Framework Ágil em Escala para Banco Digital"
+
+Q14: Conte sobre quando sua curiosidade te levou a questionar uma prática estabelecida
+   ✅ 1 case(s):
+      • olibano-blockchain-exploration (score: 100)
+        "Prototipagem de Solução de Pagamentos com Blockchain Após Especialização"
+
+
+══════════════════════════════════════════════════════════════════════
+  BIAS FOR ACTION
+══════════════════════════════════════════════════════════════════════
+
+Q1: Nos dê um exemplo de risco calculado que você tomou quando o tempo era crítico, e como você mitigou esse risco?
+   ✅ 1 case(s):
+      • hsbc-migration-against-experts (score: 100)
+        "Mantive go-live da migração HSBC→Bradesco contrariando recomendação de adiar 3 m..."
+
+Q2: Me fale sobre uma decisão que você tomou com informação limitada
+   ✅ 1 case(s):
+      • sicredi-fraud-emergency-4h-decision (score: 100)
+        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
+
+Q3: Conte sobre uma vez que você agiu rapidamente
+   ✅ 1 case(s):
+      • sefaz-emergency-tax-portal (score: 100)
+        "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
+
+Q4: Como você decide quando é hora de agir vs. analisar mais?
+   ✅ 1 case(s):
+      • bradesco-next-rapid-launch (score: 100)
+        "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
+
+Q5: Descreva uma situação onde velocidade era crítica
+   ✅ 1 case(s):
+      • calculated-risk-time-critical (score: 100)
+        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
+
+Q6: Me fale sobre quando você foi o primeiro a agir em algo
+   ✅ 1 case(s):
+      • sicredi-ml-credit-approval (score: 100)
+        "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
+
+Q7: Descreva uma vez que você teve que tomar decisão reversível rapidamente vs. irreversível com mais análise
+   ✅ 1 case(s):
+      • bradesco-next-rapid-launch (score: 100)
+        "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
+
+Q8: Como você equilibra necessidade de dados com necessidade de agir?
+   ✅ 1 case(s):
+      • sicredi-fraud-emergency-4h-decision (score: 100)
+        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
+
+Q9: Conte sobre quando você teve que mudar curso/direção de um projeto quando estava 70% completo
+   ✅ 1 case(s):
+      • sefaz-project-pivot-70-percent (score: 100)
+        "Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sus..."
+
+Q10: Descreva uma situação onde você teve que tomar decisão rápida sobre transação suspeita
+   ✅ 1 case(s):
+      • sicredi-fraud-emergency-4h-decision (score: 100)
+        "Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 mi..."
+
+Q11: Como você comunica decisões rápidas para stakeholders que preferem mais análise?
+   ✅ 1 case(s):
+      • sicredi-ml-credit-approval (score: 100)
+        "Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% meno..."
+
+Q12: Conte sobre quando você teve que agir contra o conselho de especialistas
+   ✅ 1 case(s):
+      • hsbc-migration-against-experts (score: 100)
+        "Mantive go-live da migração HSBC→Bradesco contrariando recomendação de adiar 3 m..."
+
+Q13: Descreva uma situação em que uma crise externa exigiu que você entregasse uma solução funcional em um prazo impossível, forçando-o a agir mesmo contra os processos padrão ou a resistência interna.
+   ✅ 1 case(s):
+      • sefaz-emergency-tax-portal (score: 100)
+        "Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari"
+
+Q14: Conte-me sobre uma situação em que um sistema crítico falhou. Como você decidiu entre seguir o plano de recuperação padrão e tomar uma ação mais rápida e arriscada para restaurar o serviço?
+   ✅ 1 case(s):
+      • calculated-risk-time-critical (score: 100)
+        "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."
+
+Q15: Descreva um momento em que uma mudança externa tornou seu projeto atual parcialmente obsoleto. Como você decidiu entre continuar para cumprir o prazo original ou pivotar o escopo e arriscar o cronograma?
+   ✅ 1 case(s):
+      • sefaz-project-pivot-70-percent (score: 100)
+        "Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sus..."
+
+
+══════════════════════════════════════════════════════════════════════
+  PRIORITIZING AND INFLUENCE
+══════════════════════════════════════════════════════════════════════
+
+Q1: Conte sobre uma decisão difícil de priorização onde você teve que escolher entre múltiplas iniciativas críticas
+   ✅ 1 case(s):
+      • bradesco-covid-reprioritization (score: 100)
+        "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
+
+Q2: Como você decide o que NÃO fazer quando tudo parece urgente?
+   ✅ 1 case(s):
+      • bradesco-next-mvp-prioritization (score: 100)
+        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
+
+Q3: Descreva uma situação onde você influenciou uma decisão estratégica importante sem ter autoridade formal
+   ✅ 1 case(s):
+      • sicredi-woop-segment-prioritization (score: 100)
+        "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
+
+Q4: Como você usa dados para influenciar decisões quando stakeholders têm opiniões baseadas em intuição?
+   ✅ 1 case(s):
+      • sicredi-woop-segment-prioritization (score: 100)
+        "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
+
+Q5: Conte sobre quando você teve que defender uma priorização controversa para executivos seniores
+   ✅ 1 case(s):
+      • bradesco-next-mvp-prioritization (score: 100)
+        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
+
+Q6: Como você equilibra necessidades de curto prazo vs investimentos de longo prazo?
+   ✅ 1 case(s):
+      • hdg-pivot-to-robotics (score: 100)
+        "Pivotei HDG de Consultoria para Robotização Devido a Recursos Limitados"
+
+Q7: Descreva uma situação onde você mudou a priorização de um roadmap baseado em novas informações
+   ✅ 1 case(s):
+      • sefaz-framework-integrated-management (score: 100)
+        "Ajustei o Roadmap para Adotar Framework Integrado de Gestão na SEFAZ"
+
+Q8: Como você garante que decisões de priorização sejam transparentes e compreendidas por todos?
+   ✅ 1 case(s):
+      • bradesco-covid-reprioritization (score: 100)
+        "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
+
+Q9: Conte sobre quando você teve que influenciar uma decisão técnica importante com impacto de negócio
+   ✅ 1 case(s):
+      • bradesco-next-mvp-prioritization (score: 100)
+        "Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lança..."
+
+Q10: Como você lida com pressão para priorizar iniciativas que você acredita serem erradas?
+   ✅ 1 case(s):
+      • sicredi-woop-segment-prioritization (score: 100)
+        "Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses"
+
+Q11: Descreva uma situação onde você teve que repriorizar recursos em meio a uma crise
+   ✅ 1 case(s):
+      • bradesco-covid-reprioritization (score: 100)
+        "Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Oper..."
+
+Q12: Como você mede se suas decisões de priorização estão gerando o impacto esperado?
+   ✅ 1 case(s):
+      • sicredi-woop-delay (score: 100)
+        "Comuniquei Atraso de 3 Meses no Lançamento do App Woop ao Board"
+
+Q13: Descreva uma situação onde você teve que priorizar a integração de processos e a melhoria de frameworks de gestão, mesmo que isso significasse pausar a entrega de projetos ou features que já estavam no roadmap.
+   ✅ 1 case(s):
+      • sefaz-framework-integrated-management (score: 100)
+        "Ajustei o Roadmap para Adotar Framework Integrado de Gestão na SEFAZ"
+
+Q14: Conte sobre um momento em que você teve que tomar uma decisão de priorização com recursos extremamente limitados, onde teve que pivotar o modelo de negócio abrindo mão de receita de curto prazo em prol de uma visão de longo prazo.
+   ✅ 1 case(s):
+      • hdg-pivot-to-robotics (score: 100)
+        "Pivotei HDG de Consultoria para Robotização Devido a Recursos Limitados"
+
+Q15: Conte sobre uma ocasião em que um projeto crítico estava atrasado, e você teve que influenciar stakeholders seniores não apenas a aceitar o atraso, mas a investir mais recursos para um plano de mitigação
+   ✅ 1 case(s):
+      • sicredi-woop-delay (score: 100)
+        "Comuniquei Atraso de 3 Meses no Lançamento do App Woop ao Board"
+
+
+══════════════════════════════════════════════════════════════════════
+  DEAL WITH AMBIGUITY
+══════════════════════════════════════════════════════════════════════
+
+Q1: Conte sobre uma situação onde você teve que tomar decisões críticas com informação incompleta
+   ✅ 1 case(s):
+      • unimed-pet-health-ambiguity (score: 100)
+        "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
+
+Q2: Como você estrutura problemas quando não há precedentes ou playbook para seguir?
+   ✅ 1 case(s):
+      • unimed-innovation-ambiguity (score: 100)
+        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
+
+Q3: Descreva uma situação onde você teve que liderar um projeto sem escopo claro ou requisitos definidos
+   ✅ 1 case(s):
+      • sefaz-digital-transformation-ambiguity (score: 100)
+        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
+
+Q4: Como você decide quando você tem informação suficiente para agir vs quando precisa de mais dados?
+   ✅ 1 case(s):
+      • sefaz-pmo-creation (score: 100)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+
+Q5: Conte sobre quando você teve que navegar ambiguidade organizacional (mudanças de estrutura, fusões, etc.)
+   ✅ 1 case(s):
+      • hsbc-bradesco-cultural-migration (score: 100)
+        "Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturai..."
+
+Q6: Como você mantém seu time focado e produtivo em ambientes de alta incerteza?
+   ✅ 1 case(s):
+      • huawei-worldcup-war-room (score: 100)
+        "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Amb..."
+
+Q7: Descreva uma situação onde você teve que criar estrutura e processos do zero
+   ✅ 1 case(s):
+      • sefaz-pmo-creation (score: 100)
+        "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
+
+Q8: Como você lida com mudanças frequentes de direção ou prioridades?
+   ✅ 1 case(s):
+      • hsbc-bradesco-cultural-migration (score: 100)
+        "Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturai..."
+
+Q9: Conte sobre quando você teve que fazer trade-offs difíceis sem orientação clara da liderança
+   ✅ 1 case(s):
+      • bradesco-open-banking-vision (score: 100)
+        "Defendi APIs abertas em 2018 quando diretoria via como 'entregar ouro ao inimigo..."
+
+Q10: Como você comunica progresso quando os objetivos ainda estão sendo definidos?
+   ✅ 1 case(s):
+      • unimed-innovation-ambiguity (score: 100)
+        "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado"
+
+Q11: Descreva uma situação onde você teve que experimentar e iterar para encontrar a solução certa
+   ✅ 1 case(s):
+      • unimed-pet-health-ambiguity (score: 100)
+        "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitado..."
+
+Q12: Como você equilibra planejamento vs execução quando o futuro é incerto?
+   ✅ 1 case(s):
+      • huawei-worldcup-war-room (score: 100)
+        "Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Amb..."
+
+Q13: Conte sobre uma vez em que você teve de defender uma visão de longo prazo sem dados nem consenso – como obteve apoio e validou a direção correta?
+   ✅ 1 case(s):
+      • bradesco-open-banking-vision (score: 100)
+        "Defendi APIs abertas em 2018 quando diretoria via como 'entregar ouro ao inimigo..."
+
+Q14: Fale sobre uma vez em que você teve de implementar mudanças em ambiente politicamente volátil e com objetivos indefinidos – como trouxe clareadez e resultados tangíveis?
+   ✅ 1 case(s):
+      • sefaz-digital-transformation-ambiguity (score: 100)
+        "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Comp..."
+
+
+══════════════════════════════════════════════════════════════════════
+  DISAGREE AND COMMIT
+══════════════════════════════════════════════════════════════════════
+
+Q1: Conte sobre uma situação onde você discordou do supervisor/manager, mas ainda assim se comprometeu com a decisão final (e com a entrega)
+   ✅ 1 case(s):
+      • bradesco-mvp-feature-prioritization (score: 100)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
+
+Q2: Conte sobre uma vez que você discordou fortemente de uma decisão
+   ✅ 1 case(s):
+      • huawei-world-cup-timeline (score: 100)
+        "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
+
+Q3: Me fale sobre quando você teve que se comprometer com algo que não concordava
+   ✅ 1 case(s):
+      • unimed-retention-strategy (score: 100)
+        "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
+
+Q4: Como você lida com disagreements na equipe?
+   ✅ 1 case(s):
+      • bradesco-mvp-feature-prioritization (score: 100)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
+
+Q5: Me dê um exemplo de quando você defendeu uma posição impopular
+   ✅ 1 case(s):
+      • commit-on-disagreement-product-strategy (score: 100)
+        "Discordei de uma estratégia de pricing, provei meu ponto com dados e liderei o p..."
+
+Q6: Me dê um exemplo de quando você se comprometeu com uma decisão de grupo mesmo discordando
+   ✅ 1 case(s):
+      • bradesco-mvp-feature-prioritization (score: 100)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
+
+Q7: Conte sobre quando você discordou de um colega/PM/gestor porque achava que estava errado para o cliente
+   ✅ 1 case(s):
+      • unimed-retention-strategy (score: 100)
+        "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido apro..."
+
+Q8: Descreva uma vez que você teve uma ideia que não foi aceita - como você reagiu?
+   ✅ 1 case(s):
+      • bradesco-mvp-feature-prioritization (score: 100)
+        "Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreg..."
+
+Q9: Me fale sobre um conflito que você resolveu - qual foi o processo?
+   ✅ 1 case(s):
+      • commit-on-disagreement-product-strategy (score: 100)
+        "Discordei de uma estratégia de pricing, provei meu ponto com dados e liderei o p..."
+
+Q10: Como você desafia respeitosamente decisões mas depois se compromete totalmente?
+   ✅ 1 case(s):
+      • huawei-world-cup-timeline (score: 100)
+        "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
+
+Q11: Como você mantém sua equipe motivada quando você mesmo discordou da decisão?
+   ✅ 1 case(s):
+      • huawei-world-cup-timeline (score: 100)
+        "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
+
+Q12: Conte sobre quando você teve que defender publicamente uma decisão que contestou internamente
+   ✅ 1 case(s):
+      • huawei-world-cup-timeline (score: 100)
+        "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado..."
+
+
+══════════════════════════════════════════════════════════════════════
+  INSIST ON HIGHEST STANDARDS
+══════════════════════════════════════════════════════════════════════
+
+Q1: Como você garante que a equipe mantenha padrões elevados mesmo com prazo apertado?
+   ✅ 1 case(s):
+      • reject-mediocre-work-procergs (score: 100)
+        "Rejeitei uma entrega de software de R$ 1,3M é criei um quality gate que se torno..."
+
+Q2: Conte sobre uma vez que você elevou a barra de qualidade
+   ✅ 1 case(s):
+      • sicredi-payment-sla (score: 100)
+        "Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apo..."
+
+Q3: Me fale sobre quando você não aceitou um trabalho medíocre
+   ✅ 1 case(s):
+      • reject-mediocre-work-procergs (score: 100)
+        "Rejeitei uma entrega de software de R$ 1,3M é criei um quality gate que se torno..."
+
+Q4: Como você define padrões para sua equipe?
+   ✅ 1 case(s):
+      • sefaz-pmo-governance (score: 100)
+        "Elevei o padrao de governanca da SEFAZ, transformando o foco de entregas para va..."
+
+Q5: Descreva uma situação onde você teve que refazer algo para atingir excelência
+   ✅ 1 case(s):
+      • unimed-telemedicine-redo-for-excellence (score: 100)
+        "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
+
+Q6: Me dê um exemplo de quando você implementou um processo de qualidade
+   ✅ 1 case(s):
+      • sefaz-pmo-governance (score: 100)
+        "Elevei o padrao de governanca da SEFAZ, transformando o foco de entregas para va..."
+
+Q7: Conte sobre quando você não apenas atingiu uma meta, mas excedeu consideravelmente - como?
+   ✅ 1 case(s):
+      • sicredi-payment-sla (score: 100)
+        "Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apo..."
+
+Q8: Descreva um projeto que você gostaria de ter feito melhor - o que faria diferente hoje?
+   ✅ 1 case(s):
+      • unimed-telemedicine-redo-for-excellence (score: 100)
+        "Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um p..."
+
+Q9: Me fale sobre uma vez que você teve que escolher entre velocidade e qualidade
+   ✅ 1 case(s):
+      • hsbc-zero-defects (score: 100)
+        "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R..."
+
+Q10: Como você garante que defeitos não passam para frente e problemas ficam resolvidos?
+   ✅ 1 case(s):
+      • sicredi-payment-sla (score: 100)
+        "Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apo..."
+
+Q11: Conte sobre quando você estabeleceu um novo padrão que outros achavam impossível de atingir
+   ✅ 1 case(s):
+      • hsbc-zero-defects (score: 100)
+        "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R..."
+
+Q12: Como você define 'qualidade suficiente' vs 'perfeição paralisante'?
+   ✅ 1 case(s):
+      • reject-mediocre-work-procergs (score: 100)
+        "Rejeitei uma entrega de software de R$ 1,3M é criei um quality gate que se torno..."
+
+Q13: Conte sobre quando você teve que recusar entregar algo por não atingir seus padrões
+   ✅ 1 case(s):
+      • hsbc-zero-defects (score: 100)
+        "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R..."
+
+
+══════════════════════════════════════════════════════════════════════
+  RESUMO GERAL
+══════════════════════════════════════════════════════════════════════
+
+Total de perguntas: 198
+Perguntas cobertas: 198 (100.0%)
+Total de mapeamentos: 198
+Média de cases por pergunta: 1.0
+

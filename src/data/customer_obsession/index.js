@@ -7,9 +7,10 @@ import case4 from './customer_obsession_case4.js';
 import case5 from './customer_obsession_case5.js';
 import case6 from './customer_obsession_case6.js';
 import case7 from './customer_obsession_case7.js';
+import case8 from './customer_obsession_case8.js';
 
 export default {
   principle: config.principle,
   id: config.id,
-  cases: [case1, case2, case3, case4, case5, case6, case7]
+  cases: [case1, case2, case3, case4, case5, case6, case7, case8]
 };

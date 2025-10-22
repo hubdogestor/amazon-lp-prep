@@ -221,6 +221,62 @@ const myQuestionsData = {
             q: "Como equilibrar experimentação em modelos de fees com a necessidade de estabilidade em sistemas mission-critical de pagamento?",
             note: "Mostra maturidade em gerenciamento de risco",
             level: "Strategic"
+          },
+          {
+            q: "Como vocês calculam o trade-off entre investimento em infraestrutura de modelos de AI/ML e o valor presente líquido (NPV) desses investimentos? Existe um mental model que oriente essa priorização?",
+            note: "Usa linguagem econômica e mental models para priorização de AI/ML",
+            level: "Strategic"
+          },
+          {
+            q: "Você menciona a importância de traduzir problemas ambíguos em modelos mentais simples【112279552890454†L24-L30】. Poderia compartilhar um exemplo de como aplicou esse approach a uma decisão de precificação ou pagamento ambígua dentro da Amazon?",
+            note: "Explora a aplicação de mental models em cenários reais",
+            level: "Operational"
+          },
+          {
+            q: "Como você avalia causalidade entre melhorias operacionais e experiência do cliente? Quais experimentos considera para entender o impacto do PIX na retenção de sellers?",
+            note: "Une causal inference e métricas de experiência",
+            level: "Technical"
+          },
+          {
+            q: "Quando precificam serviços como fulfillment ou armazenamento, como determinam o ponto ótimo em que a redução de fees aumenta a satisfação do cliente sem comprometer a rentabilidade?",
+            note: "Conecta pricing com customer experience",
+            level: "Strategic"
+          },
+          {
+            q: "Você já enfrentou situações em que o modelo mental inicial se mostrou inadequado frente a dados inesperados? Como você revisou o framework e gerenciou essa incerteza?",
+            note: "Explora frameworks de decisão sob incerteza",
+            level: "Leadership"
+          },
+          {
+            q: "Como integra externalidades positivas, como fidelização de clientes, ao calcular o retorno de novos recursos de pagamento? Existe um modelo para estimar o valor incremental para o ecossistema?",
+            note: "Investiga valorização incremental e impactos indiretos",
+            level: "Strategic"
+          }
+          ,
+          {
+            q: "Dado seu histórico em econometria e causal inference, como você aborda o desafio de medir o impacto de promoções de taxas de transação em diferentes cohortes de vendedores? Existe uma abordagem de difference-in-differences que você aplica?",
+            note: "Aprofunda causal inference e experimentos em contextos de pricing",
+            level: "Technical"
+          },
+          {
+            q: "Ao integrar múltiplos métodos de pagamento, como você equilibra a complexidade analítica de diversas variáveis com a necessidade de simplificar a decisão para stakeholders não técnicos? Quais ferramentas ou mental models você utiliza para comunicar resultados?",
+            note: "Explora simplificação de problemas complexos e comunicação de insights",
+            level: "Strategic"
+          },
+          {
+            q: "Você menciona quantificar valor incremental; ao avaliar novas features de pagamento, como estimam o lifetime value incremental de sellers ou clientes e quais hipóteses são mais críticas nesse cálculo?",
+            note: "Enfatiza definição de métricas de valor incremental",
+            level: "Strategic"
+          },
+          {
+            q: "Como a sua experiência em Ambev e AB InBev influencia a forma como modela problemas de pagamento na Amazon? Existem insights de precificação de bens de consumo que se aplicam a serviços financeiros?",
+            note: "Traz perspectiva cross‑industry para pricing e pagamentos",
+            level: "Strategic"
+          },
+          {
+            q: "Quais são os principais riscos de overfitting em sistemas de precificação dinâmica de fees e como você garante que os modelos permaneçam robustos diante de mudanças macroeconômicas?",
+            note: "Aborda robustez de modelos e trade‑offs entre precisão e generalização",
+            level: "Technical"
           }
         ]
       },
@@ -249,6 +305,42 @@ const myQuestionsData = {
             note: "Foca em métricas e governança",
             level: "Operational"
           }
+          ,
+          {
+            q: "Quais são os critérios mais importantes para avaliar o fit estratégico de um parceiro de pagamento, além de volume de transações? Consideram alinhamento de marca, capacidade tecnológica ou experiência do cliente?",
+            note: "Investiga critérios de avaliação de parcerias",
+            level: "Strategic"
+          },
+          {
+            q: "Como sua experiência na Índia influenciou sua abordagem para engajar parceiros no Brasil e em outros países da LATAM? Há práticas do mercado indiano que foram decisivas?",
+            note: "Explora transfer learning entre mercados internacionais",
+            level: "Strategic"
+          },
+          {
+            q: "Ao gerenciar programas de pagamento em diversos países, como balanceia padronização global com necessidade de customização local? Existem princípios norteadores para decidir onde padronizar?",
+            note: "Analisa estratégias de padronização versus customização",
+            level: "Global Strategy"
+          },
+          {
+            q: "Que tipos de governança você implementa para garantir que múltiplos stakeholders (finance, legal, operações, sellers) estejam alinhados em grandes iniciativas, evitando atrasos e escopos divergentes?",
+            note: "Explora estrutura de governança de programas complexos",
+            level: "Leadership"
+          },
+          {
+            q: "Dado seu histórico em customer & seller experience, como você avalia o impacto de novos parceiros de pagamento na experiência do vendedor e do cliente final? Existem métricas específicas que orientam essas decisões?",
+            note: "Conecta experiência do vendedor com estratégia de parcerias",
+            level: "Strategic"
+          },
+          {
+            q: "Como vocês fazem benchmarking de tendências de pagamentos digitais entre Índia, Brasil e outros mercados emergentes para identificar oportunidades de inovação? Há exemplos de iniciativas que replicaram com sucesso?",
+            note: "Investiga aprendizado cruzado e replicação de iniciativas bem-sucedidas",
+            level: "Strategic"
+          },
+          {
+            q: "Quais desafios de integração de novas APIs de parceiros (como wallets ou bancos digitais) são mais críticos na LATAM? Como a experiência com m-commerce na Airtel ajuda a superá-los?",
+            note: "Foca em desafios técnicos e experiência prévia para superá-los",
+            level: "Technical"
+          }
         ]
       },
       {
@@ -275,6 +367,62 @@ const myQuestionsData = {
             q: "Como você desenvolve e motiva equipes em ambientes de alta pressão garantindo que a velocidade ágil não comprometa a qualidade e segurança das operações?",
             note: "Explora liderança e cultura de melhoria contínua",
             level: "Team Dynamics"
+          },
+          {
+            q: "Ao projetar processos do zero para a integração da Oakberry, como vocês identificam e priorizam os pain points que mais impactam a taxa de aprovação de transações?",
+            note: "Foca em design de processos e otimização de approval rate",
+            level: "Strategic"
+          },
+          {
+            q: "Como a implementação do modelo chapter no Banco BV, que resultou em ganhos significativos de eficiência【112279552890454†L174-L178】, influencia sua abordagem ao organizar squads na Amazon? Que métricas usa para medir esse impacto?",
+            note: "Conecta chapter model com squads na Amazon",
+            level: "Leadership"
+          },
+          {
+            q: "Quais são os maiores desafios em manter um ambiente 24x7 de pagamentos operando com alta disponibilidade e quais práticas de resposta a incidentes recomenda?",
+            note: "Explora desafios de operações 24x7",
+            level: "Operational"
+          },
+          {
+            q: "Quando introduzem novos fluxos de pagamento, como equilibram a necessidade de resiliência e compliance com a velocidade de rollout? Existe um playbook para operações greenfield versus brownfield?",
+            note: "Analisa trade-offs entre resiliência, compliance e velocidade",
+            level: "Strategic"
+          },
+          {
+            q: "Quais aprendizados você trouxe da implementação do PIX que podem ser aplicados à adoção de novos métodos de pagamento, como CBDC ou Open Finance?",
+            note: "Expande expertise PIX para novas tecnologias",
+            level: "Innovative"
+          },
+          {
+            q: "Como você assegura que squads autônomos mantenham alinhamento com objetivos estratégicos enquanto operam de forma ágil?",
+            note: "Foca em alinhamento e autonomia de equipes",
+            level: "Team Dynamics"
+          }
+          ,
+          {
+            q: "Na evolução contínua dos processos de pagamento, como você prioriza melhorias incrementais em relação a iniciativas de transformação completa? Existe um critério para decidir quando redesenhar versus otimizar?",
+            note: "Analisa trade‑offs entre melhoria contínua e redesign completo",
+            level: "Strategic"
+          },
+          {
+            q: "Como operações 24x7 se preparam para eventos de alto volume, como Prime Day ou Black Friday? Quais lições aprendidas poderiam ser aplicadas à parceria com a Oakberry?",
+            note: "Explora preparação para picos de volume em operações críticas",
+            level: "Operational"
+          },
+          {
+            q: "Em projetos de aprovação de cartão e PIX, como vocês testam alterações de processo sem comprometer a taxa de aprovação? Existe um mecanismo de A/B testing operacional?",
+            note: "Investiga estratégias de experimentação sem impactar performance",
+            level: "Technical"
+          },
+          {
+            q: "Quais competências principais você busca ao formar squads para trabalhar em pagamentos? Como equilibra expertise técnica, regulatória e de negócio?",
+            note: "Foca em composição e balanceamento de times multidisciplinares",
+            level: "Team Development"
+          },
+          {
+            q: "Com o avanço de regulações como Open Finance, como você adapta processos operacionais para garantir compliance enquanto mantém uma experiência de cliente sem atritos?",
+            note: "Relaciona compliance regulatório com experiência do cliente",
+            level: "Strategic"
           }
         ]
       },
@@ -301,6 +449,62 @@ const myQuestionsData = {
           {
             q: "Como a integração entre finanças e operações pode otimizar decisões de pricing e fees para equilibrar experiência do cliente e rentabilidade?",
             note: "Integra perspectivas financeiras e operacionais",
+            level: "Strategic"
+          },
+          {
+            q: "Quais múltiplos e métricas financeiras você considera ao decidir entre desenvolver internamente ou terceirizar uma solução de automação de pagamentos? Há diferenças entre mercados como Brasil e EUA?",
+            note: "Explora make-or-buy sob perspectiva financeira",
+            level: "Strategic"
+          },
+          {
+            q: "Como sua experiência em M&A e private equity influencia sua avaliação de risco na integração de parceiros de pagamento como a Oakberry? Existe um hurdle rate mínimo para aprovar projetos?",
+            note: "Usa linguagem de M&A e mindset de private equity",
+            level: "Leadership"
+          },
+          {
+            q: "Ao apresentar um business case para o board e CFO, como traduz métricas operacionais (ex. Process Cycle Time, Payment Success Rate) em indicadores financeiros como ROI e payback?",
+            note: "Conecta métricas operacionais a indicadores financeiros",
+            level: "Operational"
+          },
+          {
+            q: "Você já vivenciou um caso em que a análise financeira indicava um caminho e a estratégia de customer experience apontava para outro? Como equilibrou esses pontos de vista?",
+            note: "Explora trade-offs entre finanças e experiência do cliente",
+            level: "Decision Making"
+          },
+          {
+            q: "Considerando sua experiência na expansão internacional do Inter【112279552890454†L70-L78】, quais aprendizados podem ser aplicados para escalar soluções de pagamento da Amazon na LATAM?",
+            note: "Aplica experiência internacional ao contexto regional",
+            level: "Strategic"
+          },
+          {
+            q: "Como a mentalidade de private equity influencia a avaliação e priorização de iniciativas de AI/ML no roadmap de pagamentos?",
+            note: "Integra mindset de private equity e inovação tecnológica",
+            level: "Strategic"
+          }
+          ,
+          {
+            q: "Além de ROI e NPV, quais métricas qualitativas, como brand equity ou experiência do cliente, você considera ao avaliar investimentos em novos métodos de pagamento? Como essas métricas influenciam a decisão final de investimento?",
+            note: "Integra métricas intangíveis no processo de tomada de decisão",
+            level: "Strategic"
+          },
+          {
+            q: "Quando avaliam parcerias com fintechs emergentes, como equilibram o potencial de inovação com a estabilidade financeira e regulatória? Existe um framework de due diligence específico para o mercado brasileiro de pagamentos?",
+            note: "Explora due diligence e gestão de risco em parcerias",
+            level: "Strategic"
+          },
+          {
+            q: "Você liderou expansão internacional no Inter; como lidar com riscos cambiais e hedge ao planejar operações de pagamento em múltiplas moedas? Isso afeta a seleção de parceiros e tecnologias?",
+            note: "Aborda gestão de risco financeiro em contextos multilaterais",
+            level: "Strategic"
+          },
+          {
+            q: "Ao trabalhar com o board em iniciativas estratégicas, quais narrativas ou histórias você utiliza para conectar métricas financeiras aos benefícios para o cliente? Pode dar um exemplo de como transformou métricas de ciclo operacional em insights persuasivos?",
+            note: "Explora storytelling financeiro para stakeholders",
+            level: "Communication"
+          },
+          {
+            q: "Como a mentalidade de private equity influencia as metas de curto prazo versus investimentos de longo prazo em automação e AI/ML? Há uma taxa mínima de retorno (hurdle rate) para cada tipo de iniciativa?",
+            note: "Relaciona mindset de private equity com priorização de investimentos",
             level: "Strategic"
           }
         ]
@@ -329,6 +533,62 @@ const myQuestionsData = {
             q: "Que estratégias recomenda para incentivar uma cultura data-driven em equipes que ainda dependem de relatórios manuais e como medir o sucesso dessa mudança?",
             note: "Foca em mudança cultural e adoção de BI",
             level: "Team Dynamics"
+          },
+          {
+            q: "Quais métricas North Star vocês definiram ou consideram definir para medir o sucesso da adoção do PIX e como envolvem equipes de operações e produto nessa definição?",
+            note: "Explora definição de North Star Metrics",
+            level: "Strategic"
+          },
+          {
+            q: "Em seus projetos de democratização de dados, como garante que operadores de pagamento com pouca experiência analítica consigam interpretar dashboards complexos? Há práticas de design específicas que recomenda?",
+            note: "Conecta democratização de dados com usabilidade",
+            level: "Operational"
+          },
+          {
+            q: "Quando integram dados de múltiplos parceiros de pagamento, como vocês mitigam discrepâncias de qualidade e estabelecem governança sem impactar a agilidade?",
+            note: "Foco em qualidade de dados e governança",
+            level: "Technical"
+          },
+          {
+            q: "Quais técnicas de visualização você utiliza para comunicar insights de modelos de retenção ou detecção de fraude a executivos que não têm background técnico?",
+            note: "Explora comunicação com stakeholders não técnicos",
+            level: "Communication"
+          },
+          {
+            q: "Você pode compartilhar um exemplo em que a democratização de dados transformou um processo decisório passivo em ativo, levando a mudanças significativas nas operações de pagamento?",
+            note: "Mostra impacto prático da democratização",
+            level: "Strategic"
+          },
+          {
+            q: "Como vocês treinam ou capacitam times de pagamentos para se tornarem auto-suficientes em análise de dados, minimizando dependência do time de BI?",
+            note: "Foca em capacitação e autonomia",
+            level: "Team Development"
+          }
+          ,
+          {
+            q: "Como você equilibra a padronização de métricas globais com a necessidade de indicadores locais que reflitam as particularidades do mercado brasileiro de pagamentos?",
+            note: "Aborda adaptação de métricas globais ao contexto local",
+            level: "Strategic"
+          },
+          {
+            q: "Ao definir métricas North Star para iniciativas como PIX ou wallets digitais, quais etapas utiliza para alinhar stakeholders de produto, operações e compliance, e como gerencia divergências nessa definição?",
+            note: "Explora alinhamento cross‑functional na definição de métricas",
+            level: "Strategic"
+          },
+          {
+            q: "Em projetos de detecção de anomalias, como decide entre modelos estatísticos tradicionais e abordagens de machine learning? Quais critérios utiliza para determinar custo‑benefício e interpretabilidade?",
+            note: "Investiga critérios de seleção de modelos para detecção de fraude",
+            level: "Technical"
+          },
+          {
+            q: "Como você mede o sucesso da democratização de dados? Vocês rastreiam métricas como tempo de resposta ou número de consultas self-service versus solicitações ao time de BI?",
+            note: "Avalia métricas para monitorar a adoção de self‑service",
+            level: "Operational"
+          },
+          {
+            q: "Qual é a sua abordagem para manter consistência e qualidade dos dados quando várias equipes adicionam novos campos e atributos aos sistemas? Existe um processo de governança colaborativa?",
+            note: "Foca em governança colaborativa para expansão de dados",
+            level: "Operational"
           }
         ]
       }
@@ -390,6 +650,62 @@ const myQuestionsData = {
             q: "How do you balance experimentation in fee models with the need for stability in mission‑critical payment systems?",
             note: "Shows maturity in risk management",
             level: "Strategic"
+          },
+          {
+            q: "How do you calculate the trade‑off between investing in AI/ML model infrastructure and the net present value (NPV) of those investments? Is there a mental model that guides this prioritization?",
+            note: "Uses economic language and mental models for AI/ML prioritization",
+            level: "Strategic"
+          },
+          {
+            q: "You often emphasize translating ambiguous problems into simple mental models【112279552890454†L24-L30】. Could you share an example of how you applied this approach to an ambiguous pricing or payments decision within Amazon?",
+            note: "Explores application of mental models in real scenarios",
+            level: "Operational"
+          },
+          {
+            q: "How do you assess causality between operational improvements and customer experience? What experiments would you consider to understand the PIX’s impact on seller retention?",
+            note: "Combines causal inference and experience metrics",
+            level: "Technical"
+          },
+          {
+            q: "When pricing services such as fulfillment or storage, how do you determine the optimal point where fee reductions increase customer satisfaction without undermining profitability?",
+            note: "Connects pricing with customer experience",
+            level: "Strategic"
+          },
+          {
+            q: "Have you encountered situations where your initial mental model proved inadequate when confronted with unexpected data? How did you revise the framework and manage this uncertainty?",
+            note: "Explores decision frameworks under uncertainty",
+            level: "Leadership"
+          },
+          {
+            q: "How do you incorporate positive externalities, such as customer loyalty, when calculating the return on new payment features? Is there a model to estimate incremental value to the ecosystem?",
+            note: "Investigates incremental value and indirect impacts",
+            level: "Strategic"
+          }
+          ,
+          {
+            q: "Given your background in econometrics and causal inference, how do you tackle the challenge of measuring the impact of transaction fee promotions on different seller cohorts? Do you apply difference-in-differences approaches?",
+            note: "Deepens causal inference and experimental thinking in pricing contexts",
+            level: "Technical"
+          },
+          {
+            q: "When integrating multiple payment methods, how do you balance the analytical complexity of numerous variables with the need to simplify decisions for non‑technical stakeholders? Which tools or mental models do you use to communicate results?",
+            note: "Explores simplification of complex problems and communication of insights",
+            level: "Strategic"
+          },
+          {
+            q: "You often mention quantifying incremental value; when assessing new payment features, how do you estimate the incremental lifetime value of sellers or customers and which assumptions are most critical in that calculation?",
+            note: "Emphasizes defining metrics for incremental value",
+            level: "Strategic"
+          },
+          {
+            q: "How does your experience at Ambev and AB InBev influence the way you model payment problems at Amazon? Are there pricing insights from consumer goods that apply to financial services?",
+            note: "Brings cross‑industry perspective to pricing and payments",
+            level: "Strategic"
+          },
+          {
+            q: "What are the main risks of overfitting in dynamic fee pricing systems, and how do you ensure models remain robust amid macroeconomic changes?",
+            note: "Addresses model robustness and trade‑offs between precision and generalization",
+            level: "Technical"
           }
         ]
       },
@@ -418,6 +734,42 @@ const myQuestionsData = {
             note: "Focuses on metrics and governance",
             level: "Operational"
           }
+          ,
+          {
+            q: "What are the most important criteria for assessing the strategic fit of a payment partner beyond transaction volume? Do you consider brand alignment, technological capability or customer experience?",
+            note: "Investigates criteria for evaluating partnerships",
+            level: "Strategic"
+          },
+          {
+            q: "How did your experience in India influence your approach to engaging partners in Brazil and other LATAM countries? Are there practices from the Indian market you found decisive?",
+            note: "Explores cross‑market learning and adaptation",
+            level: "Strategic"
+          },
+          {
+            q: "When managing payment programs across multiple countries, how do you balance global standardization with the need for local customization? Are there guiding principles that help decide where to standardize?",
+            note: "Analyzes strategies of standardization versus customization",
+            level: "Global Strategy"
+          },
+          {
+            q: "What types of governance do you implement to ensure multiple stakeholders (finance, legal, operations, sellers) are aligned on major initiatives, avoiding delays and scope creep?",
+            note: "Explores governance structures for complex programs",
+            level: "Leadership"
+          },
+          {
+            q: "Given your background in customer and seller experience, how do you evaluate the impact of new payment partners on seller and end customer experience? Are there specific metrics that guide these decisions?",
+            note: "Connects seller experience with partnership strategy",
+            level: "Strategic"
+          },
+          {
+            q: "How do you benchmark digital payment trends across India, Brazil and other emerging markets to identify innovation opportunities? Are there examples of initiatives you successfully replicated?",
+            note: "Investigates cross‑market learning and replication of successful initiatives",
+            level: "Strategic"
+          },
+          {
+            q: "What are the critical challenges when integrating new partner APIs, such as wallets or digital banks, in LATAM? How does your m‑commerce experience at Airtel help you overcome them?",
+            note: "Focuses on technical challenges and prior experience to overcome them",
+            level: "Technical"
+          }
         ]
       },
       {
@@ -445,6 +797,32 @@ const myQuestionsData = {
             note: "Explores leadership and continuous improvement culture",
             level: "Team Dynamics"
           }
+          ,
+          {
+            q: "In the continuous evolution of payment processes, how do you prioritize incremental improvements versus complete transformations? Is there a criterion for deciding when to redesign versus optimize?",
+            note: "Analyzes trade‑offs between continuous improvement and complete redesign",
+            level: "Strategic"
+          },
+          {
+            q: "How do 24x7 operations prepare for high‑volume events like Prime Day or Black Friday? Which lessons learned would you apply to the Oakberry partnership?",
+            note: "Explores preparation for peak volume in critical operations",
+            level: "Operational"
+          },
+          {
+            q: "In card and PIX approval projects, how do you test process changes without compromising the approval rate? Is there an operational A/B testing mechanism?",
+            note: "Investigates experimentation strategies without impacting performance",
+            level: "Technical"
+          },
+          {
+            q: "What core competencies do you look for when forming squads to work on payments? How do you balance technical, regulatory and business expertise?",
+            note: "Focuses on composition and balance of multidisciplinary teams",
+            level: "Team Development"
+          },
+          {
+            q: "With regulatory advances such as Open Finance, how do you adapt operational processes to ensure compliance while maintaining a frictionless customer experience?",
+            note: "Relates regulatory compliance to customer experience",
+            level: "Strategic"
+          }
         ]
       },
       {
@@ -470,6 +848,62 @@ const myQuestionsData = {
           {
             q: "How can integration between finance and operations optimize pricing and fee decisions to balance customer experience and profitability?",
             note: "Integrates financial and operational perspectives",
+            level: "Strategic"
+          },
+          {
+            q: "Which multiples and financial metrics do you consider when deciding between building an in-house payment automation solution or outsourcing it? Are there differences between markets such as Brazil and the US?",
+            note: "Explores make-or-buy from a financial perspective",
+            level: "Strategic"
+          },
+          {
+            q: "How does your experience in M&A and private equity influence your risk assessment when integrating payment partners like Oakberry? Is there a minimum hurdle rate to approve such projects?",
+            note: "Uses M&A language and private equity mindset",
+            level: "Leadership"
+          },
+          {
+            q: "When presenting a business case to the board and CFO, how do you translate operational metrics (e.g., Process Cycle Time, Payment Success Rate) into financial indicators such as ROI and payback?",
+            note: "Connects operational metrics to financial metrics",
+            level: "Operational"
+          },
+          {
+            q: "Have you experienced a situation where financial analysis pointed one way and customer experience strategy suggested another? How did you balance these perspectives with stakeholders?",
+            note: "Explores trade-offs between finance and customer experience",
+            level: "Decision Making"
+          },
+          {
+            q: "Given your experience scaling Inter’s international operations【112279552890454†L70-L78】, what lessons can be applied to scale Amazon’s payment solutions across LATAM?",
+            note: "Applies international experience to regional context",
+            level: "Strategic"
+          },
+          {
+            q: "How does a private equity mindset influence the evaluation and prioritization of AI/ML initiatives on the payments roadmap?",
+            note: "Integrates private equity mindset with technological innovation",
+            level: "Strategic"
+          }
+          ,
+          {
+            q: "Beyond ROI and NPV, which qualitative metrics — such as brand equity or customer experience — do you consider when evaluating investments in new payment methods? How do these metrics influence the final investment decision?",
+            note: "Integrates intangible metrics into the investment decision process",
+            level: "Strategic"
+          },
+          {
+            q: "When evaluating partnerships with emerging fintechs, how do you balance the potential for innovation with financial and regulatory stability? Is there a specific due diligence framework for the Brazilian payments market?",
+            note: "Explores due diligence and risk management in partnerships",
+            level: "Strategic"
+          },
+          {
+            q: "You led international expansion at Inter; how do you manage currency and hedging risks when planning payment operations across multiple currencies? Does this affect the selection of partners and technologies?",
+            note: "Addresses financial risk management in multi‑currency contexts",
+            level: "Strategic"
+          },
+          {
+            q: "When working with the board on strategic initiatives, what narratives or stories do you use to connect financial metrics to customer benefits? Can you share an example where you turned operational cycle metrics into persuasive insights?",
+            note: "Explores financial storytelling for stakeholders",
+            level: "Communication"
+          },
+          {
+            q: "How does a private equity mindset influence short‑term targets versus long‑term investments in automation and AI/ML? Is there a minimum return hurdle rate for each type of initiative?",
+            note: "Relates private equity mindset to investment prioritization",
             level: "Strategic"
           }
         ]
@@ -498,6 +932,62 @@ const myQuestionsData = {
             q: "What strategies do you recommend to encourage a data‑driven culture in teams that still rely on manual reports, and how do you measure success of that change?",
             note: "Focuses on cultural change and BI adoption",
             level: "Team Dynamics"
+          },
+          {
+            q: "What North Star metrics have you defined or are considering for measuring success of PIX adoption, and how do you involve operations and product teams in defining them?",
+            note: "Explores defining North Star metrics",
+            level: "Strategic"
+          },
+          {
+            q: "In your data democratization projects【112279552890454†L130-L141】, how do you ensure payment operators with limited analytical experience can interpret complex dashboards? Are there specific design practices you recommend?",
+            note: "Connects data democratization with usability",
+            level: "Operational"
+          },
+          {
+            q: "When integrating data from multiple payment partners, how do you mitigate quality discrepancies and establish governance without impacting agility?",
+            note: "Focuses on data quality and governance",
+            level: "Technical"
+          },
+          {
+            q: "Which visualization techniques do you use to communicate insights from retention or fraud detection models to executives without technical backgrounds?",
+            note: "Explores communication with non‑technical stakeholders",
+            level: "Communication"
+          },
+          {
+            q: "Could you share an example where data democratization transformed a passive decision‑making process into an active one, leading to significant changes in payment operations?",
+            note: "Shows practical impact of democratization",
+            level: "Strategic"
+          },
+          {
+            q: "How do you train or upskill payment teams to become self‑sufficient in data analysis, minimizing dependency on the BI team?",
+            note: "Focuses on training and autonomy",
+            level: "Team Development"
+          }
+          ,
+          {
+            q: "How do you balance standardizing global metrics with the need for local indicators that reflect the specificities of Brazil's payments market?",
+            note: "Addresses adapting global metrics to the local context",
+            level: "Strategic"
+          },
+          {
+            q: "When defining North Star metrics for initiatives like PIX or digital wallets, what steps do you take to align stakeholders in product, operations and compliance, and how do you manage divergent views?",
+            note: "Explores cross‑functional alignment in metric definition",
+            level: "Strategic"
+          },
+          {
+            q: "In anomaly detection projects, how do you decide between traditional statistical models and machine learning approaches? What criteria do you use to determine cost‑benefit and interpretability?",
+            note: "Investigates criteria for selecting models for fraud detection",
+            level: "Technical"
+          },
+          {
+            q: "How do you measure the success of data democratization? Do you track metrics such as response time or the number of self‑service queries versus requests to the BI team?",
+            note: "Evaluates metrics to monitor adoption of self‑service",
+            level: "Operational"
+          },
+          {
+            q: "What's your approach for maintaining data consistency and quality when multiple teams add new fields and attributes to systems? Is there a collaborative governance process?",
+            note: "Focuses on collaborative governance for data expansion",
+            level: "Operational"
           }
         ]
       },
