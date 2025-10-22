@@ -32,7 +32,11 @@ export const questionsToCasesMapping = {
     "10": { "options": [{ "caseId": "payment-incidents-prevention-mechanism", "score": 100 }] },
     "11": { "options": [{ "caseId": "hsbc-payment-reconciliation", "score": 100 }] },
     "12": { "options": [{ "caseId": "bradesco-international-payments", "score": 100 }] },
-    "13": { "options": [{ "caseId": "hsbc-migration-leadership", "score": 100 }] }
+    "13": { "options": [{ "caseId": "hsbc-migration-leadership", "score": 100 }] },
+    "14": { "options": [{ "caseId": "sefaz-pmo-creation", "score": 100 }] },
+    "15": { "options": [{ "caseId": "bradesco-international-payments", "score": 100 }] },
+    "16": { "options": [{ "caseId": "long-term-tradeoff", "score": 100 }] },
+    "17": { "options": [{ "caseId": "sefaz-emergency-rollback-no-approval", "score": 100 }] }
   },
   "invent_and_simplify": {
     "1": { "options": [{ "caseId": "unimed-ai-authorization", "score": 100 }] },
@@ -137,7 +141,10 @@ export const questionsToCasesMapping = {
     "9": { "options": [{ "caseId": "sefaz-project-pivot-70-percent", "score": 100 }] },
     "10": { "options": [{ "caseId": "sicredi-fraud-emergency-4h-decision", "score": 100 }] },
     "11": { "options": [{ "caseId": "sicredi-ml-credit-approval", "score": 100 }] },
-    "12": { "options": [{ "caseId": "hsbc-migration-against-experts", "score": 100 }] }
+    "12": { "options": [{ "caseId": "hsbc-migration-against-experts", "score": 100 }] },
+    "13": { "options": [{ "caseId": "sefaz-emergency-tax-portal", "score": 100 }] },
+    "14": { "options": [{ "caseId": "calculated-risk-time-critical", "score": 100 }] },
+    "15": { "options": [{ "caseId": "sefaz-project-pivot-70-percent", "score": 100 }] }
   },
   "frugality": {
     "1": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
@@ -181,7 +188,9 @@ export const questionsToCasesMapping = {
     "9": { "options": [{ "caseId": "sicredi-churn-analysis", "score": 100 }] },
     "10": { "options": [{ "caseId": "unimed-fraud-investigation", "score": 100 }] },
     "11": { "options": [{ "caseId": "unimed-agile-transformation-communication", "score": 100 }] },
-    "12": { "options": [{ "caseId": "unimed-fraud-investigation", "score": 100 }] }
+    "12": { "options": [{ "caseId": "unimed-fraud-investigation", "score": 100 }] },
+    "13": { "options": [{ "caseId": "unimed-agile-transformation-communication", "score": 100 }] },
+    "14": { "options": [{ "caseId": "sicredi-payment-experimentation", "score": 100 }] }
   },
   "disagree_and_commit": {
     "1": { "options": [{ "caseId": "bradesco-mvp-feature-prioritization", "score": 100 }] },
@@ -264,7 +273,10 @@ export const questionsToCasesMapping = {
     "9": { "options": [{ "caseId": "bradesco-next-mvp-prioritization", "score": 100 }] },
     "10": { "options": [{ "caseId": "sicredi-woop-segment-prioritization", "score": 100 }] },
     "11": { "options": [{ "caseId": "bradesco-covid-reprioritization", "score": 100 }] },
-    "12": { "options": [{ "caseId": "sicredi-woop-delay", "score": 100 }] }
+    "12": { "options": [{ "caseId": "sicredi-woop-delay", "score": 100 }] },
+    "13": { "options": [{ "caseId": "sefaz-framework-integrated-management", "score": 100 }] },
+    "14": { "options": [{ "caseId": "hdg-pivot-to-robotics", "score": 100 }] },
+    "15": { "options": [{ "caseId": "sicredi-woop-delay", "score": 100 }] }
   },
   "deal_with_ambiguity": {
     "1": { "options": [{ "caseId": "unimed-pet-health-ambiguity", "score": 100 }] },
@@ -278,7 +290,9 @@ export const questionsToCasesMapping = {
     "9": { "options": [{ "caseId": "bradesco-open-banking-vision", "score": 100 }] },
     "10": { "options": [{ "caseId": "unimed-innovation-ambiguity", "score": 100 }] },
     "11": { "options": [{ "caseId": "unimed-pet-health-ambiguity", "score": 100 }] },
-    "12": { "options": [{ "caseId": "huawei-worldcup-war-room", "score": 100 }] }
+    "12": { "options": [{ "caseId": "huawei-worldcup-war-room", "score": 100 }] },
+    "13": { "options": [{ "caseId": "bradesco-open-banking-vision", "score": 100 }] },
+    "14": { "options": [{ "caseId": "sefaz-digital-transformation-ambiguity", "score": 100 }] }
   },
   "stakeholder_management": {
     "1": { "options": [{ "caseId": "stakeholder-management-case-4", "score": 100 }] },
@@ -293,4 +307,5 @@ export const questionsToCasesMapping = {
     "10": { "options": [{ "caseId": "huawei-global-rollout", "score": 100 }] },
     "11": { "options": [{ "caseId": "stakeholder-management-case-2", "score": 100 }] },
     "12": { "options": [{ "caseId": "sicredi-woop-stakeholder-management", "score": 100 }] }
-  },
+  }
+};
