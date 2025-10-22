@@ -87,7 +87,7 @@ export const questionsToCasesMapping = {
     "1": { "options": [{ "caseId": "unimed-underperformer-development", "score": 100 }] },
     "2": { "options": [{ "caseId": "huawei-project-managers-mentoring", "score": 100 }] },
     "3": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
-    "4": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
+    "4": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
     "5": { "options": [{ "caseId": "unimed-toxic-genius-removal", "score": 100 }] },
     "6": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
     "7": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
