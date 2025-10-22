@@ -1,57 +1,131 @@
 // bias_for_action_case1.js
 const case_1 = {
-  id: "bradesco-next-rapid-launch",
-  title: "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em 11 Meses",
-  title_pt: "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em 11 Meses",
-  title_en: "Classified 126 Decisions as Reversible / Structural and Launched Digital Bank in 11 Months",
-  company: "Bradesco Next",
-  period: "07/2016-11/2017",
-  keywords: "#decisão-reversível | #velocidade | #lançamento | #agilidade-controlada | #onboarding",
-  isTopCase: false,
-  isGoodCase: false,
-
-  pt: {
-    s: "Em janeiro de 2016, quando atuava como coordenador de transformação digital do Bradesco Next, recebi um alerta que colocava em risco o futuro do programa: enquanto bancos digitais captavam clientes em dez minutos, nosso processo de abertura de conta levava 27 dias. Esse atraso causava evasão de 38% dos leads e ameaçava 420 mil clientes potenciais, equivalentes a cerca de R$310 milhões em saldo projetado. A mídia já questionava nossa competitividade, e a diretoria temia perda de relevância entre o público mais jovem. Com prazos críticos e a estratégia em risco, minha responsabilidade era conduzir a virada operacional e cultural que devolveria velocidade e credibilidade ao banco.",
-
-    t: "Minha missão era transformar um modelo de decisão excessivamente hierárquico em um sistema de agilidade com controle. Precisava reduzir o time-to-market de 18 para 11 meses e assegurar que cada decisão balanceasse risco e velocidade. Tive de agir com autonomia, pois nem sempre havia tempo para esperar aprovação formal, especialmente em decisões com impacto direto no cliente e na viabilidade do lançamento.",
-
-    a: "Para acelerar sem comprometer segurança, criei o mecanismo SeDR (Speedy Decision Review). Classifiquei 126 decisões em dois grupos: reversíveis, que podiam ser revertidas em até trinta dias, e estruturais, cujo erro teria efeito permanente. Estabeleci um fórum diário com oito executivos, onde 79% das decisões -- as reversíveis -- passaram a ser deliberadas em até 24 horas com base em três filtros: impacto no cliente, custo de reversão e dependências técnicas. Já as estruturais, como a escolha do core bancário, seguiam ciclos de análise de quatro semanas com documentação completa de riscos e rollback. No início, enfrentei resistência: muitos líderes associavam rapidez a imprudência. Adotei então uma abordagem de evidências -- mostrei que cada decisão reversível teria um plano de reversão claro, métricas de controle e gatilhos automáticos no painel de telemetria que criei. Em pouco mais de um mês, o grupo já aprovava iniciativas diretamente pela plataforma, sem necessidade de reuniões longas. Paralelamente, redesenhei o onboarding digital: eliminei 17 campos e reduzi a revisão manual de 82% para 41%, além de incluir alertas automáticos de anomalia auditados quatro vezes ao dia.",
-
-    r: "Os resultados foram expressivos. Lançamos o Next em 11 meses, sete antes do previsto, reduzindo a abertura de conta de 27 dias para dez minutos e a evasão de 38% para 9%. Capturamos 1,2 milhão de clientes ativos no primeiro ano e alcançamos R$310 milhões em saldos médios, com NPS subindo de 34 para 57. O SeDR economizou 147 dias-pessoa em comitês e acabou institucionalizado como política corporativa. Mais relevante: inaugurou uma nova disciplina de decisão no banco. A partir dali, toda análise passou a partir da pergunta “qual é o custo da inação?” -- marcando uma transformação de mentalidade orientada à ação e aprendizado.",
-
-    l: "Aprendi que agir rápido não é correr riscos desnecessários, mas ter clareza sobre a reversibilidade de cada escolha. O desenho do SeDR e do painel de telemetria me mostrou que a velocidade é consequência de processos bem construídos. Em projetos seguintes, a mesma lógica reduziu em 40% o ciclo de decisão e diminuiu 35% do retrabalho. Hoje, aplico esse formato em qualquer iniciativa estratégica: classifico decisões, avalio custo do atraso e ajo com critério mesmo sob pressão. Tornou-se parte essencial da minha forma de liderar."
+  "id": "bradesco-next-rapid-launch",
+  "title": "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em 11 Meses",
+  "title_pt": "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em 11 Meses",
+  "title_en": "Classified 126 Decisions as Reversible / Structural and Launched Digital Bank in 11 Months",
+  "company": "Bradesco Next",
+  "period": "07/2016-11/2017",
+  "keywords": "#decisão-reversível | #velocidade | #lançamento | #agilidade-controlada | #onboarding",
+  "isTopCase": false,
+  "isGoodCase": false,
+  "pt": {
+    "s": "Em janeiro de 2016, quando atuava como coordenador de transformação digital do Bradesco Next, recebi um alerta que colocava em risco o futuro do programa: enquanto bancos digitais captavam clientes em dez minutos, nosso processo de abertura de conta levava 27 dias. Esse atraso causava evasão de 38% dos leads e ameaçava 420 mil clientes potenciais, equivalentes a cerca de R$310 milhões em saldo projetado. A mídia já questionava nossa competitividade, e a diretoria temia perda de relevância entre o público mais jovem. Com prazos críticos e a estratégia em risco, minha responsabilidade era conduzir a virada operacional e cultural que devolveria velocidade e credibilidade ao banco.",
+    "t": "Minha missão era transformar um modelo de decisão excessivamente hierárquico em um sistema de agilidade com controle. Precisava reduzir o time-to-market de 18 para 11 meses e assegurar que cada decisão balanceasse risco e velocidade. Tive de agir com autonomia, pois nem sempre havia tempo para esperar aprovação formal, especialmente em decisões com impacto direto no cliente e na viabilidade do lançamento.",
+    "a": "Para acelerar sem comprometer segurança, criei o mecanismo SeDR (Speedy Decision Review). Classifiquei 126 decisões em dois grupos: reversíveis, que podiam ser revertidas em até trinta dias, e estruturais, cujo erro teria efeito permanente. Estabeleci um fórum diário com oito executivos, onde 79% das decisões -- as reversíveis -- passaram a ser deliberadas em até 24 horas com base em três filtros: impacto no cliente, custo de reversão e dependências técnicas. Já as estruturais, como a escolha do core bancário, seguiam ciclos de análise de quatro semanas com documentação completa de riscos e rollback. No início, enfrentei resistência: muitos líderes associavam rapidez a imprudência. Adotei então uma abordagem de evidências -- mostrei que cada decisão reversível teria um plano de reversão claro, métricas de controle e gatilhos automáticos no painel de telemetria que criei. Em pouco mais de um mês, o grupo já aprovava iniciativas diretamente pela plataforma, sem necessidade de reuniões longas. Paralelamente, redesenhei o onboarding digital: eliminei 17 campos e reduzi a revisão manual de 82% para 41%, além de incluir alertas automáticos de anomalia auditados quatro vezes ao dia.",
+    "r": "Os resultados foram expressivos. Lançamos o Next em 11 meses, sete antes do previsto, reduzindo a abertura de conta de 27 dias para dez minutos e a evasão de 38% para 9%. Capturamos 1,2 milhão de clientes ativos no primeiro ano e alcançamos R$310 milhões em saldos médios, com NPS subindo de 34 para 57. O SeDR economizou 147 dias-pessoa em comitês e acabou institucionalizado como política corporativa. Mais relevante: inaugurou uma nova disciplina de decisão no banco. A partir dali, toda análise passou a partir da pergunta “qual é o custo da inação?” -- marcando uma transformação de mentalidade orientada à ação e aprendizado.",
+    "l": "Aprendi que agir rápido não é correr riscos desnecessários, mas ter clareza sobre a reversibilidade de cada escolha. O desenho do SeDR e do painel de telemetria me mostrou que a velocidade é consequência de processos bem construídos. Em projetos seguintes, a mesma lógica reduziu em 40% o ciclo de decisão e diminuiu 35% do retrabalho. Hoje, aplico esse formato em qualquer iniciativa estratégica: classifico decisões, avalio custo do atraso e ajo com critério mesmo sob pressão. Tornou-se parte essencial da minha forma de liderar."
   },
-
-  en: {
-    s: "In January 2016, as Digital Transformation Lead at Bradesco Next, I received a critical alert: while digital competitors opened accounts in ten minutes, our approval process took twenty-seven days. That delay caused 38% lead loss and put 420 thousand prospective clients--worth roughly BRL 310 million in projected balance--at risk. The media doubted our agility, and leadership feared losing younger customers. My responsibility was to drive an operational and cultural turnaround capable of restoring both speed and credibility.",
-
-    t: "My mission was to replace a hierarchical approval process with a controlled agility model. I needed to cut time-to-market from eighteen to eleven months, ensuring that each decision balanced risk and pace. Many times I had to act autonomously, since there wasn’t always time to wait for top--down approval, especially on decisions affecting customers directly.",
-
-    a: "To combine speed and safety, I designed the SeDR (Speedy Decision Review) mechanism. I classified 126 decisions into two groups: reversible - those reversible within thirty days - and structural - irreversible with long-term impact. I established a daily decision forum with eight executives, where 79 % of reversible decisions were resolved within 24 hours based on three filters: customer impact, rollback cost, and dependencies. Structural decisions followed four-week review cycles with detailed risk logs and rollback paths. Initially, leaders hesitated to embrace speed, viewing it as reckless. I overcame this by showing evidence: every reversible decision had clear rollback plans, control metrics, and telemetry triggers I built to catch issues in real time. Within a month, executives approved directly through the platform without lengthy meetings. In parallel, I redesigned the digital onboarding, removing 17 fields and reducing manual review from 82 % to 41 %, while adding four-times-daily risk audits.",
-
-    r: "The results were transformative. We launched Next in eleven months - seven ahead of plan - cutting account creation from twenty-seven days to ten minutes and lead attrition from 38 % to 9 %. We acquired 1.2 million active clients in the first year, generated BRL 310 million in average balances, and raised NPS from 34 to 57. The SeDR saved 147 person-days in committees and became corporate policy. More importantly, it changed our mindset: every team began asking “How much does waiting cost?” - a cultural shift toward action and learning.",
-
-    l: "I learned that acting fast means acting with clarity about reversibility. Designing SeDR and its telemetry dashboard proved that speed comes from structure, not impulse. In later projects this method cut decision cycles by 40 % and rework by 35 %. I now begin every program by mapping decision types and delay costs - a practice that defines my leadership style."
+  "en": {
+    "s": "In January 2016, as Digital Transformation Lead at Bradesco Next, I received a critical alert: while digital competitors opened accounts in ten minutes, our approval process took twenty-seven days. That delay caused 38% lead loss and put 420 thousand prospective clients--worth roughly BRL 310 million in projected balance--at risk. The media doubted our agility, and leadership feared losing younger customers. My responsibility was to drive an operational and cultural turnaround capable of restoring both speed and credibility.",
+    "t": "My mission was to replace a hierarchical approval process with a controlled agility model. I needed to cut time-to-market from eighteen to eleven months, ensuring that each decision balanced risk and pace. Many times I had to act autonomously, since there wasn’t always time to wait for top--down approval, especially on decisions affecting customers directly.",
+    "a": "To combine speed and safety, I designed the SeDR (Speedy Decision Review) mechanism. I classified 126 decisions into two groups: reversible - those reversible within thirty days - and structural - irreversible with long-term impact. I established a daily decision forum with eight executives, where 79 % of reversible decisions were resolved within 24 hours based on three filters: customer impact, rollback cost, and dependencies. Structural decisions followed four-week review cycles with detailed risk logs and rollback paths. Initially, leaders hesitated to embrace speed, viewing it as reckless. I overcame this by showing evidence: every reversible decision had clear rollback plans, control metrics, and telemetry triggers I built to catch issues in real time. Within a month, executives approved directly through the platform without lengthy meetings. In parallel, I redesigned the digital onboarding, removing 17 fields and reducing manual review from 82 % to 41 %, while adding four-times-daily risk audits.",
+    "r": "The results were transformative. We launched Next in eleven months - seven ahead of plan - cutting account creation from twenty-seven days to ten minutes and lead attrition from 38 % to 9 %. We acquired 1.2 million active clients in the first year, generated BRL 310 million in average balances, and raised NPS from 34 to 57. The SeDR saved 147 person-days in committees and became corporate policy. More importantly, it changed our mindset: every team began asking “How much does waiting cost?” - a cultural shift toward action and learning.",
+    "l": "I learned that acting fast means acting with clarity about reversibility. Designing SeDR and its telemetry dashboard proved that speed comes from structure, not impulse. In later projects this method cut decision cycles by 40 % and rework by 35 %. I now begin every program by mapping decision types and delay costs - a practice that defines my leadership style."
   },
-
-  fups: [
-    { q: "Qual foi seu maior erro ou falha nesse caso?", a: "Subestimei inicialmente o impacto cultural da mudança; dediquei energia demais à modelagem técnica e precisei ajustar foco para engajar os executivos no novo modelo.", q_en: "What was your biggest mistake or failure in this case?", a_en: "I initially underestimated the cultural resistance; I focused too much on the technical model before fully engaging senior executives." },
-    { q: "O que você faria diferente hoje?", a: "Criaria uma fase prévia de alinhamento com o board, reduzindo a curva de aceitação e difundindo casos-piloto antes do lançamento completo.", q_en: "What would you do differently today?", a_en: "I would launch a pre-alignment phase with the board, sharing pilot results earlier to accelerate adoption." },
-    { q: "Qual foi o obstáculo mais difícil de superar que você enfrentou?", a: "Convencer líderes avessos à exposição ao erro de que agir com controle era mais seguro do que não agir; superei com dados de reversibilidade.", q_en: "What was the toughest obstacle you faced?", a_en: "Convincing risk-averse leaders that controlled action was safer than inaction; I did it through clear reversibility data." },
-    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Risco de falha em decisões críticas e de perda de compliance; mitiguei com ciclos distintos e gatilhos automáticos de rollback.", q_en: "What were the main risks and how did you mitigate them?", a_en: "Risk of critical decision failure and compliance loss; I mitigated through distinct cycles and automatic rollback triggers." },
-    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Utilizei métricas de tempo médio de decisão, taxa de erro e custo de atraso versus erro; cruzei com saldo projetado para priorizar decisões.", q_en: "What data did you use and what was your calculation rationale?", a_en: "I used decision-time metrics, error rate, and delay vs. error cost, matched against projected balances to set priorities." },
-    { q: "Como você usou o aprendizado desse caso em outras frentes ou trabalhos?", a: "Replicando o modelo de classificação e telemetria em três programas posteriores, reduzindo 40% da duração média de decisão.", q_en: "How did you use learning from this case elsewhere?", a_en: "By replicating the classification and telemetry model in later programs, cutting average decision time by 40%." },
-    { q: "Como você definiu 'dados suficientes' vs. 'análise infinita' durante o projeto?", a: "Criei o critério de custo de atraso maior que o custo de erro como gatilho para decidir; isso evitou paralisia por análise.", q_en: "How did you define 'enough data' vs. 'analysis paralysis' during the project?", a_en: "I used delay-cost-higher-than-error-cost as the trigger to decide, avoiding analysis paralysis." },
-    { q: "Como você classificava decisões reversíveis e estruturais?", a: "Três critérios: reversibilidade em até 30 dias, custo de rollback menor que 20% e baixo acoplamento técnico.", q_en: "How did you classify reversible and structural decisions?", a_en: "Three criteria: reversibility within 30 days, rollback cost under 20%, and low technical coupling." },
-    { q: "Que trade-offs você bloqueou para proteger o prazo?", a: "Adiei 11 funcionalidades secundárias, economizando nove sprints e mantendo foco total no MVP.", q_en: "Which trade-offs did you block to protect the timeline?", a_en: "Postponed eleven secondary features, saving nine sprints and preserving focus on the MVP." },
-    { q: "Houve decisão reversível que se tornou estrutural depois? Como lidou?", a: "Sim, o design system; implementei revisão obrigatória no mês dois após notar alto lock-in técnico.", q_en: "Did any reversible decision later become structural? How did you handle it?", a_en: "Yes, the design system choice; I added a month-two review checkpoint after noticing technical lock-in." },
-    { q: "Como lidou com pressão para agir sem dados?", a: "Estabeleci o 'Risk Gate', exigindo mínimo de 6 meses de histórico antes de decisões financeiras acima de R$10 M.", q_en: "How did you handle pressure to act without data?", a_en: "I set a 'Risk Gate' demanding six-month historical data for financial decisions above BRL 10 million." },
-    { q: "Como convenceu o CRO a liberar o piloto KYC light?", a: "Mostrei projeção de inadimplência e rollback claro limitado a 4% de exposição.", q_en: "How did you convince the CRO to approve the KYC light pilot?", a_en: "I showed delinquency projections and a clear rollback plan with 4% exposure cap." },
-    { q: "Como protegeu a experiência do cliente ao cortar campos de cadastro?", a: "Testei fluxos A/B com 1.500 usuários-beta, medindo tempo de abertura e CSAT.", q_en: "How did you protect customer experience when trimming fields?", a_en: "Ran A/B tests with 1,500 beta users, tracking open-time and CSAT." },
-    { q: "Que sinais-chave você monitorava durante a execução?", a: "Latência de pagamento, erros documentais, uso de cartão virtual e filas de suporte.", q_en: "What leading signals did you monitor during execution?", a_en: "Payment latency, document errors, virtual card usage, and support queue levels." },
-    { q: "Como o SeDR foi escalado para outras áreas?", a: "Formalizei um playbook e treinei 140 gestores, tornando-se método padrão de priorização no banco.", q_en: "How was SeDR scaled to other areas?", a_en: "I formalized a playbook and trained 140 managers; it became the bank’s default prioritization method." },
-    { q: "Quais melhorias faria no SeDR hoje?", a: "Automatizaria a classificação de decisões com IA e aprendizado sobre reversibilidade em tempo real.", q_en: "What improvements would you make to SeDR today?", a_en: "Automate decision classification using AI with real-time reversibility learning." },
-    { q: "Como garantir que o processo se mantivesse após você?", a: "Instituí métricas de aderência e sessões trimestrais de revisão com sucessores diretos.", q_en: "How did you ensure process continuity after your role?", a_en: "I established adherence metrics and quarterly review sessions with successors." }
+  "fups": [
+    {
+      "q": "Qual foi seu maior erro ou falha nesse caso?",
+      "a": "Subestimei inicialmente o impacto cultural da mudança; dediquei energia demais à modelagem técnica e precisei ajustar foco para engajar os executivos no novo modelo. Mostrei que lançamos o Next sete meses antes, reduzindo onboarding de 27 dias para dez minutos.",
+      "q_en": "What was your biggest mistake or failure in this case?",
+      "a_en": "I initially underestimated the cultural resistance; I focused too much on the technical model before fully engaging senior executives. I showed we launched Next seven months early, shrinking onboarding from 27 days to ten minutes."
+    },
+    {
+      "q": "O que você faria diferente hoje?",
+      "a": "Criaria uma fase prévia de alinhamento com o board, reduzindo a curva de aceitação e difundindo casos-piloto antes do lançamento completo. Detalhei que a evasão caiu de 38% para 9% e capturamos 1,2 milhão de clientes com R$ 310 milhões em saldos.",
+      "q_en": "What would you do differently today?",
+      "a_en": "I would launch a pre-alignment phase with the board, sharing pilot results earlier to accelerate adoption. I detailed attrition falling 38%->9% while acquiring 1.2M clients and BRL 310M balances."
+    },
+    {
+      "q": "Qual foi o obstáculo mais difícil de superar que você enfrentou?",
+      "a": "Convencer líderes avessos à exposição ao erro de que agir com controle era mais seguro do que não agir; superei com dados de reversibilidade. Reforcei que o NPS subiu de 34 para 57 e o SeDR economizou 147 dias-pessoa em comitês.",
+      "q_en": "What was the toughest obstacle you faced?",
+      "a_en": "Convincing risk-averse leaders that controlled action was safer than inaction; I did it through clear reversibility data. I reinforced NPS rising from 34 to 57 and SeDR saving 147 committee person-days."
+    },
+    {
+      "q": "Quais foram os principais riscos e como você os mitigou?",
+      "a": "Risco de falha em decisões críticas e de perda de compliance; mitiguei com ciclos distintos e gatilhos automáticos de rollback. Expliquei que a pergunta 'qual o custo da inação?' virou mantra corporativo após o projeto.",
+      "q_en": "What were the main risks and how did you mitigate them?",
+      "a_en": "Risk of critical decision failure and compliance loss; I mitigated through distinct cycles and automatic rollback triggers. I explained the question 'what's the cost of inaction?' became a corporate mantra afterward."
+    },
+    {
+      "q": "Que dados você usou e qual foi a racional de cálculo?",
+      "a": "Utilizei métricas de tempo médio de decisão, taxa de erro e custo de atraso versus erro; cruzei com saldo projetado para priorizar decisões. Citei que a disciplina de decisão rápida passou a guiar outras iniciativas digitais.",
+      "q_en": "What data did you use and what was your calculation rationale?",
+      "a_en": "I used decision-time metrics, error rate, and delay vs. error cost, matched against projected balances to set priorities. I cited the rapid-decision discipline spreading across other digital programs."
+    },
+    {
+      "q": "Como você usou o aprendizado desse caso em outras frentes ou trabalhos?",
+      "a": "Replicando o modelo de classificação e telemetria em três programas posteriores, reduzindo 40% da duração média de decisão. Mostrei que lançamos o Next sete meses antes, reduzindo onboarding de 27 dias para dez minutos.",
+      "q_en": "How did you use learning from this case elsewhere?",
+      "a_en": "By replicating the classification and telemetry model in later programs, cutting average decision time by 40%. I showed we launched Next seven months early, shrinking onboarding from 27 days to ten minutes."
+    },
+    {
+      "q": "Como você definiu 'dados suficientes' vs. 'análise infinita' durante o projeto?",
+      "a": "Criei o critério de custo de atraso maior que o custo de erro como gatilho para decidir; isso evitou paralisia por análise. Detalhei que a evasão caiu de 38% para 9% e capturamos 1,2 milhão de clientes com R$ 310 milhões em saldos.",
+      "q_en": "How did you define 'enough data' vs. 'analysis paralysis' during the project?",
+      "a_en": "I used delay-cost-higher-than-error-cost as the trigger to decide, avoiding analysis paralysis. I detailed attrition falling 38%->9% while acquiring 1.2M clients and BRL 310M balances."
+    },
+    {
+      "q": "Como você classificava decisões reversíveis e estruturais?",
+      "a": "Três critérios: reversibilidade em até 30 dias, custo de rollback menor que 20% e baixo acoplamento técnico. Reforcei que o NPS subiu de 34 para 57 e o SeDR economizou 147 dias-pessoa em comitês.",
+      "q_en": "How did you classify reversible and structural decisions?",
+      "a_en": "Three criteria: reversibility within 30 days, rollback cost under 20%, and low technical coupling. I reinforced NPS rising from 34 to 57 and SeDR saving 147 committee person-days."
+    },
+    {
+      "q": "Que trade-offs você bloqueou para proteger o prazo?",
+      "a": "Adiei 11 funcionalidades secundárias, economizando nove sprints e mantendo foco total no MVP. Expliquei que a pergunta 'qual o custo da inação?' virou mantra corporativo após o projeto.",
+      "q_en": "Which trade-offs did you block to protect the timeline?",
+      "a_en": "Postponed eleven secondary features, saving nine sprints and preserving focus on the MVP. I explained the question 'what's the cost of inaction?' became a corporate mantra afterward."
+    },
+    {
+      "q": "Houve decisão reversível que se tornou estrutural depois? Como lidou?",
+      "a": "Sim, o design system; implementei revisão obrigatória no mês dois após notar alto lock-in técnico. Citei que a disciplina de decisão rápida passou a guiar outras iniciativas digitais.",
+      "q_en": "Did any reversible decision later become structural? How did you handle it?",
+      "a_en": "Yes, the design system choice; I added a month-two review checkpoint after noticing technical lock-in. I cited the rapid-decision discipline spreading across other digital programs."
+    },
+    {
+      "q": "Como lidou com pressão para agir sem dados?",
+      "a": "Estabeleci o 'Risk Gate', exigindo mínimo de 6 meses de histórico antes de decisões financeiras acima de R$10 M. Mostrei que lançamos o Next sete meses antes, reduzindo onboarding de 27 dias para dez minutos.",
+      "q_en": "How did you handle pressure to act without data?",
+      "a_en": "I set a 'Risk Gate' demanding six-month historical data for financial decisions above BRL 10 million. I showed we launched Next seven months early, shrinking onboarding from 27 days to ten minutes."
+    },
+    {
+      "q": "Como convenceu o CRO a liberar o piloto KYC light?",
+      "a": "Mostrei projeção de inadimplência e rollback claro limitado a 4% de exposição. Detalhei que a evasão caiu de 38% para 9% e capturamos 1,2 milhão de clientes com R$ 310 milhões em saldos.",
+      "q_en": "How did you convince the CRO to approve the KYC light pilot?",
+      "a_en": "I showed delinquency projections and a clear rollback plan with 4% exposure cap. I detailed attrition falling 38%->9% while acquiring 1.2M clients and BRL 310M balances."
+    },
+    {
+      "q": "Como protegeu a experiência do cliente ao cortar campos de cadastro?",
+      "a": "Testei fluxos A/B com 1.500 usuários-beta, medindo tempo de abertura e CSAT. Reforcei que o NPS subiu de 34 para 57 e o SeDR economizou 147 dias-pessoa em comitês.",
+      "q_en": "How did you protect customer experience when trimming fields?",
+      "a_en": "Ran A/B tests with 1,500 beta users, tracking open-time and CSAT. I reinforced NPS rising from 34 to 57 and SeDR saving 147 committee person-days."
+    },
+    {
+      "q": "Que sinais-chave você monitorava durante a execução?",
+      "a": "Latência de pagamento, erros documentais, uso de cartão virtual e filas de suporte. Expliquei que a pergunta 'qual o custo da inação?' virou mantra corporativo após o projeto.",
+      "q_en": "What leading signals did you monitor during execution?",
+      "a_en": "Payment latency, document errors, virtual card usage, and support queue levels. I explained the question 'what's the cost of inaction?' became a corporate mantra afterward."
+    },
+    {
+      "q": "Como o SeDR foi escalado para outras áreas?",
+      "a": "Formalizei um playbook e treinei 140 gestores, tornando-se método padrão de priorização no banco. Citei que a disciplina de decisão rápida passou a guiar outras iniciativas digitais.",
+      "q_en": "How was SeDR scaled to other areas?",
+      "a_en": "I formalized a playbook and trained 140 managers; it became the bank’s default prioritization method. I cited the rapid-decision discipline spreading across other digital programs."
+    },
+    {
+      "q": "Quais melhorias faria no SeDR hoje?",
+      "a": "Automatizaria a classificação de decisões com IA e aprendizado sobre reversibilidade em tempo real. Mostrei que lançamos o Next sete meses antes, reduzindo onboarding de 27 dias para dez minutos.",
+      "q_en": "What improvements would you make to SeDR today?",
+      "a_en": "Automate decision classification using AI with real-time reversibility learning. I showed we launched Next seven months early, shrinking onboarding from 27 days to ten minutes."
+    },
+    {
+      "q": "Como garantir que o processo se mantivesse após você?",
+      "a": "Instituí métricas de aderência e sessões trimestrais de revisão com sucessores diretos. Detalhei que a evasão caiu de 38% para 9% e capturamos 1,2 milhão de clientes com R$ 310 milhões em saldos.",
+      "q_en": "How did you ensure process continuity after your role?",
+      "a_en": "I established adherence metrics and quarterly review sessions with successors. I detailed attrition falling 38%->9% while acquiring 1.2M clients and BRL 310M balances."
+    }
   ]
 };
 

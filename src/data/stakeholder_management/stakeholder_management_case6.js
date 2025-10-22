@@ -25,7 +25,7 @@ const case_6 = {
       "q": "Qual foi seu maior erro ou falha nesse caso?",
       "a": "Meu maior erro foi subestimar o apego emocional dos conselheiros ao modelo relacional. No início, tentei convencê-los apenas com dados de eficiência, mas os números frios não ressoavam. A virada só aconteceu quando recalibrei a abordagem para contar histórias que conectavam a inovação aos valores cooperativistas, mostrando que o digital fortaleceria, e não substituiria, os laços com os membros. Detalhei que o Woop atingiu 25% de adoção digital, 15 pontos acima da base e 1,7x o benchmark interno.",
       "q_en": "What was your biggest mistake or failure in this case?",
-      "a_en": "My biggest mistake was underestimating the board's emotional attachment to the relationship model. I initially tried to persuade with efficiency data, but cold numbers didn't resonate. The turning point came when I reframed the narrative to show how digital would strengthen, not replace, member bonds. I detailed Woop reaching 25% digital adoption—15 points above baseline and 1.7x the internal benchmark."
+      "a_en": "My biggest mistake was underestimating the board's emotional attachment to the relationship model. I initially tried to persuade with efficiency data, but cold numbers didn't resonate. The turning point came when I reframed the narrative to show how digital would strengthen, not replace, member bonds. I detailed Woop reaching 25% digital adoption—15 points above baseline and 1.7x the internal benchmark. I detailed Woop reaching 25% digital adoption-15 points above baseline and 1.7x the internal benchmark."
     },
     {
       "q": "O que você faria diferente hoje?",
@@ -55,7 +55,7 @@ const case_6 = {
       "q": "Como você usou o aprendizado desse caso em outras frentes?",
       "a": "Apliquei o framework de 'engajamento por influência' na Unimed. Lá, em vez de presidentes de cooperativas, criei comitês consultivos com diretores médicos e gestores hospitalares. Essa abordagem foi crucial para alinhar a estratégia de produtos digitais e conseguir a adesão necessária para reduzir a sinistralidade em 8 p.p. Detalhei que o Woop atingiu 25% de adoção digital, 15 pontos acima da base e 1,7x o benchmark interno.",
       "q_en": "How did you use the learning from this case elsewhere?",
-      "a_en": "I applied the 'influence-based engagement' framework at Unimed. Instead of cooperative presidents, I created advisory committees with medical directors and hospital managers. This approach was crucial for aligning the digital product strategy and gaining the buy-in needed to reduce the loss ratio by 8 p.p. I detailed Woop reaching 25% digital adoption—15 points above baseline and 1.7x the internal benchmark."
+      "a_en": "I applied the 'influence-based engagement' framework at Unimed. Instead of cooperative presidents, I created advisory committees with medical directors and hospital managers. This approach was crucial for aligning the digital product strategy and gaining the buy-in needed to reduce the loss ratio by 8 p.p. I detailed Woop reaching 25% digital adoption—15 points above baseline and 1.7x the internal benchmark. I detailed Woop reaching 25% digital adoption-15 points above baseline and 1.7x the internal benchmark."
     },
     {
       "q": "Como você selecionou os 25 embaixadores regionais?",

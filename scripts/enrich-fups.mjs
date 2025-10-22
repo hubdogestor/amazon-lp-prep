@@ -746,11 +746,315 @@ const extrasByFile = {
       "Citei que o presidente mais resistente virou porta-voz do digital na convenção nacional de 2021."
     ],
     extrasEn: [
-      "I detailed Woop reaching 25% digital adoption—15 points above baseline and 1.7x the internal benchmark.",
+      "I detailed Woop reaching 25% digital adoption-15 points above baseline and 1.7x the internal benchmark.",
       "I showed 15 co-created releases adding PIX and facial biometrics.",
       "I reinforced digital NPS climbing from 32 to 67 and board approvals dropping from 90 to 30 days.",
       "I explained the model was institutionalized by Sicredi Nacional and replicated in 48 cooperatives.",
       "I cited the once-skeptical president becoming the digital spokesperson at the 2021 national convention."
+    ]
+  },
+  "learn_and_be_curious/learn_and_be_curious_case1.js": {
+    extrasPt: [
+      "Mostrei que o APS alcançou 20 mil associados e cortou 15% dos custos hospitalares, gerando R$ 4 milhões em economia.",
+      "Reforcei que o NPS da carteira saltou de 28 para 34 enquanto o EBITDA cresceu 22% versus 8% do setor.",
+      "Expliquei que US$ 3,2 mil investidos em Harvard retornaram mais de R$ 4 milhões no primeiro ano.",
+      "Detalhei que superamos as projeções de Harvard, que apontavam reduções típicas de 10% a 12%.",
+      "Citei que o protocolo Harvard virou pré-requisito corporativo para novos líderes de inovação."
+    ],
+    extrasEn: [
+      "I showed APS reaching 20,000 members and cutting hospital costs 15%, delivering BRL 4M savings.",
+      "I reinforced participant NPS rising from 28 to 34 while EBITDA grew 22% versus the 8% industry average.",
+      "I explained the US$3.2K Harvard investment returned over BRL 4M in the first year.",
+      "I detailed we beat Harvard's 10-12% benchmark with a 15% reduction.",
+      "I cited the Harvard-based protocol becoming a corporate prerequisite for innovation leaders."
+    ]
+  },
+  "learn_and_be_curious/learn_and_be_curious_case2.js": {
+    extrasPt: [
+      "Mostrei que o Next foi lançado seis meses antes, economizando R$ 2,4 milhões e eliminando dependências ocultas.",
+      "Detalhei que o tempo de reunião caiu 50% e o retrabalho despencou 70% após o novo modelo.",
+      "Reforcei que a Comunidade Ágil treinou mais de 2.000 profissionais e influenciou 12 diretorias.",
+      "Expliquei que o playbook 'Bradesco Way of Working' virou referência de governança de entrega.",
+      "Citei que o aprendizado contínuo passou a ser tratado como ferramenta de execução, não como treinamento isolado."
+    ],
+    extrasEn: [
+      "I showed Next launching six months early, saving BRL 2.4M and eliminating hidden dependencies.",
+      "I detailed meeting time dropping 50% and rework 70% under the new operating model.",
+      "I reinforced the Agile Community training 2,000+ professionals and influencing 12 directorates.",
+      "I explained the 'Bradesco Way of Working' playbook became the enterprise delivery reference.",
+      "I cited leaders now using continuous learning as an execution tool, not a side training track."
+    ]
+  },
+  "learn_and_be_curious/learn_and_be_curious_case3.js": {
+    extrasPt: [
+      "Mostrei que a decisão evitou investir R$ 800 mil e redirecionou o capital para gerar R$ 1,2 milhão em receita.",
+      "Detalhei que o whitepaper de 18 páginas e o protótipo interativo sustentaram a recomendação de pausar.",
+      "Reforcei que definimos KRs como 'Clareza Regulatória Nível 3' e 'Adoção PME > 15%' para reavaliar o tema.",
+      "Expliquei que o ROI da curiosidade disciplinada foi 150% maior que o cenário blockchain.",
+      "Citei que a metodologia virou mecanismo corporativo de inteligência estratégica trimestral."
+    ],
+    extrasEn: [
+      "I showed we avoided a BRL 800K spend and redirected funds to generate BRL 1.2M revenue.",
+      "I detailed the 18-page whitepaper and interactive prototype that backed the pause recommendation.",
+      "I reinforced setting KRs like 'Regulatory Clarity Level 3' and 'SME adoption >15%' to reassess the space.",
+      "I explained disciplined curiosity produced 150% ROI over the blockchain alternative.",
+      "I cited the method becoming the company's quarterly strategic intelligence mechanism."
+    ]
+  },
+  "learn_and_be_curious/learn_and_be_curious_case4.js": {
+    extrasPt: [
+      "Mostrei que entregamos 26 PoCs em três anos, reduzindo o ramp-up de seis para 2,8 semanas (-53%).",
+      "Detalhei que a aplicação de aprendizado subiu de 22% para 81% e a due diligence caiu de oito para 3,2 semanas.",
+      "Reforcei que o Woop App cresceu 25% (aproximadamente R$ 160 milhões) graças aos aceleradores padronizados.",
+      "Expliquei que dois PoCs viraram templates oficiais: integração de pagamentos (-6 -> 1,5 semana) e reconciliação (-94% erros).",
+      "Citei que 832 horas de estudo renderam R$ 2,1 milhões em savings, um ROI de 8,3x."
+    ],
+    extrasEn: [
+      "I showed delivering 26 PoCs in three years, cutting ramp-up from six to 2.8 weeks (-53%).",
+      "I detailed learning application rising from 22% to 81% and due diligence dropping from eight to 3.2 weeks.",
+      "I reinforced Woop App adoption growing 25% (~BRL 160M) via standardized accelerators.",
+      "I explained two PoCs became templates: payment integration (six -> 1.5 weeks) and reconciliation (-94% manual errors).",
+      "I cited 832 learning hours producing BRL 2.1M in savings—an 8.3x ROI."
+    ]
+  },
+  "learn_and_be_curious/learn_and_be_curious_case5.js": {
+    extrasPt: [
+      "Mostrei que o portal foi entregue em 3,8 meses, 36% antes do plano técnico e 5% antes do marco político.",
+      "Detalhei que 14,2 mil usuários únicos mensais representam 42% acima da meta original.",
+      "Reforcei que os pedidos LAI caíram 67% (340 -> 112) e economizamos 480 horas anuais de atendimento.",
+      "Expliquei que a arquitetura foi replicada por 23 municípios e gerou 47 reportagens em poucos meses.",
+      "Citei que o domínio em LGPD evitou R$ 380 mil em consultorias em quatro novos projetos."
+    ],
+    extrasEn: [
+      "I showed the portal launched in 3.8 months, 36% ahead of plan and 5% before the political deadline.",
+      "I detailed 14.2K monthly unique users—42% above target.",
+      "I reinforced FOIA requests dropping 67% (340 -> 112) and 480 support hours saved annually.",
+      "I explained 23 municipalities reused the architecture and 47 data stories hit the press within months.",
+      "I cited the LGPD expertise saving BRL 380K in consultancy across four follow-on projects."
+    ]
+  },
+  "learn_and_be_curious/learn_and_be_curious_case6.js": {
+    extrasPt: [
+      "Mostrei que o Vibee acelerou sete startups, investiu em duas e validou R$ 12 milhões em inovação.",
+      "Detalhei que o tempo de contratação caiu de 21 para oito dias com zero desistências.",
+      "Reforcei que o modelo foi replicado em 23 cooperativas, gerando R$ 47 milhões em projetos.",
+      "Expliquei que o investimento de R$ 340 mil virou estrutura permanente e reconhecida pela OCB.",
+      "Citei que a Unimed passou a ser vista como parceira confiável no ecossistema de inovação cooperativa."
+    ],
+    extrasEn: [
+      "I showed Vibee accelerating seven startups, investing in two, and validating BRL 12M in innovation.",
+      "I detailed contracting time dropping from 21 to eight days with zero attrition.",
+      "I reinforced the model scaling to 23 cooperatives and generating BRL 47M in projects.",
+      "I explained the BRL 340K investment created a permanent structure recognized by OCB.",
+      "I cited Unimed becoming a trusted partner within Brazil's cooperative innovation ecosystem."
+    ]
+  },
+  "bias_for_action/bias_for_action_case1.js": {
+    extrasPt: [
+      "Mostrei que lançamos o Next sete meses antes, reduzindo onboarding de 27 dias para dez minutos.",
+      "Detalhei que a evasão caiu de 38% para 9% e capturamos 1,2 milhão de clientes com R$ 310 milhões em saldos.",
+      "Reforcei que o NPS subiu de 34 para 57 e o SeDR economizou 147 dias-pessoa em comitês.",
+      "Expliquei que a pergunta 'qual o custo da inação?' virou mantra corporativo após o projeto.",
+      "Citei que a disciplina de decisão rápida passou a guiar outras iniciativas digitais."
+    ],
+    extrasEn: [
+      "I showed we launched Next seven months early, shrinking onboarding from 27 days to ten minutes.",
+      "I detailed attrition falling 38%->9% while acquiring 1.2M clients and BRL 310M balances.",
+      "I reinforced NPS rising from 34 to 57 and SeDR saving 147 committee person-days.",
+      "I explained the question 'what's the cost of inaction?' became a corporate mantra afterward.",
+      "I cited the rapid-decision discipline spreading across other digital programs."
+    ]
+  },
+  "bias_for_action/bias_for_action_case2.js": {
+    extrasPt: [
+      "Mostrei que o ML automatizou 73% dos pedidos em oito meses, cortando análise de 11 para 1,8 dia.",
+      "Detalhei que o backlog caiu de 18 mil para 2,4 mil e o abandono de 31% para 8%.",
+      "Reforcei que a inadimplência ficou em 1,9% e aprovamos R$ 127 milhões extras com custo 42% menor.",
+      "Expliquei que o laboratório regulado inspirado pelo projeto hoje atende seguros e investimentos.",
+      "Citei que o diretor de risco, antes contra, virou patrocinador e mentor de novas frentes."
+    ],
+    extrasEn: [
+      "I showed ML automating 73% of requests in eight months, trimming analysis from 11 to 1.8 days.",
+      "I detailed backlog shrinking 18K->2.4K and abandonment plunging 31%->8%.",
+      "I reinforced default staying at 1.9% while approving BRL 127M more credit with 42% lower cost.",
+      "I explained the regulated innovation lab formed afterward now covers insurance and investments.",
+      "I cited the once-opposed risk director becoming the model's executive sponsor."
+    ]
+  },
+  "bias_for_action/bias_for_action_case3.js": {
+    extrasPt: [
+      "Mostrei que o portal emergencial ficou pronto em 18 dias e processou 28.700 pedidos em três semanas.",
+      "Detalhei que concedemos R$ 312 milhões em suporte fiscal e evitamos R$ 128 milhões em perdas.",
+      "Reforcei que o tempo médio caiu de 96 horas para 18 minutos com 99,4% de disponibilidade.",
+      "Expliquei que o NPS atingiu 76 e 91% dos casos foram aprovados sem intervenção humana.",
+      "Citei que o modelo virou referência do CONFAZ para respostas a desastres naturais."
+    ],
+    extrasEn: [
+      "I showed the emergency portal went live on day 18 and handled 28,700 requests in three weeks.",
+      "I detailed BRL 312M granted in fiscal relief while avoiding BRL 128M in losses.",
+      "I reinforced average handling dropping from 96 hours to 18 minutes with 99.4% uptime.",
+      "I explained NPS hitting 76 and 91% of cases approved automatically.",
+      "I cited the governance becoming CONFAZ's reference for disaster response."
+    ]
+  },
+  "bias_for_action/bias_for_action_case4.js": {
+    extrasPt: [
+      "Mostrei que recuperamos 83% da capacidade em 61 horas com SLA 97% superior ao pré-ataque.",
+      "Detalhei que evitamos 32 mil cancelamentos e preservamos R$ 5,8 milhões em receita crítica.",
+      "Reforcei que o atendimento oncológico voltou em 36 horas sem incidentes de privacidade.",
+      "Expliquei que auditoria interna e ANS validaram todas as salvaguardas do Phoenix.",
+      "Citei que o protocolo virou Centro de Resposta Digital com simulações trimestrais."
+    ],
+    extrasEn: [
+      "I showed restoring 83% capacity in 61 hours with SLA 97% above pre-attack levels.",
+      "I detailed avoiding 32K cancellations and preserving BRL 5.8M in critical revenue.",
+      "I reinforced oncology service resuming in 36 hours with zero privacy incidents.",
+      "I explained internal audit and ANS validating every Phoenix safeguard.",
+      "I cited the protocol evolving into a Digital Response Center with quarterly drills."
+    ]
+  },
+  "bias_for_action/bias_for_action_case5.js": {
+    extrasPt: [
+      "Mostrei que o bloqueio focalizado conteve 89% da fraude projetada, economizando R$ 2,05 milhões.",
+      "Detalhei que interceptamos 312 transações irregulares com apenas 34 falsos positivos (4%).",
+      "Reforcei que o NPS caiu só dois pontos e normalizou em 72 horas mesmo com a ação dura.",
+      "Expliquei que em 48h corrigimos a vulnerabilidade do parceiro X e as ocorrências caíram 94% em 30 dias.",
+      "Citei que o método de sinais mínimos virou trecho oficial do manual de resposta rápida."
+    ],
+    extrasEn: [
+      "I showed the focused block containing 89% of projected fraud, saving BRL 2.05M.",
+      "I detailed stopping 312 bad transactions with only 34 false positives (4%).",
+      "I reinforced NPS dipping just two points and normalizing within 72 hours.",
+      "I explained partner X's flaw was fixed in 48h, driving 94% fewer cases in the next month.",
+      "I cited the minimal-signal playbook becoming part of the fast-response manual."
+    ]
+  },
+  "bias_for_action/bias_for_action_case6.js": {
+    extrasPt: [
+      "Mostrei que concluímos o pivot em dez meses com custo final de R$ 2,8 milhões (-22%).",
+      "Detalhei que reaproveitamos 60% do código e economizamos quatro squad-months de retrabalho.",
+      "Reforcei que o tempo de emissão de NF-e caiu 78% para 1,8 segundo com disponibilidade de 99,7%.",
+      "Expliquei que a arquitetura modular permitiu atualizar o Tax Engine em três semanas durante a reforma.",
+      "Citei que o framework de riscos legislativos elevou o NPS interno de 45 para 72."
+    ],
+    extrasEn: [
+      "I showed completing the pivot in ten months with final cost BRL 2.8M (-22%).",
+      "I detailed reusing 60% of code and saving four squad-months of rework.",
+      "I reinforced NF-e issuance time dropping 78% to 1.8 seconds with 99.7% availability.",
+      "I explained the modular setup let us update the Tax Engine in three weeks during the reform.",
+      "I cited the legislative-risk framework boosting internal NPS from 45 to 72."
+    ]
+  },
+  "bias_for_action/bias_for_action_case7.js": {
+    extrasPt: [
+      "Mostrei que migramos US$ 5,2 bilhões e 1,2 milhão de clientes em 18 horas sem incidentes.",
+      "Detalhei que mantivemos 99,94% de disponibilidade e barramos 127 tentativas anômalas nos 90 dias seguintes.",
+      "Reforcei que evitamos R$ 310 milhões em impactos entre multas, churn e operação dual.",
+      "Expliquei que o CISO reconheceu publicamente a análise contextual como superior ao protocolo padrão.",
+      "Citei que a FEBRABAN passou a usar o framework de análise contextual como referência."
+    ],
+    extrasEn: [
+      "I showed migrating USD 5.2B assets and 1.2M clients in 18 hours without incidents.",
+      "I detailed sustaining 99.94% availability and blocking 127 anomalies in the next 90 days.",
+      "I reinforced avoiding BRL 310M in combined fines, churn, and dual-operation costs.",
+      "I explained the CISO publicly endorsed contextual analysis over the prior protocol.",
+      "I cited FEBRABAN adopting the contextual-risk framework as a market reference."
+    ]
+  },
+  "prioritizing_and_influence/prioritizing_and_influence_case1.js": {
+    extrasPt: [
+      "Mostrei que o B2C saltou de 1,2 para 1,87 milhão de usuários ativos (+56%) e reativou 340 mil inativos.",
+      "Detalhei que o ROI da reativação foi 1.240% versus aquisição nova e gerou R$ 91 milhões extras.",
+      "Reforcei que o CAC B2C ficou em R$ 67 contra R$ 1.180 no B2B, provando foco certo.",
+      "Expliquei que o CLTV composto atingiu R$ 4.680 com cross-sell PIX -> investimentos.",
+      "Citei que o NPS geral subiu de 61 para 74 enquanto o churn caiu para 14%."
+    ],
+    extrasEn: [
+      "I showed B2C growing from 1.2M to 1.87M active users (+56%) and reactivating 340K dormant accounts.",
+      "I detailed the reactivation ROI hitting 1,240% versus new acquisition and driving BRL 91M revenue.",
+      "I reinforced B2C CAC holding at BRL 67 versus BRL 1,180 B2B, proving the focus.",
+      "I explained compound CLTV reaching BRL 4,680 through PIX-to-investments cross-sell.",
+      "I cited overall NPS moving 61->74 with churn dropping to 14%."
+    ]
+  },
+  "prioritizing_and_influence/prioritizing_and_influence_case2.js": {
+    extrasPt: [
+      "Mostrei que digitalizamos 10 operações em 23 dias e processamos 87% das transações da rede.",
+      "Detalhei que evitamos R$ 2,72 bilhões em perdas durante oito semanas de lockdown.",
+      "Reforcei que a abertura de conta PJ cresceu 1.240% e a portabilidade via app subiu 890%.",
+      "Expliquei que o NPS digital saltou de 58 para 81 e o churn caiu 34% graças à alternativa rápida.",
+      "Citei que o framework 'Salva R$ X? Top 10? Espera 60 dias?' foi usado em quatro crises posteriores."
+    ],
+    extrasEn: [
+      "I showed digitizing 10 operations in 23 days, covering 87% of branch transactions.",
+      "I detailed saving BRL 2.72B across eight lockdown weeks.",
+      "I reinforced business account onboarding growing 1,240% and salary portability up 890%.",
+      "I explained digital NPS leaping from 58 to 81 with churn down 34% thanks to the quick alternative.",
+      "I cited the 'Save BRL X? Top 10? Wait 60 days?' framework powering four later crisis responses."
+    ]
+  },
+  "prioritizing_and_influence/prioritizing_and_influence_case3.js": {
+    extrasPt: [
+      "Mostrei que reduzir desvios para 7% liberou R$ 12 milhões em economias segundo o BID.",
+      "Detalhei que o NPS interno atingiu 82 graças ao sistema integrado funcionando sem intervenção diária.",
+      "Reforcei que o framework virou referência oficial para o Profisco III.",
+      "Expliquei que os trade-offs de pausas temporárias evitaram desperdício em iniciativas secundárias.",
+      "Citei que os dashboards consolidados criaram transparência com secretários e tribunal de contas."
+    ],
+    extrasEn: [
+      "I showed cutting deviations to 7% unlocked BRL 12M savings per BID's evaluation.",
+      "I detailed internal NPS reaching 82 because the integrated system ran autonomously.",
+      "I reinforced the framework becoming Profisco III's official benchmark.",
+      "I explained temporary pauses prevented waste on secondary initiatives.",
+      "I cited consolidated dashboards building transparency with secretaries and auditors."
+    ]
+  },
+  "prioritizing_and_influence/prioritizing_and_influence_case4.js": {
+    extrasPt: [
+      "Mostrei que o pivot elevou em 45% os leads qualificados enquanto maturávamos os robôs.",
+      "Detalhei que preservamos todo o conhecimento técnico construído para o lançamento futuro.",
+      "Reforcei que o trade-off de pausar receita curto prazo criou base escalável para 2026.",
+      "Expliquei que os protótipos ficaram prontos sem comprometer o financeiro do ano.",
+      "Citei que a priorização alinhou marketing, engenharia e operações em menos de duas semanas."
+    ],
+    extrasEn: [
+      "I showed the pivot lifting qualified leads 45% while we matured the robot roadmap.",
+      "I detailed preserving the full technical knowledge base for future launch.",
+      "I reinforced that pausing short-term revenue built a scalable 2026 foundation.",
+      "I explained prototypes were completed without breaking the annual budget.",
+      "I cited prioritization aligning marketing, engineering, and ops within two weeks."
+    ]
+  },
+  "prioritizing_and_influence/prioritizing_and_influence_case5.js": {
+    extrasPt: [
+      "Mostrei que o MVP atrasado ainda entregou 25% de adoção e churn de apenas 3%.",
+      "Detalhei que a estratégia gerou R$ 50 milhões no primeiro ano mesmo com escopo enxuto.",
+      "Reforcei que o NPS ficou em 78, validando a escolha por estabilidade.",
+      "Expliquei que o board aprovou recursos extras ao ver o plano transparente.",
+      "Citei que o case virou referência interna de gestão de crises de produto."
+    ],
+    extrasEn: [
+      "I showed the delayed MVP still reached 25% adoption with only 3% churn.",
+      "I detailed the approach generating BRL 50M in year-one revenue despite reduced scope.",
+      "I reinforced NPS holding at 78, validating stability-first delivery.",
+      "I explained the board approved extra funding after seeing the transparent plan.",
+      "I cited the case becoming the internal reference for product-crisis management."
+    ]
+  },
+  "prioritizing_and_influence/prioritizing_and_influence_case6.js": {
+    extrasPt: [
+      "Mostrei que o Next foi lançado quatro meses antes, capturando 420 mil clientes no primeiro ano.",
+      "Detalhei que a receita atingiu R$ 220 milhões, 22% acima do planejado, com NPS 74 (vs 68 do Nubank).",
+      "Reforcei que a Wave 2 atrasou só 2,5 meses e comitê considerou aceitável.",
+      "Expliquei que o roadmap faseado reduziu risco e virou padrão em projetos digitais seguintes.",
+      "Citei que o CEO apresentou o case em town-hall como benchmark de execução ágil."
+    ],
+    extrasEn: [
+      "I showed Next launching four months early and capturing 420K clients in year one.",
+      "I detailed revenue hitting BRL 220M (22% above plan) with NPS 74 versus 68 at Nubank.",
+      "I reinforced Wave 2 slipping only 2.5 months, within the committee's tolerance.",
+      "I explained the phased roadmap reduced risk and became standard for future digital programs.",
+      "I cited the CEO highlighting the case in a town hall as the agile execution benchmark."
     ]
   }
 };
@@ -801,3 +1105,4 @@ for (const [relativePath, extras] of Object.entries(extrasByFile)) {
   const newContent = `${header}const ${constName} = ${objectString};\n\nexport default ${constName};\n`;
   fs.writeFileSync(filePath, newContent, "utf8");
 }
+

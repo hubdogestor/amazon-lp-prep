@@ -20,7 +20,8 @@ export const questionsToCasesMapping = {
     "14": { "options": [{ "caseId": "sicredi-small-business-survival", "score": 100 }] },
     "15": { "options": [{ "caseId": "unimed-pet-anticipation", "score": 100 }] },
     "16": { "options": [{ "caseId": "unimed-cancer-patient-journey", "score": 100 }] },
-    "17": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }] }
+    "17": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }] },
+    "18": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }] }
   },
   "ownership": {
     "1": { "options": [{ "caseId": "hsbc-migration-leadership", "score": 100 }] },

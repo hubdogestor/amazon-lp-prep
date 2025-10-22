@@ -20,7 +20,8 @@ const typicalQuestions = {
       "Conte sobre quando você teve que educar um cliente sobre algo que ele não sabia que precisava",
       "Conte sobre uma vez em que você identificou sinais silenciosos nos dados dos clientes e lançou uma solução antes que eles pedissem explicitamente.",
       "Me fale sobre quando você transformou um pedido desesperado de um cliente em um mecanismo que antecipou necessidades críticas de pessoas vulneráveis.",
-      "Descreva uma situação em que você precisou reconquistar um cliente premium após falhar e quais mecanismos criou para impedir que a promessa fosse quebrada novamente."
+      "Descreva uma situação em que você precisou reconquistar um cliente premium após falhar e quais mecanismos criou para impedir que a promessa fosse quebrada novamente.",
+      "Descreva uma situação em que você teve que escolher entre as necessidades de um cliente e uma política interna da empresa. Como você navegou essa situação e qual foi o resultado?"
     ],
     en: [
       "Tell me about a time you went above and beyond customer expectations or anticipated an unexpressed need",
@@ -39,7 +40,8 @@ const typicalQuestions = {
       "Tell me about when you had to educate a customer about something they didn't know they needed",
       "Tell me about a time you spotted silent signals in customer data and launched a solution before they explicitly asked for it.",
       "Tell me about when you turned a desperate customer escalation into a mechanism that anticipated critical needs for vulnerable people.",
-      "Describe a time you had to win back a premium customer after failing them and the mechanisms you built to ensure the promise would not break again."
+      "Describe a time you had to win back a premium customer after failing them and the mechanisms you built to ensure the promise would not break again.",
+      "Describe a situation where you had to choose between a customer's needs and an internal company policy. How did you navigate this situation, and what was the outcome?"
     ]
   },
   "ownership": {
