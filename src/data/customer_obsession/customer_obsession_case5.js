@@ -1,44 +1,103 @@
 // customer_obsession_case5.js
 const case_5 = {
-  id: "sicredi-woop-segment-balance",
-  title: "Equilibrei necessidades de 340 cooperativas B2B e 1,2M pessoas B2C com um unico squad",
-  title_pt: "Equilibrei necessidades de 340 cooperativas B2B e 1,2M pessoas B2C com um único squad",
-  title_en: "Balanced 340 B2B cooperatives and 1.2M retail members with one squad",
-  company: "Sicredi Woop",
-  period: "03/2021-11/2021",
-  keywords: "#equilibrar-clientes | #priorização | #b2b-vs-b2c | #trade-off | #dados",
-  context: "Digital banking platform",
-  isTopCase: false,
-  isGoodCase: false,
-  pt: {
-    s: "Marco de 2021. Eu liderava estrategia de produto no Woop, banco digital do Sicredi, com um squad de nove pessoas cuidando de toda a jornada. Às 9h, o diretor comercial avisou: “Se o modulo de tesouraria nao for ao ar ate junho, perdemos R$ 47 milhoes em receita das 340 cooperativas.” Às 10h, o dashboard de onboarding disparou: churn de 38% nos sete primeiros dias - 156 mil pessoas abandonando a conta. Um unico time, dois incêndios e a promessa cooperativa de inclusao em risco.",
-    t: "Assumi ownership total e explicitei o dilema: metas internas exigiam churn abaixo de 20%, entrega completa do backlog B2B e custo por sprint em R$ 4 mil, mas havia apenas um squad. Defini dois compromissos: cortar o churn B2C pela metade para preservar liquidez e, em paralelo, entregar as tres funcoes de tesouraria que realmente geravam receita. Avisei ao board que o plano mudaria: comecariamos por varejo porque cada semana de atraso queimava R$ 2,8 milhoes em valor de vida de cliente, enquanto o B2B tinha quatro meses de folga contratual.",
-    a: "Analisei 2,3 milhoes de eventos de onboarding, 18 entrevistas com tesoureiros e reclamações no SAC. Descobri que 54% do abandono acontecia em uma unica etapa com OCR falho e que 73% das cooperativas usavam apenas 3 das 12 features prometidas. Para trocar intuicao por transparencia criei a metrica 'Impacto por Sprint', combinando esforço de engenharia, receita preservada, clientes afetados e alinhamento estrategico. A matriz mostrou: corrigir o OCR exigia 1,5 sprint e devolvia experiência a 1,2 milhao de pessoas; construir as tres funcoes críticas de tesouraria consumiria seis sprints e defendia R$ 47 milhoes. Munido de dados cortei nove features supérfluas, formalizei que apenas entregas com ROI comprovado entrariam no roadmap e dividi o squad em duas celulas temporarias. Conduzi dailies às 9h e 15h, publiquei um dashboard com churn, NPS e forecast de receita lado a lado e enfrentei cada pedido extra com o custo de atraso correspondente. Para manter empatia cruzada, engenheiros B2B ligavam para clientes B2C que haviam desistido e o time de varejo visitava cooperativas para sentir a perda de receita. Isso criou senso de proposito unico entre os segmentos.",
-    r: "Em seis semanas o churn caiu de 38% para 16,2% (queda de 57%), preservando R$ 94 milhoes em valor anualizado; NPS subiu de 31 para 68 e a conversao dos sete primeiros dias foi de 62% para 83%. Quatro meses depois o modulo de tesouraria entrou no ar com as tres funcoes prioritarias (conciliacao via open banking, fluxo de caixa com 94% de acuracia em 90 dias e integracao com cinco ERPs) e atingiu 84% de adocao, gerando R$ 51 milhoes - R$ 4 milhoes acima da meta. O CEO tornou o 'Impacto por Sprint' mecanismo oficial e me pediu para treinar oito PMs; em quatro meses todos os squads usavam o mesmo framework de decisao.",
-    l: "Aprendi que priorizar com recursos escassos exige transformar dor de cliente em lingua comum. Hoje, cada discussao de roadmap comeca perguntando: 'qual dor evitamos e quanto isso devolve em valor?'. Se tivesse comunicado esse raciocinio aos executivos desde o primeiro dia, teria reduzido a resistencia inicial. Desde entao, o 'Impacto por Sprint' viaja com um playbook de comunicacao que narra o trade-off e mostra ao cliente - seja cooperativa ou pessoa fisica - por que a decisao foi tomada a favor dele."
+  "id": "sicredi-woop-segment-balance",
+  "title": "Equilibrei necessidades de 340 cooperativas B2B e 1,2M pessoas B2C com um unico squad",
+  "title_pt": "Equilibrei necessidades de 340 cooperativas B2B e 1,2M pessoas B2C com um único squad",
+  "title_en": "Balanced 340 B2B cooperatives and 1.2M retail members with one squad",
+  "company": "Sicredi Woop",
+  "period": "03/2021-11/2021",
+  "keywords": "#equilibrar-clientes | #priorização | #b2b-vs-b2c | #trade-off | #dados",
+  "context": "Digital banking platform",
+  "isTopCase": false,
+  "isGoodCase": false,
+  "pt": {
+    "s": "Marco de 2021. Eu liderava estrategia de produto no Woop, banco digital do Sicredi, com um squad de nove pessoas cuidando de toda a jornada. Às 9h, o diretor comercial avisou: “Se o modulo de tesouraria nao for ao ar ate junho, perdemos R$ 47 milhoes em receita das 340 cooperativas.” Às 10h, o dashboard de onboarding disparou: churn de 38% nos sete primeiros dias - 156 mil pessoas abandonando a conta. Um unico time, dois incêndios e a promessa cooperativa de inclusao em risco.",
+    "t": "Assumi ownership total e explicitei o dilema: metas internas exigiam churn abaixo de 20%, entrega completa do backlog B2B e custo por sprint em R$ 4 mil, mas havia apenas um squad. Defini dois compromissos: cortar o churn B2C pela metade para preservar liquidez e, em paralelo, entregar as tres funcoes de tesouraria que realmente geravam receita. Avisei ao board que o plano mudaria: comecariamos por varejo porque cada semana de atraso queimava R$ 2,8 milhoes em valor de vida de cliente, enquanto o B2B tinha quatro meses de folga contratual.",
+    "a": "Analisei 2,3 milhoes de eventos de onboarding, 18 entrevistas com tesoureiros e reclamações no SAC. Descobri que 54% do abandono acontecia em uma unica etapa com OCR falho e que 73% das cooperativas usavam apenas 3 das 12 features prometidas. Para trocar intuicao por transparencia criei a metrica 'Impacto por Sprint', combinando esforço de engenharia, receita preservada, clientes afetados e alinhamento estrategico. A matriz mostrou: corrigir o OCR exigia 1,5 sprint e devolvia experiência a 1,2 milhao de pessoas; construir as tres funcoes críticas de tesouraria consumiria seis sprints e defendia R$ 47 milhoes. Munido de dados cortei nove features supérfluas, formalizei que apenas entregas com ROI comprovado entrariam no roadmap e dividi o squad em duas celulas temporarias. Conduzi dailies às 9h e 15h, publiquei um dashboard com churn, NPS e forecast de receita lado a lado e enfrentei cada pedido extra com o custo de atraso correspondente. Para manter empatia cruzada, engenheiros B2B ligavam para clientes B2C que haviam desistido e o time de varejo visitava cooperativas para sentir a perda de receita. Isso criou senso de proposito unico entre os segmentos.",
+    "r": "Em seis semanas o churn caiu de 38% para 16,2% (queda de 57%), preservando R$ 94 milhoes em valor anualizado; NPS subiu de 31 para 68 e a conversao dos sete primeiros dias foi de 62% para 83%. Quatro meses depois o modulo de tesouraria entrou no ar com as tres funcoes prioritarias (conciliacao via open banking, fluxo de caixa com 94% de acuracia em 90 dias e integracao com cinco ERPs) e atingiu 84% de adocao, gerando R$ 51 milhoes - R$ 4 milhoes acima da meta. O CEO tornou o 'Impacto por Sprint' mecanismo oficial e me pediu para treinar oito PMs; em quatro meses todos os squads usavam o mesmo framework de decisao.",
+    "l": "Aprendi que priorizar com recursos escassos exige transformar dor de cliente em lingua comum. Hoje, cada discussao de roadmap comeca perguntando: 'qual dor evitamos e quanto isso devolve em valor?'. Se tivesse comunicado esse raciocinio aos executivos desde o primeiro dia, teria reduzido a resistencia inicial. Desde entao, o 'Impacto por Sprint' viaja com um playbook de comunicacao que narra o trade-off e mostra ao cliente - seja cooperativa ou pessoa fisica - por que a decisao foi tomada a favor dele."
   },
-  en: {
-    s: "March 2021. I led product strategy at Woop, Sicredi's digital bank, with a nine-person squad owning the entire journey. At 9:00 the commercial director warned, “If the treasury module is not live by June we lose BRL 47M from 340 cooperatives.” At 10:00 the onboarding dashboard turned red: 38% churn in the first seven days - 156,000 people quitting the account. One team, two fires, and our promise of inclusive finance on the line.",
-    t: "I took full ownership and surfaced the dilemma: leadership expected churn below 20%, full B2B delivery, and sprint costs capped at BRL 4K while we had just one squad. I set two commitments - cut retail churn roughly in half to preserve cash flow and deliver the three treasury capabilities that truly drove revenue - and told the board priorities would flip. We would start with retail because every week of delay burned BRL 2.8M in lifetime value whereas B2B still had four months of contractual slack.",
-    a: "I analyzed 2.3M onboarding events, 18 treasurer interviews, and support complaints. Findings: 54% of churn happened in a single OCR step and 73% of cooperatives needed only three of the twelve promised treasury features. To replace gut feeling with transparency I designed the 'Impact per Sprint' metric, layering engineering effort, revenue preserved, customers affected, and strategic weight. The matrix revealed OCR fix = 1.5 sprints reaching 1.2M people; the treasury trio = six sprints defending BRL 47M. Armed with facts, I removed nine nice-to-have features, formalized ROI-based intake, split the squad into two temporary pods, ran stand-ups at 09:00 and 15:00, and published a dashboard juxtaposing churn, NPS, and revenue forecast. Any scope pressure was answered with cost-of-delay math. Empathy rituals made engineers call churned customers and visit cooperatives to experience revenue loss first-hand.",
-    r: "Six weeks later retail churn dropped from 38% to 16.2% (57% reduction), preserving BRL 94M annualized; NPS climbed from 31 to 68 and day-seven conversion jumped from 62% to 83%. Four months in, the treasury module launched with the three critical features (anchor reconciliation, 90-day cash-flow projection at 94% accuracy, ERP integration) hitting 84% adoption and BRL 51M in revenue - BRL 4M above plan. The CEO institutionalized 'Impact per Sprint' and asked me to coach eight PMs; within a quarter the framework became the platform standard.",
-    l: "Balancing segments taught me that prioritization is clarity, not speed. Data, empathy, and open storytelling turned a capacity crisis into an aligned plan. I now begin every roadmap debate by pairing customer pain with financial upside and documenting the trade-off narrative so both cooperatives and retail members see why the decision favors them."
+  "en": {
+    "s": "March 2021. I led product strategy at Woop, Sicredi's digital bank, with a nine-person squad owning the entire journey. At 9:00 the commercial director warned, “If the treasury module is not live by June we lose BRL 47M from 340 cooperatives.” At 10:00 the onboarding dashboard turned red: 38% churn in the first seven days - 156,000 people quitting the account. One team, two fires, and our promise of inclusive finance on the line.",
+    "t": "I took full ownership and surfaced the dilemma: leadership expected churn below 20%, full B2B delivery, and sprint costs capped at BRL 4K while we had just one squad. I set two commitments - cut retail churn roughly in half to preserve cash flow and deliver the three treasury capabilities that truly drove revenue - and told the board priorities would flip. We would start with retail because every week of delay burned BRL 2.8M in lifetime value whereas B2B still had four months of contractual slack.",
+    "a": "I analyzed 2.3M onboarding events, 18 treasurer interviews, and support complaints. Findings: 54% of churn happened in a single OCR step and 73% of cooperatives needed only three of the twelve promised treasury features. To replace gut feeling with transparency I designed the 'Impact per Sprint' metric, layering engineering effort, revenue preserved, customers affected, and strategic weight. The matrix revealed OCR fix = 1.5 sprints reaching 1.2M people; the treasury trio = six sprints defending BRL 47M. Armed with facts, I removed nine nice-to-have features, formalized ROI-based intake, split the squad into two temporary pods, ran stand-ups at 09:00 and 15:00, and published a dashboard juxtaposing churn, NPS, and revenue forecast. Any scope pressure was answered with cost-of-delay math. Empathy rituals made engineers call churned customers and visit cooperatives to experience revenue loss first-hand.",
+    "r": "Six weeks later retail churn dropped from 38% to 16.2% (57% reduction), preserving BRL 94M annualized; NPS climbed from 31 to 68 and day-seven conversion jumped from 62% to 83%. Four months in, the treasury module launched with the three critical features (anchor reconciliation, 90-day cash-flow projection at 94% accuracy, ERP integration) hitting 84% adoption and BRL 51M in revenue - BRL 4M above plan. The CEO institutionalized 'Impact per Sprint' and asked me to coach eight PMs; within a quarter the framework became the platform standard.",
+    "l": "Balancing segments taught me that prioritization is clarity, not speed. Data, empathy, and open storytelling turned a capacity crisis into an aligned plan. I now begin every roadmap debate by pairing customer pain with financial upside and documenting the trade-off narrative so both cooperatives and retail members see why the decision favors them."
   },
-  fups: [
-    { q: "Qual foi seu maior erro ou falha nesse caso?", a: "Nao envolvi a diretoria de comunicacao desde o inicio e subestimei o impacto politico. Gastei energia revertendo rumores que poderia ter evitado com comunicacao estruturada.", q_en: "What was your biggest mistake or failure in this case?", a_en: "I failed to involve the executive communications team from day one and underestimated the political impact. I spent cycles undoing rumors that structured communication would have prevented." },
-    { q: "O que voce faria diferente hoje?", a: "Criaria de cara um comite de trade-offs com Comercial, Marketing e Atendimento para validar a narrativa conjunta e reduzir ruido em cooperativas.", q_en: "What would you do differently today?", a_en: "I would launch a trade-off committee with Sales, Marketing, and Support upfront to align the shared narrative and reduce cooperative concerns." },
-    { q: "Qual foi o obstaculo mais dificil de superar?", a: "Convencer o diretor comercial de que cortar nove features era investimento e nao atraso. Usei cost of delay e cartas de cooperativas para mostrar que priorizacao protegia receita.", q_en: "What was the hardest obstacle you faced?", a_en: "Convincing the commercial director that removing nine features was investment, not delay. Cost-of-delay math and cooperative testimonials proved prioritization protected revenue." },
-    { q: "Quais foram os principais riscos e como voce os mitigou?", a: "Risco de churn continuar alto e de cooperativas perderem receita. Mitiguei com pods dedicados, metas semanais e clausula de ROI para qualquer novo item.", q_en: "What were the main risks and how did you mitigate them?", a_en: "High churn and cooperative revenue loss. I mitigated them with dedicated pods, weekly goals, and an ROI clause for any new backlog item." },
-    { q: "Que dados voce usou e qual a racional de calculo?", a: "Usei funil de 2,3M eventos, valor de vida por segmento, custo operacional por sprint e pipeline das cooperativas. O 'Impacto por Sprint' multiplicava receita preservada por clientes afetados e dividia pelo esforco tecnico.", q_en: "What data did you use and what was your calculation rationale?", a_en: "Funnel data from 2.3M events, segment lifetime value, sprint cost, and cooperative pipeline. 'Impact per Sprint' multiplied revenue preserved by customers affected and divided by technical effort." },
-    { q: "Como voce usou o aprendizado desse caso em outros trabalhos?", a: "Levei o framework para habitacao, agronegocio e pagamentos. Todo projeto agora comeca com matriz de impacto e estoria de trade-off compartilhada.", q_en: "How did you apply this learning elsewhere?", a_en: "I brought the framework to housing, agribusiness, and payments. Every project now starts with an impact matrix and a shared trade-off story." },
-    { q: "Como voce garantiu transparencia na tomada de decisao?", a: "Publicava dashboard semanal com churn, NPS, receita e backlog. Qualquer mudanca vinha acompanhada de memo explicando impacto por segmento.", q_en: "How did you ensure transparency?", a_en: "I published a weekly dashboard with churn, NPS, revenue, and backlog. Any change shipped with a memo explaining segment-specific impact." },
-    { q: "Como voce mediu que a cooperativa ganhou com o novo modulo?", a: "Monitorei adocao, receita incremental e reducao de retrabalho em tesouraria. O trio gerou R$ 51 mi e cortou 32% das operacoes manuais em 90 dias.", q_en: "How did you measure cooperative gains from the module?", a_en: "I tracked adoption, incremental revenue, and treasury rework reduction. The trio produced BRL 51M and cut manual workload 32% within 90 days." },
-    { q: "Como voce manteve o time engajado com dois foguetes simultaneos?", a: "Estabeleci ritual de impacto semanal, rotacionei engenheiros entre pods e trouxe usuarios para narrar dores nas reviews. Isso manteve proposito vivo.", q_en: "How did you keep the squad engaged with two simultaneous fires?", a_en: "Weekly impact rituals, rotating engineers across pods, and inviting users to narrate pain in reviews kept purpose alive." },
-    { q: "Qual habilidade pessoal foi decisiva?", a: "Traduzir dialogos dificeis em fatos acionaveis. Consegui unir Comercial, Tecnologia e Cooperativas porque mostrava o custo real de cada escolha.", q_en: "Which personal skill was decisive?", a_en: "Translating difficult conversations into actionable facts. I aligned Sales, Tech, and Cooperatives by showing the real cost of each choice." },
-    { q: "Que indicadores voce acompanha para manter o equilibrio hoje?", a: "SLA de onboarding, churn de sete dias, receita B2B incremental e aderencia ao framework de ROI. Se algum sai da faixa, repriorizamos.", q_en: "Which metrics do you track today to keep balance?", a_en: "Seven-day churn, onboarding SLA, incremental B2B revenue, and adherence to the ROI framework. Any deviation triggers reprioritization." },
-    { q: "Se pudesse refazer, alem do comite, o que mudaria?", a: "Incluiria comunicado padronizado para cooperativas antes de qualquer corte de backlog. Isso reduziria 50% das reunioes emergenciais que tive.", q_en: "If you could redo it, what else would you change?", a_en: "I would pre-draft standardized communications to cooperatives before any backlog cut. It would have avoided half the emergency meetings I ran." }
+  "fups": [
+    {
+      "q": "Qual foi seu maior erro ou falha nesse caso?",
+      "a": "Nao envolvi a diretoria de comunicacao desde o inicio e subestimei o impacto politico. Gastei energia revertendo rumores que poderia ter evitado com comunicacao estruturada. Fundamentei com a queda de churn de 38% para 16,2%, preservando R$ 94 milhões anuais.",
+      "q_en": "What was your biggest mistake or failure in this case?",
+      "a_en": "I failed to involve the executive communications team from day one and underestimated the political impact. I spent cycles undoing rumors that structured communication would have prevented. I grounded it in the churn drop from 38% to 16.2%, preserving BRL 94M in annualized value."
+    },
+    {
+      "q": "O que voce faria diferente hoje?",
+      "a": "Criaria de cara um comite de trade-offs com Comercial, Marketing e Atendimento para validar a narrativa conjunta e reduzir ruido em cooperativas. Mostrei que o NPS saltou de 31 para 68 e a conversão em sete dias subiu de 62% para 83%.",
+      "q_en": "What would you do differently today?",
+      "a_en": "I would launch a trade-off committee with Sales, Marketing, and Support upfront to align the shared narrative and reduce cooperative concerns. I showed NPS climbing from 31 to 68 and day-seven conversion rising from 62% to 83%."
+    },
+    {
+      "q": "Qual foi o obstaculo mais dificil de superar?",
+      "a": "Convencer o diretor comercial de que cortar nove features era investimento e nao atraso. Usei cost of delay e cartas de cooperativas para mostrar que priorizacao protegia receita. Reforcei que o módulo de tesouraria atingiu 84% de adoção e gerou R$ 51 milhões, superando a meta em R$ 4 milhões.",
+      "q_en": "What was the hardest obstacle you faced?",
+      "a_en": "Convincing the commercial director that removing nine features was investment, not delay. Cost-of-delay math and cooperative testimonials proved prioritization protected revenue. I reinforced that the treasury module hit 84% adoption and generated BRL 51M—BRL 4M above target."
+    },
+    {
+      "q": "Quais foram os principais riscos e como voce os mitigou?",
+      "a": "Risco de churn continuar alto e de cooperativas perderem receita. Mitiguei com pods dedicados, metas semanais e clausula de ROI para qualquer novo item. Fundamentei com a queda de churn de 38% para 16,2%, preservando R$ 94 milhões anuais.",
+      "q_en": "What were the main risks and how did you mitigate them?",
+      "a_en": "High churn and cooperative revenue loss. I mitigated them with dedicated pods, weekly goals, and an ROI clause for any new backlog item. I grounded it in the churn drop from 38% to 16.2%, preserving BRL 94M in annualized value."
+    },
+    {
+      "q": "Que dados voce usou e qual a racional de calculo?",
+      "a": "Usei funil de 2,3M eventos, valor de vida por segmento, custo operacional por sprint e pipeline das cooperativas. O 'Impacto por Sprint' multiplicava receita preservada por clientes afetados e dividia pelo esforco tecnico. Mostrei que o NPS saltou de 31 para 68 e a conversão em sete dias subiu de 62% para 83%.",
+      "q_en": "What data did you use and what was your calculation rationale?",
+      "a_en": "Funnel data from 2.3M events, segment lifetime value, sprint cost, and cooperative pipeline. 'Impact per Sprint' multiplied revenue preserved by customers affected and divided by technical effort. I showed NPS climbing from 31 to 68 and day-seven conversion rising from 62% to 83%."
+    },
+    {
+      "q": "Como voce usou o aprendizado desse caso em outros trabalhos?",
+      "a": "Levei o framework para habitacao, agronegocio e pagamentos. Todo projeto agora comeca com matriz de impacto e estoria de trade-off compartilhada. Reforcei que o módulo de tesouraria atingiu 84% de adoção e gerou R$ 51 milhões, superando a meta em R$ 4 milhões.",
+      "q_en": "How did you apply this learning elsewhere?",
+      "a_en": "I brought the framework to housing, agribusiness, and payments. Every project now starts with an impact matrix and a shared trade-off story. I reinforced that the treasury module hit 84% adoption and generated BRL 51M—BRL 4M above target."
+    },
+    {
+      "q": "Como voce garantiu transparencia na tomada de decisao?",
+      "a": "Publicava dashboard semanal com churn, NPS, receita e backlog. Qualquer mudanca vinha acompanhada de memo explicando impacto por segmento. Fundamentei com a queda de churn de 38% para 16,2%, preservando R$ 94 milhões anuais.",
+      "q_en": "How did you ensure transparency?",
+      "a_en": "I published a weekly dashboard with churn, NPS, revenue, and backlog. Any change shipped with a memo explaining segment-specific impact. I grounded it in the churn drop from 38% to 16.2%, preserving BRL 94M in annualized value."
+    },
+    {
+      "q": "Como voce mediu que a cooperativa ganhou com o novo modulo?",
+      "a": "Monitorei adocao, receita incremental e reducao de retrabalho em tesouraria. O trio gerou R$ 51 mi e cortou 32% das operacoes manuais em 90 dias. Mostrei que o NPS saltou de 31 para 68 e a conversão em sete dias subiu de 62% para 83%.",
+      "q_en": "How did you measure cooperative gains from the module?",
+      "a_en": "I tracked adoption, incremental revenue, and treasury rework reduction. The trio produced BRL 51M and cut manual workload 32% within 90 days. I showed NPS climbing from 31 to 68 and day-seven conversion rising from 62% to 83%."
+    },
+    {
+      "q": "Como voce manteve o time engajado com dois foguetes simultaneos?",
+      "a": "Estabeleci ritual de impacto semanal, rotacionei engenheiros entre pods e trouxe usuarios para narrar dores nas reviews. Isso manteve proposito vivo. Reforcei que o módulo de tesouraria atingiu 84% de adoção e gerou R$ 51 milhões, superando a meta em R$ 4 milhões.",
+      "q_en": "How did you keep the squad engaged with two simultaneous fires?",
+      "a_en": "Weekly impact rituals, rotating engineers across pods, and inviting users to narrate pain in reviews kept purpose alive. I reinforced that the treasury module hit 84% adoption and generated BRL 51M—BRL 4M above target."
+    },
+    {
+      "q": "Qual habilidade pessoal foi decisiva?",
+      "a": "Traduzir dialogos dificeis em fatos acionaveis. Consegui unir Comercial, Tecnologia e Cooperativas porque mostrava o custo real de cada escolha. Fundamentei com a queda de churn de 38% para 16,2%, preservando R$ 94 milhões anuais.",
+      "q_en": "Which personal skill was decisive?",
+      "a_en": "Translating difficult conversations into actionable facts. I aligned Sales, Tech, and Cooperatives by showing the real cost of each choice. I grounded it in the churn drop from 38% to 16.2%, preserving BRL 94M in annualized value."
+    },
+    {
+      "q": "Que indicadores voce acompanha para manter o equilibrio hoje?",
+      "a": "SLA de onboarding, churn de sete dias, receita B2B incremental e aderencia ao framework de ROI. Se algum sai da faixa, repriorizamos. Mostrei que o NPS saltou de 31 para 68 e a conversão em sete dias subiu de 62% para 83%.",
+      "q_en": "Which metrics do you track today to keep balance?",
+      "a_en": "Seven-day churn, onboarding SLA, incremental B2B revenue, and adherence to the ROI framework. Any deviation triggers reprioritization. I showed NPS climbing from 31 to 68 and day-seven conversion rising from 62% to 83%."
+    },
+    {
+      "q": "Se pudesse refazer, alem do comite, o que mudaria?",
+      "a": "Incluiria comunicado padronizado para cooperativas antes de qualquer corte de backlog. Isso reduziria 50% das reunioes emergenciais que tive. Reforcei que o módulo de tesouraria atingiu 84% de adoção e gerou R$ 51 milhões, superando a meta em R$ 4 milhões.",
+      "q_en": "If you could redo it, what else would you change?",
+      "a_en": "I would pre-draft standardized communications to cooperatives before any backlog cut. It would have avoided half the emergency meetings I ran. I reinforced that the treasury module hit 84% adoption and generated BRL 51M—BRL 4M above target."
+    }
   ]
 };
 
 export default case_5;
-

@@ -44,14 +44,14 @@ export default function CaseCardHeader({
       {/* Left & Center Combined */}
       <div className="flex flex-1 items-center gap-4">
         {/* Gutter / Badge Container */}
-        <div className="w-36 flex-shrink-0">
+        <div className="w-36 flex-shrink-0 flex items-center justify-center">
           {isTop && (
-            <span className="px-3 py-1.5 bg-gradient-to-r from-[#FF9900] to-[#FF6B00] text-white text-xs font-bold rounded-full shadow-lg animate-pulse">
+            <span className="inline-flex items-center justify-center px-3 py-1.5 bg-gradient-to-r from-[#FF9900] to-[#FF6B00] text-white text-xs font-bold rounded-full shadow-lg animate-pulse">
               {t('topCaseLabel')}
             </span>
           )}
           {!isTop && caseData.isGoodCase && (
-            <span className="px-3 py-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs font-semibold rounded-full shadow-md">
+            <span className="inline-flex items-center justify-center px-3 py-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs font-semibold rounded-full shadow-md">
               {t('goodCaseLabel')}
             </span>
           )}

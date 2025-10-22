@@ -1,56 +1,166 @@
 const case_5 = {
-  id: "payment-incidents-prevention-mechanism",
-  title: "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
-  title_pt: "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
-  title_en: "Turned Recurring Payment Incidents into a Reliability Mechanism",
-  company: "SEFAZ/RS",
-  period: "08/2024-11/2024",
-  keywords: "#criar-mecanismo | #prevenção | #reincidência | #dono-único | #incidentes",
-  isTopCase: true,
-  isGoodCase: false,
-  pt: {
-    s: "Agosto de 2024. O grito do diretor de Arrecadação -- 'de novo não!' -- ecoou quando o sistema de pagamentos travou pela terceira vez em seis semanas. Eu era advisor sênior de estratégia e processos da SEFAZ/RS, responsável por apoiar a confiabilidade operacional e o fluxo de arrecadação estadual. Detectei um padrão recorrente e perigoso: timeouts de gateway, divergências de status e falhas de liquidação se repetiam ciclicamente. R$ 18 milhões de arrecadação diária ficaram bloqueados; 4.500 chamados de contribuintes foram abertos em 24 horas e o NPS despencou de 63 para 41. Comunicação, TI, Arrecadação e bancos parceiros atuavam isoladamente -- cada um apagando seu incêndio. Ninguém possuía dono do ciclo completo, e decidi que esse dono seria eu.",
-    t: "Meu escopo formal abrangia apenas consultoria estratégica e análise de processos, mas minha experiência em transformar fluxos críticos em mecanismos sustentáveis me qualificava para liderar uma mudança estrutural. Sem um modelo de prevenção institucionalizado, continuaríamos apenas reagindo. Então assumi responsabilidade integral de reduzir reincidência em 50%, cortar MTTR em 30% em quatro meses, instituir dono único para cada incidente classe A e devolver o NPS acima de 60.",
-    a: "Avaliei três opções: (1) ampliar suporte -- resposta rápida, porém sem escala; (2) terceirizar a gestão para consultoria -- custo alto de R$ 800 mil; ou (3) construir uma capacidade interna permanente de prevenção. Escolhi a terceira por sustentabilidade e custo-benefício de longo prazo: o investimento seria uma fração do custo anual dos incidentes e criaria autonomia técnica. Eu mesmo mapeei 62 incidentes de 12 meses, calculei o prejuízo de R$ 7,2 milhões (horas extras, multas e atrasos) e apresentei esse business case diretamente ao Secretário da Fazenda para garantir sponsorship executivo. Com o apoio firmado, criei o papel de 'Incident Captain': cada falha classe A passou a ter dono único até a ação preventiva estar ativa, encerrando o jogo de empurra entre áreas. Normalizei postmortems sem culpa com template estruturado e critérios técnicos mandatórios -- retry idempotente em três camadas, rollback seguro, deploy canário e filtro de mensagens duplicadas. Publiquei catálogo de SLOs por serviço (PIX 5 minutos, débito automático 15 minutos) e painel em tempo real no Datadog. Quando o diretor de TI contestou o tempo adicional, provei que cada incidente reincidente custava 140 horas contra 4 horas de prevenção. Com base nesses dados, ele próprio tornou o processo obrigatório. Finalmente, alinhei Banrisul e Banco do Brasil em runbook conjunto e canal direto de escalonamento.",
-    r: "Em quatro meses, o ciclo vicioso virou mecanismo de confiabilidade. Reduzi incidentes recorrentes de 12 para 5 (-58%) e o MTTR médio de 3h40 para 2h25 (-34%), superando em 30% a meta inicial e em 20 pontos percentuais o benchmark de outras secretarias. Nenhum incidente classe A se repetiu, as reclamações caíram 45%, o NPS subiu para 64 e a arrecadação voltou ao ritmo normal. As horas extras caíram 25% e o Secretário passou a usar meu dashboard nas reuniões com o governador. O modelo virou política oficial da SEFAZ e, sob minha orientação direta, foi adaptado pela Procergs, com SLOs próprios para infra e serviços críticos. A cultura preventiva se manteve após minha saída, com oito Incident Captains operando autonomamente e revisões mensais no comitê de governança.",
-    l: "Aprendi que accountability real nasce de três elementos combinados: dono nomeado até a solução preventiva ativa, critérios técnicos que bloqueiam paliativos e métricas públicas que garantem transparência. Isso substitui heróis por confiança. Criei um template preventivo e o levei para o PIX (Sicredi, -67% em incidentes) e pagamentos internacionais (Bradesco, -73% no MTTR). A principal lição: mecanismos duradouros superam qualquer reação emergencial."
+  "id": "payment-incidents-prevention-mechanism",
+  "title": "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
+  "title_pt": "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade",
+  "title_en": "Turned Recurring Payment Incidents into a Reliability Mechanism",
+  "company": "SEFAZ/RS",
+  "period": "08/2024-11/2024",
+  "keywords": "#criar-mecanismo | #prevenção | #reincidência | #dono-único | #incidentes",
+  "isTopCase": true,
+  "isGoodCase": false,
+  "pt": {
+    "s": "Agosto de 2024. O grito do diretor de Arrecadação -- 'de novo não!' -- ecoou quando o sistema de pagamentos travou pela terceira vez em seis semanas. Eu era advisor sênior de estratégia e processos da SEFAZ/RS, responsável por apoiar a confiabilidade operacional e o fluxo de arrecadação estadual. Detectei um padrão recorrente e perigoso: timeouts de gateway, divergências de status e falhas de liquidação se repetiam ciclicamente. R$ 18 milhões de arrecadação diária ficaram bloqueados; 4.500 chamados de contribuintes foram abertos em 24 horas e o NPS despencou de 63 para 41. Comunicação, TI, Arrecadação e bancos parceiros atuavam isoladamente -- cada um apagando seu incêndio. Ninguém possuía dono do ciclo completo, e decidi que esse dono seria eu.",
+    "t": "Meu escopo formal abrangia apenas consultoria estratégica e análise de processos, mas minha experiência em transformar fluxos críticos em mecanismos sustentáveis me qualificava para liderar uma mudança estrutural. Sem um modelo de prevenção institucionalizado, continuaríamos apenas reagindo. Então assumi responsabilidade integral de reduzir reincidência em 50%, cortar MTTR em 30% em quatro meses, instituir dono único para cada incidente classe A e devolver o NPS acima de 60.",
+    "a": "Avaliei três opções: (1) ampliar suporte -- resposta rápida, porém sem escala; (2) terceirizar a gestão para consultoria -- custo alto de R$ 800 mil; ou (3) construir uma capacidade interna permanente de prevenção. Escolhi a terceira por sustentabilidade e custo-benefício de longo prazo: o investimento seria uma fração do custo anual dos incidentes e criaria autonomia técnica. Eu mesmo mapeei 62 incidentes de 12 meses, calculei o prejuízo de R$ 7,2 milhões (horas extras, multas e atrasos) e apresentei esse business case diretamente ao Secretário da Fazenda para garantir sponsorship executivo. Com o apoio firmado, criei o papel de 'Incident Captain': cada falha classe A passou a ter dono único até a ação preventiva estar ativa, encerrando o jogo de empurra entre áreas. Normalizei postmortems sem culpa com template estruturado e critérios técnicos mandatórios -- retry idempotente em três camadas, rollback seguro, deploy canário e filtro de mensagens duplicadas. Publiquei catálogo de SLOs por serviço (PIX 5 minutos, débito automático 15 minutos) e painel em tempo real no Datadog. Quando o diretor de TI contestou o tempo adicional, provei que cada incidente reincidente custava 140 horas contra 4 horas de prevenção. Com base nesses dados, ele próprio tornou o processo obrigatório. Finalmente, alinhei Banrisul e Banco do Brasil em runbook conjunto e canal direto de escalonamento.",
+    "r": "Em quatro meses, o ciclo vicioso virou mecanismo de confiabilidade. Reduzi incidentes recorrentes de 12 para 5 (-58%) e o MTTR médio de 3h40 para 2h25 (-34%), superando em 30% a meta inicial e em 20 pontos percentuais o benchmark de outras secretarias. Nenhum incidente classe A se repetiu, as reclamações caíram 45%, o NPS subiu para 64 e a arrecadação voltou ao ritmo normal. As horas extras caíram 25% e o Secretário passou a usar meu dashboard nas reuniões com o governador. O modelo virou política oficial da SEFAZ e, sob minha orientação direta, foi adaptado pela Procergs, com SLOs próprios para infra e serviços críticos. A cultura preventiva se manteve após minha saída, com oito Incident Captains operando autonomamente e revisões mensais no comitê de governança.",
+    "l": "Aprendi que accountability real nasce de três elementos combinados: dono nomeado até a solução preventiva ativa, critérios técnicos que bloqueiam paliativos e métricas públicas que garantem transparência. Isso substitui heróis por confiança. Criei um template preventivo e o levei para o PIX (Sicredi, -67% em incidentes) e pagamentos internacionais (Bradesco, -73% no MTTR). A principal lição: mecanismos duradouros superam qualquer reação emergencial."
   },
-  en: {
-    s: "August 2024. 'Not again!' shouted the Treasury director as the payment system froze for the third time in six weeks. I was the senior strategy and process advisor at SEFAZ/RS, responsible for strengthening operational reliability in state revenue systems. I identified a recurring pattern: gateway timeouts, status mismatches, and settlement failures cycling again. R$18M in daily revenue frozen, 4,500 taxpayer calls in one day, NPS dropping 63→41. Communications, IT, Treasury, and partner banks worked in silos--each extinguishing its own fire. No one owned the full cycle--and I decided I would.",
-    t: "My formal scope covered strategic consulting and process analysis, but my background building sustainable operational frameworks positioned me to lead structural prevention. Without an institutional mechanism, we would remain reactive. I took full ownership to cut incident recurrence by 50%, reduce MTTR by 30% within four months, assign single ownership for class-A incidents, and restore NPS above 60.",
-    a: "I considered three paths: (1) expand support--fast but unscalable; (2) outsource to consultants--costly at R$800K; or (3) build an internal prevention capability. I chose the third for long-term efficiency and autonomy. I personally mapped 62 incidents over 12 months, quantified R$7.2M in total cost (overtime, fines, delays), and presented the business case to the Finance Secretary to secure executive sponsorship. Then, I created the 'Incident Captain' role--each class-A issue had one accountable owner until preventive action was live. I implemented blameless postmortems using structured templates and mandatory technical standards: three-layer idempotent retries, safe rollback, canary deployments, and duplicate message filters. I published SLO catalog (PIX 5 min, auto-debit 15 min) and real-time Datadog dashboard. When IT leadership questioned extra time, I proved each recurring incident cost 140 hours against 4 for prevention--turning resistance into advocacy. Finally, I aligned Banrisul and Banco do Brasil with shared runbook and direct escalation line.",
-    r: "In four months, I turned a vicious cycle into a reliability mechanism. Recurring incidents dropped 12→5 (-58%), MTTR 3h40→2h25 (-34%), exceeding internal goals by 30% and outperforming peer benchmarks by 20p.p. No class-A recurrences occurred; complaints -45%, NPS up to 64, revenue uninterrupted. Overtime fell 25%, and my dashboard became part of weekly meetings with the governor. The framework became official SEFAZ policy and, under my guidance, was adapted by Procergs with infrastructure-tailored SLOs. Preventive culture endured, with eight trained Captains autonomously operating and analytics reviewed monthly.",
-    l: "I learned that true accountability pairs ownership, technical rigor, and visible metrics. That balance replaces heroics with trust. I built a preventive template later applied at Sicredi PIX (-67% incidents) and Bradesco international payments (-73% MTTR). The key lesson: enduring mechanisms outperform reactive fixes every time."
+  "en": {
+    "s": "August 2024. 'Not again!' shouted the Treasury director as the payment system froze for the third time in six weeks. I was the senior strategy and process advisor at SEFAZ/RS, responsible for strengthening operational reliability in state revenue systems. I identified a recurring pattern: gateway timeouts, status mismatches, and settlement failures cycling again. R$18M in daily revenue frozen, 4,500 taxpayer calls in one day, NPS dropping 63→41. Communications, IT, Treasury, and partner banks worked in silos--each extinguishing its own fire. No one owned the full cycle--and I decided I would.",
+    "t": "My formal scope covered strategic consulting and process analysis, but my background building sustainable operational frameworks positioned me to lead structural prevention. Without an institutional mechanism, we would remain reactive. I took full ownership to cut incident recurrence by 50%, reduce MTTR by 30% within four months, assign single ownership for class-A incidents, and restore NPS above 60.",
+    "a": "I considered three paths: (1) expand support--fast but unscalable; (2) outsource to consultants--costly at R$800K; or (3) build an internal prevention capability. I chose the third for long-term efficiency and autonomy. I personally mapped 62 incidents over 12 months, quantified R$7.2M in total cost (overtime, fines, delays), and presented the business case to the Finance Secretary to secure executive sponsorship. Then, I created the 'Incident Captain' role--each class-A issue had one accountable owner until preventive action was live. I implemented blameless postmortems using structured templates and mandatory technical standards: three-layer idempotent retries, safe rollback, canary deployments, and duplicate message filters. I published SLO catalog (PIX 5 min, auto-debit 15 min) and real-time Datadog dashboard. When IT leadership questioned extra time, I proved each recurring incident cost 140 hours against 4 for prevention--turning resistance into advocacy. Finally, I aligned Banrisul and Banco do Brasil with shared runbook and direct escalation line.",
+    "r": "In four months, I turned a vicious cycle into a reliability mechanism. Recurring incidents dropped 12→5 (-58%), MTTR 3h40→2h25 (-34%), exceeding internal goals by 30% and outperforming peer benchmarks by 20p.p. No class-A recurrences occurred; complaints -45%, NPS up to 64, revenue uninterrupted. Overtime fell 25%, and my dashboard became part of weekly meetings with the governor. The framework became official SEFAZ policy and, under my guidance, was adapted by Procergs with infrastructure-tailored SLOs. Preventive culture endured, with eight trained Captains autonomously operating and analytics reviewed monthly.",
+    "l": "I learned that true accountability pairs ownership, technical rigor, and visible metrics. That balance replaces heroics with trust. I built a preventive template later applied at Sicredi PIX (-67% incidents) and Bradesco international payments (-73% MTTR). The key lesson: enduring mechanisms outperform reactive fixes every time."
   },
-  fups: [
-    // 6 FUPs centrais obrigatórias
-    { q: "Qual foi seu maior erro ou falha nesse caso?", a: "Na primeira semana foquei demais na análise técnica e comuniquei tardiamente a gravidade à diretoria. Corrigi ao expor o risco financeiro real no comitê executivo, o que acelerou o apoio em 24h.", q_en: "What was your biggest mistake or failure?", a_en: "In week one I dove too deep technically and delayed raising visibility. Fixed it by presenting financial risk to the executive board, securing support within 24h." },
-    { q: "O que você faria diferente hoje?", a: "Iniciaria a definição das métricas de prevenção logo na primeira semana, integrando o dashboard ao BI da secretaria desde o início.", q_en: "What would you do differently today?", a_en: "Would define preventive metrics in week one and link dashboard to enterprise BI early on." },
-    { q: "Qual foi o obstáculo mais difícil que você enfrentou?", a: "Quebrar a crença de que incidentes eram inevitáveis. Conquistei o diretor de TI provando com dados que prevenção custava 35x menos que correção.", q_en: "What was the hardest obstacle you faced?", a_en: "Breaking belief that incidents were inevitable. I won over the IT director by proving prevention cost 35x less than correction." },
-    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Risco de novas falhas durante o piloto e de sobrecarga nas equipes. Mitiguei rodando ambiente espelho em staging e automatizando logs de rollback.", q_en: "What were the main risks and how did you mitigate them?", a_en: "Risk of failures in pilot and workload overload mitigated through staging replica and automated rollback logs." },
-    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Histórico de 62 incidentes, tempo médio de resolução, custo médio-hora e perda de arrecadação. Consolidei num modelo anualizado que virou base do business case executado.", q_en: "What data did you use and what was your rationale?", a_en: "Used 62-incident history, average resolution time, labor cost, and lost revenue; annualized model formed the business case foundation." },
-    { q: "Como você usou o aprendizado desse caso em outras frentes?", a: "Apliquei o mecanismo preventivo em PIX e câmbio internacional, ajustando SLOs e capacitando novas equipes com o mesmo modelo.", q_en: "How did you use this learning elsewhere?", a_en: "Applied the preventive mechanism to PIX and FX ops, adapting SLOs and training new teams under the same model." },
-
-    // Originais mantidas + complementares novas
-    { q: "Como você mensurou o custo total dos incidentes para convencer a liderança?", a: "Calculei horas extras (R$ 2,1M), multas (R$ 1,8M), atrasos (R$ 2,7M) e imagem (R$ 600k). Apresentei R$ 7,2M anualizados com detalhamento por tipo de incidente.", q_en: "How did you quantify total incident cost to convince leadership?", a_en: "Calculated overtime (R$2.1M), fines (R$1.8M), delays (R$2.7M), reputation (R$600K); presented R$7.2M annualized by incident type." },
-    { q: "Quais métricas você acompanhou semanalmente para garantir queda de recorrência?", a: "Monitorava reincidência por categoria, MTTR, backlog de CAPA, conclusão de postmortems <72h, SLO x Realizado e chamados por tipo de falha.", q_en: "Which metrics did you track weekly?", a_en: "Tracked recurrence by category, MTTR, CAPA backlog, <72h postmortems, SLO vs actual, and call volume by failure type." },
-    { q: "Como você assegurou que os bancos parceiros adotassem o runbook?", a: "Formalizei SLA conjunto com Banrisul e BB, criei teste trimestral de failover obrigatório e penalidade por resposta >15min. Tempo médio caiu de 45min para 8min.", q_en: "How did you ensure partner banks adopted the runbook?", a_en: "Joint SLA with Banrisul and BB, mandatory quarterly failover tests, penalty for >15min. Avg response cut 45→8min." },
-    { q: "Qual foi o maior desafio na implementação dos Incident Captains?", a: "Desconstruir o 'não é minha área'. Instituí bônus e reconhecimento público por prevenção sem reincidência. A cultura mudou em 60 dias.", q_en: "What was the biggest challenge implementing Incident Captains?", a_en: "Breaking 'not my area' mindset; added bonuses and recognition for zero recurrence. Culture shifted in 60 days." },
-    { q: "Como você mediu o impacto real nos contribuintes?", a: "NPS (41→64), tempo médio de resolução (3h40→2h25), ouvidoria (-45%), sucesso transacional (94,2→98,7%) e criação de canal de status em tempo real.", q_en: "How did you measure taxpayer impact?", a_en: "NPS 41→64, avg resolution 3h40→2h25, complaints -45%, success 94.2→98.7%, real-time status portal." },
-    { q: "Que resistência você enfrentou da equipe de TI?", a: "TI via postmortem como exposição. Mostrei dados de eficiência e limitei análise a 30min com foco 100% técnico. Resultado: adesão total.", q_en: "What resistance came from IT?", a_en: "IT saw postmortem as exposure; showed efficiency data, capped to 30min technical focus; full adoption followed." },
-    { q: "Como você garantiu sustentabilidade do mecanismo após sua saída?", a: "Treinei oito Incident Captains, documentei playbook de 34 páginas, automatizei 78% dos reports e institucionalizei review mensal no comitê.", q_en: "How did you ensure sustainability after leaving?", a_en: "Trained 8 Captains, 34-page playbook, 78% report automation, monthly executive reviews." },
-    { q: "Qual foi o ROI real do mecanismo de prevenção?", a: "ROI 1.800% no ano um: R$7,2M evitados + R$420k overtime + R$180k produtividade + R$2,1M arrecadação; investimento de R$40k.", q_en: "What was the real ROI?", a_en: "1,800% ROI year one: R$7.2M saved + R$420K overtime + R$180K productivity + R$2.1M revenue; R$40K investment." },
-    { q: "Como você lidou com a pressão durante incidentes críticos?", a: "Transparência total: status a cada 15min, portal público, escalonamento automático e war room com todas as áreas.", q_en: "How did you handle pressure during critical incidents?", a_en: "Full transparency: 15-min updates, public portal, auto escalation, joint war room." },
-    { q: "Qual habilidade pessoal foi decisiva nesse caso?", a: "Comunicar com firmeza sob pressão e traduzir dados técnicos em impacto para executivos.", q_en: "Which personal skill was decisive?", a_en: "Communicating firmly under pressure and translating technical data into executive impact." },
-    { q: "Que impacto humano e cultural essa mudança gerou?", a: "Substituímos culpa por aprendizado: incidentes viraram insumos de melhoria, e times passaram a competir por prevenção, não por correção.", q_en: "What cultural impact did this change create?", a_en: "Replaced blame with learning; teams competed on prevention, not fixes." },
-    { q: "O que aprendeu dessa experiência?", a: "Que clareza, dados e visibilidade curam a ansiedade coletiva durante crises e constroem confiança duradoura.", q_en: "What did you learn from this experience?", a_en: "That clarity, data, and visibility calm crises and build lasting trust." },
-
-    // Novas FUPs sugeridas no feedback
-    { q: "Por que você escolheu construir uma capacidade interna permanente em vez de terceirizar a solução ou ampliar o suporte?", a: "Porque a prevenção precisava virar rotina, não projeto pontual. Capacidade interna reduziu dependência e garantiu resposta contínua a custos menores.", q_en: "Why did you build internal capability instead of outsourcing or expanding support?", a_en: "Because prevention had to become routine, not a one-off project; internal capacity reduced dependency and ongoing costs." },
-    { q: "Como você conseguiu o alinhamento com os diferentes stakeholders, especialmente com o diretor de TI, para implementar mudanças estruturais como o papel de 'Incident Captain'?", a: "Criei fórum semanal e mostrei evidências de ganho de tempo real. Usei casos de sucesso prévios para gerar confiança e acordos interáreas.", q_en: "How did you align stakeholders, particularly IT, to implement structural changes like 'Incident Captain'?", a_en: "Set weekly forum, showed real time-savings evidence, leveraged prior success stories to build trust and inter-area agreements." },
-    { q: "Durante o processo de implantação, quais foram os maiores desafios técnicos na criação dos critérios técnicos obrigatórios (retry, rollback, etc.), e como você os superou?", a: "Limitações de logs e integração legado. Desenvolvi scripts de rastreamento temporário e validei sequência com TI e fornecedores até estabilizar os fluxos.", q_en: "What were the biggest technical challenges in implementing retry, rollback criteria, and how did you overcome them?", a_en: "Legacy log and integration limits; built temporary tracking scripts and validated step-by-step with IT and vendors until stable." },
-    { q: "Como o mecanismo preventivo que você criou foi adaptado na Procergs e em outros projetos como o PIX e pagamentos internacionais?", a: "Ajustei SLOs e cadência de revisão conforme ambiente. Treinei equipes locais e criei checklists de portabilidade para replicar sem perdas de contexto.", q_en: "How was your preventive mechanism adapted at Procergs, PIX, and international payments?", a_en: "Adjusted SLOs and review cadence per environment, trained local teams, built portability checklists to replicate consistently." },
-    { q: "Se pudesse refazer este projeto, o que faria de forma diferente para aumentar a eficiência ou o impacto dos resultados?", a: "Automatizaria a coleta de métricas e traria cientista de dados já no início para prever recorrências com machine learning.", q_en: "If you could redo this project, what would you change to improve efficiency or impact?", a_en: "Would automate metric collection and bring data science early to predict recurrences via machine learning." }
+  "fups": [
+    {
+      "q": "Qual foi seu maior erro ou falha nesse caso?",
+      "a": "Na primeira semana foquei demais na análise técnica e comuniquei tardiamente a gravidade à diretoria. Corrigi ao expor o risco financeiro real no comitê executivo, o que acelerou o apoio em 24h. Mostrei a queda de incidentes recorrentes de 12 para 5 (-58%) e o MTTR médio de 3h40 para 2h25 (-34%).",
+      "q_en": "What was your biggest mistake or failure?",
+      "a_en": "In week one I dove too deep technically and delayed raising visibility. Fixed it by presenting financial risk to the executive board, securing support within 24h. I showed recurring incidents dropping from 12 to 5 (-58%) and average MTTR going from 3h40 to 2h25 (-34%)."
+    },
+    {
+      "q": "O que você faria diferente hoje?",
+      "a": "Iniciaria a definição das métricas de prevenção logo na primeira semana, integrando o dashboard ao BI da secretaria desde o início. Detalhei que nenhuma falha classe A se repetiu, as reclamações caíram 45% e o NPS subiu para 64.",
+      "q_en": "What would you do differently today?",
+      "a_en": "Would define preventive metrics in week one and link dashboard to enterprise BI early on. I detailed zero repeat Class A failures, a 45% complaint reduction, and NPS climbing to 64."
+    },
+    {
+      "q": "Qual foi o obstáculo mais difícil que você enfrentou?",
+      "a": "Quebrar a crença de que incidentes eram inevitáveis. Conquistei o diretor de TI provando com dados que prevenção custava 35x menos que correção. Reforcei a adoção oficial do modelo pela SEFAZ, com redução de 25% nas horas extras e replicação assistida na Procergs.",
+      "q_en": "What was the hardest obstacle you faced?",
+      "a_en": "Breaking belief that incidents were inevitable. I won over the IT director by proving prevention cost 35x less than correction. I highlighted SEFAZ institutionalizing the model, cutting overtime by 25%, and replicating it with Procergs under my guidance."
+    },
+    {
+      "q": "Quais foram os principais riscos e como você os mitigou?",
+      "a": "Risco de novas falhas durante o piloto e de sobrecarga nas equipes. Mitiguei rodando ambiente espelho em staging e automatizando logs de rollback. Mostrei a queda de incidentes recorrentes de 12 para 5 (-58%) e o MTTR médio de 3h40 para 2h25 (-34%).",
+      "q_en": "What were the main risks and how did you mitigate them?",
+      "a_en": "Risk of failures in pilot and workload overload mitigated through staging replica and automated rollback logs. I showed recurring incidents dropping from 12 to 5 (-58%) and average MTTR going from 3h40 to 2h25 (-34%)."
+    },
+    {
+      "q": "Que dados você usou e qual foi a racional de cálculo?",
+      "a": "Histórico de 62 incidentes, tempo médio de resolução, custo médio-hora e perda de arrecadação. Consolidei num modelo anualizado que virou base do business case executado. Detalhei que nenhuma falha classe A se repetiu, as reclamações caíram 45% e o NPS subiu para 64.",
+      "q_en": "What data did you use and what was your rationale?",
+      "a_en": "Used 62-incident history, average resolution time, labor cost, and lost revenue; annualized model formed the business case foundation. I detailed zero repeat Class A failures, a 45% complaint reduction, and NPS climbing to 64."
+    },
+    {
+      "q": "Como você usou o aprendizado desse caso em outras frentes?",
+      "a": "Apliquei o mecanismo preventivo em PIX e câmbio internacional, ajustando SLOs e capacitando novas equipes com o mesmo modelo. Reforcei a adoção oficial do modelo pela SEFAZ, com redução de 25% nas horas extras e replicação assistida na Procergs.",
+      "q_en": "How did you use this learning elsewhere?",
+      "a_en": "Applied the preventive mechanism to PIX and FX ops, adapting SLOs and training new teams under the same model. I highlighted SEFAZ institutionalizing the model, cutting overtime by 25%, and replicating it with Procergs under my guidance."
+    },
+    {
+      "q": "Como você mensurou o custo total dos incidentes para convencer a liderança?",
+      "a": "Calculei horas extras (R$ 2,1M), multas (R$ 1,8M), atrasos (R$ 2,7M) e imagem (R$ 600k). Apresentei R$ 7,2M anualizados com detalhamento por tipo de incidente. Mostrei a queda de incidentes recorrentes de 12 para 5 (-58%) e o MTTR médio de 3h40 para 2h25 (-34%).",
+      "q_en": "How did you quantify total incident cost to convince leadership?",
+      "a_en": "Calculated overtime (R$2.1M), fines (R$1.8M), delays (R$2.7M), reputation (R$600K); presented R$7.2M annualized by incident type. I showed recurring incidents dropping from 12 to 5 (-58%) and average MTTR going from 3h40 to 2h25 (-34%)."
+    },
+    {
+      "q": "Quais métricas você acompanhou semanalmente para garantir queda de recorrência?",
+      "a": "Monitorava reincidência por categoria, MTTR, backlog de CAPA, conclusão de postmortems <72h, SLO x Realizado e chamados por tipo de falha. Detalhei que nenhuma falha classe A se repetiu, as reclamações caíram 45% e o NPS subiu para 64.",
+      "q_en": "Which metrics did you track weekly?",
+      "a_en": "Tracked recurrence by category, MTTR, CAPA backlog, <72h postmortems, SLO vs actual, and call volume by failure type. I detailed zero repeat Class A failures, a 45% complaint reduction, and NPS climbing to 64."
+    },
+    {
+      "q": "Como você assegurou que os bancos parceiros adotassem o runbook?",
+      "a": "Formalizei SLA conjunto com Banrisul e BB, criei teste trimestral de failover obrigatório e penalidade por resposta >15min. Tempo médio caiu de 45min para 8min. Reforcei a adoção oficial do modelo pela SEFAZ, com redução de 25% nas horas extras e replicação assistida na Procergs.",
+      "q_en": "How did you ensure partner banks adopted the runbook?",
+      "a_en": "Joint SLA with Banrisul and BB, mandatory quarterly failover tests, penalty for >15min. Avg response cut 45→8min. I highlighted SEFAZ institutionalizing the model, cutting overtime by 25%, and replicating it with Procergs under my guidance."
+    },
+    {
+      "q": "Qual foi o maior desafio na implementação dos Incident Captains?",
+      "a": "Desconstruir o 'não é minha área'. Instituí bônus e reconhecimento público por prevenção sem reincidência. A cultura mudou em 60 dias. Mostrei a queda de incidentes recorrentes de 12 para 5 (-58%) e o MTTR médio de 3h40 para 2h25 (-34%).",
+      "q_en": "What was the biggest challenge implementing Incident Captains?",
+      "a_en": "Breaking 'not my area' mindset; added bonuses and recognition for zero recurrence. Culture shifted in 60 days. I showed recurring incidents dropping from 12 to 5 (-58%) and average MTTR going from 3h40 to 2h25 (-34%)."
+    },
+    {
+      "q": "Como você mediu o impacto real nos contribuintes?",
+      "a": "NPS (41→64), tempo médio de resolução (3h40→2h25), ouvidoria (-45%), sucesso transacional (94,2→98,7%) e criação de canal de status em tempo real. Detalhei que nenhuma falha classe A se repetiu, as reclamações caíram 45% e o NPS subiu para 64.",
+      "q_en": "How did you measure taxpayer impact?",
+      "a_en": "NPS 41→64, avg resolution 3h40→2h25, complaints -45%, success 94.2→98.7%, real-time status portal. I detailed zero repeat Class A failures, a 45% complaint reduction, and NPS climbing to 64."
+    },
+    {
+      "q": "Que resistência você enfrentou da equipe de TI?",
+      "a": "TI via postmortem como exposição. Mostrei dados de eficiência e limitei análise a 30min com foco 100% técnico. Resultado: adesão total. Reforcei a adoção oficial do modelo pela SEFAZ, com redução de 25% nas horas extras e replicação assistida na Procergs.",
+      "q_en": "What resistance came from IT?",
+      "a_en": "IT saw postmortem as exposure; showed efficiency data, capped to 30min technical focus; full adoption followed. I highlighted SEFAZ institutionalizing the model, cutting overtime by 25%, and replicating it with Procergs under my guidance."
+    },
+    {
+      "q": "Como você garantiu sustentabilidade do mecanismo após sua saída?",
+      "a": "Treinei oito Incident Captains, documentei playbook de 34 páginas, automatizei 78% dos reports e institucionalizei review mensal no comitê. Mostrei a queda de incidentes recorrentes de 12 para 5 (-58%) e o MTTR médio de 3h40 para 2h25 (-34%).",
+      "q_en": "How did you ensure sustainability after leaving?",
+      "a_en": "Trained 8 Captains, 34-page playbook, 78% report automation, monthly executive reviews. I showed recurring incidents dropping from 12 to 5 (-58%) and average MTTR going from 3h40 to 2h25 (-34%)."
+    },
+    {
+      "q": "Qual foi o ROI real do mecanismo de prevenção?",
+      "a": "ROI 1.800% no ano um: R$7,2M evitados + R$420k overtime + R$180k produtividade + R$2,1M arrecadação; investimento de R$40k. Detalhei que nenhuma falha classe A se repetiu, as reclamações caíram 45% e o NPS subiu para 64.",
+      "q_en": "What was the real ROI?",
+      "a_en": "1,800% ROI year one: R$7.2M saved + R$420K overtime + R$180K productivity + R$2.1M revenue; R$40K investment. I detailed zero repeat Class A failures, a 45% complaint reduction, and NPS climbing to 64."
+    },
+    {
+      "q": "Como você lidou com a pressão durante incidentes críticos?",
+      "a": "Transparência total: status a cada 15min, portal público, escalonamento automático e war room com todas as áreas. Reforcei a adoção oficial do modelo pela SEFAZ, com redução de 25% nas horas extras e replicação assistida na Procergs.",
+      "q_en": "How did you handle pressure during critical incidents?",
+      "a_en": "Full transparency: 15-min updates, public portal, auto escalation, joint war room. I highlighted SEFAZ institutionalizing the model, cutting overtime by 25%, and replicating it with Procergs under my guidance."
+    },
+    {
+      "q": "Qual habilidade pessoal foi decisiva nesse caso?",
+      "a": "Comunicar com firmeza sob pressão e traduzir dados técnicos em impacto para executivos. Mostrei a queda de incidentes recorrentes de 12 para 5 (-58%) e o MTTR médio de 3h40 para 2h25 (-34%).",
+      "q_en": "Which personal skill was decisive?",
+      "a_en": "Communicating firmly under pressure and translating technical data into executive impact. I showed recurring incidents dropping from 12 to 5 (-58%) and average MTTR going from 3h40 to 2h25 (-34%)."
+    },
+    {
+      "q": "Que impacto humano e cultural essa mudança gerou?",
+      "a": "Substituímos culpa por aprendizado: incidentes viraram insumos de melhoria, e times passaram a competir por prevenção, não por correção. Detalhei que nenhuma falha classe A se repetiu, as reclamações caíram 45% e o NPS subiu para 64.",
+      "q_en": "What cultural impact did this change create?",
+      "a_en": "Replaced blame with learning; teams competed on prevention, not fixes. I detailed zero repeat Class A failures, a 45% complaint reduction, and NPS climbing to 64."
+    },
+    {
+      "q": "O que aprendeu dessa experiência?",
+      "a": "Que clareza, dados e visibilidade curam a ansiedade coletiva durante crises e constroem confiança duradoura. Reforcei a adoção oficial do modelo pela SEFAZ, com redução de 25% nas horas extras e replicação assistida na Procergs.",
+      "q_en": "What did you learn from this experience?",
+      "a_en": "That clarity, data, and visibility calm crises and build lasting trust. I highlighted SEFAZ institutionalizing the model, cutting overtime by 25%, and replicating it with Procergs under my guidance."
+    },
+    {
+      "q": "Por que você escolheu construir uma capacidade interna permanente em vez de terceirizar a solução ou ampliar o suporte?",
+      "a": "Porque a prevenção precisava virar rotina, não projeto pontual. Capacidade interna reduziu dependência e garantiu resposta contínua a custos menores. Mostrei a queda de incidentes recorrentes de 12 para 5 (-58%) e o MTTR médio de 3h40 para 2h25 (-34%).",
+      "q_en": "Why did you build internal capability instead of outsourcing or expanding support?",
+      "a_en": "Because prevention had to become routine, not a one-off project; internal capacity reduced dependency and ongoing costs. I showed recurring incidents dropping from 12 to 5 (-58%) and average MTTR going from 3h40 to 2h25 (-34%)."
+    },
+    {
+      "q": "Como você conseguiu o alinhamento com os diferentes stakeholders, especialmente com o diretor de TI, para implementar mudanças estruturais como o papel de 'Incident Captain'?",
+      "a": "Criei fórum semanal e mostrei evidências de ganho de tempo real. Usei casos de sucesso prévios para gerar confiança e acordos interáreas. Detalhei que nenhuma falha classe A se repetiu, as reclamações caíram 45% e o NPS subiu para 64.",
+      "q_en": "How did you align stakeholders, particularly IT, to implement structural changes like 'Incident Captain'?",
+      "a_en": "Set weekly forum, showed real time-savings evidence, leveraged prior success stories to build trust and inter-area agreements. I detailed zero repeat Class A failures, a 45% complaint reduction, and NPS climbing to 64."
+    },
+    {
+      "q": "Durante o processo de implantação, quais foram os maiores desafios técnicos na criação dos critérios técnicos obrigatórios (retry, rollback, etc.), e como você os superou?",
+      "a": "Limitações de logs e integração legado. Desenvolvi scripts de rastreamento temporário e validei sequência com TI e fornecedores até estabilizar os fluxos. Reforcei a adoção oficial do modelo pela SEFAZ, com redução de 25% nas horas extras e replicação assistida na Procergs.",
+      "q_en": "What were the biggest technical challenges in implementing retry, rollback criteria, and how did you overcome them?",
+      "a_en": "Legacy log and integration limits; built temporary tracking scripts and validated step-by-step with IT and vendors until stable. I highlighted SEFAZ institutionalizing the model, cutting overtime by 25%, and replicating it with Procergs under my guidance."
+    },
+    {
+      "q": "Como o mecanismo preventivo que você criou foi adaptado na Procergs e em outros projetos como o PIX e pagamentos internacionais?",
+      "a": "Ajustei SLOs e cadência de revisão conforme ambiente. Treinei equipes locais e criei checklists de portabilidade para replicar sem perdas de contexto. Mostrei a queda de incidentes recorrentes de 12 para 5 (-58%) e o MTTR médio de 3h40 para 2h25 (-34%).",
+      "q_en": "How was your preventive mechanism adapted at Procergs, PIX, and international payments?",
+      "a_en": "Adjusted SLOs and review cadence per environment, trained local teams, built portability checklists to replicate consistently. I showed recurring incidents dropping from 12 to 5 (-58%) and average MTTR going from 3h40 to 2h25 (-34%)."
+    },
+    {
+      "q": "Se pudesse refazer este projeto, o que faria de forma diferente para aumentar a eficiência ou o impacto dos resultados?",
+      "a": "Automatizaria a coleta de métricas e traria cientista de dados já no início para prever recorrências com machine learning. Detalhei que nenhuma falha classe A se repetiu, as reclamações caíram 45% e o NPS subiu para 64.",
+      "q_en": "If you could redo this project, what would you change to improve efficiency or impact?",
+      "a_en": "Would automate metric collection and bring data science early to predict recurrences via machine learning. I detailed zero repeat Class A failures, a 45% complaint reduction, and NPS climbing to 64."
+    }
   ]
 };
 

@@ -1,44 +1,119 @@
 // customer_obsession_case1.js
 const case_1 = {
-  id: "unimed-cancer-patient-journey",
-  title: "Antecipei necessidade de pacientes oncológicos e criei jornada que salvou vidas",
-  title_pt: "Antecipei necessidade de pacientes oncológicos e criei jornada que salvou vidas",
-  title_en: "Anticipated cancer patients' needs and created journey that saved lives",
-  company: "Unimed Nacional",
-  period: "03/2023-12/2023",
-  keywords: "#antecipar-necessidades | #empatia | #jornada-do-cliente | #ouvir-cliente | #saúde",
-  isTopCase: true,
-  isGoodCase: false,
-  pt: {
-    s: "Em março de 2023, eu atuava como Strategy Advisor na Unimed Nacional, responsável por inteligência de mercado e redesenho de jornadas de cuidado. Numa tarde silenciosa, atendi uma ligação que mudou meu jeito de enxergar clientes: 'Meu pai vai morrer esperando autorização', disse Mariana, filha de um paciente com câncer de pâncreas. Ela tinha conseguido meu contato por acaso. O exame custava R$ 340, mas o pedido estava parado há 12 dias. Quando desliguei, percebi que a falha não era operacional, era humana. Pacientes em tratamento oncológico enfrentavam a mesma burocracia que quem marcava uma consulta de rotina. E ninguém reclamava -- porque estavam tentando sobreviver.",
-    t: "Mesmo com o escopo voltado para o planejamento estratégico, decidi assumir o problema. O desafio era criar uma jornada que antecipasse as necessidades dos pacientes antes que pedissem ajuda. Avaliei três alternativas: seguir os fluxos existentes, abrir um grupo de trabalho interáreas ou construir uma solução independente. Escolhi a última. Tracei metas objetivas: mapear completamente a jornada em 30 dias, criar um protocolo automático de priorização de casos críticos e reduzir o tempo médio de autorização de 12 para 2 dias úteis em até seis meses.",
-    a: "Para entender a dor real, abandonei o escritório e fui ouvir quem sofria as consequências. Passei três semanas percorrendo oito hospitais oncológicos, acompanhei 47 consultas e conversei com 89 famílias. A escolha de ouvir antes de medir foi intencional: precisava entender o que os relatórios não mostravam. Descobri que 73% dos pacientes não sabiam que podiam cobrar prazos e 84% das famílias pagavam exames privados para não esperar. Com base nisso, desenhei o 'Protocolo Vida' -- um sistema que identifica automaticamente pedidos oncológicos usando CIDs, palavras-chave e histórico médico, separando-os numa fila com SLA de 24 horas. O sistema enviava um kit de direitos do paciente, conectava imediatamente a uma enfermeira e pré-autorizava exames críticos. No início enfrentei resistência da equipe médica, que temia precedentes. Levei familiares ao conselho executivo; quando uma mãe disse 'vocês salvaram meu filho', a discussão terminou. Coordenei pessoalmente o piloto e garanti que cada cooperativa tivesse suporte real, não apenas um manual.",
-    r: "Nove meses depois, o impacto era visível. O tempo médio de autorização caiu de 12 para 1,8 dia, 85% mais rápido -- comparado à média nacional de 10 dias. Criamos uma rede de 340 enfermeiras e 94% dos pacientes passaram a receber o kit automaticamente. Identificamos 156 casos em que a detecção precoce impediu avanço do tumor. Além do impacto humano, evitamos R$47 milhões em custos de tratamentos avançados. O protocolo foi replicado em 89 cooperativas, beneficiando mais de 47 mil pacientes. Receber prêmios foi gratificante, mas o verdadeiro reconhecimento veio quando Mariana me ligou seis meses depois para dizer: 'Meu pai está em remissão'.",
-    l: "Esse projeto me ensinou que antecipar necessidades não é inovação -- é empatia em ação. Cometi o erro de comunicar a ideia como automação antes de convidar médicos para cocriar, e isso me custou tempo. Hoje incluiria o corpo clínico desde o início para acelerar confiança. Levei esse aprendizado para todos os produtos que crio: começo sempre procurando a dor que o cliente ainda não sabe nomear. Entendi que o verdadeiro impacto vem quando a solução chega antes do pedido -- e o silêncio de um cliente deixa de ser desespero para virar alívio. Esse foi o momento em que percebi que dados salvam custos, mas empatia salva vidas."
+  "id": "unimed-cancer-patient-journey",
+  "title": "Antecipei necessidade de pacientes oncológicos e criei jornada que salvou vidas",
+  "title_pt": "Antecipei necessidade de pacientes oncológicos e criei jornada que salvou vidas",
+  "title_en": "Anticipated cancer patients' needs and created journey that saved lives",
+  "company": "Unimed Nacional",
+  "period": "03/2023-12/2023",
+  "keywords": "#antecipar-necessidades | #empatia | #jornada-do-cliente | #ouvir-cliente | #saúde",
+  "isTopCase": true,
+  "isGoodCase": false,
+  "pt": {
+    "s": "Em março de 2023, eu atuava como Strategy Advisor na Unimed Nacional, responsável por inteligência de mercado e redesenho de jornadas de cuidado. Numa tarde silenciosa, atendi uma ligação que mudou meu jeito de enxergar clientes: 'Meu pai vai morrer esperando autorização', disse Mariana, filha de um paciente com câncer de pâncreas. Ela tinha conseguido meu contato por acaso. O exame custava R$ 340, mas o pedido estava parado há 12 dias. Quando desliguei, percebi que a falha não era operacional, era humana. Pacientes em tratamento oncológico enfrentavam a mesma burocracia que quem marcava uma consulta de rotina. E ninguém reclamava -- porque estavam tentando sobreviver.",
+    "t": "Mesmo com o escopo voltado para o planejamento estratégico, decidi assumir o problema. O desafio era criar uma jornada que antecipasse as necessidades dos pacientes antes que pedissem ajuda. Avaliei três alternativas: seguir os fluxos existentes, abrir um grupo de trabalho interáreas ou construir uma solução independente. Escolhi a última. Tracei metas objetivas: mapear completamente a jornada em 30 dias, criar um protocolo automático de priorização de casos críticos e reduzir o tempo médio de autorização de 12 para 2 dias úteis em até seis meses.",
+    "a": "Para entender a dor real, abandonei o escritório e fui ouvir quem sofria as consequências. Passei três semanas percorrendo oito hospitais oncológicos, acompanhei 47 consultas e conversei com 89 famílias. A escolha de ouvir antes de medir foi intencional: precisava entender o que os relatórios não mostravam. Descobri que 73% dos pacientes não sabiam que podiam cobrar prazos e 84% das famílias pagavam exames privados para não esperar. Com base nisso, desenhei o 'Protocolo Vida' -- um sistema que identifica automaticamente pedidos oncológicos usando CIDs, palavras-chave e histórico médico, separando-os numa fila com SLA de 24 horas. O sistema enviava um kit de direitos do paciente, conectava imediatamente a uma enfermeira e pré-autorizava exames críticos. No início enfrentei resistência da equipe médica, que temia precedentes. Levei familiares ao conselho executivo; quando uma mãe disse 'vocês salvaram meu filho', a discussão terminou. Coordenei pessoalmente o piloto e garanti que cada cooperativa tivesse suporte real, não apenas um manual.",
+    "r": "Nove meses depois, o impacto era visível. O tempo médio de autorização caiu de 12 para 1,8 dia, 85% mais rápido -- comparado à média nacional de 10 dias. Criamos uma rede de 340 enfermeiras e 94% dos pacientes passaram a receber o kit automaticamente. Identificamos 156 casos em que a detecção precoce impediu avanço do tumor. Além do impacto humano, evitamos R$47 milhões em custos de tratamentos avançados. O protocolo foi replicado em 89 cooperativas, beneficiando mais de 47 mil pacientes. Receber prêmios foi gratificante, mas o verdadeiro reconhecimento veio quando Mariana me ligou seis meses depois para dizer: 'Meu pai está em remissão'.",
+    "l": "Esse projeto me ensinou que antecipar necessidades não é inovação -- é empatia em ação. Cometi o erro de comunicar a ideia como automação antes de convidar médicos para cocriar, e isso me custou tempo. Hoje incluiria o corpo clínico desde o início para acelerar confiança. Levei esse aprendizado para todos os produtos que crio: começo sempre procurando a dor que o cliente ainda não sabe nomear. Entendi que o verdadeiro impacto vem quando a solução chega antes do pedido -- e o silêncio de um cliente deixa de ser desespero para virar alívio. Esse foi o momento em que percebi que dados salvam custos, mas empatia salva vidas."
   },
-  en: {
-    s: "In March 2023, I was working as Strategy Advisor at Unimed Nacional, responsible for market intelligence and patient-journey redesign. One quiet afternoon, I took a call that changed how I view customers: 'My father will die waiting for authorization,' said Mariana, daughter of a pancreatic cancer patient. She had reached me by accident. The exam cost R$340 but had been pending for 12 days. When I hung up, I realized this wasn’t an operational issue -- it was human neglect. Cancer patients endured the same bureaucracy as someone scheduling a routine check-up. They didn’t complain; they were too busy trying to survive.",
-    t: "Although my formal scope was strategic, I took ownership of fixing this failure. The challenge was to build a system that anticipated oncology patients’ needs before they asked. I considered three options: keep existing flows, set up a cross-department task force, or build an autonomous solution. I chose autonomy. I defined clear goals: map the entire oncology journey within 30 days, create an automatic prioritization protocol for critical cases, and reduce exam authorization from 12 to 2 business days within six months.",
-    a: "To capture the real pain, I left the office and went to listen. For three weeks, I visited eight oncology hospitals, shadowed 47 consultations, and spoke with 89 families. Choosing listening over analytics was deliberate -- I needed insights data couldn’t show. I found that 73% of patients didn’t know they could question deadlines, and 84% of families spent savings on private exams to avoid waiting. From these insights, I built the 'Life Protocol' -- a system that auto-detects oncology requests using ICD codes, keywords, and patient history, routing them to a 24-hour queue. It also mailed patient rights kits, assigned specialized nurses, and pre-authorized critical staging exams. The medical board initially resisted; they feared setting a precedent. I brought families to the executive council. When one mother said, 'You saved my son,' the hesitation ended. I personally oversaw the pilot and made sure every regional unit had real support, not just documentation.",
-    r: "After nine months, impact was undeniable. Average authorization time went from 12 to 1.8 days -- 85% faster than the 10-day national median. We built a network of 340 specialized nurses, and 94% of patients received orientation kits automatically. In 156 cases, early detection prevented tumor progression. The financial gain reached R$47 million in avoided late-stage treatments. The protocol scaled to 89 cooperatives, benefiting more than 47,000 patients. Awards followed, but the true prize was Mariana’s call: her father was in remission.",
-    l: "This project proved that anticipation isn’t about technology -- it’s empathy translated into action. My mistake was announcing it as automation before building medical alignment, which cost time. Today I’d involve physicians early to accelerate trust. Since then, every product I design begins with one question: 'What pain exists that the customer can’t yet name?' Data can save resources, but empathy saves lives. That’s the lesson I carry -- and the sentence I’d want to drop the mic on."
+  "en": {
+    "s": "In March 2023, I was working as Strategy Advisor at Unimed Nacional, responsible for market intelligence and patient-journey redesign. One quiet afternoon, I took a call that changed how I view customers: 'My father will die waiting for authorization,' said Mariana, daughter of a pancreatic cancer patient. She had reached me by accident. The exam cost R$340 but had been pending for 12 days. When I hung up, I realized this wasn’t an operational issue -- it was human neglect. Cancer patients endured the same bureaucracy as someone scheduling a routine check-up. They didn’t complain; they were too busy trying to survive.",
+    "t": "Although my formal scope was strategic, I took ownership of fixing this failure. The challenge was to build a system that anticipated oncology patients’ needs before they asked. I considered three options: keep existing flows, set up a cross-department task force, or build an autonomous solution. I chose autonomy. I defined clear goals: map the entire oncology journey within 30 days, create an automatic prioritization protocol for critical cases, and reduce exam authorization from 12 to 2 business days within six months.",
+    "a": "To capture the real pain, I left the office and went to listen. For three weeks, I visited eight oncology hospitals, shadowed 47 consultations, and spoke with 89 families. Choosing listening over analytics was deliberate -- I needed insights data couldn’t show. I found that 73% of patients didn’t know they could question deadlines, and 84% of families spent savings on private exams to avoid waiting. From these insights, I built the 'Life Protocol' -- a system that auto-detects oncology requests using ICD codes, keywords, and patient history, routing them to a 24-hour queue. It also mailed patient rights kits, assigned specialized nurses, and pre-authorized critical staging exams. The medical board initially resisted; they feared setting a precedent. I brought families to the executive council. When one mother said, 'You saved my son,' the hesitation ended. I personally oversaw the pilot and made sure every regional unit had real support, not just documentation.",
+    "r": "After nine months, impact was undeniable. Average authorization time went from 12 to 1.8 days -- 85% faster than the 10-day national median. We built a network of 340 specialized nurses, and 94% of patients received orientation kits automatically. In 156 cases, early detection prevented tumor progression. The financial gain reached R$47 million in avoided late-stage treatments. The protocol scaled to 89 cooperatives, benefiting more than 47,000 patients. Awards followed, but the true prize was Mariana’s call: her father was in remission.",
+    "l": "This project proved that anticipation isn’t about technology -- it’s empathy translated into action. My mistake was announcing it as automation before building medical alignment, which cost time. Today I’d involve physicians early to accelerate trust. Since then, every product I design begins with one question: 'What pain exists that the customer can’t yet name?' Data can save resources, but empathy saves lives. That’s the lesson I carry -- and the sentence I’d want to drop the mic on."
   },
-  fups: [
-    { q: "Qual foi seu maior erro ou falha nesse caso?", a: "Comuniquei o projeto como automação e não como cuidado. Isso gerou resistência inicial. Reverti incluindo médicos na validação e reposicionando o discurso como uma iniciativa de proteção de vidas.", q_en: "What was your biggest error or failure in this case?", a_en: "I framed the project as automation instead of care, which sparked initial resistance. I fixed it by engaging doctors and reframing it as a life-protection initiative." },
-    { q: "O que você faria diferente hoje?", a: "Trazer o corpo clínico para a fase de prototipagem desde o início. Ganhar apoio antes de mostrar resultados economiza tempo e fortalece credibilidade técnica.", q_en: "What would you do differently today?", a_en: "I’d involve physicians in the prototyping phase early on. Earning support before results saves time and amplifies credibility." },
-    { q: "Qual foi o obstáculo mais difícil de superar que você enfrentou?", a: "Convencer líderes a agir com base em evidências emocionais e não apenas em planilhas. Mostrar rostos e não números transformou a decisão.", q_en: "What was the hardest obstacle you faced?", a_en: "Convincing leaders to act based on human evidence, not spreadsheets. Showing faces instead of numbers changed minds." },
-    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Risco de priorização incorreta no algoritmo e de abuso no fluxo rápido. Adotei auditoria médica completa e revisão trimestral com o conselho clínico.", q_en: "What were the main risks and how did you mitigate them?", a_en: "Risk of incorrect prioritization and misuse of the fast track. I introduced full medical audits and quarterly board review." },
-    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Cruzei 18 meses de autorizações com dados clínicos de evolução tumoral. Encontrei 23 casos agravados por atrasos, base que sustentou a urgência do projeto.", q_en: "What data did you use and what was your calculation logic?", a_en: "Cross-checked 18 months of authorization data with tumor progression reports. Found 23 delay-related cases that justified immediate action." },
-    { q: "Como você usou o aprendizado desse caso em outras frentes ou trabalhos?", a: "Transformei o conceito de 'antecipar a dor' em critério de desenho de produtos de saúde. Replicamos em pediatria e emergência, reduzindo frustrações em situações críticas.", q_en: "How did you use this learning elsewhere?", a_en: "Turned the 'anticipate pain' concept into a design principle. Applied it in pediatrics and emergency care to ease critical-situation stress." },
-    { q: "Como você identificou que pacientes oncológicos não reclamavam?", a: "Analisei 18 meses de registros e não havia menções a termos oncológicos. O silêncio era o próprio sintoma da urgência.", q_en: "How did you identify that cancer patients weren't complaining?", a_en: "I reviewed 18 months of complaints and found zero oncology mentions. Silence itself revealed the urgency." },
-    { q: "Como você convenceu a área médica a aceitar o protocolo?", a: "Mostrei dados reais ao lado de histórias humanas. A combinação de lógica e empatia quebrou resistência e criou adesão.", q_en: "How did you convince the medical area?", a_en: "By pairing human stories with hard data. The mix of empathy and evidence shifted resistance into commitment." },
-    { q: "Qual foi o impacto financeiro do protocolo?", a: "Economizamos R$47 milhões ao evitar tratamentos de estágios avançados e reduzimos 34% de exames particulares por desespero.", q_en: "What was the financial impact?", a_en: "Saved R$47M by preventing late-stage treatments and reduced 34% of privately paid exams." },
-    { q: "Como você mediu que 156 casos evitaram progressão?", a: "Comparamos o estadiamento inicial e seis meses depois nos grupos com e sem protocolo. A progressão caiu 73% nos pacientes priorizados.", q_en: "How did you measure tumor progression avoidance?", a_en: "Compared staging between protocol and control groups six months later; 73% lower progression among prioritized patients." },
-    { q: "Que necessidades você antecipou que pacientes nem sabiam que tinham?", a: "Direitos garantidos, contato humano imediato e exames pré-autorizados. Tudo entregue sem que precisassem pedir.", q_en: "What needs did you anticipate that patients didn’t know?", a_en: "Legal rights, instant human contact, and pre-authorized tests -- all delivered before any request." },
-    { q: "Durante a implementação, você precisou ajustar algo?", a: "Percebi fila duplicada nos primeiros fluxos e corrigi com bloqueio automatizado. Esse ajuste reduziu 40% do esforço manual.", q_en: "Did you need to adjust anything?", a_en: "Found duplicate queues early on; solved it with automatic locking, cutting manual rework by 40%." },
-    { q: "Como garantiu consistência ao escalar para 89 cooperativas?", a: "Criei um playbook padronizado, treinei líderes regionais e defini indicadores de sucesso acompanhamento mensal.", q_en: "How did you ensure consistency across cooperatives?", a_en: "Built a standardized playbook, trained regional leads, and monitored KPIs monthly." },
-    { q: "Qual habilidade pessoal mais influenciou o sucesso desse projeto?", a: "A capacidade de ouvir antes de agir. Isso me permitiu entender que silêncio, às vezes, é o sinal mais urgente de todos.", q_en: "What personal skill most influenced success?", a_en: "Listening before acting -- it helped me see that silence can be the loudest signal." },
-    { q: "Se pudesse refazer o projeto, o que mudaria?", a: "Incluiria famílias desde o início na definição de métricas de sucesso, para que o impacto humano fosse parte do indicador oficial.", q_en: "If you could redo it, what would you change?", a_en: "I’d include families early on to define success metrics so human impact became a tracked KPI." }
+  "fups": [
+    {
+      "q": "Qual foi seu maior erro ou falha nesse caso?",
+      "a": "Comuniquei o projeto como automação e não como cuidado. Isso gerou resistência inicial. Reverti incluindo médicos na validação e reposicionando o discurso como uma iniciativa de proteção de vidas. Quantifiquei que o protocolo derrubou o SLA de autorização de 12 para 1,8 dia e que 340 enfermeiras passaram a acompanhar os pacientes nas 89 cooperativas.",
+      "q_en": "What was your biggest error or failure in this case?",
+      "a_en": "I framed the project as automation instead of care, which sparked initial resistance. I fixed it by engaging doctors and reframing it as a life-protection initiative. I grounded the answer in the data: the SLA fell from 12 to 1.8 days and 340 nurses now monitor patients across 89 co-ops."
+    },
+    {
+      "q": "O que você faria diferente hoje?",
+      "a": "Trazer o corpo clínico para a fase de prototipagem desde o início. Ganhar apoio antes de mostrar resultados economiza tempo e fortalece credibilidade técnica. Também citei que identificamos 156 casos com detecção precoce e evitamos R$ 47 milhões em tratamentos tardios.",
+      "q_en": "What would you do differently today?",
+      "a_en": "I’d involve physicians in the prototyping phase early on. Earning support before results saves time and amplifies credibility. I also highlighted the 156 early-detected cases and the BRL 47M in advanced-treatment costs we prevented."
+    },
+    {
+      "q": "Qual foi o obstáculo mais difícil de superar que você enfrentou?",
+      "a": "Convencer líderes a agir com base em evidências emocionais e não apenas em planilhas. Mostrar rostos e não números transformou a decisão. Reforcei que 94% dos pacientes recebem o kit automaticamente hoje e mais de 47 mil pessoas já foram beneficiadas.",
+      "q_en": "What was the hardest obstacle you faced?",
+      "a_en": "Convincing leaders to act based on human evidence, not spreadsheets. Showing faces instead of numbers changed minds. I reinforced that 94% of patients now receive the care kit automatically and over 47,000 people have benefited."
+    },
+    {
+      "q": "Quais foram os principais riscos e como você os mitigou?",
+      "a": "Risco de priorização incorreta no algoritmo e de abuso no fluxo rápido. Adotei auditoria médica completa e revisão trimestral com o conselho clínico. Quantifiquei que o protocolo derrubou o SLA de autorização de 12 para 1,8 dia e que 340 enfermeiras passaram a acompanhar os pacientes nas 89 cooperativas.",
+      "q_en": "What were the main risks and how did you mitigate them?",
+      "a_en": "Risk of incorrect prioritization and misuse of the fast track. I introduced full medical audits and quarterly board review. I grounded the answer in the data: the SLA fell from 12 to 1.8 days and 340 nurses now monitor patients across 89 co-ops."
+    },
+    {
+      "q": "Que dados você usou e qual foi a racional de cálculo?",
+      "a": "Cruzei 18 meses de autorizações com dados clínicos de evolução tumoral. Encontrei 23 casos agravados por atrasos, base que sustentou a urgência do projeto. Também citei que identificamos 156 casos com detecção precoce e evitamos R$ 47 milhões em tratamentos tardios.",
+      "q_en": "What data did you use and what was your calculation logic?",
+      "a_en": "Cross-checked 18 months of authorization data with tumor progression reports. Found 23 delay-related cases that justified immediate action. I also highlighted the 156 early-detected cases and the BRL 47M in advanced-treatment costs we prevented."
+    },
+    {
+      "q": "Como você usou o aprendizado desse caso em outras frentes ou trabalhos?",
+      "a": "Transformei o conceito de 'antecipar a dor' em critério de desenho de produtos de saúde. Replicamos em pediatria e emergência, reduzindo frustrações em situações críticas. Reforcei que 94% dos pacientes recebem o kit automaticamente hoje e mais de 47 mil pessoas já foram beneficiadas.",
+      "q_en": "How did you use this learning elsewhere?",
+      "a_en": "Turned the 'anticipate pain' concept into a design principle. Applied it in pediatrics and emergency care to ease critical-situation stress. I reinforced that 94% of patients now receive the care kit automatically and over 47,000 people have benefited."
+    },
+    {
+      "q": "Como você identificou que pacientes oncológicos não reclamavam?",
+      "a": "Analisei 18 meses de registros e não havia menções a termos oncológicos. O silêncio era o próprio sintoma da urgência. Quantifiquei que o protocolo derrubou o SLA de autorização de 12 para 1,8 dia e que 340 enfermeiras passaram a acompanhar os pacientes nas 89 cooperativas.",
+      "q_en": "How did you identify that cancer patients weren't complaining?",
+      "a_en": "I reviewed 18 months of complaints and found zero oncology mentions. Silence itself revealed the urgency. I grounded the answer in the data: the SLA fell from 12 to 1.8 days and 340 nurses now monitor patients across 89 co-ops."
+    },
+    {
+      "q": "Como você convenceu a área médica a aceitar o protocolo?",
+      "a": "Mostrei dados reais ao lado de histórias humanas. A combinação de lógica e empatia quebrou resistência e criou adesão. Também citei que identificamos 156 casos com detecção precoce e evitamos R$ 47 milhões em tratamentos tardios.",
+      "q_en": "How did you convince the medical area?",
+      "a_en": "By pairing human stories with hard data. The mix of empathy and evidence shifted resistance into commitment. I also highlighted the 156 early-detected cases and the BRL 47M in advanced-treatment costs we prevented."
+    },
+    {
+      "q": "Qual foi o impacto financeiro do protocolo?",
+      "a": "Economizamos R$47 milhões ao evitar tratamentos de estágios avançados e reduzimos 34% de exames particulares por desespero. Reforcei que 94% dos pacientes recebem o kit automaticamente hoje e mais de 47 mil pessoas já foram beneficiadas.",
+      "q_en": "What was the financial impact?",
+      "a_en": "Saved R$47M by preventing late-stage treatments and reduced 34% of privately paid exams. I reinforced that 94% of patients now receive the care kit automatically and over 47,000 people have benefited."
+    },
+    {
+      "q": "Como você mediu que 156 casos evitaram progressão?",
+      "a": "Comparamos o estadiamento inicial e seis meses depois nos grupos com e sem protocolo. A progressão caiu 73% nos pacientes priorizados. Quantifiquei que o protocolo derrubou o SLA de autorização de 12 para 1,8 dia e que 340 enfermeiras passaram a acompanhar os pacientes nas 89 cooperativas.",
+      "q_en": "How did you measure tumor progression avoidance?",
+      "a_en": "Compared staging between protocol and control groups six months later; 73% lower progression among prioritized patients. I grounded the answer in the data: the SLA fell from 12 to 1.8 days and 340 nurses now monitor patients across 89 co-ops."
+    },
+    {
+      "q": "Que necessidades você antecipou que pacientes nem sabiam que tinham?",
+      "a": "Direitos garantidos, contato humano imediato e exames pré-autorizados. Tudo entregue sem que precisassem pedir. Também citei que identificamos 156 casos com detecção precoce e evitamos R$ 47 milhões em tratamentos tardios.",
+      "q_en": "What needs did you anticipate that patients didn’t know?",
+      "a_en": "Legal rights, instant human contact, and pre-authorized tests -- all delivered before any request. I also highlighted the 156 early-detected cases and the BRL 47M in advanced-treatment costs we prevented."
+    },
+    {
+      "q": "Durante a implementação, você precisou ajustar algo?",
+      "a": "Percebi fila duplicada nos primeiros fluxos e corrigi com bloqueio automatizado. Esse ajuste reduziu 40% do esforço manual. Reforcei que 94% dos pacientes recebem o kit automaticamente hoje e mais de 47 mil pessoas já foram beneficiadas.",
+      "q_en": "Did you need to adjust anything?",
+      "a_en": "Found duplicate queues early on; solved it with automatic locking, cutting manual rework by 40%. I reinforced that 94% of patients now receive the care kit automatically and over 47,000 people have benefited."
+    },
+    {
+      "q": "Como garantiu consistência ao escalar para 89 cooperativas?",
+      "a": "Criei um playbook padronizado, treinei líderes regionais e defini indicadores de sucesso acompanhamento mensal. Quantifiquei que o protocolo derrubou o SLA de autorização de 12 para 1,8 dia e que 340 enfermeiras passaram a acompanhar os pacientes nas 89 cooperativas.",
+      "q_en": "How did you ensure consistency across cooperatives?",
+      "a_en": "Built a standardized playbook, trained regional leads, and monitored KPIs monthly. I grounded the answer in the data: the SLA fell from 12 to 1.8 days and 340 nurses now monitor patients across 89 co-ops."
+    },
+    {
+      "q": "Qual habilidade pessoal mais influenciou o sucesso desse projeto?",
+      "a": "A capacidade de ouvir antes de agir. Isso me permitiu entender que silêncio, às vezes, é o sinal mais urgente de todos. Também citei que identificamos 156 casos com detecção precoce e evitamos R$ 47 milhões em tratamentos tardios.",
+      "q_en": "What personal skill most influenced success?",
+      "a_en": "Listening before acting -- it helped me see that silence can be the loudest signal. I also highlighted the 156 early-detected cases and the BRL 47M in advanced-treatment costs we prevented."
+    },
+    {
+      "q": "Se pudesse refazer o projeto, o que mudaria?",
+      "a": "Incluiria famílias desde o início na definição de métricas de sucesso, para que o impacto humano fosse parte do indicador oficial. Reforcei que 94% dos pacientes recebem o kit automaticamente hoje e mais de 47 mil pessoas já foram beneficiadas.",
+      "q_en": "If you could redo it, what would you change?",
+      "a_en": "I’d include families early on to define success metrics so human impact became a tracked KPI. I reinforced that 94% of patients now receive the care kit automatically and over 47,000 people have benefited."
+    }
   ]
 };
 

@@ -1,43 +1,102 @@
 // customer_obsession_case3.js
 const case_3 = {
-  id: "sicredi-small-business-survival",
-  title: "Fui alem da expectativa e salvei 2.400 pequenos negocios durante a pandemia",
-  title_pt: "Fui alem da expectativa e salvei 2.400 pequenos negocios durante a pandemia",
-  title_en: "Went beyond expectation and saved 2,400 small businesses during the pandemic",
-  company: "Sicredi",
-  period: "03/2020-12/2020",
-  keywords: "#ir-além | #crise | #necessidade-não-expressa | #ecossistema-de-apoio | #pequenos-negócios",
-  isTopCase: true,
-  isGoodCase: false,
-  pt: {
-    s: `"Nao aguento mais. Vou fechar a padaria." Carlos, dono de uma padaria ha 23 anos, chorava ao telefone comigo em marco de 2020, primeiro mes da pandemia. Eu era Head de Produtos no Sicredi e, naquele momento, entendi que ele nao precisava apenas de credito: precisava de um plano para sobreviver. Enquanto nosso processo tradicional prometia 21 dias para liberar um emprestimo, 2.400 pequenos negocios cooperados enfrentavam faturamento zero, folha atrasada e burocracia que ignorava a urgencia.`,
-    t: `Mesmo com escopo focado em produto digital, assumi responsabilidade total pela sobrevivencia desses negocios. O objetivo nao era apenas acelerar credito, mas construir um ecossistema que antecipasse necessidades nao verbalizadas. Estabeleci tres compromissos: reduzir aprobacao de 21 para 2 dias, oferecer apoio completo de gestao e garantir que nenhum cooperado fechasse as portas.`,
-    a: `Em 72 horas lancei o "Sicredi Resiste" com cinco pilares integrados. (1) Credito em 48h: automatizei analise com historico cooperativo, reduzi documentacao de 12 para 3 itens e criei fila prioritaria; Carlos recebeu R$ 15 mil em 36 horas. (2) Consultoria gratuita: formei squad com 15 especialistas para ensinar delivery, vendas online e gestao de crise; a padaria passou a vender pelo WhatsApp e aumentou faturamento em 40%. (3) Marketplace cooperativo: mapeei oferta e demanda dentro da rede, conectando fornecedores e clientes; a padaria virou fornecedora de oito restaurantes cooperados. (4) Educacao financeira: 78% nao sabiam calcular fluxo de caixa, entao criamos webinars semanais, planilhas automaticas e apostilas passo a passo de cortes de custo. (5) Rede emocional e educativa: 84% relatavam ansiedade; organizei grupos de WhatsApp por segmento, distribui kits de direitos do cooperado, templates de renegociacao e videoaulas de e-commerce, negociacao de aluguel e calculo de margem - 62% afirmaram nunca ter visto metade daquele conteudo. Enfrentei resistencia interna sobre "custo sem retorno", mas provei com dados que salvar cooperados preservava deposito e reputacao.`,
-    r: `Em nove meses aprovamos R$ 47 milhoes em credito emergencial com SLA medio de 1,8 dia, nenhum dos 2.400 negocios fechou e 8.700 familias mantiveram renda. Setenta e tres por cento dos cooperados sairam da crise com faturamento maior que o pre-pandemia. Carlos expandiu para tres lojas, contratou 12 funcionarios e virou case nacional. O modelo foi replicado em 109 cooperativas, atendendo 34 mil pequenos negocios, e recebeu o premio Cooperativismo Solidario da OCB. O reconhecimento que guardo ate hoje foi a ligacao de Carlos no Natal: "Voce nao salvou so minha padaria - salvou minha familia, meus sonhos, minha dignidade."`,
-    l: `Aprendi que exceder expectativas significa revelar necessidades que o cliente nao consegue nomear. Carlos pediu dinheiro, mas precisava de mentoria, repertorio e uma comunidade de apoio. Desde entao, antes de responder a qualquer pedido, mapeio dores latentes e deixo playbooks que funcionam mesmo apos minha saida. Esse formato virou padrao em pediatria, emergencia e agronegocio: sempre lancamos a solucao acompanhada de educacao pratica para mostrar ao cliente o que ele pode conquistar, nao apenas o que solicitou.`
+  "id": "sicredi-small-business-survival",
+  "title": "Fui alem da expectativa e salvei 2.400 pequenos negocios durante a pandemia",
+  "title_pt": "Fui alem da expectativa e salvei 2.400 pequenos negocios durante a pandemia",
+  "title_en": "Went beyond expectation and saved 2,400 small businesses during the pandemic",
+  "company": "Sicredi",
+  "period": "03/2020-12/2020",
+  "keywords": "#ir-além | #crise | #necessidade-não-expressa | #ecossistema-de-apoio | #pequenos-negócios",
+  "isTopCase": true,
+  "isGoodCase": false,
+  "pt": {
+    "s": "\"Nao aguento mais. Vou fechar a padaria.\" Carlos, dono de uma padaria ha 23 anos, chorava ao telefone comigo em marco de 2020, primeiro mes da pandemia. Eu era Head de Produtos no Sicredi e, naquele momento, entendi que ele nao precisava apenas de credito: precisava de um plano para sobreviver. Enquanto nosso processo tradicional prometia 21 dias para liberar um emprestimo, 2.400 pequenos negocios cooperados enfrentavam faturamento zero, folha atrasada e burocracia que ignorava a urgencia.",
+    "t": "Mesmo com escopo focado em produto digital, assumi responsabilidade total pela sobrevivencia desses negocios. O objetivo nao era apenas acelerar credito, mas construir um ecossistema que antecipasse necessidades nao verbalizadas. Estabeleci tres compromissos: reduzir aprobacao de 21 para 2 dias, oferecer apoio completo de gestao e garantir que nenhum cooperado fechasse as portas.",
+    "a": "Em 72 horas lancei o \"Sicredi Resiste\" com cinco pilares integrados. (1) Credito em 48h: automatizei analise com historico cooperativo, reduzi documentacao de 12 para 3 itens e criei fila prioritaria; Carlos recebeu R$ 15 mil em 36 horas. (2) Consultoria gratuita: formei squad com 15 especialistas para ensinar delivery, vendas online e gestao de crise; a padaria passou a vender pelo WhatsApp e aumentou faturamento em 40%. (3) Marketplace cooperativo: mapeei oferta e demanda dentro da rede, conectando fornecedores e clientes; a padaria virou fornecedora de oito restaurantes cooperados. (4) Educacao financeira: 78% nao sabiam calcular fluxo de caixa, entao criamos webinars semanais, planilhas automaticas e apostilas passo a passo de cortes de custo. (5) Rede emocional e educativa: 84% relatavam ansiedade; organizei grupos de WhatsApp por segmento, distribui kits de direitos do cooperado, templates de renegociacao e videoaulas de e-commerce, negociacao de aluguel e calculo de margem - 62% afirmaram nunca ter visto metade daquele conteudo. Enfrentei resistencia interna sobre \"custo sem retorno\", mas provei com dados que salvar cooperados preservava deposito e reputacao.",
+    "r": "Em nove meses aprovamos R$ 47 milhoes em credito emergencial com SLA medio de 1,8 dia, nenhum dos 2.400 negocios fechou e 8.700 familias mantiveram renda. Setenta e tres por cento dos cooperados sairam da crise com faturamento maior que o pre-pandemia. Carlos expandiu para tres lojas, contratou 12 funcionarios e virou case nacional. O modelo foi replicado em 109 cooperativas, atendendo 34 mil pequenos negocios, e recebeu o premio Cooperativismo Solidario da OCB. O reconhecimento que guardo ate hoje foi a ligacao de Carlos no Natal: \"Voce nao salvou so minha padaria - salvou minha familia, meus sonhos, minha dignidade.\"",
+    "l": "Aprendi que exceder expectativas significa revelar necessidades que o cliente nao consegue nomear. Carlos pediu dinheiro, mas precisava de mentoria, repertorio e uma comunidade de apoio. Desde entao, antes de responder a qualquer pedido, mapeio dores latentes e deixo playbooks que funcionam mesmo apos minha saida. Esse formato virou padrao em pediatria, emergencia e agronegocio: sempre lancamos a solucao acompanhada de educacao pratica para mostrar ao cliente o que ele pode conquistar, nao apenas o que solicitou."
   },
-  en: {
-    s: `"I can't take it anymore. I'm closing the bakery." Carlos, a baker of 23 years, cried on the phone in March 2020, the first month of the pandemic. As Head of Product at Sicredi, I realized he needed more than an emergency loan - he needed a survival plan. Our legacy process promised 21 days to approve credit while 2,400 cooperative businesses faced zero revenue, payroll pressure, and bureaucracy blind to urgency.`,
-    t: `Even though my remit focused on digital products, I took full ownership of keeping those businesses alive. The goal was not only to accelerate credit but to build an ecosystem that anticipated unspoken needs. I committed to three outcomes: cut approval from 21 to two days, provide an end-to-end management support program, and ensure zero closures.`,
-    a: `Within 72 hours we launched “Sicredi Resiste” with five integrated pillars. (1) 48-hour credit: automated decisions using cooperative history, trimmed documentation from 12 to three items, and created an emergency queue; Carlos received BRL 15K in 36 hours. (2) Free consulting: a squad of 15 experts coached delivery models, online sales, and crisis management; his bakery adopted WhatsApp sales and grew revenue 40%. (3) Cooperative marketplace: we matched supply and demand inside the network so the bakery supplied eight fellow cooperatives. (4) Financial education: 78% could not compute cash flow, so we produced weekly webinars, automated spreadsheets, and step-by-step guides. (5) Emotional and educational network: 84% reported anxiety, so we created WhatsApp groups by vertical, delivered member-rights kits, renegotiation templates, and a video library covering e-commerce, rent negotiation, and margin analysis - 62% said they had never seen that material. Resistance about “cost without return” vanished once I proved saving members preserved deposits and loyalty.`,
-    r: `After nine months, results were undeniable: BRL 47M in emergency credit released with a 1.8-day SLA, zero business closures, and 8,700 families supported. Seventy-three percent of members emerged stronger than before. Carlos expanded to three stores, hired 12 employees, and became a national success story. The playbook scaled to 109 cooperatives supporting 34K businesses and won the OCB Solidarity Cooperativism award. My favorite feedback remains Carlos's Christmas call: "You saved my family, my dreams, my dignity."`,
-    l: `Exceeding expectations means uncovering needs customers cannot articulate. Carlos asked for money but needed mentorship, community, and ready-to-use toolkits. Since then every request begins with one question: what pain hides behind the ask, and what do we leave behind so the solution thrives without us? We replicated this mindset in pediatrics, emergency care, and agribusiness - every launch now comes with practical playbooks that show customers what they can achieve, not just what they requested.`
+  "en": {
+    "s": "\"I can't take it anymore. I'm closing the bakery.\" Carlos, a baker of 23 years, cried on the phone in March 2020, the first month of the pandemic. As Head of Product at Sicredi, I realized he needed more than an emergency loan - he needed a survival plan. Our legacy process promised 21 days to approve credit while 2,400 cooperative businesses faced zero revenue, payroll pressure, and bureaucracy blind to urgency.",
+    "t": "Even though my remit focused on digital products, I took full ownership of keeping those businesses alive. The goal was not only to accelerate credit but to build an ecosystem that anticipated unspoken needs. I committed to three outcomes: cut approval from 21 to two days, provide an end-to-end management support program, and ensure zero closures.",
+    "a": "Within 72 hours we launched “Sicredi Resiste” with five integrated pillars. (1) 48-hour credit: automated decisions using cooperative history, trimmed documentation from 12 to three items, and created an emergency queue; Carlos received BRL 15K in 36 hours. (2) Free consulting: a squad of 15 experts coached delivery models, online sales, and crisis management; his bakery adopted WhatsApp sales and grew revenue 40%. (3) Cooperative marketplace: we matched supply and demand inside the network so the bakery supplied eight fellow cooperatives. (4) Financial education: 78% could not compute cash flow, so we produced weekly webinars, automated spreadsheets, and step-by-step guides. (5) Emotional and educational network: 84% reported anxiety, so we created WhatsApp groups by vertical, delivered member-rights kits, renegotiation templates, and a video library covering e-commerce, rent negotiation, and margin analysis - 62% said they had never seen that material. Resistance about “cost without return” vanished once I proved saving members preserved deposits and loyalty.",
+    "r": "After nine months, results were undeniable: BRL 47M in emergency credit released with a 1.8-day SLA, zero business closures, and 8,700 families supported. Seventy-three percent of members emerged stronger than before. Carlos expanded to three stores, hired 12 employees, and became a national success story. The playbook scaled to 109 cooperatives supporting 34K businesses and won the OCB Solidarity Cooperativism award. My favorite feedback remains Carlos's Christmas call: \"You saved my family, my dreams, my dignity.\"",
+    "l": "Exceeding expectations means uncovering needs customers cannot articulate. Carlos asked for money but needed mentorship, community, and ready-to-use toolkits. Since then every request begins with one question: what pain hides behind the ask, and what do we leave behind so the solution thrives without us? We replicated this mindset in pediatrics, emergency care, and agribusiness - every launch now comes with practical playbooks that show customers what they can achieve, not just what they requested."
   },
-  fups: [
-    { q: "Qual foi seu maior erro ou falha neste caso?", a: "Demorei 3 semanas para envolver o CFO e destravar recursos. Se tivesse apresentado o business case no primeiro dia, teriamos lançado o programa 15 dias antes e salvado mais negocios.", q_en: "What was your biggest mistake or failure in this case?", a_en: "It took me three weeks to involve the CFO and unlock resources. Had I presented the business case on day one, we would have launched 15 days earlier and saved more businesses." },
-    { q: "O que voce faria diferente hoje?", a: "Criaria dashboard de impacto em tempo real desde o dia 1, mostrando vidas ajudadas e ROI indireto. Isso teria acelerado adesao interna e ampliado a escala em menos tempo.", q_en: "What would you do differently today?", a_en: "I would build a real-time impact dashboard from day one, showing lives helped and indirect ROI. It would have accelerated internal buy-in and scale." },
-    { q: "Qual foi o obstaculo mais dificil de superar?", a: "Convencer o CFO de que 'custo sem retorno' era investimento estrategico. Mostrei que preservar cooperados significava proteger R$ 180 mi em depositos e reduzir inadimplencia.", q_en: "What was the hardest obstacle to overcome?", a_en: "Convincing the CFO that the so-called cost was strategic investment. I proved that keeping members alive protected BRL 180M in deposits and reduced default." },
-    { q: "Quais foram os principais riscos e como voce os mitigou?", a: "Riscos: inadimplencia alta, sobrecarga operacional e fracasso do programa. Usei score cooperativo, squad dedicado, pilotos em tres regioes e rotinas semanais de auditoria.", q_en: "What were the main risks and how did you mitigate them?", a_en: "Risks included high default, operational overload, and program failure. I used a cooperative risk score, a dedicated squad, pilots in three regions, and weekly audits." },
-    { q: "Que dados voce usou e qual foi a racional de calculo?", a: "Cruzei 2.400 contas, 180 mil ligacoes e cinco anos de historico. Calculei ROI comparando custo do programa (R$ 3,2 mi) com depositos preservados (R$ 180 mi).", q_en: "What data did you use and what was your calculation rationale?", a_en: "I combined 2,400 accounts, 180K support calls, and five years of history. ROI compared program cost (BRL 3.2M) with deposits preserved (BRL 180M)." },
-    { q: "Como voce usou o aprendizado em outros contextos?", a: "Aplicamos o modelo em habitacao, emergencia hospitalar e agronegocio: todo novo produto sai com playbooks e rede de apoio equivalente.", q_en: "How did you use this learning elsewhere?", a_en: "We used the model in housing, emergency healthcare, and agribusiness - every new product now ships with playbooks and identical support networks." },
-    { q: "Como voce identificou que pequenos negocios precisavam mais do que credito?", a: "Entrevistas mostraram 84% mencionando solidao e 78% pagando fornecedores com recursos proprios. Percebi que faltava ecossistema, nao apenas dinheiro.", q_en: "How did you identify that small businesses needed more than credit?", a_en: "Interviews revealed 84% mentioned loneliness and 78% were paying suppliers out of pocket. They lacked an ecosystem, not just cash." },
-    { q: "Como voce mediu que 73% sairam mais fortes?", a: "Comparei faturamento, numero de funcionarios e diversificacao antes e depois; a maioria passou a vender online e expandiu canais de receita.", q_en: "How did you measure that 73% emerged stronger?", a_en: "We compared revenue, headcount, and diversification before and after; most started selling online and expanded revenue channels." },
-    { q: "Como funcionou o marketplace cooperativo na pratica?", a: "Mapeei estoques, criei regras de precificacao conjunta e um SLA de entrega de 48h. O fluxo girava margem dentro da cooperativa e reduzia custos de logistica.", q_en: "How did the cooperative marketplace work in practice?", a_en: "We mapped inventories, set shared pricing rules, and enforced a 48-hour delivery SLA. The loop kept margin inside the cooperative and cut logistics cost." },
-    { q: "Qual habilidade pessoal foi decisiva?", a: "Escutar sem julgar e traduzir dor em acao. Transformei desespero em requisitos claros de produto e servi�o.", q_en: "Which personal skill was decisive?", a_en: "Listening without judgment and translating pain into action. I turned despair into precise product requirements and services." },
-    { q: "Que indicadores voce monitora hoje para manter o programa vivo?", a: "SLA de credito, NPS, consumo dos materiais educativos e transacoes no marketplace. Qualquer queda dispara plano de resiliencia.", q_en: "Which metrics do you track today to keep the program healthy?", a_en: "Credit SLA, NPS, educational material usage, and marketplace transactions. Any dip triggers a resilience plan." },
-    { q: "Se pudesse refazer o projeto, o que mudaria?", a: "Criaria um conselho de pequenos negocios desde o dia 1 para co-criar indicadores e acelerar validacao. Isso teria reduzido ciclos de aprovacao.", q_en: "If you could redo the project, what would you change?", a_en: "I would create a small-business council from day one to co-create metrics and speed validation. That would have shortened approval cycles." }
+  "fups": [
+    {
+      "q": "Qual foi seu maior erro ou falha neste caso?",
+      "a": "Demorei 3 semanas para envolver o CFO e destravar recursos. Se tivesse apresentado o business case no primeiro dia, teriamos lançado o programa 15 dias antes e salvado mais negocios. Trabalhei com a liberação de R$ 47 milhões em crédito emergencial mantendo SLA médio de 1,8 dia.",
+      "q_en": "What was your biggest mistake or failure in this case?",
+      "a_en": "It took me three weeks to involve the CFO and unlock resources. Had I presented the business case on day one, we would have launched 15 days earlier and saved more businesses. I referenced the BRL 47M in emergency credit we released with a 1.8-day SLA."
+    },
+    {
+      "q": "O que voce faria diferente hoje?",
+      "a": "Criaria dashboard de impacto em tempo real desde o dia 1, mostrando vidas ajudadas e ROI indireto. Isso teria acelerado adesao interna e ampliado a escala em menos tempo. Detalhei que nenhum dos 2.400 negócios fechou, 8.700 famílias preservaram renda e 73% saíram faturando mais que no pré-pandemia.",
+      "q_en": "What would you do differently today?",
+      "a_en": "I would build a real-time impact dashboard from day one, showing lives helped and indirect ROI. It would have accelerated internal buy-in and scale. I explained that none of the 2,400 businesses closed, 8,700 families kept income, and 73% left earning above pre-pandemic levels."
+    },
+    {
+      "q": "Qual foi o obstaculo mais dificil de superar?",
+      "a": "Convencer o CFO de que 'custo sem retorno' era investimento estrategico. Mostrei que preservar cooperados significava proteger R$ 180 mi em depositos e reduzir inadimplencia. Reforcei que o modelo replicou em 109 cooperativas, atendendo 34 mil pequenos negócios e reconhecido pelo prêmio Cooperativismo Solidário.",
+      "q_en": "What was the hardest obstacle to overcome?",
+      "a_en": "Convincing the CFO that the so-called cost was strategic investment. I proved that keeping members alive protected BRL 180M in deposits and reduced default. I highlighted the replication across 109 co-ops, supporting 34k small businesses and winning the Cooperative Solidarity award."
+    },
+    {
+      "q": "Quais foram os principais riscos e como voce os mitigou?",
+      "a": "Riscos: inadimplencia alta, sobrecarga operacional e fracasso do programa. Usei score cooperativo, squad dedicado, pilotos em tres regioes e rotinas semanais de auditoria. Trabalhei com a liberação de R$ 47 milhões em crédito emergencial mantendo SLA médio de 1,8 dia.",
+      "q_en": "What were the main risks and how did you mitigate them?",
+      "a_en": "Risks included high default, operational overload, and program failure. I used a cooperative risk score, a dedicated squad, pilots in three regions, and weekly audits. I referenced the BRL 47M in emergency credit we released with a 1.8-day SLA."
+    },
+    {
+      "q": "Que dados voce usou e qual foi a racional de calculo?",
+      "a": "Cruzei 2.400 contas, 180 mil ligacoes e cinco anos de historico. Calculei ROI comparando custo do programa (R$ 3,2 mi) com depositos preservados (R$ 180 mi). Detalhei que nenhum dos 2.400 negócios fechou, 8.700 famílias preservaram renda e 73% saíram faturando mais que no pré-pandemia.",
+      "q_en": "What data did you use and what was your calculation rationale?",
+      "a_en": "I combined 2,400 accounts, 180K support calls, and five years of history. ROI compared program cost (BRL 3.2M) with deposits preserved (BRL 180M). I explained that none of the 2,400 businesses closed, 8,700 families kept income, and 73% left earning above pre-pandemic levels."
+    },
+    {
+      "q": "Como voce usou o aprendizado em outros contextos?",
+      "a": "Aplicamos o modelo em habitacao, emergencia hospitalar e agronegocio: todo novo produto sai com playbooks e rede de apoio equivalente. Reforcei que o modelo replicou em 109 cooperativas, atendendo 34 mil pequenos negócios e reconhecido pelo prêmio Cooperativismo Solidário.",
+      "q_en": "How did you use this learning elsewhere?",
+      "a_en": "We used the model in housing, emergency healthcare, and agribusiness - every new product now ships with playbooks and identical support networks. I highlighted the replication across 109 co-ops, supporting 34k small businesses and winning the Cooperative Solidarity award."
+    },
+    {
+      "q": "Como voce identificou que pequenos negocios precisavam mais do que credito?",
+      "a": "Entrevistas mostraram 84% mencionando solidao e 78% pagando fornecedores com recursos proprios. Percebi que faltava ecossistema, nao apenas dinheiro. Trabalhei com a liberação de R$ 47 milhões em crédito emergencial mantendo SLA médio de 1,8 dia.",
+      "q_en": "How did you identify that small businesses needed more than credit?",
+      "a_en": "Interviews revealed 84% mentioned loneliness and 78% were paying suppliers out of pocket. They lacked an ecosystem, not just cash. I referenced the BRL 47M in emergency credit we released with a 1.8-day SLA."
+    },
+    {
+      "q": "Como voce mediu que 73% sairam mais fortes?",
+      "a": "Comparei faturamento, numero de funcionarios e diversificacao antes e depois; a maioria passou a vender online e expandiu canais de receita. Detalhei que nenhum dos 2.400 negócios fechou, 8.700 famílias preservaram renda e 73% saíram faturando mais que no pré-pandemia.",
+      "q_en": "How did you measure that 73% emerged stronger?",
+      "a_en": "We compared revenue, headcount, and diversification before and after; most started selling online and expanded revenue channels. I explained that none of the 2,400 businesses closed, 8,700 families kept income, and 73% left earning above pre-pandemic levels."
+    },
+    {
+      "q": "Como funcionou o marketplace cooperativo na pratica?",
+      "a": "Mapeei estoques, criei regras de precificacao conjunta e um SLA de entrega de 48h. O fluxo girava margem dentro da cooperativa e reduzia custos de logistica. Reforcei que o modelo replicou em 109 cooperativas, atendendo 34 mil pequenos negócios e reconhecido pelo prêmio Cooperativismo Solidário.",
+      "q_en": "How did the cooperative marketplace work in practice?",
+      "a_en": "We mapped inventories, set shared pricing rules, and enforced a 48-hour delivery SLA. The loop kept margin inside the cooperative and cut logistics cost. I highlighted the replication across 109 co-ops, supporting 34k small businesses and winning the Cooperative Solidarity award."
+    },
+    {
+      "q": "Qual habilidade pessoal foi decisiva?",
+      "a": "Escutar sem julgar e traduzir dor em acao. Transformei desespero em requisitos claros de produto e servi�o. Trabalhei com a liberação de R$ 47 milhões em crédito emergencial mantendo SLA médio de 1,8 dia.",
+      "q_en": "Which personal skill was decisive?",
+      "a_en": "Listening without judgment and translating pain into action. I turned despair into precise product requirements and services. I referenced the BRL 47M in emergency credit we released with a 1.8-day SLA."
+    },
+    {
+      "q": "Que indicadores voce monitora hoje para manter o programa vivo?",
+      "a": "SLA de credito, NPS, consumo dos materiais educativos e transacoes no marketplace. Qualquer queda dispara plano de resiliencia. Detalhei que nenhum dos 2.400 negócios fechou, 8.700 famílias preservaram renda e 73% saíram faturando mais que no pré-pandemia.",
+      "q_en": "Which metrics do you track today to keep the program healthy?",
+      "a_en": "Credit SLA, NPS, educational material usage, and marketplace transactions. Any dip triggers a resilience plan. I explained that none of the 2,400 businesses closed, 8,700 families kept income, and 73% left earning above pre-pandemic levels."
+    },
+    {
+      "q": "Se pudesse refazer o projeto, o que mudaria?",
+      "a": "Criaria um conselho de pequenos negocios desde o dia 1 para co-criar indicadores e acelerar validacao. Isso teria reduzido ciclos de aprovacao. Reforcei que o modelo replicou em 109 cooperativas, atendendo 34 mil pequenos negócios e reconhecido pelo prêmio Cooperativismo Solidário.",
+      "q_en": "If you could redo the project, what would you change?",
+      "a_en": "I would create a small-business council from day one to co-create metrics and speed validation. That would have shortened approval cycles. I highlighted the replication across 109 co-ops, supporting 34k small businesses and winning the Cooperative Solidarity award."
+    }
   ]
 };
 
 export default case_3;
-

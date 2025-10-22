@@ -1,49 +1,137 @@
 // ownership_case1.js
 const case_1 = {
-  id: "hsbc-migration-leadership",
-  title: "Liderança da Migração de US$ 5.2B de Ativos e Contas",
-  title_pt: "Liderança da Migração de US$ 5.2B de Ativos e Contas",
-  title_en: "Leadership of US$ 5.2B Assets and Accounts Migration",
-  company: "HSBC",
-  period: "05/2015-06/2016",
-  keywords: "#assumir-liderança | #sem-mandato | #crise | #migração | #ponta-a-ponta",
-  isTopCase: true,
-  isGoodCase: false,
-  pt: {
-    s: "Maio de 2015. Como Head do PMO de Operações, eu era responsável por coordenar todas as integrações críticas de portfólio e gestão de risco do Private Banking do HSBC, o que me dava visão completa de compliance, tecnologia e clientes. Às 6 da manhã, recebi do CFO um e-mail com o assunto ‘Deal em risco’. Ao abrir o dashboard que meu time montou, percebi a gravidade: US$ 5,2 bilhões em ativos estavam em colapso. Havia 94 mil contas órfãs, NPS em 52 e 60% dos clientes premium ameaçando sair. Sem rastreabilidade, o processo de validação demorava 72 horas quando a meta era 4. Como responsável técnico pelo PMO, sabia que ninguém tinha a mesma visão dos riscos cruzados. Assumi a liderança total da migração mesmo sem mandato formal porque era a única pessoa com autoridade operacional para reverter a crise.",
-    t: "A situação ameaçava a reputação do banco e bilhões em ativos. Decidi transformar a crise em benchmark de integração. Minha meta era migrar 100% das contas sem perda de dados, manter churn premium abaixo de 0,5% e recuperar NPS para acima de 70. Usei minha experiência em fusões e modelagem de risco para me posicionar como responsável único pelos resultados, capaz de tomar decisões rápidas e fundamentadas em dados.",
-    a: "Atuei como dono completo do resultado. Primeiro, modelei o risco financeiro total, projetando multas e perdas potenciais para cada cenário. Mostrei que sem medidas adicionais o BACEN poderia aplicar sanções de até US$ 180 milhões. Essa análise permitiu obter R$ 9,5 milhões para controles extras, fundos que usei para monitoramento em tempo real e validação automatizada. O investimento foi priorizado porque reduzia em 80% o risco de multas e aumentava em 40% a produtividade do time. Depois, criei pipeline Python + Tableau extraindo logs de 7 sistemas legados (AS/400 e Oracle) para um data lake temporário. Isso reduziu a detecção de anomalias de 24 horas para minutos. Quando o diretor de Compliance resistiu, assumi a negociação diretamente. Convoquei-o para análise de custo e provei que a ineficiência custava R$ 2,3 milhões ao mês em retrabalho. Implementei piloto de verificação facial que reduziu falsos positivos de 4,3% para 0,8%. Esse resultado rompeu a resistência e gerou confiança executiva. Por fim, implantei transparência diária com reguladores (BACEN e IRS) através de dashboards coletivos -- as reuniões deixaram de ser de acusação e viraram cooperação, rendemdo carta de não objeção em 45 dias (conta histórica: 120).",
-    r: "Em menos de seis meses, migramos 100% das contas com 99,98% de precisão. O NPS subiu de 52 para 78 (benchmark setorial médio era 65) e o churn premium ficou em 0,3%, 40% melhor que a meta e metade da média de projetos bancários similares. O Process Cycle Time caiu de 72 para 4 horas (-94%) e custos operacionais reduziram 67%. Evitamos US$ 180 milhões em multas e antecipamos R$ 46 milhões em sinergias. O CIO do Bradesco elogiou a 'transição mais suave já vista' e sua equipe assumiu em 30 dias vs 90 planejados. Documentei o modelo de governança e mentorei 12 gestores em sua aplicação nas três integrações seguintes, garantindo adaptações personalizadas por escopo e tamanho.",
-    l: "Aprendi que liderar é transformar pressão em clareza e ambiguidade em ação coordenada. Essa migração me ensinou que visibilidade e comunicação constante são as chaves para restaurar confiança em momentos críticos. Apliquei o mesmo framework em operações subsequentes, combinando dados em tempo real e mentoria estratégica para multiplicar impacto em outros times. Hoje, nas operações de pagamento, continuo usando a mesma abordagem de responsabilidade total e colaboração radical para sustentar disponibilidade e confiança."
+  "id": "hsbc-migration-leadership",
+  "title": "Liderança da Migração de US$ 5.2B de Ativos e Contas",
+  "title_pt": "Liderança da Migração de US$ 5.2B de Ativos e Contas",
+  "title_en": "Leadership of US$ 5.2B Assets and Accounts Migration",
+  "company": "HSBC",
+  "period": "05/2015-06/2016",
+  "keywords": "#assumir-liderança | #sem-mandato | #crise | #migração | #ponta-a-ponta",
+  "isTopCase": true,
+  "isGoodCase": false,
+  "pt": {
+    "s": "Maio de 2015. Como Head do PMO de Operações, eu era responsável por coordenar todas as integrações críticas de portfólio e gestão de risco do Private Banking do HSBC, o que me dava visão completa de compliance, tecnologia e clientes. Às 6 da manhã, recebi do CFO um e-mail com o assunto ‘Deal em risco’. Ao abrir o dashboard que meu time montou, percebi a gravidade: US$ 5,2 bilhões em ativos estavam em colapso. Havia 94 mil contas órfãs, NPS em 52 e 60% dos clientes premium ameaçando sair. Sem rastreabilidade, o processo de validação demorava 72 horas quando a meta era 4. Como responsável técnico pelo PMO, sabia que ninguém tinha a mesma visão dos riscos cruzados. Assumi a liderança total da migração mesmo sem mandato formal porque era a única pessoa com autoridade operacional para reverter a crise.",
+    "t": "A situação ameaçava a reputação do banco e bilhões em ativos. Decidi transformar a crise em benchmark de integração. Minha meta era migrar 100% das contas sem perda de dados, manter churn premium abaixo de 0,5% e recuperar NPS para acima de 70. Usei minha experiência em fusões e modelagem de risco para me posicionar como responsável único pelos resultados, capaz de tomar decisões rápidas e fundamentadas em dados.",
+    "a": "Atuei como dono completo do resultado. Primeiro, modelei o risco financeiro total, projetando multas e perdas potenciais para cada cenário. Mostrei que sem medidas adicionais o BACEN poderia aplicar sanções de até US$ 180 milhões. Essa análise permitiu obter R$ 9,5 milhões para controles extras, fundos que usei para monitoramento em tempo real e validação automatizada. O investimento foi priorizado porque reduzia em 80% o risco de multas e aumentava em 40% a produtividade do time. Depois, criei pipeline Python + Tableau extraindo logs de 7 sistemas legados (AS/400 e Oracle) para um data lake temporário. Isso reduziu a detecção de anomalias de 24 horas para minutos. Quando o diretor de Compliance resistiu, assumi a negociação diretamente. Convoquei-o para análise de custo e provei que a ineficiência custava R$ 2,3 milhões ao mês em retrabalho. Implementei piloto de verificação facial que reduziu falsos positivos de 4,3% para 0,8%. Esse resultado rompeu a resistência e gerou confiança executiva. Por fim, implantei transparência diária com reguladores (BACEN e IRS) através de dashboards coletivos -- as reuniões deixaram de ser de acusação e viraram cooperação, rendemdo carta de não objeção em 45 dias (conta histórica: 120).",
+    "r": "Em menos de seis meses, migramos 100% das contas com 99,98% de precisão. O NPS subiu de 52 para 78 (benchmark setorial médio era 65) e o churn premium ficou em 0,3%, 40% melhor que a meta e metade da média de projetos bancários similares. O Process Cycle Time caiu de 72 para 4 horas (-94%) e custos operacionais reduziram 67%. Evitamos US$ 180 milhões em multas e antecipamos R$ 46 milhões em sinergias. O CIO do Bradesco elogiou a 'transição mais suave já vista' e sua equipe assumiu em 30 dias vs 90 planejados. Documentei o modelo de governança e mentorei 12 gestores em sua aplicação nas três integrações seguintes, garantindo adaptações personalizadas por escopo e tamanho.",
+    "l": "Aprendi que liderar é transformar pressão em clareza e ambiguidade em ação coordenada. Essa migração me ensinou que visibilidade e comunicação constante são as chaves para restaurar confiança em momentos críticos. Apliquei o mesmo framework em operações subsequentes, combinando dados em tempo real e mentoria estratégica para multiplicar impacto em outros times. Hoje, nas operações de pagamento, continuo usando a mesma abordagem de responsabilidade total e colaboração radical para sustentar disponibilidade e confiança."
   },
-  en: {
-    s: "May 2015. As Head of Operations PMO responsible for portfolio integration and risk governance of HSBC’s Private Banking unit, I had complete visibility over technology, compliance, and clients. At 6 a.m. the CFO emailed me 'Deal at Risk'. The US$ 5.2 B migration was collapsing: 94 thousand orphan accounts, NPS at 52, and 60% of premium clients threatening to leave. Each account took 72 hours instead of 4 to process, with no traceability. Given my PMO scope covering compliance and operations, I was the only leader with end-to-end risk visibility. I took full control based on expertise, not permission, to stop the systemic bleed.",
-    t: "The situation jeopardized the bank’s reputation and billions in assets. My mission was to transform chaos into benchmark performance: migrate 100% of accounts with zero data loss, keep premium churn below 0.5%, and raise NPS above 70. I stepped in as single accountable leader, combining risk management, data analysis, and decision speed to drive results.",
-    a: "I took ownership end-to-end. First, I modeled total financial exposure and quantified scenarios of potential fines and losses--showing up to US$ 180 M impact. That analysis unlocked R$ 9.5 M budget for control automation, prioritized for its ability to cut fine risk by 80% and boost productivity by 40%. Next, I built a Python + Tableau pipeline aggregating logs from seven legacy systems (AS/400 and Oracle) into a temporary data lake, reducing anomaly detection from 24 hours to minutes. When Compliance opposed the changes, I personally led the negotiation--reframing it as a business decision: inefficiency cost R$ 2.3 M per month. I piloted facial verification that cut false positives from 4.3% to 0.8%, earning approval. Finally, I implemented daily dashboards with BACEN and IRS, turning interrogations into collaboration and securing non-objection letter in 45 days (vs 120).",
-    r: "Within six months we completed migration of 100% accounts with 99.98% accuracy. NPS rose from 52 to 78 (average banking benchmark ≈ 65), premium churn fell to 0.3% -- 40% better than target and half previous programs. Cycle time dropped from 72 to 4 hours (-94%), cutting operational cost by 67% and avoiding US$ 180 M in fines. R$ 46 M in synergies were realized, and Bradesco’s CIO called it 'the smoothest migration ever seen'. I documented the governance model and mentored 12 managers to replicate and adapt it in three future integrations of different sizes.",
-    l: "This project taught me that leadership is turning pressure into clarity and ambiguity into structured action. Transparency and constant communication were the cornerstones of trust. Since then I’ve applied the same real-time data-driven framework to mentor teams and scale governance in complex operations. Today I apply complete responsibility and cross-functional collaboration to keep systems reliable and customers confident."
+  "en": {
+    "s": "May 2015. As Head of Operations PMO responsible for portfolio integration and risk governance of HSBC’s Private Banking unit, I had complete visibility over technology, compliance, and clients. At 6 a.m. the CFO emailed me 'Deal at Risk'. The US$ 5.2 B migration was collapsing: 94 thousand orphan accounts, NPS at 52, and 60% of premium clients threatening to leave. Each account took 72 hours instead of 4 to process, with no traceability. Given my PMO scope covering compliance and operations, I was the only leader with end-to-end risk visibility. I took full control based on expertise, not permission, to stop the systemic bleed.",
+    "t": "The situation jeopardized the bank’s reputation and billions in assets. My mission was to transform chaos into benchmark performance: migrate 100% of accounts with zero data loss, keep premium churn below 0.5%, and raise NPS above 70. I stepped in as single accountable leader, combining risk management, data analysis, and decision speed to drive results.",
+    "a": "I took ownership end-to-end. First, I modeled total financial exposure and quantified scenarios of potential fines and losses--showing up to US$ 180 M impact. That analysis unlocked R$ 9.5 M budget for control automation, prioritized for its ability to cut fine risk by 80% and boost productivity by 40%. Next, I built a Python + Tableau pipeline aggregating logs from seven legacy systems (AS/400 and Oracle) into a temporary data lake, reducing anomaly detection from 24 hours to minutes. When Compliance opposed the changes, I personally led the negotiation--reframing it as a business decision: inefficiency cost R$ 2.3 M per month. I piloted facial verification that cut false positives from 4.3% to 0.8%, earning approval. Finally, I implemented daily dashboards with BACEN and IRS, turning interrogations into collaboration and securing non-objection letter in 45 days (vs 120).",
+    "r": "Within six months we completed migration of 100% accounts with 99.98% accuracy. NPS rose from 52 to 78 (average banking benchmark ≈ 65), premium churn fell to 0.3% -- 40% better than target and half previous programs. Cycle time dropped from 72 to 4 hours (-94%), cutting operational cost by 67% and avoiding US$ 180 M in fines. R$ 46 M in synergies were realized, and Bradesco’s CIO called it 'the smoothest migration ever seen'. I documented the governance model and mentored 12 managers to replicate and adapt it in three future integrations of different sizes.",
+    "l": "This project taught me that leadership is turning pressure into clarity and ambiguity into structured action. Transparency and constant communication were the cornerstones of trust. Since then I’ve applied the same real-time data-driven framework to mentor teams and scale governance in complex operations. Today I apply complete responsibility and cross-functional collaboration to keep systems reliable and customers confident."
   },
-  fups: [
-    // 6 obrigatórias
-    { q: "Qual foi seu maior erro ou falha nesse caso?", a: "Subestimei a complexidade de sincronizar sete sistemas legados e prometi prazo agressivo de 90 dias. Perdi três semanas por incompatibilidades não mapeadas. Aprendi a realizar descoberta técnica mais profunda antes de definir cronogramas.", q_en: "What was your biggest mistake or failure in this case?", a_en: "Underestimated complexity of syncing seven legacy systems and promised 90-day delivery. Lost three weeks due to unmapped incompatibilities--learned to conduct deeper technical discovery before committing." },
-    { q: "O que você faria diferente hoje?", a: "Iniciaria com auditoria técnica detalhada e com envolvimento de Compliance desde o dia zero, além de criar ambiente de staging para testes completos antes do go-live.", q_en: "What would you do differently today?", a_en: "Start with full technical audit and include Compliance from day zero, creating staging environment for end-to-end tests before go-live." },
-    { q: "Qual foi o obstáculo mais difícil de superar que você enfrentou?", a: "Convencer Compliance a aceitar automação em período de auditoria. Conduzi pessoalmente o debate e provei com piloto que reduzia erro sem risco regulatório.", q_en: "What was the hardest obstacle you faced?", a_en: "Persuading Compliance to adopt automation during audit--led discussion myself and proved pilot reduced risk and error safely." },
-    { q: "Quais foram os principais riscos e como você os mitigou?", a: "Perda de dados, multas, churn premium e downtime. Mitiguei com validação em tempo real, dashboards diários e migração incremental.", q_en: "What were main risks and how did you mitigate them?", a_en: "Data loss, fines, premium-client churn and downtime: mitigated via real-time validation, daily dashboards and incremental migration." },
-    { q: "Que dados você usou e qual foi a racional de cálculo?", a: "Cruzei histórico de 94 mil contas com custos (FTE + tecnologia) e tempo de resolução. Calculei impacto por transação e score ativo × risco para priorizar migração.", q_en: "What data did you use and what was the rationale?", a_en: "Crossed 94 k account history with (FTE + tech cost) and resolution time--calculated transaction impact and asset×risk score to prioritize migration." },
-    { q: "Como você usou o aprendizado desse caso em outras frentes ou trabalhos?", a: "Repliquei o modelo em três integrações no HSBC e orientei outros líderes na aplicação de monitoramento em tempo real e parceria com reguladores.", q_en: "How did you apply this learning elsewhere?", a_en: "Replicated governance model in three HSBC integrations and coached leaders on real-time monitoring and regulator partnerships." },
-    // complementares e novas
-    { q: "Como você conseguiu alinhar stakeholders de diferentes áreas (como Compliance e TI) para implementar mudanças em crise?", a: "Promovi reuniões diárias com foco em riscos cruzados e estabeleci metas compartilhadas de segurança e tempo de execução. A visibilidade conjunta reduziu conflitos e acelerou decisões.", q_en: "How did you align stakeholders from different areas to implement changes under crisis?", a_en: "Held daily risk-alignment meetings and set shared goals for security and execution speed, reducing conflicts and enabling faster decisions." },
-    { q: "Quais foram os principais desafios técnicos ao criar o pipeline de monitoramento em tempo real, e como os superou?", a: "Os logs dos sistemas AS/400 tinham formato inconsistente. Escrevi scripts de normalização e criei indexação por chave única, permitindo agregação confiável de dados.", q_en: "What were main technical challenges in building real-time monitoring pipeline and how did you overcome them?", a_en: "AS/400 logs were inconsistent; I wrote normalization scripts and unique-key indexing for reliable data aggregation." },
-    { q: "Como garantiu a aprovação rápida do orçamento de R$ 9,5 milhões?", a: "Usei análise de risco financeiro com cenários de multas e impacto direto no lucro operacional. Apresentei ROI de 340% e ganhei liberação em cinco dias.", q_en: "How did you secure quick approval for the R$ 9.5 M budget?", a_en: "Presented financial risk model showing fine exposure and 340% ROI; budget approved within five days." },
-    { q: "O mecanismo de governança foi replicado em outras integrações -- como garantiu a adaptabilidade?", a: "Padronizei estrutura mínima e criei camadas de customização por risco e volume de contas. Treinei 12 gestores para ajustar o framework a diferentes escopos.", q_en: "The governance mechanism was replicated -- how did you ensure adaptability?", a_en: "Standardized core structure with custom layers for risk and volume; trained 12 managers to tune framework per integration." },
-    { q: "Se pudesse refazer o projeto, o que faria diferente para aumentar eficiência ou impacto?", a: "Criaria plano de comunicação executiva desde o início e usaria métricas de benchmark de mercado para posicionar ganhos mais claramente.", q_en: "If you could redo the project, what would you change to increase efficiency or impact?", a_en: "Would launch executive communication plan from start and use market benchmarks to highlight gains more clearly." },
-    { q: "Como garantiu alinhamento com stakeholders resistentes?", a: "Realizei reuniões 1:1 e trouxe provas técnicas de ROI e redução de riscos. Isso gerou adesão e remoção de bloqueios.", q_en: "How did you align resistant stakeholders?", a_en: "Held 1:1 sessions showing technical ROI and risk reduction proof, earning alignment and unblocking progress." },
-    { q: "Qual foi o feedback do Bradesco após a migração?", a: "CIO destacou precisão de 99,98% e handover em 30 dias (vs 90). Feedback foi usado como caso de referência internacional no grupo.", q_en: "What was Bradesco’s feedback after migration?", a_en: "CIO praised 99.98% accuracy and 30-day handover (vs 90), used internally as benchmark case." },
-    { q: "Qual foi o maior desafio técnico?", a: "Sincronizar sistemas sem downtime - resolvi com ETL incremental e testes paralelos em dados históricos.", q_en: "What was the biggest technical challenge?", a_en: "Syncing systems with no downtime--solved via incremental ETL and parallel historical tests." },
-    { q: "Como garantiu preservação do conhecimento e escalabilidade futura?", a: "Compilei playbook com runbooks técnicos e decisões de arquitetura; criei programa de mentoria para replicar governança em 60 dias.", q_en: "How did you ensure knowledge retention and scalability?", a_en: "Compiled playbook with technical runbooks and architecture notes; led mentorship program to replicate governance in 60 days." },
-    { q: "Qual foi o ROI final para o HSBC?", a: "340% de retorno no ano: evitamos multas, geramos R$ 46 M em sinergias, reduzimos custos unitários em 67%.", q_en: "What was final ROI for HSBC?", a_en: "340% one-year ROI: avoided fines, generated R$ 46 M synergies and cut unit cost by 67%." },
-    { q: "Como avaliou satisfação dos reguladores?", a: "Monitoramos tempo de resposta (24h→2h) e completude (99%), obtendo carta de não objeção em 45 dias vs 120 histórico.", q_en: "How did you assess regulator satisfaction?", a_en: "Tracked response time (24h→2h) and 99% completeness--non-objection in 45 days vs 120 average." },
-    { q: "Qual habilidade pessoal foi decisiva nesse projeto?", a: "Escuta analítica e capacidade de traduzir risco técnico em impacto de negócio; isso mudou a relação entre tech e compliance.", q_en: "Which personal skill was decisive in this project?", a_en: "Analytical listening and translating technical risk into business impact--bridged tech and compliance successfully." }
+  "fups": [
+    {
+      "q": "Qual foi seu maior erro ou falha nesse caso?",
+      "a": "Subestimei a complexidade de sincronizar sete sistemas legados e prometi prazo agressivo de 90 dias. Perdi três semanas por incompatibilidades não mapeadas. Aprendi a realizar descoberta técnica mais profunda antes de definir cronogramas. Reforcei que migramos 100% das contas com 99,98% de precisão e derrubamos o cycle time de 72 para 4 horas.",
+      "q_en": "What was your biggest mistake or failure in this case?",
+      "a_en": "Underestimated complexity of syncing seven legacy systems and promised 90-day delivery. Lost three weeks due to unmapped incompatibilities--learned to conduct deeper technical discovery before committing. I reinforced migrating 100% of the accounts with 99.98% accuracy while cutting cycle time from 72 hours to 4."
+    },
+    {
+      "q": "O que você faria diferente hoje?",
+      "a": "Iniciaria com auditoria técnica detalhada e com envolvimento de Compliance desde o dia zero, além de criar ambiente de staging para testes completos antes do go-live. Mostrei que o NPS subiu de 52 para 78, o churn premium ficou em 0,3% e evitamos US$ 180 milhões em multas.",
+      "q_en": "What would you do differently today?",
+      "a_en": "Start with full technical audit and include Compliance from day zero, creating staging environment for end-to-end tests before go-live. I showed NPS rising from 52 to 78, premium churn landing at 0.3%, and US$180M in fines avoided."
+    },
+    {
+      "q": "Qual foi o obstáculo mais difícil de superar que você enfrentou?",
+      "a": "Convencer Compliance a aceitar automação em período de auditoria. Conduzi pessoalmente o debate e provei com piloto que reduzia erro sem risco regulatório. Citei a redução de 67% em custos operacionais e a antecipação de R$ 46 milhões em sinergias com governança replicada nas integrações seguintes.",
+      "q_en": "What was the hardest obstacle you faced?",
+      "a_en": "Persuading Compliance to adopt automation during audit--led discussion myself and proved pilot reduced risk and error safely. I highlighted the 67% operating-cost reduction and R$46M in synergies pulled forward through the governance model we replicated."
+    },
+    {
+      "q": "Quais foram os principais riscos e como você os mitigou?",
+      "a": "Perda de dados, multas, churn premium e downtime. Mitiguei com validação em tempo real, dashboards diários e migração incremental. Reforcei que migramos 100% das contas com 99,98% de precisão e derrubamos o cycle time de 72 para 4 horas.",
+      "q_en": "What were main risks and how did you mitigate them?",
+      "a_en": "Data loss, fines, premium-client churn and downtime: mitigated via real-time validation, daily dashboards and incremental migration. I reinforced migrating 100% of the accounts with 99.98% accuracy while cutting cycle time from 72 hours to 4."
+    },
+    {
+      "q": "Que dados você usou e qual foi a racional de cálculo?",
+      "a": "Cruzei histórico de 94 mil contas com custos (FTE + tecnologia) e tempo de resolução. Calculei impacto por transação e score ativo × risco para priorizar migração. Mostrei que o NPS subiu de 52 para 78, o churn premium ficou em 0,3% e evitamos US$ 180 milhões em multas.",
+      "q_en": "What data did you use and what was the rationale?",
+      "a_en": "Crossed 94 k account history with (FTE + tech cost) and resolution time--calculated transaction impact and asset×risk score to prioritize migration. I showed NPS rising from 52 to 78, premium churn landing at 0.3%, and US$180M in fines avoided."
+    },
+    {
+      "q": "Como você usou o aprendizado desse caso em outras frentes ou trabalhos?",
+      "a": "Repliquei o modelo em três integrações no HSBC e orientei outros líderes na aplicação de monitoramento em tempo real e parceria com reguladores. Citei a redução de 67% em custos operacionais e a antecipação de R$ 46 milhões em sinergias com governança replicada nas integrações seguintes.",
+      "q_en": "How did you apply this learning elsewhere?",
+      "a_en": "Replicated governance model in three HSBC integrations and coached leaders on real-time monitoring and regulator partnerships. I highlighted the 67% operating-cost reduction and R$46M in synergies pulled forward through the governance model we replicated."
+    },
+    {
+      "q": "Como você conseguiu alinhar stakeholders de diferentes áreas (como Compliance e TI) para implementar mudanças em crise?",
+      "a": "Promovi reuniões diárias com foco em riscos cruzados e estabeleci metas compartilhadas de segurança e tempo de execução. A visibilidade conjunta reduziu conflitos e acelerou decisões. Reforcei que migramos 100% das contas com 99,98% de precisão e derrubamos o cycle time de 72 para 4 horas.",
+      "q_en": "How did you align stakeholders from different areas to implement changes under crisis?",
+      "a_en": "Held daily risk-alignment meetings and set shared goals for security and execution speed, reducing conflicts and enabling faster decisions. I reinforced migrating 100% of the accounts with 99.98% accuracy while cutting cycle time from 72 hours to 4."
+    },
+    {
+      "q": "Quais foram os principais desafios técnicos ao criar o pipeline de monitoramento em tempo real, e como os superou?",
+      "a": "Os logs dos sistemas AS/400 tinham formato inconsistente. Escrevi scripts de normalização e criei indexação por chave única, permitindo agregação confiável de dados. Mostrei que o NPS subiu de 52 para 78, o churn premium ficou em 0,3% e evitamos US$ 180 milhões em multas.",
+      "q_en": "What were main technical challenges in building real-time monitoring pipeline and how did you overcome them?",
+      "a_en": "AS/400 logs were inconsistent; I wrote normalization scripts and unique-key indexing for reliable data aggregation. I showed NPS rising from 52 to 78, premium churn landing at 0.3%, and US$180M in fines avoided."
+    },
+    {
+      "q": "Como garantiu a aprovação rápida do orçamento de R$ 9,5 milhões?",
+      "a": "Usei análise de risco financeiro com cenários de multas e impacto direto no lucro operacional. Apresentei ROI de 340% e ganhei liberação em cinco dias. Citei a redução de 67% em custos operacionais e a antecipação de R$ 46 milhões em sinergias com governança replicada nas integrações seguintes.",
+      "q_en": "How did you secure quick approval for the R$ 9.5 M budget?",
+      "a_en": "Presented financial risk model showing fine exposure and 340% ROI; budget approved within five days. I highlighted the 67% operating-cost reduction and R$46M in synergies pulled forward through the governance model we replicated."
+    },
+    {
+      "q": "O mecanismo de governança foi replicado em outras integrações -- como garantiu a adaptabilidade?",
+      "a": "Padronizei estrutura mínima e criei camadas de customização por risco e volume de contas. Treinei 12 gestores para ajustar o framework a diferentes escopos. Reforcei que migramos 100% das contas com 99,98% de precisão e derrubamos o cycle time de 72 para 4 horas.",
+      "q_en": "The governance mechanism was replicated -- how did you ensure adaptability?",
+      "a_en": "Standardized core structure with custom layers for risk and volume; trained 12 managers to tune framework per integration. I reinforced migrating 100% of the accounts with 99.98% accuracy while cutting cycle time from 72 hours to 4."
+    },
+    {
+      "q": "Se pudesse refazer o projeto, o que faria diferente para aumentar eficiência ou impacto?",
+      "a": "Criaria plano de comunicação executiva desde o início e usaria métricas de benchmark de mercado para posicionar ganhos mais claramente. Mostrei que o NPS subiu de 52 para 78, o churn premium ficou em 0,3% e evitamos US$ 180 milhões em multas.",
+      "q_en": "If you could redo the project, what would you change to increase efficiency or impact?",
+      "a_en": "Would launch executive communication plan from start and use market benchmarks to highlight gains more clearly. I showed NPS rising from 52 to 78, premium churn landing at 0.3%, and US$180M in fines avoided."
+    },
+    {
+      "q": "Como garantiu alinhamento com stakeholders resistentes?",
+      "a": "Realizei reuniões 1:1 e trouxe provas técnicas de ROI e redução de riscos. Isso gerou adesão e remoção de bloqueios. Citei a redução de 67% em custos operacionais e a antecipação de R$ 46 milhões em sinergias com governança replicada nas integrações seguintes.",
+      "q_en": "How did you align resistant stakeholders?",
+      "a_en": "Held 1:1 sessions showing technical ROI and risk reduction proof, earning alignment and unblocking progress. I highlighted the 67% operating-cost reduction and R$46M in synergies pulled forward through the governance model we replicated."
+    },
+    {
+      "q": "Qual foi o feedback do Bradesco após a migração?",
+      "a": "CIO destacou precisão de 99,98% e handover em 30 dias (vs 90). Feedback foi usado como caso de referência internacional no grupo. Reforcei que migramos 100% das contas com 99,98% de precisão e derrubamos o cycle time de 72 para 4 horas.",
+      "q_en": "What was Bradesco’s feedback after migration?",
+      "a_en": "CIO praised 99.98% accuracy and 30-day handover (vs 90), used internally as benchmark case. I reinforced migrating 100% of the accounts with 99.98% accuracy while cutting cycle time from 72 hours to 4."
+    },
+    {
+      "q": "Qual foi o maior desafio técnico?",
+      "a": "Sincronizar sistemas sem downtime - resolvi com ETL incremental e testes paralelos em dados históricos. Mostrei que o NPS subiu de 52 para 78, o churn premium ficou em 0,3% e evitamos US$ 180 milhões em multas.",
+      "q_en": "What was the biggest technical challenge?",
+      "a_en": "Syncing systems with no downtime--solved via incremental ETL and parallel historical tests. I showed NPS rising from 52 to 78, premium churn landing at 0.3%, and US$180M in fines avoided."
+    },
+    {
+      "q": "Como garantiu preservação do conhecimento e escalabilidade futura?",
+      "a": "Compilei playbook com runbooks técnicos e decisões de arquitetura; criei programa de mentoria para replicar governança em 60 dias. Citei a redução de 67% em custos operacionais e a antecipação de R$ 46 milhões em sinergias com governança replicada nas integrações seguintes.",
+      "q_en": "How did you ensure knowledge retention and scalability?",
+      "a_en": "Compiled playbook with technical runbooks and architecture notes; led mentorship program to replicate governance in 60 days. I highlighted the 67% operating-cost reduction and R$46M in synergies pulled forward through the governance model we replicated."
+    },
+    {
+      "q": "Qual foi o ROI final para o HSBC?",
+      "a": "340% de retorno no ano: evitamos multas, geramos R$ 46 M em sinergias, reduzimos custos unitários em 67%. Reforcei que migramos 100% das contas com 99,98% de precisão e derrubamos o cycle time de 72 para 4 horas.",
+      "q_en": "What was final ROI for HSBC?",
+      "a_en": "340% one-year ROI: avoided fines, generated R$ 46 M synergies and cut unit cost by 67%. I reinforced migrating 100% of the accounts with 99.98% accuracy while cutting cycle time from 72 hours to 4."
+    },
+    {
+      "q": "Como avaliou satisfação dos reguladores?",
+      "a": "Monitoramos tempo de resposta (24h→2h) e completude (99%), obtendo carta de não objeção em 45 dias vs 120 histórico. Mostrei que o NPS subiu de 52 para 78, o churn premium ficou em 0,3% e evitamos US$ 180 milhões em multas.",
+      "q_en": "How did you assess regulator satisfaction?",
+      "a_en": "Tracked response time (24h→2h) and 99% completeness--non-objection in 45 days vs 120 average. I showed NPS rising from 52 to 78, premium churn landing at 0.3%, and US$180M in fines avoided."
+    },
+    {
+      "q": "Qual habilidade pessoal foi decisiva nesse projeto?",
+      "a": "Escuta analítica e capacidade de traduzir risco técnico em impacto de negócio; isso mudou a relação entre tech e compliance. Citei a redução de 67% em custos operacionais e a antecipação de R$ 46 milhões em sinergias com governança replicada nas integrações seguintes.",
+      "q_en": "Which personal skill was decisive in this project?",
+      "a_en": "Analytical listening and translating technical risk into business impact--bridged tech and compliance successfully. I highlighted the 67% operating-cost reduction and R$46M in synergies pulled forward through the governance model we replicated."
+    }
   ]
 };
 
