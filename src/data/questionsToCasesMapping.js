@@ -4,7 +4,7 @@
 
 export const questionsToCasesMapping = {
   "customer_obsession": {
-    "1": { "options": [{ "caseId": "sicredi-small-business-survival", "score": 100 }] },
+    "1": { "options": [{ "caseId": "unimed-pet-anticipation", "score": 100 }] },
     "2": { "options": [{ "caseId": "bradesco-elderly-digital-inclusion", "score": 100 }] },
     "3": { "options": [{ "caseId": "sicredi-woop-segment-balance", "score": 100 }] },
     "4": { "options": [{ "caseId": "unimed-pet-anticipation", "score": 100 }] },
@@ -17,7 +17,7 @@ export const questionsToCasesMapping = {
     "11": { "options": [{ "caseId": "sicredi-fraud-prevention-experience", "score": 100 }] },
     "12": { "options": [{ "caseId": "sicredi-chargeback-proactive-resolution", "score": 100 }] },
     "13": { "options": [{ "caseId": "sicredi-woop-segment-balance", "score": 100 }] },
-    "14": { "options": [{ "caseId": "sicredi-small-business-survival", "score": 100 }] },
+    "14": { "options": [{ "caseId": "bradesco-elderly-digital-inclusion", "score": 100 }] },
     "15": { "options": [{ "caseId": "unimed-pet-anticipation", "score": 100 }] },
     "16": { "options": [{ "caseId": "unimed-cancer-patient-journey", "score": 100 }] },
     "17": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }] },
@@ -42,7 +42,9 @@ export const questionsToCasesMapping = {
     "16": { "options": [{ "caseId": "hsbc-payment-reconciliation", "score": 100 }] },
     "17": { "options": [{ "caseId": "payment-incidents-prevention-mechanism", "score": 100 }] },
     "18": { "options": [{ "caseId": "long-term-tradeoff", "score": 100 }] },
-    "19": { "options": [{ "caseId": "sefaz-emergency-rollback-no-approval", "score": 100 }] }
+    "19": { "options": [{ "caseId": "sefaz-emergency-rollback-no-approval", "score": 100 }] },
+    "20": { "options": [{ "caseId": "long-term-tradeoff", "score": 100 }] },
+    "21": { "options": [{ "caseId": "sefaz-emergency-rollback-no-approval", "score": 100 }] }
   },
   "invent_and_simplify": {
     "1": { "options": [{ "caseId": "unimed-ai-authorization", "score": 100 }] },
@@ -56,7 +58,10 @@ export const questionsToCasesMapping = {
     "9": { "options": [{ "caseId": "unimed-open-innovation", "score": 100 }] },
     "10": { "options": [{ "caseId": "payment-simplification-high-impact", "score": 100 }] },
     "11": { "options": [{ "caseId": "unimed-ai-authorization", "score": 100 }] },
-    "12": { "options": [{ "caseId": "bradesco-next-compliance-simplification", "score": 100 }] }
+    "12": { "options": [{ "caseId": "bradesco-next-compliance-simplification", "score": 100 }] },
+    "13": { "options": [{ "caseId": "bradesco-next-compliance-simplification", "score": 100 }] },
+    "14": { "options": [{ "caseId": "huawei-six-sigma-optimization", "score": 100 }] },
+    "15": { "options": [{ "caseId": "unimed-open-innovation", "score": 100 }] }
   },
   "are_right_a_lot": {
     "1": { "options": [{ "caseId": "sicredi-mobile-first-strategy", "score": 100 }] },
@@ -200,7 +205,8 @@ export const questionsToCasesMapping = {
     "11": { "options": [{ "caseId": "unimed-agile-transformation-communication", "score": 100 }] },
     "12": { "options": [{ "caseId": "unimed-fraud-investigation", "score": 100 }] },
     "13": { "options": [{ "caseId": "unimed-agile-transformation-communication", "score": 100 }] },
-    "14": { "options": [{ "caseId": "sicredi-payment-experimentation", "score": 100 }] }
+    "14": { "options": [{ "caseId": "sicredi-payment-experimentation", "score": 100 }] },
+    "15": { "options": [{ "caseId": "hsbc-data-validation-audit", "score": 100 }] }
   },
   "disagree_and_commit": {
     "1": { "options": [{ "caseId": "bradesco-mvp-feature-prioritization", "score": 100 }] },
@@ -274,7 +280,9 @@ export const questionsToCasesMapping = {
     "13": { "options": [{ "caseId": "sefaz-pmo-creation", "score": 100 }] },
     "14": { "options": [{ "caseId": "hsbc-migration-leadership", "score": 100 }] },
     "15": { "options": [{ "caseId": "sefaz-roadmap-adjustment-reforma-tributária", "score": 100 }] },
-    "16": { "options": [{ "caseId": "unimed-cvc-cancellation", "score": 100 }] }
+    "16": { "options": [{ "caseId": "unimed-cvc-cancellation", "score": 100 }] },
+    "17": { "options": [{ "caseId": "sefaz-roadmap-adjustment-reforma-tributária", "score": 100 }] },
+    "18": { "options": [{ "caseId": "unimed-cvc-cancellation", "score": 100 }] }
   },
   "prioritizing_and_influence": {
     "1": { "options": [{ "caseId": "bradesco-covid-reprioritization", "score": 100 }] },

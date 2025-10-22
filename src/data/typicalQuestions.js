@@ -64,7 +64,9 @@ const typicalQuestions = {
       "Conte sobre uma situação em que a política de segurança ou compliance da empresa estava prejudicando a experiência dos clientes. O que você fez para reequilibrar os dois lados?",
       "Fale sobre uma vez em que você transformou um processo de conflito ou reclamação de clientes em uma oportunidade de fidelização.",
       "Conte sobre uma vez em que você disse não a um lançamento aguardado para proteger a robustez de longo prazo e como sustentou essa decisão.",
-      "Me fale sobre quando você rompeu protocolo para agir rápido em uma crise e quais salvaguardas usou para segurar a responsabilidade."
+      "Me fale sobre quando você rompeu protocolo para agir rápido em uma crise e quais salvaguardas usou para segurar a responsabilidade.",
+      "Conte sobre uma vez que você identificou um problema que estava fora da sua área de responsabilidade, mas que impactava seus resultados ou os clientes. O que você fez a respeito?",
+      "Descreva uma situação em que você teve que tomar uma decisão importante sem ter todas as informações que gostaria. Como você lidou com a ambiguidade e qual foi o resultado?"
     ],
     en: [
       "Tell me about a situation where you took responsibility beyond your work scope and area of knowledge - how did you handle it, balancing current/normal tasks with these new ones?",
@@ -85,7 +87,9 @@ const typicalQuestions = {
       "Tell me about a situation where the company's security or compliance policy was harming the customer experience. What did you do to rebalance both sides?",
       "Tell me about a time you turned a customer conflict or complaint process into a loyalty opportunity.",
       "Tell me about a time you said no to a highly anticipated launch to protect long-term robustness and how you stood by the decision.",
-      "Tell me about when you broke protocol to act quickly in a crisis and what safeguards you used to hold the responsibility."
+      "Tell me about when you broke protocol to act quickly in a crisis and what safeguards you used to hold the responsibility.",
+      "Tell me about a time you identified a problem outside your area of responsibility that impacted your results or customers. What did you do about it?",
+      "Describe a situation where you had to make an important decision without all the information you would have liked. How did you handle the ambiguity, and what was the outcome?"
     ]
   },
   "invent_and_simplify": {
@@ -101,7 +105,10 @@ const typicalQuestions = {
       "Me dê um exemplo de quando você usou tecnologia/ferramenta de forma não-convencional para resolver um problema",
       "Conte sobre um processo de payment operations que você automatizou ou otimizou",
       "Como você convence stakeholders céticos sobre uma inovação disruptiva?",
-      "Conte sobre quando você simplificou algo que todos achavam que precisava ser complexo"
+      "Conte sobre quando você simplificou algo que todos achavam que precisava ser complexo",
+      "Descreva uma situação em que você teve que simplificar um processo ou sistema que era governado por regras complexas ou regulamentação. Como você abordou a simplificação sem comprometer o compliance?",
+      "Conte sobre uma vez em que você inventou uma nova métrica ou indicador para expor um problema complexo de forma simples e gerar alinhamento entre as equipes.",
+      "Me dê um exemplo de uma solução que você criou que não apenas resolveu um problema, mas também se tornou um mecanismo ou plataforma escalável para resolver problemas semelhantes no futuro."
     ],
     en: [
       "Tell me about an innovation you implemented that simplified a (complex) process?",
@@ -115,7 +122,10 @@ const typicalQuestions = {
       "Give me an example of when you used technology/tool in an unconventional way to solve a problem",
       "Tell me about a payment operations process you automated or optimized",
       "How do you convince skeptical stakeholders about a disruptive innovation?",
-      "Tell me about when you simplified something everyone thought needed to be complex"
+      "Tell me about when you simplified something everyone thought needed to be complex",
+      "Describe a situation where you had to simplify a process or system governed by complex rules or regulations. How did you approach simplification without compromising compliance?",
+      "Tell me about a time you invented a new metric or indicator to expose a complex problem in a simple way and drive alignment among teams.",
+      "Give me an example of a solution you created that not only solved a problem but also became a scalable mechanism or platform for solving similar problems in the future."
     ]
   },
   "are_right_a_lot": {
@@ -405,7 +415,8 @@ const typicalQuestions = {
       "Como você sabe quando parar de analisar e começar a agir?",
       "Conte sobre quando sua análise profunda revelou algo que ninguém esperava",
       "Conte sobre uma vez em que você precisou mergulhar fundo para entender por que a comunicação tradicional estava falhando em um projeto complexo – o que descobriu e como solucionou?",
-      "Descreva uma situação em que somente uma análise detalhada ou experimentação controlada permitiu chegar à resposta certa, enquanto decisões rápidas baseadas em intuição teriam falhado."
+      "Descreva uma situação em que somente uma análise detalhada ou experimentação controlada permitiu chegar à resposta certa, enquanto decisões rápidas baseadas em intuição teriam falhado.",
+      "Conte sobre uma vez que você teve que ir além dos dashboards e relatórios padrão para descobrir um problema ou uma oportunidade que não era óbvia. Como você fez isso e qual foi o resultado?"
     ],
     en: [
       "Describe a time you resisted an obvious solution to dive deep into the data and find the true root cause of a problem. What did you discover that others missed?",
@@ -421,7 +432,8 @@ const typicalQuestions = {
       "How do you know when to stop analyzing and start acting?",
       "Tell me about when your deep analysis revealed something nobody expected",
       "Tell me about a time you had to dive deep to understand why traditional communication was failing in a complex project – what did you discover and how did you solve it?",
-      "Describe a situation where only detailed analysis or controlled experimentation allowed you to arrive at the right answer, whereas quick decisions based on intuition would have failed."
+      "Describe a situation where only detailed analysis or controlled experimentation allowed you to arrive at the right answer, whereas quick decisions based on intuition would have failed.",
+      "Tell me about a time you had to go beyond standard dashboards and reports to uncover a problem or opportunity that wasn't obvious. How did you do it, and what was the outcome?"
     ]
   },
   "disagree_and_commit": {
@@ -561,7 +573,9 @@ const typicalQuestions = {
       "Como você comunica progresso de programas complexos para diferentes audiências?",
       "Me fale sobre um programa extremamente crítico onde você teve que coordenar múltiplas áreas sob alta pressão – como garantiu controle, visibilidade e confiança executiva durante a execução?",
       "Conte sobre uma vez em que você precisou replanejar completamente um programa em andamento devido a mudanças externas – como reavaliou prioridades e gerenciou riscos sem perder o controle?",
-      "Descreva uma situação em que tomar uma decisão impopular – como encerrar um programa ou realocar recursos – foi essencial para proteger objetivos estratégicos da organização."
+      "Descreva uma situação em que tomar uma decisão impopular – como encerrar um programa ou realocar recursos – foi essencial para proteger objetivos estratégicos da organização.",
+      "Descreva uma situação em que um programa que você liderava enfrentou uma mudança externa significativa (regulatória, de mercado, etc.). Como você ajustou o programa para lidar com essa mudança e quais foram os trade-offs?",
+      "Conte sobre uma vez que você teve que cancelar ou descontinuar um programa importante. Qual foi o racional por trás da decisão e como você gerenciou o impacto nos stakeholders e na equipe?"
     ],
     en: [
       "Tell me about the most complex program you led - what was the scope, how many teams involved, and what was the result?",
@@ -579,7 +593,9 @@ const typicalQuestions = {
       "How do you communicate progress of complex programs to different audiences?",
       "Tell me about an extremely critical program where you had to coordinate multiple areas under high pressure – how did you ensure control, visibility, and executive confidence during execution?",
       "Tell me about a time you had to completely replan an ongoing program due to external changes – how did you reassess priorities and manage risks without losing control?",
-      "Describe a situation where making an unpopular decision – such as shutting down a program or reallocating resources – was essential to protect the organization's strategic objectives."
+      "Describe a situation where making an unpopular decision – such as shutting down a program or reallocating resources – was essential to protect the organization's strategic objectives.",
+      "Describe a situation where a program you were leading faced a significant external change (regulatory, market, etc.). How did you adjust the program to handle this change, and what were the trade-offs?",
+      "Tell me about a time you had to cancel or discontinue a major program. What was the rationale behind the decision, and how did you manage the impact on stakeholders and the team?"
     ]
   },
   "stakeholder_management": {
