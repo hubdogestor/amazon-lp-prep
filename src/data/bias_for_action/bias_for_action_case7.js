@@ -8,7 +8,7 @@ const case_7 = {
   period: "09/2016-11/2016",
   role: "Program Manager",
   context: "HSBC→Bradesco Migration - USD 5.2 B Assets",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: false,
 
   pt: {

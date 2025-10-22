@@ -6,7 +6,7 @@ const case_4 = {
   title_en: "How I Stayed Updated in Payments/Fintech and Built a Continuous Learning System with Reusable PoCs",
   company: "Sicredi",
   period: "05/2018-05/2021",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: false,
 
   pt: {

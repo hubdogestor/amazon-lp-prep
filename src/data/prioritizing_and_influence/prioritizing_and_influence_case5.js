@@ -7,7 +7,7 @@ const case_5 = {
   company: "Sicredi",
   period: "06/2019 - 09/2019",
   isTopCase: false,
-  isGoodCase: false,
+  isGoodCase: true,
   pt: {
     s: "Em junho de 2019, como Product Strategist no Sicredi, o lançamento do app Woop enfrentou falhas de integração legada, projetando atraso de 3 meses. Board esperava setembro para 25% adocao, com R$ 10 milhoes comprometidos. Como lider, assumi comunicação de mas noticias para mitigar é manter confianca.",
     t: "Minha tarefa era comunicar atraso ao board, com plano de mitigacao para minimizar perdas. Metas: aprovar R$ 2 milhoes adicionais, manter churn <5%, pivotar para lançamento parcial, equilibrando transparencia com soluções.",

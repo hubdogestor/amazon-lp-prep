@@ -6,7 +6,7 @@ const case_5 = {
   title_en: "Four-hour fraud emergency: acted with partial data and preserved BRL 2.3M",
   company: "Sicredi",
   period: "08/2021",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: false,
 
   pt: {

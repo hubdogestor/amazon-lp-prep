@@ -5,7 +5,7 @@ const case_5 = {
   title_en: "Led the Transparency Portal: Out of the Comfort Zone",
   company: "SEFAZ/RS",
   period: "08/2024-11/2024",
-  isTopCase: false,
+  isTopCase: true,
   isGoodCase: false,
 
   pt: {

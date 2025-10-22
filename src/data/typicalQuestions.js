@@ -50,7 +50,23 @@ const typicalQuestions = {
       "Descreva quando você criou um mecanismo para prevenir problemas recorrentes em pagamentos",
       "Como você lida com situações onde múltiplas pessoas poderiam assumir ownership?",
       "Conte sobre quando você teve que assumir ownership de um problema criado por outro time",
-      "Como você gerencia dependências entre múltiplos times?"
+      "Como você gerencia dependências entre múltiplos times?",
+      {
+        "question": "Conte sobre uma vez em que você percebeu que os dados ou métricas estavam cegando a empresa para a realidade dos clientes – como você identificou e corrigiu isso?",
+        "caseId": "sefaz-pmo-creation"
+      },
+      {
+        "question": "Descreva uma situação em que você percebeu que a solução solicitada pelo cliente não resolveria a necessidade real. Como identificou e abordou a causa raiz?.",
+        "caseId": "bradesco-international-payments"
+      },
+      {
+        "question": "Conte sobre uma situação em que a política de segurança ou compliance da empresa estava prejudicando a experiência dos clientes. O que você fez para reequilibrar os dois lados?",
+        "caseId": "long-term-tradeoff"
+      },
+      {
+        "question": "Fale sobre uma vez em que você transformou um processo de conflito ou reclamação de clientes em uma oportunidade de fidelização.",
+        "caseId": "sefaz-emergency-rollback-no-approval"
+      }
     ],
     en: [
       "Tell me about a situation where you took responsibility beyond your work scope and area of knowledge - how did you handle it, balancing current/normal tasks with these new ones?",
@@ -65,7 +81,23 @@ const typicalQuestions = {
       "Describe when you created a mechanism to prevent recurring problems in payments",
       "How do you handle situations where multiple people could take ownership?",
       "Tell me about when you had to take ownership of a problem created by another team",
-      "How do you manage dependencies between multiple teams?"
+      "How do you manage dependencies between multiple teams?",
+      {
+        "question": "Tell me about a time you realized that data or metrics were blinding the company to the reality of its customers – how did you identify and correct this?",
+        "caseId": "sefaz-pmo-creation"
+      },
+      {
+        "question": "Describe a situation where you realized the solution requested by the customer would not solve the real need. How did you identify and address the root cause?",
+        "caseId": "bradesco-international-payments"
+      },
+      {
+        "question": "Tell me about a situation where the company's security or compliance policy was harming the customer experience. What did you do to rebalance both sides?",
+        "caseId": "long-term-tradeoff"
+      },
+      {
+        "question": "Tell me about a time you turned a customer conflict or complaint process into a loyalty opportunity.",
+        "caseId": "sefaz-emergency-rollback-no-approval"
+      }
     ]
   },
   "invent_and_simplify": {
@@ -91,7 +123,7 @@ const typicalQuestions = {
       "Tell me about a time you created a simpler process that had great impact",
       "Tell me about when you had a plan but encountered obstacles - how did you pivot?",
       "Describe a situation where you balanced innovation with risk",
-      "How did you decide between building your own solution vs. adapting something existing?",
+      "How do you decide between building your own solution vs. adapting something existing?",
       "Give me an example of when you used technology/tool in an unconventional way to solve a problem",
       "Tell me about a payment operations process you automated or optimized",
       "How do you convince skeptical stakeholders about a disruptive innovation?",
@@ -277,7 +309,19 @@ const typicalQuestions = {
       "Conte sobre quando você teve que mudar curso/direção de um projeto quando estava 70% completo",
       "Descreva uma situação onde você teve que tomar decisão rápida sobre transação suspeita",
       "Como você comunica decisões rápidas para stakeholders que preferem mais análise?",
-      "Conte sobre quando você teve que agir contra o conselho de especialistas"
+      "Conte sobre quando você teve que agir contra o conselho de especialistas",
+      {
+        "question": "Descreva uma situação em que uma crise externa exigiu que você entregasse uma solução funcional em um prazo impossível, forçando-o a agir mesmo contra os processos padrão ou a resistência interna.",
+        "caseId": "sefaz-emergency-tax-portal"
+      },
+      {
+        "question": "Conte-me sobre uma situação em que um sistema crítico falhou. Como você decidiu entre seguir o plano de recuperação padrão e tomar uma ação mais rápida e arriscada para restaurar o serviço?",
+        "caseId": "calculated-risk-time-critical"
+      },
+      {
+        "question": "Descreva um momento em que uma mudança externa tornou seu projeto atual parcialmente obsoleto. Como você decidiu entre continuar para cumprir o prazo original ou pivotar o escopo e arriscar o cronograma?",
+        "caseId": "sefaz-project-pivot-70-percent"
+      }
     ],
     en: [
       "Give us an example of a calculated risk you took when time was critical, and how you mitigated that risk?",
@@ -291,7 +335,19 @@ const typicalQuestions = {
       "Tell me about when you had to change course/direction of a project when it was 70% complete",
       "Describe a situation where you had to make quick decision about suspicious transaction",
       "How do you communicate quick decisions to stakeholders who prefer more analysis?",
-      "Tell me about when you had to act against the advice of experts"
+      "Tell me about when you had to act against the advice of experts",
+      {
+        "question": "Describe a situation where an external crisis required you to deliver a functional solution on an impossible deadline, forcing you to act against standard processes or internal resistance.",
+        "caseId": "sefaz-emergency-tax-portal"
+      },
+      {
+        "question": "Tell me about a situation where a critical system failed. How did you decide between following the standard recovery plan and taking a faster, riskier action to restore service?",
+        "caseId": "calculated-risk-time-critical"
+      },
+      {
+        "question": "Describe a time when an external change made your current project partially obsolete. How did you decide between continuing to meet the original deadline or pivoting the scope and risking the schedule?",
+        "caseId": "sefaz-project-pivot-70-percent"
+      }
     ]
   },
   "frugality": {
@@ -377,7 +433,15 @@ const typicalQuestions = {
       "Conte sobre quando métricas e anedotas diferiam - como você descobriu a verdade?",
       "Conte sobre uma vez que você identificou um padrão de fraude ou risco que outros não viram",
       "Como você sabe quando parar de analisar e começar a agir?",
-      "Conte sobre quando sua análise profunda revelou algo que ninguém esperava"
+      "Conte sobre quando sua análise profunda revelou algo que ninguém esperava",
+      {
+        "question": "Conte sobre uma vez em que você precisou mergulhar fundo para entender por que a comunicação tradicional estava falhando em um projeto complexo – o que descobriu e como solucionou?",
+        "caseId": "unimed-agile-transformation-communication"
+      },
+      {
+        "question": "Descreva uma situação em que somente uma análise detalhada ou experimentação controlada permitiu chegar à resposta certa, enquanto decisões rápidas baseadas em intuição teriam falhado.",
+        "caseId": "sicredi-payment-experimentation"
+      }
     ],
     en: [
       "Tell me about a situation where you needed to understand root cause to solve complex problem",
@@ -391,7 +455,15 @@ const typicalQuestions = {
       "Tell me about when metrics and anecdotes differed - how did you discover the truth?",
       "Tell me about a time you identified a fraud or risk pattern others didn't see",
       "How do you know when to stop analyzing and start acting?",
-      "Tell me about when your deep analysis revealed something nobody expected"
+      "Tell me about when your deep analysis revealed something nobody expected",
+      {
+        "question": "Tell me about a time you had to dive deep to understand why traditional communication was failing in a complex project – what did you discover and how did you solve it?",
+        "caseId": "unimed-agile-transformation-communication"
+      },
+      {
+        "question": "Describe a situation where only detailed analysis or controlled experimentation allowed you to arrive at the right answer, whereas quick decisions based on intuition would have failed.",
+        "caseId": "sicredi-payment-experimentation"
+      }
     ]
   },
   "disagree_and_commit": {
@@ -481,7 +553,7 @@ const typicalQuestions = {
       "Tell me about when you had to balance productivity with team well-being",
       "Describe a situation where you created growth opportunity for someone",
       "How do you ensure different perspectives and backgrounds are valued?",
-      "Tell me about when you had to make decision thinking about what's best for people, not just results"
+      "Tell me about when you had to make a decision thinking about what's best for people, not just results"
     ]
   },
   "broad_responsibility": {
@@ -585,7 +657,19 @@ const typicalQuestions = {
       "Conte sobre quando você teve que influenciar uma decisão técnica importante com impacto de negócio",
       "Como você lida com pressão para priorizar iniciativas que você acredita serem erradas?",
       "Descreva uma situação onde você teve que repriorizar recursos em meio a uma crise",
-      "Como você mede se suas decisões de priorização estão gerando o impacto esperado?"
+      "Como você mede se suas decisões de priorização estão gerando o impacto esperado?",
+      {
+        "question": "Descreva uma situação onde você teve que priorizar a integração de processos e a melhoria de frameworks de gestão, mesmo que isso significasse pausar a entrega de projetos ou features que já estavam no roadmap.",
+        "caseId": "sefaz-framework-integrated-management"
+      },
+      {
+        "question": "Conte sobre um momento em que você teve que tomar uma decisão de priorização com recursos extremamente limitados, onde teve que pivotar o modelo de negócio abrindo mão de receita de curto prazo em prol de uma visão de longo prazo.",
+        "caseId": "hdg-pivot-to-robotics"
+      },
+      {
+        "question": "Conte sobre uma ocasião em que um projeto crítico estava atrasado, e você teve que influenciar stakeholders seniores não apenas a aceitar o atraso, mas a investir mais recursos para um plano de mitigação",
+        "caseId": "sicredi-woop-delay"
+      }
     ],
     en: [
       "Tell me about a difficult prioritization decision where you had to choose between multiple critical initiatives",
@@ -599,7 +683,19 @@ const typicalQuestions = {
       "Tell me about when you had to influence an important technical decision with business impact",
       "How do you handle pressure to prioritize initiatives you believe are wrong?",
       "Describe a situation where you had to reprioritize resources amid a crisis",
-      "How do you measure if your prioritization decisions are generating expected impact?"
+      "How do you measure if your prioritization decisions are generating expected impact?",
+      {
+        "question": "Describe a situation where you had to prioritize process integration and improving management frameworks, even if it meant pausing the delivery of projects or features already on the roadmap.",
+        "caseId": "sefaz-framework-integrated-management"
+      },
+      {
+        "question": "Tell me about a time you had to make a prioritization decision with extremely limited resources, where you had to pivot the business model, giving up short-term revenue for a long-term vision.",
+        "caseId": "hdg-pivot-to-robotics"
+      },
+      {
+        "question": "Tell me about a time a critical project was delayed, and you had to influence senior stakeholders not only to accept the delay but also to invest more resources in a mitigation plan.",
+        "caseId": "sicredi-woop-delay"
+      }
     ]
   },
   "deal_with_ambiguity": {
@@ -615,7 +711,15 @@ const typicalQuestions = {
       "Conte sobre quando você teve que fazer trade-offs difíceis sem orientação clara da liderança",
       "Como você comunica progresso quando os objetivos ainda estão sendo definidos?",
       "Descreva uma situação onde você teve que experimentar e iterar para encontrar a solução certa",
-      "Como você equilibra planejamento vs execução quando o futuro é incerto?"
+      "Como você equilibra planejamento vs execução quando o futuro é incerto?",
+      {
+        "question": "Conte sobre uma vez em que você teve de defender uma visão de longo prazo sem dados nem consenso – como obteve apoio e validou a direção correta?",
+        "caseId": "bradesco-open-banking-vision"
+      },
+      {
+        "question": "Fale sobre uma vez em que você teve de implementar mudanças em ambiente politicamente volátil e com objetivos indefinidos – como trouxe clareza e resultados tangíveis?",
+        "caseId": "sefaz-digital-transformation-ambiguity"
+      }
     ],
     en: [
       "Tell me about a situation where you had to make critical decisions with incomplete information",
@@ -629,7 +733,15 @@ const typicalQuestions = {
       "Tell me about when you had to make difficult trade-offs without clear guidance from leadership",
       "How do you communicate progress when objectives are still being defined?",
       "Describe a situation where you had to experiment and iterate to find the right solution",
-      "How do you balance planning vs execution when the future is uncertain?"
+      "How do you balance planning vs execution when the future is uncertain?",
+      {
+        "question": "Tell me about a time you had to defend a long-term vision without data or consensus – how did you gain support and validate the right direction?",
+        "caseId": "bradesco-open-banking-vision"
+      },
+      {
+        "question": "Tell me about a time you had to implement changes in a politically volatile environment with undefined objectives – how did you bring clarity and tangible results?",
+        "caseId": "sefaz-digital-transformation-ambiguity"
+      }
     ]
   }
 };
