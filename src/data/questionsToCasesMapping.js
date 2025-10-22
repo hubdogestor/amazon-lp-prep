@@ -244,7 +244,7 @@ export const questionsToCasesMapping = {
     "7": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
     "8": { "options": [{ "caseId": "sicredi-360-feedback-system", "score": 100 }] },
     "9": { "options": [{ "caseId": "sefaz-reverse-mentoring-program", "score": 100 }] },
-    "10": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
+    "10": { "options": [{ "caseId": "hsbc-migration-team-protection", "score": 100 }] },
     "11": { "options": [{ "caseId": "sicredi-360-feedback-system", "score": 100 }] },
     "12": { "options": [{ "caseId": "hsbc-zero-defects-best-employer", "score": 100 }] }
   },
