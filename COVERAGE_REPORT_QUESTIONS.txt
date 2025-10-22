@@ -78,6 +78,21 @@ Q14: Conte sobre quando você teve que educar um cliente sobre algo que ele não
       • sicredi-small-business-survival (score: 100)
         "Fui alem da expectativa e salvei 2.400 pequenos negocios durante a pandemia"
 
+Q15: Conte sobre uma vez em que você identificou sinais silenciosos nos dados dos clientes e lançou uma solução antes que eles pedissem explicitamente.
+   ✅ 1 case(s):
+      • unimed-pet-anticipation (score: 100)
+        "Antecipei necessidade de saúde pet e criei produto antes do mercado expressar"
+
+Q16: Me fale sobre quando você transformou um pedido desesperado de um cliente em um mecanismo que antecipou necessidades críticas de pessoas vulneráveis.
+   ✅ 1 case(s):
+      • unimed-cancer-patient-journey (score: 100)
+        "Antecipei necessidade de pacientes oncológicos e criei jornada que salvou vidas"
+
+Q17: Descreva uma situação em que você precisou reconquistar um cliente premium após falhar e quais mecanismos criou para impedir que a promessa fosse quebrada novamente.
+   ✅ 1 case(s):
+      • sicredi-premium-recovery (score: 100)
+        "Falhei com cliente premium e reconquistei confiança em 72 horas"
+
 
 ══════════════════════════════════════════════════════════════════════
   PROGRAM MANAGEMENT
@@ -233,7 +248,7 @@ Q13: Como você gerencia dependências entre múltiplos times?
       • hsbc-migration-leadership (score: 100)
         "Liderança da Migração de US$ 5.2B de Ativos e Contas"
 
-Q14: Conte sobre uma vez em que você percebeu que os dados ou métricas estavam cegando a empresa para a realidade dos clientes – como você identificou e corrigiu isso?
+Q14: Conte sobre uma vez em que você percebeu que os dados ou métricas estavam cegando a empresa para a realidade dos clientes - como você identificou e corrigiu isso?
    ✅ 1 case(s):
       • sefaz-pmo-creation (score: 100)
         "Estruturação do PMO Institucional e Governança do PROFISCO II do Zero"
@@ -252,6 +267,16 @@ Q17: Fale sobre uma vez em que você transformou um processo de conflito ou recl
    ✅ 1 case(s):
       • payment-incidents-prevention-mechanism (score: 100)
         "Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade"
+
+Q18: Conte sobre uma vez em que você disse não a um lançamento aguardado para proteger a robustez de longo prazo e como sustentou essa decisão.
+   ✅ 1 case(s):
+      • long-term-tradeoff (score: 100)
+        "Assumi Trade-off: Menos Escopo Agora por Maior Robustez"
+
+Q19: Me fale sobre quando você rompeu protocolo para agir rápido em uma crise e quais salvaguardas usou para segurar a responsabilidade.
+   ✅ 1 case(s):
+      • sefaz-emergency-rollback-no-approval (score: 100)
+        "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
 
 
 ══════════════════════════════════════════════════════════════════════
@@ -1068,8 +1093,8 @@ Q13: Conte sobre quando você teve que recusar entregar algo por não atingir se
   RESUMO GERAL
 ══════════════════════════════════════════════════════════════════════
 
-Total de perguntas: 198
-Perguntas cobertas: 198 (100.0%)
-Total de mapeamentos: 198
+Total de perguntas: 203
+Perguntas cobertas: 203 (100.0%)
+Total de mapeamentos: 203
 Média de cases por pergunta: 1.0
 

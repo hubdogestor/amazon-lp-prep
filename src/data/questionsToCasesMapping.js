@@ -17,7 +17,10 @@ export const questionsToCasesMapping = {
     "11": { "options": [{ "caseId": "sicredi-fraud-prevention-experience", "score": 100 }] },
     "12": { "options": [{ "caseId": "sicredi-chargeback-proactive-resolution", "score": 100 }] },
     "13": { "options": [{ "caseId": "sicredi-woop-segment-balance", "score": 100 }] },
-    "14": { "options": [{ "caseId": "sicredi-small-business-survival", "score": 100 }] }
+    "14": { "options": [{ "caseId": "sicredi-small-business-survival", "score": 100 }] },
+    "15": { "options": [{ "caseId": "unimed-pet-anticipation", "score": 100 }] },
+    "16": { "options": [{ "caseId": "unimed-cancer-patient-journey", "score": 100 }] },
+    "17": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }] }
   },
   "ownership": {
     "1": { "options": [{ "caseId": "hsbc-migration-leadership", "score": 100 }] },
@@ -36,7 +39,9 @@ export const questionsToCasesMapping = {
     "14": { "options": [{ "caseId": "sefaz-pmo-creation", "score": 100 }] },
     "15": { "options": [{ "caseId": "bradesco-international-payments", "score": 100 }] },
     "16": { "options": [{ "caseId": "hsbc-payment-reconciliation", "score": 100 }] },
-    "17": { "options": [{ "caseId": "payment-incidents-prevention-mechanism", "score": 100 }] }
+    "17": { "options": [{ "caseId": "payment-incidents-prevention-mechanism", "score": 100 }] },
+    "18": { "options": [{ "caseId": "long-term-tradeoff", "score": 100 }] },
+    "19": { "options": [{ "caseId": "sefaz-emergency-rollback-no-approval", "score": 100 }] }
   },
   "invent_and_simplify": {
     "1": { "options": [{ "caseId": "unimed-ai-authorization", "score": 100 }] },

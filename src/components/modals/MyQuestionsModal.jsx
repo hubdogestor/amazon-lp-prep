@@ -112,6 +112,8 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             {data.categories.map((category, catIdx) => {
               const isExpanded = expandedCategories[catIdx];
+              const categoryTitle = category.category;
+              const categorySubtitle = category.categorySubtext;
 
               return (
                 <div
@@ -125,9 +127,16 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
                     aria-expanded={isExpanded}
                     aria-controls={`category-content-${catIdx}`}
                   >
-                    <h3 className="text-lg font-bold text-slate-900 flex items-center gap-2">
+                    <h3 className="text-lg font-bold text-slate-900 flex items-start gap-3">
                       <span className="text-2xl">{category.icon}</span>
-                      <span>{category.category}</span>
+                      <span className="flex flex-col leading-tight">
+                        <span>{categoryTitle}</span>
+                        {categorySubtitle && (
+                          <span className="text-xs font-normal text-slate-600">
+                            {categorySubtitle}
+                          </span>
+                        )}
+                      </span>
                       <span className="text-sm font-normal text-slate-500">({category.questions.length} perguntas)</span>
                     </h3>
                     <span className="text-sm text-purple-600 select-none">
@@ -141,7 +150,7 @@ export default function MyQuestionsModal({ language: initialLanguage, onClose, u
                     <div id={`category-content-${catIdx}`} className="px-5 pb-5 pt-2 bg-white/40">
                       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                         {category.questions.map((item, qIdx) => {
-                          const questionStorageId = `my-${slugify(category.category)}-${qIdx}`;
+                          const questionStorageId = `my-${slugify(categoryTitle)}-${qIdx}`;
                           const isQuestionUsed = !!usedQuestions[questionStorageId];
                           const toggleTooltip = isQuestionUsed
                             ? t('unmarkUsedQuestion')

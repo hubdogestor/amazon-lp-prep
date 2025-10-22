@@ -17,7 +17,10 @@ const typicalQuestions = {
       "Como você equilibra prevenção de fraude com experiência do cliente?",
       "Como você reduziu chargebacks/disputas mantendo satisfação do cliente?",
       "Como você equilibra necessidades de diferentes segmentos de clientes?",
-      "Conte sobre quando você teve que educar um cliente sobre algo que ele não sabia que precisava"
+      "Conte sobre quando você teve que educar um cliente sobre algo que ele não sabia que precisava",
+      "Conte sobre uma vez em que você identificou sinais silenciosos nos dados dos clientes e lançou uma solução antes que eles pedissem explicitamente.",
+      "Me fale sobre quando você transformou um pedido desesperado de um cliente em um mecanismo que antecipou necessidades críticas de pessoas vulneráveis.",
+      "Descreva uma situação em que você precisou reconquistar um cliente premium após falhar e quais mecanismos criou para impedir que a promessa fosse quebrada novamente."
     ],
     en: [
       "Tell me about a time you went above and beyond customer expectations or anticipated an unexpressed need",
@@ -33,7 +36,10 @@ const typicalQuestions = {
       "How do you balance fraud prevention with customer experience?",
       "How did you reduce chargebacks/disputes while maintaining customer satisfaction?",
       "How do you balance needs of different customer segments?",
-      "Tell me about when you had to educate a customer about something they didn't know they needed"
+      "Tell me about when you had to educate a customer about something they didn't know they needed",
+      "Tell me about a time you spotted silent signals in customer data and launched a solution before they explicitly asked for it.",
+      "Tell me about when you turned a desperate customer escalation into a mechanism that anticipated critical needs for vulnerable people.",
+      "Describe a time you had to win back a premium customer after failing them and the mechanisms you built to ensure the promise would not break again."
     ]
   },
   "ownership": {
@@ -51,10 +57,12 @@ const typicalQuestions = {
       "Como você lida com situações onde múltiplas pessoas poderiam assumir ownership?",
       "Conte sobre quando você teve que assumir ownership de um problema criado por outro time",
       "Como você gerencia dependências entre múltiplos times?",
-      "Conte sobre uma vez em que você percebeu que os dados ou métricas estavam cegando a empresa para a realidade dos clientes – como você identificou e corrigiu isso?",
+      "Conte sobre uma vez em que você percebeu que os dados ou métricas estavam cegando a empresa para a realidade dos clientes - como você identificou e corrigiu isso?",
       "Descreva uma situação em que você percebeu que a solução solicitada pelo cliente não resolveria a necessidade real. Como identificou e abordou a causa raiz?.",
       "Conte sobre uma situação em que a política de segurança ou compliance da empresa estava prejudicando a experiência dos clientes. O que você fez para reequilibrar os dois lados?",
-      "Fale sobre uma vez em que você transformou um processo de conflito ou reclamação de clientes em uma oportunidade de fidelização."
+      "Fale sobre uma vez em que você transformou um processo de conflito ou reclamação de clientes em uma oportunidade de fidelização.",
+      "Conte sobre uma vez em que você disse não a um lançamento aguardado para proteger a robustez de longo prazo e como sustentou essa decisão.",
+      "Me fale sobre quando você rompeu protocolo para agir rápido em uma crise e quais salvaguardas usou para segurar a responsabilidade."
     ],
     en: [
       "Tell me about a situation where you took responsibility beyond your work scope and area of knowledge - how did you handle it, balancing current/normal tasks with these new ones?",
@@ -70,10 +78,12 @@ const typicalQuestions = {
       "How do you handle situations where multiple people could take ownership?",
       "Tell me about when you had to take ownership of a problem created by another team",
       "How do you manage dependencies between multiple teams?",
-      "Tell me about a time you realized that data or metrics were blinding the company to the reality of its customers – how did you identify and correct this?",
+      "Tell me about a time you realized that data or metrics were blinding the company to the reality of its customers - how did you identify and correct this?",
       "Describe a situation where you realized the solution requested by the customer would not solve the real need. How did you identify and address the root cause?",
       "Tell me about a situation where the company's security or compliance policy was harming the customer experience. What did you do to rebalance both sides?",
-      "Tell me about a time you turned a customer conflict or complaint process into a loyalty opportunity."
+      "Tell me about a time you turned a customer conflict or complaint process into a loyalty opportunity.",
+      "Tell me about a time you said no to a highly anticipated launch to protect long-term robustness and how you stood by the decision.",
+      "Tell me about when you broke protocol to act quickly in a crisis and what safeguards you used to hold the responsibility."
     ]
   },
   "invent_and_simplify": {

@@ -1,0 +1,173 @@
+LP: customer_obsession
+  • sicredi-woop-segment-balance - Equilibrei necessidades de 340 cooperativas B2B e 1,2M pessoas B2C com um único squad: 3 pergunta(s)
+  • bradesco-elderly-digital-inclusion - Antecipei exclusão digital de idosos e criei jornada que devolveu dignidade: 2 pergunta(s)
+  • sicredi-chargeback-proactive-resolution - Reduzi chargebacks de 1.8% para 0.5% mantendo NPS em 81 com resolucao proativa: 2 pergunta(s)
+  • sicredi-fraud-prevention-experience - Equilibrei prevencao de fraude com experiencia do cliente reduzindo bloqueios indevidos em 78%: 2 pergunta(s)
+  • sicredi-premium-recovery - Falhei com cliente premium e reconquistei confiança em 72 horas: 2 pergunta(s)
+  • sicredi-small-business-survival - Fui alem da expectativa e salvei 2.400 pequenos negocios durante a pandemia: 2 pergunta(s)
+  • unimed-cancer-patient-journey - Antecipei necessidade de pacientes oncológicos e criei jornada que salvou vidas: 2 pergunta(s)
+  • unimed-pet-anticipation - Antecipei necessidade de saúde pet e criei produto antes do mercado expressar: 2 pergunta(s)
+  Total de mapeamentos neste LP: 17
+
+LP: ownership
+  • hsbc-migration-leadership - Liderança da Migração de US$ 5.2B de Ativos e Contas: 3 pergunta(s)
+  • hsbc-payment-reconciliation - Crise de Reconciliação de Pagamentos -- Zerei US$ 47M às Vésperas do Cutover: 3 pergunta(s)
+  • payment-incidents-prevention-mechanism - Transformei Incidentes Reincidentes em Mecanismo de Confiabilidade: 3 pergunta(s)
+  • bradesco-international-payments - Crise de Pagamentos Internacionais -- Virada de Custos e SLAs em 90 Dias: 2 pergunta(s)
+  • bradesco-next-delay - Erro de Estimativa no Lançamento Bradesco Next: 2 pergunta(s)
+  • long-term-tradeoff - Assumi Trade-off: Menos Escopo Agora por Maior Robustez: 2 pergunta(s)
+  • sefaz-emergency-rollback-no-approval - Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei 23k Empresas: 2 pergunta(s)
+  • sefaz-pmo-creation - Estruturação do PMO Institucional e Governança do PROFISCO II do Zero: 2 pergunta(s)
+  Total de mapeamentos neste LP: 19
+
+LP: invent_and_simplify
+  • bradesco-next-compliance-simplification - Inventei trilha KYC one-click que reduziu onboarding Next de 32 para 6 horas: 2 pergunta(s)
+  • huawei-six-sigma-optimization - Inventei mecanismo 5G com playbook Six Sigma que reverteu multas client-facing: 2 pergunta(s)
+  • payment-simplification-high-impact - Inventei motor de simplificação de liquidez que reduziu D+3 para D+0 em marketplaces: 2 pergunta(s)
+  • sefarz-pix-reconciliation-automation - Automação de conciliação PIX municipal inventada em 45 dias eliminou risco fiscal: 2 pergunta(s)
+  • unimed-ai-authorization - Inventei IA de Autorização Médica que Simplificou Processo de 5 Dias para 9 Horas (82% Automação): 2 pergunta(s)
+  • unimed-open-innovation - Inventei plataforma aberta com LP SaaS que reduziu ciclo de inovação em 68%: 2 pergunta(s)
+  Total de mapeamentos neste LP: 12
+
+LP: are_right_a_lot
+  • sicredi-api-pricing-model - Provei com ciencia de dados que a nova precificacao API nao se pagava e redesenhei o modelo em 30 dias: 4 pergunta(s)
+  • sefaz-data-vs-intuition - Minha intuição de 15 anos em PMO dizia waterfall, mas dados do PROFISCO II provaram que híbrido era o caminho: 3 pergunta(s)
+  • huawei-4g-rollout-analysis - Modelei riscos 5G em tempo real e mudei a arquitetura no meio do rollout sem atrasar a FIFA Fan Fest: 2 pergunta(s)
+  • sicredi-mobile-first-strategy - Equilibrei oito stakeholders conflitantes e redesenhei roadmap mobile com aprovação unânime: 2 pergunta(s)
+  • sicredi-wrong-fraud-model-pivot - Eu Estava Errado Sobre Modelo de Fraude: Tive Humildade para Pivotar e Aprender com Analista Junior: 2 pergunta(s)
+  Total de mapeamentos neste LP: 13
+
+LP: learn_and_be_curious
+  • out-of-comfort-zone-transparency-portal - Liderei o Portal da Transparência: Fora da Zona de Conforto: 3 pergunta(s)
+  • unimed-cvc-failure-learning - Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed: 3 pergunta(s)
+  • bradesco-safe-agile-framework - Implementação de Framework Ágil em Escala para Banco Digital: 2 pergunta(s)
+  • olibano-blockchain-exploration - Prototipagem de Solução de Pagamentos com Blockchain Após Especialização: 2 pergunta(s)
+  • stay-updated-payments-fintech - Como Me Mantive Atualizado em Payments/Fintech e Estruturei Sistema de Aprendizado Contínuo com PoCs Reutilizáveis: 2 pergunta(s)
+  • unimed-harvard-healthcare-innovation - Aplicação de Conceitos de Harvard em Value-Based Healthcare para Lançamento do Produto APS: 2 pergunta(s)
+  Total de mapeamentos neste LP: 14
+
+LP: hire_and_develop_the_best
+  • unimed-controversial-promotion - Promovi analista de 2 anos direto para coordenação pulando 3 seniores e enfrentei motim interno: 4 pergunta(s)
+  • unimed-toxic-genius-removal - A Difícil Decisão de Desligar um 'Gênio Tóxico' para Proteger a Equipe: 3 pergunta(s)
+  • bradesco-talent-pipeline-creation - Criação de Pipeline de Talentos Ágeis e Elevação dos Padrões de Contratação no InovaBra: 2 pergunta(s)
+  • huawei-project-managers-mentoring - Mentoria de 30+ Gerentes de Projeto e Criação de uma Comunidade de Prática: 2 pergunta(s)
+  • unimed-underperformer-development - Desenvolvimento de um Analista de Baixo Desempenho Através de Realocação e Ownership: 2 pergunta(s)
+  Total de mapeamentos neste LP: 13
+
+LP: insist_on_highest_standards
+  • hsbc-zero-defects - Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R$3 Bi sem erros: 3 pergunta(s)
+  • reject-mediocre-work-procergs - Rejeitei uma entrega de software de R$ 1,3M é criei um quality gate que se tornou padrao de contrato: 3 pergunta(s)
+  • sicredi-payment-sla - Redesenhei o Gateway de Pagamentos do Sicredi para 99.99% de Disponibilidade apos falha critica: 3 pergunta(s)
+  • sefaz-pmo-governance - Elevei o padrao de governanca da SEFAZ, transformando o foco de entregas para valor ao cidadao: 2 pergunta(s)
+  • unimed-telemedicine-redo-for-excellence - Refiz uma plataforma de telemedicina do zero apos um NPS de 28 para atingir um padrao de excelencia (NPS 84): 2 pergunta(s)
+  Total de mapeamentos neste LP: 13
+
+LP: think_big
+  • huawei-global-rollout - Transformação do Modelo de Rollout no Brasil que foi Adotado Globalmente pela Huawei: 4 pergunta(s)
+  • bradesco-open-banking-vision - Defendi APIs abertas em 2018 quando diretoria via como 'entregar ouro ao inimigo' - Open Finance provou que eu estava certo: 3 pergunta(s)
+  • bradesco-paas-latam - Proposta e Desenho de uma Plataforma de Pagamentos como Serviço (PaaS) para a América Latina: 3 pergunta(s)
+  • unimed-ecosystem-transformation - Transformei ameaça de R$ 1,2B em ecossistema sustentável de R$ 312M: 3 pergunta(s)
+  • game-changing-program - Programa Horizonte: Digital Twin Fiscal que Redirecionou R$2,1B em Investimentos: 2 pergunta(s)
+  Total de mapeamentos neste LP: 15
+
+LP: bias_for_action
+  • sicredi-fraud-emergency-4h-decision - Decisão em 4h sob fraude massiva: atuei com dados parciais e preservei R$ 2,3 milhões: 3 pergunta(s)
+  • bradesco-next-rapid-launch - Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em 11 Meses: 2 pergunta(s)
+  • calculated-risk-time-critical - Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação por zonas e rollback seletivo: 2 pergunta(s)
+  • hsbc-migration-against-experts - Mantive go-live da migração HSBC→Bradesco contrariando recomendação de adiar 3 meses e entreguei com zero incidentes: 2 pergunta(s)
+  • sefaz-emergency-tax-portal - Lancei portal Volta por Cima RS em 18 dias após as cheias no Vale do Taquari: 2 pergunta(s)
+  • sefaz-project-pivot-70-percent - Pivotei projeto SEFAZ 70% completo após Reforma Tributária e garanti entrega sustentável antes da transição 2025: 2 pergunta(s)
+  • sicredi-ml-credit-approval - Quebrei resistência cultural de 23 anos e implementei ML em crédito com 30% menos rejeições: 2 pergunta(s)
+  Total de mapeamentos neste LP: 15
+
+LP: frugality
+  • huawei-resource-optimization - Otimização de Recursos em um Portfólio de 50+ Projetos para Acelerar o Rollout do 4G: 5 pergunta(s)
+  • sefaz-zero-budget-pmo - Geração de U$1.4M em Ganhos de Eficiência no Setor Público sem Aumento de Orçamento: 5 pergunta(s)
+  • unimed-automation-n8n - Automação de Relatórios de Reconciliação Financeira Usando Ferramentas Open-Source (n8n): 3 pergunta(s)
+  Total de mapeamentos neste LP: 13
+
+LP: earn_trust
+  • sicredi-post-mortem-transparency - Reconstruí confiança após bug Pix com ritual de transparências diárias: 4 pergunta(s)
+  • bradesco-partner-recovery - Reconquistei parceiro chave com plano de saldo garantido em 30 dias: 3 pergunta(s)
+  • bradesco-sla-director - Redefini SLA crítico com diretor para recuperar credibilidade operacional: 3 pergunta(s)
+  • hard-feedback-leadership-style - Transformei feedback devastador em pacto de transparência radical: 3 pergunta(s)
+  • hsbc-bacen-communication - Transformei relacionamento com Bacen com briefings executivos em 48h: 3 pergunta(s)
+  Total de mapeamentos neste LP: 16
+
+LP: dive_deep
+  • sicredi-churn-analysis - Análise de Dados para Identificar os Principais Drivers de Churn no App: 3 pergunta(s)
+  • unimed-fraud-investigation - Investigação Manual de Anomalias em Reembolsos para Identificar Fraude em Rede: 3 pergunta(s)
+  • hsbc-data-validation-audit - Auditoria Pessoal em Processos de Validação de Dados em Múltiplos Países: 2 pergunta(s)
+  • sicredi-payment-experimentation - Experimentação Sistemática em Plataforma de Pagamentos para Encontrar Modelo de Monetização Ótimo: 2 pergunta(s)
+  • sicredi-pix-settlement - Redução de 47% no Tempo de Liquidação de Pagamentos PIX: 2 pergunta(s)
+  • unimed-agile-transformation-communication - Comunicação de Progresso em Transformação Ágil com Objetivos Fluidos: 2 pergunta(s)
+  Total de mapeamentos neste LP: 14
+
+LP: disagree_and_commit
+  • bradesco-mvp-feature-prioritization - Discordei da priorização de feature do MVP, aceitei a decisão do comitê e entreguei resultados que viabilizaram meu plano original: 4 pergunta(s)
+  • huawei-world-cup-timeline - Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado com antecedência: 4 pergunta(s)
+  • commit-on-disagreement-product-strategy - Discordei de uma estratégia de pricing, provei meu ponto com dados e liderei o piloto aprovado com excelência: 2 pergunta(s)
+  • unimed-retention-strategy - Defendi foco em retenção contra pressão comercial e liderei o plano híbrido aprovado pelo CEO: 2 pergunta(s)
+  Total de mapeamentos neste LP: 12
+
+LP: deliver_results
+  • huawei-world-cup-4g - Liderei o Upgrade 4G/5G da Copa do Mundo 2014 Entregando 99,8% de Disponibilidade: 2 pergunta(s)
+  • sefaz-ecage-portal - Transformei o e-CAGE em Portal com 94% de SLA e 100% de Adoção: 2 pergunta(s)
+  • sicredi-fraud-reduction - Fundei o Mecanismo Anti-Fraude que Cortou Perdas em 46% em 5 Meses: 2 pergunta(s)
+  • sicredi-pix-deadline-miss-recovery - Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei em 60 Dias: 2 pergunta(s)
+  • unimed-99-99-uptime-standard - Estabelecimento de Novo Padrão de Disponibilidade 99.99% Considerado Impossível pela Indústria: 2 pergunta(s)
+  • unimed-ebitda-growth - Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave: 2 pergunta(s)
+  • unimed-vendor-termination - Cortei fornecedor estratégico de 8 anos para salvar lançamento crítico de telemedicina: 2 pergunta(s)
+  Total de mapeamentos neste LP: 14
+
+LP: broad_responsibility
+  • sefaz-tesouro-inovacao-pit - A Responsabilidade Ética de Construir um Ecossistema de Inovação para Gestão de Fundos Públicos: 4 pergunta(s)
+  • hsbc-fatca-aml-compliance-over-cost - Garantindo a Conformidade Global (FATCA/AML) Acima dos Custos de Curto Prazo: 2 pergunta(s)
+  • hsbc-fatca-aml-migration - Implementação de Controles FATCA e AML em uma Operação de Escala Bilionária: 2 pergunta(s)
+  • unimed-lgpd-compliance - Garantia de Conformidade com a LGPD no Lançamento de Produtos Digitais para Milhões de Clientes: 2 pergunta(s)
+  Total de mapeamentos neste LP: 10
+
+LP: best_employer
+  • hsbc-migration-team-protection - Protegendo a Equipe e Mantendo a Moral Durante a Migração de Alto Risco HSBC-Bradesco: 3 pergunta(s)
+  • sefaz-reverse-mentoring-program - Criando Ambiente de Trabalho Melhor: Reverse Mentoring que Elevou eNPS para 82 e Uniu Gerações: 3 pergunta(s)
+  • bradesco-agile-community-creation - Escalei a guilda de produto e promovi 18 lideres em seis meses: 2 pergunta(s)
+  • hsbc-zero-defects-best-employer - Criei o padrão 'Zero Data Loss' que outros achavam impossível, desenvolvendo capacidades da equipe: 2 pergunta(s)
+  • sicredi-360-feedback-system - Transformei o feedback 360 em pipeline de sucessao para todos os PMs: 2 pergunta(s)
+  Total de mapeamentos neste LP: 12
+
+LP: program_management
+  • sefaz-pmo-creation - Estruturação do PMO Institucional e Governança do PROFISCO II do Zero: 4 pergunta(s)
+  • sefaz-profisco-ii-program - Liderei programa BID de US$ 280M coordenando 47 projetos fiscais com governança híbrida waterfall-agile: 4 pergunta(s)
+  • hsbc-migration-leadership - Liderança da Migração de US$ 5.2B de Ativos e Contas: 2 pergunta(s)
+  • sefaz-roadmap-adjustment-reforma-tributária - Ajustei o Roadmap de Projetos Fiscais na SEFAZ Devido a Reforma Tributária: 2 pergunta(s)
+  • sicredi-woop-delay-communication - Comuniquei Atraso de 3 Meses no Lançamento do App Woop ao Board: 2 pergunta(s)
+  • unimed-cvc-cancellation - Cancelei o Programa de CVC na Lacador Participações Devido a Troca de Gestão: 2 pergunta(s)
+  Total de mapeamentos neste LP: 16
+
+LP: prioritizing_and_influence
+  • bradesco-covid-reprioritization - Reprioritizei 100% do Roadmap em 72 Horas Durante COVID e Salvei R$ 340M em Operações: 3 pergunta(s)
+  • bradesco-next-mvp-prioritization - Influenciei decisão de MVP do Bradesco Next cortando 60% das features para lançar 4 meses antes: 3 pergunta(s)
+  • sicredi-woop-segment-prioritization - Priorizei B2C sobre B2B Contrariando 340 Cooperativas e Gerei R$ 87M em 18 Meses: 3 pergunta(s)
+  • hdg-pivot-to-robotics - Pivotei HDG de Consultoria para Robotização Devido a Recursos Limitados: 2 pergunta(s)
+  • sefaz-framework-integrated-management - Ajustei o Roadmap para Adotar Framework Integrado de Gestão na SEFAZ: 2 pergunta(s)
+  • sicredi-woop-delay - Comuniquei Atraso de 3 Meses no Lançamento do App Woop ao Board: 2 pergunta(s)
+  Total de mapeamentos neste LP: 15
+
+LP: deal_with_ambiguity
+  • bradesco-open-banking-vision - Defendi APIs abertas em 2018 quando diretoria via como 'entregar ouro ao inimigo' - Open Finance provou que eu estava certo: 2 pergunta(s)
+  • hsbc-bradesco-cultural-migration - Navegando a Migração HSBC-Bradesco com Prioridades Mutáveis e Barreiras Culturais: 2 pergunta(s)
+  • huawei-worldcup-war-room - Liderança da War Room da Huawei na Copa de 2014 para Manter o Time Focado em Ambiente de Incerteza: 2 pergunta(s)
+  • sefaz-digital-transformation-ambiguity - Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Complexo: 2 pergunta(s)
+  • sefaz-pmo-creation - Estruturação do PMO Institucional e Governança do PROFISCO II do Zero: 2 pergunta(s)
+  • unimed-innovation-ambiguity - Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado: 2 pergunta(s)
+  • unimed-pet-health-ambiguity - Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitados: 2 pergunta(s)
+  Total de mapeamentos neste LP: 14
+
+LP: stakeholder_management
+  • huawei-4g-copa-2014-stakeholder - Coordenei lançamento 4G em 12 cidades da Copa 2014 negociando com 20 fornecedores, ANATEL, prefeituras e FIFA: 2 pergunta(s)
+  • huawei-global-rollout - Transformação do Modelo de Rollout no Brasil que se Tornou Padrão Global na Huawei: 2 pergunta(s)
+  • sicredi-woop-stakeholder-management - Transformação Digital do Woop Sicredi: Engajamento de Base Cooperativista com 6,4M de Membros: 2 pergunta(s)
+  • stakeholder-management-case-2 - Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave: 2 pergunta(s)
+  • stakeholder-management-case-4 - Influência sem Autoridade: Como Convenci Secretarias a Adotar um Framework Integrado no Profisco II: 2 pergunta(s)
+  • unimed-vendor-termination-trust - Disse 'Não' ao CEO e Desliguei Fornecedor de 8 Anos - Depois Reconstruí Confiança com Transparência: 2 pergunta(s)
+  Total de mapeamentos neste LP: 12
