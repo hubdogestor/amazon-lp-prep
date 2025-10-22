@@ -176,7 +176,7 @@ export const questionsToCasesMapping = {
     "6": { "options": [{ "caseId": "sicredi-post-mortem-transparency", "score": 100 }] },
     "7": { "options": [{ "caseId": "sicredi-post-mortem-transparency", "score": 100 }] },
     "8": { "options": [{ "caseId": "hsbc-bacen-communication", "score": 100 }] },
-    "9": { "options": [{ "caseId": "bradesco-partner-recovery", "score": 100 }] },
+    "9": { "options": [{ "caseId": "hsbc-bacen-communication", "score": 100 }] },
     "10": { "options": [{ "caseId": "hard-feedback-leadership-style", "score": 100 }] },
     "11": { "options": [{ "caseId": "bradesco-partner-recovery", "score": 100 }] },
     "12": { "options": [{ "caseId": "hsbc-bacen-communication", "score": 100 }] },

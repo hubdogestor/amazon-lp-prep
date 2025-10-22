@@ -465,8 +465,8 @@ Q8: Descreva uma vez que você teve que influenciar um peer que tinha opinião d
 
 Q9: Como você constrói confiança com stakeholders que você não conhece?
    ✅ 1 case(s):
-      • bradesco-partner-recovery (score: 100)
-        "Reconquistei parceiro chave com plano de saldo garantido em 30 dias"
+      • hsbc-bacen-communication (score: 100)
+        "Transformei relacionamento com Bacen com briefings executivos em 48h"
 
 Q10: Conte sobre quando você foi vocalmente auto-crítico mesmo sendo constrangedor
    ✅ 1 case(s):
