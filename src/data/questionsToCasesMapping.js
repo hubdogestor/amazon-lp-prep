@@ -92,7 +92,8 @@ export const questionsToCasesMapping = {
     "11": { "options": [{ "caseId": "unimed-cvc-failure-learning", "score": 100 }] },
     "12": { "options": [{ "caseId": "unimed-cvc-failure-learning", "score": 100 }] },
     "13": { "options": [{ "caseId": "bradesco-safe-agile-framework", "score": 100 }] },
-    "14": { "options": [{ "caseId": "olibano-blockchain-exploration", "score": 100 }] }
+    "14": { "options": [{ "caseId": "olibano-blockchain-exploration", "score": 100 }] },
+    "15": { "options": [{ "caseId": "olibano-blockchain-exploration", "score": 100 }] }
   },
   "hire_and_develop_the_best": {
     "1": { "options": [{ "caseId": "unimed-underperformer-development", "score": 100 }] },
@@ -122,7 +123,10 @@ export const questionsToCasesMapping = {
     "10": { "options": [{ "caseId": "sicredi-payment-sla", "score": 100 }] },
     "11": { "options": [{ "caseId": "hsbc-zero-defects", "score": 100 }] },
     "12": { "options": [{ "caseId": "reject-mediocre-work-procergs", "score": 100 }] },
-    "13": { "options": [{ "caseId": "hsbc-zero-defects", "score": 100 }] }
+    "13": { "options": [{ "caseId": "hsbc-zero-defects", "score": 100 }] },
+    "14": { "options": [{ "caseId": "unimed-telemedicine-redo-for-excellence", "score": 100 }] },
+    "15": { "options": [{ "caseId": "sicredi-payment-sla", "score": 100 }] },
+    "16": { "options": [{ "caseId": "hsbc-zero-defects", "score": 100 }] }
   },
   "think_big": {
     "1": { "options": [{ "caseId": "huawei-global-rollout", "score": 100 }] },
@@ -222,7 +226,10 @@ export const questionsToCasesMapping = {
     "9": { "options": [{ "caseId": "commit-on-disagreement-product-strategy", "score": 100 }] },
     "10": { "options": [{ "caseId": "huawei-world-cup-timeline", "score": 100 }] },
     "11": { "options": [{ "caseId": "huawei-world-cup-timeline", "score": 100 }] },
-    "12": { "options": [{ "caseId": "huawei-world-cup-timeline", "score": 100 }] }
+    "12": { "options": [{ "caseId": "huawei-world-cup-timeline", "score": 100 }] },
+    "13": { "options": [{ "caseId": "bradesco-mvp-feature-prioritization", "score": 100 }] },
+    "14": { "options": [{ "caseId": "commit-on-disagreement-product-strategy", "score": 100 }] },
+    "15": { "options": [{ "caseId": "huawei-world-cup-timeline", "score": 100 }] }
   },
   "deliver_results": {
     "1": { "options": [{ "caseId": "huawei-world-cup-4g", "score": 100 }] },
@@ -318,7 +325,8 @@ export const questionsToCasesMapping = {
     "11": { "options": [{ "caseId": "unimed-pet-health-ambiguity", "score": 100 }] },
     "12": { "options": [{ "caseId": "huawei-worldcup-war-room", "score": 100 }] },
     "13": { "options": [{ "caseId": "bradesco-open-banking-vision", "score": 100 }] },
-    "14": { "options": [{ "caseId": "sefaz-digital-transformation-ambiguity", "score": 100 }] }
+    "14": { "options": [{ "caseId": "sefaz-digital-transformation-ambiguity", "score": 100 }] },
+    "15": { "options": [{ "caseId": "hsbc-bradesco-cultural-migration", "score": 100 }] }
   },
   "stakeholder_management": {
     "1": { "options": [{ "caseId": "stakeholder-management-case-4", "score": 100 }] },

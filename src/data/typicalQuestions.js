@@ -175,7 +175,8 @@ const typicalQuestions = {
       "Conte sobre um projeto que não deu certo, uma falha, um erro de julgamento ou uma decepção profissional. O que você aprendeu?",
       "Conte sobre uma situação onde você aprendeu com erros",
       "Como você identifica quando precisa desaprender algo que sabia?",
-      "Conte sobre quando sua curiosidade te levou a questionar uma prática estabelecida"
+      "Conte sobre quando sua curiosidade te levou a questionar uma prática estabelecida",
+      "Conte sobre uma vez que você teve que aprender rapidamente uma nova tecnologia ou domínio de negócio para tomar uma decisão importante. Como você estruturou seu aprendizado e qual foi o resultado?"
     ],
     en: [
       "How do you stay updated in your area of expertise and how do you explore new areas of knowledge?",
@@ -191,7 +192,8 @@ const typicalQuestions = {
       "Tell me about a project that didn't work out, a failure, a misjudgment, or a professional disappointment. What did you learn?",
       "Tell me about a situation where you learned from mistakes",
       "How do you identify when you need to unlearn something you knew?",
-      "Tell me about when your curiosity led you to question an established practice"
+      "Tell me about when your curiosity led you to question an established practice",
+      "Tell me about a time you had to quickly learn a new technology or business domain to make an important decision. How did you structure your learning, and what was the outcome?"
     ]
   },
   "hire_and_develop_the_best": {
@@ -240,7 +242,10 @@ const typicalQuestions = {
       "Como você garante que defeitos não passam para frente e problemas ficam resolvidos?",
       "Conte sobre quando você estabeleceu um novo padrão que outros achavam impossível de atingir",
       "Como você define 'qualidade suficiente' vs 'perfeição paralisante'?",
-      "Conte sobre quando você teve que recusar entregar algo por não atingir seus padrões"
+      "Conte sobre quando você teve que recusar entregar algo por não atingir seus padrões",
+      "Descreva uma situação em que você teve que tomar uma decisão difícil, como refazer um trabalho do zero ou rejeitar uma entrega, para garantir um padrão de qualidade que você considerava essencial. Como você justificou essa decisão?",
+      "Conte sobre uma vez que você estabeleceu um novo padrão de performance ou qualidade que era significativamente mais alto do que o existente. Como você garantiu a adesão da equipe e dos stakeholders a esse novo padrão?",
+      "Como você equilibra a necessidade de manter padrões elevados com a pressão por velocidade e entrega rápida? Dê um exemplo."
     ],
     en: [
       "How do you ensure the team maintains high standards even with tight deadlines?",
@@ -255,7 +260,10 @@ const typicalQuestions = {
       "How do you ensure defects don't pass forward and problems stay solved?",
       "Tell me about when you established a new standard others thought was impossible to achieve",
       "How do you define 'sufficient quality' vs 'paralyzing perfection'?",
-      "Tell me about when you had to refuse to deliver something for not meeting your standards"
+      "Tell me about when you had to refuse to deliver something for not meeting your standards",
+      "Describe a situation where you had to make a tough decision, like redoing work from scratch or rejecting a delivery, to ensure a quality standard you deemed essential. How did you justify this decision?",
+      "Tell me about a time you established a new performance or quality standard that was significantly higher than the existing one. How did you ensure buy-in from your team and stakeholders?",
+      "How do you balance the need to maintain high standards with the pressure for speed and rapid delivery? Provide an example."
     ]
   },
   "think_big": {
@@ -453,7 +461,10 @@ const typicalQuestions = {
       "Me fale sobre um conflito que você resolveu - qual foi o processo?",
       "Como você desafia respeitosamente decisões mas depois se compromete totalmente?",
       "Como você mantém sua equipe motivada quando você mesmo discordou da decisão?",
-      "Conte sobre quando você teve que defender publicamente uma decisão que contestou internamente"
+      "Conte sobre quando você teve que defender publicamente uma decisão que contestou internamente",
+      "Conte sobre uma vez que você discordou de uma decisão, se comprometeu com ela, mas a execução provou que sua preocupação inicial estava correta. Como você lidou com essa situação?",
+      "Descreva uma situação em que você teve que defender uma posição ou discordar de uma maioria em uma reunião de alto nível (diretoria, C-level). Como você estruturou seu argumento?",
+      "Como você garante que sua equipe permaneça motivada e comprometida ao executar uma decisão da qual você ou a equipe discordaram?"
     ],
     en: [
       "Tell me about a situation where you disagreed with supervisor/manager, but still committed to final decision (and delivery)",
@@ -467,7 +478,10 @@ const typicalQuestions = {
       "Tell me about a conflict you resolved - what was the process?",
       "How do you respectfully challenge decisions but then fully commit?",
       "How do you keep your team motivated when you yourself disagreed with the decision?",
-      "Tell me about when you had to publicly defend a decision you challenged internally"
+      "Tell me about when you had to publicly defend a decision you challenged internally",
+      "Tell me about a time you disagreed with a decision, committed to it, but the execution proved your initial concern was correct. How did you handle that situation?",
+      "Describe a situation where you had to defend a position or disagree with a majority in a high-stakes meeting (board, C-level). How did you structure your argument?",
+      "How do you ensure your team remains motivated and committed when executing a decision that you or the team disagreed with?"
     ]
   },
   "deliver_results": {
@@ -691,7 +705,8 @@ const typicalQuestions = {
       "Descreva uma situação onde você teve que experimentar e iterar para encontrar a solução certa",
       "Como você equilibra planejamento vs execução quando o futuro é incerto?",
       "Conte sobre uma vez em que você teve de defender uma visão de longo prazo sem dados nem consenso – como obteve apoio e validou a direção correta?",
-      "Fale sobre uma vez em que você teve de implementar mudanças em ambiente politicamente volátil e com objetivos indefinidos – como trouxe clareadez e resultados tangíveis?"
+      "Fale sobre uma vez em que você teve de implementar mudanças em ambiente politicamente volátil e com objetivos indefinidos – como trouxe clareadez e resultados tangíveis?",
+      "Descreva uma situação em que você teve que liderar uma iniciativa em um ambiente com alta ambiguidade cultural ou política, como uma fusão ou uma grande reestruturação. Como você criou clareza e manteve a equipe focada?"
     ],
     en: [
       "Tell me about a situation where you had to make critical decisions with incomplete information",
@@ -707,7 +722,8 @@ const typicalQuestions = {
       "Describe a situation where you had to experiment and iterate to find the right solution",
       "How do you balance planning vs execution when the future is uncertain?",
       "Tell me about a time you had to defend a long-term vision without data or consensus – how did you gain support and validate the right direction?",
-      "Tell me about a time you had to implement changes in a politically volatile environment with undefined objectives – how did you bring clarity and tangible results?"
+      "Tell me about a time you had to implement changes in a politically volatile environment with undefined objectives – how did you bring clarity and tangible results?",
+      "Describe a situation where you had to lead an initiative in an environment with high cultural or political ambiguity, such as a merger or a major restructuring. How did you create clarity and keep the team focused?"
     ]
   }
 };
