@@ -1,5 +1,3 @@
-import { HighlightableText } from "../HighlightableText.jsx";
-
 export default function FupSearchResults({
   results,
   language,
@@ -65,7 +63,7 @@ export default function FupSearchResults({
       >
         {questionText && (
           <div className="text-xs text-slate-500 mb-1 italic">
-            Re: "{questionText}"
+            Re: &ldquo;{questionText}&rdquo;
           </div>
         )}
         <div className="text-sm mb-1 text-slate-600">{renderSnippet(snippet, matches)}</div>

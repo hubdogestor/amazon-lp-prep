@@ -1,10 +1,6 @@
-import { HighlightableText } from "../HighlightableText.jsx";
 import { useTranslation } from "react-i18next";
 
 export default function FupSection({
-  caseData,
-  language,
-  caseSearchKey,
   isFupSearchOpen,
   fupSearchTerm,
   renderFupList,

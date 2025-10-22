@@ -747,6 +747,372 @@ I want to help Amazon grow without losing the traits that make it unique: empowe
           mic_drop: "Bar raising starts inside — strong culture equals delighted customers"
         }
       ]
+    },
+    por_que_mudar: {
+      question: "Why are you considering a move?",
+      category: "Motivation for Change",
+      versions: [
+        {
+          id: "foco_crescimento",
+          title: "Growth Focus",
+          badge: "Growth",
+          badgeColor: "bg-lime-500",
+          content: `I've reached a point where the next learning leap requires operating in an environment with global scale, higher velocity and problems I haven't solved yet. At Amazon I can combine what I learned in telecom, financial services and the public sector to tackle payment challenges that touch millions of customers every day.
+
+I want to keep growing in complexity: lead multi-disciplinary squads, build mechanisms that work across countries and accelerate my AI/ML curve applied to payments. In my current environment those challenges appear sporadically; at Amazon they are the everyday reality.`,
+          tags: ["growth", "learning", "scale", "career"],
+          hook: "Ready for another global-scale learning cycle",
+          mic_drop: "I want a place where the right challenge shows up every day, not once a year"
+        },
+        {
+          id: "foco_proposito",
+          title: "Purpose-Driven Move",
+          badge: "Purpose",
+          badgeColor: "bg-rose-500",
+          content: `I want to spend the next years on a mission that creates direct value for customers and partners. Amazon's mission resonates with me: make people's lives easier with reliable access to products and services.
+
+The Oakberry partnership shows a real opportunity to help Brazilian entrepreneurs scale with technology. That motivates me to wake up every day and use my skills in AI/ML, payments and governance to create tangible impact.`,
+          tags: ["purpose", "impact", "customers", "entrepreneurs"],
+          hook: "I want to build technology that changes how entrepreneurs and buyers operate",
+          mic_drop: "When career and purpose align I bring more energy every single day"
+        },
+        {
+          id: "foco_desafio_tecnico",
+          title: "Technical Challenge Focus",
+          badge: "Tech",
+          badgeColor: "bg-sky-600",
+          content: `I'm ready to dive into a bigger technical challenge: integrate AI/ML, automation and new payment rails in a platform with Amazon-level scale. I've already done it in regulated, mission-critical environments, but I want to take that experience to a context where experimentation is fast and global.
+
+Amazon's payment architecture, availability requirements and innovation speed are the perfect scenario to stretch both my technical and leadership skills.`,
+          tags: ["technology", "AI/ML", "architecture", "scale"],
+          hook: "Looking for a more demanding technical board",
+          mic_drop: "I want to craft the solutions that sustain the next decade of digital payments"
+        },
+        {
+          id: "foco_impacto_global",
+          title: "Global Impact Focus",
+          badge: "Impact",
+          badgeColor: "bg-amber-600",
+          content: `After impacting large segments in Brazil, I want to operate on a platform that speaks to the world. Amazon lets me learn from global teams, apply best practices locally and export solutions built here to other markets.
+
+That exchange expands my repertoire, sparks new ideas and keeps motivation high because I can see the impact crossing borders.`,
+          tags: ["global impact", "collaboration", "learning", "payments"],
+          hook: "Expand local impact to a global stage",
+          mic_drop: "I want solutions born in Brazil to solve problems in other countries too"
+        }
+      ]
+    },
+    por_que_amazon: {
+      question: "Why Amazon?",
+      category: "Motivation & Cultural Fit",
+      versions: [
+        {
+          id: "versao_principal",
+          title: "Core Version",
+          badge: "Recommended",
+          badgeColor: "bg-orange-500",
+          content: `What attracts me to Amazon is seeing genuine customer obsession paired with disciplined operational execution. Whenever I delivered lasting impact, it was in environments that reward people who dive deep, simplify the complex and carry the result across the finish line—and that's exactly how Amazon operates.
+
+When I connected Brazil to 4G at Huawei, I handled every regulatory dependency because I knew we were connecting people, not installing towers. At Unimed, I automated decisions with AI and returned 45 million dollars to the health system while speeding up approvals for patients. At HSBC, I guaranteed a three-billion-dollar migration with zero incidents because customer trust doesn't tolerate noise. The pattern is the same: start with the customer, go to the detail, simplify and deliver.
+
+I also admire how Amazon empowers builders. I turned war rooms into decision centers, created value frameworks and democratized data because I believe sustainable results come from replicable mechanisms, not heroics. I want to bring that energy to a company that thinks big, moves fast and measures success by real customer impact.
+
+For me Amazon is the natural next step: raise the bar every day, at global scale, knowing every detail matters.`,
+          tags: ["customer focus", "operational discipline", "ownership", "simplify"],
+          hook: "Genuine customer obsession paired with disciplined execution",
+          mic_drop: "Fifteen years of raising the bar meet the mechanism that scales impact"
+        },
+        {
+          id: "versao_payments",
+          title: "Payments Version",
+          badge: "Payments",
+          badgeColor: "bg-green-500",
+          content: `Amazon is about to take the next leap in payments with the Oakberry partnership, and that's exactly the kind of challenge that moves me. Combining AI/ML, large-scale operations and journey design to turn payments into a competitive advantage is where I deliver my best results.
+
+In recent years I led similar transformations: used Lean Six Sigma to redesign approval flows, deployed ML models that lifted authorization rate by 25% and built self-service pipelines that reduced cycle time by 40%. I did it by aligning product, engineering, risk, finance and external partners so technology, compliance and customer experience could advance together.
+
+I see three immediate fronts to apply this playbook at Amazon Brazil: automate decisions with predictive intelligence, expand self-service capabilities for Oakberry merchants and lower cost per transaction without hurting experience. My style is to define the mechanism, instrument metrics and run business reviews with data in hand—with VPs and with strategic partners.
+
+I want to lead this end-to-end transformation because payments are the silent engine of this growth. Every improvement we deliver unlocks expansion, enables new launches and strengthens Brazilian customers' trust in Amazon.`,
+          tags: ["payments", "AI/ML", "lean six sigma", "self-service"],
+          hook: "Use the Oakberry partnership as a springboard for next-gen payments",
+          mic_drop: "Turn operations into self-adjusting mechanisms that move with the customer"
+        },
+        {
+          id: "versao_builder",
+          title: "Builder Version",
+          badge: "Builder",
+          badgeColor: "bg-purple-500",
+          content: `Amazon is the ideal ecosystem for builders who start with the customer and design every step from that objective. Whenever I delivered something durable I followed that playbook: define the desired experience, prototype fast, measure and iterate. That's how I handled the 4G rollout, applied AI in healthcare and designed value frameworks for the public sector.
+
+My way of operating is to craft simple, scalable solutions. I created a War Room PMO that became a global reference, implemented data lakes that democratized information in hours and wrote AI playbooks later adopted at scale. All because I believe customers don't have time to wait for a perfect version—they need to feel progress continuously.
+
+I want to build with people who think big, deliver fast and measure obsessively. Amazon offers the right stage: complex challenges, real autonomy, peers who raise the bar and a culture where good ideas don't die for lack of ownership.`,
+          tags: ["simplify", "builder mindset", "customer-back planning", "ownership"],
+          hook: "Building from the customer back is how I naturally operate",
+          mic_drop: "From war room to data lake—replicable mechanisms, not heroics"
+        },
+        {
+          id: "versao_people_lideranca",
+          title: "Leadership & Culture Version",
+          badge: "People",
+          badgeColor: "bg-blue-500",
+          content: `Amazon doesn't chase results alone; it wants to stay one of the best places to work while delivering for customers. That combination moves me: balance business metrics with developing people.
+
+I led squads in critical operations while keeping internal NPS high, created IA/ML and Lean communities of practice that multiplied knowledge and built coaching mechanisms that raised PM and engineering maturity. I learned that culture isn't declared—it is built in every prioritization decision, every tough feedback and the care for those executing.
+
+I want to help Amazon grow without losing its essence: empowered teams, diversity of thought, autonomy with accountability and a high bar for leadership. For me, raising the bar starts at home: enable the people beside me so customers feel the difference outside.`,
+          tags: ["people leadership", "best employer", "continuous learning", "raise the bar"],
+          hook: "Grow without losing the mix of performance and human experience",
+          mic_drop: "A strong internal culture translates into happier customers"
+        }
+      ]
+    },
+    por_que_esta_vaga: {
+      question: "Why this specific role?",
+      category: "Fit with the Position",
+      versions: [
+        {
+          id: "versao_principal",
+          title: "Core Version",
+          badge: "Recommended",
+          badgeColor: "bg-purple-500",
+          content: `This role combines exactly the kind of transformation I've been driving: redesign critical operations with data, automation and coordination between technology and business. Leading the evolution of payments operations while the Oakberry partnership scales requires someone who can move from strategy to execution and come back with clear metrics.
+
+At Unimed I implemented AI to automate decisions and cut cycle time by 30%; at Sicredi I redesigned authorization rules with ML models that lifted approval rate by 25%; at SEFAZ-RS I built a data governance structure that enabled business decisions in hours, not weeks. In every case the secret was using Lean Six Sigma, instrumenting indicators and creating review mechanisms with executives and partners to maintain traction.
+
+I see three immediate fronts where I can accelerate Amazon: define the automation roadmap (AI/ML) with multi-disciplinary squads, obsessively measure efficiency and customer experience, and prepare internal areas for quick decisions through business reviews and clear dashboards. That's what I naturally do: turn plans into mechanisms that last.`,
+          tags: ["transformation", "AI/ML", "lean six sigma", "data governance"],
+          hook: "Turn plans into mechanisms that generate continuous traction",
+          mic_drop: "I've already led end-to-end critical operations with AI, metrics and coordination"
+        },
+        {
+          id: "versao_insights",
+          title: "Metrics & Insights Version",
+          badge: "Metrics",
+          badgeColor: "bg-indigo-500",
+          content: `The job needs someone who converts data into practical decisions and keeps the operation aligned. That's my comfort zone. In Rio Grande do Sul's government I integrated 48 sources and created bi-weekly business reviews that cut reaction time from weeks to hours. At Sicredi I built payment KPIs that guided changes almost in real time.
+
+For Amazon I want efficiency, experience and compliance metrics to be visible to every team, connecting AI/ML squads, operations, finance and external partners. From there I'll run weekly reviews focused on experiments, bottlenecks and next steps. The goal is to turn the payment operation into a self-explanatory system where every decision has data, an owner and a deadline.`,
+          tags: ["metrics", "insights", "business review", "automation"],
+          hook: "Fast decisions start with simple, visible metrics",
+          mic_drop: "I turned scattered data into a cadence of reviews that accelerates decisions"
+        },
+        {
+          id: "versao_parcerias",
+          title: "Partnerships & Stakeholders Version",
+          badge: "Stakeholders",
+          badgeColor: "bg-teal-500",
+          content: `The role demands orchestrating Amazon, Oakberry and other partners so technology, product and operations move together. That's how I led the HSBC–Bradesco migration and the 4G rollout: aligning regulators, suppliers and internal teams in plans with owners, risks and checkpoints.
+
+At Amazon I want to create a ritual where product, engineering, risk, finance and external partners review roadmap, dependencies and readiness ahead of time. That reduces surprises, secures technological integration and raises trust on all sides. My focus is to ensure every stakeholder knows what to do, when, with which success metric and how to escalate quickly when something blocks.`,
+          tags: ["stakeholders", "partnerships", "coordination", "shared roadmap"],
+          hook: "Orchestrate Amazon and partners so no link falls behind",
+          mic_drop: "I've aligned multinational critical programs with clear owners and dependencies"
+        },
+        {
+          id: "versao_eventos",
+          title: "Events & Readiness Version",
+          badge: "Operations",
+          badgeColor: "bg-amber-500",
+          content: `Another key part of the role is preparing Amazon for critical events and high-stakes operational reviews. That's what I did in the 2014 World Cup War Room and in major AI rollouts in healthcare: create checklists, simulations and contingency plans that prevent surprises.
+
+I want to apply the same rigor here: establish regular readiness reviews, run failure drills with technical teams and ensure the entire chain—from back office to customer support—is ready for peaks and changes. That means documenting runbooks, training teams and feeding learnings from every event back into the process.`,
+          tags: ["readiness", "critical operations", "contingency plans", "runbooks"],
+          hook: "Critical events demand checklists, drills and clear owners",
+          mic_drop: "I delivered zero surprises in high-risk moments through disciplined preparation"
+        }
+      ]
+    },
+    pontos_fortes: {
+      question: "What are your key strengths?",
+      category: "Self-awareness",
+      versions: [
+        {
+          id: "versao_principal",
+          title: "Core Version",
+          badge: "Recommended",
+          badgeColor: "bg-green-500",
+          content: `My main differentiator is the ability to dive deep into complex problems and convert diagnostics into measurable execution.
+
+At Huawei, when SLAs were at 382 days, I personally led root-cause analyses (Ishikawa and 5 Whys), negotiated with city halls and ANATEL and redesigned the entire flow. The result was 62 days—no shortcuts, just deep dive, data in hand and obsession with execution.
+
+At Unimed I automated 30% of claims processing with AI, generating 45 million dollars in annual savings. At HSBC I led the migration of three billion dollars with zero failures. All numbers are audited and documented.
+
+I also connect technical decisions to customer impact. At Sicredi, ML models I built reduced credit approval time and improved the experience of 6.4 million members.
+
+The common trait is balancing technical depth and business vision. I'm equally comfortable reviewing Python code or defending business cases for CFOs, ensuring we build the right thing, the right way, for the right reason.`,
+          tags: ["go deep", "drive outcomes", "customer focus", "technical"],
+          hook: "Deep dive with auditable delivery",
+          mic_drop: "Technical depth plus business lens that closes the loop"
+        },
+        {
+          id: "foco_estrategia",
+          title: "Strategic Vision Focus",
+          badge: "Strategy",
+          badgeColor: "bg-blue-700",
+          content: `I translate strategic vision into actionable, measurable roadmaps.
+
+At Unimed I anticipated competitive pressure and designed a digital portfolio that created four new revenue streams—now 5% of total revenue. At HSBC/Bradesco I turned an integration thesis into a coordinated program across five countries, migrating three billion dollars with no incidents.
+
+I combine long-term frameworks with operational cadence. I craft executive narratives, connect investments to metrics and monitor ROI continuously so strategy doesn't become a slide, but tangible delivery.`,
+          tags: ["strategy", "execution", "transformation", "ROI"],
+          hook: "Vision becomes roadmap, roadmap becomes outcome",
+          mic_drop: "Strategy translated into billions migrated and new revenue streams"
+        },
+        {
+          id: "foco_lideranca",
+          title: "Leadership Focus",
+          badge: "Leadership",
+          badgeColor: "bg-purple-700",
+          content: `I lead people in highly complex environments while keeping clarity, pace and engagement.
+
+I implemented the War Room PMO at Huawei, aligning more than 30 PMs and 20 suppliers. We dropped SLAs from 382 to 62 days because I built radical transparency, daily cadence and 24-hour decision mechanisms.
+
+My communication bridges technical and executive levels. I translate complexity into plain language, remove noise and ensure everyone knows the next step. That combination keeps teams energized even in long, demanding programs.`,
+          tags: ["leadership", "communication", "motivation", "complexity"],
+          hook: "Leadership with cadence, clarity and energy",
+          mic_drop: "War Room PMO replicated globally with energized teams"
+        },
+        {
+          id: "foco_inovacao",
+          title: "Innovation Focus",
+          badge: "Innovation",
+          badgeColor: "bg-yellow-600",
+          content: `I turn emerging technologies into solutions with proven ROI.
+
+I was a pioneer in the 4G rollout in Brazil and years later led AI automations that reduced Unimed's claims cycle by 30%. At Sicredi I designed algorithms that increased credit approval while keeping risk under control.
+
+I don't implement innovation for novelty. I build business cases, define success metrics, pilot with cross-functional squads and convert learning into organizational playbooks.`,
+          tags: ["innovation", "technology", "data-driven", "culture"],
+          hook: "Innovation with playbook and metrics, not hype",
+          mic_drop: "AI, 4G and OKRs turned into recurring value"
+        },
+        {
+          id: "foco_dados",
+          title: "Data & Metrics Focus",
+          badge: "Data & Metrics",
+          badgeColor: "bg-cyan-700",
+          content: `I'm obsessed with decisions anchored in data that is reliable and accessible.
+
+In Rio Grande do Sul's government I redesigned the fiscal data lake, integrating 48 sources, and built executive dashboards that cut decision cycles from weeks to hours. At Sicredi I democratized risk and product metrics, giving squads autonomy to test hypotheses.
+
+I invest in governance, data quality and visual storytelling. That discipline ensures every strategic discussion starts with facts, not assumptions.`,
+          tags: ["data", "analytics", "governance", "metrics"],
+          hook: "Great decisions start with trustworthy data",
+          mic_drop: "48 sources integrated → decisions in hours, not weeks"
+        },
+        {
+          id: "foco_cliente",
+          title: "Customer Obsession Focus",
+          badge: "Customer",
+          badgeColor: "bg-orange-600",
+          content: `I use the customer's voice as a compass to prioritize and design solutions.
+
+When I redesigned Sicredi's onboarding, I interviewed members, analyzed NPS and churn metrics. The result was a digital journey that lifted conversion by 23% and reduced contact center calls.
+
+I also bring field feedback to executive forums. That keeps financial, technological and operational decisions centered on the customer and generates visible value for the people using the service.`,
+          tags: ["customer focus", "experience", "NPS", "prioritization"],
+          hook: "Real customers guiding strategic decisions",
+          mic_drop: "Redesigned onboarding: +23% conversion and fewer calls"
+        },
+        {
+          id: "foco_aprendizado",
+          title: "Continuous Learning Focus",
+          badge: "Learn & Be Curious",
+          badgeColor: "bg-emerald-600",
+          content: `I learn fast, teach fast and create systems that multiply knowledge.
+
+I lead internal communities of practice in AI/ML and Lean, documenting playbooks and hosting tech talks to accelerate large-scale adoption. In every transformation I capture lessons learned and turn them into reusable frameworks.
+
+This mindset helps teams raise the bar together, reduces repeated mistakes and keeps the organization one step ahead.`,
+          tags: ["continuous learning", "coaching", "community", "continuous improvement"],
+          hook: "Learning that becomes a competitive advantage",
+          mic_drop: "Playbooks and communities that accelerate every new initiative"
+        }
+      ]
+    },
+    areas_desenvolvimento: {
+      question: "What are your development areas?",
+      category: "Self-awareness",
+      versions: [
+        {
+          id: "versao_delegacao_estrategica",
+          title: "Strategic Delegation",
+          badge: "Development",
+          badgeColor: "bg-yellow-500",
+          content: `A capability I'm sharpening is strategic delegation, especially in high-visibility projects. My technical background and love for detail sometimes make me take on tasks that would be better executed by specialists on the team. It's almost as if I wanted to personally ensure every piece is exactly where it should be.
+
+I spotted that during the AI implementation at Unimed, where I was initially too deep in the machine-learning layer. I realized that limited my ability to focus on strategy and stakeholder alignment. I was solving technical issues when I should ensure we were solving the right business problems.
+
+I developed a more structured approach: clearly define objectives and success criteria, map the best resources for each task and set regular checkpoints. That lets me keep visibility without micromanaging. In practice I no longer review every line of code; I define quality standards, establish paired code reviews and invest my energy in keeping the technical solution aligned with the business problem.
+
+The result was better team efficiency and delivery quality. It also freed up time for higher-value activities: strategic alignment, stakeholder management and developing people. It's a practical example of how developing the talent around me and trusting their expertise yields better outcomes than doing it alone. I keep working on this intentionally in every new project.`,
+          tags: ["delegation", "strategy", "people development", "self-awareness"],
+          hook: "Sharpening strategic delegation in high-visibility projects",
+          mic_drop: "Trusting the team's expertise beats doing everything myself"
+        },
+        {
+          id: "versao_comunicacao_executiva",
+          title: "Concise Executive Communication",
+          badge: "Development",
+          badgeColor: "bg-yellow-600",
+          content: `Another area I'm refining is making my executive communication more concise, especially when presenting complex technical topics to non-technical audiences. My instinct is to explain the full context and the underlying technical details because I find them fascinating and important. But I've learned that the audience doesn't always need or want that level of depth.
+
+I saw it clearly during a Unimed board presentation where I started with the machine-learning architecture before covering business results. I noticed on their faces that I was losing the room. The CFO kindly interrupted: "Leonardo, how much will this save?" That was a wake-up call.
+
+Since then I've worked deliberately on structuring communication by opening with the impact and offering technical detail only on demand. I use frameworks like Situation-Complication-Resolution and always prepare a two-minute executive version and a fifteen-minute detailed version. I also ask for feedback regularly: "Was I clear? Do you need more or less detail?"
+
+The improvement is evident. At SEFAZ-RS my presentations to the Secretary of Finance are much more effective because I start with the "so what"—revenue impact, efficiency, citizens served—and only dive into technical detail when asked. It's a constant balance between my passion for technical detail and the need to communicate in a way that resonates with each audience.`,
+          tags: ["communication", "executive", "audience", "self-awareness"],
+          hook: "Making executive communication more concise and impact-first",
+          mic_drop: "Lead with the 'so what' and offer technical depth only if needed"
+        },
+        {
+          id: "paciencia_processos_politicos",
+          title: "Patience with Organizational Politics",
+          badge: "Development",
+          badgeColor: "bg-amber-500",
+          content: `I'm continuously working on my patience with organizational politics, especially when I feel technical decisions are being influenced by factors unrelated to the solution's merit.
+
+My natural orientation is efficiency and outcome delivery, which sometimes makes me want to accelerate consensus-building steps that are vital for organizational buy-in. I learned that while implementing OKR frameworks at SEFAZ-RS, when I realized having the best architecture wasn't enough—we needed lasting agreements.
+
+Today I invest more time at the beginning of projects to map political dynamics, identify champions in different areas and translate technical benefits into strategic goals. I also started to view the consensus-building process as part of the work, not as an obstacle.
+
+The result is more sustainable implementations, with organic adoption and less rework. Turning politics into a lever has become a personal competitive advantage.`,
+          tags: ["politics", "consensus", "sustainability", "adoption"],
+          hook: "Turning politics into an adoption lever",
+          mic_drop: "Well-built consensus equals sustainable rollouts"
+        },
+        {
+          id: "decisoes_com_dados_incompletos",
+          title: "Decisions with Imperfect Data",
+          badge: "Development",
+          badgeColor: "bg-yellow-400",
+          content: `I'm also evolving my ability to take quick decisions even when the data isn't perfect. My natural reflex is to keep digging until I have 100% statistical confidence, and that has delayed experiments in the past.
+
+To balance it, I now define analysis timeboxes, agree upfront on the acceptable confidence level and map exactly what learning I expect from each cycle. If data is still incomplete at the agreed deadline, we move ahead with a controlled experiment and gather the missing information afterwards.
+
+This adjustment shortened decision time, preserved a bias for action and created a cadence of continuous learning without analysis paralysis. The team gained speed without abandoning accountability.`,
+          tags: ["decision", "data", "sense of urgency", "timeboxing"],
+          hook: "Time-boxed analysis for decisions without paralysis",
+          mic_drop: "Sprint-paced decisions with incremental learning"
+        },
+        {
+          id: "proteção_foco_time",
+          title: "Protecting Squad Focus",
+          badge: "Development",
+          badgeColor: "bg-orange-500",
+          content: `I'm also honing my discipline to say "not now" to requests that dilute the team's focus. My desire to generate impact used to make me accept new demands without checking available capacity, which overloaded squads during the Oakberry rollout.
+
+Now, before taking on extra work, I review active OKRs, validate trade-offs with capacity data and build transparent narratives with stakeholders. When I accept a new request, I adjust the backlog immediately and communicate the impact to avoid last-minute heroics.
+
+That muscle brought predictability to the roadmap, protected team energy and kept delivery quality high. I've learned that focus is also a leadership decision.`,
+          tags: ["prioritization", "focus", "capacity", "trade-offs"],
+          hook: "A focus shield that protects squad capacity",
+          mic_drop: "Protected focus equals consistent delivery without last-minute heroes"
+        }
+      ]
     }
   }
 };

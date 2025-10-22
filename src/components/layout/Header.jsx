@@ -310,7 +310,7 @@ export default function Header({
               aria-pressed={showTopCases}
               title={t('showOnlyTopCases')}
             >
-              🎯 {t('topCases')}
+              {t('topCases')}
             </button>
 
             {/* Icebreaker */}

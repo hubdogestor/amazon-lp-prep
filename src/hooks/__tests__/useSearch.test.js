@@ -1,7 +1,6 @@
 import { describe, it, expect, vi } from 'vitest';
 import { renderHook, act } from '@testing-library/react';
 import { useSearch } from '../useSearch.js';
-import typicalQuestions from '../../data/typicalQuestions.js';
 
 vi.mock('../../data/typicalQuestions.js', () => ({
   default: {

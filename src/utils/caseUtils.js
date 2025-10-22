@@ -1,5 +1,4 @@
-import { norm } from './textUtils.js';
-import { extractBaseTitle, extractCompany, extractPeriod } from './textUtils.js';
+import { extractBaseTitle } from './textUtils.js';
 
 /**
  * Check if a case is marked as top case
@@ -30,15 +29,7 @@ export const getCaseBaseTitle = (c, lang) => {
  */
 export const getDisplayCaseTitle = (c, language) => {
   const base = getCaseBaseTitle(c, language);
-
-  const company = c.company || extractCompany(c.title);
-  const period = c.period || extractPeriod(c.title);
-
-  const comp = company ? ` – ${company}` : "";
-  const per = period ? ` (${period})` : "";
-  const target = c.isTopCase ? " 🎯" : "";
-
-  return `${base}${comp}${per}${target}`;
+  return base;
 };
 
 /**
@@ -49,5 +40,3 @@ export const getDisplayCaseTitle = (c, language) => {
 export const getCaseFups = (c) => {
   return c.fups || c.fup || [];
 };
-
-

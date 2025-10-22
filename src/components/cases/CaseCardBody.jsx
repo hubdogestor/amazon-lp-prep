@@ -1,4 +1,3 @@
-import { HighlightableText } from "../HighlightableText.jsx";
 import StarSection from "./StarSection.jsx";
 import FupSection from "./FupSection.jsx";
 
@@ -37,9 +36,6 @@ export default function CaseCardBody({
       />
 
       <FupSection
-        caseData={caseData}
-        language={language}
-        caseSearchKey={caseSearchKey}
         isFupSearchOpen={isFupSearchOpen}
         fupSearchTerm={fupSearchTerm}
         renderFupList={renderFupList}

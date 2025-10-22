@@ -61,7 +61,7 @@ export default function CaseCardHeader({
         <div className="flex flex-col">
           <h3 className={`text-xl font-bold tracking-tight leading-tight text-left ${isTop ? "text-[#232F3E] dark:text-orange-400" : "text-slate-900 dark:text-slate-100"} ${isCaseUsed ? "text-slate-500 dark:text-slate-600" : ""}`}>
             <HighlightableText
-              text={language === "en" ? (caseData.title_en || caseData.title_pt || caseData.title) : (caseData.title_pt || caseData.title)}
+              text={getDisplayCaseTitle(caseData, language)}
               searchTerm={highlightCaseTerm}
               className={isCaseUsed ? "line-through decoration-2 decoration-slate-500" : ""}
             />
@@ -90,7 +90,6 @@ export default function CaseCardHeader({
                 {caseData.keywords}
               </span>
             )}
-            {caseData.isTopCase && <span className="text-lg">🎯</span>}
           </div>
         </div>
       </div>

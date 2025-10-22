@@ -38,7 +38,6 @@ const TypicalQuestionItem = memo(({
       title={tooltip}
     >
       <span className="flex items-center gap-1.5">
-        {hasCase && <span className="text-green-600 font-bold text-base flex-shrink-0">✓</span>}
         <HighlightableText
           text={q}
           searchTerm={highlightTypicalTerm}

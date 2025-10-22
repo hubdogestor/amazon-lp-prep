@@ -2,8 +2,12 @@ import { useState, useEffect, useMemo, useRef, useCallback } from "react";
 import { CheckCircle2, Circle } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import icebreakerData from "../../data/icebreaker.js";
+import { splitTitleQualifier } from "../../utils/textUtils.js";
 import { HighlightableText } from "../HighlightableText.jsx";
 import NarrativeModal from "./NarrativeModal.jsx";
+
+const DEFAULT_ICEBREAKER_LANGUAGE = "pt";
+const FALLBACK_ICEBREAKER_DATA = icebreakerData[DEFAULT_ICEBREAKER_LANGUAGE] || {};
 
 const BrazilFlagIcon = () => (
   <svg width="24" height="17" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
@@ -45,7 +49,9 @@ const UsaFlagIcon = () => (
 export default function IcebreakerModal({ language: initialLanguage, onClose, usedIcebreakers = {}, onToggleUsed = () => {} }) {
   const { t } = useTranslation();
   const [language, setLanguage] = useState(initialLanguage);
-  const data = icebreakerData[language];
+  const data = icebreakerData[language] || FALLBACK_ICEBREAKER_DATA;
+  const title = data.title || FALLBACK_ICEBREAKER_DATA.title;
+  const subtitle = data.subtitle || FALLBACK_ICEBREAKER_DATA.subtitle;
   const [expandedSection, setExpandedSection] = useState(null);
   const [activeNarrative, setActiveNarrative] = useState(null);
   const [narrativeFilter, setNarrativeFilter] = useState("");
@@ -62,12 +68,19 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
     containerRef?.current?.focus();
   }, []);
 
-  const sections = Object.keys(data)
-    .filter((key) => !["title", "subtitle", "questions"].includes(key))
-    .map((key) => ({
-      id: key,
-      data: data[key],
-    }));
+  const sectionKeys = Array.from(
+    new Set([
+      ...Object.keys(FALLBACK_ICEBREAKER_DATA),
+      ...Object.keys(data),
+    ])
+  ).filter((key) => !["title", "subtitle", "questions"].includes(key));
+
+  const sections = sectionKeys
+    .map((key) => {
+      const sectionData = data[key] || FALLBACK_ICEBREAKER_DATA[key];
+      return sectionData ? { id: key, data: sectionData } : null;
+    })
+    .filter(Boolean);
 
   const narrativeSuggestions = useMemo(() => {
     if (!normalizedSearch) return [];
@@ -204,9 +217,9 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
         <div className="bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <div>
             <h2 id="icebreaker-title" className="text-2xl font-bold text-white flex items-center gap-2">
-              🧊 {data.title}
-            </h2>
-            <p className="text-orange-100 text-sm mt-1">{data.subtitle}</p>
+            🧊 {title}
+          </h2>
+          <p className="text-orange-100 text-sm mt-1">{subtitle}</p>
           </div>
           <div className="flex w-full flex-wrap items-center gap-3 md:flex-nowrap md:flex-1 md:justify-end">
             <div className="relative flex-1 basis-full md:basis-auto min-w-[260px] md:max-w-none">
@@ -233,6 +246,7 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
                     const subtitleClass = isNarrativeUsed
                       ? "line-through decoration-slate-300 text-slate-500"
                       : "text-slate-500";
+                    const { main: suggestionTitleMain, qualifier: suggestionTitleQualifier } = splitTitleQualifier(item.version.title);
 
                     return (
                       <button
@@ -257,7 +271,12 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
                           <HighlightableText text={item.snippet} searchTerm={narrativeFilter} className={snippetClass} />
                         </p>
                         <p className={`text-xs ${subtitleClass}`}>
-                          {item.sectionTitle} - {item.version.title}
+                          {item.sectionTitle} - {suggestionTitleMain}
+                          {suggestionTitleQualifier && (
+                            <span className="ml-1 text-[11px] font-normal text-slate-500">
+                              ({suggestionTitleQualifier})
+                            </span>
+                          )}
                         </p>
                       </button>
                     );
@@ -338,6 +357,8 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
                             ? t('unmarkUsedNarrative')
                             : t('markUsedNarrative');
 
+                          const { main: versionTitleMain, qualifier: versionTitleQualifier } = splitTitleQualifier(version.title);
+
                           return (
                             <div key={version.id} className="relative">
                               <button
@@ -366,7 +387,12 @@ export default function IcebreakerModal({ language: initialLanguage, onClose, us
                                         <h4 className={`text-lg font-bold text-gray-900 ${
                                           isNarrativeUsed ? "line-through decoration-slate-500 text-slate-600" : ""
                                         }`}>
-                                          {version.title}
+                                          <span>{versionTitleMain}</span>
+                                          {versionTitleQualifier && (
+                                            <span className="ml-2 text-sm font-normal text-gray-600 dark:text-gray-300">
+                                              ({versionTitleQualifier})
+                                            </span>
+                                          )}
                                         </h4>
                                       </div>
                                       {version.context && (

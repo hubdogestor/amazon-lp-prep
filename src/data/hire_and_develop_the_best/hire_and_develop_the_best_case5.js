@@ -63,4 +63,4 @@ const case_5 = {
   ]
 };
 
-export default case_5;;
+export default case_5;

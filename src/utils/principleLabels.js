@@ -1,5 +1,3 @@
-import { norm } from "./textUtils.js";
-
 export const PT_KEYS = [
   "customer_obsession",
   "ownership",

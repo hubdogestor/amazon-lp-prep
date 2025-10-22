@@ -9,7 +9,7 @@ const t = (key) => {
     case 'kSearch': return 'CASES 🗂️';
     case 'kFup': return 'FUP 🔎';
     case 'kTypical': return 'QUESTIONS ❓';
-    case 'topCases': return '🎯 Top Cases';
+    case 'topCases': return 'Top Cases';
     case 'icebreaker': return '💬 Icebreaker';
     case 'myQuestions': return '🤔 My Questions';
     case 'noResult': return 'No results';

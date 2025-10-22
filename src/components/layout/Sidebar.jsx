@@ -26,7 +26,7 @@ export default function Sidebar({
       </div>
 
       {/* Botões dos LPs - estilo Amazon com fundo e divisores */}
-      {(principlesData || []).map((p, index) => {
+      {(principlesData || []).map((p) => {
         // IDs após os quais deve aparecer um divisor
         const dividersAfter = ['program_management', 'invent_and_simplify', 'stakeholder_management', 'prioritizing_and_influence', 'deal_with_ambiguity'];
         const shouldShowDivider = dividersAfter.includes(p.id);

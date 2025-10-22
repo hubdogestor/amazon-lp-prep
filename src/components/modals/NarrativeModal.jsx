@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { CheckCircle2, Circle } from "lucide-react";
+import { splitTitleQualifier } from "../../utils/textUtils.js";
 
 export default function NarrativeModal({ narrative, language, onClose, isUsed = false, onToggleUsed }) {
   const modalRef = useRef(null);
@@ -11,6 +12,7 @@ export default function NarrativeModal({ narrative, language, onClose, isUsed = 
   if (!narrative || !narrative.version) return null;
 
   const { sectionTitle, sectionCategory, version } = narrative;
+  const { main: versionTitleMain, qualifier: versionTitleQualifier } = splitTitleQualifier(version.title || "");
 
   const renderRichContent = (value) => {
     if (!value) return null;
@@ -73,7 +75,14 @@ export default function NarrativeModal({ narrative, language, onClose, isUsed = 
                   {version.badge}
                 </span>
               )}
-              <p className="text-sm text-orange-100">{version.title}</p>
+              <p className="text-sm text-orange-100">
+                <span>{versionTitleMain || version.title}</span>
+                {versionTitleQualifier && (
+                  <span className="ml-1 text-xs font-normal text-orange-100/80">
+                    ({versionTitleQualifier})
+                  </span>
+                )}
+              </p>
             </div>
           </div>
           <div className="flex items-center gap-3">

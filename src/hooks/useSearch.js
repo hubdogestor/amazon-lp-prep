@@ -145,7 +145,7 @@ export function useSearch(principlesData, language, selectedLooping) {
             };
           });
       });
-  }, [principlesData, debouncedTypicalQuestionSearch, language, selectedLooping]);
+  }, [principlesData, debouncedTypicalQuestionSearch, language, selectedLooping, allCasesById]);
 
   // Case search results with context - memoized (multi-word support)
   const caseSearchResults = useMemo(() => {

@@ -18,11 +18,7 @@ import {
   getDisplayName as getPrincipleDisplayName,
   sortPrinciples as sortPrinciplesByLanguage,
 } from "./utils/principleLabels.js";
-import {
-  FUP_SCROLL_DELAY,
-  CASE_EXPAND_DELAY,
-  DEBOUNCE_SEARCH_DELAY,
-} from "./constants.js";
+import { CASE_EXPAND_DELAY } from "./constants.js";
 import "./App.css";
 import { X } from "lucide-react";
 const IcebreakerModal = lazy(() => import("./components/modals/IcebreakerModal.jsx"));
@@ -67,6 +63,7 @@ function scrollToElementWhenReady(elementId, options, timeout = 3000) {
 
 export default function App() {
   const { t, i18n } = useTranslation();
+  const language = i18n.language || "pt";
   const [selectedPrinciple, setSelectedPrinciple] = useState("all");
   const [expandedCases, setExpandedCases] = useState({});
   const [selectedLooping, setSelectedLooping] = useState(null);
@@ -129,8 +126,6 @@ export default function App() {
   const [showTopCases, setShowTopCases] = useState(false);
   const [showIcebreaker, setShowIcebreaker] = useState(false);
   const [showMyQuestions, setShowMyQuestions] = useState(false);
-  const [language, setLanguage] = useState('pt');
-  const [isSearching, setIsSearching] = useState(false);
   const [copiedCaseId, setCopiedCaseId] = useState(null);
 
   const rawPrinciplesData = usePrinciplesData();
@@ -160,6 +155,7 @@ export default function App() {
     typicalQuestionSearchResults,
     caseSearchResults,
   } = useSearch(principlesData, language, selectedLooping);
+  const isSearching = Boolean(searchTerm || questionSearch || typicalQuestionSearch);
 
   useEffect(() => {
     const handleEscape = (e) => {
@@ -380,7 +376,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
       console.error('Falha ao copiar:', err);
       alert(t('copyError'));
     }
-  }, [generatePrompt, i18n.language, t]);
+  }, [generatePrompt, language, t]);
 
   // Navegar para o case mapeado a partir de uma pergunta típica
   const navigateToMappedCase = useCallback((lpId, questionIndex, questionId = null) => {
@@ -406,7 +402,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
         setHighlightedCase(caseDomId, 2000);
       }
     }, 100);
-  }, [getBestCaseOption, setExpandedCases, setSelectedPrinciple, scrollToElementWhenReady, setHighlightedTypicalQuestion, slugify, setHighlightedCase]);
+  }, [getBestCaseOption, setExpandedCases, setSelectedPrinciple, setHighlightedTypicalQuestion, setHighlightedCase]);
 
   // Toggle busca local de FUPs para um case específico
   const toggleCaseFupSearch = useCallback((caseId) => {
@@ -490,7 +486,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
   }, []);
 
   // Handler para seleção de resultado de busca de cases
-  const handleCaseSearchResultSelect = useCallback((result, savedSearchWords) => {
+  const handleCaseSearchResultSelect = useCallback((result, _savedSearchWords) => {
     const { p, c } = result;
     const caseId = c.id || c.title;
     
@@ -511,7 +507,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
   }, [searchTerm, clearExpanded, setHighlightedCase, setHighlightCaseTerm, setSearchTerm, setQuestionSearch, setTypicalQuestionSearch, setSelectedPrinciple, setShowTopCases, setExpandedCases]);
 
   // Handler para seleção de resultado de busca de FUPs
-  const handleFupSearchResultSelect = useCallback((result, savedSearchWords) => {
+  const handleFupSearchResultSelect = useCallback((result, _savedSearchWords) => {
     const { principle, caseData, originalIdx } = result;
     const caseId = caseData.id || caseData.title;
 
@@ -553,7 +549,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
     setSearchTerm("");
     setQuestionSearch("");
     
-  }, [setHighlightTypicalTerm, setSelectedPrinciple, setShowTopCases, scrollToElementWhenReady, setHighlightedTypicalQuestion, setTypicalQuestionSearch, setSearchTerm, setQuestionSearch]);
+  }, [setHighlightTypicalTerm, setSelectedPrinciple, setShowTopCases, setHighlightedTypicalQuestion, setTypicalQuestionSearch, setSearchTerm, setQuestionSearch]);
 
   // Handler para botão Home
   const handleHomeClick = useCallback(() => {
@@ -571,7 +567,19 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
 
     // Scroll to top
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [clearExpanded, clearHighlights]);
+  }, [
+    clearExpanded,
+    clearHighlights,
+    setSearchTerm,
+    setQuestionSearch,
+    setTypicalQuestionSearch,
+    setHighlightCaseTerm,
+    setHighlightFupTerm,
+    setHighlightTypicalTerm,
+    setSelectedPrinciple,
+    setShowTopCases,
+    setSelectedLooping,
+  ]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">

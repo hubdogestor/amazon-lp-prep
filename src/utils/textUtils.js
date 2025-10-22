@@ -95,3 +95,24 @@ export const extractBaseTitle = (originalTitle) => {
     .replace(/\s*\([^)]*\)\s*$/, '')
     .trim();
 };
+
+/**
+ * Split a title into main text and trailing qualifier in parentheses.
+ * @param {string} title - Title containing optional qualifier in parentheses
+ * @returns {{ main: string, qualifier: string|null }} Parts of the title
+ */
+export function splitTitleQualifier(title) {
+  if (typeof title !== "string") {
+    return { main: title, qualifier: null };
+  }
+
+  const match = title.match(/^(.*?)(\s*\((.+)\))$/);
+  if (!match) {
+    return { main: title, qualifier: null };
+  }
+
+  return {
+    main: match[1].trim(),
+    qualifier: match[3].trim(),
+  };
+}

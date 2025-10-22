@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import MainContent from '../MainContent.jsx';
 
@@ -11,8 +11,8 @@ describe('MainContent', () => {
     filterAll: 'All Principles',
   };
 
-  const getDisplayName = (p, lang) => p.name;
-  const getDisplayCaseTitle = (c, lang) => c.title;
+  const getDisplayName = (p, _lang) => p.name;
+  const getDisplayCaseTitle = (c, _lang) => c.title;
 
   const baseProps = {
     isSearching: false,
