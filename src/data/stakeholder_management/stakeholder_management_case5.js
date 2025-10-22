@@ -5,6 +5,8 @@ const case_5 = {
   company: "Huawei",
   period: "01/2013-07/2014",
   role: "Program Manager / Stakeholder Lead",
+  role: "Program Manager / Stakeholder Lead",
+  keywords: "#stakeholders | #governança | #programa-complexo | #negociação | #crise",
   isTopCase: false,
 
   pt: {

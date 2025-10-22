@@ -5,6 +5,8 @@ const case_1 = {
   title_en: "Global Rollout Model Transformation at Huawei - From Brazil to Worldwide Standard",
   company: "Huawei",
   period: "01/2012--06/2023",
+  role: "Program Manager",
+  keywords: "#stakeholders | #governança | #criar-mecanismos | #escalabilidade | #programa-complexo",
   isTopCase: false,
   isGoodCase: false,
   pt: {

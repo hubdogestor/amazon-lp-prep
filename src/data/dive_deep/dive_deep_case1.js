@@ -5,6 +5,8 @@ const case_1 = {
   title_en: "Data Analysis to Identify the Main Drivers of App Churn",
   company: "Sicredi Woop",
   period: "01/2019-10/2019",
+  role: "Product Strategist",
+  keywords: "#causa-raiz | #análise-de-dados | #churn | #5-porquês | #sql",
   isTopCase: true,
   isGoodCase: false,
 

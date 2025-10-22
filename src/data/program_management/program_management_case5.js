@@ -5,7 +5,9 @@ const case_5 = {
   title_en: "Communicated a 3-Month Delay in the Woop App Launch to the Board",
   company: "Sicredi",
   period: "06/2019 - 09/2019",
-  isTopCase: false,
+    role: "Product Strategist",
+  keywords: "#comunicar-atraso | #crise | #plano-de-mitigação | #programa-complexo | #stakeholders",
+isTopCase: false,
   isGoodCase: true,
   pt: {
     s: "Em junho de 2019, como Product Strategist no Sicredi, eu era o lider responsável pelo lançamento do Woop, nosso banco digital. O projeto, com orçamento de R$ 10 milhoes, era a principal aposta estrategica para competir com fintechs. Porem, durante a fase final de testes, descobrimos falhas criticas de integração entre a nova plataforma é os sistemas legados do Sicredi, projetando um atraso inevitavel de tres meses. O cenário era de alta pressao: o board executivo contava com o lançamento em setembro para capturar um pico sazonal de adocao, é qualquer desvio colocaria em risco a confianca dos stakeholders é o retorno do investimento.",

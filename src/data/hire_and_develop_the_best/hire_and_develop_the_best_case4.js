@@ -7,6 +7,8 @@ const case_4 = {
   company: "Unimed Porto Alegre",
   period: "03/2024-09/2024",
   role: "Strategy Advisor / Group Product Manager",
+  role: "Strategy Advisor / Group Product Manager",
+  keywords: "#promoção-controversa | #elevar-padrão | #potencial-vs-senioridade | #decisão-dados | #meritocracia",
   context: "Digital Health Products",
   isTopCase: false,
   isGoodCase: false,

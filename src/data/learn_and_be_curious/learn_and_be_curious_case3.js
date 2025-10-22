@@ -6,6 +6,8 @@ const case_3 = {
   title_en: "Blockchain Payment Solution Prototyping After Specialization",
   company: "OLÍBANO",
   period: "03/2024-08/2024",
+  role: "Partner-Investor",
+  keywords: "#aprender-nova-tecnologia | #blockchain | #dizer-não-ainda | #curiosidade-disciplinada | #due-diligence",
   isTopCase: false,
   isGoodCase: false,
   pt: {

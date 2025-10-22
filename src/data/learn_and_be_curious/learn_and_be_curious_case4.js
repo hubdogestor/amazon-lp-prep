@@ -6,6 +6,8 @@ const case_4 = {
   title_en: "How I Stayed Updated in Payments/Fintech and Built a Continuous Learning System with Reusable PoCs",
   company: "Sicredi",
   period: "05/2018-05/2021",
+  role: "Digital Strategist",
+  keywords: "#manter-se-atualizado | #aprendizado-contínuo | #poc-reutilizável | #pipeline-de-conhecimento | #curiosidade-estruturada",
   isTopCase: true,
   isGoodCase: false,
 

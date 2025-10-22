@@ -6,6 +6,8 @@ const case_3 = {
   title_en: "Underperforming Analyst Development Through Reallocation and Ownership",
   company: "Unimed",
   period: "01/2023--12/2023",
+  role: "Innovation Head",
+  keywords: "#baixo-desempenho | #realocação | #desenvolver-talentos | #desalinhamento-perfil | #mentoria",
   isTopCase: false,
   isGoodCase: false,
   pt: {

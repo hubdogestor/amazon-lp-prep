@@ -6,6 +6,8 @@ const case_7 = {
   company: "Unimed RS",
   period: "01/2022-12/2022",
   role: "Engineering Manager / Site Reliability Engineering Lead",
+  role: "Engineering Manager / Site Reliability Engineering Lead",
+  keywords: "#elevar-padrão | #impossível | #disponibilidade | #sre | #confiabilidade",
   context: "Healthcare Technology - Critical Patient Systems",
   isTopCase: true,
   isGoodCase: true,

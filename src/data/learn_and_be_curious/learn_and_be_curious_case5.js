@@ -5,6 +5,8 @@ const case_5 = {
   title_en: "Led the Transparency Portal: Out of the Comfort Zone",
   company: "SEFAZ/RS",
   period: "08/2024-11/2024",
+  role: "Advisor",
+  keywords: "#zona-de-conforto | #aprender-rápido | #lgpd | #governança-pública | #curiosidade-com-método",
   isTopCase: true,
   isGoodCase: false,
 

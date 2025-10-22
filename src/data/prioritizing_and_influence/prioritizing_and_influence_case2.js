@@ -6,6 +6,8 @@ const case_2 = {
   title_en: "Reprioritized 100% Roadmap in 72 Hours During COVID and Saved R$ 340M in Operations",
   company: "Bradesco",
   period: "03/2020",
+  role: "Head of Digital Product",
+  keywords: "#reprioritizar-em-crise | #dizer-não | #trade-off | #influenciar-stakeholders | #roadmap",
   isTopCase: true,
   isGoodCase: false,
   pt: {

@@ -5,6 +5,8 @@ const case_3 = {
   title_en: "Adjusted the Fiscal Projects Roadmap at SEFAZ Due to Tax Reform",
   company: "Secretaria da Fazenda do RS",
   period: "09/2024 - 03/2025",
+  role: "Advisor",
+  keywords: "#ajustar-roadmap | #mudança-externa | #crise-regulatória | #programa-complexo | #stakeholders",
   isTopCase: false,
   isGoodCase: true,
   pt: {

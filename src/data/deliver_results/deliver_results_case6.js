@@ -6,6 +6,8 @@ const case_6 = {
   company: "Unimed Porto Alegre",
   period: "06/2023-09/2023",
   role: "Strategy Advisor / Group Product Manager",
+  role: "Strategy Advisor / Group Product Manager",
+  keywords: "#decisão-impopular | #cortar-fornecedor | #risco-vs-recompensa | #priorizar-cliente | #trade-off",
   context: "Telemedicine Platform Launch",
   isTopCase: true,
   isGoodCase: false,

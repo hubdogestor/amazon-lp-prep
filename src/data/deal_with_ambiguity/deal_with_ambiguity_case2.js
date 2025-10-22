@@ -5,6 +5,8 @@ const case_2 = {
   title_en: "Institutional PMO Structuring and PROFISCO II Governance from Scratch",
   company: "SEFAZ/RS",
   period: "08/2024-11/2025",
+  role: "Senior Methodology Consultant",
+  keywords: "#criar-do-zero | #sem-mandato | #governança | #setor-público | #ambiguidade",
   isTopCase: false,
   isGoodCase: false,
   pt: {

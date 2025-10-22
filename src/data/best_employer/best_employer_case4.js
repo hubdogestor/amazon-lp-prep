@@ -5,6 +5,8 @@ const case_4 = {
   title_pt: "Criei o padrão 'Zero Data Loss' que outros achavam impossível, desenvolvendo capacidades da equipe",
   company: "HSBC",
   period: "05/2015 - 06/2016",
+  role: "Program Manager",
+  keywords: "#elevar-padrão | #crenças-limitantes | #desenvolvimento-equipe | #segurança-psicológica | #liderança-pelo-exemplo",
   isTopCase: false,
   isGoodCase: true,
   pt: {

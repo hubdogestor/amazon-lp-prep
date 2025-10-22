@@ -7,6 +7,8 @@ const case_5 = {
   company: "SEFAZ-RS",
   period: "07/2024-01/2025",
   role: "Advisor PMO / Executive Office",
+  role: "Advisor PMO / Executive Office",
+  keywords: "#intuição-vs-dados | #mudar-de-opinião | #experimento | #governança | #híbrido",
   context: "PROFISCO II Program - IDB Partnership",
   isTopCase: false,
   isGoodCase: false,

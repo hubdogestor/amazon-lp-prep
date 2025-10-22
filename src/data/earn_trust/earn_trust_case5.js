@@ -5,6 +5,8 @@ const case_5 = {
   title_en: "Redefined critical SLA with director to restore operational credibility",
   company: "Bradesco Payments",
   period: "03/2018-07/2018",
+  role: "Product Manager",
+  keywords: "#redefinir-sla | #credibilidade | #crise | #transparência | #stakeholder",
   isTopCase: false,
   isGoodCase: false,
 

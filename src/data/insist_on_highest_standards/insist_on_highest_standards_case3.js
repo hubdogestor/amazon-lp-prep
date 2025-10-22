@@ -5,6 +5,8 @@ const case_3 = {
   title_en: "I Redesigned the Sicredi Payment Gateway for 99.99% Availability After a Critical Failure",
   company: "Sicredi",
   period: "02/2019 - 11/2019",
+  role: "Product Strategist",
+  keywords: "#elevar-padrão | #disponibilidade | #sre | #crise | #excelência",
   isTopCase: false,
   isGoodCase: false,
   pt: {

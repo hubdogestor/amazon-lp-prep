@@ -5,6 +5,8 @@ const case_3 = {
   title_en: "International Payments Crisis -- Turning Costs and SLAs Around in 90 Days",
   company: "Bradesco",
   period: "01/2017-06/2017",
+  role: "Digital Transformation Coordinator",
+  keywords: "#crise | #turnaround | #assumir-responsabilidade | #sla | #pagamentos",
   isTopCase: false,
   isGoodCase: false,
 

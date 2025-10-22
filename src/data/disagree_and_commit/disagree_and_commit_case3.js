@@ -5,6 +5,8 @@ const case_3 = {
   title_en: "Disagreed with MVP feature prioritization, accepted the committee's decision, and delivered results that funded my original plan",
   company: "Bradesco Next",
   period: "11/2017 - 05/2018",
+  role: "Head of Product",
+  keywords: "#discordar | #ser-rejeitado | #executar-com-excelência | #ganhar-influência | #mvp",
   isTopCase: true,
   isGoodCase: false,
   pt: {

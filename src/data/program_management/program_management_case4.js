@@ -5,6 +5,8 @@ const case_4 = {
   title_en: "Canceled the CVC Program at Lacador Participações Due to Management Change",
   company: "Unimed",
   period: "01/2022 - 06/2022",
+  role: "Group Product Manager",
+  keywords: "#cancelar-programa | #decisão-impopular | #mudança-de-gestão | #realocar-recursos | #stakeholders",
   isTopCase: false,
   isGoodCase: true,
   pt: {

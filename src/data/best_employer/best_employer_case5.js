@@ -6,6 +6,8 @@ const case_5 = {
   title_en: "Protecting the Team and Maintaining Morale During the High-Risk HSBC-Bradesco Migration",
   company: "HSBC",
   period: "05/2015 - 06/2016",
+  role: "Program Manager",
+  keywords: "#proteger-equipe | #burnout | #bem-estar | #dizer-não | #segurança-psicológica",
   isTopCase: false,
   isGoodCase: true,
   pt: {

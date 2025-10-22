@@ -6,6 +6,8 @@ const case_6 = {
   company: "SEFAZ-RS",
   period: "03/2024-atual",
   role: "Program Manager / PMO Lead",
+  role: "Program Manager / PMO Lead",
+  keywords: "#programa-complexo | #governança-híbrida | #setor-público | #stakeholders | #bid",
   context: "PROFISCO II - Largest Tax Modernization Program in Brazil",
   isTopCase: true,
   isGoodCase: false,

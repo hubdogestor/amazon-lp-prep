@@ -7,6 +7,8 @@ const case_5 = {
   company: "Bradesco / Banco Next",
   period: "08/2018-12/2018 (visão) | 02/2020-11/2021 (validação)",
   role: "Program Manager / Agile Leader",
+  role: "Program Manager / Agile Leader",
+  keywords: "#visão-longo-prazo | #evangelização-paciente | #ser-rejeitado | #provar-com-dados | #open-banking",
   context: "Digital Bank Next - Platform Strategy",
   isTopCase: false,
   isGoodCase: false,

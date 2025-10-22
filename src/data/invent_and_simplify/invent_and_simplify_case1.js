@@ -5,6 +5,8 @@ const case_1 = {
   title_en: "Invented 5G mechanism with Six Sigma playbook that reversed client-facing penalties",
   company: "Huawei LATAM",
   period: "03/2013-09/2014",
+  role: "Product Manager",
+  keywords: "#simplificar-processo | #criar-mecanismo | #six-sigma | #automação | #eficiência",
   isTopCase: false,
   isGoodCase: true,
   pt: {

@@ -6,6 +6,8 @@ const case_1 = {
   title_en: "Applying Harvard Concepts in Value-Based Healthcare to Launch APS Product",
   company: "Unimed",
   period: "07/2021-02/2024",
+  role: "Head of Digital Innovation",
+  keywords: "#aprender-e-aplicar | #curiosidade-estruturada | #value-based-healthcare | #inovação | #harvard",
   isTopCase: false,
   isGoodCase: true,
   pt: {

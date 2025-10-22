@@ -5,6 +5,8 @@ const case_2 = {
   title_en: "Transformed Stagnant EBITDA into 22% Growth by Attacking Three Key Inputs",
   company: "Unimed",
   period: "08/2021-12/2023",
+  role: "Group Product Manager",
+  keywords: "#stakeholders | #crise | #okrs | #alinhamento | #turnaround",
   isTopCase: false,
   isGoodCase: true,
   pt: {

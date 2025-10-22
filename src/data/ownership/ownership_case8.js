@@ -5,6 +5,8 @@ const case_8 = {
   title_en: "Estimation Error in Bradesco Next Launch",
   company: "Bradesco",
   period: "Q2 2018",
+  role: "Product Manager",
+  keywords: "#assumir-erro | #falha | #criar-mecanismo | #credibilidade | #estimativa",
   isTopCase: false,
   isGoodCase: true,
   pt: {

@@ -6,6 +6,8 @@ const case_4 = {
   title_en: "Pivoted HDG from Consulting to Robotics Due to Limited Resources",
   company: "HDG",
   period: "01/2025 - 06/2025",
+  role: "Startup Owner",
+  keywords: "#pivot | #recursos-limitados | #bootstrap | #mvp | #startup",
   isTopCase: false,
   isGoodCase: false,
   pt: {

@@ -6,6 +6,8 @@ const case_2 = {
   title_en: "Broke 23-year cultural resistance and implemented ML in credit with 30% fewer rejections",
   company: "Sicredi",
   period: "03/2021-11/2021",
+  role: "Head of Digital Product",
+  keywords: "#agir-pequeno | #resistência-cultural | #piloto | #automação | #ML",
   isTopCase: false,
   isGoodCase: false,
 

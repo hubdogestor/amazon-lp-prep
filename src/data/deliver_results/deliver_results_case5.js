@@ -5,6 +5,8 @@ const case_5 = {
   title_en: "Missed Pix Deadline Due to Poor Priority Management: Owned It, Learned, and Recovered in 60 Days",
   company: "Sicredi",
   period: "03/2020-09/2020",
+  role: "Product Strategist",
+  keywords: "#perder-prazo | #assumir-erro | #plano-de-recuperação | #renegociar | #falha",
   isTopCase: false,
   isGoodCase: false,
   pt: {

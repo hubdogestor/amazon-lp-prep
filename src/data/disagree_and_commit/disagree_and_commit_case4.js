@@ -5,6 +5,8 @@ const case_4 = {
   title_en: "I disagreed with a pricing strategy, proved my point with data, and led the approved pilot with excellence",
   company: "Bradesco Next",
   period: "03/2017 - 08/2017",
+  role: "Product Manager",
+  keywords: "#discordar | #pricing | #risco | #execução-disciplinada | #piloto",
   isTopCase: false,
   isGoodCase: false,
   pt: {

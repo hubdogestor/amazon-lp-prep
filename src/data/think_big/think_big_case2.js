@@ -6,6 +6,8 @@ const case_2 = {
   title_en: "Transformed BRL 1.2B threat into sustainable BRL 312M ecosystem",
   company: "Unimed Nacional",
   period: "08/2022-12/2023",
+  role: "Strategy Advisor",
+  keywords: "#visão-ecossistema | #fraqueza-em-força | #modelo-de-negócio | #marketplace | #escala",
   isTopCase: false,
   isGoodCase: false,
   pt: {

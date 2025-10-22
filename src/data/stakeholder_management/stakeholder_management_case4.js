@@ -5,6 +5,8 @@ const case_4 = {
   title_en: "Influenced Secretaries to Adopt Integrated Management Framework for Profisco II Without Formal Authority",
   company: "Secretaria da Fazenda do RS",
   period: "07/2024 - 04/2025",
+  role: "Advisor",
+  keywords: "#influenciar-sem-autoridade | #stakeholders | #setor-público | #alianças | #dados",
   isTopCase: true,
   isGoodCase: false,
   pt: {

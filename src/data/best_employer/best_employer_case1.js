@@ -6,6 +6,8 @@ const case_1 = {
   title_en: "I scaled the product guild and promoted 18 leaders in six months",
   company: "Bradesco Next",
   period: "02/2017-08/2017",
+  role: "Head of Product",
+  keywords: "#desenvolvimento-talentos | #pipeline-liderança | #engajamento | #cultura | #guilda",
   isTopCase: false,
   isGoodCase: true,
   pt: {

@@ -5,6 +5,8 @@ const case_4 = {
   title_en: "Invented open platform with SaaS LP that cut innovation cycle by 68%",
   company: "Unimed",
   period: "02/2022-12/2023",
+  role: "Digital Transformation Manager",
+  keywords: "#inventar-plataforma | #inovação-aberta | #reduzir-ciclo | #apis | #saas",
   isTopCase: false,
   isGoodCase: true,
 

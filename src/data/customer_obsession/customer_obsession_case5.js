@@ -7,6 +7,8 @@ const case_5 = {
   company: "Sicredi Woop",
   period: "03/2021-11/2021",
   role: "Product Strategist",
+  role: "Product Strategist",
+  keywords: "#equilibrar-clientes | #priorização | #b2b-vs-b2c | #trade-off | #dados",
   context: "Digital banking platform",
   isTopCase: false,
   isGoodCase: false,

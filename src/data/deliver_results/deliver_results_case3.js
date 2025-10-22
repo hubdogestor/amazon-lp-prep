@@ -6,6 +6,8 @@ const case_3 = {
   title_en: "Built the Anti-Fraud Mechanism that Cut Losses 46% in 5 Months",
   company: "Sicredi Woop",
   period: "01/2020-05/2020",
+  role: "Product Manager",
+  keywords: "#crise-fraude | #resposta-rápida | #criar-mecanismos | #impacto-financeiro | #heurísticas",
   isTopCase: false,
   isGoodCase: false,
   pt: {

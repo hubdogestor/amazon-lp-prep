@@ -5,6 +5,8 @@ const case_1 = {
   title_pt: "Criei o padrao 'Zero Data Loss' é os mecanismos que garantiram uma migração de R$3 Bi sem erros",
   company: "HSBC",
   period: "05/2015 - 06/2016",
+  role: "PMO Manager",
+  keywords: "#elevar-padrão | #zero-defeitos | #criar-mecanismos | #auditoria | #qualidade",
   isTopCase: false,
   isGoodCase: false,
   pt: {

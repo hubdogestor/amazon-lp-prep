@@ -4,6 +4,8 @@ const case_5 = {
   title: "Estruturação da Área de Inovação e Lançamento de 4 Produtos em Ambiente Regulado",
   company: "Unimed Porto Alegre",
   period: "2021-2024",
+  role: "Head of Innovation & Digital Product",
+  keywords: "#ambiguidade-regulatória | #criar-do-zero | #inovação-regulada | #mvp | #saúde",
   isTopCase: false,
   isGoodCase: false,
   pt: {

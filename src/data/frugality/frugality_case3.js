@@ -6,6 +6,8 @@ const case_3 = {
   title_en: "Financial Reconciliation Report Automation Using Open-Source Tools (n8n)",
   company: "Unimed",
   period: "01/2023--12/2023",
+  role: "Innovation Lead",
+  keywords: "#automação | #open-source | #baixo-custo | #empoderar-equipe | #n8n",
   isTopCase: false,
   isGoodCase: false,
   pt: {

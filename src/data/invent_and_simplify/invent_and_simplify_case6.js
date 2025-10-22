@@ -5,6 +5,8 @@ const case_6 = {
   title_en: "Invented liquidity simplification engine that moved settlements from D+3 to D+0",
   company: "Bradesco Fintech Hub",
   period: "04/2017-12/2017",
+  role: "Product Owner",
+  keywords: "#inventar-motor | #simplificação | #d+0 | #liquidez | #marketplace",
   isTopCase: true,
   isGoodCase: false,
 

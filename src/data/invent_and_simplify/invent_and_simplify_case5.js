@@ -5,6 +5,8 @@ const case_5 = {
   title_en: "Invented PIX municipal reconciliation automation in 45 days eliminating fiscal risk",
   company: "SEFAZ RS",
   period: "08/2024-01/2025",
+  role: "Strategy & PMO Advisor",
+  keywords: "#inventar-automação | #eliminar-risco | #setor-público | #pix | #conciliação",
   isTopCase: true,
   isGoodCase: false,
 

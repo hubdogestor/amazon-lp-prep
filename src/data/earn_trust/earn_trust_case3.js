@@ -5,6 +5,8 @@ const case_3 = {
   title_en: "Won back key partner with 30-day guaranteed settlement plan",
   company: "Bradesco Payments",
   period: "09/2017-01/2018",
+  role: "Program Manager",
+  keywords: "#reconquistar-parceiro | #transparência | #crise-operacional | #assumir-falha | #stakeholder",
   isTopCase: false,
   isGoodCase: false,
 

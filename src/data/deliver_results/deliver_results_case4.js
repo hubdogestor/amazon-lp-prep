@@ -6,6 +6,8 @@ const case_4 = {
   title_en: "Turned e-CAGE into a Portal with 94% SLA Compliance and 100% Adoption",
   company: "SEFAZ/RS",
   period: "08/2024-11/2024",
+  role: "Digital Transformation Advisor",
+  keywords: "#sistema-colapsado | #entregar-valor | #adoção | #setor-público | #frugalidade",
   isTopCase: false,
   isGoodCase: true,
   pt: {

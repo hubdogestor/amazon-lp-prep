@@ -6,6 +6,8 @@ const case_2 = {
   title_en: "Large-Scale Agile Framework Implementation for Digital Bank",
   company: "Bradesco",
   period: "07/2016-05/2018",
+  role: "Technical Head / Digital Transformation Leader",
+  keywords: "#aprender-para-liderar | #safe | #framework-ágil | #comunidade-de-prática | #escala",
   isTopCase: false,
   isGoodCase: false,
   pt: {

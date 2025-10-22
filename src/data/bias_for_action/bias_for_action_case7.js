@@ -8,6 +8,8 @@ const case_7 = {
   period: "09/2016-11/2016",
   role: "Program Manager",
   context: "HSBC→Bradesco Migration - USD 5.2 B Assets",
+  role: "Program Manager",
+  keywords: "#contra-especialistas | #decisão-impopular | #risco-controlado | #migração | #go-live",
   isTopCase: true,
   isGoodCase: false,
 

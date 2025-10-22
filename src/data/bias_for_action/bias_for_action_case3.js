@@ -6,6 +6,8 @@ const case_3 = {
   title_en: "Launched Volta por Cima RS tax relief portal in 18 days after Taquari floods",
   company: "SEFAZ/RS",
   period: "09/2024-10/2024",
+  role: "Advisor",
+  keywords: "#crise | #resposta-rápida | #prazo-impossível | #ação-controlada | #desastre",
   isTopCase: false,
   isGoodCase: true,
 

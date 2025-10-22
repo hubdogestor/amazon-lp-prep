@@ -6,6 +6,8 @@ const case_1 = {
   title_en: "Anticipated cancer patients' needs and created journey that saved lives",
   company: "Unimed Nacional",
   period: "03/2023-12/2023",
+  role: "Strategy Advisor",
+  keywords: "#antecipar-necessidades | #empatia | #jornada-do-cliente | #ouvir-cliente | #saúde",
   isTopCase: true,
   isGoodCase: false,
   pt: {

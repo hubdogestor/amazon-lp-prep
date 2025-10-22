@@ -6,6 +6,8 @@ const case_2 = {
   title_en: "Anticipated elderly digital exclusion and created journey that restored dignity",
   company: "Bradesco",
   period: "08/2018-06/2019",
+  role: "Head of Digital Product",
+  keywords: "#inclusão-digital | #acessibilidade | #empatia | #ouvir-cliente | #idosos",
   isTopCase: true,
   isGoodCase: false,
   pt: {

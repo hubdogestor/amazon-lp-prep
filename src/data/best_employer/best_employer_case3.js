@@ -6,7 +6,9 @@ const case_3 = {
     title_en: "Creating Better Work Environment: Reverse Mentoring that Lifted eNPS to 82 and United Generations",
     company: "SEFAZ RS",
     period: "08/2024-11/2024",
-    isTopCase: true,
+    role: "Advisor",
+  keywords: "#mentoria-reversa | #conflito-gerações | #ambiente-de-trabalho | #colaboração | #cultura",
+  isTopCase: true,
     isGoodCase: false,
     pt: {
       s: "Quando cheguei na SEFAZ/RS, encontrei um ambiente de trabalho tóxico, com um eNPS de 48 e um aumento de 35% nos pedidos de transferência. Uma guerra geracional paralisava a organização: veteranos acusavam os jovens de desrespeito, e os jovens acusavam os veteranos de resistir à inovação. Essa divisão interna tinha um custo real: o tempo de resposta ao contribuinte rural havia dobrado, e talentos de ambas as gerações estavam abandonando a secretaria.",

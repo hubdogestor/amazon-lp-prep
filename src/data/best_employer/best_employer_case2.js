@@ -6,6 +6,8 @@ const case_2 = {
   title_en: "I turned 360 feedback into a full succession pipeline for every PM",
   company: "Sicredi Plataforma",
   period: "03/2019-12/2019",
+  role: "Platform Lead",
+  keywords: "#feedback-360 | #pdi | #sucessão | #retenção | #desenvolvimento",
   isTopCase: false,
   isGoodCase: false,
   pt: {

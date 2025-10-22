@@ -6,6 +6,8 @@ const case_4 = {
   title_en: "The Ethical Responsibility of Building an Innovation Ecosystem for Public Funds Management",
   company: "SEFAZ RS",
   period: "08/2024-11/2025",
+  role: "Innovation Lead",
+  keywords: "#responsabilidade-social | #impacto-comunidade | #setor-público | #governança-com-propósito | #ecossistema",
   isTopCase: false,
   isGoodCase: true,
   pt: {

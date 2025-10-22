@@ -6,6 +6,8 @@ const case_4 = {
   company: "Huawei",
   period: "01/2014-07/2014",
   role: "Program & PMO Manager",
+  role: "Program & PMO Manager",
+  keywords: "#incerteza | #manter-foco | #crise | #pressão | #governança-crise",
   context: "FIFA World Cup 2014 Telecom Rollout",
   isTopCase: false,
   isGoodCase: false,

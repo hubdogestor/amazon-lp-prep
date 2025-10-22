@@ -5,6 +5,8 @@ const case_1 = {
   title_en: "Led the 4G/5G Upgrade for 2014 FIFA World Cup with 99.8% Availability",
   company: "Huawei",
   period: "08/2013-07/2014",
+  role: "Network Integration Program Manager",
+  keywords: "#entregar-sob-pressão | #prazo-inegociável | #superar-obstáculos | #criar-mecanismos | #crise",
   isTopCase: true,
   isGoodCase: false,
   pt: {

@@ -7,6 +7,8 @@ const case_4 = {
   company: "HSBC & Bradesco",
   period: "07/2016-05/2018",
   role: "Program Manager / Agile Leader",
+  role: "Program Manager / Agile Leader",
+  keywords: "#ambiguidade-cultural | #m&a | #integração-equipes | #prioridades-mutáveis | #ponte-cultural",
   context: "Post-acquisition Integration",
   isTopCase: false,
   isGoodCase: false,

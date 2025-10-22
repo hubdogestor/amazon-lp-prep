@@ -5,6 +5,8 @@ const case_2 = {
   title_en: "Invented one-click KYC stream that cut Next onboarding from 32 to 6 hours",
   company: "Bradesco",
   period: "08/2016-05/2017",
+  role: "Product Owner",
+  keywords: "#simplificar-compliance | #automação | #kyc | #quebrar-dogmas | #onboarding",
   isTopCase: false,
   isGoodCase: false,
   pt: {

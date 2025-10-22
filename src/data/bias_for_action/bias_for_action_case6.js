@@ -6,6 +6,8 @@ const case_6 = {
   title_en: "Pivoted a 70%-complete SEFAZ project after Tax Reform and ensured sustainable delivery before 2025 transition",
   company: "SEFAZ/RS",
   period: "07/2024-03/2025",
+  role: "Advisor",
+  keywords: "#pivot | #mudança-externa | #adaptação | #roadmap | #sustentabilidade",
   isTopCase: false,
   isGoodCase: false,
 

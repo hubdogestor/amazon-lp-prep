@@ -5,6 +5,8 @@ const case_2 = {
   title_en: "Personal Audit of Data Validation Processes Across Multiple Countries",
   company: "HSBC",
   period: "05/2015-06/2016",
+  role: "Program Manager",
+  keywords: "#auditoria | #validação-de-dados | #além-do-dashboard | #ceticismo-saudável | #sql",
   isTopCase: false,
   isGoodCase: true,
 

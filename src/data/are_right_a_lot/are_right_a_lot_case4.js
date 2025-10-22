@@ -6,6 +6,8 @@ const case_4 = {
   title_en: "I Was Wrong About Fraud Model: Had Humility to Pivot and Learn from Junior Analyst",
   company: "Sicredi",
   period: "02/2021-05/2021",
+  role: "Head of Payments",
+  keywords: "#erro | #humildade | #pivot | #aprender-com-time | #corrigir-curso",
   isTopCase: false,
   isGoodCase: false,
   pt: {
