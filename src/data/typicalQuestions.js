@@ -487,7 +487,9 @@ const typicalQuestions = {
       "Me fale sobre quando você teve que equilibrar produtividade com bem-estar da equipe",
       "Descreva uma situação onde você criou oportunidade de crescimento para alguém",
       "Como você garante que diferentes perspectivas e backgrounds são valorizados?",
-      "Conte sobre quando você teve que tomar uma decisão pensando no que é melhor para as pessoas, não só nos resultados"
+      "Conte sobre quando você teve que tomar uma decisão pensando no que é melhor para as pessoas, não só nos resultados",
+      "Descreva um mecanismo ou sistema que você criou para garantir o desenvolvimento de carreira e a retenção de talentos em escala.",
+      "Conte sobre uma vez que você desafiou sua equipe a atingir um padrão que eles consideravam impossível e como você os desenvolveu para alcançar esse objetivo."
     ],
     en: [
       "Tell me about how you create a better work environment",
@@ -499,7 +501,9 @@ const typicalQuestions = {
       "Tell me about when you had to balance productivity with team well-being",
       "Describe a situation where you created growth opportunity for someone",
       "How do you ensure different perspectives and backgrounds are valued?",
-      "Tell me about when you had to make a decision thinking about what's best for people, not just results"
+      "Tell me about when you had to make a decision thinking about what's best for people, not just results",
+      "Describe a mechanism or system you created to ensure career development and talent retention at scale.",
+      "Tell me about a time you challenged your team to meet a standard they thought was impossible and how you developed them to achieve that goal."
     ]
   },
   "broad_responsibility": {

@@ -88,7 +88,7 @@ export const questionsToCasesMapping = {
     "2": { "options": [{ "caseId": "huawei-project-managers-mentoring", "score": 100 }] },
     "3": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
     "4": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
-    "5": { "options": [{ "caseId": "unimed-underperformer-development", "score": 100 }] },
+    "5": { "options": [{ "caseId": "unimed-toxic-genius-removal", "score": 100 }] },
     "6": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
     "7": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
     "8": { "options": [{ "caseId": "huawei-project-managers-mentoring", "score": 100 }] },
@@ -149,11 +149,11 @@ export const questionsToCasesMapping = {
   "frugality": {
     "1": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
     "2": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
-    "3": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
+    "3": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] },
     "4": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
     "5": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
     "6": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] },
-    "7": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
+    "7": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] },
     "8": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
     "9": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
     "10": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] }
@@ -226,25 +226,27 @@ export const questionsToCasesMapping = {
     "1": { "options": [{ "caseId": "sicredi-responsible-ai-policy", "score": 100 }] },
     "2": { "options": [{ "caseId": "sicredi-responsible-ai-policy", "score": 100 }] },
     "3": { "options": [{ "caseId": "unimed-lgpd-compliance", "score": 100 }] },
-    "4": { "options": [{ "caseId": "unimed-lgpd-compliance", "score": 100 }] },
-    "5": { "options": [{ "caseId": "sicredi-responsible-ai-policy", "score": 100 }] },
-    "6": { "options": [{ "caseId": "hsbc-fatca-aml-migration", "score": 100 }] },
+    "4": { "options": [{ "caseId": "hsbc-fatca-aml-migration", "score": 100 }] },
+    "5": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
+    "6": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
     "7": { "options": [{ "caseId": "sicredi-responsible-ai-policy", "score": 100 }] },
     "8": { "options": [{ "caseId": "unimed-lgpd-compliance", "score": 100 }] },
     "9": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
-    "10": { "options": [{ "caseId": "unimed-lgpd-compliance", "score": 100 }] }
+    "10": { "options": [{ "caseId": "hsbc-fatca-aml-migration", "score": 100 }] }
   },
   "best_employer": {
-    "1": { "options": [{ "caseId": "sefaz-reverse-mentoring-program", "score": 100 }] },
+    "1": { "options": [{ "caseId": "hsbc-migration-team-protection", "score": 100 }] },
     "2": { "options": [{ "caseId": "hsbc-migration-team-protection", "score": 100 }] },
-    "3": { "options": [] },
+    "3": { "options": [{ "caseId": "sefaz-reverse-mentoring-program", "score": 100 }] },
     "4": { "options": [{ "caseId": "hsbc-zero-defects-best-employer", "score": 100 }] },
     "5": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
     "6": { "options": [{ "caseId": "sefaz-reverse-mentoring-program", "score": 100 }] },
     "7": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
     "8": { "options": [{ "caseId": "sicredi-360-feedback-system", "score": 100 }] },
-    "9": { "options": [] },
-    "10": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] }
+    "9": { "options": [{ "caseId": "sefaz-reverse-mentoring-program", "score": 100 }] },
+    "10": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
+    "11": { "options": [{ "caseId": "sicredi-360-feedback-system", "score": 100 }] },
+    "12": { "options": [{ "caseId": "hsbc-zero-defects-best-employer", "score": 100 }] }
   },
   "program_management": {
     "1": { "options": [{ "caseId": "sefaz-profisco-ii-program", "score": 100 }] },
