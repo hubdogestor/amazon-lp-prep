@@ -29,6 +29,12 @@ const case_4 = {
       a_en: "My biggest mistake was not involving PROCERGS in the initial creation of the 'Phoenix Gate', which generated unnecessary resistance and delayed adoption by a week. I assumed a unilateral imposition would be faster, but it undermined initial collaboration. I could have avoided this with workshops from day one, building joint ownership."
     },
     {
+      q: "Como você decide o ponto de 'qualidade suficiente' sem cair em perfeccionismo paralisante?",
+      a: "Uso dois filtros: impacto ao cidadão e risco irreversível. No Phoenix Gate, critérios como cobertura de testes >95% e hash duplo eram inegociáveis, pois protegiam dados sensíveis; já itens cosméticos ficaram para uma wave posterior. Sempre que algo não comprometia segurança, conformidade ou usabilidade crítica, eu registrava para o backlog e comunicava o trade-off. Assim evitamos refatorar o sistema inteiro sem abrir mão da excelência nos pontos vitais.",
+      q_en: "How do you decide the 'good enough' point without falling into paralyzing perfectionism?",
+      a_en: "I use two filters: citizen impact and irreversible risk. In the Phoenix Gate, criteria like >95% test coverage and double hash were non-negotiable because they protected sensitive data; cosmetic items were deferred to a later wave. Whenever something didn’t affect security, compliance or critical usability, I logged it in the backlog and communicated the trade-off. That way we avoided rebuilding the entire system while guarding excellence where it truly mattered.",
+    },
+    {
       q: "O que você faria diferente hoje?",
       a: "Hoje, eu iniciaria com uma sessao colaborativa para co-criar o gate, integrando insights da PROCERGS desde o comeco para reduzir resistencia. Tambem adicionaria metricas de adocao humana ao gate, como treinamentos obrigatorios, garantindo não so qualidade técnica, mas tambem preparo das equipes para sustentar o padrao a longo prazo.",
       q_en: "What would you do differently today?",

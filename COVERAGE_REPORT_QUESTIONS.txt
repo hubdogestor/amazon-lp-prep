@@ -208,7 +208,7 @@ Q5: Me fale sobre um trade-off difícil que você fez pensando no longo prazo
       • bradesco-next-delay (score: 100)
         "Erro de Estimativa no Lançamento Bradesco Next"
 
-Q6: Descreva uma situação onde você tomou uma decisão importante de negócio sem consultar seu gestor
+Q6: Descreva uma decisão importante ou urgente que você tomou sem consultar seu gestor. Qual foi o racional e como você comunicou a ele depois?
    ✅ 1 case(s):
       • sefaz-emergency-rollback-no-approval (score: 100)
         "Autorizei Rollback de Sistema Crítico às 18h Sexta Sem Consultar Gestor e Salvei..."
@@ -283,7 +283,7 @@ Q19: Me fale sobre quando você rompeu protocolo para agir rápido em uma crise 
   DIVE DEEP
 ══════════════════════════════════════════════════════════════════════
 
-Q1: Conte uma situação onde você precisou entender a causa raiz para resolver um problema complexo
+Q1: Conte sobre uma vez que você resistiu a uma solução óbvia para mergulhar nos dados e descobrir a verdadeira causa raiz de um problema. O que você descobriu que os outros não viram?
    ✅ 1 case(s):
       • sicredi-pix-settlement (score: 100)
         "Redução de 47% no Tempo de Liquidação de Pagamentos PIX"
@@ -423,7 +423,7 @@ Q12: Conte sobre quando você simplificou algo que todos achavam que precisava s
   EARN TRUST
 ══════════════════════════════════════════════════════════════════════
 
-Q1: Qual foi o feedback mais difícil que você já recebeu? E como lidou com isso? / Me conte sobre um feedback negativo que você recebeu
+Q1: Qual foi o feedback mais difícil, negativo ou surpreendente que você recebeu? Como você lidou e o que mudou a partir dele?
    ✅ 1 case(s):
       • hard-feedback-leadership-style (score: 100)
         "Transformei feedback devastador em pacto de transparência radical"
@@ -448,7 +448,7 @@ Q5: Descreva uma situação onde você foi transparente mesmo sendo desconfortá
       • sicredi-post-mortem-transparency (score: 100)
         "Reconstruí confiança após bug Pix com ritual de transparências diárias"
 
-Q6: Conte sobre um desacordo com um colega/gestor - como você resolveu?
+Q6: Conte sobre um desacordo ou conflito com um colega ou gestor. Como você resolveu a situação para focar no resultado para o cliente?
    ✅ 1 case(s):
       • sicredi-post-mortem-transparency (score: 100)
         "Reconstruí confiança após bug Pix com ritual de transparências diárias"
@@ -528,7 +528,7 @@ Q4: Me dê um exemplo de quando você teve que priorizar para entregar no prazo
       • unimed-ebitda-growth (score: 100)
         "Transformei EBITDA Estagnado em Crescimento de 22% Atacando Três Inputs-Chave"
 
-Q5: Conte sobre quando você não gerenciou prioridades efetivamente e algo não foi entregue no prazo
+Q5: Conte sobre uma vez que você previu que não ia entregar no prazo. O que você fez a respeito? Como comunicou o atraso?
    ✅ 1 case(s):
       • sicredi-pix-deadline-miss-recovery (score: 100)
         "Perdi Deadline do Pix por Má Gestão de Prioridades: Assumi, Aprendi e Recuperei ..."
@@ -698,7 +698,7 @@ Q10: Conte sobre quando você aplicou aprendizados de uma área completamente di
       • unimed-cvc-failure-learning (score: 100)
         "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
 
-Q11: Conte sobre um projeto que não deu certo / que você falhou
+Q11: Conte sobre um projeto que não deu certo, uma falha, um erro de julgamento ou uma decepção profissional. O que você aprendeu?
    ✅ 1 case(s):
       • unimed-cvc-failure-learning (score: 100)
         "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed"
@@ -743,7 +743,7 @@ Q4: Como você decide quando é hora de agir vs. analisar mais?
       • bradesco-next-rapid-launch (score: 100)
         "Classifiquei 126 Decisões em Reversíveis / Estruturais e Lancei Banco Digital em..."
 
-Q5: Descreva uma situação onde velocidade era crítica
+Q5: Conte sobre um projeto com prazo muito curto, um deadline agressivo ou onde a velocidade era crítica. Como você agiu para garantir a entrega?
    ✅ 1 case(s):
       • calculated-risk-time-critical (score: 100)
         "Risco calculado em tempo crítico: restaurei telemedicina em 72h com mitigação po..."

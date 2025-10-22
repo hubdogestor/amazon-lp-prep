@@ -65,6 +65,12 @@ const case_4 = {
       a: "Eu realizava uma conversa 1-on-1 focada em entender a causa-raiz. Em um caso, descobri que um PM estava com dificuldades por falta de conhecimento técnico em 4G. Em vez de criticar, eu o pareei com um engenheiro sênior por uma semana. A produtividade dele triplicou, pois o problema não era falta de foco, mas de capacitação.",
       q_en: "How did you handle a team member who remained unproductive or unfocused even with the new system?",
       a_en: "I held a 1-on-1 conversation focused on understanding the root cause. In one case, I discovered a PM was struggling due to a lack of technical knowledge in 4G. Instead of criticizing, I paired him with a senior engineer for a week. His productivity tripled because the issue wasn't a lack of focus, but of training."
+    },
+    {
+      q: "Como você comunicava progresso quando o objetivo ainda mudava semanalmente?",
+      a: "Criei um boletim visual diário: três colunas (bloqueadores resolvidos, riscos emergentes, próximos 48h) que mostrava claramente a direção mesmo sem metas estáticas. Atualizava o painel na TV da war room e enviava áudio de dois minutos para diretores e operadoras explicando o que havia mudado. Isso reduziu ansiedade, porque todos viam sinais concretos de avanço mesmo com o destino ainda em ajuste.",
+      q_en: "How did you communicate progress when the objective was still shifting every week?",
+      a_en: "I built a daily visual brief: three columns (blockers cleared, emerging risks, next 48 hours) that made the direction explicit even without static targets. I updated the war room TV dashboard and sent a two-minute voice note to directors and carriers explaining what had changed. That reduced anxiety because everyone saw tangible signs of progress even while the destination was still being refined."
     }
   ]
 };

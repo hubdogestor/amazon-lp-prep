@@ -6,6 +6,7 @@ const case_6 = {
   company: "Unimed RS",
   period: "03/2023-08/2023",
   role: "Agile Coach / Program Manager",
+  keywords: "#comunicação | #ambiguidade | #stakeholders | #mudança | #resistência",
   context: "Digital Transformation - Healthcare",
   isTopCase: false,
   isGoodCase: false,
