@@ -150,14 +150,14 @@ export const questionsToCasesMapping = {
   "frugality": {
     "1": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
     "2": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
-    "3": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] },
+    "3": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
     "4": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
     "5": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
     "6": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] },
-    "7": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] },
+    "7": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
     "8": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
     "9": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
-    "10": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] },
+    "10": { "options": [{ "caseId": "sefaz-zero-budget-pmo", "score": 100 }] },
     "11": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] },
     "12": { "options": [{ "caseId": "huawei-resource-optimization", "score": 100 }] },
     "13": { "options": [{ "caseId": "unimed-automation-n8n", "score": 100 }] }
