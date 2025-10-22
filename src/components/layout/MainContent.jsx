@@ -164,7 +164,6 @@ export default function MainContent({
                     const isHighlighted = highlightedTypicalQuestionId === questionId;
                     const bestOption = getBestCaseOption(principle.id, qIdx + 1);
                     const hasCase = Boolean(bestOption);
-                    const caseScore = bestOption?.score ?? 0;
                     const mappedCaseTitle = bestOption?.caseData
                       ? getDisplayCaseTitle(bestOption.caseData, language)
                       : "";
@@ -176,9 +175,9 @@ export default function MainContent({
                       const varName = caseIdToVarName[caseId] || "case";
                       const actionLabel = language === "pt" ? "Clique para ver:" : "Click to see:";
                       if (mappedCaseTitle) {
-                        return `${actionLabel}\n${varName} - ${mappedCaseTitle} (score: ${caseScore})`;
+                        return `${actionLabel}\n${varName} - ${mappedCaseTitle}`;
                       }
-                      return `${actionLabel} (score: ${caseScore})`;
+                      return actionLabel;
                     })();
                     const toggleTooltip = isQuestionUsed
                       ? (language === 'pt' ? 'Remover marca de pergunta usada' : 'Unmark question as used')
@@ -232,8 +231,7 @@ export default function MainContent({
             const questionIdList = caseQuestions.map((q) => `Q${q.number}`).join(', ');
             const questionDetails = caseQuestions.slice(0, 3).map((q) => {
               const preview = (q.text || '').substring(0, 80);
-              const scoreLabel = q.score != null ? ` (score: ${q.score})` : '';
-              return `Q${q.number}${scoreLabel}: ${preview}...`;
+              return `Q${q.number}: ${preview}...`;
             }).join('\n');
             const questionsTooltip = caseQuestions.length > 0
               ? `${questionSummaryLabel} ${caseQuestions.length} ${questionCountLabel}: ${questionIdList}\n\n${questionDetails}`
