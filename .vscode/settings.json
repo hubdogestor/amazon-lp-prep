@@ -3,5 +3,7 @@
     // Execução totalmente automática - sem prompts de confirmação
     "github.copilot.chat.executeCommands": "allow",
     "github.copilot.chat.confirmFileOperations": false,
-    "security.workspace.trust.enabled": false
+    "security.workspace.trust.enabled": false,
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on"
 }
