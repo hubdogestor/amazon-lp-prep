@@ -11,16 +11,16 @@ export const questionsToCasesMapping = {
     "5": { "options": [{ "caseId": "unimed-cancer-patient-journey", "score": 100 }] },
     "6": { "options": [{ "caseId": "sicredi-fraud-prevention-experience", "score": 100 }] },
     "7": { "options": [{ "caseId": "sicredi-chargeback-proactive-resolution", "score": 100 }] },
-    "8": { "options": [{ "caseId": "unimed-cancer-patient-journey", "score": 100 }] },
-    "9": { "options": [{ "caseId": "sicredi-small-business-survival", "score": 100 }] },
+    "8": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }] },
+    "9": { "options": [{ "caseId": "sicredi-woop-segment-balance", "score": 100 }] },
     "10": { "options": [{ "caseId": "bradesco-elderly-digital-inclusion", "score": 100 }] },
     "11": { "options": [{ "caseId": "sicredi-fraud-prevention-experience", "score": 100 }] },
     "12": { "options": [{ "caseId": "sicredi-chargeback-proactive-resolution", "score": 100 }] },
     "13": { "options": [{ "caseId": "sicredi-woop-segment-balance", "score": 100 }] },
-    "14": { "options": [{ "caseId": "unimed-pet-anticipation", "score": 100 }] }
+    "14": { "options": [{ "caseId": "sicredi-small-business-survival", "score": 100 }] }
   },
   "ownership": {
-    "1": { "options": [{ "caseId": "hsbc-payment-reconciliation", "score": 100 }] },
+    "1": { "options": [{ "caseId": "hsbc-migration-leadership", "score": 100 }] },
     "2": { "options": [{ "caseId": "sefaz-pmo-creation", "score": 100 }] },
     "3": { "options": [{ "caseId": "long-term-tradeoff", "score": 100 }] },
     "4": { "options": [{ "caseId": "hsbc-payment-reconciliation", "score": 100 }] },
@@ -35,8 +35,8 @@ export const questionsToCasesMapping = {
     "13": { "options": [{ "caseId": "hsbc-migration-leadership", "score": 100 }] },
     "14": { "options": [{ "caseId": "sefaz-pmo-creation", "score": 100 }] },
     "15": { "options": [{ "caseId": "bradesco-international-payments", "score": 100 }] },
-    "16": { "options": [{ "caseId": "long-term-tradeoff", "score": 100 }] },
-    "17": { "options": [{ "caseId": "sefaz-emergency-rollback-no-approval", "score": 100 }] }
+    "16": { "options": [{ "caseId": "hsbc-payment-reconciliation", "score": 100 }] },
+    "17": { "options": [{ "caseId": "payment-incidents-prevention-mechanism", "score": 100 }] }
   },
   "invent_and_simplify": {
     "1": { "options": [{ "caseId": "unimed-ai-authorization", "score": 100 }] },
