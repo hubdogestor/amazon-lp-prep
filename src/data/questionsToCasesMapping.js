@@ -86,11 +86,11 @@ export const questionsToCasesMapping = {
   "hire_and_develop_the_best": {
     "1": { "options": [{ "caseId": "unimed-underperformer-development", "score": 100 }] },
     "2": { "options": [{ "caseId": "huawei-project-managers-mentoring", "score": 100 }] },
-    "3": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
-    "4": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
+    "3": { "options": [{ "caseId": "bradesco-talent-pipeline-creation", "score": 100 }] },
+    "4": { "options": [{ "caseId": "bradesco-talent-pipeline-creation", "score": 100 }] },
     "5": { "options": [{ "caseId": "unimed-toxic-genius-removal", "score": 100 }] },
     "6": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
-    "7": { "options": [{ "caseId": "bradesco-agile-community-creation", "score": 100 }] },
+    "7": { "options": [{ "caseId": "unimed-toxic-genius-removal", "score": 100 }] },
     "8": { "options": [{ "caseId": "huawei-project-managers-mentoring", "score": 100 }] },
     "9": { "options": [{ "caseId": "unimed-controversial-promotion", "score": 100 }] },
     "10": { "options": [{ "caseId": "unimed-underperformer-development", "score": 100 }] },
@@ -227,16 +227,16 @@ export const questionsToCasesMapping = {
     "14": { "options": [{ "caseId": "sefaz-ecage-portal", "score": 100 }] }
   },
   "broad_responsibility": {
-    "1": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
+    "1": { "options": [{ "caseId": "hsbc-fatca-aml-migration", "score": 100 }] },
     "2": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
     "3": { "options": [{ "caseId": "unimed-lgpd-compliance", "score": 100 }] },
-    "4": { "options": [{ "caseId": "hsbc-fatca-aml-migration", "score": 100 }] },
-    "5": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
+    "4": { "options": [{ "caseId": "hsbc-fatca-aml-compliance-over-cost", "score": 100 }] },
+    "5": { "options": [{ "caseId": "hsbc-fatca-aml-migration", "score": 100 }] },
     "6": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
     "7": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
     "8": { "options": [{ "caseId": "unimed-lgpd-compliance", "score": 100 }] },
     "9": { "options": [{ "caseId": "sefaz-tesouro-inovacao-pit", "score": 100 }] },
-    "10": { "options": [{ "caseId": "hsbc-fatca-aml-migration", "score": 100 }] }
+    "10": { "options": [{ "caseId": "hsbc-fatca-aml-compliance-over-cost", "score": 100 }] }
   },
   "best_employer": {
     "1": { "options": [{ "caseId": "hsbc-migration-team-protection", "score": 100 }] },
