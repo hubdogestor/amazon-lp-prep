@@ -3,6 +3,7 @@ import { useDebounce } from "./useDebounce.js";
 import { norm } from "../utils/textUtils.js";
 import { getCaseFups } from "../utils/caseUtils.js";
 import typicalQuestions from "../data/typicalQuestions.js";
+import { questionsToCasesMapping } from "../data/questionsToCasesMapping.js";
 import { getPrinciplesForLooping } from "../config/loopingGroups.js";
 import { DEBOUNCE_SEARCH_DELAY } from "../constants.js";
 
@@ -17,6 +18,16 @@ export function useSearch(principlesData, language, selectedLooping) {
     typicalQuestionSearch,
     DEBOUNCE_SEARCH_DELAY
   );
+
+  const allCasesById = useMemo(() => {
+    const caseMap = {};
+    (principlesData || []).forEach(p => {
+        (p.cases || []).forEach(c => {
+            caseMap[c.id] = c;
+        });
+    });
+    return caseMap;
+  }, [principlesData]);
 
   const fupSearchResults = useMemo(() => {
     if (!debouncedQuestionSearch) return [];
@@ -120,10 +131,19 @@ export function useSearch(principlesData, language, selectedLooping) {
             const qNorm = norm(q);
             return searchWordsNorm.every(word => qNorm.includes(word));
           })
-          .map(item => ({
-            ...item,
-            searchWords // Add searchWords to the result for consistent API
-          }));
+          .map(item => {
+            // Find the case associated with this question to attach keywords
+            const caseMapping = questionsToCasesMapping[item.p.id]?.[item.idx + 1];
+            const caseId = caseMapping?.options?.[0]?.caseId;
+            const caseData = caseId ? allCasesById[caseId] : null;
+            const keywords = caseData?.keywords || null;
+
+            return {
+              ...item,
+              searchWords, // Add searchWords for consistent API
+              keywords, // Add keywords to the result object
+            };
+          });
       });
   }, [principlesData, debouncedTypicalQuestionSearch, language, selectedLooping]);
 

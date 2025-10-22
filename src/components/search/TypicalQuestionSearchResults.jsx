@@ -14,7 +14,7 @@ export default function TypicalQuestionSearchResults({
     return null;
   }
 
-  return results.map(({ p, q, idx, searchWords }, index) => {
+  return results.map(({ p, q, idx, searchWords, keywords }, index) => {
     if (!p || !p.id) {
       console.error("Principle (p) or principle ID (p.id) is undefined for a search result.", { p, q, idx, searchWords });
       return null; // Skip rendering this result if essential data is missing
@@ -59,6 +59,9 @@ export default function TypicalQuestionSearchResults({
               <HighlightableText text={q} searchTerm={searchTerm} className={used ? "line-through decoration-slate-400 decoration-2 text-slate-500" : ""} />
             </div>
             <div className="text-slate-500">{getDisplayName(p, language)}</div>
+            {keywords && (
+              <div className="mt-1 text-xs italic text-slate-400">{keywords}</div>
+            )}
           </div>
           <button
             type="button"

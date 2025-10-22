@@ -85,6 +85,11 @@ export default function CaseCardHeader({
                 />
               </span>
             )}
+            {caseData.keywords && (
+              <span className={`ml-4 text-xs italic ${isCaseUsed ? "text-slate-400 dark:text-slate-600" : "text-slate-500 dark:text-slate-500"}`}>
+                {caseData.keywords}
+              </span>
+            )}
             {caseData.isTopCase && <span className="text-lg">🎯</span>}
           </div>
         </div>
