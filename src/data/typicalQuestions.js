@@ -542,7 +542,10 @@ const typicalQuestions = {
       "Como você equilibra governança rigorosa com agilidade e velocidade de execução?",
       "Descreva uma situação onde você teve que comunicar más notícias sobre um programa para executivos seniores",
       "Como você identifica e mitiga riscos em programas de larga escala?",
-      "Como você comunica progresso de programas complexos para diferentes audiências?"
+      "Como você comunica progresso de programas complexos para diferentes audiências?",
+      "Me fale sobre um programa extremamente crítico onde você teve que coordenar múltiplas áreas sob alta pressão – como garantiu controle, visibilidade e confiança executiva durante a execução?",
+      "Conte sobre uma vez em que você precisou replanejar completamente um programa em andamento devido a mudanças externas – como reavaliou prioridades e gerenciou riscos sem perder o controle?",
+      "Descreva uma situação em que tomar uma decisão impopular – como encerrar um programa ou realocar recursos – foi essencial para proteger objetivos estratégicos da organização."
     ],
     en: [
       "Tell me about the most complex program you led - what was the scope, how many teams involved, and what was the result?",
@@ -557,7 +560,10 @@ const typicalQuestions = {
       "How do you balance rigorous governance with agility and execution speed?",
       "Describe a situation where you had to communicate bad news about a program to senior executives",
       "How do you identify and mitigate risks in large-scale programs?",
-      "How do you communicate progress of complex programs to different audiences?"
+      "How do you communicate progress of complex programs to different audiences?",
+      "Tell me about an extremely critical program where you had to coordinate multiple areas under high pressure – how did you ensure control, visibility, and executive confidence during execution?",
+      "Tell me about a time you had to completely replan an ongoing program due to external changes – how did you reassess priorities and manage risks without losing control?",
+      "Describe a situation where making an unpopular decision – such as shutting down a program or reallocating resources – was essential to protect the organization's strategic objectives."
     ]
   },
   "stakeholder_management": {

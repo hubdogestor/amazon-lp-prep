@@ -259,7 +259,10 @@ export const questionsToCasesMapping = {
     "10": { "options": [{ "caseId": "sefaz-pmo-creation", "score": 100 }] },
     "11": { "options": [{ "caseId": "sicredi-woop-delay-communication", "score": 100 }] },
     "12": { "options": [{ "caseId": "hsbc-migration-leadership", "score": 100 }] },
-    "13": { "options": [{ "caseId": "sefaz-pmo-creation", "score": 100 }] }
+    "13": { "options": [{ "caseId": "sefaz-pmo-creation", "score": 100 }] },
+    "14": { "options": [{ "caseId": "hsbc-migration-leadership", "score": 100 }] },
+    "15": { "options": [{ "caseId": "sefaz-roadmap-adjustment-reforma-tributária", "score": 100 }] },
+    "16": { "options": [{ "caseId": "unimed-cvc-cancellation", "score": 100 }] }
   },
   "prioritizing_and_influence": {
     "1": { "options": [{ "caseId": "bradesco-covid-reprioritization", "score": 100 }] },
