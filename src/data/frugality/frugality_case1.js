@@ -6,7 +6,6 @@ const case_1 = {
   title_en: "Generating $1.4M in Public Sector Efficiency Gains Without Budget Increase",
   company: "SEFAZ/RS",
   period: "08/2024-11/2025",
-  role: "Advisor",
   keywords: "#orçamento-zero | #criatividade-com-restrições | #fazer-mais-com-menos | #setor-público | #eficiência",
   isTopCase: false,
   isGoodCase: false,

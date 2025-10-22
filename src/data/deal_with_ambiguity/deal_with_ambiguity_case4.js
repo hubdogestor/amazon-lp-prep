@@ -5,8 +5,6 @@ const case_4 = {
   title_en: "Leading Huawei's 2014 World Cup War Room to Keep the Team Focused Amidst Uncertainty",
   company: "Huawei",
   period: "01/2014-07/2014",
-  role: "Program & PMO Manager",
-  role: "Program & PMO Manager",
   keywords: "#incerteza | #manter-foco | #crise | #pressão | #governança-crise",
   context: "FIFA World Cup 2014 Telecom Rollout",
   isTopCase: false,

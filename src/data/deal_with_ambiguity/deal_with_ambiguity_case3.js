@@ -6,8 +6,6 @@ const case_4 = {
   title_en: "Navigating the HSBC-Bradesco Migration with Shifting Priorities and Cultural Barriers",
   company: "HSBC & Bradesco",
   period: "07/2016-05/2018",
-  role: "Program Manager / Agile Leader",
-  role: "Program Manager / Agile Leader",
   keywords: "#ambiguidade-cultural | #m&a | #integração-equipes | #prioridades-mutáveis | #ponte-cultural",
   context: "Post-acquisition Integration",
   isTopCase: false,

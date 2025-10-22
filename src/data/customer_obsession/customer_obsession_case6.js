@@ -6,7 +6,6 @@ const case_6 = {
   title_en: "Balanced fraud prevention with customer experience reducing false positives by 78%",
   company: "Sicredi",
   period: "08/2019-05/2020",
-  role: "Head of Digital Products",
   keywords: "#segurança-vs-experiência | #fraude | #falsos-positivos | #dignidade-cliente | #empatia",
   isTopCase: false,
   isGoodCase: false,

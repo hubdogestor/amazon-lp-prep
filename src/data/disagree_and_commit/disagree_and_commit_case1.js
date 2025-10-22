@@ -5,7 +5,6 @@ const case_1 = {
   title_pt: "Defendi foco em retenção contra pressão comercial e liderei o plano híbrido aprovado pelo CEO",
   company: "Unimed",
   period: "02/2023 - 10/2023",
-  role: "Head of Innovation",
   keywords: "#discordar-com-dados | #comprometer-se | #plano-híbrido | #influência | #trade-off",
   isTopCase: false,
   isGoodCase: true,

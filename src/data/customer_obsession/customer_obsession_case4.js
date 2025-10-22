@@ -6,7 +6,6 @@ const case_4 = {
   title_en: "Anticipated pet health need and created product before market expressed it",
   company: "Unimed Nacional",
   period: "01/2022-10/2022",
-  role: "Strategy Advisor",
   keywords: "#antecipar-necessidades | #inovação | #dados-de-mercado | #lançamento-produto | #saúde-pet",
   isTopCase: false,
   isGoodCase: false,

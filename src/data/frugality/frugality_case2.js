@@ -6,7 +6,6 @@ const case_2 = {
   title_en: "Resource Optimization in 50+ Project Portfolio to Accelerate 4G Rollout",
   company: "Huawei",
   period: "01/2013-12/2014",
-  role: "Program Manager",
   keywords: "#otimização-recursos | #eliminar-desperdício | #capacidade-ociosa | #eficiência | #fazer-mais-com-menos",
   isTopCase: false,
   isGoodCase: false,

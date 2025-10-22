@@ -6,7 +6,6 @@ const case_3 = {
   title_en: "Payments as a Service (PaaS) Platform Proposal for Latin America",
   company: "Bradesco Next",
   period: "03/2018--06/2022",
-  role: "Product Manager",
   keywords: "#visão-de-plataforma | #paas | #monetizar-ativo | #protótipo | #escala",
   isTopCase: false,
   isGoodCase: false,

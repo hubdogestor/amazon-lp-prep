@@ -5,7 +5,6 @@ const case_1 = {
   title_en: "Balanced eight conflicting stakeholders and redesigned mobile roadmap with unanimous approval",
   company: "Sicredi",
   period: "01/2020-05/2021",
-  role: "Product Strategist",
   keywords: "#stakeholders | #conflito | #decisão-dados | #roadmap | #negociação",
   isTopCase: true,
   isGoodCase: false,

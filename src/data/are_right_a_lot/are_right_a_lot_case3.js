@@ -6,7 +6,6 @@ const case_3 = {
   title_en: "I used data science to prove the API pricing would not pay off and redesigned the model in 30 days",
   company: "Sicredi Plataforma",
   period: "06/2020-12/2020",
-  role: "Platform PM",
   keywords: "#pricing | #ciência-de-dados | #contestação | #modelo-financeiro | #pivot",
   isTopCase: false,
   isGoodCase: false,

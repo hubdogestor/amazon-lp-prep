@@ -6,7 +6,6 @@ const case_1 = {
   title_en: "Leadership of US$ 5.2B Assets and Accounts Migration",
   company: "HSBC",
   period: "05/2015-06/2016",
-  role: "Head of Operations PMO",
   keywords: "#assumir-liderança | #sem-mandato | #crise | #migração | #ponta-a-ponta",
   isTopCase: true,
   isGoodCase: false,

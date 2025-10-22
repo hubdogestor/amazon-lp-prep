@@ -4,8 +4,6 @@ const case_5 = {
   title_en: "Coordinated 4G launch in 12 World Cup 2014 cities negotiating with 20 vendors, ANATEL, city halls and FIFA",
   company: "Huawei",
   period: "01/2013-07/2014",
-  role: "Program Manager / Stakeholder Lead",
-  role: "Program Manager / Stakeholder Lead",
   keywords: "#stakeholders | #governança | #programa-complexo | #negociação | #crise",
   isTopCase: false,
 

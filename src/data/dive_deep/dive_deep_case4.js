@@ -5,7 +5,6 @@ const case_4 = {
   title_en: "47% Reduction in PIX Payment Settlement Time",
   company: "Sicredi",
   period: "03/2020-08/2020",
-  role: "Product Strategist",
   keywords: "#causa-raiz | #gargalo | #instrumentação | #crise-técnica | #latência",
   isTopCase: true,
   isGoodCase: false,

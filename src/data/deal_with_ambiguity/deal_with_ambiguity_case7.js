@@ -3,7 +3,6 @@ const case_7 = {
   title: "Lançamento do Produto Pet Saúde: Inovação em Mercado Não-Core com Dados Limitados",
   company: "Unimed Porto Alegre",
   period: "2022-2023",
-  role: "Group Product Manager",
   keywords: "#dados-limitados | #mercado-novo | #mvp-regulatório | #experimentação | #saúde-pet",
   isTopCase: false,
   isGoodCase: true,

@@ -6,7 +6,6 @@ const case_4 = {
   title_en: "Calculated risk under time pressure: restored telemedicine in 72h with zoned mitigation and selective rollback",
   company: "Unimed Porto Alegre",
   period: "03/2023-05/2023",
-  role: "Head of Digital Transformation",
   keywords: "#risco-calculado | #tempo-crítico | #recuperação-desastre | #rollback | #crise",
   isTopCase: true,
   isGoodCase: false,

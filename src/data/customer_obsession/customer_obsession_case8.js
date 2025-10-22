@@ -6,7 +6,6 @@ const case_8 = {
   title_en: "Failed a premium member and earned trust back in 72 hours",
   company: "Sicredi",
   period: "12/2021-02/2022",
-  role: "Head of Customer Experience",
   keywords: "#falha-com-cliente | #reconquistar-confiança | #recuperação-serviço | #assumir-erro | #crise",
   isTopCase: false,
   isGoodCase: false,

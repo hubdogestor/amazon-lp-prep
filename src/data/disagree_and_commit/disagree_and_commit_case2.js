@@ -5,7 +5,6 @@ const case_2 = {
   title_pt: "Desafiei a compressão do cronograma da Copa de 2014 e entreguei o plano revisado com antecedência",
   company: "Huawei",
   period: "09/2013 - 07/2014",
-  role: "Program Manager",
   keywords: "#desafiar-liderança | #risco | #prazo | #execução-rigorosa | #dados",
   isTopCase: false,
   isGoodCase: false,

@@ -6,7 +6,6 @@ const case_2 = {
   title_en: "I modeled 5G risks in real time and pivoted the architecture mid-rollout without delaying the FIFA Fan Fest",
   company: "Huawei LATAM",
   period: "08/2014-03/2015",
-  role: "Program Manager",
   keywords: "#risco | #simulação | #arquitetura | #pressão | #pivot",
   isTopCase: false,
   isGoodCase: false,

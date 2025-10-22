@@ -3,7 +3,6 @@ const case_6 = {
   title: "Transformação Digital na SEFAZ-RS: Modernização Fiscal em Ambiente Político Complexo",
   company: "Secretaria da Fazenda do RS",
   period: "Julho 2024 - Dezembro 2024",
-  role: "PMO Advisor",
   keywords: "#ambiguidade-política | #setor-público | #modernização | #transformação-digital | #governança",
   isTopCase: false,
   isGoodCase: false,

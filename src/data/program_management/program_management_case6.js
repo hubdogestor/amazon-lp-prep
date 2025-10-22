@@ -5,8 +5,6 @@ const case_6 = {
   title_en: "Led a US$ 280M IDB program integrating 47 tax projects under hybrid waterfall-agile governance",
   company: "SEFAZ-RS",
   period: "03/2024-atual",
-  role: "Program Manager / PMO Lead",
-  role: "Program Manager / PMO Lead",
   keywords: "#programa-complexo | #governança-híbrida | #setor-público | #stakeholders | #bid",
   context: "PROFISCO II - Largest Tax Modernization Program in Brazil",
   isTopCase: true,

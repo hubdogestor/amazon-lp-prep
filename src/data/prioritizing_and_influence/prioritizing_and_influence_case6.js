@@ -4,8 +4,6 @@ const case_6 = {
   title_en: "I influenced Bradesco Next MVP decision cutting 60% features to launch 4 months earlier",
   company: "Bradesco / Banco Next",
   period: "09/2017-03/2018",
-  role: "Product Manager / MVP Lead",
-  role: "Product Manager / MVP Lead",
   keywords: "#influenciar-sem-autoridade | #cortar-escopo | #mvp | #priorização-com-dados | #roadmap",
   isTopCase: false,
   pt: {

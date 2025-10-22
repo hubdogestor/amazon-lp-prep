@@ -6,8 +6,6 @@ const case_5 = {
   title_en: "My 15-year PMO intuition said waterfall, but PROFISCO II data proved hybrid was the way",
   company: "SEFAZ-RS",
   period: "07/2024-01/2025",
-  role: "Advisor PMO / Executive Office",
-  role: "Advisor PMO / Executive Office",
   keywords: "#intuição-vs-dados | #mudar-de-opinião | #experimento | #governança | #híbrido",
   context: "PROFISCO II Program - IDB Partnership",
   isTopCase: false,

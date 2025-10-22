@@ -5,7 +5,6 @@ const case_3 = {
   title_en: "Manual Investigation of Reimbursement Anomalies to Uncover Network Fraud",
   company: "Unimed",
   period: "06/2022-12/2022",
-  role: "Head of Innovation & Digital Product",
   keywords: "#investigação | #fraude-em-rede | #conectar-sinais-fracos | #análise-manual | #python",
   isTopCase: true,
   isGoodCase: false,

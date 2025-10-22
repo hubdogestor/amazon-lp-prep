@@ -5,8 +5,6 @@ const case_7 = {
   title_en: "Systematic Experimentation in Payment Platform to Find Optimal Monetization Model",
   company: "Sicredi",
   period: "09/2022-03/2023",
-  role: "Product Manager / Experimentation Lead",
-  role: "Product Manager / Experimentation Lead",
   keywords: "#experimentação | #teste-ab | #dados-inconclusivos | #encontrar-solução | #pricing",
   context: "Digital Payments Platform",
   isTopCase: false,

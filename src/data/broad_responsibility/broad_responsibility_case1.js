@@ -5,7 +5,6 @@ const case_1 = {
   title_en: "Ensuring LGPD Compliance in Digital Product Launches for Millions of Customers",
   company: "Unimed",
   period: "08/2021-12/2021",
-  role: "Head of Digital Innovation",
   keywords: "#compliance | #lgpd | #privacidade | #governança-dados | #responsabilidade-ética",
   isTopCase: false,
   isGoodCase: false,

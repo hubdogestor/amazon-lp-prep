@@ -5,7 +5,6 @@ const case_5 = {
   title_en: "Turned Recurring Payment Incidents into a Reliability Mechanism",
   company: "SEFAZ/RS",
   period: "08/2024-11/2024",
-  role: "Senior Strategy Advisor",
   keywords: "#criar-mecanismo | #prevenção | #reincidência | #dono-único | #incidentes",
   isTopCase: true,
   isGoodCase: false,

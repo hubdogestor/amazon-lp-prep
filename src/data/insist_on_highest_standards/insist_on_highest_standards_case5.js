@@ -5,7 +5,6 @@ const case_5 = {
   title_en: "I Rebuilt a Telemedicine Platform from Scratch After an NPS of 28 to Achieve a Standard of Excellence (NPS 84)",
   company: "Unimed",
   period: "03/2022 - 12/2022",
-  role: "Head of Digital Product",
   keywords: "#refazer-do-zero | #admitir-falha | #excelência | #nps | #qualidade",
   isTopCase: false,
   isGoodCase: false,

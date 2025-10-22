@@ -6,7 +6,6 @@ const case_3 = {
   title_en: "Adjusted Roadmap to Adopt Integrated Management Framework at SEFAZ",
   company: "Secretaria da Fazenda do RS",
   period: "07/2024 - 12/2024",
-  role: "Advisor",
   keywords: "#ajustar-roadmap | #framework-integrado | #influenciar-sem-autoridade | #setor-público | #stakeholders",
   isTopCase: false,
   isGoodCase: false,

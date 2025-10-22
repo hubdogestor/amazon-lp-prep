@@ -5,6 +5,7 @@ const case_6 = {
   title_en: "Failed CVC launch, learned through DMAIC and created Vibee Unimed",
   company: "Unimed Nacional / Laçador Participações",
   period: "02/2023-12/2023",
+  keywords: "#cvc | #inovação-cooperativa | #aprendizado-com-falha | #dmaic | #governança",
   isTopCase: true,
   isGoodCase: false,
 

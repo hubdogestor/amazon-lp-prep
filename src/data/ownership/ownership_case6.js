@@ -6,7 +6,6 @@ const case_6 = {
   title_en: "Took the Trade-off: Less Scope Now for Greater Robustness",
   company: "Bradesco Next",
   period: "07/2017-12/2017",
-  role: "Integration Manager",
   keywords: "#trade-off | #longo-prazo | #robustez-vs-escopo | #dizer-não | #risco",
   isTopCase: false,
   isGoodCase: false,

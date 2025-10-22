@@ -6,7 +6,6 @@ const case_1 = {
   title_en: "Mentoring 30+ Project Managers and Creating a Community of Practice",
   company: "Huawei",
   period: "01/2012-12/2014",
-  role: "Program Manager",
   keywords: "#mentoria | #desenvolver-pessoas | #comunidade-de-prática | #pipeline-talentos | #liderança-técnica",
   isTopCase: false,
   isGoodCase: false,

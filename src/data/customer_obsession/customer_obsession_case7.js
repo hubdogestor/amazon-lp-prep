@@ -6,7 +6,6 @@ const case_7 = {
   title_en: "Reduced chargebacks from 1.8% to 0.5% maintaining NPS at 81 with proactive resolution",
   company: "Sicredi",
   period: "02/2020-11/2020",
-  role: "Head of Digital Products",
   keywords: "#chargeback | #resolução-conflitos | #causa-raiz | #mediação | #ponte",
   isTopCase: false,
   isGoodCase: false,

@@ -6,7 +6,6 @@ const case_3 = {
   title_en: "Ensuring Global Compliance (FATCA/AML) Over Short-Term Costs",
   company: "HSBC",
   period: "03/2015-12/2015",
-  role: "Program Manager",
   keywords: "#decisão-certa-vs-fácil | #responsabilidade-ética | #compliance | #curto-prazo | #integridade",
   isTopCase: false,
   isGoodCase: true,

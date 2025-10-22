@@ -6,7 +6,6 @@ const case_2 = {
   title_en: "Creating Agile Talent Pipeline and Raising Hiring Standards at InovaBra",
   company: "Bradesco",
   period: "01/2017--12/2018",
-  role: "Agile Transformation Lead",
   keywords: "#pipeline-talentos | #elevar-padrão-contratação | #simulação-prática | #desenvolver-potencial | #cultura-ágil",
   isTopCase: false,
   isGoodCase: false,

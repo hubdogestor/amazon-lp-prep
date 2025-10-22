@@ -6,8 +6,6 @@ const case_5 = {
   title_en: "I defended open APIs in 2018 when board saw it as 'handing gold to enemy' - Open Finance proved I was right",
   company: "Bradesco / Banco Next",
   period: "08/2018-12/2018 (visão) | 02/2020-11/2021 (validação)",
-  role: "Program Manager / Agile Leader",
-  role: "Program Manager / Agile Leader",
   keywords: "#visão-longo-prazo | #ambiguidade | #evangelização-paciente | #poc | #open-banking",
   context: "Digital Bank Next - Platform Strategy",
   isTopCase: false,

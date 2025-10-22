@@ -5,7 +5,6 @@ const case_4 = {
   title_en: "Payment Reconciliation Crisis -- Cleared US$47M on the Eve of Cutover",
   company: "HSBC",
   period: "03/2016-05/2016",
-  role: "PMO",
   keywords: "#crise | #reconciliação | #assumir-responsabilidade | #ponta-a-ponta | #pagamentos",
   isTopCase: false,
   isGoodCase: true,

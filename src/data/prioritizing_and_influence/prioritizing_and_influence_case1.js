@@ -6,7 +6,6 @@ const case_1 = {
   title_en: "Prioritized B2C over B2B Against 340 Cooperatives and Generated R$ 87M in 18 Months",
   company: "Sicredi",
   period: "03/2022-09/2023",
-  role: "Head of Digital Product",
   keywords: "#priorização-controversa | #influenciar-com-dados | #b2c-vs-b2b | #trade-off | #roadmap",
   isTopCase: true,
   isGoodCase: false,

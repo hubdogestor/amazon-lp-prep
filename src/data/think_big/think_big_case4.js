@@ -6,7 +6,6 @@ const case_4 = {
   title_en: "Horizonte Program: Fiscal Digital Twin that Redirected BRL 2.1B in Investments",
   company: "SEFAZ-RS",
   period: "08/2024-11/2025",
-  role: "Advisor",
   keywords: "#recusar-visão-tática | #criar-mecanismo | #digital-twin | #impacto-social | #setor-público",
   isTopCase: false,
   isGoodCase: false,

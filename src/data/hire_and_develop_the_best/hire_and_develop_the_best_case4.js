@@ -6,8 +6,6 @@ const case_4 = {
   title_en: "I promoted 2-year analyst directly to coordination bypassing 3 seniors and faced internal mutiny",
   company: "Unimed Porto Alegre",
   period: "03/2024-09/2024",
-  role: "Strategy Advisor / Group Product Manager",
-  role: "Strategy Advisor / Group Product Manager",
   keywords: "#promoção-controversa | #elevar-padrão | #potencial-vs-senioridade | #decisão-dados | #meritocracia",
   context: "Digital Health Products",
   isTopCase: false,

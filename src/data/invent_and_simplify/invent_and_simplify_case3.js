@@ -4,7 +4,6 @@ const case_3 = {
   title_en: "Invented Medical Authorization AI that Simplified 5-Day Process to 9 Hours (82% Automation)",
   company: "Unimed",
   period: "01/2023-10/2023",
-  role: "Strategy Advisor",
   keywords: "#inventar-com-ia | #simplificar-processo | #explicabilidade | #empatia | #saúde",
   isTopCase: true,
   isGoodCase: false,

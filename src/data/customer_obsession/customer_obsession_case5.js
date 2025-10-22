@@ -6,8 +6,6 @@ const case_5 = {
   title_en: "Balanced 340 B2B cooperatives and 1.2M retail members with one squad",
   company: "Sicredi Woop",
   period: "03/2021-11/2021",
-  role: "Product Strategist",
-  role: "Product Strategist",
   keywords: "#equilibrar-clientes | #priorização | #b2b-vs-b2c | #trade-off | #dados",
   context: "Digital banking platform",
   isTopCase: false,

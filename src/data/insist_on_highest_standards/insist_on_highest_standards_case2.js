@@ -5,7 +5,6 @@ const case_2 = {
   title_pt: "Elevei o padrao de governanca da SEFAZ, transformando o foco de entregas para valor ao cidadao",
   company: "Secretaria da Fazenda do RS",
   period: "07/2024 - 05/2025",
-  role: "Advisor",
   keywords: "#redefinir-padrão | #valor-ao-cidadão | #governança | #accountability | #setor-público",
   isTopCase: false,
   isGoodCase: false,

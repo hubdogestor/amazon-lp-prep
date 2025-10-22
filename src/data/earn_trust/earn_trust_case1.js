@@ -5,7 +5,6 @@ const case_1 = {
   title_en: "Rebuilt trust after Pix outage through daily transparency rituals",
   company: "Sicredi Woop",
   period: "02/2020-06/2020",
-  role: "Product Strategist",
   keywords: "#reconstruir-confiança | #assumir-erro | #transparência-radical | #crise | #post-mortem",
   isTopCase: true,
   isGoodCase: false,

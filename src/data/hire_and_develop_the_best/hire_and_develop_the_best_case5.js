@@ -6,7 +6,6 @@ const case_5 = {
   title_en: "The Hard Decision to Remove a 'Toxic Genius' to Protect the Team",
   company: "Unimed",
   period: "01/2023-06/2023",
-  role: "Head of Innovation",
   keywords: "#gênio-tóxico | #proteger-equipe | #cultura | #decisão-difícil | #segurança-psicológica",
   isTopCase: false,
   isGoodCase: true,

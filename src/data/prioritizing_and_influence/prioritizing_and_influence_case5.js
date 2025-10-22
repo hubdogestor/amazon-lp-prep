@@ -6,7 +6,6 @@ const case_5 = {
   title_en: "Communicated 3-Month Delay in Woop App Launch to the Board",
   company: "Sicredi",
   period: "06/2019 - 09/2019",
-  role: "Product Strategist",
   keywords: "#comunicar-atraso | #más-notícias | #plano-de-mitigação | #influenciar-board | #crise",
   isTopCase: false,
   isGoodCase: true,

@@ -6,7 +6,6 @@ const case_7 = {
   title_en: "Authorized Critical System Rollback at 6pm Friday Without Manager Approval and Saved 23k Companies",
   company: "SEFAZ/RS",
   period: "09/2024",
-  role: "Infrastructure & Reliability Advisor",
   keywords: "#decisão-sem-gestor | #crise | #rollback | #assumir-risco | #emergência",
   isTopCase: true,
   isGoodCase: false,

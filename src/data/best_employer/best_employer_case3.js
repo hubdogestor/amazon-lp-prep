@@ -6,7 +6,6 @@ const case_3 = {
     title_en: "Creating Better Work Environment: Reverse Mentoring that Lifted eNPS to 82 and United Generations",
     company: "SEFAZ RS",
     period: "08/2024-11/2024",
-    role: "Advisor",
   keywords: "#mentoria-reversa | #conflito-gerações | #ambiente-de-trabalho | #colaboração | #cultura",
   isTopCase: true,
     isGoodCase: false,

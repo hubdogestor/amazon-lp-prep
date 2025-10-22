@@ -6,7 +6,6 @@ const case_3 = {
   title_en: "Went beyond expectation and saved 2,400 small businesses during the pandemic",
   company: "Sicredi",
   period: "03/2020-12/2020",
-  role: "Head of Products",
   keywords: "#ir-além | #crise | #necessidade-não-expressa | #ecossistema-de-apoio | #pequenos-negócios",
   isTopCase: true,
   isGoodCase: false,

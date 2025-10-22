@@ -5,7 +5,6 @@ const case_6 = {
   title_en: "Communicating Progress in Agile Transformation with Fluid Objectives",
   company: "Unimed RS",
   period: "03/2023-08/2023",
-  role: "Agile Coach / Program Manager",
   keywords: "#comunicação | #ambiguidade | #stakeholders | #mudança | #resistência",
   context: "Digital Transformation - Healthcare",
   isTopCase: false,

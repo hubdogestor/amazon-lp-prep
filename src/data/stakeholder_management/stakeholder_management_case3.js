@@ -5,7 +5,6 @@ const case_3 = {
   title_en: "Said 'No' to CEO and Terminated 8-Year Vendor - Then Rebuilt Trust with Transparency",
   company: "Unimed",
   period: "09/2022-03/2023",
-  role: "Group Product Manager",
   keywords: "#dizer-não | #ceo | #fornecedor | #reconstruir-confiança | #dados",
   isTopCase: true,
   isGoodCase: false,

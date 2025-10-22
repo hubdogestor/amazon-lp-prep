@@ -5,7 +5,6 @@ const case_4 = {
   title_en: "I Rejected a BRL 1.3M Software Delivery and Created a Quality Gate That Became a Contract Standard",
   company: "Secretaria da Fazenda do RS",
   period: "11/2024 - 02/2025",
-  role: "Advisor",
   keywords: "#rejeitar-trabalho-medíocre | #quality-gate | #accountability | #elevar-padrão | #fornecedor",
   isTopCase: false,
   isGoodCase: false,

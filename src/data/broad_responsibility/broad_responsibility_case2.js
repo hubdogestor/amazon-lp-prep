@@ -6,7 +6,6 @@ const case_2 = {
   title_en: "FATCA and AML Controls Implementation in Billion-Dollar Operation",
   company: "HSBC",
   period: "01/2016--12/2016",
-  role: "Program Manager",
   keywords: "#compliance | #fatca | #aml | #risco-sistêmico | #integridade",
   isTopCase: false,
   isGoodCase: false,

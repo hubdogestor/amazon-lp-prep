@@ -4,7 +4,6 @@ const case_6 = {
   title_en: "Aligned 112 Autonomous Cooperatives to Drive Digital Transformation for 6.4M Members",
   company: "Sicredi",
   period: "2018-2021",
-  role: "Product Strategist",
   keywords: "#stakeholders | #influenciar-sem-autoridade | #coautoria | #transformação-digital | #cooperativas",
   isTopCase: true,
 
