@@ -7,7 +7,7 @@ const case_2 = {
   "period": "07/2024 - 05/2025",
   "keywords": "#redefinir-padrão | #valor-ao-cidadão | #governança | #accountability | #setor-público",
   "isTopCase": false,
-  "isGoodCase": false,
+  "isGoodCase": true,
   "pt": {
     "s": "Em julho de 2024, como Advisor para o Gabinete Executivo da SEFAZ RS, uma secretaria responsável pela gestão fiscal é arrecadacao de um estado com orçamento anual de R$ 50-100 milhoes em projetos de TI, assumi em meio a uma crise de governanca no programa Profisco II, financiado pelo BID. Encontrei um portfolio de 74 projetos com 63% de desvio orcamentario é atrasos medios de seis meses, onde o padrao de sucesso era apenas entregar software, mesmo sem gerar valor real, como certidoes fiscais que ainda levavam 10 dias para emissao, impactando cidadaos é empresas. Apos analisar 12 auditorias do BID, quantifiquei uma perda anual de R$ 38 milhoes por ma governanca, incluindo ineficiencias operacionais é overruns. Esse padrao era visto como normal no setor publico, mas para mim, era inaceitavel, já que falhava em cumprir a missao de sustentabilidade fiscal é transparencia.",
     "t": "Minha tarefa, que assumi alem do escopo inicial é negociei diretamente com o Secretário, era redefinir o padrao de governanca, mudando o foco de meras entregas para valor ao cidadao. Estabeleci metas claras: aprovacoes baseadas em outcomes validados por mim, limitacao de desvio orcamentario a 5%, é criação de um portal de transparencia total para accountability. Equilibrei opcoes como manter o status quo para evitar conflitos internos ou forcar mudancas radicais, optando pela segunda para garantir sustentabilidade, mesmo sabendo dos riscos de resistencia cultural.",

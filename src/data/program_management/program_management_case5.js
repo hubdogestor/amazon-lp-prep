@@ -7,7 +7,7 @@ const case_5 = {
   "period": "06/2019 - 09/2019",
   "keywords": "#comunicar-atraso | #crise | #plano-de-mitigação | #programa-complexo | #stakeholders",
   "isTopCase": false,
-  "isGoodCase": true,
+  "isGoodCase": false,
   "pt": {
     "s": "Em junho de 2019, como Product Strategist no Sicredi, eu era o lider responsável pelo lançamento do Woop, nosso banco digital. O projeto, com orçamento de R$ 10 milhoes, era a principal aposta estrategica para competir com fintechs. Porem, durante a fase final de testes, descobrimos falhas criticas de integração entre a nova plataforma é os sistemas legados do Sicredi, projetando um atraso inevitavel de tres meses. O cenário era de alta pressao: o board executivo contava com o lançamento em setembro para capturar um pico sazonal de adocao, é qualquer desvio colocaria em risco a confianca dos stakeholders é o retorno do investimento.",
     "t": "Minha tarefa era assumir a responsabilidade pela crise, comunicar o atraso ao board de forma transparente é, mais importante, apresentar um plano de mitigacao viavel que salvasse o projeto. Eu precisava garantir que eles não apenas entendessem o problema, mas que aprovassem minha solução. Meus objetivos eram claros: obter a aprovacao de um aditivo de R$ 2 milhoes para escalar as equipes de correcao, garantir que o churn de clientes na lista de espera ficasse abaixo de 5%, é redefinir o escopo para um lançamento MVP (Minimum Viable Product) que entregasse valor é mantivesse o momentum do mercado.",

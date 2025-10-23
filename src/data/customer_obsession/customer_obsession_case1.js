@@ -7,7 +7,7 @@ const case_1 = {
   "company": "Unimed Nacional",
   "period": "03/2023-12/2023",
   "keywords": "#antecipar-necessidades | #empatia | #jornada-do-cliente | #ouvir-cliente | #saúde",
-  "isTopCase": true,
+  "isTopCase": false,
   "isGoodCase": false,
   "pt": {
     "s": "Em março de 2023, eu atuava como Strategy Advisor na Unimed Nacional, responsável por inteligência de mercado e redesenho de jornadas de cuidado. Numa tarde silenciosa, atendi uma ligação que mudou meu jeito de enxergar clientes: 'Meu pai vai morrer esperando autorização', disse Mariana, filha de um paciente com câncer de pâncreas. Ela tinha conseguido meu contato por acaso. O exame custava R$ 340, mas o pedido estava parado há 12 dias. Quando desliguei, percebi que a falha não era operacional, era humana. Pacientes em tratamento oncológico enfrentavam a mesma burocracia que quem marcava uma consulta de rotina. E ninguém reclamava -- porque estavam tentando sobreviver.",

@@ -6,7 +6,7 @@ const case_4 = {
   "company": "Bradesco Next",
   "period": "03/2017 - 08/2017",
   "keywords": "#discordar | #pricing | #risco | #execução-disciplinada | #piloto",
-  "isTopCase": false,
+  "isTopCase": true,
   "isGoodCase": false,
   "pt": {
     "s": "Em 2017, no Bradesco Next, enfrentei um impasse estratégico. A diretoria comercial, pressionada por um concorrente agressivo, exigia um corte de preço linear em nossa carteira de crédito para PMEs, reduzindo nosso markup de 2,2% para 1,0%. Como gerente de produto, minha análise de risco indicava que essa medida indiscriminada aumentaria nossa perda esperada (ECL) em R$ 15 milhões, pois 38% da carteira era de alto risco. A situação escalou a ponto de o CRO ameaçar trocar a liderança do produto se a decisão não fosse acatada, me colocando em uma posição onde eu precisava defender a saúde financeira do portfólio contra uma forte pressão por resultados de curto prazo.",

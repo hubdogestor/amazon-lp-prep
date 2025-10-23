@@ -7,7 +7,7 @@ const case_3 = {
   "company": "Sicredi",
   "period": "03/2020-12/2020",
   "keywords": "#ir-além | #crise | #necessidade-não-expressa | #ecossistema-de-apoio | #pequenos-negócios",
-  "isTopCase": true,
+  "isTopCase": false,
   "isGoodCase": false,
   "pt": {
     "s": "\"Nao aguento mais. Vou fechar a padaria.\" Carlos, dono de uma padaria ha 23 anos, chorava ao telefone comigo em marco de 2020, primeiro mes da pandemia. Eu era Head de Produtos no Sicredi e, naquele momento, entendi que ele nao precisava apenas de credito: precisava de um plano para sobreviver. Enquanto nosso processo tradicional prometia 21 dias para liberar um emprestimo, 2.400 pequenos negocios cooperados enfrentavam faturamento zero, folha atrasada e burocracia que ignorava a urgencia.",
@@ -80,7 +80,7 @@ const case_3 = {
     },
     {
       "q": "Qual habilidade pessoal foi decisiva?",
-      "a": "Escutar sem julgar e traduzir dor em acao. Transformei desespero em requisitos claros de produto e servi�o. Trabalhei com a liberação de R$ 47 milhões em crédito emergencial mantendo SLA médio de 1,8 dia.",
+      "a": "Escutar sem julgar e traduzir dor em acao. Transformei desespero em requisitos claros de produto e servi o. Trabalhei com a liberação de R$ 47 milhões em crédito emergencial mantendo SLA médio de 1,8 dia.",
       "q_en": "Which personal skill was decisive?",
       "a_en": "Listening without judgment and translating pain into action. I turned despair into precise product requirements and services. I referenced the BRL 47M in emergency credit we released with a 1.8-day SLA."
     },

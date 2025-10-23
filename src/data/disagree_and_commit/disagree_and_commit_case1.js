@@ -6,7 +6,7 @@ const case_1 = {
   "company": "Unimed",
   "period": "02/2023 - 10/2023",
   "keywords": "#discordar-com-dados | #comprometer-se | #plano-híbrido | #influência | #trade-off",
-  "isTopCase": false,
+  "isTopCase": true,
   "isGoodCase": true,
   "pt": {
     "s": "No início de 2023, como Head de Inovação da Unimed, enfrentei um conflito estratégico. Estávamos 18% abaixo da meta de aquisição de clientes, e a diretoria comercial pressionava para dobrar o orçamento de marketing com uma campanha de cashback agressiva. Minha análise, no entanto, apontava para um problema mais grave: o churn mensal de clientes com mais de 24 meses havia subido para 3,6%, e nosso SAC registrava 41 mil reclamações sobre a falta de suporte digital. O impasse era claro: ceder à pressão por resultados de curto prazo ou defender, com base em dados, que cada ponto percentual de churn nos custava R$ 42 milhões em receita anualizada.",

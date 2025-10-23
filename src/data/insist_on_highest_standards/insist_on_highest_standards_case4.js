@@ -6,7 +6,7 @@ const case_4 = {
   "company": "Secretaria da Fazenda do RS",
   "period": "11/2024 - 02/2025",
   "keywords": "#rejeitar-trabalho-medíocre | #quality-gate | #accountability | #elevar-padrão | #fornecedor",
-  "isTopCase": false,
+  "isTopCase": true,
   "isGoodCase": false,
   "pt": {
     "s": "Em novembro de 2024, atuando como Advisor na CAGE, o orgao de auditoria é controle da Secretaria da Fazenda do RS, enfrentei uma crise urgente com forte pressao politica é humana. A PROCERGS, nosso fornecedor estatal de TI, entregou um sistema fiscal critico projetado para auxiliar 12 mil contribuintes afetados pelas enchentes recentes no estado, agilizando a emissao de certidoes fiscais para acesso a emprestimos emergenciais. O Secretário da Fazenda havia anunciado publicamente a entrega rapida como parte do pacote de reconstrucao pos-desastre, criando expectativa publica. No entanto, minha análise revelou 74 defeitos bloqueadores, incluindo falhas de seguranca que expunham dados pessoais é erros de calculo que invalidariam declaracoes. Lembrei de um relato especifico de uma lojista de Porto Alegre que perdeu sua loja na inundacao é precisava urgentemente da certidao para um emprestimo de R$ 50 mil para reconstruir seu negocio é sustentar sua familia. Aceitar a entrega, como o contrato permitia com uma multa de R$ 1,3 milhao por atraso, significaria falhar com ela é milhares em situacao similar, perpetuando um historico de 'aceite flexivel' que já havia causado problemas em entregas anteriores. O Diretor da PROCERGS pressionava pelo aceite, argumentando impacto orcamentario é citando precedentes de flexibilidade.",
