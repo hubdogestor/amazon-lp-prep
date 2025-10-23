@@ -262,111 +262,14 @@ export default function App() {
     return base;
   }, [principlesData, selectedPrinciple, showTopCases, debouncedSearchTerm, language, getCaseBaseTitle]);
 
-  const generatePrompt = useCallback((caseData, principleData, lang) => {
-    const isPortuguese = lang === 'pt';
-    const caseContent = caseData[lang] || {};
-    const fups = getCaseFups(caseData);
+import { generatePrompt } from './utils/promptUtils.js';
 
-    let prompt = '';
+// ... (rest of the imports)
 
-    if (isPortuguese) {
-      prompt = `# ${t('prompt.interviewContext')} - ${t('prompt.amazonLp')}
-
-## ${t('prompt.principle')}: ${getDisplayName(principleData, lang)}
-
-${principleData.principle ? `**${t('prompt.principleDescription')}:** ${principleData.principle.description}\n` : ''}
-
-## ${t('prompt.case')}: ${getDisplayCaseTitle(caseData, lang)}
-
-### ${t('prompt.starFramework')}:
-
-**${t('situation')}:**
-${caseContent.s || ''}
-
-**${t('task')}:**
-${caseContent.t || ''}
-
-**${t('action')}:**
-${caseContent.a || ''}
-
-**${t('result')}:**
-${caseContent.r || ''}
-
-**${t('learning')}:**
-${caseContent.l || ''}
-`;
-
-      if (fups.length > 0) {
-        prompt += `\n### ${t('prompt.followupQuestions')}:\n\n`;
-        fups.forEach((fup, idx) => {
-          const question = fup.q || '';
-          const answer = fup.a || '';
-          prompt += `**${idx + 1}. ${question}**\n`;
-          if (answer) {
-            prompt += `${answer}\n\n`;
-          } else {
-            prompt += '\n';
-          }
-        });
-      }
-
-      prompt += `\n---
-
-**${t('prompt.instructions')}:**
-${t('prompt.instructionsText', { principleName: getDisplayName(principleData, lang) })}`;
-
-    } else {
-      prompt = `# ${t('prompt.interviewContext')} - ${t('prompt.amazonLp')}
-
-## ${t('prompt.principle')}: ${getDisplayName(principleData, lang)}
-
-${principleData.principle ? `**${t('prompt.principleDescription')}:** ${principleData.principle.description_en || principleData.principle.description}\n` : ''}
-
-## ${t('prompt.case')}: ${getDisplayCaseTitle(caseData, lang)}
-
-### ${t('prompt.starFramework')}:
-
-**${t('situation')}:**
-${caseContent.s || ''}
-
-**${t('task')}:**
-${caseContent.t || ''}
-
-**${t('action')}:**
-${caseContent.a || ''}
-
-**${t('result')}:**
-${caseContent.r || ''}
-
-**${t('learning')}:**
-${caseContent.l || ''}
-`;
-
-      if (fups.length > 0) {
-        prompt += `\n### ${t('prompt.followupQuestions')}:\n\n`;
-        fups.forEach((fup, idx) => {
-          const question = fup.q_en || fup.q || '';
-          const answer = fup.a_en || fup.a || '';
-          prompt += `**${idx + 1}. ${question}**\n`;
-          if (answer) {
-            prompt += `${answer}\n\n`;
-          } else {
-            prompt += '\n';
-          }
-        });
-      }
-
-      prompt += `\n---
-
-**${t('prompt.instructions')}:**
-${t('prompt.instructionsText', { principleName: getDisplayName(principleData, lang) })}`;
-    }
-
-    return prompt;
-  }, [getDisplayCaseTitle, t]);
+// ... (inside App component)
 
   const copyPromptToClipboard = useCallback(async (caseData, principleData, caseIdentifier) => {
-    const prompt = generatePrompt(caseData, principleData, language);
+    const prompt = generatePrompt(caseData, principleData, language, t, getDisplayCaseTitle);
 
     try {
       await navigator.clipboard.writeText(prompt);
@@ -376,7 +279,7 @@ ${t('prompt.instructionsText', { principleName: getDisplayName(principleData, la
       console.error('Falha ao copiar:', err);
       alert(t('copyError'));
     }
-  }, [generatePrompt, language, t]);
+  }, [language, t, getDisplayCaseTitle]);
 
   // Navegar para o case mapeado a partir de uma pergunta típica
   const navigateToMappedCase = useCallback((lpId, questionIndex, questionId = null) => {
