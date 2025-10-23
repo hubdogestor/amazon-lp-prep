@@ -28,6 +28,7 @@ import Header from "./components/layout/Header.jsx";
 import Sidebar from "./components/layout/Sidebar.jsx";
 import MainContent from "./components/layout/MainContent.jsx";
 import { loopingGroups } from "./config/loopingGroups.js";
+import { generatePrompt } from './utils/promptUtils.js';
 
 // ---------- Labels & Ordem ----------
 const getDisplayName = getPrincipleDisplayName;
@@ -261,10 +262,6 @@ export default function App() {
 
     return base;
   }, [principlesData, selectedPrinciple, showTopCases, debouncedSearchTerm, language, getCaseBaseTitle]);
-
-import { generatePrompt } from './utils/promptUtils.js';
-
-// ... (rest of the imports)
 
 // ... (inside App component)
 

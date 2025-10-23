@@ -7,7 +7,7 @@ const case_4 = {
   "period": "03/2016-05/2016",
   "keywords": "#crise | #reconciliação | #assumir-responsabilidade | #ponta-a-ponta | #pagamentos",
   "isTopCase": false,
-  "isGoodCase": true,
+  "isGoodCase": false,
   "pt": {
     "s": "Março de 2016. Faltavam 21 dias para o cutover Banquo → Bradesco quando minha rotina de auditoria paralela identificou um número alarmante no dashboard: 2.847 pagamentos não reconciliados, somando US$ 47 milhões. O risco era imediato -- o BACEN poderia aplicar multa de 0,5% dos ativos (≈ R$ 12 milhões), 18 clientes priority sofriam atrasos > 48h e o prazo do cutover era inegociável. Como PMO, eu já respondia pela governança da migração e conhecia em detalhe o fluxo de reconciliação e integração SWIFT. Percebi que ninguém tinha autoridade formal sobre o problema -- Operações, Compliance e TI se limitavam a suas fronteiras -- e decidi assumir a responsabilidade ponta a ponta, unindo planejamento, execução técnica e alinhamento regulatório.",
     "t": "Minha missão tornou-se eliminar integralmente os US$ 47 milhões travados antes do cutover, sem alterar a data e sem perder clientes ou conformidade. Para isso, precisei integrar todas as áreas em um único plano operacional, com processo automatizado, priorização por risco e mecanismo auditatório atestado pelo BACEN.",

@@ -9,7 +9,7 @@ const case_5 = {
   "keywords": "#equilibrar-clientes | #priorização | #b2b-vs-b2c | #trade-off | #dados",
   "context": "Digital banking platform",
   "isTopCase": false,
-  "isGoodCase": false,
+  "isGoodCase": true,
   "pt": {
     "s": "Marco de 2021. Eu liderava estrategia de produto no Woop, banco digital do Sicredi, com um squad de nove pessoas cuidando de toda a jornada. Às 9h, o diretor comercial avisou: “Se o modulo de tesouraria nao for ao ar ate junho, perdemos R$ 47 milhoes em receita das 340 cooperativas.” Às 10h, o dashboard de onboarding disparou: churn de 38% nos sete primeiros dias - 156 mil pessoas abandonando a conta. Um unico time, dois incêndios e a promessa cooperativa de inclusao em risco.",
     "t": "Assumi ownership total e explicitei o dilema: metas internas exigiam churn abaixo de 20%, entrega completa do backlog B2B e custo por sprint em R$ 4 mil, mas havia apenas um squad. Defini dois compromissos: cortar o churn B2C pela metade para preservar liquidez e, em paralelo, entregar as tres funcoes de tesouraria que realmente geravam receita. Avisei ao board que o plano mudaria: comecariamos por varejo porque cada semana de atraso queimava R$ 2,8 milhoes em valor de vida de cliente, enquanto o B2B tinha quatro meses de folga contratual.",
