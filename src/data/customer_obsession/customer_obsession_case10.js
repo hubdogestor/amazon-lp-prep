@@ -31,37 +31,19 @@ Sem resposta, a unidade de marketplaces colapsaria em seis meses.
 * E reposicionar a plataforma como **referência em liquidez simples e confiável**.
 
 O desafio ia além de engenharia: era **reconquistar a confiança do cliente por meio da experiência**.`,
-    a: `Transformei a crise em um caso de **Customer Obsession extremo**.
+    a: `Assumi a liderança da resposta à crise, transformando-a num caso de **Customer Obsession extremo** e executando em quatro frentes paralelas.
 
-### 1. **Diagnóstico com foco no cliente**
+### 1. **Imersão Profunda no Cliente**
+Em vez de analisar relatórios, fui a campo. Organizei e conduzi pessoalmente entrevistas com os 20 maiores lojistas, que representavam 40% do nosso TPV. Descobri que **78% deles citavam a imprevisibilidade do fluxo de caixa** como a principal razão para o churn, enquanto apenas 12% mencionavam as taxas. A dor não era o custo, mas a incerteza. Ficou claro que os clientes não confiavam mais no nosso prazo de pagamento.
 
-* Entrevistas com os 20 maiores lojistas revelaram que **78% citavam previsibilidade de caixa** como razão de churn.
-* Apenas **12% mencionavam tarifa.**
-* A dor estava clara: **clientes não confiavam no nosso tempo de pagamento**.
+### 2. **Invenção do ‘Settlement Graph’**
+Com o diagnóstico em mãos, desenhei um modelo de decisão em tempo real que chamei de ‘Settlement Graph’. O modelo utilizava machine learning para categorizar transações com base em mais de 50 variáveis, como histórico do lojista, padrão de vendas, sazonalidade e score de fraude. Para validar a hipótese, rodei uma simulação com **2,1 milhões de transações históricas**, que provou que **73% do volume poderia ter sido liquidado em D+0 com um aumento de risco marginal, inferior a 0,05%**.
 
-### 2. **Criação do ‘Settlement Graph’**
+### 3. **Liderança Técnica e Simplificação Radical**
+Liderei três squads de engenharia (18 pessoas) na reescrita do motor de conciliação. Adotamos uma arquitetura baseada em microsserviços, o que nos permitiu eliminar **19 das 27 integrações legadas** que geravam latência e pontos de falha. Implementamos **cache distribuído com Redis e filas assíncronas com RabbitMQ**, alcançando uma latência de processamento inferior a **200 ms**. Minha função foi definir a visão técnica, remover impedimentos e garantir que as equipes mantivessem o foco na experiência do cliente.
 
-* Desenvolvi um modelo de decisão em tempo real que categorizava transações por risco com base em:
-
-  * Histórico,
-  * Padrão de vendas,
-  * Score de inadimplência.
-* Simulei **2,1 milhões de transações históricas**.
-  → Resultado: **73% poderiam ser liquidadas no mesmo dia sem aumento significativo de risco**.
-
-### 3. **Redesenho técnico com foco no tempo do cliente**
-
-* Liderei três squads para reescrever o motor de conciliação:
-
-  * Eliminei **19 das 27 integrações legadas**.
-  * Implantei **cache distribuído**, **filas assíncronas** e **latência de 200 ms**.
-
-### 4. **Alinhamento com Risco e Stakeholders**
-
-* O comitê de risco resistiu.
-  → Apresentei comparativos de exposição financeira D+3 vs. retenção com D+0.
-  → Propus **fundo de garantia de R$ 8 milhões**, sob minha gestão, com **auditoria externa semanal**.
-  → Aprovado por unanimidade.`,
+### 4. **Negociação Estratégica com Stakeholders**
+O comitê de risco foi meu maior desafio. Eles viam a antecipação como uma ameaça à estabilidade financeira. Em vez de um debate técnico, apresentei uma análise de negócio: comparei a exposição financeira marginal do D+0 com a perda de receita garantida pela evasão de clientes. Para selar o acordo, propus a criação de um **fundo de garantia de R$ 8 milhões**, provisionado com base no meu modelo de risco e sob minha gestão, com **auditorias externas semanais** para garantir total transparência. A proposta foi aprovada por unanimidade.`,
     r: `Em **8 meses**, entregamos:
 
 * **D+0 em 82%** do volume.
@@ -104,37 +86,19 @@ Without a response, the marketplaces unit would collapse within six months.
 * And reposition the platform as a **benchmark for simple and reliable liquidity**.
 
 The challenge went beyond engineering: it was about **regaining customer trust through experience**.`,
-    a: `I turned the crisis into a case of **extreme Customer Obsession**.
+    a: `I took the lead in responding to the crisis, turning it into a case of **extreme Customer Obsession** and executing on four parallel fronts.
 
-### 1. **Customer-Focused Diagnosis**
+### 1. **Deep Customer Immersion**
+Instead of analyzing reports, I went into the field. I organized and personally conducted interviews with the 20 largest merchants, who represented 40% of our TPV. I discovered that **78% of them cited unpredictable cash flow** as the main reason for churn, while only 12% mentioned fees. The pain was not the cost, but the uncertainty. It became clear that customers no longer trusted our payment timeline.
 
-* Interviews with the 20 largest merchants revealed that **78% cited cash flow predictability** as the reason for churn.
-* Only **12% mentioned fees.**
-* The pain was clear: **customers did not trust our payment times**.
+### 2. **Invention of the ‘Settlement Graph’**
+With the diagnosis in hand, I designed a real-time decision model I called the ‘Settlement Graph’. The model used machine learning to categorize transactions based on over 50 variables, such as merchant history, sales patterns, seasonality, and fraud score. To validate the hypothesis, I ran a simulation with **2.1 million historical transactions**, which proved that **73% of the volume could have been settled on D+0 with a marginal risk increase of less than 0.05%**.
 
-### 2. **Creation of the ‘Settlement Graph’**
+### 3. **Technical Leadership and Radical Simplification**
+I led three engineering squads (18 people) in rewriting the reconciliation engine. We adopted a microservices-based architecture, which allowed us to eliminate **19 of the 27 legacy integrations** that caused latency and points of failure. We implemented **distributed caching with Redis and asynchronous queues with RabbitMQ**, achieving a processing latency of less than **200 ms**. My role was to define the technical vision, remove impediments, and ensure the teams remained focused on the customer experience.
 
-* I developed a real-time decision model that categorized transactions by risk based on:
-
-  * History,
-  * Sales patterns,
-  * Delinquency score.
-* I simulated **2.1 million historical transactions**.
-  → Result: **73% could be settled on the same day without a significant increase in risk**.
-
-### 3. **Technical Redesign with a Focus on Customer Time**
-
-* I led three squads to rewrite the reconciliation engine:
-
-  * Eliminated **19 of the 27 legacy integrations**.
-  * Implemented **distributed caching**, **asynchronous queues**, and **200 ms latency**.
-
-### 4. **Alignment with Risk and Stakeholders**
-
-* The risk committee resisted.
-  → I presented comparisons of D+3 financial exposure vs. retention with D+0.
-  → I proposed an **R$8 million guarantee fund**, under my management, with **weekly external audits**.
-  → Unanimously approved.`,
+### 4. **Strategic Negotiation with Stakeholders**
+The risk committee was my biggest challenge. They saw early settlement as a threat to financial stability. Instead of a technical debate, I presented a business analysis: I compared the marginal financial exposure of D+0 with the guaranteed revenue loss from customer churn. To seal the deal, I proposed the creation of an **R$8 million guarantee fund**, provisioned based on my risk model and under my management, with **weekly external audits** to ensure full transparency. The proposal was unanimously approved.`,
     r: `In **8 months**, we delivered:
 
 * **D+0 on 82%** of the volume.

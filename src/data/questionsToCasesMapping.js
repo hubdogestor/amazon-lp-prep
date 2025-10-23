@@ -20,7 +20,7 @@ export const questionsToCasesMapping = {
     "14": { "options": [{ "caseId": "bradesco-elderly-digital-inclusion", "score": 100 }] },
     "15": { "options": [{ "caseId": "unimed-pet-anticipation", "score": 100 }] },
     "16": { "options": [{ "caseId": "sefaz-emergency-tax-portal-co9", "score": 100 }] },
-    "17": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }, { "caseId": "payment-simplification-high-impact-co10", "score": 90 }] },
+    "17": { "options": [{ "caseId": "payment-simplification-high-impact-co10", "score": 100 }, { "caseId": "sicredi-premium-recovery", "score": 90 }] },
     "18": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }] }
   },
   "ownership": {
