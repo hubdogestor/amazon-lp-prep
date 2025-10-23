@@ -24,14 +24,14 @@ export const questionsToCasesMapping = {
     "18": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }] }
   },
   "ownership": {
-    "1": { "options": [{ "caseId": "hsbc-migration-leadership", "score": 100 }] },
+    "1": { "options": [{ "caseId": "hsbc-migration-leadership", "score": 100 }, { "caseId": "unimed-cvc-failure-learning-os9", "score": 90 }] },
     "2": { "options": [{ "caseId": "sefaz-pmo-creation", "score": 100 }] },
     "3": { "options": [{ "caseId": "long-term-tradeoff", "score": 100 }] },
     "4": { "options": [{ "caseId": "hsbc-payment-reconciliation", "score": 100 }] },
     "5": { "options": [{ "caseId": "bradesco-next-delay", "score": 100 }] },
     "6": { "options": [{ "caseId": "sefaz-emergency-rollback-no-approval", "score": 100 }] },
     "7": { "options": [{ "caseId": "payment-incidents-prevention-mechanism", "score": 100 }] },
-    "8": { "options": [{ "caseId": "bradesco-next-delay", "score": 100 }] },
+    "8": { "options": [{ "caseId": "unimed-cvc-failure-learning-os9", "score": 100 }] },
     "9": { "options": [{ "caseId": "hsbc-migration-leadership", "score": 100 }] },
     "10": { "options": [{ "caseId": "payment-incidents-prevention-mechanism", "score": 100 }] },
     "11": { "options": [{ "caseId": "hsbc-payment-reconciliation", "score": 100 }] },
@@ -43,7 +43,7 @@ export const questionsToCasesMapping = {
     "17": { "options": [{ "caseId": "payment-incidents-prevention-mechanism", "score": 100 }] },
     "18": { "options": [{ "caseId": "long-term-tradeoff", "score": 100 }] },
     "19": { "options": [{ "caseId": "sefaz-emergency-rollback-no-approval", "score": 100 }] },
-    "20": { "options": [{ "caseId": "long-term-tradeoff", "score": 100 }] },
+    "20": { "options": [{ "caseId": "long-term-tradeoff", "score": 100 }, { "caseId": "unimed-cvc-failure-learning-os9", "score": 90 }] },
     "21": { "options": [{ "caseId": "sefaz-emergency-rollback-no-approval", "score": 100 }] }
   },
   "invent_and_simplify": {
