@@ -9,18 +9,150 @@ const case_10 = {
   isTopCase: true,
   isGoodCase: true,
   pt: {
-    s: "Em 2017, como Product Owner de Liquidez no Bradesco Fintech Hub, recebi um alerta crítico do CEO do nosso maior cliente: “Vou migrar para a Stone, eles pagam no mesmo dia.” Nossa liquidação ainda operava em D+3, enquanto concorrentes como Stone e PagSeguro já ofereciam D+0. Em três meses, perdemos 23% da base, o NPS caiu para 29, e R$ 2,4 bilhões em volume transacionado estavam em risco. Se não agíssemos, a unidade de marketplaces entraria em colapso em até seis meses. Priorizei o problema porque a dor do cliente era urgente, clara e colocava em risco nosso core business.",
-    t: "Recebi a missão de entregar D+0 para pelo menos 80% do volume de pagamentos, manter os chargebacks abaixo de 0,35% e reposicionar a plataforma como referência em liquidez simples e confiável. Minha responsabilidade era equilibrar simplificação técnica com segurança operacional e reconquistar a confiança dos clientes.",
-    a: "Transformei a crise em uma oportunidade para agir com obsessão pelo cliente. Primeiro, entrevistei os 20 maiores lojistas e descobri que 78% apontavam previsibilidade de caixa como o principal motivo de churn. Criei o 'Settlement Graph' — um modelo de decisão em tempo real que categorizava transações por risco com base em histórico, padrão de vendas e inadimplência. Ao simular mais de 2 milhões de transações, descobri que 73% poderiam ser liquidadas no mesmo dia sem comprometer a segurança. Com base nisso, liderei três squads para redesenhar a arquitetura do motor de conciliação: removi 19 das 27 integrações legadas, implementei cache distribuído e filas assíncronas, reduzindo a latência para 200 ms. Ao enfrentar resistência do comitê de risco, preparei cenários de exposição comparando perdas esperadas em D+3 vs. receita retida com D+0. Propus um fundo de garantia de R$ 8 milhões sob minha gestão direta, com auditoria externa semanal. A proposta foi aprovada por unanimidade após duas sessões.",
-    r: "Em oito meses, atingimos D+0 para 82% do volume. O NPS subiu de 29 para 71, o churn caiu 4,5 pontos e retivemos R$ 2,4 bilhões em volume transacionado. A nova arquitetura reduziu reconciliações tardias em 48%, aumentou a eficiência em 18% frente a bancos digitais equivalentes e gerou R$ 19 milhões em receita incremental com economia de R$ 7,4 milhões. A solução foi expandida para cartões corporativos e pagamentos cross-border, elevando o D+0 em 36% no ano seguinte. Mais do que performance técnica, o modelo reconectou a empresa à dor do cliente e transformou liquidez em diferencial competitivo.",
-    l: "Aprendi que agir com obsessão pelo cliente exige escutar ativamente a dor real — neste caso, a incerteza de caixa — e redesenhar processos a partir dela. O 'Settlement Graph' mostrou que é possível simplificar sem perder controle. Desde então, uso esse framework para avaliar produtos: ouvir o cliente, remover camadas desnecessárias e criar mecanismos seguros para decisões mais rápidas."
+    s: `Em 2017, como Product Owner de Liquidez no **Bradesco Fintech Hub**, recebi um alerta direto do CEO de nosso maior cliente:
+
+> “Vou migrar para a Stone. Eles pagam no mesmo dia.”
+
+Na época, nossa liquidação ainda operava em **D+3**, enquanto concorrentes como **Stone e PagSeguro** já entregavam **D+0**.
+
+Em apenas **três meses**:
+
+* Perdemos **23% da base**,
+* NPS despencou para **29**,
+* R$ **2,4 bilhões** em volume transacionado estavam em risco.
+
+Era claro: **a dor do cliente era previsibilidade de caixa, não tarifa.**
+Sem resposta, a unidade de marketplaces colapsaria em seis meses.
+**Agir rápido e com foco no cliente era a única estratégia possível.**`,
+    t: `Minha missão era:
+
+* Entregar **liquidação D+0 para pelo menos 80%** do volume,
+* Manter chargebacks **abaixo de 0,35%**,
+* E reposicionar a plataforma como **referência em liquidez simples e confiável**.
+
+O desafio ia além de engenharia: era **reconquistar a confiança do cliente por meio da experiência**.`,
+    a: `Transformei a crise em um caso de **Customer Obsession extremo**.
+
+### 1. **Diagnóstico com foco no cliente**
+
+* Entrevistas com os 20 maiores lojistas revelaram que **78% citavam previsibilidade de caixa** como razão de churn.
+* Apenas **12% mencionavam tarifa.**
+* A dor estava clara: **clientes não confiavam no nosso tempo de pagamento**.
+
+### 2. **Criação do ‘Settlement Graph’**
+
+* Desenvolvi um modelo de decisão em tempo real que categorizava transações por risco com base em:
+
+  * Histórico,
+  * Padrão de vendas,
+  * Score de inadimplência.
+* Simulei **2,1 milhões de transações históricas**.
+  → Resultado: **73% poderiam ser liquidadas no mesmo dia sem aumento significativo de risco**.
+
+### 3. **Redesenho técnico com foco no tempo do cliente**
+
+* Liderei três squads para reescrever o motor de conciliação:
+
+  * Eliminei **19 das 27 integrações legadas**.
+  * Implantei **cache distribuído**, **filas assíncronas** e **latência de 200 ms**.
+
+### 4. **Alinhamento com Risco e Stakeholders**
+
+* O comitê de risco resistiu.
+  → Apresentei comparativos de exposição financeira D+3 vs. retenção com D+0.
+  → Propus **fundo de garantia de R$ 8 milhões**, sob minha gestão, com **auditoria externa semanal**.
+  → Aprovado por unanimidade.`,
+    r: `Em **8 meses**, entregamos:
+
+* **D+0 em 82%** do volume.
+* NPS subiu de **29 para 71**.
+* Churn caiu **4,5 pontos**.
+* **R$ 2,4 bilhões** retidos em volume transacionado.
+* Reconciliações tardias caíram **48%**.
+* Eficiência 18% superior a bancos digitais concorrentes.
+* **R$ 19 milhões** em receita incremental + **R$ 7,4 milhões** em economia.
+
+O modelo foi **expandido para cartões corporativos e pagamentos cross-border**, elevando o D+0 em **36% no ano seguinte**.`,
+    l: `Aprendi que **obsessão pelo cliente começa com escuta ativa e termina com simplificação radical**.
+
+* O ‘Settlement Graph’ provou que é possível **entregar agilidade com segurança.**
+* Desde então, aplico esse modelo em todo novo produto:
+  → Ouvir,
+  → Remover complexidades desnecessárias,
+  → E criar sistemas confiáveis para decisões mais rápidas.`
   },
   en: {
-    s: "In 2017, as Product Owner for Liquidity at Bradesco Fintech Hub, I received a critical alert from our largest client’s CEO: “We’re switching to Stone—they pay same-day.” Our settlement ran on D+3 while competitors like Stone and PagSeguro offered D+0. In one quarter, we lost 23% of clients, NPS dropped to 29, and BRL 2.4 billion in TPV was at risk. If nothing changed, the marketplace business would collapse within six months. I prioritized the issue because customer pain was urgent, measurable, and core to our business model.",
-    t: "I was tasked with delivering D+0 for at least 80% of payment volume, keeping chargebacks under 0.35%, and repositioning the platform as a reliable, simple liquidity engine. My job was to balance technical simplification with operational risk control while restoring customer trust.",
-    a: "I turned the crisis into a Customer Obsession opportunity. I first interviewed our top 20 merchants and found that 78% cited cash predictability as their top reason for churning. I created the 'Settlement Graph' — a real-time risk model classifying transactions by history, patterns, and delinquency. Simulating over 2 million transactions revealed 73% could be settled same-day without increasing risk. I led three squads to redesign the reconciliation engine: removed 19 of 27 legacy integrations, implemented distributed cache and async queues, reducing latency to 200 ms. When the risk committee resisted, I presented loss vs. retention scenarios using three years of TPV. I proposed an internal BRL 8M guarantee fund under my ownership, with independent weekly audits. The proposal was unanimously approved after two sessions.",
-    r: "In eight months, we reached D+0 for 82% of payment volume. NPS rose from 29 to 71, churn dropped 4.5 points, and we retained BRL 2.4B in TPV. The new system cut late reconciliations by 48%, delivered 18% higher efficiency than digital peers, and generated BRL 19M in incremental revenue and BRL 7.4M in savings. The solution scaled to corporate cards and cross-border payments, growing D+0 share by 36% the following year. More than performance, the solution reconnected the company with real customer pain and turned liquidity into a competitive edge.",
-    l: "I learned that Customer Obsession starts with listening deeply to real pain—like cash unpredictability—and redesigning from there. The 'Settlement Graph' proved you can simplify without losing control. I now use this approach to assess products: start from the voice of the customer, eliminate friction, and build secure systems that enable faster, trusted decisions."
+    s: `In 2017, as the Product Owner for Liquidity at **Bradesco Fintech Hub**, I received a direct alert from the CEO of our largest client:
+
+> “I’m moving to Stone. They pay on the same day.”
+
+At the time, our settlement still operated on a **D+3** basis, while competitors like **Stone and PagSeguro** were already delivering **D+0**.
+
+In just **three months**:
+
+* We lost **23% of our client base**,
+* NPS plummeted to **29**,
+* R$**2.4 billion** in transaction volume was at risk.
+
+It was clear: **the customer's pain was cash flow predictability, not fees.**
+Without a response, the marketplaces unit would collapse within six months.
+**Acting quickly and with a customer focus was the only possible strategy.**`,
+    t: `My mission was to:
+
+* Deliver **D+0 settlement for at least 80%** of the volume,
+* Keep chargebacks **below 0.35%**,
+* And reposition the platform as a **benchmark for simple and reliable liquidity**.
+
+The challenge went beyond engineering: it was about **regaining customer trust through experience**.`,
+    a: `I turned the crisis into a case of **extreme Customer Obsession**.
+
+### 1. **Customer-Focused Diagnosis**
+
+* Interviews with the 20 largest merchants revealed that **78% cited cash flow predictability** as the reason for churn.
+* Only **12% mentioned fees.**
+* The pain was clear: **customers did not trust our payment times**.
+
+### 2. **Creation of the ‘Settlement Graph’**
+
+* I developed a real-time decision model that categorized transactions by risk based on:
+
+  * History,
+  * Sales patterns,
+  * Delinquency score.
+* I simulated **2.1 million historical transactions**.
+  → Result: **73% could be settled on the same day without a significant increase in risk**.
+
+### 3. **Technical Redesign with a Focus on Customer Time**
+
+* I led three squads to rewrite the reconciliation engine:
+
+  * Eliminated **19 of the 27 legacy integrations**.
+  * Implemented **distributed caching**, **asynchronous queues**, and **200 ms latency**.
+
+### 4. **Alignment with Risk and Stakeholders**
+
+* The risk committee resisted.
+  → I presented comparisons of D+3 financial exposure vs. retention with D+0.
+  → I proposed an **R$8 million guarantee fund**, under my management, with **weekly external audits**.
+  → Unanimously approved.`,
+    r: `In **8 months**, we delivered:
+
+* **D+0 on 82%** of the volume.
+* NPS increased from **29 to 71**.
+* Churn fell by **4.5 points**.
+* **R$2.4 billion** in transaction volume retained.
+* Late reconciliations dropped by **48%**.
+* 18% higher efficiency than competing digital banks.
+* **R$19 million** in incremental revenue + **R$7.4 million** in savings.
+
+The model was **expanded to corporate cards and cross-border payments**, increasing D+0 by **36% the following year**.`,
+    l: `I learned that **customer obsession begins with active listening and ends with radical simplification**.
+
+* The ‘Settlement Graph’ proved that it is possible to **deliver agility with security.**
+* Since then, I have applied this model to every new product:
+  → Listen,
+  → Remove unnecessary complexities,
+  → And create reliable systems for faster decisions.`
   },
   fups: [
     {
