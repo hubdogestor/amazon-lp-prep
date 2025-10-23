@@ -4,12 +4,12 @@
 
 export const questionsToCasesMapping = {
   "customer_obsession": {
-    "1": { "options": [{ "caseId": "unimed-pet-anticipation", "score": 100 }] },
+    "1": { "options": [{ "caseId": "unimed-pet-anticipation", "score": 100 }, { "caseId": "sefaz-emergency-tax-portal-co9", "score": 90 }] },
     "2": { "options": [{ "caseId": "bradesco-elderly-digital-inclusion", "score": 100 }] },
     "3": { "options": [{ "caseId": "sicredi-woop-segment-balance", "score": 100 }] },
     "4": { "options": [{ "caseId": "unimed-pet-anticipation", "score": 100 }] },
     "5": { "options": [{ "caseId": "unimed-cancer-patient-journey", "score": 100 }] },
-    "6": { "options": [{ "caseId": "sicredi-fraud-prevention-experience", "score": 100 }] },
+    "6": { "options": [{ "caseId": "sicredi-fraud-prevention-experience", "score": 100 }, { "caseId": "payment-simplification-high-impact-co10", "score": 90 }] },
     "7": { "options": [{ "caseId": "sicredi-chargeback-proactive-resolution", "score": 100 }] },
     "8": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }] },
     "9": { "options": [{ "caseId": "sicredi-woop-segment-balance", "score": 100 }] },
@@ -19,8 +19,8 @@ export const questionsToCasesMapping = {
     "13": { "options": [{ "caseId": "sicredi-woop-segment-balance", "score": 100 }] },
     "14": { "options": [{ "caseId": "bradesco-elderly-digital-inclusion", "score": 100 }] },
     "15": { "options": [{ "caseId": "unimed-pet-anticipation", "score": 100 }] },
-    "16": { "options": [{ "caseId": "unimed-cancer-patient-journey", "score": 100 }] },
-    "17": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }] },
+    "16": { "options": [{ "caseId": "sefaz-emergency-tax-portal-co9", "score": 100 }] },
+    "17": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }, { "caseId": "payment-simplification-high-impact-co10", "score": 90 }] },
     "18": { "options": [{ "caseId": "sicredi-premium-recovery", "score": 100 }] }
   },
   "ownership": {
