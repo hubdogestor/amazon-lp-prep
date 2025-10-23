@@ -8,7 +8,7 @@ import case5 from './ownership_case5.js';
 import case6 from './ownership_case6.js';
 import case7 from './ownership_case7.js';
 import case8 from './ownership_case8.js';
-import case8 from './ownership_case9.js';
+import case9 from './ownership_case9.js';
 
 
 export default {
