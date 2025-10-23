@@ -1,4 +1,4 @@
-const case_6 = {
+const case_9 = {
   "id": "unimed-cvc-failure-learning-os9",
   "title": "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed",
   "title_pt": "Falhei no lançamento do CVC, aprendi com DMAIC e criei o Vibee Unimed",
